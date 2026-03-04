@@ -65,7 +65,7 @@ async function buildQuartz(argv: Argv, mut: Mutex, clientRefresh: () => void) {
 
   const release = await mut.acquire()
   perf.addEvent("clean")
-  await rimraf(path.join(output, "*"), { glob: true })
+  await rimraf(path.join(output, "*"), { glob: true, maxRetries: 3, backoff: 1.5 })
   console.log(`Cleaned output directory \`${output}\` in ${perf.timeSince("clean")}`)
 
   perf.addEvent("glob")
@@ -315,7 +315,7 @@ async function partialRebuildFromEntrypoint(
       })
     })
   }
-  await rimraf([...destinationsToDelete])
+  await rimraf([...destinationsToDelete], { maxRetries: 3, backoff: 1.5 })
 
   console.log(chalk.green(`Done rebuilding in ${perf.timeSince()}`))
 
@@ -397,7 +397,7 @@ async function rebuildFromEntrypoint(
 
     // TODO: we can probably traverse the link graph to figure out what's safe to delete here
     // instead of just deleting everything
-    await rimraf(path.join(argv.output, ".*"), { glob: true })
+    await rimraf(path.join(argv.output, ".*"), { glob: true, maxRetries: 3, backoff: 1.5 })
     await emitContent(ctx, filteredContent)
     console.log(chalk.green(`Done rebuilding in ${perf.timeSince()}`))
   } catch (err) {
