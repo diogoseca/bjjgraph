@@ -1,0 +1,5 @@
+relative_path,plan
+source/content/Techniques/Pummeling.md,Create dedicated technique page for pummeling drill; covers definition, step-by-step guide, and applications in BJJ/wrestling clinch; targets high-volume query 'what is pummeling in BJJ'
+source/content/Positions/Collar Tie.md,Create hub page for collar tie position; covers grips, setups, snap-down entries, and knee-tap entries; referenced across multiple existing pages without a canonical hub
+source/content/Techniques/Snap Down.md,Create technique page for snap-down; covers execution steps, entry conditions, and chain to front headlock/guillotine; referenced 4+ times in Clinch article without its own page
+source/content/Guides/Clinch vs MMA.md,Create comparison guide: BJJ clinch vs MMA clinch vs wrestling clinch; covers shared grips, divergent objectives, rule differences; targets high-intent cross-discipline comparison queries
