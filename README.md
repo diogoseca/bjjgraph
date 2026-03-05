@@ -8,7 +8,7 @@
 
 Brazilian Jiu-Jitsu knowledge graph and state machine as a static site.
 
-**Live Site**: [bjjgraph.org](https://bjjgraph.org)
+**Production**: [bjjgraph.org](https://bjjgraph.org) | **Dev Preview**: [dev.bjjgraph.pages.dev](https://dev.bjjgraph.pages.dev)
 
 ## What's Inside
 
