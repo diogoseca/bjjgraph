@@ -1,0 +1,142 @@
+PAA CONTEXT SUMMARY — BJJGraph AI SEO Analysis
+Generated: 2026-03-05
+Articles Processed: 2
+
+================================================================================
+TOTALS
+================================================================================
+Total PAA questions found:          20
+  High-priority questions:          9
+  Medium-priority questions:        8
+  Low-priority questions:           3
+
+Total heading optimizations:        12
+Total missing content opportunities: 15
+
+================================================================================
+ARTICLE 1: BJJ Submissions Chart Guide
+================================================================================
+Seed Keyword: "BJJ Submissions Chart"
+File: source/content/Learning/BJJ Submissions Chart Guide.md
+
+PAA Questions (10):
+  HIGH PRIORITY (4):
+    1. What is the most effective submission in BJJ?
+       → Strategy: improve_heading (reframe rankings section)
+    2. What submissions should a BJJ white belt learn first?
+       → Strategy: improve_heading (reframe "White Belt Priority" as Q)
+    3. How do BJJ submission chains work?
+       → Strategy: improve_heading (reframe "Submission Chains" section)
+    4. Are heel hooks dangerous in BJJ?
+       → Strategy: dedicated_faq (safety callout with direct answer)
+
+  MEDIUM PRIORITY (4):
+    5. What BJJ submissions work from guard?
+       → Strategy: improve_heading (guard section header as question)
+    6. What is the difference between blood choke and air choke?
+       → Strategy: add_section (FAQ callout in Chokes section)
+    7. What is the Kimura submission in BJJ?
+       → Strategy: improve_heading (expand Kimura rankings entry)
+    8. How do you escape a rear naked choke in BJJ?
+       → Strategy: add_section (defensive counterpart section)
+
+  LOW PRIORITY (2):
+    9. What is a submission rate in BJJ competition?
+       → Strategy: dedicated_faq (define key term used throughout)
+   10. What submissions are legal in IBJJF competitions?
+       → Strategy: add_section (IBJJF rules table by belt level)
+
+Top Heading Optimizations:
+  - "Understanding Submission Categories" → "What Are the Main BJJ Submission Categories?"
+  - "Position-Based Submission Charts" → "Which BJJ Submissions Are Available from Each Position?"
+  - "Top 10 High-Percentage Submissions Ranked" → "What Are the Highest-Percentage Submissions in BJJ?"
+  - "Safety Considerations" → "How Do You Practice BJJ Submissions Safely?"
+
+Top Content Gaps:
+  - IBJJF legal submissions by belt level (table) — HIGH VALUE, zero current coverage
+  - Defensive techniques for each submission category — doubles keyword surface
+  - FAQ block at page bottom (beginner questions, time-to-learn, fastest submission)
+  - Visual submission chart organized by position (what users expect from title)
+  - No-gi vs gi submission differences section
+
+================================================================================
+ARTICLE 2: Learning Psychology
+================================================================================
+Seed Keyword: "BJJ learning psychology"
+File: source/content/Learning/Learning Psychology.md
+
+PAA Questions (10):
+  HIGH PRIORITY (5):
+    1. How long does it take to learn BJJ?
+       → Strategy: dedicated_faq (most-searched BJJ learning query, MISSING)
+    2. How do you learn BJJ techniques faster?
+       → Strategy: improve_heading (reframe "Learning Optimization Strategies")
+    3. What is deliberate practice in martial arts?
+       → Strategy: improve_heading (add concise definition callout)
+    4. What is spaced repetition and how does it apply to BJJ?
+       → Strategy: add_section (practical implementation example missing)
+    5. Why do BJJ white belts learn slowly?
+       → Strategy: dedicated_faq (high-empathy query, currently missing)
+
+  MEDIUM PRIORITY (4):
+    6. Does drilling really help in BJJ?
+       → Strategy: dedicated_faq (common debate, needs direct answer)
+    7. How does muscle memory work in BJJ?
+       → Strategy: improve_heading (reframe "Neurological Basis" section)
+    8. Is BJJ good for mental health?
+       → Strategy: add_section (adjacent high-volume query, zero coverage)
+    9. How do you get better at BJJ without training?
+       → Strategy: add_section (off-mat learning strategies consolidated)
+
+  LOW PRIORITY (1):
+   10. What is contextual interference in sports training?
+       → Strategy: improve_heading (reframe with user vocabulary)
+
+Top Heading Optimizations:
+  - "Framework Description" → "What Is Learning Psychology in BJJ?"
+  - "Learning Optimization Strategies" → "How Do You Learn BJJ Techniques Faster?"
+  - "Common Mistakes" → "What Mistakes Slow Down BJJ Learning?"
+  - "Neurological Basis" → "How Does BJJ Training Change Your Brain? (Muscle Memory Explained)"
+
+Top Content Gaps:
+  - Belt progression timelines (blue/black belt hours) — #1 missing query for this article
+  - Off-mat learning strategies section (home practice, injury recovery)
+  - BJJ mental health benefits section
+  - Practical spaced repetition schedule example for beginners
+  - Growth mindset in BJJ section
+  - "5-Step Deliberate Practice Protocol" — actionable framework from theory
+
+================================================================================
+CROSS-ARTICLE CONTENT GAP ANALYSIS
+================================================================================
+Queries with no coverage across either article:
+  1. "How long does it take to get a BJJ black belt?" — CRITICAL GAP
+  2. "IBJJF rules by belt level" — HIGH VALUE
+  3. "BJJ for anxiety and mental health" — GROWING CLUSTER
+  4. "How to train BJJ at home" — HIGH VOLUME (injury/accessibility)
+  5. "No-gi vs gi submissions" — FORMAT-SPECIFIC QUERY CLUSTER
+
+================================================================================
+SUGGESTED NEW ARTICLES (for suggested_new_files.csv)
+================================================================================
+1. "BJJ Belt Progression Guide: How Long Does Each Belt Take?"
+   Captures: time-to-belt queries, training frequency recommendations,
+   milestone benchmarks. Highest PAA volume gap identified.
+
+2. "IBJJF Submission Rules by Belt Level: What's Legal and When"
+   Captures: competition-legal queries, rule comparison across federations,
+   tournament preparation searches.
+
+3. "BJJ for Mental Health: How Jiu-Jitsu Reduces Anxiety and Depression"
+   Captures: growing mental health + martial arts query cluster,
+   strong backlink potential from health/wellness domains.
+
+4. "How to Train BJJ at Home: Off-Mat Improvement Strategies"
+   Captures: at-home practice queries, injury-recovery learning,
+   visualization and drilling without a partner.
+
+5. "No-Gi vs Gi BJJ Submissions: Key Differences and What to Learn First"
+   Captures: format-specific submission queries, beginner format choice
+   decisions, rule-set comparisons.
+
+================================================================================
