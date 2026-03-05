@@ -37,7 +37,7 @@ ArticleTitle.css = `
 .homepage-title {
   font-size: 2rem;
   margin-top: 0;
-  margin-bottom: 0.5rem;
+  margin-bottom: 1rem;
 }
 
 .homepage-title .title-tld {
