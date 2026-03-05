@@ -4,6 +4,7 @@ import { QuartzPluginData } from "../plugins/vfile"
 import { GlobalConfiguration } from "../cfg"
 import { Node } from "hast"
 import { BuildCtx } from "../util/ctx"
+import { FullSlug } from "../util/path"
 
 export type QuartzComponentProps = {
   ctx: BuildCtx
@@ -13,6 +14,7 @@ export type QuartzComponentProps = {
   children: (QuartzComponent | JSX.Element)[]
   tree: Node
   allFiles: QuartzPluginData[]
+  slugMap?: Map<FullSlug, QuartzPluginData>
   displayClass?: "mobile-only" | "desktop-only" | "not-desktop"
 } & JSX.IntrinsicAttributes & {
     [key: string]: any

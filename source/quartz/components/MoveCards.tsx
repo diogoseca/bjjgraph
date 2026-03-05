@@ -6,12 +6,13 @@ import script from "./scripts/moveCards.inline"
 const MoveCards: QuartzComponent = ({ fileData, displayClass }: QuartzComponentProps) => {
   // Only render on position pages with top/bottom roles
   const slug = fileData.slug ?? ""
+  const slugLower = slug.toLowerCase()
   const isPositionPage =
-    slug.startsWith("Positions/") &&
-    (slug.endsWith("/Top") ||
-      slug.endsWith("/Bottom") ||
-      slug.includes("/Top/") ||
-      slug.includes("/Bottom/"))
+    slugLower.startsWith("positions/") &&
+    (slugLower.endsWith("/top") ||
+      slugLower.endsWith("/bottom") ||
+      slugLower.includes("/top/") ||
+      slugLower.includes("/bottom/"))
 
   if (!isPositionPage) {
     return null

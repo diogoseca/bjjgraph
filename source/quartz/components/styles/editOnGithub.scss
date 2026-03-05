@@ -12,7 +12,7 @@
   }
 }
 
-a.github-action {
+.github-action {
   display: flex;
   align-items: center;
   gap: 6px;
@@ -20,6 +20,8 @@ a.github-action {
   background-color: var(--light);
   color: var(--dark) !important;
   text-decoration: none;
+  cursor: pointer;
+  font-family: inherit;
   border-radius: 6px;
   font-size: 0.85rem;
   font-weight: 500;
@@ -51,12 +53,12 @@ a.github-action {
   }
 }
 
-a.github-action.edit-page:hover {
+.github-action.edit-page:hover {
   border-color: var(--secondary);
   color: var(--secondary) !important;
 }
 
-a.github-action.bug-report:hover {
+.github-action.bug-report:hover {
   background-color: #ea580c;
   border-color: #ea580c;
   color: #fff !important;

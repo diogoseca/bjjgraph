@@ -14,19 +14,38 @@ export async function emitContent(ctx: BuildCtx, content: ProcessedContent[]) {
 
   let emittedFiles = 0
   const staticResources = getStaticResourcesFromPlugins(ctx)
-  for (const emitter of cfg.plugins.emitters) {
+
+  // Run ComponentResources and Static first (they produce shared output dirs),
+  // then run all remaining emitters in parallel
+  const sequentialNames = new Set(["ComponentResources", "Static"])
+  const sequentialEmitters = cfg.plugins.emitters.filter((e) => sequentialNames.has(e.name))
+  const otherEmitters = cfg.plugins.emitters.filter((e) => !sequentialNames.has(e.name))
+
+  const runEmitter = async (emitter: (typeof cfg.plugins.emitters)[0]) => {
+    const emitterPerf = ctx.argv.verbose ? new PerfTimer() : null
     try {
       const emitted = await emitter.emit(ctx, content, staticResources)
-      emittedFiles += emitted.length
 
       if (ctx.argv.verbose) {
-        for (const file of emitted) {
-          console.log(`[emit:${emitter.name}] ${file}`)
-        }
+        console.log(`[emit:${emitter.name}] ${emitted.length} files in ${emitterPerf!.timeSince()}`)
       }
+
+      return emitted.length
     } catch (err) {
       trace(`Failed to emit from plugin \`${emitter.name}\``, err as Error)
+      return 0
     }
+  }
+
+  // Phase 1: Sequential emitters (shared output dirs, must complete first)
+  for (const emitter of sequentialEmitters) {
+    emittedFiles += await runEmitter(emitter)
+  }
+
+  // Phase 2: All other emitters in parallel
+  const results = await Promise.all(otherEmitters.map(runEmitter))
+  for (const count of results) {
+    emittedFiles += count
   }
 
   log.end(`Emitted ${emittedFiles} files to \`${argv.output}\` in ${perf.timeSince()}`)

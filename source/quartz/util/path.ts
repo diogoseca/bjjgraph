@@ -201,9 +201,72 @@ export function getAllSegmentPrefixes(tags: string): string[] {
   return results
 }
 
+export interface SlugIndex {
+  /** "dir/file" exact match → slug */
+  byExactPath: Map<string, FullSlug>
+  /** suffix (containing /) → slugs ending with that suffix */
+  bySuffix: Map<string, FullSlug[]>
+  /** "dir:file" → slug (same directory siblings) */
+  byDirAndFile: Map<string, FullSlug>
+  /** "parentDir:folder:file" → slug (subdirectory of current file) */
+  byParentDirFolderFile: Map<string, FullSlug>
+  /** "fileName" → all slugs with that filename */
+  byFileName: Map<string, FullSlug[]>
+}
+
+export function buildSlugIndex(allSlugs: FullSlug[]): SlugIndex {
+  const byExactPath = new Map<string, FullSlug>()
+  const bySuffix = new Map<string, FullSlug[]>()
+  const byDirAndFile = new Map<string, FullSlug>()
+  const byParentDirFolderFile = new Map<string, FullSlug>()
+  const byFileName = new Map<string, FullSlug[]>()
+
+  for (const slug of allSlugs) {
+    const parts = slug.split("/")
+    const fileName = parts.at(-1)!
+    const dir = parts.slice(0, -1).join("/")
+
+    // Exact path
+    byExactPath.set(slug, slug)
+
+    // Suffix index: for all suffixes containing "/"
+    // e.g., "a/b/c" → suffixes "b/c" and "a/b/c"
+    for (let i = 1; i < parts.length; i++) {
+      const suffix = parts.slice(i).join("/")
+      let arr = bySuffix.get(suffix)
+      if (!arr) {
+        arr = []
+        bySuffix.set(suffix, arr)
+      }
+      arr.push(slug)
+    }
+
+    // Dir + file index
+    byDirAndFile.set(`${dir}:${fileName}`, slug)
+
+    // Parent dir + folder + file index (for subdirectory matches)
+    if (parts.length >= 2) {
+      const parentDir = parts.slice(0, -2).join("/")
+      const folderName = parts.at(-2)!
+      byParentDirFolderFile.set(`${parentDir}:${folderName}:${fileName}`, slug)
+    }
+
+    // Filename index
+    let fnArr = byFileName.get(fileName)
+    if (!fnArr) {
+      fnArr = []
+      byFileName.set(fileName, fnArr)
+    }
+    fnArr.push(slug)
+  }
+
+  return { byExactPath, bySuffix, byDirAndFile, byParentDirFolderFile, byFileName }
+}
+
 export interface TransformOptions {
   strategy: "absolute" | "relative" | "shortest"
   allSlugs: FullSlug[]
+  slugIndex?: SlugIndex
 }
 
 export function transformLink(src: FullSlug, target: string, opts: TransformOptions): RelativeURL {
@@ -222,63 +285,93 @@ export function transformLink(src: FullSlug, target: string, opts: TransformOpti
       const srcFileName = src.split("/").at(-1)?.replace(/\.md$/, "") // e.g., "Mount" from "Mount.md"
       const targetParts = targetCanonical.split("/")
 
-      // STEP 1: Try partial path relative to source directory
-      // [[Mount/High Mount]] from /Positions/X.md → /Positions/Mount/High Mount
-      // [[High Mount/Top]] from /Positions/Mount.md → /Positions/Mount/High Mount/Top
-      const partialPathMatch = opts.allSlugs.find((slug) => {
-        // Check if slug ends with the target path when joined with srcDir
+      // Use pre-built index for O(1) lookups when available
+      const idx = opts.slugIndex
+
+      if (idx) {
+        // STEP 1: Try partial path relative to source directory
         const candidatePath = `${srcDir}/${targetCanonical}`
-        // Only use endsWith for partial paths (containing /), not single names
-        if (targetCanonical.includes("/")) {
-          return slug === candidatePath || slug.endsWith(`/${targetCanonical}`)
-        } else {
-          return slug === candidatePath
+        let partialPathMatch = idx.byExactPath.get(candidatePath)
+        if (!partialPathMatch && targetCanonical.includes("/")) {
+          // Check suffix matches
+          const suffixMatches = idx.bySuffix.get(targetCanonical)
+          if (suffixMatches) {
+            partialPathMatch = suffixMatches.find(
+              (s) => s === candidatePath || s.endsWith(`/${targetCanonical}`),
+            )
+          }
         }
-      })
-      if (partialPathMatch) {
-        return (resolveRelative(src, partialPathMatch) + targetAnchor) as RelativeURL
-      }
+        if (partialPathMatch) {
+          return (resolveRelative(src, partialPathMatch) + targetAnchor) as RelativeURL
+        }
 
-      // STEP 2: Check same directory (siblings)
-      // [[Bottom]] from /Positions/Mount.md → /Positions/Bottom.md (if exists)
-      const sameDirMatch = opts.allSlugs.find((slug) => {
-        const slugDir = slug.split("/").slice(0, -1).join("/")
-        const slugFile = slug.split("/").at(-1)
-        return slugDir === srcDir && targetCanonical === slugFile
-      })
-      if (sameDirMatch) {
-        return (resolveRelative(src, sameDirMatch) + targetAnchor) as RelativeURL
-      }
+        // STEP 2: Check same directory (siblings)
+        const sameDirMatch = idx.byDirAndFile.get(`${srcDir}:${targetCanonical}`)
+        if (sameDirMatch) {
+          return (resolveRelative(src, sameDirMatch) + targetAnchor) as RelativeURL
+        }
 
-      // STEP 3: Check subdirectory from current file
-      // [[High Mount]] from /Positions/Mount.md → /Positions/Mount/High Mount.md
-      // [[Bottom]] from /Positions/Mount.md → /Positions/Mount/Bottom.md
-      if (targetParts.length === 1) {
-        // Single part: check under folder named after current file
-        const subDirMatch = opts.allSlugs.find((slug) => {
-          const parts = slug.split("/")
-          if (parts.length < 2) return false
-          const parentDir = parts.slice(0, -2).join("/")
-          const folderName = parts.at(-2)
-          const fileName = parts.at(-1)
-          return parentDir === srcDir && folderName === srcFileName && targetCanonical === fileName
+        // STEP 3: Check subdirectory from current file
+        if (targetParts.length === 1 && srcFileName) {
+          const subDirMatch = idx.byParentDirFolderFile.get(
+            `${srcDir}:${srcFileName}:${targetCanonical}`,
+          )
+          if (subDirMatch) {
+            return (resolveRelative(src, subDirMatch) + targetAnchor) as RelativeURL
+          }
+        }
+
+        // STEP 4: Fall back to global unique check
+        const matchingFileNames = idx.byFileName.get(targetCanonical)
+        if (matchingFileNames && matchingFileNames.length === 1) {
+          return (resolveRelative(src, matchingFileNames[0]) + targetAnchor) as RelativeURL
+        }
+      } else {
+        // Fallback: linear scan (no index available)
+        const partialPathMatch = opts.allSlugs.find((slug) => {
+          const candidatePath = `${srcDir}/${targetCanonical}`
+          if (targetCanonical.includes("/")) {
+            return slug === candidatePath || slug.endsWith(`/${targetCanonical}`)
+          } else {
+            return slug === candidatePath
+          }
         })
-        if (subDirMatch) {
-          return (resolveRelative(src, subDirMatch) + targetAnchor) as RelativeURL
+        if (partialPathMatch) {
+          return (resolveRelative(src, partialPathMatch) + targetAnchor) as RelativeURL
         }
-      }
 
-      // STEP 4: Fall back to global unique check (original behavior)
-      const matchingFileNames = opts.allSlugs.filter((slug) => {
-        const parts = slug.split("/")
-        const fileName = parts.at(-1)
-        return targetCanonical === fileName
-      })
+        const sameDirMatch = opts.allSlugs.find((slug) => {
+          const slugDir = slug.split("/").slice(0, -1).join("/")
+          const slugFile = slug.split("/").at(-1)
+          return slugDir === srcDir && targetCanonical === slugFile
+        })
+        if (sameDirMatch) {
+          return (resolveRelative(src, sameDirMatch) + targetAnchor) as RelativeURL
+        }
 
-      // only match, just use it
-      if (matchingFileNames.length === 1) {
-        const targetSlug = matchingFileNames[0]
-        return (resolveRelative(src, targetSlug) + targetAnchor) as RelativeURL
+        if (targetParts.length === 1) {
+          const subDirMatch = opts.allSlugs.find((slug) => {
+            const parts = slug.split("/")
+            if (parts.length < 2) return false
+            const parentDir = parts.slice(0, -2).join("/")
+            const folderName = parts.at(-2)
+            const fileName = parts.at(-1)
+            return parentDir === srcDir && folderName === srcFileName && targetCanonical === fileName
+          })
+          if (subDirMatch) {
+            return (resolveRelative(src, subDirMatch) + targetAnchor) as RelativeURL
+          }
+        }
+
+        const matchingFileNames = opts.allSlugs.filter((slug) => {
+          const parts = slug.split("/")
+          const fileName = parts.at(-1)
+          return targetCanonical === fileName
+        })
+        if (matchingFileNames.length === 1) {
+          const targetSlug = matchingFileNames[0]
+          return (resolveRelative(src, targetSlug) + targetAnchor) as RelativeURL
+        }
       }
     }
 

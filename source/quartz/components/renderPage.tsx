@@ -252,7 +252,7 @@ export function renderPage(
       loadTime: "beforeDOMReady",
       contentType: "inline",
       spaPreserve: true,
-      script: `window.__contentStats=${stats}`,
+      script: `window.__contentStats=${stats};document.addEventListener("nav",()=>{const s=window.__contentStats;if(!s)return;document.querySelectorAll("[data-stat]").forEach(el=>{const k=el.getAttribute("data-stat");if(k&&s[k]!=null)el.textContent=s[k]})})`,
     })
   }
 
@@ -267,7 +267,9 @@ export function renderPage(
       if (classNames.includes("transclude")) {
         const inner = node.children[0] as Element
         const transcludeTarget = inner.properties["data-slug"] as FullSlug
-        const page = componentData.allFiles.find((f) => f.slug === transcludeTarget)
+        const page = componentData.slugMap
+          ? componentData.slugMap.get(transcludeTarget)
+          : componentData.allFiles.find((f) => f.slug === transcludeTarget)
         if (!page) {
           return
         }

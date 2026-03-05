@@ -62,8 +62,11 @@ export default ((userOpts?: Partial<Options>) => {
     // Use relativePath which preserves original filename with spaces
     const relativePath = fileData.relativePath ?? ""
     const slug = fileData.slug ?? ""
-    const pageTitle = fileData.frontmatter?.title ?? slug
     const is404 = slug === "404"
+    const isHomepage = slug === "index" || slug === ""
+
+    // Hide on homepage — clean Google-style landing
+    if (isHomepage) return null
 
     // Determine if this is templated content (has JSON source)
     const templatedPrefixes = [
@@ -75,7 +78,7 @@ export default ((userOpts?: Partial<Options>) => {
     ]
     const isTemplated = templatedPrefixes.some((prefix) => relativePath.startsWith(prefix))
 
-    // Build the source path for both edit and bug report
+    // Build the source path for the edit link
     let sourcePath: string
 
     if (isTemplated) {
@@ -93,11 +96,6 @@ export default ((userOpts?: Partial<Options>) => {
       sourcePath = `content/${relativePath}`
     }
 
-    // Handle index page
-    if (slug === "index" || slug === "") {
-      sourcePath = "content/index.md"
-    }
-
     // URL encode path segments for GitHub (handles spaces -> %20)
     const encodedPath = sourcePath
       .split("/")
@@ -105,38 +103,13 @@ export default ((userOpts?: Partial<Options>) => {
       .join("/")
     const editUrl = `${opts.repoUrl}/edit/${opts.branch}/${encodedPath}`
 
-    // Build bug report URL with prefilled template
-    const pageUrl = `https://bjjgraph.org/${slug}`
-    const bugBody = `## Page
-[${pageTitle}](${pageUrl})
-
-## Source File
-\`${sourcePath}\`
-
-## Bug Description
-<!-- Describe the issue you found -->
-
-## Expected Behavior
-<!-- What should happen instead? -->
-`
-    const bugReportUrl = new URL(`${opts.repoUrl}/issues/new`)
-    bugReportUrl.searchParams.set("title", `Bug on page: ${pageTitle}`)
-    bugReportUrl.searchParams.set("body", bugBody)
-    bugReportUrl.searchParams.set("labels", "bug")
-
     return (
       <div class="github-actions">
-        <a
-          href={bugReportUrl.toString()}
-          class="github-action bug-report"
-          target="_blank"
-          rel="noopener noreferrer"
-          title="Report a bug on this page"
-        >
+        <button class="github-action bug-report" title="Report a bug on this page">
           <BugIcon />
           <span class="full-text">Found a Bug?</span>
           <span class="short-text">Bug?</span>
-        </a>
+        </button>
         {!is404 && (
           <a
             href={editUrl}

@@ -13,8 +13,6 @@ title: BJJ Graph - Interactive Brazilian Jiu-Jitsu Knowledge Base
 }
 </script>
 
-<p class="tagline">BJJ game, mapped. Click through positions, see what's next.</p>
-
 <div class="hero-actions">
   <div class="search-roll-bar">
     <button class="search-trigger" aria-label="Search">
@@ -24,30 +22,19 @@ title: BJJ Graph - Interactive Brazilian Jiu-Jitsu Knowledge Base
       </svg>
       <span class="search-placeholder">Search positions, techniques...</span>
     </button>
-    <button class="roll-trigger" aria-label="Start a roll">
+    <button class="roll-trigger" aria-label="Random position">
       <img src="/static/dice-icon.svg" alt="" class="roll-icon" />
-      <span>Roll</span>
+      <span>Random</span>
     </button>
   </div>
 </div>
 
-<p class="stats" id="content-stats"></p>
-<script>
-document.addEventListener("nav", () => {
-  const el = document.getElementById("content-stats");
-  const s = window.__contentStats;
-  if (el && s) el.textContent = `${s.positions} positions. ${s.transitions} transitions. ${s.submissions} submissions. ${s.principles} principles. ${s.systems} systems.`;
-});
-</script>
-
-<h2 style="display:none;">Browse</h2>
-
-- **[[Positions]]** - Retention, control, and where you are on the mat
-- **[[Transitions]]** - Motion and execution between positions
-- **[[Submissions]]** - Mechanics of how matches end
-- **[[Principles]]** - Concepts that apply everywhere
-- **[[Systems]]** - Structured approaches from top competitors
-
-## How It Works
-
-Click any position to see what leads in and out. Every technique shows success rates. **Roll** to start at a random position and play through the game.
+<div class="stats-grid">
+  <a href="/Positions/" class="stat-link"><span class="stat-number" data-stat="positions">&mdash;</span> positions</a>
+  <a href="/Transitions/" class="stat-link"><span class="stat-number" data-stat="transitions">&mdash;</span> transitions</a>
+  <a href="/Submissions/" class="stat-link"><span class="stat-number" data-stat="submissions">&mdash;</span> submissions</a>
+</div>
+<div class="stats-grid stats-grid-secondary">
+  <a href="/Principles/" class="stat-link"><span class="stat-number" data-stat="principles">&mdash;</span> principles</a>
+  <a href="/Systems/" class="stat-link"><span class="stat-number" data-stat="systems">&mdash;</span> systems</a>
+</div>

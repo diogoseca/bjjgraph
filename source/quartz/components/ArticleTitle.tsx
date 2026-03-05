@@ -7,9 +7,16 @@ const ArticleTitle: QuartzComponent = ({ fileData, displayClass }: QuartzCompone
 
   if (isHomepage) {
     return (
-      <h1 class={classNames(displayClass, "article-title", "homepage-title")}>
-        BJJGraph<span class="title-tld">.org</span>
-      </h1>
+      <>
+        <h1 class={classNames(displayClass, "article-title", "homepage-title")}>
+          BJJGraph<span class="title-tld">.org</span>
+        </h1>
+        <p class="tagline">
+          BJJ game, mapped.
+          <br />
+          Click through positions, see what's next.
+        </p>
+      </>
     )
   }
 
@@ -28,8 +35,8 @@ ArticleTitle.css = `
 }
 
 .homepage-title {
-  font-size: 2.5rem;
-  margin-top: 1.5rem;
+  font-size: 2rem;
+  margin-top: 0;
   margin-bottom: 0.5rem;
 }
 

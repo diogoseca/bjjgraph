@@ -57,25 +57,38 @@ function computeMoveRarity(
   })
 }
 
-/** Get vote state from localStorage */
-function getVotes(): Record<string, Record<string, "up" | "down">> {
+/** Get user-adjusted rates from localStorage */
+function getVotes(): Record<string, Record<string, number>> {
   try {
-    return JSON.parse(localStorage.getItem("bjj-move-votes") || "{}")
+    const raw = JSON.parse(localStorage.getItem("bjj-move-votes") || "{}")
+    // Migrate old "up"/"down" format — clear it since we can't recover a rate
+    for (const pos of Object.keys(raw)) {
+      for (const tech of Object.keys(raw[pos])) {
+        const v = raw[pos][tech]
+        if (typeof v !== "number") delete raw[pos][tech]
+      }
+    }
+    return raw
   } catch {
     return {}
   }
 }
 
-/** Save a vote */
-function setVote(positionSlug: string, technique: string, vote: "up" | "down" | null) {
+/** Save the user's adjusted rate for a technique */
+function setVote(positionSlug: string, technique: string, adjustedRate: number, baseRate: number) {
   const votes = getVotes()
   if (!votes[positionSlug]) votes[positionSlug] = {}
-  if (vote === null) {
+  if (adjustedRate === baseRate) {
     delete votes[positionSlug][technique]
   } else {
-    votes[positionSlug][technique] = vote
+    votes[positionSlug][technique] = Math.round(adjustedRate)
   }
   localStorage.setItem("bjj-move-votes", JSON.stringify(votes))
+}
+
+function nudgeRate(current: number, direction: "up" | "down"): number {
+  if (direction === "up") return Math.min(current + 1, 100)
+  return Math.max(current - 1, 0)
 }
 
 function getPageData(): PositionPageData | null {
@@ -119,9 +132,11 @@ document.addEventListener("nav", () => {
     const card = document.createElement("div")
     card.className = `move-card ${transition.isSubmission ? "submission" : ""}`
 
-    const successRate = transition.successRate ?? 50
+    const baseRate = transition.successRate ?? 50
     const rarity = rarityLabels[i]
-    const currentVote = positionVotes[transition.technique] || null
+    const savedRate = positionVotes[transition.technique]
+    const successRate = savedRate !== undefined ? savedRate : baseRate
+    const nudge = successRate - baseRate
 
     const rarityBadge = rarity
       ? `<span class="move-card-badge move-card-badge--${rarity}">${rarity === "common" ? "Common Move" : "Rare Move"}</span>`
@@ -138,13 +153,13 @@ document.addEventListener("nav", () => {
         <a href="${techniqueUrl}" class="move-card-technique internal" data-no-navigate="true">${transition.technique}</a>
         ${rarityBadge}
       </div>
-      <div class="move-card-probability">${successRate}% success</div>
+      <div class="move-card-probability">${successRate}% success${nudge !== 0 ? ` <span class="vote-nudge ${nudge > 0 ? "positive" : "negative"}">(${nudge > 0 ? "+" : ""}${nudge}%)</span>` : ""}</div>
       <div class="probability-bar">
         <div class="probability-fill" style="width: ${successRate}%"></div>
       </div>
       <div class="move-card-votes">
-        <button class="vote-btn vote-up ${currentVote === "up" ? "active" : ""}" aria-label="Upvote ${transition.technique}" title="Upvote">&#x25B2;</button>
-        <button class="vote-btn vote-down ${currentVote === "down" ? "active" : ""}" aria-label="Downvote ${transition.technique}" title="Downvote">&#x25BC;</button>
+        <button class="vote-btn vote-up" aria-label="Upvote ${transition.technique}" title="Upvote">&#x25B2;</button>
+        <button class="vote-btn vote-down" aria-label="Downvote ${transition.technique}" title="Downvote">&#x25BC;</button>
       </div>
     `
 
@@ -166,22 +181,42 @@ document.addEventListener("nav", () => {
     const upBtn = card.querySelector(".vote-up") as HTMLButtonElement
     const downBtn = card.querySelector(".vote-down") as HTMLButtonElement
 
+    let currentRate = successRate
+
+    const updateVoteUI = (newRate: number) => {
+      currentRate = newRate
+      const newNudge = newRate - baseRate
+      setVote(positionSlug, transition.technique, newRate, baseRate)
+
+      // Update probability display with inline nudge
+      const probEl = card.querySelector(".move-card-probability") as HTMLElement
+      const nudgeHtml = newNudge !== 0
+        ? ` <span class="vote-nudge ${newNudge > 0 ? "positive" : "negative"}">(${newNudge > 0 ? "+" : ""}${newNudge}%)</span>`
+        : ""
+      probEl.innerHTML = `${newRate}% success${nudgeHtml}`
+      const fillEl = card.querySelector(".probability-fill") as HTMLElement
+      fillEl.style.width = `${newRate}%`
+
+      // Send PostHog event
+      const posthog = (window as any).posthog
+      if (posthog?.capture) {
+        posthog.capture("move_vote", {
+          technique: transition.technique,
+          base_rate: baseRate,
+          adjusted_rate: newRate,
+          position: positionSlug,
+        })
+      }
+    }
+
     upBtn.addEventListener("click", (e) => {
       e.stopPropagation()
-      const isActive = upBtn.classList.contains("active")
-      const newVote = isActive ? null : "up"
-      setVote(positionSlug, transition.technique, newVote)
-      upBtn.classList.toggle("active", newVote === "up")
-      downBtn.classList.remove("active")
+      updateVoteUI(nudgeRate(currentRate, "up"))
     })
 
     downBtn.addEventListener("click", (e) => {
       e.stopPropagation()
-      const isActive = downBtn.classList.contains("active")
-      const newVote = isActive ? null : "down"
-      setVote(positionSlug, transition.technique, newVote)
-      downBtn.classList.toggle("active", newVote === "down")
-      upBtn.classList.remove("active")
+      updateVoteUI(nudgeRate(currentRate, "down"))
     })
 
     card.addEventListener("click", () => {

@@ -195,8 +195,8 @@ export const ContentIndex: QuartzEmitterPlugin<Partial<Options>> = (opts) => {
         }),
       )
 
-      // Option 2: Write gzip compressed version if enabled
-      if (opts?.enableGzipCompression) {
+      // Option 2: Write gzip compressed version if enabled (skip in dev mode for speed)
+      if (opts?.enableGzipCompression && !ctx.argv.serve) {
         const compressed = await gzipAsync(Buffer.from(jsonContent, "utf-8"))
         const fpGz = joinSegments("static", "contentIndex") as FullSlug
         emitted.push(

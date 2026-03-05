@@ -10,10 +10,16 @@ type WriteOptions = {
   content: string | Buffer
 }
 
+// Cache of directories already created this build (avoids redundant mkdir syscalls)
+const createdDirs = new Set<string>()
+
 export const write = async ({ ctx, slug, ext, content }: WriteOptions): Promise<FilePath> => {
   const pathToPage = joinSegments(ctx.argv.output, slug + ext) as FilePath
   const dir = path.dirname(pathToPage)
-  await fs.promises.mkdir(dir, { recursive: true })
+  if (!createdDirs.has(dir)) {
+    await fs.promises.mkdir(dir, { recursive: true })
+    createdDirs.add(dir)
+  }
   await fs.promises.writeFile(pathToPage, content)
   return pathToPage
 }

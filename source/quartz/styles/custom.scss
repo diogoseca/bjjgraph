@@ -6,32 +6,118 @@
 // Landing Page (Homepage)
 // ============================================================================
 
-// Hide reading time and sidebar search on the landing page
-// (search is already in the hero area)
+// Google-style homepage: hide sidebar, meta; center content vertically
 body[data-slug="index"] .content-meta {
   display: none;
 }
 
-body[data-slug="index"] .search > .search-button {
-  visibility: hidden;
+body[data-slug="index"] .sidebar {
+  position: absolute !important;
+  width: 0 !important;
+  height: 0 !important;
+  overflow: hidden !important;
+  pointer-events: none;
+}
+
+// Re-enable pointer events on search container (uses position:fixed when open)
+body[data-slug="index"] #search-container {
+  pointer-events: auto;
+}
+
+// Collapse grid to single centered column
+body[data-slug="index"] #quartz-body {
+  grid-template-columns: 1fr !important;
+  grid-template-areas:
+    "grid-center"
+    "grid-footer" !important;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+// Vertically center above-fold content
+body[data-slug="index"] .center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  text-align: center;
+}
+
+body[data-slug="index"] .page-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+body[data-slug="index"] .center > article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+// Hide afterBody (EditOnGithub etc) and hr on homepage
+body[data-slug="index"] .page-footer {
+  display: none;
+}
+
+body[data-slug="index"] hr {
+  display: none;
+}
+
+// Footer: centered block, left-aligned content inside
+body[data-slug="index"] footer {
+  width: fit-content;
+  margin: 0 auto;
+  text-align: left;
 }
 
 // Hero content
 .tagline {
-  font-size: 1.25rem;
+  font-size: 1.1rem;
   color: var(--dark);
-  margin: 0;
-}
-
-.stats {
-  font-size: 0.9rem;
-  color: var(--gray);
-  margin: 0.5rem 0 1.5rem 0;
+  opacity: 0.7;
+  margin: 0 0 1.5rem 0;
 }
 
 // Search + Roll bar (Google-style)
 .hero-actions {
-  margin: 2rem 0;
+  margin: 0 0 1.25rem 0;
+  display: flex;
+  justify-content: center;
+}
+
+// Stats grid (linked category counts)
+.stats-grid {
+  display: flex;
+  justify-content: center;
+  gap: 0.75rem;
+}
+
+.stats-grid-secondary {
+  margin-top: 0.5rem;
+}
+
+.stat-link {
+  text-decoration: none;
+  color: var(--gray);
+  font-size: 0.8rem;
+  letter-spacing: 0.03em;
+  padding: 6px 14px;
+  border-radius: 16px;
+  background: color-mix(in srgb, var(--dark) 8%, var(--light));
+  transition:
+    color 0.15s,
+    background 0.15s;
+
+  &:hover {
+    color: var(--secondary);
+    background: color-mix(in srgb, var(--dark) 12%, var(--light));
+  }
+}
+
+.stat-number {
+  font-weight: 600;
 }
 
 .search-roll-bar {
@@ -120,7 +206,7 @@ body[data-slug="index"] .search > .search-button {
   display: flex;
   gap: 0.75rem;
   overflow-x: auto;
-  padding-bottom: 0.5rem;
+  padding: 0.5rem 0;
   -webkit-overflow-scrolling: touch;
 
   &::-webkit-scrollbar {
@@ -216,23 +302,23 @@ body[data-slug="index"] .search > .search-button {
     border-color: var(--secondary);
     color: var(--secondary);
   }
-
-  &.active.vote-up {
-    background: rgba(46, 160, 67, 0.12);
-    border-color: #1a7f37;
-    color: #1a7f37;
-  }
-
-  &.active.vote-down {
-    background: rgba(186, 38, 55, 0.12);
-    border-color: #ba2637;
-    color: #ba2637;
-  }
 }
 
 .move-card-probability {
   font-size: 0.85rem;
   color: var(--gray);
+}
+
+.vote-nudge {
+  font-size: 0.75rem;
+
+  &.positive {
+    color: #1a7f37;
+  }
+
+  &.negative {
+    color: #ba2637;
+  }
 }
 
 .probability-bar {
