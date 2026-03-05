@@ -104,6 +104,17 @@ We're looking for partners who share this vision—BJJ apps, gear companies, aca
 
 **Contact**: [Diogo Seca on LinkedIn](https://www.linkedin.com/in/diogoseca/)
 
+## Deployment
+
+Hosted on **Cloudflare Pages**. Deploys are triggered by GitHub Actions.
+
+| Branch | URL | Workflow |
+|--------|-----|----------|
+| `main` | [bjjgraph.org](https://bjjgraph.org) | `.github/workflows/deploy.yaml` |
+| `dev` | [dev.bjjgraph.pages.dev](https://dev.bjjgraph.pages.dev) | `.github/workflows/deploy-dev.yaml` |
+
+Preview deployments for `dev` are also available at unique URLs (e.g., `<hash>.bjjgraph.pages.dev`) visible in the Cloudflare Pages dashboard.
+
 ## Analytics
 
 - **PostHog**: https://us.posthog.com/project/236155
