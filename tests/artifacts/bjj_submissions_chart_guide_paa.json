@@ -1,0 +1,127 @@
+{
+  "article_path": "source/content/Learning/BJJ Submissions Chart Guide.md",
+  "seed_keyword": "BJJ Submissions Chart",
+  "paa_questions": [
+    {
+      "question": "What is the most effective submission in BJJ?",
+      "answer_snippet": "The rear naked choke is widely considered the most effective submission in BJJ, boasting an ~80% success rate at advanced level. It works in both gi and no-gi, requires minimal strength, and is difficult to defend once properly locked from back control.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "improve_heading",
+      "notes": "Article ranks RNC #1 but never directly answers this question in a scannable format. Add an H2: 'What Is the Most Effective BJJ Submission?' with a concise direct answer above the rankings table."
+    },
+    {
+      "question": "What submissions should a BJJ white belt learn first?",
+      "answer_snippet": "White belts should prioritize: rear naked choke, americana, triangle choke, armbar from mount, cross collar choke, guillotine, and straight ankle lock — in that order. These offer the best risk-reward for beginners and form the foundation for future submission chains.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "improve_heading",
+      "notes": "Article has a 'White Belt Priority' section. Reframe the heading as a question: 'What BJJ Submissions Should White Belts Learn First?' for direct PAA matching."
+    },
+    {
+      "question": "How do BJJ submission chains work?",
+      "answer_snippet": "Submission chains exploit the principle that defending one attack opens another. The classic triangle–armbar–omoplata chain from closed guard works because the opponent cannot simultaneously protect their neck, elbow, and shoulder. Each defensive reaction creates the setup for the next attack.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "improve_heading",
+      "notes": "Reframe 'Submission Chains' section heading as 'How Do BJJ Submission Chains Work?' to capture this exact PAA query pattern."
+    },
+    {
+      "question": "Are heel hooks dangerous in BJJ?",
+      "answer_snippet": "Yes. Heel hooks have limited pain warning before causing serious ligament damage to the knee. They are banned in IBJJF competition below black belt and should only be practiced with experienced, trusted partners. Always tap at the first sensation of pressure.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "dedicated_faq",
+      "notes": "This is a high-intent safety query. Add a dedicated FAQ entry under Safety Considerations or create a callout box with a direct answer. Currently the safety section addresses this but not as a scannable Q&A."
+    },
+    {
+      "question": "What BJJ submissions work from guard?",
+      "answer_snippet": "Guard offers 20+ submission options. The highest-percentage are: triangle choke (85% advanced), armbar from closed guard (80%), guillotine choke (75%), omoplata (70%), and kimura from guard (72%). Guard submissions generally have lower success rates than top positions due to being bottom position.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "improve_heading",
+      "notes": "Reframe 'From Guard (20+ Submissions Available)' as 'What BJJ Submissions Work from Guard?' for PAA alignment."
+    },
+    {
+      "question": "What is the difference between a blood choke and an air choke in BJJ?",
+      "answer_snippet": "Blood chokes (e.g., rear naked choke) compress the carotid arteries, causing unconsciousness in 8–13 seconds and are safe when released promptly. Air chokes restrict the airway — they are less effective, more painful, and riskier. BJJ prioritizes blood chokes.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "add_section",
+      "notes": "Article mentions blood vs air chokes but doesn't give a clear standalone explanation. Add a brief FAQ entry or callout in the Chokes section."
+    },
+    {
+      "question": "What is the Kimura submission in BJJ?",
+      "answer_snippet": "The Kimura is a bent-arm shoulder lock applied with a figure-four grip. Named after Masahiko Kimura, it is also a system — from the Kimura grip you can sweep, take the back, transition to mount, or finish the submission. It is available from side control, half guard, turtle, and guard.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "improve_heading",
+      "notes": "Good opportunity to expand the Kimura entry in the rankings section into a richer snippet that would win a PAA box."
+    },
+    {
+      "question": "How do you escape a rear naked choke in BJJ?",
+      "answer_snippet": "Primary defenses: protect the neck by tucking the chin before the arm slides under, use two-on-one hand fighting to break the grip, and turn into the opponent to disrupt the body lock. Prevention is key — avoid giving up back control by not turning away under pressure.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "add_section",
+      "notes": "Missing content opportunity: adding a 'Defending Against Each Submission Category' section would capture defensive query traffic and double the keyword surface area."
+    },
+    {
+      "question": "What is a submission rate in BJJ competition?",
+      "answer_snippet": "Submission rate is the percentage of matches finished by submission rather than points or decision. Back control produces the highest submission rate (~35–40%), followed by mount (~25–30%). High-level competitors often achieve 50–70%+ submission rates through systematic technique.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "dedicated_faq",
+      "notes": "Article uses success rate data extensively but never defines the term. A brief definition callout would help Google understand the context for featured snippet eligibility."
+    },
+    {
+      "question": "What submissions are legal in IBJJF competitions?",
+      "answer_snippet": "IBJJF allows: chokes, armbars, kimura, americana, omoplata, straight ankle locks, and kneebars (brown/black belt). Prohibited at lower belts: heel hooks, toe holds, reaping the knee. Spinal locks and neck cranks are banned at all levels.",
+      "source_url": null,
+      "priority": "low",
+      "integration_strategy": "add_section",
+      "notes": "High search volume query not covered in the article. A 'IBJJF-Legal Submissions by Belt Level' table would be a high-value addition and could rank independently."
+    }
+  ],
+  "heading_optimizations": [
+    {
+      "current": "Understanding Submission Categories",
+      "suggested": "What Are the Main BJJ Submission Categories?",
+      "rationale": "Converts a declarative section header into a question that matches PAA query format and improves featured snippet eligibility."
+    },
+    {
+      "current": "Position-Based Submission Charts",
+      "suggested": "Which BJJ Submissions Are Available from Each Position?",
+      "rationale": "Direct match to 'what submissions can I do from X position' query pattern — one of the highest-volume BJJ search intents."
+    },
+    {
+      "current": "Top 10 High-Percentage Submissions Ranked",
+      "suggested": "What Are the Highest-Percentage Submissions in BJJ? (Ranked by Success Rate)",
+      "rationale": "Question format increases PAA box eligibility; adding 'success rate' in the heading improves relevance for data-seeking queries."
+    },
+    {
+      "current": "From Mount (10+ Submissions Available)",
+      "suggested": "What BJJ Submissions Work from Mount Position?",
+      "rationale": "Position-specific submission queries have high commercial intent from practitioners looking to improve their game."
+    },
+    {
+      "current": "Learning Priority System by Belt Level",
+      "suggested": "Which BJJ Submissions Should Each Belt Level Learn?",
+      "rationale": "Directly matches the 'what should [belt] learn' query cluster that drives significant BJJ instructional search traffic."
+    },
+    {
+      "current": "Safety Considerations",
+      "suggested": "How Do You Practice BJJ Submissions Safely?",
+      "rationale": "Safety queries are high-volume and the current heading is generic. Question format improves click-through from safety-conscious searchers."
+    }
+  ],
+  "missing_content_opportunities": [
+    "Add section: 'What BJJ Submissions Are Legal in IBJJF by Belt Level?' — rule-set table covering white through black belt restrictions. High search volume, zero current coverage.",
+    "Add section: 'How to Defend Against Common BJJ Submissions' — defensive counterpart to offensive chart doubles keyword surface and helps SEO dwell time.",
+    "Add FAQ block at page bottom answering: 'What is the best submission for beginners?', 'How long does it take to learn BJJ submissions?', 'What is the fastest BJJ submission?'",
+    "Add a visual ASCII/table version of the submission chart organized by position — users search specifically for 'BJJ submission chart' expecting a visual reference.",
+    "Add 'No-Gi vs Gi Submission Differences' subsection — no-gi is the fastest-growing BJJ format and many queries distinguish between the two contexts.",
+    "Add success rate comparison table across positions in a single scannable format — currently success rates are buried in each position's sub-list.",
+    "Add 'Submission by Body Type' section — smaller practitioners vs larger, flexibility differences affect which submissions are accessible (high PAA query cluster)."
+  ]
+}
