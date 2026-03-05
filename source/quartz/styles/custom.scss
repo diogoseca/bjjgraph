@@ -105,14 +105,13 @@ body[data-slug="index"] footer {
   letter-spacing: 0.03em;
   padding: 6px 14px;
   border-radius: 16px;
-  background: color-mix(in srgb, var(--dark) 8%, var(--light));
+  background: transparent;
   transition:
-    color 0.15s,
-    background 0.15s;
+    color 0.15s;
 
   &:hover {
     color: var(--secondary);
-    background: color-mix(in srgb, var(--dark) 12%, var(--light));
+    background: transparent;
   }
 }
 
