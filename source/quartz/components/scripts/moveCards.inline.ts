@@ -190,9 +190,10 @@ document.addEventListener("nav", () => {
 
       // Update probability display with inline nudge
       const probEl = card.querySelector(".move-card-probability") as HTMLElement
-      const nudgeHtml = newNudge !== 0
-        ? ` <span class="vote-nudge ${newNudge > 0 ? "positive" : "negative"}">(${newNudge > 0 ? "+" : ""}${newNudge}%)</span>`
-        : ""
+      const nudgeHtml =
+        newNudge !== 0
+          ? ` <span class="vote-nudge ${newNudge > 0 ? "positive" : "negative"}">(${newNudge > 0 ? "+" : ""}${newNudge}%)</span>`
+          : ""
       probEl.innerHTML = `${newRate}% success${nudgeHtml}`
       const fillEl = card.querySelector(".probability-fill") as HTMLElement
       fillEl.style.width = `${newRate}%`
@@ -243,21 +244,6 @@ function slugToUrlPath(slug: string): string {
     .join("/")
 }
 
-/**
- * Extract role suffix from a target slug
- * e.g., "mount/top" → "top", "standing-position" → null
- */
-function extractRole(target: string): string | null {
-  const parts = target.split("/")
-  if (parts.length > 1) {
-    const lastPart = parts[parts.length - 1]
-    if (lastPart === "top" || lastPart === "bottom") {
-      return lastPart
-    }
-  }
-  return null
-}
-
 function executeTransition(
   transition: {
     technique: string
@@ -287,34 +273,10 @@ function executeTransition(
     let targetUrl: string
 
     if (transition.isSubmission && transition.submissionSlug) {
-      // Submissions go to the Submission page for Knowledge Test
-      // e.g., /Submissions/Armbar
       const submissionPath = slugToUrlPath(transition.submissionSlug)
-      targetUrl = `/Submissions/${submissionPath}`
-    } else if (transition.targetPath) {
-      // Use targetPath for the base path
-      const basePath = slugToUrlPath(transition.targetPath)
-
-      // Extract role from target (top/bottom) if present
-      const role = extractRole(transition.target)
-
-      if (role) {
-        // Add role suffix: /Positions/Twister-Control/Truck/Top
-        targetUrl = `/Positions/${basePath}/${role.charAt(0).toUpperCase() + role.slice(1)}`
-      } else {
-        // Neutral position or terminal state: /Positions/Standing-Position
-        targetUrl = `/Positions/${basePath}`
-      }
+      targetUrl = `/Submissions/${submissionPath}/Attacker`
     } else {
-      // Fallback: convert target slug directly
-      const targetParts = transition.target.split("/")
-      const formattedParts = targetParts.map((part) =>
-        part
-          .split("-")
-          .map((w) => w.charAt(0).toUpperCase() + w.slice(1))
-          .join("-"),
-      )
-      targetUrl = `/Positions/${formattedParts.join("/")}`
+      targetUrl = `/Transitions/${slugToUrlPath(transition.target)}/Attacker`
     }
 
     // Navigate with success snackbar
