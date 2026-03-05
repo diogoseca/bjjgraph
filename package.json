@@ -1,6 +1,6 @@
 {
   "name": "bjjgraph",
-  "version": "1.5.2",
+  "version": "1.5.3",
   "description": "BJJ knowledge graph and state machine",
   "scripts": {
     "dev": "while true; do cd source && npx quartz build --serve --concurrency 4 -d ../content; echo 'Dev server crashed. Restarting in 5 minutes...'; sleep 300; cd ..; done",
