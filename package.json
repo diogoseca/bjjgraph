@@ -1,8 +1,9 @@
 {
   "name": "bjjgraph",
-  "version": "1.5.4",
+  "version": "1.5.5",
   "description": "BJJ knowledge graph and state machine",
   "scripts": {
+    "postinstall": "cd source && npm install",
     "dev": "while true; do cd source && npx quartz build --serve --concurrency 4 -d ../content; echo 'Dev server crashed. Restarting in 5 seconds'; for i in 5 4 3 2 1; do printf '. '; sleep 1; done; echo; cd ..; done",
     "validate:json": "python3 scripts/validate_json.py --all",
     "validate:graph": "python3 scripts/validate_graph_integrity.py",

@@ -335,12 +335,17 @@ Format: `1.MAJOR.MINOR`
 - **MAJOR bump** (1.X.0): New features (e.g., 1.3.0 → 1.4.0)
 - **MINOR bump** (1.X.Y): Fixes (e.g., 1.4.0 → 1.4.1)
 - Always bump version when committing work
+- **MANDATORY:** At the end of every workload, bump the version before committing:
+  - Bug fix / dependency update / cleanup → MINOR bump (1.5.4 → 1.5.5)
+  - New feature / structural change → MAJOR bump (1.5.4 → 1.6.0)
+- **Commit message format:** `v1.X.Y - Description of changes`
 
 ### Pre-Commit Checklist
 
 ```bash
 npm run regenerate:build      # Full validation, generation, and build
 cd source && npm run check    # Type checking must pass
+# Bump version in package.json (MINOR for fixes, MAJOR for features)
 ```
 
 ---
