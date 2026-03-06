@@ -24,7 +24,7 @@ title: BJJ Graph - Interactive Brazilian Jiu-Jitsu Knowledge Base
     </button>
     <button class="roll-trigger" aria-label="Random position">
       <img src="/static/dice-icon.svg" alt="" class="roll-icon" />
-      <span>Random</span>
+      <span>Roll</span>
     </button>
   </div>
 </div>
