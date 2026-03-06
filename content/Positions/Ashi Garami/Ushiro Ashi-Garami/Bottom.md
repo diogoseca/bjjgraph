@@ -213,23 +213,23 @@ Energy management in ushiro ashi-garami bottom is critical, as panicked escape a
 ## Decision Making from This Position
 
 **If opponent has shallow leg entanglement with weak upper body control:**
-- Execute **[[Complete Escape Sequence]]** → [[Positions/Standing Position]] (Probability: 55%)
-- Execute **[[Turtle Recovery]]** → [[Positions/Turtle]] (Probability: 60%)
+- Execute **[[Complete Escape Sequence/Attacker|Complete Escape Sequence]]** → [[Positions/Standing Position]] (Probability: 55%)
+- Execute **[[Turtle Recovery/Attacker|Turtle Recovery]]** → [[Positions/Turtle]] (Probability: 60%)
 
 
 **If opponent has deep entanglement and is establishing heel grip:**
-- Execute **[[Counter Heel Hook]]** → [[Positions/Ashi Garami/Inside Ashi-Garami]] (Probability: 35%)
-- Execute **[[Accept Turtle Position]]** → [[Positions/Turtle]] (Probability: 50%)
+- Execute **[[Counter Heel Hook/Attacker|Counter Heel Hook]]** → [[Positions/Ashi Garami/Inside Ashi-Garami]] (Probability: 35%)
+- Execute **[[Accept Turtle Position/Attacker|Accept Turtle Position]]** → [[Positions/Turtle]] (Probability: 50%)
 
 
 **If opponent transitions to saddle or honey hole during inversion:**
-- Execute **[[Immediate Turtle Roll]]** → [[Positions/Turtle]] (Probability: 45%)
-- Execute **[[Deep Half Transition]]** → [[Positions/Half Guard/Deep Half Guard]] (Probability: 40%)
+- Execute **[[Immediate Turtle Roll/Attacker|Immediate Turtle Roll]]** → [[Positions/Turtle]] (Probability: 45%)
+- Execute **[[Deep Half Transition/Attacker|Deep Half Transition]]** → [[Positions/Half Guard/Deep Half Guard]] (Probability: 40%)
 
 
 **If clearing outside leg successfully but inside leg remains:**
-- Execute **[[Transitions/Single Leg X Entry]]** → [[Positions/X-Guard/Single Leg X-Guard]] (Probability: 50%)
-- Execute **[[Complete Leg Clear]]** → [[Positions/Open Guard]] (Probability: 45%)
+- Execute **[[Transitions/Single Leg X Entry/Attacker|Single Leg X Entry]]** → [[Positions/X-Guard/Single Leg X-Guard]] (Probability: 50%)
+- Execute **[[Complete Leg Clear/Attacker|Complete Leg Clear]]** → [[Positions/Open Guard]] (Probability: 45%)
 
 
 

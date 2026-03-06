@@ -206,18 +206,18 @@ Omoplata Control Bottom represents the offensive application of this position wh
 ## Decision Making from This Position
 
 **If opponent attempts to roll forward through the omoplata:**
-- Execute **[[Transitions/Omoplata Sweep]]** → [[Positions/Side Control]] (Probability: 70%)
-- Execute **[[Submissions/Rolling Omoplata]]** → [[Positions/Mount]] (Probability: 55%)
+- Execute **[[Transitions/Omoplata Sweep/Attacker|Omoplata Sweep]]** → [[Positions/Side Control]] (Probability: 70%)
+- Execute **[[Submissions/Rolling Omoplata/Attacker|Rolling Omoplata]]** → [[Positions/Mount]] (Probability: 55%)
 
 
 **If opponent turns into the submission or sits to their hip:**
-- Execute **[[Transitions/Omoplata]]** → [[game-over]] (Probability: 65%)
-- Execute **[[Transitions/Omoplata to Back]]** → [[Positions/Back Control]] (Probability: 60%)
+- Execute **[[Transitions/Omoplata/Attacker|Omoplata]]** → [[game-over]] (Probability: 65%)
+- Execute **[[Transitions/Omoplata to Back/Attacker|Omoplata to Back]]** → [[Positions/Back Control]] (Probability: 60%)
 
 
 **If opponent postures up and pulls arm free:**
-- Execute **[[Transitions/Triangle Setup]]** → [[Positions/Triangle Control]] (Probability: 60%)
-- Execute **[[Transitions/Closed Guard to Omoplata]]** → [[Positions/Armbar Control]] (Probability: 50%)
+- Execute **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** → [[Positions/Triangle Control]] (Probability: 60%)
+- Execute **[[Transitions/Closed Guard to Omoplata/Attacker|Closed Guard to Omoplata]]** → [[Positions/Armbar Control]] (Probability: 50%)
 
 
 

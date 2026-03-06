@@ -212,28 +212,28 @@ The attacking methodology from back control follows a layered approach. First, e
 ## Decision Making from This Position
 
 **If opponent defends neck with both hands and maintains chin tucked with good hand fighting:**
-- Execute **[[Transition to crucifix to trap arms]]** → [[Positions/Crucifix]] (Probability: 60%)
-- Execute **[[Attack armbar from back using legs]]** → [[Positions/Armbar Control]] (Probability: 50%)
+- Execute **[[Transition to crucifix to trap arms/Attacker|Transition to crucifix to trap arms]]** → [[Positions/Crucifix]] (Probability: 60%)
+- Execute **[[Attack armbar from back using legs/Attacker|Attack armbar from back using legs]]** → [[Positions/Armbar Control]] (Probability: 50%)
 
 
 **If opponent attempts to remove hooks by attacking your feet with their hands:**
-- Execute **[[Switch to body triangle for superior leg control]]** → [[Positions/Back Control/Body Triangle]] (Probability: 70%)
-- Execute **[[Capitalize on exposed neck during hook defense]]** → [[Positions/Game Over]] (Probability: 55%)
+- Execute **[[Switch to body triangle for superior leg control/Attacker|Switch to body triangle for superior leg control]]** → [[Positions/Back Control/Body Triangle]] (Probability: 70%)
+- Execute **[[Capitalize on exposed neck during hook defense/Attacker|Capitalize on exposed neck during hook defense]]** → [[Positions/Game Over]] (Probability: 55%)
 
 
 **If opponent turns into you creating positional change opportunity:**
-- Execute **[[Follow turn to gift wrap position]]** → [[Positions/Gift Wrap]] (Probability: 75%)
-- Execute **[[Maintain back control and attack choke during turn]]** → [[Positions/Game Over]] (Probability: 60%)
+- Execute **[[Follow turn to gift wrap position/Attacker|Follow turn to gift wrap position]]** → [[Positions/Gift Wrap]] (Probability: 75%)
+- Execute **[[Maintain back control and attack choke during turn/Attacker|Maintain back control and attack choke during turn]]** → [[Positions/Game Over]] (Probability: 60%)
 
 
 **If opponent drives forward and tucks chin to mat defensively:**
-- Execute **[[Bow and arrow choke using collar access]]** → [[Positions/Game Over]] (Probability: 55%)
-- Execute **[[Transition to truck position via leg threading]]** → [[Positions/Twister Control]] (Probability: 50%)
+- Execute **[[Bow and arrow choke using collar access/Attacker|Bow and arrow choke using collar access]]** → [[Positions/Game Over]] (Probability: 55%)
+- Execute **[[Transition to truck position via leg threading/Attacker|Transition to truck position via leg threading]]** → [[Positions/Twister Control]] (Probability: 50%)
 
 
 **If opponent successfully strips one hook and begins turning to turtle:**
-- Execute **[[Re-establish hook and tighten seatbelt control]]** → [[Positions/Back Control]] (Probability: 65%)
-- Execute **[[Follow to turtle and re-take back]]** → [[Positions/Turtle]] (Probability: 60%)
+- Execute **[[Re-establish hook and tighten seatbelt control/Attacker|Re-establish hook and tighten seatbelt control]]** → [[Positions/Back Control]] (Probability: 65%)
+- Execute **[[Follow to turtle and re-take back/Attacker|Follow to turtle and re-take back]]** → [[Positions/Turtle]] (Probability: 60%)
 
 
 

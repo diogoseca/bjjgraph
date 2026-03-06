@@ -101,25 +101,25 @@ Understanding Meathook requires grasping its place in the larger Rubber Guard ec
 ### Available Transitions
 
 
-- **[[Transitions/Meathook to Gogoplata Control]]** (11% of attempts)
+- **[[Transitions/Meathook to Gogoplata Control/Attacker|Meathook to Gogoplata Control]]** (11% of attempts)
 
-- **[[Transitions/Triangle Setup]]** (18% of attempts)
+- **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** (18% of attempts)
 
-- **[[Transitions/Closed Guard to Omoplata]]** (11% of attempts)
+- **[[Transitions/Closed Guard to Omoplata/Attacker|Closed Guard to Omoplata]]** (11% of attempts)
 
-- **[[Transitions/Crackhead Control to Carni]]** (10% of attempts)
+- **[[Transitions/Crackhead Control to Carni/Attacker|Crackhead Control to Carni]]** (10% of attempts)
 
-- **[[Submissions/Armbar from Guard]]** (8% of attempts)
+- **[[Submissions/Armbar from Guard/Attacker|Armbar from Guard]]** (8% of attempts)
 
-- **[[Transitions/Omoplata to Back]]** (7% of attempts)
+- **[[Transitions/Omoplata to Back/Attacker|Omoplata to Back]]** (7% of attempts)
 
-- **[[Transitions/Crackhead Control to Mission Control]]** (11% of attempts)
+- **[[Transitions/Crackhead Control to Mission Control/Attacker|Crackhead Control to Mission Control]]** (11% of attempts)
 
-- **[[Transitions/Baratoplata Setup]]** (10% of attempts)
+- **[[Transitions/Baratoplata Setup/Attacker|Baratoplata Setup]]** (10% of attempts)
 
-- **[[Transitions/Tarikoplata Setup]]** (10% of attempts)
+- **[[Transitions/Tarikoplata Setup/Attacker|Tarikoplata Setup]]** (10% of attempts)
 
-- **[[Transitions/Sweep from Meathook]]** (4% of attempts)
+- **[[Transitions/Sweep from Meathook/Attacker|Sweep from Meathook]]** (4% of attempts)
 
 
 ### Common Mistakes
@@ -184,19 +184,19 @@ Understanding Meathook requires grasping its place in the larger Rubber Guard ec
 ### Available Transitions
 
 
-- **[[Transitions/Arm Extraction]]** (28% of attempts)
+- **[[Transitions/Arm Extraction/Attacker|Arm Extraction]]** (28% of attempts)
 
-- **[[Transitions/Posture Recovery]]** (17% of attempts)
+- **[[Transitions/Posture Recovery/Attacker|Posture Recovery]]** (17% of attempts)
 
-- **[[Transitions/Stack Defense]]** (17% of attempts)
+- **[[Transitions/Stack Defense/Attacker|Stack Defense]]** (17% of attempts)
 
-- **[[Transitions/Sprawl]]** (12% of attempts)
+- **[[Transitions/Sprawl/Attacker|Sprawl]]** (12% of attempts)
 
-- **[[Transitions/Guard Opening Sequence]]** (17% of attempts)
+- **[[Transitions/Guard Opening Sequence/Attacker|Guard Opening Sequence]]** (17% of attempts)
 
-- **[[Transitions/Posture Recovery from Meathook]]** (6% of attempts)
+- **[[Transitions/Posture Recovery from Meathook/Attacker|Posture Recovery from Meathook]]** (6% of attempts)
 
-- **[[Transitions/Stack Pass from Meathook]]** (3% of attempts)
+- **[[Transitions/Stack Pass from Meathook/Attacker|Stack Pass from Meathook]]** (3% of attempts)
 
 
 ### Common Mistakes

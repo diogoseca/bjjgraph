@@ -208,28 +208,28 @@ Shin-to-Shin Guard from the bottom perspective represents one of the most versat
 ## Decision Making from This Position
 
 **If opponent maintains upright standing posture with weight distributed evenly and attempts to control upper body without addressing shin connection:**
-- Execute **[[Transitions/Single Leg X Entry]]** → [[Positions/X-Guard/Single Leg X-Guard]] (Probability: 65%)
-- Execute **[[Transitions/X-Guard Sweep]]** → [[Positions/X-Guard]] (Probability: 55%)
+- Execute **[[Transitions/Single Leg X Entry/Attacker|Single Leg X Entry]]** → [[Positions/X-Guard/Single Leg X-Guard]] (Probability: 65%)
+- Execute **[[Transitions/X-Guard Sweep/Attacker|X-Guard Sweep]]** → [[Positions/X-Guard]] (Probability: 55%)
 
 
 **If opponent drops their weight and attempts to smash forward with pressure, compromising their base in favor of forward movement:**
-- Execute **[[Transitions/Butterfly Sweep]]** → [[Positions/Mount]] (Probability: 60%)
-- Execute **[[Transitions/Omoplata Sweep]]** → [[Positions/Mount]] (Probability: 45%)
+- Execute **[[Transitions/Butterfly Sweep/Attacker|Butterfly Sweep]]** → [[Positions/Mount]] (Probability: 60%)
+- Execute **[[Transitions/Omoplata Sweep/Attacker|Omoplata Sweep]]** → [[Positions/Mount]] (Probability: 45%)
 
 
 **If opponent attempts to step over or aggressively clear the shin-to-shin connection by lifting their leg or circling:**
-- Execute **[[Transitions/Single Leg X Entry]]** → [[Positions/X-Guard/Single Leg X-Guard]] (Probability: 70%)
-- Execute **[[Transitions/Outside Ashi Entry]]** → [[Positions/Ashi Garami/Outside Ashi-Garami]] (Probability: 55%)
+- Execute **[[Transitions/Single Leg X Entry/Attacker|Single Leg X Entry]]** → [[Positions/X-Guard/Single Leg X-Guard]] (Probability: 70%)
+- Execute **[[Transitions/Outside Ashi Entry/Attacker|Outside Ashi Entry]]** → [[Positions/Ashi Garami/Outside Ashi-Garami]] (Probability: 55%)
 
 
 **If opponent backs away and creates distance to disengage from all connections and reset to standing range:**
-- Execute **[[Transitions/Technical Stand Up to Single Leg]]** → [[Positions/Standing Position]] (Probability: 60%)
-- Execute **[[Transitions/De La Riva Sweep]]** → [[Positions/De La Riva Guard]] (Probability: 50%)
+- Execute **[[Transitions/Technical Stand Up to Single Leg/Attacker|Technical Stand Up to Single Leg]]** → [[Positions/Standing Position]] (Probability: 60%)
+- Execute **[[Transitions/De La Riva Sweep/Attacker|De La Riva Sweep]]** → [[Positions/De La Riva Guard]] (Probability: 50%)
 
 
 **If opponent secures strong upper body control with dominant grips and attempts to control posture for passing sequences:**
-- Execute **[[Transitions/X-Guard Sweep]]** → [[Positions/X-Guard]] (Probability: 50%)
-- Execute **[[Principles/Guard Recovery]]** → [[Positions/Open Guard]] (Probability: 45%)
+- Execute **[[Transitions/X-Guard Sweep/Attacker|X-Guard Sweep]]** → [[Positions/X-Guard]] (Probability: 50%)
+- Execute **[[Principles/Guard Recovery/Attacker|Guard Recovery]]** → [[Positions/Open Guard]] (Probability: 45%)
 
 
 

@@ -89,21 +89,21 @@ Dead Orchard Control represents an advanced positional control within Brazilian 
 ### Available Transitions
 
 
-- **[[Transitions/Shrimp Escape]]** (33% of attempts)
+- **[[Transitions/Shrimp Escape/Attacker|Shrimp Escape]]** (33% of attempts)
 
-- **[[Transitions/Rolling to Guard]]** (18% of attempts)
+- **[[Transitions/Rolling to Guard/Attacker|Rolling to Guard]]** (18% of attempts)
 
-- **[[Transitions/Granby Roll to Guard]]** (11% of attempts)
+- **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** (11% of attempts)
 
-- **[[Transitions/Arm Extraction]]** (19% of attempts)
+- **[[Transitions/Arm Extraction/Attacker|Arm Extraction]]** (19% of attempts)
 
-- **[[Transitions/Hip Escape to Guard]]** (11% of attempts)
+- **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** (11% of attempts)
 
-- **[[Transitions/Escape Dead Orchard Control]]** (5% of attempts)
+- **[[Transitions/Escape Dead Orchard Control/Attacker|Escape Dead Orchard Control]]** (5% of attempts)
 
-- **[[Transitions/Roll from Dead Orchard]]** (2% of attempts)
+- **[[Transitions/Roll from Dead Orchard/Attacker|Roll from Dead Orchard]]** (2% of attempts)
 
-- **[[Transitions/Escape from Dead Orchard]]** (1% of attempts)
+- **[[Transitions/Escape from Dead Orchard/Attacker|Escape from Dead Orchard]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -168,21 +168,21 @@ Dead Orchard Control represents an advanced positional control within Brazilian 
 ### Available Transitions
 
 
-- **[[Transitions/Anaconda Choke]]** (35% of attempts)
+- **[[Transitions/Anaconda Choke/Attacker|Anaconda Choke]]** (35% of attempts)
 
-- **[[Transitions/Darce from Turtle]]** (13% of attempts)
+- **[[Transitions/Darce from Turtle/Attacker|Darce from Turtle]]** (13% of attempts)
 
-- **[[Transitions/Front Headlock to Back]]** (18% of attempts)
+- **[[Transitions/Front Headlock to Back/Attacker|Front Headlock to Back]]** (18% of attempts)
 
-- **[[Transitions/Side Control to Mount]]** (18% of attempts)
+- **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** (18% of attempts)
 
-- **[[Transitions/Side Control to North-South]]** (8% of attempts)
+- **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** (8% of attempts)
 
-- **[[Transitions/Dead Orchard to Anaconda Finish]]** (4% of attempts)
+- **[[Transitions/Dead Orchard to Anaconda Finish/Attacker|Dead Orchard to Anaconda Finish]]** (4% of attempts)
 
-- **[[Transitions/Dead Orchard to Darce Switch]]** (2% of attempts)
+- **[[Transitions/Dead Orchard to Darce Switch/Attacker|Dead Orchard to Darce Switch]]** (2% of attempts)
 
-- **[[Submissions/Anaconda Finish from Dead Orchard]]** (2% of attempts)
+- **[[Submissions/Anaconda Finish from Dead Orchard/Attacker|Anaconda Finish from Dead Orchard]]** (2% of attempts)
 
 
 ### Common Mistakes

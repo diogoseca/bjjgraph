@@ -211,28 +211,28 @@ The Russian Cowboy is particularly effective because it combines elements of bac
 ## Decision Making from This Position
 
 **If opponent turtles defensively with arms tight and head down:**
-- Execute **[[Transitions/Truck Entry]]** → [[Positions/Twister Control/Truck]] (Probability: 65%)
-- Execute **[[Transitions/Crucifix from Turtle]]** → [[Positions/Crucifix]] (Probability: 55%)
+- Execute **[[Transitions/Truck Entry/Attacker|Truck Entry]]** → [[Positions/Twister Control/Truck]] (Probability: 65%)
+- Execute **[[Transitions/Crucifix from Turtle/Attacker|Crucifix from Turtle]]** → [[Positions/Crucifix]] (Probability: 55%)
 
 
 **If opponent attempts to roll forward or granby away from the hook:**
-- Execute **[[Transitions/Turtle to Truck]]** → [[Positions/Twister Control/Truck]] (Probability: 70%)
-- Execute **[[Transitions/Twister Finish]]** → [[Positions/Twister Control]] (Probability: 50%)
+- Execute **[[Transitions/Turtle to Truck/Attacker|Turtle to Truck]]** → [[Positions/Twister Control/Truck]] (Probability: 70%)
+- Execute **[[Transitions/Twister Finish/Attacker|Twister Finish]]** → [[Positions/Twister Control]] (Probability: 50%)
 
 
 **If opponent turns into you to escape the bottom position:**
-- Execute **[[Transitions/Turtle to Back Take]]** → [[Positions/Back Control]] (Probability: 75%)
-- Execute **[[Transitions/Rear Naked Choke]]** → [[Positions/Game Over]] (Probability: 60%)
+- Execute **[[Transitions/Turtle to Back Take/Attacker|Turtle to Back Take]]** → [[Positions/Back Control]] (Probability: 75%)
+- Execute **[[Transitions/Rear Naked Choke/Attacker|Rear Naked Choke]]** → [[Positions/Game Over]] (Probability: 60%)
 
 
 **If opponent extends their far arm to post or create distance:**
-- Execute **[[Transitions/Armbar from Back Transition]]** → [[Positions/Armbar Control]] (Probability: 65%)
-- Execute **[[Transitions/Back Control to Crucifix]]** → [[Positions/Crucifix]] (Probability: 70%)
+- Execute **[[Transitions/Armbar from Back Transition/Attacker|Armbar from Back Transition]]** → [[Positions/Armbar Control]] (Probability: 65%)
+- Execute **[[Transitions/Back Control to Crucifix/Attacker|Back Control to Crucifix]]** → [[Positions/Crucifix]] (Probability: 70%)
 
 
 **If opponent flattens out attempting to relieve hook pressure:**
-- Execute **[[Transitions/Bow and Arrow Choke]]** → [[Positions/Game Over]] (Probability: 60%)
-- Execute **[[Transitions/Calf Slicer]]** → [[Positions/Twister Control/Truck]] (Probability: 55%)
+- Execute **[[Transitions/Bow and Arrow Choke/Attacker|Bow and Arrow Choke]]** → [[Positions/Game Over]] (Probability: 60%)
+- Execute **[[Transitions/Calf Slicer/Attacker|Calf Slicer]]** → [[Positions/Twister Control/Truck]] (Probability: 55%)
 
 
 

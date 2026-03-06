@@ -211,23 +211,23 @@ This position represents a fundamental evolution in guard passing theory, moving
 ## Decision Making from This Position
 
 **If opponent keeps leg straight and attempts to push knee line with foot on hip creating distance:**
-- Execute **[[Transitions/Toreando from Headquarters]]** → [[Positions/Side Control]] (Probability: 70%)
-- Execute **[[Transitions/Leg Drag from Headquarters]]** → [[Positions/Leg Drag Control]] (Probability: 60%)
+- Execute **[[Transitions/Toreando from Headquarters/Attacker|Toreando from Headquarters]]** → [[Positions/Side Control]] (Probability: 70%)
+- Execute **[[Transitions/Leg Drag from Headquarters/Attacker|Leg Drag from Headquarters]]** → [[Positions/Leg Drag Control]] (Probability: 60%)
 
 
 **If opponent turns toward trapped leg attempting to recover half guard or full guard structures:**
-- Execute **[[Transitions/Knee Cut from Headquarters]]** → [[Positions/Side Control]] (Probability: 75%)
-- Execute **[[Transitions/Body Lock Pass]]** → [[Positions/Side Control]] (Probability: 65%)
+- Execute **[[Transitions/Knee Cut from Headquarters/Attacker|Knee Cut from Headquarters]]** → [[Positions/Side Control]] (Probability: 75%)
+- Execute **[[Transitions/Body Lock Pass/Attacker|Body Lock Pass]]** → [[Positions/Side Control]] (Probability: 65%)
 
 
 **If opponent creates strong frames with hands on shoulder and hip attempting to maintain distance:**
-- Execute **[[Transitions/Leg Drag from Headquarters]]** → [[Positions/Leg Drag Control]] (Probability: 80%)
-- Execute **[[Transitions/Body Lock Pass]]** → [[Positions/Side Control]] (Probability: 70%)
+- Execute **[[Transitions/Leg Drag from Headquarters/Attacker|Leg Drag from Headquarters]]** → [[Positions/Leg Drag Control]] (Probability: 80%)
+- Execute **[[Transitions/Body Lock Pass/Attacker|Body Lock Pass]]** → [[Positions/Side Control]] (Probability: 70%)
 
 
 **If opponent attempts deep half guard entry or commits to underhook sweep mechanics:**
-- Execute **[[Transitions/Back Step Pass]]** → [[Positions/Back Control]] (Probability: 65%)
-- Execute **[[Transitions/Knee Cut from Headquarters]]** → [[Positions/Side Control]] (Probability: 60%)
+- Execute **[[Transitions/Back Step Pass/Attacker|Back Step Pass]]** → [[Positions/Back Control]] (Probability: 65%)
+- Execute **[[Transitions/Knee Cut from Headquarters/Attacker|Knee Cut from Headquarters]]** → [[Positions/Side Control]] (Probability: 60%)
 
 
 

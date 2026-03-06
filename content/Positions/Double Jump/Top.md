@@ -211,26 +211,26 @@ Double Jump Top represents modern turtle attack methodology, emphasizing leg-bas
 ## Decision Making from This Position
 
 **If opponent maintains strong turtle base and resists hook insertion:**
-- Execute **[[Transitions/Crossface Pass]]** → [[Positions/Side Control]] (Probability: 45%)
-- Execute **[[Transitions/Front Headlock to Anaconda]]** → [[Positions/Anaconda Control]] (Probability: 35%)
-- Execute **[[Transitions/Front Headlock to Back]]** → [[Positions/Back Control]] (Probability: 40%)
+- Execute **[[Transitions/Crossface Pass/Attacker|Crossface Pass]]** → [[Positions/Side Control]] (Probability: 45%)
+- Execute **[[Transitions/Front Headlock to Anaconda/Attacker|Front Headlock to Anaconda]]** → [[Positions/Anaconda Control]] (Probability: 35%)
+- Execute **[[Transitions/Front Headlock to Back/Attacker|Front Headlock to Back]]** → [[Positions/Back Control]] (Probability: 40%)
 
 
 **If opponent attempts to sit to butterfly guard or turn into you:**
-- Execute **[[Transitions/Crab Ride to Back]]** → [[Positions/Crab Ride]] (Probability: 65%)
-- Execute **[[Transitions/Turtle to Back Control]]** → [[Positions/Back Control]] (Probability: 60%)
-- Execute **[[Transitions/Back Take]]** → [[Positions/Back Control]] (Probability: 55%)
+- Execute **[[Transitions/Crab Ride to Back/Attacker|Crab Ride to Back]]** → [[Positions/Crab Ride]] (Probability: 65%)
+- Execute **[[Transitions/Turtle to Back Control/Attacker|Turtle to Back Control]]** → [[Positions/Back Control]] (Probability: 60%)
+- Execute **[[Transitions/Back Take/Attacker|Back Take]]** → [[Positions/Back Control]] (Probability: 55%)
 
 
 **If opponent rolls away from pressure to escape hooks:**
-- Execute **[[Transitions/Turtle to Truck]]** → [[Positions/Twister Control/Truck]] (Probability: 70%)
-- Execute **[[Transitions/Rolling Back Take]]** → [[Positions/Back Control]] (Probability: 65%)
-- Execute **[[Transitions/Truck Entry]]** → [[Positions/Twister Control/Truck]] (Probability: 60%)
+- Execute **[[Transitions/Turtle to Truck/Attacker|Turtle to Truck]]** → [[Positions/Twister Control/Truck]] (Probability: 70%)
+- Execute **[[Transitions/Rolling Back Take/Attacker|Rolling Back Take]]** → [[Positions/Back Control]] (Probability: 65%)
+- Execute **[[Transitions/Truck Entry/Attacker|Truck Entry]]** → [[Positions/Twister Control/Truck]] (Probability: 60%)
 
 
 **If opponent flattens to belly to defend hooks:**
-- Execute **[[Transitions/Turtle to Back Control]]** → [[Positions/Back Control]] (Probability: 75%)
-- Execute **[[Transitions/Back Take]]** → [[Positions/Back Control]] (Probability: 70%)
+- Execute **[[Transitions/Turtle to Back Control/Attacker|Turtle to Back Control]]** → [[Positions/Back Control]] (Probability: 75%)
+- Execute **[[Transitions/Back Take/Attacker|Back Take]]** → [[Positions/Back Control]] (Probability: 70%)
 
 
 

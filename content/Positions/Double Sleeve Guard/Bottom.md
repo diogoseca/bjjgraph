@@ -207,25 +207,25 @@ Double Sleeve Guard Bottom is a fundamental open guard position where the bottom
 ## Decision Making from This Position
 
 **If opponent maintains strong upright posture and attempts to break grips by pulling arms back:**
-- Execute **[[Transitions/Tripod Sweep]]** → [[Positions/Open Guard]] (Probability: 60%)
-- Execute **[[Transitions/Sickle Sweep]]** → [[Positions/Open Guard]] (Probability: 55%)
+- Execute **[[Transitions/Tripod Sweep/Attacker|Tripod Sweep]]** → [[Positions/Open Guard]] (Probability: 60%)
+- Execute **[[Transitions/Sickle Sweep/Attacker|Sickle Sweep]]** → [[Positions/Open Guard]] (Probability: 55%)
 
 
 **If opponent leans forward with weight attempting to break grips and establish chest pressure:**
-- Execute **[[Transitions/Triangle Setup]]** → [[Positions/Triangle Control]] (Probability: 55%)
-- Execute **[[Transitions/Scissor Sweep]]** → [[Positions/Mount]] (Probability: 60%)
-- Execute **[[Transitions/Omoplata Sweep]]** → [[Positions/Side Control]] (Probability: 50%)
+- Execute **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** → [[Positions/Triangle Control]] (Probability: 55%)
+- Execute **[[Transitions/Scissor Sweep/Attacker|Scissor Sweep]]** → [[Positions/Mount]] (Probability: 60%)
+- Execute **[[Transitions/Omoplata Sweep/Attacker|Omoplata Sweep]]** → [[Positions/Side Control]] (Probability: 50%)
 
 
 **If opponent attempts to circle or step to one side to initiate passing sequence:**
-- Execute **[[Transitions/Pendulum Sweep]]** → [[Positions/Mount]] (Probability: 55%)
-- Execute **[[Transitions/Flower Sweep]]** → [[Positions/Mount]] (Probability: 58%)
-- Execute **[[Transitions/De La Riva Sweep]]** → [[Positions/De La Riva Guard]] (Probability: 52%)
+- Execute **[[Transitions/Pendulum Sweep/Attacker|Pendulum Sweep]]** → [[Positions/Mount]] (Probability: 55%)
+- Execute **[[Transitions/Flower Sweep/Attacker|Flower Sweep]]** → [[Positions/Mount]] (Probability: 58%)
+- Execute **[[Transitions/De La Riva Sweep/Attacker|De La Riva Sweep]]** → [[Positions/De La Riva Guard]] (Probability: 52%)
 
 
 **If opponent successfully breaks one sleeve grip and establishes pants grip:**
-- Execute **[[Transitions/Guard Recovery from Double Sleeve Guard]]** → [[Positions/Open Guard]] (Probability: 45%)
-- Execute **[[Transitions/Overhook Sweep]]** → [[Positions/Mount]] (Probability: 50%)
+- Execute **[[Transitions/Guard Recovery from Double Sleeve Guard/Attacker|Guard Recovery from Double Sleeve Guard]]** → [[Positions/Open Guard]] (Probability: 45%)
+- Execute **[[Transitions/Overhook Sweep/Attacker|Overhook Sweep]]** → [[Positions/Mount]] (Probability: 50%)
 
 
 

@@ -206,28 +206,28 @@ From the bottom perspective, Inverted Guard represents a highly mobile defensive
 ## Decision Making from This Position
 
 **If opponent attempts smash pass with forward pressure and weight driving into shoulders:**
-- Execute **[[Transitions/Granby Roll to Guard]]** → [[Positions/Closed Guard]] (Probability: 60%)
-- Execute **[[Transitions/Berimbolo Entry]]** → [[Positions/Back Control]] (Probability: 50%)
+- Execute **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** → [[Positions/Closed Guard]] (Probability: 60%)
+- Execute **[[Transitions/Berimbolo Entry/Attacker|Berimbolo Entry]]** → [[Positions/Back Control]] (Probability: 50%)
 
 
 **Else if opponent commits weight forward to control position with close distance:**
-- Execute **[[Transitions/Rolling Back Take]]** → [[Positions/Back Control]] (Probability: 55%)
-- Execute **[[Transitions/Kiss of the Dragon]]** → [[Positions/Back Control]] (Probability: 45%)
+- Execute **[[Transitions/Rolling Back Take/Attacker|Rolling Back Take]]** → [[Positions/Back Control]] (Probability: 55%)
+- Execute **[[Transitions/Kiss of the Dragon/Attacker|Kiss of the Dragon]]** → [[Positions/Back Control]] (Probability: 45%)
 
 
 **Else if opponent maintains distance and steps back to disengage:**
-- Execute **[[Transitions/Technical Stand-up]]** → [[Positions/Standing Guard]] (Probability: 65%)
-- Execute **[[Transitions/Single Leg X Entry]]** → [[Positions/X-Guard/Single Leg X-Guard]] (Probability: 55%)
+- Execute **[[Transitions/Technical Stand-up/Attacker|Technical Stand-up]]** → [[Positions/Standing Guard]] (Probability: 65%)
+- Execute **[[Transitions/Single Leg X Entry/Attacker|Single Leg X Entry]]** → [[Positions/X-Guard/Single Leg X-Guard]] (Probability: 55%)
 
 
 **Else if opponent establishes strong base with legs wide and low posture:**
-- Execute **[[Transitions/X-Guard Sweep]]** → [[Positions/X-Guard]] (Probability: 50%)
-- Execute **[[Transitions/Single Leg X Entry]]** → [[Positions/X-Guard/Single Leg X-Guard]] (Probability: 60%)
+- Execute **[[Transitions/X-Guard Sweep/Attacker|X-Guard Sweep]]** → [[Positions/X-Guard]] (Probability: 50%)
+- Execute **[[Transitions/Single Leg X Entry/Attacker|Single Leg X Entry]]** → [[Positions/X-Guard/Single Leg X-Guard]] (Probability: 60%)
 
 
 **Else if opponent begins stack pass with hips elevated and pressure angled downward:**
-- Execute **[[Transitions/Granby Roll to Guard]]** → [[Positions/Closed Guard]] (Probability: 65%)
-- Execute **[[Transitions/Reverse X-Guard Entry]]** → [[Positions/X-Guard/Reverse X-Guard]] (Probability: 45%)
+- Execute **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** → [[Positions/Closed Guard]] (Probability: 65%)
+- Execute **[[Transitions/Reverse X-Guard Entry/Attacker|Reverse X-Guard Entry]]** → [[Positions/X-Guard/Reverse X-Guard]] (Probability: 45%)
 
 
 

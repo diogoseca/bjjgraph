@@ -207,23 +207,23 @@ Lockdown Top represents the defensive perspective against 10th Planet's signatur
 ## Decision Making from This Position
 
 **If bottom player has strong underhook and is attempting Old School sweep:**
-- Execute **[[Crossface Control]]** → [[Positions/Half Guard/Lockdown]] (Probability: 60%)
-- Execute **[[Post Hand Far Side]]** → [[Positions/Half Guard/Lockdown]] (Probability: 55%)
+- Execute **[[Crossface Control/Attacker|Crossface Control]]** → [[Positions/Half Guard/Lockdown]] (Probability: 60%)
+- Execute **[[Post Hand Far Side/Attacker|Post Hand Far Side]]** → [[Positions/Half Guard/Lockdown]] (Probability: 55%)
 
 
 **If bottom player extends lockdown aggressively for Electric Chair:**
-- Execute **[[Drive Forward Pressure]]** → [[Positions/Half Guard/Lockdown]] (Probability: 65%)
-- Execute **[[Extract Leg with Hip Pressure]]** → [[Positions/Combat Base]] (Probability: 50%)
+- Execute **[[Drive Forward Pressure/Attacker|Drive Forward Pressure]]** → [[Positions/Half Guard/Lockdown]] (Probability: 65%)
+- Execute **[[Extract Leg with Hip Pressure/Attacker|Extract Leg with Hip Pressure]]** → [[Positions/Combat Base]] (Probability: 50%)
 
 
 **If bottom player is attempting whip-up with upper body control:**
-- Execute **[[Heavy Shoulder Pressure]]** → [[Positions/Half Guard/Lockdown]] (Probability: 60%)
-- Execute **[[Transitions/Smash Pass]]** → [[Positions/Side Control]] (Probability: 45%)
+- Execute **[[Heavy Shoulder Pressure/Attacker|Heavy Shoulder Pressure]]** → [[Positions/Half Guard/Lockdown]] (Probability: 60%)
+- Execute **[[Transitions/Smash Pass/Attacker|Smash Pass]]** → [[Positions/Side Control]] (Probability: 45%)
 
 
 **If lockdown pressure is moderate and bottom player adjusting position:**
-- Execute **[[Leg Extraction Sequence]]** → [[Positions/Combat Base]] (Probability: 65%)
-- Execute **[[Transitions/Knee Slice from Half]]** → [[Positions/Side Control]] (Probability: 55%)
+- Execute **[[Leg Extraction Sequence/Attacker|Leg Extraction Sequence]]** → [[Positions/Combat Base]] (Probability: 65%)
+- Execute **[[Transitions/Knee Slice from Half/Attacker|Knee Slice from Half]]** → [[Positions/Side Control]] (Probability: 55%)
 
 
 

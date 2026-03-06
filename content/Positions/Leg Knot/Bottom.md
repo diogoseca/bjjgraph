@@ -211,28 +211,28 @@ Success in Leg Knot Bottom requires understanding the hierarchical threat assess
 ## Decision Making from This Position
 
 **If opponent secures heel grip and begins heel hook rotation:**
-- Execute **[[Immediate Granby roll escape]]** → [[Positions/Open Guard]] (Probability: 60%)
-- Execute **[[Hide heel and turn into opponent]]** → [[Positions/Ashi Garami/50-50 Guard]] (Probability: 30%)
+- Execute **[[Immediate Granby roll escape/Attacker|Immediate Granby roll escape]]** → [[Positions/Open Guard]] (Probability: 60%)
+- Execute **[[Hide heel and turn into opponent/Attacker|Hide heel and turn into opponent]]** → [[Positions/Ashi Garami/50-50 Guard]] (Probability: 30%)
 
 
 **If opponent transitions toward Inside Ashi configuration:**
-- Execute **[[Block with free leg and reverse to Outside Ashi]]** → [[Positions/Ashi Garami/Outside Ashi-Garami]] (Probability: 45%)
-- Execute **[[Clear leg and establish Single Leg X]]** → [[Positions/X-Guard/Single Leg X-Guard]] (Probability: 40%)
+- Execute **[[Block with free leg and reverse to Outside Ashi/Attacker|Block with free leg and reverse to Outside Ashi]]** → [[Positions/Ashi Garami/Outside Ashi-Garami]] (Probability: 45%)
+- Execute **[[Clear leg and establish Single Leg X/Attacker|Clear leg and establish Single Leg X]]** → [[Positions/X-Guard/Single Leg X-Guard]] (Probability: 40%)
 
 
 **If opponent's grip loosens during transition:**
-- Execute **[[Extract leg immediately to Half Guard]]** → [[Positions/Half Guard]] (Probability: 55%)
-- Execute **[[Sit up and establish open guard]]** → [[Positions/Open Guard]] (Probability: 35%)
+- Execute **[[Extract leg immediately to Half Guard/Attacker|Extract leg immediately to Half Guard]]** → [[Positions/Half Guard]] (Probability: 55%)
+- Execute **[[Sit up and establish open guard/Attacker|Sit up and establish open guard]]** → [[Positions/Open Guard]] (Probability: 35%)
 
 
 **If opponent establishes strong cross-body control:**
-- Execute **[[Granby roll to reverse position]]** → [[Positions/Ashi Garami/Outside Ashi-Garami]] (Probability: 40%)
-- Execute **[[Counter-entangle to 50-50]]** → [[Positions/Ashi Garami/50-50 Guard]] (Probability: 45%)
+- Execute **[[Granby roll to reverse position/Attacker|Granby roll to reverse position]]** → [[Positions/Ashi Garami/Outside Ashi-Garami]] (Probability: 40%)
+- Execute **[[Counter-entangle to 50-50/Attacker|Counter-entangle to 50-50]]** → [[Positions/Ashi Garami/50-50 Guard]] (Probability: 45%)
 
 
 **If opponent attempts to stack or drive forward:**
-- Execute **[[Hip escape to create space]]** → [[Positions/Half Guard]] (Probability: 50%)
-- Execute **[[Use free leg to push and extract]]** → [[Positions/X-Guard/Single Leg X-Guard]] (Probability: 35%)
+- Execute **[[Hip escape to create space/Attacker|Hip escape to create space]]** → [[Positions/Half Guard]] (Probability: 50%)
+- Execute **[[Use free leg to push and extract/Attacker|Use free leg to push and extract]]** → [[Positions/X-Guard/Single Leg X-Guard]] (Probability: 35%)
 
 
 

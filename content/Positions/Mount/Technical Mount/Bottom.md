@@ -207,23 +207,23 @@ From the bottom perspective, Technical Mount represents one of the most precario
 ## Decision Making from This Position
 
 **If opponent is stepping leg over to isolate arm for armbar and arm control is being established:**
-- Execute **[[Transitions/Elbow Escape to Guard]]** → [[Positions/Half Guard]] (Probability: 40%)
-- Execute **[[Transitions/Shrimp Escape]]** → [[Positions/Turtle]] (Probability: 35%)
+- Execute **[[Transitions/Elbow Escape to Guard/Attacker|Elbow Escape to Guard]]** → [[Positions/Half Guard]] (Probability: 40%)
+- Execute **[[Transitions/Shrimp Escape/Attacker|Shrimp Escape]]** → [[Positions/Turtle]] (Probability: 35%)
 
 
 **If opponent maintains heavy chest pressure but hasn't secured armbar grip yet:**
-- Execute **[[Transitions/Upa Escape]]** → [[Positions/Closed Guard]] (Probability: 30%)
-- Execute **[[Transitions/Bridge and Roll]]** → [[Positions/Mount]] (Probability: 25%)
+- Execute **[[Transitions/Upa Escape/Attacker|Upa Escape]]** → [[Positions/Closed Guard]] (Probability: 30%)
+- Execute **[[Transitions/Bridge and Roll/Attacker|Bridge and Roll]]** → [[Positions/Mount]] (Probability: 25%)
 
 
 **If opponent is transitioning weight to set up triangle or switch to full mount:**
-- Execute **[[Transitions/Hip Escape to Guard]]** → [[Positions/Open Guard]] (Probability: 45%)
-- Execute **[[Principles/Guard Recovery]]** → [[Positions/Half Guard]] (Probability: 35%)
+- Execute **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** → [[Positions/Open Guard]] (Probability: 45%)
+- Execute **[[Principles/Guard Recovery/Attacker|Guard Recovery]]** → [[Positions/Half Guard]] (Probability: 35%)
 
 
 **If opponent's base is compromised during transition with weight shifting off posted leg:**
-- Execute **[[Transitions/Bridge and Roll]]** → [[Positions/Mount]] (Probability: 40%)
-- Execute **[[Transitions/Standing up in Base]]** → [[Positions/Clinch]] (Probability: 25%)
+- Execute **[[Transitions/Bridge and Roll/Attacker|Bridge and Roll]]** → [[Positions/Mount]] (Probability: 40%)
+- Execute **[[Transitions/Standing up in Base/Attacker|Standing up in Base]]** → [[Positions/Clinch]] (Probability: 25%)
 
 
 

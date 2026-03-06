@@ -101,21 +101,21 @@ Understanding the biomechanical differences between ushiro ashi-garami and stand
 ### Available Transitions
 
 
-- **[[Transitions/Ushiro Ashi-Garami Escape]]** (11% of attempts)
+- **[[Transitions/Ushiro Ashi-Garami Escape/Attacker|Ushiro Ashi-Garami Escape]]** (11% of attempts)
 
-- **[[Transitions/Inversion to Turtle]]** (39% of attempts)
+- **[[Transitions/Inversion to Turtle/Attacker|Inversion to Turtle]]** (39% of attempts)
 
-- **[[Transitions/Ushiro Ashi-Garami to Deep Half]]** (11% of attempts)
+- **[[Transitions/Ushiro Ashi-Garami to Deep Half/Attacker|Ushiro Ashi-Garami to Deep Half]]** (11% of attempts)
 
-- **[[Transitions/Single Leg X Recovery]]** (12% of attempts)
+- **[[Transitions/Single Leg X Recovery/Attacker|Single Leg X Recovery]]** (12% of attempts)
 
-- **[[Transitions/Reverse Heel Hook Counter]]** (4% of attempts)
+- **[[Transitions/Reverse Heel Hook Counter/Attacker|Reverse Heel Hook Counter]]** (4% of attempts)
 
-- **[[Transitions/Leg Extraction to Guard]]** (14% of attempts)
+- **[[Transitions/Leg Extraction to Guard/Attacker|Leg Extraction to Guard]]** (14% of attempts)
 
-- **[[Transitions/Counter-entangle to 50-50 Guard]]** (7% of attempts)
+- **[[Transitions/Counter-entangle to 50-50 Guard/Attacker|Counter-entangle to 50-50 Guard]]** (7% of attempts)
 
-- **[[Transitions/Sweep from Ushiro Ashi-Garami]]** (2% of attempts)
+- **[[Transitions/Sweep from Ushiro Ashi-Garami/Attacker|Sweep from Ushiro Ashi-Garami]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -176,25 +176,25 @@ Understanding the biomechanical differences between ushiro ashi-garami and stand
 ### Available Transitions
 
 
-- **[[Transitions/Inside Heel Hook from Ushiro]]** (13% of attempts)
+- **[[Transitions/Inside Heel Hook from Ushiro/Attacker|Inside Heel Hook from Ushiro]]** (13% of attempts)
 
-- **[[Transitions/Follow to Back Control]]** (16% of attempts)
+- **[[Transitions/Follow to Back Control/Attacker|Follow to Back Control]]** (16% of attempts)
 
-- **[[Transitions/Ankle Lock Finish]]** (7% of attempts)
+- **[[Transitions/Ankle Lock Finish/Attacker|Ankle Lock Finish]]** (7% of attempts)
 
-- **[[Transitions/Cross Ashi Transition]]** (10% of attempts)
+- **[[Transitions/Cross Ashi Transition/Attacker|Cross Ashi Transition]]** (10% of attempts)
 
-- **[[Transitions/Outside Heel Hook Adjustment]]** (5% of attempts)
+- **[[Transitions/Outside Heel Hook Adjustment/Attacker|Outside Heel Hook Adjustment]]** (5% of attempts)
 
-- **[[Transitions/Return to Outside Ashi]]** (12% of attempts)
+- **[[Transitions/Return to Outside Ashi/Attacker|Return to Outside Ashi]]** (12% of attempts)
 
-- **[[Transitions/Kneebar from Ushiro]]** (15% of attempts)
+- **[[Transitions/Kneebar from Ushiro/Attacker|Kneebar from Ushiro]]** (15% of attempts)
 
-- **[[Transitions/Saddle Entry from Top]]** (12% of attempts)
+- **[[Transitions/Saddle Entry from Top/Attacker|Saddle Entry from Top]]** (12% of attempts)
 
-- **[[Transitions/Toe Hold]]** (8% of attempts)
+- **[[Transitions/Toe Hold/Attacker|Toe Hold]]** (8% of attempts)
 
-- **[[Submissions/Heel Hook from Ushiro Ashi]]** (2% of attempts)
+- **[[Submissions/Heel Hook from Ushiro Ashi/Attacker|Heel Hook from Ushiro Ashi]]** (2% of attempts)
 
 
 ### Common Mistakes

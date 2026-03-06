@@ -93,21 +93,21 @@ From the top attacking perspective, the position offers significant control adva
 ### Available Transitions
 
 
-- **[[Transitions/Ashi Garami Escape]]** (23% of attempts)
+- **[[Transitions/Ashi Garami Escape/Attacker|Ashi Garami Escape]]** (23% of attempts)
 
-- **[[Transitions/Leg Extraction]]** (38% of attempts)
+- **[[Transitions/Leg Extraction/Attacker|Leg Extraction]]** (38% of attempts)
 
-- **[[Transitions/Counter Sweep]]** (3% of attempts)
+- **[[Transitions/Counter Sweep/Attacker|Counter Sweep]]** (3% of attempts)
 
-- **[[Transitions/Angle Change Escape]]** (13% of attempts)
+- **[[Transitions/Angle Change Escape/Attacker|Angle Change Escape]]** (13% of attempts)
 
-- **[[Transitions/Standing Escape]]** (13% of attempts)
+- **[[Transitions/Standing Escape/Attacker|Standing Escape]]** (13% of attempts)
 
-- **[[Transitions/50-50 Entry]]** (8% of attempts)
+- **[[Transitions/50-50 Entry/Attacker|50-50 Entry]]** (8% of attempts)
 
-- **[[Transitions/Estima Lock Counter Roll]]** (1% of attempts)
+- **[[Transitions/Estima Lock Counter Roll/Attacker|Estima Lock Counter Roll]]** (1% of attempts)
 
-- **[[Transitions/Counter from Estima Lock]]** (1% of attempts)
+- **[[Transitions/Counter from Estima Lock/Attacker|Counter from Estima Lock]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -168,21 +168,21 @@ From the top attacking perspective, the position offers significant control adva
 ### Available Transitions
 
 
-- **[[Positions/Estima Lock]]** (35% of attempts)
+- **[[Positions/Estima Lock/Attacker|Estima Lock]]** (35% of attempts)
 
-- **[[Transitions/Toe Hold]]** (18% of attempts)
+- **[[Transitions/Toe Hold/Attacker|Toe Hold]]** (18% of attempts)
 
-- **[[Transitions/Estima Lock to Saddle]]** (13% of attempts)
+- **[[Transitions/Estima Lock to Saddle/Attacker|Estima Lock to Saddle]]** (13% of attempts)
 
-- **[[Transitions/Kneebar]]** (8% of attempts)
+- **[[Transitions/Kneebar/Attacker|Kneebar]]** (8% of attempts)
 
-- **[[Transitions/Estima Lock to Ashi Garami]]** (18% of attempts)
+- **[[Transitions/Estima Lock to Ashi Garami/Attacker|Estima Lock to Ashi Garami]]** (18% of attempts)
 
-- **[[Transitions/Kneebar from Estima Lock]]** (4% of attempts)
+- **[[Transitions/Kneebar from Estima Lock/Attacker|Kneebar from Estima Lock]]** (4% of attempts)
 
-- **[[Transitions/Toe Hold from Estima Lock]]** (2% of attempts)
+- **[[Transitions/Toe Hold from Estima Lock/Attacker|Toe Hold from Estima Lock]]** (2% of attempts)
 
-- **[[Submissions/Estima Lock Finish]]** (2% of attempts)
+- **[[Submissions/Estima Lock Finish/Attacker|Estima Lock Finish]]** (2% of attempts)
 
 
 ### Common Mistakes

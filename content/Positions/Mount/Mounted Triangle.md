@@ -97,27 +97,27 @@ Success in mounted triangle requires understanding the biomechanical principles 
 ### Available Transitions
 
 
-- **[[Transitions/Bridge and Roll]]** (11% of attempts)
+- **[[Transitions/Bridge and Roll/Attacker|Bridge and Roll]]** (11% of attempts)
 
-- **[[Transitions/Elbow Escape to Guard]]** (35% of attempts)
+- **[[Transitions/Elbow Escape to Guard/Attacker|Elbow Escape to Guard]]** (35% of attempts)
 
-- **[[Transitions/Granby Roll to Guard]]** (5% of attempts)
+- **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** (5% of attempts)
 
-- **[[Transitions/Hip Escape to Guard]]** (13% of attempts)
+- **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** (13% of attempts)
 
-- **[[Transitions/Upa Escape]]** (9% of attempts)
+- **[[Transitions/Upa Escape/Attacker|Upa Escape]]** (9% of attempts)
 
-- **[[Transitions/Frame and Shrimp to Guard]]** (12% of attempts)
+- **[[Transitions/Frame and Shrimp to Guard/Attacker|Frame and Shrimp to Guard]]** (12% of attempts)
 
-- **[[Transitions/Shrimp Escape]]** (5% of attempts)
+- **[[Transitions/Shrimp Escape/Attacker|Shrimp Escape]]** (5% of attempts)
 
-- **[[Transitions/Arm Extraction]]** (6% of attempts)
+- **[[Transitions/Arm Extraction/Attacker|Arm Extraction]]** (6% of attempts)
 
-- **[[Transitions/Bridge Defense from Mounted Triangle]]** (2% of attempts)
+- **[[Transitions/Bridge Defense from Mounted Triangle/Attacker|Bridge Defense from Mounted Triangle]]** (2% of attempts)
 
-- **[[Transitions/Frame and Escape Mounted Triangle]]** (1% of attempts)
+- **[[Transitions/Frame and Escape Mounted Triangle/Attacker|Frame and Escape Mounted Triangle]]** (1% of attempts)
 
-- **[[Transitions/Posture Up from Mounted Triangle]]** (1% of attempts)
+- **[[Transitions/Posture Up from Mounted Triangle/Attacker|Posture Up from Mounted Triangle]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -178,31 +178,31 @@ Success in mounted triangle requires understanding the biomechanical principles 
 ### Available Transitions
 
 
-- **[[Transitions/Triangle Choke]]** (22% of attempts)
+- **[[Transitions/Triangle Choke/Attacker|Triangle Choke]]** (22% of attempts)
 
-- **[[Transitions/Armbar Finish]]** (9% of attempts)
+- **[[Transitions/Armbar Finish/Attacker|Armbar Finish]]** (9% of attempts)
 
-- **[[Transitions/Switch to Triangle]]** (8% of attempts)
+- **[[Transitions/Switch to Triangle/Attacker|Switch to Triangle]]** (8% of attempts)
 
-- **[[Transitions/Back Take]]** (8% of attempts)
+- **[[Transitions/Back Take/Attacker|Back Take]]** (8% of attempts)
 
-- **[[Transitions/Consolidate Mount]]** (9% of attempts)
+- **[[Transitions/Consolidate Mount/Attacker|Consolidate Mount]]** (9% of attempts)
 
-- **[[Positions/Gift Wrap]]** (6% of attempts)
+- **[[Positions/Gift Wrap/Attacker|Gift Wrap]]** (6% of attempts)
 
-- **[[Transitions/Kimura to Back Take]]** (6% of attempts)
+- **[[Transitions/Kimura to Back Take/Attacker|Kimura to Back Take]]** (6% of attempts)
 
-- **[[Transitions/S-Mount Transition]]** (9% of attempts)
+- **[[Transitions/S-Mount Transition/Attacker|S-Mount Transition]]** (9% of attempts)
 
-- **[[Transitions/Triangle to Armbar]]** (9% of attempts)
+- **[[Transitions/Triangle to Armbar/Attacker|Triangle to Armbar]]** (9% of attempts)
 
-- **[[Transitions/Triangle to Back]]** (7% of attempts)
+- **[[Transitions/Triangle to Back/Attacker|Triangle to Back]]** (7% of attempts)
 
-- **[[Transitions/Mounted Triangle Squeeze]]** (3% of attempts)
+- **[[Transitions/Mounted Triangle Squeeze/Attacker|Mounted Triangle Squeeze]]** (3% of attempts)
 
-- **[[Transitions/Mounted Triangle to S Mount]]** (2% of attempts)
+- **[[Transitions/Mounted Triangle to S Mount/Attacker|Mounted Triangle to S Mount]]** (2% of attempts)
 
-- **[[Submissions/Mounted Triangle Finish]]** (2% of attempts)
+- **[[Submissions/Mounted Triangle Finish/Attacker|Mounted Triangle Finish]]** (2% of attempts)
 
 
 ### Common Mistakes

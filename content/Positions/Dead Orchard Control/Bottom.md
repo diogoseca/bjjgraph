@@ -207,27 +207,27 @@ Dead Orchard Control Bottom represents one of the most disadvantageous positions
 ## Decision Making from This Position
 
 **If opponent is actively working to lock anaconda or darce choke with arm trapped deep:**
-- Execute **[[Transitions/Arm Extraction]]** → [[Positions/Front Headlock]] (Probability: 40%)
-- Execute **[[Transitions/Rolling to Guard]]** → [[Positions/Closed Guard]] (Probability: 35%)
-- Execute **[[Transitions/Shrimp Escape]]** → [[Positions/Turtle]] (Probability: 25%)
+- Execute **[[Transitions/Arm Extraction/Attacker|Arm Extraction]]** → [[Positions/Front Headlock]] (Probability: 40%)
+- Execute **[[Transitions/Rolling to Guard/Attacker|Rolling to Guard]]** → [[Positions/Closed Guard]] (Probability: 35%)
+- Execute **[[Transitions/Shrimp Escape/Attacker|Shrimp Escape]]** → [[Positions/Turtle]] (Probability: 25%)
 
 
 **If opponent is transitioning to mount or back control rather than immediate submission:**
-- Execute **[[Transitions/Hip Escape to Guard]]** → [[Positions/Open Guard]] (Probability: 45%)
-- Execute **[[Transitions/Granby Roll to Guard]]** → [[Positions/Half Guard]] (Probability: 30%)
-- Execute **[[Transitions/Sit Through to Guard]]** → [[Positions/Closed Guard]] (Probability: 25%)
+- Execute **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** → [[Positions/Open Guard]] (Probability: 45%)
+- Execute **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** → [[Positions/Half Guard]] (Probability: 30%)
+- Execute **[[Transitions/Sit Through to Guard/Attacker|Sit Through to Guard]]** → [[Positions/Closed Guard]] (Probability: 25%)
 
 
 **If opponent's grip is loose or pressure is temporarily reduced:**
-- Execute **[[Transitions/Hip Escape to Guard]]** → [[Positions/Open Guard]] (Probability: 40%)
-- Execute **[[Transitions/Standing Escape]]** → [[Positions/Clinch]] (Probability: 35%)
-- Execute **[[Transitions/Rolling to Guard]]** → [[Positions/Closed Guard]] (Probability: 25%)
+- Execute **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** → [[Positions/Open Guard]] (Probability: 40%)
+- Execute **[[Transitions/Standing Escape/Attacker|Standing Escape]]** → [[Positions/Clinch]] (Probability: 35%)
+- Execute **[[Transitions/Rolling to Guard/Attacker|Rolling to Guard]]** → [[Positions/Closed Guard]] (Probability: 25%)
 
 
 **If opponent walks hips toward your head for anaconda finishing angle:**
-- Execute **[[Transitions/Rolling to Guard]]** → [[Positions/Closed Guard]] (Probability: 45%)
-- Execute **[[Transitions/Arm Extraction]]** → [[Positions/Front Headlock]] (Probability: 30%)
-- Execute **[[Transitions/Granby Roll to Guard]]** → [[Positions/Open Guard]] (Probability: 25%)
+- Execute **[[Transitions/Rolling to Guard/Attacker|Rolling to Guard]]** → [[Positions/Closed Guard]] (Probability: 45%)
+- Execute **[[Transitions/Arm Extraction/Attacker|Arm Extraction]]** → [[Positions/Front Headlock]] (Probability: 30%)
+- Execute **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** → [[Positions/Open Guard]] (Probability: 25%)
 
 
 

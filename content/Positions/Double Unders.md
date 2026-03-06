@@ -93,19 +93,19 @@ Understanding double unders from both perspectives is essential for developing c
 ### Available Transitions
 
 
-- **[[Transitions/Deep Half Entry]]** (43% of attempts)
+- **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** (43% of attempts)
 
-- **[[Transitions/Granby Roll to Guard]]** (15% of attempts)
+- **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** (15% of attempts)
 
-- **[[Transitions/Butterfly Hook Recovery]]** (12% of attempts)
+- **[[Transitions/Butterfly Hook Recovery/Attacker|Butterfly Hook Recovery]]** (12% of attempts)
 
-- **[[Transitions/Hip Escape to Guard]]** (12% of attempts)
+- **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** (12% of attempts)
 
-- **[[Transitions/Roll to Turtle]]** (10% of attempts)
+- **[[Transitions/Roll to Turtle/Attacker|Roll to Turtle]]** (10% of attempts)
 
-- **[[Transitions/Guard Recovery from Double Unders]]** (5% of attempts)
+- **[[Transitions/Guard Recovery from Double Unders/Attacker|Guard Recovery from Double Unders]]** (5% of attempts)
 
-- **[[Transitions/Sweep from Double Unders]]** (3% of attempts)
+- **[[Transitions/Sweep from Double Unders/Attacker|Sweep from Double Unders]]** (3% of attempts)
 
 
 ### Common Mistakes
@@ -170,25 +170,25 @@ Understanding double unders from both perspectives is essential for developing c
 ### Available Transitions
 
 
-- **[[Transitions/Double Under Pass]]** (33% of attempts)
+- **[[Transitions/Double Under Pass/Attacker|Double Under Pass]]** (33% of attempts)
 
-- **[[Transitions/Stack Pass]]** (14% of attempts)
+- **[[Transitions/Stack Pass/Attacker|Stack Pass]]** (14% of attempts)
 
-- **[[Transitions/Leg Weave Pass]]** (10% of attempts)
+- **[[Transitions/Leg Weave Pass/Attacker|Leg Weave Pass]]** (10% of attempts)
 
-- **[[Transitions/Back Take]]** (8% of attempts)
+- **[[Transitions/Back Take/Attacker|Back Take]]** (8% of attempts)
 
-- **[[Transitions/Over-Under Pass]]** (6% of attempts)
+- **[[Transitions/Over-Under Pass/Attacker|Over-Under Pass]]** (6% of attempts)
 
-- **[[Transitions/Body Lock Pass]]** (10% of attempts)
+- **[[Transitions/Body Lock Pass/Attacker|Body Lock Pass]]** (10% of attempts)
 
-- **[[Transitions/Knee Slice Pass]]** (8% of attempts)
+- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (8% of attempts)
 
-- **[[Transitions/Smash Pass]]** (6% of attempts)
+- **[[Transitions/Smash Pass/Attacker|Smash Pass]]** (6% of attempts)
 
-- **[[Transitions/Stack Pass from Double Unders]]** (3% of attempts)
+- **[[Transitions/Stack Pass from Double Unders/Attacker|Stack Pass from Double Unders]]** (3% of attempts)
 
-- **[[Transitions/Toss Pass from Double Unders]]** (2% of attempts)
+- **[[Transitions/Toss Pass from Double Unders/Attacker|Toss Pass from Double Unders]]** (2% of attempts)
 
 
 ### Common Mistakes

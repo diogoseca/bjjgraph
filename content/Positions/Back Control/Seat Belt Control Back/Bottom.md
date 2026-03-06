@@ -211,23 +211,23 @@ The seat belt grip itself creates a powerful control mechanism that must be syst
 ## Decision Making from This Position
 
 **If opponent has seat belt grip but no hooks established yet:**
-- Execute **[[Transitions/Hip Escape to Turtle]]** → [[Positions/Turtle]] (Probability: 50%)
-- Execute **[[Transitions/Standing up in Base]]** → [[Positions/Clinch]] (Probability: 30%)
+- Execute **[[Transitions/Hip Escape to Turtle/Attacker|Hip Escape to Turtle]]** → [[Positions/Turtle]] (Probability: 50%)
+- Execute **[[Transitions/Standing up in Base/Attacker|Standing up in Base]]** → [[Positions/Clinch]] (Probability: 30%)
 
 
 **If opponent has both hooks and seat belt with choking hand near neck:**
-- Execute **[[Transitions/Hand Fighting from Back]]** → [[Positions/Back Control/Seat Belt Control Back]] (Probability: 60%)
-- Execute **[[Transitions/Elbow Escape to Remove Hooks]]** → [[Positions/Turtle]] (Probability: 40%)
+- Execute **[[Transitions/Hand Fighting from Back/Attacker|Hand Fighting from Back]]** → [[Positions/Back Control/Seat Belt Control Back]] (Probability: 60%)
+- Execute **[[Transitions/Elbow Escape to Remove Hooks/Attacker|Elbow Escape to Remove Hooks]]** → [[Positions/Turtle]] (Probability: 40%)
 
 
 **If opponent's over-shoulder grip is loose or broken temporarily:**
-- Execute **[[Transitions/Back Door Escape]]** → [[Positions/Turtle]] (Probability: 55%)
-- Execute **[[Transitions/Granby Roll to Guard]]** → [[Positions/Closed Guard]] (Probability: 40%)
+- Execute **[[Transitions/Back Door Escape/Attacker|Back Door Escape]]** → [[Positions/Turtle]] (Probability: 55%)
+- Execute **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** → [[Positions/Closed Guard]] (Probability: 40%)
 
 
 **If opponent is high on your back with weight forward and hooks shallow:**
-- Execute **[[Transitions/Hip Escape to Turtle]]** → [[Positions/Turtle]] (Probability: 45%)
-- Execute **[[Transitions/Elbow Escape to Remove Hooks]]** → [[Positions/Half Guard]] (Probability: 40%)
+- Execute **[[Transitions/Hip Escape to Turtle/Attacker|Hip Escape to Turtle]]** → [[Positions/Turtle]] (Probability: 45%)
+- Execute **[[Transitions/Elbow Escape to Remove Hooks/Attacker|Elbow Escape to Remove Hooks]]** → [[Positions/Half Guard]] (Probability: 40%)
 
 
 

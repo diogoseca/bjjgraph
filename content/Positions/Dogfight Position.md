@@ -93,15 +93,15 @@ The position is favored in modern no-gi grappling and has become a cornerstone o
 ### Available Transitions
 
 
-- **[[Transitions/Dogfight Sweep]]** (25% of attempts)
+- **[[Transitions/Dogfight Sweep/Attacker|Dogfight Sweep]]** (25% of attempts)
 
-- **[[Transitions/Back Take]]** (25% of attempts)
+- **[[Transitions/Back Take/Attacker|Back Take]]** (25% of attempts)
 
-- **[[Transitions/Forward Drive Sweep from Dogfight]]** (20% of attempts)
+- **[[Transitions/Forward Drive Sweep from Dogfight/Attacker|Forward Drive Sweep from Dogfight]]** (20% of attempts)
 
-- **[[Transitions/Underhook Sweep from Dogfight]]** (15% of attempts)
+- **[[Transitions/Underhook Sweep from Dogfight/Attacker|Underhook Sweep from Dogfight]]** (15% of attempts)
 
-- **[[Transitions/Re-pull Half Guard from Dogfight]]** (15% of attempts)
+- **[[Transitions/Re-pull Half Guard from Dogfight/Attacker|Re-pull Half Guard from Dogfight]]** (15% of attempts)
 
 
 ### Common Mistakes
@@ -166,11 +166,11 @@ The position is favored in modern no-gi grappling and has become a cornerstone o
 ### Available Transitions
 
 
-- **[[Transitions/Crossface from Dogfight]]** (35% of attempts)
+- **[[Transitions/Crossface from Dogfight/Attacker|Crossface from Dogfight]]** (35% of attempts)
 
-- **[[Transitions/Re-flatten from Dogfight]]** (35% of attempts)
+- **[[Transitions/Re-flatten from Dogfight/Attacker|Re-flatten from Dogfight]]** (35% of attempts)
 
-- **[[Transitions/Snap Down from Dogfight]]** (30% of attempts)
+- **[[Transitions/Snap Down from Dogfight/Attacker|Snap Down from Dogfight]]** (30% of attempts)
 
 
 ### Common Mistakes

@@ -87,25 +87,25 @@ Knee on Belly is a dynamic control position in Brazilian Jiu-Jitsu where one pra
 ### Available Transitions
 
 
-- **[[Transitions/Elbow Escape to Guard]]** (42% of attempts)
+- **[[Transitions/Elbow Escape to Guard/Attacker|Elbow Escape to Guard]]** (42% of attempts)
 
-- **[[Transitions/Hip Escape to Guard]]** (10% of attempts)
+- **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** (10% of attempts)
 
-- **[[Transitions/Deep Half Entry]]** (5% of attempts)
+- **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** (5% of attempts)
 
-- **[[Transitions/Knee Shield Retention]]** (11% of attempts)
+- **[[Transitions/Knee Shield Retention/Attacker|Knee Shield Retention]]** (11% of attempts)
 
-- **[[Transitions/Technical Stand-up]]** (4% of attempts)
+- **[[Transitions/Technical Stand-up/Attacker|Technical Stand-up]]** (4% of attempts)
 
-- **[[Transitions/Frame and Shrimp to Guard]]** (10% of attempts)
+- **[[Transitions/Frame and Shrimp to Guard/Attacker|Frame and Shrimp to Guard]]** (10% of attempts)
 
-- **[[Transitions/Hip Escape to Turtle]]** (9% of attempts)
+- **[[Transitions/Hip Escape to Turtle/Attacker|Hip Escape to Turtle]]** (9% of attempts)
 
-- **[[Transitions/Frame and Shrimp from Knee on Belly]]** (3% of attempts)
+- **[[Transitions/Frame and Shrimp from Knee on Belly/Attacker|Frame and Shrimp from Knee on Belly]]** (3% of attempts)
 
-- **[[Transitions/Push Knee and Reguard from Knee on Belly]]** (3% of attempts)
+- **[[Transitions/Push Knee and Reguard from Knee on Belly/Attacker|Push Knee and Reguard from Knee on Belly]]** (3% of attempts)
 
-- **[[Transitions/Turn to Turtle from Knee on Belly]]** (3% of attempts)
+- **[[Transitions/Turn to Turtle from Knee on Belly/Attacker|Turn to Turtle from Knee on Belly]]** (3% of attempts)
 
 
 ### Common Mistakes
@@ -170,31 +170,31 @@ Knee on Belly is a dynamic control position in Brazilian Jiu-Jitsu where one pra
 ### Available Transitions
 
 
-- **[[Transitions/Side Control to Mount]]** (33% of attempts)
+- **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** (33% of attempts)
 
-- **[[Transitions/Armbar Finish]]** (9% of attempts)
+- **[[Transitions/Armbar Finish/Attacker|Armbar Finish]]** (9% of attempts)
 
-- **[[Transitions/Baseball Bat Choke]]** (11% of attempts)
+- **[[Transitions/Baseball Bat Choke/Attacker|Baseball Bat Choke]]** (11% of attempts)
 
-- **[[Transitions/Side Control to North-South]]** (10% of attempts)
+- **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** (10% of attempts)
 
-- **[[Transitions/Kimura]]** (7% of attempts)
+- **[[Transitions/Kimura/Attacker|Kimura]]** (7% of attempts)
 
-- **[[Transitions/Back Take from Top]]** (7% of attempts)
+- **[[Transitions/Back Take from Top/Attacker|Back Take from Top]]** (7% of attempts)
 
-- **[[Transitions/S-Mount Transition]]** (6% of attempts)
+- **[[Transitions/S-Mount Transition/Attacker|S-Mount Transition]]** (6% of attempts)
 
-- **[[Transitions/Cross Collar Choke]]** (9% of attempts)
+- **[[Transitions/Cross Collar Choke/Attacker|Cross Collar Choke]]** (9% of attempts)
 
-- **[[Transitions/Far Side Armbar from KOB]]** (2% of attempts)
+- **[[Transitions/Far Side Armbar from KOB/Attacker|Far Side Armbar from KOB]]** (2% of attempts)
 
-- **[[Transitions/KOB to Mount]]** (1% of attempts)
+- **[[Transitions/KOB to Mount/Attacker|KOB to Mount]]** (1% of attempts)
 
-- **[[Transitions/KOB to Side Control]]** (1% of attempts)
+- **[[Transitions/KOB to Side Control/Attacker|KOB to Side Control]]** (1% of attempts)
 
-- **[[Submissions/Armbar from Knee on Belly]]** (2% of attempts)
+- **[[Submissions/Armbar from Knee on Belly/Attacker|Armbar from Knee on Belly]]** (2% of attempts)
 
-- **[[Submissions/Cross Collar Choke from KOB]]** (2% of attempts)
+- **[[Submissions/Cross Collar Choke from KOB/Attacker|Cross Collar Choke from KOB]]** (2% of attempts)
 
 
 ### Common Mistakes

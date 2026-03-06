@@ -210,23 +210,23 @@ This position is primarily encountered in gi-based competition and training envi
 ## Decision Making from This Position
 
 **If opponent has just established the lapel wrap and is still securing their grip:**
-- Execute **[[Immediate Posture and Grip Strip]]** → [[Positions/Open Guard]] (Probability: 50%)
-- Execute **[[Transitions/Leg Extraction from Lapel Wrap]]** → [[Positions/Combat Base]] (Probability: 45%)
+- Execute **[[Immediate Posture and Grip Strip/Attacker|Immediate Posture and Grip Strip]]** → [[Positions/Open Guard]] (Probability: 50%)
+- Execute **[[Transitions/Leg Extraction from Lapel Wrap/Attacker|Leg Extraction from Lapel Wrap]]** → [[Positions/Combat Base]] (Probability: 45%)
 
 
 **If opponent has secure lapel control and is creating angles for sweeps:**
-- Execute **[[Transitions/Standing Reset to Open Guard]]** → [[Positions/Standing Guard]] (Probability: 55%)
-- Execute **[[Transitions/Lapel Grip Break and Posture Recovery]]** → [[Positions/Open Guard]] (Probability: 40%)
+- Execute **[[Transitions/Standing Reset to Open Guard/Attacker|Standing Reset to Open Guard]]** → [[Positions/Standing Guard]] (Probability: 55%)
+- Execute **[[Transitions/Lapel Grip Break and Posture Recovery/Attacker|Lapel Grip Break and Posture Recovery]]** → [[Positions/Open Guard]] (Probability: 40%)
 
 
 **If opponent begins sweeping motion or off-balancing attempts:**
-- Execute **[[Transitions/Stack Pass with Lapel Control Negation]]** → [[Positions/Side Control]] (Probability: 40%)
-- Execute **[[Pressure Pass to Half Guard]]** → [[Positions/Half Guard]] (Probability: 45%)
+- Execute **[[Transitions/Stack Pass with Lapel Control Negation/Attacker|Stack Pass with Lapel Control Negation]]** → [[Positions/Side Control]] (Probability: 40%)
+- Execute **[[Pressure Pass to Half Guard/Attacker|Pressure Pass to Half Guard]]** → [[Positions/Half Guard]] (Probability: 45%)
 
 
 **If opponent establishes secondary grips and multiple control points:**
-- Execute **[[Standing Extraction with Distance]]** → [[Positions/Standing Guard]] (Probability: 50%)
-- Execute **[[Systematic Grip Breaking Sequence]]** → [[Positions/Combat Base]] (Probability: 35%)
+- Execute **[[Standing Extraction with Distance/Attacker|Standing Extraction with Distance]]** → [[Positions/Standing Guard]] (Probability: 50%)
+- Execute **[[Systematic Grip Breaking Sequence/Attacker|Systematic Grip Breaking Sequence]]** → [[Positions/Combat Base]] (Probability: 35%)
 
 
 

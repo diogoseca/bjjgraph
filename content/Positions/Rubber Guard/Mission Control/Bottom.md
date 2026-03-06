@@ -215,28 +215,28 @@ Success in Mission Control bottom requires specific physical attributes and tech
 ## Decision Making from This Position
 
 **Opponent maintains broken posture with head down and weight on trapped shoulder:**
-- Execute **[[Transitions/Triangle Setup]]** → [[Positions/Triangle Control]] (Probability: 75%)
-- Execute **[[Transitions/Closed Guard to Omoplata]]** → [[Positions/Omoplata Control]] (Probability: 70%)
+- Execute **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** → [[Positions/Triangle Control]] (Probability: 75%)
+- Execute **[[Transitions/Closed Guard to Omoplata/Attacker|Closed Guard to Omoplata]]** → [[Positions/Omoplata Control]] (Probability: 70%)
 
 
 **Opponent attempts to posture up by driving weight back and lifting head:**
-- Execute **[[Transitions/Closed Guard to Triangle]]** → [[Positions/Triangle Control]] (Probability: 70%)
-- Execute **[[Transitions/Progression to Zombie]]** → [[Positions/Rubber Guard/Zombie]] (Probability: 55%)
+- Execute **[[Transitions/Closed Guard to Triangle/Attacker|Closed Guard to Triangle]]** → [[Positions/Triangle Control]] (Probability: 70%)
+- Execute **[[Transitions/Progression to Zombie/Attacker|Progression to Zombie]]** → [[Positions/Rubber Guard/Zombie]] (Probability: 55%)
 
 
 **Opponent drives forward with stacking pressure attempting to collapse high guard:**
-- Execute **[[Transitions/Progression to Zombie]]** → [[Positions/Rubber Guard/Zombie]] (Probability: 60%)
-- Execute **[[Transitions/Omoplata Sweep]]** → [[Positions/Back Control]] (Probability: 58%)
+- Execute **[[Transitions/Progression to Zombie/Attacker|Progression to Zombie]]** → [[Positions/Rubber Guard/Zombie]] (Probability: 60%)
+- Execute **[[Transitions/Omoplata Sweep/Attacker|Omoplata Sweep]]** → [[Positions/Back Control]] (Probability: 58%)
 
 
 **Opponent pulls trapped arm back attempting to free shoulder from isolation:**
-- Execute **[[Transitions/Omoplata to Sweep]]** → [[Positions/Omoplata Control]] (Probability: 68%)
-- Execute **[[Transitions/New York to Invisible Collar]]** → [[Positions/Rubber Guard/Invisible Collar]] (Probability: 45%)
+- Execute **[[Transitions/Omoplata to Sweep/Attacker|Omoplata to Sweep]]** → [[Positions/Omoplata Control]] (Probability: 68%)
+- Execute **[[Transitions/New York to Invisible Collar/Attacker|New York to Invisible Collar]]** → [[Positions/Rubber Guard/Invisible Collar]] (Probability: 45%)
 
 
 **Opponent successfully extracts arm and begins to open guard:**
-- Execute **[[Transitions/Hip Bump Sweep]]** → [[Positions/Mount]] (Probability: 50%)
-- Execute **[[Transitions/Advance to Chill Dog]]** → [[Positions/Rubber Guard/Chill Dog]] (Probability: 45%)
+- Execute **[[Transitions/Hip Bump Sweep/Attacker|Hip Bump Sweep]]** → [[Positions/Mount]] (Probability: 50%)
+- Execute **[[Transitions/Advance to Chill Dog/Attacker|Advance to Chill Dog]]** → [[Positions/Rubber Guard/Chill Dog]] (Probability: 45%)
 
 
 

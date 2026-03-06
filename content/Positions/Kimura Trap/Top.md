@@ -211,23 +211,23 @@ Strategically, the position is valued for its control density—the top player c
 ## Decision Making from This Position
 
 **If opponent keeps arm tight and defensive, preventing finishing angle development:**
-- Execute **[[Transitions/Side Control to Mount]]** → [[Positions/Mount]] (Probability: 75%)
-- Execute **[[Transitions/North-South to Kimura]]** → [[Positions/North-South]] (Probability: 65%)
+- Execute **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** → [[Positions/Mount]] (Probability: 75%)
+- Execute **[[Transitions/North-South to Kimura/Attacker|North-South to Kimura]]** → [[Positions/North-South]] (Probability: 65%)
 
 
 **If opponent attempts to roll or turn into Kimura grip to defend shoulder pressure:**
-- Execute **[[Transitions/Kimura to Back Take]]** → [[Positions/Back Control]] (Probability: 80%)
-- Execute **[[Transitions/North-South to Kimura]]** → [[game-over]] (Probability: 70%)
+- Execute **[[Transitions/Kimura to Back Take/Attacker|Kimura to Back Take]]** → [[Positions/Back Control]] (Probability: 80%)
+- Execute **[[Transitions/North-South to Kimura/Attacker|North-South to Kimura]]** → [[game-over]] (Probability: 70%)
 
 
 **If opponent creates space attempting elbow escape or bridge and shrimp sequence:**
-- Execute **[[Transitions/Side Control to Mount]]** → [[Positions/Mount]] (Probability: 78%)
-- Execute **[[Positions/Knee on Belly]]** → [[Positions/Knee on Belly]] (Probability: 73%)
+- Execute **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** → [[Positions/Mount]] (Probability: 78%)
+- Execute **[[Positions/Knee on Belly/Attacker|Knee on Belly]]** → [[Positions/Knee on Belly]] (Probability: 73%)
 
 
 **If opponent extends arm or loses defensive structure attempting to push or frame:**
-- Execute **[[Transitions/Kimura]]** → [[game-over]] (Probability: 85%)
-- Execute **[[Transitions/Arm Triangle Setup]]** → [[Transitions/Arm Triangle]] (Probability: 70%)
+- Execute **[[Transitions/Kimura/Attacker|Kimura]]** → [[game-over]] (Probability: 85%)
+- Execute **[[Transitions/Arm Triangle Setup/Attacker|Arm Triangle Setup]]** → [[Transitions/Arm Triangle]] (Probability: 70%)
 
 
 

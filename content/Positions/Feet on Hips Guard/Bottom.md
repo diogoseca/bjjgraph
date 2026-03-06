@@ -207,29 +207,29 @@ Feet on Hips Guard Bottom is the guard player's perspective in this fundamental 
 ## Decision Making from This Position
 
 **If opponent stands tall with upright posture and reaches for pant grips while maintaining distance:**
-- Execute **[[Spider Guard Sweeps]]** → [[Positions/Spider Guard]] (Probability: 65%)
-- Execute **[[Transitions/De La Riva Sweep]]** → [[Positions/De La Riva Guard]] (Probability: 60%)
+- Execute **[[Spider Guard Sweeps/Attacker|Spider Guard Sweeps]]** → [[Positions/Spider Guard]] (Probability: 65%)
+- Execute **[[Transitions/De La Riva Sweep/Attacker|De La Riva Sweep]]** → [[Positions/De La Riva Guard]] (Probability: 60%)
 
 
 **If opponent drops to combat base attempting to control ankles or close distance:**
-- Execute **[[Transitions/Butterfly Guard to X-Guard]]** → [[Positions/X-Guard]] (Probability: 55%)
-- Execute **[[Transitions/Triangle Setup]]** → [[Positions/Triangle Control]] (Probability: 50%)
+- Execute **[[Transitions/Butterfly Guard to X-Guard/Attacker|Butterfly Guard to X-Guard]]** → [[Positions/X-Guard]] (Probability: 55%)
+- Execute **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** → [[Positions/Triangle Control]] (Probability: 50%)
 
 
 **If opponent commits weight forward to drive over frames with pressure:**
-- Execute **[[Transitions/Scissor Sweep]]** → [[Positions/Mount]] (Probability: 65%)
-- Execute **[[Transitions/Pendulum Sweep]]** → [[Positions/Mount]] (Probability: 60%)
-- Execute **[[Transitions/Hip Bump Sweep]]** → [[Positions/Mount]] (Probability: 55%)
+- Execute **[[Transitions/Scissor Sweep/Attacker|Scissor Sweep]]** → [[Positions/Mount]] (Probability: 65%)
+- Execute **[[Transitions/Pendulum Sweep/Attacker|Pendulum Sweep]]** → [[Positions/Mount]] (Probability: 60%)
+- Execute **[[Transitions/Hip Bump Sweep/Attacker|Hip Bump Sweep]]** → [[Positions/Mount]] (Probability: 55%)
 
 
 **If opponent circles laterally attempting Toreando pass or leg drag:**
-- Execute **[[Transitions/De La Riva Sweep]]** → [[Positions/De La Riva Guard]] (Probability: 60%)
-- Execute **[[Principles/Guard Recovery]]** → [[Positions/Closed Guard]] (Probability: 50%)
+- Execute **[[Transitions/De La Riva Sweep/Attacker|De La Riva Sweep]]** → [[Positions/De La Riva Guard]] (Probability: 60%)
+- Execute **[[Principles/Guard Recovery/Attacker|Guard Recovery]]** → [[Positions/Closed Guard]] (Probability: 50%)
 
 
 **If opponent grabs both ankles and attempts to stack or control legs:**
-- Execute **[[Transitions/Omoplata Sweep]]** → [[Positions/Omoplata Control]] (Probability: 55%)
-- Execute **[[Principles/Guard Recovery]]** → [[Positions/Closed Guard]] (Probability: 45%)
+- Execute **[[Transitions/Omoplata Sweep/Attacker|Omoplata Sweep]]** → [[Positions/Omoplata Control]] (Probability: 55%)
+- Execute **[[Principles/Guard Recovery/Attacker|Guard Recovery]]** → [[Positions/Closed Guard]] (Probability: 45%)
 
 
 

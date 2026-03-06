@@ -97,19 +97,19 @@ The position's moderate risk level reflects its transitional nature - dominant e
 ### Available Transitions
 
 
-- **[[Transitions/Elbow Escape to Guard]]** (28% of attempts)
+- **[[Transitions/Elbow Escape to Guard/Attacker|Elbow Escape to Guard]]** (28% of attempts)
 
-- **[[Transitions/Bridge and Roll]]** (22% of attempts)
+- **[[Transitions/Bridge and Roll/Attacker|Bridge and Roll]]** (22% of attempts)
 
-- **[[Transitions/Hip Escape to Guard]]** (17% of attempts)
+- **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** (17% of attempts)
 
-- **[[Transitions/Sit Through to Guard]]** (12% of attempts)
+- **[[Transitions/Sit Through to Guard/Attacker|Sit Through to Guard]]** (12% of attempts)
 
-- **[[Transitions/Frame and Shrimp to Guard]]** (12% of attempts)
+- **[[Transitions/Frame and Shrimp to Guard/Attacker|Frame and Shrimp to Guard]]** (12% of attempts)
 
-- **[[Transitions/Bridge from Reverse Mount]]** (6% of attempts)
+- **[[Transitions/Bridge from Reverse Mount/Attacker|Bridge from Reverse Mount]]** (6% of attempts)
 
-- **[[Transitions/Escape Reverse Mount]]** (3% of attempts)
+- **[[Transitions/Escape Reverse Mount/Attacker|Escape Reverse Mount]]** (3% of attempts)
 
 
 ### Common Mistakes
@@ -170,21 +170,21 @@ The position's moderate risk level reflects its transitional nature - dominant e
 ### Available Transitions
 
 
-- **[[Transitions/Side Control to Mount]]** (43% of attempts)
+- **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** (43% of attempts)
 
-- **[[Transitions/Back Take]]** (26% of attempts)
+- **[[Transitions/Back Take/Attacker|Back Take]]** (26% of attempts)
 
-- **[[Transitions/Mount to Armbar]]** (12% of attempts)
+- **[[Transitions/Mount to Armbar/Attacker|Mount to Armbar]]** (12% of attempts)
 
-- **[[Transitions/Turtle to Truck]]** (7% of attempts)
+- **[[Transitions/Turtle to Truck/Attacker|Turtle to Truck]]** (7% of attempts)
 
-- **[[Transitions/Side Control to North-South]]** (7% of attempts)
+- **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** (7% of attempts)
 
-- **[[Transitions/Reverse Mount to Mount]]** (3% of attempts)
+- **[[Transitions/Reverse Mount to Mount/Attacker|Reverse Mount to Mount]]** (3% of attempts)
 
-- **[[Transitions/Reverse Mount to Side Control]]** (1% of attempts)
+- **[[Transitions/Reverse Mount to Side Control/Attacker|Reverse Mount to Side Control]]** (1% of attempts)
 
-- **[[Transitions/Armbar from Reverse Mount]]** (1% of attempts)
+- **[[Transitions/Armbar from Reverse Mount/Attacker|Armbar from Reverse Mount]]** (1% of attempts)
 
 
 ### Common Mistakes

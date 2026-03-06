@@ -208,23 +208,23 @@ Rear Triangle Top is an advanced back control variation where the top practition
 ## Decision Making from This Position
 
 **If opponent tucks chin and defends choke primarily:**
-- Execute **[[Transitions/Armbar from Back Transition]]** → [[Positions/Armbar Control]] (Probability: 65%)
-- Execute **[[Transitions/Kimura from Back]]** → [[Positions/Kimura Trap]] (Probability: 45%)
+- Execute **[[Transitions/Armbar from Back Transition/Attacker|Armbar from Back Transition]]** → [[Positions/Armbar Control]] (Probability: 65%)
+- Execute **[[Transitions/Kimura from Back/Attacker|Kimura from Back]]** → [[Positions/Kimura Trap]] (Probability: 45%)
 
 
 **Else if opponent attempts to pull trapped arm free:**
-- Execute **[[Tighten Triangle Lock]]** → [[Positions/Triangle Control/Rear Triangle]] (Probability: 70%)
-- Execute **[[Transitions/Rear Triangle Choke Finish]]** → [[Positions/Game Over]] (Probability: 60%)
+- Execute **[[Tighten Triangle Lock/Attacker|Tighten Triangle Lock]]** → [[Positions/Triangle Control/Rear Triangle]] (Probability: 70%)
+- Execute **[[Transitions/Rear Triangle Choke Finish/Attacker|Rear Triangle Choke Finish]]** → [[Positions/Game Over]] (Probability: 60%)
 
 
 **Else if opponent turns into triangle attempting escape:**
-- Execute **[[Extend Hips and Finish Triangle]]** → [[Positions/Game Over]] (Probability: 55%)
-- Execute **[[Transitions/Aoki Lock to Crucifix]]** → [[Positions/Crucifix]] (Probability: 50%)
+- Execute **[[Extend Hips and Finish Triangle/Attacker|Extend Hips and Finish Triangle]]** → [[Positions/Game Over]] (Probability: 55%)
+- Execute **[[Transitions/Aoki Lock to Crucifix/Attacker|Aoki Lock to Crucifix]]** → [[Positions/Crucifix]] (Probability: 50%)
 
 
 **Else if opponent creates space by posting free arm:**
-- Execute **[[Transitions/Rear Naked Choke]]** → [[Positions/Game Over]] (Probability: 65%)
-- Execute **[[Attack Free Arm for Control]]** → [[Positions/Gift Wrap]] (Probability: 50%)
+- Execute **[[Transitions/Rear Naked Choke/Attacker|Rear Naked Choke]]** → [[Positions/Game Over]] (Probability: 65%)
+- Execute **[[Attack Free Arm for Control/Attacker|Attack Free Arm for Control]]** → [[Positions/Gift Wrap]] (Probability: 50%)
 
 
 

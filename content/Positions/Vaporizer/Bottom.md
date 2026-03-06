@@ -211,23 +211,23 @@ The effectiveness of the Vaporizer lies in its ability to force reactions from o
 ## Decision Making from This Position
 
 **If opponent maintains heavy pressure and resists whip-up motion with wide base:**
-- Execute **[[Transitions/Electric Chair Transition]]** → [[Positions/Half Guard/Electric Chair]] (Probability: 55%)
-- Execute **[[Transitions/Turtle to Truck]]** → [[Positions/Twister Control]] (Probability: 45%)
+- Execute **[[Transitions/Electric Chair Transition/Attacker|Electric Chair Transition]]** → [[Positions/Half Guard/Electric Chair]] (Probability: 55%)
+- Execute **[[Transitions/Turtle to Truck/Attacker|Turtle to Truck]]** → [[Positions/Twister Control]] (Probability: 45%)
 
 
 **If opponent posts hand or attempts to create distance:**
-- Execute **[[Transitions/Old School Sweep]]** → [[Positions/Mount]] (Probability: 60%)
-- Execute **[[Transitions/Lockdown Recovery]]** → [[Positions/Side Control]] (Probability: 40%)
+- Execute **[[Transitions/Old School Sweep/Attacker|Old School Sweep]]** → [[Positions/Mount]] (Probability: 60%)
+- Execute **[[Transitions/Lockdown Recovery/Attacker|Lockdown Recovery]]** → [[Positions/Side Control]] (Probability: 40%)
 
 
 **If opponent commits weight forward to counter lockdown pressure:**
-- Execute **[[Transitions/Half Guard to Back Take]]** → [[Positions/Back Control]] (Probability: 55%)
-- Execute **[[Transitions/Closed Guard to Omoplata]]** → [[Positions/Omoplata Control]] (Probability: 45%)
+- Execute **[[Transitions/Half Guard to Back Take/Attacker|Half Guard to Back Take]]** → [[Positions/Back Control]] (Probability: 55%)
+- Execute **[[Transitions/Closed Guard to Omoplata/Attacker|Closed Guard to Omoplata]]** → [[Positions/Omoplata Control]] (Probability: 45%)
 
 
 **If opponent successfully widens base and prevents whip-up:**
-- Execute **[[Transitions/Turtle to Truck]]** → [[Positions/Twister Control]] (Probability: 50%)
-- Execute **[[Transitions/Electric Chair Transition]]** → [[Positions/Half Guard/Electric Chair]] (Probability: 50%)
+- Execute **[[Transitions/Turtle to Truck/Attacker|Turtle to Truck]]** → [[Positions/Twister Control]] (Probability: 50%)
+- Execute **[[Transitions/Electric Chair Transition/Attacker|Electric Chair Transition]]** → [[Positions/Half Guard/Electric Chair]] (Probability: 50%)
 
 
 

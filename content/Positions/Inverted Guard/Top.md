@@ -206,28 +206,28 @@ From the top perspective, facing an opponent in Inverted Guard requires strategi
 ## Decision Making from This Position
 
 **If opponent inverts with hips elevated and begins rotating for berimbolo entry:**
-- Execute **[[Transitions/Stack Pass]]** → [[Positions/Side Control]] (Probability: 65%)
-- Execute **[[Transitions/Pressure Pass]]** → [[Positions/Side Control]] (Probability: 55%)
+- Execute **[[Transitions/Stack Pass/Attacker|Stack Pass]]** → [[Positions/Side Control]] (Probability: 65%)
+- Execute **[[Transitions/Pressure Pass/Attacker|Pressure Pass]]** → [[Positions/Side Control]] (Probability: 55%)
 
 
 **Else if opponent maintains inverted position with legs extended upward creating static target:**
-- Execute **[[Transitions/Smash Pass]]** → [[Positions/Side Control]] (Probability: 60%)
-- Execute **[[Transitions/Knee Slice Pass]]** → [[Positions/Side Control]] (Probability: 55%)
+- Execute **[[Transitions/Smash Pass/Attacker|Smash Pass]]** → [[Positions/Side Control]] (Probability: 60%)
+- Execute **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** → [[Positions/Side Control]] (Probability: 55%)
 
 
 **Else if opponent attempts to enter single leg X or X-guard from inverted position:**
-- Execute **[[Transitions/Headquarters Pass]]** → [[Positions/Headquarters Position]] (Probability: 70%)
-- Execute **[[Transitions/Leg Weave Pass]]** → [[Positions/Side Control]] (Probability: 60%)
+- Execute **[[Transitions/Headquarters Pass/Attacker|Headquarters Pass]]** → [[Positions/Headquarters Position]] (Probability: 70%)
+- Execute **[[Transitions/Leg Weave Pass/Attacker|Leg Weave Pass]]** → [[Positions/Side Control]] (Probability: 60%)
 
 
 **Else if opponent's hips flatten or rotation slows indicating loss of mobility:**
-- Execute **[[Transitions/Pressure Pass]]** → [[Positions/Side Control]] (Probability: 65%)
-- Execute **[[Transitions/Smash Pass]]** → [[Positions/Side Control]] (Probability: 60%)
+- Execute **[[Transitions/Pressure Pass/Attacker|Pressure Pass]]** → [[Positions/Side Control]] (Probability: 65%)
+- Execute **[[Transitions/Smash Pass/Attacker|Smash Pass]]** → [[Positions/Side Control]] (Probability: 60%)
 
 
 **Else if opponent attempts to recover guard through granby roll or technical standup:**
-- Execute **[[Transitions/Knee Slice Pass]]** → [[Positions/Side Control]] (Probability: 58%)
-- Execute **[[Transitions/Headquarters Pass]]** → [[Positions/Headquarters Position]] (Probability: 62%)
+- Execute **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** → [[Positions/Side Control]] (Probability: 58%)
+- Execute **[[Transitions/Headquarters Pass/Attacker|Headquarters Pass]]** → [[Positions/Headquarters Position]] (Probability: 62%)
 
 
 

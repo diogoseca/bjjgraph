@@ -211,31 +211,31 @@ Scarf Hold Bottom presents both immediate submission dangers through arm locks (
 ## Decision Making from This Position
 
 **If opponent maintains tight control with heavy hip pressure and secure head control without attacking submissions:**
-- Execute **[[Transitions/Frame and Shrimp to Guard]]** → [[Positions/Half Guard]] (Probability: 45%)
-- Execute **[[Transitions/Elbow Escape to Guard]]** → [[Positions/Half Guard]] (Probability: 50%)
-- Execute **[[Transitions/Shrimp Escape]]** → [[Positions/Side Control/Scarf Hold Position]] (Probability: 60%)
+- Execute **[[Transitions/Frame and Shrimp to Guard/Attacker|Frame and Shrimp to Guard]]** → [[Positions/Half Guard]] (Probability: 45%)
+- Execute **[[Transitions/Elbow Escape to Guard/Attacker|Elbow Escape to Guard]]** → [[Positions/Half Guard]] (Probability: 50%)
+- Execute **[[Transitions/Shrimp Escape/Attacker|Shrimp Escape]]** → [[Positions/Side Control/Scarf Hold Position]] (Probability: 60%)
 
 
 **If opponent shifts weight forward attempting to transition to mount or north-south:**
-- Execute **[[Transitions/Granby Roll to Guard]]** → [[Positions/Turtle]] (Probability: 55%)
-- Execute **[[Transitions/Ghost Escape]]** → [[Positions/Turtle]] (Probability: 50%)
-- Execute **[[Transitions/Arm Extraction to Turtle]]** → [[Positions/Turtle]] (Probability: 40%)
+- Execute **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** → [[Positions/Turtle]] (Probability: 55%)
+- Execute **[[Transitions/Ghost Escape/Attacker|Ghost Escape]]** → [[Positions/Turtle]] (Probability: 50%)
+- Execute **[[Transitions/Arm Extraction to Turtle/Attacker|Arm Extraction to Turtle]]** → [[Positions/Turtle]] (Probability: 40%)
 
 
 **If opponent releases head control or loosens cross-face to attack far arm for americana or kimura:**
-- Execute **[[Transitions/Hip Escape to Guard]]** → [[Positions/Closed Guard]] (Probability: 60%)
-- Execute **[[Transitions/Elbow Escape to Guard]]** → [[Positions/Half Guard]] (Probability: 55%)
-- Execute **[[Transitions/Frame and Shrimp to Guard]]** → [[Positions/Open Guard]] (Probability: 50%)
+- Execute **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** → [[Positions/Closed Guard]] (Probability: 60%)
+- Execute **[[Transitions/Elbow Escape to Guard/Attacker|Elbow Escape to Guard]]** → [[Positions/Half Guard]] (Probability: 55%)
+- Execute **[[Transitions/Frame and Shrimp to Guard/Attacker|Frame and Shrimp to Guard]]** → [[Positions/Open Guard]] (Probability: 50%)
 
 
 **If opponent posts their far arm wide for base or extends back leg creating narrow base:**
-- Execute **[[Transitions/Bridge and Roll]]** → [[Positions/Scramble Position]] (Probability: 55%)
-- Execute **[[Transitions/Shrimp Escape]]** → [[Positions/Scramble Position]] (Probability: 50%)
+- Execute **[[Transitions/Bridge and Roll/Attacker|Bridge and Roll]]** → [[Positions/Scramble Position]] (Probability: 55%)
+- Execute **[[Transitions/Shrimp Escape/Attacker|Shrimp Escape]]** → [[Positions/Scramble Position]] (Probability: 50%)
 
 
 **If opponent sits back heavily on their hip creating space between their chest and your hips:**
-- Execute **[[Transitions/Arm Extraction to Turtle]]** → [[Positions/Turtle]] (Probability: 60%)
-- Execute **[[Transitions/Ghost Escape]]** → [[Positions/Turtle]] (Probability: 55%)
+- Execute **[[Transitions/Arm Extraction to Turtle/Attacker|Arm Extraction to Turtle]]** → [[Positions/Turtle]] (Probability: 60%)
+- Execute **[[Transitions/Ghost Escape/Attacker|Ghost Escape]]** → [[Positions/Turtle]] (Probability: 55%)
 
 
 

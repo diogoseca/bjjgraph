@@ -205,27 +205,27 @@ From the bottom perspective, Crackhead Control represents a calculated gamble wh
 ## Decision Making from This Position
 
 **If opponent drives weight forward attempting to smash through position or establish double underhooks:**
-- Execute **[[Transitions/Crackhead Control to Carni]]** → [[Positions/Rubber Guard/Carni]] (Probability: 65%)
-- Execute **[[Transitions/Gogoplata]]** → [[Positions/Gogoplata Control]] (Probability: 45%)
-- Execute **[[Transitions/Hook Sweep]]** → [[Positions/Mount]] (Probability: 50%)
+- Execute **[[Transitions/Crackhead Control to Carni/Attacker|Crackhead Control to Carni]]** → [[Positions/Rubber Guard/Carni]] (Probability: 65%)
+- Execute **[[Transitions/Gogoplata/Attacker|Gogoplata]]** → [[Positions/Gogoplata Control]] (Probability: 45%)
+- Execute **[[Transitions/Hook Sweep/Attacker|Hook Sweep]]** → [[Positions/Mount]] (Probability: 50%)
 
 
 **If opponent attempts to extract trapped arm by pulling it back toward their body:**
-- Execute **[[Transitions/Omoplata]]** → [[Positions/Omoplata Control]] (Probability: 60%)
-- Execute **[[Transitions/Omoplata Sweep]]** → [[Positions/Side Control]] (Probability: 55%)
-- Execute **[[Transitions/Triangle Choke]]** → [[Positions/Triangle Control]] (Probability: 50%)
+- Execute **[[Transitions/Omoplata/Attacker|Omoplata]]** → [[Positions/Omoplata Control]] (Probability: 60%)
+- Execute **[[Transitions/Omoplata Sweep/Attacker|Omoplata Sweep]]** → [[Positions/Side Control]] (Probability: 55%)
+- Execute **[[Transitions/Triangle Choke/Attacker|Triangle Choke]]** → [[Positions/Triangle Control]] (Probability: 50%)
 
 
 **If opponent postures up attempting to create distance and reduce submission threat:**
-- Execute **[[Transitions/Triangle Setup]]** → [[Positions/Triangle Control]] (Probability: 55%)
-- Execute **[[Submissions/Armbar from Guard]]** → [[Positions/Armbar Control]] (Probability: 50%)
-- Execute **[[Transitions/Crackhead Control to Mission Control]]** → [[Positions/Rubber Guard/Mission Control]] (Probability: 65%)
+- Execute **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** → [[Positions/Triangle Control]] (Probability: 55%)
+- Execute **[[Submissions/Armbar from Guard/Attacker|Armbar from Guard]]** → [[Positions/Armbar Control]] (Probability: 50%)
+- Execute **[[Transitions/Crackhead Control to Mission Control/Attacker|Crackhead Control to Mission Control]]** → [[Positions/Rubber Guard/Mission Control]] (Probability: 65%)
 
 
 **If opponent begins circling toward back exposure side or establishes strong hip pressure:**
-- Execute **[[Transitions/Technical Stand Up to Single Leg]]** → [[Positions/Standing Position]] (Probability: 60%)
-- Execute **[[Transition to Closed Guard]]** → [[Positions/Closed Guard]] (Probability: 70%)
-- Execute **[[Transitions/Rolling Guard Pull]]** → [[Positions/Closed Guard]] (Probability: 45%)
+- Execute **[[Transitions/Technical Stand Up to Single Leg/Attacker|Technical Stand Up to Single Leg]]** → [[Positions/Standing Position]] (Probability: 60%)
+- Execute **[[Transition to Closed Guard/Attacker|Transition to Closed Guard]]** → [[Positions/Closed Guard]] (Probability: 70%)
+- Execute **[[Transitions/Rolling Guard Pull/Attacker|Rolling Guard Pull]]** → [[Positions/Closed Guard]] (Probability: 45%)
 
 
 

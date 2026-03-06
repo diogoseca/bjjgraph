@@ -93,23 +93,23 @@ From the bottom perspective, Side Control Consolidation Bottom represents one of
 ### Available Transitions
 
 
-- **[[Transitions/Frame and Shrimp to Guard]]** (41% of attempts)
+- **[[Transitions/Frame and Shrimp to Guard/Attacker|Frame and Shrimp to Guard]]** (41% of attempts)
 
-- **[[Transitions/Elbow Escape to Guard]]** (19% of attempts)
+- **[[Transitions/Elbow Escape to Guard/Attacker|Elbow Escape to Guard]]** (19% of attempts)
 
-- **[[Transitions/Granby Roll to Guard]]** (12% of attempts)
+- **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** (12% of attempts)
 
-- **[[Transitions/Bridge and Roll]]** (10% of attempts)
+- **[[Transitions/Bridge and Roll/Attacker|Bridge and Roll]]** (10% of attempts)
 
-- **[[Transitions/Technical Stand-up]]** (9% of attempts)
+- **[[Transitions/Technical Stand-up/Attacker|Technical Stand-up]]** (9% of attempts)
 
-- **[[Transitions/Angle Change Escape]]** (5% of attempts)
+- **[[Transitions/Angle Change Escape/Attacker|Angle Change Escape]]** (5% of attempts)
 
-- **[[Transitions/Escape Side Control Consolidation]]** (2% of attempts)
+- **[[Transitions/Escape Side Control Consolidation/Attacker|Escape Side Control Consolidation]]** (2% of attempts)
 
-- **[[Transitions/Frame from Side Control Consolidation]]** (1% of attempts)
+- **[[Transitions/Frame from Side Control Consolidation/Attacker|Frame from Side Control Consolidation]]** (1% of attempts)
 
-- **[[Transitions/Hip Escape from Side Control Consolidation]]** (1% of attempts)
+- **[[Transitions/Hip Escape from Side Control Consolidation/Attacker|Hip Escape from Side Control Consolidation]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -174,27 +174,27 @@ From the bottom perspective, Side Control Consolidation Bottom represents one of
 ### Available Transitions
 
 
-- **[[Transitions/Side Control to Mount]]** (31% of attempts)
+- **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** (31% of attempts)
 
-- **[[Transitions/Side Control to North-South]]** (10% of attempts)
+- **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** (10% of attempts)
 
-- **[[Positions/Knee on Belly]]** (14% of attempts)
+- **[[Positions/Knee on Belly/Attacker|Knee on Belly]]** (14% of attempts)
 
-- **[[Transitions/Kimura]]** (9% of attempts)
+- **[[Transitions/Kimura/Attacker|Kimura]]** (9% of attempts)
 
-- **[[Transitions/Americana]]** (8% of attempts)
+- **[[Transitions/Americana/Attacker|Americana]]** (8% of attempts)
 
-- **[[Transitions/Arm Triangle]]** (8% of attempts)
+- **[[Transitions/Arm Triangle/Attacker|Arm Triangle]]** (8% of attempts)
 
-- **[[Transitions/Armbar Finish]]** (7% of attempts)
+- **[[Transitions/Armbar Finish/Attacker|Armbar Finish]]** (7% of attempts)
 
-- **[[Transitions/North-South Choke]]** (6% of attempts)
+- **[[Transitions/North-South Choke/Attacker|North-South Choke]]** (6% of attempts)
 
-- **[[Transitions/Consolidation to Knee on Belly]]** (3% of attempts)
+- **[[Transitions/Consolidation to Knee on Belly/Attacker|Consolidation to Knee on Belly]]** (3% of attempts)
 
-- **[[Transitions/Consolidation to Mount]]** (2% of attempts)
+- **[[Transitions/Consolidation to Mount/Attacker|Consolidation to Mount]]** (2% of attempts)
 
-- **[[Submissions/Ezekiel from Side Control Consolidation]]** (2% of attempts)
+- **[[Submissions/Ezekiel from Side Control Consolidation/Attacker|Ezekiel from Side Control Consolidation]]** (2% of attempts)
 
 
 ### Common Mistakes

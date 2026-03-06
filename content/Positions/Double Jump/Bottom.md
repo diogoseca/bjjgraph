@@ -212,28 +212,28 @@ Successful execution of Double Jump Bottom requires precise timing, explosive hi
 ## Decision Making from This Position
 
 **If opponent's weight is heavily committed forward and their base is narrow:**
-- Execute **[[Transitions/Deep Half Entry]]** → [[Positions/Half Guard/Deep Half Guard]] (Probability: 75%)
-- Execute **[[Transitions/Old School Sweep]]** → [[Positions/Side Control]] (Probability: 65%)
+- Execute **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** → [[Positions/Half Guard/Deep Half Guard]] (Probability: 75%)
+- Execute **[[Transitions/Old School Sweep/Attacker|Old School Sweep]]** → [[Positions/Side Control]] (Probability: 65%)
 
 
 **Else if opponent sprawls legs back and widens base to defend:**
-- Execute **[[Transitions/Lockdown Recovery]]** → [[Positions/Half Guard/Lockdown]] (Probability: 60%)
-- Execute **[[Transitions/Electric Chair Transition]]** → [[Positions/Half Guard/Electric Chair]] (Probability: 45%)
+- Execute **[[Transitions/Lockdown Recovery/Attacker|Lockdown Recovery]]** → [[Positions/Half Guard/Lockdown]] (Probability: 60%)
+- Execute **[[Transitions/Electric Chair Transition/Attacker|Electric Chair Transition]]** → [[Positions/Half Guard/Electric Chair]] (Probability: 45%)
 
 
 **Else if opponent stands up to create distance:**
-- Execute **[[Transitions/X-Guard Sweep]]** → [[Positions/X-Guard]] (Probability: 55%)
-- Execute **[[Transitions/Single Leg X Entry]]** → [[Positions/X-Guard/Single Leg X-Guard]] (Probability: 50%)
+- Execute **[[Transitions/X-Guard Sweep/Attacker|X-Guard Sweep]]** → [[Positions/X-Guard]] (Probability: 55%)
+- Execute **[[Transitions/Single Leg X Entry/Attacker|Single Leg X Entry]]** → [[Positions/X-Guard/Single Leg X-Guard]] (Probability: 50%)
 
 
 **Else if opponent attempts to step over your legs:**
-- Execute **[[Transitions/Rolling Back Take]]** → [[Positions/Back Control]] (Probability: 60%)
-- Execute **[[Transitions/Half Guard to Back Take]]** → [[Positions/Back Control]] (Probability: 55%)
+- Execute **[[Transitions/Rolling Back Take/Attacker|Rolling Back Take]]** → [[Positions/Back Control]] (Probability: 60%)
+- Execute **[[Transitions/Half Guard to Back Take/Attacker|Half Guard to Back Take]]** → [[Positions/Back Control]] (Probability: 55%)
 
 
 **Else if opponent applies heavy crossface pressure:**
-- Execute **[[Transitions/Underhook Sweep from Half]]** → [[Positions/Side Control]] (Probability: 50%)
-- Execute **[[Transitions/Waiter Sweep]]** → [[Positions/Side Control]] (Probability: 45%)
+- Execute **[[Transitions/Underhook Sweep from Half/Attacker|Underhook Sweep from Half]]** → [[Positions/Side Control]] (Probability: 50%)
+- Execute **[[Transitions/Waiter Sweep/Attacker|Waiter Sweep]]** → [[Positions/Side Control]] (Probability: 45%)
 
 
 

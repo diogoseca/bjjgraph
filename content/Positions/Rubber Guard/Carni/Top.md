@@ -214,22 +214,22 @@ The most successful escapes from Carni involve recognizing the position early, b
 ## Decision Making from This Position
 
 **If bottom player establishes tight heel control with immediate submission threat:**
-- Execute **[[Tap early to prevent injury]]** → [[game-over]] (Probability: 100%)
+- Execute **[[Tap early to prevent injury/Attacker|Tap early to prevent injury]]** → [[game-over]] (Probability: 100%)
 
 
 **If bottom player has loose heel control but strong leg entanglement:**
-- Execute **[[Transitions/Stack Defense]]** → [[Positions/Combat Base]] (Probability: 45%)
-- Execute **[[Transitions/Rolling Kimura Escape]]** → [[Positions/Scramble Position]] (Probability: 40%)
+- Execute **[[Transitions/Stack Defense/Attacker|Stack Defense]]** → [[Positions/Combat Base]] (Probability: 45%)
+- Execute **[[Transitions/Rolling Kimura Escape/Attacker|Rolling Kimura Escape]]** → [[Positions/Scramble Position]] (Probability: 40%)
 
 
 **If bottom player transitions toward saddle and temporarily loosens control:**
-- Execute **[[Transitions/Leg Drag Pass]]** → [[Positions/Side Control]] (Probability: 35%)
-- Execute **[[Transitions/Technical Stand-up]]** → [[Positions/Standing Position]] (Probability: 40%)
+- Execute **[[Transitions/Leg Drag Pass/Attacker|Leg Drag Pass]]** → [[Positions/Side Control]] (Probability: 35%)
+- Execute **[[Transitions/Technical Stand-up/Attacker|Technical Stand-up]]** → [[Positions/Standing Position]] (Probability: 40%)
 
 
 **If bottom player attempts to follow roll for back take:**
-- Execute **[[Transitions/Granby Roll to Guard]]** → [[Positions/Half Guard]] (Probability: 45%)
-- Execute **[[Transitions/Technical Stand-up]]** → [[Positions/Standing Position]] (Probability: 40%)
+- Execute **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** → [[Positions/Half Guard]] (Probability: 45%)
+- Execute **[[Transitions/Technical Stand-up/Attacker|Technical Stand-up]]** → [[Positions/Standing Position]] (Probability: 40%)
 
 
 

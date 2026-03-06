@@ -211,28 +211,28 @@ Modern approaches to the Cross Body Ride emphasize dynamic control rather than s
 ## Decision Making from This Position
 
 **If opponent stays static in turtle or attempts to hide arms close to body:**
-- Execute **[[Transitions/Turtle to Back Control]]** → [[Positions/Back Control]] (Probability: 70%)
-- Execute **[[Transitions/Crucifix from Turtle]]** → [[Positions/Crucifix]] (Probability: 60%)
+- Execute **[[Transitions/Turtle to Back Control/Attacker|Turtle to Back Control]]** → [[Positions/Back Control]] (Probability: 70%)
+- Execute **[[Transitions/Crucifix from Turtle/Attacker|Crucifix from Turtle]]** → [[Positions/Crucifix]] (Probability: 60%)
 
 
 **If opponent attempts forward roll, granby, or explosive rotation:**
-- Execute **[[Transitions/Back Take]]** → [[Positions/Back Control]] (Probability: 65%)
-- Execute **[[Transitions/Crab Ride to Back]]** → [[Positions/Crab Ride]] (Probability: 55%)
+- Execute **[[Transitions/Back Take/Attacker|Back Take]]** → [[Positions/Back Control]] (Probability: 65%)
+- Execute **[[Transitions/Crab Ride to Back/Attacker|Crab Ride to Back]]** → [[Positions/Crab Ride]] (Probability: 55%)
 
 
 **If opponent extends near arm to post or defend neck:**
-- Execute **[[Transitions/Crucifix from Turtle]]** → [[Positions/Crucifix]] (Probability: 70%)
-- Execute **[[Transitions/Armbar from Back Transition]]** → [[Positions/Armbar Control]] (Probability: 50%)
+- Execute **[[Transitions/Crucifix from Turtle/Attacker|Crucifix from Turtle]]** → [[Positions/Crucifix]] (Probability: 70%)
+- Execute **[[Transitions/Armbar from Back Transition/Attacker|Armbar from Back Transition]]** → [[Positions/Armbar Control]] (Probability: 50%)
 
 
 **If opponent attempts to stand or elevate hips significantly:**
-- Execute **[[Transitions/Crab Ride to Back]]** → [[Positions/Crab Ride]] (Probability: 65%)
-- Execute **[[Transitions/Turtle to Back Control]]** → [[Positions/Back Control]] (Probability: 60%)
+- Execute **[[Transitions/Crab Ride to Back/Attacker|Crab Ride to Back]]** → [[Positions/Crab Ride]] (Probability: 65%)
+- Execute **[[Transitions/Turtle to Back Control/Attacker|Turtle to Back Control]]** → [[Positions/Back Control]] (Probability: 60%)
 
 
 **If opponent flattens completely to belly exposing back:**
-- Execute **[[Transitions/Rear Naked Choke]]** → [[Positions/Back Control]] (Probability: 65%)
-- Execute **[[Transitions/Bow and Arrow Choke]]** → [[Positions/Back Control]] (Probability: 55%)
+- Execute **[[Transitions/Rear Naked Choke/Attacker|Rear Naked Choke]]** → [[Positions/Back Control]] (Probability: 65%)
+- Execute **[[Transitions/Bow and Arrow Choke/Attacker|Bow and Arrow Choke]]** → [[Positions/Back Control]] (Probability: 55%)
 
 
 

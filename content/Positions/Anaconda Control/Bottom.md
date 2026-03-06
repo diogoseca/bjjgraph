@@ -210,27 +210,27 @@ This position often occurs during scrambles from turtle, failed takedown attempt
 ## Decision Making from This Position
 
 **If opponent has secured anaconda grip but hasn't stepped over or rolled yet:**
-- Execute **[[Transitions/Grip Break]]** → [[Positions/Front Headlock]] (Probability: 40%)
-- Execute **[[Transitions/Hip Escape to Guard]]** → [[Positions/Turtle]] (Probability: 35%)
-- Execute **[[Transitions/Arm Extraction]]** → [[Positions/Open Guard]] (Probability: 25%)
+- Execute **[[Transitions/Grip Break/Attacker|Grip Break]]** → [[Positions/Front Headlock]] (Probability: 40%)
+- Execute **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** → [[Positions/Turtle]] (Probability: 35%)
+- Execute **[[Transitions/Arm Extraction/Attacker|Arm Extraction]]** → [[Positions/Open Guard]] (Probability: 25%)
 
 
 **If opponent begins stepping over your head to finish the choke:**
-- Execute **[[Transitions/Rolling to Guard]]** → [[Positions/Half Guard]] (Probability: 30%)
-- Execute **[[Transitions/Bridge and Roll]]** → [[Positions/Half Guard]] (Probability: 25%)
-- Execute **[[Transitions/Counter Sweep]]** → [[Positions/Open Guard]] (Probability: 20%)
+- Execute **[[Transitions/Rolling to Guard/Attacker|Rolling to Guard]]** → [[Positions/Half Guard]] (Probability: 30%)
+- Execute **[[Transitions/Bridge and Roll/Attacker|Bridge and Roll]]** → [[Positions/Half Guard]] (Probability: 25%)
+- Execute **[[Transitions/Counter Sweep/Attacker|Counter Sweep]]** → [[Positions/Open Guard]] (Probability: 20%)
 
 
 **If opponent attempts to roll you to complete the choke:**
-- Execute **[[Transitions/Rolling Escape from Anaconda]]** → [[Positions/Turtle]] (Probability: 35%)
-- Execute **[[Transitions/Arm Extraction]]** → [[Positions/Front Headlock]] (Probability: 30%)
-- Execute **[[Transitions/Guard Pull]]** → [[Positions/Closed Guard]] (Probability: 25%)
+- Execute **[[Transitions/Rolling Escape from Anaconda/Attacker|Rolling Escape from Anaconda]]** → [[Positions/Turtle]] (Probability: 35%)
+- Execute **[[Transitions/Arm Extraction/Attacker|Arm Extraction]]** → [[Positions/Front Headlock]] (Probability: 30%)
+- Execute **[[Transitions/Guard Pull/Attacker|Guard Pull]]** → [[Positions/Closed Guard]] (Probability: 25%)
 
 
 **If the choke is partially locked but opponent hasn't finished:**
-- Execute **[[Transitions/Anaconda Grip Break to Front Headlock]]** → [[Positions/Front Headlock]] (Probability: 45%)
-- Execute **[[Transitions/Hip Escape to Guard]]** → [[Positions/Turtle]] (Probability: 30%)
-- Execute **[[Transitions/Rolling to Guard]]** → [[Positions/Half Guard]] (Probability: 25%)
+- Execute **[[Transitions/Anaconda Grip Break to Front Headlock/Attacker|Anaconda Grip Break to Front Headlock]]** → [[Positions/Front Headlock]] (Probability: 45%)
+- Execute **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** → [[Positions/Turtle]] (Probability: 30%)
+- Execute **[[Transitions/Rolling to Guard/Attacker|Rolling to Guard]]** → [[Positions/Half Guard]] (Probability: 25%)
 
 
 

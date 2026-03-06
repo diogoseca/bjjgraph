@@ -215,23 +215,23 @@ The learning curve for lapel guard is steep but rewarding. Initial sessions focu
 ## Decision Making from This Position
 
 **If opponent stands with upright posture and attempts to create distance:**
-- Execute **[[Transitions/Worm Guard Entry]]** → [[Positions/Worm Guard]] (Probability: 70%)
-- Execute **[[Transitions/Lapel to De La Riva]]** → [[Positions/De La Riva Guard]] (Probability: 60%)
+- Execute **[[Transitions/Worm Guard Entry/Attacker|Worm Guard Entry]]** → [[Positions/Worm Guard]] (Probability: 70%)
+- Execute **[[Transitions/Lapel to De La Riva/Attacker|Lapel to De La Riva]]** → [[Positions/De La Riva Guard]] (Probability: 60%)
 
 
 **If opponent attempts pressure pass with low posture driving forward:**
-- Execute **[[Transitions/Squid Guard Entry]]** → [[Positions/Squid Guard]] (Probability: 65%)
-- Execute **[[Transitions/Lapel Triangle Setup]]** → [[Positions/Triangle Control]] (Probability: 50%)
+- Execute **[[Transitions/Squid Guard Entry/Attacker|Squid Guard Entry]]** → [[Positions/Squid Guard]] (Probability: 65%)
+- Execute **[[Transitions/Lapel Triangle Setup/Attacker|Lapel Triangle Setup]]** → [[Positions/Triangle Control]] (Probability: 50%)
 
 
 **If opponent posts hand to base while attempting to clear lapel:**
-- Execute **[[Transitions/Lapel Omoplata Entry]]** → [[Positions/Omoplata Control]] (Probability: 55%)
-- Execute **[[Transitions/Lapel Sweep to Back]]** → [[Positions/Back Control]] (Probability: 60%)
+- Execute **[[Transitions/Lapel Omoplata Entry/Attacker|Lapel Omoplata Entry]]** → [[Positions/Omoplata Control]] (Probability: 55%)
+- Execute **[[Transitions/Lapel Sweep to Back/Attacker|Lapel Sweep to Back]]** → [[Positions/Back Control]] (Probability: 60%)
 
 
 **If opponent successfully strips primary lapel grip:**
-- Execute **[[Transitions/Lapel to Spider Guard]]** → [[Positions/Spider Guard]] (Probability: 65%)
-- Execute **[[Transitions/Lapel to Lasso Guard]]** → [[Positions/Lasso Guard]] (Probability: 60%)
+- Execute **[[Transitions/Lapel to Spider Guard/Attacker|Lapel to Spider Guard]]** → [[Positions/Spider Guard]] (Probability: 65%)
+- Execute **[[Transitions/Lapel to Lasso Guard/Attacker|Lapel to Lasso Guard]]** → [[Positions/Lasso Guard]] (Probability: 60%)
 
 
 

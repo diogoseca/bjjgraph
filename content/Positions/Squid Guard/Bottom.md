@@ -212,23 +212,23 @@ While technically demanding and requiring significant flexibility, coordination,
 ## Decision Making from This Position
 
 **If opponent maintains upright posture with weight distributed evenly:**
-- Execute **[[Transitions/De La Riva Sweep]]** → [[Positions/Side Control]] (Probability: 60%)
-- Execute **[[Transitions/X-Guard Sweep]]** → [[Positions/X-Guard]] (Probability: 55%)
+- Execute **[[Transitions/De La Riva Sweep/Attacker|De La Riva Sweep]]** → [[Positions/Side Control]] (Probability: 60%)
+- Execute **[[Transitions/X-Guard Sweep/Attacker|X-Guard Sweep]]** → [[Positions/X-Guard]] (Probability: 55%)
 
 
 **If opponent drives forward with pressure attempting to stack:**
-- Execute **[[Transitions/Kiss of the Dragon]]** → [[Positions/Back Control]] (Probability: 60%)
-- Execute **[[Transitions/Berimbolo Entry]]** → [[Positions/Back Control]] (Probability: 55%)
+- Execute **[[Transitions/Kiss of the Dragon/Attacker|Kiss of the Dragon]]** → [[Positions/Back Control]] (Probability: 60%)
+- Execute **[[Transitions/Berimbolo Entry/Attacker|Berimbolo Entry]]** → [[Positions/Back Control]] (Probability: 55%)
 
 
 **If opponent turns away from threading leg to escape tension:**
-- Execute **[[Transitions/Back Take]]** → [[Positions/Back Control]] (Probability: 65%)
-- Execute **[[Transitions/Omoplata to Back]]** → [[Positions/Back Control]] (Probability: 55%)
+- Execute **[[Transitions/Back Take/Attacker|Back Take]]** → [[Positions/Back Control]] (Probability: 65%)
+- Execute **[[Transitions/Omoplata to Back/Attacker|Omoplata to Back]]** → [[Positions/Back Control]] (Probability: 55%)
 
 
 **If opponent attempts to disengage and create distance:**
-- Execute **[[Transitions/Guard Recovery from Squid Guard]]** → [[Positions/Open Guard]] (Probability: 70%)
-- Execute **[[Transitions/Shin to Shin Pull]]** → [[Positions/Spider Guard]] (Probability: 60%)
+- Execute **[[Transitions/Guard Recovery from Squid Guard/Attacker|Guard Recovery from Squid Guard]]** → [[Positions/Open Guard]] (Probability: 70%)
+- Execute **[[Transitions/Shin to Shin Pull/Attacker|Shin to Shin Pull]]** → [[Positions/Spider Guard]] (Probability: 60%)
 
 
 

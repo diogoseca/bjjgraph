@@ -211,23 +211,23 @@ Old School Bottom is considered a transitional attacking position rather than a 
 ## Decision Making from This Position
 
 **If opponent maintains low posture and drives weight forward with heavy shoulder pressure:**
-- Execute **[[Transitions/Old School Sweep]]** → [[Positions/Mount]] (Probability: 75%)
-- Execute **[[Transitions/Old School Sweep]]** → [[Positions/Back Control]] (Probability: 70%)
+- Execute **[[Transitions/Old School Sweep/Attacker|Old School Sweep]]** → [[Positions/Mount]] (Probability: 75%)
+- Execute **[[Transitions/Old School Sweep/Attacker|Old School Sweep]]** → [[Positions/Back Control]] (Probability: 70%)
 
 
 **If opponent extends their trapped leg to clear the lockdown while maintaining forward pressure:**
-- Execute **[[Transitions/Electric Chair Transition]]** → [[Positions/Half Guard/Electric Chair]] (Probability: 60%)
-- Execute **[[Transitions/Deep Half Entry]]** → [[Positions/Half Guard/Deep Half Guard]] (Probability: 55%)
+- Execute **[[Transitions/Electric Chair Transition/Attacker|Electric Chair Transition]]** → [[Positions/Half Guard/Electric Chair]] (Probability: 60%)
+- Execute **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** → [[Positions/Half Guard/Deep Half Guard]] (Probability: 55%)
 
 
 **If opponent posts hand on mat or brings weight back to defend the sweep:**
-- Execute **[[Transitions/Half Guard to Back Take]]** → [[Positions/Back Control]] (Probability: 65%)
-- Execute **[[Transitions/Underhook Sweep from Half]]** → [[Positions/Side Control]] (Probability: 60%)
+- Execute **[[Transitions/Half Guard to Back Take/Attacker|Half Guard to Back Take]]** → [[Positions/Back Control]] (Probability: 65%)
+- Execute **[[Transitions/Underhook Sweep from Half/Attacker|Underhook Sweep from Half]]** → [[Positions/Side Control]] (Probability: 60%)
 
 
 **If opponent turns away from underhook or attempts to remove head control:**
-- Execute **[[Transitions/Half Guard to Back Take]]** → [[Positions/Back Control]] (Probability: 70%)
-- Execute **[[Transitions/Lockdown Recovery]]** → [[Positions/Half Guard]] (Probability: 50%)
+- Execute **[[Transitions/Half Guard to Back Take/Attacker|Half Guard to Back Take]]** → [[Positions/Back Control]] (Probability: 70%)
+- Execute **[[Transitions/Lockdown Recovery/Attacker|Lockdown Recovery]]** → [[Positions/Half Guard]] (Probability: 50%)
 
 
 

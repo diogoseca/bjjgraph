@@ -98,41 +98,41 @@ Modern Half Guard play emphasizes constant movement, systematic position improve
 ### Available Transitions
 
 
-- **[[Transitions/Underhook Sweep from Half]]** (18% of attempts)
+- **[[Transitions/Underhook Sweep from Half/Attacker|Underhook Sweep from Half]]** (18% of attempts)
 
-- **[[Transitions/Half Guard to Back Take]]** (12% of attempts)
+- **[[Transitions/Half Guard to Back Take/Attacker|Half Guard to Back Take]]** (12% of attempts)
 
-- **[[Transitions/Deep Half Entry]]** (10% of attempts)
+- **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** (10% of attempts)
 
-- **[[Transitions/Old School Sweep]]** (8% of attempts)
+- **[[Transitions/Old School Sweep/Attacker|Old School Sweep]]** (8% of attempts)
 
-- **[[Transitions/Knee Shield Retention]]** (8% of attempts)
+- **[[Transitions/Knee Shield Retention/Attacker|Knee Shield Retention]]** (8% of attempts)
 
-- **[[Transitions/Lockdown Recovery]]** (5% of attempts)
+- **[[Transitions/Lockdown Recovery/Attacker|Lockdown Recovery]]** (5% of attempts)
 
-- **[[Transitions/Kimura Sweep]]** (5% of attempts)
+- **[[Transitions/Kimura Sweep/Attacker|Kimura Sweep]]** (5% of attempts)
 
-- **[[Transitions/Deep Half Entry from Half Guard]]** (5% of attempts)
+- **[[Transitions/Deep Half Entry from Half Guard/Attacker|Deep Half Entry from Half Guard]]** (5% of attempts)
 
-- **[[Transitions/Knee Torque Sweep]]** (5% of attempts)
+- **[[Transitions/Knee Torque Sweep/Attacker|Knee Torque Sweep]]** (5% of attempts)
 
-- **[[Transitions/Half Guard to X-Guard]]** (4% of attempts)
+- **[[Transitions/Half Guard to X-Guard/Attacker|Half Guard to X-Guard]]** (4% of attempts)
 
-- **[[Positions/Dogfight Position]]** (4% of attempts)
+- **[[Positions/Dogfight Position/Attacker|Dogfight Position]]** (4% of attempts)
 
-- **[[Transitions/Half Guard Recovery]]** (3% of attempts)
+- **[[Transitions/Half Guard Recovery/Attacker|Half Guard Recovery]]** (3% of attempts)
 
-- **[[Transitions/Electric Chair Transition]]** (3% of attempts)
+- **[[Transitions/Electric Chair Transition/Attacker|Electric Chair Transition]]** (3% of attempts)
 
-- **[[Transitions/Half Guard to K-Guard]]** (2% of attempts)
+- **[[Transitions/Half Guard to K-Guard/Attacker|Half Guard to K-Guard]]** (2% of attempts)
 
-- **[[Transitions/Back Door Escape from Half Guard]]** (2% of attempts)
+- **[[Transitions/Back Door Escape from Half Guard/Attacker|Back Door Escape from Half Guard]]** (2% of attempts)
 
-- **[[Transitions/Half Guard to Old School]]** (2% of attempts)
+- **[[Transitions/Half Guard to Old School/Attacker|Half Guard to Old School]]** (2% of attempts)
 
-- **[[Positions/Buggy Choke]]** (2% of attempts)
+- **[[Positions/Buggy Choke/Attacker|Buggy Choke]]** (2% of attempts)
 
-- **[[Submissions/Kneebar from Half Guard]]** (2% of attempts)
+- **[[Submissions/Kneebar from Half Guard/Attacker|Kneebar from Half Guard]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -193,39 +193,39 @@ Modern Half Guard play emphasizes constant movement, systematic position improve
 ### Available Transitions
 
 
-- **[[Transitions/Knee Slice Pass]]** (28% of attempts)
+- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (28% of attempts)
 
-- **[[Transitions/Smash Pass]]** (15% of attempts)
+- **[[Transitions/Smash Pass/Attacker|Smash Pass]]** (15% of attempts)
 
-- **[[Transitions/Underhook Pass]]** (12% of attempts)
+- **[[Transitions/Underhook Pass/Attacker|Underhook Pass]]** (12% of attempts)
 
-- **[[Transitions/Long Step Pass]]** (8% of attempts)
+- **[[Transitions/Long Step Pass/Attacker|Long Step Pass]]** (8% of attempts)
 
-- **[[Transitions/Crossface Pass]]** (5% of attempts)
+- **[[Transitions/Crossface Pass/Attacker|Crossface Pass]]** (5% of attempts)
 
-- **[[Transitions/Back Step Pass]]** (5% of attempts)
+- **[[Transitions/Back Step Pass/Attacker|Back Step Pass]]** (5% of attempts)
 
-- **[[Transitions/Over-Under Pass]]** (4% of attempts)
+- **[[Transitions/Over-Under Pass/Attacker|Over-Under Pass]]** (4% of attempts)
 
-- **[[Transitions/Kimura]]** (3% of attempts)
+- **[[Transitions/Kimura/Attacker|Kimura]]** (3% of attempts)
 
-- **[[Transitions/Half Guard to Double Jump]]** (3% of attempts)
+- **[[Transitions/Half Guard to Double Jump/Attacker|Half Guard to Double Jump]]** (3% of attempts)
 
-- **[[Transitions/Half Guard to Flattened Half Guard]]** (3% of attempts)
+- **[[Transitions/Half Guard to Flattened Half Guard/Attacker|Half Guard to Flattened Half Guard]]** (3% of attempts)
 
-- **[[Transitions/Crossface to Combat Base]]** (2% of attempts)
+- **[[Transitions/Crossface to Combat Base/Attacker|Crossface to Combat Base]]** (2% of attempts)
 
-- **[[Transitions/Headquarters Pass]]** (2% of attempts)
+- **[[Transitions/Headquarters Pass/Attacker|Headquarters Pass]]** (2% of attempts)
 
-- **[[Transitions/Half Guard to Leg Hook]]** (2% of attempts)
+- **[[Transitions/Half Guard to Leg Hook/Attacker|Half Guard to Leg Hook]]** (2% of attempts)
 
-- **[[Transitions/Half Guard to Pocket Half Guard]]** (2% of attempts)
+- **[[Transitions/Half Guard to Pocket Half Guard/Attacker|Half Guard to Pocket Half Guard]]** (2% of attempts)
 
-- **[[Transitions/Half Guard to Quarter Guard]]** (2% of attempts)
+- **[[Transitions/Half Guard to Quarter Guard/Attacker|Half Guard to Quarter Guard]]** (2% of attempts)
 
-- **[[Transitions/Half Guard to Triangle Escape Position]]** (2% of attempts)
+- **[[Transitions/Half Guard to Triangle Escape Position/Attacker|Half Guard to Triangle Escape Position]]** (2% of attempts)
 
-- **[[Submissions/Suloev Stretch]]** (2% of attempts)
+- **[[Submissions/Suloev Stretch/Attacker|Suloev Stretch]]** (2% of attempts)
 
 
 ### Common Mistakes

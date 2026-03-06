@@ -209,26 +209,26 @@ Strategically, being on bottom of Honey Hole is survival situation rather than c
 ## Decision Making from This Position
 
 **If opponent has not yet secured heel grip and triangle is forming:**
-- Execute **[[Transitions/Hip Escape to Guard]]** → [[Positions/Open Guard]] (Probability: 35%)
-- Execute **[[Transitions/Granby Roll to Guard]]** → [[Positions/Turtle]] (Probability: 30%)
-- Execute **[[Transitions/Counter Sweep]]** → [[Positions/Ashi Garami/50-50 Guard]] (Probability: 25%)
+- Execute **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** → [[Positions/Open Guard]] (Probability: 35%)
+- Execute **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** → [[Positions/Turtle]] (Probability: 30%)
+- Execute **[[Transitions/Counter Sweep/Attacker|Counter Sweep]]** → [[Positions/Ashi Garami/50-50 Guard]] (Probability: 25%)
 
 
 **If opponent has heel grip but has not yet applied breaking pressure:**
-- Execute **[[Transitions/Grip Break]]** → [[Positions/Ashi Garami/Honey Hole]] (Probability: 20%)
-- Execute **[[Transitions/Rolling to Guard]]** → [[Positions/Half Guard]] (Probability: 15%)
-- Execute **[[Transitions/Angle Change Escape]]** → [[Positions/Ashi Garami/Outside Ashi-Garami]] (Probability: 18%)
+- Execute **[[Transitions/Grip Break/Attacker|Grip Break]]** → [[Positions/Ashi Garami/Honey Hole]] (Probability: 20%)
+- Execute **[[Transitions/Rolling to Guard/Attacker|Rolling to Guard]]** → [[Positions/Half Guard]] (Probability: 15%)
+- Execute **[[Transitions/Angle Change Escape/Attacker|Angle Change Escape]]** → [[Positions/Ashi Garami/Outside Ashi-Garami]] (Probability: 18%)
 
 
 **If opponent has locked heel hook grip with triangle secured and begins applying pressure:**
-- Execute **[[Tap Out]]** → [[Positions/Game Over]] (Probability: 95%)
-- Execute **[[Transitions/Rolling Back Take]]** → [[Positions/Open Guard]] (Probability: 5%)
+- Execute **[[Tap Out/Attacker|Tap Out]]** → [[Positions/Game Over]] (Probability: 95%)
+- Execute **[[Transitions/Rolling Back Take/Attacker|Rolling Back Take]]** → [[Positions/Open Guard]] (Probability: 5%)
 
 
 **If opponent loses triangle momentarily during transition:**
-- Execute **[[Transitions/Hip Escape to Guard]]** → [[Positions/Open Guard]] (Probability: 40%)
-- Execute **[[Transitions/Standing Escape]]** → [[Positions/Clinch]] (Probability: 25%)
-- Execute **[[Transitions/Granby Roll to Guard]]** → [[Positions/Turtle]] (Probability: 30%)
+- Execute **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** → [[Positions/Open Guard]] (Probability: 40%)
+- Execute **[[Transitions/Standing Escape/Attacker|Standing Escape]]** → [[Positions/Clinch]] (Probability: 25%)
+- Execute **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** → [[Positions/Turtle]] (Probability: 30%)
 
 
 

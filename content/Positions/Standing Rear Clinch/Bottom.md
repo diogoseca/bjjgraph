@@ -197,28 +197,28 @@ The Standing Rear Clinch holds particular importance in no-gi grappling and MMA 
 ## Decision Making from This Position
 
 **If opponent sits to guard with back exposed maintaining poor defensive posture:**
-- Execute **[[Transitions/Body Lock Pass]]** → [[Positions/Side Control]] (Probability: 65%)
-- Execute **[[Transitions/Back Take]]** → [[Positions/Back Control]] (Probability: 70%)
+- Execute **[[Transitions/Body Lock Pass/Attacker|Body Lock Pass]]** → [[Positions/Side Control]] (Probability: 65%)
+- Execute **[[Transitions/Back Take/Attacker|Back Take]]** → [[Positions/Back Control]] (Probability: 70%)
 
 
 **If opponent drops to hands and knees attempting turtle defensive position:**
-- Execute **[[Transitions/Rolling Back Take]]** → [[Positions/Back Control]] (Probability: 60%)
-- Execute **[[Transitions/Mat Return to Back Mount]]** → [[Positions/Back Control]] (Probability: 65%)
+- Execute **[[Transitions/Rolling Back Take/Attacker|Rolling Back Take]]** → [[Positions/Back Control]] (Probability: 60%)
+- Execute **[[Transitions/Mat Return to Back Mount/Attacker|Mat Return to Back Mount]]** → [[Positions/Back Control]] (Probability: 65%)
 
 
 **If opponent remains standing and hand fights aggressively to break grips:**
-- Execute **[[Transitions/Snap Down to Front Headlock]]** → [[Positions/Front Headlock]] (Probability: 55%)
-- Execute **[[Transitions/Rolling Back Take]]** → [[Positions/Back Control]] (Probability: 58%)
+- Execute **[[Transitions/Snap Down to Front Headlock/Attacker|Snap Down to Front Headlock]]** → [[Positions/Front Headlock]] (Probability: 55%)
+- Execute **[[Transitions/Rolling Back Take/Attacker|Rolling Back Take]]** → [[Positions/Back Control]] (Probability: 58%)
 
 
 **If opponent turns head away creating immediate choke opportunity:**
-- Execute **[[Transitions/Rear Naked Choke Setup]]** → [[Positions/Back Control]] (Probability: 50%)
-- Execute **[[Transitions/Rolling Back Take]]** → [[Positions/Back Control]] (Probability: 60%)
+- Execute **[[Transitions/Rear Naked Choke Setup/Attacker|Rear Naked Choke Setup]]** → [[Positions/Back Control]] (Probability: 50%)
+- Execute **[[Transitions/Rolling Back Take/Attacker|Rolling Back Take]]** → [[Positions/Back Control]] (Probability: 60%)
 
 
 **If opponent executes successful hip escape creating separation distance:**
-- Execute **[[Transitions/Double Leg Finish]]** → [[Positions/Side Control]] (Probability: 48%)
-- Execute **[[Transitions/Snap Down to Front Headlock]]** → [[Positions/Front Headlock]] (Probability: 52%)
+- Execute **[[Transitions/Double Leg Finish/Attacker|Double Leg Finish]]** → [[Positions/Side Control]] (Probability: 48%)
+- Execute **[[Transitions/Snap Down to Front Headlock/Attacker|Snap Down to Front Headlock]]** → [[Positions/Front Headlock]] (Probability: 52%)
 
 
 

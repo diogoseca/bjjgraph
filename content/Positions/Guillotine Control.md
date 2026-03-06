@@ -93,25 +93,25 @@ Strategically, Guillotine Control exemplifies the principle of creating binary d
 ### Available Transitions
 
 
-- **[[Transitions/Guillotine Choke]]** (50% of attempts)
+- **[[Transitions/Guillotine Choke/Attacker|Guillotine Choke]]** (50% of attempts)
 
-- **[[Transitions/High Elbow Guillotine Variation]]** (13% of attempts)
+- **[[Transitions/High Elbow Guillotine Variation/Attacker|High Elbow Guillotine Variation]]** (13% of attempts)
 
-- **[[Transitions/Hip Bump Sweep]]** (10% of attempts)
+- **[[Transitions/Hip Bump Sweep/Attacker|Hip Bump Sweep]]** (10% of attempts)
 
-- **[[Transitions/Closed Guard to Omoplata]]** (4% of attempts)
+- **[[Transitions/Closed Guard to Omoplata/Attacker|Closed Guard to Omoplata]]** (4% of attempts)
 
-- **[[Transitions/Closed Guard to Triangle]]** (6% of attempts)
+- **[[Transitions/Closed Guard to Triangle/Attacker|Closed Guard to Triangle]]** (6% of attempts)
 
-- **[[Transitions/Guard Recovery from Guillotine Control]]** (6% of attempts)
+- **[[Transitions/Guard Recovery from Guillotine Control/Attacker|Guard Recovery from Guillotine Control]]** (6% of attempts)
 
-- **[[Transitions/Butterfly Sweep with Guillotine]]** (6% of attempts)
+- **[[Transitions/Butterfly Sweep with Guillotine/Attacker|Butterfly Sweep with Guillotine]]** (6% of attempts)
 
-- **[[Transitions/Guillotine Setup]]** (3% of attempts)
+- **[[Transitions/Guillotine Setup/Attacker|Guillotine Setup]]** (3% of attempts)
 
-- **[[Transitions/Guillotine Escape to Von Flue]]** (1% of attempts)
+- **[[Transitions/Guillotine Escape to Von Flue/Attacker|Guillotine Escape to Von Flue]]** (1% of attempts)
 
-- **[[Transitions/Guillotine Escape via Posture]]** (1% of attempts)
+- **[[Transitions/Guillotine Escape via Posture/Attacker|Guillotine Escape via Posture]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -176,25 +176,25 @@ Strategically, Guillotine Control exemplifies the principle of creating binary d
 ### Available Transitions
 
 
-- **[[Transitions/Guillotine Choke]]** (44% of attempts)
+- **[[Transitions/Guillotine Choke/Attacker|Guillotine Choke]]** (44% of attempts)
 
-- **[[Transitions/High Elbow Guillotine Variation]]** (16% of attempts)
+- **[[Transitions/High Elbow Guillotine Variation/Attacker|High Elbow Guillotine Variation]]** (16% of attempts)
 
-- **[[Transitions/Front Headlock to Anaconda]]** (7% of attempts)
+- **[[Transitions/Front Headlock to Anaconda/Attacker|Front Headlock to Anaconda]]** (7% of attempts)
 
-- **[[Transitions/Front Headlock to Darce]]** (7% of attempts)
+- **[[Transitions/Front Headlock to Darce/Attacker|Front Headlock to Darce]]** (7% of attempts)
 
-- **[[Transitions/Side Control to Mount]]** (7% of attempts)
+- **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** (7% of attempts)
 
-- **[[Transitions/Side Control to North-South]]** (5% of attempts)
+- **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** (5% of attempts)
 
-- **[[Transitions/Pass to Side Control]]** (10% of attempts)
+- **[[Transitions/Pass to Side Control/Attacker|Pass to Side Control]]** (10% of attempts)
 
-- **[[Transitions/Arm in Guillotine Variation]]** (2% of attempts)
+- **[[Transitions/Arm in Guillotine Variation/Attacker|Arm in Guillotine Variation]]** (2% of attempts)
 
-- **[[Transitions/Guillotine Counter]]** (1% of attempts)
+- **[[Transitions/Guillotine Counter/Attacker|Guillotine Counter]]** (1% of attempts)
 
-- **[[Transitions/Ten Finger Guillotine Variation]]** (1% of attempts)
+- **[[Transitions/Ten Finger Guillotine Variation/Attacker|Ten Finger Guillotine Variation]]** (1% of attempts)
 
 
 ### Common Mistakes

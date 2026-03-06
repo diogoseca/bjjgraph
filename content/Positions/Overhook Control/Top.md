@@ -213,28 +213,28 @@ The transitional nature of top overhook distinguishes it from static control pos
 ## Decision Making from This Position
 
 **If opponent's posture is upright and they are trying to pull their arm back against your pressure:**
-- Execute **[[Transitions/Kimura]]** → [[Positions/Kimura Trap]] (Probability: 65%)
-- Execute **[[Transitions/Two-on-One to Back Take]]** → [[Positions/Back Control]] (Probability: 60%)
+- Execute **[[Transitions/Kimura/Attacker|Kimura]]** → [[Positions/Kimura Trap]] (Probability: 65%)
+- Execute **[[Transitions/Two-on-One to Back Take/Attacker|Two-on-One to Back Take]]** → [[Positions/Back Control]] (Probability: 60%)
 
 
 **If opponent drops their weight forward and drives into you with pressure:**
-- Execute **[[Transitions/Darce Choke]]** → [[Positions/Darce Control]] (Probability: 60%)
-- Execute **[[Transitions/Anaconda Choke]]** → [[Positions/Anaconda Control]] (Probability: 55%)
+- Execute **[[Transitions/Darce Choke/Attacker|Darce Choke]]** → [[Positions/Darce Control]] (Probability: 60%)
+- Execute **[[Transitions/Anaconda Choke/Attacker|Anaconda Choke]]** → [[Positions/Anaconda Control]] (Probability: 55%)
 
 
 **If opponent stands up or increases distance trying to escape the overhook:**
-- Execute **[[Transitions/Snap Down to Front Headlock]]** → [[Positions/Front Headlock]] (Probability: 70%)
-- Execute **[[Transitions/Arm Drag to Back]]** → [[Positions/Back Control]] (Probability: 65%)
+- Execute **[[Transitions/Snap Down to Front Headlock/Attacker|Snap Down to Front Headlock]]** → [[Positions/Front Headlock]] (Probability: 70%)
+- Execute **[[Transitions/Arm Drag to Back/Attacker|Arm Drag to Back]]** → [[Positions/Back Control]] (Probability: 65%)
 
 
 **If opponent circles toward their trapped arm side attempting to create escape angle:**
-- Execute **[[Transitions/Arm Drag to Back]]** → [[Positions/Back Control]] (Probability: 65%)
-- Execute **[[Transitions/Crab Ride to Back]]** → [[Positions/Crab Ride]] (Probability: 58%)
+- Execute **[[Transitions/Arm Drag to Back/Attacker|Arm Drag to Back]]** → [[Positions/Back Control]] (Probability: 65%)
+- Execute **[[Transitions/Crab Ride to Back/Attacker|Crab Ride to Back]]** → [[Positions/Crab Ride]] (Probability: 58%)
 
 
 **If opponent turns away from overhook or drops to turtle position to defend:**
-- Execute **[[Transitions/Crucifix from Turtle]]** → [[Positions/Crucifix]] (Probability: 50%)
-- Execute **[[Transitions/Crab Ride to Back]]** → [[Positions/Crab Ride]] (Probability: 58%)
+- Execute **[[Transitions/Crucifix from Turtle/Attacker|Crucifix from Turtle]]** → [[Positions/Crucifix]] (Probability: 50%)
+- Execute **[[Transitions/Crab Ride to Back/Attacker|Crab Ride to Back]]** → [[Positions/Crab Ride]] (Probability: 58%)
 
 
 

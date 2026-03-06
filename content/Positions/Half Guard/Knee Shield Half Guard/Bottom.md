@@ -210,23 +210,23 @@ The knee shield half guard has become a cornerstone position in modern competiti
 ## Decision Making from This Position
 
 **If opponent attempts to smash knee shield down and flatten position with heavy pressure:**
-- Execute **[[Transitions/Knee Shield Retention]]** → [[Positions/Half Guard/Knee Shield Half Guard]] (Probability: 60%)
-- Execute **[[Transitions/Deep Half Entry]]** → [[Positions/Half Guard/Deep Half Guard]] (Probability: 55%)
+- Execute **[[Transitions/Knee Shield Retention/Attacker|Knee Shield Retention]]** → [[Positions/Half Guard/Knee Shield Half Guard]] (Probability: 60%)
+- Execute **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** → [[Positions/Half Guard/Deep Half Guard]] (Probability: 55%)
 
 
 **If opponent stands up to create passing angles or attempt standing passes:**
-- Execute **[[Transitions/Single Leg X Entry]]** → [[Positions/X-Guard/Single Leg X-Guard]] (Probability: 65%)
-- Execute **[[Transitions/Butterfly Guard to X-Guard]]** → [[Positions/X-Guard]] (Probability: 55%)
+- Execute **[[Transitions/Single Leg X Entry/Attacker|Single Leg X Entry]]** → [[Positions/X-Guard/Single Leg X-Guard]] (Probability: 65%)
+- Execute **[[Transitions/Butterfly Guard to X-Guard/Attacker|Butterfly Guard to X-Guard]]** → [[Positions/X-Guard]] (Probability: 55%)
 
 
 **If opponent commits to knee slice or attempts to step over knee shield:**
-- Execute **[[Transitions/Old School Sweep]]** → [[Positions/Side Control]] (Probability: 52%)
-- Execute **[[Transitions/Underhook Sweep from Half]]** → [[Positions/Side Control]] (Probability: 48%)
+- Execute **[[Transitions/Old School Sweep/Attacker|Old School Sweep]]** → [[Positions/Side Control]] (Probability: 52%)
+- Execute **[[Transitions/Underhook Sweep from Half/Attacker|Underhook Sweep from Half]]** → [[Positions/Side Control]] (Probability: 48%)
 
 
 **If opponent establishes underhook and attempts to consolidate position:**
-- Execute **[[Transitions/Kimura]]** → [[Positions/Kimura Trap]] (Probability: 45%)
-- Execute **[[Transitions/Half Guard to Back Take]]** → [[Positions/Back Control]] (Probability: 42%)
+- Execute **[[Transitions/Kimura/Attacker|Kimura]]** → [[Positions/Kimura Trap]] (Probability: 45%)
+- Execute **[[Transitions/Half Guard to Back Take/Attacker|Half Guard to Back Take]]** → [[Positions/Back Control]] (Probability: 42%)
 
 
 

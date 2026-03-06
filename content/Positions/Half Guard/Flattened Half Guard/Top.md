@@ -209,18 +209,18 @@ Understanding the position's relationship to the broader passing game is essenti
 ## Decision Making from This Position
 
 **If opponent maintains leg hook but loses all upper body frames and structure:**
-- Execute **[[Transitions/Knee Slice from Half]]** → [[Positions/Side Control]] (Probability: 65%)
-- Execute **[[Transitions/Crossface Pass]]** → [[Positions/Side Control]] (Probability: 55%)
+- Execute **[[Transitions/Knee Slice from Half/Attacker|Knee Slice from Half]]** → [[Positions/Side Control]] (Probability: 65%)
+- Execute **[[Transitions/Crossface Pass/Attacker|Crossface Pass]]** → [[Positions/Side Control]] (Probability: 55%)
 
 
 **If opponent turns away to escape crossface pressure or prevent pass completion:**
-- Execute **[[Transitions/Back Take]]** → [[Positions/Back Control]] (Probability: 50%)
-- Execute **[[Transitions/Side Control to Mount]]** → [[Positions/Mount]] (Probability: 40%)
+- Execute **[[Transitions/Back Take/Attacker|Back Take]]** → [[Positions/Back Control]] (Probability: 50%)
+- Execute **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** → [[Positions/Mount]] (Probability: 40%)
 
 
 **If opponent extends arm to establish underhook or create frame against crossface:**
-- Execute **[[Transitions/Kimura]]** → [[Positions/Kimura Trap]] (Probability: 40%)
-- Execute **[[Transitions/Arm Triangle Setup]]** → [[Transitions/Arm Triangle]] (Probability: 45%)
+- Execute **[[Transitions/Kimura/Attacker|Kimura]]** → [[Positions/Kimura Trap]] (Probability: 40%)
+- Execute **[[Transitions/Arm Triangle Setup/Attacker|Arm Triangle Setup]]** → [[Transitions/Arm Triangle]] (Probability: 45%)
 
 
 

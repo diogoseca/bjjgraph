@@ -205,23 +205,23 @@ Williams Guard Bottom is an innovative open guard position characterized by cont
 ## Decision Making from This Position
 
 **If opponent defends shoulder lock by pulling arm back aggressively:**
-- Execute **[[Transitions/Armbar Finish]]** → [[Positions/Armbar Control]] (Probability: 60%)
-- Execute **[[Transitions/Omoplata Sweep]]** → [[Positions/Mount]] (Probability: 55%)
+- Execute **[[Transitions/Armbar Finish/Attacker|Armbar Finish]]** → [[Positions/Armbar Control]] (Probability: 60%)
+- Execute **[[Transitions/Omoplata Sweep/Attacker|Omoplata Sweep]]** → [[Positions/Mount]] (Probability: 55%)
 
 
 **Else if opponent drives forward to pressure and escape shoulder lock:**
-- Execute **[[Transitions/Omoplata to Back]]** → [[Positions/Back Control]] (Probability: 65%)
-- Execute **[[Transitions/Triangle Setup]]** → [[Positions/Triangle Control]] (Probability: 50%)
+- Execute **[[Transitions/Omoplata to Back/Attacker|Omoplata to Back]]** → [[Positions/Back Control]] (Probability: 65%)
+- Execute **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** → [[Positions/Triangle Control]] (Probability: 50%)
 
 
 **Else if opponent posts free hand on mat to create base:**
-- Execute **[[Transitions/Triangle Setup]]** → [[Positions/Triangle Control]] (Probability: 70%)
-- Execute **[[Transitions/Kimura to Back Take]]** → [[Positions/Back Control]] (Probability: 55%)
+- Execute **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** → [[Positions/Triangle Control]] (Probability: 70%)
+- Execute **[[Transitions/Kimura to Back Take/Attacker|Kimura to Back Take]]** → [[Positions/Back Control]] (Probability: 55%)
 
 
 **Else if opponent attempts to circle away from controlled arm:**
-- Execute **[[Transitions/Closed Guard to Omoplata]]** → [[Positions/Omoplata Control]] (Probability: 75%)
-- Execute **[[Transitions/Back Take from Bottom]]** → [[Positions/Back Control]] (Probability: 60%)
+- Execute **[[Transitions/Closed Guard to Omoplata/Attacker|Closed Guard to Omoplata]]** → [[Positions/Omoplata Control]] (Probability: 75%)
+- Execute **[[Transitions/Back Take from Bottom/Attacker|Back Take from Bottom]]** → [[Positions/Back Control]] (Probability: 60%)
 
 
 

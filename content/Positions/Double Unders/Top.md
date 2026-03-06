@@ -208,23 +208,23 @@ The Double Unders position excels at breaking down various open guard styles, pa
 ## Decision Making from This Position
 
 **If opponent keeps legs together and attempts to frame with hands on chest maintaining flat back:**
-- Execute **[[Transitions/Stack Pass]]** → [[Positions/Side Control]] (Probability: 75%)
-- Execute **[[Transitions/Double Under Pass]]** → [[Positions/Side Control]] (Probability: 55%)
+- Execute **[[Transitions/Stack Pass/Attacker|Stack Pass]]** → [[Positions/Side Control]] (Probability: 75%)
+- Execute **[[Transitions/Double Under Pass/Attacker|Double Under Pass]]** → [[Positions/Side Control]] (Probability: 55%)
 
 
 **If opponent turns to their side trying to face away and escape the crushing pressure:**
-- Execute **[[Transitions/Back Take]]** → [[Positions/Back Control]] (Probability: 70%)
-- Execute **[[Transitions/Leg Weave Pass]]** → [[Positions/Side Control]] (Probability: 65%)
+- Execute **[[Transitions/Back Take/Attacker|Back Take]]** → [[Positions/Back Control]] (Probability: 70%)
+- Execute **[[Transitions/Leg Weave Pass/Attacker|Leg Weave Pass]]** → [[Positions/Side Control]] (Probability: 65%)
 
 
 **If opponent attempts to separate legs or insert butterfly hooks between your arms:**
-- Execute **[[Transitions/Leg Weave Pass]]** → [[Positions/Side Control]] (Probability: 60%)
-- Execute **[[Transitions/Side Control to Mount]]** → [[Positions/Mount]] (Probability: 50%)
+- Execute **[[Transitions/Leg Weave Pass/Attacker|Leg Weave Pass]]** → [[Positions/Side Control]] (Probability: 60%)
+- Execute **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** → [[Positions/Mount]] (Probability: 50%)
 
 
 **If opponent extends arms to create frames or push away from chest pressure:**
-- Execute **[[Submissions/Kimura from Side Control]]** → [[Positions/Kimura Trap]] (Probability: 45%)
-- Execute **[[Transitions/Double Under Pass]]** → [[Positions/Side Control]] (Probability: 70%)
+- Execute **[[Submissions/Kimura from Side Control/Attacker|Kimura from Side Control]]** → [[Positions/Kimura Trap]] (Probability: 45%)
+- Execute **[[Transitions/Double Under Pass/Attacker|Double Under Pass]]** → [[Positions/Side Control]] (Probability: 70%)
 
 
 

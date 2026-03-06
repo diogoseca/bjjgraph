@@ -202,28 +202,28 @@ The Rubber Guard from the bottom perspective represents one of the most innovati
 ## Decision Making from This Position
 
 **If opponent establishes strong posture and begins pulling trapped arm free:**
-- Execute **[[Transitions/Triangle Setup]]** → [[Positions/Triangle Control]] (Probability: 60%)
-- Execute **[[Transitions/Omoplata]]** → [[Positions/Omoplata Control]] (Probability: 50%)
+- Execute **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** → [[Positions/Triangle Control]] (Probability: 60%)
+- Execute **[[Transitions/Omoplata/Attacker|Omoplata]]** → [[Positions/Omoplata Control]] (Probability: 50%)
 
 
 **If opponent drives forward with pressure attempting to smash or stack:**
-- Execute **[[Transitions/Omoplata Sweep]]** → [[Positions/Back Control]] (Probability: 55%)
-- Execute **[[Transitions/Hip Bump Sweep]]** → [[Positions/Mount]] (Probability: 45%)
+- Execute **[[Transitions/Omoplata Sweep/Attacker|Omoplata Sweep]]** → [[Positions/Back Control]] (Probability: 55%)
+- Execute **[[Transitions/Hip Bump Sweep/Attacker|Hip Bump Sweep]]** → [[Positions/Mount]] (Probability: 45%)
 
 
 **If opponent sits back and attempts to break open the guard:**
-- Execute **[[Transitions/Triangle Setup]]** → [[Positions/Triangle Control]] (Probability: 55%)
-- Execute **[[Transitions/Omoplata]]** → [[Positions/Omoplata Control]] (Probability: 50%)
+- Execute **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** → [[Positions/Triangle Control]] (Probability: 55%)
+- Execute **[[Transitions/Omoplata/Attacker|Omoplata]]** → [[Positions/Omoplata Control]] (Probability: 50%)
 
 
 **If opponent successfully breaks leg grip but remains in guard:**
-- Execute **[[Transitions/Rubber Guard to Closed Guard]]** → [[Positions/Closed Guard]] (Probability: 70%)
-- Execute **[[Transitions/Mission Control Entry from Rubber Guard]]** → [[Positions/Rubber Guard/Mission Control]] (Probability: 55%)
+- Execute **[[Transitions/Rubber Guard to Closed Guard/Attacker|Rubber Guard to Closed Guard]]** → [[Positions/Closed Guard]] (Probability: 70%)
+- Execute **[[Transitions/Mission Control Entry from Rubber Guard/Attacker|Mission Control Entry from Rubber Guard]]** → [[Positions/Rubber Guard/Mission Control]] (Probability: 55%)
 
 
 **If opponent freezes without reacting and allows system advancement:**
-- Execute **[[Transitions/Gogoplata]]** → [[Positions/Gogoplata Control]] (Probability: 65%)
-- Execute **[[Transitions/Triangle Setup]]** → [[Positions/Triangle Control]] (Probability: 55%)
+- Execute **[[Transitions/Gogoplata/Attacker|Gogoplata]]** → [[Positions/Gogoplata Control]] (Probability: 65%)
+- Execute **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** → [[Positions/Triangle Control]] (Probability: 55%)
 
 
 

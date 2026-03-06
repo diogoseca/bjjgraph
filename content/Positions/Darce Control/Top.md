@@ -209,18 +209,18 @@ From a strategic perspective, Darce Control Top exemplifies the modern submissio
 ## Decision Making from This Position
 
 **If opponent keeps elbows tight and chin tucked, defending the choke finish:**
-- Execute **[[Transitions/Side Control to Mount]]** → [[Positions/Mount]] (Probability: 70%)
-- Execute **[[Transitions/Side Control to North-South]]** → [[Positions/North-South]] (Probability: 65%)
+- Execute **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** → [[Positions/Mount]] (Probability: 70%)
+- Execute **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** → [[Positions/North-South]] (Probability: 65%)
 
 
 **Else if opponent attempts to roll through or turn into the choke:**
-- Execute **[[Transitions/Turtle to Back Take]]** → [[Positions/Back Control]] (Probability: 75%)
-- Execute **[[Transitions/Darce Choke]]** → [[Positions/Game Over]] (Probability: 60%)
+- Execute **[[Transitions/Turtle to Back Take/Attacker|Turtle to Back Take]]** → [[Positions/Back Control]] (Probability: 75%)
+- Execute **[[Transitions/Darce Choke/Attacker|Darce Choke]]** → [[Positions/Game Over]] (Probability: 60%)
 
 
 **Else if opponent's defensive posture breaks down and arm remains trapped:**
-- Execute **[[Transitions/Darce Choke]]** → [[Positions/Game Over]] (Probability: 80%)
-- Execute **[[Transitions/Anaconda from Turtle]]** → [[Positions/Anaconda Control]] (Probability: 55%)
+- Execute **[[Transitions/Darce Choke/Attacker|Darce Choke]]** → [[Positions/Game Over]] (Probability: 80%)
+- Execute **[[Transitions/Anaconda from Turtle/Attacker|Anaconda from Turtle]]** → [[Positions/Anaconda Control]] (Probability: 55%)
 
 
 

@@ -212,25 +212,25 @@ Success in invisible collar top requires coordinating upper body attacks with lo
 ## Decision Making from This Position
 
 **If opponent is unaware of invisible collar and not defending the grip:**
-- Execute **[[Continue Deepening Collar Grip]]** → [[game-over]] (Probability: 80%)
-- Execute **[[Finish Collar Choke]]** → [[game-over]] (Probability: 75%)
+- Execute **[[Continue Deepening Collar Grip/Attacker|Continue Deepening Collar Grip]]** → [[game-over]] (Probability: 80%)
+- Execute **[[Finish Collar Choke/Attacker|Finish Collar Choke]]** → [[game-over]] (Probability: 75%)
 
 
 **If opponent recognizes threat and begins hand fighting the collar grip:**
-- Execute **[[Switch to Rear Naked Choke]]** → [[game-over]] (Probability: 65%)
-- Execute **[[Transitions/Aoki Lock to Crucifix]]** → [[Positions/Crucifix]] (Probability: 55%)
-- Execute **[[Attack Extended Arm with Armbar]]** → [[Positions/Armbar Control]] (Probability: 60%)
+- Execute **[[Switch to Rear Naked Choke/Attacker|Switch to Rear Naked Choke]]** → [[game-over]] (Probability: 65%)
+- Execute **[[Transitions/Aoki Lock to Crucifix/Attacker|Aoki Lock to Crucifix]]** → [[Positions/Crucifix]] (Probability: 55%)
+- Execute **[[Attack Extended Arm with Armbar/Attacker|Attack Extended Arm with Armbar]]** → [[Positions/Armbar Control]] (Probability: 60%)
 
 
 **If opponent turns into the collar side attempting to relieve pressure:**
-- Execute **[[Follow with Crucifix Entry]]** → [[Positions/Crucifix]] (Probability: 70%)
-- Execute **[[Tighten Collar Choke with Rotation]]** → [[game-over]] (Probability: 68%)
+- Execute **[[Follow with Crucifix Entry/Attacker|Follow with Crucifix Entry]]** → [[Positions/Crucifix]] (Probability: 70%)
+- Execute **[[Tighten Collar Choke with Rotation/Attacker|Tighten Collar Choke with Rotation]]** → [[game-over]] (Probability: 68%)
 
 
 **If opponent successfully tucks chin and defends neck:**
-- Execute **[[Transition to Armbar from Back]]** → [[Positions/Armbar Control]] (Probability: 58%)
-- Execute **[[Setup Bow and Arrow Choke]]** → [[game-over]] (Probability: 52%)
-- Execute **[[Maintain Back Control and Reset]]** → [[Positions/Back Control]] (Probability: 75%)
+- Execute **[[Transition to Armbar from Back/Attacker|Transition to Armbar from Back]]** → [[Positions/Armbar Control]] (Probability: 58%)
+- Execute **[[Setup Bow and Arrow Choke/Attacker|Setup Bow and Arrow Choke]]** → [[game-over]] (Probability: 52%)
+- Execute **[[Maintain Back Control and Reset/Attacker|Maintain Back Control and Reset]]** → [[Positions/Back Control]] (Probability: 75%)
 
 
 

@@ -209,28 +209,28 @@ The position is particularly valuable in competition settings where maintaining 
 ## Decision Making from This Position
 
 **If opponent establishes strong collar and sleeve grips with active foot placement:**
-- Execute **[[Transitions/Grip Break]]** → [[Positions/Standing Guard]] (Probability: 70%)
-- Execute **[[Transitions/Toreando Pass]]** → [[Positions/Side Control]] (Probability: 50%)
+- Execute **[[Transitions/Grip Break/Attacker|Grip Break]]** → [[Positions/Standing Guard]] (Probability: 70%)
+- Execute **[[Transitions/Toreando Pass/Attacker|Toreando Pass]]** → [[Positions/Side Control]] (Probability: 50%)
 
 
 **If opponent extends legs for distance with limited grip control:**
-- Execute **[[Transitions/Leg Drag Pass]]** → [[Positions/Side Control]] (Probability: 60%)
-- Execute **[[Transitions/X Pass]]** → [[Positions/Side Control]] (Probability: 55%)
+- Execute **[[Transitions/Leg Drag Pass/Attacker|Leg Drag Pass]]** → [[Positions/Side Control]] (Probability: 60%)
+- Execute **[[Transitions/X Pass/Attacker|X Pass]]** → [[Positions/Side Control]] (Probability: 55%)
 
 
 **If opponent creates frames and uses butterfly hooks for elevation:**
-- Execute **[[Transitions/Knee Slice Pass]]** → [[Positions/Side Control]] (Probability: 65%)
-- Execute **[[Transitions/Double Under Pass]]** → [[Positions/Side Control]] (Probability: 50%)
+- Execute **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** → [[Positions/Side Control]] (Probability: 65%)
+- Execute **[[Transitions/Double Under Pass/Attacker|Double Under Pass]]** → [[Positions/Side Control]] (Probability: 50%)
 
 
 **If opponent establishes De La Riva hook on lead leg:**
-- Execute **[[Transitions/Back Step]]** → [[Positions/Back Control]] (Probability: 45%)
-- Execute **[[Transitions/RDLR Pass]]** → [[Positions/Side Control]] (Probability: 40%)
+- Execute **[[Transitions/Back Step/Attacker|Back Step]]** → [[Positions/Back Control]] (Probability: 45%)
+- Execute **[[Transitions/RDLR Pass/Attacker|RDLR Pass]]** → [[Positions/Side Control]] (Probability: 40%)
 
 
 **If opponent inverts or attempts rolling attacks:**
-- Execute **[[Transitions/Stack Pass]]** → [[Positions/Side Control]] (Probability: 50%)
-- Execute **[[Front Headlock Series]]** → [[Positions/Front Headlock]] (Probability: 45%)
+- Execute **[[Transitions/Stack Pass/Attacker|Stack Pass]]** → [[Positions/Side Control]] (Probability: 50%)
+- Execute **[[Front Headlock Series/Attacker|Front Headlock Series]]** → [[Positions/Front Headlock]] (Probability: 45%)
 
 
 

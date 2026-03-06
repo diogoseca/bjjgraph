@@ -213,28 +213,28 @@ Advanced practitioners develop multiple passing pathways and chain them together
 ## Decision Making from This Position
 
 **If opponent establishes strong knee shield with frames preventing forward pressure:**
-- Execute **[[Transitions/Smash Pass]]** → [[Positions/Side Control]] (Probability: 60%)
-- Execute **[[Transitions/Long Step Pass]]** → [[Positions/Side Control]] (Probability: 50%)
+- Execute **[[Transitions/Smash Pass/Attacker|Smash Pass]]** → [[Positions/Side Control]] (Probability: 60%)
+- Execute **[[Transitions/Long Step Pass/Attacker|Long Step Pass]]** → [[Positions/Side Control]] (Probability: 50%)
 
 
 **If opponent is flat on back without knee shield, vulnerable to direct pressure:**
-- Execute **[[Transitions/Knee Slice Pass]]** → [[Positions/Side Control]] (Probability: 70%)
-- Execute **[[Transitions/Crossface Pass]]** → [[Positions/Side Control]] (Probability: 65%)
+- Execute **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** → [[Positions/Side Control]] (Probability: 70%)
+- Execute **[[Transitions/Crossface Pass/Attacker|Crossface Pass]]** → [[Positions/Side Control]] (Probability: 65%)
 
 
 **If opponent establishes lockdown on trapped leg, limiting mobility and threatening sweeps:**
-- Execute **[[Transitions/Crossface Pass]]** → [[Positions/Side Control]] (Probability: 55%)
-- Execute **[[Transitions/Underhook Pass]]** → [[Positions/Side Control]] (Probability: 50%)
+- Execute **[[Transitions/Crossface Pass/Attacker|Crossface Pass]]** → [[Positions/Side Control]] (Probability: 55%)
+- Execute **[[Transitions/Underhook Pass/Attacker|Underhook Pass]]** → [[Positions/Side Control]] (Probability: 50%)
 
 
 **If opponent turns to side and battles for underhook, creating scramble potential:**
-- Execute **[[Transitions/Kimura]]** → [[Positions/Kimura Trap]] (Probability: 45%)
-- Execute **[[Transitions/Darce Choke]]** → [[Positions/Darce Control]] (Probability: 40%)
+- Execute **[[Transitions/Kimura/Attacker|Kimura]]** → [[Positions/Kimura Trap]] (Probability: 45%)
+- Execute **[[Transitions/Darce Choke/Attacker|Darce Choke]]** → [[Positions/Darce Control]] (Probability: 40%)
 
 
 **If opponent attempts to go deep half or recover full guard through hip escape:**
-- Execute **[[Transitions/Knee Slice Pass]]** → [[Positions/Side Control]] (Probability: 60%)
-- Execute **[[Transitions/Back Step Pass]]** → [[Positions/Side Control]] (Probability: 55%)
+- Execute **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** → [[Positions/Side Control]] (Probability: 60%)
+- Execute **[[Transitions/Back Step Pass/Attacker|Back Step Pass]]** → [[Positions/Side Control]] (Probability: 55%)
 
 
 

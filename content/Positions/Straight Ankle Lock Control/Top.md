@@ -216,28 +216,28 @@ The psychological dimension of defending straight ankle lock control cannot be u
 ## Decision Making from This Position
 
 **If attacker has not yet completed leg triangle and grip security is moderate:**
-- Execute **[[Transitions/Ashi Garami Escape]]** → [[Positions/Standing Position]] (Probability: 65%)
-- Execute **[[Rotate hip away and extract knee]]** → [[Positions/Open Guard]] (Probability: 60%)
+- Execute **[[Transitions/Ashi Garami Escape/Attacker|Ashi Garami Escape]]** → [[Positions/Standing Position]] (Probability: 65%)
+- Execute **[[Rotate hip away and extract knee/Attacker|Rotate hip away and extract knee]]** → [[Positions/Open Guard]] (Probability: 60%)
 
 
 **If attacker has established strong grips but leg control remains incomplete:**
-- Execute **[[Transitions/Standing Escape]]** → [[Positions/Standing Position]] (Probability: 60%)
-- Execute **[[Transitions/Frame and Distance Creation]]** → [[Positions/Open Guard]] (Probability: 55%)
+- Execute **[[Transitions/Standing Escape/Attacker|Standing Escape]]** → [[Positions/Standing Position]] (Probability: 60%)
+- Execute **[[Transitions/Frame and Distance Creation/Attacker|Frame and Distance Creation]]** → [[Positions/Open Guard]] (Probability: 55%)
 
 
 **If attacker's leg configuration allows symmetrical entry to their far leg:**
-- Execute **[[Transitions/Counter Entry to Opponent's Leg]]** → [[Positions/Ashi Garami/50-50 Guard]] (Probability: 65%)
-- Execute **[[Establish mutual ankle control]]** → [[Positions/Ashi Garami/50-50 Guard]] (Probability: 60%)
+- Execute **[[Transitions/Counter Entry to Opponent's Leg/Attacker|Counter Entry to Opponent's Leg]]** → [[Positions/Ashi Garami/50-50 Guard]] (Probability: 65%)
+- Execute **[[Establish mutual ankle control/Attacker|Establish mutual ankle control]]** → [[Positions/Ashi Garami/50-50 Guard]] (Probability: 60%)
 
 
 **If attacker commits heavily to submission attempt sacrificing upper body positioning:**
-- Execute **[[Transitions/Pass to Side Control]]** → [[Positions/Side Control]] (Probability: 55%)
-- Execute **[[Circle around attacker's guard]]** → [[Positions/Half Guard]] (Probability: 50%)
+- Execute **[[Transitions/Pass to Side Control/Attacker|Pass to Side Control]]** → [[Positions/Side Control]] (Probability: 55%)
+- Execute **[[Circle around attacker's guard/Attacker|Circle around attacker's guard]]** → [[Positions/Half Guard]] (Probability: 50%)
 
 
 **If leg extraction proves impossible but attacker's control remains unstable:**
-- Execute **[[Transitions/Hip Rotation Defense]]** → [[Positions/Open Guard]] (Probability: 60%)
-- Execute **[[Prevent progression to inside or outside ashi]]** → [[Positions/Straight Ankle Lock Control]] (Probability: 55%)
+- Execute **[[Transitions/Hip Rotation Defense/Attacker|Hip Rotation Defense]]** → [[Positions/Open Guard]] (Probability: 60%)
+- Execute **[[Prevent progression to inside or outside ashi/Attacker|Prevent progression to inside or outside ashi]]** → [[Positions/Straight Ankle Lock Control]] (Probability: 55%)
 
 
 

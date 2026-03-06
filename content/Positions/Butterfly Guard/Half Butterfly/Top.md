@@ -209,23 +209,23 @@ The top player must establish upper body control first through crossface or unde
 ## Decision Making from This Position
 
 **If bottom player extends butterfly hook for sweep attempt:**
-- Execute **[[Transitions/Leg Weave Pass]]** → [[Positions/Side Control]] (Probability: 65%)
-- Execute **[[Transitions/Smash Pass]]** → [[Positions/Side Control]] (Probability: 55%)
+- Execute **[[Transitions/Leg Weave Pass/Attacker|Leg Weave Pass]]** → [[Positions/Side Control]] (Probability: 65%)
+- Execute **[[Transitions/Smash Pass/Attacker|Smash Pass]]** → [[Positions/Side Control]] (Probability: 55%)
 
 
 **Else if bottom player attempts to recover full butterfly guard:**
-- Execute **[[Transitions/Knee Slice Pass]]** → [[Positions/Side Control]] (Probability: 70%)
-- Execute **[[Transitions/Long Step Pass]]** → [[Positions/Side Control]] (Probability: 60%)
+- Execute **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** → [[Positions/Side Control]] (Probability: 70%)
+- Execute **[[Transitions/Long Step Pass/Attacker|Long Step Pass]]** → [[Positions/Side Control]] (Probability: 60%)
 
 
 **Else if bottom player creates underhook and attempts to come up:**
-- Execute **[[Transitions/Underhook Pass]]** → [[Positions/Side Control]] (Probability: 65%)
-- Execute **[[Transitions/Leg Drag Pass]]** → [[Positions/Side Control]] (Probability: 45%)
+- Execute **[[Transitions/Underhook Pass/Attacker|Underhook Pass]]** → [[Positions/Side Control]] (Probability: 65%)
+- Execute **[[Transitions/Leg Drag Pass/Attacker|Leg Drag Pass]]** → [[Positions/Side Control]] (Probability: 45%)
 
 
 **Else if bottom player turns to turtle to escape:**
-- Execute **[[Transitions/Front Headlock to Guillotine]]** → [[Positions/Front Headlock]] (Probability: 50%)
-- Execute **[[Transitions/Back Take from Top]]** → [[Positions/Back Control]] (Probability: 55%)
+- Execute **[[Transitions/Front Headlock to Guillotine/Attacker|Front Headlock to Guillotine]]** → [[Positions/Front Headlock]] (Probability: 50%)
+- Execute **[[Transitions/Back Take from Top/Attacker|Back Take from Top]]** → [[Positions/Back Control]] (Probability: 55%)
 
 
 

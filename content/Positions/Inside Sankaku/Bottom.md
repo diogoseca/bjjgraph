@@ -209,26 +209,26 @@ From the bottom perspective of Inside Sankaku, the practitioner finds themselves
 ## Decision Making from This Position
 
 **If opponent has not yet established full control and submission grips:**
-- Execute **[[Immediate hip escape and leg extraction]]** → [[Positions/Open Guard]] (Probability: 45%)
-- Execute **[[Frame creation and distance generation]]** → [[Positions/Half Guard]] (Probability: 40%)
-- Execute **[[Counter leg attack]]** → [[Positions/Ashi Garami/50-50 Guard]] (Probability: 35%)
+- Execute **[[Immediate hip escape and leg extraction/Attacker|Immediate hip escape and leg extraction]]** → [[Positions/Open Guard]] (Probability: 45%)
+- Execute **[[Frame creation and distance generation/Attacker|Frame creation and distance generation]]** → [[Positions/Half Guard]] (Probability: 40%)
+- Execute **[[Counter leg attack/Attacker|Counter leg attack]]** → [[Positions/Ashi Garami/50-50 Guard]] (Probability: 35%)
 
 
 **If opponent has established strong position but no submission grip yet:**
-- Execute **[[Heel protection and defensive posture]]** → [[Positions/Inside Sankaku]] (Probability: 60%)
-- Execute **[[Granby roll escape attempt]]** → [[Positions/Turtle]] (Probability: 30%)
-- Execute **[[Technical standup]]** → [[Positions/Standing Position]] (Probability: 25%)
+- Execute **[[Heel protection and defensive posture/Attacker|Heel protection and defensive posture]]** → [[Positions/Inside Sankaku]] (Probability: 60%)
+- Execute **[[Granby roll escape attempt/Attacker|Granby roll escape attempt]]** → [[Positions/Turtle]] (Probability: 30%)
+- Execute **[[Technical standup/Attacker|Technical standup]]** → [[Positions/Standing Position]] (Probability: 25%)
 
 
 **If opponent has established submission grip on your heel:**
-- Execute **[[Immediate tap if fully locked]]** → [[game-over]] (Probability: 100%)
-- Execute **[[Last resort rolling escape]]** → [[Positions/Turtle]] (Probability: 15%)
+- Execute **[[Immediate tap if fully locked/Attacker|Immediate tap if fully locked]]** → [[game-over]] (Probability: 100%)
+- Execute **[[Last resort rolling escape/Attacker|Last resort rolling escape]]** → [[Positions/Turtle]] (Probability: 15%)
 
 
 **If opponent loses hip connection or creates space:**
-- Execute **[[Explosive leg extraction]]** → [[Positions/Open Guard]] (Probability: 55%)
-- Execute **[[Hip escape to guard recovery]]** → [[Positions/Half Guard]] (Probability: 50%)
-- Execute **[[Technical standup]]** → [[Positions/Standing Position]] (Probability: 40%)
+- Execute **[[Explosive leg extraction/Attacker|Explosive leg extraction]]** → [[Positions/Open Guard]] (Probability: 55%)
+- Execute **[[Hip escape to guard recovery/Attacker|Hip escape to guard recovery]]** → [[Positions/Half Guard]] (Probability: 50%)
+- Execute **[[Technical standup/Attacker|Technical standup]]** → [[Positions/Standing Position]] (Probability: 40%)
 
 
 

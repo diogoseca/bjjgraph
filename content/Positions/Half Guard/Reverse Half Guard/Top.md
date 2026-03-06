@@ -207,23 +207,23 @@ The reverse half guard top position represents a critical moment in passing sequ
 ## Decision Making from This Position
 
 **If opponent attempts to turn and face you by rotating their chest toward you:**
-- Execute **[[Transitions/Aoki Lock to Back Control]]** → [[Positions/Back Control]] (Probability: 70%)
-- Execute **[[Transitions/Crab Ride to Back]]** → [[Positions/Crab Ride]] (Probability: 60%)
+- Execute **[[Transitions/Aoki Lock to Back Control/Attacker|Aoki Lock to Back Control]]** → [[Positions/Back Control]] (Probability: 70%)
+- Execute **[[Transitions/Crab Ride to Back/Attacker|Crab Ride to Back]]** → [[Positions/Crab Ride]] (Probability: 60%)
 
 
 **If opponent flattens defensively to their stomach to prevent the back take:**
-- Execute **[[Transitions/Leg Drag Pass]]** → [[Positions/Side Control]] (Probability: 75%)
-- Execute **[[Transitions/Knee Slice from Half]]** → [[Positions/Side Control]] (Probability: 65%)
+- Execute **[[Transitions/Leg Drag Pass/Attacker|Leg Drag Pass]]** → [[Positions/Side Control]] (Probability: 75%)
+- Execute **[[Transitions/Knee Slice from Half/Attacker|Knee Slice from Half]]** → [[Positions/Side Control]] (Probability: 65%)
 
 
 **If opponent attempts to recover full guard by shrimping away:**
-- Execute **[[Transitions/Smash Pass]]** → [[Positions/Side Control]] (Probability: 60%)
-- Execute **[[Transitions/Pressure Pass]]** → [[Positions/Side Control]] (Probability: 65%)
+- Execute **[[Transitions/Smash Pass/Attacker|Smash Pass]]** → [[Positions/Side Control]] (Probability: 60%)
+- Execute **[[Transitions/Pressure Pass/Attacker|Pressure Pass]]** → [[Positions/Side Control]] (Probability: 65%)
 
 
 **If opponent reaches for underhook to recover half guard structure:**
-- Execute **[[Transitions/Kimura from Half Guard]]** → [[Positions/Kimura Trap]] (Probability: 55%)
-- Execute **[[Transitions/Crossface Pass]]** → [[Positions/North-South]] (Probability: 60%)
+- Execute **[[Transitions/Kimura from Half Guard/Attacker|Kimura from Half Guard]]** → [[Positions/Kimura Trap]] (Probability: 55%)
+- Execute **[[Transitions/Crossface Pass/Attacker|Crossface Pass]]** → [[Positions/North-South]] (Probability: 60%)
 
 
 

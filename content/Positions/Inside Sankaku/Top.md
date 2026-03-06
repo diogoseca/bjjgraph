@@ -209,32 +209,32 @@ Inside Sankaku from the top perspective represents one of the most dominant and 
 ## Decision Making from This Position
 
 **If opponent maintains defensive posture and protects heel by keeping it hidden:**
-- Execute **[[Hip pressure application]]** → [[Positions/Inside Sankaku]] (Probability: 70%)
-- Execute **[[Toe Hold transition]]** → [[game-over]] (Probability: 60%)
-- Execute **[[Kneebar attack]]** → [[game-over]] (Probability: 55%)
+- Execute **[[Hip pressure application/Attacker|Hip pressure application]]** → [[Positions/Inside Sankaku]] (Probability: 70%)
+- Execute **[[Toe Hold transition/Attacker|Toe Hold transition]]** → [[game-over]] (Probability: 60%)
+- Execute **[[Kneebar attack/Attacker|Kneebar attack]]** → [[game-over]] (Probability: 55%)
 
 
 **If opponent attempts to clear knee line by rotating away from you:**
-- Execute **[[Transitions/Outside Ashi Entry]]** → [[Positions/Ashi Garami/Outside Ashi-Garami]] (Probability: 65%)
-- Execute **[[Position maintenance with leg adjustment]]** → [[Positions/Inside Sankaku]] (Probability: 60%)
-- Execute **[[Transitions/Outside Heel Hook]]** → [[game-over]] (Probability: 50%)
+- Execute **[[Transitions/Outside Ashi Entry/Attacker|Outside Ashi Entry]]** → [[Positions/Ashi Garami/Outside Ashi-Garami]] (Probability: 65%)
+- Execute **[[Position maintenance with leg adjustment/Attacker|Position maintenance with leg adjustment]]** → [[Positions/Inside Sankaku]] (Probability: 60%)
+- Execute **[[Transitions/Outside Heel Hook/Attacker|Outside Heel Hook]]** → [[game-over]] (Probability: 50%)
 
 
 **If opponent turns into you attempting to pass knee line and stack:**
-- Execute **[[Saddle Entry]]** → [[Positions/Ashi Garami/Saddle]] (Probability: 70%)
-- Execute **[[Leg position adjustment]]** → [[Positions/Inside Sankaku]] (Probability: 60%)
-- Execute **[[Transitions/Rolling Back Take]]** → [[Positions/Back Control]] (Probability: 55%)
+- Execute **[[Saddle Entry/Attacker|Saddle Entry]]** → [[Positions/Ashi Garami/Saddle]] (Probability: 70%)
+- Execute **[[Leg position adjustment/Attacker|Leg position adjustment]]** → [[Positions/Inside Sankaku]] (Probability: 60%)
+- Execute **[[Transitions/Rolling Back Take/Attacker|Rolling Back Take]]** → [[Positions/Back Control]] (Probability: 55%)
 
 
 **If opponent attempts to stand up or create vertical distance:**
-- Execute **[[Hip elevation and entanglement maintenance]]** → [[Positions/Inside Sankaku]] (Probability: 65%)
-- Execute **[[Single Leg X-Guard transition]]** → [[Positions/X-Guard/Single Leg X-Guard]] (Probability: 55%)
-- Execute **[[Sweep to top position]]** → [[Positions/Mount]] (Probability: 50%)
+- Execute **[[Hip elevation and entanglement maintenance/Attacker|Hip elevation and entanglement maintenance]]** → [[Positions/Inside Sankaku]] (Probability: 65%)
+- Execute **[[Single Leg X-Guard transition/Attacker|Single Leg X-Guard transition]]** → [[Positions/X-Guard/Single Leg X-Guard]] (Probability: 55%)
+- Execute **[[Sweep to top position/Attacker|Sweep to top position]]** → [[Positions/Mount]] (Probability: 50%)
 
 
 **If opponent exposes heel and you have optimal submission angle established:**
-- Execute **[[Inside Heel Hook finish]]** → [[game-over]] (Probability: 75%)
-- Execute **[[Toe Hold finish]]** → [[game-over]] (Probability: 50%)
+- Execute **[[Inside Heel Hook finish/Attacker|Inside Heel Hook finish]]** → [[game-over]] (Probability: 75%)
+- Execute **[[Toe Hold finish/Attacker|Toe Hold finish]]** → [[game-over]] (Probability: 50%)
 
 
 

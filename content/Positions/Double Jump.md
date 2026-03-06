@@ -95,29 +95,29 @@ Both perspectives share the common principle of using leg-based controls to crea
 ### Available Transitions
 
 
-- **[[Transitions/Deep Half Entry]]** (48% of attempts)
+- **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** (48% of attempts)
 
-- **[[Transitions/Old School Sweep]]** (12% of attempts)
+- **[[Transitions/Old School Sweep/Attacker|Old School Sweep]]** (12% of attempts)
 
-- **[[Transitions/Waiter Sweep]]** (8% of attempts)
+- **[[Transitions/Waiter Sweep/Attacker|Waiter Sweep]]** (8% of attempts)
 
-- **[[Transitions/100% Sweep]]** (7% of attempts)
+- **[[Transitions/100% Sweep/Attacker|100% Sweep]]** (7% of attempts)
 
-- **[[Transitions/Half Guard to Back Take]]** (7% of attempts)
+- **[[Transitions/Half Guard to Back Take/Attacker|Half Guard to Back Take]]** (7% of attempts)
 
-- **[[Transitions/Electric Chair Transition]]** (4% of attempts)
+- **[[Transitions/Electric Chair Transition/Attacker|Electric Chair Transition]]** (4% of attempts)
 
-- **[[Transitions/Lockdown Recovery]]** (7% of attempts)
+- **[[Transitions/Lockdown Recovery/Attacker|Lockdown Recovery]]** (7% of attempts)
 
-- **[[Transitions/X-Guard Sweep]]** (2% of attempts)
+- **[[Transitions/X-Guard Sweep/Attacker|X-Guard Sweep]]** (2% of attempts)
 
-- **[[Transitions/Single Leg X Entry]]** (4% of attempts)
+- **[[Transitions/Single Leg X Entry/Attacker|Single Leg X Entry]]** (4% of attempts)
 
-- **[[Transitions/Escape Double Jump]]** (0% of attempts)
+- **[[Transitions/Escape Double Jump/Attacker|Escape Double Jump]]** (0% of attempts)
 
-- **[[Transitions/Reguard from Double Jump]]** (0% of attempts)
+- **[[Transitions/Reguard from Double Jump/Attacker|Reguard from Double Jump]]** (0% of attempts)
 
-- **[[Transitions/Sweep from Double Jump]]** (1% of attempts)
+- **[[Transitions/Sweep from Double Jump/Attacker|Sweep from Double Jump]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -182,21 +182,21 @@ Both perspectives share the common principle of using leg-based controls to crea
 ### Available Transitions
 
 
-- **[[Transitions/Turtle to Back Control]]** (38% of attempts)
+- **[[Transitions/Turtle to Back Control/Attacker|Turtle to Back Control]]** (38% of attempts)
 
-- **[[Transitions/Crab Ride to Back]]** (20% of attempts)
+- **[[Transitions/Crab Ride to Back/Attacker|Crab Ride to Back]]** (20% of attempts)
 
-- **[[Transitions/Turtle to Truck]]** (13% of attempts)
+- **[[Transitions/Turtle to Truck/Attacker|Turtle to Truck]]** (13% of attempts)
 
-- **[[Transitions/Rolling Back Take]]** (10% of attempts)
+- **[[Transitions/Rolling Back Take/Attacker|Rolling Back Take]]** (10% of attempts)
 
-- **[[Transitions/Turtle to Rodeo Ride]]** (6% of attempts)
+- **[[Transitions/Turtle to Rodeo Ride/Attacker|Turtle to Rodeo Ride]]** (6% of attempts)
 
-- **[[Transitions/Sit to Half Guard]]** (8% of attempts)
+- **[[Transitions/Sit to Half Guard/Attacker|Sit to Half Guard]]** (8% of attempts)
 
-- **[[Transitions/Double Jump to Mount]]** (3% of attempts)
+- **[[Transitions/Double Jump to Mount/Attacker|Double Jump to Mount]]** (3% of attempts)
 
-- **[[Transitions/Double Jump to Side Control]]** (2% of attempts)
+- **[[Transitions/Double Jump to Side Control/Attacker|Double Jump to Side Control]]** (2% of attempts)
 
 
 ### Common Mistakes

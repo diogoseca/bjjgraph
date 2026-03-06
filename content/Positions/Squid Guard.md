@@ -93,27 +93,27 @@ While Squid Guard is primarily used in gi grappling due to its reliance on lapel
 ### Available Transitions
 
 
-- **[[Transitions/Kiss of the Dragon]]** (22% of attempts)
+- **[[Transitions/Kiss of the Dragon/Attacker|Kiss of the Dragon]]** (22% of attempts)
 
-- **[[Transitions/X-Guard Sweep]]** (10% of attempts)
+- **[[Transitions/X-Guard Sweep/Attacker|X-Guard Sweep]]** (10% of attempts)
 
-- **[[Transitions/Single Leg X Sweep]]** (9% of attempts)
+- **[[Transitions/Single Leg X Sweep/Attacker|Single Leg X Sweep]]** (9% of attempts)
 
-- **[[Transitions/Berimbolo Entry]]** (9% of attempts)
+- **[[Transitions/Berimbolo Entry/Attacker|Berimbolo Entry]]** (9% of attempts)
 
-- **[[Transitions/De La Riva Sweep]]** (9% of attempts)
+- **[[Transitions/De La Riva Sweep/Attacker|De La Riva Sweep]]** (9% of attempts)
 
-- **[[Transitions/Guard Recovery from Squid Guard]]** (10% of attempts)
+- **[[Transitions/Guard Recovery from Squid Guard/Attacker|Guard Recovery from Squid Guard]]** (10% of attempts)
 
-- **[[Transitions/Omoplata Sweep]]** (8% of attempts)
+- **[[Transitions/Omoplata Sweep/Attacker|Omoplata Sweep]]** (8% of attempts)
 
-- **[[Transitions/Triangle Setup]]** (8% of attempts)
+- **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** (8% of attempts)
 
-- **[[Transitions/Omoplata to Back]]** (9% of attempts)
+- **[[Transitions/Omoplata to Back/Attacker|Omoplata to Back]]** (9% of attempts)
 
-- **[[Transitions/Squid Guard Sweep]]** (4% of attempts)
+- **[[Transitions/Squid Guard Sweep/Attacker|Squid Guard Sweep]]** (4% of attempts)
 
-- **[[Transitions/Squid to Ringworm Guard]]** (2% of attempts)
+- **[[Transitions/Squid to Ringworm Guard/Attacker|Squid to Ringworm Guard]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -174,21 +174,21 @@ While Squid Guard is primarily used in gi grappling due to its reliance on lapel
 ### Available Transitions
 
 
-- **[[Transitions/Stack Pass]]** (14% of attempts)
+- **[[Transitions/Stack Pass/Attacker|Stack Pass]]** (14% of attempts)
 
-- **[[Transitions/Leg Drag Pass]]** (13% of attempts)
+- **[[Transitions/Leg Drag Pass/Attacker|Leg Drag Pass]]** (13% of attempts)
 
-- **[[Transitions/Back Step]]** (12% of attempts)
+- **[[Transitions/Back Step/Attacker|Back Step]]** (12% of attempts)
 
-- **[[Transitions/Toreando Pass]]** (14% of attempts)
+- **[[Transitions/Toreando Pass/Attacker|Toreando Pass]]** (14% of attempts)
 
-- **[[Transitions/Pressure Pass]]** (24% of attempts)
+- **[[Transitions/Pressure Pass/Attacker|Pressure Pass]]** (24% of attempts)
 
-- **[[Transitions/Knee Slice Pass]]** (14% of attempts)
+- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (14% of attempts)
 
-- **[[Transitions/Pass Squid Guard]]** (6% of attempts)
+- **[[Transitions/Pass Squid Guard/Attacker|Pass Squid Guard]]** (6% of attempts)
 
-- **[[Transitions/Pressure Through Squid Guard]]** (3% of attempts)
+- **[[Transitions/Pressure Through Squid Guard/Attacker|Pressure Through Squid Guard]]** (3% of attempts)
 
 
 ### Common Mistakes

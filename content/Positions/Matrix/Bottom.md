@@ -217,23 +217,23 @@ Risk management is essential when executing the Matrix. Incomplete rotations can
 ## Decision Making from This Position
 
 **Opponent maintains static turtle position with narrow base:**
-- Execute **[[Transitions/Matrix Back Take]]** → [[Positions/Back Control]] (Probability: 65%)
-- Execute **[[Transitions/Rolling Back Take]]** → [[Positions/Back Control]] (Probability: 60%)
+- Execute **[[Transitions/Matrix Back Take/Attacker|Matrix Back Take]]** → [[Positions/Back Control]] (Probability: 65%)
+- Execute **[[Transitions/Rolling Back Take/Attacker|Rolling Back Take]]** → [[Positions/Back Control]] (Probability: 60%)
 
 
 **Opponent widens base or posts hand to block rotation:**
-- Execute **[[Transitions/Arm Drag to Back]]** → [[Positions/Back Control]] (Probability: 55%)
-- Execute **[[Transitions/Chair Sit to Back]]** → [[Positions/Crab Ride]] (Probability: 50%)
+- Execute **[[Transitions/Arm Drag to Back/Attacker|Arm Drag to Back]]** → [[Positions/Back Control]] (Probability: 55%)
+- Execute **[[Transitions/Chair Sit to Back/Attacker|Chair Sit to Back]]** → [[Positions/Crab Ride]] (Probability: 50%)
 
 
 **Rotation is blocked mid-movement by weight pressure:**
-- Execute **[[Transitions/Granby Roll to Guard]]** → [[Positions/Closed Guard]] (Probability: 60%)
-- Execute **[[Transitions/Rolling to Guard]]** → [[Positions/Closed Guard]] (Probability: 55%)
+- Execute **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** → [[Positions/Closed Guard]] (Probability: 60%)
+- Execute **[[Transitions/Rolling to Guard/Attacker|Rolling to Guard]]** → [[Positions/Closed Guard]] (Probability: 55%)
 
 
 **Opponent actively scrambling or mobile:**
-- Execute **[[Transitions/Arm Drag to Back]]** → [[Positions/Back Control]] (Probability: 50%)
-- Execute **[[Transitions/Rolling to Guard]]** → [[Positions/Open Guard]] (Probability: 55%)
+- Execute **[[Transitions/Arm Drag to Back/Attacker|Arm Drag to Back]]** → [[Positions/Back Control]] (Probability: 50%)
+- Execute **[[Transitions/Rolling to Guard/Attacker|Rolling to Guard]]** → [[Positions/Open Guard]] (Probability: 55%)
 
 
 

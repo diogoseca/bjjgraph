@@ -99,23 +99,23 @@ Understanding the front headlock requires recognizing its role as a transitional
 ### Available Transitions
 
 
-- **[[Transitions/Technical Stand-up]]** (19% of attempts)
+- **[[Transitions/Technical Stand-up/Attacker|Technical Stand-up]]** (19% of attempts)
 
-- **[[Transitions/Granby Roll to Guard]]** (11% of attempts)
+- **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** (11% of attempts)
 
-- **[[Transitions/Turtle to Guard]]** (13% of attempts)
+- **[[Transitions/Turtle to Guard/Attacker|Turtle to Guard]]** (13% of attempts)
 
-- **[[Transitions/Stand and Circle Away]]** (15% of attempts)
+- **[[Transitions/Stand and Circle Away/Attacker|Stand and Circle Away]]** (15% of attempts)
 
-- **[[Transitions/Roll Through to Reversal]]** (13% of attempts)
+- **[[Transitions/Roll Through to Reversal/Attacker|Roll Through to Reversal]]** (13% of attempts)
 
-- **[[Transitions/Arm Drag Escape]]** (9% of attempts)
+- **[[Transitions/Arm Drag Escape/Attacker|Arm Drag Escape]]** (9% of attempts)
 
-- **[[Transitions/Guillotine Defense]]** (9% of attempts)
+- **[[Transitions/Guillotine Defense/Attacker|Guillotine Defense]]** (9% of attempts)
 
-- **[[Transitions/Sit Through to Guard]]** (7% of attempts)
+- **[[Transitions/Sit Through to Guard/Attacker|Sit Through to Guard]]** (7% of attempts)
 
-- **[[Transitions/Hip Escape from Front Headlock]]** (4% of attempts)
+- **[[Transitions/Hip Escape from Front Headlock/Attacker|Hip Escape from Front Headlock]]** (4% of attempts)
 
 
 ### Common Mistakes
@@ -176,43 +176,43 @@ Understanding the front headlock requires recognizing its role as a transitional
 ### Available Transitions
 
 
-- **[[Transitions/Guillotine Setup]]** (12% of attempts)
+- **[[Transitions/Guillotine Setup/Attacker|Guillotine Setup]]** (12% of attempts)
 
-- **[[Transitions/Anaconda Setup]]** (11% of attempts)
+- **[[Transitions/Anaconda Setup/Attacker|Anaconda Setup]]** (11% of attempts)
 
-- **[[Transitions/Darce Setup]]** (11% of attempts)
+- **[[Transitions/Darce Setup/Attacker|Darce Setup]]** (11% of attempts)
 
-- **[[Transitions/Front Headlock to Back]]** (11% of attempts)
+- **[[Transitions/Front Headlock to Back/Attacker|Front Headlock to Back]]** (11% of attempts)
 
-- **[[Transitions/Arm Triangle from Front Headlock]]** (6% of attempts)
+- **[[Transitions/Arm Triangle from Front Headlock/Attacker|Arm Triangle from Front Headlock]]** (6% of attempts)
 
-- **[[Transitions/Japanese Necktie Setup]]** (7% of attempts)
+- **[[Transitions/Japanese Necktie Setup/Attacker|Japanese Necktie Setup]]** (7% of attempts)
 
-- **[[Transitions/Peruvian Necktie Setup]]** (7% of attempts)
+- **[[Transitions/Peruvian Necktie Setup/Attacker|Peruvian Necktie Setup]]** (7% of attempts)
 
-- **[[Transitions/Step Over to Mount]]** (5% of attempts)
+- **[[Transitions/Step Over to Mount/Attacker|Step Over to Mount]]** (5% of attempts)
 
-- **[[Transitions/Turtle Flatten to Side Control]]** (7% of attempts)
+- **[[Transitions/Turtle Flatten to Side Control/Attacker|Turtle Flatten to Side Control]]** (7% of attempts)
 
-- **[[Transitions/Snap Down to Front Headlock]]** (5% of attempts)
+- **[[Transitions/Snap Down to Front Headlock/Attacker|Snap Down to Front Headlock]]** (5% of attempts)
 
-- **[[Transitions/Crucifix from Turtle]]** (4% of attempts)
+- **[[Transitions/Crucifix from Turtle/Attacker|Crucifix from Turtle]]** (4% of attempts)
 
-- **[[Transitions/Kimura]]** (4% of attempts)
+- **[[Transitions/Kimura/Attacker|Kimura]]** (4% of attempts)
 
-- **[[Submissions/Brabo Choke]]** (2% of attempts)
+- **[[Submissions/Brabo Choke/Attacker|Brabo Choke]]** (2% of attempts)
 
-- **[[Submissions/Chin Strap Guillotine]]** (2% of attempts)
+- **[[Submissions/Chin Strap Guillotine/Attacker|Chin Strap Guillotine]]** (2% of attempts)
 
-- **[[Submissions/Peruvian Necktie]]** (2% of attempts)
+- **[[Submissions/Peruvian Necktie/Attacker|Peruvian Necktie]]** (2% of attempts)
 
-- **[[Submissions/Arm in Guillotine]]** (1% of attempts)
+- **[[Submissions/Arm in Guillotine/Attacker|Arm in Guillotine]]** (1% of attempts)
 
-- **[[Submissions/High Elbow Guillotine]]** (1% of attempts)
+- **[[Submissions/High Elbow Guillotine/Attacker|High Elbow Guillotine]]** (1% of attempts)
 
-- **[[Submissions/Japanese Necktie]]** (1% of attempts)
+- **[[Submissions/Japanese Necktie/Attacker|Japanese Necktie]]** (1% of attempts)
 
-- **[[Submissions/Ten Finger Guillotine]]** (1% of attempts)
+- **[[Submissions/Ten Finger Guillotine/Attacker|Ten Finger Guillotine]]** (1% of attempts)
 
 
 ### Common Mistakes

@@ -89,25 +89,25 @@ The position's reputation is divided: traditionalists view it as a stalling posi
 ### Available Transitions
 
 
-- **[[Transitions/Position reversal sweep to top]]** (22% of attempts)
+- **[[Transitions/Position reversal sweep to top/Attacker|Position reversal sweep to top]]** (22% of attempts)
 
-- **[[Transitions/Counter heel hook]]** (12% of attempts)
+- **[[Transitions/Counter heel hook/Attacker|Counter heel hook]]** (12% of attempts)
 
-- **[[Transitions/50-50 Guard to Single Leg X-Guard]]** (22% of attempts)
+- **[[Transitions/50-50 Guard to Single Leg X-Guard/Attacker|50-50 Guard to Single Leg X-Guard]]** (22% of attempts)
 
-- **[[Transitions/Extract legs and stand up]]** (22% of attempts)
+- **[[Transitions/Extract legs and stand up/Attacker|Extract legs and stand up]]** (22% of attempts)
 
-- **[[Transitions/Straight Ankle Lock Entry]]** (4% of attempts)
+- **[[Transitions/Straight Ankle Lock Entry/Attacker|Straight Ankle Lock Entry]]** (4% of attempts)
 
-- **[[Transitions/Kneebar entry]]** (5% of attempts)
+- **[[Transitions/Kneebar entry/Attacker|Kneebar entry]]** (5% of attempts)
 
-- **[[Transitions/Toe Hold]]** (5% of attempts)
+- **[[Transitions/Toe Hold/Attacker|Toe Hold]]** (5% of attempts)
 
-- **[[Transitions/Counter-entangle to 50-50 Guard]]** (5% of attempts)
+- **[[Transitions/Counter-entangle to 50-50 Guard/Attacker|Counter-entangle to 50-50 Guard]]** (5% of attempts)
 
-- **[[Submissions/Toe Hold from 50-50]]** (2% of attempts)
+- **[[Submissions/Toe Hold from 50-50/Attacker|Toe Hold from 50-50]]** (2% of attempts)
 
-- **[[Positions/Aoki Lock]]** (1% of attempts)
+- **[[Positions/Aoki Lock/Attacker|Aoki Lock]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -162,33 +162,33 @@ The position's reputation is divided: traditionalists view it as a stalling posi
 ### Available Transitions
 
 
-- **[[Transitions/Heel Hook]]** (31% of attempts)
+- **[[Transitions/Heel Hook/Attacker|Heel Hook]]** (31% of attempts)
 
-- **[[Transitions/Kneebar entry]]** (7% of attempts)
+- **[[Transitions/Kneebar entry/Attacker|Kneebar entry]]** (7% of attempts)
 
-- **[[Transitions/Straight Ankle Lock Entry]]** (2% of attempts)
+- **[[Transitions/Straight Ankle Lock Entry/Attacker|Straight Ankle Lock Entry]]** (2% of attempts)
 
-- **[[Transitions/Calf Slicer]]** (2% of attempts)
+- **[[Transitions/Calf Slicer/Attacker|Calf Slicer]]** (2% of attempts)
 
-- **[[Transitions/Back Take from 50-50]]** (12% of attempts)
+- **[[Transitions/Back Take from 50-50/Attacker|Back Take from 50-50]]** (12% of attempts)
 
-- **[[Transitions/50-50 Guard to Outside Ashi]]** (6% of attempts)
+- **[[Transitions/50-50 Guard to Outside Ashi/Attacker|50-50 Guard to Outside Ashi]]** (6% of attempts)
 
-- **[[Transitions/50-50 Guard to Inside Ashi]]** (7% of attempts)
+- **[[Transitions/50-50 Guard to Inside Ashi/Attacker|50-50 Guard to Inside Ashi]]** (7% of attempts)
 
-- **[[Transitions/Outside Heel Hook]]** (4% of attempts)
+- **[[Transitions/Outside Heel Hook/Attacker|Outside Heel Hook]]** (4% of attempts)
 
-- **[[Transitions/50-50 Pass]]** (8% of attempts)
+- **[[Transitions/50-50 Pass/Attacker|50-50 Pass]]** (8% of attempts)
 
-- **[[Transitions/Toe Hold]]** (3% of attempts)
+- **[[Transitions/Toe Hold/Attacker|Toe Hold]]** (3% of attempts)
 
-- **[[Transitions/Saddle Entry from Top]]** (9% of attempts)
+- **[[Transitions/Saddle Entry from Top/Attacker|Saddle Entry from Top]]** (9% of attempts)
 
-- **[[Transitions/50-50 Guard to Backside 50-50]]** (5% of attempts)
+- **[[Transitions/50-50 Guard to Backside 50-50/Attacker|50-50 Guard to Backside 50-50]]** (5% of attempts)
 
-- **[[Submissions/Calf Slicer from 50-50]]** (2% of attempts)
+- **[[Submissions/Calf Slicer from 50-50/Attacker|Calf Slicer from 50-50]]** (2% of attempts)
 
-- **[[Submissions/Kneebar from 50-50]]** (2% of attempts)
+- **[[Submissions/Kneebar from 50-50/Attacker|Kneebar from 50-50]]** (2% of attempts)
 
 
 ### Common Mistakes

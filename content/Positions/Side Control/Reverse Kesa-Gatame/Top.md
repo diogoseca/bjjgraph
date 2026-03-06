@@ -207,24 +207,24 @@ Reverse Kesa-Gatame Top is a dominant pinning position where the top practitione
 ## Decision Making from This Position
 
 **If opponent remains flat and defensive with minimal movement:**
-- Execute **[[Transitions/Kimura]]** → [[Positions/Kimura Trap]] (Probability: 60%)
-- Execute **[[Transitions/Americana]]** → [[Positions/Side Control]] (Probability: 55%)
-- Execute **[[Transitions/Arm Triangle]]** → [[Positions/Side Control]] (Probability: 50%)
+- Execute **[[Transitions/Kimura/Attacker|Kimura]]** → [[Positions/Kimura Trap]] (Probability: 60%)
+- Execute **[[Transitions/Americana/Attacker|Americana]]** → [[Positions/Side Control]] (Probability: 55%)
+- Execute **[[Transitions/Arm Triangle/Attacker|Arm Triangle]]** → [[Positions/Side Control]] (Probability: 50%)
 
 
 **If opponent attempts to bridge and create space upward:**
-- Execute **[[Transitions/Side Control to Mount]]** → [[Positions/Mount]] (Probability: 70%)
-- Execute **[[Transitions/Side Control to North-South]]** → [[Positions/North-South]] (Probability: 65%)
+- Execute **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** → [[Positions/Mount]] (Probability: 70%)
+- Execute **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** → [[Positions/North-South]] (Probability: 65%)
 
 
 **If opponent shrimps away attempting elbow escape:**
-- Execute **[[Positions/Knee on Belly]]** → [[Positions/Knee on Belly]] (Probability: 65%)
-- Execute **[[Transitions/Side Control to Mount]]** → [[Positions/Mount]] (Probability: 60%)
+- Execute **[[Positions/Knee on Belly/Attacker|Knee on Belly]]** → [[Positions/Knee on Belly]] (Probability: 65%)
+- Execute **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** → [[Positions/Mount]] (Probability: 60%)
 
 
 **If opponent turns into you exposing their back:**
-- Execute **[[Transitions/Back Take]]** → [[Positions/Back Control]] (Probability: 75%)
-- Execute **[[Transitions/Side Control to North-South]]** → [[Positions/Crucifix]] (Probability: 55%)
+- Execute **[[Transitions/Back Take/Attacker|Back Take]]** → [[Positions/Back Control]] (Probability: 75%)
+- Execute **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** → [[Positions/Crucifix]] (Probability: 55%)
 
 
 

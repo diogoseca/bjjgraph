@@ -206,23 +206,23 @@ Single Leg X-Guard Top represents the controlling position when facing an oppone
 ## Decision Making from This Position
 
 **If opponent has strong bottom hook and is extending for sweep:**
-- Execute **[[Transitions/Leg Weave Pass]]** → [[Positions/Side Control]] (Probability: 55%)
-- Execute **[[Transitions/Kneebar]]** → [[Positions/Kneebar Control]] (Probability: 35%)
+- Execute **[[Transitions/Leg Weave Pass/Attacker|Leg Weave Pass]]** → [[Positions/Side Control]] (Probability: 55%)
+- Execute **[[Transitions/Kneebar/Attacker|Kneebar]]** → [[Positions/Kneebar Control]] (Probability: 35%)
 
 
 **If opponent's bottom hook is weak or removed:**
-- Execute **[[Transitions/Headquarters Pass]]** → [[Positions/Headquarters Position]] (Probability: 65%)
-- Execute **[[Transitions/Knee Slice Pass]]** → [[Positions/Side Control]] (Probability: 55%)
+- Execute **[[Transitions/Headquarters Pass/Attacker|Headquarters Pass]]** → [[Positions/Headquarters Position]] (Probability: 65%)
+- Execute **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** → [[Positions/Side Control]] (Probability: 55%)
 
 
 **If opponent attempts to sit up or establish upper body control:**
-- Execute **[[Transitions/Smash Pass]]** → [[Positions/Side Control]] (Probability: 50%)
-- Execute **[[Transitions/Standing up in Base]]** → [[Positions/Standing Position]] (Probability: 60%)
+- Execute **[[Transitions/Smash Pass/Attacker|Smash Pass]]** → [[Positions/Side Control]] (Probability: 50%)
+- Execute **[[Transitions/Standing up in Base/Attacker|Standing up in Base]]** → [[Positions/Standing Position]] (Probability: 60%)
 
 
 **If opponent transitions to different leg configuration:**
-- Execute **[[Transitions/Standing up in Base]]** → [[Positions/Standing Position]] (Probability: 70%)
-- Execute **[[Transitions/Leg Weave Pass]]** → [[Positions/Side Control]] (Probability: 45%)
+- Execute **[[Transitions/Standing up in Base/Attacker|Standing up in Base]]** → [[Positions/Standing Position]] (Probability: 70%)
+- Execute **[[Transitions/Leg Weave Pass/Attacker|Leg Weave Pass]]** → [[Positions/Side Control]] (Probability: 45%)
 
 
 

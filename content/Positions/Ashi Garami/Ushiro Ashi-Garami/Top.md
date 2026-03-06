@@ -213,23 +213,23 @@ Control maintenance in ushiro ashi-garami requires constant adjustment to the op
 ## Decision Making from This Position
 
 **If opponent's inversion is shallow and leg clearing has not progressed significantly:**
-- Execute **[[Immediate Heel Hook Attempt]]** → [[Positions/Game Over]] (Probability: 50%)
-- Execute **[[Transitions/Estima Lock to Saddle]]** → [[Positions/Ashi Garami/Saddle]] (Probability: 55%)
+- Execute **[[Immediate Heel Hook Attempt/Attacker|Immediate Heel Hook Attempt]]** → [[Positions/Game Over]] (Probability: 50%)
+- Execute **[[Transitions/Estima Lock to Saddle/Attacker|Estima Lock to Saddle]]** → [[Positions/Ashi Garami/Saddle]] (Probability: 55%)
 
 
 **If opponent is actively rotating toward turtle with committed movement:**
-- Execute **[[Transitions/Follow to Back Control]]** → [[Positions/Back Control]] (Probability: 60%)
-- Execute **[[Ankle Lock During Transition]]** → [[Positions/Game Over]] (Probability: 45%)
+- Execute **[[Transitions/Follow to Back Control/Attacker|Follow to Back Control]]** → [[Positions/Back Control]] (Probability: 60%)
+- Execute **[[Ankle Lock During Transition/Attacker|Ankle Lock During Transition]]** → [[Positions/Game Over]] (Probability: 45%)
 
 
 **If opponent has cleared outside leg and is working to clear inside leg:**
-- Execute **[[Immediate Saddle Transition]]** → [[Positions/Ashi Garami/Saddle]] (Probability: 55%)
-- Execute **[[Transitions/Return to Outside Ashi]]** → [[Positions/Ashi Garami/Outside Ashi-Garami]] (Probability: 50%)
+- Execute **[[Immediate Saddle Transition/Attacker|Immediate Saddle Transition]]** → [[Positions/Ashi Garami/Saddle]] (Probability: 55%)
+- Execute **[[Transitions/Return to Outside Ashi/Attacker|Return to Outside Ashi]]** → [[Positions/Ashi Garami/Outside Ashi-Garami]] (Probability: 50%)
 
 
 **If opponent is attempting counter-attack on attacker's legs:**
-- Execute **[[Accelerate Heel Hook Finish]]** → [[Positions/Game Over]] (Probability: 50%)
-- Execute **[[Cross Ashi Defense]]** → [[Positions/Ashi Garami/Cross Ashi-Garami]] (Probability: 45%)
+- Execute **[[Accelerate Heel Hook Finish/Attacker|Accelerate Heel Hook Finish]]** → [[Positions/Game Over]] (Probability: 50%)
+- Execute **[[Cross Ashi Defense/Attacker|Cross Ashi Defense]]** → [[Positions/Ashi Garami/Cross Ashi-Garami]] (Probability: 45%)
 
 
 

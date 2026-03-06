@@ -209,28 +209,28 @@ Diamond Guard transforms standard closed guard into an aggressive submission-hun
 ## Decision Making from This Position
 
 **If opponent keeps both arms inside and fights to recover posture:**
-- Execute **[[Transitions/Triangle Setup]]** → [[Positions/Triangle Control]] (Probability: 55%)
-- Execute **[[Transitions/Hip Bump Sweep]]** → [[Positions/Mount]] (Probability: 50%)
+- Execute **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** → [[Positions/Triangle Control]] (Probability: 55%)
+- Execute **[[Transitions/Hip Bump Sweep/Attacker|Hip Bump Sweep]]** → [[Positions/Mount]] (Probability: 50%)
 
 
 **If opponent posts free hand on mat to prevent being pulled forward:**
-- Execute **[[Transitions/Kimura from Diamond Guard]]** → [[Positions/Kimura Trap]] (Probability: 50%)
-- Execute **[[Transitions/Hip Bump Sweep]]** → [[Positions/Mount]] (Probability: 55%)
+- Execute **[[Transitions/Kimura from Diamond Guard/Attacker|Kimura from Diamond Guard]]** → [[Positions/Kimura Trap]] (Probability: 50%)
+- Execute **[[Transitions/Hip Bump Sweep/Attacker|Hip Bump Sweep]]** → [[Positions/Mount]] (Probability: 55%)
 
 
 **If opponent attempts to strip overhook by pulling arm back:**
-- Execute **[[Transitions/Closed Guard to Omoplata]]** → [[Positions/Omoplata Control]] (Probability: 50%)
-- Execute **[[Transitions/Triangle Setup]]** → [[Positions/Triangle Control]] (Probability: 45%)
+- Execute **[[Transitions/Closed Guard to Omoplata/Attacker|Closed Guard to Omoplata]]** → [[Positions/Omoplata Control]] (Probability: 50%)
+- Execute **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** → [[Positions/Triangle Control]] (Probability: 45%)
 
 
 **If opponent drives forward with shoulder pressure to flatten guard player:**
-- Execute **[[Transitions/Hip Bump Sweep]]** → [[Positions/Mount]] (Probability: 55%)
-- Execute **[[Transitions/Triangle Setup]]** → [[Positions/Triangle Control]] (Probability: 45%)
+- Execute **[[Transitions/Hip Bump Sweep/Attacker|Hip Bump Sweep]]** → [[Positions/Mount]] (Probability: 55%)
+- Execute **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** → [[Positions/Triangle Control]] (Probability: 45%)
 
 
 **If top player begins standing up to break diamond and open guard:**
-- Execute **[[Transitions/Guard Opening Sequence]]** → [[Positions/Open Guard]] (Probability: 50%)
-- Execute **[[Transitions/Posture Recovery]]** → [[Positions/Closed Guard]] (Probability: 55%)
+- Execute **[[Transitions/Guard Opening Sequence/Attacker|Guard Opening Sequence]]** → [[Positions/Open Guard]] (Probability: 50%)
+- Execute **[[Transitions/Posture Recovery/Attacker|Posture Recovery]]** → [[Positions/Closed Guard]] (Probability: 55%)
 
 
 

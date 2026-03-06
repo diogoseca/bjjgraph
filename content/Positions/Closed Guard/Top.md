@@ -211,29 +211,29 @@ The closed guard top position exemplifies the strategic complexity of Brazilian 
 ## Decision Making from This Position
 
 **If opponent has broken your posture and is pulling you down toward their chest with collar or head control:**
-- Execute **[[Transitions/Posture Recovery]]** → [[Positions/Closed Guard]] (Probability: 65%)
-- Execute **[[Transitions/Stack Defense]]** → [[Transitions/Stack Pass]] (Probability: 45%)
+- Execute **[[Transitions/Posture Recovery/Attacker|Posture Recovery]]** → [[Positions/Closed Guard]] (Probability: 65%)
+- Execute **[[Transitions/Stack Defense/Attacker|Stack Defense]]** → [[Transitions/Stack Pass]] (Probability: 45%)
 
 
 **If opponent maintains closed guard but you have good posture and hand position on hips or biceps:**
-- Execute **[[Transitions/Guard Opening Sequence]]** → [[Positions/Open Guard]] (Probability: 60%)
-- Execute **[[Transitions/Standing up in Base]]** → [[Positions/Standing Position]] (Probability: 70%)
+- Execute **[[Transitions/Guard Opening Sequence/Attacker|Guard Opening Sequence]]** → [[Positions/Open Guard]] (Probability: 60%)
+- Execute **[[Transitions/Standing up in Base/Attacker|Standing up in Base]]** → [[Positions/Standing Position]] (Probability: 70%)
 
 
 **If opponent opens their guard or you successfully break the guard creating separation:**
-- Execute **[[Transitions/Toreando Pass]]** → [[Positions/Side Control]] (Probability: 55%)
-- Execute **[[Transitions/Knee Slice Pass]]** → [[Positions/Side Control]] (Probability: 60%)
-- Execute **[[Transitions/Pressure Pass]]** → [[Positions/Side Control]] (Probability: 45%)
+- Execute **[[Transitions/Toreando Pass/Attacker|Toreando Pass]]** → [[Positions/Side Control]] (Probability: 55%)
+- Execute **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** → [[Positions/Side Control]] (Probability: 60%)
+- Execute **[[Transitions/Pressure Pass/Attacker|Pressure Pass]]** → [[Positions/Side Control]] (Probability: 45%)
 
 
 **If opponent is attacking with triangle or armbar creating immediate submission threat:**
-- Execute **[[Transitions/Posture Recovery]]** → [[Positions/Closed Guard]] (Probability: 50%)
-- Execute **[[Transitions/Stack Defense]]** → [[Transitions/Stack Pass]] (Probability: 55%)
+- Execute **[[Transitions/Posture Recovery/Attacker|Posture Recovery]]** → [[Positions/Closed Guard]] (Probability: 50%)
+- Execute **[[Transitions/Stack Defense/Attacker|Stack Defense]]** → [[Transitions/Stack Pass]] (Probability: 55%)
 
 
 **If opponent establishes strong collar and sleeve grips creating control for attacks:**
-- Execute **[[Transitions/Grip Break]]** → [[Positions/Closed Guard]] (Probability: 60%)
-- Execute **[[Transitions/Standing up in Base]]** → [[Positions/Standing Position]] (Probability: 65%)
+- Execute **[[Transitions/Grip Break/Attacker|Grip Break]]** → [[Positions/Closed Guard]] (Probability: 60%)
+- Execute **[[Transitions/Standing up in Base/Attacker|Standing up in Base]]** → [[Positions/Standing Position]] (Probability: 65%)
 
 
 

@@ -210,23 +210,23 @@ From a positional hierarchy perspective, 3-4 Mount Bottom is a high-risk defensi
 ## Decision Making from This Position
 
 **If opponent has asymmetric base with clear weight distribution to one side and hands are posted high:**
-- Execute **[[Transitions/Bridge and Roll]]** → [[Positions/Mount]] (Probability: 45%)
-- Execute **[[Transitions/Upa Escape]]** → [[Positions/Closed Guard]] (Probability: 40%)
+- Execute **[[Transitions/Bridge and Roll/Attacker|Bridge and Roll]]** → [[Positions/Mount]] (Probability: 45%)
+- Execute **[[Transitions/Upa Escape/Attacker|Upa Escape]]** → [[Positions/Closed Guard]] (Probability: 40%)
 
 
 **If opponent drops weight low with chest pressure but maintains 3-4 configuration:**
-- Execute **[[Transitions/Elbow Escape to Guard]]** → [[Positions/Half Guard]] (Probability: 50%)
-- Execute **[[Transitions/Shrimp Escape]]** → [[Positions/Open Guard]] (Probability: 45%)
+- Execute **[[Transitions/Elbow Escape to Guard/Attacker|Elbow Escape to Guard]]** → [[Positions/Half Guard]] (Probability: 50%)
+- Execute **[[Transitions/Shrimp Escape/Attacker|Shrimp Escape]]** → [[Positions/Open Guard]] (Probability: 45%)
 
 
 **If opponent attempts to transition to traditional mount or high mount:**
-- Execute **[[Transitions/Frame and Shrimp to Guard]]** → [[Positions/Half Guard]] (Probability: 48%)
-- Execute **[[Transitions/Hip Escape to Guard]]** → [[Positions/Open Guard]] (Probability: 42%)
+- Execute **[[Transitions/Frame and Shrimp to Guard/Attacker|Frame and Shrimp to Guard]]** → [[Positions/Half Guard]] (Probability: 48%)
+- Execute **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** → [[Positions/Open Guard]] (Probability: 42%)
 
 
 **If opponent isolates one arm for submission attempt:**
-- Execute **[[Transitions/Bridge and Roll]]** → [[Positions/Closed Guard]] (Probability: 35%)
-- Execute **[[Transitions/Elbow Escape to Guard]]** → [[Positions/Half Guard]] (Probability: 40%)
+- Execute **[[Transitions/Bridge and Roll/Attacker|Bridge and Roll]]** → [[Positions/Closed Guard]] (Probability: 35%)
+- Execute **[[Transitions/Elbow Escape to Guard/Attacker|Elbow Escape to Guard]]** → [[Positions/Half Guard]] (Probability: 40%)
 
 
 

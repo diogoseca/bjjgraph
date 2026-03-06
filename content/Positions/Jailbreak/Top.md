@@ -211,28 +211,28 @@ The position is particularly relevant in modern no-gi competition where dynamic 
 ## Decision Making from This Position
 
 **If bottom player's legs are extended and static with minimal hip movement:**
-- Execute **[[Transitions/Leg Weave Pass]]** → [[Positions/Side Control]] (Probability: 70%)
-- Execute **[[Transitions/Smash Pass]]** → [[Positions/Side Control]] (Probability: 65%)
+- Execute **[[Transitions/Leg Weave Pass/Attacker|Leg Weave Pass]]** → [[Positions/Side Control]] (Probability: 70%)
+- Execute **[[Transitions/Smash Pass/Attacker|Smash Pass]]** → [[Positions/Side Control]] (Probability: 65%)
 
 
 **If bottom player is actively moving hips and creating angles with leg positioning:**
-- Execute **[[Transitions/Headquarters Pass]]** → [[Positions/Headquarters Position]] (Probability: 60%)
-- Execute **[[Transitions/Toreando Pass]]** → [[Positions/Side Control]] (Probability: 55%)
+- Execute **[[Transitions/Headquarters Pass/Attacker|Headquarters Pass]]** → [[Positions/Headquarters Position]] (Probability: 60%)
+- Execute **[[Transitions/Toreando Pass/Attacker|Toreando Pass]]** → [[Positions/Side Control]] (Probability: 55%)
 
 
 **If bottom player commits to deep underhook or attempts to come up on elbow:**
-- Execute **[[Transitions/Back Step]]** → [[Positions/Ashi Garami/Outside Ashi-Garami]] (Probability: 65%)
-- Execute **[[Transitions/Underhook Pass]]** → [[Positions/Side Control]] (Probability: 70%)
+- Execute **[[Transitions/Back Step/Attacker|Back Step]]** → [[Positions/Ashi Garami/Outside Ashi-Garami]] (Probability: 65%)
+- Execute **[[Transitions/Underhook Pass/Attacker|Underhook Pass]]** → [[Positions/Side Control]] (Probability: 70%)
 
 
 **If bottom player retracts legs quickly to recover closed guard or butterfly guard:**
-- Execute **[[Transitions/Knee Slice from Half]]** → [[Positions/Side Control]] (Probability: 60%)
-- Execute **[[Transitions/Pressure Pass]]** → [[Positions/Side Control]] (Probability: 65%)
+- Execute **[[Transitions/Knee Slice from Half/Attacker|Knee Slice from Half]]** → [[Positions/Side Control]] (Probability: 60%)
+- Execute **[[Transitions/Pressure Pass/Attacker|Pressure Pass]]** → [[Positions/Side Control]] (Probability: 65%)
 
 
 **If bottom player attempts to turn to turtle or go belly down:**
-- Execute **[[Transitions/Front Headlock to Back]]** → [[Positions/Back Control]] (Probability: 75%)
-- Execute **[[Transitions/Knee Slice Pass]]** → [[Positions/Side Control]] (Probability: 70%)
+- Execute **[[Transitions/Front Headlock to Back/Attacker|Front Headlock to Back]]** → [[Positions/Back Control]] (Probability: 75%)
+- Execute **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** → [[Positions/Side Control]] (Probability: 70%)
 
 
 

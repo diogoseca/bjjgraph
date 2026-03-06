@@ -213,28 +213,28 @@ Defensively, the top practitioner must be aware that committing fully to a kneeb
 ## Decision Making from This Position
 
 **If opponent's leg straightens and defensive posture collapses under top pressure:**
-- Execute **[[Transitions/Kneebar Finish]]** → [[game-over]] (Probability: 55%)
-- Execute **[[Submissions/Straight Ankle Lock]]** → [[Positions/Straight Ankle Lock Control]] (Probability: 50%)
+- Execute **[[Transitions/Kneebar Finish/Attacker|Kneebar Finish]]** → [[game-over]] (Probability: 55%)
+- Execute **[[Submissions/Straight Ankle Lock/Attacker|Straight Ankle Lock]]** → [[Positions/Straight Ankle Lock Control]] (Probability: 50%)
 
 
 **If opponent maintains bent knee and creates strong defensive frames against finish:**
-- Execute **[[Transitions/Knee Cut Pass]]** → [[Positions/Side Control]] (Probability: 70%)
-- Execute **[[Transitions/Half Guard Pass]]** → [[Positions/Side Control]] (Probability: 65%)
+- Execute **[[Transitions/Knee Cut Pass/Attacker|Knee Cut Pass]]** → [[Positions/Side Control]] (Probability: 70%)
+- Execute **[[Transitions/Half Guard Pass/Attacker|Half Guard Pass]]** → [[Positions/Side Control]] (Probability: 65%)
 
 
 **If opponent attempts to recover guard by inserting frames or creating distance:**
-- Execute **[[Transitions/Side Control to Mount]]** → [[Positions/Mount]] (Probability: 60%)
-- Execute **[[Positions/Knee on Belly]]** → [[Positions/Knee on Belly]] (Probability: 55%)
+- Execute **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** → [[Positions/Mount]] (Probability: 60%)
+- Execute **[[Positions/Knee on Belly/Attacker|Knee on Belly]]** → [[Positions/Knee on Belly]] (Probability: 55%)
 
 
 **If opponent rotates foot or ankle defensively while maintaining knee protection:**
-- Execute **[[Transitions/Toe Hold]]** → [[Positions/Toe Hold Control]] (Probability: 60%)
-- Execute **[[Submissions/Straight Ankle Lock]]** → [[Positions/Straight Ankle Lock Control]] (Probability: 65%)
+- Execute **[[Transitions/Toe Hold/Attacker|Toe Hold]]** → [[Positions/Toe Hold Control]] (Probability: 60%)
+- Execute **[[Submissions/Straight Ankle Lock/Attacker|Straight Ankle Lock]]** → [[Positions/Straight Ankle Lock Control]] (Probability: 65%)
 
 
 **If opponent attempts explosive bridge or reversal during finish commitment:**
-- Execute **[[Transitions/Side Control to North-South]]** → [[Positions/North-South]] (Probability: 65%)
-- Execute **[[Transitions/Knee Cut Pass]]** → [[Positions/Side Control]] (Probability: 70%)
+- Execute **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** → [[Positions/North-South]] (Probability: 65%)
+- Execute **[[Transitions/Knee Cut Pass/Attacker|Knee Cut Pass]]** → [[Positions/Side Control]] (Probability: 70%)
 
 
 

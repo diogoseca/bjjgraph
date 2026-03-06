@@ -213,30 +213,30 @@ S Mount appears throughout BJJ history as a signature position of submission spe
 ## Decision Making from This Position
 
 **If opponent's arm is isolated and extended with proper control established:**
-- Execute **[[Complete armbar immediately]]** → [[Positions/Armbar Control]] (Probability: 85%)
-- Execute **[[Adjust hip angle for perfect leverage]]** → [[Positions/Armbar Control]] (Probability: 80%)
+- Execute **[[Complete armbar immediately/Attacker|Complete armbar immediately]]** → [[Positions/Armbar Control]] (Probability: 85%)
+- Execute **[[Adjust hip angle for perfect leverage/Attacker|Adjust hip angle for perfect leverage]]** → [[Positions/Armbar Control]] (Probability: 80%)
 
 
 **If opponent successfully bends their arm and grips their collar for defense:**
-- Execute **[[Break grip with wrist control]]** → [[Positions/Armbar Control]] (Probability: 60%)
-- Execute **[[Switch to triangle attack]]** → [[Positions/Mount/Mounted Triangle]] (Probability: 55%)
-- Execute **[[Return to mount and reset]]** → [[Positions/Mount]] (Probability: 70%)
+- Execute **[[Break grip with wrist control/Attacker|Break grip with wrist control]]** → [[Positions/Armbar Control]] (Probability: 60%)
+- Execute **[[Switch to triangle attack/Attacker|Switch to triangle attack]]** → [[Positions/Mount/Mounted Triangle]] (Probability: 55%)
+- Execute **[[Return to mount and reset/Attacker|Return to mount and reset]]** → [[Positions/Mount]] (Probability: 70%)
 
 
 **If opponent turns away from S Mount to protect arm:**
-- Execute **[[Take the back immediately]]** → [[Positions/Back Control]] (Probability: 75%)
-- Execute **[[Establish gift wrap control]]** → [[Positions/Gift Wrap]] (Probability: 65%)
+- Execute **[[Take the back immediately/Attacker|Take the back immediately]]** → [[Positions/Back Control]] (Probability: 75%)
+- Execute **[[Establish gift wrap control/Attacker|Establish gift wrap control]]** → [[Positions/Gift Wrap]] (Probability: 65%)
 
 
 **If opponent brings free arm across body to defend:**
-- Execute **[[Switch to triangle setup]]** → [[Positions/Mount/Mounted Triangle]] (Probability: 70%)
-- Execute **[[Attack second arm with americana]]** → [[Positions/Kimura Trap]] (Probability: 60%)
-- Execute **[[Transition to mounted crucifix]]** → [[Positions/Mount/Mounted Crucifix]] (Probability: 50%)
+- Execute **[[Switch to triangle setup/Attacker|Switch to triangle setup]]** → [[Positions/Mount/Mounted Triangle]] (Probability: 70%)
+- Execute **[[Attack second arm with americana/Attacker|Attack second arm with americana]]** → [[Positions/Kimura Trap]] (Probability: 60%)
+- Execute **[[Transition to mounted crucifix/Attacker|Transition to mounted crucifix]]** → [[Positions/Mount/Mounted Crucifix]] (Probability: 50%)
 
 
 **If opponent begins effective hip escape creating significant space:**
-- Execute **[[Abandon S Mount and secure mount]]** → [[Positions/Mount]] (Probability: 85%)
-- Execute **[[Complete armbar quickly before escape]]** → [[Positions/Armbar Control]] (Probability: 50%)
+- Execute **[[Abandon S Mount and secure mount/Attacker|Abandon S Mount and secure mount]]** → [[Positions/Mount]] (Probability: 85%)
+- Execute **[[Complete armbar quickly before escape/Attacker|Complete armbar quickly before escape]]** → [[Positions/Armbar Control]] (Probability: 50%)
 
 
 

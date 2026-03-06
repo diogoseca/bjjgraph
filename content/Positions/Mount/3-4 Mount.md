@@ -95,21 +95,21 @@ The position scores 4 points in IBJJF competition when held from top, placing it
 ### Available Transitions
 
 
-- **[[Transitions/Elbow Escape to Guard]]** (24% of attempts)
+- **[[Transitions/Elbow Escape to Guard/Attacker|Elbow Escape to Guard]]** (24% of attempts)
 
-- **[[Transitions/Bridge and Roll]]** (13% of attempts)
+- **[[Transitions/Bridge and Roll/Attacker|Bridge and Roll]]** (13% of attempts)
 
-- **[[Transitions/Upa Escape]]** (17% of attempts)
+- **[[Transitions/Upa Escape/Attacker|Upa Escape]]** (17% of attempts)
 
-- **[[Transitions/Explosive Bridge to Turtle]]** (10% of attempts)
+- **[[Transitions/Explosive Bridge to Turtle/Attacker|Explosive Bridge to Turtle]]** (10% of attempts)
 
-- **[[Transitions/Frame and Shrimp to Guard]]** (13% of attempts)
+- **[[Transitions/Frame and Shrimp to Guard/Attacker|Frame and Shrimp to Guard]]** (13% of attempts)
 
-- **[[Transitions/Half Guard Recovery]]** (15% of attempts)
+- **[[Transitions/Half Guard Recovery/Attacker|Half Guard Recovery]]** (15% of attempts)
 
-- **[[Transitions/Bridge Escape from 3-4 Mount]]** (5% of attempts)
+- **[[Transitions/Bridge Escape from 3-4 Mount/Attacker|Bridge Escape from 3-4 Mount]]** (5% of attempts)
 
-- **[[Transitions/Elbow Escape from 3-4 Mount]]** (3% of attempts)
+- **[[Transitions/Elbow Escape from 3-4 Mount/Attacker|Elbow Escape from 3-4 Mount]]** (3% of attempts)
 
 
 ### Common Mistakes
@@ -170,25 +170,25 @@ The position scores 4 points in IBJJF competition when held from top, placing it
 ### Available Transitions
 
 
-- **[[Transitions/Mount to Armbar]]** (37% of attempts)
+- **[[Transitions/Mount to Armbar/Attacker|Mount to Armbar]]** (37% of attempts)
 
-- **[[Positions/Mount/Mounted Triangle]]** (8% of attempts)
+- **[[Positions/Mount/Mounted Triangle/Attacker|Mounted Triangle]]** (8% of attempts)
 
-- **[[Transitions/S-Mount Transition]]** (8% of attempts)
+- **[[Transitions/S-Mount Transition/Attacker|S-Mount Transition]]** (8% of attempts)
 
-- **[[Transitions/Back Take]]** (10% of attempts)
+- **[[Transitions/Back Take/Attacker|Back Take]]** (10% of attempts)
 
-- **[[Transitions/Consolidate Mount]]** (16% of attempts)
+- **[[Transitions/Consolidate Mount/Attacker|Consolidate Mount]]** (16% of attempts)
 
-- **[[Transitions/High Mount Transition]]** (8% of attempts)
+- **[[Transitions/High Mount Transition/Attacker|High Mount Transition]]** (8% of attempts)
 
-- **[[Transitions/Cross Collar Choke]]** (6% of attempts)
+- **[[Transitions/Cross Collar Choke/Attacker|Cross Collar Choke]]** (6% of attempts)
 
-- **[[Transitions/3-4 Mount to S Mount]]** (3% of attempts)
+- **[[Transitions/3-4 Mount to S Mount/Attacker|3-4 Mount to S Mount]]** (3% of attempts)
 
-- **[[Transitions/3-4 Mount to Technical Mount]]** (2% of attempts)
+- **[[Transitions/3-4 Mount to Technical Mount/Attacker|3-4 Mount to Technical Mount]]** (2% of attempts)
 
-- **[[Submissions/Americana from 3-4 Mount]]** (2% of attempts)
+- **[[Submissions/Americana from 3-4 Mount/Attacker|Americana from 3-4 Mount]]** (2% of attempts)
 
 
 ### Common Mistakes

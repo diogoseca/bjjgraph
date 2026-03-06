@@ -209,23 +209,23 @@ Worm Guard Bottom is an innovative lapel-based guard system developed by Keenan 
 ## Decision Making from This Position
 
 **If opponent establishes strong posture and attempts to break lapel grip by standing or pulling backward:**
-- Execute **[[Transitions/X-Guard Sweep]]** → [[Positions/Mount]] (Probability: 60%)
-- Execute **[[Transitions/Triangle Setup]]** → [[Positions/Triangle Control]] (Probability: 50%)
+- Execute **[[Transitions/X-Guard Sweep/Attacker|X-Guard Sweep]]** → [[Positions/Mount]] (Probability: 60%)
+- Execute **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** → [[Positions/Triangle Control]] (Probability: 50%)
 
 
 **If opponent circles away from the lapel-wrapped leg trying to escape control mechanism:**
-- Execute **[[Transitions/Omoplata Sweep]]** → [[Positions/Mount]] (Probability: 65%)
-- Execute **[[Transitions/Omoplata to Back]]** → [[Positions/Back Control]] (Probability: 70%)
+- Execute **[[Transitions/Omoplata Sweep/Attacker|Omoplata Sweep]]** → [[Positions/Mount]] (Probability: 65%)
+- Execute **[[Transitions/Omoplata to Back/Attacker|Omoplata to Back]]** → [[Positions/Back Control]] (Probability: 70%)
 
 
 **If opponent drives forward with pressure attempting to smash through guard structure:**
-- Execute **[[Transitions/De La Riva Sweep]]** → [[Positions/Side Control]] (Probability: 55%)
-- Execute **[[Transitions/Lapel Elevator Sweep]]** → [[Positions/Side Control]] (Probability: 60%)
+- Execute **[[Transitions/De La Riva Sweep/Attacker|De La Riva Sweep]]** → [[Positions/Side Control]] (Probability: 55%)
+- Execute **[[Transitions/Lapel Elevator Sweep/Attacker|Lapel Elevator Sweep]]** → [[Positions/Side Control]] (Probability: 60%)
 
 
 **If opponent attempts to clear lapel wrap by extracting their trapped leg:**
-- Execute **[[Transitions/Triangle from Guard]]** → [[Positions/Triangle Control]] (Probability: 45%)
-- Execute **[[Transitions/Bolo Sweep]]** → [[Positions/Back Control]] (Probability: 50%)
+- Execute **[[Transitions/Triangle from Guard/Attacker|Triangle from Guard]]** → [[Positions/Triangle Control]] (Probability: 45%)
+- Execute **[[Transitions/Bolo Sweep/Attacker|Bolo Sweep]]** → [[Positions/Back Control]] (Probability: 50%)
 
 
 

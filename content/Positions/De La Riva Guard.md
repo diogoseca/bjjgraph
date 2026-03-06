@@ -85,31 +85,31 @@ The strategic genius of De La Riva Guard lies in its dilemma-based attack struct
 ### Available Transitions
 
 
-- **[[Transitions/De La Riva Sweep]]** (11% of attempts)
+- **[[Transitions/De La Riva Sweep/Attacker|De La Riva Sweep]]** (11% of attempts)
 
-- **[[Transitions/De La Riva to X-Guard Transition]]** (21% of attempts)
+- **[[Transitions/De La Riva to X-Guard Transition/Attacker|De La Riva to X-Guard Transition]]** (21% of attempts)
 
-- **[[Transitions/Berimbolo Entry]]** (12% of attempts)
+- **[[Transitions/Berimbolo Entry/Attacker|Berimbolo Entry]]** (12% of attempts)
 
-- **[[Transitions/Kiss of the Dragon]]** (8% of attempts)
+- **[[Transitions/Kiss of the Dragon/Attacker|Kiss of the Dragon]]** (8% of attempts)
 
-- **[[Transitions/Single Leg X Entry]]** (12% of attempts)
+- **[[Transitions/Single Leg X Entry/Attacker|Single Leg X Entry]]** (12% of attempts)
 
-- **[[Transitions/Waiter Sweep]]** (6% of attempts)
+- **[[Transitions/Waiter Sweep/Attacker|Waiter Sweep]]** (6% of attempts)
 
-- **[[Transitions/Balloon Sweep]]** (5% of attempts)
+- **[[Transitions/Balloon Sweep/Attacker|Balloon Sweep]]** (5% of attempts)
 
-- **[[Transitions/Outside Ashi Entry]]** (5% of attempts)
+- **[[Transitions/Outside Ashi Entry/Attacker|Outside Ashi Entry]]** (5% of attempts)
 
-- **[[Transitions/Sickle Sweep]]** (4% of attempts)
+- **[[Transitions/Sickle Sweep/Attacker|Sickle Sweep]]** (4% of attempts)
 
-- **[[Transitions/Tripod Sweep]]** (8% of attempts)
+- **[[Transitions/Tripod Sweep/Attacker|Tripod Sweep]]** (8% of attempts)
 
-- **[[Transitions/Omoplata]]** (4% of attempts)
+- **[[Transitions/Omoplata/Attacker|Omoplata]]** (4% of attempts)
 
-- **[[Transitions/Triangle Setup from De La Riva]]** (2% of attempts)
+- **[[Transitions/Triangle Setup from De La Riva/Attacker|Triangle Setup from De La Riva]]** (2% of attempts)
 
-- **[[Submissions/Triangle from De La Riva]]** (2% of attempts)
+- **[[Submissions/Triangle from De La Riva/Attacker|Triangle from De La Riva]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -168,33 +168,33 @@ The strategic genius of De La Riva Guard lies in its dilemma-based attack struct
 ### Available Transitions
 
 
-- **[[Transitions/Toreando Pass]]** (74% of attempts)
+- **[[Transitions/Toreando Pass/Attacker|Toreando Pass]]** (74% of attempts)
 
-- **[[Transitions/Knee Slice Pass]]** (7% of attempts)
+- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (7% of attempts)
 
-- **[[Transitions/X Pass]]** (3% of attempts)
+- **[[Transitions/X Pass/Attacker|X Pass]]** (3% of attempts)
 
-- **[[Transitions/Leg Drag Pass]]** (5% of attempts)
+- **[[Transitions/Leg Drag Pass/Attacker|Leg Drag Pass]]** (5% of attempts)
 
-- **[[Transitions/Long Step Pass]]** (1% of attempts)
+- **[[Transitions/Long Step Pass/Attacker|Long Step Pass]]** (1% of attempts)
 
-- **[[Transitions/Smash Pass]]** (0% of attempts)
+- **[[Transitions/Smash Pass/Attacker|Smash Pass]]** (0% of attempts)
 
-- **[[Transitions/Back Step Pass]]** (5% of attempts)
+- **[[Transitions/Back Step Pass/Attacker|Back Step Pass]]** (5% of attempts)
 
-- **[[Transitions/Body Lock Pass]]** (3% of attempts)
+- **[[Transitions/Body Lock Pass/Attacker|Body Lock Pass]]** (3% of attempts)
 
-- **[[Transitions/Stack Pass]]** (0% of attempts)
+- **[[Transitions/Stack Pass/Attacker|Stack Pass]]** (0% of attempts)
 
-- **[[Transitions/Bullfighter Pass]]** (1% of attempts)
+- **[[Transitions/Bullfighter Pass/Attacker|Bullfighter Pass]]** (1% of attempts)
 
-- **[[Transitions/Toreando Pass from De La Riva]]** (0% of attempts)
+- **[[Transitions/Toreando Pass from De La Riva/Attacker|Toreando Pass from De La Riva]]** (0% of attempts)
 
-- **[[Transitions/Backstep from De La Riva]]** (0% of attempts)
+- **[[Transitions/Backstep from De La Riva/Attacker|Backstep from De La Riva]]** (0% of attempts)
 
-- **[[Transitions/Knee Slice from DLR]]** (0% of attempts)
+- **[[Transitions/Knee Slice from DLR/Attacker|Knee Slice from DLR]]** (0% of attempts)
 
-- **[[Transitions/Leg Drag from DLR]]** (1% of attempts)
+- **[[Transitions/Leg Drag from DLR/Attacker|Leg Drag from DLR]]** (1% of attempts)
 
 
 ### Common Mistakes

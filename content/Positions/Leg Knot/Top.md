@@ -203,23 +203,23 @@ The strategic value of Leg Knot Top lies in its ability to create submission opp
 ## Decision Making from This Position
 
 **If opponent attempts to extract trapped leg by pulling knee toward chest:**
-- Execute **[[Transitions/Heel Hook]]** → [[Positions/Ashi Garami/Saddle]] (Probability: 65%)
-- Execute **[[Estima Lock Setup]]** → [[Positions/Ashi Garami/Saddle]] (Probability: 70%)
+- Execute **[[Transitions/Heel Hook/Attacker|Heel Hook]]** → [[Positions/Ashi Garami/Saddle]] (Probability: 65%)
+- Execute **[[Estima Lock Setup/Attacker|Estima Lock Setup]]** → [[Positions/Ashi Garami/Saddle]] (Probability: 70%)
 
 
 **If opponent pushes away with free leg or attempts to sit up and create distance:**
-- Execute **[[Transitions/Inside Ashi Entry]]** → [[Positions/Ashi Garami/Inside Ashi-Garami]] (Probability: 60%)
-- Execute **[[Transitions/Leg Weave Pass]]** → [[Positions/Side Control]] (Probability: 55%)
+- Execute **[[Transitions/Inside Ashi Entry/Attacker|Inside Ashi Entry]]** → [[Positions/Ashi Garami/Inside Ashi-Garami]] (Probability: 60%)
+- Execute **[[Transitions/Leg Weave Pass/Attacker|Leg Weave Pass]]** → [[Positions/Side Control]] (Probability: 55%)
 
 
 **If opponent rotates hip outward or straightens trapped leg defensively:**
-- Execute **[[Transitions/Inside Heel Hook from Ushiro]]** → [[Positions/Ashi Garami/Inside Ashi-Garami]] (Probability: 70%)
-- Execute **[[Transitions/Toe Hold]]** → [[Positions/Leg Entanglement]] (Probability: 50%)
+- Execute **[[Transitions/Inside Heel Hook from Ushiro/Attacker|Inside Heel Hook from Ushiro]]** → [[Positions/Ashi Garami/Inside Ashi-Garami]] (Probability: 70%)
+- Execute **[[Transitions/Toe Hold/Attacker|Toe Hold]]** → [[Positions/Leg Entanglement]] (Probability: 50%)
 
 
 **If opponent maintains defensive posture with flexed knee and protected heel:**
-- Execute **[[Transitions/Kneebar]]** → [[Positions/Kneebar Control]] (Probability: 55%)
-- Execute **[[Estima Lock Setup]]** → [[Positions/Ashi Garami/Saddle]] (Probability: 65%)
+- Execute **[[Transitions/Kneebar/Attacker|Kneebar]]** → [[Positions/Kneebar Control]] (Probability: 55%)
+- Execute **[[Estima Lock Setup/Attacker|Estima Lock Setup]]** → [[Positions/Ashi Garami/Saddle]] (Probability: 65%)
 
 
 

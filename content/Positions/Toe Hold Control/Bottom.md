@@ -207,25 +207,25 @@ Toe Hold Control Bottom represents a defensive position within the leg entanglem
 ## Decision Making from This Position
 
 **If opponent has completed full toe hold grip with figure-four and begins rotating ankle with significant pressure:**
-- Execute **[[Tap Out]]** → [[Positions/Game Over]] (Probability: 95%)
-- Execute **[[Explosive wrist control and internal rotation escape]]** → [[Positions/Ashi Garami]] (Probability: 5%)
+- Execute **[[Tap Out/Attacker|Tap Out]]** → [[Positions/Game Over]] (Probability: 95%)
+- Execute **[[Explosive wrist control and internal rotation escape/Attacker|Explosive wrist control and internal rotation escape]]** → [[Positions/Ashi Garami]] (Probability: 5%)
 
 
 **If opponent has toe hold grip but has not yet applied full rotational pressure and wrists are accessible:**
-- Execute **[[Transitions/Angle Change Escape]]** → [[Positions/Ashi Garami]] (Probability: 55%)
-- Execute **[[Transitions/Ashi Garami Escape]]** → [[Positions/Half Guard]] (Probability: 45%)
+- Execute **[[Transitions/Angle Change Escape/Attacker|Angle Change Escape]]** → [[Positions/Ashi Garami]] (Probability: 55%)
+- Execute **[[Transitions/Ashi Garami Escape/Attacker|Ashi Garami Escape]]** → [[Positions/Half Guard]] (Probability: 45%)
 
 
 **If opponent transitions from toe hold to heel hook attempt creating momentary grip loosening:**
-- Execute **[[Transitions/Inside Ashi Entry]]** → [[Positions/Ashi Garami/Inside Ashi-Garami]] (Probability: 50%)
-- Execute **[[Transitions/Guard Recovery from Leg Entanglement]]** → [[Positions/Open Guard]] (Probability: 40%)
-- Execute **[[Transitions/Deep Half Entry]]** → [[Positions/Half Guard/Deep Half Guard]] (Probability: 10%)
+- Execute **[[Transitions/Inside Ashi Entry/Attacker|Inside Ashi Entry]]** → [[Positions/Ashi Garami/Inside Ashi-Garami]] (Probability: 50%)
+- Execute **[[Transitions/Guard Recovery from Leg Entanglement/Attacker|Guard Recovery from Leg Entanglement]]** → [[Positions/Open Guard]] (Probability: 40%)
+- Execute **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** → [[Positions/Half Guard/Deep Half Guard]] (Probability: 10%)
 
 
 **If free leg creates successful frame on opponent's hips breaking their forward pressure:**
-- Execute **[[Transitions/Counter-entangle to 50-50 Guard]]** → [[Positions/Ashi Garami/50-50 Guard]] (Probability: 45%)
-- Execute **[[Transitions/Single Leg X Entry]]** → [[Positions/X-Guard/Single Leg X-Guard]] (Probability: 35%)
-- Execute **[[Transitions/Ashi Garami Escape]]** → [[Positions/Half Guard]] (Probability: 20%)
+- Execute **[[Transitions/Counter-entangle to 50-50 Guard/Attacker|Counter-entangle to 50-50 Guard]]** → [[Positions/Ashi Garami/50-50 Guard]] (Probability: 45%)
+- Execute **[[Transitions/Single Leg X Entry/Attacker|Single Leg X Entry]]** → [[Positions/X-Guard/Single Leg X-Guard]] (Probability: 35%)
+- Execute **[[Transitions/Ashi Garami Escape/Attacker|Ashi Garami Escape]]** → [[Positions/Half Guard]] (Probability: 20%)
 
 
 

@@ -103,23 +103,23 @@ The learning curve for Twister Side Control is significant, requiring practition
 ### Available Transitions
 
 
-- **[[Transitions/Granby Roll to Guard]]** (12% of attempts)
+- **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** (12% of attempts)
 
-- **[[Transitions/Technical Stand-up]]** (10% of attempts)
+- **[[Transitions/Technical Stand-up/Attacker|Technical Stand-up]]** (10% of attempts)
 
-- **[[Transitions/Hip Escape to Guard]]** (13% of attempts)
+- **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** (13% of attempts)
 
-- **[[Transitions/Frame and Shrimp to Guard]]** (14% of attempts)
+- **[[Transitions/Frame and Shrimp to Guard/Attacker|Frame and Shrimp to Guard]]** (14% of attempts)
 
-- **[[Transitions/Arm Extraction to Turtle]]** (31% of attempts)
+- **[[Transitions/Arm Extraction to Turtle/Attacker|Arm Extraction to Turtle]]** (31% of attempts)
 
-- **[[Transitions/Rolling to Guard]]** (13% of attempts)
+- **[[Transitions/Rolling to Guard/Attacker|Rolling to Guard]]** (13% of attempts)
 
-- **[[Transitions/Escape Twister Side Control]]** (4% of attempts)
+- **[[Transitions/Escape Twister Side Control/Attacker|Escape Twister Side Control]]** (4% of attempts)
 
-- **[[Transitions/Frame from Twister Side Control]]** (2% of attempts)
+- **[[Transitions/Frame from Twister Side Control/Attacker|Frame from Twister Side Control]]** (2% of attempts)
 
-- **[[Transitions/Turn In from Twister Side Control]]** (1% of attempts)
+- **[[Transitions/Turn In from Twister Side Control/Attacker|Turn In from Twister Side Control]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -180,31 +180,31 @@ The learning curve for Twister Side Control is significant, requiring practition
 ### Available Transitions
 
 
-- **[[Transitions/Twister Finish]]** (12% of attempts)
+- **[[Transitions/Twister Finish/Attacker|Twister Finish]]** (12% of attempts)
 
-- **[[Transitions/Back Take]]** (12% of attempts)
+- **[[Transitions/Back Take/Attacker|Back Take]]** (12% of attempts)
 
-- **[[Transitions/Darce Choke]]** (10% of attempts)
+- **[[Transitions/Darce Choke/Attacker|Darce Choke]]** (10% of attempts)
 
-- **[[Transitions/Kimura]]** (10% of attempts)
+- **[[Transitions/Kimura/Attacker|Kimura]]** (10% of attempts)
 
-- **[[Transitions/Side Control to North-South]]** (12% of attempts)
+- **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** (12% of attempts)
 
-- **[[Transitions/Anaconda Choke]]** (8% of attempts)
+- **[[Transitions/Anaconda Choke/Attacker|Anaconda Choke]]** (8% of attempts)
 
-- **[[Transitions/Arm Triangle]]** (7% of attempts)
+- **[[Transitions/Arm Triangle/Attacker|Arm Triangle]]** (7% of attempts)
 
-- **[[Transitions/Side Control to Mount]]** (8% of attempts)
+- **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** (8% of attempts)
 
-- **[[Transitions/Turtle to Truck]]** (7% of attempts)
+- **[[Transitions/Turtle to Truck/Attacker|Turtle to Truck]]** (7% of attempts)
 
-- **[[Transitions/Calf Slicer]]** (5% of attempts)
+- **[[Transitions/Calf Slicer/Attacker|Calf Slicer]]** (5% of attempts)
 
-- **[[Transitions/Twister SC to Back Take]]** (4% of attempts)
+- **[[Transitions/Twister SC to Back Take/Attacker|Twister SC to Back Take]]** (4% of attempts)
 
-- **[[Transitions/Twister SC to Truck]]** (3% of attempts)
+- **[[Transitions/Twister SC to Truck/Attacker|Twister SC to Truck]]** (3% of attempts)
 
-- **[[Submissions/Twister from Twister SC]]** (2% of attempts)
+- **[[Submissions/Twister from Twister SC/Attacker|Twister from Twister SC]]** (2% of attempts)
 
 
 ### Common Mistakes

@@ -208,23 +208,23 @@ Omoplata Control Top represents a dominant shoulder lock position where the top 
 ## Decision Making from This Position
 
 **If opponent attempts forward roll escape and posts their free hand on the mat:**
-- Execute **[[Transitions/Omoplata to Back]]** → [[Positions/Back Control]] (Probability: 75%)
-- Execute **[[Maintain Omoplata Control and Finish]]** → [[game-over]] (Probability: 65%)
+- Execute **[[Transitions/Omoplata to Back/Attacker|Omoplata to Back]]** → [[Positions/Back Control]] (Probability: 75%)
+- Execute **[[Maintain Omoplata Control and Finish/Attacker|Maintain Omoplata Control and Finish]]** → [[game-over]] (Probability: 65%)
 
 
 **If opponent sits up and tries to stack or create upright posture:**
-- Execute **[[Hip Adjustment to Finish Omoplata]]** → [[game-over]] (Probability: 70%)
-- Execute **[[Transitions/Omoplata Sweep]]** → [[Positions/Mount]] (Probability: 68%)
+- Execute **[[Hip Adjustment to Finish Omoplata/Attacker|Hip Adjustment to Finish Omoplata]]** → [[game-over]] (Probability: 70%)
+- Execute **[[Transitions/Omoplata Sweep/Attacker|Omoplata Sweep]]** → [[Positions/Mount]] (Probability: 68%)
 
 
 **If opponent successfully extracts arm but remains in close range:**
-- Execute **[[Transitions/Switch to Triangle]]** → [[Positions/Triangle Control]] (Probability: 60%)
-- Execute **[[Submissions/Armbar from Guard]]** → [[Positions/Armbar Control]] (Probability: 55%)
+- Execute **[[Transitions/Switch to Triangle/Attacker|Switch to Triangle]]** → [[Positions/Triangle Control]] (Probability: 60%)
+- Execute **[[Submissions/Armbar from Guard/Attacker|Armbar from Guard]]** → [[Positions/Armbar Control]] (Probability: 55%)
 
 
 **If opponent attempts to create distance and pull arm away:**
-- Execute **[[Transitions/Follow to Back Control]]** → [[Positions/Back Control]] (Probability: 65%)
-- Execute **[[Re-Guard]]** → [[Positions/Open Guard]] (Probability: 50%)
+- Execute **[[Transitions/Follow to Back Control/Attacker|Follow to Back Control]]** → [[Positions/Back Control]] (Probability: 65%)
+- Execute **[[Re-Guard/Attacker|Re-Guard]]** → [[Positions/Open Guard]] (Probability: 50%)
 
 
 

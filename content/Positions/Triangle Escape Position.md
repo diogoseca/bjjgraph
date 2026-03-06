@@ -95,23 +95,23 @@ Triangle escape training serves broader pedagogical purposes beyond the specific
 ### Available Transitions
 
 
-- **[[Transitions/Stack Pass]]** (30% of attempts)
+- **[[Transitions/Stack Pass/Attacker|Stack Pass]]** (30% of attempts)
 
-- **[[Transitions/Triangle Escape]]** (17% of attempts)
+- **[[Transitions/Triangle Escape/Attacker|Triangle Escape]]** (17% of attempts)
 
-- **[[Transitions/Posture Recovery]]** (17% of attempts)
+- **[[Transitions/Posture Recovery/Attacker|Posture Recovery]]** (17% of attempts)
 
-- **[[Transitions/Pass to Side Control]]** (7% of attempts)
+- **[[Transitions/Pass to Side Control/Attacker|Pass to Side Control]]** (7% of attempts)
 
-- **[[Transitions/Arm Extraction]]** (13% of attempts)
+- **[[Transitions/Arm Extraction/Attacker|Arm Extraction]]** (13% of attempts)
 
-- **[[Transitions/Standing up in Base]]** (11% of attempts)
+- **[[Transitions/Standing up in Base/Attacker|Standing up in Base]]** (11% of attempts)
 
-- **[[Transitions/Complete Triangle Escape]]** (3% of attempts)
+- **[[Transitions/Complete Triangle Escape/Attacker|Complete Triangle Escape]]** (3% of attempts)
 
-- **[[Transitions/Posture in Triangle Escape]]** (1% of attempts)
+- **[[Transitions/Posture in Triangle Escape/Attacker|Posture in Triangle Escape]]** (1% of attempts)
 
-- **[[Transitions/Reversal from Triangle Escape]]** (1% of attempts)
+- **[[Transitions/Reversal from Triangle Escape/Attacker|Reversal from Triangle Escape]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -172,23 +172,23 @@ Triangle escape training serves broader pedagogical purposes beyond the specific
 ### Available Transitions
 
 
-- **[[Transitions/Stack Pass]]** (17% of attempts)
+- **[[Transitions/Stack Pass/Attacker|Stack Pass]]** (17% of attempts)
 
-- **[[Transitions/Posture Recovery]]** (33% of attempts)
+- **[[Transitions/Posture Recovery/Attacker|Posture Recovery]]** (33% of attempts)
 
-- **[[Transitions/Triangle Escape]]** (17% of attempts)
+- **[[Transitions/Triangle Escape/Attacker|Triangle Escape]]** (17% of attempts)
 
-- **[[Transitions/Arm Extraction]]** (12% of attempts)
+- **[[Transitions/Arm Extraction/Attacker|Arm Extraction]]** (12% of attempts)
 
-- **[[Transitions/Pass to Side Control]]** (5% of attempts)
+- **[[Transitions/Pass to Side Control/Attacker|Pass to Side Control]]** (5% of attempts)
 
-- **[[Transitions/Standing up in Base]]** (12% of attempts)
+- **[[Transitions/Standing up in Base/Attacker|Standing up in Base]]** (12% of attempts)
 
-- **[[Transitions/Complete Triangle Escape from Top]]** (2% of attempts)
+- **[[Transitions/Complete Triangle Escape from Top/Attacker|Complete Triangle Escape from Top]]** (2% of attempts)
 
-- **[[Transitions/Posture in Triangle]]** (1% of attempts)
+- **[[Transitions/Posture in Triangle/Attacker|Posture in Triangle]]** (1% of attempts)
 
-- **[[Transitions/Guard Pass from Triangle Escape]]** (1% of attempts)
+- **[[Transitions/Guard Pass from Triangle Escape/Attacker|Guard Pass from Triangle Escape]]** (1% of attempts)
 
 
 ### Common Mistakes

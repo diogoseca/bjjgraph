@@ -218,23 +218,23 @@ From a learning progression standpoint, developing effective New York Top defens
 ## Decision Making from This Position
 
 **If opponent maintains static New York control without immediate attack:**
-- Execute **[[Transitions/Posture Recovery]]** → [[Positions/Closed Guard]] (Probability: 55%)
-- Execute **[[Transitions/Overhook Extraction]]** → [[Positions/Closed Guard]] (Probability: 45%)
+- Execute **[[Transitions/Posture Recovery/Attacker|Posture Recovery]]** → [[Positions/Closed Guard]] (Probability: 55%)
+- Execute **[[Transitions/Overhook Extraction/Attacker|Overhook Extraction]]** → [[Positions/Closed Guard]] (Probability: 45%)
 
 
 **If opponent begins transition to Invisible Collar or Zombie:**
-- Execute **[[Transitions/Stack Defense]]** → [[Positions/Closed Guard]] (Probability: 60%)
-- Execute **[[Transitions/Overhook Extraction]]** → [[Positions/Closed Guard]] (Probability: 40%)
+- Execute **[[Transitions/Stack Defense/Attacker|Stack Defense]]** → [[Positions/Closed Guard]] (Probability: 60%)
+- Execute **[[Transitions/Overhook Extraction/Attacker|Overhook Extraction]]** → [[Positions/Closed Guard]] (Probability: 40%)
 
 
 **If opponent attempts triangle setup or other arm-based submission:**
-- Execute **[[Transitions/Stack Defense]]** → [[Positions/Closed Guard]] (Probability: 50%)
-- Execute **[[Transitions/Pressure Pass]]** → [[Positions/Side Control]] (Probability: 50%)
+- Execute **[[Transitions/Stack Defense/Attacker|Stack Defense]]** → [[Positions/Closed Guard]] (Probability: 50%)
+- Execute **[[Transitions/Pressure Pass/Attacker|Pressure Pass]]** → [[Positions/Side Control]] (Probability: 50%)
 
 
 **If opponent's grip on shin momentarily weakens or releases:**
-- Execute **[[Transitions/Posture Recovery]]** → [[Positions/Closed Guard]] (Probability: 70%)
-- Execute **[[Transitions/Pressure Pass]]** → [[Positions/Side Control]] (Probability: 55%)
+- Execute **[[Transitions/Posture Recovery/Attacker|Posture Recovery]]** → [[Positions/Closed Guard]] (Probability: 70%)
+- Execute **[[Transitions/Pressure Pass/Attacker|Pressure Pass]]** → [[Positions/Side Control]] (Probability: 55%)
 
 
 

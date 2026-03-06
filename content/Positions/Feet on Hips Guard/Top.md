@@ -205,28 +205,28 @@ Feet on Hips Guard Top is the passing perspective when facing an opponent who ha
 ## Decision Making from This Position
 
 **If bottom player has both feet on hips with strong frames and no sleeve grips established:**
-- Execute **[[Grip pants at knees]]** → [[Positions/Combat Base]] (Probability: 60%)
-- Execute **[[Stand up to create pressure]]** → [[Positions/Standing Position]] (Probability: 70%)
+- Execute **[[Grip pants at knees/Attacker|Grip pants at knees]]** → [[Positions/Combat Base]] (Probability: 60%)
+- Execute **[[Stand up to create pressure/Attacker|Stand up to create pressure]]** → [[Positions/Standing Position]] (Probability: 70%)
 
 
 **If bottom player tries to establish sleeve grips for spider guard or collar control:**
-- Execute **[[Transitions/Toreando Pass]]** → [[Positions/Side Control]] (Probability: 65%)
-- Execute **[[Transitions/Spider Guard Pass]]** → [[Positions/Side Control]] (Probability: 55%)
+- Execute **[[Transitions/Toreando Pass/Attacker|Toreando Pass]]** → [[Positions/Side Control]] (Probability: 65%)
+- Execute **[[Transitions/Spider Guard Pass/Attacker|Spider Guard Pass]]** → [[Positions/Side Control]] (Probability: 55%)
 
 
 **If bottom player begins to shoot triangle or omoplata with hips inverting:**
-- Execute **[[Transitions/Stack Pass]]** → [[Positions/Side Control]] (Probability: 60%)
-- Execute **[[Posture up and circle away]]** → [[Positions/Combat Base]] (Probability: 70%)
+- Execute **[[Transitions/Stack Pass/Attacker|Stack Pass]]** → [[Positions/Side Control]] (Probability: 60%)
+- Execute **[[Posture up and circle away/Attacker|Posture up and circle away]]** → [[Positions/Combat Base]] (Probability: 70%)
 
 
 **If bottom player creates excessive distance with frames or retracts legs:**
-- Execute **[[Transitions/Long Step Pass]]** → [[Positions/Side Control]] (Probability: 50%)
-- Execute **[[Step around to leg drag]]** → [[Positions/Leg Drag Control]] (Probability: 55%)
+- Execute **[[Transitions/Long Step Pass/Attacker|Long Step Pass]]** → [[Positions/Side Control]] (Probability: 50%)
+- Execute **[[Step around to leg drag/Attacker|Step around to leg drag]]** → [[Positions/Leg Drag Control]] (Probability: 55%)
 
 
 **If bottom player attempts to establish De La Riva or lasso hooks during frame breaking:**
-- Execute **[[Transitions/Smash Pass]]** → [[Positions/Side Control]] (Probability: 55%)
-- Execute **[[Clear hooks and knee cut]]** → [[Positions/Side Control]] (Probability: 60%)
+- Execute **[[Transitions/Smash Pass/Attacker|Smash Pass]]** → [[Positions/Side Control]] (Probability: 55%)
+- Execute **[[Clear hooks and knee cut/Attacker|Clear hooks and knee cut]]** → [[Positions/Side Control]] (Probability: 60%)
 
 
 

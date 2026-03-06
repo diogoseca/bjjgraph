@@ -211,23 +211,23 @@ Strategically, Reverse X-Guard Top represents a transitional state where the top
 ## Decision Making from This Position
 
 **If opponent has strong elevation and is actively attempting to sweep backward:**
-- Execute **[[Transitions/Smash Pass]]** → [[Positions/Half Guard]] (Probability: 55%)
-- Execute **[[Widen base and apply forward pressure]]** → [[Positions/X-Guard/Reverse X-Guard]] (Probability: 30%)
+- Execute **[[Transitions/Smash Pass/Attacker|Smash Pass]]** → [[Positions/Half Guard]] (Probability: 55%)
+- Execute **[[Widen base and apply forward pressure/Attacker|Widen base and apply forward pressure]]** → [[Positions/X-Guard/Reverse X-Guard]] (Probability: 30%)
 
 
 **If opponent's hooks are weakening or losing connection to legs:**
-- Execute **[[Transitions/Knee Slice Pass]]** → [[Positions/Side Control]] (Probability: 60%)
-- Execute **[[Transitions/Leg Drag Pass]]** → [[Positions/Leg Drag Control]] (Probability: 50%)
+- Execute **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** → [[Positions/Side Control]] (Probability: 60%)
+- Execute **[[Transitions/Leg Drag Pass/Attacker|Leg Drag Pass]]** → [[Positions/Leg Drag Control]] (Probability: 50%)
 
 
 **If opponent is transitioning to leg lock entry or ankle lock position:**
-- Execute **[[Transitions/Back Step]]** → [[Positions/Standing Position]] (Probability: 65%)
-- Execute **[[Transitions/Sprawl Defense]]** → [[Positions/Front Headlock]] (Probability: 40%)
+- Execute **[[Transitions/Back Step/Attacker|Back Step]]** → [[Positions/Standing Position]] (Probability: 65%)
+- Execute **[[Transitions/Sprawl Defense/Attacker|Sprawl Defense]]** → [[Positions/Front Headlock]] (Probability: 40%)
 
 
 **If opponent transitions to X-Guard or Single Leg X-Guard variation:**
-- Execute **[[Transitions/Long Step Pass]]** → [[Positions/Headquarters Position]] (Probability: 50%)
-- Execute **[[Transitions/Butterfly Pass]]** → [[Positions/Butterfly Guard]] (Probability: 45%)
+- Execute **[[Transitions/Long Step Pass/Attacker|Long Step Pass]]** → [[Positions/Headquarters Position]] (Probability: 50%)
+- Execute **[[Transitions/Butterfly Pass/Attacker|Butterfly Pass]]** → [[Positions/Butterfly Guard]] (Probability: 45%)
 
 
 

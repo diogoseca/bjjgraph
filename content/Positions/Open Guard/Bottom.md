@@ -207,32 +207,32 @@ Open Guard Bottom is a dynamic family of guard positions where the bottom player
 ## Decision Making from This Position
 
 **If opponent is standing or on knees with upright posture:**
-- Execute **[[Transitions/De La Riva Sweep]]** → [[Positions/Standing Position]] (Probability: 55%)
-- Execute **[[Transitions/Sickle Sweep]]** → [[Positions/Mount]] (Probability: 55%)
-- Execute **[[Transitions/Tripod Sweep]]** → [[Positions/Mount]] (Probability: 50%)
+- Execute **[[Transitions/De La Riva Sweep/Attacker|De La Riva Sweep]]** → [[Positions/Standing Position]] (Probability: 55%)
+- Execute **[[Transitions/Sickle Sweep/Attacker|Sickle Sweep]]** → [[Positions/Mount]] (Probability: 55%)
+- Execute **[[Transitions/Tripod Sweep/Attacker|Tripod Sweep]]** → [[Positions/Mount]] (Probability: 50%)
 
 
 **If opponent attempts to pass with knee cut or slice:**
-- Execute **[[Transitions/Shin Shield Recovery]]** → [[Positions/Half Guard/Knee Shield Half Guard]] (Probability: 50%)
-- Execute **[[Transitions/Open Guard to Deep Half]]** → [[Positions/Half Guard/Deep Half Guard]] (Probability: 45%)
-- Execute **[[Transitions/Berimbolo Entry]]** → [[Positions/Back Control]] (Probability: 40%)
+- Execute **[[Transitions/Shin Shield Recovery/Attacker|Shin Shield Recovery]]** → [[Positions/Half Guard/Knee Shield Half Guard]] (Probability: 50%)
+- Execute **[[Transitions/Open Guard to Deep Half/Attacker|Open Guard to Deep Half]]** → [[Positions/Half Guard/Deep Half Guard]] (Probability: 45%)
+- Execute **[[Transitions/Berimbolo Entry/Attacker|Berimbolo Entry]]** → [[Positions/Back Control]] (Probability: 40%)
 
 
 **If opponent drives forward with pressure passing:**
-- Execute **[[Transitions/Butterfly Sweep]]** → [[Positions/Mount]] (Probability: 60%)
-- Execute **[[Transitions/Elevator Sweep]]** → [[Positions/Mount]] (Probability: 50%)
-- Execute **[[Transitions/Collar Drag from Open Guard]]** → [[Positions/Back Control]] (Probability: 45%)
+- Execute **[[Transitions/Butterfly Sweep/Attacker|Butterfly Sweep]]** → [[Positions/Mount]] (Probability: 60%)
+- Execute **[[Transitions/Elevator Sweep/Attacker|Elevator Sweep]]** → [[Positions/Mount]] (Probability: 50%)
+- Execute **[[Transitions/Collar Drag from Open Guard/Attacker|Collar Drag from Open Guard]]** → [[Positions/Back Control]] (Probability: 45%)
 
 
 **If opponent establishes strong grips and attempts toreando:**
-- Execute **[[Transitions/Reverse De La Riva Recovery]]** → [[Positions/De La Riva Guard/Reverse De La Riva Guard]] (Probability: 50%)
-- Execute **[[Transitions/Granby to Closed Guard]]** → [[Positions/Closed Guard]] (Probability: 45%)
+- Execute **[[Transitions/Reverse De La Riva Recovery/Attacker|Reverse De La Riva Recovery]]** → [[Positions/De La Riva Guard/Reverse De La Riva Guard]] (Probability: 50%)
+- Execute **[[Transitions/Granby to Closed Guard/Attacker|Granby to Closed Guard]]** → [[Positions/Closed Guard]] (Probability: 45%)
 
 
 **If opponent postures up and creates distance:**
-- Execute **[[Transitions/Butterfly Guard to X-Guard]]** → [[Positions/X-Guard]] (Probability: 55%)
-- Execute **[[Transitions/De La Riva to X-Guard Transition]]** → [[Positions/X-Guard]] (Probability: 50%)
-- Execute **[[Transitions/Scissor Sweep from Open Guard]]** → [[Positions/Mount]] (Probability: 50%)
+- Execute **[[Transitions/Butterfly Guard to X-Guard/Attacker|Butterfly Guard to X-Guard]]** → [[Positions/X-Guard]] (Probability: 55%)
+- Execute **[[Transitions/De La Riva to X-Guard Transition/Attacker|De La Riva to X-Guard Transition]]** → [[Positions/X-Guard]] (Probability: 50%)
+- Execute **[[Transitions/Scissor Sweep from Open Guard/Attacker|Scissor Sweep from Open Guard]]** → [[Positions/Mount]] (Probability: 50%)
 
 
 

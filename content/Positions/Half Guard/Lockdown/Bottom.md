@@ -207,23 +207,23 @@ Lockdown Bottom is 10th Planet's signature half guard variation where the bottom
 ## Decision Making from This Position
 
 **If opponent maintains high posture with weight back, trying to extract trapped leg:**
-- Execute **[[Transitions/Old School Sweep]]** → [[Positions/Mount]] (Probability: 70%)
-- Execute **[[Transitions/Electric Chair Transition]]** → [[Positions/Half Guard/Electric Chair]] (Probability: 60%)
+- Execute **[[Transitions/Old School Sweep/Attacker|Old School Sweep]]** → [[Positions/Mount]] (Probability: 70%)
+- Execute **[[Transitions/Electric Chair Transition/Attacker|Electric Chair Transition]]** → [[Positions/Half Guard/Electric Chair]] (Probability: 60%)
 
 
 **If opponent drives forward with heavy crossface pressure and low posture:**
-- Execute **[[Transitions/Whip-up Sweep]]** → [[Positions/Dogfight Position]] (Probability: 65%)
-- Execute **[[Transitions/Roll to Truck]]** → [[Positions/Twister Control/Truck]] (Probability: 55%)
+- Execute **[[Transitions/Whip-up Sweep/Attacker|Whip-up Sweep]]** → [[Positions/Dogfight Position]] (Probability: 65%)
+- Execute **[[Transitions/Roll to Truck/Attacker|Roll to Truck]]** → [[Positions/Twister Control/Truck]] (Probability: 55%)
 
 
 **If opponent establishes underhook and attempts knee slice pass:**
-- Execute **[[Transitions/Deep Half Entry]]** → [[Positions/Half Guard/Deep Half Guard]] (Probability: 60%)
-- Execute **[[Transitions/Lockdown Recovery]]** → [[Positions/Half Guard/Lockdown]] (Probability: 50%)
+- Execute **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** → [[Positions/Half Guard/Deep Half Guard]] (Probability: 60%)
+- Execute **[[Transitions/Lockdown Recovery/Attacker|Lockdown Recovery]]** → [[Positions/Half Guard/Lockdown]] (Probability: 50%)
 
 
 **If opponent maintains neutral posture in half guard without committing:**
-- Execute **[[Transitions/Underhook Sweep from Half]]** → [[Positions/Side Control]] (Probability: 60%)
-- Execute **[[Transitions/Kimura]]** → [[Positions/Kimura Trap]] (Probability: 55%)
+- Execute **[[Transitions/Underhook Sweep from Half/Attacker|Underhook Sweep from Half]]** → [[Positions/Side Control]] (Probability: 60%)
+- Execute **[[Transitions/Kimura/Attacker|Kimura]]** → [[Positions/Kimura Trap]] (Probability: 55%)
 
 
 

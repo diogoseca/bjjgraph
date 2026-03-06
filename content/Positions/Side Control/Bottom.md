@@ -206,28 +206,28 @@ Side Control Bottom is one of the most challenging defensive positions in Brazil
 ## Decision Making from This Position
 
 **If opponent settles heavy chest pressure with tight crossface and hip control:**
-- Execute **[[Principles/Frame Creation]]** → [[Defensive frames established]] (Probability: 60%)
-- Execute **[[Transitions/Ghost Escape]]** → [[Positions/Turtle]] (Probability: 35%)
+- Execute **[[Principles/Frame Creation/Attacker|Frame Creation]]** → [[Defensive frames established]] (Probability: 60%)
+- Execute **[[Transitions/Ghost Escape/Attacker|Ghost Escape]]** → [[Positions/Turtle]] (Probability: 35%)
 
 
 **If opponent transitions toward mount raising hips:**
-- Execute **[[Transitions/Elbow Escape to Guard]]** → [[Positions/Half Guard]] (Probability: 50%)
-- Execute **[[Transitions/Hip Escape to Guard]]** → [[Positions/Half Guard/Knee Shield Half Guard]] (Probability: 45%)
+- Execute **[[Transitions/Elbow Escape to Guard/Attacker|Elbow Escape to Guard]]** → [[Positions/Half Guard]] (Probability: 50%)
+- Execute **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** → [[Positions/Half Guard/Knee Shield Half Guard]] (Probability: 45%)
 
 
 **If opponent attacks submission lifting weight off hips:**
-- Execute **[[Transitions/Side Control Escape]]** → [[Positions/Butterfly Guard]] (Probability: 40%)
-- Execute **[[Transitions/Frame and Shrimp to Guard]]** → [[Positions/Closed Guard]] (Probability: 38%)
+- Execute **[[Transitions/Side Control Escape/Attacker|Side Control Escape]]** → [[Positions/Butterfly Guard]] (Probability: 40%)
+- Execute **[[Transitions/Frame and Shrimp to Guard/Attacker|Frame and Shrimp to Guard]]** → [[Positions/Closed Guard]] (Probability: 38%)
 
 
 **If opponent transitions to north-south creating hip space:**
-- Execute **[[Transitions/Hip Escape to Guard]]** → [[Positions/Half Guard/Knee Shield Half Guard]] (Probability: 45%)
-- Execute **[[Transitions/Hip Escape to Guard]]** → [[Positions/Half Guard/Deep Half Guard]] (Probability: 35%)
+- Execute **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** → [[Positions/Half Guard/Knee Shield Half Guard]] (Probability: 45%)
+- Execute **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** → [[Positions/Half Guard/Deep Half Guard]] (Probability: 35%)
 
 
 **If opponent drives aggressive crossface creating turning momentum:**
-- Execute **[[Transitions/Ghost Escape]]** → [[Positions/Turtle]] (Probability: 50%)
-- Execute **[[Transitions/Bridge and Roll]]** → [[Positions/Closed Guard]] (Probability: 25%)
+- Execute **[[Transitions/Ghost Escape/Attacker|Ghost Escape]]** → [[Positions/Turtle]] (Probability: 50%)
+- Execute **[[Transitions/Bridge and Roll/Attacker|Bridge and Roll]]** → [[Positions/Closed Guard]] (Probability: 25%)
 
 
 

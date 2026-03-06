@@ -205,23 +205,23 @@ Williams Guard Top represents the challenging defensive and passing position fac
 ## Decision Making from This Position
 
 **If opponent applies increasing shoulder lock pressure for submission finish:**
-- Execute **[[Transitions/Arm Extraction]]** → [[Positions/Combat Base]] (Probability: 60%)
-- Execute **[[Transitions/Stack Pass]]** → [[Positions/Side Control]] (Probability: 45%)
+- Execute **[[Transitions/Arm Extraction/Attacker|Arm Extraction]]** → [[Positions/Combat Base]] (Probability: 60%)
+- Execute **[[Transitions/Stack Pass/Attacker|Stack Pass]]** → [[Positions/Side Control]] (Probability: 45%)
 
 
 **Else if opponent begins transitioning to omoplata position:**
-- Execute **[[Transitions/Pressure Pass]]** → [[Positions/Side Control]] (Probability: 65%)
-- Execute **[[Transitions/Posture Recovery]]** → [[Positions/Open Guard]] (Probability: 55%)
+- Execute **[[Transitions/Pressure Pass/Attacker|Pressure Pass]]** → [[Positions/Side Control]] (Probability: 65%)
+- Execute **[[Transitions/Posture Recovery/Attacker|Posture Recovery]]** → [[Positions/Open Guard]] (Probability: 55%)
 
 
 **Else if opponent sets up triangle by opening guard wider:**
-- Execute **[[Transitions/Knee Cut Pass]]** → [[Positions/Side Control]] (Probability: 70%)
-- Execute **[[Transitions/Knee Slice Pass]]** → [[Positions/Side Control]] (Probability: 60%)
+- Execute **[[Transitions/Knee Cut Pass/Attacker|Knee Cut Pass]]** → [[Positions/Side Control]] (Probability: 70%)
+- Execute **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** → [[Positions/Side Control]] (Probability: 60%)
 
 
 **Else if opponent maintains static shoulder lock control without progression:**
-- Execute **[[Transitions/Arm Extraction]]** → [[Positions/Combat Base]] (Probability: 75%)
-- Execute **[[Transitions/Posture Recovery]]** → [[Positions/Open Guard]] (Probability: 65%)
+- Execute **[[Transitions/Arm Extraction/Attacker|Arm Extraction]]** → [[Positions/Combat Base]] (Probability: 75%)
+- Execute **[[Transitions/Posture Recovery/Attacker|Posture Recovery]]** → [[Positions/Open Guard]] (Probability: 65%)
 
 
 

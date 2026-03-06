@@ -206,28 +206,28 @@ Knee on Belly Bottom is a highly disadvantageous defensive position where the pr
 ## Decision Making from This Position
 
 **If opponent's weight is fully committed to knee pressure with hands posted low:**
-- Execute **[[Transitions/Hip Escape to Guard]]** → [[Positions/Half Guard]] (Probability: 50%)
-- Execute **[[Transitions/Elbow Escape to Guard]]** → [[Positions/Closed Guard]] (Probability: 45%)
+- Execute **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** → [[Positions/Half Guard]] (Probability: 50%)
+- Execute **[[Transitions/Elbow Escape to Guard/Attacker|Elbow Escape to Guard]]** → [[Positions/Closed Guard]] (Probability: 45%)
 
 
 **If opponent lifts knee to transition to mount or north-south:**
-- Execute **[[Transitions/Frame and Shrimp to Guard]]** → [[Positions/Open Guard]] (Probability: 60%)
-- Execute **[[Transitions/Knee Shield Retention]]** → [[Positions/Half Guard/Knee Shield Half Guard]] (Probability: 55%)
+- Execute **[[Transitions/Frame and Shrimp to Guard/Attacker|Frame and Shrimp to Guard]]** → [[Positions/Open Guard]] (Probability: 60%)
+- Execute **[[Transitions/Knee Shield Retention/Attacker|Knee Shield Retention]]** → [[Positions/Half Guard/Knee Shield Half Guard]] (Probability: 55%)
 
 
 **If opponent attempts submission and loses base stability:**
-- Execute **[[Transitions/Ghost Escape]]** → [[Positions/Turtle]] (Probability: 50%)
-- Execute **[[Transitions/Technical Stand-up]]** → [[Positions/Clinch]] (Probability: 35%)
+- Execute **[[Transitions/Ghost Escape/Attacker|Ghost Escape]]** → [[Positions/Turtle]] (Probability: 50%)
+- Execute **[[Transitions/Technical Stand-up/Attacker|Technical Stand-up]]** → [[Positions/Clinch]] (Probability: 35%)
 
 
 **If opponent controls far side collar and near side arm:**
-- Execute **[[Transitions/Shrimp Escape]]** → [[Positions/Half Guard]] (Probability: 45%)
-- Execute **[[Transitions/Deep Half Entry]]** → [[Positions/Half Guard/Deep Half Guard]] (Probability: 40%)
+- Execute **[[Transitions/Shrimp Escape/Attacker|Shrimp Escape]]** → [[Positions/Half Guard]] (Probability: 45%)
+- Execute **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** → [[Positions/Half Guard/Deep Half Guard]] (Probability: 40%)
 
 
 **If opponent's base is narrow with feet close together:**
-- Execute **[[Transitions/Frame and Shrimp to Guard]]** → [[Positions/Butterfly Guard]] (Probability: 55%)
-- Execute **[[Transitions/Hip Escape to Guard]]** → [[Positions/Open Guard]] (Probability: 50%)
+- Execute **[[Transitions/Frame and Shrimp to Guard/Attacker|Frame and Shrimp to Guard]]** → [[Positions/Butterfly Guard]] (Probability: 55%)
+- Execute **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** → [[Positions/Open Guard]] (Probability: 50%)
 
 
 

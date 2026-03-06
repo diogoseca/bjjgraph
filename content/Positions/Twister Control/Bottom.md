@@ -213,24 +213,24 @@ The energy dynamics of being stuck in Twister Control Bottom are particularly ch
 ## Decision Making from This Position
 
 **Opponent is establishing initial Twister Control with partial leg capture:**
-- Execute **[[Immediate Leg Defense]]** → [[Positions/Open Guard]] (Probability: 60%)
-- Execute **[[Turn Into Opponent]]** → [[Positions/Half Guard]] (Probability: 40%)
+- Execute **[[Immediate Leg Defense/Attacker|Immediate Leg Defense]]** → [[Positions/Open Guard]] (Probability: 60%)
+- Execute **[[Turn Into Opponent/Attacker|Turn Into Opponent]]** → [[Positions/Half Guard]] (Probability: 40%)
 
 
 **Twister Control is fully established with deep rotation and leg control:**
-- Execute **[[Protect Neck First]]** → [[Positions/Twister Control]] (Probability: 65%)
-- Execute **[[Work Leg Extraction]]** → [[Positions/Half Guard]] (Probability: 35%)
+- Execute **[[Protect Neck First/Attacker|Protect Neck First]]** → [[Positions/Twister Control]] (Probability: 65%)
+- Execute **[[Work Leg Extraction/Attacker|Work Leg Extraction]]** → [[Positions/Half Guard]] (Probability: 35%)
 
 
 **Opponent is hunting for Twister submission grip with rotation maximized:**
-- Execute **[[Hand Fight Submission Grip]]** → [[Positions/Twister Control]] (Probability: 40%)
-- Execute **[[Roll Through With Twist]]** → [[Positions/Open Guard]] (Probability: 30%)
-- Execute **[[Tap for Safety]]** → [[Positions/Game Over]] (Probability: 30%)
+- Execute **[[Hand Fight Submission Grip/Attacker|Hand Fight Submission Grip]]** → [[Positions/Twister Control]] (Probability: 40%)
+- Execute **[[Roll Through With Twist/Attacker|Roll Through With Twist]]** → [[Positions/Open Guard]] (Probability: 30%)
+- Execute **[[Tap for Safety/Attacker|Tap for Safety]]** → [[Positions/Game Over]] (Probability: 30%)
 
 
 **Opponent transitions to alternative attack losing some rotational control:**
-- Execute **[[Explosive Escape Attempt]]** → [[Positions/Open Guard]] (Probability: 55%)
-- Execute **[[Extract Trapped Leg]]** → [[Positions/Half Guard]] (Probability: 45%)
+- Execute **[[Explosive Escape Attempt/Attacker|Explosive Escape Attempt]]** → [[Positions/Open Guard]] (Probability: 55%)
+- Execute **[[Extract Trapped Leg/Attacker|Extract Trapped Leg]]** → [[Positions/Half Guard]] (Probability: 45%)
 
 
 

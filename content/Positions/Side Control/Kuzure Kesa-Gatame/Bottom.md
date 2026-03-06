@@ -209,18 +209,18 @@ The position also demands exceptional conditioning and mental resilience. The co
 ## Decision Making from This Position
 
 **If opponent maintains constant hip pressure and low chest position preventing arm recovery:**
-- Execute **[[Transitions/Granby Roll to Guard]]** → [[Positions/Turtle]] (Probability: 45%)
-- Execute **[[Transitions/Elbow Escape to Guard]]** → [[Positions/Half Guard]] (Probability: 35%)
+- Execute **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** → [[Positions/Turtle]] (Probability: 45%)
+- Execute **[[Transitions/Elbow Escape to Guard/Attacker|Elbow Escape to Guard]]** → [[Positions/Half Guard]] (Probability: 35%)
 
 
 **Else if opponent shifts weight forward to attack trapped arm for submission:**
-- Execute **[[Transitions/Bridge and Roll]]** → [[Positions/Side Control]] (Probability: 40%)
-- Execute **[[Transitions/Arm Recovery to Guard]]** → [[Positions/Closed Guard]] (Probability: 35%)
+- Execute **[[Transitions/Bridge and Roll/Attacker|Bridge and Roll]]** → [[Positions/Side Control]] (Probability: 40%)
+- Execute **[[Transitions/Arm Recovery to Guard/Attacker|Arm Recovery to Guard]]** → [[Positions/Closed Guard]] (Probability: 35%)
 
 
 **Else if opponent's base leg extends too far creating space on far side:**
-- Execute **[[Transitions/Re-Guard from Headquarters]]** → [[Positions/Open Guard]] (Probability: 50%)
-- Execute **[[Transitions/Technical Stand-up]]** → [[Positions/Clinch]] (Probability: 30%)
+- Execute **[[Transitions/Re-Guard from Headquarters/Attacker|Re-Guard from Headquarters]]** → [[Positions/Open Guard]] (Probability: 50%)
+- Execute **[[Transitions/Technical Stand-up/Attacker|Technical Stand-up]]** → [[Positions/Clinch]] (Probability: 30%)
 
 
 

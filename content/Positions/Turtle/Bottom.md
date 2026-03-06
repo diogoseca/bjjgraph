@@ -206,28 +206,28 @@ Turtle Bottom is a defensive position where the bottom practitioner is on their 
 ## Decision Making from This Position
 
 **If opponent has seatbelt control but no hooks in:**
-- Execute **[[Principles/Hand Fighting]]** → [[Positions/Closed Guard]] (Probability: 50%)
-- Execute **[[Explosive Standup]]** → [[Positions/Scramble Position]] (Probability: 40%)
+- Execute **[[Principles/Hand Fighting/Attacker|Hand Fighting]]** → [[Positions/Closed Guard]] (Probability: 50%)
+- Execute **[[Explosive Standup/Attacker|Explosive Standup]]** → [[Positions/Scramble Position]] (Probability: 40%)
 
 
 **If opponent is attempting front headlock control:**
-- Execute **[[Circle Away from Choking Arm]]** → [[Positions/Closed Guard]] (Probability: 45%)
-- Execute **[[Sit Through to Half Guard]]** → [[Positions/Half Guard]] (Probability: 50%)
+- Execute **[[Circle Away from Choking Arm/Attacker|Circle Away from Choking Arm]]** → [[Positions/Closed Guard]] (Probability: 45%)
+- Execute **[[Sit Through to Half Guard/Attacker|Sit Through to Half Guard]]** → [[Positions/Half Guard]] (Probability: 50%)
 
 
 **If opponent's weight is high and forward:**
-- Execute **[[Granby Roll]]** → [[Positions/Closed Guard]] (Probability: 55%)
-- Execute **[[Transitions/Peterson Roll]]** → [[Positions/Half Guard]] (Probability: 40%)
+- Execute **[[Granby Roll/Attacker|Granby Roll]]** → [[Positions/Closed Guard]] (Probability: 55%)
+- Execute **[[Transitions/Peterson Roll/Attacker|Peterson Roll]]** → [[Positions/Half Guard]] (Probability: 40%)
 
 
 **If opponent has one hook in but no harness control:**
-- Execute **[[Kick Back Hook Out]]** → [[Positions/Scramble Position]] (Probability: 45%)
-- Execute **[[Roll Over Hook Side]]** → [[Positions/Half Guard]] (Probability: 50%)
+- Execute **[[Kick Back Hook Out/Attacker|Kick Back Hook Out]]** → [[Positions/Scramble Position]] (Probability: 45%)
+- Execute **[[Roll Over Hook Side/Attacker|Roll Over Hook Side]]** → [[Positions/Half Guard]] (Probability: 50%)
 
 
 **If opponent is low and heavy with underhooks:**
-- Execute **[[Deep Half Escape]]** → [[Positions/Half Guard/Deep Half Guard]] (Probability: 40%)
-- Execute **[[Technical Standup]]** → [[Positions/Scramble Position]] (Probability: 35%)
+- Execute **[[Deep Half Escape/Attacker|Deep Half Escape]]** → [[Positions/Half Guard/Deep Half Guard]] (Probability: 40%)
+- Execute **[[Technical Standup/Attacker|Technical Standup]]** → [[Positions/Scramble Position]] (Probability: 35%)
 
 
 

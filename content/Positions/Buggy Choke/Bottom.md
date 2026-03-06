@@ -211,27 +211,27 @@ Successful defense requires abandoning the mindset of maintaining turtle as a sa
 ## Decision Making from This Position
 
 **If opponent is threading arm but second grip not yet secured:**
-- Execute **[[Strip threading arm aggressively]]** → [[Positions/Turtle]] (Probability: 45%)
-- Execute **[[Sit to half guard immediately]]** → [[Positions/Half Guard]] (Probability: 35%)
-- Execute **[[Turn in and face opponent]]** → [[Positions/Open Guard]] (Probability: 20%)
+- Execute **[[Strip threading arm aggressively/Attacker|Strip threading arm aggressively]]** → [[Positions/Turtle]] (Probability: 45%)
+- Execute **[[Sit to half guard immediately/Attacker|Sit to half guard immediately]]** → [[Positions/Half Guard]] (Probability: 35%)
+- Execute **[[Turn in and face opponent/Attacker|Turn in and face opponent]]** → [[Positions/Open Guard]] (Probability: 20%)
 
 
 **If both grips are secured but no significant body pressure yet:**
-- Execute **[[Explosive granby roll away]]** → [[Positions/Closed Guard]] (Probability: 35%)
-- Execute **[[Technical stand up urgently]]** → [[Positions/Standing Position]] (Probability: 25%)
-- Execute **[[Accept back control]]** → [[Positions/Back Control]] (Probability: 40%)
+- Execute **[[Explosive granby roll away/Attacker|Explosive granby roll away]]** → [[Positions/Closed Guard]] (Probability: 35%)
+- Execute **[[Technical stand up urgently/Attacker|Technical stand up urgently]]** → [[Positions/Standing Position]] (Probability: 25%)
+- Execute **[[Accept back control/Attacker|Accept back control]]** → [[Positions/Back Control]] (Probability: 40%)
 
 
 **If full buggy choke control is established with body pressure:**
-- Execute **[[Fight hands to delay choke]]** → [[Buggy Choke Bottom]] (Probability: 30%)
-- Execute **[[Accept back control transition]]** → [[Positions/Back Control]] (Probability: 45%)
-- Execute **[[Tap to avoid injury]]** → [[game-over]] (Probability: 25%)
+- Execute **[[Fight hands to delay choke/Attacker|Fight hands to delay choke]]** → [[Buggy Choke Bottom]] (Probability: 30%)
+- Execute **[[Accept back control transition/Attacker|Accept back control transition]]** → [[Positions/Back Control]] (Probability: 45%)
+- Execute **[[Tap to avoid injury/Attacker|Tap to avoid injury]]** → [[game-over]] (Probability: 25%)
 
 
 **If opponent is attempting to flatten but grips are shallow:**
-- Execute **[[Drive posture up aggressively]]** → [[Positions/Turtle]] (Probability: 40%)
-- Execute **[[Sit to half guard]]** → [[Positions/Half Guard]] (Probability: 35%)
-- Execute **[[Roll to deep half]]** → [[Positions/Half Guard/Deep Half Guard]] (Probability: 25%)
+- Execute **[[Drive posture up aggressively/Attacker|Drive posture up aggressively]]** → [[Positions/Turtle]] (Probability: 40%)
+- Execute **[[Sit to half guard/Attacker|Sit to half guard]]** → [[Positions/Half Guard]] (Probability: 35%)
+- Execute **[[Roll to deep half/Attacker|Roll to deep half]]** → [[Positions/Half Guard/Deep Half Guard]] (Probability: 25%)
 
 
 

@@ -207,23 +207,23 @@ The Leg Weave Top Position is an advanced guard passing control where the top pl
 ## Decision Making from This Position
 
 **If opponent attempts to create frames with arms or recover knee shield position:**
-- Execute **[[Transitions/Knee Slice Pass]]** → [[Positions/Side Control]] (Probability: 65%)
-- Execute **[[Transitions/Leg Weave Pass]]** → [[Positions/Side Control]] (Probability: 60%)
+- Execute **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** → [[Positions/Side Control]] (Probability: 65%)
+- Execute **[[Transitions/Leg Weave Pass/Attacker|Leg Weave Pass]]** → [[Positions/Side Control]] (Probability: 60%)
 
 
 **If opponent turns away or attempts to come up to turtle position:**
-- Execute **[[Transitions/Leg Drag Pass]]** → [[Positions/Back Control]] (Probability: 55%)
-- Execute **[[Transitions/Back Step]]** → [[Positions/Back Control]] (Probability: 50%)
+- Execute **[[Transitions/Leg Drag Pass/Attacker|Leg Drag Pass]]** → [[Positions/Back Control]] (Probability: 55%)
+- Execute **[[Transitions/Back Step/Attacker|Back Step]]** → [[Positions/Back Control]] (Probability: 50%)
 
 
 **If opponent flattens out completely and attempts to use leg positioning to prevent pass:**
-- Execute **[[Transitions/Smash Pass]]** → [[Positions/Side Control]] (Probability: 60%)
-- Execute **[[Transitions/Over-Under Pass]]** → [[Positions/Side Control]] (Probability: 55%)
+- Execute **[[Transitions/Smash Pass/Attacker|Smash Pass]]** → [[Positions/Side Control]] (Probability: 60%)
+- Execute **[[Transitions/Over-Under Pass/Attacker|Over-Under Pass]]** → [[Positions/Side Control]] (Probability: 55%)
 
 
 **If opponent attempts deep half guard entry or underhook sweep:**
-- Execute **[[Transitions/Back Step]]** → [[Positions/Back Control]] (Probability: 45%)
-- Execute **[[Transitions/Sprawl Defense]]** → [[Positions/Headquarters Position]] (Probability: 50%)
+- Execute **[[Transitions/Back Step/Attacker|Back Step]]** → [[Positions/Back Control]] (Probability: 45%)
+- Execute **[[Transitions/Sprawl Defense/Attacker|Sprawl Defense]]** → [[Positions/Headquarters Position]] (Probability: 50%)
 
 
 

@@ -211,23 +211,23 @@ Strategically, the position forces top players into impossible choices—they mu
 ## Decision Making from This Position
 
 **If opponent widens base and posts far leg to defend Kimura submission:**
-- Execute **[[Transitions/Old School Sweep]]** → [[Positions/Mount]] (Probability: 70%)
-- Execute **[[Transitions/Rolling Kimura]]** → [[Positions/Mount]] (Probability: 55%)
+- Execute **[[Transitions/Old School Sweep/Attacker|Old School Sweep]]** → [[Positions/Mount]] (Probability: 70%)
+- Execute **[[Transitions/Rolling Kimura/Attacker|Rolling Kimura]]** → [[Positions/Mount]] (Probability: 55%)
 
 
 **If opponent turns into Kimura grip to alleviate shoulder pressure or defend submission:**
-- Execute **[[Transitions/Kimura to Back Take]]** → [[Positions/Back Control]] (Probability: 75%)
-- Execute **[[Transitions/Half Guard to Back Take]]** → [[Positions/Back Control]] (Probability: 60%)
+- Execute **[[Transitions/Kimura to Back Take/Attacker|Kimura to Back Take]]** → [[Positions/Back Control]] (Probability: 75%)
+- Execute **[[Transitions/Half Guard to Back Take/Attacker|Half Guard to Back Take]]** → [[Positions/Back Control]] (Probability: 60%)
 
 
 **If opponent drives forward aggressively to flatten hips and neutralize Kimura system:**
-- Execute **[[Transitions/Rolling Kimura]]** → [[Positions/Mount]] (Probability: 65%)
-- Execute **[[Transitions/Underhook Sweep from Half]]** → [[Positions/Side Control]] (Probability: 60%)
+- Execute **[[Transitions/Rolling Kimura/Attacker|Rolling Kimura]]** → [[Positions/Mount]] (Probability: 65%)
+- Execute **[[Transitions/Underhook Sweep from Half/Attacker|Underhook Sweep from Half]]** → [[Positions/Side Control]] (Probability: 60%)
 
 
 **If opponent pulls arm back and attempts to extract from Kimura grip:**
-- Execute **[[Transitions/Kimura Sweep]]** → [[Positions/Armbar Control]] (Probability: 80%)
-- Execute **[[Transitions/Closed Guard to Omoplata]]** → [[Positions/Omoplata Control]] (Probability: 50%)
+- Execute **[[Transitions/Kimura Sweep/Attacker|Kimura Sweep]]** → [[Positions/Armbar Control]] (Probability: 80%)
+- Execute **[[Transitions/Closed Guard to Omoplata/Attacker|Closed Guard to Omoplata]]** → [[Positions/Omoplata Control]] (Probability: 50%)
 
 
 

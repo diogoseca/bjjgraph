@@ -93,13 +93,13 @@ The Standing Rear Clinch holds particular importance in no-gi grappling and MMA 
 ### Available Transitions
 
 
-- **[[Transitions/Defense from Standing Rear Clinch]]** (30% of attempts)
+- **[[Transitions/Defense from Standing Rear Clinch/Attacker|Defense from Standing Rear Clinch]]** (30% of attempts)
 
-- **[[Transitions/Standing Switch from Rear Clinch]]** (25% of attempts)
+- **[[Transitions/Standing Switch from Rear Clinch/Attacker|Standing Switch from Rear Clinch]]** (25% of attempts)
 
-- **[[Transitions/Snap Down to Front Headlock]]** (25% of attempts)
+- **[[Transitions/Snap Down to Front Headlock/Attacker|Snap Down to Front Headlock]]** (25% of attempts)
 
-- **[[Transitions/Counter Throw from Standing Rear Clinch]]** (20% of attempts)
+- **[[Transitions/Counter Throw from Standing Rear Clinch/Attacker|Counter Throw from Standing Rear Clinch]]** (20% of attempts)
 
 
 ### Common Mistakes
@@ -160,29 +160,29 @@ The Standing Rear Clinch holds particular importance in no-gi grappling and MMA 
 ### Available Transitions
 
 
-- **[[Transitions/Back Take]]** (16% of attempts)
+- **[[Transitions/Back Take/Attacker|Back Take]]** (16% of attempts)
 
-- **[[Transitions/Body Lock Pass]]** (12% of attempts)
+- **[[Transitions/Body Lock Pass/Attacker|Body Lock Pass]]** (12% of attempts)
 
-- **[[Transitions/Rolling Back Take]]** (10% of attempts)
+- **[[Transitions/Rolling Back Take/Attacker|Rolling Back Take]]** (10% of attempts)
 
-- **[[Transitions/Mat Return to Back Mount]]** (10% of attempts)
+- **[[Transitions/Mat Return to Back Mount/Attacker|Mat Return to Back Mount]]** (10% of attempts)
 
-- **[[Transitions/Double Leg Finish]]** (8% of attempts)
+- **[[Transitions/Double Leg Finish/Attacker|Double Leg Finish]]** (8% of attempts)
 
-- **[[Transitions/Mat Return from Rear Clinch]]** (8% of attempts)
+- **[[Transitions/Mat Return from Rear Clinch/Attacker|Mat Return from Rear Clinch]]** (8% of attempts)
 
-- **[[Transitions/Mat Return from Standing Rear Clinch]]** (8% of attempts)
+- **[[Transitions/Mat Return from Standing Rear Clinch/Attacker|Mat Return from Standing Rear Clinch]]** (8% of attempts)
 
-- **[[Transitions/Rear Clinch to Body Lock]]** (8% of attempts)
+- **[[Transitions/Rear Clinch to Body Lock/Attacker|Rear Clinch to Body Lock]]** (8% of attempts)
 
-- **[[Transitions/Suplex from Rear Clinch]]** (7% of attempts)
+- **[[Transitions/Suplex from Rear Clinch/Attacker|Suplex from Rear Clinch]]** (7% of attempts)
 
-- **[[Transitions/Standing Switch Defense]]** (6% of attempts)
+- **[[Transitions/Standing Switch Defense/Attacker|Standing Switch Defense]]** (6% of attempts)
 
-- **[[Transitions/Rear Naked Choke Setup]]** (5% of attempts)
+- **[[Transitions/Rear Naked Choke Setup/Attacker|Rear Naked Choke Setup]]** (5% of attempts)
 
-- **[[Submissions/Standing RNC from Rear Clinch]]** (2% of attempts)
+- **[[Submissions/Standing RNC from Rear Clinch/Attacker|Standing RNC from Rear Clinch]]** (2% of attempts)
 
 
 ### Common Mistakes

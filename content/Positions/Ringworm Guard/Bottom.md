@@ -209,23 +209,23 @@ Strategically, Ringworm Guard Bottom sits within the broader lapel guard ecosyst
 ## Decision Making from This Position
 
 **If opponent stands upright and attempts to back away from the guard:**
-- Execute **[[Transitions/Lapel Sweep to Back]]** → [[Positions/Mount]] (Probability: 55%)
-- Execute **[[Transitions/Ringworm Sweep to Back Control]]** → [[Positions/Back Control]] (Probability: 50%)
+- Execute **[[Transitions/Lapel Sweep to Back/Attacker|Lapel Sweep to Back]]** → [[Positions/Mount]] (Probability: 55%)
+- Execute **[[Transitions/Ringworm Sweep to Back Control/Attacker|Ringworm Sweep to Back Control]]** → [[Positions/Back Control]] (Probability: 50%)
 
 
 **If opponent drops into combat base and attempts to control your hips:**
-- Execute **[[Transitions/Triangle Setup]]** → [[Positions/Triangle Control]] (Probability: 45%)
-- Execute **[[Transitions/Ringworm Guard to Worm Guard]]** → [[Positions/Worm Guard]] (Probability: 60%)
+- Execute **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** → [[Positions/Triangle Control]] (Probability: 45%)
+- Execute **[[Transitions/Ringworm Guard to Worm Guard/Attacker|Ringworm Guard to Worm Guard]]** → [[Positions/Worm Guard]] (Probability: 60%)
 
 
 **If opponent establishes strong crossface and begins passing to the side:**
-- Execute **[[Transitions/Berimbolo Entry]]** → [[Positions/Back Control]] (Probability: 40%)
-- Execute **[[Transitions/Omoplata to Sweep]]** → [[Positions/Omoplata Control]] (Probability: 35%)
+- Execute **[[Transitions/Berimbolo Entry/Attacker|Berimbolo Entry]]** → [[Positions/Back Control]] (Probability: 40%)
+- Execute **[[Transitions/Omoplata to Sweep/Attacker|Omoplata to Sweep]]** → [[Positions/Omoplata Control]] (Probability: 35%)
 
 
 **If opponent successfully begins to extract their leg from the lapel wrap:**
-- Execute **[[Lapel Retention and Re-wrap]]** → [[Positions/Ringworm Guard]] (Probability: 50%)
-- Execute **[[Switch to Squid Guard Configuration]]** → [[Positions/Squid Guard]] (Probability: 45%)
+- Execute **[[Lapel Retention and Re-wrap/Attacker|Lapel Retention and Re-wrap]]** → [[Positions/Ringworm Guard]] (Probability: 50%)
+- Execute **[[Switch to Squid Guard Configuration/Attacker|Switch to Squid Guard Configuration]]** → [[Positions/Squid Guard]] (Probability: 45%)
 
 
 

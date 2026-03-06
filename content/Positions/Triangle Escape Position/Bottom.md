@@ -211,23 +211,23 @@ Success from the bottom perspective typically leads directly to guard passing po
 ## Decision Making from This Position
 
 **If opponent has shallow triangle with weak angle and no arm isolation:**
-- Execute **[[Transitions/Posture Recovery]]** → [[Positions/Combat Base]] (Probability: 60%)
-- Execute **[[Transitions/Arm Extraction]]** → [[Positions/Closed Guard]] (Probability: 50%)
+- Execute **[[Transitions/Posture Recovery/Attacker|Posture Recovery]]** → [[Positions/Combat Base]] (Probability: 60%)
+- Execute **[[Transitions/Arm Extraction/Attacker|Arm Extraction]]** → [[Positions/Closed Guard]] (Probability: 50%)
 
 
 **If opponent has deep triangle with good angle but defender maintains strong posture:**
-- Execute **[[Transitions/Stack Pass]]** → [[Positions/Side Control]] (Probability: 55%)
-- Execute **[[Transitions/Triangle Escape]]** → [[Positions/Open Guard]] (Probability: 45%)
+- Execute **[[Transitions/Stack Pass/Attacker|Stack Pass]]** → [[Positions/Side Control]] (Probability: 55%)
+- Execute **[[Transitions/Triangle Escape/Attacker|Triangle Escape]]** → [[Positions/Open Guard]] (Probability: 45%)
 
 
 **If opponent transitions to armbar while maintaining triangle pressure:**
-- Execute **[[Transitions/Armbar Defense]]** → [[Positions/Closed Guard]] (Probability: 45%)
-- Execute **[[Transitions/Posture Recovery]]** → [[Positions/Combat Base]] (Probability: 35%)
+- Execute **[[Transitions/Armbar Defense/Attacker|Armbar Defense]]** → [[Positions/Closed Guard]] (Probability: 45%)
+- Execute **[[Transitions/Posture Recovery/Attacker|Posture Recovery]]** → [[Positions/Combat Base]] (Probability: 35%)
 
 
 **If opponent loosens triangle momentarily to readjust figure-four lock:**
-- Execute **[[Transitions/Arm Extraction]]** → [[Positions/Closed Guard]] (Probability: 55%)
-- Execute **[[Transitions/Standing up in Base]]** → [[Positions/Open Guard]] (Probability: 45%)
+- Execute **[[Transitions/Arm Extraction/Attacker|Arm Extraction]]** → [[Positions/Closed Guard]] (Probability: 55%)
+- Execute **[[Transitions/Standing up in Base/Attacker|Standing up in Base]]** → [[Positions/Open Guard]] (Probability: 45%)
 
 
 

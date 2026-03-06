@@ -216,29 +216,29 @@ In the 10th Planet system, Chill Dog Bottom serves as a gateway back to offensiv
 ## Decision Making from This Position
 
 **If opponent establishes strong chest pressure and attempts to flatten turtle:**
-- Execute **[[Granby Roll]]** → [[Positions/Closed Guard]] (Probability: 45%)
-- Execute **[[Hip Escape]]** → [[Positions/Half Guard]] (Probability: 40%)
+- Execute **[[Granby Roll/Attacker|Granby Roll]]** → [[Positions/Closed Guard]] (Probability: 45%)
+- Execute **[[Hip Escape/Attacker|Hip Escape]]** → [[Positions/Half Guard]] (Probability: 40%)
 
 
 **If opponent circles to attack back or attempts to establish hooks:**
-- Execute **[[Turn into opponent]]** → [[Positions/Butterfly Guard]] (Probability: 40%)
-- Execute **[[Granby Roll]]** → [[Positions/Closed Guard]] (Probability: 35%)
-- Execute **[[Transitions/Technical Stand-up]]** → [[Positions/Clinch]] (Probability: 50%)
+- Execute **[[Turn into opponent/Attacker|Turn into opponent]]** → [[Positions/Butterfly Guard]] (Probability: 40%)
+- Execute **[[Granby Roll/Attacker|Granby Roll]]** → [[Positions/Closed Guard]] (Probability: 35%)
+- Execute **[[Transitions/Technical Stand-up/Attacker|Technical Stand-up]]** → [[Positions/Clinch]] (Probability: 50%)
 
 
 **If opponent attempts front headlock control or guillotine setup:**
-- Execute **[[Transitions/Technical Stand-up]]** → [[Positions/Clinch]] (Probability: 55%)
-- Execute **[[Pull head free and sit to guard]]** → [[Positions/Open Guard]] (Probability: 40%)
+- Execute **[[Transitions/Technical Stand-up/Attacker|Technical Stand-up]]** → [[Positions/Clinch]] (Probability: 55%)
+- Execute **[[Pull head free and sit to guard/Attacker|Pull head free and sit to guard]]** → [[Positions/Open Guard]] (Probability: 40%)
 
 
 **If opponent attempts to isolate arm for crucifix or kimura:**
-- Execute **[[Pull arm back and roll]]** → [[Positions/Half Guard]] (Probability: 45%)
-- Execute **[[Post on isolated arm and stand]]** → [[Positions/Clinch]] (Probability: 40%)
+- Execute **[[Pull arm back and roll/Attacker|Pull arm back and roll]]** → [[Positions/Half Guard]] (Probability: 45%)
+- Execute **[[Post on isolated arm and stand/Attacker|Post on isolated arm and stand]]** → [[Positions/Clinch]] (Probability: 40%)
 
 
 **If opponent attempts to establish truck or cross-body ride control:**
-- Execute **[[Transitions/Rolling to Guard]]** → [[Positions/Open Guard]] (Probability: 50%)
-- Execute **[[Straighten bottom leg and turn in]]** → [[Positions/Half Guard]] (Probability: 45%)
+- Execute **[[Transitions/Rolling to Guard/Attacker|Rolling to Guard]]** → [[Positions/Open Guard]] (Probability: 50%)
+- Execute **[[Straighten bottom leg and turn in/Attacker|Straighten bottom leg and turn in]]** → [[Positions/Half Guard]] (Probability: 45%)
 
 
 

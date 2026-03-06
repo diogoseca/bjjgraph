@@ -211,27 +211,27 @@ Armbar Control Top is accessible from multiple positions including mount, guard,
 ## Decision Making from This Position
 
 **If opponent keeps arm straight and does not attempt to stack or create defensive posture:**
-- Execute **[[Transitions/Armbar Finish]]** → [[game-over]] (Probability: 75%)
+- Execute **[[Transitions/Armbar Finish/Attacker|Armbar Finish]]** → [[game-over]] (Probability: 75%)
 
 
 **If opponent attempts to stack by driving forward and posting on their free arm:**
-- Execute **[[Transitions/Triangle Setup]]** → [[Positions/Triangle Control]] (Probability: 60%)
-- Execute **[[Transitions/Triangle to Armbar]]** → [[Positions/Triangle Control]] (Probability: 55%)
+- Execute **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** → [[Positions/Triangle Control]] (Probability: 60%)
+- Execute **[[Transitions/Triangle to Armbar/Attacker|Triangle to Armbar]]** → [[Positions/Triangle Control]] (Probability: 55%)
 
 
 **If opponent successfully bends their trapped arm and begins tucking elbow to chest:**
-- Execute **[[Transitions/Closed Guard to Omoplata]]** → [[Positions/Omoplata Control]] (Probability: 50%)
-- Execute **[[Transitions/Triangle to Armbar]]** → [[Positions/Triangle Control]] (Probability: 45%)
+- Execute **[[Transitions/Closed Guard to Omoplata/Attacker|Closed Guard to Omoplata]]** → [[Positions/Omoplata Control]] (Probability: 50%)
+- Execute **[[Transitions/Triangle to Armbar/Attacker|Triangle to Armbar]]** → [[Positions/Triangle Control]] (Probability: 45%)
 
 
 **If opponent attempts to roll through or turn into the submission:**
-- Execute **[[Transitions/Straight Armbar]]** → [[Positions/Armbar Control]] (Probability: 55%)
-- Execute **[[Transitions/Kimura]]** → [[Positions/Kimura Trap]] (Probability: 40%)
+- Execute **[[Transitions/Straight Armbar/Attacker|Straight Armbar]]** → [[Positions/Armbar Control]] (Probability: 55%)
+- Execute **[[Transitions/Kimura/Attacker|Kimura]]** → [[Positions/Kimura Trap]] (Probability: 40%)
 
 
 **If opponent creates space under hips and attempts to pull arm back toward their body:**
-- Execute **[[Transitions/Mount to Armbar]]** → [[Positions/Mount]] (Probability: 50%)
-- Execute **[[Transitions/Triangle Setup]]** → [[Positions/Triangle Control]] (Probability: 45%)
+- Execute **[[Transitions/Mount to Armbar/Attacker|Mount to Armbar]]** → [[Positions/Mount]] (Probability: 50%)
+- Execute **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** → [[Positions/Triangle Control]] (Probability: 45%)
 
 
 

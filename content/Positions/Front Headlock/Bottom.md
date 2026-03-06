@@ -213,23 +213,23 @@ Successful front headlock bottom defense requires remaining calm under pressure.
 ## Decision Making from This Position
 
 **If opponent has guillotine grip with hands locked and is pulling up on neck:**
-- Execute **[[Guillotine Defense - Chin Tuck and Arm Control]]** → [[Positions/Front Headlock]] (Probability: 60%)
-- Execute **[[Forward Roll Escape]]** → [[Positions/Turtle]] (Probability: 30%)
+- Execute **[[Guillotine Defense - Chin Tuck and Arm Control/Attacker|Guillotine Defense - Chin Tuck and Arm Control]]** → [[Positions/Front Headlock]] (Probability: 60%)
+- Execute **[[Forward Roll Escape/Attacker|Forward Roll Escape]]** → [[Positions/Turtle]] (Probability: 30%)
 
 
 **If opponent has arm-in control (one of your arms trapped with their grip) indicating anaconda or darce setup:**
-- Execute **[[Circle Away from Trapped Arm Side]]** → [[Positions/Half Guard]] (Probability: 50%)
-- Execute **[[Roll Through to Guard]]** → [[Positions/Closed Guard]] (Probability: 35%)
+- Execute **[[Circle Away from Trapped Arm Side/Attacker|Circle Away from Trapped Arm Side]]** → [[Positions/Half Guard]] (Probability: 50%)
+- Execute **[[Roll Through to Guard/Attacker|Roll Through to Guard]]** → [[Positions/Closed Guard]] (Probability: 35%)
 
 
 **If opponent's weight is high and forward, attempting to flatten you to mat:**
-- Execute **[[Transitions/Technical Stand-up]]** → [[Positions/Standing Position]] (Probability: 55%)
-- Execute **[[Transitions/Granby Roll to Guard]]** → [[Positions/Closed Guard]] (Probability: 40%)
+- Execute **[[Transitions/Technical Stand-up/Attacker|Technical Stand-up]]** → [[Positions/Standing Position]] (Probability: 55%)
+- Execute **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** → [[Positions/Closed Guard]] (Probability: 40%)
 
 
 **If opponent extends their hips back in sprawl position while maintaining head control:**
-- Execute **[[Circle to Side and Recover Guard]]** → [[Positions/Half Guard]] (Probability: 45%)
-- Execute **[[Drive Forward and Stand]]** → [[Positions/Standing Position]] (Probability: 35%)
+- Execute **[[Circle to Side and Recover Guard/Attacker|Circle to Side and Recover Guard]]** → [[Positions/Half Guard]] (Probability: 45%)
+- Execute **[[Drive Forward and Stand/Attacker|Drive Forward and Stand]]** → [[Positions/Standing Position]] (Probability: 35%)
 
 
 

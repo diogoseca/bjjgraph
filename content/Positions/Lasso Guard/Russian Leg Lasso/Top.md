@@ -207,23 +207,23 @@ Russian Leg Lasso Top is the passing position against one of the most complex la
 ## Decision Making from This Position
 
 **If opponent has strong collar and sleeve grips enhancing lasso control:**
-- Execute **[[Transitions/Grip Break]]** → [[Positions/Open Guard]] (Probability: 60%)
-- Execute **[[Transitions/Posture Recovery]]** → [[Positions/Standing Guard]] (Probability: 40%)
+- Execute **[[Transitions/Grip Break/Attacker|Grip Break]]** → [[Positions/Open Guard]] (Probability: 60%)
+- Execute **[[Transitions/Posture Recovery/Attacker|Posture Recovery]]** → [[Positions/Standing Guard]] (Probability: 40%)
 
 
 **If opponent's lasso is high and tight creating immediate sweep threat:**
-- Execute **[[Transitions/Sprawl Defense]]** → [[Positions/Headquarters Position]] (Probability: 55%)
-- Execute **[[Transitions/Toreando Pass]]** → [[Positions/Side Control]] (Probability: 45%)
+- Execute **[[Transitions/Sprawl Defense/Attacker|Sprawl Defense]]** → [[Positions/Headquarters Position]] (Probability: 55%)
+- Execute **[[Transitions/Toreando Pass/Attacker|Toreando Pass]]** → [[Positions/Side Control]] (Probability: 45%)
 
 
 **If opponent's non-lasso leg is uncontrolled and mobile:**
-- Execute **[[Transitions/Leg Drag Pass]]** → [[Positions/Leg Drag Control]] (Probability: 55%)
-- Execute **[[Transitions/Knee Slice Pass]]** → [[Positions/Half Guard]] (Probability: 45%)
+- Execute **[[Transitions/Leg Drag Pass/Attacker|Leg Drag Pass]]** → [[Positions/Leg Drag Control]] (Probability: 55%)
+- Execute **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** → [[Positions/Half Guard]] (Probability: 45%)
 
 
 **If lasso grip is broken or compromised:**
-- Execute **[[Transitions/Pressure Pass]]** → [[Positions/Half Guard]] (Probability: 60%)
-- Execute **[[Transitions/Lasso Guard Pass]]** → [[Positions/Side Control]] (Probability: 40%)
+- Execute **[[Transitions/Pressure Pass/Attacker|Pressure Pass]]** → [[Positions/Half Guard]] (Probability: 60%)
+- Execute **[[Transitions/Lasso Guard Pass/Attacker|Lasso Guard Pass]]** → [[Positions/Side Control]] (Probability: 40%)
 
 
 

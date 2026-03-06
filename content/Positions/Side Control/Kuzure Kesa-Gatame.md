@@ -95,19 +95,19 @@ The strategic importance of Kuzure Kesa-Gatame in modern BJJ cannot be overstate
 ### Available Transitions
 
 
-- **[[Transitions/Elbow Escape to Guard]]** (22% of attempts)
+- **[[Transitions/Elbow Escape to Guard/Attacker|Elbow Escape to Guard]]** (22% of attempts)
 
-- **[[Transitions/Arm Recovery to Guard]]** (16% of attempts)
+- **[[Transitions/Arm Recovery to Guard/Attacker|Arm Recovery to Guard]]** (16% of attempts)
 
-- **[[Transitions/Bridge and Roll]]** (13% of attempts)
+- **[[Transitions/Bridge and Roll/Attacker|Bridge and Roll]]** (13% of attempts)
 
-- **[[Transitions/Granby Roll to Guard]]** (17% of attempts)
+- **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** (17% of attempts)
 
-- **[[Transitions/Technical Stand-up]]** (11% of attempts)
+- **[[Transitions/Technical Stand-up/Attacker|Technical Stand-up]]** (11% of attempts)
 
-- **[[Transitions/Re-Guard from Headquarters]]** (15% of attempts)
+- **[[Transitions/Re-Guard from Headquarters/Attacker|Re-Guard from Headquarters]]** (15% of attempts)
 
-- **[[Transitions/Frame Escape from Kuzure Kesa]]** (6% of attempts)
+- **[[Transitions/Frame Escape from Kuzure Kesa/Attacker|Frame Escape from Kuzure Kesa]]** (6% of attempts)
 
 
 ### Common Mistakes
@@ -168,25 +168,25 @@ The strategic importance of Kuzure Kesa-Gatame in modern BJJ cannot be overstate
 ### Available Transitions
 
 
-- **[[Transitions/Americana]]** (11% of attempts)
+- **[[Transitions/Americana/Attacker|Americana]]** (11% of attempts)
 
-- **[[Transitions/Armbar Finish]]** (10% of attempts)
+- **[[Transitions/Armbar Finish/Attacker|Armbar Finish]]** (10% of attempts)
 
-- **[[Transitions/Kimura]]** (10% of attempts)
+- **[[Transitions/Kimura/Attacker|Kimura]]** (10% of attempts)
 
-- **[[Transitions/Side Control to Mount]]** (11% of attempts)
+- **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** (11% of attempts)
 
-- **[[Transitions/Side Control to North-South]]** (12% of attempts)
+- **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** (12% of attempts)
 
-- **[[Transitions/Paper Cutter Choke]]** (9% of attempts)
+- **[[Transitions/Paper Cutter Choke/Attacker|Paper Cutter Choke]]** (9% of attempts)
 
-- **[[Transitions/Arm Triangle]]** (10% of attempts)
+- **[[Transitions/Arm Triangle/Attacker|Arm Triangle]]** (10% of attempts)
 
-- **[[Transitions/Breadcutter Choke]]** (8% of attempts)
+- **[[Transitions/Breadcutter Choke/Attacker|Breadcutter Choke]]** (8% of attempts)
 
-- **[[Transitions/Armbar on Free Arm]]** (9% of attempts)
+- **[[Transitions/Armbar on Free Arm/Attacker|Armbar on Free Arm]]** (9% of attempts)
 
-- **[[Transitions/Gift Wrap Control]]** (10% of attempts)
+- **[[Transitions/Gift Wrap Control/Attacker|Gift Wrap Control]]** (10% of attempts)
 
 
 ### Common Mistakes

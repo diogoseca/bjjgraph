@@ -201,27 +201,27 @@ Mental composure under pressure is perhaps the most critical factor in S Mount b
 ## Decision Making from This Position
 
 **If opponent has full S Mount control with leg over head but arm is still bent and protected:**
-- Execute **[[Grip own collar and maintain bent arm defense]]** → [[Positions/Mount/S Mount]] (Probability: 90%)
-- Execute **[[Control opponent's leg with free hand]]** → [[Positions/Mount/S Mount]] (Probability: 85%)
-- Execute **[[Hip escape toward legs while protecting arm]]** → [[Positions/Half Guard]] (Probability: 30%)
+- Execute **[[Grip own collar and maintain bent arm defense/Attacker|Grip own collar and maintain bent arm defense]]** → [[Positions/Mount/S Mount]] (Probability: 90%)
+- Execute **[[Control opponent's leg with free hand/Attacker|Control opponent's leg with free hand]]** → [[Positions/Mount/S Mount]] (Probability: 85%)
+- Execute **[[Hip escape toward legs while protecting arm/Attacker|Hip escape toward legs while protecting arm]]** → [[Positions/Half Guard]] (Probability: 30%)
 
 
 **If opponent is transitioning to S Mount but hasn't fully stepped over head yet:**
-- Execute **[[Frame against hips immediately to prevent step-over]]** → [[Positions/Mount]] (Probability: 45%)
-- Execute **[[Hook opponent's leg with free arm to block transition]]** → [[Positions/Mount]] (Probability: 40%)
-- Execute **[[Bridge explosively to disrupt transition]]** → [[Positions/Mount]] (Probability: 35%)
+- Execute **[[Frame against hips immediately to prevent step-over/Attacker|Frame against hips immediately to prevent step-over]]** → [[Positions/Mount]] (Probability: 45%)
+- Execute **[[Hook opponent's leg with free arm to block transition/Attacker|Hook opponent's leg with free arm to block transition]]** → [[Positions/Mount]] (Probability: 40%)
+- Execute **[[Bridge explosively to disrupt transition/Attacker|Bridge explosively to disrupt transition]]** → [[Positions/Mount]] (Probability: 35%)
 
 
 **If arm is partially extended and opponent is securing armbar grip:**
-- Execute **[[Pull arm back aggressively and re-grip collar]]** → [[Positions/Mount/S Mount]] (Probability: 60%)
-- Execute **[[Roll toward opponent to relieve pressure]]** → [[Positions/Turtle]] (Probability: 40%)
-- Execute **[[Tap if full extension achieved with hips locked]]** → [[Positions/Game Over]] (Probability: 100%)
+- Execute **[[Pull arm back aggressively and re-grip collar/Attacker|Pull arm back aggressively and re-grip collar]]** → [[Positions/Mount/S Mount]] (Probability: 60%)
+- Execute **[[Roll toward opponent to relieve pressure/Attacker|Roll toward opponent to relieve pressure]]** → [[Positions/Turtle]] (Probability: 40%)
+- Execute **[[Tap if full extension achieved with hips locked/Attacker|Tap if full extension achieved with hips locked]]** → [[Positions/Game Over]] (Probability: 100%)
 
 
 **If opponent adjusts position to attack other arm or transition to different submission:**
-- Execute **[[Explosive hip escape during adjustment window]]** → [[Positions/Half Guard]] (Probability: 50%)
-- Execute **[[Establish frames and shrimp to create distance]]** → [[Positions/Open Guard]] (Probability: 45%)
-- Execute **[[Bridge and roll during positional instability]]** → [[Positions/Mount]] (Probability: 25%)
+- Execute **[[Explosive hip escape during adjustment window/Attacker|Explosive hip escape during adjustment window]]** → [[Positions/Half Guard]] (Probability: 50%)
+- Execute **[[Establish frames and shrimp to create distance/Attacker|Establish frames and shrimp to create distance]]** → [[Positions/Open Guard]] (Probability: 45%)
+- Execute **[[Bridge and roll during positional instability/Attacker|Bridge and roll during positional instability]]** → [[Positions/Mount]] (Probability: 25%)
 
 
 

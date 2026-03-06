@@ -214,19 +214,19 @@ The learning progression for Modified Scarf Hold top follows predictable stages.
 ## Decision Making from This Position
 
 **If opponent's near arm is isolated and extended:**
-- Execute **[[Transitions/Americana]]** → [[Americana Control]] (Probability: 65%)
-- Execute **[[Transitions/Kimura]]** → [[Positions/Kimura Trap]] (Probability: 55%)
-- Execute **[[Transitions/Armbar Finish]]** → [[Positions/Armbar Control]] (Probability: 50%)
+- Execute **[[Transitions/Americana/Attacker|Americana]]** → [[Americana Control]] (Probability: 65%)
+- Execute **[[Transitions/Kimura/Attacker|Kimura]]** → [[Positions/Kimura Trap]] (Probability: 55%)
+- Execute **[[Transitions/Armbar Finish/Attacker|Armbar Finish]]** → [[Positions/Armbar Control]] (Probability: 50%)
 
 
 **If opponent attempts to bridge or turn away from pressure:**
-- Execute **[[Transitions/Side Control to Mount]]** → [[Positions/Mount]] (Probability: 70%)
-- Execute **[[Transitions/Back Take from Top]]** → [[Positions/Back Control]] (Probability: 55%)
+- Execute **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** → [[Positions/Mount]] (Probability: 70%)
+- Execute **[[Transitions/Back Take from Top/Attacker|Back Take from Top]]** → [[Positions/Back Control]] (Probability: 55%)
 
 
 **If opponent turns into you to escape chest pressure:**
-- Execute **[[Transitions/Side Control to North-South]]** → [[Positions/North-South]] (Probability: 75%)
-- Execute **[[Transitions/North-South Choke]]** → [[Positions/North-South]] (Probability: 50%)
+- Execute **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** → [[Positions/North-South]] (Probability: 75%)
+- Execute **[[Transitions/North-South Choke/Attacker|North-South Choke]]** → [[Positions/North-South]] (Probability: 50%)
 
 
 

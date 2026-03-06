@@ -217,28 +217,28 @@ From a teaching perspective, the mounted crucifix demonstrates critical concepts
 ## Decision Making from This Position
 
 **If opponent's neck is exposed and both arms are trapped:**
-- Execute **[[Transitions/Rear Naked Choke]]** → [[game-over]] (Probability: 75%)
-- Execute **[[Transitions/Neck Crank]]** → [[game-over]] (Probability: 65%)
+- Execute **[[Transitions/Rear Naked Choke/Attacker|Rear Naked Choke]]** → [[game-over]] (Probability: 75%)
+- Execute **[[Transitions/Neck Crank/Attacker|Neck Crank]]** → [[game-over]] (Probability: 65%)
 
 
 **If opponent extends trapped arm attempting extraction:**
-- Execute **[[Transitions/Armbar Finish]]** → [[game-over]] (Probability: 80%)
-- Execute **[[Transitions/Armbar on Free Arm]]** → [[Positions/Armbar Control]] (Probability: 75%)
+- Execute **[[Transitions/Armbar Finish/Attacker|Armbar Finish]]** → [[game-over]] (Probability: 80%)
+- Execute **[[Transitions/Armbar on Free Arm/Attacker|Armbar on Free Arm]]** → [[Positions/Armbar Control]] (Probability: 75%)
 
 
 **If opponent turns away to defend neck:**
-- Execute **[[Transitions/Back Control to Crucifix]]** → [[Positions/Back Control]] (Probability: 85%)
-- Execute **[[Transitions/Back Take from Top]]** → [[Positions/Back Control/Seat Belt Control Back]] (Probability: 80%)
+- Execute **[[Transitions/Back Control to Crucifix/Attacker|Back Control to Crucifix]]** → [[Positions/Back Control]] (Probability: 85%)
+- Execute **[[Transitions/Back Take from Top/Attacker|Back Take from Top]]** → [[Positions/Back Control/Seat Belt Control Back]] (Probability: 80%)
 
 
 **If opponent creates bridge creating space:**
-- Execute **[[Transitions/Gift Wrap to Technical Mount]]** → [[Positions/Gift Wrap]] (Probability: 70%)
-- Execute **[[Transitions/Mounted Crucifix to S Mount]]** → [[Positions/Mount/High Mount]] (Probability: 65%)
+- Execute **[[Transitions/Gift Wrap to Technical Mount/Attacker|Gift Wrap to Technical Mount]]** → [[Positions/Gift Wrap]] (Probability: 70%)
+- Execute **[[Transitions/Mounted Crucifix to S Mount/Attacker|Mounted Crucifix to S Mount]]** → [[Positions/Mount/High Mount]] (Probability: 65%)
 
 
 **If one arm escapes but opponent remains controlled:**
-- Execute **[[Transitions/Gift Wrap Transition]]** → [[Positions/Gift Wrap]] (Probability: 60%)
-- Execute **[[Transitions/Mount to Armbar]]** → [[Positions/Armbar Control]] (Probability: 70%)
+- Execute **[[Transitions/Gift Wrap Transition/Attacker|Gift Wrap Transition]]** → [[Positions/Gift Wrap]] (Probability: 60%)
+- Execute **[[Transitions/Mount to Armbar/Attacker|Mount to Armbar]]** → [[Positions/Armbar Control]] (Probability: 70%)
 
 
 

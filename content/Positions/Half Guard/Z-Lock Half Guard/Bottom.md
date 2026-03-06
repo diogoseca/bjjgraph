@@ -211,23 +211,23 @@ Developed primarily within the 10th Planet Jiu-Jitsu system and refined by lockd
 ## Decision Making from This Position
 
 **If opponent bases out wide with their free leg to counter butterfly hook attacks:**
-- Execute **[[Transitions/Old School Sweep]]** → [[Positions/Mount]] (Probability: 55%)
-- Execute **[[Transitions/Electric Chair Transition]]** → [[Positions/Half Guard/Electric Chair]] (Probability: 45%)
+- Execute **[[Transitions/Old School Sweep/Attacker|Old School Sweep]]** → [[Positions/Mount]] (Probability: 55%)
+- Execute **[[Transitions/Electric Chair Transition/Attacker|Electric Chair Transition]]** → [[Positions/Half Guard/Electric Chair]] (Probability: 45%)
 
 
 **If opponent drives forward with pressure attempting to flatten bottom player:**
-- Execute **[[Transitions/Deep Half Entry]]** → [[Positions/Half Guard/Deep Half Guard]] (Probability: 60%)
-- Execute **[[Transitions/Lockdown Recovery]]** → [[Positions/Side Control]] (Probability: 40%)
+- Execute **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** → [[Positions/Half Guard/Deep Half Guard]] (Probability: 60%)
+- Execute **[[Transitions/Lockdown Recovery/Attacker|Lockdown Recovery]]** → [[Positions/Side Control]] (Probability: 40%)
 
 
 **If opponent remains centered and defensive with good posture:**
-- Execute **[[Transitions/Butterfly Sweep]]** → [[Positions/Mount]] (Probability: 50%)
-- Execute **[[Transitions/Underhook Sweep from Half]]** → [[Positions/Mount]] (Probability: 45%)
+- Execute **[[Transitions/Butterfly Sweep/Attacker|Butterfly Sweep]]** → [[Positions/Mount]] (Probability: 50%)
+- Execute **[[Transitions/Underhook Sweep from Half/Attacker|Underhook Sweep from Half]]** → [[Positions/Mount]] (Probability: 45%)
 
 
 **If opponent attempts to clear lockdown by straightening their trapped leg:**
-- Execute **[[Transitions/Electric Chair Transition]]** → [[Positions/Half Guard/Electric Chair]] (Probability: 65%)
-- Execute **[[Transitions/Old School Sweep]]** → [[Positions/Mount]] (Probability: 50%)
+- Execute **[[Transitions/Electric Chair Transition/Attacker|Electric Chair Transition]]** → [[Positions/Half Guard/Electric Chair]] (Probability: 65%)
+- Execute **[[Transitions/Old School Sweep/Attacker|Old School Sweep]]** → [[Positions/Mount]] (Probability: 50%)
 
 
 

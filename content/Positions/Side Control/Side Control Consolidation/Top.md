@@ -211,26 +211,26 @@ Mastery of Side Control Consolidation Top separates intermediate from advanced p
 ## Decision Making from This Position
 
 **If opponent maintains tight defensive posture with strong frames and active hip movement:**
-- Execute **[[Pressure Maintenance]]** → [[Positions/Side Control/Side Control Consolidation]] (Probability: 70%)
-- Execute **[[Transitions/Side Control to North-South]]** → [[Positions/North-South]] (Probability: 60%)
-- Execute **[[Transitions/Americana]]** → [[Transitions/Americana]] (Probability: 45%)
+- Execute **[[Pressure Maintenance/Attacker|Pressure Maintenance]]** → [[Positions/Side Control/Side Control Consolidation]] (Probability: 70%)
+- Execute **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** → [[Positions/North-South]] (Probability: 60%)
+- Execute **[[Transitions/Americana/Attacker|Americana]]** → [[Transitions/Americana]] (Probability: 45%)
 
 
 **If opponent begins to flatten and frames start collapsing from sustained pressure:**
-- Execute **[[Transitions/Side Control to Mount]]** → [[Positions/Mount]] (Probability: 75%)
-- Execute **[[Transitions/Kimura]]** → [[Positions/Kimura Trap]] (Probability: 65%)
-- Execute **[[Transitions/Arm Triangle]]** → [[Transitions/Arm Triangle]] (Probability: 60%)
+- Execute **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** → [[Positions/Mount]] (Probability: 75%)
+- Execute **[[Transitions/Kimura/Attacker|Kimura]]** → [[Positions/Kimura Trap]] (Probability: 65%)
+- Execute **[[Transitions/Arm Triangle/Attacker|Arm Triangle]]** → [[Transitions/Arm Triangle]] (Probability: 60%)
 
 
 **If opponent turns into you attempting to recover guard position:**
-- Execute **[[Positions/Knee on Belly]]** → [[Positions/Knee on Belly]] (Probability: 80%)
-- Execute **[[Transitions/Side Control to Mount]]** → [[Positions/Mount]] (Probability: 70%)
+- Execute **[[Positions/Knee on Belly/Attacker|Knee on Belly]]** → [[Positions/Knee on Belly]] (Probability: 80%)
+- Execute **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** → [[Positions/Mount]] (Probability: 70%)
 
 
 **If opponent attempts explosive bridge or hip escape creating temporary space:**
-- Execute **[[Transitions/Side Control to North-South]]** → [[Positions/North-South]] (Probability: 85%)
-- Execute **[[Transitions/Side Control to Mount]]** → [[Positions/Mount]] (Probability: 65%)
-- Execute **[[Transitions/Armbar Finish]]** → [[Positions/Armbar Control]] (Probability: 50%)
+- Execute **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** → [[Positions/North-South]] (Probability: 85%)
+- Execute **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** → [[Positions/Mount]] (Probability: 65%)
+- Execute **[[Transitions/Armbar Finish/Attacker|Armbar Finish]]** → [[Positions/Armbar Control]] (Probability: 50%)
 
 
 

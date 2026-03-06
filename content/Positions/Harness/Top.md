@@ -212,28 +212,28 @@ Strategically, Harness Top Position is considered a premium scoring position (4 
 ## Decision Making from This Position
 
 **If opponent is defending choke with both hands high, protecting neck:**
-- Execute **[[Transitions/Armbar from Back Transition]]** → [[Positions/Armbar Control]] (Probability: 70%)
-- Execute **[[Transitions/Back Control to Crucifix]]** → [[Positions/Crucifix]] (Probability: 65%)
+- Execute **[[Transitions/Armbar from Back Transition/Attacker|Armbar from Back Transition]]** → [[Positions/Armbar Control]] (Probability: 70%)
+- Execute **[[Transitions/Back Control to Crucifix/Attacker|Back Control to Crucifix]]** → [[Positions/Crucifix]] (Probability: 65%)
 
 
 **If opponent is working to remove hooks and turn into you:**
-- Execute **[[Transitions/Rolling Back Take]]** → [[Positions/Back Control/Body Triangle]] (Probability: 60%)
-- Execute **[[Transitions/Rear Naked Choke]]** → [[Positions/Game Over]] (Probability: 75%)
+- Execute **[[Transitions/Rolling Back Take/Attacker|Rolling Back Take]]** → [[Positions/Back Control/Body Triangle]] (Probability: 60%)
+- Execute **[[Transitions/Rear Naked Choke/Attacker|Rear Naked Choke]]** → [[Positions/Game Over]] (Probability: 75%)
 
 
 **If opponent strips top arm and begins to turn to guard:**
-- Execute **[[Transitions/Back Control to Crucifix]]** → [[Positions/Crucifix]] (Probability: 65%)
-- Execute **[[Transitions/Triangle from Back]]** → [[Positions/Triangle Control/Rear Triangle]] (Probability: 55%)
+- Execute **[[Transitions/Back Control to Crucifix/Attacker|Back Control to Crucifix]]** → [[Positions/Crucifix]] (Probability: 65%)
+- Execute **[[Transitions/Triangle from Back/Attacker|Triangle from Back]]** → [[Positions/Triangle Control/Rear Triangle]] (Probability: 55%)
 
 
 **If opponent turtles and hides arms defensively:**
-- Execute **[[Transitions/Bow and Arrow Choke]]** → [[Positions/Game Over]] (Probability: 70%)
-- Execute **[[Transitions/Rear Naked Choke]]** → [[Positions/Game Over]] (Probability: 80%)
+- Execute **[[Transitions/Bow and Arrow Choke/Attacker|Bow and Arrow Choke]]** → [[Positions/Game Over]] (Probability: 70%)
+- Execute **[[Transitions/Rear Naked Choke/Attacker|Rear Naked Choke]]** → [[Positions/Game Over]] (Probability: 80%)
 
 
 **If opponent is flat on stomach trying to prevent hooks:**
-- Execute **[[Transitions/Rolling Back Take]]** → [[Positions/Back Control/Body Triangle]] (Probability: 65%)
-- Execute **[[Transitions/Short Choke]]** → [[Positions/Game Over]] (Probability: 60%)
+- Execute **[[Transitions/Rolling Back Take/Attacker|Rolling Back Take]]** → [[Positions/Back Control/Body Triangle]] (Probability: 65%)
+- Execute **[[Transitions/Short Choke/Attacker|Short Choke]]** → [[Positions/Game Over]] (Probability: 60%)
 
 
 

@@ -211,33 +211,33 @@ In modern Brazilian Jiu-Jitsu, the clinch has evolved beyond simple takedown set
 ## Decision Making from This Position
 
 **If opponent establishes strong underhooks and begins driving forward with pressure:**
-- Execute **[[Transitions/Sprawl Defense]]** → [[Positions/Front Headlock]] (Probability: 60%)
-- Execute **[[Transitions/Guard Pull]]** → [[Positions/Closed Guard]] (Probability: 55%)
+- Execute **[[Transitions/Sprawl Defense/Attacker|Sprawl Defense]]** → [[Positions/Front Headlock]] (Probability: 60%)
+- Execute **[[Transitions/Guard Pull/Attacker|Guard Pull]]** → [[Positions/Closed Guard]] (Probability: 55%)
 
 
 **If opponent maintains upright posture with hands high and limited hip commitment:**
-- Execute **[[Transitions/Snap Down to Front Headlock]]** → [[Positions/Front Headlock]] (Probability: 65%)
-- Execute **[[Transitions/Double Leg Entry]]** → [[Positions/Side Control]] (Probability: 50%)
+- Execute **[[Transitions/Snap Down to Front Headlock/Attacker|Snap Down to Front Headlock]]** → [[Positions/Front Headlock]] (Probability: 65%)
+- Execute **[[Transitions/Double Leg Entry/Attacker|Double Leg Entry]]** → [[Positions/Side Control]] (Probability: 50%)
 
 
 **If opponent secures body lock or double underhooks with head control:**
-- Execute **[[Principles/Frame Creation]]** → [[Positions/Standing Position]] (Probability: 45%)
-- Execute **[[Transitions/Guard Pull]]** → [[Positions/Open Guard]] (Probability: 60%)
+- Execute **[[Principles/Frame Creation/Attacker|Frame Creation]]** → [[Positions/Standing Position]] (Probability: 45%)
+- Execute **[[Transitions/Guard Pull/Attacker|Guard Pull]]** → [[Positions/Open Guard]] (Probability: 60%)
 
 
 **If opponent squares stance or exposes legs while grip fighting:**
-- Execute **[[Transitions/Single Leg Entry]]** → [[Positions/Side Control]] (Probability: 70%)
-- Execute **[[Transitions/Body Lock Pass]]** → [[Positions/Side Control]] (Probability: 55%)
+- Execute **[[Transitions/Single Leg Entry/Attacker|Single Leg Entry]]** → [[Positions/Side Control]] (Probability: 70%)
+- Execute **[[Transitions/Body Lock Pass/Attacker|Body Lock Pass]]** → [[Positions/Side Control]] (Probability: 55%)
 
 
 **If opponent posts hands or attempts to create distance:**
-- Execute **[[Transitions/Snap Down to Front Headlock]]** → [[Positions/Front Headlock]] (Probability: 65%)
-- Execute **[[Transitions/High Crotch]]** → [[Positions/Side Control]] (Probability: 50%)
+- Execute **[[Transitions/Snap Down to Front Headlock/Attacker|Snap Down to Front Headlock]]** → [[Positions/Front Headlock]] (Probability: 65%)
+- Execute **[[Transitions/High Crotch/Attacker|High Crotch]]** → [[Positions/Side Control]] (Probability: 50%)
 
 
 **If opponent extends arm for grip without protecting position:**
-- Execute **[[Transitions/Arm Drag to Back]]** → [[Positions/Back Control]] (Probability: 60%)
-- Execute **[[Transitions/Single Leg Entry]]** → [[Positions/Side Control]] (Probability: 55%)
+- Execute **[[Transitions/Arm Drag to Back/Attacker|Arm Drag to Back]]** → [[Positions/Back Control]] (Probability: 60%)
+- Execute **[[Transitions/Single Leg Entry/Attacker|Single Leg Entry]]** → [[Positions/Side Control]] (Probability: 55%)
 
 
 

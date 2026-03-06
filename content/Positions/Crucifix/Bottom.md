@@ -211,27 +211,27 @@ Survival from this position requires immediate recognition, calm systematic defe
 ## Decision Making from This Position
 
 **If opponent secures deep rear naked choke grip with choking arm under chin:**
-- Execute **[[Two-on-one hand defense]]** → [[Positions/Back Control]] (Probability: 40%)
-- Execute **[[Chin tuck and shoulder raise]]** → [[Positions/Back Control]] (Probability: 50%)
-- Execute **[[Tap Out]]** → [[Positions/Game Over]] (Probability: 10%)
+- Execute **[[Two-on-one hand defense/Attacker|Two-on-one hand defense]]** → [[Positions/Back Control]] (Probability: 40%)
+- Execute **[[Chin tuck and shoulder raise/Attacker|Chin tuck and shoulder raise]]** → [[Positions/Back Control]] (Probability: 50%)
+- Execute **[[Tap Out/Attacker|Tap Out]]** → [[Positions/Game Over]] (Probability: 10%)
 
 
 **If trapped arm begins to free from leg trap with space creation:**
-- Execute **[[Transitions/Arm Extraction to Turtle]]** → [[Positions/Turtle]] (Probability: 55%)
-- Execute **[[Transitions/Hip Escape to Guard]]** → [[Positions/Closed Guard]] (Probability: 30%)
-- Execute **[[Transitions/Roll to Guard]]** → [[Positions/Back Control]] (Probability: 15%)
+- Execute **[[Transitions/Arm Extraction to Turtle/Attacker|Arm Extraction to Turtle]]** → [[Positions/Turtle]] (Probability: 55%)
+- Execute **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** → [[Positions/Closed Guard]] (Probability: 30%)
+- Execute **[[Transitions/Roll to Guard/Attacker|Roll to Guard]]** → [[Positions/Back Control]] (Probability: 15%)
 
 
 **If opponent transitions to mounted crucifix or adjusts position:**
-- Execute **[[Bridge and hip escape immediately]]** → [[Positions/Turtle]] (Probability: 45%)
-- Execute **[[Transitions/Elbow Escape to Guard]]** → [[Positions/Half Guard]] (Probability: 35%)
-- Execute **[[Accept consolidated position]]** → [[Positions/Mount/Mounted Crucifix]] (Probability: 20%)
+- Execute **[[Bridge and hip escape immediately/Attacker|Bridge and hip escape immediately]]** → [[Positions/Turtle]] (Probability: 45%)
+- Execute **[[Transitions/Elbow Escape to Guard/Attacker|Elbow Escape to Guard]]** → [[Positions/Half Guard]] (Probability: 35%)
+- Execute **[[Accept consolidated position/Attacker|Accept consolidated position]]** → [[Positions/Mount/Mounted Crucifix]] (Probability: 20%)
 
 
 **If free arm remains mobile and opponent has not secured submission:**
-- Execute **[[Use free arm to push opponent's leg and create space]]** → [[Positions/Back Control]] (Probability: 50%)
-- Execute **[[Transitions/Shrimp Escape]]** → [[Positions/Side Control]] (Probability: 35%)
-- Execute **[[Transitions/Standing Escape]]** → [[Positions/Clinch]] (Probability: 15%)
+- Execute **[[Use free arm to push opponent's leg and create space/Attacker|Use free arm to push opponent's leg and create space]]** → [[Positions/Back Control]] (Probability: 50%)
+- Execute **[[Transitions/Shrimp Escape/Attacker|Shrimp Escape]]** → [[Positions/Side Control]] (Probability: 35%)
+- Execute **[[Transitions/Standing Escape/Attacker|Standing Escape]]** → [[Positions/Clinch]] (Probability: 15%)
 
 
 

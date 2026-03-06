@@ -207,28 +207,28 @@ Open Guard Top is the fundamental position where the top player engages with an 
 ## Decision Making from This Position
 
 **If opponent establishes De La Riva or Reverse De La Riva hook with active grip control:**
-- Execute **[[Transitions/Leg Weave Pass]]** → [[Positions/Side Control]] (Probability: 55%)
-- Execute **[[Transitions/Leg Drag Pass]]** → [[Positions/Side Control]] (Probability: 50%)
+- Execute **[[Transitions/Leg Weave Pass/Attacker|Leg Weave Pass]]** → [[Positions/Side Control]] (Probability: 55%)
+- Execute **[[Transitions/Leg Drag Pass/Attacker|Leg Drag Pass]]** → [[Positions/Side Control]] (Probability: 50%)
 
 
 **If opponent creates strong collar and sleeve grips with Spider or Lasso guard configuration:**
-- Execute **[[Transitions/Stack Pass]]** → [[Positions/Side Control]] (Probability: 50%)
-- Execute **[[Transitions/Toreando Pass]]** → [[Positions/Side Control]] (Probability: 60%)
+- Execute **[[Transitions/Stack Pass/Attacker|Stack Pass]]** → [[Positions/Side Control]] (Probability: 50%)
+- Execute **[[Transitions/Toreando Pass/Attacker|Toreando Pass]]** → [[Positions/Side Control]] (Probability: 60%)
 
 
 **If opponent uses butterfly hooks with underhook control:**
-- Execute **[[Transitions/Smash Pass]]** → [[Positions/Side Control]] (Probability: 55%)
-- Execute **[[Transitions/Headquarters Pass]]** → [[Positions/Headquarters Position]] (Probability: 48%)
+- Execute **[[Transitions/Smash Pass/Attacker|Smash Pass]]** → [[Positions/Side Control]] (Probability: 55%)
+- Execute **[[Transitions/Headquarters Pass/Attacker|Headquarters Pass]]** → [[Positions/Headquarters Position]] (Probability: 48%)
 
 
 **If opponent attempts to sit up or create upright seated guard position:**
-- Execute **[[Transitions/Pressure Pass]]** → [[Positions/Side Control]] (Probability: 52%)
-- Execute **[[Transitions/Double Under Pass]]** → [[Positions/Side Control]] (Probability: 48%)
+- Execute **[[Transitions/Pressure Pass/Attacker|Pressure Pass]]** → [[Positions/Side Control]] (Probability: 52%)
+- Execute **[[Transitions/Double Under Pass/Attacker|Double Under Pass]]** → [[Positions/Side Control]] (Probability: 48%)
 
 
 **If opponent extends legs to create distance with feet on hips:**
-- Execute **[[Transitions/Long Step Pass]]** → [[Positions/Side Control]] (Probability: 50%)
-- Execute **[[Transitions/X Pass]]** → [[Positions/Side Control]] (Probability: 45%)
+- Execute **[[Transitions/Long Step Pass/Attacker|Long Step Pass]]** → [[Positions/Side Control]] (Probability: 50%)
+- Execute **[[Transitions/X Pass/Attacker|X Pass]]** → [[Positions/Side Control]] (Probability: 45%)
 
 
 

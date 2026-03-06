@@ -93,31 +93,31 @@ Modern BJJ competition has elevated the importance of Standing Guard mastery, as
 ### Available Transitions
 
 
-- **[[Transitions/Pull guard]]** (36% of attempts)
+- **[[Transitions/Pull guard/Attacker|Pull guard]]** (36% of attempts)
 
-- **[[Transitions/Sitting Guard Pull]]** (10% of attempts)
+- **[[Transitions/Sitting Guard Pull/Attacker|Sitting Guard Pull]]** (10% of attempts)
 
-- **[[Transitions/Shin to Shin Pull]]** (8% of attempts)
+- **[[Transitions/Shin to Shin Pull/Attacker|Shin to Shin Pull]]** (8% of attempts)
 
-- **[[Transitions/Standing to Single Leg X]]** (7% of attempts)
+- **[[Transitions/Standing to Single Leg X/Attacker|Standing to Single Leg X]]** (7% of attempts)
 
-- **[[Transitions/Ankle Pick]]** (7% of attempts)
+- **[[Transitions/Ankle Pick/Attacker|Ankle Pick]]** (7% of attempts)
 
-- **[[Transitions/Arm Drag to Back]]** (6% of attempts)
+- **[[Transitions/Arm Drag to Back/Attacker|Arm Drag to Back]]** (6% of attempts)
 
-- **[[Transitions/Rolling Guard Pull]]** (5% of attempts)
+- **[[Transitions/Rolling Guard Pull/Attacker|Rolling Guard Pull]]** (5% of attempts)
 
-- **[[Transitions/Double Leg Entry]]** (6% of attempts)
+- **[[Transitions/Double Leg Entry/Attacker|Double Leg Entry]]** (6% of attempts)
 
-- **[[Transitions/Single Leg Entry]]** (6% of attempts)
+- **[[Transitions/Single Leg Entry/Attacker|Single Leg Entry]]** (6% of attempts)
 
-- **[[Transitions/Snap Down to Front Headlock]]** (5% of attempts)
+- **[[Transitions/Snap Down to Front Headlock/Attacker|Snap Down to Front Headlock]]** (5% of attempts)
 
-- **[[Transitions/Pull Guard from Ground]]** (2% of attempts)
+- **[[Transitions/Pull Guard from Ground/Attacker|Pull Guard from Ground]]** (2% of attempts)
 
-- **[[Transitions/Technical Stand Up from Ground]]** (1% of attempts)
+- **[[Transitions/Technical Stand Up from Ground/Attacker|Technical Stand Up from Ground]]** (1% of attempts)
 
-- **[[Transitions/Sweep from Standing Guard]]** (1% of attempts)
+- **[[Transitions/Sweep from Standing Guard/Attacker|Sweep from Standing Guard]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -182,25 +182,25 @@ Modern BJJ competition has elevated the importance of Standing Guard mastery, as
 ### Available Transitions
 
 
-- **[[Transitions/Toreando Pass]]** (22% of attempts)
+- **[[Transitions/Toreando Pass/Attacker|Toreando Pass]]** (22% of attempts)
 
-- **[[Transitions/Leg Drag Pass]]** (11% of attempts)
+- **[[Transitions/Leg Drag Pass/Attacker|Leg Drag Pass]]** (11% of attempts)
 
-- **[[Transitions/Knee Slice Pass]]** (11% of attempts)
+- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (11% of attempts)
 
-- **[[Transitions/Double Under Pass]]** (10% of attempts)
+- **[[Transitions/Double Under Pass/Attacker|Double Under Pass]]** (10% of attempts)
 
-- **[[Transitions/X Pass]]** (11% of attempts)
+- **[[Transitions/X Pass/Attacker|X Pass]]** (11% of attempts)
 
-- **[[Transitions/Long Step Pass]]** (12% of attempts)
+- **[[Transitions/Long Step Pass/Attacker|Long Step Pass]]** (12% of attempts)
 
-- **[[Transitions/Stack Pass]]** (9% of attempts)
+- **[[Transitions/Stack Pass/Attacker|Stack Pass]]** (9% of attempts)
 
-- **[[Transitions/Back Step]]** (8% of attempts)
+- **[[Transitions/Back Step/Attacker|Back Step]]** (8% of attempts)
 
-- **[[Transitions/Guard Pass from Standing Guard]]** (4% of attempts)
+- **[[Transitions/Guard Pass from Standing Guard/Attacker|Guard Pass from Standing Guard]]** (4% of attempts)
 
-- **[[Transitions/Takedown from Standing Guard]]** (2% of attempts)
+- **[[Transitions/Takedown from Standing Guard/Attacker|Takedown from Standing Guard]]** (2% of attempts)
 
 
 ### Common Mistakes

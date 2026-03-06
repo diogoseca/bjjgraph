@@ -87,23 +87,23 @@ Russian Leg Lasso is an advanced variation of the traditional lasso guard that i
 ### Available Transitions
 
 
-- **[[Transitions/Overhook Sweep]]** (35% of attempts)
+- **[[Transitions/Overhook Sweep/Attacker|Overhook Sweep]]** (35% of attempts)
 
-- **[[Transitions/Triangle Setup]]** (11% of attempts)
+- **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** (11% of attempts)
 
-- **[[Transitions/Omoplata Sweep]]** (12% of attempts)
+- **[[Transitions/Omoplata Sweep/Attacker|Omoplata Sweep]]** (12% of attempts)
 
-- **[[Transitions/Back Take from Bottom]]** (6% of attempts)
+- **[[Transitions/Back Take from Bottom/Attacker|Back Take from Bottom]]** (6% of attempts)
 
-- **[[Transitions/Sickle Sweep]]** (13% of attempts)
+- **[[Transitions/Sickle Sweep/Attacker|Sickle Sweep]]** (13% of attempts)
 
-- **[[Transitions/Berimbolo Entry]]** (8% of attempts)
+- **[[Transitions/Berimbolo Entry/Attacker|Berimbolo Entry]]** (8% of attempts)
 
-- **[[Transitions/Omoplata]]** (10% of attempts)
+- **[[Transitions/Omoplata/Attacker|Omoplata]]** (10% of attempts)
 
-- **[[Transitions/Russian Lasso Sweep]]** (3% of attempts)
+- **[[Transitions/Russian Lasso Sweep/Attacker|Russian Lasso Sweep]]** (3% of attempts)
 
-- **[[Transitions/Russian Lasso to De La Riva]]** (2% of attempts)
+- **[[Transitions/Russian Lasso to De La Riva/Attacker|Russian Lasso to De La Riva]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -164,23 +164,23 @@ Russian Leg Lasso is an advanced variation of the traditional lasso guard that i
 ### Available Transitions
 
 
-- **[[Transitions/Lasso Guard Pass]]** (24% of attempts)
+- **[[Transitions/Lasso Guard Pass/Attacker|Lasso Guard Pass]]** (24% of attempts)
 
-- **[[Transitions/Knee Slice Pass]]** (12% of attempts)
+- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (12% of attempts)
 
-- **[[Transitions/Toreando Pass]]** (12% of attempts)
+- **[[Transitions/Toreando Pass/Attacker|Toreando Pass]]** (12% of attempts)
 
-- **[[Transitions/Long Step Pass]]** (12% of attempts)
+- **[[Transitions/Long Step Pass/Attacker|Long Step Pass]]** (12% of attempts)
 
-- **[[Transitions/Leg Drag Pass]]** (12% of attempts)
+- **[[Transitions/Leg Drag Pass/Attacker|Leg Drag Pass]]** (12% of attempts)
 
-- **[[Transitions/Pressure Pass]]** (10% of attempts)
+- **[[Transitions/Pressure Pass/Attacker|Pressure Pass]]** (10% of attempts)
 
-- **[[Transitions/Back Step Pass]]** (10% of attempts)
+- **[[Transitions/Back Step Pass/Attacker|Back Step Pass]]** (10% of attempts)
 
-- **[[Transitions/Pass Russian Leg Lasso]]** (5% of attempts)
+- **[[Transitions/Pass Russian Leg Lasso/Attacker|Pass Russian Leg Lasso]]** (5% of attempts)
 
-- **[[Transitions/Strip Russian Leg Lasso]]** (3% of attempts)
+- **[[Transitions/Strip Russian Leg Lasso/Attacker|Strip Russian Leg Lasso]]** (3% of attempts)
 
 
 ### Common Mistakes

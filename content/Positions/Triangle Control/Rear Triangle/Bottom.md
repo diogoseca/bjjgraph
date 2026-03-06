@@ -205,27 +205,27 @@ Rear Triangle Bottom is a highly compromised defensive position where the practi
 ## Decision Making from This Position
 
 **If opponent's triangle is fully locked with ankle behind knee and tight pressure on carotid arteries:**
-- Execute **[[Transitions/Triangle Escape]]** → [[Positions/Back Control]] (Probability: 25%)
-- Execute **[[Transitions/Arm Extraction]]** → [[Positions/Turtle]] (Probability: 30%)
-- Execute **[[Tap Out]]** → [[Positions/Game Over]] (Probability: 45%)
+- Execute **[[Transitions/Triangle Escape/Attacker|Triangle Escape]]** → [[Positions/Back Control]] (Probability: 25%)
+- Execute **[[Transitions/Arm Extraction/Attacker|Arm Extraction]]** → [[Positions/Turtle]] (Probability: 30%)
+- Execute **[[Tap Out/Attacker|Tap Out]]** → [[Positions/Game Over]] (Probability: 45%)
 
 
 **If triangle is locked but defender maintains some posture and trapped arm has mobility:**
-- Execute **[[Transitions/Arm Extraction]]** → [[Positions/Back Control]] (Probability: 45%)
-- Execute **[[Transitions/Posture Recovery]]** → [[Positions/Back Control/Seat Belt Control Back]] (Probability: 35%)
-- Execute **[[Transitions/Stack Defense]]** → [[Positions/Turtle]] (Probability: 20%)
+- Execute **[[Transitions/Arm Extraction/Attacker|Arm Extraction]]** → [[Positions/Back Control]] (Probability: 45%)
+- Execute **[[Transitions/Posture Recovery/Attacker|Posture Recovery]]** → [[Positions/Back Control/Seat Belt Control Back]] (Probability: 35%)
+- Execute **[[Transitions/Stack Defense/Attacker|Stack Defense]]** → [[Positions/Turtle]] (Probability: 20%)
 
 
 **If opponent transitions to armbar or loosens triangle to adjust position:**
-- Execute **[[Transitions/Rolling Escape to Guard]]** → [[Positions/Closed Guard]] (Probability: 40%)
-- Execute **[[Transitions/Arm Extraction]]** → [[Positions/Back Control]] (Probability: 35%)
-- Execute **[[Transitions/Hand Fighting from Back]]** → [[Positions/Turtle]] (Probability: 25%)
+- Execute **[[Transitions/Rolling Escape to Guard/Attacker|Rolling Escape to Guard]]** → [[Positions/Closed Guard]] (Probability: 40%)
+- Execute **[[Transitions/Arm Extraction/Attacker|Arm Extraction]]** → [[Positions/Back Control]] (Probability: 35%)
+- Execute **[[Transitions/Hand Fighting from Back/Attacker|Hand Fighting from Back]]** → [[Positions/Turtle]] (Probability: 25%)
 
 
 **If defender successfully extracts trapped arm from triangle structure:**
-- Execute **[[Transitions/Triangle Escape]]** → [[Positions/Turtle]] (Probability: 50%)
-- Execute **[[Transitions/Rolling Escape to Guard]]** → [[Positions/Closed Guard]] (Probability: 30%)
-- Execute **[[Transitions/Back Take]]** → [[Positions/Back Control]] (Probability: 20%)
+- Execute **[[Transitions/Triangle Escape/Attacker|Triangle Escape]]** → [[Positions/Turtle]] (Probability: 50%)
+- Execute **[[Transitions/Rolling Escape to Guard/Attacker|Rolling Escape to Guard]]** → [[Positions/Closed Guard]] (Probability: 30%)
+- Execute **[[Transitions/Back Take/Attacker|Back Take]]** → [[Positions/Back Control]] (Probability: 20%)
 
 
 

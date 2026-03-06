@@ -210,28 +210,28 @@ From a competitive perspective, mastering leg drag control has become essential 
 ## Decision Making from This Position
 
 **If opponent turns away to protect guard and exposes back:**
-- Execute **[[Transitions/Leg Drag to Back Take]]** → [[Positions/Back Control]] (Probability: 75%)
-- Execute **[[Transitions/Leg Drag to Technical Mount]]** → [[Positions/Mount/Technical Mount]] (Probability: 25%)
+- Execute **[[Transitions/Leg Drag to Back Take/Attacker|Leg Drag to Back Take]]** → [[Positions/Back Control]] (Probability: 75%)
+- Execute **[[Transitions/Leg Drag to Technical Mount/Attacker|Leg Drag to Technical Mount]]** → [[Positions/Mount/Technical Mount]] (Probability: 25%)
 
 
 **If opponent stays flat on back and fights upper body control:**
-- Execute **[[Transitions/Leg Drag to Mount]]** → [[Positions/Mount]] (Probability: 60%)
-- Execute **[[Transitions/Leg Drag Pass to Side Control]]** → [[Positions/Side Control]] (Probability: 40%)
+- Execute **[[Transitions/Leg Drag to Mount/Attacker|Leg Drag to Mount]]** → [[Positions/Mount]] (Probability: 60%)
+- Execute **[[Transitions/Leg Drag Pass to Side Control/Attacker|Leg Drag Pass to Side Control]]** → [[Positions/Side Control]] (Probability: 40%)
 
 
 **If opponent attempts to sit up or turn into you:**
-- Execute **[[Transitions/Leg Drag to Crucifix]]** → [[Positions/Crucifix]] (Probability: 50%)
-- Execute **[[Transitions/Leg Drag to North-South]]** → [[Positions/North-South]] (Probability: 50%)
+- Execute **[[Transitions/Leg Drag to Crucifix/Attacker|Leg Drag to Crucifix]]** → [[Positions/Crucifix]] (Probability: 50%)
+- Execute **[[Transitions/Leg Drag to North-South/Attacker|Leg Drag to North-South]]** → [[Positions/North-South]] (Probability: 50%)
 
 
 **If opponent rolls to turtle to escape:**
-- Execute **[[Transitions/Leg Drag to Darce Setup]]** → [[Positions/Darce Control]] (Probability: 55%)
-- Execute **[[Transitions/Follow to Back Control]]** → [[Positions/Back Control]] (Probability: 45%)
+- Execute **[[Transitions/Leg Drag to Darce Setup/Attacker|Leg Drag to Darce Setup]]** → [[Positions/Darce Control]] (Probability: 55%)
+- Execute **[[Transitions/Follow to Back Control/Attacker|Follow to Back Control]]** → [[Positions/Back Control]] (Probability: 45%)
 
 
 **If opponent defends upper body strongly but you maintain leg control:**
-- Execute **[[Transitions/Leg Drag to Inside Ashi]]** → [[Positions/Ashi Garami/Inside Ashi-Garami]] (Probability: 65%)
-- Execute **[[Transitions/Leg Drag to Knee on Belly]]** → [[Positions/Knee on Belly]] (Probability: 35%)
+- Execute **[[Transitions/Leg Drag to Inside Ashi/Attacker|Leg Drag to Inside Ashi]]** → [[Positions/Ashi Garami/Inside Ashi-Garami]] (Probability: 65%)
+- Execute **[[Transitions/Leg Drag to Knee on Belly/Attacker|Leg Drag to Knee on Belly]]** → [[Positions/Knee on Belly]] (Probability: 35%)
 
 
 

@@ -212,28 +212,28 @@ The learning curve for butterfly guard involves developing several interconnecte
 ## Decision Making from This Position
 
 **If opponent maintains low combat base with hands posted forward defensively:**
-- Execute **[[Transitions/Butterfly Sweep]]** → [[Positions/Mount]] (Probability: 65%)
-- Execute **[[Transitions/Elevator Sweep]]** → [[Positions/Mount]] (Probability: 60%)
+- Execute **[[Transitions/Butterfly Sweep/Attacker|Butterfly Sweep]]** → [[Positions/Mount]] (Probability: 65%)
+- Execute **[[Transitions/Elevator Sweep/Attacker|Elevator Sweep]]** → [[Positions/Mount]] (Probability: 60%)
 
 
 **If opponent extends arms or creates distance defensively to avoid sweep:**
-- Execute **[[Transitions/Arm Drag to Back]]** → [[Positions/Back Control]] (Probability: 58%)
-- Execute **[[Transitions/Butterfly Guard to X-Guard]]** → [[Positions/X-Guard]] (Probability: 52%)
+- Execute **[[Transitions/Arm Drag to Back/Attacker|Arm Drag to Back]]** → [[Positions/Back Control]] (Probability: 58%)
+- Execute **[[Transitions/Butterfly Guard to X-Guard/Attacker|Butterfly Guard to X-Guard]]** → [[Positions/X-Guard]] (Probability: 52%)
 
 
 **If opponent stands up or begins withdrawing from hooks to establish standing pass:**
-- Execute **[[Transitions/Butterfly Guard to X-Guard]]** → [[Positions/X-Guard/Single Leg X-Guard]] (Probability: 55%)
-- Execute **[[Transitions/Technical Stand-up]]** → [[Positions/Standing Position]] (Probability: 50%)
+- Execute **[[Transitions/Butterfly Guard to X-Guard/Attacker|Butterfly Guard to X-Guard]]** → [[Positions/X-Guard/Single Leg X-Guard]] (Probability: 55%)
+- Execute **[[Transitions/Technical Stand-up/Attacker|Technical Stand-up]]** → [[Positions/Standing Position]] (Probability: 50%)
 
 
 **If opponent drives heavy pressure forward attempting to flatten you to mat:**
-- Execute **[[Transitions/Granby Roll to Guard]]** → [[Positions/Closed Guard]] (Probability: 48%)
-- Execute **[[Transitions/Deep Half Entry]]** → [[Positions/Half Guard/Deep Half Guard]] (Probability: 45%)
+- Execute **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** → [[Positions/Closed Guard]] (Probability: 48%)
+- Execute **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** → [[Positions/Half Guard/Deep Half Guard]] (Probability: 45%)
 
 
 **If opponent clears one hook or establishes half guard configuration:**
-- Execute **[[Transitions/Half Guard Recovery]]** → [[Positions/Half Guard]] (Probability: 50%)
-- Execute **[[Transitions/Deep Half Entry]]** → [[Positions/Half Guard/Deep Half Guard]] (Probability: 46%)
+- Execute **[[Transitions/Half Guard Recovery/Attacker|Half Guard Recovery]]** → [[Positions/Half Guard]] (Probability: 50%)
+- Execute **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** → [[Positions/Half Guard/Deep Half Guard]] (Probability: 46%)
 
 
 

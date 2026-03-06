@@ -209,22 +209,22 @@ Cross Ashi-Garami Bottom is considered a medium-risk position because while heel
 ## Decision Making from This Position
 
 **If opponent secures deep heel hook grip with figure-four configuration locked and begins external rotation:**
-- Execute **[[Tap Out]]** → [[Positions/Game Over]] (Probability: 95%)
+- Execute **[[Tap Out/Attacker|Tap Out]]** → [[Positions/Game Over]] (Probability: 95%)
 
 
 **If opponent has cross ashi control but hands are not yet secured in heel hook grip:**
-- Execute **[[Transitions/Ashi Garami Escape]]** → [[Positions/Open Guard]] (Probability: 50%)
-- Execute **[[Transitions/Inside Ashi Entry]]** → [[Positions/Ashi Garami/Inside Ashi-Garami]] (Probability: 35%)
+- Execute **[[Transitions/Ashi Garami Escape/Attacker|Ashi Garami Escape]]** → [[Positions/Open Guard]] (Probability: 50%)
+- Execute **[[Transitions/Inside Ashi Entry/Attacker|Inside Ashi Entry]]** → [[Positions/Ashi Garami/Inside Ashi-Garami]] (Probability: 35%)
 
 
 **If opponent loosens leg control to transition to saddle or adjust position:**
-- Execute **[[Transitions/Leg Extraction]]** → [[Positions/Open Guard]] (Probability: 55%)
-- Execute **[[Transitions/X-Guard to Ashi Garami]]** → [[Positions/X-Guard]] (Probability: 40%)
+- Execute **[[Transitions/Leg Extraction/Attacker|Leg Extraction]]** → [[Positions/Open Guard]] (Probability: 55%)
+- Execute **[[Transitions/X-Guard to Ashi Garami/Attacker|X-Guard to Ashi Garami]]** → [[Positions/X-Guard]] (Probability: 40%)
 
 
 **If opponent's inside leg becomes exposed during adjustment or grip change:**
-- Execute **[[Transitions/Inside Ashi Entry]]** → [[Positions/Ashi Garami/Inside Ashi-Garami]] (Probability: 50%)
-- Execute **[[Transitions/Outside Ashi Entry]]** → [[Positions/Ashi Garami/Outside Ashi-Garami]] (Probability: 35%)
+- Execute **[[Transitions/Inside Ashi Entry/Attacker|Inside Ashi Entry]]** → [[Positions/Ashi Garami/Inside Ashi-Garami]] (Probability: 50%)
+- Execute **[[Transitions/Outside Ashi Entry/Attacker|Outside Ashi Entry]]** → [[Positions/Ashi Garami/Outside Ashi-Garami]] (Probability: 35%)
 
 
 

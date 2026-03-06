@@ -210,27 +210,27 @@ This position excels in no-gi grappling and submission-only rulesets where leg a
 ## Decision Making from This Position
 
 **If opponent attempts hip rotation to escape entanglement:**
-- Execute **[[Principles/Hip Pressure]]** → [[Positions/Ashi Garami/Honey Hole]] (Probability: 70%)
-- Execute **[[Transitions/Turtle to Back Take]]** → [[Positions/Back Control]] (Probability: 60%)
-- Execute **[[Transitions/Outside Heel Hook]]** → [[Positions/Game Over]] (Probability: 75%)
+- Execute **[[Principles/Hip Pressure/Attacker|Hip Pressure]]** → [[Positions/Ashi Garami/Honey Hole]] (Probability: 70%)
+- Execute **[[Transitions/Turtle to Back Take/Attacker|Turtle to Back Take]]** → [[Positions/Back Control]] (Probability: 60%)
+- Execute **[[Transitions/Outside Heel Hook/Attacker|Outside Heel Hook]]** → [[Positions/Game Over]] (Probability: 75%)
 
 
 **If opponent tries to extract trapped leg by pulling knee to chest:**
-- Execute **[[Transitions/Saddle Entry from Top]]** → [[Positions/Ashi Garami/Saddle]] (Probability: 80%)
-- Execute **[[Transitions/Kneebar Finish]]** → [[Positions/Kneebar Control]] (Probability: 65%)
-- Execute **[[Transitions/Heel Hook]]** → [[Positions/Game Over]] (Probability: 60%)
+- Execute **[[Transitions/Saddle Entry from Top/Attacker|Saddle Entry from Top]]** → [[Positions/Ashi Garami/Saddle]] (Probability: 80%)
+- Execute **[[Transitions/Kneebar Finish/Attacker|Kneebar Finish]]** → [[Positions/Kneebar Control]] (Probability: 65%)
+- Execute **[[Transitions/Heel Hook/Attacker|Heel Hook]]** → [[Positions/Game Over]] (Probability: 60%)
 
 
 **If opponent attempts to establish inside position for reversal:**
-- Execute **[[Transitions/Inside Ashi Entry]]** → [[Positions/Ashi Garami/Inside Ashi-Garami]] (Probability: 65%)
-- Execute **[[Transitions/Outside Heel Hook]]** → [[Positions/Game Over]] (Probability: 70%)
-- Execute **[[Transitions/50-50 Entry from Standing]]** → [[Positions/Ashi Garami/50-50 Guard]] (Probability: 50%)
+- Execute **[[Transitions/Inside Ashi Entry/Attacker|Inside Ashi Entry]]** → [[Positions/Ashi Garami/Inside Ashi-Garami]] (Probability: 65%)
+- Execute **[[Transitions/Outside Heel Hook/Attacker|Outside Heel Hook]]** → [[Positions/Game Over]] (Probability: 70%)
+- Execute **[[Transitions/50-50 Entry from Standing/Attacker|50-50 Entry from Standing]]** → [[Positions/Ashi Garami/50-50 Guard]] (Probability: 50%)
 
 
 **If opponent defends heel by hiding foot deep in armpit:**
-- Execute **[[Transitions/Kneebar Finish]]** → [[Positions/Kneebar Control]] (Probability: 75%)
-- Execute **[[Transitions/Toe Hold]]** → [[Positions/Game Over]] (Probability: 60%)
-- Execute **[[Transitions/Saddle Entry from Top]]** → [[Positions/Ashi Garami/Saddle]] (Probability: 70%)
+- Execute **[[Transitions/Kneebar Finish/Attacker|Kneebar Finish]]** → [[Positions/Kneebar Control]] (Probability: 75%)
+- Execute **[[Transitions/Toe Hold/Attacker|Toe Hold]]** → [[Positions/Game Over]] (Probability: 60%)
+- Execute **[[Transitions/Saddle Entry from Top/Attacker|Saddle Entry from Top]]** → [[Positions/Ashi Garami/Saddle]] (Probability: 70%)
 
 
 

@@ -95,23 +95,23 @@ In the 10th Planet system, Chill Dog serves as a critical defensive position tha
 ### Available Transitions
 
 
-- **[[Transitions/Granby Roll to Guard]]** (14% of attempts)
+- **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** (14% of attempts)
 
-- **[[Transitions/Granby to Closed Guard]]** (11% of attempts)
+- **[[Transitions/Granby to Closed Guard/Attacker|Granby to Closed Guard]]** (11% of attempts)
 
-- **[[Transitions/Technical Stand-up]]** (32% of attempts)
+- **[[Transitions/Technical Stand-up/Attacker|Technical Stand-up]]** (32% of attempts)
 
-- **[[Transitions/Rolling to Guard]]** (11% of attempts)
+- **[[Transitions/Rolling to Guard/Attacker|Rolling to Guard]]** (11% of attempts)
 
-- **[[Transitions/Turtle to Guard]]** (13% of attempts)
+- **[[Transitions/Turtle to Guard/Attacker|Turtle to Guard]]** (13% of attempts)
 
-- **[[Transitions/Hip Escape to Guard]]** (11% of attempts)
+- **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** (11% of attempts)
 
-- **[[Transitions/Escape Chill Dog]]** (5% of attempts)
+- **[[Transitions/Escape Chill Dog/Attacker|Escape Chill Dog]]** (5% of attempts)
 
-- **[[Transitions/Roll from Chill Dog]]** (2% of attempts)
+- **[[Transitions/Roll from Chill Dog/Attacker|Roll from Chill Dog]]** (2% of attempts)
 
-- **[[Transitions/Sweep from Chill Dog]]** (1% of attempts)
+- **[[Transitions/Sweep from Chill Dog/Attacker|Sweep from Chill Dog]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -176,25 +176,25 @@ In the 10th Planet system, Chill Dog serves as a critical defensive position tha
 ### Available Transitions
 
 
-- **[[Transitions/Turtle to Back Control]]** (31% of attempts)
+- **[[Transitions/Turtle to Back Control/Attacker|Turtle to Back Control]]** (31% of attempts)
 
-- **[[Transitions/Crucifix from Turtle]]** (12% of attempts)
+- **[[Transitions/Crucifix from Turtle/Attacker|Crucifix from Turtle]]** (12% of attempts)
 
-- **[[Transitions/Darce Setup]]** (10% of attempts)
+- **[[Transitions/Darce Setup/Attacker|Darce Setup]]** (10% of attempts)
 
-- **[[Transitions/Anaconda Setup]]** (9% of attempts)
+- **[[Transitions/Anaconda Setup/Attacker|Anaconda Setup]]** (9% of attempts)
 
-- **[[Transitions/Front Headlock to Back]]** (12% of attempts)
+- **[[Transitions/Front Headlock to Back/Attacker|Front Headlock to Back]]** (12% of attempts)
 
-- **[[Transitions/Truck Entry]]** (10% of attempts)
+- **[[Transitions/Truck Entry/Attacker|Truck Entry]]** (10% of attempts)
 
-- **[[Transitions/Guillotine Setup]]** (9% of attempts)
+- **[[Transitions/Guillotine Setup/Attacker|Guillotine Setup]]** (9% of attempts)
 
-- **[[Transitions/Posture from Chill Dog]]** (4% of attempts)
+- **[[Transitions/Posture from Chill Dog/Attacker|Posture from Chill Dog]]** (4% of attempts)
 
-- **[[Transitions/Stack from Chill Dog]]** (2% of attempts)
+- **[[Transitions/Stack from Chill Dog/Attacker|Stack from Chill Dog]]** (2% of attempts)
 
-- **[[Transitions/Guard Pass from Chill Dog]]** (1% of attempts)
+- **[[Transitions/Guard Pass from Chill Dog/Attacker|Guard Pass from Chill Dog]]** (1% of attempts)
 
 
 ### Common Mistakes

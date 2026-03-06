@@ -207,23 +207,23 @@ The most effective DLR passers develop a systematic approach that addresses each
 ## Decision Making from This Position
 
 **If opponent maintains strong DLR hook with ankle grip and perpendicular hip angle:**
-- Execute **[[Transitions/Toreando Pass]]** → [[Positions/Side Control]] (Probability: 50%)
-- Execute **[[Transitions/X Pass]]** → [[Positions/Side Control]] (Probability: 45%)
+- Execute **[[Transitions/Toreando Pass/Attacker|Toreando Pass]]** → [[Positions/Side Control]] (Probability: 50%)
+- Execute **[[Transitions/X Pass/Attacker|X Pass]]** → [[Positions/Side Control]] (Probability: 45%)
 
 
 **If opponent's DLR hook is shallow or ankle grip is broken:**
-- Execute **[[Transitions/Knee Slice Pass]]** → [[Positions/Side Control]] (Probability: 55%)
-- Execute **[[Transitions/Leg Drag Pass]]** → [[Positions/Leg Drag Control]] (Probability: 50%)
+- Execute **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** → [[Positions/Side Control]] (Probability: 55%)
+- Execute **[[Transitions/Leg Drag Pass/Attacker|Leg Drag Pass]]** → [[Positions/Leg Drag Control]] (Probability: 50%)
 
 
 **If opponent attempts to transition to reverse DLR or X-Guard:**
-- Execute **[[Transitions/Long Step Pass]]** → [[Positions/Headquarters Position]] (Probability: 48%)
-- Execute **[[Transitions/Leg Drag Pass]]** → [[Positions/Leg Drag Control]] (Probability: 52%)
+- Execute **[[Transitions/Long Step Pass/Attacker|Long Step Pass]]** → [[Positions/Headquarters Position]] (Probability: 48%)
+- Execute **[[Transitions/Leg Drag Pass/Attacker|Leg Drag Pass]]** → [[Positions/Leg Drag Control]] (Probability: 52%)
 
 
 **If opponent inverts for berimbolo or kiss of the dragon attempt:**
-- Execute **[[Transitions/Smash Pass]]** → [[Positions/Side Control]] (Probability: 55%)
-- Execute **[[Transitions/Knee Slice Pass]]** → [[Positions/Headquarters Position]] (Probability: 45%)
+- Execute **[[Transitions/Smash Pass/Attacker|Smash Pass]]** → [[Positions/Side Control]] (Probability: 55%)
+- Execute **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** → [[Positions/Headquarters Position]] (Probability: 45%)
 
 
 

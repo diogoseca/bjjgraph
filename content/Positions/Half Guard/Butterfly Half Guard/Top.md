@@ -211,18 +211,18 @@ The strategic approach from top butterfly half guard involves several key consid
 ## Decision Making from This Position
 
 **If opponent establishes upright posture with active butterfly hook and strong upper body control:**
-- Execute **[[Transitions/Smash Pass]]** → [[Positions/Side Control]] (Probability: 55%)
-- Execute **[[Transitions/Underhook Pass]]** → [[Positions/Side Control]] (Probability: 50%)
+- Execute **[[Transitions/Smash Pass/Attacker|Smash Pass]]** → [[Positions/Side Control]] (Probability: 55%)
+- Execute **[[Transitions/Underhook Pass/Attacker|Underhook Pass]]** → [[Positions/Side Control]] (Probability: 50%)
 
 
 **If opponent's butterfly hook becomes passive or you control their upper body with crossface:**
-- Execute **[[Transitions/Knee Slice Pass]]** → [[Positions/Side Control]] (Probability: 60%)
-- Execute **[[Transitions/Half Guard Pass]]** → [[Positions/Side Control]] (Probability: 55%)
+- Execute **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** → [[Positions/Side Control]] (Probability: 60%)
+- Execute **[[Transitions/Half Guard Pass/Attacker|Half Guard Pass]]** → [[Positions/Side Control]] (Probability: 55%)
 
 
 **If opponent attempts sweep and commits weight to one direction:**
-- Execute **[[Transitions/Smash Pass]]** → [[Positions/Side Control]] (Probability: 65%)
-- Execute **[[Transitions/Long Step Pass]]** → [[Positions/Side Control]] (Probability: 50%)
+- Execute **[[Transitions/Smash Pass/Attacker|Smash Pass]]** → [[Positions/Side Control]] (Probability: 65%)
+- Execute **[[Transitions/Long Step Pass/Attacker|Long Step Pass]]** → [[Positions/Side Control]] (Probability: 50%)
 
 
 

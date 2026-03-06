@@ -207,23 +207,23 @@ Facing Modified Mount from the bottom requires understanding how the asymmetric 
 ## Decision Making from This Position
 
 **If opponent posts right leg out while left knee crosses body:**
-- Execute **[[Transitions/Hip Escape to Guard]]** → [[Positions/Half Guard]] (Probability: 65%)
-- Execute **[[Transitions/Elbow Escape to Guard]]** → [[Positions/Closed Guard]] (Probability: 50%)
+- Execute **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** → [[Positions/Half Guard]] (Probability: 65%)
+- Execute **[[Transitions/Elbow Escape to Guard/Attacker|Elbow Escape to Guard]]** → [[Positions/Closed Guard]] (Probability: 50%)
 
 
 **If opponent reaches for armbar grip on near-side arm:**
-- Execute **[[Transitions/Bridge and Roll]]** → [[Positions/Mount]] (Probability: 45%)
-- Execute **[[Transitions/Armbar Defense]]** → [[Positions/Mount/Modified Mount]] (Probability: 60%)
+- Execute **[[Transitions/Bridge and Roll/Attacker|Bridge and Roll]]** → [[Positions/Mount]] (Probability: 45%)
+- Execute **[[Transitions/Armbar Defense/Attacker|Armbar Defense]]** → [[Positions/Mount/Modified Mount]] (Probability: 60%)
 
 
 **If opponent transitions toward S-mount or technical mount:**
-- Execute **[[Transitions/Arm Extraction to Turtle]]** → [[Positions/Turtle]] (Probability: 55%)
-- Execute **[[Transitions/Deep Half Entry]]** → [[Positions/Half Guard/Deep Half Guard]] (Probability: 40%)
+- Execute **[[Transitions/Arm Extraction to Turtle/Attacker|Arm Extraction to Turtle]]** → [[Positions/Turtle]] (Probability: 55%)
+- Execute **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** → [[Positions/Half Guard/Deep Half Guard]] (Probability: 40%)
 
 
 **If opponent maintains static position without advancing:**
-- Execute **[[Transitions/Frame and Shrimp to Guard]]** → [[Positions/Open Guard]] (Probability: 60%)
-- Execute **[[Transitions/Hip Escape to Guard]]** → [[Positions/Half Guard]] (Probability: 70%)
+- Execute **[[Transitions/Frame and Shrimp to Guard/Attacker|Frame and Shrimp to Guard]]** → [[Positions/Open Guard]] (Probability: 60%)
+- Execute **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** → [[Positions/Half Guard]] (Probability: 70%)
 
 
 

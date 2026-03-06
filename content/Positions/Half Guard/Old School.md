@@ -93,21 +93,21 @@ From top perspective, Old School demands sophisticated pressure management and p
 ### Available Transitions
 
 
-- **[[Transitions/Old School Sweep]]** (46% of attempts)
+- **[[Transitions/Old School Sweep/Attacker|Old School Sweep]]** (46% of attempts)
 
-- **[[Transitions/Electric Chair Transition]]** (14% of attempts)
+- **[[Transitions/Electric Chair Transition/Attacker|Electric Chair Transition]]** (14% of attempts)
 
-- **[[Transitions/Half Guard to Back Take]]** (12% of attempts)
+- **[[Transitions/Half Guard to Back Take/Attacker|Half Guard to Back Take]]** (12% of attempts)
 
-- **[[Transitions/Deep Half Entry]]** (12% of attempts)
+- **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** (12% of attempts)
 
-- **[[Positions/Dogfight Position]]** (9% of attempts)
+- **[[Positions/Dogfight Position/Attacker|Dogfight Position]]** (9% of attempts)
 
-- **[[Transitions/Old School Sweep from Bottom]]** (4% of attempts)
+- **[[Transitions/Old School Sweep from Bottom/Attacker|Old School Sweep from Bottom]]** (4% of attempts)
 
-- **[[Transitions/Old School to Half Guard]]** (2% of attempts)
+- **[[Transitions/Old School to Half Guard/Attacker|Old School to Half Guard]]** (2% of attempts)
 
-- **[[Transitions/Old School Position Sweep]]** (1% of attempts)
+- **[[Transitions/Old School Position Sweep/Attacker|Old School Position Sweep]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -172,21 +172,21 @@ From top perspective, Old School demands sophisticated pressure management and p
 ### Available Transitions
 
 
-- **[[Transitions/Half Guard Pass]]** (33% of attempts)
+- **[[Transitions/Half Guard Pass/Attacker|Half Guard Pass]]** (33% of attempts)
 
-- **[[Transitions/Knee Slice Pass]]** (17% of attempts)
+- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (17% of attempts)
 
-- **[[Transitions/Crossface Pass]]** (21% of attempts)
+- **[[Transitions/Crossface Pass/Attacker|Crossface Pass]]** (21% of attempts)
 
-- **[[Transitions/Lockdown Break and Pass]]** (17% of attempts)
+- **[[Transitions/Lockdown Break and Pass/Attacker|Lockdown Break and Pass]]** (17% of attempts)
 
-- **[[Transitions/Darce from Lockdown Counter]]** (7% of attempts)
+- **[[Transitions/Darce from Lockdown Counter/Attacker|Darce from Lockdown Counter]]** (7% of attempts)
 
-- **[[Transitions/Crossface from Old School]]** (3% of attempts)
+- **[[Transitions/Crossface from Old School/Attacker|Crossface from Old School]]** (3% of attempts)
 
-- **[[Transitions/Defend Old School Sweep]]** (1% of attempts)
+- **[[Transitions/Defend Old School Sweep/Attacker|Defend Old School Sweep]]** (1% of attempts)
 
-- **[[Transitions/Old School Pass]]** (1% of attempts)
+- **[[Transitions/Old School Pass/Attacker|Old School Pass]]** (1% of attempts)
 
 
 ### Common Mistakes

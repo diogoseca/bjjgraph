@@ -213,27 +213,27 @@ From a training perspective, Gift Wrap Bottom should be practiced extensively be
 ## Decision Making from This Position
 
 **If opponent is actively attacking rear naked choke with choking arm deep:**
-- Execute **[[Two-on-One Hand Defense]]** → [[Positions/Gift Wrap]] (Probability: 40%)
-- Execute **[[Chin Tuck and Turn]]** → [[Positions/Gift Wrap]] (Probability: 35%)
-- Execute **[[Accept submission]]** → [[Positions/Game Over]] (Probability: 25%)
+- Execute **[[Two-on-One Hand Defense/Attacker|Two-on-One Hand Defense]]** → [[Positions/Gift Wrap]] (Probability: 40%)
+- Execute **[[Chin Tuck and Turn/Attacker|Chin Tuck and Turn]]** → [[Positions/Gift Wrap]] (Probability: 35%)
+- Execute **[[Accept submission/Attacker|Accept submission]]** → [[Positions/Game Over]] (Probability: 25%)
 
 
 **If opponent is consolidating Gift Wrap control without immediate submission attack:**
-- Execute **[[Trapped Arm Recovery Sequence]]** → [[Positions/Back Control]] (Probability: 35%)
-- Execute **[[Hip Escape Initiation]]** → [[Positions/Half Guard]] (Probability: 30%)
-- Execute **[[Roll to Turtle Position]]** → [[Positions/Turtle]] (Probability: 25%)
+- Execute **[[Trapped Arm Recovery Sequence/Attacker|Trapped Arm Recovery Sequence]]** → [[Positions/Back Control]] (Probability: 35%)
+- Execute **[[Hip Escape Initiation/Attacker|Hip Escape Initiation]]** → [[Positions/Half Guard]] (Probability: 30%)
+- Execute **[[Roll to Turtle Position/Attacker|Roll to Turtle Position]]** → [[Positions/Turtle]] (Probability: 25%)
 
 
 **If opponent is transitioning to mounted position while maintaining Gift Wrap:**
-- Execute **[[Bridge and Roll Escape]]** → [[Positions/Turtle]] (Probability: 30%)
-- Execute **[[Shrimp Away from Mount]]** → [[Positions/Half Guard]] (Probability: 25%)
-- Execute **[[Opponent achieves mount]]** → [[Positions/Mount]] (Probability: 45%)
+- Execute **[[Bridge and Roll Escape/Attacker|Bridge and Roll Escape]]** → [[Positions/Turtle]] (Probability: 30%)
+- Execute **[[Shrimp Away from Mount/Attacker|Shrimp Away from Mount]]** → [[Positions/Half Guard]] (Probability: 25%)
+- Execute **[[Opponent achieves mount/Attacker|Opponent achieves mount]]** → [[Positions/Mount]] (Probability: 45%)
 
 
 **If opponent is isolating free arm for armbar attack:**
-- Execute **[[Defensive Arm Retraction]]** → [[Positions/Gift Wrap]] (Probability: 35%)
-- Execute **[[Roll Through Armbar]]** → [[Positions/Turtle]] (Probability: 25%)
-- Execute **[[Accept armbar position]]** → [[Positions/Armbar Control]] (Probability: 40%)
+- Execute **[[Defensive Arm Retraction/Attacker|Defensive Arm Retraction]]** → [[Positions/Gift Wrap]] (Probability: 35%)
+- Execute **[[Roll Through Armbar/Attacker|Roll Through Armbar]]** → [[Positions/Turtle]] (Probability: 25%)
+- Execute **[[Accept armbar position/Attacker|Accept armbar position]]** → [[Positions/Armbar Control]] (Probability: 40%)
 
 
 

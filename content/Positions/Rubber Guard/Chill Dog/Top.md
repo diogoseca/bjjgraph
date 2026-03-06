@@ -216,28 +216,28 @@ In no-gi competition especially, Chill Dog Top tests your ability to maintain po
 ## Decision Making from This Position
 
 **If bottom player maintains tight defensive frame with elbows to knees:**
-- Execute **[[Establish chest pressure and fight for hip control]]** → [[Positions/Back Control]] (Probability: 45%)
-- Execute **[[Circle to front headlock position]]** → [[Positions/Front Headlock]] (Probability: 40%)
+- Execute **[[Establish chest pressure and fight for hip control/Attacker|Establish chest pressure and fight for hip control]]** → [[Positions/Back Control]] (Probability: 45%)
+- Execute **[[Circle to front headlock position/Attacker|Circle to front headlock position]]** → [[Positions/Front Headlock]] (Probability: 40%)
 
 
 **If bottom player's elbow separates from knee on one side:**
-- Execute **[[Insert near hook and establish back control]]** → [[Positions/Back Control]] (Probability: 60%)
-- Execute **[[Trap arm for crucifix position]]** → [[Positions/Crucifix]] (Probability: 50%)
+- Execute **[[Insert near hook and establish back control/Attacker|Insert near hook and establish back control]]** → [[Positions/Back Control]] (Probability: 60%)
+- Execute **[[Trap arm for crucifix position/Attacker|Trap arm for crucifix position]]** → [[Positions/Crucifix]] (Probability: 50%)
 
 
 **If bottom player attempts Granby roll or forward roll escape:**
-- Execute **[[Follow roll and establish back control]]** → [[Positions/Back Control]] (Probability: 55%)
-- Execute **[[Intercept with front headlock]]** → [[Positions/Front Headlock]] (Probability: 45%)
+- Execute **[[Follow roll and establish back control/Attacker|Follow roll and establish back control]]** → [[Positions/Back Control]] (Probability: 55%)
+- Execute **[[Intercept with front headlock/Attacker|Intercept with front headlock]]** → [[Positions/Front Headlock]] (Probability: 45%)
 
 
 **If bottom player attempts to stand up:**
-- Execute **[[Snap down to front headlock]]** → [[Positions/Front Headlock]] (Probability: 60%)
-- Execute **[[Establish standing back control]]** → [[Positions/Back Control/Standing Back Control]] (Probability: 50%)
+- Execute **[[Snap down to front headlock/Attacker|Snap down to front headlock]]** → [[Positions/Front Headlock]] (Probability: 60%)
+- Execute **[[Establish standing back control/Attacker|Establish standing back control]]** → [[Positions/Back Control/Standing Back Control]] (Probability: 50%)
 
 
 **If bottom player's hips turn exposing near side:**
-- Execute **[[Establish truck position]]** → [[Positions/Cross Body Ride]] (Probability: 55%)
-- Execute **[[Insert near hook for back control]]** → [[Positions/Back Control]] (Probability: 50%)
+- Execute **[[Establish truck position/Attacker|Establish truck position]]** → [[Positions/Cross Body Ride]] (Probability: 55%)
+- Execute **[[Insert near hook for back control/Attacker|Insert near hook for back control]]** → [[Positions/Back Control]] (Probability: 50%)
 
 
 

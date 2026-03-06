@@ -211,23 +211,23 @@ Pocket Half Guard Bottom is particularly effective against opponents who favor h
 ## Decision Making from This Position
 
 **If opponent maintains upright posture and attempts to strip underhook:**
-- Execute **[[Transitions/Old School Sweep]]** → [[Positions/Mount]] (Probability: 65%)
-- Execute **[[Transitions/Back Take from Bottom]]** → [[Positions/Back Control]] (Probability: 55%)
+- Execute **[[Transitions/Old School Sweep/Attacker|Old School Sweep]]** → [[Positions/Mount]] (Probability: 65%)
+- Execute **[[Transitions/Back Take from Bottom/Attacker|Back Take from Bottom]]** → [[Positions/Back Control]] (Probability: 55%)
 
 
 **If opponent drives forward with heavy pressure attempting to flatten:**
-- Execute **[[Transitions/Deep Half Entry]]** → [[Positions/Half Guard/Deep Half Guard]] (Probability: 70%)
-- Execute **[[Transitions/Underhook Sweep from Half]]** → [[Positions/Side Control]] (Probability: 50%)
+- Execute **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** → [[Positions/Half Guard/Deep Half Guard]] (Probability: 70%)
+- Execute **[[Transitions/Underhook Sweep from Half/Attacker|Underhook Sweep from Half]]** → [[Positions/Side Control]] (Probability: 50%)
 
 
 **If opponent establishes crossface and compromises underhook depth:**
-- Execute **[[Knee Shield Recovery]]** → [[Positions/Half Guard/Knee Shield Half Guard]] (Probability: 45%)
-- Execute **[[Principles/Guard Recovery]]** → [[Positions/Open Guard]] (Probability: 40%)
+- Execute **[[Knee Shield Recovery/Attacker|Knee Shield Recovery]]** → [[Positions/Half Guard/Knee Shield Half Guard]] (Probability: 45%)
+- Execute **[[Principles/Guard Recovery/Attacker|Guard Recovery]]** → [[Positions/Open Guard]] (Probability: 40%)
 
 
 **If opponent attempts to extract trapped leg by extending it:**
-- Execute **[[Transitions/Electric Chair Transition]]** → [[Positions/Half Guard/Electric Chair]] (Probability: 60%)
-- Execute **[[Transitions/Roll to Truck]]** → [[Positions/Twister Control/Truck]] (Probability: 55%)
+- Execute **[[Transitions/Electric Chair Transition/Attacker|Electric Chair Transition]]** → [[Positions/Half Guard/Electric Chair]] (Probability: 60%)
+- Execute **[[Transitions/Roll to Truck/Attacker|Roll to Truck]]** → [[Positions/Twister Control/Truck]] (Probability: 55%)
 
 
 

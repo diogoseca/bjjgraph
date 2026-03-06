@@ -97,23 +97,23 @@ Mission Control serves as the central hub of the rubber guard system, connecting
 ### Available Transitions
 
 
-- **[[Transitions/Triangle Setup]]** (15% of attempts)
+- **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** (15% of attempts)
 
-- **[[Transitions/Omoplata to Sweep]]** (12% of attempts)
+- **[[Transitions/Omoplata to Sweep/Attacker|Omoplata to Sweep]]** (12% of attempts)
 
-- **[[Transitions/Closed Guard to Omoplata]]** (12% of attempts)
+- **[[Transitions/Closed Guard to Omoplata/Attacker|Closed Guard to Omoplata]]** (12% of attempts)
 
-- **[[Transitions/Closed Guard to Triangle]]** (14% of attempts)
+- **[[Transitions/Closed Guard to Triangle/Attacker|Closed Guard to Triangle]]** (14% of attempts)
 
-- **[[Transitions/Armbar Finish]]** (10% of attempts)
+- **[[Transitions/Armbar Finish/Attacker|Armbar Finish]]** (10% of attempts)
 
-- **[[Transitions/Hip Bump Sweep]]** (10% of attempts)
+- **[[Transitions/Hip Bump Sweep/Attacker|Hip Bump Sweep]]** (10% of attempts)
 
-- **[[Transitions/Omoplata Sweep]]** (10% of attempts)
+- **[[Transitions/Omoplata Sweep/Attacker|Omoplata Sweep]]** (10% of attempts)
 
-- **[[Transitions/Progression to Zombie]]** (8% of attempts)
+- **[[Transitions/Progression to Zombie/Attacker|Progression to Zombie]]** (8% of attempts)
 
-- **[[Transitions/Advance to Chill Dog]]** (9% of attempts)
+- **[[Transitions/Advance to Chill Dog/Attacker|Advance to Chill Dog]]** (9% of attempts)
 
 
 ### Common Mistakes
@@ -178,23 +178,23 @@ Mission Control serves as the central hub of the rubber guard system, connecting
 ### Available Transitions
 
 
-- **[[Transitions/Posture Recovery]]** (15% of attempts)
+- **[[Transitions/Posture Recovery/Attacker|Posture Recovery]]** (15% of attempts)
 
-- **[[Transitions/Arm Extraction and Pass]]** (13% of attempts)
+- **[[Transitions/Arm Extraction and Pass/Attacker|Arm Extraction and Pass]]** (13% of attempts)
 
-- **[[Transitions/Stack Defense]]** (13% of attempts)
+- **[[Transitions/Stack Defense/Attacker|Stack Defense]]** (13% of attempts)
 
-- **[[Transitions/Standing up in Base]]** (30% of attempts)
+- **[[Transitions/Standing up in Base/Attacker|Standing up in Base]]** (30% of attempts)
 
-- **[[Transitions/Arm Extraction]]** (12% of attempts)
+- **[[Transitions/Arm Extraction/Attacker|Arm Extraction]]** (12% of attempts)
 
-- **[[Transitions/Guard Opening Sequence]]** (10% of attempts)
+- **[[Transitions/Guard Opening Sequence/Attacker|Guard Opening Sequence]]** (10% of attempts)
 
-- **[[Transitions/Posture Break from Mission Control]]** (4% of attempts)
+- **[[Transitions/Posture Break from Mission Control/Attacker|Posture Break from Mission Control]]** (4% of attempts)
 
-- **[[Transitions/Stack Pass from Mission Control]]** (2% of attempts)
+- **[[Transitions/Stack Pass from Mission Control/Attacker|Stack Pass from Mission Control]]** (2% of attempts)
 
-- **[[Transitions/Posture Recovery from Mission Control]]** (1% of attempts)
+- **[[Transitions/Posture Recovery from Mission Control/Attacker|Posture Recovery from Mission Control]]** (1% of attempts)
 
 
 ### Common Mistakes

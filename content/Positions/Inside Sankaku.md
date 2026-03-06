@@ -89,23 +89,23 @@ Inside Sankaku, also known as the 'Honey Hole' or '411', is an advanced leg enta
 ### Available Transitions
 
 
-- **[[Transitions/Hip Escape to Guard]]** (14% of attempts)
+- **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** (14% of attempts)
 
-- **[[Transitions/Granby Roll to Guard]]** (13% of attempts)
+- **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** (13% of attempts)
 
-- **[[Transitions/Technical Stand-up]]** (5% of attempts)
+- **[[Transitions/Technical Stand-up/Attacker|Technical Stand-up]]** (5% of attempts)
 
-- **[[Transitions/Counter Leg Attack]]** (9% of attempts)
+- **[[Transitions/Counter Leg Attack/Attacker|Counter Leg Attack]]** (9% of attempts)
 
-- **[[Transitions/Frame and Extract to Half Guard]]** (26% of attempts)
+- **[[Transitions/Frame and Extract to Half Guard/Attacker|Frame and Extract to Half Guard]]** (26% of attempts)
 
-- **[[Transitions/Counter-entangle to 50-50 Guard]]** (17% of attempts)
+- **[[Transitions/Counter-entangle to 50-50 Guard/Attacker|Counter-entangle to 50-50 Guard]]** (17% of attempts)
 
-- **[[Transitions/Angle Change Escape]]** (6% of attempts)
+- **[[Transitions/Angle Change Escape/Attacker|Angle Change Escape]]** (6% of attempts)
 
-- **[[Transitions/Ashi Garami Escape]]** (7% of attempts)
+- **[[Transitions/Ashi Garami Escape/Attacker|Ashi Garami Escape]]** (7% of attempts)
 
-- **[[Transitions/Sweep from Inside Sankaku]]** (3% of attempts)
+- **[[Transitions/Sweep from Inside Sankaku/Attacker|Sweep from Inside Sankaku]]** (3% of attempts)
 
 
 ### Common Mistakes
@@ -166,29 +166,29 @@ Inside Sankaku, also known as the 'Honey Hole' or '411', is an advanced leg enta
 ### Available Transitions
 
 
-- **[[Transitions/Heel Hook]]** (40% of attempts)
+- **[[Transitions/Heel Hook/Attacker|Heel Hook]]** (40% of attempts)
 
-- **[[Transitions/Toe Hold]]** (10% of attempts)
+- **[[Transitions/Toe Hold/Attacker|Toe Hold]]** (10% of attempts)
 
-- **[[Transitions/Outside Ashi Entry]]** (8% of attempts)
+- **[[Transitions/Outside Ashi Entry/Attacker|Outside Ashi Entry]]** (8% of attempts)
 
-- **[[Transitions/Saddle Entry from Top]]** (8% of attempts)
+- **[[Transitions/Saddle Entry from Top/Attacker|Saddle Entry from Top]]** (8% of attempts)
 
-- **[[Transitions/50-50 Entry]]** (3% of attempts)
+- **[[Transitions/50-50 Entry/Attacker|50-50 Entry]]** (3% of attempts)
 
-- **[[Transitions/Kneebar Finish]]** (8% of attempts)
+- **[[Transitions/Kneebar Finish/Attacker|Kneebar Finish]]** (8% of attempts)
 
-- **[[Transitions/Calf Slicer]]** (3% of attempts)
+- **[[Transitions/Calf Slicer/Attacker|Calf Slicer]]** (3% of attempts)
 
-- **[[Transitions/Rolling Back Take]]** (10% of attempts)
+- **[[Transitions/Rolling Back Take/Attacker|Rolling Back Take]]** (10% of attempts)
 
-- **[[Transitions/Inside Ashi-Garami to Honey Hole]]** (6% of attempts)
+- **[[Transitions/Inside Ashi-Garami to Honey Hole/Attacker|Inside Ashi-Garami to Honey Hole]]** (6% of attempts)
 
-- **[[Transitions/Inside Sankaku Heel Hook]]** (1% of attempts)
+- **[[Transitions/Inside Sankaku Heel Hook/Attacker|Inside Sankaku Heel Hook]]** (1% of attempts)
 
-- **[[Transitions/Inside Sankaku to Saddle]]** (1% of attempts)
+- **[[Transitions/Inside Sankaku to Saddle/Attacker|Inside Sankaku to Saddle]]** (1% of attempts)
 
-- **[[Submissions/Inside Sankaku Heel Hook Finish]]** (2% of attempts)
+- **[[Submissions/Inside Sankaku Heel Hook Finish/Attacker|Inside Sankaku Heel Hook Finish]]** (2% of attempts)
 
 
 ### Common Mistakes

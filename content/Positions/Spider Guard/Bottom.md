@@ -206,23 +206,23 @@ Spider Guard Bottom is a fundamental gi-based open guard position where the bott
 ## Decision Making from This Position
 
 **If opponent stands upright with extended posture trying to break grips:**
-- Execute **[[Transitions/Triangle Setup]]** → [[Positions/Triangle Control]] (Probability: 55%)
-- Execute **[[Transitions/Omoplata Sweep]]** → [[Positions/Omoplata Control]] (Probability: 45%)
+- Execute **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** → [[Positions/Triangle Control]] (Probability: 55%)
+- Execute **[[Transitions/Omoplata Sweep/Attacker|Omoplata Sweep]]** → [[Positions/Omoplata Control]] (Probability: 45%)
 
 
 **Else if opponent drives forward with low posture attempting pressure pass:**
-- Execute **[[Transitions/Balloon Sweep]]** → [[Positions/Mount]] (Probability: 55%)
-- Execute **[[Transitions/Scissor Sweep]]** → [[Positions/Mount]] (Probability: 45%)
+- Execute **[[Transitions/Balloon Sweep/Attacker|Balloon Sweep]]** → [[Positions/Mount]] (Probability: 55%)
+- Execute **[[Transitions/Scissor Sweep/Attacker|Scissor Sweep]]** → [[Positions/Mount]] (Probability: 45%)
 
 
 **Else if opponent steps to side attempting toreando or knee cut pass:**
-- Execute **[[Transitions/De La Riva Sweep]]** → [[Positions/Back Control]] (Probability: 50%)
-- Execute **[[Transitions/Pendulum Sweep]]** → [[Positions/Mount]] (Probability: 50%)
+- Execute **[[Transitions/De La Riva Sweep/Attacker|De La Riva Sweep]]** → [[Positions/Back Control]] (Probability: 50%)
+- Execute **[[Transitions/Pendulum Sweep/Attacker|Pendulum Sweep]]** → [[Positions/Mount]] (Probability: 50%)
 
 
 **Else if opponent secures strong grips and controls distance effectively:**
-- Execute **[[Transitions/Guard Recovery from Spider Guard]]** → [[Positions/Closed Guard]] (Probability: 55%)
-- Execute **[[Transitions/Butterfly Hook Recovery]]** → [[Positions/Butterfly Guard]] (Probability: 45%)
+- Execute **[[Transitions/Guard Recovery from Spider Guard/Attacker|Guard Recovery from Spider Guard]]** → [[Positions/Closed Guard]] (Probability: 55%)
+- Execute **[[Transitions/Butterfly Hook Recovery/Attacker|Butterfly Hook Recovery]]** → [[Positions/Butterfly Guard]] (Probability: 45%)
 
 
 

@@ -95,19 +95,19 @@ The biomechanical principle underlying the Jailbreak from bottom involves conver
 ### Available Transitions
 
 
-- **[[Transitions/Jailbreak to Turtle]]** (22% of attempts)
+- **[[Transitions/Jailbreak to Turtle/Attacker|Jailbreak to Turtle]]** (22% of attempts)
 
-- **[[Transitions/Jailbreak to Back Take]]** (14% of attempts)
+- **[[Transitions/Jailbreak to Back Take/Attacker|Jailbreak to Back Take]]** (14% of attempts)
 
-- **[[Transitions/Jailbreak to Deep Half Entry]]** (15% of attempts)
+- **[[Transitions/Jailbreak to Deep Half Entry/Attacker|Jailbreak to Deep Half Entry]]** (15% of attempts)
 
-- **[[Transitions/Guard Recovery from Jailbreak]]** (15% of attempts)
+- **[[Transitions/Guard Recovery from Jailbreak/Attacker|Guard Recovery from Jailbreak]]** (15% of attempts)
 
-- **[[Transitions/Old School Sweep]]** (12% of attempts)
+- **[[Transitions/Old School Sweep/Attacker|Old School Sweep]]** (12% of attempts)
 
-- **[[Transitions/Lockdown Recovery]]** (12% of attempts)
+- **[[Transitions/Lockdown Recovery/Attacker|Lockdown Recovery]]** (12% of attempts)
 
-- **[[Transitions/Electric Chair Transition]]** (10% of attempts)
+- **[[Transitions/Electric Chair Transition/Attacker|Electric Chair Transition]]** (10% of attempts)
 
 
 ### Common Mistakes
@@ -168,23 +168,23 @@ The biomechanical principle underlying the Jailbreak from bottom involves conver
 ### Available Transitions
 
 
-- **[[Transitions/Leg Weave Pass]]** (12% of attempts)
+- **[[Transitions/Leg Weave Pass/Attacker|Leg Weave Pass]]** (12% of attempts)
 
-- **[[Transitions/Smash Pass]]** (33% of attempts)
+- **[[Transitions/Smash Pass/Attacker|Smash Pass]]** (33% of attempts)
 
-- **[[Transitions/Knee Slice from Half]]** (17% of attempts)
+- **[[Transitions/Knee Slice from Half/Attacker|Knee Slice from Half]]** (17% of attempts)
 
-- **[[Transitions/Underhook Pass]]** (17% of attempts)
+- **[[Transitions/Underhook Pass/Attacker|Underhook Pass]]** (17% of attempts)
 
-- **[[Transitions/Darce Setup]]** (9% of attempts)
+- **[[Transitions/Darce Setup/Attacker|Darce Setup]]** (9% of attempts)
 
-- **[[Transitions/Front Headlock to Back]]** (7% of attempts)
+- **[[Transitions/Front Headlock to Back/Attacker|Front Headlock to Back]]** (7% of attempts)
 
-- **[[Transitions/Knee Slide from Jailbreak]]** (3% of attempts)
+- **[[Transitions/Knee Slide from Jailbreak/Attacker|Knee Slide from Jailbreak]]** (3% of attempts)
 
-- **[[Transitions/North-South Recovery from Jailbreak]]** (1% of attempts)
+- **[[Transitions/North-South Recovery from Jailbreak/Attacker|North-South Recovery from Jailbreak]]** (1% of attempts)
 
-- **[[Transitions/Reestablish Side Control from Jailbreak]]** (1% of attempts)
+- **[[Transitions/Reestablish Side Control from Jailbreak/Attacker|Reestablish Side Control from Jailbreak]]** (1% of attempts)
 
 
 ### Common Mistakes

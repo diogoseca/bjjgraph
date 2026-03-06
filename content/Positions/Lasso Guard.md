@@ -90,31 +90,31 @@ Understanding Lasso Guard requires appreciation for both its strengths and limit
 ### Available Transitions
 
 
-- **[[Transitions/Sickle Sweep]]** (48% of attempts)
+- **[[Transitions/Sickle Sweep/Attacker|Sickle Sweep]]** (48% of attempts)
 
-- **[[Transitions/Triangle Setup]]** (12% of attempts)
+- **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** (12% of attempts)
 
-- **[[Transitions/Omoplata Sweep]]** (8% of attempts)
+- **[[Transitions/Omoplata Sweep/Attacker|Omoplata Sweep]]** (8% of attempts)
 
-- **[[Transitions/De La Riva Sweep]]** (5% of attempts)
+- **[[Transitions/De La Riva Sweep/Attacker|De La Riva Sweep]]** (5% of attempts)
 
-- **[[Transitions/Omoplata from Lasso]]** (5% of attempts)
+- **[[Transitions/Omoplata from Lasso/Attacker|Omoplata from Lasso]]** (5% of attempts)
 
-- **[[Transitions/Hook Sweep]]** (4% of attempts)
+- **[[Transitions/Hook Sweep/Attacker|Hook Sweep]]** (4% of attempts)
 
-- **[[Transitions/Lasso Sweep]]** (4% of attempts)
+- **[[Transitions/Lasso Sweep/Attacker|Lasso Sweep]]** (4% of attempts)
 
-- **[[Transitions/X-Guard Sweep]]** (3% of attempts)
+- **[[Transitions/X-Guard Sweep/Attacker|X-Guard Sweep]]** (3% of attempts)
 
-- **[[Transitions/Berimbolo Entry]]** (3% of attempts)
+- **[[Transitions/Berimbolo Entry/Attacker|Berimbolo Entry]]** (3% of attempts)
 
-- **[[Transitions/Lasso Guard to Inverted Lasso Guard]]** (3% of attempts)
+- **[[Transitions/Lasso Guard to Inverted Lasso Guard/Attacker|Lasso Guard to Inverted Lasso Guard]]** (3% of attempts)
 
-- **[[Transitions/Armbar Finish]]** (2% of attempts)
+- **[[Transitions/Armbar Finish/Attacker|Armbar Finish]]** (2% of attempts)
 
-- **[[Transitions/Kimura Sweep]]** (2% of attempts)
+- **[[Transitions/Kimura Sweep/Attacker|Kimura Sweep]]** (2% of attempts)
 
-- **[[Transitions/Lasso Guard to Russian Leg Lasso]]** (1% of attempts)
+- **[[Transitions/Lasso Guard to Russian Leg Lasso/Attacker|Lasso Guard to Russian Leg Lasso]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -173,29 +173,29 @@ Understanding Lasso Guard requires appreciation for both its strengths and limit
 ### Available Transitions
 
 
-- **[[Transitions/Lasso Guard Pass]]** (15% of attempts)
+- **[[Transitions/Lasso Guard Pass/Attacker|Lasso Guard Pass]]** (15% of attempts)
 
-- **[[Transitions/Stack Pass]]** (10% of attempts)
+- **[[Transitions/Stack Pass/Attacker|Stack Pass]]** (10% of attempts)
 
-- **[[Transitions/Knee Cut Pass]]** (34% of attempts)
+- **[[Transitions/Knee Cut Pass/Attacker|Knee Cut Pass]]** (34% of attempts)
 
-- **[[Transitions/Smash Pass]]** (8% of attempts)
+- **[[Transitions/Smash Pass/Attacker|Smash Pass]]** (8% of attempts)
 
-- **[[Transitions/Toreando Pass]]** (8% of attempts)
+- **[[Transitions/Toreando Pass/Attacker|Toreando Pass]]** (8% of attempts)
 
-- **[[Transitions/Long Step Pass]]** (3% of attempts)
+- **[[Transitions/Long Step Pass/Attacker|Long Step Pass]]** (3% of attempts)
 
-- **[[Transitions/Leg Weave Pass]]** (8% of attempts)
+- **[[Transitions/Leg Weave Pass/Attacker|Leg Weave Pass]]** (8% of attempts)
 
-- **[[Transitions/Kimura]]** (3% of attempts)
+- **[[Transitions/Kimura/Attacker|Kimura]]** (3% of attempts)
 
-- **[[Transitions/Body Lock Pass]]** (6% of attempts)
+- **[[Transitions/Body Lock Pass/Attacker|Body Lock Pass]]** (6% of attempts)
 
-- **[[Transitions/Spider Guard Pass]]** (3% of attempts)
+- **[[Transitions/Spider Guard Pass/Attacker|Spider Guard Pass]]** (3% of attempts)
 
-- **[[Transitions/Lasso Guard Backstep Pass]]** (1% of attempts)
+- **[[Transitions/Lasso Guard Backstep Pass/Attacker|Lasso Guard Backstep Pass]]** (1% of attempts)
 
-- **[[Transitions/Lasso Guard Stack Pass]]** (1% of attempts)
+- **[[Transitions/Lasso Guard Stack Pass/Attacker|Lasso Guard Stack Pass]]** (1% of attempts)
 
 
 ### Common Mistakes

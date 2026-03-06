@@ -213,23 +213,23 @@ One critical aspect that differentiates elite-level Twister Control from interme
 ## Decision Making from This Position
 
 **Opponent is stationary and defending with minimal movement:**
-- Execute **[[Hunt Twister Finish]]** → [[Positions/Game Over]] (Probability: 45%)
-- Execute **[[Transition to Guillotine]]** → [[Positions/Guillotine Control]] (Probability: 55%)
+- Execute **[[Hunt Twister Finish/Attacker|Hunt Twister Finish]]** → [[Positions/Game Over]] (Probability: 45%)
+- Execute **[[Transition to Guillotine/Attacker|Transition to Guillotine]]** → [[Positions/Guillotine Control]] (Probability: 55%)
 
 
 **Opponent is actively hand fighting and creating frames:**
-- Execute **[[Attack Extended Arm]]** → [[Positions/Armbar Control]] (Probability: 50%)
-- Execute **[[Increase Rotation Pressure]]** → [[Positions/Twister Control]] (Probability: 50%)
+- Execute **[[Attack Extended Arm/Attacker|Attack Extended Arm]]** → [[Positions/Armbar Control]] (Probability: 50%)
+- Execute **[[Increase Rotation Pressure/Attacker|Increase Rotation Pressure]]** → [[Positions/Twister Control]] (Probability: 50%)
 
 
 **Opponent is working to free trapped leg from entanglement:**
-- Execute **[[Recapture Leg Immediately]]** → [[Positions/Twister Control]] (Probability: 60%)
-- Execute **[[Transition to Back Control]]** → [[Positions/Back Control]] (Probability: 40%)
+- Execute **[[Recapture Leg Immediately/Attacker|Recapture Leg Immediately]]** → [[Positions/Twister Control]] (Probability: 60%)
+- Execute **[[Transition to Back Control/Attacker|Transition to Back Control]]** → [[Positions/Back Control]] (Probability: 40%)
 
 
 **Opponent turns into you sacrificing back to escape twist:**
-- Execute **[[Transitions/Guillotine Choke]]** → [[Positions/Game Over]] (Probability: 55%)
-- Execute **[[Front Headlock Series]]** → [[Positions/Front Headlock]] (Probability: 45%)
+- Execute **[[Transitions/Guillotine Choke/Attacker|Guillotine Choke]]** → [[Positions/Game Over]] (Probability: 55%)
+- Execute **[[Front Headlock Series/Attacker|Front Headlock Series]]** → [[Positions/Front Headlock]] (Probability: 45%)
 
 
 

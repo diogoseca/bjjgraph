@@ -97,31 +97,31 @@ Understanding the Saddle requires knowledge of both the offensive and defensive 
 ### Available Transitions
 
 
-- **[[Transitions/Ashi Garami Escape]]** (55% of attempts)
+- **[[Transitions/Ashi Garami Escape/Attacker|Ashi Garami Escape]]** (55% of attempts)
 
-- **[[Transitions/Standing up in Base]]** (1% of attempts)
+- **[[Transitions/Standing up in Base/Attacker|Standing up in Base]]** (1% of attempts)
 
-- **[[Transitions/Guard Recovery from Leg Entanglement]]** (7% of attempts)
+- **[[Transitions/Guard Recovery from Leg Entanglement/Attacker|Guard Recovery from Leg Entanglement]]** (7% of attempts)
 
-- **[[Transitions/Frame and Shrimp to Guard]]** (8% of attempts)
+- **[[Transitions/Frame and Shrimp to Guard/Attacker|Frame and Shrimp to Guard]]** (8% of attempts)
 
-- **[[Transitions/Counter-entangle to 50-50 Guard]]** (10% of attempts)
+- **[[Transitions/Counter-entangle to 50-50 Guard/Attacker|Counter-entangle to 50-50 Guard]]** (10% of attempts)
 
-- **[[Transitions/Inversion Escape]]** (11% of attempts)
+- **[[Transitions/Inversion Escape/Attacker|Inversion Escape]]** (11% of attempts)
 
-- **[[Transitions/Leg Extraction to Guard]]** (6% of attempts)
+- **[[Transitions/Leg Extraction to Guard/Attacker|Leg Extraction to Guard]]** (6% of attempts)
 
-- **[[Transitions/Boot Scoot Escape from Saddle]]** (0% of attempts)
+- **[[Transitions/Boot Scoot Escape from Saddle/Attacker|Boot Scoot Escape from Saddle]]** (0% of attempts)
 
-- **[[Transitions/Fight to Inside Ashi from Saddle]]** (0% of attempts)
+- **[[Transitions/Fight to Inside Ashi from Saddle/Attacker|Fight to Inside Ashi from Saddle]]** (0% of attempts)
 
-- **[[Transitions/Forward Roll from Saddle]]** (0% of attempts)
+- **[[Transitions/Forward Roll from Saddle/Attacker|Forward Roll from Saddle]]** (0% of attempts)
 
-- **[[Transitions/Leg Pummeling from Saddle]]** (0% of attempts)
+- **[[Transitions/Leg Pummeling from Saddle/Attacker|Leg Pummeling from Saddle]]** (0% of attempts)
 
-- **[[Transitions/Sweep from Saddle]]** (1% of attempts)
+- **[[Transitions/Sweep from Saddle/Attacker|Sweep from Saddle]]** (1% of attempts)
 
-- **[[Positions/Aoki Lock]]** (1% of attempts)
+- **[[Positions/Aoki Lock/Attacker|Aoki Lock]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -178,31 +178,31 @@ Understanding the Saddle requires knowledge of both the offensive and defensive 
 ### Available Transitions
 
 
-- **[[Transitions/Heel Hook]]** (40% of attempts)
+- **[[Transitions/Heel Hook/Attacker|Heel Hook]]** (40% of attempts)
 
-- **[[Transitions/Outside Heel Hook]]** (5% of attempts)
+- **[[Transitions/Outside Heel Hook/Attacker|Outside Heel Hook]]** (5% of attempts)
 
-- **[[Transitions/Straight Ankle Lock Entry]]** (10% of attempts)
+- **[[Transitions/Straight Ankle Lock Entry/Attacker|Straight Ankle Lock Entry]]** (10% of attempts)
 
-- **[[Transitions/Toe Hold]]** (9% of attempts)
+- **[[Transitions/Toe Hold/Attacker|Toe Hold]]** (9% of attempts)
 
-- **[[Transitions/Kneebar]]** (3% of attempts)
+- **[[Transitions/Kneebar/Attacker|Kneebar]]** (3% of attempts)
 
-- **[[Transitions/Back Take from Ashi]]** (10% of attempts)
+- **[[Transitions/Back Take from Ashi/Attacker|Back Take from Ashi]]** (10% of attempts)
 
-- **[[Transitions/Cross Ashi Transition]]** (6% of attempts)
+- **[[Transitions/Cross Ashi Transition/Attacker|Cross Ashi Transition]]** (6% of attempts)
 
-- **[[Transitions/Backside 50-50 Entry from Ashi]]** (5% of attempts)
+- **[[Transitions/Backside 50-50 Entry from Ashi/Attacker|Backside 50-50 Entry from Ashi]]** (5% of attempts)
 
-- **[[Transitions/Calf Slicer]]** (3% of attempts)
+- **[[Transitions/Calf Slicer/Attacker|Calf Slicer]]** (3% of attempts)
 
-- **[[Positions/Estima Lock]]** (2% of attempts)
+- **[[Positions/Estima Lock/Attacker|Estima Lock]]** (2% of attempts)
 
-- **[[Transitions/Fallback to Inside Ashi-Garami]]** (3% of attempts)
+- **[[Transitions/Fallback to Inside Ashi-Garami/Attacker|Fallback to Inside Ashi-Garami]]** (3% of attempts)
 
-- **[[Transitions/Heel Hook from Saddle]]** (0% of attempts)
+- **[[Transitions/Heel Hook from Saddle/Attacker|Heel Hook from Saddle]]** (0% of attempts)
 
-- **[[Transitions/Saddle Fallback to Inside Ashi]]** (4% of attempts)
+- **[[Transitions/Saddle Fallback to Inside Ashi/Attacker|Saddle Fallback to Inside Ashi]]** (4% of attempts)
 
 
 ### Common Mistakes

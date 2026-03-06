@@ -205,27 +205,27 @@ From the top perspective, Crackhead Control presents a complex defensive puzzle 
 ## Decision Making from This Position
 
 **If bottom player extends legs setting up triangle or omoplata, creating temporary back exposure:**
-- Execute **[[Transitions/Back Take]]** → [[Positions/Back Control]] (Probability: 55%)
-- Execute **[[Transitions/Rolling Back Take]]** → [[Positions/Back Control]] (Probability: 45%)
-- Execute **[[Transitions/Stack Pass]]** → [[Positions/Side Control]] (Probability: 40%)
+- Execute **[[Transitions/Back Take/Attacker|Back Take]]** → [[Positions/Back Control]] (Probability: 55%)
+- Execute **[[Transitions/Rolling Back Take/Attacker|Rolling Back Take]]** → [[Positions/Back Control]] (Probability: 45%)
+- Execute **[[Transitions/Stack Pass/Attacker|Stack Pass]]** → [[Positions/Side Control]] (Probability: 40%)
 
 
 **If bottom player maintains tight position without extending for submissions, prioritizing control over immediate attack:**
-- Execute **[[Transitions/Posture Recovery to Closed Guard]]** → [[Positions/Closed Guard]] (Probability: 60%)
-- Execute **[[Transitions/Arm Extraction and Pass]]** → [[Positions/Side Control]] (Probability: 45%)
-- Execute **[[Transitions/Double Underhook Pass]]** → [[Positions/Side Control]] (Probability: 50%)
+- Execute **[[Transitions/Posture Recovery to Closed Guard/Attacker|Posture Recovery to Closed Guard]]** → [[Positions/Closed Guard]] (Probability: 60%)
+- Execute **[[Transitions/Arm Extraction and Pass/Attacker|Arm Extraction and Pass]]** → [[Positions/Side Control]] (Probability: 45%)
+- Execute **[[Transitions/Double Underhook Pass/Attacker|Double Underhook Pass]]** → [[Positions/Side Control]] (Probability: 50%)
 
 
 **If bottom player drives forward aggressively attempting gogoplata or transitioning to Carni:**
-- Execute **[[Transitions/Back Take]]** → [[Positions/Back Control]] (Probability: 50%)
-- Execute **[[Transitions/Sprawl]]** → [[Positions/Front Headlock]] (Probability: 45%)
-- Execute **[[Transitions/Stack Pass]]** → [[Positions/Side Control]] (Probability: 40%)
+- Execute **[[Transitions/Back Take/Attacker|Back Take]]** → [[Positions/Back Control]] (Probability: 50%)
+- Execute **[[Transitions/Sprawl/Attacker|Sprawl]]** → [[Positions/Front Headlock]] (Probability: 45%)
+- Execute **[[Transitions/Stack Pass/Attacker|Stack Pass]]** → [[Positions/Side Control]] (Probability: 40%)
 
 
 **If bottom player loses leg control across back while maintaining overhook:**
-- Execute **[[Transitions/Double Underhook Pass]]** → [[Positions/Side Control]] (Probability: 65%)
-- Execute **[[Transitions/Stack Pass]]** → [[Positions/Side Control]] (Probability: 55%)
-- Execute **[[Transitions/Back Take]]** → [[Positions/Back Control]] (Probability: 50%)
+- Execute **[[Transitions/Double Underhook Pass/Attacker|Double Underhook Pass]]** → [[Positions/Side Control]] (Probability: 65%)
+- Execute **[[Transitions/Stack Pass/Attacker|Stack Pass]]** → [[Positions/Side Control]] (Probability: 55%)
+- Execute **[[Transitions/Back Take/Attacker|Back Take]]** → [[Positions/Back Control]] (Probability: 50%)
 
 
 

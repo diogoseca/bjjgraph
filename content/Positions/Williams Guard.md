@@ -93,21 +93,21 @@ From the top perspective, Williams Guard presents significant challenges requiri
 ### Available Transitions
 
 
-- **[[Transitions/Williams Shoulder Lock]]** (13% of attempts)
+- **[[Transitions/Williams Shoulder Lock/Attacker|Williams Shoulder Lock]]** (13% of attempts)
 
-- **[[Transitions/Omoplata Sweep]]** (15% of attempts)
+- **[[Transitions/Omoplata Sweep/Attacker|Omoplata Sweep]]** (15% of attempts)
 
-- **[[Transitions/Triangle Setup]]** (12% of attempts)
+- **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** (12% of attempts)
 
-- **[[Transitions/Closed Guard to Omoplata]]** (18% of attempts)
+- **[[Transitions/Closed Guard to Omoplata/Attacker|Closed Guard to Omoplata]]** (18% of attempts)
 
-- **[[Transitions/Back Take from Bottom]]** (11% of attempts)
+- **[[Transitions/Back Take from Bottom/Attacker|Back Take from Bottom]]** (11% of attempts)
 
-- **[[Transitions/Kimura to Back Take]]** (12% of attempts)
+- **[[Transitions/Kimura to Back Take/Attacker|Kimura to Back Take]]** (12% of attempts)
 
-- **[[Transitions/Armbar Finish]]** (13% of attempts)
+- **[[Transitions/Armbar Finish/Attacker|Armbar Finish]]** (13% of attempts)
 
-- **[[Transitions/Williams Guard Sweep]]** (6% of attempts)
+- **[[Transitions/Williams Guard Sweep/Attacker|Williams Guard Sweep]]** (6% of attempts)
 
 
 ### Common Mistakes
@@ -168,23 +168,23 @@ From the top perspective, Williams Guard presents significant challenges requiri
 ### Available Transitions
 
 
-- **[[Transitions/Arm Extraction]]** (14% of attempts)
+- **[[Transitions/Arm Extraction/Attacker|Arm Extraction]]** (14% of attempts)
 
-- **[[Transitions/Stack Pass]]** (12% of attempts)
+- **[[Transitions/Stack Pass/Attacker|Stack Pass]]** (12% of attempts)
 
-- **[[Transitions/Pressure Pass]]** (11% of attempts)
+- **[[Transitions/Pressure Pass/Attacker|Pressure Pass]]** (11% of attempts)
 
-- **[[Transitions/Knee Cut Pass]]** (13% of attempts)
+- **[[Transitions/Knee Cut Pass/Attacker|Knee Cut Pass]]** (13% of attempts)
 
-- **[[Transitions/Posture Recovery]]** (30% of attempts)
+- **[[Transitions/Posture Recovery/Attacker|Posture Recovery]]** (30% of attempts)
 
-- **[[Transitions/Knee Slice Pass]]** (12% of attempts)
+- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (12% of attempts)
 
-- **[[Transitions/Posture from Williams Guard]]** (5% of attempts)
+- **[[Transitions/Posture from Williams Guard/Attacker|Posture from Williams Guard]]** (5% of attempts)
 
-- **[[Transitions/Stack from Williams Guard]]** (2% of attempts)
+- **[[Transitions/Stack from Williams Guard/Attacker|Stack from Williams Guard]]** (2% of attempts)
 
-- **[[Transitions/Guard Pass from Williams Guard]]** (1% of attempts)
+- **[[Transitions/Guard Pass from Williams Guard/Attacker|Guard Pass from Williams Guard]]** (1% of attempts)
 
 
 ### Common Mistakes

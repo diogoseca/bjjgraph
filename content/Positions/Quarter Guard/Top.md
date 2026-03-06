@@ -211,28 +211,28 @@ The key distinction from half guard top is that the bottom player's defensive ca
 ## Decision Making from This Position
 
 **If opponent maintains weak knee shield but cannot generate frames or hip mobility for defense:**
-- Execute **[[Transitions/Knee Slice Pass]]** → [[Positions/Side Control]] (Probability: 70%)
-- Execute **[[Transitions/Smash Pass]]** → [[Positions/Side Control]] (Probability: 65%)
+- Execute **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** → [[Positions/Side Control]] (Probability: 70%)
+- Execute **[[Transitions/Smash Pass/Attacker|Smash Pass]]** → [[Positions/Side Control]] (Probability: 65%)
 
 
 **If opponent attempts to turn away from crossface or create distance for escape:**
-- Execute **[[Transitions/Half Guard to Back Take]]** → [[Positions/Back Control]] (Probability: 55%)
-- Execute **[[Transitions/Side Control to North-South]]** → [[Positions/North-South]] (Probability: 50%)
+- Execute **[[Transitions/Half Guard to Back Take/Attacker|Half Guard to Back Take]]** → [[Positions/Back Control]] (Probability: 55%)
+- Execute **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** → [[Positions/North-South]] (Probability: 50%)
 
 
 **If opponent flattens completely and loses all leg control and defensive structures:**
-- Execute **[[Transitions/Side Control to Mount]]** → [[Positions/Mount]] (Probability: 60%)
-- Execute **[[Transitions/Smash Pass]]** → [[Positions/Side Control]] (Probability: 75%)
+- Execute **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** → [[Positions/Mount]] (Probability: 60%)
+- Execute **[[Transitions/Smash Pass/Attacker|Smash Pass]]** → [[Positions/Side Control]] (Probability: 75%)
 
 
 **If opponent creates underhook on near side but remains flat without mobility:**
-- Execute **[[Transitions/Underhook Pass]]** → [[Positions/Side Control]] (Probability: 55%)
-- Execute **[[Transitions/Long Step Pass]]** → [[Positions/Side Control]] (Probability: 50%)
+- Execute **[[Transitions/Underhook Pass/Attacker|Underhook Pass]]** → [[Positions/Side Control]] (Probability: 55%)
+- Execute **[[Transitions/Long Step Pass/Attacker|Long Step Pass]]** → [[Positions/Side Control]] (Probability: 50%)
 
 
 **If opponent exposes arm attempting to frame or recover guard structure:**
-- Execute **[[Transitions/Kimura]]** → [[Positions/Kimura Trap]] (Probability: 45%)
-- Execute **[[Transitions/Darce Setup]]** → [[Positions/Darce Control]] (Probability: 40%)
+- Execute **[[Transitions/Kimura/Attacker|Kimura]]** → [[Positions/Kimura Trap]] (Probability: 45%)
+- Execute **[[Transitions/Darce Setup/Attacker|Darce Setup]]** → [[Positions/Darce Control]] (Probability: 40%)
 
 
 

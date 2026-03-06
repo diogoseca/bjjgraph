@@ -214,18 +214,18 @@ The psychological component cannot be overlooked. Modified Scarf Hold creates in
 ## Decision Making from This Position
 
 **If opponent maintains heavy chest pressure but near arm is not fully controlled:**
-- Execute **[[Transitions/Arm Extraction]]** → [[Positions/Half Guard]] (Probability: 45%)
-- Execute **[[Transitions/Frame and Shrimp to Guard]]** → [[Positions/Open Guard]] (Probability: 35%)
+- Execute **[[Transitions/Arm Extraction/Attacker|Arm Extraction]]** → [[Positions/Half Guard]] (Probability: 45%)
+- Execute **[[Transitions/Frame and Shrimp to Guard/Attacker|Frame and Shrimp to Guard]]** → [[Positions/Open Guard]] (Probability: 35%)
 
 
 **If opponent rises to transition to mount or hunt submissions:**
-- Execute **[[Transitions/Elbow Escape to Guard]]** → [[Positions/Half Guard]] (Probability: 50%)
-- Execute **[[Transitions/Bridge and Roll]]** → [[Positions/Closed Guard]] (Probability: 30%)
+- Execute **[[Transitions/Elbow Escape to Guard/Attacker|Elbow Escape to Guard]]** → [[Positions/Half Guard]] (Probability: 50%)
+- Execute **[[Transitions/Bridge and Roll/Attacker|Bridge and Roll]]** → [[Positions/Closed Guard]] (Probability: 30%)
 
 
 **If pressure becomes unbearable and breathing is severely restricted:**
-- Execute **[[Transitions/Roll to Turtle]]** → [[Positions/Turtle]] (Probability: 60%)
-- Execute **[[Transitions/Ghost Escape]]** → [[Positions/Standing Position]] (Probability: 25%)
+- Execute **[[Transitions/Roll to Turtle/Attacker|Roll to Turtle]]** → [[Positions/Turtle]] (Probability: 60%)
+- Execute **[[Transitions/Ghost Escape/Attacker|Ghost Escape]]** → [[Positions/Standing Position]] (Probability: 25%)
 
 
 

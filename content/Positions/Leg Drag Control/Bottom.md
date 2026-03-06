@@ -210,23 +210,23 @@ Defensive success in this position requires recognizing the leg drag early in th
 ## Decision Making from This Position
 
 **If opponent has strong shoulder control and is driving toward back take:**
-- Execute **[[Transitions/Roll to Turtle]]** → [[Positions/Turtle]] (Probability: 60%)
-- Execute **[[Fight underhook and frame hip]]** → [[Leg Drag Control Bottom]] (Probability: 40%)
+- Execute **[[Transitions/Roll to Turtle/Attacker|Roll to Turtle]]** → [[Positions/Turtle]] (Probability: 60%)
+- Execute **[[Fight underhook and frame hip/Attacker|Fight underhook and frame hip]]** → [[Leg Drag Control Bottom]] (Probability: 40%)
 
 
 **If opponent's weight shifts forward toward head control:**
-- Execute **[[Transitions/Technical Stand-up]]** → [[Positions/Standing Position]] (Probability: 55%)
-- Execute **[[Transitions/Granby Roll to Guard]]** → [[Positions/Open Guard]] (Probability: 45%)
+- Execute **[[Transitions/Technical Stand-up/Attacker|Technical Stand-up]]** → [[Positions/Standing Position]] (Probability: 55%)
+- Execute **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** → [[Positions/Open Guard]] (Probability: 45%)
 
 
 **If opponent loosens leg control to adjust grip:**
-- Execute **[[Transitions/Leg Drag Counter to Half Guard]]** → [[Positions/Half Guard]] (Probability: 65%)
-- Execute **[[Transitions/Frame and Shrimp to Guard]]** → [[Positions/Open Guard]] (Probability: 35%)
+- Execute **[[Transitions/Leg Drag Counter to Half Guard/Attacker|Leg Drag Counter to Half Guard]]** → [[Positions/Half Guard]] (Probability: 65%)
+- Execute **[[Transitions/Frame and Shrimp to Guard/Attacker|Frame and Shrimp to Guard]]** → [[Positions/Open Guard]] (Probability: 35%)
 
 
 **If opponent drops weight to attack leg entanglement:**
-- Execute **[[Transitions/Inside Position Recovery]]** → [[Positions/Butterfly Guard]] (Probability: 50%)
-- Execute **[[Counter to Leg Entanglement]]** → [[Positions/X-Guard/Single Leg X-Guard]] (Probability: 50%)
+- Execute **[[Transitions/Inside Position Recovery/Attacker|Inside Position Recovery]]** → [[Positions/Butterfly Guard]] (Probability: 50%)
+- Execute **[[Counter to Leg Entanglement/Attacker|Counter to Leg Entanglement]]** → [[Positions/X-Guard/Single Leg X-Guard]] (Probability: 50%)
 
 
 

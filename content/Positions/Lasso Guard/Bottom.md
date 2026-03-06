@@ -217,28 +217,28 @@ Training Lasso Guard Bottom develops several fundamental skills that transfer ac
 ## Decision Making from This Position
 
 **If opponent maintains upright posture and attempts to break the sleeve grip while staying at distance:**
-- Execute **[[Transitions/Sickle Sweep]]** → [[Positions/Mount]] (Probability: 60%)
-- Execute **[[Transitions/Triangle Setup]]** → [[Positions/Triangle Control]] (Probability: 55%)
+- Execute **[[Transitions/Sickle Sweep/Attacker|Sickle Sweep]]** → [[Positions/Mount]] (Probability: 60%)
+- Execute **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** → [[Positions/Triangle Control]] (Probability: 55%)
 
 
 **If opponent drives forward with pressure attempting to smash or stack the guard:**
-- Execute **[[Transitions/Omoplata Sweep]]** → [[Positions/Omoplata Control]] (Probability: 50%)
-- Execute **[[Transitions/Lasso Guard to Inverted Lasso Guard]]** → [[Positions/Lasso Guard/Inverted Lasso Guard]] (Probability: 45%)
+- Execute **[[Transitions/Omoplata Sweep/Attacker|Omoplata Sweep]]** → [[Positions/Omoplata Control]] (Probability: 50%)
+- Execute **[[Transitions/Lasso Guard to Inverted Lasso Guard/Attacker|Lasso Guard to Inverted Lasso Guard]]** → [[Positions/Lasso Guard/Inverted Lasso Guard]] (Probability: 45%)
 
 
 **If opponent stands tall and attempts to disengage or pass from standing:**
-- Execute **[[Transitions/De La Riva Sweep]]** → [[Positions/Back Control]] (Probability: 55%)
-- Execute **[[Transitions/X-Guard Sweep]]** → [[Positions/Mount]] (Probability: 50%)
+- Execute **[[Transitions/De La Riva Sweep/Attacker|De La Riva Sweep]]** → [[Positions/Back Control]] (Probability: 55%)
+- Execute **[[Transitions/X-Guard Sweep/Attacker|X-Guard Sweep]]** → [[Positions/Mount]] (Probability: 50%)
 
 
 **If opponent successfully begins to free their arm from the lasso control:**
-- Execute **[[Transitions/Hook Sweep]]** → [[Positions/Side Control]] (Probability: 50%)
-- Execute **[[Transitions/Armbar Finish]]** → [[Positions/Armbar Control]] (Probability: 45%)
+- Execute **[[Transitions/Hook Sweep/Attacker|Hook Sweep]]** → [[Positions/Side Control]] (Probability: 50%)
+- Execute **[[Transitions/Armbar Finish/Attacker|Armbar Finish]]** → [[Positions/Armbar Control]] (Probability: 45%)
 
 
 **If opponent circles around the lasso leg toward your non-lasso side:**
-- Execute **[[Transitions/De La Riva Sweep]]** → [[Positions/De La Riva Guard]] (Probability: 60%)
-- Execute **[[Transitions/Kimura Sweep]]** → [[Positions/Kimura Trap]] (Probability: 40%)
+- Execute **[[Transitions/De La Riva Sweep/Attacker|De La Riva Sweep]]** → [[Positions/De La Riva Guard]] (Probability: 60%)
+- Execute **[[Transitions/Kimura Sweep/Attacker|Kimura Sweep]]** → [[Positions/Kimura Trap]] (Probability: 40%)
 
 
 

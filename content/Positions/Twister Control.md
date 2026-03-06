@@ -96,23 +96,23 @@ The position's effectiveness scales with skill level and understanding. Beginner
 ### Available Transitions
 
 
-- **[[Transitions/Roll Through Escape]]** (15% of attempts)
+- **[[Transitions/Roll Through Escape/Attacker|Roll Through Escape]]** (15% of attempts)
 
-- **[[Transitions/Hip Escape to Guard]]** (14% of attempts)
+- **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** (14% of attempts)
 
-- **[[Transitions/Bridge and Turn to Turtle]]** (14% of attempts)
+- **[[Transitions/Bridge and Turn to Turtle/Attacker|Bridge and Turn to Turtle]]** (14% of attempts)
 
-- **[[Transitions/Leg Extraction]]** (12% of attempts)
+- **[[Transitions/Leg Extraction/Attacker|Leg Extraction]]** (12% of attempts)
 
-- **[[Transitions/Defensive Roll]]** (11% of attempts)
+- **[[Transitions/Defensive Roll/Attacker|Defensive Roll]]** (11% of attempts)
 
-- **[[Transitions/Frame and Turn]]** (10% of attempts)
+- **[[Transitions/Frame and Turn/Attacker|Frame and Turn]]** (10% of attempts)
 
-- **[[Transitions/Scramble to Guard]]** (10% of attempts)
+- **[[Transitions/Scramble to Guard/Attacker|Scramble to Guard]]** (10% of attempts)
 
-- **[[Transitions/Shrimp Escape]]** (8% of attempts)
+- **[[Transitions/Shrimp Escape/Attacker|Shrimp Escape]]** (8% of attempts)
 
-- **[[Transitions/Granby Roll to Guard]]** (6% of attempts)
+- **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** (6% of attempts)
 
 
 ### Common Mistakes
@@ -169,17 +169,17 @@ The position's effectiveness scales with skill level and understanding. Beginner
 ### Available Transitions
 
 
-- **[[Transitions/Twister Finish]]** (30% of attempts)
+- **[[Transitions/Twister Finish/Attacker|Twister Finish]]** (30% of attempts)
 
-- **[[Transitions/Back Take]]** (23% of attempts)
+- **[[Transitions/Back Take/Attacker|Back Take]]** (23% of attempts)
 
-- **[[Transitions/Guillotine Choke]]** (15% of attempts)
+- **[[Transitions/Guillotine Choke/Attacker|Guillotine Choke]]** (15% of attempts)
 
-- **[[Transitions/Calf Slicer]]** (12% of attempts)
+- **[[Transitions/Calf Slicer/Attacker|Calf Slicer]]** (12% of attempts)
 
-- **[[Transitions/Neck Crank]]** (11% of attempts)
+- **[[Transitions/Neck Crank/Attacker|Neck Crank]]** (11% of attempts)
 
-- **[[Submissions/Twister]]** (9% of attempts)
+- **[[Submissions/Twister/Attacker|Twister]]** (9% of attempts)
 
 
 ### Common Mistakes

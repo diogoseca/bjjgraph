@@ -89,31 +89,31 @@ Inverted Guard is a modern guard position where the practitioner turns upside-do
 ### Available Transitions
 
 
-- **[[Transitions/Berimbolo Entry]]** (24% of attempts)
+- **[[Transitions/Berimbolo Entry/Attacker|Berimbolo Entry]]** (24% of attempts)
 
-- **[[Transitions/Rolling Back Take]]** (10% of attempts)
+- **[[Transitions/Rolling Back Take/Attacker|Rolling Back Take]]** (10% of attempts)
 
-- **[[Transitions/Kiss of the Dragon]]** (7% of attempts)
+- **[[Transitions/Kiss of the Dragon/Attacker|Kiss of the Dragon]]** (7% of attempts)
 
-- **[[Transitions/Single Leg X Entry]]** (9% of attempts)
+- **[[Transitions/Single Leg X Entry/Attacker|Single Leg X Entry]]** (9% of attempts)
 
-- **[[Transitions/X-Guard Sweep]]** (7% of attempts)
+- **[[Transitions/X-Guard Sweep/Attacker|X-Guard Sweep]]** (7% of attempts)
 
-- **[[Transitions/Granby Roll to Guard]]** (9% of attempts)
+- **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** (9% of attempts)
 
-- **[[Transitions/Omoplata]]** (4% of attempts)
+- **[[Transitions/Omoplata/Attacker|Omoplata]]** (4% of attempts)
 
-- **[[Transitions/Roll to Truck]]** (5% of attempts)
+- **[[Transitions/Roll to Truck/Attacker|Roll to Truck]]** (5% of attempts)
 
-- **[[Transitions/Reverse X-Guard Entry]]** (4% of attempts)
+- **[[Transitions/Reverse X-Guard Entry/Attacker|Reverse X-Guard Entry]]** (4% of attempts)
 
-- **[[Transitions/Technical Stand-up]]** (6% of attempts)
+- **[[Transitions/Technical Stand-up/Attacker|Technical Stand-up]]** (6% of attempts)
 
-- **[[Transitions/Bolo Sweep]]** (7% of attempts)
+- **[[Transitions/Bolo Sweep/Attacker|Bolo Sweep]]** (7% of attempts)
 
-- **[[Transitions/Reverse De La Riva Recovery]]** (6% of attempts)
+- **[[Transitions/Reverse De La Riva Recovery/Attacker|Reverse De La Riva Recovery]]** (6% of attempts)
 
-- **[[Transitions/Sweep from Inverted Guard]]** (2% of attempts)
+- **[[Transitions/Sweep from Inverted Guard/Attacker|Sweep from Inverted Guard]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -178,29 +178,29 @@ Inverted Guard is a modern guard position where the practitioner turns upside-do
 ### Available Transitions
 
 
-- **[[Transitions/Smash Pass]]** (8% of attempts)
+- **[[Transitions/Smash Pass/Attacker|Smash Pass]]** (8% of attempts)
 
-- **[[Transitions/Stack Pass]]** (6% of attempts)
+- **[[Transitions/Stack Pass/Attacker|Stack Pass]]** (6% of attempts)
 
-- **[[Transitions/Pressure Pass]]** (7% of attempts)
+- **[[Transitions/Pressure Pass/Attacker|Pressure Pass]]** (7% of attempts)
 
-- **[[Transitions/Leg Weave Pass]]** (4% of attempts)
+- **[[Transitions/Leg Weave Pass/Attacker|Leg Weave Pass]]** (4% of attempts)
 
-- **[[Transitions/Knee Slice Pass]]** (6% of attempts)
+- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (6% of attempts)
 
-- **[[Transitions/Headquarters Pass]]** (8% of attempts)
+- **[[Transitions/Headquarters Pass/Attacker|Headquarters Pass]]** (8% of attempts)
 
-- **[[Transitions/Toreando Pass]]** (11% of attempts)
+- **[[Transitions/Toreando Pass/Attacker|Toreando Pass]]** (11% of attempts)
 
-- **[[Transitions/Back Step Pass]]** (29% of attempts)
+- **[[Transitions/Back Step Pass/Attacker|Back Step Pass]]** (29% of attempts)
 
-- **[[Transitions/Leg Drag Pass]]** (10% of attempts)
+- **[[Transitions/Leg Drag Pass/Attacker|Leg Drag Pass]]** (10% of attempts)
 
-- **[[Transitions/Stack Pass from Inversion]]** (8% of attempts)
+- **[[Transitions/Stack Pass from Inversion/Attacker|Stack Pass from Inversion]]** (8% of attempts)
 
-- **[[Transitions/Stack from Inverted]]** (2% of attempts)
+- **[[Transitions/Stack from Inverted/Attacker|Stack from Inverted]]** (2% of attempts)
 
-- **[[Transitions/Toreando from Inverted]]** (1% of attempts)
+- **[[Transitions/Toreando from Inverted/Attacker|Toreando from Inverted]]** (1% of attempts)
 
 
 ### Common Mistakes

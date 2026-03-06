@@ -213,28 +213,28 @@ Defensively, the bottom practitioner must be aware that committing to a kneebar 
 ## Decision Making from This Position
 
 **If opponent maintains strong defensive posture with knee bent and leg pressure resisting extension:**
-- Execute **[[Transitions/Inside Ashi Entry]]** → [[Positions/Ashi Garami/Inside Ashi-Garami]] (Probability: 60%)
-- Execute **[[Submissions/Straight Ankle Lock]]** → [[Positions/Straight Ankle Lock Control]] (Probability: 45%)
+- Execute **[[Transitions/Inside Ashi Entry/Attacker|Inside Ashi Entry]]** → [[Positions/Ashi Garami/Inside Ashi-Garami]] (Probability: 60%)
+- Execute **[[Submissions/Straight Ankle Lock/Attacker|Straight Ankle Lock]]** → [[Positions/Straight Ankle Lock Control]] (Probability: 45%)
 
 
 **If opponent's leg becomes straightened and defensive posture breaks under pulling pressure:**
-- Execute **[[Transitions/Kneebar Finish]]** → [[game-over]] (Probability: 50%)
-- Execute **[[Transitions/Heel Hook]]** → [[game-over]] (Probability: 45%)
+- Execute **[[Transitions/Kneebar Finish/Attacker|Kneebar Finish]]** → [[game-over]] (Probability: 50%)
+- Execute **[[Transitions/Heel Hook/Attacker|Heel Hook]]** → [[game-over]] (Probability: 45%)
 
 
 **If opponent rotates hips away from kneebar pressure to defend knee joint:**
-- Execute **[[Transitions/Saddle Entry from Top]]** → [[Positions/Ashi Garami/Saddle]] (Probability: 55%)
-- Execute **[[Transitions/Inside Ashi Entry]]** → [[Positions/Ashi Garami/Inside Ashi-Garami]] (Probability: 65%)
+- Execute **[[Transitions/Saddle Entry from Top/Attacker|Saddle Entry from Top]]** → [[Positions/Ashi Garami/Saddle]] (Probability: 55%)
+- Execute **[[Transitions/Inside Ashi Entry/Attacker|Inside Ashi Entry]]** → [[Positions/Ashi Garami/Inside Ashi-Garami]] (Probability: 65%)
 
 
 **If opponent attempts to step over entangled leg to clear knee line:**
-- Execute **[[Transitions/Single Leg X Entry]]** → [[Positions/X-Guard/Single Leg X-Guard]] (Probability: 65%)
-- Execute **[[Transitions/X-Guard Sweep]]** → [[Positions/Mount]] (Probability: 50%)
+- Execute **[[Transitions/Single Leg X Entry/Attacker|Single Leg X Entry]]** → [[Positions/X-Guard/Single Leg X-Guard]] (Probability: 65%)
+- Execute **[[Transitions/X-Guard Sweep/Attacker|X-Guard Sweep]]** → [[Positions/Mount]] (Probability: 50%)
 
 
 **If opponent creates significant distance and begins extracting leg from entanglement:**
-- Execute **[[Transitions/50-50 Entry from Standing]]** → [[Positions/Ashi Garami/50-50 Guard]] (Probability: 55%)
-- Execute **[[Transitions/Ashi Garami Escape]]** → [[Positions/Open Guard]] (Probability: 40%)
+- Execute **[[Transitions/50-50 Entry from Standing/Attacker|50-50 Entry from Standing]]** → [[Positions/Ashi Garami/50-50 Guard]] (Probability: 55%)
+- Execute **[[Transitions/Ashi Garami Escape/Attacker|Ashi Garami Escape]]** → [[Positions/Open Guard]] (Probability: 40%)
 
 
 

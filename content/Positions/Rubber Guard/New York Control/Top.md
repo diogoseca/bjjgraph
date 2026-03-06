@@ -215,18 +215,18 @@ Competition preparation requires specific drilling of New York defensive protoco
 ## Decision Making from This Position
 
 **If overhook control remains deep and leg pressure maintains posture restriction:**
-- Execute **[[Transitions/Overhook Escape]]** → [[Positions/Open Guard]] (Probability: 50%)
-- Execute **[[Transitions/Crossface to Combat Base]]** → [[Positions/Combat Base]] (Probability: 45%)
+- Execute **[[Transitions/Overhook Escape/Attacker|Overhook Escape]]** → [[Positions/Open Guard]] (Probability: 50%)
+- Execute **[[Transitions/Crossface to Combat Base/Attacker|Crossface to Combat Base]]** → [[Positions/Combat Base]] (Probability: 45%)
 
 
 **If overhook is successfully extracted but leg control persists:**
-- Execute **[[Transitions/Posture Recovery]]** → [[Positions/Closed Guard]] (Probability: 60%)
-- Execute **[[Transitions/Leg Extraction]]** → [[Positions/Half Guard]] (Probability: 55%)
+- Execute **[[Transitions/Posture Recovery/Attacker|Posture Recovery]]** → [[Positions/Closed Guard]] (Probability: 60%)
+- Execute **[[Transitions/Leg Extraction/Attacker|Leg Extraction]]** → [[Positions/Half Guard]] (Probability: 55%)
 
 
 **If bottom player begins triangle or gogoplata setup with leg positioning:**
-- Execute **[[Transitions/Stack Pass]]** → [[Positions/Headquarters Position]] (Probability: 40%)
-- Execute **[[Transitions/Standing Escape]]** → [[Positions/Open Guard]] (Probability: 45%)
+- Execute **[[Transitions/Stack Pass/Attacker|Stack Pass]]** → [[Positions/Headquarters Position]] (Probability: 40%)
+- Execute **[[Transitions/Standing Escape/Attacker|Standing Escape]]** → [[Positions/Open Guard]] (Probability: 45%)
 
 
 

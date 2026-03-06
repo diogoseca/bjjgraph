@@ -206,23 +206,23 @@ The Aoki Lock top position is particularly effective in no-gi competition where 
 ## Decision Making from This Position
 
 **If opponent attempts to roll forward through the position:**
-- Execute **[[Transitions/Follow to Back Control]]** → [[Positions/Back Control]] (Probability: 70%)
-- Execute **[[Maintain Aoki Lock]]** → [[Positions/Aoki Lock]] (Probability: 30%)
+- Execute **[[Transitions/Follow to Back Control/Attacker|Follow to Back Control]]** → [[Positions/Back Control]] (Probability: 70%)
+- Execute **[[Maintain Aoki Lock/Attacker|Maintain Aoki Lock]]** → [[Positions/Aoki Lock]] (Probability: 30%)
 
 
 **If opponent turns away or creates hip distance:**
-- Execute **[[Transitions/Truck Entry]]** → [[Positions/Twister Control/Truck]] (Probability: 65%)
-- Execute **[[Follow to Back]]** → [[Positions/Back Control]] (Probability: 35%)
+- Execute **[[Transitions/Truck Entry/Attacker|Truck Entry]]** → [[Positions/Twister Control/Truck]] (Probability: 65%)
+- Execute **[[Follow to Back/Attacker|Follow to Back]]** → [[Positions/Back Control]] (Probability: 35%)
 
 
 **If opponent exposes far arm while defending:**
-- Execute **[[Transitions/Crucifix Transition]]** → [[Positions/Crucifix]] (Probability: 60%)
-- Execute **[[Transitions/Kimura Switch]]** → [[Positions/Kimura Trap]] (Probability: 40%)
+- Execute **[[Transitions/Crucifix Transition/Attacker|Crucifix Transition]]** → [[Positions/Crucifix]] (Probability: 60%)
+- Execute **[[Transitions/Kimura Switch/Attacker|Kimura Switch]]** → [[Positions/Kimura Trap]] (Probability: 40%)
 
 
 **If opponent's shoulder is fully controlled with no escape attempts:**
-- Execute **[[Finish Aoki Lock]]** → [[Positions/Game Over]] (Probability: 75%)
-- Execute **[[Transition to Back]]** → [[Positions/Back Control]] (Probability: 25%)
+- Execute **[[Finish Aoki Lock/Attacker|Finish Aoki Lock]]** → [[Positions/Game Over]] (Probability: 75%)
+- Execute **[[Transition to Back/Attacker|Transition to Back]]** → [[Positions/Back Control]] (Probability: 25%)
 
 
 

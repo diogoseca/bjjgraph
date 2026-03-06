@@ -217,28 +217,28 @@ Developing competency on top in lasso guard situations builds fundamental skills
 ## Decision Making from This Position
 
 **If opponent maintains tight lasso with strong sleeve grip and extended leg creating maximum leverage:**
-- Execute **[[Transitions/Lasso Guard Pass]]** → [[Positions/Side Control]] (Probability: 50%)
-- Execute **[[Transitions/Stack Pass]]** → [[Positions/Side Control]] (Probability: 45%)
+- Execute **[[Transitions/Lasso Guard Pass/Attacker|Lasso Guard Pass]]** → [[Positions/Side Control]] (Probability: 50%)
+- Execute **[[Transitions/Stack Pass/Attacker|Stack Pass]]** → [[Positions/Side Control]] (Probability: 45%)
 
 
 **If opponent attempts to sweep by pulling you forward and off-balancing toward the lasso side:**
-- Execute **[[Transitions/Stack Defense]]** → [[Positions/Headquarters Position]] (Probability: 55%)
-- Execute **[[Transitions/Pressure Pass]]** → [[Positions/Side Control]] (Probability: 50%)
+- Execute **[[Transitions/Stack Defense/Attacker|Stack Defense]]** → [[Positions/Headquarters Position]] (Probability: 55%)
+- Execute **[[Transitions/Pressure Pass/Attacker|Pressure Pass]]** → [[Positions/Side Control]] (Probability: 50%)
 
 
 **If opponent's non-lasso leg becomes available or loses positional control:**
-- Execute **[[Transitions/Knee Cut Pass]]** → [[Positions/Side Control]] (Probability: 60%)
-- Execute **[[Transitions/Leg Weave Pass]]** → [[Positions/Side Control]] (Probability: 55%)
+- Execute **[[Transitions/Knee Cut Pass/Attacker|Knee Cut Pass]]** → [[Positions/Side Control]] (Probability: 60%)
+- Execute **[[Transitions/Leg Weave Pass/Attacker|Leg Weave Pass]]** → [[Positions/Side Control]] (Probability: 55%)
 
 
 **If you successfully reduce lasso pressure through grip breaks or posture changes:**
-- Execute **[[Transitions/Toreando Pass]]** → [[Positions/Side Control]] (Probability: 65%)
-- Execute **[[Transitions/Long Step Pass]]** → [[Positions/Side Control]] (Probability: 55%)
+- Execute **[[Transitions/Toreando Pass/Attacker|Toreando Pass]]** → [[Positions/Side Control]] (Probability: 65%)
+- Execute **[[Transitions/Long Step Pass/Attacker|Long Step Pass]]** → [[Positions/Side Control]] (Probability: 55%)
 
 
 **If opponent over-commits to lasso and exposes their non-lasso arm or neck:**
-- Execute **[[Transitions/Kimura]]** → [[Positions/Kimura Trap]] (Probability: 45%)
-- Execute **[[Transitions/Smash Pass]]** → [[Positions/Side Control]] (Probability: 50%)
+- Execute **[[Transitions/Kimura/Attacker|Kimura]]** → [[Positions/Kimura Trap]] (Probability: 45%)
+- Execute **[[Transitions/Smash Pass/Attacker|Smash Pass]]** → [[Positions/Side Control]] (Probability: 50%)
 
 
 

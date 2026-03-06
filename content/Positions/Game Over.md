@@ -179,15 +179,15 @@ Understanding Game Over as a formal state matters for training methodology. It c
 ## Decision Making from This Position
 
 **Opponent taps physically (hand or foot tap on partner or mat):**
-- Execute **[[Immediate release]]** → [[Match reset]] (Probability: 100%)
+- Execute **[[Immediate release/Attacker|Immediate release]]** → [[Match reset]] (Probability: 100%)
 
 
 **Opponent verbally submits or screams indicating pain:**
-- Execute **[[Immediate release]]** → [[Match reset]] (Probability: 100%)
+- Execute **[[Immediate release/Attacker|Immediate release]]** → [[Match reset]] (Probability: 100%)
 
 
 **Referee stops the match due to danger or unconsciousness:**
-- Execute **[[Immediate release]]** → [[Match reset]] (Probability: 100%)
+- Execute **[[Immediate release/Attacker|Immediate release]]** → [[Match reset]] (Probability: 100%)
 
 
 

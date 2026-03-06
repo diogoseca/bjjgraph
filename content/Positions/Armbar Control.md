@@ -97,23 +97,23 @@ From the bottom, survival depends on understanding the same five-point control s
 ### Available Transitions
 
 
-- **[[Transitions/Hip Escape to Guard]]** (13% of attempts)
+- **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** (13% of attempts)
 
-- **[[Transitions/Stack Defense]]** (13% of attempts)
+- **[[Transitions/Stack Defense/Attacker|Stack Defense]]** (13% of attempts)
 
-- **[[Transitions/Arm Extraction]]** (11% of attempts)
+- **[[Transitions/Arm Extraction/Attacker|Arm Extraction]]** (11% of attempts)
 
-- **[[Transitions/Hitchhiker Escape]]** (23% of attempts)
+- **[[Transitions/Hitchhiker Escape/Attacker|Hitchhiker Escape]]** (23% of attempts)
 
-- **[[Transitions/Bridge and Roll]]** (12% of attempts)
+- **[[Transitions/Bridge and Roll/Attacker|Bridge and Roll]]** (12% of attempts)
 
-- **[[Transitions/Rolling Escape to Guard]]** (9% of attempts)
+- **[[Transitions/Rolling Escape to Guard/Attacker|Rolling Escape to Guard]]** (9% of attempts)
 
-- **[[Transitions/Hip Escape to Turtle]]** (8% of attempts)
+- **[[Transitions/Hip Escape to Turtle/Attacker|Hip Escape to Turtle]]** (8% of attempts)
 
-- **[[Transitions/Armbar Defense]]** (7% of attempts)
+- **[[Transitions/Armbar Defense/Attacker|Armbar Defense]]** (7% of attempts)
 
-- **[[Transitions/Hitchhiker Escape from Armbar]]** (4% of attempts)
+- **[[Transitions/Hitchhiker Escape from Armbar/Attacker|Hitchhiker Escape from Armbar]]** (4% of attempts)
 
 
 ### Common Mistakes
@@ -174,23 +174,23 @@ From the bottom, survival depends on understanding the same five-point control s
 ### Available Transitions
 
 
-- **[[Transitions/Armbar Finish]]** (51% of attempts)
+- **[[Transitions/Armbar Finish/Attacker|Armbar Finish]]** (51% of attempts)
 
-- **[[Transitions/Triangle Setup]]** (21% of attempts)
+- **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** (21% of attempts)
 
-- **[[Transitions/Omoplata]]** (7% of attempts)
+- **[[Transitions/Omoplata/Attacker|Omoplata]]** (7% of attempts)
 
-- **[[Transitions/Kimura]]** (7% of attempts)
+- **[[Transitions/Kimura/Attacker|Kimura]]** (7% of attempts)
 
-- **[[Transitions/Straight Armbar]]** (7% of attempts)
+- **[[Transitions/Straight Armbar/Attacker|Straight Armbar]]** (7% of attempts)
 
-- **[[Transitions/Back Take from Armbar]]** (3% of attempts)
+- **[[Transitions/Back Take from Armbar/Attacker|Back Take from Armbar]]** (3% of attempts)
 
-- **[[Transitions/Belly Down Armbar Transition]]** (1% of attempts)
+- **[[Transitions/Belly Down Armbar Transition/Attacker|Belly Down Armbar Transition]]** (1% of attempts)
 
-- **[[Transitions/Triangle from Armbar]]** (1% of attempts)
+- **[[Transitions/Triangle from Armbar/Attacker|Triangle from Armbar]]** (1% of attempts)
 
-- **[[Submissions/Belly Down Armbar Finish]]** (2% of attempts)
+- **[[Submissions/Belly Down Armbar Finish/Attacker|Belly Down Armbar Finish]]** (2% of attempts)
 
 
 ### Common Mistakes

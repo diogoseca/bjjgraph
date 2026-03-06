@@ -212,29 +212,29 @@ From a strategic perspective, the Saddle functions differently depending on rule
 ## Decision Making from This Position
 
 **You have achieved perpendicular positioning with inside control but opponent is framing on your hips:**
-- Execute **[[Clear frames systematically]]** → [[Positions/Ashi Garami/Saddle]] (Probability: 70%)
-- Execute **[[Transition to Inside Ashi-Garami]]** → [[Positions/Ashi Garami/Inside Ashi-Garami]] (Probability: 30%)
+- Execute **[[Clear frames systematically/Attacker|Clear frames systematically]]** → [[Positions/Ashi Garami/Saddle]] (Probability: 70%)
+- Execute **[[Transition to Inside Ashi-Garami/Attacker|Transition to Inside Ashi-Garami]]** → [[Positions/Ashi Garami/Inside Ashi-Garami]] (Probability: 30%)
 
 
 **Opponent's heel is fully exposed and you have established figure-four grip:**
-- Execute **[[Transitions/Heel Hook]]** → [[Positions/Game Over]] (Probability: 80%)
-- Execute **[[Transitions/Outside Heel Hook]]** → [[Positions/Game Over]] (Probability: 20%)
+- Execute **[[Transitions/Heel Hook/Attacker|Heel Hook]]** → [[Positions/Game Over]] (Probability: 80%)
+- Execute **[[Transitions/Outside Heel Hook/Attacker|Outside Heel Hook]]** → [[Positions/Game Over]] (Probability: 20%)
 
 
 **Opponent is hiding heel by rotating knee inward:**
-- Execute **[[Transitions/Straight Ankle Lock Entry]]** → [[Positions/Game Over]] (Probability: 60%)
-- Execute **[[Transitions/Toe Hold]]** → [[Positions/Game Over]] (Probability: 40%)
+- Execute **[[Transitions/Straight Ankle Lock Entry/Attacker|Straight Ankle Lock Entry]]** → [[Positions/Game Over]] (Probability: 60%)
+- Execute **[[Transitions/Toe Hold/Attacker|Toe Hold]]** → [[Positions/Game Over]] (Probability: 40%)
 
 
 **Opponent is attempting to turn into you to escape:**
-- Execute **[[Maintain hip pressure and ride the turn]]** → [[Positions/Ashi Garami/Saddle]] (Probability: 55%)
-- Execute **[[Transitions/Back Take from Ashi]]** → [[Positions/Back Control]] (Probability: 45%)
+- Execute **[[Maintain hip pressure and ride the turn/Attacker|Maintain hip pressure and ride the turn]]** → [[Positions/Ashi Garami/Saddle]] (Probability: 55%)
+- Execute **[[Transitions/Back Take from Ashi/Attacker|Back Take from Ashi]]** → [[Positions/Back Control]] (Probability: 45%)
 
 
 **You have loose control with space between your bodies:**
-- Execute **[[Reestablish hip pressure and perpendicular alignment]]** → [[Positions/Ashi Garami/Saddle]] (Probability: 50%)
-- Execute **[[Transitions/Cross Ashi Transition]]** → [[Positions/Ashi Garami/Cross Ashi-Garami]] (Probability: 35%)
-- Execute **[[Transitions/Counter-entangle to 50-50 Guard]]** → [[Positions/Ashi Garami/50-50 Guard]] (Probability: 15%)
+- Execute **[[Reestablish hip pressure and perpendicular alignment/Attacker|Reestablish hip pressure and perpendicular alignment]]** → [[Positions/Ashi Garami/Saddle]] (Probability: 50%)
+- Execute **[[Transitions/Cross Ashi Transition/Attacker|Cross Ashi Transition]]** → [[Positions/Ashi Garami/Cross Ashi-Garami]] (Probability: 35%)
+- Execute **[[Transitions/Counter-entangle to 50-50 Guard/Attacker|Counter-entangle to 50-50 Guard]]** → [[Positions/Ashi Garami/50-50 Guard]] (Probability: 15%)
 
 
 

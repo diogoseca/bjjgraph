@@ -140,7 +140,7 @@ description: "{{ bottom.description }}"
 {% for node in bottom.decision_tree -%}
 **{{ node.condition }}:**
 {% for action in node.actions -%}
-- Execute **[[{{ resolve(action.technique) }}]]** → [[{{ resolve(action.target) }}]] (Probability: {{ action.probability }}%)
+- Execute **[[{{ resolve(action.technique) }}/Attacker|{{ action.technique }}]]** → [[{{ resolve(action.target) }}]] (Probability: {{ action.probability }}%)
 {% endfor %}
 
 {% endfor %}

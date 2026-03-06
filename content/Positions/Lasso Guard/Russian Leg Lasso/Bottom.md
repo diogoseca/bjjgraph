@@ -207,23 +207,23 @@ Russian Leg Lasso Bottom represents one of the most technically sophisticated op
 ## Decision Making from This Position
 
 **If opponent maintains distance and attempts to break collar grip:**
-- Execute **[[Transitions/Triangle Setup]]** → [[Positions/Triangle Control]] (Probability: 55%)
-- Execute **[[Transitions/Overhook Sweep]]** → [[Positions/Mount]] (Probability: 45%)
+- Execute **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** → [[Positions/Triangle Control]] (Probability: 55%)
+- Execute **[[Transitions/Overhook Sweep/Attacker|Overhook Sweep]]** → [[Positions/Mount]] (Probability: 45%)
 
 
 **If opponent drives forward with pressure attempting to smash pass:**
-- Execute **[[Transitions/Elevator Sweep]]** → [[Positions/Mount]] (Probability: 55%)
-- Execute **[[Transitions/Omoplata Sweep]]** → [[Positions/Omoplata Control]] (Probability: 45%)
+- Execute **[[Transitions/Elevator Sweep/Attacker|Elevator Sweep]]** → [[Positions/Mount]] (Probability: 55%)
+- Execute **[[Transitions/Omoplata Sweep/Attacker|Omoplata Sweep]]** → [[Positions/Omoplata Control]] (Probability: 45%)
 
 
 **If opponent circles away from lasso attempting to disengage:**
-- Execute **[[Transitions/Sickle Sweep]]** → [[Positions/Mount]] (Probability: 50%)
-- Execute **[[Transitions/De La Riva Sweep]]** → [[Positions/Back Control]] (Probability: 50%)
+- Execute **[[Transitions/Sickle Sweep/Attacker|Sickle Sweep]]** → [[Positions/Mount]] (Probability: 50%)
+- Execute **[[Transitions/De La Riva Sweep/Attacker|De La Riva Sweep]]** → [[Positions/Back Control]] (Probability: 50%)
 
 
 **If opponent establishes strong base and begins systematic grip breaking:**
-- Execute **[[Transitions/Back Take from Bottom]]** → [[Positions/Back Control]] (Probability: 45%)
-- Execute **[[Transitions/Armbar Finish]]** → [[Positions/Armbar Control]] (Probability: 55%)
+- Execute **[[Transitions/Back Take from Bottom/Attacker|Back Take from Bottom]]** → [[Positions/Back Control]] (Probability: 45%)
+- Execute **[[Transitions/Armbar Finish/Attacker|Armbar Finish]]** → [[Positions/Armbar Control]] (Probability: 55%)
 
 
 

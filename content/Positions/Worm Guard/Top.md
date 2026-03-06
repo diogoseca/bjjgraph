@@ -206,23 +206,23 @@ Worm Guard Top represents the passing position against one of modern BJJ's most 
 ## Decision Making from This Position
 
 **If bottom player has tight lapel wrap with active leg frames maintaining distance:**
-- Execute **[[Transitions/Grip Break]]** → [[Positions/Open Guard]] (Probability: 40%)
-- Execute **[[Transitions/Long Step Pass]]** → [[Positions/Headquarters Position]] (Probability: 35%)
+- Execute **[[Transitions/Grip Break/Attacker|Grip Break]]** → [[Positions/Open Guard]] (Probability: 40%)
+- Execute **[[Transitions/Long Step Pass/Attacker|Long Step Pass]]** → [[Positions/Headquarters Position]] (Probability: 35%)
 
 
 **If lapel tension is broken or bottom player's legs are extended without tight frames:**
-- Execute **[[Transitions/Leg Drag Pass]]** → [[Positions/Leg Drag Control]] (Probability: 55%)
-- Execute **[[Transitions/Toreando Pass]]** → [[Positions/Side Control]] (Probability: 45%)
+- Execute **[[Transitions/Leg Drag Pass/Attacker|Leg Drag Pass]]** → [[Positions/Leg Drag Control]] (Probability: 55%)
+- Execute **[[Transitions/Toreando Pass/Attacker|Toreando Pass]]** → [[Positions/Side Control]] (Probability: 45%)
 
 
 **If bottom player inverts or attempts back exposure:**
-- Execute **[[Transitions/Sprawl]]** → [[Positions/Turtle]] (Probability: 50%)
-- Execute **[[Transitions/Leg Weave Pass]]** → [[Positions/Side Control]] (Probability: 40%)
+- Execute **[[Transitions/Sprawl/Attacker|Sprawl]]** → [[Positions/Turtle]] (Probability: 50%)
+- Execute **[[Transitions/Leg Weave Pass/Attacker|Leg Weave Pass]]** → [[Positions/Side Control]] (Probability: 40%)
 
 
 **If bottom player commits to triangle or omoplata attack:**
-- Execute **[[Transitions/Smash Pass]]** → [[Positions/Side Control]] (Probability: 48%)
-- Execute **[[Transitions/Stack Pass]]** → [[Positions/Side Control]] (Probability: 42%)
+- Execute **[[Transitions/Smash Pass/Attacker|Smash Pass]]** → [[Positions/Side Control]] (Probability: 48%)
+- Execute **[[Transitions/Stack Pass/Attacker|Stack Pass]]** → [[Positions/Side Control]] (Probability: 42%)
 
 
 

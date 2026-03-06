@@ -211,23 +211,23 @@ Deep Half Guard Bottom requires excellent hip mobility, core strength, and timin
 ## Decision Making from This Position
 
 **If opponent drives weight forward with heavy crossface pressure:**
-- Execute **[[Transitions/Waiter Sweep]]** → [[Positions/Mount]] (Probability: 65%)
-- Execute **[[Transitions/Old School Sweep]]** → [[Positions/Side Control]] (Probability: 60%)
+- Execute **[[Transitions/Waiter Sweep/Attacker|Waiter Sweep]]** → [[Positions/Mount]] (Probability: 65%)
+- Execute **[[Transitions/Old School Sweep/Attacker|Old School Sweep]]** → [[Positions/Side Control]] (Probability: 60%)
 
 
 **If opponent tries to step over near leg to escape:**
-- Execute **[[Transitions/Rolling Back Take]]** → [[Positions/Back Control]] (Probability: 70%)
-- Execute **[[Transitions/X-Guard Sweep]]** → [[Positions/Standing Position]] (Probability: 55%)
+- Execute **[[Transitions/Rolling Back Take/Attacker|Rolling Back Take]]** → [[Positions/Back Control]] (Probability: 70%)
+- Execute **[[Transitions/X-Guard Sweep/Attacker|X-Guard Sweep]]** → [[Positions/Standing Position]] (Probability: 55%)
 
 
 **If opponent whizzers far arm to prevent sweeps:**
-- Execute **[[Submissions/Electric Chair Submission]]** → [[Positions/Half Guard/Electric Chair]] (Probability: 50%)
-- Execute **[[Transitions/Deep Half Entry]]** → [[Positions/Back Control]] (Probability: 45%)
+- Execute **[[Submissions/Electric Chair Submission/Attacker|Electric Chair Submission]]** → [[Positions/Half Guard/Electric Chair]] (Probability: 50%)
+- Execute **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** → [[Positions/Back Control]] (Probability: 45%)
 
 
 **If opponent pulls far leg back to escape underhook:**
-- Execute **[[Transitions/X-Guard Sweep]]** → [[Positions/Standing Position]] (Probability: 65%)
-- Execute **[[Transitions/Underhook Sweep from Half]]** → [[Positions/Half Guard]] (Probability: 55%)
+- Execute **[[Transitions/X-Guard Sweep/Attacker|X-Guard Sweep]]** → [[Positions/Standing Position]] (Probability: 65%)
+- Execute **[[Transitions/Underhook Sweep from Half/Attacker|Underhook Sweep from Half]]** → [[Positions/Half Guard]] (Probability: 55%)
 
 
 

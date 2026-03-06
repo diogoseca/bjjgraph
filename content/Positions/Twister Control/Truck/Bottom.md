@@ -211,24 +211,24 @@ The position emerged from wrestling's turk ride and was popularized in BJJ throu
 ## Decision Making from This Position
 
 **If opponent is setting up Twister (controlling far arm and twisting spine):**
-- Execute **[[Transitions/Hand Fighting from Back]]** → [[Positions/Twister Control/Truck]] (Probability: 65%)
-- Execute **[[Transitions/Granby Roll to Guard]]** → [[Positions/Open Guard]] (Probability: 35%)
+- Execute **[[Transitions/Hand Fighting from Back/Attacker|Hand Fighting from Back]]** → [[Positions/Twister Control/Truck]] (Probability: 65%)
+- Execute **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** → [[Positions/Open Guard]] (Probability: 35%)
 
 
 **Else if opponent is attacking trapped leg with calf slicer:**
-- Execute **[[Transitions/Leg Extraction to Guard]]** → [[Positions/Half Guard]] (Probability: 50%)
-- Execute **[[Transitions/Forward Roll]]** → [[Positions/Half Guard/Deep Half Guard]] (Probability: 25%)
-- Execute **[[Transitions/Defensive Roll]]** → [[Positions/Open Guard]] (Probability: 25%)
+- Execute **[[Transitions/Leg Extraction to Guard/Attacker|Leg Extraction to Guard]]** → [[Positions/Half Guard]] (Probability: 50%)
+- Execute **[[Transitions/Forward Roll/Attacker|Forward Roll]]** → [[Positions/Half Guard/Deep Half Guard]] (Probability: 25%)
+- Execute **[[Transitions/Defensive Roll/Attacker|Defensive Roll]]** → [[Positions/Open Guard]] (Probability: 25%)
 
 
 **Else if opponent has boot control but loose upper body control:**
-- Execute **[[Transitions/Hip Escape to Guard]]** → [[Positions/Half Guard]] (Probability: 55%)
-- Execute **[[Transitions/Granby Roll to Guard]]** → [[Positions/Open Guard]] (Probability: 45%)
+- Execute **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** → [[Positions/Half Guard]] (Probability: 55%)
+- Execute **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** → [[Positions/Open Guard]] (Probability: 45%)
 
 
 **Else if opponent is transitioning to back control (inserting hooks):**
-- Execute **[[Transitions/Back Door Escape]]** → [[Positions/Turtle]] (Probability: 55%)
-- Execute **[[Transitions/Rolling Back Take Reversal]]** → [[Positions/Open Guard]] (Probability: 45%)
+- Execute **[[Transitions/Back Door Escape/Attacker|Back Door Escape]]** → [[Positions/Turtle]] (Probability: 55%)
+- Execute **[[Transitions/Rolling Back Take Reversal/Attacker|Rolling Back Take Reversal]]** → [[Positions/Open Guard]] (Probability: 45%)
 
 
 

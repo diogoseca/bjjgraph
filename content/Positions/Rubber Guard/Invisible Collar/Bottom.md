@@ -211,18 +211,18 @@ Successful escape from invisible collar bottom involves systematic approach to n
 ## Decision Making from This Position
 
 **If collar grip is shallow and not yet dangerous:**
-- Execute **[[Aggressive Hand Fighting to Remove Grip]]** → [[Positions/Back Control]] (Probability: 40%)
-- Execute **[[Focus on Removing Hooks First]]** → [[Positions/Turtle]] (Probability: 45%)
+- Execute **[[Aggressive Hand Fighting to Remove Grip/Attacker|Aggressive Hand Fighting to Remove Grip]]** → [[Positions/Back Control]] (Probability: 40%)
+- Execute **[[Focus on Removing Hooks First/Attacker|Focus on Removing Hooks First]]** → [[Positions/Turtle]] (Probability: 45%)
 
 
 **If collar grip is deep and immediate threat exists:**
-- Execute **[[Emergency Chin Tuck and Neck Defense]]** → [[Positions/Back Control]] (Probability: 50%)
-- Execute **[[Explosive Hip Escape Attempt]]** → [[Positions/Half Guard]] (Probability: 35%)
+- Execute **[[Emergency Chin Tuck and Neck Defense/Attacker|Emergency Chin Tuck and Neck Defense]]** → [[Positions/Back Control]] (Probability: 50%)
+- Execute **[[Explosive Hip Escape Attempt/Attacker|Explosive Hip Escape Attempt]]** → [[Positions/Half Guard]] (Probability: 35%)
 
 
 **If one hook is removed but collar grip remains:**
-- Execute **[[Turn into Opponent to Remove Second Hook]]** → [[Positions/Half Guard]] (Probability: 48%)
-- Execute **[[Stand Up Escape]]** → [[Positions/Clinch]] (Probability: 30%)
+- Execute **[[Turn into Opponent to Remove Second Hook/Attacker|Turn into Opponent to Remove Second Hook]]** → [[Positions/Half Guard]] (Probability: 48%)
+- Execute **[[Stand Up Escape/Attacker|Stand Up Escape]]** → [[Positions/Clinch]] (Probability: 30%)
 
 
 

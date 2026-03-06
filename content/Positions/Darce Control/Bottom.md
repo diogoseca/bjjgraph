@@ -208,23 +208,23 @@ While extremely dangerous, Darce Control Bottom is not an inescapable position. 
 ## Decision Making from This Position
 
 **If opponent has shallow grip and choke is not yet tight:**
-- Execute **[[Transitions/Arm Extraction]]** → [[Positions/Turtle]] (Probability: 55%)
-- Execute **[[Transitions/Granby Roll to Guard]]** → [[Positions/Open Guard]] (Probability: 45%)
+- Execute **[[Transitions/Arm Extraction/Attacker|Arm Extraction]]** → [[Positions/Turtle]] (Probability: 55%)
+- Execute **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** → [[Positions/Open Guard]] (Probability: 45%)
 
 
 **If opponent is driving forward to flatten you and tighten choke:**
-- Execute **[[Transitions/Rolling to Guard]]** → [[Positions/Half Guard]] (Probability: 50%)
-- Execute **[[Transitions/Back Door Escape]]** → [[Positions/Turtle]] (Probability: 40%)
+- Execute **[[Transitions/Rolling to Guard/Attacker|Rolling to Guard]]** → [[Positions/Half Guard]] (Probability: 50%)
+- Execute **[[Transitions/Back Door Escape/Attacker|Back Door Escape]]** → [[Positions/Turtle]] (Probability: 40%)
 
 
 **If choke is locked deep and opponent has strong positional control:**
-- Execute **[[Transitions/Granby Roll to Guard]]** → [[Positions/Closed Guard]] (Probability: 40%)
-- Execute **[[Transitions/Counter Roll to Top]]** → [[Positions/Side Control]] (Probability: 30%)
+- Execute **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** → [[Positions/Closed Guard]] (Probability: 40%)
+- Execute **[[Transitions/Counter Roll to Top/Attacker|Counter Roll to Top]]** → [[Positions/Side Control]] (Probability: 30%)
 
 
 **If opponent switches to anaconda configuration or loosens Darce grip:**
-- Execute **[[Transitions/Arm Extraction]]** → [[Positions/Turtle]] (Probability: 60%)
-- Execute **[[Transitions/Rolling to Guard]]** → [[Positions/Half Guard]] (Probability: 40%)
+- Execute **[[Transitions/Arm Extraction/Attacker|Arm Extraction]]** → [[Positions/Turtle]] (Probability: 60%)
+- Execute **[[Transitions/Rolling to Guard/Attacker|Rolling to Guard]]** → [[Positions/Half Guard]] (Probability: 40%)
 
 
 

@@ -95,23 +95,23 @@ The strategic value of the Hindulotine lies in its ability to force defensive re
 ### Available Transitions
 
 
-- **[[Transitions/Guillotine Choke]]** (32% of attempts)
+- **[[Transitions/Guillotine Choke/Attacker|Guillotine Choke]]** (32% of attempts)
 
-- **[[Transitions/Hindulotine to Darce Choke]]** (8% of attempts)
+- **[[Transitions/Hindulotine to Darce Choke/Attacker|Hindulotine to Darce Choke]]** (8% of attempts)
 
-- **[[Transitions/Hindulotine to Anaconda Choke]]** (6% of attempts)
+- **[[Transitions/Hindulotine to Anaconda Choke/Attacker|Hindulotine to Anaconda Choke]]** (6% of attempts)
 
-- **[[Transitions/Back Take from Bottom]]** (13% of attempts)
+- **[[Transitions/Back Take from Bottom/Attacker|Back Take from Bottom]]** (13% of attempts)
 
-- **[[Transitions/High Elbow Guillotine Variation]]** (8% of attempts)
+- **[[Transitions/High Elbow Guillotine Variation/Attacker|High Elbow Guillotine Variation]]** (8% of attempts)
 
-- **[[Transitions/Butterfly Sweep with Guillotine]]** (20% of attempts)
+- **[[Transitions/Butterfly Sweep with Guillotine/Attacker|Butterfly Sweep with Guillotine]]** (20% of attempts)
 
-- **[[Transitions/Guard Recovery from Hindulotine]]** (8% of attempts)
+- **[[Transitions/Guard Recovery from Hindulotine/Attacker|Guard Recovery from Hindulotine]]** (8% of attempts)
 
-- **[[Transitions/Arm Triangle Transition]]** (3% of attempts)
+- **[[Transitions/Arm Triangle Transition/Attacker|Arm Triangle Transition]]** (3% of attempts)
 
-- **[[Transitions/Sweep to Mount]]** (2% of attempts)
+- **[[Transitions/Sweep to Mount/Attacker|Sweep to Mount]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -168,23 +168,23 @@ The strategic value of the Hindulotine lies in its ability to force defensive re
 ### Available Transitions
 
 
-- **[[Transitions/Guillotine Choke]]** (31% of attempts)
+- **[[Transitions/Guillotine Choke/Attacker|Guillotine Choke]]** (31% of attempts)
 
-- **[[Transitions/Hindulotine to Darce Choke]]** (10% of attempts)
+- **[[Transitions/Hindulotine to Darce Choke/Attacker|Hindulotine to Darce Choke]]** (10% of attempts)
 
-- **[[Transitions/Hindulotine to Anaconda Choke]]** (8% of attempts)
+- **[[Transitions/Hindulotine to Anaconda Choke/Attacker|Hindulotine to Anaconda Choke]]** (8% of attempts)
 
-- **[[Transitions/Back Take from Top]]** (13% of attempts)
+- **[[Transitions/Back Take from Top/Attacker|Back Take from Top]]** (13% of attempts)
 
-- **[[Transitions/Front Headlock to Back]]** (10% of attempts)
+- **[[Transitions/Front Headlock to Back/Attacker|Front Headlock to Back]]** (10% of attempts)
 
-- **[[Transitions/Arm Triangle from Top]]** (9% of attempts)
+- **[[Transitions/Arm Triangle from Top/Attacker|Arm Triangle from Top]]** (9% of attempts)
 
-- **[[Transitions/Snap Down to Front Headlock]]** (13% of attempts)
+- **[[Transitions/Snap Down to Front Headlock/Attacker|Snap Down to Front Headlock]]** (13% of attempts)
 
-- **[[Transitions/Hindulotine Choke Finish]]** (4% of attempts)
+- **[[Transitions/Hindulotine Choke Finish/Attacker|Hindulotine Choke Finish]]** (4% of attempts)
 
-- **[[Transitions/Finish from Hindulotine]]** (2% of attempts)
+- **[[Transitions/Finish from Hindulotine/Attacker|Finish from Hindulotine]]** (2% of attempts)
 
 
 ### Common Mistakes

@@ -93,39 +93,39 @@ The position serves as a crucial gateway in modern BJJ, connecting standing posi
 ### Available Transitions
 
 
-- **[[Transitions/Butterfly Sweep]]** (42% of attempts)
+- **[[Transitions/Butterfly Sweep/Attacker|Butterfly Sweep]]** (42% of attempts)
 
-- **[[Transitions/Arm Drag to Back]]** (9% of attempts)
+- **[[Transitions/Arm Drag to Back/Attacker|Arm Drag to Back]]** (9% of attempts)
 
-- **[[Transitions/Butterfly Guard to X-Guard]]** (6% of attempts)
+- **[[Transitions/Butterfly Guard to X-Guard/Attacker|Butterfly Guard to X-Guard]]** (6% of attempts)
 
-- **[[Transitions/Hook Sweep]]** (5% of attempts)
+- **[[Transitions/Hook Sweep/Attacker|Hook Sweep]]** (5% of attempts)
 
-- **[[Transitions/Elevator Sweep]]** (5% of attempts)
+- **[[Transitions/Elevator Sweep/Attacker|Elevator Sweep]]** (5% of attempts)
 
-- **[[Transitions/Guillotine Setup]]** (5% of attempts)
+- **[[Transitions/Guillotine Setup/Attacker|Guillotine Setup]]** (5% of attempts)
 
-- **[[Transitions/Deep Half Entry]]** (6% of attempts)
+- **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** (6% of attempts)
 
-- **[[Transitions/Single Leg X Entry]]** (5% of attempts)
+- **[[Transitions/Single Leg X Entry/Attacker|Single Leg X Entry]]** (5% of attempts)
 
-- **[[Transitions/Butterfly Sweep with Guillotine]]** (2% of attempts)
+- **[[Transitions/Butterfly Sweep with Guillotine/Attacker|Butterfly Sweep with Guillotine]]** (2% of attempts)
 
-- **[[Transitions/Butterfly Hook Recovery]]** (3% of attempts)
+- **[[Transitions/Butterfly Hook Recovery/Attacker|Butterfly Hook Recovery]]** (3% of attempts)
 
-- **[[Transitions/Kimura Sweep]]** (4% of attempts)
+- **[[Transitions/Kimura Sweep/Attacker|Kimura Sweep]]** (4% of attempts)
 
-- **[[Transitions/Collar Drag]]** (1% of attempts)
+- **[[Transitions/Collar Drag/Attacker|Collar Drag]]** (1% of attempts)
 
-- **[[Transitions/John Wayne Sweep]]** (1% of attempts)
+- **[[Transitions/John Wayne Sweep/Attacker|John Wayne Sweep]]** (1% of attempts)
 
-- **[[Transitions/Sumi Gaeshi]]** (3% of attempts)
+- **[[Transitions/Sumi Gaeshi/Attacker|Sumi Gaeshi]]** (3% of attempts)
 
-- **[[Transitions/Arm Drag Sweep]]** (2% of attempts)
+- **[[Transitions/Arm Drag Sweep/Attacker|Arm Drag Sweep]]** (2% of attempts)
 
-- **[[Transitions/Butterfly Hook Sweep]]** (0% of attempts)
+- **[[Transitions/Butterfly Hook Sweep/Attacker|Butterfly Hook Sweep]]** (0% of attempts)
 
-- **[[Transitions/Reguard to Butterfly Guard]]** (1% of attempts)
+- **[[Transitions/Reguard to Butterfly Guard/Attacker|Reguard to Butterfly Guard]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -184,33 +184,33 @@ The position serves as a crucial gateway in modern BJJ, connecting standing posi
 ### Available Transitions
 
 
-- **[[Transitions/Butterfly Pass]]** (10% of attempts)
+- **[[Transitions/Butterfly Pass/Attacker|Butterfly Pass]]** (10% of attempts)
 
-- **[[Transitions/Butterfly Smash]]** (34% of attempts)
+- **[[Transitions/Butterfly Smash/Attacker|Butterfly Smash]]** (34% of attempts)
 
-- **[[Transitions/Knee Slice Pass]]** (10% of attempts)
+- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (10% of attempts)
 
-- **[[Transitions/Standing up in Base]]** (12% of attempts)
+- **[[Transitions/Standing up in Base/Attacker|Standing up in Base]]** (12% of attempts)
 
-- **[[Transitions/Pressure Pass]]** (8% of attempts)
+- **[[Transitions/Pressure Pass/Attacker|Pressure Pass]]** (8% of attempts)
 
-- **[[Transitions/Double Under Pass]]** (4% of attempts)
+- **[[Transitions/Double Under Pass/Attacker|Double Under Pass]]** (4% of attempts)
 
-- **[[Transitions/Leg Weave Pass]]** (4% of attempts)
+- **[[Transitions/Leg Weave Pass/Attacker|Leg Weave Pass]]** (4% of attempts)
 
-- **[[Transitions/Toreando Pass]]** (2% of attempts)
+- **[[Transitions/Toreando Pass/Attacker|Toreando Pass]]** (2% of attempts)
 
-- **[[Transitions/Back Step Pass]]** (4% of attempts)
+- **[[Transitions/Back Step Pass/Attacker|Back Step Pass]]** (4% of attempts)
 
-- **[[Transitions/Body Lock Pass]]** (4% of attempts)
+- **[[Transitions/Body Lock Pass/Attacker|Body Lock Pass]]** (4% of attempts)
 
-- **[[Transitions/Leg Drag Pass]]** (4% of attempts)
+- **[[Transitions/Leg Drag Pass/Attacker|Leg Drag Pass]]** (4% of attempts)
 
-- **[[Transitions/Over-Under Pass]]** (2% of attempts)
+- **[[Transitions/Over-Under Pass/Attacker|Over-Under Pass]]** (2% of attempts)
 
-- **[[Transitions/Pass Butterfly Hook Control]]** (1% of attempts)
+- **[[Transitions/Pass Butterfly Hook Control/Attacker|Pass Butterfly Hook Control]]** (1% of attempts)
 
-- **[[Transitions/Smash from Butterfly Hook Control]]** (1% of attempts)
+- **[[Transitions/Smash from Butterfly Hook Control/Attacker|Smash from Butterfly Hook Control]]** (1% of attempts)
 
 
 ### Common Mistakes

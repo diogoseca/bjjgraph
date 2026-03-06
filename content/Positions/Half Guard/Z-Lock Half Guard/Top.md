@@ -210,23 +210,23 @@ From a strategic perspective, Z-Lock Half Guard Top serves as a transitional con
 ## Decision Making from This Position
 
 **If opponent attempts to recover knee shield or establish inside frames:**
-- Execute **[[Transitions/Knee Slice from Half]]** → [[Positions/Side Control]] (Probability: 70%)
-- Execute **[[Transitions/Smash Pass]]** → [[Positions/Side Control]] (Probability: 65%)
+- Execute **[[Transitions/Knee Slice from Half/Attacker|Knee Slice from Half]]** → [[Positions/Side Control]] (Probability: 70%)
+- Execute **[[Transitions/Smash Pass/Attacker|Smash Pass]]** → [[Positions/Side Control]] (Probability: 65%)
 
 
 **If opponent turns away from pressure to protect upper body:**
-- Execute **[[Transitions/Back Take from Top]]** → [[Positions/Back Control]] (Probability: 60%)
-- Execute **[[Transitions/Side Control to Mount]]** → [[Positions/Mount]] (Probability: 50%)
+- Execute **[[Transitions/Back Take from Top/Attacker|Back Take from Top]]** → [[Positions/Back Control]] (Probability: 60%)
+- Execute **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** → [[Positions/Mount]] (Probability: 50%)
 
 
 **If opponent secures underhook on trapped side:**
-- Execute **[[Transitions/Crossface Pass]]** → [[Positions/Side Control]] (Probability: 55%)
-- Execute **[[Transitions/Underhook Pass]]** → [[Positions/Side Control]] (Probability: 50%)
+- Execute **[[Transitions/Crossface Pass/Attacker|Crossface Pass]]** → [[Positions/Side Control]] (Probability: 55%)
+- Execute **[[Transitions/Underhook Pass/Attacker|Underhook Pass]]** → [[Positions/Side Control]] (Probability: 50%)
 
 
 **If opponent extends trapped leg attempting to free it:**
-- Execute **[[Transitions/Side Control to Mount]]** → [[Positions/Mount]] (Probability: 65%)
-- Execute **[[Transitions/Knee Slice from Half]]** → [[Positions/Side Control]] (Probability: 70%)
+- Execute **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** → [[Positions/Mount]] (Probability: 65%)
+- Execute **[[Transitions/Knee Slice from Half/Attacker|Knee Slice from Half]]** → [[Positions/Side Control]] (Probability: 70%)
 
 
 

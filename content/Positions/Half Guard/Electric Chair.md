@@ -95,17 +95,17 @@ From a tactical perspective, Electric Chair serves as a cornerstone of the lockd
 ### Available Transitions
 
 
-- **[[Transitions/Old School Sweep]]** (72% of attempts)
+- **[[Transitions/Old School Sweep/Attacker|Old School Sweep]]** (72% of attempts)
 
-- **[[Transitions/Deep Half Entry]]** (14% of attempts)
+- **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** (14% of attempts)
 
-- **[[Transitions/Hip Rotation Escape from Electric Chair]]** (7% of attempts)
+- **[[Transitions/Hip Rotation Escape from Electric Chair/Attacker|Hip Rotation Escape from Electric Chair]]** (7% of attempts)
 
-- **[[Transitions/Straighten Leg Defense from Electric Chair]]** (3% of attempts)
+- **[[Transitions/Straighten Leg Defense from Electric Chair/Attacker|Straighten Leg Defense from Electric Chair]]** (3% of attempts)
 
-- **[[Transitions/Sweep from Electric Chair]]** (2% of attempts)
+- **[[Transitions/Sweep from Electric Chair/Attacker|Sweep from Electric Chair]]** (2% of attempts)
 
-- **[[Submissions/Electric Chair Finish]]** (2% of attempts)
+- **[[Submissions/Electric Chair Finish/Attacker|Electric Chair Finish]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -166,13 +166,13 @@ From a tactical perspective, Electric Chair serves as a cornerstone of the lockd
 ### Available Transitions
 
 
-- **[[Transitions/Lockdown Break and Pass]]** (28% of attempts)
+- **[[Transitions/Lockdown Break and Pass/Attacker|Lockdown Break and Pass]]** (28% of attempts)
 
-- **[[Transitions/Limp Leg Escape to Pass]]** (24% of attempts)
+- **[[Transitions/Limp Leg Escape to Pass/Attacker|Limp Leg Escape to Pass]]** (24% of attempts)
 
-- **[[Transitions/Back Take from Lockdown Defense]]** (18% of attempts)
+- **[[Transitions/Back Take from Lockdown Defense/Attacker|Back Take from Lockdown Defense]]** (18% of attempts)
 
-- **[[Transitions/Darce from Lockdown Counter]]** (30% of attempts)
+- **[[Transitions/Darce from Lockdown Counter/Attacker|Darce from Lockdown Counter]]** (30% of attempts)
 
 
 ### Common Mistakes

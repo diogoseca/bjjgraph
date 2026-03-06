@@ -212,28 +212,28 @@ Backside 50-50 Bottom is common in no-gi grappling and leg lock-focused competit
 ## Decision Making from This Position
 
 **If opponent is flattening you with chest pressure and you cannot maintain hip mobility:**
-- Execute **[[Transitions/Rolling Back Take]]** → [[Positions/Back Control]] (Probability: 45%)
-- Execute **[[Transitions/Standing up in Base]]** → [[Positions/Standing Position]] (Probability: 35%)
+- Execute **[[Transitions/Rolling Back Take/Attacker|Rolling Back Take]]** → [[Positions/Back Control]] (Probability: 45%)
+- Execute **[[Transitions/Standing up in Base/Attacker|Standing up in Base]]** → [[Positions/Standing Position]] (Probability: 35%)
 
 
 **If opponent overcommits to leg attack and releases upper body control:**
-- Execute **[[Transitions/Counter-entangle to 50-50 Guard]]** → [[Positions/Ashi Garami/50-50 Guard]] (Probability: 55%)
-- Execute **[[Transitions/Heel Hook]]** → [[Positions/Game Over]] (Probability: 40%)
+- Execute **[[Transitions/Counter-entangle to 50-50 Guard/Attacker|Counter-entangle to 50-50 Guard]]** → [[Positions/Ashi Garami/50-50 Guard]] (Probability: 55%)
+- Execute **[[Transitions/Heel Hook/Attacker|Heel Hook]]** → [[Positions/Game Over]] (Probability: 40%)
 
 
 **If opponent maintains tight leg entanglement but extends their attacking leg:**
-- Execute **[[Transitions/Heel Hook]]** → [[Positions/Game Over]] (Probability: 50%)
-- Execute **[[Transitions/Straight Ankle Lock Entry]]** → [[Positions/Game Over]] (Probability: 45%)
+- Execute **[[Transitions/Heel Hook/Attacker|Heel Hook]]** → [[Positions/Game Over]] (Probability: 50%)
+- Execute **[[Transitions/Straight Ankle Lock Entry/Attacker|Straight Ankle Lock Entry]]** → [[Positions/Game Over]] (Probability: 45%)
 
 
 **If opponent is transitioning toward saddle position:**
-- Execute **[[Transitions/Angle Change Escape]]** → [[Positions/Ashi Garami/50-50 Guard]] (Probability: 40%)
-- Execute **[[Transitions/Ashi Garami Escape]]** → [[Positions/Ashi Garami/Inside Ashi-Garami]] (Probability: 35%)
+- Execute **[[Transitions/Angle Change Escape/Attacker|Angle Change Escape]]** → [[Positions/Ashi Garami/50-50 Guard]] (Probability: 40%)
+- Execute **[[Transitions/Ashi Garami Escape/Attacker|Ashi Garami Escape]]** → [[Positions/Ashi Garami/Inside Ashi-Garami]] (Probability: 35%)
 
 
 **If opponent releases leg entanglement to pursue back control:**
-- Execute **[[Transitions/Ashi Garami Escape]]** → [[Positions/Open Guard]] (Probability: 60%)
-- Execute **[[Transitions/Standing up in Base]]** → [[Positions/Standing Position]] (Probability: 50%)
+- Execute **[[Transitions/Ashi Garami Escape/Attacker|Ashi Garami Escape]]** → [[Positions/Open Guard]] (Probability: 60%)
+- Execute **[[Transitions/Standing up in Base/Attacker|Standing up in Base]]** → [[Positions/Standing Position]] (Probability: 50%)
 
 
 

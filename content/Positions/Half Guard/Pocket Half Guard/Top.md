@@ -208,24 +208,24 @@ From this position, the top player enjoys significant control advantages, includ
 ## Decision Making from This Position
 
 **If opponent is completely flattened with no frames established:**
-- Execute **[[Transitions/Knee Slice Pass]]** → [[Positions/Side Control]] (Probability: 75%)
-- Execute **[[Transitions/Smash Pass]]** → [[Positions/Side Control]] (Probability: 70%)
+- Execute **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** → [[Positions/Side Control]] (Probability: 75%)
+- Execute **[[Transitions/Smash Pass/Attacker|Smash Pass]]** → [[Positions/Side Control]] (Probability: 70%)
 
 
 **If opponent turns into underhook to defend:**
-- Execute **[[Transitions/Darce Choke]]** → [[Positions/Darce Control]] (Probability: 60%)
-- Execute **[[Transitions/Back Step Pass]]** → [[Positions/Back Control]] (Probability: 55%)
-- Execute **[[North-South Transition]]** → [[Positions/North-South]] (Probability: 65%)
+- Execute **[[Transitions/Darce Choke/Attacker|Darce Choke]]** → [[Positions/Darce Control]] (Probability: 60%)
+- Execute **[[Transitions/Back Step Pass/Attacker|Back Step Pass]]** → [[Positions/Back Control]] (Probability: 55%)
+- Execute **[[North-South Transition/Attacker|North-South Transition]]** → [[Positions/North-South]] (Probability: 65%)
 
 
 **If opponent establishes frames with their free arm:**
-- Execute **[[Transitions/Kimura from Half Guard]]** → [[Positions/Kimura Trap]] (Probability: 55%)
-- Execute **[[Transitions/Underhook Pass]]** → [[Positions/Side Control]] (Probability: 65%)
+- Execute **[[Transitions/Kimura from Half Guard/Attacker|Kimura from Half Guard]]** → [[Positions/Kimura Trap]] (Probability: 55%)
+- Execute **[[Transitions/Underhook Pass/Attacker|Underhook Pass]]** → [[Positions/Side Control]] (Probability: 65%)
 
 
 **If opponent attempts deep half guard entry:**
-- Execute **[[Transitions/Side Control to Mount]]** → [[Positions/Mount]] (Probability: 50%)
-- Execute **[[Transitions/Smash Pass]]** → [[Positions/Side Control]] (Probability: 60%)
+- Execute **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** → [[Positions/Mount]] (Probability: 50%)
+- Execute **[[Transitions/Smash Pass/Attacker|Smash Pass]]** → [[Positions/Side Control]] (Probability: 60%)
 
 
 

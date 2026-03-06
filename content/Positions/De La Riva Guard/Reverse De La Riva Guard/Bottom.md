@@ -213,28 +213,28 @@ Strategically, Reverse De La Riva operates on the principle of creating rotation
 ## Decision Making from This Position
 
 **If opponent drives weight forward and attempts to smash pass through your guard:**
-- Execute **[[Transitions/Waiter Sweep]]** → [[Positions/Mount]] (Probability: 65%)
-- Execute **[[Transitions/Omoplata Sweep]]** → [[Positions/Side Control]] (Probability: 50%)
+- Execute **[[Transitions/Waiter Sweep/Attacker|Waiter Sweep]]** → [[Positions/Mount]] (Probability: 65%)
+- Execute **[[Transitions/Omoplata Sweep/Attacker|Omoplata Sweep]]** → [[Positions/Side Control]] (Probability: 50%)
 
 
 **If opponent stands up tall or attempts to disengage from hook engagement:**
-- Execute **[[Transitions/Kiss of the Dragon]]** → [[Positions/Back Control]] (Probability: 60%)
-- Execute **[[Transitions/Rolling Back Take]]** → [[Positions/Back Control]] (Probability: 55%)
+- Execute **[[Transitions/Kiss of the Dragon/Attacker|Kiss of the Dragon]]** → [[Positions/Back Control]] (Probability: 60%)
+- Execute **[[Transitions/Rolling Back Take/Attacker|Rolling Back Take]]** → [[Positions/Back Control]] (Probability: 55%)
 
 
 **If opponent backsteps or attempts to clear the inverted hook with hand control:**
-- Execute **[[Transitions/De La Riva to X-Guard Transition]]** → [[Positions/X-Guard]] (Probability: 70%)
-- Execute **[[Transitions/Single Leg X Entry]]** → [[Positions/X-Guard/Single Leg X-Guard]] (Probability: 75%)
+- Execute **[[Transitions/De La Riva to X-Guard Transition/Attacker|De La Riva to X-Guard Transition]]** → [[Positions/X-Guard]] (Probability: 70%)
+- Execute **[[Transitions/Single Leg X Entry/Attacker|Single Leg X Entry]]** → [[Positions/X-Guard/Single Leg X-Guard]] (Probability: 75%)
 
 
 **If opponent shifts weight to near leg and attempts leg drag passing sequence:**
-- Execute **[[Transitions/Crab Ride to Back]]** → [[Positions/Back Control]] (Probability: 65%)
-- Execute **[[Transitions/Berimbolo Entry]]** → [[Positions/Back Control]] (Probability: 55%)
+- Execute **[[Transitions/Crab Ride to Back/Attacker|Crab Ride to Back]]** → [[Positions/Back Control]] (Probability: 65%)
+- Execute **[[Transitions/Berimbolo Entry/Attacker|Berimbolo Entry]]** → [[Positions/Back Control]] (Probability: 55%)
 
 
 **If opponent establishes strong grips and attempts to break hook structure systematically:**
-- Execute **[[Transitions/Turtle to Truck]]** → [[Positions/Twister Control/Truck]] (Probability: 50%)
-- Execute **[[Principles/Guard Recovery]]** → [[Positions/Open Guard]] (Probability: 60%)
+- Execute **[[Transitions/Turtle to Truck/Attacker|Turtle to Truck]]** → [[Positions/Twister Control/Truck]] (Probability: 50%)
+- Execute **[[Principles/Guard Recovery/Attacker|Guard Recovery]]** → [[Positions/Open Guard]] (Probability: 60%)
 
 
 

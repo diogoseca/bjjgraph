@@ -212,23 +212,23 @@ The psychological dimension of Side Control Consolidation Bottom cannot be under
 ## Decision Making from This Position
 
 **If opponent is actively consolidating with heavy chest pressure and establishing crossface:**
-- Execute **[[Transitions/Frame and Shrimp to Guard]]** → [[Positions/Open Guard]] (Probability: 45%)
-- Execute **[[Transitions/Elbow Escape to Guard]]** → [[Positions/Half Guard]] (Probability: 40%)
+- Execute **[[Transitions/Frame and Shrimp to Guard/Attacker|Frame and Shrimp to Guard]]** → [[Positions/Open Guard]] (Probability: 45%)
+- Execute **[[Transitions/Elbow Escape to Guard/Attacker|Elbow Escape to Guard]]** → [[Positions/Half Guard]] (Probability: 40%)
 
 
 **If opponent raises hips or adjusts position preparing for advancement:**
-- Execute **[[Transitions/Elbow Escape to Guard]]** → [[Positions/Half Guard]] (Probability: 55%)
-- Execute **[[Transitions/Frame and Shrimp to Guard]]** → [[Positions/Open Guard]] (Probability: 50%)
+- Execute **[[Transitions/Elbow Escape to Guard/Attacker|Elbow Escape to Guard]]** → [[Positions/Half Guard]] (Probability: 55%)
+- Execute **[[Transitions/Frame and Shrimp to Guard/Attacker|Frame and Shrimp to Guard]]** → [[Positions/Open Guard]] (Probability: 50%)
 
 
 **If opponent extends base or posts hand creating structural vulnerability:**
-- Execute **[[Transitions/Bridge and Roll]]** → [[Positions/Side Control]] (Probability: 35%)
-- Execute **[[Transitions/Granby Roll to Guard]]** → [[Positions/Turtle]] (Probability: 40%)
+- Execute **[[Transitions/Bridge and Roll/Attacker|Bridge and Roll]]** → [[Positions/Side Control]] (Probability: 35%)
+- Execute **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** → [[Positions/Turtle]] (Probability: 40%)
 
 
 **If opponent transitions toward north-south or adjusts pressure angle:**
-- Execute **[[Transitions/Granby Roll to Guard]]** → [[Positions/Turtle]] (Probability: 48%)
-- Execute **[[Transitions/Technical Stand-up]]** → [[Positions/Clinch]] (Probability: 32%)
+- Execute **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** → [[Positions/Turtle]] (Probability: 48%)
+- Execute **[[Transitions/Technical Stand-up/Attacker|Technical Stand-up]]** → [[Positions/Clinch]] (Probability: 32%)
 
 
 

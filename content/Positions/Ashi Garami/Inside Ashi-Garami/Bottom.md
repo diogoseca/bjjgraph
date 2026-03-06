@@ -212,28 +212,28 @@ This position has become increasingly prominent in modern no-gi competition, ser
 ## Decision Making from This Position
 
 **If opponent has strong heel defense and keeps knee rotated away from you:**
-- Execute **[[Transitions/Saddle Entry from Top]]** → [[Positions/Ashi Garami/Saddle]] (Probability: 65%)
-- Execute **[[Transitions/Outside Ashi Entry]]** → [[Positions/Ashi Garami/Outside Ashi-Garami]] (Probability: 55%)
+- Execute **[[Transitions/Saddle Entry from Top/Attacker|Saddle Entry from Top]]** → [[Positions/Ashi Garami/Saddle]] (Probability: 65%)
+- Execute **[[Transitions/Outside Ashi Entry/Attacker|Outside Ashi Entry]]** → [[Positions/Ashi Garami/Outside Ashi-Garami]] (Probability: 55%)
 
 
 **If opponent extends leg to create distance and escape:**
-- Execute **[[Transitions/Straight Ankle Lock Entry]]** → [[Positions/Straight Ankle Lock Control]] (Probability: 60%)
-- Execute **[[Transitions/Kneebar]]** → [[Positions/Kneebar Control]] (Probability: 50%)
+- Execute **[[Transitions/Straight Ankle Lock Entry/Attacker|Straight Ankle Lock Entry]]** → [[Positions/Straight Ankle Lock Control]] (Probability: 60%)
+- Execute **[[Transitions/Kneebar/Attacker|Kneebar]]** → [[Positions/Kneebar Control]] (Probability: 50%)
 
 
 **If opponent's heel is exposed and knee line is controlled:**
-- Execute **[[Transitions/Heel Hook]]** → [[Positions/Ashi Garami/Saddle]] (Probability: 55%)
-- Execute **[[Transitions/Toe Hold]]** → [[Positions/Toe Hold Control]] (Probability: 45%)
+- Execute **[[Transitions/Heel Hook/Attacker|Heel Hook]]** → [[Positions/Ashi Garami/Saddle]] (Probability: 55%)
+- Execute **[[Transitions/Toe Hold/Attacker|Toe Hold]]** → [[Positions/Toe Hold Control]] (Probability: 45%)
 
 
 **If opponent attempts to establish mirror entanglement:**
-- Execute **[[Transitions/50-50 Entry from Standing]]** → [[Positions/Ashi Garami/50-50 Guard]] (Probability: 60%)
-- Execute **[[Transitions/Cross Ashi Transition]]** → [[Positions/Ashi Garami/Cross Ashi-Garami]] (Probability: 50%)
+- Execute **[[Transitions/50-50 Entry from Standing/Attacker|50-50 Entry from Standing]]** → [[Positions/Ashi Garami/50-50 Guard]] (Probability: 60%)
+- Execute **[[Transitions/Cross Ashi Transition/Attacker|Cross Ashi Transition]]** → [[Positions/Ashi Garami/Cross Ashi-Garami]] (Probability: 50%)
 
 
 **If opponent successfully begins extracting heel:**
-- Execute **[[Transitions/Outside Ashi Entry]]** → [[Positions/Ashi Garami/Outside Ashi-Garami]] (Probability: 55%)
-- Execute **[[Transitions/Guard Recovery from Inside Ashi-Garami]]** → [[Positions/Open Guard]] (Probability: 40%)
+- Execute **[[Transitions/Outside Ashi Entry/Attacker|Outside Ashi Entry]]** → [[Positions/Ashi Garami/Outside Ashi-Garami]] (Probability: 55%)
+- Execute **[[Transitions/Guard Recovery from Inside Ashi-Garami/Attacker|Guard Recovery from Inside Ashi-Garami]]** → [[Positions/Open Guard]] (Probability: 40%)
 
 
 

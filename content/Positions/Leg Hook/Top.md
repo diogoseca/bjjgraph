@@ -207,28 +207,28 @@ Leg Hook Top Position represents a transitional control state where the top prac
 ## Decision Making from This Position
 
 **If bottom player is flat on their back with minimal defensive frames:**
-- Execute **[[Transitions/Knee Slice Pass]]** → [[Positions/Side Control]] (Probability: 70%)
-- Execute **[[Transitions/Side Control to Mount]]** → [[Positions/Mount]] (Probability: 60%)
+- Execute **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** → [[Positions/Side Control]] (Probability: 70%)
+- Execute **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** → [[Positions/Mount]] (Probability: 60%)
 
 
 **Else if bottom player is on their side attempting to create frames and distance:**
-- Execute **[[Transitions/Leg Drag Pass]]** → [[Positions/Side Control]] (Probability: 65%)
-- Execute **[[Transitions/Smash Pass]]** → [[Positions/Side Control]] (Probability: 60%)
+- Execute **[[Transitions/Leg Drag Pass/Attacker|Leg Drag Pass]]** → [[Positions/Side Control]] (Probability: 65%)
+- Execute **[[Transitions/Smash Pass/Attacker|Smash Pass]]** → [[Positions/Side Control]] (Probability: 60%)
 
 
 **Else if bottom player extends arms to push or frame:**
-- Execute **[[Transitions/Kimura]]** → [[Positions/Kimura Trap]] (Probability: 50%)
-- Execute **[[Transitions/Darce Setup]]** → [[Positions/Darce Control]] (Probability: 45%)
+- Execute **[[Transitions/Kimura/Attacker|Kimura]]** → [[Positions/Kimura Trap]] (Probability: 50%)
+- Execute **[[Transitions/Darce Setup/Attacker|Darce Setup]]** → [[Positions/Darce Control]] (Probability: 45%)
 
 
 **Else if bottom player attempts to turn away or go to turtle:**
-- Execute **[[Transitions/Back Take from Top]]** → [[Positions/Back Control]] (Probability: 65%)
-- Execute **[[Transitions/Darce Setup]]** → [[Positions/Darce Control]] (Probability: 55%)
+- Execute **[[Transitions/Back Take from Top/Attacker|Back Take from Top]]** → [[Positions/Back Control]] (Probability: 65%)
+- Execute **[[Transitions/Darce Setup/Attacker|Darce Setup]]** → [[Positions/Darce Control]] (Probability: 55%)
 
 
 **Else if bottom player is actively trying to recover full guard:**
-- Execute **[[Transitions/Pressure Pass]]** → [[Positions/Side Control]] (Probability: 60%)
-- Execute **[[Transitions/Leg Weave Pass]]** → [[Positions/Side Control]] (Probability: 55%)
+- Execute **[[Transitions/Pressure Pass/Attacker|Pressure Pass]]** → [[Positions/Side Control]] (Probability: 60%)
+- Execute **[[Transitions/Leg Weave Pass/Attacker|Leg Weave Pass]]** → [[Positions/Side Control]] (Probability: 55%)
 
 
 

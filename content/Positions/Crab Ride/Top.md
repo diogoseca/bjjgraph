@@ -214,28 +214,28 @@ Crab Ride Top is particularly valued in modern no-gi grappling and MMA contexts,
 ## Decision Making from This Position
 
 **If opponent keeps strong turtle posture with head up and elbows tight:**
-- Execute **[[Transitions/Crab Ride to Back]]** → [[Positions/Back Control]] (Probability: 70%)
-- Execute **[[Transitions/Back Control to Crucifix]]** → [[Positions/Crucifix]] (Probability: 60%)
+- Execute **[[Transitions/Crab Ride to Back/Attacker|Crab Ride to Back]]** → [[Positions/Back Control]] (Probability: 70%)
+- Execute **[[Transitions/Back Control to Crucifix/Attacker|Back Control to Crucifix]]** → [[Positions/Crucifix]] (Probability: 60%)
 
 
 **If opponent drops head down and tucks chin defensively:**
-- Execute **[[Transitions/Darce from Turtle]]** → [[Positions/Darce Control]] (Probability: 65%)
-- Execute **[[Transitions/Anaconda from Turtle]]** → [[Positions/Anaconda Control]] (Probability: 65%)
+- Execute **[[Transitions/Darce from Turtle/Attacker|Darce from Turtle]]** → [[Positions/Darce Control]] (Probability: 65%)
+- Execute **[[Transitions/Anaconda from Turtle/Attacker|Anaconda from Turtle]]** → [[Positions/Anaconda Control]] (Probability: 65%)
 
 
 **If opponent attempts to turn into you or sit through:**
-- Execute **[[Transitions/Crab Ride to Back]]** → [[Positions/Back Control]] (Probability: 75%)
-- Execute **[[Transitions/Guillotine from Turtle]]** → [[Positions/Guillotine Control]] (Probability: 55%)
+- Execute **[[Transitions/Crab Ride to Back/Attacker|Crab Ride to Back]]** → [[Positions/Back Control]] (Probability: 75%)
+- Execute **[[Transitions/Guillotine from Turtle/Attacker|Guillotine from Turtle]]** → [[Positions/Guillotine Control]] (Probability: 55%)
 
 
 **If opponent flattens out completely or rolls to their back:**
-- Execute **[[Transitions/Turtle Flatten to Side Control]]** → [[Positions/Side Control]] (Probability: 80%)
-- Execute **[[Transitions/Consolidate Mount]]** → [[Positions/Mount]] (Probability: 70%)
+- Execute **[[Transitions/Turtle Flatten to Side Control/Attacker|Turtle Flatten to Side Control]]** → [[Positions/Side Control]] (Probability: 80%)
+- Execute **[[Transitions/Consolidate Mount/Attacker|Consolidate Mount]]** → [[Positions/Mount]] (Probability: 70%)
 
 
 **If opponent extends far arm to post or defend neck:**
-- Execute **[[Transitions/Back Control to Crucifix]]** → [[Positions/Crucifix]] (Probability: 70%)
-- Execute **[[Transitions/Kimura]]** → [[Positions/Kimura Trap]] (Probability: 55%)
+- Execute **[[Transitions/Back Control to Crucifix/Attacker|Back Control to Crucifix]]** → [[Positions/Crucifix]] (Probability: 70%)
+- Execute **[[Transitions/Kimura/Attacker|Kimura]]** → [[Positions/Kimura Trap]] (Probability: 55%)
 
 
 

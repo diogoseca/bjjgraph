@@ -216,28 +216,28 @@ The technical execution requires precise coordination of grips, leg positioning,
 ## Decision Making from This Position
 
 **If defender rotates hip away from attacker attempting to extract knee and create distance:**
-- Execute **[[Transitions/Inside Ashi Entry]]** → [[Positions/Ashi Garami/Inside Ashi-Garami]] (Probability: 70%)
-- Execute **[[Transition to leg triangle control]]** → [[Positions/Ashi Garami/Inside Ashi-Garami]] (Probability: 65%)
+- Execute **[[Transitions/Inside Ashi Entry/Attacker|Inside Ashi Entry]]** → [[Positions/Ashi Garami/Inside Ashi-Garami]] (Probability: 70%)
+- Execute **[[Transition to leg triangle control/Attacker|Transition to leg triangle control]]** → [[Positions/Ashi Garami/Inside Ashi-Garami]] (Probability: 65%)
 
 
 **If defender rotates hip toward attacker attempting to come on top or pass:**
-- Execute **[[Transitions/Outside Ashi Entry]]** → [[Positions/Ashi Garami/Outside Ashi-Garami]] (Probability: 65%)
-- Execute **[[Maintain ankle control and transition outside]]** → [[Positions/Ashi Garami/Outside Ashi-Garami]] (Probability: 60%)
+- Execute **[[Transitions/Outside Ashi Entry/Attacker|Outside Ashi Entry]]** → [[Positions/Ashi Garami/Outside Ashi-Garami]] (Probability: 65%)
+- Execute **[[Maintain ankle control and transition outside/Attacker|Maintain ankle control and transition outside]]** → [[Positions/Ashi Garami/Outside Ashi-Garami]] (Probability: 60%)
 
 
 **If defender straightens leg completely attempting to pull foot out of grip:**
-- Execute **[[Transitions/Ankle Lock Finish]]** → [[Positions/Game Over]] (Probability: 70%)
-- Execute **[[Transitions/Kneebar Finish]]** → [[Positions/Game Over]] (Probability: 55%)
+- Execute **[[Transitions/Ankle Lock Finish/Attacker|Ankle Lock Finish]]** → [[Positions/Game Over]] (Probability: 70%)
+- Execute **[[Transitions/Kneebar Finish/Attacker|Kneebar Finish]]** → [[Positions/Game Over]] (Probability: 55%)
 
 
 **If defender attempts to stand and creates vertical pressure on trapped leg:**
-- Execute **[[Transitions/Ankle Pick Sweep]]** → [[Positions/Standing Position]] (Probability: 60%)
-- Execute **[[Transitions/Single Leg X Entry]]** → [[Positions/X-Guard/Single Leg X-Guard]] (Probability: 65%)
+- Execute **[[Transitions/Ankle Pick Sweep/Attacker|Ankle Pick Sweep]]** → [[Positions/Standing Position]] (Probability: 60%)
+- Execute **[[Transitions/Single Leg X Entry/Attacker|Single Leg X Entry]]** → [[Positions/X-Guard/Single Leg X-Guard]] (Probability: 65%)
 
 
 **If defender secures grip on attacker's opposite leg attempting symmetrical entanglement:**
-- Execute **[[Transitions/50-50 Entry from Standing]]** → [[Positions/Ashi Garami/50-50 Guard]] (Probability: 70%)
-- Execute **[[Race to finish ankle lock before defender secures their control]]** → [[Positions/Game Over]] (Probability: 45%)
+- Execute **[[Transitions/50-50 Entry from Standing/Attacker|50-50 Entry from Standing]]** → [[Positions/Ashi Garami/50-50 Guard]] (Probability: 70%)
+- Execute **[[Race to finish ankle lock before defender secures their control/Attacker|Race to finish ankle lock before defender secures their control]]** → [[Positions/Game Over]] (Probability: 45%)
 
 
 

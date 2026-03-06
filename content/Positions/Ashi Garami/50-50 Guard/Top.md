@@ -210,20 +210,20 @@ The 50-50 Guard Top is particularly effective in no-gi competition where heel ho
 ## Decision Making from This Position
 
 **If opponent's heel is exposed and you have strong two-handed control with inside position maintained:**
-- Execute **[[Transitions/Heel Hook]]** → [[Submissions/Inside Heel Hook]] (Probability: 50%)
-- Execute **[[Transitions/Outside Heel Hook]]** → [[Transitions/Outside Heel Hook]] (Probability: 35%)
+- Execute **[[Transitions/Heel Hook/Attacker|Heel Hook]]** → [[Submissions/Inside Heel Hook]] (Probability: 50%)
+- Execute **[[Transitions/Outside Heel Hook/Attacker|Outside Heel Hook]]** → [[Transitions/Outside Heel Hook]] (Probability: 35%)
 
 
 **If opponent hides heel by tucking it close to their body or you lose heel control:**
-- Execute **[[Transitions/Kneebar entry]]** → [[Positions/Kneebar Control]] (Probability: 45%)
-- Execute **[[Transitions/50-50 Guard to Inside Ashi]]** → [[Positions/Ashi Garami/Inside Ashi-Garami]] (Probability: 40%)
-- Execute **[[Transitions/Back Take from 50-50]]** → [[Positions/Back Control]] (Probability: 60%)
+- Execute **[[Transitions/Kneebar entry/Attacker|Kneebar entry]]** → [[Positions/Kneebar Control]] (Probability: 45%)
+- Execute **[[Transitions/50-50 Guard to Inside Ashi/Attacker|50-50 Guard to Inside Ashi]]** → [[Positions/Ashi Garami/Inside Ashi-Garami]] (Probability: 40%)
+- Execute **[[Transitions/Back Take from 50-50/Attacker|Back Take from 50-50]]** → [[Positions/Back Control]] (Probability: 60%)
 
 
 **If opponent attempts to sit up and equalize the position:**
-- Execute **[[Hip pressure reset]]** → [[50-50 Guard Top]] (Probability: 50%)
-- Execute **[[Transitions/Calf Slicer]]** → [[Transitions/Calf Slicer]] (Probability: 30%)
-- Execute **[[Pass to side control]]** → [[Positions/Side Control]] (Probability: 35%)
+- Execute **[[Hip pressure reset/Attacker|Hip pressure reset]]** → [[50-50 Guard Top]] (Probability: 50%)
+- Execute **[[Transitions/Calf Slicer/Attacker|Calf Slicer]]** → [[Transitions/Calf Slicer]] (Probability: 30%)
+- Execute **[[Pass to side control/Attacker|Pass to side control]]** → [[Positions/Side Control]] (Probability: 35%)
 
 
 

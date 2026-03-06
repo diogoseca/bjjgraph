@@ -214,31 +214,31 @@ Mount retention mechanics require constant adjustment. When the bottom player br
 ## Decision Making from This Position
 
 **If opponent establishes strong frames and begins hip escape to create distance:**
-- Execute **[[Follow hips and re-center]]** → [[Positions/Mount]] (Probability: 60%)
-- Execute **[[Americana on framing arm]]** → [[Positions/Game Over]] (Probability: 50%)
-- Execute **[[Transitions/High Mount Transition]]** → [[Positions/Mount/High Mount]] (Probability: 55%)
+- Execute **[[Follow hips and re-center/Attacker|Follow hips and re-center]]** → [[Positions/Mount]] (Probability: 60%)
+- Execute **[[Americana on framing arm/Attacker|Americana on framing arm]]** → [[Positions/Game Over]] (Probability: 50%)
+- Execute **[[Transitions/High Mount Transition/Attacker|High Mount Transition]]** → [[Positions/Mount/High Mount]] (Probability: 55%)
 
 
 **If opponent extends arm to frame on face, neck, or chest creating isolation opportunity:**
-- Execute **[[Transitions/Mount to Armbar]]** → [[Positions/Armbar Control]] (Probability: 70%)
-- Execute **[[Transitions/Americana]]** → [[Positions/Game Over]] (Probability: 50%)
-- Execute **[[Transitions/Kimura]]** → [[Positions/Game Over]] (Probability: 45%)
+- Execute **[[Transitions/Mount to Armbar/Attacker|Mount to Armbar]]** → [[Positions/Armbar Control]] (Probability: 70%)
+- Execute **[[Transitions/Americana/Attacker|Americana]]** → [[Positions/Game Over]] (Probability: 50%)
+- Execute **[[Transitions/Kimura/Attacker|Kimura]]** → [[Positions/Game Over]] (Probability: 45%)
 
 
 **If opponent keeps elbows tight to body defending all arm attacks effectively:**
-- Execute **[[Transitions/Cross Collar Choke]]** → [[Positions/Game Over]] (Probability: 55%)
-- Execute **[[Positions/Mount/Mounted Triangle]]** → [[Positions/Mount/Mounted Triangle]] (Probability: 40%)
-- Execute **[[Transitions/High Mount Transition]]** → [[Positions/Mount/High Mount]] (Probability: 50%)
+- Execute **[[Transitions/Cross Collar Choke/Attacker|Cross Collar Choke]]** → [[Positions/Game Over]] (Probability: 55%)
+- Execute **[[Positions/Mount/Mounted Triangle/Attacker|Mounted Triangle]]** → [[Positions/Mount/Mounted Triangle]] (Probability: 40%)
+- Execute **[[Transitions/High Mount Transition/Attacker|High Mount Transition]]** → [[Positions/Mount/High Mount]] (Probability: 50%)
 
 
 **If opponent turns to side exposing back during escape attempt:**
-- Execute **[[Transitions/Gift Wrap to Technical Mount]]** → [[Positions/Mount/Technical Mount]] (Probability: 70%)
-- Execute **[[Transitions/Back Take from Top]]** → [[Positions/Back Control]] (Probability: 75%)
+- Execute **[[Transitions/Gift Wrap to Technical Mount/Attacker|Gift Wrap to Technical Mount]]** → [[Positions/Mount/Technical Mount]] (Probability: 70%)
+- Execute **[[Transitions/Back Take from Top/Attacker|Back Take from Top]]** → [[Positions/Back Control]] (Probability: 75%)
 
 
 **If opponent bridges explosively attempting upa reversal:**
-- Execute **[[Post and re-settle]]** → [[Positions/Mount]] (Probability: 65%)
-- Execute **[[Transitions/S-Mount Transition]]** → [[Positions/Mount/S Mount]] (Probability: 50%)
+- Execute **[[Post and re-settle/Attacker|Post and re-settle]]** → [[Positions/Mount]] (Probability: 65%)
+- Execute **[[Transitions/S-Mount Transition/Attacker|S-Mount Transition]]** → [[Positions/Mount/S Mount]] (Probability: 50%)
 
 
 

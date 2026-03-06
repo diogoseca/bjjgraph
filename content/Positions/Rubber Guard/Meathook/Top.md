@@ -217,23 +217,23 @@ Energy management in escape attempts requires strategic consideration. Explosive
 ## Decision Making from This Position
 
 **If trapped in Meathook with tight shin hook and active grip control:**
-- Execute **[[Transitions/Arm Extraction]]** → [[Positions/Closed Guard]] (Probability: 45%)
-- Execute **[[Base Widening]]** → [[Positions/Closed Guard]] (Probability: 35%)
+- Execute **[[Transitions/Arm Extraction/Attacker|Arm Extraction]]** → [[Positions/Closed Guard]] (Probability: 45%)
+- Execute **[[Base Widening/Attacker|Base Widening]]** → [[Positions/Closed Guard]] (Probability: 35%)
 
 
 **If bottom player shifts hips toward gogoplata setup:**
-- Execute **[[Transitions/Stack Defense]]** → [[Positions/Half Guard]] (Probability: 50%)
-- Execute **[[Transitions/Sprawl]]** → [[Positions/Turtle]] (Probability: 35%)
+- Execute **[[Transitions/Stack Defense/Attacker|Stack Defense]]** → [[Positions/Half Guard]] (Probability: 50%)
+- Execute **[[Transitions/Sprawl/Attacker|Sprawl]]** → [[Positions/Turtle]] (Probability: 35%)
 
 
 **If arm extraction succeeds and hook pressure releases:**
-- Execute **[[Transitions/Posture Recovery]]** → [[Positions/Closed Guard]] (Probability: 60%)
-- Execute **[[Transitions/Guard Opening Sequence]]** → [[Positions/Open Guard]] (Probability: 45%)
+- Execute **[[Transitions/Posture Recovery/Attacker|Posture Recovery]]** → [[Positions/Closed Guard]] (Probability: 60%)
+- Execute **[[Transitions/Guard Opening Sequence/Attacker|Guard Opening Sequence]]** → [[Positions/Open Guard]] (Probability: 45%)
 
 
 **If bottom player transitions to triangle or omoplata setup:**
-- Execute **[[Transitions/Posture Recovery]]** → [[Positions/Closed Guard]] (Probability: 40%)
-- Execute **[[Transitions/Arm Extraction]]** → [[Positions/Closed Guard]] (Probability: 35%)
+- Execute **[[Transitions/Posture Recovery/Attacker|Posture Recovery]]** → [[Positions/Closed Guard]] (Probability: 40%)
+- Execute **[[Transitions/Arm Extraction/Attacker|Arm Extraction]]** → [[Positions/Closed Guard]] (Probability: 35%)
 
 
 

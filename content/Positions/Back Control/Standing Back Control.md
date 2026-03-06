@@ -95,23 +95,23 @@ The position frequently occurs during scrambles, failed takedown attempts, succe
 ### Available Transitions
 
 
-- **[[Transitions/Hip Escape to Turtle]]** (10% of attempts)
+- **[[Transitions/Hip Escape to Turtle/Attacker|Hip Escape to Turtle]]** (10% of attempts)
 
-- **[[Transitions/Rolling to Guard]]** (6% of attempts)
+- **[[Transitions/Rolling to Guard/Attacker|Rolling to Guard]]** (6% of attempts)
 
-- **[[Transitions/Granby Roll to Guard]]** (5% of attempts)
+- **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** (5% of attempts)
 
-- **[[Transitions/Grip Break and Face]]** (13% of attempts)
+- **[[Transitions/Grip Break and Face/Attacker|Grip Break and Face]]** (13% of attempts)
 
-- **[[Transitions/Controlled Descent]]** (30% of attempts)
+- **[[Transitions/Controlled Descent/Attacker|Controlled Descent]]** (30% of attempts)
 
-- **[[Transitions/Explosive Forward Roll]]** (4% of attempts)
+- **[[Transitions/Explosive Forward Roll/Attacker|Explosive Forward Roll]]** (4% of attempts)
 
-- **[[Transitions/Turn In and Face]]** (15% of attempts)
+- **[[Transitions/Turn In and Face/Attacker|Turn In and Face]]** (15% of attempts)
 
-- **[[Transitions/Arm Drag Escape]]** (7% of attempts)
+- **[[Transitions/Arm Drag Escape/Attacker|Arm Drag Escape]]** (7% of attempts)
 
-- **[[Transitions/Standing up in Base]]** (10% of attempts)
+- **[[Transitions/Standing up in Base/Attacker|Standing up in Base]]** (10% of attempts)
 
 
 ### Common Mistakes
@@ -172,29 +172,29 @@ The position frequently occurs during scrambles, failed takedown attempts, succe
 ### Available Transitions
 
 
-- **[[Transitions/Rear Naked Choke]]** (28% of attempts)
+- **[[Transitions/Rear Naked Choke/Attacker|Rear Naked Choke]]** (28% of attempts)
 
-- **[[Transitions/Takedown to Grounded Back Control]]** (18% of attempts)
+- **[[Transitions/Takedown to Grounded Back Control/Attacker|Takedown to Grounded Back Control]]** (18% of attempts)
 
-- **[[Transitions/Body Triangle Lock]]** (7% of attempts)
+- **[[Transitions/Body Triangle Lock/Attacker|Body Triangle Lock]]** (7% of attempts)
 
-- **[[Transitions/Armbar from Back Transition]]** (9% of attempts)
+- **[[Transitions/Armbar from Back Transition/Attacker|Armbar from Back Transition]]** (9% of attempts)
 
-- **[[Transitions/Crucifix Transition]]** (7% of attempts)
+- **[[Transitions/Crucifix Transition/Attacker|Crucifix Transition]]** (7% of attempts)
 
-- **[[Transitions/Truck Position Entry]]** (5% of attempts)
+- **[[Transitions/Truck Position Entry/Attacker|Truck Position Entry]]** (5% of attempts)
 
-- **[[Transitions/Snap Down to Front Headlock]]** (4% of attempts)
+- **[[Transitions/Snap Down to Front Headlock/Attacker|Snap Down to Front Headlock]]** (4% of attempts)
 
-- **[[Transitions/Follow to Back Control]]** (9% of attempts)
+- **[[Transitions/Follow to Back Control/Attacker|Follow to Back Control]]** (9% of attempts)
 
-- **[[Transitions/Mat Return to Back Mount]]** (7% of attempts)
+- **[[Transitions/Mat Return to Back Mount/Attacker|Mat Return to Back Mount]]** (7% of attempts)
 
-- **[[Transitions/Back Control to Seat Belt Control Back]]** (2% of attempts)
+- **[[Transitions/Back Control to Seat Belt Control Back/Attacker|Back Control to Seat Belt Control Back]]** (2% of attempts)
 
-- **[[Transitions/Bow and Arrow Setup from Standing Back]]** (2% of attempts)
+- **[[Transitions/Bow and Arrow Setup from Standing Back/Attacker|Bow and Arrow Setup from Standing Back]]** (2% of attempts)
 
-- **[[Submissions/Standing RNC]]** (2% of attempts)
+- **[[Submissions/Standing RNC/Attacker|Standing RNC]]** (2% of attempts)
 
 
 ### Common Mistakes

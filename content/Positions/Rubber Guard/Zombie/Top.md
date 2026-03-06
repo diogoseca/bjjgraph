@@ -209,24 +209,24 @@ Success in Zombie Top depends on recognizing the opponent's defensive structure 
 ## Decision Making from This Position
 
 **If opponent maintains strong lockdown and underhook with good posture control:**
-- Execute **[[Transitions/Crossface Pass]]** → [[Positions/Side Control]] (Probability: 45%)
-- Execute **[[Transitions/Leg Weave Pass]]** → [[Positions/Side Control]] (Probability: 40%)
+- Execute **[[Transitions/Crossface Pass/Attacker|Crossface Pass]]** → [[Positions/Side Control]] (Probability: 45%)
+- Execute **[[Transitions/Leg Weave Pass/Attacker|Leg Weave Pass]]** → [[Positions/Side Control]] (Probability: 40%)
 
 
 **If opponent's lockdown begins to loosen or defensive structure weakens:**
-- Execute **[[Transitions/Knee Slice Pass]]** → [[Positions/Side Control]] (Probability: 50%)
-- Execute **[[Transitions/Smash Pass]]** → [[Positions/Side Control]] (Probability: 42%)
+- Execute **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** → [[Positions/Side Control]] (Probability: 50%)
+- Execute **[[Transitions/Smash Pass/Attacker|Smash Pass]]** → [[Positions/Side Control]] (Probability: 42%)
 
 
 **If opponent turns to turtle to escape passing pressure:**
-- Execute **[[Transitions/Turtle to Back Take]]** → [[Positions/Back Control]] (Probability: 60%)
-- Execute **[[Transitions/Crab Ride to Back]]** → [[Positions/Crab Ride]] (Probability: 52%)
-- Execute **[[Transitions/Anaconda from Turtle]]** → [[Positions/Anaconda Control]] (Probability: 38%)
+- Execute **[[Transitions/Turtle to Back Take/Attacker|Turtle to Back Take]]** → [[Positions/Back Control]] (Probability: 60%)
+- Execute **[[Transitions/Crab Ride to Back/Attacker|Crab Ride to Back]]** → [[Positions/Crab Ride]] (Probability: 52%)
+- Execute **[[Transitions/Anaconda from Turtle/Attacker|Anaconda from Turtle]]** → [[Positions/Anaconda Control]] (Probability: 38%)
 
 
 **If opponent attempts sweep (Old School, Electric Chair):**
-- Execute **[[Transitions/Crossface Pass]]** → [[Positions/Side Control]] (Probability: 48%)
-- Execute **[[Transitions/Underhook Pass]]** → [[Positions/Side Control]] (Probability: 40%)
+- Execute **[[Transitions/Crossface Pass/Attacker|Crossface Pass]]** → [[Positions/Side Control]] (Probability: 48%)
+- Execute **[[Transitions/Underhook Pass/Attacker|Underhook Pass]]** → [[Positions/Side Control]] (Probability: 40%)
 
 
 

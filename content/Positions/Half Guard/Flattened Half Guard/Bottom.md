@@ -209,18 +209,18 @@ Understanding the position's risks is equally important. The primary danger is n
 ## Decision Making from This Position
 
 **If opponent has crossface but you maintain underhook on far side:**
-- Execute **[[Transitions/Frame and Shrimp to Guard]]** → [[Positions/Half Guard/Knee Shield Half Guard]] (Probability: 45%)
-- Execute **[[Transitions/Elbow Escape to Guard]]** → [[Positions/Half Guard]] (Probability: 40%)
+- Execute **[[Transitions/Frame and Shrimp to Guard/Attacker|Frame and Shrimp to Guard]]** → [[Positions/Half Guard/Knee Shield Half Guard]] (Probability: 45%)
+- Execute **[[Transitions/Elbow Escape to Guard/Attacker|Elbow Escape to Guard]]** → [[Positions/Half Guard]] (Probability: 40%)
 
 
 **If opponent controls both crossface and underhook with heavy chest pressure:**
-- Execute **[[Transitions/Deep Half Entry]]** → [[Positions/Half Guard/Deep Half Guard]] (Probability: 30%)
-- Execute **[[Transitions/Granby Roll to Guard]]** → [[Positions/Turtle]] (Probability: 35%)
+- Execute **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** → [[Positions/Half Guard/Deep Half Guard]] (Probability: 30%)
+- Execute **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** → [[Positions/Turtle]] (Probability: 35%)
 
 
 **If opponent posts hand or shifts weight to advance passing sequence:**
-- Execute **[[Transitions/Elbow Escape to Guard]]** → [[Positions/Half Guard/Knee Shield Half Guard]] (Probability: 50%)
-- Execute **[[Transitions/Frame and Shrimp to Guard]]** → [[Positions/Half Guard]] (Probability: 40%)
+- Execute **[[Transitions/Elbow Escape to Guard/Attacker|Elbow Escape to Guard]]** → [[Positions/Half Guard/Knee Shield Half Guard]] (Probability: 50%)
+- Execute **[[Transitions/Frame and Shrimp to Guard/Attacker|Frame and Shrimp to Guard]]** → [[Positions/Half Guard]] (Probability: 40%)
 
 
 

@@ -209,28 +209,28 @@ The strategic value of Guillotine Control Top lies in its versatility—the top 
 ## Decision Making from This Position
 
 **If opponent's posture is broken forward and chin is exposed:**
-- Execute **[[Transitions/Guillotine Choke]]** → [[Positions/Game Over]] (Probability: 75%)
-- Execute **[[Transitions/High Elbow Guillotine Variation]]** → [[Positions/Game Over]] (Probability: 70%)
+- Execute **[[Transitions/Guillotine Choke/Attacker|Guillotine Choke]]** → [[Positions/Game Over]] (Probability: 75%)
+- Execute **[[Transitions/High Elbow Guillotine Variation/Attacker|High Elbow Guillotine Variation]]** → [[Positions/Game Over]] (Probability: 70%)
 
 
 **If opponent tucks chin and defends neck but neglects position:**
-- Execute **[[Transitions/Side Control to Mount]]** → [[Positions/Mount]] (Probability: 78%)
-- Execute **[[Transitions/Side Control to North-South]]** → [[Positions/North-South]] (Probability: 72%)
+- Execute **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** → [[Positions/Mount]] (Probability: 78%)
+- Execute **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** → [[Positions/North-South]] (Probability: 72%)
 
 
 **If opponent turns into you to defend:**
-- Execute **[[Transitions/Front Headlock to Anaconda]]** → [[Positions/Anaconda Control]] (Probability: 65%)
-- Execute **[[Transitions/Front Headlock to Darce]]** → [[Positions/Darce Control]] (Probability: 63%)
+- Execute **[[Transitions/Front Headlock to Anaconda/Attacker|Front Headlock to Anaconda]]** → [[Positions/Anaconda Control]] (Probability: 65%)
+- Execute **[[Transitions/Front Headlock to Darce/Attacker|Front Headlock to Darce]]** → [[Positions/Darce Control]] (Probability: 63%)
 
 
 **If opponent has arm trapped inside the guillotine:**
-- Execute **[[Transitions/Guillotine Choke]]** → [[Positions/Game Over]] (Probability: 72%)
-- Execute **[[Transitions/Side Control to Mount]]** → [[Positions/Mount]] (Probability: 68%)
+- Execute **[[Transitions/Guillotine Choke/Attacker|Guillotine Choke]]** → [[Positions/Game Over]] (Probability: 72%)
+- Execute **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** → [[Positions/Mount]] (Probability: 68%)
 
 
 **If opponent creates distance with legs but not hand fighting:**
-- Execute **[[Transitions/Pass to Side Control]]** → [[Positions/Side Control]] (Probability: 75%)
-- Execute **[[Transitions/High Elbow Guillotine Variation]]** → [[Positions/Game Over]] (Probability: 65%)
+- Execute **[[Transitions/Pass to Side Control/Attacker|Pass to Side Control]]** → [[Positions/Side Control]] (Probability: 75%)
+- Execute **[[Transitions/High Elbow Guillotine Variation/Attacker|High Elbow Guillotine Variation]]** → [[Positions/Game Over]] (Probability: 65%)
 
 
 

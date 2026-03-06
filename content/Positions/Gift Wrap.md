@@ -97,19 +97,19 @@ Understanding the Gift Wrap requires recognizing it as part of a larger back att
 ### Available Transitions
 
 
-- **[[Transitions/Gift Wrap Arm Recovery]]** (28% of attempts)
+- **[[Transitions/Gift Wrap Arm Recovery/Attacker|Gift Wrap Arm Recovery]]** (28% of attempts)
 
-- **[[Transitions/Hip Escape to Guard]]** (18% of attempts)
+- **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** (18% of attempts)
 
-- **[[Transitions/Roll to Turtle]]** (15% of attempts)
+- **[[Transitions/Roll to Turtle/Attacker|Roll to Turtle]]** (15% of attempts)
 
-- **[[Transitions/Granby Roll to Guard]]** (4% of attempts)
+- **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** (4% of attempts)
 
-- **[[Transitions/Shrimp Escape]]** (15% of attempts)
+- **[[Transitions/Shrimp Escape/Attacker|Shrimp Escape]]** (15% of attempts)
 
-- **[[Transitions/Elbow Escape to Remove Hooks]]** (12% of attempts)
+- **[[Transitions/Elbow Escape to Remove Hooks/Attacker|Elbow Escape to Remove Hooks]]** (12% of attempts)
 
-- **[[Transitions/Back Door Escape]]** (8% of attempts)
+- **[[Transitions/Back Door Escape/Attacker|Back Door Escape]]** (8% of attempts)
 
 
 ### Common Mistakes
@@ -170,27 +170,27 @@ Understanding the Gift Wrap requires recognizing it as part of a larger back att
 ### Available Transitions
 
 
-- **[[Transitions/Rear Naked Choke]]** (33% of attempts)
+- **[[Transitions/Rear Naked Choke/Attacker|Rear Naked Choke]]** (33% of attempts)
 
-- **[[Transitions/Armbar on Free Arm]]** (9% of attempts)
+- **[[Transitions/Armbar on Free Arm/Attacker|Armbar on Free Arm]]** (9% of attempts)
 
-- **[[Transitions/Gift Wrap to Technical Mount]]** (13% of attempts)
+- **[[Transitions/Gift Wrap to Technical Mount/Attacker|Gift Wrap to Technical Mount]]** (13% of attempts)
 
-- **[[Transitions/Short Choke Attack]]** (7% of attempts)
+- **[[Transitions/Short Choke Attack/Attacker|Short Choke Attack]]** (7% of attempts)
 
-- **[[Transitions/Bow and Arrow Choke Setup]]** (6% of attempts)
+- **[[Transitions/Bow and Arrow Choke Setup/Attacker|Bow and Arrow Choke Setup]]** (6% of attempts)
 
-- **[[Transitions/Body Triangle Lock]]** (7% of attempts)
+- **[[Transitions/Body Triangle Lock/Attacker|Body Triangle Lock]]** (7% of attempts)
 
-- **[[Transitions/Back Control to Crucifix]]** (9% of attempts)
+- **[[Transitions/Back Control to Crucifix/Attacker|Back Control to Crucifix]]** (9% of attempts)
 
-- **[[Transitions/Kimura on Trapped Arm]]** (9% of attempts)
+- **[[Transitions/Kimura on Trapped Arm/Attacker|Kimura on Trapped Arm]]** (9% of attempts)
 
-- **[[Transitions/Gift Wrap Maintenance]]** (3% of attempts)
+- **[[Transitions/Gift Wrap Maintenance/Attacker|Gift Wrap Maintenance]]** (3% of attempts)
 
-- **[[Submissions/Gift Wrap Armbar]]** (2% of attempts)
+- **[[Submissions/Gift Wrap Armbar/Attacker|Gift Wrap Armbar]]** (2% of attempts)
 
-- **[[Submissions/Gift Wrap RNC]]** (2% of attempts)
+- **[[Submissions/Gift Wrap RNC/Attacker|Gift Wrap RNC]]** (2% of attempts)
 
 
 ### Common Mistakes

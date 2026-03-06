@@ -89,25 +89,25 @@ The Rubber Guard is a specialized guard position developed and popularized withi
 ### Available Transitions
 
 
-- **[[Transitions/Triangle Setup]]** (40% of attempts)
+- **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** (40% of attempts)
 
-- **[[Transitions/Omoplata]]** (15% of attempts)
+- **[[Transitions/Omoplata/Attacker|Omoplata]]** (15% of attempts)
 
-- **[[Transitions/Mission Control Entry from Rubber Guard]]** (12% of attempts)
+- **[[Transitions/Mission Control Entry from Rubber Guard/Attacker|Mission Control Entry from Rubber Guard]]** (12% of attempts)
 
-- **[[Transitions/Rubber Guard to Closed Guard]]** (7% of attempts)
+- **[[Transitions/Rubber Guard to Closed Guard/Attacker|Rubber Guard to Closed Guard]]** (7% of attempts)
 
-- **[[Transitions/New York Entry from Rubber Guard]]** (5% of attempts)
+- **[[Transitions/New York Entry from Rubber Guard/Attacker|New York Entry from Rubber Guard]]** (5% of attempts)
 
-- **[[Transitions/Hip Bump Sweep]]** (5% of attempts)
+- **[[Transitions/Hip Bump Sweep/Attacker|Hip Bump Sweep]]** (5% of attempts)
 
-- **[[Transitions/Omoplata Sweep]]** (5% of attempts)
+- **[[Transitions/Omoplata Sweep/Attacker|Omoplata Sweep]]** (5% of attempts)
 
-- **[[Transitions/Gogoplata]]** (4% of attempts)
+- **[[Transitions/Gogoplata/Attacker|Gogoplata]]** (4% of attempts)
 
-- **[[Transitions/Rubber Guard Sweep]]** (4% of attempts)
+- **[[Transitions/Rubber Guard Sweep/Attacker|Rubber Guard Sweep]]** (4% of attempts)
 
-- **[[Transitions/Crackhead Control Entry]]** (3% of attempts)
+- **[[Transitions/Crackhead Control Entry/Attacker|Crackhead Control Entry]]** (3% of attempts)
 
 
 ### Common Mistakes
@@ -168,17 +168,17 @@ The Rubber Guard is a specialized guard position developed and popularized withi
 ### Available Transitions
 
 
-- **[[Transitions/Posture Recovery]]** (30% of attempts)
+- **[[Transitions/Posture Recovery/Attacker|Posture Recovery]]** (30% of attempts)
 
-- **[[Transitions/Rubber Guard Clear to Pass]]** (23% of attempts)
+- **[[Transitions/Rubber Guard Clear to Pass/Attacker|Rubber Guard Clear to Pass]]** (23% of attempts)
 
-- **[[Transitions/Arm Extraction]]** (19% of attempts)
+- **[[Transitions/Arm Extraction/Attacker|Arm Extraction]]** (19% of attempts)
 
-- **[[Transitions/Stack Pass]]** (14% of attempts)
+- **[[Transitions/Stack Pass/Attacker|Stack Pass]]** (14% of attempts)
 
-- **[[Transitions/Pressure Pass]]** (9% of attempts)
+- **[[Transitions/Pressure Pass/Attacker|Pressure Pass]]** (9% of attempts)
 
-- **[[Transitions/Rubber Guard Top Posture Escape]]** (5% of attempts)
+- **[[Transitions/Rubber Guard Top Posture Escape/Attacker|Rubber Guard Top Posture Escape]]** (5% of attempts)
 
 
 ### Common Mistakes

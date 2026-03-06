@@ -205,28 +205,28 @@ Turtle Top is an offensive position where the practitioner attacks an opponent w
 ## Decision Making from This Position
 
 **If opponent maintains tight defensive structure with elbows to knees:**
-- Execute **[[Establish Seatbelt Control]]** → [[Positions/Back Control]] (Probability: 60%)
-- Execute **[[Circle to Front Headlock]]** → [[Positions/Front Headlock]] (Probability: 55%)
+- Execute **[[Establish Seatbelt Control/Attacker|Establish Seatbelt Control]]** → [[Positions/Back Control]] (Probability: 60%)
+- Execute **[[Circle to Front Headlock/Attacker|Circle to Front Headlock]]** → [[Positions/Front Headlock]] (Probability: 55%)
 
 
 **If opponent begins forward roll or granby attempt:**
-- Execute **[[Follow Roll to Back]]** → [[Positions/Back Control]] (Probability: 65%)
-- Execute **[[Flatten to Side Control]]** → [[Positions/Side Control]] (Probability: 55%)
+- Execute **[[Follow Roll to Back/Attacker|Follow Roll to Back]]** → [[Positions/Back Control]] (Probability: 65%)
+- Execute **[[Flatten to Side Control/Attacker|Flatten to Side Control]]** → [[Positions/Side Control]] (Probability: 55%)
 
 
 **If opponent lifts head or exposes neck:**
-- Execute **[[Front Headlock Attack]]** → [[Positions/Front Headlock]] (Probability: 70%)
-- Execute **[[Transitions/Guillotine Setup]]** → [[Positions/Guillotine Control]] (Probability: 60%)
+- Execute **[[Front Headlock Attack/Attacker|Front Headlock Attack]]** → [[Positions/Front Headlock]] (Probability: 70%)
+- Execute **[[Transitions/Guillotine Setup/Attacker|Guillotine Setup]]** → [[Positions/Guillotine Control]] (Probability: 60%)
 
 
 **If opponent extends arm for posting or defense:**
-- Execute **[[Crucifix Entry]]** → [[Positions/Crucifix]] (Probability: 55%)
-- Execute **[[Kimura Attack]]** → [[Positions/Kimura Trap]] (Probability: 50%)
+- Execute **[[Crucifix Entry/Attacker|Crucifix Entry]]** → [[Positions/Crucifix]] (Probability: 55%)
+- Execute **[[Kimura Attack/Attacker|Kimura Attack]]** → [[Positions/Kimura Trap]] (Probability: 50%)
 
 
 **If opponent attempts to stand up explosively:**
-- Execute **[[Drag to Mat and Take Back]]** → [[Positions/Back Control]] (Probability: 60%)
-- Execute **[[Front Headlock Control]]** → [[Positions/Front Headlock]] (Probability: 65%)
+- Execute **[[Drag to Mat and Take Back/Attacker|Drag to Mat and Take Back]]** → [[Positions/Back Control]] (Probability: 60%)
+- Execute **[[Front Headlock Control/Attacker|Front Headlock Control]]** → [[Positions/Front Headlock]] (Probability: 65%)
 
 
 

@@ -210,18 +210,18 @@ From this position, you face multiple submission threats, primarily heel hook, a
 ## Decision Making from This Position
 
 **If opponent has clear inside position control and is setting up heel hook attack:**
-- Execute **[[Hide heel and defend immediately]]** → [[50-50 Guard Bottom]] (Probability: 90%)
-- Execute **[[Extract legs to standing if heel defense becomes compromised]]** → [[Positions/Standing Guard]] (Probability: 70%)
+- Execute **[[Hide heel and defend immediately/Attacker|Hide heel and defend immediately]]** → [[50-50 Guard Bottom]] (Probability: 90%)
+- Execute **[[Extract legs to standing if heel defense becomes compromised/Attacker|Extract legs to standing if heel defense becomes compromised]]** → [[Positions/Standing Guard]] (Probability: 70%)
 
 
 **If you successfully match opponent's inside position or gain inside position advantage:**
-- Execute **[[Sweep to top position using inside control]]** → [[Positions/Ashi Garami/50-50 Guard]] (Probability: 65%)
-- Execute **[[Attack opponent's heel with counter heel hook]]** → [[Positions/Ashi Garami/Inside Ashi-Garami]] (Probability: 50%)
+- Execute **[[Sweep to top position using inside control/Attacker|Sweep to top position using inside control]]** → [[Positions/Ashi Garami/50-50 Guard]] (Probability: 65%)
+- Execute **[[Attack opponent's heel with counter heel hook/Attacker|Attack opponent's heel with counter heel hook]]** → [[Positions/Ashi Garami/Inside Ashi-Garami]] (Probability: 50%)
 
 
 **If opponent drives forward pressure trying to pass your guard:**
-- Execute **[[Use their momentum to sweep to top position]]** → [[Positions/Ashi Garami/50-50 Guard]] (Probability: 60%)
-- Execute **[[Transition to Single Leg X-Guard for better control]]** → [[Positions/X-Guard/Single Leg X-Guard]] (Probability: 55%)
+- Execute **[[Use their momentum to sweep to top position/Attacker|Use their momentum to sweep to top position]]** → [[Positions/Ashi Garami/50-50 Guard]] (Probability: 60%)
+- Execute **[[Transition to Single Leg X-Guard for better control/Attacker|Transition to Single Leg X-Guard for better control]]** → [[Positions/X-Guard/Single Leg X-Guard]] (Probability: 55%)
 
 
 

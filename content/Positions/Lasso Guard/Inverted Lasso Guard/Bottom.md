@@ -213,23 +213,23 @@ Successful inverted lasso guard bottom requires understanding that inversion is 
 ## Decision Making from This Position
 
 **If opponent maintains upright posture with weight back, resisting the inversion:**
-- Execute **[[Transitions/Hip Bump Sweep V2]]** → [[Positions/Mount]] (Probability: 65%)
-- Execute **[[Transitions/Single Leg X Entry]]** → [[Positions/X-Guard/Single Leg X-Guard]] (Probability: 55%)
+- Execute **[[Transitions/Hip Bump Sweep V2/Attacker|Hip Bump Sweep V2]]** → [[Positions/Mount]] (Probability: 65%)
+- Execute **[[Transitions/Single Leg X Entry/Attacker|Single Leg X Entry]]** → [[Positions/X-Guard/Single Leg X-Guard]] (Probability: 55%)
 
 
 **If opponent posts hand near hip or drives forward to prevent sweep:**
-- Execute **[[Transitions/Berimbolo Entry]]** → [[Positions/Back Control]] (Probability: 70%)
-- Execute **[[Transitions/Kiss of the Dragon]]** → [[Positions/Back Control]] (Probability: 60%)
+- Execute **[[Transitions/Berimbolo Entry/Attacker|Berimbolo Entry]]** → [[Positions/Back Control]] (Probability: 70%)
+- Execute **[[Transitions/Kiss of the Dragon/Attacker|Kiss of the Dragon]]** → [[Positions/Back Control]] (Probability: 60%)
 
 
 **If opponent attempts to extract lassoed arm by pulling back:**
-- Execute **[[Transitions/Omoplata Sweep]]** → [[Positions/Omoplata Control]] (Probability: 65%)
-- Execute **[[Transitions/Triangle Setup]]** → [[Positions/Triangle Control]] (Probability: 55%)
+- Execute **[[Transitions/Omoplata Sweep/Attacker|Omoplata Sweep]]** → [[Positions/Omoplata Control]] (Probability: 65%)
+- Execute **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** → [[Positions/Triangle Control]] (Probability: 55%)
 
 
 **If opponent stands up or creates significant distance:**
-- Execute **[[Transitions/Single Leg X Entry]]** → [[Positions/X-Guard/Single Leg X-Guard]] (Probability: 60%)
-- Execute **[[Transitions/De La Riva Sweep]]** → [[Positions/Mount]] (Probability: 50%)
+- Execute **[[Transitions/Single Leg X Entry/Attacker|Single Leg X Entry]]** → [[Positions/X-Guard/Single Leg X-Guard]] (Probability: 60%)
+- Execute **[[Transitions/De La Riva Sweep/Attacker|De La Riva Sweep]]** → [[Positions/Mount]] (Probability: 50%)
 
 
 

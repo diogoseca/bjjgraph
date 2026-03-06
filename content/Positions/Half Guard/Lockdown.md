@@ -89,31 +89,31 @@ Lockdown is 10th Planet's revolutionary half guard variation that transforms tra
 ### Available Transitions
 
 
-- **[[Transitions/Whip-up Sweep]]** (26% of attempts)
+- **[[Transitions/Whip-up Sweep/Attacker|Whip-up Sweep]]** (26% of attempts)
 
-- **[[Transitions/Old School Sweep]]** (9% of attempts)
+- **[[Transitions/Old School Sweep/Attacker|Old School Sweep]]** (9% of attempts)
 
-- **[[Transitions/Electric Chair Transition]]** (11% of attempts)
+- **[[Transitions/Electric Chair Transition/Attacker|Electric Chair Transition]]** (11% of attempts)
 
-- **[[Transitions/Underhook Sweep from Half]]** (7% of attempts)
+- **[[Transitions/Underhook Sweep from Half/Attacker|Underhook Sweep from Half]]** (7% of attempts)
 
-- **[[Transitions/Rolling Back Take]]** (7% of attempts)
+- **[[Transitions/Rolling Back Take/Attacker|Rolling Back Take]]** (7% of attempts)
 
-- **[[Transitions/Roll to Truck]]** (8% of attempts)
+- **[[Transitions/Roll to Truck/Attacker|Roll to Truck]]** (8% of attempts)
 
-- **[[Transitions/Deep Half Entry]]** (9% of attempts)
+- **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** (9% of attempts)
 
-- **[[Transitions/Kimura]]** (4% of attempts)
+- **[[Transitions/Kimura/Attacker|Kimura]]** (4% of attempts)
 
-- **[[Transitions/Lockdown Recovery]]** (4% of attempts)
+- **[[Transitions/Lockdown Recovery/Attacker|Lockdown Recovery]]** (4% of attempts)
 
-- **[[Transitions/Lockdown to Vaporizer]]** (3% of attempts)
+- **[[Transitions/Lockdown to Vaporizer/Attacker|Lockdown to Vaporizer]]** (3% of attempts)
 
-- **[[Transitions/Half Guard to Old School]]** (6% of attempts)
+- **[[Transitions/Half Guard to Old School/Attacker|Half Guard to Old School]]** (6% of attempts)
 
-- **[[Transitions/Back Take from Lockdown Defense]]** (4% of attempts)
+- **[[Transitions/Back Take from Lockdown Defense/Attacker|Back Take from Lockdown Defense]]** (4% of attempts)
 
-- **[[Submissions/Crotch Ripper]]** (2% of attempts)
+- **[[Submissions/Crotch Ripper/Attacker|Crotch Ripper]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -174,25 +174,25 @@ Lockdown is 10th Planet's revolutionary half guard variation that transforms tra
 ### Available Transitions
 
 
-- **[[Transitions/Half Guard Pass]]** (6% of attempts)
+- **[[Transitions/Half Guard Pass/Attacker|Half Guard Pass]]** (6% of attempts)
 
-- **[[Transitions/Knee Slice from Half]]** (9% of attempts)
+- **[[Transitions/Knee Slice from Half/Attacker|Knee Slice from Half]]** (9% of attempts)
 
-- **[[Transitions/Smash Pass]]** (8% of attempts)
+- **[[Transitions/Smash Pass/Attacker|Smash Pass]]** (8% of attempts)
 
-- **[[Transitions/Underhook Pass]]** (8% of attempts)
+- **[[Transitions/Underhook Pass/Attacker|Underhook Pass]]** (8% of attempts)
 
-- **[[Transitions/Crossface Pass]]** (9% of attempts)
+- **[[Transitions/Crossface Pass/Attacker|Crossface Pass]]** (9% of attempts)
 
-- **[[Transitions/Leg Extraction to Combat Base]]** (37% of attempts)
+- **[[Transitions/Leg Extraction to Combat Base/Attacker|Leg Extraction to Combat Base]]** (37% of attempts)
 
-- **[[Transitions/Lockdown to Z-Lock Half Guard]]** (9% of attempts)
+- **[[Transitions/Lockdown to Z-Lock Half Guard/Attacker|Lockdown to Z-Lock Half Guard]]** (9% of attempts)
 
-- **[[Transitions/Lockdown Break and Pass]]** (10% of attempts)
+- **[[Transitions/Lockdown Break and Pass/Attacker|Lockdown Break and Pass]]** (10% of attempts)
 
-- **[[Transitions/Darce from Lockdown Counter]]** (3% of attempts)
+- **[[Transitions/Darce from Lockdown Counter/Attacker|Darce from Lockdown Counter]]** (3% of attempts)
 
-- **[[Transitions/Lockdown Whizzer Pass]]** (1% of attempts)
+- **[[Transitions/Lockdown Whizzer Pass/Attacker|Lockdown Whizzer Pass]]** (1% of attempts)
 
 
 ### Common Mistakes

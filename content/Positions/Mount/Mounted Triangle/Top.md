@@ -211,28 +211,28 @@ The mounted triangle exemplifies modern BJJ's evolution toward dynamic, submissi
 ## Decision Making from This Position
 
 **If opponent keeps trapped arm bent and protects neck with chin tuck:**
-- Execute **[[Transitions/Armbar Finish]]** → [[game-over]] (Probability: 60%)
-- Execute **[[Transitions/Triangle to Armbar]]** → [[Positions/Armbar Control]] (Probability: 55%)
+- Execute **[[Transitions/Armbar Finish/Attacker|Armbar Finish]]** → [[game-over]] (Probability: 60%)
+- Execute **[[Transitions/Triangle to Armbar/Attacker|Triangle to Armbar]]** → [[Positions/Armbar Control]] (Probability: 55%)
 
 
 **If opponent extends trapped arm or loosens defensive posture:**
-- Execute **[[Transitions/Triangle Choke]]** → [[game-over]] (Probability: 70%)
-- Execute **[[Transitions/Switch to Triangle]]** → [[Positions/Triangle Control]] (Probability: 65%)
+- Execute **[[Transitions/Triangle Choke/Attacker|Triangle Choke]]** → [[game-over]] (Probability: 70%)
+- Execute **[[Transitions/Switch to Triangle/Attacker|Switch to Triangle]]** → [[Positions/Triangle Control]] (Probability: 65%)
 
 
 **If opponent turns to side to escape triangle pressure:**
-- Execute **[[Transitions/Back Take]]** → [[Positions/Back Control]] (Probability: 65%)
-- Execute **[[Transitions/Triangle to Back]]** → [[Positions/Back Control]] (Probability: 60%)
+- Execute **[[Transitions/Back Take/Attacker|Back Take]]** → [[Positions/Back Control]] (Probability: 65%)
+- Execute **[[Transitions/Triangle to Back/Attacker|Triangle to Back]]** → [[Positions/Back Control]] (Probability: 60%)
 
 
 **If opponent bridges explosively or creates significant space:**
-- Execute **[[Transitions/Consolidate Mount]]** → [[Positions/Mount/High Mount]] (Probability: 75%)
-- Execute **[[Transitions/S-Mount Transition]]** → [[Positions/Mount/S Mount]] (Probability: 65%)
+- Execute **[[Transitions/Consolidate Mount/Attacker|Consolidate Mount]]** → [[Positions/Mount/High Mount]] (Probability: 75%)
+- Execute **[[Transitions/S-Mount Transition/Attacker|S-Mount Transition]]** → [[Positions/Mount/S Mount]] (Probability: 65%)
 
 
 **If opponent extends free arm for defensive frames:**
-- Execute **[[Positions/Gift Wrap]]** → [[Positions/Gift Wrap]] (Probability: 55%)
-- Execute **[[Transitions/Kimura to Back Take]]** → [[Positions/Back Control]] (Probability: 45%)
+- Execute **[[Positions/Gift Wrap/Attacker|Gift Wrap]]** → [[Positions/Gift Wrap]] (Probability: 55%)
+- Execute **[[Transitions/Kimura to Back Take/Attacker|Kimura to Back Take]]** → [[Positions/Back Control]] (Probability: 45%)
 
 
 

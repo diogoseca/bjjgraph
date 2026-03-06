@@ -209,22 +209,22 @@ Success from top position requires understanding the sweep mechanics your oppone
 ## Decision Making from This Position
 
 **If opponent establishes waiter sweep grip on belt or pants with weight shifted forward:**
-- Execute **[[Transitions/Crossface Pass]]** → [[Positions/Side Control]] (Probability: 60%)
-- Execute **[[Shift weight back and widen base]]** → [[Positions/Half Guard]] (Probability: 30%)
+- Execute **[[Transitions/Crossface Pass/Attacker|Crossface Pass]]** → [[Positions/Side Control]] (Probability: 60%)
+- Execute **[[Shift weight back and widen base/Attacker|Shift weight back and widen base]]** → [[Positions/Half Guard]] (Probability: 30%)
 
 
 **If opponent's head is deep under hip attempting sweep mechanics:**
-- Execute **[[Shift weight forward and establish crossface]]** → [[Positions/Half Guard]] (Probability: 50%)
-- Execute **[[Transitions/Smash Pass]]** → [[Positions/Side Control]] (Probability: 40%)
+- Execute **[[Shift weight forward and establish crossface/Attacker|Shift weight forward and establish crossface]]** → [[Positions/Half Guard]] (Probability: 50%)
+- Execute **[[Transitions/Smash Pass/Attacker|Smash Pass]]** → [[Positions/Side Control]] (Probability: 40%)
 
 
 **If opponent loses deep positioning or grip temporarily:**
-- Execute **[[Transitions/Half Guard Pass]]** → [[Positions/Side Control]] (Probability: 70%)
-- Execute **[[Transitions/Knee Slice Pass]]** → [[Positions/Side Control]] (Probability: 60%)
+- Execute **[[Transitions/Half Guard Pass/Attacker|Half Guard Pass]]** → [[Positions/Side Control]] (Probability: 70%)
+- Execute **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** → [[Positions/Side Control]] (Probability: 60%)
 
 
 **If opponent overcommits to underhook or exposes arm:**
-- Execute **[[Transitions/Kimura from Half Guard]]** → [[Positions/Kimura Trap]] (Probability: 50%)
+- Execute **[[Transitions/Kimura from Half Guard/Attacker|Kimura from Half Guard]]** → [[Positions/Kimura Trap]] (Probability: 50%)
 
 
 

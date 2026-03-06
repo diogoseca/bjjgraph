@@ -209,23 +209,23 @@ Success in this position correlates strongly with lapel grip management, base ma
 ## Decision Making from This Position
 
 **If bottom player maintains tight lapel control and begins inverting:**
-- Execute **[[Transitions/Back Step]]** → [[Positions/Headquarters Position]] (Probability: 65%)
-- Execute **[[Transitions/Stack Pass]]** → [[Positions/De La Riva Guard/Reverse De La Riva Guard]] (Probability: 55%)
+- Execute **[[Transitions/Back Step/Attacker|Back Step]]** → [[Positions/Headquarters Position]] (Probability: 65%)
+- Execute **[[Transitions/Stack Pass/Attacker|Stack Pass]]** → [[Positions/De La Riva Guard/Reverse De La Riva Guard]] (Probability: 55%)
 
 
 **If bottom player's lapel grip loosens or becomes shallow:**
-- Execute **[[Transitions/Pressure Pass]]** → [[Positions/Side Control]] (Probability: 70%)
-- Execute **[[Transitions/Toreando Pass]]** → [[Positions/Headquarters Position]] (Probability: 68%)
+- Execute **[[Transitions/Pressure Pass/Attacker|Pressure Pass]]** → [[Positions/Side Control]] (Probability: 70%)
+- Execute **[[Transitions/Toreando Pass/Attacker|Toreando Pass]]** → [[Positions/Headquarters Position]] (Probability: 68%)
 
 
 **If bottom player transitions to traditional guard retention without lapel:**
-- Execute **[[Transitions/Leg Drag Pass]]** → [[Positions/Leg Drag Control]] (Probability: 72%)
-- Execute **[[Transitions/Knee Slice Pass]]** → [[Positions/Side Control]] (Probability: 75%)
+- Execute **[[Transitions/Leg Drag Pass/Attacker|Leg Drag Pass]]** → [[Positions/Leg Drag Control]] (Probability: 72%)
+- Execute **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** → [[Positions/Side Control]] (Probability: 75%)
 
 
 **If bottom player establishes triangle threat from inverted position:**
-- Execute **[[Transitions/Posture Recovery]]** → [[Positions/Open Guard]] (Probability: 60%)
-- Execute **[[Transitions/Stack Pass]]** → [[Positions/Side Control]] (Probability: 58%)
+- Execute **[[Transitions/Posture Recovery/Attacker|Posture Recovery]]** → [[Positions/Open Guard]] (Probability: 60%)
+- Execute **[[Transitions/Stack Pass/Attacker|Stack Pass]]** → [[Positions/Side Control]] (Probability: 58%)
 
 
 

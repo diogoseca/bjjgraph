@@ -213,23 +213,23 @@ Successful execution requires exceptional cardiovascular conditioning and techni
 ## Decision Making from This Position
 
 **If opponent attempts to secure seat belt control with both underhooks or cross-face:**
-- Execute **[[Transitions/Granby Roll to Guard]]** → [[Positions/Closed Guard]] (Probability: 50%)
-- Execute **[[Transitions/Sit Through Escape]]** → [[Positions/Dogfight Position]] (Probability: 45%)
+- Execute **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** → [[Positions/Closed Guard]] (Probability: 50%)
+- Execute **[[Transitions/Sit Through Escape/Attacker|Sit Through Escape]]** → [[Positions/Dogfight Position]] (Probability: 45%)
 
 
 **If opponent commits heavy chest pressure attempting to flatten turtle:**
-- Execute **[[Transitions/Hip Escape to Guard]]** → [[Positions/Closed Guard]] (Probability: 55%)
-- Execute **[[Transitions/Standing up in Base]]** → [[Positions/Clinch]] (Probability: 40%)
+- Execute **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** → [[Positions/Closed Guard]] (Probability: 55%)
+- Execute **[[Transitions/Standing up in Base/Attacker|Standing up in Base]]** → [[Positions/Clinch]] (Probability: 40%)
 
 
 **If opponent secures single underhook but maintains distance:**
-- Execute **[[Transitions/Hip Escape to Guard]]** → [[Positions/Half Guard]] (Probability: 60%)
-- Execute **[[Transitions/Deep Half Entry]]** → [[Positions/Half Guard/Deep Half Guard]] (Probability: 35%)
+- Execute **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** → [[Positions/Half Guard]] (Probability: 60%)
+- Execute **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** → [[Positions/Half Guard/Deep Half Guard]] (Probability: 35%)
 
 
 **If opponent attacks front headlock or guillotine position:**
-- Execute **[[Transitions/Standing up in Base]]** → [[Positions/Clinch]] (Probability: 50%)
-- Execute **[[Transitions/Granby Roll to Guard]]** → [[Positions/Closed Guard]] (Probability: 40%)
+- Execute **[[Transitions/Standing up in Base/Attacker|Standing up in Base]]** → [[Positions/Clinch]] (Probability: 50%)
+- Execute **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** → [[Positions/Closed Guard]] (Probability: 40%)
 
 
 

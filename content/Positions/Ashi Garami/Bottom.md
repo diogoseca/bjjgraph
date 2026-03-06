@@ -209,34 +209,34 @@ Bottom Ashi Garami mastery requires extensive drilling of fundamental mechanics 
 ## Decision Making from This Position
 
 **If opponent maintains strong defensive leg positioning protecting heel with straight alignment:**
-- Execute **[[Transitions/Inside Ashi Entry]]** → [[Positions/Ashi Garami/Inside Ashi-Garami]] (Probability: 55%)
-- Execute **[[Transitions/Cross Ashi Transition]]** → [[Positions/Ashi Garami/Cross Ashi-Garami]] (Probability: 45%)
+- Execute **[[Transitions/Inside Ashi Entry/Attacker|Inside Ashi Entry]]** → [[Positions/Ashi Garami/Inside Ashi-Garami]] (Probability: 55%)
+- Execute **[[Transitions/Cross Ashi Transition/Attacker|Cross Ashi Transition]]** → [[Positions/Ashi Garami/Cross Ashi-Garami]] (Probability: 45%)
 
 
 **If opponent exposes heel through poor positioning, grip failure, or defensive extraction error:**
-- Execute **[[Transitions/Heel Hook]]** → [[Positions/Game Over]] (Probability: 60%)
-- Execute **[[Transitions/Inside Ashi-Garami to Honey Hole]]** → [[Positions/Ashi Garami/Saddle]] (Probability: 40%)
+- Execute **[[Transitions/Heel Hook/Attacker|Heel Hook]]** → [[Positions/Game Over]] (Probability: 60%)
+- Execute **[[Transitions/Inside Ashi-Garami to Honey Hole/Attacker|Inside Ashi-Garami to Honey Hole]]** → [[Positions/Ashi Garami/Saddle]] (Probability: 40%)
 
 
 **If opponent establishes reciprocal leg entanglement creating bilateral 50-50 configuration:**
-- Execute **[[Transitions/Inside Ashi Entry]]** → [[Positions/Ashi Garami/Inside Ashi-Garami]] (Probability: 50%)
-- Execute **[[Transitions/50-50 Entry from Standing]]** → [[Positions/Ashi Garami/50-50 Guard]] (Probability: 50%)
+- Execute **[[Transitions/Inside Ashi Entry/Attacker|Inside Ashi Entry]]** → [[Positions/Ashi Garami/Inside Ashi-Garami]] (Probability: 50%)
+- Execute **[[Transitions/50-50 Entry from Standing/Attacker|50-50 Entry from Standing]]** → [[Positions/Ashi Garami/50-50 Guard]] (Probability: 50%)
 
 
 **If opponent attempts standing extraction or explosive base recovery from entanglement:**
-- Execute **[[X-Guard to Ashi Transition]]** → [[Positions/X-Guard/Single Leg X-Guard]] (Probability: 50%)
-- Execute **[[Transitions/Inside Ashi Entry]]** → [[Positions/Ashi Garami/Inside Ashi-Garami]] (Probability: 50%)
+- Execute **[[X-Guard to Ashi Transition/Attacker|X-Guard to Ashi Transition]]** → [[Positions/X-Guard/Single Leg X-Guard]] (Probability: 50%)
+- Execute **[[Transitions/Inside Ashi Entry/Attacker|Inside Ashi Entry]]** → [[Positions/Ashi Garami/Inside Ashi-Garami]] (Probability: 50%)
 
 
 **If you have achieved Inside Ashi with good inside space control and stable connection points:**
-- Execute **[[Transitions/Inside Ashi-Garami to Cross Ashi]]** → [[Positions/Ashi Garami/Cross Ashi-Garami]] (Probability: 45%)
-- Execute **[[Transitions/Inside Ashi-Garami to Honey Hole]]** → [[Positions/Ashi Garami/Saddle]] (Probability: 35%)
-- Execute **[[Transitions/Heel Hook]]** → [[Positions/Game Over]] (Probability: 20%)
+- Execute **[[Transitions/Inside Ashi-Garami to Cross Ashi/Attacker|Inside Ashi-Garami to Cross Ashi]]** → [[Positions/Ashi Garami/Cross Ashi-Garami]] (Probability: 45%)
+- Execute **[[Transitions/Inside Ashi-Garami to Honey Hole/Attacker|Inside Ashi-Garami to Honey Hole]]** → [[Positions/Ashi Garami/Saddle]] (Probability: 35%)
+- Execute **[[Transitions/Heel Hook/Attacker|Heel Hook]]** → [[Positions/Game Over]] (Probability: 20%)
 
 
 **If opponent's base collapses and they fall flat with limited hip mobility during extraction:**
-- Execute **[[Transitions/Straight Ankle Lock Entry]]** → [[Positions/Game Over]] (Probability: 45%)
-- Execute **[[Transitions/Inside Ashi Entry]]** → [[Positions/Ashi Garami/Inside Ashi-Garami]] (Probability: 55%)
+- Execute **[[Transitions/Straight Ankle Lock Entry/Attacker|Straight Ankle Lock Entry]]** → [[Positions/Game Over]] (Probability: 45%)
+- Execute **[[Transitions/Inside Ashi Entry/Attacker|Inside Ashi Entry]]** → [[Positions/Ashi Garami/Inside Ashi-Garami]] (Probability: 55%)
 
 
 

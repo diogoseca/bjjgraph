@@ -215,23 +215,23 @@ The position also demands excellent leg lock defense awareness. Many of the bott
 ## Decision Making from This Position
 
 **Bottom player inverts deeply with both legs engaged in entanglement attempts:**
-- Execute **[[Transitions/Back Step Pass]]** → [[Positions/Side Control]] (Probability: 70%)
-- Execute **[[Circle Away and Reset]]** → [[Positions/Standing Position]] (Probability: 75%)
+- Execute **[[Transitions/Back Step Pass/Attacker|Back Step Pass]]** → [[Positions/Side Control]] (Probability: 70%)
+- Execute **[[Circle Away and Reset/Attacker|Circle Away and Reset]]** → [[Positions/Standing Position]] (Probability: 75%)
 
 
 **Bottom player's hips drop toward mat, losing elevation:**
-- Execute **[[Stack Pass Forward]]** → [[Positions/Side Control]] (Probability: 65%)
-- Execute **[[Knee Cut through Center]]** → [[Positions/Side Control]] (Probability: 70%)
+- Execute **[[Stack Pass Forward/Attacker|Stack Pass Forward]]** → [[Positions/Side Control]] (Probability: 65%)
+- Execute **[[Knee Cut through Center/Attacker|Knee Cut through Center]]** → [[Positions/Side Control]] (Probability: 70%)
 
 
 **Bottom player maintains one leg hook while other leg seeks entanglement:**
-- Execute **[[Leg Drag on Free Side]]** → [[Positions/Side Control]] (Probability: 75%)
-- Execute **[[Transitions/Step Over to Mount]]** → [[Positions/Mount]] (Probability: 60%)
+- Execute **[[Leg Drag on Free Side/Attacker|Leg Drag on Free Side]]** → [[Positions/Side Control]] (Probability: 75%)
+- Execute **[[Transitions/Step Over to Mount/Attacker|Step Over to Mount]]** → [[Positions/Mount]] (Probability: 60%)
 
 
 **Bottom player begins rolling motion for submission attempt:**
-- Execute **[[Sprawl Immediately]]** → [[Positions/Turtle]] (Probability: 70%)
-- Execute **[[Back Step and Clear]]** → [[Positions/Side Control]] (Probability: 65%)
+- Execute **[[Sprawl Immediately/Attacker|Sprawl Immediately]]** → [[Positions/Turtle]] (Probability: 70%)
+- Execute **[[Back Step and Clear/Attacker|Back Step and Clear]]** → [[Positions/Side Control]] (Probability: 65%)
 
 
 

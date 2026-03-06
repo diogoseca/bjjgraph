@@ -211,23 +211,23 @@ The defensive hierarchy in Russian Cowboy emphasizes protecting the neck first, 
 ## Decision Making from This Position
 
 **If opponent begins choking sequence or attacks neck:**
-- Execute **[[Transitions/Hand Fighting from Back]]** → [[Positions/Russian Cowboy]] (Probability: 80%)
-- Execute **[[Chin Protection and Frame]]** → [[Positions/Russian Cowboy]] (Probability: 85%)
+- Execute **[[Transitions/Hand Fighting from Back/Attacker|Hand Fighting from Back]]** → [[Positions/Russian Cowboy]] (Probability: 80%)
+- Execute **[[Chin Protection and Frame/Attacker|Chin Protection and Frame]]** → [[Positions/Russian Cowboy]] (Probability: 85%)
 
 
 **If opponent advances hooking leg toward truck position:**
-- Execute **[[Transitions/Hip Escape to Guard]]** → [[Positions/Half Guard]] (Probability: 50%)
-- Execute **[[Transitions/Arm Extraction to Turtle]]** → [[Positions/Turtle]] (Probability: 55%)
+- Execute **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** → [[Positions/Half Guard]] (Probability: 50%)
+- Execute **[[Transitions/Arm Extraction to Turtle/Attacker|Arm Extraction to Turtle]]** → [[Positions/Turtle]] (Probability: 55%)
 
 
 **If opponent loosens upper body control to adjust position:**
-- Execute **[[Transitions/Technical Stand-up]]** → [[Positions/Clinch]] (Probability: 45%)
-- Execute **[[Transitions/Granby Roll to Guard]]** → [[Positions/Open Guard]] (Probability: 50%)
+- Execute **[[Transitions/Technical Stand-up/Attacker|Technical Stand-up]]** → [[Positions/Clinch]] (Probability: 45%)
+- Execute **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** → [[Positions/Open Guard]] (Probability: 50%)
 
 
 **If opponent attempts to flatten you completely:**
-- Execute **[[Transitions/Hip Escape to Guard]]** → [[Positions/Half Guard]] (Probability: 55%)
-- Execute **[[Transitions/Arm Recovery to Guard]]** → [[Positions/Closed Guard]] (Probability: 45%)
+- Execute **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** → [[Positions/Half Guard]] (Probability: 55%)
+- Execute **[[Transitions/Arm Recovery to Guard/Attacker|Arm Recovery to Guard]]** → [[Positions/Closed Guard]] (Probability: 45%)
 
 
 

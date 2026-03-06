@@ -213,29 +213,29 @@ Mastering front headlock top requires understanding both the technical details o
 ## Decision Making from This Position
 
 **If opponent keeps head low and stays tight in turtle with arms protected:**
-- Execute **[[Transitions/Anaconda Setup]]** → [[Positions/Anaconda Control]] (Probability: 60%)
-- Execute **[[Transitions/Darce Setup]]** → [[Positions/Darce Control]] (Probability: 55%)
-- Execute **[[Force Flatten to Side Control]]** → [[Positions/Side Control]] (Probability: 50%)
+- Execute **[[Transitions/Anaconda Setup/Attacker|Anaconda Setup]]** → [[Positions/Anaconda Control]] (Probability: 60%)
+- Execute **[[Transitions/Darce Setup/Attacker|Darce Setup]]** → [[Positions/Darce Control]] (Probability: 55%)
+- Execute **[[Force Flatten to Side Control/Attacker|Force Flatten to Side Control]]** → [[Positions/Side Control]] (Probability: 50%)
 
 
 **If opponent attempts to stand up or lift their head while you have front headlock:**
-- Execute **[[Transitions/Guillotine Setup]]** → [[Positions/Guillotine Control]] (Probability: 70%)
-- Execute **[[Snap Down and Resettle]]** → [[Positions/Front Headlock]] (Probability: 60%)
+- Execute **[[Transitions/Guillotine Setup/Attacker|Guillotine Setup]]** → [[Positions/Guillotine Control]] (Probability: 70%)
+- Execute **[[Snap Down and Resettle/Attacker|Snap Down and Resettle]]** → [[Positions/Front Headlock]] (Probability: 60%)
 
 
 **If opponent circles or turns their body to escape laterally:**
-- Execute **[[Transitions/Front Headlock to Back]]** → [[Positions/Back Control]] (Probability: 65%)
-- Execute **[[Transitions/Step Over to Mount]]** → [[Positions/Mount]] (Probability: 55%)
+- Execute **[[Transitions/Front Headlock to Back/Attacker|Front Headlock to Back]]** → [[Positions/Back Control]] (Probability: 65%)
+- Execute **[[Transitions/Step Over to Mount/Attacker|Step Over to Mount]]** → [[Positions/Mount]] (Probability: 55%)
 
 
 **If opponent attempts forward roll or granby roll escape:**
-- Execute **[[Follow to Crucifix]]** → [[Positions/Crucifix]] (Probability: 50%)
-- Execute **[[Maintain Control and Resettle]]** → [[Positions/Front Headlock]] (Probability: 60%)
+- Execute **[[Follow to Crucifix/Attacker|Follow to Crucifix]]** → [[Positions/Crucifix]] (Probability: 50%)
+- Execute **[[Maintain Control and Resettle/Attacker|Maintain Control and Resettle]]** → [[Positions/Front Headlock]] (Probability: 60%)
 
 
 **If opponent successfully defends neck by tucking chin but remains in position:**
-- Execute **[[Switch to Kimura]]** → [[Positions/Kimura Trap]] (Probability: 55%)
-- Execute **[[Force to Side Control]]** → [[Positions/Side Control]] (Probability: 60%)
+- Execute **[[Switch to Kimura/Attacker|Switch to Kimura]]** → [[Positions/Kimura Trap]] (Probability: 55%)
+- Execute **[[Force to Side Control/Attacker|Force to Side Control]]** → [[Positions/Side Control]] (Probability: 60%)
 
 
 

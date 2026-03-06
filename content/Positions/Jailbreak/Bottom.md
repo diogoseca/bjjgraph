@@ -211,23 +211,23 @@ The biomechanical principle underlying the Jailbreak involves converting the opp
 ## Decision Making from This Position
 
 **If top player has heavy crossface pressure and is driving forward with weight committed:**
-- Execute **[[Explosive Jailbreak Roll]]** → [[Positions/Turtle]] (Probability: 65%)
-- Execute **[[Transitions/Deep Half Entry]]** → [[Positions/Half Guard/Deep Half Guard]] (Probability: 55%)
+- Execute **[[Explosive Jailbreak Roll/Attacker|Explosive Jailbreak Roll]]** → [[Positions/Turtle]] (Probability: 65%)
+- Execute **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** → [[Positions/Half Guard/Deep Half Guard]] (Probability: 55%)
 
 
 **If top player bases out wide to prevent roll and underhook remains secure:**
-- Execute **[[Transitions/Old School Sweep]]** → [[Positions/Mount]] (Probability: 50%)
-- Execute **[[Transitions/Technical Stand-up]]** → [[Positions/Standing Position]] (Probability: 60%)
+- Execute **[[Transitions/Old School Sweep/Attacker|Old School Sweep]]** → [[Positions/Mount]] (Probability: 50%)
+- Execute **[[Transitions/Technical Stand-up/Attacker|Technical Stand-up]]** → [[Positions/Standing Position]] (Probability: 60%)
 
 
 **If top player follows the jailbreak roll motion attempting to maintain control:**
-- Execute **[[Continue Roll to Back Take]]** → [[Positions/Back Control]] (Probability: 55%)
-- Execute **[[Granby to Re-Guard]]** → [[Positions/Half Guard]] (Probability: 65%)
+- Execute **[[Continue Roll to Back Take/Attacker|Continue Roll to Back Take]]** → [[Positions/Back Control]] (Probability: 55%)
+- Execute **[[Granby to Re-Guard/Attacker|Granby to Re-Guard]]** → [[Positions/Half Guard]] (Probability: 65%)
 
 
 **If underhook is lost during escape attempt:**
-- Execute **[[Frame and Shrimp Recovery]]** → [[Positions/Half Guard]] (Probability: 40%)
-- Execute **[[Emergency Turtle]]** → [[Positions/Turtle]] (Probability: 50%)
+- Execute **[[Frame and Shrimp Recovery/Attacker|Frame and Shrimp Recovery]]** → [[Positions/Half Guard]] (Probability: 40%)
+- Execute **[[Emergency Turtle/Attacker|Emergency Turtle]]** → [[Positions/Turtle]] (Probability: 50%)
 
 
 

@@ -208,23 +208,23 @@ Strategically, Crab Ride Bottom is often a transitional state rather than a sust
 ## Decision Making from This Position
 
 **If opponent has only one hook and is trying to insert second hook:**
-- Execute **[[Transitions/Hip Escape to Guard]]** → [[Positions/Half Guard]] (Probability: 45%)
-- Execute **[[Shrimp to Butterfly Guard]]** → [[Positions/Butterfly Guard]] (Probability: 35%)
+- Execute **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** → [[Positions/Half Guard]] (Probability: 45%)
+- Execute **[[Shrimp to Butterfly Guard/Attacker|Shrimp to Butterfly Guard]]** → [[Positions/Butterfly Guard]] (Probability: 35%)
 
 
 **If opponent has strong upper body control and is breaking you down:**
-- Execute **[[Transitions/Granby Roll to Guard]]** → [[Positions/Closed Guard]] (Probability: 40%)
-- Execute **[[Transitions/Rolling Escape to Guard]]** → [[Positions/Closed Guard]] (Probability: 30%)
+- Execute **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** → [[Positions/Closed Guard]] (Probability: 40%)
+- Execute **[[Transitions/Rolling Escape to Guard/Attacker|Rolling Escape to Guard]]** → [[Positions/Closed Guard]] (Probability: 30%)
 
 
 **If opponent is high on your back with loose hook control:**
-- Execute **[[Transitions/Turtle to Standing]]** → [[Positions/Standing Position]] (Probability: 50%)
-- Execute **[[Transitions/Rolling Back Take]]** → [[Positions/Back Control]] (Probability: 25%)
+- Execute **[[Transitions/Turtle to Standing/Attacker|Turtle to Standing]]** → [[Positions/Standing Position]] (Probability: 50%)
+- Execute **[[Transitions/Rolling Back Take/Attacker|Rolling Back Take]]** → [[Positions/Back Control]] (Probability: 25%)
 
 
 **If opponent commits weight to one side for truck entry:**
-- Execute **[[Transitions/Turtle to Guard]]** → [[Positions/Half Guard]] (Probability: 45%)
-- Execute **[[Transitions/Hip Escape to Guard]]** → [[Positions/Open Guard]] (Probability: 35%)
+- Execute **[[Transitions/Turtle to Guard/Attacker|Turtle to Guard]]** → [[Positions/Half Guard]] (Probability: 45%)
+- Execute **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** → [[Positions/Open Guard]] (Probability: 35%)
 
 
 

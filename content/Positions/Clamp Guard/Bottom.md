@@ -209,23 +209,23 @@ Clamp Guard operates on the principle of limb isolation. By removing one arm fro
 ## Decision Making from This Position
 
 **If opponent attempts to pull their trapped arm straight back to escape the clamp:**
-- Execute **[[Transitions/Armbar from Clamp Guard]]** → [[Positions/Armbar Control]] (Probability: 60%)
-- Execute **[[Transitions/Hip Bump Sweep]]** → [[Positions/Mount]] (Probability: 40%)
+- Execute **[[Transitions/Armbar from Clamp Guard/Attacker|Armbar from Clamp Guard]]** → [[Positions/Armbar Control]] (Probability: 60%)
+- Execute **[[Transitions/Hip Bump Sweep/Attacker|Hip Bump Sweep]]** → [[Positions/Mount]] (Probability: 40%)
 
 
 **If opponent circles their arm outward trying to slip past the shin-on-bicep pressure:**
-- Execute **[[Transitions/Triangle Setup]]** → [[Positions/Triangle Control]] (Probability: 55%)
-- Execute **[[Transitions/Closed Guard to Omoplata]]** → [[Positions/Omoplata Control]] (Probability: 50%)
+- Execute **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** → [[Positions/Triangle Control]] (Probability: 55%)
+- Execute **[[Transitions/Closed Guard to Omoplata/Attacker|Closed Guard to Omoplata]]** → [[Positions/Omoplata Control]] (Probability: 50%)
 
 
 **If opponent drives forward into the clamp to close distance and nullify submission angles:**
-- Execute **[[Transitions/Scissor Sweep]]** → [[Positions/Mount]] (Probability: 55%)
-- Execute **[[Transitions/Hip Bump Sweep]]** → [[Positions/Mount]] (Probability: 45%)
+- Execute **[[Transitions/Scissor Sweep/Attacker|Scissor Sweep]]** → [[Positions/Mount]] (Probability: 55%)
+- Execute **[[Transitions/Hip Bump Sweep/Attacker|Hip Bump Sweep]]** → [[Positions/Mount]] (Probability: 45%)
 
 
 **If opponent posts their free arm on the mat while attempting to extract the trapped arm:**
-- Execute **[[Transitions/Scissor Sweep]]** → [[Positions/Mount]] (Probability: 55%)
-- Execute **[[Transitions/Armbar from Clamp Guard]]** → [[Positions/Armbar Control]] (Probability: 45%)
+- Execute **[[Transitions/Scissor Sweep/Attacker|Scissor Sweep]]** → [[Positions/Mount]] (Probability: 55%)
+- Execute **[[Transitions/Armbar from Clamp Guard/Attacker|Armbar from Clamp Guard]]** → [[Positions/Armbar Control]] (Probability: 45%)
 
 
 

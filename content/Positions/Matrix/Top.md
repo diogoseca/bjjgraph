@@ -217,23 +217,23 @@ Physically, Matrix defense demands excellent balance, responsive base adjustment
 ## Decision Making from This Position
 
 **Bottom player begins hip elevation for Matrix entry:**
-- Execute **[[Transitions/Sprawl Defense]]** → [[Positions/Turtle]] (Probability: 65%)
-- Execute **[[Transitions/Back Step]]** → [[Positions/Back Control]] (Probability: 55%)
+- Execute **[[Transitions/Sprawl Defense/Attacker|Sprawl Defense]]** → [[Positions/Turtle]] (Probability: 65%)
+- Execute **[[Transitions/Back Step/Attacker|Back Step]]** → [[Positions/Back Control]] (Probability: 55%)
 
 
 **Bottom player posts shoulder and initiates rotation:**
-- Execute **[[Transitions/Crossface Pass]]** → [[Positions/Side Control]] (Probability: 60%)
-- Execute **[[Transitions/Knee Slice Pass]]** → [[Positions/Side Control]] (Probability: 55%)
+- Execute **[[Transitions/Crossface Pass/Attacker|Crossface Pass]]** → [[Positions/Side Control]] (Probability: 60%)
+- Execute **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** → [[Positions/Side Control]] (Probability: 55%)
 
 
 **Matrix rotation blocked successfully, opponent momentarily vulnerable:**
-- Execute **[[Transitions/Crossface Pass]]** → [[Positions/Side Control]] (Probability: 60%)
-- Execute **[[Transitions/Back Take from Top]]** → [[Positions/Back Control]] (Probability: 55%)
+- Execute **[[Transitions/Crossface Pass/Attacker|Crossface Pass]]** → [[Positions/Side Control]] (Probability: 60%)
+- Execute **[[Transitions/Back Take from Top/Attacker|Back Take from Top]]** → [[Positions/Back Control]] (Probability: 55%)
 
 
 **Opponent actively threatening Matrix, defensive posture required:**
-- Execute **[[Transitions/Darce from Turtle]]** → [[Positions/Darce Control]] (Probability: 50%)
-- Execute **[[Transitions/Guillotine from Turtle]]** → [[Positions/Guillotine Control]] (Probability: 45%)
+- Execute **[[Transitions/Darce from Turtle/Attacker|Darce from Turtle]]** → [[Positions/Darce Control]] (Probability: 50%)
+- Execute **[[Transitions/Guillotine from Turtle/Attacker|Guillotine from Turtle]]** → [[Positions/Guillotine Control]] (Probability: 45%)
 
 
 

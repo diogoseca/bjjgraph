@@ -93,21 +93,21 @@ Toe Hold Control occupies a unique space in the leg lock ecosystem, particularly
 ### Available Transitions
 
 
-- **[[Transitions/Angle Change Escape]]** (25% of attempts)
+- **[[Transitions/Angle Change Escape/Attacker|Angle Change Escape]]** (25% of attempts)
 
-- **[[Transitions/Ashi Garami Escape]]** (15% of attempts)
+- **[[Transitions/Ashi Garami Escape/Attacker|Ashi Garami Escape]]** (15% of attempts)
 
-- **[[Transitions/Inside Ashi Entry]]** (14% of attempts)
+- **[[Transitions/Inside Ashi Entry/Attacker|Inside Ashi Entry]]** (14% of attempts)
 
-- **[[Transitions/Counter-entangle to 50-50 Guard]]** (12% of attempts)
+- **[[Transitions/Counter-entangle to 50-50 Guard/Attacker|Counter-entangle to 50-50 Guard]]** (12% of attempts)
 
-- **[[Transitions/Guard Recovery from Leg Entanglement]]** (13% of attempts)
+- **[[Transitions/Guard Recovery from Leg Entanglement/Attacker|Guard Recovery from Leg Entanglement]]** (13% of attempts)
 
-- **[[Transitions/Deep Half Entry]]** (12% of attempts)
+- **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** (12% of attempts)
 
-- **[[Transitions/Boot Defense from Toe Hold]]** (6% of attempts)
+- **[[Transitions/Boot Defense from Toe Hold/Attacker|Boot Defense from Toe Hold]]** (6% of attempts)
 
-- **[[Transitions/Counter Rotation from Toe Hold]]** (3% of attempts)
+- **[[Transitions/Counter Rotation from Toe Hold/Attacker|Counter Rotation from Toe Hold]]** (3% of attempts)
 
 
 ### Common Mistakes
@@ -172,21 +172,21 @@ Toe Hold Control occupies a unique space in the leg lock ecosystem, particularly
 ### Available Transitions
 
 
-- **[[Transitions/Toe Hold]]** (14% of attempts)
+- **[[Transitions/Toe Hold/Attacker|Toe Hold]]** (14% of attempts)
 
-- **[[Transitions/Outside Ashi Entry]]** (24% of attempts)
+- **[[Transitions/Outside Ashi Entry/Attacker|Outside Ashi Entry]]** (24% of attempts)
 
-- **[[Transitions/Inside Ashi Entry]]** (14% of attempts)
+- **[[Transitions/Inside Ashi Entry/Attacker|Inside Ashi Entry]]** (14% of attempts)
 
-- **[[Transitions/Saddle Entry from Top]]** (13% of attempts)
+- **[[Transitions/Saddle Entry from Top/Attacker|Saddle Entry from Top]]** (13% of attempts)
 
-- **[[Transitions/Ankle Lock Finish]]** (14% of attempts)
+- **[[Transitions/Ankle Lock Finish/Attacker|Ankle Lock Finish]]** (14% of attempts)
 
-- **[[Transitions/Kneebar Finish]]** (12% of attempts)
+- **[[Transitions/Kneebar Finish/Attacker|Kneebar Finish]]** (12% of attempts)
 
-- **[[Transitions/Toe Hold to Ashi Garami]]** (6% of attempts)
+- **[[Transitions/Toe Hold to Ashi Garami/Attacker|Toe Hold to Ashi Garami]]** (6% of attempts)
 
-- **[[Transitions/Toe Hold to Straight Ankle Lock]]** (3% of attempts)
+- **[[Transitions/Toe Hold to Straight Ankle Lock/Attacker|Toe Hold to Straight Ankle Lock]]** (3% of attempts)
 
 
 ### Common Mistakes

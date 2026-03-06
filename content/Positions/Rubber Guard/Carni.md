@@ -95,23 +95,23 @@ From the attacking perspective (bottom), the Carni offers exceptional offensive 
 ### Available Transitions
 
 
-- **[[Transitions/Heel Hook]]** (12% of attempts)
+- **[[Transitions/Heel Hook/Attacker|Heel Hook]]** (12% of attempts)
 
-- **[[Transitions/Saddle Entry from Top]]** (17% of attempts)
+- **[[Transitions/Saddle Entry from Top/Attacker|Saddle Entry from Top]]** (17% of attempts)
 
-- **[[Transitions/Rolling Back Take]]** (11% of attempts)
+- **[[Transitions/Rolling Back Take/Attacker|Rolling Back Take]]** (11% of attempts)
 
-- **[[Transitions/Roll to Truck]]** (12% of attempts)
+- **[[Transitions/Roll to Truck/Attacker|Roll to Truck]]** (12% of attempts)
 
-- **[[Transitions/Calf Slicer]]** (11% of attempts)
+- **[[Transitions/Calf Slicer/Attacker|Calf Slicer]]** (11% of attempts)
 
-- **[[Transitions/Outside Ashi Entry]]** (12% of attempts)
+- **[[Transitions/Outside Ashi Entry/Attacker|Outside Ashi Entry]]** (12% of attempts)
 
-- **[[Transitions/Kneebar Finish]]** (11% of attempts)
+- **[[Transitions/Kneebar Finish/Attacker|Kneebar Finish]]** (11% of attempts)
 
-- **[[Transitions/Side Control to North-South]]** (9% of attempts)
+- **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** (9% of attempts)
 
-- **[[Transitions/Carni to Gogoplata Setup]]** (5% of attempts)
+- **[[Transitions/Carni to Gogoplata Setup/Attacker|Carni to Gogoplata Setup]]** (5% of attempts)
 
 
 ### Common Mistakes
@@ -176,21 +176,21 @@ From the attacking perspective (bottom), the Carni offers exceptional offensive 
 ### Available Transitions
 
 
-- **[[Transitions/Stack Defense]]** (24% of attempts)
+- **[[Transitions/Stack Defense/Attacker|Stack Defense]]** (24% of attempts)
 
-- **[[Transitions/Rolling Kimura Escape]]** (16% of attempts)
+- **[[Transitions/Rolling Kimura Escape/Attacker|Rolling Kimura Escape]]** (16% of attempts)
 
-- **[[Transitions/Technical Stand-up]]** (14% of attempts)
+- **[[Transitions/Technical Stand-up/Attacker|Technical Stand-up]]** (14% of attempts)
 
-- **[[Transitions/Leg Drag Pass]]** (13% of attempts)
+- **[[Transitions/Leg Drag Pass/Attacker|Leg Drag Pass]]** (13% of attempts)
 
-- **[[Transitions/Granby Roll to Guard]]** (14% of attempts)
+- **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** (14% of attempts)
 
-- **[[Transitions/Knee Slice Pass]]** (11% of attempts)
+- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (11% of attempts)
 
-- **[[Transitions/Posture Recovery from Carni]]** (5% of attempts)
+- **[[Transitions/Posture Recovery from Carni/Attacker|Posture Recovery from Carni]]** (5% of attempts)
 
-- **[[Transitions/Stack Pass from Carni]]** (3% of attempts)
+- **[[Transitions/Stack Pass from Carni/Attacker|Stack Pass from Carni]]** (3% of attempts)
 
 
 ### Common Mistakes

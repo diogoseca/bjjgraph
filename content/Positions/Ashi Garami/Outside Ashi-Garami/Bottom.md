@@ -210,23 +210,23 @@ From this position, the practitioner has access to outside heel hooks, straight 
 ## Decision Making from This Position
 
 **If opponent attempts to rotate hip externally (turning knee outward) to escape:**
-- Execute **[[Transitions/Inside Ashi Entry]]** → [[Positions/Ashi Garami/Inside Ashi-Garami]] (Probability: 60%)
-- Execute **[[Transitions/Outside Heel Hook]]** → [[game-over]] (Probability: 40%)
+- Execute **[[Transitions/Inside Ashi Entry/Attacker|Inside Ashi Entry]]** → [[Positions/Ashi Garami/Inside Ashi-Garami]] (Probability: 60%)
+- Execute **[[Transitions/Outside Heel Hook/Attacker|Outside Heel Hook]]** → [[game-over]] (Probability: 40%)
 
 
 **Else if opponent leans back or attempts to stand creating distance:**
-- Execute **[[Transitions/Saddle Entry from Top]]** → [[Positions/Ashi Garami/Saddle]] (Probability: 65%)
-- Execute **[[Transitions/Inside Ashi-Garami to Cross Ashi]]** → [[Positions/Ashi Garami/Cross Ashi-Garami]] (Probability: 35%)
+- Execute **[[Transitions/Saddle Entry from Top/Attacker|Saddle Entry from Top]]** → [[Positions/Ashi Garami/Saddle]] (Probability: 65%)
+- Execute **[[Transitions/Inside Ashi-Garami to Cross Ashi/Attacker|Inside Ashi-Garami to Cross Ashi]]** → [[Positions/Ashi Garami/Cross Ashi-Garami]] (Probability: 35%)
 
 
 **Else if opponent remains static with leg trapped:**
-- Execute **[[Submissions/Straight Ankle Lock]]** → [[Positions/Straight Ankle Lock Control]] (Probability: 50%)
-- Execute **[[Transitions/Outside Heel Hook]]** → [[game-over]] (Probability: 50%)
+- Execute **[[Submissions/Straight Ankle Lock/Attacker|Straight Ankle Lock]]** → [[Positions/Straight Ankle Lock Control]] (Probability: 50%)
+- Execute **[[Transitions/Outside Heel Hook/Attacker|Outside Heel Hook]]** → [[game-over]] (Probability: 50%)
 
 
 **Else if opponent drives forward attempting to stack or smash:**
-- Execute **[[Transitions/Inside Ashi Entry]]** → [[Positions/Ashi Garami/Inside Ashi-Garami]] (Probability: 55%)
-- Execute **[[Transitions/Kneebar Setup]]** → [[Positions/Kneebar Control]] (Probability: 45%)
+- Execute **[[Transitions/Inside Ashi Entry/Attacker|Inside Ashi Entry]]** → [[Positions/Ashi Garami/Inside Ashi-Garami]] (Probability: 55%)
+- Execute **[[Transitions/Kneebar Setup/Attacker|Kneebar Setup]]** → [[Positions/Kneebar Control]] (Probability: 45%)
 
 
 

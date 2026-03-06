@@ -214,23 +214,23 @@ From a training perspective, High Mount Bottom teaches practitioners to remain c
 ## Decision Making from This Position
 
 **If opponent posts hand high near head to establish grip for submission attempt:**
-- Execute **[[Transitions/Upa Escape]]** → [[Positions/Closed Guard]] (Probability: 30%)
-- Execute **[[Transitions/Bridge and Roll]]** → [[Positions/Closed Guard]] (Probability: 25%)
+- Execute **[[Transitions/Upa Escape/Attacker|Upa Escape]]** → [[Positions/Closed Guard]] (Probability: 30%)
+- Execute **[[Transitions/Bridge and Roll/Attacker|Bridge and Roll]]** → [[Positions/Closed Guard]] (Probability: 25%)
 
 
 **If opponent's knee slides away from armpit during transition or submission setup:**
-- Execute **[[Transitions/Elbow Escape to Guard]]** → [[Positions/Half Guard]] (Probability: 35%)
-- Execute **[[Transitions/Hip Escape to Guard]]** → [[Positions/Half Guard]] (Probability: 30%)
+- Execute **[[Transitions/Elbow Escape to Guard/Attacker|Elbow Escape to Guard]]** → [[Positions/Half Guard]] (Probability: 35%)
+- Execute **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** → [[Positions/Half Guard]] (Probability: 30%)
 
 
 **If opponent reaches for collar or attempts to isolate extended arm for attack:**
-- Execute **[[Transitions/Frame and Shrimp to Guard]]** → [[Positions/Open Guard]] (Probability: 45%)
-- Execute **[[Transitions/Armbar Defense]]** → [[Positions/Mount/High Mount]] (Probability: 40%)
+- Execute **[[Transitions/Frame and Shrimp to Guard/Attacker|Frame and Shrimp to Guard]]** → [[Positions/Open Guard]] (Probability: 45%)
+- Execute **[[Transitions/Armbar Defense/Attacker|Armbar Defense]]** → [[Positions/Mount/High Mount]] (Probability: 40%)
 
 
 **If opponent maintains static control without immediate submission threat:**
-- Execute **[[Transitions/Shrimp Escape]]** → [[Positions/Open Guard]] (Probability: 25%)
-- Execute **[[Transitions/Frame and Shrimp to Guard]]** → [[Positions/Open Guard]] (Probability: 30%)
+- Execute **[[Transitions/Shrimp Escape/Attacker|Shrimp Escape]]** → [[Positions/Open Guard]] (Probability: 25%)
+- Execute **[[Transitions/Frame and Shrimp to Guard/Attacker|Frame and Shrimp to Guard]]** → [[Positions/Open Guard]] (Probability: 30%)
 
 
 

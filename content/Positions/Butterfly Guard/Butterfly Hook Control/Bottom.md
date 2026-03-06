@@ -209,23 +209,23 @@ The fundamental mechanics rely on creating a lever system where your hooks act a
 ## Decision Making from This Position
 
 **If opponent maintains upright posture in combat base with strong base:**
-- Execute **[[Transitions/Butterfly Sweep]]** → [[Positions/Mount]] (Probability: 60%)
-- Execute **[[Transitions/Hook Sweep]]** → [[Positions/Side Control]] (Probability: 55%)
+- Execute **[[Transitions/Butterfly Sweep/Attacker|Butterfly Sweep]]** → [[Positions/Mount]] (Probability: 60%)
+- Execute **[[Transitions/Hook Sweep/Attacker|Hook Sweep]]** → [[Positions/Side Control]] (Probability: 55%)
 
 
 **If opponent leans forward or attempts to drive pressure through you:**
-- Execute **[[Transitions/Arm Drag to Back]]** → [[Positions/Back Control]] (Probability: 65%)
-- Execute **[[Transitions/Guillotine Setup]]** → [[Positions/Guillotine Control]] (Probability: 50%)
+- Execute **[[Transitions/Arm Drag to Back/Attacker|Arm Drag to Back]]** → [[Positions/Back Control]] (Probability: 65%)
+- Execute **[[Transitions/Guillotine Setup/Attacker|Guillotine Setup]]** → [[Positions/Guillotine Control]] (Probability: 50%)
 
 
 **If opponent stands up to escape hooks or create distance:**
-- Execute **[[Transitions/Butterfly Guard to X-Guard]]** → [[Positions/X-Guard]] (Probability: 70%)
-- Execute **[[Transitions/Single Leg X Entry]]** → [[Positions/X-Guard/Single Leg X-Guard]] (Probability: 60%)
+- Execute **[[Transitions/Butterfly Guard to X-Guard/Attacker|Butterfly Guard to X-Guard]]** → [[Positions/X-Guard]] (Probability: 70%)
+- Execute **[[Transitions/Single Leg X Entry/Attacker|Single Leg X Entry]]** → [[Positions/X-Guard/Single Leg X-Guard]] (Probability: 60%)
 
 
 **If opponent attempts to smash hooks by driving knee through center:**
-- Execute **[[Transitions/Deep Half Entry]]** → [[Positions/Half Guard/Deep Half Guard]] (Probability: 65%)
-- Execute **[[Transitions/Elevator Sweep]]** → [[Positions/Mount]] (Probability: 50%)
+- Execute **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** → [[Positions/Half Guard/Deep Half Guard]] (Probability: 65%)
+- Execute **[[Transitions/Elevator Sweep/Attacker|Elevator Sweep]]** → [[Positions/Mount]] (Probability: 50%)
 
 
 

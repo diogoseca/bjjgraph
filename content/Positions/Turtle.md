@@ -89,19 +89,19 @@ Turtle position is a transitional defensive posture in Brazilian Jiu-Jitsu where
 ### Available Transitions
 
 
-- **[[Transitions/Granby Roll to Guard]]** (15% of attempts)
+- **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** (15% of attempts)
 
-- **[[Transitions/Technical Stand-up]]** (16% of attempts)
+- **[[Transitions/Technical Stand-up/Attacker|Technical Stand-up]]** (16% of attempts)
 
-- **[[Transitions/Rolling to Guard]]** (21% of attempts)
+- **[[Transitions/Rolling to Guard/Attacker|Rolling to Guard]]** (21% of attempts)
 
-- **[[Transitions/Deep Half Entry]]** (14% of attempts)
+- **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** (14% of attempts)
 
-- **[[Transitions/Sit Through to Guard]]** (16% of attempts)
+- **[[Transitions/Sit Through to Guard/Attacker|Sit Through to Guard]]** (16% of attempts)
 
-- **[[Transitions/Peterson Roll]]** (12% of attempts)
+- **[[Transitions/Peterson Roll/Attacker|Peterson Roll]]** (12% of attempts)
 
-- **[[Transitions/Sit Out from Turtle]]** (6% of attempts)
+- **[[Transitions/Sit Out from Turtle/Attacker|Sit Out from Turtle]]** (6% of attempts)
 
 
 ### Common Mistakes
@@ -162,37 +162,37 @@ Turtle position is a transitional defensive posture in Brazilian Jiu-Jitsu where
 ### Available Transitions
 
 
-- **[[Transitions/Turtle to Back Control]]** (60% of attempts)
+- **[[Transitions/Turtle to Back Control/Attacker|Turtle to Back Control]]** (60% of attempts)
 
-- **[[Transitions/Front Headlock to Anaconda]]** (5% of attempts)
+- **[[Transitions/Front Headlock to Anaconda/Attacker|Front Headlock to Anaconda]]** (5% of attempts)
 
-- **[[Transitions/Front Headlock to Darce]]** (5% of attempts)
+- **[[Transitions/Front Headlock to Darce/Attacker|Front Headlock to Darce]]** (5% of attempts)
 
-- **[[Transitions/Crucifix from Turtle]]** (3% of attempts)
+- **[[Transitions/Crucifix from Turtle/Attacker|Crucifix from Turtle]]** (3% of attempts)
 
-- **[[Transitions/Turtle Flatten to Side Control]]** (7% of attempts)
+- **[[Transitions/Turtle Flatten to Side Control/Attacker|Turtle Flatten to Side Control]]** (7% of attempts)
 
-- **[[Transitions/Turtle to Truck Entry]]** (2% of attempts)
+- **[[Transitions/Turtle to Truck Entry/Attacker|Turtle to Truck Entry]]** (2% of attempts)
 
-- **[[Transitions/Front Headlock to Guillotine]]** (3% of attempts)
+- **[[Transitions/Front Headlock to Guillotine/Attacker|Front Headlock to Guillotine]]** (3% of attempts)
 
-- **[[Transitions/Kimura]]** (2% of attempts)
+- **[[Transitions/Kimura/Attacker|Kimura]]** (2% of attempts)
 
-- **[[Transitions/Arm Triangle from Turtle]]** (2% of attempts)
+- **[[Transitions/Arm Triangle from Turtle/Attacker|Arm Triangle from Turtle]]** (2% of attempts)
 
-- **[[Transitions/Turtle to Standing]]** (3% of attempts)
+- **[[Transitions/Turtle to Standing/Attacker|Turtle to Standing]]** (3% of attempts)
 
-- **[[Transitions/Turtle Attack Sequence]]** (1% of attempts)
+- **[[Transitions/Turtle Attack Sequence/Attacker|Turtle Attack Sequence]]** (1% of attempts)
 
-- **[[Transitions/Turtle to Matrix]]** (1% of attempts)
+- **[[Transitions/Turtle to Matrix/Attacker|Turtle to Matrix]]** (1% of attempts)
 
-- **[[Transitions/Turtle to Rodeo Ride]]** (1% of attempts)
+- **[[Transitions/Turtle to Rodeo Ride/Attacker|Turtle to Rodeo Ride]]** (1% of attempts)
 
-- **[[Submissions/Belly Down Armbar]]** (2% of attempts)
+- **[[Submissions/Belly Down Armbar/Attacker|Belly Down Armbar]]** (2% of attempts)
 
-- **[[Submissions/Kimura from Turtle]]** (2% of attempts)
+- **[[Submissions/Kimura from Turtle/Attacker|Kimura from Turtle]]** (2% of attempts)
 
-- **[[Submissions/Boston Crab]]** (1% of attempts)
+- **[[Submissions/Boston Crab/Attacker|Boston Crab]]** (1% of attempts)
 
 
 ### Common Mistakes

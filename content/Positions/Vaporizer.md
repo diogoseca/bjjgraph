@@ -91,21 +91,21 @@ The effectiveness of the Vaporizer lies in its ability to force reactions from o
 ### Available Transitions
 
 
-- **[[Transitions/Old School Sweep]]** (26% of attempts)
+- **[[Transitions/Old School Sweep/Attacker|Old School Sweep]]** (26% of attempts)
 
-- **[[Transitions/Turtle to Truck]]** (16% of attempts)
+- **[[Transitions/Turtle to Truck/Attacker|Turtle to Truck]]** (16% of attempts)
 
-- **[[Transitions/Electric Chair Transition]]** (18% of attempts)
+- **[[Transitions/Electric Chair Transition/Attacker|Electric Chair Transition]]** (18% of attempts)
 
-- **[[Transitions/Closed Guard to Omoplata]]** (8% of attempts)
+- **[[Transitions/Closed Guard to Omoplata/Attacker|Closed Guard to Omoplata]]** (8% of attempts)
 
-- **[[Transitions/Half Guard to Back Take]]** (13% of attempts)
+- **[[Transitions/Half Guard to Back Take/Attacker|Half Guard to Back Take]]** (13% of attempts)
 
-- **[[Transitions/Lockdown Recovery]]** (13% of attempts)
+- **[[Transitions/Lockdown Recovery/Attacker|Lockdown Recovery]]** (13% of attempts)
 
-- **[[Transitions/Escape Vaporizer]]** (4% of attempts)
+- **[[Transitions/Escape Vaporizer/Attacker|Escape Vaporizer]]** (4% of attempts)
 
-- **[[Transitions/Roll from Vaporizer]]** (2% of attempts)
+- **[[Transitions/Roll from Vaporizer/Attacker|Roll from Vaporizer]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -166,23 +166,23 @@ The effectiveness of the Vaporizer lies in its ability to force reactions from o
 ### Available Transitions
 
 
-- **[[Transitions/Half Guard Pass]]** (27% of attempts)
+- **[[Transitions/Half Guard Pass/Attacker|Half Guard Pass]]** (27% of attempts)
 
-- **[[Transitions/Knee Slice Pass]]** (14% of attempts)
+- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (14% of attempts)
 
-- **[[Transitions/Smash Pass]]** (12% of attempts)
+- **[[Transitions/Smash Pass/Attacker|Smash Pass]]** (12% of attempts)
 
-- **[[Transitions/Pressure Pass]]** (12% of attempts)
+- **[[Transitions/Pressure Pass/Attacker|Pressure Pass]]** (12% of attempts)
 
-- **[[Transitions/Lockdown Escape to Half Guard Pass]]** (12% of attempts)
+- **[[Transitions/Lockdown Escape to Half Guard Pass/Attacker|Lockdown Escape to Half Guard Pass]]** (12% of attempts)
 
-- **[[Transitions/Whizzer]]** (12% of attempts)
+- **[[Transitions/Whizzer/Attacker|Whizzer]]** (12% of attempts)
 
-- **[[Transitions/Defend Vaporizer Sweep]]** (6% of attempts)
+- **[[Transitions/Defend Vaporizer Sweep/Attacker|Defend Vaporizer Sweep]]** (6% of attempts)
 
-- **[[Transitions/Pass Vaporizer Position]]** (3% of attempts)
+- **[[Transitions/Pass Vaporizer Position/Attacker|Pass Vaporizer Position]]** (3% of attempts)
 
-- **[[Transitions/Escape from Vaporizer]]** (2% of attempts)
+- **[[Transitions/Escape from Vaporizer/Attacker|Escape from Vaporizer]]** (2% of attempts)
 
 
 ### Common Mistakes

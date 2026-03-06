@@ -89,13 +89,13 @@ Leg Entanglement represents a comprehensive positional system in modern Brazilia
 ### Available Transitions
 
 
-- **[[Transitions/Leg Extraction Escape from Entanglement]]** (30% of attempts)
+- **[[Transitions/Leg Extraction Escape from Entanglement/Attacker|Leg Extraction Escape from Entanglement]]** (30% of attempts)
 
-- **[[Transitions/Guard Recovery from Leg Entanglement]]** (28% of attempts)
+- **[[Transitions/Guard Recovery from Leg Entanglement/Attacker|Guard Recovery from Leg Entanglement]]** (28% of attempts)
 
-- **[[Transitions/Inversion Escape from Leg Entanglement]]** (22% of attempts)
+- **[[Transitions/Inversion Escape from Leg Entanglement/Attacker|Inversion Escape from Leg Entanglement]]** (22% of attempts)
 
-- **[[Transitions/Counter Sweep from Leg Entanglement]]** (20% of attempts)
+- **[[Transitions/Counter Sweep from Leg Entanglement/Attacker|Counter Sweep from Leg Entanglement]]** (20% of attempts)
 
 
 ### Common Mistakes
@@ -164,29 +164,29 @@ Leg Entanglement represents a comprehensive positional system in modern Brazilia
 ### Available Transitions
 
 
-- **[[Transitions/Kneebar]]** (13% of attempts)
+- **[[Transitions/Kneebar/Attacker|Kneebar]]** (13% of attempts)
 
-- **[[Transitions/Outside Heel Hook]]** (12% of attempts)
+- **[[Transitions/Outside Heel Hook/Attacker|Outside Heel Hook]]** (12% of attempts)
 
-- **[[Transitions/Ankle Lock Finish]]** (12% of attempts)
+- **[[Transitions/Ankle Lock Finish/Attacker|Ankle Lock Finish]]** (12% of attempts)
 
-- **[[Transitions/Inside Ashi Entry]]** (10% of attempts)
+- **[[Transitions/Inside Ashi Entry/Attacker|Inside Ashi Entry]]** (10% of attempts)
 
-- **[[Transitions/Outside Ashi Entry]]** (10% of attempts)
+- **[[Transitions/Outside Ashi Entry/Attacker|Outside Ashi Entry]]** (10% of attempts)
 
-- **[[Transitions/Toe Hold]]** (8% of attempts)
+- **[[Transitions/Toe Hold/Attacker|Toe Hold]]** (8% of attempts)
 
-- **[[Transitions/Saddle Entry from Top]]** (7% of attempts)
+- **[[Transitions/Saddle Entry from Top/Attacker|Saddle Entry from Top]]** (7% of attempts)
 
-- **[[Transitions/Back Take from Ashi]]** (7% of attempts)
+- **[[Transitions/Back Take from Ashi/Attacker|Back Take from Ashi]]** (7% of attempts)
 
-- **[[Transitions/50-50 Entry]]** (6% of attempts)
+- **[[Transitions/50-50 Entry/Attacker|50-50 Entry]]** (6% of attempts)
 
-- **[[Transitions/Ashi Entry from Leg Entanglement]]** (5% of attempts)
+- **[[Transitions/Ashi Entry from Leg Entanglement/Attacker|Ashi Entry from Leg Entanglement]]** (5% of attempts)
 
-- **[[Transitions/Leg Extraction Pass]]** (5% of attempts)
+- **[[Transitions/Leg Extraction Pass/Attacker|Leg Extraction Pass]]** (5% of attempts)
 
-- **[[Transitions/Guard Pass from Leg Entanglement]]** (5% of attempts)
+- **[[Transitions/Guard Pass from Leg Entanglement/Attacker|Guard Pass from Leg Entanglement]]** (5% of attempts)
 
 
 ### Common Mistakes

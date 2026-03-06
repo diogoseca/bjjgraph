@@ -209,23 +209,23 @@ Understanding the escape hierarchy and maintaining composure under pressure are 
 ## Decision Making from This Position
 
 **If opponent is establishing seat belt control or attempting rear naked choke:**
-- Execute **[[Transitions/Hand Fighting from Back]]** → [[Positions/Turtle]] (Probability: 40%)
-- Execute **[[Transitions/Elbow Escape to Guard]]** → [[Positions/Half Guard]] (Probability: 30%)
+- Execute **[[Transitions/Hand Fighting from Back/Attacker|Hand Fighting from Back]]** → [[Positions/Turtle]] (Probability: 40%)
+- Execute **[[Transitions/Elbow Escape to Guard/Attacker|Elbow Escape to Guard]]** → [[Positions/Half Guard]] (Probability: 30%)
 
 
 **If opponent has not yet established hooks or full control:**
-- Execute **[[Transitions/Bridge and Roll]]** → [[Positions/Half Guard]] (Probability: 45%)
-- Execute **[[Transitions/Hip Escape to Guard]]** → [[Positions/Open Guard]] (Probability: 35%)
+- Execute **[[Transitions/Bridge and Roll/Attacker|Bridge and Roll]]** → [[Positions/Half Guard]] (Probability: 45%)
+- Execute **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** → [[Positions/Open Guard]] (Probability: 35%)
 
 
 **If opponent is high on back with weight shifted forward:**
-- Execute **[[Transitions/Sit Through to Guard]]** → [[Positions/Turtle]] (Probability: 30%)
-- Execute **[[Transitions/Frame and Shrimp to Guard]]** → [[Positions/Half Guard/Deep Half Guard]] (Probability: 25%)
+- Execute **[[Transitions/Sit Through to Guard/Attacker|Sit Through to Guard]]** → [[Positions/Turtle]] (Probability: 30%)
+- Execute **[[Transitions/Frame and Shrimp to Guard/Attacker|Frame and Shrimp to Guard]]** → [[Positions/Half Guard/Deep Half Guard]] (Probability: 25%)
 
 
 **If opponent attempts to transition to traditional mount by spinning:**
-- Execute **[[Transitions/Sit Through to Guard]]** → [[Positions/Half Guard]] (Probability: 35%)
-- Execute **[[Transitions/Frame and Shrimp to Guard]]** → [[Positions/Closed Guard]] (Probability: 25%)
+- Execute **[[Transitions/Sit Through to Guard/Attacker|Sit Through to Guard]]** → [[Positions/Half Guard]] (Probability: 35%)
+- Execute **[[Transitions/Frame and Shrimp to Guard/Attacker|Frame and Shrimp to Guard]]** → [[Positions/Closed Guard]] (Probability: 25%)
 
 
 

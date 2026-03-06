@@ -89,29 +89,29 @@ Single Leg X-Guard (SLX) is a specialized open guard variation where the bottom 
 ### Available Transitions
 
 
-- **[[Transitions/Single Leg X Sweep]]** (22% of attempts)
+- **[[Transitions/Single Leg X Sweep/Attacker|Single Leg X Sweep]]** (22% of attempts)
 
-- **[[Transitions/Ashi Entry from Leg Entanglement]]** (12% of attempts)
+- **[[Transitions/Ashi Entry from Leg Entanglement/Attacker|Ashi Entry from Leg Entanglement]]** (12% of attempts)
 
-- **[[Transitions/Single Leg X Entry]]** (3% of attempts)
+- **[[Transitions/Single Leg X Entry/Attacker|Single Leg X Entry]]** (3% of attempts)
 
-- **[[Transitions/Technical Stand Up to Single Leg]]** (10% of attempts)
+- **[[Transitions/Technical Stand Up to Single Leg/Attacker|Technical Stand Up to Single Leg]]** (10% of attempts)
 
-- **[[Transitions/Butterfly Guard to X-Guard]]** (5% of attempts)
+- **[[Transitions/Butterfly Guard to X-Guard/Attacker|Butterfly Guard to X-Guard]]** (5% of attempts)
 
-- **[[Transitions/De La Riva to X-Guard Transition]]** (3% of attempts)
+- **[[Transitions/De La Riva to X-Guard Transition/Attacker|De La Riva to X-Guard Transition]]** (3% of attempts)
 
-- **[[Transitions/Ankle Pick Sweep]]** (10% of attempts)
+- **[[Transitions/Ankle Pick Sweep/Attacker|Ankle Pick Sweep]]** (10% of attempts)
 
-- **[[Transitions/Inside Ashi Entry]]** (8% of attempts)
+- **[[Transitions/Inside Ashi Entry/Attacker|Inside Ashi Entry]]** (8% of attempts)
 
-- **[[Transitions/Standing to Single Leg X]]** (2% of attempts)
+- **[[Transitions/Standing to Single Leg X/Attacker|Standing to Single Leg X]]** (2% of attempts)
 
-- **[[Transitions/Heel Grab Sweep]]** (10% of attempts)
+- **[[Transitions/Heel Grab Sweep/Attacker|Heel Grab Sweep]]** (10% of attempts)
 
-- **[[Transitions/SLX to Ashi Garami]]** (10% of attempts)
+- **[[Transitions/SLX to Ashi Garami/Attacker|SLX to Ashi Garami]]** (10% of attempts)
 
-- **[[Transitions/SLX to X-Guard]]** (5% of attempts)
+- **[[Transitions/SLX to X-Guard/Attacker|SLX to X-Guard]]** (5% of attempts)
 
 
 ### Common Mistakes
@@ -176,21 +176,21 @@ Single Leg X-Guard (SLX) is a specialized open guard variation where the bottom 
 ### Available Transitions
 
 
-- **[[Transitions/Headquarters Pass]]** (14% of attempts)
+- **[[Transitions/Headquarters Pass/Attacker|Headquarters Pass]]** (14% of attempts)
 
-- **[[Transitions/Knee Slice Pass]]** (13% of attempts)
+- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (13% of attempts)
 
-- **[[Transitions/Leg Weave Pass]]** (12% of attempts)
+- **[[Transitions/Leg Weave Pass/Attacker|Leg Weave Pass]]** (12% of attempts)
 
-- **[[Transitions/Standing up in Base]]** (27% of attempts)
+- **[[Transitions/Standing up in Base/Attacker|Standing up in Base]]** (27% of attempts)
 
-- **[[Transitions/Smash Pass]]** (10% of attempts)
+- **[[Transitions/Smash Pass/Attacker|Smash Pass]]** (10% of attempts)
 
-- **[[Transitions/Kneebar]]** (10% of attempts)
+- **[[Transitions/Kneebar/Attacker|Kneebar]]** (10% of attempts)
 
-- **[[Transitions/Backstep from Single Leg X]]** (8% of attempts)
+- **[[Transitions/Backstep from Single Leg X/Attacker|Backstep from Single Leg X]]** (8% of attempts)
 
-- **[[Transitions/Standing Escape from SLX]]** (6% of attempts)
+- **[[Transitions/Standing Escape from SLX/Attacker|Standing Escape from SLX]]** (6% of attempts)
 
 
 ### Common Mistakes

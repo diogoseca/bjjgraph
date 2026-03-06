@@ -211,23 +211,23 @@ Mastery of Crucifix Top requires understanding precise weight distribution to pr
 ## Decision Making from This Position
 
 **If opponent is flat on back with both arms fully controlled and neck exposed:**
-- Execute **[[Transitions/Rear Naked Choke]]** → [[Positions/Game Over]] (Probability: 85%)
-- Execute **[[Transitions/Neck Crank]]** → [[Positions/Game Over]] (Probability: 80%)
+- Execute **[[Transitions/Rear Naked Choke/Attacker|Rear Naked Choke]]** → [[Positions/Game Over]] (Probability: 85%)
+- Execute **[[Transitions/Neck Crank/Attacker|Neck Crank]]** → [[Positions/Game Over]] (Probability: 80%)
 
 
 **If opponent tucks chin and defends neck aggressively:**
-- Execute **[[Transitions/Armbar on Free Arm]]** → [[Positions/Game Over]] (Probability: 75%)
-- Execute **[[Transitions/Kimura]]** → [[Positions/Game Over]] (Probability: 70%)
+- Execute **[[Transitions/Armbar on Free Arm/Attacker|Armbar on Free Arm]]** → [[Positions/Game Over]] (Probability: 75%)
+- Execute **[[Transitions/Kimura/Attacker|Kimura]]** → [[Positions/Game Over]] (Probability: 70%)
 
 
 **If opponent creates space and begins to extract trapped arm:**
-- Execute **[[Transitions/Side Control to Mount]]** → [[Positions/Mount]] (Probability: 80%)
-- Execute **[[Transitions/Back Control Maintenance]]** → [[Positions/Back Control]] (Probability: 85%)
+- Execute **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** → [[Positions/Mount]] (Probability: 80%)
+- Execute **[[Transitions/Back Control Maintenance/Attacker|Back Control Maintenance]]** → [[Positions/Back Control]] (Probability: 85%)
 
 
 **If opponent attempts to roll or bridge explosively:**
-- Execute **[[Transitions/Rear Naked Choke]]** → [[Positions/Game Over]] (Probability: 70%)
-- Execute **[[Transitions/Side Control to Mount]]** → [[Positions/Mount]] (Probability: 75%)
+- Execute **[[Transitions/Rear Naked Choke/Attacker|Rear Naked Choke]]** → [[Positions/Game Over]] (Probability: 70%)
+- Execute **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** → [[Positions/Mount]] (Probability: 75%)
 
 
 

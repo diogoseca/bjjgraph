@@ -93,21 +93,21 @@ From the top perspective, the Buggy Choke position serves as a central hub in mo
 ### Available Transitions
 
 
-- **[[Transitions/Sit to Half Guard]]** (25% of attempts)
+- **[[Transitions/Sit to Half Guard/Attacker|Sit to Half Guard]]** (25% of attempts)
 
-- **[[Transitions/Granby Roll to Guard]]** (5% of attempts)
+- **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** (5% of attempts)
 
-- **[[Transitions/Technical Stand-up]]** (6% of attempts)
+- **[[Transitions/Technical Stand-up/Attacker|Technical Stand-up]]** (6% of attempts)
 
-- **[[Transitions/Turn In and Face]]** (14% of attempts)
+- **[[Transitions/Turn In and Face/Attacker|Turn In and Face]]** (14% of attempts)
 
-- **[[Transitions/Turtle to Guard]]** (12% of attempts)
+- **[[Transitions/Turtle to Guard/Attacker|Turtle to Guard]]** (12% of attempts)
 
-- **[[Transitions/Back Door Escape]]** (13% of attempts)
+- **[[Transitions/Back Door Escape/Attacker|Back Door Escape]]** (13% of attempts)
 
-- **[[Transitions/Roll to Deep Half Guard]]** (7% of attempts)
+- **[[Transitions/Roll to Deep Half Guard/Attacker|Roll to Deep Half Guard]]** (7% of attempts)
 
-- **[[Transitions/Turtle to Back Control]]** (18% of attempts)
+- **[[Transitions/Turtle to Back Control/Attacker|Turtle to Back Control]]** (18% of attempts)
 
 
 ### Common Mistakes
@@ -164,31 +164,31 @@ From the top perspective, the Buggy Choke position serves as a central hub in mo
 ### Available Transitions
 
 
-- **[[Transitions/Finish Buggy Choke]]** (41% of attempts)
+- **[[Transitions/Finish Buggy Choke/Attacker|Finish Buggy Choke]]** (41% of attempts)
 
-- **[[Transitions/Hook Leg and Take Back]]** (17% of attempts)
+- **[[Transitions/Hook Leg and Take Back/Attacker|Hook Leg and Take Back]]** (17% of attempts)
 
-- **[[Transitions/Roll to Truck]]** (7% of attempts)
+- **[[Transitions/Roll to Truck/Attacker|Roll to Truck]]** (7% of attempts)
 
-- **[[Transitions/Switch to Darce Configuration]]** (4% of attempts)
+- **[[Transitions/Switch to Darce Configuration/Attacker|Switch to Darce Configuration]]** (4% of attempts)
 
-- **[[Transitions/Switch to Anaconda Configuration]]** (2% of attempts)
+- **[[Transitions/Switch to Anaconda Configuration/Attacker|Switch to Anaconda Configuration]]** (2% of attempts)
 
-- **[[Transitions/Buggy Choke to Front Headlock]]** (5% of attempts)
+- **[[Transitions/Buggy Choke to Front Headlock/Attacker|Buggy Choke to Front Headlock]]** (5% of attempts)
 
-- **[[Transitions/Turtle Flatten to Side Control]]** (7% of attempts)
+- **[[Transitions/Turtle Flatten to Side Control/Attacker|Turtle Flatten to Side Control]]** (7% of attempts)
 
-- **[[Transitions/Guillotine from Turtle]]** (2% of attempts)
+- **[[Transitions/Guillotine from Turtle/Attacker|Guillotine from Turtle]]** (2% of attempts)
 
-- **[[Transitions/Crucifix from Turtle]]** (10% of attempts)
+- **[[Transitions/Crucifix from Turtle/Attacker|Crucifix from Turtle]]** (10% of attempts)
 
-- **[[Transitions/Buggy Choke to North-South]]** (1% of attempts)
+- **[[Transitions/Buggy Choke to North-South/Attacker|Buggy Choke to North-South]]** (1% of attempts)
 
-- **[[Transitions/Buggy Choke to Side Control]]** (1% of attempts)
+- **[[Transitions/Buggy Choke to Side Control/Attacker|Buggy Choke to Side Control]]** (1% of attempts)
 
-- **[[Transitions/Grip Strip from Buggy Choke]]** (1% of attempts)
+- **[[Transitions/Grip Strip from Buggy Choke/Attacker|Grip Strip from Buggy Choke]]** (1% of attempts)
 
-- **[[Submissions/Buggy Choke Finish]]** (2% of attempts)
+- **[[Submissions/Buggy Choke Finish/Attacker|Buggy Choke Finish]]** (2% of attempts)
 
 
 ### Common Mistakes

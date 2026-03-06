@@ -199,23 +199,23 @@ The Electric Chair Top position is particularly common in 10th Planet Jiu-Jitsu 
 ## Decision Making from This Position
 
 **If opponent has strong lockdown with underhook and is attempting Electric Chair submission:**
-- Execute **[[Limp Leg Defense]]** → [[Positions/Half Guard/Electric Chair]] (Probability: 70%)
-- Execute **[[Pressure Forward and Crossface]]** → [[Positions/Half Guard/Electric Chair]] (Probability: 60%)
+- Execute **[[Limp Leg Defense/Attacker|Limp Leg Defense]]** → [[Positions/Half Guard/Electric Chair]] (Probability: 70%)
+- Execute **[[Pressure Forward and Crossface/Attacker|Pressure Forward and Crossface]]** → [[Positions/Half Guard/Electric Chair]] (Probability: 60%)
 
 
 **If opponent releases lockdown pressure to attempt sweep or transition:**
-- Execute **[[Immediate Leg Extraction]]** → [[Positions/Half Guard]] (Probability: 65%)
-- Execute **[[Transitions/Knee Slice Pass]]** → [[Positions/Side Control]] (Probability: 55%)
+- Execute **[[Immediate Leg Extraction/Attacker|Immediate Leg Extraction]]** → [[Positions/Half Guard]] (Probability: 65%)
+- Execute **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** → [[Positions/Side Control]] (Probability: 55%)
 
 
 **If opponent attempts Old School sweep by rolling backwards:**
-- Execute **[[Whizzer Counter]]** → [[Positions/Side Control]] (Probability: 60%)
-- Execute **[[Base Out and Sprawl]]** → [[Positions/Turtle]] (Probability: 50%)
+- Execute **[[Whizzer Counter/Attacker|Whizzer Counter]]** → [[Positions/Side Control]] (Probability: 60%)
+- Execute **[[Base Out and Sprawl/Attacker|Base Out and Sprawl]]** → [[Positions/Turtle]] (Probability: 50%)
 
 
 **If opponent exposes back while attempting lockdown attacks:**
-- Execute **[[Backstep to Back Take]]** → [[Positions/Back Control]] (Probability: 55%)
-- Execute **[[Transitions/Truck Entry]]** → [[Positions/Twister Control/Truck]] (Probability: 45%)
+- Execute **[[Backstep to Back Take/Attacker|Backstep to Back Take]]** → [[Positions/Back Control]] (Probability: 55%)
+- Execute **[[Transitions/Truck Entry/Attacker|Truck Entry]]** → [[Positions/Twister Control/Truck]] (Probability: 45%)
 
 
 

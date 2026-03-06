@@ -89,23 +89,23 @@ Omoplata Control represents a sophisticated transitional position in Brazilian J
 ### Available Transitions
 
 
-- **[[Transitions/Omoplata]]** (13% of attempts)
+- **[[Transitions/Omoplata/Attacker|Omoplata]]** (13% of attempts)
 
-- **[[Transitions/Omoplata Sweep]]** (30% of attempts)
+- **[[Transitions/Omoplata Sweep/Attacker|Omoplata Sweep]]** (30% of attempts)
 
-- **[[Transitions/Omoplata to Back]]** (11% of attempts)
+- **[[Transitions/Omoplata to Back/Attacker|Omoplata to Back]]** (11% of attempts)
 
-- **[[Transitions/Triangle Setup]]** (14% of attempts)
+- **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** (14% of attempts)
 
-- **[[Transitions/Closed Guard to Omoplata]]** (13% of attempts)
+- **[[Transitions/Closed Guard to Omoplata/Attacker|Closed Guard to Omoplata]]** (13% of attempts)
 
-- **[[Submissions/Rolling Omoplata]]** (11% of attempts)
+- **[[Submissions/Rolling Omoplata/Attacker|Rolling Omoplata]]** (11% of attempts)
 
-- **[[Transitions/Cartwheel Escape from Omoplata]]** (5% of attempts)
+- **[[Transitions/Cartwheel Escape from Omoplata/Attacker|Cartwheel Escape from Omoplata]]** (5% of attempts)
 
-- **[[Transitions/Roll Forward from Omoplata]]** (2% of attempts)
+- **[[Transitions/Roll Forward from Omoplata/Attacker|Roll Forward from Omoplata]]** (2% of attempts)
 
-- **[[Transitions/Stack Defense from Omoplata]]** (1% of attempts)
+- **[[Transitions/Stack Defense from Omoplata/Attacker|Stack Defense from Omoplata]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -162,17 +162,17 @@ Omoplata Control represents a sophisticated transitional position in Brazilian J
 ### Available Transitions
 
 
-- **[[Transitions/Omoplata]]** (19% of attempts)
+- **[[Transitions/Omoplata/Attacker|Omoplata]]** (19% of attempts)
 
-- **[[Transitions/Omoplata to Back]]** (19% of attempts)
+- **[[Transitions/Omoplata to Back/Attacker|Omoplata to Back]]** (19% of attempts)
 
-- **[[Transitions/Omoplata Sweep]]** (17% of attempts)
+- **[[Transitions/Omoplata Sweep/Attacker|Omoplata Sweep]]** (17% of attempts)
 
-- **[[Transitions/Triangle Setup]]** (14% of attempts)
+- **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** (14% of attempts)
 
-- **[[Submissions/Armbar from Guard]]** (17% of attempts)
+- **[[Submissions/Armbar from Guard/Attacker|Armbar from Guard]]** (17% of attempts)
 
-- **[[Transitions/Rolling Back Take]]** (14% of attempts)
+- **[[Transitions/Rolling Back Take/Attacker|Rolling Back Take]]** (14% of attempts)
 
 
 ### Common Mistakes

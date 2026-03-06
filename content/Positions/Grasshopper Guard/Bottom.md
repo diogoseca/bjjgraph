@@ -215,23 +215,23 @@ The position requires significant flexibility and conditioning. Your ability to 
 ## Decision Making from This Position
 
 **Opponent stands tall with wide base, attempting to disengage:**
-- Execute **[[Transitions/Technical Standup from Inversion]]** → [[Positions/Standing Position]] (Probability: 65%)
-- Execute **[[Follow with Rolling Ankle Lock]]** → [[Positions/Straight Ankle Lock Control]] (Probability: 50%)
+- Execute **[[Transitions/Technical Standup from Inversion/Attacker|Technical Standup from Inversion]]** → [[Positions/Standing Position]] (Probability: 65%)
+- Execute **[[Follow with Rolling Ankle Lock/Attacker|Follow with Rolling Ankle Lock]]** → [[Positions/Straight Ankle Lock Control]] (Probability: 50%)
 
 
 **Opponent pressures forward aggressively with narrow base:**
-- Execute **[[Transitions/X-Guard Elevation Sweep]]** → [[Positions/Mount]] (Probability: 70%)
-- Execute **[[Transitions/Single Leg X Transition]]** → [[Positions/X-Guard/Single Leg X-Guard]] (Probability: 65%)
+- Execute **[[Transitions/X-Guard Elevation Sweep/Attacker|X-Guard Elevation Sweep]]** → [[Positions/Mount]] (Probability: 70%)
+- Execute **[[Transitions/Single Leg X Transition/Attacker|Single Leg X Transition]]** → [[Positions/X-Guard/Single Leg X-Guard]] (Probability: 65%)
 
 
 **Opponent commits one leg between yours, attempting knee cut:**
-- Execute **[[Transitions/Inside Ashi Entry]]** → [[Positions/Ashi Garami/Inside Ashi-Garami]] (Probability: 70%)
-- Execute **[[Kneebar Attack]]** → [[Positions/Kneebar Control]] (Probability: 60%)
+- Execute **[[Transitions/Inside Ashi Entry/Attacker|Inside Ashi Entry]]** → [[Positions/Ashi Garami/Inside Ashi-Garami]] (Probability: 70%)
+- Execute **[[Kneebar Attack/Attacker|Kneebar Attack]]** → [[Positions/Kneebar Control]] (Probability: 60%)
 
 
 **Opponent attempts back step to avoid entanglement:**
-- Execute **[[Re-invert and Follow]]** → [[Positions/Ashi Garami/Outside Ashi-Garami]] (Probability: 55%)
-- Execute **[[Transitions/Reverse De La Riva Recovery]]** → [[Positions/De La Riva Guard/Reverse De La Riva Guard]] (Probability: 60%)
+- Execute **[[Re-invert and Follow/Attacker|Re-invert and Follow]]** → [[Positions/Ashi Garami/Outside Ashi-Garami]] (Probability: 55%)
+- Execute **[[Transitions/Reverse De La Riva Recovery/Attacker|Reverse De La Riva Recovery]]** → [[Positions/De La Riva Guard/Reverse De La Riva Guard]] (Probability: 60%)
 
 
 

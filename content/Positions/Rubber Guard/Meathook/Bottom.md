@@ -217,28 +217,28 @@ Competition application requires understanding rule sets and opponent body types
 ## Decision Making from This Position
 
 **If opponent drives forward with pressure attempting to stack or smash guard:**
-- Execute **[[Transitions/Meathook to Gogoplata Control]]** → [[Positions/Gogoplata Control]] (Probability: 65%)
-- Execute **[[Transitions/Triangle Setup]]** → [[Positions/Triangle Control]] (Probability: 50%)
+- Execute **[[Transitions/Meathook to Gogoplata Control/Attacker|Meathook to Gogoplata Control]]** → [[Positions/Gogoplata Control]] (Probability: 65%)
+- Execute **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** → [[Positions/Triangle Control]] (Probability: 50%)
 
 
 **If opponent attempts to extract trapped arm by pulling upward or circling:**
-- Execute **[[Transitions/Triangle Setup]]** → [[Positions/Triangle Control]] (Probability: 70%)
-- Execute **[[Transitions/Closed Guard to Omoplata]]** → [[Positions/Omoplata Control]] (Probability: 65%)
+- Execute **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** → [[Positions/Triangle Control]] (Probability: 70%)
+- Execute **[[Transitions/Closed Guard to Omoplata/Attacker|Closed Guard to Omoplata]]** → [[Positions/Omoplata Control]] (Probability: 65%)
 
 
 **If opponent attempts to spin or rotate trapped arm to escape hook:**
-- Execute **[[Transitions/Closed Guard to Omoplata]]** → [[Positions/Omoplata Control]] (Probability: 75%)
-- Execute **[[Transitions/Crackhead Control to Carni]]** → [[Positions/Rubber Guard/Carni]] (Probability: 70%)
+- Execute **[[Transitions/Closed Guard to Omoplata/Attacker|Closed Guard to Omoplata]]** → [[Positions/Omoplata Control]] (Probability: 75%)
+- Execute **[[Transitions/Crackhead Control to Carni/Attacker|Crackhead Control to Carni]]** → [[Positions/Rubber Guard/Carni]] (Probability: 70%)
 
 
 **If opponent establishes strong base and pauses defensive movement:**
-- Execute **[[Transitions/Crackhead Control to Mission Control]]** → [[Positions/Rubber Guard/Mission Control]] (Probability: 65%)
-- Execute **[[Submissions/Armbar from Guard]]** → [[Positions/Armbar Control]] (Probability: 55%)
+- Execute **[[Transitions/Crackhead Control to Mission Control/Attacker|Crackhead Control to Mission Control]]** → [[Positions/Rubber Guard/Mission Control]] (Probability: 65%)
+- Execute **[[Submissions/Armbar from Guard/Attacker|Armbar from Guard]]** → [[Positions/Armbar Control]] (Probability: 55%)
 
 
 **If opponent attempts to pressure pass by driving shoulder into chest:**
-- Execute **[[Transitions/Omoplata to Back]]** → [[Positions/Back Control]] (Probability: 60%)
-- Execute **[[Transitions/Crackhead Control to Carni]]** → [[Positions/Rubber Guard/Carni]] (Probability: 65%)
+- Execute **[[Transitions/Omoplata to Back/Attacker|Omoplata to Back]]** → [[Positions/Back Control]] (Probability: 60%)
+- Execute **[[Transitions/Crackhead Control to Carni/Attacker|Crackhead Control to Carni]]** → [[Positions/Rubber Guard/Carni]] (Probability: 65%)
 
 
 

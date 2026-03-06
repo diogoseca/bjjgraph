@@ -207,23 +207,23 @@ Toe Hold Control Top is an advanced leg entanglement position where the top prac
 ## Decision Making from This Position
 
 **If opponent maintains flat posture and cannot sit up:**
-- Execute **[[Transitions/Toe Hold]]** → [[Positions/Game Over]] (Probability: 75%)
-- Execute **[[Transitions/Outside Ashi Entry]]** → [[Positions/Ashi Garami/Outside Ashi-Garami]] (Probability: 65%)
+- Execute **[[Transitions/Toe Hold/Attacker|Toe Hold]]** → [[Positions/Game Over]] (Probability: 75%)
+- Execute **[[Transitions/Outside Ashi Entry/Attacker|Outside Ashi Entry]]** → [[Positions/Ashi Garami/Outside Ashi-Garami]] (Probability: 65%)
 
 
 **If opponent sits up and begins to extract their leg:**
-- Execute **[[Transitions/Saddle Entry from Top]]** → [[Positions/Ashi Garami/Saddle]] (Probability: 70%)
-- Execute **[[Transitions/Inside Ashi Entry]]** → [[Positions/Ashi Garami/Inside Ashi-Garami]] (Probability: 60%)
+- Execute **[[Transitions/Saddle Entry from Top/Attacker|Saddle Entry from Top]]** → [[Positions/Ashi Garami/Saddle]] (Probability: 70%)
+- Execute **[[Transitions/Inside Ashi Entry/Attacker|Inside Ashi Entry]]** → [[Positions/Ashi Garami/Inside Ashi-Garami]] (Probability: 60%)
 
 
 **If opponent extends leg and pushes away with straight leg:**
-- Execute **[[Transitions/Kneebar Finish]]** → [[Positions/Kneebar Control]] (Probability: 65%)
-- Execute **[[Transitions/Ankle Lock Finish]]** → [[Positions/Ashi Garami]] (Probability: 60%)
+- Execute **[[Transitions/Kneebar Finish/Attacker|Kneebar Finish]]** → [[Positions/Kneebar Control]] (Probability: 65%)
+- Execute **[[Transitions/Ankle Lock Finish/Attacker|Ankle Lock Finish]]** → [[Positions/Ashi Garami]] (Probability: 60%)
 
 
 **If opponent rotates knee outward and attempts to clear entanglement:**
-- Execute **[[Transitions/Outside Ashi Entry]]** → [[Positions/Ashi Garami/Outside Ashi-Garami]] (Probability: 70%)
-- Execute **[[Transitions/Toe Hold]]** → [[Positions/Game Over]] (Probability: 55%)
+- Execute **[[Transitions/Outside Ashi Entry/Attacker|Outside Ashi Entry]]** → [[Positions/Ashi Garami/Outside Ashi-Garami]] (Probability: 70%)
+- Execute **[[Transitions/Toe Hold/Attacker|Toe Hold]]** → [[Positions/Game Over]] (Probability: 55%)
 
 
 

@@ -95,21 +95,21 @@ Strategically, Reverse Kesa-Gatame serves as an excellent transitional position 
 ### Available Transitions
 
 
-- **[[Transitions/Elbow Escape to Guard]]** (33% of attempts)
+- **[[Transitions/Elbow Escape to Guard/Attacker|Elbow Escape to Guard]]** (33% of attempts)
 
-- **[[Transitions/Hip Escape to Guard]]** (18% of attempts)
+- **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** (18% of attempts)
 
-- **[[Transitions/Bridge and Roll]]** (14% of attempts)
+- **[[Transitions/Bridge and Roll/Attacker|Bridge and Roll]]** (14% of attempts)
 
-- **[[Transitions/Shrimp Escape]]** (16% of attempts)
+- **[[Transitions/Shrimp Escape/Attacker|Shrimp Escape]]** (16% of attempts)
 
-- **[[Transitions/Technical Stand-up]]** (11% of attempts)
+- **[[Transitions/Technical Stand-up/Attacker|Technical Stand-up]]** (11% of attempts)
 
-- **[[Transitions/Bridge from Reverse Kesa-Gatame]]** (5% of attempts)
+- **[[Transitions/Bridge from Reverse Kesa-Gatame/Attacker|Bridge from Reverse Kesa-Gatame]]** (5% of attempts)
 
-- **[[Transitions/Escape Reverse Kesa-Gatame]]** (2% of attempts)
+- **[[Transitions/Escape Reverse Kesa-Gatame/Attacker|Escape Reverse Kesa-Gatame]]** (2% of attempts)
 
-- **[[Transitions/Turn In from Reverse Kesa]]** (1% of attempts)
+- **[[Transitions/Turn In from Reverse Kesa/Attacker|Turn In from Reverse Kesa]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -170,23 +170,23 @@ Strategically, Reverse Kesa-Gatame serves as an excellent transitional position 
 ### Available Transitions
 
 
-- **[[Transitions/Side Control to Mount]]** (24% of attempts)
+- **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** (24% of attempts)
 
-- **[[Transitions/Side Control to North-South]]** (15% of attempts)
+- **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** (15% of attempts)
 
-- **[[Transitions/Kimura]]** (15% of attempts)
+- **[[Transitions/Kimura/Attacker|Kimura]]** (15% of attempts)
 
-- **[[Transitions/Americana]]** (13% of attempts)
+- **[[Transitions/Americana/Attacker|Americana]]** (13% of attempts)
 
-- **[[Transitions/Arm Triangle]]** (10% of attempts)
+- **[[Transitions/Arm Triangle/Attacker|Arm Triangle]]** (10% of attempts)
 
-- **[[Transitions/Back Take]]** (13% of attempts)
+- **[[Transitions/Back Take/Attacker|Back Take]]** (13% of attempts)
 
-- **[[Transitions/Reverse Kesa to North-South]]** (5% of attempts)
+- **[[Transitions/Reverse Kesa to North-South/Attacker|Reverse Kesa to North-South]]** (5% of attempts)
 
-- **[[Transitions/Reverse Kesa to Side Control]]** (3% of attempts)
+- **[[Transitions/Reverse Kesa to Side Control/Attacker|Reverse Kesa to Side Control]]** (3% of attempts)
 
-- **[[Submissions/Americana from Reverse Kesa]]** (2% of attempts)
+- **[[Submissions/Americana from Reverse Kesa/Attacker|Americana from Reverse Kesa]]** (2% of attempts)
 
 
 ### Common Mistakes

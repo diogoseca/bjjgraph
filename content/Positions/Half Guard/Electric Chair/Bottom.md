@@ -212,23 +212,23 @@ Electric Chair Bottom represents a systematic approach to bottom half guard wher
 ## Decision Making from This Position
 
 **If opponent maintains heavy forward pressure and low posture defending the electric chair:**
-- Execute **[[Transitions/Old School Sweep]]** → [[Positions/Mount]] (Probability: 70%)
-- Execute **[[Transitions/Turtle to Truck]]** → [[Positions/Twister Control/Truck]] (Probability: 60%)
+- Execute **[[Transitions/Old School Sweep/Attacker|Old School Sweep]]** → [[Positions/Mount]] (Probability: 70%)
+- Execute **[[Transitions/Turtle to Truck/Attacker|Turtle to Truck]]** → [[Positions/Twister Control/Truck]] (Probability: 60%)
 
 
 **Else if opponent postures up and attempts to extract their trapped leg:**
-- Execute **[[Transitions/Electric Chair Transition]]** → [[game-over]] (Probability: 55%)
-- Execute **[[Transitions/Deep Half Entry]]** → [[Positions/Half Guard/Deep Half Guard]] (Probability: 65%)
+- Execute **[[Transitions/Electric Chair Transition/Attacker|Electric Chair Transition]]** → [[game-over]] (Probability: 55%)
+- Execute **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** → [[Positions/Half Guard/Deep Half Guard]] (Probability: 65%)
 
 
 **Else if opponent posts their far arm to defend underhook:**
-- Execute **[[Positions/Dogfight Position]]** → [[Positions/Dogfight Position]] (Probability: 50%)
-- Execute **[[Transitions/Lockdown Recovery]]** → [[Positions/Half Guard/Lockdown]] (Probability: 45%)
+- Execute **[[Positions/Dogfight Position/Attacker|Dogfight Position]]** → [[Positions/Dogfight Position]] (Probability: 50%)
+- Execute **[[Transitions/Lockdown Recovery/Attacker|Lockdown Recovery]]** → [[Positions/Half Guard/Lockdown]] (Probability: 45%)
 
 
 **Else if opponent attempts to windshield wiper their leg free:**
-- Execute **[[Transitions/Turtle to Truck]]** → [[Positions/Twister Control/Truck]] (Probability: 65%)
-- Execute **[[Transitions/Deep Half Entry]]** → [[Positions/Half Guard/Deep Half Guard]] (Probability: 55%)
+- Execute **[[Transitions/Turtle to Truck/Attacker|Turtle to Truck]]** → [[Positions/Twister Control/Truck]] (Probability: 65%)
+- Execute **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** → [[Positions/Half Guard/Deep Half Guard]] (Probability: 55%)
 
 
 

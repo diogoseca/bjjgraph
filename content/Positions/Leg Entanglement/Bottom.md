@@ -195,33 +195,33 @@ Leg Entanglement represents a comprehensive positional system in modern Brazilia
 ## Decision Making from This Position
 
 **If opponent has their knee bent and is defending by keeping their heel hidden from attack:**
-- Execute **[[Transitions/Saddle Entry from Top]]** → [[Positions/Ashi Garami/Saddle]] (Probability: 65%)
-- Execute **[[Transitions/Outside Ashi Entry]]** → [[Positions/Ashi Garami/Outside Ashi-Garami]] (Probability: 55%)
+- Execute **[[Transitions/Saddle Entry from Top/Attacker|Saddle Entry from Top]]** → [[Positions/Ashi Garami/Saddle]] (Probability: 65%)
+- Execute **[[Transitions/Outside Ashi Entry/Attacker|Outside Ashi Entry]]** → [[Positions/Ashi Garami/Outside Ashi-Garami]] (Probability: 55%)
 
 
 **If opponent extends their leg trying to create distance and push away from the entanglement:**
-- Execute **[[Transitions/Kneebar]]** → [[Positions/Kneebar Control]] (Probability: 70%)
-- Execute **[[Transitions/Ankle Lock Finish]]** → [[Positions/Ashi Garami]] (Probability: 65%)
+- Execute **[[Transitions/Kneebar/Attacker|Kneebar]]** → [[Positions/Kneebar Control]] (Probability: 70%)
+- Execute **[[Transitions/Ankle Lock Finish/Attacker|Ankle Lock Finish]]** → [[Positions/Ashi Garami]] (Probability: 65%)
 
 
 **If opponent's heel becomes exposed with proper inside or outside positioning established:**
-- Execute **[[Transitions/Inside Ashi Entry]]** → [[Positions/Ashi Garami/Inside Ashi-Garami]] (Probability: 70%)
-- Execute **[[Transitions/Outside Heel Hook]]** → [[Positions/Ashi Garami/Outside Ashi-Garami]] (Probability: 65%)
+- Execute **[[Transitions/Inside Ashi Entry/Attacker|Inside Ashi Entry]]** → [[Positions/Ashi Garami/Inside Ashi-Garami]] (Probability: 70%)
+- Execute **[[Transitions/Outside Heel Hook/Attacker|Outside Heel Hook]]** → [[Positions/Ashi Garami/Outside Ashi-Garami]] (Probability: 65%)
 
 
 **If opponent turns away from you exposing their back to escape the leg entanglement:**
-- Execute **[[Transitions/Back Take from Ashi]]** → [[Positions/Back Control]] (Probability: 75%)
-- Execute **[[Transitions/Saddle Entry from Top]]** → [[Positions/Ashi Garami/Saddle]] (Probability: 60%)
+- Execute **[[Transitions/Back Take from Ashi/Attacker|Back Take from Ashi]]** → [[Positions/Back Control]] (Probability: 75%)
+- Execute **[[Transitions/Saddle Entry from Top/Attacker|Saddle Entry from Top]]** → [[Positions/Ashi Garami/Saddle]] (Probability: 60%)
 
 
 **If opponent successfully clears the knee line and begins to escape the entanglement:**
-- Execute **[[Transitions/Outside Ashi Entry]]** → [[Positions/Ashi Garami/Outside Ashi-Garami]] (Probability: 55%)
-- Execute **[[Transitions/Guard Recovery from Leg Entanglement]]** → [[Positions/Open Guard]] (Probability: 45%)
+- Execute **[[Transitions/Outside Ashi Entry/Attacker|Outside Ashi Entry]]** → [[Positions/Ashi Garami/Outside Ashi-Garami]] (Probability: 55%)
+- Execute **[[Transitions/Guard Recovery from Leg Entanglement/Attacker|Guard Recovery from Leg Entanglement]]** → [[Positions/Open Guard]] (Probability: 45%)
 
 
 **If both practitioners have equal entanglement creating neutral bilateral control:**
-- Execute **[[Transitions/50-50 Entry]]** → [[Positions/Ashi Garami/50-50 Guard]] (Probability: 60%)
-- Execute **[[Transitions/Inside Ashi Entry]]** → [[Positions/Ashi Garami/Inside Ashi-Garami]] (Probability: 50%)
+- Execute **[[Transitions/50-50 Entry/Attacker|50-50 Entry]]** → [[Positions/Ashi Garami/50-50 Guard]] (Probability: 60%)
+- Execute **[[Transitions/Inside Ashi Entry/Attacker|Inside Ashi Entry]]** → [[Positions/Ashi Garami/Inside Ashi-Garami]] (Probability: 50%)
 
 
 

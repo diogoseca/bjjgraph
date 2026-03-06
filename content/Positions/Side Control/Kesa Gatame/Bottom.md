@@ -211,26 +211,26 @@ From a strategic perspective, the bottom player in Kesa Gatame must internalize 
 ## Decision Making from This Position
 
 **If opponent maintains tight head control and heavy chest pressure without attacking submissions:**
-- Execute **[[Transitions/Frame and Shrimp to Guard]]** → [[Positions/Half Guard]] (Probability: 40%)
-- Execute **[[Transitions/Elbow Escape to Guard]]** → [[Positions/Half Guard]] (Probability: 45%)
-- Execute **[[Transitions/Bridge and Roll]]** → [[Positions/Closed Guard]] (Probability: 30%)
+- Execute **[[Transitions/Frame and Shrimp to Guard/Attacker|Frame and Shrimp to Guard]]** → [[Positions/Half Guard]] (Probability: 40%)
+- Execute **[[Transitions/Elbow Escape to Guard/Attacker|Elbow Escape to Guard]]** → [[Positions/Half Guard]] (Probability: 45%)
+- Execute **[[Transitions/Bridge and Roll/Attacker|Bridge and Roll]]** → [[Positions/Closed Guard]] (Probability: 30%)
 
 
 **If opponent shifts weight forward toward your head or attempts to transition to mount:**
-- Execute **[[Transitions/Granby Roll to Guard]]** → [[Positions/Turtle]] (Probability: 50%)
-- Execute **[[Transitions/Ghost Escape]]** → [[Positions/Turtle]] (Probability: 45%)
-- Execute **[[Transitions/Back Take from Kesa Gatame]]** → [[Positions/Back Control]] (Probability: 35%)
+- Execute **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** → [[Positions/Turtle]] (Probability: 50%)
+- Execute **[[Transitions/Ghost Escape/Attacker|Ghost Escape]]** → [[Positions/Turtle]] (Probability: 45%)
+- Execute **[[Transitions/Back Take from Kesa Gatame/Attacker|Back Take from Kesa Gatame]]** → [[Positions/Back Control]] (Probability: 35%)
 
 
 **If opponent releases head control to attack far-side arm for Americana or other submissions:**
-- Execute **[[Transitions/Hip Escape to Guard]]** → [[Positions/Closed Guard]] (Probability: 55%)
-- Execute **[[Transitions/Frame to Guard from Kesa Gatame]]** → [[Positions/Open Guard]] (Probability: 50%)
-- Execute **[[Transitions/Bridge Escape from Kesa Gatame]]** → [[Positions/Half Guard]] (Probability: 45%)
+- Execute **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** → [[Positions/Closed Guard]] (Probability: 55%)
+- Execute **[[Transitions/Frame to Guard from Kesa Gatame/Attacker|Frame to Guard from Kesa Gatame]]** → [[Positions/Open Guard]] (Probability: 50%)
+- Execute **[[Transitions/Bridge Escape from Kesa Gatame/Attacker|Bridge Escape from Kesa Gatame]]** → [[Positions/Half Guard]] (Probability: 45%)
 
 
 **If opponent's base becomes narrow or they post their far arm for stability:**
-- Execute **[[Transitions/Bridge and Roll]]** → [[Positions/Closed Guard]] (Probability: 50%)
-- Execute **[[Transitions/Bridge and Turn to Turtle]]** → [[Positions/Turtle]] (Probability: 55%)
+- Execute **[[Transitions/Bridge and Roll/Attacker|Bridge and Roll]]** → [[Positions/Closed Guard]] (Probability: 50%)
+- Execute **[[Transitions/Bridge and Turn to Turtle/Attacker|Bridge and Turn to Turtle]]** → [[Positions/Turtle]] (Probability: 55%)
 
 
 

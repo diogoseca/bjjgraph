@@ -95,19 +95,19 @@ Reverse X-Guard has gained prominence in modern competition BJJ as athletes like
 ### Available Transitions
 
 
-- **[[Transitions/Reverse X-Guard Sweep]]** (15% of attempts)
+- **[[Transitions/Reverse X-Guard Sweep/Attacker|Reverse X-Guard Sweep]]** (15% of attempts)
 
-- **[[Transitions/Elevation Sweep to Mount]]** (14% of attempts)
+- **[[Transitions/Elevation Sweep to Mount/Attacker|Elevation Sweep to Mount]]** (14% of attempts)
 
-- **[[Transitions/Reverse X to Back Take]]** (12% of attempts)
+- **[[Transitions/Reverse X to Back Take/Attacker|Reverse X to Back Take]]** (12% of attempts)
 
-- **[[Transitions/Reverse X-Guard to Standard X-Guard]]** (18% of attempts)
+- **[[Transitions/Reverse X-Guard to Standard X-Guard/Attacker|Reverse X-Guard to Standard X-Guard]]** (18% of attempts)
 
-- **[[Transitions/Reverse X to Single Leg X Entry]]** (15% of attempts)
+- **[[Transitions/Reverse X to Single Leg X Entry/Attacker|Reverse X to Single Leg X Entry]]** (15% of attempts)
 
-- **[[Transitions/Reverse X to Ashi Garami Entry]]** (13% of attempts)
+- **[[Transitions/Reverse X to Ashi Garami Entry/Attacker|Reverse X to Ashi Garami Entry]]** (13% of attempts)
 
-- **[[Transitions/Technical Stand-up]]** (13% of attempts)
+- **[[Transitions/Technical Stand-up/Attacker|Technical Stand-up]]** (13% of attempts)
 
 
 ### Common Mistakes
@@ -168,23 +168,23 @@ Reverse X-Guard has gained prominence in modern competition BJJ as athletes like
 ### Available Transitions
 
 
-- **[[Transitions/Smash Pass]]** (30% of attempts)
+- **[[Transitions/Smash Pass/Attacker|Smash Pass]]** (30% of attempts)
 
-- **[[Transitions/Knee Slice Pass]]** (13% of attempts)
+- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (13% of attempts)
 
-- **[[Transitions/Long Step Pass]]** (11% of attempts)
+- **[[Transitions/Long Step Pass/Attacker|Long Step Pass]]** (11% of attempts)
 
-- **[[Transitions/Leg Drag Pass]]** (13% of attempts)
+- **[[Transitions/Leg Drag Pass/Attacker|Leg Drag Pass]]** (13% of attempts)
 
-- **[[Transitions/Butterfly Pass]]** (14% of attempts)
+- **[[Transitions/Butterfly Pass/Attacker|Butterfly Pass]]** (14% of attempts)
 
-- **[[Transitions/Back Step]]** (11% of attempts)
+- **[[Transitions/Back Step/Attacker|Back Step]]** (11% of attempts)
 
-- **[[Transitions/Backstep Pass from Reverse X-Guard]]** (5% of attempts)
+- **[[Transitions/Backstep Pass from Reverse X-Guard/Attacker|Backstep Pass from Reverse X-Guard]]** (5% of attempts)
 
-- **[[Transitions/Knee Slice from Reverse X-Guard]]** (2% of attempts)
+- **[[Transitions/Knee Slice from Reverse X-Guard/Attacker|Knee Slice from Reverse X-Guard]]** (2% of attempts)
 
-- **[[Transitions/Standing Escape from Reverse X-Guard]]** (1% of attempts)
+- **[[Transitions/Standing Escape from Reverse X-Guard/Attacker|Standing Escape from Reverse X-Guard]]** (1% of attempts)
 
 
 ### Common Mistakes

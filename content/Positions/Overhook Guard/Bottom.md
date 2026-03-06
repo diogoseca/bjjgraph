@@ -211,23 +211,23 @@ Overhook Guard is particularly effective against opponents who attempt to establ
 ## Decision Making from This Position
 
 **If opponent maintains strong upright posture with hips back:**
-- Execute **[[Transitions/Hip Bump Sweep]]** → [[Positions/Mount]] (Probability: 60%)
-- Execute **[[Transitions/Overhook Sweep]]** → [[Positions/Mount]] (Probability: 55%)
+- Execute **[[Transitions/Hip Bump Sweep/Attacker|Hip Bump Sweep]]** → [[Positions/Mount]] (Probability: 60%)
+- Execute **[[Transitions/Overhook Sweep/Attacker|Overhook Sweep]]** → [[Positions/Mount]] (Probability: 55%)
 
 
 **If opponent drives weight forward attempting to stack:**
-- Execute **[[Submissions/Omoplata from Guard]]** → [[Positions/Omoplata Control]] (Probability: 50%)
-- Execute **[[Transitions/Triangle Setup]]** → [[Positions/Triangle Control]] (Probability: 55%)
+- Execute **[[Submissions/Omoplata from Guard/Attacker|Omoplata from Guard]]** → [[Positions/Omoplata Control]] (Probability: 50%)
+- Execute **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** → [[Positions/Triangle Control]] (Probability: 55%)
 
 
 **If opponent attempts to pull overhook arm free:**
-- Execute **[[Transitions/Triangle Setup]]** → [[Positions/Triangle Control]] (Probability: 65%)
-- Execute **[[Submissions/Kimura from Guard]]** → [[Positions/Kimura Trap]] (Probability: 50%)
+- Execute **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** → [[Positions/Triangle Control]] (Probability: 65%)
+- Execute **[[Submissions/Kimura from Guard/Attacker|Kimura from Guard]]** → [[Positions/Kimura Trap]] (Probability: 50%)
 
 
 **If opponent circles away from overhook side:**
-- Execute **[[Transitions/Arm Drag to Back]]** → [[Positions/Back Control]] (Probability: 55%)
-- Execute **[[Submissions/Armbar from Guard]]** → [[Positions/Armbar Control]] (Probability: 50%)
+- Execute **[[Transitions/Arm Drag to Back/Attacker|Arm Drag to Back]]** → [[Positions/Back Control]] (Probability: 55%)
+- Execute **[[Submissions/Armbar from Guard/Attacker|Armbar from Guard]]** → [[Positions/Armbar Control]] (Probability: 50%)
 
 
 

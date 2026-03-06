@@ -212,28 +212,28 @@ Mastery of Combat Base is essential for all guard passing systems, as it forms t
 ## Decision Making from This Position
 
 **If opponent maintains open guard with feet on hips and active frames preventing forward movement:**
-- Execute **[[Transitions/Toreando Pass]]** → [[Positions/Side Control]] (Probability: 55%)
-- Execute **[[Transitions/Leg Drag Pass]]** → [[Positions/Leg Drag Control]] (Probability: 45%)
+- Execute **[[Transitions/Toreando Pass/Attacker|Toreando Pass]]** → [[Positions/Side Control]] (Probability: 55%)
+- Execute **[[Transitions/Leg Drag Pass/Attacker|Leg Drag Pass]]** → [[Positions/Leg Drag Control]] (Probability: 45%)
 
 
 **If opponent attempts to close guard or establish butterfly hooks on posted knee:**
-- Execute **[[Transitions/Knee Slide from Combat Base]]** → [[Positions/Side Control]] (Probability: 55%)
-- Execute **[[Transitions/Smash Pass]]** → [[Positions/Side Control]] (Probability: 45%)
+- Execute **[[Transitions/Knee Slide from Combat Base/Attacker|Knee Slide from Combat Base]]** → [[Positions/Side Control]] (Probability: 55%)
+- Execute **[[Transitions/Smash Pass/Attacker|Smash Pass]]** → [[Positions/Side Control]] (Probability: 45%)
 
 
 **If opponent establishes De La Riva or X-Guard hooks on posted leg:**
-- Execute **[[Transitions/Leg Drag Pass]]** → [[Positions/Leg Drag Control]] (Probability: 55%)
-- Execute **[[Transitions/Combat Base to Headquarters]]** → [[Positions/Headquarters Position]] (Probability: 45%)
+- Execute **[[Transitions/Leg Drag Pass/Attacker|Leg Drag Pass]]** → [[Positions/Leg Drag Control]] (Probability: 55%)
+- Execute **[[Transitions/Combat Base to Headquarters/Attacker|Combat Base to Headquarters]]** → [[Positions/Headquarters Position]] (Probability: 45%)
 
 
 **If opponent creates distance with strong frames and extends legs to push hips away:**
-- Execute **[[Transitions/Long Step Pass]]** → [[Positions/Side Control]] (Probability: 45%)
-- Execute **[[Transitions/Standing Up from Combat Base]]** → [[Positions/Standing Position]] (Probability: 55%)
+- Execute **[[Transitions/Long Step Pass/Attacker|Long Step Pass]]** → [[Positions/Side Control]] (Probability: 45%)
+- Execute **[[Transitions/Standing Up from Combat Base/Attacker|Standing Up from Combat Base]]** → [[Positions/Standing Position]] (Probability: 55%)
 
 
 **If opponent pulls knees to chest in defensive posture or inverts to retain guard:**
-- Execute **[[Transitions/Double Under Pass]]** → [[Positions/Side Control]] (Probability: 55%)
-- Execute **[[Transitions/Smash Pass]]** → [[Positions/Side Control]] (Probability: 45%)
+- Execute **[[Transitions/Double Under Pass/Attacker|Double Under Pass]]** → [[Positions/Side Control]] (Probability: 55%)
+- Execute **[[Transitions/Smash Pass/Attacker|Smash Pass]]** → [[Positions/Side Control]] (Probability: 45%)
 
 
 

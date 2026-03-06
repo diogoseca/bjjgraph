@@ -208,28 +208,28 @@ Facing Shin-to-Shin Guard from the top position presents a unique set of challen
 ## Decision Making from This Position
 
 **If opponent maintains strong shin connection with active pressure but has weak or contested upper body grips:**
-- Execute **[[Transitions/Knee Slice Pass]]** → [[Positions/Headquarters Position]] (Probability: 60%)
-- Execute **[[Transitions/Long Step Pass]]** → [[Positions/Side Control]] (Probability: 55%)
+- Execute **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** → [[Positions/Headquarters Position]] (Probability: 60%)
+- Execute **[[Transitions/Long Step Pass/Attacker|Long Step Pass]]** → [[Positions/Side Control]] (Probability: 55%)
 
 
 **If opponent's shin connection is weak or passive, allowing opportunity for immediate pressure:**
-- Execute **[[Transitions/Pressure Pass]]** → [[Positions/Side Control]] (Probability: 65%)
-- Execute **[[Transitions/Smash Pass]]** → [[Positions/Side Control]] (Probability: 60%)
+- Execute **[[Transitions/Pressure Pass/Attacker|Pressure Pass]]** → [[Positions/Side Control]] (Probability: 65%)
+- Execute **[[Transitions/Smash Pass/Attacker|Smash Pass]]** → [[Positions/Side Control]] (Probability: 60%)
 
 
 **If opponent attempts to transition to single leg X or extend leg for entry to leg entanglement:**
-- Execute **[[Transitions/Leg Drag Pass]]** → [[Positions/Back Control]] (Probability: 70%)
-- Execute **[[Transitions/X Pass]]** → [[Positions/Side Control]] (Probability: 58%)
+- Execute **[[Transitions/Leg Drag Pass/Attacker|Leg Drag Pass]]** → [[Positions/Back Control]] (Probability: 70%)
+- Execute **[[Transitions/X Pass/Attacker|X Pass]]** → [[Positions/Side Control]] (Probability: 58%)
 
 
 **If opponent has strong upper body grips and distance management preventing forward pressure:**
-- Execute **[[Transitions/Long Step Pass]]** → [[Positions/Side Control]] (Probability: 62%)
-- Execute **[[Transitions/Knee Slice Pass]]** → [[Positions/Headquarters Position]] (Probability: 55%)
+- Execute **[[Transitions/Long Step Pass/Attacker|Long Step Pass]]** → [[Positions/Side Control]] (Probability: 62%)
+- Execute **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** → [[Positions/Headquarters Position]] (Probability: 55%)
 
 
 **If opponent maintains high guard retention posture with hips elevated and mobile:**
-- Execute **[[Transitions/Stack Pass]]** → [[Positions/Side Control]] (Probability: 58%)
-- Execute **[[Transitions/Knee Through]]** → [[Positions/Mount]] (Probability: 50%)
+- Execute **[[Transitions/Stack Pass/Attacker|Stack Pass]]** → [[Positions/Side Control]] (Probability: 58%)
+- Execute **[[Transitions/Knee Through/Attacker|Knee Through]]** → [[Positions/Mount]] (Probability: 50%)
 
 
 

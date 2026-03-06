@@ -207,27 +207,27 @@ Leg Weave Bottom Position represents a challenging defensive scenario in half gu
 ## Decision Making from This Position
 
 **If top player establishes strong crossface and drives chest pressure to flatten you:**
-- Execute **[[Transitions/Frame and Shrimp to Guard]]** → [[Positions/Half Guard/Knee Shield Half Guard]] (Probability: 40%)
-- Execute **[[Transitions/Deep Half Entry]]** → [[Positions/Half Guard/Deep Half Guard]] (Probability: 35%)
-- Execute **[[Transitions/Rolling to Guard]]** → [[Positions/Closed Guard]] (Probability: 25%)
+- Execute **[[Transitions/Frame and Shrimp to Guard/Attacker|Frame and Shrimp to Guard]]** → [[Positions/Half Guard/Knee Shield Half Guard]] (Probability: 40%)
+- Execute **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** → [[Positions/Half Guard/Deep Half Guard]] (Probability: 35%)
+- Execute **[[Transitions/Rolling to Guard/Attacker|Rolling to Guard]]** → [[Positions/Closed Guard]] (Probability: 25%)
 
 
 **If top player posts hands forward or elevates hips to step over your leg:**
-- Execute **[[Transitions/Underhook Sweep from Half]]** → [[Positions/Side Control]] (Probability: 45%)
-- Execute **[[Transitions/Old School Sweep]]** → [[Positions/Side Control]] (Probability: 35%)
-- Execute **[[Positions/Dogfight Position]]** → [[Positions/Dogfight Position]] (Probability: 50%)
+- Execute **[[Transitions/Underhook Sweep from Half/Attacker|Underhook Sweep from Half]]** → [[Positions/Side Control]] (Probability: 45%)
+- Execute **[[Transitions/Old School Sweep/Attacker|Old School Sweep]]** → [[Positions/Side Control]] (Probability: 35%)
+- Execute **[[Positions/Dogfight Position/Attacker|Dogfight Position]]** → [[Positions/Dogfight Position]] (Probability: 50%)
 
 
 **If top player drives weight forward while maintaining low posture:**
-- Execute **[[Transitions/Deep Half Entry]]** → [[Positions/Half Guard/Deep Half Guard]] (Probability: 50%)
-- Execute **[[Transitions/Lockdown Recovery]]** → [[Positions/Half Guard/Lockdown]] (Probability: 30%)
-- Execute **[[Transitions/Rolling to Guard]]** → [[Positions/Closed Guard]] (Probability: 20%)
+- Execute **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** → [[Positions/Half Guard/Deep Half Guard]] (Probability: 50%)
+- Execute **[[Transitions/Lockdown Recovery/Attacker|Lockdown Recovery]]** → [[Positions/Half Guard/Lockdown]] (Probability: 30%)
+- Execute **[[Transitions/Rolling to Guard/Attacker|Rolling to Guard]]** → [[Positions/Closed Guard]] (Probability: 20%)
 
 
 **If top player attempts to free their leg from your hook while controlling upper body:**
-- Execute **[[Transitions/Frame and Shrimp to Guard]]** → [[Positions/Half Guard/Knee Shield Half Guard]] (Probability: 45%)
-- Execute **[[Transitions/Underhook Sweep from Half]]** → [[Positions/Side Control]] (Probability: 35%)
-- Execute **[[Positions/Dogfight Position]]** → [[Positions/Dogfight Position]] (Probability: 40%)
+- Execute **[[Transitions/Frame and Shrimp to Guard/Attacker|Frame and Shrimp to Guard]]** → [[Positions/Half Guard/Knee Shield Half Guard]] (Probability: 45%)
+- Execute **[[Transitions/Underhook Sweep from Half/Attacker|Underhook Sweep from Half]]** → [[Positions/Side Control]] (Probability: 35%)
+- Execute **[[Positions/Dogfight Position/Attacker|Dogfight Position]]** → [[Positions/Dogfight Position]] (Probability: 40%)
 
 
 

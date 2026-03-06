@@ -89,29 +89,29 @@ Shin-to-Shin Guard represents a sophisticated intersection between traditional o
 ### Available Transitions
 
 
-- **[[Transitions/Single Leg X Entry]]** (24% of attempts)
+- **[[Transitions/Single Leg X Entry/Attacker|Single Leg X Entry]]** (24% of attempts)
 
-- **[[Transitions/X-Guard Sweep]]** (8% of attempts)
+- **[[Transitions/X-Guard Sweep/Attacker|X-Guard Sweep]]** (8% of attempts)
 
-- **[[Transitions/Butterfly Sweep]]** (9% of attempts)
+- **[[Transitions/Butterfly Sweep/Attacker|Butterfly Sweep]]** (9% of attempts)
 
-- **[[Transitions/Outside Ashi Entry]]** (8% of attempts)
+- **[[Transitions/Outside Ashi Entry/Attacker|Outside Ashi Entry]]** (8% of attempts)
 
-- **[[Transitions/De La Riva Sweep]]** (8% of attempts)
+- **[[Transitions/De La Riva Sweep/Attacker|De La Riva Sweep]]** (8% of attempts)
 
-- **[[Transitions/Technical Stand Up to Single Leg]]** (8% of attempts)
+- **[[Transitions/Technical Stand Up to Single Leg/Attacker|Technical Stand Up to Single Leg]]** (8% of attempts)
 
-- **[[Transitions/Omoplata Sweep]]** (6% of attempts)
+- **[[Transitions/Omoplata Sweep/Attacker|Omoplata Sweep]]** (6% of attempts)
 
-- **[[Transitions/Shin to Shin Pull]]** (8% of attempts)
+- **[[Transitions/Shin to Shin Pull/Attacker|Shin to Shin Pull]]** (8% of attempts)
 
-- **[[Transitions/Hook Sweep]]** (8% of attempts)
+- **[[Transitions/Hook Sweep/Attacker|Hook Sweep]]** (8% of attempts)
 
-- **[[Transitions/Tripod Sweep]]** (8% of attempts)
+- **[[Transitions/Tripod Sweep/Attacker|Tripod Sweep]]** (8% of attempts)
 
-- **[[Transitions/Shin-to-Shin Sweep]]** (3% of attempts)
+- **[[Transitions/Shin-to-Shin Sweep/Attacker|Shin-to-Shin Sweep]]** (3% of attempts)
 
-- **[[Transitions/Shin-to-Shin to Single Leg X]]** (2% of attempts)
+- **[[Transitions/Shin-to-Shin to Single Leg X/Attacker|Shin-to-Shin to Single Leg X]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -176,25 +176,25 @@ Shin-to-Shin Guard represents a sophisticated intersection between traditional o
 ### Available Transitions
 
 
-- **[[Transitions/Knee Slice Pass]]** (11% of attempts)
+- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (11% of attempts)
 
-- **[[Transitions/Long Step Pass]]** (22% of attempts)
+- **[[Transitions/Long Step Pass/Attacker|Long Step Pass]]** (22% of attempts)
 
-- **[[Transitions/Leg Drag Pass]]** (10% of attempts)
+- **[[Transitions/Leg Drag Pass/Attacker|Leg Drag Pass]]** (10% of attempts)
 
-- **[[Transitions/Stack Pass]]** (9% of attempts)
+- **[[Transitions/Stack Pass/Attacker|Stack Pass]]** (9% of attempts)
 
-- **[[Transitions/Pressure Pass]]** (11% of attempts)
+- **[[Transitions/Pressure Pass/Attacker|Pressure Pass]]** (11% of attempts)
 
-- **[[Transitions/X Pass]]** (10% of attempts)
+- **[[Transitions/X Pass/Attacker|X Pass]]** (10% of attempts)
 
-- **[[Transitions/Knee Through]]** (10% of attempts)
+- **[[Transitions/Knee Through/Attacker|Knee Through]]** (10% of attempts)
 
-- **[[Transitions/Smash Pass]]** (11% of attempts)
+- **[[Transitions/Smash Pass/Attacker|Smash Pass]]** (11% of attempts)
 
-- **[[Transitions/Pass Shin-to-Shin Guard]]** (4% of attempts)
+- **[[Transitions/Pass Shin-to-Shin Guard/Attacker|Pass Shin-to-Shin Guard]]** (4% of attempts)
 
-- **[[Transitions/Pressure from Shin-to-Shin]]** (2% of attempts)
+- **[[Transitions/Pressure from Shin-to-Shin/Attacker|Pressure from Shin-to-Shin]]** (2% of attempts)
 
 
 ### Common Mistakes

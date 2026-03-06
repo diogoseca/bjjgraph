@@ -211,23 +211,23 @@ The body lock bottom position appears frequently in no-gi competition when oppon
 ## Decision Making from This Position
 
 **If opponent has locked grip but hasn't yet driven hip pressure:**
-- Execute **[[Post on hips and create distance]]** → [[Positions/Clinch]] (Probability: 45%)
-- Execute **[[Transitions/Grip Break]]** → [[Positions/Clinch]] (Probability: 40%)
+- Execute **[[Post on hips and create distance/Attacker|Post on hips and create distance]]** → [[Positions/Clinch]] (Probability: 45%)
+- Execute **[[Transitions/Grip Break/Attacker|Grip Break]]** → [[Positions/Clinch]] (Probability: 40%)
 
 
 **Else if opponent is driving forward pressure and breaking posture:**
-- Execute **[[Transitions/Sitting Guard Pull]]** → [[Positions/Closed Guard]] (Probability: 55%)
-- Execute **[[Whizzer and sprawl to widen base]]** → [[Positions/Front Headlock]] (Probability: 35%)
+- Execute **[[Transitions/Sitting Guard Pull/Attacker|Sitting Guard Pull]]** → [[Positions/Closed Guard]] (Probability: 55%)
+- Execute **[[Whizzer and sprawl to widen base/Attacker|Whizzer and sprawl to widen base]]** → [[Positions/Front Headlock]] (Probability: 35%)
 
 
 **Else if opponent is lifting or attempting throw:**
-- Execute **[[Transitions/Rolling to Guard]]** → [[Positions/Closed Guard]] (Probability: 50%)
-- Execute **[[Hook opponent's leg and block throw]]** → [[Positions/Clinch]] (Probability: 30%)
+- Execute **[[Transitions/Rolling to Guard/Attacker|Rolling to Guard]]** → [[Positions/Closed Guard]] (Probability: 50%)
+- Execute **[[Hook opponent's leg and block throw/Attacker|Hook opponent's leg and block throw]]** → [[Positions/Clinch]] (Probability: 30%)
 
 
 **Else if opponent momentarily loosens grip or shifts weight:**
-- Execute **[[Transitions/Standing up in Base]]** → [[Positions/Clinch]] (Probability: 45%)
-- Execute **[[Transitions/Turn In and Face]]** → [[Positions/Clinch]] (Probability: 35%)
+- Execute **[[Transitions/Standing up in Base/Attacker|Standing up in Base]]** → [[Positions/Clinch]] (Probability: 45%)
+- Execute **[[Transitions/Turn In and Face/Attacker|Turn In and Face]]** → [[Positions/Clinch]] (Probability: 35%)
 
 
 

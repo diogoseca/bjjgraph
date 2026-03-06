@@ -93,27 +93,27 @@ Backside 50-50 has become increasingly relevant in modern no-gi competition as l
 ### Available Transitions
 
 
-- **[[Transitions/Heel Hook]]** (6% of attempts)
+- **[[Transitions/Heel Hook/Attacker|Heel Hook]]** (6% of attempts)
 
-- **[[Transitions/Outside Heel Hook]]** (5% of attempts)
+- **[[Transitions/Outside Heel Hook/Attacker|Outside Heel Hook]]** (5% of attempts)
 
-- **[[Transitions/Straight Ankle Lock Entry]]** (4% of attempts)
+- **[[Transitions/Straight Ankle Lock Entry/Attacker|Straight Ankle Lock Entry]]** (4% of attempts)
 
-- **[[Transitions/Standing up in Base]]** (6% of attempts)
+- **[[Transitions/Standing up in Base/Attacker|Standing up in Base]]** (6% of attempts)
 
-- **[[Transitions/Ashi Garami Escape]]** (44% of attempts)
+- **[[Transitions/Ashi Garami Escape/Attacker|Ashi Garami Escape]]** (44% of attempts)
 
-- **[[Transitions/Counter-entangle to 50-50 Guard]]** (11% of attempts)
+- **[[Transitions/Counter-entangle to 50-50 Guard/Attacker|Counter-entangle to 50-50 Guard]]** (11% of attempts)
 
-- **[[Transitions/Hip Escape to Guard]]** (5% of attempts)
+- **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** (5% of attempts)
 
-- **[[Transitions/Rolling Back Take]]** (7% of attempts)
+- **[[Transitions/Rolling Back Take/Attacker|Rolling Back Take]]** (7% of attempts)
 
-- **[[Transitions/Counter heel hook]]** (6% of attempts)
+- **[[Transitions/Counter heel hook/Attacker|Counter heel hook]]** (6% of attempts)
 
-- **[[Transitions/Angle Change Escape]]** (4% of attempts)
+- **[[Transitions/Angle Change Escape/Attacker|Angle Change Escape]]** (4% of attempts)
 
-- **[[Transitions/Heel Hook from Backside 50-50]]** (2% of attempts)
+- **[[Transitions/Heel Hook from Backside 50-50/Attacker|Heel Hook from Backside 50-50]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -174,29 +174,29 @@ Backside 50-50 has become increasingly relevant in modern no-gi competition as l
 ### Available Transitions
 
 
-- **[[Transitions/Heel Hook]]** (18% of attempts)
+- **[[Transitions/Heel Hook/Attacker|Heel Hook]]** (18% of attempts)
 
-- **[[Transitions/Outside Heel Hook]]** (10% of attempts)
+- **[[Transitions/Outside Heel Hook/Attacker|Outside Heel Hook]]** (10% of attempts)
 
-- **[[Transitions/Toe Hold]]** (10% of attempts)
+- **[[Transitions/Toe Hold/Attacker|Toe Hold]]** (10% of attempts)
 
-- **[[Transitions/Straight Ankle Lock Entry]]** (5% of attempts)
+- **[[Transitions/Straight Ankle Lock Entry/Attacker|Straight Ankle Lock Entry]]** (5% of attempts)
 
-- **[[Transitions/Saddle Entry from Top]]** (12% of attempts)
+- **[[Transitions/Saddle Entry from Top/Attacker|Saddle Entry from Top]]** (12% of attempts)
 
-- **[[Transitions/Kneebar]]** (7% of attempts)
+- **[[Transitions/Kneebar/Attacker|Kneebar]]** (7% of attempts)
 
-- **[[Transitions/50-50 Pass]]** (6% of attempts)
+- **[[Transitions/50-50 Pass/Attacker|50-50 Pass]]** (6% of attempts)
 
-- **[[Transitions/Back Take from 50-50]]** (16% of attempts)
+- **[[Transitions/Back Take from 50-50/Attacker|Back Take from 50-50]]** (16% of attempts)
 
-- **[[Transitions/Calf Slicer]]** (4% of attempts)
+- **[[Transitions/Calf Slicer/Attacker|Calf Slicer]]** (4% of attempts)
 
-- **[[Transitions/Inside Ashi-Garami to Honey Hole]]** (6% of attempts)
+- **[[Transitions/Inside Ashi-Garami to Honey Hole/Attacker|Inside Ashi-Garami to Honey Hole]]** (6% of attempts)
 
-- **[[Transitions/Counter heel hook]]** (4% of attempts)
+- **[[Transitions/Counter heel hook/Attacker|Counter heel hook]]** (4% of attempts)
 
-- **[[Submissions/Outside Heel Hook from Backside 50-50]]** (2% of attempts)
+- **[[Submissions/Outside Heel Hook from Backside 50-50/Attacker|Outside Heel Hook from Backside 50-50]]** (2% of attempts)
 
 
 ### Common Mistakes

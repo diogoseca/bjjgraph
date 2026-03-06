@@ -213,25 +213,25 @@ Success from top Hindulotine requires understanding weight distribution and hip 
 ## Decision Making from This Position
 
 **If opponent attempts to stand up or achieve vertical posture to escape:**
-- Execute **[[Follow to Standing Guillotine]]** → [[Positions/Standing Position]] (Probability: 50%)
-- Execute **[[Transitions/Snap Down to Front Headlock]]** → [[Positions/Front Headlock]] (Probability: 60%)
-- Execute **[[Guillotine Finish]]** → [[game-over]] (Probability: 55%)
+- Execute **[[Follow to Standing Guillotine/Attacker|Follow to Standing Guillotine]]** → [[Positions/Standing Position]] (Probability: 50%)
+- Execute **[[Transitions/Snap Down to Front Headlock/Attacker|Snap Down to Front Headlock]]** → [[Positions/Front Headlock]] (Probability: 60%)
+- Execute **[[Guillotine Finish/Attacker|Guillotine Finish]]** → [[game-over]] (Probability: 55%)
 
 
 **If opponent turns away to relieve pressure and exposes their back:**
-- Execute **[[Transitions/Back Take from Top]]** → [[Positions/Back Control]] (Probability: 75%)
-- Execute **[[Transition to Anaconda]]** → [[Positions/Anaconda Control]] (Probability: 60%)
+- Execute **[[Transitions/Back Take from Top/Attacker|Back Take from Top]]** → [[Positions/Back Control]] (Probability: 75%)
+- Execute **[[Transition to Anaconda/Attacker|Transition to Anaconda]]** → [[Positions/Anaconda Control]] (Probability: 60%)
 
 
 **If opponent flattens out completely in defensive turtle position:**
-- Execute **[[Transitions/Side Control to Mount]]** → [[Positions/Mount]] (Probability: 65%)
-- Execute **[[Transitions/Front Headlock to Back]]** → [[Positions/Back Control]] (Probability: 70%)
-- Execute **[[Transitions/Arm Triangle from Top]]** → [[game-over]] (Probability: 50%)
+- Execute **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** → [[Positions/Mount]] (Probability: 65%)
+- Execute **[[Transitions/Front Headlock to Back/Attacker|Front Headlock to Back]]** → [[Positions/Back Control]] (Probability: 70%)
+- Execute **[[Transitions/Arm Triangle from Top/Attacker|Arm Triangle from Top]]** → [[game-over]] (Probability: 50%)
 
 
 **If opponent creates defensive frames with arms while defending neck:**
-- Execute **[[Transitions/Hindulotine to Darce Choke]]** → [[Positions/Darce Control]] (Probability: 65%)
-- Execute **[[Transitions/Side Control to North-South]]** → [[Positions/North-South]] (Probability: 55%)
+- Execute **[[Transitions/Hindulotine to Darce Choke/Attacker|Hindulotine to Darce Choke]]** → [[Positions/Darce Control]] (Probability: 65%)
+- Execute **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** → [[Positions/North-South]] (Probability: 55%)
 
 
 

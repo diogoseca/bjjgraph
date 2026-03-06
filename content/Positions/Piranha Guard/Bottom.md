@@ -211,28 +211,28 @@ From a tactical perspective, Piranha Guard represents the evolution of modern la
 ## Decision Making from This Position
 
 **If opponent establishes strong base and attempts to clear lapel with both hands:**
-- Execute **[[Transitions/Berimbolo Entry]]** → [[Positions/Back Control]] (Probability: 55%)
-- Execute **[[Transition to Worm Guard]]** → [[Positions/Worm Guard]] (Probability: 40%)
+- Execute **[[Transitions/Berimbolo Entry/Attacker|Berimbolo Entry]]** → [[Positions/Back Control]] (Probability: 55%)
+- Execute **[[Transition to Worm Guard/Attacker|Transition to Worm Guard]]** → [[Positions/Worm Guard]] (Probability: 40%)
 
 
 **If opponent drives forward with pressure attempting knee cut or smash pass:**
-- Execute **[[Transitions/Pendulum Sweep]]** → [[Positions/Mount]] (Probability: 65%)
-- Execute **[[Transitions/Omoplata Sweep]]** → [[Positions/Omoplata Control]] (Probability: 50%)
+- Execute **[[Transitions/Pendulum Sweep/Attacker|Pendulum Sweep]]** → [[Positions/Mount]] (Probability: 65%)
+- Execute **[[Transitions/Omoplata Sweep/Attacker|Omoplata Sweep]]** → [[Positions/Omoplata Control]] (Probability: 50%)
 
 
 **If opponent stands tall and attempts to disengage from lapel entanglement:**
-- Execute **[[Transitions/De La Riva Sweep]]** → [[Positions/Side Control]] (Probability: 60%)
-- Execute **[[Transitions/Flower Sweep]]** → [[Positions/Mount]] (Probability: 55%)
+- Execute **[[Transitions/De La Riva Sweep/Attacker|De La Riva Sweep]]** → [[Positions/Side Control]] (Probability: 60%)
+- Execute **[[Transitions/Flower Sweep/Attacker|Flower Sweep]]** → [[Positions/Mount]] (Probability: 55%)
 
 
 **If opponent commits to one side to clear hooks or posts arm defensively:**
-- Execute **[[Transitions/Collar Drag]]** → [[Positions/Back Control]] (Probability: 60%)
-- Execute **[[Submissions/Armbar from Guard]]** → [[Positions/Armbar Control]] (Probability: 45%)
+- Execute **[[Transitions/Collar Drag/Attacker|Collar Drag]]** → [[Positions/Back Control]] (Probability: 60%)
+- Execute **[[Submissions/Armbar from Guard/Attacker|Armbar from Guard]]** → [[Positions/Armbar Control]] (Probability: 45%)
 
 
 **If opponent maintains low posture attempting to control your legs and hips:**
-- Execute **[[Transitions/Triangle Setup]]** → [[Positions/Triangle Control]] (Probability: 55%)
-- Execute **[[Omoplata Setup]]** → [[Positions/Omoplata Control]] (Probability: 50%)
+- Execute **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** → [[Positions/Triangle Control]] (Probability: 55%)
+- Execute **[[Omoplata Setup/Attacker|Omoplata Setup]]** → [[Positions/Omoplata Control]] (Probability: 50%)
 
 
 

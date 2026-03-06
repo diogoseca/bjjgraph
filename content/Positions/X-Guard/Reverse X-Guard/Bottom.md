@@ -211,23 +211,23 @@ The position requires high technical proficiency, hip mobility, and timing to ex
 ## Decision Making from This Position
 
 **If opponent maintains standing posture with weight evenly distributed:**
-- Execute **[[Transitions/Elevation Sweep to Mount]]** → [[Positions/Mount]] (Probability: 65%)
-- Execute **[[Transitions/Reverse X-Guard Sweep]]** → [[Positions/Mount]] (Probability: 70%)
+- Execute **[[Transitions/Elevation Sweep to Mount/Attacker|Elevation Sweep to Mount]]** → [[Positions/Mount]] (Probability: 65%)
+- Execute **[[Transitions/Reverse X-Guard Sweep/Attacker|Reverse X-Guard Sweep]]** → [[Positions/Mount]] (Probability: 70%)
 
 
 **If opponent drops weight and attempts to smash through hooks:**
-- Execute **[[Transition to Deep Half Guard]]** → [[Positions/Half Guard/Deep Half Guard]] (Probability: 60%)
-- Execute **[[Inversion to Back]]** → [[Positions/Back Control]] (Probability: 55%)
+- Execute **[[Transition to Deep Half Guard/Attacker|Transition to Deep Half Guard]]** → [[Positions/Half Guard/Deep Half Guard]] (Probability: 60%)
+- Execute **[[Inversion to Back/Attacker|Inversion to Back]]** → [[Positions/Back Control]] (Probability: 55%)
 
 
 **If opponent steps back or attempts to disengage controlled leg:**
-- Execute **[[Follow to Single Leg X]]** → [[Positions/X-Guard/Single Leg X-Guard]] (Probability: 70%)
-- Execute **[[Entry to Ashi Garami]]** → [[Positions/Ashi Garami]] (Probability: 65%)
+- Execute **[[Follow to Single Leg X/Attacker|Follow to Single Leg X]]** → [[Positions/X-Guard/Single Leg X-Guard]] (Probability: 70%)
+- Execute **[[Entry to Ashi Garami/Attacker|Entry to Ashi Garami]]** → [[Positions/Ashi Garami]] (Probability: 65%)
 
 
 **If opponent backsteps or attempts to pass around controlled leg:**
-- Execute **[[Inversion to Back Take]]** → [[Positions/Back Control]] (Probability: 60%)
-- Execute **[[Granby Roll to Guard Recovery]]** → [[Positions/Open Guard]] (Probability: 55%)
+- Execute **[[Inversion to Back Take/Attacker|Inversion to Back Take]]** → [[Positions/Back Control]] (Probability: 60%)
+- Execute **[[Granby Roll to Guard Recovery/Attacker|Granby Roll to Guard Recovery]]** → [[Positions/Open Guard]] (Probability: 55%)
 
 
 

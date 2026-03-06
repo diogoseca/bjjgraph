@@ -211,28 +211,28 @@ The position excels in no-gi grappling where leg attacks are permitted, offering
 ## Decision Making from This Position
 
 **If opponent remains stationary with leg trapped and shows little defensive movement or awareness:**
-- Execute **[[Transitions/Straight Ankle Lock Entry]]** → [[Positions/Straight Ankle Lock Control]] (Probability: 75%)
-- Execute **[[Transitions/Toe Hold]]** → [[Positions/Toe Hold Control]] (Probability: 65%)
+- Execute **[[Transitions/Straight Ankle Lock Entry/Attacker|Straight Ankle Lock Entry]]** → [[Positions/Straight Ankle Lock Control]] (Probability: 75%)
+- Execute **[[Transitions/Toe Hold/Attacker|Toe Hold]]** → [[Positions/Toe Hold Control]] (Probability: 65%)
 
 
 **If opponent turns knee inward to defend ankle lock and creates heel hook opportunity:**
-- Execute **[[Transitions/Heel Hook]]** → [[Positions/Ashi Garami/Saddle]] (Probability: 70%)
-- Execute **[[Transitions/Inside Ashi-Garami to Honey Hole]]** → [[Positions/Ashi Garami/Honey Hole]] (Probability: 60%)
+- Execute **[[Transitions/Heel Hook/Attacker|Heel Hook]]** → [[Positions/Ashi Garami/Saddle]] (Probability: 70%)
+- Execute **[[Transitions/Inside Ashi-Garami to Honey Hole/Attacker|Inside Ashi-Garami to Honey Hole]]** → [[Positions/Ashi Garami/Honey Hole]] (Probability: 60%)
 
 
 **If opponent rotates hips away and attempts to clear inside leg from hip:**
-- Execute **[[Transitions/Outside Ashi Entry]]** → [[Positions/Ashi Garami/Outside Ashi-Garami]] (Probability: 65%)
-- Execute **[[Transitions/Saddle Entry from Top]]** → [[Positions/Ashi Garami/Saddle]] (Probability: 55%)
+- Execute **[[Transitions/Outside Ashi Entry/Attacker|Outside Ashi Entry]]** → [[Positions/Ashi Garami/Outside Ashi-Garami]] (Probability: 65%)
+- Execute **[[Transitions/Saddle Entry from Top/Attacker|Saddle Entry from Top]]** → [[Positions/Ashi Garami/Saddle]] (Probability: 55%)
 
 
 **If opponent extends trapped leg forcefully to create distance and escape:**
-- Execute **[[Transitions/Kneebar Finish]]** → [[Positions/Kneebar Control]] (Probability: 60%)
-- Execute **[[Transitions/Ankle Lock Finish]]** → [[Positions/Ashi Garami/Inside Ashi-Garami]] (Probability: 50%)
+- Execute **[[Transitions/Kneebar Finish/Attacker|Kneebar Finish]]** → [[Positions/Kneebar Control]] (Probability: 60%)
+- Execute **[[Transitions/Ankle Lock Finish/Attacker|Ankle Lock Finish]]** → [[Positions/Ashi Garami/Inside Ashi-Garami]] (Probability: 50%)
 
 
 **If opponent sits up aggressively and reaches for your legs or upper body:**
-- Execute **[[Transitions/Back Take from Ashi]]** → [[Positions/Back Control]] (Probability: 55%)
-- Execute **[[Transitions/Position reversal sweep to top]]** → [[Positions/Standing Position]] (Probability: 45%)
+- Execute **[[Transitions/Back Take from Ashi/Attacker|Back Take from Ashi]]** → [[Positions/Back Control]] (Probability: 55%)
+- Execute **[[Transitions/Position reversal sweep to top/Attacker|Position reversal sweep to top]]** → [[Positions/Standing Position]] (Probability: 45%)
 
 
 

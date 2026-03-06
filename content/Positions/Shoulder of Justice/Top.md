@@ -210,28 +210,28 @@ The Shoulder of Justice Top is characterized by driving your shoulder blade deep
 ## Decision Making from This Position
 
 **If opponent attempts to create frames or push away with near-side arm to relieve pressure:**
-- Execute **[[Transitions/Kimura]]** → [[Positions/Kimura Trap]] (Probability: 72%)
-- Execute **[[Transitions/Americana]]** → [[Positions/Armbar Control]] (Probability: 67%)
+- Execute **[[Transitions/Kimura/Attacker|Kimura]]** → [[Positions/Kimura Trap]] (Probability: 72%)
+- Execute **[[Transitions/Americana/Attacker|Americana]]** → [[Positions/Armbar Control]] (Probability: 67%)
 
 
 **If opponent shrimps away or attempts to recover guard by creating distance:**
-- Execute **[[Transitions/Side Control to Mount]]** → [[Positions/Mount]] (Probability: 77%)
-- Execute **[[Positions/Knee on Belly]]** → [[Positions/Knee on Belly]] (Probability: 70%)
+- Execute **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** → [[Positions/Mount]] (Probability: 77%)
+- Execute **[[Positions/Knee on Belly/Attacker|Knee on Belly]]** → [[Positions/Knee on Belly]] (Probability: 70%)
 
 
 **If opponent turns toward you to escape shoulder pressure or go to turtle:**
-- Execute **[[Transitions/Side Control to North-South]]** → [[Positions/North-South]] (Probability: 82%)
-- Execute **[[Transitions/Back Take from Top]]** → [[Positions/Back Control]] (Probability: 74%)
+- Execute **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** → [[Positions/North-South]] (Probability: 82%)
+- Execute **[[Transitions/Back Take from Top/Attacker|Back Take from Top]]** → [[Positions/Back Control]] (Probability: 74%)
 
 
 **If opponent brings far arm across to defend face from shoulder pressure:**
-- Execute **[[Transitions/Arm Triangle]]** → [[Positions/Armbar Control]] (Probability: 65%)
-- Execute **[[Transitions/North-South Choke]]** → [[Positions/North-South]] (Probability: 58%)
+- Execute **[[Transitions/Arm Triangle/Attacker|Arm Triangle]]** → [[Positions/Armbar Control]] (Probability: 65%)
+- Execute **[[Transitions/North-South Choke/Attacker|North-South Choke]]** → [[Positions/North-South]] (Probability: 58%)
 
 
 **If opponent flattens out completely and stops resisting to conserve energy:**
-- Execute **[[Transitions/Side Control to Mount]]** → [[Positions/Mount]] (Probability: 80%)
-- Execute **[[Transitions/Kimura]]** → [[Positions/Kimura Trap]] (Probability: 68%)
+- Execute **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** → [[Positions/Mount]] (Probability: 80%)
+- Execute **[[Transitions/Kimura/Attacker|Kimura]]** → [[Positions/Kimura Trap]] (Probability: 68%)
 
 
 

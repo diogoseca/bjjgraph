@@ -213,23 +213,23 @@ Modern guard players have integrated overhook control into systematic approaches
 ## Decision Making from This Position
 
 **If opponent postures back attempting to pull their arm free:**
-- Execute **[[Transitions/Arm Drag to Back]]** → [[Positions/Back Control]] (Probability: 66%)
-- Execute **[[Transitions/Triangle Setup]]** → [[Positions/Triangle Control]] (Probability: 62%)
+- Execute **[[Transitions/Arm Drag to Back/Attacker|Arm Drag to Back]]** → [[Positions/Back Control]] (Probability: 66%)
+- Execute **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** → [[Positions/Triangle Control]] (Probability: 62%)
 
 
 **If opponent drives forward with pressure into overhook side:**
-- Execute **[[Transitions/Overhook Sweep]]** → [[Positions/Mount]] (Probability: 70%)
-- Execute **[[Transitions/Butterfly Sweep]]** → [[Positions/Mount]] (Probability: 68%)
+- Execute **[[Transitions/Overhook Sweep/Attacker|Overhook Sweep]]** → [[Positions/Mount]] (Probability: 70%)
+- Execute **[[Transitions/Butterfly Sweep/Attacker|Butterfly Sweep]]** → [[Positions/Mount]] (Probability: 68%)
 
 
 **If opponent drops their head forward attempting to pass:**
-- Execute **[[Transitions/Guillotine Setup]]** → [[Positions/Guillotine Control]] (Probability: 64%)
-- Execute **[[Transitions/Closed Guard to Omoplata]]** → [[Positions/Omoplata Control]] (Probability: 58%)
+- Execute **[[Transitions/Guillotine Setup/Attacker|Guillotine Setup]]** → [[Positions/Guillotine Control]] (Probability: 64%)
+- Execute **[[Transitions/Closed Guard to Omoplata/Attacker|Closed Guard to Omoplata]]** → [[Positions/Omoplata Control]] (Probability: 58%)
 
 
 **If opponent attempts to circle away from overhook side:**
-- Execute **[[Transitions/Elevator Sweep]]** → [[Positions/Mount]] (Probability: 67%)
-- Execute **[[Transitions/Arm Drag to Back]]** → [[Positions/Back Control]] (Probability: 66%)
+- Execute **[[Transitions/Elevator Sweep/Attacker|Elevator Sweep]]** → [[Positions/Mount]] (Probability: 67%)
+- Execute **[[Transitions/Arm Drag to Back/Attacker|Arm Drag to Back]]** → [[Positions/Back Control]] (Probability: 66%)
 
 
 

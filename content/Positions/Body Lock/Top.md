@@ -211,23 +211,23 @@ Modern no-gi competition has elevated the body lock to a primary offensive weapo
 ## Decision Making from This Position
 
 **If opponent maintains strong upright posture and resists backward pressure:**
-- Execute **[[Transitions/Tani Otoshi]]** → [[Positions/Side Control]] (Probability: 55%)
-- Execute **[[Transitions/Snap Down to Front Headlock]]** → [[Positions/Front Headlock]] (Probability: 45%)
+- Execute **[[Transitions/Tani Otoshi/Attacker|Tani Otoshi]]** → [[Positions/Side Control]] (Probability: 55%)
+- Execute **[[Transitions/Snap Down to Front Headlock/Attacker|Snap Down to Front Headlock]]** → [[Positions/Front Headlock]] (Probability: 45%)
 
 
 **Else if opponent's posture breaks backward under hip pressure:**
-- Execute **[[Transitions/Mat Return to Back Mount]]** → [[Positions/Back Control]] (Probability: 75%)
-- Execute **[[Transitions/Body Lock Pass]]** → [[Positions/Side Control]] (Probability: 70%)
+- Execute **[[Transitions/Mat Return to Back Mount/Attacker|Mat Return to Back Mount]]** → [[Positions/Back Control]] (Probability: 75%)
+- Execute **[[Transitions/Body Lock Pass/Attacker|Body Lock Pass]]** → [[Positions/Side Control]] (Probability: 70%)
 
 
 **Else if opponent attempts to sit or pull guard:**
-- Execute **[[Follow to Closed Guard Top]]** → [[Positions/Closed Guard]] (Probability: 65%)
-- Execute **[[Transitions/Back Take]]** → [[Positions/Back Control]] (Probability: 55%)
+- Execute **[[Follow to Closed Guard Top/Attacker|Follow to Closed Guard Top]]** → [[Positions/Closed Guard]] (Probability: 65%)
+- Execute **[[Transitions/Back Take/Attacker|Back Take]]** → [[Positions/Back Control]] (Probability: 55%)
 
 
 **Else if opponent creates frames or attempts to break grip:**
-- Execute **[[Increase hip pressure and re-lock]]** → [[Positions/Body Lock]] (Probability: 60%)
-- Execute **[[Transitions/Kosoto Gake]]** → [[Positions/Side Control]] (Probability: 50%)
+- Execute **[[Increase hip pressure and re-lock/Attacker|Increase hip pressure and re-lock]]** → [[Positions/Body Lock]] (Probability: 60%)
+- Execute **[[Transitions/Kosoto Gake/Attacker|Kosoto Gake]]** → [[Positions/Side Control]] (Probability: 50%)
 
 
 

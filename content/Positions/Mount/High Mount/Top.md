@@ -214,28 +214,28 @@ From a biomechanical perspective, High Mount achieves dominance by positioning t
 ## Decision Making from This Position
 
 **If opponent keeps arms extended for frames or defensive postures with straight arms:**
-- Execute **[[Transitions/Mount to Armbar]]** → [[Positions/Armbar Control]] (Probability: 75%)
-- Execute **[[Transitions/Kimura]]** → [[Positions/Kimura Trap]] (Probability: 60%)
+- Execute **[[Transitions/Mount to Armbar/Attacker|Mount to Armbar]]** → [[Positions/Armbar Control]] (Probability: 75%)
+- Execute **[[Transitions/Kimura/Attacker|Kimura]]** → [[Positions/Kimura Trap]] (Probability: 60%)
 
 
 **If opponent tucks elbows tight to body and protects neck defensively with bent arms:**
-- Execute **[[Transitions/Cross Collar Choke]]** → [[Positions/Game Over]] (Probability: 65%)
-- Execute **[[Transitions/Americana]]** → [[Positions/Game Over]] (Probability: 55%)
+- Execute **[[Transitions/Cross Collar Choke/Attacker|Cross Collar Choke]]** → [[Positions/Game Over]] (Probability: 65%)
+- Execute **[[Transitions/Americana/Attacker|Americana]]** → [[Positions/Game Over]] (Probability: 55%)
 
 
 **If opponent attempts to bridge or turn to side for escape with explosive movement:**
-- Execute **[[Transitions/S-Mount Transition]]** → [[Positions/Mount/S Mount]] (Probability: 80%)
-- Execute **[[Transitions/High Mount Transition]]** → [[Positions/Mount/Technical Mount]] (Probability: 75%)
+- Execute **[[Transitions/S-Mount Transition/Attacker|S-Mount Transition]]** → [[Positions/Mount/S Mount]] (Probability: 80%)
+- Execute **[[Transitions/High Mount Transition/Attacker|High Mount Transition]]** → [[Positions/Mount/Technical Mount]] (Probability: 75%)
 
 
 **If opponent creates frames and attempts to push on hips with both hands:**
-- Execute **[[Transitions/Mount to Armbar]]** → [[Positions/Armbar Control]] (Probability: 70%)
-- Execute **[[Transitions/Triangle from Mount]]** → [[Positions/Triangle Control]] (Probability: 60%)
+- Execute **[[Transitions/Mount to Armbar/Attacker|Mount to Armbar]]** → [[Positions/Armbar Control]] (Probability: 70%)
+- Execute **[[Transitions/Triangle from Mount/Attacker|Triangle from Mount]]** → [[Positions/Triangle Control]] (Probability: 60%)
 
 
 **If opponent exposes neck while defending arms or attempting to protect upper body:**
-- Execute **[[Transitions/Cross Collar Choke]]** → [[Positions/Game Over]] (Probability: 70%)
-- Execute **[[Positions/Mount/Mounted Triangle]]** → [[Positions/Mount/Mounted Triangle]] (Probability: 65%)
+- Execute **[[Transitions/Cross Collar Choke/Attacker|Cross Collar Choke]]** → [[Positions/Game Over]] (Probability: 70%)
+- Execute **[[Positions/Mount/Mounted Triangle/Attacker|Mounted Triangle]]** → [[Positions/Mount/Mounted Triangle]] (Probability: 65%)
 
 
 

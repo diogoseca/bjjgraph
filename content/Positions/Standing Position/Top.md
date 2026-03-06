@@ -208,33 +208,33 @@ The Standing Position represents the fundamental neutral starting state in BJJ a
 ## Decision Making from This Position
 
 **If opponent establishes strong collar tie and is driving forward with pressure:**
-- Execute **[[Transitions/Snap Down to Front Headlock]]** → [[Positions/Front Headlock]] (Probability: 55%)
-- Execute **[[Transitions/Guard Pull]]** → [[Positions/Closed Guard]] (Probability: 50%)
-- Execute **[[Transitions/Arm Drag to Back]]** → [[Positions/Back Control]] (Probability: 45%)
+- Execute **[[Transitions/Snap Down to Front Headlock/Attacker|Snap Down to Front Headlock]]** → [[Positions/Front Headlock]] (Probability: 55%)
+- Execute **[[Transitions/Guard Pull/Attacker|Guard Pull]]** → [[Positions/Closed Guard]] (Probability: 50%)
+- Execute **[[Transitions/Arm Drag to Back/Attacker|Arm Drag to Back]]** → [[Positions/Back Control]] (Probability: 45%)
 
 
 **If opponent is standing upright with minimal grip engagement and maintaining distance:**
-- Execute **[[Transitions/Single Leg Entry]]** → [[Positions/Half Guard]] (Probability: 50%)
-- Execute **[[Transitions/Double Leg Entry]]** → [[Positions/Side Control]] (Probability: 45%)
-- Execute **[[Transitions/Ankle Pick]]** → [[Positions/Half Guard]] (Probability: 40%)
+- Execute **[[Transitions/Single Leg Entry/Attacker|Single Leg Entry]]** → [[Positions/Half Guard]] (Probability: 50%)
+- Execute **[[Transitions/Double Leg Entry/Attacker|Double Leg Entry]]** → [[Positions/Side Control]] (Probability: 45%)
+- Execute **[[Transitions/Ankle Pick/Attacker|Ankle Pick]]** → [[Positions/Half Guard]] (Probability: 40%)
 
 
 **If opponent is shooting for legs or lowering level aggressively:**
-- Execute **[[Transitions/Sprawl]]** → [[Positions/Front Headlock]] (Probability: 65%)
-- Execute **[[Transitions/Guard Pull]]** → [[Positions/Closed Guard]] (Probability: 55%)
-- Execute **[[Transitions/Guillotine Choke]]** → [[Positions/Guillotine Control]] (Probability: 40%)
+- Execute **[[Transitions/Sprawl/Attacker|Sprawl]]** → [[Positions/Front Headlock]] (Probability: 65%)
+- Execute **[[Transitions/Guard Pull/Attacker|Guard Pull]]** → [[Positions/Closed Guard]] (Probability: 55%)
+- Execute **[[Transitions/Guillotine Choke/Attacker|Guillotine Choke]]** → [[Positions/Guillotine Control]] (Probability: 40%)
 
 
 **If opponent secures dominant sleeve and collar grips with strong judo posture:**
-- Execute **[[Transitions/Grip Break]]** → [[Positions/Standing Position]] (Probability: 50%)
-- Execute **[[Transitions/Sitting Guard Pull]]** → [[Positions/Seated Guard]] (Probability: 60%)
-- Execute **[[Transitions/Rolling Guard Pull]]** → [[Positions/De La Riva Guard]] (Probability: 45%)
+- Execute **[[Transitions/Grip Break/Attacker|Grip Break]]** → [[Positions/Standing Position]] (Probability: 50%)
+- Execute **[[Transitions/Sitting Guard Pull/Attacker|Sitting Guard Pull]]** → [[Positions/Seated Guard]] (Probability: 60%)
+- Execute **[[Transitions/Rolling Guard Pull/Attacker|Rolling Guard Pull]]** → [[Positions/De La Riva Guard]] (Probability: 45%)
 
 
 **If opponent is circling and avoiding engagement with constant movement:**
-- Execute **[[Transitions/Ankle Pick]]** → [[Positions/Half Guard]] (Probability: 45%)
-- Execute **[[Transitions/Snap Down to Front Headlock]]** → [[Positions/Front Headlock]] (Probability: 40%)
-- Execute **[[Transitions/Guard Pull]]** → [[Positions/Closed Guard]] (Probability: 50%)
+- Execute **[[Transitions/Ankle Pick/Attacker|Ankle Pick]]** → [[Positions/Half Guard]] (Probability: 45%)
+- Execute **[[Transitions/Snap Down to Front Headlock/Attacker|Snap Down to Front Headlock]]** → [[Positions/Front Headlock]] (Probability: 40%)
+- Execute **[[Transitions/Guard Pull/Attacker|Guard Pull]]** → [[Positions/Closed Guard]] (Probability: 50%)
 
 
 

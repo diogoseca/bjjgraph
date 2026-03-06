@@ -213,23 +213,23 @@ Advanced top players learn to create dilemmas in reverse - making the inverted p
 ## Decision Making from This Position
 
 **If bottom player commits to berimbolo rotation with leg threading behind back:**
-- Execute **[[Transitions/Cartwheel Pass]]** → [[Positions/Back Control]] (Probability: 60%)
-- Execute **[[Transitions/Pressure Pass]]** → [[Positions/Side Control]] (Probability: 45%)
+- Execute **[[Transitions/Cartwheel Pass/Attacker|Cartwheel Pass]]** → [[Positions/Back Control]] (Probability: 60%)
+- Execute **[[Transitions/Pressure Pass/Attacker|Pressure Pass]]** → [[Positions/Side Control]] (Probability: 45%)
 
 
 **If bottom player extends lassoed leg for overhead sweep:**
-- Execute **[[Transitions/Stack Pass]]** → [[Positions/Side Control]] (Probability: 65%)
-- Execute **[[Transitions/Pressure Pass]]** → [[Positions/Side Control]] (Probability: 55%)
+- Execute **[[Transitions/Stack Pass/Attacker|Stack Pass]]** → [[Positions/Side Control]] (Probability: 65%)
+- Execute **[[Transitions/Pressure Pass/Attacker|Pressure Pass]]** → [[Positions/Side Control]] (Probability: 55%)
 
 
 **If lasso hook shows any looseness or bottom player adjusts grip:**
-- Execute **[[Transitions/Arm Extraction]]** → [[Positions/Open Guard]] (Probability: 70%)
-- Execute **[[Transitions/Knee Cut Pass]]** → [[Positions/Side Control]] (Probability: 60%)
+- Execute **[[Transitions/Arm Extraction/Attacker|Arm Extraction]]** → [[Positions/Open Guard]] (Probability: 70%)
+- Execute **[[Transitions/Knee Cut Pass/Attacker|Knee Cut Pass]]** → [[Positions/Side Control]] (Probability: 60%)
 
 
 **If bottom player remains inverted without initiating specific technique:**
-- Execute **[[Transitions/Pressure Pass]]** → [[Positions/Side Control]] (Probability: 55%)
-- Execute **[[Transitions/Smash Pass]]** → [[Positions/Side Control]] (Probability: 50%)
+- Execute **[[Transitions/Pressure Pass/Attacker|Pressure Pass]]** → [[Positions/Side Control]] (Probability: 55%)
+- Execute **[[Transitions/Smash Pass/Attacker|Smash Pass]]** → [[Positions/Side Control]] (Probability: 50%)
 
 
 

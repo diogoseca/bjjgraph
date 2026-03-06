@@ -86,25 +86,25 @@ X-Guard is an advanced open guard position where the bottom practitioner entangl
 ### Available Transitions
 
 
-- **[[Transitions/X-Guard Sweep]]** (36% of attempts)
+- **[[Transitions/X-Guard Sweep/Attacker|X-Guard Sweep]]** (36% of attempts)
 
-- **[[Transitions/Single Leg X Entry]]** (16% of attempts)
+- **[[Transitions/Single Leg X Entry/Attacker|Single Leg X Entry]]** (16% of attempts)
 
-- **[[Transitions/X-Guard to Ashi Garami]]** (13% of attempts)
+- **[[Transitions/X-Guard to Ashi Garami/Attacker|X-Guard to Ashi Garami]]** (13% of attempts)
 
-- **[[Transitions/Technical Stand Up to Single Leg]]** (7% of attempts)
+- **[[Transitions/Technical Stand Up to Single Leg/Attacker|Technical Stand Up to Single Leg]]** (7% of attempts)
 
-- **[[Transitions/Deep Half Entry]]** (6% of attempts)
+- **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** (6% of attempts)
 
-- **[[Transitions/Butterfly Guard to X-Guard]]** (6% of attempts)
+- **[[Transitions/Butterfly Guard to X-Guard/Attacker|Butterfly Guard to X-Guard]]** (6% of attempts)
 
-- **[[Transitions/Tomahawk Sweep]]** (11% of attempts)
+- **[[Transitions/Tomahawk Sweep/Attacker|Tomahawk Sweep]]** (11% of attempts)
 
-- **[[Transitions/X-Guard Technical Stand Up]]** (2% of attempts)
+- **[[Transitions/X-Guard Technical Stand Up/Attacker|X-Guard Technical Stand Up]]** (2% of attempts)
 
-- **[[Transitions/X-Guard to Single Leg X]]** (1% of attempts)
+- **[[Transitions/X-Guard to Single Leg X/Attacker|X-Guard to Single Leg X]]** (1% of attempts)
 
-- **[[Submissions/Ankle Lock from X-Guard]]** (2% of attempts)
+- **[[Submissions/Ankle Lock from X-Guard/Attacker|Ankle Lock from X-Guard]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -165,29 +165,29 @@ X-Guard is an advanced open guard position where the bottom practitioner entangl
 ### Available Transitions
 
 
-- **[[Transitions/Smash Pass]]** (12% of attempts)
+- **[[Transitions/Smash Pass/Attacker|Smash Pass]]** (12% of attempts)
 
-- **[[Transitions/Knee Slice Pass]]** (61% of attempts)
+- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (61% of attempts)
 
-- **[[Transitions/Long Step Pass]]** (6% of attempts)
+- **[[Transitions/Long Step Pass/Attacker|Long Step Pass]]** (6% of attempts)
 
-- **[[Transitions/Saddle Entry from Top]]** (4% of attempts)
+- **[[Transitions/Saddle Entry from Top/Attacker|Saddle Entry from Top]]** (4% of attempts)
 
-- **[[Transitions/Outside Ashi Entry]]** (2% of attempts)
+- **[[Transitions/Outside Ashi Entry/Attacker|Outside Ashi Entry]]** (2% of attempts)
 
-- **[[Transitions/Leg Weave Pass]]** (6% of attempts)
+- **[[Transitions/Leg Weave Pass/Attacker|Leg Weave Pass]]** (6% of attempts)
 
-- **[[Transitions/Back Step]]** (2% of attempts)
+- **[[Transitions/Back Step/Attacker|Back Step]]** (2% of attempts)
 
-- **[[Transitions/Stack Pass]]** (6% of attempts)
+- **[[Transitions/Stack Pass/Attacker|Stack Pass]]** (6% of attempts)
 
-- **[[Transitions/Knee Pin from X-Guard]]** (0% of attempts)
+- **[[Transitions/Knee Pin from X-Guard/Attacker|Knee Pin from X-Guard]]** (0% of attempts)
 
-- **[[Transitions/Step Over from X-Guard]]** (0% of attempts)
+- **[[Transitions/Step Over from X-Guard/Attacker|Step Over from X-Guard]]** (0% of attempts)
 
-- **[[Transitions/Smash Pass from X-Guard]]** (0% of attempts)
+- **[[Transitions/Smash Pass from X-Guard/Attacker|Smash Pass from X-Guard]]** (0% of attempts)
 
-- **[[Transitions/Standing Escape from X-Guard]]** (1% of attempts)
+- **[[Transitions/Standing Escape from X-Guard/Attacker|Standing Escape from X-Guard]]** (1% of attempts)
 
 
 ### Common Mistakes

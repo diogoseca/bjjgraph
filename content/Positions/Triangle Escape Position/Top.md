@@ -210,23 +210,23 @@ The position demands sophisticated decision-making about when to prioritize surv
 ## Decision Making from This Position
 
 **If triangle is not yet fully locked and opponent is still adjusting position:**
-- Execute **[[Transitions/Posture Recovery]]** → [[Positions/Combat Base]] (Probability: 60%)
-- Execute **[[Transitions/Arm Extraction]]** → [[Positions/Closed Guard]] (Probability: 50%)
+- Execute **[[Transitions/Posture Recovery/Attacker|Posture Recovery]]** → [[Positions/Combat Base]] (Probability: 60%)
+- Execute **[[Transitions/Arm Extraction/Attacker|Arm Extraction]]** → [[Positions/Closed Guard]] (Probability: 50%)
 
 
 **If triangle is locked but not yet tight with space at neck:**
-- Execute **[[Transitions/Stack Pass]]** → [[Positions/Side Control]] (Probability: 55%)
-- Execute **[[Transitions/Triangle Escape]]** → [[Positions/Open Guard]] (Probability: 45%)
+- Execute **[[Transitions/Stack Pass/Attacker|Stack Pass]]** → [[Positions/Side Control]] (Probability: 55%)
+- Execute **[[Transitions/Triangle Escape/Attacker|Triangle Escape]]** → [[Positions/Open Guard]] (Probability: 45%)
 
 
 **If triangle is locked tight and opponent has proper angle:**
-- Execute **[[Transitions/Standing up in Base]]** → [[Positions/Open Guard]] (Probability: 45%)
-- Execute **[[Transitions/Stack Pass]]** → [[Positions/Side Control]] (Probability: 40%)
+- Execute **[[Transitions/Standing up in Base/Attacker|Standing up in Base]]** → [[Positions/Open Guard]] (Probability: 45%)
+- Execute **[[Transitions/Stack Pass/Attacker|Stack Pass]]** → [[Positions/Side Control]] (Probability: 40%)
 
 
 **If opponent begins transitioning to armbar from triangle position:**
-- Execute **[[Transitions/Armbar Defense]]** → [[Positions/Closed Guard]] (Probability: 50%)
-- Execute **[[Transitions/Posture Recovery]]** → [[Positions/Combat Base]] (Probability: 40%)
+- Execute **[[Transitions/Armbar Defense/Attacker|Armbar Defense]]** → [[Positions/Closed Guard]] (Probability: 50%)
+- Execute **[[Transitions/Posture Recovery/Attacker|Posture Recovery]]** → [[Positions/Combat Base]] (Probability: 40%)
 
 
 

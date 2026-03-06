@@ -205,24 +205,24 @@ Double Sleeve Guard Top represents the passing position when facing an opponent 
 ## Decision Making from This Position
 
 **If opponent maintains strong double sleeve grips with feet on hips creating maximum distance:**
-- Execute **[[Transitions/Grip Break]]** → [[Positions/Combat Base]] (Probability: 60%)
-- Execute **[[Transitions/Toreando Pass]]** → [[Positions/Side Control]] (Probability: 50%)
+- Execute **[[Transitions/Grip Break/Attacker|Grip Break]]** → [[Positions/Combat Base]] (Probability: 60%)
+- Execute **[[Transitions/Toreando Pass/Attacker|Toreando Pass]]** → [[Positions/Side Control]] (Probability: 50%)
 
 
 **If opponent has sleeve grips but legs are in dynamic movement without stable foot placement:**
-- Execute **[[Transitions/Knee Slice Pass]]** → [[Positions/Side Control]] (Probability: 55%)
-- Execute **[[Transitions/Leg Drag Pass]]** → [[Positions/Leg Drag Control]] (Probability: 50%)
-- Execute **[[Transitions/Long Step Pass]]** → [[Positions/Side Control]] (Probability: 45%)
+- Execute **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** → [[Positions/Side Control]] (Probability: 55%)
+- Execute **[[Transitions/Leg Drag Pass/Attacker|Leg Drag Pass]]** → [[Positions/Leg Drag Control]] (Probability: 50%)
+- Execute **[[Transitions/Long Step Pass/Attacker|Long Step Pass]]** → [[Positions/Side Control]] (Probability: 45%)
 
 
 **If opponent loses one sleeve grip or weakens bilateral control:**
-- Execute **[[Transitions/X Pass]]** → [[Positions/Side Control]] (Probability: 65%)
-- Execute **[[Transitions/Stack Pass]]** → [[Positions/Side Control]] (Probability: 55%)
+- Execute **[[Transitions/X Pass/Attacker|X Pass]]** → [[Positions/Side Control]] (Probability: 65%)
+- Execute **[[Transitions/Stack Pass/Attacker|Stack Pass]]** → [[Positions/Side Control]] (Probability: 55%)
 
 
 **If opponent attempts to transition to different guard variation or sweep:**
-- Execute **[[Transitions/Pressure Pass]]** → [[Positions/Side Control]] (Probability: 60%)
-- Execute **[[Transitions/Smash Pass]]** → [[Positions/Side Control]] (Probability: 50%)
+- Execute **[[Transitions/Pressure Pass/Attacker|Pressure Pass]]** → [[Positions/Side Control]] (Probability: 60%)
+- Execute **[[Transitions/Smash Pass/Attacker|Smash Pass]]** → [[Positions/Side Control]] (Probability: 50%)
 
 
 

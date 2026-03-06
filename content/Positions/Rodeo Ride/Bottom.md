@@ -210,23 +210,23 @@ Successful escape from Rodeo Ride requires a systematic approach that prioritize
 ## Decision Making from This Position
 
 **If top practitioner establishes seat belt grip or hooks threatening back control:**
-- Execute **[[Fight Hands]]** → [[Positions/Turtle]] (Probability: 60%)
-- Execute **[[Transitions/Rolling to Guard]]** → [[Positions/Half Guard]] (Probability: 40%)
+- Execute **[[Fight Hands/Attacker|Fight Hands]]** → [[Positions/Turtle]] (Probability: 60%)
+- Execute **[[Transitions/Rolling to Guard/Attacker|Rolling to Guard]]** → [[Positions/Half Guard]] (Probability: 40%)
 
 
 **If top practitioner attacks with clock choke or collar choke:**
-- Execute **[[Principles/Chin Protection]]** → [[Positions/Turtle]] (Probability: 70%)
-- Execute **[[Explosive Stand]]** → [[Positions/Standing Position]] (Probability: 30%)
+- Execute **[[Principles/Chin Protection/Attacker|Chin Protection]]** → [[Positions/Turtle]] (Probability: 70%)
+- Execute **[[Explosive Stand/Attacker|Explosive Stand]]** → [[Positions/Standing Position]] (Probability: 30%)
 
 
 **If top practitioner's weight is high on shoulders with minimal hip control:**
-- Execute **[[Transitions/Granby Roll to Guard]]** → [[Positions/Open Guard]] (Probability: 50%)
-- Execute **[[Sit Through]]** → [[Positions/Butterfly Guard]] (Probability: 45%)
+- Execute **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** → [[Positions/Open Guard]] (Probability: 50%)
+- Execute **[[Sit Through/Attacker|Sit Through]]** → [[Positions/Butterfly Guard]] (Probability: 45%)
 
 
 **If top practitioner controls near arm but far side is free:**
-- Execute **[[Roll to Free Side]]** → [[Positions/Half Guard]] (Probability: 55%)
-- Execute **[[Transitions/Technical Stand-up]]** → [[Positions/Standing Position]] (Probability: 40%)
+- Execute **[[Roll to Free Side/Attacker|Roll to Free Side]]** → [[Positions/Half Guard]] (Probability: 55%)
+- Execute **[[Transitions/Technical Stand-up/Attacker|Technical Stand-up]]** → [[Positions/Standing Position]] (Probability: 40%)
 
 
 

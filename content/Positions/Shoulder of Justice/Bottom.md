@@ -209,18 +209,18 @@ From the bottom perspective, your primary objective is to relieve the shoulder p
 ## Decision Making from This Position
 
 **If you can create micro-frame with bottom forearm without extending arm fully:**
-- Execute **[[Transitions/Shrimp Escape]]** → [[Positions/Half Guard]] (Probability: 35%)
-- Execute **[[Transitions/Frame and Shrimp to Guard]]** → [[Positions/Closed Guard]] (Probability: 28%)
+- Execute **[[Transitions/Shrimp Escape/Attacker|Shrimp Escape]]** → [[Positions/Half Guard]] (Probability: 35%)
+- Execute **[[Transitions/Frame and Shrimp to Guard/Attacker|Frame and Shrimp to Guard]]** → [[Positions/Closed Guard]] (Probability: 28%)
 
 
 **If opponent shifts weight toward your head to increase pressure intensity:**
-- Execute **[[Transitions/Bridge and Roll]]** → [[Positions/Side Control]] (Probability: 22%)
-- Execute **[[Transitions/Technical Stand-up]]** → [[Positions/Standing Position]] (Probability: 18%)
+- Execute **[[Transitions/Bridge and Roll/Attacker|Bridge and Roll]]** → [[Positions/Side Control]] (Probability: 22%)
+- Execute **[[Transitions/Technical Stand-up/Attacker|Technical Stand-up]]** → [[Positions/Standing Position]] (Probability: 18%)
 
 
 **If opponent begins stepping over for mount transition creating space:**
-- Execute **[[Transitions/Elbow Escape to Guard]]** → [[Positions/Half Guard]] (Probability: 42%)
-- Execute **[[Transitions/Hip Escape to Guard]]** → [[Positions/Open Guard]] (Probability: 32%)
+- Execute **[[Transitions/Elbow Escape to Guard/Attacker|Elbow Escape to Guard]]** → [[Positions/Half Guard]] (Probability: 42%)
+- Execute **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** → [[Positions/Open Guard]] (Probability: 32%)
 
 
 

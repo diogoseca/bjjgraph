@@ -75,7 +75,7 @@ description: "{{ description }}"
 ### Available Transitions
 
 {% for t in bottom_summary.transitions %}
-- **[[{{ resolve(t.transition) }}]]** ({{ t.attempt_probability }}% of attempts)
+- **[[{{ resolve(t.transition) }}/Attacker|{{ t.transition }}]]** ({{ t.attempt_probability }}% of attempts)
 {% endfor %}
 
 ### Common Mistakes
@@ -104,7 +104,7 @@ description: "{{ description }}"
 ### Available Transitions
 
 {% for t in top_summary.transitions %}
-- **[[{{ resolve(t.transition) }}]]** ({{ t.attempt_probability }}% of attempts)
+- **[[{{ resolve(t.transition) }}/Attacker|{{ t.transition }}]]** ({{ t.attempt_probability }}% of attempts)
 {% endfor %}
 
 ### Common Mistakes

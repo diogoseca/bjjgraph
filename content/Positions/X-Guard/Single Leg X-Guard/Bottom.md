@@ -206,28 +206,28 @@ Single Leg X-Guard Bottom represents one of the most versatile and effective pos
 ## Decision Making from This Position
 
 **If opponent maintains upright posture with elevated hips and attempts to disengage leg:**
-- Execute **[[Transitions/Single Leg X Sweep]]** → [[Positions/Standing Position]] (Probability: 65%)
-- Execute **[[Transitions/X-Guard Sweep]]** → [[Positions/Mount]] (Probability: 60%)
+- Execute **[[Transitions/Single Leg X Sweep/Attacker|Single Leg X Sweep]]** → [[Positions/Standing Position]] (Probability: 65%)
+- Execute **[[Transitions/X-Guard Sweep/Attacker|X-Guard Sweep]]** → [[Positions/Mount]] (Probability: 60%)
 
 
 **If opponent drives forward with heavy pressure attempting to smash pass:**
-- Execute **[[Transitions/Ashi Entry from Leg Entanglement]]** → [[Positions/Ashi Garami]] (Probability: 55%)
-- Execute **[[Transitions/De La Riva to X-Guard Transition]]** → [[Positions/X-Guard]] (Probability: 50%)
+- Execute **[[Transitions/Ashi Entry from Leg Entanglement/Attacker|Ashi Entry from Leg Entanglement]]** → [[Positions/Ashi Garami]] (Probability: 55%)
+- Execute **[[Transitions/De La Riva to X-Guard Transition/Attacker|De La Riva to X-Guard Transition]]** → [[Positions/X-Guard]] (Probability: 50%)
 
 
 **If opponent stands completely upright or backs away to create distance:**
-- Execute **[[Transitions/Technical Stand Up to Single Leg]]** → [[Positions/Standing Position]] (Probability: 60%)
-- Execute **[[Transitions/Standing to Single Leg X]]** → [[Positions/X-Guard/Single Leg X-Guard]] (Probability: 55%)
+- Execute **[[Transitions/Technical Stand Up to Single Leg/Attacker|Technical Stand Up to Single Leg]]** → [[Positions/Standing Position]] (Probability: 60%)
+- Execute **[[Transitions/Standing to Single Leg X/Attacker|Standing to Single Leg X]]** → [[Positions/X-Guard/Single Leg X-Guard]] (Probability: 55%)
 
 
 **If opponent attempts to clear hooks by stepping over or circling laterally:**
-- Execute **[[Transitions/Butterfly Guard to X-Guard]]** → [[Positions/X-Guard]] (Probability: 50%)
-- Execute **[[Transitions/Inside Ashi Entry]]** → [[Positions/Ashi Garami/Inside Ashi-Garami]] (Probability: 45%)
+- Execute **[[Transitions/Butterfly Guard to X-Guard/Attacker|Butterfly Guard to X-Guard]]** → [[Positions/X-Guard]] (Probability: 50%)
+- Execute **[[Transitions/Inside Ashi Entry/Attacker|Inside Ashi Entry]]** → [[Positions/Ashi Garami/Inside Ashi-Garami]] (Probability: 45%)
 
 
 **If opponent exposes their trapped leg by pulling back defensively:**
-- Execute **[[Transitions/Ankle Pick Sweep]]** → [[Positions/Standing Position]] (Probability: 55%)
-- Execute **[[Transitions/Single Leg X Entry]]** → [[Positions/Ashi Garami/Outside Ashi-Garami]] (Probability: 50%)
+- Execute **[[Transitions/Ankle Pick Sweep/Attacker|Ankle Pick Sweep]]** → [[Positions/Standing Position]] (Probability: 55%)
+- Execute **[[Transitions/Single Leg X Entry/Attacker|Single Leg X Entry]]** → [[Positions/Ashi Garami/Outside Ashi-Garami]] (Probability: 50%)
 
 
 

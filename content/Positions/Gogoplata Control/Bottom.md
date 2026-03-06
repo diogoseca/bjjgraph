@@ -217,23 +217,23 @@ Strategically, bottom gogoplata control functions as a high-risk, high-reward po
 ## Decision Making from This Position
 
 **If opponent maintains static posture and attempts to hand-fight the foot behind their head:**
-- Execute **[[Submissions/Gogoplata Finish]]** → [[game-over]] (Probability: 50%)
-- Execute **[[Triangle Transition]]** → [[Positions/Triangle Control]] (Probability: 65%)
+- Execute **[[Submissions/Gogoplata Finish/Attacker|Gogoplata Finish]]** → [[game-over]] (Probability: 50%)
+- Execute **[[Triangle Transition/Attacker|Triangle Transition]]** → [[Positions/Triangle Control]] (Probability: 65%)
 
 
 **If opponent attempts to posture up and create distance by extending arms and pushing hips back:**
-- Execute **[[Hip Elevation Maintenance]]** → [[Positions/Gogoplata Control]] (Probability: 45%)
-- Execute **[[Armbar Attack]]** → [[Positions/Armbar Control]] (Probability: 60%)
+- Execute **[[Hip Elevation Maintenance/Attacker|Hip Elevation Maintenance]]** → [[Positions/Gogoplata Control]] (Probability: 45%)
+- Execute **[[Armbar Attack/Attacker|Armbar Attack]]** → [[Positions/Armbar Control]] (Probability: 60%)
 
 
 **If opponent turns shoulder away from choking shin to escape the throat compression:**
-- Execute **[[Omoplata Transition]]** → [[Positions/Omoplata Control]] (Probability: 60%)
-- Execute **[[Transitions/Back Take]]** → [[Positions/Back Control]] (Probability: 55%)
+- Execute **[[Omoplata Transition/Attacker|Omoplata Transition]]** → [[Positions/Omoplata Control]] (Probability: 60%)
+- Execute **[[Transitions/Back Take/Attacker|Back Take]]** → [[Positions/Back Control]] (Probability: 55%)
 
 
 **If opponent attempts forward roll through the position to escape shin pressure:**
-- Execute **[[Back Control Transition]]** → [[Positions/Back Control]] (Probability: 70%)
-- Execute **[[Mount Recovery]]** → [[Positions/Mount/High Mount]] (Probability: 50%)
+- Execute **[[Back Control Transition/Attacker|Back Control Transition]]** → [[Positions/Back Control]] (Probability: 70%)
+- Execute **[[Mount Recovery/Attacker|Mount Recovery]]** → [[Positions/Mount/High Mount]] (Probability: 50%)
 
 
 

@@ -101,27 +101,27 @@ Competition applicability is high, particularly in gi competitions where the pos
 ### Available Transitions
 
 
-- **[[Transitions/Elbow Escape to Guard]]** (12% of attempts)
+- **[[Transitions/Elbow Escape to Guard/Attacker|Elbow Escape to Guard]]** (12% of attempts)
 
-- **[[Transitions/Bridge and Roll]]** (9% of attempts)
+- **[[Transitions/Bridge and Roll/Attacker|Bridge and Roll]]** (9% of attempts)
 
-- **[[Transitions/Roll to Turtle]]** (45% of attempts)
+- **[[Transitions/Roll to Turtle/Attacker|Roll to Turtle]]** (45% of attempts)
 
-- **[[Transitions/Frame and Shrimp to Guard]]** (11% of attempts)
+- **[[Transitions/Frame and Shrimp to Guard/Attacker|Frame and Shrimp to Guard]]** (11% of attempts)
 
-- **[[Transitions/Arm Extraction]]** (13% of attempts)
+- **[[Transitions/Arm Extraction/Attacker|Arm Extraction]]** (13% of attempts)
 
-- **[[Transitions/Ghost Escape]]** (7% of attempts)
+- **[[Transitions/Ghost Escape/Attacker|Ghost Escape]]** (7% of attempts)
 
-- **[[Transitions/Explosive Bridge to Guard Recovery]]** (2% of attempts)
+- **[[Transitions/Explosive Bridge to Guard Recovery/Attacker|Explosive Bridge to Guard Recovery]]** (2% of attempts)
 
-- **[[Transitions/Side Control Escape]]** (0% of attempts)
+- **[[Transitions/Side Control Escape/Attacker|Side Control Escape]]** (0% of attempts)
 
-- **[[Transitions/Bridge Escape from Modified Scarf Hold]]** (0% of attempts)
+- **[[Transitions/Bridge Escape from Modified Scarf Hold/Attacker|Bridge Escape from Modified Scarf Hold]]** (0% of attempts)
 
-- **[[Transitions/Bridge from Modified Scarf Hold]]** (0% of attempts)
+- **[[Transitions/Bridge from Modified Scarf Hold/Attacker|Bridge from Modified Scarf Hold]]** (0% of attempts)
 
-- **[[Transitions/Escape Modified Scarf Hold]]** (1% of attempts)
+- **[[Transitions/Escape Modified Scarf Hold/Attacker|Escape Modified Scarf Hold]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -178,27 +178,27 @@ Competition applicability is high, particularly in gi competitions where the pos
 ### Available Transitions
 
 
-- **[[Transitions/Americana]]** (12% of attempts)
+- **[[Transitions/Americana/Attacker|Americana]]** (12% of attempts)
 
-- **[[Transitions/Kimura]]** (11% of attempts)
+- **[[Transitions/Kimura/Attacker|Kimura]]** (11% of attempts)
 
-- **[[Transitions/Armbar Finish]]** (10% of attempts)
+- **[[Transitions/Armbar Finish/Attacker|Armbar Finish]]** (10% of attempts)
 
-- **[[Transitions/Side Control to Mount]]** (21% of attempts)
+- **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** (21% of attempts)
 
-- **[[Transitions/Side Control to North-South]]** (12% of attempts)
+- **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** (12% of attempts)
 
-- **[[Transitions/North-South Choke]]** (9% of attempts)
+- **[[Transitions/North-South Choke/Attacker|North-South Choke]]** (9% of attempts)
 
-- **[[Transitions/Armbar on Free Arm]]** (8% of attempts)
+- **[[Transitions/Armbar on Free Arm/Attacker|Armbar on Free Arm]]** (8% of attempts)
 
-- **[[Transitions/Arm Triangle]]** (9% of attempts)
+- **[[Transitions/Arm Triangle/Attacker|Arm Triangle]]** (9% of attempts)
 
-- **[[Transitions/Modified Scarf to Kesa Gatame]]** (4% of attempts)
+- **[[Transitions/Modified Scarf to Kesa Gatame/Attacker|Modified Scarf to Kesa Gatame]]** (4% of attempts)
 
-- **[[Transitions/Modified Scarf to Mount]]** (2% of attempts)
+- **[[Transitions/Modified Scarf to Mount/Attacker|Modified Scarf to Mount]]** (2% of attempts)
 
-- **[[Submissions/Kimura from Modified Scarf Hold]]** (2% of attempts)
+- **[[Submissions/Kimura from Modified Scarf Hold/Attacker|Kimura from Modified Scarf Hold]]** (2% of attempts)
 
 
 ### Common Mistakes

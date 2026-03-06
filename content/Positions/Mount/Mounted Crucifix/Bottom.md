@@ -217,27 +217,27 @@ Ultimately, the best defense against mounted crucifix bottom is prevention. Unde
 ## Decision Making from This Position
 
 **If opponent attacks neck with choke while arms are trapped:**
-- Execute **[[Chin Protection and Shoulder Defense]]** → [[Positions/Mount/Mounted Crucifix]] (Probability: 70%)
-- Execute **[[Transitions/Explosive Bridge to Turtle]]** → [[Positions/Turtle]] (Probability: 25%)
-- Execute **[[Tap Out]]** → [[Positions/Game Over]] (Probability: 5%)
+- Execute **[[Chin Protection and Shoulder Defense/Attacker|Chin Protection and Shoulder Defense]]** → [[Positions/Mount/Mounted Crucifix]] (Probability: 70%)
+- Execute **[[Transitions/Explosive Bridge to Turtle/Attacker|Explosive Bridge to Turtle]]** → [[Positions/Turtle]] (Probability: 25%)
+- Execute **[[Tap Out/Attacker|Tap Out]]** → [[Positions/Game Over]] (Probability: 5%)
 
 
 **If opponent isolates free arm for submission attempt:**
-- Execute **[[Transitions/Arm Extraction]]** → [[Positions/Mount]] (Probability: 45%)
-- Execute **[[Transitions/Hip Escape to Guard]]** → [[Positions/Open Guard]] (Probability: 35%)
-- Execute **[[Principles/Frame Creation]]** → [[Positions/Mount]] (Probability: 20%)
+- Execute **[[Transitions/Arm Extraction/Attacker|Arm Extraction]]** → [[Positions/Mount]] (Probability: 45%)
+- Execute **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** → [[Positions/Open Guard]] (Probability: 35%)
+- Execute **[[Principles/Frame Creation/Attacker|Frame Creation]]** → [[Positions/Mount]] (Probability: 20%)
 
 
 **If opponent shifts weight to transition to back control:**
-- Execute **[[Transitions/Bridge and Roll]]** → [[Positions/Closed Guard]] (Probability: 35%)
-- Execute **[[Transitions/Elbow Escape to Guard]]** → [[Positions/Half Guard]] (Probability: 40%)
-- Execute **[[Transitions/Shrimp Escape]]** → [[Positions/Back Control]] (Probability: 25%)
+- Execute **[[Transitions/Bridge and Roll/Attacker|Bridge and Roll]]** → [[Positions/Closed Guard]] (Probability: 35%)
+- Execute **[[Transitions/Elbow Escape to Guard/Attacker|Elbow Escape to Guard]]** → [[Positions/Half Guard]] (Probability: 40%)
+- Execute **[[Transitions/Shrimp Escape/Attacker|Shrimp Escape]]** → [[Positions/Back Control]] (Probability: 25%)
 
 
 **If opponent loosens leg control temporarily:**
-- Execute **[[Transitions/Arm Extraction]]** → [[Positions/Mount]] (Probability: 55%)
-- Execute **[[Transitions/Explosive Bridge to Turtle]]** → [[Positions/Turtle]] (Probability: 30%)
-- Execute **[[Transitions/Hip Escape to Guard]]** → [[Positions/Half Guard]] (Probability: 15%)
+- Execute **[[Transitions/Arm Extraction/Attacker|Arm Extraction]]** → [[Positions/Mount]] (Probability: 55%)
+- Execute **[[Transitions/Explosive Bridge to Turtle/Attacker|Explosive Bridge to Turtle]]** → [[Positions/Turtle]] (Probability: 30%)
+- Execute **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** → [[Positions/Half Guard]] (Probability: 15%)
 
 
 

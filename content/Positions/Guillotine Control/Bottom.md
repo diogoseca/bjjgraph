@@ -211,28 +211,28 @@ From a positional hierarchy perspective, Guillotine Control Bottom represents a 
 ## Decision Making from This Position
 
 **If opponent drives weight forward and attempts to flatten bottom player to relieve choke pressure:**
-- Execute **[[Transitions/Hip Bump Sweep]]** → [[Positions/Mount]] (Probability: 55%)
-- Execute **[[Transitions/Closed Guard to Triangle]]** → [[Positions/Mount/Mounted Triangle]] (Probability: 40%)
+- Execute **[[Transitions/Hip Bump Sweep/Attacker|Hip Bump Sweep]]** → [[Positions/Mount]] (Probability: 55%)
+- Execute **[[Transitions/Closed Guard to Triangle/Attacker|Closed Guard to Triangle]]** → [[Positions/Mount/Mounted Triangle]] (Probability: 40%)
 
 
 **If opponent postures up and attempts to create space by extending arms or lifting torso:**
-- Execute **[[Transitions/High Elbow Guillotine Variation]]** → [[Positions/Game Over]] (Probability: 65%)
-- Execute **[[Transitions/Guillotine Setup]]** → [[Positions/Closed Guard]] (Probability: 50%)
+- Execute **[[Transitions/High Elbow Guillotine Variation/Attacker|High Elbow Guillotine Variation]]** → [[Positions/Game Over]] (Probability: 65%)
+- Execute **[[Transitions/Guillotine Setup/Attacker|Guillotine Setup]]** → [[Positions/Closed Guard]] (Probability: 50%)
 
 
 **If opponent turns head and shoulders away from choking arm to escape:**
-- Execute **[[Transitions/Anaconda Choke]]** → [[Positions/Game Over]] (Probability: 60%)
-- Execute **[[Transitions/Darce Choke]]** → [[Positions/Game Over]] (Probability: 55%)
+- Execute **[[Transitions/Anaconda Choke/Attacker|Anaconda Choke]]** → [[Positions/Game Over]] (Probability: 60%)
+- Execute **[[Transitions/Darce Choke/Attacker|Darce Choke]]** → [[Positions/Game Over]] (Probability: 55%)
 
 
 **If opponent successfully creates significant space and begins extracting head:**
-- Execute **[[Transitions/Guillotine Setup]]** → [[Positions/Closed Guard]] (Probability: 70%)
-- Execute **[[Transitions/Guard Recovery from Guillotine Control]]** → [[Positions/Half Guard]] (Probability: 60%)
+- Execute **[[Transitions/Guillotine Setup/Attacker|Guillotine Setup]]** → [[Positions/Closed Guard]] (Probability: 70%)
+- Execute **[[Transitions/Guard Recovery from Guillotine Control/Attacker|Guard Recovery from Guillotine Control]]** → [[Positions/Half Guard]] (Probability: 60%)
 
 
 **If opponent keeps head down and attempts to drive forward while defending neck:**
-- Execute **[[Transitions/Guillotine Choke]]** → [[Positions/Game Over]] (Probability: 70%)
-- Execute **[[Transitions/Hip Bump Sweep]]** → [[Positions/Mount]] (Probability: 45%)
+- Execute **[[Transitions/Guillotine Choke/Attacker|Guillotine Choke]]** → [[Positions/Game Over]] (Probability: 70%)
+- Execute **[[Transitions/Hip Bump Sweep/Attacker|Hip Bump Sweep]]** → [[Positions/Mount]] (Probability: 45%)
 
 
 

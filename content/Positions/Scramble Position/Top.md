@@ -207,29 +207,29 @@ The Scramble Position refers to a highly dynamic transitional state in BJJ where
 ## Decision Making from This Position
 
 **If opponent exposes their back during scramble (turning away or turtling):**
-- Execute **[[Transitions/Turtle to Back Take]]** → [[Positions/Back Control]] (Probability: 65%)
-- Execute **[[Transitions/Turtle to Truck]]** → [[Positions/Twister Control]] (Probability: 45%)
+- Execute **[[Transitions/Turtle to Back Take/Attacker|Turtle to Back Take]]** → [[Positions/Back Control]] (Probability: 65%)
+- Execute **[[Transitions/Turtle to Truck/Attacker|Turtle to Truck]]** → [[Positions/Twister Control]] (Probability: 45%)
 
 
 **If opponent drops head forward or shoots takedown unsuccessfully:**
-- Execute **[[Transitions/Snap Down to Front Headlock]]** → [[Positions/Front Headlock]] (Probability: 60%)
-- Execute **[[Transitions/Guillotine Setup]]** → [[Positions/Guillotine Control]] (Probability: 55%)
-- Execute **[[Transitions/Darce Setup]]** → [[Positions/Darce Control]] (Probability: 50%)
+- Execute **[[Transitions/Snap Down to Front Headlock/Attacker|Snap Down to Front Headlock]]** → [[Positions/Front Headlock]] (Probability: 60%)
+- Execute **[[Transitions/Guillotine Setup/Attacker|Guillotine Setup]]** → [[Positions/Guillotine Control]] (Probability: 55%)
+- Execute **[[Transitions/Darce Setup/Attacker|Darce Setup]]** → [[Positions/Darce Control]] (Probability: 50%)
 
 
 **If opponent attempts to establish top position with poor base:**
-- Execute **[[Transitions/Granby Roll to Guard]]** → [[Positions/Closed Guard]] (Probability: 55%)
-- Execute **[[Transitions/Deep Half Entry]]** → [[Positions/Half Guard/Deep Half Guard]] (Probability: 50%)
+- Execute **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** → [[Positions/Closed Guard]] (Probability: 55%)
+- Execute **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** → [[Positions/Half Guard/Deep Half Guard]] (Probability: 50%)
 
 
 **If opponent commits to leg entanglement during scramble:**
-- Execute **[[Transitions/Inside Ashi Entry]]** → [[Positions/Ashi Garami/Inside Ashi-Garami]] (Probability: 60%)
-- Execute **[[Transitions/Stabilize to Guard from Scramble]]** → [[Positions/Ashi Garami]] (Probability: 50%)
+- Execute **[[Transitions/Inside Ashi Entry/Attacker|Inside Ashi Entry]]** → [[Positions/Ashi Garami/Inside Ashi-Garami]] (Probability: 60%)
+- Execute **[[Transitions/Stabilize to Guard from Scramble/Attacker|Stabilize to Guard from Scramble]]** → [[Positions/Ashi Garami]] (Probability: 50%)
 
 
 **If scramble extends beyond 5-7 seconds without clear advantage:**
-- Execute **[[Transitions/Technical Stand-up]]** → [[Positions/Standing Position]] (Probability: 55%)
-- Execute **[[Transitions/Stabilize to Guard from Scramble]]** → [[Positions/Open Guard]] (Probability: 50%)
+- Execute **[[Transitions/Technical Stand-up/Attacker|Technical Stand-up]]** → [[Positions/Standing Position]] (Probability: 55%)
+- Execute **[[Transitions/Stabilize to Guard from Scramble/Attacker|Stabilize to Guard from Scramble]]** → [[Positions/Open Guard]] (Probability: 50%)
 
 
 

@@ -213,23 +213,23 @@ Success from bottom Hindulotine requires understanding the interplay between you
 ## Decision Making from This Position
 
 **If opponent maintains strong posture and prevents you from breaking them down:**
-- Execute **[[Closed Guard Recovery]]** → [[Positions/Closed Guard]] (Probability: 50%)
-- Execute **[[Butterfly Hook Setup]]** → [[Positions/Butterfly Guard]] (Probability: 45%)
+- Execute **[[Closed Guard Recovery/Attacker|Closed Guard Recovery]]** → [[Positions/Closed Guard]] (Probability: 50%)
+- Execute **[[Butterfly Hook Setup/Attacker|Butterfly Hook Setup]]** → [[Positions/Butterfly Guard]] (Probability: 45%)
 
 
 **If opponent drives forward with pressure trying to flatten you out:**
-- Execute **[[Transitions/Butterfly Sweep with Guillotine]]** → [[Positions/Mount]] (Probability: 55%)
-- Execute **[[Angle Adjustment for Finish]]** → [[game-over]] (Probability: 50%)
+- Execute **[[Transitions/Butterfly Sweep with Guillotine/Attacker|Butterfly Sweep with Guillotine]]** → [[Positions/Mount]] (Probability: 55%)
+- Execute **[[Angle Adjustment for Finish/Attacker|Angle Adjustment for Finish]]** → [[game-over]] (Probability: 50%)
 
 
 **If opponent turns away to escape the choking pressure:**
-- Execute **[[Transitions/Back Take from Bottom]]** → [[Positions/Back Control]] (Probability: 70%)
-- Execute **[[Transition to Anaconda]]** → [[Positions/Anaconda Control]] (Probability: 55%)
+- Execute **[[Transitions/Back Take from Bottom/Attacker|Back Take from Bottom]]** → [[Positions/Back Control]] (Probability: 70%)
+- Execute **[[Transition to Anaconda/Attacker|Transition to Anaconda]]** → [[Positions/Anaconda Control]] (Probability: 55%)
 
 
 **If opponent creates defensive frame with near-side arm:**
-- Execute **[[Transitions/Hindulotine to Darce Choke]]** → [[Positions/Darce Control]] (Probability: 60%)
-- Execute **[[Transitions/Arm Triangle Transition]]** → [[Positions/Side Control]] (Probability: 45%)
+- Execute **[[Transitions/Hindulotine to Darce Choke/Attacker|Hindulotine to Darce Choke]]** → [[Positions/Darce Control]] (Probability: 60%)
+- Execute **[[Transitions/Arm Triangle Transition/Attacker|Arm Triangle Transition]]** → [[Positions/Side Control]] (Probability: 45%)
 
 
 

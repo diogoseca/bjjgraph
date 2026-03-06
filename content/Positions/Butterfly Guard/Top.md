@@ -212,28 +212,28 @@ Elite competitors approach butterfly guard top by viewing it as an opportunity t
 ## Decision Making from This Position
 
 **If opponent maintains strong upright posture with deep hooks and dominant grips:**
-- Execute **[[Transitions/Long Step Pass]]** → [[Positions/Side Control]] (Probability: 48%)
-- Execute **[[Transitions/Toreando Pass]]** → [[Positions/Side Control]] (Probability: 45%)
+- Execute **[[Transitions/Long Step Pass/Attacker|Long Step Pass]]** → [[Positions/Side Control]] (Probability: 48%)
+- Execute **[[Transitions/Toreando Pass/Attacker|Toreando Pass]]** → [[Positions/Side Control]] (Probability: 45%)
 
 
 **If opponent extends arms or creates distance for grip fighting:**
-- Execute **[[Transitions/Double Under Pass]]** → [[Positions/Side Control]] (Probability: 52%)
-- Execute **[[Transitions/Butterfly Pass]]** → [[Positions/Side Control]] (Probability: 48%)
+- Execute **[[Transitions/Double Under Pass/Attacker|Double Under Pass]]** → [[Positions/Side Control]] (Probability: 52%)
+- Execute **[[Transitions/Butterfly Pass/Attacker|Butterfly Pass]]** → [[Positions/Side Control]] (Probability: 48%)
 
 
 **If opponent commits to sweep attempt and momentarily loses optimal structure:**
-- Execute **[[Transitions/Butterfly Pass]]** → [[Positions/Side Control]] (Probability: 55%)
-- Execute **[[Transitions/Knee Slice Pass]]** → [[Positions/Side Control]] (Probability: 50%)
+- Execute **[[Transitions/Butterfly Pass/Attacker|Butterfly Pass]]** → [[Positions/Side Control]] (Probability: 55%)
+- Execute **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** → [[Positions/Side Control]] (Probability: 50%)
 
 
 **If opponent sits very upright with high knees creating stack vulnerability:**
-- Execute **[[Transitions/Stack Pass]]** → [[Positions/Side Control]] (Probability: 46%)
-- Execute **[[Transitions/Over-Under Pass]]** → [[Positions/Side Control]] (Probability: 54%)
+- Execute **[[Transitions/Stack Pass/Attacker|Stack Pass]]** → [[Positions/Side Control]] (Probability: 46%)
+- Execute **[[Transitions/Over-Under Pass/Attacker|Over-Under Pass]]** → [[Positions/Side Control]] (Probability: 54%)
 
 
 **If opponent transitions to single hook or half guard configuration:**
-- Execute **[[Transitions/Knee Slice Pass]]** → [[Positions/Side Control]] (Probability: 58%)
-- Execute **[[Transitions/Half Guard Pass]]** → [[Positions/Side Control]] (Probability: 52%)
+- Execute **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** → [[Positions/Side Control]] (Probability: 58%)
+- Execute **[[Transitions/Half Guard Pass/Attacker|Half Guard Pass]]** → [[Positions/Side Control]] (Probability: 52%)
 
 
 

@@ -93,27 +93,27 @@ Strategically, K-Guard represents a transitional hub position where the bottom p
 ### Available Transitions
 
 
-- **[[Transitions/X-Guard Sweep]]** (10% of attempts)
+- **[[Transitions/X-Guard Sweep/Attacker|X-Guard Sweep]]** (10% of attempts)
 
-- **[[Transitions/Single Leg X Sweep]]** (11% of attempts)
+- **[[Transitions/Single Leg X Sweep/Attacker|Single Leg X Sweep]]** (11% of attempts)
 
-- **[[Transitions/Deep Half Entry]]** (29% of attempts)
+- **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** (29% of attempts)
 
-- **[[Transitions/Old School Sweep]]** (8% of attempts)
+- **[[Transitions/Old School Sweep/Attacker|Old School Sweep]]** (8% of attempts)
 
-- **[[Transitions/Waiter Sweep]]** (7% of attempts)
+- **[[Transitions/Waiter Sweep/Attacker|Waiter Sweep]]** (7% of attempts)
 
-- **[[Transitions/Half Guard to Back Take]]** (12% of attempts)
+- **[[Transitions/Half Guard to Back Take/Attacker|Half Guard to Back Take]]** (12% of attempts)
 
-- **[[Transitions/Butterfly Sweep]]** (10% of attempts)
+- **[[Transitions/Butterfly Sweep/Attacker|Butterfly Sweep]]** (10% of attempts)
 
-- **[[Transitions/50-50 Entry]]** (6% of attempts)
+- **[[Transitions/50-50 Entry/Attacker|50-50 Entry]]** (6% of attempts)
 
-- **[[Transitions/Butterfly Hook Recovery]]** (4% of attempts)
+- **[[Transitions/Butterfly Hook Recovery/Attacker|Butterfly Hook Recovery]]** (4% of attempts)
 
-- **[[Transitions/K-Guard Sweep]]** (2% of attempts)
+- **[[Transitions/K-Guard Sweep/Attacker|K-Guard Sweep]]** (2% of attempts)
 
-- **[[Transitions/K-Guard to Single Leg X]]** (1% of attempts)
+- **[[Transitions/K-Guard to Single Leg X/Attacker|K-Guard to Single Leg X]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -174,23 +174,23 @@ Strategically, K-Guard represents a transitional hub position where the bottom p
 ### Available Transitions
 
 
-- **[[Transitions/Knee Slice Pass]]** (25% of attempts)
+- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (25% of attempts)
 
-- **[[Transitions/Smash Pass]]** (14% of attempts)
+- **[[Transitions/Smash Pass/Attacker|Smash Pass]]** (14% of attempts)
 
-- **[[Transitions/Leg Drag Pass]]** (12% of attempts)
+- **[[Transitions/Leg Drag Pass/Attacker|Leg Drag Pass]]** (12% of attempts)
 
-- **[[Transitions/Half Guard Pass]]** (16% of attempts)
+- **[[Transitions/Half Guard Pass/Attacker|Half Guard Pass]]** (16% of attempts)
 
-- **[[Transitions/Underhook Pass]]** (12% of attempts)
+- **[[Transitions/Underhook Pass/Attacker|Underhook Pass]]** (12% of attempts)
 
-- **[[Transitions/Kimura from Half Guard]]** (10% of attempts)
+- **[[Transitions/Kimura from Half Guard/Attacker|Kimura from Half Guard]]** (10% of attempts)
 
-- **[[Transitions/Guillotine Setup]]** (6% of attempts)
+- **[[Transitions/Guillotine Setup/Attacker|Guillotine Setup]]** (6% of attempts)
 
-- **[[Transitions/Backstep from K-Guard]]** (3% of attempts)
+- **[[Transitions/Backstep from K-Guard/Attacker|Backstep from K-Guard]]** (3% of attempts)
 
-- **[[Transitions/Pass K-Guard]]** (2% of attempts)
+- **[[Transitions/Pass K-Guard/Attacker|Pass K-Guard]]** (2% of attempts)
 
 
 ### Common Mistakes

@@ -210,23 +210,23 @@ This position is particularly effective in both gi and no-gi grappling, though t
 ## Decision Making from This Position
 
 **If opponent maintains flat posture and defends with free arm frames:**
-- Execute **[[Transitions/Smash Pass]]** → [[Positions/Side Control]] (Probability: 65%)
-- Execute **[[Transitions/Knee Slice Pass]]** → [[Positions/Side Control]] (Probability: 60%)
+- Execute **[[Transitions/Smash Pass/Attacker|Smash Pass]]** → [[Positions/Side Control]] (Probability: 65%)
+- Execute **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** → [[Positions/Side Control]] (Probability: 60%)
 
 
 **If opponent turns to side attempting to strip overhook:**
-- Execute **[[Transitions/Arm Drag to Back]]** → [[Positions/Back Control]] (Probability: 55%)
-- Execute **[[Submissions/Kimura from Guard]]** → [[Positions/Kimura Trap]] (Probability: 50%)
+- Execute **[[Transitions/Arm Drag to Back/Attacker|Arm Drag to Back]]** → [[Positions/Back Control]] (Probability: 55%)
+- Execute **[[Submissions/Kimura from Guard/Attacker|Kimura from Guard]]** → [[Positions/Kimura Trap]] (Probability: 50%)
 
 
 **If opponent attempts to create distance or recover full guard:**
-- Execute **[[Transitions/Smash Pass]]** → [[Positions/Side Control]] (Probability: 58%)
-- Execute **[[Transitions/Over-Under Pass]]** → [[Positions/Side Control]] (Probability: 52%)
+- Execute **[[Transitions/Smash Pass/Attacker|Smash Pass]]** → [[Positions/Side Control]] (Probability: 58%)
+- Execute **[[Transitions/Over-Under Pass/Attacker|Over-Under Pass]]** → [[Positions/Side Control]] (Probability: 52%)
 
 
 **If opponent locks half guard with legs:**
-- Execute **[[Transitions/Over-Under Pass]]** → [[Positions/Side Control]] (Probability: 48%)
-- Execute **[[Transitions/Knee Slice Pass]]** → [[Positions/Side Control]] (Probability: 45%)
+- Execute **[[Transitions/Over-Under Pass/Attacker|Over-Under Pass]]** → [[Positions/Side Control]] (Probability: 48%)
+- Execute **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** → [[Positions/Side Control]] (Probability: 45%)
 
 
 

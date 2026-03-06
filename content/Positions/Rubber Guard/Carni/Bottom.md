@@ -214,28 +214,28 @@ The technical requirements for effective Carni play from bottom include precise 
 ## Decision Making from This Position
 
 **If opponent pulls knee toward chest and creates defensive ball to protect heel:**
-- Execute **[[Transitions/Saddle Entry from Top]]** → [[Positions/Ashi Garami/Saddle]] (Probability: 70%)
-- Execute **[[Transitions/Outside Ashi Entry]]** → [[Positions/Ashi Garami/Outside Ashi-Garami]] (Probability: 55%)
+- Execute **[[Transitions/Saddle Entry from Top/Attacker|Saddle Entry from Top]]** → [[Positions/Ashi Garami/Saddle]] (Probability: 70%)
+- Execute **[[Transitions/Outside Ashi Entry/Attacker|Outside Ashi Entry]]** → [[Positions/Ashi Garami/Outside Ashi-Garami]] (Probability: 55%)
 
 
 **If opponent attempts to roll away or spin to extract trapped leg:**
-- Execute **[[Transitions/Rolling Back Take]]** → [[Positions/Back Control]] (Probability: 65%)
-- Execute **[[Transitions/Roll to Truck]]** → [[Positions/Twister Control/Truck]] (Probability: 60%)
+- Execute **[[Transitions/Rolling Back Take/Attacker|Rolling Back Take]]** → [[Positions/Back Control]] (Probability: 65%)
+- Execute **[[Transitions/Roll to Truck/Attacker|Roll to Truck]]** → [[Positions/Twister Control/Truck]] (Probability: 60%)
 
 
 **If opponent turns belly down to defend heel exposure:**
-- Execute **[[Transitions/Roll to Truck]]** → [[Positions/Twister Control/Truck]] (Probability: 75%)
-- Execute **[[Transitions/Calf Slicer]]** → [[Positions/Twister Control/Truck]] (Probability: 55%)
+- Execute **[[Transitions/Roll to Truck/Attacker|Roll to Truck]]** → [[Positions/Twister Control/Truck]] (Probability: 75%)
+- Execute **[[Transitions/Calf Slicer/Attacker|Calf Slicer]]** → [[Positions/Twister Control/Truck]] (Probability: 55%)
 
 
 **If opponent extends leg and attempts to create distance:**
-- Execute **[[Transitions/Heel Hook]]** → [[Transitions/Heel Hook]] (Probability: 70%)
-- Execute **[[Transitions/Kneebar Finish]]** → [[Positions/Kneebar Control]] (Probability: 60%)
+- Execute **[[Transitions/Heel Hook/Attacker|Heel Hook]]** → [[Transitions/Heel Hook]] (Probability: 70%)
+- Execute **[[Transitions/Kneebar Finish/Attacker|Kneebar Finish]]** → [[Positions/Kneebar Control]] (Probability: 60%)
 
 
 **If opponent establishes upper body pressure and attempts to stack:**
-- Execute **[[Transitions/Granby Roll to Guard]]** → [[Positions/Half Guard]] (Probability: 50%)
-- Execute **[[Transitions/Outside Ashi Entry]]** → [[Positions/Ashi Garami/Outside Ashi-Garami]] (Probability: 45%)
+- Execute **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** → [[Positions/Half Guard]] (Probability: 50%)
+- Execute **[[Transitions/Outside Ashi Entry/Attacker|Outside Ashi Entry]]** → [[Positions/Ashi Garami/Outside Ashi-Garami]] (Probability: 45%)
 
 
 

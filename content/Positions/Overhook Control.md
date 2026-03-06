@@ -95,25 +95,25 @@ The dual nature of overhook control makes it equally valuable as both an offensi
 ### Available Transitions
 
 
-- **[[Transitions/Arm Drag to Back]]** (11% of attempts)
+- **[[Transitions/Arm Drag to Back/Attacker|Arm Drag to Back]]** (11% of attempts)
 
-- **[[Transitions/Overhook Sweep]]** (22% of attempts)
+- **[[Transitions/Overhook Sweep/Attacker|Overhook Sweep]]** (22% of attempts)
 
-- **[[Transitions/Butterfly Sweep]]** (11% of attempts)
+- **[[Transitions/Butterfly Sweep/Attacker|Butterfly Sweep]]** (11% of attempts)
 
-- **[[Transitions/Triangle Setup]]** (10% of attempts)
+- **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** (10% of attempts)
 
-- **[[Transitions/Closed Guard to Omoplata]]** (9% of attempts)
+- **[[Transitions/Closed Guard to Omoplata/Attacker|Closed Guard to Omoplata]]** (9% of attempts)
 
-- **[[Transitions/Guillotine Setup]]** (10% of attempts)
+- **[[Transitions/Guillotine Setup/Attacker|Guillotine Setup]]** (10% of attempts)
 
-- **[[Transitions/Elevator Sweep]]** (11% of attempts)
+- **[[Transitions/Elevator Sweep/Attacker|Elevator Sweep]]** (11% of attempts)
 
-- **[[Transitions/Old School Sweep]]** (10% of attempts)
+- **[[Transitions/Old School Sweep/Attacker|Old School Sweep]]** (10% of attempts)
 
-- **[[Transitions/Overhook Control Sweep]]** (4% of attempts)
+- **[[Transitions/Overhook Control Sweep/Attacker|Overhook Control Sweep]]** (4% of attempts)
 
-- **[[Transitions/Overhook to Half Guard]]** (2% of attempts)
+- **[[Transitions/Overhook to Half Guard/Attacker|Overhook to Half Guard]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -170,25 +170,25 @@ The dual nature of overhook control makes it equally valuable as both an offensi
 ### Available Transitions
 
 
-- **[[Transitions/Kimura]]** (16% of attempts)
+- **[[Transitions/Kimura/Attacker|Kimura]]** (16% of attempts)
 
-- **[[Transitions/Darce Choke]]** (10% of attempts)
+- **[[Transitions/Darce Choke/Attacker|Darce Choke]]** (10% of attempts)
 
-- **[[Transitions/Anaconda Choke]]** (9% of attempts)
+- **[[Transitions/Anaconda Choke/Attacker|Anaconda Choke]]** (9% of attempts)
 
-- **[[Transitions/Arm Drag to Back]]** (11% of attempts)
+- **[[Transitions/Arm Drag to Back/Attacker|Arm Drag to Back]]** (11% of attempts)
 
-- **[[Transitions/Two-on-One to Back Take]]** (10% of attempts)
+- **[[Transitions/Two-on-One to Back Take/Attacker|Two-on-One to Back Take]]** (10% of attempts)
 
-- **[[Transitions/Snap Down to Front Headlock]]** (11% of attempts)
+- **[[Transitions/Snap Down to Front Headlock/Attacker|Snap Down to Front Headlock]]** (11% of attempts)
 
-- **[[Transitions/Crab Ride to Back]]** (10% of attempts)
+- **[[Transitions/Crab Ride to Back/Attacker|Crab Ride to Back]]** (10% of attempts)
 
-- **[[Transitions/Crucifix from Turtle]]** (8% of attempts)
+- **[[Transitions/Crucifix from Turtle/Attacker|Crucifix from Turtle]]** (8% of attempts)
 
-- **[[Transitions/Side Control to Mount]]** (11% of attempts)
+- **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** (11% of attempts)
 
-- **[[Transitions/Overhook Pass to Side Control]]** (4% of attempts)
+- **[[Transitions/Overhook Pass to Side Control/Attacker|Overhook Pass to Side Control]]** (4% of attempts)
 
 
 ### Common Mistakes

@@ -213,23 +213,23 @@ The learning curve for defending Twister Side Control is steep, with beginners o
 ## Decision Making from This Position
 
 **If top player is actively attacking twister submission with full spinal torque:**
-- Execute **[[Spine Protection]]** → [[Twister Side Control Bottom]] (Probability: 80%)
-- Execute **[[Tap Out]]** → [[game-over]] (Probability: 60%)
+- Execute **[[Spine Protection/Attacker|Spine Protection]]** → [[Twister Side Control Bottom]] (Probability: 80%)
+- Execute **[[Tap Out/Attacker|Tap Out]]** → [[game-over]] (Probability: 60%)
 
 
 **If top player has shoulder control but incomplete leg entanglement:**
-- Execute **[[Transitions/Leg Extraction]]** → [[Positions/Side Control]] (Probability: 45%)
-- Execute **[[Transitions/Hip Escape to Guard]]** → [[Positions/Half Guard]] (Probability: 40%)
+- Execute **[[Transitions/Leg Extraction/Attacker|Leg Extraction]]** → [[Positions/Side Control]] (Probability: 45%)
+- Execute **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** → [[Positions/Half Guard]] (Probability: 40%)
 
 
 **If top player's weight is distributed unevenly or too far forward:**
-- Execute **[[Transitions/Bridge and Roll]]** → [[Positions/Mount]] (Probability: 35%)
-- Execute **[[Transitions/Technical Stand-up]]** → [[Positions/Standing Position]] (Probability: 30%)
+- Execute **[[Transitions/Bridge and Roll/Attacker|Bridge and Roll]]** → [[Positions/Mount]] (Probability: 35%)
+- Execute **[[Transitions/Technical Stand-up/Attacker|Technical Stand-up]]** → [[Positions/Standing Position]] (Probability: 30%)
 
 
 **If bottom player successfully creates upper body frames and partial separation:**
-- Execute **[[Transitions/Granby Roll to Guard]]** → [[Positions/Half Guard]] (Probability: 50%)
-- Execute **[[Transitions/Frame and Shrimp to Guard]]** → [[Positions/Open Guard]] (Probability: 45%)
+- Execute **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** → [[Positions/Half Guard]] (Probability: 50%)
+- Execute **[[Transitions/Frame and Shrimp to Guard/Attacker|Frame and Shrimp to Guard]]** → [[Positions/Open Guard]] (Probability: 45%)
 
 
 

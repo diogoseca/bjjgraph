@@ -211,28 +211,28 @@ This position is fundamental to modern leg lock systems and serves as both a pow
 ## Decision Making from This Position
 
 **If opponent attempts to turn toward entanglement to hide heel:**
-- Execute **[[Transitions/Inside Ashi Entry]]** → [[Positions/Ashi Garami/Inside Ashi-Garami]] (Probability: 65%)
-- Execute **[[Transitions/Saddle Entry from Top]]** → [[Positions/Ashi Garami/Saddle]] (Probability: 55%)
+- Execute **[[Transitions/Inside Ashi Entry/Attacker|Inside Ashi Entry]]** → [[Positions/Ashi Garami/Inside Ashi-Garami]] (Probability: 65%)
+- Execute **[[Transitions/Saddle Entry from Top/Attacker|Saddle Entry from Top]]** → [[Positions/Ashi Garami/Saddle]] (Probability: 55%)
 
 
 **If opponent attempts to clear outside leg cross by kicking or pushing:**
-- Execute **[[Transitions/Saddle Entry from Top]]** → [[Positions/Ashi Garami/Saddle]] (Probability: 70%)
-- Execute **[[Transitions/Heel Hook]]** → [[Positions/Game Over]] (Probability: 60%)
+- Execute **[[Transitions/Saddle Entry from Top/Attacker|Saddle Entry from Top]]** → [[Positions/Ashi Garami/Saddle]] (Probability: 70%)
+- Execute **[[Transitions/Heel Hook/Attacker|Heel Hook]]** → [[Positions/Game Over]] (Probability: 60%)
 
 
 **If opponent establishes strong inside position with free leg:**
-- Execute **[[Transitions/Cross Ashi Transition]]** → [[Positions/Ashi Garami]] (Probability: 50%)
-- Execute **[[Transitions/Standing up in Base]]** → [[Positions/Standing Position]] (Probability: 45%)
+- Execute **[[Transitions/Cross Ashi Transition/Attacker|Cross Ashi Transition]]** → [[Positions/Ashi Garami]] (Probability: 50%)
+- Execute **[[Transitions/Standing up in Base/Attacker|Standing up in Base]]** → [[Positions/Standing Position]] (Probability: 45%)
 
 
 **If opponent attempts to sit up or establish upper body frames:**
-- Execute **[[Transitions/Heel Hook]]** → [[Positions/Game Over]] (Probability: 65%)
-- Execute **[[Transitions/Straight Ankle Lock Entry]]** → [[Positions/Straight Ankle Lock Control]] (Probability: 55%)
+- Execute **[[Transitions/Heel Hook/Attacker|Heel Hook]]** → [[Positions/Game Over]] (Probability: 65%)
+- Execute **[[Transitions/Straight Ankle Lock Entry/Attacker|Straight Ankle Lock Entry]]** → [[Positions/Straight Ankle Lock Control]] (Probability: 55%)
 
 
 **If opponent flexes knee strongly to defend heel:**
-- Execute **[[Transitions/Kneebar entry]]** → [[Positions/Kneebar Control]] (Probability: 60%)
-- Execute **[[Transitions/Toe Hold]]** → [[Positions/Toe Hold Control]] (Probability: 50%)
+- Execute **[[Transitions/Kneebar entry/Attacker|Kneebar entry]]** → [[Positions/Kneebar Control]] (Probability: 60%)
+- Execute **[[Transitions/Toe Hold/Attacker|Toe Hold]]** → [[Positions/Toe Hold Control]] (Probability: 50%)
 
 
 

@@ -210,23 +210,23 @@ The position's main strategic value is as a stepping stone rather than a destina
 ## Decision Making from This Position
 
 **If opponent is relatively flat and not actively defending, assess back control opportunity:**
-- Execute **[[Transitions/Back Take]]** → [[Positions/Back Control]] (Probability: 65%)
-- Execute **[[Transitions/Side Control to Mount]]** → [[Positions/Mount]] (Probability: 70%)
+- Execute **[[Transitions/Back Take/Attacker|Back Take]]** → [[Positions/Back Control]] (Probability: 65%)
+- Execute **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** → [[Positions/Mount]] (Probability: 70%)
 
 
 **If opponent begins to bridge or create upward pressure through hips:**
-- Execute **[[Transitions/Side Control to Mount]]** → [[Positions/Mount]] (Probability: 75%)
-- Execute **[[Transitions/Side Control to Mount]]** → [[Positions/Mount/S Mount]] (Probability: 60%)
+- Execute **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** → [[Positions/Mount]] (Probability: 75%)
+- Execute **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** → [[Positions/Mount/S Mount]] (Probability: 60%)
 
 
 **If opponent turns to either side attempting hip escape:**
-- Execute **[[Transitions/Back Take]]** → [[Positions/Back Control]] (Probability: 70%)
-- Execute **[[Transitions/Turtle to Truck]]** → [[Positions/Twister Control/Truck]] (Probability: 50%)
+- Execute **[[Transitions/Back Take/Attacker|Back Take]]** → [[Positions/Back Control]] (Probability: 70%)
+- Execute **[[Transitions/Turtle to Truck/Attacker|Turtle to Truck]]** → [[Positions/Twister Control/Truck]] (Probability: 50%)
 
 
 **If opponent extends arm in defensive reaction or attempts to push:**
-- Execute **[[Transitions/Mount to Armbar]]** → [[Positions/Armbar Control]] (Probability: 55%)
-- Execute **[[Transitions/Side Control to Mount]]** → [[Positions/Mount]] (Probability: 65%)
+- Execute **[[Transitions/Mount to Armbar/Attacker|Mount to Armbar]]** → [[Positions/Armbar Control]] (Probability: 55%)
+- Execute **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** → [[Positions/Mount]] (Probability: 65%)
 
 
 

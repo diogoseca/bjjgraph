@@ -211,23 +211,23 @@ Successful navigation of this position requires understanding the systematic nat
 ## Decision Making from This Position
 
 **If opponent has deep underhook and is creating strong whip-up pressure:**
-- Execute **[[Transitions/Whizzer]]** → [[Positions/Half Guard]] (Probability: 55%)
-- Execute **[[Transitions/Lockdown Break and Pass]]** → [[Positions/Combat Base]] (Probability: 45%)
+- Execute **[[Transitions/Whizzer/Attacker|Whizzer]]** → [[Positions/Half Guard]] (Probability: 55%)
+- Execute **[[Transitions/Lockdown Break and Pass/Attacker|Lockdown Break and Pass]]** → [[Positions/Combat Base]] (Probability: 45%)
 
 
 **If lockdown is tight but upper body control is weak:**
-- Execute **[[Transitions/Pressure Pass]]** → [[Positions/Side Control]] (Probability: 50%)
-- Execute **[[Transitions/Smash Pass]]** → [[Positions/Side Control]] (Probability: 50%)
+- Execute **[[Transitions/Pressure Pass/Attacker|Pressure Pass]]** → [[Positions/Side Control]] (Probability: 50%)
+- Execute **[[Transitions/Smash Pass/Attacker|Smash Pass]]** → [[Positions/Side Control]] (Probability: 50%)
 
 
 **If opponent is threatening Electric Chair or attempting to roll to Truck:**
-- Execute **[[Transitions/Lockdown Break and Pass]]** → [[Positions/Combat Base]] (Probability: 60%)
-- Execute **[[Transitions/Half Guard Pass]]** → [[Positions/Side Control]] (Probability: 40%)
+- Execute **[[Transitions/Lockdown Break and Pass/Attacker|Lockdown Break and Pass]]** → [[Positions/Combat Base]] (Probability: 60%)
+- Execute **[[Transitions/Half Guard Pass/Attacker|Half Guard Pass]]** → [[Positions/Side Control]] (Probability: 40%)
 
 
 **If lockdown pressure decreases or opponent adjusts grip:**
-- Execute **[[Transitions/Knee Slice Pass]]** → [[Positions/Side Control]] (Probability: 55%)
-- Execute **[[Transitions/Half Guard Pass]]** → [[Positions/Side Control]] (Probability: 45%)
+- Execute **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** → [[Positions/Side Control]] (Probability: 55%)
+- Execute **[[Transitions/Half Guard Pass/Attacker|Half Guard Pass]]** → [[Positions/Side Control]] (Probability: 45%)
 
 
 

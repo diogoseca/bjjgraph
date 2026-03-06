@@ -93,23 +93,23 @@ Mastery of both perspectives is essential for modern grapplers, as the leg weave
 ### Available Transitions
 
 
-- **[[Transitions/Frame and Shrimp to Guard]]** (15% of attempts)
+- **[[Transitions/Frame and Shrimp to Guard/Attacker|Frame and Shrimp to Guard]]** (15% of attempts)
 
-- **[[Transitions/Underhook Sweep from Half]]** (11% of attempts)
+- **[[Transitions/Underhook Sweep from Half/Attacker|Underhook Sweep from Half]]** (11% of attempts)
 
-- **[[Transitions/Deep Half Entry]]** (13% of attempts)
+- **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** (13% of attempts)
 
-- **[[Transitions/Old School Sweep]]** (8% of attempts)
+- **[[Transitions/Old School Sweep/Attacker|Old School Sweep]]** (8% of attempts)
 
-- **[[Positions/Dogfight Position]]** (27% of attempts)
+- **[[Positions/Dogfight Position/Attacker|Dogfight Position]]** (27% of attempts)
 
-- **[[Transitions/Lockdown Recovery]]** (15% of attempts)
+- **[[Transitions/Lockdown Recovery/Attacker|Lockdown Recovery]]** (15% of attempts)
 
-- **[[Transitions/Half Guard Recovery]]** (6% of attempts)
+- **[[Transitions/Half Guard Recovery/Attacker|Half Guard Recovery]]** (6% of attempts)
 
-- **[[Transitions/Leg Weave Escape to Half Guard]]** (3% of attempts)
+- **[[Transitions/Leg Weave Escape to Half Guard/Attacker|Leg Weave Escape to Half Guard]]** (3% of attempts)
 
-- **[[Transitions/Sweep from Leg Weave]]** (2% of attempts)
+- **[[Transitions/Sweep from Leg Weave/Attacker|Sweep from Leg Weave]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -166,25 +166,25 @@ Mastery of both perspectives is essential for modern grapplers, as the leg weave
 ### Available Transitions
 
 
-- **[[Transitions/Leg Weave Pass]]** (15% of attempts)
+- **[[Transitions/Leg Weave Pass/Attacker|Leg Weave Pass]]** (15% of attempts)
 
-- **[[Transitions/Knee Slice Pass]]** (32% of attempts)
+- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (32% of attempts)
 
-- **[[Transitions/Leg Drag Pass]]** (10% of attempts)
+- **[[Transitions/Leg Drag Pass/Attacker|Leg Drag Pass]]** (10% of attempts)
 
-- **[[Transitions/Smash Pass]]** (11% of attempts)
+- **[[Transitions/Smash Pass/Attacker|Smash Pass]]** (11% of attempts)
 
-- **[[Transitions/Over-Under Pass]]** (10% of attempts)
+- **[[Transitions/Over-Under Pass/Attacker|Over-Under Pass]]** (10% of attempts)
 
-- **[[Transitions/Long Step Pass]]** (10% of attempts)
+- **[[Transitions/Long Step Pass/Attacker|Long Step Pass]]** (10% of attempts)
 
-- **[[Transitions/Back Step]]** (7% of attempts)
+- **[[Transitions/Back Step/Attacker|Back Step]]** (7% of attempts)
 
-- **[[Transitions/Backstep from Leg Weave]]** (3% of attempts)
+- **[[Transitions/Backstep from Leg Weave/Attacker|Backstep from Leg Weave]]** (3% of attempts)
 
-- **[[Transitions/Complete Leg Weave Pass]]** (1% of attempts)
+- **[[Transitions/Complete Leg Weave Pass/Attacker|Complete Leg Weave Pass]]** (1% of attempts)
 
-- **[[Transitions/Leg Weave Pass Completion]]** (1% of attempts)
+- **[[Transitions/Leg Weave Pass Completion/Attacker|Leg Weave Pass Completion]]** (1% of attempts)
 
 
 ### Common Mistakes

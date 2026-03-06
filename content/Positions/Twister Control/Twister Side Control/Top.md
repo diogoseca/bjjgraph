@@ -213,28 +213,28 @@ The learning progression for Twister Side Control top is significant, with begin
 ## Decision Making from This Position
 
 **If bottom player's spine is fully rotated and shoulder is driven to mat with secure leg entanglement:**
-- Execute **[[Transitions/Twister Finish]]** → [[game-over]] (Probability: 65%)
-- Execute **[[Transitions/Calf Slicer]]** → [[game-over]] (Probability: 45%)
+- Execute **[[Transitions/Twister Finish/Attacker|Twister Finish]]** → [[game-over]] (Probability: 65%)
+- Execute **[[Transitions/Calf Slicer/Attacker|Calf Slicer]]** → [[game-over]] (Probability: 45%)
 
 
 **If bottom player attempts to turn into top player to create frames or relieve pressure:**
-- Execute **[[Transitions/Darce Choke]]** → [[game-over]] (Probability: 70%)
-- Execute **[[Transitions/Anaconda Choke]]** → [[game-over]] (Probability: 65%)
+- Execute **[[Transitions/Darce Choke/Attacker|Darce Choke]]** → [[game-over]] (Probability: 70%)
+- Execute **[[Transitions/Anaconda Choke/Attacker|Anaconda Choke]]** → [[game-over]] (Probability: 65%)
 
 
 **If bottom player turns away exposing their back to escape shoulder pressure:**
-- Execute **[[Transitions/Back Take]]** → [[Positions/Back Control]] (Probability: 75%)
-- Execute **[[Transitions/Turtle to Truck]]** → [[Positions/Twister Control/Truck]] (Probability: 70%)
+- Execute **[[Transitions/Back Take/Attacker|Back Take]]** → [[Positions/Back Control]] (Probability: 75%)
+- Execute **[[Transitions/Turtle to Truck/Attacker|Turtle to Truck]]** → [[Positions/Twister Control/Truck]] (Probability: 70%)
 
 
 **If bottom player successfully creates frames and begins extracting legs:**
-- Execute **[[Transitions/Side Control to North-South]]** → [[Positions/North-South]] (Probability: 60%)
-- Execute **[[Transitions/Side Control to Mount]]** → [[Positions/Mount]] (Probability: 55%)
+- Execute **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** → [[Positions/North-South]] (Probability: 60%)
+- Execute **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** → [[Positions/Mount]] (Probability: 55%)
 
 
 **If bottom player extends near arm to frame or post during escape attempt:**
-- Execute **[[Transitions/Kimura]]** → [[game-over]] (Probability: 68%)
-- Execute **[[Transitions/Arm Triangle]]** → [[game-over]] (Probability: 55%)
+- Execute **[[Transitions/Kimura/Attacker|Kimura]]** → [[game-over]] (Probability: 68%)
+- Execute **[[Transitions/Arm Triangle/Attacker|Arm Triangle]]** → [[game-over]] (Probability: 55%)
 
 
 

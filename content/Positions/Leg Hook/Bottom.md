@@ -207,23 +207,23 @@ Leg Hook Bottom Position represents a critical transitional state within the hal
 ## Decision Making from This Position
 
 **If opponent drives forward with heavy pressure attempting to flatten you:**
-- Execute **[[Transitions/Deep Half Entry]]** → [[Positions/Half Guard/Deep Half Guard]] (Probability: 60%)
-- Execute **[[Transitions/Frame and Shrimp to Guard]]** → [[Positions/Half Guard]] (Probability: 55%)
+- Execute **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** → [[Positions/Half Guard/Deep Half Guard]] (Probability: 60%)
+- Execute **[[Transitions/Frame and Shrimp to Guard/Attacker|Frame and Shrimp to Guard]]** → [[Positions/Half Guard]] (Probability: 55%)
 
 
 **Else if opponent attempts to extract their trapped leg by stepping back or standing:**
-- Execute **[[Transitions/Single Leg X Entry]]** → [[Positions/X-Guard/Single Leg X-Guard]] (Probability: 65%)
-- Execute **[[Transitions/Old School Sweep]]** → [[Positions/Mount]] (Probability: 55%)
+- Execute **[[Transitions/Single Leg X Entry/Attacker|Single Leg X Entry]]** → [[Positions/X-Guard/Single Leg X-Guard]] (Probability: 65%)
+- Execute **[[Transitions/Old School Sweep/Attacker|Old School Sweep]]** → [[Positions/Mount]] (Probability: 55%)
 
 
 **Else if opponent establishes strong crossface and tries to flatten you completely:**
-- Execute **[[Transitions/Lockdown Recovery]]** → [[Positions/Half Guard/Lockdown]] (Probability: 50%)
-- Execute **[[Transitions/Rolling Back Take]]** → [[Positions/Back Control]] (Probability: 45%)
+- Execute **[[Transitions/Lockdown Recovery/Attacker|Lockdown Recovery]]** → [[Positions/Half Guard/Lockdown]] (Probability: 50%)
+- Execute **[[Transitions/Rolling Back Take/Attacker|Rolling Back Take]]** → [[Positions/Back Control]] (Probability: 45%)
 
 
 **Else if opponent maintains good posture but doesn't drive forward aggressively:**
-- Execute **[[Transitions/Underhook Sweep from Half]]** → [[Positions/Side Control]] (Probability: 55%)
-- Execute **[[Transitions/Shin Shield Recovery]]** → [[Positions/Half Guard/Knee Shield Half Guard]] (Probability: 65%)
+- Execute **[[Transitions/Underhook Sweep from Half/Attacker|Underhook Sweep from Half]]** → [[Positions/Side Control]] (Probability: 55%)
+- Execute **[[Transitions/Shin Shield Recovery/Attacker|Shin Shield Recovery]]** → [[Positions/Half Guard/Knee Shield Half Guard]] (Probability: 65%)
 
 
 

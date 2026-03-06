@@ -219,28 +219,28 @@ Transitioning to dominant positions occurs when you successfully clear the guard
 ## Decision Making from This Position
 
 **If opponent has established both collar and sleeve grips with strong tension:**
-- Execute **[[Transitions/Grip Break]]** → [[Collar Sleeve Guard Top]] (Probability: 70%)
-- Execute **[[Transitions/Headquarters Pass]]** → [[Positions/Headquarters Position]] (Probability: 60%)
+- Execute **[[Transitions/Grip Break/Attacker|Grip Break]]** → [[Collar Sleeve Guard Top]] (Probability: 70%)
+- Execute **[[Transitions/Headquarters Pass/Attacker|Headquarters Pass]]** → [[Positions/Headquarters Position]] (Probability: 60%)
 
 
 **If opponent commits to pendulum or flower sweep with extended legs:**
-- Execute **[[Transitions/Knee Slice Pass]]** → [[Positions/Side Control]] (Probability: 65%)
-- Execute **[[Transitions/Knee Cut Pass]]** → [[Positions/Side Control]] (Probability: 60%)
+- Execute **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** → [[Positions/Side Control]] (Probability: 65%)
+- Execute **[[Transitions/Knee Cut Pass/Attacker|Knee Cut Pass]]** → [[Positions/Side Control]] (Probability: 60%)
 
 
 **If opponent shoots triangle by bringing leg high around your neck:**
-- Execute **[[Transitions/Stack Pass]]** → [[Positions/Side Control]] (Probability: 55%)
-- Execute **[[Transitions/Posture Recovery]]** → [[Collar Sleeve Guard Top]] (Probability: 70%)
+- Execute **[[Transitions/Stack Pass/Attacker|Stack Pass]]** → [[Positions/Side Control]] (Probability: 55%)
+- Execute **[[Transitions/Posture Recovery/Attacker|Posture Recovery]]** → [[Collar Sleeve Guard Top]] (Probability: 70%)
 
 
 **If opponent maintains distance with extended legs and frames:**
-- Execute **[[Transitions/Toreando Pass]]** → [[Positions/Side Control]] (Probability: 65%)
-- Execute **[[Transitions/Leg Drag Pass]]** → [[Positions/Side Control]] (Probability: 60%)
+- Execute **[[Transitions/Toreando Pass/Attacker|Toreando Pass]]** → [[Positions/Side Control]] (Probability: 65%)
+- Execute **[[Transitions/Leg Drag Pass/Attacker|Leg Drag Pass]]** → [[Positions/Side Control]] (Probability: 60%)
 
 
 **If opponent's grips are weak or you have established counter-grips:**
-- Execute **[[Transitions/Pressure Pass]]** → [[Positions/Side Control]] (Probability: 70%)
-- Execute **[[Transitions/Double Under Pass]]** → [[Positions/Side Control]] (Probability: 65%)
+- Execute **[[Transitions/Pressure Pass/Attacker|Pressure Pass]]** → [[Positions/Side Control]] (Probability: 70%)
+- Execute **[[Transitions/Double Under Pass/Attacker|Double Under Pass]]** → [[Positions/Side Control]] (Probability: 65%)
 
 
 

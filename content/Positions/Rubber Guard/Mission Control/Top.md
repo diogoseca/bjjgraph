@@ -215,23 +215,23 @@ Energy management from Mission Control top is critical for successful escape. Wh
 ## Decision Making from This Position
 
 **Bottom practitioner has full Mission Control with shoulder isolated, posture broken, and high guard locked:**
-- Execute **[[Transitions/Posture Recovery]]** → [[Positions/Closed Guard]] (Probability: 35%)
-- Execute **[[Transitions/Stack Defense]]** → [[Positions/Headquarters Position]] (Probability: 32%)
+- Execute **[[Transitions/Posture Recovery/Attacker|Posture Recovery]]** → [[Positions/Closed Guard]] (Probability: 35%)
+- Execute **[[Transitions/Stack Defense/Attacker|Stack Defense]]** → [[Positions/Headquarters Position]] (Probability: 32%)
 
 
 **Bottom practitioner is threatening triangle choke by starting to bring leg across face:**
-- Execute **[[Transitions/Stack Defense]]** → [[Positions/Headquarters Position]] (Probability: 45%)
-- Execute **[[Transitions/Arm Extraction]]** → [[Positions/Open Guard]] (Probability: 28%)
+- Execute **[[Transitions/Stack Defense/Attacker|Stack Defense]]** → [[Positions/Headquarters Position]] (Probability: 45%)
+- Execute **[[Transitions/Arm Extraction/Attacker|Arm Extraction]]** → [[Positions/Open Guard]] (Probability: 28%)
 
 
 **Bottom practitioner's hip elevation begins to drop or grip control relaxes:**
-- Execute **[[Transitions/Posture Recovery]]** → [[Positions/Closed Guard]] (Probability: 50%)
-- Execute **[[Transitions/Standing up in Base]]** → [[Positions/Standing Guard]] (Probability: 48%)
+- Execute **[[Transitions/Posture Recovery/Attacker|Posture Recovery]]** → [[Positions/Closed Guard]] (Probability: 50%)
+- Execute **[[Transitions/Standing up in Base/Attacker|Standing up in Base]]** → [[Positions/Standing Guard]] (Probability: 48%)
 
 
 **Trapped arm is successfully extracted and shoulder isolation is eliminated:**
-- Execute **[[Transitions/Arm Extraction and Pass]]** → [[Positions/Side Control]] (Probability: 55%)
-- Execute **[[Transitions/Guard Opening Sequence]]** → [[Positions/Combat Base]] (Probability: 42%)
+- Execute **[[Transitions/Arm Extraction and Pass/Attacker|Arm Extraction and Pass]]** → [[Positions/Side Control]] (Probability: 55%)
+- Execute **[[Transitions/Guard Opening Sequence/Attacker|Guard Opening Sequence]]** → [[Positions/Combat Base]] (Probability: 42%)
 
 
 

@@ -209,23 +209,23 @@ The fundamental challenge of Cross Body Ride Bottom is that passive defense guar
 ## Decision Making from This Position
 
 **If opponent is high on back with hooks threatening but not yet established:**
-- Execute **[[Transitions/Granby Roll to Guard]]** → [[Positions/Closed Guard]] (Probability: 45%)
-- Execute **[[Transitions/Hip Escape to Guard]]** → [[Positions/Half Guard]] (Probability: 40%)
+- Execute **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** → [[Positions/Closed Guard]] (Probability: 45%)
+- Execute **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** → [[Positions/Half Guard]] (Probability: 40%)
 
 
 **If opponent is controlling one arm and attempting crucifix entry:**
-- Execute **[[Transitions/Rolling to Guard]]** → [[Positions/Open Guard]] (Probability: 50%)
-- Execute **[[Transitions/Frame and Shrimp to Guard]]** → [[Positions/Half Guard/Deep Half Guard]] (Probability: 35%)
+- Execute **[[Transitions/Rolling to Guard/Attacker|Rolling to Guard]]** → [[Positions/Open Guard]] (Probability: 50%)
+- Execute **[[Transitions/Frame and Shrimp to Guard/Attacker|Frame and Shrimp to Guard]]** → [[Positions/Half Guard/Deep Half Guard]] (Probability: 35%)
 
 
 **If opponent has heavy cross-body pressure but limited control of arms:**
-- Execute **[[Transitions/Technical Stand-up]]** → [[Positions/Standing Position]] (Probability: 42%)
-- Execute **[[Transitions/Shrimp Escape]]** → [[Positions/Closed Guard]] (Probability: 38%)
+- Execute **[[Transitions/Technical Stand-up/Attacker|Technical Stand-up]]** → [[Positions/Standing Position]] (Probability: 42%)
+- Execute **[[Transitions/Shrimp Escape/Attacker|Shrimp Escape]]** → [[Positions/Closed Guard]] (Probability: 38%)
 
 
 **If opponent is attempting to flatten you completely to mat:**
-- Execute **[[Transitions/Granby Roll to Guard]]** → [[Positions/Closed Guard]] (Probability: 40%)
-- Execute **[[Transitions/Turtle to Guard]]** → [[Positions/Butterfly Guard]] (Probability: 35%)
+- Execute **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** → [[Positions/Closed Guard]] (Probability: 40%)
+- Execute **[[Transitions/Turtle to Guard/Attacker|Turtle to Guard]]** → [[Positions/Butterfly Guard]] (Probability: 35%)
 
 
 

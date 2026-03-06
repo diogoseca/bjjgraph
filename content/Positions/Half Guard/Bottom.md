@@ -213,29 +213,29 @@ Rather than a passive defensive position, Half Guard Bottom in modern jiu-jitsu 
 ## Decision Making from This Position
 
 **If opponent has underhook and crossface attempting to flatten you with heavy shoulder pressure:**
-- Execute **[[Frame and Shrimp]]** → [[Positions/Half Guard/Knee Shield Half Guard]] (Probability: 60%)
-- Execute **[[Transitions/Deep Half Entry]]** → [[Positions/Half Guard/Deep Half Guard]] (Probability: 55%)
+- Execute **[[Frame and Shrimp/Attacker|Frame and Shrimp]]** → [[Positions/Half Guard/Knee Shield Half Guard]] (Probability: 60%)
+- Execute **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** → [[Positions/Half Guard/Deep Half Guard]] (Probability: 55%)
 
 
 **If you have secured the underhook on the trapped leg side with angle established:**
-- Execute **[[Transitions/Underhook Sweep from Half]]** → [[Positions/Side Control]] (Probability: 65%)
-- Execute **[[Transitions/Old School Sweep]]** → [[Positions/Mount]] (Probability: 60%)
-- Execute **[[Transitions/Half Guard to Back Take]]** → [[Positions/Back Control]] (Probability: 55%)
+- Execute **[[Transitions/Underhook Sweep from Half/Attacker|Underhook Sweep from Half]]** → [[Positions/Side Control]] (Probability: 65%)
+- Execute **[[Transitions/Old School Sweep/Attacker|Old School Sweep]]** → [[Positions/Mount]] (Probability: 60%)
+- Execute **[[Transitions/Half Guard to Back Take/Attacker|Half Guard to Back Take]]** → [[Positions/Back Control]] (Probability: 55%)
 
 
 **If opponent attempts to stand or posture up creating distance from your frames:**
-- Execute **[[Transitions/Kimura Sweep]]** → [[Positions/Side Control]] (Probability: 60%)
-- Execute **[[Transitions/Lockdown Recovery]]** → [[Positions/Half Guard/Lockdown]] (Probability: 65%)
+- Execute **[[Transitions/Kimura Sweep/Attacker|Kimura Sweep]]** → [[Positions/Side Control]] (Probability: 60%)
+- Execute **[[Transitions/Lockdown Recovery/Attacker|Lockdown Recovery]]** → [[Positions/Half Guard/Lockdown]] (Probability: 65%)
 
 
 **If opponent drives forward with heavy chest-to-chest pressure committing weight:**
-- Execute **[[Transitions/Deep Half Entry]]** → [[Positions/Half Guard/Deep Half Guard]] (Probability: 70%)
-- Execute **[[Transitions/Electric Chair Transition]]** → [[Positions/Half Guard/Electric Chair]] (Probability: 45%)
+- Execute **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** → [[Positions/Half Guard/Deep Half Guard]] (Probability: 70%)
+- Execute **[[Transitions/Electric Chair Transition/Attacker|Electric Chair Transition]]** → [[Positions/Half Guard/Electric Chair]] (Probability: 45%)
 
 
 **If opponent attempts knee slice pass by driving knee across your thigh line:**
-- Execute **[[Transitions/Knee Shield Retention]]** → [[Positions/Half Guard/Knee Shield Half Guard]] (Probability: 70%)
-- Execute **[[Transitions/Half Guard Recovery]]** → [[Positions/Closed Guard]] (Probability: 55%)
+- Execute **[[Transitions/Knee Shield Retention/Attacker|Knee Shield Retention]]** → [[Positions/Half Guard/Knee Shield Half Guard]] (Probability: 70%)
+- Execute **[[Transitions/Half Guard Recovery/Attacker|Half Guard Recovery]]** → [[Positions/Closed Guard]] (Probability: 55%)
 
 
 

@@ -210,23 +210,23 @@ Success from the top position requires precise technical execution including pro
 ## Decision Making from This Position
 
 **If opponent's foot is fully isolated and they are flat on their back:**
-- Execute **[[Positions/Estima Lock]]** → [[Positions/Game Over]] (Probability: 50%)
-- Execute **[[Transitions/Toe Hold]]** → [[Positions/Game Over]] (Probability: 50%)
+- Execute **[[Positions/Estima Lock/Attacker|Estima Lock]]** → [[Positions/Game Over]] (Probability: 50%)
+- Execute **[[Transitions/Toe Hold/Attacker|Toe Hold]]** → [[Positions/Game Over]] (Probability: 50%)
 
 
 **If opponent begins sitting up or establishing frames with their free leg:**
-- Execute **[[Transitions/Estima Lock to Ashi Garami]]** → [[Positions/Ashi Garami]] (Probability: 55%)
-- Execute **[[Transitions/Estima Lock to Saddle]]** → [[Positions/Ashi Garami/Saddle]] (Probability: 45%)
+- Execute **[[Transitions/Estima Lock to Ashi Garami/Attacker|Estima Lock to Ashi Garami]]** → [[Positions/Ashi Garami]] (Probability: 55%)
+- Execute **[[Transitions/Estima Lock to Saddle/Attacker|Estima Lock to Saddle]]** → [[Positions/Ashi Garami/Saddle]] (Probability: 45%)
 
 
 **If opponent successfully extracts their foot or creates significant space:**
-- Execute **[[Transitions/Leg Drag Pass]]** → [[Positions/Side Control]] (Probability: 55%)
-- Execute **[[Transitions/Standing Escape]]** → [[Positions/Open Guard]] (Probability: 45%)
+- Execute **[[Transitions/Leg Drag Pass/Attacker|Leg Drag Pass]]** → [[Positions/Side Control]] (Probability: 55%)
+- Execute **[[Transitions/Standing Escape/Attacker|Standing Escape]]** → [[Positions/Open Guard]] (Probability: 45%)
 
 
 **If opponent attempts to counter with their own leg attack:**
-- Execute **[[Transitions/Counter Leg Attack]]** → [[Positions/Half Guard]] (Probability: 50%)
-- Execute **[[Transitions/50-50 Entry]]** → [[Positions/Ashi Garami/50-50 Guard]] (Probability: 50%)
+- Execute **[[Transitions/Counter Leg Attack/Attacker|Counter Leg Attack]]** → [[Positions/Half Guard]] (Probability: 50%)
+- Execute **[[Transitions/50-50 Entry/Attacker|50-50 Entry]]** → [[Positions/Ashi Garami/50-50 Guard]] (Probability: 50%)
 
 
 

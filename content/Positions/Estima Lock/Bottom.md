@@ -209,23 +209,23 @@ From bottom, the primary concern is preventing the completion of the submission 
 ## Decision Making from This Position
 
 **If opponent has shallow grip on foot without full inversion control:**
-- Execute **[[Transitions/Leg Extraction]]** → [[Positions/Open Guard]] (Probability: 55%)
-- Execute **[[Transitions/Ashi Garami Escape]]** → [[Positions/Open Guard]] (Probability: 45%)
+- Execute **[[Transitions/Leg Extraction/Attacker|Leg Extraction]]** → [[Positions/Open Guard]] (Probability: 55%)
+- Execute **[[Transitions/Ashi Garami Escape/Attacker|Ashi Garami Escape]]** → [[Positions/Open Guard]] (Probability: 45%)
 
 
 **If opponent has deep grip with full inversion and hip pressure established:**
-- Execute **[[Transitions/Counter Sweep]]** → [[Positions/Estima Lock]] (Probability: 35%)
-- Execute **[[Transitions/Angle Change Escape]]** → [[Positions/Half Guard]] (Probability: 65%)
+- Execute **[[Transitions/Counter Sweep/Attacker|Counter Sweep]]** → [[Positions/Estima Lock]] (Probability: 35%)
+- Execute **[[Transitions/Angle Change Escape/Attacker|Angle Change Escape]]** → [[Positions/Half Guard]] (Probability: 65%)
 
 
 **If free leg can establish hooks or frames on opponent's body:**
-- Execute **[[Transitions/Counter Sweep]]** → [[Positions/Estima Lock]] (Probability: 45%)
-- Execute **[[Transitions/Leg Extraction]]** → [[Positions/Open Guard]] (Probability: 55%)
+- Execute **[[Transitions/Counter Sweep/Attacker|Counter Sweep]]** → [[Positions/Estima Lock]] (Probability: 45%)
+- Execute **[[Transitions/Leg Extraction/Attacker|Leg Extraction]]** → [[Positions/Open Guard]] (Probability: 55%)
 
 
 **If opponent transitions grip toward toe hold or other submission:**
-- Execute **[[Transitions/Ashi Garami Escape]]** → [[Positions/Ashi Garami]] (Probability: 60%)
-- Execute **[[Transitions/Standing Escape]]** → [[Positions/Open Guard]] (Probability: 40%)
+- Execute **[[Transitions/Ashi Garami Escape/Attacker|Ashi Garami Escape]]** → [[Positions/Ashi Garami]] (Probability: 60%)
+- Execute **[[Transitions/Standing Escape/Attacker|Standing Escape]]** → [[Positions/Open Guard]] (Probability: 40%)
 
 
 

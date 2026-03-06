@@ -219,28 +219,28 @@ Transitioning out of collar sleeve guard bottom occurs through successful sweeps
 ## Decision Making from This Position
 
 **If opponent maintains square posture and strong base with both knees planted:**
-- Execute **[[Transitions/Hip Bump Sweep]]** → [[Positions/Mount]] (Probability: 55%)
-- Execute **[[Transitions/Pendulum Sweep]]** → [[Positions/Mount]] (Probability: 60%)
+- Execute **[[Transitions/Hip Bump Sweep/Attacker|Hip Bump Sweep]]** → [[Positions/Mount]] (Probability: 55%)
+- Execute **[[Transitions/Pendulum Sweep/Attacker|Pendulum Sweep]]** → [[Positions/Mount]] (Probability: 60%)
 
 
 **If opponent posts free hand forward to defend collar pull or sweep attempt:**
-- Execute **[[Transitions/Triangle Setup]]** → [[Positions/Triangle Control]] (Probability: 65%)
-- Execute **[[Transitions/Omoplata Sweep]]** → [[Positions/Omoplata Control]] (Probability: 50%)
+- Execute **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** → [[Positions/Triangle Control]] (Probability: 65%)
+- Execute **[[Transitions/Omoplata Sweep/Attacker|Omoplata Sweep]]** → [[Positions/Omoplata Control]] (Probability: 50%)
 
 
 **If opponent sits back heavily to break posture and defend collar grip:**
-- Execute **[[Transitions/Flower Sweep]]** → [[Positions/Mount]] (Probability: 55%)
-- Execute **[[Transitions/Scissor Sweep]]** → [[Positions/Mount]] (Probability: 65%)
+- Execute **[[Transitions/Flower Sweep/Attacker|Flower Sweep]]** → [[Positions/Mount]] (Probability: 55%)
+- Execute **[[Transitions/Scissor Sweep/Attacker|Scissor Sweep]]** → [[Positions/Mount]] (Probability: 65%)
 
 
 **If opponent attempts to circle around to pass toward sleeve-grip side:**
-- Execute **[[Transitions/Lapel to Spider Guard]]** → [[Positions/Spider Guard]] (Probability: 60%)
-- Execute **[[Transitions/Lapel to Lasso Guard]]** → [[Positions/Lasso Guard]] (Probability: 55%)
+- Execute **[[Transitions/Lapel to Spider Guard/Attacker|Lapel to Spider Guard]]** → [[Positions/Spider Guard]] (Probability: 60%)
+- Execute **[[Transitions/Lapel to Lasso Guard/Attacker|Lapel to Lasso Guard]]** → [[Positions/Lasso Guard]] (Probability: 55%)
 
 
 **If opponent stands up completely to initiate standing guard pass:**
-- Execute **[[Transitions/Standing up in Base]]** → [[Positions/Clinch]] (Probability: 50%)
-- Execute **[[Transitions/Arm Drag to Back]]** → [[Positions/Back Control]] (Probability: 45%)
+- Execute **[[Transitions/Standing up in Base/Attacker|Standing up in Base]]** → [[Positions/Clinch]] (Probability: 50%)
+- Execute **[[Transitions/Arm Drag to Back/Attacker|Arm Drag to Back]]** → [[Positions/Back Control]] (Probability: 45%)
 
 
 

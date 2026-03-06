@@ -209,23 +209,23 @@ From this bottom position, you maintain constant chest-to-back pressure while yo
 ## Decision Making from This Position
 
 **If opponent is defensive with hands protecting neck and not attempting to clear triangle:**
-- Execute **[[Increase squeeze pressure gradually]]** → [[Positions/Back Control/Body Triangle]] (Probability: 70%)
-- Execute **[[Work for collar grips systematically]]** → [[Positions/Game Over]] (Probability: 60%)
+- Execute **[[Increase squeeze pressure gradually/Attacker|Increase squeeze pressure gradually]]** → [[Positions/Back Control/Body Triangle]] (Probability: 70%)
+- Execute **[[Work for collar grips systematically/Attacker|Work for collar grips systematically]]** → [[Positions/Game Over]] (Probability: 60%)
 
 
 **If opponent reaches back to attack triangle lock or grab your legs:**
-- Execute **[[Transitions/Armbar from Back Transition]]** → [[Positions/Armbar Control]] (Probability: 65%)
-- Execute **[[Transitions/Back Control to Crucifix]]** → [[Positions/Crucifix]] (Probability: 55%)
+- Execute **[[Transitions/Armbar from Back Transition/Attacker|Armbar from Back Transition]]** → [[Positions/Armbar Control]] (Probability: 65%)
+- Execute **[[Transitions/Back Control to Crucifix/Attacker|Back Control to Crucifix]]** → [[Positions/Crucifix]] (Probability: 55%)
 
 
 **If opponent attempts to turn into you to escape:**
-- Execute **[[Transitions/Bow and Arrow Choke]]** → [[Positions/Game Over]] (Probability: 70%)
-- Execute **[[Transitions/Roll to Truck]]** → [[Positions/Twister Control/Truck]] (Probability: 50%)
+- Execute **[[Transitions/Bow and Arrow Choke/Attacker|Bow and Arrow Choke]]** → [[Positions/Game Over]] (Probability: 70%)
+- Execute **[[Transitions/Roll to Truck/Attacker|Roll to Truck]]** → [[Positions/Twister Control/Truck]] (Probability: 50%)
 
 
 **If opponent turtles or rolls forward trying to clear position:**
-- Execute **[[Maintain triangle and take mount]]** → [[Positions/Mount]] (Probability: 55%)
-- Execute **[[Release and reset back control]]** → [[Positions/Back Control]] (Probability: 60%)
+- Execute **[[Maintain triangle and take mount/Attacker|Maintain triangle and take mount]]** → [[Positions/Mount]] (Probability: 55%)
+- Execute **[[Release and reset back control/Attacker|Release and reset back control]]** → [[Positions/Back Control]] (Probability: 60%)
 
 
 

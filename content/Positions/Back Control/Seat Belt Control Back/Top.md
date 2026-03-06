@@ -211,28 +211,28 @@ Seat belt control excels when opponent is attempting to escape or defend, as the
 ## Decision Making from This Position
 
 **If opponent's hands move high to defend neck or break seat belt grip at chest level:**
-- Execute **[[Transitions/Rear Naked Choke]]** → [[Positions/Game Over]] (Probability: 65%)
-- Execute **[[Transitions/Short Choke]]** → [[Positions/Game Over]] (Probability: 45%)
+- Execute **[[Transitions/Rear Naked Choke/Attacker|Rear Naked Choke]]** → [[Positions/Game Over]] (Probability: 65%)
+- Execute **[[Transitions/Short Choke/Attacker|Short Choke]]** → [[Positions/Game Over]] (Probability: 45%)
 
 
 **If opponent tucks chin and defends neck with hands protecting throat area:**
-- Execute **[[Transitions/Armbar from Back Transition]]** → [[Positions/Armbar Control]] (Probability: 55%)
-- Execute **[[Transitions/Armbar Finish]]** → [[Positions/Game Over]] (Probability: 50%)
+- Execute **[[Transitions/Armbar from Back Transition/Attacker|Armbar from Back Transition]]** → [[Positions/Armbar Control]] (Probability: 55%)
+- Execute **[[Transitions/Armbar Finish/Attacker|Armbar Finish]]** → [[Positions/Game Over]] (Probability: 50%)
 
 
 **If opponent turns toward you attempting to face guard and escape hooks:**
-- Execute **[[Transitions/Side Control to Mount]]** → [[Positions/Mount]] (Probability: 70%)
-- Execute **[[Transitions/Back Control to Crucifix]]** → [[Positions/Crucifix]] (Probability: 45%)
+- Execute **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** → [[Positions/Mount]] (Probability: 70%)
+- Execute **[[Transitions/Back Control to Crucifix/Attacker|Back Control to Crucifix]]** → [[Positions/Crucifix]] (Probability: 45%)
 
 
 **If opponent extends arms attempting to base or post for escape leverage:**
-- Execute **[[Transitions/Back Control to Crucifix]]** → [[Positions/Crucifix]] (Probability: 60%)
-- Execute **[[Transitions/Kimura from Back]]** → [[Positions/Game Over]] (Probability: 40%)
+- Execute **[[Transitions/Back Control to Crucifix/Attacker|Back Control to Crucifix]]** → [[Positions/Crucifix]] (Probability: 60%)
+- Execute **[[Transitions/Kimura from Back/Attacker|Kimura from Back]]** → [[Positions/Game Over]] (Probability: 40%)
 
 
 **If opponent turns away and attempts to remove bottom hook by hip movement:**
-- Execute **[[Transitions/Bow and Arrow Choke]]** → [[Positions/Game Over]] (Probability: 55%)
-- Execute **[[Transitions/Roll to Truck]]** → [[Positions/Twister Control/Truck]] (Probability: 50%)
+- Execute **[[Transitions/Bow and Arrow Choke/Attacker|Bow and Arrow Choke]]** → [[Positions/Game Over]] (Probability: 55%)
+- Execute **[[Transitions/Roll to Truck/Attacker|Roll to Truck]]** → [[Positions/Twister Control/Truck]] (Probability: 50%)
 
 
 

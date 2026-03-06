@@ -209,23 +209,23 @@ Effective top play requires understanding how to distribute weight to minimize s
 ## Decision Making from This Position
 
 **If opponent maintains strong upright posture with deep hooks and good grips:**
-- Execute **[[Transitions/Standing up in Base]]** → [[Positions/Standing Guard]] (Probability: 60%)
-- Execute **[[Transitions/Butterfly Smash]]** → [[Positions/Half Guard]] (Probability: 50%)
+- Execute **[[Transitions/Standing up in Base/Attacker|Standing up in Base]]** → [[Positions/Standing Guard]] (Probability: 60%)
+- Execute **[[Transitions/Butterfly Smash/Attacker|Butterfly Smash]]** → [[Positions/Half Guard]] (Probability: 50%)
 
 
 **If opponent commits to sweep in one direction with weight shift:**
-- Execute **[[Transitions/Knee Slice Pass]]** → [[Positions/Side Control]] (Probability: 65%)
-- Execute **[[Transitions/Butterfly Pass]]** → [[Positions/Side Control]] (Probability: 60%)
+- Execute **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** → [[Positions/Side Control]] (Probability: 65%)
+- Execute **[[Transitions/Butterfly Pass/Attacker|Butterfly Pass]]** → [[Positions/Side Control]] (Probability: 60%)
 
 
 **If opponent's posture breaks backward or hooks become shallow:**
-- Execute **[[Transitions/Pressure Pass]]** → [[Positions/Side Control]] (Probability: 70%)
-- Execute **[[Transitions/Double Under Pass]]** → [[Positions/Side Control]] (Probability: 55%)
+- Execute **[[Transitions/Pressure Pass/Attacker|Pressure Pass]]** → [[Positions/Side Control]] (Probability: 70%)
+- Execute **[[Transitions/Double Under Pass/Attacker|Double Under Pass]]** → [[Positions/Side Control]] (Probability: 55%)
 
 
 **If opponent attempts arm drag or reaches for back control:**
-- Execute **[[Transitions/Butterfly Smash]]** → [[Positions/Half Guard]] (Probability: 60%)
-- Execute **[[Transitions/Standing up in Base]]** → [[Positions/Standing Guard]] (Probability: 55%)
+- Execute **[[Transitions/Butterfly Smash/Attacker|Butterfly Smash]]** → [[Positions/Half Guard]] (Probability: 60%)
+- Execute **[[Transitions/Standing up in Base/Attacker|Standing up in Base]]** → [[Positions/Standing Guard]] (Probability: 55%)
 
 
 

@@ -210,23 +210,23 @@ This position represents an evolution in half guard theory, popularized by pract
 ## Decision Making from This Position
 
 **If opponent is upright with high posture and not applying heavy pressure:**
-- Execute **[[Transitions/Basic Butterfly Sweep]]** → [[Positions/Mount]] (Probability: 55%)
-- Execute **[[Transitions/Old School Sweep]]** → [[Positions/Side Control]] (Probability: 60%)
+- Execute **[[Transitions/Basic Butterfly Sweep/Attacker|Basic Butterfly Sweep]]** → [[Positions/Mount]] (Probability: 55%)
+- Execute **[[Transitions/Old School Sweep/Attacker|Old School Sweep]]** → [[Positions/Side Control]] (Probability: 60%)
 
 
 **Else if opponent drives forward with heavy chest pressure attempting to flatten you:**
-- Execute **[[Transitions/Deep Half Entry]]** → [[Positions/Half Guard/Deep Half Guard]] (Probability: 65%)
-- Execute **[[Transitions/Granby to Closed Guard]]** → [[Positions/Closed Guard]] (Probability: 50%)
+- Execute **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** → [[Positions/Half Guard/Deep Half Guard]] (Probability: 65%)
+- Execute **[[Transitions/Granby to Closed Guard/Attacker|Granby to Closed Guard]]** → [[Positions/Closed Guard]] (Probability: 50%)
 
 
 **Else if opponent attempts to extract trapped leg and establish passing pressure:**
-- Execute **[[Transitions/Hook Sweep]]** → [[Positions/Mount]] (Probability: 50%)
-- Execute **[[Transitions/Underhook Sweep from Half]]** → [[Positions/Side Control]] (Probability: 55%)
+- Execute **[[Transitions/Hook Sweep/Attacker|Hook Sweep]]** → [[Positions/Mount]] (Probability: 50%)
+- Execute **[[Transitions/Underhook Sweep from Half/Attacker|Underhook Sweep from Half]]** → [[Positions/Side Control]] (Probability: 55%)
 
 
 **Else if opponent's weight shifts to free-leg side defending butterfly hook:**
-- Execute **[[Transitions/Back Take from Bottom]]** → [[Positions/Back Control]] (Probability: 45%)
-- Execute **[[Transitions/Rolling Back Take from Half Butterfly]]** → [[Positions/Back Control]] (Probability: 40%)
+- Execute **[[Transitions/Back Take from Bottom/Attacker|Back Take from Bottom]]** → [[Positions/Back Control]] (Probability: 45%)
+- Execute **[[Transitions/Rolling Back Take from Half Butterfly/Attacker|Rolling Back Take from Half Butterfly]]** → [[Positions/Back Control]] (Probability: 40%)
 
 
 

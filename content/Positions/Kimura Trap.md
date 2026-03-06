@@ -97,27 +97,27 @@ Strategically, the Kimura Trap excels at creating dilemmas where opponents must 
 ### Available Transitions
 
 
-- **[[Transitions/Old School Sweep]]** (31% of attempts)
+- **[[Transitions/Old School Sweep/Attacker|Old School Sweep]]** (31% of attempts)
 
-- **[[Transitions/Kimura to Back Take]]** (14% of attempts)
+- **[[Transitions/Kimura to Back Take/Attacker|Kimura to Back Take]]** (14% of attempts)
 
-- **[[Transitions/Kimura Sweep]]** (10% of attempts)
+- **[[Transitions/Kimura Sweep/Attacker|Kimura Sweep]]** (10% of attempts)
 
-- **[[Transitions/Rolling Kimura]]** (10% of attempts)
+- **[[Transitions/Rolling Kimura/Attacker|Rolling Kimura]]** (10% of attempts)
 
-- **[[Transitions/Underhook Sweep from Half]]** (6% of attempts)
+- **[[Transitions/Underhook Sweep from Half/Attacker|Underhook Sweep from Half]]** (6% of attempts)
 
-- **[[Transitions/Half Guard to Back Take]]** (6% of attempts)
+- **[[Transitions/Half Guard to Back Take/Attacker|Half Guard to Back Take]]** (6% of attempts)
 
-- **[[Transitions/Lockdown Recovery]]** (6% of attempts)
+- **[[Transitions/Lockdown Recovery/Attacker|Lockdown Recovery]]** (6% of attempts)
 
-- **[[Transitions/Electric Chair Transition]]** (6% of attempts)
+- **[[Transitions/Electric Chair Transition/Attacker|Electric Chair Transition]]** (6% of attempts)
 
-- **[[Transitions/Half Guard Pass]]** (6% of attempts)
+- **[[Transitions/Half Guard Pass/Attacker|Half Guard Pass]]** (6% of attempts)
 
-- **[[Transitions/Kimura Counter via Roll]]** (3% of attempts)
+- **[[Transitions/Kimura Counter via Roll/Attacker|Kimura Counter via Roll]]** (3% of attempts)
 
-- **[[Transitions/Kimura Defense Arm Extraction]]** (2% of attempts)
+- **[[Transitions/Kimura Defense Arm Extraction/Attacker|Kimura Defense Arm Extraction]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -178,25 +178,25 @@ Strategically, the Kimura Trap excels at creating dilemmas where opponents must 
 ### Available Transitions
 
 
-- **[[Transitions/Kimura]]** (30% of attempts)
+- **[[Transitions/Kimura/Attacker|Kimura]]** (30% of attempts)
 
-- **[[Transitions/North-South to Kimura]]** (13% of attempts)
+- **[[Transitions/North-South to Kimura/Attacker|North-South to Kimura]]** (13% of attempts)
 
-- **[[Transitions/Side Control to Mount]]** (15% of attempts)
+- **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** (15% of attempts)
 
-- **[[Transitions/Kimura to Back Take]]** (13% of attempts)
+- **[[Transitions/Kimura to Back Take/Attacker|Kimura to Back Take]]** (13% of attempts)
 
-- **[[Positions/Knee on Belly]]** (8% of attempts)
+- **[[Positions/Knee on Belly/Attacker|Knee on Belly]]** (8% of attempts)
 
-- **[[Transitions/Arm Triangle Setup]]** (8% of attempts)
+- **[[Transitions/Arm Triangle Setup/Attacker|Arm Triangle Setup]]** (8% of attempts)
 
-- **[[Transitions/Americana]]** (6% of attempts)
+- **[[Transitions/Americana/Attacker|Americana]]** (6% of attempts)
 
-- **[[Transitions/Kimura Defense]]** (3% of attempts)
+- **[[Transitions/Kimura Defense/Attacker|Kimura Defense]]** (3% of attempts)
 
-- **[[Transitions/Kimura Trap to Reverse Scarf Hold]]** (2% of attempts)
+- **[[Transitions/Kimura Trap to Reverse Scarf Hold/Attacker|Kimura Trap to Reverse Scarf Hold]]** (2% of attempts)
 
-- **[[Submissions/Kimura from Kimura Trap]]** (2% of attempts)
+- **[[Submissions/Kimura from Kimura Trap/Attacker|Kimura from Kimura Trap]]** (2% of attempts)
 
 
 ### Common Mistakes

@@ -211,33 +211,33 @@ Modern guard players use Standing Guard Bottom as a tactical platform for enteri
 ## Decision Making from This Position
 
 **If opponent drives forward aggressively trying to close distance:**
-- Execute **[[Transitions/Pull guard]]** → [[Positions/Closed Guard]] (Probability: 65%)
-- Execute **[[Transitions/Sitting Guard Pull]]** → [[Positions/Seated Guard]] (Probability: 55%)
-- Execute **[[Circular footwork retreat]]** → [[Positions/Standing Guard]] (Probability: 70%)
+- Execute **[[Transitions/Pull guard/Attacker|Pull guard]]** → [[Positions/Closed Guard]] (Probability: 65%)
+- Execute **[[Transitions/Sitting Guard Pull/Attacker|Sitting Guard Pull]]** → [[Positions/Seated Guard]] (Probability: 55%)
+- Execute **[[Circular footwork retreat/Attacker|Circular footwork retreat]]** → [[Positions/Standing Guard]] (Probability: 70%)
 
 
 **If opponent establishes collar and sleeve grips in gi:**
-- Execute **[[Transitions/Grip Break]]** → [[Positions/Standing Guard]] (Probability: 60%)
-- Execute **[[Transitions/Collar Drag]]** → [[Positions/Back Control]] (Probability: 45%)
-- Execute **[[Transitions/Pull guard]]** → [[Positions/Closed Guard]] (Probability: 70%)
+- Execute **[[Transitions/Grip Break/Attacker|Grip Break]]** → [[Positions/Standing Guard]] (Probability: 60%)
+- Execute **[[Transitions/Collar Drag/Attacker|Collar Drag]]** → [[Positions/Back Control]] (Probability: 45%)
+- Execute **[[Transitions/Pull guard/Attacker|Pull guard]]** → [[Positions/Closed Guard]] (Probability: 70%)
 
 
 **If opponent shoots for single or double leg takedown:**
-- Execute **[[Transitions/Sprawl Defense]]** → [[Positions/Front Headlock]] (Probability: 55%)
-- Execute **[[Transitions/Guillotine Setup]]** → [[Positions/Guillotine Control]] (Probability: 40%)
-- Execute **[[Wizzer defense]]** → [[Positions/Standing Guard]] (Probability: 50%)
+- Execute **[[Transitions/Sprawl Defense/Attacker|Sprawl Defense]]** → [[Positions/Front Headlock]] (Probability: 55%)
+- Execute **[[Transitions/Guillotine Setup/Attacker|Guillotine Setup]]** → [[Positions/Guillotine Control]] (Probability: 40%)
+- Execute **[[Wizzer defense/Attacker|Wizzer defense]]** → [[Positions/Standing Guard]] (Probability: 50%)
 
 
 **If opponent attempts snap-down or front headlock control:**
-- Execute **[[Principles/Posture Up]]** → [[Positions/Standing Guard]] (Probability: 65%)
-- Execute **[[Transitions/Arm Drag to Back]]** → [[Positions/Back Control]] (Probability: 45%)
-- Execute **[[Transitions/Pull guard]]** → [[Positions/Closed Guard]] (Probability: 60%)
+- Execute **[[Principles/Posture Up/Attacker|Posture Up]]** → [[Positions/Standing Guard]] (Probability: 65%)
+- Execute **[[Transitions/Arm Drag to Back/Attacker|Arm Drag to Back]]** → [[Positions/Back Control]] (Probability: 45%)
+- Execute **[[Transitions/Pull guard/Attacker|Pull guard]]** → [[Positions/Closed Guard]] (Probability: 60%)
 
 
 **If opponent is passive or maintaining distance defensively:**
-- Execute **[[Transitions/Ankle Pick]]** → [[Positions/Side Control]] (Probability: 50%)
-- Execute **[[Transitions/Single Leg Entry]]** → [[Positions/Side Control]] (Probability: 48%)
-- Execute **[[Transitions/Snap Down to Front Headlock]]** → [[Positions/Front Headlock]] (Probability: 42%)
+- Execute **[[Transitions/Ankle Pick/Attacker|Ankle Pick]]** → [[Positions/Side Control]] (Probability: 50%)
+- Execute **[[Transitions/Single Leg Entry/Attacker|Single Leg Entry]]** → [[Positions/Side Control]] (Probability: 48%)
+- Execute **[[Transitions/Snap Down to Front Headlock/Attacker|Snap Down to Front Headlock]]** → [[Positions/Front Headlock]] (Probability: 42%)
 
 
 

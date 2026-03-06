@@ -214,29 +214,29 @@ Success in butterfly half guard bottom requires mastering several key technical 
 ## Decision Making from This Position
 
 **If opponent maintains upright posture and attempts to free trapped leg with backward hip pressure:**
-- Execute **[[Transitions/100% Sweep]]** → [[Positions/Mount]] (Probability: 65%)
-- Execute **[[Transitions/Old School Sweep]]** → [[Positions/Side Control]] (Probability: 70%)
+- Execute **[[Transitions/100% Sweep/Attacker|100% Sweep]]** → [[Positions/Mount]] (Probability: 65%)
+- Execute **[[Transitions/Old School Sweep/Attacker|Old School Sweep]]** → [[Positions/Side Control]] (Probability: 70%)
 
 
 **If opponent drives forward with heavy pressure and establishes crossface control threatening to flatten:**
-- Execute **[[Transitions/Deep Half Entry]]** → [[Positions/Half Guard/Deep Half Guard]] (Probability: 75%)
-- Execute **[[Transitions/Lockdown Recovery]]** → [[Positions/Half Guard/Lockdown]] (Probability: 60%)
+- Execute **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** → [[Positions/Half Guard/Deep Half Guard]] (Probability: 75%)
+- Execute **[[Transitions/Lockdown Recovery/Attacker|Lockdown Recovery]]** → [[Positions/Half Guard/Lockdown]] (Probability: 60%)
 
 
 **If opponent stands tall or attempts to step over the trapped leg creating vertical posture:**
-- Execute **[[Transitions/Half Guard to Back Take]]** → [[Positions/Back Control]] (Probability: 55%)
-- Execute **[[Transitions/Knee Tap]]** → [[Positions/Standing Position]] (Probability: 50%)
-- Execute **[[Transitions/Butterfly Guard to X-Guard]]** → [[Positions/X-Guard]] (Probability: 60%)
+- Execute **[[Transitions/Half Guard to Back Take/Attacker|Half Guard to Back Take]]** → [[Positions/Back Control]] (Probability: 55%)
+- Execute **[[Transitions/Knee Tap/Attacker|Knee Tap]]** → [[Positions/Standing Position]] (Probability: 50%)
+- Execute **[[Transitions/Butterfly Guard to X-Guard/Attacker|Butterfly Guard to X-Guard]]** → [[Positions/X-Guard]] (Probability: 60%)
 
 
 **If opponent posts hand on mat to defend butterfly hook elevation and stabilize base:**
-- Execute **[[Transitions/Old School Sweep]]** → [[Positions/Side Control]] (Probability: 70%)
-- Execute **[[Transitions/Butterfly Sweep]]** → [[Positions/Mount]] (Probability: 60%)
+- Execute **[[Transitions/Old School Sweep/Attacker|Old School Sweep]]** → [[Positions/Side Control]] (Probability: 70%)
+- Execute **[[Transitions/Butterfly Sweep/Attacker|Butterfly Sweep]]** → [[Positions/Mount]] (Probability: 60%)
 
 
 **If opponent establishes underhook on trapped leg side and drives shoulder pressure:**
-- Execute **[[Transitions/Waiter Sweep]]** → [[Positions/Side Control]] (Probability: 55%)
-- Execute **[[Transitions/Deep Half Entry]]** → [[Positions/Half Guard/Deep Half Guard]] (Probability: 65%)
+- Execute **[[Transitions/Waiter Sweep/Attacker|Waiter Sweep]]** → [[Positions/Side Control]] (Probability: 55%)
+- Execute **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** → [[Positions/Half Guard/Deep Half Guard]] (Probability: 65%)
 
 
 

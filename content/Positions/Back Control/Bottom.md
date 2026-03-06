@@ -212,28 +212,28 @@ The escape hierarchy follows a strict sequence: neck defense first through chin 
 ## Decision Making from This Position
 
 **If opponent has both hooks in and harness grip with arm attacking your neck:**
-- Execute **[[Immediate chin tuck and two-on-one hand fighting on choking arm]]** → [[Positions/Back Control]] (Probability: 70%)
-- Execute **[[Strip seatbelt grip with bottom hand while maintaining neck defense]]** → [[Positions/Back Control]] (Probability: 65%)
+- Execute **[[Immediate chin tuck and two-on-one hand fighting on choking arm/Attacker|Immediate chin tuck and two-on-one hand fighting on choking arm]]** → [[Positions/Back Control]] (Probability: 70%)
+- Execute **[[Strip seatbelt grip with bottom hand while maintaining neck defense/Attacker|Strip seatbelt grip with bottom hand while maintaining neck defense]]** → [[Positions/Back Control]] (Probability: 65%)
 
 
 **If you successfully defend neck and opponent maintains hooks without immediate submission threat:**
-- Execute **[[Systematic hook removal starting with weaker underhook side]]** → [[Positions/Turtle]] (Probability: 45%)
-- Execute **[[Hip escape creating angle toward underhook side for turn]]** → [[Positions/Half Guard]] (Probability: 40%)
+- Execute **[[Systematic hook removal starting with weaker underhook side/Attacker|Systematic hook removal starting with weaker underhook side]]** → [[Positions/Turtle]] (Probability: 45%)
+- Execute **[[Hip escape creating angle toward underhook side for turn/Attacker|Hip escape creating angle toward underhook side for turn]]** → [[Positions/Half Guard]] (Probability: 40%)
 
 
 **If opponent has body triangle locked and attacking neck simultaneously:**
-- Execute **[[Turn toward triangle leg side to reduce squeeze while defending neck]]** → [[Positions/Back Control]] (Probability: 35%)
-- Execute **[[Accept defensive holding position while managing energy and breathing]]** → [[Positions/Back Control]] (Probability: 50%)
+- Execute **[[Turn toward triangle leg side to reduce squeeze while defending neck/Attacker|Turn toward triangle leg side to reduce squeeze while defending neck]]** → [[Positions/Back Control]] (Probability: 35%)
+- Execute **[[Accept defensive holding position while managing energy and breathing/Attacker|Accept defensive holding position while managing energy and breathing]]** → [[Positions/Back Control]] (Probability: 50%)
 
 
 **If you create space and remove one hook successfully:**
-- Execute **[[Hip escape to turtle position before opponent re-establishes hook]]** → [[Positions/Turtle]] (Probability: 55%)
-- Execute **[[Turn into half guard using frames on shoulder and hip]]** → [[Positions/Half Guard]] (Probability: 50%)
+- Execute **[[Hip escape to turtle position before opponent re-establishes hook/Attacker|Hip escape to turtle position before opponent re-establishes hook]]** → [[Positions/Turtle]] (Probability: 55%)
+- Execute **[[Turn into half guard using frames on shoulder and hip/Attacker|Turn into half guard using frames on shoulder and hip]]** → [[Positions/Half Guard]] (Probability: 50%)
 
 
 **If opponent overcommits to choke attempt and loosens hook or seatbelt control:**
-- Execute **[[Exploit loosened control with immediate hip escape sequence]]** → [[Positions/Open Guard]] (Probability: 45%)
-- Execute **[[Strip loosened hook and begin rotation to face opponent]]** → [[Positions/Closed Guard]] (Probability: 40%)
+- Execute **[[Exploit loosened control with immediate hip escape sequence/Attacker|Exploit loosened control with immediate hip escape sequence]]** → [[Positions/Open Guard]] (Probability: 45%)
+- Execute **[[Strip loosened hook and begin rotation to face opponent/Attacker|Strip loosened hook and begin rotation to face opponent]]** → [[Positions/Closed Guard]] (Probability: 40%)
 
 
 

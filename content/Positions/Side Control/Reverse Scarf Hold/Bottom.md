@@ -211,23 +211,23 @@ Success in this position requires prioritizing survival first, then creating fra
 ## Decision Making from This Position
 
 **If opponent maintains heavy chest pressure without attempting submissions:**
-- Execute **[[Transitions/Frame and Shrimp to Guard]]** → [[Positions/Half Guard]] (Probability: 70%)
-- Execute **[[Transitions/Hip Escape to Guard]]** → [[Positions/Half Guard]] (Probability: 60%)
+- Execute **[[Transitions/Frame and Shrimp to Guard/Attacker|Frame and Shrimp to Guard]]** → [[Positions/Half Guard]] (Probability: 70%)
+- Execute **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** → [[Positions/Half Guard]] (Probability: 60%)
 
 
 **If opponent isolates near-side arm for kimura or americana:**
-- Execute **[[Transitions/Kimura Defense]]** → [[Positions/Half Guard]] (Probability: 55%)
-- Execute **[[Transitions/Bridge and Roll]]** → [[Positions/Side Control/Reverse Scarf Hold]] (Probability: 40%)
+- Execute **[[Transitions/Kimura Defense/Attacker|Kimura Defense]]** → [[Positions/Half Guard]] (Probability: 55%)
+- Execute **[[Transitions/Bridge and Roll/Attacker|Bridge and Roll]]** → [[Positions/Side Control/Reverse Scarf Hold]] (Probability: 40%)
 
 
 **If opponent attempts to advance to mount or north-south:**
-- Execute **[[Transitions/Hip Escape to Guard]]** → [[Positions/Open Guard]] (Probability: 65%)
-- Execute **[[Transitions/Elbow Escape to Guard]]** → [[Positions/Half Guard]] (Probability: 50%)
+- Execute **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** → [[Positions/Open Guard]] (Probability: 65%)
+- Execute **[[Transitions/Elbow Escape to Guard/Attacker|Elbow Escape to Guard]]** → [[Positions/Half Guard]] (Probability: 50%)
 
 
 **If opponent's base becomes compromised during transition attempts:**
-- Execute **[[Transitions/Bridge and Roll]]** → [[Positions/Side Control/Reverse Scarf Hold]] (Probability: 55%)
-- Execute **[[Transitions/Technical Stand-up]]** → [[Positions/Clinch]] (Probability: 35%)
+- Execute **[[Transitions/Bridge and Roll/Attacker|Bridge and Roll]]** → [[Positions/Side Control/Reverse Scarf Hold]] (Probability: 55%)
+- Execute **[[Transitions/Technical Stand-up/Attacker|Technical Stand-up]]** → [[Positions/Clinch]] (Probability: 35%)
 
 
 

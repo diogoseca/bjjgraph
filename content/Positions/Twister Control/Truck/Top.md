@@ -211,28 +211,28 @@ Advanced practitioners use the truck as a transitional position, flowing between
 ## Decision Making from This Position
 
 **If opponent defends upper body by hiding arms and protecting neck:**
-- Execute **[[Transitions/Calf Slicer]]** → [[Positions/Game Over]] (Probability: 55%)
-- Execute **[[Submissions/Banana Split]]** → [[Positions/Game Over]] (Probability: 45%)
+- Execute **[[Transitions/Calf Slicer/Attacker|Calf Slicer]]** → [[Positions/Game Over]] (Probability: 55%)
+- Execute **[[Submissions/Banana Split/Attacker|Banana Split]]** → [[Positions/Game Over]] (Probability: 45%)
 
 
 **Else if opponent defends lower body by straightening legs or clearing hooks:**
-- Execute **[[Transitions/Twister Entry]]** → [[Positions/Twister Control]] (Probability: 50%)
-- Execute **[[Transitions/Bow and Arrow Choke]]** → [[Positions/Game Over]] (Probability: 50%)
+- Execute **[[Transitions/Twister Entry/Attacker|Twister Entry]]** → [[Positions/Twister Control]] (Probability: 50%)
+- Execute **[[Transitions/Bow and Arrow Choke/Attacker|Bow and Arrow Choke]]** → [[Positions/Game Over]] (Probability: 50%)
 
 
 **Else if opponent attempts to roll through or forward roll escape:**
-- Execute **[[Transitions/Rolling Back Take]]** → [[Positions/Back Control]] (Probability: 55%)
-- Execute **[[Transitions/Crucifix from Turtle]]** → [[Positions/Crucifix]] (Probability: 45%)
+- Execute **[[Transitions/Rolling Back Take/Attacker|Rolling Back Take]]** → [[Positions/Back Control]] (Probability: 55%)
+- Execute **[[Transitions/Crucifix from Turtle/Attacker|Crucifix from Turtle]]** → [[Positions/Crucifix]] (Probability: 45%)
 
 
 **Else if opponent clears boot pressure and begins to escape leg entanglement:**
-- Execute **[[Transitions/Back Take from Top]]** → [[Positions/Back Control]] (Probability: 55%)
-- Execute **[[Transitions/Consolidate Mount]]** → [[Positions/Mount]] (Probability: 45%)
+- Execute **[[Transitions/Back Take from Top/Attacker|Back Take from Top]]** → [[Positions/Back Control]] (Probability: 55%)
+- Execute **[[Transitions/Consolidate Mount/Attacker|Consolidate Mount]]** → [[Positions/Mount]] (Probability: 45%)
 
 
 **Else if opponent turtles up or attempts to stand:**
-- Execute **[[Transitions/Back Take from Top]]** → [[Positions/Back Control]] (Probability: 60%)
-- Execute **[[Transitions/Kimura from Back]]** → [[Positions/Kimura Trap]] (Probability: 40%)
+- Execute **[[Transitions/Back Take from Top/Attacker|Back Take from Top]]** → [[Positions/Back Control]] (Probability: 60%)
+- Execute **[[Transitions/Kimura from Back/Attacker|Kimura from Back]]** → [[Positions/Kimura Trap]] (Probability: 40%)
 
 
 

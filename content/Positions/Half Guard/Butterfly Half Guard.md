@@ -95,33 +95,33 @@ Both bottom and top perspectives of butterfly half guard require distinct strate
 ### Available Transitions
 
 
-- **[[Transitions/100% Sweep]]** (33% of attempts)
+- **[[Transitions/100% Sweep/Attacker|100% Sweep]]** (33% of attempts)
 
-- **[[Transitions/Old School Sweep]]** (10% of attempts)
+- **[[Transitions/Old School Sweep/Attacker|Old School Sweep]]** (10% of attempts)
 
-- **[[Transitions/Butterfly Sweep]]** (6% of attempts)
+- **[[Transitions/Butterfly Sweep/Attacker|Butterfly Sweep]]** (6% of attempts)
 
-- **[[Transitions/Deep Half Entry]]** (8% of attempts)
+- **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** (8% of attempts)
 
-- **[[Transitions/Waiter Sweep]]** (4% of attempts)
+- **[[Transitions/Waiter Sweep/Attacker|Waiter Sweep]]** (4% of attempts)
 
-- **[[Transitions/Underhook Sweep from Half]]** (6% of attempts)
+- **[[Transitions/Underhook Sweep from Half/Attacker|Underhook Sweep from Half]]** (6% of attempts)
 
-- **[[Transitions/Knee Tap]]** (5% of attempts)
+- **[[Transitions/Knee Tap/Attacker|Knee Tap]]** (5% of attempts)
 
-- **[[Transitions/Half Guard to Back Take]]** (6% of attempts)
+- **[[Transitions/Half Guard to Back Take/Attacker|Half Guard to Back Take]]** (6% of attempts)
 
-- **[[Transitions/Butterfly Guard to X-Guard]]** (4% of attempts)
+- **[[Transitions/Butterfly Guard to X-Guard/Attacker|Butterfly Guard to X-Guard]]** (4% of attempts)
 
-- **[[Transitions/Lockdown Recovery]]** (4% of attempts)
+- **[[Transitions/Lockdown Recovery/Attacker|Lockdown Recovery]]** (4% of attempts)
 
-- **[[Transitions/Kimura Sweep]]** (6% of attempts)
+- **[[Transitions/Kimura Sweep/Attacker|Kimura Sweep]]** (6% of attempts)
 
-- **[[Transitions/Electric Chair Transition]]** (5% of attempts)
+- **[[Transitions/Electric Chair Transition/Attacker|Electric Chair Transition]]** (5% of attempts)
 
-- **[[Transitions/Butterfly Half Guard Sweep]]** (2% of attempts)
+- **[[Transitions/Butterfly Half Guard Sweep/Attacker|Butterfly Half Guard Sweep]]** (2% of attempts)
 
-- **[[Transitions/Reguard from Butterfly Half Guard]]** (1% of attempts)
+- **[[Transitions/Reguard from Butterfly Half Guard/Attacker|Reguard from Butterfly Half Guard]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -186,25 +186,25 @@ Both bottom and top perspectives of butterfly half guard require distinct strate
 ### Available Transitions
 
 
-- **[[Transitions/Half Guard Pass]]** (10% of attempts)
+- **[[Transitions/Half Guard Pass/Attacker|Half Guard Pass]]** (10% of attempts)
 
-- **[[Transitions/Knee Slice Pass]]** (10% of attempts)
+- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (10% of attempts)
 
-- **[[Transitions/Smash Pass]]** (23% of attempts)
+- **[[Transitions/Smash Pass/Attacker|Smash Pass]]** (23% of attempts)
 
-- **[[Transitions/Underhook Pass]]** (11% of attempts)
+- **[[Transitions/Underhook Pass/Attacker|Underhook Pass]]** (11% of attempts)
 
-- **[[Transitions/Long Step Pass]]** (10% of attempts)
+- **[[Transitions/Long Step Pass/Attacker|Long Step Pass]]** (10% of attempts)
 
-- **[[Transitions/Pressure Pass]]** (8% of attempts)
+- **[[Transitions/Pressure Pass/Attacker|Pressure Pass]]** (8% of attempts)
 
-- **[[Transitions/Back Step Pass]]** (12% of attempts)
+- **[[Transitions/Back Step Pass/Attacker|Back Step Pass]]** (12% of attempts)
 
-- **[[Transitions/Half Guard to Flattened Half Guard]]** (10% of attempts)
+- **[[Transitions/Half Guard to Flattened Half Guard/Attacker|Half Guard to Flattened Half Guard]]** (10% of attempts)
 
-- **[[Transitions/Knee Slice from Butterfly Half]]** (4% of attempts)
+- **[[Transitions/Knee Slice from Butterfly Half/Attacker|Knee Slice from Butterfly Half]]** (4% of attempts)
 
-- **[[Transitions/Smash from Butterfly Half]]** (2% of attempts)
+- **[[Transitions/Smash from Butterfly Half/Attacker|Smash from Butterfly Half]]** (2% of attempts)
 
 
 ### Common Mistakes

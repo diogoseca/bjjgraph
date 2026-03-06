@@ -215,23 +215,23 @@ The position also provides important lessons about submission defense principles
 ## Decision Making from This Position
 
 **If gogoplata is fully locked with deep foot position and strong shin compression making breathing difficult:**
-- Execute **[[Emergency Tuck and Roll]]** → [[Positions/Turtle]] (Probability: 40%)
-- Execute **[[Tap for Safety]]** → [[game-over]] (Probability: 60%)
+- Execute **[[Emergency Tuck and Roll/Attacker|Emergency Tuck and Roll]]** → [[Positions/Turtle]] (Probability: 40%)
+- Execute **[[Tap for Safety/Attacker|Tap for Safety]]** → [[game-over]] (Probability: 60%)
 
 
 **If shin is across throat but foot position behind head is shallow or hip elevation is inconsistent:**
-- Execute **[[Systematic Head Extraction]]** → [[Positions/Closed Guard]] (Probability: 55%)
-- Execute **[[Angle Change to Remove Pressure]]** → [[Positions/Half Guard]] (Probability: 50%)
+- Execute **[[Systematic Head Extraction/Attacker|Systematic Head Extraction]]** → [[Positions/Closed Guard]] (Probability: 55%)
+- Execute **[[Angle Change to Remove Pressure/Attacker|Angle Change to Remove Pressure]]** → [[Positions/Half Guard]] (Probability: 50%)
 
 
 **If bottom player attempts to tighten submission by pulling foot deeper behind head:**
-- Execute **[[Hand Fighting Foot Position]]** → [[Positions/Open Guard]] (Probability: 45%)
-- Execute **[[Transitions/Posture Recovery]]** → [[Positions/Closed Guard]] (Probability: 40%)
+- Execute **[[Hand Fighting Foot Position/Attacker|Hand Fighting Foot Position]]** → [[Positions/Open Guard]] (Probability: 45%)
+- Execute **[[Transitions/Posture Recovery/Attacker|Posture Recovery]]** → [[Positions/Closed Guard]] (Probability: 40%)
 
 
 **If bottom player's hips drop to mat during control maintenance:**
-- Execute **[[Immediate Stack Pressure]]** → [[Positions/Half Guard]] (Probability: 65%)
-- Execute **[[Head Extraction]]** → [[Positions/Closed Guard]] (Probability: 60%)
+- Execute **[[Immediate Stack Pressure/Attacker|Immediate Stack Pressure]]** → [[Positions/Half Guard]] (Probability: 65%)
+- Execute **[[Head Extraction/Attacker|Head Extraction]]** → [[Positions/Closed Guard]] (Probability: 60%)
 
 
 

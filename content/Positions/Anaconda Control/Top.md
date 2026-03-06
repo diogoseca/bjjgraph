@@ -206,23 +206,23 @@ The effectiveness of this position lies in its multi-layered control mechanisms:
 ## Decision Making from This Position
 
 **If opponent's base is strong and they resist rolling:**
-- Execute **[[Transitions/Anaconda Choke]]** → [[game-over]] (Probability: 70%)
-- Execute **[[Transitions/Front Headlock to Anaconda]]** → [[Positions/Front Headlock]] (Probability: 50%)
+- Execute **[[Transitions/Anaconda Choke/Attacker|Anaconda Choke]]** → [[game-over]] (Probability: 70%)
+- Execute **[[Transitions/Front Headlock to Anaconda/Attacker|Front Headlock to Anaconda]]** → [[Positions/Front Headlock]] (Probability: 50%)
 
 
 **If opponent rolls away from pressure to escape:**
-- Execute **[[Transitions/Anaconda from Turtle]]** → [[Positions/Side Control]] (Probability: 80%)
-- Execute **[[Transitions/Anaconda Choke]]** → [[game-over]] (Probability: 75%)
+- Execute **[[Transitions/Anaconda from Turtle/Attacker|Anaconda from Turtle]]** → [[Positions/Side Control]] (Probability: 80%)
+- Execute **[[Transitions/Anaconda Choke/Attacker|Anaconda Choke]]** → [[game-over]] (Probability: 75%)
 
 
 **If opponent turns into the grip exposing their back:**
-- Execute **[[Transitions/Back Take from Anaconda]]** → [[Positions/Back Control]] (Probability: 65%)
-- Execute **[[Transitions/Side Control to Mount]]** → [[Positions/Mount]] (Probability: 55%)
+- Execute **[[Transitions/Back Take from Anaconda/Attacker|Back Take from Anaconda]]** → [[Positions/Back Control]] (Probability: 65%)
+- Execute **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** → [[Positions/Mount]] (Probability: 55%)
 
 
 **If opponent straightens their trapped arm in defense:**
-- Execute **[[Transitions/Front Headlock to Darce]]** → [[Positions/Darce Control]] (Probability: 70%)
-- Execute **[[Transitions/Anaconda Choke]]** → [[game-over]] (Probability: 65%)
+- Execute **[[Transitions/Front Headlock to Darce/Attacker|Front Headlock to Darce]]** → [[Positions/Darce Control]] (Probability: 70%)
+- Execute **[[Transitions/Anaconda Choke/Attacker|Anaconda Choke]]** → [[game-over]] (Probability: 65%)
 
 
 

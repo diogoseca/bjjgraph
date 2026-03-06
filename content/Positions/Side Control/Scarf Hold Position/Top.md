@@ -206,23 +206,23 @@ Scarf Hold Top Position (Kesa Gatame) is a classical pinning position derived fr
 ## Decision Making from This Position
 
 **If opponent attempts to turn their face toward you and bridge:**
-- Execute **[[Transitions/Side Control to Mount]]** → [[Positions/Mount]] (Probability: 65%)
-- Execute **[[Transitions/Kimura]]** → [[Positions/Kimura Trap]] (Probability: 45%)
+- Execute **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** → [[Positions/Mount]] (Probability: 65%)
+- Execute **[[Transitions/Kimura/Attacker|Kimura]]** → [[Positions/Kimura Trap]] (Probability: 45%)
 
 
 **If opponent pushes on your head with far arm to create space:**
-- Execute **[[Transitions/Side Control to North-South]]** → [[Positions/North-South]] (Probability: 70%)
-- Execute **[[Transitions/Armbar Finish]]** → [[Positions/Armbar Control]] (Probability: 50%)
+- Execute **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** → [[Positions/North-South]] (Probability: 70%)
+- Execute **[[Transitions/Armbar Finish/Attacker|Armbar Finish]]** → [[Positions/Armbar Control]] (Probability: 50%)
 
 
 **If opponent attempts to extract trapped near arm:**
-- Execute **[[Transitions/Americana]]** → [[Positions/Armbar Control]] (Probability: 60%)
-- Execute **[[Transitions/Side Control to Mount]]** → [[Positions/Mount]] (Probability: 55%)
+- Execute **[[Transitions/Americana/Attacker|Americana]]** → [[Positions/Armbar Control]] (Probability: 60%)
+- Execute **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** → [[Positions/Mount]] (Probability: 55%)
 
 
 **If opponent is passive and not defending actively:**
-- Execute **[[Transitions/Americana]]** → [[Positions/Armbar Control]] (Probability: 75%)
-- Execute **[[Transitions/Kimura]]** → [[Positions/Kimura Trap]] (Probability: 65%)
+- Execute **[[Transitions/Americana/Attacker|Americana]]** → [[Positions/Armbar Control]] (Probability: 75%)
+- Execute **[[Transitions/Kimura/Attacker|Kimura]]** → [[Positions/Kimura Trap]] (Probability: 65%)
 
 
 

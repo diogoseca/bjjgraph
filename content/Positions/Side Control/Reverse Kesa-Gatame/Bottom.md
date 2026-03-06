@@ -209,23 +209,23 @@ From a strategic perspective, Reverse Kesa-Gatame Bottom requires immediate defe
 ## Decision Making from This Position
 
 **If opponent sits high on chest with weight too far forward:**
-- Execute **[[Transitions/Bridge and Roll]]** → [[Positions/Scramble Position]] (Probability: 50%)
-- Execute **[[Transitions/Hip Escape to Guard]]** → [[Positions/Open Guard]] (Probability: 45%)
+- Execute **[[Transitions/Bridge and Roll/Attacker|Bridge and Roll]]** → [[Positions/Scramble Position]] (Probability: 50%)
+- Execute **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** → [[Positions/Open Guard]] (Probability: 45%)
 
 
 **If opponent maintains tight chest-to-chest pressure with proper weight distribution:**
-- Execute **[[Transitions/Elbow Escape to Guard]]** → [[Positions/Half Guard]] (Probability: 55%)
-- Execute **[[Transitions/Shrimp Escape]]** → [[Positions/Open Guard]] (Probability: 40%)
+- Execute **[[Transitions/Elbow Escape to Guard/Attacker|Elbow Escape to Guard]]** → [[Positions/Half Guard]] (Probability: 55%)
+- Execute **[[Transitions/Shrimp Escape/Attacker|Shrimp Escape]]** → [[Positions/Open Guard]] (Probability: 40%)
 
 
 **If opponent begins transitioning to North-South or Mount:**
-- Execute **[[Transitions/Shrimp Escape]]** → [[Positions/Turtle]] (Probability: 60%)
-- Execute **[[Transitions/Shrimp Escape]]** → [[Positions/Closed Guard]] (Probability: 35%)
+- Execute **[[Transitions/Shrimp Escape/Attacker|Shrimp Escape]]** → [[Positions/Turtle]] (Probability: 60%)
+- Execute **[[Transitions/Shrimp Escape/Attacker|Shrimp Escape]]** → [[Positions/Closed Guard]] (Probability: 35%)
 
 
 **If opponent attacks trapped arm for submission:**
-- Execute **[[Transitions/Bridge and Roll]]** → [[Positions/Scramble Position]] (Probability: 45%)
-- Execute **[[Transitions/Hip Escape to Guard]]** → [[Positions/Half Guard]] (Probability: 50%)
+- Execute **[[Transitions/Bridge and Roll/Attacker|Bridge and Roll]]** → [[Positions/Scramble Position]] (Probability: 45%)
+- Execute **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** → [[Positions/Half Guard]] (Probability: 50%)
 
 
 

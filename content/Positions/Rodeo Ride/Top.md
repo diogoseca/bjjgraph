@@ -210,29 +210,29 @@ Rodeo Ride is particularly valuable in modern competition BJJ because it provide
 ## Decision Making from This Position
 
 **If opponent maintains tight turtle with good base and head protection:**
-- Execute **[[Transitions/Crab Ride to Back]]** → [[Positions/Crab Ride]] (Probability: 55%)
-- Execute **[[Transitions/Clock Choke]]** → [[game-over]] (Probability: 35%)
-- Execute **[[Transitions/Crucifix from Turtle]]** → [[Positions/Crucifix]] (Probability: 45%)
+- Execute **[[Transitions/Crab Ride to Back/Attacker|Crab Ride to Back]]** → [[Positions/Crab Ride]] (Probability: 55%)
+- Execute **[[Transitions/Clock Choke/Attacker|Clock Choke]]** → [[game-over]] (Probability: 35%)
+- Execute **[[Transitions/Crucifix from Turtle/Attacker|Crucifix from Turtle]]** → [[Positions/Crucifix]] (Probability: 45%)
 
 
 **If opponent attempts to sit back to guard or roll through:**
-- Execute **[[Transitions/Turtle to Back Take]]** → [[Positions/Back Control]] (Probability: 70%)
-- Execute **[[Transitions/Rolling Back Take]]** → [[Positions/Back Control]] (Probability: 60%)
+- Execute **[[Transitions/Turtle to Back Take/Attacker|Turtle to Back Take]]** → [[Positions/Back Control]] (Probability: 70%)
+- Execute **[[Transitions/Rolling Back Take/Attacker|Rolling Back Take]]** → [[Positions/Back Control]] (Probability: 60%)
 
 
 **If opponent turns away to protect neck or attempts to stand:**
-- Execute **[[Transitions/Turtle to Truck]]** → [[Positions/Twister Control/Truck]] (Probability: 65%)
-- Execute **[[Transitions/Bow and Arrow Choke]]** → [[game-over]] (Probability: 40%)
+- Execute **[[Transitions/Turtle to Truck/Attacker|Turtle to Truck]]** → [[Positions/Twister Control/Truck]] (Probability: 65%)
+- Execute **[[Transitions/Bow and Arrow Choke/Attacker|Bow and Arrow Choke]]** → [[game-over]] (Probability: 40%)
 
 
 **If opponent flattens out on stomach or extends arms for base:**
-- Execute **[[Transitions/Consolidate Mount]]** → [[Positions/Mount]] (Probability: 60%)
-- Execute **[[Transitions/Crucifix from Turtle]]** → [[Positions/Crucifix]] (Probability: 55%)
+- Execute **[[Transitions/Consolidate Mount/Attacker|Consolidate Mount]]** → [[Positions/Mount]] (Probability: 60%)
+- Execute **[[Transitions/Crucifix from Turtle/Attacker|Crucifix from Turtle]]** → [[Positions/Crucifix]] (Probability: 55%)
 
 
 **If opponent creates space between hips and mat:**
-- Execute **[[Transitions/Turtle to Back Take]]** → [[Positions/Back Control]] (Probability: 75%)
-- Execute **[[Transitions/Pass to Side Control]]** → [[Positions/Side Control]] (Probability: 50%)
+- Execute **[[Transitions/Turtle to Back Take/Attacker|Turtle to Back Take]]** → [[Positions/Back Control]] (Probability: 75%)
+- Execute **[[Transitions/Pass to Side Control/Attacker|Pass to Side Control]]** → [[Positions/Side Control]] (Probability: 50%)
 
 
 

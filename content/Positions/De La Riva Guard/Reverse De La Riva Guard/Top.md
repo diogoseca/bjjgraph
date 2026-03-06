@@ -211,28 +211,28 @@ The top player must navigate multiple decision points throughout the passing seq
 ## Decision Making from This Position
 
 **If bottom player maintains tight reverse De La Riva hook with strong ankle grip and active far leg framing that prevents immediate pressure:**
-- Execute **[[Transitions/Back Step]]** → [[Positions/Headquarters Position]] (Probability: 70%)
-- Execute **[[Transitions/RDLR Pass]]** → [[Positions/Side Control]] (Probability: 60%)
+- Execute **[[Transitions/Back Step/Attacker|Back Step]]** → [[Positions/Headquarters Position]] (Probability: 70%)
+- Execute **[[Transitions/RDLR Pass/Attacker|RDLR Pass]]** → [[Positions/Side Control]] (Probability: 60%)
 
 
 **If bottom player loses ankle grip but maintains reverse De La Riva hook structure with hip elevation:**
-- Execute **[[Transitions/Leg Drag Pass]]** → [[Positions/Leg Drag Control]] (Probability: 75%)
-- Execute **[[Transitions/Knee Slice Pass]]** → [[Positions/Side Control]] (Probability: 65%)
+- Execute **[[Transitions/Leg Drag Pass/Attacker|Leg Drag Pass]]** → [[Positions/Leg Drag Control]] (Probability: 75%)
+- Execute **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** → [[Positions/Side Control]] (Probability: 65%)
 
 
 **If bottom player attempts inversion or berimbolo entry by rotating shoulders toward the mat:**
-- Execute **[[Transitions/Back Step]]** → [[Positions/Headquarters Position]] (Probability: 80%)
-- Execute **[[Bodylock Pass]]** → [[Positions/Side Control]] (Probability: 70%)
+- Execute **[[Transitions/Back Step/Attacker|Back Step]]** → [[Positions/Headquarters Position]] (Probability: 80%)
+- Execute **[[Bodylock Pass/Attacker|Bodylock Pass]]** → [[Positions/Side Control]] (Probability: 70%)
 
 
 **If bottom player flattens out or loses far leg posting on hip or bicep:**
-- Execute **[[Transitions/Smash Pass]]** → [[Positions/Side Control]] (Probability: 70%)
-- Execute **[[Transitions/Knee Slice Pass]]** → [[Positions/Side Control]] (Probability: 65%)
+- Execute **[[Transitions/Smash Pass/Attacker|Smash Pass]]** → [[Positions/Side Control]] (Probability: 70%)
+- Execute **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** → [[Positions/Side Control]] (Probability: 65%)
 
 
 **If bottom player transitions to other guard variations like X-Guard or Single Leg X during guard retention:**
-- Execute **[[Transitions/X Pass]]** → [[Positions/Side Control]] (Probability: 60%)
-- Execute **[[Transitions/Long Step Pass]]** → [[Positions/Side Control]] (Probability: 55%)
+- Execute **[[Transitions/X Pass/Attacker|X Pass]]** → [[Positions/Side Control]] (Probability: 60%)
+- Execute **[[Transitions/Long Step Pass/Attacker|Long Step Pass]]** → [[Positions/Side Control]] (Probability: 55%)
 
 
 

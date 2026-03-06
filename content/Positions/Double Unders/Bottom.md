@@ -207,23 +207,23 @@ Double Unders Bottom Position occurs when an opponent has established underhooks
 ## Decision Making from This Position
 
 **If opponent drives heavy pressure forward and down attempting to flatten you completely onto your back:**
-- Execute **[[Transitions/Deep Half Entry]]** → [[Positions/Half Guard/Deep Half Guard]] (Probability: 55%)
-- Execute **[[Transitions/Granby Roll to Guard]]** → [[Positions/Turtle]] (Probability: 45%)
+- Execute **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** → [[Positions/Half Guard/Deep Half Guard]] (Probability: 55%)
+- Execute **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** → [[Positions/Turtle]] (Probability: 45%)
 
 
 **If opponent pauses pressure to consolidate position or adjust grips and base structure:**
-- Execute **[[Transitions/Hip Escape to Guard]]** → [[Positions/Half Guard]] (Probability: 65%)
-- Execute **[[Transitions/Butterfly Hook Recovery]]** → [[Positions/Butterfly Guard]] (Probability: 50%)
+- Execute **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** → [[Positions/Half Guard]] (Probability: 65%)
+- Execute **[[Transitions/Butterfly Hook Recovery/Attacker|Butterfly Hook Recovery]]** → [[Positions/Butterfly Guard]] (Probability: 50%)
 
 
 **If opponent lifts weight or shifts laterally to clear your legs and complete passing sequence:**
-- Execute **[[Transitions/Hip Escape to Guard]]** → [[Positions/Open Guard]] (Probability: 60%)
-- Execute **[[Transitions/Shin to Shin Pull]]** → [[Positions/Shin-to-Shin Guard]] (Probability: 40%)
+- Execute **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** → [[Positions/Open Guard]] (Probability: 60%)
+- Execute **[[Transitions/Shin to Shin Pull/Attacker|Shin to Shin Pull]]** → [[Positions/Shin-to-Shin Guard]] (Probability: 40%)
 
 
 **If you successfully create any frame or space between your chest and opponent's chest:**
-- Execute **[[Knee Shield Recovery]]** → [[Positions/Half Guard/Knee Shield Half Guard]] (Probability: 70%)
-- Execute **[[Closed Guard Recovery]]** → [[Positions/Closed Guard]] (Probability: 35%)
+- Execute **[[Knee Shield Recovery/Attacker|Knee Shield Recovery]]** → [[Positions/Half Guard/Knee Shield Half Guard]] (Probability: 70%)
+- Execute **[[Closed Guard Recovery/Attacker|Closed Guard Recovery]]** → [[Positions/Closed Guard]] (Probability: 35%)
 
 
 

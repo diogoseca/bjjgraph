@@ -215,23 +215,23 @@ Developing lapel guard top competency requires specific drilling and study. Gene
 ## Decision Making from This Position
 
 **If opponent has worm guard with lapel around your leg:**
-- Execute **[[Transitions/Backstep Around Worm Guard]]** → [[Positions/Turtle]] (Probability: 60%)
-- Execute **[[Transitions/Distance Creation to Reset]]** → [[Positions/Standing Guard]] (Probability: 55%)
+- Execute **[[Transitions/Backstep Around Worm Guard/Attacker|Backstep Around Worm Guard]]** → [[Positions/Turtle]] (Probability: 60%)
+- Execute **[[Transitions/Distance Creation to Reset/Attacker|Distance Creation to Reset]]** → [[Positions/Standing Guard]] (Probability: 55%)
 
 
 **If opponent has squid guard with lapel controlling your arm:**
-- Execute **[[Transitions/Pressure Pass Through Squid]]** → [[Positions/Half Guard]] (Probability: 50%)
-- Execute **[[Transitions/Lapel Clear to Toreando Pass]]** → [[Positions/Side Control]] (Probability: 55%)
+- Execute **[[Transitions/Pressure Pass Through Squid/Attacker|Pressure Pass Through Squid]]** → [[Positions/Half Guard]] (Probability: 50%)
+- Execute **[[Transitions/Lapel Clear to Toreando Pass/Attacker|Lapel Clear to Toreando Pass]]** → [[Positions/Side Control]] (Probability: 55%)
 
 
 **If opponent has complex ringworm configuration with multiple wraps:**
-- Execute **[[Transitions/Distance Creation to Reset]]** → [[Positions/Standing Guard]] (Probability: 65%)
-- Execute **[[Transitions/Long Step Around Ringworm]]** → [[Positions/Side Control]] (Probability: 45%)
+- Execute **[[Transitions/Distance Creation to Reset/Attacker|Distance Creation to Reset]]** → [[Positions/Standing Guard]] (Probability: 65%)
+- Execute **[[Transitions/Long Step Around Ringworm/Attacker|Long Step Around Ringworm]]** → [[Positions/Side Control]] (Probability: 45%)
 
 
 **If you've successfully cleared lapel configuration:**
-- Execute **[[Immediate Pressure When Lapel Cleared]]** → [[Positions/Half Guard]] (Probability: 70%)
-- Execute **[[Transitions/Knee Slice Despite Lapel]]** → [[Positions/Knee on Belly]] (Probability: 65%)
+- Execute **[[Immediate Pressure When Lapel Cleared/Attacker|Immediate Pressure When Lapel Cleared]]** → [[Positions/Half Guard]] (Probability: 70%)
+- Execute **[[Transitions/Knee Slice Despite Lapel/Attacker|Knee Slice Despite Lapel]]** → [[Positions/Knee on Belly]] (Probability: 65%)
 
 
 

@@ -202,23 +202,23 @@ The Rubber Guard from the top perspective represents one of the most challenging
 ## Decision Making from This Position
 
 **If trapped in established Rubber Guard with posture severely compromised:**
-- Execute **[[Transitions/Posture Recovery]]** → [[Positions/Closed Guard]] (Probability: 55%)
-- Execute **[[Transitions/Arm Extraction]]** → [[Positions/Open Guard]] (Probability: 40%)
+- Execute **[[Transitions/Posture Recovery/Attacker|Posture Recovery]]** → [[Positions/Closed Guard]] (Probability: 55%)
+- Execute **[[Transitions/Arm Extraction/Attacker|Arm Extraction]]** → [[Positions/Open Guard]] (Probability: 40%)
 
 
 **If bottom player attempts to advance to New York or Invisible Collar:**
-- Execute **[[Transitions/Rubber Guard Clear to Pass]]** → [[Positions/Combat Base]] (Probability: 50%)
-- Execute **[[Transitions/Arm Extraction]]** → [[Positions/Open Guard]] (Probability: 45%)
+- Execute **[[Transitions/Rubber Guard Clear to Pass/Attacker|Rubber Guard Clear to Pass]]** → [[Positions/Combat Base]] (Probability: 50%)
+- Execute **[[Transitions/Arm Extraction/Attacker|Arm Extraction]]** → [[Positions/Open Guard]] (Probability: 45%)
 
 
 **If bottom player overextends for submission creating space:**
-- Execute **[[Transitions/Stack Pass]]** → [[Positions/Side Control]] (Probability: 48%)
-- Execute **[[Transitions/Pressure Pass]]** → [[Positions/Side Control]] (Probability: 45%)
+- Execute **[[Transitions/Stack Pass/Attacker|Stack Pass]]** → [[Positions/Side Control]] (Probability: 48%)
+- Execute **[[Transitions/Pressure Pass/Attacker|Pressure Pass]]** → [[Positions/Side Control]] (Probability: 45%)
 
 
 **If able to extract trapped arm and create distance successfully:**
-- Execute **[[Transitions/Posture Recovery]]** → [[Positions/Combat Base]] (Probability: 60%)
-- Execute **[[Transitions/Pressure Pass]]** → [[Positions/Side Control]] (Probability: 45%)
+- Execute **[[Transitions/Posture Recovery/Attacker|Posture Recovery]]** → [[Positions/Combat Base]] (Probability: 60%)
+- Execute **[[Transitions/Pressure Pass/Attacker|Pressure Pass]]** → [[Positions/Side Control]] (Probability: 45%)
 
 
 

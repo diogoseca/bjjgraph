@@ -211,30 +211,30 @@ From a technical perspective, the buggy choke teaches important principles about
 ## Decision Making from This Position
 
 **If opponent remains static and defensive without movement:**
-- Execute **[[Tighten grips and finish buggy choke]]** → [[game-over]] (Probability: 70%)
-- Execute **[[Apply progressive choking pressure]]** → [[Buggy Choke Top]] (Probability: 30%)
+- Execute **[[Tighten grips and finish buggy choke/Attacker|Tighten grips and finish buggy choke]]** → [[game-over]] (Probability: 70%)
+- Execute **[[Apply progressive choking pressure/Attacker|Apply progressive choking pressure]]** → [[Buggy Choke Top]] (Probability: 30%)
 
 
 **If opponent attempts to sit to guard or roll to side:**
-- Execute **[[Hook near leg and transition to back control]]** → [[Positions/Back Control]] (Probability: 60%)
-- Execute **[[Roll with opponent to truck position]]** → [[Positions/Twister Control/Truck]] (Probability: 40%)
+- Execute **[[Hook near leg and transition to back control/Attacker|Hook near leg and transition to back control]]** → [[Positions/Back Control]] (Probability: 60%)
+- Execute **[[Roll with opponent to truck position/Attacker|Roll with opponent to truck position]]** → [[Positions/Twister Control/Truck]] (Probability: 40%)
 
 
 **If opponent turns into the choke to defend neck:**
-- Execute **[[Switch to darce configuration]]** → [[Positions/Darce Control]] (Probability: 50%)
-- Execute **[[Switch to anaconda configuration]]** → [[Positions/Anaconda Control]] (Probability: 35%)
-- Execute **[[Transition to front headlock control]]** → [[Positions/Front Headlock]] (Probability: 15%)
+- Execute **[[Switch to darce configuration/Attacker|Switch to darce configuration]]** → [[Positions/Darce Control]] (Probability: 50%)
+- Execute **[[Switch to anaconda configuration/Attacker|Switch to anaconda configuration]]** → [[Positions/Anaconda Control]] (Probability: 35%)
+- Execute **[[Transition to front headlock control/Attacker|Transition to front headlock control]]** → [[Positions/Front Headlock]] (Probability: 15%)
 
 
 **If opponent extends far arm to base and prevent choke:**
-- Execute **[[Attack extended arm for crucifix]]** → [[Positions/Crucifix]] (Probability: 65%)
-- Execute **[[Maintain pressure and re-attack choke]]** → [[Buggy Choke Top]] (Probability: 35%)
+- Execute **[[Attack extended arm for crucifix/Attacker|Attack extended arm for crucifix]]** → [[Positions/Crucifix]] (Probability: 65%)
+- Execute **[[Maintain pressure and re-attack choke/Attacker|Maintain pressure and re-attack choke]]** → [[Buggy Choke Top]] (Probability: 35%)
 
 
 **If opponent successfully strips grips or creates significant space:**
-- Execute **[[Transition to side control]]** → [[Positions/Side Control]] (Probability: 50%)
-- Execute **[[Reset to standard turtle top control]]** → [[Positions/Turtle]] (Probability: 30%)
-- Execute **[[Attack with alternative submissions]]** → [[Positions/Guillotine Control]] (Probability: 20%)
+- Execute **[[Transition to side control/Attacker|Transition to side control]]** → [[Positions/Side Control]] (Probability: 50%)
+- Execute **[[Reset to standard turtle top control/Attacker|Reset to standard turtle top control]]** → [[Positions/Turtle]] (Probability: 30%)
+- Execute **[[Attack with alternative submissions/Attacker|Attack with alternative submissions]]** → [[Positions/Guillotine Control]] (Probability: 20%)
 
 
 

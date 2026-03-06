@@ -209,34 +209,34 @@ Top Ashi Garami defense requires extensive drilling of mechanical extraction seq
 ## Decision Making from This Position
 
 **If opponent maintains Outside Ashi with inferior inside space control and loose connection points:**
-- Execute **[[Transitions/Ashi Garami Escape]]** → [[Positions/Standing Position]] (Probability: 65%)
-- Execute **[[Transitions/Counter Ashi Entry]]** → [[Positions/Ashi Garami/Outside Ashi-Garami]] (Probability: 35%)
+- Execute **[[Transitions/Ashi Garami Escape/Attacker|Ashi Garami Escape]]** → [[Positions/Standing Position]] (Probability: 65%)
+- Execute **[[Transitions/Counter Ashi Entry/Attacker|Counter Ashi Entry]]** → [[Positions/Ashi Garami/Outside Ashi-Garami]] (Probability: 35%)
 
 
 **If opponent advances to Inside Ashi or Cross Ashi with superior inside space control:**
-- Execute **[[Transitions/Ashi Garami Escape]]** → [[Positions/Ashi Garami/Outside Ashi-Garami]] (Probability: 55%)
-- Execute **[[Transitions/Counter Ashi Entry]]** → [[Positions/Ashi Garami/50-50 Guard]] (Probability: 45%)
+- Execute **[[Transitions/Ashi Garami Escape/Attacker|Ashi Garami Escape]]** → [[Positions/Ashi Garami/Outside Ashi-Garami]] (Probability: 55%)
+- Execute **[[Transitions/Counter Ashi Entry/Attacker|Counter Ashi Entry]]** → [[Positions/Ashi Garami/50-50 Guard]] (Probability: 45%)
 
 
 **If opponent achieves Saddle with heel exposure threatening immediate submission finish:**
-- Execute **[[Transitions/Ashi Garami Escape]]** → [[Positions/Ashi Garami/Outside Ashi-Garami]] (Probability: 40%)
-- Execute **[[Transitions/Counter Ashi Entry]]** → [[Positions/Ashi Garami/50-50 Guard]] (Probability: 25%)
-- Execute **[[Tap recognition]]** → [[Positions/Game Over]] (Probability: 35%)
+- Execute **[[Transitions/Ashi Garami Escape/Attacker|Ashi Garami Escape]]** → [[Positions/Ashi Garami/Outside Ashi-Garami]] (Probability: 40%)
+- Execute **[[Transitions/Counter Ashi Entry/Attacker|Counter Ashi Entry]]** → [[Positions/Ashi Garami/50-50 Guard]] (Probability: 25%)
+- Execute **[[Tap recognition/Attacker|Tap recognition]]** → [[Positions/Game Over]] (Probability: 35%)
 
 
 **If opponent loses connection points during advancement attempt or transitional movement:**
-- Execute **[[Transitions/Pass to Side Control]]** → [[Positions/Side Control]] (Probability: 55%)
-- Execute **[[Front Headlock Series]]** → [[Positions/Front Headlock]] (Probability: 45%)
+- Execute **[[Transitions/Pass to Side Control/Attacker|Pass to Side Control]]** → [[Positions/Side Control]] (Probability: 55%)
+- Execute **[[Front Headlock Series/Attacker|Front Headlock Series]]** → [[Positions/Front Headlock]] (Probability: 45%)
 
 
 **If opponent sits up exposing neck while adjusting leg control angle or grip configuration:**
-- Execute **[[Transitions/Guillotine Setup]]** → [[Positions/Guillotine Control]] (Probability: 50%)
-- Execute **[[Front Headlock Series]]** → [[Positions/Front Headlock]] (Probability: 50%)
+- Execute **[[Transitions/Guillotine Setup/Attacker|Guillotine Setup]]** → [[Positions/Guillotine Control]] (Probability: 50%)
+- Execute **[[Front Headlock Series/Attacker|Front Headlock Series]]** → [[Positions/Front Headlock]] (Probability: 50%)
 
 
 **If opponent extends trapped leg straight while attempting heel hook from Outside Ashi:**
-- Execute **[[Transitions/Straight Ankle Lock Entry]]** → [[Positions/Straight Ankle Lock Control]] (Probability: 55%)
-- Execute **[[Transitions/Ashi Garami Escape]]** → [[Positions/Standing Position]] (Probability: 45%)
+- Execute **[[Transitions/Straight Ankle Lock Entry/Attacker|Straight Ankle Lock Entry]]** → [[Positions/Straight Ankle Lock Control]] (Probability: 55%)
+- Execute **[[Transitions/Ashi Garami Escape/Attacker|Ashi Garami Escape]]** → [[Positions/Standing Position]] (Probability: 45%)
 
 
 

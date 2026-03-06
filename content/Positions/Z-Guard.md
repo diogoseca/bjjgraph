@@ -93,27 +93,27 @@ From both offensive and defensive perspectives, Z-Guard serves as a critical hub
 ### Available Transitions
 
 
-- **[[Transitions/Old School Sweep]]** (30% of attempts)
+- **[[Transitions/Old School Sweep/Attacker|Old School Sweep]]** (30% of attempts)
 
-- **[[Transitions/Underhook Sweep from Half]]** (11% of attempts)
+- **[[Transitions/Underhook Sweep from Half/Attacker|Underhook Sweep from Half]]** (11% of attempts)
 
-- **[[Transitions/Deep Half Entry]]** (10% of attempts)
+- **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** (10% of attempts)
 
-- **[[Transitions/Back Take from Bottom]]** (9% of attempts)
+- **[[Transitions/Back Take from Bottom/Attacker|Back Take from Bottom]]** (9% of attempts)
 
-- **[[Transitions/Turtle to Truck]]** (8% of attempts)
+- **[[Transitions/Turtle to Truck/Attacker|Turtle to Truck]]** (8% of attempts)
 
-- **[[Transitions/X-Guard Sweep]]** (10% of attempts)
+- **[[Transitions/X-Guard Sweep/Attacker|X-Guard Sweep]]** (10% of attempts)
 
-- **[[Transitions/Lockdown Recovery]]** (9% of attempts)
+- **[[Transitions/Lockdown Recovery/Attacker|Lockdown Recovery]]** (9% of attempts)
 
-- **[[Transitions/Electric Chair Transition]]** (8% of attempts)
+- **[[Transitions/Electric Chair Transition/Attacker|Electric Chair Transition]]** (8% of attempts)
 
-- **[[Transitions/Z-Guard Sweep]]** (3% of attempts)
+- **[[Transitions/Z-Guard Sweep/Attacker|Z-Guard Sweep]]** (3% of attempts)
 
-- **[[Transitions/Z-Guard to Half Guard]]** (1% of attempts)
+- **[[Transitions/Z-Guard to Half Guard/Attacker|Z-Guard to Half Guard]]** (1% of attempts)
 
-- **[[Transitions/Sweep from Z-Guard]]** (1% of attempts)
+- **[[Transitions/Sweep from Z-Guard/Attacker|Sweep from Z-Guard]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -178,25 +178,25 @@ From both offensive and defensive perspectives, Z-Guard serves as a critical hub
 ### Available Transitions
 
 
-- **[[Transitions/Knee Slice Pass]]** (29% of attempts)
+- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (29% of attempts)
 
-- **[[Transitions/Knee Slice from Half]]** (13% of attempts)
+- **[[Transitions/Knee Slice from Half/Attacker|Knee Slice from Half]]** (13% of attempts)
 
-- **[[Transitions/Knee Cut Pass]]** (11% of attempts)
+- **[[Transitions/Knee Cut Pass/Attacker|Knee Cut Pass]]** (11% of attempts)
 
-- **[[Transitions/Long Step Pass]]** (10% of attempts)
+- **[[Transitions/Long Step Pass/Attacker|Long Step Pass]]** (10% of attempts)
 
-- **[[Transitions/Smash Pass]]** (11% of attempts)
+- **[[Transitions/Smash Pass/Attacker|Smash Pass]]** (11% of attempts)
 
-- **[[Transitions/Back Step]]** (9% of attempts)
+- **[[Transitions/Back Step/Attacker|Back Step]]** (9% of attempts)
 
-- **[[Transitions/Underhook Pass]]** (10% of attempts)
+- **[[Transitions/Underhook Pass/Attacker|Underhook Pass]]** (10% of attempts)
 
-- **[[Transitions/Knee Slice from Z-Guard]]** (4% of attempts)
+- **[[Transitions/Knee Slice from Z-Guard/Attacker|Knee Slice from Z-Guard]]** (4% of attempts)
 
-- **[[Transitions/Pass Z-Guard]]** (2% of attempts)
+- **[[Transitions/Pass Z-Guard/Attacker|Pass Z-Guard]]** (2% of attempts)
 
-- **[[Transitions/Z-Guard Pass]]** (1% of attempts)
+- **[[Transitions/Z-Guard Pass/Attacker|Z-Guard Pass]]** (1% of attempts)
 
 
 ### Common Mistakes

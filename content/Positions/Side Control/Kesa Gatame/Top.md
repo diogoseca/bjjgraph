@@ -213,23 +213,23 @@ From a competitive standpoint, Kesa Gatame scores as a guard pass (3 points in I
 ## Decision Making from This Position
 
 **If opponent attempts to turn into you and recover guard:**
-- Execute **[[Transitions/Side Control to Mount]]** → [[Positions/Mount]] (Probability: 70%)
-- Execute **[[Transitions/Kimura]]** → [[Positions/Kimura Trap]] (Probability: 60%)
+- Execute **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** → [[Positions/Mount]] (Probability: 70%)
+- Execute **[[Transitions/Kimura/Attacker|Kimura]]** → [[Positions/Kimura Trap]] (Probability: 60%)
 
 
 **If opponent creates space and attempts to shrimp away toward their feet:**
-- Execute **[[Transitions/Side Control to North-South]]** → [[Positions/North-South]] (Probability: 75%)
-- Execute **[[Transitions/North-South Choke]]** → [[Positions/North-South]] (Probability: 50%)
+- Execute **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** → [[Positions/North-South]] (Probability: 75%)
+- Execute **[[Transitions/North-South Choke/Attacker|North-South Choke]]** → [[Positions/North-South]] (Probability: 50%)
 
 
 **If opponent extends trapped arm attempting to push or frame:**
-- Execute **[[Transitions/Americana]]** → [[Positions/Armbar Control]] (Probability: 65%)
-- Execute **[[Transitions/Armbar Finish]]** → [[Positions/Armbar Control]] (Probability: 55%)
+- Execute **[[Transitions/Americana/Attacker|Americana]]** → [[Positions/Armbar Control]] (Probability: 65%)
+- Execute **[[Transitions/Armbar Finish/Attacker|Armbar Finish]]** → [[Positions/Armbar Control]] (Probability: 55%)
 
 
 **If opponent remains flat and defensive without creating movement:**
-- Execute **[[Transitions/Arm Triangle]]** → [[game-over]] (Probability: 45%)
-- Execute **[[Transitions/North-South Choke]]** → [[Positions/North-South]] (Probability: 40%)
+- Execute **[[Transitions/Arm Triangle/Attacker|Arm Triangle]]** → [[game-over]] (Probability: 45%)
+- Execute **[[Transitions/North-South Choke/Attacker|North-South Choke]]** → [[Positions/North-South]] (Probability: 40%)
 
 
 

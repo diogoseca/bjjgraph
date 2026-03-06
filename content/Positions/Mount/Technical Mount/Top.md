@@ -212,23 +212,23 @@ This position represents a critical junction in mount offense where the practiti
 ## Decision Making from This Position
 
 **If opponent extends arm defensively while in mount and fails to immediately retract:**
-- Execute **[[Transitions/Mount to Armbar]]** → [[Positions/Armbar Control]] (Probability: 70%)
-- Execute **[[Transitions/High Mount Transition]]** → [[Positions/Mount/S Mount]] (Probability: 60%)
+- Execute **[[Transitions/Mount to Armbar/Attacker|Mount to Armbar]]** → [[Positions/Armbar Control]] (Probability: 70%)
+- Execute **[[Transitions/High Mount Transition/Attacker|High Mount Transition]]** → [[Positions/Mount/S Mount]] (Probability: 60%)
 
 
 **If opponent defends armbar by turning away and exposing back:**
-- Execute **[[Transitions/Back Take]]** → [[Positions/Back Control]] (Probability: 75%)
-- Execute **[[Transitions/Gift Wrap Control]]** → [[Positions/Gift Wrap]] (Probability: 65%)
+- Execute **[[Transitions/Back Take/Attacker|Back Take]]** → [[Positions/Back Control]] (Probability: 75%)
+- Execute **[[Transitions/Gift Wrap Control/Attacker|Gift Wrap Control]]** → [[Positions/Gift Wrap]] (Probability: 65%)
 
 
 **If opponent successfully retracts arm before armbar completion:**
-- Execute **[[Transitions/Consolidate Mount]]** → [[Positions/Mount]] (Probability: 80%)
-- Execute **[[Transitions/Triangle Setup]]** → [[Positions/Mount/Mounted Triangle]] (Probability: 50%)
+- Execute **[[Transitions/Consolidate Mount/Attacker|Consolidate Mount]]** → [[Positions/Mount]] (Probability: 80%)
+- Execute **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** → [[Positions/Mount/Mounted Triangle]] (Probability: 50%)
 
 
 **If opponent bridges explosively or attempts to roll while arm is controlled:**
-- Execute **[[Transitions/Mount to Armbar]]** → [[Positions/Armbar Control]] (Probability: 65%)
-- Execute **[[Transitions/Back Take]]** → [[Positions/Back Control]] (Probability: 60%)
+- Execute **[[Transitions/Mount to Armbar/Attacker|Mount to Armbar]]** → [[Positions/Armbar Control]] (Probability: 65%)
+- Execute **[[Transitions/Back Take/Attacker|Back Take]]** → [[Positions/Back Control]] (Probability: 60%)
 
 
 

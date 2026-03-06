@@ -213,23 +213,23 @@ The submission chain available from triangle control represents one of the most 
 ## Decision Making from This Position
 
 **If opponent attempts to stack by driving forward and lifting hips:**
-- Execute **[[Transitions/Triangle to Omoplata]]** → [[Positions/Omoplata Control]] (Probability: 65%)
-- Execute **[[Transitions/Triangle to Back]]** → [[Positions/Back Control]] (Probability: 55%)
+- Execute **[[Transitions/Triangle to Omoplata/Attacker|Triangle to Omoplata]]** → [[Positions/Omoplata Control]] (Probability: 65%)
+- Execute **[[Transitions/Triangle to Back/Attacker|Triangle to Back]]** → [[Positions/Back Control]] (Probability: 55%)
 
 
 **If opponent attempts to posture up vertically or pull head back:**
-- Execute **[[Submissions/Triangle Choke Front]]** → [[Positions/Game Over]] (Probability: 75%)
-- Execute **[[Transitions/Triangle to Armbar]]** → [[Positions/Armbar Control]] (Probability: 70%)
+- Execute **[[Submissions/Triangle Choke Front/Attacker|Triangle Choke Front]]** → [[Positions/Game Over]] (Probability: 75%)
+- Execute **[[Transitions/Triangle to Armbar/Attacker|Triangle to Armbar]]** → [[Positions/Armbar Control]] (Probability: 70%)
 
 
 **If opponent successfully extracts trapped arm from triangle configuration:**
-- Execute **[[Transitions/Triangle to Back]]** → [[Positions/Back Control]] (Probability: 60%)
-- Execute **[[Transitions/Closed Guard to Omoplata]]** → [[Positions/Omoplata Control]] (Probability: 50%)
+- Execute **[[Transitions/Triangle to Back/Attacker|Triangle to Back]]** → [[Positions/Back Control]] (Probability: 60%)
+- Execute **[[Transitions/Closed Guard to Omoplata/Attacker|Closed Guard to Omoplata]]** → [[Positions/Omoplata Control]] (Probability: 50%)
 
 
 **If opponent turns shoulder inward to defend choking pressure on neck:**
-- Execute **[[Transitions/Triangle to Omoplata]]** → [[Positions/Omoplata Control]] (Probability: 70%)
-- Execute **[[Transitions/Triangle to Armbar]]** → [[Positions/Armbar Control]] (Probability: 55%)
+- Execute **[[Transitions/Triangle to Omoplata/Attacker|Triangle to Omoplata]]** → [[Positions/Omoplata Control]] (Probability: 70%)
+- Execute **[[Transitions/Triangle to Armbar/Attacker|Triangle to Armbar]]** → [[Positions/Armbar Control]] (Probability: 55%)
 
 
 

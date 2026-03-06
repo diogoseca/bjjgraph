@@ -95,43 +95,43 @@ From the top perspective, Open Guard Top represents the fundamental challenge of
 ### Available Transitions
 
 
-- **[[Transitions/Butterfly Sweep]]** (25% of attempts)
+- **[[Transitions/Butterfly Sweep/Attacker|Butterfly Sweep]]** (25% of attempts)
 
-- **[[Transitions/De La Riva Sweep]]** (4% of attempts)
+- **[[Transitions/De La Riva Sweep/Attacker|De La Riva Sweep]]** (4% of attempts)
 
-- **[[Transitions/Sickle Sweep]]** (3% of attempts)
+- **[[Transitions/Sickle Sweep/Attacker|Sickle Sweep]]** (3% of attempts)
 
-- **[[Transitions/Tripod Sweep]]** (4% of attempts)
+- **[[Transitions/Tripod Sweep/Attacker|Tripod Sweep]]** (4% of attempts)
 
-- **[[Transitions/Elevator Sweep]]** (2% of attempts)
+- **[[Transitions/Elevator Sweep/Attacker|Elevator Sweep]]** (2% of attempts)
 
-- **[[Transitions/Omoplata Sweep]]** (2% of attempts)
+- **[[Transitions/Omoplata Sweep/Attacker|Omoplata Sweep]]** (2% of attempts)
 
-- **[[Transitions/Kimura Sweep]]** (2% of attempts)
+- **[[Transitions/Kimura Sweep/Attacker|Kimura Sweep]]** (2% of attempts)
 
-- **[[Transitions/Armbar Finish]]** (2% of attempts)
+- **[[Transitions/Armbar Finish/Attacker|Armbar Finish]]** (2% of attempts)
 
-- **[[Transitions/Scissor Sweep from Open Guard]]** (4% of attempts)
+- **[[Transitions/Scissor Sweep from Open Guard/Attacker|Scissor Sweep from Open Guard]]** (4% of attempts)
 
-- **[[Transitions/Open Guard to Deep Half]]** (5% of attempts)
+- **[[Transitions/Open Guard to Deep Half/Attacker|Open Guard to Deep Half]]** (5% of attempts)
 
-- **[[Transitions/Open Guard to Collar Sleeve Guard]]** (9% of attempts)
+- **[[Transitions/Open Guard to Collar Sleeve Guard/Attacker|Open Guard to Collar Sleeve Guard]]** (9% of attempts)
 
-- **[[Transitions/Open Guard to De La Riva]]** (11% of attempts)
+- **[[Transitions/Open Guard to De La Riva/Attacker|Open Guard to De La Riva]]** (11% of attempts)
 
-- **[[Transitions/Open Guard to Double Sleeve Guard]]** (4% of attempts)
+- **[[Transitions/Open Guard to Double Sleeve Guard/Attacker|Open Guard to Double Sleeve Guard]]** (4% of attempts)
 
-- **[[Transitions/Open Guard to Feet on Hips Guard]]** (7% of attempts)
+- **[[Transitions/Open Guard to Feet on Hips Guard/Attacker|Open Guard to Feet on Hips Guard]]** (7% of attempts)
 
-- **[[Transitions/Collar Drag from Open Guard]]** (4% of attempts)
+- **[[Transitions/Collar Drag from Open Guard/Attacker|Collar Drag from Open Guard]]** (4% of attempts)
 
-- **[[Transitions/Scramble from Failed Sweep]]** (3% of attempts)
+- **[[Transitions/Scramble from Failed Sweep/Attacker|Scramble from Failed Sweep]]** (3% of attempts)
 
-- **[[Transitions/Technical Stand Up from Open Guard]]** (6% of attempts)
+- **[[Transitions/Technical Stand Up from Open Guard/Attacker|Technical Stand Up from Open Guard]]** (6% of attempts)
 
-- **[[Transitions/Transition to Clamp Guard]]** (1% of attempts)
+- **[[Transitions/Transition to Clamp Guard/Attacker|Transition to Clamp Guard]]** (1% of attempts)
 
-- **[[Submissions/Triangle from Open Guard]]** (2% of attempts)
+- **[[Submissions/Triangle from Open Guard/Attacker|Triangle from Open Guard]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -196,27 +196,27 @@ From the top perspective, Open Guard Top represents the fundamental challenge of
 ### Available Transitions
 
 
-- **[[Transitions/Toreando Pass]]** (17% of attempts)
+- **[[Transitions/Toreando Pass/Attacker|Toreando Pass]]** (17% of attempts)
 
-- **[[Transitions/Knee Slice Pass]]** (9% of attempts)
+- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (9% of attempts)
 
-- **[[Transitions/Leg Drag Pass]]** (9% of attempts)
+- **[[Transitions/Leg Drag Pass/Attacker|Leg Drag Pass]]** (9% of attempts)
 
-- **[[Transitions/Stack Pass]]** (8% of attempts)
+- **[[Transitions/Stack Pass/Attacker|Stack Pass]]** (8% of attempts)
 
-- **[[Transitions/Long Step Pass]]** (9% of attempts)
+- **[[Transitions/Long Step Pass/Attacker|Long Step Pass]]** (9% of attempts)
 
-- **[[Transitions/X Pass]]** (8% of attempts)
+- **[[Transitions/X Pass/Attacker|X Pass]]** (8% of attempts)
 
-- **[[Transitions/Smash Pass]]** (9% of attempts)
+- **[[Transitions/Smash Pass/Attacker|Smash Pass]]** (9% of attempts)
 
-- **[[Transitions/Double Under Pass]]** (9% of attempts)
+- **[[Transitions/Double Under Pass/Attacker|Double Under Pass]]** (9% of attempts)
 
-- **[[Transitions/Pressure Pass]]** (9% of attempts)
+- **[[Transitions/Pressure Pass/Attacker|Pressure Pass]]** (9% of attempts)
 
-- **[[Transitions/Knee Cut Pass]]** (9% of attempts)
+- **[[Transitions/Knee Cut Pass/Attacker|Knee Cut Pass]]** (9% of attempts)
 
-- **[[Transitions/Float Passing]]** (4% of attempts)
+- **[[Transitions/Float Passing/Attacker|Float Passing]]** (4% of attempts)
 
 
 ### Common Mistakes

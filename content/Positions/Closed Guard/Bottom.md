@@ -209,28 +209,28 @@ Master practitioners understand that closed guard is not a passive holding posit
 ## Decision Making from This Position
 
 **If opponent maintains strong upright posture with hands on hips or chest creating distance:**
-- Execute **[[Transitions/Hip Bump Sweep]]** → [[Positions/Mount]] (Probability: 60%)
-- Execute **[[Transitions/Scissor Sweep]]** → [[Positions/Mount]] (Probability: 55%)
+- Execute **[[Transitions/Hip Bump Sweep/Attacker|Hip Bump Sweep]]** → [[Positions/Mount]] (Probability: 60%)
+- Execute **[[Transitions/Scissor Sweep/Attacker|Scissor Sweep]]** → [[Positions/Mount]] (Probability: 55%)
 
 
 **If opponent drives forward with shoulder pressure attempting to flatten you and establish control:**
-- Execute **[[Transitions/Pendulum Sweep]]** → [[Positions/Mount]] (Probability: 55%)
-- Execute **[[Transitions/Flower Sweep]]** → [[Positions/Mount]] (Probability: 50%)
+- Execute **[[Transitions/Pendulum Sweep/Attacker|Pendulum Sweep]]** → [[Positions/Mount]] (Probability: 55%)
+- Execute **[[Transitions/Flower Sweep/Attacker|Flower Sweep]]** → [[Positions/Mount]] (Probability: 50%)
 
 
 **If opponent places arm inside your guard to frame or attempt guard break sequence:**
-- Execute **[[Transitions/Triangle Setup]]** → [[Positions/Triangle Control]] (Probability: 50%)
-- Execute **[[Transitions/Omoplata Sweep]]** → [[Positions/Side Control]] (Probability: 45%)
+- Execute **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** → [[Positions/Triangle Control]] (Probability: 50%)
+- Execute **[[Transitions/Omoplata Sweep/Attacker|Omoplata Sweep]]** → [[Positions/Side Control]] (Probability: 45%)
 
 
 **If opponent posts hand on mat to defend sweep or create stable base against off-balancing:**
-- Execute **[[Transitions/Kimura to Back Take]]** → [[Positions/Back Control]] (Probability: 55%)
-- Execute **[[Transitions/Omoplata to Back]]** → [[Positions/Back Control]] (Probability: 45%)
+- Execute **[[Transitions/Kimura to Back Take/Attacker|Kimura to Back Take]]** → [[Positions/Back Control]] (Probability: 55%)
+- Execute **[[Transitions/Omoplata to Back/Attacker|Omoplata to Back]]** → [[Positions/Back Control]] (Probability: 45%)
 
 
 **If opponent stands up to break guard or create distance for standing guard break:**
-- Execute **[[Transitions/Pendulum Sweep]]** → [[Positions/Mount]] (Probability: 40%)
-- Execute **[[Transitions/Hip Bump Sweep]]** → [[Positions/Mount]] (Probability: 35%)
+- Execute **[[Transitions/Pendulum Sweep/Attacker|Pendulum Sweep]]** → [[Positions/Mount]] (Probability: 40%)
+- Execute **[[Transitions/Hip Bump Sweep/Attacker|Hip Bump Sweep]]** → [[Positions/Mount]] (Probability: 35%)
 
 
 

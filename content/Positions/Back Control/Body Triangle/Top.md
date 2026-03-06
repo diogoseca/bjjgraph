@@ -209,23 +209,23 @@ Successful defense from body triangle top requires calm breathing management, sy
 ## Decision Making from This Position
 
 **If opponent has tight triangle with maximum pressure and aggressive neck attacks:**
-- Execute **[[Protect neck with chin down and hands]]** → [[Positions/Back Control/Body Triangle]] (Probability: 80%)
-- Execute **[[Focus on breathing management]]** → [[Positions/Back Control/Body Triangle]] (Probability: 75%)
+- Execute **[[Protect neck with chin down and hands/Attacker|Protect neck with chin down and hands]]** → [[Positions/Back Control/Body Triangle]] (Probability: 80%)
+- Execute **[[Focus on breathing management/Attacker|Focus on breathing management]]** → [[Positions/Back Control/Body Triangle]] (Probability: 75%)
 
 
 **If you create space between your body and opponent's legs:**
-- Execute **[[Attack the figure-four lock]]** → [[Positions/Turtle]] (Probability: 45%)
-- Execute **[[Work to turn into opponent]]** → [[Positions/Half Guard]] (Probability: 40%)
+- Execute **[[Attack the figure-four lock/Attacker|Attack the figure-four lock]]** → [[Positions/Turtle]] (Probability: 45%)
+- Execute **[[Work to turn into opponent/Attacker|Work to turn into opponent]]** → [[Positions/Half Guard]] (Probability: 40%)
 
 
 **If opponent's triangle lock is loosening or not optimally positioned:**
-- Execute **[[Transitions/Hip Escape to Turtle]]** → [[Positions/Turtle]] (Probability: 50%)
-- Execute **[[Transitions/Granby Roll to Guard]]** → [[Positions/Open Guard]] (Probability: 48%)
+- Execute **[[Transitions/Hip Escape to Turtle/Attacker|Hip Escape to Turtle]]** → [[Positions/Turtle]] (Probability: 50%)
+- Execute **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** → [[Positions/Open Guard]] (Probability: 48%)
 
 
 **If you have cleared triangle completely but opponent maintains upper body control:**
-- Execute **[[Transitions/Frame and Shrimp to Guard]]** → [[Positions/Half Guard]] (Probability: 55%)
-- Execute **[[Transitions/Standing up in Base]]** → [[Positions/Standing Position]] (Probability: 45%)
+- Execute **[[Transitions/Frame and Shrimp to Guard/Attacker|Frame and Shrimp to Guard]]** → [[Positions/Half Guard]] (Probability: 55%)
+- Execute **[[Transitions/Standing up in Base/Attacker|Standing up in Base]]** → [[Positions/Standing Position]] (Probability: 45%)
 
 
 

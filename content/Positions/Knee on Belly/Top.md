@@ -207,23 +207,23 @@ Knee on Belly Top is a highly effective transitional control position where the 
 ## Decision Making from This Position
 
 **If opponent remains flat and defensive without creating frames:**
-- Execute **[[Transitions/Baseball Bat Choke]]** → [[game-over]] (Probability: 55%)
-- Execute **[[Transitions/Side Control to Mount]]** → [[Positions/Mount]] (Probability: 65%)
+- Execute **[[Transitions/Baseball Bat Choke/Attacker|Baseball Bat Choke]]** → [[game-over]] (Probability: 55%)
+- Execute **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** → [[Positions/Mount]] (Probability: 65%)
 
 
 **If opponent pushes against knee or creates frames with arms:**
-- Execute **[[Transitions/Armbar Finish]]** → [[Positions/Armbar Control]] (Probability: 60%)
-- Execute **[[Transitions/Kimura]]** → [[Positions/Kimura Trap]] (Probability: 55%)
+- Execute **[[Transitions/Armbar Finish/Attacker|Armbar Finish]]** → [[Positions/Armbar Control]] (Probability: 60%)
+- Execute **[[Transitions/Kimura/Attacker|Kimura]]** → [[Positions/Kimura Trap]] (Probability: 55%)
 
 
 **If opponent turns to side attempting to escape:**
-- Execute **[[Transitions/Back Take from Top]]** → [[Positions/Back Control]] (Probability: 50%)
-- Execute **[[Transitions/Side Control to North-South]]** → [[Positions/North-South]] (Probability: 70%)
+- Execute **[[Transitions/Back Take from Top/Attacker|Back Take from Top]]** → [[Positions/Back Control]] (Probability: 50%)
+- Execute **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** → [[Positions/North-South]] (Probability: 70%)
 
 
 **If opponent successfully creates space by shrimping away:**
-- Execute **[[Positions/Knee on Belly]]** → [[Positions/Side Control]] (Probability: 75%)
-- Execute **[[Transitions/Knee Slice Pass]]** → [[Positions/Side Control]] (Probability: 65%)
+- Execute **[[Positions/Knee on Belly/Attacker|Knee on Belly]]** → [[Positions/Side Control]] (Probability: 75%)
+- Execute **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** → [[Positions/Side Control]] (Probability: 65%)
 
 
 

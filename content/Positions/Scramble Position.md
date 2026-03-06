@@ -89,15 +89,15 @@ The Scramble Position refers to a highly dynamic transitional state in BJJ where
 ### Available Transitions
 
 
-- **[[Transitions/Technical Stand-up]]** (25% of attempts)
+- **[[Transitions/Technical Stand-up/Attacker|Technical Stand-up]]** (25% of attempts)
 
-- **[[Transitions/Granby Roll to Guard]]** (22% of attempts)
+- **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** (22% of attempts)
 
-- **[[Transitions/Win Scramble to Top]]** (20% of attempts)
+- **[[Transitions/Win Scramble to Top/Attacker|Win Scramble to Top]]** (20% of attempts)
 
-- **[[Transitions/Deep Half Entry]]** (18% of attempts)
+- **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** (18% of attempts)
 
-- **[[Transitions/Stabilize to Guard from Scramble]]** (15% of attempts)
+- **[[Transitions/Stabilize to Guard from Scramble/Attacker|Stabilize to Guard from Scramble]]** (15% of attempts)
 
 
 ### Common Mistakes
@@ -158,17 +158,17 @@ The Scramble Position refers to a highly dynamic transitional state in BJJ where
 ### Available Transitions
 
 
-- **[[Transitions/Turtle to Back Take]]** (25% of attempts)
+- **[[Transitions/Turtle to Back Take/Attacker|Turtle to Back Take]]** (25% of attempts)
 
-- **[[Transitions/Snap Down to Front Headlock]]** (20% of attempts)
+- **[[Transitions/Snap Down to Front Headlock/Attacker|Snap Down to Front Headlock]]** (20% of attempts)
 
-- **[[Transitions/Guillotine Setup]]** (18% of attempts)
+- **[[Transitions/Guillotine Setup/Attacker|Guillotine Setup]]** (18% of attempts)
 
-- **[[Transitions/Single Leg to Back Take]]** (15% of attempts)
+- **[[Transitions/Single Leg to Back Take/Attacker|Single Leg to Back Take]]** (15% of attempts)
 
-- **[[Transitions/Scramble to Top Position]]** (12% of attempts)
+- **[[Transitions/Scramble to Top Position/Attacker|Scramble to Top Position]]** (12% of attempts)
 
-- **[[Transitions/Darce Setup]]** (10% of attempts)
+- **[[Transitions/Darce Setup/Attacker|Darce Setup]]** (10% of attempts)
 
 
 ### Common Mistakes

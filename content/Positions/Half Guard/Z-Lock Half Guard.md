@@ -91,25 +91,25 @@ Developed primarily within the 10th Planet system and refined by lockdown specia
 ### Available Transitions
 
 
-- **[[Transitions/Old School Sweep]]** (30% of attempts)
+- **[[Transitions/Old School Sweep/Attacker|Old School Sweep]]** (30% of attempts)
 
-- **[[Transitions/Electric Chair Transition]]** (14% of attempts)
+- **[[Transitions/Electric Chair Transition/Attacker|Electric Chair Transition]]** (14% of attempts)
 
-- **[[Transitions/Butterfly Sweep]]** (11% of attempts)
+- **[[Transitions/Butterfly Sweep/Attacker|Butterfly Sweep]]** (11% of attempts)
 
-- **[[Transitions/Deep Half Entry]]** (13% of attempts)
+- **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** (13% of attempts)
 
-- **[[Transitions/Lockdown Recovery]]** (8% of attempts)
+- **[[Transitions/Lockdown Recovery/Attacker|Lockdown Recovery]]** (8% of attempts)
 
-- **[[Transitions/Underhook Sweep from Half]]** (8% of attempts)
+- **[[Transitions/Underhook Sweep from Half/Attacker|Underhook Sweep from Half]]** (8% of attempts)
 
-- **[[Transitions/Kimura Sweep]]** (8% of attempts)
+- **[[Transitions/Kimura Sweep/Attacker|Kimura Sweep]]** (8% of attempts)
 
-- **[[Transitions/Knee Shield Retention]]** (5% of attempts)
+- **[[Transitions/Knee Shield Retention/Attacker|Knee Shield Retention]]** (5% of attempts)
 
-- **[[Transitions/Escape Z-Lock Half Guard]]** (2% of attempts)
+- **[[Transitions/Escape Z-Lock Half Guard/Attacker|Escape Z-Lock Half Guard]]** (2% of attempts)
 
-- **[[Transitions/Sweep from Z-Lock Half Guard]]** (1% of attempts)
+- **[[Transitions/Sweep from Z-Lock Half Guard/Attacker|Sweep from Z-Lock Half Guard]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -170,25 +170,25 @@ Developed primarily within the 10th Planet system and refined by lockdown specia
 ### Available Transitions
 
 
-- **[[Transitions/Knee Slice from Half]]** (28% of attempts)
+- **[[Transitions/Knee Slice from Half/Attacker|Knee Slice from Half]]** (28% of attempts)
 
-- **[[Transitions/Underhook Pass]]** (12% of attempts)
+- **[[Transitions/Underhook Pass/Attacker|Underhook Pass]]** (12% of attempts)
 
-- **[[Transitions/Back Take from Top]]** (13% of attempts)
+- **[[Transitions/Back Take from Top/Attacker|Back Take from Top]]** (13% of attempts)
 
-- **[[Transitions/Smash Pass]]** (14% of attempts)
+- **[[Transitions/Smash Pass/Attacker|Smash Pass]]** (14% of attempts)
 
-- **[[Transitions/Crossface Pass]]** (11% of attempts)
+- **[[Transitions/Crossface Pass/Attacker|Crossface Pass]]** (11% of attempts)
 
-- **[[Transitions/Half Guard Pass]]** (8% of attempts)
+- **[[Transitions/Half Guard Pass/Attacker|Half Guard Pass]]** (8% of attempts)
 
-- **[[Transitions/Darce Setup]]** (6% of attempts)
+- **[[Transitions/Darce Setup/Attacker|Darce Setup]]** (6% of attempts)
 
-- **[[Transitions/Lockdown Break and Pass]]** (5% of attempts)
+- **[[Transitions/Lockdown Break and Pass/Attacker|Lockdown Break and Pass]]** (5% of attempts)
 
-- **[[Transitions/Lockdown Break from Z-Lock]]** (2% of attempts)
+- **[[Transitions/Lockdown Break from Z-Lock/Attacker|Lockdown Break from Z-Lock]]** (2% of attempts)
 
-- **[[Transitions/Pass Z-Lock]]** (1% of attempts)
+- **[[Transitions/Pass Z-Lock/Attacker|Pass Z-Lock]]** (1% of attempts)
 
 
 ### Common Mistakes

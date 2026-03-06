@@ -210,27 +210,27 @@ Seated Guard works best when opponent is standing or on knees with distance, but
 ## Decision Making from This Position
 
 **If opponent maintains distance and stays standing with upright posture:**
-- Execute **[[Transitions/Technical Stand-up]]** → [[Positions/Standing Position]] (Probability: 70%)
-- Execute **[[Transitions/Single Leg X Entry]]** → [[Positions/X-Guard/Single Leg X-Guard]] (Probability: 55%)
-- Execute **[[Transitions/Ankle Pick]]** → [[Positions/Side Control]] (Probability: 45%)
+- Execute **[[Transitions/Technical Stand-up/Attacker|Technical Stand-up]]** → [[Positions/Standing Position]] (Probability: 70%)
+- Execute **[[Transitions/Single Leg X Entry/Attacker|Single Leg X Entry]]** → [[Positions/X-Guard/Single Leg X-Guard]] (Probability: 55%)
+- Execute **[[Transitions/Ankle Pick/Attacker|Ankle Pick]]** → [[Positions/Side Control]] (Probability: 45%)
 
 
 **If opponent steps forward to close distance or attempt pass:**
-- Execute **[[Transitions/Scissor Sweep]]** → [[Positions/Mount]] (Probability: 55%)
-- Execute **[[Transitions/Tripod Sweep]]** → [[Positions/Side Control]] (Probability: 50%)
-- Execute **[[Transitions/Butterfly Sweep]]** → [[Positions/Mount]] (Probability: 50%)
+- Execute **[[Transitions/Scissor Sweep/Attacker|Scissor Sweep]]** → [[Positions/Mount]] (Probability: 55%)
+- Execute **[[Transitions/Tripod Sweep/Attacker|Tripod Sweep]]** → [[Positions/Side Control]] (Probability: 50%)
+- Execute **[[Transitions/Butterfly Sweep/Attacker|Butterfly Sweep]]** → [[Positions/Mount]] (Probability: 50%)
 
 
 **If opponent drops to knees and attempts to establish control grips:**
-- Execute **[[Transitions/Butterfly Sweep]]** → [[Positions/Mount]] (Probability: 60%)
-- Execute **[[Transitions/X-Guard Sweep]]** → [[Positions/Mount]] (Probability: 50%)
-- Execute **[[Transitions/Technical Stand-up]]** → [[Positions/Standing Position]] (Probability: 65%)
+- Execute **[[Transitions/Butterfly Sweep/Attacker|Butterfly Sweep]]** → [[Positions/Mount]] (Probability: 60%)
+- Execute **[[Transitions/X-Guard Sweep/Attacker|X-Guard Sweep]]** → [[Positions/Mount]] (Probability: 50%)
+- Execute **[[Transitions/Technical Stand-up/Attacker|Technical Stand-up]]** → [[Positions/Standing Position]] (Probability: 65%)
 
 
 **If opponent establishes chest-to-chest pressure:**
-- Execute **[[Transitions/Shrimp Escape]]** → [[Positions/Half Guard]] (Probability: 55%)
-- Execute **[[Hip Escape]]** → [[Positions/Half Guard]] (Probability: 50%)
-- Execute **[[Frame and Shrimp]]** → [[Positions/Butterfly Guard]] (Probability: 45%)
+- Execute **[[Transitions/Shrimp Escape/Attacker|Shrimp Escape]]** → [[Positions/Half Guard]] (Probability: 55%)
+- Execute **[[Hip Escape/Attacker|Hip Escape]]** → [[Positions/Half Guard]] (Probability: 50%)
+- Execute **[[Frame and Shrimp/Attacker|Frame and Shrimp]]** → [[Positions/Butterfly Guard]] (Probability: 45%)
 
 
 

@@ -101,27 +101,27 @@ The position's learning curve is steep, requiring months of dedicated drilling t
 ### Available Transitions
 
 
-- **[[Transitions/Matrix Back Take]]** (52% of attempts)
+- **[[Transitions/Matrix Back Take/Attacker|Matrix Back Take]]** (52% of attempts)
 
-- **[[Transitions/Rolling Back Take]]** (7% of attempts)
+- **[[Transitions/Rolling Back Take/Attacker|Rolling Back Take]]** (7% of attempts)
 
-- **[[Transitions/Arm Drag to Back]]** (7% of attempts)
+- **[[Transitions/Arm Drag to Back/Attacker|Arm Drag to Back]]** (7% of attempts)
 
-- **[[Transitions/Chair Sit to Back]]** (5% of attempts)
+- **[[Transitions/Chair Sit to Back/Attacker|Chair Sit to Back]]** (5% of attempts)
 
-- **[[Transitions/Granby Roll to Guard]]** (13% of attempts)
+- **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** (13% of attempts)
 
-- **[[Transitions/Rolling to Guard]]** (7% of attempts)
+- **[[Transitions/Rolling to Guard/Attacker|Rolling to Guard]]** (7% of attempts)
 
-- **[[Transitions/Berimbolo Entry]]** (1% of attempts)
+- **[[Transitions/Berimbolo Entry/Attacker|Berimbolo Entry]]** (1% of attempts)
 
-- **[[Transitions/Turtle to Guard]]** (7% of attempts)
+- **[[Transitions/Turtle to Guard/Attacker|Turtle to Guard]]** (7% of attempts)
 
-- **[[Transitions/Counter Roll from Matrix]]** (0% of attempts)
+- **[[Transitions/Counter Roll from Matrix/Attacker|Counter Roll from Matrix]]** (0% of attempts)
 
-- **[[Transitions/Escape Matrix Position]]** (0% of attempts)
+- **[[Transitions/Escape Matrix Position/Attacker|Escape Matrix Position]]** (0% of attempts)
 
-- **[[Transitions/Sweep from Matrix]]** (1% of attempts)
+- **[[Transitions/Sweep from Matrix/Attacker|Sweep from Matrix]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -182,27 +182,27 @@ The position's learning curve is steep, requiring months of dedicated drilling t
 ### Available Transitions
 
 
-- **[[Transitions/Sprawl Defense]]** (11% of attempts)
+- **[[Transitions/Sprawl Defense/Attacker|Sprawl Defense]]** (11% of attempts)
 
-- **[[Transitions/Crossface Pass]]** (10% of attempts)
+- **[[Transitions/Crossface Pass/Attacker|Crossface Pass]]** (10% of attempts)
 
-- **[[Transitions/Back Step]]** (8% of attempts)
+- **[[Transitions/Back Step/Attacker|Back Step]]** (8% of attempts)
 
-- **[[Transitions/Knee Slice Pass]]** (8% of attempts)
+- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (8% of attempts)
 
-- **[[Transitions/Back Take from Top]]** (26% of attempts)
+- **[[Transitions/Back Take from Top/Attacker|Back Take from Top]]** (26% of attempts)
 
-- **[[Transitions/Darce from Turtle]]** (8% of attempts)
+- **[[Transitions/Darce from Turtle/Attacker|Darce from Turtle]]** (8% of attempts)
 
-- **[[Transitions/Guillotine from Turtle]]** (8% of attempts)
+- **[[Transitions/Guillotine from Turtle/Attacker|Guillotine from Turtle]]** (8% of attempts)
 
-- **[[Transitions/Anaconda from Turtle]]** (6% of attempts)
+- **[[Transitions/Anaconda from Turtle/Attacker|Anaconda from Turtle]]** (6% of attempts)
 
-- **[[Transitions/Turtle Flatten to Side Control]]** (10% of attempts)
+- **[[Transitions/Turtle Flatten to Side Control/Attacker|Turtle Flatten to Side Control]]** (10% of attempts)
 
-- **[[Transitions/Matrix to Back Control]]** (3% of attempts)
+- **[[Transitions/Matrix to Back Control/Attacker|Matrix to Back Control]]** (3% of attempts)
 
-- **[[Transitions/Matrix to Side Control]]** (2% of attempts)
+- **[[Transitions/Matrix to Side Control/Attacker|Matrix to Side Control]]** (2% of attempts)
 
 
 ### Common Mistakes

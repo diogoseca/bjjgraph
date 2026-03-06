@@ -211,18 +211,18 @@ This position commonly arises when defending turtle position, during scrambles f
 ## Decision Making from This Position
 
 **If opponent is applying progressive shoulder pressure with tight leg control:**
-- Execute **[[Transitions/Rolling Escape to Guard]]** → [[Positions/Closed Guard]] (Probability: 55%)
-- Execute **[[Tap Early if Pressure Dangerous]]** → [[Positions/Game Over]] (Probability: 45%)
+- Execute **[[Transitions/Rolling Escape to Guard/Attacker|Rolling Escape to Guard]]** → [[Positions/Closed Guard]] (Probability: 55%)
+- Execute **[[Tap Early if Pressure Dangerous/Attacker|Tap Early if Pressure Dangerous]]** → [[Positions/Game Over]] (Probability: 45%)
 
 
 **If opponent's posted leg base appears unstable or adjustable:**
-- Execute **[[Transitions/Base Attack to Sweep]]** → [[Positions/Standing Position]] (Probability: 45%)
-- Execute **[[Transitions/Arm Extraction to Turtle]]** → [[Positions/Turtle]] (Probability: 55%)
+- Execute **[[Transitions/Base Attack to Sweep/Attacker|Base Attack to Sweep]]** → [[Positions/Standing Position]] (Probability: 45%)
+- Execute **[[Transitions/Arm Extraction to Turtle/Attacker|Arm Extraction to Turtle]]** → [[Positions/Turtle]] (Probability: 55%)
 
 
 **If leg entanglement loosens but hip pressure remains:**
-- Execute **[[Transitions/Hip Escape to Guard]]** → [[Positions/Open Guard]] (Probability: 55%)
-- Execute **[[Transitions/Arm Extraction]]** → [[Positions/Turtle]] (Probability: 45%)
+- Execute **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** → [[Positions/Open Guard]] (Probability: 55%)
+- Execute **[[Transitions/Arm Extraction/Attacker|Arm Extraction]]** → [[Positions/Turtle]] (Probability: 45%)
 
 
 

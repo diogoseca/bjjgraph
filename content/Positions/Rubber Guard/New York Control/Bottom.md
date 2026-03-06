@@ -215,28 +215,28 @@ Competition application demonstrates particular effectiveness in no-gi contexts 
 ## Decision Making from This Position
 
 **If opponent maintains strong defensive posture with chin tucked and elbows tight to body:**
-- Execute **[[Transitions/Triangle Setup]]** → [[Positions/Triangle Control]] (Probability: 60%)
-- Execute **[[Transitions/Gogoplata]]** → [[Positions/Gogoplata Control]] (Probability: 45%)
+- Execute **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** → [[Positions/Triangle Control]] (Probability: 60%)
+- Execute **[[Transitions/Gogoplata/Attacker|Gogoplata]]** → [[Positions/Gogoplata Control]] (Probability: 45%)
 
 
 **If opponent attempts to create distance by pulling back and widening base:**
-- Execute **[[Transitions/Omoplata Sweep]]** → [[Positions/Omoplata Control]] (Probability: 65%)
-- Execute **[[Transitions/Hip Bump Sweep]]** → [[Positions/Mount]] (Probability: 55%)
+- Execute **[[Transitions/Omoplata Sweep/Attacker|Omoplata Sweep]]** → [[Positions/Omoplata Control]] (Probability: 65%)
+- Execute **[[Transitions/Hip Bump Sweep/Attacker|Hip Bump Sweep]]** → [[Positions/Mount]] (Probability: 55%)
 
 
 **If opponent drives forward with pressure attempting to stack or pass:**
-- Execute **[[Transitions/Triangle to Back]]** → [[Positions/Back Control]] (Probability: 60%)
-- Execute **[[Transitions/Omoplata to Back]]** → [[Positions/Back Control]] (Probability: 55%)
+- Execute **[[Transitions/Triangle to Back/Attacker|Triangle to Back]]** → [[Positions/Back Control]] (Probability: 60%)
+- Execute **[[Transitions/Omoplata to Back/Attacker|Omoplata to Back]]** → [[Positions/Back Control]] (Probability: 55%)
 
 
 **If opponent successfully escapes overhook but leg control remains intact:**
-- Execute **[[Transitions/Crackhead Control to Mission Control]]** → [[Positions/Rubber Guard/Mission Control]] (Probability: 70%)
-- Execute **[[Transitions/New York to Invisible Collar]]** → [[Positions/Rubber Guard/Invisible Collar]] (Probability: 65%)
+- Execute **[[Transitions/Crackhead Control to Mission Control/Attacker|Crackhead Control to Mission Control]]** → [[Positions/Rubber Guard/Mission Control]] (Probability: 70%)
+- Execute **[[Transitions/New York to Invisible Collar/Attacker|New York to Invisible Collar]]** → [[Positions/Rubber Guard/Invisible Collar]] (Probability: 65%)
 
 
 **If opponent begins extracting leg from shoulder control:**
-- Execute **[[Transitions/New York Control to Zombie]]** → [[Positions/Rubber Guard/Zombie]] (Probability: 60%)
-- Execute **[[Transitions/Armbar Finish]]** → [[Positions/Armbar Control]] (Probability: 50%)
+- Execute **[[Transitions/New York Control to Zombie/Attacker|New York Control to Zombie]]** → [[Positions/Rubber Guard/Zombie]] (Probability: 60%)
+- Execute **[[Transitions/Armbar Finish/Attacker|Armbar Finish]]** → [[Positions/Armbar Control]] (Probability: 50%)
 
 
 

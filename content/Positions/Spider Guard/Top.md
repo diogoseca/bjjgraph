@@ -206,29 +206,29 @@ Spider Guard Top is the position where the top player is standing or on their kn
 ## Decision Making from This Position
 
 **If bottom player has double sleeve grips with both feet on biceps in classic Spider Guard:**
-- Execute **[[Transitions/Grip Break]]** → [[Positions/Combat Base]] (Probability: 60%)
-- Execute **[[Transitions/Leg Weave Pass]]** → [[Positions/Side Control]] (Probability: 40%)
+- Execute **[[Transitions/Grip Break/Attacker|Grip Break]]** → [[Positions/Combat Base]] (Probability: 60%)
+- Execute **[[Transitions/Leg Weave Pass/Attacker|Leg Weave Pass]]** → [[Positions/Side Control]] (Probability: 40%)
 
 
 **Else if bottom player transitions to Lasso Guard on one side while maintaining Spider Guard on other:**
-- Execute **[[Transitions/Toreando Pass]]** → [[Positions/Side Control]] (Probability: 50%)
-- Execute **[[Transitions/Back Step]]** → [[Positions/Leg Drag Control]] (Probability: 35%)
-- Execute **[[Transitions/X Pass]]** → [[Positions/Side Control]] (Probability: 15%)
+- Execute **[[Transitions/Toreando Pass/Attacker|Toreando Pass]]** → [[Positions/Side Control]] (Probability: 50%)
+- Execute **[[Transitions/Back Step/Attacker|Back Step]]** → [[Positions/Leg Drag Control]] (Probability: 35%)
+- Execute **[[Transitions/X Pass/Attacker|X Pass]]** → [[Positions/Side Control]] (Probability: 15%)
 
 
 **Else if bottom player has single-side Spider Guard with free hand controlling collar or lapel:**
-- Execute **[[Transitions/Knee Slice Pass]]** → [[Positions/Side Control]] (Probability: 55%)
-- Execute **[[Transitions/Long Step Pass]]** → [[Positions/Headquarters Position]] (Probability: 45%)
+- Execute **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** → [[Positions/Side Control]] (Probability: 55%)
+- Execute **[[Transitions/Long Step Pass/Attacker|Long Step Pass]]** → [[Positions/Headquarters Position]] (Probability: 45%)
 
 
 **Else if bottom player commits to triangle or omoplata entry, releasing foot pressure:**
-- Execute **[[Transitions/Stack Pass]]** → [[Positions/Side Control]] (Probability: 55%)
-- Execute **[[Transitions/Leg Drag Pass]]** → [[Positions/Side Control]] (Probability: 45%)
+- Execute **[[Transitions/Stack Pass/Attacker|Stack Pass]]** → [[Positions/Side Control]] (Probability: 55%)
+- Execute **[[Transitions/Leg Drag Pass/Attacker|Leg Drag Pass]]** → [[Positions/Side Control]] (Probability: 45%)
 
 
 **Else if grips are broken and bottom player has not yet re-established guard structure:**
-- Execute **[[Transitions/Double Under Pass]]** → [[Positions/Side Control]] (Probability: 55%)
-- Execute **[[Transitions/Toreando Pass]]** → [[Positions/Side Control]] (Probability: 45%)
+- Execute **[[Transitions/Double Under Pass/Attacker|Double Under Pass]]** → [[Positions/Side Control]] (Probability: 55%)
+- Execute **[[Transitions/Toreando Pass/Attacker|Toreando Pass]]** → [[Positions/Side Control]] (Probability: 45%)
 
 
 

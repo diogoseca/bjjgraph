@@ -209,23 +209,23 @@ The position also serves a critical strategic role in competition and training s
 ## Decision Making from This Position
 
 **If opponent keeps trapped arm bent and defensive while attempting hip escapes:**
-- Execute **[[Transitions/Side Control to Mount]]** → [[Positions/Mount]] (Probability: 70%)
-- Execute **[[Transitions/Side Control to North-South]]** → [[Positions/North-South]] (Probability: 60%)
+- Execute **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** → [[Positions/Mount]] (Probability: 70%)
+- Execute **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** → [[Positions/North-South]] (Probability: 60%)
 
 
 **Else if opponent extends trapped arm attempting to create frame or push:**
-- Execute **[[Transitions/Armbar Finish]]** → [[Positions/Armbar Control]] (Probability: 75%)
-- Execute **[[Transitions/Americana]]** → [[Positions/Kimura Trap]] (Probability: 68%)
+- Execute **[[Transitions/Armbar Finish/Attacker|Armbar Finish]]** → [[Positions/Armbar Control]] (Probability: 75%)
+- Execute **[[Transitions/Americana/Attacker|Americana]]** → [[Positions/Kimura Trap]] (Probability: 68%)
 
 
 **Else if opponent bridges and attempts to roll you over posting leg:**
-- Execute **[[Transitions/Kimura]]** → [[Positions/Kimura Trap]] (Probability: 65%)
-- Execute **[[Transitions/Gift Wrap Control]]** → [[Positions/Gift Wrap]] (Probability: 58%)
+- Execute **[[Transitions/Kimura/Attacker|Kimura]]** → [[Positions/Kimura Trap]] (Probability: 65%)
+- Execute **[[Transitions/Gift Wrap Control/Attacker|Gift Wrap Control]]** → [[Positions/Gift Wrap]] (Probability: 58%)
 
 
 **Else if opponent turns away exposing their back to escape pressure:**
-- Execute **[[Transitions/Side Control to Mount]]** → [[Positions/Mount]] (Probability: 80%)
-- Execute **[[Transitions/Back Take]]** → [[Positions/Back Control]] (Probability: 72%)
+- Execute **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** → [[Positions/Mount]] (Probability: 80%)
+- Execute **[[Transitions/Back Take/Attacker|Back Take]]** → [[Positions/Back Control]] (Probability: 72%)
 
 
 

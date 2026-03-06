@@ -212,27 +212,27 @@ The defensive hierarchy from Triangle Control Top follows a clear priority seque
 ## Decision Making from This Position
 
 **If opponent has triangle locked but not yet extended hips for full pressure:**
-- Execute **[[Transitions/Posture Recovery]]** → [[Positions/Open Guard]] (Probability: 45%)
-- Execute **[[Transitions/Triangle Escape]]** → [[Positions/Closed Guard]] (Probability: 40%)
-- Execute **[[Transitions/Stack Defense]]** → [[Positions/Open Guard]] (Probability: 30%)
+- Execute **[[Transitions/Posture Recovery/Attacker|Posture Recovery]]** → [[Positions/Open Guard]] (Probability: 45%)
+- Execute **[[Transitions/Triangle Escape/Attacker|Triangle Escape]]** → [[Positions/Closed Guard]] (Probability: 40%)
+- Execute **[[Transitions/Stack Defense/Attacker|Stack Defense]]** → [[Positions/Open Guard]] (Probability: 30%)
 
 
 **If opponent is actively finishing the choke with hip extension and head control:**
-- Execute **[[Transitions/Triangle Escape]]** → [[Positions/Side Control]] (Probability: 35%)
-- Execute **[[Transitions/Stack Defense]]** → [[Positions/Side Control]] (Probability: 25%)
-- Execute **[[Transitions/Posture Recovery]]** → [[Positions/Open Guard]] (Probability: 20%)
+- Execute **[[Transitions/Triangle Escape/Attacker|Triangle Escape]]** → [[Positions/Side Control]] (Probability: 35%)
+- Execute **[[Transitions/Stack Defense/Attacker|Stack Defense]]** → [[Positions/Side Control]] (Probability: 25%)
+- Execute **[[Transitions/Posture Recovery/Attacker|Posture Recovery]]** → [[Positions/Open Guard]] (Probability: 20%)
 
 
 **If opponent begins transitioning to armbar or omoplata from triangle:**
-- Execute **[[Transitions/Triangle Escape]]** → [[Positions/Side Control]] (Probability: 45%)
-- Execute **[[Transitions/Guard Recovery from Triangle Control]]** → [[Positions/Closed Guard]] (Probability: 35%)
-- Execute **[[Transitions/Triangle Clear to Side]]** → [[Positions/Side Control]] (Probability: 30%)
+- Execute **[[Transitions/Triangle Escape/Attacker|Triangle Escape]]** → [[Positions/Side Control]] (Probability: 45%)
+- Execute **[[Transitions/Guard Recovery from Triangle Control/Attacker|Guard Recovery from Triangle Control]]** → [[Positions/Closed Guard]] (Probability: 35%)
+- Execute **[[Transitions/Triangle Clear to Side/Attacker|Triangle Clear to Side]]** → [[Positions/Side Control]] (Probability: 30%)
 
 
 **If opponent's triangle is loose or legs are not fully locked:**
-- Execute **[[Transitions/Triangle Escape]]** → [[Positions/Closed Guard]] (Probability: 55%)
-- Execute **[[Transitions/Posture Recovery]]** → [[Positions/Open Guard]] (Probability: 45%)
-- Execute **[[Transitions/Triangle Clear to Side]]** → [[Positions/Side Control]] (Probability: 40%)
+- Execute **[[Transitions/Triangle Escape/Attacker|Triangle Escape]]** → [[Positions/Closed Guard]] (Probability: 55%)
+- Execute **[[Transitions/Posture Recovery/Attacker|Posture Recovery]]** → [[Positions/Open Guard]] (Probability: 45%)
+- Execute **[[Transitions/Triangle Clear to Side/Attacker|Triangle Clear to Side]]** → [[Positions/Side Control]] (Probability: 40%)
 
 
 

@@ -216,28 +216,28 @@ Energy management is the hidden variable in mount defense. The top player expend
 ## Decision Making from This Position
 
 **If opponent establishes high mount with knees near armpits limiting arm movement:**
-- Execute **[[Transitions/Frame and Shrimp to Guard]]** → [[Positions/Half Guard]] (Probability: 55%)
-- Execute **[[Transitions/Elbow Escape from Mount]]** → [[Positions/Open Guard]] (Probability: 45%)
+- Execute **[[Transitions/Frame and Shrimp to Guard/Attacker|Frame and Shrimp to Guard]]** → [[Positions/Half Guard]] (Probability: 55%)
+- Execute **[[Transitions/Elbow Escape from Mount/Attacker|Elbow Escape from Mount]]** → [[Positions/Open Guard]] (Probability: 45%)
 
 
 **If opponent maintains low mount with heavy forward pressure on hips:**
-- Execute **[[Transitions/Upa Escape]]** → [[Positions/Closed Guard]] (Probability: 45%)
-- Execute **[[Transitions/Elbow Escape from Mount]]** → [[Positions/Half Guard]] (Probability: 40%)
+- Execute **[[Transitions/Upa Escape/Attacker|Upa Escape]]** → [[Positions/Closed Guard]] (Probability: 45%)
+- Execute **[[Transitions/Elbow Escape from Mount/Attacker|Elbow Escape from Mount]]** → [[Positions/Half Guard]] (Probability: 40%)
 
 
 **If opponent isolates one arm and begins submission attack sequence:**
-- Execute **[[Transitions/Explosive Bridge to Guard Recovery]]** → [[Positions/Half Guard]] (Probability: 60%)
-- Execute **[[Transitions/Bridge and Roll]]** → [[Positions/Closed Guard]] (Probability: 35%)
+- Execute **[[Transitions/Explosive Bridge to Guard Recovery/Attacker|Explosive Bridge to Guard Recovery]]** → [[Positions/Half Guard]] (Probability: 60%)
+- Execute **[[Transitions/Bridge and Roll/Attacker|Bridge and Roll]]** → [[Positions/Closed Guard]] (Probability: 35%)
 
 
 **If opponent transitions to technical mount inserting one hook:**
-- Execute **[[Transitions/Hip Escape to Turtle]]** → [[Positions/Turtle]] (Probability: 50%)
-- Execute **[[Transitions/Deep Half Entry]]** → [[Positions/Half Guard/Deep Half Guard]] (Probability: 35%)
+- Execute **[[Transitions/Hip Escape to Turtle/Attacker|Hip Escape to Turtle]]** → [[Positions/Turtle]] (Probability: 50%)
+- Execute **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** → [[Positions/Half Guard/Deep Half Guard]] (Probability: 35%)
 
 
 **If opponent reaches forward for collar grips with weight shifting to hands:**
-- Execute **[[Transitions/Upa Escape]]** → [[Positions/Closed Guard]] (Probability: 55%)
-- Execute **[[Transitions/Trap and Roll from Mount]]** → [[Positions/Closed Guard]] (Probability: 45%)
+- Execute **[[Transitions/Upa Escape/Attacker|Upa Escape]]** → [[Positions/Closed Guard]] (Probability: 55%)
+- Execute **[[Transitions/Trap and Roll from Mount/Attacker|Trap and Roll from Mount]]** → [[Positions/Closed Guard]] (Probability: 45%)
 
 
 

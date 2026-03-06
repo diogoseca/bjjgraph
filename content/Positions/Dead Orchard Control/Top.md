@@ -207,28 +207,28 @@ Dead Orchard Control Top is an advanced anaconda choke variation developed withi
 ## Decision Making from This Position
 
 **If opponent remains stationary with minimal defensive movement:**
-- Execute **[[Transitions/Anaconda Choke]]** → [[Positions/Game Over]] (Probability: 70%)
-- Execute **[[Increase shoulder pressure gradually]]** → [[Positions/Dead Orchard Control]] (Probability: 30%)
+- Execute **[[Transitions/Anaconda Choke/Attacker|Anaconda Choke]]** → [[Positions/Game Over]] (Probability: 70%)
+- Execute **[[Increase shoulder pressure gradually/Attacker|Increase shoulder pressure gradually]]** → [[Positions/Dead Orchard Control]] (Probability: 30%)
 
 
 **If opponent attempts to turn away from the choke pressure:**
-- Execute **[[Transitions/Side Control to Mount]]** → [[Positions/Mount]] (Probability: 60%)
-- Execute **[[Transitions/Front Headlock to Back]]** → [[Positions/Back Control]] (Probability: 40%)
+- Execute **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** → [[Positions/Mount]] (Probability: 60%)
+- Execute **[[Transitions/Front Headlock to Back/Attacker|Front Headlock to Back]]** → [[Positions/Back Control]] (Probability: 40%)
 
 
 **If opponent drives forward attempting to escape the grip:**
-- Execute **[[Transitions/Front Headlock to Back]]** → [[Positions/Back Control]] (Probability: 55%)
-- Execute **[[Transitions/Guillotine Setup]]** → [[Positions/Guillotine Control]] (Probability: 45%)
+- Execute **[[Transitions/Front Headlock to Back/Attacker|Front Headlock to Back]]** → [[Positions/Back Control]] (Probability: 55%)
+- Execute **[[Transitions/Guillotine Setup/Attacker|Guillotine Setup]]** → [[Positions/Guillotine Control]] (Probability: 45%)
 
 
 **If opponent creates space on the trapped arm side:**
-- Execute **[[Transitions/Darce from Turtle]]** → [[Positions/Darce Control]] (Probability: 65%)
-- Execute **[[Transitions/Side Control to North-South]]** → [[Positions/North-South]] (Probability: 35%)
+- Execute **[[Transitions/Darce from Turtle/Attacker|Darce from Turtle]]** → [[Positions/Darce Control]] (Probability: 65%)
+- Execute **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** → [[Positions/North-South]] (Probability: 35%)
 
 
 **If opponent establishes strong defensive grips preventing finish:**
-- Execute **[[Transitions/Side Control to North-South]]** → [[Positions/North-South]] (Probability: 50%)
-- Execute **[[Transitions/Side Control to Mount]]** → [[Positions/Mount]] (Probability: 50%)
+- Execute **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** → [[Positions/North-South]] (Probability: 50%)
+- Execute **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** → [[Positions/Mount]] (Probability: 50%)
 
 
 

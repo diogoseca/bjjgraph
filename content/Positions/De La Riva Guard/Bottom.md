@@ -207,23 +207,23 @@ The guard's strategic depth lies in the dilemma structure it creates. When the t
 ## Decision Making from This Position
 
 **If opponent maintains upright posture and resists being pulled forward:**
-- Execute **[[Transitions/De La Riva to X-Guard Transition]]** → [[Positions/X-Guard]] (Probability: 70%)
-- Execute **[[Transitions/Single Leg X Entry]]** → [[Positions/X-Guard/Single Leg X-Guard]] (Probability: 65%)
+- Execute **[[Transitions/De La Riva to X-Guard Transition/Attacker|De La Riva to X-Guard Transition]]** → [[Positions/X-Guard]] (Probability: 70%)
+- Execute **[[Transitions/Single Leg X Entry/Attacker|Single Leg X Entry]]** → [[Positions/X-Guard/Single Leg X-Guard]] (Probability: 65%)
 
 
 **If opponent drives forward with pressure attempting to smash the guard:**
-- Execute **[[Transitions/Berimbolo Entry]]** → [[Positions/Back Control]] (Probability: 60%)
-- Execute **[[Transitions/Kiss of the Dragon]]** → [[Positions/Back Control]] (Probability: 55%)
+- Execute **[[Transitions/Berimbolo Entry/Attacker|Berimbolo Entry]]** → [[Positions/Back Control]] (Probability: 60%)
+- Execute **[[Transitions/Kiss of the Dragon/Attacker|Kiss of the Dragon]]** → [[Positions/Back Control]] (Probability: 55%)
 
 
 **If opponent posts on your non-hooking leg and attempts to clear the De La Riva hook:**
-- Execute **[[Transitions/De La Riva Sweep]]** → [[Positions/Mount]] (Probability: 65%)
-- Execute **[[Transitions/Waiter Sweep]]** → [[Positions/Side Control]] (Probability: 60%)
+- Execute **[[Transitions/De La Riva Sweep/Attacker|De La Riva Sweep]]** → [[Positions/Mount]] (Probability: 65%)
+- Execute **[[Transitions/Waiter Sweep/Attacker|Waiter Sweep]]** → [[Positions/Side Control]] (Probability: 60%)
 
 
 **If opponent stands upright with weight on their heels and attempts to disengage:**
-- Execute **[[Transitions/Outside Ashi Entry]]** → [[Positions/Ashi Garami/Outside Ashi-Garami]] (Probability: 55%)
-- Execute **[[Transitions/Balloon Sweep]]** → [[Positions/Mount]] (Probability: 50%)
+- Execute **[[Transitions/Outside Ashi Entry/Attacker|Outside Ashi Entry]]** → [[Positions/Ashi Garami/Outside Ashi-Garami]] (Probability: 55%)
+- Execute **[[Transitions/Balloon Sweep/Attacker|Balloon Sweep]]** → [[Positions/Mount]] (Probability: 50%)
 
 
 

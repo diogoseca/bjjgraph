@@ -210,29 +210,29 @@ Success in this position relies on understanding the mechanical principles of ba
 ## Decision Making from This Position
 
 **If opponent has locked rear naked choke grip (hand on bicep, choking arm under chin):**
-- Execute **[[Chin tuck and two-on-one grip break]]** → [[Positions/Back Control/Standing Back Control]] (Probability: 55%)
-- Execute **[[Drop to Turtle immediately]]** → [[Positions/Turtle]] (Probability: 40%)
+- Execute **[[Chin tuck and two-on-one grip break/Attacker|Chin tuck and two-on-one grip break]]** → [[Positions/Back Control/Standing Back Control]] (Probability: 55%)
+- Execute **[[Drop to Turtle immediately/Attacker|Drop to Turtle immediately]]** → [[Positions/Turtle]] (Probability: 40%)
 
 
 **If opponent has harness control but no immediate choke threat:**
-- Execute **[[Hip Escape to create angle]]** → [[Positions/Turtle]] (Probability: 50%)
-- Execute **[[Standing up in Base with grip breaks]]** → [[Positions/Standing Position]] (Probability: 40%)
-- Execute **[[Rolling to Guard with hip turn]]** → [[Positions/Closed Guard]] (Probability: 45%)
+- Execute **[[Hip Escape to create angle/Attacker|Hip Escape to create angle]]** → [[Positions/Turtle]] (Probability: 50%)
+- Execute **[[Standing up in Base with grip breaks/Attacker|Standing up in Base with grip breaks]]** → [[Positions/Standing Position]] (Probability: 40%)
+- Execute **[[Rolling to Guard with hip turn/Attacker|Rolling to Guard with hip turn]]** → [[Positions/Closed Guard]] (Probability: 45%)
 
 
 **If opponent has body triangle locked or both hooks in deep:**
-- Execute **[[Controlled descent to ground position]]** → [[Positions/Back Control]] (Probability: 65%)
-- Execute **[[Granby Roll to invert position]]** → [[Positions/Open Guard]] (Probability: 35%)
+- Execute **[[Controlled descent to ground position/Attacker|Controlled descent to ground position]]** → [[Positions/Back Control]] (Probability: 65%)
+- Execute **[[Granby Roll to invert position/Attacker|Granby Roll to invert position]]** → [[Positions/Open Guard]] (Probability: 35%)
 
 
 **If opponent has one hook or no hooks secured yet:**
-- Execute **[[Immediate hip turn and face opponent]]** → [[Positions/Clinch]] (Probability: 55%)
-- Execute **[[Standing up in Base with hand fighting]]** → [[Positions/Standing Position]] (Probability: 45%)
+- Execute **[[Immediate hip turn and face opponent/Attacker|Immediate hip turn and face opponent]]** → [[Positions/Clinch]] (Probability: 55%)
+- Execute **[[Standing up in Base with hand fighting/Attacker|Standing up in Base with hand fighting]]** → [[Positions/Standing Position]] (Probability: 45%)
 
 
 **If opponent is attempting to drag you backward or off-balance:**
-- Execute **[[Drop weight and transition to Turtle]]** → [[Positions/Turtle]] (Probability: 60%)
-- Execute **[[Explosive forward roll to Guard]]** → [[Positions/Half Guard]] (Probability: 35%)
+- Execute **[[Drop weight and transition to Turtle/Attacker|Drop weight and transition to Turtle]]** → [[Positions/Turtle]] (Probability: 60%)
+- Execute **[[Explosive forward roll to Guard/Attacker|Explosive forward roll to Guard]]** → [[Positions/Half Guard]] (Probability: 35%)
 
 
 

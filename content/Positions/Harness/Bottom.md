@@ -210,27 +210,27 @@ The strategic priority from Harness Bottom Position is threefold: first, prevent
 ## Decision Making from This Position
 
 **If opponent has tight harness grip but no hooks established yet:**
-- Execute **[[Control choking arm with both hands]]** → [[Positions/Harness]] (Probability: 90%)
-- Execute **[[Transitions/Hip Escape to Turtle]]** → [[Positions/Turtle]] (Probability: 50%)
-- Execute **[[Transitions/Technical Stand Up to Single Leg]]** → [[Positions/Clinch]] (Probability: 45%)
+- Execute **[[Control choking arm with both hands/Attacker|Control choking arm with both hands]]** → [[Positions/Harness]] (Probability: 90%)
+- Execute **[[Transitions/Hip Escape to Turtle/Attacker|Hip Escape to Turtle]]** → [[Positions/Turtle]] (Probability: 50%)
+- Execute **[[Transitions/Technical Stand Up to Single Leg/Attacker|Technical Stand Up to Single Leg]]** → [[Positions/Clinch]] (Probability: 45%)
 
 
 **If opponent attempts rear naked choke by bringing arm across neck:**
-- Execute **[[Two-on-one grip fight on choking arm]]** → [[Positions/Harness]] (Probability: 85%)
-- Execute **[[Chin down and turn into choking arm]]** → [[Positions/Half Guard]] (Probability: 60%)
-- Execute **[[Transitions/Elbow Escape to Guard]]** → [[Positions/Turtle]] (Probability: 40%)
+- Execute **[[Two-on-one grip fight on choking arm/Attacker|Two-on-one grip fight on choking arm]]** → [[Positions/Harness]] (Probability: 85%)
+- Execute **[[Chin down and turn into choking arm/Attacker|Chin down and turn into choking arm]]** → [[Positions/Half Guard]] (Probability: 60%)
+- Execute **[[Transitions/Elbow Escape to Guard/Attacker|Elbow Escape to Guard]]** → [[Positions/Turtle]] (Probability: 40%)
 
 
 **If opponent establishes one or both hooks while maintaining harness:**
-- Execute **[[Transitions/Elbow Escape to Remove Hooks]]** → [[Positions/Harness]] (Probability: 55%)
-- Execute **[[Transitions/Granby Roll to Guard]]** → [[Positions/Open Guard]] (Probability: 35%)
-- Execute **[[Transitions/Hip Escape to Guard]]** → [[Positions/Half Guard]] (Probability: 45%)
+- Execute **[[Transitions/Elbow Escape to Remove Hooks/Attacker|Elbow Escape to Remove Hooks]]** → [[Positions/Harness]] (Probability: 55%)
+- Execute **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** → [[Positions/Open Guard]] (Probability: 35%)
+- Execute **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** → [[Positions/Half Guard]] (Probability: 45%)
 
 
 **If opponent's chest pressure reduces or weight shifts to one side:**
-- Execute **[[Transitions/Technical Stand Up to Single Leg]]** → [[Positions/Clinch]] (Probability: 60%)
-- Execute **[[Transitions/Roll to Guard]]** → [[Positions/Closed Guard]] (Probability: 50%)
-- Execute **[[Transitions/Elbow Escape to Guard]]** → [[Positions/Turtle]] (Probability: 65%)
+- Execute **[[Transitions/Technical Stand Up to Single Leg/Attacker|Technical Stand Up to Single Leg]]** → [[Positions/Clinch]] (Probability: 60%)
+- Execute **[[Transitions/Roll to Guard/Attacker|Roll to Guard]]** → [[Positions/Closed Guard]] (Probability: 50%)
+- Execute **[[Transitions/Elbow Escape to Guard/Attacker|Elbow Escape to Guard]]** → [[Positions/Turtle]] (Probability: 65%)
 
 
 

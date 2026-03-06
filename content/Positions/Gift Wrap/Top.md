@@ -213,33 +213,33 @@ Understanding Gift Wrap Top requires recognizing it as part of a larger submissi
 ## Decision Making from This Position
 
 **If opponent is passive and defending neck with free arm only:**
-- Execute **[[Rear Naked Choke Attack]]** → [[Positions/Game Over]] (Probability: 60%)
-- Execute **[[Transitions/Gift Wrap to Technical Mount]]** → [[Positions/Mount/Technical Mount]] (Probability: 30%)
-- Execute **[[Maintain control and set up body triangle]]** → [[Positions/Back Control/Body Triangle]] (Probability: 55%)
+- Execute **[[Rear Naked Choke Attack/Attacker|Rear Naked Choke Attack]]** → [[Positions/Game Over]] (Probability: 60%)
+- Execute **[[Transitions/Gift Wrap to Technical Mount/Attacker|Gift Wrap to Technical Mount]]** → [[Positions/Mount/Technical Mount]] (Probability: 30%)
+- Execute **[[Maintain control and set up body triangle/Attacker|Maintain control and set up body triangle]]** → [[Positions/Back Control/Body Triangle]] (Probability: 55%)
 
 
 **If opponent is actively trying to recover trapped arm with explosive movements:**
-- Execute **[[Rear Naked Choke as Arm Recovery Creates Opening]]** → [[Positions/Game Over]] (Probability: 65%)
-- Execute **[[Transition to Crucifix]]** → [[Positions/Crucifix]] (Probability: 50%)
-- Execute **[[Reinforce Gift Wrap and Reset Control]]** → [[Positions/Gift Wrap]] (Probability: 45%)
+- Execute **[[Rear Naked Choke as Arm Recovery Creates Opening/Attacker|Rear Naked Choke as Arm Recovery Creates Opening]]** → [[Positions/Game Over]] (Probability: 65%)
+- Execute **[[Transition to Crucifix/Attacker|Transition to Crucifix]]** → [[Positions/Crucifix]] (Probability: 50%)
+- Execute **[[Reinforce Gift Wrap and Reset Control/Attacker|Reinforce Gift Wrap and Reset Control]]** → [[Positions/Gift Wrap]] (Probability: 45%)
 
 
 **If opponent overextends free arm attempting to create frames or break grips:**
-- Execute **[[Transitions/Armbar on Free Arm]]** → [[Positions/Armbar Control]] (Probability: 55%)
-- Execute **[[Transitions/Gift Wrap to Technical Mount]]** → [[Positions/Mount/Technical Mount]] (Probability: 45%)
-- Execute **[[Maintain Gift Wrap and Attack Neck]]** → [[Positions/Game Over]] (Probability: 50%)
+- Execute **[[Transitions/Armbar on Free Arm/Attacker|Armbar on Free Arm]]** → [[Positions/Armbar Control]] (Probability: 55%)
+- Execute **[[Transitions/Gift Wrap to Technical Mount/Attacker|Gift Wrap to Technical Mount]]** → [[Positions/Mount/Technical Mount]] (Probability: 45%)
+- Execute **[[Maintain Gift Wrap and Attack Neck/Attacker|Maintain Gift Wrap and Attack Neck]]** → [[Positions/Game Over]] (Probability: 50%)
 
 
 **If opponent attempts to turn into attacker or escape hips away:**
-- Execute **[[Follow to Technical Mount]]** → [[Positions/Mount/Technical Mount]] (Probability: 60%)
-- Execute **[[Transition to Crucifix]]** → [[Positions/Crucifix]] (Probability: 50%)
-- Execute **[[Maintain Gift Wrap and Follow Movement]]** → [[Positions/Gift Wrap]] (Probability: 55%)
+- Execute **[[Follow to Technical Mount/Attacker|Follow to Technical Mount]]** → [[Positions/Mount/Technical Mount]] (Probability: 60%)
+- Execute **[[Transition to Crucifix/Attacker|Transition to Crucifix]]** → [[Positions/Crucifix]] (Probability: 50%)
+- Execute **[[Maintain Gift Wrap and Follow Movement/Attacker|Maintain Gift Wrap and Follow Movement]]** → [[Positions/Gift Wrap]] (Probability: 55%)
 
 
 **If opponent rolls to belly exposing back of head and neck:**
-- Execute **[[Short Choke or Rear Naked Choke]]** → [[Positions/Game Over]] (Probability: 70%)
-- Execute **[[Transition to Crucifix with Arm Trap]]** → [[Positions/Crucifix]] (Probability: 60%)
-- Execute **[[Transitions/Bow and Arrow Choke Setup]]** → [[Positions/Game Over]] (Probability: 50%)
+- Execute **[[Short Choke or Rear Naked Choke/Attacker|Short Choke or Rear Naked Choke]]** → [[Positions/Game Over]] (Probability: 70%)
+- Execute **[[Transition to Crucifix with Arm Trap/Attacker|Transition to Crucifix with Arm Trap]]** → [[Positions/Crucifix]] (Probability: 60%)
+- Execute **[[Transitions/Bow and Arrow Choke Setup/Attacker|Bow and Arrow Choke Setup]]** → [[Positions/Game Over]] (Probability: 50%)
 
 
 

@@ -211,23 +211,23 @@ Mastery of armbar defense is essential for all practitioners, as the armbar is o
 ## Decision Making from This Position
 
 **If opponent has not fully extended the arm and legs are not tight across face:**
-- Execute **[[Transitions/Hitchhiker Escape]]** → [[Positions/Half Guard]] (Probability: 60%)
-- Execute **[[Transitions/Arm Extraction]]** → [[Positions/Closed Guard]] (Probability: 50%)
+- Execute **[[Transitions/Hitchhiker Escape/Attacker|Hitchhiker Escape]]** → [[Positions/Half Guard]] (Probability: 60%)
+- Execute **[[Transitions/Arm Extraction/Attacker|Arm Extraction]]** → [[Positions/Closed Guard]] (Probability: 50%)
 
 
 **If opponent is attempting to drop back for the finish with legs loose:**
-- Execute **[[Transitions/Stack Defense]]** → [[Positions/Closed Guard]] (Probability: 55%)
-- Execute **[[Transitions/Rolling Escape to Guard]]** → [[Positions/Closed Guard]] (Probability: 65%)
+- Execute **[[Transitions/Stack Defense/Attacker|Stack Defense]]** → [[Positions/Closed Guard]] (Probability: 55%)
+- Execute **[[Transitions/Rolling Escape to Guard/Attacker|Rolling Escape to Guard]]** → [[Positions/Closed Guard]] (Probability: 65%)
 
 
 **If opponent has tight control but arm is still bent:**
-- Execute **[[Transitions/Hip Escape to Guard]]** → [[Positions/Closed Guard]] (Probability: 70%)
-- Execute **[[Transitions/Bridge and Roll]]** → [[Positions/Half Guard]] (Probability: 60%)
+- Execute **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** → [[Positions/Closed Guard]] (Probability: 70%)
+- Execute **[[Transitions/Bridge and Roll/Attacker|Bridge and Roll]]** → [[Positions/Half Guard]] (Probability: 60%)
 
 
 **If opponent transitions to triangle or omoplata from failed armbar:**
-- Execute **[[Transitions/Posture Recovery]]** → [[Positions/Closed Guard]] (Probability: 45%)
-- Execute **[[Transitions/Stack Defense]]** → [[Positions/Closed Guard]] (Probability: 40%)
+- Execute **[[Transitions/Posture Recovery/Attacker|Posture Recovery]]** → [[Positions/Closed Guard]] (Probability: 45%)
+- Execute **[[Transitions/Stack Defense/Attacker|Stack Defense]]** → [[Positions/Closed Guard]] (Probability: 40%)
 
 
 

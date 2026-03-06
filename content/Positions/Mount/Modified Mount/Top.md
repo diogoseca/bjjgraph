@@ -207,28 +207,28 @@ Modified Mount from the top perspective represents a strategic decision to trade
 ## Decision Making from This Position
 
 **If opponent extends near-side arm to frame or defend:**
-- Execute **[[Transitions/Mount to Armbar]]** → [[Positions/Armbar Control]] (Probability: 75%)
-- Execute **[[Transitions/S-Mount Transition]]** → [[Positions/Mount/S Mount]] (Probability: 65%)
+- Execute **[[Transitions/Mount to Armbar/Attacker|Mount to Armbar]]** → [[Positions/Armbar Control]] (Probability: 75%)
+- Execute **[[Transitions/S-Mount Transition/Attacker|S-Mount Transition]]** → [[Positions/Mount/S Mount]] (Probability: 65%)
 
 
 **If opponent attempts hip escape toward posted leg:**
-- Execute **[[Base Posting Against Hip Escape]]** → [[Positions/Mount/Modified Mount]] (Probability: 70%)
-- Execute **[[Transitions/High Mount Transition]]** → [[Positions/Mount/High Mount]] (Probability: 60%)
+- Execute **[[Base Posting Against Hip Escape/Attacker|Base Posting Against Hip Escape]]** → [[Positions/Mount/Modified Mount]] (Probability: 70%)
+- Execute **[[Transitions/High Mount Transition/Attacker|High Mount Transition]]** → [[Positions/Mount/High Mount]] (Probability: 60%)
 
 
 **If opponent keeps arms tight and defends neck:**
-- Execute **[[Transitions/Cross Collar Choke]]** → [[game-over]] (Probability: 55%)
-- Execute **[[Transitions/Americana]]** → [[Americana Control]] (Probability: 50%)
+- Execute **[[Transitions/Cross Collar Choke/Attacker|Cross Collar Choke]]** → [[game-over]] (Probability: 55%)
+- Execute **[[Transitions/Americana/Attacker|Americana]]** → [[Americana Control]] (Probability: 50%)
 
 
 **If opponent turns to side or turtles:**
-- Execute **[[Transitions/Back Take from Top]]** → [[Positions/Back Control]] (Probability: 70%)
-- Execute **[[Transitions/Gift Wrap Transition]]** → [[Positions/Mount/Technical Mount]] (Probability: 65%)
+- Execute **[[Transitions/Back Take from Top/Attacker|Back Take from Top]]** → [[Positions/Back Control]] (Probability: 70%)
+- Execute **[[Transitions/Gift Wrap Transition/Attacker|Gift Wrap Transition]]** → [[Positions/Mount/Technical Mount]] (Probability: 65%)
 
 
 **If opponent creates strong defensive frames:**
-- Execute **[[Positions/Mount/Mounted Triangle]]** → [[Positions/Mount/Mounted Triangle]] (Probability: 60%)
-- Execute **[[Positions/Gift Wrap]]** → [[Positions/Gift Wrap]] (Probability: 50%)
+- Execute **[[Positions/Mount/Mounted Triangle/Attacker|Mounted Triangle]]** → [[Positions/Mount/Mounted Triangle]] (Probability: 60%)
+- Execute **[[Positions/Gift Wrap/Attacker|Gift Wrap]]** → [[Positions/Gift Wrap]] (Probability: 50%)
 
 
 

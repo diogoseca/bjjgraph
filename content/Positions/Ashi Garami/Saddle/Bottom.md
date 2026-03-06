@@ -211,25 +211,25 @@ Understanding common submission mechanics from Saddle is essential for defensive
 ## Decision Making from This Position
 
 **Opponent has established heel control with figure-four grip but hasn't yet extended the heel:**
-- Execute **[[Hide the heel by rotating knee inward]]** → [[Positions/Ashi Garami/Saddle]] (Probability: 40%)
-- Execute **[[Attack opponent's grips systematically]]** → [[Positions/Ashi Garami/Inside Ashi-Garami]] (Probability: 35%)
-- Execute **[[Tap if rotation begins]]** → [[Positions/Game Over]] (Probability: 25%)
+- Execute **[[Hide the heel by rotating knee inward/Attacker|Hide the heel by rotating knee inward]]** → [[Positions/Ashi Garami/Saddle]] (Probability: 40%)
+- Execute **[[Attack opponent's grips systematically/Attacker|Attack opponent's grips systematically]]** → [[Positions/Ashi Garami/Inside Ashi-Garami]] (Probability: 35%)
+- Execute **[[Tap if rotation begins/Attacker|Tap if rotation begins]]** → [[Positions/Game Over]] (Probability: 25%)
 
 
 **Opponent is actively extending the heel with rotation:**
-- Execute **[[Tap immediately to prevent injury]]** → [[Positions/Game Over]] (Probability: 90%)
-- Execute **[[Emergency hip clear with frame]]** → [[Positions/Ashi Garami/Outside Ashi-Garami]] (Probability: 10%)
+- Execute **[[Tap immediately to prevent injury/Attacker|Tap immediately to prevent injury]]** → [[Positions/Game Over]] (Probability: 90%)
+- Execute **[[Emergency hip clear with frame/Attacker|Emergency hip clear with frame]]** → [[Positions/Ashi Garami/Outside Ashi-Garami]] (Probability: 10%)
 
 
 **Opponent has loose control with space between your bodies:**
-- Execute **[[Transitions/Ashi Garami Escape]]** → [[Positions/Open Guard]] (Probability: 55%)
-- Execute **[[Transitions/Standing up in Base]]** → [[Positions/Standing Position]] (Probability: 45%)
+- Execute **[[Transitions/Ashi Garami Escape/Attacker|Ashi Garami Escape]]** → [[Positions/Open Guard]] (Probability: 55%)
+- Execute **[[Transitions/Standing up in Base/Attacker|Standing up in Base]]** → [[Positions/Standing Position]] (Probability: 45%)
 
 
 **You have created frame with free leg on opponent's hip:**
-- Execute **[[Transitions/Hip Escape to Guard]]** → [[Positions/Half Guard]] (Probability: 50%)
-- Execute **[[Leg extraction to butterfly]]** → [[Positions/Butterfly Guard]] (Probability: 40%)
-- Execute **[[Transitions/Standing up in Base]]** → [[Positions/Standing Position]] (Probability: 10%)
+- Execute **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** → [[Positions/Half Guard]] (Probability: 50%)
+- Execute **[[Leg extraction to butterfly/Attacker|Leg extraction to butterfly]]** → [[Positions/Butterfly Guard]] (Probability: 40%)
+- Execute **[[Transitions/Standing up in Base/Attacker|Standing up in Base]]** → [[Positions/Standing Position]] (Probability: 10%)
 
 
 

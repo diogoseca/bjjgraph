@@ -209,23 +209,23 @@ Unlike traditional turtle positions where the practitioner curls into a ball, th
 ## Decision Making from This Position
 
 **If opponent is heavy on your upper body with strong crossface pressure:**
-- Execute **[[Transitions/Granby Roll to Guard]]** → [[Positions/Closed Guard]] (Probability: 55%)
-- Execute **[[Transitions/Deep Half Entry]]** → [[Positions/Half Guard/Deep Half Guard]] (Probability: 45%)
+- Execute **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** → [[Positions/Closed Guard]] (Probability: 55%)
+- Execute **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** → [[Positions/Half Guard/Deep Half Guard]] (Probability: 45%)
 
 
 **If opponent is attempting to free their leg from lockdown by posting or pulling:**
-- Execute **[[Transitions/Old School Sweep]]** → [[Positions/Half Guard]] (Probability: 60%)
-- Execute **[[Transitions/Electric Chair Transition]]** → [[Positions/Half Guard/Electric Chair]] (Probability: 50%)
+- Execute **[[Transitions/Old School Sweep/Attacker|Old School Sweep]]** → [[Positions/Half Guard]] (Probability: 60%)
+- Execute **[[Transitions/Electric Chair Transition/Attacker|Electric Chair Transition]]** → [[Positions/Half Guard/Electric Chair]] (Probability: 50%)
 
 
 **If opponent establishes strong chest-to-chest pressure attempting to flatten you:**
-- Execute **[[Transitions/Roll to Truck]]** → [[Positions/Twister Control/Truck]] (Probability: 45%)
-- Execute **[[Transitions/Rolling Back Take]]** → [[Positions/Back Control]] (Probability: 40%)
+- Execute **[[Transitions/Roll to Truck/Attacker|Roll to Truck]]** → [[Positions/Twister Control/Truck]] (Probability: 45%)
+- Execute **[[Transitions/Rolling Back Take/Attacker|Rolling Back Take]]** → [[Positions/Back Control]] (Probability: 40%)
 
 
 **If opponent creates distance trying to clear lockdown and establish passing grips:**
-- Execute **[[Transitions/Guard Recovery from Zombie]]** → [[Positions/Half Guard]] (Probability: 65%)
-- Execute **[[Transitions/Lockdown Recovery]]** → [[Positions/Half Guard/Lockdown]] (Probability: 55%)
+- Execute **[[Transitions/Guard Recovery from Zombie/Attacker|Guard Recovery from Zombie]]** → [[Positions/Half Guard]] (Probability: 65%)
+- Execute **[[Transitions/Lockdown Recovery/Attacker|Lockdown Recovery]]** → [[Positions/Half Guard/Lockdown]] (Probability: 55%)
 
 
 

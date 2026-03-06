@@ -211,23 +211,23 @@ Advanced practitioners understand that crackhead control is not a static positio
 ## Decision Making from This Position
 
 **If opponent remains static in defensive turtle with strong base:**
-- Execute **[[Transitions/Turtle to Back Take]]** → [[Positions/Back Control]] (Probability: 60%)
-- Execute **[[Transitions/Crab Ride to Back]]** → [[Positions/Crab Ride]] (Probability: 55%)
+- Execute **[[Transitions/Turtle to Back Take/Attacker|Turtle to Back Take]]** → [[Positions/Back Control]] (Probability: 60%)
+- Execute **[[Transitions/Crab Ride to Back/Attacker|Crab Ride to Back]]** → [[Positions/Crab Ride]] (Probability: 55%)
 
 
 **If opponent attempts to sit through to guard or turn into you:**
-- Execute **[[Transitions/Turtle to Back Take]]** → [[Positions/Back Control]] (Probability: 65%)
-- Execute **[[Transitions/Darce from Turtle]]** → [[Positions/Darce Control]] (Probability: 50%)
+- Execute **[[Transitions/Turtle to Back Take/Attacker|Turtle to Back Take]]** → [[Positions/Back Control]] (Probability: 65%)
+- Execute **[[Transitions/Darce from Turtle/Attacker|Darce from Turtle]]** → [[Positions/Darce Control]] (Probability: 50%)
 
 
 **If opponent rolls forward or attempts granby escape:**
-- Execute **[[Transitions/Turtle to Truck]]** → [[Positions/Twister Control]] (Probability: 70%)
-- Execute **[[Transitions/Rolling Back Take]]** → [[Positions/Back Control]] (Probability: 55%)
+- Execute **[[Transitions/Turtle to Truck/Attacker|Turtle to Truck]]** → [[Positions/Twister Control]] (Probability: 70%)
+- Execute **[[Transitions/Rolling Back Take/Attacker|Rolling Back Take]]** → [[Positions/Back Control]] (Probability: 55%)
 
 
 **If opponent extends arm to post or push away:**
-- Execute **[[Transitions/Crucifix from Turtle]]** → [[Positions/Crucifix]] (Probability: 60%)
-- Execute **[[Transitions/Anaconda from Turtle]]** → [[Positions/Anaconda Control]] (Probability: 45%)
+- Execute **[[Transitions/Crucifix from Turtle/Attacker|Crucifix from Turtle]]** → [[Positions/Crucifix]] (Probability: 60%)
+- Execute **[[Transitions/Anaconda from Turtle/Attacker|Anaconda from Turtle]]** → [[Positions/Anaconda Control]] (Probability: 45%)
 
 
 

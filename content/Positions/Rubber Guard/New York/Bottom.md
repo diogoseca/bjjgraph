@@ -218,23 +218,23 @@ From a learning progression standpoint, New York Bottom typically requires 40-60
 ## Decision Making from This Position
 
 **If opponent maintains low posture and tries to slowly extract overhook arm:**
-- Execute **[[Transitions/New York to Invisible Collar]]** → [[Positions/Rubber Guard/Invisible Collar]] (Probability: 65%)
-- Execute **[[Transitions/Progression to Zombie]]** → [[Positions/Rubber Guard/Zombie]] (Probability: 55%)
+- Execute **[[Transitions/New York to Invisible Collar/Attacker|New York to Invisible Collar]]** → [[Positions/Rubber Guard/Invisible Collar]] (Probability: 65%)
+- Execute **[[Transitions/Progression to Zombie/Attacker|Progression to Zombie]]** → [[Positions/Rubber Guard/Zombie]] (Probability: 55%)
 
 
 **If opponent drives forward aggressively trying to flatten the position:**
-- Execute **[[Transitions/Advance to Chill Dog]]** → [[Positions/Rubber Guard/Chill Dog]] (Probability: 50%)
-- Execute **[[Transitions/Triangle Setup]]** → [[Positions/Triangle Control]] (Probability: 60%)
+- Execute **[[Transitions/Advance to Chill Dog/Attacker|Advance to Chill Dog]]** → [[Positions/Rubber Guard/Chill Dog]] (Probability: 50%)
+- Execute **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** → [[Positions/Triangle Control]] (Probability: 60%)
 
 
 **If opponent widens base and attempts to circle away from overhook side:**
-- Execute **[[Transitions/Rotate to Carni]]** → [[Positions/Rubber Guard/Carni]] (Probability: 55%)
-- Execute **[[Transitions/Omoplata Sweep]]** → [[Positions/Omoplata Control]] (Probability: 45%)
+- Execute **[[Transitions/Rotate to Carni/Attacker|Rotate to Carni]]** → [[Positions/Rubber Guard/Carni]] (Probability: 55%)
+- Execute **[[Transitions/Omoplata Sweep/Attacker|Omoplata Sweep]]** → [[Positions/Omoplata Control]] (Probability: 45%)
 
 
 **If opponent successfully restores partial posture but arm remains trapped:**
-- Execute **[[Transitions/Hip Bump Sweep]]** → [[Positions/Mount]] (Probability: 60%)
-- Execute **[[Transitions/Armbar Finish]]** → [[Positions/Armbar Control]] (Probability: 55%)
+- Execute **[[Transitions/Hip Bump Sweep/Attacker|Hip Bump Sweep]]** → [[Positions/Mount]] (Probability: 60%)
+- Execute **[[Transitions/Armbar Finish/Attacker|Armbar Finish]]** → [[Positions/Armbar Control]] (Probability: 55%)
 
 
 

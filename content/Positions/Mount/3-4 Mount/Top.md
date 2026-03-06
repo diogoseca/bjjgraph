@@ -211,27 +211,27 @@ Strategically, 3-4 Mount Top excels as both a finishing position and a transitio
 ## Decision Making from This Position
 
 **If opponent remains flat and passive, accepting bottom position without immediate escape attempts:**
-- Execute **[[Transitions/Consolidate Mount]]** → [[Positions/Mount]] (Probability: 75%)
-- Execute **[[Transitions/Mount to Armbar]]** → [[Positions/Armbar Control]] (Probability: 60%)
-- Execute **[[Transitions/Americana]]** → [[Positions/Kimura Trap]] (Probability: 50%)
+- Execute **[[Transitions/Consolidate Mount/Attacker|Consolidate Mount]]** → [[Positions/Mount]] (Probability: 75%)
+- Execute **[[Transitions/Mount to Armbar/Attacker|Mount to Armbar]]** → [[Positions/Armbar Control]] (Probability: 60%)
+- Execute **[[Transitions/Americana/Attacker|Americana]]** → [[Positions/Kimura Trap]] (Probability: 50%)
 
 
 **Else if opponent attempts to bridge explosively or turn into the mounted side to escape:**
-- Execute **[[Transitions/Americana]]** → [[Positions/Kimura Trap]] (Probability: 65%)
-- Execute **[[Transitions/Kimura]]** → [[Positions/Kimura Trap]] (Probability: 60%)
-- Execute **[[Transitions/Side Control to Mount]]** → [[Positions/Side Control]] (Probability: 70%)
+- Execute **[[Transitions/Americana/Attacker|Americana]]** → [[Positions/Kimura Trap]] (Probability: 65%)
+- Execute **[[Transitions/Kimura/Attacker|Kimura]]** → [[Positions/Kimura Trap]] (Probability: 60%)
+- Execute **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** → [[Positions/Side Control]] (Probability: 70%)
 
 
 **Else if opponent turns away from posted leg or exposes their back during escape attempt:**
-- Execute **[[Transitions/Back Take]]** → [[Positions/Back Control]] (Probability: 75%)
-- Execute **[[Transitions/Side Control to North-South]]** → [[Positions/North-South]] (Probability: 70%)
-- Execute **[[Transitions/S-Mount Transition]]** → [[Positions/Mount/S Mount]] (Probability: 65%)
+- Execute **[[Transitions/Back Take/Attacker|Back Take]]** → [[Positions/Back Control]] (Probability: 75%)
+- Execute **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** → [[Positions/North-South]] (Probability: 70%)
+- Execute **[[Transitions/S-Mount Transition/Attacker|S-Mount Transition]]** → [[Positions/Mount/S Mount]] (Probability: 65%)
 
 
 **Else if opponent successfully frames and begins creating space on the mounted side:**
-- Execute **[[Transitions/Mount to Armbar]]** → [[Positions/Armbar Control]] (Probability: 55%)
-- Execute **[[Positions/Mount/Mounted Triangle]]** → [[Positions/Mount/Mounted Triangle]] (Probability: 45%)
-- Execute **[[Transitions/Consolidate Mount]]** → [[Positions/Mount]] (Probability: 60%)
+- Execute **[[Transitions/Mount to Armbar/Attacker|Mount to Armbar]]** → [[Positions/Armbar Control]] (Probability: 55%)
+- Execute **[[Positions/Mount/Mounted Triangle/Attacker|Mounted Triangle]]** → [[Positions/Mount/Mounted Triangle]] (Probability: 45%)
+- Execute **[[Transitions/Consolidate Mount/Attacker|Consolidate Mount]]** → [[Positions/Mount]] (Probability: 60%)
 
 
 

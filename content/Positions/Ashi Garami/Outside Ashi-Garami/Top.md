@@ -211,23 +211,23 @@ This position represents a defensive challenge where understanding leg lock mech
 ## Decision Making from This Position
 
 **If opponent has strong heel grip and is threatening immediate heel hook finish:**
-- Execute **[[Saddle Defense]]** → [[Positions/Ashi Garami/Outside Ashi-Garami]] (Probability: 50%)
-- Execute **[[Transitions/Ashi Garami Escape]]** → [[Positions/Standing Position]] (Probability: 40%)
+- Execute **[[Saddle Defense/Attacker|Saddle Defense]]** → [[Positions/Ashi Garami/Outside Ashi-Garami]] (Probability: 50%)
+- Execute **[[Transitions/Ashi Garami Escape/Attacker|Ashi Garami Escape]]** → [[Positions/Standing Position]] (Probability: 40%)
 
 
 **If opponent's leg triangle is loose or you have established standing position:**
-- Execute **[[Transitions/Technical Stand-up]]** → [[Positions/Standing Position]] (Probability: 70%)
-- Execute **[[Transitions/Ashi Garami Escape]]** → [[Positions/Standing Position]] (Probability: 65%)
+- Execute **[[Transitions/Technical Stand-up/Attacker|Technical Stand-up]]** → [[Positions/Standing Position]] (Probability: 70%)
+- Execute **[[Transitions/Ashi Garami Escape/Attacker|Ashi Garami Escape]]** → [[Positions/Standing Position]] (Probability: 65%)
 
 
 **If opponent is transitioning to saddle/honey hole and creating exposure:**
-- Execute **[[Transitions/Outside Ashi Entry]]** → [[Positions/Ashi Garami/Outside Ashi-Garami]] (Probability: 55%)
-- Execute **[[Transitions/Saddle Entry from Top]]** → [[Positions/Ashi Garami/Saddle]] (Probability: 50%)
+- Execute **[[Transitions/Outside Ashi Entry/Attacker|Outside Ashi Entry]]** → [[Positions/Ashi Garami/Outside Ashi-Garami]] (Probability: 55%)
+- Execute **[[Transitions/Saddle Entry from Top/Attacker|Saddle Entry from Top]]** → [[Positions/Ashi Garami/Saddle]] (Probability: 50%)
 
 
 **If you have created sufficient distance with frames and opponent's control is weakened:**
-- Execute **[[Transitions/Leg Weave Pass]]** → [[Positions/Side Control]] (Probability: 60%)
-- Execute **[[Transitions/Standing to Single Leg X]]** → [[Positions/X-Guard/Single Leg X-Guard]] (Probability: 55%)
+- Execute **[[Transitions/Leg Weave Pass/Attacker|Leg Weave Pass]]** → [[Positions/Side Control]] (Probability: 60%)
+- Execute **[[Transitions/Standing to Single Leg X/Attacker|Standing to Single Leg X]]** → [[Positions/X-Guard/Single Leg X-Guard]] (Probability: 55%)
 
 
 

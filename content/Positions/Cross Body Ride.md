@@ -95,23 +95,23 @@ From a systematic perspective, Cross Body Ride functions as a forcing position w
 ### Available Transitions
 
 
-- **[[Transitions/Rolling to Guard]]** (15% of attempts)
+- **[[Transitions/Rolling to Guard/Attacker|Rolling to Guard]]** (15% of attempts)
 
-- **[[Transitions/Turtle to Guard]]** (38% of attempts)
+- **[[Transitions/Turtle to Guard/Attacker|Turtle to Guard]]** (38% of attempts)
 
-- **[[Transitions/Turtle to Standing]]** (15% of attempts)
+- **[[Transitions/Turtle to Standing/Attacker|Turtle to Standing]]** (15% of attempts)
 
-- **[[Transitions/Sit Through to Guard]]** (13% of attempts)
+- **[[Transitions/Sit Through to Guard/Attacker|Sit Through to Guard]]** (13% of attempts)
 
-- **[[Transitions/Peterson Roll]]** (7% of attempts)
+- **[[Transitions/Peterson Roll/Attacker|Peterson Roll]]** (7% of attempts)
 
-- **[[Transitions/Hip Escape to Guard]]** (7% of attempts)
+- **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** (7% of attempts)
 
-- **[[Transitions/Hip Escape from Cross Body Ride]]** (3% of attempts)
+- **[[Transitions/Hip Escape from Cross Body Ride/Attacker|Hip Escape from Cross Body Ride]]** (3% of attempts)
 
-- **[[Transitions/Roll Escape from Cross Body Ride]]** (1% of attempts)
+- **[[Transitions/Roll Escape from Cross Body Ride/Attacker|Roll Escape from Cross Body Ride]]** (1% of attempts)
 
-- **[[Transitions/Escape from Cross Body Ride]]** (1% of attempts)
+- **[[Transitions/Escape from Cross Body Ride/Attacker|Escape from Cross Body Ride]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -172,27 +172,27 @@ From a systematic perspective, Cross Body Ride functions as a forcing position w
 ### Available Transitions
 
 
-- **[[Transitions/Turtle to Back Control]]** (51% of attempts)
+- **[[Transitions/Turtle to Back Control/Attacker|Turtle to Back Control]]** (51% of attempts)
 
-- **[[Transitions/Crucifix from Turtle]]** (17% of attempts)
+- **[[Transitions/Crucifix from Turtle/Attacker|Crucifix from Turtle]]** (17% of attempts)
 
-- **[[Submissions/Twister]]** (3% of attempts)
+- **[[Submissions/Twister/Attacker|Twister]]** (3% of attempts)
 
-- **[[Transitions/Turtle Flatten to Side Control]]** (9% of attempts)
+- **[[Transitions/Turtle Flatten to Side Control/Attacker|Turtle Flatten to Side Control]]** (9% of attempts)
 
-- **[[Transitions/Turtle to Truck]]** (7% of attempts)
+- **[[Transitions/Turtle to Truck/Attacker|Turtle to Truck]]** (7% of attempts)
 
-- **[[Transitions/Crab Ride to Back]]** (7% of attempts)
+- **[[Transitions/Crab Ride to Back/Attacker|Crab Ride to Back]]** (7% of attempts)
 
-- **[[Transitions/Darce from Turtle]]** (1% of attempts)
+- **[[Transitions/Darce from Turtle/Attacker|Darce from Turtle]]** (1% of attempts)
 
-- **[[Transitions/Cross Body to Back Control]]** (1% of attempts)
+- **[[Transitions/Cross Body to Back Control/Attacker|Cross Body to Back Control]]** (1% of attempts)
 
-- **[[Transitions/Cross Body to Side Control]]** (1% of attempts)
+- **[[Transitions/Cross Body to Side Control/Attacker|Cross Body to Side Control]]** (1% of attempts)
 
-- **[[Transitions/Twister Entry]]** (1% of attempts)
+- **[[Transitions/Twister Entry/Attacker|Twister Entry]]** (1% of attempts)
 
-- **[[Submissions/Short Choke from Cross Body]]** (2% of attempts)
+- **[[Submissions/Short Choke from Cross Body/Attacker|Short Choke from Cross Body]]** (2% of attempts)
 
 
 ### Common Mistakes

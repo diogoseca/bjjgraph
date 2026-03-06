@@ -99,27 +99,27 @@ The energy dynamics of lapel guard favor the bottom player in extended exchanges
 ### Available Transitions
 
 
-- **[[Transitions/Worm Guard Entry]]** (16% of attempts)
+- **[[Transitions/Worm Guard Entry/Attacker|Worm Guard Entry]]** (16% of attempts)
 
-- **[[Transitions/Squid Guard Entry]]** (12% of attempts)
+- **[[Transitions/Squid Guard Entry/Attacker|Squid Guard Entry]]** (12% of attempts)
 
-- **[[Transitions/Ringworm Guard Entry]]** (5% of attempts)
+- **[[Transitions/Ringworm Guard Entry/Attacker|Ringworm Guard Entry]]** (5% of attempts)
 
-- **[[Transitions/Lapel Sweep to Back]]** (22% of attempts)
+- **[[Transitions/Lapel Sweep to Back/Attacker|Lapel Sweep to Back]]** (22% of attempts)
 
-- **[[Transitions/Lapel Omoplata Entry]]** (8% of attempts)
+- **[[Transitions/Lapel Omoplata Entry/Attacker|Lapel Omoplata Entry]]** (8% of attempts)
 
-- **[[Transitions/Lapel Triangle Setup]]** (6% of attempts)
+- **[[Transitions/Lapel Triangle Setup/Attacker|Lapel Triangle Setup]]** (6% of attempts)
 
-- **[[Transitions/Lapel to Lasso Guard]]** (7% of attempts)
+- **[[Transitions/Lapel to Lasso Guard/Attacker|Lapel to Lasso Guard]]** (7% of attempts)
 
-- **[[Transitions/Lapel to Spider Guard]]** (7% of attempts)
+- **[[Transitions/Lapel to Spider Guard/Attacker|Lapel to Spider Guard]]** (7% of attempts)
 
-- **[[Transitions/Lapel to De La Riva]]** (7% of attempts)
+- **[[Transitions/Lapel to De La Riva/Attacker|Lapel to De La Riva]]** (7% of attempts)
 
-- **[[Transitions/Lapel Elevator Sweep]]** (8% of attempts)
+- **[[Transitions/Lapel Elevator Sweep/Attacker|Lapel Elevator Sweep]]** (8% of attempts)
 
-- **[[Transitions/Lapel Guard to Piranha Guard]]** (2% of attempts)
+- **[[Transitions/Lapel Guard to Piranha Guard/Attacker|Lapel Guard to Piranha Guard]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -180,23 +180,23 @@ The energy dynamics of lapel guard favor the bottom player in extended exchanges
 ### Available Transitions
 
 
-- **[[Transitions/Lapel Clear to Toreando Pass]]** (12% of attempts)
+- **[[Transitions/Lapel Clear to Toreando Pass/Attacker|Lapel Clear to Toreando Pass]]** (12% of attempts)
 
-- **[[Transitions/Backstep Around Worm Guard]]** (16% of attempts)
+- **[[Transitions/Backstep Around Worm Guard/Attacker|Backstep Around Worm Guard]]** (16% of attempts)
 
-- **[[Transitions/Pressure Pass Through Squid]]** (11% of attempts)
+- **[[Transitions/Pressure Pass Through Squid/Attacker|Pressure Pass Through Squid]]** (11% of attempts)
 
-- **[[Transitions/Knee Slice Despite Lapel]]** (12% of attempts)
+- **[[Transitions/Knee Slice Despite Lapel/Attacker|Knee Slice Despite Lapel]]** (12% of attempts)
 
-- **[[Transitions/Long Step Around Ringworm]]** (11% of attempts)
+- **[[Transitions/Long Step Around Ringworm/Attacker|Long Step Around Ringworm]]** (11% of attempts)
 
-- **[[Transitions/Stack Pass Over Lapel Barrier]]** (9% of attempts)
+- **[[Transitions/Stack Pass Over Lapel Barrier/Attacker|Stack Pass Over Lapel Barrier]]** (9% of attempts)
 
-- **[[Transitions/Distance Creation to Reset]]** (8% of attempts)
+- **[[Transitions/Distance Creation to Reset/Attacker|Distance Creation to Reset]]** (8% of attempts)
 
-- **[[Transitions/Leg Drag While Clearing Lapel]]** (11% of attempts)
+- **[[Transitions/Leg Drag While Clearing Lapel/Attacker|Leg Drag While Clearing Lapel]]** (11% of attempts)
 
-- **[[Transitions/Leg Extraction from Lapel Wrap]]** (10% of attempts)
+- **[[Transitions/Leg Extraction from Lapel Wrap/Attacker|Leg Extraction from Lapel Wrap]]** (10% of attempts)
 
 
 ### Common Mistakes

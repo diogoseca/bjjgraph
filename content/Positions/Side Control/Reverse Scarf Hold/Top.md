@@ -210,23 +210,23 @@ This position is particularly effective against opponents unfamiliar with the co
 ## Decision Making from This Position
 
 **If opponent remains flat and passive without bridging attempts:**
-- Execute **[[Transitions/Americana]]** → [[Positions/Armbar Control]] (Probability: 55%)
-- Execute **[[Transitions/Kimura]]** → [[Positions/Kimura Trap]] (Probability: 50%)
+- Execute **[[Transitions/Americana/Attacker|Americana]]** → [[Positions/Armbar Control]] (Probability: 55%)
+- Execute **[[Transitions/Kimura/Attacker|Kimura]]** → [[Positions/Kimura Trap]] (Probability: 50%)
 
 
 **If opponent bridges explosively toward their head attempting to roll you:**
-- Execute **[[Transitions/Side Control to Mount]]** → [[Positions/Mount]] (Probability: 65%)
-- Execute **[[Transitions/Side Control to North-South]]** → [[Positions/North-South]] (Probability: 60%)
+- Execute **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** → [[Positions/Mount]] (Probability: 65%)
+- Execute **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** → [[Positions/North-South]] (Probability: 60%)
 
 
 **If opponent turns away from you toward turtle position:**
-- Execute **[[Transitions/Back Step]]** → [[Positions/Back Control]] (Probability: 50%)
-- Execute **[[Transitions/Side Control to North-South]]** → [[Positions/North-South]] (Probability: 55%)
+- Execute **[[Transitions/Back Step/Attacker|Back Step]]** → [[Positions/Back Control]] (Probability: 50%)
+- Execute **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** → [[Positions/North-South]] (Probability: 55%)
 
 
 **If opponent creates frames with free arm and begins hip escape:**
-- Execute **[[Transitions/Knee Slice Pass]]** → [[Positions/Side Control/Side Control Consolidation]] (Probability: 60%)
-- Execute **[[Transitions/Side Control to Mount]]** → [[Positions/Mount]] (Probability: 45%)
+- Execute **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** → [[Positions/Side Control/Side Control Consolidation]] (Probability: 60%)
+- Execute **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** → [[Positions/Mount]] (Probability: 45%)
 
 
 

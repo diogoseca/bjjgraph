@@ -210,27 +210,27 @@ Seated Guard Top works best when you establish dominant grips (collar, sleeves, 
 ## Decision Making from This Position
 
 **If opponent has no grips and legs are extended defensively:**
-- Execute **[[Transitions/Toreando Pass]]** → [[Positions/Side Control]] (Probability: 65%)
-- Execute **[[Transitions/Long Step Pass]]** → [[Positions/Side Control]] (Probability: 55%)
-- Execute **[[Transitions/Leg Drag Pass]]** → [[Positions/Side Control]] (Probability: 60%)
+- Execute **[[Transitions/Toreando Pass/Attacker|Toreando Pass]]** → [[Positions/Side Control]] (Probability: 65%)
+- Execute **[[Transitions/Long Step Pass/Attacker|Long Step Pass]]** → [[Positions/Side Control]] (Probability: 55%)
+- Execute **[[Transitions/Leg Drag Pass/Attacker|Leg Drag Pass]]** → [[Positions/Side Control]] (Probability: 60%)
 
 
 **If opponent establishes sleeve or collar grips:**
-- Execute **[[Transitions/Grip Break]]** → [[Seated Guard Top]] (Probability: 70%)
-- Execute **[[Transitions/Knee Slice Pass]]** → [[Positions/Side Control]] (Probability: 50%)
-- Execute **[[Transitions/Stack Pass]]** → [[Positions/Side Control]] (Probability: 45%)
+- Execute **[[Transitions/Grip Break/Attacker|Grip Break]]** → [[Seated Guard Top]] (Probability: 70%)
+- Execute **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** → [[Positions/Side Control]] (Probability: 50%)
+- Execute **[[Transitions/Stack Pass/Attacker|Stack Pass]]** → [[Positions/Side Control]] (Probability: 45%)
 
 
 **If opponent attempts to stand or technical standup:**
-- Execute **[[Snap Down]]** → [[Positions/Front Headlock]] (Probability: 60%)
-- Execute **[[Transitions/Toreando Pass]]** → [[Positions/Side Control]] (Probability: 55%)
-- Execute **[[Bodylock Pass]]** → [[Positions/Side Control]] (Probability: 50%)
+- Execute **[[Snap Down/Attacker|Snap Down]]** → [[Positions/Front Headlock]] (Probability: 60%)
+- Execute **[[Transitions/Toreando Pass/Attacker|Toreando Pass]]** → [[Positions/Side Control]] (Probability: 55%)
+- Execute **[[Bodylock Pass/Attacker|Bodylock Pass]]** → [[Positions/Side Control]] (Probability: 50%)
 
 
 **If opponent tries to insert butterfly hooks or enter leg entanglements:**
-- Execute **[[Transitions/Knee Slice Pass]]** → [[Positions/Side Control]] (Probability: 60%)
-- Execute **[[Transitions/Smash Pass]]** → [[Positions/Side Control]] (Probability: 50%)
-- Execute **[[Transitions/Long Step Pass]]** → [[Positions/Side Control]] (Probability: 55%)
+- Execute **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** → [[Positions/Side Control]] (Probability: 60%)
+- Execute **[[Transitions/Smash Pass/Attacker|Smash Pass]]** → [[Positions/Side Control]] (Probability: 50%)
+- Execute **[[Transitions/Long Step Pass/Attacker|Long Step Pass]]** → [[Positions/Side Control]] (Probability: 55%)
 
 
 

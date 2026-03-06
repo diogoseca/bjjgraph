@@ -89,63 +89,63 @@ The closed guard's versatility across gi and no-gi competition, its effectivenes
 ### Available Transitions
 
 
-- **[[Transitions/Hip Bump Sweep]]** (21% of attempts)
+- **[[Transitions/Hip Bump Sweep/Attacker|Hip Bump Sweep]]** (21% of attempts)
 
-- **[[Submissions/Armbar from Guard]]** (10% of attempts)
+- **[[Submissions/Armbar from Guard/Attacker|Armbar from Guard]]** (10% of attempts)
 
-- **[[Transitions/Scissor Sweep]]** (8% of attempts)
+- **[[Transitions/Scissor Sweep/Attacker|Scissor Sweep]]** (8% of attempts)
 
-- **[[Transitions/Triangle Setup]]** (8% of attempts)
+- **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** (8% of attempts)
 
-- **[[Transitions/Cross Collar Choke]]** (6% of attempts)
+- **[[Transitions/Cross Collar Choke/Attacker|Cross Collar Choke]]** (6% of attempts)
 
-- **[[Transitions/Pendulum Sweep]]** (6% of attempts)
+- **[[Transitions/Pendulum Sweep/Attacker|Pendulum Sweep]]** (6% of attempts)
 
-- **[[Transitions/Guillotine Setup]]** (5% of attempts)
+- **[[Transitions/Guillotine Setup/Attacker|Guillotine Setup]]** (5% of attempts)
 
-- **[[Transitions/Kimura Sweep]]** (4% of attempts)
+- **[[Transitions/Kimura Sweep/Attacker|Kimura Sweep]]** (4% of attempts)
 
-- **[[Transitions/Flower Sweep]]** (3% of attempts)
+- **[[Transitions/Flower Sweep/Attacker|Flower Sweep]]** (3% of attempts)
 
-- **[[Transitions/Kimura to Back Take]]** (3% of attempts)
+- **[[Transitions/Kimura to Back Take/Attacker|Kimura to Back Take]]** (3% of attempts)
 
-- **[[Transitions/Elevator Sweep]]** (2% of attempts)
+- **[[Transitions/Elevator Sweep/Attacker|Elevator Sweep]]** (2% of attempts)
 
-- **[[Transitions/Overhook Sweep]]** (2% of attempts)
+- **[[Transitions/Overhook Sweep/Attacker|Overhook Sweep]]** (2% of attempts)
 
-- **[[Transitions/Omoplata Sweep]]** (2% of attempts)
+- **[[Transitions/Omoplata Sweep/Attacker|Omoplata Sweep]]** (2% of attempts)
 
-- **[[Transitions/Lumberjack Sweep]]** (1% of attempts)
+- **[[Transitions/Lumberjack Sweep/Attacker|Lumberjack Sweep]]** (1% of attempts)
 
-- **[[Transitions/Hip Bump Sweep V2]]** (1% of attempts)
+- **[[Transitions/Hip Bump Sweep V2/Attacker|Hip Bump Sweep V2]]** (1% of attempts)
 
-- **[[Transitions/Closed Guard to Omoplata]]** (1% of attempts)
+- **[[Transitions/Closed Guard to Omoplata/Attacker|Closed Guard to Omoplata]]** (1% of attempts)
 
-- **[[Transitions/Omoplata to Back]]** (1% of attempts)
+- **[[Transitions/Omoplata to Back/Attacker|Omoplata to Back]]** (1% of attempts)
 
-- **[[Transitions/Muscle Sweep]]** (1% of attempts)
+- **[[Transitions/Muscle Sweep/Attacker|Muscle Sweep]]** (1% of attempts)
 
-- **[[Transitions/Closed Guard to Overhook Guard]]** (1% of attempts)
+- **[[Transitions/Closed Guard to Overhook Guard/Attacker|Closed Guard to Overhook Guard]]** (1% of attempts)
 
-- **[[Transitions/High Guard to Rubber Guard]]** (1% of attempts)
+- **[[Transitions/High Guard to Rubber Guard/Attacker|High Guard to Rubber Guard]]** (1% of attempts)
 
-- **[[Transitions/Transition to Diamond Guard]]** (1% of attempts)
+- **[[Transitions/Transition to Diamond Guard/Attacker|Transition to Diamond Guard]]** (1% of attempts)
 
-- **[[Submissions/Rolling Armbar]]** (2% of attempts)
+- **[[Submissions/Rolling Armbar/Attacker|Rolling Armbar]]** (2% of attempts)
 
-- **[[Submissions/Spinning Armbar]]** (2% of attempts)
+- **[[Submissions/Spinning Armbar/Attacker|Spinning Armbar]]** (2% of attempts)
 
-- **[[Submissions/Tarikoplata]]** (2% of attempts)
+- **[[Submissions/Tarikoplata/Attacker|Tarikoplata]]** (2% of attempts)
 
-- **[[Submissions/Triangle from Closed Guard]]** (2% of attempts)
+- **[[Submissions/Triangle from Closed Guard/Attacker|Triangle from Closed Guard]]** (2% of attempts)
 
-- **[[Submissions/Flying Armbar]]** (1% of attempts)
+- **[[Submissions/Flying Armbar/Attacker|Flying Armbar]]** (1% of attempts)
 
-- **[[Submissions/Kneebar from Guard]]** (1% of attempts)
+- **[[Submissions/Kneebar from Guard/Attacker|Kneebar from Guard]]** (1% of attempts)
 
-- **[[Submissions/Monoplata]]** (1% of attempts)
+- **[[Submissions/Monoplata/Attacker|Monoplata]]** (1% of attempts)
 
-- **[[Submissions/Monoplata from Guard]]** (1% of attempts)
+- **[[Submissions/Monoplata from Guard/Attacker|Monoplata from Guard]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -204,21 +204,21 @@ The closed guard's versatility across gi and no-gi competition, its effectivenes
 ### Available Transitions
 
 
-- **[[Transitions/Posture Recovery]]** (32% of attempts)
+- **[[Transitions/Posture Recovery/Attacker|Posture Recovery]]** (32% of attempts)
 
-- **[[Transitions/Guard Opening Sequence]]** (27% of attempts)
+- **[[Transitions/Guard Opening Sequence/Attacker|Guard Opening Sequence]]** (27% of attempts)
 
-- **[[Transitions/Standing up in Base]]** (22% of attempts)
+- **[[Transitions/Standing up in Base/Attacker|Standing up in Base]]** (22% of attempts)
 
-- **[[Transitions/Stack Pass]]** (10% of attempts)
+- **[[Transitions/Stack Pass/Attacker|Stack Pass]]** (10% of attempts)
 
-- **[[Transitions/Stand Up in Closed Guard]]** (3% of attempts)
+- **[[Transitions/Stand Up in Closed Guard/Attacker|Stand Up in Closed Guard]]** (3% of attempts)
 
-- **[[Transitions/Ezekiel from Closed Guard]]** (2% of attempts)
+- **[[Transitions/Ezekiel from Closed Guard/Attacker|Ezekiel from Closed Guard]]** (2% of attempts)
 
-- **[[Transitions/Knee Slice from Closed Guard]]** (2% of attempts)
+- **[[Transitions/Knee Slice from Closed Guard/Attacker|Knee Slice from Closed Guard]]** (2% of attempts)
 
-- **[[Submissions/Can Opener]]** (2% of attempts)
+- **[[Submissions/Can Opener/Attacker|Can Opener]]** (2% of attempts)
 
 
 ### Common Mistakes

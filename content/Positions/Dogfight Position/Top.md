@@ -194,34 +194,34 @@ The position is favored in modern no-gi grappling and has become a cornerstone o
 ## Decision Making from This Position
 
 **If opponent has strong whizzer and is driving you backward with heavy crossface pressure:**
-- Execute **[[Transitions/Deep Half Entry]]** → [[Positions/Half Guard/Deep Half Guard]] (Probability: 70%)
-- Execute **[[Transitions/Re-pull Half Guard from Dogfight]]** → [[Positions/Half Guard]] (Probability: 60%)
-- Execute **[[Transitions/Electric Chair Transition]]** → [[Positions/Half Guard/Electric Chair]] (Probability: 45%)
+- Execute **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** → [[Positions/Half Guard/Deep Half Guard]] (Probability: 70%)
+- Execute **[[Transitions/Re-pull Half Guard from Dogfight/Attacker|Re-pull Half Guard from Dogfight]]** → [[Positions/Half Guard]] (Probability: 60%)
+- Execute **[[Transitions/Electric Chair Transition/Attacker|Electric Chair Transition]]** → [[Positions/Half Guard/Electric Chair]] (Probability: 45%)
 
 
 **If opponent's far leg is posted wide and vulnerable to being controlled:**
-- Execute **[[Transitions/Dogfight Sweep]]** → [[Positions/Side Control]] (Probability: 70%)
-- Execute **[[Transitions/Forward Drive Sweep from Dogfight]]** → [[Positions/Mount]] (Probability: 60%)
+- Execute **[[Transitions/Dogfight Sweep/Attacker|Dogfight Sweep]]** → [[Positions/Side Control]] (Probability: 70%)
+- Execute **[[Transitions/Forward Drive Sweep from Dogfight/Attacker|Forward Drive Sweep from Dogfight]]** → [[Positions/Mount]] (Probability: 60%)
 
 
 **If opponent loses whizzer control, exposes their back, or commits weight forward excessively:**
-- Execute **[[Transitions/Back Take]]** → [[Positions/Back Control]] (Probability: 70%)
-- Execute **[[Transitions/Underhook Sweep from Dogfight]]** → [[Positions/Side Control]] (Probability: 65%)
+- Execute **[[Transitions/Back Take/Attacker|Back Take]]** → [[Positions/Back Control]] (Probability: 70%)
+- Execute **[[Transitions/Underhook Sweep from Dogfight/Attacker|Underhook Sweep from Dogfight]]** → [[Positions/Side Control]] (Probability: 65%)
 
 
 **If opponent maintains upright posture and posts their free leg far out for base:**
-- Execute **[[Transitions/Underhook Sweep from Dogfight]]** → [[Positions/Side Control]] (Probability: 55%)
-- Execute **[[Transitions/Forward Drive Sweep from Dogfight]]** → [[Positions/Mount]] (Probability: 50%)
+- Execute **[[Transitions/Underhook Sweep from Dogfight/Attacker|Underhook Sweep from Dogfight]]** → [[Positions/Side Control]] (Probability: 55%)
+- Execute **[[Transitions/Forward Drive Sweep from Dogfight/Attacker|Forward Drive Sweep from Dogfight]]** → [[Positions/Mount]] (Probability: 50%)
 
 
 **If opponent attempts to circle their trapped leg free while maintaining balance:**
-- Execute **[[Transitions/Back Take]]** → [[Positions/Back Control]] (Probability: 60%)
-- Execute **[[Transitions/Dogfight Sweep]]** → [[Positions/Side Control]] (Probability: 55%)
+- Execute **[[Transitions/Back Take/Attacker|Back Take]]** → [[Positions/Back Control]] (Probability: 60%)
+- Execute **[[Transitions/Dogfight Sweep/Attacker|Dogfight Sweep]]** → [[Positions/Side Control]] (Probability: 55%)
 
 
 **If you are the top player and opponent has deep underhook with forward pressure:**
-- Execute **[[Transitions/Crossface from Dogfight]]** → [[Positions/Side Control]] (Probability: 55%)
-- Execute **[[Transitions/Re-flatten from Dogfight]]** → [[Positions/Half Guard]] (Probability: 50%)
+- Execute **[[Transitions/Crossface from Dogfight/Attacker|Crossface from Dogfight]]** → [[Positions/Side Control]] (Probability: 55%)
+- Execute **[[Transitions/Re-flatten from Dogfight/Attacker|Re-flatten from Dogfight]]** → [[Positions/Half Guard]] (Probability: 50%)
 
 
 

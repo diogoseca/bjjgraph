@@ -210,23 +210,23 @@ This position is more common in advanced BJJ and no-gi grappling where mobility 
 ## Decision Making from This Position
 
 **If opponent drives forward with heavy chest pressure attempting to flatten and control:**
-- Execute **[[Transitions/Rolling Back Take]]** → [[Positions/Back Control]] (Probability: 60%)
-- Execute **[[Transitions/Deep Half Entry]]** → [[Positions/Half Guard/Deep Half Guard]] (Probability: 50%)
+- Execute **[[Transitions/Rolling Back Take/Attacker|Rolling Back Take]]** → [[Positions/Back Control]] (Probability: 60%)
+- Execute **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** → [[Positions/Half Guard/Deep Half Guard]] (Probability: 50%)
 
 
 **If opponent posts hand on mat to establish base and prevent rotation:**
-- Execute **[[Transitions/Old School Sweep]]** → [[Positions/Side Control]] (Probability: 55%)
-- Execute **[[Transitions/Underhook Sweep from Half]]** → [[Positions/Side Control]] (Probability: 45%)
+- Execute **[[Transitions/Old School Sweep/Attacker|Old School Sweep]]** → [[Positions/Side Control]] (Probability: 55%)
+- Execute **[[Transitions/Underhook Sweep from Half/Attacker|Underhook Sweep from Half]]** → [[Positions/Side Control]] (Probability: 45%)
 
 
 **If opponent attempts to extract trapped leg or backs away to create distance:**
-- Execute **[[Transitions/Butterfly Hook Recovery]]** → [[Positions/Half Guard]] (Probability: 65%)
-- Execute **[[Transitions/Hip Bump Sweep]]** → [[Positions/Mount]] (Probability: 40%)
+- Execute **[[Transitions/Butterfly Hook Recovery/Attacker|Butterfly Hook Recovery]]** → [[Positions/Half Guard]] (Probability: 65%)
+- Execute **[[Transitions/Hip Bump Sweep/Attacker|Hip Bump Sweep]]** → [[Positions/Mount]] (Probability: 40%)
 
 
 **If opponent reaches for back control with hooks or seat belt grip:**
-- Execute **[[Transitions/Turtle to Truck]]** → [[Positions/Twister Control/Truck]] (Probability: 50%)
-- Execute **[[Transitions/Rolling Back Take]]** → [[Positions/Back Control]] (Probability: 55%)
+- Execute **[[Transitions/Turtle to Truck/Attacker|Turtle to Truck]]** → [[Positions/Twister Control/Truck]] (Probability: 50%)
+- Execute **[[Transitions/Rolling Back Take/Attacker|Rolling Back Take]]** → [[Positions/Back Control]] (Probability: 55%)
 
 
 

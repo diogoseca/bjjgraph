@@ -209,28 +209,28 @@ The Piranha Guard Top position requires excellent grip fighting skills, strong b
 ## Decision Making from This Position
 
 **If bottom player has lapel wrapped around your neck or back creating immediate choke threat:**
-- Execute **[[Immediate Lapel Strip]]** → [[Positions/Combat Base]] (Probability: 85%)
-- Execute **[[Transitions/Posture Recovery]]** → [[Positions/Standing Guard]] (Probability: 75%)
+- Execute **[[Immediate Lapel Strip/Attacker|Immediate Lapel Strip]]** → [[Positions/Combat Base]] (Probability: 85%)
+- Execute **[[Transitions/Posture Recovery/Attacker|Posture Recovery]]** → [[Positions/Standing Guard]] (Probability: 75%)
 
 
 **If bottom player has collar threaded through legs only without dangerous secondary grips:**
-- Execute **[[Transitions/Toreando Pass]]** → [[Positions/Side Control]] (Probability: 65%)
-- Execute **[[Transitions/Long Step Pass]]** → [[Positions/Side Control]] (Probability: 55%)
+- Execute **[[Transitions/Toreando Pass/Attacker|Toreando Pass]]** → [[Positions/Side Control]] (Probability: 65%)
+- Execute **[[Transitions/Long Step Pass/Attacker|Long Step Pass]]** → [[Positions/Side Control]] (Probability: 55%)
 
 
 **If bottom player is actively off-balancing with lapel grips and hook placement:**
-- Execute **[[Base Widening]]** → [[Positions/Combat Base]] (Probability: 75%)
-- Execute **[[Transitions/Pressure Pass]]** → [[Positions/Half Guard]] (Probability: 50%)
+- Execute **[[Base Widening/Attacker|Base Widening]]** → [[Positions/Combat Base]] (Probability: 75%)
+- Execute **[[Transitions/Pressure Pass/Attacker|Pressure Pass]]** → [[Positions/Half Guard]] (Probability: 50%)
 
 
 **If bottom player has weak or broken lapel configuration with compromised grips:**
-- Execute **[[Transitions/Knee Slice Pass]]** → [[Positions/Side Control]] (Probability: 70%)
-- Execute **[[Transitions/X Pass]]** → [[Positions/Side Control]] (Probability: 60%)
+- Execute **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** → [[Positions/Side Control]] (Probability: 70%)
+- Execute **[[Transitions/X Pass/Attacker|X Pass]]** → [[Positions/Side Control]] (Probability: 60%)
 
 
 **If bottom player attempts to invert or berimbolo with lapel control:**
-- Execute **[[Backstep to Leg Drag]]** → [[Positions/Side Control]] (Probability: 65%)
-- Execute **[[Transitions/Stack Pass]]** → [[Positions/Side Control]] (Probability: 55%)
+- Execute **[[Backstep to Leg Drag/Attacker|Backstep to Leg Drag]]** → [[Positions/Side Control]] (Probability: 65%)
+- Execute **[[Transitions/Stack Pass/Attacker|Stack Pass]]** → [[Positions/Side Control]] (Probability: 55%)
 
 
 

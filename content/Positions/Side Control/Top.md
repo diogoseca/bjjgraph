@@ -206,28 +206,28 @@ Side Control Top is one of the most fundamental and dominant positions in Brazil
 ## Decision Making from This Position
 
 **If opponent's near arm is extended or pushing against your neck or head:**
-- Execute **[[Transitions/Americana]]** → [[Positions/Game Over]] (Probability: 50%)
-- Execute **[[Transitions/Kimura]]** → [[Positions/Game Over]] (Probability: 45%)
+- Execute **[[Transitions/Americana/Attacker|Americana]]** → [[Positions/Game Over]] (Probability: 50%)
+- Execute **[[Transitions/Kimura/Attacker|Kimura]]** → [[Positions/Game Over]] (Probability: 45%)
 
 
 **If opponent creates space by bridging or frames with both arms:**
-- Execute **[[Transitions/Side Control to Mount]]** → [[Positions/Mount]] (Probability: 60%)
-- Execute **[[Positions/Knee on Belly]]** → [[Positions/Knee on Belly]] (Probability: 55%)
+- Execute **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** → [[Positions/Mount]] (Probability: 60%)
+- Execute **[[Positions/Knee on Belly/Attacker|Knee on Belly]]** → [[Positions/Knee on Belly]] (Probability: 55%)
 
 
 **If opponent turns into you attempting to recover guard:**
-- Execute **[[Transitions/Side Control to North-South]]** → [[Positions/North-South]] (Probability: 70%)
-- Execute **[[Transitions/Darce Choke]]** → [[Positions/Game Over]] (Probability: 35%)
+- Execute **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** → [[Positions/North-South]] (Probability: 70%)
+- Execute **[[Transitions/Darce Choke/Attacker|Darce Choke]]** → [[Positions/Game Over]] (Probability: 35%)
 
 
 **If opponent's far arm crosses their own neck while defending:**
-- Execute **[[Transitions/Arm Triangle]]** → [[Positions/Game Over]] (Probability: 55%)
-- Execute **[[Transitions/Breadcutter Choke]]** → [[Positions/Game Over]] (Probability: 40%)
+- Execute **[[Transitions/Arm Triangle/Attacker|Arm Triangle]]** → [[Positions/Game Over]] (Probability: 55%)
+- Execute **[[Transitions/Breadcutter Choke/Attacker|Breadcutter Choke]]** → [[Positions/Game Over]] (Probability: 40%)
 
 
 **If opponent attempts to insert knee for half guard recovery:**
-- Execute **[[Positions/Knee on Belly]]** → [[Positions/Knee on Belly]] (Probability: 65%)
-- Execute **[[Transitions/Side Control to Mount]]** → [[Positions/Mount]] (Probability: 50%)
+- Execute **[[Positions/Knee on Belly/Attacker|Knee on Belly]]** → [[Positions/Knee on Belly]] (Probability: 65%)
+- Execute **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** → [[Positions/Mount]] (Probability: 50%)
 
 
 
