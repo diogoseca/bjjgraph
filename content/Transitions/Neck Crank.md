@@ -13,6 +13,13 @@ description: "Learn Neck Crank from Twister Control in BJJ. Step-by-step executi
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Neck Crank/Attacker|Play as Attacker]]
+[[Neck Crank/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Neck Crank from Twister Control represents one of the most mechanically dangerous submissions in Brazilian Jiu-Jitsu, targeting the cervical spine through rotational and lateral pressure. Unlike blood chokes that create discomfort before danger, neck cranks can cause injury rapidly without adequate warning, making them highly effective in competition but requiring exceptional control in training.

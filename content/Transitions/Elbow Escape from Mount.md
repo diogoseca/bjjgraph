@@ -13,6 +13,13 @@ description: "Master the Elbow Escape from Mount in BJJ. Systematic hip escape t
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Elbow Escape from Mount/Attacker|Play as Attacker]]
+[[Elbow Escape from Mount/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Elbow Escape from Mount, also called the hip escape or shrimp escape, is the highest-percentage fundamental technique for recovering guard from bottom mount. Rather than attempting to explosively reverse the position like the upa (trap-and-roll), the elbow escape uses incremental hip movement, precise framing, and systematic space creation to insert the knee and recover to half guard. This escape embodies the core defensive principle that technique and timing overcome strength and gravity.

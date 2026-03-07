@@ -13,6 +13,13 @@ description: "Master the Williams Guard Sweep in BJJ. Complete guide to executin
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Williams Guard Sweep/Attacker|Play as Attacker]]
+[[Williams Guard Sweep/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Williams Guard Sweep exploits the mechanical dilemma inherent in the Williams Guard shoulder lock position. When the bottom player controls the opponent's arm in a figure-four shoulder lock configuration, the opponent's ability to post and maintain base is severely compromised on the controlled side. This sweep capitalizes on that structural weakness by combining butterfly hook elevation with forward shoulder lock pressure to topple the opponent directly into mount, converting guard control into the most dominant positional state in BJJ.

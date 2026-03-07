@@ -13,6 +13,13 @@ description: "Master the Body Lock Takedown in BJJ. Step-by-step guide to execut
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Body Lock Takedown/Attacker|Play as Attacker]]
+[[Body Lock Takedown/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Body Lock Takedown is a high-percentage standing technique that converts body lock control into a dominant ground position, typically side control. Originating from wrestling's clinch exchanges, this takedown has become a cornerstone of modern no-gi Brazilian Jiu-Jitsu, particularly for practitioners who prioritize positional control over explosive throws. The technique exploits the mechanical advantage of a fully locked grip around the opponent's torso to drive them to the mat while maintaining continuous pressure throughout the descent.

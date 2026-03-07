@@ -13,6 +13,13 @@ description: "Master Hip Rotation Defense from Straight Ankle Lock Control. Esse
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Hip Rotation Defense/Attacker|Play as Attacker]]
+[[Hip Rotation Defense/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Hip Rotation Defense is the foundational defensive mechanism for neutralizing straight ankle lock attacks. When caught in ankle lock control, the defender's hip mobility represents their primary defensive resource. By rotating the hip in the correct direction, the defender reduces the attacker's mechanical advantage while creating angles that facilitate foot extraction or guard recovery.

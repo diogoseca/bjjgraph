@@ -13,6 +13,13 @@ description: "Master the push sweep from feet on hips guard in BJJ. Complete gui
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Push Sweep from Feet on Hips/Attacker|Play as Attacker]]
+[[Push Sweep from Feet on Hips/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The push sweep from feet on hips guard converts the defensive leg frame into an offensive sweeping platform by timing bilateral leg extension against the opponent's forward weight commitment. This fundamental open guard technique teaches the critical principle that sweeps work best when they redirect existing momentum rather than generating force against a braced opponent. The bottom player waits for the top player to drive forward or lean in, then explosively extends both legs while simultaneously pulling with upper body grips to amplify the off-balancing effect.

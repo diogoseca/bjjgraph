@@ -13,6 +13,13 @@ description: "Master reguard from Double Jump in BJJ. Complete guide to recoveri
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Reguard from Double Jump/Attacker|Play as Attacker]]
+[[Reguard from Double Jump/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The reguard from Double Jump is a defensive recovery technique employed by the bottom player when offensive options from the Double Jump position have been neutralized or when strategic circumstances demand a positional reset to more sustainable guard play. This technique transitions the practitioner from the dynamic but energy-intensive Double Jump bottom position to the stable offensive platform of closed guard, sacrificing the explosive sweep potential of Double Jump for the systematic attack chains available from closed guard.

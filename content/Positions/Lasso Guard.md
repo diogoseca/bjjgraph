@@ -13,6 +13,13 @@ description: "Master Lasso Guard in BJJ. Complete guide covering setup mechanics
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Lasso Guard/Bottom|Play as Bottom]]
+[[Lasso Guard/Top|Play as Top]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 **Lasso Guard** is a sophisticated open guard variation that combines elements of spider guard control with a unique leg threading mechanism. The position is characterized by threading your shin across the opponent's trapped arm, creating a lasso-like control that severely restricts their mobility and posture. This guard offers exceptional control over one side of the opponent's body while maintaining the ability to attack with sweeps, submissions, and transitions.

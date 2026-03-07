@@ -13,6 +13,13 @@ description: "Master the bridge escape from mounted crucifix in BJJ. Learn explo
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Bridge Escape from Mounted Crucifix/Attacker|Play as Attacker]]
+[[Bridge Escape from Mounted Crucifix/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The bridge escape from mounted crucifix is among the most challenging defensive techniques in Brazilian Jiu-Jitsu, requiring precise timing, explosive hip mechanics, and strategic sequencing to escape one of the sport's most dominant control positions. The mounted crucifix neutralizes the bottom player's primary defensive tools by trapping one or both arms with the top player's legs, making traditional mount escapes impossible without first addressing the arm entanglement. This forces the bottom player to rely entirely on hip-based mechanics to create disruption and escape opportunities.

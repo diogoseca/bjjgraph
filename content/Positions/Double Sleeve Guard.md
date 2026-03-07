@@ -13,6 +13,13 @@ description: "Master Double Sleeve Guard in BJJ. Strategic guide covering grip c
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Double Sleeve Guard/Bottom|Play as Bottom]]
+[[Double Sleeve Guard/Top|Play as Top]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Double Sleeve Guard is a fundamental open guard position where the bottom practitioner controls both of the opponent's sleeves while maintaining distance with their feet on the hips or biceps. This position provides excellent control over the opponent's upper body, preventing them from establishing grips or initiating passing sequences while setting up numerous sweep and transition opportunities. The position is particularly effective in gi jiu-jitsu, where the sleeve grips create a strong connection that can be used to manipulate the opponent's posture and balance.

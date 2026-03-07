@@ -13,6 +13,13 @@ description: "Learn the Guillotine Choke finish in BJJ. Step-by-step mechanics f
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Guillotine Choke/Attacker|Play as Attacker]]
+[[Guillotine Choke/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Guillotine Choke is a high-percentage front headlock submission that attacks the trachea and carotid arteries through compression of the forearm against the front of the opponent's neck. This technique represents one of the most fundamental chokes in Brazilian Jiu-Jitsu, appearing across all grappling contexts from standing clinch exchanges to ground-based guard scenarios. The guillotine's effectiveness stems from its mechanical simplicity—once proper grip depth is achieved and the finishing angle established, the choke applies rapidly escalating pressure that forces either tap or unconsciousness within seconds.

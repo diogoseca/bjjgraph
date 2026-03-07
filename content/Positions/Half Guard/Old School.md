@@ -13,6 +13,13 @@ description: "Master Old School position in BJJ half guard. Strategic guide cove
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Old School/Bottom|Play as Bottom]]
+[[Old School/Top|Play as Top]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Old School position represents a critical battleground in modern half guard, where the lockdown creates a powerful control system that transforms half guard from defensive holding to offensive launching pad. This position gained prominence through the 10th Planet system, establishing lockdown-based attacks as legitimate alternatives to traditional half guard approaches. The position exists in constant tension between bottom's sweeping threats and top's passing pressure, creating a dynamic chess match of control and counter-control.

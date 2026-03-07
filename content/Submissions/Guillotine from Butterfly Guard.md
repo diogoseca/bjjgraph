@@ -15,6 +15,13 @@ description: "Master the guillotine choke from butterfly guard in BJJ. Complete 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Guillotine from Butterfly Guard/Attacker|Play as Attacker]]
+[[Guillotine from Butterfly Guard/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The guillotine choke from butterfly guard is one of the highest-percentage submissions available from the bottom position, combining the dynamic control of butterfly hooks with the devastating finishing power of the guillotine grip. This submission capitalizes on the opponent's forward pressure or head-down posture, which is a natural consequence of defending butterfly guard sweeps. When the top player drives forward to neutralize hooks or bases against sweep attempts, they expose their neck to the snap-down and guillotine entry that defines this attack.

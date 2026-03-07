@@ -13,6 +13,13 @@ description: "Master the Combat Base to Headquarters transition in BJJ. Systemat
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Combat Base to Headquarters/Attacker|Play as Attacker]]
+[[Combat Base to Headquarters/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Combat Base to Headquarters transition represents one of the most fundamental positional advancements in modern guard passing. This movement takes the top player from a general-purpose combat base stance—one knee posted, one foot planted inside the opponent's guard—into the more specific and dominant Headquarters Position, where one of the opponent's legs is pinned between the passer's legs with sustained downward knee pressure. This advancement narrows the bottom player's defensive options dramatically while opening multiple high-percentage passing pathways including knee cut, toreando, leg drag, and backstep variations.

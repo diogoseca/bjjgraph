@@ -13,6 +13,13 @@ description: "Master the Inside Sankaku Heel Hook in BJJ. Comprehensive guide to
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Inside Sankaku Heel Hook/Attacker|Play as Attacker]]
+[[Inside Sankaku Heel Hook/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Inside Sankaku Heel Hook is the primary finishing technique from the Inside Sankaku leg entanglement, widely regarded as one of the highest-percentage submissions in modern no-gi grappling. This transition represents the culmination of the leg lock attack sequence where established positional control converts into a match-ending submission. The attacker leverages the structural advantages of the Inside Sankaku figure-four configuration to isolate the opponent's heel and apply devastating rotational force to the knee joint through precise breaking mechanics.

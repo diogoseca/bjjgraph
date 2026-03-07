@@ -13,6 +13,13 @@ description: "Master the transition to feet on hips guard in BJJ. Learn setup me
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Open Guard to Feet on Hips Guard/Attacker|Play as Attacker]]
+[[Open Guard to Feet on Hips Guard/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The transition to feet on hips guard is one of the most fundamental guard establishment sequences in Brazilian Jiu-Jitsu, representing the bottom player's deliberate shift from a general open guard configuration into a structured distance management position. This movement requires the guard player to place both feet precisely on the opponent's hip bones while maintaining grip control and hip elevation, converting a potentially chaotic open guard exchange into a controlled engagement with defined pushing frames. The transition is both defensive and offensive in nature—it immediately stops forward passing pressure while simultaneously creating the platform for sweeps, submissions, and further guard transitions.

@@ -13,6 +13,13 @@ description: "Master hand fighting to escape back control and reach turtle posit
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Hand Fight to Turtle from Back/Attacker|Play as Attacker]]
+[[Hand Fight to Turtle from Back/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Hand Fight to Turtle from Back is a fundamental defensive transition used to escape the most dominant position in Brazilian Jiu-Jitsu. When an opponent has established back control with hooks and harness grip, the immediate priority is preventing the rear naked choke through chin protection and systematic grip fighting. Once neck defense is secured, the practitioner methodically strips the opponent's controlling grips using two-on-one hand fighting principles, then creates the hip movement necessary to rotate from back exposure into the turtle position.

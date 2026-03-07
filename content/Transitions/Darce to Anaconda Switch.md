@@ -13,6 +13,13 @@ description: "Master the Darce to Anaconda Switch in BJJ. Complete guide to grip
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Darce to Anaconda Switch/Attacker|Play as Attacker]]
+[[Darce to Anaconda Switch/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Darce to Anaconda Switch is an advanced grip reconfiguration technique that allows practitioners to transition between two closely related arm-in head-and-arm choke systems while maintaining continuous control from the front headlock position. When the Darce choke angle becomes compromised through the opponent's defensive arm positioning, chin tuck, or shoulder alignment, the switch to an Anaconda configuration offers a fresh submission pathway that exploits a different choking angle and arm-in structure. This technique is most commonly employed when the opponent has successfully denied the Darce finishing angle but remains vulnerable to the complementary Anaconda attack.

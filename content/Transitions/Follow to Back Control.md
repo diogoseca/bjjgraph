@@ -13,6 +13,13 @@ description: "Master Follow to Back Control from Ushiro Ashi-Garami. Learn timin
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Follow to Back Control/Attacker|Play as Attacker]]
+[[Follow to Back Control/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Follow to Back Control represents a critical transitional technique from the Ushiro Ashi-Garami position when an opponent commits fully to inverting and turning away from leg entanglement attacks. Rather than forcing low-percentage heel hook attempts on a rapidly rotating opponent, this technique capitalizes on their defensive momentum by abandoning the leg attack and securing the superior back control position.

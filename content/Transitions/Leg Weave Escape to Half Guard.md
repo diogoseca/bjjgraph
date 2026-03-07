@@ -13,6 +13,13 @@ description: "Master the leg weave escape to half guard in BJJ. Frame-based defe
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Leg Weave Escape to Half Guard/Attacker|Play as Attacker]]
+[[Leg Weave Escape to Half Guard/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Leg Weave Escape to Half Guard is a fundamental defensive recovery technique executed from the bottom of the leg weave position. When the top player has successfully threaded their leg through the bottom player's guard structure and established forward pressure, the bottom player must employ precise framing, timed hip escapes, and knee insertion to recover a viable half guard position. This escape represents the primary defensive pathway from one of the most pressure-heavy passing positions in modern BJJ.

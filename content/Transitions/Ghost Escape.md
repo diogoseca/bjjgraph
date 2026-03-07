@@ -13,6 +13,13 @@ description: "Master the Ghost Escape from side control in BJJ. Rotational escap
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Ghost Escape/Attacker|Play as Attacker]]
+[[Ghost Escape/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Ghost Escape is an advanced rotational escape from side control that uses circular body movement to transition to turtle position. Unlike traditional shrimping escapes that move linearly away from the opponent, the Ghost Escape rotates the entire body in a circular arc, creating angles that disrupt the top player's base and weight distribution in ways they cannot easily follow. The name refers to the bottom player seeming to vanish from underneath heavy top pressure through precise timing and coordinated hip-shoulder rotation.

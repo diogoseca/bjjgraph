@@ -13,6 +13,13 @@ description: "Learn the Defensive Roll escape from Twister Control. Step-by-step
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Defensive Roll/Attacker|Play as Attacker]]
+[[Defensive Roll/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Defensive Roll is a critical escape technique when caught in Twister Control, one of the most dangerous positions in no-gi grappling. This technique leverages the momentum of your opponent's rotational control against them, using a calculated rolling motion to reduce spinal torque and escape to a recoverable position. The key insight is that while Twister Control creates tremendous rotational pressure, this same rotation can be redirected through proper timing and body mechanics to facilitate escape.

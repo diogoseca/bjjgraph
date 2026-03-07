@@ -13,6 +13,13 @@ description: "Master the Escape Z-Lock Half Guard in BJJ. Learn systematic metho
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Escape Z-Lock Half Guard/Attacker|Play as Attacker]]
+[[Escape Z-Lock Half Guard/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Escape Z-Lock Half Guard is a positional recovery technique employed when the Z-Lock Half Guard configuration becomes compromised or unproductive against the top player's pressure and passing strategy. Rather than a dramatic escape, this transition represents a controlled reconfiguration where the bottom player systematically disengages the butterfly hook and lockdown components of the Z-Lock to return to standard Half Guard. The technique is most commonly used when the top player has effectively neutralized the dual-threat system through heavy crossface pressure, systematic dismantling of the leg configuration, or when the energy cost of maintaining Z-Lock outweighs its diminishing offensive returns.

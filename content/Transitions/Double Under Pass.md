@@ -13,6 +13,13 @@ description: "Master the Double Under Pass in BJJ. Pressure-based guard pass usi
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Double Under Pass/Attacker|Play as Attacker]]
+[[Double Under Pass/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Double Under Pass is a fundamental pressure-based guard passing technique that relies on establishing bilateral underhooks beneath the opponent's legs. This pass is characterized by its heavy control orientation, making it extremely difficult for the opponent to retain guard once proper positioning is achieved. The technique involves methodically breaking down the opponent's defensive frames, consolidating position with chest-to-chest pressure, and using controlled lateral movement to clear the legs and establish side control.

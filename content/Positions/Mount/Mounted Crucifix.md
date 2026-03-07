@@ -13,6 +13,13 @@ description: "Master the mounted crucifix in BJJ. Complete guide covering arm is
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Mounted Crucifix/Bottom|Play as Bottom]]
+[[Mounted Crucifix/Top|Play as Top]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Mounted Crucifix represents one of Brazilian Jiu-Jitsu's most dominant control positions, seamlessly blending the positional advantages of mount with the arm-trapping mechanics of the traditional crucifix. This hybrid position creates an exceptionally powerful platform for attacks while severely limiting the opponent's defensive capabilities.

@@ -13,6 +13,13 @@ description: "Master the Lapel Sweep to Back in BJJ. Step-by-step execution from
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Lapel Sweep to Back/Attacker|Play as Attacker]]
+[[Lapel Sweep to Back/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Lapel Sweep to Back represents one of the highest-percentage attacks available from lapel guard systems, combining sweep mechanics with immediate back exposure. This technique capitalizes on the opponent's natural defensive reactions when threatened with lapel guard sweeps, using their weight distribution adjustments to create pathways directly to the back. The fundamental concept involves creating a sweep threat that forces the opponent to post or base, then following their defensive rotation to establish back control rather than settling for the sweep position.

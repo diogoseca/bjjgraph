@@ -13,6 +13,13 @@ description: "Learn Shin-to-Shin entry from Headquarters Position in BJJ. Step-b
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Shin-to-Shin from Headquarters/Attacker|Play as Attacker]]
+[[Shin-to-Shin from Headquarters/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Shin-to-Shin from Headquarters is a critical guard recovery and counter-attack transition executed by the bottom player when trapped in the headquarters passing position. The top player in headquarters controls one leg while maintaining an elevated, stable base designed to funnel into systematic passing sequences. The bottom player's objective is to disrupt this system by inserting their free shin across the top player's lead shin, creating a perpendicular connection that immediately compromises their triangulated base and arrests passing momentum.

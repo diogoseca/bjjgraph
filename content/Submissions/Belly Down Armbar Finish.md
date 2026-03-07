@@ -15,6 +15,13 @@ description: "Master the belly down armbar finish in BJJ. Learn prone armbar mec
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Belly Down Armbar Finish/Attacker|Play as Attacker]]
+[[Belly Down Armbar Finish/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Belly Down Armbar Finish is a high-percentage submission variation where the attacker rotates from a standard supine armbar position to a prone face-down orientation while maintaining control of the opponent's isolated arm. This transition eliminates the opponent's primary escape mechanisms including stacking, hitchhiker rotation, and bridge-based defenses by removing the space those escapes require. The prone position creates a vice-like grip between the attacker's thighs and allows gravity to assist the finishing pressure rather than fight against it.

@@ -13,6 +13,13 @@ description: "Escape back control using the hip scoot to recover half guard in B
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Scoot Hips to Guard from Back/Attacker|Play as Attacker]]
+[[Scoot Hips to Guard from Back/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Scoot Hips to Guard from Back is a fundamental back escape technique where the bottom player systematically slides their hips downward, below the opponent's hook line, to create the space necessary for turning and recovering guard. This escape operates on the principle that back control depends on the opponent's hooks controlling your hip movement, and by lowering your hips below their hooks through controlled scooting, you remove their primary control mechanism. The technique is particularly effective when the opponent has standard hooks rather than a body triangle, and works best when combined with solid hand fighting to neutralize the choking threat.

@@ -13,6 +13,13 @@ description: "Master Vaporizer sweep defense in BJJ. Learn to counter lockdown w
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Defend Vaporizer Sweep/Attacker|Play as Attacker]]
+[[Defend Vaporizer Sweep/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Defending the Vaporizer sweep is a critical survival skill for practitioners caught in the 10th Planet lockdown system. When the bottom player establishes the Vaporizer position with a deep lockdown and aggressive whip-up motion, the top player faces immediate sweep threats including the Old School sweep, rolling back takes, and transitions to the Electric Chair or Truck. This defensive transition focuses on neutralizing sweep mechanics while systematically working to extract from the lockdown and return to a standard half guard passing position.

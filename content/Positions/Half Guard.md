@@ -13,6 +13,13 @@ description: "Master Half Guard in BJJ with comprehensive bottom and top strateg
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Half Guard/Bottom|Play as Bottom]]
+[[Half Guard/Top|Play as Top]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Half Guard represents one of the most strategically complex positions in Brazilian Jiu-Jitsu, existing at the critical intersection between guard retention and being passed. This position is characterized by one player trapping a single leg of their opponent between their own legs, creating an asymmetric control structure that offers unique offensive and defensive possibilities for both practitioners. Unlike symmetric guard positions where both legs are either inside or outside the opponent's legs, Half Guard's one-leg-in, one-leg-out configuration creates distinct mechanical advantages and vulnerabilities that require specialized technical knowledge.

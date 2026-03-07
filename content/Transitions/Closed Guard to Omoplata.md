@@ -13,6 +13,13 @@ description: "Learn Closed Guard to Omoplata in BJJ. Step-by-step shoulder lock 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Closed Guard to Omoplata/Attacker|Play as Attacker]]
+[[Closed Guard to Omoplata/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The transition to omoplata is a fundamental shoulder lock entry that exploits the opponent's defensive posture and arm positioning from guard. This technique combines elements of sweeping mechanics with submission attacks, creating a powerful dual threat that forces opponents into defensive dilemmas. The omoplata transition is particularly effective when opponents defend against triangle or armbar attempts, as their arm positioning naturally sets up the shoulder lock entry. The beauty of this transition lies in its versatility - it can be executed from closed guard, spider guard, rubber guard, and various open guard configurations, making it an essential component of any guard player's arsenal. The technique relies on controlling the opponent's arm at the shoulder and using leg positioning to create rotational pressure on the shoulder joint while simultaneously off-balancing them for potential sweeps.

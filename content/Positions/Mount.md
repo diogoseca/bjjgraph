@@ -13,6 +13,13 @@ description: "Master the Mount position in BJJ. Complete guide to control, submi
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Mount/Bottom|Play as Bottom]]
+[[Mount/Top|Play as Top]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Mount position represents the pinnacle of positional dominance in Brazilian Jiu-Jitsu, awarded 4 points under IBJJF rules and universally recognized as one of the most decisive positions in grappling. From this elevated position, the top practitioner sits astride the opponent's torso with knees on either side, generating overwhelming control through gravity, hip pressure, and freedom of upper-body movement. The Mount has been refined across decades of competition at the highest levels, evolving from a simple pinning position into a sophisticated attacking platform with multiple variations, each serving distinct tactical purposes.

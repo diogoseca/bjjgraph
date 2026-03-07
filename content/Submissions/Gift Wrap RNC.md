@@ -15,6 +15,13 @@ description: "Master the Gift Wrap RNC in BJJ. Complete guide to finishing the r
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Gift Wrap RNC/Attacker|Play as Attacker]]
+[[Gift Wrap RNC/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Gift Wrap RNC represents one of the highest-percentage choke finishes in Brazilian Jiu-Jitsu, combining the devastating arm-trapping control of the Gift Wrap position with the mechanical efficiency of the rear naked choke. By securing one of the defender's arms across their own body before attacking the neck, the attacker eliminates approximately half of the defender's hand-fighting capability, transforming a normally contested submission into a heavily attacker-favored exchange.

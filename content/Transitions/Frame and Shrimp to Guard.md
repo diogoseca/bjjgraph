@@ -13,6 +13,13 @@ description: "Master Frame and Shrimp to Guard escape from Leg Drag Control in B
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Frame and Shrimp to Guard/Attacker|Play as Attacker]]
+[[Frame and Shrimp to Guard/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Frame and Shrimp to Guard is a fundamental defensive escape from the leg drag control position, utilizing the core hip escape movement combined with strategic framing to create space and recover an open guard position. This technique represents the essential building block of guard recovery from compromised bottom positions and serves as the foundation upon which more advanced escapes are built.

@@ -13,6 +13,13 @@ description: "Master the Guard Pull transition in BJJ. Complete guide from stand
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Guard Pull/Attacker|Play as Attacker]]
+[[Guard Pull/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Guard Pull is a fundamental BJJ transition that allows practitioners to move from standing position directly into their guard game, bypassing the takedown exchange entirely. This technique is particularly valuable in sport BJJ contexts where bottom guard position offers numerous attacking opportunities and where takedown exchanges may not align with a practitioner's strengths. The guard pull requires precise grip establishment, proper body positioning, and excellent timing to execute safely and effectively. When performed correctly, it allows the practitioner to immediately begin implementing their guard strategy while controlling distance and grips.

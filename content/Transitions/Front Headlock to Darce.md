@@ -13,6 +13,13 @@ description: "Learn Front Headlock to Darce transition in BJJ. Step-by-step exec
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Front Headlock to Darce/Attacker|Play as Attacker]]
+[[Front Headlock to Darce/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Front Headlock to Darce transition represents one of the most powerful finishing sequences from the front headlock position. This technique capitalizes on the opponent's defensive posture in turtle or scramble situations, where they attempt to protect their neck while maintaining a low base. The transition exploits the natural tendency of opponents to circle away from the choking arm, creating the perfect angle for the Darce configuration.

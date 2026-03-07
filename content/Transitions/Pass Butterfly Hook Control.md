@@ -13,6 +13,13 @@ description: "Master passing butterfly hook control in BJJ. Step-by-step guide c
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Pass Butterfly Hook Control/Attacker|Play as Attacker]]
+[[Pass Butterfly Hook Control/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Passing butterfly hook control is one of the fundamental guard passing challenges in Brazilian Jiu-Jitsu. The butterfly guard player uses active hooks inside the passer's thighs to create constant elevation threats and sweeping pressure, making direct forward advancement dangerous. The systematic approach to passing this guard involves establishing superior upper body control, methodically neutralizing one hook at a time, and completing the pass to side control through pressure and angle management.

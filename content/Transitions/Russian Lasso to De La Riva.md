@@ -13,6 +13,13 @@ description: "Master the Russian Lasso to De La Riva Guard transition in BJJ. Co
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Russian Lasso to De La Riva/Attacker|Play as Attacker]]
+[[Russian Lasso to De La Riva/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Russian Lasso to De La Riva transition is a critical guard switching mechanism that allows the bottom player to fluidly move between two of modern BJJ's most sophisticated open guard systems. This transition becomes essential when the Russian Leg Lasso's effectiveness diminishes due to the opponent beginning to systematically dismantle the lasso configuration, or when the opponent's stance and weight distribution make De La Riva attacks more viable than lasso-based offense. The core challenge lies in the momentary vulnerability created during the leg repositioning phase, where the lasso leg must be extracted from its threading through the opponent's arm and redirected as a De La Riva hook behind their lead knee.

@@ -13,6 +13,13 @@ description: "Master the Consolidation to Mount transition in BJJ. Complete guid
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Consolidation to Mount/Attacker|Play as Attacker]]
+[[Consolidation to Mount/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Consolidation to Mount transition represents the single highest-value positional advancement in Brazilian Jiu-Jitsu, moving from a 3-point side control to a 4-point mount and dramatically escalating submission threat density. This transition is the natural culmination of the side control consolidation process, executed once the top player has systematically eliminated defensive frames, established heavy crossface pressure, and suppressed the bottom player's hip mobility. The primary methods are the knee slide, where the near-side knee cuts across the opponent's hip line, and the leg swing, where the far leg steps over the opponent's body.

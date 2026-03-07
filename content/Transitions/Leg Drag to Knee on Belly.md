@@ -13,6 +13,13 @@ description: "Master Leg Drag to Knee on Belly transition in BJJ. Execute from L
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Leg Drag to Knee on Belly/Attacker|Play as Attacker]]
+[[Leg Drag to Knee on Belly/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Leg Drag to Knee on Belly transition represents a high-percentage pathway from one of the most dominant passing positions directly into a scoring and attacking position. Rather than settling into side control after completing the leg drag, this transition capitalizes on the opponent's compromised hip position to immediately establish knee on belly pressure. The timing is critical—you must move before the opponent can establish frames or recover their guard structure.

@@ -13,6 +13,13 @@ description: "Master the Anaconda Setup from front headlock. Learn arm threading
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Anaconda Setup/Attacker|Play as Attacker]]
+[[Anaconda Setup/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Anaconda Setup is a fundamental front headlock attack that capitalizes on an opponent's defensive turtle position. This technique involves securing a specific arm-in configuration where you thread your arm under the opponent's neck and trap their near-side arm, creating the distinctive anaconda grip position. The setup is particularly effective in no-gi grappling but translates well to gi competition with proper adaptations.

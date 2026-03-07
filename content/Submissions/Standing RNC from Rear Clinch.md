@@ -15,6 +15,13 @@ description: "Master the Standing RNC from Rear Clinch in BJJ. Expert guide to f
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Standing RNC from Rear Clinch/Attacker|Play as Attacker]]
+[[Standing RNC from Rear Clinch/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Standing Rear Naked Choke from Rear Clinch is a high-risk, high-reward submission that applies the classic RNC finishing mechanics while both practitioners remain on their feet. Unlike the ground-based RNC where hooks and body triangle provide stability, the standing variant requires the attacker to simultaneously manage their own balance, maintain chest-to-back pressure, and execute the precise arm positioning needed to compress the carotid arteries. This submission typically arises when an attacker with established rear clinch control recognizes an opening in the opponent's neck defense and commits to the finish rather than pursuing a takedown.

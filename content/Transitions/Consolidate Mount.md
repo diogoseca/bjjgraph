@@ -13,6 +13,13 @@ description: "Master mount consolidation in BJJ. Learn to secure dominant positi
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Consolidate Mount/Attacker|Play as Attacker]]
+[[Consolidate Mount/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Consolidate Mount is the critical transition between achieving mount position and establishing dominant control. Too many practitioners rush to attack immediately after achieving mount, only to have their opponent escape during the chaotic moments of position change. This technique emphasizes the fundamental principle that position must be secured before submission hunting begins. The consolidation process involves controlling hip movement, eliminating frames, and advancing to higher mount variations.

@@ -13,6 +13,13 @@ description: "Master the smash pass from butterfly half guard. Learn to kill the
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Smash from Butterfly Half/Attacker|Play as Attacker]]
+[[Smash from Butterfly Half/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Smash from Butterfly Half is a direct pressure-based passing technique executed from butterfly half guard top, designed to systematically neutralize the bottom player's butterfly hook through crushing weight distribution and controlled hip positioning before completing the pass to side control. Unlike speed-based or backstep passing approaches that attempt to circumvent the butterfly hook, this technique attacks the hook's mechanical foundation directly by eliminating the space underneath the top player's body that allows the hook to generate elevation and sweeping force. The smash approach converts a complex guard problem into a manageable half guard extraction sequence by first removing the butterfly hook threat entirely.

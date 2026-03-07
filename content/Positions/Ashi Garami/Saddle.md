@@ -13,6 +13,13 @@ description: "Master saddle position mechanics with systematic entries, control 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Saddle/Bottom|Play as Bottom]]
+[[Saddle/Top|Play as Top]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Saddle position, also known as the Honey Hole in some schools, represents one of the most dominant and dangerous leg entanglement positions in modern Brazilian Jiu-Jitsu. This configuration involves controlling your opponent's leg while sitting perpendicular to their body, with your legs forming a figure-four or similar entanglement around their targeted leg. The position offers unparalleled control over the hip, knee, and ankle joints simultaneously, creating multiple submission pathways primarily focused on heel hooks but also including straight ankle locks, toe holds, and kneebars.

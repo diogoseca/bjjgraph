@@ -13,6 +13,13 @@ description: "Learn Frame and Extract to Half Guard escape from Inside Sankaku i
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Frame and Extract to Half Guard/Attacker|Play as Attacker]]
+[[Frame and Extract to Half Guard/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Frame and Extract to Half Guard is a critical defensive transition used to escape the dangerous Inside Sankaku (Honey Hole) position. When trapped with your leg in the opponent's figure-four configuration, this technique employs systematic framing and hip movement to create the distance necessary for leg extraction while protecting against the inside heel hook threat. The escape prioritizes heel protection throughout the movement, using structural frames against the opponent's hips and legs to generate separation rather than relying on explosive power that could result in knee injury.

@@ -13,6 +13,13 @@ description: "Master passing Z-Lock Half Guard in BJJ. Systematic approach to ne
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Pass Z-Lock/Attacker|Play as Attacker]]
+[[Pass Z-Lock/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Pass Z-Lock is a systematic guard passing sequence designed to defeat the Z-Lock Half Guard configuration, an advanced lockdown variation that combines traditional lockdown mechanics with a butterfly hook element forming a characteristic Z-shape with the legs. The Z-Lock creates dual-threat defense by simultaneously controlling the trapped leg through lockdown tension and managing distance through the butterfly hook, making it one of the more difficult half guard variations to pass cleanly. The pass requires methodical upper body control establishment followed by systematic dismantling of the leg configuration before completing the advance to side control.

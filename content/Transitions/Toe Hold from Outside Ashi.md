@@ -13,6 +13,13 @@ description: "Master the toe hold from outside ashi-garami. Complete guide cover
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Toe Hold from Outside Ashi/Attacker|Play as Attacker]]
+[[Toe Hold from Outside Ashi/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The toe hold from outside ashi-garami is a rotational foot lock that targets the ankle and knee joints by twisting the opponent's foot using a kimura-style figure-four grip. This technique serves as a critical secondary attack from outside ashi-garami, particularly effective when the opponent successfully hides their heel to defend against outside heel hooks. The mechanics involve threading your arm under the opponent's foot and establishing a figure-four grip with the blade of your wrist positioned against the ball of their foot, then applying controlled rotational force toward the opponent's opposite hip.

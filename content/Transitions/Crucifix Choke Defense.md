@@ -13,6 +13,13 @@ description: "Defend chokes from crucifix bottom in BJJ. Complete guide to grip 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Crucifix Choke Defense/Attacker|Play as Attacker]]
+[[Crucifix Choke Defense/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Crucifix Choke Defense represents the critical survival skill set required when an opponent threatens choke submissions from the crucifix position. When trapped in crucifix with both arms compromised, the neck becomes the primary target, and systematic choke defense becomes the immediate priority over any escape attempt. This transition encompasses the grip fighting, structural defense, and positional adjustments needed to neutralize choking threats and create windows for position recovery.

@@ -13,6 +13,13 @@ description: "Master the Rolling Kimura in BJJ. Dynamic technique from turtle to
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Rolling Kimura/Attacker|Play as Attacker]]
+[[Rolling Kimura/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Rolling Kimura is a dynamic technique that combines sweeping mechanics with submission threats from the turtle top position. This versatile technique capitalizes on the kimura grip to create a rolling motion that either sweeps the opponent to expose their back or establishes the kimura trap control position for direct submission. The dual-threat nature forces the opponent to defend both positional advancement and submission simultaneously, creating a powerful dilemma that is difficult to counter effectively.

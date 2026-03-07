@@ -13,6 +13,13 @@ description: "Master twister side control in BJJ. Complete strategic guide cover
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Twister Side Control/Bottom|Play as Bottom]]
+[[Twister Side Control/Top|Play as Top]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Twister Side Control represents a unique positional variant within the 10th Planet system, distinguished by its emphasis on lateral spinal torque and submission-oriented control. Unlike traditional side control positions that prioritize chest-to-chest pressure and immobilization, Twister Side Control leverages leg entanglement and rotational mechanics to create devastating submission threats.

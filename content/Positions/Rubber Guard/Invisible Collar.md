@@ -13,6 +13,13 @@ description: "Master Invisible Collar position in BJJ. Advanced back control set
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Invisible Collar/Bottom|Play as Bottom]]
+[[Invisible Collar/Top|Play as Top]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Invisible Collar represents a sophisticated approach to back control where grip concealment creates submission opportunities while appearing defensive. This position emerged from high-level competition as practitioners developed methods to disguise choking setups within seemingly passive control positions. The invisible collar uses strategic gi material placement to create immediate finishing pressure that opponents often fail to recognize until the technique is already locked in.

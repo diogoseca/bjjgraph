@@ -13,6 +13,13 @@ description: "Master Crackhead Control in BJJ. Complete guide to 10th Planet's i
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Crackhead Control/Bottom|Play as Bottom]]
+[[Crackhead Control/Top|Play as Top]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Crackhead Control is an innovative turtle position system developed within the 10th Planet Jiu-Jitsu methodology, characterized by unconventional positioning and dynamic movement patterns that challenge traditional turtle defense and attack paradigms. This position exists in two distinct perspectives: the bottom defensive position emphasizing constant movement and grip fighting to prevent back takes, and the top attacking position utilizing chair-sit mechanics to isolate the opponent's hips while threatening multiple submission and positional advancement pathways.

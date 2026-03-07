@@ -13,6 +13,13 @@ description: "Master the Reverse X-Guard to Standard X-Guard transition in BJJ. 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Reverse X-Guard to Standard X-Guard/Attacker|Play as Attacker]]
+[[Reverse X-Guard to Standard X-Guard/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Reverse X-Guard to Standard X-Guard transition is a fundamental guard reconfiguration that repositions your hooks from an inverted same-side configuration to the traditional opposite-side X-Guard structure. This transition allows you to access different sweep angles and attack vectors while maintaining continuous leg entanglement control over your opponent.

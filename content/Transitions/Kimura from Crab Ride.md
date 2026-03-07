@@ -13,6 +13,13 @@ description: "Master the Kimura from Crab Ride in BJJ. Complete guide to isolati
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Kimura from Crab Ride/Attacker|Play as Attacker]]
+[[Kimura from Crab Ride/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Kimura from Crab Ride exploits one of the most common defensive reactions in turtle: posting the far arm. When an opponent extends or posts their arm to maintain base against crab ride pressure, they create the opening for a figure-four grip attack on the shoulder. This transition represents a powerful secondary threat from an already dominant position, punishing opponents who refuse to concede the back take by offering their arm instead.

@@ -13,6 +13,13 @@ description: "Master New York Control Escape in BJJ. Systematic overhook extract
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[New York Control Escape/Attacker|Play as Attacker]]
+[[New York Control Escape/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The New York Control Escape is a systematic defensive technique executed by the top player trapped in the 10th Planet rubber guard New York Control position. This escape addresses one of the most challenging defensive scenarios in modern no-gi grappling, where the bottom player's combination of a leg wrapped over the shoulder and a deep overhook creates a controlling web that nullifies standard passing mechanics while threatening gogoplata, triangle, and omoplata submissions simultaneously.

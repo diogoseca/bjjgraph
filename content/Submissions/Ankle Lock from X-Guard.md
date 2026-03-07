@@ -15,6 +15,13 @@ description: "Master the ankle lock from X-Guard in BJJ. Complete guide to setup
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Ankle Lock from X-Guard/Attacker|Play as Attacker]]
+[[Ankle Lock from X-Guard/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The ankle lock from X-Guard is a high-percentage submission that capitalizes on the natural leg control inherent in the X-Guard position. When the bottom player has established X-Guard with hooks behind the opponent's knee and on the far hip, the opponent's ankle becomes directly accessible for attack. The transition from guard control to submission grip requires precise timing, with the optimal window occurring when the opponent's weight shifts forward or laterally during base adjustments or sweep defense.

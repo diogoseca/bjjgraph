@@ -13,6 +13,13 @@ description: "Learn Guillotine Setup in BJJ. Step-by-step execution from Front H
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Guillotine Setup/Attacker|Play as Attacker]]
+[[Guillotine Setup/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Guillotine Setup represents one of the most fundamental and highest-percentage submission entries in Brazilian Jiu-Jitsu, serving as a critical bridge between controlling the opponent's head and securing a fight-finishing choke. This transition capitalizes on the dominant front headlock position, where the practitioner has already secured head control and posture dominance, and systematically converts this control into a guillotine choke configuration. The setup is characterized by precise arm placement around the opponent's neck, proper hand positioning for maximum leverage, and strategic body alignment that maximizes choking pressure while minimizing escape opportunities.

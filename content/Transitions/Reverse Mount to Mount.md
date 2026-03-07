@@ -13,6 +13,13 @@ description: "Master the Reverse Mount to Mount transition in BJJ. Complete guid
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Reverse Mount to Mount/Attacker|Play as Attacker]]
+[[Reverse Mount to Mount/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Reverse Mount to Mount transition is the fundamental positional conversion that transforms an unstable backward-facing mount into the highest-percentage controlling position in Brazilian Jiu-Jitsu. Rather than attempting submissions from the inherently transient reverse mount, this rotation prioritizes establishing standard mount where the full arsenal of chokes, armbars, and americanas becomes available with superior stability and visual awareness of the opponent's defensive reactions.

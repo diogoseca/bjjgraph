@@ -13,6 +13,13 @@ description: "Master the Squid Guard Sweep in BJJ. Complete guide to lapel-based
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Squid Guard Sweep/Attacker|Play as Attacker]]
+[[Squid Guard Sweep/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Squid Guard Sweep is an advanced technique that leverages the unique asymmetrical control of the Squid Guard position to off-balance and sweep the top player into mount. The sweep combines the mechanical advantage of the lapel wrap around the opponent's leg with the threading hook behind their knee, creating a compound off-balancing force that simultaneously attacks the opponent's lateral and posterior base. Standard posting reactions become insufficient because the lapel restriction limits the top player's ability to widen their base or step back, while the hook elevation removes their ability to drive forward.

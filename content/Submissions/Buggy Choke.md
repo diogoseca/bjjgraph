@@ -15,6 +15,13 @@ description: "Master the Buggy Choke in BJJ. Powerful half guard compression cho
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Buggy Choke/Attacker|Play as Attacker]]
+[[Buggy Choke/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Buggy Choke is a devastating compression choke originating from half guard bottom positions, particularly effective when the opponent attempts to flatten you out or consolidate side control. This submission creates a unique angle of attack by combining upper body pressure with leg positioning to trap the opponent's head and arm, cutting off blood flow to the carotid arteries. The technique gained prominence in modern BJJ as a highly effective counter-attack from defensive positions, allowing smaller practitioners to finish larger opponents through precise mechanics rather than brute strength. What makes the Buggy Choke particularly dangerous is its deceptive setup—opponents often don't recognize the threat until the choke is deeply locked, making escape extremely difficult. The submission can be finished from various half guard configurations and transitions seamlessly into other attacks when defended properly.

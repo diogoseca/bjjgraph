@@ -15,6 +15,13 @@ description: "Master the Armbar from Side Control in BJJ. Complete guide coverin
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Armbar from Side Control/Attacker|Play as Attacker]]
+[[Armbar from Side Control/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Armbar from Side Control is a fundamental finishing technique that targets the elbow joint through hyperextension. This submission capitalizes on the top player's dominant position and the control established in side control, making it one of the most reliable joint locks in Brazilian Jiu-Jitsu. The technique works by isolating the opponent's arm, typically the near arm, and creating a fulcrum across your hips while extending their elbow beyond its natural range of motion.

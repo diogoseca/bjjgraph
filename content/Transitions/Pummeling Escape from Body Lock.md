@@ -13,6 +13,13 @@ description: "Master the pummeling escape from body lock in BJJ. Complete guide 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Pummeling Escape from Body Lock/Attacker|Play as Attacker]]
+[[Pummeling Escape from Body Lock/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The pummeling escape from body lock is a wrestling-based technique for breaking free from one of the most dominant standing control positions in grappling. When trapped in a body lock, the bottom player uses systematic underhook fighting to wedge their arms inside the opponent's grip, progressively working to establish inside position that structurally breaks the lock and creates space to disengage. This approach addresses the root cause of the body lock's effectiveness: the closed kinetic chain created by locked arms and chest-to-back connection.

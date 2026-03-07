@@ -13,6 +13,13 @@ description: "Master Kimura Trap position in BJJ. Complete guide covering bottom
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Kimura Trap/Bottom|Play as Bottom]]
+[[Kimura Trap/Top|Play as Top]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Kimura Trap is a revolutionary position system in Brazilian Jiu-Jitsu that fundamentally challenges traditional notions of top and bottom control. At its core, the Kimura Trap uses a figure-four Kimura grip to create a control mechanism that transcends positional hierarchy—the practitioner with the Kimura grip controls their opponent's shoulder girdle and arm structure regardless of whether they are on top or bottom. This position represents a paradigm shift from purely positional thinking to grip-based control systems.

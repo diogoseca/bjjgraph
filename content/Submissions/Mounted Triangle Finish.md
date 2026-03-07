@@ -15,6 +15,13 @@ description: "Master the Mounted Triangle Finish in BJJ. Complete guide to finis
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Mounted Triangle Finish/Attacker|Play as Attacker]]
+[[Mounted Triangle Finish/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Mounted Triangle Finish is one of the highest-percentage submissions in Brazilian Jiu-Jitsu, combining the positional dominance of mount with the devastating choking mechanics of the triangle. Unlike the traditional triangle from guard, the mounted variation leverages gravity and superior positioning to dramatically increase finishing probability while maintaining top control throughout the sequence. The finish represents the terminal phase of a systematic attacking chain that begins with mount establishment and progresses through high mount or S mount into the triangle configuration.

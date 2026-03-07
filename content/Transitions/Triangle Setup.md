@@ -13,6 +13,13 @@ description: "Master Triangle Setup from guard in BJJ. Complete guide covering a
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Triangle Setup/Attacker|Play as Attacker]]
+[[Triangle Setup/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Triangle Setup is a fundamental attacking sequence from closed guard that establishes the control position necessary for finishing the triangle choke. This technique exploits the opponent's defensive posture and arm positioning to create the angle and leg configuration required for effective triangle control. The setup phase is arguably more critical than the finish itself, as poor initial positioning makes the submission nearly impossible to complete regardless of technical knowledge.

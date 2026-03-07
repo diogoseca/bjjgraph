@@ -15,6 +15,13 @@ description: "Master the Kimura from Side Control in BJJ. Comprehensive guide co
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Kimura from Side Control/Attacker|Play as Attacker]]
+[[Kimura from Side Control/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Kimura from Side Control is one of the most fundamental and high-percentage shoulder locks in Brazilian Jiu-Jitsu, offering exceptional control and finishing potential from a dominant top position. This submission targets the shoulder joint through figure-four grip mechanics, creating rotational and elevational stress that forces the tap. From side control, the attacker has superior positioning, weight distribution, and multiple angles to establish the lock while the opponent's mobility is severely restricted. The technique's versatility allows for seamless transitions to other submissions, back takes, or positional advancements if the opponent defends. The Kimura grip itself becomes a powerful control mechanism, enabling the top player to manipulate the opponent's posture, break their defensive frames, and create submission opportunities even when the finish isn't immediately available. This makes it an essential tool for maintaining offensive pressure from side control while constantly threatening the finish.

@@ -13,6 +13,13 @@ description: "Master the Collar Drag in BJJ. Essential standing technique for cr
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Collar Drag/Attacker|Play as Attacker]]
+[[Collar Drag/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Collar Drag is a fundamental standing technique that creates dominant angles by pulling the opponent's collar or neck across their body while simultaneously controlling their opposite arm. This creates a powerful torque that disrupts their structure and opens pathways to back control, single leg attacks, or forced guard pulls. The technique relies on precise timing, proper grip placement, and explosive hip movement to generate the necessary pulling force. When executed correctly, the Collar Drag compromises the opponent's base and posture simultaneously, making it extremely difficult to defend.

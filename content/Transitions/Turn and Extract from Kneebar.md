@@ -13,6 +13,13 @@ description: "Learn the turn and extract escape from kneebar control in BJJ. Com
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Turn and Extract from Kneebar/Attacker|Play as Attacker]]
+[[Turn and Extract from Kneebar/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The turn and extract from kneebar is a fundamental defensive escape used when an opponent has established kneebar control from bottom position. The technique centers on rotating the body toward the attacker's hips to reduce the hyperextension angle on the knee joint, then systematically extracting the trapped leg from the entanglement. This escape addresses one of the most common leg lock control positions in modern grappling and represents a critical skill for any practitioner training in leg lock defense systems.

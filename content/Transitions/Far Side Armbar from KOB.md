@@ -13,6 +13,13 @@ description: "Master the far side armbar from knee on belly in BJJ. Complete gui
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Far Side Armbar from KOB/Attacker|Play as Attacker]]
+[[Far Side Armbar from KOB/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The far side armbar from knee on belly is a high-percentage submission setup that exploits the natural defensive reactions of the bottom player under intense diaphragm pressure. When the top player establishes knee on belly, the bottom player instinctively pushes against the knee or reaches across their body to alleviate the crushing weight — both reactions expose the far arm to isolation and attack. This technique capitalizes on that defensive vulnerability by reaching across to control the far wrist, then swinging the leg over the opponent's head to transition into armbar control.

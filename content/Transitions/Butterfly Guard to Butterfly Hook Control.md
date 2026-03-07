@@ -13,6 +13,13 @@ description: "Master the transition to Butterfly Hook Control in BJJ. Learn to c
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Butterfly Guard to Butterfly Hook Control/Attacker|Play as Attacker]]
+[[Butterfly Guard to Butterfly Hook Control/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Transition to Butterfly Hook Control is the fundamental consolidation movement where the bottom player converts a general butterfly guard configuration into a locked, offensive butterfly hook control position with deep hooks, upright posture, and dominant upper body grips. While butterfly guard provides a general framework with hooks inserted, butterfly hook control represents the refined, combat-ready state where every element is optimized for sweeping power and transition capability.

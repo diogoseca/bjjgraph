@@ -13,6 +13,13 @@ description: "Master the Roll from Rodeo Ride escape in BJJ. Learn defensive rol
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Roll from Rodeo Ride/Attacker|Play as Attacker]]
+[[Roll from Rodeo Ride/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Roll from Rodeo Ride is a defensive rolling escape executed from bottom turtle under Rodeo Ride pressure, where the practitioner uses rotational momentum to dislodge the top player's dynamic control and recover to a guard position. This escape targets the inherent instability of Rodeo Ride—unlike static pin positions, the top player's asymmetric weight distribution and perpendicular angle create windows of vulnerability that a well-timed roll can exploit. The technique is most effective when the top player commits their weight forward for hook insertion or choke attacks, creating the momentum imbalance necessary for successful rotation.

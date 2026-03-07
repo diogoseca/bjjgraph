@@ -13,6 +13,13 @@ description: "Learn to establish collar sleeve guard from open guard bottom. Mas
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Open Guard to Collar Sleeve Guard/Attacker|Play as Attacker]]
+[[Open Guard to Collar Sleeve Guard/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Transition to Collar Sleeve Guard is a grip establishment technique executed by the bottom player from open guard to create a structured attacking platform built on cross-collar and same-side sleeve control. The technique converts the general, less defined open guard position into a specific guard system with clear offensive pathways including sweeps, triangles, and omoplatas. The transition requires winning a grip fighting exchange against an opponent who is actively trying to establish their own passing grips, making timing and sequencing the primary determinants of success.

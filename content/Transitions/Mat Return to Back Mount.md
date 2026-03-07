@@ -13,6 +13,13 @@ description: "Learn Mat Return to Back Mount in BJJ. Step-by-step execution from
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Mat Return to Back Mount/Attacker|Play as Attacker]]
+[[Mat Return to Back Mount/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Mat Return to Back Mount is a fundamental transition that bridges the gap between standing back control and grounded back control, allowing the attacking practitioner to consolidate their dominant position on the mat where submissions become more accessible and escapes more difficult for the defender. This technique capitalizes on the inherent instability of standing back control by bringing the fight to the ground in a controlled manner that preserves upper body control throughout the descent.

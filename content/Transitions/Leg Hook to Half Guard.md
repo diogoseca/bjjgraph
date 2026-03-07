@@ -13,6 +13,13 @@ description: "Master the Leg Hook to Half Guard consolidation in BJJ. Learn weig
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Leg Hook to Half Guard/Attacker|Play as Attacker]]
+[[Leg Hook to Half Guard/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Leg Hook to Half Guard transition represents a tactical consolidation within the half guard passing system. When the top player's leg hook position becomes contested or unstable, deliberately resetting to standard half guard top preserves positional advantage while creating a more stable platform for renewed passing attempts. This transition is particularly important because the leg hook is inherently a transient control point—remaining there too long without advancing invites counter-attacks, sweeps, and guard recoveries from the bottom player.

@@ -13,6 +13,13 @@ description: "Master the elbow escape from flattened half guard in BJJ. Systemat
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Elbow Escape from Flattened Half/Attacker|Play as Attacker]]
+[[Elbow Escape from Flattened Half/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Elbow Escape from Flattened Half Guard is the foundational recovery technique for bottom players who have been driven flat with their frames collapsed. When chest-to-chest pressure eliminates your hip mobility and breathing becomes labored, the elbow escape provides a systematic pathway back to a functional half guard position. Rather than relying on explosive bridging that telegraphs intent and wastes energy, this technique uses incremental space creation through precise elbow placement and coordinated hip escapes.

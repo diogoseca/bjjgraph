@@ -15,6 +15,13 @@ description: "Master the Twister spinal lock in BJJ. Complete guide covering Tru
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Twister/Attacker|Play as Attacker]]
+[[Twister/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Twister is an advanced spinal lock submission popularized by 10th Planet Jiu-Jitsu. This technique creates a corkscrew-like torque on the opponent's spine by controlling their lower body with a lockdown or body triangle while simultaneously controlling their upper body in the opposite direction. The Twister is primarily entered from the Truck position, where you have your opponent's back while they are belly-down, with their legs controlled in a specific entanglement. The submission applies pressure to the entire spinal column, creating a twisting motion that forces the tap.

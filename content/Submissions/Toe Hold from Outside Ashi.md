@@ -15,6 +15,13 @@ description: "Master the toe hold from Outside Ashi-Garami in BJJ. Complete guid
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Toe Hold from Outside Ashi/Attacker|Play as Attacker]]
+[[Toe Hold from Outside Ashi/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The **Toe Hold from Outside Ashi-Garami** is a rotational foot lock applied as a counter-attack from the top position in an Outside Ashi-Garami leg entanglement. The attacker—whose leg is trapped in the opponent's entanglement—reaches for the bottom player's exposed foot and secures a figure-four grip, creating powerful rotational force through the ankle, foot, and knee structures. This technique serves as a critical counter-attacking weapon that punishes opponents for maintaining loose leg configurations or becoming overly focused on their own offensive attacks.

@@ -13,6 +13,13 @@ description: "Master Carni position in BJJ. Advanced leg entanglement with syste
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Carni/Bottom|Play as Bottom]]
+[[Carni/Top|Play as Top]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Carni position is an advanced leg entanglement control position that emerged from modern no-gi grappling, particularly popularized by Australian grapplers like Lachlan Giles and adopted by Craig Jones and the B-Team. Named after the "carnivore" concept of aggressively attacking the legs, this position represents a transitional control state between standard ashi garami variants and more dominant positions like the saddle or back control. The Carni is characterized by controlling one of the opponent's legs while maintaining inside positioning with your own legs, creating immediate threats of heel hooks, transitions to the saddle, or unexpected paths to the back.

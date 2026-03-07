@@ -15,6 +15,13 @@ description: "Master the Kimura from Guard in BJJ. Complete guide covering setup
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Kimura from Guard/Attacker|Play as Attacker]]
+[[Kimura from Guard/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Kimura from Guard is a fundamental shoulder lock that can be applied from multiple guard positions, with the closed guard variation being one of the most reliable entries. This submission targets the shoulder joint and surrounding structures through a figure-four grip configuration, creating rotational pressure that can damage the rotator cuff, shoulder capsule, and associated ligaments if applied forcefully. The technique's versatility lies in its dual nature as both a finishing submission and a powerful control position that opens pathways to sweeps, back takes, and other submissions.

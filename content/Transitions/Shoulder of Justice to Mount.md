@@ -13,6 +13,13 @@ description: "Master the Shoulder of Justice to Mount transition in BJJ. Complet
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Shoulder of Justice to Mount/Attacker|Play as Attacker]]
+[[Shoulder of Justice to Mount/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Shoulder of Justice to Mount transition represents a direct positional advancement from one of the most pressure-intensive side control variations into the highest-scoring position in Brazilian Jiu-Jitsu. This transition capitalizes on the devastating shoulder pressure that defines the Shoulder of Justice, using the opponent's compromised defensive state to create openings for stepping over into full mount. The primary challenge lies in maintaining continuous pressure throughout the step-over — any momentary lift in weight provides the bottom player with opportunities to insert frames, recover guard, or initiate escape sequences.

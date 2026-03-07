@@ -15,6 +15,13 @@ description: "Master the Arm Triangle choke in BJJ. Setup from side control, exe
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Arm Triangle/Attacker|Play as Attacker]]
+[[Arm Triangle/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Arm Triangle (Kata Gatame) is a fundamental blood choke that uses the opponent's own shoulder and arm to compress one carotid artery while your arm compresses the other. Unlike the rear naked choke which requires access to both sides of the neck, the arm triangle turns the opponent's defensive frame into an offensive weapon. This submission is particularly effective from side control and can be finished from multiple positions including modified mount, north-south transition, and even from turtle when the opponent is defending incorrectly. The mechanics rely on proper head positioning, shoulder pressure, and controlled weight distribution rather than pure strength. Understanding the anatomy of the choke—creating a triangle with your arms around the opponent's head and their own arm—is essential for consistent finishing. The arm triangle represents a perfect example of using an opponent's defensive structure against them, making it a high-percentage submission across all skill levels when the fundamental mechanics are properly applied.

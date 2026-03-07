@@ -13,6 +13,13 @@ description: "Learn Counter Heel Hook from 50-50 Guard Bottom. Defensive leg att
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Counter heel hook/Attacker|Play as Attacker]]
+[[Counter heel hook/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Counter Heel Hook is a defensive leg attack executed from 50-50 Guard Bottom that capitalizes on an opponent's overcommitment to their own heel hook attempt. Rather than simply defending the incoming attack, this technique transforms a defensive situation into an offensive opportunity by attacking the opponent's exposed heel while they focus on finishing their submission.

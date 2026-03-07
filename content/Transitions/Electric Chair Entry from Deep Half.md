@@ -13,6 +13,13 @@ description: "Master the Electric Chair entry from Deep Half Guard in BJJ. Lockd
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Electric Chair Entry from Deep Half/Attacker|Play as Attacker]]
+[[Electric Chair Entry from Deep Half/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Electric Chair Entry from Deep Half Guard is a critical transition in the lockdown system that bridges two of the most powerful bottom positions in modern grappling. From the deep half guard, where the bottom player has already established a deep underhook and positioned themselves underneath the opponent's center of gravity, this technique adds the lockdown leg configuration to trap the opponent's near leg while maintaining the existing underhook control. The result is a seamless transition into the Electric Chair position, which creates devastating sweep-submission chains that force the top player to address multiple threats simultaneously.

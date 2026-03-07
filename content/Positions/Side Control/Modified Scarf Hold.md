@@ -13,6 +13,13 @@ description: "Master Modified Scarf Hold in BJJ. Complete guide covering control
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Modified Scarf Hold/Bottom|Play as Bottom]]
+[[Modified Scarf Hold/Top|Play as Top]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Modified Scarf Hold (Kuzure Kesa-Gatame) is a powerful pin position that combines elements of traditional scarf hold with side control positioning. This position offers exceptional control through chest-to-chest pressure while maintaining superior submission opportunities compared to standard side control variations.

@@ -13,6 +13,13 @@ description: "Master the Knee Through pass in BJJ. Systematic half guard passing
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Knee Through/Attacker|Play as Attacker]]
+[[Knee Through/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Knee Through pass is a fundamental half guard passing technique that involves systematically inserting the trapped knee through the opponent's guard while maintaining upper body control. This pass is particularly effective against defensive half guard players who rely on the knee shield or traditional half guard frames. The technique exploits the natural weakness in the half guard structure when proper shoulder pressure and knee positioning combine to create an overwhelming passing sequence.

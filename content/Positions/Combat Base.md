@@ -13,6 +13,13 @@ description: "Master Combat Base in BJJ. Essential guard passing platform with 7
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Combat Base/Bottom|Play as Bottom]]
+[[Combat Base/Top|Play as Top]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Combat Base is a fundamental neutral position in Brazilian Jiu-Jitsu where the practitioner establishes a stable, mobile platform inside the opponent's guard. The position is characterized by one knee posted on the mat and the opposite foot planted flat, creating a triangulated base that allows for effective weight distribution, posture maintenance, and guard passing opportunities. This position serves as the primary platform for initiating most standing and kneeling guard passes while providing strong defensive structure against sweeps and submission attempts.

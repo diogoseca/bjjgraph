@@ -13,6 +13,13 @@ description: "Learn Back Control to Crucifix in BJJ. Step-by-step execution from
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Back Control to Crucifix/Attacker|Play as Attacker]]
+[[Back Control to Crucifix/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Back Control to Crucifix transition represents a critical advancement in back attack systems, converting standard rear mount dominance into an even more controlling and submission-rich position. This transition capitalizes on the opponent's defensive hand fighting and arm positioning, transforming their defensive frames into liabilities. When executed properly, the crucifix provides superior control over both of the opponent's arms while maintaining back exposure, creating a near-inescapable submission platform.

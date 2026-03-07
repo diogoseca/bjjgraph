@@ -13,6 +13,13 @@ description: "Master standing back control in BJJ. Strategic guide covering when
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Standing Back Control/Bottom|Play as Bottom]]
+[[Standing Back Control/Top|Play as Top]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Standing Back Control represents a critical transitional position in Brazilian Jiu-Jitsu where one practitioner has achieved back exposure on an opponent while both remain on their feet. This position bridges the gap between standing grappling and ground fighting, combining elements of wrestling-style back takes with traditional BJJ back control mechanics. The standing variant is characterized by chest-to-back connection, some form of upper body control (harness, seat belt, or body lock), and often hook or leg control attempting to break the opponent's base.

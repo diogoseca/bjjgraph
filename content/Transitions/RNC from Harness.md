@@ -13,6 +13,13 @@ description: "Master the Rear Naked Choke from Harness in BJJ. Step-by-step guid
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[RNC from Harness/Attacker|Play as Attacker]]
+[[RNC from Harness/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Rear Naked Choke from Harness is the highest-percentage submission in Brazilian Jiu-Jitsu, converting the dominant seatbelt grip into a fight-ending bilateral blood choke. The transition begins from the harness position where the attacker already has one arm over the opponent's shoulder and one under the opposite armpit. The critical challenge lies in converting this controlling grip configuration into a choking structure without losing back control or allowing the defender to create sufficient space to escape. The seatbelt-to-RNC grip transition represents a moment of calculated vulnerability that separates competent back attackers from elite finishers.

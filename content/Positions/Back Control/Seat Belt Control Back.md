@@ -13,6 +13,13 @@ description: "Master Seat Belt Control from Back position in BJJ. Dominant 4-poi
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Seat Belt Control Back/Bottom|Play as Bottom]]
+[[Seat Belt Control Back/Top|Play as Top]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Seat Belt Control Back represents the gold standard configuration for back control, characterized by a diagonal over-under grip across opponent's chest and back combined with both legs hooked inside opponent's thighs. This position scores 4 points in IBJJF competition and offers the highest submission success rates in Brazilian Jiu-Jitsu, particularly for the rear naked choke and various armbar attacks. The seat belt grip configuration creates a powerful control structure that prevents opponent's rotation while enabling smooth transitions between multiple submission threats.

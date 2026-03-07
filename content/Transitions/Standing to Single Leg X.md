@@ -13,6 +13,13 @@ description: "Learn Standing to Single Leg X transition in BJJ. Step-by-step ent
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Standing to Single Leg X/Attacker|Play as Attacker]]
+[[Standing to Single Leg X/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Standing to Single Leg X transition is a fundamental guard pull entry that converts standing engagement into a powerful leg entanglement position. This technique allows the bottom player to bypass traditional guard establishment and immediately threaten sweeps and leg attacks from a mechanically advantageous position. The Single Leg X position provides superior control of one leg while maintaining distance management and sweep opportunities. Unlike traditional seated guard pulls, this entry creates immediate offensive pressure by compromising the opponent's base and posture simultaneously. The technique is particularly effective in no-gi grappling and modern sport BJJ competition, where dynamic guard pulling has become essential. Success depends on timing the entry during opponent movement, maintaining proper body positioning throughout the transition, and securing critical grips before the opponent can establish defensive posture. The entry functions as a gateway to the entire modern leg entanglement system, connecting standing exchanges directly to Ashi Garami variants, X-Guard sweeps, and direct submission threats like the Straight Ankle Lock.

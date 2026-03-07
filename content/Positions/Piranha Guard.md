@@ -13,6 +13,13 @@ description: "Master Piranha Guard in BJJ. Advanced lapel-based guard with power
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Piranha Guard/Bottom|Play as Bottom]]
+[[Piranha Guard/Top|Play as Top]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Piranha Guard is an advanced lapel-based guard system where the bottom player feeds the opponent's collar through their legs, creating a powerful control mechanism that generates exceptional posture-breaking leverage and sweep opportunities. This guard is characterized by the unique gripping configuration where the practitioner threads the opponent's lapel between their legs and controls it with strategic hand placements, creating a pulley-like mechanical advantage similar to how a piranha's teeth lock onto prey.

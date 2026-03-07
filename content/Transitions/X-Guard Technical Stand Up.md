@@ -13,6 +13,13 @@ description: "Master the X-Guard Technical Stand Up in BJJ. Complete guide cover
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[X-Guard Technical Stand Up/Attacker|Play as Attacker]]
+[[X-Guard Technical Stand Up/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The X-Guard Technical Stand Up leverages the inherent mechanical advantage of X-Guard to transition safely from bottom position to dominant standing. Rather than committing to a traditional sweep that brings the opponent to the mat, this technique prioritizes reaching your feet while maintaining control of the opponent's trapped leg. The result is a standing position where you hold initiative, often with a single leg grip that creates immediate takedown or passing threats. This transition is particularly valuable in competition rulesets that reward top position and in no-gi grappling where extended X-Guard exchanges become energy-intensive. The technical stand up represents a lower-risk alternative to full sweeping attempts, making it an excellent secondary option when primary sweeps are being defended effectively. The opponent faces a dilemma: if they drive forward to prevent the stand-up, they expose themselves to elevation sweeps; if they stay neutral, the stand-up completes. The key mechanical principle involves using the X-Guard hooks to momentarily freeze the opponent's base while posting a hand behind you and driving your hips forward under your shoulders to stand. Timing is critical because the opponent must be sufficiently off-balanced that they cannot immediately punish the transition with a pass or counter-takedown. Advanced practitioners chain the technical stand up with X-Guard sweeps, creating a dual threat that forces defensive errors and makes the entire X-Guard bottom game significantly more dangerous.

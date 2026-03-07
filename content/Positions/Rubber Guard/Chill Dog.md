@@ -13,6 +13,13 @@ description: "Master Chill Dog position in BJJ. Defensive turtle variant with re
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Chill Dog/Bottom|Play as Bottom]]
+[[Chill Dog/Top|Play as Top]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Chill Dog is a defensive turtle position popularized by 10th Planet's and the 10th Planet Jiu-Jitsu system. It represents a specific turtle variant where the bottom practitioner maintains a low, compact posture with hips turned slightly to one side while protecting the neck and preventing back exposure. Unlike traditional turtle where the goal is often to return to guard or stand up, Chill Dog emphasizes staying safe while creating opportunities for specific escapes and recoveries.

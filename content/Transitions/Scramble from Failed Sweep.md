@@ -13,6 +13,13 @@ description: "Master the scramble from failed sweep in BJJ. Convert unsuccessful
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Scramble from Failed Sweep/Attacker|Play as Attacker]]
+[[Scramble from Failed Sweep/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Scramble from Failed Sweep represents one of the most critical transitional skills in Brazilian Jiu-Jitsu, transforming what would otherwise be a wasted effort into a legitimate positional advancement opportunity. When a sweep attempt from open guard is partially defended or stuffed, the resulting chaos creates a narrow window where the guard player can redirect their momentum, build up from bottom position, and engage in a scramble for top control. Rather than simply accepting the failed sweep and resettling into guard, the experienced practitioner immediately transitions into scramble mode, using whatever momentum and connection remains to fight for a dominant position.

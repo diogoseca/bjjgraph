@@ -15,6 +15,13 @@ description: "Master the Inverted Triangle choke in BJJ. Complete guide covering
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Inverted Triangle/Attacker|Play as Attacker]]
+[[Inverted Triangle/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Inverted Triangle is an advanced blood choke executed from bottom positions where the practitioner's body orientation is inverted relative to a standard triangle. This submission creates exceptional choking pressure by trapping one of the opponent's arms across their neck while isolating it with the legs in a figure-four configuration. The inverted nature of this technique generates unique leverage mechanics that make it particularly effective against opponents who have strong triangle defense patterns developed for conventional angles. The submission is most commonly entered from positions like turtle defense, failed armbar attempts, or scrambles where traditional triangle setups are unavailable. The mechanical advantage stems from the practitioner's ability to use their entire body weight and hip extension to create compression against the carotid arteries while simultaneously restricting the opponent's ability to posture or turn into the choke. Unlike the standard triangle where you face your opponent, the inverted variation positions you facing away or perpendicular, creating unusual angles that opponents often struggle to defend. This makes it an excellent addition to any guard player's submission arsenal, particularly for those who frequently find themselves in scramble situations or against opponents with excellent triangle awareness.

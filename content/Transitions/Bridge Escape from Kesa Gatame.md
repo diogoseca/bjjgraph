@@ -13,6 +13,13 @@ description: "Master the bridge escape from Kesa Gatame in BJJ. Complete guide t
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Bridge Escape from Kesa Gatame/Attacker|Play as Attacker]]
+[[Bridge Escape from Kesa Gatame/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Bridge Escape from Kesa Gatame is a fundamental escape that exploits the structural vulnerability inherent in the scarf hold—the top player's perpendicular alignment creates a weak base toward the trapped arm side. By generating explosive hip extension directed into this weak angle while controlling the opponent's posting arm, the bottom player creates momentary displacement sufficient to insert a knee and recover half guard. This escape is one of the primary tools in any Kesa Gatame escape system and remains effective across all experience levels when properly timed and executed.

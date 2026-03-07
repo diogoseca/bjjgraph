@@ -13,6 +13,13 @@ description: "Escape gogoplata control by extracting head and recovering posture
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Head Extraction to Posture/Attacker|Play as Attacker]]
+[[Head Extraction to Posture/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Head Extraction to Posture is a critical defensive transition when caught in gogoplata control. The technique addresses the unique mechanical challenge presented by the gogoplata configuration: the opponent's shin is across your throat while their foot is secured behind your head, creating a closed-loop system that prevents conventional backward escape. Understanding this geometry is essential because pulling straight back only tightens the choke.

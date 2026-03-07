@@ -13,6 +13,13 @@ description: "Master bridge defense from mounted triangle in BJJ. Explosive esca
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Bridge Defense from Mounted Triangle/Attacker|Play as Attacker]]
+[[Bridge Defense from Mounted Triangle/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The bridge defense from mounted triangle is a critical survival technique for escaping one of Brazilian Jiu-Jitsu's most dangerous hybrid positions. When caught in a mounted triangle, the bottom player faces simultaneous threats from triangle choke, armbar transitions, and positional advancement to back control. The bridge defense exploits a fundamental vulnerability in the mounted triangle configuration: the attacker's commitment to triangle mechanics necessarily compromises their mount stability, as the asymmetric leg positioning reduces the base width available for absorbing upward force.

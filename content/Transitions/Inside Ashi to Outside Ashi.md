@@ -13,6 +13,13 @@ description: "Master the Inside Ashi to Outside Ashi transition in BJJ. Learn sy
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Inside Ashi to Outside Ashi/Attacker|Play as Attacker]]
+[[Inside Ashi to Outside Ashi/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Inside Ashi to Outside Ashi is a fundamental leg entanglement reconfiguration that expands the attacker's submission arsenal by switching from inside leg positioning to outside angle control. This transition is a core component of systematic leg lock systems, allowing practitioners to access outside heel hooks, different ankle lock angles, and alternative finishing mechanics without releasing the trapped leg. The ability to flow between inside and outside ashi configurations represents a key skill differentiator at the intermediate and advanced levels of no-gi grappling.

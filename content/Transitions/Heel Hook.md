@@ -13,6 +13,13 @@ description: "Master the Heel Hook submission in BJJ. Complete guide covering ex
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Heel Hook/Attacker|Play as Attacker]]
+[[Heel Hook/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Heel Hook is the most dangerous and effective leg lock submission in Brazilian Jiu-Jitsu, attacking the knee's ligaments through rotational force applied to the heel while controlling the hip and leg. Unlike ankle locks that attack the ankle joint directly, the heel hook creates a twisting force that travels up the tibia and fibula to attack the knee's ACL, MCL, and meniscus. This submission has become the cornerstone of modern leg lock systems, particularly in no-gi grappling where the absence of friction makes leg entanglement control more accessible.

@@ -13,6 +13,13 @@ description: "Master the Knee Slice from Half Guard pass in BJJ. High-percentage
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Knee Slice from Half/Attacker|Play as Attacker]]
+[[Knee Slice from Half/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Knee Slice from Half Guard is one of the most fundamental and high-percentage guard passes in Brazilian Jiu-Jitsu. This technique exploits the half guard player's commitment to the inside position by creating a powerful angle that drives your knee across their legs while establishing dominant upper body control. The pass works by combining forward pressure with lateral movement, using your knee as a wedge to separate the opponent's legs while your hips drive through the opening.

@@ -13,6 +13,13 @@ description: "Master the New York to Invisible Collar transition in 10th Planet 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[New York to Invisible Collar/Attacker|Play as Attacker]]
+[[New York to Invisible Collar/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The New York to Invisible Collar transition represents a critical advancement within the 10th Planet Rubber Guard system, moving from the foundational New York control into one of the most dangerous attacking positions in no-gi grappling. This transition involves releasing the shin grip while maintaining the overhook, then swimming the free hand behind the opponent's head to establish deep collar-style control on the neck without requiring a gi collar.

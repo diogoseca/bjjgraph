@@ -15,6 +15,13 @@ description: "Master the Calf Slicer from Rodeo Ride in BJJ. Complete guide to c
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Calf Slicer from Rodeo Ride/Attacker|Play as Attacker]]
+[[Calf Slicer from Rodeo Ride/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Calf Slicer from Rodeo Ride is a powerful compression submission that exploits the dynamic turtle attack position to attack the opponent's calf muscle and knee joint. From the rodeo ride—an advanced turtle control position where the attacker maintains asymmetric pressure on the turtled opponent—the attacker threads their shin behind the defender's knee and folds the leg to create devastating compression between the shin bone and the calf muscle, while simultaneously threatening knee hyperextension.

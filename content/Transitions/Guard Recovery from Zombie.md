@@ -13,6 +13,13 @@ description: "Master guard recovery from Zombie position in BJJ. Complete guide 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Guard Recovery from Zombie/Attacker|Play as Attacker]]
+[[Guard Recovery from Zombie/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Guard Recovery from Zombie is a defensive transition where the bottom player reestablishes closed guard from the Zombie lockdown position. When the Zombie's defensive structure is being systematically broken down by the top player's pressure and passing sequences, the bottom player must transition from the lockdown-based defense to a more stable closed guard configuration. This recovery involves releasing the lockdown entanglement, using frames to create space, and closing guard around the opponent's torso before they can complete the pass. The transition must be timed carefully to avoid being caught in the gap between releasing lockdown control and establishing closed guard.

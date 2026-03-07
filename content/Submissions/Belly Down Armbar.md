@@ -15,6 +15,13 @@ description: "Master the Belly Down Armbar in BJJ. Complete guide with safety pr
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Belly Down Armbar/Attacker|Play as Attacker]]
+[[Belly Down Armbar/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Belly Down Armbar is an opportunistic joint lock typically applied when the opponent is in turtle position or during scrambles when they expose an arm while defending other attacks. Unlike traditional armbars executed from guard or mount where you control the opponent's torso with your legs, the belly down variant requires you to secure the isolated arm while the opponent remains face-down on the mat. This submission is particularly effective when your opponent turtles to defend against back takes or other attacks, as their defensive posture often leaves their arms extended and vulnerable. The key to success lies in rapid arm isolation, maintaining connection to the opponent's body to prevent them from rolling through the position, and applying controlled hyperextension to the elbow joint. The belly down armbar requires excellent timing and positional awareness, as the opponent has more escape options compared to traditional armbar positions. However, when executed correctly with proper control of the shoulder and hip, this submission becomes a powerful finishing option from positions where traditional submissions may be difficult to secure.

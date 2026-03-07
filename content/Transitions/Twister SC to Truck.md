@@ -13,6 +13,13 @@ description: "Master the Twister Side Control to Truck transition. Learn to deep
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Twister SC to Truck/Attacker|Play as Attacker]]
+[[Twister SC to Truck/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Twister Side Control to Truck transition represents a critical positional advancement within the 10th Planet leg entanglement system. This technique converts the lateral control and partial leg hook of Twister Side Control into the fully perpendicular truck position, dramatically expanding the available submission threat matrix. Where Twister Side Control primarily threatens the twister finish and opportunistic chokes, the truck opens the complete arsenal of calf slicers, banana splits, back takes, and traditional choking attacks from behind.

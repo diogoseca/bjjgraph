@@ -13,6 +13,13 @@ description: "Master Scramble to Guard escape from Twister Control. Step-by-step
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Scramble to Guard/Attacker|Play as Attacker]]
+[[Scramble to Guard/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Scramble to Guard represents a critical survival technique when trapped in the dangerous Twister Control position. This escape exploits the momentary transitions and adjustments that occur when the top player attempts to deepen their control or hunt for submissions. Rather than accepting the compromised spinal rotation of Twister Control, this technique creates chaotic movement that disrupts the opponent's leg control and upper body positioning, allowing you to reduce rotation and recover to a defensive guard position.

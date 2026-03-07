@@ -13,6 +13,13 @@ description: "Master the Roll from Dead Orchard escape in BJJ. Complete guide to
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Roll from Dead Orchard/Attacker|Play as Attacker]]
+[[Roll from Dead Orchard/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Roll from Dead Orchard is a high-stakes defensive escape technique used when trapped in dead orchard control, an advanced anaconda choke variation where the top player maintains crushing pressure with deep grip configuration and committed shoulder drive. When frame-based escapes and arm extraction attempts have been exhausted or are unavailable, the forward roll represents the bottom player's last viable option before the choke becomes inescapable. The technique leverages the opponent's own forward pressure commitment as the escape mechanism, redirecting their energy into rotational momentum that disrupts the circular compression necessary for the blood choke finish.

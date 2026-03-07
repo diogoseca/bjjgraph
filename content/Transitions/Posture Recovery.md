@@ -13,6 +13,13 @@ description: "Learn Posture Recovery in BJJ. Defensive technique for regaining u
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Posture Recovery/Attacker|Play as Attacker]]
+[[Posture Recovery/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Posture Recovery is a fundamental defensive technique used when your posture has been broken while inside an opponent's guard. This critical skill allows you to regain an upright, stable position from which you can effectively pass or defend against submissions and sweeps. Breaking an opponent's posture is one of the primary objectives from guard positions, making posture recovery an essential skill for any top player. The technique involves a systematic approach to creating space, establishing proper base, and using controlled movements to return to an advantageous position.

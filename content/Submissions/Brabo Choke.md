@@ -15,6 +15,13 @@ description: "Master the Brabo Choke in BJJ. Complete guide with safety protocol
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Brabo Choke/Attacker|Play as Attacker]]
+[[Brabo Choke/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Brabo Choke is a powerful blood choke from the front headlock position, closely related to the Darce and Anaconda chokes. The technique involves threading your arm under the opponent's near arm and across their neck, securing a grip on your own bicep to create a vice-like constriction of the carotid arteries. The name 'Brabo' is a Portuguese pronunciation variation of 'Darce,' though some practitioners distinguish between the two based on subtle grip and angle differences. This submission is particularly effective when the opponent is defending a front headlock by keeping their elbows tight, creating the necessary space for arm insertion. The Brabo Choke excels in scramble situations, turtle attacks, and failed takedown defense scenarios. Its effectiveness comes from the mechanical advantage created by using your entire body weight to compress the opponent's neck against their own shoulder, making it extremely difficult to defend once properly locked. The choke works in both gi and no-gi contexts, though grip variations differ slightly between formats. Modern competitors favor this submission for its high finishing rate and the control it provides throughout the execution process.

@@ -13,6 +13,13 @@ description: "Master the Sweep from Inverted Guard in BJJ. Learn how inverted hi
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Sweep from Inverted Guard/Attacker|Play as Attacker]]
+[[Sweep from Inverted Guard/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Sweep from Inverted Guard is a dynamic transitional technique that leverages the unique angles created by the inverted position to disrupt the opponent's base and establish back control. By positioning upside-down with shoulder contact on the mat, the bottom practitioner uses hip rotation and leg hooks to generate rotational momentum that the standing or kneeling opponent struggles to resist. This sweep capitalizes on the angular advantages inherent to the inverted position, converting defensive guard retention into an offensive back take opportunity that represents one of the highest-value transitions in modern competition jiu-jitsu.

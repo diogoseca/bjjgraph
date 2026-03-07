@@ -13,6 +13,13 @@ description: "Master Single Leg X Recovery from Ushiro Ashi-Garami. Complete gui
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Single Leg X Recovery/Attacker|Play as Attacker]]
+[[Single Leg X Recovery/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Single Leg X Recovery is a critical defensive transition that allows practitioners trapped in Ushiro Ashi-Garami to extract their entangled leg and establish Single Leg X-Guard, fundamentally changing the positional dynamic from defensive survival to offensive potential. This recovery represents one of the highest-percentage escapes from reversed leg entanglements because it addresses the core problem of leg clearing while simultaneously establishing a strong attacking platform.

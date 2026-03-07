@@ -13,6 +13,13 @@ description: "Master the Z-Guard sweep in BJJ. Complete guide covering knee shie
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Sweep from Z-Guard/Attacker|Play as Attacker]]
+[[Sweep from Z-Guard/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Sweep from Z-Guard is a fundamental offensive technique from the Z-Guard (elevated knee shield half guard) position where the bottom player converts their defensive framing structure into a powerful sweeping mechanism. The technique exploits the unique geometry of Z-Guard by using the elevated knee shield as a primary lever against the opponent's shoulder while the underhook provides directional control for the off-balancing action. Unlike sweeps from traditional half guard that require the bottom player to first overcome significant top pressure, Z-Guard sweeps capitalize on the built-in distance and frame integrity that the position provides, making them executable even against heavier opponents who rely on pressure passing.

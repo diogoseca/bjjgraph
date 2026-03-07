@@ -13,6 +13,13 @@ description: "Master Estima Lock to Ashi Garami transition in BJJ. Step-by-step 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Estima Lock to Ashi Garami/Attacker|Play as Attacker]]
+[[Estima Lock to Ashi Garami/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Estima Lock to Ashi Garami transition represents a critical pivot point in modern leg lock systems, allowing practitioners to abandon a defended footlock in favor of superior heel hook positioning. When an opponent successfully defends the Estima Lock by counter-rotating their ankle, hiding their heel, or creating sufficient frames, this transition preserves offensive momentum rather than returning to neutral.

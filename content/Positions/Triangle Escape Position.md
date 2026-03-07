@@ -13,6 +13,13 @@ description: "Master triangle escape techniques in BJJ. Complete defensive guide
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Triangle Escape Position/Bottom|Play as Bottom]]
+[[Triangle Escape Position/Top|Play as Top]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Triangle Escape Position represents one of the most critical defensive scenarios in Brazilian Jiu-Jitsu, where a practitioner finds themselves caught in an opponent's triangle choke configuration and must execute immediate, systematic defensive techniques to prevent submission while creating opportunities for positional recovery. This position demands mastery of defensive hierarchy: first maintaining consciousness through breathing space preservation, then establishing posture to reduce choking pressure, then systematically dismantling the triangle structure through proper mechanical understanding. Unlike many defensive positions where time can work in the defender's favor, the triangle escape scenario becomes progressively more dangerous as the attacking practitioner refines their angle and tightness, making decisive technical action essential within a narrow window of opportunity.

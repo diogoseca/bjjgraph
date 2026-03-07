@@ -13,6 +13,13 @@ description: "Learn Ushiro Ashi-Garami Escape in BJJ. Systematic leg extraction 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Ushiro Ashi-Garami Escape/Attacker|Play as Attacker]]
+[[Ushiro Ashi-Garami Escape/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Ushiro Ashi-Garami Escape is a critical defensive technique for extracting the trapped leg from a reversed leg entanglement position. Ushiro ashi-garami occurs when the defender has partially inverted to escape standard ashi-garami but remains entangled with the attacker's legs configured in a reversed figure-four. The escape focuses on systematic leg clearing, heel protection, and controlled extraction rather than explosive scrambling that often worsens the position.

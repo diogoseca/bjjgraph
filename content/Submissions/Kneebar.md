@@ -15,6 +15,13 @@ description: "Master the Kneebar in BJJ. Complete guide covering safety protocol
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Kneebar/Attacker|Play as Attacker]]
+[[Kneebar/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Kneebar is a fundamental leg lock submission that attacks the knee joint through hyperextension. As one of the most accessible entries into modern leg lock systems, the kneebar serves as both a high-percentage finish and a gateway to more complex leg entanglements. The submission works by controlling the opponent's leg while using hip drive and posterior chain engagement to create dangerous hyperextension of the knee joint. Unlike heel hooks which attack rotational structures, the kneebar creates linear extension force, making it somewhat more predictable but still extremely dangerous when applied incorrectly.

@@ -13,6 +13,13 @@ description: "Master Limp Leg Extraction to Half Guard in BJJ. Escape leg entang
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Limp leg extraction to Half Guard/Attacker|Play as Attacker]]
+[[Limp leg extraction to Half Guard/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Limp Leg Extraction to Half Guard represents one of the most reliable escapes from compromised leg entanglement positions, using strategic relaxation rather than explosive strength to free the trapped limb. This technique exploits a fundamental principle of grappling physics: a completely relaxed, limp leg becomes significantly harder to grip and control than one that is tensed and resisting. When executed properly, the extraction creates a momentary window where the opponent's control breaks down, allowing immediate transition to the safety of Half Guard.

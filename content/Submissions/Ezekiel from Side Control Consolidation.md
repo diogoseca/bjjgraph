@@ -15,6 +15,13 @@ description: "Master the Ezekiel choke from Side Control Consolidation in BJJ. C
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Ezekiel from Side Control Consolidation/Attacker|Play as Attacker]]
+[[Ezekiel from Side Control Consolidation/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Ezekiel choke (Sode Guruma Jime) from Side Control Consolidation exploits the natural arm positioning of the crossface to create a sleeve-assisted choke that catches opponents off guard. Unlike the more common mount-based Ezekiel, this variation leverages the perpendicular body angle and heavy chest pressure of side control consolidation to disguise the choke entry, making it difficult to recognize until the choking mechanism is locked in place.

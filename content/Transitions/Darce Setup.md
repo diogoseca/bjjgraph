@@ -13,6 +13,13 @@ description: "Learn Darce Setup in BJJ. Step-by-step execution from Front Headlo
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Darce Setup/Attacker|Play as Attacker]]
+[[Darce Setup/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Darce Setup is a crucial transitional technique that transforms front headlock control into one of Brazilian Jiu-Jitsu's most effective submission positions. Named after Joe D'Arce, this setup exploits opponent posture and creates the distinctive arm-in configuration that defines the Darce choke system. The technique is particularly effective when opponents attempt to defend turtle position or when transitioning from scrambles, making it an essential weapon for modern grapplers. Understanding proper hand positioning, angle creation, and body weight distribution during the setup phase dramatically increases finishing rates.

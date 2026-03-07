@@ -13,6 +13,13 @@ description: "Master the Knee Slice Pass in BJJ. High-percentage guard passing t
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Knee Slice Pass/Attacker|Play as Attacker]]
+[[Knee Slice Pass/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Knee Slice Pass is one of the most fundamental and high-percentage guard passing techniques in Brazilian Jiu-Jitsu. This pass involves cutting through the opponent's guard by driving your knee across their thighs while controlling their upper body, effectively bisecting their defensive structure. The technique is particularly effective from half guard and open guard positions, where the passer can establish strong control points before initiating the slice. The knee slice creates a powerful combination of forward pressure and lateral movement that makes it extremely difficult for the bottom player to retain guard.

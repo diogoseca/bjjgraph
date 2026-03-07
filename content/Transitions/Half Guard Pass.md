@@ -13,6 +13,13 @@ description: "Master the Half Guard Pass in BJJ. Systematic approach to passing 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Half Guard Pass/Attacker|Play as Attacker]]
+[[Half Guard Pass/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Half Guard Pass is one of the most essential techniques in Brazilian Jiu-Jitsu, representing the fundamental challenge of progressing from the half guard top position to full side control. This technique encompasses a systematic approach to defeating the bottom player's defensive structure, which includes their leg entanglement, underhook battles, and frame creation. Understanding the half guard pass is crucial because half guard represents one of the most common positions in modern BJJ, serving as a key battleground between the top player's passing efforts and the bottom player's retention and sweeping attacks.

@@ -13,6 +13,13 @@ description: "Master the mounted triangle squeeze in BJJ. Expert guide to tighte
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Mounted Triangle Squeeze/Attacker|Play as Attacker]]
+[[Mounted Triangle Squeeze/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Mounted Triangle Squeeze is a critical positional refinement technique applied from the mounted triangle to maximize choking pressure before committing to the finish. Rather than a discrete positional change, the squeeze represents the systematic tightening of the triangle configuration through coordinated leg contraction, angle adjustment, and posture breaking that transforms a loose triangle hold into a locked finishing position.

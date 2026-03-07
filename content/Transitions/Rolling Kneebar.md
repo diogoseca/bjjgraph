@@ -13,6 +13,13 @@ description: "Master the Rolling Kneebar from Grasshopper Guard. Dynamic leg att
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Rolling Kneebar/Attacker|Play as Attacker]]
+[[Rolling Kneebar/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Rolling Kneebar is a dynamic leg attack initiated from Grasshopper Guard that uses rotational momentum to capture and hyperextend the opponent's knee. This technique leverages the inverted positioning inherent to grasshopper guard, converting the guard player's elevated hips and leg entanglement into an aggressive rolling submission entry.

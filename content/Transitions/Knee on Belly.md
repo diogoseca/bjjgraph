@@ -13,6 +13,13 @@ description: "Master the Knee on Belly transition in BJJ. Learn proper knee plac
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Knee on Belly/Attacker|Play as Attacker]]
+[[Knee on Belly/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Knee on Belly represents one of the most dynamic and high-pressure positions in Brazilian Jiu-Jitsu, serving as both a scoring position worth two or three points in competition and a launching platform for devastating submissions. The transition from Side Control to Knee on Belly requires precise timing, proper weight distribution, and strategic grip selection to prevent the bottom player from capitalizing on the momentary reduction in chest pressure during the transition.

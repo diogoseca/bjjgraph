@@ -13,6 +13,13 @@ description: "Master the standing guard pass in BJJ. Complete guide to breaking 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Guard Pass from Standing Guard/Attacker|Play as Attacker]]
+[[Guard Pass from Standing Guard/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Guard Pass from Standing Guard is the foundational framework for navigating past an opponent's guard from an upright position. Unlike specific named passes such as the Toreando or Leg Drag, this technique represents the general methodology of standing guard passing: establishing grip dominance, controlling the opponent's legs and hips, creating angular displacement through footwork, and decisively committing to a passing direction when the opportunity presents itself. The pass encompasses the core principles shared by all standing guard passes and serves as the template from which more specialized techniques derive their mechanics.

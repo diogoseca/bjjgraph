@@ -13,6 +13,13 @@ description: "Learn Kiss of the Dragon in BJJ. Advanced rolling back take from t
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Kiss of the Dragon/Attacker|Play as Attacker]]
+[[Kiss of the Dragon/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Kiss of the Dragon is an advanced rolling back take technique that allows the top player to bypass the turtle position's defensive structure and directly establish back control. The practitioner uses a forward somersault while maintaining grip control on the opponent's hips or belt, rolling underneath and behind the turtle position to emerge directly on the back. This dynamic movement is particularly effective against opponents who are skilled at defending traditional back take attempts such as seatbelt entries and crab rides, as it circumvents the typical defensive frames and hand fighting that occur during standard back attacks.

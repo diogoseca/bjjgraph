@@ -13,6 +13,13 @@ description: "Learn Frame and Turn escape from Twister Control. Step-by-step tec
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Frame and Turn/Attacker|Play as Attacker]]
+[[Frame and Turn/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Frame and Turn represents the primary defensive escape sequence from Twister Control Bottom, addressing one of the most mechanically compromised positions in Brazilian Jiu-Jitsu. This technique focuses on systematically reducing spinal rotation through coordinated frame creation and hip turning mechanics, ultimately allowing the bottom player to realign their spine and recover a more defensible position such as Turtle or Half Guard.

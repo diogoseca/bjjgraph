@@ -13,6 +13,13 @@ description: "Master Kimura Defense in BJJ. Complete defensive framework coverin
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Kimura Defense/Attacker|Play as Attacker]]
+[[Kimura Defense/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Kimura Defense represents a critical defensive skill set against one of BJJ's most versatile submissions. The kimura presents danger from virtually every position, making defensive proficiency essential for survival. Understanding proper defensive mechanics protects the shoulder joint while creating opportunities to escape or counter-attack. The defense operates on three levels: prevention (hand fighting and grip denial), early escape (before full lock completion), and late-stage survival (managing locked positions). Success requires recognizing threat stages, maintaining defensive frames, and exploiting timing windows during opponent transitions.

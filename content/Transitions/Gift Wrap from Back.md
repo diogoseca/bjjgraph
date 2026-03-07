@@ -13,6 +13,13 @@ description: "Master the Gift Wrap from Back transition in BJJ. Learn arm thread
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Gift Wrap from Back/Attacker|Play as Attacker]]
+[[Gift Wrap from Back/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Gift Wrap from Back is a positional control transition where the attacker, having established back control, isolates one of the defender's arms by threading their controlling arm underneath the defender's armpit and securing the wrist or forearm on the far side of the body. This action pulls the defender's arm across their own chest in a diagonal line, creating the Gift Wrap configuration that removes roughly half of the defender's defensive capability.

@@ -13,6 +13,13 @@ description: "Master Kimura on Trapped Arm from Gift Wrap in BJJ. Step-by-step s
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Kimura on Trapped Arm/Attacker|Play as Attacker]]
+[[Kimura on Trapped Arm/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Kimura on Trapped Arm represents a high-percentage submission opportunity that exploits the fundamental vulnerability created by Gift Wrap control. When the opponent's arm is already wrapped across their own body, the shoulder joint is pre-rotated into a compromised position that dramatically reduces the force required to create submission pressure. This technique capitalizes on the strategic advantage of systematic limb isolation.

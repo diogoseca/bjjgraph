@@ -13,6 +13,13 @@ description: "Learn X-Guard Elevation Sweep from Grasshopper Guard in BJJ. Step-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[X-Guard Elevation Sweep/Attacker|Play as Attacker]]
+[[X-Guard Elevation Sweep/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The X-Guard Elevation Sweep is a high-amplitude sweep initiated from Grasshopper Guard that transitions through an X-Guard hook configuration to lift the opponent off their base and deposit them directly into bottom mount. From the inverted grasshopper position, the bottom player shoots both legs into an X-Guard formation beneath the opponent's hips, then uses explosive hip extension to elevate and topple the standing player backward. The sweep leverages the grasshopper guard's inverted posture as a launching platform, converting the temporary inversion into one of the most powerful elevation mechanics available in modern guard play.

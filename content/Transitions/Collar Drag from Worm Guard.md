@@ -13,6 +13,13 @@ description: "Master the collar drag from worm guard in BJJ. Step-by-step guide 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Collar Drag from Worm Guard/Attacker|Play as Attacker]]
+[[Collar Drag from Worm Guard/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The collar drag from worm guard is an advanced gi-specific transition that exploits the unique mechanical advantages of worm guard to execute a wrestling-style collar drag, pulling the opponent forward and down into front headlock control. The worm guard's lapel wrap immobilizes the opponent's lead leg, preventing them from stepping back to resist the drag, which dramatically increases the success rate compared to collar drags from other guard positions. This makes the collar drag one of the most reliable methods for the worm guard player to transition from bottom position to a dominant top position without relying on traditional sweeping mechanics.

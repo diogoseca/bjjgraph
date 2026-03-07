@@ -13,6 +13,13 @@ description: "Master the Butterfly Sweep with Guillotine from Hindulotine bottom
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Butterfly Sweep with Guillotine/Attacker|Play as Attacker]]
+[[Butterfly Sweep with Guillotine/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Butterfly Sweep with Guillotine represents one of the most powerful combinations in bottom guard attacking, merging a high-percentage sweep with continuous submission pressure. This technique exploits a fundamental defensive dilemma: when an opponent drives forward to relieve guillotine pressure, they provide the exact energy needed for a butterfly sweep. The sweep uses their forward momentum against them while the guillotine grip maintains constant threat throughout the transition.

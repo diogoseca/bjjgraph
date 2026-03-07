@@ -13,6 +13,13 @@ description: "Master guard recovery from leg entanglement in BJJ. Complete guide
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Guard Recovery from Leg Entanglement/Attacker|Play as Attacker]]
+[[Guard Recovery from Leg Entanglement/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Guard recovery from leg entanglement is one of the most critical defensive skills in modern no-gi Brazilian Jiu-Jitsu. As leg lock systems have become increasingly sophisticated and systematized, the ability to extract yourself from ashi garami configurations and recover to a safe guard position determines whether practitioners can engage in leg lock exchanges with confidence or must avoid them entirely. This transition involves systematically dismantling your opponent's entanglement structure — clearing heel exposure, breaking the knee line control, stripping hooks, and extracting the trapped leg — all while managing constant submission threats during the extraction process.

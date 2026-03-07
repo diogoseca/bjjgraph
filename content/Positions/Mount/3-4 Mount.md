@@ -13,6 +13,13 @@ description: "Master 3-4 Mount position in BJJ. Complete guide covering asymmetr
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[3-4 Mount/Bottom|Play as Bottom]]
+[[3-4 Mount/Top|Play as Top]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The 3-4 Mount represents a sophisticated asymmetric variation of traditional mount where the top player positions one leg fully crossed over the opponent's body while the other leg remains posted outside. This configuration creates unique mechanical properties that distinguish it from standard mount—the asymmetry generates directional vulnerabilities that both players must understand to succeed. The name derives from the leg positioning: one leg in the traditional mount configuration (the '4' position) and one leg posted outside (the '3' position), creating a three-point to four-point contact pattern.

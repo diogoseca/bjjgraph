@@ -13,6 +13,13 @@ description: "Master the guard pull from clinch in BJJ. Complete guide covering 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Guard Pull from Clinch/Attacker|Play as Attacker]]
+[[Guard Pull from Clinch/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The guard pull from clinch is a deliberate transition from standing to ground fighting where the practitioner uses established grip connections from the clinch exchange to sit into a controlled guard position, typically closed guard. This technique is a cornerstone of modern sport Brazilian Jiu-Jitsu strategy, allowing practitioners to bypass wrestling exchanges and immediately engage in their strongest ground-based game. The guard pull fundamentally changes the positional dynamic from a neutral standing exchange into an offensive bottom position with immediate sweep and submission threats.

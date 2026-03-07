@@ -15,6 +15,13 @@ description: "Master the Straight Ankle Lock in BJJ. Complete guide with safety 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Straight Ankle Lock/Attacker|Play as Attacker]]
+[[Straight Ankle Lock/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Straight Ankle Lock (also called Straight Footlock) is the most fundamental lower body submission in Brazilian Jiu-Jitsu, targeting the ankle joint through hyperextension while controlling the leg in Ashi Garami or similar entanglement positions. Unlike heel hooks which attack multiple planes, the straight ankle lock creates a single-axis pressure on the ankle, making it the safest entry point for leg lock training and the foundational technique from which all other lower body attacks develop. The submission works by securing the opponent's foot in your armpit, creating a fulcrum point with your forearm across the top of the foot, then extending your hips forward while pulling back on the foot to create hyperextension of the ankle. The straight ankle lock is legal at all belt levels in IBJJF competition (unlike heel hooks and most knee attacks), making it an essential tool for competitors and a critical defensive skill for all practitioners. When properly applied, the submission creates progressive pressure that allows training partners to recognize the danger and tap before injury occurs, though the ankle joint can be compromised rapidly if excessive force is applied. The technique's effectiveness lies in proper leg control, hip positioning, and the relationship between your chest and the opponent's knee line—control these elements and the finish becomes inevitable regardless of the opponent's defensive efforts.

@@ -13,6 +13,13 @@ description: "Master the Americana shoulder lock from Modified Mount in BJJ. Ste
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Americana from Modified Mount/Attacker|Play as Attacker]]
+[[Americana from Modified Mount/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Americana from Modified Mount exploits the asymmetric stability that the posted leg configuration provides, allowing the top practitioner to commit fully to the shoulder lock without risking positional loss. Unlike the standard mount Americana where bridge-and-roll escapes threaten during the submission attempt, the posted leg serves as a structural anchor that absorbs explosive defensive movements while the across-body knee maintains torso control throughout the figure-four application.

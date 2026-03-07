@@ -13,6 +13,13 @@ description: "Master the Transition to Leg Hook from Half Guard Top in BJJ. Lear
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Half Guard to Leg Hook/Attacker|Play as Attacker]]
+[[Half Guard to Leg Hook/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Transition to Leg Hook is a positional advancement technique executed from Half Guard Top that bridges the gap between initial half guard engagement and pass completion. Rather than attempting to extract the trapped leg directly, the top player redirects their approach by inserting a controlling hook underneath or around the bottom player's defending leg. This hook disrupts the bottom player's guard retention structure, controls their hip mobility, and creates a mechanically superior platform for completing various guard passes.

@@ -13,6 +13,13 @@ description: "Master standing up from Inside Ashi-Garami in BJJ. Complete guide 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Standing Up from Inside Ashi/Attacker|Play as Attacker]]
+[[Standing Up from Inside Ashi/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Standing Up from Inside Ashi-Garami is a strategic positional transition where the bottom ashi garami player rises from their back to a standing position while managing the opponent's trapped leg. While Inside Ashi-Garami is primarily an attacking platform for leg submissions, situations arise where standing up becomes the tactically superior option—to apply submissions from a standing posture with improved leverage, to disengage from a defensive stalemate, or to reset the engagement entirely when the opponent's defense proves impenetrable.

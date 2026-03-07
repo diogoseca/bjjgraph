@@ -13,6 +13,13 @@ description: "Master the Crab Ride Escape to Guard in BJJ. Complete guide to hoo
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Crab Ride Escape to Guard/Attacker|Play as Attacker]]
+[[Crab Ride Escape to Guard/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Crab Ride Escape to Guard is a fundamental defensive transition that allows the bottom player trapped in crab ride to recover an established guard position by turning into their opponent and re-establishing leg control. This escape addresses one of the most common predicaments in modern grappling: being stuck underneath a crab ride where the opponent systematically works toward back control or submission entries. The technique prioritizes hook neutralization and controlled hip rotation as the primary escape mechanisms, creating a direct pathway from a deteriorating defensive position to an offensive guard.

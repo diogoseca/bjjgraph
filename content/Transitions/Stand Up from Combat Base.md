@@ -13,6 +13,13 @@ description: "Master the stand up from combat base in BJJ. Complete guide to saf
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Stand Up from Combat Base/Attacker|Play as Attacker]]
+[[Stand Up from Combat Base/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Stand Up from Combat Base is a fundamental positional transition in Brazilian Jiu-Jitsu where the top player elevates from a kneeling combat base posture to a fully standing position while maintaining engagement with the opponent's guard. This movement unlocks the entire arsenal of standing guard passes—Toreando, leg drags, X-passes, and long step passes—that are inaccessible from a kneeling position. The standing posture provides superior leverage for breaking grips, superior mobility for creating passing angles, and the gravitational advantage of fighting from above the opponent's guard structure.

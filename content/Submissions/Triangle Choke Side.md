@@ -15,6 +15,13 @@ description: "Master Triangle Choke Side from top position in BJJ. Complete safe
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Triangle Choke Side/Attacker|Play as Attacker]]
+[[Triangle Choke Side/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Triangle Choke Side (also called Side Triangle or Kata Gatame Triangle) is an advanced variation of the traditional triangle choke executed from top positions, most commonly from side control or north-south transitions. Unlike the standard triangle from guard where the defender is between the attacker's legs, the side triangle traps one of the opponent's arms across their own neck while the attacker's legs create the choking mechanism from a perpendicular angle.

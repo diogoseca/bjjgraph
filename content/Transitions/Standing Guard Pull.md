@@ -13,6 +13,13 @@ description: "Master the standing guard pull in BJJ. Complete guide covering gri
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Standing Guard Pull/Attacker|Play as Attacker]]
+[[Standing Guard Pull/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Standing Guard Pull is one of the most frequently executed transitions in modern BJJ competition, serving as the primary method for guard-oriented practitioners to move the engagement from standing to their preferred ground game. Unlike takedowns that require wrestling proficiency and carry the risk of being countered into inferior positions, the guard pull offers a controlled descent into an established guard framework with predictable outcomes and immediate offensive options. For practitioners who have invested heavily in their bottom game, the guard pull is not a concession but a deliberate tactical choice that places them exactly where they are most dangerous.

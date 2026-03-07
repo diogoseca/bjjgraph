@@ -13,6 +13,13 @@ description: "Master Mounted Triangle from Modified Mount. Step-by-step entry fr
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Mounted Triangle/Attacker|Play as Attacker]]
+[[Mounted Triangle/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Mounted Triangle represents one of the most dominant submission setups in Brazilian Jiu-Jitsu, combining the positional dominance of mount with the strangling power of the triangle choke. This transition begins from Modified Mount where the asymmetric positioning naturally facilitates leg insertion around the opponent's head and arm. Unlike the triangle from closed guard, the Mounted Triangle benefits from gravitational pressure and superior control, making defensive responses significantly more difficult for the bottom practitioner. The technique emerges organically when opponents use frames against mount attacks—their arms naturally create the space and isolation needed for triangle entry.

@@ -13,6 +13,13 @@ description: "Master Inside Position Recovery from Leg Drag Control. Step-by-ste
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Inside Position Recovery/Attacker|Play as Attacker]]
+[[Inside Position Recovery/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Inside Position Recovery is a critical escape technique from leg drag control that focuses on re-establishing an inside position with your legs before your opponent can consolidate to side control or take your back. When caught in the leg drag, your primary defensive goal is preventing back exposure and positional advancement. Inside Position Recovery addresses this by using precise hip movement and frame positioning to extract your trapped leg and insert a butterfly hook, transitioning you from a compromised defensive position to an active offensive guard.

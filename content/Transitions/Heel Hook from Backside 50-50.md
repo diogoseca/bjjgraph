@@ -13,6 +13,13 @@ description: "Master the heel hook from Backside 50-50 in BJJ. Complete guide to
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Heel Hook from Backside 50-50/Attacker|Play as Attacker]]
+[[Heel Hook from Backside 50-50/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The heel hook from Backside 50-50 bottom represents one of the most tactically significant opportunistic attacks in modern leg lock grappling. Despite occupying the disadvantaged position with your back exposed to your opponent's chest, the shared leg entanglement inherent in all 50-50 configurations means your access to the opponent's heel remains viable. This attack capitalizes on moments when the top player overcommits to passing, back control transitions, or their own leg attacks, temporarily reducing their defensive attention to their entangled leg.

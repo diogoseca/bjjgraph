@@ -13,6 +13,13 @@ description: "Master Turtle to Guard recovery in BJJ. Essential defensive transi
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Turtle to Guard/Attacker|Play as Attacker]]
+[[Turtle to Guard/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Turtle to Guard recovery is a fundamental defensive transition that allows practitioners to escape the vulnerable turtle position and re-establish their guard. This transition is critical for maintaining defensive integrity when an opponent is attempting back takes or submissions from turtle. The technique involves creating space, managing opponent's grips and hooks, and using hip movement to rotate underneath the opponent while establishing guard frames.

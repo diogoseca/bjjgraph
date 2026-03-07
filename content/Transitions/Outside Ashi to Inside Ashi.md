@@ -13,6 +13,13 @@ description: "Master Outside Ashi to Inside Ashi counter-entanglement in BJJ. Gu
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Outside Ashi to Inside Ashi/Attacker|Play as Attacker]]
+[[Outside Ashi to Inside Ashi/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Outside Ashi to Inside Ashi transition represents one of the most important counter-entanglement techniques in modern leg lock warfare. When trapped in Outside Ashi-Garami from the top position—where an opponent has isolated your leg in their outside ashi configuration—this technique allows you to reverse the dynamic by establishing your own Inside Ashi-Garami on their exposed leg. Rather than simply escaping the entanglement, you transform a defensive position into an offensive one, immediately threatening your own leg attacks.

@@ -13,6 +13,13 @@ description: "Master the Stack Pass from Mission Control in BJJ. Learn stacking 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Stack Pass from Mission Control/Attacker|Play as Attacker]]
+[[Stack Pass from Mission Control/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Stack Pass from Mission Control is a pressure-based guard passing technique used by the top player trapped in the rubber guard's Mission Control position. Rather than attempting to recover posture or extract the trapped arm—the standard defensive responses—the stack pass leverages aggressive forward driving pressure to collapse the bottom player's high guard structure entirely, folding their hips over their shoulders and dismantling the control framework that makes Mission Control effective.

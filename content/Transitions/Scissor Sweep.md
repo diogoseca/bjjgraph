@@ -13,6 +13,13 @@ description: "Master the Scissor Sweep from Closed Guard in BJJ. Complete guide 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Scissor Sweep/Attacker|Play as Attacker]]
+[[Scissor Sweep/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Scissor Sweep is one of the most fundamental and high-percentage sweeps in Brazilian Jiu-Jitsu, executed from closed guard. This classical technique exploits an opponent's weight distribution and posture by using a scissoring leg motion combined with upper body control to reverse positions. The sweep derives its power from the biomechanical advantage created when one leg pushes while the other pulls, creating a lever system that off-balances even larger, stronger opponents.

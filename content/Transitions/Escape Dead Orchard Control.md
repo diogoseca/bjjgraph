@@ -13,6 +13,13 @@ description: "Escape Dead Orchard Control in BJJ with systematic frame defense a
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Escape Dead Orchard Control/Attacker|Play as Attacker]]
+[[Escape Dead Orchard Control/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Escape Dead Orchard Control is a systematic defensive sequence designed to extract the practitioner from one of the most dangerous front headlock variations in modern grappling. The Dead Orchard position, developed within the 10th Planet system, combines anaconda grip mechanics with sustained positional pressure that creates both immediate submission threat and progressive positional deterioration. Escaping requires methodical frame establishment, precise timing, and disciplined energy management rather than explosive movements that typically worsen the position.

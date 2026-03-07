@@ -13,6 +13,13 @@ description: "Master the Feet on Hips Tripod Sweep in BJJ. Learn setup, executio
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Feet on Hips Tripod Sweep/Attacker|Play as Attacker]]
+[[Feet on Hips Tripod Sweep/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Feet on Hips Tripod Sweep is one of the most fundamental and high-percentage sweeps available from the open guard. Executed from the feet-on-hips guard, this technique employs a three-point base destruction principle: one foot pushes the opponent's hip backward while the other foot hooks behind their near ankle, and a hand controls the opposite ankle. The coordinated push-pull action collapses the opponent's standing base, sending them backward to the mat while the sweeper follows to establish top position.

@@ -13,6 +13,13 @@ description: "Master the Tarikoplata Setup from Meathook in BJJ. Shoulder lock e
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Tarikoplata Setup/Attacker|Play as Attacker]]
+[[Tarikoplata Setup/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Tarikoplata Setup is an advanced shoulder lock entry executed from Meathook that transforms the position's arm isolation into a compound submission attack combining omoplata mechanics with wrist control. Named after Tarik Hopstock, this technique exploits the trapped arm configuration of Meathook by threading the bottom player's leg over the opponent's shoulder into a modified omoplata position while simultaneously securing a wrist grip that adds rotational torque to the shoulder attack.

@@ -13,6 +13,13 @@ description: "Master the Matrix to Side Control pass in BJJ. Learn to convert a 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Matrix to Side Control/Attacker|Play as Attacker]]
+[[Matrix to Side Control/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Matrix to Side Control transition represents the top player's ability to convert a successfully defended Matrix back take attempt into dominant side control. When the top player has blocked the bottom player's rotational attack, a critical window opens where the defender's compromised structure can be exploited to advance position rather than simply resetting to a neutral engagement.

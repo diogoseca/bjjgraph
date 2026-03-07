@@ -13,6 +13,13 @@ description: "Learn Arm Triangle from Front Headlock in BJJ. Transition head-arm
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Arm Triangle from Front Headlock/Attacker|Play as Attacker]]
+[[Arm Triangle from Front Headlock/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The arm triangle from front headlock is a high-percentage transition that converts a dominant controlling position into one of the most reliable choke finishes in grappling. When you have front headlock control with your opponent bent forward, their near arm is naturally positioned close to their neck, creating the ideal head-and-arm configuration that the arm triangle demands. Rather than fighting to isolate the arm separately, the front headlock already does much of this work for you.

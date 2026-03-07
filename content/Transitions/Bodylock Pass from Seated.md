@@ -13,6 +13,13 @@ description: "Master the Bodylock Pass from Seated Guard in BJJ. Learn grip stra
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Bodylock Pass from Seated/Attacker|Play as Attacker]]
+[[Bodylock Pass from Seated/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Bodylock Pass from Seated Guard is a pressure-based guard passing technique where the top player closes distance on a seated opponent, establishes a tight body lock around their torso, and uses that connection to drive them backward while clearing their legs to achieve side control. This technique has become increasingly prevalent in modern no-gi grappling due to its effectiveness against the seated guard player's distance management capabilities, directly neutralizing the opponent's primary defensive tool: their ability to frame and create space with their legs.

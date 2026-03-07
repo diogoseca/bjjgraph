@@ -13,6 +13,13 @@ description: "Master the Omoplata from Lasso Guard in BJJ. Complete guide to con
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Omoplata from Lasso/Attacker|Play as Attacker]]
+[[Omoplata from Lasso/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Omoplata from Lasso Guard is a high-percentage transition that exploits the arm isolation already established by the lasso configuration. When the bottom player has their shin threaded across the opponent's tricep with a tight sleeve grip, the opponent's shoulder is already partially compromised and their arm mobility restricted. By pivoting the hips and swinging the lasso leg over the opponent's shoulder, the bottom player converts the lasso control directly into a full omoplata configuration without the typical struggle of isolating the arm that plagues omoplata entries from other guard positions.

@@ -13,6 +13,13 @@ description: "Learn Counter Ashi Entry in BJJ. Establish your own leg entangleme
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Counter Ashi Entry/Attacker|Play as Attacker]]
+[[Counter Ashi Entry/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 **Counter Ashi Entry** transforms a defensive leg entanglement scenario into an offensive opportunity by establishing your own leg control while the opponent holds your leg. When caught in an Ashi Garami position from top, rather than simply extracting the trapped leg, the Counter Ashi Entry allows you to insert your free leg and establish reciprocal leg entanglement. This creates a bilateral exchange where both practitioners have leg attack opportunities, but the counter-attacker often gains positional advantage through superior timing and angle creation.

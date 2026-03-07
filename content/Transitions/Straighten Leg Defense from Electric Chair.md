@@ -13,6 +13,13 @@ description: "Learn the Straighten Leg Defense from Electric Chair in BJJ. Count
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Straighten Leg Defense from Electric Chair/Attacker|Play as Attacker]]
+[[Straighten Leg Defense from Electric Chair/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Straighten Leg Defense from Electric Chair is a fundamental defensive technique used by the top player when caught in the Electric Chair position from lockdown half guard. When the bottom player secures the lockdown and begins splitting the top player's legs apart, the trapped player's most mechanically sound response is to extend and straighten the trapped leg against the lockdown's bending pressure. This extension neutralizes the figure-four configuration that gives the lockdown its power, reduces the crotch-splitting force, and creates the conditions necessary to extract the leg and return to standard half guard top.

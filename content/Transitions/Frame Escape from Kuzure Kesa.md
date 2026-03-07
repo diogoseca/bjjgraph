@@ -13,6 +13,13 @@ description: "Master the frame escape from Kuzure Kesa-Gatame in BJJ. Learn syst
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Frame Escape from Kuzure Kesa/Attacker|Play as Attacker]]
+[[Frame Escape from Kuzure Kesa/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Frame Escape from Kuzure Kesa-Gatame is a systematic escape technique that uses skeletal frames and timed hip escapes to create space and recover guard from the modified scarf hold position. Unlike explosive bridge-based escapes that rely on power and timing, the frame escape employs a methodical approach where the bottom practitioner uses forearm and elbow structures against the top person's hip and shoulder to incrementally create the space necessary for knee insertion and guard recovery.

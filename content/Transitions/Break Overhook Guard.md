@@ -13,6 +13,13 @@ description: "Master the Break Overhook Guard technique in BJJ. Complete guide t
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Break Overhook Guard/Attacker|Play as Attacker]]
+[[Break Overhook Guard/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Break Overhook Guard is a fundamental grip-stripping technique executed by the top player when trapped inside an opponent's overhook guard. The overhook creates significant control problems for the top player, limiting posting ability on the trapped side, compromising posture, and opening pathways for sweeps and submissions. Breaking this control is essential before meaningful guard passing can begin, as attempting to pass while the overhook remains intact dramatically increases vulnerability to back takes, omoplatas, and overhook sweeps.

@@ -13,6 +13,13 @@ description: "Master pulling guard from ground position in BJJ. Complete guide c
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Pull Guard from Ground/Attacker|Play as Attacker]]
+[[Pull Guard from Ground/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Pull Guard from Ground is a transitional technique executed when the bottom player initiates a guard pull from a seated, kneeling, or partially grounded position rather than from a full standing engagement. This variation arises frequently in competition when a practitioner has been knocked down, has voluntarily sat to guard, or finds themselves in a ground-level scramble where traditional standing guard pulls are not viable. The technique requires specific grip configurations and timing adjustments compared to standing guard pulls because the hip elevation and momentum mechanics differ substantially when starting from a lower base.

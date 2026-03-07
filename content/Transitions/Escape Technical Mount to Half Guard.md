@@ -13,6 +13,13 @@ description: "Master the Escape from Technical Mount to Half Guard in BJJ. Compl
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Escape Technical Mount to Half Guard/Attacker|Play as Attacker]]
+[[Escape Technical Mount to Half Guard/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Escape from Technical Mount to Half Guard is one of the highest-priority defensive techniques in Brazilian Jiu-Jitsu, representing the primary guard recovery pathway from one of the most dangerous pinning positions in the art. Technical mount creates immediate armbar and triangle threats through the stepped leg configuration, making escape both urgent and technically demanding. The bottom player must coordinate arm protection, hip escape timing, and leg insertion to recover to the relative safety of half guard, where legitimate offensive options become available.

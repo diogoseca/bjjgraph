@@ -15,6 +15,13 @@ description: "Master the Armbar from High Mount in BJJ. Complete guide to setup 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Armbar from High Mount/Attacker|Play as Attacker]]
+[[Armbar from High Mount/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Armbar from High Mount is one of the highest-percentage submissions in Brazilian Jiu-Jitsu, combining the overwhelming positional dominance of high mount with the mechanical precision of elbow hyperextension. From high mount, the attacker's knees are positioned near the defender's armpits, creating an elevated platform that severely restricts defensive framing and provides direct access to arm isolation. This proximity to the defender's upper body eliminates the extended transition distances that make armbar entries from standard mount more escapable.

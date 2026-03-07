@@ -13,6 +13,13 @@ description: "Master the clinch position in BJJ with comprehensive grip fighting
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Clinch/Bottom|Play as Bottom]]
+[[Clinch/Top|Play as Top]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Clinch Position represents a fundamental standing control scenario where practitioners engage in close-range upper body control through various grip configurations and body positioning. Unlike pure striking range or ground positions, the clinch creates a specialized engagement zone where practitioners battle for positional dominance through upper body ties, head position, and balanced pressure. This position serves as a critical junction point between standing exchanges and ground transitions, offering pathways to takedowns, throws, and tactical repositioning. The clinch encompasses numerous specialized variations based on the specific grips employed (over/under hooks, collar ties, body locks) and the strategic objectives of the practitioners. Its importance spans across BJJ, wrestling, judo, and MMA contexts, making it a universal element of grappling systems worldwide.

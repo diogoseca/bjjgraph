@@ -13,6 +13,13 @@ description: "Learn the Crucifix Transition from standing back control. Capture 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Crucifix Transition/Attacker|Play as Attacker]]
+[[Crucifix Transition/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Crucifix Transition from standing back control represents a sophisticated positional advancement that capitalizes on defensive grip fighting attempts by your opponent. When you have standing back control and your opponent begins actively fighting your harness grip with one or both hands, they create the opening for this transition by exposing their arms. The crucifix position that results is one of the most dominant control positions in grappling, offering complete arm isolation and multiple high-percentage submission options including rear naked choke variations, armbar attacks, and neck cranks.

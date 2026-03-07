@@ -13,6 +13,13 @@ description: "Master Toe Hold to Ashi Garami in BJJ. Complete guide to transitio
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Toe Hold to Ashi Garami/Attacker|Play as Attacker]]
+[[Toe Hold to Ashi Garami/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Toe Hold to Ashi Garami transition represents a critical positional adjustment within the leg lock hierarchy, enabling practitioners to flow from a toe hold control configuration into the more versatile inside ashi-garami position. This transition is most commonly employed when the toe hold grip is being effectively neutralized through boot defense, grip fighting, or rotational escape, or when the attacker recognizes that superior submission opportunities exist from the broader ashi garami platform. Rather than forcing a deteriorating toe hold finish and risking total position loss, the attacker preserves leg control while opening an entirely new attack chain including straight ankle locks, heel hooks, kneebars, and transitions to saddle or honey hole.

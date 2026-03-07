@@ -13,6 +13,13 @@ description: "Learn the Single Leg to Back Take in BJJ. Convert a defended singl
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Single Leg to Back Take/Attacker|Play as Attacker]]
+[[Single Leg to Back Take/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Single Leg to Back Take is an advanced transitional technique that capitalizes on an opponent's defensive reactions to a single leg attack. Rather than forcing a completed takedown against heavy resistance, the skilled practitioner recognizes when the opponent posts and turns away, then exploits this defensive rotation to climb onto their back. This technique represents a fundamental principle in grappling: when your opponent defends one attack, they often expose themselves to another.

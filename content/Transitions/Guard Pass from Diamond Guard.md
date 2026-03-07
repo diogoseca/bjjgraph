@@ -13,6 +13,13 @@ description: "Master the Guard Pass from Diamond Guard in BJJ. Systematic techni
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Guard Pass from Diamond Guard/Attacker|Play as Attacker]]
+[[Guard Pass from Diamond Guard/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Guard Pass from Diamond Guard addresses one of the most technically demanding closed guard configurations in modern BJJ. Diamond Guard combines an overhook on one arm with head control behind the neck, creating a self-reinforcing frame that amplifies posture-breaking effectiveness and provides direct pathways to triangles, omoplatas, and kimuras. Passing this guard requires a systematic, sequential approach to grip stripping that differs fundamentally from standard closed guard passing.

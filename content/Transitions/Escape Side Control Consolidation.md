@@ -13,6 +13,13 @@ description: "Master the side control consolidation escape in BJJ. Complete guid
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Escape Side Control Consolidation/Attacker|Play as Attacker]]
+[[Escape Side Control Consolidation/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Escaping from consolidated side control is one of the most challenging yet essential skills in Brazilian Jiu-Jitsu. Once an opponent has settled their weight, established crossface control, and eliminated defensive frames, the bottom player faces a systematic process of recreating space, constructing frames, and executing precise hip escape mechanics to recover guard. This escape relies on disciplined timing, efficient frame construction, and coordinated bridging-to-shrimping sequences rather than explosive strength or panic-driven movements.

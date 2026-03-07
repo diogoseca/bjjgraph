@@ -13,6 +13,13 @@ description: "Learn Triangle Clear to Side escape in BJJ. Step-by-step body tria
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Triangle Clear to Side/Attacker|Play as Attacker]]
+[[Triangle Clear to Side/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Triangle Clear to Side is a critical defensive escape from the body triangle position where you systematically dismantle the figure-four leg lock and transition laterally to achieve side position relative to your opponent. Unlike explosive scramble-based escapes, this technique uses precise mechanical attacks against the triangle lock structure itself, targeting the foot tucked behind the opponent's knee to break the configuration and allow you to rotate your hips toward the mat and establish a side-facing position.

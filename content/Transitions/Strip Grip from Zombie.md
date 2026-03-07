@@ -13,6 +13,13 @@ description: "Master the Strip Grip from Zombie in BJJ. Learn systematic grip br
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Strip Grip from Zombie/Attacker|Play as Attacker]]
+[[Strip Grip from Zombie/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Strip Grip from Zombie is a systematic grip-breaking sequence executed from the top position against an opponent utilizing the Zombie lockdown structure from the 10th Planet system. This technique addresses the fundamental challenge of neutralizing the bottom player's lockdown, underhook, and frame grips that constitute the Zombie's defensive architecture, transforming a complex and frustrating passing problem into a manageable open guard scenario.

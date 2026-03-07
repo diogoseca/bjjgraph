@@ -13,6 +13,13 @@ description: "Master the sit out escape from turtle in BJJ. Learn hip rotation m
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Sit Out from Turtle/Attacker|Play as Attacker]]
+[[Sit Out from Turtle/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The sit out from turtle is a fundamental wrestling-derived escape technique adapted for Brazilian Jiu-Jitsu ground fighting. When trapped in turtle position with an opponent controlling from behind, the sit out provides a direct pathway to facing the opponent by rotating the hips 180 degrees through a posted hand pivot. The technique exploits moments when the top player's weight shifts forward or commits to a specific attack, creating the space needed for the bottom player to thread their leg through and complete the rotation into a guard position.

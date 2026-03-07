@@ -13,6 +13,13 @@ description: "Master the SLX to X-Guard transition in BJJ. Learn leg threading m
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[SLX to X-Guard/Attacker|Play as Attacker]]
+[[SLX to X-Guard/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The SLX to X-Guard transition is a positional upgrade where the bottom player captures the opponent's free leg to establish full X-Guard control from an existing Single Leg X-Guard position. This represents one of the most important guard transitions in modern BJJ because it dramatically increases sweeping leverage and directional attack variety. In Single Leg X, the bottom player controls one leg effectively but remains vulnerable to backstep passes, leg extraction, and systematic hook clearing. By threading the outside leg behind the opponent's free knee and establishing the full X configuration, the bottom player creates bilateral control that is exponentially harder to escape and opens high-percentage sweeps in multiple directions.

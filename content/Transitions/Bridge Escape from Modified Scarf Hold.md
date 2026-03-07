@@ -13,6 +13,13 @@ description: "Master the bridge escape from Modified Scarf Hold in BJJ. Complete
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Bridge Escape from Modified Scarf Hold/Attacker|Play as Attacker]]
+[[Bridge Escape from Modified Scarf Hold/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Bridge Escape from Modified Scarf Hold is a fundamental positional escape that uses explosive hip extension combined with directional rotation to create sufficient space for guard recovery. Modified Scarf Hold presents unique escape challenges compared to standard side control due to the concentrated chest-to-chest pressure and near-arm entanglement that characterize the position. The bridge escape exploits the inherent instability of the scarf hold configuration by generating force at angles where the top player's base is weakest, specifically toward the direction of their head or away from their posted arm.

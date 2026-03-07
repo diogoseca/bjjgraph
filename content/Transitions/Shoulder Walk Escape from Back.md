@@ -13,6 +13,13 @@ description: "Master the shoulder walk escape from back control in BJJ. Complete
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Shoulder Walk Escape from Back/Attacker|Play as Attacker]]
+[[Shoulder Walk Escape from Back/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The shoulder walk escape from back control is a methodical, incremental escape technique where the bottom player alternately drives off each shoulder to scoot their body downward relative to the opponent, progressively making the hooks shallower until they can be cleared entirely. Unlike explosive escapes that rely on timing a single burst of movement, the shoulder walk is a grinding, positional escape that works through persistent micro-movements that are individually difficult for the top player to counter. This makes it particularly effective against opponents with strong hook retention who neutralize larger hip escape attempts.

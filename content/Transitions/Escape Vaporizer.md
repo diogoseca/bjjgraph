@@ -13,6 +13,13 @@ description: "Master the Escape Vaporizer in BJJ. Strategic lockdown disengageme
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Escape Vaporizer/Attacker|Play as Attacker]]
+[[Escape Vaporizer/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Escape Vaporizer is a strategic disengagement technique executed by the bottom player who currently maintains lockdown control in the Vaporizer position. Rather than a traditional escape from danger, this transition represents a tactical reset—abandoning a stalled Vaporizer to establish open guard where fresh attacking opportunities become available. This decision typically arises when the top player has successfully neutralized whip-up pressure, established a strong whizzer, or begun systematically clearing the lockdown configuration.

@@ -13,6 +13,13 @@ description: "Master the Arm Drag to Back technique in BJJ. Complete guide cover
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Arm Drag to Back/Attacker|Play as Attacker]]
+[[Arm Drag to Back/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Arm Drag to Back is a fundamental and highly effective technique for advancing position from butterfly guard to the dominant back control. This technique involves controlling the opponent's arm and using it as a lever to move past their defensive frame while simultaneously rotating behind them. The arm drag is one of the most versatile techniques in Brazilian Jiu-Jitsu, applicable from standing, seated guard, butterfly guard, and many other positions. Its effectiveness lies in the ability to bypass the opponent's defensive structure without having to break through their guard or pass directly, instead using their own arm against them to create a pathway to the back.

@@ -13,6 +13,13 @@ description: "Master Anaconda Control in BJJ. Complete guide covering offensive 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Anaconda Control/Bottom|Play as Bottom]]
+[[Anaconda Control/Top|Play as Top]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Anaconda Control is a powerful submission control position in Brazilian Jiu-Jitsu where one practitioner has secured a front headlock variation with an arm-in configuration around the opponent's neck and shoulder. This position creates a distinctive vice-like compression that threatens the anaconda choke while providing exceptional control over the opponent's upper body. The position derives its name from the constricting nature of the control, where the top player's arms encircle the opponent's neck and trapped arm in a loop that tightens with proper pressure and positioning.

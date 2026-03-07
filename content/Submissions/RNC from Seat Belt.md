@@ -15,6 +15,13 @@ description: "Master the Rear Naked Choke from Seat Belt in BJJ. Complete guide 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[RNC from Seat Belt/Attacker|Play as Attacker]]
+[[RNC from Seat Belt/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Rear Naked Choke from Seat Belt represents the highest-percentage submission finish in Brazilian Jiu-Jitsu, combining the dominant back control position with the most mechanically efficient blood choke in grappling. This submission targets both carotid arteries simultaneously through a figure-four arm configuration behind the opponent's head, restricting blood flow to the brain and producing unconsciousness within seconds when properly applied. The seat belt grip provides the ideal launching platform because the over-shoulder arm is already positioned adjacent to the neck, requiring only a smooth transition from controlling grip to choking position.

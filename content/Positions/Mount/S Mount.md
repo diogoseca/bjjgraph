@@ -13,6 +13,13 @@ description: "Master S Mount in BJJ - the ultimate armbar setup position. Comple
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[S Mount/Bottom|Play as Bottom]]
+[[S Mount/Top|Play as Top]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 S Mount, also known as technical mount or mounted armbar position, represents one of the most dominant and submission-oriented positions in Brazilian Jiu-Jitsu. This position is characterized by the top practitioner sitting perpendicular to their opponent while maintaining mount control, with one leg extended over the opponent's head and the other leg positioned across their torso. The name derives from the S-shaped configuration created by the top person's body position relative to their opponent.

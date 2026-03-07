@@ -13,6 +13,13 @@ description: "Master Cross Ashi-Garami position in BJJ. Strategic guide covering
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Cross Ashi-Garami/Bottom|Play as Bottom]]
+[[Cross Ashi-Garami/Top|Play as Top]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Cross Ashi-Garami is a fundamental leg entanglement position in modern Brazilian Jiu-Jitsu characterized by a crossed leg configuration that provides exceptional control over the opponent's hip and lower leg. Unlike standard Ashi-Garami where the controlling practitioner's legs run parallel to the opponent's trapped leg, Cross Ashi features the top player's legs crossing over each other, creating a figure-four-like structure that enhances rotational control and limits the bottom player's escape options significantly.

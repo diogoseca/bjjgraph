@@ -13,6 +13,13 @@ description: "Master Counter Entangle from Cross Ashi in BJJ. Learn to escape cr
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Counter Entangle from Cross Ashi/Attacker|Play as Attacker]]
+[[Counter Entangle from Cross Ashi/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Counter Entangle from Cross Ashi is a defensive transition executed from Cross Ashi-Garami bottom where the trapped player threads their free leg through the opponent's leg structure to create a symmetrical 50-50 entanglement. Rather than attempting a clean leg extraction—which requires breaking the opponent's entire control structure—this technique accepts continued entanglement but converts an asymmetrical, disadvantageous position into the more neutral 50-50 Guard where both players have comparable offensive and defensive options.

@@ -13,6 +13,13 @@ description: "Master the sweep from Ushiro Ashi-Garami bottom position. Expert g
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Sweep from Ushiro Ashi-Garami/Attacker|Play as Attacker]]
+[[Sweep from Ushiro Ashi-Garami/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Sweep from Ushiro Ashi-Garami exploits one of the fundamental vulnerabilities in leg lock attacking systems: the attacker's forward weight commitment during heel hook finishing attempts. When trapped in the reversed leg entanglement from bottom, the defender can use the opponent's own leg configuration as a lever point, converting defensive positioning into an explosive reversal that lands in mount. The technique requires precise coordination between grip control, hip drive, and rotational mechanics to overcome the significant positional disadvantage of being inverted underneath a leg lock attacker.

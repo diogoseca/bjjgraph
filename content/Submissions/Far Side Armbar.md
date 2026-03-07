@@ -15,6 +15,13 @@ description: "Master Far Side Armbar from top positions. Complete guide with saf
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Far Side Armbar/Attacker|Play as Attacker]]
+[[Far Side Armbar/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Far Side Armbar is a high-percentage finishing technique targeting the opponent's far arm (the arm furthest from you) when controlling from top positions like side control, mount, or north-south. This submission exploits the opponent's defensive frames by isolating the extended arm and applying hyperextension pressure to the elbow joint. The far side armbar is particularly effective because it attacks the arm that opponents naturally use to create distance and prevent transitions, making it a fundamental component of submission chains from dominant positions.

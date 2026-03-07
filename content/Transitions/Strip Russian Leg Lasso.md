@@ -13,6 +13,13 @@ description: "Master Strip Russian Leg Lasso in BJJ. Complete step-by-step guide
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Strip Russian Leg Lasso/Attacker|Play as Attacker]]
+[[Strip Russian Leg Lasso/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Strip Russian Leg Lasso is a guard-neutralization technique executed by the top player to systematically dismantle the Russian Leg Lasso guard configuration and return to a neutral open guard passing position. This technique addresses one of the most sophisticated lasso guard variations in modern BJJ, requiring precise grip fighting, coordinated body mechanics, and strategic sequencing to remove the multiple control points that define the Russian Leg Lasso system.

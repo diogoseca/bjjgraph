@@ -13,6 +13,13 @@ description: "Master Float Passing in BJJ. Dynamic guard passing using movement,
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Float Passing/Attacker|Play as Attacker]]
+[[Float Passing/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Float Passing is a dynamic guard passing approach that emphasizes movement, timing, and minimal pressure to navigate around the opponent's guard. Unlike traditional pressure passing, float passing relies on quick transitions, constant movement, and strategic positioning to bypass defensive frames and leg configurations. The technique is particularly effective against flexible opponents or those with strong retention games who excel at recovering guard under pressure.

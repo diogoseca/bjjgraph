@@ -13,6 +13,13 @@ description: "Master the pressure pass from Shin-to-Shin Guard. Step-by-step gui
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Pressure from Shin-to-Shin/Attacker|Play as Attacker]]
+[[Pressure from Shin-to-Shin/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The pressure pass from Shin-to-Shin Guard represents a fundamental top player strategy for systematically advancing position when facing this increasingly prevalent open guard configuration. Rather than relying on movement-based clearing approaches that require agility and precise timing, the pressure variant employs controlled weight application and progressive forward drive to collapse the guard player's structural integrity, degrading the perpendicular shin connection that gives the position its offensive power. This makes the technique particularly accessible and reliable when the guard player's shin connection shows signs of passivity or weakening.

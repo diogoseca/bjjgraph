@@ -15,6 +15,13 @@ description: "Master the Anaconda Finish from Dead Orchard in BJJ. Complete guid
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Anaconda Finish from Dead Orchard/Attacker|Play as Attacker]]
+[[Anaconda Finish from Dead Orchard/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Anaconda Finish from Dead Orchard is an advanced blood choke completion technique originating from the 10th Planet Jiu-Jitsu system. This submission represents the terminal phase of the Dead Orchard control sequence, where the practitioner has already invested significant effort establishing a deep anaconda grip configuration with sustained positional pressure. Unlike rushed anaconda finishes from scramble positions, the Dead Orchard finish capitalizes on the systematic defensive breakdown that occurs during extended control, producing substantially higher completion rates against experienced opponents.

@@ -15,6 +15,13 @@ description: "Master the heel hook from saddle position in BJJ. Complete guide t
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Heel Hook from Saddle/Attacker|Play as Attacker]]
+[[Heel Hook from Saddle/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The heel hook from saddle represents the pinnacle of modern leg lock finishing mechanics, combining the most dominant leg entanglement in Brazilian Jiu-Jitsu with the highest percentage submission available from that configuration. The saddle position—also known as Honey Hole or Inside Sankaku—provides unparalleled control of the opponent's hip, knee, and heel simultaneously, creating the ideal platform for heel hook attacks. Unlike heel hooks attempted from looser entanglements such as Outside Ashi-Garami or basic Single Leg X-Guard, the saddle's perpendicular body alignment and figure-four leg configuration eliminate most defensive rotation options before the finishing sequence even begins.

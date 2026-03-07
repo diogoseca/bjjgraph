@@ -15,6 +15,13 @@ description: "Master the Inside Heel Hook from Honey Hole in BJJ. Complete guide
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Inside Heel Hook from Honey Hole/Attacker|Play as Attacker]]
+[[Inside Heel Hook from Honey Hole/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Inside Heel Hook from Honey Hole represents the highest-percentage finishing technique in modern no-gi Brazilian Jiu-Jitsu leg lock systems. Executed from the dominant Honey Hole (also known as Inside Sankaku, Saddle, or 411) entanglement, this submission attacks the knee joint through controlled rotational force applied via the heel, targeting the medial collateral ligament, anterior cruciate ligament, and meniscus simultaneously. The Honey Hole's structural control—inside leg triangle restricting hip rotation, perpendicular body alignment creating optimal leverage—allows the attacker to methodically establish grip, clear defenses, and apply breaking pressure without rushing.

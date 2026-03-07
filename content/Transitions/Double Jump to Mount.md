@@ -13,6 +13,13 @@ description: "Master the Double Jump to Mount transition in BJJ. Complete guide 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Double Jump to Mount/Attacker|Play as Attacker]]
+[[Double Jump to Mount/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Double Jump to Mount transition is an opportunistic positional advancement technique executed from the Double Jump Top position, where the top player has established bilateral leg hooks inside the opponent's thighs during a turtle attack. While the primary advancement from Double Jump typically targets back control through hook conversion or crab ride entries, the mount pathway becomes viable when the opponent flattens their base and goes belly-down, making traditional back-taking mechanics less effective due to the elimination of the space needed for hook reclassification.

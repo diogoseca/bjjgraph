@@ -13,6 +13,13 @@ description: "Learn Granby Roll escape from Buggy Choke in BJJ. Inverted rolling
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Granby Roll to Guard/Attacker|Play as Attacker]]
+[[Granby Roll to Guard/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Granby Roll to Guard is a dynamic defensive escape technique used to recover guard position when caught in the Buggy Choke or similar turtle-attacking positions. Named after the wrestling-derived shoulder roll movement, this technique uses rotational momentum and hip mobility to invert beneath the opponent and emerge facing them in a guard position. The movement exploits the brief windows when the attacking player commits weight forward or attempts to consolidate grips.

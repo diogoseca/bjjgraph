@@ -15,6 +15,13 @@ description: "Master Toe Hold from Top in BJJ. Complete guide with safety protoc
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Toe Hold from Top/Attacker|Play as Attacker]]
+[[Toe Hold from Top/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Toe Hold from Top is a fundamental leg lock submission that attacks the ankle and knee simultaneously through a figure-four grip configuration. This technique is particularly effective from various top leg entanglement positions including Ashi Garami, Outside Ashi, and 50-50 Guard. The toe hold creates a combined rotational and hyperextension force on the ankle while placing significant stress on the knee's medial collateral ligament (MCL), making it one of the most versatile and dangerous leg attacks in modern Brazilian Jiu-Jitsu.

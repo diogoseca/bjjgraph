@@ -13,6 +13,13 @@ description: "Master the Lapel to Lasso Transition in BJJ. Convert lapel guard t
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Lapel to Lasso Guard/Attacker|Play as Attacker]]
+[[Lapel to Lasso Guard/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Lapel to Lasso Transition represents a critical guard retention pathway that converts the mechanically complex lapel guard into the proven control system of lasso guard. This transition becomes essential when opponents successfully strip your primary lapel configuration or when the lapel grip begins failing under sustained passing pressure. Rather than losing guard position entirely, skilled practitioners flow seamlessly into lasso control, maintaining offensive threats while denying the pass.

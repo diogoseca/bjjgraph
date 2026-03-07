@@ -13,6 +13,13 @@ description: "Master the Hindulotine Choke Finish in BJJ. A complete guide to fi
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Hindulotine Choke Finish/Attacker|Play as Attacker]]
+[[Hindulotine Choke Finish/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Hindulotine Choke Finish is the specialized rotational finishing sequence from established Hindulotine control, where the attacker applies maximum torque through perpendicular hip positioning to compress the carotid arteries and force the tap. Unlike a standard guillotine squeeze that pulls linearly, this finish converts body rotation into choking force by using the hip bone as a fulcrum against the opponent's shoulder while the forearm blade drives upward under the chin. The rotational mechanics make this finish effective even against opponents with strong necks and disciplined chin tucks, as the torque works around the chin defense rather than through it.

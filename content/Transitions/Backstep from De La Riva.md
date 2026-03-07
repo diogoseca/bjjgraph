@@ -13,6 +13,13 @@ description: "Master the backstep from De La Riva Guard. Learn to clear the DLR 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Backstep from De La Riva/Attacker|Play as Attacker]]
+[[Backstep from De La Riva/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The backstep from De La Riva Guard is a fundamental rotational guard passing technique that directly addresses the DLR hook, the primary control mechanism of the De La Riva system. Rather than attempting to strip the hook through conventional means such as pummeling or pressure, the passer steps their trapped leg backward in a large arc and rotates their hips away from the guard player, using angular displacement to disengage the hook entirely. This rotational concept represents a paradigm shift from linear passing approaches, exploiting the geometric weakness inherent in the DLR hook structure: the hook controls movement along the sagittal plane but cannot effectively track lateral or rotational displacement.

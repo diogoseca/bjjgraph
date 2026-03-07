@@ -15,6 +15,13 @@ description: "Master the Darce Choke in BJJ. Complete guide with safety protocol
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Darce Choke/Attacker|Play as Attacker]]
+[[Darce Choke/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Darce Choke is a highly effective blood choke that targets the carotid arteries through a figure-four arm configuration combined with shoulder pressure. Named after Joe D'Arce who popularized it in no-gi competition, this submission represents one of the most versatile finishing techniques from transitional positions. The mechanics involve threading one arm under the opponent's near arm and around their neck, then clasping your hands together while using your shoulder to create compression on one side and your forearm on the other. This bilateral compression restricts blood flow to the brain, producing a rapid loss of consciousness if not defended.

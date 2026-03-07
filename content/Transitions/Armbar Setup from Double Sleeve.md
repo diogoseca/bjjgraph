@@ -13,6 +13,13 @@ description: "Master the armbar setup from double sleeve guard in BJJ. Complete 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Armbar Setup from Double Sleeve/Attacker|Play as Attacker]]
+[[Armbar Setup from Double Sleeve/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Armbar Setup from Double Sleeve Guard is a high-percentage submission entry that exploits bilateral sleeve control to isolate one arm and transition into armbar control. This technique represents one of the most direct offensive threats available from the double sleeve guard system, converting grip dominance into a submission opportunity through precise hip rotation and leg placement mechanics. The setup is particularly effective because controlling both sleeves simultaneously prevents the opponent from posting defensively or framing against the pivoting motion that establishes the armbar position.

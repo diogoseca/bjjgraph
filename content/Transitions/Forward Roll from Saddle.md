@@ -13,6 +13,13 @@ description: "Learn the forward roll escape from saddle in BJJ. Complete guide c
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Forward Roll from Saddle/Attacker|Play as Attacker]]
+[[Forward Roll from Saddle/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Forward Roll from Saddle is a dynamic inversion-based escape used when trapped in the saddle leg entanglement. Rather than fighting incrementally through grip breaks and hip clears, this technique uses rotational momentum to rapidly extract the trapped leg from the opponent's figure-four configuration. The escape leverages the principle that rolling forward disrupts the perpendicular alignment that gives the saddle its mechanical advantage, creating a brief window where the leg can be pulled free.

@@ -13,6 +13,13 @@ description: "Master the Bow and Arrow Choke from back control. High-percentage 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Bow and Arrow Choke/Attacker|Play as Attacker]]
+[[Bow and Arrow Choke/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Bow and Arrow Choke is one of the highest-percentage submissions in gi Brazilian Jiu-Jitsu, executed from back control using a cross-collar grip combined with leg control of the opponent's far leg. The name derives from the finishing position where your body resembles an archer drawing a bow—one hand pulls the collar while the opposite leg hooks and extends the opponent's leg, creating maximum mechanical leverage on the neck.

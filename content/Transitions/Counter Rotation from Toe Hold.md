@@ -13,6 +13,13 @@ description: "Master the Counter Rotation from Toe Hold in BJJ. Learn to neutral
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Counter Rotation from Toe Hold/Attacker|Play as Attacker]]
+[[Counter Rotation from Toe Hold/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Counter Rotation from Toe Hold is an advanced defensive transition executed from Toe Hold Control Bottom, where the trapped practitioner rotates their entire body in the direction of the toe hold's rotational pressure to neutralize the ankle torque and transition into 50-50 Guard. This technique embodies the fundamental grappling principle of moving with force rather than against it, converting a dangerous submission scenario into a neutral leg entanglement where both practitioners share equal positional opportunity.

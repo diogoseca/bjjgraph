@@ -13,6 +13,13 @@ description: "Master Omoplata Control in BJJ. Strategic guide covering shoulder 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Omoplata Control/Bottom|Play as Bottom]]
+[[Omoplata Control/Top|Play as Top]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Omoplata Control represents a sophisticated transitional position in Brazilian Jiu-Jitsu where the practitioner uses their legs to isolate and control the opponent's shoulder joint while creating multiple offensive pathways. This position exists at the intersection of submission attacks, sweeps, and positional advancement, making it one of the most versatile control positions in modern BJJ. The mechanics involve threading one leg over the opponent's trapped shoulder while maintaining hip connection, creating a lever system that applies rotational pressure to the shoulder capsule. What distinguishes Omoplata Control from other guard positions is its ability to force opponents into predictable defensive reactions, each of which opens different offensive opportunities. The position demonstrates the principle of using leg strength against arm strength, creating a mechanical advantage that limits the opponent's mobility while providing the controller with numerous high-percentage options. Understanding when to finish the submission, when to sweep, and when to transition to back control is essential for maximizing the position's effectiveness. The Omoplata Control position has evolved significantly in competitive BJJ, with modern practitioners recognizing that the control itself often provides more value than the submission finish, as it creates reliable pathways to dominant positions and forces opponents into defensive postures that drain energy and create openings for submission chains.

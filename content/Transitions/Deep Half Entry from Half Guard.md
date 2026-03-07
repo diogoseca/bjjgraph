@@ -13,6 +13,13 @@ description: "Master the Deep Half Entry from Half Guard in BJJ. Learn systemati
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Deep Half Entry from Half Guard/Attacker|Play as Attacker]]
+[[Deep Half Entry from Half Guard/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Deep Half Entry from Half Guard is a fundamental transition that transforms the half guard bottom position into one of BJJ's most powerful offensive platforms. This entry requires the bottom player to slide their entire upper body underneath the opponent's center of gravity, positioning the head and shoulder beneath the opponent's hips while securing a deep underhook on the far leg. The mechanical advantage gained from this positioning creates exceptional leverage for sweeps, back takes, and guard advancement that transcends size and strength differences.

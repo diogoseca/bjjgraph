@@ -13,6 +13,13 @@ description: "Master the Meathook position in BJJ. Strategic Rubber Guard contro
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Meathook/Bottom|Play as Bottom]]
+[[Meathook/Top|Play as Top]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Meathook is an advanced Rubber Guard control position that represents one of the most powerful arm isolation systems in Brazilian Jiu-Jitsu. Developed within the 10th Planet Jiu-Jitsu system, the Meathook creates a unique control dynamic where the bottom player uses their leg to hook and control the opponent's arm while simultaneously breaking their posture. This position serves as a critical transition point in the Rubber Guard system, offering pathways to high-percentage submissions including the Gogoplata, Omoplata, Triangle, and various arm attacks.

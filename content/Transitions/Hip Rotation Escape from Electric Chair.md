@@ -13,6 +13,13 @@ description: "Master the hip rotation escape from Electric Chair in BJJ. Learn t
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Hip Rotation Escape from Electric Chair/Attacker|Play as Attacker]]
+[[Hip Rotation Escape from Electric Chair/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The hip rotation escape from Electric Chair is a critical bail-out technique used when the bottom player's electric chair attack from lockdown half guard becomes compromised or is being successfully defended by the top player. Rather than remaining in a deteriorating position where the top player is breaking through the lockdown or neutralizing the underhook, the bottom player uses a deliberate hip rotation to transition to turtle position, from which guard recovery or standup options become available. This technique reflects a fundamental strategic principle: knowing when to abandon a failing attack and redirect energy toward the next viable position.

@@ -13,6 +13,13 @@ description: "Master Mission Control Recovery in BJJ. Learn to return to rubber 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Mission Control Recovery/Attacker|Play as Attacker]]
+[[Mission Control Recovery/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Mission Control Recovery is an essential transitional technique within the rubber guard system that allows practitioners to return to a dominant control position when a gogoplata attempt fails or becomes compromised. When the opponent successfully defends the shin-across-throat configuration or the bottom player loses optimal angle, this recovery movement preserves the positional investment by returning to Mission Control rather than conceding the entire guard position.

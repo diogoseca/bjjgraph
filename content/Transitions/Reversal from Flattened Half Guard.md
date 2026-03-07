@@ -13,6 +13,13 @@ description: "Master the reversal from flattened half guard in BJJ. Learn underh
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Reversal from Flattened Half Guard/Attacker|Play as Attacker]]
+[[Reversal from Flattened Half Guard/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Reversal from Flattened Half Guard is one of the most demanding yet rewarding techniques in the bottom half guard arsenal. When the top player has successfully collapsed your frames and settled chest-to-chest pressure, most bottom players resign themselves to a purely defensive frame recovery sequence. The reversal represents a fundamentally different strategic choice: rather than incrementally rebuilding guard structure, you exploit the top player's forward commitment to generate a sweep that lands you directly in a dominant top position. This approach requires precise timing, committed execution, and the willingness to accept risk in exchange for a dramatic positional improvement.

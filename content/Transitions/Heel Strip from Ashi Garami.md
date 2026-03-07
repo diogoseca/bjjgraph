@@ -13,6 +13,13 @@ description: "Master the heel strip escape from Ashi Garami in BJJ. Step-by-step
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Heel Strip from Ashi Garami/Attacker|Play as Attacker]]
+[[Heel Strip from Ashi Garami/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The heel strip from Ashi Garami is the fundamental defensive technique for neutralizing heel hook threats when trapped in a leg entanglement. Rather than panicking or explosively ripping the leg free—which paradoxically exposes the heel to finishing mechanics—the heel strip employs precise hand fighting to systematically peel the attacker's grip off the heel, removing the rotational control needed for a heel hook finish. This technique bridges the gap between passive survival and active escape, giving the defender a concrete mechanical action to address the most dangerous aspect of the position.

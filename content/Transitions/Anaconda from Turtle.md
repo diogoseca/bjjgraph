@@ -13,6 +13,13 @@ description: "Learn Anaconda from Turtle in BJJ. Step-by-step execution from Tur
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Anaconda from Turtle/Attacker|Play as Attacker]]
+[[Anaconda from Turtle/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Anaconda from Turtle is a dynamic submission setup that transitions from turtle top position to anaconda control through a committed rolling motion. This technique is mechanically related to the Darce choke but distinguished by trapping the near arm instead of the far arm, and it requires rolling to your side or back rather than finishing from top position. The anaconda exploits the opponent's defensive turtle posture by threading your arm under their neck while trapping their near arm, then using a figure-four grip and rolling motion to secure the optimal choking angle.

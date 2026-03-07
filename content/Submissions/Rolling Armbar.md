@@ -15,6 +15,13 @@ description: "Master the Rolling Armbar in BJJ. Dynamic submission from guard an
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Rolling Armbar/Attacker|Play as Attacker]]
+[[Rolling Armbar/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Rolling Armbar represents one of the most dynamic and technically sophisticated submissions in Brazilian Jiu-Jitsu, combining rotational movement with precise joint control to attack the elbow. Unlike static armbars from established positions, the rolling variation capitalizes on momentum and timing, making it particularly effective during transitions and scrambles. This technique requires excellent body coordination, spatial awareness, and the ability to maintain arm control while rotating through space. The rolling armbar is most commonly executed from guard positions when the opponent attempts to posture or stack, though advanced practitioners can hit it from standing, during takedown attempts, or even as a counter to passing attempts. The technique's effectiveness lies in its ability to surprise opponents who are focused on other objectives, making it a high-percentage finish for those who master the rolling mechanics. The continuous rotation creates tremendous leverage on the elbow joint while limiting the opponent's defensive options, as they must defend the submission while managing their own balance during the roll.

@@ -13,6 +13,13 @@ description: "Master the Bull Pass from Collar Sleeve Guard. Complete BJJ guide 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Bull Pass from Collar Sleeve/Attacker|Play as Attacker]]
+[[Bull Pass from Collar Sleeve/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The bull pass from collar sleeve guard is a dynamic speed-based guard passing technique that combines aggressive grip fighting with explosive lateral movement. Unlike pressure-based passes that methodically grind through the guard structure, the bull pass exploits momentary grip vulnerability by quickly redirecting the opponent's legs to one side while stepping laterally to clear the guard entirely. The technique derives its name from the bullfighter concept—redirecting the opponent's defensive structure rather than forcing through it.

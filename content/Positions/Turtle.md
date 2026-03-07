@@ -13,6 +13,13 @@ description: "Master turtle position in BJJ. Strategic guide covering defensive 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Turtle/Bottom|Play as Bottom]]
+[[Turtle/Top|Play as Top]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Turtle position is a transitional defensive posture in Brazilian Jiu-Jitsu where the practitioner is on hands and knees with their back exposed to the opponent. While traditionally viewed as a weak position in wrestling due to back exposure, modern BJJ has transformed the turtle into a dynamic guard recovery platform and attacking position. The turtle serves as a critical juncture between being passed and recovering guard, offering numerous defensive options, sweep opportunities, and even submission threats from both perspectives. From the bottom, the key lies in maintaining a tight defensive structure while actively working to improve position rather than remaining static. From the top, the position offers multiple attacking pathways including back takes, front headlock submissions, and crucifix entries. The position requires excellent awareness of back defense, understanding of weight distribution, and precise timing to execute rolls, stand-ups, and guard recoveries or attacks depending on which perspective you occupy. Success in turtle position from either angle demands constant movement, grip fighting excellence, and the ability to read opponent's weight distribution and intentions in real-time.

@@ -13,6 +13,13 @@ description: "Master the Russian Leg Lasso guard pass in BJJ. Systematic approac
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Pass Russian Leg Lasso/Attacker|Play as Attacker]]
+[[Pass Russian Leg Lasso/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Passing the Russian Leg Lasso is one of the more demanding guard passing challenges in gi-based Brazilian Jiu-Jitsu. The Russian variation adds layers of control beyond standard lasso guard, combining a deep leg lasso threaded through the passer's arm with coordinated collar and sleeve grips that create a mechanical pulley system capable of generating significant rotational force. Successfully navigating this position requires a methodical, sequential approach rather than explosive or improvised passing attempts.

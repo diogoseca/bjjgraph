@@ -13,6 +13,13 @@ description: "Master Crackhead Control to Mission Control in BJJ. Reset from hig
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Crackhead Control to Mission Control/Attacker|Play as Attacker]]
+[[Crackhead Control to Mission Control/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Crackhead Control to Mission Control transition represents a strategic reset within the 10th Planet rubber guard system, allowing the bottom player to move from a high-risk, high-reward attacking position to a more stable control platform. This transition becomes essential when the opponent begins recovering posture, when back exposure risk becomes too significant, or when you want to consolidate control before launching a new submission chain.

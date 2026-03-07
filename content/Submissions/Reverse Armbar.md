@@ -15,6 +15,13 @@ description: "Master the Reverse Armbar in BJJ. Complete guide with safety proto
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Reverse Armbar/Attacker|Play as Attacker]]
+[[Reverse Armbar/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Reverse Armbar is an advanced elbow hyperextension technique distinguished by its inverted body positioning relative to the standard armbar. Unlike the traditional armbar where you face toward your opponent's head, the reverse armbar requires you to rotate your body 180 degrees so your hips face toward their feet while maintaining control of their arm. This submission is particularly effective in scramble situations, failed standard armbar attempts, or when opponents defend the conventional armbar by turning their thumb down. The reverse mechanics create unexpected leverage angles that catch even experienced practitioners off-guard, as defensive instincts trained for standard armbars often fail against this variation. The technique demands precise hip positioning, tight arm isolation, and careful rotational control to prevent escape while maintaining submission pressure. Success hinges on understanding how the reversed body angle changes the leverage dynamics—your legs must control their shoulder and head differently, and your hip placement becomes critical for generating breaking force without losing control.

@@ -13,6 +13,13 @@ description: "Master the hip escape from Reverse Kesa-Gatame in BJJ. Systematic 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Escape Reverse Kesa-Gatame/Attacker|Play as Attacker]]
+[[Escape Reverse Kesa-Gatame/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Escape from Reverse Kesa-Gatame is a systematic hip escape technique targeting guard recovery from one of the more mechanically challenging scarf hold pins. Unlike the explosive bridge escape from this position, this technique relies on incremental space creation through framing, shrimping, and knee insertion to methodically dismantle the pin. The reverse orientation of Kesa-Gatame eliminates the bottom player's ability to frame against the opponent's face and neck, requiring adaptation of standard side control escape mechanics to account for the top player facing toward the legs.

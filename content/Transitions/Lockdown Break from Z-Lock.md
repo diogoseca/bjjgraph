@@ -13,6 +13,13 @@ description: "Master the Lockdown Break from Z-Lock Half Guard. Systematic leg e
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Lockdown Break from Z-Lock/Attacker|Play as Attacker]]
+[[Lockdown Break from Z-Lock/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Lockdown Break from Z-Lock Half Guard is a critical positional maintenance technique for the top player who finds their leg trapped in the bottom player's Z-Lock configuration. The Z-Lock combines traditional lockdown mechanics with a butterfly hook element, creating a dual-threat entanglement that restricts the top player's mobility and exposes them to sweeps from multiple angles. Breaking this configuration is often the first tactical priority before attempting any guard pass, as the Z-Lock's enhanced control makes standard passing sequences ineffective or dangerous.

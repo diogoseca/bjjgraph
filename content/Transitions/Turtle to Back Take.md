@@ -13,6 +13,13 @@ description: "Master the Turtle to Back Take in BJJ. Complete guide covering sea
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Turtle to Back Take/Attacker|Play as Attacker]]
+[[Turtle to Back Take/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Turtle to Back Take represents one of the most fundamental and high-percentage transitions in Brazilian Jiu-Jitsu. When an opponent assumes the turtle position, they create a defensive shell that protects against many attacks but simultaneously exposes their back. This transition capitalizes on that exposure by systematically breaking down the turtle structure and establishing dominant back control. The technique involves controlling the opponent's hips, preventing their escape to guard, inserting hooks methodically, and securing the seatbelt grip configuration.

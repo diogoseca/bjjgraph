@@ -13,6 +13,13 @@ description: "Master the 3-4 Mount to Technical Mount transition in BJJ. Complet
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[3-4 Mount to Technical Mount/Attacker|Play as Attacker]]
+[[3-4 Mount to Technical Mount/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The 3-4 Mount to Technical Mount transition capitalizes on the bottom player's natural defensive reactions to advance from asymmetric mount control into a position optimized for armbar attacks and back takes. This represents one of the most organic progressions within the mount hierarchy, as the bottom player's attempts to turn away or create space on the lighter side of 3-4 Mount naturally expose the angles needed for Technical Mount entry. The asymmetric weight distribution of 3-4 Mount creates predictable defensive patterns that a prepared top player exploits through precise timing and arm isolation.

@@ -13,6 +13,13 @@ description: "Master posture recovery inside the triangle choke in BJJ. Complete
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Posture in Triangle/Attacker|Play as Attacker]]
+[[Posture in Triangle/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Posture in Triangle is a critical defensive transition executed when caught in an opponent's triangle choke from top position. The technique focuses on recovering vertical spine alignment and establishing structural integrity to neutralize the choking mechanism before attempting a full escape sequence. Rather than fighting the triangle lock directly through arm extraction or explosive movement, posture recovery addresses the root mechanical advantage the triangle player relies on: broken posture that allows optimal choking angle and hip elevation. Early posture recovery dramatically increases escape probability, while delayed attempts face exponentially increasing resistance as the triangle tightens.

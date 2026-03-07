@@ -13,6 +13,13 @@ description: "Learn Deashi Harai in BJJ. Step-by-step execution from Standing Po
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Deashi Harai/Attacker|Play as Attacker]]
+[[Deashi Harai/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Deashi Harai, also known as the advanced foot sweep, is a foundational Judo technique that has been successfully integrated into modern Brazilian Jiu-Jitsu standup game. This technique exploits the opponent's forward momentum and weight transfer, using precise timing to sweep their leading leg as it advances. Unlike more forceful throws, Deashi Harai relies on perfect synchronization between grip control, body positioning, and the sweeping action of your foot against the opponent's ankle or lower shin.

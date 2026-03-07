@@ -13,6 +13,13 @@ description: "Master 50-50 Guard in BJJ. Symmetrical leg entanglement with contr
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[50-50 Guard/Bottom|Play as Bottom]]
+[[50-50 Guard/Top|Play as Top]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The 50-50 Guard is a symmetrical leg entanglement position where both practitioners mirror each other with their legs intertwined, each person's leg positioned across the opponent's hip line. Named for the theoretically equal positioning of both competitors, this position represents one of the most technical and controversial positions in modern Brazilian Jiu-Jitsu due to its potential for both high-level leg attacks and strategic stalemates.

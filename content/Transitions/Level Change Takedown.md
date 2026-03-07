@@ -13,6 +13,13 @@ description: "Master the level change takedown in BJJ. Complete guide to penetra
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Level Change Takedown/Attacker|Play as Attacker]]
+[[Level Change Takedown/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The level change takedown is the most fundamental wrestling-based attack in Brazilian Jiu-Jitsu, serving as the primary method for bringing an opponent to the ground from standing. The technique centers on lowering your hips through knee flexion to create a penetration angle beneath your opponent's center of gravity, then driving forward to complete the takedown. This mechanic forms the foundation of both single leg and double leg takedown entries, making it the single most important standing skill for any BJJ competitor who engages from the feet.

@@ -13,6 +13,13 @@ description: "Master the Butterfly Guard Pull in BJJ. Step-by-step guide to grip
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Butterfly Guard Pull/Attacker|Play as Attacker]]
+[[Butterfly Guard Pull/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Butterfly Guard Pull is a tactical transition from standing position directly into butterfly guard, bypassing the generic open guard phase to immediately establish hooks and an offensive sweeping platform. Unlike standard guard pulls that land in closed guard or seated guard, the butterfly guard pull places you in a position with immediate sweeping capability, making it a preferred choice for guard players who want to dictate the pace from the moment ground engagement begins.

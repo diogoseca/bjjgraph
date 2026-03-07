@@ -15,6 +15,13 @@ description: "Master the Bicep Slicer in BJJ. Complete guide with safety protoco
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Bicep Slicer/Attacker|Play as Attacker]]
+[[Bicep Slicer/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Bicep Slicer is a devastating compression lock that applies crushing pressure to the bicep muscle and hyperextends the elbow joint. This advanced submission works by trapping the opponent's arm between your shin and forearm, creating a lever that compresses the bicep against the humerus bone while simultaneously hyperextending the elbow. Most commonly applied from the crucifix, truck, or modified mount positions, the bicep slicer is a technical submission that requires precise positioning and control. The compression creates intense pain in the bicep muscle belly, while the hyperextension threatens the elbow joint, creating a two-fold attack that is difficult to defend. This submission is particularly effective in no-gi grappling where the opponent cannot use gi grips to defend, and it serves as an excellent backup when traditional chokes or arm locks are unavailable. The bicep slicer's effectiveness comes from its ability to attack an area that most grapplers do not regularly condition or defend, making it a high-percentage finish when the proper positioning is achieved. Understanding the mechanical advantage required and the precise angles needed separates successful application from ineffective attempts.

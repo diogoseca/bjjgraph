@@ -13,6 +13,13 @@ description: "Learn the Basic Butterfly Sweep in BJJ. Step-by-step execution fro
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Basic Butterfly Sweep/Attacker|Play as Attacker]]
+[[Basic Butterfly Sweep/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Basic Butterfly Sweep is a fundamental technique from the Butterfly Guard that exploits opponent's forward pressure and balance. Using hooks underneath the opponent's thighs combined with proper grip control and hip movement, the practitioner elevates and off-balances the opponent to achieve a dominant top position. This sweep is highly effective against opponents who attempt to establish base in your butterfly guard or pressure forward without proper posture. The technique relies on timing, leverage, and the mechanical advantage created by the butterfly hooks rather than pure strength.

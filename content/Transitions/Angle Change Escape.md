@@ -13,6 +13,13 @@ description: "Angle Change Escape from Gogoplata Control. Lateral movement defen
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Angle Change Escape/Attacker|Play as Attacker]]
+[[Angle Change Escape/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Angle Change Escape represents a systematic defensive response to Gogoplata Control that exploits the positional vulnerability created by the bottom player's shin-across-throat configuration. Rather than attempting to pull straight back against the closed-loop system of the gogoplata, this technique utilizes lateral movement to change the angle of the shin relative to the trachea, reducing compression and creating space for extraction.

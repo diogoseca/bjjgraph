@@ -15,6 +15,13 @@ description: "Master the Crotch Ripper leg lock in BJJ. Groin compression submis
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Crotch Ripper/Attacker|Play as Attacker]]
+[[Crotch Ripper/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Crotch Ripper is a compression-based leg lock submission originating from the 10th Planet Jiu-Jitsu system, specifically designed to be executed from the lockdown position in half guard. This technique applies intense pressure to the opponent's groin, hip flexors, and inner thigh muscles through a combination of lockdown control and strategic knee positioning. Unlike traditional joint locks that target specific joints, the Crotch Ripper creates a painful compression that forces the opponent to tap due to muscular strain rather than joint damage. The submission is particularly effective in no-gi grappling where the lockdown can be secured without gi grips interfering with leg positioning.

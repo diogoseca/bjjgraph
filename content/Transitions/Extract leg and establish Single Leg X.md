@@ -13,6 +13,13 @@ description: "Learn leg extraction from Leg Knot to Single Leg X-Guard in BJJ. E
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Extract leg and establish Single Leg X/Attacker|Play as Attacker]]
+[[Extract leg and establish Single Leg X/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The leg extraction to Single Leg X-Guard represents a critical defensive transition from the Leg Knot Bottom position, transforming a compromised entanglement into an offensive guard platform. This technique addresses the fundamental problem of being trapped in an inferior leg entanglement by systematically clearing the trapped leg and immediately establishing Single Leg X-Guard before the opponent can re-engage their leg attack system.

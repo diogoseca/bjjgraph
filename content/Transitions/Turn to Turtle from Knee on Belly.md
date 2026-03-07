@@ -13,6 +13,13 @@ description: "Master the Turn to Turtle escape from Knee on Belly in BJJ. Comple
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Turn to Turtle from Knee on Belly/Attacker|Play as Attacker]]
+[[Turn to Turtle from Knee on Belly/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Turn to Turtle from Knee on Belly is a defensive escape where the bottom player rotates away from crushing knee pressure to establish a four-point turtle base. This transition occurs most frequently when the intensity of diaphragm compression makes standard guard recovery techniques like framing and shrimping impractical or impossible. Rather than fighting the pressure directly, the bottom player redirects their energy into a controlled rotation that removes the knee from their torso, trading the immediate respiratory distress of Knee on Belly for the positional challenges of turtle defense.

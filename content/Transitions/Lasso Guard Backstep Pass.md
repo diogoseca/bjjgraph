@@ -13,6 +13,13 @@ description: "Master the Lasso Guard Backstep Pass in BJJ. Learn rotational pass
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Lasso Guard Backstep Pass/Attacker|Play as Attacker]]
+[[Lasso Guard Backstep Pass/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Lasso Guard Backstep Pass is a rotational passing technique that exploits the lasso guard's directional vulnerability. The lasso's power comes from the perpendicular angle of the guard player's shin against the trapped arm, creating a lever that restricts mobility and base. The backstep defeats this mechanism by rotating away from the lasso, removing the perpendicular angle entirely as the passer's body turns in line with the guard player's shin. Rather than fighting the lasso's leverage through direct grip breaking or forward pressure, the backstep changes the geometric relationship between bodies to neutralize the position structurally.

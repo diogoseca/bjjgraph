@@ -13,6 +13,13 @@ description: "Master the bridge escape from 3-4 mount in BJJ. Complete guide to 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Bridge Escape from 3-4 Mount/Attacker|Play as Attacker]]
+[[Bridge Escape from 3-4 Mount/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Bridge Escape from 3-4 Mount exploits the fundamental weakness inherent in the asymmetric weight distribution of the three-quarter mount position. Unlike escaping traditional mount where weight is evenly distributed across both sides, the 3-4 Mount's posted leg creates a predictable weak point in the top player's base that can be targeted with a well-timed bridge. The bottom player bridges toward the heavier mounted-knee side to maximally disrupt the top player's balance, then directs the escape movement toward the lighter posted-leg side where base recovery is most difficult.

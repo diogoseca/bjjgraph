@@ -13,6 +13,13 @@ description: "Master the Back Door Escape from Darce Control in BJJ. Step-by-ste
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Back Door Escape/Attacker|Play as Attacker]]
+[[Back Door Escape/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Back Door Escape is a critical defensive technique used to escape from Darce Control by moving backward and around the opponent rather than attempting to fight forward through the choke. This counterintuitive escape exploits a fundamental weakness in the Darce grip structure—the attacker's control is strongest when the defender moves forward or laterally, but significantly weaker when the defender retreats toward the attacker's back.

@@ -13,6 +13,13 @@ description: "Master the Rear Naked Choke from back control. Step-by-step arm pl
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Rear Naked Choke/Attacker|Play as Attacker]]
+[[Rear Naked Choke/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Rear Naked Choke is the highest-percentage submission in Brazilian Jiu-Jitsu, executed from back control by encircling the opponent's neck with your choking arm and applying bilateral pressure to the carotid arteries. This blood choke renders opponents unconscious within seconds when properly applied, making it the preferred finishing technique from the back position in both gi and no-gi competition.

@@ -13,6 +13,13 @@ description: "Master the 50-50 Guard to Outside Ashi transition. Clear opponent'
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[50-50 Guard to Outside Ashi/Attacker|Play as Attacker]]
+[[50-50 Guard to Outside Ashi/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The 50-50 Guard to Outside Ashi transition is a fundamental leg entanglement exchange that breaks the symmetrical stalemate inherent in 50-50 by extracting your trapped leg and repositioning to an asymmetrical outside ashi-garami configuration. This transition is essential for practitioners who find themselves stuck in the mutual leg entanglement of 50-50, where neither competitor has a clear advantage for heel hook or other leg lock finishes.

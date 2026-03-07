@@ -13,6 +13,13 @@ description: "Master the Double Sleeve to Spider Guard transition in BJJ. Learn 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Double Sleeve to Spider/Attacker|Play as Attacker]]
+[[Double Sleeve to Spider/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Double Sleeve to Spider Guard transition represents one of the most natural guard evolution pathways in gi jiu-jitsu. Starting from bilateral sleeve control with feet on the opponent's hips, the bottom player systematically repositions their feet from the hips to the biceps, establishing the distinctive spider guard hooks that create superior distance management and enhanced attacking angles. This transition leverages the existing sleeve grips as a foundation, making it one of the lowest-risk guard transitions available from the double sleeve position.

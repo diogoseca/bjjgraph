@@ -13,6 +13,13 @@ description: "Master arm recovery from crucifix in BJJ. Systematic guide to free
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Arm Recovery from Crucifix/Attacker|Play as Attacker]]
+[[Arm Recovery from Crucifix/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Arm Recovery from Crucifix is a critical defensive transition where the bottom player systematically works to free their trapped arm from the opponent's leg configuration and recover to closed guard. The crucifix represents one of the most dangerous control positions in Brazilian Jiu-Jitsu, with both arms isolated and the neck fully exposed to chokes. This technique addresses the fundamental problem of arm extraction through hip mechanics and angular displacement rather than direct force against the leg trap.

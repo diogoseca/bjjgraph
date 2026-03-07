@@ -13,6 +13,13 @@ description: "Master Paper Cutter Choke from Kesa-Gatame. Step-by-step collar gr
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Paper Cutter Choke/Attacker|Play as Attacker]]
+[[Paper Cutter Choke/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Paper Cutter Choke is a high-percentage gi submission executed from Kuzure Kesa-Gatame (modified scarf hold) that utilizes the opponent's lapel as a blade against their carotid artery. Unlike many chokes that require significant positional adjustment, the Paper Cutter can be applied with minimal movement from an already dominant position, making it an efficient finishing option when your opponent is focused on defending arm attacks.

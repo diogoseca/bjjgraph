@@ -13,6 +13,13 @@ description: "Master straight ankle lock control in BJJ. Complete strategic guid
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Straight Ankle Lock Control/Bottom|Play as Bottom]]
+[[Straight Ankle Lock Control/Top|Play as Top]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The straight ankle lock control position represents one of the most fundamental leg entanglement positions in Brazilian Jiu-Jitsu, serving as both an entry-level foot lock control and a tactical hub for transitioning to more advanced leg attack systems. This position is characterized by the attacker securing control of their opponent's ankle while establishing positional dominance that limits defensive options and creates submission opportunities.

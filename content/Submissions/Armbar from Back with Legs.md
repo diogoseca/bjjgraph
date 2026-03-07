@@ -15,6 +15,13 @@ description: "Master Armbar from Back with Legs in BJJ. Complete guide with safe
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Armbar from Back with Legs/Attacker|Play as Attacker]]
+[[Armbar from Back with Legs/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Armbar from Back with Legs is an advanced finishing technique that leverages the superior control position of back mount to isolate and hyperextend the opponent's elbow joint. This variation differs from standard armbar attacks by maintaining leg control throughout the submission, using the legs to trap the opponent's upper body while transitioning the arm across your hips. The technique exemplifies the principle of maintaining dominant control even during submission transitions, as you never fully relinquish the back position until the armbar is secured. This submission is particularly effective against opponents who defend the rear naked choke by keeping their chin tucked and arms tight, as it punishes defensive hand fighting by converting grip breaks into submission opportunities. The leg configuration creates a powerful fulcrum that makes escape extremely difficult once properly applied, though the transition requires precise timing and body positioning to prevent rolling escapes. Success depends on understanding how to use your legs not just for control, but as active submission tools that guide the opponent's body into the finishing position.

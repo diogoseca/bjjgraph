@@ -13,6 +13,13 @@ description: "Master the Choke from Crucifix in BJJ. Highest-percentage neck att
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Choke from Crucifix/Attacker|Play as Attacker]]
+[[Choke from Crucifix/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Choke from Crucifix is the primary and highest-percentage submission available from the crucifix position, exploiting the unique bilateral arm control to attack the neck with virtually no defensive barriers. With both of the opponent's arms trapped—one in the leg triangle and the other controlled by the hands—the bottom player cannot protect their neck using traditional two-on-one defense or chin tuck combined with hand fighting. This creates an unobstructed path to the carotid arteries that makes the crucifix choke one of the most reliable finishes in competitive grappling.

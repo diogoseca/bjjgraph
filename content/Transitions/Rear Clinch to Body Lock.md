@@ -13,6 +13,13 @@ description: "Master the Rear Clinch to Body Lock transition in BJJ. Convert sea
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Rear Clinch to Body Lock/Attacker|Play as Attacker]]
+[[Rear Clinch to Body Lock/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Rear Clinch to Body Lock is a standing grip reconfiguration where the controlling player converts from a seatbelt, collar tie, or mixed grip configuration in the rear clinch to a unified body lock around the opponent's midsection. By wrapping both arms around the opponent's waist and locking hands together, the attacker creates a closed kinetic chain that provides direct mechanical access to the opponent's center of gravity, enabling powerful mat returns, lifts, and takedown finishes that are difficult or impossible from the seatbelt configuration alone.

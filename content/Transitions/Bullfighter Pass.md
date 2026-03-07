@@ -13,6 +13,13 @@ description: "Master the Bullfighter Pass (Toreando) in BJJ. Complete guide to t
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Bullfighter Pass/Attacker|Play as Attacker]]
+[[Bullfighter Pass/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Bullfighter Pass, also known as the Toreando Pass, is a dynamic standing guard pass that uses lateral movement and precise grip control to bypass the opponent's guard. The name comes from the bullfighting motion of moving to the side while controlling the opponent's legs, similar to a matador avoiding a charging bull. This pass is effective against various open guard configurations including Spider Guard, De La Riva Guard, and Collar Sleeve Guard.

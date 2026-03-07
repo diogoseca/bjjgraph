@@ -13,6 +13,13 @@ description: "Master the mounted triangle to S mount transition in BJJ. Learn sy
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Mounted Triangle to S Mount/Attacker|Play as Attacker]]
+[[Mounted Triangle to S Mount/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The mounted triangle to S mount transition is a strategic positional conversion that trades triangle submission pressure for superior armbar mechanics and positional stability. When the mounted triangle choke is well-defended through chin tuck and defensive framing, the attacker recognizes that the trapped arm is better attacked through the perpendicular leverage of S mount rather than continued squeeze attempts. The leg configuration of mounted triangle provides a natural pathway into S mount, as the leg already positioned over the opponent's shoulder simply needs to extend further over the head while the locking leg repositions across the torso.

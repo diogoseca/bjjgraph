@@ -13,6 +13,13 @@ description: "Master the Feet on Hips Sickle Sweep in BJJ. Step-by-step guide to
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Feet on Hips Sickle Sweep/Attacker|Play as Attacker]]
+[[Feet on Hips Sickle Sweep/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Feet on Hips Sickle Sweep is a fundamental open guard sweep that capitalizes on the distance management structure of feet on hips guard to generate powerful lateral off-balancing force. The technique works by maintaining one foot on the opponent's hip as a pushing frame while the other leg drops behind the opponent's far ankle in a sickle-like hooking motion. When combined with coordinated upper body pulls through collar and sleeve grips, this creates an irresistible rotational force that topples the opponent laterally over the hooking leg, landing the sweeper in side control top.

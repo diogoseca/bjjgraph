@@ -13,6 +13,13 @@ description: "Master the knee slice from seated guard in BJJ. Complete guide cov
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Knee Slice from Seated Guard/Attacker|Play as Attacker]]
+[[Knee Slice from Seated Guard/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The knee slice from seated guard is a fundamental guard passing technique where the top player drives their lead knee diagonally across the seated opponent's thigh line while establishing upper body control through crossface and grips. This pass specifically addresses the primary challenge of seated guard: the distance that the bottom player maintains with posted hands and active feet. By combining grip establishment with a decisive forward knee drive, the passer closes distance and creates a splitting wedge that divides the opponent's legs, converting an open-space guard exchange into a pressure-based half guard battle.

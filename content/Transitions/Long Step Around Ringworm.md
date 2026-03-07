@@ -13,6 +13,13 @@ description: "Master Long Step Around Ringworm pass in BJJ. Navigate complex lap
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Long Step Around Ringworm/Attacker|Play as Attacker]]
+[[Long Step Around Ringworm/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Long Step Around Ringworm is a specialized guard passing technique designed to circumvent the complex lapel configurations that define ringworm guard. When an opponent establishes ringworm—typically involving multiple lapel wraps around your legs and arms—standard pressure passing becomes ineffective because the fabric barriers prevent hip contact and create persistent mechanical obstacles.

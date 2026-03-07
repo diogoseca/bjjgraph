@@ -13,6 +13,13 @@ description: "Master the frame and escape from mounted triangle in BJJ. Essentia
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Frame and Escape Mounted Triangle/Attacker|Play as Attacker]]
+[[Frame and Escape Mounted Triangle/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Frame and Escape Mounted Triangle is a critical defensive technique executed from the bottom of mounted triangle position, addressing one of BJJ's most dangerous predicaments where both positional disadvantage and active submission danger converge simultaneously. This escape relies on systematic framing against the opponent's triangle structure to create space, followed by deliberate hip movement to extract from the submission threat and recover to a neutral guard position. The technique represents the methodical, energy-efficient approach to mounted triangle defense, contrasting with explosive bridging escapes that carry higher risk-reward profiles.

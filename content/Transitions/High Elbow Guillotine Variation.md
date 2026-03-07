@@ -13,6 +13,13 @@ description: "Master the High Elbow Guillotine from Hindulotine. Step-by-step gr
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[High Elbow Guillotine Variation/Attacker|Play as Attacker]]
+[[High Elbow Guillotine Variation/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The High Elbow Guillotine Variation represents the highest-percentage finishing mechanic from the Hindulotine position, distinguished by the dramatic elevation of the choking elbow above the opponent's shoulder line. This grip configuration creates a lever arm that exponentially increases pressure on the carotid arteries compared to standard guillotine mechanics. The technique evolved from catch wrestling principles but has been refined through modern no-gi competition to become the preferred finishing method when holding bottom Hindulotine control.

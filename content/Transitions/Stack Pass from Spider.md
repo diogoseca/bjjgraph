@@ -13,6 +13,13 @@ description: "Master the Stack Pass from Spider Guard in BJJ. Learn timing, stac
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Stack Pass from Spider/Attacker|Play as Attacker]]
+[[Stack Pass from Spider/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Stack Pass from Spider Guard is a high-percentage guard passing technique that exploits the moment when the spider guard bottom player commits to a submission entry such as a triangle or omoplata. When the bottom player elevates their hips and releases foot pressure from the biceps to initiate an attack, the top player capitalizes by driving forward underneath the elevated hips, compressing the bottom player onto their neck and shoulders, and walking around to complete the pass. The technique transforms the bottom player's offensive momentum into a passing opportunity by removing their primary defensive tools—distance, frames, and hip mobility—through vertical compression.

@@ -13,6 +13,13 @@ description: "Master the Knee Slice Despite Lapel pass in BJJ. Complete guide to
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Knee Slice Despite Lapel/Attacker|Play as Attacker]]
+[[Knee Slice Despite Lapel/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Knee Slice Despite Lapel represents a specialized passing technique designed to complete the knee slice pass even when the opponent has established lapel guard configurations. Unlike standard knee slice mechanics that rely on unobstructed hip-to-hip contact, this variation addresses the unique barrier created by lapel fabric wrapped around your leg or torso.

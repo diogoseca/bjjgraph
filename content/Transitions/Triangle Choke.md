@@ -13,6 +13,13 @@ description: "Finish the triangle choke from mounted triangle position. Systemat
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Triangle Choke/Attacker|Play as Attacker]]
+[[Triangle Choke/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Triangle Choke from Mounted Triangle represents the terminal finishing sequence of one of BJJ's most devastating submission chains. Beginning from an already-established mounted triangle configuration, the technique focuses on optimizing the figure-four leg lock around the opponent's neck and one trapped arm to create bilateral carotid artery compression. The mounted variation provides a decisive mechanical advantage over guard-based triangles because gravity assists the squeeze, the opponent cannot effectively stack or posture, and the top player's weight compounds the choking pressure.

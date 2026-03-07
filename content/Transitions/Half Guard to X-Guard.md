@@ -13,6 +13,13 @@ description: "Master the Half Guard to X-Guard transition in BJJ. Comprehensive 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Half Guard to X-Guard/Attacker|Play as Attacker]]
+[[Half Guard to X-Guard/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Half Guard to X-Guard transition exploits the mechanical vulnerability created when the top player's weight shifts forward or they attempt to stand from half guard. By threading a butterfly hook behind the opponent's near knee while retaining the half guard leg trap, the bottom player creates a butterfly half guard intermediate that bridges directly into the X-Guard configuration. This transition converts a defensive retention position into one of the most powerful sweeping and leg entanglement platforms in modern grappling, fundamentally changing the positional dynamic from survival to attack.

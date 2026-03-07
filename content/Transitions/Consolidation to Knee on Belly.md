@@ -13,6 +13,13 @@ description: "Master the Consolidation to Knee on Belly transition in BJJ. Learn
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Consolidation to Knee on Belly/Attacker|Play as Attacker]]
+[[Consolidation to Knee on Belly/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Consolidation to Knee on Belly transition represents a critical positional advancement in the top-game hierarchy, bridging the gap between the static grinding pressure of consolidated side control and the dynamic mobile pressure of knee on belly. This technique allows the top player to upgrade their position from a holding pattern to an active attacking platform that scores additional competition points and opens multiple submission pathways including baseball bat chokes, armbars, and cross collar chokes.

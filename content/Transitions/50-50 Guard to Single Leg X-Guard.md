@@ -13,6 +13,13 @@ description: "Master the 50-50 Guard to Single Leg X-Guard transition in BJJ. Co
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[50-50 Guard to Single Leg X-Guard/Attacker|Play as Attacker]]
+[[50-50 Guard to Single Leg X-Guard/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The 50-50 Guard to Single Leg X-Guard transition represents a strategic positional upgrade that transforms a symmetrical leg entanglement into an asymmetrical sweeping platform. From the defensive 50-50 bottom position, this technique extracts your outside leg while maintaining control of opponent's leg, allowing you to establish the powerful Single Leg X-Guard configuration. The biomechanical principle at work is converting a mirrored entanglement where both players have equal leverage into one where you possess superior off-balancing architecture.

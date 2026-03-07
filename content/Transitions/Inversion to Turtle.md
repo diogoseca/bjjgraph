@@ -13,6 +13,13 @@ description: "Master the Inversion to Turtle escape from Ushiro Ashi-Garami. Com
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Inversion to Turtle/Attacker|Play as Attacker]]
+[[Inversion to Turtle/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Inversion to Turtle escape represents one of the most critical defensive transitions from the dangerous Ushiro Ashi-Garami position. When trapped in a reversed leg entanglement where standard escape mechanics are compromised, committing to a full inversion that terminates in turtle position offers a reliable path to safety. This technique capitalizes on the inherent difficulty attackers face in maintaining control during rapid rotational movement.

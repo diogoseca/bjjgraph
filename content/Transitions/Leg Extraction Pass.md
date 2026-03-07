@@ -13,6 +13,13 @@ description: "Master the Leg Extraction Pass from leg entanglements. Step-by-ste
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Leg Extraction Pass/Attacker|Play as Attacker]]
+[[Leg Extraction Pass/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Leg Extraction Pass is a fundamental defensive passing technique used when the top player finds their leg caught inside a leg entanglement and needs to safely disengage while advancing position rather than remaining in the danger zone of heel hooks, kneebars, and ankle locks. Unlike offensive passing techniques that start from an established base, this transition begins from a compromised position where the opponent already has leg control, making the extraction mechanics and timing critical to avoid being submitted during the escape process.

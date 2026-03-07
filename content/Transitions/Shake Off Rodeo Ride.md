@@ -13,6 +13,13 @@ description: "Master the Shake Off Rodeo Ride escape in BJJ. Learn explosive bas
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Shake Off Rodeo Ride/Attacker|Play as Attacker]]
+[[Shake Off Rodeo Ride/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Shake Off Rodeo Ride is an explosive base-disruption escape where the bottom practitioner uses rapid hip elevation, directional bucking, and coordinated posting to physically dislodge the rider's dynamic control and return to a neutral turtle position. Unlike rolling escapes that accept back exposure during rotation or the Escape from Rodeo Ride that targets side control through base collapse, the Shake Off works by attacking the rider's balance directly—using sharp hip extension and lateral movement to break the connection between the rider's hips and your back. The technique draws its mechanical principles from the same force generation used in bridge escapes from mount, adapted for the hands-and-knees base structure of turtle.

@@ -13,6 +13,13 @@ description: "Master sweeps against Combat Base in BJJ. Complete guide to exploi
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Sweep from Combat Base/Attacker|Play as Attacker]]
+[[Sweep from Combat Base/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Sweep from Combat Base exploits the inherent directional vulnerability of the asymmetric combat base stance, where one knee is posted and the opposite foot is planted flat. While this stance provides strong forward-backward stability, it creates a diagonal weakness running from the planted foot toward the posted knee. The guard player's objective is to load the top player's weight onto one of these supports, then remove it through hook elevation, foot attacks, or angular displacement, toppling them along the line of least resistance.

@@ -13,6 +13,13 @@ description: "Master the High Mount to S Mount transition in BJJ. Learn leg posi
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[High Mount to S Mount/Attacker|Play as Attacker]]
+[[High Mount to S Mount/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The High Mount to S Mount transition is a critical positional advancement that converts dominant high mount control into the premier armbar launching platform in Brazilian Jiu-Jitsu. This transition involves the top player swinging one leg over the opponent's head while simultaneously isolating the near arm, creating the perpendicular body angle that defines S Mount. The movement requires precise coordination between weight transfer, arm control, and leg positioning to prevent the bottom player from escaping during the transitional window.

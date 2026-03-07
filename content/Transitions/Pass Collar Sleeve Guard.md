@@ -13,6 +13,13 @@ description: "Learn to pass collar sleeve guard in BJJ. Complete guide covering 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Pass Collar Sleeve Guard/Attacker|Play as Attacker]]
+[[Pass Collar Sleeve Guard/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Passing the collar sleeve guard through direct grip elimination and forward pressure is the most fundamental approach to defeating this grip-based open guard. Unlike lateral passing methods such as the toreando or leg drag that navigate around the guard player's legs, this technique strips the guard structure at its foundation by systematically breaking both controlling grips before driving through the centerline to establish side control.

@@ -13,6 +13,13 @@ description: "Master Kesa Gatame (Scarf Hold) in BJJ. Strategic guide covering c
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Kesa Gatame/Bottom|Play as Bottom]]
+[[Kesa Gatame/Top|Play as Top]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Kesa Gatame, also known as Scarf Hold, represents one of judo's most effective pinning positions adapted for Brazilian Jiu-Jitsu. This position creates a unique control dynamic where the top practitioner sits perpendicular to their supine opponent, wrapping one arm around the opponent's head while controlling the near arm. The position's defining characteristic is the trade-off between offensive control and defensive vulnerability—while offering exceptional upper body immobilization and powerful submission opportunities, it simultaneously exposes the top player's back to potential attacks if proper awareness is not maintained.

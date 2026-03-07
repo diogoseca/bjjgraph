@@ -13,6 +13,13 @@ description: "Master the Escape Body Lock in BJJ. Complete guide to breaking loc
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Escape Body Lock/Attacker|Play as Attacker]]
+[[Escape Body Lock/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Escape Body Lock is a critical defensive transition executed when your opponent has established a locked grip around your torso from behind while standing. This position represents one of the most urgent defensive situations in no-gi grappling, as the body lock top player threatens immediate mat returns, back takes, throws, and positional advancement. The escape requires coordinated grip fighting, explosive hip movement, and strategic base manipulation to break the controlling connection and recover to a viable position.

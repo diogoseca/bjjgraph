@@ -13,6 +13,13 @@ description: "Master grasshopper guard in BJJ. Strategic guide covering elevatio
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Grasshopper Guard/Bottom|Play as Bottom]]
+[[Grasshopper Guard/Top|Play as Top]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Grasshopper Guard represents an unorthodox open guard position where the bottom practitioner inverts their body positioning, placing their shoulders near the mat while elevating their hips and legs toward the opponent. This inverted guard creates unique angles for leg attacks, especially kneebars and ankle locks, while simultaneously offering powerful sweeping mechanics through hip elevation and leg entanglement.

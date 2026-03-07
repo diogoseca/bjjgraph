@@ -13,6 +13,13 @@ description: "Master the Old School Sweep from half guard bottom. Complete guide
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Old School Sweep from Bottom/Attacker|Play as Attacker]]
+[[Old School Sweep from Bottom/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Old School Sweep is a signature technique of the 10th Planet half guard system, using the lockdown leg configuration combined with deep underhook and head control to generate a powerful rotational sweep from bottom position. This sweep transforms the defensive half guard bottom into an explosive offensive weapon, landing the practitioner directly in mount or side control. The technique's effectiveness stems from the coordinated use of three control points working in concert: the lockdown immobilizes the opponent's base, the underhook provides sweeping leverage, and the head control prevents defensive posting.

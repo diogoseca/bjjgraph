@@ -13,6 +13,13 @@ description: "Master Diamond Guard in BJJ. Closed guard variation using overhook
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Diamond Guard/Bottom|Play as Bottom]]
+[[Diamond Guard/Top|Play as Top]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Diamond Guard is a specialized closed guard variation where the guard player establishes an overhook on one of the opponent's arms while simultaneously controlling the opponent's head with the other hand, creating a diamond-shaped frame between the arms, head, and chest. This configuration dramatically amplifies posture-breaking effectiveness and creates direct pathways to high-percentage submissions including triangles, omoplatas, and kimuras.

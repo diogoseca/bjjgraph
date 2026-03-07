@@ -13,6 +13,13 @@ description: "Master Gift Wrap to Back in BJJ. Transition from S Mount to Back C
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Gift Wrap to Back/Attacker|Play as Attacker]]
+[[Gift Wrap to Back/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Gift Wrap to Back transition represents one of the most reliable pathways from mount to back control in Brazilian Jiu-Jitsu. This technique capitalizes on the opponent's natural defensive instinct to turn away from submission threats by using their own arm against them. When you establish the gift wrap grip—wrapping their arm across their body and securing it with your hand reaching under their neck—you create a mechanical trap that forces them to expose their back.

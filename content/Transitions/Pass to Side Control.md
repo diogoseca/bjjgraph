@@ -13,6 +13,13 @@ description: "Master Pass to Side Control from 50-50 Guard in BJJ. Extract legs 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Pass to Side Control/Attacker|Play as Attacker]]
+[[Pass to Side Control/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Passing to Side Control from 50-50 Guard represents a strategic decision to abandon leg lock exchanges in favor of establishing a dominant pinning position. This transition is particularly valuable when your opponent has effectively hidden their heel, when you lack the control needed for leg attacks, or when competing under rulesets that restrict heel hooks. The pass requires systematic leg extraction while maintaining pressure to prevent your opponent from following or re-establishing the entanglement.

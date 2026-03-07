@@ -13,6 +13,13 @@ description: "Master the Takedown from Standing Guard in BJJ. Learn level change
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Takedown from Standing Guard/Attacker|Play as Attacker]]
+[[Takedown from Standing Guard/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Takedown from Standing Guard is the top player's primary method for bringing a standing opponent to the ground while securing a dominant passing position. Unlike guard pull approaches that concede top position voluntarily, executing a takedown from the standing guard exchange establishes immediate positional superiority and scores two points in competition. The technique encompasses various wrestling-based entries—single leg, double leg, body lock, and trip variations—adapted for the BJJ context where grip fighting, submission threats, and guard pull timing create unique tactical considerations absent from pure wrestling exchanges.

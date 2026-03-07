@@ -13,6 +13,13 @@ description: "Master Back Take from Ashi Garami in BJJ. Step-by-step transition 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Back Take from Ashi/Attacker|Play as Attacker]]
+[[Back Take from Ashi/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Back Take from Ashi Garami represents a critical strategic pivot in the modern leg lock game, allowing practitioners to convert leg entanglement control into the most dominant position in Brazilian Jiu-Jitsu. When an opponent successfully defends leg attacks by hiding their heel or creates defensive frames that prevent submission finishes, the back take offers an alternative path to victory that maintains offensive momentum rather than resetting to neutral positions.

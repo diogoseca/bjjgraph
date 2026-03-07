@@ -13,6 +13,13 @@ description: "Master the Bridge from Reverse Mount escape in BJJ. Complete guide
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Bridge from Reverse Mount/Attacker|Play as Attacker]]
+[[Bridge from Reverse Mount/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Bridge from Reverse Mount is a fundamental escape technique used by the bottom player to create space and transition from the highly disadvantageous reverse mount position to turtle. Unlike standard mount escapes where the defender can frame against the opponent's chest and hips, reverse mount requires bridging into an opponent whose weight is distributed backward, creating different leverage dynamics. The bridge exploits the inherent instability of reverse mount—the top player's backward orientation means they lack the head control and visual cues available in standard mount, making explosive movement harder to anticipate and counter.

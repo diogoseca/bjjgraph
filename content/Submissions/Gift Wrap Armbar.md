@@ -15,6 +15,13 @@ description: "Master the Gift Wrap Armbar in BJJ. Complete guide to attacking th
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Gift Wrap Armbar/Attacker|Play as Attacker]]
+[[Gift Wrap Armbar/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Gift Wrap Armbar is a high-percentage joint lock submission that exploits the fundamental asymmetry created by gift wrap arm control. When one of the opponent's arms is trapped across their body in the gift wrap configuration, their remaining free arm becomes isolated and vulnerable to armbar attacks. This submission capitalizes on the opponent's inability to use both arms defensively, transforming dominant positional control into a finishing opportunity that is exceptionally difficult to defend.

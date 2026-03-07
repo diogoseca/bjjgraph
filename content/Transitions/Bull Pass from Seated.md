@@ -13,6 +13,13 @@ description: "Master the Bull Pass from Seated Guard in BJJ. Learn this pressure
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Bull Pass from Seated/Attacker|Play as Attacker]]
+[[Bull Pass from Seated/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Bull Pass from Seated Guard is a direct-pressure guard passing technique where the top player seizes control of the seated opponent's legs and drives forward with committed body weight to advance past them. Unlike the toreando pass, which relies on lateral misdirection and footwork, the bull pass channels energy straight ahead through the opponent's leg defense, pushing the legs aside while the passer's torso advances into dominant position. This technique takes its name from the charging, forward-driving energy that characterizes the movement.

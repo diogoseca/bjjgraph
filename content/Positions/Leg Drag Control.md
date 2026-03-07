@@ -13,6 +13,13 @@ description: "Master leg drag control in BJJ. Complete analysis of this dominant
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Leg Drag Control/Bottom|Play as Bottom]]
+[[Leg Drag Control/Top|Play as Top]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Leg drag control represents a critical transitional position in Brazilian Jiu-Jitsu where the passer has successfully controlled one of the opponent's legs and achieved significant hip dominance. This position sits at a strategic crossroads in the passing sequence—the passer has cleared the guard but has not yet achieved a traditional scoring position like side control or mount. The leg drag creates a unique control dynamic where the top player uses the opponent's own leg as a barrier to prevent re-guarding while simultaneously opening pathways to dominant positions and submissions.

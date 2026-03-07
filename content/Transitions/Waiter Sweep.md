@@ -13,6 +13,13 @@ description: "Master the Waiter Sweep from Butterfly Guard in BJJ. High-percenta
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Waiter Sweep/Attacker|Play as Attacker]]
+[[Waiter Sweep/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Waiter Sweep is a fundamental butterfly guard technique that derives its name from the characteristic hand position resembling a waiter carrying a tray. This sweep capitalizes on creating an asymmetrical control structure—combining an underhook on one side with an overhook or collar grip on the other—that severely compromises the opponent's base and posture. The technique works by using butterfly hooks to elevate the opponent while simultaneously using grips to break their posting ability, creating a clean sweep to side control or mount.

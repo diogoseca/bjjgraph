@@ -13,6 +13,13 @@ description: "Master the Hip Escape to Guard escape from Gift Wrap Bottom in BJJ
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Hip Escape to Guard/Attacker|Play as Attacker]]
+[[Hip Escape to Guard/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Hip Escape to Guard is a fundamental defensive transition used to escape the Gift Wrap position and recover to an open guard configuration. This escape addresses one of the most precarious situations in BJJ where one arm is trapped across your body while your opponent maintains back control, severely limiting your defensive options.

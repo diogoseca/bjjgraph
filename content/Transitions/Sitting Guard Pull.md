@@ -13,6 +13,13 @@ description: "Learn the Sitting Guard Pull in BJJ. Step-by-step guide to safely 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Sitting Guard Pull/Attacker|Play as Attacker]]
+[[Sitting Guard Pull/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Sitting Guard Pull is one of the most fundamental and reliable methods for establishing guard from standing position in Brazilian Jiu-Jitsu. This technique allows a practitioner to safely transition from neutral standing to a seated open guard position while maintaining grips and controlling distance. Unlike dynamic jumping or rolling guard pulls, the sitting guard pull emphasizes control, safety, and strategic positioning. The technique is particularly valuable in both gi and no-gi contexts, serving as a foundational entry point to various open guard systems including butterfly guard, De La Riva, seated guard, and shin-to-shin configurations.

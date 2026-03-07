@@ -13,6 +13,13 @@ description: "Master collar sleeve guard in BJJ. Comprehensive guide covering gr
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Collar Sleeve Guard/Bottom|Play as Bottom]]
+[[Collar Sleeve Guard/Top|Play as Top]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Collar sleeve guard is a fundamental open guard variation that combines a collar grip (typically cross-collar) with a same-side sleeve grip to create powerful off-balancing and sweeping opportunities. This guard is characterized by its asymmetric grip structure, which generates rotational forces that disrupt the opponent's base while maintaining distance control through the extended sleeve grip.

@@ -13,6 +13,13 @@ description: "Master the body lock takedown from clinch in BJJ. Complete guide c
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Body Lock Takedown from Clinch/Attacker|Play as Attacker]]
+[[Body Lock Takedown from Clinch/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Body Lock Takedown from Clinch is one of the highest-percentage takedowns in modern grappling, combining the security of a locked grip configuration with powerful driving mechanics to bring opponents to the mat and establish dominant side control. Unlike level-change takedowns such as double and single legs that require dropping beneath the opponent's center of gravity, the body lock takedown operates from chest-to-chest range, making it particularly effective against opponents with strong sprawl defense or those who maintain low, defensive postures that are difficult to penetrate with traditional shot-based entries.

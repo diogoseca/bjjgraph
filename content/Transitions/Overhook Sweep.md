@@ -13,6 +13,13 @@ description: "Master the Overhook Sweep from closed guard in BJJ. Complete guide
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Overhook Sweep/Attacker|Play as Attacker]]
+[[Overhook Sweep/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Overhook Sweep is a fundamental attacking technique from closed guard that capitalizes on controlling one of the opponent's arms with an overhook grip. This sweep is particularly effective when the opponent posts their hand on the mat or extends their arm, creating the opportunity to trap it and use their own base against them. The technique combines off-balancing principles with leverage mechanics to elevate and roll the opponent, transitioning from a bottom position to a dominant top position.

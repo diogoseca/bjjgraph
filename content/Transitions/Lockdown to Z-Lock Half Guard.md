@@ -13,6 +13,13 @@ description: "Master the Transition to Z-Lock Half Guard from Lockdown top in BJ
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Lockdown to Z-Lock Half Guard/Attacker|Play as Attacker]]
+[[Lockdown to Z-Lock Half Guard/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Transition to Z-Lock Half Guard is a systematic leg reconfiguration technique that converts an unfavorable trapped position inside the lockdown into the dominant Z-Lock Half Guard top control. When caught in lockdown, the top player faces constant sweep threats from whip-ups, Old School sweeps, and Electric Chair attacks. Rather than attempting a brute-force leg extraction that often fails against skilled lockdown players, this transition uses precise knee positioning and weight redistribution to step the knee across the opponent's hip, creating the characteristic Z-shape that neutralizes the lockdown's primary mechanics.

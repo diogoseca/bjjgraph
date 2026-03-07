@@ -13,6 +13,13 @@ description: "Master the closed guard in BJJ. Complete strategic guide to bottom
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Closed Guard/Bottom|Play as Bottom]]
+[[Closed Guard/Top|Play as Top]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Closed Guard represents one of the most fundamental and strategically complex positions in Brazilian Jiu-Jitsu, where the bottom player wraps their legs around the opponent's waist with ankles locked behind the back. This position creates a unique strategic dynamic where the bottom player, despite being underneath, possesses significant control and offensive capability while the top player, despite being on top, finds themselves in a fundamentally defensive position requiring systematic escape.

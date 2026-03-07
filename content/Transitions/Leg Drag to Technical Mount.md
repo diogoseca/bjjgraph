@@ -13,6 +13,13 @@ description: "Master the Leg Drag to Technical Mount transition in BJJ. Step-by-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Leg Drag to Technical Mount/Attacker|Play as Attacker]]
+[[Leg Drag to Technical Mount/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Leg Drag to Technical Mount transition represents a highly efficient pathway from guard passing to a dominant top position. Unlike the standard mount transition which requires clearing the opponent's hips completely, technical mount allows you to secure a controlling position while the opponent remains partially on their side—the exact orientation created by effective leg drag pressure.

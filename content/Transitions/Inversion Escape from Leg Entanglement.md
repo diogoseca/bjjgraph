@@ -13,6 +13,13 @@ description: "Master the inversion escape from leg entanglement in BJJ. Complete
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Inversion Escape from Leg Entanglement/Attacker|Play as Attacker]]
+[[Inversion Escape from Leg Entanglement/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The inversion escape from leg entanglement is an advanced defensive technique where the bottom player uses an inverted rolling motion to extract their trapped leg from ashi garami configurations and recover to a playable guard position. This escape exploits a fundamental vulnerability in leg entanglements: the attacker's control relies on the defender's leg remaining in a predictable plane of motion, and inversion disrupts that plane by rotating the entire body around the trapped limb. When executed with proper timing, the inversion creates enough angular momentum to clear the knee line and free the trapped foot before the attacker can adjust their grips and leg configuration.

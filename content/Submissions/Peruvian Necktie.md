@@ -15,6 +15,13 @@ description: "Master the Peruvian Necktie in BJJ. Complete guide covering front 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Peruvian Necktie/Attacker|Play as Attacker]]
+[[Peruvian Necktie/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Peruvian Necktie is a sophisticated blood choke that attacks the carotid arteries from a front headlock position, typically initiated when the opponent is in turtle or combat base. Unlike traditional guillotine variations, this submission utilizes a unique body positioning where the attacker threads their leg through the opponent's neck and arm configuration, creating a fulcrum that amplifies choking pressure. The technique derives its effectiveness from the combination of arm pressure across the neck and the leverage created by the attacker's bodyweight and leg position. This submission is particularly effective in scrambles and transitional situations where the opponent attempts to build back to their base from turtle. The Peruvian Necktie represents an advanced understanding of front headlock mechanics and requires precise timing and positioning. When executed correctly, it creates an inescapable choking mechanism that forces a rapid tap due to the simultaneous compression of both carotid arteries. The submission has gained prominence in modern no-gi grappling and MMA due to its effectiveness in dynamic situations and its relatively low energy cost compared to maintaining traditional control positions.

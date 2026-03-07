@@ -13,6 +13,13 @@ description: "Master posture recovery from Mission Control in BJJ. Complete guid
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Posture Recovery from Mission Control/Attacker|Play as Attacker]]
+[[Posture Recovery from Mission Control/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Posture Recovery from Mission Control is one of the most critical defensive transitions in modern no-gi grappling, representing the top player's systematic escape from 10th Planet's rubber guard control system. When trapped in Mission Control, the top player faces severe postural compromise with their shoulder isolated, head pulled down, and weight loaded awkwardly onto their trapped arm. This technique requires methodical execution rather than explosive movement, progressing through grip fighting, weight redistribution, and progressive space creation to neutralize the bottom player's high guard control.

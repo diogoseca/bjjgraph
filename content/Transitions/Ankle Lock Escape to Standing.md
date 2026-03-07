@@ -13,6 +13,13 @@ description: "Master the ankle lock escape to standing in BJJ. Step-by-step guid
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Ankle Lock Escape to Standing/Attacker|Play as Attacker]]
+[[Ankle Lock Escape to Standing/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The ankle lock escape to standing is one of the most critical defensive techniques in the leg lock game, offering a direct path from a threatened submission position back to completely neutral standing. When caught in straight ankle lock control, the defender faces a narrowing window of opportunity where every second allows the attacker to deepen grips, complete leg entanglements, and transition to more dangerous positions like inside ashi garami or saddle. The escape to standing directly addresses this time pressure by prioritizing complete disengagement over positional improvement.

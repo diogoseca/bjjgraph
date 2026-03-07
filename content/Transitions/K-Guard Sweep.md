@@ -13,6 +13,13 @@ description: "Master the K-Guard Sweep in BJJ. Step-by-step execution guide cove
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[K-Guard Sweep/Attacker|Play as Attacker]]
+[[K-Guard Sweep/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The K-Guard Sweep is the signature offensive technique from K-Guard bottom, utilizing the coordinated action of the inverted inside hook and butterfly outside hook to generate a powerful compound sweeping force that displaces the top player's base. The sweep capitalizes on the unique lever system created by the K-Guard leg configuration, where the inverted hook pulls the opponent's trapped leg across their centerline while the butterfly hook simultaneously elevates their weight, creating an irresistible off-balancing force that topples them to their back and allows the sweeper to come up to side control.

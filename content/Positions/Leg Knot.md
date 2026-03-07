@@ -13,6 +13,13 @@ description: "Master Leg Knot position in BJJ. Advanced leg entanglement creatin
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Leg Knot/Bottom|Play as Bottom]]
+[[Leg Knot/Top|Play as Top]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Leg Knot Position represents an advanced leg entanglement configuration where practitioners' legs are woven together in a complex, knot-like structure that creates mutual control and submission opportunities. This position exists in the transitional space of leg entanglement warfare, where neither practitioner has achieved complete dominance but both are actively fighting for positional superiority and submission setups. The intricate leg crossing and weaving patterns create a dynamic battleground where technical precision, systematic understanding, and positional awareness determine outcomes.

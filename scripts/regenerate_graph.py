@@ -34,7 +34,7 @@ TERMINAL_POSITIONS = {'game-over'}
 # ---------------------------------------------------------------------------
 
 def slugify(name: str) -> str:
-    """Convert a name to a URL-friendly slug matching Quartz's behavior."""
+    """Convert a name to a lowercase URL-friendly slug (for dictionary keys/lookups)."""
     slug = name.lower().strip()
     slug = slug.replace('%', ' percent ')
     slug = slug.replace('&', ' and ')
@@ -44,6 +44,17 @@ def slugify(name: str) -> str:
     slug = re.sub(r'[\s_]+', '-', slug)
     slug = re.sub(r'-+', '-', slug)
     return slug.strip('-')
+
+
+def quartz_slug(name: str) -> str:
+    """Convert name to URL path matching Quartz's sluggify (case-preserving)."""
+    slug = name.strip()
+    slug = slug.replace('&', '-and-')
+    slug = slug.replace('%', '-percent')
+    slug = slug.replace('?', '')
+    slug = slug.replace('#', '')
+    slug = re.sub(r'\s+', '-', slug)
+    return slug
 
 
 def load_json_files(directory: Path) -> list[dict]:
@@ -69,7 +80,7 @@ def load_json_files(directory: Path) -> list[dict]:
 
 
 def build_position_path_index(positions_dir: Path) -> dict[str, str]:
-    """Map position slugs to their relative file paths (for URL construction)."""
+    """Map position slugs to their case-preserving relative file paths (for URL construction)."""
     index = {}
     for json_file in positions_dir.rglob('*.json'):
         try:
@@ -84,7 +95,8 @@ def build_position_path_index(positions_dir: Path) -> dict[str, str]:
                 continue
             slug = slugify(data.get('slug', name))
             rel_path = json_file.relative_to(positions_dir)
-            path_slug = str(rel_path.with_suffix('')).lower().replace(' ', '-').replace('\\', '/')
+            # Case-preserving: spaces to hyphens, preserve original casing from filename
+            path_slug = str(rel_path.with_suffix('')).replace(' ', '-').replace('\\', '/')
             index[slug] = path_slug
         except (json.JSONDecodeError, IOError):
             continue
@@ -122,7 +134,7 @@ def process_position_role(position_data: dict, role: str, hub_slug: str, hub_pat
         transitions.append({
             'technique': technique_name,
             'target': technique_slug,
-            'targetPath': technique_slug,
+            'targetPath': quartz_slug(technique_name),
             'isSubmission': False,
             'attemptProbability': attempt_prob
         })
@@ -203,7 +215,7 @@ def process_positions(content_dir: Path) -> dict:
                 transitions.append({
                     'technique': technique_name,
                     'target': technique_slug,
-                    'targetPath': technique_slug,
+                    'targetPath': quartz_slug(technique_name),
                     'isSubmission': False,
                     'attemptProbability': attempt_prob
                 })
@@ -250,6 +262,13 @@ def process_transitions(content_dir: Path) -> dict:
             for qa in ka_source
         ]
 
+        defender = trans_data.get('defender', {})
+        defender_ka_source = defender.get('knowledge_assessment', [])
+        defender_knowledge_assessment = [
+            {'question': qa.get('question', ''), 'answer': qa.get('answer', '')}
+            for qa in defender_ka_source
+        ]
+
         effectiveness_map = {'High': 70, 'Medium': 50, 'Low': 30}
         cc_source = attacker.get('common_counters', trans_data.get('common_counters', []))
         common_counters = [
@@ -277,6 +296,7 @@ def process_transitions(content_dir: Path) -> dict:
             'endingPositionPath': ending_path,
             'successRate': success_rate,
             'knowledgeAssessment': knowledge_assessment,
+            'defenderKnowledgeAssessment': defender_knowledge_assessment,
             'commonCounters': common_counters
         }
 
@@ -310,6 +330,17 @@ def process_submissions(content_dir: Path) -> dict:
             for qa in ka_source
         ]
 
+        defender = sub_data.get('defender', {})
+        defender_ka_source = defender.get('knowledge_assessment', [])
+        defender_knowledge_assessment = [
+            {
+                'question': qa.get('question', ''),
+                'answer': qa.get('answer', ''),
+                'safetyCritical': qa.get('safety_critical', False)
+            }
+            for qa in defender_ka_source
+        ]
+
         from_positions = [slugify(p) for p in sub_data.get('from_positions', [])]
         success_rate = sub_data.get('success_rate', 50)
 
@@ -333,7 +364,8 @@ def process_submissions(content_dir: Path) -> dict:
             'startingPosition': starting_position_slug,
             'fromPositions': from_positions,
             'successRate': success_rate,
-            'knowledgeAssessment': knowledge_assessment
+            'knowledgeAssessment': knowledge_assessment,
+            'defenderKnowledgeAssessment': defender_knowledge_assessment
         }
 
         # Add from_position and outcomes if present (graph edge data)

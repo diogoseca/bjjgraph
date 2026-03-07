@@ -13,6 +13,13 @@ description: "Master the frame escape from twister side control. Complete guide 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Frame from Twister Side Control/Attacker|Play as Attacker]]
+[[Frame from Twister Side Control/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Frame from Twister Side Control is a fundamental escape technique where the bottom player establishes structural frames against the top player's shoulder and hip to create separation, disrupt the leg entanglement, and recover to half guard. Unlike explosive escape methods that risk energy depletion and can worsen the position by exposing the back, this frame-based approach emphasizes incremental positional improvement through biomechanically sound body positioning that redirects the opponent's weight rather than fighting against it directly.

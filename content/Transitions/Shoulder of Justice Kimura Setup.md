@@ -13,6 +13,13 @@ description: "Master the Kimura setup from Shoulder of Justice in BJJ. Learn how
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Shoulder of Justice Kimura Setup/Attacker|Play as Attacker]]
+[[Shoulder of Justice Kimura Setup/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Shoulder of Justice Kimura Setup is a high-percentage transition that exploits the natural defensive reactions provoked by relentless jaw pressure. When the top player drives their shoulder blade deep into the opponent's temporomandibular joint, the bottom player faces a critical dilemma: endure the crushing discomfort or extend their near arm to relieve the pressure. This extension is the exact trigger the top player waits for, as it exposes the arm for a figure-four Kimura grip that transitions into the devastating Kimura Trap control position.

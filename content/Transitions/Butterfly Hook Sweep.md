@@ -13,6 +13,13 @@ description: "Master the Butterfly Hook Sweep in BJJ. Complete guide covering ex
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Butterfly Hook Sweep/Attacker|Play as Attacker]]
+[[Butterfly Hook Sweep/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Butterfly Hook Sweep is one of the most fundamental and high-percentage sweeps in Brazilian Jiu-Jitsu, executed from butterfly hook control by using the instep hook to elevate the opponent while simultaneously off-balancing them with upper body grips. The sweep converts the opponent's forward pressure into lateral momentum, redirecting their weight over the hooking leg while coordinated grip pulls prevent them from posting to recover base. The technique rewards precise timing and leverage over raw strength, making it effective across weight classes.

@@ -15,6 +15,13 @@ description: "Master the Aoki Lock leg compression in BJJ. Safety guide with set
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Aoki Lock/Attacker|Play as Attacker]]
+[[Aoki Lock/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Aoki Lock, named after Japanese MMA fighter Shinya Aoki, is a sophisticated leg compression submission that targets the opponent's shin and ankle through extreme plantar flexion and compression forces. Unlike traditional heel hooks or kneebars that attack specific joints, the Aoki Lock creates intense pressure across multiple structures of the lower leg simultaneously, making it extremely painful and effective for securing taps. The submission works by trapping the opponent's foot in a figure-four configuration while using your legs to apply tremendous squeezing pressure, forcing the foot into extreme plantar flexion while compressing the shin and calf muscle. This creates a unique combination of joint stress and muscular compression that becomes unbearable rapidly. The Aoki Lock is particularly effective from ashi garami positions and 50-50 configurations where traditional heel hooks might be defended. Its unconventional mechanics often catch opponents off-guard, as the setup can appear less threatening than a heel hook until the pressure is fully applied. The technique requires excellent leg dexterity and hip flexibility to properly configure the figure-four trap, making it a more advanced submission that rewards technical precision over raw strength.

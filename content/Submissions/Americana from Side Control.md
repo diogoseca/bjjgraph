@@ -15,6 +15,13 @@ description: "Master the Americana from Side Control in BJJ. Complete guide to s
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Americana from Side Control/Attacker|Play as Attacker]]
+[[Americana from Side Control/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Americana from Side Control is one of the most fundamental shoulder lock submissions in Brazilian Jiu-Jitsu, representing a cornerstone technique for controlling and finishing opponents from top positions. This submission attacks the shoulder joint through external rotation, creating tremendous pressure on the rotator cuff and surrounding ligaments when applied correctly. The technique's effectiveness stems from the superior control afforded by side control, where the practitioner can isolate the opponent's arm while maintaining heavy pressure and preventing escape.

@@ -13,6 +13,13 @@ description: "Learn Buggy Choke to Side Control transition in BJJ. Strategic pos
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Buggy Choke to Side Control/Attacker|Play as Attacker]]
+[[Buggy Choke to Side Control/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Buggy Choke to Side Control transition represents a critical positional advancement option when the primary submission threat is neutralized through effective grip defense. This technique exemplifies the principle that control positions in BJJ should never be single-purpose—when the choke fails, the grip configuration and body positioning should naturally facilitate advancement to a dominant passing position rather than returning to neutral.

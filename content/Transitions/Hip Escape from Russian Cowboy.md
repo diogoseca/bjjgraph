@@ -13,6 +13,13 @@ description: "Master the hip escape from Russian Cowboy in BJJ. Learn systematic
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Hip Escape from Russian Cowboy/Attacker|Play as Attacker]]
+[[Hip Escape from Russian Cowboy/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Hip Escape from Russian Cowboy is a fundamental defensive technique that addresses the unique challenges of escaping single-hook back control. Unlike escapes from traditional back control where both hooks must be addressed symmetrically, this escape exploits the asymmetric nature of the Russian Cowboy's single-hook configuration by directing movement toward the opponent's free leg side. The bottom player uses systematic framing, controlled hip escape movement, and precise hook management to transition from a dangerous back exposure position into the relative safety of Half Guard, where the previously hooking leg becomes the trapped leg.

@@ -13,6 +13,13 @@ description: "Master the S Mount Armbar Setup in BJJ. Complete guide to transiti
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[S Mount Armbar Setup/Attacker|Play as Attacker]]
+[[S Mount Armbar Setup/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The S Mount Armbar Setup is the critical transition that converts S Mount positional dominance into armbar finishing position. This technique represents the commitment point where the top practitioner transitions from a seated perpendicular control position into the supine armbar control configuration, sacrificing mount stability in exchange for direct joint attack leverage. The setup demands precise timing and mechanical execution because once initiated, returning to mount becomes increasingly difficult if the armbar attempt fails.

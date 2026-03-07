@@ -13,6 +13,13 @@ description: "Master the Saddle Fallback to Inside Ashi in BJJ. Learn when and h
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Saddle Fallback to Inside Ashi/Attacker|Play as Attacker]]
+[[Saddle Fallback to Inside Ashi/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Saddle Fallback to Inside Ashi is a deliberate positional retreat from a deteriorating Saddle position to the foundational Inside Ashi-Garami entanglement. When an opponent successfully disrupts saddle control through frame establishment, hip clearing, or heel extraction, the practitioner faces a binary choice: fight to maintain a collapsing position and risk losing all leg entanglement, or strategically withdraw to a sustainable attacking platform. This transition prioritizes the latter, embodying the principle that any leg entanglement is exponentially better than no entanglement at all.

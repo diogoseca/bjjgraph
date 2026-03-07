@@ -13,6 +13,13 @@ description: "Master the Crossface from Old School in BJJ. Flatten your opponent
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Crossface from Old School/Attacker|Play as Attacker]]
+[[Crossface from Old School/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Crossface from Old School is a pressure-based passing technique employed by the top player when caught in the opponent's lockdown half guard. This technique addresses the fundamental challenge of Old School bottom: the bottom player's underhook, head control, and lockdown create powerful sweep threats that must be systematically dismantled before any pass can succeed. The crossface serves as the primary weapon for breaking this control structure, driving the opponent's head away to eliminate their sweeping angle while simultaneously flattening their torso posture.

@@ -13,6 +13,13 @@ description: "Master the Chill Dog escape to half guard in BJJ. Learn timing, hi
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Escape Chill Dog/Attacker|Play as Attacker]]
+[[Escape Chill Dog/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Escape Chill Dog is a guard recovery technique from the 10th Planet system that transitions the bottom practitioner from the compact Chill Dog turtle defense directly into half guard. Unlike the Granby roll which targets open or closed guard through a rolling motion, this escape uses a lateral hip escape combined with leg insertion to thread the inside leg between the opponent's legs and establish the half guard entanglement. The technique capitalizes on the opponent's weight commitment during top control attempts, using their forward pressure as the trigger for a hip escape that simultaneously creates space and establishes the leg hook needed for half guard.

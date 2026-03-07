@@ -15,6 +15,13 @@ description: "Master Kimura from North-South in BJJ. Complete safety guide with 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Kimura from North-South/Attacker|Play as Attacker]]
+[[Kimura from North-South/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Kimura from North-South is a powerful shoulder lock that exploits the vulnerable arm position inherent to north-south control. This submission represents a high-percentage finishing option from one of the most stable top positions in Brazilian Jiu-Jitsu. The north-south position provides exceptional control over the opponent's upper body while creating natural opportunities to isolate and attack the near-side arm. When the opponent frames or attempts to create space, their arm becomes exposed to the figure-four grip that characterizes the Kimura lock. The mechanical advantage from north-south is significant—you can generate rotational pressure on the shoulder joint while maintaining heavy chest pressure that prevents hip escape. The angle of attack differs from traditional side control or guard-based Kimuras, requiring adaptations in grip placement and finishing mechanics. Understanding the proper application speed and safety protocols is essential, as the north-south angle can generate extreme leverage on the shoulder complex with minimal warning to training partners.

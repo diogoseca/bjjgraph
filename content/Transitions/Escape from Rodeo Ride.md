@@ -13,6 +13,13 @@ description: "Master the Escape from Rodeo Ride in BJJ. Complete guide covering 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Escape from Rodeo Ride/Attacker|Play as Attacker]]
+[[Escape from Rodeo Ride/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Escape from Rodeo Ride is a critical defensive transition that every turtle player must master. When an opponent establishes Rodeo Ride—a dynamic turtle attack position characterized by asymmetric grips, loaded hip pressure, and constant positional adjustments—the bottom practitioner faces an escalating threat of back control, submissions, and positional advancement. Unlike escaping static top control positions, escaping Rodeo Ride requires matching the attacker's dynamism with precisely timed defensive movements that exploit moments of weight shift and grip transition.

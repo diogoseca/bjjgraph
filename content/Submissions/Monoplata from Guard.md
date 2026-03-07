@@ -15,6 +15,13 @@ description: "Master the Monoplata from Guard in BJJ. Complete guide with safety
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Monoplata from Guard/Attacker|Play as Attacker]]
+[[Monoplata from Guard/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Monoplata from Guard is an advanced shoulder lock that combines elements of the traditional omoplata with a unique single-leg entanglement configuration. This submission attacks the opponent's shoulder joint by isolating their arm while using your legs to create a figure-four lock around their trapped limb. The technique is particularly effective when transitioning from failed omoplata attempts or when the opponent attempts to posture up aggressively from guard. The Monoplata creates severe pressure on the shoulder capsule and rotator cuff, making it a high-percentage finish once proper control is established. Unlike the traditional omoplata which rolls the opponent forward, the Monoplata maintains a more static control position while applying rotational pressure to the shoulder joint. This submission requires excellent hip mobility, precise leg positioning, and a deep understanding of shoulder mechanics to execute safely and effectively. The technique has gained popularity in modern no-gi competition due to its effectiveness against strong postural defenses and its ability to chain seamlessly with other guard attacks.

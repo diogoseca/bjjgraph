@@ -13,6 +13,13 @@ description: "Learn the Triangle to Omoplata transition in BJJ. Convert failed t
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Triangle to Omoplata/Attacker|Play as Attacker]]
+[[Triangle to Omoplata/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Triangle to Omoplata transition is a fundamental submission chain that exploits the opponent's defensive reactions to the triangle choke. When an opponent successfully defends the triangle by posturing, stacking, or driving forward, the bottom player can seamlessly transition to an omoplata shoulder lock by releasing the triangle configuration and capturing the trapped arm with a leg swing over the opponent's back. This transition represents a core principle in modern guard work: using the opponent's escape attempts to create new attacking opportunities.

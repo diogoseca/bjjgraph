@@ -13,6 +13,13 @@ description: "Master the Back Step pass in BJJ. Essential leg entanglement count
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Back Step/Attacker|Play as Attacker]]
+[[Back Step/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Back Step is a fundamental leg entanglement escape and guard pass that creates immediate pressure passing opportunities when an opponent attempts to enter outside ashi-garami or other leg entanglement positions. By stepping the trapped leg backward over the opponent's body while maintaining heavy chest pressure, you simultaneously break their leg entanglement structure and establish dominant top position. This technique is essential in modern BJJ, particularly in no-gi competition where leg locks are prevalent. The back step exemplifies the principle of using aggressive forward movement to counter defensive guard retention, turning a potentially dangerous leg entanglement situation into a dominant passing position. When executed properly, the back step not only neutralizes the leg attack but also creates a direct path to side control or knee on belly, often catching opponents off-guard as they transition from offensive to defensive positioning.

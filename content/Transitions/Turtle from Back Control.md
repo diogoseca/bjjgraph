@@ -13,6 +13,13 @@ description: "Escape back control to turtle position in BJJ. Step-by-step guide 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Turtle from Back Control/Attacker|Play as Attacker]]
+[[Turtle from Back Control/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Turtle from Back Control is a fundamental escape transition where the bottom player works to strip the back controller's hooks and turn their hips to establish a defensive turtle position. This transition represents a critical survival skill, as back control is the most dominant position in BJJ, carrying immediate submission threats from rear naked choke, bow and arrow, and arm attacks. Successfully reaching turtle removes the immediate choking danger and provides multiple paths to further improve position through guard recovery, sit-outs, or technical stand-ups.

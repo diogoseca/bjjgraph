@@ -13,6 +13,13 @@ description: "Learn Crossface to Combat Base in BJJ. Transition from half guard 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Crossface to Combat Base/Attacker|Play as Attacker]]
+[[Crossface to Combat Base/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Crossface to Combat Base transition is a fundamental technique for establishing passing position from half guard top. Rather than completing a pass directly from half guard, this transition prioritizes creating a stable combat base platform from which multiple passing options become available. The crossface serves as the control mechanism that keeps the bottom player flattened and unable to follow as you extract your trapped leg and establish the asymmetric combat base stance.

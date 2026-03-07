@@ -13,6 +13,13 @@ description: "Master the Long Step Pass in BJJ. Complete guide to pressure passi
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Long Step Pass/Attacker|Play as Attacker]]
+[[Long Step Pass/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Long Step Pass is a fundamental pressure passing technique used to navigate past open guard positions by stepping deep to the side while maintaining heavy forward pressure. The pass involves establishing grips on the opponent's pants, belt, or legs, then using a long stepping motion to bypass the guard while driving chest weight onto the opponent's torso. The technique is particularly effective against seated guards, butterfly guard, and De La Riva variations where the passer can control distance and dictate the pace of engagement.

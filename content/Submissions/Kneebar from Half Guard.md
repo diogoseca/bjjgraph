@@ -15,6 +15,13 @@ description: "Master the Kneebar from Half Guard in BJJ. Complete guide covering
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Kneebar from Half Guard/Attacker|Play as Attacker]]
+[[Kneebar from Half Guard/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Kneebar from Half Guard represents a powerful offensive submission option that capitalizes on the leg entanglement inherent to the half guard position. This technique targets the knee joint through hyperextension, creating mechanical stress on the posterior cruciate ligament, patellar tendon, and surrounding connective tissue. From bottom half guard, the practitioner transitions from controlling the opponent's upper body to attacking their trapped leg, using the half guard structure to prevent escape while isolating the limb. The position offers unique strategic advantages: the opponent's weight is often committed forward, their leg is already partially controlled by your lockdown or hooks, and defensive hand fighting is complicated by the need to maintain base. This creates a high-percentage finishing opportunity when proper mechanics are applied. The technique requires precise technical execution—controlling the opponent's hip to prevent rotation, achieving proper leg extension across the knee joint, and maintaining connection throughout the finish. Modern leg lock systems have elevated this submission from a surprise attack to a fundamental component of bottom half guard offense, particularly in no-gi grappling where the absence of gi grips makes leg attacks more viable.

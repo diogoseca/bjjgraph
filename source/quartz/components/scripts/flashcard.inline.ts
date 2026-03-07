@@ -245,18 +245,8 @@ document.addEventListener("nav", () => {
     let targetUrl: string
 
     const endingSlug = data.endingPosition
-    const endingPath = data.endingPositionPath || endingSlug.split("/")[0]
-
-    // Convert path to URL format (Title-Case-With-Hyphens)
-    const basePath = endingPath
-      .split("/")
-      .map((part: string) =>
-        part
-          .split("-")
-          .map((w: string) => w.charAt(0).toUpperCase() + w.slice(1))
-          .join("-"),
-      )
-      .join("/")
+    // endingPositionPath from graph.json is already case-correct for URLs
+    const basePath = data.endingPositionPath || endingSlug.split("/")[0]
 
     // Extract role from endingPosition if present (e.g., "mount/top" → "top")
     const slugParts = endingSlug.split("/")

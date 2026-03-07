@@ -13,6 +13,13 @@ description: "Master the transition from Side Control to Scarf Hold (Kesa Gatame
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Side Control to Scarf Hold Position/Attacker|Play as Attacker]]
+[[Side Control to Scarf Hold Position/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Transition to Scarf Hold Position is a fundamental positional shift from standard Side Control into the perpendicular pinning configuration known as Kesa Gatame. This transition involves rotating your body roughly 90 degrees so that you sit hip-to-hip against the opponent's ribcage while simultaneously isolating their near arm and wrapping their head. The movement changes the force vectors applied to the bottom player from parallel chest pressure to perpendicular hip-driven compression, which negates standard side control escape mechanics and opens distinct submission pathways including americana, kimura, and arm triangle variations.

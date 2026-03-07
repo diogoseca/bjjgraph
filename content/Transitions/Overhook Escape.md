@@ -13,6 +13,13 @@ description: "Master Overhook Escape from New York Control. Step-by-step arm ext
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Overhook Escape/Attacker|Play as Attacker]]
+[[Overhook Escape/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Overhook Escape represents the critical first step in defending against New York Control, the advanced rubber guard position that combines leg pressure across your back with a deep overhook that restricts your arm movement. Without successfully extracting your trapped arm, all subsequent escape attempts become exponentially more difficult as the bottom player maintains access to gogoplata, triangle, and omoplata submission chains.

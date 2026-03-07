@@ -13,6 +13,13 @@ description: "Master Gift Wrap to Technical Mount transition in BJJ. Step-by-ste
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Gift Wrap to Technical Mount/Attacker|Play as Attacker]]
+[[Gift Wrap to Technical Mount/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Gift Wrap to Technical Mount transition represents a systematic positional advancement that capitalizes on the control asymmetry created by the Gift Wrap position. Rather than hunting for submissions from back control, this transition advances to the mounted position while maintaining the critical arm trap advantage, creating a platform for even higher percentage finishing opportunities.

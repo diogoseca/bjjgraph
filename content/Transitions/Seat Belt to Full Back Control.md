@@ -13,6 +13,13 @@ description: "Master the Seat Belt to Full Back Control transition in BJJ. Secur
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Seat Belt to Full Back Control/Attacker|Play as Attacker]]
+[[Seat Belt to Full Back Control/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Seat Belt to Full Back Control is the critical consolidation transition that converts an initial seat belt grip attachment into the complete, competition-scoring back control position with hooks established inside the defender's thighs. The seat belt grip alone—one arm over the shoulder, one arm under the armpit with hands connected—provides excellent upper body control but lacks the hip dominance that prevents escape. Inserting hooks transforms the position from a grip-dependent control state into the mechanically complete back control configuration that scores 4 points in IBJJF competition and unlocks the full submission chain.

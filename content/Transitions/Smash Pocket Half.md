@@ -13,6 +13,13 @@ description: "Master the Smash Pocket Half pass in BJJ. Pressure-based technique
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Smash Pocket Half/Attacker|Play as Attacker]]
+[[Smash Pocket Half/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Smash Pocket Half is a pressure-based transitional technique used from Pocket Half Guard Top to neutralize the bottom player's deep underhook advantage and collapse their pocket frame. Unlike general smash passes that work from standard half guard configurations, this technique specifically targets the structural elements that make Pocket Half Guard dangerous - the deep underhook reaching across the back and the active hip frame that creates sweeping leverage. By systematically eliminating these control points through directed pressure, the top player transitions the position into a Flattened Half Guard where conventional passing becomes significantly easier.

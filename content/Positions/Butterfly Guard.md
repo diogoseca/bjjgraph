@@ -13,6 +13,13 @@ description: "Master Butterfly Guard in BJJ. Dynamic open guard with powerful sw
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Butterfly Guard/Bottom|Play as Bottom]]
+[[Butterfly Guard/Top|Play as Top]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Butterfly Guard is a dynamic open guard variation where the bottom player inserts hooks (feet) under the opponent's thighs while sitting up, creating powerful leverage for sweeps and upper body control. This position allows for explosive elevation of the opponent and offers exceptional offensive options while maintaining defensive capabilities. Butterfly Guard serves as both a powerful position in its own right and as a connector between various guard configurations.

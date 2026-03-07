@@ -13,6 +13,13 @@ description: "Learn Roll to Deep Half Guard escape from Buggy Choke. Defensive t
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Roll to Deep Half Guard/Attacker|Play as Attacker]]
+[[Roll to Deep Half Guard/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Roll to Deep Half Guard represents a specialized defensive transition from the buggy choke bottom position, utilizing rotational momentum to escape the choking pressure while establishing an advantageous guard position. This technique exploits the structural weakness inherent in the buggy choke grip configuration—when the attacker commits both arms to the choke, their base becomes compromised and vulnerable to directional rolling attacks.

@@ -13,6 +13,13 @@ description: "Master the Toreando Pass from Seated Guard in BJJ. Complete guide 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Toreando Pass from Seated Guard/Attacker|Play as Attacker]]
+[[Toreando Pass from Seated Guard/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Toreando Pass from Seated Guard is a fundamental lateral passing technique where the top player controls both of the seated guard player's legs and redirects them to one side while stepping around to establish side control. Named after the bullfighter's motion of redirecting the bull's charge, the toreando relies on grip dominance on the opponent's legs, explosive lateral movement, and precise timing to bypass the seated player's primary defensive tools—their feet and hip mobility.

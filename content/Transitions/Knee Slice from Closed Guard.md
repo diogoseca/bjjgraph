@@ -13,6 +13,13 @@ description: "Master the knee slice pass from closed guard in BJJ. Complete guid
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Knee Slice from Closed Guard/Attacker|Play as Attacker]]
+[[Knee Slice from Closed Guard/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The knee slice from closed guard is a compound passing transition where the top player opens the opponent's closed guard and immediately drives their knee diagonally across the thigh to advance toward half guard top. This technique bridges the gap between guard opening and guard passing, combining both phases into a single flowing sequence that denies the bottom player time to establish alternative defensive guards such as butterfly, spider, or De La Riva.

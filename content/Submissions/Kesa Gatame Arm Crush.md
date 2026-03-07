@@ -15,6 +15,13 @@ description: "Master the Kesa Gatame Arm Crush in BJJ. Complete guide covering e
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Kesa Gatame Arm Crush/Attacker|Play as Attacker]]
+[[Kesa Gatame Arm Crush/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Kesa Gatame Arm Crush is a compression-based submission executed from the scarf hold position that attacks the opponent's elbow joint through mechanical leverage and body pressure. From the traditional kesa gatame control, the attacker isolates the opponent's near arm and positions it across their torso, creating a fulcrum at the elbow using their hip and ribcage. By controlling the wrist and driving the hips forward while pulling the arm tight, the elbow is hyperextended against the attacker's body, generating tremendous pressure that forces the tap.

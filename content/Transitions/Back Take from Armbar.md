@@ -13,6 +13,13 @@ description: "Master the back take from armbar control in BJJ. Learn to convert 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Back Take from Armbar/Attacker|Play as Attacker]]
+[[Back Take from Armbar/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Back Take from Armbar is a fundamental chain attack that converts armbar defense into dominant back control. When an opponent successfully defends the armbar by turning toward the attacker, clasping hands, or initiating escape movements, the attacker abandons the arm attack and capitalizes on the opponent's exposed back. This transition exemplifies the principle that defensive movements in one direction create vulnerability in another, making it a cornerstone of systematic submission chain methodology.

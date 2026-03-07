@@ -13,6 +13,13 @@ description: "Learn Return to Outside Ashi transition from Ushiro. Recapture sta
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Return to Outside Ashi/Attacker|Play as Attacker]]
+[[Return to Outside Ashi/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Return to Outside Ashi is a positional recapture transition used when an opponent has inverted from a standard ashi-garami position, creating the reversed ushiro configuration. Rather than continuing to attack from the compromised ushiro angle, this technique reverses the opponent's hip rotation and re-establishes the mechanically superior outside ashi-garami position where heel hook and ankle lock mechanics are more straightforward.

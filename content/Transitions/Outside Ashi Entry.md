@@ -13,6 +13,13 @@ description: "Master the Outside Ashi Entry from standing to leg entanglements. 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Outside Ashi Entry/Attacker|Play as Attacker]]
+[[Outside Ashi Entry/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Outside Ashi Entry is a fundamental leg entanglement technique that allows practitioners to transition from standing positions into the Outside Ashi Garami position, establishing immediate leg lock threats. This entry is particularly effective in no-gi grappling and represents one of the foundational movements in modern leg lock systems. The technique capitalizes on the opponent's forward pressure or stance while maintaining a connection to their leg, ultimately resulting in a dominant leg entanglement position where multiple submission options become available.

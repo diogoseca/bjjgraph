@@ -13,6 +13,13 @@ description: "Master the Whizzer overhook control in BJJ. Essential defensive an
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Whizzer/Attacker|Play as Attacker]]
+[[Whizzer/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Whizzer is a fundamental overhook control position that serves as both a powerful defensive mechanism and an offensive transition tool in Brazilian Jiu-Jitsu. Borrowed from wrestling, this technique involves threading your arm over your opponent's arm and controlling their shoulder, creating a mechanical advantage that neutralizes underhook-based attacks while opening pathways to dominant positions. The Whizzer excels in multiple contexts: defending single-leg takedowns, preventing back takes from turtle, controlling scrambles, and setting up your own offensive transitions to back control or reversal positions.

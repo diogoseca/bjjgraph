@@ -13,6 +13,13 @@ description: "Master the armbar from clamp guard in BJJ. Complete guide to conve
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Armbar from Clamp Guard/Attacker|Play as Attacker]]
+[[Armbar from Clamp Guard/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The armbar from clamp guard exploits the pre-existing arm isolation that defines the clamp position. Because the shin-on-bicep control already pins the opponent's arm between your legs, the transition to armbar requires extending the existing control mechanism rather than building isolation from scratch. This makes the armbar from clamp guard one of the highest-percentage submission setups available from any open guard variation, as the most difficult component of any armbar attack — separating the arm from the body — has already been accomplished by the guard itself.

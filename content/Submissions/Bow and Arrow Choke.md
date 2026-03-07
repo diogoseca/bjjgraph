@@ -15,6 +15,13 @@ description: "Master the Bow and Arrow Choke in BJJ. Complete guide with safety 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Bow and Arrow Choke/Attacker|Play as Attacker]]
+[[Bow and Arrow Choke/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Bow and Arrow Choke is a highly effective gi-based blood choke executed from back control that combines collar control with leg configuration to create a powerful finishing position. Named for its distinctive shape where the practitioner's body resembles a drawn bow, this submission leverages the opponent's own lapel and pant leg to generate unstoppable pressure on both carotid arteries simultaneously. The technique is particularly valued in gi competition for its reliability once the position is secured, as it requires minimal strength and relies primarily on proper body mechanics and leverage. The bow and arrow creates a unique predicament where the opponent cannot effectively defend both the choking pressure from the collar grip and the stretching tension from the leg control. This submission is especially effective when transitioning from standard back control positions, as opponents often expose the necessary grips while defending against the rear naked choke. The technique represents a fundamental principle in advanced gi grappling: using the opponent's own garments as force multipliers to create inescapable finishing positions.

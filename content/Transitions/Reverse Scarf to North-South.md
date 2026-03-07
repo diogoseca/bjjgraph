@@ -13,6 +13,13 @@ description: "Master the Reverse Scarf to North-South transition in BJJ. Learn w
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Reverse Scarf to North-South/Attacker|Play as Attacker]]
+[[Reverse Scarf to North-South/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Reverse Scarf to North-South transition is a fundamental positional advancement where the top player rotates from the reverse scarf hold (ushiro kesa gatame) into a perpendicular north-south alignment. This transition capitalizes on the unique orientation of reverse scarf hold, where the top player already faces away from the opponent's head, requiring a controlled rotation to achieve the chest-to-chest pressure configuration that defines north-south control. The rotation arc is shorter than transitioning from standard side control, making this a natural and efficient positional progression.

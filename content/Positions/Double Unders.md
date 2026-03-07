@@ -13,6 +13,13 @@ description: "Master Double Unders position in BJJ. Strategic guide covering whe
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Double Unders/Bottom|Play as Bottom]]
+[[Double Unders/Top|Play as Top]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Double Unders Position is a critical control state in Brazilian Jiu-Jitsu where both practitioners are engaged in a bilateral underhook battle with dramatically different strategic objectives. From the top perspective, securing both underhooks creates one of the most dominant pressure passing positions available, eliminating the opponent's ability to create effective frames while applying crushing chest-to-chest pressure that forces them onto their shoulders. From the bottom perspective, this represents a crisis position requiring immediate defensive action to prevent complete flattening and inevitable pass completion.

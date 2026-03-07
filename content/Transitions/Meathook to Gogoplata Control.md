@@ -13,6 +13,13 @@ description: "Learn Meathook to Gogoplata Control in BJJ. Transition from Rubber
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Meathook to Gogoplata Control/Attacker|Play as Attacker]]
+[[Meathook to Gogoplata Control/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Meathook to Gogoplata Control transition represents one of the highest-percentage attacks in the Rubber Guard system when opponent commits the tactical error of driving forward. This technique exploits a fundamental defensive mistake—forward pressure against Meathook—by repositioning the shin from arm isolation to throat contact, creating immediate choking pressure.

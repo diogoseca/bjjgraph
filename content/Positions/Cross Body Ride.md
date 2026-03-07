@@ -13,6 +13,13 @@ description: "Master Cross Body Ride position in BJJ. Advanced back attack contr
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Cross Body Ride/Bottom|Play as Bottom]]
+[[Cross Body Ride/Top|Play as Top]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Cross Body Ride is an advanced controlling position from turtle where the top practitioner establishes perpendicular chest-to-back contact with the opponent while securing a harness grip (seatbelt control). This position serves as a critical transitional state between turtle top and back control, offering exceptional control and multiple high-percentage paths to dominant positions and submissions. The cross body orientation provides mechanical advantage by directing pressure across the opponent's spine while preventing effective hip escapes.

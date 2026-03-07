@@ -15,6 +15,13 @@ description: "Master the Flying Armbar technique in BJJ. High-risk aerial submis
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Flying Armbar/Attacker|Play as Attacker]]
+[[Flying Armbar/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Flying Armbar is an explosive aerial submission that combines dynamic movement with precise timing to attack the elbow joint. This high-risk, high-reward technique involves jumping into armbar position from standing, typically when the opponent is standing in or attempting to pass your guard. The technique requires exceptional coordination, timing, and spatial awareness to execute safely and effectively.

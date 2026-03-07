@@ -13,6 +13,13 @@ description: "Master Leg Recovery to De La Riva from leg drag bottom. Extract tr
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Leg Recovery to De La Riva/Attacker|Play as Attacker]]
+[[Leg Recovery to De La Riva/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Leg Recovery to De La Riva represents a critical defensive transition for practitioners caught in the compromised leg drag control position. When your opponent has successfully dragged your leg across your body and is threatening to advance to side control or take your back, this technique provides a pathway to re-establish an offensive guard position rather than merely surviving.

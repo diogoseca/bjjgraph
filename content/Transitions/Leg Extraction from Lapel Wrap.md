@@ -13,6 +13,13 @@ description: "Master Leg Extraction from Lapel Wrap in BJJ. Systematic method to
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Leg Extraction from Lapel Wrap/Attacker|Play as Attacker]]
+[[Leg Extraction from Lapel Wrap/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Leg Extraction from Lapel Wrap is a critical defensive technique for escaping the mechanical disadvantage created when an opponent establishes Ringworm Guard. The position creates significant mobility restrictions by threading the gi lapel around your leg, effectively tethering your lower body to the bottom player's control system. This extraction technique provides a systematic method to break free from this compromised position and return to a neutral passing stance.

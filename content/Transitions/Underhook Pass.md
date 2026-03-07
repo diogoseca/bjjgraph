@@ -13,6 +13,13 @@ description: "Master the Underhook Pass from Half Guard. Complete guide with ste
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Underhook Pass/Attacker|Play as Attacker]]
+[[Underhook Pass/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Underhook Pass is a fundamental pressure passing technique used to advance from half guard top position to side control. This pass exploits the powerful control provided by securing an underhook on the bottom player's far side, combined with strategic weight distribution and hip pressure to flatten the opponent and clear the leg entanglement. The technique is built on the principle of controlling the opponent's shoulder and hip simultaneously, creating a cross-body pressure system that limits their defensive frames and movement options.

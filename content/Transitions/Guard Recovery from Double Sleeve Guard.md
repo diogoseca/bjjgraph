@@ -13,6 +13,13 @@ description: "Master guard recovery from Double Sleeve Guard in BJJ. Step-by-ste
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Guard Recovery from Double Sleeve Guard/Attacker|Play as Attacker]]
+[[Guard Recovery from Double Sleeve Guard/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Guard Recovery from Double Sleeve Guard is a defensive transition where the bottom player reestablishes closed guard when bilateral sleeve control becomes compromised. When the opponent breaks one or both sleeve grips and begins advancing with passing pressure, the bottom player must abandon the open guard distance game and close the guard before the opponent can establish combat base or initiate passing sequences. This recovery requires releasing sleeve grips, retracting legs from hip or bicep frames, and closing guard around the opponent's torso while preventing them from establishing combat base or initiating passing sequences.

@@ -13,6 +13,13 @@ description: "Master the Kiss of the Dragon from Reverse De La Riva Guard. Compl
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Kiss of the Dragon from RDLR/Attacker|Play as Attacker]]
+[[Kiss of the Dragon from RDLR/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Kiss of the Dragon is an inversion-based back take executed from Reverse De La Riva Guard, where the bottom player threads their body underneath the opponent by rotating through the space between their legs. This technique exploits the unique angular advantages of the RDLR hook to create a pathway for deep inversion, emerging on the opponent's back side to establish hooks and upper body control. The technique gained prominence through modern competitors and has become a staple of advanced guard play, particularly in gi competition where pants grips enhance control during the rotation.

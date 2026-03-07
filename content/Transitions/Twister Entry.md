@@ -13,6 +13,13 @@ description: "Learn the Twister entry from Cross Body Ride in BJJ. Step-by-step 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Twister Entry/Attacker|Play as Attacker]]
+[[Twister Entry/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Twister entry from Cross Body Ride is the critical transition that converts perpendicular turtle-top control into the figure-four leg entanglement required for Twister Control and its associated submissions. From cross body ride, the attacker threads their near-side leg between the opponent's legs from behind, establishing the initial hook that will become the foundation of the Truck or full Twister Control position. This transition exploits the cross body ride's inherent advantage of weight distribution across the opponent's back while the opponent's hips are partially exposed due to the perpendicular angle.

@@ -13,6 +13,13 @@ description: "Master Double Underhook Pass from Crackhead Control. Step-by-step 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Double Underhook Pass/Attacker|Play as Attacker]]
+[[Double Underhook Pass/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Double Underhook Pass is a systematic transition from Crackhead Control that uses bilateral underhook control to flatten the turtle defender and advance to Side Control. This technique capitalizes on the chair-sit mechanics of Crackhead Control to thread both arms under the opponent's armpits, creating a powerful scooping action that eliminates their defensive base.

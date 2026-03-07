@@ -13,6 +13,13 @@ description: "Master the posture break from Mission Control in BJJ. Learn to dis
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Posture Break from Mission Control/Attacker|Play as Attacker]]
+[[Posture Break from Mission Control/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Posture Break from Mission Control is an essential escape technique for the top player trapped in 10th Planet's rubber guard system. When caught in Mission Control, the top player faces severe shoulder isolation, broken posture, and multiple submission threats including triangles, omoplatas, and gogoplatas. The posture break represents a decisive, assertive approach to dismantling the Mission Control structure by forcefully addressing the key control mechanisms that keep the position intact.

@@ -13,6 +13,13 @@ description: "Master the Crackhead Control to New York transition in 10th Planet
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Crackhead Control to New York/Attacker|Play as Attacker]]
+[[Crackhead Control to New York/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Crackhead Control to New York transition represents a fundamental angle adjustment within the 10th Planet Rubber Guard system, allowing practitioners to shift from the high-risk, submission-dense Crackhead Control to the more stable New York position. This transition becomes essential when the deep overhook of Crackhead Control creates excessive back exposure, when the opponent's defensive posture makes Crackhead submissions difficult, or when you need to reset your offensive chain from a different angle.

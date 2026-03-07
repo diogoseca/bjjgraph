@@ -13,6 +13,13 @@ description: "Master the Inside Ashi-Garami to Cross Ashi transition in BJJ. Ste
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Inside Ashi-Garami to Cross Ashi/Attacker|Play as Attacker]]
+[[Inside Ashi-Garami to Cross Ashi/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Inside Ashi-Garami to Cross Ashi transition is a fundamental positional advancement within modern leg lock systems that allows the attacker to shift from Inside Ashi-Garami to Cross Ashi-Garami when the opponent's defensive positioning creates better finishing angles from the crossed configuration. This transition becomes essential when the opponent rotates their knee inward to defend heel exposure from Inside Ashi, effectively hiding the heel but exposing vulnerability from a perpendicular cross-body angle.

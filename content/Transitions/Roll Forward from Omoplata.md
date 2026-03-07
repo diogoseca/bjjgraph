@@ -13,6 +13,13 @@ description: "Master the Roll Forward from Omoplata in BJJ. Complete guide cover
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Roll Forward from Omoplata/Attacker|Play as Attacker]]
+[[Roll Forward from Omoplata/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Roll Forward from Omoplata is a dynamic positional advancement technique where the bottom player uses their established omoplata control to execute a forward roll, sweeping the opponent and transitioning to side control. This technique capitalizes on the rotational pressure already applied to the opponent's shoulder, converting submission control into positional dominance through a committed rolling motion that follows the natural arc of the omoplata configuration.

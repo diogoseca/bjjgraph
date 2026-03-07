@@ -13,6 +13,13 @@ description: "Master the Limp Leg Escape from Electric Chair in BJJ. Nullify loc
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Limp Leg Escape to Pass/Attacker|Play as Attacker]]
+[[Limp Leg Escape to Pass/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Limp Leg Escape is the fundamental defensive technique for escaping the Electric Chair position from top half guard. When caught in the opponent's lockdown with their hips extended and splitting pressure applied, the natural instinct is to pull the trapped leg out forcefully. This approach fails because muscular tension makes the leg rigid and more susceptible to the joint manipulation that defines the Electric Chair submission. The limp leg concept reverses this paradigm by deliberately relaxing the trapped leg, reducing its diameter and making extraction significantly easier.

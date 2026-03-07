@@ -15,6 +15,13 @@ description: "Master the Buggy Choke Finish in BJJ. Expert guide to collar choke
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Buggy Choke Finish/Attacker|Play as Attacker]]
+[[Buggy Choke Finish/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Buggy Choke Finish is the terminal submission sequence from the Buggy Choke control position, a specialized turtle top attack where the attacker threads their arm under the opponent's near armpit to secure a deep collar grip on the far side. Once the control structure is established with both grips secured and perpendicular body pressure applied, the finishing sequence uses progressive collar tightening combined with body-mechanics-driven pressure to compress the carotid arteries and produce a tap.

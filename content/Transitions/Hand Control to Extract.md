@@ -13,6 +13,13 @@ description: "Master hand control extraction from gogoplata in BJJ. Systematic g
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Hand Control to Extract/Attacker|Play as Attacker]]
+[[Hand Control to Extract/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Hand Control to Extract is a systematic defensive technique employed when caught in gogoplata control. The bottom player's primary weapon in maintaining the gogoplata is their hands pulling their own foot behind your head, which locks the shin-across-throat configuration. By controlling and neutralizing these hands first, you remove the structural foundation that makes the gogoplata dangerous, allowing for systematic head extraction without tightening the choke.

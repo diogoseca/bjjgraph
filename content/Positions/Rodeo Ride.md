@@ -13,6 +13,13 @@ description: "Master Rodeo Ride position in BJJ. Advanced turtle attack with asy
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Rodeo Ride/Bottom|Play as Bottom]]
+[[Rodeo Ride/Top|Play as Top]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Rodeo Ride is an advanced turtle attack position where the top practitioner maintains control over a turtled opponent using asymmetric grips and dynamic positioning. Unlike traditional turtle top control, Rodeo Ride emphasizes mobility and constant pressure adjustment, allowing the attacker to flow between various back attack entries, submission attempts, and control positions. The position gets its name from the rider-like posture and movement pattern required to maintain control while the opponent attempts to escape.

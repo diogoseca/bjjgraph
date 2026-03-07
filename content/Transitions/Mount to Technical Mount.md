@@ -13,6 +13,13 @@ description: "Master the Mount to Technical Mount transition in BJJ. Complete gu
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Mount to Technical Mount/Attacker|Play as Attacker]]
+[[Mount to Technical Mount/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Mount to Technical Mount transition is a fundamental positional advancement that converts standard mount control into an asymmetric attacking platform optimized for armbars, back takes, and choke setups. This transition occurs when the top practitioner posts one leg out while maintaining a hook with the other, shifting from bilateral symmetry to a configuration that creates superior submission angles. The movement is most commonly triggered by the bottom player turning to their side during escape attempts, which creates the natural opening for the top player to post the far leg and establish technical mount.

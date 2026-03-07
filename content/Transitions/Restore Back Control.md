@@ -13,6 +13,13 @@ description: "Master Restore Back Control in BJJ. Re-establish hooks and seat be
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Restore Back Control/Attacker|Play as Attacker]]
+[[Restore Back Control/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Restore Back Control is the critical recovery skill that separates elite back attackers from those who lose the position after initial resistance. When an opponent begins escaping back control—clearing a hook, pummeling out of the seat belt, or turning their hips—the window to restore full control is narrow but highly consequential. Rather than accepting the positional loss and transitioning to turtle top or half guard, skilled practitioners recognize the escape pattern early and execute targeted re-attachment sequences that return to full back control.

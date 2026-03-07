@@ -13,6 +13,13 @@ description: "Master Ashi Garami maintenance in BJJ. Complete guide to systemati
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Ashi Garami Maintenance/Attacker|Play as Attacker]]
+[[Ashi Garami Maintenance/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Ashi Garami Maintenance represents the fundamental skill of retaining leg entanglement control against an opponent's systematic extraction attempts. While leg lock systems receive extensive attention for entries and finishes, the ability to maintain position through connection point management and hip following separates high-level leg lockers from practitioners who rely solely on explosive attacks. This transition encompasses all the micro-adjustments, re-hooks, and grip transitions required to prevent the opponent from clearing your leg control and returning to a neutral or advantageous position.

@@ -13,6 +13,13 @@ description: "Master the Lapel Clear to Toreando Pass. Strip lapel grips and exe
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Lapel Clear to Toreando Pass/Attacker|Play as Attacker]]
+[[Lapel Clear to Toreando Pass/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Lapel Clear to Toreando Pass is a systematic approach to defeating lapel guard configurations by addressing the fabric obstruction before executing a classic bullfighter-style pass. Unlike attempting to pass through or around the lapel, this technique prioritizes clearing the mechanical barrier first, then immediately capitalizing on the momentary window when the opponent loses their primary control mechanism.

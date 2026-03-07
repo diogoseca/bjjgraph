@@ -13,6 +13,13 @@ description: "Master the Sweep from Pocket Half Guard in BJJ. Hip-drive sweep us
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Sweep from Pocket Half Guard/Attacker|Play as Attacker]]
+[[Sweep from Pocket Half Guard/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Sweep from Pocket Half Guard is a direct hip-drive sweep executed from the bottom of pocket half guard, using the defining deep underhook and pocket frame to generate rotational force that tips the top player laterally. Unlike the Old School Sweep which requires reaching under the opponent's far leg, this sweep relies on a tight connection between the underhook lever and an explosive hip bridge directed into the opponent's center of gravity. The bottom player uses the pocket frame—foot pressed against the opponent's near hip—as a fulcrum while pulling the far shoulder down with the underhook, creating a rotational moment that is difficult to resist when timed with the opponent's forward weight shift.

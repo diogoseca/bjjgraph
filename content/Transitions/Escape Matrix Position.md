@@ -13,6 +13,13 @@ description: "Master escaping the Matrix position in BJJ. Technical guide to rec
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Escape Matrix Position/Attacker|Play as Attacker]]
+[[Escape Matrix Position/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Escape Matrix Position represents the critical bail-out transition available when a Matrix back take rotation is successfully defended or stalls mid-execution. When the dynamic rolling motion of the Matrix is blocked by the opponent's base adjustments, sprawling, or counter-pressure, the attacking practitioner finds themselves in one of BJJ's most vulnerable transitional states—partially inverted with their back potentially exposed and rotational momentum dissipated.

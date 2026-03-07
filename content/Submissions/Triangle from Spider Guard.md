@@ -15,6 +15,13 @@ description: "Master Triangle from Spider Guard. Setup from spider hooks, angle 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Triangle from Spider Guard/Attacker|Play as Attacker]]
+[[Triangle from Spider Guard/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Triangle from Spider Guard is a high-percentage finishing sequence that capitalizes on the distance control and posture breaking inherent to spider guard. By using the feet-on-biceps position to control opponent posture and arm placement, you create ideal conditions for triangle entry while preventing your opponent from establishing defensive grips or posture. This submission represents the natural evolution of spider guard control into a finishing position, where the same mechanical advantages that make spider guard effective for sweeps translate directly into submission opportunities. The key is understanding that spider guard already establishes many of the prerequisites for triangle success: broken posture, controlled arm positioning, and angles that favor the guard player. What makes this variation particularly effective is that opponents defending against spider guard sweeps often create the exact defensive reactions—posting hands, driving forward into guard—that expose them to the triangle. The transition from spider guard to triangle is fluid and natural, often catching opponents by surprise as they focus on passing rather than submission defense.

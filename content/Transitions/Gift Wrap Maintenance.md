@@ -13,6 +13,13 @@ description: "Master Gift Wrap Maintenance in BJJ. Learn arm trap retention, con
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Gift Wrap Maintenance/Attacker|Play as Attacker]]
+[[Gift Wrap Maintenance/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Gift Wrap Maintenance is the control-retention cycle that keeps the arm trap secured while preventing the bottom player from recovering their trapped limb or escaping back control entirely. Unlike offensive transitions that seek to advance position or attack submissions, maintenance focuses on the micro-adjustments necessary to sustain dominance: tightening wrist control as it loosens, driving hips forward when the opponent bridges, and cycling between hook pressure and chest connection to deny escape angles.

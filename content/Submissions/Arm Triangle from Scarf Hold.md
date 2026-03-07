@@ -15,6 +15,13 @@ description: "Master the Arm Triangle choke from Scarf Hold in BJJ. Expert guide
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Arm Triangle from Scarf Hold/Attacker|Play as Attacker]]
+[[Arm Triangle from Scarf Hold/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Arm Triangle from Scarf Hold is a blood choke that exploits the natural arm and head control already established in kesa gatame to compress both carotid arteries simultaneously. Unlike arm triangle entries from mount or standard side control, the scarf hold configuration provides pre-existing head control and arm isolation, creating a shorter path to the choking position. The attacker drives the opponent's trapped arm across their own neck, then connects a figure-four or gable grip around the head to complete the bilateral compression structure.

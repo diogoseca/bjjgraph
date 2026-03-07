@@ -15,6 +15,13 @@ description: "Master the Heel Hook in BJJ. Complete safety-first guide covering 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Heel Hook/Attacker|Play as Attacker]]
+[[Heel Hook/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The heel hook represents one of the most devastating and dangerous submissions in Brazilian Jiu-Jitsu, targeting the ankle joint and knee ligaments through rotational force applied to the heel while controlling the leg. Unlike other leg locks that primarily attack in a linear fashion, the heel hook's rotational mechanics can cause catastrophic injury to multiple structures simultaneously—including the ACL, MCL, LCL, meniscus, and ankle joint—often before the opponent feels significant pain due to the nature of ligament damage. This delayed pain response makes the heel hook exceptionally dangerous in training environments.

@@ -13,6 +13,13 @@ description: "Master the Overhook to Closed Guard transition in BJJ. Learn guard
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Overhook to Closed Guard/Attacker|Play as Attacker]]
+[[Overhook to Closed Guard/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Overhook to Closed Guard transition is a guard consolidation technique where the bottom player uses their overhook arm control to secure a closed guard configuration by locking their ankles behind the opponent's back. This technique becomes essential when the overhook grip is being threatened, when the bottom player wants access to the broader closed guard submission and sweep arsenal, or when defensive consolidation is needed against an aggressive passer who is beginning to work around the overhook guard structure.

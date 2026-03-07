@@ -13,6 +13,13 @@ description: "Learn Williams Shoulder Lock from Williams Guard. Step-by-step sho
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Williams Shoulder Lock/Attacker|Play as Attacker]]
+[[Williams Shoulder Lock/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Williams Shoulder Lock is a direct shoulder submission executed from Williams Guard Bottom, using a deep overhook to isolate the opponent's arm and apply controlled external rotation to the glenohumeral joint. The technique exploits the inherent vulnerability created when the attacker secures the overhook and angles their hips to generate rotational torque through core engagement rather than arm strength. This makes the submission deceptive — opponents often fail to recognize the danger until the shoulder capsule is fully engaged because the control position itself feels like guard retention rather than an active submission attempt.

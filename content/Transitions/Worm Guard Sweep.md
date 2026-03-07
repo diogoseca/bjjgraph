@@ -13,6 +13,13 @@ description: "Master the Worm Guard Sweep in BJJ. Complete guide to this advance
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Worm Guard Sweep/Attacker|Play as Attacker]]
+[[Worm Guard Sweep/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Worm Guard Sweep is an advanced gi-specific technique that exploits the unique mechanical properties of the worm guard lapel configuration to generate a powerful off-balancing force against standing or kneeling opponents. By combining the lapel wrap around the opponent's leg with angular hip movement and leg elevation, the sweeper creates a rotational force that the opponent cannot resist because their trapped leg cannot recover base in the direction of the sweep. This mechanical advantage makes the technique effective even against significantly larger opponents who would normally be difficult to sweep with conventional guard techniques.

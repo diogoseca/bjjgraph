@@ -13,6 +13,13 @@ description: "Master Guillotine Control position in BJJ. Complete strategic guid
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Guillotine Control/Bottom|Play as Bottom]]
+[[Guillotine Control/Top|Play as Top]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Guillotine Control represents a fundamental attacking position in Brazilian Jiu-Jitsu where one practitioner secures a front headlock grip with submission intent, controlling the opponent's head and neck while threatening immediate choke submission. This position exists across a spectrum of scenarios—from standing clinch exchanges to ground-based situations—and creates powerful strategic dilemmas for the defender who must simultaneously protect against the submission while preventing positional advancement. The guillotine's effectiveness stems from its versatility as both a high-percentage finishing technique and a control position that severely limits the opponent's offensive options.

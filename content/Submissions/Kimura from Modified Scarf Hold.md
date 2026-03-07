@@ -15,6 +15,13 @@ description: "Master the Kimura from Modified Scarf Hold in BJJ. Complete guide 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Kimura from Modified Scarf Hold/Attacker|Play as Attacker]]
+[[Kimura from Modified Scarf Hold/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Kimura from Modified Scarf Hold is a high-percentage shoulder lock that exploits the superior arm control inherent in the modified scarf hold position. The chest-to-chest pressure and near-arm entrapment characteristic of this pin create ideal conditions for isolating the opponent's arm and applying the figure-four double wrist lock to attack the shoulder through forced external rotation.

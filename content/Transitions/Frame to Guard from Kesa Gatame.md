@@ -13,6 +13,13 @@ description: "Master the frame to guard escape from Kesa Gatame in BJJ. Complete
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Frame to Guard from Kesa Gatame/Attacker|Play as Attacker]]
+[[Frame to Guard from Kesa Gatame/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The frame to guard escape from Kesa Gatame represents one of the most methodical and energy-efficient approaches to recovering guard from the scarf hold position. Unlike bridge-and-roll escapes that require explosive power or ghost escapes that target turtle position, this technique uses systematic frame construction against the top player's neck and shoulder to create incremental space for hip escape and knee insertion. The approach is rooted in the principle that structural resistance through bone-on-bone alignment outlasts and outperforms muscular pushing against a heavier opponent's chest pressure.

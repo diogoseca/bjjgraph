@@ -13,6 +13,13 @@ description: "Master the Scarf Hold to Side Control transition in BJJ. Learn gri
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Scarf Hold to Side Control/Attacker|Play as Attacker]]
+[[Scarf Hold to Side Control/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Scarf Hold to Side Control is a fundamental positional transition where the top player rotates from the perpendicular kesa gatame angle into standard side control alignment. This transition addresses a critical tactical need: while scarf hold offers strong pinning pressure, it exposes the top player's back and limits submission chains compared to the more versatile side control platform. The transition requires precise grip switching, controlled hip rotation, and immediate crossface establishment to prevent the bottom player from exploiting the momentary instability during the angle change.

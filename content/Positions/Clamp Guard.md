@@ -13,6 +13,13 @@ description: "Master Clamp Guard in BJJ. Complete guide to trapping opponent's a
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Clamp Guard/Bottom|Play as Bottom]]
+[[Clamp Guard/Top|Play as Top]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Clamp Guard is an open guard variation where the guard player traps one of the opponent's arms between their legs, typically positioning one shin across the opponent's bicep while the other leg clamps from the opposite side. This creates a powerful controlling mechanism that isolates the arm and generates direct submission pathways to armbars, triangles, and omoplatas while simultaneously threatening sweeps.

@@ -13,6 +13,13 @@ description: "Master the Crucifix to Mount transition in BJJ. Learn systematic l
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Crucifix to Mount/Attacker|Play as Attacker]]
+[[Crucifix to Mount/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Crucifix to Mount transition represents a deliberate positional advancement from one of BJJ's most dominant control positions to the sport's highest-scoring pin. While the crucifix offers devastating submission opportunities through bilateral arm isolation, strategic scenarios arise where transitioning to mount provides superior positional value. This occurs when the opponent begins compromising the arm trap through persistent extraction attempts, when submission attacks from crucifix are being effectively defended, or when the practitioner determines that mount's systematic submission chains offer a more efficient path to finish.

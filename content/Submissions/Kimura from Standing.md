@@ -15,6 +15,13 @@ description: "Master the Kimura from Standing in BJJ. Complete safety guide with
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Kimura from Standing/Attacker|Play as Attacker]]
+[[Kimura from Standing/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Kimura from Standing represents one of the most versatile shoulder lock applications in Brazilian Jiu-Jitsu, bridging the gap between takedown control and submission finish. This technique capitalizes on the standing position's dynamic nature, where opponents are often less defensive against upper body attacks while focused on maintaining balance and preventing takedowns. The standing Kimura serves multiple strategic purposes: it can force an immediate tap, create a dominant takedown opportunity, or establish superior positional control as both fighters transition to the ground. Unlike ground-based Kimura applications, the standing version requires acute awareness of weight distribution, base management, and the ability to control an opponent who maintains full mobility. The technique's effectiveness stems from its integration with wrestling fundamentals—using the Kimura grip to break down posture, compromise base, and create cascading defensive dilemmas. Advanced practitioners use the standing Kimura as a systematic entry point, recognizing that even when the submission doesn't finish, the control gained opens pathways to dominant positions including back takes, side control entries, and turtle attacks. The standing application demands precise technical execution combined with strategic timing, making it a cornerstone technique for practitioners transitioning between standing and ground phases of combat.

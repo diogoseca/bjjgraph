@@ -15,6 +15,13 @@ description: "Master the Chin Strap Guillotine in BJJ. High-control choke target
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Chin Strap Guillotine/Attacker|Play as Attacker]]
+[[Chin Strap Guillotine/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Chin Strap Guillotine is a sophisticated variation of the traditional guillotine choke that involves wrapping the arm around the opponent's head from a front headlock position, with the choking arm passing under the chin and connecting to the bicep of the opposite arm. Unlike the standard guillotine where you secure a guillotine grip, the chin strap variation creates a unique angle of attack by cupping the opponent's chin and pulling it toward your chest while simultaneously driving your shoulder into their neck. This technique is particularly effective when the opponent has good posture defense against traditional guillotines or when they're attempting to pass your guard with their head positioned to one side. The chin strap creates tremendous pressure on both the carotid arteries and the windpipe, making it a high-percentage finishing option from various front headlock scenarios.

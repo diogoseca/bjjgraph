@@ -13,6 +13,13 @@ description: "Master the Knee Slice from De La Riva Guard. Complete guide to DLR
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Knee Slice from DLR/Attacker|Play as Attacker]]
+[[Knee Slice from DLR/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Knee Slice from De La Riva Guard is one of the highest-percentage guard passes against the DLR framework, targeting the guard's fundamental weakness: its reliance on the hook-ankle grip connection for structural stability. The top player systematically strips the DLR hook and drives their knee across the bottom player's thigh line, using crossface pressure and hip drive to cut through to side control. This pass directly addresses DLR's primary control mechanism by eliminating the hook before initiating forward passing pressure, which prevents the guard player from executing berimbolo entries or sweep sequences during the pass.

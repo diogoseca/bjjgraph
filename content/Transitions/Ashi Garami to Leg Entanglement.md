@@ -13,6 +13,13 @@ description: "Master the transition to leg entanglement from Ashi Garami top pos
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Ashi Garami to Leg Entanglement/Attacker|Play as Attacker]]
+[[Ashi Garami to Leg Entanglement/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Transition to Leg Entanglement is a counter-offensive technique executed by the top player caught in an opponent's Ashi Garami control. Rather than simply extracting the trapped leg and retreating, this transition converts a defensive predicament into a bilateral leg control exchange by threading your own legs into entanglement configurations around the opponent's lower body. The technique exploits the inherent vulnerability of Ashi Garami positions: the bottom player's legs are committed to controlling your leg, which means their own legs are exposed to counter-entanglement if you can establish reciprocal hooks and inside space control.

@@ -13,6 +13,13 @@ description: "Master the Backstep from Single Leg X-Guard pass in BJJ. Step-by-s
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Backstep from Single Leg X/Attacker|Play as Attacker]]
+[[Backstep from Single Leg X/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The backstep from Single Leg X-Guard is a rotational guard pass that exploits the structural commitment inherent in the SLX hook configuration. When the bottom player establishes SLX, their legs create powerful sweeping leverage but lock into a specific orientation that limits their ability to follow rotational movement. The backstep capitalizes on this directional commitment by rotating away from the bottom player's primary sweeping axis, stepping the free leg behind their guard structure and using hip rotation to clear the entangled leg entirely.

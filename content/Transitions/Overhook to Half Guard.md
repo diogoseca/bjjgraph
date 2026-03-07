@@ -13,6 +13,13 @@ description: "Master the Overhook to Half Guard transition in BJJ. Learn to conv
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Overhook to Half Guard/Attacker|Play as Attacker]]
+[[Overhook to Half Guard/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Overhook to Half Guard transition is a fundamental guard management technique where the bottom player converts overhook (whizzer) control into an established half guard position. This transition occurs frequently when the overhook is losing its effectiveness as a primary control mechanism, or when the bottom player recognizes that half guard offers superior sweeping and back-taking opportunities compared to maintaining the overhook grip. The movement requires precise timing and hip coordination to thread the inside leg into half guard position while maintaining enough upper body connection to prevent the top player from capitalizing on the transition.

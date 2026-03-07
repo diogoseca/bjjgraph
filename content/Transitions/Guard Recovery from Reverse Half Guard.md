@@ -13,6 +13,13 @@ description: "Master guard recovery from Reverse Half Guard in BJJ. Complete gui
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Guard Recovery from Reverse Half Guard/Attacker|Play as Attacker]]
+[[Guard Recovery from Reverse Half Guard/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Guard Recovery from Reverse Half Guard is a defensive transition where the bottom player works to recover standard half guard from the compromised reverse half guard configuration. When the inverted half guard position becomes untenable for sweeps or back takes, the bottom player must rotate to face the opponent and reestablish traditional half guard frames including knee shield and underhook. This recovery addresses the back exposure inherent in reverse half guard by prioritizing re-facing the opponent and establishing defensive structures before the top player can advance to side control or take the back.

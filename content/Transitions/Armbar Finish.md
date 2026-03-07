@@ -13,6 +13,13 @@ description: "Learn the Armbar Finish from Armbar Control in BJJ. Step-by-step e
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Armbar Finish/Attacker|Play as Attacker]]
+[[Armbar Finish/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Armbar Finish is the terminal submission phase from Armbar Control, converting positional dominance into a forced tap through hyperextension of the elbow joint. The attacker coordinates hip elevation, wrist control, and knee-pinch mechanics to generate breaking pressure that exceeds the structural tolerance of the elbow's collateral ligaments. This is not a single explosive motion but a systematic tightening sequence where each adjustment removes one more degree of defensive freedom from the trapped limb.

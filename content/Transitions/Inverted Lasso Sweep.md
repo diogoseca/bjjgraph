@@ -13,6 +13,13 @@ description: "Master the Inverted Lasso Sweep in BJJ. Complete guide to sweep me
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Inverted Lasso Sweep/Attacker|Play as Attacker]]
+[[Inverted Lasso Sweep/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Inverted Lasso Sweep is a high-percentage overhead sweep executed from inverted lasso guard that exploits the fulcrum effect created by the lasso hook and inverted body positioning. By threading the leg through the opponent's arm and rolling onto the shoulders, the bottom player generates rotational force that multiplies through the lasso connection, creating an overhead trajectory that dumps the opponent forward directly into mount. The technique requires precise timing, maintained lasso tension, and coordinated hip extension to succeed.

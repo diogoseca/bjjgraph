@@ -13,6 +13,13 @@ description: "Master the Sweep from Z-Lock Half Guard in BJJ. Combine lockdown t
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Sweep from Z-Lock Half Guard/Attacker|Play as Attacker]]
+[[Sweep from Z-Lock Half Guard/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Sweep from Z-Lock Half Guard is a compound sweeping technique that exploits the unique dual-leg configuration of the Z-Lock position to create simultaneous off-balancing forces from opposite directions. Unlike traditional lockdown sweeps that primarily attack in one plane, this sweep coordinates lockdown tension pulling the opponent's base backward with butterfly hook elevation driving upward, creating a rotational force that is extremely difficult to defend because it attacks the opponent's balance along two vectors simultaneously.

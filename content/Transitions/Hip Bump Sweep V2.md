@@ -13,6 +13,13 @@ description: "Master the Hip Bump Sweep from Closed Guard. Complete BJJ guide wi
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Hip Bump Sweep V2/Attacker|Play as Attacker]]
+[[Hip Bump Sweep V2/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Hip Bump Sweep is a fundamental attacking technique from closed guard that exploits an opponent's broken posture and forward weight distribution. This sweep creates an angular attack by using hip movement to off-balance the opponent laterally, resulting in a reversal to the mount position. The technique is particularly effective when the opponent resists backward pressure by posting their hands or driving their weight forward.

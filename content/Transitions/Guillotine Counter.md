@@ -13,6 +13,13 @@ description: "Master the Guillotine Counter in BJJ. Systematic defense turning a
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Guillotine Counter/Attacker|Play as Attacker]]
+[[Guillotine Counter/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Guillotine Counter is a critical defensive technique that transforms a dangerous submission threat into a dominant top position. When caught in a guillotine choke, whether standing or on the ground, understanding proper defensive mechanics can mean the difference between tapping and establishing control. This counter relies on fundamental principles of posture management, pressure application, and strategic hand positioning to neutralize the choking threat while simultaneously advancing position. The technique is particularly valuable in both gi and no-gi contexts, as guillotine attempts are common across all levels of competition. By mastering this counter, practitioners develop confidence in scramble situations and learn to remain calm under submission pressure. The guillotine counter exemplifies the BJJ principle that every offensive technique has a systematic defense, and that proper technique overcomes strength and panic.

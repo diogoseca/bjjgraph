@@ -13,6 +13,13 @@ description: "Master Leg Entanglement positions in BJJ. Complete guide to ashi g
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Leg Entanglement/Bottom|Play as Bottom]]
+[[Leg Entanglement/Top|Play as Top]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Leg Entanglement represents a comprehensive positional system in modern Brazilian Jiu-Jitsu where practitioners control and attack their opponent's lower body through various configurations of leg positioning and entanglement. These positions form the foundation of systematic leg lock attacking, characterized by superior control mechanics that isolate specific joints (ankle, knee, hip) while maintaining positional dominance or creating submission opportunities. The entanglement configurations involve legs wrapping, hooking, or triangling around the opponent's leg or legs, creating control structures that range from neutral exchanges (50-50) to dominant attacking positions (saddle, inside ashi). This positional family has revolutionized modern no-gi grappling, with systematic approaches transforming leg attacks from opportunistic submissions into a comprehensive positional hierarchy comparable to traditional upper body control positions. Success in leg entanglements requires understanding the biomechanical principles of joint isolation, recognizing the specific finishing mechanics for different leg locks, and maintaining proper positioning to prevent escapes or counters. The positions offer multiple pathways to finishing submissions (heel hooks, kneebar variations, ankle locks) while also providing transition opportunities to other dominant positions if the opponent defends successfully. The neutral nature of many entanglement positions means both practitioners can simultaneously threaten attacks, creating dynamic exchanges that reward systematic understanding and technical precision.

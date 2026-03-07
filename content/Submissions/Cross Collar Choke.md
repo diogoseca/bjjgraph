@@ -15,6 +15,13 @@ description: "Master the Cross Collar Choke in BJJ. Complete guide covering gi g
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Cross Collar Choke/Attacker|Play as Attacker]]
+[[Cross Collar Choke/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Cross Collar Choke represents one of the most fundamental and effective gi submissions in Brazilian Jiu-Jitsu, targeting the carotid arteries through precise collar grip manipulation. This technique leverages the opponent's own gi against them, creating a constriction that cuts blood flow to the brain when executed properly. The cross grip configuration—where your right hand grips their left collar and vice versa—generates tremendous mechanical advantage through the twisting action of your forearms. This submission is particularly valuable because it can be applied from multiple positions, most commonly from closed guard bottom, mount top, and side control. The technique's effectiveness stems from its ability to disguise the setup within normal grip fighting exchanges, making it difficult for opponents to recognize the threat until the choke is already deep. When executed with proper depth and angle, the Cross Collar Choke creates an inescapable situation that forces immediate submission, often within 3-5 seconds of full application. Its versatility across skill levels and positions makes it an essential component of any gi practitioner's submission arsenal.

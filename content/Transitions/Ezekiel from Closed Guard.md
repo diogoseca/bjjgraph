@@ -13,6 +13,13 @@ description: "Master the Ezekiel choke from closed guard top in BJJ. Complete gu
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Ezekiel from Closed Guard/Attacker|Play as Attacker]]
+[[Ezekiel from Closed Guard/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Ezekiel choke from closed guard top is one of the most deceptive submissions in Brazilian Jiu-Jitsu. Unlike conventional closed guard top strategy that prioritizes posture maintenance and systematic guard opening, the Ezekiel exploits the close proximity between players to threaten a devastating forearm choke while the opponent expects purely defensive behavior. The technique uses the gi sleeve of one arm as a fulcrum while the opposite fist drives across the throat, creating a powerful bilateral compression of the carotid arteries that produces rapid unconsciousness when properly applied.

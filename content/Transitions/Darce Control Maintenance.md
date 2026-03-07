@@ -13,6 +13,13 @@ description: "Master Darce Control maintenance in BJJ. Complete guide to grip re
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Darce Control Maintenance/Attacker|Play as Attacker]]
+[[Darce Control Maintenance/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Darce Control Maintenance is the systematic process of retaining the darce grip configuration and positional dominance while the bottom player attempts to escape. This transition represents one of the most skill-dependent aspects of the darce game, as maintaining the position requires constant micro-adjustments to grip depth, shoulder pressure angle, and hip positioning in response to the opponent's defensive movements. Unlike many other control positions where static pressure suffices, the darce demands active management because the arm-in choke configuration creates narrow margins between effective control and grip failure.

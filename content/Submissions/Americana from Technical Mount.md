@@ -15,6 +15,13 @@ description: "Master the Americana shoulder lock from Technical Mount in BJJ. Co
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Americana from Technical Mount/Attacker|Play as Attacker]]
+[[Americana from Technical Mount/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Americana from Technical Mount exploits the asymmetric leg positioning and superior arm isolation of technical mount to attack the shoulder joint through forced external rotation using a figure-four grip. The stepped leg pins the opponent's shoulder line and restricts their ability to rotate or bridge away from the lock, while the attacker's hip weight naturally assists in driving the wrist to the mat. This combination makes the technical mount Americana significantly harder to defend than the same submission from standard mount, where the symmetrical base gives the defender more rotational freedom and bridging options.

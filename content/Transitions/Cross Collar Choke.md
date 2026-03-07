@@ -13,6 +13,13 @@ description: "Master the Cross Collar Choke from High Mount. Step-by-step gi cho
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Cross Collar Choke/Attacker|Play as Attacker]]
+[[Cross Collar Choke/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Cross Collar Choke from High Mount is one of the most fundamental and high-percentage gi submissions in Brazilian Jiu-Jitsu. Executed from the dominant high mount position, this blood choke applies bilateral pressure to the carotid arteries using the opponent's own lapels, creating unconsciousness in seconds when applied correctly. The technique requires precise grip placement and understanding of collar mechanics rather than raw strength.

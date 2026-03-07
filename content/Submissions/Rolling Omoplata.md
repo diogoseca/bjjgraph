@@ -15,6 +15,13 @@ description: "Master the Rolling Omoplata in BJJ. Dynamic shoulder lock from fai
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Rolling Omoplata/Attacker|Play as Attacker]]
+[[Rolling Omoplata/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Rolling Omoplata is a dynamic shoulder lock submission that capitalizes on momentum and transition phases during scrambles, failed sweeps, or guard recovery situations. Unlike the traditional static omoplata from closed or open guard, this variation involves a rolling motion that allows the practitioner to capture the opponent's shoulder joint while both grapplers are in movement. This technique is particularly effective when transitioning from failed sweep attempts, inverting under pressure, or recovering guard against aggressive passing attempts. The rolling motion generates unexpected leverage on the shoulder while simultaneously off-balancing the opponent, making it difficult to defend once initiated.

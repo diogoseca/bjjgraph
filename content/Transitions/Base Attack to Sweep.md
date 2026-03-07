@@ -13,6 +13,13 @@ description: "Master Base Attack to Sweep from Aoki Lock bottom. Destabilize opp
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Base Attack to Sweep/Attacker|Play as Attacker]]
+[[Base Attack to Sweep/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Base Attack to Sweep represents a critical offensive escape option from the Aoki Lock bottom position, targeting the top player's posted leg to destabilize their base and create a sweeping opportunity. When caught in Aoki Lock bottom, most practitioners focus purely on defensive arm extraction, but the base attack approach exploits a fundamental vulnerability in the position - the top player must maintain a posted leg for stability while applying shoulder pressure, and attacking this base creates immediate positional crisis.

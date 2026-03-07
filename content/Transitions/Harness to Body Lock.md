@@ -13,6 +13,13 @@ description: "Master the Harness to Body Lock transition in BJJ. Learn grip swit
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Harness to Body Lock/Attacker|Play as Attacker]]
+[[Harness to Body Lock/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Transition to Body Lock converts a seated or grounded harness (seat belt) grip into a standing body lock control, repositioning your locked grip from the upper torso to around the opponent's waist while maintaining unbroken chest-to-back connection. This transition occurs when your opponent stands up from back control or when you deliberately elevate them to pursue standing finishing sequences. The mechanical challenge lies in switching from a harness configuration optimized for choking to a body lock configuration optimized for mat returns, throws, and re-establishing ground back control.

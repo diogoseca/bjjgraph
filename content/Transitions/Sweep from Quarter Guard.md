@@ -13,6 +13,13 @@ description: "Master the Sweep from Quarter Guard in BJJ. Learn underhook-driven
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Sweep from Quarter Guard/Attacker|Play as Attacker]]
+[[Sweep from Quarter Guard/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Sweep from Quarter Guard is a critical reversal technique executed from the compromised quarter guard bottom position, where the bottom player retains minimal leg engagement but has secured an underhook against the top player's body. This sweep exploits the mechanical vulnerability created when the top player commits weight forward during pass completion, using the underhook as the primary lever to redirect the top player's momentum and achieve a full reversal to side control top.

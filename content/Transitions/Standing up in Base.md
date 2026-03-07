@@ -13,6 +13,13 @@ description: "Master the technical standup from turtle bottom in BJJ. Step-by-st
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Standing up in Base/Attacker|Play as Attacker]]
+[[Standing up in Base/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The technical standup from base is a fundamental defensive movement that allows a grounded fighter to safely return to standing position while maintaining defensive posture and base. This essential skill bridges the gap between ground-based positions and standing engagement, providing both escape utility and offensive opportunity. The technique emphasizes proper weight distribution, frame creation, and sequential base-building to prevent opponent interference during the standup process. Understanding this movement is critical for guard retention, scramble navigation, and preventing opponents from consolidating top position control.

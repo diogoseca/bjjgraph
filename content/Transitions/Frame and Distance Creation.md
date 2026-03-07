@@ -13,6 +13,13 @@ description: "Learn Frame and Distance Creation defense from ankle lock control.
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Frame and Distance Creation/Attacker|Play as Attacker]]
+[[Frame and Distance Creation/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Frame and Distance Creation is a fundamental defensive technique employed when caught in straight ankle lock control. Rather than attempting to fight the attacker's grips directly, this escape prioritizes establishing structural frames against the opponent's upper body and systematically creating space that loosens their control and facilitates foot extraction.

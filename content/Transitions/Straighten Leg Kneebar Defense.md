@@ -13,6 +13,13 @@ description: "Master the straighten leg kneebar defense in BJJ. Complete guide t
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Straighten Leg Kneebar Defense/Attacker|Play as Attacker]]
+[[Straighten Leg Kneebar Defense/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Straighten Leg Kneebar Defense is a fundamental defensive technique employed when an opponent has established kneebar control and is threatening to hyperextend the knee joint. The core mechanic involves actively extending the knee against the attacker's finishing pressure, denying them the bent-leg position necessary to create the fulcrum for hyperextension. This defense relies on a combination of quadriceps strength, hip positioning, and timing to create enough resistance to either prevent the finish entirely or create space for leg extraction and escape.

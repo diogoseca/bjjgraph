@@ -13,6 +13,13 @@ description: "Master the Lasso Sweep in BJJ. Step-by-step guide to sweeping from
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Lasso Sweep/Attacker|Play as Attacker]]
+[[Lasso Sweep/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The **Lasso Sweep** is a fundamental sweeping technique from lasso guard that leverages the shin-across-arm control to create an irrecoverable loss of base, finishing in full mount. The sweep works by combining the lasso's mechanical advantage over the opponent's trapped arm with a secondary pulling grip and coordinated hip movement, directing force toward the side where the opponent cannot post effectively.

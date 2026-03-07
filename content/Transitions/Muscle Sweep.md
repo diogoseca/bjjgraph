@@ -13,6 +13,13 @@ description: "Master the Muscle Sweep from Closed Guard to Mount. Learn setup, g
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Muscle Sweep/Attacker|Play as Attacker]]
+[[Muscle Sweep/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Muscle Sweep is a fundamental attacking technique from Closed Guard that exploits the opponent's forward pressure and broken posture. Unlike more technical sweeps that rely on precise leverage points, the Muscle Sweep uses a combination of hip movement, upper body control, and explosive power to drive the opponent backward and sweep them to Mount position. This sweep is particularly effective when the opponent is defending other attacks and their weight is distributed forward, or when they attempt to posture up from a broken-down position. The technique requires good timing and the ability to coordinate upper body pulling with lower body hip elevation. While often considered a 'strength-based' technique by its name, proper execution relies more on timing the opponent's weight distribution and creating the correct angle of attack. The Muscle Sweep serves as an excellent foundational sweep for beginners while remaining effective at advanced levels when combined with other guard attacks.

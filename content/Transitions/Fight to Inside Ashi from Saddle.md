@@ -13,6 +13,13 @@ description: "Master the fight from Saddle bottom to Inside Ashi-Garami. Systema
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Fight to Inside Ashi from Saddle/Attacker|Play as Attacker]]
+[[Fight to Inside Ashi from Saddle/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Fighting to Inside Ashi-Garami from the Saddle bottom represents one of the most critical defensive transitions in modern leg lock grappling. When trapped in the Saddle, you face immediate heel hook, toe hold, and kneebar threats with severely limited defensive options. Rather than attempting a full escape that risks exposing the heel during large movements, this technique focuses on systematically degrading the opponent's entanglement from the highly dominant Saddle configuration to the less threatening Inside Ashi-Garami, where submission finishing mechanics are significantly weaker and additional escape pathways become available.

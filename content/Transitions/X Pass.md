@@ -13,6 +13,13 @@ description: "Master the X Pass guard pass in BJJ. Step-by-step guide covering c
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[X Pass/Attacker|Play as Attacker]]
+[[X Pass/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The X Pass is a highly effective guard passing technique that combines pressure, angle creation, and strategic weight distribution to neutralize the bottom player's defensive structure. Originating from top half guard positions, this pass leverages crossface control and hip pressure to flatten the opponent while simultaneously clearing the legs. The technique's name derives from the cross-body angle created during execution, where the passer's torso forms an 'X' shape relative to the opponent's body. This pass is particularly effective against knee shield and standard half guard variations, as it attacks the fundamental defensive frames that bottom players rely upon.

@@ -13,6 +13,13 @@ description: "Master the Transition to Old School from half guard bottom. Learn 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Half Guard to Old School/Attacker|Play as Attacker]]
+[[Half Guard to Old School/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Transition to Old School is the critical positional entry from standard half guard bottom into the Old School attacking position, a cornerstone of lockdown-based half guard offense. This transition transforms a neutral or defensive half guard bottom into an immediately threatening sweep platform by establishing three simultaneous controls: the lockdown figure-four on the trapped leg, a deep underhook on the near side, and head control with the far arm. Each control element serves a distinct mechanical purpose, and the sequence in which they are established determines success probability.

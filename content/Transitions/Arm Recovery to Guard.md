@@ -13,6 +13,13 @@ description: "Learn Arm Recovery to Guard from Kuzure Kesa-Gatame bottom. Step-b
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Arm Recovery to Guard/Attacker|Play as Attacker]]
+[[Arm Recovery to Guard/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Arm Recovery to Guard is the critical defensive transition from Kuzure Kesa-Gatame bottom that addresses the position's primary problem: the trapped arm. Unlike escapes that work around the arm isolation (such as the Granby Roll to Turtle), this technique directly solves the trapped arm by extracting it through precise shoulder rotation, frame creation, and hip movement to recover a guard position. The technique transforms a severely disadvantaged pin into an active guard where offensive options become available.

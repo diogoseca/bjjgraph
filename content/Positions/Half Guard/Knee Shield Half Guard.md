@@ -13,6 +13,13 @@ description: "Master Knee Shield Half Guard in BJJ. Strategic guide covering set
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Knee Shield Half Guard/Bottom|Play as Bottom]]
+[[Knee Shield Half Guard/Top|Play as Top]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Knee Shield Half Guard is a fundamental variation of half guard characterized by the bottom player using their top leg's shin as a defensive frame across the opponent's torso. This creates critical distance that prevents the crushing pressure typical of traditional half guard, fundamentally altering the position's dynamics for both players. The knee shield acts as both a defensive barrier preventing the pass and an offensive launching point for sweeps, back takes, and guard transitions.

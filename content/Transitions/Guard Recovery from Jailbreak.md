@@ -13,6 +13,13 @@ description: "Master guard recovery from the Jailbreak position in BJJ. Complete
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Guard Recovery from Jailbreak/Attacker|Play as Attacker]]
+[[Guard Recovery from Jailbreak/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Guard Recovery from Jailbreak is a defensive transition where the bottom player reestablishes open guard after the explosive Jailbreak escape from half guard. When the Jailbreak roll or inversion does not achieve turtle or back take, the bottom player must recover to a functional guard position rather than remaining in the compromised Jailbreak state. This recovery involves using frames and hip escapes to reinsert legs between the players, establishing distance through knee shields or feet-on-hips positioning, and preventing the top player from consolidating side control during the transition.

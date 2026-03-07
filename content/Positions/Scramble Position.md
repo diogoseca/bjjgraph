@@ -13,6 +13,13 @@ description: "Master scramble position dynamics in BJJ with expert techniques fo
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Scramble Position/Bottom|Play as Bottom]]
+[[Scramble Position/Top|Play as Top]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Scramble Position refers to a highly dynamic transitional state in BJJ where neither practitioner has established clear positional dominance, resulting in a chaotic exchange with rapidly changing configurations. Unlike stable positions with clear structural definitions, scrambles are characterized by fluid movement, temporary connections, and continuous positional battles where both practitioners simultaneously attempt to improve position while preventing the opponent from doing the same. Scrambles often result from failed techniques, escapes, or transitions, and represent critical junctures where matches can be decisively won or lost based on split-second decision making and instinctive technical application. The ability to navigate scrambles effectively is considered a hallmark skill that separates elite competitors from average practitioners, requiring exceptional spatial awareness, technical fluidity, and strategic decision-making under pressure.

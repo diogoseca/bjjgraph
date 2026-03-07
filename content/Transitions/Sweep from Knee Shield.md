@@ -13,6 +13,13 @@ description: "Master the Sweep from Knee Shield in BJJ. Complete guide covering 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Sweep from Knee Shield/Attacker|Play as Attacker]]
+[[Sweep from Knee Shield/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Sweep from Knee Shield is a fundamental offensive technique executed from the knee shield half guard bottom position, where the bottom player leverages their knee shield frame and underhook to off-balance and topple the top player. This sweep capitalizes on the structural advantage that the knee shield provides—maintaining distance while simultaneously serving as a lever point for generating sweeping force. The technique represents the offensive evolution of the knee shield, transforming a primarily defensive frame into a dynamic attacking platform that punishes forward pressure.

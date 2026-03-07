@@ -15,6 +15,13 @@ description: "Master the Cross Collar Choke from Knee on Belly. Complete guide t
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Cross Collar Choke from KOB/Attacker|Play as Attacker]]
+[[Cross Collar Choke from KOB/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Cross Collar Choke from Knee on Belly is a high-percentage gi submission that exploits the intense diaphragm pressure of the Knee on Belly position to establish deep collar grips and finish a blood choke. The choking mechanism attacks both carotid arteries simultaneously using crossed forearms pulling against the opponent's collar fabric, producing unconsciousness within seconds when properly applied. This technique thrives on the positional dilemma inherent to Knee on Belly — the bottom player cannot simultaneously address the crushing knee pressure on their solar plexus and defend their collar from deep grip insertion.

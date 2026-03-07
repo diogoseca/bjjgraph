@@ -13,6 +13,13 @@ description: "Master the Frame Escape from Shoulder of Justice in BJJ. Learn sys
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Frame Escape from Shoulder of Justice/Attacker|Play as Attacker]]
+[[Frame Escape from Shoulder of Justice/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Frame Escape from Shoulder of Justice is a systematic escape technique designed to recover guard from one of the most oppressive pinning positions in Brazilian Jiu-Jitsu. The Shoulder of Justice applies concentrated pressure through the opponent's shoulder blade into the bottom player's jaw and temporomandibular joint, creating intense physical discomfort that provokes reactive movements. The Frame Escape counters this by using structured, skeletal-alignment-based frames to create incremental space without exposing vulnerable limbs to submission attacks.

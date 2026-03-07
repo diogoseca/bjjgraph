@@ -15,6 +15,13 @@ description: "Master the Choke from Crucifix in BJJ. Complete guide covering blo
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Choke from Crucifix/Attacker|Play as Attacker]]
+[[Choke from Crucifix/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Choke from Crucifix is a devastating finishing technique that capitalizes on one of the most dominant control positions in Brazilian Jiu-Jitsu. The crucifix position provides exceptional arm control, with both of the opponent's arms trapped and neutralized, leaving their neck completely exposed and defenseless. This submission represents the culmination of superior positional control, where the attacker has achieved near-total dominance over their opponent's ability to defend.

@@ -13,6 +13,13 @@ description: "Master Reverse Kesa-Gatame in BJJ. Strategic guide covering pin me
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Reverse Kesa-Gatame/Bottom|Play as Bottom]]
+[[Reverse Kesa-Gatame/Top|Play as Top]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Reverse Kesa-Gatame (Reverse Scarf Hold) is a powerful pinning position distinguished by its reverse orientation compared to traditional Kesa Gatame. While maintaining the perpendicular body alignment characteristic of scarf hold positions, the top player faces toward the opponent's legs rather than their head, creating fundamentally different control mechanics and attacking opportunities. This reverse configuration naturally isolates the bottom player's far arm while eliminating their ability to create defensive frames against the top player's face and neck.

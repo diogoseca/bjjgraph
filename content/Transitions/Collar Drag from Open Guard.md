@@ -13,6 +13,13 @@ description: "Master the collar drag from open guard in BJJ. Complete guide cove
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Collar Drag from Open Guard/Attacker|Play as Attacker]]
+[[Collar Drag from Open Guard/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The collar drag from open guard is a high-percentage off-balancing technique where the bottom guard player uses a collar grip to pull the top player forward and down, creating the opportunity to come up into a front headlock position. This technique exploits a fundamental vulnerability in the standing or kneeling passer's posture: forward weight commitment during guard engagement becomes a liability when redirected through precise grip timing and explosive hip movement. The collar drag rewards reading your opponent's weight distribution rather than relying on raw strength, making it effective across all body types.

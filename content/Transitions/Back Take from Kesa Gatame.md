@@ -13,6 +13,13 @@ description: "Master the Back Take from Kesa Gatame in BJJ. Learn to exploit the
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Back Take from Kesa Gatame/Attacker|Play as Attacker]]
+[[Back Take from Kesa Gatame/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Back Take from Kesa Gatame exploits the defining structural vulnerability of the scarf hold: the top player's exposed back. Unlike standard side control where the top player faces you directly, Kesa Gatame's perpendicular body angle creates a geometric weakness that allows the bottom player to rotate behind the opponent and establish back control. This reversal transforms one of the most oppressive pinning positions into the most dominant offensive position in BJJ, making it a critical technique for any practitioner who faces opponents with strong Kesa Gatame control.

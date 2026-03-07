@@ -13,6 +13,13 @@ description: "Learn the 50-50 Guard to Inside Ashi transition. Extract from symm
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[50-50 Guard to Inside Ashi/Attacker|Play as Attacker]]
+[[50-50 Guard to Inside Ashi/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The 50-50 Guard to Inside Ashi transition represents a critical pathway for escaping the symmetrical stalemate that often characterizes 50-50 engagements. When both practitioners mirror each other's leg entanglement, neither has clear offensive advantage. This transition breaks that parity by extracting your inside leg from the entanglement and repositioning it across your opponent's hip, converting from mirror configuration to the dominant inside ashi-garami position.

@@ -13,6 +13,13 @@ description: "Master Guillotine Defense in BJJ. Systematic escape from guillotin
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Guillotine Defense/Attacker|Play as Attacker]]
+[[Guillotine Defense/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Guillotine Defense represents a critical survival skill in Brazilian Jiu-Jitsu, addressing one of the most common and dangerous submission threats across all levels of competition. When caught in a guillotine choke, whether standing or on the ground, understanding the proper defensive mechanics can mean the difference between tapping and escaping to a superior position. This defensive sequence focuses on alleviating pressure from the carotid arteries while simultaneously creating escape pathways that neutralize the submission threat.

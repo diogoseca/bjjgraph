@@ -13,6 +13,13 @@ description: "Master the Matrix to Back Control counter in BJJ. Follow your oppo
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Matrix to Back Control/Attacker|Play as Attacker]]
+[[Matrix to Back Control/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Matrix to Back Control is a high-level counter-transition executed from the top position when the opponent initiates a Matrix rolling back take. Rather than simply defending the rotation by sprawling or widening base, the top player reads the entry, follows the rotational movement, and capitalizes on the brief window when the bottom player's back becomes exposed during their inverted roll. This technique converts a defensive scenario into the most dominant position in Brazilian Jiu-Jitsu.

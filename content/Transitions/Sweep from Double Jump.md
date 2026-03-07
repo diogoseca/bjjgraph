@@ -13,6 +13,13 @@ description: "Master the Sweep from Double Jump in BJJ. Explosive technique conv
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Sweep from Double Jump/Attacker|Play as Attacker]]
+[[Sweep from Double Jump/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Sweep from Double Jump is an advanced offensive technique executed from the bottom Double Jump position, where the practitioner has successfully inserted both legs underneath the opponent's hips during an explosive guard recovery entry. This sweep capitalizes on the destabilized platform created by bilateral leg insertion, using coordinated hip extension, leg elevation, and upper body control to off-balance the top player and achieve a direct reversal to mount. The technique represents the most efficient positional advancement available from the Double Jump system, bypassing intermediate positions entirely to reach the highest-value control position in the BJJ hierarchy.

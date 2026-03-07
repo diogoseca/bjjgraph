@@ -13,6 +13,13 @@ description: "Master the Crab Ride to Back transition in BJJ. Complete guide to 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Crab Ride to Back/Attacker|Play as Attacker]]
+[[Crab Ride to Back/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Crab Ride to Back transition represents one of the most dominant pathways from turtle control to full back control in modern Brazilian Jiu-Jitsu. This technique capitalizes on the unique leverage advantages of the Crab Ride position, where the attacking grappler maintains control with hooks and strategic weight distribution while the opponent is trapped in turtle. The transition exploits the opponent's defensive reactions and limited mobility to secure the coveted back control position.

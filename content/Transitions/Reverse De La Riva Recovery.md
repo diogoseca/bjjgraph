@@ -13,6 +13,13 @@ description: "Master Reverse De La Riva Recovery in BJJ. Learn how to re-establi
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Reverse De La Riva Recovery/Attacker|Play as Attacker]]
+[[Reverse De La Riva Recovery/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Reverse De La Riva Recovery is a critical defensive transition that allows practitioners to re-establish proper Reverse De La Riva guard structure when the opponent has begun to compromise the position. This technique is essential for maintaining guard retention when facing pressure passing attacks or when hooks and grips have been partially cleared. The recovery sequence focuses on hip movement, hook retention, and grip fighting to restore the fundamental control elements of RDLR guard.

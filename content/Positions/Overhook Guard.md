@@ -13,6 +13,13 @@ description: "Master Overhook Guard in BJJ. Strategic guide covering control mec
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Overhook Guard/Bottom|Play as Bottom]]
+[[Overhook Guard/Top|Play as Top]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Overhook Guard is a specialized guard position where the bottom practitioner controls one of the opponent's arms with an overhook (overhand grip over the shoulder) while maintaining guard structure. This position creates powerful off-balancing opportunities and direct pathways to sweeps and back takes by compromising the opponent's base and posture. The overhook functions as both a defensive frame to prevent passes and an offensive tool to break down the top player's structure.

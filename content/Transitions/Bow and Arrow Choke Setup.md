@@ -13,6 +13,13 @@ description: "Master the Bow and Arrow Choke Setup from Gift Wrap in BJJ. Step-b
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Bow and Arrow Choke Setup/Attacker|Play as Attacker]]
+[[Bow and Arrow Choke Setup/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Bow and Arrow Choke Setup from Gift Wrap represents a high-percentage gi-based submission entry that capitalizes on the dominant arm control already established. From Gift Wrap position, the attacker has one of the opponent's arms trapped across their body, creating ideal conditions for securing the deep collar grip required for the bow and arrow finish. This setup leverages the Gift Wrap's inherent control to prevent defensive hand fighting while transitioning to the perpendicular hip angle that characterizes the bow and arrow configuration.

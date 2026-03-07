@@ -13,6 +13,13 @@ description: "Learn Ushiro Ashi-Garami to Deep Half Guard transition in BJJ. Esc
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Ushiro Ashi-Garami to Deep Half/Attacker|Play as Attacker]]
+[[Ushiro Ashi-Garami to Deep Half/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Ushiro Ashi-Garami to Deep Half Guard transition is an advanced defensive technique that converts a compromised reversed leg entanglement into a strong sweeping and recovery position. When trapped in ushiro ashi-garami bottom, the defender leverages their inverted hip orientation to thread underneath the opponent's hips and establish deep half guard, simultaneously clearing the leg entanglement and creating offensive opportunities.

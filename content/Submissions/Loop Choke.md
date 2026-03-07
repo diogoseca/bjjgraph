@@ -15,6 +15,13 @@ description: "Master the Loop Choke in BJJ - deceptive collar choke from guard, 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Loop Choke/Attacker|Play as Attacker]]
+[[Loop Choke/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Loop Choke is a deceptive gi-based blood choke that attacks the carotid arteries through a deep same-side collar grip combined with strategic body positioning and weight distribution. Unlike traditional collar chokes that rely on bilateral compression, the Loop Choke creates asymmetric pressure by threading one hand deep into the opponent's collar while using body weight and positioning to complete the strangle. The technique is particularly effective from closed guard, mount, side control, and turtle positions, where the attacker can control posture and prevent defensive hand fighting.

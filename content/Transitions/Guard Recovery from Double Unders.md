@@ -13,6 +13,13 @@ description: "Master guard recovery from double unders in BJJ. Learn frame creat
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Guard Recovery from Double Unders/Attacker|Play as Attacker]]
+[[Guard Recovery from Double Unders/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Guard Recovery from Double Unders is a critical defensive transition executed by the bottom player when trapped in the double unders passing position. The top player has established bilateral underhook control under both legs with hands clasped behind the back, creating tremendous forward pressure that stacks the bottom player's weight onto their shoulders. This guard recovery sequence represents the bottom player's systematic response to reclaim leg positioning and re-establish a functional guard, most commonly closed guard or open guard.

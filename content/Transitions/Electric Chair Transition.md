@@ -13,6 +13,13 @@ description: "Master Electric Chair Transition from Lockdown. Step-by-step eleva
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Electric Chair Transition/Attacker|Play as Attacker]]
+[[Electric Chair Transition/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Electric Chair Transition is the fundamental pathway from lockdown half guard to the devastating Electric Chair attacking position. This transition represents the core mechanics of the 10th Planet half guard system, converting defensive lockdown control into an aggressive sweep and submission platform. The technique requires precise sequencing of grip establishment, hip elevation, and upper body control to create the characteristic splitting pressure that defines the Electric Chair.

@@ -13,6 +13,13 @@ description: "Learn Triangle from Mount in BJJ. Step-by-step setup from 3-4 Moun
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Triangle from Mount/Attacker|Play as Attacker]]
+[[Triangle from Mount/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Triangle from Mount is a high-percentage submission setup that exploits the asymmetric leg configuration of 3-4 Mount to thread a triangle around the opponent's head and arm. The technique capitalizes on the natural positioning advantage of mount—gravity, chest pressure, and arm isolation—to secure a triangle configuration that would be far more difficult to achieve from guard. Because the attacker maintains top position throughout, the bottom player cannot use posture, distance, or stacking to defend in the ways available from closed guard triangle attacks.

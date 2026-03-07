@@ -13,6 +13,13 @@ description: "Master Posture Recovery from Meathook in BJJ. Learn systematic gri
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Posture Recovery from Meathook/Attacker|Play as Attacker]]
+[[Posture Recovery from Meathook/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Posture Recovery from Meathook is a critical defensive transition for the top player caught in the Rubber Guard's Meathook control. When the bottom player establishes a shin hook over the trapped arm while breaking posture with collar or head control, the top player faces escalating submission threats including Gogoplata, Triangle, and Omoplata. Posture recovery represents the systematic escape methodology that addresses both arm isolation and broken posture through a carefully sequenced approach prioritizing arm extraction before posture restoration.

@@ -13,6 +13,13 @@ description: "Master Side Control in BJJ with complete guides for top pressure, 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Side Control/Bottom|Play as Bottom]]
+[[Side Control/Top|Play as Top]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Side Control (also known as side mount or cross-side) is one of the most fundamental and dominant positions in Brazilian Jiu-Jitsu, achieved when the top player lies perpendicularly across the opponent's torso, controlling them without the opponent's legs interfering. This position offers significant control and multiple attacking opportunities while providing a stable base from which to advance to more dominant positions. As one of the fundamental controlling positions in Brazilian Jiu-Jitsu, Side Control serves as a critical gateway between guard passing and more dominant positions like mount or back control. The position is valued at 3 points in IBJJF competition and is considered one of the most versatile positions for both maintaining control and launching attacks. Mastery of Side Control requires understanding weight distribution, pressure application, and the ability to transition fluidly between variations while maintaining constant offensive pressure. The perpendicular body alignment creates maximum control surface area while minimizing the opponent's leverage options, making it one of the most efficient positions for control relative to energy expenditure. From this position, the top player can methodically work toward submissions including Americana, kimura, and arm triangle chokes, advance to more dominant positions such as mount, north-south, or knee on belly, or simply maintain control to manage energy and score points. The psychological advantage is also significant - being trapped under side control is one of the most uncomfortable experiences in BJJ, and the constant threat of submissions and position advancement forces the bottom player into reactive, often desperate escape attempts that can be countered and capitalized upon. Understanding both the top and bottom perspectives of this position is essential for all BJJ practitioners, as it represents a critical stage in the positional hierarchy and offers numerous opportunities for both offensive advancement and defensive recovery depending on your position.

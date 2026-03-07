@@ -13,6 +13,13 @@ description: "Master the Saddle Entry from Top in BJJ. Step-by-step leg entangle
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Saddle Entry from Top/Attacker|Play as Attacker]]
+[[Saddle Entry from Top/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Saddle Entry from Top is a fundamental leg entanglement technique that allows the top player to transition from various passing positions into the Saddle (also known as Honey Hole or Inside Sankaku). This entry is critical for modern leg lock systems and represents one of the most direct paths to dominant leg attack positions. The technique exploits moments when the bottom player's legs are extended or when they attempt defensive movements that expose their leg positioning.

@@ -13,6 +13,13 @@ description: "Master Honey Hole position in BJJ. Advanced leg entanglement with 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Honey Hole/Bottom|Play as Bottom]]
+[[Honey Hole/Top|Play as Top]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Honey Hole position, also known as Inside Sankaku, Saddle, or 4/11, represents one of the most dominant and dangerous leg entanglement positions in modern Brazilian Jiu-Jitsu. This position features an inside leg configuration where one practitioner traps their opponent's leg between their own legs with an inside leg triangle, creating mechanical control that severely limits escape options while providing direct access to heel hooks, kneebars, and toe holds.

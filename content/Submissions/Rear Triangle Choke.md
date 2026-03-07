@@ -15,6 +15,13 @@ description: "Master the Rear Triangle Choke in BJJ. Complete guide to finishing
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Rear Triangle Choke/Attacker|Play as Attacker]]
+[[Rear Triangle Choke/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Rear Triangle Choke is a blood choke executed from the rear triangle position, where the attacker's legs form a figure-four configuration around the opponent's neck and one trapped arm from behind. This submission represents one of the highest-percentage finishing sequences available from back control, combining the positional dominance of rear mount with the mechanical efficiency of triangle choking mechanics. The posterior angle of attack makes traditional chin defense largely ineffective, distinguishing this choke from front-facing triangle variations.

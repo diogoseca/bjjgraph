@@ -15,6 +15,13 @@ description: "Master the Outside Heel Hook from Backside 50-50. Complete guide t
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Outside Heel Hook from Backside 50-50/Attacker|Play as Attacker]]
+[[Outside Heel Hook from Backside 50-50/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Outside Heel Hook from Backside 50-50 is one of the highest-percentage leg lock finishes in modern no-gi grappling. This submission exploits the unique advantages of the backside 50-50 configuration—chest-to-back pressure, superior visual access to the opponent's legs, and enhanced rotational control—to attack the lateral structures of the opponent's knee through controlled heel rotation. The backside angle is particularly effective because the top player's body weight pins the defender's hips, neutralizing the defensive hip rotation that normally defuses heel hook attacks from other leg entanglement positions.

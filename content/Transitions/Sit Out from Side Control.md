@@ -13,6 +13,13 @@ description: "Master the sit-out escape from side control in BJJ. Wrestling-base
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Sit Out from Side Control/Attacker|Play as Attacker]]
+[[Sit Out from Side Control/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The sit-out from side control is a wrestling-derived escape that uses explosive hip rotation and a posted hand to swing the legs through and clear the opponent's control. Unlike standard shrimping escapes that work laterally to recover guard, the sit-out moves through a turtle-like base position before rotating the body 180 degrees to face the opponent in a neutral scramble. This makes it particularly effective when the opponent has shut down traditional guard recovery paths by controlling the hips and blocking knee insertion.

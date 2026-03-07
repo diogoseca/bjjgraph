@@ -13,6 +13,13 @@ description: "Master the Arm Triangle choke from High Mount. Step-by-step setup,
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Arm Triangle/Attacker|Play as Attacker]]
+[[Arm Triangle/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Arm Triangle from High Mount is a powerful head-and-arm choke that uses the opponent's own shoulder as a choking mechanism against their carotid artery. This technique exploits the natural defensive reaction of opponents who turn away from pressure, trapping their arm across their neck and creating a figure-four choking structure with your arms around their head and trapped arm.

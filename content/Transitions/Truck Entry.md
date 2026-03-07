@@ -13,6 +13,13 @@ description: "Master Truck Entry in BJJ. Step-by-step guide to transitioning fro
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Truck Entry/Attacker|Play as Attacker]]
+[[Truck Entry/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Truck Entry is a fundamental transition in modern no-gi grappling that transforms defensive turtle position into an offensive attacking platform. This technique involves establishing a leg hook control while securing the opponent's upper body, creating the distinctive Truck configuration where the opponent's back is exposed and multiple submission pathways become available. The technique was systematized within the 10th Planet system as a gateway to the Twister and other spine-locking submissions, and has since been adopted across competitive grappling.

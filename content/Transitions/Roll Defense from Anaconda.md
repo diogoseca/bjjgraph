@@ -13,6 +13,13 @@ description: "Master the Roll Defense from Anaconda in BJJ. Counter the anaconda
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Roll Defense from Anaconda/Attacker|Play as Attacker]]
+[[Roll Defense from Anaconda/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Roll Defense from Anaconda is a critical survival technique employed when an opponent with an established anaconda grip initiates the roll-through finishing sequence. The anaconda choke becomes most dangerous during the roll because the rotation tightens the constriction around the neck and trapped arm while the attacker settles into a dominant finishing angle. Defending this specific moment is often the last viable window before the choke reaches terminal tightness and escape becomes impossible.

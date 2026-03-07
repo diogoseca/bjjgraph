@@ -13,6 +13,13 @@ description: "Master the Counter from Estima Lock in BJJ. Complete guide to coun
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Counter from Estima Lock/Attacker|Play as Attacker]]
+[[Counter from Estima Lock/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Counter from Estima Lock is a critical defensive transition performed when caught in the bottom position of an Estima Lock, one of the most dangerous inverted footlock threats in modern grappling. The Estima Lock attacks the ankle joint and Achilles tendon through rotational pressure applied via an inverted grip configuration, creating defensive challenges distinct from conventional straight ankle locks. This counter addresses those specific mechanics through systematic ankle protection, strategic framing, and methodical foot extraction sequences that prioritize joint safety throughout the escape process.

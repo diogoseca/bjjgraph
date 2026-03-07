@@ -13,6 +13,13 @@ description: "Learn Switch to Darce Configuration from Buggy Choke in BJJ. Recon
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Switch to Darce Configuration/Attacker|Play as Attacker]]
+[[Switch to Darce Configuration/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Switch to Darce Configuration is a grip transition from the Buggy Choke top position that capitalizes on the opponent turning into the attack. When the opponent rotates toward the choking arm to relieve collar pressure, they expose the armpit-to-neck channel that enables the darce choke. Rather than maintaining the original buggy choke angle, the top player withdraws the threading arm from the collar and reroutes it through the gap between the opponent's neck and far arm, threading under the far armpit and around the back of the neck to lock a figure-four grip from the opposite direction compared to the anaconda.

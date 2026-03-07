@@ -13,6 +13,13 @@ description: "Master Sit Through Escape from Crab Ride. Wrestling-based hip rota
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Sit Through Escape/Attacker|Play as Attacker]]
+[[Sit Through Escape/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Sit Through Escape is a fundamental wrestling-based escape from the Crab Ride position that creates rotational momentum to clear the opponent's hook and establish a facing guard position. This technique exploits the inherent weakness in the crab ride control structure—the top player's commitment to maintaining their hooking leg creates a momentary vulnerability when the bottom player shifts weight and rotates through the space between the hook and the opponent's base leg.

@@ -13,6 +13,13 @@ description: "Master the bridge escape from scarf hold in BJJ. Learn explosive b
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Bridge Escape from Scarf Hold/Attacker|Play as Attacker]]
+[[Bridge Escape from Scarf Hold/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The bridge escape from scarf hold (kesa gatame) is a fundamental escape technique that exploits the perpendicular configuration inherent to the scarf hold position. Unlike standard side control escapes that rely on lateral shrimping, this escape uses explosive rotational bridging to roll the top player over their shoulder line, capitalizing on the structural vulnerability created when the top player's back is partially exposed due to their perpendicular seating angle. The technique requires precise coordination of arm trapping, leg hooking, and explosive hip extension to generate sufficient force to displace the top player from their controlling position.

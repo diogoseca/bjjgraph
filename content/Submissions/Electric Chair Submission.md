@@ -15,6 +15,13 @@ description: "Master the Electric Chair from lockdown. Complete guide with compr
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Electric Chair Submission/Attacker|Play as Attacker]]
+[[Electric Chair Submission/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Electric Chair is a signature submission technique from 10th Planet Jiu-Jitsu, primarily executed from the lockdown position in half guard. This compression-based submission creates intense pressure on the opponent's trapped leg by combining hip extension, knee torque, and spinal rotation. Unlike traditional joint locks that isolate a single articulation, the Electric Chair simultaneously attacks multiple anatomical structures including the knee joint, hip flexors, IT band, and lower back.

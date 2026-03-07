@@ -15,6 +15,13 @@ description: "Master the Suloev Stretch in BJJ. Devastating knee compression sub
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Suloev Stretch/Attacker|Play as Attacker]]
+[[Suloev Stretch/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Suloev Stretch is a sophisticated knee compression submission that combines elements of both joint manipulation and muscular pressure. Named after Russian MMA fighter Amar Suloev, this technique attacks the posterior knee joint while simultaneously compressing the calf muscle against the hamstring, creating a dual-threat submission that can finish fights rapidly when applied correctly. The position is typically entered from top positions where the attacker has controlled one of the opponent's legs, most commonly from half guard top, knee shield passes, or leg entanglement positions. Unlike traditional straight leg locks that attack the ankle or traditional knee bars that hyperextend the knee joint, the Suloev Stretch creates a bending compression force on the knee while the practitioner's body weight drives the opponent's heel toward their own buttocks. This creates an intense pressure that combines knee joint stress with severe calf muscle compression, often resulting in immediate taps from even experienced grapplers. The technique requires excellent positional control and precise body mechanics, as the finishing pressure comes from hip extension and proper angle creation rather than raw pulling force. Understanding the biomechanics of knee compression and maintaining control throughout the entry and finish are essential for safe and effective application of this powerful submission.

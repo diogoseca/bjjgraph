@@ -15,6 +15,13 @@ description: "Master triangle choke from closed guard in BJJ. Complete guide cov
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Triangle from Closed Guard/Attacker|Play as Attacker]]
+[[Triangle from Closed Guard/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Triangle Choke from Closed Guard is one of the most fundamental and highest-percentage submissions in Brazilian Jiu-Jitsu, representing the perfect marriage of control and finishing mechanics from the guard position. This blood choke uses your legs to create a triangular configuration around the opponent's neck and their own shoulder, compressing the carotid arteries and jugular veins to induce unconsciousness if not defended or escaped. The beauty of the triangle lies in its structural efficiency - once properly locked, the opponent's own posture and trapped arm work against them, making escape increasingly difficult as they tire.

@@ -13,6 +13,13 @@ description: "Master the High Mount Transition from Gogoplata Control. Learn to 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[High Mount Transition/Attacker|Play as Attacker]]
+[[High Mount Transition/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The High Mount Transition from Gogoplata Control represents a strategic positional advancement that capitalizes on defensive reactions to the gogoplata submission threat. When an opponent defends the gogoplata by rolling forward, tucking their chin, or attempting to posture out of the submission, the bottom player can release the shin-across-throat configuration and follow the opponent's momentum to establish high mount. This transition exemplifies the principle that submission control positions should offer alternative advancement pathways when the primary attack is defended.

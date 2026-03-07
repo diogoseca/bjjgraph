@@ -13,6 +13,13 @@ description: "Master the Underhook Sweep from Half Guard in BJJ. Complete techni
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Underhook Sweep/Attacker|Play as Attacker]]
+[[Underhook Sweep/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Underhook Sweep is a fundamental offensive technique from half guard bottom that exploits the powerful mechanical advantage of the underhook grip. This sweep operates on the principle of controlling your opponent's center of gravity while simultaneously removing their base, creating an inevitable off-balancing moment that allows you to reverse position. The underhook provides crucial control of the opponent's shoulder and upper body, preventing them from establishing effective crossface pressure and creating the angle necessary for the sweep.

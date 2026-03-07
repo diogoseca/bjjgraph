@@ -13,6 +13,13 @@ description: "Master the Explosive Bridge to Guard Recovery from North-South bot
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Explosive Bridge to Guard Recovery/Attacker|Play as Attacker]]
+[[Explosive Bridge to Guard Recovery/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Explosive Bridge to Guard Recovery is a fundamental escape technique executed from the bottom of North-South control, designed to create space and recompose guard when trapped under heavy perpendicular pressure. This escape capitalizes on the brief windows created during opponent weight shifts, using explosive hip extension to off-balance the top player and immediately inserting the legs to establish a guard position.

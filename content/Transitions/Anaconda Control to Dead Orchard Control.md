@@ -13,6 +13,13 @@ description: "Master the transition from Anaconda Control to Dead Orchard Contro
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Anaconda Control to Dead Orchard Control/Attacker|Play as Attacker]]
+[[Anaconda Control to Dead Orchard Control/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Transition to Dead Orchard Control converts a standard anaconda grip into an extended-duration control position that systematically drains the opponent's defensive resources before finishing. Where a standard anaconda attack prioritizes the immediate roll-through and choke, this transition deliberately slows the sequence to establish deeper grip penetration, refined shoulder pressure angles, and hip positioning that eliminates the opponent's ability to rebuild base or create escape angles. The transition occurs entirely from top position and requires the attacker to already hold a secure anaconda grip with chest pressure established.

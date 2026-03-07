@@ -13,6 +13,13 @@ description: "Master De La Riva Guard in BJJ. Hook-based open guard with berimbo
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[De La Riva Guard/Bottom|Play as Bottom]]
+[[De La Riva Guard/Top|Play as Top]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 De La Riva Guard (DLR) is a sophisticated open guard variation where the bottom player hooks the opponent's lead leg with their outside foot while controlling the ankle or pant with their hand on the same side. The other hand typically controls the opponent's sleeve or collar, creating a structure that limits the opponent's mobility and generates powerful sweeping leverage. This guard has become fundamental in modern BJJ, particularly for setting up berimbolo sequences, back takes, and creating connections to other guard systems.

@@ -13,6 +13,13 @@ description: "Master Spider Guard in BJJ. Strategic guide covering sleeve contro
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Spider Guard/Bottom|Play as Bottom]]
+[[Spider Guard/Top|Play as Top]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Spider Guard is a highly technical open guard position characterized by the bottom player controlling both sleeves of the opponent while placing their feet on the opponent's biceps or elbows, creating strong pushing frames. This guard creates exceptional distance management and posture control, allowing the bottom player to break down the top player's base while setting up sweeps, triangles, and omoplatas. The position derives its name from the resemblance to a spider's legs extending outward with thread-like control of the opponent's arms.

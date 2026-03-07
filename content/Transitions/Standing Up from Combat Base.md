@@ -13,6 +13,13 @@ description: "Master standing up from combat base in BJJ. Learn grip retention, 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Standing Up from Combat Base/Attacker|Play as Attacker]]
+[[Standing Up from Combat Base/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Standing Up from Combat Base is a fundamental guard passing transition where the top player elevates from a kneeling combat base position to a fully standing stance while maintaining grip control on the opponent's legs. This transition is strategically critical because it changes the entire passing dynamic—standing provides greater grip-breaking leverage, wider passing angles, and access to high-velocity passes like the toreando, leg drag, and x-pass that are unavailable from the knees. The height differential also reduces the effectiveness of many bottom player attacks that depend on proximity and hip-level engagement.

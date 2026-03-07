@@ -15,7 +15,11 @@ body[data-slug="index"] .sidebar {
   position: absolute !important;
   width: 0 !important;
   height: 0 !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  border: 0 !important;
   overflow: hidden !important;
+  clip: rect(0, 0, 0, 0) !important;
   pointer-events: none;
 }
 
@@ -1029,6 +1033,33 @@ details[open] summary {
 
 summary::-webkit-details-marker {
   display: none;
+}
+
+// ============================================================================
+// Role Quick Links (Hub Pages)
+// ============================================================================
+
+.role-links {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+
+  a {
+    padding: 0.5rem 1rem;
+    border: 1px solid var(--secondary);
+    border-radius: 8px;
+    background: transparent;
+    color: var(--secondary);
+    font-weight: 500;
+    font-size: 0.9rem;
+    text-decoration: none;
+    transition: all 0.15s;
+
+    &:hover {
+      background: var(--secondary);
+      color: var(--light) !important;
+    }
+  }
 }
 
 // ============================================================================

@@ -13,6 +13,13 @@ description: "Master the Bow and Arrow Setup from Standing Back Control in BJJ. 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Bow and Arrow Setup from Standing Back/Attacker|Play as Attacker]]
+[[Bow and Arrow Setup from Standing Back/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Bow and Arrow Setup from Standing Back Control is a high-percentage gi transition that converts standing back exposure into grounded back control with an established collar grip, positioning the attacker for one of BJJ's most powerful choking sequences. The technique exploits the vertical nature of standing back control by using a deep collar grip combined with a controlled sit-down to bring both practitioners to the ground, with the attacker already configured for the bow and arrow finishing mechanics. This bypasses the most technically demanding phase of the bow and arrow attack—obtaining a deep collar grip against an opponent who is actively defending their neck from grounded back control.

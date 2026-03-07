@@ -13,6 +13,13 @@ description: "Master gogoplata control in BJJ. Complete technical guide covering
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Gogoplata Control/Bottom|Play as Bottom]]
+[[Gogoplata Control/Top|Play as Top]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Gogoplata Control represents one of Brazilian Jiu-Jitsu's most technically demanding and strategically unique control positions. This position establishes a shin-across-throat configuration that creates both a controlling position and an immediate submission threat simultaneously. Unlike traditional control positions that prioritize stability before submission attacks, Gogoplata Control merges these concepts into a single unified state where the controlling mechanics are inseparable from the finishing mechanics.

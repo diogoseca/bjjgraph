@@ -13,6 +13,13 @@ description: "Master the Smash Pass in BJJ. Complete guide covering pressure pas
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Smash Pass/Attacker|Play as Attacker]]
+[[Smash Pass/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Smash Pass is a fundamental pressure-based guard passing technique used to overcome half guard retention. This pass emphasizes heavy shoulder pressure, crossface control, and systematic hip positioning to flatten the opponent and transition to side control. The technique is particularly effective against knee shield half guard and traditional half guard positions, as it uses the passer's body weight and positioning to nullify the bottom player's frames and mobility. The Smash Pass represents a core element of pressure passing systems and is valued for its high percentage success rate when executed with proper mechanics.

@@ -13,6 +13,13 @@ description: "Master Williams Guard in BJJ. Innovative shoulder lock guard with 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Williams Guard/Bottom|Play as Bottom]]
+[[Williams Guard/Top|Play as Top]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Williams Guard is an innovative open guard position characterized by controlling one of the opponent's arms in a shoulder lock configuration while maintaining guard structure. Named after creator Roy Williams, this position combines elements of traditional guard retention with unique shoulder manipulation that creates both offensive and defensive opportunities. The practitioner on bottom secures the opponent's arm in a shoulder lock grip while using their legs to maintain distance and create angles for sweeps and submissions. This guard is particularly effective against opponents who attempt aggressive passing strategies, as it neutralizes their posting ability and creates immediate submission threats.

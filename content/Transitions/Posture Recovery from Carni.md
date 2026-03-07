@@ -13,6 +13,13 @@ description: "Master posture recovery from Carni in BJJ. Systematic escape using
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Posture Recovery from Carni/Attacker|Play as Attacker]]
+[[Posture Recovery from Carni/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Posture Recovery from Carni is a fundamental defensive technique for the top player caught in the Carni leg entanglement. Rather than attempting explosive extraction or rolling escapes that risk deeper entanglement or back exposure, this technique employs controlled forward pressure and systematic posture reconstruction to neutralize the bottom player's offensive angles. The concept is straightforward: by driving forward with chest pressure and establishing frames against the bottom player's hips, the top player collapses the space needed for effective heel hook attacks and saddle transitions.

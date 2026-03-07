@@ -13,6 +13,13 @@ description: "Learn the Triangle setup from Closed Guard in BJJ. Complete execut
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Closed Guard to Triangle/Attacker|Play as Attacker]]
+[[Closed Guard to Triangle/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The transition from Closed Guard to Triangle represents one of the most fundamental and high-percentage attacks in Brazilian Jiu-Jitsu. This technique exploits the opponent's defensive posturing by converting arm positioning into a powerful strangulation threat. The beauty of this transition lies in its ability to capitalize on the opponent's natural defensive reactions—whether they maintain their base or attempt to posture, the guard player can manipulate limb placement to secure the triangle lock. The closed guard provides an ideal launching platform because it offers control of distance, hip mobility, and the ability to break posture repeatedly until the optimal angle presents itself.

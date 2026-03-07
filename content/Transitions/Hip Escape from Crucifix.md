@@ -13,6 +13,13 @@ description: "Master the hip escape from crucifix in BJJ. Complete guide to shri
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Hip Escape from Crucifix/Attacker|Play as Attacker]]
+[[Hip Escape from Crucifix/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The hip escape from crucifix is a fundamental defensive technique for recovering from one of BJJ's most dominant control positions. When trapped in crucifix with both arms compromised—one caught in the opponent's leg triangle and the other controlled by their hands—the hip escape uses the shrimping motion to change the angle of entrapment and create space for arm extraction. The technique prioritizes systematic hip movement over brute strength, exploiting the geometric relationship between hip angle and leg trap tightness.

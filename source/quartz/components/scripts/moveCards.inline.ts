@@ -143,7 +143,7 @@ document.addEventListener("nav", () => {
       : ""
 
     const techniquePath = transition.isSubmission ? "Submissions" : "Transitions"
-    const techniqueUrl = `/${techniquePath}/${slugToUrlPath(transition.target)}`
+    const techniqueUrl = `/${techniquePath}/${transition.targetPath ?? transition.target}/Attacker`
 
     card.setAttribute("tabindex", "0")
     card.setAttribute("role", "button")
@@ -163,10 +163,10 @@ document.addEventListener("nav", () => {
       </div>
     `
 
-    // Prevent <a> tag from navigating (card click handles dice roll)
+    // Clicking the technique name navigates to Attacker page (stop card dice roll)
     const techniqueLink = card.querySelector(".move-card-technique") as HTMLAnchorElement
     if (techniqueLink) {
-      techniqueLink.addEventListener("click", (e) => e.preventDefault())
+      techniqueLink.addEventListener("click", (e) => e.stopPropagation())
     }
 
     // Keyboard accessibility
@@ -228,22 +228,6 @@ document.addEventListener("nav", () => {
   })
 })
 
-/**
- * Convert a slug path to URL format (Title-Case-With-Hyphens)
- * e.g., "twister-control/truck" → "Twister-Control/Truck"
- */
-function slugToUrlPath(slug: string): string {
-  return slug
-    .split("/")
-    .map((part) =>
-      part
-        .split("-")
-        .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
-        .join("-"),
-    )
-    .join("/")
-}
-
 function executeTransition(
   transition: {
     technique: string
@@ -273,10 +257,9 @@ function executeTransition(
     let targetUrl: string
 
     if (transition.isSubmission && transition.submissionSlug) {
-      const submissionPath = slugToUrlPath(transition.submissionSlug)
-      targetUrl = `/Submissions/${submissionPath}/Attacker`
+      targetUrl = `/Submissions/${transition.targetPath ?? transition.submissionSlug}/Attacker`
     } else {
-      targetUrl = `/Transitions/${slugToUrlPath(transition.target)}/Attacker`
+      targetUrl = `/Transitions/${transition.targetPath ?? transition.target}/Attacker`
     }
 
     // Navigate with success snackbar

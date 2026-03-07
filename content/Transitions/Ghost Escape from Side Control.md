@@ -13,6 +13,13 @@ description: "Learn the Ghost Escape from Side Control in BJJ. Expert guide cove
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Ghost Escape from Side Control/Attacker|Play as Attacker]]
+[[Ghost Escape from Side Control/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Ghost Escape from Side Control is a turn-away escape that recovers directly to open guard rather than stopping at turtle. Where the standard ghost escape uses rotational movement to reach hands and knees, this variation threads the near knee through during the turn to establish a leg barrier between you and the opponent, landing in open guard with feet engaged. The technique exploits the same counterintuitive principle of turning in the direction the crossface pushes you, but adds the critical knee insertion that bypasses turtle entirely and denies the top player the back attack opportunities that turtle exposure creates.

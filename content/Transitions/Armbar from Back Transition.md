@@ -13,6 +13,13 @@ description: "Master the Armbar from Back Transition in BJJ. Step-by-step guide 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Armbar from Back Transition/Attacker|Play as Attacker]]
+[[Armbar from Back Transition/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Armbar from Back Transition represents a sophisticated submission setup that capitalizes on your dominant back control position while standing. This technique exploits the opponent's defensive hand positioning when they protect their neck, redirecting your attack from strangulation to joint lock. Rather than forcing a choke against determined defensive hands, you transition to an armbar that catches the defending arm in a compromised position.

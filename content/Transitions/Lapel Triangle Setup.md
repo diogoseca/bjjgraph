@@ -13,6 +13,13 @@ description: "Master the Lapel Triangle Setup from Lapel Guard. Use lapel contro
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Lapel Triangle Setup/Attacker|Play as Attacker]]
+[[Lapel Triangle Setup/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Lapel Triangle Setup represents a sophisticated fusion of modern lapel guard innovation with classical triangle mechanics. This technique exploits the unique control properties of lapel configurations to create angle and arm isolation that would be difficult to achieve with traditional grips alone. By using the opponent's own gi fabric as a barrier and control point, the bottom player can manipulate posture and arm position with remarkable efficiency.

@@ -15,6 +15,13 @@ description: "Master the Short Choke in BJJ. Devastating lapel strangle from top
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Short Choke/Attacker|Play as Attacker]]
+[[Short Choke/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Short Choke is a highly effective gi-based blood choke executed from top positions, particularly side control and north-south. Unlike traditional collar chokes that require deep grips, the Short Choke capitalizes on minimal space and opponent defensive reactions. The technique involves threading your own lapel or the opponent's lapel behind their neck while maintaining superior top position control, then applying pressure through a combination of wrist rotation and shoulder pressure.

@@ -13,6 +13,13 @@ description: "Master guard recovery from Spider Guard to closed guard in BJJ. St
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Guard Recovery from Spider Guard/Attacker|Play as Attacker]]
+[[Guard Recovery from Spider Guard/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Guard Recovery from Spider Guard is a defensive transition where the bottom player closes distance and reestablishes closed guard when the Spider Guard position becomes compromised. When the opponent successfully breaks sleeve grips or begins collapsing the guard structure through pressure or grip fighting, the bottom player must transition from the open guard distance game to a tighter closed guard configuration. This recovery involves releasing foot-on-bicep controls, retracting legs to wrap around the opponent's torso, and closing the guard before the opponent can establish dominant passing grips or advance to combat base.

@@ -13,6 +13,13 @@ description: "Master the Roll Escape from Cross Body Ride in BJJ. Complete guide
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Roll Escape from Cross Body Ride/Attacker|Play as Attacker]]
+[[Roll Escape from Cross Body Ride/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Roll Escape from Cross Body Ride is a dynamic, momentum-based escape technique employed by the bottom player when trapped underneath perpendicular back pressure in the cross body ride configuration. Unlike the more conservative hip escape, the roll escape uses rotational momentum to redirect the rider's committed weight past the point of recovery, creating space to insert legs and establish half guard. The technique exploits a structural vulnerability inherent in cross body positioning: the rider's perpendicular weight commitment creates directional instability that a correctly timed roll can convert into decisive separation.

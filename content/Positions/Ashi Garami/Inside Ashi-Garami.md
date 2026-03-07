@@ -13,6 +13,13 @@ description: "Master Inside Ashi-Garami in BJJ. Foundational leg entanglement fo
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Inside Ashi-Garami/Bottom|Play as Bottom]]
+[[Inside Ashi-Garami/Top|Play as Top]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Inside Ashi-Garami is the foundational leg entanglement position in modern no-gi Brazilian Jiu-Jitsu, serving as the entry point for systematic leg attack systems. The position is characterized by controlling one of the opponent's legs between your own legs while maintaining inside leg position across their hip. This configuration provides direct access to straight ankle locks, heel hooks, and kneebars while serving as a transitional hub to more advanced leg entanglements like saddle and honey hole.

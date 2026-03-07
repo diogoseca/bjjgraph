@@ -13,6 +13,13 @@ description: "Master the Russian Lasso Sweep from lasso guard in BJJ. Step-by-st
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Russian Lasso Sweep/Attacker|Play as Attacker]]
+[[Russian Lasso Sweep/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Russian Lasso Sweep is a high-percentage rotational sweep executed from the Russian Leg Lasso guard, leveraging the deep lasso configuration to generate powerful torque that breaks the opponent's base and deposits the sweeper in side control. The technique exploits the mechanical fulcrum created by the lasso leg—the sweeper's shin crosses the opponent's tricep with the foot positioned near the shoulder, creating a pivot point around which rotational force is amplified through coordinated collar and sleeve grips.

@@ -13,6 +13,13 @@ description: "Master the Matrix back take in BJJ. Complete guide to the dynamic 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Matrix/Bottom|Play as Bottom]]
+[[Matrix/Top|Play as Top]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Matrix back take represents one of Brazilian Jiu-Jitsu's most dynamic and spectacular transitions to back control. Named for its cinematic appearance—where the practitioner inverts and rolls underneath or around the opponent—this technique transforms defensive or neutral positions into dominant back control through fluid rotational movement.

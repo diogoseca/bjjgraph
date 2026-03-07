@@ -13,6 +13,13 @@ description: "Master the Body Lock to Standing transition in BJJ. Complete guide
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Body Lock to Standing/Attacker|Play as Attacker]]
+[[Body Lock to Standing/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Body Lock to Standing transition represents a tactical reset from the dominant body lock clinch position back to neutral standing engagement. While body lock control provides significant offensive advantages through mat returns, throws, and back takes, situations arise where disengagement becomes the strategically superior option. This occurs when the defender has successfully neutralized all takedown attempts, when grip fatigue threatens control quality, or when competition scoring dynamics demand a positional reset to avoid stalling penalties.

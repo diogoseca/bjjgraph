@@ -13,6 +13,13 @@ description: "Learn Butterfly Hook Recovery from Double Unders bottom. Step-by-s
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Butterfly Hook Recovery/Attacker|Play as Attacker]]
+[[Butterfly Hook Recovery/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Butterfly Hook Recovery is a critical defensive transition executed when trapped in the bottom position of double unders pressure passing. The technique focuses on creating just enough space to insert one or both butterfly hooks between yourself and the passer, fundamentally changing the dynamic from a crushing pressure pass situation back to an active guard position. This recovery is most effective during momentary pauses in the opponent's forward pressure, grip adjustments, or when they shift their weight to advance the pass.

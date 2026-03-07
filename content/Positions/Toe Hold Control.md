@@ -13,6 +13,13 @@ description: "Master Toe Hold Control position in BJJ. Strategic guide covering 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Toe Hold Control/Bottom|Play as Bottom]]
+[[Toe Hold Control/Top|Play as Top]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Toe Hold Control represents a specialized leg entanglement position where rotational pressure is applied to the ankle joint through a figure-four grip configuration, creating one of Brazilian Jiu-Jitsu's most technically demanding submission control scenarios. This position exists at a critical junction in modern leg lock systems, serving as both a legitimate finishing threat and a transitional hub that facilitates movement throughout the leg entanglement hierarchy. The mechanical advantage derives from isolating the opponent's foot while controlling their leg's orientation, allowing the attacking practitioner to generate torque against the ankle's ligamentous structures through precise wrist and forearm positioning.

@@ -13,6 +13,13 @@ description: "Master the Lapel to De La Riva transition in BJJ. Convert lapel gu
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Lapel to De La Riva/Attacker|Play as Attacker]]
+[[Lapel to De La Riva/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Lapel to De La Riva transition represents a strategic evolution in modern gi guard play, combining the persistent control mechanisms of lapel configurations with the dynamic sweeping and back-taking capabilities of De La Riva guard. This transition is particularly effective when the opponent begins addressing your lapel configuration or when you need to access the berimbolo system and other DLR-specific attacks that the lapel guard alone cannot provide.

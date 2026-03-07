@@ -13,6 +13,13 @@ description: "Master the Overhook Strip from Diamond Guard in BJJ. Learn systema
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Overhook Strip from Diamond Guard/Attacker|Play as Attacker]]
+[[Overhook Strip from Diamond Guard/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Overhook Strip from Diamond Guard is a targeted grip-breaking technique executed by the top player when trapped inside an opponent's diamond guard configuration. Diamond guard combines an overhook on one arm with head control behind the neck, creating a self-reinforcing frame that severely limits the top player's mobility and exposes them to triangles, omoplatas, and kimuras. The overhook strip addresses the arm control component specifically, with the goal of degrading the diamond back to a standard closed guard where the top player's full defensive and passing repertoire becomes available.

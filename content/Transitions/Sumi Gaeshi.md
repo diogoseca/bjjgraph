@@ -13,6 +13,13 @@ description: "Master Sumi Gaeshi sacrifice throw in BJJ. Learn proper entry, exe
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Sumi Gaeshi/Attacker|Play as Attacker]]
+[[Sumi Gaeshi/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Sumi Gaeshi is a classical sacrifice throw borrowed from Judo that has proven highly effective in BJJ competition and training. The technique involves sacrificing your base by dropping to your back while using your legs to elevate and off-balance your opponent, resulting in a complete reversal of position. The name translates to 'corner reversal throw' in Japanese, referring to the angular entry that creates the throwing opportunity.

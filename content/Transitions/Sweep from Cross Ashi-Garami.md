@@ -13,6 +13,13 @@ description: "Master the Sweep from Cross Ashi-Garami in BJJ. Complete guide to 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Sweep from Cross Ashi-Garami/Attacker|Play as Attacker]]
+[[Sweep from Cross Ashi-Garami/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Sweep from Cross Ashi-Garami is a positional reversal technique used by the bottom player in a cross ashi leg entanglement to off-balance the seated top player and come up to Side Control. This sweep exploits a fundamental structural vulnerability in the cross ashi position: the top player's base is inherently narrow because both legs are committed to controlling the entangled limb, and both hands are typically occupied with heel or ankle grips. When the bottom player can control the top player's upper body and time a powerful hip bridge or sit-up motion, the seated opponent lacks reliable posting options and can be toppled backward or laterally.

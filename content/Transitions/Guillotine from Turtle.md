@@ -13,6 +13,13 @@ description: "Learn Guillotine from Turtle in BJJ. Step-by-step execution from T
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Guillotine from Turtle/Attacker|Play as Attacker]]
+[[Guillotine from Turtle/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Guillotine from Turtle is a high-percentage submission setup that capitalizes on the opponent's defensive turtle position. When an opponent turtles to avoid back exposure, they inadvertently expose their neck to front headlock attacks. This transition exploits the fundamental weakness of turtle position: the head and neck are accessible while the opponent focuses on protecting their back. The technique requires precise timing, proper grip mechanics, and understanding of when to finish from standing versus when to pull guard.

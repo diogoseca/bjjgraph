@@ -15,6 +15,13 @@ description: "Master the Short Choke from Cross Body Ride in BJJ. Complete guide
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Short Choke from Cross Body/Attacker|Play as Attacker]]
+[[Short Choke from Cross Body/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Short Choke from Cross Body is a high-percentage blood choke applied from the cross body ride position against a turtled opponent. The attacker threads their choking forearm under the opponent's chin while maintaining perpendicular chest-to-back pressure, using body weight and arm compression to attack both carotid arteries simultaneously. This submission capitalizes on the unique control dynamics of the cross body ride, where the attacker's weight distribution and perpendicular angle create a choking platform that becomes extremely difficult to defend once the forearm is positioned beneath the chin.

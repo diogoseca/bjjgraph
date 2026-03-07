@@ -13,6 +13,13 @@ description: "Master back control in BJJ. Complete guide to hooks, harness grip,
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Back Control/Bottom|Play as Bottom]]
+[[Back Control/Top|Play as Top]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Back Control is widely considered the most dominant position in Brazilian Jiu-Jitsu. The practitioner controls the opponent from behind, with their chest against the opponent's back, legs wrapped around their waist (hooks), and arms controlling the upper body. This position offers exceptional attacking opportunities with minimal defensive risks, as the opponent cannot directly see or easily counter the attacks. The position scores 4 points in IBJJF competition and provides the highest percentage submission opportunities in grappling.

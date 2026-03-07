@@ -15,6 +15,13 @@ description: "Master the Toe Hold from 50-50 Guard in BJJ. Complete guide to rot
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Toe Hold from 50-50/Attacker|Play as Attacker]]
+[[Toe Hold from 50-50/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Toe Hold from 50-50 Guard is a sophisticated leg lock submission that targets the ankle joint through rotational pressure on the foot. This technique represents one of the most accessible finishing opportunities from the 50-50 position, particularly when heel hook opportunities are not available or are prohibited by competition rules. The submission works by isolating the opponent's foot and applying inward rotation to attack the talocrural joint and lateral ankle ligaments, creating intense pressure that forces a quick tap when applied correctly.

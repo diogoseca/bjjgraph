@@ -13,6 +13,13 @@ description: "Master the North-South Choke in BJJ. Devastating blood choke from 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[North-South Choke/Attacker|Play as Attacker]]
+[[North-South Choke/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The North-South Choke is a devastating blood choke executed from the North-South position, targeting both carotid arteries simultaneously through precise arm positioning and chest pressure. This technique exemplifies the principle of using body weight and structural alignment rather than muscular effort to create submission pressure. The choke becomes available when controlling an opponent from North-South, particularly when they focus on defending arm attacks or attempting to create space.

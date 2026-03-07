@@ -13,6 +13,13 @@ description: "Master Overhook Extraction from New York Top. Step-by-step arm ext
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Overhook Extraction/Attacker|Play as Attacker]]
+[[Overhook Extraction/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Overhook Extraction is a critical defensive technique for escaping the New York position within 10th Planet's Rubber Guard system. When trapped in New York Top, your arm is locked in a deep overhook while your opponent's shin crosses your back, breaking your posture and compromising your base. The overhook extraction addresses the arm control component, freeing your trapped limb and opening pathways to posture recovery and guard passing.

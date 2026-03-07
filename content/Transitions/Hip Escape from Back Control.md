@@ -13,6 +13,13 @@ description: "Master the hip escape from back control in BJJ. Step-by-step guide
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Hip Escape from Back Control/Attacker|Play as Attacker]]
+[[Hip Escape from Back Control/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The hip escape from back control is one of the most fundamental and essential escape techniques in Brazilian Jiu-Jitsu, enabling the bottom player to systematically work out of the most dominant position in grappling. This technique relies on creating space through lateral hip movement, establishing structural frames, and methodically removing the opponent's control hooks to recover a less disadvantageous position such as half guard. The escape follows a strict defensive sequence: first protect the neck from immediate submission threats, then address the seatbelt grip and upper body control, then remove leg hooks through hip scooting and controlled rotation toward the underhook side.

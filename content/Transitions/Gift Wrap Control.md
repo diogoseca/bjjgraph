@@ -13,6 +13,13 @@ description: "Master Gift Wrap Control in BJJ. Complete guide to arm trapping fr
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Gift Wrap Control/Attacker|Play as Attacker]]
+[[Gift Wrap Control/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Gift Wrap Control is a powerful arm-trapping technique that transforms the already dominant Kuzure Kesa-Gatame position into an even more controlling configuration. By wrapping the opponent's far arm across their own throat and securing it with your grip, you eliminate their primary defensive tool while creating multiple submission and transition opportunities. This technique represents a critical evolution in pinning control, moving beyond simple pressure maintenance to active limb immobilization.

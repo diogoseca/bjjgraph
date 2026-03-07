@@ -13,6 +13,13 @@ description: "Master the Darce Choke finish in BJJ. Complete guide covering grip
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Darce Choke/Attacker|Play as Attacker]]
+[[Darce Choke/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Darce Choke (also known as the Brabo Choke) is a blood choke from the arm triangle family that compresses both carotid arteries using a figure-four grip configuration. Named after Joe D'Arce who popularized the technique in modern grappling, this submission is executed from Darce Control where the attacking arm threads under the opponent's near armpit, across the back of their neck, and locks onto the attacker's own bicep. The choking mechanism creates a tight triangle of pressure using the attacker's arms and the opponent's own trapped shoulder.

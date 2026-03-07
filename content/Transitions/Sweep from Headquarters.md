@@ -13,6 +13,13 @@ description: "Master the Sweep from Headquarters in BJJ. Complete guide to rever
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Sweep from Headquarters/Attacker|Play as Attacker]]
+[[Sweep from Headquarters/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Sweep from Headquarters represents a critical counter-offensive response when the top player establishes headquarters position with one of the bottom player's legs trapped between their knees. Rather than passively accepting the guard pass, the bottom player exploits structural vulnerabilities inherent in the headquarters stance—specifically the wide base, elevated posting leg, and the top player's directional weight commitment—to create off-balancing opportunities that reverse the positional hierarchy entirely. This sweep chain is fundamental to making headquarters a contested position rather than a one-sided passing platform.

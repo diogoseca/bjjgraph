@@ -13,6 +13,13 @@ description: "Master the Toreando Pass from De La Riva Guard in BJJ. Step-by-ste
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Toreando Pass from De La Riva/Attacker|Play as Attacker]]
+[[Toreando Pass from De La Riva/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Toreando Pass from De La Riva Guard is a speed-based guard passing technique where the top player strips the DLR hook and ankle grip, establishes bilateral control of the opponent's legs, and uses explosive lateral movement to redirect the legs to one side while circling around to achieve side control. This pass directly exploits a structural vulnerability in De La Riva guard: the bottom player's offensive power depends entirely on the hook-plus-grip control system, so once these controls are neutralized, the guard framework collapses and the legs become manageable obstacles rather than offensive weapons. The toreando's lateral passing vector is particularly effective against DLR because it moves perpendicular to the guard player's primary sweeping axis, making it difficult for them to generate off-balancing force during the pass.

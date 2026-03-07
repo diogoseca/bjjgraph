@@ -13,6 +13,13 @@ description: "Master Z-Lock Half Guard in BJJ. Advanced lockdown variation with 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Z-Lock Half Guard/Bottom|Play as Bottom]]
+[[Z-Lock Half Guard/Top|Play as Top]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Z-Lock Half Guard represents an advanced variation of the lockdown system where the practitioner creates a unique leg configuration resembling the letter 'Z' while controlling the opponent's trapped leg. This position combines elements of traditional lockdown mechanics with enhanced mobility and offensive capabilities, creating a versatile attacking platform that can neutralize larger, stronger opponents through superior positioning and leverage.

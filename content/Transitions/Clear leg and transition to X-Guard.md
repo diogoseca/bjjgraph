@@ -13,6 +13,13 @@ description: "Master Clear Leg to X-Guard from Leg Knot. Escape leg entanglement
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Clear leg and transition to X-Guard/Attacker|Play as Attacker]]
+[[Clear leg and transition to X-Guard/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Clear Leg and Transition to X-Guard represents a high-value escape pathway from leg entanglement scenarios that transforms defensive necessity into offensive opportunity. When trapped in Leg Knot Bottom, practitioners face immediate submission threats to the lower body. Rather than simply extracting the leg and returning to neutral, this technique leverages the extraction movement to establish X-Guard—a powerful sweeping and attacking position that immediately reverses the momentum of the exchange.

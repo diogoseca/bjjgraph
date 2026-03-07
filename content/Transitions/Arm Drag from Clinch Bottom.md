@@ -13,6 +13,13 @@ description: "Master the arm drag from clinch bottom in BJJ. Complete guide to g
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Arm Drag from Clinch Bottom/Attacker|Play as Attacker]]
+[[Arm Drag from Clinch Bottom/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The arm drag from clinch bottom is one of the highest-percentage back take entries available from a disadvantageous standing engagement. When you find yourself in a clinch where your opponent has established superior grips, head position, or forward pressure, the arm drag converts their offensive commitment into a pathway to the most dominant position in grappling. Rather than fighting a losing grip battle or absorbing pressure, you redirect your opponent's extended arm across your body while stepping offline, exposing their back for immediate control.

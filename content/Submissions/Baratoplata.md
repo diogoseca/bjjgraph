@@ -15,6 +15,13 @@ description: "Master the Baratoplata shoulder lock in BJJ. Advanced submission f
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Baratoplata/Attacker|Play as Attacker]]
+[[Baratoplata/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Baratoplata is an advanced shoulder lock submission that originated from the 10th Planet Jiu-Jitsu system, combining elements of the omoplata with unique arm isolation mechanics. This technique is typically initiated from rubber guard positions, particularly Mission Control or New York, and represents a sophisticated understanding of shoulder manipulation and control. The submission works by trapping the opponent's arm while rotating their shoulder beyond its natural range of motion, creating intense pressure on the rotator cuff and shoulder capsule. Unlike traditional omoplatas that focus primarily on forward shoulder rotation, the Baratoplata incorporates a unique arm weave that increases the mechanical advantage and makes escape more difficult.

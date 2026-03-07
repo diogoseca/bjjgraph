@@ -13,6 +13,13 @@ description: "Master the Hook Sweep from Butterfly Guard in BJJ. Complete guide 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Hook Sweep/Attacker|Play as Attacker]]
+[[Hook Sweep/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Hook Sweep is a fundamental butterfly guard technique that leverages proper hook placement, angle creation, and weight manipulation to off-balance and sweep an opponent. This sweep is particularly effective when the opponent's weight is distributed forward or when they are attempting to pass your guard. The technique relies on elevating the opponent using a single butterfly hook while simultaneously pulling them off-balance with upper body grips, creating a rotational sweeping motion that results in a dominant top position.

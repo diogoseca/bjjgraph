@@ -15,6 +15,13 @@ description: "Master the Kimura from Mount in BJJ. Complete guide with safety pr
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Kimura from Mount/Attacker|Play as Attacker]]
+[[Kimura from Mount/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Kimura from Mount represents one of the highest-percentage shoulder lock attacks in Brazilian Jiu-Jitsu, combining the dominant control of mount with the mechanical advantage of the double-wrist grip. This submission targets the shoulder joint through a figure-four grip configuration that isolates the opponent's arm while leveraging superior positional control. From mount, the attacking grappler can transition seamlessly between maintaining positional dominance and applying submission pressure, creating a strategic dilemma where defensive movements often expose additional attacks. The technique's effectiveness stems from the ability to use bodyweight, hip pressure, and precise angle creation to generate overwhelming torque on the shoulder capsule. Unlike Kimuras from other positions, the mount variation offers exceptional control over the opponent's ability to roll or escape, making it particularly reliable in both training and competition scenarios. The submission can be finished while maintaining mount or used as a transition mechanism to take the back or establish other dominant positions.

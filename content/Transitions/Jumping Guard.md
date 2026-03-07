@@ -13,6 +13,13 @@ description: "Master Jumping Guard in BJJ. Dynamic guard pull from standing to C
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Jumping Guard/Attacker|Play as Attacker]]
+[[Jumping Guard/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Jumping Guard is a dynamic and aggressive guard pull technique that involves jumping onto your opponent from standing position, wrapping your legs around their torso to establish closed guard. This technique represents a high-risk, high-reward approach to guard engagement that can catch opponents off-guard and immediately establish offensive control. Unlike traditional guard pulls that emphasize control and connection before committing, jumping guard requires explosive athleticism, precise timing, and confident execution.

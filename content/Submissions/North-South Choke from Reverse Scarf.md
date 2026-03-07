@@ -15,6 +15,13 @@ description: "Master the North-South Choke from Reverse Scarf Hold. Complete fin
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[North-South Choke from Reverse Scarf/Attacker|Play as Attacker]]
+[[North-South Choke from Reverse Scarf/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The North-South Choke from Reverse Scarf Hold is a high-percentage blood choke that exploits the unique reverse orientation of the scarf hold position to create a seamless transition into bilateral carotid compression. Beginning from reverse scarf hold, where the attacker already faces the opponent's legs with heavy chest pressure established, the attacker threads their choking arm beneath the opponent's neck and shifts their hips toward a north-south alignment. This transition leverages existing control and pressure to set up one of the tightest chokes available from top position.

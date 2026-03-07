@@ -13,6 +13,13 @@ description: "Master passing the Z-Guard in BJJ. Complete guide to collapsing th
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Pass Z-Guard/Attacker|Play as Attacker]]
+[[Pass Z-Guard/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Passing Z-Guard is one of the most demanding challenges in the modern BJJ passing game. The Z-Guard—characterized by an elevated knee shield targeting the shoulder rather than the hip—creates a formidable defensive barrier that neutralizes forward pressure and generates powerful sweeping angles. Unlike a standard half guard where the passer can often drive through with hip pressure, the elevated knee shield mechanically redirects force and maintains distance, requiring a systematic multi-step approach to dismantle.

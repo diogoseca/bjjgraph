@@ -13,6 +13,13 @@ description: "Learn Hip Escape to Turtle from Body Triangle. Systematic escape u
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Hip Escape to Turtle/Attacker|Play as Attacker]]
+[[Hip Escape to Turtle/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Hip Escape to Turtle is a fundamental escape from body triangle control, one of the most dominant back control variations in Brazilian Jiu-Jitsu. When trapped in a body triangle, the locked figure-four configuration around your torso restricts breathing and prevents standard back escape sequences. This escape uses systematic hip movement and pressure redirection to create enough space to unlock the triangle and transition to turtle, where you can begin working toward guard recovery or standing.

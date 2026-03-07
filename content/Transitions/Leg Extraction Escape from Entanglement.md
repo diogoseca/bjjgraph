@@ -13,6 +13,13 @@ description: "Master the Leg Extraction Escape from leg entanglements in BJJ. St
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Leg Extraction Escape from Entanglement/Attacker|Play as Attacker]]
+[[Leg Extraction Escape from Entanglement/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Leg Extraction Escape from Entanglement is the fundamental defensive technique for freeing a trapped leg from an opponent's leg entanglement control. Unlike inversion-based escapes that use rotational movement or boot scoot escapes that create linear distance, leg extraction focuses on systematically clearing each connection point that anchors the entanglement structure, then withdrawing the leg through the created gap. This escape addresses the most common leg entanglement scenarios where the opponent has established outside or inside ashi garami control but has not yet advanced to a fully consolidated finishing position like the saddle.

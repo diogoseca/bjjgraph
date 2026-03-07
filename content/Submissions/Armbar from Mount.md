@@ -15,6 +15,13 @@ description: "Master Armbar from Mount in BJJ. Complete safety protocols, setup,
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Armbar from Mount/Attacker|Play as Attacker]]
+[[Armbar from Mount/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Armbar from Mount represents one of the most fundamental and high-percentage finishing techniques in Brazilian Jiu-Jitsu, targeting the elbow joint through hyperextension. From the dominant mount position, this submission leverages superior positional control to isolate an opponent's arm and create mechanical advantage through hip extension. The mount-to-armbar transition is particularly effective because it capitalizes on the defensive frames opponents naturally create when attempting to escape mount, turning their defensive structure into offensive opportunities.

@@ -13,6 +13,13 @@ description: "Master the Turn In escape from Reverse Kesa-Gatame. Learn hip mech
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Turn In from Reverse Kesa/Attacker|Play as Attacker]]
+[[Turn In from Reverse Kesa/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Turn In from Reverse Kesa-Gatame is a fundamental escape technique where the bottom player rotates their body toward the top player to close distance, nullify chest pressure, and recover half guard. Unlike shrimping away, which can expose the back or allow the top player to follow with mount transitions, turning in exploits the reverse orientation of the pin by moving into the space where the top player has the least structural control. The bottom player bridges to create momentary space, then rotates their hips and torso toward the top player while threading a knee between their bodies to establish half guard.

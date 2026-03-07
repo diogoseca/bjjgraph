@@ -13,6 +13,13 @@ description: "Master Body Lock position in BJJ. Complete guide covering standing
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Body Lock/Bottom|Play as Bottom]]
+[[Body Lock/Top|Play as Top]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Body Lock is a dominant standing clinch control position where you wrap both arms around your opponent's torso and lock your hands together, creating a unified control mechanism that eliminates their ability to create distance or establish defensive grips. This position exists in two distinct strategic contexts: from behind (where you control their back while standing and threaten mat returns to back control), and from the side or front (where you establish over-under or double underhook configurations to execute throws, takedowns, and transitions to dominant ground positions).

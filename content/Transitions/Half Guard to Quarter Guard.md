@@ -13,6 +13,13 @@ description: "Master the Transition to Quarter Guard from Half Guard Top. Learn 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Half Guard to Quarter Guard/Attacker|Play as Attacker]]
+[[Half Guard to Quarter Guard/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Transition to Quarter Guard is a systematic positional advancement technique executed from Half Guard Top, where the passer progressively extracts their trapped leg past the bottom player's hip line while maintaining upper body control. This technique represents the critical intermediate step between being stuck in half guard and completing a full pass to side control, mount, or knee on belly. Rather than a single explosive movement, this transition relies on methodical pressure application, systematic frame elimination, and precise weight distribution that gradually degrades the bottom player's guard retention capacity.

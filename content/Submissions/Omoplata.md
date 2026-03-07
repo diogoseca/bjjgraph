@@ -15,6 +15,13 @@ description: "Master the Omoplata shoulder lock in BJJ. Complete guide covering 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Omoplata/Attacker|Play as Attacker]]
+[[Omoplata/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Omoplata is a sophisticated shoulder lock that attacks the opponent's shoulder joint through controlled rotation and leverage. This technique involves trapping the opponent's arm with your legs while controlling their posture, then rotating their shoulder beyond its natural range of motion. The Omoplata is unique among submissions because it functions as both a finishing technique and a powerful positional control system, offering numerous sweep and transition opportunities even when the submission itself is defended.

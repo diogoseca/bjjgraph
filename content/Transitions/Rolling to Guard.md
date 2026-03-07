@@ -13,6 +13,13 @@ description: "Master Rolling to Guard in BJJ. Defensive recovery from turtle usi
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Rolling to Guard/Attacker|Play as Attacker]]
+[[Rolling to Guard/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Rolling to Guard is a fundamental defensive recovery technique that allows a practitioner to transition from turtle bottom back to a guard position using rotational hip mechanics and shoulder-driven momentum. From turtle, the bottom player creates initial space through frames, turns onto their shoulder, and drives their hips overhead in an arcing roll that reorients their body to face the opponent with legs reestablished as a barrier. The technique exploits moments when the top player's weight shifts or they transition between control grips, converting their forward pressure into rotational energy.

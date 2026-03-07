@@ -13,6 +13,13 @@ description: "Learn Baseball Bat Choke from Knee on Belly. Cross-collar grip tec
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Baseball Bat Choke/Attacker|Play as Attacker]]
+[[Baseball Bat Choke/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Baseball Bat Choke is a devastating collar strangle executed from Knee on Belly that derives its name from the grip configuration resembling hands on a baseball bat. This technique exploits the opponent's defensive reactions to knee pressure by capitalizing on their attempts to push away the controlling knee. When the bottom player extends their arms to relieve pressure, it creates the optimal window to secure cross-collar grips and initiate the choking sequence. The choke functions as a blood strangle targeting the carotid arteries, and the spinning motion across the opponent's body generates tremendous mechanical advantage for the finish.

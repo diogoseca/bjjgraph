@@ -13,6 +13,13 @@ description: "Learn Standing Reset to Open Guard in BJJ. Escape Ringworm Guard b
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Standing Reset to Open Guard/Attacker|Play as Attacker]]
+[[Standing Reset to Open Guard/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Standing Reset to Open Guard is a positional extraction strategy used when the top player is trapped in Ringworm Guard and ground-based grip breaking has proven insufficient. Rather than fighting the lapel wrap on the ground where the bottom player has maximum leverage, the top player stands fully upright to eliminate secondary control points and isolate the lapel grip as the single problem to solve. The elevation fundamentally changes the dynamics of the engagement: the bottom player loses the ability to combine hip movement, leg hooks, and lapel tension into coordinated sweeping attacks.

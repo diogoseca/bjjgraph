@@ -13,6 +13,13 @@ description: "Master the Backstep from Leg Knot in BJJ. A systematic guide to di
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Backstep from Leg Knot/Attacker|Play as Attacker]]
+[[Backstep from Leg Knot/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Backstep from Leg Knot is a critical guard passing technique used by the top player to escape complex leg entanglement exchanges and establish dominant side control. When both practitioners are locked in a leg knot configuration, the positional warfare becomes a double-edged sword where submission threats exist for both sides. The backstep provides a decisive exit strategy that transforms mutual danger into dominant pinning control, representing a strategic choice to prioritize positional advancement over continued leg lock exchanges.

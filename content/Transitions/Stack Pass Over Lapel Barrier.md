@@ -13,6 +13,13 @@ description: "Master the Stack Pass Over Lapel Barrier in BJJ. Defeat lapel guar
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Stack Pass Over Lapel Barrier/Attacker|Play as Attacker]]
+[[Stack Pass Over Lapel Barrier/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Stack Pass Over Lapel Barrier is a high-pressure passing technique designed to neutralize lapel guard configurations by driving the opponent's knees toward their face, compressing their spine and eliminating the mechanical advantages created by the lapel wrap. Unlike techniques that attempt to clear the lapel configuration first, this pass embraces direct confrontation by using superior pressure and body positioning to pass despite the fabric entanglement.

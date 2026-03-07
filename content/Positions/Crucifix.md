@@ -13,6 +13,13 @@ description: "Master Crucifix position in BJJ. Dominant arm-trapping control wit
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Crucifix/Bottom|Play as Bottom]]
+[[Crucifix/Top|Play as Top]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Crucifix position represents one of the most dominant and devastating control positions in Brazilian Jiu-Jitsu, characterized by the systematic isolation and control of both of the opponent's arms simultaneously. The position derives its name from the cross-like appearance created when both arms are trapped and extended away from the body, rendering the opponent virtually defenseless against submissions and positional advances.

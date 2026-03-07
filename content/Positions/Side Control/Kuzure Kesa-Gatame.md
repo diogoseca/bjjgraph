@@ -13,6 +13,13 @@ description: "Master modified scarf hold in BJJ. Strategic guide covering contro
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Kuzure Kesa-Gatame/Bottom|Play as Bottom]]
+[[Kuzure Kesa-Gatame/Top|Play as Top]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Kuzure Kesa-Gatame, or Modified Scarf Hold, represents a critical evolution of traditional scarf hold (Kesa Gatame) in Brazilian Jiu-Jitsu. While maintaining the fundamental side control framework, this variation trades the classic head control for an isolated arm position, creating enhanced submission opportunities while maintaining dominant control. The position emerged from judo's ne-waza (ground fighting) tradition and has been refined through decades of BJJ competition to become one of the most versatile and submission-rich variations of side control.

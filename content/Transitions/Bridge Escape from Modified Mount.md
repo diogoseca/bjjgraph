@@ -13,6 +13,13 @@ description: "Master the bridge escape from Modified Mount in BJJ. Learn to expl
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Bridge Escape from Modified Mount/Attacker|Play as Attacker]]
+[[Bridge Escape from Modified Mount/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The bridge escape from Modified Mount is a fundamental positional escape that exploits the inherent structural weakness of asymmetric mount positioning. When the top practitioner posts one leg out for stability while maintaining the across-body knee, they create a directional vulnerability that this escape specifically targets. By directing explosive hip power toward the posted leg side, the bottom practitioner disrupts the stability anchor that makes Modified Mount resistant to standard escape attempts from the opposite direction. The technique requires precise directional awareness and immediate follow-through to convert momentary destabilization into lasting positional improvement.

@@ -15,6 +15,13 @@ description: "Master the Arm Crush submission in BJJ. Learn shoulder lock mechan
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Arm Crush/Attacker|Play as Attacker]]
+[[Arm Crush/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Arm Crush is a powerful shoulder lock submission that combines crushing pressure with rotational torque on the opponent's shoulder joint. Unlike traditional shoulder locks that isolate the joint through leverage alone, the Arm Crush uses body weight and positional pressure to compress the shoulder while simultaneously applying a twisting motion. This submission is most commonly executed from side control positions, particularly when the opponent's arm is trapped between their body and yours. The technique targets the rotator cuff muscles and shoulder capsule, creating intense pressure that forces a quick tap. The Arm Crush is especially effective against defensive opponents who keep their elbows tight to their body, as this defensive posture actually creates the necessary configuration for the submission. The finish combines elements of the Americana and Kimura while adding a unique crushing component that makes it extremely difficult to defend once properly applied.

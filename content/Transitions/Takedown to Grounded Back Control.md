@@ -13,6 +13,13 @@ description: "Learn the Takedown to Grounded Back Control in BJJ. Step-by-step m
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Takedown to Grounded Back Control/Attacker|Play as Attacker]]
+[[Takedown to Grounded Back Control/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Takedown to Grounded Back Control is the critical conversion step that transforms a precarious standing back exposure into the most dominant control position in Brazilian Jiu-Jitsu. Standing back control is inherently unstable, and every second spent standing increases the probability of the bottom player escaping through explosive hip turns, grip strips, or controlled descents that land them in turtle rather than flat on the mat with hooks in. The mat return solves this problem by bringing the fight to the ground on the top player's terms, preserving seatbelt control and immediately establishing hooks or body triangle during the descent.

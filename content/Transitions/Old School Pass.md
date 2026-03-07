@@ -13,6 +13,13 @@ description: "Master the Old School Pass in BJJ. Systematic guide to breaking lo
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Old School Pass/Attacker|Play as Attacker]]
+[[Old School Pass/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Old School Pass is the top player's systematic approach to passing the bottom player's Old School half guard position, where lockdown control, underhook, and head control create a formidable defensive and offensive structure. This pass demands patience, methodical pressure application, and precise technical execution to neutralize the lockdown's sweeping power before extracting the trapped leg and completing the pass to side control. The technique gained critical importance as the 10th Planet lockdown system became widespread, forcing top players to develop reliable counters to what was previously a difficult-to-address control configuration.

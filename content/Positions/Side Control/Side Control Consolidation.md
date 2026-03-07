@@ -13,6 +13,13 @@ description: "Master Side Control Consolidation in BJJ. Strategic guide covering
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Side Control Consolidation/Bottom|Play as Bottom]]
+[[Side Control Consolidation/Top|Play as Top]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Side Control Consolidation represents the critical transitional phase immediately following a successful pass to side control, where the top practitioner systematically establishes dominant control before advancing to submissions or superior positions. This consolidation phase is often the difference between maintaining dominance and allowing the opponent to escape or re-guard. During consolidation, the top player focuses on eliminating space, securing key control points (head, hips, and far arm), and establishing heavy pressure while preventing common escape attempts such as shrimping, bridging, or re-establishing guard.

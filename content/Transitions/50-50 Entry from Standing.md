@@ -13,6 +13,13 @@ description: "Master the 50-50 Entry from Standing in BJJ. Step-by-step executio
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[50-50 Entry from Standing/Attacker|Play as Attacker]]
+[[50-50 Entry from Standing/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The 50-50 Entry from Standing is a modern leg entanglement technique that allows you to establish the 50-50 Guard position directly from a standing engagement. This entry is particularly effective in no-gi competition where traditional guard pulls may be penalized or less effective. The technique involves controlling your opponent's leg while simultaneously sitting to the mat, creating a symmetrical leg entanglement that offers both offensive and defensive advantages.

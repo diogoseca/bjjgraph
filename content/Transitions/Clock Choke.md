@@ -13,6 +13,13 @@ description: "Master the Clock Choke in BJJ. Step-by-step gi choke from Turtle t
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Clock Choke/Attacker|Play as Attacker]]
+[[Clock Choke/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Clock Choke is a highly effective gi submission that derives its name from the rotational movement pattern used during execution—the attacker walks around the opponent's head like the hands of a clock while maintaining collar pressure. This technique is most commonly applied against a turtled opponent, exploiting their defensive posture by using their own gi collar as the choking mechanism. The choke combines collar grip mechanics with positional pressure, creating a blood choke that attacks both carotid arteries simultaneously.

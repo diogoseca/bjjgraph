@@ -15,6 +15,13 @@ description: "Master the Armbar from Back Control in BJJ. Complete safety guide 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Armbar from Back/Attacker|Play as Attacker]]
+[[Armbar from Back/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Armbar from Back Control represents one of the most devastating finishing sequences in Brazilian Jiu-Jitsu, combining positional dominance with precise joint manipulation. From the back mount position, where you already control the most advantageous position in grappling, the armbar becomes available when the opponent defends the rear naked choke by gripping their hands together or tucking their chin. This submission targets the elbow joint through hip extension and leg control, creating a mechanical advantage that makes escape nearly impossible once properly locked. The transition from back control to armbar requires careful weight distribution and timing, as abandoning the back position prematurely can result in losing dominant control. Elite grapplers use this technique as part of a systematic attack chain, forcing opponents into defensive dilemmas where defending the choke opens the arm, and protecting the arm exposes the neck. The armbar from back is particularly effective in competition because it maintains control throughout the transition, preventing opponents from improving position even if they defend the initial submission attempt.

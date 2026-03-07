@@ -13,6 +13,13 @@ description: "Master Advance to Chill Dog transition in BJJ. Progress from New Y
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Advance to Chill Dog/Attacker|Play as Attacker]]
+[[Advance to Chill Dog/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Advance to Chill Dog represents a critical progression within the 10th Planet Rubber Guard system, moving from the foundational New York control into a deeper attacking position that sets up the gogoplata and other high-percentage finishes. This transition capitalizes on the broken posture and overhook control established in New York, threading the controlling leg deeper across the opponent's back to create the distinctive Chill Dog configuration.

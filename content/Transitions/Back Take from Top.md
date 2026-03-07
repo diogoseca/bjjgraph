@@ -13,6 +13,13 @@ description: "Master the Back Take from Hindulotine in BJJ. Capitalize on oppone
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Back Take from Top/Attacker|Play as Attacker]]
+[[Back Take from Top/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Back Take from Top Hindulotine represents one of the highest-percentage transitions in the front headlock attack system. When an opponent defends the guillotine choke by turning away to relieve neck pressure, they expose their back as a direct consequence of their defensive movement. This technique capitalizes on that predictable reaction, converting a potential submission loss into dominant back control.

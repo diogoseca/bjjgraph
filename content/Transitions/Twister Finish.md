@@ -13,6 +13,13 @@ description: "Learn the Twister Finish from Russian Cowboy in BJJ. Spinal lock s
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Twister Finish/Attacker|Play as Attacker]]
+[[Twister Finish/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Twister Finish from Russian Cowboy is an advanced spinal compression submission that exploits the asymmetric back control inherent in the Russian Cowboy position. Unlike entering the Twister from full Truck position, this pathway leverages the single-hook configuration of Russian Cowboy to create the initial rotational pressure before completing the figure-four leg lock and finishing the spinal twist. The attacker must transition the single hook into a more complete leg entanglement while simultaneously establishing head and shoulder control to create the opposed rotational forces that define the Twister.

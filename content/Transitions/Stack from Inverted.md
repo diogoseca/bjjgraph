@@ -13,6 +13,13 @@ description: "Master the stack pass from inverted guard in BJJ. Complete guide t
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Stack from Inverted/Attacker|Play as Attacker]]
+[[Stack from Inverted/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Stack from Inverted is a fundamental guard passing technique used by the top player to neutralize an opponent's inverted guard by driving their hips over their head, compressing their spine against the mat, and eliminating the hip mobility that makes inversion effective. When an opponent inverts, they rely on hip elevation and rotational freedom to threaten berimbolo entries, back takes, and leg entanglements. The stack directly attacks these mechanics by folding the inverted player and pinning their weight onto their upper back and shoulders, collapsing the entire inverted structure.

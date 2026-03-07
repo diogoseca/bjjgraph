@@ -13,6 +13,13 @@ description: "Master the Turtle to Back Control transition in BJJ. Essential bac
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Turtle to Back Control/Attacker|Play as Attacker]]
+[[Turtle to Back Control/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Turtle to Back Control transition is a fundamental back-taking sequence that exploits the defensive turtle position's inherent vulnerability: back exposure. When an opponent assumes turtle to protect against pins or submissions, they surrender rear access, creating a high-percentage opportunity for the most dominant position in BJJ. This transition involves systematically breaking down the turtle structure through strategic grip placement, hip control, and body positioning to achieve full back control with hooks and seatbelt.

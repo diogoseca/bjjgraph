@@ -13,6 +13,13 @@ description: "Master the Double Sleeve Sweep in BJJ. Complete guide to executing
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Double Sleeve Sweep/Attacker|Play as Attacker]]
+[[Double Sleeve Sweep/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Double Sleeve Sweep is a fundamental sweep from Double Sleeve Guard that exploits bilateral sleeve control to generate rotational force and off-balance the top player. By combining asymmetric sleeve pulls with strategic foot placement on the hips, the bottom player creates a push-pull dynamic that compromises the top player's base and directs their fall to one side. The sweep's effectiveness stems from controlling both arms simultaneously, which prevents the opponent from posting to stop the sweep and limits their ability to create a counterbalancing frame.

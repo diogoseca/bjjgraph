@@ -13,6 +13,13 @@ description: "Master Open Guard in BJJ. Strategic guide covering distance manage
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Open Guard/Bottom|Play as Bottom]]
+[[Open Guard/Top|Play as Top]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Open Guard is the fundamental bottom position in BJJ where you use your legs positioned between you and your opponent to create distance, manage angles, and prevent them from establishing dominant control. Unlike closed guard where your legs lock around the opponent's back, open guard maintains an open configuration that allows for greater mobility and diverse attacking options at the cost of requiring more active management. This position serves as the gateway to all modern guard systems and is essential for contemporary BJJ competition.

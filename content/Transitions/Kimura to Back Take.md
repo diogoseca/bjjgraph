@@ -13,6 +13,13 @@ description: "Master the Kimura to Back Take transition in BJJ. Learn to convert
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Kimura to Back Take/Attacker|Play as Attacker]]
+[[Kimura to Back Take/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Kimura to Back Take is a fundamental transition that exemplifies the principle of using submission threats to advance position. When an opponent defends the Kimura finish by pulling their elbow tight to their body or rolling with the lock, this creates a predictable defensive pathway that can be exploited to transition to back control. This transition is particularly effective because the opponent's defensive instinct to protect their shoulder naturally exposes their back.

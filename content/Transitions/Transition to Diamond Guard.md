@@ -13,6 +13,13 @@ description: "Master the transition to Diamond Guard from closed guard. Complete
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Transition to Diamond Guard/Attacker|Play as Attacker]]
+[[Transition to Diamond Guard/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Transition to Diamond Guard converts standard closed guard into an advanced offensive platform by establishing simultaneous overhook and head control, creating a diamond-shaped frame that dramatically amplifies posture-breaking effectiveness and opens direct pathways to high-percentage submission chains including triangles, omoplatas, and kimuras. This transition is the critical bridge between the general-purpose closed guard and the submission-rich diamond guard configuration where multiple finishing sequences become immediately accessible through systematic grip adjustments within the frame.

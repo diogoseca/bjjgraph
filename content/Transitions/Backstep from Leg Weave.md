@@ -13,6 +13,13 @@ description: "Master the backstep from leg weave in BJJ. Complete guard passing 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Backstep from Leg Weave/Attacker|Play as Attacker]]
+[[Backstep from Leg Weave/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Backstep from Leg Weave is an advanced guard passing technique where the top player uses rotational hip movement to clear the bottom player's remaining guard hooks from an established leg weave position, arriving in side control. Unlike linear passing options from leg weave such as the knee slice or smash pass, the backstep introduces an angular change that exploits moments when the bottom player commits defensive frames against forward-driving pressure.

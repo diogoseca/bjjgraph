@@ -13,6 +13,13 @@ description: "Master Aoki Lock position in BJJ. Advanced shoulder lock control c
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Aoki Lock/Bottom|Play as Bottom]]
+[[Aoki Lock/Top|Play as Top]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Aoki Lock position represents an advanced submission control state named after Japanese MMA fighter Shinya Aoki, characterized by leg entanglement control combined with shoulder lock pressure. This hybrid position integrates elements of omoplata mechanics with leg-based trapping, creating a powerful control system that limits opponent mobility while applying progressive shoulder joint pressure. The position exists in two distinct perspectives: bottom (defensive escape focus) and top (offensive finishing focus), each requiring specialized technical knowledge and safety awareness.

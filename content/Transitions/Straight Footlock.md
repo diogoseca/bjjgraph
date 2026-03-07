@@ -13,6 +13,13 @@ description: "Master the Straight Footlock finish in BJJ. Complete guide to ankl
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Straight Footlock/Attacker|Play as Attacker]]
+[[Straight Footlock/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Straight Footlock is the terminal finishing sequence applied from Straight Ankle Lock Control, converting positional dominance into a tap through forced dorsiflexion and Achilles tendon compression. Unlike the entry transitions that establish control, this technique represents the committed finishing mechanics where the attacker uses coordinated hip extension, back arch, and forearm pressure to generate breaking force on the ankle joint. The finish demands precise biomechanical alignment: the blade of the forearm must be seated directly behind the Achilles tendon, the heel must be trapped against the chest or armpit, and the legs must prevent all hip rotation before any extension begins.

@@ -13,6 +13,13 @@ description: "Master the Cartwheel Escape from Omoplata in BJJ. Complete guide t
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Cartwheel Escape from Omoplata/Attacker|Play as Attacker]]
+[[Cartwheel Escape from Omoplata/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Cartwheel Escape from Omoplata is the primary defensive response when caught in an omoplata shoulder lock from guard. Rather than fighting the rotational pressure directly, the escaper follows the direction of shoulder rotation by performing a forward roll that clears the opponent's controlling legs and lands in a neutral or advantageous top position. This escape exploits the critical timing window that exists before the omoplata player can sit up and establish hip or belt control to anchor the position.

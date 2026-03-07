@@ -13,6 +13,13 @@ description: "Master the Breadcutter Choke from Kuzure Kesa-Gatame. Step-by-step
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Breadcutter Choke/Attacker|Play as Attacker]]
+[[Breadcutter Choke/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Breadcutter Choke is a devastating gi-based blood choke executed from Kuzure Kesa-Gatame (modified scarf hold). This technique uses the opponent's own lapel as a lever to compress both carotid arteries simultaneously, creating rapid unconsciousness when properly applied. The choke derives its name from the sawing motion of the forearm across the neck, reminiscent of cutting bread.

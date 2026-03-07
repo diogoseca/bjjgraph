@@ -13,6 +13,13 @@ description: "Master kneebar control maintenance in BJJ. Learn grip adjustments,
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Kneebar Control Maintenance/Attacker|Play as Attacker]]
+[[Kneebar Control Maintenance/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Kneebar Control Maintenance from top position is the systematic process of consolidating and retaining your leg isolation control when your opponent actively resists your kneebar position. Unlike the initial entry or the finishing sequence, maintenance addresses the critical middle phase where opponents generate their most desperate and explosive escape attempts. The practitioner must continuously audit grip integrity, hip proximity to the knee joint, and base stability while managing the opponent's rotational and bridging escape patterns.

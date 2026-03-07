@@ -13,6 +13,13 @@ description: "Learn the Standing Escape from Invisible Collar in BJJ. Step-by-st
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Standing Escape/Attacker|Play as Attacker]]
+[[Standing Escape/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Standing Escape from Invisible Collar is a high-commitment defensive technique that exploits gravity and posture change to neutralize one of the most deceptive gi chokes in modern back attack systems. The invisible collar grip disguises lethal choking pressure as passive control, making early recognition and decisive action essential. By standing and creating vertical separation, you fundamentally alter the mechanics that make the invisible collar dangerous—the attacker loses chest-to-back connection and the downward angle that powers the collar choke.

@@ -15,6 +15,13 @@ description: "Master the Aoki Lock Finish in BJJ. Advanced shoulder lock submiss
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Aoki Lock Finish/Attacker|Play as Attacker]]
+[[Aoki Lock Finish/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Aoki Lock Finish is the terminal submission sequence from the Aoki Lock control position, a specialized shoulder lock named after Japanese MMA fighter Shinya Aoki. This technique combines omoplata-style shoulder rotation with leg entanglement control to create devastating rotational pressure on the glenohumeral joint. The finish requires precise hip positioning, controlled progressive pressure application, and deep understanding of shoulder anatomy to execute safely and effectively. Unlike traditional shoulder locks that rely on grip-based control, the Aoki Lock uses leg entanglement as its primary trapping mechanism, making traditional shoulder lock defenses largely ineffective.

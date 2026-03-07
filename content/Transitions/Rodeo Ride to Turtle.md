@@ -13,6 +13,13 @@ description: "Master the Rodeo Ride to Turtle transition in BJJ. Learn to conver
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Rodeo Ride to Turtle/Attacker|Play as Attacker]]
+[[Rodeo Ride to Turtle/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Rodeo Ride to Turtle transition represents a controlled positional adjustment where the top practitioner converts their dynamic Rodeo Ride control into standard turtle top position. While Rodeo Ride offers powerful asymmetric pressure and explosive attack angles, there are situations where transitioning to conventional turtle top provides a more systematic platform for back attacks, hook insertion, and submission setups. This transition becomes necessary when the bottom practitioner defends Rodeo Ride-specific attacks effectively or when the dynamic ride becomes unstable, forcing the top player to reset to a methodical attacking framework rather than continuing to chase diminishing returns from a compromised position.

@@ -13,6 +13,13 @@ description: "Master feet on hips guard in BJJ. Strategic guide covering distanc
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Feet on Hips Guard/Bottom|Play as Bottom]]
+[[Feet on Hips Guard/Top|Play as Top]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Feet on Hips Guard represents one of the most fundamental distance management positions in Brazilian Jiu-Jitsu, where the guard player places both feet on the opponent's hip bones to create controllable space. This position serves as a critical gateway between closed guard and more advanced open guard systems, teaching practitioners the essential principle that effective guard play relies on leg frames rather than grip strength alone. The feet-on-hips configuration provides immediate defensive structure while maintaining maximum mobility for transitions, sweeps, and submissions.

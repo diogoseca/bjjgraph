@@ -13,6 +13,13 @@ description: "Master the Grip Break and Face escape from standing back control. 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Grip Break and Face/Attacker|Play as Attacker]]
+[[Grip Break and Face/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Grip Break and Face technique is a fundamental standing back control escape that prioritizes breaking the opponent's harness grip while simultaneously rotating to face them. This escape exploits the inherent instability of standing back control by using explosive hip rotation combined with systematic grip fighting to transition from a highly vulnerable defensive position to a neutral clinch where both practitioners can engage face-to-face.

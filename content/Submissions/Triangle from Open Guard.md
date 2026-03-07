@@ -15,6 +15,13 @@ description: "Master the Triangle Choke from Open Guard in BJJ. Expert guide cov
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Triangle from Open Guard/Attacker|Play as Attacker]]
+[[Triangle from Open Guard/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Triangle from Open Guard is one of the highest-percentage submissions available from the bottom position, utilizing the legs to create a figure-four configuration around the opponent's neck and one trapped arm. This choke attacks the carotid arteries through bilateral compression, combining the squeeze of the legs with downward pressure on the opponent's head to restrict blood flow to the brain. The open guard starting position provides superior hip mobility compared to closed guard, enabling faster angle creation and more diverse entry paths.

@@ -13,6 +13,13 @@ description: "Master the ankle lock counter in BJJ. Complete guide to neutralizi
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Counter from Ankle Lock/Attacker|Play as Attacker]]
+[[Counter from Ankle Lock/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The counter from ankle lock is a critical defensive transition that transforms a dangerous submission predicament into an opportunity for positional dominance. When caught in straight ankle lock control, the instinct to yank the leg free plays directly into the attacker's hands by extending the ankle and tightening their grip mechanics. This counter instead uses deliberate structural defense followed by aggressive forward pressure to neutralize the submission threat and pass the attacker's guard into side control.

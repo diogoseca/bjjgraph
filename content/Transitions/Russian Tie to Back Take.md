@@ -13,6 +13,13 @@ description: "Master the Russian Tie to Back Take in BJJ. Step-by-step execution
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Russian Tie to Back Take/Attacker|Play as Attacker]]
+[[Russian Tie to Back Take/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Russian Tie to Back Take is a fundamental wrestling-based technique that has become essential in modern BJJ, particularly in no-gi competition. This technique exploits the opponent's defensive reactions to wrist control by using leverage and angular movement to circle to their back. The Russian Tie (also called the Russian 2-on-1) creates a powerful control position where you control the opponent's arm with both hands while positioning your head on the bicep side, establishing the angle needed to begin circling.

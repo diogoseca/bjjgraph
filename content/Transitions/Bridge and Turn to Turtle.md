@@ -13,6 +13,13 @@ description: "Master the Bridge and Turn to Turtle escape from North-South. Step
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Bridge and Turn to Turtle/Attacker|Play as Attacker]]
+[[Bridge and Turn to Turtle/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Bridge and Turn to Turtle is a fundamental escape from North-South control that converts crushing chest pressure into a defensive turtle position. This technique exploits the inherent instability created when you generate upward force through an explosive bridge, combined with rotational momentum toward your opponent. The escape requires precise timing—executing during the opponent's weight shifts creates the best opportunity for success.

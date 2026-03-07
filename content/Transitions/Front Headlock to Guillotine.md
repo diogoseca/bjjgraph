@@ -13,6 +13,13 @@ description: "Master the Front Headlock to Guillotine transition in BJJ. Complet
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Front Headlock to Guillotine/Attacker|Play as Attacker]]
+[[Front Headlock to Guillotine/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Front Headlock to Guillotine transition represents a critical pathway in modern submission grappling, transforming a dominant control position into a high-percentage finishing opportunity. This transition is fundamental to understanding the front headlock series, where the practitioner leverages head and arm control to create the angle and grip necessary for the guillotine choke. The technique is particularly effective when the opponent attempts to stand from turtle or drives forward from a defensive posture, creating the perfect moment to secure the guillotine grip and establish submission control.

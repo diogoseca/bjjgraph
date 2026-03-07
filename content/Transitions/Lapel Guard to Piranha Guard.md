@@ -13,6 +13,13 @@ description: "Learn how to transition from Lapel Guard to Piranha Guard in BJJ. 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Lapel Guard to Piranha Guard/Attacker|Play as Attacker]]
+[[Lapel Guard to Piranha Guard/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Transition to Piranha Guard represents an evolution within the lapel guard system where the bottom player reconfigures their existing lapel control by threading the opponent's collar through their own legs. Rather than maintaining the standard lapel guard grip where fabric wraps around the opponent's limbs externally, Piranha Guard routes the collar between the practitioner's legs to create a pulley-like mechanical advantage that dramatically amplifies posture-breaking leverage and sweep power.

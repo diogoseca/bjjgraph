@@ -13,6 +13,13 @@ description: "Master the Single Leg Entry in BJJ. Complete guide to level change
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Single Leg Entry/Attacker|Play as Attacker]]
+[[Single Leg Entry/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Single Leg Entry is a fundamental wrestling-based takedown that serves as one of the most reliable techniques for establishing top position from standing in Brazilian Jiu-Jitsu. This technique involves capturing one of your opponent's legs while maintaining your own base and balance, creating a powerful mechanical advantage that can lead to various finishing positions including top control, back takes, or leg entanglements. The single leg entry is particularly effective in both gi and no-gi grappling, making it an essential component of any complete BJJ game.

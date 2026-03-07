@@ -13,6 +13,13 @@ description: "Master the Back Take from Bottom Hindulotine in BJJ. Capitalize on
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Back Take from Bottom/Attacker|Play as Attacker]]
+[[Back Take from Bottom/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Back Take from Bottom Hindulotine is a high-percentage transition that exploits the most common defensive reaction to guillotine pressure: turning away to relieve neck strain. When an opponent rotates to escape the choking grip from bottom Hindulotine, they inadvertently expose their back, creating an optimal entry point for back control. This transition epitomizes the modern submission grappling philosophy where defensive movements create offensive opportunities.

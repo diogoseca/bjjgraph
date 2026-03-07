@@ -13,6 +13,13 @@ description: "Master pulling guard from standing in BJJ. Complete guide covering
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Pull Guard from Standing/Attacker|Play as Attacker]]
+[[Pull Guard from Standing/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Pulling guard from standing is one of the most strategically significant transitions in competitive Brazilian Jiu-Jitsu, representing a deliberate decision to take the fight to the ground on your own terms rather than engaging in a protracted takedown battle. This technique transforms a neutral standing exchange into a ground fight where the guard puller can immediately begin working their preferred guard system, making it the cornerstone transition for competitors whose primary strength lies in bottom-position grappling. The guard pull has become ubiquitous in sport BJJ at all levels, from local tournaments through the highest levels of professional competition.

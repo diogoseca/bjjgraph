@@ -13,6 +13,13 @@ description: "Learn Kneebar entry from 50-50 Guard in BJJ. Step-by-step leg cont
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Kneebar entry/Attacker|Play as Attacker]]
+[[Kneebar entry/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Kneebar entry from 50-50 Guard Bottom represents a strategic offensive option when heel hook attacks are defended or unavailable. This transition exploits the inherent vulnerability of your opponent's knee joint when their leg is already entangled in the 50-50 configuration. Rather than fighting for heel exposure against a savvy defender, the kneebar entry redirects your attack to target the hyperextension of the knee joint.

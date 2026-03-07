@@ -13,6 +13,13 @@ description: "Master the transition from Kesa Gatame to Modified Scarf Hold in B
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Kesa Gatame to Modified Scarf Hold/Attacker|Play as Attacker]]
+[[Kesa Gatame to Modified Scarf Hold/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The transition from Kesa Gatame to Modified Scarf Hold addresses the primary weakness of traditional scarf hold: back exposure. By shifting from the perpendicular hip-level seat of Kesa Gatame to the chest-over-chest configuration of Modified Scarf Hold, the top player eliminates the back take vulnerability while gaining superior submission access and breathing restriction on the bottom player. This transition is a fundamental positional upgrade within the side control family that every serious practitioner must understand.

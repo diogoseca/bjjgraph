@@ -13,6 +13,13 @@ description: "Master Z-Guard in BJJ. Advanced knee shield variation with high sh
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Z-Guard/Bottom|Play as Bottom]]
+[[Z-Guard/Top|Play as Top]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Z-Guard represents an advanced evolution of knee shield half guard where the bottom player elevates the knee shield to target the opponent's shoulder or upper chest rather than the hip, creating a more complete defensive structure that resembles the letter 'Z' when viewed from the side. This specialized positioning fundamentally changes the guard's defensive geometry, making it exceptionally difficult for pressure passers to settle their weight while simultaneously creating powerful sweeping angles. The position gained prominence in modern BJJ as competitors discovered that the higher knee placement not only prevents the pass more effectively but also generates superior leverage for off-balancing attacks and back takes.

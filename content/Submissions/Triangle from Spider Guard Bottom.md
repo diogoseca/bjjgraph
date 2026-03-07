@@ -15,6 +15,13 @@ description: "Master the Triangle Choke from Spider Guard Bottom. Complete guide
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Triangle from Spider Guard Bottom/Attacker|Play as Attacker]]
+[[Triangle from Spider Guard Bottom/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Triangle Choke from Spider Guard Bottom is one of the highest-percentage submissions available from the spider guard system. Spider Guard's inherent sleeve control and foot-on-bicep positioning creates ideal conditions for arm isolation, the fundamental prerequisite for any triangle entry. By controlling both sleeves and using asymmetric foot pressure, the bottom player systematically isolates one arm across the centerline while pushing the other away, creating the one-arm-in, one-arm-out configuration required for the triangle.

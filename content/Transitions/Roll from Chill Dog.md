@@ -13,6 +13,13 @@ description: "Master the Roll from Chill Dog escape in BJJ. Complete guide to ro
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Roll from Chill Dog/Attacker|Play as Attacker]]
+[[Roll from Chill Dog/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Roll from Chill Dog is a forward rolling escape executed from the compact Chill Dog turtle variant, designed to create distance from the top player and recover open guard. This technique exploits the rounded back posture inherent to Chill Dog by converting the defensive ball shape into rotational momentum. When the top player commits their weight backward or momentarily loosens their grip control, the bottom player tucks their chin, drives off their hands, and rolls diagonally forward to emerge facing the opponent with legs available for guard retention.

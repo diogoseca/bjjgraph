@@ -13,6 +13,13 @@ description: "Master the Stack Pass from Double Unders in BJJ. Learn to stack op
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Stack Pass from Double Unders/Attacker|Play as Attacker]]
+[[Stack Pass from Double Unders/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Stack Pass from Double Unders is a high-pressure guard passing technique that exploits bilateral underhook control to fold the opponent's body onto their shoulders, eliminating hip mobility and creating an unstoppable forward drive toward side control. Once both underhooks are secured beneath the opponent's legs, the passer drives forward through the hips, walking the knees toward the opponent's head while maintaining a tight grip connection behind their back. This vertical stacking pressure compresses the opponent's spine, severely restricts breathing, and removes all leverage for guard recovery or hip escape.

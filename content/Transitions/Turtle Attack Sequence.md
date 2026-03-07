@@ -13,6 +13,13 @@ description: "Master Turtle Transition attacks in BJJ. Complete guide to back ta
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Turtle Attack Sequence/Attacker|Play as Attacker]]
+[[Turtle Attack Sequence/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Turtle Transition encompasses the systematic approach to attacking an opponent who has assumed turtle position, where the top player works to convert positional advantage into back control, front headlock submissions, or crucifix entries. This transition represents one of the most common and important attacking sequences in competitive grappling, occurring frequently after guard passes, failed takedown attempts, and scramble exchanges where the bottom player turtles defensively rather than conceding side control or mount.

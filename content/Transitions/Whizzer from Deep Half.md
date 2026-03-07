@@ -13,6 +13,13 @@ description: "Master the Whizzer from Deep Half Guard in BJJ. Complete guide to 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Whizzer from Deep Half/Attacker|Play as Attacker]]
+[[Whizzer from Deep Half/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Whizzer from Deep Half Guard is a critical counter-passing technique employed by the top player when caught in deep half guard. When the bottom player has successfully wedged underneath and established a deep underhook around the far leg, the top player applies an overhook (whizzer) on that same underhooking arm, creating counter-leverage that neutralizes the sweep mechanics powering the deep half position. This technique represents the primary defensive tool for managing deep half guard from the top perspective, converting a precarious position into a systematic passing opportunity.

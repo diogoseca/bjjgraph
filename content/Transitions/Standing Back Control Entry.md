@@ -13,6 +13,13 @@ description: "Master the Standing Back Control Entry in BJJ. Learn to follow opp
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Standing Back Control Entry/Attacker|Play as Attacker]]
+[[Standing Back Control Entry/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Standing Back Control Entry is the critical transition of following your opponent from grounded back control to standing back control as they attempt to rise to their feet. This technique occurs most frequently when an opponent in bottom back control uses a standing escape strategy, driving upward from the ground to break the controlling player's hooks and create separation. Rather than abandoning back control during this positional change, the skilled practitioner rides the movement, adjusting hooks, maintaining seatbelt grip, and preserving chest-to-back connection throughout the vertical transition.

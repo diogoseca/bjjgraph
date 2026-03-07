@@ -13,6 +13,13 @@ description: "Master the Grip Strip from Buggy Choke in BJJ. Complete guide to a
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Grip Strip from Buggy Choke/Attacker|Play as Attacker]]
+[[Grip Strip from Buggy Choke/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Grip Strip from Buggy Choke is a tactical transition used when the buggy choke from turtle top has stalled against effective defensive grip fighting. Rather than continuing to invest energy in a choke that is unlikely to finish, the top player systematically breaks the bottom player's defensive grips and frames, then redirects their control structure to establish side control. This transition reflects the principle that positional advancement is always available when a submission attempt stalls, and experienced practitioners recognize the moment when abandoning the choke becomes the higher-percentage play.

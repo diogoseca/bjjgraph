@@ -13,6 +13,13 @@ description: "Master the Strip Lapel from Piranha technique. Essential grip-figh
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Strip Lapel from Piranha/Attacker|Play as Attacker]]
+[[Strip Lapel from Piranha/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Strip Lapel from Piranha is a fundamental grip-fighting technique executed by the top player when trapped in an opponent's Piranha Guard. The technique involves systematically breaking the bottom player's lapel grips and extracting the collar material that has been threaded through their legs, neutralizing the primary control mechanism of the Piranha Guard system. This transition is essential for any top player facing modern lapel guard systems in gi competition, as the lapel threading creates a pulley-like mechanical advantage that must be dismantled before standard passing becomes viable.

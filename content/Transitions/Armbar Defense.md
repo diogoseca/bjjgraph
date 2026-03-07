@@ -13,6 +13,13 @@ description: "Master Armbar Defense in BJJ. Learn systematic escapes including s
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Armbar Defense/Attacker|Play as Attacker]]
+[[Armbar Defense/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Armbar defense represents one of the most critical defensive skills in Brazilian Jiu-Jitsu, as the armbar is among the highest-percentage submissions across all skill levels and rule sets. The defensive sequence must be executed with precise timing and technical understanding, as even slight delays can result in a completed submission. Effective armbar defense operates on multiple layers: preventing the initial setup through postural awareness, recognizing the attack in its early stages, executing appropriate escape mechanics based on the specific armbar variation, and transitioning to a safer position once the immediate threat is neutralized.

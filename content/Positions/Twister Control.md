@@ -13,6 +13,13 @@ description: "Master Twister Control in BJJ. Complete guide covering entries, sp
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Twister Control/Bottom|Play as Bottom]]
+[[Twister Control/Top|Play as Top]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Twister Control represents one of Brazilian Jiu-Jitsu's most distinctive control positions, originating from the 10th Planet system and gaining prominence through high-level no-gi competition. This position creates a unique biomechanical dilemma by combining back exposure with spinal rotation, forcing the opponent into an extremely uncomfortable configuration that severely limits their defensive options.

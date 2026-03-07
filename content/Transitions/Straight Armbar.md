@@ -13,6 +13,13 @@ description: "Learn the Straight Armbar from Mounted Crucifix in BJJ. Step-by-st
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Straight Armbar/Attacker|Play as Attacker]]
+[[Straight Armbar/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Straight Armbar from Mounted Crucifix exploits the unique arm isolation that the crucifix configuration provides. With one or both of the opponent's arms already trapped by your legs, you have eliminated their primary defensive tools, making the armbar entry significantly more accessible than from standard mount or side control. The technique capitalizes on the opponent's inability to clasp hands, frame against your hips, or create the defensive structures that normally make armbars difficult to secure.

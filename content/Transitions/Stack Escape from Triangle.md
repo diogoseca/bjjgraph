@@ -13,6 +13,13 @@ description: "Master the Stack Escape from Triangle choke in BJJ. Step-by-step g
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Stack Escape from Triangle/Attacker|Play as Attacker]]
+[[Stack Escape from Triangle/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Stack Escape from Triangle is a fundamental defensive technique employed by the top player caught in an opponent's triangle choke. Rather than attempting to create lateral separation or extract the head, the stack escape uses forward driving pressure to fold the opponent's body onto their own shoulders and neck, collapsing the triangle's choking geometry by eliminating the perpendicular angle required for effective arterial compression. The technique exploits a critical vulnerability in the triangle position: when the bottom player's hips are driven above their shoulders, their legs lose the ability to extend and generate squeezing force, transforming the position from an active choking threat into a structurally weakened configuration.

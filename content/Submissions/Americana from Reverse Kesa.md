@@ -15,6 +15,13 @@ description: "Master the Americana from Reverse Kesa-Gatame. Complete guide cove
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Americana from Reverse Kesa/Attacker|Play as Attacker]]
+[[Americana from Reverse Kesa/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Americana from Reverse Kesa-Gatame exploits the natural arm isolation created by the reverse scarf hold orientation. Unlike standard Americana attacks from side control where the attacker must first work to isolate the arm, Reverse Kesa-Gatame inherently traps the opponent's near arm against the attacker's body, providing an immediate pathway to the figure-four grip. The shoulder lock mechanics rely on pinning the opponent's elbow to the mat while rotating their wrist in a downward arc, creating combined internal rotation and abduction stress on the glenohumeral joint.

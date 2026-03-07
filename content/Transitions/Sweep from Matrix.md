@@ -13,6 +13,13 @@ description: "Master the Sweep from Matrix in BJJ. Complete guide to rotational 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Sweep from Matrix/Attacker|Play as Attacker]]
+[[Sweep from Matrix/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Sweep from Matrix is a dynamic reversal technique that exploits the rotational mechanics inherent in the Matrix bottom position to displace the top player's base and achieve back control. Unlike the standard Matrix back take which relies on continuous rolling motion to circle behind the opponent, the sweep variant uses leveraged off-balancing combined with hip elevation to break the opponent's base structure and follow through to a dominant position. The sweep requires the bottom player to generate directional force through their grip connections while elevating their hips as a fulcrum, creating a rotational displacement that crosses the opponent's center of gravity beyond their support boundary.

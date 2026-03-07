@@ -13,6 +13,13 @@ description: "Hook Leg and Take Back from Buggy Choke. Step-by-step back take wh
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Hook Leg and Take Back/Attacker|Play as Attacker]]
+[[Hook Leg and Take Back/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Hook Leg and Take Back represents one of the most reliable transitions from buggy choke control when opponents attempt to escape by sitting to guard. This technique exploits the fundamental defensive error of creating hip exposure during the sit-up motion, transforming the opponent's escape attempt into a high-percentage back take opportunity. The transition embodies the principle that sophisticated attack systems create branching decision trees where every defensive response opens different offensive pathways.

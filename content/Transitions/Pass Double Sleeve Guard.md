@@ -13,6 +13,13 @@ description: "Master passing Double Sleeve Guard in BJJ. Complete guide to break
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Pass Double Sleeve Guard/Attacker|Play as Attacker]]
+[[Pass Double Sleeve Guard/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Passing Double Sleeve Guard requires systematic grip breaking combined with strategic angle creation to overcome the bottom player's bilateral sleeve control. The guard passer must address both sleeve grips while managing the opponent's active feet, which serve as the primary distance-maintaining mechanism. Success depends on breaking grips methodically using proper mechanics rather than brute strength, then immediately capitalizing on the brief window before the guard player can re-establish control.

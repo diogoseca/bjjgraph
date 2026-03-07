@@ -13,6 +13,13 @@ description: "Master the reversal from kneebar control in BJJ. Step-by-step guid
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Reversal from Kneebar Control/Attacker|Play as Attacker]]
+[[Reversal from Kneebar Control/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The reversal from kneebar control is a positional technique where the bottom player in a kneebar entanglement uses their leg control and body mechanics to come on top and establish side control. Rather than committing fully to the kneebar finish from bottom, this transition capitalizes on the opponent's defensive reactions to create sweeping opportunities. The technique bridges the gap between leg attack systems and positional advancement, offering a pathway from bottom leg entanglement to dominant top position.

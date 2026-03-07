@@ -13,6 +13,13 @@ description: "Master the Lockdown Whizzer Pass in BJJ. Use overhook control to c
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Lockdown Whizzer Pass/Attacker|Play as Attacker]]
+[[Lockdown Whizzer Pass/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Lockdown Whizzer Pass is a specialized half guard passing technique used by the top player trapped in the 10th Planet lockdown configuration. Rather than fighting to strip the bottom player's underhook directly, this pass accepts the underhook and counters it with a whizzer (overhook), using that lever to flatten the opponent, kill their hip mobility, and systematically extract the trapped leg to complete the pass to side control.

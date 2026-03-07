@@ -13,6 +13,13 @@ description: "Master the Baratoplata Setup from Meathook. Step-by-step shoulder 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Baratoplata Setup/Attacker|Play as Attacker]]
+[[Baratoplata Setup/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Baratoplata Setup is an advanced shoulder lock entry that capitalizes on the arm isolation inherent in the Meathook position. This technique transforms the Meathook's control advantage into a devastating rotational shoulder attack by threading your arm through the opponent's trapped limb and creating a figure-four configuration that attacks the shoulder joint through internal rotation.

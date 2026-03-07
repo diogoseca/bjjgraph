@@ -13,6 +13,13 @@ description: "Learn Double Leg Entry in BJJ. Step-by-step execution from standin
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Double Leg Entry/Attacker|Play as Attacker]]
+[[Double Leg Entry/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Double Leg Entry is a fundamental wrestling-based takedown that serves as a cornerstone technique for standing grappling exchanges in Brazilian Jiu-Jitsu. This technique involves penetrating your opponent's defensive space, securing both legs simultaneously, and driving through to establish a dominant position on the ground. The double leg entry is distinguished from the finish itself - it focuses on the critical initial phases of level change, penetration step, and leg capture that create the conditions for a successful takedown. Understanding proper entry mechanics is essential because even perfect finishing technique cannot compensate for poor penetration and positioning.

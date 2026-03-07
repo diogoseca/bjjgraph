@@ -13,6 +13,13 @@ description: "Learn the Triangle from Guard in BJJ. Step-by-step entry from Miss
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Triangle from Guard/Attacker|Play as Attacker]]
+[[Triangle from Guard/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Triangle from Guard is the primary submission setup from Mission Control within the rubber guard system, converting shoulder isolation and broken posture into a locked triangle position. Unlike a standard closed guard triangle that requires creating an angle and isolating the head and arm from scratch, the Mission Control triangle leverages the pre-existing structural control: the opponent's shoulder is already trapped, their posture is already broken, and their arm is already isolated on the inside of the high guard leg. This makes the triangle entry from Mission Control significantly higher-percentage than traditional guard triangle setups.

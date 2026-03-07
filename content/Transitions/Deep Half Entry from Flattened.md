@@ -13,6 +13,13 @@ description: "Master the Deep Half Entry from Flattened Half Guard. Complete gui
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Deep Half Entry from Flattened/Attacker|Play as Attacker]]
+[[Deep Half Entry from Flattened/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Deep Half Entry from Flattened Half Guard is a critical escape technique that transforms one of the most disadvantageous positions in Brazilian Jiu-Jitsu into an offensive guard system. When pinned flat under crushing chest pressure with your half guard hook as the only remaining barrier, this transition allows you to dive underneath your opponent's center of gravity and establish deep half guard, a position with powerful sweep leverage. The entry relies on precise timing, specific hip mechanics, and the ability to thread your body beneath the top player during momentary weight shifts.

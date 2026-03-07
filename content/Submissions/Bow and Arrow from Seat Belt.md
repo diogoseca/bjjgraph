@@ -15,6 +15,13 @@ description: "Master the Bow and Arrow choke from Seat Belt back control. Comple
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Bow and Arrow from Seat Belt/Attacker|Play as Attacker]]
+[[Bow and Arrow from Seat Belt/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Bow and Arrow choke from Seat Belt back control is one of the highest-percentage gi submissions in Brazilian Jiu-Jitsu. Executed by securing a deep cross-collar grip while controlling the opponent's far leg with a pants grip, this choke creates devastating diagonal pressure across the neck by extending the body into the characteristic bow-and-arrow shape. The mechanical advantage derives from the full-body lever system created between collar tension pulling across the throat and leg control preventing rotation, producing choking force that far exceeds what arm strength alone can generate.

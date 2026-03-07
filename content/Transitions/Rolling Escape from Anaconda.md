@@ -13,6 +13,13 @@ description: "Master the Rolling Escape from Anaconda in BJJ. Step-by-step guide
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Rolling Escape from Anaconda/Attacker|Play as Attacker]]
+[[Rolling Escape from Anaconda/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Rolling Escape from Anaconda is a critical defensive technique used when caught in anaconda choke control. This escape exploits a fundamental biomechanical vulnerability in the anaconda grip: rolling toward the trapped arm side changes the compression angle and creates slack in the choking loop. Rather than fighting the choke directly through grip breaking or posture recovery alone, the rolling escape uses momentum and body displacement to generate the space needed to extract the trapped arm and recover to a defensible position. It is the primary explosive escape option when the anaconda has been partially established but the finish has not yet been secured.

@@ -13,6 +13,13 @@ description: "Master the Hip Bump Sweep from Closed Guard. Step-by-step executio
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Hip Bump Sweep/Attacker|Play as Attacker]]
+[[Hip Bump Sweep/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Hip Bump Sweep is a fundamental and high-percentage sweep from closed guard that capitalizes on the opponent's forward posture and broken base. This technique is particularly effective when the opponent attempts to establish strong posture or begins to stand in your guard. By controlling one arm, bumping your hips explosively toward the same side, and using your opponent's reaction, you can reverse position and establish mount.

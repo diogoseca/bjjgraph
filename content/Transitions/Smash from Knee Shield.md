@@ -13,6 +13,13 @@ description: "Master the Smash from Knee Shield pass in BJJ. Complete guide to c
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Smash from Knee Shield/Attacker|Play as Attacker]]
+[[Smash from Knee Shield/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Smash from Knee Shield is a fundamental pressure-based technique used by the top player to collapse the bottom player's knee shield frame in half guard. The knee shield creates a structural barrier that prevents chest-to-chest contact and forward advancement, making it one of the most effective defensive tools in modern half guard play. The smash addresses this problem directly by using angled pressure, grip control on the shield leg, and systematic weight distribution to break down the frame and transition to a more favorable passing position where the full passing arsenal becomes available.

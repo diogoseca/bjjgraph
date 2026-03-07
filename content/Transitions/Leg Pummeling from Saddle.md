@@ -13,6 +13,13 @@ description: "Master leg pummeling from saddle position in BJJ. Step-by-step esc
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Leg Pummeling from Saddle/Attacker|Play as Attacker]]
+[[Leg Pummeling from Saddle/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Leg pummeling from the saddle is a critical defensive technique that enables a trapped practitioner to systematically downgrade from one of the most dangerous leg entanglement positions in Brazilian Jiu-Jitsu to the comparatively safer inside ashi-garami configuration. Rather than attempting a complete escape, this technique acknowledges the difficulty of fully extracting from a locked saddle and instead focuses on replacing the opponent's controlling legs with your own hooks, effectively converting a submission-imminent position into a manageable entanglement where defensive options multiply significantly.

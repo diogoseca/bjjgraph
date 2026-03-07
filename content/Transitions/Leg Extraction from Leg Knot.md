@@ -13,6 +13,13 @@ description: "Master Leg Extraction from Leg Knot in BJJ. Systematic technique f
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Leg Extraction from Leg Knot/Attacker|Play as Attacker]]
+[[Leg Extraction from Leg Knot/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Leg Extraction from Leg Knot is a fundamental positional advancement technique where the top player systematically frees their trapped leg from a complex leg entanglement to establish Half Guard Top. Unlike the backstep pass which aims for side control, this extraction focuses on controlled disengagement into a manageable passing position, making it the conservative but reliable option when the leg knot configuration is deteriorating or when the top player wants to exit the leg lock exchange entirely without committing to a dramatic passing movement.

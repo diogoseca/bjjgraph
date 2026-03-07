@@ -13,6 +13,13 @@ description: "Master the Ringworm Sweep to Back Control in BJJ. Execute from Rin
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Ringworm Sweep to Back Control/Attacker|Play as Attacker]]
+[[Ringworm Sweep to Back Control/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Ringworm Sweep to Back Control represents one of the highest-percentage attacks from the Ringworm Guard system, capitalizing on the unique mechanical advantages created by the lapel wrap configuration. This technique exploits the restricted mobility of the opponent's wrapped leg to create angular momentum that exposes the back during the sweeping motion. Unlike traditional sweeps that result in top mount, this variation specifically targets back control by following the opponent's rotation during the sweep.

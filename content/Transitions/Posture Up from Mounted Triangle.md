@@ -13,6 +13,13 @@ description: "Master the posture up escape from mounted triangle in BJJ. Learn f
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Posture Up from Mounted Triangle/Attacker|Play as Attacker]]
+[[Posture Up from Mounted Triangle/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Posturing up from mounted triangle is a critical escape technique that addresses one of the most dangerous positions in Brazilian Jiu-Jitsu. When caught in a mounted triangle, the bottom player faces immediate choking pressure combined with the positional weight of mount, creating an urgent need for systematic escape methodology. The posture up escape works by creating structural distance between the bottom player's neck and the opponent's squeezing legs, disrupting the triangle lock's mechanical advantage and creating space to begin guard recovery.

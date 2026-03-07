@@ -13,6 +13,13 @@ description: "Master the Kimura from Crucifix in BJJ. Double wristlock shoulder 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Kimura/Attacker|Play as Attacker]]
+[[Kimura/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Kimura from Crucifix represents one of the highest-percentage shoulder lock attacks in Brazilian Jiu-Jitsu, capitalizing on the unique arm isolation that defines the crucifix position. When the opponent's near arm is trapped in your leg configuration and you control their far arm, the Kimura becomes a natural finishing option that exploits the structural vulnerability created by bilateral arm control. The double wristlock grip—your hand on their wrist with your other hand gripping your own wrist—creates a powerful lever system that rotates the shoulder joint beyond its natural range of motion.

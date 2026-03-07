@@ -15,6 +15,13 @@ description: "Master Omoplata from Guard in BJJ. Complete shoulder lock guide wi
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Omoplata from Guard/Attacker|Play as Attacker]]
+[[Omoplata from Guard/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Omoplata from Guard is a versatile shoulder lock that attacks the opponent's rotator cuff and shoulder joint through hip extension and shoulder rotation. This submission originated from Brazilian Jiu-Jitsu's guard-playing traditions and has evolved into a central hub technique that connects sweeps, back takes, and other submissions. The Omoplata creates a mechanical advantage by using the legs to control the opponent's arm while the hips generate rotational pressure on the shoulder. Unlike many submissions that finish quickly, the Omoplata is often used as a position to create movement and opportunity - sweeps when opponent defends by rolling, back takes when they turn away, or transitions to triangles and armbars when they posture. The technique requires excellent hip mobility, timing, and understanding of how to maintain control throughout the finish. As a fundamental guard submission, the Omoplata teaches important principles about using legs for control, creating angles, and maintaining offensive pressure from bottom positions.

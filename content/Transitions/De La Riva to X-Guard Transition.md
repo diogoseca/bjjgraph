@@ -13,6 +13,13 @@ description: "Master the De La Riva to X-Guard transition in BJJ. Convert DLR ho
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[De La Riva to X-Guard Transition/Attacker|Play as Attacker]]
+[[De La Riva to X-Guard Transition/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The De La Riva to X-Guard Transition represents the systematic framework for converting the controlling mechanics of De La Riva Guard into the elevating and sweeping power of X-Guard position. Unlike isolated techniques, this concept encompasses the biomechanical principles, timing considerations, and strategic decision-making that enable seamless positional flow between these two fundamental guard systems. This transition serves as both an offensive adaptation when initial De La Riva attacks are defended and a proactive entry strategy that leverages opponent's posture and base positioning to create superior sweeping opportunities.

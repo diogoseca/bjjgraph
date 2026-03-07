@@ -13,6 +13,13 @@ description: "Master Worm Guard in BJJ. Innovative lapel-based guard with sweeps
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Worm Guard/Bottom|Play as Bottom]]
+[[Worm Guard/Top|Play as Top]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Worm Guard is an advanced lapel-based open guard position developed and popularized by Keenan Cornelius. The position is characterized by feeding the opponent's lapel behind their back and around their leg, creating a lasso-like configuration that immobilizes their movement and creates powerful sweeping and back-taking opportunities. The name derives from the serpentine path the lapel takes around the opponent's body. This guard represents a modern evolution in gi-based grappling, utilizing the gi itself as an extension of your limbs to create control and leverage that would be impossible in no-gi grappling. The position excels at neutralizing larger, stronger opponents through technical manipulation rather than physical force.

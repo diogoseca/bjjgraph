@@ -13,6 +13,13 @@ description: "Master the Frame and Shrimp escape from Knee on Belly in BJJ. Comp
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Frame and Shrimp from Knee on Belly/Attacker|Play as Attacker]]
+[[Frame and Shrimp from Knee on Belly/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Frame and Shrimp from Knee on Belly is a fundamental escape technique that addresses one of the most pressure-intensive positions in Brazilian Jiu-Jitsu. When an opponent establishes Knee on Belly, the crushing weight through their knee onto the solar plexus creates respiratory distress and severely limits defensive options. This escape employs the universal defensive principles of structural framing and hip escaping to systematically create space and recover to half guard, transforming a dire defensive situation into a position with legitimate offensive capability.

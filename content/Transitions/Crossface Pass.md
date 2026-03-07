@@ -13,6 +13,13 @@ description: "Master the Crossface Pass from half guard top to side control. Ste
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Crossface Pass/Attacker|Play as Attacker]]
+[[Crossface Pass/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Crossface Pass is a fundamental pressure-passing technique used to pass the half guard by controlling the opponent's head and neck with the crossface while clearing the trapped leg. This technique exemplifies the principle of controlling the head to control the body, using heavy shoulder pressure to flatten the opponent and restrict their mobility. The crossface creates a powerful wedge that prevents the opponent from turning into you or creating effective defensive frames, while simultaneously setting up the leg extraction necessary to achieve side control.

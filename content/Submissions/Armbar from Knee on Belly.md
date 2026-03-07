@@ -15,6 +15,13 @@ description: "Master the armbar from knee on belly in BJJ. Complete guide to set
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Armbar from Knee on Belly/Attacker|Play as Attacker]]
+[[Armbar from Knee on Belly/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The armbar from knee on belly exploits one of the most predictable defensive reactions in Brazilian Jiu-Jitsu: the bottom player pushing against the knee to relieve diaphragm pressure. This push creates an exposed arm that the top player captures and finishes through a rapid transition from knee on belly to a perpendicular armbar position. The technique leverages the urgency of the bottom player's respiratory distress against them, converting a defensive reflex into a submission opportunity.

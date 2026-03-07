@@ -13,6 +13,13 @@ description: "Master the stack defense from omoplata in BJJ. Complete guide cove
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Stack Defense from Omoplata/Attacker|Play as Attacker]]
+[[Stack Defense from Omoplata/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The stack defense from omoplata is a critical reactive technique employed when the bottom player has established omoplata control and the opponent responds by driving their weight forward in an attempt to stack and relieve shoulder pressure. This stacking response is one of the three primary escapes from omoplata alongside the forward roll and arm extraction, making stack defense an essential skill for anyone who plays omoplata-based guards.

@@ -13,6 +13,13 @@ description: "Learn Elevation Sweep from Reverse X-Guard in BJJ. Step-by-step ex
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Elevation Sweep to Mount/Attacker|Play as Attacker]]
+[[Elevation Sweep to Mount/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Elevation Sweep to Mount is a high-amplitude sweep executed from Reverse X-Guard that uses powerful hip extension to lift and topple the opponent directly into the mounted position. This technique capitalizes on the inverted hook configuration of Reverse X-Guard, where the primary hook behind the opponent's knee and secondary hook on the hip create an optimal platform for vertical lifting. The sweep generates power through coordinated hip elevation, leg extension, and upper body grip manipulation to completely disrupt the opponent's base.

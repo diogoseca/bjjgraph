@@ -13,6 +13,13 @@ description: "Master Leg Extraction to Guard from Ushiro Ashi-Garami. Learn syst
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Leg Extraction to Guard/Attacker|Play as Attacker]]
+[[Leg Extraction to Guard/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Leg Extraction to Guard represents the critical defensive transition from ushiro ashi-garami bottom position to an established guard. This technique addresses the most common scenario in leg lock defense where you have partially escaped through inversion but remain entangled in the reversed leg configuration. The extraction requires systematic clearing of your opponent's controlling legs while maintaining heel protection throughout the movement sequence.

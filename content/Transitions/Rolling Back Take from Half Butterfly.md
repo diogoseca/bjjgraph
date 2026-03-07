@@ -13,6 +13,13 @@ description: "Master the Rolling Back Take from Half Butterfly guard in BJJ. Com
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Rolling Back Take from Half Butterfly/Attacker|Play as Attacker]]
+[[Rolling Back Take from Half Butterfly/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Rolling Back Take from Half Butterfly exploits the dynamic structure of half butterfly guard to create a direct path to the opponent's back through a controlled rolling motion. When the top player defends standard butterfly sweeps by posting wide or shifting weight laterally, the bottom player leverages their deep underhook and butterfly hook elevation to duck beneath the opponent's arm and roll through to back control. This technique bypasses the traditional sweep-to-top sequence entirely, converting a bottom guard position directly into the most dominant position in BJJ without passing through intermediate positions.

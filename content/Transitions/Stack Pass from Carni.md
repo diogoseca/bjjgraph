@@ -13,6 +13,13 @@ description: "Master the Stack Pass from Carni in BJJ. Aggressive pressure escap
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Stack Pass from Carni/Attacker|Play as Attacker]]
+[[Stack Pass from Carni/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Stack Pass from Carni is an aggressive pressure-based counter-escape used by the top player whose leg is trapped in the Carni leg entanglement. Unlike the more conservative posture recovery that resets to closed guard, the stack pass commits fully to driving through the bottom player's guard structure with the explicit goal of passing directly to side control. This technique exploits a fundamental vulnerability in the Carni position: the bottom player's legs generate control through angular leverage, and heavy forward stacking pressure eliminates the space and angles required for that leverage to function.

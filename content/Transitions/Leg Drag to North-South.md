@@ -13,6 +13,13 @@ description: "Master leg drag to north-south transition in BJJ. Consolidate cont
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Leg Drag to North-South/Attacker|Play as Attacker]]
+[[Leg Drag to North-South/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The leg drag to north-south transition represents a critical consolidation pathway when your opponent successfully defends against mount and side control entries from leg drag control. Rather than fighting an uphill battle against strong frames, this transition capitalizes on opponent energy expenditure by circling to their head, establishing chest-to-chest pressure in the north-south position where their defensive options become severely limited.

@@ -13,6 +13,13 @@ description: "Master the knee slice pass from butterfly half guard in BJJ. Learn
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Knee Slice from Butterfly Half/Attacker|Play as Attacker]]
+[[Knee Slice from Butterfly Half/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Knee Slice from Butterfly Half Guard is a specialized guard passing technique that addresses one of the most common and challenging hybrid guard configurations in modern Brazilian Jiu-Jitsu. Unlike a standard knee slice from regular half guard, this variation demands that the passer first neutralize the active butterfly hook before committing to the slicing motion across the thigh line. The butterfly hook creates an additional layer of defensive complexity because it provides the bottom player with elevation potential capable of sweeping the passer mid-technique if left unaddressed. The sequential challenge of killing the hook, establishing upper body control, and then executing the slice makes this a more technically demanding version of the fundamental knee cut pass.

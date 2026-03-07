@@ -13,6 +13,13 @@ description: "Master the Backstep from Worm Guard pass in BJJ. Step-by-step guid
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Backstep from Worm Guard/Attacker|Play as Attacker]]
+[[Backstep from Worm Guard/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The backstep from worm guard is a specialized guard passing technique designed to neutralize the lapel entanglement that defines modern worm guard systems. Rather than attempting to strip the lapel wrap from the front—where the bottom player's mechanical advantage is strongest—the backstep redirects the passing vector entirely by stepping the trapped leg backwards and around the bottom player's guard structure. This angular change breaks the lapel tension line and creates passing opportunities that the worm guard configuration cannot defend against without fundamental repositioning.

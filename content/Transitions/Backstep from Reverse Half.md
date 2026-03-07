@@ -13,6 +13,13 @@ description: "Master the backstep from reverse half guard in BJJ. Complete guide
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Backstep from Reverse Half/Attacker|Play as Attacker]]
+[[Backstep from Reverse Half/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The backstep from reverse half guard is a decisive back-taking technique executed when the top player has achieved the reverse half guard configuration, positioned behind the bottom player with one leg still trapped in their half guard. This transition capitalizes on the natural back exposure created by the reverse orientation, using a coordinated stepping motion to swing the free leg behind the opponent and establish hooks for full back control. The technique is most effective when the bottom player attempts to turn and face the top player, as their rotation further exposes the back and compromises their defensive base.

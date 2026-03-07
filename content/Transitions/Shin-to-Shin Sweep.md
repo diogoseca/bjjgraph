@@ -13,6 +13,13 @@ description: "Master the Shin-to-Shin Sweep in BJJ. Learn to convert shin connec
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Shin-to-Shin Sweep/Attacker|Play as Attacker]]
+[[Shin-to-Shin Sweep/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Shin-to-Shin Sweep is a direct off-balancing technique executed from shin-to-shin guard that converts the perpendicular shin connection into a powerful sweeping lever, driving the opponent backward or laterally to achieve mount. Unlike entries to single leg X or X-guard that use shin-to-shin as a transitional platform, this sweep capitalizes on the immediate leverage available from the shin connection itself, making it one of the fastest attacking options from the position. The technique exploits the opponent's compromised base caused by the perpendicular shin frame, using a combination of upper body pulling grips and shin-driven elevation to topple them directly.

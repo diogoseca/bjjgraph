@@ -13,6 +13,13 @@ description: "Master the Omoplata shoulder lock finish in BJJ. Complete guide to
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Omoplata/Attacker|Play as Attacker]]
+[[Omoplata/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Omoplata is a devastating shoulder lock submission that applies rotational torque to the opponent's shoulder joint by using your legs as a lever system while controlling their posture and hips. This finishing technique is executed from established Omoplata Control, where your leg is already threaded over the opponent's shoulder with their arm trapped between your legs. The submission works by externally rotating the shoulder beyond its anatomical limits while simultaneously preventing escape through hip control and postural dominance.

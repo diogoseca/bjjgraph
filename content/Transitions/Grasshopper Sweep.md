@@ -13,6 +13,13 @@ description: "Master Grasshopper Sweep in BJJ. Inverted guard sweep using hip el
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Grasshopper Sweep/Attacker|Play as Attacker]]
+[[Grasshopper Sweep/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Grasshopper Sweep is a dynamic elevation sweep executed from the inverted Grasshopper Guard position, designed to off-balance a standing or kneeling opponent and transition directly to Mount. This technique leverages the unique mechanics of inverted guards where the bottom practitioner uses their shoulders as a base while driving their hips upward into the opponent's center of mass.

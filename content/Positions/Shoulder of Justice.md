@@ -13,6 +13,13 @@ description: "Master Shoulder of Justice side control in BJJ. Strategic guide co
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Shoulder of Justice/Bottom|Play as Bottom]]
+[[Shoulder of Justice/Top|Play as Top]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Shoulder of Justice is a highly effective side control variation characterized by intense shoulder pressure applied directly to the opponent's face and jaw. This position represents a refinement of traditional side control where the top player drives their shoulder into the opponent's chin or jaw line while maintaining heavy cross-face control. The name comes from the relentless, almost punishing pressure that forces the opponent to make difficult decisions under duress.

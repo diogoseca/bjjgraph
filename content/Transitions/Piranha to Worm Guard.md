@@ -13,6 +13,13 @@ description: "Master the Piranha to Worm Guard transition in BJJ. Learn to conve
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Piranha to Worm Guard/Attacker|Play as Attacker]]
+[[Piranha to Worm Guard/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Piranha to Worm Guard transition represents a sophisticated guard evolution within the modern lapel guard system, converting the Piranha Guard's through-the-legs lapel threading into the Worm Guard's leg-wrapping configuration. This transition is strategically valuable because Worm Guard offers superior sweeping mechanics through its mechanical connection to the opponent's leg, more diverse attacking chains including omoplata and back take sequences, and greater positional stability than Piranha Guard's collar-through-legs configuration. The move is a natural progression when the opponent's defensive posture exposes their lead leg for the worm wrap.

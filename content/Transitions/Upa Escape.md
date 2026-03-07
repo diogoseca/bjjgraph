@@ -13,6 +13,13 @@ description: "Master the Upa Escape (bridge and roll) from bottom Mount in BJJ. 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Upa Escape/Attacker|Play as Attacker]]
+[[Upa Escape/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Upa Escape, also known as the bridge and roll or trap and roll escape, is the most fundamental and highest-percentage escape from bottom mount position. This technique leverages explosive hip power and proper weight distribution to reverse an opponent who has achieved the dominant mount position. The escape works by creating a powerful bridge while simultaneously trapping one of the opponent's arms and the corresponding leg, forcing them to post with their free hand while you drive them over your shoulder. The beauty of the Upa lies in its mechanical efficiency — it does not require superior strength or flexibility, making it accessible to practitioners of all sizes and athletic abilities.

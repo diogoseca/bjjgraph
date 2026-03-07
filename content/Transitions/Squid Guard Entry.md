@@ -13,6 +13,13 @@ description: "Learn Squid Guard Entry in BJJ. Step-by-step lapel wrap around opp
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Squid Guard Entry/Attacker|Play as Attacker]]
+[[Squid Guard Entry/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Squid Guard Entry represents a critical transition within the modern lapel guard system, establishing arm control that fundamentally changes the guard passing equation. Unlike worm guard which wraps the lapel around the opponent's leg, squid guard redirects the fabric around their posting arm, creating a persistent barrier that neutralizes their ability to base and pressure pass.

@@ -13,6 +13,13 @@ description: "Master Cross Body to Side Control in BJJ. Complete guide to flatte
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Cross Body to Side Control/Attacker|Play as Attacker]]
+[[Cross Body to Side Control/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Cross Body to Side Control is a fundamental positional advancement from the cross body ride on turtle. Rather than pursuing a back take, the top player leverages perpendicular shoulder pressure and systematic weight distribution to collapse the opponent's turtle structure, flattening them onto their back and establishing dominant side control. This transition is particularly valuable when the opponent demonstrates strong turtle defense—tight elbows, hidden neck, solid base—that makes direct back exposure difficult to achieve.

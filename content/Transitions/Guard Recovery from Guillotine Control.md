@@ -13,6 +13,13 @@ description: "Master guard recovery from guillotine control in BJJ. Step-by-step
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Guard Recovery from Guillotine Control/Attacker|Play as Attacker]]
+[[Guard Recovery from Guillotine Control/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Guard Recovery from Guillotine Control is a defensive transition where the bottom player works to reestablish an open guard position after losing or releasing the guillotine grip. When the guillotine choke attempt fails or the opponent begins extracting their head, the bottom player must transition from the compromised guillotine control into a functional guard to prevent the opponent from passing. This recovery requires coordinating the release of head control with immediate leg reattachment and frame establishment to maintain distance and prevent positional advancement.

@@ -13,6 +13,13 @@ description: "Master Hip Escape from Cross Body Ride in BJJ. Essential escape te
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Hip Escape from Cross Body Ride/Attacker|Play as Attacker]]
+[[Hip Escape from Cross Body Ride/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Hip Escape from Cross Body Ride is a fundamental defensive technique employed when the bottom player is trapped beneath perpendicular chest-to-back pressure in the cross body ride configuration. This escape leverages the shrimping motion—BJJ's most essential defensive movement—to create lateral space between the bottom player's hips and the top player's controlling chest. The technique exploits the inherent limitation of cross body positioning: the top player's perpendicular orientation makes it difficult to follow lateral hip movement without releasing pressure or compromising their own base.

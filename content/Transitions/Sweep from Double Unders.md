@@ -13,6 +13,13 @@ description: "Master the Sweep from Double Unders in BJJ. Learn to use your oppo
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Sweep from Double Unders/Attacker|Play as Attacker]]
+[[Sweep from Double Unders/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Sweep from Double Unders is a high-reward counter-offensive technique executed from one of the most disadvantaged bottom positions in Brazilian Jiu-Jitsu. When an opponent establishes double underhooks under your legs and drives forward with stacking pressure, their mechanical advantage for guard passing is severe. However, this same forward weight commitment creates a fundamental vulnerability: their base becomes compromised in the direction of their momentum. An educated bottom player can exploit this by redirecting the opponent's energy through precisely timed sweeping mechanics, converting a desperate defensive situation into immediate top position.

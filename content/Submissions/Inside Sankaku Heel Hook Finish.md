@@ -15,6 +15,13 @@ description: "Master the Inside Sankaku heel hook finish in BJJ. Complete guide 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Inside Sankaku Heel Hook Finish/Attacker|Play as Attacker]]
+[[Inside Sankaku Heel Hook Finish/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Inside Sankaku heel hook finish represents one of the highest-percentage leg lock submissions in modern no-gi Brazilian Jiu-Jitsu. This technique targets the knee joint through rotational force applied to the heel, creating devastating mechanical pressure on the medial collateral ligament, anterior cruciate ligament, and meniscus. The technique's effectiveness stems from the Inside Sankaku position's inherent control over the opponent's hip mobility and knee line, which prevents the defensive rotation that would otherwise neutralize the heel hook's breaking mechanics.

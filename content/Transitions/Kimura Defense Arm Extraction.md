@@ -13,6 +13,13 @@ description: "Master the Kimura Defense Arm Extraction in BJJ. Step-by-step guid
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Kimura Defense Arm Extraction/Attacker|Play as Attacker]]
+[[Kimura Defense Arm Extraction/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Kimura Defense Arm Extraction is a critical defensive transition for practitioners caught in the Kimura Trap from bottom half guard. When the bottom player secures a figure-four Kimura grip on the top player's arm, the top player must act decisively to extract the compromised arm before the bottom player can develop sweeps, back takes, or submission finishes from the grip. This technique prioritizes systematic grip breaking and arm recovery over explosive movement, using posture, pressure, and precise hand positioning to dismantle the Kimura configuration.

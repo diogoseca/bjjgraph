@@ -13,6 +13,13 @@ description: "Learn Toe Hold from Backside 50-50 in BJJ. Kimura-grip foot rotati
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Toe Hold/Attacker|Play as Attacker]]
+[[Toe Hold/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Toe Hold from Backside 50-50 is a rotational foot lock that exploits the unique pressure asymmetry of the backside entanglement, where your chest faces your opponent's back while legs remain intertwined. The kimura-grip configuration around the opponent's foot generates twisting torque through the ankle joint and secondary stress on the knee, creating a submission that many opponents underestimate relative to heel hooks from the same position. Because backside 50-50 top already provides chest-to-back pressure advantage, the toe hold benefits from restricted hip mobility that prevents the standard rotational escape.

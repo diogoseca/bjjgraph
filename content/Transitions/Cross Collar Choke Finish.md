@@ -13,6 +13,13 @@ description: "Master Cross Collar Choke Finish from Invisible Collar. Step-by-st
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Cross Collar Choke Finish/Attacker|Play as Attacker]]
+[[Cross Collar Choke Finish/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Cross Collar Choke Finish represents the culmination of the invisible collar attack system from back control. This technique transforms the deceptive collar grip into a blood choke that compresses both carotid arteries simultaneously. Unlike standard collar chokes that telegraph intent, the invisible collar setup allows practitioners to achieve optimal finishing position before opponents recognize the threat.

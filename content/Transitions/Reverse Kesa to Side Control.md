@@ -13,6 +13,13 @@ description: "Master the Reverse Kesa to Side Control transition in BJJ. Complet
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Reverse Kesa to Side Control/Attacker|Play as Attacker]]
+[[Reverse Kesa to Side Control/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Reverse Kesa to Side Control transition is a fundamental positional adjustment where the top player rotates from the reverse scarf hold orientation to standard perpendicular side control. This transition is strategically valuable because standard side control offers a broader submission arsenal, clearer pathways to mount advancement, and more established control mechanics. The rotation itself presents the primary moment of vulnerability — the top player must maintain constant chest pressure and arm control throughout the movement to prevent the bottom player from inserting a knee, recovering guard, or creating a scramble.

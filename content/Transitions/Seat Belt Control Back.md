@@ -13,6 +13,13 @@ description: "Master the Seat Belt Control transition from Mounted Crucifix in B
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Seat Belt Control Back/Attacker|Play as Attacker]]
+[[Seat Belt Control Back/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Seat Belt Control Back transition represents a critical link between mounted crucifix dominance and full back control. When you have achieved the mounted crucifix position with arm isolation established, transitioning to seat belt back control allows you to capitalize on that control while securing one of the highest-percentage finishing positions in jiu-jitsu.

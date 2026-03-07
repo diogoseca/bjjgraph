@@ -13,6 +13,13 @@ description: "Master Darce Control position in BJJ. Dominant front headlock vari
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Darce Control/Bottom|Play as Bottom]]
+[[Darce Control/Top|Play as Top]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Darce Control is a highly effective front headlock variation where the attacking practitioner secures a figure-four grip around the opponent's neck and shoulder, creating intense pressure on the carotid arteries. Named after its popularizer Joe D'Arce, this position combines elements of the arm triangle and anaconda choke, offering both submission threat and positional dominance. The position is characterized by the attacker threading their arm under the opponent's near armpit, across the back of their neck, and catching their own bicep with the opposite hand to complete the choke.

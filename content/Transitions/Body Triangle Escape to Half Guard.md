@@ -13,6 +13,13 @@ description: "Escape the body triangle to half guard in BJJ. Complete guide to s
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Body Triangle Escape to Half Guard/Attacker|Play as Attacker]]
+[[Body Triangle Escape to Half Guard/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Body Triangle Escape to Half Guard is one of the most technically demanding escapes in Brazilian Jiu-Jitsu, requiring practitioners to systematically dismantle the figure-four leg lock that characterizes body triangle back control before recovering a viable guard position. Unlike standard back escape sequences where hook clearing enables rotation, the body triangle creates a locked mechanical structure that must be specifically attacked at its weakest point—the foot tucked behind the opponent's knee—before any meaningful positional change is possible.

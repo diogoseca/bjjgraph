@@ -13,6 +13,13 @@ description: "Learn De La Riva Sweep in BJJ. Step-by-step execution from De La R
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[De La Riva Sweep/Attacker|Play as Attacker]]
+[[De La Riva Sweep/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The De La Riva Sweep is a fundamental attacking technique from the De La Riva Guard position that allows the bottom player to off-balance and sweep their opponent to achieve top position. This sweep exploits the mechanical disadvantage created when the opponent's weight is distributed across a compromised base, using the De La Riva hook and strategic grips to control and manipulate their center of gravity. The technique is highly effective in gi-based Brazilian Jiu-Jitsu and forms the foundation of an entire guard system.

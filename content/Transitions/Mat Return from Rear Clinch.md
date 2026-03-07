@@ -13,6 +13,13 @@ description: "Master the mat return from rear clinch in BJJ. Convert standing re
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Mat Return from Rear Clinch/Attacker|Play as Attacker]]
+[[Mat Return from Rear Clinch/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The mat return from rear clinch is a foundational takedown that converts standing rear clinch control into dominant ground back control. By using bodyweight, hip positioning, and directional force to bring a controlled opponent to the mat, the attacker maintains chest-to-back connection throughout the descent, preserving the positional advantage earned during the standing phase. This technique bridges standing grappling and ground fighting, serving as the primary method for grapplers and wrestlers to capitalize on rear clinch control without risking position during the transition to the mat.

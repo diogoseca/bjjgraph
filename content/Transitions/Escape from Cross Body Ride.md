@@ -13,6 +13,13 @@ description: "Escape from Cross Body Ride in BJJ. Complete guide to clearing hoo
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Escape from Cross Body Ride/Attacker|Play as Attacker]]
+[[Escape from Cross Body Ride/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Escape from Cross Body Ride is a critical defensive technique for recovering from one of the most compromising turtle-top positions in Brazilian Jiu-Jitsu. When an opponent has established perpendicular chest-to-back contact with harness control, the bottom player faces immediate threats of back take, crucifix entry, and various choke attacks. This escape addresses the fundamental problem of removing the rider's weight and control points while creating enough space to reverse the position or recover guard.

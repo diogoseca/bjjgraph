@@ -13,6 +13,13 @@ description: "Master the Triangle from Armbar transition in BJJ. Exploit armbar 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Triangle from Armbar/Attacker|Play as Attacker]]
+[[Triangle from Armbar/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Triangle from Armbar represents a fundamental submission chain transition that capitalizes on defensive reactions to armbar control. When an opponent defends the armbar by clasping their hands, bending the trapped arm, or stacking forward, they inadvertently position their head and one arm in a configuration vulnerable to triangle entry. This transition exploits the principle that every defensive action creates a new offensive opportunity, transforming a stalled armbar into an immediate choking threat.

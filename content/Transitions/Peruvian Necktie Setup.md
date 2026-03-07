@@ -13,6 +13,13 @@ description: "Learn Peruvian Necktie Setup in BJJ. Step-by-step execution from F
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Peruvian Necktie Setup/Attacker|Play as Attacker]]
+[[Peruvian Necktie Setup/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Peruvian Necktie Setup is an advanced submission transition that exploits opponent's defensive turtle position or failed takedown attempts. This technique combines elements of front headlock control with creative body positioning to establish a powerful choking mechanism. The setup requires precise timing and exceptional understanding of weight distribution, as the practitioner must maintain control while transitioning their body underneath the opponent. Unlike traditional front headlock attacks, the Peruvian Necktie utilizes the opponent's own shoulder as a fulcrum point, creating a unique choking mechanism that attacks both the carotid arteries and applies pressure to the neck. The technique gained prominence in modern no-gi competition and represents the evolution of front headlock finishing sequences. Success with this setup demands strong grip control, flexibility to maneuver underneath the opponent, and the ability to recognize the precise moment when defensive posture creates the necessary opening for entry.

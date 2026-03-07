@@ -13,6 +13,13 @@ description: "Master the Deep Half Sweep in BJJ. Step-by-step guide to hip-lift 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Deep Half Sweep/Attacker|Play as Attacker]]
+[[Deep Half Sweep/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Deep Half Sweep is a fundamental sweep from deep half guard bottom that leverages the bottom player's positioning underneath the opponent's center of gravity to generate powerful upward force and complete a sweep to top position. By maintaining a deep underhook on the opponent's far leg while using the head and shoulder as a wedge point, the bottom player creates a lever system that can overcome significant size and strength disadvantages.

@@ -13,6 +13,13 @@ description: "Complete the Buggy Choke submission from turtle top. Master grip t
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Finish Buggy Choke/Attacker|Play as Attacker]]
+[[Finish Buggy Choke/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Finish Buggy Choke represents the culmination of the buggy choke attack sequence from turtle top position. This blood choke targets the carotid arteries using collar grip pressure combined with perpendicular body mechanics to create strangulation. Unlike arm-in chokes that require specific arm positioning, the buggy choke finish relies on deep collar penetration and coordinated pressure application through chest weight and hip drive.

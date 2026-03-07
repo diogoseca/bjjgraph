@@ -15,6 +15,13 @@ description: "Master the Gogoplata Finish in BJJ. Complete guide covering shin-a
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Gogoplata Finish/Attacker|Play as Attacker]]
+[[Gogoplata Finish/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Gogoplata Finish is one of Brazilian Jiu-Jitsu's most technically demanding submissions, requiring a rare combination of extreme flexibility, precise positioning, and systematic finishing mechanics. This tracheal compression choke is executed by placing the shin bone directly across the opponent's throat while using both hands to pull their head down onto the shin, creating devastating compression on the windpipe and surrounding vascular structures. The submission typically emerges from the rubber guard system, specifically from Gogoplata Control where the bottom player has already established shin-across-throat positioning with their foot secured behind the opponent's head.

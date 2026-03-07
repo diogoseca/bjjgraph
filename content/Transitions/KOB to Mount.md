@@ -13,6 +13,13 @@ description: "Master the Knee on Belly to Mount transition in BJJ. Learn weight 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[KOB to Mount/Attacker|Play as Attacker]]
+[[KOB to Mount/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The KOB to Mount transition represents one of the most direct positional advancement pathways in Brazilian Jiu-Jitsu, converting a 2-point Knee on Belly control position into the 4-point mount. This transition exploits the pressure and control advantages of Knee on Belly to slide into a more dominant and sustainable position. The fundamental challenge lies in maintaining control during the weight transfer—the moment the knee lifts or shifts creates a window where the bottom player can insert frames, recover guard, or escape to a less disadvantageous position.

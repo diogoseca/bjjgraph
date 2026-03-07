@@ -13,6 +13,13 @@ description: "Master Ippon Seoi Nage in BJJ. Complete judo-to-BJJ adaptation cov
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Ippon Seoi Nage/Attacker|Play as Attacker]]
+[[Ippon Seoi Nage/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Ippon Seoi Nage is a classical judo shoulder throw adapted for Brazilian Jiu-Jitsu competition and self-defense. The technique involves entering beneath your opponent's center of gravity, loading them onto your back and shoulders, then executing a powerful forward rotation to throw them to the mat. Unlike many BJJ-specific takedowns, Ippon Seoi Nage requires significant technical precision in grip fighting, footwork, and kuzushi (off-balancing) to execute successfully against resisting opponents.

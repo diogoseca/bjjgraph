@@ -13,6 +13,13 @@ description: "Learn Tomoe Nage sacrifice throw for BJJ. Master execution from st
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Tomoe Nage/Attacker|Play as Attacker]]
+[[Tomoe Nage/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Tomoe Nage, known as the circle throw or stomach throw, is a dynamic sacrifice technique borrowed from judo that has found significant application in sport Brazilian Jiu-Jitsu. The technique involves dropping to your back while using foot placement on the opponent's hip or abdomen to elevate and throw them overhead, typically transitioning directly into closed guard or mount depending on follow-through. This technique is particularly effective in gi competition where grips are secure, and it has become a staple for guard pullers who want to combine offensive takedown scoring with immediate guard establishment. The circular motion that gives Tomoe Nage its name refers to the arc created as the opponent is thrown over your body.

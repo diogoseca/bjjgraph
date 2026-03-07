@@ -13,6 +13,13 @@ description: "Master the Double Leg Finish in BJJ. Complete guide from penetrati
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Double Leg Finish/Attacker|Play as Attacker]]
+[[Double Leg Finish/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Double Leg Finish is the critical completion phase of the double leg takedown, transitioning from the penetration step to establishing dominant top position. This fundamental wrestling technique adapted for BJJ focuses on the mechanical principles of lift, drive, and controlled landing to secure top position. The finish requires proper coordination of leg drive, hip extension, and upper body control to overcome opponent resistance and establish side control or mount.

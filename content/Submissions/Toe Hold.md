@@ -15,6 +15,13 @@ description: "Master the Toe Hold leg lock in BJJ. Complete guide with safety pr
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Toe Hold/Attacker|Play as Attacker]]
+[[Toe Hold/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Toe Hold is a powerful leg lock submission that attacks the ankle joint and foot by controlling the heel and applying rotational pressure to the toes and forefoot. Unlike straight ankle locks that compress the joint, the Toe Hold creates a twisting, hyperextending force that threatens multiple structures simultaneously - the ankle ligaments, the small joints of the toes, and the plantar fascia. This makes it an extremely effective finishing technique when applied correctly, but also one that requires exceptional control and awareness due to the injury potential.

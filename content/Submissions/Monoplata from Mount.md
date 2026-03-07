@@ -15,6 +15,13 @@ description: "Master Monoplata from Mount in BJJ. Complete safety guide covering
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Monoplata from Mount/Attacker|Play as Attacker]]
+[[Monoplata from Mount/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Monoplata from Mount is an advanced shoulder lock submission that combines elements of the traditional omoplata with mounted control. This technique targets the opponent's shoulder joint and rotator cuff by isolating one arm and applying rotational pressure through a leg-based figure-four configuration. From the mount position, the attacker transitions to isolate the opponent's arm, threads their leg through to create the lock, and applies controlled pressure to force the tap. The monoplata is particularly effective against opponents who defend by framing with their arms or attempting to create distance from mount. Unlike the traditional omoplata which is executed from guard positions, the monoplata from mount provides superior control and eliminates many common escape routes. The technique requires excellent hip mobility, precise timing, and thorough understanding of shoulder mechanics to execute safely. When performed correctly, the monoplata creates an inescapable position where the opponent must tap or risk serious shoulder injury. This submission has gained popularity in modern no-gi grappling due to its effectiveness against athletic opponents who maintain strong defensive frames from bottom mount.

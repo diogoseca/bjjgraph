@@ -13,6 +13,13 @@ description: "Master the Re-pull Half Guard from Dogfight in BJJ. Learn when to 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Re-pull Half Guard from Dogfight/Attacker|Play as Attacker]]
+[[Re-pull Half Guard from Dogfight/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Re-pull Half Guard from Dogfight is a deliberate positional retreat executed when the bottom player determines that the dogfight exchange is deteriorating—typically when the opponent establishes a dominant whizzer, wins the crossface battle, or generates superior forward pressure that threatens flattening. Rather than continuing to fight a losing underhook battle that drains energy and risks being smashed flat, the bottom player proactively disengages the elevated kneeling posture and re-establishes a structured half guard with proper frames, knee shield, and distance management intact.

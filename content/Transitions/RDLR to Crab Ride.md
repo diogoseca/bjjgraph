@@ -13,6 +13,13 @@ description: "Master RDLR to Crab Ride in BJJ. Complete guide covering inversion
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[RDLR to Crab Ride/Attacker|Play as Attacker]]
+[[RDLR to Crab Ride/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 RDLR to Crab Ride is an inversion-based transition that converts Reverse De La Riva guard into a dominant turtle-attacking position. Rather than committing to a full berimbolo rotation to back control, this technique stops at the crab ride—a more secure intermediate position that preserves multiple attacking options while reducing the risk of overcommitting to the inversion. The transition exploits the same rotational mechanics that power kiss of the dragon entries but channels them into perpendicular back exposure rather than direct hook insertion.

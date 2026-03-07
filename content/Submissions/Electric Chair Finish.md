@@ -15,6 +15,13 @@ description: "Master the Electric Chair Finish in BJJ. Complete lockdown submiss
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Electric Chair Finish/Attacker|Play as Attacker]]
+[[Electric Chair Finish/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Electric Chair Finish is a devastating submission from the 10th Planet lockdown half guard system that attacks the hip joint and groin through forced hyperabduction of the opponent's trapped leg. Originating from the Electric Chair sweeping position, this technique capitalizes on the mechanical advantage created by the lockdown leg configuration combined with deep underhook control to progressively split the opponent's legs beyond their natural range of motion, forcing a tap through intense pressure on the adductor muscles, hip flexors, and the hip joint capsule itself.

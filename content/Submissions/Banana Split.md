@@ -15,6 +15,13 @@ description: "Master the Banana Split compression submission in BJJ. Complete gu
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Banana Split/Attacker|Play as Attacker]]
+[[Banana Split/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Banana Split is a unique compression submission that targets the opponent's hip adductors, groin muscles, and lower back through forced over-extension of the legs. Primarily executed from the truck position, deep half guard, or lockdown configurations, this technique creates extreme discomfort by splitting the opponent's legs apart while controlling their upper body. The submission gained prominence through the 10th Planet system, where it serves as both a finishing technique and a powerful position to force reactions.

@@ -13,6 +13,13 @@ description: "Learn Extract Legs and Stand Up escape from 50-50 Guard. Step-by-s
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Extract legs and stand up/Attacker|Play as Attacker]]
+[[Extract legs and stand up/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Extract Legs and Stand Up is the fundamental escape pathway from bottom 50-50 Guard when submission threats exceed your ability to reverse or counter-attack. This technique prioritizes positional safety over positional advancement, recognizing that escaping a dangerous leg entanglement to reset standing creates better opportunities than remaining in a compromised bottom position against a skilled leg locker.

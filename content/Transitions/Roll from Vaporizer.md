@@ -13,6 +13,13 @@ description: "Master the Roll from Vaporizer transition in BJJ. Complete guide t
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Roll from Vaporizer/Attacker|Play as Attacker]]
+[[Roll from Vaporizer/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Roll from Vaporizer is a tactical transition within the 10th Planet lockdown system where the bottom player abandons the Vaporizer configuration and executes a controlled forward roll to transition to turtle position. While moving to turtle may appear counterintuitive for someone in an offensive position, this technique serves as a critical chain link in the lockdown-to-back-attack pathway, enabling continued offensive sequences through truck entries, crab ride, and back control.

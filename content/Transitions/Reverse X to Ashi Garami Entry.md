@@ -13,6 +13,13 @@ description: "Master Reverse X to Ashi Garami Entry in BJJ. Transition from Reve
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Reverse X to Ashi Garami Entry/Attacker|Play as Attacker]]
+[[Reverse X to Ashi Garami Entry/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Reverse X to Ashi Garami Entry is a systematic transition that converts the sweeping platform of Reverse X-Guard into a powerful leg entanglement position. This technique capitalizes on the bottom player's existing hook configuration behind the opponent's knee to establish inside or outside Ashi Garami control. The transition is particularly effective when sweep attempts are defended or when the opponent begins to posture up and widen their base.

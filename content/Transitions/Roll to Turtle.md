@@ -13,6 +13,13 @@ description: "Learn Roll to Turtle escape in BJJ. Defensive technique from Side 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Roll to Turtle/Attacker|Play as Attacker]]
+[[Roll to Turtle/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Roll to Turtle is a fundamental defensive escape technique executed from Side Control Bottom when other escape options are blocked or unavailable. This technique involves turning away from the opponent and assuming the turtle position, which serves as a transitional platform for guard recovery or standing. Unlike shrimping escapes that require space creation, the roll to turtle works by accepting the turn but establishing a strong defensive posture before the opponent can secure back control.

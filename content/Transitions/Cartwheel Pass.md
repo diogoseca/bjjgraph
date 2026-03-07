@@ -13,6 +13,13 @@ description: "Learn Cartwheel Pass in BJJ. Athletic passing technique from Grass
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Cartwheel Pass/Attacker|Play as Attacker]]
+[[Cartwheel Pass/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Cartwheel Pass is an athletic and dynamic technique used to bypass inverted guards, particularly the Grasshopper Guard. When facing an opponent who has inverted with their legs elevated and threatening leg entanglements, the cartwheel motion allows you to vault over their defensive structure entirely, landing directly into side control. This pass exploits a fundamental weakness of inverted guards: while they excel at controlling opponents who engage directly with their legs, they struggle against aerial passes that avoid leg contact altogether.

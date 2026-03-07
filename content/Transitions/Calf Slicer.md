@@ -13,6 +13,13 @@ description: "Learn the Calf Slicer from Inside Sankaku. Step-by-step execution 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Calf Slicer/Attacker|Play as Attacker]]
+[[Calf Slicer/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Calf Slicer is a devastating compression lock that targets the calf muscle by wedging your shin bone against the back of your opponent's knee joint while creating opposing pressure through their ankle. From Inside Sankaku, this submission becomes available when the opponent straightens their trapped leg attempting to escape heel hook threats, or when they defensively hide their heel. The mechanical principle involves trapping the opponent's lower leg between your legs while using hip drive and ankle control to create a crushing pressure against the gastrocnemius and soleus muscles.

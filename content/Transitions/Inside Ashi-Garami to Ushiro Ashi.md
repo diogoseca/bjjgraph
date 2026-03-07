@@ -13,6 +13,13 @@ description: "Master Inside Ashi-Garami to Ushiro Ashi transition in BJJ. Follow
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Inside Ashi-Garami to Ushiro Ashi/Attacker|Play as Attacker]]
+[[Inside Ashi-Garami to Ushiro Ashi/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Inside Ashi-Garami to Ushiro Ashi transition is a critical positional advancement within modern leg lock systems that allows the attacker to maintain offensive control when the opponent attempts to escape standard inside ashi through hip rotation or inversion. Rather than losing the entanglement during the opponent's defensive movement, the skilled practitioner follows the rotation while adapting their leg configuration to establish the reversed ushiro ashi-garami position, preserving attacking opportunities from an entirely new angle.

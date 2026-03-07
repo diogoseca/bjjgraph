@@ -13,6 +13,13 @@ description: "Master the scramble to open guard stabilization in BJJ. Expert gui
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Stabilize to Guard from Scramble/Attacker|Play as Attacker]]
+[[Stabilize to Guard from Scramble/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Stabilizing to guard from a scramble represents one of the most fundamental yet underappreciated skills in BJJ. When a scramble erupts—whether from a failed sweep, incomplete guard pass, or takedown exchange—the bottom player faces a critical decision point: continue scrambling for a dominant position or consolidate into a reliable guard. This transition prioritizes defensive stability over offensive gambles, converting chaotic energy into structured guard play where the practitioner can leverage their preferred systems.

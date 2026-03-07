@@ -13,6 +13,13 @@ description: "Master Crackhead Control Entry from Rubber Guard. Complete guide t
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Crackhead Control Entry/Attacker|Play as Attacker]]
+[[Crackhead Control Entry/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Crackhead Control Entry is a positional advancement within the 10th Planet Rubber Guard system that transitions the bottom player from standard Rubber Guard into the more dominant Crackhead Control configuration. This transition centers on achieving extreme arm isolation by pulling the opponent's trapped arm further across their centerline while repositioning the controlling leg to apply direct shoulder pressure. The result is a locked configuration that severely limits the top player's defensive options and creates high-percentage pathways to triangles, omoplatas, and gogoplatas.

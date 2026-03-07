@@ -13,6 +13,13 @@ description: "Master the Kimura from Diamond Guard in BJJ. Convert overhook cont
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Kimura from Diamond Guard/Attacker|Play as Attacker]]
+[[Kimura from Diamond Guard/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Kimura from Diamond Guard exploits the unique grip architecture of the diamond frame to transition from overhook-based control into a powerful Kimura figure-four attack. The bottom player already possesses one of the most critical prerequisites for a Kimura: a deep overhook controlling the opponent's arm across their body. By releasing head control and securing the opponent's wrist with the freed hand, the bottom player converts the existing overhook into a figure-four shoulder lock configuration without ever losing arm control during the transition.

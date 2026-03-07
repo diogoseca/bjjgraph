@@ -13,6 +13,13 @@ description: "Master New York Control to Zombie transition in BJJ. 10th Planet r
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[New York Control to Zombie/Attacker|Play as Attacker]]
+[[New York Control to Zombie/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The New York Control to Zombie transition represents a critical continuation within the 10th Planet Rubber Guard system, executed when the opponent begins successfully extracting their trapped shoulder from your New York configuration. Rather than fighting to maintain a failing position, this transition redirects offensive energy into the Zombie position - a lockdown-based half guard variant that preserves offensive momentum while adapting to the changed circumstances.

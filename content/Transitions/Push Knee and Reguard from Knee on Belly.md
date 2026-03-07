@@ -13,6 +13,13 @@ description: "Master the push knee reguard escape from Knee on Belly in BJJ. Ess
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Push Knee and Reguard from Knee on Belly/Attacker|Play as Attacker]]
+[[Push Knee and Reguard from Knee on Belly/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Push Knee and Reguard from Knee on Belly is a fundamental escape technique where the bottom player uses direct hand pressure on the top player's knee combined with hip escape mechanics to create enough space to recover guard. This escape addresses one of the most urgent defensive scenarios in BJJ — the crushing diaphragm pressure of knee on belly — by attacking the primary control point (the knee itself) while simultaneously creating the lateral movement necessary to reinsert legs and establish closed guard.

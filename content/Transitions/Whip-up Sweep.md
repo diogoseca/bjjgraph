@@ -13,6 +13,13 @@ description: "Learn Whip-up Sweep from Lockdown in BJJ. Momentum-based reversal 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Whip-up Sweep/Attacker|Play as Attacker]]
+[[Whip-up Sweep/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Whip-up Sweep is the primary offensive sweep from the 10th Planet lockdown system, using the figure-four leg entanglement to generate explosive upward momentum that brings the bottom player from flat on their back to a neutral or dominant position. The sweep works by coordinating a lockdown extension that off-balances the top player with a simultaneous upper-body drive that exploits forward weight commitment. When the opponent drives pressure forward to flatten the lockdown player or establish crossface control, their weight shifts over their base, creating the mechanical window for the whip-up.

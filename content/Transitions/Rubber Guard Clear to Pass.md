@@ -13,6 +13,13 @@ description: "Master clearing Rubber Guard from top position and passing to Side
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Rubber Guard Clear to Pass/Attacker|Play as Attacker]]
+[[Rubber Guard Clear to Pass/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Rubber Guard Clear to Pass is the systematic escape and passing sequence from the top position when trapped in an opponent's Rubber Guard. This technique addresses one of the most challenging defensive scenarios in modern no-gi grappling, where the bottom player has established Mission Control or a similar Rubber Guard configuration with your arm trapped against their chest. The fundamental challenge lies in the dual-threat control system: your posture is severely compromised while one arm is isolated, limiting defensive options. The pass requires methodical progression through posture recovery, arm extraction, and guard opening before completing the pass to Side Control.

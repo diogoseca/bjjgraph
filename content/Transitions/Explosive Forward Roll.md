@@ -13,6 +13,13 @@ description: "Master the Explosive Forward Roll escape from standing back contro
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Explosive Forward Roll/Attacker|Play as Attacker]]
+[[Explosive Forward Roll/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Explosive Forward Roll is a high-commitment escape from standing back control that uses momentum and inversion to break the opponent's grip structure and recover to a guard position. Unlike slower, grip-fighting based escapes, this technique relies on explosive timing and full body commitment to create a scramble situation where you can recover facing your opponent. The roll must be executed with sufficient forward drive to carry your opponent over you or force them to release their grips to avoid being swept.

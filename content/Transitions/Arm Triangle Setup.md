@@ -13,6 +13,13 @@ description: "Learn the Arm Triangle Setup from North-South in BJJ. Step-by-step
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Arm Triangle Setup/Attacker|Play as Attacker]]
+[[Arm Triangle Setup/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Arm Triangle Setup from North-South control exploits the perpendicular chest pressure of the position to isolate the opponent's near-side arm against their own neck, creating the head-and-arm configuration necessary for a high-percentage arm triangle choke. This setup capitalizes on the opponent's defensive reactions to North-South pressure—particularly when they turn into the top player or attempt to frame—by threading the choking arm under their neck while their own arm is trapped.

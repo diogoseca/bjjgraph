@@ -15,6 +15,13 @@ description: "Master Kneebar from Guard in BJJ. Complete guide with safety proto
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Kneebar from Guard/Attacker|Play as Attacker]]
+[[Kneebar from Guard/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Kneebar from Guard represents a powerful attacking option from bottom positions, allowing the guard player to transition from defensive positioning to an immediate submission threat. This technique targets the knee joint through hyperextension, creating mechanical stress on the posterior cruciate ligament and collateral ligaments. The kneebar from guard is particularly effective because it capitalizes on the opponent's forward pressure and weight distribution, using their momentum against them. The technique can be executed from multiple guard variations including closed guard, butterfly guard, open guard, and De La Riva guard, each offering unique entry mechanics and control positions. Modern leg lock systems have elevated the kneebar from guard to a fundamental attacking position, with practitioners developing sophisticated entries that blend seamlessly with sweeps and back takes. The position requires precise timing, hip positioning, and leg control to prevent escape while maintaining offensive pressure. When executed correctly, the kneebar from guard creates an inescapable submission that forces immediate tap or results in serious injury.

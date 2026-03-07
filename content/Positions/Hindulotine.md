@@ -13,6 +13,13 @@ description: "Master the Hindulotine position in BJJ. High-pressure guillotine v
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Hindulotine/Bottom|Play as Bottom]]
+[[Hindulotine/Top|Play as Top]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Hindulotine is a specialized guillotine variation that combines elements of traditional guillotine mechanics with unique body positioning that creates exceptional pressure on the opponent's neck and spine. Named for its origins in catch wrestling and modern no-gi grappling, this position represents an evolution of front headlock attacks where the controlling practitioner uses their hips and legs to generate torque while maintaining the guillotine grip.

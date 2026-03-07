@@ -13,6 +13,13 @@ description: "Master Half Guard Recovery from leg drag bottom. Step-by-step defe
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Half Guard Recovery/Attacker|Play as Attacker]]
+[[Half Guard Recovery/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Half Guard Recovery from the leg drag bottom is a critical defensive transition that allows you to re-establish a functional guard position when your opponent has compromised your hip and leg control. This technique represents the primary pathway for transforming a dangerous passing situation into a manageable half guard where you can rebuild your offensive and defensive options. The recovery requires precise timing, proper frame creation, and explosive hip movement to insert your knee shield before the pass completes.

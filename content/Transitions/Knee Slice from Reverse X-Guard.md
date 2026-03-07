@@ -13,6 +13,13 @@ description: "Master the Knee Slice from Reverse X-Guard pass in BJJ. Complete g
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Knee Slice from Reverse X-Guard/Attacker|Play as Attacker]]
+[[Knee Slice from Reverse X-Guard/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Knee Slice from Reverse X-Guard is a precision guard pass that exploits momentary weaknesses in the bottom player's inverted hook structure to drive a cutting knee across their thigh line and establish side control. Unlike a standard knee slice from half guard or headquarters, this variation requires the passer to first address the unique inverted hook configuration of Reverse X-Guard before committing to the slice. The technique bridges the gap between hook management and committed passing, making it essential for any top player regularly facing modern X-Guard systems.

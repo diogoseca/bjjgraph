@@ -13,6 +13,13 @@ description: "Master the Suplex from Rear Clinch in BJJ. High-impact takedown co
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Suplex from Rear Clinch/Attacker|Play as Attacker]]
+[[Suplex from Rear Clinch/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Suplex from Rear Clinch is a high-amplitude takedown that converts standing back control into dominant ground position, typically landing in side control. Rooted in wrestling tradition and adapted for BJJ competition, this technique uses explosive hip extension and lifting mechanics to arc the opponent overhead or laterally, bypassing their base entirely. The suplex represents one of the most decisive takedown options available from the rear clinch because it eliminates the opponent's ability to use footwork or hand fighting to escape, relying instead on raw mechanical advantage generated through proper body positioning and committed explosive effort.

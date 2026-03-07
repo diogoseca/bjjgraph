@@ -15,6 +15,13 @@ description: "Master the armbar from guard with systematic technique breakdown, 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Armbar from Guard/Attacker|Play as Attacker]]
+[[Armbar from Guard/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The armbar from guard is one of the most fundamental and highest-percentage submissions in Brazilian Jiu-Jitsu. This technique targets the elbow joint by hyperextending it against the natural range of motion, forcing a tap or causing structural damage. From closed guard, the armbar represents a perfect marriage of positional control and finishing mechanics—you maintain the defensive safety of guard position while simultaneously attacking with a fight-ending submission. The armbar from guard is typically the first submission taught to beginners because it introduces the essential concepts of angle creation, hip control, and limb isolation that underpin all joint lock attacks. What makes this technique particularly effective is that it can be entered from multiple guard variations and combined seamlessly with other attacks like triangles and omoplatas, creating powerful submission chains that are difficult to defend.

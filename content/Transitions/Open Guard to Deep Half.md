@@ -13,6 +13,13 @@ description: "Learn Open Guard to Deep Half transition in BJJ. Step-by-step exec
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Open Guard to Deep Half/Attacker|Play as Attacker]]
+[[Open Guard to Deep Half/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The transition from Open Guard to Deep Half represents a strategic guard recovery sequence that transforms defensive situations into powerful offensive opportunities. This technique is particularly valuable when facing aggressive standing or passing pressure from top position, allowing the bottom player to dive underneath their opponent's center of gravity and establish the deep half guard structure. The deep half position provides excellent sweeping mechanics while simultaneously nullifying many common passing strategies.

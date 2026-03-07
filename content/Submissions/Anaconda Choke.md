@@ -15,6 +15,13 @@ description: "Master the Anaconda Choke in BJJ. Complete guide covering setup fr
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Anaconda Choke/Attacker|Play as Attacker]]
+[[Anaconda Choke/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Anaconda Choke is a front headlock blood choke that targets the carotid arteries through a figure-four configuration of the arms. Named for the constricting serpent, this submission wraps around the opponent's neck and arm, creating a powerful strangling mechanism. The technique is most commonly applied from turtle position or front headlock control when the opponent is defending with their head down. Unlike the rear naked choke which attacks from behind, the Anaconda approaches from the side, threading one arm under the opponent's neck and opposite armpit while the other arm completes the figure-four grip.

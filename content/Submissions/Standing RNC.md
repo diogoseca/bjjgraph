@@ -15,6 +15,13 @@ description: "Master the Standing RNC in BJJ. Complete guide to finishing the re
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Standing RNC/Attacker|Play as Attacker]]
+[[Standing RNC/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Standing Rear Naked Choke represents one of the highest-percentage finishing sequences available from standing back control. Unlike its ground-based counterpart where gravity assists the attacker by keeping the defender pinned, the standing variant demands precise weight management and body mechanics to maintain both positional control and finishing pressure simultaneously. The attacker must solve the dual problem of preventing the opponent from peeling away or dropping to the ground while threading the choking arm past chin and hand defenses into proper finishing position.

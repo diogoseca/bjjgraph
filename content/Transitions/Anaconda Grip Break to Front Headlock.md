@@ -13,6 +13,13 @@ description: "Master the anaconda grip break to front headlock in BJJ. Complete 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Anaconda Grip Break to Front Headlock/Attacker|Play as Attacker]]
+[[Anaconda Grip Break to Front Headlock/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Anaconda Grip Break to Front Headlock is a critical defensive transition executed from the bottom of anaconda control. When an opponent has secured the anaconda choke configuration around your neck and trapped arm, breaking their grip is the highest-priority escape mechanism. This transition addresses the immediate submission threat by systematically dismantling the constricting loop before the choke reaches critical tightness, allowing you to transition to the less dangerous front headlock position where additional escape options become available.

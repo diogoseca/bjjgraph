@@ -15,6 +15,13 @@ description: "Master Arm in Guillotine in BJJ. High-percentage front headlock ch
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Arm in Guillotine/Attacker|Play as Attacker]]
+[[Arm in Guillotine/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Arm in Guillotine represents a powerful variation of the standard guillotine choke where one of the opponent's arms becomes trapped inside the choking mechanism. This configuration significantly increases the effectiveness of the submission by preventing defensive hand fighting and creating additional pressure on the carotid arteries. Unlike the standard guillotine where both arms remain outside, the arm-in variation capitalizes on the opponent's attempted defensive frames or underhooks, turning their defensive structure into a liability. This submission is particularly effective in scrambles, takedown situations, and transitional moments where the opponent commits an arm to establish position. The arm-in configuration creates a tighter choking circle and eliminates several escape pathways available in the traditional guillotine. While slightly more difficult to finish than a clean high-elbow guillotine, the arm-in variation offers superior control and maintains effectiveness even when jumping guard or pulling to closed guard.

@@ -13,6 +13,13 @@ description: "Master the frame escape from Reverse Scarf Hold in BJJ. Complete g
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Frame from Reverse Scarf Hold/Attacker|Play as Attacker]]
+[[Frame from Reverse Scarf Hold/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Frame from Reverse Scarf Hold is a systematic defensive escape technique where the bottom player uses skeletal frames against the top player's body to incrementally create space for hip escape and guard recovery. Unlike bridge-based escapes that require explosive power and precise timing, this frame escape operates through persistent mechanical advantage, making it the most energy-efficient and reliable escape available from reverse scarf hold bottom when the top player's base is too wide for effective bridging.

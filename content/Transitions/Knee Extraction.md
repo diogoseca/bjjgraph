@@ -13,6 +13,13 @@ description: "Learn Knee Extraction defense from straight ankle lock control. St
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Knee Extraction/Attacker|Play as Attacker]]
+[[Knee Extraction/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Knee Extraction is a fundamental defensive technique used to escape straight ankle lock control by systematically freeing the trapped knee and creating distance. When caught in ankle lock control, the defender's primary objective is to extract the knee toward their chest while preventing the attacker from completing their leg triangle or transitioning to more dominant entanglements like inside ashi-garami or the saddle position.

@@ -15,6 +15,13 @@ description: "Master Triangle Choke from front positions in BJJ. Complete guide 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Triangle Choke Front/Attacker|Play as Attacker]]
+[[Triangle Choke Front/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Triangle Choke from front positions is one of the most fundamental and high-percentage submissions in Brazilian Jiu-Jitsu, particularly effective from closed guard, spider guard, and various open guard positions. This blood choke works by using your legs to create a triangle configuration around the opponent's neck and one arm, simultaneously compressing the carotid arteries while using their own shoulder to complete the choke. The beauty of the front triangle lies in its mechanical efficiency - you're using the largest muscle groups in your body (legs and hips) against the relatively weaker muscles of the opponent's neck, creating a submission that requires minimal strength when executed with proper technique.

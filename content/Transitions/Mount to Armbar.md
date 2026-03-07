@@ -13,6 +13,13 @@ description: "Master the Mount to Armbar transition in BJJ. Complete guide to ex
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Mount to Armbar/Attacker|Play as Attacker]]
+[[Mount to Armbar/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Mount to Armbar transition is one of the most fundamental and high-percentage submission setups in Brazilian Jiu-Jitsu, representing a cornerstone technique that every practitioner must master. From the dominant Mount position, this technique capitalizes on the opponent's natural defensive reactions by converting their arm-framing attempts into submission opportunities. The transition requires precise weight distribution, controlled movement sequencing, and the ability to maintain dominant positioning throughout the execution.

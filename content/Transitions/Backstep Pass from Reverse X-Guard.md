@@ -13,6 +13,13 @@ description: "Master the Backstep Pass from Reverse X-Guard in BJJ. Complete gui
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Backstep Pass from Reverse X-Guard/Attacker|Play as Attacker]]
+[[Backstep Pass from Reverse X-Guard/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Backstep Pass from Reverse X-Guard is a rotational passing technique where the top player uses a backstep to clear the opponent's inverted hook entanglement and arrive in side control. This pass exploits the structural weakness of the Reverse X-Guard configuration: because the guard player's hooks are committed to one side, the top player can rotate away from the hooks, extracting the trapped leg through a controlled arc and landing perpendicular to the opponent.

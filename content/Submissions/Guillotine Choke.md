@@ -15,6 +15,13 @@ description: "Master the Guillotine Choke in BJJ with step-by-step execution, sa
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Guillotine Choke/Attacker|Play as Attacker]]
+[[Guillotine Choke/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Guillotine Choke is one of the most versatile and high-percentage submissions in Brazilian Jiu-Jitsu, capable of being executed from standing positions, guard, or transitional scrambles. This blood choke targets the carotid arteries while also applying pressure to the trachea, making it a powerful finishing technique when applied correctly. The guillotine's effectiveness stems from its ability to capitalize on common defensive movements, particularly when opponents shoot for takedowns or attempt to pass guard with poor posture. The technique works by using your arm as a fulcrum around the opponent's neck while using hip pressure and body positioning to create the choking force. Its versatility allows for execution from numerous positions including standing, closed guard, half guard, and even during scrambles, making it an essential weapon for practitioners at all levels. The guillotine family includes multiple variations such as the high elbow guillotine, arm-in guillotine, and ten-finger guillotine, each with specific applications based on the situation and opponent's defensive reactions.

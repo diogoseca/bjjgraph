@@ -13,6 +13,13 @@ description: "Master Double Jump position in BJJ. Dynamic half guard control tec
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Double Jump/Bottom|Play as Bottom]]
+[[Double Jump/Top|Play as Top]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Double Jump is an advanced positional concept in Brazilian Jiu-Jitsu that exists in two distinct tactical contexts: as a dynamic guard recovery entry from bottom and as a turtle attack control position from top. This dual-perspective position represents modern approaches to creating explosive transitions and bypassing traditional defensive structures.

@@ -13,6 +13,13 @@ description: "Master the Overhook Guard Sweep in BJJ. Step-by-step guide to exec
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Overhook Guard Sweep/Attacker|Play as Attacker]]
+[[Overhook Guard Sweep/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Overhook Guard Sweep is a fundamental closed guard technique that exploits the structural imbalance created when the bottom player secures a deep overhook on one of the top player's arms. By trapping the arm and eliminating the opponent's ability to post on that side, the sweep creates a mechanically efficient and predictable pathway to the mount position. The technique combines hip angle creation, coordinated leg drive, and upper body pulling mechanics to produce one of the highest-percentage sweeps available from the overhook guard system.

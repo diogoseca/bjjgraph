@@ -13,6 +13,13 @@ description: "Master Leg Extraction escape from Estima Lock in BJJ. Step-by-step
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Leg Extraction/Attacker|Play as Attacker]]
+[[Leg Extraction/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Leg Extraction from Estima Lock represents a fundamental defensive escape when caught in this dangerous inverted footlock position. The technique prioritizes systematic disengagement over explosive movements, focusing on reducing submission pressure while methodically creating space to free the trapped leg. Unlike escapes from traditional straight ankle locks, the Estima Lock's inverted grip configuration requires specific counter-rotation and angle adjustments to neutralize the attack vector before extraction becomes possible.

@@ -13,6 +13,13 @@ description: "Master Standing Guard in BJJ. Strategic guide covering defensive s
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Standing Guard/Bottom|Play as Bottom]]
+[[Standing Guard/Top|Play as Top]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Standing Guard represents a critical transitional phase where both practitioners maintain upright postures while engaging in grip fighting and distance management. This position serves as the gateway between initial engagement and ground-based grappling, where strategic decisions about guard pulling, takedown attempts, or continued standup exchanges are made. The position is characterized by active hand fighting, footwork-based positioning, and the constant tension between offensive opportunity and defensive responsibility.

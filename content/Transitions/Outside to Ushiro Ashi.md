@@ -13,6 +13,13 @@ description: "Master the Outside to Ushiro Ashi-Garami transition. Complete guid
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Outside to Ushiro Ashi/Attacker|Play as Attacker]]
+[[Outside to Ushiro Ashi/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Outside to Ushiro Ashi-Garami is a critical transition within modern leg lock systems that occurs when an attacker in Outside Ashi-Garami follows their opponent's hip inversion or rotation to maintain leg entanglement in a reversed configuration. Rather than losing control when the defender inverts, the attacker adapts their figure-four leg configuration and grip positioning to arrive in Ushiro Ashi-Garami, preserving offensive pressure and creating new submission angles from the reversed orientation.

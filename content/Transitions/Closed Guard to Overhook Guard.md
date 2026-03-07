@@ -13,6 +13,13 @@ description: "Master the transition to overhook guard from closed guard in BJJ. 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Closed Guard to Overhook Guard/Attacker|Play as Attacker]]
+[[Closed Guard to Overhook Guard/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Transitioning to Overhook Guard from Closed Guard is a deliberate grip change that converts a neutral guard position into an asymmetrical offensive platform. The bottom player threads their arm over and around the opponent's arm, establishing a deep overhook that compromises the top player's ability to posture, post, and pass. This grip change fundamentally alters the positional dynamic by removing one of the top player's primary defensive tools while creating direct pathways to sweeps, back takes, and submissions.

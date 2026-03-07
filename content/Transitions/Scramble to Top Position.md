@@ -13,6 +13,13 @@ description: "Master scramble to top position in BJJ. Learn to win chaotic excha
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Scramble to Top Position/Attacker|Play as Attacker]]
+[[Scramble to Top Position/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Scramble to Top Position is the decisive finishing sequence in any scramble exchange where the practitioner converts chaotic positional battling into established top control or a dominant standing position. This transition represents the culmination of scramble awareness, where split-second decisions about base, underhooks, head position, and weight distribution determine who emerges on top. Rather than waiting for the scramble to resolve passively, the practitioner who executes this transition proactively drives toward top position through purposeful movement and structural dominance.

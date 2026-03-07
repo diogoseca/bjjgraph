@@ -13,6 +13,13 @@ description: "Master the complete guard pass from flattened half guard to side c
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Complete Pass from Flattened Half/Attacker|Play as Attacker]]
+[[Complete Pass from Flattened Half/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Complete Pass from Flattened Half Guard is the definitive guard-passing sequence executed when the top player has already collapsed the bottom player's frames and established chest-to-chest control with one leg still trapped in the half guard hook. This transition represents the final phase of the pressure-passing sequence, where the technical challenge shifts from maintaining dominant control to extracting the trapped leg without surrendering the positional advantage that was so methodically earned. The pass completion requires a precise balance between sustaining forward pressure that keeps the bottom player pinned and creating just enough angle to free the leg through the half guard entanglement.

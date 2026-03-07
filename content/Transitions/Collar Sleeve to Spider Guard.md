@@ -13,6 +13,13 @@ description: "Transition from collar sleeve to spider guard in BJJ. Master grip 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Collar Sleeve to Spider Guard/Attacker|Play as Attacker]]
+[[Collar Sleeve to Spider Guard/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The collar sleeve to spider guard transition is a fundamental guard evolution that converts your asymmetric collar-and-sleeve control into the powerful double-sleeve, feet-on-biceps configuration of spider guard. This transition represents one of the most common guard progressions in gi jiu-jitsu, allowing the bottom player to upgrade from single-arm distance management to bilateral bicep control that creates superior sweeping platforms and submission entries.

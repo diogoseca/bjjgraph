@@ -13,6 +13,13 @@ description: "Master the Sweep from Electric Chair in BJJ. Complete lockdown swe
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Sweep from Electric Chair/Attacker|Play as Attacker]]
+[[Sweep from Electric Chair/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Sweep from Electric Chair is the primary positional reversal from the lockdown half guard system, converting the bottom Electric Chair position into dominant mount. This technique capitalizes on the splitting pressure and structural off-balance created by the lockdown configuration, using coordinated hip extension, underhook leverage, and ankle control to roll the opponent over their trapped leg and come up to top position. The sweep represents the culmination of the Electric Chair attack sequence, where submission pressure naturally transitions into sweeping momentum.

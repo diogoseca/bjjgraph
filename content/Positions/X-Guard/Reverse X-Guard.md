@@ -13,6 +13,13 @@ description: "Master Reverse X-Guard in BJJ. Strategic guide covering when to us
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Reverse X-Guard/Bottom|Play as Bottom]]
+[[Reverse X-Guard/Top|Play as Top]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Reverse X-Guard is an inverted guard position where the bottom practitioner controls their opponent using leg entanglement while facing away from them. This position creates powerful sweeping mechanics by combining hip elevation, leg control, and rotational pressure. The guard player's outside leg hooks behind the opponent's near knee while the inside leg extends across their far hip, creating a scissoring action that destabilizes their base.

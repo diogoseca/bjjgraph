@@ -13,6 +13,13 @@ description: "Master Technical Stand-up in BJJ. Essential escape from bottom to 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Technical Stand-up/Attacker|Play as Attacker]]
+[[Technical Stand-up/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Technical Stand-up is a fundamental defensive movement in Brazilian Jiu-Jitsu that allows a practitioner to safely transition from a seated or grounded position to standing. This technique is essential for guard recovery, creating distance from an aggressive opponent, and resetting to a neutral standing position. The movement emphasizes proper base maintenance, hip positioning, and hand placement to prevent being taken down or swept during the transition. Unlike a simple stand-up, the technical version uses specific biomechanical principles to maintain defensive posture throughout the movement, making it extremely difficult for an opponent to capitalize on the transition.

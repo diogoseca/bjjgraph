@@ -13,6 +13,13 @@ description: "Master the Back Take from Crackhead Control in BJJ. Step-by-step e
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Back Take/Attacker|Play as Attacker]]
+[[Back Take/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Back Take from Crackhead Control represents one of the highest-percentage transitions in modern no-gi grappling, capitalizing on the unique chair-sit mechanics of the crackhead position to secure the most dominant control in BJJ. This transition exploits the inherent hip isolation created by sitting on your opponent's lower back, using your inside leg hook as a pivot point to rotate around their body while maintaining constant chest-to-back connection throughout the movement.

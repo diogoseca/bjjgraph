@@ -15,6 +15,13 @@ description: "Master Kimura from Turtle in BJJ. Complete guide with safety proto
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Kimura from Turtle/Attacker|Play as Attacker]]
+[[Kimura from Turtle/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Kimura from Turtle is a powerful shoulder lock submission that capitalizes on the opponent's defensive turtle position. When executed properly, this technique isolates the arm through a figure-four grip while controlling the opponent's posture, creating significant torque on the shoulder joint. The turtle position provides unique mechanical advantages for the Kimura, as the opponent's weight distribution and defensive posture naturally expose the arms. This submission can be approached from various angles including traditional top turtle control, front headlock positions, or transitional scrambles. The Kimura from turtle serves multiple strategic purposes: it can be used as a direct finish, as a powerful control position to break down the turtle and transition to back control, or as a means to roll the opponent and establish dominant top positions like mount or side control. The technique's effectiveness stems from the combination of grip control, hip pressure, and proper angle creation that prevents the opponent from defending effectively while maintaining the structural integrity needed to apply safe, controlled pressure to the shoulder joint.

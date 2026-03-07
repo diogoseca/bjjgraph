@@ -13,6 +13,13 @@ description: "Master winning scrambles to top position in BJJ. Learn underhook b
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Win Scramble to Top/Attacker|Play as Attacker]]
+[[Win Scramble to Top/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Winning a scramble to establish top position is one of the most consequential transitional skills in Brazilian Jiu-Jitsu, directly separating practitioners who capitalize on chaos from those who merely survive it. This transition encompasses the techniques and principles required to emerge from a contested, dynamic exchange with dominant side control rather than returning to a neutral or disadvantaged state. The ability to consistently win scrambles is heavily influenced by wrestling fundamentals, hip positioning, and the capacity to recognize and exploit momentary openings in your opponent's base.

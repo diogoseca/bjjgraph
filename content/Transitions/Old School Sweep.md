@@ -13,6 +13,13 @@ description: "Master the Old School Sweep from half guard lockdown. Step-by-step
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Old School Sweep/Attacker|Play as Attacker]]
+[[Old School Sweep/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Old School Sweep is the signature offensive technique from the Old School half guard position, popularized through the 10th Planet Jiu-Jitsu system. Executed from half guard bottom with lockdown control, deep underhook, and head control, the practitioner drives a powerful circular rotation that reverses the opponent directly into mount. The sweep leverages the lockdown's leg entanglement to destroy the opponent's base while the underhook and head control create the rotational force needed to complete the reversal. The technique is particularly effective in no-gi grappling where the lockdown provides superior control compared to traditional gi grips.

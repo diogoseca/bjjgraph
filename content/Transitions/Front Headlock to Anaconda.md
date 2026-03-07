@@ -13,6 +13,13 @@ description: "Learn Front Headlock to Anaconda in BJJ. Step-by-step execution fr
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Front Headlock to Anaconda/Attacker|Play as Attacker]]
+[[Front Headlock to Anaconda/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Front Headlock to Anaconda transition represents one of the highest-percentage finishing sequences from the front headlock position. This technique exploits the opponent's defensive posture in turtle or standing positions by converting head and arm control into a devastating choking attack. The anaconda choke, characterized by its distinctive rolling motion and figure-four arm configuration, creates simultaneous pressure on both the carotid artery and the shoulder, making it extremely difficult to defend once properly locked.

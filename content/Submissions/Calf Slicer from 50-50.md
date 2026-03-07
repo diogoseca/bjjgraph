@@ -15,6 +15,13 @@ description: "Master the Calf Slicer from 50-50 Guard in BJJ. Complete safety gu
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Calf Slicer from 50-50/Attacker|Play as Attacker]]
+[[Calf Slicer from 50-50/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Calf Slicer from 50-50 Guard represents one of the most devastating compression submissions available from leg entanglement positions. This technique applies crushing pressure to the calf muscle by trapping the opponent's leg between your shin and thigh, creating a biomechanical vice that attacks multiple structures simultaneously. From the 50-50 position, where both practitioners have their legs entangled symmetrically, the calf slicer emerges when one player establishes superior control of the opponent's trapped leg and applies their shin blade across the calf muscle while pulling the foot toward their own body. The submission creates intense pressure on the gastrocnemius and soleus muscles, places dangerous strain on the Achilles tendon, and can hyperextend the knee joint if applied with excessive force. The 50-50 guard provides an ideal platform for this submission because the position naturally creates the leg entanglement required, both legs are already positioned close to the target area, and the symmetrical nature makes it difficult for opponents to recognize the submission setup until it is fully locked. This technique requires exceptional technical precision, careful control during application, and comprehensive understanding of the anatomical vulnerabilities being exploited. Due to its compression nature and potential for rapid onset injury, the calf slicer from 50-50 demands the highest level of training discipline and safety awareness.

@@ -13,6 +13,13 @@ description: "Master armbar control in BJJ from both offensive and defensive per
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Armbar Control/Bottom|Play as Bottom]]
+[[Armbar Control/Top|Play as Top]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Armbar Control represents one of Brazilian Jiu-Jitsu's most fundamental submission control positions, accessible from both offensive (top) and defensive (bottom) perspectives. The position centers on isolating and controlling a single arm through a combination of leg control, hip positioning, and grip management. From the top position, the practitioner uses their entire body to attack a single joint, creating overwhelming mechanical advantage. From the bottom position, the defender must employ systematic defensive principles to prevent hyperextension and create escape opportunities.

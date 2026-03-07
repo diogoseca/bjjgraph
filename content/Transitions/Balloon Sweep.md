@@ -13,6 +13,13 @@ description: "Master the Balloon Sweep from Closed Guard in BJJ. Complete guide 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Balloon Sweep/Attacker|Play as Attacker]]
+[[Balloon Sweep/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Balloon Sweep is a dynamic and versatile sweep that combines elements of butterfly guard mechanics within the closed guard structure. This technique exploits the opponent's forward pressure and posture by using an explosive upward lifting motion combined with hip movement to elevate and off-balance them. The name derives from the balloon-like inflation of the hips and legs that creates the sweeping momentum. Unlike traditional closed guard sweeps that rely primarily on lateral movement, the Balloon Sweep uses vertical displacement to compromise the opponent's base before transitioning them over your center line. This makes it particularly effective against opponents who maintain a strong low base and resist lateral sweeps.

@@ -15,6 +15,13 @@ description: "Master the Rear Naked Choke in BJJ. Complete safety guide with pro
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Rear Naked Choke/Attacker|Play as Attacker]]
+[[Rear Naked Choke/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Rear Naked Choke (RNC) is widely considered the highest-percentage submission in Brazilian Jiu-Jitsu and mixed martial arts. This blood choke targets the carotid arteries on both sides of the neck, cutting off blood flow to the brain and causing unconsciousness in 6-10 seconds if not released. Unlike air chokes that can take 30+ seconds and cause panic, the RNC is efficient and relatively safe when applied correctly with proper training protocols. The position's effectiveness stems from the back control position itself - the opponent cannot see you, cannot effectively defend with their arms, and must deal with your body weight and control while their breathing and circulation are compromised. The RNC is the most common submission finish in high-level competition, with statistics showing it accounts for approximately 25-30% of all submission victories in professional MMA and 15-20% in gi BJJ competition. The technique's universality across gi and no-gi contexts, combined with its mechanical simplicity and high success rate even against larger opponents, makes it an essential technique for all practitioners regardless of style or body type.

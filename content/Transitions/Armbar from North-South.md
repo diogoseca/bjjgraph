@@ -13,6 +13,13 @@ description: "Master the Armbar from North-South in BJJ. Complete guide covering
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Armbar from North-South/Attacker|Play as Attacker]]
+[[Armbar from North-South/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Armbar from North-South represents a systematic submission setup that capitalizes on the inherent arm isolation available from perpendicular chest pressure. This technique exploits the fundamental vulnerability of North-South control—when the top practitioner maintains chest-to-chest pressure, the bottom player's arms become naturally separated from their body and exposed to attack. The transition requires precise hip rotation and leg placement to convert a pinning position into a submission control.

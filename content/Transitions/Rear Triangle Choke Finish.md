@@ -13,6 +13,13 @@ description: "Master the Rear Triangle Choke Finish in BJJ. Learn squeeze mechan
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Rear Triangle Choke Finish/Attacker|Play as Attacker]]
+[[Rear Triangle Choke Finish/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Rear Triangle Choke Finish is the culminating squeeze applied from the established rear triangle position, compressing the carotid arteries through the figure-four leg configuration locked behind the opponent's neck and around their trapped arm. Unlike many chokes that require hand involvement, the rear triangle finish generates primary choking force through leg mechanics—knee compression and hip extension—while the hands remain free to control the opponent's defensive responses and optimize the finishing angle.

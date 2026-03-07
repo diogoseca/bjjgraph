@@ -13,6 +13,13 @@ description: "Learn Roll Through to Reversal from Front Headlock in BJJ. Escape 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Roll Through to Reversal/Attacker|Play as Attacker]]
+[[Roll Through to Reversal/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Roll Through to Reversal is a dynamic escape technique executed when trapped in front headlock bottom that uses your opponent's forward pressure and commitment against them. Rather than fighting against their weight and control, this technique redirects their momentum by rolling forward and through, inverting the positional hierarchy to end with you in the controlling position. The mechanics rely on the same principle that makes judo throws work: using the opponent's force vector against them rather than opposing it directly.

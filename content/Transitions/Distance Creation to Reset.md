@@ -13,6 +13,13 @@ description: "Master Distance Creation to Reset from Lapel Guard. Clear complex 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Distance Creation to Reset/Attacker|Play as Attacker]]
+[[Distance Creation to Reset/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Distance Creation to Reset represents a tactical retreat strategy when facing complex lapel guard configurations that resist direct passing solutions. Rather than expending significant energy fighting through entangled lapel wraps, this technique prioritizes disengaging cleanly to reset the exchange from a neutral standing position.

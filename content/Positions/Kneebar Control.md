@@ -13,6 +13,13 @@ description: "Master kneebar control position in BJJ. Complete guide covering en
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Kneebar Control/Bottom|Play as Bottom]]
+[[Kneebar Control/Top|Play as Top]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Kneebar Control represents a critical leg entanglement position in Brazilian Jiu-Jitsu where the attacker has isolated one of the opponent's legs and established control for a potential kneebar finish. This position exists on a spectrum from loose leg control to fully-extended submission, with the controlling practitioner using their arms to secure the opponent's leg while their hips create leverage against the knee joint.

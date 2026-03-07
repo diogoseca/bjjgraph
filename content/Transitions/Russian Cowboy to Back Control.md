@@ -13,6 +13,13 @@ description: "Master the Russian Cowboy to Back Control transition. Learn to con
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Russian Cowboy to Back Control/Attacker|Play as Attacker]]
+[[Russian Cowboy to Back Control/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Russian Cowboy to Back Control transition converts the asymmetric single-hook back control into fully established back control with both hooks engaged. This positional upgrade is among the most valuable progressions available from Russian Cowboy, as full back control provides four competition points, superior submission access through rear naked choke and bow and arrow attacks, and dramatically improved positional retention compared to the single-hook variant.

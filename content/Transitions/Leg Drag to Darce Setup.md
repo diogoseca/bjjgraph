@@ -13,6 +13,13 @@ description: "Master the Leg Drag to Darce Setup transition. Step-by-step execut
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Leg Drag to Darce Setup/Attacker|Play as Attacker]]
+[[Leg Drag to Darce Setup/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Leg Drag to Darce Setup is a powerful transitional attack that capitalizes on a common defensive reaction from leg drag control. When the bottom player attempts to escape by turtling or turning away to protect their back, they inadvertently create the arm and head configuration necessary for Darce choke entries. This transition exemplifies the concept of attacking your opponent's escape routes rather than simply chasing positional dominance.

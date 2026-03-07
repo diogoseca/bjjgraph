@@ -13,6 +13,13 @@ description: "Master the Frame Escape from Darce in BJJ. Complete guide to frami
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Frame Escape from Darce/Attacker|Play as Attacker]]
+[[Frame Escape from Darce/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Frame Escape from Darce is a critical defensive technique used when trapped in Darce Control on the bottom. This escape relies on establishing structural frames against the opponent's body to create space, relieve choking pressure on the carotid arteries, and systematically work toward guard recovery. The technique prioritizes biomechanical efficiency over explosive movement, using forearm and hand positioning to wedge space between the choking arm and the neck. The fundamental principle is that the Darce choke requires compression between the attacker's arm and the defender's own trapped shoulder, and frames disrupt this compression by creating counter-pressure at the opponent's hip or shoulder.

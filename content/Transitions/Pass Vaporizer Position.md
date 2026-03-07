@@ -13,6 +13,13 @@ description: "Master passing the Vaporizer position in BJJ. Step-by-step guide t
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Pass Vaporizer Position/Attacker|Play as Attacker]]
+[[Pass Vaporizer Position/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Passing the Vaporizer requires systematic dismantling of the 10th Planet lockdown and whip-up control system. The top player must simultaneously address two interconnected control mechanisms: the figure-four lockdown trapping one leg, and the underhook providing leverage for the destabilizing whip-up motion. Unlike standard guard passes where clearing a single control point opens the path forward, the Vaporizer demands coordinated neutralization of both lower and upper body entanglements before any passing sequence can succeed.

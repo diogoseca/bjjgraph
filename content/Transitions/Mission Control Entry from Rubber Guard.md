@@ -13,6 +13,13 @@ description: "Master Mission Control entry from Rubber Guard in BJJ. Learn grip 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Mission Control Entry from Rubber Guard/Attacker|Play as Attacker]]
+[[Mission Control Entry from Rubber Guard/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Mission Control Entry from Rubber Guard is the critical positional advancement within the 10th Planet system that converts basic rubber guard control into the locked Mission Control configuration. This transition occurs when the bottom player, having already established rubber guard with their leg threaded high across the opponent's back, secures their own shin or ankle with the same-side hand while maintaining aggressive posture control. The resulting Mission Control position creates severe shoulder isolation and opens systematic submission chains including triangles, omoplatas, and gogoplatas.

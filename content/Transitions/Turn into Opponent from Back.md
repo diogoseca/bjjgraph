@@ -13,6 +13,13 @@ description: "Master turning into your opponent from back control in BJJ. Comple
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Turn into Opponent from Back/Attacker|Play as Attacker]]
+[[Turn into Opponent from Back/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Turn into Opponent from Back is a fundamental back control escape where the bottom player rotates their body to face the opponent, transitioning from the highly disadvantageous back control position into closed guard. This escape addresses the core defensive problem of back control: the inability to see or directly counter the opponent's attacks. By systematically stripping the opponent's grips, clearing hooks, and executing a controlled rotation, the escaping player converts a position of maximum vulnerability into one of offensive potential.

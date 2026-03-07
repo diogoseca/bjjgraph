@@ -15,6 +15,13 @@ description: "Master the Von Flue Choke counter in BJJ. Complete safety guide wi
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Von Flue Choke/Attacker|Play as Attacker]]
+[[Von Flue Choke/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Von Flue Choke is a devastating counter-submission that punishes opponents who maintain an overly committed guillotine grip from bottom position. Named after Jason Von Flue who famously used it in the UFC, this technique transforms a defensive scenario into an immediate offensive threat. The choke works by using shoulder pressure combined with body weight to compress one carotid artery while the opponent's own arm compresses the other, creating a blood choke that renders the guillotine grip not only ineffective but actively dangerous for the person holding it. This submission is particularly effective in no-gi grappling where guillotine attempts are common, and it serves as a crucial defensive concept that every practitioner must understand. The psychological impact of the Von Flue choke cannot be overstated—once an opponent has been caught with it, they become hesitant to hold guillotine grips from bottom position, fundamentally changing the dynamics of guard passing exchanges. The technique demonstrates a core principle in Brazilian Jiu-Jitsu: every offensive position contains the seeds of its own defeat if held too long or too rigidly.

@@ -13,6 +13,13 @@ description: "Learn to recover posture from the Zombie lockdown position in BJJ.
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Posture Recovery from Zombie/Attacker|Play as Attacker]]
+[[Posture Recovery from Zombie/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Posture Recovery from Zombie is a critical transitional technique for the top player trapped in the 10th Planet Zombie lockdown half guard. When the bottom player has successfully broken the top player's posture using lockdown tension combined with underhook and head control, the top player must systematically work to re-establish structural integrity before any passing sequence becomes viable. This technique represents the essential first step in defeating the Zombie system from top position.

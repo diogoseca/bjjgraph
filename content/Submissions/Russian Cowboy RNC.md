@@ -15,6 +15,13 @@ description: "Master the Russian Cowboy RNC in BJJ. Complete guide to finishing 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Russian Cowboy RNC/Attacker|Play as Attacker]]
+[[Russian Cowboy RNC/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Russian Cowboy RNC is a rear naked choke applied from the Russian Cowboy back control variant, where the attacker maintains a single leg hook under the opponent's hip combined with seatbelt upper body control. This choke capitalizes on the unique mechanical advantages of the Russian Cowboy position, particularly the asymmetric control structure that limits the defender's ability to address both the hook and the choking arm simultaneously. The single-hook configuration creates rotational control that pins the defender on their side, exposing the neck and reducing their defensive hand-fighting options compared to traditional back control.

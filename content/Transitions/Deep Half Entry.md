@@ -13,6 +13,13 @@ description: "Master the Deep Half Entry from Half Guard in BJJ. Complete guide 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Deep Half Entry/Attacker|Play as Attacker]]
+[[Deep Half Entry/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Deep Half Entry is a fundamental transition from traditional half guard to the deep half guard position, representing a critical defensive recovery and offensive repositioning technique. This entry allows the bottom player to create powerful sweeping opportunities while simultaneously removing themselves from immediate passing danger. Deep half guard has become increasingly prevalent in modern competition BJJ, particularly at the highest levels, as it provides a systematic framework for dealing with pressure-based passing attempts.

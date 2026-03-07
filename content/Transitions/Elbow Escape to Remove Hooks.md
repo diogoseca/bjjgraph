@@ -13,6 +13,13 @@ description: "Master Elbow Escape to Remove Hooks from back control. Step-by-ste
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Elbow Escape to Remove Hooks/Attacker|Play as Attacker]]
+[[Elbow Escape to Remove Hooks/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Elbow Escape to Remove Hooks is a systematic defensive technique used to escape back control by methodically clearing the opponent's hooks using elbow-based framing and hip movement. When trapped in the invisible collar position, the defender faces both positional disadvantage and immediate submission threat. This escape addresses the hook control that anchors back position before dealing with upper body attacks.

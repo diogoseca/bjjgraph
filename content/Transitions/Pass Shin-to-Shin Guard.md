@@ -13,6 +13,13 @@ description: "Master passing Shin-to-Shin Guard in BJJ. Learn shin clearing mech
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Pass Shin-to-Shin Guard/Attacker|Play as Attacker]]
+[[Pass Shin-to-Shin Guard/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Passing Shin-to-Shin Guard requires a methodical approach that addresses the guard player's perpendicular shin connection before any forward pressure can safely be applied. The shin-to-shin position creates a biomechanical lever that constantly threatens the top player's base, making it impossible to simply drive through the guard without being swept or allowing transitions to more dangerous positions like Single Leg X-Guard or full X-Guard. The key strategic insight is that shin-to-shin is fundamentally a transitional position for the guard player—they intend to use it as a launchpad for sweeps and leg entanglements rather than holding it indefinitely. This means the passer must address the shin connection quickly before the guard player executes their preferred transition sequence, while simultaneously avoiding the reactive movements that feed directly into the guard player's attack chains.

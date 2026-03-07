@@ -13,6 +13,13 @@ description: "Master the Reverse Mount Transition from North-South. Step-by-step
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Reverse Mount Transition/Attacker|Play as Attacker]]
+[[Reverse Mount Transition/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Reverse Mount Transition is a strategic positional advancement that converts North-South control into reverse mount, positioning you facing your opponent's legs while seated on their torso. This transition creates immediate access to armbar attacks on both arms and offers superior control of the opponent's lower body movements compared to standard mount. The position is particularly valuable when the opponent defends North-South submissions effectively, as it shifts the attack angle entirely.

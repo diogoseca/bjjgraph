@@ -13,6 +13,13 @@ description: "Master the Lapel Elevator Sweep from Lapel Guard to Mount. Learn s
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Lapel Elevator Sweep/Attacker|Play as Attacker]]
+[[Lapel Elevator Sweep/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Lapel Elevator Sweep is a powerful off-balancing technique from lapel guard that uses the opponent's own gi fabric as a mechanical lever to execute a clean reversal to mount. This sweep capitalizes on the unique control properties of lapel guards, where the extracted lapel wrapped around the opponent's leg or torso creates persistent connection points that amplify your hip movement into dramatic off-balancing force.

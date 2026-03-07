@@ -13,6 +13,13 @@ description: "Master the Escape from Dead Orchard to Open Guard in BJJ. Complete
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Escape from Dead Orchard/Attacker|Play as Attacker]]
+[[Escape from Dead Orchard/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Escape from Dead Orchard to Open Guard is a higher-amplitude defensive transition that prioritizes creating maximum distance from the anaconda grip configuration rather than the incremental frame-and-shrimp approach of standard dead orchard escapes. Where the conventional escape targets front headlock recovery through small positional gains, this variation commits to aggressive rolling mechanics, explosive hip escape chains, and inversion to break free entirely and recover full open guard with leg frames between you and the opponent.

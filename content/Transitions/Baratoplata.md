@@ -13,6 +13,13 @@ description: "Master the Baratoplata shoulder lock finish from Omoplata Control.
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Baratoplata/Attacker|Play as Attacker]]
+[[Baratoplata/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Baratoplata is a devastating shoulder lock finish that attacks the rotator cuff through a combination of internal rotation and extension pressure. Unlike standard omoplata finishes that rely primarily on forward hip rotation, the Baratoplata incorporates an arm weave that creates additional mechanical isolation and prevents common escape attempts. The technique exemplifies sophisticated shoulder manipulation where the figure-four arm configuration traps the opponent's limb in a position where muscular defense becomes ineffective against rotational force.

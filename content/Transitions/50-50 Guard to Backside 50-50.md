@@ -13,6 +13,13 @@ description: "Master the transition from 50-50 Guard to Backside 50-50 in BJJ. L
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[50-50 Guard to Backside 50-50/Attacker|Play as Attacker]]
+[[50-50 Guard to Backside 50-50/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Transition to Backside 50-50 is a rotational positional advancement from standard 50-50 Guard Top that places your chest against your opponent's back while maintaining the mirrored leg entanglement. This transition breaks the symmetry of standard 50-50 by creating a back-facing orientation that provides superior pressure, better visual access to leg attack entries, and the constant secondary threat of abandoning the entanglement entirely for back control. The rotation fundamentally shifts the position from a roughly equal exchange into a clearly dominant configuration.

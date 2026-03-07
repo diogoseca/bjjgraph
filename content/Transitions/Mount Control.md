@@ -13,6 +13,13 @@ description: "Master mount control in BJJ. Maintain dominant position against es
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Mount Control/Attacker|Play as Attacker]]
+[[Mount Control/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Mount Control represents the ongoing process of maintaining dominant position against an actively escaping opponent. Unlike initial consolidation which establishes the mount, Mount Control addresses the dynamic battle that continues throughout the position - reading escape attempts, adjusting base in real-time, and using pressure to drain defensive resources. The fundamental principle is that mount maintenance is not passive holding but active control through constant micro-adjustments. Every time your opponent creates a frame, you eliminate it. Every bridge attempt requires base adjustment. Every hip escape must be blocked before it generates momentum. This constant responsiveness transforms mount from a position that can be escaped with patience into an inescapable cage that progressively worsens for the defender. The strategic goal of Mount Control extends beyond simply staying on top - it involves systematically degrading your opponent's defensive capacity through sustained pressure while preserving your energy and creating submission opportunities. Skilled practitioners use Mount Control to create dilemmas: the opponent's attempts to escape actually open them to attacks, while staying still allows you to advance position. This creates a lose-lose scenario for the defender where their best option becomes surrendering to a submission rather than continuing to fight the mount.

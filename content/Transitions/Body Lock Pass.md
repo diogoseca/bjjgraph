@@ -13,6 +13,13 @@ description: "Master the Body Lock Pass in BJJ. Step-by-step pressure passing fr
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Body Lock Pass/Attacker|Play as Attacker]]
+[[Body Lock Pass/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Body Lock Pass is a fundamental pressure passing technique that uses upper body control to bypass the half guard. This high-percentage pass relies on establishing a tight body lock to nullify the bottom player's frames and mobility. The technique is particularly effective in no-gi grappling where grips on clothing are unavailable, though it remains highly effective in gi training as well. The core mechanic is a clasped-hands connection behind the opponent's back that creates an unbreakable link between your torso and theirs, removing their ability to generate the space necessary for any defensive action.

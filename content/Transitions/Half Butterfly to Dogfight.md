@@ -13,6 +13,13 @@ description: "Master the Half Butterfly to Dogfight transition. Learn underhook 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Half Butterfly to Dogfight/Attacker|Play as Attacker]]
+[[Half Butterfly to Dogfight/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Half Butterfly to Dogfight transition is one of the most important positional improvements available from bottom half guard. By combining the underhook battle with butterfly hook elevation, the bottom player rises from a relatively passive half butterfly position to the dynamic dogfight, where both practitioners compete on roughly equal terms. This transition epitomizes the modern half guard philosophy of coming up rather than fighting from your back, and it creates immediate offensive threats including sweeps, back takes, and further positional advances.

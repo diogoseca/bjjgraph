@@ -15,6 +15,13 @@ description: "Master Reverse Kimura in BJJ. Complete guide with safety protocols
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Reverse Kimura/Attacker|Play as Attacker]]
+[[Reverse Kimura/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Reverse Kimura is a shoulder lock variation that applies the same rotational mechanics as the traditional Kimura but with a reversed grip configuration. Instead of the standard figure-four grip with your hand grabbing your own wrist behind the opponent's arm, the Reverse Kimura involves gripping your wrist in front of the opponent's arm, creating a different leverage angle and control pattern. This submission is particularly effective from standing positions, front headlocks, and scrambles where traditional Kimura grips may not be accessible. The Reverse Kimura shares the same target area and injury mechanism as the standard Kimura—the shoulder joint and rotator cuff—but the reversed grip often provides superior control in dynamic situations and allows for unique transitions to back takes and other submissions. The technique is highly valued in wrestling-based grappling and no-gi contexts where grip fighting and hand fighting create opportunities for unconventional entries. Understanding both the standard and reverse Kimura variations creates a more complete shoulder lock system that adapts to different gripping scenarios.

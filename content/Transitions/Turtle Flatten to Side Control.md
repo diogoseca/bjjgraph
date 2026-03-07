@@ -13,6 +13,13 @@ description: "Learn Turtle Flatten to Side Control in BJJ. Step-by-step breakdow
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Turtle Flatten to Side Control/Attacker|Play as Attacker]]
+[[Turtle Flatten to Side Control/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Turtle Flatten to Side Control is a fundamental top-game transition that converts the attacking position behind a turtled opponent into a stable, dominant side control. Rather than pursuing the back take, which requires hook insertion and harness control, flattening the turtle bypasses the opponent's strongest defensive structure — the rounded four-point base — by driving them onto their hip or belly, then circling to establish crossface and underhook control in side control. This technique is particularly valuable when the opponent is defending back takes effectively by keeping elbows tight, fighting hands aggressively, or threatening sit-throughs that make maintaining turtle top risky.

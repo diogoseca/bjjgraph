@@ -13,6 +13,13 @@ description: "Master the knee slice pass from deep half guard in BJJ. Complete g
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Knee Slice from Deep Half/Attacker|Play as Attacker]]
+[[Knee Slice from Deep Half/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The knee slice from deep half guard is a high-priority passing technique for the top player trapped in an opponent's deep half guard. When an opponent secures deep half, they create a powerful lever system underneath your hips that threatens constant sweeps. The knee slice provides a direct, efficient path to side control by cutting the knee across the opponent's body while using upper body pressure to flatten them and neutralize their sweep mechanics. This pass requires careful coordination between crossface pressure, weight distribution, and leg extraction timing.

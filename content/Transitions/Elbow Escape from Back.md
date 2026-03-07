@@ -13,6 +13,13 @@ description: "Master the elbow escape from back control in BJJ. Complete guide t
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Elbow Escape from Back/Attacker|Play as Attacker]]
+[[Elbow Escape from Back/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The elbow escape from back control is a foundational defensive technique that allows the bottom player to systematically address the opponent's hook control and work toward recovering half guard. Unlike explosive escapes that rely on timing and athleticism, the elbow escape employs methodical framing against the opponent's legs combined with deliberate hip movement to create the space needed for positional recovery. This technique is considered essential knowledge for all practitioners because back control represents the most dangerous position in Brazilian Jiu-Jitsu, and having a reliable, repeatable escape methodology is critical for survival and competitive success.

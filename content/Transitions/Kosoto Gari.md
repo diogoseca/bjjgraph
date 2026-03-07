@@ -13,6 +13,13 @@ description: "Master Kosoto Gari (Minor Outer Reap) in BJJ. Step-by-step executi
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Kosoto Gari/Attacker|Play as Attacker]]
+[[Kosoto Gari/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Kosoto Gari (Minor Outer Reap) is a fundamental judo-derived foot sweep that has become essential in modern BJJ's standing game. Unlike explosive forward throws, Kosoto Gari capitalizes on subtle weight distribution, timing, and off-balancing to sweep the opponent's weight-bearing leg from beneath them. The technique combines a pulling motion with upper body control while simultaneously reaping the opponent's heel backward and upward. This creates a powerful rotation that deposits the opponent on their back, allowing immediate transition to dominant positions like side control or knee on belly. The beauty of Kosoto Gari lies in its mechanical efficiency - it requires minimal strength when executed with proper timing, making it accessible to practitioners of all sizes. The technique is particularly effective against opponents who resist forward throws by posting their weight backward, as this natural defensive reaction places them perfectly into Kosoto Gari's zone of vulnerability. In competition, Kosoto Gari scores as a throw and frequently results in immediate positional dominance, making it a high-percentage technique for gi and no-gi contexts alike.

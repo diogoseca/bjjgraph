@@ -13,6 +13,13 @@ description: "Master the Escape from Reverse Scarf Hold in BJJ. Learn systematic
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Escape Reverse Scarf Hold/Attacker|Play as Attacker]]
+[[Escape Reverse Scarf Hold/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Escape from Reverse Scarf Hold is a systematic frame-based hip escape that addresses one of the more challenging pin configurations in Brazilian Jiu-Jitsu. In reverse scarf hold, the top player faces away from the bottom player's head toward their legs, distributing crushing chest pressure through their hips while controlling the near-side arm. This reverse orientation disrupts standard escape patterns, requiring the bottom player to develop specific framing sequences and shrimping mechanics tailored to the unique pressure angle rather than relying on conventional side control escape movements.

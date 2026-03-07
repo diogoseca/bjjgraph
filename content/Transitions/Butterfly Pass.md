@@ -13,6 +13,13 @@ description: "Master the Butterfly Pass in BJJ. Complete guide to neutralizing b
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Butterfly Pass/Attacker|Play as Attacker]]
+[[Butterfly Pass/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Butterfly Pass is a fundamental guard passing technique designed to neutralize and overcome the butterfly guard's sweeping threats. This pass relies on superior base, weight distribution, and methodical pressure application to eliminate your opponent's hooks while advancing to a dominant position. The technique represents the essential answer to butterfly guard retention, combining defensive posture with offensive advancement. Understanding this pass is critical because butterfly guard is one of the most dynamic and threatening guard positions in modern BJJ. The passer must simultaneously defend against powerful sweeps while creating angles to pass. Success depends on recognizing when butterfly hooks are vulnerable, maintaining proper base through strategic weight shifting, and exploiting the opponent's reactions to secure dominant control. This pass serves as the foundation for all butterfly guard passing strategies.

@@ -13,6 +13,13 @@ description: "Master guard recovery from triangle control in BJJ. Step-by-step g
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Guard Recovery from Triangle Control/Attacker|Play as Attacker]]
+[[Guard Recovery from Triangle Control/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Guard Recovery from Triangle Control is a defensive transition where the top player caught in their opponent's triangle works to reestablish a neutral guard position. When partial escape from the triangle is achieved but full extraction is not yet complete, the top player must recover to closed guard top where they can reset and work to pass rather than remaining trapped in the dangerous triangle configuration. This recovery involves posture management, systematic hand fighting to address the leg lock, and controlled positioning to prevent the bottom player from re-tightening the triangle or transitioning to armbar or omoplata attacks.

@@ -13,6 +13,13 @@ description: "Master the Triangle Setup from De La Riva Guard in BJJ. Complete g
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Triangle Setup from De La Riva/Attacker|Play as Attacker]]
+[[Triangle Setup from De La Riva/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Triangle Setup from De La Riva Guard exploits the angular relationship inherent in DLR to isolate one of the opponent's arms and shoot the legs into triangle position. The technique leverages the existing DLR hook to control the opponent's lead leg while the cross grip on the far sleeve creates the arm isolation necessary for triangle entry. When the opponent's posture breaks forward, the guard player shoots their non-hooking leg across the back of the opponent's neck while simultaneously releasing the DLR hook and closing the triangle.

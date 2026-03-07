@@ -15,6 +15,13 @@ description: "Master North-South Choke in BJJ. Complete guide with setup from to
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[North-South Choke/Attacker|Play as Attacker]]
+[[North-South Choke/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The North-South Choke is a powerful compression-based blood choke applied from the North-South position, targeting the opponent's carotid arteries through combined pressure from the attacker's bicep, shoulder, and body weight. Unlike traditional arm chokes that rely on limb positioning, this submission leverages the unique geometry of North-South control to create an inescapable vise around the neck. The technique's effectiveness stems from its ability to disguise the choking mechanism—the opponent often doesn't realize they're being choked until the submission is nearly complete, as the pressure builds gradually through positional consolidation rather than obvious arm placement. This makes it particularly effective in both gi and no-gi contexts, though gi variations offer additional gripping options for enhanced control. The North-South Choke represents a fundamental example of using superior position and body mechanics to create submissions without relying on complex limb entanglements, making it accessible to practitioners at all levels while remaining dangerously effective at the highest levels of competition.

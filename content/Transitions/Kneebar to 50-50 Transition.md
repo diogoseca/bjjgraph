@@ -13,6 +13,13 @@ description: "Master the kneebar to 50-50 transition in BJJ. Learn to flow from 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Kneebar to 50-50 Transition/Attacker|Play as Attacker]]
+[[Kneebar to 50-50 Transition/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The kneebar to 50-50 transition represents a strategic positional shift within the modern leg attack system, employed when the kneebar finish from top control is effectively defended. Rather than continuing to force a low-percentage submission against a bent knee defense, the attacker threads their legs into a 50-50 configuration, converting positional control into a new attack platform with access to heel hooks, calf slicers, and back takes.

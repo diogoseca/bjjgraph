@@ -13,6 +13,13 @@ description: "Master passing Squid Guard in BJJ. Complete guide to clearing lape
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Pass Squid Guard/Attacker|Play as Attacker]]
+[[Pass Squid Guard/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Pass Squid Guard is a systematic guard passing sequence designed to neutralize the bottom player's asymmetrical lapel control and threading leg configuration. The pass requires methodical lapel clearing combined with postural discipline before any traditional passing mechanics can be applied. Unlike standard open guard passes where grip fighting and directional pressure are the primary concerns, Squid Guard passing demands a preliminary phase dedicated entirely to removing the fabric entanglement that defines the position.

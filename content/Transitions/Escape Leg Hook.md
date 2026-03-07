@@ -13,6 +13,13 @@ description: "Master the Escape Leg Hook in BJJ. Systematic hip escape and frame
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Escape Leg Hook/Attacker|Play as Attacker]]
+[[Escape Leg Hook/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Escape Leg Hook is a methodical guard recovery technique employed when the bottom player is caught in the Leg Hook position, where the top player has threaded their leg underneath or around the bottom player's defending leg during a half guard passing sequence. Unlike the Counter Leg Hook which uses explosive movement to reach turtle, this escape focuses on systematic frame establishment, incremental hip escape, and controlled leg extraction to recover a standard Half Guard position with proper defensive structure intact.

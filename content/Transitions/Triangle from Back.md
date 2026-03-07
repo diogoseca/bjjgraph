@@ -13,6 +13,13 @@ description: "Learn Triangle from Back in BJJ. Step-by-step setup from Harness t
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Triangle from Back/Attacker|Play as Attacker]]
+[[Triangle from Back/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Triangle from Back is an advanced submission setup that transitions from the harness (seat belt) back control position into a rear triangle configuration. Rather than attacking the neck directly with a rear naked choke, the practitioner threads one leg over the opponent's shoulder and locks a figure-four triangle around the head and one arm, establishing the Rear Triangle control position. This technique exploits a common defensive pattern where the opponent strips the choking arm or tucks their chin aggressively against the rear naked choke, opening the space needed to insert the leg over the shoulder.

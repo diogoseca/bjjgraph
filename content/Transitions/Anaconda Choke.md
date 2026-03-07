@@ -13,6 +13,13 @@ description: "Master the Anaconda Choke in BJJ. Step-by-step execution from Fron
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Anaconda Choke/Attacker|Play as Attacker]]
+[[Anaconda Choke/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Anaconda Choke is a powerful arm-in head-and-arm choke that creates devastating compression against the carotid arteries. Unlike the Darce which threads from under the armpit, the anaconda grip enters from the front by threading under the opponent's near arm and around their neck, with hands clasped on the far side. This creates a constricting loop that tightens as you pull your choking elbow toward your hip while driving chest pressure into their trapped shoulder.

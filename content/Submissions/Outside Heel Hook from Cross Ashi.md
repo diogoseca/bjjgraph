@@ -15,6 +15,13 @@ description: "Master the outside heel hook from Cross Ashi-Garami. Complete guid
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Outside Heel Hook from Cross Ashi/Attacker|Play as Attacker]]
+[[Outside Heel Hook from Cross Ashi/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The outside heel hook from Cross Ashi-Garami is one of the highest-percentage leg lock finishes in modern submission grappling. The cross ashi configuration provides exceptional rotational control over the opponent's trapped leg, with the crossed leg positioning creating a wedge effect that severely limits the defender's hip rotation and knee retraction. This mechanical advantage makes heel exposure and finishing significantly more reliable than from standard outside ashi-garami, as the opponent cannot generate the defensive hip movement needed to hide their heel or relieve rotational pressure on the knee.

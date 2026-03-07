@@ -13,6 +13,13 @@ description: "Master the Sweep from Chill Dog in BJJ. Reverse compact turtle def
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Sweep from Chill Dog/Attacker|Play as Attacker]]
+[[Sweep from Chill Dog/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Sweep from Chill Dog transforms a traditionally defensive turtle variant into an offensive reversal, catching opponents off guard when they expect only survival-oriented responses from the bottom player. From the compact Chill Dog shell, the bottom practitioner exploits the top player's forward weight commitment to execute a sit-out reversal that ends in full mount, representing one of the highest-value positional transitions available from any turtle variant.

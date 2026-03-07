@@ -13,6 +13,13 @@ description: "Master escaping the Vaporizer in BJJ. Complete guide to clearing l
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Escape from Vaporizer/Attacker|Play as Attacker]]
+[[Escape from Vaporizer/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Escape from Vaporizer is one of the most technically demanding defensive transitions in no-gi grappling, requiring the top player to systematically dismantle a compound control system that attacks through multiple vectors simultaneously. The Vaporizer—a hallmark of the 10th Planet system—combines the lockdown leg entanglement with the destabilizing whip-up motion and upper body control through an underhook or overhook, creating a position that threatens sweeps, back takes, and submissions like the Electric Chair in rapid succession. Unlike escaping a standard half guard bottom, escaping the Vaporizer requires addressing interconnected control points that reinforce each other.

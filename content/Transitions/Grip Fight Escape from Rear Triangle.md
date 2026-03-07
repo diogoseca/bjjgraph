@@ -13,6 +13,13 @@ description: "Master the grip fight escape from rear triangle in BJJ. Systematic
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Grip Fight Escape from Rear Triangle/Attacker|Play as Attacker]]
+[[Grip Fight Escape from Rear Triangle/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Grip Fight Escape from Rear Triangle is a methodical defensive technique employed when caught in one of BJJ's most dangerous back control configurations. Rather than relying on explosive movement or positional scrambles, this escape uses systematic hand fighting to dismantle the opponent's triangle lock grip by grip. The technique centers on using the free hand to target the structural weak points of the triangle configuration, specifically the ankle-to-knee connection that maintains the figure-four lock and the wrist controls that prevent arm extraction.

@@ -15,6 +15,13 @@ description: "Master the Triangle Choke in BJJ. Complete safety guide with setup
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Triangle Choke/Attacker|Play as Attacker]]
+[[Triangle Choke/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Triangle Choke is one of Brazilian Jiu-Jitsu's most fundamental and high-percentage blood chokes, typically executed from the bottom position in closed guard. By trapping the opponent's head and one arm between your legs while using your shin to compress the neck, you create a triangle configuration that occludes the carotid arteries and restricts blood flow to the brain. The effectiveness of the triangle lies in its mechanical efficiency—once properly locked, it requires minimal strength to finish and becomes progressively tighter as the opponent struggles.

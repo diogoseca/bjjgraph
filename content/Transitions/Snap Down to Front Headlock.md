@@ -13,6 +13,13 @@ description: "Master the Snap Down to Front Headlock in BJJ. Complete guide cove
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Snap Down to Front Headlock/Attacker|Play as Attacker]]
+[[Snap Down to Front Headlock/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Snap Down to Front Headlock is a fundamental wrestling-based technique that transitions from standing clinch positions to dominant ground control. This technique exploits opponent's posture and weight distribution by using explosive downward force combined with precise grip positioning to break their base and establish front headlock control. The snap down is particularly effective against opponents who maintain upright posture or attempt to establish collar ties, as it capitalizes on their forward pressure and redirects their momentum downward.

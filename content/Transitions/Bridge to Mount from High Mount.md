@@ -13,6 +13,13 @@ description: "Master the Bridge to Mount escape from High Mount in BJJ. Explosiv
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Bridge to Mount from High Mount/Attacker|Play as Attacker]]
+[[Bridge to Mount from High Mount/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Bridge to Mount from High Mount is a fundamental defensive technique where the bottom player uses explosive hip extension to displace the top player's elevated knee positioning, forcing them to slide back from high mount to standard mount. While this does not constitute a full escape, it represents a critical positional regression that moves the bottom player from one of the most submission-dense positions in BJJ to a more manageable defensive scenario where traditional escape mechanics become viable again.

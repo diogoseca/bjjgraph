@@ -13,6 +13,13 @@ description: "Master Technical Mount to Mount consolidation in BJJ. Learn leg re
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Technical Mount to Mount/Attacker|Play as Attacker]]
+[[Technical Mount to Mount/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Technical Mount to Mount is the consolidation transition where the top player returns from the asymmetric Technical Mount configuration to standard full Mount. This transition typically occurs when armbar and submission opportunities from Technical Mount have not materialized—either the bottom player successfully defended arm isolation, retracted their arm before the swing-over, or defensive framing made continued Technical Mount suboptimal. Rather than forcing a low-percentage finish, the experienced practitioner recognizes when consolidation preserves positional dominance more effectively than persistent attacking from a compromised angle.

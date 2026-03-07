@@ -13,6 +13,13 @@ description: "Master the guard pass from Williams Guard in BJJ. Complete guide t
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Guard Pass from Williams Guard/Attacker|Play as Attacker]]
+[[Guard Pass from Williams Guard/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The guard pass from Williams Guard is a specialized passing sequence that addresses one of modern grappling's most mechanically challenging guard retention systems. Unlike standard guard passes where the top player can immediately address leg frames and hip movement, this pass requires a preliminary phase of arm extraction and shoulder lock neutralization before any traditional passing mechanics become viable. The trapped arm creates a unique constraint that fundamentally alters the passing hierarchy—submission defense must precede positional advancement, and rushing the sequence virtually guarantees either submission or sweep.

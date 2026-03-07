@@ -13,6 +13,13 @@ description: "Master the leg drag pass from headquarters in BJJ. Step-by-step gu
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Leg Drag from Headquarters/Attacker|Play as Attacker]]
+[[Leg Drag from Headquarters/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The leg drag from headquarters is one of the highest-percentage guard passing techniques in modern Brazilian Jiu-Jitsu, functioning as a core component of systematic passing methodology. From the headquarters position, where the top player already controls one of the opponent's legs between their own, the leg drag extends this control by pulling the controlled leg across the opponent's centerline and pinning it to the mat. This creates a powerful angular passing position that simultaneously eliminates the opponent's ability to use their legs for guard retention while opening direct pathways to side control, back control, and submission attacks.

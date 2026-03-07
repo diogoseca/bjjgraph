@@ -13,6 +13,13 @@ description: "Master the Sweep from Diamond Guard in BJJ. Learn to leverage the 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Sweep from Diamond Guard/Attacker|Play as Attacker]]
+[[Sweep from Diamond Guard/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Sweep from Diamond Guard exploits the structural advantages of the diamond frame — the overhook combined with head control — to create a high-percentage sweeping opportunity toward mount. Unlike standard closed guard sweeps that require isolating an opponent's posting arm, the diamond guard configuration already eliminates one posting option through the deep overhook, making the sweep mechanically simpler and more reliable against resisting opponents.

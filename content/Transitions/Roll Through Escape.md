@@ -13,6 +13,13 @@ description: "Master the Roll Through Escape from Twister Control. Learn spinal 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Roll Through Escape/Attacker|Play as Attacker]]
+[[Roll Through Escape/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Roll Through Escape represents the primary method of escaping Twister Control by using rotational momentum to realign the spine and recover guard position. This technique exploits the fundamental weakness of Twister Control: the rotational constraint that traps you can be reversed by rolling with the twist rather than against it, using the opponent's own rotational pressure to generate escape momentum.

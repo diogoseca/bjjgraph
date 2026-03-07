@@ -15,6 +15,13 @@ description: "Master the Armbar from S Mount in BJJ. Step-by-step guide covering
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Armbar from S Mount/Attacker|Play as Attacker]]
+[[Armbar from S Mount/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Armbar from S Mount is one of the highest-percentage submissions in Brazilian Jiu-Jitsu, leveraging the perpendicular body angle and arm isolation inherent to the S Mount position. From this dominant configuration, the top practitioner has already completed the most difficult phase of the armbar—isolating the arm and establishing leg control over the opponent's head and torso. The submission becomes a matter of technical finishing rather than positional setup, which accounts for its exceptional success rate at all competitive levels.

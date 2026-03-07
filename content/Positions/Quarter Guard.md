@@ -13,6 +13,13 @@ description: "Master Quarter Guard in BJJ. Strategic guide covering bottom defen
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Quarter Guard/Bottom|Play as Bottom]]
+[[Quarter Guard/Top|Play as Top]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Quarter Guard represents a critical transitional position in Brazilian Jiu-Jitsu's guard passing and retention hierarchy, occupying the narrow space between functional half guard and completed pass. This position emerges when the top player has advanced significantly past the bottom player's hip line but the bottom player maintains minimal leg engagement—typically just a weakened knee shield, partial hook, or quarter lockdown. Unlike full half guard where the bottom player has substantial control and time to develop attacks, quarter guard is inherently unstable and demands immediate decision-making from both practitioners.

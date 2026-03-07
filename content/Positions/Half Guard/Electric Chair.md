@@ -13,6 +13,13 @@ description: "Master Electric Chair position in BJJ. 10th Planet's lockdown swee
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Electric Chair/Bottom|Play as Bottom]]
+[[Electric Chair/Top|Play as Top]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Electric Chair is a devastating attacking position from the lockdown half guard system, popularized by 10th Planet Jiu-Jitsu. This position combines elements of a sweep, submission threat, and positional control, creating a powerful offensive weapon from bottom half guard. The practitioner uses the lockdown to control the opponent's leg while simultaneously elevating their hips and creating a crotch-splitting pressure that forces the opponent into increasingly compromised positions.

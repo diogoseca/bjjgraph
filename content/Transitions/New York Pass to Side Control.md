@@ -13,6 +13,13 @@ description: "Master the New York pass to side control in BJJ. Complete guide to
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[New York Pass to Side Control/Attacker|Play as Attacker]]
+[[New York Pass to Side Control/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The New York Pass to Side Control is a systematic guard passing technique for escaping 10th Planet's Rubber Guard system. When trapped in the New York position with your arm caught in a deep overhook and your posture broken by the opponent's shin across your back, this pass provides a methodical pathway to achieve dominant side control through sequential posture recovery, grip fighting, and pressure application. The pass prioritizes patient, step-by-step dismantling of the rubber guard controls over explosive escape attempts that typically fail against competent guard players.

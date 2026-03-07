@@ -13,6 +13,13 @@ description: "Learn the Standing Switch Defense for BJJ rear clinch control. Cou
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Standing Switch Defense/Attacker|Play as Attacker]]
+[[Standing Switch Defense/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Standing Switch Defense is a critical counter-technique employed by the controlling player in a standing rear clinch when their opponent attempts a switch escape. The switch is among the most effective wrestling-based reversals from rear standing control, where the controlled practitioner drops their hips, reaches one arm back between the controller's legs, and pivots 180 degrees to reverse or neutralize the position. Without reliable switch defense, maintaining rear clinch control becomes unsustainable against experienced wrestlers or grapplers with strong standing reversal skills.

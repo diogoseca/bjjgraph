@@ -13,6 +13,13 @@ description: "Master inverted lasso guard in BJJ. Strategic guide covering setup
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Inverted Lasso Guard/Bottom|Play as Bottom]]
+[[Inverted Lasso Guard/Top|Play as Top]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Inverted Lasso Guard represents an advanced variation of traditional lasso guard where the practitioner maintains the lasso hook while inverting their body position, typically rolling backwards onto their shoulders while keeping one leg laced through the opponent's arm. This position emerged from modern sport jiu-jitsu as competitors discovered that inverting created superior angles for sweeps and back takes that were difficult to counter from standard lasso positioning.

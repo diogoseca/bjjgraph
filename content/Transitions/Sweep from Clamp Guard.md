@@ -13,6 +13,13 @@ description: "Master the Sweep from Clamp Guard in BJJ. Complete guide to exploi
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Sweep from Clamp Guard/Attacker|Play as Attacker]]
+[[Sweep from Clamp Guard/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Sweep from Clamp Guard exploits the fundamental asymmetry created by arm isolation — with one arm trapped between the guard player's legs, the opponent has only a single arm available for basing and balance. This structural deficit makes the opponent vulnerable to directional off-balancing that would be insufficient against a fully-based opponent. The sweep capitalizes on this compromised base by combining the clamp's controlling mechanics with hip elevation and directional force to topple the opponent and achieve mount.

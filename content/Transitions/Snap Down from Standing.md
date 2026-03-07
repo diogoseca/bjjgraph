@@ -13,6 +13,13 @@ description: "Master the snap down from standing in BJJ. Complete guide to break
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Snap Down from Standing/Attacker|Play as Attacker]]
+[[Snap Down from Standing/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The snap down from standing is a fundamental wrestling-derived technique that has become essential in modern Brazilian Jiu-Jitsu. By applying a sharp downward pull on the opponent's head or neck, the attacker breaks their posture and drives them toward the mat, creating the opportunity to establish front headlock control. The technique exploits moments when the opponent's weight shifts forward during grip fighting or when they extend their head past their base, redirecting that forward momentum straight down.

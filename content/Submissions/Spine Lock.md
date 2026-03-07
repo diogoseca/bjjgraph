@@ -15,6 +15,13 @@ description: "Master the Spine Lock submission in BJJ. Advanced spinal compressi
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Spine Lock/Attacker|Play as Attacker]]
+[[Spine Lock/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Spine Lock is an advanced spinal compression submission that targets the opponent's vertebral column through hyperextension and rotational pressure. Popularized within the 10th Planet system, this technique creates extreme discomfort through mechanical pressure on the spine rather than joint manipulation. The submission is primarily accessed from the Truck position, where the attacker controls one leg while the opponent's body is inverted and vulnerable. The Spine Lock exemplifies the principle of using body positioning and leverage to create inescapable pressure without relying on limb isolation. This technique requires exceptional body awareness, precise control, and absolute commitment to safety protocols due to the vulnerability of the spinal column.

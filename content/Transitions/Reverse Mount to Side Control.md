@@ -13,6 +13,13 @@ description: "Master the Reverse Mount to Side Control transition in BJJ. Step-b
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Reverse Mount to Side Control/Attacker|Play as Attacker]]
+[[Reverse Mount to Side Control/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Reverse Mount to Side Control transition is a fundamental positional conversion where the top practitioner rotates from the inherently unstable reverse mount into the more sustainable and dominant side control position. While reverse mount scores the same points as standard mount, its backward orientation compromises visual awareness and long-term control. Converting to side control establishes perpendicular chest-to-torso alignment that offers superior submission chains and positional sustainability.

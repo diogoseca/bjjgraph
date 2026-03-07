@@ -13,6 +13,13 @@ description: "Master the defensive frame from Side Control Consolidation in BJJ.
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Frame from Side Control Consolidation/Attacker|Play as Attacker]]
+[[Frame from Side Control Consolidation/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Frame from Side Control Consolidation is the foundational defensive micro-transition that separates competent bottom players from those who get systematically crushed under side pressure. During the consolidation phase, the top player is actively tightening control, settling chest weight, and eliminating space. The bottom player's first and most critical task is establishing skeletal frames using forearm bones against the opponent's hip and shoulder structures. These frames create mechanical barriers that prevent full weight settlement and preserve the breathing space and hip mobility required for subsequent escape sequences.

@@ -13,6 +13,13 @@ description: "Learn Technical Standup from Inversion in BJJ. Step-by-step execut
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Technical Standup from Inversion/Attacker|Play as Attacker]]
+[[Technical Standup from Inversion/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Technical Standup from Inversion is a critical transitional skill that allows a grasshopper guard player to safely exit the inverted position and return to a standing open guard engagement. When the opponent disengages or creates too much distance for effective leg attacks from grasshopper guard, remaining inverted becomes a liability rather than an asset. This technique bridges the gap between the high-energy inverted posture and a sustainable standing guard where the practitioner can reset their offensive options.

@@ -13,6 +13,13 @@ description: "Master the Inside Heel Hook from Ushiro Ashi-Garami. Step-by-step 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Inside Heel Hook from Ushiro/Attacker|Play as Attacker]]
+[[Inside Heel Hook from Ushiro/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Inside Heel Hook from Ushiro Ashi-Garami represents one of the most technically demanding finishes in modern leg lock systems. This submission targets the knee's rotational integrity through the reversed leg entanglement configuration, requiring significant adjustments to standard heel hook mechanics due to the opponent's inverted hip position.

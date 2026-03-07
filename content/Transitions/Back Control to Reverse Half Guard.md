@@ -13,6 +13,13 @@ description: "Master the transition from back control to reverse half guard in B
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Back Control to Reverse Half Guard/Attacker|Play as Attacker]]
+[[Back Control to Reverse Half Guard/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The transition to reverse half guard from back control occurs when the back attacker's hooks are being cleared or the bottom player begins successfully turning to face their opponent. Rather than fighting to maintain deteriorating back control, the top player proactively backsteps into reverse half guard, preserving top position and offensive momentum. This transition converts a potentially losing positional battle into a strong passing position with back take and leg drag options.

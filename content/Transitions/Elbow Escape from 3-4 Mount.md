@@ -13,6 +13,13 @@ description: "Master the Elbow Escape from 3-4 Mount in BJJ. Complete guide to h
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Elbow Escape from 3-4 Mount/Attacker|Play as Attacker]]
+[[Elbow Escape from 3-4 Mount/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Elbow Escape from 3-4 Mount is the primary hip-based escape technique available to the bottom player when trapped under the asymmetric 3-4 mount configuration. Unlike escaping traditional mount where both sides present equal resistance, the 3-4 mount's asymmetric weight distribution creates a natural escape corridor toward the posted leg side where the top player has fewer contact points and compromised base stability. The technique employs systematic hip escape mechanics combined with precise frame placement to create sufficient space for knee insertion and half guard recovery.

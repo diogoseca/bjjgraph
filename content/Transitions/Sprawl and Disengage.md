@@ -13,6 +13,13 @@ description: "Learn Sprawl and Disengage in BJJ. Escape inverted guards safely b
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Sprawl and Disengage/Attacker|Play as Attacker]]
+[[Sprawl and Disengage/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Sprawl and Disengage is a fundamental defensive technique used when facing grasshopper guard and other inverted guard positions. When an opponent inverts and threatens leg entanglements, the sprawl creates immediate distance by driving your hips backward and down toward the mat, removing your legs from their attacking range before they can establish hooks or grips.

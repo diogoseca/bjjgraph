@@ -15,6 +15,13 @@ description: "Master the Body Triangle RNC in BJJ. Complete finishing guide comb
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Body Triangle RNC/Attacker|Play as Attacker]]
+[[Body Triangle RNC/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Body Triangle RNC represents the ultimate combination finishing technique from back control, merging the oppressive torso compression of the body triangle with the blood-restriction mechanics of the rear naked choke. This dual-threat attack system creates compounding physiological pressure that dramatically accelerates the submission timeline compared to either technique applied independently. The body triangle locks the opponent's hips and restricts diaphragmatic breathing, while the RNC targets the carotid arteries, attacking both respiratory and circulatory systems simultaneously.

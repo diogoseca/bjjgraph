@@ -13,6 +13,13 @@ description: "Master the Sweep from Meathook in BJJ. Convert Rubber Guard arm is
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Sweep from Meathook/Attacker|Play as Attacker]]
+[[Sweep from Meathook/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Sweep from Meathook exploits the extreme arm isolation and postural compromise inherent in the Meathook position to execute a high-percentage reversal to mount. When the bottom player has established the shin hook over the opponent's tricep and broken their posture, the top player's base becomes critically compromised. They effectively have only one arm available for posting and their weight distribution is pulled forward and toward the trapped arm side. This structural weakness creates the mechanical foundation for the sweep, which uses a combination of hip elevation, directional force through the trapped arm lever, and coordinated leg drive to topple the opponent over their isolated limb.

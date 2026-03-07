@@ -13,6 +13,13 @@ description: "Learn the Transition to Clamp Guard in BJJ. Complete guide to esta
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Transition to Clamp Guard/Attacker|Play as Attacker]]
+[[Transition to Clamp Guard/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Transition to Clamp Guard is the entry sequence from open guard into the clamp guard position, where the bottom player isolates one of the opponent's arms by trapping it between the legs with a shin pressing across the bicep. This transition exploits a fundamental timing window — the moment the top player reaches inside the guard player's legs to establish grips or initiate a pass. That reaching arm becomes the target for the clamp, transforming a passing attempt into a positional disadvantage.

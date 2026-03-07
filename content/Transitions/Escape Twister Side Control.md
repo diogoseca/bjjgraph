@@ -13,6 +13,13 @@ description: "Master the escape from twister side control in BJJ. Complete guide
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Escape Twister Side Control/Attacker|Play as Attacker]]
+[[Escape Twister Side Control/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Escape from Twister Side Control is a systematic defensive technique for extracting yourself from one of the most submission-dense lateral control positions in modern no-gi grappling. Twister Side Control combines leg entanglement with shoulder pressure and rotational torque on the spine, creating immediate threats to spinal integrity that demand a methodical, layered approach rather than explosive movements. The position's unique control mechanics—drawn from the 10th Planet system—neutralize conventional side control escapes, requiring practitioners to develop specialized defensive skills.

@@ -13,6 +13,13 @@ description: "Master Mission Control in BJJ: the dominant rubber guard control p
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Mission Control/Bottom|Play as Bottom]]
+[[Mission Control/Top|Play as Top]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Mission Control is the foundational control position within 10th Planet's rubber guard system, representing the critical transitional state between basic high guard and the offensive attacks that define 10th Planet Jiu-Jitsu. From the bottom of closed guard, Mission Control is achieved when the practitioner establishes a high guard with one leg controlling the opponent's shoulder while maintaining strong grips on the opponent's head and arm. This position is characterized by extreme hip elevation, shoulder isolation, and the ability to break down the opponent's posture completely.

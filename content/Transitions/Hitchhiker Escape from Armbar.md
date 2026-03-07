@@ -13,6 +13,13 @@ description: "Master the Hitchhiker Escape from Armbar in BJJ. Learn the rotatio
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Hitchhiker Escape from Armbar/Attacker|Play as Attacker]]
+[[Hitchhiker Escape from Armbar/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Hitchhiker Escape is one of the most reliable armbar defense techniques in Brazilian Jiu-Jitsu, named for the distinctive thumb-up hand position that initiates the escape sequence. When caught in an armbar from the bottom position, the defender rotates their trapped arm so the thumb points toward their own head, then uses a coordinated bridge and body rotation to spin their entire body in the direction of the thumb. This rotational movement exploits a fundamental weakness in armbar mechanics: the armbar controls extension in one plane, but rotation perpendicular to that plane creates an escape vector that is extremely difficult to counter with simple squeezing.

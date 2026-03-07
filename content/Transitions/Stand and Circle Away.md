@@ -13,6 +13,13 @@ description: "Learn Stand and Circle Away escape from Front Headlock. Step-by-st
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Stand and Circle Away/Attacker|Play as Attacker]]
+[[Stand and Circle Away/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Stand and Circle Away is a fundamental defensive escape from the front headlock position that prioritizes returning to a neutral standing position through deliberate posture recovery and angular movement. Unlike rolling escapes or guard recovery options, this technique directly addresses the core problem of the front headlock — compromised posture — by rebuilding your base from the ground up and then using lateral movement to break free of the opponent's controlling grips.

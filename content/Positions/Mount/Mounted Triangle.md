@@ -13,6 +13,13 @@ description: "Master mounted triangle position in BJJ. High-risk, high-reward po
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Mounted Triangle/Bottom|Play as Bottom]]
+[[Mounted Triangle/Top|Play as Top]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Mounted Triangle represents one of Brazilian Jiu-Jitsu's most dynamic and high-reward positions, blending the dominant control characteristics of mount with the submission threat of triangle mechanics. This hybrid position emerges when the top practitioner transitions from standard mount or high mount into a triangle configuration while maintaining superior positioning.

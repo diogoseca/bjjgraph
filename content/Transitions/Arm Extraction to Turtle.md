@@ -13,6 +13,13 @@ description: "Learn Arm Extraction to Turtle escape from Aoki Lock. Step-by-step
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Arm Extraction to Turtle/Attacker|Play as Attacker]]
+[[Arm Extraction to Turtle/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Arm Extraction to Turtle is a critical defensive escape executed when caught in the Aoki Lock bottom position, where your opponent has secured leg entanglement control over your shoulder with omoplata-style pressure. This escape addresses one of the most dangerous submission control positions by systematically addressing the leg entanglement before extracting the trapped arm, ultimately recovering to turtle position where you can work toward guard recovery or standing.

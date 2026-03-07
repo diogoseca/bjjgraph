@@ -13,6 +13,13 @@ description: "Master the flattened half guard position in BJJ. Complete guide co
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Flattened Half Guard/Bottom|Play as Bottom]]
+[[Flattened Half Guard/Top|Play as Top]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Flattened Half Guard represents one of the most challenging defensive scenarios in Brazilian Jiu-Jitsu. Unlike the traditional half guard where the bottom player maintains an active frame and hip mobility, the flattened variation occurs when the top player successfully collapses the bottom player's structure, driving their chest and weight directly onto the opponent's torso while controlling the trapped leg. This position eliminates most of the bottom player's offensive capabilities and transforms half guard from a dynamic attacking position into a pure survival scenario.

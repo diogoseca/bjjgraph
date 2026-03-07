@@ -13,6 +13,13 @@ description: "Master Deep Half Guard in BJJ. Strategic guide covering sweeps, ba
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Deep Half Guard/Bottom|Play as Bottom]]
+[[Deep Half Guard/Top|Play as Top]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Deep Half Guard is an advanced guard position where the bottom player positions themselves underneath one of the opponent's legs, creating a powerful leverage point for sweeps and back takes. Unlike traditional half guard where the opponent's leg is trapped between the bottom player's legs, deep half involves the bottom player getting their entire upper body underneath the opponent's center of gravity, often with the shoulder positioned at the opponent's far hip. This position offers exceptional sweeping leverage and is particularly effective for smaller practitioners against larger opponents.

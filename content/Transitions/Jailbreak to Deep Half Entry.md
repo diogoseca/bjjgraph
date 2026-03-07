@@ -13,6 +13,13 @@ description: "Master the Jailbreak to Deep Half Entry in BJJ. Transition from co
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Jailbreak to Deep Half Entry/Attacker|Play as Attacker]]
+[[Jailbreak to Deep Half Entry/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Jailbreak to Deep Half Entry represents a critical transition in the half guard game, offering an alternative pathway when the explosive rolling escape is defended or suboptimal. This technique transforms the compromised jailbreak position into deep half guard, one of the most powerful sweeping and back-taking positions in modern grappling. The entry exploits the natural body positioning of the jailbreak configuration, where your underhook and hip angle are already oriented toward diving underneath your opponent.

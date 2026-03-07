@@ -13,6 +13,13 @@ description: "Learn the Ankle Pick takedown in BJJ. Step-by-step execution from 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Ankle Pick/Attacker|Play as Attacker]]
+[[Ankle Pick/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Ankle Pick is a fundamental wrestling-based takedown that has become increasingly important in modern Brazilian Jiu-Jitsu, particularly in no-gi competition. This technique exploits an opponent's forward pressure and weight distribution by attacking their lead ankle while simultaneously controlling their upper body. The Ankle Pick is valued for its relatively low risk profile compared to other takedown attempts, as a failed execution typically results in a neutral standing position rather than a compromised bottom position.

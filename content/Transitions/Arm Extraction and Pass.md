@@ -13,6 +13,13 @@ description: "Learn Arm Extraction and Pass from Crackhead Control in BJJ. Syste
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Arm Extraction and Pass/Attacker|Play as Attacker]]
+[[Arm Extraction and Pass/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Arm Extraction and Pass is a systematic transition from Crackhead Control that addresses one of the most common obstacles when attacking from turtle top: the opponent's arm blocking your path to side control. When controlling an opponent in turtle from the chair-sit position, their near arm often becomes wedged between your body and theirs, preventing you from flattening them out or advancing to traditional side control. This technique provides a methodical approach to clearing that arm while maintaining dominant position throughout the transition.

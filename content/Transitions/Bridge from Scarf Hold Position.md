@@ -13,6 +13,13 @@ description: "Master the bridge-and-roll reversal from scarf hold in BJJ. Step-b
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Bridge from Scarf Hold Position/Attacker|Play as Attacker]]
+[[Bridge from Scarf Hold Position/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Bridge from Scarf Hold Position is the definitive bridge-and-roll reversal targeting a complete position reversal from underneath kesa gatame to landing inside the opponent's closed guard on top. Unlike the bridge escape variant that seeks half guard recovery, this technique commits to rolling the top player entirely over their shoulder line, producing a full reversal where the bottom player emerges in top position. The technique exploits the fundamental structural weakness of scarf hold: the top player's back is partially exposed due to their perpendicular seating angle, creating a viable roll line when their posting ability is compromised through arm trapping and leg hooking.

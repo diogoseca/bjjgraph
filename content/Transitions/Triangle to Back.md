@@ -13,6 +13,13 @@ description: "Master the Triangle to Back take in BJJ. Convert defended triangle
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Triangle to Back/Attacker|Play as Attacker]]
+[[Triangle to Back/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Triangle to Back transition represents an advanced positional flow that capitalizes on opponent defensive reactions within triangle control. When an opponent attempts to defend the triangle choke by posturing, stacking, or turning away, the attacker can redirect their control toward back exposure rather than forcing a low-percentage finish. This transition exemplifies the principle of following your opponent's energy rather than opposing it directly, converting a defended submission attempt into superior positional control.

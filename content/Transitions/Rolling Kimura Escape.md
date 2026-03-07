@@ -13,6 +13,13 @@ description: "Learn Rolling Kimura Escape in BJJ. Dynamic rolling technique from
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Rolling Kimura Escape/Attacker|Play as Attacker]]
+[[Rolling Kimura Escape/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Rolling Kimura Escape is an advanced defensive technique used to escape when an opponent has secured a tight Kimura grip on your arm from a top or controlling position. This dynamic escape utilizes forward rolling mechanics to relieve shoulder pressure and create space for guard recovery. The technique is particularly effective when traditional defensive frames have failed and the shoulder lock is being applied with significant forward pressure.

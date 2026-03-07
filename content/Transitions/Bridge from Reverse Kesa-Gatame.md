@@ -13,6 +13,13 @@ description: "Master the bridge escape from Reverse Kesa-Gatame in BJJ. Complete
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Bridge from Reverse Kesa-Gatame/Attacker|Play as Attacker]]
+[[Bridge from Reverse Kesa-Gatame/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The bridge escape from Reverse Kesa-Gatame is a fundamental positional escape that exploits the inherent vulnerability of the reverse scarf hold: the top player's compromised base when facing toward the bottom player's legs. Unlike traditional side control escapes that rely primarily on shrimping and frame-based space creation, this escape leverages explosive hip extension to displace the top player's weight and create immediate space for positional improvement.

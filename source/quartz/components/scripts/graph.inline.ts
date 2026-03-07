@@ -293,25 +293,52 @@ async function renderGraph(container: string, fullSlug: FullSlug) {
       .filter((l) => l.source && l.target && l.source !== l.target) as LinkData[], // Remove self-loops and invalid links
   }
 
-  // we virtualize the simulation and use pixi to actually render it
-  // Performance mode: default = fast settling, legacy = old slow settling
-  const graphMode = getGraphMode()
-  const isLegacy = graphMode === "legacy"
-  const effectiveAlphaDecay = isTouchDevice ? 0.1 : isLegacy ? 0.0228 : 0.05
-  const effectiveVelocityDecay = isTouchDevice ? 0.5 : 0.4
+  // Check for pre-computed graph positions (injected at build time)
+  const positionsEl = document.getElementById("graph-positions")
+  let precomputed: Record<string, { x: number; y: number }> | null = null
+  if (positionsEl) {
+    try {
+      const parsed = JSON.parse(positionsEl.textContent!)
+      precomputed = {}
+      for (const n of parsed.nodes) {
+        precomputed[n.id] = { x: n.x, y: n.y }
+      }
+    } catch {
+      precomputed = null
+    }
+  }
 
-  const simulation: Simulation<NodeData, LinkData> = forceSimulation<NodeData>(graphData.nodes)
-    .force(
-      "charge",
-      forceManyBody()
-        .strength(-100 * repelForce)
-        .distanceMax(200),
-    )
-    .force("center", forceCenter().strength(centerForce))
-    .force("link", forceLink(graphData.links).distance(linkDistance))
-    .force("collide", forceCollide<NodeData>((n) => nodeRadius(n)).iterations(1))
-    .alphaDecay(effectiveAlphaDecay)
-    .velocityDecay(effectiveVelocityDecay)
+  // If pre-computed positions exist, assign them to nodes and skip simulation
+  let simulation: Simulation<NodeData, LinkData> | null = null
+  if (precomputed) {
+    for (const node of graphData.nodes) {
+      const pos = precomputed[node.id]
+      if (pos) {
+        node.x = pos.x
+        node.y = pos.y
+      }
+    }
+  } else {
+    // we virtualize the simulation and use pixi to actually render it
+    // Performance mode: default = fast settling, legacy = old slow settling
+    const graphMode = getGraphMode()
+    const isLegacy = graphMode === "legacy"
+    const effectiveAlphaDecay = isTouchDevice ? 0.1 : isLegacy ? 0.0228 : 0.05
+    const effectiveVelocityDecay = isTouchDevice ? 0.5 : 0.4
+
+    simulation = forceSimulation<NodeData>(graphData.nodes)
+      .force(
+        "charge",
+        forceManyBody()
+          .strength(-100 * repelForce)
+          .distanceMax(200),
+      )
+      .force("center", forceCenter().strength(centerForce))
+      .force("link", forceLink(graphData.links).distance(linkDistance))
+      .force("collide", forceCollide<NodeData>((n) => nodeRadius(n)).iterations(1))
+      .alphaDecay(effectiveAlphaDecay)
+      .velocityDecay(effectiveVelocityDecay)
+  }
 
   // Animation state tracking for stopping RAF when settled
   let animationRunning = false
@@ -645,13 +672,14 @@ async function renderGraph(container: string, fullSlug: FullSlug) {
   }
 
   let currentTransform = zoomIdentity
-  if (enableDrag) {
+  if (enableDrag && !precomputed) {
+    // Drag enabled only for live simulation (not pre-computed layouts)
     select<HTMLCanvasElement, NodeData | undefined>(app.canvas).call(
       drag<HTMLCanvasElement, NodeData | undefined>()
         .container(() => app.canvas)
         .subject(() => graphData.nodes.find((n) => n.id === hoveredNodeId))
         .on("start", function dragstarted(event) {
-          if (!event.active) simulation.alphaTarget(1).restart()
+          if (!event.active) simulation!.alphaTarget(1).restart()
           startAnimation() // Restart animation loop when dragging
           event.subject.fx = event.subject.x
           event.subject.fy = event.subject.y
@@ -670,7 +698,7 @@ async function renderGraph(container: string, fullSlug: FullSlug) {
           event.subject.fy = initPos.y + (event.y - initPos.y) / currentTransform.k
         })
         .on("end", function dragended(event) {
-          if (!event.active) simulation.alphaTarget(0)
+          if (!event.active) simulation!.alphaTarget(0)
           event.subject.fx = null
           event.subject.fy = null
           dragging = false
@@ -720,7 +748,7 @@ async function renderGraph(container: string, fullSlug: FullSlug) {
   }
 
   function animate(time: number) {
-    const isActive = simulation.alpha() > simulation.alphaMin()
+    const isActive = simulation ? simulation.alpha() > simulation.alphaMin() : false
 
     // Only update positions when simulation is active
     if (isActive) {
@@ -756,6 +784,27 @@ async function renderGraph(container: string, fullSlug: FullSlug) {
     }
   }
 
+  // For pre-computed layouts, set positions and draw once immediately
+  if (precomputed) {
+    for (const n of nodeRenderData) {
+      const { x, y } = n.simulationData
+      if (x == null || y == null) continue
+      n.gfx.position.set(x + width / 2, y + height / 2)
+      if (n.label) {
+        n.label.position.set(x + width / 2, y + height / 2)
+      }
+    }
+    for (const l of linkRenderData) {
+      const linkData = l.simulationData
+      l.gfx.clear()
+      l.gfx.moveTo(linkData.source.x! + width / 2, linkData.source.y! + height / 2)
+      l.gfx
+        .lineTo(linkData.target.x! + width / 2, linkData.target.y! + height / 2)
+        .stroke({ alpha: l.alpha, width: 1, color: l.color })
+    }
+    app.renderer.render(stage)
+  }
+
   // Start the animation loop
   startAnimation()
 
@@ -763,7 +812,7 @@ async function renderGraph(container: string, fullSlug: FullSlug) {
     if (graphAnimationFrameHandle !== null) {
       cancelAnimationFrame(graphAnimationFrameHandle)
     }
-    simulation.stop()
+    if (simulation) simulation.stop()
     tweens.clear()
     app.destroy(true, { children: true, texture: true })
   })

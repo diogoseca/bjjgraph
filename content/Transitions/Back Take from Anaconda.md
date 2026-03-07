@@ -13,6 +13,13 @@ description: "Master the Back Take from Anaconda in BJJ. Learn to convert front 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Back Take from Anaconda/Attacker|Play as Attacker]]
+[[Back Take from Anaconda/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Back Take from Anaconda Control represents a critical decision point in front headlock grappling where the attacker recognizes that pursuing the anaconda choke finish is suboptimal and instead capitalizes on the opponent's defensive positioning to secure the most dominant position in Brazilian Jiu-Jitsu. This transition occurs when the defender's reactions to anaconda pressure—typically turning away, turtling tighter, or attempting to create distance—inadvertently expose their back to the attacker. Rather than forcing a choke against increasingly effective defense, the attacker reads the opponent's body language and converts positional pressure into back control.

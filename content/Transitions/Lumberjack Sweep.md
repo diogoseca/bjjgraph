@@ -13,6 +13,13 @@ description: "Master the Lumberjack Sweep from half guard in BJJ. Step-by-step e
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Lumberjack Sweep/Attacker|Play as Attacker]]
+[[Lumberjack Sweep/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Lumberjack Sweep is a fundamental half guard sweep that capitalizes on underhook control to off-balance and sweep an opponent who is attempting to pass. Named for the chopping motion used to break down the opponent's base, this technique is particularly effective against opponents who overcommit their weight forward or fail to establish proper crossface control. The sweep combines hip movement, underhook leverage, and precise timing to elevate the opponent and transition to a dominant top position.

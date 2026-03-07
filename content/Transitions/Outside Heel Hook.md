@@ -13,6 +13,13 @@ description: "Master the Outside Heel Hook from Backside 50-50. Rotational attac
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Outside Heel Hook/Attacker|Play as Attacker]]
+[[Outside Heel Hook/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Outside Heel Hook is a devastating rotational leg attack targeting the lateral knee ligaments (LCL and popliteal complex) from the Backside 50-50 position. Unlike the Inside Heel Hook which attacks the medial structures, the Outside Heel Hook applies external rotation to the tibia relative to the femur, creating immense pressure on the outside of the knee joint. This makes it particularly dangerous and highly effective when properly executed.

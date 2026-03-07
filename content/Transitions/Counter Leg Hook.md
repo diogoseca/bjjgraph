@@ -13,6 +13,13 @@ description: "Master the Counter Leg Hook in BJJ. Defensive counter from leg hoo
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Counter Leg Hook/Attacker|Play as Attacker]]
+[[Counter Leg Hook/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Counter Leg Hook is a defensive transition executed from leg hook bottom position when the top player has established a controlling hook during the half guard passing sequence. Rather than passively accepting the pass, the bottom player actively disrupts the hook control through a combination of hip movement, frame creation, and explosive directional changes designed to either turtle up before the pass completes or recover to a more defensible half guard configuration.

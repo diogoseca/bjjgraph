@@ -13,6 +13,13 @@ description: "Master the Jailbreak to Back Take in BJJ. Convert defensive half g
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Jailbreak to Back Take/Attacker|Play as Attacker]]
+[[Jailbreak to Back Take/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Jailbreak to Back Take is an advanced continuation of the standard jailbreak escape from bottom half guard, transforming a defensive escape into an offensive back control opportunity. When the top player follows your jailbreak roll rather than disengaging, you capitalize on their momentum by continuing your rotation and using your underhook connection to pull yourself behind them as they chase. This technique represents the pinnacle of the jailbreak system, converting defensive disadvantage into the most dominant position in BJJ.

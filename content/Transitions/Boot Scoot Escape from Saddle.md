@@ -13,6 +13,13 @@ description: "Master the Boot Scoot Escape from Saddle in BJJ. Learn systematic 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Boot Scoot Escape from Saddle/Attacker|Play as Attacker]]
+[[Boot Scoot Escape from Saddle/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Boot Scoot Escape from Saddle is a distance-based defensive technique designed to extract your trapped leg from one of the most dangerous positions in modern BJJ. Rather than attempting to pry legs apart or fight grips in close quarters where the saddle top player has maximum mechanical advantage, this escape prioritizes creating linear distance by scooting the hips backward along the mat. As distance increases, the structural integrity of the saddle entanglement progressively degrades, eventually allowing leg extraction and guard recovery.

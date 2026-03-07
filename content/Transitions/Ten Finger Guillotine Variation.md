@@ -13,6 +13,13 @@ description: "Master the Ten Finger Guillotine Variation from top control in BJJ
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Ten Finger Guillotine Variation/Attacker|Play as Attacker]]
+[[Ten Finger Guillotine Variation/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Ten Finger Guillotine Variation is a specialized choking technique from top guillotine control that replaces traditional grip configurations with a fully interlaced ten-finger grip around the opponent's neck. This grip structure creates a cage-like compression mechanism that distributes squeezing force across all ten digits, producing intense and sustainable pressure against the trachea and carotid arteries. The variation is particularly effective against opponents who have developed strong hand-fighting defenses against standard palm-to-palm or gable grip guillotines, as the interlaced fingers create a lock that is significantly harder to peel apart.

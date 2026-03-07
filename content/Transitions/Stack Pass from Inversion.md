@@ -13,6 +13,13 @@ description: "Master Stack Pass from Inversion in BJJ. Defeat inverted guards by
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Stack Pass from Inversion/Attacker|Play as Attacker]]
+[[Stack Pass from Inversion/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Stack Pass from Inversion is a high-pressure passing technique designed to neutralize inverted guard players by driving their hips over their shoulders, compressing their spine and eliminating their mobility. When facing grasshopper guard or similar inverted positions, the bottom player relies on hip elevation and leg mobility to threaten sweeps and leg entanglements. The stack pass directly attacks this mechanic by reversing the pressure dynamic - instead of allowing them to use their elevated hips offensively, you fold them over themselves, making their legs heavy and immobile.

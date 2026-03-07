@@ -13,6 +13,13 @@ description: "Master the Tomahawk Sweep from X-Guard in BJJ. Dynamic hook levera
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Tomahawk Sweep/Attacker|Play as Attacker]]
+[[Tomahawk Sweep/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Tomahawk Sweep is a dynamic and powerful technique executed from X-Guard that capitalizes on hook leverage and angular momentum to sweep opponents directly to mount or side control. Named for its chopping motion that resembles a tomahawk strike, this sweep exemplifies the offensive potential of X-Guard positions. The technique combines precise hook placement, grip control, and explosive hip extension to destabilize even heavy opponents with superior base. Unlike traditional X-Guard sweeps that often result in scrambles or top position transitions, the Tomahawk Sweep creates a direct pathway to dominant positions when executed with proper timing and angle creation.

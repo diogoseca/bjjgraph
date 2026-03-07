@@ -15,6 +15,13 @@ description: "Master the Rear Naked Choke from Rodeo Ride in BJJ. Complete guide
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Rear Naked Choke from Rodeo/Attacker|Play as Attacker]]
+[[Rear Naked Choke from Rodeo/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Rear Naked Choke from Rodeo Ride is a dynamic finishing technique applied from the turtle attack position where the top practitioner maintains asymmetric control over a turtled opponent. Unlike the standard RNC from established back control with hooks and seat belt, this variation requires the attacker to manage the inherent instability of the Rodeo Ride while simultaneously threatening and completing the strangle. The position creates a unique finishing dynamic where the opponent retains more escape options than from full back control, but the attacker benefits from the element of surprise and the ability to attack before the opponent can establish their standard defensive framework.

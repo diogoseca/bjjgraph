@@ -13,6 +13,13 @@ description: "Master guard opening in BJJ. Systematic approaches to opening clos
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Guard Opening Sequence/Attacker|Play as Attacker]]
+[[Guard Opening Sequence/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Guard Opening Sequence represents the systematic approach to breaking closed guard and transitioning to an open guard passing position. This foundational technique encompasses posture establishment, grip fighting, and the application of specific opening mechanics to force the opponent's guard open. The sequence is fundamental to all guard passing systems, as no pass can begin without first opening the closed guard.

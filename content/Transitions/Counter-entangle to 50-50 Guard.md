@@ -13,6 +13,13 @@ description: "Learn Counter-entangle to 50-50 Guard in BJJ. Defensive leg revers
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Counter-entangle to 50-50 Guard/Attacker|Play as Attacker]]
+[[Counter-entangle to 50-50 Guard/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Counter-entangle to 50-50 Guard is a critical defensive transition used when caught in the bottom position of a leg knot entanglement. Rather than simply trying to escape the entanglement entirely, this technique uses the opponent's own leg control against them by weaving your free leg through their legs to achieve the symmetric 50-50 position. This transforms a defensive crisis into a neutral battleground where both practitioners have equal leg lock threats.

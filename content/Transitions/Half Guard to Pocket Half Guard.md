@@ -13,6 +13,13 @@ description: "Master the Transition to Pocket Half Guard from Half Guard Top. Es
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Half Guard to Pocket Half Guard/Attacker|Play as Attacker]]
+[[Half Guard to Pocket Half Guard/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Transition to Pocket Half Guard is a positional refinement executed from Half Guard Top that converts a contested guard exchange into a dominant pressure-passing platform. The technique centers on establishing a deep underhook on the bottom player's far side while simultaneously driving chest pressure forward to flatten their defensive structure. This converts a neutral Half Guard exchange where the bottom player retains offensive options into a controlled position where the top player dictates the pace and direction of all subsequent action.

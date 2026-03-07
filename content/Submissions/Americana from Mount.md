@@ -15,6 +15,13 @@ description: "Master the Americana shoulder lock from mount with safety protocol
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Americana from Mount/Attacker|Play as Attacker]]
+[[Americana from Mount/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Americana from Mount is a fundamental shoulder lock that targets the rotator cuff by isolating the opponent's arm and applying a figure-four grip to force external rotation beyond the joint's natural range. This submission is one of the highest-percentage attacks from the mount position due to the superior control and weight distribution available from top position.

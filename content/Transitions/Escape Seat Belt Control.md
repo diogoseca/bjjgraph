@@ -13,6 +13,13 @@ description: "Learn to escape seat belt back control in BJJ. Systematic grip bre
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Escape Seat Belt Control/Attacker|Play as Attacker]]
+[[Escape Seat Belt Control/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Escape Seat Belt Control is a systematic defensive sequence executed from the bottom of back control when the opponent has established the characteristic over-under harness grip across your torso. This escape specifically targets dismantling the seat belt grip structure through methodical grip breaking, strategic hip movement, and controlled directional changes to transition from back control into the relative safety of turtle position or half guard recovery.

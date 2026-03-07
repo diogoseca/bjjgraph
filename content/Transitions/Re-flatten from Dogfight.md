@@ -13,6 +13,13 @@ description: "Master the Re-flatten from Dogfight in BJJ. Learn crossface pressu
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Re-flatten from Dogfight/Attacker|Play as Attacker]]
+[[Re-flatten from Dogfight/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Re-flatten from Dogfight is the top player's primary tool for neutralizing the bottom player's offensive momentum after they have successfully elevated from flat half guard to the competitive kneeling dogfight position. When the bottom player achieves the underhook and comes to their knees, the top player faces a decision point: engage in a scramble where the underhook player holds initiative, or systematically collapse the bottom player's posture back to a flattened half guard where passing sequences become available again. The re-flatten addresses this tactical dilemma by providing a structured method to break down the opponent's elevated base through crossface pressure, whizzer control, and targeted hip drive.

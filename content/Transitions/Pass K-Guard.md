@@ -13,6 +13,13 @@ description: "Master the K-Guard pass in BJJ. Systematic approach to neutralizin
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Pass K-Guard/Attacker|Play as Attacker]]
+[[Pass K-Guard/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Passing K-Guard requires systematic dismantling of the bottom player's inverted hook configuration, which presents dual threats through its inside hook pulling the trapped leg across centerline and the butterfly hook threatening constant elevation. Unlike standard half guard passes that primarily address a single leg entanglement, the K-Guard demands simultaneous neutralization of both hooks while preventing the guard player from creating angles for sweeps or back takes. The guard's dynamic retention mechanics mean that any gap in pressure or poorly timed commitment is immediately exploited.

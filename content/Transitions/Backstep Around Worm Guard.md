@@ -13,6 +13,13 @@ description: "Master the backstep pass against worm guard in BJJ. Navigate lapel
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Backstep Around Worm Guard/Attacker|Play as Attacker]]
+[[Backstep Around Worm Guard/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The backstep around worm guard is a fundamental guard passing solution that addresses the unique mechanical problems created by lapel-based guard configurations. When an opponent establishes worm guard by threading your lapel around your lead leg, standard pressure passing becomes ineffective because the fabric creates a persistent barrier preventing hip contact and forward progression.

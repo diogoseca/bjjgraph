@@ -13,6 +13,13 @@ description: "Master Counter Roll to Top reversal from Gift Wrap Bottom in BJJ. 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Counter Roll to Top/Attacker|Play as Attacker]]
+[[Counter Roll to Top/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Counter Roll to Top is a high-risk, high-reward reversal technique executed from the Gift Wrap Bottom position. This escape exploits the moment when the top player commits their weight to establish deeper control or initiates a submission attack. By timing a coordinated roll that uses the opponent's committed weight against them, the defender can reverse the position entirely and end up in a dominant Gift Wrap control position.

@@ -13,6 +13,13 @@ description: "Master the Rear Triangle to Armbar transition in BJJ. Convert back
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Rear Triangle to Armbar/Attacker|Play as Attacker]]
+[[Rear Triangle to Armbar/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Rear Triangle to Armbar transition exploits the trapped arm within the rear triangle configuration, converting a choking position into a devastating arm attack when the opponent successfully defends the triangle choke. This transition capitalizes on a fundamental defensive dilemma: when the opponent tucks their chin and fights the choke, they expose the trapped arm to isolation and extension. The attacker pivots from a squeezing choke angle to a perpendicular armbar angle, using the existing arm trap as the foundation for the new attack.

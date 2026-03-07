@@ -13,6 +13,13 @@ description: "Master the standing arm drag in BJJ. Complete guide to grip mechan
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Arm Drag from Standing/Attacker|Play as Attacker]]
+[[Arm Drag from Standing/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The arm drag from standing is one of the most efficient and high-percentage techniques for accessing an opponent's back from the standing position. Rooted in wrestling fundamentals and refined through modern grappling competition, this technique uses a two-on-one grip configuration to redirect the opponent's arm across your body while simultaneously stepping behind them to establish chest-to-back contact. The beauty of the arm drag lies in its simplicity and effectiveness across all grappling contexts, whether gi, no-gi, or MMA.

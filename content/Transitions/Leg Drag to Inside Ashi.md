@@ -13,6 +13,13 @@ description: "Learn Leg Drag to Inside Ashi in BJJ. Transition from passing cont
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Leg Drag to Inside Ashi/Attacker|Play as Attacker]]
+[[Leg Drag to Inside Ashi/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Leg Drag to Inside Ashi transition represents a sophisticated pathway from a dominant passing position into the leg attack game. When your opponent defends the leg drag by posting strongly on their far hip or fighting your upper body control, they often inadvertently expose their legs to entanglement attacks. Rather than forcing the pass against heavy resistance, you redirect your energy into securing inside ashi-garami—a position that offers immediate heel hook opportunities while maintaining strong control.

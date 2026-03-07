@@ -13,6 +13,13 @@ description: "Master the Inverted Triangle in BJJ. Reverse-angle triangle choke 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Inverted Triangle/Attacker|Play as Attacker]]
+[[Inverted Triangle/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Inverted Triangle is an advanced submission variation that attacks the opponent from a reverse angle when they defend the standard front triangle by turning their shoulder inward. Rather than maintaining the traditional triangle configuration with legs wrapped around the neck and one arm, the inverted variation requires rotating your body 180 degrees to attack from the opposite side, placing your legs in a reverse configuration that catches many opponents off guard. This technique transforms a defensive reaction into a submission opportunity by capitalizing on the opponent's movement away from the standard choking angle.

@@ -13,6 +13,13 @@ description: "Master the hip escape from mounted crucifix in BJJ. Complete guide
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Hip Escape from Mounted Crucifix/Attacker|Play as Attacker]]
+[[Hip Escape from Mounted Crucifix/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The hip escape from mounted crucifix addresses one of the most desperate defensive scenarios in Brazilian Jiu-Jitsu. When trapped beneath an opponent who has combined mount control with leg-based arm isolation, your standard escape repertoire is severely compromised. This technique uses coordinated hip movement and precise timing to create the space necessary for arm extraction, converting the mounted crucifix into a regular mount position where traditional escape sequences become available.

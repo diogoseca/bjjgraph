@@ -13,6 +13,13 @@ description: "Master the Modified Scarf Hold to Kesa Gatame transition in BJJ. S
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Modified Scarf to Kesa Gatame/Attacker|Play as Attacker]]
+[[Modified Scarf to Kesa Gatame/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Modified Scarf Hold to Kesa Gatame transition represents a fundamental positional adjustment within the side control family that shifts the top player from a chest-to-chest pin into a perpendicular scarf hold. This transition changes the control geometry from direct downward pressure to an angular wrap-and-sit configuration that opens distinct submission pathways unavailable from the modified scarf hold. The movement centers on rotating the hips from a prone chest-pressure position to a seated perpendicular angle while simultaneously threading the arm around the opponent's head and trapping their near arm.

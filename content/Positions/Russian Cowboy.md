@@ -13,6 +13,13 @@ description: "Master Russian Cowboy position in BJJ. Complete guide covering bac
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Russian Cowboy/Bottom|Play as Bottom]]
+[[Russian Cowboy/Top|Play as Top]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Russian Cowboy is a highly effective back control variant commonly used in no-gi grappling and submission wrestling. This position features the top practitioner establishing control over the opponent's back while maintaining a hook under one leg, creating powerful leverage for attacks and making escape extremely difficult. The position derives its name from the riding motion resembling a cowboy on a bucking horse, combined with its popularity among Russian and Eastern European grapplers.

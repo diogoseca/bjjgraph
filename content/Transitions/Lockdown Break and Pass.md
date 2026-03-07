@@ -13,6 +13,13 @@ description: "Master Lockdown Break and Pass in BJJ. Systematic leg extraction f
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Lockdown Break and Pass/Attacker|Play as Attacker]]
+[[Lockdown Break and Pass/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Lockdown Break and Pass is the essential counter-technique when trapped in an opponent's lockdown from the Electric Chair position. This systematic escape addresses one of the most frustrating predicaments in modern BJJ—being caught in the 10th Planet lockdown system where your leg is figure-four trapped and your opponent is generating powerful sweeping and submission pressure through hip extension and the Electric Chair mechanics.

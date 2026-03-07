@@ -13,6 +13,13 @@ description: "Master the Old School to Half Guard transition in BJJ. Recover fro
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Old School to Half Guard/Attacker|Play as Attacker]]
+[[Old School to Half Guard/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Old School to Half Guard transition is a tactical positional reset within the half guard system, enabling the bottom player to abandon a stalled or well-defended lockdown position and recover to standard half guard where a broader offensive toolkit becomes available. Rather than representing a defensive retreat, this transition reflects sophisticated positional awareness—recognizing when the opponent has effectively neutralized lockdown-specific threats and that alternative attacking angles are needed to continue advancing.

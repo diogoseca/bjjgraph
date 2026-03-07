@@ -13,6 +13,13 @@ description: "Master the Japanese Necktie Setup from Front Headlock in BJJ. Step
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Japanese Necktie Setup/Attacker|Play as Attacker]]
+[[Japanese Necktie Setup/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Japanese Necktie Setup is a sophisticated transition from Front Headlock control that capitalizes on the opponent's defensive turtle position. This technique creates a powerful blood choke by threading the arm under the opponent's neck while establishing a specific body configuration that amplifies pressure. Unlike traditional front chokes that rely purely on arm strength, the Japanese Necktie uses body positioning and weight distribution to generate overwhelming force. The setup phase is critical—proper arm threading, head positioning, and hip placement determine whether the submission becomes viable.

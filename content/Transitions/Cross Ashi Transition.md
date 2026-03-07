@@ -13,6 +13,13 @@ description: "Master the Cross Ashi Transition from Ushiro Ashi-Garami. Step-by-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Cross Ashi Transition/Attacker|Play as Attacker]]
+[[Cross Ashi Transition/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Cross Ashi Transition is a fundamental positional change within modern leg lock systems that allows the attacker to shift from Ushiro Ashi-Garami (reverse/back leg entanglement) to Cross Ashi-Garami. This transition becomes necessary when the opponent's defensive rotation or hip positioning makes heel hook attacks from the Ushiro configuration suboptimal. By reconfiguring the leg entanglement to a crossed position, the attacker gains improved mechanical leverage for both heel hook finishes and subsequent positional advancement to Saddle.

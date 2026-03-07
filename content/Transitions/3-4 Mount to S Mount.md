@@ -13,6 +13,13 @@ description: "Master the 3-4 Mount to S Mount transition in BJJ. Complete techni
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[3-4 Mount to S Mount/Attacker|Play as Attacker]]
+[[3-4 Mount to S Mount/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The 3-4 Mount to S Mount transition represents a critical positional advancement within the mount hierarchy, converting asymmetric mount control into a perpendicular attacking platform optimized for armbar finishes. This movement exploits the existing leg configuration of 3-4 Mount—where one leg is already posted outside the opponent's body—to create the angular rotation necessary for S Mount entry without exposing the transitional vulnerabilities that arise when moving directly from standard mount.

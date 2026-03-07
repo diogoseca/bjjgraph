@@ -13,6 +13,13 @@ description: "Master Reverse X to Single Leg X Entry in BJJ. Convert inverted gu
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Reverse X to Single Leg X Entry/Attacker|Play as Attacker]]
+[[Reverse X to Single Leg X Entry/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Reverse X to Single Leg X Entry is a fundamental transition within the modern leg entanglement system that converts the inverted hook configuration of Reverse X-Guard into the more linear control of Single Leg X-Guard. This transition is essential when your opponent begins to address your Reverse X hooks or when you need a more stable platform for leg attacks or sweeps. The movement capitalizes on the opponent's attempts to clear your inverted hooks by following their leg extraction with a simplified but equally powerful control position.

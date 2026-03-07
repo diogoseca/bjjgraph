@@ -13,6 +13,13 @@ description: "Master the Homer Simpson Sweep from deep half guard. Detailed tech
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Homer Simpson Sweep/Attacker|Play as Attacker]]
+[[Homer Simpson Sweep/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Homer Simpson Sweep is a direct come-up sweep from deep half guard where the bottom player rises from underneath the opponent using a combination of deep underhook control and an over-the-back grip to drive the top player backward onto their back. Unlike the waiter sweep which redirects the opponent laterally through hip elevation, or the old school sweep which involves coming up to a single-leg position, the Homer Simpson Sweep drives straight through the centerline, using the bottom player's head and shoulder as the primary contact points to off-balance and topple the opponent directly backward into mount.

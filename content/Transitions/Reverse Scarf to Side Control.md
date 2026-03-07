@@ -13,6 +13,13 @@ description: "Master the Reverse Scarf Hold to Side Control transition in BJJ. L
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Reverse Scarf to Side Control/Attacker|Play as Attacker]]
+[[Reverse Scarf to Side Control/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Reverse Scarf to Side Control transition is a fundamental positional adjustment where the top player rotates from the reverse scarf hold orientation—facing the opponent's legs—to standard perpendicular side control. This transition addresses the primary limitation of reverse scarf hold: its inherently transitional nature and reduced visibility of the opponent's defensive movements. By rotating to standard side control, the top player gains access to a more stable control platform with superior submission chains and advancement pathways to mount, knee on belly, and north-south.

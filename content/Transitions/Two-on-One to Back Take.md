@@ -13,6 +13,13 @@ description: "Master the Two-on-One to Back Take in BJJ. Step-by-step execution 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Two-on-One to Back Take/Attacker|Play as Attacker]]
+[[Two-on-One to Back Take/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Two-on-One to Back Take is a fundamental wrestling-based transition that exploits control of a single arm to access the opponent's back from standing positions. This technique leverages the asymmetrical control created when both hands control one of the opponent's arms, creating a mechanical disadvantage that prevents effective defense while opening pathways to superior positioning. The two-on-one grip, also known as a Russian tie in wrestling, is one of the most dominant control positions in standing grappling because it simultaneously neutralizes one of the opponent's primary defensive tools while creating clear paths to the back.

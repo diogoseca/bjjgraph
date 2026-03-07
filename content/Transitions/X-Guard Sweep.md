@@ -13,6 +13,13 @@ description: "Master X-Guard Sweep in BJJ. Complete technical guide with step-by
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[X-Guard Sweep/Attacker|Play as Attacker]]
+[[X-Guard Sweep/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The X-Guard Sweep is a fundamental attacking technique from X-Guard that uses superior leverage and off-balancing mechanics to elevate and sweep the opponent. By controlling both legs while maintaining upper body connection, the bottom player creates a powerful mechanical advantage that makes the sweep extremely difficult to defend. The technique exploits the opponent's unstable base by removing their ability to post or widen their stance, forcing them into a position where they cannot recover balance. This sweep is particularly effective against standing opponents and those attempting to pass the guard, as it capitalizes on their forward pressure and commitment to forward movement.

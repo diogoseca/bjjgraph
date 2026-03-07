@@ -13,6 +13,13 @@ description: "Learn Reverse X-Guard Entry from inverted guard. Step-by-step exec
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Reverse X-Guard Entry/Attacker|Play as Attacker]]
+[[Reverse X-Guard Entry/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Reverse X-Guard Entry is a dynamic transition from inverted guard that establishes powerful leg entanglement control beneath your opponent. Unlike standard X-Guard where you face your opponent, Reverse X-Guard positions you facing away, with your hooks controlling their near leg while your body extends beneath them. This creates exceptional off-balancing potential and sweep opportunities that are difficult to defend because your opponent cannot see your lower body mechanics.

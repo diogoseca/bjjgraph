@@ -13,6 +13,13 @@ description: "Master the Gogoplata submission from Rubber Guard in BJJ. Shin-acr
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Gogoplata/Attacker|Play as Attacker]]
+[[Gogoplata/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Gogoplata is an advanced submission from the Rubber Guard system that uses your shin across the opponent's throat to create a crushing choke. This technique represents one of the most visually distinctive and mechanically demanding submissions in Brazilian Jiu-Jitsu, requiring exceptional hip flexibility, precise angle creation, and disciplined hand fighting to execute successfully. The submission gained widespread recognition through its effective use in high-level competition, demonstrating that even against elite grapplers, the Gogoplata presents genuine finishing threats when properly applied.

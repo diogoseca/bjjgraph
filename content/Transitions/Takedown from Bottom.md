@@ -13,6 +13,13 @@ description: "Master takedown techniques from disadvantaged standing positions i
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Takedown from Bottom/Attacker|Play as Attacker]]
+[[Takedown from Bottom/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Takedown from Bottom represents a critical offensive transition in BJJ's standing phase, executed when the practitioner finds themselves at a positional or grip disadvantage in the standing exchange. Rather than accepting the inferior standing position or pulling guard defensively, this transition converts the standing deficit into an aggressive takedown attempt that targets side control as the primary outcome. The technique demands precise timing to exploit brief windows when the opponent's defensive structure is compromised through weight shifts, grip adjustments, or postural changes. The ability to attack from a disadvantaged standing position separates competitors who can impose their game regardless of grip exchanges from those who become passive when outworked on the feet.

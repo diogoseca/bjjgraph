@@ -13,6 +13,13 @@ description: "Learn the Fallback to Inside Ashi-Garami from Saddle. Master this 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Fallback to Inside Ashi-Garami/Attacker|Play as Attacker]]
+[[Fallback to Inside Ashi-Garami/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Fallback to Inside Ashi-Garami is a controlled positional retreat from the Saddle, employed when the opponent successfully disrupts key control elements such as hip pressure, perpendicular alignment, or inside position. Rather than fighting to maintain a deteriorating saddle and risking a complete loss of leg entanglement, the practitioner deliberately withdraws to Inside Ashi-Garami, preserving offensive capability from a less dominant but more sustainable configuration. This concept of strategic retreat is central to modern leg lock systems, where maintaining any form of entanglement is vastly preferable to surrendering position entirely.

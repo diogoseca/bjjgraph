@@ -13,6 +13,13 @@ description: "Master Kneebar from Ushiro Ashi-Garami. Step-by-step execution wit
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Kneebar from Ushiro/Attacker|Play as Attacker]]
+[[Kneebar from Ushiro/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Kneebar from Ushiro Ashi-Garami exploits the unique reversed leg entanglement geometry to attack the opponent's knee joint when heel hook finishing becomes unavailable or when the opponent defends by straightening their leg. This transition capitalizes on the natural body positioning of ushiro ashi-garami where the attacker's hips are already aligned perpendicular to the opponent's trapped leg, creating favorable leverage for hyperextension attacks on the knee.

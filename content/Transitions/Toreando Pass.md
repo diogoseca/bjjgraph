@@ -13,6 +13,13 @@ description: "Master the Toreando Pass in BJJ. Control opponent's legs, create a
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Toreando Pass/Attacker|Play as Attacker]]
+[[Toreando Pass/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Toreando Pass, also known as the Bullfighter Pass, is a fundamental guard passing technique that exploits superior grips and angular movement to control and redirect the opponent's legs. Named after the bullfighter's movements when evading a charging bull, this pass emphasizes controlling the opponent's knees or pant legs while stepping laterally to create passing angles. The technique is particularly effective against players who rely on open guard systems like De La Riva, Spider Guard, or Collar Sleeve Guard. By dominating the leg grips and using explosive lateral movement, the passer forces the guard player's legs to one side while their upper body remains stationary, creating a clear path to side control or knee on belly. The Toreando Pass is a cornerstone of modern guard passing systems, valued for its versatility across gi and no-gi contexts, its effectiveness against multiple guard styles, and its ability to chain seamlessly with other passing sequences. When executed correctly, it creates immense pressure on the opponent's defensive structure while maintaining the passer's balance and base throughout the movement.

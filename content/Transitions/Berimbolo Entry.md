@@ -13,6 +13,13 @@ description: "Master the Berimbolo Entry in BJJ. Dynamic inversion technique fro
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Berimbolo Entry/Attacker|Play as Attacker]]
+[[Berimbolo Entry/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Berimbolo Entry is a revolutionary back-taking technique that emerged from the modern sport jiu-jitsu evolution, fundamentally changing how practitioners approach De La Riva guard. This dynamic movement combines inversion mechanics with precise grip control to spin underneath the opponent, emerging directly onto their back. The technique exploits the opponent's base by creating a rotational momentum that makes defending against the back take extremely difficult once the movement is initiated.

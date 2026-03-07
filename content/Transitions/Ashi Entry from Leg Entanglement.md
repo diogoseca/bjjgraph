@@ -13,6 +13,13 @@ description: "Master the Ashi Entry from Leg Entanglement in BJJ. Learn systemat
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Ashi Entry from Leg Entanglement/Attacker|Play as Attacker]]
+[[Ashi Entry from Leg Entanglement/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Ashi Entry from Leg Entanglement is a fundamental positional advancement within modern leg lock systems, converting a general or neutral leg entanglement into the structured Inside Ashi-Garami configuration. This transition bridges the gap between chaotic scramble-like leg exchanges and organized submission attacking by establishing the specific two-point leg control that defines Inside Ashi-Garami: inside leg across the opponent's hip and outside leg hooking behind their knee. Without this entry skill, practitioners remain stuck in loose entanglements where neither player has meaningful offensive advantage.

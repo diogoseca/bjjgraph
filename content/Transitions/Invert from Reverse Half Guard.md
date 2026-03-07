@@ -13,6 +13,13 @@ description: "Master the inversion escape from reverse half guard bottom. Comple
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Invert from Reverse Half Guard/Attacker|Play as Attacker]]
+[[Invert from Reverse Half Guard/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Inverting from reverse half guard is an advanced guard recovery technique where the bottom player uses a granby roll to rotate through an inverted position and re-establish open guard. This technique exploits the unusual angle of the reverse half guard position, where the bottom player's back already faces the opponent, making a rotational escape more mechanically efficient than trying to face the opponent directly through their pressure.

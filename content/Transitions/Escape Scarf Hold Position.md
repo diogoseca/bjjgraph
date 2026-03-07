@@ -13,6 +13,13 @@ description: "Master the Escape from Scarf Hold Position in BJJ. Complete guide 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Escape Scarf Hold Position/Attacker|Play as Attacker]]
+[[Escape Scarf Hold Position/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Escaping Scarf Hold Position represents one of the most technically demanding pin escapes in Brazilian Jiu-Jitsu, requiring mechanics fundamentally different from standard side control escapes. The perpendicular angle of kesa gatame negates lateral shrimping, forcing the bottom player to rely on bridge-and-turn mechanics, backdoor escapes, and precisely timed frame creation to recover guard or reach turtle. The escape system centers on exploiting the inherent vulnerabilities in scarf hold's structure: the exposed back when the top player commits weight forward, the potential to attack posted limbs to destroy base, and timing windows created when the top player shifts weight for submissions or positional transitions.

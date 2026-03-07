@@ -13,6 +13,13 @@ description: "Learn to transition from butterfly guard top to butterfly half gua
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Butterfly Guard to Butterfly Half Guard/Attacker|Play as Attacker]]
+[[Butterfly Guard to Butterfly Half Guard/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Transition to Butterfly Half Guard is a positional advancement technique executed by the top player when facing an opponent's full butterfly guard. The objective is to systematically clear one of the two butterfly hooks while maintaining top pressure, converting the symmetrical double-hook threat of butterfly guard into the asymmetric and more manageable butterfly half guard configuration. This transition is fundamental to any butterfly guard passing strategy because it reduces the bottom player's sweeping power by eliminating one elevator hook while trapping the remaining leg in half guard entanglement.

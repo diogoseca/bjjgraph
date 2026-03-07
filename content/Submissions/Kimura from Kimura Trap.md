@@ -15,6 +15,13 @@ description: "Master the Kimura from Kimura Trap in BJJ. Complete guide to finis
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Kimura from Kimura Trap/Attacker|Play as Attacker]]
+[[Kimura from Kimura Trap/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Kimura from Kimura Trap is the primary finishing technique within the Kimura Trap system, converting established figure-four grip control into a devastating shoulder lock. This submission uses rotational force against the glenohumeral joint by driving the opponent's hand behind their back in a controlled arc motion. Unlike isolated Kimura attempts from side control or guard, this finish benefits from the systematic control infrastructure already established through the Kimura Trap position—the opponent's arm is deeply compromised, their base disrupted, and defensive options severely constrained by the preceding positional control and grip depth.

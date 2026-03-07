@@ -13,6 +13,13 @@ description: "Master the Shin to Shin Pull in BJJ. Step-by-step execution from S
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Shin to Shin Pull/Attacker|Play as Attacker]]
+[[Shin to Shin Pull/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Shin to Shin Pull is a fundamental guard pulling technique that establishes a shin-to-shin connection before pulling the opponent into your guard. This pull is particularly effective in gi and no-gi competition where you want to establish guard control while maintaining offensive options. The shin-to-shin position provides excellent control of the opponent's posture and base while creating immediate sweeping and back-taking opportunities.

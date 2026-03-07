@@ -13,6 +13,13 @@ description: "Master the High Crotch takedown in BJJ. Complete guide to penetrat
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[High Crotch/Attacker|Play as Attacker]]
+[[High Crotch/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The High Crotch is a fundamental wrestling-based takedown that has become essential in modern Brazilian Jiu-Jitsu, particularly in no-gi competition. Unlike the traditional double leg where both legs are attacked simultaneously, the High Crotch focuses on capturing one leg while driving the opponent's hips backward, creating a mechanical advantage that makes the takedown highly effective even against larger opponents. This technique is particularly valuable because it allows the practitioner to maintain better posture throughout the execution, reducing exposure to guillotine chokes and other standing submission threats.

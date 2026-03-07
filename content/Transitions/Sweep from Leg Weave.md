@@ -13,6 +13,13 @@ description: "Master the Sweep from Leg Weave in BJJ. Counter leg weave passing 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Sweep from Leg Weave/Attacker|Play as Attacker]]
+[[Sweep from Leg Weave/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Sweep from Leg Weave is a high-reward counter-attacking technique executed by the bottom player when caught in the leg weave passing position. Rather than purely defending or attempting to recover guard, this technique capitalizes on the top player's forward commitment and leg entanglement to reverse the position entirely, landing the bottom player in side control on top. The sweep transforms what is typically a desperate defensive scenario into an offensive opportunity, making it a critical weapon for practitioners who face modern pressure passing systems.

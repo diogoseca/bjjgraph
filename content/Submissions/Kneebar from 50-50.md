@@ -15,6 +15,13 @@ description: "Master Kneebar from 50-50 Guard in BJJ. Complete guide with safety
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Kneebar from 50-50/Attacker|Play as Attacker]]
+[[Kneebar from 50-50/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Kneebar from 50-50 Guard is a fundamental leg lock submission that targets the opponent's knee joint through hyperextension. This position creates a powerful mechanical advantage where both practitioners have entangled legs, but the attacking player uses hip extension and proper leg positioning to isolate and attack one of the opponent's legs. The 50-50 position is unique because it offers both offensive and defensive opportunities simultaneously—while you attack your opponent's knee, you must also defend your own.

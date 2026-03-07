@@ -13,6 +13,13 @@ description: "Master the Sweep from Honey Hole in BJJ. Escape dangerous leg enta
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Sweep from Honey Hole/Attacker|Play as Attacker]]
+[[Sweep from Honey Hole/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Sweep from Honey Hole represents one of the most technically demanding reversals in modern leg lock grappling. Initiated from the bottom of the Honey Hole position—where your leg is trapped in your opponent's inside leg triangle with direct heel hook access—this sweep transforms a desperate defensive situation into an offensive opportunity by using the entanglement connecting both bodies as a mechanical lever for reversal. The technique requires explosive commitment, precise timing, and the willingness to take calculated risks with your trapped knee.

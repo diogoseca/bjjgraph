@@ -13,6 +13,13 @@ description: "Learn Switch to Anaconda Configuration from Buggy Choke in BJJ. Re
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Switch to Anaconda Configuration/Attacker|Play as Attacker]]
+[[Switch to Anaconda Configuration/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Switch to Anaconda Configuration is a grip transition from the Buggy Choke top position that capitalizes on the opponent turning into the attack. When the opponent rotates toward the choking arm to alleviate collar pressure, they inadvertently expose the head-and-arm configuration that enables the anaconda choke. Rather than fighting for the original buggy choke angle, the top player reads this defensive reaction and redirects the threading arm around the opponent's neck while the opposite arm shoots under the far armpit, locking the classic anaconda figure-four grip.

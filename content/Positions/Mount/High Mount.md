@@ -13,6 +13,13 @@ description: "Master High Mount in BJJ. Strategic guide covering advanced mount 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[High Mount/Bottom|Play as Bottom]]
+[[High Mount/Top|Play as Top]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 High Mount represents the most dominant variation of the mount position in Brazilian Jiu-Jitsu, where the top player positions their knees high on the opponent's torso—near the armpits or shoulders—creating an elevated platform that maximizes submission opportunities while severely restricting escape options. This advanced position serves as the final checkpoint before submission, offering the highest finishing rate of any mount variation.

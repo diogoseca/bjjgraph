@@ -13,6 +13,13 @@ description: "Master the Honey Hole to Saddle transition in BJJ. Refine leg enta
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Honey Hole to Saddle/Attacker|Play as Attacker]]
+[[Honey Hole to Saddle/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Honey Hole to Saddle transition represents a critical positional optimization within the modern leg lock system. While both positions share the same fundamental inside leg entanglement architecture, the distinction lies in the degree of control consolidation and perpendicular alignment achieved. The Honey Hole describes the initial catch where the inside triangle is secured but hip pressure, body angle, and grip hierarchy may not yet be fully optimized. The Saddle represents the refined dominant configuration where perpendicular alignment is maximized, hip pressure pins the opponent completely, and the submission dilemma framework is fully operational.

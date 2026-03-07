@@ -13,6 +13,13 @@ description: "Master Front Headlock to Back Take in BJJ. Complete guide covering
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Front Headlock to Back/Attacker|Play as Attacker]]
+[[Front Headlock to Back/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Front Headlock to Back Take is a fundamental transitional technique that exploits the opponent's defensive turtle position to establish dominant back control. This technique represents a critical juncture in grappling where the attacking practitioner converts head control into the most dominant position in Brazilian Jiu-Jitsu. The transition combines elements of wrestling-based front headlock control with BJJ-specific back attack principles, creating a systematic pathway from a semi-dominant position to full back control with hooks and seat belt grip established.

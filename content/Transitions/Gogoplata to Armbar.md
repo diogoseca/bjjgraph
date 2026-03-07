@@ -13,6 +13,13 @@ description: "Master the gogoplata to armbar chain in BJJ. Complete guide to tra
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Gogoplata to Armbar/Attacker|Play as Attacker]]
+[[Gogoplata to Armbar/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The gogoplata to armbar transition represents one of the most effective chain attacks available from the rubber guard system. When a practitioner has established gogoplata control from the bottom position with the shin across the opponent's throat and foot secured behind their head, opponents commonly defend by posturing up, extending their arms to create distance, or attempting to remove the shin. These defensive reactions expose the arms and create optimal conditions for transitioning to an armbar attack.

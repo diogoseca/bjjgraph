@@ -13,6 +13,13 @@ description: "Learn the Hitchhiker Escape from armbar control in BJJ. Master rot
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Hitchhiker Escape/Attacker|Play as Attacker]]
+[[Hitchhiker Escape/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Hitchhiker Escape is an advanced defensive technique used to escape from a fully extended armbar attack by exploiting rotational mechanics and timing. This escape requires exceptional flexibility, precise timing, and deep understanding of leverage principles. The technique involves rotating the thumb outward (the 'hitchhiker' motion) while simultaneously turning into the opponent and creating space to recover guard. While primarily associated with high-level competition and no-gi grappling, the Hitchhiker Escape represents a last-resort defensive option when positional escapes have failed and the armbar is nearly locked. The escape is particularly effective against opponents who rely purely on extension without proper shoulder control, as it exploits the natural weakness in the grip when the thumb is pointed away from the body. Success requires reading the opponent's finishing mechanics and executing the rotation at the precise moment before full extension is achieved.

@@ -13,6 +13,13 @@ description: "Master posture defense from rear triangle in BJJ. Learn systematic
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Posture Defense from Rear Triangle/Attacker|Play as Attacker]]
+[[Posture Defense from Rear Triangle/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Posture defense from the rear triangle addresses one of BJJ's most urgent survival scenarios. The rear triangle combines back control dominance with triangle choke mechanics, creating extreme carotid pressure while trapping one arm and severely limiting the defender's movement options. Without posture recovery, the bottom player faces rapidly escalating submission danger as the choking leg compresses the neck and the opponent optimizes finishing angles from behind.

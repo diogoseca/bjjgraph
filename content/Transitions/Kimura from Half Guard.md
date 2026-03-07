@@ -13,6 +13,13 @@ description: "Master the Kimura from Half Guard Bottom in BJJ. Learn grip entrie
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Kimura from Half Guard/Attacker|Play as Attacker]]
+[[Kimura from Half Guard/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Kimura from Half Guard Bottom is a foundational transition in modern half guard offense that connects the bottom player's guard game to the powerful Kimura Trap control system. Initiated when the top player exposes their arm through posting, reaching for underhooks, or attempting passes, the bottom player threads their inside arm under the opponent's tricep and secures a figure-four grip on their own wrist. This grip establishment transforms the positional dynamic, giving the bottom player control over the top player's shoulder girdle and disrupting their ability to maintain stable top pressure.

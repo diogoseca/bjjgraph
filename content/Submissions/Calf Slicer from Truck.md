@@ -15,6 +15,13 @@ description: "Master the Calf Slicer from Truck in BJJ. Complete guide with safe
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Calf Slicer from Truck/Attacker|Play as Attacker]]
+[[Calf Slicer from Truck/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Calf Slicer from Truck is a high-level compression submission that targets the calf muscle and knee joint simultaneously. Popularized by the 10th Planet system, this technique capitalizes on the unique control offered by the Truck position - where you control your opponent's back while they're turned away, with their legs trapped. The submission works by wedging your shin bone across the back of your opponent's calf while pulling their heel toward their hamstring, creating intense pressure on both the gastrocnemius muscle and the knee ligaments. Unlike traditional joint locks that rely purely on skeletal manipulation, the calf slicer combines muscular compression with joint stress, making it particularly effective against opponents with flexible joints but less conditioned legs. The Truck position provides exceptional control for this finish because your opponent is already compromised - their hips are twisted, their base is broken, and your body weight pins them face-down. This submission requires precise technical execution and carries significant injury risk if applied carelessly, making it essential to master the positional control before attempting the finish. The calf slicer represents the convergence of 10th Planet's innovative approach to leg attacks and traditional compression submissions, offering a powerful finishing option from one of modern no-gi grappling's most dominant positions.

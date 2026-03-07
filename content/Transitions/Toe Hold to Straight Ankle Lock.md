@@ -13,6 +13,13 @@ description: "Master the Toe Hold to Straight Ankle Lock transition in BJJ. Comp
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Toe Hold to Straight Ankle Lock/Attacker|Play as Attacker]]
+[[Toe Hold to Straight Ankle Lock/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Toe Hold to Straight Ankle Lock transition represents a fundamental grip reconfiguration within the leg lock chain attack system, where the attacker abandons rotational ankle pressure in favor of extension-based Achilles compression. This switch exploits a critical principle in submission grappling: when a defender successfully neutralizes one attack vector, switching to a mechanically distinct threat on the same limb often catches them unprepared. The toe hold attacks through ankle rotation via a figure-four grip on the foot, while the straight ankle lock attacks through Achilles compression and ankle hyperextension using a forearm blade across the tendon. These two submissions target different defensive responses, making the transition between them a high-percentage chain attack.

@@ -13,6 +13,13 @@ description: "Master the Kneebar from Estima Lock in BJJ. Convert defended footl
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Kneebar from Estima Lock/Attacker|Play as Attacker]]
+[[Kneebar from Estima Lock/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Kneebar from Estima Lock represents a critical chain attack within leg lock systems, converting a defended or stalling footlock position into a powerful hyperextension attack on the knee joint. When the opponent successfully neutralizes the Estima Lock's rotational ankle pressure—typically by counter-rotating their foot, creating space with their free leg, or beginning to extract their trapped foot—the attacker redirects to attack the now-exposed knee by repositioning their hips across the opponent's thigh line. This transition moves the attack up the kinematic chain from ankle to knee, exploiting the structural changes the defender creates while escaping the footlock.

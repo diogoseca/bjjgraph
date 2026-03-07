@@ -13,6 +13,13 @@ description: "Master Lapel Omoplata Entry from Lapel Guard bottom. Complete guid
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Lapel Omoplata Entry/Attacker|Play as Attacker]]
+[[Lapel Omoplata Entry/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Lapel Omoplata Entry represents a sophisticated integration of modern lapel guard concepts with classical shoulder lock mechanics. This technique exploits the unique control dynamics created when an opponent posts their hand to defend sweeps from lapel guard, transforming their defensive reaction into an opportunity for shoulder lock control.

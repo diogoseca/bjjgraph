@@ -13,6 +13,13 @@ description: "Learn Triangle to Armbar transition in BJJ. Step-by-step execution
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Triangle to Armbar/Attacker|Play as Attacker]]
+[[Triangle to Armbar/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Triangle to Armbar transition represents one of the most fundamental and high-percentage submission chains in Brazilian Jiu-Jitsu. When an opponent defends the triangle choke by maintaining proper posture or hand positioning, the armbar becomes immediately available because the defending arm is already isolated inside the triangle configuration. This transition capitalizes on the opponent's defensive response, creating a classic two-attack system where defending one submission opens the path to another.

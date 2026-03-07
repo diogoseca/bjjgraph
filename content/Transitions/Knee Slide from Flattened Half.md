@@ -13,6 +13,13 @@ description: "Master the knee slide from flattened half guard in BJJ. Step-by-st
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Knee Slide from Flattened Half/Attacker|Play as Attacker]]
+[[Knee Slide from Flattened Half/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Knee Slide from Flattened Half Guard is a high-percentage guard pass that capitalizes on the dominant upper body control already established when the bottom player has been flattened. Unlike a standard knee slice from active half guard, this variation begins from a position of significant advantage where the bottom player's frames have been collapsed, their back is flat against the mat, and the top player maintains heavy crossface pressure. The primary technical challenge is extracting the trapped leg while maintaining the pressure that keeps the bottom player immobilized.

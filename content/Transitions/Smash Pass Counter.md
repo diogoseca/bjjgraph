@@ -13,6 +13,13 @@ description: "Master Smash Pass Counter from Ringworm Guard Top. Extract leg fro
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Smash Pass Counter/Attacker|Play as Attacker]]
+[[Smash Pass Counter/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Smash Pass Counter is a pressure-based response to Ringworm Guard that prioritizes extracting the trapped leg from the lapel configuration while simultaneously driving forward with heavy shoulder and hip pressure. Unlike standing extraction methods that create distance, this approach uses proximity and weight to nullify the guard player's leverage while systematically breaking down their lapel control.

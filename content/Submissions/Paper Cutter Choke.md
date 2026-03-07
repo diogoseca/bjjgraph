@@ -15,6 +15,13 @@ description: "Master Paper Cutter Choke in BJJ. Complete guide with safety proto
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Paper Cutter Choke/Attacker|Play as Attacker]]
+[[Paper Cutter Choke/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Paper Cutter Choke is a highly effective blood choke executed primarily from side control, though it can also be applied from various transitional positions including north-south and turtle. The technique derives its name from the cutting motion of the choking arm across the opponent's neck, similar to how paper is cut with a blade. This submission targets both carotid arteries simultaneously through a combination of the gi collar and the attacker's forearm, creating a powerful constriction that leads to rapid unconsciousness if not defended. The Paper Cutter Choke is particularly dangerous because it can be applied with relatively little warning and often catches opponents by surprise during position transitions. The technique is valued for its mechanical efficiency—once the grip is secured and the angle is correct, very little strength is required to finish. This makes it an excellent submission for practitioners of all sizes and is especially effective against larger, stronger opponents who might resist other collar chokes. The choke is frequently taught as part of side control attack sequences and integrates seamlessly with other submissions like the cross collar choke and arm triangle.

@@ -13,6 +13,13 @@ description: "Master counter throws from standing rear clinch in BJJ. Learn late
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Counter Throw from Standing Rear Clinch/Attacker|Play as Attacker]]
+[[Counter Throw from Standing Rear Clinch/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The counter throw from standing rear clinch is a high-risk, high-reward reversal technique executed by the controlled practitioner when an opponent has established chest-to-back control from standing. Rather than attempting to strip grips or create separation incrementally, the bottom player redirects the opponent's forward pressure and committed grip structure into a throwing arc that lands the opponent on their back, ideally transitioning directly into mount. This technique exploits the fundamental vulnerability of rear clinch control: the controlling player's weight is loaded forward onto the controlled player's back, making them susceptible to being pulled over center of gravity if the bottom player drops their level and rotates explosively.

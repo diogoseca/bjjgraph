@@ -13,6 +13,13 @@ description: "Master the Chair Sit to Back Take in BJJ. Control opponent from tu
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Chair Sit to Back/Attacker|Play as Attacker]]
+[[Chair Sit to Back/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Chair Sit to Back Take is a fundamental transition from attacking turtle position to establishing dominant back control. This technique exploits the opponent's defensive turtle posture by controlling their hips and preventing forward movement while systematically climbing onto their back. The chair sit position provides exceptional control by using your leg as a barrier across the opponent's thigh, preventing them from turning into you while you establish the crucial seatbelt grip configuration.

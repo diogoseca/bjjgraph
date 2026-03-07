@@ -15,6 +15,13 @@ description: "Master the Heel Hook from Ushiro Ashi-Garami. Complete guide cover
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Heel Hook from Ushiro Ashi/Attacker|Play as Attacker]]
+[[Heel Hook from Ushiro Ashi/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Heel Hook from Ushiro Ashi-Garami represents one of the most technically demanding finishing sequences in modern leg lock systems. Unlike heel hooks executed from standard outside or inside ashi-garami configurations, this variation requires specific mechanical adjustments to account for the opponent's inverted hip orientation that characterizes the ushiro (reverse) entanglement. The reversed configuration changes optimal grip placement, hip angle, and rotational mechanics for the finish, demanding a more compact finishing position with the attacker's hips positioned closer to the opponent's trapped leg.

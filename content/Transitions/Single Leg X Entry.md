@@ -13,6 +13,13 @@ description: "Master Single Leg X Entry in BJJ. Step-by-step execution from seat
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Single Leg X Entry/Attacker|Play as Attacker]]
+[[Single Leg X Entry/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Single Leg X Entry is a fundamental transition in modern leg entanglement systems, allowing practitioners to establish a dominant sweeping position from various seated guard configurations. This entry creates a powerful off-balancing structure by controlling one leg while using your own legs to destabilize your opponent's base. The position excels at creating immediate sweeping opportunities and serves as a gateway to more advanced leg entanglement positions.

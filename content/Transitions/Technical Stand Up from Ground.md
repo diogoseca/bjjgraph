@@ -13,6 +13,13 @@ description: "Master the Technical Stand Up from Ground in BJJ. Essential guide 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Technical Stand Up from Ground/Attacker|Play as Attacker]]
+[[Technical Stand Up from Ground/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Technical Stand Up from Ground is one of the most fundamental movements in Brazilian Jiu-Jitsu, enabling a practitioner to safely transition from a seated or grounded position to full standing while maintaining defensive awareness and structural integrity. Built on the principle of posting a hand behind the hip for structural support combined with a kick-through leg motion, this technique creates the elevation needed to reach standing without exposing the practitioner to takedowns or submissions during the vulnerable transition phase.

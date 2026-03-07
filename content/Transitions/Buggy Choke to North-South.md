@@ -13,6 +13,13 @@ description: "Master the Buggy Choke to North-South transition in BJJ. Convert s
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Buggy Choke to North-South/Attacker|Play as Attacker]]
+[[Buggy Choke to North-South/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Buggy Choke to North-South transition represents a critical positional decision point in turtle attack systems where the top player recognizes that the buggy choke submission is not progressing and converts the existing control into dominant north-south pressure. This transition capitalizes on the structural advantages already established by buggy choke grips — chest pressure, postural breakdown, and arm threading — to facilitate a smooth slide into perpendicular alignment without creating escape windows for the bottom player.

@@ -13,6 +13,13 @@ description: "Master the Inside Sankaku to Saddle transition in BJJ. Learn syste
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Inside Sankaku to Saddle/Attacker|Play as Attacker]]
+[[Inside Sankaku to Saddle/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Inside Sankaku to Saddle transition is a critical positional upgrade within modern leg lock systems, converting a strong single-leg entanglement into the most dominant leg control configuration in Brazilian Jiu-Jitsu. Inside Sankaku provides excellent heel hook opportunities but remains vulnerable to defensive rotations and knee line clearance attempts. The Saddle eliminates most of these defensive pathways by establishing perpendicular hip pressure with both legs controlling the opponent's trapped limb, creating a near-checkmate scenario where every defensive reaction opens a new submission pathway.

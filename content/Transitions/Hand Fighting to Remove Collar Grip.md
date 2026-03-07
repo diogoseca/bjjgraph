@@ -13,6 +13,13 @@ description: "Master hand fighting to remove collar grip from invisible collar b
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Hand Fighting to Remove Collar Grip/Attacker|Play as Attacker]]
+[[Hand Fighting to Remove Collar Grip/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Hand Fighting to Remove Collar Grip represents the critical first layer of defense when trapped in the invisible collar position from bottom. The technique addresses the most immediate threat—the deep collar grip that can finish the match within seconds. Unlike generic hand fighting, this defensive sequence specifically targets the biomechanics of collar grip removal, using two-on-one control to systematically peel fingers from the gi material before the attacker can apply finishing pressure.

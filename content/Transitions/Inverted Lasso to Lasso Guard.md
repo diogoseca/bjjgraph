@@ -13,6 +13,13 @@ description: "Master the inverted lasso to lasso guard transition. Step-by-step 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Inverted Lasso to Lasso Guard/Attacker|Play as Attacker]]
+[[Inverted Lasso to Lasso Guard/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Inverted Lasso to Lasso Guard transition is a fundamental recovery technique within the lasso guard system, allowing the bottom player to return from an energy-intensive inverted position to the more sustainable standard lasso guard. This transition occurs when the inverted position has not yielded an immediate attack opportunity, when the opponent is defending inversions effectively, or when the bottom player needs to conserve energy while maintaining offensive pressure. The ability to fluidly move between inverted and upright lasso guard is what separates advanced lasso guard players from those who treat each position as isolated.

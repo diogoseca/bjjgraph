@@ -13,6 +13,13 @@ description: "Master Ashi Garami leg entanglements in BJJ. Complete guide to sys
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Ashi Garami/Bottom|Play as Bottom]]
+[[Ashi Garami/Top|Play as Top]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 **Ashi Garami** (足絡み, Japanese for "leg entanglement") represents a comprehensive family of leg control positions that form the foundation of modern leg lock systems. Unlike traditional top-bottom positional hierarchies, Ashi Garami positions exist in a horizontal plane where both practitioners compete for leg control and finishing opportunities. This position family has revolutionized competitive Brazilian Jiu-Jitsu and submission grappling, particularly in no-gi formats where the absence of grips makes leg attacks more accessible and effective.

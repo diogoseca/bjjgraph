@@ -13,6 +13,13 @@ description: "Learn Pressure Pass through Center from Grasshopper Guard. Step-by
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Pressure Pass through Center/Attacker|Play as Attacker]]
+[[Pressure Pass through Center/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Pressure Pass through Center is a direct, aggressive passing method used when facing an opponent in Grasshopper Guard or similar inverted positions. Rather than circling around the guard or attempting back steps, this pass drives straight through the opponent's defensive structure by collapsing their hip elevation and stacking their inverted posture. The technique capitalizes on the inherent vulnerability of inverted guards—the bottom player's core cannot sustain heavy forward pressure indefinitely.

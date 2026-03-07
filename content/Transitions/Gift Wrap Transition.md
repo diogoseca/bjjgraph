@@ -13,6 +13,13 @@ description: "Master Gift Wrap Transition from High Mount in BJJ. Arm isolation 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Gift Wrap Transition/Attacker|Play as Attacker]]
+[[Gift Wrap Transition/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Gift Wrap Transition is a fundamental arm isolation technique executed from High Mount that establishes dominant control by trapping one of the opponent's arms across their own body. This transition removes half of the opponent's defensive capability in a single action, transforming an already dominant position into a submission-rich control point. The technique capitalizes on the high mount's proximity to the opponent's upper body, making arm isolation more accessible than from standard mount.

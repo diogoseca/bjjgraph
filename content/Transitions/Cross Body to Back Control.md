@@ -13,6 +13,13 @@ description: "Master Cross Body to Back Control in BJJ. Step-by-step guide to ta
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Cross Body to Back Control/Attacker|Play as Attacker]]
+[[Cross Body to Back Control/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Cross Body to Back Control is the fundamental transition from the perpendicular turtle ride to the most dominant position in Brazilian Jiu-Jitsu. Beginning from the Cross Body Ride—where the top player maintains chest-to-back pressure at a perpendicular angle across the opponent's spine—this transition involves systematically rotating from the perpendicular orientation to a parallel chest-behind-back position while inserting hooks and establishing the seatbelt grip. The technique capitalizes on the control advantages of the cross body position to methodically advance to full back control without creating escape opportunities.

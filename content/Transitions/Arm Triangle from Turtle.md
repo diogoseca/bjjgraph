@@ -13,6 +13,13 @@ description: "Master the Arm Triangle from Turtle in BJJ. Complete guide coverin
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Arm Triangle from Turtle/Attacker|Play as Attacker]]
+[[Arm Triangle from Turtle/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Arm Triangle from Turtle is a powerful submission attack that exploits the defensive turtle position by isolating one of the opponent's arms and converting to a blood choke. This transition combines elements of front headlock control with precise shoulder positioning to create a devastating finishing sequence. The technique is particularly effective against opponents who rely heavily on the turtle as a defensive refuge, as it punishes the common error of keeping the elbows too wide or allowing the head to drift away from the body. Unlike traditional arm triangles from side control or mount, this variation requires the attacker to generate the necessary compression while transitioning from a top turtle position, making timing and weight distribution critical factors.

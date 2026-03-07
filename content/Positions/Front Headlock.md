@@ -13,6 +13,13 @@ description: "Master front headlock position in BJJ. Strategic control position 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Front Headlock/Bottom|Play as Bottom]]
+[[Front Headlock/Top|Play as Top]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The front headlock is one of the most dominant control positions in Brazilian Jiu-Jitsu, occurring when you secure your opponent's head and neck while they are bent forward, typically on their hands and knees or in a compromised standing position. This position represents a critical junction point in grappling where numerous high-percentage submissions and positional advancements become available.

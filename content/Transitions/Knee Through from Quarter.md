@@ -13,6 +13,13 @@ description: "Master Knee Through from Quarter Guard in BJJ. Complete guide to d
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Knee Through from Quarter/Attacker|Play as Attacker]]
+[[Knee Through from Quarter/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Knee Through from Quarter Guard is the direct path to achieving mount from an advanced passing position. When the top player has navigated past the majority of the bottom player's defensive structures and established quarter guard, the knee through represents the final mechanical action—driving the passing knee completely past remaining leg entanglement to establish full mount control. This technique sits at the critical juncture between near-complete pass and dominant position, where proper execution converts positional advantage into four points and direct submission access.

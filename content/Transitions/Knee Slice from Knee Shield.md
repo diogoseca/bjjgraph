@@ -13,6 +13,13 @@ description: "Master the knee slice pass from knee shield half guard. Expert gui
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Knee Slice from Knee Shield/Attacker|Play as Attacker]]
+[[Knee Slice from Knee Shield/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The knee slice from knee shield is one of the most essential guard passing techniques in modern Brazilian Jiu-Jitsu, specifically addressing the challenge of defeating an active knee shield frame before completing the pass to side control. Unlike the standard knee slice from flat half guard where the passer can immediately drive the knee through, this variation demands that the passer first neutralize the defensive barrier created by the opponent's shin across their torso. The technique requires precise sequencing—establishing upper body control through crossface pressure, systematically collapsing or redirecting the knee shield by controlling the ankle, then driving the passing knee diagonally across the opponent's thigh line while maintaining relentless forward pressure.

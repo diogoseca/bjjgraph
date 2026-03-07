@@ -13,6 +13,13 @@ description: "Master Rolling Back Take Reversal from body triangle defense. Coun
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Rolling Back Take Reversal/Attacker|Play as Attacker]]
+[[Rolling Back Take Reversal/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Rolling Back Take Reversal is an advanced escape technique used when trapped in an opponent's body triangle from the defensive (top) position. Rather than fighting the crushing pressure of the triangle lock directly, this technique uses momentum and rotation to reverse the position entirely, ending with you taking back control of your opponent. The technique exploits the inherent commitment of the body triangle - once locked, your opponent cannot easily disengage their legs, making them vulnerable to being carried through a rolling motion.

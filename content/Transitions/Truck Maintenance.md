@@ -13,6 +13,13 @@ description: "Master Truck Maintenance in BJJ. Learn boot pressure retention, le
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Truck Maintenance/Attacker|Play as Attacker]]
+[[Truck Maintenance/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Truck Maintenance represents the active effort to retain the Truck position against an opponent's escape attempts. The Truck is an inherently dynamic position where the bottom player is highly motivated to escape due to multiple submission threats, and maintaining control requires constant adjustment of boot pressure, leg entanglement, and upper body connection. Unlike static control positions such as side control or mount, truck retention demands vigilance over multiple control points simultaneously because the position's offensive nature creates vulnerability during attacks.

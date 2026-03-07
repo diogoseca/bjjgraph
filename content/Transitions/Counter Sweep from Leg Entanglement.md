@@ -13,6 +13,13 @@ description: "Master the counter sweep from leg entanglement in BJJ. Complete gu
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Counter Sweep from Leg Entanglement/Attacker|Play as Attacker]]
+[[Counter Sweep from Leg Entanglement/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The counter sweep from leg entanglement is a positional reversal technique executed by the bottom player when their opponent is attacking from an ashi garami or related entanglement configuration. Rather than defending purely through leg extraction or guard recovery, this technique weaponizes the opponent's commitment to the leg attack, using the entanglement itself as a fulcrum to off-balance and sweep the attacker before establishing side control.

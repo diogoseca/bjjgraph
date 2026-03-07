@@ -13,6 +13,13 @@ description: "Learn the Omoplata to Sweep transition in BJJ. Step-by-step execut
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Omoplata to Sweep/Attacker|Play as Attacker]]
+[[Omoplata to Sweep/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Omoplata to Sweep is a fundamental transition that capitalizes on your opponent's defensive reactions to the omoplata shoulder lock. When executing an omoplata from guard, opponents frequently defend by rolling forward or posting their free hand to relieve pressure on the trapped shoulder. This defensive response creates an immediate sweeping opportunity where you can use their momentum and compromised base to reverse position and achieve top control.

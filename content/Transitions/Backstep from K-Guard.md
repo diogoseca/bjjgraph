@@ -13,6 +13,13 @@ description: "Master the Backstep from K-Guard in BJJ. Extract your trapped leg 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Backstep from K-Guard/Attacker|Play as Attacker]]
+[[Backstep from K-Guard/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Backstep from K-Guard is a specialized guard passing technique where the top player extracts their trapped leg from the K-Guard's inverted hook system by stepping it backward and around the bottom player's leg configuration. Unlike forward-pressure passes that attempt to drive through the hook structure, the backstep uses directional change to circumvent the bottom player's strongest retention mechanics. This makes it a valuable secondary option when conventional pressure passing stalls against an active K-Guard retention system.

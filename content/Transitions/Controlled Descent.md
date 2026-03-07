@@ -13,6 +13,13 @@ description: "Learn Controlled Descent from standing back control in BJJ. Strate
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Controlled Descent/Attacker|Play as Attacker]]
+[[Controlled Descent/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Controlled Descent is a critical defensive technique executed when an opponent has achieved standing back control and you need to transition the fight to the ground on your own terms rather than being thrown or slammed. The technique involves strategically dropping your base while maintaining defensive frames, allowing you to reach turtle or guard positions where you have significantly more defensive options than standing with your back exposed.

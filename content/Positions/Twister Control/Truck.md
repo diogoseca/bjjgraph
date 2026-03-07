@@ -13,6 +13,13 @@ description: "Master Truck Position in BJJ with comprehensive bottom and top per
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Truck/Bottom|Play as Bottom]]
+[[Truck/Top|Play as Top]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Truck Position is a specialized back-attack control position developed and popularized within the 10th Planet Jiu-Jitsu system. This position creates a unique control system where the controlling practitioner is positioned perpendicular to their opponent, with legs entangled in a figure-four configuration controlling the opponent's lower body while maintaining upper body control through various grips.

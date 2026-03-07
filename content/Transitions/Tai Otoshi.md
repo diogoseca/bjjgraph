@@ -13,6 +13,13 @@ description: "Master Tai Otoshi (body drop) in BJJ and Judo. Complete execution 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Tai Otoshi/Attacker|Play as Attacker]]
+[[Tai Otoshi/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Tai Otoshi, meaning 'body drop' in Japanese, is a fundamental judo throw that has been seamlessly integrated into modern Brazilian Jiu-Jitsu as a high-percentage standing technique. This throw exemplifies the principle of maximum efficiency with minimum effort, using timing, off-balancing, and mechanical advantage to project an opponent to the mat. Unlike many judo throws that rely heavily on hip positioning, Tai Otoshi uses the practitioner's leg as a blocking point while pulling the opponent forward and downward in a circular motion. The technique is particularly effective in no-gi grappling due to its reliance on body mechanics rather than gi grips, though traditional sleeve and lapel controls make it even more powerful in the gi. When executed correctly, Tai Otoshi allows a smaller practitioner to throw a significantly larger opponent by exploiting their forward momentum and breaking their base at precisely the right moment. The throw creates immediate scoring opportunities in competition and transitions naturally into dominant positions such as side control, knee on belly, or back control, making it a complete technique that bridges the standing and ground phases of combat.

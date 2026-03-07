@@ -13,6 +13,13 @@ description: "Master the heel hook from saddle in BJJ. Complete guide to inside 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Heel Hook from Saddle/Attacker|Play as Attacker]]
+[[Heel Hook from Saddle/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The heel hook from saddle represents the apex finishing technique in modern leg lock systems, functioning as the primary submission that justifies the positional investment required to reach the saddle position. This inside heel hook variant attacks the knee ligaments through controlled rotational force applied via the heel, exploiting the mechanical advantage created by the saddle's perpendicular body alignment and comprehensive leg entanglement. The position's structural control—inside leg configuration restricting hip rotation, perpendicular alignment creating optimal leverage—allows the attacker to methodically establish grips, clear defenses, and apply breaking pressure with dramatically higher completion rates than heel hooks attempted from lesser entanglements like inside ashi garami or standard ashi garami.

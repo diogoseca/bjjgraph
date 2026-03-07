@@ -13,6 +13,13 @@ description: "Master the John Wayne Sweep from Half Guard. High-reward transitio
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[John Wayne Sweep/Attacker|Play as Attacker]]
+[[John Wayne Sweep/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The John Wayne Sweep is a powerful offensive technique from half guard that capitalizes on opponent's forward pressure and poor base management. Named after the characteristic pistol-shooting motion used during the grip break, this sweep combines elements of traditional half guard underhook work with creative grip fighting. The technique exploits the moment when your opponent reaches for crossface control or attempts to flatten you, using their forward commitment against them. By establishing strong sleeve control from the underhook side, creating an angle with your hip movement, and utilizing the half guard hook effectively, you can off-balance your opponent and transition directly to mount.

@@ -13,6 +13,13 @@ description: "Learn Arm Drag Escape from front headlock in BJJ. Use arm drag mec
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Arm Drag Escape/Attacker|Play as Attacker]]
+[[Arm Drag Escape/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Arm Drag Escape is a high-percentage defensive technique used to escape front headlock control by redirecting the opponent's controlling arm across your body, creating the space needed to clear your head and recover to open guard. Unlike many front headlock escapes that rely on explosive movement or rolling mechanics, the arm drag escape uses precise grip work and angular movement to systematically dismantle your opponent's control structure.

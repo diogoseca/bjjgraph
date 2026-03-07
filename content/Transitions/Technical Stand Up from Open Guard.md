@@ -13,6 +13,13 @@ description: "Master the Technical Stand Up from Open Guard in BJJ. Complete gui
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Technical Stand Up from Open Guard/Attacker|Play as Attacker]]
+[[Technical Stand Up from Open Guard/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Technical Stand Up from Open Guard is one of the most fundamental yet underutilized transitions in Brazilian Jiu-Jitsu, allowing the bottom player to safely return to standing from a seated or supine open guard position. Unlike simply scrambling to the feet, the technical stand up employs a specific biomechanical sequence of posting, hip elevation, and defensive framing that maintains protection against passes and takedowns throughout the entire standing motion. This technique is essential for any practitioner who wants to control where the fight takes place, whether in competition or self-defense contexts.

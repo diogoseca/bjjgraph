@@ -13,6 +13,13 @@ description: "Master the Pocket Half Pass in BJJ. Complete guide to passing from
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Pocket Half Pass/Attacker|Play as Attacker]]
+[[Pocket Half Pass/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Pocket Half Pass is the systematic completion of a guard pass from the pocket half guard top position, where the passer has already secured a deep underhook and established flattening pressure against the bottom player. This technique represents the critical final phase of pressure passing through half guard, converting positional dominance into a complete guard pass to side control. The defining characteristic is the coordinated use of underhook pulling pressure, crossface control, and methodical trapped leg extraction that prevents the bottom player from recovering guard or executing sweeps during the transition.

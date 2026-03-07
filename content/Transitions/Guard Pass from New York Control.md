@@ -13,6 +13,13 @@ description: "Master the guard pass from New York Control. Step-by-step system f
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Guard Pass from New York Control/Attacker|Play as Attacker]]
+[[Guard Pass from New York Control/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The guard pass from New York Control addresses one of the most challenging scenarios in modern no-gi grappling: escaping the rubber guard system's sophisticated leg and arm entanglement to achieve a dominant passing position. New York Control traps the top player in a compound web of overhook control and leg pressure draped across the shoulder and back, neutralizing conventional passing mechanics entirely. Standard pressure passing, posture recovery, and grip-break sequences all fail against proper rubber guard structure, requiring a specialized sequential approach where the overhook must be addressed before the leg control can be cleared.

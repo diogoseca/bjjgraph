@@ -13,6 +13,13 @@ description: "Master the Truck to Twister Side Control transition in BJJ. Step-b
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Truck to Twister Side Control/Attacker|Play as Attacker]]
+[[Truck to Twister Side Control/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Transition to Twister Side Control converts the perpendicular back-attack orientation of the Truck into a lateral chest-to-chest control position that emphasizes spinal torque and shoulder pressure. Where the Truck threatens primarily through boot pressure and vertical leg entanglement, Twister Side Control redirects that control into a lateral plane, opening submission chains including the twister finish, darce choke, and kimura that are unavailable from standard truck positioning.

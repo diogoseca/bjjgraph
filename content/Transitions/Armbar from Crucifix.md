@@ -13,6 +13,13 @@ description: "Master the Armbar from Crucifix in BJJ. High-percentage arm attack
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Armbar from Crucifix/Attacker|Play as Attacker]]
+[[Armbar from Crucifix/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Armbar from Crucifix is a high-percentage arm attack that capitalizes on the unique control dynamics of the crucifix position. When the opponent commits their free arm to defending neck attacks—the natural defensive response to crucifix choke threats—the arm becomes isolated and vulnerable to hyperextension attacks. The crucifix position provides exceptional control throughout the armbar attempt because the opponent's near arm remains trapped in the leg configuration, preventing them from using both arms to defend.

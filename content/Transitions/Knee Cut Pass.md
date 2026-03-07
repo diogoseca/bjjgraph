@@ -13,6 +13,13 @@ description: "Master the Knee Cut Pass in BJJ. Complete guide covering setup, ex
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Knee Cut Pass/Attacker|Play as Attacker]]
+[[Knee Cut Pass/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Knee Cut Pass (also known as Knee Slice Pass) is one of the most fundamental and high-percentage guard passes in Brazilian Jiu-Jitsu. This technique involves driving your knee across the opponent's thigh line while establishing control over their upper body, effectively bisecting their guard structure and creating a direct path to side control. The knee cut's effectiveness lies in its ability to combine forward pressure with perpendicular movement, making it difficult for the opponent to retain guard once the pass is properly initiated.

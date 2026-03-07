@@ -13,6 +13,13 @@ description: "Master the Anaconda to Side Control transition in BJJ. Learn gator
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Anaconda to Side Control/Attacker|Play as Attacker]]
+[[Anaconda to Side Control/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Anaconda to Side Control transition is a fundamental positional advancement in the front headlock and head-and-arm choke system, converting the anaconda grip into a dominant pinning position. From Anaconda Control, the attacker uses a gator roll — a forward rolling motion that carries the opponent underneath — to arrive in side control with chest pressure established across the opponent's torso. This transition is essential when the anaconda choke itself is not immediately available or when the opponent's defensive posture makes finishing the choke impractical from the current angle.

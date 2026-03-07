@@ -13,6 +13,13 @@ description: "Master Lockdown Escape to Half Guard Pass in BJJ. Systematic leg e
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Lockdown Escape to Half Guard Pass/Attacker|Play as Attacker]]
+[[Lockdown Escape to Half Guard Pass/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Lockdown Escape to Half Guard Pass is the essential counter-technique for the top player trapped in an opponent's lockdown half guard. When your leg is caught in the figure-four lockdown configuration, your mobility is severely compromised and you face constant sweep and submission threats from the Electric Chair, Old School, and whip-up attacks. This technique provides a systematic pathway to extract your trapped leg and immediately advance to side control rather than settling for neutral half guard.

@@ -13,6 +13,13 @@ description: "Master the Transition to 3-4 Mount from standard mount. Learn asym
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Mount to 3-4 Mount/Attacker|Play as Attacker]]
+[[Mount to 3-4 Mount/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Transition to 3-4 Mount is a positional adjustment from standard mount where the top player extracts one leg from the traditional mount configuration and posts it outside the opponent's body, creating an asymmetric three-quarter contact pattern. This transition converts the bilateral symmetry of standard mount into a directional control platform optimized for specific submission entries and positional advancements. The movement itself is deceptively simple—pulling one knee out and posting the foot—but executing it without creating escape windows requires precise timing, weight management, and understanding of when the asymmetric configuration provides tactical advantage over standard mount.

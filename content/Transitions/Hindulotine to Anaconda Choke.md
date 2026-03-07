@@ -13,6 +13,13 @@ description: "Master the Hindulotine to Anaconda Choke transition in BJJ. Thread
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Hindulotine to Anaconda Choke/Attacker|Play as Attacker]]
+[[Hindulotine to Anaconda Choke/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Hindulotine to Anaconda Choke transition exploits a common defensive reaction where opponents create space with their near-side arm to relieve guillotine pressure. Rather than fighting to maintain the original choke, this technique flows into an anaconda configuration that uses the defender's own frame against them. The transition represents a fundamental principle in submission grappling: when one attack is defended, the defensive movement itself creates vulnerability to a different attack.

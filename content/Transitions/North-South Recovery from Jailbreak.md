@@ -13,6 +13,13 @@ description: "Master the North-South Recovery from Jailbreak in BJJ. Learn weigh
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[North-South Recovery from Jailbreak/Attacker|Play as Attacker]]
+[[North-South Recovery from Jailbreak/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The North-South Recovery from Jailbreak is a positional consolidation technique used by the top player when direct guard passing from the Jailbreak position encounters persistent leg defense. Rather than continuing to fight through extended leg barriers with forward pressure, the top player redirects their energy by walking circularly around the bottom player's head to establish the perpendicular chest-to-chest alignment characteristic of North-South control.

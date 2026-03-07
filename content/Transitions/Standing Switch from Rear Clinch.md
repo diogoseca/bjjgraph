@@ -13,6 +13,13 @@ description: "Master the Standing Switch from Rear Clinch in BJJ. Wrestling-base
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Standing Switch from Rear Clinch/Attacker|Play as Attacker]]
+[[Standing Switch from Rear Clinch/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Standing Switch from Rear Clinch is a fundamental wrestling-based reversal technique adapted for BJJ that allows a practitioner controlled from behind in standing to pivot, clear the opponent's grips, and rotate into a dominant or neutral position. When an opponent has secured chest-to-back control with a bodylock or seatbelt grip, the switch exploits momentary weight distribution imbalances by redirecting the opponent's forward pressure through a sharp hip rotation combined with arm clearing mechanics. This technique bridges wrestling and jiu-jitsu skill sets, making it essential for practitioners who compete in no-gi or MMA formats where standing rear clinch encounters are frequent.

@@ -13,6 +13,13 @@ description: "Master the hip escape from consolidated side control. Learn shrimp
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Hip Escape from Side Control Consolidation/Attacker|Play as Attacker]]
+[[Hip Escape from Side Control Consolidation/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The hip escape from consolidated side control is the foundational escape technique for recovering guard when pinned under heavy top pressure. Unlike escapes attempted during transitional scrambles, this technique addresses the specific challenge of a fully settled opponent who has established crossface control, chest pressure, and hip connection. The bottom player must create space through coordinated framing, bridging, and shrimping movements to insert a knee shield and recover half guard, all while managing energy expenditure under sustained pressure.

@@ -15,6 +15,13 @@ description: "Master the Spinning Armbar in BJJ. Dynamic rotational submission t
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Spinning Armbar/Attacker|Play as Attacker]]
+[[Spinning Armbar/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Spinning Armbar is a dynamic and versatile submission technique that targets the elbow joint through rotational movement. Unlike traditional static armbars, this technique involves spinning your entire body around the opponent's arm to create a finishing angle, making it particularly effective when standard armbar entries are defended or unavailable. The spinning motion generates momentum that can overcome defensive postures and creates multiple entry points from various positions including mount, guard, scrambles, and standing situations. This submission requires precise timing, spatial awareness, and fluid hip movement to execute successfully.

@@ -13,6 +13,13 @@ description: "Master the reversal from triangle escape position in BJJ. Learn st
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Reversal from Triangle Escape/Attacker|Play as Attacker]]
+[[Reversal from Triangle Escape/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Reversal from Triangle Escape converts the defensive mechanics of a triangle escape into an offensive guard pass, landing directly in side control rather than merely returning to a neutral position. This technique capitalizes on the structural changes created during the stacking escape process. As the triangle holder's legs lose integrity and their hips are compressed toward their shoulders, a critical window opens where the escaping practitioner can redirect energy from extraction into a lateral passing movement. The key insight is that the partially dismantled triangle creates a transitional state where the opponent's guard recovery is compromised by the position of their own legs, making the pass significantly easier than a standard guard pass attempt.

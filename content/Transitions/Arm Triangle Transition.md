@@ -13,6 +13,13 @@ description: "Learn the Arm Triangle Transition from bottom Hindulotine in BJJ. 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Arm Triangle Transition/Attacker|Play as Attacker]]
+[[Arm Triangle Transition/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Arm Triangle Transition from bottom Hindulotine converts a guillotine-based attack into a head-and-arm choke configuration by exploiting the opponent's defensive framing. When the bottom player holds the Hindulotine and the opponent creates a near-side frame to relieve neck pressure, that defensive arm becomes the structural element needed for the arm triangle. The attacker releases the guillotine grip, threads their arm under the opponent's neck and traps the framing arm against the opponent's own head, then uses a sweep or hip escape sequence to achieve side control with the arm triangle locked.

@@ -15,6 +15,13 @@ description: "Master the Marce Choke in BJJ - powerful lapel choke from top posi
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Marce Choke/Attacker|Play as Attacker]]
+[[Marce Choke/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Marce Choke is a highly effective gi-specific submission that combines elements of the loop choke and cross collar choke mechanics. This technique leverages the opponent's own lapel to create a powerful blood choke from dominant top positions, particularly side control and north-south. The Marce Choke is particularly effective because it uses the mechanical advantage of the lapel wrapped around the opponent's neck, creating compression on both carotid arteries simultaneously while controlling the opponent's upper body.

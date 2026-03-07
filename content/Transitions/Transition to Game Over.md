@@ -13,6 +13,13 @@ description: "Master BJJ submission finishing mechanics. Complete guide to conve
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Transition to Game Over/Attacker|Play as Attacker]]
+[[Transition to Game Over/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Transition to Game Over represents the decisive final phase of any submission sequence in Brazilian Jiu-Jitsu: the moment where established control converts into a forced tap. This transition encompasses the universal finishing mechanics shared across all submission categories including joint locks, blood chokes, air chokes, and compression techniques. While each specific submission has unique technical details, the underlying principles of completing the finish remain remarkably consistent across the entire submission arsenal.

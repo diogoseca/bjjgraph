@@ -13,6 +13,13 @@ description: "Master Triangle Control in BJJ. Dominant submission platform with 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Triangle Control/Bottom|Play as Bottom]]
+[[Triangle Control/Top|Play as Top]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Triangle Control represents one of the most powerful submission positions in Brazilian Jiu-Jitsu, where the practitioner has locked their legs around the opponent's neck and one arm, creating an imminent choking threat while simultaneously establishing a control platform for multiple submission chains. This position exemplifies the fundamental principle of using the body's strongest muscles—the legs and hips—against the opponent's most vulnerable structure—the neck. The triangle configuration creates a mechanical advantage where the practitioner compresses the carotid arteries while trapping one of the opponent's arms across their own neck, amplifying the choking pressure through their own trapped limb.

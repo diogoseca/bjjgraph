@@ -13,6 +13,13 @@ description: "Master the transition from initial side control to consolidated co
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Side Control to Side Control Consolidation/Attacker|Play as Attacker]]
+[[Side Control to Side Control Consolidation/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Transition to Side Control Consolidation is the deliberate process of converting a freshly-achieved side control position into a fully locked-down, pressure-dominant control state. After passing the guard or arriving at side control from a scramble, the top player often holds the position loosely with gaps in pressure, incomplete crossface control, and unresolved defensive frames from the bottom player. This consolidation transition addresses each of those deficiencies systematically, transforming a precarious hold into an unbreakable platform for submissions and positional advancement.

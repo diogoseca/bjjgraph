@@ -13,6 +13,13 @@ description: "Master Ushiro Ashi-Garami (reverse leg entanglement). Complete tec
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Ushiro Ashi-Garami/Bottom|Play as Bottom]]
+[[Ushiro Ashi-Garami/Top|Play as Top]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Ushiro Ashi-Garami, translated as "reverse leg entanglement," represents a critical defensive position within modern leg lock systems. This configuration occurs when an opponent attempts to escape standard ashi-garami positions by inverting their hips and turning away, creating a reversed leg entanglement where the attacking practitioner's legs are positioned differently than in standard outside or inside ashi-garami.

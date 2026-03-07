@@ -13,6 +13,13 @@ description: "Master the Triangle from Spider Guard in BJJ. Learn to convert sle
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Triangle from Spider Guard/Attacker|Play as Attacker]]
+[[Triangle from Spider Guard/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Triangle from Spider Guard is one of the highest-percentage triangle entries in gi jiu-jitsu, leveraging the inherent arm isolation created by double sleeve control and bicep hooks. From Spider Guard Bottom, you already control both of the opponent's arms through sleeve grips while your feet maintain distance on their biceps. This existing control structure makes isolating one arm—the fundamental prerequisite for any triangle—a natural consequence of the position rather than something you must fight to create.

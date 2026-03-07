@@ -15,6 +15,13 @@ description: "Master Estima Lock foot submission with safety protocols, setup fr
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Estima Lock/Attacker|Play as Attacker]]
+[[Estima Lock/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Estima Lock is a sophisticated foot lock submission targeting the ankle and foot through dorsiflexion pressure. Named after Victor Estima who popularized the technique, this submission applies pressure by using the back of the opponent's knee to create a fulcrum while controlling the foot. The Estima Lock is most commonly executed from leg entanglement positions, particularly the 50-50 guard, where both practitioners' legs are entangled and the positioning creates ideal mechanical advantage for the foot attack.

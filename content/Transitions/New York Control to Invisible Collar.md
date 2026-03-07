@@ -13,6 +13,13 @@ description: "Master the New York Control to Invisible Collar rubber guard trans
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[New York Control to Invisible Collar/Attacker|Play as Attacker]]
+[[New York Control to Invisible Collar/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The New York Control to Invisible Collar transition represents a critical lateral reconfiguration within the 10th Planet Rubber Guard system. The bottom player repositions their controlling leg from the overhook-and-shoulder-wrap configuration of New York to slide the shin behind the opponent's neck, creating the signature invisible collar that mimics a cross-collar grip using the practitioner's own calf and shin rather than gi material. This transition maintains offensive pressure during what is fundamentally a grip change, preventing the top player from establishing defensive structures that become effective against any single rubber guard position held too long.

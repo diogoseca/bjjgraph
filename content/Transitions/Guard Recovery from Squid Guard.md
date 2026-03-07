@@ -13,6 +13,13 @@ description: "Master guard recovery from Squid Guard in BJJ. Complete guide cove
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Guard Recovery from Squid Guard/Attacker|Play as Attacker]]
+[[Guard Recovery from Squid Guard/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Guard Recovery from Squid Guard is a defensive transition where the bottom player reestablishes closed guard when the Squid Guard's asymmetrical control is compromised. When the opponent strips the lapel grip or successfully clears the threading leg, the bottom player must abandon the advanced guard configuration and recover to a more fundamental closed guard position. This recovery involves withdrawing the threading leg, releasing lapel controls, and closing distance to establish closed guard before the opponent can capitalize on the guard transition to advance their passing position.

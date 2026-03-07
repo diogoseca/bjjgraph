@@ -13,6 +13,13 @@ description: "Master the Collar Sleeve Sweep in BJJ. Step-by-step guide covering
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Collar Sleeve Sweep/Attacker|Play as Attacker]]
+[[Collar Sleeve Sweep/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Collar Sleeve Sweep is a fundamental sweep from collar sleeve guard that exploits the asymmetric grip structure to generate rotational force that topples the opponent. By combining a deep cross-collar pull with full sleeve extension to prevent posting, the sweeper creates a mechanical advantage where the opponent cannot distribute weight effectively to resist the sweep direction. The technique relies on coordinated upper and lower body mechanics—the grips control the opponent's structural integrity while the legs provide the driving force through hip-posted kicks and far-leg hooks.

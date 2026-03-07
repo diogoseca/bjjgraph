@@ -13,6 +13,13 @@ description: "Master Crucifix Maintenance in BJJ. Learn systematic control adjus
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Crucifix Maintenance/Attacker|Play as Attacker]]
+[[Crucifix Maintenance/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Crucifix Maintenance encompasses the systematic techniques and adjustments required to retain the crucifix position against an opponent's escape attempts. As one of the most dominant control positions in Brazilian Jiu-Jitsu—offering simultaneous isolation of both arms through a leg triangle and hand control system—the crucifix demands active maintenance because trapped opponents will immediately begin working to extract their arms and rebuild defensive structures.

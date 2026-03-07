@@ -13,6 +13,13 @@ description: "Master Leg Drag Escape to Closed Guard in BJJ. Frame, hip escape, 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Leg Drag Escape to Closed Guard/Attacker|Play as Attacker]]
+[[Leg Drag Escape to Closed Guard/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Leg Drag Escape to Closed Guard represents a fundamental defensive recovery when caught in the compromised leg drag position. This escape addresses one of the most dangerous transitional moments in guard passing—when your opponent has successfully dragged your leg across your body and is threatening to consolidate to side control or take your back. The technique requires precise timing, efficient framing, and coordinated hip movement to extract your trapped leg and establish a closed guard position that neutralizes the passing threat.

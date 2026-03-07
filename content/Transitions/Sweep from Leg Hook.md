@@ -13,6 +13,13 @@ description: "Master the Sweep from Leg Hook in BJJ. Learn step-by-step executio
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Sweep from Leg Hook/Attacker|Play as Attacker]]
+[[Sweep from Leg Hook/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Sweep from Leg Hook is a fundamental reversal technique executed from the bottom leg hook position, a dynamic half guard variant characterized by active leg entanglement around the top player's near leg. This sweep exploits the mechanical leverage created by the hook to displace the top player's base laterally, driving them over the fulcrum of the hooked leg and achieving a full reversal to mount position. The technique rewards precise timing and coordinated upper-lower body mechanics rather than raw explosive strength.

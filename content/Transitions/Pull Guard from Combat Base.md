@@ -13,6 +13,13 @@ description: "Learn to pull closed guard from combat base bottom in BJJ. Complet
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Pull Guard from Combat Base/Attacker|Play as Attacker]]
+[[Pull Guard from Combat Base/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Pulling guard from combat base bottom is a fundamental guard retention and improvement technique where the bottom player actively works to close their guard around an opponent who has established combat base. Rather than passively accepting the combat base player's passing pressure, the bottom player uses strategic grips, posture breaking, and hip movement to bring their legs around the opponent's waist and establish closed guard — a position offering significantly more control and offensive options than remaining underneath combat base.

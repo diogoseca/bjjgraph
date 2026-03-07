@@ -13,6 +13,13 @@ description: "Learn Counter Leg Attack from Inside Sankaku Bottom. Turn defense 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Counter Leg Attack/Attacker|Play as Attacker]]
+[[Counter Leg Attack/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Counter Leg Attack from Inside Sankaku Bottom represents one of the most sophisticated defensive-offensive transitions in modern leg lock systems. When trapped in the dangerous Inside Sankaku (Honey Hole) position, rather than purely defending the heel hook threat, the bottom player can neutralize the positional disadvantage by entering their own leg entanglement on the opponent's free leg. This strategy transforms a defensive situation into a mutual exchange where both practitioners have submission threats, often resulting in a 50-50 position or creating enough chaos to facilitate escape.

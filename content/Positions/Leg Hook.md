@@ -13,6 +13,13 @@ description: "Master Leg Hook position in BJJ. Transitional half guard control u
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Leg Hook/Bottom|Play as Bottom]]
+[[Leg Hook/Top|Play as Top]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Leg Hook Position is a transitional control position characterized by active leg hooking mechanics that bridge various half guard variations and advanced leg entanglement systems. This position serves as a critical decision point in modern guard play, offering both offensive and defensive capabilities depending on perspective and practitioner skill level.

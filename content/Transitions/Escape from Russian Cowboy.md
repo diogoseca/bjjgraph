@@ -13,6 +13,13 @@ description: "Master escaping Russian Cowboy in BJJ. Complete guide covering fra
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Escape from Russian Cowboy/Attacker|Play as Attacker]]
+[[Escape from Russian Cowboy/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Escape from Russian Cowboy is a critical defensive technique for practitioners trapped in this asymmetric back control variant. Unlike escaping traditional back control where both hooks must be addressed symmetrically, the Russian Cowboy's single-hook configuration creates specific vulnerabilities that a knowledgeable bottom player can exploit through systematic frame creation and strategic turning. The escape targets the inherent instability of the position—the asymmetric hook structure means the top player's control relies heavily on chest-to-back connection and seatbelt grip rather than balanced bilateral leg control, leaving gaps that can be exploited with proper timing.

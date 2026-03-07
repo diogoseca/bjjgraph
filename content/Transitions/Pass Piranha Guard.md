@@ -13,6 +13,13 @@ description: "Learn how to pass Piranha Guard in BJJ. Systematic grip-breaking, 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Pass Piranha Guard/Attacker|Play as Attacker]]
+[[Pass Piranha Guard/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Pass Piranha Guard is a specialized guard passing methodology designed to defeat the Piranha Guard, an advanced lapel-based open guard where the bottom player threads the top player's collar through their legs to create controlling leverage and sweep opportunities. The pass demands a disciplined, methodical approach that prioritizes systematic grip stripping before any forward commitment, as the lapel configuration creates mechanical advantages that punish rushed or poorly timed passing attempts.

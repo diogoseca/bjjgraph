@@ -13,6 +13,13 @@ description: "Master the Leg Knot reversal to Outside Ashi in BJJ. Transform def
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Reverse the entanglement to Outside Ashi/Attacker|Play as Attacker]]
+[[Reverse the entanglement to Outside Ashi/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Reversing the entanglement to Outside Ashi represents one of the most critical defensive counters in modern leg lock warfare. When caught in Leg Knot Bottom, the practitioner faces immediate submission threats while simultaneously having unique opportunities to invert the positional hierarchy. This technique capitalizes on the inherent instability of the Leg Knot configuration, where neither player has achieved complete dominance, to execute a systematic reversal that transforms defensive crisis into offensive opportunity.

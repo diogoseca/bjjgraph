@@ -13,6 +13,13 @@ description: "Master the Gift Wrap setup from Mount in BJJ. Complete guide to ar
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Gift Wrap/Attacker|Play as Attacker]]
+[[Gift Wrap/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Gift Wrap is a fundamental arm-trapping transition executed from Mount that establishes dominant control by wrapping one of the opponent's arms across their own body and securing it with your grip. This technique systematically removes half of the opponent's defensive capability in a single action, transforming the already dominant mount position into a submission-rich control configuration. The position derives its name from the visual appearance of the trapped arm being 'wrapped' like a present across the defender's chest.

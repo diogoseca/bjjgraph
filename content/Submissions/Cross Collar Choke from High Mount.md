@@ -15,6 +15,13 @@ description: "Master the Cross Collar Choke from High Mount in BJJ. Complete gui
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Cross Collar Choke from High Mount/Attacker|Play as Attacker]]
+[[Cross Collar Choke from High Mount/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Cross Collar Choke from High Mount is one of the highest-percentage gi submissions in Brazilian Jiu-Jitsu, combining the extreme positional dominance of high mount with the mechanical efficiency of a bilateral carotid compression. By establishing deep cross-collar grips from the elevated platform of high mount, the attacker creates a choking mechanism that becomes progressively tighter as the opponent's defensive options are systematically eliminated. The high mount position places the attacker's hands at optimal collar height, reducing the grip-insertion distance compared to standard mount and making the initial setup significantly more accessible.

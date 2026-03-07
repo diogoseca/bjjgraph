@@ -13,6 +13,13 @@ description: "Master the Toreando from Headquarters in BJJ. Systematic bullfight
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Toreando from Headquarters/Attacker|Play as Attacker]]
+[[Toreando from Headquarters/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Toreando from Headquarters is a speed-based lateral guard pass that exploits the passer's established leg control from Headquarters Position to redirect the opponent's legs and circle around them to Side Control. Named after the matador's movement in bullfighting, this technique uses the opponent's own leg extension and distance-creation attempts as the trigger for explosive lateral passing. From Headquarters, the passer already controls one leg with knee-line pressure, giving the Toreando a significant structural advantage compared to executing it from open guard or standing positions where bilateral leg control must be established from scratch.

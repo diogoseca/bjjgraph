@@ -13,6 +13,13 @@ description: "Transition from Buggy Choke to Front Headlock control. Step-by-ste
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Buggy Choke to Front Headlock/Attacker|Play as Attacker]]
+[[Buggy Choke to Front Headlock/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Buggy Choke to Front Headlock transition represents a critical positional salvage technique when the primary choking attack meets defensive resistance or grip stripping. When the opponent successfully defends the buggy choke by turning into the attack, posting defensively, or stripping the primary collar grip, maintaining head control while transitioning to front headlock preserves offensive initiative rather than returning to neutral turtle top position.

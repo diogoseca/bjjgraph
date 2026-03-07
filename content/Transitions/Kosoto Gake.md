@@ -13,6 +13,13 @@ description: "Learn Kosoto Gake in BJJ. Master this minor outer reaping throw fr
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Kosoto Gake/Attacker|Play as Attacker]]
+[[Kosoto Gake/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Kosoto Gake (minor outer reaping) is a fundamental judo throw that has become a staple in Brazilian Jiu-Jitsu's standing game. This technique involves reaping your opponent's supporting leg from the outside while simultaneously pulling their upper body backward, causing them to fall directly into your side control position. The beauty of Kosoto Gake lies in its simplicity and relatively low physical demands compared to explosive throws like Uchi Mata or Harai Goshi. It excels when your opponent has their weight distributed on their rear leg, making it an excellent counter to defensive stances and backward movement.

@@ -15,6 +15,13 @@ description: "Master the Loop Choke from Mount in BJJ. Complete guide with safet
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Loop Choke from Mount/Attacker|Play as Attacker]]
+[[Loop Choke from Mount/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Loop Choke from Mount is a devastating gi-based blood choke that leverages the attacker's dominant top position to create an inescapable strangling mechanism using the opponent's own collar. This technique exemplifies the principle of using positional control to set up high-percentage submissions. From mount, the practitioner feeds one hand deep into the opponent's collar while securing the opposite side lapel with the other hand, creating a loop configuration that tightens around the neck as pressure is applied. The beauty of this submission lies in its ability to be applied from one of the most dominant positions in BJJ, making it extremely difficult to defend once properly set up. Unlike many other mount attacks that require significant positional shifts, the loop choke can be finished while maintaining full mount control, allowing the attacker to threaten the submission without compromising position. The technique works on a biomechanical principle where the opponent's own collar becomes a noose, with the attacker's grips creating opposing vectors of force that compress both carotid arteries simultaneously.

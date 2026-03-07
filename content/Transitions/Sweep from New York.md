@@ -13,6 +13,13 @@ description: "Master the Sweep from New York in BJJ's Rubber Guard system. Compl
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Sweep from New York/Attacker|Play as Attacker]]
+[[Sweep from New York/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Sweep from New York is a high-percentage reversal within 10th Planet's Rubber Guard system that converts the bottom player's overhook-and-shin control into a direct path to mount. The sweep exploits the structural asymmetry created by New York control: one of the opponent's arms is completely trapped in an overhook, their posture is broken forward by the shin across their back, and their base is already compromised on the trapped-arm side. This creates an ideal platform for a modified hip bump that the opponent cannot post against because their primary posting arm is neutralized.

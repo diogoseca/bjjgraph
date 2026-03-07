@@ -13,6 +13,13 @@ description: "Master the hip escape from truck position in BJJ. Step-by-step esc
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Hip Escape from Truck/Attacker|Play as Attacker]]
+[[Hip Escape from Truck/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The hip escape from truck is a fundamental positional escape that uses shrimping mechanics to extract the trapped leg and recover half guard from one of BJJ's most dangerous back-attack positions. The technique exploits windows of opportunity created when the truck top player's upper body control loosens, particularly during transitions between submission attempts or when boot pressure has been partially addressed. By creating lateral distance through systematic hip movement and addressing the opponent's boot pressure as the primary obstacle, the bottom player methodically works toward a recoverable guard position where the positional threat is dramatically reduced.

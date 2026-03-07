@@ -13,6 +13,13 @@ description: "Master the Posture Up escape from Gogoplata Control in BJJ. Learn 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Posture Up from Gogoplata/Attacker|Play as Attacker]]
+[[Posture Up from Gogoplata/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Posture Up from Gogoplata is a critical escape technique executed by the top player caught in gogoplata control. When an opponent establishes their shin across the throat with their foot locked behind the head, the trapped player must systematically recover posture to extract from this submission-control hybrid position. The technique requires careful management of choke pressure while methodically creating space to remove the head from the closed-loop configuration that makes gogoplata uniquely difficult to escape.

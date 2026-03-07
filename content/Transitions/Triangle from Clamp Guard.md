@@ -13,6 +13,13 @@ description: "Master the Triangle from Clamp Guard in BJJ. Complete guide to con
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Triangle from Clamp Guard/Attacker|Play as Attacker]]
+[[Triangle from Clamp Guard/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Triangle from Clamp Guard exploits the existing arm isolation of the clamp position to establish a triangle choke configuration. Because the clamp already traps one arm between the legs with shin-on-bicep pressure, the guard player has completed the most difficult prerequisite for any triangle entry — isolating a single arm from the opponent's defensive framework. The transition hinges on reading the opponent's extraction direction: when they circle their trapped arm outward or attempt to withdraw it, the space between their neck and shoulder widens, creating the window for the choking leg to shoot over.

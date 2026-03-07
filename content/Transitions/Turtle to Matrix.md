@@ -13,6 +13,13 @@ description: "Master the Transition to Matrix position from turtle top in BJJ. S
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Turtle to Matrix/Attacker|Play as Attacker]]
+[[Turtle to Matrix/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Transition to Matrix is the critical entry sequence that moves the attacker from a standard turtle top position into the Matrix position, the dynamic rotational platform from which back takes, truck entries, and other advanced attacks become available. This transition represents the setup phase before the actual Matrix Back Take execution, focusing on establishing the angular positioning, grip connections, and hip alignment required to launch the rolling movement.

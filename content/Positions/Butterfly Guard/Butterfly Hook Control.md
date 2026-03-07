@@ -13,6 +13,13 @@ description: "Master Butterfly Hook Control in BJJ. Strategic guide covering hoo
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Butterfly Hook Control/Bottom|Play as Bottom]]
+[[Butterfly Hook Control/Top|Play as Top]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Butterfly Hook Control represents one of the most dynamic and offensive guard positions in Brazilian Jiu-Jitsu, characterized by the bottom practitioner's use of butterfly hooks—feet positioned inside the opponent's thighs—to create constant elevation and off-balancing opportunities. This position excels in both gi and no-gi grappling due to its reliance on fundamental leverage mechanics rather than grip-dependent controls.

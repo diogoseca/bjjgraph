@@ -15,6 +15,13 @@ description: "Master Outside Heel Hook in BJJ. Safety guide covering proper appl
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Outside Heel Hook/Attacker|Play as Attacker]]
+[[Outside Heel Hook/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Outside Heel Hook is one of the most dangerous and effective leg lock submissions in Brazilian Jiu-Jitsu, targeting the knee joint through rotational force applied to the heel and foot. Unlike inside heel hooks which attack from inside positioning, the outside heel hook is applied when controlling the opponent's leg from the outside position, typically from outside ashi-garami or similar leg entanglement positions. This submission creates torque on the knee joint by rotating the foot and lower leg while the upper leg remains fixed, placing tremendous stress on the ACL, MCL, meniscus, and other knee structures.

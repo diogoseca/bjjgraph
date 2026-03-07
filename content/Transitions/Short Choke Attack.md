@@ -13,6 +13,13 @@ description: "Learn Short Choke Attack from Gift Wrap in BJJ. Step-by-step execu
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Short Choke Attack/Attacker|Play as Attacker]]
+[[Short Choke Attack/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Short Choke Attack is a highly efficient strangle executed from the Gift Wrap position that capitalizes on the opponent's compromised defensive capability. With one arm already trapped across their body, the defender has severely limited ability to protect their neck, making this choke significantly higher percentage than standard rear naked choke attempts from back control.

@@ -13,6 +13,13 @@ description: "Master the Omoplata Sweep from closed guard in BJJ. Step-by-step e
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Omoplata Sweep/Attacker|Play as Attacker]]
+[[Omoplata Sweep/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Omoplata Sweep is a reaction-based sweeping technique that combines the threat of the omoplata shoulder lock with dynamic hip movement to reverse position from closed guard to mount. This technique exploits the opponent's defensive reaction to the omoplata attack, using their resistance and weight distribution to execute a powerful sweep. The dual-threat nature creates a classic dilemma: if the opponent defends the submission by driving forward or rolling, you redirect their momentum into the sweep; if they freeze to prevent the sweep, you finish the omoplata.

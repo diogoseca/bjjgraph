@@ -13,6 +13,13 @@ description: "Learn Progression to Zombie in 10th Planet Rubber Guard. Advance f
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Progression to Zombie/Attacker|Play as Attacker]]
+[[Progression to Zombie/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Progression to Zombie represents the natural evolution of control within the Rubber Guard system, allowing the bottom player to transition from New York into a deeper, more restrictive control position. The Zombie position intensifies the pressure on the opponent by bringing the controlling leg higher around their shoulder while maintaining the overhook, creating a system where escape becomes exponentially more difficult and submission threats multiply.

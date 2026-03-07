@@ -13,6 +13,13 @@ description: "Master the Seat Belt to Body Triangle transition in BJJ. Learn to 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Seat Belt to Body Triangle/Attacker|Play as Attacker]]
+[[Seat Belt to Body Triangle/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Seat Belt to Body Triangle transition converts standard hook-based back control into the mechanically superior body triangle configuration. From an established seat belt grip with hooks, the attacker threads one leg across the defender's torso and locks a figure-four behind their own knee, replacing bilateral hook control with a unified compression lock that restricts breathing and eliminates standard hook-clearing escapes. This upgrade represents a critical decision point in back control: sacrificing the dynamic mobility of hooks for the static mechanical dominance of the triangle lock.

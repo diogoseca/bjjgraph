@@ -13,6 +13,13 @@ description: "Master the Ankle Pick Sweep from seated guard. Step-by-step execut
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Ankle Pick Sweep/Attacker|Play as Attacker]]
+[[Ankle Pick Sweep/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Ankle Pick Sweep is a fundamental technique from seated guard that exploits the opponent's standing posture through precise grip control and off-balancing mechanics. This sweep targets the opponent's base by controlling their ankle while simultaneously disrupting their upper body balance, creating a powerful lever system that dumps them to the mat.

@@ -13,6 +13,13 @@ description: "Master the turtle turn escape from side control bottom in BJJ. Com
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Turtle from Side Control Bottom/Attacker|Play as Attacker]]
+[[Turtle from Side Control Bottom/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The turtle turn from side control bottom is one of the most fundamental escape pathways in Brazilian Jiu-Jitsu. When trapped under heavy side control pressure, turning to turtle provides a viable positional improvement that creates immediate opportunities for guard recovery, technical stand-ups, and scrambles. While turtle carries inherent risk from back exposure, it represents a significant upgrade from the flat, pinned state of side control bottom where submission threats are constant and movement options are severely limited.

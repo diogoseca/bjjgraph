@@ -13,6 +13,13 @@ description: "Learn to escape Reverse Mount in BJJ. Complete guide covering hip 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Escape Reverse Mount/Attacker|Play as Attacker]]
+[[Escape Reverse Mount/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Escape Reverse Mount is a critical defensive technique for recovering guard from the reverse mount bottom position, where the opponent sits on your torso facing your feet. Unlike standard mount escapes that rely on bridging into the opponent's chest, this escape requires the bottom player to create angles through hip escapes and turn to face the opponent, leveraging the inherent instability of reverse mount's backward orientation. The primary target is half guard, where the bottom player can immediately begin working offensive sequences.

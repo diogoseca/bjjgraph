@@ -15,6 +15,13 @@ description: "Master the Kneebar from Top positions in BJJ. Complete safety guid
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Kneebar from Top/Attacker|Play as Attacker]]
+[[Kneebar from Top/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Kneebar from Top represents a high-percentage leg attack opportunity that arises when controlling an opponent from dominant positions such as side control, mount, knee on belly, or half guard top. Unlike bottom-position kneebarring where defensive responsibility is shared, top kneebarring demands exceptional control and positional awareness since abandoning top position carries inherent risk. The fundamental concept involves transitioning from a dominant top position into a leg entanglement configuration—typically through step-over mechanics or direct leg isolation—while maintaining sufficient control to prevent opponent escape or counter-attack. The submission targets the knee joint through hyperextension, applying pressure to the tibial plateau, popliteal ligaments, and meniscus structures.

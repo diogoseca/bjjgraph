@@ -15,6 +15,13 @@ description: "Master the Darce choke from leg drag control in BJJ. Complete guid
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Darce from Leg Drag/Attacker|Play as Attacker]]
+[[Darce from Leg Drag/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Darce choke from leg drag control exploits a natural defensive reaction that occurs during guard passing. When the top player establishes leg drag control and drives pressure, the bottom player frequently turns into the passer to recover guard or escape to turtle. This turning motion exposes the critical neck-and-armpit channel that the Darce choke requires. The leg drag position provides an ideal platform for this submission because the top player already has significant hip control and a strong angle that facilitates threading the choking arm under the opponent's neck.

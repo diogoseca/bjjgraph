@@ -13,6 +13,13 @@ description: "Master Reverse Mount position in BJJ. Strategic guide covering tra
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Reverse Mount/Bottom|Play as Bottom]]
+[[Reverse Mount/Top|Play as Top]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Reverse Mount is a transitional dominant position where the practitioner sits on the opponent's torso while facing away from their head, essentially mounted in the opposite direction from standard mount. This position scores 4 points (same as standard mount in IBJJF) but possesses fundamentally different control dynamics and sustainability characteristics due to its backward orientation.

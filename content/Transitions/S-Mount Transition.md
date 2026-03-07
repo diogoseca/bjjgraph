@@ -13,6 +13,13 @@ description: "Master S-Mount Transition in BJJ. Step-by-step execution from Modi
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[S-Mount Transition/Attacker|Play as Attacker]]
+[[S-Mount Transition/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The S-Mount Transition represents a critical positional advancement from Modified Mount that positions the attacker for high-percentage armbar finishes. This technique involves sliding the posted leg underneath the opponent's far shoulder while the other leg swings over their head, creating the distinctive S-shaped body configuration that gives the position its name. The transition capitalizes on the natural armbar-focused structure of Modified Mount, taking it to its logical conclusion by fully committing the hips perpendicular to the opponent's body axis. S-Mount provides superior control for arm isolation compared to Modified Mount because both legs now actively contribute to pinning the opponent rather than one leg posting for stability. The position creates tremendous pressure on the opponent's ribcage and shoulder line, making defensive movements extremely difficult while the attacker maintains dominant hip position for armbar execution.

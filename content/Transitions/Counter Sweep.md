@@ -13,6 +13,13 @@ description: "Master Counter Sweep defense in BJJ. Transform opponent's sweep at
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Counter Sweep/Attacker|Play as Attacker]]
+[[Counter Sweep/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Counter sweeping represents the critical defensive skill of neutralizing an opponent's sweep attempt while simultaneously converting their momentum into your own offensive advantage. This meta-technique encompasses the timing, weight distribution, and positional awareness necessary to prevent being swept from top position or to counter an opponent's sweep with your own reversal from bottom. The essence of counter sweeping lies in reading your opponent's commitment to a sweep direction, maintaining optimal base and posture, and exploiting the vulnerable moments created when they overcommit to the sweep attempt.

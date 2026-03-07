@@ -13,6 +13,13 @@ description: "Learn the Sweep to Mount from Hindulotine in BJJ. Use guillotine p
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Sweep to Mount/Attacker|Play as Attacker]]
+[[Sweep to Mount/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Sweep to Mount from Hindulotine bottom is a positional advancement technique that exploits the opponent's compromised posture under guillotine pressure. Unlike the butterfly-hook-dependent variant, this sweep uses a hip bump mechanic combined with directional off-balancing from the guillotine grip to tip the opponent over and land in mount. The technique capitalizes on moments when the opponent's base is narrow or their weight shifts laterally while defending the choke.

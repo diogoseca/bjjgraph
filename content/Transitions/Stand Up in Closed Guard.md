@@ -13,6 +13,13 @@ description: "Master the stand up in closed guard in BJJ. Complete guide to stan
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Stand Up in Closed Guard/Attacker|Play as Attacker]]
+[[Stand Up in Closed Guard/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Standing up in closed guard is one of the most fundamental and highest-percentage methods for opening an opponent's closed guard. Rather than attempting to break the guard from the knees—where the bottom player maintains maximum leverage for sweeps, submissions, and posture control—standing shifts the dynamic entirely by using gravity and structural alignment to create unsustainable pressure on the ankle lock maintaining guard closure. The technique neutralizes the majority of the bottom player's offensive arsenal, as techniques like the hip bump sweep, scissor sweep, and armbar from guard all require the top player to be on their knees within the guard player's hip-to-hip connection zone.

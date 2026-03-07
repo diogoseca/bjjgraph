@@ -13,6 +13,13 @@ description: "Master reestablishing Side Control from Jailbreak in BJJ. Systemat
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Reestablish Side Control from Jailbreak/Attacker|Play as Attacker]]
+[[Reestablish Side Control from Jailbreak/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Reestablishing Side Control from Jailbreak is a critical positional recovery technique for the top player when a bottom half guard practitioner initiates the explosive jailbreak escape. The jailbreak, prominent in 10th Planet methodology, leverages an underhook and explosive inversion to roll through top pressure and escape to turtle or back take opportunities. The top player who recognizes this escape pattern early can shut it down through decisive pressure redistribution and underhook neutralization.

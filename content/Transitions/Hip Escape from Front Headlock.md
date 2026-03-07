@@ -13,6 +13,13 @@ description: "Master the hip escape from front headlock in BJJ. Complete guide t
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Hip Escape from Front Headlock/Attacker|Play as Attacker]]
+[[Hip Escape from Front Headlock/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The hip escape from front headlock is a fundamental defensive technique that uses shrimping mechanics to create space and recover guard from one of BJJ's most dangerous control positions. When trapped in front headlock bottom, the opponent has access to guillotine, anaconda, darce, and back take threats, making timely escape essential. This technique leverages the principle that lateral hip movement is far more effective than pulling straight back against head control, redirecting force perpendicular to the opponent's pressure to create the space needed for guard recovery.

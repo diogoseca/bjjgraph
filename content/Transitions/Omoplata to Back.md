@@ -13,6 +13,13 @@ description: "Master the Omoplata to Back transition in BJJ. Convert your oppone
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Omoplata to Back/Attacker|Play as Attacker]]
+[[Omoplata to Back/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Omoplata to Back transition exploits the most common defensive reaction to the omoplata shoulder lock: the forward roll. When a trapped opponent commits to rolling over their shoulder to relieve submission pressure, the attacker follows the momentum and converts the defensive escape directly into back control with hooks and seatbelt. This is a Type C positional transition that never leads to game-over directly, instead securing arguably the most dominant position in grappling.

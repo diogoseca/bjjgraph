@@ -15,6 +15,13 @@ description: "Master the Armbar from Technical Mount in BJJ. Complete guide to s
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Armbar from Technical Mount/Attacker|Play as Attacker]]
+[[Armbar from Technical Mount/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Armbar from Technical Mount is one of the highest-percentage submissions in Brazilian Jiu-Jitsu, leveraging the asymmetric leg positioning of Technical Mount to create an optimal angle for hyperextending the elbow joint. The stepped leg over the opponent's head serves as a natural barrier to posturing while isolating the target arm, making the transition from control to finish remarkably efficient. This submission capitalizes on the mechanical advantage created when the attacker's hips are positioned directly against the back of the opponent's elbow, using the entire body as a lever against a single joint.

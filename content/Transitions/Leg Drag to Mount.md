@@ -13,6 +13,13 @@ description: "Master the Leg Drag to Mount transition in BJJ. Step-by-step guide
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Leg Drag to Mount/Attacker|Play as Attacker]]
+[[Leg Drag to Mount/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Leg Drag to Mount transition represents one of the most direct pathways from leg drag control to a dominant scoring position. When an opponent stays relatively flat on their back rather than turning away to protect their guard, the mount becomes the highest-percentage consolidation option. This transition capitalizes on the hip control already established in leg drag position, using the crossed leg as a pivot point to swing into full mount.

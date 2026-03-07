@@ -13,6 +13,13 @@ description: "Master the Fireman's Carry takedown in BJJ. Complete guide coverin
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Fireman's Carry/Attacker|Play as Attacker]]
+[[Fireman's Carry/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Fireman's Carry is a classical wrestling takedown that has found valuable application in Brazilian Jiu-Jitsu, particularly in no-gi and MMA contexts. This technique involves using a combination of off-balancing, level change, and explosive lifting to elevate your opponent onto your shoulders before driving them to the mat. The Fireman's Carry is particularly effective against opponents who maintain an upright posture in the clinch, as it exploits their high center of gravity and creates a sudden positional reversal. Unlike many BJJ takedowns that rely on pulling or tripping, the Fireman's Carry demonstrates the principle of lifting and redirecting an opponent's weight, making it an excellent complement to guard pulling and other ground-focused entries. The technique requires precise timing, proper body mechanics, and the ability to coordinate multiple movements simultaneously - the level change, arm control, penetration step, and lifting motion must all flow together seamlessly. When executed correctly, the Fireman's Carry not only achieves the takedown but also places you in an advantageous top position, often side control or modified mount, allowing for immediate passing or submission attempts. This makes it a high-percentage technique for competitors who want to establish top control early in a match.

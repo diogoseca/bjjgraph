@@ -13,6 +13,13 @@ description: "Master the Toss Pass from Double Unders in BJJ. Explosive guard pa
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Toss Pass from Double Unders/Attacker|Play as Attacker]]
+[[Toss Pass from Double Unders/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Toss Pass from Double Unders is an explosive guard passing technique that capitalizes on bilateral underhook control to dynamically redirect the opponent's legs to one side, clearing the path for immediate side control establishment. Unlike the methodical stack pass that folds the opponent vertically, the toss pass uses lateral redirection combined with explosive hip rotation to clear the legs in a single decisive action. This makes it particularly effective against opponents who have adapted their defensive frames to counter vertical stacking pressure, as the lateral force vector attacks a different defensive plane entirely.

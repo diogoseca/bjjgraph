@@ -15,6 +15,13 @@ description: "Master Triangle from De La Riva in BJJ. Complete guide with setup 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Triangle from De La Riva/Attacker|Play as Attacker]]
+[[Triangle from De La Riva/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Triangle from De La Riva is a sophisticated blood choke that capitalizes on the unique angular control provided by the De La Riva guard position. This submission represents a fundamental offensive option from one of modern BJJ's most dynamic open guard systems. The De La Riva hook on the opponent's leg creates natural off-balancing opportunities while the opposite leg controls posture and distance, establishing perfect conditions for transitioning to the triangle position. The technical challenge lies in transitioning from the linear De La Riva guard structure to the circular enclosure required for an effective triangle choke. Success depends on precise timing, grip manipulation, and understanding how to use the De La Riva hook as a pivot point rather than abandoning it prematurely. When executed correctly, this technique combines the sweeping threat inherent in De La Riva with a finishing submission, creating a true dilemma for the opponent.

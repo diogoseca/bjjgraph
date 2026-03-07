@@ -15,6 +15,13 @@ description: "Master the Omoplata from Spider Guard in BJJ. Complete guide cover
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Omoplata from Spider Guard/Attacker|Play as Attacker]]
+[[Omoplata from Spider Guard/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Omoplata from Spider Guard is a high-percentage shoulder lock submission that exploits the natural arm isolation created by spider guard grips. When the bottom player controls both sleeves with feet on the opponent's biceps, one arm becomes vulnerable to the omoplata entry by swinging the attacking leg over the opponent's shoulder and pivoting the hips to create rotational pressure on the glenohumeral joint. This submission capitalizes on the distance management and sleeve control inherent to spider guard, converting a controlling position into a direct finishing threat.

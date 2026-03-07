@@ -15,6 +15,13 @@ description: "Master the Monoplata submission in BJJ. Complete guide covering se
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Monoplata/Attacker|Play as Attacker]]
+[[Monoplata/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Monoplata is an advanced shoulder lock submission that combines elements of the omoplata with unique figure-four leg control. Executed primarily from guard positions, particularly the rubber guard and mission control, this technique applies rotational pressure to the shoulder joint through a distinctive leg configuration that traps the opponent's arm while controlling their posture. The monoplata represents a sophisticated evolution of traditional shoulder attacks, offering practitioners a powerful finishing option when conventional submissions are defended. Unlike the traditional omoplata which uses both legs to isolate the arm, the monoplata employs a figure-four leg entanglement that creates exceptional control while maintaining offensive options. This submission has gained prominence in modern no-gi grappling due to its effectiveness against defensive posturing and its integration within systematic guard attack sequences.

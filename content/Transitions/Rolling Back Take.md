@@ -13,6 +13,13 @@ description: "Learn Rolling Back Take in BJJ. Step-by-step execution from Turtle
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Rolling Back Take/Attacker|Play as Attacker]]
+[[Rolling Back Take/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Rolling Back Take is a dynamic and highly effective transition from top turtle position to back control. This technique exploits the opponent's defensive posture by using momentum and timing to roll over their shoulder, landing directly on their back with control. Unlike static back takes that rely on breaking down the turtle position incrementally, the rolling back take uses explosive movement to bypass defensive frames entirely. This technique is particularly valuable when the opponent maintains a strong defensive turtle with their elbows tight to their knees, making traditional hook insertions difficult. The rolling back take requires precise timing, spatial awareness, and the ability to maintain connection throughout the roll. When executed correctly, it provides immediate access to high-value control positions and submission opportunities, making it a favorite among competitors at all levels.

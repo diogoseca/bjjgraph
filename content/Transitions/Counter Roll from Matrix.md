@@ -13,6 +13,13 @@ description: "Master the Counter Roll from Matrix in BJJ. Complete guide to redi
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Counter Roll from Matrix/Attacker|Play as Attacker]]
+[[Counter Roll from Matrix/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Counter Roll from Matrix is a critical contingency technique that transforms a defended Matrix back take attempt into a recoverable half guard position. When the bottom player initiates a Matrix rotation and encounters defensive resistance through sprawling, base widening, or counter-rotation from the top player, continuing the original back take path becomes impossible. Rather than accepting a compromised turtle position or worse, the counter roll redirects existing rotational momentum to capture the opponent's near leg, establishing half guard bottom as a stable recovery platform.

@@ -15,6 +15,13 @@ description: "Master the Ezekiel Choke from Mount with comprehensive safety prot
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Ezekiel from Mount/Attacker|Play as Attacker]]
+[[Ezekiel from Mount/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Ezekiel Choke from Mount is one of the most fundamental and high-percentage submissions in Brazilian Jiu-Jitsu, particularly effective in gi training. This technique combines positional dominance with a devastating choke that can be applied even when the opponent defends well against other mount attacks. The Ezekiel works by using your own gi sleeve as a fulcrum to compress the carotid arteries and windpipe simultaneously, creating both a blood and air choke that produces rapid submission.

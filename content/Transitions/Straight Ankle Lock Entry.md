@@ -13,6 +13,13 @@ description: "Learn Straight Ankle Lock Entry from Grasshopper Guard in BJJ. Ste
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Straight Ankle Lock Entry/Attacker|Play as Attacker]]
+[[Straight Ankle Lock Entry/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Straight Ankle Lock Entry from Grasshopper Guard exploits the inverted positioning to capture the opponent's ankle before they can clear your legs or establish a passing sequence. From the grasshopper configuration, your elevated hips and active leg engagement create natural pathways to thread under the opponent's lead leg and isolate the ankle joint for a straight footlock attack.

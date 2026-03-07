@@ -13,6 +13,13 @@ description: "Escape Rubber Guard from top by recovering posture and extracting 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Rubber Guard Top Posture Escape/Attacker|Play as Attacker]]
+[[Rubber Guard Top Posture Escape/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Rubber Guard Top Posture Escape is a systematic defensive transition designed to free the top player from the highly controlling Rubber Guard position. When trapped in an opponent's Rubber Guard, the top player faces severe posture compromise with one arm isolated against the bottom player's chest by their elevated leg. This escape addresses the core mechanical problem: the bottom player's leg acting as a lever to break posture while simultaneously trapping the arm. The escape sequence prioritizes creating structural frames with the free hand, disrupting the bottom player's leg configuration, and systematically recovering upright posture before the opponent can advance through the 10th Planet positional hierarchy toward submissions.

@@ -13,6 +13,13 @@ description: "Master guard recovery from Inside Ashi-Garami. Complete guide cove
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Guard Recovery from Inside Ashi-Garami/Attacker|Play as Attacker]]
+[[Guard Recovery from Inside Ashi-Garami/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Guard Recovery from Inside Ashi-Garami is a defensive transition where the bottom player abandons a failing leg entanglement to reestablish open guard. When submission attempts from Inside Ashi-Garami are successfully defended and the opponent begins extracting their heel or stepping over the inside leg, the bottom player must release the entanglement and recover to a functional guard rather than holding a compromised position. This recovery requires disengaging leg controls while simultaneously establishing frames and distance management to prevent the opponent from advancing to a top position or counter-entangling.

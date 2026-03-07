@@ -13,6 +13,13 @@ description: "Master the Counter Sweep from Outside Ashi-Garami in BJJ. Complete
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Counter Sweep from Outside Ashi/Attacker|Play as Attacker]]
+[[Counter Sweep from Outside Ashi/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Counter Sweep from Outside Ashi-Garami is a positional reversal technique where the bottom player uses their leg entanglement as a fulcrum to sweep the top player and establish side control. This sweep is initiated as a counter to the opponent's escape attempt—when the top player stands, postures up, or drives forward to extract their trapped leg, their weight shift creates the off-balance necessary for the sweep to succeed. The figure-4 leg configuration that controls the opponent's leg doubles as a mechanical lever when combined with proper hip drive and upper body control.

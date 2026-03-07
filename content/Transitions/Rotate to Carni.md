@@ -13,6 +13,13 @@ description: "Learn Rotate to Carni from New York in BJJ. Step-by-step rotation 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Rotate to Carni/Attacker|Play as Attacker]]
+[[Rotate to Carni/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Rotate to Carni is a critical transition within the 10th Planet Rubber Guard system that converts New York control into the powerful Carni position for omoplata-based attacks. The technique exploits the opponent's compromised posture and trapped arm by initiating a rotational movement that swings the bottom player's hips perpendicular to the opponent, creating the angle necessary for shoulder lock attacks.

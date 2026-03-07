@@ -13,6 +13,13 @@ description: "Master the Mount to Knee on Belly transition in BJJ. Complete guid
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Mount to Knee on Belly/Attacker|Play as Attacker]]
+[[Mount to Knee on Belly/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Mount to Knee on Belly transition represents a strategic positional shift from static four-point dominance to dynamic concentrated pressure. While mount provides crushing weight distribution across the opponent's torso and diverse submission chains, Knee on Belly offers superior mobility, concentrated diaphragm pressure through a single contact point, and rapid transition potential to multiple offensive positions. This transition is particularly effective when the mounted opponent has established strong defensive frames that limit direct submission entries, or when the top practitioner seeks to change offensive angles and create new attack pathways.

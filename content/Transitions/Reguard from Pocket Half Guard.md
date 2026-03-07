@@ -13,6 +13,13 @@ description: "Master the Reguard from Pocket Half Guard in BJJ. Recover standard
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Reguard from Pocket Half Guard/Attacker|Play as Attacker]]
+[[Reguard from Pocket Half Guard/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Reguard from Pocket Half Guard is a guard retention technique where the bottom player abandons the specialized pocket half guard configuration and recovers to standard half guard with proper frames and distance management. Pocket half guard relies on a deep underhook and tight hip connection for offensive power, but when the top player begins winning the underhook battle, establishing crossface, or systematically flattening the bottom player's hips, maintaining the pocket configuration becomes increasingly dangerous. Rather than clinging to a deteriorating offensive position, the reguard provides a structured retreat to standard half guard where knee shields, frames, and distance management restore defensive integrity and open alternative attack chains.

@@ -15,6 +15,13 @@ description: "Master the Twister spinal lock from Twister Side Control in BJJ. S
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Twister from Twister SC/Attacker|Play as Attacker]]
+[[Twister from Twister SC/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Twister from Twister Side Control is a devastating spinal lock submission rooted in the 10th Planet Jiu-Jitsu system. This technique leverages the lateral control and leg entanglement already established in Twister Side Control to create opposing rotational forces through the opponent's entire spinal column. The attacker controls the opponent's lower body through leg hooks while simultaneously cranking the head and upper body in the opposite direction, generating a corkscrew effect that attacks the cervical and thoracic vertebrae through combined lateral flexion and rotation.

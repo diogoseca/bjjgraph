@@ -13,6 +13,13 @@ description: "Learn how to recognize and transition into triangle escape positio
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Half Guard to Triangle Escape Position/Attacker|Play as Attacker]]
+[[Half Guard to Triangle Escape Position/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Transition to Triangle Escape Position addresses one of the most dangerous moments for a half guard top player: getting caught in a triangle choke during a passing attempt. When the top player leads with their head during knee slice or pressure passes, the bottom player can capture the head and one arm in a triangle configuration. This transition covers the critical defensive sequence of recognizing the triangle threat and immediately establishing a structured escape position rather than panicking or making the situation worse through explosive, uncontrolled reactions.

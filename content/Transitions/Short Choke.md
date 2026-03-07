@@ -13,6 +13,13 @@ description: "Master Short Choke from back control in BJJ. Compact collar strang
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Short Choke/Attacker|Play as Attacker]]
+[[Short Choke/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Short Choke is a compact, high-percentage collar strangle executed from back control, particularly effective when combined with body triangle control. Unlike the rear naked choke which requires getting the choking arm deep across the throat, the Short Choke uses a shortened grip configuration where your hand grabs the collar behind the opponent's neck while your forearm creates the choking pressure across their throat. This makes it an excellent alternative when the opponent successfully defends the traditional RNC by tucking their chin or fighting your choking arm.

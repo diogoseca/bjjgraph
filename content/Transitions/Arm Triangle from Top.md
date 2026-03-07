@@ -13,6 +13,13 @@ description: "Master the Arm Triangle from Top in BJJ. Complete guide to setup f
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Arm Triangle from Top/Attacker|Play as Attacker]]
+[[Arm Triangle from Top/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Arm Triangle from Top (kata gatame) is a powerful blood choke initiated from side control that traps the opponent's arm against their own neck, using your shoulder and head as the secondary compression point. The mechanic is deceptively simple: drive the opponent's arm across their centerline so their own bicep occludes one carotid artery while your shoulder compresses the other. What separates competent execution from failed attempts is the walk-around finish—once the arm-and-head configuration is locked, you must step over to the opposite side of the opponent's body, sprawling your hips low and angling your squeeze inward rather than simply bearing down with chest pressure.

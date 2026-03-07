@@ -13,6 +13,13 @@ description: "Learn the Crucifix from Turtle transition in BJJ. Step-by-step gui
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Crucifix from Turtle/Attacker|Play as Attacker]]
+[[Crucifix from Turtle/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Crucifix from Turtle is a high-level back attack transition that exploits the structural vulnerability of the turtle position by isolating and trapping both of the opponent's arms through different control mechanisms. The technique converts a standard turtle top situation into one of the most dominant control positions in Brazilian Jiu-Jitsu, where the opponent loses nearly all defensive capability. The crucifix entry requires capturing the near-side arm with a leg thread over the shoulder while simultaneously controlling the far-side arm with a grip, creating bilateral arm isolation that eliminates frames, guard recovery attempts, and choke defense.

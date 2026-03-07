@@ -13,6 +13,13 @@ description: "Master Squid Guard in BJJ. Strategic guide covering asymmetrical c
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Squid Guard/Bottom|Play as Bottom]]
+[[Squid Guard/Top|Play as Top]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Squid Guard is an advanced open guard position that combines elements of De La Riva Guard and Reverse De La Riva Guard with unique lapel control. The bottom player establishes a deep hook behind the opponent's knee while using the opponent's lapel to create a powerful control system that restricts the top player's mobility and posture. This position is characterized by the bottom player's ability to control distance, break posture, and create angles for sweeps and back takes.

@@ -13,6 +13,13 @@ description: "Master the transition from Kesa Gatame to Reverse Kesa-Gatame. Com
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Kesa Gatame to Reverse Kesa-Gatame/Attacker|Play as Attacker]]
+[[Kesa Gatame to Reverse Kesa-Gatame/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Transition to Reverse Kesa-Gatame is a rotational pinning adjustment where the top player pivots 180 degrees from standard Kesa Gatame to face the opponent's legs rather than their head. This transition fundamentally changes the control dynamics by eliminating the bottom player's ability to frame against the top player's face and neck while simultaneously isolating the far arm for immediate submission threats. The rotation itself is deceptively technical, requiring precise weight transfer through the chest to prevent the bottom player from exploiting the momentary instability.

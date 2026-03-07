@@ -13,6 +13,13 @@ description: "Master the Pass Half Butterfly guard pass in BJJ. Learn to neutral
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Pass Half Butterfly/Attacker|Play as Attacker]]
+[[Pass Half Butterfly/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Passing the Half Butterfly guard requires systematic neutralization of the butterfly hook's lifting mechanics while maintaining enough upper body pressure to prevent guard recovery. The butterfly hook in half butterfly creates a powerful elevation tool that the bottom player uses to generate sweeps and off-balance the passer. The top player's primary challenge is removing this hook's effectiveness without sacrificing the crossface or underhook control needed to prevent the bottom player from recovering full butterfly guard or transitioning to deep half.

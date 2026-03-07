@@ -13,6 +13,13 @@ description: "Learn Roll to Guard escape from back control in BJJ. Forward roll 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Roll to Guard/Attacker|Play as Attacker]]
+[[Roll to Guard/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Roll to Guard escape is a dynamic defensive technique executed from harness bottom position that utilizes forward momentum and rotational mechanics to escape back control and recover a guard position. This technique exploits momentary weight shifts or grip lapses by the attacking player to create the space necessary for a controlled forward roll that deposits the defender facing their opponent in guard.

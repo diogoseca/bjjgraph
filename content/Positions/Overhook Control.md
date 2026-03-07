@@ -13,6 +13,13 @@ description: "Master overhook control (whizzer) in BJJ. Complete guide covering 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Overhook Control/Bottom|Play as Bottom]]
+[[Overhook Control/Top|Play as Top]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Overhook Control Position, also known as the whizzer in wrestling terminology, represents one of the most versatile control mechanisms in Brazilian Jiu-Jitsu and grappling. This control involves wrapping your arm over the opponent's extended arm from above, creating a vice-like connection with your armpit sealed tightly over their shoulder. The position appears across countless scenarios including standing clinch exchanges, turtle attacks, front headlock sequences, half guard battles, and as a fundamental counter to underhook attempts.

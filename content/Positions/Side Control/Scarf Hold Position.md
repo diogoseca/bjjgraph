@@ -13,6 +13,13 @@ description: "Master Scarf Hold (Kesa Gatame) in BJJ. Traditional judo pinning p
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Scarf Hold Position/Bottom|Play as Bottom]]
+[[Scarf Hold Position/Top|Play as Top]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Scarf Hold Position (Kesa Gatame) is a fundamental pinning position derived from Judo where control is established through a perpendicular angle to the opponent's body. This traditional pinning position creates unique mechanical challenges due to the T-shaped configuration, with the controlling player sitting perpendicular across the opponent's chest while managing head and arm control. The position appears in both gi and no-gi grappling, though it remains more prevalent among practitioners with judo backgrounds or those favoring classical pinning systems.

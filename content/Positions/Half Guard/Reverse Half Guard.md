@@ -13,6 +13,13 @@ description: "Master Reverse Half Guard in BJJ. Strategic guide covering inverte
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Reverse Half Guard/Bottom|Play as Bottom]]
+[[Reverse Half Guard/Top|Play as Top]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Reverse Half Guard is an unconventional half guard variation where the practitioner faces away from their opponent while controlling one of their legs, creating an inverted configuration that disrupts traditional half guard mechanics. This position occurs during scrambles, failed sweep attempts, or as a deliberate entry for specialized techniques. The inverted geometry creates unique offensive opportunities through unexpected angles and leverage points that are unavailable from standard half guard positions.

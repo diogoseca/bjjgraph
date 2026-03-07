@@ -13,6 +13,13 @@ description: "Master the Transition to K-Guard from Half Guard Bottom in BJJ. Co
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Half Guard to K-Guard/Attacker|Play as Attacker]]
+[[Half Guard to K-Guard/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Transition to K-Guard is a guard reconfiguration technique executed from Half Guard Bottom, where the bottom player restructures their leg entanglement from standard half guard hooks into the characteristic inverted butterfly hook configuration that defines K-Guard. This transition converts a position that may be under passing pressure into a dynamic offensive platform capable of generating sweeps, back takes, and guard transitions. The entry hinges on replacing the standard inside hook with an inverted hook that crosses over the opponent's trapped leg while simultaneously establishing an outside butterfly hook at hip level, creating the distinctive 'K' shape that gives the position its name.

@@ -13,6 +13,13 @@ description: "Master framing from Shoulder of Justice in BJJ. Defensive guide to
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Frame from Shoulder of Justice/Attacker|Play as Attacker]]
+[[Frame from Shoulder of Justice/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Frame from Shoulder of Justice is a targeted defensive technique where the bottom player creates skeletal frames to disrupt the concentrated jaw pressure of the Shoulder of Justice and transition to standard Side Control bottom. Unlike full escape techniques that aim for guard recovery, this technique specifically addresses the immediate problem of the intensified pressure variant by degrading the top player's shoulder pressure angle and hip connection enough to revert to conventional side control, where a broader range of escape options becomes available.

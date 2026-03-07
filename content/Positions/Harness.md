@@ -13,6 +13,13 @@ description: "Master Harness Position in BJJ - back control with seat belt grip.
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Harness/Bottom|Play as Bottom]]
+[[Harness/Top|Play as Top]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Harness Position, also known as the Seat Belt or Seatbelt Control, is a fundamental back control configuration where the attacking practitioner secures one arm over the opponent's shoulder and the other under the opposite armpit, creating a powerful control mechanism that resembles a seat belt. This grip structure is the cornerstone of modern back attack systems and provides exceptional control while maintaining multiple offensive pathways to submissions, particularly the rear naked choke.

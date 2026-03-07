@@ -15,6 +15,13 @@ description: "Master Triangle Choke from Back Control in BJJ. Complete guide wit
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Triangle Choke Back/Attacker|Play as Attacker]]
+[[Triangle Choke Back/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Triangle Choke from Back Control represents an advanced finishing option that combines the control dominance of back position with the mechanical efficiency of the triangle. This submission emerges when the opponent begins defending the rear naked choke by protecting their neck, creating an opportunity to transition to a different strangling mechanism. Unlike the traditional front triangle from guard, the rear triangle utilizes the already-established back control framework, making it particularly effective when opponents successfully defend traditional back attacks.

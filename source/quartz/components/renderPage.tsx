@@ -3,7 +3,15 @@ import { QuartzComponent, QuartzComponentProps } from "./types"
 import HeaderConstructor from "./Header"
 import BodyConstructor from "./Body"
 import { JSResourceToScriptElement, StaticResources } from "../util/resources"
-import { clone, FullSlug, RelativeURL, joinSegments, normalizeHastElement } from "../util/path"
+import {
+  clone,
+  FullSlug,
+  SimpleSlug,
+  RelativeURL,
+  joinSegments,
+  normalizeHastElement,
+  simplifySlug,
+} from "../util/path"
 import { visit, EXIT } from "unist-util-visit"
 import { Root, Element, ElementContent } from "hast"
 import { GlobalConfiguration } from "../cfg"
@@ -11,6 +19,7 @@ import { i18n } from "../i18n"
 import { QuartzPluginData } from "../plugins/vfile"
 import fs from "fs"
 import path from "path"
+import { forceSimulation, forceManyBody, forceCenter, forceLink, forceCollide } from "d3-force"
 
 // === Build-time graph data injection ===
 // Eliminates all runtime fetches of the 3.5MB graph.json
@@ -59,6 +68,210 @@ function getRollPositionsJson(allFiles: QuartzPluginData[]): string {
 
   _rollPositionsJson = JSON.stringify(rolePages)
   return _rollPositionsJson
+}
+
+// === Build-time graph layout pre-computation ===
+// Pre-compute D3 force layouts for all pages so the client renders instantly
+// without running D3 force simulation at all.
+
+// Global graph data (computed once from allFiles)
+let _allSimpleSlugs: Set<string> | null = null
+// Adjacency index for fast BFS: slug → set of connected slugs
+let _adjacency: Map<string, Set<string>> | null = null
+
+function ensureGlobalGraphData(allFiles: QuartzPluginData[]) {
+  if (_allSimpleSlugs !== null) return
+
+  _allSimpleSlugs = new Set<string>()
+  for (const f of allFiles) {
+    _allSimpleSlugs.add(simplifySlug((f.slug ?? "") as FullSlug))
+  }
+
+  _adjacency = new Map()
+  for (const f of allFiles) {
+    const source = simplifySlug((f.slug ?? "") as FullSlug)
+    const outgoing = (f.links ?? []) as SimpleSlug[]
+    for (const target of outgoing) {
+      if (_allSimpleSlugs.has(target)) {
+        if (!_adjacency.has(source)) _adjacency.set(source, new Set())
+        if (!_adjacency.has(target)) _adjacency.set(target, new Set())
+        _adjacency.get(source)!.add(target)
+        _adjacency.get(target)!.add(source)
+      }
+    }
+  }
+}
+
+// Hub slug helper (mirrors client-side getHubSlug — only bottom/top)
+function getHubSlug(nodeId: string): string {
+  const lower = nodeId.toLowerCase()
+  if (lower.endsWith("/bottom") || lower.endsWith("/top")) {
+    return nodeId.split("/").slice(0, -1).join("/")
+  }
+  return nodeId
+}
+
+const categoryHubSet = new Set([
+  "positions",
+  "transitions",
+  "submissions",
+  "systems",
+  "principles",
+  "learning",
+])
+
+// Cache per-page: slug → JSON string or null
+const _pageGraphPositionsCache: Record<string, string | null> = {}
+
+function computePageGraphLayout(allFiles: QuartzPluginData[], slug: FullSlug): string | null {
+  const simpleSlug = simplifySlug(slug).replace(/\/$/, "")
+  if (simpleSlug in _pageGraphPositionsCache) {
+    return _pageGraphPositionsCache[simpleSlug]
+  }
+
+  ensureGlobalGraphData(allFiles)
+  const allSlugs = _allSimpleSlugs!
+
+  const slugLower = simpleSlug.toLowerCase()
+  const isHomepage = simpleSlug === "index"
+  const isCategoryHub = categoryHubSet.has(slugLower)
+
+  // Build neighbourhood (mirrors client-side logic in graph.inline.ts)
+  const neighbourhood = new Set<string>()
+
+  if (isHomepage) {
+    for (const hub of categoryHubSet) {
+      for (const nodeSlug of allSlugs) {
+        if (nodeSlug.toLowerCase() === hub) {
+          neighbourhood.add(nodeSlug)
+          break
+        }
+      }
+    }
+  } else if (isCategoryHub) {
+    neighbourhood.add(simpleSlug)
+    const prefix = slugLower + "/"
+    for (const nodeSlug of allSlugs) {
+      const lower = nodeSlug.toLowerCase()
+      if (
+        lower.startsWith(prefix) &&
+        !lower.endsWith("/bottom") &&
+        !lower.endsWith("/top")
+      ) {
+        neighbourhood.add(nodeSlug)
+      }
+    }
+  } else {
+    // Depth-1 BFS
+    const wl: (string | "__SENTINEL")[] = [simpleSlug, "__SENTINEL"]
+    let depth = 1
+
+    // For position hubs, also seed with role pages
+    const isPositionHub =
+      slugLower.startsWith("positions/") &&
+      !slugLower.endsWith("/bottom") &&
+      !slugLower.endsWith("/top")
+
+    if (isPositionHub) {
+      const bottomToFind = slugLower + "/bottom"
+      const topToFind = slugLower + "/top"
+      const rolePagesToAdd: string[] = []
+      for (const nodeSlug of allSlugs) {
+        const lower = nodeSlug.toLowerCase()
+        if (lower === bottomToFind || lower === topToFind) {
+          rolePagesToAdd.push(nodeSlug)
+        }
+      }
+      const sentinelIdx = wl.indexOf("__SENTINEL")
+      wl.splice(sentinelIdx, 0, ...rolePagesToAdd)
+    }
+
+    while (depth >= 0 && wl.length > 0) {
+      const cur = wl.shift()!
+      if (cur === "__SENTINEL") {
+        depth--
+        wl.push("__SENTINEL")
+      } else {
+        neighbourhood.add(cur)
+        const neighbours = _adjacency!.get(cur)
+        if (neighbours) {
+          for (const n of neighbours) wl.push(n)
+        }
+      }
+    }
+
+    // Remove category hub pages from regular page neighbourhoods
+    for (const hub of categoryHubSet) {
+      neighbourhood.delete(hub)
+    }
+  }
+
+  // Filter out Bottom/Top role pages from final nodes (mirrors client-side)
+  const nodeIds: string[] = []
+  for (const url of neighbourhood) {
+    const lower = url.toLowerCase()
+    if (!lower.endsWith("/bottom") && !lower.endsWith("/top")) {
+      nodeIds.push(url)
+    }
+  }
+
+  if (nodeIds.length === 0) {
+    _pageGraphPositionsCache[simpleSlug] = null
+    return null
+  }
+
+  // Build links with hub slug redirection (mirrors client-side)
+  const nodeIdSet = new Set(nodeIds)
+  const linkSet = new Set<string>()
+  type LinkDatum = { source: string; target: string }
+  const graphLinks: LinkDatum[] = []
+
+  // Only scan links originating from neighbourhood members (via adjacency)
+  for (const source of neighbourhood) {
+    const neighbours = _adjacency!.get(source)
+    if (!neighbours) continue
+    for (const target of neighbours) {
+      if (!neighbourhood.has(target)) continue
+      const actualSource = getHubSlug(source)
+      const actualTarget = getHubSlug(target)
+      if (!nodeIdSet.has(actualSource) || !nodeIdSet.has(actualTarget)) continue
+      if (actualSource === actualTarget) continue
+      const key = `${actualSource}|${actualTarget}`
+      if (!linkSet.has(key)) {
+        linkSet.add(key)
+        graphLinks.push({ source: actualSource, target: actualTarget })
+      }
+    }
+  }
+
+  // Run D3 force simulation synchronously
+  type NodeDatum = { id: string; x?: number; y?: number; index?: number }
+  const nodes: NodeDatum[] = nodeIds.map((id) => ({ id }))
+  const sim = forceSimulation(nodes)
+    .force("charge", forceManyBody().strength(-100).distanceMax(200))
+    .force("center", forceCenter())
+    .force(
+      "link",
+      forceLink(graphLinks)
+        .id((d: any) => d.id)
+        .distance(30),
+    )
+    .force("collide", forceCollide(4).iterations(1))
+    .stop()
+
+  sim.tick(300)
+  sim.stop()
+
+  const result = JSON.stringify({
+    nodes: nodes.map((n) => ({
+      id: n.id,
+      x: Math.round((n.x ?? 0) * 10) / 10,
+      y: Math.round((n.y ?? 0) * 10) / 10,
+    })),
+  })
+
+  _pageGraphPositionsCache[simpleSlug] = result
+  return result
 }
 
 // Cached graph.json data and lookup index (read once at build time)
@@ -128,6 +341,16 @@ function getPageGraphData(slug: FullSlug): string | null {
 
   if (!lookupKey) return null
 
+  // Detect attacker/defender role suffix and strip to find parent entry
+  let role: "attacker" | "defender" | null = null
+  if (lookupKey.endsWith("/attacker")) {
+    role = "attacker"
+    lookupKey = lookupKey.slice(0, -"/attacker".length)
+  } else if (lookupKey.endsWith("/defender")) {
+    role = "defender"
+    lookupKey = lookupKey.slice(0, -"/defender".length)
+  }
+
   const entry = _slugIndex[lookupKey]
   if (!entry) return null
 
@@ -144,19 +367,31 @@ function getPageGraphData(slug: FullSlug): string | null {
       knowledgeAssessment: data.knowledgeAssessment || [],
     })
   } else if (entry.section === "transitions") {
+    const ka =
+      role === "defender"
+        ? data.defenderKnowledgeAssessment || []
+        : role === "attacker"
+          ? data.knowledgeAssessment || []
+          : [...(data.knowledgeAssessment || []), ...(data.defenderKnowledgeAssessment || [])]
     return JSON.stringify({
       type: "transition",
       name: data.name,
       endingPosition: data.endingPosition,
       endingPositionPath: data.endingPositionPath,
-      knowledgeAssessment: data.knowledgeAssessment,
+      knowledgeAssessment: ka,
     })
   } else if (entry.section === "submissions") {
+    const ka =
+      role === "defender"
+        ? data.defenderKnowledgeAssessment || []
+        : role === "attacker"
+          ? data.knowledgeAssessment || []
+          : [...(data.knowledgeAssessment || []), ...(data.defenderKnowledgeAssessment || [])]
     return JSON.stringify({
       type: "submission",
       name: data.name,
       isTerminal: data.isTerminal,
-      knowledgeAssessment: data.knowledgeAssessment,
+      knowledgeAssessment: ka,
     })
   }
 
@@ -427,6 +662,9 @@ export function renderPage(
   // Build-time per-page graph data (transitions, flashcard questions, etc.)
   const pageGraphDataJson = getPageGraphData(slug)
 
+  // Build-time pre-computed graph layout (avoids D3 simulation at runtime)
+  const graphPositionsJson = computePageGraphLayout(componentData.allFiles, slug)
+
   const lang = componentData.fileData.frontmatter?.lang ?? cfg.locale?.split("-")[0] ?? "en"
   const doc = (
     <html lang={lang}>
@@ -437,6 +675,13 @@ export function renderPage(
             type="application/json"
             id="page-graph-data"
             dangerouslySetInnerHTML={{ __html: pageGraphDataJson }}
+          />
+        )}
+        {graphPositionsJson && (
+          <script
+            type="application/json"
+            id="graph-positions"
+            dangerouslySetInnerHTML={{ __html: graphPositionsJson }}
           />
         )}
         <div id="quartz-root" class="page">

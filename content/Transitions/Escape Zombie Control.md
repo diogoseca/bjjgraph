@@ -13,6 +13,13 @@ description: "Escape Zombie Control in BJJ with systematic frames and hip escape
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Escape Zombie Control/Attacker|Play as Attacker]]
+[[Escape Zombie Control/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Escape Zombie Control is a transitional technique within the 10th Planet Jiu-Jitsu system designed for moments when the bottom player's lockdown game has been neutralized and continued Zombie play becomes untenable. Rather than fighting a losing lockdown battle against a patient, technically sound passer, this technique teaches systematic disengagement from the Zombie structure to establish turtle position, opening new pathways for guard recovery, technical standup, or rolling escapes.

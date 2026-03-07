@@ -13,6 +13,13 @@ description: "Master the backstep from deep half guard in BJJ. Complete guide to
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Backstep from Deep Half/Attacker|Play as Attacker]]
+[[Backstep from Deep Half/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The backstep from deep half guard is a dynamic transitional technique where the top player, caught in the bottom player's deep half guard, abandons the conventional forward extraction approach and instead swings their free leg backwards over the bottom player's body to establish back control. This counter-intuitive movement exploits a fundamental vulnerability of deep half guard: the bottom player's deep positioning underneath creates exposure to back attacks when the top player redirects their movement behind rather than forward. By stepping backwards over the entangled position, the top player converts a defensive predicament into an offensive opportunity, bypassing the powerful sweep mechanics that make deep half guard so dangerous.

@@ -13,6 +13,13 @@ description: "Master the Reverse X to Back Take in BJJ. Complete guide to invert
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Reverse X to Back Take/Attacker|Play as Attacker]]
+[[Reverse X to Back Take/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Reverse X to Back Take is a high-percentage transitional attack from Reverse X-Guard that exploits the opponent's defensive reactions to sweeping pressure. When the opponent backsteps, widens their base, or attempts to disengage from your hook control, their back becomes exposed. This technique capitalizes on that exposure by inverting underneath the opponent while maintaining hook connection, allowing you to follow their movement and establish back control with seatbelt grip and hooks.

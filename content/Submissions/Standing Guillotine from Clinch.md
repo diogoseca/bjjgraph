@@ -15,6 +15,13 @@ description: "Master the standing guillotine from clinch in BJJ. Complete guide 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Standing Guillotine from Clinch/Attacker|Play as Attacker]]
+[[Standing Guillotine from Clinch/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The standing guillotine from clinch is one of the most effective standing submissions in Brazilian Jiu-Jitsu, capitalizing on moments when an opponent ducks their head during clinch exchanges, shoots for takedowns, or allows their posture to break in the standing engagement. Unlike ground-based guillotines where gravity and guard control assist the finish, the standing guillotine relies on precise hip mechanics, proper wrist alignment under the chin, and the attacker's ability to create a powerful upward shearing force through the arm while driving the opponent's head downward with chest pressure.

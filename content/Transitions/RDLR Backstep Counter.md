@@ -13,6 +13,13 @@ description: "Learn the RDLR Backstep Counter for BJJ guard passing. Detailed gu
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[RDLR Backstep Counter/Attacker|Play as Attacker]]
+[[RDLR Backstep Counter/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The RDLR Backstep Counter is a fundamental guard passing technique that specifically addresses the Reverse De La Riva hook—one of the most challenging guard retention tools in modern BJJ. When an opponent establishes RDLR, their inverted hook creates rotational off-balancing that makes direct forward passing dangerous, as driving into the guard feeds waiter sweeps and kiss of the dragon back-take entries. The backstep solves this problem by moving the hooked leg backward and around the entanglement, removing the hook's mechanical advantage without exposing the passer to common counter-attacks.

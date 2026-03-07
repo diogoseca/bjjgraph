@@ -15,6 +15,13 @@ description: "Master the Americana shoulder lock from mount and side control. Co
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Americana/Attacker|Play as Attacker]]
+[[Americana/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Americana, also known as the keylock or ude garami, is a fundamental shoulder lock that attacks the glenohumeral joint through external rotation and hyperextension. This submission is one of the first joint locks taught to beginners due to its mechanical simplicity and high-percentage nature from dominant positions like mount and side control. The Americana works by isolating the opponent's arm at a 90-degree angle and applying rotational pressure that forces the shoulder joint beyond its natural range of motion. The technique's effectiveness stems from leverage advantage rather than strength, making it accessible to practitioners of all sizes when executed with proper mechanics.

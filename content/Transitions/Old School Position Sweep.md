@@ -13,6 +13,13 @@ description: "Master the Old School Position Sweep from half guard lockdown. Exp
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Old School Position Sweep/Attacker|Play as Attacker]]
+[[Old School Position Sweep/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Old School Position Sweep is the signature technique from the 10th Planet half guard system, utilizing the lockdown's immobilizing power combined with underhook and head control to execute a powerful rotational sweep. This technique transforms half guard bottom from a defensive holding pattern into an immediate offensive launching pad, threatening a direct path to mount through precise biomechanical leverage rather than athletic explosiveness. The sweep relies on a three-point control system where the lockdown removes the opponent's base, the underhook provides rotational leverage, and the head control prevents defensive posting.

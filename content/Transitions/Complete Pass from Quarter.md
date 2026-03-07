@@ -13,6 +13,13 @@ description: "Master the Complete Pass from Quarter Guard in BJJ. Expert guide t
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Complete Pass from Quarter/Attacker|Play as Attacker]]
+[[Complete Pass from Quarter/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Complete Pass from Quarter Guard represents the decisive final phase in the guard passing sequence, where the top player converts their near-dominant quarter guard position into established side control. This transition occurs when the bottom player's defensive structure has deteriorated to minimal leg engagement—typically just a weakened knee shield, partial hook, or ankle grip—and the top player must execute precise leg extraction while maintaining continuous upper body pressure. The technique demands immediate action because quarter guard is inherently unstable; delays of even three to five seconds allow the bottom player to rebuild defensive structures that transform the position back to contested half guard.

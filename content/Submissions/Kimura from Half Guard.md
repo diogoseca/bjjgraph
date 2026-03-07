@@ -15,6 +15,13 @@ description: "Master the Kimura from Half Guard in BJJ. Complete guide with safe
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Kimura from Half Guard/Attacker|Play as Attacker]]
+[[Kimura from Half Guard/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The **Kimura from Half Guard** is one of the most versatile shoulder locks in Brazilian Jiu-Jitsu, applicable from both top and bottom positions. From bottom half guard, the Kimura serves as a powerful sweep, back take, and submission threat that capitalizes on the opponent's commitment to passing. The technique exploits the natural underhook battle that occurs in half guard, transforming defensive frames into offensive attack chains. The submission targets the shoulder joint through a figure-four grip configuration, creating rotational pressure on the glenohumeral joint and surrounding connective tissue. What makes this variation particularly effective is its capacity to create dilemmas: opponents must choose between defending the submission, preventing the sweep, or stopping the back take. This multi-threat system exemplifies modern half guard strategy, where single techniques branch into complete attacking sequences based on defensive reactions.

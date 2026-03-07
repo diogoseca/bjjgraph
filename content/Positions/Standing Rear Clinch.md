@@ -13,6 +13,13 @@ description: "Master Standing Rear Clinch in BJJ. Dominant back control from sta
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Standing Rear Clinch/Bottom|Play as Bottom]]
+[[Standing Rear Clinch/Top|Play as Top]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Standing Rear Clinch is a dominant control position where you establish chest-to-back connection with a standing opponent, typically securing body lock, seatbelt, or collar tie configurations. This position bridges wrestling and Brazilian Jiu-Jitsu, serving as a critical transition point for securing takedowns, back takes, or forcing opponents into inferior ground positions. The standing variant offers unique tactical advantages over ground-based back control, allowing the controlling player to dictate when and how the engagement transitions to the mat while maintaining dominant positional control.

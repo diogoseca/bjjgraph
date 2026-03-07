@@ -13,6 +13,13 @@ description: "Master the 100% Sweep from closed guard. Complete guide covering a
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[100% Sweep/Attacker|Play as Attacker]]
+[[100% Sweep/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The 100% Sweep is an advanced closed guard technique that reverses position from bottom to top by isolating the opponent's arm and using precise hip movement to roll them over their trapped shoulder. This sweep exemplifies the principle of limb isolation to create sweeping leverage, demonstrating how technical control can overcome strength. The technique starts from closed guard bottom with the practitioner trapping one of the opponent's arms across their body while simultaneously breaking their posture and creating an optimal angle through hip movement.

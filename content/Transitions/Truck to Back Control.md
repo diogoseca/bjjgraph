@@ -13,6 +13,13 @@ description: "Master the Truck to Back Control transition in BJJ. Learn hook ins
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Truck to Back Control/Attacker|Play as Attacker]]
+[[Truck to Back Control/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Truck to Back Control transition represents one of the most strategically important positional upgrades available from the truck position, converting a specialized perpendicular leg entanglement into the highest-scoring and most submission-rich position in Brazilian Jiu-Jitsu. Rather than committing to truck-specific submissions like the twister or calf slicer, the attacker systematically trades the boot-and-entanglement configuration for traditional back control with hooks and seatbelt, gaining 4 competition points and access to the complete back attack arsenal including rear naked choke, bow and arrow, and armbar transitions.

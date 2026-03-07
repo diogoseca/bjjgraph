@@ -13,6 +13,13 @@ description: "Master Zombie position in BJJ. Defensive turtle variation with uni
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Zombie/Bottom|Play as Bottom]]
+[[Zombie/Top|Play as Top]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Zombie position represents a unique defensive structure within the 10th Planet Jiu-Jitsu system, combining turtle mechanics with lockdown control to create both escape opportunities and offensive threats. This position is characterized by the bottom practitioner using active framing, lockdown entanglements, and constant movement to frustrate passing attempts while setting up sweeps and guard recovery.

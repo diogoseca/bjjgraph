@@ -13,6 +13,13 @@ description: "Master the Kimura Sweep in BJJ. Execute from Closed Guard to Mount
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Kimura Sweep/Attacker|Play as Attacker]]
+[[Kimura Sweep/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Kimura Sweep is a powerful positional advancement technique that leverages the figure-four grip control to off-balance and sweep the opponent from Closed Guard directly to Mount. This sweep capitalizes on the mechanical advantage created when you secure the Kimura grip on the opponent's arm, using their trapped limb as a lever to disrupt their base and facilitate the reversal. The technique represents a fundamental concept in guard work where grip fighting transitions directly into sweeping opportunities rather than remaining as isolated submission attempts.

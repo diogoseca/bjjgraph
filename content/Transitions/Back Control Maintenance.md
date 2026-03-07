@@ -13,6 +13,13 @@ description: "Master Back Control Maintenance in BJJ. Systematic approach to pre
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Back Control Maintenance/Attacker|Play as Attacker]]
+[[Back Control Maintenance/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Back Control Maintenance represents the systematic methodology for preserving the most dominant position in grappling. Rather than rushing submissions, elite practitioners understand that maintaining back control creates cumulative pressure that breaks opponent's defensive structures over time. This positional discipline transforms back control from a fleeting opportunity into a sustainable attacking platform where every defensive movement by the opponent can be converted into deeper control or submission opportunities.

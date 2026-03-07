@@ -13,6 +13,13 @@ description: "Master the Transition to Double Jump from Half Guard Top. Establis
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Half Guard to Double Jump/Attacker|Play as Attacker]]
+[[Half Guard to Double Jump/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Transition to Double Jump is an advanced positional advancement from Half Guard Top that capitalizes on the opponent's turtling reaction to establish bilateral leg hooks for immediate back control entries. When the bottom player in half guard abandons guard retention and begins to turtle, either from failed sweep attempts or in response to passing pressure, a critical timing window opens for the top player to insert both legs as hooks inside the opponent's thighs rather than simply consolidating side control or continuing the pass.

@@ -13,6 +13,13 @@ description: "Master Knee Shield recovery from Quarter Guard in BJJ. Complete gu
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Knee Shield from Quarter Guard/Attacker|Play as Attacker]]
+[[Knee Shield from Quarter Guard/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Knee Shield from Quarter Guard is a critical guard recovery technique that enables the bottom player to transition from a severely compromised quarter guard position back to the structurally sound Knee Shield Half Guard. This technique addresses one of the most common predicaments in the guard passing sequence—when the top player has advanced significantly past the hip line but has not yet fully completed the pass, the bottom player must act decisively to reinsert defensive frames before positional collapse occurs. The recovery demands precise coordination of hip escape, framing, and knee insertion under significant pressure.

@@ -13,6 +13,13 @@ description: "Master recovering knee shield from flattened half guard in BJJ. Co
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Recover Knee Shield from Flattened Half/Attacker|Play as Attacker]]
+[[Recover Knee Shield from Flattened Half/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Recovering Knee Shield from Flattened Half Guard is the essential defensive recovery transition in the half guard system. When you have been flattened under heavy chest pressure with your back pinned to the mat, your primary objective is re-establishing the knee shield frame that restores distance, breathing room, and offensive capabilities. This transition represents the critical bridge between survival and active guard play, and every serious half guard practitioner must develop reliable mechanics for executing it under pressure.

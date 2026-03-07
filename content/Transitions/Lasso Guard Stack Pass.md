@@ -13,6 +13,13 @@ description: "Master the Lasso Guard Stack Pass in BJJ. Complete guide to neutra
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Lasso Guard Stack Pass/Attacker|Play as Attacker]]
+[[Lasso Guard Stack Pass/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Lasso Guard Stack Pass is a pressure-based guard passing technique employed when caught in an opponent's lasso guard. Rather than attempting to strip the lasso grip or disengage technically, the stack pass addresses the lasso's mechanical advantage directly by folding the bottom player's hips over their shoulders. This compression eliminates the distance and angle that make the lasso effective, as the bottom player can no longer generate the pushing force through their shin or maintain the pulling tension on the sleeve that creates the lasso's characteristic control.

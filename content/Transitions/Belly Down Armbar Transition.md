@@ -13,6 +13,13 @@ description: "Master the belly down armbar transition from armbar control. Learn
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Belly Down Armbar Transition/Attacker|Play as Attacker]]
+[[Belly Down Armbar Transition/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The belly down armbar transition is executed from armbar control when the opponent attempts to escape by rolling to their stomach. This is one of the most common armbar defense reactions, particularly at intermediate and advanced levels where practitioners instinctively turn away from the hyperextension threat. Rather than releasing the submission, a skilled attacker follows the roll, maintaining arm isolation throughout the transition and converting the escape attempt into a prone finishing position where the opponent has drastically fewer defensive options.

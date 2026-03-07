@@ -13,6 +13,13 @@ description: "Master the Sickle Sweep from De La Riva Guard. Step-by-step execut
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Sickle Sweep/Attacker|Play as Attacker]]
+[[Sickle Sweep/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Sickle Sweep is a fundamental attacking technique from the De La Riva Guard that leverages the hook control to off-balance and sweep your opponent. Named for its characteristic leg hooking motion that resembles a sickle cutting through grass, this sweep exploits the opponent's base when they attempt to pass or establish their posture. The technique combines precise leg positioning with upper body control to create a powerful sweeping motion that drives the opponent backward and allows you to come on top.

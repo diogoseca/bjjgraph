@@ -13,6 +13,13 @@ description: "Master the Heel Grab Sweep from Single Leg X Guard. Complete techn
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Heel Grab Sweep/Attacker|Play as Attacker]]
+[[Heel Grab Sweep/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Heel Grab Sweep is a fundamental off-balancing technique from Single Leg X Guard that exploits your opponent's compromised base by controlling their trapped leg and manipulating their heel. This sweep creates a powerful lever system where you use your legs to elevate and extend the opponent's trapped leg while simultaneously pulling their heel backward, disrupting their balance and forcing them to the mat. The technique is particularly effective against standing opponents who attempt to maintain a squared stance or those who fail to properly address the Single Leg X position.

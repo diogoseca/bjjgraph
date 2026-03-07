@@ -13,6 +13,13 @@ description: "Master the Posture Up from Triangle escape in BJJ. Break triangle 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Posture Up from Triangle/Attacker|Play as Attacker]]
+[[Posture Up from Triangle/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Posture Up from Triangle is a fundamental defensive technique executed when caught in an opponent's triangle choke from the top position. The escape centers on recovering spinal alignment and driving upward through the hips to create enough vertical space to relieve arterial compression and begin working free from the leg configuration. This technique addresses the most immediate survival need in triangle control—relieving the choking pressure—while creating a pathway to transition into open guard top position where the previously trapped player can begin guard passing.

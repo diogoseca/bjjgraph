@@ -13,6 +13,13 @@ description: "Master the Reguard from Half Butterfly in BJJ. Learn to recover fu
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Reguard from Half Butterfly/Attacker|Play as Attacker]]
+[[Reguard from Half Butterfly/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Reguard from Half Butterfly is a guard retention technique where the bottom player transitions from the asymmetric half butterfly configuration to full butterfly guard by freeing the trapped leg from the half guard entanglement and inserting it as a second butterfly hook. Half Butterfly provides a strong sweeping platform with its single hook, but full butterfly guard offers substantially more offensive versatility through bilateral elevation, wider sweep angles, and direct access to X-Guard entries and arm drag back takes. The reguard capitalizes on this positional upgrade by converting a partially compromised guard into a fully active one.

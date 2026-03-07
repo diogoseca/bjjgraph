@@ -13,6 +13,13 @@ description: "Master the Overhook Pass to Side Control in BJJ. Complete guide to
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Overhook Pass to Side Control/Attacker|Play as Attacker]]
+[[Overhook Pass to Side Control/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Overhook Pass to Side Control is a fundamental guard passing technique that leverages the wrestling-based whizzer grip to drive through an opponent's defensive structure and establish the dominant side control position. This pass capitalizes on the control advantages inherent in overhook positioning, where the opponent's arm is trapped and elevated above their optimal power generation angle, creating a one-armed defensive scenario that makes guard retention significantly more difficult. The mechanics involve maintaining the armpit seal while walking the hips around the opponent's guard structure, using forward pressure to flatten them, and systematically clearing their legs before settling into perpendicular side control alignment.

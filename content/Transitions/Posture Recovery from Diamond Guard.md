@@ -13,6 +13,13 @@ description: "Learn posture recovery from diamond guard in BJJ. Systematic appro
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Posture Recovery from Diamond Guard/Attacker|Play as Attacker]]
+[[Posture Recovery from Diamond Guard/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Posture Recovery from Diamond Guard is a critical defensive transition for the top player trapped inside the diamond guard configuration, where the bottom player has established an overhook on one arm combined with head control behind the neck. The diamond frame creates converging force vectors that pull the top player's posture down and forward, eliminating the structural base required for guard passing or even basic survival. Without successful posture recovery, the top player faces an escalating chain of triangle, omoplata, and kimura threats that become increasingly difficult to defend as fatigue accumulates.

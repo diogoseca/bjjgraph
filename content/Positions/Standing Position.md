@@ -13,6 +13,13 @@ description: "Master standing position in BJJ. Complete guide covering grips, ta
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Standing Position/Bottom|Play as Bottom]]
+[[Standing Position/Top|Play as Top]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Standing Position represents the fundamental neutral starting state in BJJ and grappling competitions. This position is characterized by both practitioners standing upright and engaging through various grips, postures, and movements while seeking advantageous entries to ground exchanges. In competition, this is typically the position where matches begin and can also result from stand-ups or resets. The Standing Position encompasses a wide range of specific scenarios depending on grip configurations, stance, and relative positioning, but generally involves both practitioners seeking to establish dominant grips, create off-balancing opportunities, and set up either takedowns or tactical guard pulls. This position serves as the gateway to all subsequent BJJ exchanges and requires a unique blend of skills that differ from ground-based grappling. Mastery of the standing position involves understanding distance management, timing, grip sequences, footwork patterns, and the ability to transition seamlessly between offensive takedown attempts and defensive sprawls or guard pulls. The strategic depth of this position is often underestimated, yet it determines how the majority of competitive matches begin and can significantly impact the overall flow and outcome of a match.

@@ -298,9 +298,9 @@ All commands run from the repo root (`bjjgraph/`):
 | `npm run regenerate:votes` | Generate community voting data |
 | `npm run regenerate:graph` | Generate graph.json |
 | `npm run regenerate` | Run all 7 steps: issues → json → explode → md → hubs → votes → graph |
-| `npm run build` | Build static site |
+| `npm run build` | Build static site (~10 min, 4287 files) |
 | `npm run regenerate:build` | Regenerate + build (full workflow) |
-| `npm run dev` | Development server with live reload |
+| `npm run dev` | Build then serve locally on port 8080 |
 
 ### Quartz Scripts (source/package.json)
 

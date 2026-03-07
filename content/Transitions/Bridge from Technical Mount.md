@@ -13,6 +13,13 @@ description: "Master the bridge escape from technical mount in BJJ. Complete gui
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Bridge from Technical Mount/Attacker|Play as Attacker]]
+[[Bridge from Technical Mount/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The bridge from technical mount is one of the most critical defensive movements available to the bottom player trapped in this asymmetric mount variation. Unlike bridging from standard mount where both sides offer roughly equal bridging angles, technical mount's stepped leg configuration restricts effective bridging direction, demanding precise directional awareness and explosive timing to generate meaningful displacement. The bottom player must bridge toward the opponent's inside leg—the weaker base side—rather than the posted leg, which acts as a stabilizing tripod that absorbs bridging force.

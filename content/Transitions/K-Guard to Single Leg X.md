@@ -13,6 +13,13 @@ description: "Master the K-Guard to Single Leg X transition in BJJ. Step-by-step
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[K-Guard to Single Leg X/Attacker|Play as Attacker]]
+[[K-Guard to Single Leg X/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The K-Guard to Single Leg X transition is a fundamental guard evolution pathway in modern BJJ that converts a retention-oriented half guard variation into a powerful sweeping and leg attack platform. When the K-Guard bottom player faces an opponent who begins to posture up, create distance, or attempt to extract their trapped leg, the natural response is to follow their movement by transitioning the existing hook connections into the Single Leg X-Guard configuration. This transition capitalizes on the mechanical similarities between K-Guard's inverted hook system and SLX's ankle wrap and hip hook structure, making it one of the smoothest guard-to-guard flows available.

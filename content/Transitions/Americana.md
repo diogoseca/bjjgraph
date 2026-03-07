@@ -13,6 +13,13 @@ description: "Master the Americana shoulder lock (keylock) from side control. Co
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Americana/Attacker|Play as Attacker]]
+[[Americana/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Americana, also known as the keylock or bent armlock, is a fundamental shoulder lock submission that attacks the rotator cuff through forced external rotation. This technique represents one of the most reliable finishing options from dominant top positions, particularly side control and mount, where the practitioner can use superior body positioning and weight distribution to isolate and attack the opponent's arm.

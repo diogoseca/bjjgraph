@@ -13,6 +13,13 @@ description: "Learn Estima Lock to Saddle in BJJ. Backstep from footlock control
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Estima Lock to Saddle/Attacker|Play as Attacker]]
+[[Estima Lock to Saddle/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Estima Lock to Saddle transition represents a strategic positional upgrade within the modern leg lock game, converting a single-attack footlock position into the superior Saddle (Inside Sankaku) configuration that offers multiple high-percentage finishing options. This transition is executed when the opponent successfully defends the Estima Lock by counter-rotating their ankle, posting their free leg, or beginning to sit up—moments where continuing the original attack yields diminishing returns but the leg entanglement structure remains intact.

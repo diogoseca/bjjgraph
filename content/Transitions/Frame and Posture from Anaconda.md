@@ -13,6 +13,13 @@ description: "Master the Frame and Posture escape from Anaconda Control in BJJ. 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Frame and Posture from Anaconda/Attacker|Play as Attacker]]
+[[Frame and Posture from Anaconda/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Frame and Posture from Anaconda is a structural defensive escape from anaconda control bottom that uses forearm frames against the opponent's body combined with posture recovery to relieve the constricting pressure of the anaconda configuration. Unlike the grip break approach that targets the opponent's hand junction directly, this technique addresses the compression mechanism itself by creating space between your body and the opponent's chest through bone-on-bone framing structures. The frame disrupts the chest-on-shoulder compression that powers the anaconda choke, loosening the constricting loop without requiring you to separate the opponent's hands.

@@ -13,6 +13,13 @@ description: "Master posture recovery from Chill Dog turtle in BJJ. Break compac
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Posture from Chill Dog/Attacker|Play as Attacker]]
+[[Posture from Chill Dog/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Posture from Chill Dog is a positional transition executed by the top player to force the bottom player out of the compact Chill Dog turtle defense and into a more workable guard-passing scenario. When the bottom player adopts the tight defensive shell characteristic of Chill Dog — elbows pressed to knees, rounded back, tucked head — the top player may choose to systematically break this frame and posture the defender upward rather than pursuing traditional turtle attacks like back takes or front headlock sequences. The technique involves underhook leverage, hip control, and strategic weight distribution to peel the defender out of their compact ball and into a seated or supine position where their legs naturally recover to guard.

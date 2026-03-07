@@ -13,6 +13,13 @@ description: "Master North-South position in BJJ. Complete guide covering top co
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[North-South/Bottom|Play as Bottom]]
+[[North-South/Top|Play as Top]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 North-South position represents one of the most controlling pin positions in Brazilian Jiu-Jitsu, characterized by perpendicular body alignment where the top player's chest covers the bottom player's head and chest while facing opposite directions. This position creates immense pressure and control through strategic weight distribution across the opponent's upper body.

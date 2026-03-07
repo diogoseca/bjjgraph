@@ -13,6 +13,13 @@ description: "Master underhook pummeling from the clinch in BJJ. Complete guide 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Underhook Pummeling from Clinch/Attacker|Play as Attacker]]
+[[Underhook Pummeling from Clinch/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Underhook pummeling is the foundational skill for winning inside position battles in the clinch. When your opponent has established dominant grips through overhooks, collar ties, or superior underhook positioning, pummeling provides the systematic methodology to fight back to an advantageous position. The technique involves swimming your arm underneath your opponent's controlling arm to establish an underhook, granting inside position and access to takedown entries, back takes, and positional control.

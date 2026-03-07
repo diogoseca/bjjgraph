@@ -13,6 +13,13 @@ description: "Master the Roll to Guard escape from Truck position in BJJ. Comple
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Roll to Guard from Truck/Attacker|Play as Attacker]]
+[[Roll to Guard from Truck/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Roll to Guard from Truck is a forward rolling escape used when caught in the truck position bottom, where the opponent controls from a perpendicular angle with legs entangled in a figure-four configuration. The technique exploits moments when the truck top player commits their weight forward for upper body attacks such as the twister or bow and arrow choke, creating a brief window where the bottom player can initiate a forward rolling motion to disentangle the trapped leg and recover a guard position, most commonly half guard.

@@ -13,6 +13,13 @@ description: "Master Knee Shield Retention in BJJ. Essential half guard defensiv
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Knee Shield Retention/Attacker|Play as Attacker]]
+[[Knee Shield Retention/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Knee Shield Retention is the fundamental defensive framework for maintaining half guard structure against passing attempts. This technical system focuses on using the top leg as a dynamic barrier to create distance, manage angles, and prevent the opponent from consolidating chest-to-chest pressure. The knee shield creates a structural frame that allows the bottom player to control distance while maintaining offensive and defensive options.

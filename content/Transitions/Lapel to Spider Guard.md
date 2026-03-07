@@ -13,6 +13,13 @@ description: "Master the Lapel to Spider Transition in BJJ. Convert lapel guard 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Lapel to Spider Guard/Attacker|Play as Attacker]]
+[[Lapel to Spider Guard/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Lapel to Spider Transition is a critical guard recovery and flow technique that converts a compromised lapel guard position into an aggressive spider guard configuration. When an opponent successfully strips your primary lapel grip or begins clearing your lapel configuration, rather than fighting to re-establish the same control, this transition immediately redirects into spider guard's bicep controls.

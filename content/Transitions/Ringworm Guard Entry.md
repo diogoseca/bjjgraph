@@ -13,6 +13,13 @@ description: "Master Ringworm Guard Entry in BJJ. Advanced lapel configuration c
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Ringworm Guard Entry/Attacker|Play as Attacker]]
+[[Ringworm Guard Entry/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Ringworm Guard Entry represents the most sophisticated evolution of lapel-based guard systems, combining the leg entanglement of worm guard with the arm control of squid guard into a unified configuration. This dual-threat position creates unprecedented control density by simultaneously restricting the opponent's leg mobility and posting arm, essentially eliminating both primary passing mechanisms in one configuration.

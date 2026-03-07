@@ -13,6 +13,13 @@ description: "Master Pocket Half Guard in BJJ. Deep underhook half guard positio
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Pocket Half Guard/Bottom|Play as Bottom]]
+[[Pocket Half Guard/Top|Play as Top]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Pocket Half Guard is a specialized half guard variation defined by deep underhook control combined with tight shoulder connection in the opponent's 'pocket' - the space between hip and ribcage. This position emerged from modern half guard evolution as practitioners sought more offensive options while maintaining defensive integrity. The defining characteristic is the deep underhook that controls the opponent's far hip, combined with strategic shoulder positioning that creates a barrier against passes from bottom or flattening control from top.

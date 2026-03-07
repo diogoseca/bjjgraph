@@ -13,6 +13,13 @@ description: "Master the leg extraction escape from Truck position in BJJ. Compl
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Leg Extraction from Truck/Attacker|Play as Attacker]]
+[[Leg Extraction from Truck/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Leg Extraction from Truck is a specialized escape technique targeting the foundational control mechanism of the truck position: the figure-four leg entanglement. Unlike rolling escapes (granby roll) or shrimping-based escapes (hip escape to half guard), this technique directly addresses the leg control that makes the truck dangerous, methodically working the trapped leg free through ankle manipulation, hip rotation, and incremental space creation. Once the leg is extracted, the bottom player immediately turtles up, removing the truck top player's primary control platform and forcing a positional reset.

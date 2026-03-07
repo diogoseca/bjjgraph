@@ -13,6 +13,13 @@ description: "Master guard recovery from Hindulotine in BJJ. Guide to hip realig
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Guard Recovery from Hindulotine/Attacker|Play as Attacker]]
+[[Guard Recovery from Hindulotine/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Guard Recovery from Hindulotine is a defensive transition where the bottom player works to reestablish guard after the Hindulotine guillotine variation becomes compromised. When the rotational choking pressure fails to produce a submission and the opponent begins defending or extracting their head, the bottom player must smoothly transition from the Hindulotine grip into a functional guard position. This recovery is complicated by the angular hip positioning characteristic of the Hindulotine, requiring the bottom player to realign their hips while establishing frames and leg controls to prevent the opponent from advancing to side control.

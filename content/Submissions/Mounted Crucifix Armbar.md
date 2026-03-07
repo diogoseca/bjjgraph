@@ -15,6 +15,13 @@ description: "Master the Mounted Crucifix Armbar in BJJ. Complete guide to arm i
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Mounted Crucifix Armbar/Attacker|Play as Attacker]]
+[[Mounted Crucifix Armbar/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Mounted Crucifix Armbar is a high-percentage joint lock executed from one of the most dominant control positions in Brazilian Jiu-Jitsu. The attacker leverages the mounted crucifix's inherent arm isolation—where one or both of the defender's arms are trapped by the attacker's legs—to hyperextend the elbow joint on the trapped arm. Because the defender's normal armbar defense mechanisms are severely compromised by the crucifix control, this submission converts at a significantly higher rate than standard armbar variations from mount.

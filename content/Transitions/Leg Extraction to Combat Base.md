@@ -13,6 +13,13 @@ description: "Master leg extraction from lockdown in BJJ. Systematic method to f
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Leg Extraction to Combat Base/Attacker|Play as Attacker]]
+[[Leg Extraction to Combat Base/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Leg Extraction to Combat Base is the essential defensive transition when trapped in an opponent's lockdown half guard. The lockdown configuration severely restricts the top player's mobility by triangling around the trapped leg, making conventional passing impossible until the leg is freed. This technique employs a systematic approach combining upper body pressure, circular hip movement, and strategic angle changes to release the trapped leg from the figure-four configuration. Unlike attempting to simply pull backward against the lockdown—which strengthens the opponent's control—this extraction method works with the mechanics of the position.

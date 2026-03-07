@@ -15,6 +15,13 @@ description: "Master the Americana shoulder lock from Kesa Gatame in BJJ. Comple
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Americana from Kesa Gatame/Attacker|Play as Attacker]]
+[[Americana from Kesa Gatame/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Americana from Kesa Gatame exploits the natural arm isolation inherent in the scarf hold position. Unlike executing the Americana from standard side control, where the attacker must first work to isolate the near arm, Kesa Gatame already traps the opponent's arm under the top player's armpit, providing a significant mechanical advantage for initiating the submission. The figure-four grip locks the wrist and forearm, and the finishing motion paints the opponent's hand toward the mat, generating devastating lateral rotation at the glenohumeral joint that forces the tap.

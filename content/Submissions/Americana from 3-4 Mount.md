@@ -15,6 +15,13 @@ description: "Master the Americana from 3-4 Mount in BJJ. Step-by-step shoulder 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Americana from 3-4 Mount/Attacker|Play as Attacker]]
+[[Americana from 3-4 Mount/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Americana from 3-4 Mount exploits the asymmetric weight distribution of the three-quarter mount configuration to isolate and attack the near-side shoulder through forced external rotation using a figure-four grip. Unlike the Americana from standard mount where the top player must manage symmetric bridging threats during the finish, the 3-4 Mount's posted leg provides a stable base that absorbs escape attempts while the mounted knee pins the opponent's torso, creating an ideal platform for the figure-four shoulder lock.

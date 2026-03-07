@@ -13,6 +13,13 @@ description: "Master the Transition to Half Butterfly in BJJ. Clear one butterfl
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Butterfly Guard to Half Butterfly/Attacker|Play as Attacker]]
+[[Butterfly Guard to Half Butterfly/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Transition to Half Butterfly is a fundamental guard passing progression where the top player systematically clears one of the bottom player's butterfly hooks to reach the Half Butterfly Top position. This transition converts a symmetrical, sweep-heavy guard into an asymmetric configuration that heavily favors the passer. The core mechanic involves driving one knee toward the mat while controlling the opponent's upper body, collapsing the space that one hook occupies and forcing the bottom player into a half guard configuration with only one remaining butterfly hook.

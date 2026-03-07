@@ -13,6 +13,13 @@ description: "Master the Stack from Williams Guard in BJJ. Learn to neutralize s
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Stack from Williams Guard/Attacker|Play as Attacker]]
+[[Stack from Williams Guard/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Stack from Williams Guard is a fundamental guard passing technique executed by the top player when caught in Williams Guard's shoulder lock control. Rather than fighting the grip configuration directly, the top player drives forward with controlled pressure to fold the bottom player's hips over their shoulders, compressing the guard structure and neutralizing the shoulder lock mechanics through positional pressure rather than grip fighting. This stacking approach exploits a key mechanical vulnerability in Williams Guard: the shoulder lock requires space and hip mobility to maintain effective leverage, and the stack systematically removes both.

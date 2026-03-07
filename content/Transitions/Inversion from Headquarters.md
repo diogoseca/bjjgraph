@@ -13,6 +13,13 @@ description: "Master the Inversion from Headquarters in BJJ. Complete guide to i
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Inversion from Headquarters/Attacker|Play as Attacker]]
+[[Inversion from Headquarters/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Inversion from Headquarters is a guard recovery technique executed by the bottom player when caught in the passer's headquarters position. Rather than fighting the trapped leg directly through frames and hip escapes, the bottom player uses a granby-style shoulder roll to rotate underneath the passer, threading legs through to establish De La Riva Guard. This technique exploits the geometric reality that the headquarters passer must maintain forward-facing pressure, making them vulnerable to angular attacks that travel underneath their base.

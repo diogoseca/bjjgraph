@@ -13,6 +13,13 @@ description: "Learn Shrimp Escape in BJJ. Step-by-step execution from Side Contr
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Shrimp Escape/Attacker|Play as Attacker]]
+[[Shrimp Escape/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Shrimp Escape, also known as the hip escape, is one of the most fundamental and essential defensive movements in Brazilian Jiu-Jitsu. This technique allows a practitioner trapped in side control to create space, recover their guard, and neutralize their opponent's positional dominance. The shrimping motion involves a coordinated hip movement that generates distance between you and your opponent, enabling you to insert your knee shield or establish frames that prevent further advancement. The effectiveness of the shrimp escape lies in its mechanical efficiency—by bridging slightly and then explosively moving your hips away from your opponent while posting with your far leg, you create the angular space necessary for guard recovery. This technique is not merely an escape; it represents a fundamental principle of creating space under pressure that applies across countless defensive scenarios in BJJ. Mastery of the shrimp escape is essential for survival in bottom positions and serves as the foundation for more advanced escapes and recoveries throughout your jiu-jitsu journey.

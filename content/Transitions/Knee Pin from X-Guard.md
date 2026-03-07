@@ -13,6 +13,13 @@ description: "Learn the Knee Pin from X-Guard pass in BJJ. Detailed guide coveri
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Knee Pin from X-Guard/Attacker|Play as Attacker]]
+[[Knee Pin from X-Guard/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Knee Pin from X-Guard is a direct pressure-based passing technique where the top player collapses the X-Guard structure by driving the bottom player's inside hooking knee to the mat. X-Guard derives its sweeping power from the inside hook creating upward elevation behind the top player's knee. By physically pinning this knee downward, the top player neutralizes the guard's primary offensive mechanism and creates a pathway to extract their trapped leg and advance to Half Guard Top.

@@ -13,6 +13,13 @@ description: "Master Technical Mount in BJJ. Advanced mount variation with stepp
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Technical Mount/Bottom|Play as Bottom]]
+[[Technical Mount/Top|Play as Top]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Technical Mount, also known as S-mount, is an advanced mount variation characterized by one leg stepped over the opponent's head while maintaining mount control with the other leg. This asymmetric configuration creates one of the highest percentage positions for finishing armbars and triangles in Brazilian Jiu-Jitsu. The position gets its name from the "S" shape formed by the practitioner's legs when viewed from the side, and represents a deliberate sacrifice of some stability in exchange for dramatically increased submission opportunities.

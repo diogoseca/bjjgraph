@@ -13,6 +13,13 @@ description: "Master Half Butterfly guard in BJJ. Hybrid position combining butt
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Half Butterfly/Bottom|Play as Bottom]]
+[[Half Butterfly/Top|Play as Top]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Half Butterfly is a dynamic hybrid guard position that combines elements of traditional butterfly guard with half guard retention mechanics. The bottom practitioner uses one butterfly hook on the opponent's inner thigh while maintaining half guard control on the opposite leg, creating a powerful platform for sweeps and transitions. This position offers superior mobility compared to traditional half guard while providing more structural control than standard butterfly guard.

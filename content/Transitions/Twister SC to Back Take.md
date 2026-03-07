@@ -13,6 +13,13 @@ description: "Master the Twister Side Control to Back Take in BJJ. Complete guid
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Twister SC to Back Take/Attacker|Play as Attacker]]
+[[Twister SC to Back Take/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Twister Side Control to Back Take is a high-percentage transitional technique within the 10th Planet system that capitalizes on the unique lateral control mechanics of Twister Side Control to establish the most dominant position in grappling. When the bottom player attempts to relieve spinal pressure by turning away or creating frames, the top player follows the rotation and threads hooks behind the opponent's hips, converting lateral torque control into full rear body control with seatbelt grip and dual hooks.

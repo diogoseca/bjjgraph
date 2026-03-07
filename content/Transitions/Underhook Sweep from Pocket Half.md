@@ -13,6 +13,13 @@ description: "Master the Underhook Sweep from Pocket Half Guard. Step-by-step gu
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Underhook Sweep from Pocket Half/Attacker|Play as Attacker]]
+[[Underhook Sweep from Pocket Half/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Underhook Sweep from Pocket Half Guard is a fundamental come-up sweep available when the bottom player has established deep underhook control in pocket half guard. The technique exploits the mechanical advantage created by the deep underhook controlling the opponent's upper body rotation, combined with the pocket space maintained by the bottom leg frame against the opponent's hip. By rising to the knees while maintaining underhook control, the bottom player generates sweeping momentum that compromises the top player's base and drives them onto their back.

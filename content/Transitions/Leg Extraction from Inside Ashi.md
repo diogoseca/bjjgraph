@@ -13,6 +13,13 @@ description: "Learn the leg extraction escape from Inside Ashi-Garami in BJJ. St
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Leg Extraction from Inside Ashi/Attacker|Play as Attacker]]
+[[Leg Extraction from Inside Ashi/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Leg Extraction from Inside Ashi-Garami is one of the most fundamental defensive techniques in the modern leg lock game. When your leg is trapped in the inside ashi configuration, the opponent controls your heel and knee line while threatening straight ankle locks, heel hooks, and transitions to more dominant entanglements like saddle or honey hole. The extraction process centers on systematically removing the control points that keep your leg trapped—primarily the opponent's inside leg across your hip and their outside leg hooking behind your knee—while protecting your heel from submission attempts throughout the escape.

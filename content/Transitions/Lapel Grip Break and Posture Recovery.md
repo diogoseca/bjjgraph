@@ -13,6 +13,13 @@ description: "Master Lapel Grip Break and Posture Recovery from Ringworm Guard. 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Lapel Grip Break and Posture Recovery/Attacker|Play as Attacker]]
+[[Lapel Grip Break and Posture Recovery/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Lapel Grip Break and Posture Recovery is an essential defensive technique for escaping Ringworm Guard, one of the most technically sophisticated lapel guard variations in modern gi-based BJJ. When caught in this position, the top player's leg is compromised by the opponent's lapel wrap, severely limiting mobility, base, and passing options. This technique addresses the mechanical disadvantage through systematic grip stripping and posture restoration.

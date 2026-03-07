@@ -13,6 +13,13 @@ description: "Master the Arm Drag Sweep from closed guard in BJJ. Step-by-step e
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Arm Drag Sweep/Attacker|Play as Attacker]]
+[[Arm Drag Sweep/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Arm Drag Sweep is a fundamental yet highly effective technique that combines off-balancing principles with opportunistic back-taking opportunities. Unlike traditional sweeps that focus solely on achieving top position, the arm drag creates a dual threat: either sweeping the opponent to a dominant position or transitioning directly to back control. This versatility makes it an essential tool in any guard player's arsenal, particularly from closed guard, butterfly guard, and seated guard positions.

@@ -13,6 +13,13 @@ description: "Master the Escape from Reverse Half Guard in BJJ. Learn hip rotati
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Escape Reverse Half Guard/Attacker|Play as Attacker]]
+[[Escape Reverse Half Guard/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Escaping Reverse Half Guard is a critical guard recovery technique that allows the bottom player to transition from the compromised inverted half guard configuration back to standard Half Guard. When trapped in reverse half guard, the bottom player faces away from their opponent with their back exposed, creating significant vulnerability to back takes and guard passing sequences. The escape prioritizes re-establishing a facing orientation toward the opponent through systematic hip rotation and frame recovery.

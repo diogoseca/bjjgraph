@@ -15,6 +15,13 @@ description: "Master the Calf Slicer in BJJ. Complete guide with safety protocol
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Calf Slicer/Attacker|Play as Attacker]]
+[[Calf Slicer/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Calf Slicer is a compression-based leg submission that targets the calf muscle and Achilles tendon by creating a wedge with your shin bone against the opponent's lower leg. This submission applies tremendous pressure to the muscle belly and can cause severe muscle damage if applied too quickly or aggressively. The technique is most commonly executed from the Truck position, 50-50 Guard, and various scrambles where leg entanglement creates the opportunity. Unlike joint locks that target ligaments and tendons, the Calf Slicer creates a crushing pressure that can cause muscle tears, nerve damage, and extensive bruising.

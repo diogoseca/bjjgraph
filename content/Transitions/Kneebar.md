@@ -13,6 +13,13 @@ description: "Master the Kneebar from Backside 50-50 in BJJ. Complete technique 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Kneebar/Attacker|Play as Attacker]]
+[[Kneebar/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Kneebar is a powerful leg lock attack that hyperextends the knee joint by trapping the opponent's leg between your hips and applying breaking pressure against the natural bend of the knee. From Backside 50-50 Top, the kneebar becomes particularly effective because your chest pressure and positional dominance limit your opponent's defensive options while their extended leg presents an obvious target.

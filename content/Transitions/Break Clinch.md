@@ -13,6 +13,13 @@ description: "Master the clinch break in BJJ. Complete guide to grip fighting, f
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Break Clinch/Attacker|Play as Attacker]]
+[[Break Clinch/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Breaking the clinch is a fundamental defensive transition in Brazilian Jiu-Jitsu that involves disengaging from close-range upper body control to re-establish a neutral standing position. When an opponent secures dominant clinch control through underhooks, collar ties, body locks, or other upper body configurations, the controlled practitioner must systematically create separation through frame creation, grip fighting, and strategic movement. This technique bridges the gap between being controlled in the clinch and regaining freedom to dictate the terms of engagement from a neutral standing distance.

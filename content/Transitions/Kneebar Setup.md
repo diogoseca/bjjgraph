@@ -13,6 +13,13 @@ description: "Master Kneebar Setup from Outside Ashi-Garami. Step-by-step leg ex
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Kneebar Setup/Attacker|Play as Attacker]]
+[[Kneebar Setup/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Kneebar Setup from Outside Ashi-Garami is a high-percentage leg lock transition that capitalizes on forward pressure from your opponent. When an opponent drives into your outside ashi position attempting to stack or smash, their knee naturally extends—creating the perfect opportunity to transition into kneebar control. This technique represents a fundamental principle in modern leg lock systems: using your opponent's defensive reactions as offensive triggers.

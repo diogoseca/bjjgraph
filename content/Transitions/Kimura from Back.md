@@ -13,6 +13,13 @@ description: "Learn Kimura from Back in BJJ. Attack opponent's shoulder from rea
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Kimura from Back/Attacker|Play as Attacker]]
+[[Kimura from Back/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Kimura from Back is a sophisticated shoulder attack initiated from the rear triangle position that exploits the trapped arm configuration to establish devastating rotational control over the opponent's shoulder joint. Unlike the standard kimura grip applied from guard or side control, this variation leverages the superior back control to isolate the arm while the triangle structure prevents defensive rotation and posture recovery. The technique creates a submission dilemma where the opponent must choose between defending the shoulder lock, which opens the choke, or protecting the neck, which exposes the arm to finishing pressure.

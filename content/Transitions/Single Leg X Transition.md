@@ -13,6 +13,13 @@ description: "Master Single Leg X Transition from Grasshopper Guard in BJJ. Comp
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Single Leg X Transition/Attacker|Play as Attacker]]
+[[Single Leg X Transition/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Single Leg X Transition represents a fundamental pathway from inverted guard positions into one of the most versatile leg entanglement platforms in modern grappling. When executed from Grasshopper Guard, this transition capitalizes on the elevated hip positioning and leg control inherent to the inverted posture, converting it into the stable Single Leg X-Guard configuration that offers both sweeping and submission opportunities.

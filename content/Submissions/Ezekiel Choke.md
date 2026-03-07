@@ -15,6 +15,13 @@ description: "Master the Ezekiel Choke in BJJ. Complete guide to sleeve-based bl
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Ezekiel Choke/Attacker|Play as Attacker]]
+[[Ezekiel Choke/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Ezekiel Choke is a fundamental gi-based blood choke that can be executed from dominant top positions, most commonly from mount but also effective from side control, knee on belly, and other control positions. Named after Brazilian judoka Ezequiel Paraguassú who popularized it in BJJ, this technique utilizes the practitioner's own sleeve as a fulcrum to create pressure on both carotid arteries. The Ezekiel is particularly effective because it can be applied even when the opponent has their hands free to defend, making it a high-percentage submission when proper mechanics are understood. The technique's versatility allows it to be threaded through various defensive frames and can be executed with either a traditional lapel grip or by threading the sleeve through for maximum control. What makes the Ezekiel especially valuable is its ability to create submission threats that force opponents to expose other attacks, making it an excellent tool for creating offensive sequences from dominant positions.

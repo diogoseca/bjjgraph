@@ -13,6 +13,13 @@ description: "Learn Step Over to Mount from Grasshopper Guard in BJJ. Step-by-st
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Step Over to Mount/Attacker|Play as Attacker]]
+[[Step Over to Mount/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Step Over to Mount is a direct positional advancement technique used by the top player when facing Grasshopper Guard. When the bottom player maintains an inverted guard with one leg hooking while the other leg searches for entanglements, a window opens for the top player to clear the secondary leg and step directly over into mount. The technique capitalizes on the asymmetry created when the bottom player commits one leg to attack while the other is momentarily out of position.

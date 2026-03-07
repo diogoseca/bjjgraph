@@ -13,6 +13,13 @@ description: "Master the arm drag from clinch in BJJ. Complete guide to grip mec
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Arm Drag from Clinch/Attacker|Play as Attacker]]
+[[Arm Drag from Clinch/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The arm drag from the clinch is one of the highest-percentage back take entries in standing grappling, combining simplicity of execution with devastating positional advancement. The technique exploits a fundamental vulnerability in the clinch: when both practitioners are engaged in upper body grip fighting, the arms become available targets for redirection. By controlling one arm and pulling it across your body while stepping laterally, you create an angular bypass of your opponent's defensive structure, clearing their shoulder line to establish dominant rear control.

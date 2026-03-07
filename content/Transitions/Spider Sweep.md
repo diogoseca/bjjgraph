@@ -13,6 +13,13 @@ description: "Master the Spider Sweep in BJJ. Complete guide to executing this h
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Spider Sweep/Attacker|Play as Attacker]]
+[[Spider Sweep/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Spider Sweep is a foundational sweep from Spider Guard that exploits the mechanical advantage of controlling both sleeves while using feet on the opponent's biceps to manipulate their base. By pulling one sleeve across the body while extending the opposite foot, the sweeper creates a scissoring force that loads the opponent's weight to one side, collapsing their base and enabling a clean sweep to mount. The technique operates entirely within the existing control structure of Spider Guard, requiring no grip transitions or guard changes to initiate.

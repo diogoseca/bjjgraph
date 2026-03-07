@@ -13,6 +13,13 @@ description: "Master New York position control in 10th Planet's Rubber Guard sys
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[New York/Bottom|Play as Bottom]]
+[[New York/Top|Play as Top]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 New York is a fundamental control position within 10th Planet's Rubber Guard system, serving as a critical gateway between Mission Control and advanced attacking positions like Invisible Collar and Zombie. The position is characterized by the bottom practitioner establishing a strong overhook on one arm while simultaneously controlling their own shin across the opponent's back using the opposite hand, creating a flexible yet controlling frame that neutralizes posture and opens multiple submission pathways.

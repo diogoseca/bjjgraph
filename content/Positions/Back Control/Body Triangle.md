@@ -13,6 +13,13 @@ description: "Master body triangle position in BJJ. Powerful leg control from ba
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Body Triangle/Bottom|Play as Bottom]]
+[[Body Triangle/Top|Play as Top]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Body Triangle Position is a highly dominant variation of back control where instead of using leg hooks, you've locked your legs around your opponent's torso in a triangle configuration. This provides exceptional control with minimal energy expenditure while creating tremendous pressure and submission opportunities. The body triangle creates a mechanical advantage that restricts breathing, limits hip movement, and prevents common back escape strategies.

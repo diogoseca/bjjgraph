@@ -13,6 +13,13 @@ description: "Master the Over-Under Pass in BJJ. Pressure-based guard pass from 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Over-Under Pass/Attacker|Play as Attacker]]
+[[Over-Under Pass/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Over-Under Pass is a fundamental pressure-based guard passing technique that combines superior positioning with powerful control mechanics to bypass the opponent's guard. This technique is characterized by controlling one leg over the opponent's body while threading the other arm under their opposite leg, creating a stacking effect that neutralizes their defensive capabilities. The Over-Under Pass is particularly effective against half guard, butterfly guard, and open guard variations, making it a cornerstone technique in modern Brazilian Jiu-Jitsu. What makes this pass especially valuable is its combination of pressure control and positional dominance - by stacking the opponent's weight onto their shoulders, you eliminate their hip mobility and ability to re-guard while methodically advancing to side control. The technique requires excellent weight distribution, patience under pressure, and the ability to maintain chest-to-chest connection throughout the passing sequence. Unlike speed-based passes that rely on quick movements, the Over-Under Pass exemplifies the principle of using superior position and leverage to overcome an opponent's defensive structure through systematic pressure application.

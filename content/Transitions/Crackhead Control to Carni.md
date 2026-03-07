@@ -13,6 +13,13 @@ description: "Learn Crackhead Control to Carni transition in BJJ. Transform defe
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Crackhead Control to Carni/Attacker|Play as Attacker]]
+[[Crackhead Control to Carni/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Crackhead Control to Carni transition represents one of the most innovative defensive-to-offensive conversions in the 10th Planet Jiu-Jitsu system. When caught in the Crackhead Control defensive position on bottom, this technique allows the defender to exploit the top player's leg positioning by threading underneath and establishing the Carni leg entanglement. Rather than simply escaping to a neutral position, this transition immediately places the former defender in a dominant attacking configuration with heel hook, saddle, and back take opportunities.

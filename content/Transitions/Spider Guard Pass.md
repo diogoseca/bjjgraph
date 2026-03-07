@@ -13,6 +13,13 @@ description: "Master the Spider Guard Pass in BJJ. Complete guide covering grip 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Spider Guard Pass/Attacker|Play as Attacker]]
+[[Spider Guard Pass/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Spider Guard Pass represents a fundamental challenge in modern Brazilian Jiu-Jitsu, requiring systematic grip breaking, precise posture control, and strategic pressure application. This passing sequence targets one of the most common guard retention systems by neutralizing the opponent's foot-on-bicep control and collar grips that define spider guard. The pass succeeds by combining aggressive grip stripping with forward pressure and hip positioning to overcome the guard player's distance management.

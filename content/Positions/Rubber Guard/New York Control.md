@@ -13,6 +13,13 @@ description: "Master New York Control in BJJ. Strategic rubber guard position co
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[New York Control/Bottom|Play as Bottom]]
+[[New York Control/Top|Play as Top]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 New York Control represents one of the most technically sophisticated positions within the 10th Planet Rubber Guard system, requiring exceptional hip and shoulder flexibility while offering numerous high-percentage submission opportunities. This position emerges when the bottom practitioner achieves a high guard configuration with one leg controlling the opponent's posture while the opposite arm maintains an overhook, creating a controlling web that simultaneously defends against passing attempts while setting up devastating attacks.

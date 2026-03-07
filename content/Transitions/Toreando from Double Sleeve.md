@@ -13,6 +13,13 @@ description: "Master the Toreando pass from Double Sleeve Guard. Step-by-step gu
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Toreando from Double Sleeve/Attacker|Play as Attacker]]
+[[Toreando from Double Sleeve/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Toreando from Double Sleeve is a lateral guard pass executed from the top position of double sleeve guard, where the passer transitions from defending bilateral sleeve grips to controlling the opponent's legs and swinging them laterally to achieve side control. This technique addresses one of the fundamental challenges of passing open guard in the gi: converting a grip-fighting exchange into a decisive passing movement. The pass derives its name from the bullfighter's lateral redirection of the charging bull, and the mechanics mirror this concept precisely—you redirect the opponent's defensive leg structures to one side while your body circles to the opposite side.

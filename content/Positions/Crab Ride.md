@@ -13,6 +13,13 @@ description: "Master Crab Ride position in BJJ. Strategic guide covering turtle 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Crab Ride/Bottom|Play as Bottom]]
+[[Crab Ride/Top|Play as Top]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Crab Ride is a highly effective transitional position from turtle where the top practitioner establishes a dominant perpendicular control position alongside the opponent's torso. This position serves as a critical gateway to back control, allowing the top player to systematically break down the turtle defense while maintaining offensive pressure. The position derives its name from the crab-like lateral positioning, where the attacking practitioner sits perpendicular to their opponent with hooks established and weight distributed to prevent escape. From this configuration, the top player can attack the back, threaten submissions, or force positional improvements while the bottom player struggles with limited mobility and defensive options.

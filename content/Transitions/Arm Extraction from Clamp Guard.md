@@ -13,6 +13,13 @@ description: "Master arm extraction from clamp guard in BJJ. Complete guide to f
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Arm Extraction from Clamp Guard/Attacker|Play as Attacker]]
+[[Arm Extraction from Clamp Guard/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 Arm Extraction from Clamp Guard is the top player's primary escape technique when their arm becomes trapped between the bottom player's legs in clamp guard. The clamp guard immobilizes one arm through shin-on-bicep pressure, creating an asymmetric control situation where the guard player has both hands free while the top player operates with a significant structural disadvantage. Successful extraction requires precise mechanics because the direction and method of extraction directly determines whether the top player escapes cleanly or feeds into the guard player's submission chain.

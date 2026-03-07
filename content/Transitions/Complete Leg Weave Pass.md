@@ -13,6 +13,13 @@ description: "Master the Complete Leg Weave Pass in BJJ. Detailed guide to finis
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Complete Leg Weave Pass/Attacker|Play as Attacker]]
+[[Complete Leg Weave Pass/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Complete Leg Weave Pass is the decisive finishing sequence that converts an established leg weave control position into dominant side control. This transition represents the culmination of the leg weave passing system, where the passer must navigate the critical final phase of clearing the bottom player's remaining defensive hooks while maintaining forward pressure and upper body control. The technique bridges the gap between positional control and completed pass, requiring precise coordination of weight transfer, leg extraction, and chest-to-chest consolidation.

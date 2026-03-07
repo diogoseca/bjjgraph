@@ -13,6 +13,13 @@ description: "Master the Back Step Pass in BJJ. Escape leg entanglements from Gr
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Back Step Pass/Attacker|Play as Attacker]]
+[[Back Step Pass/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Back Step Pass is a critical guard passing technique used to escape leg entanglement danger when facing inverted guards like Grasshopper Guard. Unlike forward-pressure passes that feed into the bottom player's sweeping and leg attack mechanics, the back step uses retrograde movement to extract your leg from entanglement while simultaneously creating a passing angle toward side control.

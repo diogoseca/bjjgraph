@@ -15,6 +15,13 @@ description: "Master the Kimura from Shoulder of Justice in BJJ. Complete guide 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<div class="role-links">
+
+[[Kimura from Shoulder of Justice/Attacker|Play as Attacker]]
+[[Kimura from Shoulder of Justice/Defender|Play as Defender]]
+
+</div>
+
 <section id="overview" class="content-section">
 
 The Kimura from Shoulder of Justice exploits the positional dilemma inherent in this crushing side control variation. When the top player drives intense shoulder pressure into the opponent's jaw, the natural defensive reaction is to extend the near arm to push away the source of discomfort. This arm extension creates the opening for a figure-four grip that attacks the shoulder joint through forced internal rotation, making the Kimura one of the highest-percentage submissions from this position because the setup flows directly from the opponent's instinctive defensive response.
