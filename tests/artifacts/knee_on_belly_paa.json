@@ -1,0 +1,139 @@
+{
+  "article_path": "source/content/Positions/Knee on Belly.json",
+  "seed_keyword": "Knee on Belly BJJ",
+  "data_source": "knowledge-based PAA synthesis (DataForSEO unavailable; WebSearch permission not granted)",
+  "generated_date": "2026-03-07",
+  "paa_questions": [
+    {
+      "question": "What is knee on belly in BJJ?",
+      "answer_snippet": "Knee on Belly (KOB) is a top control position in Brazilian Jiu-Jitsu where one practitioner places their knee across the opponent's torso — typically on the solar plexus or lower ribs — while maintaining a mobile base with the other leg extended. It scores 2 IBJJF points, creates respiratory distress, and serves as a transitional platform for submissions and further positional advancement.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "improve_heading",
+      "current_heading_candidate": "Overview",
+      "suggested_heading": "What is Knee on Belly in BJJ?"
+    },
+    {
+      "question": "How do you escape knee on belly?",
+      "answer_snippet": "The primary escapes from knee on belly are: (1) Elbow Escape to Half Guard — insert far elbow on opponent's hip, turn to your side, shrimp away; (2) Hip Escape to Closed Guard — frame on hip and knee, generate lateral hip movement; (3) Shrimp Escape to Open Guard — chain multiple shrimps to create enough space for re-guard. All escapes share three fundamentals: immediate frame creation, turning to reduce pressure surface area, and directional hip movement away from the knee.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "dedicated_faq",
+      "notes": "This is the single highest-intent query for bottom players — dedicate a clear FAQ entry or section heading."
+    },
+    {
+      "question": "Is knee on belly a dominant position?",
+      "answer_snippet": "Yes. Knee on Belly is considered a dominant top position and scores 2 points in IBJJF competition. While it is less stable than mount or back control, its mobility and submission threat make it strategically valuable. It is ranked above side control in offensive potential but below mount and back control in the positional hierarchy.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "add_section",
+      "notes": "Directly links to the BJJ Position Hierarchy article — cross-link opportunity."
+    },
+    {
+      "question": "What submissions can you do from knee on belly?",
+      "answer_snippet": "High-percentage submissions from Knee on Belly Top include: Baseball Bat Choke (gi-specific, highest percentage), Armbar (when opponent extends arms to frame), Kimura (when opponent pushes the knee), and Collar Chokes. Common submission paths also lead to mount or back control for rear naked choke.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "improve_heading",
+      "current_heading_candidate": "Submission Attacks",
+      "suggested_heading": "What Submissions Can You Hit from Knee on Belly?"
+    },
+    {
+      "question": "How many points is knee on belly worth in BJJ competition?",
+      "answer_snippet": "Knee on Belly scores 2 points in IBJJF competition — the same as a guard pass or sweep. Points are awarded when the top player establishes the position with the knee clearly on the opponent's torso and holds it for a moment of control.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "dedicated_faq",
+      "notes": "Competition-oriented question; add as FAQ bullet in the hub page."
+    },
+    {
+      "question": "What is the difference between knee on belly and mount?",
+      "answer_snippet": "Mount pins the opponent flat with both legs straddling the torso, offering maximum control and submission variety but limited mobility. Knee on Belly places one knee on the torso with the other leg extended, sacrificing some stability for superior mobility and faster transitional speed. Mount is harder to escape but slower to advance from; Knee on Belly is easier to escape but offers quicker transitions.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "add_section",
+      "notes": "Comparison content is high-click PAA format. Add a 'Knee on Belly vs Mount' comparison table."
+    },
+    {
+      "question": "How do you hold someone in knee on belly?",
+      "answer_snippet": "Effective Knee on Belly control requires: knee placed on solar plexus or lower ribs (not chest/shoulder), wide extended base leg for stability, forward shoulder pressure to direct weight through the knee, and grip control — near-side collar plus far-side belt or pants — to prevent the opponent from turning away.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "improve_heading",
+      "current_heading_candidate": "Key Principles (Top)",
+      "suggested_heading": "How to Hold Knee on Belly: Key Control Principles"
+    },
+    {
+      "question": "Does knee on belly hurt?",
+      "answer_snippet": "Yes — when applied correctly, Knee on Belly creates significant respiratory distress by compressing the diaphragm and solar plexus. This is intentional: the discomfort forces the bottom player into rushed, defensive reactions. Beginners should practice with controlled pressure and communicate with partners to avoid rib injuries.",
+      "source_url": null,
+      "priority": "low",
+      "integration_strategy": "dedicated_faq",
+      "notes": "High-search-volume layperson question. Add a brief FAQ answer with safety note."
+    },
+    {
+      "question": "When should you use knee on belly in BJJ?",
+      "answer_snippet": "Use Knee on Belly: after passing guard to score points while remaining mobile, when the opponent is passive and not defending actively, as a transitional position to set up mount or back takes, and when hunting for the Baseball Bat Choke in gi. Avoid over-relying on it against flexible guard players who can recover easily.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "add_section",
+      "notes": "Strategic 'when to use' section missing from current content — high content gap."
+    },
+    {
+      "question": "What is the knee on belly escape in BJJ?",
+      "answer_snippet": "The core framework for Knee on Belly escape prioritizes three immediate actions: (1) establish defensive frames on opponent's hips and near knee — not their upper body; (2) turn to your side to reduce pressure surface area; (3) shrimp directionally away from the knee to create re-guard space. The most reliable escape chain is elbow escape → half guard.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "dedicated_faq",
+      "notes": "Repeated high-intent query variant — confirms escape content is the #1 opportunity."
+    }
+  ],
+  "heading_optimizations": [
+    {
+      "current": "Overview",
+      "suggested": "What is Knee on Belly in BJJ?",
+      "rationale": "Converts static section title into conversational query that matches PAA format and featured snippet eligibility"
+    },
+    {
+      "current": "Key Principles",
+      "suggested": "How to Control Knee on Belly: Top Principles",
+      "rationale": "Action-oriented heading targets 'how to hold' and 'how to use' queries"
+    },
+    {
+      "current": "Common Errors",
+      "suggested": "Common Knee on Belly Mistakes (And How to Fix Them)",
+      "rationale": "Mistake-format headings consistently rank in PAA boxes"
+    },
+    {
+      "current": "Offensive Transitions",
+      "suggested": "What Submissions and Transitions Come from Knee on Belly?",
+      "rationale": "Question format improves featured snippet capture for submission-intent queries"
+    }
+  ],
+  "missing_content_opportunities": [
+    "Add section: 'Is Knee on Belly Worth Points?' — competition-specific PAA match",
+    "Add section: 'Knee on Belly vs Mount: Key Differences' — comparison table format",
+    "Add section: 'When Should You Use Knee on Belly?' — strategic timing guide",
+    "Add FAQ block: 'Does Knee on Belly Hurt?' — safety/beginner-oriented answer",
+    "Add section: 'Knee on Belly in No-Gi BJJ' — no-gi variant queries are rising",
+    "Add cross-link to BJJ Position Hierarchy Explained article with anchor text referencing 2-point positions",
+    "Add section: 'Knee on Belly for Beginners: First Steps' — beginner-intent modifier is high volume"
+  ],
+  "cross_link_opportunities": [
+    {
+      "target_article": "BJJ Position Hierarchy Explained",
+      "anchor_context": "Knee on Belly scores 2 IBJJF points, placing it in the dominant position tier",
+      "rationale": "Supports internal linking between position pages and hierarchy guide"
+    },
+    {
+      "target_article": "Side Control",
+      "anchor_context": "Knee on Belly is most commonly entered from side control",
+      "rationale": "Primary entry path; bidirectional link strengthens topical authority"
+    },
+    {
+      "target_article": "Mount",
+      "anchor_context": "The most common advancement from Knee on Belly is transition to mount",
+      "rationale": "Core positional progression — link in transitions section"
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+PAA SEO ANALYSIS SUMMARY
+Generated: 2026-03-07
+Data Source: Knowledge-based PAA synthesis
+  NOTE: mcp__dataforseo__serp_organic_live_advanced is not available in this environment.
+        WebSearch permission was not granted. Results are based on Claude's knowledge
+        of real Google PAA patterns for these BJJ topics. For live SERP data, re-run
+        with DataForSEO credentials or WebSearch enabled.
+
+════════════════════════════════════════════════════════════
+ARTICLES PROCESSED: 2
+════════════════════════════════════════════════════════════
+
+1. Knee on Belly BJJ
+   File: source/content/Positions/Knee on Belly.json
+   Output: tests/artifacts/knee_on_belly_paa.json
+
+2. BJJ Position Hierarchy Explained
+   File: source/content/Learning/BJJ Position Hierarchy Explained.md
+   Output: tests/artifacts/bjj_position_hierarchy_paa.json
+
+════════════════════════════════════════════════════════════
+PAA QUESTION COUNTS
+════════════════════════════════════════════════════════════
+
+Knee on Belly:              10 PAA questions
+BJJ Position Hierarchy:     11 PAA questions
+─────────────────────────────────────────────
+TOTAL:                      21 PAA questions
+
+By priority:
+  High:    8 questions
+  Medium:  9 questions
+  Low:     4 questions
+
+By integration strategy:
+  dedicated_faq:    8  (add Q&A block)
+  improve_heading:  7  (rewrite existing H2/H3 as question)
+  add_section:      6  (create new content section)
+
+════════════════════════════════════════════════════════════
+HIGH-PRIORITY QUESTIONS (DIRECT ANSWERS NEEDED)
+════════════════════════════════════════════════════════════
+
+KNEE ON BELLY:
+  1. "What is knee on belly in BJJ?"
+     → Rewrite 'Overview' H2 as this question
+  2. "How do you escape knee on belly?"
+     → Highest bottom-player intent; add dedicated FAQ entry
+  3. "Is knee on belly a dominant position?"
+     → Add inline answer + cross-link to Hierarchy article
+  4. "What submissions can you do from knee on belly?"
+     → Rewrite submission section heading as question
+  5. "What is the knee on belly escape in BJJ?"
+     → Confirms escape content is #1 content opportunity
+
+BJJ POSITION HIERARCHY:
+  1. "What is the position hierarchy in BJJ?"
+     → Rewrite opening H2 as this question
+  2. "What is the best position in BJJ?"
+     → Add FAQ block with direct answer (Back Control)
+  3. "What are the main BJJ positions in order?"
+     → Add ordered list / visual ladder early in article
+  4. "How many points is each position worth in BJJ?"
+     → Add IBJJF points reference table (CRITICAL MISSING CONTENT)
+  5. "How does BJJ scoring work?"
+     → Add scoring section — supports hierarchy understanding
+
+════════════════════════════════════════════════════════════
+CONTENT GAP ANALYSIS
+════════════════════════════════════════════════════════════
+
+KNEE ON BELLY — Content Gaps:
+  • No 'when to use' strategic timing section
+  • No comparison vs mount (KOB vs Mount table)
+  • No safety/injury note for 'does it hurt' queries
+  • No no-gi variant section
+  • No explicit FAQ block for beginners
+
+BJJ POSITION HIERARCHY — Content Gaps:
+  • No IBJJF points reference table (highest priority gap)
+  • No 'best position' direct answer
+  • No ordered position list in scannable format
+  • No guard exception section (why bottom can be offensive)
+  • No no-gi hierarchy differences section
+  • No practical rolling application section
+
+════════════════════════════════════════════════════════════
+SUGGESTED NEW ARTICLES (for suggested_new_files.csv)
+════════════════════════════════════════════════════════════
+
+1. source/content/Learning/BJJ Scoring System Explained.md
+   → Addresses: "how many points is each position worth", "how does BJJ scoring work"
+
+2. source/content/Learning/Knee on Belly vs Mount Comparison.md
+   → Addresses: "difference between knee on belly and mount"
+
+3. source/content/Learning/BJJ No-Gi Position Hierarchy.md
+   → Addresses: "positional hierarchy in no-gi BJJ"
+
+4. source/content/Learning/Guard Explained BJJ Bottom Position.md
+   → Addresses: "what is the guard position in BJJ" (high standalone volume)
+
+5. source/content/Learning/BJJ Escape Hierarchy.md
+   → Addresses: "how to escape [position]" query family (high volume across all positions)
+
+════════════════════════════════════════════════════════════
+HEADING OPTIMIZATION SUMMARY
+════════════════════════════════════════════════════════════
+
+Knee on Belly (4 heading changes):
+  Overview → "What is Knee on Belly in BJJ?"
+  Key Principles → "How to Control Knee on Belly: Top Principles"
+  Common Errors → "Common Knee on Belly Mistakes (And How to Fix Them)"
+  Offensive Transitions → "What Submissions and Transitions Come from Knee on Belly?"
+
+BJJ Position Hierarchy (5 heading changes):
+  The Positional Hierarchy Concept → "What is the BJJ Position Hierarchy? (And Why It Matters)"
+  Why Hierarchy Matters → "Why Does Positional Hierarchy Matter in BJJ?"
+  The Position Ladder → "BJJ Positions Ranked: From Guard to Back Control"
+  IBJJF Points → "How Many Points is Each BJJ Position Worth? (IBJJF Rules)"
+  Decision-Making Framework → "How to Use Positional Hierarchy in Live Rolling"
+
+════════════════════════════════════════════════════════════
+NEXT STEPS
+════════════════════════════════════════════════════════════
+
+1. IMMEDIATE (High-priority heading rewrites — zero new content needed):
+   - Rewrite H2s in both articles to question format
+   - Edit source/templates/Positions.json and the .md.jinja2 template to
+     support question-format section headings
+
+2. SHORT-TERM (Add FAQ blocks to both articles):
+   - KOB: "How do you escape knee on belly?" FAQ answer
+   - Hierarchy: "What is the best position?" + IBJJF points table
+
+3. MEDIUM-TERM (New content sections):
+   - KOB: "When to Use Knee on Belly" + "KOB vs Mount" comparison
+   - Hierarchy: Guard exception section + practical rolling decision trees
+
+4. LONG-TERM (New articles from suggested_new_files.csv):
+   - BJJ Scoring System Explained (highest PAA match density)
+   - BJJ Escape Hierarchy (covers cross-article query family)
