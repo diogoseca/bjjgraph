@@ -1,0 +1,163 @@
+{
+  "article_path": "source/content/Learning/BJJ Position Hierarchy Explained.md",
+  "seed_keyword": "BJJ Position Hierarchy Explained",
+  "data_source": "knowledge-based PAA synthesis (DataForSEO unavailable; WebSearch permission not granted)",
+  "generated_date": "2026-03-07",
+  "paa_questions": [
+    {
+      "question": "What is the position hierarchy in BJJ?",
+      "answer_snippet": "The BJJ position hierarchy ranks positions from neutral (standing) through increasingly dominant control positions to submission. The standard ladder from lowest to highest: Standing → Guard (neutral) → Half Guard → Side Control (2 pts) → Knee on Belly (2 pts) → Mount (4 pts) → Back Control (4 pts) → Submission. Higher positions offer more control, more submission options, and greater energy efficiency.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "improve_heading",
+      "current_heading_candidate": "The Positional Hierarchy Concept",
+      "suggested_heading": "What is the BJJ Position Hierarchy?"
+    },
+    {
+      "question": "What is the best position in BJJ?",
+      "answer_snippet": "Back control is widely considered the best position in BJJ because it offers 4 IBJJF points, complete offensive control with minimal submission defense risk, and the highest submission success rates. Mount is the second-best position. Both are preferred over side control and knee on belly for their ability to threaten immediate submissions.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "dedicated_faq",
+      "notes": "Extremely high-volume beginner query — should be answered directly in the article's FAQ block."
+    },
+    {
+      "question": "What are the main BJJ positions in order?",
+      "answer_snippet": "In order from neutral to most dominant: (1) Standing/Takedown, (2) Guard (bottom player on back, legs around opponent), (3) Half Guard, (4) Side Control — 2 points, (5) Knee on Belly — 2 points, (6) Mount — 4 points, (7) Back Control — 4 points, (8) Submission. Guard is the only position where the bottom player has offensive advantage despite being underneath.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "improve_heading",
+      "current_heading_candidate": "The Positional Hierarchy Concept",
+      "suggested_heading": "BJJ Positions in Order: The Complete Hierarchy"
+    },
+    {
+      "question": "How many points is each position worth in BJJ?",
+      "answer_snippet": "IBJJF point values by position: Takedown = 2 pts, Guard Pass = 3 pts, Knee on Belly = 2 pts, Mount = 4 pts, Back Control = 4 pts, Sweep = 2 pts. Points are awarded after the position is held for a moment of control. Advantage points are awarded for near-scoring actions.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "add_section",
+      "notes": "A points-reference table is missing from the article — high search intent for competition prep."
+    },
+    {
+      "question": "What is the guard position in BJJ?",
+      "answer_snippet": "The guard is a unique BJJ position where the bottom player lies on their back with their legs controlling the opponent. Unlike all other bottom positions, guard gives the bottom player offensive capability through sweeps and submissions. Main guard types include closed guard, half guard, butterfly guard, spider guard, and de la riva guard.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "add_section",
+      "notes": "Guard deserves its own sub-section explaining why it breaks the hierarchy rule."
+    },
+    {
+      "question": "What is mount position in BJJ?",
+      "answer_snippet": "Mount is a dominant ground position where the top practitioner sits astride the opponent's torso with both knees on the mat. Worth 4 IBJJF points, it is the second most dominant position (after back control) due to gravity assistance, high submission variety (armbar, choke, Ezekiel), and difficulty of escape.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "dedicated_faq",
+      "notes": "Definition queries for individual positions appear as PAA under this article — cross-link to Mount hub page."
+    },
+    {
+      "question": "Why is back control the most dominant position in BJJ?",
+      "answer_snippet": "Back control is most dominant because: (1) the top player faces the opponent's back, making it nearly impossible to defend against chokes and arm attacks simultaneously; (2) the bottom player cannot generate offensive attacks; (3) it scores 4 points; (4) the rear naked choke — the most reliable BJJ finish — requires back control.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "improve_heading",
+      "current_heading_candidate": "Why Hierarchy Matters",
+      "suggested_heading": "Why is Back Control the Most Dominant BJJ Position?"
+    },
+    {
+      "question": "What is side control in BJJ?",
+      "answer_snippet": "Side control (also called side mount or cross-side) is a dominant pin where the top player lies perpendicular to the opponent across their torso. Worth 3 points when achieved via guard pass (or 0 if reached by other means), it provides control through chest-to-chest pressure and enables transitions to mount, knee on belly, and various submissions.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "dedicated_faq",
+      "notes": "Appears as PAA alongside hierarchy content — cross-link to Side Control hub page."
+    },
+    {
+      "question": "How do you improve your BJJ positional game?",
+      "answer_snippet": "To improve your positional game: (1) Study the hierarchy — always aim to advance one level; (2) Master escapes before attacks — survival enables learning; (3) Drill transitions, not just submissions; (4) Use the position decision tree: when in a position, assess where you are and what the one advancement target is; (5) Spar with positional constraints — start in bad positions regularly.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "add_section",
+      "notes": "Practical 'how to improve' section is missing — high actionability for beginner/intermediate audience."
+    },
+    {
+      "question": "What is positional dominance in BJJ?",
+      "answer_snippet": "Positional dominance in BJJ means occupying a position higher in the hierarchy than your opponent, giving you control over their movement, access to submissions, and energy efficiency advantages. Maintaining positional dominance — rather than just hunting submissions — is a core strategic principle: dominant positions create submission opportunities naturally.",
+      "source_url": null,
+      "priority": "low",
+      "integration_strategy": "dedicated_faq",
+      "notes": "Definitional query; a short paragraph or callout box covers it efficiently."
+    },
+    {
+      "question": "How does BJJ scoring work?",
+      "answer_snippet": "BJJ competition scoring (IBJJF): Takedown 2 pts, Sweep 2 pts, Guard Pass 3 pts, Knee on Belly 2 pts, Mount 4 pts, Back Control 4 pts. A submission wins immediately regardless of score. Advantages are awarded for near-scoring attempts and used as tiebreakers. The competitor with more points at the end of regulation wins; advantages break ties.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "add_section",
+      "notes": "Scoring content directly supports hierarchy understanding — critical missing section."
+    }
+  ],
+  "heading_optimizations": [
+    {
+      "current": "The Positional Hierarchy Concept",
+      "suggested": "What is the BJJ Position Hierarchy? (And Why It Matters)",
+      "rationale": "Question format directly matches PAA trigger; parenthetical adds value-signal for CTR"
+    },
+    {
+      "current": "Why Hierarchy Matters",
+      "suggested": "Why Does Positional Hierarchy Matter in BJJ?",
+      "rationale": "Converts implicit section into explicit PAA-answerable question"
+    },
+    {
+      "current": "The Position Ladder",
+      "suggested": "BJJ Positions Ranked: From Guard to Back Control",
+      "rationale": "'Ranked' keyword aligns with 'positions in order' and 'best position' search intent"
+    },
+    {
+      "current": "IBJJF Points",
+      "suggested": "How Many Points is Each BJJ Position Worth? (IBJJF Rules)",
+      "rationale": "Competition-intent query; adding 'IBJJF Rules' as parenthetical targets rule-lookup searchers"
+    },
+    {
+      "current": "Decision-Making Framework",
+      "suggested": "How to Use Positional Hierarchy in Live Rolling",
+      "rationale": "Practical framing converts informational section into actionable guide — improves dwell time"
+    }
+  ],
+  "missing_content_opportunities": [
+    "Add IBJJF points reference table (position → point value → notes)",
+    "Add section: 'The Guard Exception — Why Bottom Can Be Offensive'",
+    "Add section: 'How to Use the Hierarchy in Live Rolling: Decision Trees'",
+    "Add section: 'Positional Hierarchy in No-Gi vs Gi BJJ — Key Differences'",
+    "Add section: 'Common Mistakes: Ignoring Positional Hierarchy for Submissions'",
+    "Add FAQ block: 'What is the Best Position in BJJ?'",
+    "Add comparison table: Position vs Point Value vs Submission Potential vs Escape Difficulty",
+    "Add cross-links to each individual position hub page (Mount, Back Control, Side Control, etc.) with descriptive anchor text"
+  ],
+  "cross_link_opportunities": [
+    {
+      "target_article": "Mount",
+      "anchor_context": "Mount scores 4 points and is the second-most dominant position",
+      "rationale": "Direct hierarchy member — bidirectional link strengthens topical cluster"
+    },
+    {
+      "target_article": "Back Control",
+      "anchor_context": "Back control is the most dominant position in BJJ, scoring 4 points",
+      "rationale": "Top of hierarchy — link in the 'best position' answer"
+    },
+    {
+      "target_article": "Side Control",
+      "anchor_context": "Side control is typically the first dominant position after passing guard",
+      "rationale": "Mid-hierarchy anchor — links to transition discussion"
+    },
+    {
+      "target_article": "Knee on Belly",
+      "anchor_context": "Knee on Belly scores 2 points and sits between side control and mount",
+      "rationale": "Connects hierarchy article to individual position pages"
+    },
+    {
+      "target_article": "BJJ For Beginners Roadmap",
+      "anchor_context": "Learning the positional hierarchy is the first strategic concept beginners should master",
+      "rationale": "Internal Learning cluster link — supports site architecture"
+    }
+  ]
+}
