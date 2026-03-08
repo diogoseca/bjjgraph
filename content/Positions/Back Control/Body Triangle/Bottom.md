@@ -5,6 +5,9 @@
 ---
 title: "Body Triangle Bottom | BJJ Position Guide | BJJ Graph"
 description: "Master body triangle from bottom perspective. Powerful leg control creating breathing restriction and submission setups with high retention and finishing rates."
+bot_metadata:
+  last_improved: "2026-03-08"
+  optimization_pass: "ai_seo_v1"
 ---
 
 
@@ -15,8 +18,8 @@ description: "Master body triangle from bottom perspective. Powerful leg control
 {
   "@context": "https://schema.org",
   "@type": "HowTo",
-  "name": "How to Escape Body Triangle Bottom",
-  "description": "Step-by-step guide to escaping and defending Body Triangle position in BJJ.",
+  "name": "How to Attack from Body Triangle Bottom",
+  "description": "Step-by-step guide to attacking and submitting from Body Triangle position in BJJ.",
   "step": [
     {
       "@type": "HowToStep",
@@ -157,7 +160,9 @@ description: "Master body triangle from bottom perspective. Powerful leg control
 
 <section id="overview" class="content-section">
 
-From the bottom perspective in Body Triangle Position, you are the attacker who has secured back control and locked your legs in a triangle configuration around your opponent's torso. This is one of the most dominant positions in Brazilian Jiu-Jitsu, offering exceptional control with minimal energy expenditure while creating tremendous pressure and multiple submission pathways. Your legs create a figure-four lock that cannot be cleared through standard escape techniques, while your upper body is free to hunt for finishing attacks.
+**Body Triangle Bottom** is one of the most dominant back control configurations in BJJ: you lock your legs in a figure-four around your opponent's torso while controlling their upper body with a seatbelt grip. Retention Rate: 78%. Submission Probability: 60%. Requires: established back control, sufficient leg reach, and upper body control to prevent counters during triangle setup.
+
+From the bottom perspective in **Body Triangle Position**, you are the attacker who has secured back control and locked your legs in a triangle configuration around your opponent's torso. This is one of the most dominant positions in Brazilian Jiu-Jitsu, offering exceptional control with minimal energy expenditure while creating tremendous pressure and multiple submission pathways. Your legs create a figure-four lock that cannot be cleared through standard escape techniques, while your upper body is free to hunt for finishing attacks.
 
 The mechanical advantage of the body triangle is substantial - by crossing one leg over the other and tucking the foot behind your own knee, you create a locked structure that restricts your opponent's breathing and prevents hip rotation. Unlike standard back control with hooks, which requires constant adjustment and can be cleared through systematic hip movement, the body triangle represents a static mechanical lock that grows tighter as the opponent attempts to escape. The breathing restriction is not merely uncomfortable but creates genuine physiological stress that compounds over time, forcing your opponent to work urgently and often make defensive mistakes.
 
@@ -191,7 +196,7 @@ From this bottom position, you maintain constant chest-to-back pressure while yo
 
 <section id="key-principles" class="content-section">
 
-## Key Defensive Principles
+## What Principles Make Body Triangle Control Effective?
 
 - Triangle Lock Security: Ensure proper figure-four configuration with foot locked deep behind knee, creating unbreakable connection that cannot be cleared with hip movement
 - Breathing Restriction Mechanics: Position triangle around lower ribs and diaphragm to maximize breathing restriction and create psychological urgency
@@ -209,8 +214,8 @@ From this bottom position, you maintain constant chest-to-back pressure while yo
 ## Decision Making from This Position
 
 **If opponent is defensive with hands protecting neck and not attempting to clear triangle:**
-- Execute **[[Increase squeeze pressure gradually/Attacker|Increase squeeze pressure gradually]]** → [[Positions/Back Control/Body Triangle]] (Probability: 70%)
-- Execute **[[Work for collar grips systematically/Attacker|Work for collar grips systematically]]** → [[Positions/Game Over]] (Probability: 60%)
+- Execute **[[Transitions/Back Control Maintenance/Attacker|Back Control Maintenance]]** → [[Positions/Back Control/Body Triangle]] (Probability: 70%)
+- Execute **[[Transitions/Rear Naked Choke Setup/Attacker|Rear Naked Choke Setup]]** → [[game-over]] (Probability: 60%)
 
 
 **If opponent reaches back to attack triangle lock or grab your legs:**
@@ -219,13 +224,13 @@ From this bottom position, you maintain constant chest-to-back pressure while yo
 
 
 **If opponent attempts to turn into you to escape:**
-- Execute **[[Transitions/Bow and Arrow Choke/Attacker|Bow and Arrow Choke]]** → [[Positions/Game Over]] (Probability: 70%)
-- Execute **[[Transitions/Roll to Truck/Attacker|Roll to Truck]]** → [[Positions/Twister Control/Truck]] (Probability: 50%)
+- Execute **[[Transitions/Bow and Arrow Choke/Attacker|Bow and Arrow Choke]]** → [[game-over]] (Probability: 70%)
+- Execute **[[Transitions/Roll to Truck/Attacker|Roll to Truck]]** → [[Positions/Truck]] (Probability: 50%)
 
 
 **If opponent turtles or rolls forward trying to clear position:**
-- Execute **[[Maintain triangle and take mount/Attacker|Maintain triangle and take mount]]** → [[Positions/Mount]] (Probability: 55%)
-- Execute **[[Release and reset back control/Attacker|Release and reset back control]]** → [[Positions/Back Control]] (Probability: 60%)
+- Execute **[[Transitions/Body Triangle RNC/Attacker|Body Triangle RNC]]** → [[game-over]] (Probability: 55%)
+- Execute **[[Transitions/Back Control Maintenance/Attacker|Back Control Maintenance]]** → [[Positions/Back Control]] (Probability: 60%)
 
 
 
@@ -234,7 +239,7 @@ From this bottom position, you maintain constant chest-to-back pressure while yo
 
 <section id="common-mistakes" class="content-section hide-minimal">
 
-## Common Defensive Mistakes
+## What Are Common Body Triangle Mistakes?
 
 ### 1. Locking triangle too high on torso near shoulders instead of around lower ribs and diaphragm
 
@@ -272,7 +277,7 @@ From this bottom position, you maintain constant chest-to-back pressure while yo
 
 <section id="training-drills" class="content-section hide-minimal">
 
-## Training Drills for Defense
+## Training Drills for Body Triangle Attacks
 
 ### Triangle Lock Drill
 
@@ -355,6 +360,41 @@ In body triangle position, practice applying different levels of squeeze pressur
 
 </section>
 
+<section id="faq" class="content-section hide-minimal">
+
+## Frequently Asked Questions
+
+### How do I lock in the body triangle from back control?
+
+From **[[Positions/Back Control]]** with your seatbelt grip established, bring one knee across your opponent's body at the lower ribcage level. Cross that leg over their torso, then thread your foot behind your own knee to create the figure-four configuration. Squeeze your legs together to lock the structure. The key is positioning the triangle around the diaphragm, not the upper chest.
+
+### Where should I position the body triangle on my opponent's torso?
+
+Position the triangle around the lower ribcage and diaphragm — approximately at belly-button level. Too high allows full breathing and easier clearing attempts. Too low loses control and slips off the hips. The lower-rib position maximizes breathing restriction while locking your legs against their hip bones to prevent downward slippage.
+
+### How do I attack the rear naked choke from body triangle?
+
+With your legs creating lower body control, your hands are free to hunt the neck. Slide your over-arm forearm toward their chin, use the under-arm to prevent chin tucking, and thread the choking arm under their jaw. Connect your hands behind their head using the **[[Transitions/Rear Naked Choke]]** figure-four to complete the finish.
+
+### What is the difference between body triangle and standard back hooks?
+
+Standard **[[Transitions/Back Control Maintenance]]** hooks require constant micro-adjustment and can be cleared through systematic hip movement. The **body triangle** creates a mechanical lock that actually tightens as the opponent attempts to escape — and adds breathing restriction that hooks alone cannot achieve. The tradeoff is reduced mobility for the bottom player.
+
+### How do I prevent my opponent from escaping the body triangle?
+
+Keep your hips on the mat beside your opponent (not elevated on their back), maintain chest-to-back connection, and use pulsing squeeze pressure rather than constant maximum effort. If they try to clear the lock, immediately re-thread your foot deeper behind your own knee and increase pressure momentarily to discourage the attempt.
+
+### Can I use body triangle in no-gi BJJ?
+
+Yes. The body triangle works identically in both gi and no-gi. The breathing restriction and mechanical lock function regardless of clothing. In no-gi, upper body grip options shift from collar grips to over-under seatbelt configurations, but the leg triangle mechanics remain unchanged.
+
+### What submissions work best from body triangle back control?
+
+Primary: **[[Transitions/Rear Naked Choke]]** (hands free to hunt neck while legs maintain control). Secondary: **[[Transitions/Bow and Arrow Choke]]** (gi only, when opponent turns), **[[Transitions/Armbar from Back Transition]]** (when opponent reaches back to clear triangle). Tertiary: **[[Transitions/Short Choke]]** and **[[Transitions/Kimura from Back]]** for opponent hand-fighting responses.
+
+</section>
+
+
 <section id="related-content" class="content-section">
 
 ## Related Positions and Techniques
@@ -364,7 +404,7 @@ In body triangle position, practice applying different levels of squeeze pressur
 - **[[Transitions/Armbar from Back Transition]]** - High-percentage submission when opponent defends neck
 - **[[Transitions/Bow and Arrow Choke]]** - Gi-specific submission utilizing triangle control
 - **[[Positions/Crucifix]]** - Transition target when opponent reaches back
-- **[[Positions/Twister Control/Truck]]** - Advanced transition option from body triangle
+- **[[Positions/Truck]]** - Advanced transition option from body triangle when opponent rolls forward
 - **[[Transitions/Body Triangle Lock]]** - Transition to establish this position from standard hooks
 - **[[Transitions/Kimura from Back]]** - Alternative submission when opponent defends collar and neck
 
