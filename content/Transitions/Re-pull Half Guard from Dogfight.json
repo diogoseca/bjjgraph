@@ -1,0 +1,396 @@
+{
+  "name": "Re-pull Half Guard from Dogfight",
+  "description": "Master the Re-pull Half Guard from Dogfight in BJJ. Learn when to safely retreat from dogfight to half guard with proper frames and retention.",
+  "tags": [
+    "bjj",
+    "transition",
+    "half-guard",
+    "dogfight",
+    "guard-retention",
+    "defensive",
+    "retreat",
+    "positional-reset"
+  ],
+  "from_position": "Dogfight Position/Bottom",
+  "outcomes": [
+    {
+      "to": "Half Guard/Bottom",
+      "probability": 55,
+      "result": "success"
+    },
+    {
+      "to": "Flattened Half Guard/Bottom",
+      "probability": 30,
+      "result": "failure"
+    },
+    {
+      "to": "Side Control/Bottom",
+      "probability": 15,
+      "result": "counter"
+    }
+  ],
+  "success_rate": 55,
+  "overview": "The Re-pull Half Guard from Dogfight is a deliberate positional retreat executed when the bottom player determines that the dogfight exchange is deteriorating—typically when the opponent establishes a dominant whizzer, wins the crossface battle, or generates superior forward pressure that threatens flattening. Rather than continuing to fight a losing underhook battle that drains energy and risks being smashed flat, the bottom player proactively disengages the elevated kneeling posture and re-establishes a structured half guard with proper frames, knee shield, and distance management intact.\n\nThis transition occupies a critical role in modern half guard systems as a pressure-release valve. Practitioners who lack this skill frequently get caught between positions—too committed to retreat cleanly, yet unable to advance offensively—resulting in energy-draining stalemates or being driven into flattened half guard where all offensive capability disappears. The key distinction is between a controlled, frame-first re-pull that lands you in an organized half guard versus an uncontrolled collapse that the top player exploits to advance position.\n\nStrategically, the re-pull serves a dual purpose: it preserves energy for future offensive cycles and resets the positional exchange to a configuration where the bottom player has multiple guard variation options available. A well-executed re-pull into knee shield half guard, for instance, provides immediate distance management and creates a platform to re-enter dogfight, transition to deep half, or pursue alternative sweeping pathways. The willingness to retreat intelligently—rather than stubbornly fighting a lost exchange—separates experienced half guard players from those who exhaust themselves in unwinnable dogfights.",
+  "conditions": [
+    "You are the bottom player in Dogfight with your inside leg still trapped in half guard configuration",
+    "Opponent has established dominant whizzer control or superior crossface pressure threatening to flatten you",
+    "Your underhook is being stripped or has insufficient depth to generate offensive attacks",
+    "Sweep and back take attempts have been defended and continued fighting risks being driven flat without frames",
+    "You have sufficient frame integrity remaining to execute a controlled descent rather than being collapsed"
+  ],
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Knee Shield Re-pull",
+      "description": "Drop back while simultaneously inserting the knee shield across the opponent's hip or midsection, creating immediate distance and a strong defensive frame upon landing in half guard. The shin acts as a barrier preventing the top player from following you down with chest pressure.",
+      "when_to_use": "When opponent has strong forward pressure and you need maximum distance management upon returning to half guard. Best default option for most situations."
+    },
+    {
+      "variant_name": "Underhook Retention Re-pull",
+      "description": "Maintain your underhook grip while pulling back to half guard, preserving the offensive handle for an immediate re-entry to dogfight or sweep attempt from half guard bottom. Requires fighting to keep the underhook against the opponent's stripping attempts during the transition.",
+      "when_to_use": "When you still have a serviceable underhook but lack the base or angle to execute sweeps from the current dogfight position. Preserves offensive momentum for the next exchange."
+    },
+    {
+      "variant_name": "Butterfly Half Re-pull",
+      "description": "Insert a butterfly hook with your free leg during the descent, landing in butterfly half guard rather than standard half guard. The hook provides immediate elevation potential and sweep threats that discourage the top player from pressuring forward aggressively.",
+      "when_to_use": "When you anticipate the opponent will drive forward as you retreat. The butterfly hook converts their forward energy into sweep opportunities and prevents them from settling into a dominant top half guard position."
+    }
+  ],
+  "position_integration": "The Re-pull Half Guard from Dogfight serves as a critical connector in the half guard ecosystem, linking the dynamic elevated dogfight exchange back to the foundational half guard position. It enables cyclical positional play where the bottom player can repeatedly enter dogfight for offensive attempts, retreat to half guard when exchanges are unfavorable, recover energy and frames, then re-enter dogfight or transition to alternative guards like deep half, knee shield, or lockdown. Without this retreat pathway, the bottom player becomes trapped in a binary outcome where every dogfight must result in either a successful sweep or being flattened—an unsustainable approach against skilled opponents.",
+  "related_content": [
+    {
+      "name": "Dogfight Position",
+      "relationship": "Starting position - the elevated kneeling half guard exchange from which this retreat is executed"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Primary target position - the structured guard position re-established after successful retreat"
+    },
+    {
+      "name": "Knee Shield Half Guard",
+      "relationship": "Preferred landing configuration providing immediate distance management and offensive frames"
+    },
+    {
+      "name": "Flattened Half Guard",
+      "relationship": "Negative outcome when retreat is poorly executed and opponent drives you flat without frames"
+    },
+    {
+      "name": "Deep Half Guard",
+      "relationship": "Alternative retreat destination when opponent commits heavy forward pressure during re-pull"
+    },
+    {
+      "name": "Re-flatten from Dogfight",
+      "relationship": "Opposing transition - top player's technique to flatten bottom player, which the re-pull aims to preempt"
+    },
+    {
+      "name": "Dogfight Sweep",
+      "relationship": "Offensive alternative - sweep attempt that should be tried before committing to retreat"
+    },
+    {
+      "name": "Forward Drive Sweep from Dogfight",
+      "relationship": "Offensive alternative chained before or after re-pull attempts"
+    },
+    {
+      "name": "Crossface from Dogfight",
+      "relationship": "Top player's technique that often forces the need for the re-pull retreat"
+    },
+    {
+      "name": "Lockdown",
+      "relationship": "Alternative half guard variation accessible after re-pull for posture control"
+    },
+    {
+      "name": "Back Door Escape from Half Guard",
+      "relationship": "Secondary escape option from half guard if re-pull lands in compromised position"
+    }
+  ],
+  "attacker": {
+    "name": "Re-pull Half Guard from Dogfight Attacker",
+    "description": "Execute the Re-pull Half Guard from Dogfight to safely retreat from a losing dogfight exchange. Frame-first technique preserving guard structure and offensive options.",
+    "overview": "As the bottom player executing the re-pull, your objective is a controlled descent from the elevated dogfight position back to a structured half guard with intact frames and distance management. This is not a passive collapse—it is an active technical withdrawal that requires precise timing, frame insertion, and hip positioning to land in an organized guard rather than a flattened defensive nightmare. The distinction between a successful re-pull and getting smashed flat lies entirely in the quality of your frames during the transition and your ability to establish defensive structure before the top player can follow you down with pressure. Mastering this retreat transforms your entire dogfight game by removing the fear of failed exchanges and allowing you to take calculated offensive risks knowing you have a reliable exit strategy.",
+    "key_principles": [
+      "Frames before movement—insert knee shield or forearm frame before beginning any downward movement to prevent the top player from following you into chest-to-chest pressure",
+      "Control the descent speed—drop to your hip in a controlled manner rather than collapsing, maintaining tension through your trapped leg to prevent the opponent from immediately advancing",
+      "Angle your body during retreat—land on your side facing the opponent rather than flat on your back, preserving hip mobility and offensive potential from the resulting half guard",
+      "Maintain at least one grip connection throughout the transition to prevent the opponent from disengaging and attacking from a new angle during the positional change",
+      "Read the opponent's weight commitment before retreating—if they are driving forward heavily, redirect their momentum past you rather than absorbing it during the descent",
+      "Immediately threaten from the new position—the re-pull is not complete until you establish an offensive grip sequence from half guard that prevents the top player from settling"
+    ],
+    "setup_requirements": [
+      "Active half guard leg entanglement still intact with inside leg controlling opponent's leg at or below the knee",
+      "Sufficient upper body frame integrity to insert knee shield or forearm barrier during descent",
+      "Recognition that current dogfight exchange is deteriorating—opponent winning underhook battle, establishing crossface, or generating flattening pressure",
+      "Free outside leg available to post and control descent speed during the transition back to guard",
+      "Mental commitment to retreat rather than half-heartedly fighting the dogfight while drifting backward"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Recognize the trigger",
+        "description": "Identify that the dogfight exchange is deteriorating: your underhook is being stripped, opponent has dominant whizzer with crossface, or your base is compromised. Make the decision to retreat before you are forced flat. The window for a controlled re-pull closes rapidly once the opponent establishes dominant pressure."
+      },
+      {
+        "step_number": 2,
+        "action": "Insert primary frame",
+        "description": "Before any downward movement, insert your knee shield across the opponent's hip or midsection. This is the single most critical step—the frame must be established while you still have the structural integrity to create space. If using the underhook retention variant, secure a deep grip on the opponent's far lat or shoulder blade before dropping."
+      },
+      {
+        "step_number": 3,
+        "action": "Post outside hand",
+        "description": "Place your free hand on the mat behind your hip on the side you will descend toward. This posting hand controls your descent speed and prevents an uncontrolled collapse. The hand should be positioned far enough behind you to support a gradual lowering of your center of gravity while maintaining balance."
+      },
+      {
+        "step_number": 4,
+        "action": "Lower hips to mat",
+        "description": "Sit back toward your posting hand in a controlled manner, lowering your hips to the mat while maintaining the knee shield frame and leg entanglement. Drop to your outside hip rather than sitting straight back, which would land you flat. The descent should feel like sitting to your hip rather than falling backward. Maintain tension through your trapped leg throughout."
+      },
+      {
+        "step_number": 5,
+        "action": "Establish side angle",
+        "description": "As your hips reach the mat, immediately turn onto your side facing the opponent. Your shoulders should be angled at approximately 45 degrees from the mat, never flat on your back. This side positioning preserves hip mobility for shrimping, frames your body weight against the opponent's downward pressure, and keeps your offensive tools accessible."
+      },
+      {
+        "step_number": 6,
+        "action": "Secure defensive grip sequence",
+        "description": "With your body positioned on your side with knee shield active, establish your grip sequence: inside hand controls the opponent's bicep or collar to prevent crossface, outside hand frames on the opponent's shoulder or hip to manage distance. These grips must be established within the first two seconds of landing to prevent the top player from settling into a dominant passing position."
+      },
+      {
+        "step_number": 7,
+        "action": "Activate guard retention",
+        "description": "Immediately begin creating offensive threats from the re-established half guard. Threaten underhook re-entry, knee shield sweeps, or guard recovery to closed guard. The re-pull is not complete until you have forced the top player to react defensively rather than advancing their pass. If frames are solid, consider immediately re-entering dogfight if conditions improve."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Opponent drives forward as you attempt to sit back, following your descent with heavy chest pressure",
+        "effectiveness": "High",
+        "your_response": "Use the knee shield frame to redirect their forward energy past your centerline rather than absorbing it. If they overcommit, consider redirecting into a deep half entry by ducking under their driving pressure.",
+        "targets_outcome": "Flattened Half Guard/Bottom"
+      },
+      {
+        "counter": "Opponent strips your knee shield by swimming their arm inside and driving your knee to the mat",
+        "effectiveness": "Medium",
+        "your_response": "Immediately hip escape to re-insert the knee shield before they consolidate. If the shield is fully cleared, transition to lockdown or butterfly half hook to maintain some form of guard structure.",
+        "targets_outcome": "Flattened Half Guard/Bottom"
+      },
+      {
+        "counter": "Opponent circles their trapped leg free during the transition when your entanglement loosens",
+        "effectiveness": "High",
+        "your_response": "Squeeze your knees together to maintain the leg trap throughout the descent. If the leg begins to escape, immediately recover to closed guard or butterfly guard rather than fighting for a compromised half guard.",
+        "targets_outcome": "Side Control/Bottom"
+      },
+      {
+        "counter": "Opponent uses your downward movement to establish crossface and flatten you before you can angle your body",
+        "effectiveness": "Medium",
+        "your_response": "Lead with the knee shield insertion before dropping level. If crossface arrives first, use your inside hand to frame against the opponent's neck and create enough space to turn to your side.",
+        "targets_outcome": "Flattened Half Guard/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Collapsing backward without inserting frames first",
+        "consequence": "Opponent follows you down with chest-to-chest pressure, landing in flattened half guard with no defensive structure and immediate passing threat",
+        "correction": "Always insert knee shield or forearm frame before initiating any downward movement. The frame must be in place while you still have upright structural integrity to create space."
+      },
+      {
+        "error": "Landing flat on your back instead of angled on your side",
+        "consequence": "Eliminates hip mobility needed for guard retention, allows opponent to establish crossface and heavy shoulder pressure, removes all offensive capability",
+        "correction": "Descend toward your outside hip and immediately angle your shoulders 45 degrees from the mat. Your default landing position must always be on your side facing the opponent."
+      },
+      {
+        "error": "Releasing the leg entanglement during the transition",
+        "consequence": "Opponent frees their leg and completes the guard pass to side control while you are mid-retreat and unable to defend",
+        "correction": "Maintain constant squeeze pressure with your legs throughout the entire descent. The half guard leg trap is your anchor point—if you lose it, you lose the position entirely."
+      },
+      {
+        "error": "Retreating too slowly or hesitantly, half-committing to the re-pull",
+        "consequence": "Getting stuck in a no-man's-land between dogfight and half guard where you have neither the upright posture for sweeps nor the frames for guard retention",
+        "correction": "Once you commit to the re-pull, execute it decisively in one smooth motion. A fast, committed retreat with proper frames is far safer than a gradual, hesitant descent."
+      },
+      {
+        "error": "Failing to establish offensive grips after landing in half guard",
+        "consequence": "Top player immediately begins passing sequence against your passive guard, forcing you into pure defense with no counterattacking pressure",
+        "correction": "Within two seconds of landing, establish your grip sequence and threaten at least one offensive action—underhook re-entry, sweep attempt, or guard transition—to force the top player into a reactive mode."
+      },
+      {
+        "error": "Using the re-pull as default response instead of exhausting offensive options first",
+        "consequence": "Develops a passive dogfight game where you retreat at the first sign of resistance, never developing the forward pressure and sweep chains that make dogfight truly effective",
+        "correction": "Attempt at least one committed sweep or back take before retreating. The re-pull should be reserved for situations where offensive options are genuinely exhausted or the exchange is clearly deteriorating."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Controlled Descent Mechanics",
+        "focus": "Frame insertion timing and hip placement",
+        "description": "Practice the basic descent from dogfight to half guard with a cooperative partner. Focus on inserting knee shield before moving, posting the outside hand, and landing on your side at the correct angle. Partner provides zero resistance initially, then adds light forward pressure. Repeat 20 times per side until the frame-first sequence becomes automatic."
+      },
+      {
+        "phase": "Phase 2: Pressure Response Drilling",
+        "focus": "Executing re-pull against forward driving pressure",
+        "description": "Partner applies moderate whizzer and crossface pressure from dogfight, simulating the conditions that trigger the re-pull. Practice timing the retreat to redirect their pressure past your centerline rather than absorbing it. Emphasize maintaining the leg entanglement under pressure and landing with complete guard structure. Increase partner resistance from 50% to 75% across rounds."
+      },
+      {
+        "phase": "Phase 3: Offensive Integration",
+        "focus": "Chaining re-pull with immediate offensive actions",
+        "description": "After executing the re-pull and landing in half guard, immediately pursue one of three pre-selected offensive actions: underhook re-entry to dogfight, knee shield sweep, or deep half transition. Partner provides 75% resistance. The drill is not complete until you have established an offensive threat within three seconds of landing. Develops the habit of treating the re-pull as a positional reset rather than a surrender."
+      },
+      {
+        "phase": "Phase 4: Decision-Making Under Pressure",
+        "focus": "Choosing between re-pull and offensive dogfight options in live situations",
+        "description": "Positional sparring starting in dogfight with full resistance. Bottom player must read whether to attempt sweeps, back takes, or execute the re-pull based on the top player's pressure and positioning. Score system: sweep or back take scores highest, clean re-pull to structured half guard scores moderate, being flattened or passed scores negative. Develops real-time decision-making for when to fight and when to retreat."
+      },
+      {
+        "phase": "Phase 5: Full Cycle Integration",
+        "focus": "Dogfight entry, offensive attempt, re-pull, re-entry cycle",
+        "description": "Extended positional rounds starting from half guard bottom. Bottom player enters dogfight, attempts offensive techniques, re-pulls when necessary, recovers in half guard, and re-enters dogfight. The full cycle should become fluid and sustainable across 5-minute rounds. Partner provides full resistance throughout. Focus on energy management across multiple dogfight entries and retreats."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the single most critical action that must occur before any downward movement during the re-pull?",
+        "answer": "The knee shield or primary frame must be inserted before initiating any descent. This frame creates the barrier that prevents the opponent from following you down with chest-to-chest pressure. Without the frame in place before moving, the transition degenerates into an uncontrolled collapse where the opponent can drive you flat and begin passing immediately. The window for frame insertion exists only while you still have the upright structural integrity of the dogfight posture."
+      },
+      {
+        "question": "Your opponent has a strong whizzer and is driving you backward with crossface pressure. You decide to re-pull half guard. What body angle should you land at and why?",
+        "answer": "You should land on your outside hip with shoulders angled approximately 45 degrees from the mat, facing the opponent. Landing flat on your back eliminates hip mobility needed for shrimping and guard retention, allows the opponent to establish crushing chest pressure, and removes all offensive capability. The side angle preserves hip escape mechanics, distributes the opponent's downward pressure across your skeletal frame rather than absorbing it through your sternum, and keeps your underhook and knee shield accessible for immediate offensive action."
+      },
+      {
+        "question": "How do you maintain the half guard leg entanglement during the transition from kneeling dogfight to supine half guard?",
+        "answer": "Maintain constant inward squeeze pressure with both legs throughout the entire descent, treating the trapped leg as an anchor that must not be released under any circumstances. As your hips lower to the mat, your legs naturally transition from the kneeling clamp configuration to the supine half guard entanglement. The critical moment is during the hip-to-mat landing when the entanglement tends to loosen—consciously squeeze your knees together and hook your outside foot behind the opponent's trapped leg to maintain control. If you feel the leg beginning to slip free, abort the re-pull and either recover the clamp or transition to closed or butterfly guard."
+      },
+      {
+        "question": "After landing in half guard from the re-pull, what should you do within the first two seconds?",
+        "answer": "Establish your defensive grip sequence and immediately threaten at least one offensive action. The inside hand controls the opponent's bicep or collar to prevent crossface establishment, while the outside hand frames on the opponent's shoulder or hip for distance management. Within those first two seconds, you should initiate either an underhook re-entry attempt, a knee shield sweep threat, or a guard transition to put the top player on the defensive. Failing to establish offensive pressure allows the top player to settle into a dominant passing position and begin methodically working their pass."
+      },
+      {
+        "question": "When should you choose the re-pull over continuing to fight for sweeps in the dogfight position?",
+        "answer": "The re-pull should be chosen when specific conditions indicate the dogfight exchange has deteriorated beyond recovery: your underhook has been stripped or reduced to a shallow grip that cannot generate sweep leverage, the opponent has established a dominant crossface with whizzer control threatening to drive you flat, you have attempted and failed at least one committed sweep or back take and the opponent's defensive structure has solidified, or your energy expenditure in the exchange is unsustainable and continued fighting risks exhaustion. The re-pull should not be the default response to any resistance—offensive options should be genuinely exhausted first."
+      },
+      {
+        "question": "Your opponent follows your re-pull with heavy forward pressure, driving into your frames as you descend. How do you redirect this energy?",
+        "answer": "Use the knee shield as a redirecting surface rather than a rigid wall. Angle the knee shield slightly to one side so the opponent's forward momentum carries past your centerline rather than stacking directly into your guard. If they overcommit to the forward drive, this creates an opportunity to redirect them into a deep half guard entry by ducking underneath their pressure, or to use their momentum for an immediate sweep attempt. The key is treating their forward energy as a resource to be redirected rather than a force to be absorbed through static resistance."
+      },
+      {
+        "question": "What distinguishes a high-level re-pull from a beginner's retreat to half guard?",
+        "answer": "A high-level re-pull is characterized by three features that beginners lack: pre-emptive timing where the retreat begins before the position fully deteriorates rather than after being driven flat, frame-first mechanics where defensive structure is established during the transition rather than rebuilt after landing, and immediate offensive integration where the practitioner threatens from the new position within seconds rather than passively holding guard. The advanced practitioner also selects the specific half guard variation they want to land in based on the opponent's pressure direction, rather than simply collapsing into whatever guard configuration happens to result."
+      }
+    ],
+    "safety_considerations": "The re-pull from dogfight is a low-risk transition with no significant injury potential when executed correctly. The primary safety concern involves knee stress during the descent if the trapped leg's angle shifts awkwardly under the opponent's weight. Ensure your trapped leg maintains a natural flexion angle throughout the transition and avoid twisting motions while load-bearing. If you feel any sharp pain in the knee during the descent, immediately release the leg entanglement and recover to a neutral position rather than forcing the transition. Partners should avoid explosive forward drives during drilling to prevent stacking injuries to the spine and neck."
+  },
+  "defender": {
+    "name": "Re-pull Half Guard from Dogfight Defender",
+    "description": "Defend against the Re-pull Half Guard from Dogfight. Learn to capitalize on the bottom player's retreat to advance position or complete the guard pass.",
+    "overview": "As the top player in dogfight, your opponent's attempt to re-pull half guard represents a critical window of opportunity. During the transition from kneeling to supine, the bottom player is temporarily between positions—too committed to maintain dogfight pressure and not yet settled in organized half guard. Your objective is to either prevent the clean re-establishment of half guard by following them down with heavy pressure before frames solidify, or capitalize on the transitional chaos to advance your position toward side control. Recognizing the re-pull early and responding immediately is essential, as a clean re-pull that lands in knee shield half guard resets the positional exchange and forces you to restart your passing sequence from scratch. The best defense against the re-pull is actually preventing the conditions that trigger it—maintaining such dominant pressure that the bottom player cannot execute a controlled retreat.",
+    "key_principles": [
+      "Follow the retreat immediately—close distance before the bottom player can insert frames and establish defensive guard structure during their descent",
+      "Drive chest-to-chest pressure through their frame attempts, using weight and shoulder pressure to prevent the knee shield from fully deploying",
+      "Control the bottom player's inside hip to prevent them from angling to their side, forcing them to land flat on their back where passing is significantly easier",
+      "Maintain your whizzer or crossface control throughout their descent—do not release grips to post or reposition, as this creates the space they need for clean guard re-establishment",
+      "Anticipate the re-pull by reading the triggers: when their underhook weakens, their forward pressure decreases, or they begin posting their outside hand behind their hip",
+      "Convert their retreat into your advancement—the positional transition creates opportunities to free your trapped leg or establish dominant passing grips"
+    ],
+    "recognition_cues": [
+      "Bottom player's forward driving pressure through the underhook suddenly decreases or they begin pulling their underhook arm back toward their body",
+      "Bottom player posts their outside hand behind their hip or on the mat, creating a support structure for a controlled descent rather than maintaining offensive grips",
+      "Bottom player's head drops below your head level as they begin lowering their center of gravity, signaling the initiation of downward movement",
+      "Bottom player's knee shield or shin begins inserting across your hip before they have started descending—the frame insertion precedes the retreat",
+      "Bottom player's body weight shifts backward and away from you rather than driving forward, creating a momentary gap in chest-to-chest engagement"
+    ],
+    "defensive_options": [
+      {
+        "action": "Drive forward through the frame attempt with chest and shoulder pressure, preventing knee shield deployment",
+        "when_to_use": "Immediately when you detect the re-pull initiation, before the knee shield is fully inserted and the bottom player has posted their hand",
+        "targets_outcome": "Flattened Half Guard/Bottom",
+        "if_successful": "Bottom player lands flat on their back without frames, giving you dominant half guard top with crossface and passing opportunities",
+        "risk": "If they successfully redirect your forward energy, you may overcommit and expose yourself to a deep half entry or sweep"
+      },
+      {
+        "action": "Strip the knee shield by swimming your arm inside and driving the knee to the mat while closing distance",
+        "when_to_use": "When the bottom player has managed to insert the knee shield but has not yet completed the descent or established their full grip sequence",
+        "targets_outcome": "Flattened Half Guard/Bottom",
+        "if_successful": "You remove the primary frame and can establish chest-to-chest pressure in a dominant top half guard position",
+        "risk": "The frame-stripping movement may create space for the bottom player to re-insert the shield or transition to a different guard variation"
+      },
+      {
+        "action": "Circle the trapped leg free during the transitional moment when the leg entanglement loosens",
+        "when_to_use": "During the mid-descent phase when the bottom player's squeeze pressure on your trapped leg naturally decreases as their body configuration changes from kneeling to supine",
+        "targets_outcome": "Side Control/Bottom",
+        "if_successful": "Complete guard pass to side control by extracting the trapped leg before the bottom player can re-establish the entanglement",
+        "risk": "If the extraction attempt fails, you may end up in a worse passing position with the bottom player's guard now organized"
+      },
+      {
+        "action": "Maintain crossface and whizzer control while hip-switching to a knee slice passing angle as they descend",
+        "when_to_use": "When you have dominant upper body control and the bottom player is descending despite your pressure, allowing you to convert their retreat into a passing opportunity",
+        "targets_outcome": "Side Control/Bottom",
+        "if_successful": "You complete a knee slice pass using the momentum of their retreat combined with your maintained upper body control",
+        "risk": "The angle change may allow the bottom player to recover an underhook or insert frames from the new configuration"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Flattened Half Guard/Bottom",
+        "how": "Follow the bottom player's descent immediately with chest and shoulder pressure before they can insert knee shield or establish side angle. Drive your crossface shoulder into their jaw while sinking your weight through your hips into their torso, pinning them flat on their back without defensive frames."
+      },
+      {
+        "outcome": "Side Control/Bottom",
+        "how": "Capitalize on the transitional loosening of the leg entanglement during the descent by circling your trapped leg free. Combine the extraction with maintained upper body control to complete the pass before the bottom player can re-establish any guard configuration."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Allowing the bottom player space to insert frames by not following their retreat with immediate forward pressure",
+        "consequence": "Bottom player lands in organized half guard with knee shield and grips established, completely resetting the positional exchange and negating all your previous dogfight work",
+        "correction": "The moment you detect the re-pull, drive forward with chest and shoulder pressure to close the gap before frames can be inserted. Your reaction time must be faster than their frame insertion."
+      },
+      {
+        "error": "Releasing grips to reposition or post during the bottom player's descent",
+        "consequence": "Creates the exact space the bottom player needs to execute a clean re-pull with full frame structure intact",
+        "correction": "Maintain all existing grips—crossface, whizzer, collar control—throughout the transition. Your grips are your connection to controlling the descent."
+      },
+      {
+        "error": "Attempting to stand up or disengage during the re-pull instead of following the bottom player down",
+        "consequence": "Concedes the re-pull completely and allows the bottom player to establish their preferred guard variation with full offensive capability",
+        "correction": "Stay connected and follow the descent with your weight. The transitional moment is your best opportunity to advance position—disengaging wastes it entirely."
+      },
+      {
+        "error": "Overcommitting forward pressure without maintaining base, allowing the bottom player to redirect your energy into a sweep",
+        "consequence": "Your forward drive gets redirected and you end up being swept from the bottom player's half guard, losing all positional advantage",
+        "correction": "Drive forward with controlled pressure while maintaining your base through your free leg post. Pressure should be heavy but balanced—lean with your skeleton rather than lunging with your momentum."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the earliest recognition cue that the bottom player is about to attempt a re-pull to half guard?",
+        "answer": "The earliest cue is the decrease in forward driving pressure through their underhook combined with their outside hand posting behind their hip on the mat. This posting hand is the setup for a controlled descent and appears before the knee shield insertion or any downward movement. Recognizing this cue gives you the maximum time to react with forward pressure before the re-pull mechanics are initiated. Secondary cues include their head dropping below your head level and their body weight shifting rearward."
+      },
+      {
+        "question": "Why is the transitional moment during the re-pull your best opportunity to advance position?",
+        "answer": "During the descent from kneeling to supine, the bottom player is between two organized positions. They have abandoned the structural integrity of the dogfight kneeling posture but have not yet established the frames and distance management of organized half guard. Their leg entanglement naturally loosens as their body configuration changes, their hands are occupied with posting and frame insertion rather than defending grips, and their attention is divided between controlling the descent and establishing the new position. This two to three second window represents the most vulnerable phase where immediate pressure can prevent frame establishment."
+      },
+      {
+        "question": "Your opponent begins re-pulling to half guard but successfully inserts their knee shield before you can close the gap. What is your response?",
+        "answer": "Immediately apply shoulder pressure into the knee shield while maintaining crossface control to prevent them from angling to their side. From this position, begin working to strip the knee shield by swimming your arm inside their shin frame and pushing their knee toward the mat. Alternatively, use a knee slice angle to bypass the shield by stepping your trapped leg over and cutting your knee through the gap between their knee shield and their bottom leg. Do not back away from the shield—maintain constant forward pressure while systematically dismantling it."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Recognition Drilling",
+        "focus": "Identifying re-pull initiation cues",
+        "description": "Partner alternates between continuing dogfight offense and initiating the re-pull. Top player calls out the moment they detect re-pull cues without physically responding. Develops pattern recognition for the posting hand, pressure decrease, and head drop that signal the retreat. Practice 20 repetitions per round to build automatic recognition."
+      },
+      {
+        "phase": "Phase 2: Pressure Following Mechanics",
+        "focus": "Closing distance during the bottom player's descent",
+        "description": "Partner executes the re-pull at controlled speed while top player practices following the descent with immediate chest-to-chest pressure. Focus on maintaining all grips while driving forward, preventing frame insertion before the bottom player can establish guard structure. Partner gradually increases re-pull speed across rounds."
+      },
+      {
+        "phase": "Phase 3: Leg Extraction Timing",
+        "focus": "Freeing the trapped leg during the transitional loosening",
+        "description": "Partner executes the re-pull while top player focuses specifically on timing the leg extraction during the descent. Identify the exact moment when the entanglement loosens and practice the circular extraction motion that frees the trapped leg. Combine with upper body control maintenance to complete the pass to side control."
+      },
+      {
+        "phase": "Phase 4: Full Resistance Positional Sparring",
+        "focus": "Capitalizing on re-pull attempts in live dogfight exchanges",
+        "description": "Full resistance positional sparring starting in dogfight. Bottom player mixes sweep attempts, back takes, and re-pulls. Top player must read which option is being pursued and respond appropriately—defending sweeps with base, preventing back takes with whizzer, and capitalizing on re-pulls with pressure following. Develop adaptive responses to all bottom player options."
+      }
+    ]
+  }
+}

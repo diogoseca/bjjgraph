@@ -1,0 +1,409 @@
+{
+  "name": "Sweep from Ushiro Ashi-Garami",
+  "description": "Master the sweep from Ushiro Ashi-Garami bottom position. Expert guide to reversing leg entanglements using timing and hip mechanics to achieve mount.",
+  "tags": [
+    "bjj",
+    "transition",
+    "sweep",
+    "leg entanglement",
+    "ushiro ashi-garami",
+    "reversal",
+    "no-gi",
+    "advanced"
+  ],
+  "from_position": "Ushiro Ashi-Garami/Bottom",
+  "outcomes": [
+    {
+      "to": "Mount/Top",
+      "probability": 30,
+      "result": "success"
+    },
+    {
+      "to": "Ushiro Ashi-Garami/Bottom",
+      "probability": 45,
+      "result": "failure"
+    },
+    {
+      "to": "Saddle/Bottom",
+      "probability": 25,
+      "result": "counter"
+    }
+  ],
+  "success_rate": 30,
+  "overview": "The Sweep from Ushiro Ashi-Garami exploits one of the fundamental vulnerabilities in leg lock attacking systems: the attacker's forward weight commitment during heel hook finishing attempts. When trapped in the reversed leg entanglement from bottom, the defender can use the opponent's own leg configuration as a lever point, converting defensive positioning into an explosive reversal that lands in mount. The technique requires precise coordination between grip control, hip drive, and rotational mechanics to overcome the significant positional disadvantage of being inverted underneath a leg lock attacker.\n\nThis sweep becomes available when the top player shifts weight forward to establish finishing grips on the heel, temporarily compromising their base stability. The bottom player capitalizes on this weight distribution by controlling the opponent's posting hand, driving hips into the off-balanced opponent, and rotating through the entanglement to achieve top position. The reversed orientation actually provides unique sweeping leverage unavailable from standard ashi-garami positions, as the inverted hip angle creates rotational force multipliers when properly channeled through the entangled legs.\n\nThe sweep integrates into a broader ushiro ashi-garami escape system where it functions as a high-reward option alongside more conservative escapes to turtle or deep half guard. While the success rate is moderate given the difficulty of sweeping from an inverted leg entanglement, the payoff of achieving mount from what was a severely disadvantaged position makes it a valuable weapon for practitioners who develop the timing and mechanical proficiency required. Competition footage from major no-gi events consistently shows this sweep catching experienced leg lock specialists who overcommit to finishes without maintaining adequate base.",
+  "conditions": [
+    "Opponent has established ushiro ashi-garami from top position with active leg entanglement",
+    "Opponent's weight is shifting forward during heel hook or ankle lock finishing attempt",
+    "Bottom player has at least one hand free to control opponent's posting arm",
+    "Bottom player's free leg retains posting ability on the mat for generating drive",
+    "Sufficient rotational space exists to execute the sweep without mat boundary obstruction"
+  ],
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Forward Commitment Sweep",
+      "description": "Capitalizes specifically on the opponent's aggressive forward drive during heel hook finishing attempts. Uses a pull-push mechanism where you pull their posting arm while driving your hips into their center of gravity as they lean forward. Highest percentage variant because it exploits the opponent's own momentum.",
+      "when_to_use": "When opponent drives forward aggressively with shoulders ahead of hips to finish the heel hook, creating maximum base vulnerability"
+    },
+    {
+      "variant_name": "Inside Hook Elevation Sweep",
+      "description": "Threads the free leg as an inside hook underneath the opponent's far hip, creating an elevator-style sweeping mechanism similar to butterfly guard principles. The inside hook provides consistent lifting force independent of opponent's weight commitment, making this more reliable against defensive-minded opponents who maintain base.",
+      "when_to_use": "When opponent maintains cautious base and does not overcommit forward, requiring mechanical leverage rather than timing-based sweeping"
+    },
+    {
+      "variant_name": "Grip Break to Immediate Sweep",
+      "description": "Combines a heel grip strip with an immediate sweep in one fluid motion. As you break the opponent's finishing grip on your heel, their reactive weight shift backward creates momentary instability. Instead of simply defending, you immediately redirect that momentum sideways and rotate into the sweep before they can re-establish base.",
+      "when_to_use": "When you successfully strip the opponent's heel hook grip and they momentarily lose offensive structure during the reset"
+    }
+  ],
+  "position_integration": "The Sweep from Ushiro Ashi-Garami occupies a critical role in the defensive leg lock system, providing a reversal option that transforms one of the most dangerous bottom positions into the highest-value top position. It connects the leg entanglement subsystem to the mount-based attacking system, creating a bridge between defensive recovery and offensive dominance. This sweep complements conservative escape options like inversion to turtle and deep half guard transitions, giving the bottom player a high-risk, high-reward alternative that punishes opponents who overcommit to finishes. Practitioners who develop this sweep force attackers into a dilemma: commit forward for the heel hook and risk being swept, or maintain base and allow escape opportunities.",
+  "related_content": [
+    {
+      "name": "Outside Ashi-Garami",
+      "relationship": "Standard ashi-garami position that transitions to ushiro during inversion escapes, providing context for how ushiro bottom occurs"
+    },
+    {
+      "name": "Inside Ashi-Garami",
+      "relationship": "Alternative standard leg entanglement with comparable sweep mechanics from bottom position"
+    },
+    {
+      "name": "Saddle",
+      "relationship": "Counter outcome position where opponent may transition during failed sweep attempt, representing worsened position"
+    },
+    {
+      "name": "Mount",
+      "relationship": "Target position achieved upon successful sweep completion, representing maximum positional improvement"
+    },
+    {
+      "name": "Sweep from Saddle",
+      "relationship": "Analogous sweep from a different leg entanglement bottom position with similar mechanical principles"
+    },
+    {
+      "name": "Sweep from Honey Hole",
+      "relationship": "Related sweep from another high-control entanglement, sharing timing and leverage concepts"
+    },
+    {
+      "name": "Honey Hole",
+      "relationship": "Related high-control leg entanglement position with comparable bottom sweep options"
+    },
+    {
+      "name": "50-50 Guard",
+      "relationship": "Neutral leg entanglement where similar sweep principles apply from bottom position"
+    },
+    {
+      "name": "Leg Entanglement",
+      "relationship": "Fundamental positional category governing all ashi-garami sweep and escape mechanics"
+    },
+    {
+      "name": "Heel Hook from Saddle",
+      "relationship": "Primary submission threat that motivates the sweep attempt as a defensive counter-strategy"
+    },
+    {
+      "name": "Back Control",
+      "relationship": "Alternative offensive target when sweep trajectory carries past mount into back exposure"
+    }
+  ],
+  "attacker": {
+    "name": "Sweep from Ushiro Ashi-Garami Attacker",
+    "description": "Execute the sweep from Ushiro Ashi-Garami bottom to achieve mount. Learn grip control, timing windows, hip drive mechanics, and leg extraction for this high-reward leg entanglement reversal.",
+    "overview": "Executing the Sweep from Ushiro Ashi-Garami demands precise timing to exploit the narrow window when the top player's weight shifts forward during heel hook finishing attempts. The sweeper must coordinate grip control, hip drive, and rotational mechanics simultaneously—controlling the opponent's posting hand while generating sufficient off-balancing force through hip extension and free leg posting. Success requires comfort with inverted body mechanics and the ability to transition seamlessly from defensive heel protection to offensive sweeping motion. The technique rewards practitioners who maintain composure under active submission threat, transforming the opponent's aggressive weight commitment into the very leverage needed for the reversal. Understanding when to attempt this sweep versus safer escape options like turtle recovery is the strategic decision that separates effective ushiro defense from predictable play.",
+    "key_principles": [
+      "Time the sweep to coincide with opponent's forward weight commitment during heel hook finishing attempts, exploiting their compromised base",
+      "Control the opponent's far posting hand before initiating the sweep to eliminate their primary base recovery mechanism",
+      "Generate sweeping force through hip drive and free leg posting rather than upper body pulling, maximizing power from the inverted position",
+      "Maintain heel protection through dorsiflexion throughout the entire sweep rotation to prevent submission during transition",
+      "Use the leg entanglement as a lever point rather than fighting against it, channeling rotational force through the figure-four configuration",
+      "Commit fully to the sweep once initiated—half-measures result in energy waste and potential positional degradation to saddle"
+    ],
+    "setup_requirements": [
+      "Opponent has established ushiro ashi-garami from top with their weight distribution shifted forward toward the heel hook finish",
+      "You have controlled or are positioned to control the opponent's far-side posting hand to prevent base recovery",
+      "Your trapped heel is protected through dorsiflexion and the opponent's finishing grip has been neutralized or is not yet established",
+      "Your free leg has mat contact for posting and driving force into the sweep rotation",
+      "Your hips are angled toward the opponent rather than flat on the mat, creating the rotational entry angle needed for the sweep"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Control opponent's posting hand",
+        "description": "From ushiro ashi-garami bottom, reach across with your near-side hand to grip the opponent's far wrist or sleeve. This is the single most important setup detail—without controlling their posting hand, the opponent will simply post and base out during the sweep attempt, wasting your energy and potentially exposing your heel."
+      },
+      {
+        "step_number": 2,
+        "action": "Strip or redirect heel hook grip",
+        "description": "Using your free hand, strip or redirect the opponent's grip on your heel while maintaining dorsiflexion. You must neutralize the active submission threat before committing to the sweep motion. If you cannot fully break the grip, redirect their hand away from the finishing angle so the grip becomes mechanically weak during rotation."
+      },
+      {
+        "step_number": 3,
+        "action": "Angle hips toward opponent",
+        "description": "Turn your hips toward the opponent to create the rotational entry angle for the sweep. This hip angle change is critical because sweeping from a flat position generates minimal rotational force. Your inverted hip position should face toward the opponent's centerline rather than away from it, loading the rotational mechanics of the entanglement."
+      },
+      {
+        "step_number": 4,
+        "action": "Post free leg on mat",
+        "description": "Plant your free leg firmly on the mat with the foot positioned behind or beside the opponent's hip. This posting leg serves as the primary force generator for the sweep—it drives into the mat to create the upward and rotational force needed to off-balance the top player. Position the foot so the drive angle pushes into the opponent's center of gravity."
+      },
+      {
+        "step_number": 5,
+        "action": "Drive hips and initiate rotation",
+        "description": "Explosively extend your hips upward and into the opponent while simultaneously pulling their controlled arm across their body. The hip drive combined with the arm pull creates a diagonal force vector that loads the opponent's weight onto their near-side base—the side where you have already eliminated their posting hand. The entangled legs act as a fulcrum amplifying the rotational force."
+      },
+      {
+        "step_number": 6,
+        "action": "Follow through the rotation",
+        "description": "Continue driving through the sweep rotation without pausing at the balance point. Many practitioners stall here because the opponent feels momentarily weightless at the tipping point. Maintain constant rotational pressure by continuing the hip drive and arm pull until you have clearly passed the vertical plane and the opponent's back contacts the mat."
+      },
+      {
+        "step_number": 7,
+        "action": "Extract trapped leg during transition",
+        "description": "As you arrive on top, immediately work to extract your trapped leg from the reversed figure-four. The sweep rotation loosens the entanglement as the opponent's legs lose the structural tension that maintained control. Use your free hand to peel their legs apart while maintaining your weight on their torso to prevent them from re-establishing any entanglement."
+      },
+      {
+        "step_number": 8,
+        "action": "Establish mount with proper base",
+        "description": "Settle into mount position by driving your hips down onto the opponent's torso with knees wide for base. Immediately establish grapevine hooks or toes-on-mat positioning to prevent the bridge and roll escape that opponents commonly attempt immediately after being swept. Secure wrist control or collar grips to begin your offensive mount game before they recover composure."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Opponent posts far hand to maintain base during sweep initiation",
+        "effectiveness": "High",
+        "your_response": "If the posting hand was not controlled before initiating, abort the sweep attempt and re-establish grip control. Alternatively, redirect to an inside hook elevation sweep that generates upward force independent of their posting. Never continue forcing a sweep against a posted base.",
+        "targets_outcome": "Ushiro Ashi-Garami/Bottom"
+      },
+      {
+        "counter": "Opponent sits back and withdraws weight to eliminate forward commitment",
+        "effectiveness": "High",
+        "your_response": "When the opponent sits back, the sweep window closes but escape opportunities improve. Immediately transition to turtle recovery or leg extraction since their withdrawn weight reduces control depth. Use the space created by their retreat to clear your legs entirely.",
+        "targets_outcome": "Ushiro Ashi-Garami/Bottom"
+      },
+      {
+        "counter": "Opponent transitions to saddle by stepping their outside leg through during the sweep attempt",
+        "effectiveness": "High",
+        "your_response": "Recognize the saddle transition early by monitoring their outside leg movement. If they begin stepping through, immediately abandon the sweep and switch to saddle-specific defense, controlling their inside knee to prevent full saddle establishment. Boot defense and hip positioning become priority over sweeping.",
+        "targets_outcome": "Saddle/Bottom"
+      },
+      {
+        "counter": "Opponent accelerates heel hook finish during the sweep rotation to catch you mid-movement",
+        "effectiveness": "Medium",
+        "your_response": "Maintain dorsiflexion throughout the entire sweep rotation to deny finishing leverage. If you feel the heel hook tighten significantly during the sweep, tap immediately rather than continuing the rotation with a compromised knee. Prevention through grip stripping before sweep initiation is the best defense.",
+        "targets_outcome": "Ushiro Ashi-Garami/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Attempting the sweep without first controlling the opponent's far posting hand",
+        "consequence": "Opponent simply posts their hand on the mat and maintains base, completely negating the sweeping force while the bottom player wastes energy and potentially exposes the heel through unnecessary movement",
+        "correction": "Always establish wrist or sleeve control on the opponent's far posting hand before initiating any sweeping motion. This is a hard prerequisite—no grip means no sweep attempt"
+      },
+      {
+        "error": "Initiating the sweep while the opponent still has an active heel hook grip",
+        "consequence": "The rotational force of the sweep can actually tighten the heel hook, applying dangerous torque to the knee joint during the rotation and risking injury even if the sweep succeeds positionally",
+        "correction": "Strip or redirect the opponent's heel hook grip before committing to the sweep. The grip break and sweep are sequential, never simultaneous. Dorsiflexion alone is insufficient protection during active rotation"
+      },
+      {
+        "error": "Relying on upper body pulling force instead of hip drive for the sweep",
+        "consequence": "Insufficient force generation from arms alone against the opponent's full body weight, resulting in stalled sweep attempts that exhaust energy without achieving position change",
+        "correction": "Generate primary sweeping force through explosive hip extension and free leg drive into the mat. The arm controlling the posting hand redirects force but does not generate the primary off-balancing power"
+      },
+      {
+        "error": "Sweeping from a flat hip position instead of first angling hips toward the opponent",
+        "consequence": "Flat hips cannot generate rotational force effectively, resulting in a lifting motion rather than a sweeping rotation. The opponent can easily redistribute weight to counter a vertical lift",
+        "correction": "Turn hips toward the opponent before initiating the sweep to create the rotational angle. The hip angle change loads the mechanics of the entanglement and converts hip extension into rotational rather than vertical force"
+      },
+      {
+        "error": "Pausing at the balance point instead of driving through the full sweep rotation",
+        "consequence": "The opponent recovers base during the momentary pause and either re-establishes top position or transitions to a different entanglement, negating the energy invested in the sweep",
+        "correction": "Commit fully to the rotation once initiated. Continue driving through the balance point with constant hip pressure and arm pull until the opponent's back clearly contacts the mat. The sweep is one continuous movement, not a sequence of pauses"
+      },
+      {
+        "error": "Failing to extract the trapped leg immediately after arriving on top",
+        "consequence": "The opponent retains leg entanglement from bottom and can either re-sweep or attack with counter heel hooks before mount is properly established, negating the positional gain",
+        "correction": "Immediately prioritize leg extraction as you arrive on top. Use your free hand to peel apart the figure-four while maintaining heavy hips on their torso. Clearing the legs before establishing mount grips prevents counter-attacks"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Mechanics",
+        "focus": "Isolated sweep motion and hip drive development",
+        "description": "Practice the sweep motion from a static ushiro ashi-garami position with a compliant partner. Focus on the hip drive mechanics, free leg posting position, and rotational angle without resistance. Develop the muscle memory for coordinating arm pull, hip extension, and leg drive simultaneously. Perform 20-30 repetitions per side."
+      },
+      {
+        "phase": "Phase 2: Grip Control Integration",
+        "focus": "Adding grip fighting and posting hand control before sweep",
+        "description": "Practice the full setup sequence: control posting hand, strip heel grip, angle hips, then execute sweep. Partner provides moderate grip resistance but allows the sweep. Develop the connection between defensive grip stripping and offensive sweep initiation as one fluid transition rather than separate actions."
+      },
+      {
+        "phase": "Phase 3: Timing Development",
+        "focus": "Reading opponent's weight commitment and timing the sweep window",
+        "description": "Partner alternates between forward commitment for heel hook and sitting back to maintain base. Practice recognizing the forward weight shift and timing the sweep to coincide with maximum base vulnerability. Develop sensitivity to the opponent's weight distribution through tactile feedback from the entangled legs."
+      },
+      {
+        "phase": "Phase 4: Counter Recognition",
+        "focus": "Handling defensive reactions and transitioning when sweep is denied",
+        "description": "Partner actively counters the sweep attempt with posting, sitting back, or transitioning to saddle. Practice recognizing each counter early and selecting the appropriate response: re-grip and re-attempt, transition to turtle escape, or switch to saddle defense. Develop decision-making under live resistance."
+      },
+      {
+        "phase": "Phase 5: Live Positional Sparring",
+        "focus": "Full integration in positional rounds from ushiro ashi-garami bottom",
+        "description": "Begin positional sparring rounds starting in ushiro ashi-garami bottom against progressively skilled training partners. Integrate the sweep into your complete ushiro escape system, selecting between sweep, turtle recovery, and counter-attack based on opponent's behavior. Track success rate to identify mechanical breakdowns."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the single most important prerequisite to establish before initiating the sweep from ushiro ashi-garami?",
+        "answer": "Controlling the opponent's far posting hand is the most critical prerequisite. Without this control, the opponent will simply post on the mat when the sweeping force is applied, completely negating the off-balance. This grip must be established before any hip movement begins, as attempting to control the posting hand during the sweep is too late—the opponent will have already detected the sweep intention and reinforced their base."
+      },
+      {
+        "question": "Your opponent is driving forward aggressively to finish a heel hook—how do you determine if the timing is right for the sweep?",
+        "answer": "The sweep timing is optimal when you can feel the opponent's weight has shifted forward past their base center through the pressure in the entangled legs. Confirm three conditions: their far posting hand is controlled or reachable, their heel hook grip has been neutralized or is mechanically weak, and your free leg has mat contact for posting. If all three conditions are met during their forward commitment, initiate immediately—the window is typically only 1-2 seconds before they either finish or readjust their base."
+      },
+      {
+        "question": "What foot position must you maintain on your trapped leg throughout the entire sweep rotation and why?",
+        "answer": "Maintain strict dorsiflexion with toes pulled toward the shin throughout the entire sweep. This position protects the heel by pulling it close to the lower leg, preventing the opponent from establishing or tightening a heel hook grip during the rotation. The rotational forces during the sweep can actually amplify heel hook leverage if the foot is relaxed, making dorsiflexion a safety-critical requirement rather than just a technical preference."
+      },
+      {
+        "question": "Why is hip angle critical before initiating the sweep, and what happens if you sweep from flat hips?",
+        "answer": "The hips must be angled toward the opponent to convert hip extension into rotational sweeping force. When hips are flat, hip extension generates vertical lift rather than rotation—the opponent can redistribute weight to counter a lift but cannot easily counter rotational off-balancing through the entangled legs. The angle creates a lever arm that amplifies force through the figure-four configuration, making the sweep effective even against significantly larger opponents."
+      },
+      {
+        "question": "You initiate the sweep but feel the opponent stepping their outside leg through during your rotation—what should you do?",
+        "answer": "Immediately abandon the sweep attempt and switch to saddle defense. The opponent stepping their outside leg through indicates a transition to saddle, which is a worse position than ushiro ashi-garami bottom. Control their inside knee with your hands to prevent full saddle establishment, begin boot defense on the trapped foot, and redirect your movement toward turtle recovery rather than continuing a sweep that will land you in deeper entanglement."
+      },
+      {
+        "question": "What is the primary force generator for the sweep—the arms or the hips?",
+        "answer": "The hips and free leg drive are the primary force generators. The arm controlling the opponent's posting hand serves as a redirect mechanism that prevents base recovery, but the actual off-balancing force comes from explosive hip extension combined with free leg pushing against the mat. Attempting to sweep using primarily arm strength generates insufficient force against the opponent's full body weight and exhausts the practitioner's upper body, which is already compromised from the inverted position."
+      },
+      {
+        "question": "After completing the sweep and arriving on top, what is your immediate priority before establishing mount grips?",
+        "answer": "Immediately extract the trapped leg from the reversed figure-four entanglement. If you establish mount grips without first clearing the leg entanglement, the opponent retains the ability to counter-sweep or attack with heel hooks from bottom. Use your free hand to peel apart the figure-four while keeping heavy hip pressure on the opponent's torso to prevent them from using the remaining entanglement offensively."
+      },
+      {
+        "question": "When should you choose the sweep over safer escape options like inversion to turtle or leg extraction to guard?",
+        "answer": "Choose the sweep when the opponent's forward weight commitment is pronounced, their posting hand is controllable, and their heel grip has been neutralized. The sweep is the highest-reward option but also the highest-risk. If the opponent maintains cautious base positioning without overcommitting forward, safer options like turtle recovery or systematic leg extraction provide more reliable escape with less risk of ending up in saddle. Use the sweep as a weapon against aggressive finishers, not as a default escape against patient leg lock players."
+      }
+    ],
+    "safety_considerations": "The Sweep from Ushiro Ashi-Garami involves rapid rotational forces through the knee and ankle joints of both practitioners during the sweeping motion. Always strip or neutralize the opponent's heel hook grip before initiating the sweep—rotational forces during the sweep can amplify existing heel hook leverage and cause serious knee ligament damage. Maintain dorsiflexion throughout the entire rotation to protect the heel. Both practitioners should agree on tap protocols before drilling, as the transition from bottom to top can cause unexpected torque on entangled joints. Begin training at slow, controlled speeds and increase intensity only after both partners are comfortable with the rotational mechanics. If either partner feels any torsional stress in the knee during rotation, stop immediately and reset."
+  },
+  "defender": {
+    "name": "Sweep from Ushiro Ashi-Garami Defender",
+    "description": "Defend against the sweep from Ushiro Ashi-Garami top. Learn to maintain base during heel hook attempts, recognize sweep initiation cues, and transition to saddle when sweep is detected.",
+    "overview": "Defending the Sweep from Ushiro Ashi-Garami requires maintaining base integrity while simultaneously pursuing heel hook or ankle lock finishes from the reversed leg entanglement. The top player faces a fundamental dilemma: committing weight forward for submission finishes creates sweep vulnerability, while sitting back to maintain base reduces finishing effectiveness and may allow the bottom player to escape entirely. Effective defense centers on recognizing the sweep initiation cues—grip fighting on the posting hand, hip angle changes beneath you, and free leg repositioning for a mat post—and responding with appropriate base adjustments, posting, or positional transitions to saddle. Understanding the sweep's mechanical requirements allows the top player to systematically remove prerequisites rather than simply resisting the sweeping force, maintaining offensive initiative throughout the exchange without sacrificing base stability.",
+    "key_principles": [
+      "Maintain base awareness during heel hook finishing attempts by keeping at least one posting hand available at all times",
+      "Recognize sweep initiation cues early through tactile feedback from the entangled legs and visual monitoring of opponent's hand positioning",
+      "Prevent opponent from controlling your far posting hand, which is the primary sweep prerequisite they must establish",
+      "Transition to saddle when sweep attempt is detected, converting the opponent's movement into a positional upgrade rather than simply defending",
+      "Distribute weight through the figure-four entanglement rather than driving forward excessively, maintaining base center behind the tipping point",
+      "Use opponent's sweep attempt as a submission window—their commitment to sweeping often exposes the heel during rotation"
+    ],
+    "recognition_cues": [
+      "Opponent reaches across to grip or control your far-side posting hand or wrist, indicating sweep setup rather than pure escape",
+      "Opponent's hips angle toward you rather than away, loading the rotational mechanics needed for the sweep",
+      "Free leg repositions to establish a posting point on the mat behind or beside your hip, providing the drive platform for the sweep",
+      "Opponent strips your heel hook grip with unusual urgency, suggesting they are clearing the submission threat to enable a sweep rather than simply defending passively",
+      "Weight shift sensation through the entangled legs changes from pulling away to driving into you, indicating offensive sweeping intent versus escape intent"
+    ],
+    "defensive_options": [
+      {
+        "action": "Maintain far-side posting hand free and ready to post on the mat",
+        "when_to_use": "Continuously during all heel hook finishing attempts from ushiro ashi-garami top position",
+        "targets_outcome": "Ushiro Ashi-Garami/Bottom",
+        "if_successful": "Sweep is completely negated because the opponent cannot generate sufficient off-balance without controlling the posting hand, and you maintain top attacking position",
+        "risk": "Keeping one hand free for posting reduces the grip options available for heel hook finishing, potentially lowering submission success rate"
+      },
+      {
+        "action": "Sit hips back to withdraw weight when sweep initiation is detected",
+        "when_to_use": "When you feel the opponent's hips angle toward you and their free leg begins repositioning for a mat post",
+        "targets_outcome": "Ushiro Ashi-Garami/Bottom",
+        "if_successful": "Eliminates the forward weight commitment the sweep requires, forcing the opponent to abandon the sweep attempt and choose a different escape strategy",
+        "risk": "Sitting back creates space that may allow the opponent to complete a standard escape to turtle or extract their legs entirely"
+      },
+      {
+        "action": "Transition to saddle by stepping outside leg through during opponent's sweep initiation",
+        "when_to_use": "When you detect the sweep attempt early and can redirect your movement into a positional upgrade before the sweep gains momentum",
+        "targets_outcome": "Saddle/Bottom",
+        "if_successful": "Convert the opponent's sweep attempt into a transition to a more dominant leg entanglement position, dramatically worsening their situation",
+        "risk": "Mistiming the saddle transition during active sweep rotation can result in losing leg entanglement entirely if the step-through is incomplete"
+      },
+      {
+        "action": "Accelerate heel hook finish during the sweep rotation window",
+        "when_to_use": "When the opponent commits to the sweep but their heel becomes momentarily exposed during the rotational movement",
+        "targets_outcome": "Ushiro Ashi-Garami/Bottom",
+        "if_successful": "Catch the heel hook during the sweep rotation when the opponent's defensive attention is focused on sweeping rather than heel protection, finishing the submission",
+        "risk": "If the heel hook is not tight enough and the sweep completes, you end up on bottom with a compromised attacking grip"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Ushiro Ashi-Garami/Bottom",
+        "how": "Maintain far-side posting hand availability throughout all finishing attempts. When the sweep is initiated, immediately post the free hand on the mat and distribute weight away from the tipping point. The opponent's sweep attempt fails and they remain trapped in ushiro ashi-garami bottom."
+      },
+      {
+        "outcome": "Saddle/Bottom",
+        "how": "When the sweep attempt is detected early through recognition cues, redirect your movement by stepping your outside leg through to establish saddle configuration. The opponent's sweep momentum actually assists your transition by creating the rotational movement needed for your leg to clear into saddle position. This converts their offensive attempt into a worse position for them."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Committing both hands to heel hook finishing grips without maintaining a free posting hand",
+        "consequence": "Both hands locked on the heel means no base recovery option when the sweep is initiated, making even a poorly executed sweep successful because the defender cannot post",
+        "correction": "Always maintain at least one hand free or quickly accessible for posting during heel hook attempts. Develop finishing mechanics that use one-hand grip supplemented by body positioning rather than requiring both hands locked on the heel"
+      },
+      {
+        "error": "Driving weight excessively forward during finishing attempts without monitoring opponent's hand positioning",
+        "consequence": "Forward weight commitment beyond the base tipping point makes the sweep trivially easy for the bottom player who has prepared the proper setup prerequisites",
+        "correction": "Keep hips behind the tipping point by distributing weight through the figure-four entanglement rather than driving shoulders forward. Monitor the opponent's hand position on your posting arm as the primary indicator of sweep setup"
+      },
+      {
+        "error": "Ignoring the sweep threat and treating all defensive movements as escape attempts",
+        "consequence": "Failing to distinguish between sweep initiation and standard escape means applying incorrect defensive responses, such as deepening entanglement when the correct response is base adjustment",
+        "correction": "Learn the specific recognition cues that distinguish sweep setup from escape attempts: grip fighting on posting hand, hip angle toward you, and free leg repositioning all indicate sweep rather than escape intent"
+      },
+      {
+        "error": "Attempting to resist the sweep through stiffening and muscular resistance rather than technical base adjustment",
+        "consequence": "Muscular resistance against a properly timed sweep exhausts energy rapidly and often fails because the rotational force through the entangled legs exceeds what arm strength can counter",
+        "correction": "Respond with technical base adjustments—posting, sitting back, or transitioning to saddle—rather than trying to muscularly resist the rotational force. Positional adjustment is always more effective than strength against a properly loaded sweep"
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the earliest recognition cue that your opponent is setting up a sweep rather than a standard escape from ushiro ashi-garami bottom?",
+        "answer": "The earliest cue is the opponent reaching to control your far-side posting hand. Standard escapes focus on leg clearing and turtle rotation, where the hands work to control your inside knee. When the opponent's hand targets your posting arm instead, they are establishing the primary sweep prerequisite. This distinction appears 1-2 seconds before the actual sweep initiation, providing a critical early warning window for defensive response."
+      },
+      {
+        "question": "Why is transitioning to saddle an effective counter to the sweep attempt, and what mechanical principle makes this work?",
+        "answer": "Transitioning to saddle works because the opponent's sweep rotation actually assists your outside leg step-through. The rotational movement they generate to sweep you creates space for your leg to clear into the saddle configuration. Additionally, their commitment to sweeping means their hands are occupied with your posting arm rather than blocking your leg transition. The saddle converts their offensive movement into a positional upgrade for you, making their sweep attempt counterproductive."
+      },
+      {
+        "question": "How should you adjust your weight distribution during heel hook finishing attempts to prevent sweep vulnerability without reducing finishing effectiveness?",
+        "answer": "Distribute weight primarily through the figure-four entanglement and your posted leg rather than driving shoulders forward past your hip line. This keeps your center of gravity behind the tipping point while still allowing downward finishing pressure through the entangled legs. Use your inside leg control on their thigh to generate heel hook finishing leverage rather than forward body weight, maintaining base stability and finishing pressure simultaneously."
+      },
+      {
+        "question": "Your opponent has controlled your posting hand and you feel their hips beginning to drive into you—what is the optimal response at this late stage?",
+        "answer": "At this late stage, the sweep is likely to succeed if you try to simply resist. Your best option is to immediately step your outside leg through to transition to saddle before the sweep gains full momentum. If the saddle transition is not available, use your trapped posting hand to frame on the mat by bending the elbow and posting on the forearm instead of the full hand—this partial post may be sufficient to stall the sweep and create time for full hand recovery."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Recognition Training",
+        "focus": "Identifying sweep setup cues versus standard escape indicators",
+        "description": "Partner alternates between sweep setup sequences and standard escape attempts from ushiro ashi-garami bottom. Practice identifying which movement pattern is being initiated based on hand positioning, hip angle, and free leg placement. Call out the identification verbally before the technique develops to build early recognition speed."
+      },
+      {
+        "phase": "Phase 2: Base Maintenance Under Pressure",
+        "focus": "Maintaining posting hand availability during finishing attempts",
+        "description": "Practice heel hook finishing attempts while partner actively targets the posting hand for control. Develop the habit of maintaining at least one free posting hand during all finishing sequences. Work on one-hand supplemented finishing mechanics that preserve base stability without sacrificing finishing effectiveness."
+      },
+      {
+        "phase": "Phase 3: Saddle Transition Counter",
+        "focus": "Converting sweep attempts into saddle transitions",
+        "description": "Partner initiates sweep attempts at various speeds and commitment levels. Practice timing the saddle step-through to coincide with the opponent's rotational movement. Develop sensitivity for the optimal transition window between sweep initiation and the point where the sweep gains too much momentum to redirect."
+      },
+      {
+        "phase": "Phase 4: Live Positional Sparring",
+        "focus": "Integration of all defensive options against sweep-capable opponents",
+        "description": "Positional rounds starting in ushiro ashi-garami top against partners who actively threaten the sweep. Practice reading intentions, maintaining base during finishes, and selecting appropriate defensive responses. Track how often you successfully defend the sweep versus being reversed or successfully transitioning to saddle."
+      }
+    ]
+  }
+}

@@ -1,0 +1,398 @@
+{
+  "name": "Counter Sweep from Outside Ashi",
+  "description": "Master the Counter Sweep from Outside Ashi-Garami in BJJ. Complete guide covering sweep mechanics, timing, setups, and transitions to dominant side control.",
+  "tags": [
+    "bjj",
+    "transition",
+    "sweep",
+    "outside ashi-garami",
+    "leg entanglement",
+    "counter",
+    "no-gi",
+    "advanced",
+    "positional advancement"
+  ],
+  "from_position": "Outside Ashi-Garami/Bottom",
+  "outcomes": [
+    {
+      "to": "Side Control/Top",
+      "probability": 40,
+      "result": "success"
+    },
+    {
+      "to": "Outside Ashi-Garami/Bottom",
+      "probability": 35,
+      "result": "failure"
+    },
+    {
+      "to": "Open Guard/Bottom",
+      "probability": 25,
+      "result": "counter"
+    }
+  ],
+  "success_rate": 40,
+  "overview": "The Counter Sweep from Outside Ashi-Garami is a positional reversal technique where the bottom player uses their leg entanglement as a fulcrum to sweep the top player and establish side control. This sweep is initiated as a counter to the opponent's escape attempt—when the top player stands, postures up, or drives forward to extract their trapped leg, their weight shift creates the off-balance necessary for the sweep to succeed. The figure-4 leg configuration that controls the opponent's leg doubles as a mechanical lever when combined with proper hip drive and upper body control.\n\nThe technique represents a critical decision point in the outside ashi-garami game. When heel hook and ankle lock attempts are being effectively defended, the counter sweep provides an alternative pathway to dominant position rather than expending energy on diminishing-return submission attempts. The outside angle of the entanglement creates specific sweep trajectories that differ from sweeps available in inside ashi or 50-50, and the asymmetric control favors sweeps directed perpendicular to the opponent's centerline.\n\nTiming is the defining factor in this sweep's success rate. The sweep window opens when the opponent commits their weight in a readable direction during their escape sequence. Forward driving, standing posture, and lateral hip rotation all create distinct sweep opportunities with different angles of attack. Initiating the sweep from a static position against a balanced opponent yields minimal results—the technique requires reading and exploiting the opponent's movement rather than forcing a sweep against a settled base. The risk-reward calculation is significant: loosening the figure-4 to generate sweep momentum creates a window where the opponent may extract their leg entirely, converting the position from outside ashi to open guard.",
+  "conditions": [
+    "Opponent shifts weight to stand, posture up, or drive forward while their leg remains trapped in your outside ashi-garami figure-4 configuration",
+    "Your figure-4 leg configuration maintains sufficient tightness to serve as a fulcrum point for the sweeping motion while still allowing hip mobility",
+    "At least one hand is free to establish upper body control on the opponent or post on the mat to generate sweep force",
+    "Opponent's center of gravity has displaced from their balanced base in a readable direction, creating a viable sweep angle"
+  ],
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Sit-Up Counter Sweep",
+      "description": "When the opponent leans back to defend or apply a counter heel hook, their backward weight shift opens a direct forward path. Post your free hand behind you and explosively sit up, driving your hips forward while using the entangled leg as an anchor that prevents them from retreating. The opponent is driven flat on their back as your chest loads onto their torso. Finish by clearing the entanglement and establishing side control crossface.",
+      "when_to_use": "When the opponent leans back significantly during their escape attempt or counter-submission, creating their center of gravity behind their base of support"
+    },
+    {
+      "variant_name": "Forward Drive Redirect",
+      "description": "When the opponent drives forward aggressively to stack or smash through the outside ashi position, redirect their momentum laterally using an underhook or collar tie combined with a hip bump. Their forward drive provides the energy for the sweep—your role is to redirect that force perpendicular to their intended direction. As they topple sideways, follow through to establish side control on the opposite side from their drive direction.",
+      "when_to_use": "When the opponent commits to a heavy forward pressure pass or stacking attempt, generating forward momentum that can be redirected laterally for the sweep"
+    },
+    {
+      "variant_name": "Rolling Counter Sweep",
+      "description": "When the entanglement is loose enough to allow rotational movement, use a shoulder roll toward the trapped leg side to invert the positional hierarchy. The rolling momentum breaks the opponent's grip structure and carries you over their body. As you complete the rotation, you end up in top position with their legs beneath you. Immediately strip the remaining entanglement and consolidate side control before they can re-enter their guard.",
+      "when_to_use": "When the opponent has not fully secured the knee line in their outside ashi defense and the entanglement allows enough slack for rotational movement through the position"
+    }
+  ],
+  "position_integration": "The Counter Sweep from Outside Ashi-Garami bridges the modern leg lock game with traditional top pressure passing by providing a direct link between a bottom leg entanglement and dominant side control. This technique serves as both a deterrent against reckless leg escape attempts and a reward for practitioners who develop offensive versatility from the bottom of leg entanglements. It integrates with the broader outside ashi-garami attack tree as an alternative to heel hooks, ankle locks, and positional advancements like saddle or inside ashi entries. Understanding this sweep changes the game theory of the outside ashi exchange—opponents who know you can sweep must balance their escape attempts with anti-sweep base maintenance, which directly limits their extraction effectiveness and creates additional windows for leg lock finishes.",
+  "related_content": [
+    {
+      "name": "Outside Ashi-Garami",
+      "relationship": "Starting position from which the counter sweep is initiated"
+    },
+    {
+      "name": "Side Control",
+      "relationship": "Primary target position achieved on successful sweep completion"
+    },
+    {
+      "name": "Counter Sweep from Leg Entanglement",
+      "relationship": "General version of this technique applicable to all leg entanglement configurations"
+    },
+    {
+      "name": "Ashi Garami Escape",
+      "relationship": "Opponent's primary defensive technique that creates the sweep timing window"
+    },
+    {
+      "name": "Outside Heel Hook",
+      "relationship": "Alternative submission attack from the same starting position when sweep conditions are absent"
+    },
+    {
+      "name": "Inside Ashi-Garami",
+      "relationship": "Related leg entanglement with different sweep angles and mechanics"
+    },
+    {
+      "name": "Saddle",
+      "relationship": "Alternative positional advancement target from outside ashi bottom"
+    },
+    {
+      "name": "Ashi Garami",
+      "relationship": "Parent position family encompassing all ashi variations including outside ashi"
+    },
+    {
+      "name": "Open Guard",
+      "relationship": "Position reached on failed sweep when entanglement is lost during the attempt"
+    },
+    {
+      "name": "50-50 Guard",
+      "relationship": "Related leg entanglement with mutual control dynamics that affect sweep availability"
+    }
+  ],
+  "attacker": {
+    "name": "Counter Sweep from Outside Ashi Attacker",
+    "description": "Learn to execute the Counter Sweep from Outside Ashi-Garami. Step-by-step guide to sweeping from leg entanglements, timing the reversal, and establishing side control top position.",
+    "overview": "As the attacker executing the counter sweep from outside ashi-garami, your objective is to exploit the opponent's compromised base during their escape attempt and convert your leg entanglement into a sweeping fulcrum. The key insight is that effective escapes from outside ashi require the top player to commit their weight in specific directions—standing requires upward commitment, stacking requires forward drive, hip rotation requires lateral movement—and each of these weight commitments creates a corresponding vulnerability that can be swept through. Your success depends on reading the opponent's weight distribution, timing the sweep to coincide with their maximum displacement from balanced base, and maintaining enough structural integrity through your figure-4 and upper body grips to generate the off-balancing force needed to topple them. The sweep is most available during the opponent's active escape attempt rather than from a static position.",
+    "key_principles": [
+      "Read the opponent's weight distribution before committing—the opponent must be actively displacing their base through escape movement before you initiate the sweep",
+      "Use the figure-4 leg configuration as both a control mechanism and a sweeping fulcrum, adjusting the tightness to balance control with the hip mobility needed for the sweep",
+      "Time the sweep to coincide with the opponent's escape movement, sweeping in the direction of their weight commitment rather than against their strongest base",
+      "Maintain at least one free arm to post or control the opponent's upper body throughout the sweep—never allow both arms to be pinned or occupied",
+      "Drive through the sweep with hip power and core rotation rather than arm strength, using the entangled leg as an anchor that prevents the opponent from retreating",
+      "Commit fully once initiated—hesitation during the sweep allows the opponent to re-center their base and may expose your entanglement to extraction"
+    ],
+    "setup_requirements": [
+      "Opponent has initiated an escape attempt that displaces their center of gravity from a balanced position over their base",
+      "Your outside ashi-garami figure-4 is tight enough to function as a lever but allows sufficient hip mobility to generate sweep force",
+      "At least one arm is free from the opponent's control to post on the mat or establish upper body connection for directing the sweep",
+      "Opponent's base is compromised by their movement—either rising to stand, driving forward to stack, or rotating laterally to extract their leg",
+      "You have identified the direction of the sweep based on the opponent's weight commitment and the angle of your entanglement"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Identify the sweep window",
+        "description": "Monitor the opponent's weight distribution and movement patterns from outside ashi-garami bottom. The sweep becomes available when they shift weight to stand, drive forward to stack, or rotate laterally to extract their leg. Look for the moment their center of gravity moves beyond their base of support in a direction you can exploit with your entanglement angle."
+      },
+      {
+        "step_number": 2,
+        "action": "Adjust figure-4 for sweep leverage",
+        "description": "Modify your leg configuration to maximize sweeping leverage while maintaining enough control to prevent immediate leg extraction. Your outside leg (crossing over their thigh) becomes the primary lever arm, while your inside leg maintains the triangle hook. Shift your hip angle slightly to align your sweeping direction with the opponent's weight displacement."
+      },
+      {
+        "step_number": 3,
+        "action": "Establish upper body connection",
+        "description": "Secure a controlling grip on the opponent's upper body with your free hand—collar tie behind the neck, wrist control on their near arm, or underhook on their near side. This grip serves as the steering mechanism that directs their fall trajectory during the sweep and prevents them from posting to recover balance."
+      },
+      {
+        "step_number": 4,
+        "action": "Initiate off-balance with hip drive",
+        "description": "Explosively drive your hips toward the opponent in the sweep direction while simultaneously pulling their upper body with your grip. The combined lower-body push through the entangled leg and upper-body pull creates rotational force that topples their balanced structure. Your hip drive is the primary force generator—think of your hips as a piston firing into the gap in their base created by their escape movement."
+      },
+      {
+        "step_number": 5,
+        "action": "Block opponent's post and follow through",
+        "description": "As you generate the off-balance, use your upper body grip to prevent the opponent from posting their free hand to recover base. Control their far shoulder or wrist while continuing your forward hip drive. A skilled opponent will attempt to post immediately upon feeling the sweep—blocking this post is the difference between a completed sweep and a failed attempt."
+      },
+      {
+        "step_number": 6,
+        "action": "Complete positional reversal",
+        "description": "Drive your weight over the opponent's centerline until they are loaded onto their back. Your chest should end up heavy on their torso as you transition from the entanglement position to top. Maintain forward pressure throughout the transition to prevent the opponent from turtling, re-entering a guard position, or scrambling to their knees."
+      },
+      {
+        "step_number": 7,
+        "action": "Clear entanglement and establish side control",
+        "description": "Once top position is achieved with chest pressure, immediately extract your legs from the remaining entanglement by circling your knee toward the mat and pummeling free from their hook structure. Do not pause while still entangled—the opponent can re-enter their attacking position. After clearing, establish standard side control with crossface, hip-to-hip contact, and proper weight distribution."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Opponent posts their free hand wide to block the sweep and re-establishes base before you complete the reversal",
+        "effectiveness": "High",
+        "your_response": "Attack the posting arm immediately with a two-on-one grip or kimura threat, forcing the opponent to choose between maintaining their post and protecting their arm. If they retract the post to defend, re-initiate the sweep.",
+        "targets_outcome": "Outside Ashi-Garami/Bottom"
+      },
+      {
+        "counter": "Opponent extracts their trapped leg during the sweep initiation by exploiting the loosened figure-4 configuration",
+        "effectiveness": "High",
+        "your_response": "If extraction is partial, tighten the figure-4 and abandon the sweep to maintain ashi position. If extraction is complete, immediately transition to open guard retention and work to re-establish leg entanglement or recover a different guard position.",
+        "targets_outcome": "Open Guard/Bottom"
+      },
+      {
+        "counter": "Opponent sprawls hips backward and drives crossface pressure to flatten you back to the mat",
+        "effectiveness": "Medium",
+        "your_response": "Use the sprawl momentum to rotate underneath and re-angle your hips for a different sweep direction, or abandon the sweep and use the opponent's forward pressure to threaten a heel hook as they drive into your entanglement.",
+        "targets_outcome": "Outside Ashi-Garami/Bottom"
+      },
+      {
+        "counter": "Opponent releases their trapped leg and immediately scrambles to pass your guard during the chaotic transition",
+        "effectiveness": "Medium",
+        "your_response": "Maintain forward pressure through the scramble and pursue top position aggressively rather than accepting bottom guard. If the scramble is lost, establish defensive frames and work guard recovery from the resulting open guard position.",
+        "targets_outcome": "Open Guard/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Loosening the figure-4 too much before initiating the sweep, giving the opponent an easy leg extraction window",
+        "consequence": "Opponent pulls their leg free before the sweep generates any off-balance, leaving you in open guard without the entanglement advantage you started with",
+        "correction": "Maintain figure-4 tightness until the moment of explosive hip drive—only allow the natural loosening that occurs during the sweep motion itself, not a pre-emptive release of control"
+      },
+      {
+        "error": "Attempting the sweep from a static position when the opponent has settled base and balanced weight",
+        "consequence": "The sweep fails against their strongest base, wastes energy, and telegraphs your intent so the opponent prepares to counter your next attempt",
+        "correction": "Only initiate the sweep during the opponent's active movement—their escape attempt creates the weight displacement necessary for the sweep to work"
+      },
+      {
+        "error": "Using arm strength instead of hip power to generate the sweeping force",
+        "consequence": "Insufficient force to complete the sweep against a resisting opponent, resulting in a stalled half-sweep that compromises both your entanglement and your ability to return to effective bottom position",
+        "correction": "Drive with your hips as the primary force generator, using your arms only for posting and controlling the opponent's upper body direction rather than for lifting or pushing"
+      },
+      {
+        "error": "Failing to clear the leg entanglement after achieving top position",
+        "consequence": "The opponent re-enters their leg attack from bottom position using the remaining entanglement, often from a better angle since your legs are still threaded through their control structure",
+        "correction": "Treat the sweep and leg extraction as one continuous sequence—immediately pummel your legs free after achieving top pressure rather than pausing to celebrate the reversal"
+      },
+      {
+        "error": "Sweeping in the wrong direction relative to the opponent's weight shift",
+        "consequence": "The sweep runs directly into the opponent's strongest base, guaranteeing failure and wasting the timing window that the opponent's movement created",
+        "correction": "Always sweep perpendicular to or along the same vector as the opponent's weight commitment—if they drive forward, redirect laterally; if they stand upward, drive forward into the space beneath them"
+      },
+      {
+        "error": "Telegraphing the sweep by sitting up slowly or visibly shifting weight before the explosive commitment",
+        "consequence": "Opponent recognizes the sweep attempt early and adjusts their base, posts defensively, or extracts their leg before you can generate sufficient force",
+        "correction": "Disguise the sweep within your defensive movements and submission threats—use subtle weight shifts to position for the sweep, then commit explosively when the timing window opens"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Sweep Mechanics",
+        "focus": "Hip drive and figure-4 fulcrum fundamentals",
+        "description": "Practice the hip drive and sweeping motion from outside ashi-garami bottom with a cooperative partner holding static position. Focus on generating force through hip rotation rather than arms, maintaining figure-4 tightness during the sweep, and proper posting mechanics. Partner provides no resistance. Ten repetitions per side."
+      },
+      {
+        "phase": "Phase 2: Timing Recognition",
+        "focus": "Identifying sweep windows during opponent escape attempts",
+        "description": "Partner executes slow-motion escape sequences from outside ashi-garami top (standing, stacking, hip rotation) while you identify the moment their base becomes vulnerable. Practice reading weight shifts and postural changes that signal sweep availability. Do not complete the sweep—focus purely on recognition and verbal callouts of the timing window."
+      },
+      {
+        "phase": "Phase 3: Sweep-to-Side-Control Integration",
+        "focus": "Connecting sweep through entanglement clearing to side control establishment",
+        "description": "Combine the sweep with immediate leg extraction and side control consolidation as one fluid sequence. Partner provides moderate resistance during the sweep and attempts to re-enter entanglement or recover guard after being swept. Develop the habit of continuous movement from sweep through pass to pin without pausing."
+      },
+      {
+        "phase": "Phase 4: Live Positional Sparring",
+        "focus": "Full-resistance application within complete outside ashi game",
+        "description": "Positional sparring starting from outside ashi-garami bottom. Partner attempts escapes and counter-attacks at full speed while you integrate the counter sweep alongside heel hooks, ankle locks, and positional advancements. Develop the decision-making to choose between sweep, submission, and positional advancement based on what the opponent presents."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the optimal timing window to initiate the counter sweep from outside ashi-garami?",
+        "answer": "The optimal window opens when the opponent actively shifts their weight during an escape attempt—specifically when they rise to stand, drive forward to stack, or rotate their hip laterally to extract their leg. The sweep must be initiated during this movement phase because the weight displacement creates the off-balance necessary for the technique. Attempting the sweep from a static position against a balanced opponent yields minimal results because there is no exploitable weight shift to convert into sweeping momentum."
+      },
+      {
+        "question": "What conditions must exist in your figure-4 configuration before attempting the counter sweep?",
+        "answer": "The figure-4 must be tight enough to function as a mechanical lever that anchors the opponent's leg during the sweep, but loose enough to allow your hips the mobility needed to generate sweeping force. Your outside leg crossing over their thigh serves as the primary lever arm, while your inside leg maintains the triangle hook. If the figure-4 is too loose, the opponent extracts their leg during the sweep. If too tight, you cannot generate sufficient hip rotation to create the off-balancing force."
+      },
+      {
+        "question": "Which hip movement generates the primary force in the counter sweep?",
+        "answer": "An explosive forward and rotational hip drive generates the primary sweeping force. The hips function as a piston driving into the gap in the opponent's base created by their escape movement. Hip extensors and core rotational muscles produce significantly more force than arm pulling, which is why the sweep fails when practitioners rely on upper body strength alone. The hip drive direction must align with the opponent's weight displacement vector for maximum effectiveness."
+      },
+      {
+        "question": "What is the most common reason the counter sweep fails against experienced grapplers?",
+        "answer": "The most common failure is attempting the sweep from a static position when the opponent has settled their base and balanced their weight. Experienced grapplers recognize sweep setups and will not provide the weight displacement needed by remaining disciplined in their escape mechanics. The second most common failure is loosening the figure-4 too early, which gives the opponent a leg extraction window before the sweep generates any meaningful off-balance."
+      },
+      {
+        "question": "How do your upper body grips function during the counter sweep?",
+        "answer": "Upper body grips serve two critical functions: directing the opponent's fall trajectory and preventing them from posting to recover base. A collar tie or wrist control on the near side steers the opponent in the sweep direction, while simultaneously blocking their ability to post their free hand. Without upper body grips, the opponent posts immediately upon feeling the off-balance, negating the sweep force entirely. Arms must be used for control and steering, not as primary force generators."
+      },
+      {
+        "question": "Your opponent posts their far hand to prevent the sweep—how do you adjust?",
+        "answer": "Immediately attack the posting arm with a two-on-one grip or kimura threat. The posting arm is extended and weight-bearing, making it structurally vulnerable to upper body submissions. This creates a dilemma where the opponent must choose between maintaining their anti-sweep post and protecting their arm. If they retract the post to defend the kimura threat, their base is removed and you re-initiate the sweep. The sweep-to-arm-attack chain is the primary combination from this position."
+      },
+      {
+        "question": "What direction should you sweep relative to the opponent's escape movement?",
+        "answer": "Sweep perpendicular to or along the same vector as the opponent's weight commitment. If they drive forward to stack, redirect them laterally using the angle of your outside ashi entanglement. If they rise upward to stand, drive forward into the space beneath them. If they rotate laterally to extract their hip, sweep them further in their rotation direction. Sweeping against their weight commitment means driving into their strongest base, which dramatically reduces success probability."
+      },
+      {
+        "question": "If the counter sweep fails and you lose the leg entanglement, what is your immediate priority?",
+        "answer": "Your immediate priority is guard retention from the open guard position you have been reduced to. Establish defensive frames with your forearms against the opponent's shoulders, insert your feet on their hips or biceps to create distance, and work to re-establish either a leg entanglement entry or a standard guard position. Do not attempt to scramble wildly for top position—a controlled guard recovery preserves your defensive structure and prevents being passed during the transition."
+      }
+    ],
+    "safety_considerations": "The counter sweep from outside ashi-garami involves significant rotational forces through intertwined legs. During training, execute sweeps with controlled speed to avoid hyperextension of the knee or ankle when the entanglement does not release cleanly. If existing submission pressure is being applied to your leg during the sweep attempt, communicate with your partner and ensure they release pressure before you generate sweeping force through the entangled limbs. Tap immediately if you feel unexpected joint pressure during the sweep motion. Use progressive resistance when drilling and avoid full-speed sweeps until both partners are comfortable with the movement pattern."
+  },
+  "defender": {
+    "name": "Counter Sweep from Outside Ashi Defender",
+    "description": "Defend and prevent the counter sweep from outside ashi-garami. Recognition cues, base maintenance, and techniques to maintain escape progress against sweep attempts.",
+    "overview": "As the defender against the counter sweep, you are the top player in outside ashi-garami whose opponent is attempting to use the entanglement to reverse your position. Your challenge is executing your leg extraction escape while maintaining enough base stability to prevent being swept. The fundamental tension is that effective escape movement requires committing your weight in specific directions, and each of these weight commitments creates a corresponding sweep vulnerability. Understanding how to continue your escape sequence while keeping sweep-resistant positioning is essential for surviving the modern outside ashi-garami bottom game where practitioners chain sweeps with heel hook threats. The key defensive skill is recognizing sweep initiation through your opponent's hip movement and grip changes, then responding with base adjustments or strategic acceleration of your escape before the sweep generates full momentum.",
+    "key_principles": [
+      "Maintain a wide, low base with active posting readiness throughout your escape sequence so you can respond instantly to forward hip drive from the bottom player",
+      "Keep your free hand available for posting rather than reaching for grips that compromise your balance during the escape",
+      "Recognize sweep initiation through the opponent's hip elevation, upper body grip changes, and shift from submission threat to positional movement",
+      "Accelerate your leg extraction when you feel sweep setup rather than freezing in place—a moving target is harder to sweep than a stationary one",
+      "Control the opponent's free arm when possible to remove their posting ability, which eliminates the mechanical prerequisite for most sweep variations",
+      "If the sweep is inevitable, transition to guard recovery rather than fighting a lost battle for top position from a compromised base"
+    ],
+    "recognition_cues": [
+      "Opponent begins generating forward hip drive from outside ashi bottom, shifting their weight toward you rather than remaining flat on the mat",
+      "Opponent frees one or both arms from defending their trapped leg and begins posting on the mat or reaching for your collar, wrist, or underhook",
+      "Opponent's hip angle changes from perpendicular submission-threatening position to a more forward-facing sweep-oriented alignment",
+      "You feel sudden forward pressure through the entanglement as the opponent's hip drive loads force through the connected figure-4 leg structure"
+    ],
+    "defensive_options": [
+      {
+        "action": "Post free hand wide and sprawl hips back to re-establish base against the sweep force",
+        "when_to_use": "Early in the sweep attempt when you feel the initial forward pressure but the opponent has not yet generated full hip drive momentum",
+        "targets_outcome": "Outside Ashi-Garami/Bottom",
+        "if_successful": "Opponent is driven back to flat position and you maintain the ability to continue your escape sequence with improved base awareness",
+        "risk": "If the post is too slow or positioned too high, the opponent may attack the posting arm with a kimura threat, converting your defensive action into their offensive opportunity"
+      },
+      {
+        "action": "Accelerate leg extraction by explosively rotating hip internally and stripping the figure-4 during the sweep initiation",
+        "when_to_use": "When the opponent loosens their figure-4 configuration to generate sweep momentum, creating a leg extraction window that did not exist during their tight entanglement",
+        "targets_outcome": "Open Guard/Bottom",
+        "if_successful": "You escape the leg entanglement entirely during the chaotic transition, converting the opponent's sweep attempt into your successful extraction",
+        "risk": "If extraction is incomplete, you may end up in a worse position with a partially freed leg that the opponent can re-entangle from a different angle"
+      },
+      {
+        "action": "Drive weight forward aggressively to flatten opponent before the sweep generates momentum",
+        "when_to_use": "When the opponent begins sitting up for a sit-up counter sweep variant and their upper body has not yet established controlling grips on you",
+        "targets_outcome": "Outside Ashi-Garami/Bottom",
+        "if_successful": "The opponent is driven flat on their back, the sweep attempt is shut down, and you can continue your escape from a position of control with your weight on top of them",
+        "risk": "Forward driving feeds your weight into the opponent's sweep direction if they redirect laterally, potentially accelerating the sweep rather than preventing it"
+      },
+      {
+        "action": "Disengage entirely by releasing defensive grips and standing up explosively to create distance",
+        "when_to_use": "When the sweep is well-timed and your base is irrecoverably compromised, making continued in-place defense more dangerous than resetting from distance",
+        "targets_outcome": "Open Guard/Bottom",
+        "if_successful": "You avoid the sweep and reset to a standing position from which you can re-engage your escape on your own terms without sweep pressure",
+        "risk": "If you disengage too late, the opponent has already generated enough momentum to complete the sweep regardless of your standing attempt"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Open Guard/Bottom",
+        "how": "Exploit the loosened figure-4 configuration that the opponent creates during their sweep initiation. As they adjust their legs for sweep leverage, the entanglement necessarily loosens—use this window to explosively rotate your hip internally, strip the triangle hook, and extract your leg completely. The opponent's commitment to the sweep means they cannot simultaneously tighten the entanglement and generate sweep force."
+      },
+      {
+        "outcome": "Outside Ashi-Garami/Bottom",
+        "how": "Shut down the sweep early by maintaining a low, wide base and posting your free hand immediately when you feel forward pressure through the entanglement. Keep your weight centered over your base of support throughout your escape sequence rather than allowing your center of gravity to drift in any direction that creates sweep vulnerability."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Freezing in place when feeling the sweep initiation rather than actively responding with base adjustments",
+        "consequence": "The opponent generates full sweep momentum against a static target, making the sweep much higher percentage than it would be against an actively adjusting defender",
+        "correction": "React immediately to sweep pressure with either posting, hip sprawl, or accelerated leg extraction—any active response is better than absorbing the sweep passively"
+      },
+      {
+        "error": "Reaching down to fight the opponent's upper body grips while sacrificing base stability",
+        "consequence": "Removing your hands from posting position to grip fight eliminates your primary anti-sweep structure, often resulting in being swept while your hands are occupied",
+        "correction": "Prioritize base maintenance over grip fighting—if the opponent establishes an upper body grip, address it through posture and base rather than hand-to-hand grip removal"
+      },
+      {
+        "error": "Leaning forward aggressively to smash without reading the opponent's sweep direction",
+        "consequence": "Forward lean feeds your weight directly into the opponent's sweep trajectory if they redirect laterally, converting your defensive aggression into their sweep momentum",
+        "correction": "Read the sweep direction before committing your weight in any direction—forward smashing is only effective against sit-up sweep variants, not against lateral redirects"
+      },
+      {
+        "error": "Ignoring the sweep threat while focused entirely on leg extraction",
+        "consequence": "Being swept mid-escape and ending up in side control bottom, which is significantly worse than the outside ashi-garami top position you were trying to escape from",
+        "correction": "Maintain dual awareness of both escape progression and sweep defense—being swept to side control is a worse outcome than remaining in the entanglement, so anti-sweep defense takes priority over aggressive extraction"
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the earliest recognition cue that your opponent is transitioning from leg attacks to a sweep attempt?",
+        "answer": "The earliest cue is a change in the opponent's arm activity—when they shift from controlling your heel or threatening submissions to freeing their arms and reaching toward the mat for a posting position or toward your upper body for a controlling grip. This arm repositioning precedes the hip drive by a critical window of time. Additionally, their hip angle may shift from a perpendicular submission-oriented position to a more forward-facing sweep-oriented alignment."
+      },
+      {
+        "question": "Why does the opponent's figure-4 necessarily loosen during their sweep attempt, and how can you exploit this?",
+        "answer": "The opponent must generate hip mobility to create sweeping force, which requires relaxing the tight figure-4 squeeze that characterizes effective outside ashi control. A maximally tight figure-4 prevents the hip rotation and forward drive needed for the sweep. This loosening creates a leg extraction window that does not exist during their tight entanglement. By accelerating your leg extraction during their sweep initiation, you can escape the entanglement precisely because their sweep mechanics require loosening the control that was preventing your escape."
+      },
+      {
+        "question": "How should you adjust your base when you feel the sweep being initiated from outside ashi-garami?",
+        "answer": "Immediately widen your base by posting your free hand on the mat on the side opposite to the sweep direction. Simultaneously sprawl your hips backward to lower your center of gravity and increase the distance the opponent must drive to complete the reversal. Keep your weight distributed over a wide base of support rather than stacked vertically. If the sweep direction is ambiguous, default to a wide post on the side away from the opponent's upper body grip, as that is the most likely sweep trajectory."
+      },
+      {
+        "question": "What is the primary risk of committing too heavily to anti-sweep defense while still in the leg entanglement?",
+        "answer": "Over-committing to anti-sweep defense can stall your escape progress entirely, leaving you trapped in outside ashi-garami indefinitely. The opponent can then cycle between sweep threats and submission threats, keeping you reactive and unable to advance your escape sequence. The optimal approach balances sweep defense with continued escape progression—your escape movements should incorporate anti-sweep base maintenance rather than treating them as separate sequential tasks."
+      },
+      {
+        "question": "When is it strategically better to disengage entirely rather than defend the sweep in place?",
+        "answer": "Strategic disengagement is appropriate when the sweep has already generated significant momentum and your base is irrecoverably compromised. If you feel your weight being loaded over the opponent's hips with no post available, attempting to hold position will result in a controlled sweep to side control. Explosive standing and disengagement sacrifices your escape positioning but prevents the worst outcome. The decision point is whether you can establish a post before the opponent completes the sweep—if not, immediate disengagement is the correct choice."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Sweep Recognition",
+        "focus": "Identifying counter sweep initiation cues from outside ashi top",
+        "description": "Practice maintaining outside ashi-garami top position while partner executes slow-motion counter sweeps. Focus on recognizing the timing triggers—arm repositioning, hip elevation, grip changes—that precede the sweep. Do not attempt to defend yet, purely develop recognition of when the sweep is being initiated."
+      },
+      {
+        "phase": "Phase 2: Base Maintenance Under Sweep Pressure",
+        "focus": "Posting and sprawling mechanics during escape attempts",
+        "description": "Partner attempts counter sweeps at moderate intensity while you practice posting, sprawling, and base adjustments without abandoning your escape sequence. Develop the ability to maintain both escape progression and anti-sweep base simultaneously. Focus on automatic posting responses to forward pressure."
+      },
+      {
+        "phase": "Phase 3: Extraction During Sweep Windows",
+        "focus": "Exploiting loosened entanglement during opponent's sweep initiation",
+        "description": "Partner initiates counter sweeps while you practice accelerating leg extraction during the figure-4 loosening that accompanies the sweep motion. Develop timing to extract your leg precisely when the opponent commits to the sweep, converting their offensive action into your escape opportunity."
+      },
+      {
+        "phase": "Phase 4: Full Integration Sparring",
+        "focus": "Complete escape sequence with sweep defense integration",
+        "description": "Full-resistance positional sparring from outside ashi-garami top where partner has the option to sweep, submit, or advance position at any time. Develop the decision-making to balance escape progression with sweep defense and submission defense simultaneously across extended exchanges."
+      }
+    ]
+  }
+}

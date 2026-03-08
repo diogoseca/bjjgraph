@@ -1,0 +1,391 @@
+{
+  "name": "Turn In from Reverse Kesa",
+  "description": "Master the Turn In escape from Reverse Kesa-Gatame. Learn hip mechanics, framing sequences, and half guard recovery techniques to escape this crushing pin.",
+  "tags": [
+    "bjj",
+    "transition",
+    "escape",
+    "reverse-kesa-gatame",
+    "half-guard-recovery",
+    "pin-escape",
+    "hip-escape"
+  ],
+  "from_position": "Reverse Kesa-Gatame/Bottom",
+  "outcomes": [
+    {
+      "to": "Half Guard/Bottom",
+      "probability": 40,
+      "result": "success"
+    },
+    {
+      "to": "Reverse Kesa-Gatame/Bottom",
+      "probability": 40,
+      "result": "failure"
+    },
+    {
+      "to": "Mount/Bottom",
+      "probability": 20,
+      "result": "counter"
+    }
+  ],
+  "success_rate": 40,
+  "overview": "The Turn In from Reverse Kesa-Gatame is a fundamental escape technique where the bottom player rotates their body toward the top player to close distance, nullify chest pressure, and recover half guard. Unlike shrimping away, which can expose the back or allow the top player to follow with mount transitions, turning in exploits the reverse orientation of the pin by moving into the space where the top player has the least structural control. The bottom player bridges to create momentary space, then rotates their hips and torso toward the top player while threading a knee between their bodies to establish half guard.\n\nThis escape is particularly effective against opponents who commit heavy chest pressure in Reverse Kesa-Gatame because the turn-in motion redirects that pressure laterally rather than absorbing it vertically. The key mechanical principle involves using the free arm as a frame on the top player's hip or far leg to create a pivot point, then driving the near-side hip under the opponent while the far leg posts for leverage. Timing the initial bridge when the top player shifts weight for a submission attempt or position adjustment dramatically increases success rate.\n\nStrategically, the Turn In complements other Reverse Kesa escape methods. When the bottom player threatens to turn in, the top player must widen their base or shift weight to block, which can open pathways for bridge escapes or shrimp-away recoveries. This creates a two-directional escape dilemma that prevents the top player from committing fully to either side. Advanced practitioners chain the turn-in with immediate underhook establishment upon reaching half guard, converting a desperate escape into an offensive half guard position with sweep potential.",
+  "conditions": [
+    "Bottom player has at least one free arm available for framing on opponent's hip or far leg",
+    "Top player's weight is centered or slightly forward on bottom player's chest rather than sprawled back",
+    "Bottom player retains enough hip mobility to bridge and rotate despite the pin pressure",
+    "Top player has not fully isolated both of bottom player's arms, leaving framing capability intact"
+  ],
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Underhook Turn In",
+      "description": "Instead of framing on the hip, the bottom player threads an underhook on the near side during the turn-in motion, establishing immediate offensive control upon reaching half guard. This variant bypasses the framing stage and directly secures the underhook, creating sweep threats from the moment half guard is established.",
+      "when_to_use": "When the top player's near arm is loose or elevated, leaving space for the underhook entry during the rotation"
+    },
+    {
+      "variant_name": "Knee Insert Turn In",
+      "description": "The bottom player prioritizes getting the near-side knee across the top player's hip line during the turn-in rather than relying on full body rotation first. The knee acts as a wedge that creates guaranteed space and prevents the top player from re-flattening. Once the knee is across, the bottom player completes the rotation behind the knee frame.",
+      "when_to_use": "Against heavier opponents where full body rotation is difficult without first establishing a structural barrier with the knee"
+    },
+    {
+      "variant_name": "Bridge-and-Turn Combination",
+      "description": "Combines an explosive bridge toward the trapped-arm side with an immediate turn-in during the descent. The bridge lifts the top player momentarily, and instead of trying to roll them over, the bottom player uses the space created during the bridge to rotate underneath and insert the knee shield. This is particularly effective when the top player posts wide to prevent standard bridge escapes.",
+      "when_to_use": "When the top player has wide base that prevents pure bridge escapes but the momentary elevation creates enough space for rotation"
+    }
+  ],
+  "position_integration": "The Turn In from Reverse Kesa-Gatame occupies a critical role in the bottom player's escape hierarchy from scarf hold variations. It provides the primary turn-toward escape option that complements shrimp-away escapes like the Bridge from Reverse Kesa-Gatame, creating a two-directional escape system that prevents the top player from loading weight in a single direction. Upon successful execution, the bottom player arrives in half guard with momentum and positional awareness, often with the underhook already established or readily available. This positions them to immediately threaten sweeps from half guard bottom rather than playing defensive retention. The technique also integrates with the broader side control escape framework, as the same turn-in mechanics apply across Kesa Gatame, Modified Scarf Hold, and standard Side Control escapes with minor grip and angle adjustments.",
+  "related_content": [
+    {
+      "name": "Reverse Kesa-Gatame",
+      "relationship": "Starting position - the pin this technique escapes from"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Primary target position upon successful turn-in escape"
+    },
+    {
+      "name": "Mount",
+      "relationship": "Counter outcome position if top player capitalizes on failed turn-in"
+    },
+    {
+      "name": "Bridge from Reverse Kesa-Gatame",
+      "relationship": "Complementary escape creating two-directional dilemma with the turn-in"
+    },
+    {
+      "name": "Escape Reverse Kesa-Gatame",
+      "relationship": "General escape framework that includes turn-in as primary technique option"
+    },
+    {
+      "name": "Reverse Kesa to Side Control",
+      "relationship": "Top player transition that the turn-in can inadvertently enable if executed poorly"
+    },
+    {
+      "name": "Reverse Kesa to North-South",
+      "relationship": "Top player transition that becomes available when bottom player turns away instead of in"
+    },
+    {
+      "name": "Knee Shield Half Guard",
+      "relationship": "Optimal half guard configuration to establish immediately after successful turn-in"
+    },
+    {
+      "name": "Bridge Escape from Kesa Gatame",
+      "relationship": "Related escape from parent scarf hold position using similar bridge mechanics"
+    },
+    {
+      "name": "Elbow Escape from Mount",
+      "relationship": "Backup escape needed if turn-in fails and top player transitions to mount"
+    },
+    {
+      "name": "Kesa Gatame",
+      "relationship": "Related scarf hold position with analogous turn-in escape mechanics"
+    }
+  ],
+  "attacker": {
+    "name": "Turn In from Reverse Kesa Attacker",
+    "description": "Complete guide to executing the Turn In escape from Reverse Kesa-Gatame. Master the framing, bridge timing, hip rotation, and knee insertion mechanics for reliable half guard recovery.",
+    "overview": "As the attacker executing the Turn In, your objective is to rotate your body toward the top player, close the distance that allows their chest pressure to be effective, and thread a knee between your bodies to establish half guard. This escape exploits the fundamental weakness of the reverse orientation: the top player's control is strongest when you remain flat and perpendicular, but weakens significantly when you rotate to face them. The turn-in converts crushing vertical pressure into manageable lateral contact, and the knee insertion creates an irreversible structural barrier that prevents re-flattening. Success depends on proper bridge timing, committed hip rotation, and immediate knee shield establishment upon creating space.",
+    "key_principles": [
+      "Bridge first to create space, then rotate - never try to turn under full weight without first lifting the opponent momentarily",
+      "Frame on the hip or far thigh to create a pivot point that guides your rotation and prevents the top player from following",
+      "Commit fully to the rotation - half-turns leave you in a worse position with your back partially exposed",
+      "Insert the knee immediately upon creating space to establish a structural barrier that prevents re-flattening",
+      "Time the turn-in when the top player shifts weight for a submission attempt or position adjustment",
+      "Use the far leg as a posting lever to drive your hips under the opponent during the rotation",
+      "Establish the underhook immediately upon reaching half guard to convert escape into offensive position"
+    ],
+    "setup_requirements": [
+      "At least one arm free for framing on opponent's hip, far thigh, or near-side body",
+      "Sufficient hip mobility to bridge despite the pin pressure on upper torso",
+      "Far leg posted flat on the mat with foot planted to provide driving leverage for bridge and rotation",
+      "Recognition of opponent's weight distribution to identify optimal timing window for the turn-in attempt"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Establish hip frame",
+        "description": "Place your free arm (typically the far arm) against the top player's far hip or upper thigh. This frame serves as the pivot point for your rotation and prevents the top player from driving their hips forward to follow your movement. Keep your elbow tight to your body to avoid arm isolation."
+      },
+      {
+        "step_number": 2,
+        "action": "Plant far foot",
+        "description": "Position your far foot flat on the mat close to your buttock with the knee bent. This leg provides the primary driving force for both the initial bridge and the subsequent hip rotation. The foot position should allow maximum hip extension when you bridge upward."
+      },
+      {
+        "step_number": 3,
+        "action": "Execute bridge",
+        "description": "Drive your hips upward explosively off the far foot while simultaneously pushing on the opponent's hip with your frame. This bridge creates momentary space between your chest and the top player's weight, opening the window for rotation. The bridge direction should be slightly toward the opponent rather than straight up."
+      },
+      {
+        "step_number": 4,
+        "action": "Rotate hips toward opponent",
+        "description": "As the bridge creates space, rotate your hips and torso toward the top player in one committed motion. Your near-side hip drives under the opponent while your frame on their hip prevents them from re-settling their weight. This is the critical moment where half-commitment leads to failure and back exposure."
+      },
+      {
+        "step_number": 5,
+        "action": "Insert knee shield",
+        "description": "Thread your near-side knee between your body and the top player's torso as you complete the rotation. The shin crosses their midsection, creating a structural barrier that prevents them from re-establishing chest pressure. This knee insertion is the irreversible checkpoint that secures your escape progress."
+      },
+      {
+        "step_number": 6,
+        "action": "Clamp half guard",
+        "description": "Once your knee is across, immediately triangulate your legs around the top player's near leg to establish half guard entanglement. Your top leg hooks over their thigh while your bottom leg secures underneath. This leg configuration locks the half guard position and prevents the top player from extracting their leg to re-pass."
+      },
+      {
+        "step_number": 7,
+        "action": "Establish underhook and angle",
+        "description": "With half guard secured, immediately fight for the underhook on the trapped-leg side. Simultaneously angle your body to face the opponent rather than remaining flat. This converts a defensive escape into an offensive half guard position with sweep and back-take potential. The underhook battle starts the moment the escape completes."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Top player drives hips forward and re-flattens during rotation attempt",
+        "effectiveness": "High",
+        "your_response": "Accelerate the knee insertion before the hip drive reconnects. If caught mid-rotation, use the frame to create a secondary bridge and reattempt. Alternatively, abandon the turn-in and chain into a shrimp-away escape in the opposite direction.",
+        "targets_outcome": "Reverse Kesa-Gatame/Bottom"
+      },
+      {
+        "counter": "Top player steps over to mount as bottom player creates space with the bridge",
+        "effectiveness": "High",
+        "your_response": "Insert knee shield before the leg can clear your hip line. If the mount is partially established, immediately transition to elbow escape from mount. Prevention is key: commit to the rotation faster than they can step over.",
+        "targets_outcome": "Mount/Bottom"
+      },
+      {
+        "counter": "Top player switches to north-south when feeling the turn-in direction",
+        "effectiveness": "Medium",
+        "your_response": "Follow their movement with your hips and immediately work north-south escape frames. The transition to north-south actually relieves the reverse kesa pressure, so use the positional change to re-establish defensive frames in the new position.",
+        "targets_outcome": "Reverse Kesa-Gatame/Bottom"
+      },
+      {
+        "counter": "Top player traps the framing arm during the turn-in attempt",
+        "effectiveness": "Medium",
+        "your_response": "Switch to the bridge-and-turn variant using your far leg as the primary driver instead of relying on the arm frame. Alternatively, if the arm is trapped shallow, use the entanglement as an anchor point to pull yourself into the rotation rather than pushing.",
+        "targets_outcome": "Reverse Kesa-Gatame/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Attempting to turn without bridging first to create space",
+        "consequence": "The full weight of the top player pins the bottom player flat, making rotation impossible and wasting energy in a grinding struggle against gravity",
+        "correction": "Always bridge first to momentarily unweight the pin, then immediately rotate during the window of reduced pressure. The bridge and turn should be one fluid sequence, not separate movements."
+      },
+      {
+        "error": "Half-committing to the rotation and stopping midway",
+        "consequence": "Leaves the bottom player at an awkward angle with their back partially exposed, giving the top player an easy transition to mount or back control",
+        "correction": "Commit fully to the rotation once initiated. The turn-in must be one decisive movement from flat-on-back to facing the opponent with knee shield inserted. Practice the full motion at speed to build commitment."
+      },
+      {
+        "error": "Failing to insert knee shield immediately after creating space",
+        "consequence": "The top player re-settles weight and re-establishes the pin before the escape is completed, often in a tighter configuration than before",
+        "correction": "The knee insertion must happen simultaneously with the rotation, not after. Think of threading the knee as part of the turning motion rather than a separate follow-up step."
+      },
+      {
+        "error": "Pushing on the opponent's upper body instead of framing on their hip",
+        "consequence": "The frame lacks structural advantage and the push creates arm isolation vulnerability. Framing high also fails to control the opponent's hip drive which is the primary re-flattening mechanism.",
+        "correction": "Frame exclusively on the hip or upper thigh where your arm has maximum mechanical advantage and directly controls the opponent's primary pressure vector."
+      },
+      {
+        "error": "Neglecting to secure half guard legs after the turn-in",
+        "consequence": "The top player extracts their leg and completes a pass to side control or mount before the bottom player can establish the guard position",
+        "correction": "Immediately clamp the half guard triangle with both legs the moment the knee shield crosses the opponent's midsection. This must be automatic and practiced until reflexive."
+      },
+      {
+        "error": "Remaining flat on back after establishing half guard instead of angling to side",
+        "consequence": "Arriving in half guard while flat allows the top player to immediately crossface and flatten, negating the escape effort with a dominant half guard top position",
+        "correction": "Complete the escape by turning fully onto your side and fighting for the underhook. The escape is not finished when half guard is established - it is finished when you have an offensive half guard angle."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Solo Mechanics",
+        "focus": "Bridge-and-rotate movement pattern",
+        "description": "Practice the bridge, hip rotation, and knee insertion sequence without a partner. Focus on smooth coordination between the bridge, turn, and knee thread. Perform 20 repetitions per side, emphasizing the fluid connection between each movement phase."
+      },
+      {
+        "phase": "Phase 2: Cooperative Drilling",
+        "focus": "Technique execution with compliant partner",
+        "description": "Partner applies light Reverse Kesa-Gatame pressure while you execute the full turn-in sequence at moderate speed. Partner provides realistic weight but does not resist the escape. Focus on proper frame placement, bridge timing, and knee insertion. 10 repetitions per side."
+      },
+      {
+        "phase": "Phase 3: Progressive Resistance",
+        "focus": "Timing and commitment under increasing pressure",
+        "description": "Partner gradually increases resistance from 30% to 70% across rounds. Bottom player must identify timing windows and commit to the rotation against real defensive pressure. Introduce the top player's common counters at 50% speed so the bottom player learns to anticipate and adjust."
+      },
+      {
+        "phase": "Phase 4: Chain Integration",
+        "focus": "Combining turn-in with complementary escapes",
+        "description": "Practice chaining the turn-in with bridge escapes and shrimp-away recoveries. When the turn-in is blocked, immediately transition to an alternative escape. When the alternative is blocked, return to the turn-in. Develop the two-directional escape instinct under full resistance."
+      },
+      {
+        "phase": "Phase 5: Live Positional Sparring",
+        "focus": "Full resistance application from Reverse Kesa-Gatame",
+        "description": "Start in Reverse Kesa-Gatame with full resistance. Bottom player works all available escapes with emphasis on the turn-in. Rounds last 2 minutes. Track success rate and identify which timing windows yield the highest escape percentage under competitive conditions."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the optimal timing window for initiating the turn-in from Reverse Kesa-Gatame?",
+        "answer": "The optimal timing is when the top player shifts weight for a submission attempt, adjusts their base, or transitions their grip configuration. Any momentary reduction in downward chest pressure creates the window needed for the initial bridge. Attempting the turn-in against fully settled, static pressure dramatically reduces success rate because the bridge must overcome the opponent's entire body weight."
+      },
+      {
+        "question": "Why is framing on the hip more effective than framing on the shoulder or chest during the turn-in?",
+        "answer": "The hip frame directly controls the opponent's primary pressure mechanism - their hip drive. Framing on the shoulder only displaces upper body weight while the hips can still re-settle and re-flatten you. Additionally, the hip frame provides better mechanical leverage for the rotation because it creates a pivot point at the correct height for threading the knee. Upper body frames also expose the arm to isolation and submission attacks."
+      },
+      {
+        "question": "Your opponent posts their far hand wide when they feel you beginning to turn - how do you adjust?",
+        "answer": "The wide hand post indicates they are prioritizing base against your rotation rather than maintaining chest pressure. This actually creates an opportunity: the wide post reduces the weight on your chest, making the bridge more effective. Accelerate the bridge-and-turn sequence to exploit the momentary pressure reduction. If they post very wide, you may also have an opening to switch to a bridge escape in the opposite direction since their base is now asymmetric."
+      },
+      {
+        "question": "What is the most critical hip movement in the turn-in escape?",
+        "answer": "The near-side hip must drive underneath the opponent during the rotation phase. This is not a lateral shrimp but a rotational movement where the hip turns from flat-on-mat to facing the opponent. The driving force comes from the far foot pushing off the mat, which propels the near hip forward and under. Without this hip rotation, the upper body turn alone is insufficient to create the space needed for knee insertion."
+      },
+      {
+        "question": "What grip configuration should the free arm maintain throughout the turn-in sequence?",
+        "answer": "The free arm begins as a forearm frame against the opponent's far hip or upper thigh with the elbow kept tight to the body. During the bridge phase, the frame pushes to create space. During the rotation, the frame guides the body through the turn by maintaining contact with the hip as a pivot reference. After the turn completes, the arm immediately transitions from frame to underhook on the near side to establish offensive half guard position."
+      },
+      {
+        "question": "How does the turn-in create a two-directional escape dilemma with the bridge escape?",
+        "answer": "The turn-in moves toward the opponent while the bridge escape moves away from them. When the bottom player threatens to turn in, the top player must shift weight or base toward the turn direction to block it. This weight shift creates vulnerability on the opposite side for a bridge escape. Conversely, when the top player loads weight to prevent bridge escapes, the reduced lateral control opens the turn-in pathway. Alternating threats in both directions prevents the top player from committing defensively to either side."
+      },
+      {
+        "question": "What indicates that the turn-in attempt has failed and you should chain to an alternative escape?",
+        "answer": "Key failure indicators include: the top player successfully drives their hips forward to re-flatten you before you insert the knee shield, you feel your back beginning to expose without the knee clearing their hip line, or the top player traps your framing arm eliminating your pivot point. When any of these occur, immediately reverse direction and attempt a shrimp-away or bridge escape before the top player can consolidate the improved control they gained from blocking your turn-in."
+      },
+      {
+        "question": "After successfully reaching half guard via the turn-in, what is the immediate priority before the top player can settle?",
+        "answer": "The immediate priority is establishing the underhook on the trapped-leg side while turning fully onto your side to face the opponent. The turn-in often delivers you to half guard while still somewhat flat, and remaining flat allows the top player to immediately crossface and establish dominant half guard top. Fighting for the underhook and side angle in the first two seconds after the escape converts a defensive recovery into an offensive half guard position with sweep potential."
+      }
+    ],
+    "safety_considerations": "The Turn In from Reverse Kesa-Gatame is a relatively low-risk escape technique with no joint manipulation involved. The primary safety concern is neck strain during the bridge-and-rotate sequence, particularly if the top player maintains heavy pressure on the chest during the rotation. Practitioners should avoid forcing the rotation against fully locked-down pressure, as this can create cervical spine compression. Train the bridge timing to create space before rotating. During drilling, the top player should reduce resistance if the bottom player signals discomfort in the neck or upper spine during the turning motion. Always warm up the neck and thoracic spine before practicing this escape repetitively."
+  },
+  "defender": {
+    "name": "Turn In from Reverse Kesa Defender",
+    "description": "Learn to prevent and counter the Turn In escape from Reverse Kesa-Gatame. Recognition cues, weight adjustment strategies, and transitions to mount when the bottom player attempts to turn in.",
+    "overview": "As the defender (top player maintaining Reverse Kesa-Gatame), your goal is to prevent the bottom player from successfully rotating toward you and inserting a knee shield. The Turn In is one of the most common escape attempts from this pin, and your ability to recognize and counter it determines how long you can maintain the controlling position. The key defensive principle is maintaining hip pressure that prevents the initial bridge from creating rotation space, while having contingency transitions ready when the escape attempt begins. Skilled top players use the bottom player's turn-in attempt as a trigger for transitioning to mount, converting the escape attempt into a worse outcome for the bottom player.",
+    "key_principles": [
+      "Maintain low hip pressure on the near-side ribs to prevent the bridge that initiates the turn-in sequence",
+      "Keep the far arm trapped or controlled to eliminate the frame that serves as the turn-in pivot point",
+      "Recognize bridge attempts early and respond with hip drive forward rather than posting with hands",
+      "Use the bottom player's rotation attempt as a trigger for stepping over to mount rather than fighting to maintain reverse kesa",
+      "Maintain wide base with sprawled legs to resist the bridge that creates turning space",
+      "Control the near-side hip with your body weight to prevent the rotational hip movement that powers the turn-in"
+    ],
+    "recognition_cues": [
+      "Bottom player plants their far foot flat on the mat close to their hip, indicating they are loading a bridge",
+      "Bottom player's free arm moves to frame against your far hip or upper thigh rather than pushing on your upper body",
+      "Bottom player's hips begin to shift or angle slightly toward you rather than away, signaling rotation intent",
+      "Bottom player takes a deep breath and tenses their core, preparing for the explosive bridge-and-turn combination",
+      "Bottom player's near-side shoulder begins to elevate off the mat as they initiate the turning motion"
+    ],
+    "defensive_options": [
+      {
+        "action": "Drive hips forward and re-flatten before knee insertion",
+        "when_to_use": "Immediately when you feel the bottom player begin to rotate toward you and before their knee clears your hip line",
+        "targets_outcome": "Reverse Kesa-Gatame/Bottom",
+        "if_successful": "Bottom player is re-flattened in a potentially tighter reverse kesa configuration with their escape energy depleted",
+        "risk": "If you drive hips too aggressively, you may overcommit weight forward, allowing the bottom player to complete the rotation underneath you"
+      },
+      {
+        "action": "Step over to mount during the rotation attempt",
+        "when_to_use": "When the bottom player has created significant space with their bridge and committed to the turn-in, making re-flattening difficult",
+        "targets_outcome": "Mount/Bottom",
+        "if_successful": "You transition to mount position, converting their escape attempt into a worse positional outcome",
+        "risk": "If the step-over is too slow, the bottom player may insert the knee shield before your leg clears, resulting in half guard"
+      },
+      {
+        "action": "Switch to north-south by circling toward their head",
+        "when_to_use": "When the bottom player's rotation has disrupted your reverse kesa but they have not yet inserted the knee shield",
+        "targets_outcome": "Reverse Kesa-Gatame/Bottom",
+        "if_successful": "You maintain a dominant pinning position from north-south, denying the half guard recovery entirely",
+        "risk": "The transition creates a momentary window where the bottom player may insert frames or complete the half guard recovery"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Reverse Kesa-Gatame/Bottom",
+        "how": "Recognize the turn-in early through foot placement and hip angle cues, then drive your hips forward to re-flatten before the rotation generates momentum. Maintain heavy chest pressure throughout and keep the far arm trapped to eliminate the framing pivot point."
+      },
+      {
+        "outcome": "Mount/Bottom",
+        "how": "When the bottom player creates space with their bridge and commits to the rotation, use the space they created to step your far leg over their body and transition to mount. Their rotation actually assists the mount transition by creating the space needed for your leg to clear. Time the step-over to land before their knee can insert across your hip line."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Sitting too upright and allowing space between your chest and opponent's torso",
+        "consequence": "The bottom player can bridge and rotate freely without needing to create space first, making the turn-in nearly effortless",
+        "correction": "Maintain constant chest-to-chest pressure with hips low and heavy on their near-side ribs. Your weight should make breathing difficult for the bottom player at all times."
+      },
+      {
+        "error": "Leaving the far arm uncontrolled, allowing free framing on your hip",
+        "consequence": "The bottom player has a ready-made pivot point for their rotation and can execute the turn-in at any time they choose",
+        "correction": "Keep the far arm clamped under your armpit or controlled with an overhook at all times. If the arm escapes, re-establish control before the bottom player can set up the frame."
+      },
+      {
+        "error": "Attempting to hold the pin by posting hands wide instead of driving hips",
+        "consequence": "Hand posting removes chest pressure, making the bridge and rotation easier. Your arms tire quickly while the bottom player's legs provide sustainable bridge power.",
+        "correction": "Counter the bridge with hip drive and forward chest pressure rather than hand posts. Let your body weight and hip connection do the work of maintaining the pin."
+      },
+      {
+        "error": "Fighting to maintain reverse kesa when the bottom player has already created significant turning space",
+        "consequence": "You end up in a scramble where the bottom player reaches half guard or potentially a better position while you are out of position",
+        "correction": "Recognize when the turn-in has progressed past the point of reversal and immediately transition to mount via step-over rather than fighting a losing battle for reverse kesa retention."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the earliest recognition cue that the bottom player is preparing a turn-in escape?",
+        "answer": "The earliest cue is the bottom player planting their far foot flat on the mat close to their hip. This foot positioning loads the bridge that initiates the turn-in sequence. Once you see this foot position combined with the free arm moving toward your hip for a frame, the turn-in attempt is imminent. Responding at this stage by driving your hips forward or trapping the framing arm prevents the escape before it generates momentum."
+      },
+      {
+        "question": "Why is transitioning to mount often better than fighting to maintain reverse kesa when the turn-in is partially successful?",
+        "answer": "Once the bottom player has created rotational space and begun turning, re-flattening them requires fighting against their momentum and the space they have already created. The energy cost is high and success is uncertain. Transitioning to mount capitalizes on the space the bottom player created by using it for your own leg to step over. This converts their escape attempt into a worse positional outcome, which also discourages future turn-in attempts."
+      },
+      {
+        "question": "How should you adjust your weight distribution when you feel the bottom player loading a bridge?",
+        "answer": "Widen your base by extending your far leg further and drop your hips even lower against their near-side ribs. Drive your chest pressure forward and slightly toward their legs rather than pulling back. This forward hip drive is counterintuitive but prevents the bridge from creating space because your weight moves into the direction the bottom player is trying to lift. Avoid posting hands, as this reduces the chest pressure that suppresses the bridge."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Recognition Drilling",
+        "focus": "Identifying turn-in setup cues",
+        "description": "Bottom player repeatedly sets up the turn-in at slow speed without completing it. Top player practices identifying foot placement, arm framing, and hip angle cues. Call out the cue verbally when recognized. 20 repetitions focusing on reading the earliest possible indicators."
+      },
+      {
+        "phase": "Phase 2: Counter Timing",
+        "focus": "Executing hip drive and re-flatten at correct timing",
+        "description": "Bottom player attempts turn-in at moderate speed. Top player practices driving hips forward to re-flatten at the moment the bridge begins. Focus on timing the counter to arrive before the rotation generates momentum. Practice both re-flatten and mount transition responses."
+      },
+      {
+        "phase": "Phase 3: Transition Decision Making",
+        "focus": "Choosing between re-flatten and mount transition",
+        "description": "Bottom player attempts turn-in at increasing resistance levels. Top player must decide in real time whether to re-flatten (early intervention) or transition to mount (late intervention). Develop the decision-making instinct for when each response is appropriate based on how far the escape has progressed."
+      },
+      {
+        "phase": "Phase 4: Full Positional Sparring",
+        "focus": "Maintaining reverse kesa against all escape attempts",
+        "description": "Full resistance positional rounds starting in Reverse Kesa-Gatame. Top player maintains position or transitions to better positions while bottom player works all available escapes. 2-minute rounds tracking retention rate and successful counter-transitions to mount."
+      }
+    ]
+  }
+}

@@ -1,0 +1,401 @@
+{
+  "name": "Pass Shin-to-Shin Guard",
+  "description": "Master passing Shin-to-Shin Guard in BJJ. Learn shin clearing mechanics, pressure passing sequences, and countering guard transitions to secure side control.",
+  "tags": [
+    "guard passing",
+    "shin-to-shin",
+    "open guard passing",
+    "leg clearing",
+    "pressure passing",
+    "top game"
+  ],
+  "from_position": "Shin-to-Shin Guard/Top",
+  "outcomes": [
+    {
+      "to": "Side Control/Top",
+      "probability": 40,
+      "result": "success"
+    },
+    {
+      "to": "Half Guard/Top",
+      "probability": 25,
+      "result": "failure"
+    },
+    {
+      "to": "Open Guard/Top",
+      "probability": 20,
+      "result": "failure"
+    },
+    {
+      "to": "Single Leg X-Guard/Top",
+      "probability": 15,
+      "result": "counter"
+    }
+  ],
+  "success_rate": 40,
+  "overview": "Passing Shin-to-Shin Guard requires a methodical approach that addresses the guard player's perpendicular shin connection before any forward pressure can safely be applied. The shin-to-shin position creates a biomechanical lever that constantly threatens the top player's base, making it impossible to simply drive through the guard without being swept or allowing transitions to more dangerous positions like Single Leg X-Guard or full X-Guard. The key strategic insight is that shin-to-shin is fundamentally a transitional position for the guard player—they intend to use it as a launchpad for sweeps and leg entanglements rather than holding it indefinitely. This means the passer must address the shin connection quickly before the guard player executes their preferred transition sequence, while simultaneously avoiding the reactive movements that feed directly into the guard player's attack chains.\n\nEffective passing combines three interconnected elements: upper body grip dominance to prevent distance management, systematic shin clearing through angle changes and controlled pressure, and immediate advancement once the connection is broken. The most common tactical error is attempting to force through the shin connection with forward pressure, which plays directly into butterfly sweep and X-Guard entry mechanics. Instead, successful passes typically involve lateral movement—circling, backsteps, or angle changes—that weaken the shin contact angle before converting to a direct passing sequence. The pass success rate improves dramatically when the passer can prevent the guard player from establishing their preferred upper body grips, as the shin connection alone provides insufficient control without complementary sleeve or collar grips.\n\nAt the competitive level, this pass becomes a chess match of grip fighting and angle management. The passer who understands the guard player's transition triggers—hip elevation for Single Leg X, forward pull for butterfly sweep, ankle grip adjustment for X-Guard—can intercept these transitions during the clearing sequence and convert defensive reactions into passing opportunities.",
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Long Step Clear to Side Control",
+      "description": "Uses an exaggerated lateral step to bypass the shin connection entirely, swinging the leg wide in a long arc before driving forward into a direct side control finish. The wide step changes the angle so dramatically that the perpendicular shin lever loses all mechanical advantage.",
+      "when_to_use": "When the guard player has weak upper body grips and the shin connection angle is shallow, allowing the long step to proceed without counter-transition risk"
+    },
+    {
+      "variant_name": "Backstep to Leg Drag",
+      "description": "Backsteps away from the shin connection to change the angle dramatically, then converts to a leg drag position by controlling the guard player's far leg across your body. The backstep movement often triggers transition attempts from the guard player, which the leg drag capitalizes on.",
+      "when_to_use": "When the guard player attempts to follow your movement during clearing, creating angular opportunity for leg drag, or when they begin elevating hips for Single Leg X entry"
+    },
+    {
+      "variant_name": "Knee Slice Through",
+      "description": "Uses controlled forward pressure with knee slice mechanics to drive the clearing knee across the guard player's hip line, converting the clearing movement directly into a knee slice pass. Requires dominant cross collar grip to pin the guard player's upper body during the forward drive.",
+      "when_to_use": "When you have established dominant cross collar grip and the guard player's shin connection has been weakened through sustained grip fighting and angle pressure"
+    }
+  ],
+  "position_integration": "Pass Shin-to-Shin Guard serves as a critical technique within the open guard passing system, connecting the top player's initial engagement against seated and open guards to dominant side control. This pass bridges the gap between standing confrontation and ground control, and its mastery is essential for any passer facing modern guard systems that rely on shin-based distance management. The technique integrates directly with knee slice, long step, and backstep passing frameworks, as the shin clearing mechanics create entry points for multiple passing pathways depending on the guard player's defensive reactions. Understanding this pass also develops the pattern recognition needed for passing related guards like De La Riva, Single Leg X, and butterfly, since the clearing principles and transition awareness transfer directly across open guard passing situations.",
+  "conditions": [
+    "Top player is standing or in combat base with stable base",
+    "Bottom player has established active shin-to-shin connection with perpendicular pressure",
+    "No established leg entanglement exists—opponent has not yet transitioned to Single Leg X or X-Guard",
+    "Top player has ability to move laterally or change angles without being pinned in place by grips"
+  ],
+  "related_content": [
+    {
+      "name": "Side Control",
+      "relationship": "Primary target position after successfully completing the pass"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Common intermediate position when pass is partially successful but guard player catches a leg"
+    },
+    {
+      "name": "Single Leg X-Guard",
+      "relationship": "Primary counter threat—guard player transitions here when clearing creates space"
+    },
+    {
+      "name": "X-Guard",
+      "relationship": "Secondary counter threat when guard player elevates during failed clearing attempts"
+    },
+    {
+      "name": "Headquarters Position",
+      "relationship": "Intermediate passing position achieved after partial shin clearing"
+    },
+    {
+      "name": "Combat Base",
+      "relationship": "Starting posture for initiating the clearing and passing sequence"
+    },
+    {
+      "name": "Open Guard",
+      "relationship": "Broader guard category the guard player may recompose to on failed pass"
+    },
+    {
+      "name": "De La Riva Guard",
+      "relationship": "Related open guard opponent may transition to when shin-to-shin is disrupted"
+    },
+    {
+      "name": "Butterfly Guard",
+      "relationship": "Close-range guard the bottom player may convert to when passer drives forward"
+    },
+    {
+      "name": "Back Step Pass",
+      "relationship": "Alternative passing approach using backstep mechanics to change engagement angle"
+    }
+  ],
+  "attacker": {
+    "name": "Pass Shin-to-Shin Guard Attacker",
+    "description": "Complete attacking guide to passing Shin-to-Shin Guard. Step-by-step shin clearing sequences, grip strategies, and passing progressions to achieve side control against modern open guard systems.",
+    "overview": "Passing Shin-to-Shin Guard from the attacker's perspective demands patience and systematic execution rather than explosive forward drives. The passer must sequence their attack correctly: establish upper body grip dominance, neutralize the shin connection through angle changes and controlled clearing mechanics, then immediately convert to a passing sequence before the guard player can recompose. The critical timing window opens when the shin connection weakens—hesitation at this point allows guard reestablishment, while premature advancement before clearing exposes you to sweeps and transitions. The entire sequence rewards the passer who reads the guard player's reactions and adapts their clearing approach accordingly.",
+    "key_principles": [
+      "Establish upper body grip dominance before addressing the shin connection to disable the guard player's distance management system",
+      "Clear the shin connection through lateral movement and angle changes rather than forward pressure that feeds into sweep mechanics",
+      "Maintain stable base and weight distribution throughout the clearing sequence to resist off-balancing attempts",
+      "Recognize and intercept transition attempts to Single Leg X and X-Guard before they are fully established",
+      "Chain shin clearing directly into passing pressure with no gap that allows guard recomposition",
+      "Vary clearing methods and passing angles to prevent predictable patterns the guard player can anticipate and exploit"
+    ],
+    "setup_requirements": [
+      "Standing or combat base posture with stable base resistant to forward-pulling off-balancing attempts",
+      "At least one dominant upper body grip established (sleeve, collar, or lapel) to contest distance management",
+      "Assessment of shin connection strength and angle to determine optimal clearing approach (circle, backstep, or pressure)",
+      "Weight distributed to resist sweep mechanics while maintaining mobility for lateral movement and angle changes",
+      "Recognition of guard player's preferred transitions (Single Leg X, X-Guard, butterfly) to anticipate and intercept counters"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Establish Upper Body Grips",
+        "description": "Contest and win the grip battle by securing same-side sleeve control and cross collar or lapel grip. This prevents the guard player from managing distance and controlling your posture, which is essential before any clearing attempt can safely proceed without feeding into sweep mechanics."
+      },
+      {
+        "step_number": 2,
+        "action": "Assess Shin Connection",
+        "description": "Evaluate the strength, angle, and pressure of the opponent's shin contact across your lower leg. Determine whether the connection is active with strong perpendicular pressure or passive and weakening, as this dictates whether you use circling, backstep, or direct clearing approach."
+      },
+      {
+        "step_number": 3,
+        "action": "Begin Lateral Movement",
+        "description": "Initiate circling motion away from the connected shin, stepping your outside foot laterally to change the engagement angle. This weakens the perpendicular connection without driving forward into sweep mechanics, gradually reducing the guard player's leverage over your base."
+      },
+      {
+        "step_number": 4,
+        "action": "Clear the Shin Connection",
+        "description": "As the angle becomes favorable, use controlled hip movement combined with grip pressure to disconnect the opponent's shin from yours. Push their knee laterally with your free hand while stepping your connected leg backward and away from their hook to break the contact point."
+      },
+      {
+        "step_number": 5,
+        "action": "Advance to Passing Position",
+        "description": "Immediately upon clearing the shin, drive your lead knee across toward their hip line while maintaining upper body grips. Do not pause or create space—the transition from clearing to passing must be seamless to prevent the guard player from recomposing their guard structure."
+      },
+      {
+        "step_number": 6,
+        "action": "Establish Passing Pressure",
+        "description": "Apply chest-to-chest or shoulder-to-chest pressure as you complete the pass, using crossface or underhook control to pin their upper body while your hips settle past their guard structure. Drive your weight through their torso to flatten them and prevent late guard recovery."
+      },
+      {
+        "step_number": 7,
+        "action": "Consolidate Side Control",
+        "description": "Complete the pass by establishing perpendicular chest alignment, securing crossface with near-side arm control, and settling your hips low against their torso. Block their far hip with your near hand to prevent any late knee insertion or guard recovery attempts from succeeding."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Guard player shoots hips underneath during clearing sequence to establish Single Leg X-Guard hooks",
+        "effectiveness": "High",
+        "targets_outcome": "Single Leg X-Guard/Top",
+        "your_response": "Widen base immediately and drive hips back while controlling their far shoulder. If they get one hook in, sprawl your hips and work to extract the trapped leg before the second hook establishes full Single Leg X control."
+      },
+      {
+        "counter": "Guard player scoots hips back and reestablishes frames to recompose open guard after connection breaks",
+        "effectiveness": "Medium",
+        "targets_outcome": "Open Guard/Top",
+        "your_response": "Follow their hip movement immediately rather than letting them create distance. Maintain sleeve grip and pressure forward to prevent recomposition while continuing your passing sequence without pause."
+      },
+      {
+        "counter": "Guard player inserts knee shield to catch half guard as you advance through their guard structure",
+        "effectiveness": "Medium",
+        "targets_outcome": "Half Guard/Top",
+        "your_response": "Accept the half guard position and immediately transition to a half guard passing sequence—knee slice, hip switch, or smash pass—rather than trying to rip your leg free. Maintain crossface and shoulder pressure throughout."
+      },
+      {
+        "counter": "Guard player uses your forward clearing momentum to elevate for butterfly sweep or X-Guard entry",
+        "effectiveness": "High",
+        "targets_outcome": "Open Guard/Top",
+        "your_response": "Recognize the weight shift and lower your base immediately. Avoid committing weight over their centerline during clearing. Post your hands if necessary and reset to standing posture rather than fighting the sweep from a compromised base."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Driving forward through the shin connection with direct pressure instead of clearing laterally",
+        "consequence": "Feeds directly into the guard player's sweep mechanics, enabling butterfly sweeps, X-Guard entries, or Single Leg X transitions that leave you in a significantly worse position",
+        "correction": "Clear the shin through circling, backsteps, and angle changes before applying any forward passing pressure. Lateral movement weakens the perpendicular lever without creating sweep opportunities."
+      },
+      {
+        "error": "Neglecting upper body grip fighting before attempting to clear the shin connection",
+        "consequence": "Guard player uses distance management grips to control your posture and reestablish connection whenever you attempt to clear, making the pass impossible regardless of clearing technique quality",
+        "correction": "Win the grip battle first by securing dominant sleeve and collar or lapel grips before addressing the shin connection. Upper body control disables their guard retention system."
+      },
+      {
+        "error": "Using explosive jerking movements to clear the shin connection without maintaining base",
+        "consequence": "Creates momentum the guard player redirects into sweeps, destabilizes your own base, and opens transition windows for Single Leg X and X-Guard entries",
+        "correction": "Use controlled, steady clearing movements with proper base maintenance throughout. Consistent pressure with correct timing succeeds where explosiveness fails."
+      },
+      {
+        "error": "Pausing after clearing the shin instead of immediately advancing into the passing sequence",
+        "consequence": "Guard player recomposes guard or transitions to another open guard position, completely negating all clearing work and forcing you to restart the entire passing process",
+        "correction": "Chain the clearing movement directly into your passing sequence with no gap. Clearing and passing must flow as one continuous action to prevent guard recomposition."
+      },
+      {
+        "error": "Failing to recognize Single Leg X entry attempts during the clearing phase until hooks are fully established",
+        "consequence": "Opponent successfully establishes Single Leg X-Guard with strong sweep and leg lock options, putting you in a significantly worse position than where you started",
+        "correction": "Monitor opponent's hip elevation and leg threading throughout clearing. Immediately widen base and drive hips back at the first sign of hip elevation or hooking attempts."
+      },
+      {
+        "error": "Standing too upright during the pass with hips high and center of gravity elevated above the guard player",
+        "consequence": "Gives the guard player easy access to your legs for sweeps and transitions, reduces your ability to generate forward pressure during the critical passing phase",
+        "correction": "Maintain athletic posture with bent knees and hips loaded, ready to drop weight and pressure at appropriate timing during the passing sequence while keeping mobility for angle changes."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Shin Clearing Mechanics",
+        "focus": "Fundamental clearing technique and footwork",
+        "description": "Practice shin clearing mechanics against a cooperative partner in static position. Focus on proper foot placement, hip movement, and hand positioning during the clear. Partner maintains shin-to-shin with light pressure while you drill three different clearing methods (circle clear, backstep clear, pressure clear) for 20 repetitions each. Build muscle memory for each clearing pattern before adding resistance."
+      },
+      {
+        "phase": "Phase 2: Grip Integration",
+        "focus": "Combining grip fighting with clearing sequences",
+        "description": "Add upper body grip fighting to the clearing sequence. Partner actively hand fights and attempts to establish distance management grips while you work to secure dominant grips and then clear the shin. Moderate resistance at 50-60%. Emphasizes correct sequencing—grip dominance before clearing attempts—and develops the ability to maintain grips throughout the clearing motion."
+      },
+      {
+        "phase": "Phase 3: Counter Recognition",
+        "focus": "Defending against guard player transitions during clearing",
+        "description": "Partner actively attempts transitions to Single Leg X, X-Guard, and butterfly when you begin clearing. Practice recognizing transition attempts by reading hip elevation, leg threading, and grip changes, then executing appropriate defensive responses while maintaining passing intent. Full resistance on transitions with moderate resistance on guard retention."
+      },
+      {
+        "phase": "Phase 4: Complete Passing Sequences",
+        "focus": "Full technique chain under live competitive conditions",
+        "description": "Full live rounds starting from shin-to-shin position. Practice entire sequence from grip fight to shin clearing to passing to side control consolidation against fully resisting opponents. Develop timing, decision-making, and adaptability under realistic competitive conditions. Track pass completion rate and identify which clearing methods work best against different guard styles."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the most critical error when attempting to pass shin-to-shin guard and why does it fail?",
+        "answer": "Driving forward through the shin connection with direct pressure is the most critical error. The perpendicular shin lever converts your forward momentum into off-balancing force that feeds directly into butterfly sweeps, X-Guard entries, and Single Leg X transitions. The biomechanics of the position mean that forward pressure strengthens the guard player's control rather than weakening it. Instead, clear laterally through circling and angle changes before applying forward pressure."
+      },
+      {
+        "question": "Your opponent's shin connection feels weak and their grips are loose—how should you capitalize?",
+        "answer": "Immediately combine a quick clearing movement with direct advancement into your passing sequence without hesitation. A weak connection signals fatigue, lost angle, or preparation for a different attack. Move directly into the pass because any delay allows them to reset their guard structure, adjust their angle, or transition to a different position. This is your highest-percentage passing window."
+      },
+      {
+        "question": "What upper body grips should you prioritize before attempting to clear the shin connection?",
+        "answer": "Prioritize same-side sleeve control to prevent the guard player from managing distance and pulling you into sweep mechanics. Combine with cross collar, lapel, or pants grip for secondary control. These grips disable the guard player's upper body management system, making the shin connection alone insufficient for effective guard retention or transition initiation."
+      },
+      {
+        "question": "How do you recognize whether the opponent is entering Single Leg X during your clearing attempt?",
+        "answer": "Watch for hip elevation combined with angle adjustment toward your trapped leg, their free leg beginning to thread underneath your clearing leg, increased pulling pressure on your ankle or lower leg, and their upper body starting to recline backward. These biomechanical cues indicate Single Leg X entry mechanics are building. Immediately widen your base and drive hips back at the first sign of elevation rather than waiting for hooks to establish."
+      },
+      {
+        "question": "What is the optimal sequence for transitioning from shin clearing to passing pressure?",
+        "answer": "The optimal sequence is grip dominance, then lateral movement to weaken the shin angle, then controlled shin clearing, then immediate forward advancement with chest pressure into the passing position, and finally side control consolidation. The critical principle is that clearing and passing must flow as one continuous action with no pause between them. Any gap creates a window for guard recomposition that negates your clearing work."
+      },
+      {
+        "question": "Your opponent maintains strong sleeve and collar grips despite your grip fighting—how do you modify your approach?",
+        "answer": "When the opponent maintains strong upper body grips, avoid forward-pressure passing entirely as it feeds into their sweep mechanics through the grip structure. Instead, use movement-based clearing through circling and backsteps that do not require driving into their grip control. Break grips methodically during movement rather than statically, and consider resetting to standing range if the grip battle is consistently lost to restart the exchange."
+      },
+      {
+        "question": "When is a backstep clearing approach preferable to a circling approach?",
+        "answer": "Backstep clearing is preferable when the guard player has strong forward-pulling grips that make circling difficult, when they have established deep shin penetration that circling alone cannot address, or when you want to change the engagement angle dramatically to create leg drag opportunities. Circling is better when their grips are weaker and you can systematically reduce the connection angle through incremental lateral movement without needing dramatic angle changes."
+      },
+      {
+        "question": "What should you do if the opponent catches half guard during your pass attempt?",
+        "answer": "Accept the half guard position and immediately transition to a half guard passing sequence—knee slice, hip switch, or smash pass—rather than trying to rip your leg free, which wastes energy and creates scramble situations. Maintain crossface and shoulder pressure throughout. Half guard represents a tactical detour with well-established passing chains, not a failure requiring you to restart the entire passing process from open guard."
+      }
+    ],
+    "safety_considerations": "Avoid explosive shin clearing movements that could hyperextend the knee or ankle of either player. Control all clearing sequences with measured pressure to prevent collision injuries. When the guard player is transitioning rapidly between positions, pause rather than force through configurations that could strain knee ligaments. Tap immediately if caught in any leg entanglement during pass attempts, and communicate with training partners about knee sensitivity."
+  },
+  "defender": {
+    "name": "Pass Shin-to-Shin Guard Defender",
+    "description": "Complete defensive guide against Shin-to-Shin Guard passing attempts. Recognition cues, guard retention strategies, and transition timing to counter passes and maintain guard integrity.",
+    "overview": "Defending against shin-to-shin guard passes requires understanding the passer's sequential attack pattern and disrupting it at the earliest possible stage. The guard player's primary advantage is that the shin connection creates constant off-balancing pressure that the passer must address before safely advancing. Effective defense means recognizing when the passer begins their clearing sequence and either reinforcing the connection, transitioning to a more favorable guard position, or exploiting the passer's compromised base during clearing to initiate sweeps and entries. The defender who waits passively for the pass to develop has already lost—proactive recognition and early response are essential for guard retention against skilled passers.",
+    "key_principles": [
+      "Maintain active shin pressure with constant angle adjustment to resist systematic clearing attempts rather than holding statically",
+      "Control upper body distance through grips that prevent the passer from establishing positional dominance before clearing begins",
+      "Recognize clearing patterns early and either reinforce the shin connection or initiate transition before the connection is fully broken",
+      "Use the passer's clearing movements as entry opportunities for Single Leg X, X-Guard, and sweep attacks",
+      "Never commit to a static guard—flow dynamically between shin-to-shin and related guards based on the passer's reactions and weight shifts",
+      "Create offensive sweep threats that force the passer to respect your attacks while defending their pass, maintaining initiative throughout"
+    ],
+    "recognition_cues": [
+      "Passer establishes dominant upper body grips and begins contesting your sleeve or collar control aggressively",
+      "Passer shifts weight laterally and begins circling or backstep movements away from your shin connection angle",
+      "Passer's free hand moves to control your shin, ankle, or knee to facilitate mechanical clearing of the connection",
+      "Passer drops their base lower and adjusts weight distribution to resist off-balancing, signaling preparation for clearing pressure",
+      "Passer initiates rapid footwork changes or angle adjustments that progressively weaken your perpendicular shin connection"
+    ],
+    "defensive_options": [
+      {
+        "action": "Transition to Single Leg X-Guard by shooting hips under the passer and establishing hooks during their clearing sequence",
+        "when_to_use": "When the passer lifts their leg or creates space during clearing, exposing the leg for hook entry—their clearing movement creates the space you need",
+        "targets_outcome": "Single Leg X-Guard/Top",
+        "if_successful": "You establish Single Leg X-Guard with strong sweep options and leg entanglement pathways that put the passer on full defense",
+        "risk": "If the passer recognizes the entry early, they can sprawl and accelerate their pass, potentially clearing your guard entirely before hooks establish"
+      },
+      {
+        "action": "Recompose guard by scooting hips back, reestablishing frames, and resetting to open guard distance with active foot placement",
+        "when_to_use": "When the passer breaks the shin connection but has not yet advanced to a committed passing position and still has distance to close",
+        "targets_outcome": "Open Guard/Top",
+        "if_successful": "You reset to open guard with defensive frames and can reestablish shin-to-shin, transition to De La Riva, or select another guard based on positioning",
+        "risk": "Repeated recomposition without offensive threats allows the passer to build momentum and eventually force the pass through accumulated pressure"
+      },
+      {
+        "action": "Insert knee shield to catch half guard as the passer advances through your guard structure during the final passing phase",
+        "when_to_use": "When the passer has cleared the shin and is driving forward into a passing position, as a last-resort guard retention option to prevent complete pass",
+        "targets_outcome": "Half Guard/Top",
+        "if_successful": "You establish half guard with knee shield, preventing the complete pass to side control and creating a defensible platform with sweep options",
+        "risk": "Late knee insertion may be too slow against an aggressive passer, allowing full pass to side control before half guard can be established"
+      },
+      {
+        "action": "Elevate and sweep using butterfly mechanics when the passer commits excessive forward weight during their clearing-to-passing transition",
+        "when_to_use": "When the passer drives forward aggressively during clearing, overcommitting their weight past your centerline and compromising their base",
+        "targets_outcome": "Open Guard/Top",
+        "if_successful": "You sweep the passer using their forward momentum, potentially achieving top position or at minimum resetting to neutral standing engagement",
+        "risk": "If the passer maintains base during the elevation attempt, the space created may accelerate their passing sequence"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Single Leg X-Guard/Top",
+        "how": "Time your hip movement to coincide with the passer's clearing attempt. As they lift or shift their trapped leg, shoot your hips underneath and establish the inside hook while controlling their ankle. The clearing movement creates the space needed for entry—use their own clearing momentum against them by redirecting the angle into your hook placement."
+      },
+      {
+        "outcome": "Open Guard/Top",
+        "how": "Maintain active frames and hip mobility throughout the passer's clearing sequence. When the shin connection breaks, immediately scoot hips back to create distance and reestablish defensive frames with feet on hips or shins. Use sleeve or collar grips to prevent the passer from following your hip movement, then recompose to shin-to-shin or transition to De La Riva or butterfly based on their positioning."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Maintaining passive shin contact without active pressure and continuous angle adjustment against clearing attempts",
+        "consequence": "Passer easily clears the connection through minimal effort and passes the guard without significant resistance, as the static connection provides no defensive value",
+        "correction": "Drive shin across opponent's shin with constant pressure, actively adjusting angle and force in response to their movements to maintain maximum leverage and off-balancing threat"
+      },
+      {
+        "error": "Overcommitting to maintaining shin-to-shin when the connection has been effectively neutralized by the passer's clearing sequence",
+        "consequence": "Wasted energy fighting for a position the passer has already addressed, allowing them to advance freely while you remain stuck in an ineffective guard configuration",
+        "correction": "Recognize when the connection is neutralized and immediately transition to Single Leg X, butterfly, or another guard rather than fighting a losing battle for a compromised position"
+      },
+      {
+        "error": "Neglecting upper body grip control while focusing solely on maintaining the shin connection",
+        "consequence": "Passer dominates the grip exchange and controls your posture, making it impossible to generate sweep threats or maintain effective distance management even with shin contact",
+        "correction": "Prioritize establishing and maintaining upper body grips alongside the shin connection, as both elements working together are necessary for effective guard play and transition threats"
+      },
+      {
+        "error": "Lying flat rather than maintaining active seated posture with mobile hips ready for transitions",
+        "consequence": "Loss of sweeping power, inability to transition dynamically, and vulnerability to pressure passing that flattens your guard structure and eliminates all offensive options",
+        "correction": "Maintain upright or semi-reclined posture with strong core engagement, keeping hips mobile and ready to adjust angles or initiate transitions to related guard positions at all times"
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the earliest recognition cue that a pass attempt is beginning from the top of your shin-to-shin guard?",
+        "answer": "The earliest cue is the passer establishing dominant upper body grips, particularly contesting your sleeve control and securing collar or lapel grips. This grip fighting precedes any physical clearing attempt and signals their intention to pass. Responding at this stage by reinforcing your own grips and increasing shin pressure gives you maximum defensive advantage before clearing even begins."
+      },
+      {
+        "question": "Your opponent begins circling to their left while pulling your sleeve—what should you do?",
+        "answer": "Follow their circling movement by adjusting your hip angle to maintain the perpendicular shin connection while simultaneously increasing upward pressure through the shin to make circling difficult. If they continue circling aggressively, this creates ideal timing for Single Leg X entry as their weight shifts over the connected leg. Use their circular momentum to initiate the transition rather than trying to maintain a static position."
+      },
+      {
+        "question": "When is catching half guard an acceptable defensive outcome versus a sign of defensive failure?",
+        "answer": "Half guard is an acceptable tactical outcome when the passer has already broken the shin connection and is advancing past your open guard structure. Inserting a knee shield prevents complete pass to side control and preserves a defensible position with established escape and sweep options. It becomes a sign of failure only if you concede half guard passively without first attempting to retain open guard or initiate transitions to Single Leg X or butterfly."
+      },
+      {
+        "question": "How should you manage your free leg during a pass attempt to maximize your defensive options?",
+        "answer": "Keep your free leg active and positioned for multiple functions: frame against the passer's hip to control distance, post on the mat for hip mobility and angle changes, threaten secondary guard entries like butterfly or De La Riva hooks, and deny the passer any grips on it. A static free leg becomes a handle the passer can exploit to break your structure or facilitate leg drags that accelerate their pass."
+      },
+      {
+        "question": "What determines whether you should reinforce the shin connection or transition to a different guard position?",
+        "answer": "Reinforce when your shin angle and pressure are still generating effective off-balancing force, your upper body grips are intact, and the passer's clearing attempt is not progressing despite their effort. Transition when the shin connection angle has deteriorated below effective leverage, the passer has established grip dominance over your upper body, or their clearing movements are creating space you can redirect into Single Leg X or X-Guard entries rather than wasting on reconnection."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Guard Retention Under Pressure",
+        "focus": "Maintaining shin-to-shin against progressive clearing attempts",
+        "description": "Partner attempts progressive clearing sequences while you maintain shin connection through active pressure and angle adjustment. Start with light resistance increasing to moderate. Focus on hip mobility, pressure maintenance, and recognizing when the connection is being effectively neutralized versus when it can still be reinforced through adjustment."
+      },
+      {
+        "phase": "Phase 2: Transition Timing",
+        "focus": "Recognizing and executing transitions during pass attempts",
+        "description": "Partner runs full passing sequences against your shin-to-shin guard. Practice recognizing the optimal moments to transition to Single Leg X, X-Guard, butterfly, or other guards based on the passer's movements. Emphasis on timing transitions to coincide with the passer's clearing movements rather than attempting them from neutral positions where they are lower percentage."
+      },
+      {
+        "phase": "Phase 3: Live Guard Play",
+        "focus": "Complete defensive sequences under competitive conditions",
+        "description": "Full live rounds starting from shin-to-shin position against training partners using various passing approaches. Develop pattern recognition, automatic transition responses, and the ability to chain multiple guard positions when initial defense is compromised. Track success rates of different defensive strategies against different passing styles to identify strengths and gaps."
+      },
+      {
+        "phase": "Phase 4: Counter-Offensive Integration",
+        "focus": "Combining defense with active sweep and transition threats",
+        "description": "Progress from purely defensive guard retention to actively threatening sweeps and transitions during the passer's clearing sequences. Practice using the passer's clearing movements as triggers for offensive actions like Single Leg X entries and butterfly elevations. Develop the ability to make the passer choose between safe clearing and defending your attacks, creating genuine dilemmas."
+      }
+    ]
+  }
+}

@@ -1,0 +1,372 @@
+{
+  "name": "B-Team Dilemma System",
+  "description": "Master B-Team Dilemma System in BJJ. Craig Jones's strategic framework forcing opponents into lose-lose decisions across leg locks, back takes, submissions.",
+  "tags": [
+    "bjj",
+    "system",
+    "b-team",
+    "dilemma-creation",
+    "leg-locks",
+    "back-attack",
+    "submission-chain",
+    "no-gi",
+    "competition-strategy",
+    "advanced"
+  ],
+  "system_type": "Attack System",
+  "difficulty_level": "Advanced",
+  "overview": "The B-Team Dilemma System represents a revolutionary approach to modern no-gi grappling, built on the principle of creating perpetual lose-lose scenarios for opponents. Developed and refined by Craig Jones and the B-Team crew, this system forces opponents into making decisions where every choice leads to another dangerous position. Rather than relying on singular techniques, the system connects leg entanglements, back attacks, and submissions into an endless chain of threats that compounds pressure with each defensive reaction.\n\nAt its core, the dilemma system recognizes that elite-level opponents will defend your initial attacks. Instead of viewing defense as failure, the system treats every defensive reaction as an opportunity to transition into an even more dangerous position. When an opponent defends the outside heel hook, they expose the back take. When they defend the back take, they return to leg entanglements. This cyclical nature creates mental and physical exhaustion, as opponents realize there is no 'safe' defensive option.\n\nThe B-Team approach differs from traditional submission hunting by prioritizing positional chains over individual finishes. Success is measured not by immediate taps, but by controlling the tempo of engagement and forcing opponents into progressively worse positions until submission becomes inevitable. This methodology has proven devastatingly effective in competition, producing multiple ADCC medalists and establishing a new paradigm for systematic offensive grappling.",
+  "key_principles": [
+    "Every defensive reaction opens a different offensive opportunity",
+    "Position chains create cumulative pressure that compounds over time",
+    "Submission threats control opponent movement and decision-making",
+    "Back attacks and leg locks function as two sides of the same system",
+    "Mental warfare through endless threat loops breaks opponent resolve",
+    "Timing transitions during defensive movements maximizes success rate",
+    "Controlling distance and grips dictates which dilemma enters opponent faces"
+  ],
+  "key_components": [
+    {
+      "component_name": "Leg Entanglement Entry System",
+      "description": "Systematic approach to entering ashi garami positions from standing, passing, and guard scenarios. Emphasizes grip control and hip positioning to secure dominant leg entanglements while maintaining back exposure opportunities. The entry system prioritizes outside ashi and saddle positions that create immediate finishing threats while setting up transitional chains.",
+      "purpose": "Establish initial control and create first dilemma between defending leg attacks or protecting the back"
+    },
+    {
+      "component_name": "Outside Heel Hook to Back Transition",
+      "description": "Core dilemma sequence where outside heel hook attempts force opponent to turn away, exposing the back. The transition exploits the natural defensive instinct to hide the heel by creating space for hook insertion. Proper timing of the transition during opponent's defensive rotation maximizes back control success while maintaining leg entanglement as backup option.",
+      "purpose": "Convert leg attack defense into back exposure, creating perpetual offensive cycle"
+    },
+    {
+      "component_name": "Back Control to Leg Re-Entry Chain",
+      "description": "Systematic pathway from back control to leg entanglement positions when opponents defend choke attacks. Uses opponent's defensive hand fighting and body positioning to slide back into outside ashi or saddle. The chain recognizes that defending rear naked chokes often requires opponents to lower hips and create space that facilitates leg entanglement re-entry.",
+      "purpose": "Maintain offensive pressure when back attacks are defended by returning to leg attack positions"
+    },
+    {
+      "component_name": "Saddle Position Control Framework",
+      "description": "Comprehensive control system for saddle position focusing on cross ashi and inside position variations. Emphasizes inside knee placement, hip control, and angle creation to prevent defensive escapes while setting up heel hook finishing mechanics. The framework treats saddle as both finishing position and transitional hub for the entire dilemma system.",
+      "purpose": "Establish dominant finishing position with multiple submission paths and transition options"
+    },
+    {
+      "component_name": "Front Headlock Integration Protocol",
+      "description": "Strategic use of front headlock positions as entry points to both leg entanglements and back control. Incorporates snap downs, go-behinds, and leg entry opportunities from standing and turtle positions. The protocol recognizes front headlock as a critical connection point that feeds into the leg lock and back attack chains.",
+      "purpose": "Provide standing and turtle-based entries into the core dilemma system"
+    },
+    {
+      "component_name": "50-50 Guard Offensive System",
+      "description": "Offensive methodology for 50-50 guard that treats it as an attacking position rather than stalling position. Focuses on straight ankle locks, toe holds, and calf slicers while maintaining connection to back exposure opportunities. The system emphasizes activity and submission attempts that force opponent reactions leading to positional improvements.",
+      "purpose": "Convert traditionally neutral position into active offensive platform within dilemma framework"
+    }
+  ],
+  "implementation_sequence": [
+    {
+      "step_number": 1,
+      "phase": "Entry and Initial Engagement",
+      "description": "Establish first positional control through leg entanglement entries or front headlock positions. Focus on securing grips and angles that create immediate submission threats while maintaining back exposure opportunities.",
+      "key_points": [
+        "Enter outside ashi from standing or passing scenarios",
+        "Secure cross grip and inside position control",
+        "Establish hip-to-hip connection for entanglement security",
+        "Monitor opponent's defensive grips and posture for transition opportunities"
+      ]
+    },
+    {
+      "step_number": 2,
+      "phase": "First Dilemma Creation",
+      "description": "Initiate primary attack (typically outside heel hook) to force opponent's first defensive decision. Apply sufficient pressure to create genuine threat while maintaining awareness of defensive reactions that will trigger transitions.",
+      "key_points": [
+        "Apply outside heel hook mechanics with proper wrist and knee positioning",
+        "Read opponent's hip rotation and upper body defensive movements",
+        "Prepare transition timing for when opponent turns away or sits up",
+        "Maintain leg entanglement structure even as attack is defended"
+      ]
+    },
+    {
+      "step_number": 3,
+      "phase": "Transition Execution",
+      "description": "Execute planned transition based on opponent's defensive reaction. Most commonly, opponent's heel hook defense (turning away) exposes back control opportunity. Time transition during opponent's movement for maximum effectiveness.",
+      "key_points": [
+        "Insert hooks during opponent's defensive rotation",
+        "Secure seat belt or harness control before opponent resets",
+        "Maintain connection to leg entanglement as backup position",
+        "Establish back control with immediate submission threat"
+      ]
+    },
+    {
+      "step_number": 4,
+      "phase": "Secondary Attack and Dilemma Loop",
+      "description": "Apply new attack from transitioned position (rear naked choke from back) to create second dilemma. Opponent's defense of this attack opens return pathway to leg entanglement or alternative submission. The system begins to cycle at this stage.",
+      "key_points": [
+        "Attack rear naked choke or armbar from back control",
+        "Anticipate opponent's defensive hand fighting and hip movement",
+        "Time leg re-entry when opponent creates space defending chokes",
+        "Recognize when to return to leg attacks versus persist with back attacks"
+      ]
+    },
+    {
+      "step_number": 5,
+      "phase": "Dilemma Intensification",
+      "description": "Continue cycling through position chains with increasing speed and pressure. As opponent becomes familiar with one transition, introduce variations and secondary pathways. Mental and physical fatigue accumulates, degrading defensive effectiveness.",
+      "key_points": [
+        "Reduce transition time as opponent's reactions become predictable",
+        "Introduce saddle position entries from back control",
+        "Add front headlock re-entries when opponent attempts full escape",
+        "Maintain offensive tempo without rushing individual techniques"
+      ]
+    },
+    {
+      "step_number": 6,
+      "phase": "Submission Completion",
+      "description": "Recognize diminished defensive capacity and commit to high-percentage finish. Typically occurs after 2-4 complete cycles when opponent's movement slows or defensive reactions become predictable. Choose finishing position based on opponent's accumulated weaknesses.",
+      "key_points": [
+        "Identify which position opponent defends worst after multiple exposures",
+        "Commit fully to finishing mechanics when defensive delay is observed",
+        "Apply submissions with control and proper breaking mechanics",
+        "Be prepared to return to system if finish is not immediately available"
+      ]
+    }
+  ],
+  "common_obstacles": [
+    {
+      "obstacle": "Opponent refuses leg entanglement engagement and maintains standing distance",
+      "solution": "Utilize front headlock entries from snap downs or incorporate seated guard pulling to force engagement. Use standing outside ashi entries during opponent's passing attempts. Develop takedown game that feeds into leg entanglement positions."
+    },
+    {
+      "obstacle": "Stalling in 50-50 guard with opponent refusing to engage or advance position",
+      "solution": "Implement offensive 50-50 system with straight ankle locks and toe holds to force reactions. Use referee's stalling calls in competition context. Develop back step and position improvement sequences that maintain offensive initiative."
+    },
+    {
+      "obstacle": "Opponent successfully exits leg entanglement to top position before dilemma can develop",
+      "solution": "Improve fundamental ashi garami retention focusing on inside position and cross grip control. Study opponent's escape patterns during drilling to anticipate exit timing. Develop immediate re-guard or front headlock catch sequences for escaped positions."
+    },
+    {
+      "obstacle": "Mental attachment to finishing individual submissions rather than trusting system transitions",
+      "solution": "Drill transition sequences without finishing to internalize position chains. Set training goals around complete cycles rather than tap counts. Study competition footage emphasizing how cumulative pressure leads to finishes rather than first attacks."
+    },
+    {
+      "obstacle": "Insufficient back control retention allows opponent to escape before leg re-entry opportunity",
+      "solution": "Strengthen back control fundamentals with emphasis on seat belt maintenance and hook retention. Practice back attack to leg re-entry timing during opponent's defensive movements. Develop alternative transitions to mount or turtle when back is lost."
+    },
+    {
+      "obstacle": "Timing transitions too early or too late relative to opponent's defensive movements",
+      "solution": "Increase positional sparring rounds focusing solely on transition timing. Use video analysis to identify optimal transition windows during opponent reactions. Develop sensitivity to opponent's weight shifts and grip changes that signal defensive commitment."
+    }
+  ],
+  "assessment_metrics": [
+    {
+      "metric_name": "Position Chain Fluency",
+      "description": "Ability to smoothly cycle through leg entanglements, back control, and secondary positions without stalling or losing connection",
+      "proficiency_indicators": [
+        "Complete 3+ position transitions in single engagement without opponent escaping",
+        "Maintain offensive pressure throughout transitions with no neutral reset periods",
+        "Anticipate and counter opponent's defensive movements before they fully develop",
+        "Transition timing occurs during opponent's movement rather than static positions"
+      ]
+    },
+    {
+      "metric_name": "Dilemma Recognition Speed",
+      "description": "Speed of identifying which defensive reaction opponent is making and selecting appropriate transition response",
+      "proficiency_indicators": [
+        "Read opponent's defensive intention within first movement (< 1 second reaction time)",
+        "Select correct transition pathway without hesitation or position loss",
+        "Adapt to unexpected defensive variations while maintaining system framework",
+        "Predict opponent's next defensive choice based on previous reactions in the sequence"
+      ]
+    },
+    {
+      "metric_name": "Submission Threat Credibility",
+      "description": "Quality of submission attacks that force opponent into genuine defensive reactions rather than positional stalling",
+      "proficiency_indicators": [
+        "Opponent shows active defensive urgency rather than passive waiting",
+        "Submission setups create immediate position improvement even when defended",
+        "Achieve tap-out success rate of 40%+ when opponent stays engaged in system",
+        "Force opponent into defensive errors that open secondary submission opportunities"
+      ]
+    },
+    {
+      "metric_name": "System Completion Rate",
+      "description": "Percentage of engagements where dilemma system reaches submission or dominant position versus opponent escaping system entirely",
+      "proficiency_indicators": [
+        "Maintain opponent within system for 70%+ of match time once initially engaged",
+        "Recover back to system when opponent achieves temporary escape or reset",
+        "Finish submissions or achieve back control in 60%+ of complete system cycles",
+        "Reduce opponent's escape success rate through successive training sessions"
+      ]
+    }
+  ],
+  "training_methodology": {
+    "drilling_approach": "The B-Team Dilemma System requires specialized drilling that emphasizes transition fluency over static position mastery. Begin with isolation drilling of individual position pairs (outside ashi to back, back to leg re-entry) with cooperative partner providing realistic defensive reactions. Progress to flow drilling where partners alternate offensive and defensive roles through complete system cycles, gradually increasing resistance and defensive sophistication. Finish each training session with live positional sparring starting from system entry positions, focusing on completing multiple transitions rather than rushing to submissions. Video review of training footage helps identify transition timing improvements and defensive pattern recognition. The drilling progression should mirror competition intensity, building from technical precision at low speeds to dynamic execution under fatigue and time pressure.",
+    "progression_path": [
+      {
+        "stage": "Entry Mastery",
+        "focus": "Develop reliable entries to leg entanglement and front headlock positions from all common scenarios (standing, passing, guard)",
+        "timeframe": "Weeks 1-4"
+      },
+      {
+        "stage": "Two-Position Chains",
+        "focus": "Master fundamental transitions between leg entanglements and back control with emphasis on timing during defensive reactions",
+        "timeframe": "Weeks 5-12"
+      },
+      {
+        "stage": "Multi-Position Integration",
+        "focus": "Integrate secondary positions (saddle, front headlock, 50-50) and develop complete system cycles with 3+ transitions per engagement",
+        "timeframe": "Weeks 13-24"
+      },
+      {
+        "stage": "Competition Refinement",
+        "focus": "Apply system against resisting opponents in live training, develop opponent-specific game plans, and refine submission finishing rates",
+        "timeframe": "Weeks 25-52"
+      },
+      {
+        "stage": "System Innovation",
+        "focus": "Develop personal variations and additions to core system based on individual strengths, body type, and competitive experience",
+        "timeframe": "Year 2+"
+      }
+    ],
+    "common_mistakes": [
+      "Rushing to submissions before establishing positional control and creating genuine dilemmas",
+      "Abandoning transitions mid-execution when opponent shows initial defensive resistance",
+      "Failing to maintain offensive pressure during transition windows, allowing opponent to reset",
+      "Over-reliance on single transition pathway instead of reading opponent's actual defensive reactions",
+      "Neglecting fundamental position retention in favor of attempting flashy transitions",
+      "Poor timing of transitions relative to opponent's weight shifts and defensive movements",
+      "Insufficient drilling of complete system cycles leading to mental confusion during live training"
+    ]
+  },
+  "related_content": [
+    {
+      "name": "Saddle",
+      "content_type": "Position",
+      "relationship": "Primary finishing position within the dilemma system, offering multiple submission paths"
+    },
+    {
+      "name": "Outside Ashi-Garami",
+      "content_type": "Position",
+      "relationship": "Core entry position that creates initial heel hook threat and back exposure opportunities"
+    },
+    {
+      "name": "Inside Ashi-Garami",
+      "content_type": "Position",
+      "relationship": "Alternative leg entanglement position used for variation and opponent-specific adjustments"
+    },
+    {
+      "name": "Back Control",
+      "content_type": "Position",
+      "relationship": "Primary transition target from leg attack defense, creates second half of core dilemma loop"
+    },
+    {
+      "name": "50-50 Guard",
+      "content_type": "Position",
+      "relationship": "Secondary attacking position requiring offensive application to maintain system pressure"
+    },
+    {
+      "name": "Front Headlock",
+      "content_type": "Position",
+      "relationship": "Standing and turtle entry position connecting takedown game to leg entanglement system"
+    },
+    {
+      "name": "Straight Ankle Lock Control",
+      "content_type": "Position",
+      "relationship": "Offensive tool from 50-50 and standard ashi positions within submission chain"
+    },
+    {
+      "name": "Kneebar Control",
+      "content_type": "Position",
+      "relationship": "Alternative submission threat from ashi positions creating additional dilemma branches"
+    },
+    {
+      "name": "Outside Ashi Entry",
+      "content_type": "Transition",
+      "relationship": "Fundamental entry technique establishing initial control for system implementation"
+    },
+    {
+      "name": "Inside Ashi Entry",
+      "content_type": "Transition",
+      "relationship": "Alternative entry creating different angle and submission opportunities within system"
+    },
+    {
+      "name": "50-50 Entry from Standing",
+      "content_type": "Transition",
+      "relationship": "Standing entry option for initiating system from neutral position"
+    },
+    {
+      "name": "Front Headlock to Back",
+      "content_type": "Transition",
+      "relationship": "Alternative pathway to back control bypassing leg entanglement when opportunity presents"
+    },
+    {
+      "name": "Outside Heel Hook",
+      "content_type": "Submission",
+      "relationship": "Primary submission threat creating defensive reactions that expose back control"
+    },
+    {
+      "name": "Inside Heel Hook",
+      "content_type": "Submission",
+      "relationship": "Alternative leg attack from saddle and inside ashi variations"
+    },
+    {
+      "name": "Straight Ankle Lock",
+      "content_type": "Submission",
+      "relationship": "Offensive submission from 50-50 and standard ashi maintaining attacking pressure"
+    },
+    {
+      "name": "Kneebar",
+      "content_type": "Submission",
+      "relationship": "Secondary leg submission creating additional defensive dilemmas from various ashi positions"
+    },
+    {
+      "name": "Rear Naked Choke",
+      "content_type": "Submission",
+      "relationship": "Primary back attack that forces defensive reactions enabling leg re-entry"
+    },
+    {
+      "name": "Dilemma Creation",
+      "content_type": "Principle",
+      "relationship": "Core conceptual framework underlying entire system methodology"
+    },
+    {
+      "name": "Leg Entanglement",
+      "content_type": "Principle",
+      "relationship": "Fundamental positional concept governing leg control and submission mechanics"
+    },
+    {
+      "name": "Position Chains",
+      "content_type": "Principle",
+      "relationship": "Systematic approach to linking positions through transitional sequences"
+    },
+    {
+      "name": "Submission Chains",
+      "content_type": "Principle",
+      "relationship": "Conceptual framework for connecting submission attempts into continuous offensive sequences"
+    },
+    {
+      "name": "Creating Reactions",
+      "content_type": "Principle",
+      "relationship": "Strategic principle of forcing opponent movements that expose positional weaknesses"
+    },
+    {
+      "name": "Action and Reaction",
+      "content_type": "Principle",
+      "relationship": "Fundamental concept of using opponent's defensive actions as offensive opportunities"
+    },
+    {
+      "name": "Craig Jones Leg Lock System",
+      "content_type": "System",
+      "relationship": "Direct predecessor system focusing specifically on leg entanglement mechanics that informed dilemma development"
+    },
+    {
+      "name": "Danaher Leg Lock System",
+      "content_type": "System",
+      "relationship": "Foundational leg lock methodology providing technical basis for leg entanglement components"
+    },
+    {
+      "name": "Garry Tonon Leg Lock to Back System",
+      "content_type": "System",
+      "relationship": "Parallel system emphasizing similar leg-to-back transitions with different entry methodologies"
+    },
+    {
+      "name": "Back Attack System",
+      "content_type": "System",
+      "relationship": "Complementary system providing back control retention and submission techniques for second half of dilemma"
+    }
+  ]
+}

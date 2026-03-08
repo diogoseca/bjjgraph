@@ -1,0 +1,409 @@
+{
+  "name": "Truck Maintenance",
+  "description": "Master Truck Maintenance in BJJ. Learn boot pressure retention, leg entanglement control, and dilemma creation to hold this dominant back-attack position.",
+  "tags": [
+    "bjj",
+    "transition",
+    "truck",
+    "maintenance",
+    "control",
+    "10th-planet",
+    "back-attack",
+    "leg-entanglement"
+  ],
+  "from_position": "Truck/Top",
+  "outcomes": [
+    {
+      "to": "Truck/Top",
+      "probability": 55,
+      "result": "success"
+    },
+    {
+      "to": "Turtle/Top",
+      "probability": 30,
+      "result": "failure"
+    },
+    {
+      "to": "Half Guard/Top",
+      "probability": 15,
+      "result": "counter"
+    }
+  ],
+  "success_rate": 55,
+  "overview": "Truck Maintenance represents the active effort to retain the Truck position against an opponent's escape attempts. The Truck is an inherently dynamic position where the bottom player is highly motivated to escape due to multiple submission threats, and maintaining control requires constant adjustment of boot pressure, leg entanglement, and upper body connection. Unlike static control positions such as side control or mount, truck retention demands vigilance over multiple control points simultaneously because the position's offensive nature creates vulnerability during attacks.\n\nThe fundamental challenge of truck maintenance lies in balancing aggression with positional security. Every submission attempt creates windows for escape, and the controlling player must decide when to hunt for finishes versus when to consolidate control. Boot pressure against the opponent's hip is the lynchpin of all control in the truck. When boot pressure slips, the entire position unravels within seconds regardless of how tight the leg entanglement or upper body grips remain.\n\nSuccessful truck maintenance creates the foundation for all high-percentage attacks from this position: the Twister, calf slicer, banana split, and transitions to traditional back control. Without reliable maintenance fundamentals, even perfectly timed entries from crab ride or turtle will be wasted as opponents escape before submissions can be applied. The maintenance skill itself also functions as an energy weapon, forcing the defender to work constantly against sustained pressure while the attacker conserves energy through efficient skeletal positioning.",
+  "conditions": [
+    "Boot pressure firmly established against opponent's hip or thigh",
+    "Leg entanglement secured with figure-four or lockdown configuration trapping opponent's lower leg",
+    "Upper body control established through underhook, crossface, or seatbelt grip",
+    "Opponent positioned on their side with back exposed to top player",
+    "Chest or shoulder pressure pinning opponent's upper back preventing forward rotation"
+  ],
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Tight Boot Maintenance",
+      "description": "Close-range maintenance with boot deeply embedded in hip crease and maximum chest-to-back contact. Prioritizes grinding pressure and slow methodical control over mobility. Leg entanglement is locked as tight as possible with knees squeezed together.",
+      "when_to_use": "Against smaller or more flexible opponents who can exploit any space, or when you want to conserve energy through maximum pressure and minimal adjustment"
+    },
+    {
+      "variant_name": "Dynamic Re-entry Maintenance",
+      "description": "Looser maintenance style that allows controlled space creation and immediate re-establishment of contact. Rather than fighting every micro-movement, the top player follows the opponent's movement and re-secures control points from new angles as they shift.",
+      "when_to_use": "Against larger or stronger opponents whose escape attempts are difficult to block directly, or when fatigue makes sustained tight control impractical"
+    },
+    {
+      "variant_name": "Submission-Cycling Maintenance",
+      "description": "Uses constant low-commitment submission threats as the primary maintenance tool. Alternates between twister grip attempts, calf slicer pressure, and banana split setups to keep the opponent perpetually defending rather than escaping. Each threat is only pursued to 60-70% commitment before cycling to the next.",
+      "when_to_use": "Against experienced defenders who have a reliable escape sequence when given time to work; the constant threat cycling prevents them from executing multi-step escapes"
+    }
+  ],
+  "position_integration": "Truck Maintenance is the foundational skill that enables the entire 10th Planet truck attack system. Without reliable maintenance, entries from crab ride, turtle attacks, and lockdown sequences become ineffective because opponents escape before submissions can be applied. This transition connects the back attack and leg lock systems, serving as the platform from which the twister, calf slicer, banana split, and traditional back control transitions all originate. Mastery of truck maintenance creates the time and stability needed to execute high-percentage finishing chains and transforms the truck from a fleeting scramble position into a truly dominant control point with multiple submission paths.",
+  "related_content": [
+    {
+      "name": "Truck",
+      "relationship": "Source position being maintained through active control retention"
+    },
+    {
+      "name": "Back Control",
+      "relationship": "Primary fallback position when truck maintenance becomes untenable"
+    },
+    {
+      "name": "Turtle",
+      "relationship": "Common entry position for truck and failure state when maintenance is lost"
+    },
+    {
+      "name": "Escape from Truck",
+      "relationship": "Opponent's primary escape method that maintenance directly counters"
+    },
+    {
+      "name": "Calf Slicer from Truck",
+      "relationship": "Submission threat used as maintenance tool to prevent escape"
+    },
+    {
+      "name": "Twister Control",
+      "relationship": "Submission target position accessible through successful truck maintenance"
+    },
+    {
+      "name": "Crab Ride",
+      "relationship": "Entry position that feeds into truck requiring immediate maintenance"
+    },
+    {
+      "name": "Hip Escape from Truck",
+      "relationship": "Opponent hip escape that maintenance must address through boot pressure"
+    },
+    {
+      "name": "Roll to Guard from Truck",
+      "relationship": "Opponent rolling escape countered by maintenance adjustments"
+    },
+    {
+      "name": "Electric Chair",
+      "relationship": "Related 10th Planet leg entanglement sharing maintenance principles"
+    }
+  ],
+  "attacker": {
+    "name": "Truck Maintenance Attacker",
+    "description": "Learn to maintain the Truck position in BJJ with boot pressure retention, leg entanglement control, and systematic adjustment of control points against escaping opponents.",
+    "overview": "Maintaining the Truck from the top requires continuous management of three interconnected control systems: boot pressure on the hip, leg entanglement restricting lower body mobility, and upper body connection preventing forward rolls or rotation. The attacker must treat maintenance not as a passive state but as an active process of reading escape attempts and adjusting control before gaps open. Every micro-adjustment in boot angle, leg hook depth, and chest pressure determines whether the position holds or collapses. The skilled maintenance player creates a sensation of inescapable pressure that drains the opponent's energy and morale, setting up submission attempts from a position of absolute control.",
+    "key_principles": [
+      "Boot pressure is the foundation of all truck control and must be maintained as a non-negotiable constant through all movements and transitions",
+      "Leg entanglement must be actively managed by adjusting hook depth and figure-four tightness every few seconds to prevent gradual loosening",
+      "Upper body connection through chest pressure and arm control coordinates with lower body entanglement to create unified positional control",
+      "Anticipate escape attempts rather than react to them by reading hip movement, hand fighting patterns, and weight shifts early",
+      "Use submission threats as maintenance tools because feinting attacks forces the opponent into defensive mode rather than escape mode",
+      "Prioritize energy efficiency through skeletal alignment and body weight distribution rather than relying on muscular gripping strength"
+    ],
+    "setup_requirements": [
+      "Boot (foot) firmly pressed against opponent's hip crease creating constant lateral torque that prevents hip rotation",
+      "Figure-four or lockdown leg entanglement trapping opponent's lower leg with hooking leg deep behind their knee",
+      "Chest or shoulder pressure pinning opponent's upper back to prevent forward rolls and maintain perpendicular alignment",
+      "At least one arm controlling opponent's upper body through underhook, crossface, or connection across their chest or neck",
+      "Opponent positioned on their side with back fully exposed and hips unable to square up due to boot pressure"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Confirm Boot Pressure Placement",
+        "description": "Press your foot firmly into opponent's hip crease, angling your toes slightly inward to maximize surface contact and lateral torque. The boot should create constant pressure that prevents the opponent from squaring their hips or rotating to face you. Adjust angle until you feel their hip pinned against your foot."
+      },
+      {
+        "step_number": 2,
+        "action": "Secure Leg Entanglement Depth",
+        "description": "Check that your figure-four leg configuration is locked tight with your hooking leg positioned deep behind their knee joint. The entanglement should prevent their trapped leg from straightening or being extracted without significant effort. Squeeze your knees together to tighten the lock."
+      },
+      {
+        "step_number": 3,
+        "action": "Establish Upper Body Connection",
+        "description": "Position your chest or shoulder against their upper back while securing an underhook or crossface with your top arm. This connection bridges your lower body control to their upper body, preventing forward rolls and creating immediate access to submission grips when opportunities arise."
+      },
+      {
+        "step_number": 4,
+        "action": "Monitor Escape Indicators",
+        "description": "Read your opponent's body language continuously for escape attempts: hip shifting toward you indicates granby roll setup, hand fighting at your boot signals a clearing attempt, and sudden leg straightening suggests extraction effort. Early recognition of these patterns allows preemptive positional adjustment before the escape gains momentum."
+      },
+      {
+        "step_number": 5,
+        "action": "Adjust Boot Against Clearing Attempts",
+        "description": "When your opponent fights your boot with their hands, angle your foot deeper into their hip crease while increasing lateral pressure through your leg. If they achieve partial clearance, immediately re-seat the boot before they can capitalize on the momentary space. Strip their grip with your free hand if needed."
+      },
+      {
+        "step_number": 6,
+        "action": "Re-lock Loosened Leg Entanglement",
+        "description": "After any opponent movement that loosens your leg configuration, immediately tighten by pulling your hooking leg deeper behind their knee and squeezing your knees together. A loose entanglement is the most common precursor to full escape and must be addressed within one to two seconds before the gap compounds."
+      },
+      {
+        "step_number": 7,
+        "action": "Cycle Submission Threats to Reset Defense",
+        "description": "When your opponent becomes focused on escape mechanics, threaten a twister grip or reach toward the calf slicer to force them back into defensive posture. This submission cycling resets their escape sequence and provides time to re-establish any weakened control points without fully committing to a finish attempt."
+      },
+      {
+        "step_number": 8,
+        "action": "Consolidate After Failed Submission Attempt",
+        "description": "After any submission attempt that does not finish, immediately prioritize returning to full maintenance posture by resetting boot pressure first, then re-locking leg entanglement, and finally re-establishing upper body connection before launching another offensive sequence. Position before submission."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Opponent clears boot pressure through persistent hand fighting and hip rotation",
+        "effectiveness": "High",
+        "your_response": "Immediately re-angle boot deeper into hip crease before opponent capitalizes; if boot is fully cleared, transition to back control by inserting hooks before they can re-turtle",
+        "targets_outcome": "Turtle/Top"
+      },
+      {
+        "counter": "Opponent executes granby roll using forward momentum to break leg entanglement",
+        "effectiveness": "Medium",
+        "your_response": "Follow the direction of the roll and transition to back control by inserting hooks during their rotation, or catch the far arm for crucifix as they turn",
+        "targets_outcome": "Half Guard/Top"
+      },
+      {
+        "counter": "Opponent straightens trapped leg explosively to extract from entanglement",
+        "effectiveness": "Medium",
+        "your_response": "Attack the straightening leg immediately with calf slicer pressure using their extension against them, or deepen your hook behind the knee before full extension is achieved",
+        "targets_outcome": "Turtle/Top"
+      },
+      {
+        "counter": "Opponent creates strong upper body frames to prevent chest pressure and submission setups",
+        "effectiveness": "Low",
+        "your_response": "Collapse the frame by driving chest pressure down while simultaneously tightening leg entanglement; the frame only addresses upper body and leaves lower body submissions open",
+        "targets_outcome": "Truck/Top"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Relaxing boot pressure while focusing on upper body submission setups",
+        "consequence": "Opponent escapes hip control and can initiate granby roll or leg extraction within seconds of boot pressure loss",
+        "correction": "Maintain boot pressure as a non-negotiable constant; train to attack upper body while keeping foot actively pressed into hip through muscle memory"
+      },
+      {
+        "error": "Allowing leg entanglement to loosen gradually without periodic tightening",
+        "consequence": "Opponent slowly extracts trapped leg over 10-15 seconds, eventually recovering enough lower body mobility to complete escape",
+        "correction": "Check entanglement tightness every few seconds and immediately re-lock any looseness by squeezing knees and deepening hooks before it compounds"
+      },
+      {
+        "error": "Over-committing to a single submission and abandoning maintenance posture entirely",
+        "consequence": "Failed submission attempt leaves all three control points weakened simultaneously, enabling immediate escape",
+        "correction": "Maintain at least two of three control points (boot, legs, upper body) during any attack attempt; never abandon all controls for one finish"
+      },
+      {
+        "error": "Using excessive muscular gripping effort instead of skeletal alignment and body weight",
+        "consequence": "Rapid forearm and leg fatigue leads to weakening grip, loosening entanglement, and inability to maintain position beyond 30 seconds",
+        "correction": "Position body weight through chest pressure and bone structure; use gravity and positioning rather than muscular strength for sustained control"
+      },
+      {
+        "error": "Failing to recognize early escape indicators before opponent gains momentum",
+        "consequence": "Opponent's escape attempt reaches point of no return before corrective adjustment can be applied effectively",
+        "correction": "Train to read hip shifts, hand positioning changes, and breathing patterns that signal imminent escape timing and direction"
+      },
+      {
+        "error": "Refusing to transition to back control when truck maintenance is clearly failing",
+        "consequence": "Position collapses entirely to turtle or scramble instead of controlled transition to back hooks where control can be maintained",
+        "correction": "Recognize when truck control is being lost and proactively transition to back control rather than fighting an untenable maintenance battle"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Static Control Fundamentals",
+        "focus": "Boot pressure and leg entanglement mechanics",
+        "description": "Partner remains passive while you practice establishing and holding all three control points. Focus on optimal boot angle, figure-four tightness, and chest pressure distribution. Hold for 2-minute rounds with emphasis on using body weight rather than muscular effort."
+      },
+      {
+        "phase": "Phase 2: Reactive Maintenance Drills",
+        "focus": "Adjusting to isolated escape attempts",
+        "description": "Partner performs one escape type at a time (boot clear, leg extraction, granby roll) at 30% resistance. Practice identifying the escape type and executing the correct counter-adjustment. Reset and rotate through different escape types each round."
+      },
+      {
+        "phase": "Phase 3: Chained Escape Defense",
+        "focus": "Maintaining against sequenced escape attempts",
+        "description": "Partner chains multiple escape attempts at 50-60% resistance. Practice maintaining position through combinations like boot clear into leg extraction into granby roll. Develop ability to address cascading threats without losing overall positional control."
+      },
+      {
+        "phase": "Phase 4: Live Positional Sparring",
+        "focus": "Full resistance maintenance under realistic conditions",
+        "description": "Start in established truck with partner at full resistance. Objective is maintaining position for 60 seconds or achieving a submission. If position is lost, analyze which control point failed first and prioritize drilling that specific maintenance skill."
+      },
+      {
+        "phase": "Phase 5: Maintenance-to-Submission Integration",
+        "focus": "Balancing offensive threats with positional retention",
+        "description": "Full resistance rounds where you must attempt at least two different submissions while maintaining truck. Develops the ability to cycle between offensive threats and defensive maintenance without compromising either aspect of the position."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the single most critical control point for truck maintenance and why?",
+        "answer": "Boot pressure against the opponent's hip is the most critical control point. It creates the lateral torque that prevents hip rotation, enables leg entanglement to function effectively, and serves as the foundation for all upper body control. Without boot pressure, the entire truck position unravels regardless of how tight your leg entanglement or upper body grips are, because the opponent regains the hip mobility needed to initiate any escape."
+      },
+      {
+        "question": "Your opponent begins hand-fighting your boot with both hands—how do you respond?",
+        "answer": "When the opponent commits both hands to boot clearing, immediately threaten a twister grip or neck attack since their neck is now completely undefended. This forces at least one hand back to neck protection. Simultaneously, angle your foot deeper into their hip crease and increase lateral pressure. The opponent cannot effectively fight your boot with both hands while also defending submission threats, creating the core maintenance dilemma."
+      },
+      {
+        "question": "How do you manage energy expenditure during extended truck maintenance?",
+        "answer": "Use skeletal alignment and body weight rather than muscular effort for sustained control. Position your chest directly on their upper back so gravity creates pressing force. Lock your legs in a configuration where bone structure maintains the entanglement without constant squeezing. Rest in maintenance posture between attack attempts rather than constantly hunting submissions. Work in deliberate cycles of controlled pressure followed by brief attack sequences."
+      },
+      {
+        "question": "What indicators tell you truck maintenance is failing and you should transition to back control?",
+        "answer": "Key failure indicators include: boot pressure reduced below effective torque despite re-seating attempts, opponent's trapped leg more than halfway extracted from entanglement, opponent achieving significant hip rotation toward facing you, or opponent establishing a strong frame that prevents re-establishment of chest pressure. When two or more of these occur simultaneously, immediately transition to back control by inserting hooks rather than fighting a losing maintenance battle."
+      },
+      {
+        "question": "Your opponent attempts a granby roll while you maintain truck—what is your response?",
+        "answer": "Follow the direction of their roll rather than resisting it, using their momentum to transition to back control by inserting hooks as they rotate. Attempting to stop a committed granby by holding position typically fails and wastes energy. The granby actually exposes the back further during the rotation phase, creating an optimal window for back take. Alternatively, if you read the roll early, catch the far arm during rotation for a crucifix transition."
+      },
+      {
+        "question": "How do submission threats function as maintenance tools in the truck position?",
+        "answer": "Submission threats force the opponent into defensive mode rather than escape mode. When you threaten a twister grip, they must use at least one hand for neck defense instead of fighting your boot. When you pressure the calf slicer, they must address their trapped leg defensively. This constant defensive burden prevents them from committing fully to any multi-step escape sequence, effectively maintaining position through offensive pressure rather than purely defensive holding."
+      },
+      {
+        "question": "What is the correct sequence for re-establishing control when your leg entanglement loosens?",
+        "answer": "Immediately re-tighten by pulling your hooking leg deeper behind their knee and squeezing your knees together. If significant loosening has occurred, momentarily increase boot pressure to restrict their hip movement while you re-lock the figure-four configuration. Address loosening within one to two seconds because gradual loosening compounds rapidly—once the leg is half-extracted, full extraction follows within seconds and the position becomes unsalvageable."
+      },
+      {
+        "question": "When should you choose tight boot maintenance versus dynamic re-entry maintenance?",
+        "answer": "Choose tight boot maintenance against smaller, more flexible opponents who can exploit any space you create, or when you want to conserve energy through maximum grinding pressure. Choose dynamic re-entry maintenance against larger or stronger opponents whose explosive escape attempts are difficult to block directly. Dynamic style follows their movement and re-establishes control from new angles rather than fighting strength against strength, which is more sustainable against powerful opponents."
+      }
+    ],
+    "safety_considerations": "The truck position creates significant torque on the opponent's spine and knee joints. When practicing maintenance, avoid sudden explosive adjustments that could hyperextend the trapped leg or compress the knee. Partners should establish clear tap signals before drilling. Be especially cautious with boot pressure angles that drive the opponent's hip into extreme rotation. Never crank leg entanglement against a tapping opponent and release immediately upon any tap signal. Spinal submission threats from this position can cause permanent injury if not respected during training."
+  },
+  "defender": {
+    "name": "Truck Maintenance Defender",
+    "description": "Learn to escape and survive the Truck position in BJJ. Systematic defense against boot pressure, leg entanglement, and submission threats with proven escape mechanics.",
+    "overview": "Defending against truck maintenance requires a systematic approach to dismantling the three control pillars: boot pressure, leg entanglement, and upper body connection. The defender must resist the urge to panic despite the uncomfortable body configuration and multiple simultaneous submission threats. Survival depends on addressing control points in the correct sequence: clearing the boot first removes the torque engine, extracting the trapped leg restores lower body mobility, and escaping to a safe position completes the defense. Each moment spent in the truck drains energy and morale, making efficient and composed defensive work essential for successful escape before submissions can be applied.",
+    "key_principles": [
+      "Protect the neck immediately with chin tucked and hands ready to defend twister grips and choke attempts before addressing anything else",
+      "Address boot pressure before leg entanglement because the boot enables all other control and its removal weakens the entire system",
+      "Keep the trapped leg actively bent to prevent calf slicer extension and maintain viable extraction options throughout the escape sequence",
+      "Use hip movement and bridging to create micro-spaces that accumulate into exploitable escape opportunities over multiple attempts",
+      "Maintain calm controlled breathing under pressure to preserve energy for explosive escape when a genuine window opens",
+      "Time major escape attempts for moments when the attacker shifts weight or commits to submission setups that weaken their maintenance posture"
+    ],
+    "recognition_cues": [
+      "Opponent re-seats boot pressure deeper into your hip after you create any space, indicating active maintenance effort rather than attack setup",
+      "Opponent tightens leg entanglement by squeezing knees together and pulling hooking leg deeper behind your knee joint",
+      "Opponent increases chest pressure against your upper back while keeping all lower body controls locked, prioritizing position over submission",
+      "Opponent cycles between brief submission threats without fully committing, using feints to keep you defending rather than escaping",
+      "Opponent strips your hand from their boot and immediately re-angles their foot back into your hip crease before you can capitalize"
+    ],
+    "defensive_options": [
+      {
+        "action": "Clear boot pressure through persistent hand fighting and hip rotation to remove the primary torque control",
+        "when_to_use": "When attacker's boot is partially displaced or when attacker shifts weight for a submission attempt that momentarily reduces boot pressure",
+        "targets_outcome": "Turtle/Top",
+        "if_successful": "Removes the foundational torque control, significantly weakening leg entanglement effectiveness and allowing re-turtling",
+        "risk": "Both hands occupied with boot fighting exposes neck to twister grips and rear choke attempts"
+      },
+      {
+        "action": "Extract trapped leg through hip rotation and explosive movement when entanglement loosens",
+        "when_to_use": "After boot pressure has been partially cleared or when attacker's leg entanglement loosens during a submission attempt transition",
+        "targets_outcome": "Half Guard/Top",
+        "if_successful": "Recovers lower body mobility and enables guard recovery to half guard or open guard position",
+        "risk": "Extending leg during extraction attempt can be exploited for calf slicer if timing is incorrect"
+      },
+      {
+        "action": "Execute granby roll escape using forward hip momentum to break through entanglement",
+        "when_to_use": "When attacker's weight is committed forward over your upper body or during submission attempts that reduce chest-to-back contact",
+        "targets_outcome": "Half Guard/Top",
+        "if_successful": "Full rotation breaks both leg entanglement and boot control simultaneously, recovering open guard",
+        "risk": "If roll stalls halfway, back is further exposed and attacker may transition to traditional back control with hooks"
+      },
+      {
+        "action": "Forward roll into opponent's legs to break entanglement from underneath",
+        "when_to_use": "When boot pressure is momentarily weakened and attacker is focused on upper body attack setups",
+        "targets_outcome": "Turtle/Top",
+        "if_successful": "Breaks leg entanglement through forward momentum and returns you to turtle position with hips underneath",
+        "risk": "Incomplete roll may result in deeper entanglement or opponent re-establishing truck from a tighter angle"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Half Guard/Top",
+        "how": "Clear boot pressure first through persistent hand fighting, then extract trapped leg using explosive hip rotation when attacker's entanglement loosens. Insert knee shield immediately after leg extraction to establish half guard and prevent attacker from re-entering truck."
+      },
+      {
+        "outcome": "Turtle/Top",
+        "how": "Fight boot pressure until attacker's torque control weakens below effective threshold, then use the reduced hip restriction to pull knees underneath your body and re-turtle. Even partial turtle recovery removes the perpendicular angle that makes truck dangerous."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Panicking and burning energy with explosive unfocused movements instead of systematic escape",
+        "consequence": "Rapid exhaustion within 15-20 seconds, leaving you defenseless against submissions and unable to execute any viable escape sequence",
+        "correction": "Breathe deliberately through your nose, protect neck first, then work through the escape sequence methodically: clear boot, extract leg, recover position"
+      },
+      {
+        "error": "Attempting leg extraction while boot pressure remains fully established",
+        "consequence": "Boot torque prevents the hip rotation needed for leg extraction, making escape attempts futile and wasting precious energy",
+        "correction": "Always address boot pressure before attempting leg extraction; without clearing the boot, your hips lack the rotational freedom required for successful extraction"
+      },
+      {
+        "error": "Reaching back toward opponent with both arms to fight grips while leaving neck undefended",
+        "consequence": "Exposes cervical spine to twister grips and rear choke attempts while removing all upper body defensive frames",
+        "correction": "Keep at least one hand defending your neck at all times; use single-hand boot fighting while the other hand maintains neck protection against spinal attacks"
+      },
+      {
+        "error": "Flattening completely to the mat instead of maintaining hip elevation with base leg",
+        "consequence": "Gives attacker a stable platform for finishing submissions and eliminates the bridging capability needed for escape initiation",
+        "correction": "Maintain slight hip elevation using your free leg and base hand; this preserves the ability to bridge, shrimp, or generate the momentum needed for granby roll escape"
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is your first defensive priority when the opponent re-establishes boot pressure after you partially clear it?",
+        "answer": "Immediately re-engage boot fighting with your near hand while keeping the far hand defending your neck. The boot is the torque engine of the truck position, and allowing it to re-seat without resistance means all subsequent escape attempts become exponentially harder. Fight the boot every time it is re-applied, because each successful re-seating resets your escape progress to zero."
+      },
+      {
+        "question": "How do you time your major escape attempt against a skilled truck maintenance player?",
+        "answer": "Time your escape for the moment the attacker shifts weight to attempt a submission. When they reach for a twister grip, their chest pressure momentarily decreases. When they adjust for a calf slicer, their upper body connection loosens. These transition moments between maintenance posture and attack posture create the brief gaps needed for successful escape attempts. Patience is essential because forcing escape against full maintenance rarely succeeds."
+      },
+      {
+        "question": "Your trapped leg is being extended and you feel calf slicer pressure building—what do you do?",
+        "answer": "Immediately bend your knee as sharply as possible to reduce compression on the joint while simultaneously rotating your hip toward the trapped leg to reduce the extension angle. If you can create enough slack, attempt extraction. If compression pressure becomes significant and escape is not viable, tap immediately. The calf slicer can cause serious knee ligament damage with very little warning before the injury threshold is crossed."
+      },
+      {
+        "question": "What determines whether you should attempt a granby roll or a hip escape from truck bottom?",
+        "answer": "Choose granby roll when the attacker's weight is committed forward over your upper body, as the roll uses their forward pressure as momentum to generate rotation. Choose hip escape when the attacker has loose upper body control but maintains strong boot and leg entanglement, because shrimping creates the angles needed to work the trapped leg free. Granby requires space and momentum to initiate effectively, while hip escape works in tighter configurations where rolling is not feasible."
+      },
+      {
+        "question": "Why is it critical to address boot pressure before attempting leg extraction?",
+        "answer": "Boot pressure creates lateral torque through your hips that prevents the rotation needed for leg extraction. Attempting to extract your trapped leg while the boot is firmly placed is like trying to open a door while someone is pushing it shut from the other side. Clearing or reducing the boot first removes the mechanical restriction on your hip rotation, making subsequent leg extraction dramatically more likely to succeed with less energy expenditure."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Position Familiarization",
+        "focus": "Comfort and threat awareness in truck bottom",
+        "description": "Partner establishes truck at 20% control while you identify all three control points and submission threats. Practice calm breathing and systematic threat assessment without attempting escape. Build comfort in the unfamiliar body configuration before adding defensive techniques."
+      },
+      {
+        "phase": "Phase 2: Isolated Escape Mechanics",
+        "focus": "Individual escape component drilling",
+        "description": "Practice each escape component separately against 30-40% resistance: boot clearing technique, leg extraction methods, and granby roll mechanics. Partner holds truck but allows escape attempts to succeed with proper technique. Build muscle memory for each escape path independently before combining them."
+      },
+      {
+        "phase": "Phase 3: Chained Escape Sequences",
+        "focus": "Combining escapes into flowing defense",
+        "description": "Partner provides 50-60% resistance while you chain multiple escape techniques: clear boot then extract leg, or reduce boot then granby roll. Practice reading which escape path is available based on attacker's reactions to your initial attempt and flowing between options."
+      },
+      {
+        "phase": "Phase 4: Live Escape Under Full Resistance",
+        "focus": "Realistic escape timing and execution",
+        "description": "Start in established truck against partner at full resistance in 30-second rounds. Work for escape while partner hunts submissions. Analyze failed attempts to identify which control point should have been addressed first and develop timing for explosive escape during attacker's weight shifts."
+      }
+    ]
+  }
+}

@@ -1,0 +1,411 @@
+{
+  "name": "Pass Overhook Guard",
+  "description": "Master passing Overhook Guard in BJJ. Complete technical guide covering grip stripping, shoulder pressure mechanics, and systematic passing to side control.",
+  "tags": [
+    "guard-pass",
+    "overhook-guard",
+    "pressure-passing",
+    "top-game",
+    "side-control",
+    "grip-fighting"
+  ],
+  "from_position": "Overhook Guard/Top",
+  "outcomes": [
+    {
+      "to": "Side Control/Top",
+      "probability": 50,
+      "result": "success"
+    },
+    {
+      "to": "Overhook Guard/Top",
+      "probability": 25,
+      "result": "failure"
+    },
+    {
+      "to": "Closed Guard/Top",
+      "probability": 15,
+      "result": "failure"
+    },
+    {
+      "to": "Mount/Bottom",
+      "probability": 10,
+      "result": "counter"
+    }
+  ],
+  "success_rate": 50,
+  "overview": "Passing the Overhook Guard requires the top player to systematically neutralize the bottom player's arm control before advancing to side control. The overhook creates a powerful frame that limits the passer's mobility on one side while exposing them to sweeps and back takes. Unlike standard closed guard passes where both arms are relatively free, the overhook pass demands careful attention to arm extraction or repositioning before any passing mechanics can succeed.\n\nThe key strategic principle is addressing the overhook before attempting the pass. Rushing a knee slice or smash pass while the overhook remains locked creates opportunities for the guard player to sweep or take the back. Effective passers either strip the overhook through posture and grip fighting, or use the overhook against the guard player by driving pressure through the controlled arm to flatten their opponent. The most reliable approach combines shoulder pressure into the overhook with systematic hip advancement.\n\nThis pass integrates with broader guard passing systems as a specialized solution for one of the most common defensive grips encountered during guard work. Practitioners who master this pass remove a key defensive tool from their opponent's arsenal, forcing them into less favorable guard configurations where standard passing sequences become more effective.",
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Shoulder Pressure Smash Pass",
+      "description": "Drive shoulder pressure directly into the overhooked arm, using your weight to flatten the bottom player before sliding the knee across and completing the pass. The overhook actually assists this variation by keeping the opponent connected to you as you drive forward.",
+      "when_to_use": "When the bottom player has a deep overhook and strong leg control that prevents standing or backstep entries. The smash variation uses their grip against them."
+    },
+    {
+      "variant_name": "Backstep Strip Pass",
+      "description": "Step the far leg backward to create an angle that weakens the overhook grip, then strip the arm free before re-engaging with a standard passing sequence. The angular change breaks the mechanical advantage of the overhook by changing the line of force.",
+      "when_to_use": "When the bottom player has excellent hip control and the direct pressure approach is being countered with sweeps or guard recovery."
+    },
+    {
+      "variant_name": "Stand-Up Posture Break",
+      "description": "Stand fully upright to break the bottom player's guard and use gravity and posture to strip the overhook grip. Once standing, the overhook loses most of its effectiveness because the bottom player cannot generate downward pulling force from the mat.",
+      "when_to_use": "When the bottom player has strong closed guard with overhook and resists all kneeling passing attempts. Standing changes the dynamic entirely."
+    }
+  ],
+  "position_integration": "Pass Overhook Guard connects the guard passing game with dominant side control positioning. This technique addresses a specific defensive configuration encountered when the guard player establishes an overhook, which is common in both gi and no-gi contexts. Successfully passing the overhook guard feeds into the top control system, enabling transitions to mount, knee on belly, and submission sequences from side control. The pass chains naturally with other guard passing tools like the knee slice and smash pass when the initial approach is partially successful, and understanding it removes a key defensive tool from the opponent's guard retention arsenal.",
+  "conditions": [
+    "Top player is inside opponent's overhook guard with one arm controlled",
+    "Bottom player has established overhook grip on one of the top player's arms",
+    "Top player has sufficient base to begin a passing sequence",
+    "Guard is open or top player can create space to initiate leg clearance"
+  ],
+  "related_content": [
+    {
+      "name": "Overhook Guard",
+      "relationship": "Source position where this pass is initiated"
+    },
+    {
+      "name": "Side Control",
+      "relationship": "Primary target position upon successful completion of the pass"
+    },
+    {
+      "name": "Break Overhook Guard",
+      "relationship": "Complementary technique focused on stripping the overhook grip"
+    },
+    {
+      "name": "Overhook Pass to Side Control",
+      "relationship": "Related passing sequence from overhook position"
+    },
+    {
+      "name": "Overhook to Closed Guard",
+      "relationship": "Bottom player's defensive recovery option against this pass"
+    },
+    {
+      "name": "Overhook to Half Guard",
+      "relationship": "Intermediate position that may occur during passing attempts"
+    },
+    {
+      "name": "Closed Guard",
+      "relationship": "Position bottom player may recover to if pass fails"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Intermediate position during partial pass attempts"
+    },
+    {
+      "name": "Headquarters Position",
+      "relationship": "Related passing position used during guard navigation"
+    },
+    {
+      "name": "Overhook Control",
+      "relationship": "Related arm control concept used in the overhook system"
+    },
+    {
+      "name": "Overhook Control Sweep",
+      "relationship": "Counter-technique bottom player may attempt during pass"
+    },
+    {
+      "name": "Mount",
+      "relationship": "Position bottom player targets with sweep counters"
+    }
+  ],
+  "attacker": {
+    "name": "Pass Overhook Guard Attacker",
+    "description": "Complete guide to passing the Overhook Guard from the top position. Step-by-step execution covering grip stripping, pressure application, and pass completion to side control.",
+    "overview": "As the attacker passing the Overhook Guard, your primary objective is to neutralize the bottom player's arm control and advance to side control. The overhook is one of the most disruptive grips a guard player can establish because it eliminates your posting ability on one side, breaks your posture, and creates direct pathways to sweeps and back takes. Your approach must be methodical: first address the grip, then establish dominant pressure, and finally complete the pass. Rushing any phase invites counters that can reverse your position entirely. The most successful passers treat the overhook as a problem to be solved before the pass, not during it.",
+    "key_principles": [
+      "Address the overhook grip before initiating any passing mechanics to prevent sweeps and back takes",
+      "Use shoulder pressure into the overhooked arm to flatten the opponent rather than pulling away from the grip",
+      "Maintain heavy hip pressure throughout the pass to prevent guard recovery and space creation",
+      "Control the opponent's free arm to eliminate secondary defensive frames",
+      "Progress systematically through grip strip, pressure establishment, and leg clearance phases",
+      "Keep your base wide and low to resist sweep attempts during the passing sequence",
+      "Chain the overhook pass with knee slice and smash pass mechanics for when initial approaches are countered"
+    ],
+    "setup_requirements": [
+      "Establish stable base with knees wide and hips forward inside the guard",
+      "Identify which arm is trapped in the overhook and assess grip depth",
+      "Control opponent's free hand or wrist to limit their secondary grips",
+      "Break or open the closed guard if legs are locked around your waist",
+      "Posture up sufficiently to begin addressing the overhook without exposing your neck"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Establish base and posture",
+        "description": "Plant both hands on the mat or on your opponent's hips and drive your hips forward to create a solid base. Widen your knees for stability and begin working to posture up against the overhook pull. Do not attempt to rip your arm free immediately as this wastes energy and creates openings for the guard player."
+      },
+      {
+        "step_number": 2,
+        "action": "Control the free arm",
+        "description": "With your non-trapped hand, secure control of the opponent's free arm by gripping their wrist, sleeve, or pinning it to their body. This eliminates their ability to establish secondary grips, frame against your face, or set up submissions with their free hand. The free arm is the guard player's primary tool for chaining attacks."
+      },
+      {
+        "step_number": 3,
+        "action": "Strip or neutralize the overhook",
+        "description": "Either strip the overhook by circling your trapped arm toward your body and peeling their grip with your free hand, or neutralize it by driving shoulder pressure forward into the overhooked arm. If stripping, use small circular motions at the wrist rather than pulling straight back. If pressuring, collapse your weight through the shoulder into their controlling arm."
+      },
+      {
+        "step_number": 4,
+        "action": "Establish shoulder pressure",
+        "description": "Drive your shoulder on the previously overhooked side into the opponent's chest and face, establishing a crossface or shoulder-of-justice pressure. Drop your hips low and heavy onto the opponent's hips. This flattens their guard structure and prevents them from creating the angles needed for sweeps or guard recovery. Your weight should feel like it is pinning them to the mat."
+      },
+      {
+        "step_number": 5,
+        "action": "Begin hip advancement",
+        "description": "With pressure established, start walking your hips toward the side you want to pass to. Use small steps with your knees, keeping constant chest contact. If passing to the overhook side, drive through the controlled arm. If passing away from the overhook, backstep and use the angle. Keep your hips lower than your opponent's hips throughout this movement."
+      },
+      {
+        "step_number": 6,
+        "action": "Clear the legs",
+        "description": "As your hips advance past the opponent's guard line, use your near knee to slice across their thigh or pin their bottom leg. Simultaneously sprawl your far leg back to prevent them from recovering a hook. The leg clearance must be decisive. A half-committed leg clear allows the opponent to recover half guard and reset the passing battle."
+      },
+      {
+        "step_number": 7,
+        "action": "Consolidate side control",
+        "description": "Once past the legs, immediately establish crossface control with your near arm across their face and neck. Drop your hips to the mat against their far hip. Secure an underhook on their far arm or block their hip with your near hand. Settle your weight and establish the perpendicular chest-to-chest position that defines solid side control. Do not chase submissions immediately; secure the position first."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Bottom player tightens overhook and pulls elbow to ribs to prevent grip strip",
+        "effectiveness": "High",
+        "your_response": "Switch from stripping the grip to using shoulder pressure pass variation. Drive weight through the overhooked arm to flatten the opponent, using their own grip to keep them connected to you as you advance your hips.",
+        "targets_outcome": "Overhook Guard/Top"
+      },
+      {
+        "counter": "Bottom player hip bumps during weight shift to sweep to mount",
+        "effectiveness": "Medium",
+        "your_response": "Widen your base immediately when you feel the hip elevation. Post your free hand on the mat on the opposite side and drive your hips back down. If the sweep is deep, abandon the pass temporarily and re-establish base before restarting.",
+        "targets_outcome": "Mount/Bottom"
+      },
+      {
+        "counter": "Bottom player locks ankles and recovers closed guard during pass attempt",
+        "effectiveness": "High",
+        "your_response": "Keep your hips forward and heavy throughout the pass to prevent ankle closure. If they do recover closed guard, immediately posture up and restart the guard opening sequence. The overhook should be weaker in closed guard without the angle.",
+        "targets_outcome": "Closed Guard/Top"
+      },
+      {
+        "counter": "Bottom player angles hips and threatens triangle as arm is freed",
+        "effectiveness": "Medium",
+        "your_response": "Keep your posture tall and your freed arm tucked tight to your body with elbow inside. Drive your shoulder into their chest to flatten any angle they create. If the triangle threat is real, posture immediately and stack before they can lock it.",
+        "targets_outcome": "Overhook Guard/Top"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Attempting to rip the arm free from the overhook with explosive force",
+        "consequence": "Wastes significant energy, often fails against a deep grip, and creates momentum that the guard player redirects into sweeps or back takes",
+        "correction": "Use methodical grip stripping with small circular motions at the wrist, or bypass the strip entirely by using the shoulder pressure variation that makes the overhook a liability"
+      },
+      {
+        "error": "Keeping hips high and away from the opponent during the pass",
+        "consequence": "Creates space for the guard player to insert hooks, recover guard, or generate hip movement for sweeps",
+        "correction": "Keep hips low and heavy in contact with the opponent's hips throughout the entire passing sequence, pinning their hips to the mat with your weight"
+      },
+      {
+        "error": "Neglecting to control the opponent's free arm before passing",
+        "consequence": "The free arm establishes frames against your head or shoulder, creates distance, and enables the guard player to chain defensive sequences",
+        "correction": "Always secure control of the free arm with your non-trapped hand before advancing the pass by pinning it to their body, gripping the wrist, or smothering it with your chest"
+      },
+      {
+        "error": "Attempting to pass to the opposite side of the overhook without adjusting angle",
+        "consequence": "The overhook creates a strong pulling force toward the controlled side, making opposite-side passes vulnerable to being pulled off balance into sweeps",
+        "correction": "When passing away from the overhook, first backstep to create an angle that weakens the grip, or strip the overhook before changing direction"
+      },
+      {
+        "error": "Rushing through the leg clearance phase without securing upper body control",
+        "consequence": "The guard player recovers half guard or re-establishes full guard because upper body was not pinned during the transition",
+        "correction": "Establish dominant crossface and shoulder pressure before committing to leg clearance, ensuring the upper body pin is secure before the lower body passes"
+      },
+      {
+        "error": "Standing up without a plan to address the overhook from standing position",
+        "consequence": "The guard player uses the standing position to drag you down or transition to ankle picks and other standing attacks from guard",
+        "correction": "If standing to break the guard, have a specific plan to strip the overhook using posture and gravity, and break the grip before re-engaging from kneeling"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Grip Recognition and Stripping",
+        "focus": "Overhook identification and systematic grip removal",
+        "description": "Practice identifying when the opponent establishes the overhook and drill three methods of stripping it: circular wrist extraction, posture-based breaking, and standing strip. Partner provides static overhook resistance increasing to 50%. Focus on efficient energy use during grip fighting."
+      },
+      {
+        "phase": "Phase 2: Pressure Pass Mechanics",
+        "focus": "Shoulder pressure and hip advancement without the grip strip",
+        "description": "Drill the shoulder pressure variation where you pass through the overhook rather than stripping it. Focus on driving weight through the controlled arm, flattening the opponent, and advancing hips. Partner maintains overhook with moderate resistance. Develop the feel for using their grip against them."
+      },
+      {
+        "phase": "Phase 3: Full Pass Sequence with Counters",
+        "focus": "Combining grip strip with pass completion against active defense",
+        "description": "Execute the complete passing sequence from overhook strip through side control consolidation against a partner who defends with hip bumps, guard recovery, and triangle threats. Develop the ability to read which counter is coming and adjust your pass variation accordingly."
+      },
+      {
+        "phase": "Phase 4: Live Positional Sparring",
+        "focus": "Applying the pass under full resistance from overhook guard",
+        "description": "Positional sparring starting from overhook guard. Top player works to pass, bottom player works to sweep, submit, or recover guard. Full resistance with resets after each success. Focus on combining all variations and adjusting in real time based on opponent's defensive choices."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the primary risk of attempting to rip your arm free from a deep overhook using explosive force?",
+        "answer": "Explosive arm extraction wastes significant energy and creates momentum that the guard player can redirect into sweeps or back takes. The pulling motion also momentarily compromises your base, making you vulnerable to hip bump sweeps. Instead, use methodical circular wrist extraction or bypass the strip entirely with a shoulder pressure pass that uses the overhook connection against the guard player."
+      },
+      {
+        "question": "Your opponent has a deep overhook and keeps breaking your posture every time you try to strip the grip - how do you adjust your approach?",
+        "answer": "Switch from stripping the overhook to using the shoulder pressure smash variation. Drive your weight forward through the overhooked arm into the opponent's chest, using their grip to keep them connected to you. The deep overhook actually assists this approach because the opponent cannot release without giving you your arm back. Flatten them with shoulder pressure and advance your hips while they remain anchored to your arm."
+      },
+      {
+        "question": "What is the optimal timing window for initiating the leg clearance phase of this pass?",
+        "answer": "The leg clearance should begin only after upper body control is fully established with crossface and shoulder pressure pinning the opponent flat. The optimal window is when the opponent's hips are heavy on the mat and they have no angle or frame with their free arm. Attempting leg clearance before upper body dominance allows guard recovery. Watch for the moment when their defensive movements pause, indicating they are absorbing pressure rather than actively defending."
+      },
+      {
+        "question": "What grip must you secure before beginning any passing mechanics from overhook guard top?",
+        "answer": "You must control the opponent's free arm before advancing any pass. This is the guard player's primary tool for creating frames, threatening submissions, and establishing secondary grips. Control it by gripping the wrist, pinning the elbow, or smothering it with your chest. Without controlling the free arm, any passing attempt will be disrupted by frames against your head or underhook recovery."
+      },
+      {
+        "question": "How does the direction of force differ between stripping the overhook grip versus using the pressure pass variation?",
+        "answer": "When stripping the grip, force is directed away from the opponent as you extract your arm through circular wrist motions and posture. When using the pressure pass, force is directed into the opponent through your shoulder and chest, driving weight forward through the overhooked arm. The strip approach creates separation while the pressure approach eliminates separation. The correct choice depends on the depth of the overhook and the opponent's guard structure."
+      },
+      {
+        "question": "Your opponent hip bumps as you shift weight to begin the pass - what is your immediate response?",
+        "answer": "Immediately widen your base by posting your free hand on the mat on the opposite side of the hip bump and drive your hips back down toward the mat. The hip bump relies on catching you with a narrow base during a weight shift. If the sweep has significant momentum, abandon the pass temporarily, re-establish base with knees wide and hips low, and restart the sequence once stable. Never try to continue the pass through a committed hip bump."
+      },
+      {
+        "question": "What are the critical mechanical details for the backstep strip variation of this pass?",
+        "answer": "Step the far leg backward and away from the overhook to create an angle approximately 45 degrees from the original position. This angular change breaks the mechanical advantage of the overhook because the line of pulling force no longer aligns with the guard player's strongest grip direction. From the backstep angle, the overhook loosens naturally, allowing you to strip it with minimal force. Then re-engage with a standard passing approach from the new angle, which also bypasses their leg frames."
+      },
+      {
+        "question": "Your opponent begins recovering closed guard by attempting to lock their ankles as you advance the pass - how do you prevent this?",
+        "answer": "Keep your hips forward and heavy against their hips throughout the pass, eliminating the space they need to close their ankles behind your back. If you feel their legs beginning to climb, immediately drive your hips even lower and wider, sprawling one leg back if necessary. Use your near elbow to pin their top knee down as you advance. Prevention is far easier than breaking a closed guard after it locks, so prioritize hip pressure over arm position when you feel ankle closure beginning."
+      }
+    ],
+    "safety_considerations": "This guard pass involves significant shoulder pressure and weight driving techniques. Apply pressure gradually during training and be responsive to your partner's discomfort signals. When using the shoulder pressure variation, avoid driving directly into the throat or windpipe. The overhook grip strip can cause wrist strain if done explosively; use controlled, gradual techniques during drilling. Always allow your partner to tap if the pressure becomes excessive, particularly during the crossface and shoulder-of-justice positions."
+  },
+  "defender": {
+    "name": "Pass Overhook Guard Defender",
+    "description": "Complete guide to defending against the Overhook Guard pass from bottom position. Recognition cues, defensive options, and counter-attacks to maintain guard or reverse position.",
+    "overview": "As the defender in the Overhook Guard, your primary objective is to maintain your overhook control and prevent the top player from advancing to side control. Your overhook is a powerful weapon that limits their passing options and creates direct pathways to sweeps and back takes, but only if you actively maintain it and chain attacks. A passive overhook guard player will eventually be passed because the top player can methodically strip the grip and establish pressure. Your defense must be active: constantly threatening sweeps and submissions to force the passer into reactive mode, tightening the overhook when they attempt to strip it, and using hip movement to prevent them from flattening you. When the pass attempt is committed, recognizing which variation they are using determines your optimal counter.",
+    "key_principles": [
+      "Maintain deep overhook with elbow tight to ribs and hand gripping the opponent's lat or back",
+      "Keep constant pulling pressure on the overhook to prevent posture recovery and grip stripping",
+      "Control the opponent's free arm with your non-overhook hand to prevent crossface and frames",
+      "Use hip movement to create angles that amplify overhook leverage and prevent flattening",
+      "Chain offensive threats continuously to keep the passer reactive and unable to establish passing mechanics",
+      "Recognize the specific pass variation being attempted and apply the targeted counter"
+    ],
+    "recognition_cues": [
+      "Top player begins posturing up with increased upward pressure and hand placement on your hips or chest",
+      "Top player's free hand starts working on your overhook wrist, attempting circular grip stripping motions",
+      "Top player shifts weight to the overhook side and begins driving shoulder pressure into your controlled arm",
+      "Top player widens their base and begins walking knees to one side in preparation for hip advancement",
+      "Top player stands up from kneeling position, indicating a standing grip break approach",
+      "Top player backsteps the far leg, creating an angle that weakens your overhook mechanics"
+    ],
+    "defensive_options": [
+      {
+        "action": "Tighten overhook and re-break posture by pulling elbow to ribs and using legs to pull opponent forward",
+        "when_to_use": "When the top player begins posturing up and attempting to strip your overhook grip through posture or circular motions",
+        "targets_outcome": "Overhook Guard/Top",
+        "if_successful": "Top player's posture is broken back down, overhook control is re-established, and you can resume offensive attacks from guard",
+        "risk": "If the grip strip is too far advanced, fighting for the overhook wastes energy and delays transitioning to alternate defense"
+      },
+      {
+        "action": "Execute hip bump sweep by posting on free hand and driving hips upward into the top player's compromised base",
+        "when_to_use": "When the top player shifts weight forward during the pass or lifts their hips during the transition phase, creating a momentary base vulnerability",
+        "targets_outcome": "Mount/Bottom",
+        "if_successful": "Top player is swept and you achieve mount position, completely reversing the positional hierarchy",
+        "risk": "If the sweep fails, you may lose the overhook and end up flat with the top player in an improved passing position"
+      },
+      {
+        "action": "Lock ankles and recover closed guard by pulling legs tight around the opponent's waist",
+        "when_to_use": "When the top player creates distance during grip stripping or stands up to break the overhook, creating space for ankle closure",
+        "targets_outcome": "Closed Guard/Top",
+        "if_successful": "Full closed guard is recovered with legs locked, and you can re-establish the overhook or transition to other guard attacks",
+        "risk": "Closing guard without the overhook may leave you in a neutral closed guard with less offensive control"
+      },
+      {
+        "action": "Hip escape toward the overhook side and threaten triangle or omoplata as the top player advances",
+        "when_to_use": "When the top player commits to the pass and begins hip advancement, creating space on the far side for leg attacks",
+        "targets_outcome": "Overhook Guard/Top",
+        "if_successful": "The passing attempt is disrupted and you create a submission threat that forces the top player to retreat and defend",
+        "risk": "If the triangle or omoplata setup fails, you may end up in a worse position with your legs extended and no overhook"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Mount/Bottom",
+        "how": "Time the hip bump sweep for when the top player shifts weight forward during the passing sequence. Post on your free hand, bridge your hips into their chest, and drive them over the overhook side where they cannot post. The overhook eliminates their posting ability on that side, making this sweep highly effective."
+      },
+      {
+        "outcome": "Overhook Guard/Top",
+        "how": "Maintain active overhook control by tightening the grip whenever the passer attempts to strip it. Use your legs to break their posture back down and your free hand to prevent them from establishing the frames needed to advance. Continuous offensive threats from guard force the passer to abandon passing attempts and focus on defense."
+      },
+      {
+        "outcome": "Closed Guard/Top",
+        "how": "When the passer creates distance during grip fighting or stands up, immediately capitalize on the space by locking your ankles behind their back. Pull them back down into closed guard and re-establish grips. While closed guard without the overhook is less offensive, it successfully prevents the pass and gives you time to set up new attacks."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Holding the overhook passively without threatening attacks",
+        "consequence": "The passer can methodically work to strip the grip because there is no urgency or consequence for being slow and deliberate in their approach",
+        "correction": "Constantly threaten sweeps, submissions, and back takes from the overhook to force the passer into reactive mode where they cannot focus on stripping your grip"
+      },
+      {
+        "error": "Staying flat on the back without creating angles with the hips",
+        "consequence": "The passer can drive shoulder pressure through the overhook to flatten you completely, neutralizing the leverage advantage the overhook provides",
+        "correction": "Hip escape toward the overhook side to create an angle that amplifies your overhook leverage and prevents the passer from driving straight through you"
+      },
+      {
+        "error": "Neglecting to control the opponent's free arm while focusing on maintaining the overhook",
+        "consequence": "The passer uses their free arm to establish crossface, create frames, and control your head position, setting up dominant passing mechanics",
+        "correction": "Use your non-overhook hand to control their free wrist, collar, or sleeve to prevent them from establishing any secondary control"
+      },
+      {
+        "error": "Fighting to maintain overhook when it has been mostly stripped instead of transitioning to alternative defense",
+        "consequence": "Energy is wasted fighting a losing grip battle while the passer advances position, leaving you exhausted and in a worse position",
+        "correction": "If the overhook is being stripped past the point of recovery, immediately transition to alternative defense such as closing guard, framing to prevent the pass, or switching to a different guard variation"
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the most important principle for preventing the shoulder pressure smash pass variation?",
+        "answer": "Hip escape toward the overhook side to create an angle before the passer can flatten you with shoulder pressure. When you are angled, the passer cannot drive weight straight through you because the force is directed at an angle that you can redirect. Combine the hip escape with pulling the overhook tight and using your free hand to block their crossface. If you stay flat, the pressure pass becomes nearly impossible to stop."
+      },
+      {
+        "question": "Your opponent begins backstepping to strip the overhook - what is your immediate counter?",
+        "answer": "Follow the backstep by hip escaping in the same direction to maintain the angle that keeps your overhook strong. If they step backward, their angle change is attempting to weaken your grip line. By moving your hips to match, you preserve the overhook mechanics. Simultaneously threaten a sweep or submission to punish the backstep, as the angular change often compromises their base. If the backstep is deep, consider transitioning to De La Riva or other open guard hooks."
+      },
+      {
+        "question": "When is the optimal moment to attempt a hip bump sweep during the opponent's pass attempt?",
+        "answer": "The optimal moment is when the passer shifts their weight forward onto your chest during the pressure phase of the pass, or when they lift their hips during the leg clearance transition. Both moments create a momentary base vulnerability because their weight is committed in one direction. The overhook prevents them from posting on the controlled side, making the sweep higher percentage than a standard hip bump. Time the bridge to coincide with their forward weight shift for maximum effectiveness."
+      },
+      {
+        "question": "How should you transition defensively if your overhook is completely stripped and the opponent has shoulder pressure established?",
+        "answer": "Immediately create frames with both forearms against their shoulder and hip to prevent further advancement. Hip escape to create space and work to insert a knee shield or recover half guard. If frames fail, focus on preventing the crossface by turning your head toward them and fighting for an underhook on the near side. The priority shifts from guard retention to damage control. Accepting half guard is better than being flattened in side control."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Overhook Retention Under Pressure",
+        "focus": "Maintaining overhook control against increasing strip attempts",
+        "description": "Partner works three overhook strip methods (posture break, circular extraction, standing strip) with progressive resistance. Focus on tightening the grip, using legs to prevent posture, and controlling the free arm. Start at 30% resistance and build to 70% over multiple rounds."
+      },
+      {
+        "phase": "Phase 2: Counter-Attack Integration",
+        "focus": "Chaining sweeps and submissions into overhook guard defense",
+        "description": "Drill hip bump sweeps, triangle threats, and omoplata setups as direct counters to pass attempts. Partner initiates a pass, and you respond with the appropriate counter based on their weight distribution and angle. Develop timing recognition for each counter."
+      },
+      {
+        "phase": "Phase 3: Full Defense with Transitions",
+        "focus": "Defending the complete pass sequence and transitioning between defensive options",
+        "description": "Partner performs the full pass sequence including grip strip, pressure, and leg clearance with 70-80% resistance. Practice recognizing which phase the pass is in and applying the correct counter. Develop the ability to chain between overhook tightening, sweep attempts, and guard recovery seamlessly."
+      },
+      {
+        "phase": "Phase 4: Live Positional Defense",
+        "focus": "Full resistance defense from overhook guard bottom",
+        "description": "Positional sparring starting from overhook guard. Bottom player defends the pass while threatening sweeps and submissions. Full resistance with resets after each success. Focus on combining all defensive tools and making real-time decisions about which option to pursue."
+      }
+    ]
+  }
+}

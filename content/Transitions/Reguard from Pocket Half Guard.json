@@ -1,0 +1,402 @@
+{
+  "name": "Reguard from Pocket Half Guard",
+  "description": "Master the Reguard from Pocket Half Guard in BJJ. Recover standard half guard through frame creation, hip escapes, and knee shield insertion timing.",
+  "tags": [
+    "bjj",
+    "guard-recovery",
+    "half-guard",
+    "pocket-half-guard",
+    "guard-retention",
+    "reguard",
+    "bottom-game",
+    "defensive-transition"
+  ],
+  "from_position": "Pocket Half Guard/Bottom",
+  "outcomes": [
+    {
+      "to": "Half Guard/Bottom",
+      "probability": 50,
+      "result": "success"
+    },
+    {
+      "to": "Pocket Half Guard/Bottom",
+      "probability": 30,
+      "result": "failure"
+    },
+    {
+      "to": "Flattened Half Guard/Bottom",
+      "probability": 20,
+      "result": "counter"
+    }
+  ],
+  "success_rate": 50,
+  "overview": "The Reguard from Pocket Half Guard is a guard retention technique where the bottom player abandons the specialized pocket half guard configuration and recovers to standard half guard with proper frames and distance management. Pocket half guard relies on a deep underhook and tight hip connection for offensive power, but when the top player begins winning the underhook battle, establishing crossface, or systematically flattening the bottom player's hips, maintaining the pocket configuration becomes increasingly dangerous. Rather than clinging to a deteriorating offensive position, the reguard provides a structured retreat to standard half guard where knee shields, frames, and distance management restore defensive integrity and open alternative attack chains.\n\nStrategically, this reguard functions as a positional circuit breaker within the half guard system. When the pocket half guard's primary attacks—Old School sweep, back takes, deep half entries—are being shut down by superior crossface pressure or underhook stripping, continuing to force these techniques burns energy and accelerates positional deterioration toward flattened half guard or side control. The reguard interrupts this downward spiral by converting the position to standard half guard before the opponent consolidates passing advantages. The technique is most effective when initiated early, during the transition from offensive pocket half guard to compromised pocket half guard, rather than waiting until the position is nearly lost.\n\nThe mechanical challenge lies in releasing the deep underhook—the defining feature of pocket half guard—and transitioning to frame-based distance management without creating a passing window. The underhook must be abandoned in favor of a forearm frame on the opponent's shoulder or bicep, while simultaneously inserting a knee shield to create the structural barrier that standard half guard depends on. This exchange of control mechanisms must happen fluidly, as any gap between releasing the underhook and establishing the frame leaves the bottom player without upper body control and vulnerable to immediate passing.",
+  "conditions": [
+    "Bottom player's pocket half guard position is compromised with underhook being stripped or crossface being established",
+    "Bottom player retains sufficient hip mobility to execute a shrimp and insert knee shield before being fully flattened",
+    "Top player has not yet completed the pass or achieved full flattening with chest-to-chest pressure",
+    "Bottom player's half guard leg entanglement remains intact with opponent's leg still trapped between both legs"
+  ],
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Frame and Shrimp Reguard",
+      "description": "Classical approach where the bottom player releases the underhook, immediately establishes a forearm frame on the opponent's shoulder, and executes a sharp hip escape to create space for knee shield insertion. The frame prevents the opponent from following the shrimp and collapsing space. Most reliable variant with the widest applicability because it addresses the fundamental need for distance creation before structural guard recovery.",
+      "when_to_use": "When the opponent is applying balanced pressure without extreme forward commitment, allowing space for hip escape mechanics and frame establishment"
+    },
+    {
+      "variant_name": "Underhook Release Reguard",
+      "description": "A controlled transition where the bottom player progressively converts the deep underhook to an overhook or wrist control while simultaneously inserting a knee shield, maintaining upper body connection throughout the transition. This variant avoids the vulnerable gap between underhook release and frame establishment by maintaining continuous arm contact during the conversion.",
+      "when_to_use": "When the opponent is actively stripping the underhook and the bottom player can redirect the failing grip into overhook or wrist control rather than losing contact entirely"
+    },
+    {
+      "variant_name": "Kick-Free Reguard",
+      "description": "An explosive variation where the bottom player uses a sharp hip bump to create momentary space, then rapidly inserts the knee shield while the opponent is displaced. The hip bump lifts the opponent's weight briefly, creating a window for the knee to slide between bodies. Higher risk but effective when lateral hip escapes are restricted by the opponent's weight distribution.",
+      "when_to_use": "When the opponent is driving heavy forward pressure that restricts lateral hip movement but loads their weight onto the bottom player's hips where it can be displaced upward"
+    }
+  ],
+  "position_integration": "The Reguard from Pocket Half Guard occupies a critical defensive node in the half guard retention network, connecting the specialized pocket half guard back to the more structurally sound standard half guard. Within the half guard family, it represents the preferred recovery pathway when pocket half guard's offensive advantages have been neutralized by the top player's crossface, underhook stripping, or flattening pressure. This technique prevents the common positional deterioration sequence of pocket half guard to flattened half guard to side control by interrupting the chain early and restoring the bottom player's access to the full standard half guard attack system including knee shield sweeps, deep half entries, and dogfight transitions.",
+  "related_content": [
+    {
+      "name": "Pocket Half Guard",
+      "relationship": "Source position where the technique begins"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Target position providing standard frames and distance management upon successful reguard"
+    },
+    {
+      "name": "Flattened Half Guard",
+      "relationship": "Counter outcome when opponent capitalizes on underhook release to flatten bottom player"
+    },
+    {
+      "name": "Knee Shield Half Guard",
+      "relationship": "Primary structural element inserted during reguard to establish distance and defensive framing"
+    },
+    {
+      "name": "Deep Half Guard",
+      "relationship": "Alternative transition from pocket half guard when forward pressure makes reguard impractical"
+    },
+    {
+      "name": "Old School Sweep",
+      "relationship": "Primary offensive technique from pocket half guard whose failure may trigger reguard decision"
+    },
+    {
+      "name": "Pass Pocket Half",
+      "relationship": "Opponent's primary goal that the reguard aims to prevent"
+    },
+    {
+      "name": "Recover Knee Shield from Flattened Half",
+      "relationship": "Similar guard recovery concept from a worse starting position"
+    },
+    {
+      "name": "Reguard from Half Butterfly",
+      "relationship": "Analogous reguard technique from a different half guard variation"
+    },
+    {
+      "name": "Back Control",
+      "relationship": "Alternative advancement from pocket half guard when offensive options remain viable"
+    }
+  ],
+  "attacker": {
+    "name": "Reguard from Pocket Half Guard Attacker",
+    "description": "Learn to execute the Reguard from Pocket Half Guard as the bottom player. Step-by-step guide to recovering standard half guard through frame creation, hip escapes, and knee shield insertion.",
+    "overview": "Executing the reguard from pocket half guard requires the bottom player to make a critical tactical decision: abandon the deep underhook that defines pocket half guard in exchange for frame-based distance management and knee shield structure. This is not a retreat born of panic but a calculated positional reset that preserves guard integrity when the pocket configuration is being systematically dismantled. The bottom player must coordinate underhook release, frame establishment, hip escape, and knee shield insertion as one continuous sequence. Any gap between releasing the underhook and establishing the replacement frame creates a window where the top player can drive crossface and flatten the position. Success depends on recognizing the right moment to transition—early enough that hip mobility remains available for the shrimp, but not so prematurely that a viable offensive pocket half guard position is abandoned.",
+    "key_principles": [
+      "Recognize early when pocket half guard is compromised rather than fighting to maintain a deteriorating underhook that the opponent is systematically stripping",
+      "Release the underhook and establish a replacement frame as one connected movement with no gap in upper body control",
+      "Use hip escape mechanics to create the space needed for knee shield insertion rather than trying to insert the shield against the opponent's pressure",
+      "Insert the knee shield as the primary structural element that defines standard half guard distance management and prevents chest-to-chest connection",
+      "Maintain the half guard leg entanglement throughout the entire transition to prevent the opponent from extracting their leg during the positional conversion",
+      "Immediately threaten standard half guard attacks after consolidation to prevent the opponent from establishing a new passing sequence against the recovered guard"
+    ],
+    "setup_requirements": [
+      "Half guard leg entanglement still intact with opponent's leg trapped between both of your legs",
+      "Sufficient hip mobility remaining to execute a shrimp—position is not yet fully flattened with hips pinned to the mat",
+      "Recognition that the pocket half guard underhook is being compromised through stripping, crossface pressure, or systematic flattening",
+      "Enough upper body mobility to transition from underhook to frame position without the opponent intercepting the movement"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Recognize compromised pocket half guard",
+        "description": "Identify the signals that pocket half guard is deteriorating: your underhook is becoming shallow as the opponent strips it toward your elbow, crossface pressure is increasing on the opposite side, or your hips are being progressively flattened toward the mat. The decision to reguard must be made while you still have hip mobility—waiting until you are fully flattened eliminates the option entirely. Read the trajectory of the position, not just the current state."
+      },
+      {
+        "step_number": 2,
+        "action": "Release underhook and establish forearm frame",
+        "description": "In one connected movement, withdraw your underhook arm and redirect it to a forearm frame against the opponent's shoulder or bicep on the near side. The forearm positions across their deltoid or upper arm with your elbow tight to your body, creating a structural barrier that replaces the underhook's pulling control with pushing distance management. This exchange must be seamless—any gap where neither the underhook nor the frame is active allows the opponent to drive their weight forward and flatten you."
+      },
+      {
+        "step_number": 3,
+        "action": "Establish secondary frame with free hand",
+        "description": "Place your other hand on the opponent's bicep, hip, or collar on the far side to create a secondary control point. This dual-frame structure provides the stability needed for the upcoming hip escape by preventing the opponent from rotating into you or driving laterally past your primary frame. The secondary frame also prevents the crossface from deepening during the transition period."
+      },
+      {
+        "step_number": 4,
+        "action": "Execute hip escape to create insertion space",
+        "description": "With both frames established, execute a sharp shrimp away from the opponent, driving your hips laterally to create approximately one shin-width of space between your torso and the opponent's chest. The frames hold the opponent at distance while your hips create the gap needed for knee shield insertion. The shrimp must be committed and explosive—a partial hip escape creates insufficient space and telegraphs the attempt without producing a viable insertion window."
+      },
+      {
+        "step_number": 5,
+        "action": "Insert knee shield across opponent's midsection",
+        "description": "Thread your top knee between your bodies and position your shin diagonally across the opponent's chest or midsection, with your foot hooking against their far hip. The knee shield creates the structural barrier that defines standard half guard distance management, preventing the opponent from reestablishing the chest-to-chest connection that pocket half guard lost. Drive the shield outward to maintain and expand the space created by your hip escape."
+      },
+      {
+        "step_number": 6,
+        "action": "Adjust hip angle and leg configuration",
+        "description": "With the knee shield established, adjust your hip angle to face the opponent rather than lying flat. Your bottom hip should be slightly elevated, with your body angled toward the opponent on your side. Confirm your half guard leg entanglement is still secure with the opponent's leg trapped between both of yours. The bottom leg maintains the trap while the top leg provides the knee shield—this split-function configuration is the foundation of standard half guard architecture."
+      },
+      {
+        "step_number": 7,
+        "action": "Consolidate standard half guard with active grips",
+        "description": "Establish proper standard half guard grips: inside hand controls the opponent's cross-collar, wrist, or sleeve while the knee shield hand frames on their bicep or shoulder. Both grips should create offensive opportunities while maintaining distance. Immediately begin threatening standard half guard attacks—underhook battle to return to pocket half guard, knee shield sweeps, or transitions to deep half guard—to prevent the opponent from settling into a new passing sequence against your recovered guard."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Opponent drives heavy crossface and shoulder pressure the moment they feel the underhook release",
+        "effectiveness": "High",
+        "targets_outcome": "Flattened Half Guard/Bottom",
+        "your_response": "The frame must be established simultaneously with the underhook release, not after. If the crossface arrives before your frame, use your elbow to create a wedge against their shoulder and shrimp immediately. If already being driven flat, abandon the reguard and transition to deep half guard entry where their forward pressure becomes advantageous."
+      },
+      {
+        "counter": "Opponent times a knee slice pass through the space created during the hip escape",
+        "effectiveness": "High",
+        "targets_outcome": "Flattened Half Guard/Bottom",
+        "your_response": "Prioritize the knee shield insertion over all other steps. If you feel the knee slice initiating, drive your knee across their path immediately to block the slice before it completes. The knee shield is the single most important element of the reguard—without it, no amount of framing prevents the pass."
+      },
+      {
+        "counter": "Opponent maintains underhook control on your released arm, preventing frame establishment",
+        "effectiveness": "Medium",
+        "targets_outcome": "Pocket Half Guard/Bottom",
+        "your_response": "If the opponent captures your arm as you release the underhook, use the underhook release variant instead—convert the failing underhook to an overhook or wrist control rather than trying to establish a frame. The overhook provides some distance management while you work the knee shield insertion from an alternative angle."
+      },
+      {
+        "counter": "Opponent sprawls weight backward to resist the frame and prevent knee shield insertion",
+        "effectiveness": "Low",
+        "targets_outcome": "Pocket Half Guard/Bottom",
+        "your_response": "Sprawling backward actually creates the space you need for knee shield insertion. If the opponent disengages forward pressure, immediately insert the knee shield and take the space they gave you. Their sprawl may indicate they are considering a different passing angle—be ready to address backstep or leg drag attempts from the new guard configuration."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Releasing the underhook without simultaneously establishing a replacement frame",
+        "consequence": "The gap between underhook release and frame establishment allows the opponent to drive their weight forward unopposed, flattening the bottom player and advancing directly toward side control with no defensive structure in place",
+        "correction": "Treat underhook release and frame establishment as one connected movement. Begin positioning your forearm against their shoulder as you withdraw the underhook arm so that pushing force replaces pulling force without interruption."
+      },
+      {
+        "error": "Waiting too long to initiate the reguard after the pocket half guard is compromised",
+        "consequence": "By the time you decide to reguard, your hips have been flattened to the point where hip escape is impossible, your frames are too weak to create space, and the opponent has already established dominant crossface and pressure for their pass",
+        "correction": "Initiate the reguard early, when you first recognize the underhook being stripped or crossface being established. The reguard requires hip mobility that diminishes rapidly as the opponent consolidates their top pressure. Early action preserves the movement options needed for success."
+      },
+      {
+        "error": "Attempting to insert the knee shield without first creating space through a hip escape",
+        "consequence": "The opponent's chest-to-chest pressure blocks the knee from threading between the bodies, resulting in a half-inserted shield that the opponent smashes through or a failed attempt that wastes energy and position",
+        "correction": "Always execute the hip escape before attempting knee shield insertion. The shrimp creates the space; the knee shield fills and maintains it. Reversing this order fights against the opponent's weight and body structure."
+      },
+      {
+        "error": "Losing the half guard leg entanglement during the transition between positions",
+        "consequence": "Without the leg trap, there is no half guard to recover to—the opponent simply extracts their leg and completes the pass while you are between positions with neither pocket half guard nor standard half guard established",
+        "correction": "Maintain conscious awareness of the leg entanglement throughout the entire reguard sequence. The bottom leg maintains the trap while the top leg transitions from pocket frame to knee shield. Both legs have distinct jobs that must be maintained simultaneously."
+      },
+      {
+        "error": "Settling into a passive standard half guard after the reguard without threatening attacks",
+        "consequence": "The opponent recognizes the position change and immediately initiates their preferred passing sequence against standard half guard, which they may be more comfortable passing than pocket half guard",
+        "correction": "Immediately threaten attacks from the recovered standard half guard—underhook battle, knee shield sweeps, deep half entries. The reguard is a reset, not an endpoint. Active offense after consolidation prevents the opponent from establishing a new passing rhythm."
+      },
+      {
+        "error": "Shrimping too far laterally during the hip escape, creating excessive space the opponent exploits",
+        "consequence": "The space intended for knee shield insertion becomes a passing lane that the opponent drives through to advance toward side control before the guard is consolidated",
+        "correction": "Create only enough space for the knee shield to thread between the bodies—approximately one shin-width. Maintain frame contact throughout to control the distance and prevent the opponent from using the created space offensively."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Solo Movement Mechanics",
+        "focus": "Developing the underhook-to-frame conversion and hip escape with knee shield insertion",
+        "description": "Practice the arm transition from underhook pulling position to forearm frame pushing position while lying on the mat. Add the hip escape and knee shield insertion as a continuous chain. Focus on eliminating any pause between underhook release and frame establishment. Perform 20 repetitions per side emphasizing fluid connection between each step."
+      },
+      {
+        "phase": "Phase 2: Cooperative Partner Drilling",
+        "focus": "Executing the full reguard against a stationary partner in pocket half guard top",
+        "description": "Partner establishes pocket half guard top position and holds still while you execute the complete sequence: release underhook, establish frame, shrimp, insert knee shield, consolidate standard half guard. Partner provides zero resistance but maintains their position structure. Focus on smooth mechanics and eliminating gaps in control. Drill 10-15 repetitions per side."
+      },
+      {
+        "phase": "Phase 3: Progressive Resistance",
+        "focus": "Executing the reguard against escalating defensive pressure",
+        "description": "Partner begins at 30% resistance with light crossface and forward pressure. Progress to 50% where partner actively drives when they feel the underhook release, then 70% where partner attempts knee slice counter-passes during the transition. At each level, identify which variant works best and where your timing breaks down. Track the specific moment the reguard fails at higher resistance levels."
+      },
+      {
+        "phase": "Phase 4: Decision Tree Integration",
+        "focus": "Connecting the reguard decision to pocket half guard attack chains",
+        "description": "Practice flowing from pocket half guard offensive attempts to the reguard decision. Start with Old School sweep attempts that get defended, recognize the compromised position, and immediately execute the reguard rather than forcing further attacks. Also drill transitioning from failed reguard to deep half guard entry or lockdown recovery. Build automatic recognition of when to reguard versus when to persist with pocket half guard attacks."
+      },
+      {
+        "phase": "Phase 5: Live Positional Sparring",
+        "focus": "Applying the reguard under full live conditions",
+        "description": "Start in pocket half guard bottom against fully resisting partner. Top player works to pass, bottom player uses full pocket half guard attack chain including the reguard as a defensive option. Track how often the reguard is needed, success rates, and whether the recovered standard half guard leads to sweeps or further passing attempts. Reset after sweep, pass, or submission."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the optimal timing window for initiating the reguard from pocket half guard?",
+        "answer": "The optimal timing is when you first recognize the underhook being stripped or the crossface being established, while you still have hip mobility for the shrimp. This early recognition window provides the best success rate because hip escape power diminishes rapidly as the opponent flattens your position. Waiting until the underhook is fully stripped or the crossface is locked in reduces success dramatically because the movement options needed for the transition are already compromised."
+      },
+      {
+        "question": "What is the most critical mechanical detail during the underhook-to-frame conversion?",
+        "answer": "The underhook release and frame establishment must be one connected movement with no gap in upper body control. As your arm withdraws from the underhook position, your forearm redirects to press against the opponent's shoulder or bicep, converting pulling control to pushing control seamlessly. Any pause where neither the underhook nor the frame is active allows the opponent to drive forward unopposed, collapsing the space needed for the reguard and often resulting in complete flattening."
+      },
+      {
+        "question": "What are the entry requirements that must exist before you can attempt this reguard?",
+        "answer": "Four conditions must be present: the half guard leg entanglement must still be intact with the opponent's leg trapped, sufficient hip mobility must remain for a shrimp, the pocket half guard must be recognizably compromised through underhook stripping or crossface establishment, and enough upper body mobility must exist to transition from underhook to frame without the opponent intercepting the movement. If hip mobility is already gone, transition to deep half guard instead."
+      },
+      {
+        "question": "Your opponent drives a knee slice the moment you create space with your hip escape—how do you respond?",
+        "answer": "Prioritize the knee shield insertion above all other steps. Drive your knee directly across the opponent's slicing path to block their knee from crossing your thigh line. The knee shield is the single most important defensive element in the reguard—it stops the pass and simultaneously establishes the structural foundation of the recovered standard half guard. If the knee slice is already past your hip, abandon the reguard and focus on quarter guard recovery or closed guard retention instead."
+      },
+      {
+        "question": "What grip configuration should you establish after successfully consolidating standard half guard?",
+        "answer": "The inside hand controls the opponent's cross-collar, wrist, or sleeve to manage their upper body positioning, while the knee shield hand frames on their bicep or shoulder to maintain distance. Both grips should create offensive opportunity chains—the collar grip threatens chokes and sweeps, the bicep grip prevents crossface and controls posture. These grips replace the underhook's single-point control with a dual-frame distance management system."
+      },
+      {
+        "question": "Why is the half guard leg entanglement the most critical element to maintain throughout the transition?",
+        "answer": "The leg entanglement is the structural foundation that makes both pocket half guard and standard half guard exist. If the entanglement is lost during the transition between the two guard configurations, there is no guard to recover to—the opponent simply extracts their leg and completes the pass while you are between positions with neither established. The bottom leg must maintain its trapping role throughout regardless of what the top leg and upper body are doing during the reguard."
+      },
+      {
+        "question": "Your opponent maintains a strong underhook on your withdrawing arm, preventing frame establishment—what do you do?",
+        "answer": "Switch to the underhook release variant: convert the failing underhook into an overhook or wrist control rather than fighting to free the arm for a frame. The overhook wraps over their arm and provides distance management through downward pressure on their shoulder while you work the knee shield insertion. This maintains continuous arm contact and avoids the dangerous gap where the opponent captures your arm in no-man's-land between underhook and frame positions."
+      },
+      {
+        "question": "When should you persist with pocket half guard attacks instead of initiating the reguard?",
+        "answer": "Persist with pocket half guard attacks when your underhook is still deep with grip on the opponent's far lat or back, your bottom leg pocket frame is actively maintaining space against their hip, and you can generate rotational power for sweeps. The reguard should only be initiated when the underhook is becoming shallow, the crossface is establishing, or your hips are being progressively flattened. Reguarding from a viable pocket half guard wastes the offensive advantages that position provides."
+      }
+    ],
+    "safety_considerations": "This guard retention technique carries minimal injury risk as no joint locks or chokes are involved. The primary safety concern is the knee of the trapped leg, which can experience medial stress if the opponent drives heavy pressure during the hip escape phase while the leg entanglement restricts natural movement. Both training partners should communicate immediately if knee discomfort occurs during drilling. The top player should increase resistance gradually during progressive drilling rather than applying maximum force during the transition. Avoid explosive movements during the underhook release phase that could result in shoulder strain if the opponent is actively gripping the arm."
+  },
+  "defender": {
+    "name": "Reguard from Pocket Half Guard Defender",
+    "description": "Defend against the Reguard from Pocket Half Guard as the top player. Recognition cues, prevention strategies, and counter-passing techniques to stop standard half guard recovery.",
+    "overview": "Defending the reguard from pocket half guard requires the top player to capitalize on the moment the bottom player releases their defining underhook—the very grip that made pocket half guard dangerous. The underhook release is simultaneously the bottom player's most vulnerable moment and the top player's greatest opportunity. The primary defensive strategy focuses on maintaining forward pressure to prevent the frame from establishing, driving crossface to flatten the bottom player's hip escape, and timing passing movements through the space created during the transition. When the bottom player initiates a reguard attempt, the defender should recognize this as a confession that their offensive position is failing and respond by accelerating the pass rather than allowing a defensive reset. Understanding that the bottom player must exchange underhook control for frame-based control reveals the critical window: attack during the exchange when neither control mechanism is fully active.",
+    "key_principles": [
+      "Recognize the underhook release as your primary attacking window—the moment between underhook and frame is the bottom player's weakest point in the transition",
+      "Drive crossface and forward pressure immediately when you feel the underhook withdrawing to prevent frame establishment and flatten hip escape capability",
+      "Block knee shield insertion by keeping your chest connected to the bottom player's torso, eliminating the space needed to thread the knee between bodies",
+      "Maintain your passing momentum rather than settling back when you sense the bottom player transitioning—the reguard signals their offense is failing",
+      "Time passing movements to coincide with the hip escape, exploiting the space the bottom player creates for their knee shield as a passing lane instead",
+      "Control the bottom player's near arm to prevent it from converting to a frame after the underhook is released"
+    ],
+    "recognition_cues": [
+      "Bottom player's underhook grip loosens or their arm begins withdrawing from your far side back toward your shoulder or bicep area",
+      "Bottom player shifts from pulling with the underhook to pushing against your shoulder or chest, signaling the transition from offensive to defensive control",
+      "Hip escape or shrimping motion away from you rather than into you, indicating space creation for knee shield insertion rather than sweep setup",
+      "Bottom player's pocket leg frame against your hip releases or redirects, as the bottom leg transitions from pocket framing duty to full entanglement maintenance",
+      "Upper body posture shifts from tight connection against your ribs to creating distance through frames and pushing"
+    ],
+    "defensive_options": [
+      {
+        "action": "Drive crossface and shoulder pressure to flatten bottom player during the underhook release window",
+        "when_to_use": "The instant you feel the underhook withdrawing or loosening from your far side",
+        "targets_outcome": "Flattened Half Guard/Bottom",
+        "if_successful": "Bottom player is flattened before the replacement frame is established, unable to hip escape or insert knee shield, and now in a compromised position vulnerable to direct passing sequences",
+        "risk": "If the bottom player's frame is already in place when you drive forward, the pressure may actually help them create distance for the knee shield insertion"
+      },
+      {
+        "action": "Maintain chest connection and block knee shield insertion by keeping torso tight against the bottom player",
+        "when_to_use": "When the bottom player has established a frame but has not yet created enough space for the knee shield to thread between bodies",
+        "targets_outcome": "Pocket Half Guard/Bottom",
+        "if_successful": "The knee shield cannot be inserted without space, keeping the bottom player stuck between positions—they have lost the underhook but cannot establish the knee shield, creating an extremely compromised guard",
+        "risk": "Staying tight without advancing may allow the bottom player to re-establish the underhook and return to full pocket half guard"
+      },
+      {
+        "action": "Time a knee slice pass through the space created during the bottom player's hip escape",
+        "when_to_use": "When the bottom player executes a hip escape to create knee shield insertion space and their frame is committed to distance management rather than pass blocking",
+        "targets_outcome": "Flattened Half Guard/Bottom",
+        "if_successful": "Your knee drives through the space before the knee shield can block it, completing or nearly completing the pass to side control during the transition window",
+        "risk": "If the bottom player reads the knee slice early, they insert the knee shield to block it and end up in a more defensively structured half guard than pocket half guard"
+      },
+      {
+        "action": "Control the near arm to prevent frame establishment after underhook release",
+        "when_to_use": "When you feel the underhook withdrawing and can capture or pin the arm before it converts to a forearm frame",
+        "targets_outcome": "Flattened Half Guard/Bottom",
+        "if_successful": "Without the frame, the bottom player has no structural barrier preventing you from driving chest-to-chest pressure and flattening them completely for a dominant passing position",
+        "risk": "Reaching to control the arm may momentarily lighten your overall pressure, giving the bottom player time to shrimp and insert the knee shield using the brief weight reduction"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Flattened Half Guard/Bottom",
+        "how": "Attack the transition window when the underhook is released but the frame is not yet established. Drive crossface and heavy shoulder pressure to collapse the bottom player flat before their hip escape creates knee shield space. Alternatively, time a knee slice pass through the space created during their hip escape, exploiting the extraction angle as a passing lane rather than allowing it to become a guard recovery platform."
+      },
+      {
+        "outcome": "Pocket Half Guard/Bottom",
+        "how": "Prevent the reguard entirely by maintaining chest-to-chest connection and blocking the space needed for knee shield insertion. Keep your underhook control active and your crossface pressure constant so the bottom player cannot create enough room for the transition. If they release the underhook without establishing a viable replacement frame, immediately re-flatten the position and strip any remaining defensive structure to consolidate your pocket half guard top advantages."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Allowing the bottom player to establish a full frame before responding to the underhook release",
+        "consequence": "Once the frame is locked in with structural forearm pressure against your shoulder, the bottom player can execute the hip escape and knee shield insertion with relative safety, completing the reguard and resetting your passing progress",
+        "correction": "React to the underhook release immediately, not to the frame establishment. The window between underhook withdrawal and frame placement is your primary attack opportunity—drive forward the instant you feel the pulling pressure from the underhook diminish."
+      },
+      {
+        "error": "Settling back and reassessing when the bottom player begins the reguard rather than accelerating the pass",
+        "consequence": "The pause gives the bottom player time to complete the positional transition, establishing standard half guard with knee shield, frames, and defensive grips that reset your passing progress entirely",
+        "correction": "Treat the reguard attempt as a green light for aggressive passing rather than a signal to reset. The bottom player is in their most vulnerable state during the transition—exploit their divided attention and incomplete guard structure."
+      },
+      {
+        "error": "Focusing on maintaining the pocket half guard top configuration rather than capitalizing on the transition",
+        "consequence": "Attempting to hold a position that the bottom player is actively abandoning wastes the tactical advantage of their transitional vulnerability. You preserve a position they no longer want rather than advancing toward the pass",
+        "correction": "When the bottom player initiates a reguard, shift your mindset from control to advancement. Their reguard attempt signals deteriorating offensive capability—use this information to press your passing attack rather than trying to hold a static position."
+      },
+      {
+        "error": "Overcommitting weight forward during the drive to flatten, making yourself vulnerable to a sweep or deep half entry",
+        "consequence": "The bottom player redirects your forward momentum into a deep half guard entry or uses the weight commitment to execute an improvised sweep during the transition chaos",
+        "correction": "Drive forward with controlled pressure rather than throwing your entire weight into the flattening attempt. Maintain base with your free leg posted wide so that momentum cannot be redirected against you even if the bottom player changes their defensive approach mid-transition."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the earliest recognition cue that the bottom player is abandoning pocket half guard for a reguard?",
+        "answer": "The earliest cue is the underhook loosening or withdrawing from your far side. In pocket half guard, the deep underhook creates constant pulling pressure against your back or lat. When this pressure diminishes or the arm begins moving toward your shoulder or bicep, the bottom player is converting their grip from offensive underhook to defensive frame. This happens before the hip escape or knee shield attempt and represents your earliest and best intervention window."
+      },
+      {
+        "question": "Why is the underhook release moment the top player's greatest passing opportunity?",
+        "answer": "The underhook release creates a control vacuum where the bottom player has abandoned their primary offensive weapon but has not yet established the replacement defensive structure. During this transition, the bottom player has neither the underhook's pulling control nor a frame's pushing control, leaving them without any mechanism to manage distance or prevent your forward pressure. This gap lasts only one to two seconds but represents the moment of greatest vulnerability in the entire pocket half guard interaction."
+      },
+      {
+        "question": "How should you respond if the bottom player successfully inserts a knee shield during the reguard?",
+        "answer": "If the knee shield is established, the reguard has largely succeeded and you must shift to standard half guard passing strategies. Do not try to smash directly through an established knee shield—this wastes energy and often strengthens the bottom player's structure. Instead, address the knee shield using appropriate passing techniques: long step pass to go around it, smash pass to collapse it, or knee slice to cut through at an angle. Accept that passing progress has been reset and begin the new passing sequence methodically."
+      },
+      {
+        "question": "What is the best passing technique to time against the hip escape created during the reguard attempt?",
+        "answer": "The knee slice pass is the highest-percentage counter because the lateral space the bottom player creates with their hip escape opens a natural lane for your knee to drive across their thigh line. Their frame is oriented toward pushing your shoulder, not blocking a knee advancing at an angle below their elbow. Time the slice as the hip escape creates maximum lateral space, before the knee shield can be inserted to block the path. The key is reading the shrimp initiation and immediately driving the knee through rather than waiting."
+      },
+      {
+        "question": "When should you accept that the reguard has succeeded and transition to standard half guard top strategies?",
+        "answer": "Accept the reguard once the knee shield is fully inserted with the bottom player's shin across your midsection and their hip angle reestablished. At this point, continuing to fight the knee shield wastes energy and often generates scramble opportunities that benefit the bottom player. Instead, calmly transition to your preferred standard half guard passing approach while the bottom player is still consolidating their recovered position. The brief window after reguard completion, before the bottom player establishes offensive grips, is your best moment to begin the new passing sequence."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Recognition Drilling",
+        "focus": "Identifying reguard initiation through tactile cues without visual reliance",
+        "description": "Partner slowly executes the reguard sequence while you focus on feeling the underhook release, frame establishment attempt, and hip escape initiation. Call out the moment you detect the transition beginning without resisting. Build sensitivity to distinguish between the underhook adjustments of active pocket half guard offense and the underhook withdrawal of a reguard attempt. Drill 15-20 repetitions with eyes open, then repeat with eyes closed."
+      },
+      {
+        "phase": "Phase 2: Defensive Reaction Drilling",
+        "focus": "Applying correct defensive responses to each reguard variant",
+        "description": "Partner executes the reguard at moderate speed while you practice specific defensive options: drive crossface during underhook release, maintain chest connection to block knee shield, or time knee slice through extraction space. Start with one response per set, then mix reactions based on what feels most available. Partner provides feedback on timing and which responses were most difficult to overcome."
+      },
+      {
+        "phase": "Phase 3: Counter-Pass Timing",
+        "focus": "Capitalizing on reguard attempts with immediate passing movements",
+        "description": "Partner executes full-speed reguard attempts while you practice timing knee slice passes and pressure passes through the space created during the hip escape. Focus on the critical window when the bottom player's frame is committed to creating distance rather than blocking passes. Track success rates of different counter-passes and identify which reguard variants are easiest and hardest to counter."
+      },
+      {
+        "phase": "Phase 4: Live Positional Sparring",
+        "focus": "Defending reguard within full competitive pocket half guard top game",
+        "description": "Start in pocket half guard top against a fully resisting partner. Bottom player uses full pocket half guard attack chain including the reguard as a defensive fallback. Top player prevents reguard and passes. Reset after sweep, pass, or submission. Integrate reguard defense with overall pocket half guard top strategy including flattening, crossface maintenance, and pass completion."
+      }
+    ]
+  }
+}

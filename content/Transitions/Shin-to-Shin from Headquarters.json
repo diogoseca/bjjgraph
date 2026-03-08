@@ -1,0 +1,408 @@
+{
+  "name": "Shin-to-Shin from Headquarters",
+  "description": "Learn Shin-to-Shin entry from Headquarters Position in BJJ. Step-by-step guide to inserting shin connection, disrupting passing pressure, and establishing guard.",
+  "tags": [
+    "bjj",
+    "transition",
+    "guard-recovery",
+    "shin-to-shin",
+    "headquarters",
+    "open-guard",
+    "bottom-game",
+    "guard-retention"
+  ],
+  "from_position": "Headquarters Position/Bottom",
+  "outcomes": [
+    {
+      "to": "Shin-to-Shin Guard/Bottom",
+      "probability": 50,
+      "result": "success"
+    },
+    {
+      "to": "Headquarters Position/Bottom",
+      "probability": 30,
+      "result": "failure"
+    },
+    {
+      "to": "Open Guard/Top",
+      "probability": 20,
+      "result": "counter"
+    }
+  ],
+  "success_rate": 50,
+  "overview": "Shin-to-Shin from Headquarters is a critical guard recovery and counter-attack transition executed by the bottom player when trapped in the headquarters passing position. The top player in headquarters controls one leg while maintaining an elevated, stable base designed to funnel into systematic passing sequences. The bottom player's objective is to disrupt this system by inserting their free shin across the top player's lead shin, creating a perpendicular connection that immediately compromises their triangulated base and arrests passing momentum.\n\nThis transition represents a paradigm shift from passive guard retention to active guard creation. Rather than simply defending the knee cut, leg drag, or toreando that headquarters threatens, the bottom player proactively establishes a new guard structure that inverts the positional dynamic. The shin connection functions as a biomechanical lever that prevents the top player from driving forward, creates immediate off-balancing potential, and opens pathways to single leg X-guard, X-guard, and leg entanglement entries that are unavailable from the flattened headquarters bottom position.\n\nThe timing window for this transition is narrow but identifiable. The optimal moment occurs when the top player shifts weight or adjusts grips to initiate a specific passing direction, momentarily lightening pressure on the controlled leg or creating space with their posting leg. Recognizing and exploiting these micro-windows separates effective guard players from those who remain trapped in the headquarters cycle of pass-defend-repass.",
+  "conditions": [
+    "Opponent has established headquarters position with one of your legs controlled between their legs",
+    "Your free leg retains sufficient mobility to reach and connect with opponent's lead shin",
+    "You can create or exploit a momentary gap in opponent's forward pressure or weight distribution",
+    "Your hips retain enough mobility to angle toward opponent's lead leg despite headquarters pressure",
+    "You have at least one upper body grip or frame to prevent opponent from immediately smashing through the insertion"
+  ],
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Seated Shin-to-Shin Entry",
+      "description": "When the bottom player retains enough posture to sit up during a weight shift, they insert the shin while simultaneously establishing collar or sleeve grips from an upright seated position. This creates a stronger initial connection with better upper body control.",
+      "when_to_use": "When the top player is upright and you have sufficient space to sit up without being driven back down, particularly after they release upper body grips to adjust passing direction."
+    },
+    {
+      "variant_name": "Supine Shin Insertion with Hip Escape",
+      "description": "From a more flattened position, the bottom player combines a hip escape away from the controlled leg with simultaneous shin insertion on the posting leg. The hip escape creates the angle needed to establish perpendicular shin contact from a compromised position.",
+      "when_to_use": "When the top player maintains heavy pressure and you cannot sit up, but they shift weight laterally to initiate a knee cut or leg drag, creating momentary space on their posting side."
+    },
+    {
+      "variant_name": "Grip-First Entry",
+      "description": "The bottom player first establishes a strong same-side sleeve or ankle grip on the opponent's lead leg, then uses that grip as an anchor point to pull themselves into shin-to-shin position. The grip provides a mechanical advantage that compensates for limited hip mobility.",
+      "when_to_use": "When opponent maintains tight control on your trapped leg but their posting leg is within grip range, particularly in gi where pant grips provide excellent purchase for pulling into position."
+    }
+  ],
+  "position_integration": "Shin-to-Shin from Headquarters occupies a vital role in the guard retention ecosystem as the primary offensive counter to systematic headquarters passing. Without this transition, the bottom player is limited to reactive defense against knee cuts, leg drags, and toreando passes, each of which favors the top player's initiative. Establishing shin-to-shin fundamentally changes the positional calculus by creating a guard with its own offensive tree including single leg X entries, X-guard sweeps, and leg entanglement pathways. This transition connects the headquarters defense chain to the broader open guard attack system, transforming a defensive liability into an offensive launching position.",
+  "related_content": [
+    {
+      "name": "Headquarters Position",
+      "relationship": "Starting position - the passing hub from which bottom player must escape or counter"
+    },
+    {
+      "name": "Shin-to-Shin Guard",
+      "relationship": "Target position - the guard established upon successful shin insertion"
+    },
+    {
+      "name": "Open Guard",
+      "relationship": "Counter outcome - position reached if top player clears shin and resets to open guard engagement"
+    },
+    {
+      "name": "Single Leg X-Guard",
+      "relationship": "Follow-up transition from established shin-to-shin guard position"
+    },
+    {
+      "name": "X-Guard",
+      "relationship": "Advanced follow-up position accessible through shin-to-shin elevation mechanics"
+    },
+    {
+      "name": "Knee Cut from Headquarters",
+      "relationship": "Primary passing threat that creates timing windows for shin insertion"
+    },
+    {
+      "name": "Shin-to-Shin Sweep",
+      "relationship": "Offensive continuation once shin-to-shin guard is established"
+    },
+    {
+      "name": "Shin-to-Shin to Single Leg X",
+      "relationship": "Chain transition from established shin-to-shin to deeper leg entanglement"
+    },
+    {
+      "name": "Pressure from Shin-to-Shin",
+      "relationship": "Top player's counter-strategy once shin-to-shin is established"
+    },
+    {
+      "name": "Combat Base",
+      "relationship": "Position top player may retreat to when shin-to-shin disrupts headquarters structure"
+    },
+    {
+      "name": "Butterfly Guard",
+      "relationship": "Alternative guard the bottom player may transition to if shin-to-shin is partially blocked"
+    },
+    {
+      "name": "De La Riva Guard",
+      "relationship": "Complementary open guard sharing similar distance management and leg entanglement concepts"
+    }
+  ],
+  "attacker": {
+    "name": "Shin-to-Shin from Headquarters Attacker",
+    "description": "Master the Shin-to-Shin entry from Headquarters bottom. Learn timing, shin insertion mechanics, grip sequences, and follow-up transitions to escape systematic passing pressure.",
+    "overview": "As the attacker executing Shin-to-Shin from Headquarters, you are the bottom player trapped in a systematically disadvantageous position. The top player's headquarters structure is designed to funnel you into progressively worse positions through knee cuts, leg drags, and toreando passes. Your objective is to break this cycle by proactively inserting your free shin across their posting leg's shin, establishing a perpendicular connection that arrests their passing system and creates an entirely new positional dynamic in your favor. This requires precise timing, efficient hip movement, and coordinated grip work to exploit the brief windows that appear when the top player adjusts weight distribution to initiate specific passes. The transition demands patience to wait for the correct moment rather than forcing insertion against full pressure, combined with explosive execution once the window appears.",
+    "key_principles": [
+      "Wait for weight shifts rather than forcing insertion against full headquarters pressure - the timing window appears when opponent initiates a passing direction",
+      "Use hip escape mechanics to create the angle needed for perpendicular shin contact before attempting insertion",
+      "Coordinate upper body grips with shin insertion to prevent opponent from simply smashing through your leg placement",
+      "Target the lower third of opponent's posting shin for maximum mechanical leverage and control",
+      "Maintain constant connection with your trapped leg to prevent opponent from advancing past your guard during insertion",
+      "Commit fully to the insertion once initiated - half-measures leave you in a worse position than before the attempt"
+    ],
+    "setup_requirements": [
+      "Free leg must have sufficient mobility to reach opponent's posting shin, requiring at least partial hip freedom despite headquarters pressure",
+      "At least one upper body grip or frame established to prevent opponent from driving through during the insertion phase",
+      "Hips angled toward opponent's posting leg rather than flat on the mat, creating the geometry needed for perpendicular contact",
+      "Recognition of opponent's weight distribution pattern to identify the optimal insertion window during grip adjustments or passing initiation",
+      "Core engagement sufficient to maintain torso position during the dynamic hip movement required for shin placement"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Read weight distribution",
+        "description": "From headquarters bottom, monitor the top player's weight distribution between their trapped-leg side and their posting leg. Identify moments when they shift weight toward the trapped leg to initiate knee cut, or lighten pressure to adjust grips. These micro-shifts create the insertion window you need."
+      },
+      {
+        "step_number": 2,
+        "action": "Establish preliminary grip",
+        "description": "Before attempting insertion, secure a grip on the opponent's same-side sleeve, collar, or pant leg near their posting knee. This grip serves dual purposes: it anchors you for the hip escape needed to create angle, and it prevents the opponent from simply backing away or redirecting pressure when they feel your shin moving."
+      },
+      {
+        "step_number": 3,
+        "action": "Execute hip escape toward posting leg",
+        "description": "When the weight shift window appears, perform a sharp hip escape angling your hips toward the opponent's posting leg. This movement is the engine of the entire transition — it creates the diagonal angle necessary for your shin to cross their shin perpendicularly rather than sliding off parallel. The hip escape must be explosive and committed."
+      },
+      {
+        "step_number": 4,
+        "action": "Insert shin across opponent's posting shin",
+        "description": "Simultaneously with the hip escape, drive your free foot and shin across the opponent's posting leg shin, targeting the lower third of their tibia. Your shin should cross theirs at approximately a 45-degree perpendicular angle. The contact point should feel like a shelf that prevents their leg from moving forward — if your shin slides up or down, adjust the angle."
+      },
+      {
+        "step_number": 5,
+        "action": "Apply immediate upward and lateral pressure",
+        "description": "Once shin contact is established, immediately apply pressure upward and laterally through the connection point. This pressure serves to compromise their triangulated base by pushing their posting leg off its stable position. The opponent should feel their balance disrupted toward the trapped-leg side, preventing them from simply continuing their passing sequence."
+      },
+      {
+        "step_number": 6,
+        "action": "Establish second grip for upper body control",
+        "description": "With the shin connection secured and pressure applied, rapidly establish a second upper body grip — ideally opposite-side collar or far sleeve. This dual-grip plus shin connection creates the three-point control system that defines effective shin-to-shin guard and prevents the top player from simply circling away or smashing through."
+      },
+      {
+        "step_number": 7,
+        "action": "Adjust hip position and settle into guard",
+        "description": "Fine-tune your hip angle and shin pressure to establish the full shin-to-shin guard configuration. Your hips should be angled toward the opponent rather than flat on the mat, your free leg should be posting or preparing for secondary hooks, and your shin pressure should create constant base disruption. You have successfully transitioned from headquarters bottom to an offensive guard position."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Top player drives knee forward through insertion attempt, collapsing shin connection before it's established",
+        "effectiveness": "High",
+        "your_response": "If insertion is collapsed, immediately retract and use the free leg as a butterfly hook instead, converting the failed shin-to-shin into a butterfly guard recovery that still disrupts their headquarters structure",
+        "targets_outcome": "Headquarters Position/Bottom"
+      },
+      {
+        "counter": "Top player backsteps their posting leg away from the insertion, removing the target shin entirely",
+        "effectiveness": "Medium",
+        "your_response": "Follow the retreating leg with your hips, using the space created by their backstep to recover full guard or establish De La Riva hook on their remaining lead leg, converting their avoidance into a guard recovery opportunity",
+        "targets_outcome": "Open Guard/Top"
+      },
+      {
+        "counter": "Top player strips grips and applies heavy cross-face pressure to flatten you during insertion",
+        "effectiveness": "High",
+        "your_response": "Frame on the cross-face side with your elbow and forearm to prevent being flattened, then use the frame to create space for a secondary hip escape. If flattened, switch to half guard retention rather than continuing the shin-to-shin attempt",
+        "targets_outcome": "Headquarters Position/Bottom"
+      },
+      {
+        "counter": "Top player grabs your inserting foot or ankle and redirects it away from their shin",
+        "effectiveness": "Medium",
+        "your_response": "Use the grip on your foot as an anchor to pull your hips closer and attempt a different guard entry — the foot grip commitment opens their upper body for collar drag or arm drag sequences that create scramble opportunities",
+        "targets_outcome": "Open Guard/Top"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Attempting shin insertion while hips are flat on the mat without first creating an angle through hip escape",
+        "consequence": "The shin slides off the opponent's leg or contacts at a shallow angle that provides no leverage, wasting the attempt and potentially exposing you to an accelerated pass as you've moved your defensive leg out of position",
+        "correction": "Always execute a hip escape toward the posting leg before attempting insertion — the angle created by the hip escape is what makes perpendicular shin contact mechanically possible"
+      },
+      {
+        "error": "Inserting the shin too high on opponent's leg near the knee rather than the lower third of the tibia",
+        "consequence": "High placement provides minimal leverage and is easily cleared by the opponent simply bending their knee or circling their leg, negating the insertion completely",
+        "correction": "Target the lower third of the tibia where the mechanical advantage is greatest and clearing requires the opponent to lift their entire leg rather than simply adjusting knee angle"
+      },
+      {
+        "error": "Neglecting upper body grips during shin insertion, focusing exclusively on the leg connection",
+        "consequence": "Opponent drives forward through the shin connection with chest pressure, folding you over and passing despite the leg contact because there is nothing preventing their upper body advancement",
+        "correction": "Establish at least one upper body grip (sleeve, collar, or frame on shoulder) before or simultaneously with shin insertion to create a complete defensive and offensive structure"
+      },
+      {
+        "error": "Attempting insertion during full headquarters pressure rather than waiting for a weight shift or adjustment window",
+        "consequence": "The insertion is stuffed immediately because the top player's full weight and base stability resist your shin placement, and the failed attempt may worsen your position by moving your free leg away from defensive duties",
+        "correction": "Develop patience and pattern recognition — wait for the moment when opponent adjusts grips, shifts weight to initiate a pass, or transitions between techniques before committing to the insertion"
+      },
+      {
+        "error": "Half-committing to the insertion with insufficient hip movement or tentative shin placement",
+        "consequence": "A weak connection is easily stripped or passed through, and the partial commitment leaves you in a worse position than simply maintaining defensive frames because your leg is now mispositioned",
+        "correction": "Once you identify the window and initiate the hip escape, commit fully to the insertion with explosive hip movement and decisive shin placement — there is no benefit to a tentative attempt"
+      },
+      {
+        "error": "Releasing control of the trapped leg to focus entirely on the shin insertion with the free leg",
+        "consequence": "Opponent immediately advances the pass on the now-undefended trapped leg side, completing a knee cut or leg drag while you are focused on the shin insertion that no longer matters",
+        "correction": "Maintain defensive awareness and some degree of control on the trapped leg throughout the insertion process — the shin-to-shin entry must supplement rather than replace your existing guard retention"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Mechanics",
+        "focus": "Hip escape angle and shin placement precision",
+        "description": "Solo and cooperative drilling focusing on the hip escape-to-shin-insertion sequence. Partner holds light headquarters pressure while you practice creating the correct angle and placing the shin at the lower third of the tibia with perpendicular contact. No resistance — focus purely on developing the motor pattern and understanding the geometry. Drill 20-30 repetitions per side."
+      },
+      {
+        "phase": "Phase 2: Timing Recognition",
+        "focus": "Identifying weight shift windows under moderate pressure",
+        "description": "Partner applies moderate headquarters pressure and cycles through passing initiation movements (loading knee cut, shifting for toreando, adjusting grips). You identify the optimal insertion window and execute the full sequence. Partner does not actively counter the insertion but provides realistic passing pressure. Focus on reading weight distribution and reacting within the window."
+      },
+      {
+        "phase": "Phase 3: Integration with Grips",
+        "focus": "Coordinating upper body grips with shin insertion",
+        "description": "Add progressive resistance where the partner actively grip fights and applies passing pressure. Practice the full sequence: establish preliminary grip, wait for window, hip escape, insert shin, establish second grip, settle into guard. Partner begins countering insertion attempts at 50% resistance, forcing you to integrate grip work with lower body mechanics."
+      },
+      {
+        "phase": "Phase 4: Live Application",
+        "focus": "Applying transition against full resistance with chain options",
+        "description": "Full resistance positional sparring starting from headquarters bottom. Must attempt shin-to-shin entry against genuine passing pressure. Practice backup options when insertion fails: butterfly hook recovery, half guard retention, and secondary guard pulls. Partner passes with full intention, creating realistic pressure and timing demands."
+      },
+      {
+        "phase": "Phase 5: Chain Development",
+        "focus": "Connecting successful insertion to follow-up attacks",
+        "description": "Once shin-to-shin is established, immediately chain to offensive sequences: single leg X entries, X-guard sweeps, and shin-to-shin specific sweeps. Practice the full sequence from headquarters bottom through shin-to-shin establishment to sweep completion. Develops the complete attacking chain rather than treating the insertion as an end in itself."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the optimal timing window for attempting shin-to-shin insertion from headquarters bottom?",
+        "answer": "The optimal window appears when the top player shifts weight or adjusts grips to initiate a specific passing direction. When they load a knee cut, their weight shifts toward the trapped-leg side and lightens on the posting leg. When they adjust grips for a toreando, both hands temporarily release control. These micro-transitions create 0.5-1 second windows where the posting leg is less loaded and the insertion meets less resistance. Attempting insertion during full static headquarters pressure dramatically reduces success rate."
+      },
+      {
+        "question": "Why must you hip escape toward the posting leg before inserting your shin?",
+        "answer": "The hip escape creates the diagonal angle necessary for your shin to cross the opponent's shin perpendicularly rather than contacting parallel. Without this angle change, your shin slides off their leg or makes contact at a shallow angle that provides no mechanical leverage. The hip escape also shifts your body mass toward the posting leg, which adds weight behind the shin connection once established. A flat-hips insertion attempt is the single most common reason this transition fails."
+      },
+      {
+        "question": "Your opponent drives forward aggressively through your shin insertion attempt — how do you adapt?",
+        "answer": "If the insertion is being collapsed by forward drive, immediately convert the attempt to a butterfly hook by curling your foot and hooking behind their thigh rather than maintaining the shin-across-shin contact. Their forward momentum actually loads the butterfly hook perfectly for an elevation sweep. The key is recognizing within the first half-second that the shin-to-shin is being stuffed and converting rather than stubbornly fighting for a connection that has been denied."
+      },
+      {
+        "question": "Where on the opponent's leg should the shin contact be placed and why?",
+        "answer": "Target the lower third of the opponent's tibia (shin bone), roughly 4-6 inches above the ankle. This placement creates maximum mechanical leverage because the long lever arm between your shin contact point and their knee joint generates significant rotational force with minimal energy input. Placement too high near the knee reduces leverage because the distance to the joint is short, making it easy for the opponent to clear by simply bending their knee. Lower placement maximizes the fulcrum effect that compromises their base."
+      },
+      {
+        "question": "What role do upper body grips play during the shin insertion, and what happens without them?",
+        "answer": "Upper body grips serve as the essential second layer of control that prevents the opponent from driving their chest and shoulders through the shin connection. Without grips, the opponent can simply apply heavy forward pressure with their upper body, folding you over your own shin connection and passing despite the lower body contact. A sleeve grip prevents them from posting for base recovery, while a collar grip controls their posture and distance. The shin connection handles the lower body; grips handle the upper body — both are required for the transition to succeed."
+      },
+      {
+        "question": "Your opponent backsteps their posting leg away when they feel your shin approaching — what does this create?",
+        "answer": "The backstep actually creates significant opportunity despite denying the shin-to-shin connection. When they remove the posting leg, they compromise their triangulated headquarters base and create space on that side. This space allows you to recover guard positioning — either establishing a De La Riva hook on their remaining lead leg, sitting up into seated guard, or using the momentary space to hip escape and recover full open guard. Their avoidance of shin-to-shin essentially resets the position, which benefits the bottom player who was in a disadvantageous headquarters situation."
+      },
+      {
+        "question": "How do you maintain trapped-leg defense while simultaneously executing the shin insertion with your free leg?",
+        "answer": "The key is maintaining knee shield or frame activity with the trapped leg throughout the insertion process rather than abandoning it completely. Keep your trapped-side knee active as a wedge that prevents the opponent from collapsing through that side, and use your trapped-side hand to frame on their hip or shoulder. The hip escape for the insertion actually helps the trapped leg by creating angle that makes the knee cut harder to complete. Think of it as dual-tasking — your trapped side defends while your free side attacks."
+      },
+      {
+        "question": "What distinguishes a committed insertion from a tentative one, and why does commitment matter?",
+        "answer": "A committed insertion features an explosive hip escape with full body rotation toward the posting leg, decisive shin placement with immediate pressure application, and coordinated grip establishment — all executed within a 1-2 second window. A tentative insertion involves slow hip movement, light shin contact without pressure, and delayed grip work. Commitment matters because a half-inserted shin provides no leverage and actually worsens your position by moving your free leg away from defensive duties. The leg is either controlling their shin or defending the pass — halfway between serves neither function."
+      }
+    ],
+    "safety_considerations": "Shin-to-Shin from Headquarters is a low-injury-risk transition when executed properly, but practitioners should be aware of several safety factors. Avoid hyperextending your own knee during aggressive hip escapes by maintaining a slight bend throughout the movement. Be cautious of your ankle positioning during shin insertion — forcing the connection at an awkward angle can strain the ankle joint. If the top player drives forward explosively through a partially established connection, do not resist with a locked leg; instead, yield and redirect to a butterfly hook to prevent knee torque. Communication during drilling is important when partners are learning the timing to avoid accidental knee-on-knee collisions during insertion attempts."
+  },
+  "defender": {
+    "name": "Shin-to-Shin from Headquarters Defender",
+    "description": "Defend against Shin-to-Shin entry from Headquarters top. Learn to recognize insertion timing, maintain passing pressure, and counter guard recovery attempts.",
+    "overview": "As the defender (top player in headquarters), you must prevent the bottom player from establishing shin-to-shin guard, which would completely neutralize your systematic passing structure and hand them an offensive guard position. Your headquarters position is designed to control one leg while maintaining base on the posting leg — the bottom player's shin insertion targets that posting leg specifically because disrupting it collapses your entire passing platform. Defense requires maintaining consistent pressure on the controlled leg while being aware of the bottom player's free leg movements, keeping your posting leg heavy and positioned to resist insertion attempts, and recognizing the early stages of the insertion so you can counter before the connection is established rather than after.",
+    "key_principles": [
+      "Maintain heavy, consistent pressure on the controlled leg to limit the bottom player's hip mobility and angle creation needed for insertion",
+      "Keep your posting leg loaded with weight and positioned wide enough to resist shin insertion while maintaining stable triangulated base",
+      "Monitor the bottom player's free leg constantly — any movement toward your posting shin signals an insertion attempt",
+      "Address insertion attempts immediately at their earliest stage rather than waiting for full shin contact to develop",
+      "Control the bottom player's upper body grips to deny them the anchor points they need to pull themselves into shin-to-shin",
+      "Maintain forward passing initiative to keep the bottom player defensive rather than allowing them space to create offensive guard entries"
+    ],
+    "recognition_cues": [
+      "Bottom player's free leg begins moving toward your posting shin rather than maintaining defensive framing position",
+      "Bottom player executes a hip escape angling their body toward your posting leg side, creating the diagonal angle needed for shin insertion",
+      "Bottom player establishes a grip on your posting-side sleeve, pant leg, or ankle — this grip often precedes the insertion attempt",
+      "Sudden increase in trapped-leg activity (knee shield, framing) may be a setup to occupy your attention while the free leg moves into position",
+      "Bottom player's hips rotate from flat-on-back to angled-toward-posting-leg, changing from a defensive to offensive body alignment"
+    ],
+    "defensive_options": [
+      {
+        "action": "Drive knee forward through insertion attempt to collapse shin connection before it establishes",
+        "when_to_use": "When you recognize the free leg moving toward your posting shin in the early stages before perpendicular contact is achieved",
+        "targets_outcome": "Headquarters Position/Bottom",
+        "if_successful": "Shin insertion is stuffed and bottom player's free leg is displaced, potentially worsening their guard structure and opening passing lanes",
+        "risk": "If you overcommit forward, and the bottom player converts to a butterfly hook, your momentum can be used against you for an elevation sweep"
+      },
+      {
+        "action": "Backstep posting leg away from the insertion while maintaining trapped-leg control",
+        "when_to_use": "When the insertion is well-timed and you cannot collapse it with forward pressure — removing the target is safer than fighting the connection",
+        "targets_outcome": "Open Guard/Top",
+        "if_successful": "Shin insertion is denied entirely, though you may need to re-establish full headquarters position or settle for open guard top engagement",
+        "risk": "Backstepping compromises your headquarters base temporarily and may allow the bottom player to recover guard or create scramble opportunities"
+      },
+      {
+        "action": "Strip the anchoring grip and apply cross-face pressure to flatten bottom player's angle",
+        "when_to_use": "When you identify the preliminary grip that precedes the insertion — destroying the grip removes their mechanical anchor for pulling into position",
+        "targets_outcome": "Headquarters Position/Bottom",
+        "if_successful": "Bottom player cannot generate the hip escape angle needed for insertion and remains in headquarters bottom with diminished grip positioning",
+        "risk": "Grip stripping momentarily occupies your hands, potentially creating a different guard recovery opportunity if the bottom player is quick to exploit"
+      },
+      {
+        "action": "Accelerate pass initiation to advance past guard before insertion completes",
+        "when_to_use": "When you recognize the insertion attempt early and have sufficient grip positioning to complete a knee cut or leg drag faster than they can establish shin-to-shin",
+        "targets_outcome": "Open Guard/Top",
+        "if_successful": "You pass the guard entirely, making the shin-to-shin attempt irrelevant as you advance to side control or a dominant passing position",
+        "risk": "Rushing the pass without proper setup may result in a sloppy attempt that the bottom player can exploit for sweep or guard recovery"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Headquarters Position/Bottom",
+        "how": "Stuff the insertion early by driving your knee forward, stripping their preliminary grip, and applying cross-face pressure to flatten their angle. This keeps them in the disadvantageous headquarters bottom position where your systematic passing system remains intact."
+      },
+      {
+        "outcome": "Open Guard/Top",
+        "how": "If the insertion is well-timed, backstep your posting leg to deny the target, then immediately re-engage with your passing sequence. While this resets to a less advantageous position than headquarters, it prevents the bottom player from establishing an offensive guard and keeps you in a top passing position."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Ignoring the bottom player's free leg movement and focusing exclusively on advancing the pass",
+        "consequence": "Shin-to-shin is established before you realize the insertion occurred, and you must now deal with a fully developed offensive guard rather than a simple insertion attempt",
+        "correction": "Develop peripheral awareness of the free leg at all times — any movement toward your posting shin should trigger an immediate defensive response before continuing your passing sequence"
+      },
+      {
+        "error": "Lightening pressure on posting leg to adjust grips or initiate passes without accounting for insertion timing",
+        "consequence": "Creating exactly the window the bottom player needs — your weight shift gives them both the space and the timing cue to execute a well-timed hip escape and shin insertion",
+        "correction": "When adjusting grips or initiating passes, maintain posting leg pressure through the transition or make the weight shift explosive and brief enough that the bottom player cannot exploit the window"
+      },
+      {
+        "error": "Attempting to strip an established shin-to-shin connection by lifting your leg rather than addressing it systematically",
+        "consequence": "Lifting your posting leg elevates the bottom player's shin with it, potentially facilitating their transition to single leg X or X-guard rather than clearing the connection",
+        "correction": "Once shin-to-shin is established, address it through systematic clearing (circling, pressure, grip-based removal) rather than simply trying to yank your leg free, which plays into their transition game"
+      },
+      {
+        "error": "Overreacting to insertion attempt by abandoning headquarters structure entirely",
+        "consequence": "You give up the dominant passing position unnecessarily — even if the insertion is initiated, you may be able to stuff it while maintaining headquarters rather than retreating to neutral",
+        "correction": "Respond proportionally to the threat — early insertion attempts can be stopped with simple forward knee pressure without abandoning your position, only backstep if the connection is genuinely establishing"
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the earliest recognition cue that the bottom player is preparing a shin-to-shin insertion?",
+        "answer": "The earliest cue is typically a grip change — the bottom player reaching for your posting-side sleeve, pant leg, or ankle. This grip precedes the hip escape and shin insertion because it provides the anchor point needed to pull themselves into position. Recognizing and stripping this grip before the hip escape begins is the most efficient defense because it removes the mechanical prerequisite for the insertion rather than fighting the insertion itself."
+      },
+      {
+        "question": "Why is the moment of passing initiation the most vulnerable time for shin-to-shin insertion?",
+        "answer": "When you initiate a specific pass from headquarters, you necessarily shift weight from your triangulated base toward the passing direction. This weight shift lightens pressure on your posting leg and often requires adjusting grips. Both of these changes create the exact window the bottom player needs — lighter posting leg pressure makes insertion easier, and grip adjustments remove upper body control that would otherwise prevent the hip escape. This is why maintaining consistent base pressure through passing transitions is critical for preventing shin-to-shin entries."
+      },
+      {
+        "question": "Your opponent has successfully inserted their shin across yours — what is the highest-percentage immediate response?",
+        "answer": "Immediately control their upper body by establishing collar grip or cross-face before they can complete their grip sequence. A shin connection without upper body control is significantly weaker. Simultaneously begin circling your posting leg toward the outside rather than driving forward or lifting. The circle motion changes the angle of the shin contact and can break the perpendicular connection. Do not panic and abandon position — a partially established shin-to-shin is still manageable if you deny them upper body grips and begin systematic clearing."
+      },
+      {
+        "question": "How should you modify your headquarters passing approach against an opponent who frequently attempts shin-to-shin entries?",
+        "answer": "Against a shin-to-shin specialist, minimize the weight shift windows by using explosive, committed passing transitions rather than slow positional adjustments. Keep your posting leg further from their free leg by widening your base. Prioritize upper body grip control to deny them the preliminary grip that anchors the insertion. Consider leading with passes that move your posting leg away from their reach, such as backstep passes or far-side leg drags, rather than knee cuts that keep your posting leg within range."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Recognition",
+        "focus": "Identifying insertion attempts early",
+        "description": "Partner attempts shin-to-shin insertions at slow speed from headquarters bottom while you practice identifying the cues: grip changes, hip angle shifts, and free leg movement. Call out 'insert' when you recognize the attempt beginning. No physical defense yet — purely developing pattern recognition and awareness of the threat timing."
+      },
+      {
+        "phase": "Phase 2: Stuffing Mechanics",
+        "focus": "Physical counter-responses to insertion attempts",
+        "description": "Partner attempts insertion at moderate speed while you practice the three primary counters: forward knee drive to collapse, grip strip to deny anchor, and cross-face pressure to flatten angle. Partner provides moderate resistance but allows you to succeed when technique is correct. Focus on choosing the right counter for each insertion variation."
+      },
+      {
+        "phase": "Phase 3: Maintaining Passing Initiative",
+        "focus": "Defending insertion while continuing to pass",
+        "description": "Full-speed positional sparring from headquarters where you must advance the pass while the partner actively attempts shin-to-shin entries. The goal is defending the insertion without abandoning passing intent — learning to counter the shin-to-shin as part of your passing flow rather than treating it as a separate defensive problem."
+      },
+      {
+        "phase": "Phase 4: Recovery from Established Connection",
+        "focus": "Systematic clearing when shin-to-shin is established",
+        "description": "Start with partner in established shin-to-shin guard and practice systematic clearing sequences: circling, grip-based clearing, and pressure passing through the connection. Partner adds progressive resistance and threatens sweeps and transitions, forcing you to clear efficiently while maintaining base and balance."
+      }
+    ]
+  }
+}

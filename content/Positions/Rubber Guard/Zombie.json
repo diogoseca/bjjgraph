@@ -1,0 +1,667 @@
+{
+  "name": "Zombie",
+  "slug": "zombie",
+  "description": "Master Zombie position in BJJ. Defensive turtle variation with unique lockdown mechanics combining the 10th Planet system. Learn bottom escapes and top passing strategies with 40-75% success rates.",
+  "variant_uniqueness": "Lockdown transforms defensive turtle into offense",
+  "overview": "The Zombie position represents a unique defensive structure within the 10th Planet Jiu-Jitsu system, combining turtle mechanics with lockdown control to create both escape opportunities and offensive threats. This position is characterized by the bottom practitioner using active framing, lockdown entanglements, and constant movement to frustrate passing attempts while setting up sweeps and guard recovery.\n\nUnlike traditional turtle positions where the practitioner curls into a defensive ball, the Zombie position involves strategic leg control, active reframing, and the ability to transition between defensive postures and offensive attacks. The position's effectiveness lies in creating dilemmas for the opponent - every attempt to advance position opens up sweep or escape opportunities for the bottom player.\n\nFrom the top perspective, Zombie Top requires patience, systematic pressure application, and understanding of lockdown mechanics to successfully pass or transition to dominant positions. The top player must balance maintaining control while avoiding the bottom player's sweep threats, particularly the Old School Sweep and Electric Chair submission.\n\nUnderstanding both perspectives of the Zombie position is essential for modern no-gi practitioners, particularly those training in the 10th Planet system or facing opponents who utilize deep half guard and lockdown-based defensive strategies.",
+  "key_principles": [
+    "Zombie is a transitional position, never a resting destination - constant movement required from both perspectives",
+    "Lockdown control fundamentally alters the passing equation by restricting top player's base and mobility",
+    "Bottom player must balance defensive frames with offensive sweep threats to create effective dilemmas",
+    "Top player must use systematic pressure and crossface control rather than explosive force to pass",
+    "Position creates clear decision points where both players must read and react to opponent's weight distribution",
+    "Understanding the biomechanics of lockdown tension is crucial for both establishing and defeating the position",
+    "The Zombie exemplifies 10th Planet philosophy of transforming bad positions into offensive opportunities"
+  ],
+  "related_positions": [
+    {
+      "name": "Lockdown",
+      "relationship": "Core mechanic - Zombie utilizes lockdown as primary control mechanism"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Parent category - Zombie is specialized half guard variation"
+    },
+    {
+      "name": "Turtle",
+      "relationship": "Related defensive structure - traditional turtle without lockdown"
+    },
+    {
+      "name": "Deep Half Guard",
+      "relationship": "Common transition target from Zombie position"
+    },
+    {
+      "name": "Electric Chair",
+      "relationship": "Primary submission threat from Zombie bottom"
+    },
+    {
+      "name": "Old School",
+      "relationship": "Primary sweep from Zombie position"
+    },
+    {
+      "name": "Truck",
+      "relationship": "Advanced variation with similar defensive structure"
+    },
+    {
+      "name": "Back Control",
+      "relationship": "High-value transition target for both top and bottom players"
+    },
+    {
+      "name": "Side Control",
+      "relationship": "Common target position for successful pass from Zombie Top"
+    },
+    {
+      "name": "Rubber Guard",
+      "relationship": "Related 10th Planet position - shares systematic philosophy"
+    }
+  ],
+  "top": {
+    "name": "Zombie Top",
+    "description": "Master Zombie Top position in BJJ. Control and pass the opponent's Zombie lockdown structure. Learn pressure-based passes, leg extraction, and back-take opportunities with 35-70% passing success rates.",
+    "tags": [
+      "bjj",
+      "position",
+      "zombie-top",
+      "half-guard-passing",
+      "10th-planet",
+      "top-control",
+      "passing"
+    ],
+    "overview": "Zombie Top is the controlling position against the opponent's Zombie lockdown structure from 10th Planet Jiu-Jitsu. The top player faces a defensive opponent using the lockdown (leg triangle around one leg) combined with an underhook, creating a highly defensive half guard variation. This position requires strategic passing approaches that neutralize the lockdown's power while maintaining top control and avoiding sweeps.\n\nThe Zombie Top position emphasizes posture control, crossface pressure, and systematic leg extraction. Unlike traditional half guard top positions, the lockdown creates significant tension on the trapped leg, requiring specialized passing sequences. The top player must balance maintaining control while working methodically to either extract the leg or transition to alternative passing strategies.\n\nSuccess in Zombie Top depends on recognizing the opponent's defensive structure and selecting appropriate passing sequences. The position offers multiple offensive pathways including pressure-based passes, leg weave entries, and transitions to back control when the opponent's defensive posture breaks down. Understanding the lockdown mechanics and the opponent's available sweeps is essential for maintaining top control.",
+    "state_properties": {
+      "point_value": 0,
+      "position_type": "Offensive/Controlling",
+      "risk_level": "Medium",
+      "energy_cost": "Medium",
+      "time_sustainability": "Medium to Long"
+    },
+    "state_invariants": [
+      "Top player positioned over opponent in half guard configuration with one leg trapped by opponent's lockdown (leg triangle), maintaining upper body posture and weight distribution through hips and shoulders",
+      "Opponent on their back or side utilizing lockdown on one leg while maintaining underhook control on same side, creating defensive structure with body turned slightly to side for escape attempts",
+      "Top player's trapped leg experiencing tension from lockdown pressure while free leg posts for base, with upper body controlling opponent's head and shoulders through crossface or underhook counters",
+      "Opponent's defensive frame includes lockdown control plus underhook grip, attempting to break top player's posture while threatening Old School Sweep and Electric Chair submissions from bottom position"
+    ],
+    "prerequisites": [
+      "Opponent has established Zombie lockdown structure from half guard bottom",
+      "Top player has passed opponent's initial guard frames",
+      "Top player maintains upper body control (crossface, whizzer, or underhook)",
+      "Top player's leg trapped in lockdown triangle configuration"
+    ],
+    "key_principles": [
+      "Maintain strong crossface or whizzer control to prevent opponent's underhook from dominating position",
+      "Keep weight distributed through hips and chest to prevent opponent from creating angles for sweeps",
+      "Control opponent's head position to limit mobility and defensive adjustments",
+      "Systematically work to extract trapped leg through posture and pressure rather than explosive force",
+      "Recognize opponent's sweep attempts early (Old School, Electric Chair) and counter with weight shifts",
+      "Use strategic transitions to alternative positions when direct passing becomes stalled",
+      "Maintain patient pressure while advancing passing sequences without overcommitting to single approach"
+    ],
+    "decision_tree": [
+      {
+        "condition": "If opponent maintains strong lockdown and underhook with good posture control",
+        "actions": [
+          {
+            "technique": "Crossface Pass",
+            "target": "Side Control",
+            "probability": 45
+          },
+          {
+            "technique": "Leg Weave Pass",
+            "target": "Side Control",
+            "probability": 40
+          }
+        ]
+      },
+      {
+        "condition": "If opponent's lockdown begins to loosen or defensive structure weakens",
+        "actions": [
+          {
+            "technique": "Knee Slice Pass",
+            "target": "Side Control",
+            "probability": 50
+          },
+          {
+            "technique": "Smash Pass",
+            "target": "Side Control",
+            "probability": 42
+          }
+        ]
+      },
+      {
+        "condition": "If opponent turns to turtle to escape passing pressure",
+        "actions": [
+          {
+            "technique": "Turtle to Back Take",
+            "target": "Back Control",
+            "probability": 60
+          },
+          {
+            "technique": "Crab Ride to Back",
+            "target": "Crab Ride",
+            "probability": 52
+          },
+          {
+            "technique": "Anaconda from Turtle",
+            "target": "Anaconda Control",
+            "probability": 38
+          }
+        ]
+      },
+      {
+        "condition": "If opponent attempts sweep (Old School, Electric Chair)",
+        "actions": [
+          {
+            "technique": "Crossface Pass",
+            "target": "Side Control",
+            "probability": 48
+          },
+          {
+            "technique": "Underhook Pass",
+            "target": "Side Control",
+            "probability": 40
+          }
+        ]
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Attempting explosive leg extraction against tight lockdown",
+        "consequence": "Wasting energy, potential injury to knee/ankle, allowing opponent to maintain defensive structure indefinitely",
+        "correction": "Use systematic pressure and posture adjustments to gradually loosen lockdown before attempting extraction, work passing sequences that don't require immediate leg freedom"
+      },
+      {
+        "error": "Allowing opponent to establish dominant underhook control",
+        "consequence": "Opponent controls posture, creates sweep opportunities, prevents passing progression",
+        "correction": "Immediately counter underhook with crossface or whizzer, fight for head control, prevent opponent from getting chest-to-chest connection"
+      },
+      {
+        "error": "Maintaining too upright posture in response to lockdown tension",
+        "consequence": "Makes Old School Sweep and other back-takes highly available, loses control of opponent's upper body",
+        "correction": "Drive weight forward through hips and shoulders while maintaining base, use crossface to flatten opponent rather than sitting upright"
+      },
+      {
+        "error": "Ignoring opponent's knee shield or frame creation",
+        "consequence": "Opponent re-establishes full guard or creates space for more effective defensive structure",
+        "correction": "Control opponent's top knee aggressively, prevent frames from extending, maintain heavy chest pressure throughout passing sequence"
+      },
+      {
+        "error": "Committing fully to single passing direction without reading opponent's reactions",
+        "consequence": "Opponent anticipates pass, uses momentum against top player, creates sweep opportunities",
+        "correction": "Maintain multiple passing threats, change direction based on opponent's defensive adjustments, use feints to create openings"
+      },
+      {
+        "error": "Failing to recognize turtle transition opportunities",
+        "consequence": "Missing high-percentage back-take chances when opponent defensively turns away",
+        "correction": "Stay connected during opponent's turtle transition, immediately establish back control hooks or front headlock control"
+      },
+      {
+        "error": "Overcommitting to submission attempts from top position",
+        "consequence": "Losing top control, allowing opponent to escape or reverse position",
+        "correction": "Prioritize passing progression over submissions, only attack submissions when position is thoroughly consolidated"
+      }
+    ],
+    "training_drills": [
+      {
+        "name": "Lockdown Escape Progressions",
+        "description": "Partner establishes Zombie lockdown. Top player practices systematic leg extraction using posture control, hip pressure, and strategic weight shifts. Start with partner giving 50% resistance, progress to full resistance.",
+        "duration": "5 minutes per round"
+      },
+      {
+        "name": "Crossface vs Underhook Battle",
+        "description": "From Zombie Top, focus exclusively on hand fighting and upper body control. Top player works to establish dominant crossface while bottom player fights for controlling underhook. Reset when either achieves dominant position.",
+        "duration": "3 minutes per round"
+      },
+      {
+        "name": "Passing Chain Sequences",
+        "description": "Flow drill connecting multiple passing sequences from Zombie Top: crossface to leg weave to knee slice. Partner provides progressive resistance, allowing top player to develop smooth transitions between passing options.",
+        "duration": "6 minutes"
+      },
+      {
+        "name": "Turtle Transition Recognition",
+        "description": "Bottom player randomly transitions to turtle from Zombie position. Top player must immediately recognize transition and secure back control or front headlock. Emphasizes reaction time and connection maintenance.",
+        "duration": "4 minutes per round"
+      },
+      {
+        "name": "Sweep Defense from Zombie Top",
+        "description": "Bottom player attempts Old School Sweep and Electric Chair attacks while top player practices defensive adjustments, weight distribution, and counter-passing. Focus on recognizing sweep triggers early.",
+        "duration": "5 minutes per round"
+      }
+    ],
+    "related_content": [
+      {
+        "name": "Lockdown",
+        "relationship": "Related defensive structure - lockdown mechanics that top player must defeat"
+      },
+      {
+        "name": "Half Guard",
+        "relationship": "Similar position - traditional half guard top without lockdown complications"
+      },
+      {
+        "name": "Electric Chair",
+        "relationship": "Common submission threat from bottom that top player must defend"
+      },
+      {
+        "name": "Old School",
+        "relationship": "Primary sweep threat to defend against from Zombie Top"
+      },
+      {
+        "name": "Crossface Pass",
+        "relationship": "Primary passing technique from Zombie Top position"
+      },
+      {
+        "name": "Leg Weave Pass",
+        "relationship": "Alternative passing approach when lockdown loosens"
+      },
+      {
+        "name": "Turtle to Back Take",
+        "relationship": "Common transition when opponent defends to turtle"
+      },
+      {
+        "name": "Side Control",
+        "relationship": "Common target position after successful pass"
+      },
+      {
+        "name": "Back Control",
+        "relationship": "High-value transition target when opponent turns away"
+      },
+      {
+        "name": "Deep Half Guard",
+        "relationship": "Understanding opponent's system - common transition target from lockdown"
+      },
+      {
+        "name": "Knee Slice Pass",
+        "relationship": "Related passing concept - systematic pressure application"
+      }
+    ],
+    "position_metrics": {
+      "retention_rate": {
+        "value": 77
+      },
+      "advancement_probability": {
+        "value": 58
+      },
+      "submission_probability": {
+        "value": 32
+      },
+      "average_time": "2-4 minutes"
+    },
+    "transitions": [
+      {
+        "transition": "Crossface Pass",
+        "attempt_probability": 27
+      },
+      {
+        "transition": "Leg Weave Pass",
+        "attempt_probability": 10
+      },
+      {
+        "transition": "Knee Slice Pass",
+        "attempt_probability": 11
+      },
+      {
+        "transition": "Smash Pass",
+        "attempt_probability": 9
+      },
+      {
+        "transition": "Turtle to Back Take",
+        "attempt_probability": 12
+      },
+      {
+        "transition": "Crab Ride to Back",
+        "attempt_probability": 10
+      },
+      {
+        "transition": "Anaconda from Turtle",
+        "attempt_probability": 8
+      },
+      {
+        "transition": "Darce from Turtle",
+        "attempt_probability": 6
+      },
+      {
+        "transition": "Back Take",
+        "attempt_probability": 4
+      },
+      {
+        "transition": "Posture Recovery from Zombie",
+        "attempt_probability": 2
+      },
+      {
+        "transition": "Strip Grip from Zombie",
+        "attempt_probability": 1
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What weight distribution maintains optimal control from Zombie Top against an active lockdown?",
+        "answer": "Weight should be distributed primarily through your hips and chest, driving forward and downward into the opponent. Your hips stay low to prevent being elevated for sweeps, while chest pressure on their upper body prevents them from creating angles. The free leg posts wide for base, allowing you to absorb their lockdown stretches without being off-balanced. Avoid sitting back on your heels, which makes you vulnerable to Old School Sweep attempts."
+      },
+      {
+        "question": "What are the essential grips for maintaining Zombie Top position?",
+        "answer": "The primary grip is the crossface, where your forearm drives across the opponent's jaw and neck to control their head and prevent them from turning into you. Secondary control includes either a whizzer on the underhook side to neutralize their underhook threat, or far hip control to prevent them from creating angles. Hand placement should prevent them from establishing chest-to-chest connection while controlling their ability to frame."
+      },
+      {
+        "question": "How do you shut down the Old School Sweep from Zombie Top?",
+        "answer": "When you feel the opponent begin to post on their far foot and drive their hips toward you, immediately drop your weight forward and drive heavy crossface pressure into their face. This flattens them back down and prevents them from completing the posting motion. Additionally, shift your base wider toward the underhook side to counter their lifting force. If they get significant elevation, abandon the pass temporarily and re-establish base before they can complete the sweep."
+      },
+      {
+        "question": "What grip priority should you follow when the opponent has a deep underhook from Zombie Bottom?",
+        "answer": "First priority is preventing their underhook from getting chest-to-chest connection - immediately establish a strong whizzer by threading your arm over their underhook arm and gripping near their wrist or forearm. Second priority is head control through crossface to prevent them from turning their face toward you. Third priority is hip control on the far side. Never allow them to connect their head to your chest while maintaining their underhook, as this creates maximum sweep leverage."
+      },
+      {
+        "question": "Your opponent starts to stretch the lockdown aggressively - what pressure adjustment do you make?",
+        "answer": "When you feel the lockdown stretch pulling your leg, don't fight against it by trying to pull your leg back explosively. Instead, drop your weight even further forward, driving your chest into their face and shoulder. This shifts the fulcrum point and reduces the leverage they have on your leg. Simultaneously, widen your base with your free leg and work to get your hips lower than theirs. The stretch loses power when you eliminate the space they need to complete the elevation."
+      },
+      {
+        "question": "How do you apply pressure effectively from Zombie Top without exhausting yourself?",
+        "answer": "Effective pressure comes from skeletal alignment rather than muscular effort. Position your shoulder directly over their face with your forearm across their jaw, allowing gravity to do the work. Keep your elbows tight and use your body weight rather than arm strength. Your chest should be heavy on their chest without you actively pushing down. Breathe normally and maintain the position statically rather than constantly adjusting - the opponent will tire faster than you if you're structurally sound."
+      },
+      {
+        "question": "What do you do when the opponent partially escapes and starts to recover half guard frames?",
+        "answer": "When they begin creating space and inserting knee shields or frames, you have a critical window before they fully recover. Either immediately switch to a leg weave or knee slice pass before the frame solidifies, or accept the frame temporarily and work to collapse it systematically. Don't allow them to establish both a knee shield and an underhook simultaneously. If they're recovering successfully, sometimes the best option is to disengage slightly and reset to a more advantageous passing position rather than fighting through a strengthening defensive structure."
+      },
+      {
+        "question": "How do you manage energy when the opponent refuses to release lockdown for several minutes?",
+        "answer": "Accept that the lockdown game can be a war of attrition. Rather than constantly working to extract your leg, settle into a dominant crossface position and make them carry your weight. Cycle between passing attempts - try crossface pressure for 30 seconds, then switch to leg weave positioning, then threaten smash pass. This keeps them reactive while you maintain consistent pressure. The key is maintaining heavy top position without burning energy on explosive escape attempts. Eventually their grip will fatigue from maintaining lockdown tension against your constant forward pressure."
+      }
+    ]
+  },
+  "bottom": {
+    "name": "Zombie Bottom",
+    "description": "Master Zombie Bottom position in BJJ. Defensive half guard variant using lockdown mechanics to frustrate passes while threatening sweeps. Learn guard recovery, Old School Sweeps, and Electric Chair submissions with 40-75% success rates.",
+    "tags": [
+      "bjj",
+      "position",
+      "zombie-bottom",
+      "half-guard",
+      "lockdown",
+      "10th-planet",
+      "defensive",
+      "sweeps"
+    ],
+    "overview": "Zombie Bottom is a highly specialized defensive posture within the 10th Planet Jiu-Jitsu system, representing a unique variation of half guard combined with lockdown mechanics. Named for its distinctive appearance where the bottom practitioner appears to be rising from the ground while maintaining protective frames, the Zombie serves as both an escape mechanism and a transition hub to more advantageous positions.\n\nThe Zombie is characterized by the bottom practitioner being on their side with one leg locked around the opponent's leg (similar to lockdown mechanics), while using frames and grips to prevent the opponent from establishing dominant control. The top player is typically attempting to pass to side control or take the back, while the bottom player works to recover guard or sweep.\n\nUnlike traditional turtle positions where the practitioner curls into a ball, the Zombie position involves active movement, constant reframing, and strategic use of the lockdown to off-balance the opponent. The position's effectiveness lies in its ability to frustrate passing attempts while creating opportunities for guard recovery, sweeps, or even back takes. Understanding the Zombie position is essential for modern no-gi practitioners, particularly those training in the 10th Planet system or facing opponents who utilize deep half guard and lockdown-based games.",
+    "state_properties": {
+      "point_value": 0,
+      "position_type": "Defensive with offensive options",
+      "risk_level": "Medium",
+      "energy_cost": "Medium",
+      "time_sustainability": "Short to Medium"
+    },
+    "state_invariants": [
+      "Bottom practitioner positioned on their side with hip facing opponent, creating a defensive shell while maintaining mobility through shoulder and hip positioning that allows constant micro-adjustments",
+      "One leg (typically the bottom leg) entangled with opponent's leg using lockdown-style grip with foot hooking behind opponent's calf and thigh squeeze active, creating fulcrum point for sweeps",
+      "Near-side arm creating a defensive frame against opponent's chest or shoulder, preventing forward pressure and maintaining space for hip movement and guard recovery attempts",
+      "Head and shoulders protected from opponent's crossface attempts through active head positioning and far-side arm control, maintaining ability to see and react to passing attempts"
+    ],
+    "prerequisites": [
+      "Guard has been partially compromised but full pass not yet achieved",
+      "Bottom practitioner able to establish lockdown on one of opponent's legs",
+      "Opponent attempting to consolidate passing position or establish side control",
+      "Bottom practitioner has maintained frames preventing complete flattening",
+      "Sufficient space exists for hip movement and guard recovery attempts"
+    ],
+    "key_principles": [
+      "Maintain active lockdown tension to restrict opponent's base and prevent them from completing the pass",
+      "Use near-side frame to create distance and prevent opponent from driving chest pressure into your upper body",
+      "Keep constant hip movement to prevent being flattened - staying on your side is crucial for escape options",
+      "Protect your back and neck from opponent's crossface attempts through active head positioning and grip fighting",
+      "Create off-balancing opportunities through lockdown stretching and hip pressure to set up sweeps or guard recovery",
+      "Time your escape attempts with opponent's weight shifts and base adjustments for maximum effectiveness"
+    ],
+    "decision_tree": [
+      {
+        "condition": "If opponent is heavy on your upper body with strong crossface pressure",
+        "actions": [
+          {
+            "technique": "Granby Roll to Guard",
+            "target": "Closed Guard",
+            "probability": 55
+          },
+          {
+            "technique": "Deep Half Entry",
+            "target": "Deep Half Guard",
+            "probability": 45
+          }
+        ]
+      },
+      {
+        "condition": "If opponent is attempting to free their leg from lockdown by posting or pulling",
+        "actions": [
+          {
+            "technique": "Old School Sweep",
+            "target": "Half Guard",
+            "probability": 60
+          },
+          {
+            "technique": "Electric Chair Transition",
+            "target": "Electric Chair",
+            "probability": 50
+          }
+        ]
+      },
+      {
+        "condition": "If opponent establishes strong chest-to-chest pressure attempting to flatten you",
+        "actions": [
+          {
+            "technique": "Roll to Truck",
+            "target": "Truck",
+            "probability": 45
+          },
+          {
+            "technique": "Rolling Back Take",
+            "target": "Back Control",
+            "probability": 40
+          }
+        ]
+      },
+      {
+        "condition": "If opponent creates distance trying to clear lockdown and establish passing grips",
+        "actions": [
+          {
+            "technique": "Guard Recovery from Zombie",
+            "target": "Half Guard",
+            "probability": 65
+          },
+          {
+            "technique": "Lockdown Recovery",
+            "target": "Lockdown",
+            "probability": 55
+          }
+        ]
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Allowing yourself to be flattened onto your back without maintaining side positioning",
+        "consequence": "Loses all mobility and offensive options, allowing opponent to complete the pass easily to side control or mount",
+        "correction": "Maintain constant hip pressure and shoulder frames to stay on your side - use lockdown tension to prevent flattening and keep shrimping motion active"
+      },
+      {
+        "error": "Releasing or loosening the lockdown grip prematurely before establishing better position",
+        "consequence": "Opponent immediately frees their leg and completes the pass with superior base and mobility",
+        "correction": "Maintain lockdown tension throughout transitions - only release when you've secured guard recovery or committed to a sweep with proper grips established"
+      },
+      {
+        "error": "Failing to protect the head and neck from crossface attempts",
+        "consequence": "Opponent drives crossface across your face, flattens your shoulders, and achieves dominant chest-to-chest control making escapes nearly impossible",
+        "correction": "Keep active head positioning away from crossface pressure, use near-side frame to block opponent's shoulder, and maintain far-side grip fighting to prevent crossface establishment"
+      },
+      {
+        "error": "Being static and defensive without attempting sweeps or guard recovery",
+        "consequence": "Opponent methodically works to improve position, eventually achieving the pass or back take through sustained pressure and patience",
+        "correction": "Constantly threaten sweeps and guard recovery to keep opponent defensive - use lockdown stretches, hip bumps, and granby movements to create dynamic threats"
+      },
+      {
+        "error": "Over-committing to sweep attempts without proper setup or timing",
+        "consequence": "Opponent counters the sweep attempt by using your momentum against you, achieving superior position or transitioning to back control",
+        "correction": "Set up sweeps with proper off-balancing through lockdown manipulation - wait for opponent's weight shifts and base adjustments before committing to sweep execution"
+      },
+      {
+        "error": "Allowing opponent to establish double underhooks or bodylock control",
+        "consequence": "Opponent gains complete control of your torso, can easily lift and manipulate your position, leading to inevitable pass or back take",
+        "correction": "Fight aggressively for underhook control, maintain active frames to prevent opponent from connecting their hands, and use lockdown to disrupt their base before they consolidate grips"
+      },
+      {
+        "error": "Neglecting to create angles and space for hip movement",
+        "consequence": "Position becomes completely static, allowing opponent to methodically break down your defensive structure with sustained pressure",
+        "correction": "Use near-side frame to create space, shrimp your hips to create angles, and time these movements with lockdown stretches to maximize effectiveness and create escape opportunities"
+      }
+    ],
+    "training_drills": [
+      {
+        "name": "Zombie Position Retention Drill",
+        "description": "Partner starts in passing position with you in Zombie with lockdown established. Partner attempts to flatten you and complete the pass while you maintain side positioning and frames. Focus on constant hip movement, lockdown pressure, and defensive frames. Reset after each successful defense or pass completion.",
+        "duration": "5 minutes per round"
+      },
+      {
+        "name": "Lockdown Sweep Flow Drill",
+        "description": "From Zombie position, practice flowing between Old School Sweep, Electric Chair threat, and Deep Half entries based on partner's reactions. Partner provides progressive resistance, gradually increasing pressure as your timing improves. Emphasize reading partner's weight distribution and base positioning.",
+        "duration": "6 minutes"
+      },
+      {
+        "name": "Zombie to Guard Recovery Sequence",
+        "description": "Start in Zombie position with partner attempting various passing attacks. Your goal is to successfully recover full guard (half guard, lockdown, or closed guard) within 30 seconds. Partner uses different passing strategies each round (knee slice, crossface, leg weave, etc.). Track success rate for each passing style encountered.",
+        "duration": "3 minutes per round"
+      },
+      {
+        "name": "Granby Roll Integration Drill",
+        "description": "Practice Granby Roll specifically from Zombie position when opponent applies heavy shoulder pressure. Partner varies between maintaining pressure and following your roll. Focus on smooth technical execution, protecting your back during the roll, and immediately establishing guard upon completion.",
+        "duration": "4 minutes per round"
+      }
+    ],
+    "related_content": [
+      {
+        "name": "Lockdown",
+        "relationship": "Core component - Zombie position utilizes lockdown mechanics as primary control mechanism"
+      },
+      {
+        "name": "Electric Chair",
+        "relationship": "Common transition - Natural progression from Zombie when opponent's leg is trapped"
+      },
+      {
+        "name": "Truck",
+        "relationship": "Advanced variation - Similar defensive structure with different leg entanglement"
+      },
+      {
+        "name": "Deep Half Guard",
+        "relationship": "Transition target - Frequently accessed when opponent pressures forward"
+      },
+      {
+        "name": "Half Guard",
+        "relationship": "Guard recovery destination - Primary goal for re-establishing guard structure"
+      },
+      {
+        "name": "Turtle",
+        "relationship": "Similar position - Traditional turtle alternative without lockdown mechanics"
+      },
+      {
+        "name": "Old School",
+        "relationship": "Primary offensive technique - Highest percentage sweep from Zombie position"
+      },
+      {
+        "name": "Twister Control",
+        "relationship": "Parent system - Zombie is integral component of 10th Planet Twister system"
+      },
+      {
+        "name": "Knee Shield Half Guard",
+        "relationship": "Systematic framework - Related half guard defensive structure"
+      },
+      {
+        "name": "Rubber Guard",
+        "relationship": "Related 10th Planet position - shares systematic philosophy"
+      }
+    ],
+    "position_metrics": {
+      "retention_rate": {
+        "value": 62
+      },
+      "advancement_probability": {
+        "value": 58
+      },
+      "submission_probability": {
+        "value": 16
+      },
+      "average_time": "30-90 seconds"
+    },
+    "transitions": [
+      {
+        "transition": "Old School Sweep",
+        "attempt_probability": 35
+      },
+      {
+        "transition": "Electric Chair Transition",
+        "attempt_probability": 11
+      },
+      {
+        "transition": "Lockdown Recovery",
+        "attempt_probability": 10
+      },
+      {
+        "transition": "Guard Recovery from Zombie",
+        "attempt_probability": 13
+      },
+      {
+        "transition": "Granby Roll to Guard",
+        "attempt_probability": 9
+      },
+      {
+        "transition": "Rolling Back Take",
+        "attempt_probability": 7
+      },
+      {
+        "transition": "Roll to Truck",
+        "attempt_probability": 6
+      },
+      {
+        "transition": "Deep Half Entry",
+        "attempt_probability": 5
+      },
+      {
+        "transition": "Escape Zombie Control",
+        "attempt_probability": 2
+      },
+      {
+        "transition": "Turn to Face from Zombie",
+        "attempt_probability": 1
+      },
+      {
+        "transition": "Sweep from Zombie Guard",
+        "attempt_probability": 1
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What weight distribution and hip positioning maintains the Zombie Bottom position effectively?",
+        "answer": "Your weight should be primarily on your hip and shoulder, staying on your side rather than flat on your back. The hip closest to the opponent should be angled slightly upward to maintain mobility for shrimping and sweep attempts. Never allow both shoulders to touch the mat simultaneously - this signals you've been flattened and lost the position. Your lockdown leg carries the opponent's weight through the entanglement, which should feel like controlled tension rather than desperate gripping."
+      },
+      {
+        "question": "What are the essential grips and frames for maintaining Zombie Bottom?",
+        "answer": "The primary frame is your near-side arm, positioned with your forearm against the opponent's chest, shoulder, or neck to prevent them from driving forward and flattening you. Your far-side arm should be fighting for underhook position or controlling the opponent's far arm to prevent crossface establishment. The lockdown grip on their leg - foot hooked behind their calf with thigh squeeze active - is your primary lower body control. Secondary grips include collar ties or wrist control depending on the opponent's positioning."
+      },
+      {
+        "question": "How do you shut down the crossface pass from Zombie Bottom?",
+        "answer": "When you feel the opponent driving their shoulder toward your face for the crossface, immediately turn your head away and drive your near-side frame into their shoulder or chest. This creates a wedge that prevents them from completing the crossface connection. Simultaneously, maintain active underhook fighting with your far arm and use your lockdown to disrupt their base by stretching their trapped leg. If the crossface starts to establish, immediately shrimp your hips away to create space and prevent them from settling their weight."
+      },
+      {
+        "question": "What grip priority should you follow when the opponent is attempting to smash pass?",
+        "answer": "First priority is maintaining the lockdown - this is your anchor and primary disruption tool against smash passing. Second priority is your near-side frame, which must stay active against their chest pressure. Third priority is head positioning - turn your face away from their crossface and keep your chin tucked. Fourth priority is far-side underhook fighting. If you must choose, sacrifice the underhook before releasing the lockdown, as the lockdown is what keeps you from being completely smashed."
+      },
+      {
+        "question": "Your opponent starts to drive heavy shoulder pressure into your face - what adjustment do you make?",
+        "answer": "Turn your head away from the pressure while simultaneously shrimping your hips in the opposite direction. This creates an angle that reduces the effectiveness of their pressure. Simultaneously, activate your lockdown stretch to disrupt their base - when they're heavy on your upper body, their leg is more vulnerable to being stretched and off-balanced. Your near-side frame should be pushing against their shoulder rather than their face. If the pressure is overwhelming, consider a Granby Roll to completely reset the position."
+      },
+      {
+        "question": "How do you apply lockdown tension effectively without exhausting yourself?",
+        "answer": "Effective lockdown comes from proper positioning rather than muscular effort. Your foot should hook deep behind their calf with your instep, not just your toes. The squeeze comes from your thighs pressing together around their leg, using your adductor muscles which have great endurance. Apply constant moderate tension rather than intermittent maximum tension. When you need to stretch them for a sweep, combine hip extension with the lockdown stretch for maximum leverage. Think of it as controlling their mobility rather than trying to damage their knee."
+      },
+      {
+        "question": "What do you do when the opponent starts to successfully extract their leg from your lockdown?",
+        "answer": "The moment you feel your lockdown weakening, you have a critical decision point. If they're creating backward pressure to extract, immediately attempt the Old School Sweep while you still have some lockdown tension - their backward movement actually helps your sweep. If they're driving forward while extracting, transition immediately to Deep Half Guard by ducking under them. If neither is available, release the lockdown completely and immediately reframe with your legs, establishing knee shield or butterfly hooks to prevent the pass. Never hold a failing lockdown - transition before it's completely broken."
+      },
+      {
+        "question": "How do you manage energy when the opponent is patiently pressuring without giving sweep opportunities?",
+        "answer": "Accept that the position may require sustained defense before offensive opportunities appear. Maintain your frames with skeletal structure rather than muscular effort - your elbow should be anchored against your ribs with your forearm creating the frame. Keep your lockdown active but not maximal. Breathe steadily and wait for the opponent to make a committed passing attempt. The moment they shift their weight for a pass, that's when you need to explode into your counter. Patience is key - a controlled Zombie that doesn't waste energy will outlast an opponent who's burning energy trying to pass."
+      }
+    ]
+  }
+}

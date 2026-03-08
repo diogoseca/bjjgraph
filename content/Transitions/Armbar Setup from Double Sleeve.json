@@ -1,0 +1,410 @@
+{
+  "name": "Armbar Setup from Double Sleeve",
+  "description": "Master the armbar setup from double sleeve guard in BJJ. Complete guide to sleeve control, hip rotation mechanics, and high-percentage submission entries.",
+  "tags": [
+    "bjj",
+    "transition",
+    "armbar",
+    "submission-setup",
+    "double-sleeve",
+    "open-guard",
+    "gi",
+    "arm-attack"
+  ],
+  "from_position": "Double Sleeve Guard/Bottom",
+  "outcomes": [
+    {
+      "to": "Armbar Control/Top",
+      "probability": 55,
+      "result": "success"
+    },
+    {
+      "to": "Double Sleeve Guard/Bottom",
+      "probability": 30,
+      "result": "failure"
+    },
+    {
+      "to": "Open Guard/Top",
+      "probability": 15,
+      "result": "counter"
+    }
+  ],
+  "success_rate": 55,
+  "overview": "The Armbar Setup from Double Sleeve Guard is a high-percentage submission entry that exploits bilateral sleeve control to isolate one arm and transition into armbar control. This technique represents one of the most direct offensive threats available from the double sleeve guard system, converting grip dominance into a submission opportunity through precise hip rotation and leg placement mechanics. The setup is particularly effective because controlling both sleeves simultaneously prevents the opponent from posting defensively or framing against the pivoting motion that establishes the armbar position.\n\nThe technical foundation relies on asymmetric force application: the target arm's sleeve is pulled across the attacker's centerline while the opposite foot pushes on the opponent's hip to generate rotational momentum. The attacking leg swings over the opponent's head in a controlled arc, sealing the position before the opponent can posture or disengage. The optimal moment to initiate occurs when the opponent's posture is compromised through push-pull dynamics or when they extend an arm attempting to break grips, as this creates the arm isolation necessary for the transition.\n\nThis technique integrates seamlessly into the double sleeve guard's broader offensive framework alongside sweeps and triangle setups. When opponents retract their arms to defend the armbar, they create vulnerability to tripod sweeps and sickle sweeps. When they post wide to defend sweeps, the extended arm becomes available for armbar entry. This offensive dilemma between armbar defense and sweep defense is what elevates the double sleeve guard from a controlling position to a genuinely threatening attacking platform.",
+  "conditions": [
+    "Both sleeve grips firmly secured at or near the cuffs with four-finger pistol grips",
+    "At least one foot positioned on the target arm's bicep to control posture and create rotational angle",
+    "Opponent's posture broken or compromised through push-pull sleeve mechanics",
+    "Clear rotational path for hip pivot without opponent's free hand blocking the swing",
+    "Opponent on knees or standing with weight committed forward or neutral"
+  ],
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Pendulum Armbar Entry",
+      "description": "Uses a pendulum swing of the legs to generate momentum for the hip pivot rather than a static rotation. The bottom player swings their legs laterally and then drives them upward and over the opponent's head, using the momentum to overcome resistance. This variation generates more force but requires better timing and coordination.",
+      "when_to_use": "When opponent maintains strong upright posture that resists standard hip pivot, or when you need additional momentum to complete the rotation against a physically larger opponent"
+    },
+    {
+      "variant_name": "Two-Stage Setup with Foot-on-Bicep",
+      "description": "Establishes a foot-on-bicep position on the target arm before initiating the armbar rotation. The bottom player places one foot on the bicep of the arm they intend to attack while maintaining the opposite foot on the hip. This creates a spider guard-like control on one side that isolates the arm before the pivot begins, making the rotation shorter and more controlled.",
+      "when_to_use": "When opponent has strong posture recovery and you need additional arm isolation before committing to the pivot, or when transitioning from spider guard elements"
+    },
+    {
+      "variant_name": "Cross-Sleeve Armbar",
+      "description": "Instead of attacking the arm on the same side as the bicep foot, the bottom player attacks the opposite arm by pulling it across and using a diagonal hip pivot. This variation catches opponents who defend the standard same-side armbar by retracting that arm, leaving the opposite arm exposed when they reach to break the cross-body sleeve grip.",
+      "when_to_use": "When opponent consistently defends the primary armbar by retracting the target arm, or when they extend the opposite arm to break your secondary sleeve grip"
+    }
+  ],
+  "position_integration": "The armbar setup from double sleeve guard occupies a critical position in the open guard attacking hierarchy, serving as the primary submission threat that forces defensive reactions exploitable by sweeps. Within the double sleeve system, this technique creates a fundamental dilemma: opponents who defend the armbar by keeping arms retracted expose themselves to tripod sweeps and sickle sweeps, while those who post wide to defend sweeps present the arm extension necessary for armbar entry. This technique also serves as a gateway to the broader armbar control position, from which triangle transitions, omoplata entries, and belly-down armbar variations become available, creating multi-layered submission chains that reward the practitioner who develops proficiency with the initial sleeve-based setup.",
+  "related_content": [
+    {
+      "name": "Double Sleeve Guard",
+      "relationship": "Source position providing the bilateral sleeve control foundation for this technique"
+    },
+    {
+      "name": "Armbar Control",
+      "relationship": "Target position on successful execution where the submission finish is completed"
+    },
+    {
+      "name": "Open Guard",
+      "relationship": "Fallback position when opponent successfully counters the setup and breaks guard structure"
+    },
+    {
+      "name": "Triangle Setup",
+      "relationship": "Alternative submission entry from the same double sleeve guard position creating offensive dilemma"
+    },
+    {
+      "name": "Armbar from Guard",
+      "relationship": "Related submission technique sharing similar hip rotation and arm isolation mechanics"
+    },
+    {
+      "name": "Spider Guard",
+      "relationship": "Related guard position with foot-on-bicep mechanics used in variant setups"
+    },
+    {
+      "name": "Tripod Sweep",
+      "relationship": "Complementary sweep attack that creates offensive dilemma paired with armbar threat"
+    },
+    {
+      "name": "Collar Sleeve Guard",
+      "relationship": "Alternative guard offering similar armbar entries with different grip configuration"
+    },
+    {
+      "name": "Omoplata",
+      "relationship": "Chain attack when opponent bends arm to defend the armbar setup during rotation"
+    },
+    {
+      "name": "Armbar Finish",
+      "relationship": "Follow-up transition from armbar control to complete the submission"
+    }
+  ],
+  "attacker": {
+    "name": "Armbar Setup from Double Sleeve Attacker",
+    "description": "Execute the armbar setup from double sleeve guard with precision. Learn sleeve isolation, hip pivot mechanics, and timing for high-percentage armbar entries from open guard bottom.",
+    "overview": "The attacker in the armbar setup from double sleeve guard operates from the bottom position, leveraging bilateral sleeve control to isolate one of the opponent's arms and rotate into armbar control. This offensive sequence demands precise coordination between grip manipulation, foot placement, and explosive hip rotation. The attacker must create asymmetric pulling forces that break the opponent's structural alignment while simultaneously generating the angular momentum needed to swing the leg over the opponent's head. Success depends on reading the opponent's weight distribution and timing the pivot to coincide with moments of postural vulnerability, such as when the opponent leans forward to break grips or reaches to establish their own controls.",
+    "key_principles": [
+      "Bilateral sleeve control must be established before any armbar setup attempt - one grip is insufficient for reliable arm isolation",
+      "The target arm must be pulled across your centerline before initiating the hip pivot to create genuine isolation from the opponent's torso",
+      "Foot-on-bicep placement on the target arm side controls the opponent's ability to retract the arm and creates the angle for rotation",
+      "The hip pivot must be explosive and fully committed - partial rotations allow the opponent to posture and disengage",
+      "Maintain sleeve control throughout the entire rotation until the leg is sealed over the opponent's head",
+      "The non-target foot pushes on the opponent's hip to generate the rotational force and prevent them from driving forward during the pivot"
+    ],
+    "setup_requirements": [
+      "Both sleeve grips secured at or near the cuffs with firm pistol grips maintaining constant tension",
+      "One foot positioned on the target arm's bicep creating angular control and posture disruption",
+      "Opposite foot on opponent's hip providing the push-off point for rotational momentum generation",
+      "Opponent's posture broken or breaking through combined push-pull dynamics of feet and grips",
+      "Target arm extended or semi-extended, pulled away from opponent's centerline toward your hip"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Establish bilateral sleeve control",
+        "description": "Secure firm pistol grips on both of the opponent's sleeves at or near the cuff openings. Your four fingers wrap inside the sleeve with thumb outside. Maintain constant pulling tension toward your hips with both hands, keeping elbows tight to your body to reinforce grip strength through structural positioning rather than muscular effort."
+      },
+      {
+        "step_number": 2,
+        "action": "Position feet for the armbar angle",
+        "description": "Place the foot on the side of your target arm onto the opponent's bicep, pushing their arm away from their body and controlling its position. Place your opposite foot firmly on their hip, creating a two-point frame that controls distance and provides the platform for generating rotational momentum during the upcoming pivot."
+      },
+      {
+        "step_number": 3,
+        "action": "Isolate the target arm across your centerline",
+        "description": "Pull the target arm's sleeve diagonally across your body toward your opposite hip while simultaneously pushing their bicep with your foot. This creates the arm isolation necessary for the armbar by separating the arm from the opponent's defensive structure. The opponent's arm should cross your midline with their elbow exposed above your hips."
+      },
+      {
+        "step_number": 4,
+        "action": "Break opponent's posture with push-pull dynamics",
+        "description": "Extend the hip-side leg to push the opponent's body away while pulling both sleeves sharply toward your chest. This creates a concave bend in their spine, dropping their head below their hips and compromising their ability to resist the upcoming rotation. Time the next step to coincide with this moment of maximum postural breakdown."
+      },
+      {
+        "step_number": 5,
+        "action": "Execute explosive hip pivot",
+        "description": "Push off the opponent's hip with your non-target foot while simultaneously shooting your hips upward and rotating perpendicular to the opponent's body. Your body should pivot on your upper back as you swing your hip-side leg in an arc upward and over the opponent's head. This movement must be explosive and fully committed to prevent defensive recovery."
+      },
+      {
+        "step_number": 6,
+        "action": "Seal the leg over opponent's head",
+        "description": "As your swinging leg clears the opponent's head, bring it down firmly across their face and neck. Pinch both knees together to clamp the opponent's upper body between your thighs. The leg across the face prevents them from sitting up or posturing, while the leg across the chest controls their torso and limits rotational escape options."
+      },
+      {
+        "step_number": 7,
+        "action": "Transition grips to establish armbar control",
+        "description": "Release the non-target sleeve grip and secure a two-handed wrist control on the isolated arm. Pull the wrist toward your chest while keeping your hips tight to the opponent's shoulder. Ensure the opponent's thumb points toward the ceiling for optimal elbow vulnerability. You are now in armbar control position ready to finish or chain to other submissions."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Opponent stacks forward driving their weight over the bottom player during the hip pivot",
+        "effectiveness": "High",
+        "your_response": "Angle your hips away from the stacking pressure and transition to triangle setup by swinging the far leg over their neck, or use the momentum to sweep them overhead with a pendulum motion",
+        "targets_outcome": "Double Sleeve Guard/Bottom"
+      },
+      {
+        "counter": "Opponent retracts the target arm sharply before the pivot completes, breaking sleeve isolation",
+        "effectiveness": "Medium",
+        "your_response": "Immediately re-grip the retreating sleeve and switch to the opposite arm if available, or chain into a tripod sweep while they are focused on arm recovery rather than base maintenance",
+        "targets_outcome": "Double Sleeve Guard/Bottom"
+      },
+      {
+        "counter": "Opponent circles laterally and disengages from the guard during the rotation attempt",
+        "effectiveness": "Medium",
+        "your_response": "Follow their lateral movement with your hips, maintaining at least one sleeve grip to prevent full disengagement. If they successfully disengage, immediately establish feet on hips and recover open guard structure",
+        "targets_outcome": "Open Guard/Top"
+      },
+      {
+        "counter": "Opponent posts their free hand on the mat to base against the rotation",
+        "effectiveness": "Low",
+        "your_response": "The posting hand is actually advantageous as it means they cannot use it to break grips or frame against your legs. Continue the pivot and use the foot on their hip to push them off their posting base",
+        "targets_outcome": "Double Sleeve Guard/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Releasing the non-target sleeve grip too early before the leg seals over the head",
+        "consequence": "Opponent uses their free arm to frame against the incoming leg or push the bottom player's hips away, preventing the rotation from completing and allowing posture recovery",
+        "correction": "Maintain both sleeve grips throughout the entire pivot motion. Only release the non-target sleeve after your leg has crossed over their head and your knees are pinched together securing the position"
+      },
+      {
+        "error": "Insufficient hip rotation resulting in a diagonal rather than perpendicular body angle",
+        "consequence": "The armbar lacks proper leverage because hips are not aligned with the opponent's shoulder, allowing them to bend the arm, stack forward, or extract the limb through the gap created by poor positioning",
+        "correction": "Commit fully to the hip pivot by driving off the opponent's hip with your foot and rotating your entire body until your hips are perpendicular to their torso. Your belly button should face the ceiling, not diagonally toward the opponent"
+      },
+      {
+        "error": "Attempting the armbar without first breaking the opponent's posture",
+        "consequence": "The opponent maintains strong upright posture and easily resists the rotation, either pulling their arm free, stacking forward to smash the guard, or simply standing up to disengage entirely",
+        "correction": "Invest time in breaking posture through push-pull dynamics before initiating the pivot. Pull sleeves sharply while extending feet to create the postural breakdown that makes the rotation achievable"
+      },
+      {
+        "error": "Placing the foot on the hip instead of the bicep on the target arm side",
+        "consequence": "Without the bicep foot controlling arm position, the target arm can freely retract to the opponent's chest or be used to frame against the incoming leg, neutralizing the armbar attempt",
+        "correction": "Position the foot firmly on the bicep of the arm you intend to attack. This foot serves dual purposes: controlling the arm's position and creating the angle that facilitates hip rotation into the armbar"
+      },
+      {
+        "error": "Pivoting with hips flat on the mat instead of elevated",
+        "consequence": "Ground friction prevents smooth rotation, slowing the pivot and giving the opponent time to react defensively. The resulting position lacks the hip elevation needed for proper armbar leverage",
+        "correction": "Elevate your hips off the mat before and during the pivot by pushing off the opponent's hip with your foot. Your rotation should occur on your upper back and shoulders, with hips lifted high to clear the opponent's body"
+      },
+      {
+        "error": "Failing to pinch knees together after the leg crosses over the opponent's head",
+        "consequence": "Loose legs allow the opponent to posture up between your thighs, creating space to extract their arm or sit up into your guard, escaping the armbar position entirely",
+        "correction": "Immediately squeeze your knees together as soon as your leg clears the opponent's head. The pinched knees create a clamp that controls their upper body and prevents postural recovery"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Mechanics",
+        "focus": "Hip pivot and leg swing fundamentals",
+        "description": "Practice the hip rotation and leg swing movement solo and with a stationary partner. Focus on achieving full perpendicular alignment, smooth rotation on the upper back, and proper leg placement over the partner's head. Perform 20 repetitions per side with zero resistance to build muscle memory for the pivoting motion."
+      },
+      {
+        "phase": "Phase 2: Grip Integration",
+        "focus": "Combining sleeve control with pivot mechanics",
+        "description": "Add bilateral sleeve grips to the mechanical drill. Practice pulling the target arm across your centerline while maintaining the opposite grip. Time the sleeve pull with the hip pivot so they function as one coordinated movement. Partner provides 25% resistance to grips only."
+      },
+      {
+        "phase": "Phase 3: Timing and Reaction",
+        "focus": "Reading opponent's posture for optimal entry windows",
+        "description": "Partner varies between strong posture, forward lean, and grip breaking attempts while you identify the correct moment to initiate the armbar setup. Practice recognizing the optimal entry windows: broken posture, extended arm, and forward weight commitment. Increase resistance to 50-70%."
+      },
+      {
+        "phase": "Phase 4: Chain Attacks",
+        "focus": "Combining armbar with sweeps and alternative submissions",
+        "description": "Integrate the armbar setup into offensive chains with tripod sweeps, triangle setups, and omoplata entries. Partner defends the armbar with realistic resistance while you flow to alternative attacks based on their defensive reactions. Focus on the dilemma-creation aspect of the double sleeve system."
+      },
+      {
+        "phase": "Phase 5: Live Application",
+        "focus": "Competition-speed execution against full resistance",
+        "description": "Positional sparring starting from double sleeve guard bottom. Attempt the armbar setup and its chain attacks against fully resisting opponents. Track success rates and identify patterns in defensive reactions that inform timing adjustments. Progress to integrating this technique into full sparring rounds."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "Your opponent posts their hand on your hip to prevent your hip pivot - how do you adjust the setup?",
+        "answer": "The posting hand commits one of their arms, which you already control through your sleeve grip. Use your foot on their hip to kick their posting arm off while simultaneously pulling their other sleeve across your body. Their posting attempt opens the non-posting arm for attack. Alternatively, push their posting elbow inward with your foot, collapsing their base, and immediately pivot as their structure breaks down."
+      },
+      {
+        "question": "What is the most critical foot placement when initiating the armbar setup from double sleeve guard?",
+        "answer": "The foot on the target arm's bicep is the most critical placement. This foot serves three essential functions: it controls the position of the arm you intend to attack, preventing retraction to the chest; it creates the angular leverage needed for the hip pivot by establishing an elevated contact point; and it disrupts the opponent's posture asymmetrically, making it harder for them to resist the rotation with a balanced base."
+      },
+      {
+        "question": "You begin the hip pivot but your opponent starts stacking their weight forward over you - what technique adjustment prevents the stack?",
+        "answer": "When the opponent drives forward to stack, redirect your rotation angle to accommodate the pressure rather than fighting it directly. Angle your hips away from the stacking direction. If the stack is too advanced to complete the armbar, immediately transition to a triangle setup by swinging your far leg over their neck, since their forward drive places their head in the ideal position for triangle entry. Their stacking momentum becomes your setup energy for the alternative attack."
+      },
+      {
+        "question": "What grip adjustment must you make as your leg swings over the opponent's head during the pivot?",
+        "answer": "Maintain both sleeve grips until the leg has completely sealed over the opponent's head and your knees are pinched together. Only then release the non-target sleeve grip and transition to a two-handed wrist control on the isolated arm. The critical adjustment is switching from a pulling grip on the sleeve to a controlling grip on the wrist, positioning the opponent's thumb to point upward for optimal elbow vulnerability during the finish."
+      },
+      {
+        "question": "Your opponent pulls one arm completely free during the setup - how do you chain to another attack rather than resetting?",
+        "answer": "When one arm escapes, immediately assess which arm is still controlled. If the target arm is free but you hold the other sleeve, switch your attack to the opposite arm by reversing your rotation direction. If the non-target arm is free, accelerate your pivot since they now lack the ability to frame against your incoming leg. If grip recovery is difficult, transition to a tripod sweep using the remaining sleeve grip and your feet, as the opponent's focus on arm recovery compromises their base."
+      },
+      {
+        "question": "What direction of force should your pulling hand apply to the target sleeve to maximize arm isolation?",
+        "answer": "Pull the target sleeve diagonally across your body toward your opposite hip, not straight down toward the mat. This diagonal pull creates arm isolation by separating the arm from the opponent's torso along two vectors simultaneously: across their centerline and toward the mat. The diagonal direction also pre-loads the rotational angle for your hip pivot, making the subsequent movement shorter and more explosive. Combined with the foot-on-bicep push, this creates a scissors-like force that locks the arm in position."
+      },
+      {
+        "question": "Your opponent tucks their chin to block your leg from crossing over their face - how do you complete the armbar transition?",
+        "answer": "When the chin block prevents your leg from crossing, use your calf or hamstring to push against the side of their head rather than trying to slide over the top. Apply downward pressure with your leg against their temple while maintaining sleeve control. If the block is too strong, switch to placing your foot on their far shoulder and sliding it across their neck using a scooping motion rather than a direct cross. You can also push their head down with the bicep-side foot while the other leg crosses."
+      },
+      {
+        "question": "What are the three conditions that must exist simultaneously before committing to the hip pivot for this armbar setup?",
+        "answer": "Three conditions must align: first, the target arm must be extended and pulled across your centerline, separated from the opponent's defensive structure through your sleeve pull and bicep foot control. Second, the opponent's posture must be broken or compromised, preventing them from standing up or posturing through the rotation. Third, your hips must be elevated and loaded for rotation with your non-target foot firmly planted on their hip to provide the push-off force. Initiating without all three creates easily defended attempts."
+      }
+    ],
+    "safety_considerations": "The armbar targets the elbow joint and can cause serious ligament damage including medial collateral ligament tears and hyperextension injuries. During drilling, apply the pivot and arm isolation slowly, focusing on positional control rather than submission pressure. Never use explosive force on the arm during practice. Allow training partners adequate time to recognize the position and tap. When working the hip pivot at speed, ensure your leg crosses safely over the partner's head without striking their face. Release all pressure immediately upon any tap signal, whether verbal or physical. In competition, apply finishing pressure gradually to give opponents time to submit safely."
+  },
+  "defender": {
+    "name": "Armbar Setup from Double Sleeve Defender",
+    "description": "Defend against the armbar setup from double sleeve guard. Recognition cues, defensive timing, grip breaking strategies, and escape techniques for neutralizing guard-based armbar entries.",
+    "overview": "The defender against the armbar setup from double sleeve guard is the top player who must recognize and neutralize the bottom player's attempt to isolate an arm and rotate into armbar control. Defense begins well before the actual pivot - the most effective defense is preventing the conditions necessary for the attack. The defender must maintain strong posture, prevent bilateral sleeve grips from establishing the pulling angles needed for arm isolation, and recognize the telltale foot-on-bicep placement that signals an imminent armbar attempt. When caught in the rotation, the defender must immediately address the most critical elements: retract the targeted arm, prevent the leg from sealing over the head, and drive forward to stack or create the angle needed to extract from the attacking position.",
+    "key_principles": [
+      "Posture maintenance is the primary defense - strong upright posture prevents the postural breakdown that enables the armbar setup",
+      "Address sleeve grips early and continuously - bilateral sleeve control is the prerequisite for all armbar entries from this guard",
+      "Recognize the foot-on-bicep placement as the primary warning signal that an armbar attempt is imminent",
+      "Retract the targeted arm immediately when you feel the diagonal pull across the opponent's centerline",
+      "Drive forward and stack when caught in the rotation to compromise the attacker's finishing angle",
+      "Never allow both arms to be pulled forward simultaneously - keep at least one elbow tight to your body at all times",
+      "Create lateral angles to diminish the effectiveness of the bottom player's push-pull mechanics"
+    ],
+    "recognition_cues": [
+      "Opponent places one foot on your bicep while maintaining the other foot on your hip, creating an asymmetric frame indicating arm isolation is being established",
+      "One of your sleeves is being pulled diagonally across the opponent's body toward their opposite hip rather than straight down",
+      "Opponent's hips begin elevating off the mat and rotating, with their body angling perpendicular to your torso",
+      "You feel increased pulling tension on one sleeve while the opposite foot pushes harder on your hip or bicep",
+      "Opponent's leg on the bicep side begins sweeping upward in an arc toward your head"
+    ],
+    "defensive_options": [
+      {
+        "action": "Posture up and retract the targeted arm to your chest by driving your elbow back and down",
+        "when_to_use": "At the first sign of arm isolation when the opponent begins pulling your sleeve diagonally across their body",
+        "targets_outcome": "Double Sleeve Guard/Bottom",
+        "if_successful": "The armbar setup is neutralized and you maintain top position in the opponent's double sleeve guard, ready to continue passing",
+        "risk": "If timed too late, the opponent may have enough control to complete the rotation despite your retraction attempt"
+      },
+      {
+        "action": "Strip the sleeve grips using two-on-one grip breaks combined with hip rotation to free your arms",
+        "when_to_use": "Before the opponent can establish the foot-on-bicep position that enables the armbar setup",
+        "targets_outcome": "Open Guard/Top",
+        "if_successful": "Breaking both grips removes all offensive capability from the double sleeve guard, allowing you to initiate passing sequences",
+        "risk": "Aggressive grip breaking can compromise your own posture if the opponent redirects your momentum"
+      },
+      {
+        "action": "Drive forward and stack the opponent by walking your feet toward their head and applying chest pressure",
+        "when_to_use": "When the opponent has already begun the hip pivot and is mid-rotation into the armbar position",
+        "targets_outcome": "Double Sleeve Guard/Bottom",
+        "if_successful": "Stacking compresses the opponent's body, removing the hip space needed for the armbar finish and collapsing them back to flat guard position",
+        "risk": "Forward pressure can feed into a triangle setup if the opponent transitions their attack during the stacking motion"
+      },
+      {
+        "action": "Circle laterally away from the foot-on-bicep side to remove the rotational angle",
+        "when_to_use": "When the opponent has placed their foot on your bicep but has not yet initiated the hip pivot",
+        "targets_outcome": "Open Guard/Top",
+        "if_successful": "Lateral movement removes the angle needed for the rotation and can dislodge the foot from your bicep, breaking the setup entirely",
+        "risk": "Circling too aggressively may expose you to sweeps from the opposite direction if the opponent maintains sleeve control"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Open Guard/Top",
+        "how": "Strip both sleeve grips using systematic grip breaking while maintaining strong posture, then step back to disengage from the guard and reset to a more favorable passing position. Use the momentum of your grip breaks to initiate a passing sequence before the opponent can re-establish controls."
+      },
+      {
+        "outcome": "Double Sleeve Guard/Bottom",
+        "how": "Maintain strong posture and retract the targeted arm at the first sign of arm isolation. Keep your elbows tight to your body and resist the diagonal pull. If the opponent commits to the pivot, drive forward to stack and return to top position within their guard, resetting the engagement with positional advantage."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Reaching forward with both arms extended while the opponent has sleeve control",
+        "consequence": "Both arms are isolated from your torso, making it easy for the opponent to select either arm for the armbar setup with no defensive frame available",
+        "correction": "Keep at least one elbow tight to your hip at all times. Use circular grip-breaking motions close to your body rather than reaching forward to fight the sleeves"
+      },
+      {
+        "error": "Ignoring the foot-on-bicep placement and continuing to engage in grip fighting",
+        "consequence": "The foot on your bicep is the critical setup element - once established, the opponent has the angle and control needed to initiate the pivot at any moment",
+        "correction": "Immediately address the foot on your bicep by pushing it off with your free hand, stepping back to create slack, or circling to remove the angle before continuing any other action"
+      },
+      {
+        "error": "Attempting to pull straight back against the sleeve grips using arm strength alone",
+        "consequence": "Linear pulling against a skilled guard player's grip is energy-inefficient and rarely breaks the grip, while potentially extending your arm further into the danger zone",
+        "correction": "Use rotational grip breaks by turning your wrist toward the opponent's thumb, combined with hip rotation and stepping movements to generate leverage rather than linear force"
+      },
+      {
+        "error": "Freezing in position when the rotation begins instead of immediately responding",
+        "consequence": "A completed rotation results in armbar control, where escape becomes significantly more difficult and energy-intensive than preventing the setup in the first place",
+        "correction": "React immediately to any hip rotation by either retracting the targeted arm, stacking forward, or circling laterally. Any response is better than no response during the critical pivot window"
+      },
+      {
+        "error": "Dropping head and posture forward while attempting to stack against the rotation",
+        "consequence": "Forward head drop creates vulnerability to triangle transitions, as the opponent can redirect the incoming leg from armbar to triangle position around your neck",
+        "correction": "When stacking, keep your head up and chest forward rather than leading with your forehead. Drive the stack through your hips and legs, not by diving forward with your upper body"
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "You feel your right sleeve being pulled diagonally across the opponent's body - what is your first defensive action?",
+        "answer": "Immediately retract your right elbow sharply toward your right hip while rotating your wrist toward the opponent's thumb to weaken their grip. Simultaneously step your right foot back to create distance that makes the diagonal pull less effective. Do not pull straight back - use a circular motion combining elbow retraction with wrist rotation. If possible, simultaneously push down on the opponent's knee or hip with your left hand to compromise their guard structure."
+      },
+      {
+        "question": "What are the earliest recognition cues that an armbar setup is being attempted from double sleeve guard?",
+        "answer": "The earliest cue is foot placement change: the opponent moves one foot from your hip to your bicep on the arm they intend to attack. This asymmetric foot positioning is the essential prerequisite for the armbar rotation and should trigger an immediate defensive response. Secondary cues include increased diagonal pulling tension on one sleeve, the opponent's hips beginning to elevate or shift laterally, and their body angling away from square alignment toward perpendicular positioning."
+      },
+      {
+        "question": "Your opponent has pivoted their hips and their leg is swinging toward your head - what is your best response at this late stage?",
+        "answer": "At this late stage, immediately drive forward with your hips to stack the opponent, walking your feet toward their head. Simultaneously tuck the targeted elbow tight to your ribs and clasp your hands together if possible to prevent arm extension. Use your free hand to push against the incoming leg to prevent it from sealing over your head. If the leg does cross, immediately posture your head up and to the side while continuing the stacking pressure to prevent the finish."
+      },
+      {
+        "question": "Why is maintaining upright posture the primary defense against all armbar setups from double sleeve guard?",
+        "answer": "Strong upright posture prevents the postural breakdown that is an absolute prerequisite for the armbar setup. When your spine is aligned and your head is above your hips, the opponent cannot generate the push-pull forces needed to isolate your arm and create the rotational angle for the pivot. Additionally, upright posture keeps your elbows naturally closer to your body, making arm isolation significantly more difficult. Breaking posture is the first step in every armbar setup chain from this guard."
+      },
+      {
+        "question": "You are being pulled forward while the opponent's foot pushes your bicep outward - how do you reset to a safe position?",
+        "answer": "First, widen your base by stepping your feet apart to resist the forward pull. Post your free hand on the mat behind the opponent's hip to create a structural frame that prevents further postural collapse. Then address the foot on your bicep by swimming your elbow under it or pushing it off with your free hand while simultaneously stepping back with the foot on the same side as the attacked arm. This combination of base widening, hand posting, and foot removal disrupts all three elements of the opponent's setup simultaneously."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Recognition",
+        "focus": "Identifying armbar setup cues from double sleeve",
+        "description": "Partner performs the armbar setup at 50% speed while you call out each recognition cue as it appears: foot-on-bicep placement, diagonal sleeve pull, hip elevation, and leg swing. No defensive action required - focus entirely on developing visual and tactile pattern recognition for each stage of the attack."
+      },
+      {
+        "phase": "Phase 2: Early Prevention",
+        "focus": "Posture maintenance and grip breaking fundamentals",
+        "description": "Practice maintaining upright posture while partner attempts to establish double sleeve grips and foot-on-bicep position. Focus on grip breaking before the partner can establish the full setup. Partner provides progressive resistance from 30% to 70%. Success is measured by preventing the foot-on-bicep placement."
+      },
+      {
+        "phase": "Phase 3: Mid-Attack Defense",
+        "focus": "Stacking, arm retraction, and lateral escape under pressure",
+        "description": "Partner initiates the armbar setup at 70% speed and intensity. Practice specific defensive responses: arm retraction, stacking forward, and lateral circling. Each round focuses on one defensive option until it becomes reflexive, then combine options based on the partner's specific attack angle and timing."
+      },
+      {
+        "phase": "Phase 4: Live Defense",
+        "focus": "Full-speed defensive application against resisting opponents",
+        "description": "Positional sparring starting from double sleeve guard with the bottom player actively hunting the armbar setup. Defender practices the full defensive sequence at competition speed against full resistance. Track which defensive options work best against different setup variations and develop personal defensive timing."
+      }
+    ]
+  }
+}

@@ -1,0 +1,408 @@
+{
+  "name": "Kneebar from Grasshopper",
+  "description": "Master Kneebar from Grasshopper Guard. Complete execution guide with inverted entry mechanics, defensive counters, and chain attack options.",
+  "tags": [
+    "bjj",
+    "transition",
+    "leg-lock",
+    "kneebar",
+    "inverted",
+    "grasshopper-guard",
+    "advanced",
+    "no-gi"
+  ],
+  "from_position": "Grasshopper Guard/Bottom",
+  "outcomes": [
+    {
+      "to": "Kneebar Control/Top",
+      "probability": 55,
+      "result": "success"
+    },
+    {
+      "to": "Grasshopper Guard/Bottom",
+      "probability": 30,
+      "result": "failure"
+    },
+    {
+      "to": "Side Control/Bottom",
+      "probability": 15,
+      "result": "counter"
+    }
+  ],
+  "success_rate": 55,
+  "overview": "The Kneebar from Grasshopper Guard represents one of the highest-percentage leg attack entries available from inverted guard configurations. The grasshopper position provides unique access to the opponent's lead leg that standing passers rarely anticipate. By inverting and positioning your hips beneath their leg, you create immediate hyperextension threat on the knee joint before they can establish passing grips or pressure.\n\nThis technique exploits the fundamental vulnerability of standing guard passers: their weight distribution and base require at least one leg to remain relatively stationary. When you invert into grasshopper, that stationary leg becomes your primary target. The entry involves threading your legs around their knee while your hips rotate to position the back of their knee directly against your hip crease - the optimal fulcrum point for kneebar mechanics.\n\nFrom a systematic perspective, the Kneebar from Grasshopper functions as both a submission threat and a sweep setup. Even if the opponent defends the kneebar by straightening their leg or stepping back, your position often converts directly into X-Guard or Single Leg X entries. This chain-attack potential makes the technique valuable beyond just the submission itself - it forces defensive reactions that open other attacking pathways.\n\nThe inverted nature of this entry makes it particularly effective in no-gi competition where the absence of gi grips means the top player cannot easily control your inverting motion. The technique gained prominence through modern leg lock systems that emphasize attacking from bottom positions against standing opponents, reversing traditional assumptions about who holds positional advantage.",
+  "conditions": [
+    "Attacker has established grasshopper guard with hips elevated and shoulders on mat",
+    "Opponent is in a standing or combat base position within leg range",
+    "Target leg is weight-bearing and relatively stationary",
+    "Attacker has sufficient core engagement and flexibility for explosive hip rotation",
+    "Competition ruleset permits kneebar attacks at current belt level"
+  ],
+  "related_content": [
+    {
+      "name": "Grasshopper Guard",
+      "relationship": "Starting position - the inverted guard from which this attack is launched"
+    },
+    {
+      "name": "Kneebar Control",
+      "relationship": "Destination position when entry succeeds - consolidation before finish"
+    },
+    {
+      "name": "Inside Ashi-Garami",
+      "relationship": "Alternative entry when opponent turns to defend kneebar"
+    },
+    {
+      "name": "Single Leg X-Guard",
+      "relationship": "Transition option when opponent retreats from kneebar threat"
+    },
+    {
+      "name": "X-Guard",
+      "relationship": "Sweep option when kneebar entry is denied but leg contact maintained"
+    },
+    {
+      "name": "Calf Slicer",
+      "relationship": "Follow-up submission when opponent straightens leg to defend"
+    },
+    {
+      "name": "Inverted Guard",
+      "relationship": "Parent guard category that grasshopper belongs to"
+    },
+    {
+      "name": "Kneebar Finish",
+      "relationship": "Completion technique from Kneebar Control position"
+    },
+    {
+      "name": "Grasshopper Sweep",
+      "relationship": "Alternative offensive option from the same starting position"
+    },
+    {
+      "name": "50-50 Guard",
+      "relationship": "Potential entanglement when both players engage legs simultaneously"
+    }
+  ],
+  "attacker": {
+    "name": "Kneebar from Grasshopper Attacker",
+    "description": "How to execute Kneebar from Grasshopper in BJJ. Attacking perspective with setup, execution steps, and counters.",
+    "overview": "The Kneebar from Grasshopper Guard represents one of the highest-percentage leg attack entries available from inverted guard configurations. The grasshopper position provides unique access to the opponent's lead leg that standing passers rarely anticipate. By inverting and positioning your hips beneath their leg, you create immediate hyperextension threat on the knee joint before they can establish passing grips or pressure.\n\nThis technique exploits the fundamental vulnerability of standing guard passers: their weight distribution and base require at least one leg to remain relatively stationary. When you invert into grasshopper, that stationary leg becomes your primary target. The entry involves threading your legs around their knee while your hips rotate to position the back of their knee directly against your hip crease - the optimal fulcrum point for kneebar mechanics.\n\nFrom a systematic perspective, the Kneebar from Grasshopper functions as both a submission threat and a sweep setup. Even if the opponent defends the kneebar by straightening their leg or stepping back, your position often converts directly into X-Guard or Single Leg X entries. This chain-attack potential makes the technique valuable beyond just the submission itself - it forces defensive reactions that open other attacking pathways.\n\nThe inverted nature of this entry makes it particularly effective in no-gi competition where the absence of gi grips means the top player cannot easily control your inverting motion. The technique gained prominence through modern leg lock systems that emphasize attacking from bottom positions against standing opponents, reversing traditional assumptions about who holds positional advantage.",
+    "key_principles": [
+      "Hip positioning beneath opponent's knee creates the fulcrum for hyperextension - your hip crease contacts the back of their knee",
+      "Control the heel and ankle first before attempting to extend - grip security determines finishing success",
+      "The inversion must be committed and explosive - half-measures allow opponent to step away or sprawl",
+      "Pinch your knees together to prevent them from pulling their leg free during the finish",
+      "Your body alignment should place their leg along your centerline for maximum leverage",
+      "Shoulder positioning on the mat must remain stable throughout - rolling off your shoulders compromises the attack",
+      "Timing the entry when opponent commits weight forward dramatically increases success rate"
+    ],
+    "setup_requirements": [
+      "Established grasshopper guard with hips elevated and shoulders on mat providing stable base",
+      "Opponent in standing position with at least one leg within range for leg threading",
+      "Clear targeting of lead leg - identify which leg bears their weight and will remain stationary",
+      "Your outside leg positioned to hook behind their knee or thread between their legs",
+      "Core engagement sufficient to explosively rotate hips during entry phase",
+      "Visual confirmation of their base width and weight distribution before committing"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Identify target leg",
+        "description": "From grasshopper guard with hips elevated, identify which of opponent's legs is weight-bearing and will remain stationary. This is typically their lead leg when they're preparing to pass or engage. Your attack will be directed at this leg specifically."
+      },
+      {
+        "step_number": 2,
+        "action": "Thread outside leg",
+        "description": "Shoot your outside leg (the leg furthest from their target leg) behind their knee, hooking the back of their leg with your calf or ankle. This threading motion initiates your entry and prevents them from simply stepping away from your attack."
+      },
+      {
+        "step_number": 3,
+        "action": "Hip rotation entry",
+        "description": "Explosively rotate your hips so that your hip crease positions directly behind their knee joint. Your body should turn perpendicular to their leg, with your belly facing toward their hip. This rotation is the critical moment - it must be fast and committed."
+      },
+      {
+        "step_number": 4,
+        "action": "Secure heel control",
+        "description": "As your hips rotate into position, your hands grip their heel and ankle, pulling their foot tight to your chest. Use a figure-four grip or clasped hands around the heel. Without heel control, they will extract their leg before you can finish."
+      },
+      {
+        "step_number": 5,
+        "action": "Pinch knees together",
+        "description": "Squeeze your knees together around their thigh to prevent leg extraction and to keep their knee joint aligned with your hip crease. The thigh should be trapped between your legs with their knee positioned at your hip bone level."
+      },
+      {
+        "step_number": 6,
+        "action": "Bridge hips for extension",
+        "description": "With heel secured and knees pinched, bridge your hips upward while pulling their foot toward your chest. The extension pressure comes from your hip driving against the back of their knee. Apply pressure gradually, allowing time for tap."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Step back and disengage before entry completes",
+        "effectiveness": "High",
+        "your_response": "Follow with rolling motion to maintain leg contact, or convert to Single Leg X or X-Guard entry as they retreat",
+        "targets_outcome": "Grasshopper Guard/Bottom"
+      },
+      {
+        "counter": "Straighten leg and pull foot toward their hips to prevent heel control",
+        "effectiveness": "Medium",
+        "your_response": "Maintain hip pressure and transition to calf slicer if they straighten, or adjust angle to recapture heel control",
+        "targets_outcome": "Grasshopper Guard/Bottom"
+      },
+      {
+        "counter": "Sprawl heavily to flatten your grasshopper position",
+        "effectiveness": "Medium",
+        "your_response": "If you sense the sprawl coming, abort entry and Granby roll to guard recovery before being flattened",
+        "targets_outcome": "Side Control/Bottom"
+      },
+      {
+        "counter": "Turn toward you and drive knee to mat to kill the angle",
+        "effectiveness": "Medium",
+        "your_response": "Use their turn to transition to inside ashi garami on the same leg - their rotation often exposes better entanglement",
+        "targets_outcome": "Grasshopper Guard/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Insufficient hip rotation during entry, leaving hips facing wrong direction",
+        "consequence": "The kneebar fulcrum never forms correctly and opponent easily extracts leg or passes to side control",
+        "correction": "Commit fully to hip rotation so your belly faces their hip - the rotation must be explosive and complete, not tentative"
+      },
+      {
+        "error": "Attempting entry when opponent's weight is on their back leg",
+        "consequence": "Target leg has no weight commitment and they simply step away from your threading attempt",
+        "correction": "Wait for forward weight shift or movement that commits their lead leg before initiating the entry"
+      },
+      {
+        "error": "Failing to secure heel control before attempting extension",
+        "consequence": "Opponent pulls their foot free and escapes, often passing to side control in the process",
+        "correction": "Prioritize heel grip security above all else - no extension attempt until heel is locked to your chest"
+      },
+      {
+        "error": "Knees spread apart during finish, allowing thigh to slip free",
+        "consequence": "Opponent extracts leg between your legs, nullifying the submission and leaving you in poor position",
+        "correction": "Actively squeeze knees together throughout the technique - think of trapping their thigh like a vice"
+      },
+      {
+        "error": "Rolling off shoulder base during entry, losing stability",
+        "consequence": "Loss of position control makes it impossible to generate proper extension leverage",
+        "correction": "Keep shoulder blades connected to mat throughout - rotate around your shoulder base rather than rolling off it"
+      },
+      {
+        "error": "Rushing the extension before position is properly consolidated",
+        "consequence": "Opponent escapes partially secured position, or you cause injury by cranking on unstable joint alignment",
+        "correction": "Methodically confirm heel control and knee pinch before any extension - rushing causes both failures and injuries"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Week 1-2",
+        "focus": "Entry mechanics",
+        "description": "Practice the hip rotation and leg threading motion with a cooperative partner standing stationary. Focus on achieving correct body positioning with hip crease behind knee. No resistance, no finishing - purely positional drilling."
+      },
+      {
+        "phase": "Week 3-4",
+        "focus": "Grip security and timing",
+        "description": "Add heel control sequence to entry drill. Partner provides light resistance by attempting to pull foot free. Work on timing entries to partner's weight shifts. Introduction of correct extension mechanics with controlled pressure."
+      },
+      {
+        "phase": "Week 5-6",
+        "focus": "Counter chains and combinations",
+        "description": "Partner actively defends with step-back, leg straightening, and sprawling counters. Practice converting failed entries to X-Guard, Single Leg X, and inside ashi garami. Build chain attack mentality."
+      },
+      {
+        "phase": "Week 7+",
+        "focus": "Live application and integration",
+        "description": "Incorporate into live rolling from grasshopper guard. Work on recognizing entry windows against resisting opponents. Focus on timing, speed, and integrating technique into your overall leg attack system."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the optimal timing window for initiating the kneebar entry from grasshopper?",
+        "answer": "The optimal window is when the opponent commits their weight forward onto their lead leg, either when preparing to engage or initiating a pass. This forward weight commitment prevents them from stepping back to escape and ensures the target leg remains stationary during your entry. Attempting the entry when their weight is neutral or rearward allows them to simply retract the leg."
+      },
+      {
+        "question": "What conditions must exist before you can attempt this technique?",
+        "answer": "You need established grasshopper guard with hips elevated and shoulders stable on the mat. The opponent must be standing with at least one weight-bearing leg in range. You need to identify which leg is committed, have your outside leg positioned for threading, and have sufficient core engagement for explosive hip rotation. Attempting without these conditions dramatically reduces success probability."
+      },
+      {
+        "question": "What is the most critical mechanical detail during the hip rotation phase?",
+        "answer": "The rotation must position your hip crease directly behind their knee joint with your belly facing toward their hip. This creates the fulcrum necessary for hyperextension. The rotation must be both explosive and complete - partial rotation leaves your hips at a wrong angle where extension pressure goes sideways rather than directly against the knee joint, making the finish impossible."
+      },
+      {
+        "question": "What are the two most common reasons this technique fails at the entry phase?",
+        "answer": "The two most common entry failures are: first, attempting the entry when the opponent's weight is on their back leg so the target leg simply retracts away from your threading attempt; second, insufficient hip rotation that leaves the fulcrum misaligned, making it impossible to generate proper extension pressure even if you secure the leg. Both stem from rushing rather than confirming conditions."
+      },
+      {
+        "question": "What grip configuration should you use to control the heel and why?",
+        "answer": "Use a figure-four grip or clasped hands wrapped around the heel and Achilles tendon, pulling their foot tight against your chest near the armpit on the same side as the attacked leg. This configuration prevents them from rotating their foot free and provides the anchor point that your hip extension works against. Without heel control secured to your chest, any bridge pressure simply pushes their leg away."
+      },
+      {
+        "question": "Which direction should force be applied during the finishing extension?",
+        "answer": "Force is applied perpendicular to the long axis of their femur, driving your hips upward and forward against the back of their knee while simultaneously pulling their heel and ankle toward your chest. The combined vector creates hyperextension at the knee joint. The force comes primarily from hip bridge and back arch - not from arm pulling alone - making it a full-body mechanical advantage."
+      },
+      {
+        "question": "Your opponent straightens their leg and begins retracting their foot as you secure the entry - what is your best response?",
+        "answer": "When they straighten their leg to deny the kneebar, immediately transition to a calf slicer by threading your near leg behind their calf while maintaining hip pressure against their knee. The straight leg that defends the kneebar actually facilitates the calf slicer because the rigid leg structure becomes the lever for the compression lock. Alternatively, adjust your angle and re-pursue heel control if their foot remains within grip range."
+      },
+      {
+        "question": "Your opponent sprawls and drives forward as you begin the entry - how do you avoid being flattened?",
+        "answer": "If you sense the sprawl before full commitment, abort the kneebar entry and execute a Granby roll to recover guard before being flattened. If the sprawl catches you mid-entry, use their forward momentum to redirect into an X-Guard elevation sweep by shooting your legs into their hips and lifting. The key is reading the sprawl early - once fully flattened under their weight, recovery options are severely limited and you risk being passed to side control."
+      },
+      {
+        "question": "How does this technique create chain attack opportunities even when the kneebar itself is defended?",
+        "answer": "The kneebar threat forces the opponent into predictable defensive reactions that each open different follow-up attacks. Stepping back exposes them to rolling entries and Single Leg X transitions. Straightening the leg opens calf slicer. Turning to kill the angle exposes inside ashi garami. This chain-attack structure means the initial kneebar entry functions as a forcing move that creates offensive opportunities regardless of the specific defensive response chosen."
+      },
+      {
+        "question": "What is the role of knee pinching during the consolidation phase and what happens if you neglect it?",
+        "answer": "Knee pinching traps the opponent's thigh between your legs, preventing the most common escape method: pulling the leg straight out from between spread knees. Without active knee squeeze, even a secured heel grip is insufficient because the opponent can angle their thigh sideways and slide free. The knee pinch also maintains proper alignment of their knee joint with your hip crease, ensuring extension pressure goes through the correct vector."
+      }
+    ],
+    "safety_considerations": "The kneebar attacks the knee joint through hyperextension, which can cause serious ligament damage (ACL, PCL, MCL, LCL) if applied with excessive force or speed. Always apply extension pressure gradually, allowing training partners time to tap before significant pressure builds. Never crank or jerk the submission. In training, establish clear tap protocols and release immediately upon tap signal. Avoid this technique entirely if training partner has existing knee injuries. During drilling, practice positional elements without live extension pressure until both partners are comfortable with the mechanics. Competition application requires even greater control awareness due to adrenaline and resistance levels. Practitioners with hypermobile joints may not feel the submission until damage occurs - communicate clearly with flexible training partners about pressure levels."
+  },
+  "defender": {
+    "name": "Kneebar from Grasshopper Defender",
+    "description": "How to defend against Kneebar from Grasshopper in BJJ. Recognition cues, defensive options, and escape strategies.",
+    "overview": "Defending the Kneebar from Grasshopper requires understanding that you are the standing passer facing an inverted guard player who is targeting your lead leg for a hyperextension attack. The critical defensive window occurs during the opponent's entry phase - specifically during their hip rotation and leg threading sequence. Once they have fully consolidated the kneebar position with heel control and knees pinched, defensive options narrow dramatically and the risk of knee injury escalates.\n\nYour defensive priority hierarchy is clear: first, prevent the entry by recognizing the setup and denying the hip rotation; second, if entry occurs, prevent heel control by managing your foot position and leg alignment; third, if control is established, work to extract your leg before extension pressure builds. Each level of defensive failure requires increasingly urgent and athletic responses, making early recognition the most energy-efficient and safest approach.\n\nThe most dangerous moment is when you commit your weight forward onto your lead leg while the grasshopper player is positioned beneath you. This weight commitment is exactly what they are waiting for, as it pins your target leg in place for their threading motion. Maintaining awareness of your weight distribution and the bottom player's hip elevation gives you the information needed to step back or adjust before the entry develops. Experienced defenders treat any grasshopper guard engagement as a leg lock threat first, adjusting their base and stance accordingly before attempting to pass.",
+    "key_principles": [
+      "Early recognition beats late defense - identify the inversion and leg threading before hip rotation completes",
+      "Never commit full weight to your lead leg when opponent has grasshopper guard established beneath you",
+      "Keep your targeted leg mobile and ready to retract at all times when engaging inverted guards",
+      "If caught in entry, prioritize denying heel control above all else - without heel grip they cannot finish",
+      "Bend your knee aggressively to prevent the hyperextension angle when trapped in kneebar position",
+      "Use hip rotation toward the attacker to kill the extension angle rather than pulling straight away"
+    ],
+    "recognition_cues": [
+      "Opponent's hips begin elevating and rotating while their outside leg shoots toward the back of your knee - this threading motion is the first physical indicator of the kneebar entry",
+      "You feel a hook or contact behind your lead knee from the bottom player's calf or ankle while they are inverted - this leg contact is the anchor they use to initiate the full rotation",
+      "The bottom player's shoulders press into the mat as their hips rotate perpendicular to your leg - the perpendicular hip alignment signals they are positioning the fulcrum for the hyperextension",
+      "You notice the bottom player tracking your lead leg with their eyes and adjusting their inversion angle to align with your weight-bearing leg specifically"
+    ],
+    "defensive_options": [
+      {
+        "action": "Step back and disengage the targeted leg before the hip rotation completes",
+        "when_to_use": "At the earliest recognition of the entry - when you feel the initial leg threading or see the hip rotation beginning, before they have consolidated any control",
+        "targets_outcome": "Grasshopper Guard/Bottom",
+        "if_successful": "Attacker remains in grasshopper guard without leg control, allowing you to reset stance and re-engage from a safer distance or angle",
+        "risk": "If you step back too slowly, they can follow with a rolling entry and catch you in transition. Stepping back also concedes passing pressure and resets the engagement."
+      },
+      {
+        "action": "Sprawl and drive your hips forward to flatten their inverted position",
+        "when_to_use": "When the entry is mid-development and you still have base, but stepping back cleanly is no longer possible because they have partial leg contact",
+        "targets_outcome": "Side Control/Bottom",
+        "if_successful": "Their grasshopper guard collapses under your pressure and you advance directly to side control as their inversion fails and they end up flat on their back",
+        "risk": "If their entry is already well-developed, sprawling forward can actually drive your knee deeper into their control. Requires reading the timing correctly."
+      },
+      {
+        "action": "Turn toward the attacker and drive your knee to the mat to kill the hyperextension angle",
+        "when_to_use": "When the attacker has established partial control with leg threading but has not yet secured heel grip - this is the mid-phase defensive option",
+        "targets_outcome": "Grasshopper Guard/Bottom",
+        "if_successful": "Rotating your hip toward them collapses the kneebar angle and makes extension mechanically impossible, forcing them to abandon the attack or transition to a different leg entanglement",
+        "risk": "Turning toward them can expose you to inside ashi garami entries if they read your rotation and adjust their leg threading accordingly"
+      },
+      {
+        "action": "Bend your knee forcefully and pull your heel toward your buttock while fighting their grip on your ankle",
+        "when_to_use": "When the attacker has consolidated position with knees pinched and is beginning to pursue heel control - this is the late-phase emergency defense",
+        "targets_outcome": "Grasshopper Guard/Bottom",
+        "if_successful": "A deeply bent knee cannot be hyperextended regardless of their hip pressure, and active heel retraction prevents them from securing the grip needed to straighten your leg for the finish",
+        "risk": "Maintaining a bent knee is extremely energy-intensive against their pulling pressure, and if your knee straightens even momentarily they can lock in the extension before you can re-bend"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Grasshopper Guard/Bottom",
+        "how": "Deny the entry early by stepping back when you detect the threading motion, or turn your hip toward the attacker to collapse the kneebar angle. In both cases, maintaining awareness of your weight distribution and reacting before they secure heel control returns you to a neutral engagement where you can re-establish your passing approach."
+      },
+      {
+        "outcome": "Side Control/Bottom",
+        "how": "When you read the entry attempt early enough, drive forward with a sprawl to flatten their inverted position completely. Their commitment to the kneebar entry leaves them vulnerable to being driven flat, and your forward pressure converts directly into a guard pass to side control. This requires timing the sprawl before their hip rotation completes."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Pulling your leg straight backward away from the entanglement once they have partial control",
+        "consequence": "Pulling straight back often completes the kneebar entry for them by straightening your leg along their centerline, which is exactly the alignment they need for the hyperextension finish",
+        "correction": "Rotate your hip toward the attacker rather than pulling straight back - this kills the extension angle and makes the finish mechanically impossible even if they maintain some leg contact"
+      },
+      {
+        "error": "Ignoring the bottom player's hip elevation and continuing to pass as if they are in a standard open guard",
+        "consequence": "Walking into the kneebar entry by committing weight forward onto the exact leg they are targeting, with no awareness of the threat until the attack is nearly complete",
+        "correction": "Treat any grasshopper or inverted guard engagement as a leg lock threat first - adjust stance width, keep lead leg light, and monitor their hip position before committing to any passing action"
+      },
+      {
+        "error": "Panicking and jerking your leg explosively when you feel the entry developing",
+        "consequence": "Explosive jerking movements can cause your own knee injury if they have partial control, and the erratic motion often positions your leg worse than controlled movement would",
+        "correction": "Stay calm and methodically execute the appropriate defensive response - step back if early, turn hip if mid-phase, bend knee if late. Controlled movement is both safer and more effective than panic reactions."
+      },
+      {
+        "error": "Focusing entirely on removing your trapped leg while neglecting base and posture",
+        "consequence": "You fall forward or lose balance while fighting the leg grip, ending up in a worse position such as giving them a sweep or falling into a deeper entanglement",
+        "correction": "Maintain your base and posture throughout the defensive sequence - use your free leg and hands for balance while working the trapped leg free, never sacrificing your structural integrity for leg extraction"
+      },
+      {
+        "error": "Allowing your leg to straighten while they have heel control established",
+        "consequence": "A straight leg with heel control is a finished kneebar - once your leg extends with their hips against the back of your knee and their hands on your heel, the submission is effectively complete",
+        "correction": "Fight to maintain a deeply bent knee at all costs when they have heel control. Even partial heel grip combined with a straight leg creates dangerous extension pressure. Your bent knee is your last line of defense."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the earliest recognition cue that a kneebar from grasshopper is being initiated?",
+        "answer": "The earliest cue is the opponent's outside leg shooting toward the back of your knee in a threading motion while their hips begin to elevate and rotate. This threading is the anchor for their entire entry. Recognizing this leg movement before the hip rotation completes gives you the maximum defensive window to step back or adjust your stance before they can establish any meaningful control."
+      },
+      {
+        "question": "Why is pulling your leg straight backward a poor defensive choice once the attacker has partial control?",
+        "answer": "Pulling straight backward extends your leg along the attacker's centerline, which is precisely the alignment they need for the hyperextension finish. You are essentially straightening your own leg into their kneebar position. Instead, rotating your hip toward the attacker collapses the extension angle by bringing your knee offline from their hip crease, making the finish mechanically impossible even with partial leg contact maintained."
+      },
+      {
+        "question": "What is your last-resort defensive option when the attacker has consolidated the kneebar position with knees pinched?",
+        "answer": "The last-resort defense is aggressively bending your knee and pulling your heel toward your buttock while fighting their grip on your ankle. A deeply bent knee cannot be hyperextended regardless of how much hip pressure they apply. This is energy-intensive because you are fighting their pulling force and hip bridge simultaneously, but it prevents the finish and buys time to work the leg free or wait for a grip adjustment that creates an extraction opportunity."
+      },
+      {
+        "question": "How should your stance and weight distribution change when you recognize your opponent is playing grasshopper guard?",
+        "answer": "Widen your base slightly and keep your lead leg light rather than heavily weighted. Avoid committing full bodyweight forward onto either leg. Maintain enough distance that their inverted legs cannot immediately thread behind your knee without first closing the gap. Your posture should remain upright with hips back - bending at the waist brings you closer to their entanglement range and compromises your ability to step back quickly."
+      },
+      {
+        "question": "Your opponent begins rolling to follow your step-back - how do you prevent them from catching you during the pursuit?",
+        "answer": "When they roll to follow your retreat, circle laterally rather than continuing straight backward. Their rolling motion commits them to a linear path, and lateral movement forces them to reorient mid-roll, which breaks their momentum and leg connection. As you circle, look for an opportunity to drive forward onto their exposed back or side as their roll fails to track you, converting their offensive pursuit into your passing opportunity."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Week 1-2",
+        "focus": "Recognition and early exit",
+        "description": "Partner initiates kneebar entries at 25% speed from grasshopper guard. Practice identifying the threading motion and hip rotation cues, then executing the step-back disengage. No resistance on the exit - focus purely on developing the visual and tactile recognition of the entry phase."
+      },
+      {
+        "phase": "Week 3-4",
+        "focus": "Mid-phase defensive responses",
+        "description": "Partner initiates at 50% speed and is allowed partial entry before you defend. Practice the hip rotation defense (turning toward attacker) and the sprawl-forward counter. Partner holds position after establishing partial control so you can work the correct defensive response without time pressure."
+      },
+      {
+        "phase": "Week 5-6",
+        "focus": "Late-phase escape and knee bend defense",
+        "description": "Start from consolidated kneebar position where partner has knees pinched and is pursuing heel control. Practice maintaining bent knee, fighting heel grip, and extracting your leg through controlled movement. Partner applies progressive resistance up to 75% intensity."
+      },
+      {
+        "phase": "Week 7+",
+        "focus": "Live defensive sparring",
+        "description": "Partner plays grasshopper guard freely and attacks with kneebar entries at full speed and resistance. Practice the full defensive spectrum from early recognition through late-phase escape. Develop the ability to read which defensive option is appropriate based on how far the entry has progressed."
+      }
+    ]
+  },
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Rolling Kneebar Entry",
+      "description": "Instead of static entry from grasshopper, use a rolling motion to follow an opponent who steps back. The roll maintains leg contact and can catch opponents who think they've escaped the initial threat.",
+      "when_to_use": "When opponent begins stepping back to disengage from your grasshopper guard"
+    },
+    {
+      "variant_name": "Kneebar to Calf Slicer Transition",
+      "description": "When opponent defends by straightening their leg and denying heel control, transition immediately to calf slicer by threading your leg behind their calf while maintaining hip pressure on their knee.",
+      "when_to_use": "When opponent successfully straightens their leg to defend the standard kneebar finish"
+    },
+    {
+      "variant_name": "False Entry to Back Take",
+      "description": "Use the kneebar entry threat to force opponent to turn and defend, then abandon the leg attack and come up behind them for back take as they rotate away from the submission.",
+      "when_to_use": "Against opponents who over-commit to kneebar defense by turning their back"
+    }
+  ],
+  "position_integration": "The Kneebar from Grasshopper fits into the broader leg entanglement system as a primary attack from inverted guard configurations. It connects directly to the grasshopper guard attack tree, which includes kneebars, ankle locks, and transitions to X-Guard and Single Leg X for sweeps. When the kneebar is defended, the position naturally flows to inside ashi garami, outside ashi garami, or 50-50 depending on how the opponent counters. This makes it a forcing function that opens other attacks regardless of whether the kneebar itself succeeds. The technique pairs naturally with the Single Leg X Transition and Inside Ashi Entry from grasshopper, creating a comprehensive leg attack system from the inverted position. Advanced practitioners use the kneebar threat to set up sweeps, back takes, and other submissions by exploiting defensive reactions."
+}

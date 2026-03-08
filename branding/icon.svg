@@ -11,7 +11,8 @@
     
     <!-- Colors -->
     <style>
-      .connection { stroke: #404040; stroke-width: 1.5; opacity: 0.4; }
+      .connection { stroke: #404040; stroke-width: 1.5; opacity: 0.7; }
+      .connection-highlight { stroke: #e0e0e0; stroke-width: 1.8; opacity: 0.8; }
       .position { fill: #4CAF50; } /* Green - positions */
       .submission { fill: #E53935; } /* Red - submissions */
       .transition { fill: #42A5F5; } /* Blue - transitions */
@@ -23,47 +24,61 @@
   <!-- Background -->
   <rect width="200" height="200" fill="#1a1a1a" rx="20"/>
   
-  <!-- Connections (draw first so nodes appear on top) -->
+  <!-- 
+    Properly projected cube with rotation:
+    rot_y=40°, rot_x=30°, rot_z=15° (tumbling dice)
+    
+    Vertices (projected):
+      0: (48.1, 156.4)  - back-bottom-left
+      1: HIDDEN         - back-bottom-right (z=-1.72, deepest)
+      2: (87.1, 35.3)   - back-top-right
+      3: (28.0, 81.1)   - back-top-left
+      4: (112.9, 174.7) - front-bottom-left
+      5: (172.0, 128.9) - front-bottom-right
+      6: (151.9, 53.6)  - front-top-right
+      7: (92.8, 99.4)   - front-top-left (center)
+    
+    Visible faces: top (2,3,6,7), front (4,5,6,7), left (0,3,4,7)
+  -->
+  
+  <!-- Connections (visible cube edges) -->
   <g class="connections">
-    <!-- Central hub connections -->
-    <line x1="100" y1="100" x2="60" y2="50" class="connection"/>
-    <line x1="100" y1="100" x2="140" y2="50" class="connection"/>
-    <line x1="100" y1="100" x2="170" y2="80" class="connection"/>
-    <line x1="100" y1="100" x2="170" y2="140" class="connection"/>
-    <line x1="100" y1="100" x2="140" y2="170" class="connection"/>
-    <line x1="100" y1="100" x2="60" y2="170" class="connection"/>
-    <line x1="100" y1="100" x2="30" y2="140" class="connection"/>
-    <line x1="100" y1="100" x2="30" y2="80" class="connection"/>
+    <!-- Top face edges: 2-3, 3-7, 7-6, 6-2 -->
+    <line x1="87.1" y1="35.3" x2="28.0" y2="81.1" class="connection"/>
+    <line x1="28.0" y1="81.1" x2="92.8" y2="99.4" class="connection-highlight"/>
+    <line x1="92.8" y1="99.4" x2="151.9" y2="53.6" class="connection-highlight"/>
+    <line x1="151.9" y1="53.6" x2="87.1" y2="35.3" class="connection"/>
     
-    <!-- Outer connections -->
-    <line x1="60" y1="50" x2="140" y2="50" class="connection"/>
-    <line x1="140" y1="50" x2="170" y2="80" class="connection"/>
-    <line x1="170" y1="80" x2="170" y2="140" class="connection"/>
-    <line x1="170" y1="140" x2="140" y2="170" class="connection"/>
-    <line x1="140" y1="170" x2="60" y2="170" class="connection"/>
-    <line x1="60" y1="170" x2="30" y2="140" class="connection"/>
-    <line x1="30" y1="140" x2="30" y2="80" class="connection"/>
-    <line x1="30" y1="80" x2="60" y2="50" class="connection"/>
+    <!-- Front face edges: 4-5, 5-6, 6-7, 7-4 -->
+    <line x1="112.9" y1="174.7" x2="172.0" y2="128.9" class="connection"/>
+    <line x1="172.0" y1="128.9" x2="151.9" y2="53.6" class="connection"/>
+    <line x1="92.8" y1="99.4" x2="112.9" y2="174.7" class="connection-highlight"/>
     
-    <!-- Cross connections -->
-    <line x1="60" y1="50" x2="170" y2="140" class="connection"/>
-    <line x1="140" y1="50" x2="60" y2="170" class="connection"/>
-    <line x1="170" y1="80" x2="30" y2="140" class="connection"/>
+    <!-- Left face edges: 0-3, 3-7, 7-4, 4-0 -->
+    <line x1="48.1" y1="156.4" x2="28.0" y2="81.1" class="connection"/>
+    <line x1="112.9" y1="174.7" x2="48.1" y2="156.4" class="connection"/>
+    
+    <!-- X on top face (2-7, 3-6) -->
+    <line x1="87.1" y1="35.3" x2="92.8" y2="99.4" class="connection"/>
+    <line x1="28.0" y1="81.1" x2="151.9" y2="53.6" class="connection"/>
+    
+    <!-- X on front face (4-6, 5-7) -->
+    <line x1="112.9" y1="174.7" x2="151.9" y2="53.6" class="connection"/>
+    <line x1="172.0" y1="128.9" x2="92.8" y2="99.4" class="connection"/>
+    
+    <!-- X on left face (0-7, 3-4) -->
+    <line x1="48.1" y1="156.4" x2="92.8" y2="99.4" class="connection"/>
+    <line x1="28.0" y1="81.1" x2="112.9" y2="174.7" class="connection"/>
   </g>
   
-  <!-- Nodes -->
+  <!-- Nodes (7 visible vertices) -->
   <g class="nodes" filter="url(#glow)">
-    <!-- Center - Large position node (dominant concept) -->
-    <circle cx="100" cy="100" r="14" class="position"/>
-    
-    <!-- Ring of interconnected concepts -->
-    <circle cx="60" cy="50" r="9" class="system"/>
-    <circle cx="140" cy="50" r="9" class="submission"/>
-    <circle cx="170" cy="80" r="7" class="transition"/>
-    <circle cx="170" cy="140" r="9" class="submission"/>
-    <circle cx="140" cy="170" r="10" class="position"/>
-    <circle cx="60" cy="170" r="8" class="principle"/>
-    <circle cx="30" cy="140" r="10" class="position"/>
-    <circle cx="30" cy="80" r="7" class="transition"/>
+    <circle cx="87.1" cy="35.3" r="9" class="position"/>      <!-- 2: back-top-right - Green -->
+    <circle cx="28.0" cy="81.1" r="8" class="system"/>        <!-- 3: back-top-left - Purple -->
+    <circle cx="48.1" cy="156.4" r="7" class="transition"/>   <!-- 0: back-bottom-left - Blue -->
+    <circle cx="112.9" cy="174.7" r="9" class="submission"/>  <!-- 4: front-bottom-left - Red -->
+    <circle cx="172.0" cy="128.9" r="7" class="transition"/>  <!-- 5: front-bottom-right - Blue -->
+    <circle cx="151.9" cy="53.6" r="9" class="submission"/>   <!-- 6: front-top-right - Red -->
+    <circle cx="92.8" cy="99.4" r="10" class="position"/>     <!-- 7: front-top-left (center) - Green -->
   </g>
 </svg>

@@ -1,0 +1,372 @@
+{
+  "name": "IBJJF Strategy Guide",
+  "description": "Master IBJJF competition strategy for BJJ. Complete framework covering rules, scoring, positioning, and tactical decision-making for tournament success.",
+  "tags": [
+    "bjj",
+    "ibjjf",
+    "competition",
+    "tournament-strategy",
+    "scoring-system",
+    "points-management",
+    "rule-set"
+  ],
+  "system_type": "Competition Strategy",
+  "difficulty_level": "Intermediate",
+  "overview": "The IBJJF Strategy Guide provides a comprehensive framework for competing successfully under International Brazilian Jiu-Jitsu Federation rules. This system addresses the unique tactical considerations of IBJJF competition, including the points-based scoring system, advantage rules, penalty management, and time-based strategic decision-making. Unlike submission-only formats, IBJJF competition requires athletes to balance aggressive submission hunting with positional advancement and defensive positioning to maximize point accumulation while minimizing opponent scoring opportunities. This guide integrates technical knowledge with competition psychology, match pacing strategies, and rule-specific tactical adjustments. Understanding IBJJF strategy is essential for competitive success, as it transforms technical BJJ knowledge into competition-specific game plans that account for scoring hierarchies, position values, and time management throughout different phases of the match.",
+  "key_principles": [
+    "Position before submission - secure points through positional advancement before attacking submissions",
+    "Points accumulation hierarchy - understand relative value of sweeps (2), takedowns (2), guard passing (3), mount/back (4)",
+    "Advantage management - use advantages strategically when point opportunities are unavailable",
+    "Time-based tactical adjustments - modify strategy based on current score and remaining time",
+    "Defensive positioning awareness - avoid giving up high-value positions while maintaining offensive pressure",
+    "Rule-specific technique selection - choose techniques that align with IBJJF legal requirements for belt level",
+    "Match pacing control - dictate engagement pace to favor your game while managing energy expenditure"
+  ],
+  "key_components": [
+    {
+      "component_name": "Scoring System Mastery",
+      "description": "Deep understanding of IBJJF point values and scoring criteria is fundamental to competition success. Athletes must internalize the positional hierarchy: 2 points for takedowns, sweeps, and knee on belly; 3 points for guard passing; 4 points for mount and back control. Critical is understanding the 3-second stabilization rule - positions must be controlled for three seconds before points are awarded. This creates specific tactical opportunities around securing positions just long enough to score while immediately transitioning to prevent opponent counters.",
+      "purpose": "Maximize point accumulation through strategic position selection and timing"
+    },
+    {
+      "component_name": "Advantage System Exploitation",
+      "description": "The advantage system rewards near-completion of techniques when full points aren't achieved. Understanding how to generate advantages through submission attempts, near-sweeps, and near-passes creates a secondary scoring pathway. Strategic submission attempts that force defensive reactions can accumulate advantages without risking position, particularly effective when ahead on points. Advantages become match-decisive in tied situations, making them critical tactical tools for conservative leads or comeback attempts when behind on points.",
+      "purpose": "Create tiebreaker advantages and demonstrate technical aggression without positional risk"
+    },
+    {
+      "component_name": "Positional Hierarchy Navigation",
+      "description": "IBJJF competition rewards systematic positional advancement through increasingly valuable positions. The strategic pathway typically flows from guard/standing through guard passing (3 points) to side control, then to mount or back control (4 additional points). Each transition represents a scoring opportunity and creates cumulative point leads. Understanding this hierarchy allows athletes to chain positions together, scoring multiple times in single sequences. Defensive awareness of this hierarchy is equally critical - preventing opponent advancement through the same pathway limits their scoring potential.",
+      "purpose": "Chain high-value positions together for maximum point accumulation"
+    },
+    {
+      "component_name": "Time Management Strategy",
+      "description": "Match duration varies by belt level and age division, requiring time-specific tactical adjustments. Early match strategy emphasizes establishing grips, testing opponent reactions, and securing initial scoring positions. Mid-match focuses on building point leads through positional chains or mounting comeback attempts if behind. Final minutes demand score-dependent tactics: protecting leads through defensive positioning and stalling management, or aggressive submission hunting and positional attacks when behind. Understanding time remaining versus current score differential determines optimal risk tolerance and technique selection throughout the match.",
+      "purpose": "Adjust tactical approach based on score differential and time remaining"
+    },
+    {
+      "component_name": "Penalty Avoidance Protocol",
+      "description": "IBJJF penalty system includes verbal warnings, penalties for stalling, and disqualifications for illegal techniques. Strategic stalling management is critical - maintaining enough activity to avoid penalties while controlling match pace. Understanding referee interpretation of engagement, particularly in 50-50 positions and guard situations, prevents penalty accumulation. Penalties can decide close matches, making disciplined tactical execution and rule compliance essential. Knowledge of legal versus illegal techniques by belt level prevents disqualification and tactical errors.",
+      "purpose": "Maintain tactical control while avoiding referee penalties and disqualifications"
+    }
+  ],
+  "implementation_sequence": [
+    {
+      "step_number": 1,
+      "phase": "Pre-Match Preparation",
+      "description": "Develop match-specific game plan based on weight class, belt level, and bracket position. Study IBJJF rule updates for current competition season. Visualize scoring sequences and defensive scenarios. Prepare primary game plan with two backup tactical approaches.",
+      "key_points": [
+        "Review current IBJJF rule book for belt level and age division",
+        "Identify 2-3 high-percentage scoring sequences in your game",
+        "Plan takedown or guard pull strategy based on strengths",
+        "Prepare counter-strategies for common opponent approaches",
+        "Mental rehearsal of scoring positions and transitions"
+      ]
+    },
+    {
+      "step_number": 2,
+      "phase": "Opening Exchange (0-2 minutes)",
+      "description": "Establish grips and test opponent's initial reactions. Execute planned takedown attempt or guard pull. Focus on winning the initial exchange to set tactical tone. Secure first scoring opportunity through prepared technique or opponent reaction.",
+      "key_points": [
+        "Commit to takedown or guard pull decision immediately",
+        "Establish dominant grips in standup or guard",
+        "Score first points to establish psychological advantage",
+        "Assess opponent's skill level and game plan",
+        "Avoid penalties for passivity or illegal techniques"
+      ]
+    },
+    {
+      "step_number": 3,
+      "phase": "Position Building (2-5 minutes)",
+      "description": "Chain positions together to build point lead. Focus on 3-second stabilization for each scoring position. Advance through positional hierarchy: guard pass (3) to mount/back (4 additional). Maintain offensive pressure while defending opponent's scoring attempts.",
+      "key_points": [
+        "Stabilize each position for full 3 seconds before advancing",
+        "Chain guard pass directly to mount or back when possible",
+        "Prevent opponent sweeps and guard retention",
+        "Generate submission threats to force defensive reactions",
+        "Accumulate advantages through near-completions"
+      ]
+    },
+    {
+      "step_number": 4,
+      "phase": "Mid-Match Adjustment (Variable timing)",
+      "description": "Assess current score differential and adjust tactics accordingly. If ahead, balance defensive positioning with enough offense to avoid stalling. If behind, increase submission attempts and positional aggression. Monitor time remaining and calculate required scoring to win or tie.",
+      "key_points": [
+        "Calculate point differential and required scoring",
+        "Adjust risk tolerance based on score and time",
+        "When ahead: maintain position and strategic activity",
+        "When behind: increase attack rate and position advancement",
+        "Monitor referee signals for stalling warnings"
+      ]
+    },
+    {
+      "step_number": 5,
+      "phase": "Final Phase Execution (Last 1-2 minutes)",
+      "description": "Execute score-dependent closing strategy. If ahead, secure defensive positions while maintaining activity to avoid stalling penalties. If behind, commit to high-risk submissions or position advancement. Track exact time remaining and referee position for strategic timing.",
+      "key_points": [
+        "When ahead by 2+: prioritize position retention",
+        "When tied or behind: maximize submission and scoring attempts",
+        "Avoid desperation moves that sacrifice position unnecessarily",
+        "Use last 30 seconds for final push or secure hold",
+        "Prepare for potential referee decision in tied situations"
+      ]
+    },
+    {
+      "step_number": 6,
+      "phase": "Post-Match Analysis",
+      "description": "Review match footage to identify tactical successes and errors. Analyze scoring opportunities missed and defensive breakdowns. Compare actual execution to pre-match game plan. Document lessons learned for future competition preparation.",
+      "key_points": [
+        "Review video for tactical decision quality",
+        "Identify technical errors versus strategic mistakes",
+        "Assess time management and pacing effectiveness",
+        "Note referee interpretation patterns for future matches",
+        "Update competition game plan based on performance data"
+      ]
+    }
+  ],
+  "common_obstacles": [
+    {
+      "obstacle": "Stalling penalties when protecting point lead",
+      "solution": "Maintain strategic activity through grip fighting, position adjustment, and controlled submission threats. Stay just active enough to avoid referee warnings while not taking unnecessary positional risks. Use 50-50 positions strategically but don't remain static. Create the appearance of offensive intent through constant micro-adjustments and grip changes."
+    },
+    {
+      "obstacle": "Losing point leads in final minute through defensive errors",
+      "solution": "Develop specific end-game defensive positions that limit opponent scoring while maintaining legal activity levels. Practice defending from winning positions against fresh, aggressive opponents. Focus on positions that naturally limit opponent's advancement options (headquarters, reverse De La Riva control, turtle with strong defensive structure). Drill scenarios where you must defend a lead for 60-90 seconds."
+    },
+    {
+      "obstacle": "Failing to score despite dominant position time",
+      "solution": "Study 3-second stabilization requirements precisely. Many athletes hold dominant positions but fail to score due to insufficient control duration or improper criteria fulfillment. Video review of scoring positions to understand referee perspective. Practice holding positions with clear stabilization markers: chest to chest for mount, hooks in and chest to back for back control, hips past legs for guard pass."
+    },
+    {
+      "obstacle": "Tactical confusion when behind on points with limited time",
+      "solution": "Develop pre-planned comeback sequences for common score deficits. Practice high-percentage submission chains that don't sacrifice position. Understand that behind 2 points requires one sweep/takedown, behind 3-4 requires guard pass, behind 6+ requires multiple positions. Train specific scenarios with time limits to develop automatic decision-making under pressure."
+    },
+    {
+      "obstacle": "Over-commitment to submissions resulting in position loss",
+      "solution": "Implement risk-assessment protocol before submission attempts. When ahead on points, only attack submissions from positions that allow easy defensive return (mounted triangle, back attacks with strong position retention). Practice bailing from submission attempts when opponent begins escaping to prevent sweep or reversal. Develop submission timing sense that accounts for current score and time remaining."
+    }
+  ],
+  "assessment_metrics": [
+    {
+      "metric_name": "Points Per Match Average",
+      "description": "Track average points scored across competition matches to measure offensive effectiveness and positional advancement skills",
+      "proficiency_indicators": [
+        "Beginner competitors: 2-4 points per match (single scoring sequence)",
+        "Intermediate competitors: 6-10 points per match (multiple positions chained)",
+        "Advanced competitors: 10+ points per match (dominant positional control with multiple scoring sequences)"
+      ]
+    },
+    {
+      "metric_name": "Position Retention Rate",
+      "description": "Percentage of scoring positions successfully held for 3+ seconds versus attempted positions, indicating stabilization skill quality",
+      "proficiency_indicators": [
+        "Developing: 50-60% of attempted positions score (frequent position loss before stabilization)",
+        "Competent: 70-80% of attempted positions score (reliable stabilization)",
+        "Elite: 85-95% of attempted positions score (exceptional control and awareness of scoring criteria)"
+      ]
+    },
+    {
+      "metric_name": "Advantage Generation Ratio",
+      "description": "Advantages earned versus advantages conceded per match, reflecting technical aggression and defensive competence",
+      "proficiency_indicators": [
+        "Neutral or negative ratio: tactical passivity or poor submission defense",
+        "2:1 positive ratio: good technical activity and defensive skills",
+        "4:1 or higher ratio: dominant technical aggression with strong defensive fundamentals"
+      ]
+    },
+    {
+      "metric_name": "Time-Based Tactical Adaptation",
+      "description": "Ability to modify strategy based on score and time remaining, measured through film review of final-minute decision quality",
+      "proficiency_indicators": [
+        "Inconsistent: makes same tactical choices regardless of score/time situation",
+        "Developing: adjusts intensity but not specific technique selection",
+        "Advanced: implements score-specific tactics with appropriate risk tolerance and time awareness"
+      ]
+    }
+  ],
+  "training_methodology": {
+    "drilling_approach": "IBJJF competition preparation requires scenario-based positional sparring with specific scoring constraints. Practice sessions should simulate competition conditions: timed rounds with point tracking, referee position awareness, and score-dependent tactical requirements. Drilling should emphasize 3-second stabilization for all scoring positions, not just achieving positions momentarily. Implement competition-specific restrictions (no reaping, heel hooks by belt level, etc.) during training to develop automatic rule compliance. Positional sparring from common competition scenarios (down by 2 with 90 seconds remaining, ahead by advantages only, tied with 30 seconds left) develops tactical decision-making under pressure. Film review with focus on scoring opportunities and tactical decisions provides critical feedback loop.",
+    "progression_path": [
+      {
+        "stage": "Foundational Phase (Months 1-3)",
+        "focus": "Master IBJJF scoring system, point values, and basic legal/illegal techniques for belt level. Develop reliable guard passing and sweep sequences that score consistently. Practice 3-second stabilization drills for all major positions.",
+        "timeframe": "3-6 months for novice competitors"
+      },
+      {
+        "stage": "Tactical Development Phase (Months 4-8)",
+        "focus": "Develop position chaining sequences that maximize point accumulation. Learn advantage system exploitation through submission attempts and near-scoring positions. Implement time-based tactical adjustments through scenario drilling.",
+        "timeframe": "4-6 months with consistent competition experience"
+      },
+      {
+        "stage": "Strategic Refinement Phase (Months 9-18)",
+        "focus": "Refine match-specific game planning based on opponent scouting. Develop advanced stalling management and referee awareness. Master defensive positioning that protects leads while avoiding penalties. Expand submission game from high-percentage positions only.",
+        "timeframe": "6-12 months of regular competition"
+      },
+      {
+        "stage": "Elite Competition Phase (18+ months)",
+        "focus": "Implement sophisticated bracket strategy and multi-match energy management. Develop psychological warfare and pace control tactics. Master referee relationship management and tactical rule exploitation within legal boundaries. Competition-specific conditioning for maximum performance under tournament format demands.",
+        "timeframe": "Ongoing development for elite competitors"
+      }
+    ],
+    "common_mistakes": [
+      "Over-prioritizing submissions from disadvantageous positions, sacrificing scoring potential",
+      "Failing to stabilize positions for full 3 seconds, losing earned points to premature transitions",
+      "Identical tactics regardless of score differential and time remaining",
+      "Excessive stalling when ahead, accumulating penalties that negate point advantages",
+      "Inadequate rule knowledge leading to illegal technique attempts and disqualification",
+      "Poor energy management across multiple matches in tournament format",
+      "Neglecting advantage accumulation in closely contested matches"
+    ]
+  },
+  "related_content": [
+    {
+      "name": "Competition Strategy",
+      "content_type": "System",
+      "relationship": "Parent system providing broader competition preparation framework beyond IBJJF-specific rules"
+    },
+    {
+      "name": "Competition Preparation System",
+      "content_type": "System",
+      "relationship": "Complementary system addressing training periodization and mental preparation for tournaments"
+    },
+    {
+      "name": "Competition Scoring Strategy",
+      "content_type": "System",
+      "relationship": "Related system focusing on universal scoring principles across rule sets"
+    },
+    {
+      "name": "Mount",
+      "content_type": "Position",
+      "relationship": "Highest-value position (4 points) critical for building IBJJF point leads"
+    },
+    {
+      "name": "Back Control",
+      "content_type": "Position",
+      "relationship": "Highest-value position (4 points) offering both points and high-percentage submissions"
+    },
+    {
+      "name": "Side Control",
+      "content_type": "Position",
+      "relationship": "Transitional control position following guard pass, gateway to mount and back"
+    },
+    {
+      "name": "Knee on Belly",
+      "content_type": "Position",
+      "relationship": "2-point scoring position useful for accumulating points and advantages"
+    },
+    {
+      "name": "Closed Guard",
+      "content_type": "Position",
+      "relationship": "Fundamental guard position requiring strategic opening and passing for 3 points"
+    },
+    {
+      "name": "Half Guard",
+      "content_type": "Position",
+      "relationship": "Common transitional position where sweeps and passes frequently occur"
+    },
+    {
+      "name": "De La Riva Guard",
+      "content_type": "Position",
+      "relationship": "Modern open guard position offering sweep opportunities for 2-point scoring"
+    },
+    {
+      "name": "X-Guard",
+      "content_type": "Position",
+      "relationship": "Sweeping guard position effective for 2-point scoring sequences"
+    },
+    {
+      "name": "Spider Guard",
+      "content_type": "Position",
+      "relationship": "Sleeve-control guard offering distance management and sweep options"
+    },
+    {
+      "name": "Turtle",
+      "content_type": "Position",
+      "relationship": "Defensive position that doesn't concede points but limits offensive options"
+    },
+    {
+      "name": "Pass to Side Control",
+      "content_type": "Transition",
+      "relationship": "3-point scoring transition fundamental to IBJJF competition success"
+    },
+    {
+      "name": "Toreando Pass",
+      "content_type": "Transition",
+      "relationship": "High-percentage guard pass effective for scoring under time pressure"
+    },
+    {
+      "name": "Knee Cut Pass",
+      "content_type": "Transition",
+      "relationship": "Reliable passing technique that establishes clear 3-second stabilization criteria"
+    },
+    {
+      "name": "Stack Pass",
+      "content_type": "Transition",
+      "relationship": "Pressure-based pass offering clear scoring criteria when stabilized"
+    },
+    {
+      "name": "Back Take",
+      "content_type": "Transition",
+      "relationship": "4-point scoring transition offering maximum point value in single movement"
+    },
+    {
+      "name": "Double Leg Entry",
+      "content_type": "Transition",
+      "relationship": "Wrestling-based takedown for 2-point opening exchanges"
+    },
+    {
+      "name": "Guard Pull",
+      "content_type": "Transition",
+      "relationship": "Strategic alternative to takedown exchange, avoiding scrambles while establishing guard"
+    },
+    {
+      "name": "Hip Escape to Guard",
+      "content_type": "Transition",
+      "relationship": "Fundamental defensive movement preventing opponent's 3-point guard passes"
+    },
+    {
+      "name": "Bridge and Roll",
+      "content_type": "Transition",
+      "relationship": "Mount escape preventing opponent's 4-point position retention"
+    },
+    {
+      "name": "Positional Hierarchy",
+      "content_type": "Principle",
+      "relationship": "Foundational principle underlying IBJJF point value assignments and strategic positioning"
+    },
+    {
+      "name": "Position-Over-Submission Approach",
+      "content_type": "Principle",
+      "relationship": "Core tactical principle for IBJJF competition where position secures points before submission attempts"
+    },
+    {
+      "name": "Match Strategy",
+      "content_type": "Principle",
+      "relationship": "Strategic principle for competition-specific tactical planning and execution"
+    },
+    {
+      "name": "Game Planning",
+      "content_type": "Principle",
+      "relationship": "Pre-match preparation principle essential for IBJJF tournament success"
+    },
+    {
+      "name": "Energy Management System",
+      "content_type": "Principle",
+      "relationship": "Critical principle for multi-match tournament performance and pacing"
+    },
+    {
+      "name": "Risk Assessment",
+      "content_type": "Principle",
+      "relationship": "Decision-making principle for score-based tactical adjustments during matches"
+    },
+    {
+      "name": "Guard Passing",
+      "content_type": "Principle",
+      "relationship": "Technical principles underlying 3-point scoring through guard passing"
+    },
+    {
+      "name": "Rear Naked Choke",
+      "content_type": "Submission",
+      "relationship": "Highest-percentage submission from back control (4-point position)"
+    }
+  ]
+}

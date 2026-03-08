@@ -1,0 +1,388 @@
+{
+  "name": "Knee Torque Sweep",
+  "description": "Master the Knee Torque Sweep from half guard bottom. Learn rotational knee mechanics to off-balance opponents and sweep to mount with step-by-step technique.",
+  "tags": [
+    "bjj",
+    "sweep",
+    "half guard",
+    "transition",
+    "knee torque",
+    "bottom game",
+    "positional advancement"
+  ],
+  "from_position": "Half Guard/Bottom",
+  "outcomes": [
+    {
+      "to": "Mount/Top",
+      "probability": 55,
+      "result": "success"
+    },
+    {
+      "to": "Half Guard/Bottom",
+      "probability": 30,
+      "result": "failure"
+    },
+    {
+      "to": "Side Control/Bottom",
+      "probability": 15,
+      "result": "counter"
+    }
+  ],
+  "success_rate": 55,
+  "overview": "The Knee Torque Sweep is a specialized half guard bottom technique that exploits the mechanical vulnerability created when the bottom player applies controlled rotational force to the opponent's trapped knee. This sweep operates on the biomechanical principle that inward knee torque collapses the top player's base on the trapped side, creating a structural deficit that can be exploited with coordinated upper body drive and hip bridge mechanics. The technique is particularly effective against opponents who commit heavy forward pressure from half guard top, as their weight distribution over the trapped leg amplifies the destabilizing effect of the knee rotation.\n\nThe sweep combines two simultaneous force vectors: rotational torque on the opponent's knee through a scissors-like leg action, and lateral driving force through the underhook combined with a directional hip bridge. When both vectors are applied simultaneously with proper timing, they create an irrecoverable off-balance that topples the opponent over the compromised knee, allowing the sweeper to follow directly into mount. The technique rewards precise mechanical understanding and timing over raw explosive strength, making it accessible to practitioners of varying body types while remaining effective at the highest competitive levels.\n\nAmong half guard bottom sweeps, the Knee Torque Sweep occupies a distinct tactical niche as a secondary attack that chains naturally with standard underhook sweeps. When the opponent defends traditional sweeps by widening their base or driving crossface pressure, the knee torque mechanism attacks a different structural axis. If the sweep itself is defended by posting, the posted arm becomes vulnerable to kimura entries. If defended by hip retreat, the created space enables deep half guard transitions or dogfight entries, making the sweep a valuable node in the half guard attacking network.",
+  "conditions": [
+    "Opponent's leg securely trapped in half guard entanglement at knee level or below",
+    "Bottom player has achieved side angle facing opponent rather than lying flat on back",
+    "Upper body connection established through underhook, collar grip, or frame on far shoulder",
+    "Opponent's weight committed forward or centered over the trapped leg rather than distributed to the free leg"
+  ],
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Lockdown Knee Torque",
+      "description": "Uses the lockdown leg entanglement to amplify rotational force on the opponent's knee. The figure-four configuration of the lockdown provides superior control of the trapped leg, allowing more powerful torque generation through the double-leg lever system.",
+      "when_to_use": "When opponent has heavy crossface pressure that prevents standard half guard underhook fighting, and you have already established the lockdown entanglement"
+    },
+    {
+      "variant_name": "Underhook-Amplified Knee Torque",
+      "description": "Combines an exceptionally deep underhook with the knee torque for maximum sweeping power. The underhook drives the opponent's shoulder past their centerline while the knee torque removes their base, creating a compound off-balance that is nearly impossible to resist.",
+      "when_to_use": "When you have already won the underhook battle and the opponent is fighting to recover their upper body position rather than defending their trapped leg"
+    },
+    {
+      "variant_name": "No-Gi Wrist Control Knee Torque",
+      "description": "Adapted for no-gi grappling where collar and sleeve grips are unavailable. Uses two-on-one wrist control on the near arm combined with overhook or collar tie to replace gi-dependent upper body control while applying identical lower body torque mechanics.",
+      "when_to_use": "In no-gi or submission grappling contexts where standard gi grips are not available and you need to control the opponent's posting ability through direct limb control"
+    }
+  ],
+  "position_integration": "The Knee Torque Sweep integrates into the half guard bottom system as a mid-range offensive option that complements traditional underhook sweeps and deep half entries. It functions as a chain attack when direct underhook sweeps are defended, creating a secondary sweep threat that forces the top player to defend multiple structural axes simultaneously. When the knee torque is defended, it opens pathways to kimura attacks on posted arms, deep half guard entries when the opponent retreats their hips, and dogfight transitions when the opponent attempts to re-establish base. The sweep connects directly to the mount control hierarchy, where successful execution provides immediate access to submission chains and positional advancement through high mount and technical mount variations. This integration makes it a high-value technique within systematic half guard offense.",
+  "related_content": [
+    {
+      "name": "Half Guard",
+      "relationship": "Source position where this sweep is initiated from bottom role"
+    },
+    {
+      "name": "Mount",
+      "relationship": "Primary target position achieved on successful sweep completion"
+    },
+    {
+      "name": "Side Control",
+      "relationship": "Counter outcome position when sweep attempt is exploited by top player to complete guard pass"
+    },
+    {
+      "name": "Deep Half Guard",
+      "relationship": "Alternative attack path when opponent defends knee torque by retreating hips"
+    },
+    {
+      "name": "Lockdown",
+      "relationship": "Related leg entanglement that can amplify knee torque mechanics through figure-four control"
+    },
+    {
+      "name": "Knee Shield Half Guard",
+      "relationship": "Complementary half guard variation used to create distance before transitioning to sweep setup"
+    },
+    {
+      "name": "Dogfight Position",
+      "relationship": "Alternative transition when opponent defends sweep by sprawling back and creating space"
+    },
+    {
+      "name": "Deep Half Entry from Half Guard",
+      "relationship": "Chain attack transition when knee torque sweep is defended through hip retreat"
+    },
+    {
+      "name": "Half Guard to X-Guard",
+      "relationship": "Alternative sweep pathway from half guard when knee torque mechanics are unavailable"
+    },
+    {
+      "name": "Dogfight Sweep",
+      "relationship": "Follow-up sweep option when knee torque defense creates dogfight scramble"
+    }
+  ],
+  "attacker": {
+    "name": "Knee Torque Sweep Attacker",
+    "description": "Complete guide to executing the Knee Torque Sweep from half guard bottom. Step-by-step mechanics for applying rotational knee pressure, timing the sweep, and finishing to mount.",
+    "overview": "The Knee Torque Sweep from half guard bottom uses rotational force applied to the opponent's trapped knee to compromise their base and create a sweeping opportunity to mount. As the attacker, your primary task is establishing proper leg positioning to generate torque while simultaneously controlling the opponent's upper body to prevent them from posting or basing out. The technique exploits the fact that the human knee joint has minimal resistance to medial rotational force under load, meaning even moderate torque can collapse the top player's base structure on the trapped side. Success depends on coordinating the knee torque with a well-timed underhook drive and hip bridge, creating compound forces that overwhelm the opponent's ability to maintain equilibrium. The technique rewards precise mechanical execution and timing over explosive strength, making it a reliable weapon against larger or stronger opponents who rely on pressure passing from half guard top.",
+    "key_principles": [
+      "Generate rotational force on the opponent's trapped knee using your legs as a lever system with inside leg hooking behind and outside leg driving against the front of the knee",
+      "Coordinate upper body driving force through the underhook with lower body torque application so both forces peak simultaneously for maximum sweeping power",
+      "Time the sweep when the opponent commits weight forward over the trapped leg, as their forward pressure amplifies the destabilizing effect of the knee rotation",
+      "Maintain tight chest-to-chest connection throughout the sweep to prevent the opponent from creating space to post or recover their base",
+      "Follow the sweep immediately and aggressively to establish mount control before the opponent can recompose their defensive structure",
+      "Use the threat of the knee torque to create offensive dilemmas that open alternative attacks when the sweep itself is defended"
+    ],
+    "setup_requirements": [
+      "Half guard entanglement established with opponent's leg securely trapped between your legs at or below knee level",
+      "Side angle achieved through hip escape so you are facing the opponent rather than lying flat on your back",
+      "Upper body control through underhook on the trapped leg side, collar grip, or frame on opponent's far shoulder",
+      "Opponent's weight committed forward or centered over the trapped leg rather than distributed posteriorly",
+      "Free leg positioned with foot on the mat to assist with bridging mechanics and provide directional force during the sweep"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Secure half guard entanglement",
+        "description": "Establish and reinforce the half guard by trapping the opponent's leg between your legs at the knee or below. Your inside leg hooks tightly around the back of their thigh while your outside leg reinforces from underneath, creating the lever structure required for torque application. Ensure the entanglement is tight with no slack that would allow premature extraction."
+      },
+      {
+        "step_number": 2,
+        "action": "Achieve side angle and underhook",
+        "description": "Hip escape to turn onto your side facing the opponent and fight for the underhook on the trapped leg side. Drive your hand deep under their armpit and grip their far lat or shoulder blade, pulling your body tight against theirs. This side angle is essential for generating rotational force and prevents the opponent from flattening you with crossface pressure or chest-to-chest weight."
+      },
+      {
+        "step_number": 3,
+        "action": "Reposition legs for torque generation",
+        "description": "Adjust your leg positioning to maximize rotational leverage on the opponent's trapped knee. Your inside leg hooks behind their knee joint while your outside leg positions against the front of their shin or knee cap, creating a scissors-like configuration. The two legs form opposing force vectors that will generate inward rotational torque when squeezed together in the next phase."
+      },
+      {
+        "step_number": 4,
+        "action": "Apply controlled rotational torque to the knee",
+        "description": "Squeeze your legs together in a controlled twisting motion to apply inward rotational force to the opponent's trapped knee. This medial torque compromises their base by forcing the knee to collapse inward, removing structural support on that side of their body. Apply the force gradually and with control to create the off-balance without risking injury to the knee ligaments."
+      },
+      {
+        "step_number": 5,
+        "action": "Bridge and drive with underhook simultaneously",
+        "description": "Simultaneously bridge your hips upward and drive laterally with your underhook while maintaining the knee torque. The combination of the upward hip bridge, lateral driving force from the underhook, and the rotational instability from the knee torque creates a compound off-balance that topples the opponent over their compromised base. The bridge direction should be angled toward the side of the torqued knee."
+      },
+      {
+        "step_number": 6,
+        "action": "Follow the sweep and climb to mount",
+        "description": "Follow the opponent as they fall by maintaining your underhook connection and driving your body over theirs. Do not release the half guard entanglement prematurely. Keep your legs controlling their leg throughout the rotation until you have cleared their body and are positioned to establish mount. Stay chest-to-chest during the transition to prevent them from inserting a knee shield or framing."
+      },
+      {
+        "step_number": 7,
+        "action": "Consolidate mount position",
+        "description": "Release the half guard entanglement and immediately establish mount by placing your knees on either side of the opponent's torso. Drive your hips down to establish heavy pressure, widen your base with toes and knees for stability, and begin working to consolidate mount control before the opponent can initiate escape sequences. Secure grapevines or post hands for balance depending on their immediate reaction."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Opponent posts their free hand wide on the mat to create a structural brace against the sweep direction",
+        "effectiveness": "High",
+        "your_response": "Transition immediately to attack the posted arm with a kimura grip, using the exposed posting arm as a new offensive target while maintaining half guard control for subsequent sweep attempts",
+        "targets_outcome": "Half Guard/Bottom"
+      },
+      {
+        "counter": "Opponent drives heavy crossface pressure to flatten your side angle and eliminate torque leverage",
+        "effectiveness": "Medium",
+        "your_response": "Frame on their crossface arm and hip escape to reestablish side angle, or transition to deep half guard where their committed forward pressure actually assists your entry underneath them",
+        "targets_outcome": "Half Guard/Bottom"
+      },
+      {
+        "counter": "Opponent extracts their trapped leg by sprawling hips back and swimming the knee free before full torque is applied",
+        "effectiveness": "High",
+        "your_response": "Immediately recover guard by inserting a knee shield or hip escaping to reestablish distance before they can consolidate a passing position past your legs",
+        "targets_outcome": "Side Control/Bottom"
+      },
+      {
+        "counter": "Opponent shifts weight entirely to the free leg and lifts the trapped knee to reduce torque effectiveness",
+        "effectiveness": "Medium",
+        "your_response": "Use the space created by their weight shift to come up to dogfight position using the underhook, or switch to a different sweep angle that exploits their unbalanced single-leg base",
+        "targets_outcome": "Half Guard/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Attempting the sweep while flat on your back without establishing side angle first",
+        "consequence": "Insufficient leverage to generate meaningful rotational force on the knee, resulting in a failed sweep that wastes energy and telegraphs your intentions",
+        "correction": "Always hip escape to establish side angle before attempting the knee torque. Your hips must be turned toward the opponent with shoulders off the mat to create the mechanical advantage needed for the torque application."
+      },
+      {
+        "error": "Applying knee torque without coordinating the underhook drive and hip bridge simultaneously",
+        "consequence": "Opponent easily posts their free hand to prevent being swept, as knee torque alone generates insufficient force to complete the sweep against a resisting top player",
+        "correction": "Synchronize all three force vectors: the knee torque, underhook lateral drive, and hip bridge must peak at the same moment. Practice the timing by drilling the full motion at slow speed before adding resistance."
+      },
+      {
+        "error": "Using excessive uncontrolled force on the knee joint rather than gradual rotational pressure",
+        "consequence": "Risk of injuring training partner's medial collateral ligament or meniscus, and potential disqualification in competition for dangerous technique application",
+        "correction": "Apply gradual, controlled rotational pressure sufficient to compromise their base without endangering the joint. The goal is structural off-balance, not joint destruction. Increase force progressively rather than explosively."
+      },
+      {
+        "error": "Releasing the half guard leg entanglement too early during the sweeping motion",
+        "consequence": "Opponent recovers base mid-sweep by reinserting their leg or posting, negating the sweep and potentially ending in a worse position than the starting point",
+        "correction": "Maintain leg control throughout the entire sweeping motion from initiation to mount establishment. Only release the entanglement once you have fully cleared their body and your knees are on either side of their torso."
+      },
+      {
+        "error": "Failing to follow the sweep aggressively and allowing space between bodies during the transition",
+        "consequence": "Opponent recomposes their guard from bottom before you can establish mount, inserting knee shields or frames that negate the positional gain from the successful sweep",
+        "correction": "Stay glued chest-to-chest throughout the sweep, driving your hips forward immediately as the opponent hits the mat. Think of the sweep and mount establishment as a single continuous motion rather than two separate actions."
+      },
+      {
+        "error": "Telegraphing the sweep by obviously repositioning legs into the torque configuration before applying force",
+        "consequence": "Opponent recognizes the setup pattern and preemptively adjusts their base, extracts their leg, or drives crossface pressure to flatten you before the sweep can be initiated",
+        "correction": "Disguise the leg repositioning by combining it with other movements such as underhook fighting, grip changes, or feinting alternative sweeps. The torque setup should occur within natural positional adjustments."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Isolated Mechanics",
+        "focus": "Leg positioning and torque generation",
+        "description": "Practice the knee torque motion in isolation with a fully compliant partner. Focus solely on proper leg positioning around the trapped knee and the rotational force generation without the upper body component. Develop muscle memory for the specific scissors action needed to compromise the opponent's knee alignment. Drill 20 repetitions per side."
+      },
+      {
+        "phase": "Phase 2: Full Technique Integration",
+        "focus": "Coordinating upper and lower body forces",
+        "description": "Add the underhook drive and hip bridge mechanics to the knee torque. Practice the complete sweep at slow speed with a compliant partner who allows the sweep to finish. Focus on timing the simultaneous application of knee torque, bridge, and underhook drive so all three forces peak together. Include the mount transition in every repetition."
+      },
+      {
+        "phase": "Phase 3: Chain Attack Development",
+        "focus": "Building offensive sequences from reactions",
+        "description": "Practice the knee torque sweep as part of a chain attack system with a partner providing moderate resistance. When the sweep is defended by posting, transition to kimura. When defended by hip retreat, enter deep half guard. When defended by crossface, switch to alternative sweep angle. Develop automatic reactions to the three most common defensive responses."
+      },
+      {
+        "phase": "Phase 4: Live Application",
+        "focus": "Competitive integration under pressure",
+        "description": "Implement the knee torque sweep during positional sparring starting from half guard bottom. Begin against training partners of similar or smaller size and progressively challenge yourself against larger, more experienced opponents. Focus on recognizing the correct timing windows in live exchanges and committing fully when the opportunity presents."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What body position must you establish before attempting the knee torque sweep from half guard bottom?",
+        "answer": "You must establish a side angle facing the opponent rather than lying flat on your back. This is achieved through hip escape mechanics that turn your body onto its side, creating the leverage foundation needed to generate rotational force on the opponent's knee. Without this side angle, the legs cannot produce sufficient torque to compromise the opponent's base structure because the scissoring action requires lateral hip orientation."
+      },
+      {
+        "question": "What is the primary direction of force applied to the opponent's trapped knee during this sweep?",
+        "answer": "The primary force is inward rotational torque, twisting the opponent's knee medially toward their centerline using a scissors-like action of your legs. The inside leg hooks behind their knee while the outside leg pushes against the front of the shin, creating opposing forces that generate rotational pressure. This inward torque collapses the structural support on that side of the opponent's base."
+      },
+      {
+        "question": "Your opponent posts their free hand wide on the mat to resist the sweep. How do you respond?",
+        "answer": "When the opponent posts their hand, they create a new vulnerability by exposing the posted arm. Transition immediately to attack the posted arm with a kimura grip, threading your far hand under their wrist while your underhook hand secures behind their elbow. This forces a dilemma: they either release the post and become vulnerable to the sweep again, or they defend the kimura and lose their base."
+      },
+      {
+        "question": "What are the two simultaneous force vectors that make this sweep effective?",
+        "answer": "The two simultaneous force vectors are rotational torque on the trapped knee generated by the scissors leg action, which compromises the structural integrity of the opponent's base, and lateral driving force from the underhook combined with a directional hip bridge, which provides the momentum needed to topple the opponent over their weakened base. Both forces must peak at the same moment for maximum sweeping effectiveness."
+      },
+      {
+        "question": "When is the optimal timing window to initiate the knee torque sweep?",
+        "answer": "The optimal timing is when the opponent commits their weight forward over the trapped leg, typically during a crossface attempt or when settling their pressure. Forward weight commitment amplifies the destabilizing effect of the knee torque because the loaded knee has less capacity to resist rotational force. Attempting the sweep when the opponent's weight is back or evenly distributed significantly reduces success rate."
+      },
+      {
+        "question": "Your opponent begins extracting their trapped leg mid-sweep attempt. What is your immediate response?",
+        "answer": "Immediately transition to guard retention rather than forcing the failed sweep. Insert a knee shield or hip escape to re-establish distance before they can complete the extraction and advance to a passing position. If their knee is still partially accessible, attempt to reguard to closed guard or transition to butterfly guard using the remaining hook as a butterfly hook for an immediate elevation sweep attempt."
+      },
+      {
+        "question": "What grip or upper body control is most critical for completing the knee torque sweep?",
+        "answer": "The deep underhook on the trapped leg side is the most critical upper body control element. The underhook provides the lateral driving force that complements the knee torque and prevents the opponent from sprawling their hips away from the sweep direction. Without the underhook, the knee torque alone rarely generates enough compound force to complete the sweep against a resisting opponent who can freely post and adjust their weight."
+      },
+      {
+        "question": "How does the knee torque sweep chain with other half guard bottom attacks when defended?",
+        "answer": "The knee torque sweep creates a dilemma system with other half guard attacks. If the opponent defends by posting an arm, transition to kimura on the posted limb. If they defend by driving forward with crossface, use their momentum to enter deep half guard underneath them. If they sprawl their hips back, come up to dogfight position using the underhook. Each defensive response opens a different offensive pathway, making the sweep valuable even when it does not directly succeed."
+      }
+    ],
+    "safety_considerations": "The Knee Torque Sweep involves applying rotational force to the opponent's knee joint, which can stress the medial collateral ligament and meniscus if applied with excessive force or speed. Always apply the torque gradually and with control during training, increasing pressure progressively rather than explosively. If your partner indicates any discomfort in their knee, release pressure immediately. In competition, be aware that explosive application of rotational knee force may cause injury before the opponent can signal distress. Partners with prior knee injuries should communicate limitations before drilling this technique."
+  },
+  "defender": {
+    "name": "Knee Torque Sweep Defender",
+    "description": "Defend against the Knee Torque Sweep from half guard top. Recognition cues, counter-strategies, and recovery techniques to maintain top position and advance.",
+    "overview": "Defending the Knee Torque Sweep requires early recognition of the bottom player's leg repositioning and immediate base adjustment to neutralize the rotational force on your trapped knee. As the defender in half guard top, you must identify the scissors-like leg configuration and underhook deepening that signal the sweep attempt, then implement specific defensive responses before full torque is applied. Your primary objectives are preventing the rotational force from compromising your base, maintaining heavy top pressure to limit the attacker's mechanical advantage, and either extracting your trapped leg or flattening the bottom player to eliminate their side angle leverage. Understanding the sweep's two-force-vector mechanics allows you to prioritize which force to neutralize first, giving you the critical seconds needed to implement effective defensive responses before the compound off-balance becomes irrecoverable.",
+    "key_principles": [
+      "Maintain wide base and heavy hip pressure distributed through the trapped leg to resist rotational forces on the knee",
+      "Recognize early setup cues before full torque is applied, as defense becomes exponentially harder once the scissors configuration is established",
+      "Drive crossface pressure to flatten the bottom player and eliminate the side angle that enables torque generation",
+      "Post the free hand wide on the mat to create a structural brace against the lateral sweep direction",
+      "Control the bottom player's underhook arm to prevent them from generating the lateral driving force that compounds the knee torque",
+      "Extract the trapped leg through systematic pressure and hip movement when the opportunity presents rather than fighting the torque directly"
+    ],
+    "recognition_cues": [
+      "Bottom player repositions their legs from standard half guard hooks to a scissors-like configuration with one leg behind and one in front of your trapped knee",
+      "Bottom player fights aggressively for the underhook while simultaneously turning sharply onto their side to create leverage angle",
+      "You feel inward rotational pressure on your trapped knee as the bottom player's legs begin squeezing in a twisting motion",
+      "Bottom player deepens their underhook and pulls their chest tight against yours while adjusting hip angle toward the sweep direction",
+      "Your trapped knee feels directed inward toward the mat while your overall balance begins shifting laterally toward the torqued side"
+    ],
+    "defensive_options": [
+      {
+        "action": "Drive heavy crossface and flatten opponent to eliminate side angle",
+        "when_to_use": "Early in the setup phase when you recognize the leg repositioning but before full torque is applied to your knee",
+        "targets_outcome": "Half Guard/Bottom",
+        "if_successful": "Opponent loses the side angle required to generate rotational force and cannot produce enough torque to complete the sweep",
+        "risk": "If opponent already has a deep underhook, the crossface drive alone may be insufficient to flatten them and you waste energy fighting their structure"
+      },
+      {
+        "action": "Post free hand wide and sprawl hips back to create structural base against sweep direction",
+        "when_to_use": "When you feel rotational force beginning on your trapped knee and recognize the sweep is being initiated",
+        "targets_outcome": "Half Guard/Bottom",
+        "if_successful": "Wide post and hip sprawl neutralize the compound sweep forces, allowing you to maintain top position and begin working to extract the trapped leg",
+        "risk": "The posted arm may be vulnerable to kimura attack if the opponent recognizes the posting pattern and transitions their attack"
+      },
+      {
+        "action": "Extract trapped leg by driving hip forward and swimming the knee free during gap in entanglement",
+        "when_to_use": "When opponent loosens their leg grip during torque adjustment or when you have successfully neutralized the torque through crossface pressure",
+        "targets_outcome": "Side Control/Bottom",
+        "if_successful": "You free your trapped leg and advance past opponent's guard to side control, completely nullifying the sweep and dramatically improving your position",
+        "risk": "Failed extraction attempt may leave you off-balance and more vulnerable to the sweep if the opponent maintains their entanglement"
+      },
+      {
+        "action": "Switch hips and backstep to change the angle of your knee relative to the torque direction",
+        "when_to_use": "When the opponent has established strong torque position and direct resistance through posting or crossface is insufficient to stop the sweep",
+        "targets_outcome": "Half Guard/Bottom",
+        "if_successful": "Hip switch changes the rotational axis of your knee relative to their legs, neutralizing the torque mechanism and creating a new passing angle",
+        "risk": "The backstep may expose your back momentarily if not executed with proper upper body control and posture maintenance"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Side Control/Bottom",
+        "how": "Use the bottom player's commitment to the sweep to time a leg extraction and guard pass. When they loosen their legs to adjust the torque angle or when they bridge and create momentary space in the entanglement, drive your hip forward and swim your knee free to advance directly to side control."
+      },
+      {
+        "outcome": "Half Guard/Bottom",
+        "how": "Flatten the bottom player with heavy crossface pressure to eliminate their side angle while posting your free hand wide for structural base. Once the torque threat is neutralized, maintain dominant top pressure and systematically work to advance position through standard half guard passing sequences."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Failing to recognize the setup until full torque is already applied to the knee",
+        "consequence": "Once the scissors configuration is locked and torque is applied simultaneously with the underhook drive, defensive options narrow dramatically and the sweep often succeeds before you can implement a counter",
+        "correction": "Learn to recognize the early cues of leg repositioning and aggressive underhook fighting. Address the sweep setup immediately when you notice the bottom player turning to their side and adjusting their leg hooks around your knee."
+      },
+      {
+        "error": "Attempting to resist the sweep by stiffening the trapped leg rather than addressing the root cause",
+        "consequence": "Muscular resistance against rotational knee force is both ineffective and potentially dangerous to your own knee ligaments, as the leverage advantage lies with the attacker",
+        "correction": "Rather than fighting the torque directly, address the root cause by flattening the opponent's side angle with crossface, posting wide for base, or extracting the trapped leg entirely through hip movement."
+      },
+      {
+        "error": "Keeping a narrow base with free leg close to the body during the sweep attempt",
+        "consequence": "Narrow base provides minimal lateral stability, making the sweep succeed easily even with moderate torque application because there is no structural resistance to the lateral force",
+        "correction": "Widen your base immediately when you feel rotational pressure by posting your free leg out wide and driving your hip toward the mat on the far side, creating a wide triangular base that resists lateral displacement."
+      },
+      {
+        "error": "Pulling the trapped leg straight backward to escape rather than using hip angle changes",
+        "consequence": "Straight backward pulling plays directly into the opponent's scissors configuration and often tightens their entanglement rather than loosening it",
+        "correction": "Change the angle of extraction by rotating your hip and driving the knee outward or switching your hip angle before attempting to swim the leg free. Angle changes defeat the scissors grip more effectively than linear pulling."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the earliest visual cue that your opponent is setting up a knee torque sweep from half guard bottom?",
+        "answer": "The earliest cue is the opponent repositioning their legs from standard half guard hooks into a scissors-like configuration around your trapped knee, with one leg moving behind and one in front of the knee joint. This is typically accompanied by the opponent turning sharply onto their side and fighting aggressively for the underhook, signaling they are creating the structural foundation needed for the rotational sweep."
+      },
+      {
+        "question": "How should you adjust your base when you feel rotational pressure on your trapped knee?",
+        "answer": "Immediately widen your base by posting your free leg out to the side and driving your free-side hip toward the mat, creating a wide triangular base structure. Simultaneously post your free hand on the mat for additional lateral stability. This widened base provides structural resistance against the lateral sweeping force while you work to neutralize the torque through crossface pressure or leg extraction."
+      },
+      {
+        "question": "What is the primary risk of posting your hand wide to defend the sweep?",
+        "answer": "The primary risk is that the posted arm becomes vulnerable to a kimura attack. When you post your hand wide to brace against the sweep, the opponent can transition from the sweep attempt to grip your wrist and thread their far arm behind your elbow, establishing a kimura grip that forces you to choose between defending the submission and maintaining your posted base against the sweep."
+      },
+      {
+        "question": "When should you attempt to extract your trapped leg during the knee torque sweep defense?",
+        "answer": "The optimal extraction timing is when you have successfully neutralized the torque threat through crossface pressure or when the opponent loosens their leg grip during a torque angle adjustment. Attempting extraction while the scissors configuration is tight and active will likely fail and may leave you more off-balanced. Wait for a gap in their entanglement control, then drive your hip forward and swim the knee free in one committed motion."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Recognition Training",
+        "focus": "Identifying setup patterns and timing cues",
+        "description": "Partner drills the knee torque sweep setup repeatedly at slow speed while you focus on identifying each stage of the setup: side angle achievement, leg repositioning, underhook deepening, and torque initiation. Call out each cue verbally as you recognize it. Build pattern recognition without attempting defensive responses initially."
+      },
+      {
+        "phase": "Phase 2: Defensive Response Drilling",
+        "focus": "Executing counter mechanics under controlled conditions",
+        "description": "Partner initiates the knee torque sweep at moderate speed while you practice specific defensive responses: crossface flatten, wide post with sprawl, hip switch backstep, and leg extraction timing. Drill each response in isolation with 10 repetitions before combining responses based on the attacker's pressure angle."
+      },
+      {
+        "phase": "Phase 3: Live Defense Integration",
+        "focus": "Applying defense in positional sparring with increasing resistance",
+        "description": "Positional sparring starting from half guard top where the bottom player actively attempts the knee torque sweep among other attacks. Practice recognizing the sweep setup within the flow of live grappling and implementing the appropriate defensive response while maintaining passing pressure. Progress from lighter to heavier training partners."
+      }
+    ]
+  }
+}

@@ -1,0 +1,592 @@
+{
+  "name": "Anaconda Control",
+  "slug": "anaconda-control",
+  "description": "Master Anaconda Control in BJJ. Complete guide covering offensive control from top, defensive survival from bottom, and transitions with expert analysis from all perspectives.",
+  "variant_uniqueness": "Arm-in headlock trades base for submission",
+  "overview": "Anaconda Control is a powerful submission control position in Brazilian Jiu-Jitsu where one practitioner has secured a front headlock variation with an arm-in configuration around the opponent's neck and shoulder. This position creates a distinctive vice-like compression that threatens the anaconda choke while providing exceptional control over the opponent's upper body. The position derives its name from the constricting nature of the control, where the top player's arms encircle the opponent's neck and trapped arm in a loop that tightens with proper pressure and positioning.\n\nFrom a strategic perspective, Anaconda Control represents a critical juncture in grappling exchanges. The top player has transitioned from positional control to submission threat, while the bottom player faces immediate danger that requires decisive defensive action. The position typically emerges from front headlock situations, turtle attacks, or scrambles where one practitioner exposes their neck while attempting to improve position. Understanding both the offensive mechanics from top and defensive priorities from bottom is essential for complete positional mastery.\n\nThe effectiveness of Anaconda Control stems from its multi-layered control mechanisms: the arm-in grip prevents effective neck defense, body weight restricts movement, and the grip configuration itself creates immediate choking pressure. The position serves as a gateway to multiple finishing sequences and positional advancements, making it a cornerstone technique in modern no-gi grappling and an increasingly important position in gi competition. Mastery requires understanding the biomechanical principles of compression, the relationship between grip tightness and finishing angle, and the ability to flow between related submissions based on defensive reactions.",
+  "key_principles": [
+    "Arm-in configuration creates structural trap where trapped arm reinforces the choke",
+    "Chest pressure and body weight are primary control mechanisms, not grip strength alone",
+    "Position serves as hub for multiple submissions: anaconda, darce, guillotine transitions",
+    "Bottom player must address choking pressure before attempting positional escape",
+    "Top player must maintain tight connection throughout all transitions and adjustments",
+    "Rolling mechanics create optimal finishing angle through momentum and weight transfer"
+  ],
+  "related_positions": [
+    {
+      "name": "Front Headlock",
+      "relationship": "Primary entry position for anaconda grip establishment"
+    },
+    {
+      "name": "Darce Control",
+      "relationship": "Sister submission with similar arm-in mechanics but different hand positioning"
+    },
+    {
+      "name": "Guillotine Control",
+      "relationship": "Alternative front headlock submission accessible from same position"
+    },
+    {
+      "name": "Turtle",
+      "relationship": "Common entry position where anaconda attacks are initiated"
+    },
+    {
+      "name": "Side Control",
+      "relationship": "Position achieved after successful roll-through from anaconda"
+    },
+    {
+      "name": "Back Control",
+      "relationship": "Alternative advancement when opponent turns away from pressure"
+    },
+    {
+      "name": "Dead Orchard Control",
+      "relationship": "Advanced control position accessible from anaconda grip"
+    }
+  ],
+  "top": {
+    "name": "Anaconda Control Top",
+    "description": "Master offensive control from Anaconda Control Top position. Learn submission mechanics, control maintenance, and transitions with 70% finish rate from top control.",
+    "tags": [
+      "bjj",
+      "position",
+      "anaconda-control",
+      "top",
+      "offensive",
+      "submission-control"
+    ],
+    "overview": "Anaconda Control Top represents a dominant submission control position where the top practitioner has secured the anaconda grip configuration while maintaining superior positioning. This position bridges the gap between transitional control and submission finish, characterized by the distinctive arm-in grip around the opponent's neck and far shoulder. The position derives its name from the constricting nature of the choke, where the top player's body weight and grip structure create immense pressure on the opponent's carotid arteries and neck.\n\nFrom a strategic standpoint, Anaconda Control Top provides multiple finishing options while maintaining excellent control. The position typically emerges from front headlock situations, turtle attacks, or scrambles where the defender exposes their neck. The top player secures their grip by threading one arm under the opponent's near arm and around the neck, clasping their hands together on the far side. This creates a closed loop that tightens as the top player adjusts their positioning.\n\nThe effectiveness of this position lies in its multi-layered control mechanisms: the arm-in configuration prevents the opponent from defending their neck effectively, the top player's weight restricts movement, and the grip itself creates immediate submission threat. Understanding the relationship between grip maintenance, body positioning, and finishing mechanics is essential for maximizing success from this powerful controlling position.",
+    "state_properties": {
+      "point_value": 0,
+      "position_type": "Offensive",
+      "risk_level": "Low",
+      "energy_cost": "Medium",
+      "time_sustainability": "Short to Medium"
+    },
+    "state_invariants": [
+      "Top player's arm threaded under opponent's near arm and around the neck, with hands clasped together on the far side creating the characteristic anaconda configuration",
+      "Top player's chest pressure directed downward onto opponent's trapped shoulder and upper back, preventing upward movement and escape",
+      "Opponent's near arm trapped inside the loop created by top player's grip, restricting defensive hand fighting and neck defense options",
+      "Top player's hips positioned beside or slightly behind opponent's hips, allowing weight distribution through the upper body while maintaining mobility for adjustments",
+      "Opponent's head and neck bent forward and to the side by the grip configuration, creating the angle necessary for choking mechanics"
+    ],
+    "prerequisites": [
+      "Successful front headlock control or turtle attack positioning established",
+      "Opponent's near arm exposed and accessible for arm-in grip configuration",
+      "Top player's arm successfully threaded under opponent's arm and around neck",
+      "Hands clasped together on far side completing the anaconda grip structure",
+      "Initial chest pressure established on opponent's trapped shoulder",
+      "Opponent's defensive posture compromised with head pulled down and forward"
+    ],
+    "key_principles": [
+      "Maintain continuous chest pressure on opponent's trapped shoulder to prevent escape and create submission pressure",
+      "Keep hands tightly clasped with proper grip configuration to prevent opponent from breaking the lock",
+      "Control opponent's trapped arm by keeping it pinned inside the loop, eliminating their primary defense",
+      "Position hips and legs to allow dynamic movement for roll-through or adjustment while maintaining upper body control",
+      "Direct pressure at an angle that attacks the carotid arteries rather than purely compressing the windpipe",
+      "Maintain connection between your chest and opponent's shoulder throughout all transitions and adjustments",
+      "Use body weight strategically, shifting between shoulder pressure and rolling mechanics based on opponent's defensive reactions"
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the optimal weight distribution for maintaining anaconda control from top?",
+        "answer": "The optimal weight distribution concentrates chest pressure directly on the opponent's trapped shoulder while keeping hips slightly behind or beside their hips. This creates a see-saw effect where your upper body weight drives down through the shoulder while your hips remain mobile for adjustments. Approximately 70% of your weight should be forward through your chest, with the remaining 30% available for base and mobility. Avoid putting weight too far forward past their head, as this compromises your ability to follow their movement."
+      },
+      {
+        "question": "How do you maintain control when your opponent starts bridging and creating space?",
+        "answer": "When opponent bridges, immediately drive your chest deeper into their trapped shoulder rather than lifting up. Simultaneously, squeeze your elbows together to tighten the loop and walk your hips laterally to maintain perpendicular angle. The bridge actually creates opportunity - as they elevate, their neck becomes more exposed. Stay heavy, stay connected, and use their movement energy to tighten rather than fighting against the bridge with pure resistance."
+      },
+      {
+        "question": "What grip configuration provides the strongest anaconda control?",
+        "answer": "The gable grip (palm-to-palm) provides the strongest structural integrity for anaconda control. Lock your hands with palms pressed flat against each other, fingers pointing in opposite directions. Keep your wrists straight and forearms parallel, pulling elbows tight together. This configuration distributes force across both arms equally and is extremely difficult to break. The S-grip is an acceptable alternative when hand position doesn't allow gable grip, but provides slightly less strength."
+      },
+      {
+        "question": "Your opponent pulls their trapped arm free during control - what immediate adjustment do you make?",
+        "answer": "If the trapped arm escapes, immediately transition to darce choke by sliding your choking arm deeper across their neck and threading to the far shoulder. The arm escape actually opens the darce angle that wasn't available with the arm trapped. Alternatively, if they extract the arm by pulling it toward you, transition to guillotine by releasing one hand and securing their chin. Never try to re-trap the arm - flow to the submission that the defensive movement creates."
+      },
+      {
+        "question": "How do you apply pressure correctly to attack the carotid arteries rather than the windpipe?",
+        "answer": "Carotid pressure requires angling your choking forearm across the side of their neck at approximately 45 degrees, with your bicep on one side and their trapped arm/shoulder creating pressure on the other side. The choking action comes from squeezing elbows together while expanding your chest, not from pushing straight into the front of the throat. When positioned correctly, the opponent feels immediate blood choke symptoms (tunnel vision, lightheadedness) rather than windpipe discomfort."
+      },
+      {
+        "question": "What is the correct timing and execution for initiating the roll-through finish?",
+        "answer": "Initiate the roll only after three conditions are met: grip is locked tight with no gaps, chest pressure has broken opponent's posture, and their base is compromised (usually by walking your hips to one side). Roll toward your choking arm side by stepping over their back and pulling them with you in one explosive motion. Commit fully - hesitation allows them to base out. The roll should be fast enough that their hands cannot post to stop the rotation."
+      },
+      {
+        "question": "How do you manage energy expenditure during extended anaconda control exchanges?",
+        "answer": "Energy management in anaconda control relies on structure over strength. Use your skeleton and body weight rather than muscular squeezing to maintain pressure. Keep your grip locked but relaxed between submission attempts - constant maximum squeezing exhausts your forearms without benefit. Breathe steadily and stay patient. The position favors the attacker energetically because the defender must actively fight against both the choke and the positional control simultaneously."
+      },
+      {
+        "question": "Your opponent partially escapes and you feel the control slipping - how do you recover?",
+        "answer": "When control slips, immediately re-establish chest-to-shoulder connection before addressing the grip. Drive your chest back into their trapped shoulder while pulling your elbows tight. If the grip has loosened but not broken, squeeze to re-tighten while maintaining chest pressure. If they've created significant space, consider transitioning to front headlock position to reset rather than forcing a compromised anaconda. Sometimes the best recovery is accepting position reset rather than fighting a losing grip battle."
+      }
+    ],
+    "decision_tree": [
+      {
+        "condition": "If opponent's base is strong and they resist rolling",
+        "actions": [
+          {
+            "technique": "Anaconda Choke",
+            "target": "game-over",
+            "probability": 70
+          },
+          {
+            "technique": "Front Headlock to Anaconda",
+            "target": "Front Headlock",
+            "probability": 50
+          }
+        ]
+      },
+      {
+        "condition": "If opponent rolls away from pressure to escape",
+        "actions": [
+          {
+            "technique": "Anaconda from Turtle",
+            "target": "Side Control",
+            "probability": 80
+          },
+          {
+            "technique": "Anaconda Choke",
+            "target": "game-over",
+            "probability": 75
+          }
+        ]
+      },
+      {
+        "condition": "If opponent turns into the grip exposing their back",
+        "actions": [
+          {
+            "technique": "Back Take from Anaconda",
+            "target": "Back Control",
+            "probability": 65
+          },
+          {
+            "technique": "Side Control to Mount",
+            "target": "Mount",
+            "probability": 55
+          }
+        ]
+      },
+      {
+        "condition": "If opponent straightens their trapped arm in defense",
+        "actions": [
+          {
+            "technique": "Front Headlock to Darce",
+            "target": "Darce Control",
+            "probability": 70
+          },
+          {
+            "technique": "Anaconda Choke",
+            "target": "game-over",
+            "probability": 65
+          }
+        ]
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Releasing chest pressure to adjust grip or position",
+        "consequence": "Opponent gains space to extract their head or break the grip entirely, losing control",
+        "correction": "Maintain continuous chest-to-shoulder connection throughout all adjustments, using hip movement rather than lifting upper body"
+      },
+      {
+        "error": "Clasping hands too loosely or with improper grip configuration",
+        "consequence": "Opponent can break the grip through hand fighting, escaping the submission threat",
+        "correction": "Lock hands together with gable grip or S-grip, keeping forearms tight to ensure structural integrity of the lock"
+      },
+      {
+        "error": "Allowing opponent's trapped arm to escape the loop",
+        "consequence": "Opponent regains ability to defend their neck with free hand, significantly reducing submission success",
+        "correction": "Keep opponent's arm pinned inside by maintaining elbow-to-elbow connection and directing pressure through their shoulder"
+      },
+      {
+        "error": "Rolling too early before establishing proper angle and tightness",
+        "consequence": "Incomplete submission setup leads to failed finish and potential position loss during the roll",
+        "correction": "First establish tight grip and proper angle with chest pressure, only rolling when opponent's base is broken and submission is tight"
+      },
+      {
+        "error": "Positioning hips too far forward, preventing rolling mechanics",
+        "consequence": "Unable to execute roll-through finish, limiting submission options to standing choke which is less effective",
+        "correction": "Keep hips beside or slightly behind opponent's hips to maintain mobility for forward roll while maintaining upper body control"
+      }
+    ],
+    "training_drills": [
+      {
+        "name": "Anaconda Grip Establishment Drill",
+        "description": "Partner starts in turtle position. Practice threading arm under their near arm and around neck, clasping hands on far side with proper configuration. Focus on speed and accuracy of grip while maintaining chest pressure. Repeat 10 times each side, emphasizing consistent grip structure.",
+        "duration": "5 minutes"
+      },
+      {
+        "name": "Roll-Through Finish Repetitions",
+        "description": "From established anaconda control, practice the forward roll finish with compliant partner. Focus on maintaining grip tightness throughout the roll, proper hip positioning before initiating, and landing in optimal finishing position. Execute 15 repetitions each side, gradually increasing speed.",
+        "duration": "8 minutes"
+      },
+      {
+        "name": "Positional Sparring from Anaconda Control",
+        "description": "Start with anaconda grip established, bottom player works to escape while top player works to finish or advance position. 3-minute rounds with role reversal. Top player scores points for submission, back take, or mount. Bottom player scores for escaping to guard or neutral. Develops timing and pressure application under resistance.",
+        "duration": "15 minutes"
+      }
+    ],
+    "related_content": [
+      {
+        "name": "Front Headlock",
+        "relationship": "Primary entry position - anaconda grip often secured from front headlock situations"
+      },
+      {
+        "name": "Darce Control",
+        "relationship": "Sister position - similar arm-in configuration with different hand positioning and mechanics"
+      },
+      {
+        "name": "Turtle",
+        "relationship": "Common entry position - opponent's turtle creates ideal circumstances for anaconda grip"
+      },
+      {
+        "name": "Anaconda Choke",
+        "relationship": "Primary submission - main finishing technique from this control position"
+      },
+      {
+        "name": "Anaconda Control to Dead Orchard Control",
+        "relationship": "Key transition - technical sequence for advancing to dead orchard control"
+      },
+      {
+        "name": "Switch to Darce Configuration",
+        "relationship": "System transition - interchange between anaconda and darce arm-in positions"
+      },
+      {
+        "name": "Side Control",
+        "relationship": "Advancement target - position gained after successful roll-through from anaconda"
+      },
+      {
+        "name": "Back Take from Anaconda",
+        "relationship": "Alternative advancement when opponent turns away from anaconda pressure"
+      }
+    ],
+    "position_metrics": {
+      "retention_rate": {
+        "value": 78,
+        "description": "Percentage of time maintaining anaconda control position"
+      },
+      "advancement_probability": {
+        "value": 68,
+        "description": "Probability of advancing to back control or mount"
+      },
+      "submission_probability": {
+        "value": 72,
+        "description": "Probability of finishing anaconda choke from this position"
+      },
+      "average_time": "15-45 seconds (transitional position - should advance quickly)"
+    },
+    "transitions": [
+      {
+        "transition": "Anaconda Choke",
+        "attempt_probability": 50
+      },
+      {
+        "transition": "Anaconda Control to Dead Orchard Control",
+        "attempt_probability": 20
+      },
+      {
+        "transition": "Switch to Darce Configuration",
+        "attempt_probability": 15
+      },
+      {
+        "transition": "Anaconda to Side Control",
+        "attempt_probability": 10
+      },
+      {
+        "transition": "Back Take from Anaconda",
+        "attempt_probability": 5
+      }
+    ]
+  },
+  "bottom": {
+    "name": "Anaconda Control Bottom",
+    "description": "Master defensive strategies for surviving Anaconda Control from bottom position. Learn escape routes, survival techniques, and systematic defense with 30% escape success rate for advanced practitioners.",
+    "tags": [
+      "bjj",
+      "position",
+      "anaconda-control",
+      "bottom",
+      "defense",
+      "escapes",
+      "submission-defense"
+    ],
+    "overview": "Anaconda Control Bottom represents a highly disadvantageous defensive position where the opponent has established the anaconda choke control from a front headlock or turtle position. The top player has secured a gable grip or figure-four grip around your neck and near-side arm, with their chest driving pressure down onto your trapped shoulder while their body is positioned perpendicular to yours. This position creates immense pressure on the neck and shoulder, restricting breathing and mobility while threatening the immediate finish of the anaconda choke submission.\n\nThe bottom player's primary objectives are to prevent the choke from being locked in, relieve pressure on the neck, and create enough space to escape back to a neutral or more favorable position. Understanding the mechanics of how the anaconda works is crucial for defending it - the choke tightens as the top player pulls their choking arm's elbow toward their own hip while driving their chest into your trapped shoulder, creating a constricting loop around your neck and arm. The bottom player must act decisively and systematically to address the immediate submission threat before working toward positional escape.\n\nThis position often occurs during scrambles from turtle, failed takedown attempts, or transitions from other front headlock positions, and represents one of the most dangerous control positions in modern no-gi grappling. The defensive hierarchy must prioritize survival over escape: first prevent the choke from tightening, then create breathing space, and finally work systematic escape to guard or neutral position. Time is critical - once the position is fully locked, escape becomes exponentially more difficult.",
+    "state_properties": {
+      "point_value": 0,
+      "position_type": "Defensive",
+      "risk_level": "High",
+      "energy_cost": "High",
+      "time_sustainability": "Short"
+    },
+    "state_invariants": [
+      "Opponent has secured gable grip or figure-four grip around your neck and near-side arm, with their forearm creating a constricting loop that threatens the anaconda choke while your head and shoulder are trapped together in the control",
+      "Top player's chest is driving downward pressure into your trapped shoulder with their body positioned perpendicular to yours, using their body weight to compress the choke and restrict your mobility while maintaining tight connection throughout",
+      "Your trapped arm is pinned between your own neck and the opponent's encircling arm, severely limiting your ability to create frames or defensive space while the choke mechanism tightens around both your neck and shoulder together",
+      "Your free arm and lower body remain mobile but are working against significant mechanical disadvantage, as any movement toward escape must first address the choking pressure before positional improvement becomes possible"
+    ],
+    "prerequisites": [
+      "Opponent has established front headlock control from turtle, scramble, or failed takedown",
+      "Top player has successfully secured grip around neck and near-side arm",
+      "Your head and shoulder are trapped together in opponent's lock",
+      "Opponent has begun driving pressure with chest into trapped shoulder",
+      "Your base has been compromised from turtle or standing position"
+    ],
+    "key_principles": [
+      "Immediate priority is preventing the choke from tightening by addressing neck pressure and grip before positional escape",
+      "Create space between your neck and opponent's choking arm using your free hand to pull on their wrist or elbow",
+      "Keep your chin tucked toward your free-side shoulder to minimize choking surface and protect the carotid arteries",
+      "Use your free arm to post and create frames that prevent opponent from fully locking the position",
+      "Move your hips away from opponent's control to reduce their ability to drive chest pressure into your shoulder",
+      "Prevent opponent from stepping over your head or rolling to mount, which would secure the submission",
+      "Work systematically: first survive the choke, then create space, then escape to better position"
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the first priority when caught in anaconda control from bottom?",
+        "answer": "The first priority is preventing the choke from tightening, not escaping the position. Use your free hand immediately to grip the opponent's choking wrist or forearm and pull it away from your neck to create space. This buys time and prevents the choke from reaching critical tightness. Only after establishing this defensive hand position should you work on positional escape. Many practitioners make the mistake of trying to escape first and get choked in the process."
+      },
+      {
+        "question": "How should you position your chin and head to minimize choking pressure?",
+        "answer": "Tuck your chin tightly toward your free-side shoulder (the shoulder that isn't trapped). This creates the smallest possible choking surface and protects your carotid arteries by positioning bony structures rather than soft tissue against the choking arm. Avoid turning your head away from opponent or lifting your chin, as both actions expose more neck surface to the choke. Think of creating a 'double chin' while turning toward your free shoulder."
+      },
+      {
+        "question": "Your opponent begins stepping over your head to finish - what immediate action do you take?",
+        "answer": "Use your free hand to post on their hip or thigh to prevent the step-over from completing. The step-over is the finishing sequence - once they complete it, the choke becomes extremely difficult to escape. Your free hand must leave the grip-fighting position and immediately post defensively on their hip. Simultaneously, try to flatten your body and scoot your hips away to reduce the angle they need. If the step is already mid-flight, roll in the same direction to deny them the dominant angle."
+      },
+      {
+        "question": "What is the correct hip movement when defending anaconda control?",
+        "answer": "Move your hips away from the opponent's chest pressure, not toward them. Hip movement away reduces their ability to drive weight into your trapped shoulder and creates the angle needed to potentially escape to guard. Coordinate hip movement with your upper body defense - as your free hand creates space at the neck, your hips should be moving in the opposite direction. This combined movement works to open the constricting loop rather than tightening it."
+      },
+      {
+        "question": "How do you manage your trapped arm to reduce choking effectiveness?",
+        "answer": "Keep your trapped arm bent with elbow close to your body rather than extended. An extended arm creates a larger loop for the opponent to constrict and provides more leverage for the choke. By keeping the arm bent and pulled close, you minimize the space they can control. Additionally, try to rotate your trapped arm so your elbow points toward the ground - this further reduces the mechanical advantage of the choke by changing the angle of compression."
+      },
+      {
+        "question": "Your opponent initiates the roll-through finish - how do you counter?",
+        "answer": "When they commit to the roll, you have two options depending on timing. If caught early, post your free hand on the mat and resist the roll by sprawling your legs back. If the roll is already happening, go with their momentum but continue fighting the grip and immediately work to create space on the landing. Sometimes rolling with them and scrambling on the landing is more effective than trying to stop a committed roll. Use the momentary chaos of the roll to attack their grip and escape."
+      },
+      {
+        "question": "What breathing strategy helps survive anaconda control?",
+        "answer": "Take short, controlled breaths through your nose rather than gasping through your mouth. Deep panicked breaths expand your chest and actually tighten the choke mechanism. Stay calm and breathe shallowly while you work your defense. Focus on relaxing muscles that aren't actively needed for escape - tension increases oxygen consumption. If you feel the choke getting tight, tap early rather than going unconscious. There's no shame in tapping to a properly locked anaconda."
+      },
+      {
+        "question": "When should you prioritize escaping versus tapping to the anaconda?",
+        "answer": "Tap when you feel tunnel vision starting, when you can no longer effectively fight the grip, or when you recognize that the position is fully locked with no escape opportunity. The anaconda can cause unconsciousness rapidly once the blood choke is established. If your defensive hand fighting isn't creating space after 5-10 seconds of effort, the position is likely too deep to escape. In training, err on the side of tapping early - you gain nothing from going unconscious and lose the opportunity to reset and drill the defense from earlier stages."
+      }
+    ],
+    "decision_tree": [
+      {
+        "condition": "If opponent has secured anaconda grip but hasn't stepped over or rolled yet",
+        "actions": [
+          {
+            "technique": "Grip Break",
+            "target": "Front Headlock",
+            "probability": 40
+          },
+          {
+            "technique": "Hip Escape to Guard",
+            "target": "Turtle",
+            "probability": 35
+          },
+          {
+            "technique": "Arm Extraction",
+            "target": "Open Guard",
+            "probability": 25
+          }
+        ]
+      },
+      {
+        "condition": "If opponent begins stepping over your head to finish the choke",
+        "actions": [
+          {
+            "technique": "Rolling to Guard",
+            "target": "Half Guard",
+            "probability": 30
+          },
+          {
+            "technique": "Bridge and Roll",
+            "target": "Half Guard",
+            "probability": 25
+          },
+          {
+            "technique": "Counter Sweep",
+            "target": "Open Guard",
+            "probability": 20
+          }
+        ]
+      },
+      {
+        "condition": "If opponent attempts to roll you to complete the choke",
+        "actions": [
+          {
+            "technique": "Rolling Escape from Anaconda",
+            "target": "Turtle",
+            "probability": 35
+          },
+          {
+            "technique": "Arm Extraction",
+            "target": "Front Headlock",
+            "probability": 30
+          },
+          {
+            "technique": "Guard Pull",
+            "target": "Closed Guard",
+            "probability": 25
+          }
+        ]
+      },
+      {
+        "condition": "If the choke is partially locked but opponent hasn't finished",
+        "actions": [
+          {
+            "technique": "Anaconda Grip Break to Front Headlock",
+            "target": "Front Headlock",
+            "probability": 45
+          },
+          {
+            "technique": "Hip Escape to Guard",
+            "target": "Turtle",
+            "probability": 30
+          },
+          {
+            "technique": "Rolling to Guard",
+            "target": "Half Guard",
+            "probability": 25
+          }
+        ]
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Failing to immediately address the choking arm with free hand, allowing opponent time to lock the position",
+        "consequence": "Choke tightens rapidly and escape becomes nearly impossible once fully locked",
+        "correction": "Immediately use free hand to pull on opponent's choking wrist or elbow to create space at neck before attempting positional escape"
+      },
+      {
+        "error": "Turning away from opponent or exposing the back of the neck, which tightens the anaconda loop",
+        "consequence": "Creates additional leverage for opponent to finish choke and eliminates defensive framing options",
+        "correction": "Turn into opponent toward your trapped arm side, keeping chin tucked to free shoulder to minimize choking surface"
+      },
+      {
+        "error": "Allowing opponent to step over head without resistance or counter-movement",
+        "consequence": "Opponent secures dominant angle and can finish choke with body weight alone",
+        "correction": "Use free hand to post on opponent's hip or leg, preventing the step-over while creating defensive frames"
+      },
+      {
+        "error": "Fighting with upper body only while keeping lower body stationary",
+        "consequence": "Waste energy without creating meaningful escape opportunities or space",
+        "correction": "Coordinate hip movement away from opponent with upper body hand fighting to systematically create escape angles"
+      },
+      {
+        "error": "Attempting to pull head straight out of the lock through brute force",
+        "consequence": "Tightens the choke and exhausts energy without addressing the fundamental control problem",
+        "correction": "Focus on creating space at the choking arm's elbow joint while moving hips to change angles rather than pulling directly backward"
+      },
+      {
+        "error": "Keeping trapped arm rigid and extended, which maximizes choking surface area",
+        "consequence": "Provides opponent with larger loop to constrict and more leverage to finish submission",
+        "correction": "Keep trapped arm bent and pulled close to body to minimize the space opponent can control with their lock"
+      }
+    ],
+    "training_drills": [
+      {
+        "name": "Anaconda Defense Hand Fighting",
+        "description": "Partner establishes anaconda grip from turtle but doesn't finish. Bottom player practices hand fighting to prevent lock from tightening, focusing on pulling opponent's wrist away from neck and creating frames with free arm. Start at 50% resistance and gradually increase. 2-minute rounds.",
+        "duration": "2 minutes per round, 5 rounds"
+      },
+      {
+        "name": "Step-Over Defense Reaction",
+        "description": "Partner has anaconda grip and attempts to step over head. Bottom player practices timing defensive posts on opponent's hip, creating frames, and either preventing the step or rolling through with opponent's momentum. Emphasize explosive reaction timing. 90-second rounds.",
+        "duration": "90 seconds per round, 6 rounds"
+      },
+      {
+        "name": "Progressive Anaconda Escape",
+        "description": "Start from various stages of anaconda control: 1) Grip established but loose, 2) Grip tight but no step-over, 3) Step-over initiated, 4) Opponent beginning roll. Practice appropriate escape for each stage, working through systematic defensive hierarchy. Partner provides realistic resistance matched to defender's skill level.",
+        "duration": "3 minutes per position stage"
+      },
+      {
+        "name": "Neck Space Maintenance",
+        "description": "Partner has anaconda grip with moderate tightness. Bottom player focuses solely on maintaining space between neck and choking arm using free hand manipulation of opponent's wrist/elbow. Hold space for 30 seconds, rest, repeat. Builds specific endurance for this critical defensive skill.",
+        "duration": "30 seconds on, 30 seconds rest, 10 rounds"
+      }
+    ],
+    "related_content": [
+      {
+        "name": "Anaconda Choke",
+        "relationship": "Submission being defended - critical to understand finishing mechanics"
+      },
+      {
+        "name": "Front Headlock",
+        "relationship": "Precursor position - preventing anaconda grip from this position"
+      },
+      {
+        "name": "Darce Control",
+        "relationship": "Similar front headlock choke control requiring similar defensive concepts"
+      },
+      {
+        "name": "Guillotine Control",
+        "relationship": "Related front headlock submission requiring comparable escape principles"
+      },
+      {
+        "name": "Turtle",
+        "relationship": "Common starting position before anaconda control is established"
+      },
+      {
+        "name": "Anaconda from Turtle",
+        "relationship": "Transition that creates this position - understanding entry helps prevention"
+      },
+      {
+        "name": "Anaconda Grip Break to Front Headlock",
+        "relationship": "Primary grip-breaking escape transition from anaconda bottom"
+      },
+      {
+        "name": "Rolling Escape from Anaconda",
+        "relationship": "Key escape transition for recovering guard from anaconda bottom"
+      }
+    ],
+    "position_metrics": {
+      "retention_rate": {
+        "value": 78,
+        "description": "Percentage of time surviving without being submitted"
+      },
+      "advancement_probability": {
+        "value": 35,
+        "description": "Probability of escaping to guard or neutral position"
+      },
+      "submission_probability": {
+        "value": 2,
+        "description": "Probability of submitting opponent from bottom (extremely rare)"
+      },
+      "average_time": "10-30 seconds (escape or submit quickly)"
+    },
+    "transitions": [
+      {
+        "transition": "Defensive Roll",
+        "attempt_probability": 40
+      },
+      {
+        "transition": "Hip Escape to Guard",
+        "attempt_probability": 20
+      },
+      {
+        "transition": "Arm Extraction",
+        "attempt_probability": 20
+      },
+      {
+        "transition": "Anaconda Grip Break to Front Headlock",
+        "attempt_probability": 10
+      },
+      {
+        "transition": "Frame and Posture from Anaconda",
+        "attempt_probability": 5
+      },
+      {
+        "transition": "Roll Defense from Anaconda",
+        "attempt_probability": 3
+      },
+      {
+        "transition": "Rolling Escape from Anaconda",
+        "attempt_probability": 2
+      }
+    ]
+  }
+}

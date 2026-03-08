@@ -1,0 +1,526 @@
+{
+  "name": "Aoki Lock",
+  "description": "Master the Aoki Lock leg compression in BJJ. Safety guide with setup, execution, and defense. Success rates: Beginner 25%, Intermediate 40%, Advanced 60%.",
+  "tags": [
+    "bjj",
+    "submission",
+    "leg-lock",
+    "compression",
+    "aoki-lock",
+    "shin-lock"
+  ],
+  "submission_category": "Compression",
+  "submission_type": "Leg Compression",
+  "target_area": "Shin and ankle compression",
+  "starting_position": "Ashi Garami",
+  "success_rate": 50,
+  "overview": "The Aoki Lock, named after Japanese MMA fighter Shinya Aoki, is a sophisticated leg compression submission that targets the opponent's shin and ankle through extreme plantar flexion and compression forces. Unlike traditional heel hooks or kneebars that attack specific joints, the Aoki Lock creates intense pressure across multiple structures of the lower leg simultaneously, making it extremely painful and effective for securing taps. The submission works by trapping the opponent's foot in a figure-four configuration while using your legs to apply tremendous squeezing pressure, forcing the foot into extreme plantar flexion while compressing the shin and calf muscle. This creates a unique combination of joint stress and muscular compression that becomes unbearable rapidly. The Aoki Lock is particularly effective from ashi garami positions and 50-50 configurations where traditional heel hooks might be defended. Its unconventional mechanics often catch opponents off-guard, as the setup can appear less threatening than a heel hook until the pressure is fully applied. The technique requires excellent leg dexterity and hip flexibility to properly configure the figure-four trap, making it a more advanced submission that rewards technical precision over raw strength.",
+  "safety_considerations": {
+    "injury_risks": [
+      {
+        "injury": "Severe plantar fascia strain or tear",
+        "severity": "High",
+        "recovery_time": "4-8 weeks with potential chronic issues"
+      },
+      {
+        "injury": "Ankle ligament damage (ATFL, deltoid ligament)",
+        "severity": "High",
+        "recovery_time": "6-12 weeks for grade 2-3 sprains"
+      },
+      {
+        "injury": "Achilles tendon strain",
+        "severity": "CRITICAL",
+        "recovery_time": "8-16 weeks, potential surgery required"
+      },
+      {
+        "injury": "Calf muscle tear or compartment syndrome",
+        "severity": "Medium",
+        "recovery_time": "3-6 weeks"
+      },
+      {
+        "injury": "Shin bone periosteum damage",
+        "severity": "Medium",
+        "recovery_time": "2-4 weeks"
+      }
+    ],
+    "application_speed": "EXTREMELY SLOW - 5-7 seconds minimum from initial compression to full pressure",
+    "tap_signals": [
+      "Verbal tap (most common due to leg entanglement)",
+      "Physical hand tap on opponent's body or mat",
+      "Physical foot tap with free leg",
+      "Any distress vocalization",
+      "Rapid tapping on own body"
+    ],
+    "release_protocol": [
+      "Immediately release the squeezing pressure with your legs",
+      "Uncross your legs and open the figure-four configuration",
+      "Release the trapped foot from the lock",
+      "Allow opponent to straighten their leg naturally",
+      "Do not pull or twist the leg during release",
+      "Check with opponent before continuing to roll"
+    ],
+    "training_restrictions": [
+      "Never spike or jerk the compression - smooth gradual pressure only",
+      "Never use competition speed in training",
+      "Always allow tap access - never pin both arms",
+      "Stop immediately at first sign of discomfort",
+      "Never practice with full resistance until technique is mastered",
+      "Avoid repeated applications on same training partner in single session"
+    ]
+  },
+  "outcomes": [
+    {
+      "to": "game-over",
+      "probability": 55,
+      "result": "success"
+    },
+    {
+      "to": "Ashi Garami/Top",
+      "probability": 25,
+      "result": "failure"
+    },
+    {
+      "to": "Open Guard/Bottom",
+      "probability": 20,
+      "result": "counter"
+    }
+  ],
+  "from_positions": [
+    "Ashi Garami",
+    "Inside Ashi-Garami",
+    "Outside Ashi-Garami",
+    "50-50 Guard",
+    "Honey Hole",
+    "Saddle",
+    "Cross Ashi-Garami",
+    "Butterfly Guard"
+  ],
+  "related_submissions": [
+    "Kneebar",
+    "Inside Heel Hook",
+    "Outside Heel Hook",
+    "Straight Ankle Lock",
+    "Toe Hold",
+    "Estima Lock",
+    "Calf Slicer",
+    "Achilles Lock",
+    "Heel Hook",
+    "Banana Split"
+  ],
+  "related_content": [
+    {
+      "name": "Ashi Garami",
+      "relationship": "Primary position for entry and control"
+    },
+    {
+      "name": "Honey Hole",
+      "relationship": "Alternative leg entanglement for similar attacks"
+    },
+    {
+      "name": "Kneebar",
+      "relationship": "Common transition if Aoki Lock is defended"
+    },
+    {
+      "name": "Inside Heel Hook",
+      "relationship": "Creates dilemma with Aoki Lock from same position"
+    },
+    {
+      "name": "50-50 Guard",
+      "relationship": "Alternative position for Aoki Lock application"
+    },
+    {
+      "name": "Leg Entanglement",
+      "relationship": "Fundamental principle underlying technique"
+    },
+    {
+      "name": "Straight Ankle Lock",
+      "relationship": "Similar compression mechanics on different joint"
+    },
+    {
+      "name": "Saddle",
+      "relationship": "Advanced leg entanglement for Aoki Lock setup"
+    },
+    {
+      "name": "Inside Ashi-Garami",
+      "relationship": "Primary entry position with direct access to Aoki Lock"
+    }
+  ],
+  "attacker": {
+    "name": "Aoki Lock Attacker",
+    "description": "How to execute Aoki Lock in BJJ. Attacking perspective with setup, execution, and finishing mechanics.",
+    "overview": "The Aoki Lock, named after Japanese MMA fighter Shinya Aoki, is a sophisticated leg compression submission that targets the opponent's shin and ankle through extreme plantar flexion and compression forces. Unlike traditional heel hooks or kneebars that attack specific joints, the Aoki Lock creates intense pressure across multiple structures of the lower leg simultaneously, making it extremely painful and effective for securing taps. The submission works by trapping the opponent's foot in a figure-four configuration while using your legs to apply tremendous squeezing pressure, forcing the foot into extreme plantar flexion while compressing the shin and calf muscle. This creates a unique combination of joint stress and muscular compression that becomes unbearable rapidly. The Aoki Lock is particularly effective from ashi garami positions and 50-50 configurations where traditional heel hooks might be defended. Its unconventional mechanics often catch opponents off-guard, as the setup can appear less threatening than a heel hook until the pressure is fully applied. The technique requires excellent leg dexterity and hip flexibility to properly configure the figure-four trap, making it a more advanced submission that rewards technical precision over raw strength.",
+    "key_principles": [
+      "Figure-four leg configuration creates mechanical advantage for compression",
+      "Hip positioning and angle determine effectiveness of plantar flexion force",
+      "Squeezing pressure must be distributed across entire lower leg structure",
+      "Foot entrapment must be secure before applying compression force",
+      "Body angle and hip extension control the direction of force application",
+      "Opponent's defensive foot positioning determines setup approach",
+      "Combination with heel hook threat creates powerful dilemma"
+    ],
+    "setup_requirements": [
+      "Secure ashi garami position with inside heel hook control established",
+      "Opponent's trapped leg must have limited mobility and rotation",
+      "Your inside leg must be free to weave through for figure-four",
+      "Hip positioning allows for proper angle to apply plantar flexion",
+      "Opponent's foot must be accessible for trapping in the lock",
+      "Upper body control or grips to prevent opponent from sitting up and posturing",
+      "Distance management to keep opponent's hips at optimal range"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Establish ashi garami control",
+        "description": "Begin from inside ashi garami position with your outside leg hooking over opponent's trapped leg and your inside leg positioned underneath. Your outside arm should control their knee or ankle while your inside arm prepares to manipulate their foot. Ensure your hips are close to their hips to limit their mobility and prevent them from pulling their leg free.",
+        "timing": "2-3 seconds for initial control establishment"
+      },
+      {
+        "step_number": 2,
+        "action": "Thread inside leg for figure-four",
+        "description": "Begin weaving your inside leg (the leg that was underneath) through the gap between your outside leg and opponent's trapped leg. Your inside foot will need to cross over your own outside leg to create the figure-four configuration. This requires hip flexibility and precise leg positioning. Keep your outside leg hook tight to maintain the ashi garami frame while threading.",
+        "timing": "3-4 seconds to properly position legs"
+      },
+      {
+        "step_number": 3,
+        "action": "Secure opponent's foot in the trap",
+        "description": "Use your hands to guide opponent's foot into position between your legs, placing their heel or ankle into the space created by your figure-four. The exact placement depends on your leg length and their leg length - experiment to find the tightest configuration. Their foot should be trapped between your crossed legs in a way that when you squeeze, it forces extreme plantar flexion (toes pointing).",
+        "timing": "2-3 seconds for foot positioning"
+      },
+      {
+        "step_number": 4,
+        "action": "Lock the figure-four configuration",
+        "description": "Complete the figure-four by gripping your own shin or ankle with the foot of your inside leg. This creates a closed loop that will generate tremendous compression when you squeeze. Ensure the lock is tight and secure before applying any pressure. Your outside leg should maintain the ashi garami hook position to keep their leg trapped and prevent rotation.",
+        "timing": "1-2 seconds to secure the lock"
+      },
+      {
+        "step_number": 5,
+        "action": "Adjust hip angle and extension",
+        "description": "Position your hips at an angle that allows you to extend and create space while simultaneously squeezing with your legs. Your hips should be slightly elevated and extended away from opponent, creating opposing forces - their foot trapped in plantar flexion while you extend your hips. This hip positioning is critical for generating the compression force across their shin and ankle.",
+        "timing": "2-3 seconds for optimal positioning"
+      },
+      {
+        "step_number": 6,
+        "action": "Apply gradual squeezing compression",
+        "description": "Begin squeezing your legs together while maintaining hip extension, forcing their foot into extreme plantar flexion. The compression should be smooth and gradual, increasing steadily over 3-5 seconds. Focus on squeezing pressure across the entire lower leg rather than isolated ankle bend. Monitor opponent constantly for tap signals. The submission creates intense pain rapidly due to combined compression and joint stress.",
+        "timing": "5-7 seconds from initial compression to maximum safe pressure"
+      },
+      {
+        "step_number": 7,
+        "action": "Maintain control and await tap",
+        "description": "Hold steady pressure without increasing or jerking. Your upper body should remain controlled and ready to release immediately upon tap. Do not try to increase pressure further once you feel the lock is tight - the opponent will tap or risk injury. Be prepared to transition to other attacks if opponent begins to defend effectively, such as switching to traditional heel hook or kneebar.",
+        "timing": "Hold until tap or release required"
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Rapidly pulling trapped leg free before figure-four is completed",
+        "effectiveness": "High",
+        "your_response": "Maintain tight ashi garami control with outside leg hook and use upper body grips to control their knee, preventing leg extraction. Transition to traditional heel hook or kneebar if they create distance.",
+        "targets_outcome": "Ashi Garami/Top"
+      },
+      {
+        "counter": "Rotating the trapped leg externally to prevent foot entrapment",
+        "effectiveness": "Medium",
+        "your_response": "Counter rotation by adjusting your hip angle and using your hands to control their foot positioning. If rotation persists, switch to inside heel hook which works with the rotation direction.",
+        "targets_outcome": "Ashi Garami/Top"
+      },
+      {
+        "counter": "Sitting up aggressively to create pressure on your legs and break the figure-four",
+        "effectiveness": "Medium",
+        "your_response": "Use your upper body to push their shoulders back down, or accept the sit-up and transition to 50-50 position where you can reestablish the lock from a different angle. Maintain leg entanglement throughout.",
+        "targets_outcome": "Ashi Garami/Top"
+      },
+      {
+        "counter": "Attempting to pass your guard and cross-face before lock is secured",
+        "effectiveness": "High",
+        "your_response": "Abandon the Aoki Lock setup and return to defensive ashi garami control, blocking the pass with proper leg positioning. Reset the attack once positional control is reestablished.",
+        "targets_outcome": "Open Guard/Bottom"
+      },
+      {
+        "counter": "Keeping foot in dorsiflexion (toes up) to resist plantar flexion",
+        "effectiveness": "Low",
+        "your_response": "Use superior leg strength and mechanical advantage of the figure-four to overcome their foot positioning. The compression across the shin will force tap even if full plantar flexion is not achieved.",
+        "targets_outcome": "game-over"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Applying compression too quickly without proper setup",
+        "consequence": "Opponent escapes easily and you lose position, or worse, you cause injury before they can tap",
+        "correction": "Take time to fully secure the figure-four and foot positioning before applying any squeezing pressure. Build pressure gradually over 5-7 seconds minimum."
+      },
+      {
+        "error": "Failing to maintain ashi garami control with outside leg",
+        "consequence": "Opponent extracts their leg and escapes before submission is secured",
+        "correction": "Keep your outside leg hook tight throughout the entire setup and finishing sequence. This is your primary position control mechanism."
+      },
+      {
+        "error": "Incorrect figure-four placement creating ineffective lock",
+        "consequence": "No compression force is generated and opponent easily defends or escapes",
+        "correction": "Experiment with exact foot placement in training to find optimal position based on your and opponent's leg lengths. The lock should feel secure before squeezing."
+      },
+      {
+        "error": "Neglecting hip positioning and relying only on leg squeeze",
+        "consequence": "Minimal submission pressure generated, easy defense for opponent",
+        "correction": "Hip extension and angle create the opposing force that makes compression effective. Focus on hip positioning as much as leg configuration."
+      },
+      {
+        "error": "Releasing ashi garami control to focus on finishing",
+        "consequence": "Opponent escapes to top position or passes your guard",
+        "correction": "Maintain all positional controls while finishing. If you cannot secure the submission while maintaining position, return to control and reset."
+      },
+      {
+        "error": "Continuing to apply pressure after tap is given",
+        "consequence": "Serious injury to training partner including ligament tears, tendon damage, or fractures",
+        "correction": "Develop immediate release reflexes. The moment you feel or hear a tap, release all pressure instantly. Practice release protocol repeatedly."
+      },
+      {
+        "error": "Using jerking or spiking motion to apply compression",
+        "consequence": "Sudden injury before opponent can tap, damage to ankle, achilles, or shin structures",
+        "correction": "All pressure must be applied smoothly and progressively. Never jerk or spike leg locks. Build pressure gradually allowing time for tap."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Figure-Four Mechanics",
+        "focus": "Leg configuration and foot placement",
+        "description": "Drill the figure-four leg threading in isolation without resistance. Partner lies stationary while you practice entering from ashi garami, threading the inside leg, and locking the configuration. Focus on smooth mechanical sequence, proper foot placement relative to partner's ankle, and ensuring the closed loop is tight before any pressure. Minimum 50 repetitions per side before progressing."
+      },
+      {
+        "phase": "Phase 2: Controlled Compression Application",
+        "focus": "Pressure application speed and safety awareness",
+        "description": "With figure-four locked, practice applying gradual compression at training speed (7-10 seconds to full pressure). Partner provides verbal feedback on pressure quality and distribution. Drill the release protocol after every repetition - this builds the release reflex. Practice recognizing tap signals in various forms. No resistance from partner at this stage."
+      },
+      {
+        "phase": "Phase 3: Entry Integration with Light Resistance",
+        "focus": "Combining ashi garami transitions with Aoki Lock setup",
+        "description": "Begin from live ashi garami positions with partner providing 30-50% resistance on leg extraction and foot positioning. Practice maintaining ashi garami control while threading the figure-four under mild defensive pressure. Work the heel hook to Aoki Lock dilemma sequence. Partner defends one attack and you flow to the other. Build timing for when to commit to the lock versus when to abandon and reset."
+      },
+      {
+        "phase": "Phase 4: Positional Sparring with Full Defense",
+        "focus": "Live application against resisting opponents",
+        "description": "Positional sparring starting from ashi garami where attacker works Aoki Lock against full defensive resistance. Include all common counters - leg extraction, rotation, sit-up defense, guard passing attempts. Practice transitioning between Aoki Lock, heel hook, and kneebar based on defensive reactions. Emphasize maintaining safety protocols even under competitive pressure. 3-minute rounds with role switching."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What are the primary anatomical structures at risk during an Aoki Lock and why must pressure be applied slowly?",
+        "answer": "The Aoki Lock targets the plantar fascia, ankle ligaments (particularly ATFL and deltoid ligament), achilles tendon, calf muscle, and shin periosteum through combined plantar flexion and compression. Pressure must be applied slowly (5-7 seconds minimum) because these structures can sustain serious damage before pain signals fully register, and sudden application can cause tears or ruptures before the opponent has time to tap. The achilles tendon is particularly vulnerable to sudden loading in extreme plantar flexion.",
+        "safety_critical": true
+      },
+      {
+        "question": "What is the proper release protocol if your opponent taps to an Aoki Lock?",
+        "answer": "Immediately release all squeezing pressure with your legs first, then uncross your legs to open the figure-four configuration, release the trapped foot from the lock, and allow opponent to straighten their leg naturally without any pulling or twisting forces applied. Check with opponent before continuing to roll to ensure no injury occurred. The key is reversing the submission mechanics in smooth sequence rather than just opening everything at once.",
+        "safety_critical": true
+      },
+      {
+        "question": "How does the figure-four leg configuration create mechanical advantage for the Aoki Lock compression?",
+        "answer": "The figure-four configuration creates a closed loop that allows you to generate tremendous squeezing force by recruiting your largest leg muscles (quadriceps, hamstrings, adductors) while trapping opponent's foot in a mechanically disadvantaged position. When you squeeze your legs together while maintaining hip extension, the opposing forces create compression across their entire lower leg structure while forcing extreme plantar flexion. The closed loop prevents force dissipation and focuses all pressure on the trapped limb.",
+        "safety_critical": false
+      },
+      {
+        "question": "Why is maintaining ashi garami control with the outside leg critical throughout the Aoki Lock setup and finish?",
+        "answer": "The outside leg's ashi garami hook provides the positional frame that prevents opponent from extracting their leg, rotating to safety, or passing your guard during the submission attempt. Without this control, opponent can simply pull their leg free before the figure-four is established or create angles that nullify the compression force. The ashi garami frame keeps their leg trapped in the optimal position and distance for the Aoki Lock mechanics to work effectively. If you lose this control, you lose both the submission and potentially the position.",
+        "safety_critical": false
+      },
+      {
+        "question": "What is the primary difference between Aoki Lock mechanics and traditional heel hook mechanics, and why does this create a strategic advantage?",
+        "answer": "The Aoki Lock creates compression and plantar flexion force distributed across the entire lower leg (shin, calf, ankle, plantar fascia), while heel hooks create specific rotational force isolated to the knee joint through tibial rotation. This difference means opponents defending heel hooks by preventing rotation or maintaining specific leg positioning may not recognize or defend the Aoki Lock's compression-based mechanics. The Aoki Lock can be effective even when heel hook defenses are strong, creating a valuable secondary attack from leg entanglement positions.",
+        "safety_critical": false
+      },
+      {
+        "question": "Your opponent begins pulling their foot into dorsiflexion to resist the plantar flexion - what adjustment maintains breaking pressure?",
+        "answer": "Rather than fighting their dorsiflexion resistance directly, focus on increasing the compression component across the shin and calf by squeezing your legs tighter and adjusting your hip angle to drive pressure into the anterior tibialis and calf muscles. The compression across these muscular structures will create intense discomfort regardless of their foot position. Additionally, increase hip extension to stretch the posterior chain structures. The multi-vector attack means even partial plantar flexion combined with calf compression creates sufficient breaking force for the tap.",
+        "safety_critical": false
+      },
+      {
+        "question": "What are three critical safety errors that can cause injury during Aoki Lock application?",
+        "answer": "First, applying compression too quickly without gradual pressure buildup (5-7 seconds minimum required) can cause ligament tears or tendon ruptures before opponent can tap. Second, continuing to apply pressure after tap is given can cause serious injury including achilles rupture, ankle ligament damage, or fractures. Third, using jerking or spiking motions instead of smooth progressive pressure can cause sudden injury before pain signals register. All three of these errors violate the fundamental safety principle that submission pressure must be controlled, progressive, and immediately reversible.",
+        "safety_critical": true
+      },
+      {
+        "question": "Your opponent starts sitting up aggressively to create pressure and break your figure-four configuration - what is the point of no escape for finishing the Aoki Lock?",
+        "answer": "The point of no escape occurs when the figure-four is fully locked with your inside foot hooked behind your outside leg's ankle or shin, their foot is trapped between your legs with their ankle positioned correctly for plantar flexion, and you have begun hip extension with leg squeeze engaged. Once all three elements are in place and initial compression is applied, even aggressive sit-up attempts cannot break the mechanical structure without risking self-injury. Before this point, you may need to transition to 50-50 or accept the defensive reset. After this point, maintain position and await the tap.",
+        "safety_critical": false
+      },
+      {
+        "question": "How do you recognize when the Aoki Lock breaking point is reached and imminent tap is expected?",
+        "answer": "Breaking point indicators include visible foot color change toward pale or red as circulation is affected, opponent's body stiffening and involuntary reactions, audible distress sounds before verbal tap, opponent reaching toward their leg or your legs instinctively, and cessation of defensive movement as pain becomes overwhelming. Once you observe these indicators, maintain steady pressure without increasing - the tap is imminent. Never increase pressure at this stage as the structures are already under maximum stress and additional force risks injury before they can verbalize or signal the tap.",
+        "safety_critical": true
+      },
+      {
+        "question": "What grip adjustments should you make during the finish to maximize breaking force without increasing injury risk?",
+        "answer": "During the finish, your hands should transition from foot manipulation grips to bracing grips on opponent's knee or thigh to stabilize their leg position and prevent last-second rotational escapes. Keep your chest connected to their leg to maintain the compression structure. Avoid death-gripping the foot as this creates localized pressure points rather than distributed compression. The finishing force comes from leg squeeze and hip extension, not from pulling with your arms. Your arms stabilize while your legs and hips do the breaking work, which allows controlled pressure application.",
+        "safety_critical": false
+      },
+      {
+        "question": "In competition, your opponent defends by standing with the trapped leg and begins hopping - how do you maintain control and finish?",
+        "answer": "Standing creates opportunity rather than escape if your leg configuration remains tight. Angle your body to face their standing leg while maintaining the figure-four lock, using their standing balance instability against them. Apply hip extension to increase plantar flexion pressure while they cannot base properly. If they attempt to step over you, follow the rotation while keeping the lock engaged. Their standing actually increases stretch on their posterior chain. Sweep them by driving into their posting leg with your free hand or by off-balancing them toward their trapped side. Most opponents will tap mid-fall as the compression increases.",
+        "safety_critical": false
+      },
+      {
+        "question": "What common finishing error reduces Aoki Lock effectiveness and how do you correct it?",
+        "answer": "The most common finishing error is prioritizing plantar flexion over compression by trying to hyperextend the foot without sufficient leg squeeze. This allows opponents with flexible ankles to resist the lock. The correction is to focus on simultaneous leg squeeze compression across the entire lower leg structure while using hip extension for plantar flexion. Think of it as crushing the shin and calf between your legs while pointing their toes - both components must work together. Practitioners who solely attack the ankle joint miss the compression element that makes this submission unique and effective against flexible opponents.",
+        "safety_critical": false
+      }
+    ]
+  },
+  "defender": {
+    "name": "Aoki Lock Defender",
+    "description": "How to defend against Aoki Lock in BJJ. Recognition, escape paths, and defensive strategies.",
+    "overview": "Defending the Aoki Lock requires understanding the unique compression mechanics that distinguish it from traditional leg lock attacks. Because the Aoki Lock attacks multiple structures simultaneously through plantar flexion and shin compression rather than isolated joint rotation, standard heel hook defenses (boot defense, knee rotation) are insufficient. The defender must recognize the threat during the figure-four threading phase before the lock is fully secured, as defensive options diminish dramatically once the closed-loop compression is engaged. Early recognition of the inside leg threading pattern is the single most important defensive skill, since the window for effective defense narrows rapidly once the attacker begins locking the figure-four configuration. The primary defensive strategy shifts based on timing: before the figure-four is locked, focus on leg extraction and rotation to prevent foot entrapment; once the lock is partially secured, aggressive posturing and hip movement to break the compression structure become critical; and if the lock is fully engaged, tap immediately rather than risk injury to the achilles, ankle ligaments, or plantar fascia. Unlike rotational leg locks where you can sometimes fight through partial application, the Aoki Lock's compression mechanics mean damage accumulates across multiple structures simultaneously, making late defense extremely dangerous.",
+    "key_principles": [
+      "Recognize the figure-four threading early - defense before the lock is secured is ten times more effective than after",
+      "Maintain dorsiflexion (toes pulled toward shin) to resist plantar flexion and reduce compression angle",
+      "Keep your trapped leg actively rotating externally to prevent the foot from seating into the compression pocket",
+      "Create distance through hip movement and posturing to disrupt the attacker's hip extension mechanics",
+      "Tap early and tap often - the Aoki Lock attacks multiple structures simultaneously and damage accumulates faster than pain signals register",
+      "Prioritize leg extraction over guard passing during early defense phases when the figure-four is not yet locked"
+    ],
+    "recognition_cues": [
+      "Opponent begins weaving their inside leg through the gap between their outside leg and your trapped leg while in ashi garami - this threading motion is the primary setup indicator",
+      "Opponent's hands shift from heel or ankle control to foot manipulation, guiding your foot into a specific position between their legs rather than attacking a traditional heel hook grip",
+      "Opponent's legs begin crossing over each other in a figure-four pattern around your lower leg, creating a distinctly different configuration from standard ashi garami control",
+      "Opponent adjusts hip angle away from you while maintaining leg control - this extension positioning indicates they are preparing compression rather than rotational attack",
+      "You feel your foot being guided into plantar flexion (toes pointing) rather than being rotated for a heel hook - the force vector is compression and extension rather than twisting"
+    ],
+    "defensive_options": [
+      {
+        "action": "Extract trapped leg before figure-four completion by pulling knee to chest and rotating hip internally",
+        "when_to_use": "As soon as you recognize the inside leg threading motion beginning - this is the highest-percentage defense window before the closed loop is established",
+        "targets_outcome": "Ashi Garami/Top",
+        "if_successful": "Return to neutral ashi garami position where you can work standard leg lock defense or attempt guard passing",
+        "risk": "If extraction fails midway, you may expose your heel to traditional heel hook attack as a backup threat"
+      },
+      {
+        "action": "Sit up aggressively and drive forward to collapse the attacker's hip extension and break the figure-four structure",
+        "when_to_use": "When the figure-four is partially locked but compression has not yet been applied - your forward pressure disrupts their hip mechanics and creates structural weakness in the lock",
+        "targets_outcome": "Open Guard/Bottom",
+        "if_successful": "Break the figure-four configuration and transition to top position or guard passing opportunity with their guard compromised",
+        "risk": "If attacker maintains lock during your sit-up, you may drive yourself deeper into the compression by closing distance"
+      },
+      {
+        "action": "Rotate trapped leg externally and pull foot into maximum dorsiflexion to prevent foot from seating in compression pocket",
+        "when_to_use": "When the figure-four is being established and your foot is being guided into plantar flexion - fighting the foot position delays or prevents effective lock engagement",
+        "targets_outcome": "Ashi Garami/Top",
+        "if_successful": "Prevent the Aoki Lock from achieving proper foot position, forcing attacker to abandon the setup or transition to alternative attack",
+        "risk": "External rotation may expose your knee to heel hook if attacker switches attacks mid-sequence"
+      },
+      {
+        "action": "Stand up explosively while driving trapped leg's knee forward to break ashi garami frame and figure-four simultaneously",
+        "when_to_use": "When you have sufficient base with your free leg and the lock is not yet fully engaged - standing creates structural advantages that make the compression angle ineffective",
+        "targets_outcome": "Open Guard/Bottom",
+        "if_successful": "Break free from leg entanglement entirely and return to standing or establish top passing position",
+        "risk": "If the lock is already engaged, standing may increase compression on your shin and accelerate the submission"
+      }
+    ],
+    "escape_paths": [
+      "Leg extraction through internal hip rotation and knee-to-chest pull before figure-four is locked, returning to standard ashi garami defensive positioning",
+      "Aggressive forward posturing and sit-up to collapse attacker's hip extension angle, breaking the figure-four structure and transitioning to top position",
+      "Standing base recovery with explosive drive forward, breaking ashi garami control and figure-four simultaneously through structural pressure"
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Ashi Garami/Top",
+        "how": "Extract trapped leg during the figure-four threading phase before the lock is completed, using internal hip rotation and knee retraction to clear the entanglement and return to standard ashi garami top position"
+      },
+      {
+        "outcome": "Open Guard/Bottom",
+        "how": "Collapse the attacker's structure through aggressive forward posturing or standing, breaking the figure-four and passing to a dominant top position or guard passing scenario"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Waiting too long to begin defensive action, allowing the figure-four to fully lock before attempting escape",
+        "consequence": "Once the closed-loop figure-four is locked with compression engaged, defensive options are nearly zero and the submission will force a tap or cause injury to multiple lower leg structures simultaneously",
+        "correction": "Begin defensive action the moment you recognize the inside leg threading motion. The defense window is during the setup phase, not after the lock is complete. Train recognition cues until the response is reflexive."
+      },
+      {
+        "error": "Attempting standard heel hook defense (boot defense, knee rotation) against Aoki Lock compression mechanics",
+        "consequence": "Boot defense and knee rotation address rotational forces, not compression and plantar flexion forces. These defenses are ineffective and waste the critical defense window while the figure-four is being secured.",
+        "correction": "Recognize that the Aoki Lock requires different defensive responses than heel hooks. Focus on leg extraction, external rotation of the trapped foot, and dorsiflexion rather than standard heel hook defensive patterns."
+      },
+      {
+        "error": "Fighting through pain once the lock is fully engaged instead of tapping",
+        "consequence": "The Aoki Lock attacks plantar fascia, ankle ligaments, achilles tendon, and calf simultaneously. Damage accumulates across all structures faster than pain signals register, leading to serious multi-structure injury including potential achilles rupture.",
+        "correction": "Tap immediately once the lock is fully engaged and compression is applied. The multi-structure attack means there is no safe threshold to fight through. Training partners and competitors who do not tap risk months of recovery from combined ligament, tendon, and fascia damage."
+      },
+      {
+        "error": "Pulling the trapped leg straight backward against the figure-four configuration",
+        "consequence": "Straight pulling tightens the figure-four lock and drives the foot deeper into the compression pocket, accelerating the submission and increasing injury risk to the ankle and shin structures",
+        "correction": "Use circular hip rotation and internal rotation to collapse the figure-four structure rather than linear pulling. Thread the knee inward and curl the leg toward your chest in a circular path that addresses the triangular lock mechanics."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the earliest recognition cue that an Aoki Lock is being attempted and why is early recognition critical for defense?",
+        "answer": "The earliest cue is the opponent beginning to weave their inside leg through the gap between their outside leg and your trapped leg while in ashi garami. This threading motion is the setup for the figure-four configuration. Early recognition is critical because defensive options diminish exponentially once the figure-four is locked - extraction before the lock is completed has a dramatically higher success rate than any defense attempted after the closed loop is established and compression begins.",
+        "safety_critical": true
+      },
+      {
+        "question": "Why are standard heel hook defenses (boot defense, knee rotation) ineffective against the Aoki Lock?",
+        "answer": "Standard heel hook defenses address rotational forces that target the knee through tibial rotation. The Aoki Lock uses fundamentally different mechanics - compression and plantar flexion distributed across the entire lower leg structure including shin, calf, ankle ligaments, and plantar fascia. Boot defense prevents heel exposure for rotation but does not address the squeezing compression. Knee rotation prevents tibial torque but does not prevent plantar flexion or shin compression. Defenders must use Aoki Lock-specific defenses focused on leg extraction, dorsiflexion, and structural collapse.",
+        "safety_critical": true
+      },
+      {
+        "question": "When should you tap to an Aoki Lock and why is fighting through the lock particularly dangerous compared to other leg submissions?",
+        "answer": "Tap immediately once the figure-four is fully locked and compression is engaged. Fighting through the Aoki Lock is exceptionally dangerous because it attacks multiple anatomical structures simultaneously - plantar fascia, ankle ligaments, achilles tendon, calf muscle, and shin periosteum all receive stress at the same time. Unlike a heel hook where damage is concentrated on knee ligaments, the Aoki Lock's distributed force means damage accumulates across all structures faster than pain accurately signals the severity. By the time you realize the lock is truly dangerous, multiple structures may already be compromised.",
+        "safety_critical": true
+      },
+      {
+        "question": "Your opponent has begun threading their inside leg but the figure-four is not yet locked - what is your highest-percentage defensive action?",
+        "answer": "Pull your knee to your chest while rotating your hip internally, extracting the trapped leg before the figure-four closes. Simultaneously use your hands to push against their threading leg to slow or prevent the cross. This extraction must be explosive and committed - half-measures allow them to complete the lock. If extraction fails on the first attempt, immediately transition to aggressive forward posturing to collapse their hip extension angle before they can engage compression.",
+        "safety_critical": false
+      },
+      {
+        "question": "How does maintaining dorsiflexion help defend against the Aoki Lock and what are its limitations as a sole defensive strategy?",
+        "answer": "Dorsiflexion (pulling toes toward your shin) directly opposes the plantar flexion component of the Aoki Lock, making it harder for the attacker to seat your foot in the optimal compression pocket and reducing the extension force on your achilles and plantar fascia. However, dorsiflexion alone is insufficient because the Aoki Lock also generates compression across the shin and calf through the leg squeeze, which creates intense pressure regardless of foot position. Dorsiflexion buys time and reduces one vector of attack but must be combined with leg extraction or structural disruption to achieve a complete defense.",
+        "safety_critical": false
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Recognition Drill",
+        "focus": "Identifying Aoki Lock setup cues from ashi garami",
+        "description": "Partner alternates between standard heel hook setups and Aoki Lock threading from ashi garami. Defender calls out which attack is being initiated as early as possible. Build pattern recognition until the inside leg threading is identified within the first second of movement. No resistance or escape attempts at this stage - pure recognition training."
+      },
+      {
+        "phase": "Phase 2: Early Extraction Mechanics",
+        "focus": "Leg extraction before figure-four completion",
+        "description": "Partner slowly threads the figure-four while defender practices knee-to-chest extraction with internal hip rotation. Start at 25% speed and resistance, increasing to 75% as technique improves. Drill the timing window between threading initiation and lock completion. Minimum 30 repetitions per side before progressing to next phase."
+      },
+      {
+        "phase": "Phase 3: Late Defense and Tap Recognition",
+        "focus": "Defensive options when figure-four is partially locked and tap awareness",
+        "description": "Partner establishes partial figure-four lock. Defender practices aggressive forward posturing, dorsiflexion maintenance, and structural collapse techniques. Critically, also practice recognizing when the lock is fully engaged and defense is no longer viable - drill tapping immediately at the compression onset. Build the reflex to tap early rather than fight through dangerous compression."
+      },
+      {
+        "phase": "Phase 4: Live Positional Defense",
+        "focus": "Full-speed defense against Aoki Lock attempts in sparring",
+        "description": "Positional sparring from ashi garami where attacker works Aoki Lock at full speed and the defender applies complete defensive toolkit. Include scenarios where defender must choose between extraction, posturing, and tapping based on the lock progression stage. 3-minute rounds alternating roles. Emphasize safety awareness and appropriate tap timing throughout."
+      }
+    ]
+  },
+  "variations_and_setups": [
+    {
+      "variation_name": "50-50 Aoki Lock",
+      "description": "From 50-50 position, establish the figure-four trap on opponent's leg while they are also attempting leg attacks. This variation works well when traditional heel hooks are being defended, as the Aoki Lock mechanics differ enough to catch opponents by surprise.",
+      "when_to_use": "When in 50-50 stalemate and opponent is defending traditional heel hook attacks effectively. Also useful when both competitors have strong heel hook defense."
+    },
+    {
+      "variation_name": "Aoki Lock from Butterfly Ashi",
+      "description": "From butterfly ashi position with your inside leg butterfly hooking, transition the butterfly hook into the figure-four configuration for the Aoki Lock. This variation flows naturally from certain guard passing attempts by opponent.",
+      "when_to_use": "When opponent attempts to pass butterfly ashi and you want to counter with immediate leg attack. The butterfly hook position sets up the figure-four nicely."
+    },
+    {
+      "variation_name": "Cross Ashi Aoki Lock",
+      "description": "From cross ashi position, use the different angle and leg configuration to apply the Aoki Lock with modified mechanics. Your legs create the compression from a different vector, which can bypass certain defensive reactions.",
+      "when_to_use": "When in cross ashi and traditional heel hook is being well-defended. The angle change makes the Aoki Lock setup more available and harder to recognize."
+    },
+    {
+      "variation_name": "Aoki Lock as Heel Hook Bait",
+      "description": "Begin threatening obvious heel hook to draw defensive reactions, then transition to Aoki Lock when opponent overcommits to heel hook defense. The setup appears similar but finishes differently, creating a powerful dilemma.",
+      "when_to_use": "Against experienced opponents who have strong heel hook awareness and defense. Use their defensive reactions to set up the less-familiar Aoki Lock."
+    }
+  ]
+}

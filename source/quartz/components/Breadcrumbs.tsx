@@ -115,8 +115,15 @@ export default ((opts?: Partial<BreadcrumbOptions>) => {
 
       // Add current file to crumb (can directly use frontmatter title)
       if (options.showCurrentPage && slugParts.at(-1) !== "index") {
+        const lastSegment = slugParts.at(-1)!
+        // Role pages: show just the role name, not the full title
+        const roleNames = ["top", "bottom", "attacker", "defender"]
+        const displayName = roleNames.includes(lastSegment.toLowerCase())
+          ? lastSegment.charAt(0).toUpperCase() + lastSegment.slice(1).toLowerCase()
+          : stripTitleSuffix(fileData.frontmatter!.title)
+
         crumbs.push({
-          displayName: stripTitleSuffix(fileData.frontmatter!.title),
+          displayName,
           path: "",
         })
       }
@@ -128,7 +135,9 @@ export default ((opts?: Partial<BreadcrumbOptions>) => {
           <div class="breadcrumb-element">
             <a href={crumb.path}>
               {index === 0 ? (
-                <>BJJGraph<span class="breadcrumb-tld">.org</span></>
+                <>
+                  BJJGraph<span class="breadcrumb-tld">.org</span>
+                </>
               ) : (
                 crumb.displayName
               )}

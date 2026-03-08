@@ -1,0 +1,406 @@
+{
+  "name": "Pocket Half Pass",
+  "description": "Master the Pocket Half Pass in BJJ. Complete guide to passing from pocket half guard using underhook pressure, leg extraction, and systematic side control advancement.",
+  "tags": [
+    "bjj",
+    "transition",
+    "guard pass",
+    "pocket half guard",
+    "pressure passing",
+    "half guard passing",
+    "underhook pass"
+  ],
+  "from_position": "Pocket Half Guard/Top",
+  "outcomes": [
+    {
+      "to": "Side Control/Top",
+      "probability": 50,
+      "result": "success"
+    },
+    {
+      "to": "Pocket Half Guard/Top",
+      "probability": 32,
+      "result": "failure"
+    },
+    {
+      "to": "Half Guard/Bottom",
+      "probability": 18,
+      "result": "counter"
+    }
+  ],
+  "success_rate": 50,
+  "overview": "The Pocket Half Pass is the systematic completion of a guard pass from the pocket half guard top position, where the passer has already secured a deep underhook and established flattening pressure against the bottom player. This technique represents the critical final phase of pressure passing through half guard, converting positional dominance into a complete guard pass to side control. The defining characteristic is the coordinated use of underhook pulling pressure, crossface control, and methodical trapped leg extraction that prevents the bottom player from recovering guard or executing sweeps during the transition.\n\nStrategically, the Pocket Half Pass occupies a pivotal position in pressure-passing systems because it addresses the most common stalling point in half guard passing: the final leg extraction. Many practitioners can achieve underhook control and flattening from half guard top, but fail to complete the pass because they rush the leg extraction without maintaining sufficient upper body control. The Pocket Half Pass solves this by establishing a systematic progression where each phase builds on the previous one - flattening the opponent completely, isolating the trapped leg, extracting it through controlled knee movement, and consolidating into side control without leaving space for recovery. Competition data shows that practitioners who master this systematic approach achieve significantly higher pass completion rates than those who rely on explosive or scramble-based passing from this position.\n\nThe technique draws from fundamental pressure-passing principles while requiring specific adaptations for the pocket half guard configuration. The deep underhook provides superior upper body control compared to standard half guard top, but the bottom player's tight leg entanglement creates additional extraction challenges. Success depends on patient progression through each phase, recognizing that the underhook advantage means the bottom player's only viable defense is preventing leg extraction - which the passer can overcome through systematic weight distribution and controlled hip movement rather than explosive force.",
+  "conditions": [
+    "Top player has established deep underhook from pocket half guard position with grip on opponent's far lat or shoulder blade",
+    "Bottom player's half guard has been partially or fully flattened with back approaching or on the mat",
+    "Top player has achieved crossface or head control preventing bottom player from turning into the underhook",
+    "Bottom player's primary defensive frames have been compromised or passed",
+    "Top player's base is stable with free leg posted for balance during leg extraction"
+  ],
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Knee Slice Finish",
+      "description": "Drive the trapped knee diagonally across the bottom player's thigh while maintaining underhook and crossface, sliding through to side control with the shin cutting across their leg. Emphasizes forward diagonal pressure rather than vertical extraction.",
+      "when_to_use": "When bottom player's knee shield is weak or absent and their legs are relatively loose around the trapped leg, allowing the knee to slide through with minimal resistance."
+    },
+    {
+      "variant_name": "Windshield Wiper Extraction",
+      "description": "Rotate the trapped foot outward in a windshield wiper motion while keeping the knee pinned to the mat, using hip rotation to free the foot from the bottom player's leg entanglement. The circular motion makes it harder for the bottom player to maintain their grip.",
+      "when_to_use": "When the bottom player maintains a tight ankle-level grip on the trapped leg but their upper body control has been compromised by the flattening pressure."
+    },
+    {
+      "variant_name": "Backstep Finish",
+      "description": "Instead of extracting forward, step the free leg behind the bottom player's hips while releasing the trapped leg, arriving directly in side control from behind. Uses the underhook as a pivot point to change direction entirely.",
+      "when_to_use": "When the bottom player turns heavily into the underhook to defend the forward pass, creating space behind them that can be exploited by changing direction."
+    }
+  ],
+  "position_integration": "The Pocket Half Pass integrates into the broader half guard passing hierarchy as the primary completion technique from pocket half guard top. It connects the underhook establishment phase to side control consolidation, serving as a critical link between half guard engagement and dominant pin positions. This pass sits within pressure-passing chains alongside the knee slice, smash pass, and backstep, where each technique addresses different defensive reactions from the bottom player. Understanding the Pocket Half Pass is essential for completing the pocket half guard positional sequence and represents the natural culmination of winning the underhook battle in half guard top. It also feeds into the broader positional advancement system, as successful completion to side control opens pathways to mount, knee on belly, and submission entries.",
+  "related_content": [
+    {
+      "name": "Pocket Half Guard",
+      "relationship": "Source position - the starting configuration for this pass"
+    },
+    {
+      "name": "Side Control",
+      "relationship": "Primary target position upon successful pass completion"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Parent guard category and counter outcome position if swept"
+    },
+    {
+      "name": "Flattened Half Guard",
+      "relationship": "Intermediate position achieved during the flattening phase before pass completion"
+    },
+    {
+      "name": "Knee Shield Half Guard",
+      "relationship": "Common recovery position the defender attempts to establish to prevent the pass"
+    },
+    {
+      "name": "Deep Half Guard",
+      "relationship": "Primary escape route the defender uses when passer commits to forward pressure"
+    },
+    {
+      "name": "Back Step Pass",
+      "relationship": "Alternative passing technique from the same starting position"
+    },
+    {
+      "name": "Darce Control",
+      "relationship": "Submission opportunity when opponent turns into the underhook during pass attempt"
+    },
+    {
+      "name": "Knee on Belly",
+      "relationship": "Advanced positional target accessible after completing the pass to side control"
+    }
+  ],
+  "attacker": {
+    "name": "Pocket Half Pass Attacker",
+    "description": "Master executing the Pocket Half Pass in BJJ. Step-by-step guide to completing the guard pass from pocket half guard top using systematic pressure, leg extraction, and side control consolidation.",
+    "overview": "The Pocket Half Pass attacker has already won the critical underhook battle and established flattening pressure from pocket half guard top. The primary challenge now is completing the pass by extracting the trapped leg while maintaining all existing control points. This requires patience, systematic progression through defined phases, and the ability to read the bottom player's defensive adjustments to select the optimal extraction method. The attacker must coordinate upper body pulling pressure through the underhook with lower body extraction mechanics, ensuring that the bottom player cannot exploit the momentary instability of leg movement to recover guard, insert frames, or execute sweeps. Success comes from treating the pass as a sequential process rather than a single explosive movement.",
+    "key_principles": [
+      "Maintain underhook pulling pressure throughout the entire pass - releasing even momentarily allows the defender to recover frames and angle",
+      "Flatten the opponent completely before attempting leg extraction, as any remaining angle provides leverage for sweep defense",
+      "Control the crossface throughout to prevent the bottom player from turning into the underhook or creating shoulder rotation",
+      "Use patient, controlled hip movement for leg extraction rather than explosive jerking that compromises upper body control",
+      "Keep chest-to-chest pressure heavy during extraction to prevent space creation that enables guard recovery",
+      "Coordinate the free leg posting position with extraction timing to maintain base against counter-sweep attempts",
+      "Consolidate immediately into side control upon pass completion - do not pause as the defender will exploit any hesitation"
+    ],
+    "setup_requirements": [
+      "Deep underhook secured on the bottom player's far side with grip reaching across to their far lat, armpit, or belt line",
+      "Crossface or head control established with forearm pressure across the bottom player's face and neck, preventing them from turning into you",
+      "Bottom player's half guard significantly flattened with their shoulders approaching or on the mat and limited hip mobility",
+      "Free leg posted with foot on the mat providing stable base against counter-sweeps during the extraction phase",
+      "Bottom player's primary defensive frames (near arm, knee shield) have been passed or pinned, reducing their recovery options"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Verify control establishment",
+        "description": "Confirm that your underhook is deep with a solid grip on the opponent's far lat or shoulder blade, your crossface is driving their head away, and your chest pressure has their shoulders flat or nearly flat on the mat. Do not proceed to extraction if any of these control points are compromised."
+      },
+      {
+        "step_number": 2,
+        "action": "Consolidate flattening pressure",
+        "description": "Drive your chest weight forward and down into the opponent's upper torso while pulling with your underhook to elevate their far shoulder. Simultaneously use your free hand to pin their near arm to their body or control their far hip, eliminating any remaining defensive structures that could interfere with the pass."
+      },
+      {
+        "step_number": 3,
+        "action": "Isolate the trapped leg",
+        "description": "Shift your weight slightly toward the trapped leg side, driving your knee toward the mat to begin separating your leg from the opponent's entanglement. The key is to make your trapped knee heavy against the mat rather than pulling upward, which would create space under your hips for the opponent to exploit."
+      },
+      {
+        "step_number": 4,
+        "action": "Begin leg extraction",
+        "description": "Using a windshield wiper or knee slice motion, rotate your trapped foot outward while keeping your knee pinned low. Your hip should drive forward into the opponent's hip line as you extract, maintaining pressure throughout. If the opponent's legs are tight, use small pulsing movements rather than one large pull to systematically break their grip without compromising your upper body position."
+      },
+      {
+        "step_number": 5,
+        "action": "Clear the leg past the entanglement",
+        "description": "As your foot clears the opponent's legs, immediately drive your knee to the mat on the far side of their hip, blocking any attempt to re-insert hooks or recover half guard. Your shin should create a barrier between your legs and theirs, sealing the pass completion. Maintain constant underhook and crossface pressure throughout this critical moment."
+      },
+      {
+        "step_number": 6,
+        "action": "Establish hip-to-hip connection",
+        "description": "Drop your hips flat against the opponent's hips with your full weight distributed through your torso onto their body. Eliminate any remaining space between your bodies by sprawling your legs wide and driving your chest pressure downward. Your hips should be the heaviest point of contact, pinning their hips to the mat and preventing any guard recovery."
+      },
+      {
+        "step_number": 7,
+        "action": "Consolidate side control",
+        "description": "Transition your underhook grip to a standard side control crossface and underhook configuration. Establish perpendicular chest alignment with your shoulder driving into their chin or jaw. Block their near hip with your free hand to prevent knee insertion. Post your far leg wide for base stability and settle your weight to complete the pass into dominant side control."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Opponent bridges explosively during leg extraction phase to create space and threaten sweep",
+        "effectiveness": "Medium",
+        "your_response": "Ride the bridge by widening your base with the free leg rather than fighting it directly. Maintain chest connection and underhook grip throughout. When they land back on the mat, immediately re-establish flattening pressure and continue extraction from where you paused.",
+        "targets_outcome": "Half Guard/Bottom"
+      },
+      {
+        "counter": "Opponent scoots hips under you to enter deep half guard before extraction is complete",
+        "effectiveness": "High",
+        "your_response": "Immediately sprawl your hips back and drive your trapped knee toward the mat to prevent them from getting underneath. If they achieve partial deep half entry, abandon the current pass sequence and address the deep half position before it becomes fully established.",
+        "targets_outcome": "Pocket Half Guard/Top"
+      },
+      {
+        "counter": "Opponent recovers knee shield by inserting their shin across your hip line during extraction",
+        "effectiveness": "Medium",
+        "your_response": "Drive your shoulder deeper into the crossface while simultaneously pushing their knee down with your free hand. If the knee shield is solidly established, transition to a knee slice angle that uses their shin as a fulcrum rather than fighting directly against the frame.",
+        "targets_outcome": "Pocket Half Guard/Top"
+      },
+      {
+        "counter": "Opponent turns into the underhook and attempts to come to their knees for a scramble",
+        "effectiveness": "Medium",
+        "your_response": "Recognize the turn-in as an opportunity rather than a threat. Immediately switch to a darce choke entry by releasing the crossface hand and threading it under their neck as they turn. Alternatively, use their rotation momentum to take the back by sliding behind them.",
+        "targets_outcome": "Pocket Half Guard/Top"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Rushing leg extraction before establishing complete flattening and upper body control",
+        "consequence": "Bottom player retains enough angle and mobility to execute sweeps, recover guard, or insert defensive frames that stall the pass",
+        "correction": "Follow the systematic progression: flatten first, then isolate, then extract. Spend the extra seconds ensuring complete control before moving to extraction phase."
+      },
+      {
+        "error": "Releasing underhook pressure during the leg extraction phase to use the arm for base",
+        "consequence": "Bottom player immediately recovers their underhook, creates angle, and initiates sweeps or guard recovery that reverse the passing advantage",
+        "correction": "Maintain constant underhook pulling pressure throughout the entire extraction. Use your free leg for base rather than releasing the underhook arm. The underhook is your primary control mechanism and must never be abandoned."
+      },
+      {
+        "error": "Pulling the trapped leg upward instead of driving the knee toward the mat during extraction",
+        "consequence": "Creates space under your hips that the bottom player exploits for deep half entry or guard recovery, and compromises your forward pressure",
+        "correction": "Drive your knee into the mat and rotate your foot outward in a windshield wiper motion. The extraction should go downward and outward, not upward, maintaining your center of gravity low throughout."
+      },
+      {
+        "error": "Failing to immediately consolidate side control after clearing the legs",
+        "consequence": "Bottom player uses the transition moment to insert a knee, recover half guard, or create enough distance to establish open guard frames",
+        "correction": "The instant your leg clears, drop your hips flat against theirs and establish perpendicular chest alignment. There should be zero pause between pass completion and side control establishment."
+      },
+      {
+        "error": "Allowing crossface to slip during the weight shifting required for extraction",
+        "consequence": "Bottom player turns their head toward you, creates rotational angle, and either recovers guard position or threatens sweeps from the newly created angle",
+        "correction": "Drive your crossface forearm deeper into their jaw as you shift weight. The crossface should intensify during extraction to compensate for the momentary weight redistribution."
+      },
+      {
+        "error": "Using explosive jerking motion to free the trapped leg instead of controlled progressive extraction",
+        "consequence": "Explosive movement creates reactional space, disrupts your balance, and telegraphs the pass attempt giving the defender time to counter",
+        "correction": "Use patient, grinding hip pressure with small pulsing movements to break the leg entanglement. Progressive pressure is harder to counter than explosive force because it does not create the space that enables defensive reactions."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Control Mechanics",
+        "focus": "Establishing and maintaining pocket half guard top control points",
+        "description": "Practice achieving and holding the pocket half guard top position against progressive resistance. Focus on underhook depth, crossface angle, chest pressure distribution, and flattening mechanics. Partner provides 30-50% resistance while you maintain position for 60-second rounds. Drill until you can sustain control without muscular fatigue."
+      },
+      {
+        "phase": "Phase 2: Extraction Technique",
+        "focus": "Leg extraction mechanics without resistance",
+        "description": "With cooperative partner, practice the three extraction variations (knee slice, windshield wiper, backstep) in isolation. Focus on hip movement patterns, knee driving angles, and maintaining upper body control during leg movement. Perform 20 repetitions of each variation per session until the movement patterns become automatic."
+      },
+      {
+        "phase": "Phase 3: Extraction Under Pressure",
+        "focus": "Completing extraction against active defensive resistance",
+        "description": "Partner provides specific defensive reactions (bridge, deep half attempt, knee shield recovery) while you identify and execute the appropriate extraction variation. Start at 50% resistance and progress to 80%. Practice reading the defender's reaction and selecting the correct response within 2-3 seconds."
+      },
+      {
+        "phase": "Phase 4: Pass Completion Chain",
+        "focus": "Linking extraction to side control consolidation seamlessly",
+        "description": "Practice the complete sequence from pocket half guard top through extraction to settled side control in continuous flow. Partner provides progressive resistance across the entire chain. Emphasize the transition moment between pass completion and side control establishment where most passes are lost."
+      },
+      {
+        "phase": "Phase 5: Live Integration",
+        "focus": "Applying the complete pass in positional sparring and live rolling",
+        "description": "Positional sparring rounds starting from pocket half guard top. Top player must complete the pass within 90 seconds; bottom player can use any defense. Track completion rate and identify which defensive reactions cause the most difficulty for targeted drilling."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the critical difference between pulling the trapped leg upward versus driving the knee toward the mat during extraction?",
+        "answer": "Pulling upward lifts your hips off the opponent's body, creating space underneath that they exploit for deep half guard entry or guard recovery. Driving the knee toward the mat maintains your center of gravity low, keeps pressure on the opponent, and uses rotational mechanics rather than lifting mechanics to free the leg. The downward-outward trajectory is biomechanically stronger and gives the defender less to react to."
+      },
+      {
+        "question": "Your opponent begins scooting their hips under you for deep half guard as you start the extraction - what is your immediate response?",
+        "answer": "Immediately abandon the extraction and sprawl your hips backward while driving your trapped knee hard into the mat. This prevents them from getting underneath your center of gravity. Simultaneously increase your underhook pulling pressure to keep their far shoulder elevated. Address the deep half entry first by re-establishing flattening pressure before resuming any extraction attempt."
+      },
+      {
+        "question": "Why must the underhook pressure be maintained throughout the entire extraction phase rather than released for additional base support?",
+        "answer": "The underhook is your primary upper body control mechanism. Releasing it even momentarily allows the bottom player to recover their own underhook, create rotational angle, and initiate sweeps or guard recovery sequences. Without the underhook pulling their shoulder up, the bottom player can flatten their back and generate the hip power needed for bridges and sweeps. Your base during extraction comes from your free leg posting position, not from your arms."
+      },
+      {
+        "question": "What are the setup requirements that must be confirmed before initiating the leg extraction phase?",
+        "answer": "Five conditions must be verified: deep underhook grip on the far lat or shoulder blade, crossface driving the opponent's head away preventing rotation, chest pressure with the opponent's shoulders flattened to the mat, the opponent's primary defensive frames passed or pinned, and your free leg posted with stable base. Attempting extraction without any one of these creates openings the defender will exploit."
+      },
+      {
+        "question": "How do you adjust the extraction technique when the bottom player maintains tight ankle-level grips on your trapped leg?",
+        "answer": "Use the windshield wiper extraction variant where you rotate your trapped foot outward in a circular motion while keeping the knee pinned to the mat. Small pulsing hip rotations progressively break the ankle grip more effectively than one large pulling motion. Simultaneously increase your chest pressure to reduce the bottom player's ability to maintain grip strength. The circular motion attacks the grip from changing angles, making it significantly harder to hold than resisting a straight pull."
+      },
+      {
+        "question": "What is the optimal timing window for initiating the pass, and what signals indicate the defender is most vulnerable?",
+        "answer": "The optimal window opens when the defender's primary defensive reactions have been exhausted - immediately after a failed bridge attempt, after you successfully strip their knee shield, or when they pause after an unsuccessful frame. Physical cues include their arms relaxing against your pressure, their hips settling flat on the mat, or their trapped leg grip loosening. Do not initiate extraction during their active defensive cycle; wait for the recovery pause between efforts."
+      },
+      {
+        "question": "Your opponent successfully recovers a partial knee shield during your extraction attempt - do you continue or reset?",
+        "answer": "If the knee shield is partial with their shin across your hip but without full extension, drive your shoulder deeper into the crossface and use your free hand to push their knee down toward the mat while continuing the extraction with increased forward pressure. If the knee shield is solid with full shin frame and space created, reset by abandoning the direct extraction and either transition to a knee slice angle that uses their shin as a fulcrum, or re-establish full flattening before attempting again."
+      },
+      {
+        "question": "What is the most critical mechanical detail during the final phase of clearing your leg past the entanglement?",
+        "answer": "The moment your foot clears the opponent's legs, you must immediately drive your knee to the mat on the far side of their hip to create a barrier preventing hook re-insertion. Any hesitation or space allows the bottom player to catch your leg with a last-resort hook and recover half guard. The knee-to-mat seal must be accompanied by simultaneous hip drop onto their body to eliminate space. The leg clear and the seal are one continuous motion, not two separate actions."
+      }
+    ],
+    "safety_considerations": "The Pocket Half Pass is a low-risk technique from a safety perspective, as it involves controlled pressure passing without joint manipulation or choking mechanics. However, practitioners should be mindful of knee pressure on the trapped leg during forceful extraction, avoid excessive crossface pressure on the jaw that could cause cervical strain, and ensure that body weight distribution does not concentrate on small areas of the partner's ribcage during training. When drilling, communicate with your partner about pressure intensity and avoid rapid explosive extractions that could strain the bottom player's knee ligaments."
+  },
+  "defender": {
+    "name": "Pocket Half Pass Defender",
+    "description": "Master defending the Pocket Half Pass in BJJ. Recognition cues, defensive options, and recovery techniques to prevent guard passing from pocket half guard bottom.",
+    "overview": "Defending the Pocket Half Pass requires recognizing the specific moment when the top player commits to extracting their trapped leg and transitioning from positional control to active passing. The defender's window of opportunity is narrow but well-defined: once the passer shifts weight to begin extraction, they create brief moments of instability that can be exploited for guard recovery, sweep attempts, or positional transitions. The key defensive principle is preventing the flattening that precedes the pass rather than trying to stop the extraction itself. If the defender allows complete flattening with underhook and crossface control, the pass becomes extremely difficult to prevent. Proactive defense through maintaining hip mobility, frame creation, and threatening offensive responses forces the passer to address defensive actions rather than focusing on pass completion.",
+    "key_principles": [
+      "Prevent complete flattening at all costs - maintaining hip angle and mobility is the primary defensive priority before the pass attempt begins",
+      "Recognize the pass initiation immediately through weight shift and knee movement cues, then execute defensive response within the first 1-2 seconds",
+      "Use frames against the shoulder and hip to create space rather than pushing against the head, which exposes your arms to attacks",
+      "Threaten offensive responses like sweeps and back takes to interrupt the passer's systematic progression rather than relying purely on defense",
+      "If the underhook is lost, immediately transition to an alternative guard rather than fighting from a compromised position",
+      "Maintain active legs throughout - the trapped leg grip is your last line of defense and must be held with conscious effort under extreme pressure",
+      "Time explosive defensive responses to coincide with the passer's weight shift during extraction, when their base is most compromised"
+    ],
+    "recognition_cues": [
+      "Passer increases forward chest pressure significantly while simultaneously pulling harder with the underhook, indicating preparation for the flattening phase",
+      "Passer's trapped knee begins driving toward the mat with rotational hip movement rather than static pressure, signaling the extraction phase has begun",
+      "Passer's free hand moves from controlling your arm to blocking your hip, indicating they are preparing to prevent knee insertion during the pass",
+      "Weight distribution shifts from evenly spread across your torso to concentrated on the trapped leg side as the passer prepares to drive through",
+      "Passer's crossface intensifies with deeper forearm pressure against your jaw, attempting to prevent you from turning into the underhook during extraction"
+    ],
+    "defensive_options": [
+      {
+        "action": "Bridge explosively during the extraction phase when the passer's weight shifts to their trapped knee side",
+        "when_to_use": "The moment you feel the passer begin to rotate their hip for leg extraction - their base is most compromised during this weight shift",
+        "targets_outcome": "Half Guard/Bottom",
+        "if_successful": "Passer is swept off balance and you achieve top position in half guard or scramble to a neutral position",
+        "risk": "If the bridge is poorly timed or the passer has stable base, you waste significant energy and may accelerate your own flattening"
+      },
+      {
+        "action": "Scoot hips underneath the passer to enter deep half guard before extraction is complete",
+        "when_to_use": "When the passer commits forward pressure for flattening but before the extraction begins - use their forward momentum to slide underneath",
+        "targets_outcome": "Pocket Half Guard/Top",
+        "if_successful": "You transition to deep half guard where sweeping mechanics are favorable and the pass attempt is completely nullified",
+        "risk": "If the passer recognizes the entry and sprawls quickly, you may end up flattened in a worse position with less mobility"
+      },
+      {
+        "action": "Insert knee shield by driving your shin across the passer's hip line while framing against their shoulder",
+        "when_to_use": "When you detect the initial weight shift indicating pass preparation but before complete flattening occurs - requires remaining hip mobility",
+        "targets_outcome": "Pocket Half Guard/Top",
+        "if_successful": "You recover knee shield half guard, creating distance and defensive frame that resets the passing sequence entirely",
+        "risk": "If the passer has achieved deep crossface and full flattening, the knee shield insertion attempt may fail and expose your arm"
+      },
+      {
+        "action": "Swim for underhook recovery by framing the passer's shoulder to create space, then re-threading your arm for the underhook",
+        "when_to_use": "During any moment where the passer's crossface loosens or their weight shifts off your upper body, creating a brief window for arm movement",
+        "targets_outcome": "Pocket Half Guard/Top",
+        "if_successful": "You recover the underhook battle and return to an offensive pocket half guard bottom position with sweep and back-take threats",
+        "risk": "The arm movement during the swim can be intercepted by the passer for kimura or americana attacks if poorly timed"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Half Guard/Bottom",
+        "how": "Time an explosive bridge to coincide with the passer's extraction weight shift, using their momentary instability to sweep them into bottom half guard. The bridge must be powerful enough to compromise their base while their weight is committed to the extraction side."
+      },
+      {
+        "outcome": "Pocket Half Guard/Top",
+        "how": "Prevent the pass from completing by recovering knee shield or deep half position before the extraction succeeds. This requires early recognition of the pass initiation and immediate defensive response within the first 1-2 seconds. Active hip movement and frame creation are essential to maintain enough mobility for recovery."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Accepting the flattened position passively without fighting to maintain hip angle and mobility",
+        "consequence": "Once completely flattened with crossface and underhook established, the pass becomes nearly impossible to prevent regardless of defensive technique",
+        "correction": "Fight constantly to maintain your side angle using active hip escaping. If you feel yourself being flattened, immediately initiate a defensive transition rather than trying to resist the pressure directly."
+      },
+      {
+        "error": "Attempting to push the passer's head away with extended arms",
+        "consequence": "Extended arms are vulnerable to kimura and americana attacks, and pushing the head creates no structural advantage compared to proper frames",
+        "correction": "Frame against the passer's shoulder or bicep with forearms, keeping elbows close to your body. Use structural frames that create space through leverage rather than pushing motions that expose your limbs."
+      },
+      {
+        "error": "Waiting until the extraction is nearly complete before attempting any defensive response",
+        "consequence": "By the time the leg is clearing the entanglement, the passer has already established the control needed for side control consolidation",
+        "correction": "React at the first recognition cue - the initial weight shift or knee drive. Your defensive window is in the first 1-2 seconds of the extraction, not during the final clearing phase."
+      },
+      {
+        "error": "Releasing the half guard leg entanglement prematurely to attempt a different escape",
+        "consequence": "Freeing the passer's leg eliminates your primary control point and essentially completes the pass for them without requiring any extraction effort",
+        "correction": "Maintain the leg entanglement as your last line of defense. Any defensive response must work around maintaining this grip. Only abandon it when transitioning to a specific alternative guard position."
+      },
+      {
+        "error": "Focusing solely on preventing the pass without threatening any offensive responses",
+        "consequence": "The passer can methodically work through their extraction sequence without pressure or distractions, increasing their completion rate significantly",
+        "correction": "Even from a defensive position, threaten sweeps and underhook recoveries. The threat of offense forces the passer to address your actions rather than focusing entirely on the extraction."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the primary defensive priority when you recognize the Pocket Half Pass is being initiated?",
+        "answer": "The primary priority is preventing complete flattening before the extraction begins, not stopping the extraction itself. If you maintain hip mobility and angle, you preserve access to defensive transitions like deep half entry, knee shield recovery, and sweep attempts. Once fully flattened with crossface and underhook control established, defensive options are severely limited regardless of technique knowledge."
+      },
+      {
+        "question": "When is the optimal timing window to attempt a bridge-based sweep defense against the Pocket Half Pass?",
+        "answer": "The optimal window is during the passer's extraction weight shift, when they commit their weight to the trapped knee side to begin driving it toward the mat. At this moment, their base is asymmetrically loaded and most vulnerable to a bridge in the opposite direction. Bridging before this moment fights against their full balanced base, and bridging after it is too late because their leg is already clearing."
+      },
+      {
+        "question": "Why is maintaining the half guard leg entanglement critical even when other defensive options are being attempted?",
+        "answer": "The leg entanglement is your final control point that forces the passer to complete the extraction sequence before achieving side control. Without it, the passer can simply step through to side control without any resistance. All defensive responses work around maintaining this grip. Releasing it prematurely concedes the pass entirely and eliminates all remaining defensive leverage."
+      },
+      {
+        "question": "Your underhook has been stripped and the passer has established deep crossface - what should your immediate defensive strategy be?",
+        "answer": "Do not attempt to recover the underhook against an established crossface. Instead, immediately transition to an alternative defensive guard. Your best option is to hip escape and insert a knee shield to create distance, then work to recover either full guard or establish a different half guard variation. Alternatively, use the passer's forward pressure momentum to scoot underneath for deep half guard entry. When your primary control point is lost, transition to a new defensive system rather than fighting to recover the original one."
+      },
+      {
+        "question": "What recognition cues indicate the passer is about to commit to the final leg extraction rather than continuing positional pressure?",
+        "answer": "Three primary cues signal extraction commitment: the passer's trapped knee begins driving toward the mat with rotational hip movement rather than static downward pressure, their free hand shifts from arm control to hip blocking position to prevent your knee insertion during the pass, and their crossface intensifies significantly as they try to prevent your rotation during the vulnerable extraction phase. Recognizing these cues gives you a 1-2 second window to execute your chosen defensive response."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Recognition Training",
+        "focus": "Identifying pass initiation cues from pocket half guard bottom",
+        "description": "Partner executes the Pocket Half Pass at 30% speed with verbal announcement of each phase. Focus on feeling the weight shifts, knee drives, and crossface changes that signal each stage. Practice calling out the phase before the partner announces it to build unconscious pattern recognition."
+      },
+      {
+        "phase": "Phase 2: Individual Defense Drilling",
+        "focus": "Practicing each defensive option in isolation against cooperative resistance",
+        "description": "Drill each defensive response separately: bridge sweep timing, deep half entry, knee shield recovery, and underhook recovery. Partner executes the pass at 50% while you practice one specific defense per round. Perform 15-20 repetitions of each defense to build muscle memory."
+      },
+      {
+        "phase": "Phase 3: Defensive Decision Making",
+        "focus": "Selecting the appropriate defense based on the passer's specific approach",
+        "description": "Partner varies their pass approach (fast extraction, slow pressure, backstep variation) and you must read their method and select the correct defensive response in real time. Start at 50% resistance and progress to 80%. Develop the ability to match defense to attack within 1-2 seconds of recognition."
+      },
+      {
+        "phase": "Phase 4: Live Defensive Sparring",
+        "focus": "Applying defensive skills under full competitive pressure",
+        "description": "Positional sparring rounds starting in pocket half guard with the passer given full freedom to complete the pass. Defender scores by preventing the pass for 60 seconds, recovering guard, or sweeping. Track success rate and identify which pass variations cause the most difficulty."
+      }
+    ]
+  }
+}

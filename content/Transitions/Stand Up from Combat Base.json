@@ -1,0 +1,403 @@
+{
+  "name": "Stand Up from Combat Base",
+  "description": "Master the stand up from combat base in BJJ. Complete guide to safely transitioning from kneeling to standing guard passing position with proper timing and base.",
+  "tags": [
+    "bjj",
+    "transition",
+    "combat-base",
+    "standing",
+    "guard-passing",
+    "positional-advancement",
+    "base-management"
+  ],
+  "from_position": "Combat Base/Top",
+  "outcomes": [
+    {
+      "to": "Standing Position/Top",
+      "probability": 55,
+      "result": "success"
+    },
+    {
+      "to": "Combat Base/Top",
+      "probability": 30,
+      "result": "failure"
+    },
+    {
+      "to": "Closed Guard/Top",
+      "probability": 15,
+      "result": "counter"
+    }
+  ],
+  "success_rate": 55,
+  "overview": "The Stand Up from Combat Base is a fundamental positional transition in Brazilian Jiu-Jitsu where the top player elevates from a kneeling combat base posture to a fully standing position while maintaining engagement with the opponent's guard. This movement unlocks the entire arsenal of standing guard passes—Toreando, leg drags, X-passes, and long step passes—that are inaccessible from a kneeling position. The standing posture provides superior leverage for breaking grips, superior mobility for creating passing angles, and the gravitational advantage of fighting from above the opponent's guard structure.\n\nThe critical challenge lies in the transition window—the 1-2 seconds during which the practitioner's base shifts from the stable three-point combat base structure to a two-foot standing position. During this window, the center of gravity rises and the base narrows, creating vulnerability to sweeps, guard closures, and leg entanglements. Skilled guard players specifically train to attack this moment, making execution technique and timing paramount. The safest approach involves loading weight forward through controlling grips before lifting the posted knee, ensuring the opponent bears downward pressure throughout the entire elevation sequence.\n\nThis transition is most effective when the opponent creates distance with their frames or pushes away with their feet on hips. Their defensive action paradoxically provides the space needed to stand safely. Conversely, attempting to stand against a guard player who is actively closing distance with hooks and pulling grips carries significantly higher sweep risk. Reading the opponent's guard engagement level and selecting the appropriate moment is the difference between a clean stand up and a compromised position.",
+  "conditions": [
+    "Established combat base with one knee posted and opposite foot flat on the mat",
+    "Opponent's closed guard has been opened or was never established",
+    "At least one controlling grip on opponent's legs, pants, or hips to manage distance during transition",
+    "No immediate submission threats such as triangle setups, omoplata entries, or deep collar grips threatening chokes",
+    "Sufficient space to rise without opponent's legs creating elevator hooks or deep butterfly engagement"
+  ],
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Hand-Post Stand Up",
+      "description": "Post one hand on the mat behind you while the other maintains a pant grip, creating a temporary four-point base during the transition. The posted hand provides additional stability during the most vulnerable phase of elevation, making this the safest variant for beginners or when the opponent has active sweeping threats.",
+      "when_to_use": "When the opponent has active hooks or underhooks that threaten sweep during the standard two-hand-on-pants stand up"
+    },
+    {
+      "variant_name": "Double Pant Grip Power Stand",
+      "description": "Maintain both hands gripping the opponent's pants at the knees throughout the entire stand up. This variant prioritizes leg control over additional base support, pinning both of the opponent's legs simultaneously and preventing hook insertion, guard closure, or leg pummeling during the transition.",
+      "when_to_use": "When the opponent has strong guard closure ability or you plan to immediately initiate a Toreando or leg drag pass upon reaching standing"
+    },
+    {
+      "variant_name": "Collar-and-Pant Stand Up",
+      "description": "Maintain one hand on the opponent's collar and the other on their pant leg while standing. The collar grip provides posture control and prevents the opponent from sitting up to attack, while the pant grip manages their leg. This asymmetric grip configuration allows immediate transition into collar-based passing sequences from standing.",
+      "when_to_use": "In gi competition when you want to maintain upper body control for choke threats or to prevent the opponent from establishing a seated guard posture"
+    }
+  ],
+  "position_integration": "The Stand Up from Combat Base serves as the critical bridge between kneeling and standing guard passing methodologies. It connects the combat base position—the primary kneeling guard engagement platform—to the standing position, unlocking the full arsenal of dynamic passing techniques including Toreando passes, leg drags, and X-passes. This transition is particularly important in modern competition BJJ where standing passing has become dominant due to its speed advantages and ability to neutralize sophisticated seated guard systems. Mastering this transition allows practitioners to fluidly shift between pressure-based kneeling passes and movement-based standing passes, creating a versatile and unpredictable passing game that forces the guard player to defend multiple passing styles.",
+  "related_content": [
+    {
+      "name": "Combat Base",
+      "relationship": "Starting position from which the stand up is initiated"
+    },
+    {
+      "name": "Standing Position",
+      "relationship": "Primary success target after completing the stand up transition"
+    },
+    {
+      "name": "Open Guard",
+      "relationship": "Opponent's guard state when top player achieves standing position"
+    },
+    {
+      "name": "Closed Guard",
+      "relationship": "Counter outcome when opponent closes guard during the transition window"
+    },
+    {
+      "name": "Headquarters Position",
+      "relationship": "Alternative positional advancement from combat base without standing"
+    },
+    {
+      "name": "De La Riva Guard",
+      "relationship": "Common guard opponent establishes against a standing passer after stand up completes"
+    },
+    {
+      "name": "Butterfly Guard",
+      "relationship": "Guard type that threatens sweeps during the stand up transition"
+    },
+    {
+      "name": "Combat Base to Headquarters",
+      "relationship": "Alternative advancement path from the same starting position"
+    },
+    {
+      "name": "Standing Guard",
+      "relationship": "Related standing guard engagement position after completing the stand up"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Position that may result if the stand up is partially defended and passing begins immediately"
+    }
+  ],
+  "attacker": {
+    "name": "Stand Up from Combat Base Attacker",
+    "description": "Learn to execute the stand up from combat base in BJJ. Step-by-step guide covering weight management, grip control, and timing for transitioning to standing guard passing position.",
+    "overview": "As the executing practitioner, your goal is to elevate from a kneeling combat base posture to a standing position while maintaining forward pressure and grip control on your opponent's lower body. The critical challenge is managing the transition window—the brief moment when your base shifts from three contact points to two feet—without allowing the guard player to exploit the weight shift for sweeps, guard closures, or leg entanglements. Success depends on loading your weight forward through your controlling grips before driving the hips upward, ensuring your center of gravity never travels backward during the elevation. The stand up must be decisive and committed: hesitation in the half-standing position invites the worst defensive responses from the guard player.",
+    "key_principles": [
+      "Load weight forward through controlling grips before lifting the posted knee to maintain downward pressure throughout the transition",
+      "Rise with hips first while keeping center of gravity low and forward, never allowing hips to drift backward",
+      "Control at least one leg or pant grip throughout the entire stand-up sequence to prevent guard closure and hook insertion",
+      "Establish a wide athletic base immediately upon reaching standing to provide multi-directional stability",
+      "Time the stand up when the opponent creates distance with frames or pushes, using their defensive space as your opportunity",
+      "Commit fully to the stand up once initiated—the half-standing position is the most vulnerable point in the transition"
+    ],
+    "setup_requirements": [
+      "Established combat base with stable triangulated base and upright posture",
+      "At least one controlling grip on opponent's pants, ankles, or shins to manage legs during transition",
+      "Opponent's closed guard opened and all butterfly or elevator hooks cleared from your legs",
+      "Forward weight distribution through grips with pressure directed toward opponent, not sitting back on heels",
+      "No immediate triangle, armbar, or omoplata threats from the opponent's current leg and grip configuration"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Establish Controlling Grips",
+        "description": "Secure both hands on the opponent's pants at knee level or on their ankles, creating anchor points that will maintain downward pressure and distance control throughout the stand-up sequence. These grips serve dual purposes: they pin the opponent's primary weapons (their legs) and provide handles for immediate passing entries upon reaching standing. In no-gi, control behind the knees or grip the ankles."
+      },
+      {
+        "step_number": 2,
+        "action": "Load Weight Forward",
+        "description": "Shift your center of gravity forward by driving chest weight through your arms and into the opponent's legs. This forward loading ensures that when you lift your posted knee, your weight moves upward rather than backward. The opponent should feel increased downward pressure on their legs, which pins their hooks and prevents them from attacking during the transition window."
+      },
+      {
+        "step_number": 3,
+        "action": "Step Trailing Foot Up",
+        "description": "Bring your trailing foot (the posted knee side) up to a flat-footed position approximately hip-width from your already-posted foot. Keep the movement compact and explosive, minimizing the time spent in the unstable transitional phase. Your weight must remain forward through your grips during this step—if you feel weight shifting to your heels, you have moved too far back."
+      },
+      {
+        "step_number": 4,
+        "action": "Drive Hips Upward",
+        "description": "Explosively extend both legs to drive your hips up and slightly forward, achieving a bent-knee standing position. Maintain grip pressure downward throughout the hip extension to prevent the opponent from following your upward movement with hooks or guard closure attempts. Think of pressing the opponent's knees into the mat as you rise—this creates opposing forces that anchor your transition."
+      },
+      {
+        "step_number": 5,
+        "action": "Establish Wide Standing Base",
+        "description": "Plant both feet at least shoulder-width apart with toes angled slightly outward, creating a stable athletic stance. Weight should be on the balls of your feet with knees slightly bent, ready to move laterally for passing. Avoid standing fully upright immediately—maintain a lower athletic stance until you have confirmed grip control and cleared all hooks from your legs."
+      },
+      {
+        "step_number": 6,
+        "action": "Clear Remaining Hooks and Frames",
+        "description": "Use your grip control to systematically strip any remaining hooks the opponent established during your transition. Push their feet off your hips, strip ankle grips from your pants, and clear shin frames by pressing their knees together or to one side. Address the most threatening hook first—a De La Riva hook or butterfly hook takes priority over a passive foot-on-hip frame."
+      },
+      {
+        "step_number": 7,
+        "action": "Establish Passing Posture",
+        "description": "Rise to full standing height with upright posture, shoulders back, and hips positioned under your center of gravity. Assess the opponent's guard configuration—feet on hips, De La Riva hooks, seated posture, or retreating to establish distance—and immediately initiate your chosen passing strategy before they can consolidate their preferred guard system. The first 2-3 seconds after completing the stand up are the highest-percentage window for passing entries."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Opponent closes guard by locking ankles behind your back during weight transition",
+        "effectiveness": "High",
+        "your_response": "Strip the ankle lock immediately by posting one hand on their hip and driving your hips backward while wedging your elbow inside their knee. If guard fully closes, reset to closed guard opening sequence before reattempting.",
+        "targets_outcome": "Closed Guard/Top"
+      },
+      {
+        "counter": "Opponent pulls collar grip to break posture forward as hips begin to rise",
+        "effectiveness": "High",
+        "your_response": "Break the collar grip before committing to the stand up using a two-on-one peel. If the grip is too deep, abort the stand up, resettle into combat base, and strip the grip before reattempting from a secure base.",
+        "targets_outcome": "Combat Base/Top"
+      },
+      {
+        "counter": "Opponent establishes De La Riva hook on lead leg during the transition",
+        "effectiveness": "Medium",
+        "your_response": "Drive the hooked knee forward and inward to strip the hook using rotational force. Do not step back, as this deepens the entanglement. Maintain pant grip control on the hooking leg and circle your foot to clear the hook before continuing to stand.",
+        "targets_outcome": "Combat Base/Top"
+      },
+      {
+        "counter": "Opponent hip bumps or bridges into you during the moment of weight shift",
+        "effectiveness": "Medium",
+        "your_response": "Absorb the bump by bending your arms slightly and lowering your center of gravity. If balance is compromised, post one hand on the mat for emergency base rather than falling forward into their guard. Reset to combat base if necessary.",
+        "targets_outcome": "Closed Guard/Top"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Standing up without first establishing grip control on opponent's legs",
+        "consequence": "Opponent freely inserts hooks, closes guard, or establishes strong gripping positions during the uncontrolled transition, resulting in immediate guard closure or sweep",
+        "correction": "Always secure at least one pant grip at knee level before initiating the stand up. Both pant grips is ideal. These grips anchor the transition and prevent the opponent's legs from attacking your base."
+      },
+      {
+        "error": "Shifting weight backward instead of forward during the stand up",
+        "consequence": "Creates space between you and the opponent, allowing them to sit up, establish hooks, or close guard. Backward weight shift also makes your base vulnerable to forward-pulling sweeps.",
+        "correction": "Drive weight forward through your grips into the opponent's legs before and during the stand up. Your hips should travel upward and slightly forward, never backward. If you feel your weight on your heels at any point, the trajectory is wrong."
+      },
+      {
+        "error": "Standing with a narrow base, feet close together",
+        "consequence": "Narrow base is easily swept from any direction and provides no lateral stability for passing movements. A single hook or push can topple your standing posture.",
+        "correction": "Plant feet at least shoulder-width apart immediately upon reaching standing. Toes slightly outward with knees bent creates the widest, most stable base for both balance retention and passing initiation."
+      },
+      {
+        "error": "Releasing all downward pressure on opponent during the transition",
+        "consequence": "Opponent's legs become free to attack, insert hooks, close guard, or establish preferred guard grips. The moment of zero pressure is when most counters succeed.",
+        "correction": "Maintain constant downward force through your grips throughout the entire elevation. Think of pressing the opponent's knees into the mat as you stand. There should never be a moment where their legs are uncontrolled."
+      },
+      {
+        "error": "Rising too slowly and spending excessive time in the half-standing position",
+        "consequence": "The half-standing position combines the worst of both postures: reduced base stability without the benefits of full standing mobility. Extended time here invites sweeps and guard attacks.",
+        "correction": "Commit to the stand up explosively once initiated. The transition from posted knee to both feet standing should take no more than 1-2 seconds. Treat the half-standing position as a momentary phase to pass through, not a position to occupy."
+      },
+      {
+        "error": "Looking down at the opponent instead of maintaining upright posture when standing",
+        "consequence": "Forward head position pulls your center of gravity forward and down, making you vulnerable to collar drags, snap downs, and guard pulls that exploit your compromised posture",
+        "correction": "Keep your head up and eyes at chest level once standing. Your grips provide the tactile feedback needed to manage the opponent's legs without visual tracking. Upright posture maintains structural integrity against pulling forces."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Solo Mechanics",
+        "focus": "Movement pattern and muscle memory",
+        "description": "Practice the stand-up motion without a partner, focusing on proper hip trajectory (forward and up), foot placement width, and weight distribution through the hands. Use a heavy bag or grappling dummy to simulate grip pressure. Perform 20 repetitions per set, alternating lead leg, until the movement is smooth and automatic."
+      },
+      {
+        "phase": "Phase 2: Partner Drill with Passive Resistance",
+        "focus": "Grip control and timing integration",
+        "description": "Partner lies in open guard and provides passive resistance—maintaining foot-on-hip frames and light grips but not actively attacking. Focus on establishing proper grips, loading weight forward, and completing the stand up while maintaining control. Partner provides feedback on pressure consistency. 10 repetitions per round."
+      },
+      {
+        "phase": "Phase 3: Progressive Resistance",
+        "focus": "Counter recognition and adaptation",
+        "description": "Partner actively resists at 50-70% intensity, attempting guard closure, hook insertion, and grip attacks during the stand up. Practitioner must recognize counters in real time and apply appropriate responses. If the stand up is stopped, resettle and reattempt. Work 3-minute rounds tracking completion rate."
+      },
+      {
+        "phase": "Phase 4: Positional Sparring",
+        "focus": "Full competition application",
+        "description": "Start from combat base with full resistance. Top player's objective is to complete the stand up and initiate a pass within 10 seconds. Bottom player uses complete defensive arsenal. Reset after pass completion, sweep, or time expiration. Track success rates across multiple rounds to measure improvement."
+      },
+      {
+        "phase": "Phase 5: Chain Integration",
+        "focus": "Passing sequences from standing",
+        "description": "After completing the stand up, immediately chain into a passing sequence (Toreando, leg drag, or X-pass). Bottom player provides full resistance throughout. This phase connects the stand up to its purpose—standing guard passing—and develops the ability to capitalize on the positional advantage without hesitation."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the optimal timing window for initiating the stand up from combat base?",
+        "answer": "The optimal timing is when the opponent creates distance by pushing with their feet on your hips or extending their frames. This defensive action provides the space needed to stand without fighting through hooks. Additionally, immediately after breaking a major grip such as a collar grip is excellent timing, as the opponent must re-establish control before they can counter. Avoid standing when the opponent is actively pulling with hooks or has deep De La Riva engagement, as these configurations create sweep leverage during the transition."
+      },
+      {
+        "question": "Why must you load weight forward through your grips before lifting your posted knee?",
+        "answer": "Loading weight forward ensures your center of gravity moves upward rather than backward during the elevation phase. If you sit back before standing, your hips move away from the opponent, creating space they can exploit to establish hooks, close guard, or initiate elevation sweeps. Forward loading also maintains downward pressure on the opponent's legs, pinning their offensive tools and preventing them from following your upward movement to attack your base during the vulnerable transition window."
+      },
+      {
+        "question": "Your opponent hooks your lead ankle with their foot as you begin to stand—how do you adjust?",
+        "answer": "Do not try to pull your foot free by stepping backward, as this deepens the hook and can lead to X-Guard or Single Leg X entries. Instead, drive the hooked leg's knee forward and inward while maintaining your grip pressure downward on their opposite leg. Circle the hooked foot inward to strip the hook using rotational force rather than linear pulling. If the hook is too deep, abort the stand up, resettle into combat base, and clear the hook before reattempting."
+      },
+      {
+        "question": "What is the most critical mechanical detail that determines success or failure of this stand up?",
+        "answer": "The hip trajectory during elevation is the single most critical mechanical detail. Your hips must travel upward and slightly forward—never backward. Backward hip movement creates space between you and the opponent, allowing them to establish hooks, close guard, or insert their feet for elevation-based sweeps. Maintaining forward hip pressure through your grips anchors your weight over the opponent and forces them to deal with continuous pressure rather than exploiting the space your retreat creates."
+      },
+      {
+        "question": "What grip configuration provides the strongest control for executing the stand up?",
+        "answer": "Double pant grips at the opponent's knees provide the strongest control because they allow simultaneous management of both legs, prevention of guard closure, and maintenance of downward pressure throughout the transition. Grip the pants with your thumbs on the inside of the knee crease and fingers wrapping the outside. This configuration pins the opponent's primary weapons and provides handles for immediate passing entries upon reaching standing. In no-gi, controlling behind both knees or gripping the ankles serves the same function."
+      },
+      {
+        "question": "Your opponent has a strong collar grip and begins pulling your head down as you initiate the stand up—what do you do?",
+        "answer": "You must break the collar grip before committing to the stand up. A collar grip during the transition allows the opponent to pull you forward and off-balance as your base shifts, leading to guard closure or front headlock positions. Use a two-on-one grip break by grabbing their gripping wrist with both hands and peeling it off with a circular motion toward your chest. Once freed, immediately re-establish your pant grip and resume the stand-up sequence before they can re-grip."
+      },
+      {
+        "question": "If the stand up is blocked and you cannot complete it, what are your chain options?",
+        "answer": "If blocked during the transition, your first option is to resettle into combat base and immediately initiate a kneeling pass such as a knee slice or pressure pass, using the opponent's defensive reaction against them. Alternatively, drive forward into Headquarters position by threading your lead knee between their legs. If the opponent committed significant energy to preventing the stand up, they may have opened passing angles exploitable from kneeling. The key is to never stall in the half-standing position—either complete the stand up or commit to an alternative immediately."
+      },
+      {
+        "question": "In which direction should force be applied through your grips during the stand-up transition?",
+        "answer": "Force should be applied diagonally downward and toward the mat through your pant grips throughout the entire transition. This downward diagonal force serves dual purposes: it pins the opponent's legs to prevent hook insertion and guard closure, and it provides a counterbalance for your rising center of gravity. Think of pressing the opponent's knees toward the mat as you stand, not simply holding them in place. This active downward drive is what prevents the opponent from following your upward movement to attack your base."
+      }
+    ],
+    "safety_considerations": "The stand up from combat base carries moderate knee stress during the transition, particularly on the posted knee as it lifts under load. Avoid twisting the knee during elevation—drive it straight upward. In training, be mindful of your partner's face and legs when establishing forward pressure through pant grips, as the standing motion can inadvertently pull their legs upward. If you feel instability in either knee during the movement, abort the stand up and resettle into combat base rather than forcing through poor mechanics. When drilling at speed, ensure your partner is prepared for the weight shift to avoid accidental impacts."
+  },
+  "defender": {
+    "name": "Stand Up from Combat Base Defender",
+    "description": "Learn to defend against the stand up from combat base in BJJ. Recognition cues, timing windows, and defensive responses to prevent opponent from reaching standing guard passing position.",
+    "overview": "As the guard player facing an opponent standing up from combat base, your primary objective is to exploit the transitional instability or, failing that, immediately establish a strong open guard system suited to defending against a standing passer. The stand-up creates a critical 1-2 second window where the top player's base is compromised during weight transfer from three contact points to two feet. Recognizing the stand-up initiation early—through shifts in grip configuration, hip pressure changes, and weight distribution—allows you to time counterattacks during this vulnerability window. If the stand up completes, your strategy shifts to rapidly establishing grips and guard hooks appropriate for standing guard engagement, prioritizing distance management guards like De La Riva or feet-on-hips over close-range guards.",
+    "key_principles": [
+      "Recognize the stand-up initiation through grip changes and weight shifts before the opponent commits to the transition",
+      "Attack during the transition window when the opponent's base is most compromised between kneeling and standing",
+      "Maintain at least one controlling grip throughout to prevent free disengagement and provide counter-leverage",
+      "Use the opponent's upward momentum against them by timing guard closure or sweep attempts to their weight shift",
+      "If the stand up completes, immediately establish a distance-management guard with active feet and grips within 2-3 seconds",
+      "Close guard or establish deep hooks before the opponent reaches full standing to deny them the standing passing advantage"
+    ],
+    "recognition_cues": [
+      "Top player shifts grips from upper body or hip control to pant grips at your knees or ankles, signaling preparation for the stand up",
+      "Increased downward pressure through the top player's hands on your legs as they load weight forward before lifting",
+      "Top player's posted knee lightens on the mat and their hips begin rising as they initiate the elevation phase",
+      "Top player's head and shoulders begin moving upward and slightly backward as they transition from kneeling posture",
+      "Top player creates additional space between their chest and your hips, breaking the close engagement of combat base"
+    ],
+    "defensive_options": [
+      {
+        "action": "Close guard by locking ankles behind opponent's back during their weight transition",
+        "when_to_use": "When the opponent's hips move forward and upward during the initial phase of standing, before they achieve enough height to be out of guard closure range",
+        "targets_outcome": "Closed Guard/Top",
+        "if_successful": "Opponent is pulled back into your closed guard, eliminating their standing passing options and giving you strong submission and sweep threats",
+        "risk": "If timed late, opponent is already too high and your legs cannot lock, leaving you in a compromised open guard with the opponent partially standing"
+      },
+      {
+        "action": "Attack single leg on the posted leg as opponent begins rising",
+        "when_to_use": "When the opponent's weight shifts to their posted foot and their trailing knee lifts off the mat, creating a window to attack the weight-bearing leg",
+        "targets_outcome": "Combat Base/Top",
+        "if_successful": "Opponent's stand up is disrupted and they must resettle into combat base to re-establish base, buying time to establish your preferred guard",
+        "risk": "If the single leg attack fails, opponent may accelerate their stand up and use your extended body position to initiate a pass"
+      },
+      {
+        "action": "Establish De La Riva hook on lead leg during the transition phase",
+        "when_to_use": "When the opponent reaches the half-standing position with one foot planted, threading your outside foot around their lead leg before they achieve full standing base",
+        "targets_outcome": "Combat Base/Top",
+        "if_successful": "Deep De La Riva hook prevents the opponent from completing the stand up and provides immediate sweep and back take threats that force them to address the hook before continuing",
+        "risk": "If the hook is shallow, opponent may complete the stand up and use the compromised hook position to initiate a leg drag pass"
+      },
+      {
+        "action": "Pull collar grip to break posture during hip elevation",
+        "when_to_use": "When you have an established collar grip and the opponent's hips begin rising, pulling them forward and down during the transition window when their base is most compromised",
+        "targets_outcome": "Closed Guard/Top",
+        "if_successful": "Opponent's posture breaks forward, preventing the stand up and potentially allowing guard closure or front headlock transition",
+        "risk": "If the collar grip is not deep enough, opponent may strip it and use the momentary imbalance to accelerate through the transition"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Closed Guard/Top",
+        "how": "Time guard closure to the moment the opponent's hips shift forward during the stand up initiation. Lock your ankles behind their back before they achieve enough height to be out of range. The forward weight loading that precedes the stand up actually brings their hips closer to your legs, creating the ideal moment to close guard."
+      },
+      {
+        "outcome": "Combat Base/Top",
+        "how": "Disrupt the stand up by attacking the posted leg with a hook, single leg attempt, or De La Riva entanglement during the transition window. Force the opponent to resettle into combat base by removing the stable base they need to complete the elevation. Maintaining active grips and hooks throughout prevents the clean disengagement needed for standing."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Allowing the opponent to stand up freely without any grip engagement or counter-attempt",
+        "consequence": "Opponent reaches standing position with full initiative and immediately begins passing with positional advantage, maximum mobility, and no defensive obstacles to navigate",
+        "correction": "Maintain at least one controlling grip at all times—collar, sleeve, or pant grip—and actively pull, push, or hook to disrupt the stand up during the transition window when their base is most compromised"
+      },
+      {
+        "error": "Reaching upward with fully extended arms to grab the opponent as they rise",
+        "consequence": "Extended arms are vulnerable to grip strips from the elevated position and create openings for kimura, Americana, or wrist lock attacks. Extended arms also lack the structural strength to effectively disrupt the stand up.",
+        "correction": "Keep elbows tight to your body and use your legs as the primary engagement tools. Feet on hips, knee frames, and hook insertions are safer and more effective than extended arm reaches for disrupting a standing opponent."
+      },
+      {
+        "error": "Remaining flat on your back after the stand up completes without establishing guard hooks or grips",
+        "consequence": "The standing opponent has complete freedom to initiate passes and you have no defensive structure. Guard passing success rates increase dramatically against a passive, flat guard player.",
+        "correction": "Immediately sit up or angle your hips toward the opponent and establish feet-on-hips guard within 2 seconds of the stand up completing. Prioritize establishing at least two connection points—one foot and one grip—before the passer initiates their first passing attempt."
+      },
+      {
+        "error": "Attempting a sweep after the opponent has already completed the stand up and established a stable standing base",
+        "consequence": "Late sweep attempts against a balanced standing opponent are easily defended and can result in the opponent using your commitment to accelerate their guard pass",
+        "correction": "Time sweeps during the transition window when the opponent's base is compromised, not after they have established a stable standing position. If the window is missed, prioritize guard establishment and retention over low-percentage sweep attempts."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the earliest recognition cue that your opponent is initiating a stand up from combat base?",
+        "answer": "The earliest cue is a change in grip configuration—the opponent shifts from upper body or hip grips to pant grips at your knees or ankles. This grip change precedes the physical stand up by 1-2 seconds and signals their intention to control your legs for the transition. Secondary early cues include a forward weight shift through their hands, felt as increased downward pressure on your legs, and a subtle straightening of their posted foot as they prepare to step up."
+      },
+      {
+        "question": "Your opponent begins standing and you have a collar grip—how do you use it to prevent the stand up?",
+        "answer": "Pull strongly with the collar grip to break their posture forward and down as their hips begin to rise. The key timing is during their transition phase when their base is most compromised—pulling them forward when they are between kneeling and standing forces them to post their hands for balance, abandoning their pant grips. Combine the collar pull with a foot on their hip to create opposing forces that make it biomechanically impossible to continue rising."
+      },
+      {
+        "question": "What should your immediate response be if the stand up completes successfully?",
+        "answer": "Immediately establish a distance-management guard appropriate for a standing opponent. Place both feet on their hips to create a frame that controls distance, then fight for sleeve or pant grips. From feet-on-hips, transition to De La Riva guard by hooking one leg around their lead leg, or to collar-sleeve guard by establishing upper body grips. The critical error is remaining flat without engagement—you must establish active guard hooks and grips within 2-3 seconds or face immediate passing pressure with no structure."
+      },
+      {
+        "question": "Why is closing your guard during the stand up attempt considered a favorable defensive outcome?",
+        "answer": "Closing guard transitions from open guard—where the top player has multiple passing options and initiative—to closed guard, where the bottom player controls distance, limits passing options, and has strong submission and sweep threats. The stand up attempt creates the exact conditions needed to close guard: the opponent's weight shifts forward and their hips are momentarily accessible as they move through the transition. Capitalizing on this window eliminates the opponent's standing passing arsenal entirely."
+      },
+      {
+        "question": "Your opponent has double pant grips and is pinning your knees down as they stand—how do you create defensive opportunities?",
+        "answer": "When both knees are pinned by pant grips, you cannot insert hooks or close guard through conventional means. Instead, use your hands to break one grip using a two-on-one peel, prioritizing the grip controlling your dominant attacking leg. Once one leg is free, immediately insert a hook—either a De La Riva hook around their standing leg or a foot on their hip for distance management. If grips cannot be broken, hip escape to create an angle that makes their bilateral grip control less effective."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Recognition",
+        "focus": "Early cue detection for stand up initiation",
+        "description": "Partner slowly performs the stand up from combat base while the defender identifies grip changes, weight shifts, and hip elevation cues. Focus on developing both visual and tactile awareness of the transition signals. Partner provides verbal confirmation of each phase so the defender can calibrate their recognition timing."
+      },
+      {
+        "phase": "Phase 2: Timing",
+        "focus": "Defensive intervention during the transition window",
+        "description": "Partner performs the stand up at moderate speed while the defender works guard closure, hook insertion, and grip-based posture breaks. Emphasis on matching defensive timing to the vulnerability window. Track success rate of guard closures and hook insertions to measure timing accuracy improvement."
+      },
+      {
+        "phase": "Phase 3: Guard Establishment",
+        "focus": "Rapid guard configuration after completed stand up",
+        "description": "Partner completes the stand up successfully while the defender practices immediately establishing feet-on-hips, De La Riva, or collar-sleeve guard. Focus on minimizing the gap between stand up completion and functional guard establishment. Goal is guard configuration within 2 seconds of opponent reaching standing."
+      },
+      {
+        "phase": "Phase 4: Live Application",
+        "focus": "Full resistance positional sparring",
+        "description": "Full resistance positional sparring starting from combat base. Top player attempts to stand and initiate a pass; bottom player uses complete defensive repertoire including prevention, countering, and guard establishment. Reset after the pass completes or is defended. Track prevention rate across rounds to measure overall defensive improvement."
+      }
+    ]
+  }
+}

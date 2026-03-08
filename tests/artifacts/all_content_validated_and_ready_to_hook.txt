@@ -1,678 +1,1087 @@
-source/content/Positions/100 Kilos.json
-source/content/Positions/Americana Control.json
-source/content/Positions/Anaconda Control.json
-source/content/Positions/Aoki Lock.json
-source/content/Positions/Armbar Control.json
-source/content/Positions/Ashi Garami.json
-source/content/Positions/Ashi Garami/50-50 Guard.json
-source/content/Positions/Ashi Garami/Backside 50-50.json
-source/content/Positions/Ashi Garami/Cross Ashi-Garami.json
-source/content/Positions/Ashi Garami/Honey Hole.json
-source/content/Positions/Ashi Garami/Inside Ashi-Garami.json
-source/content/Positions/Ashi Garami/Outside Ashi-Garami.json
-source/content/Positions/Ashi Garami/Saddle.json
-source/content/Positions/Ashi Garami/Ushiro Ashi-Garami.json
-source/content/Positions/Back Control.json
-source/content/Positions/Back Control/Body Triangle.json
-source/content/Positions/Back Control/Seat Belt Control Back.json
-source/content/Positions/Back Control/Standing Back Control.json
-source/content/Positions/Body Lock.json
-source/content/Positions/Buggy Choke.json
-source/content/Positions/Butterfly Guard.json
-source/content/Positions/Butterfly Guard/Butterfly Hook Control.json
-source/content/Positions/Butterfly Guard/Half Butterfly.json
-source/content/Positions/Clinch.json
-source/content/Positions/Closed Guard.json
-source/content/Positions/Collar Sleeve Guard.json
-source/content/Positions/Collar Ties.json
-source/content/Positions/Combat Base.json
-source/content/Positions/Crab Ride.json
-source/content/Positions/Crackhead Control.json
-source/content/Positions/Cross Body Ride.json
-source/content/Positions/Crucifix.json
-source/content/Positions/D'arce Control.json
-source/content/Positions/De La Riva Guard.json
-source/content/Positions/De La Riva Guard/Reverse De La Riva Guard.json
-source/content/Positions/Dead Orchard Control.json
-source/content/Positions/Defensive Position.json
-source/content/Positions/Dogfight Position.json
-source/content/Positions/Double Jump.json
-source/content/Positions/Double Sleeve Guard.json
-source/content/Positions/Double Unders.json
-source/content/Positions/Estima Lock.json
-source/content/Positions/Feet on Hips Guard.json
-source/content/Positions/Front Headlock.json
-source/content/Positions/Game Over.json
-source/content/Positions/Gift Wrap.json
-source/content/Positions/Gogoplata Control.json
-source/content/Positions/Grasshopper Guard.json
-source/content/Positions/Guillotine Control.json
-source/content/Positions/Half Guard.json
-source/content/Positions/Half Guard/Butterfly Half Guard.json
-source/content/Positions/Half Guard/Deep Half Guard.json
-source/content/Positions/Half Guard/Electric Chair.json
-source/content/Positions/Half Guard/Flattened Half Guard.json
-source/content/Positions/Half Guard/Knee Shield Half Guard.json
-source/content/Positions/Half Guard/Lockdown.json
-source/content/Positions/Half Guard/Old School.json
-source/content/Positions/Half Guard/Pocket Half Guard.json
-source/content/Positions/Half Guard/Reverse Half Guard.json
-source/content/Positions/Half Guard/Z-Lock Half Guard.json
-source/content/Positions/Harness.json
-source/content/Positions/Headquarters Control.json
-source/content/Positions/Headquarters Position.json
-source/content/Positions/Hindulotine.json
-source/content/Positions/Inside Sankaku.json
-source/content/Positions/Inverted Guard.json
-source/content/Positions/Jailbreak.json
-source/content/Positions/K-Guard.json
-source/content/Positions/Kimura Control.json
-source/content/Positions/Kimura Trap.json
-source/content/Positions/Knee on Belly.json
-source/content/Positions/Kneebar Control.json
-source/content/Positions/Lapel Guard.json
-source/content/Positions/Lasso Guard.json
-source/content/Positions/Lasso Guard/Inverted Lasso Guard.json
-source/content/Positions/Lasso Guard/Russian Leg Lasso.json
-source/content/Positions/Leg Drag Control.json
-source/content/Positions/Leg Drag Position.json
-source/content/Positions/Leg Entanglement.json
-source/content/Positions/Leg Hook.json
-source/content/Positions/Leg Knot.json
-source/content/Positions/Leg Weave.json
-source/content/Positions/Lost by Submission.json
-source/content/Positions/Matrix.json
-source/content/Positions/Mount.json
-source/content/Positions/Mount/3-4 Mount.json
-source/content/Positions/Mount/High Mount.json
-source/content/Positions/Mount/Modified Mount.json
-source/content/Positions/Mount/Mount Control.json
-source/content/Positions/Mount/Mounted Crucifix.json
-source/content/Positions/Mount/Mounted Triangle.json
-source/content/Positions/Mount/S Mount.json
-source/content/Positions/Mount/Technical Mount.json
-source/content/Positions/North South Control.json
-source/content/Positions/North-South.json
-source/content/Positions/Omoplata Control.json
-source/content/Positions/Open Guard.json
-source/content/Positions/Overhook Control Clinch.json
-source/content/Positions/Overhook Control.json
-source/content/Positions/Overhook Guard.json
-source/content/Positions/Piranha Guard.json
-source/content/Positions/Quarter Guard.json
-source/content/Positions/Reverse Mount.json
-source/content/Positions/Ringworm Guard.json
-source/content/Positions/Rodeo Ride.json
-source/content/Positions/Rubber Guard.json
-source/content/Positions/Rubber Guard/Carni.json
-source/content/Positions/Rubber Guard/Chill Dog.json
-source/content/Positions/Rubber Guard/Crackhead Control.json
-source/content/Positions/Rubber Guard/Invisible Collar.json
-source/content/Positions/Rubber Guard/Meathook.json
-source/content/Positions/Rubber Guard/Mission Control.json
-source/content/Positions/Rubber Guard/New York Control.json
-source/content/Positions/Rubber Guard/New York.json
-source/content/Positions/Rubber Guard/Zombie.json
-source/content/Positions/Russian Cowboy.json
-source/content/Positions/Scramble Position.json
-source/content/Positions/Seated Guard.json
-source/content/Positions/Shin-to-Shin Guard.json
-source/content/Positions/Shoulder of Justice.json
-source/content/Positions/Side Control.json
-source/content/Positions/Side Control/Kesa Gatame.json
-source/content/Positions/Side Control/Kuzure Kesa-Gatame.json
-source/content/Positions/Side Control/Modified Scarf Hold.json
-source/content/Positions/Side Control/Reverse Kesa-Gatame.json
-source/content/Positions/Side Control/Reverse Scarf Hold.json
-source/content/Positions/Side Control/Scarf Hold Position.json
-source/content/Positions/Side Control/Side Control Consolidation.json
-source/content/Positions/Spider Guard.json
-source/content/Positions/Squid Guard.json
-source/content/Positions/Standing Guard.json
-source/content/Positions/Standing Position.json
-source/content/Positions/Standing Rear Clinch.json
-source/content/Positions/Stoner Control.json
-source/content/Positions/Straight Ankle Lock Control.json
-source/content/Positions/Toe Hold Control.json
-source/content/Positions/Triangle Control.json
-source/content/Positions/Triangle Control/Rear Triangle.json
-source/content/Positions/Triangle Escape Position.json
-source/content/Positions/Turtle.json
-source/content/Positions/Twister Control.json
-source/content/Positions/Twister Control/Truck.json
-source/content/Positions/Twister Control/Twister Side Control.json
-source/content/Positions/Underhook Battle.json
-source/content/Positions/Underhook Control.json
-source/content/Positions/Vaporizer.json
-source/content/Positions/Williams Guard.json
-source/content/Positions/Won by Submission.json
-source/content/Positions/Worm Guard.json
-source/content/Positions/X-Guard.json
-source/content/Positions/X-Guard/Reverse X-Guard.json
-source/content/Positions/X-Guard/Single Leg X-Guard.json
-source/content/Positions/Z-Guard.json
-source/content/Principles/Action and Reaction.json
-source/content/Principles/Angle Creation.json
-source/content/Principles/Armbar Escape.json
-source/content/Principles/Back Escape Series.json
-source/content/Principles/Base Maintenance.json
-source/content/Principles/Biomechanical Principles.json
-source/content/Principles/Bridge and Shrimp.json
-source/content/Principles/Bridging Mechanics.json
-source/content/Principles/Butterfly Hook Retention.json
-source/content/Principles/Cardio Conditioning.json
-source/content/Principles/Chin Protection.json
-source/content/Principles/Collar Control.json
-source/content/Principles/Competition Mindset.json
-source/content/Principles/Competition Training.json
-source/content/Principles/Concepts vs Techniques.json
-source/content/Principles/Connection Breaking.json
-source/content/Principles/Connection Principles.json
-source/content/Principles/Control Maintenance.json
-source/content/Principles/Control Point Hierarchy.json
-source/content/Principles/Creating Reactions.json
-source/content/Principles/Creating Space.json
-source/content/Principles/Cross Face Control.json
-source/content/Principles/Dealing with Pressure.json
-source/content/Principles/Defense Technique.json
-source/content/Principles/Defensive Concepts.json
-source/content/Principles/Defensive Frame.json
-source/content/Principles/Defensive Framing.json
-source/content/Principles/Defensive Posture.json
-source/content/Principles/Defensive Strategy.json
-source/content/Principles/Dilemma Creation.json
-source/content/Principles/Distance Creation.json
-source/content/Principles/Double Pants Grip.json
-source/content/Principles/Drilling Methodology.json
-source/content/Principles/Energy Conservation.json
-source/content/Principles/Energy Management System.json
-source/content/Principles/Escape Fundamentals.json
-source/content/Principles/Escape Hierarchy.json
-source/content/Principles/Explosive Power.json
-source/content/Principles/Flexibility Training.json
-source/content/Principles/Flow Rolling.json
-source/content/Principles/Forward Pressure.json
-source/content/Principles/Frame Creation.json
-source/content/Principles/Frame Management.json
-source/content/Principles/Game Planning.json
-source/content/Principles/Granby Roll Concept.json
-source/content/Principles/Grip Advantage.json
-source/content/Principles/Grip Break.json
-source/content/Principles/Grip Breaking.json
-source/content/Principles/Grip Fighting Strategies.json
-source/content/Principles/Grip Fighting.json
-source/content/Principles/Grip Strategy.json
-source/content/Principles/Guard Passing.json
-source/content/Principles/Guard Recovery.json
-source/content/Principles/Guard Retention.json
-source/content/Principles/Hand Fighting from Back.json
-source/content/Principles/Hand Fighting.json
-source/content/Principles/Head Control.json
-source/content/Principles/Hip Elevation.json
-source/content/Principles/Hip Escape Mechanics.json
-source/content/Principles/Hip Movement.json
-source/content/Principles/Hip Pressure.json
-source/content/Principles/Knee Shield Retention.json
-source/content/Principles/Knee on Belly Escape.json
-source/content/Principles/Leg Entanglement.json
-source/content/Principles/Leverage Principles.json
-source/content/Principles/Long Step Passing.json
-source/content/Principles/Match Preparation.json
-source/content/Principles/Match Strategy.json
-source/content/Principles/Maximum Efficiency Principle.json
-source/content/Principles/Mount Escape Hierarchy.json
-source/content/Principles/Mount Escape Series.json
-source/content/Principles/Off-Balancing.json
-source/content/Principles/Offensive Combinations.json
-source/content/Principles/Offensive vs Defensive Mindset.json
-source/content/Principles/Pacing.json
-source/content/Principles/Passing Counter System.json
-source/content/Principles/Pin Escape Methodology.json
-source/content/Principles/Position Chains.json
-source/content/Principles/Position Transitions.json
-source/content/Principles/Position-Over-Submission Approach.json
-source/content/Principles/Positional Hierarchy.json
-source/content/Principles/Positional Sparring.json
-source/content/Principles/Posture Breaking.json
-source/content/Principles/Posture Up.json
-source/content/Principles/Pressure Application.json
-source/content/Principles/Pressure Passing Framework.json
-source/content/Principles/Pressure Passing.json
-source/content/Principles/Pressure Reduction.json
-source/content/Principles/Progressive Resistance Training.json
-source/content/Principles/RNC Defense.json
-source/content/Principles/Risk Assessment.json
-source/content/Principles/Shoulder Pressure.json
-source/content/Principles/Shrimping.json
-source/content/Principles/Side Control Defensive Framework.json
-source/content/Principles/Side Control Escapes.json
-source/content/Principles/Single Leg Variations.json
-source/content/Principles/Sleeve Control.json
-source/content/Principles/Space Creation.json
-source/content/Principles/Space Generation.json
-source/content/Principles/Space Management.json
-source/content/Principles/Speed Passing.json
-source/content/Principles/Sprawl Defense.json
-source/content/Principles/Strength Development.json
-source/content/Principles/Submission Chains.json
-source/content/Principles/Submission Control Position.json
-source/content/Principles/Submission Defense Concepts.json
-source/content/Principles/Submission Defense.json
-source/content/Principles/Submission Position.json
-source/content/Principles/Sweep Mechanics.json
-source/content/Principles/System Building.json
-source/content/Principles/Takedown Entry.json
-source/content/Principles/Technical Standup Concept.json
-source/content/Principles/Timing Sweeps.json
-source/content/Principles/Timing and Rhythm.json
-source/content/Principles/Top Half Guard.json
-source/content/Principles/Transition Management.json
-source/content/Principles/Transition Sequences.json
-source/content/Principles/Underhook Defense.json
-source/content/Principles/Weight Distribution.json
-source/content/Principles/Whizzer Control.json
-source/content/Submissions/Achilles Lock.json
-source/content/Submissions/Americana Variations.json
-source/content/Submissions/Americana from Mount.json
-source/content/Submissions/Americana from Side Control.json
-source/content/Submissions/Americana.json
-source/content/Submissions/Anaconda Choke.json
-source/content/Submissions/Anaconda Variations.json
-source/content/Submissions/Aoki Lock.json
-source/content/Submissions/Arm Crush.json
-source/content/Submissions/Arm Triangle Progression.json
-source/content/Submissions/Arm Triangle.json
-source/content/Submissions/Arm in Guillotine.json
-source/content/Submissions/Armbar Finish.json
-source/content/Submissions/Armbar from Back with Legs.json
-source/content/Submissions/Armbar from Back.json
-source/content/Submissions/Armbar from Crucifix.json
-source/content/Submissions/Armbar from Guard.json
-source/content/Submissions/Armbar from Mount.json
-source/content/Submissions/Armbar from Side Control.json
-source/content/Submissions/Banana Split.json
-source/content/Submissions/Baratoplata.json
-source/content/Submissions/Baseball Bat Choke Variations.json
-source/content/Submissions/Baseball Bat Choke.json
-source/content/Submissions/Belly Down Armbar.json
-source/content/Submissions/Bicep Slicer.json
-source/content/Submissions/Boston Crab.json
-source/content/Submissions/Bow and Arrow Choke Variations.json
-source/content/Submissions/Bow and Arrow Choke.json
-source/content/Submissions/Bow and Arrow Variations.json
-source/content/Submissions/Brabo Choke.json
-source/content/Submissions/Brabo Variations.json
-source/content/Submissions/Breadcutter Choke.json
-source/content/Submissions/Buggy Choke.json
-source/content/Submissions/Calf Slicer Variations.json
-source/content/Submissions/Calf Slicer from 50-50.json
-source/content/Submissions/Calf Slicer from Truck.json
-source/content/Submissions/Calf Slicer.json
-source/content/Submissions/Can Opener.json
-source/content/Submissions/Chin Strap Guillotine.json
-source/content/Submissions/Choke from Crucifix.json
-source/content/Submissions/Clock Choke.json
-source/content/Submissions/Cross Collar Choke.json
-source/content/Submissions/Cross Collar Variations.json
-source/content/Submissions/Crotch Ripper.json
-source/content/Submissions/Crucifix Submissions.json
-source/content/Submissions/D'arce-Anaconda Connection.json
-source/content/Submissions/Darce Choke.json
-source/content/Submissions/Darce Variations.json
-source/content/Submissions/Electric Chair Submission.json
-source/content/Submissions/Estima Lock.json
-source/content/Submissions/Ezekiel Choke.json
-source/content/Submissions/Ezekiel Variations.json
-source/content/Submissions/Ezekiel from Mount.json
-source/content/Submissions/Far Side Armbar.json
-source/content/Submissions/Flying Armbar.json
-source/content/Submissions/Flying Kneebar.json
-source/content/Submissions/Gogoplata.json
-source/content/Submissions/Guillotine Choke.json
-source/content/Submissions/Guillotine Sequence.json
-source/content/Submissions/Guillotine Variations.json
-source/content/Submissions/Heel Hook Dilemma.json
-source/content/Submissions/Heel Hook Variations.json
-source/content/Submissions/Heel Hook.json
-source/content/Submissions/High Elbow Guillotine.json
-source/content/Submissions/Inside Heel Hook.json
-source/content/Submissions/Inverted Triangle.json
-source/content/Submissions/Japanese Necktie.json
-source/content/Submissions/Kimura Variations.json
-source/content/Submissions/Kimura from Guard.json
-source/content/Submissions/Kimura from Half Guard.json
-source/content/Submissions/Kimura from Mount.json
-source/content/Submissions/Kimura from North-South.json
-source/content/Submissions/Kimura from Side Control.json
-source/content/Submissions/Kimura from Standing.json
-source/content/Submissions/Kimura from Turtle.json
-source/content/Submissions/Kimura.json
-source/content/Submissions/Kneebar Finish.json
-source/content/Submissions/Kneebar Variations.json
-source/content/Submissions/Kneebar from 50-50.json
-source/content/Submissions/Kneebar from Guard.json
-source/content/Submissions/Kneebar from Half Guard.json
-source/content/Submissions/Kneebar from Top.json
-source/content/Submissions/Kneebar.json
-source/content/Submissions/Loop Choke Variations.json
-source/content/Submissions/Loop Choke from Mount.json
-source/content/Submissions/Loop Choke.json
-source/content/Submissions/Marce Choke.json
-source/content/Submissions/Mir Lock.json
-source/content/Submissions/Monoplata from Guard.json
-source/content/Submissions/Monoplata from Mount.json
-source/content/Submissions/Monoplata.json
-source/content/Submissions/North-South Choke.json
-source/content/Submissions/North-South to Kimura.json
-source/content/Submissions/Omoplata Variations.json
-source/content/Submissions/Omoplata from Guard.json
-source/content/Submissions/Omoplata.json
-source/content/Submissions/Outside Heel Hook.json
-source/content/Submissions/Paper Cutter Choke.json
-source/content/Submissions/Peruvian Necktie.json
-source/content/Submissions/Rear Naked Choke.json
-source/content/Submissions/Reverse Armbar.json
-source/content/Submissions/Reverse Kimura.json
-source/content/Submissions/Rolling Armbar.json
-source/content/Submissions/Rolling Omoplata.json
-source/content/Submissions/Short Choke.json
-source/content/Submissions/Spine Lock.json
-source/content/Submissions/Spinning Armbar.json
-source/content/Submissions/Straight Ankle Lock.json
-source/content/Submissions/Straight Armbar.json
-source/content/Submissions/Straight Footlock.json
-source/content/Submissions/Suloev Stretch.json
-source/content/Submissions/Switch to Triangle.json
-source/content/Submissions/Tarikoplata.json
-source/content/Submissions/Ten Finger Guillotine.json
-source/content/Submissions/Toe Hold Variations.json
-source/content/Submissions/Toe Hold from 50-50.json
-source/content/Submissions/Toe Hold from Top.json
-source/content/Submissions/Toe Hold.json
-source/content/Submissions/Triangle Choke Back.json
-source/content/Submissions/Triangle Choke Front.json
-source/content/Submissions/Triangle Choke Side.json
-source/content/Submissions/Triangle Choke.json
-source/content/Submissions/Triangle from Back.json
-source/content/Submissions/Triangle from Closed Guard.json
-source/content/Submissions/Triangle from De La Riva.json
-source/content/Submissions/Triangle from Guard.json
-source/content/Submissions/Triangle from Mount.json
-source/content/Submissions/Triangle from Spider Guard.json
-source/content/Submissions/Twister Finish.json
-source/content/Submissions/Twister.json
-source/content/Submissions/Von Flue Choke.json
-source/content/Submissions/Williams Shoulder Lock.json
-source/content/Systems/10th Planet Half Guard Bottom System.json
-source/content/Systems/10th Planet No-Gi Guard System.json
-source/content/Systems/10th Planet Rubber Guard System.json
-source/content/Systems/Andrew Wiltse Half Guard System.json
-source/content/Systems/B-Team Dilemma System.json
-source/content/Systems/Back Attack System.json
-source/content/Systems/Back Defense Protocol.json
-source/content/Systems/Berimbolo.json
-source/content/Systems/Bernardo Faria Pressure System.json
-source/content/Systems/Blue to Purple Progression.json
-source/content/Systems/Caio Terra Guard Retention System.json
-source/content/Systems/Competition Preparation System.json
-source/content/Systems/Competition Scoring Strategy.json
-source/content/Systems/Competition Strategy.json
-source/content/Systems/Craig Jones Leg Lock System.json
-source/content/Systems/Danaher Front Headlock System.json
-source/content/Systems/Danaher Leg Lock System.json
-source/content/Systems/Danaher Straight Jacket System.json
-source/content/Systems/Defensive Prioritization Framework.json
-source/content/Systems/Dynamic Guard System.json
-source/content/Systems/Garry Tonon Leg Lock to Back System.json
-source/content/Systems/Gi-Specific Strategy.json
-source/content/Systems/Gordon Ryan Passing System.json
-source/content/Systems/IBJJF Strategy Guide.json
-source/content/Systems/Keenan Cornelius Lapel Guard System.json
-source/content/Systems/Kimura Trap System.json
-source/content/Systems/Lachlan Giles Leg Lock Defense Framework.json
-source/content/Systems/Lockdown to Electric Chair System.json
-source/content/Systems/MMA Crossover Strategy.json
-source/content/Systems/Marcelo Garcia Butterfly Guard System.json
-source/content/Systems/Marcelo Garcia Guillotine System.json
-source/content/Systems/Marcelo Garcia X-Guard System.json
-source/content/Systems/Mental Game Framework.json
-source/content/Systems/Mikey Musumeci Berimbolo System.json
-source/content/Systems/Modern No-Gi Passing System.json
-source/content/Systems/No-Gi Competition Approach.json
-source/content/Systems/No-Gi Tactical Framework.json
-source/content/Systems/Roger Gracie Fundamental System.json
-source/content/Systems/Rubber Guard to Omoplata System.json
-source/content/Systems/Rubber Guard to Triangle System.json
-source/content/Systems/Ryan Hall Triangle System.json
-source/content/Systems/Self-Defense Application Framework.json
-source/content/Systems/Standing Defense Strategy.json
-source/content/Systems/Straight Footlock to Kneebar Chain.json
-source/content/Systems/Submission Clinic System.json
-source/content/Systems/Teaching Methodology Framework.json
-source/content/Systems/Twister System.json
-source/content/Transitions/100% Sweep.json
-source/content/Transitions/50-50 Entry from Standing.json
-source/content/Transitions/50-50 Pass.json
-source/content/Transitions/Anaconda Setup.json
-source/content/Transitions/Anaconda from Turtle.json
-source/content/Transitions/Ankle Pick Sweep.json
-source/content/Transitions/Ankle Pick.json
-source/content/Transitions/Arm Drag Sweep.json
-source/content/Transitions/Arm Drag to Back.json
-source/content/Transitions/Arm Drag.json
-source/content/Transitions/Arm Extraction.json
-source/content/Transitions/Arm Triangle from Turtle.json
-source/content/Transitions/Armbar Defense.json
-source/content/Transitions/Ashi Garami Escape.json
-source/content/Transitions/Back Control to Crucifix.json
-source/content/Transitions/Back Step.json
-source/content/Transitions/Back Take Generic.json
-source/content/Transitions/Balloon Sweep.json
-source/content/Transitions/Base Widening.json
-source/content/Transitions/Basic Butterfly Sweep.json
-source/content/Transitions/Berimbolo Entry.json
-source/content/Transitions/Body Lock Pass.json
-source/content/Transitions/Bodylock Pass.json
-source/content/Transitions/Bolo Sweep.json
-source/content/Transitions/Bridge and Roll.json
-source/content/Transitions/Bullfighter Pass.json
-source/content/Transitions/Butterfly Guard to X-Guard.json
-source/content/Transitions/Butterfly Pass.json
-source/content/Transitions/Butterfly Smash.json
-source/content/Transitions/Butterfly Sweep Variations.json
-source/content/Transitions/Butterfly Sweep.json
-source/content/Transitions/Chair Sit to Back.json
-source/content/Transitions/Closed Guard to Triangle.json
-source/content/Transitions/Collar Drag.json
-source/content/Transitions/Counter Sweep.json
-source/content/Transitions/Crab Ride to Back.json
-source/content/Transitions/Crossface Pass.json
-source/content/Transitions/Crucifix from Turtle.json
-source/content/Transitions/Darce Setup.json
-source/content/Transitions/Darce from Turtle.json
-source/content/Transitions/De La Riva Sweep Variations.json
-source/content/Transitions/De La Riva Sweep.json
-source/content/Transitions/De La Riva to X-Guard Transition.json
-source/content/Transitions/Deashi Harai.json
-source/content/Transitions/Deep Half Entry.json
-source/content/Transitions/Double Leg Entry.json
-source/content/Transitions/Double Leg Finish.json
-source/content/Transitions/Double Leg Setup.json
-source/content/Transitions/Double Leg Variations.json
-source/content/Transitions/Double Under Pass.json
-source/content/Transitions/Double leg takedown.json
-source/content/Transitions/Elbow Escape.json
-source/content/Transitions/Elevator Sweep.json
-source/content/Transitions/Fireman's Carry.json
-source/content/Transitions/Float Passing.json
-source/content/Transitions/Flower Sweep.json
-source/content/Transitions/Foot Grab Sweep.json
-source/content/Transitions/Foot Sweep Series.json
-source/content/Transitions/Forward Roll.json
-source/content/Transitions/Frame and Shrimp.json
-source/content/Transitions/Front Headlock Series Transition.json
-source/content/Transitions/Front Headlock Series.json
-source/content/Transitions/Front Headlock to Anaconda.json
-source/content/Transitions/Front Headlock to Back.json
-source/content/Transitions/Front Headlock to Darce.json
-source/content/Transitions/Front Headlock to Guillotine.json
-source/content/Transitions/Ghost Escape.json
-source/content/Transitions/Granby Roll.json
-source/content/Transitions/Granby to Closed Guard.json
-source/content/Transitions/Grip Break.json
-source/content/Transitions/Guard Bottom Transition.json
-source/content/Transitions/Guard Opening Sequence.json
-source/content/Transitions/Guard Pass.json
-source/content/Transitions/Guard Pull.json
-source/content/Transitions/Guard Replacement.json
-source/content/Transitions/Guillotine Counter.json
-source/content/Transitions/Guillotine Defense.json
-source/content/Transitions/Guillotine Setup.json
-source/content/Transitions/Guillotine from Turtle.json
-source/content/Transitions/Half Guard Pass.json
-source/content/Transitions/Half Guard Sweeps.json
-source/content/Transitions/Half Guard to Back Take.json
-source/content/Transitions/Harai Goshi.json
-source/content/Transitions/Headquarters Pass.json
-source/content/Transitions/Heel Grab Sweep.json
-source/content/Transitions/High Crotch.json
-source/content/Transitions/Hip Bump Sweep V2.json
-source/content/Transitions/Hip Bump Sweep.json
-source/content/Transitions/Hip Escape.json
-source/content/Transitions/Hitchhiker Escape.json
-source/content/Transitions/Hook Sweep.json
-source/content/Transitions/Inside Ashi Entry.json
-source/content/Transitions/Ippon Seoi Nage.json
-source/content/Transitions/Japanese Necktie Setup.json
-source/content/Transitions/John Wayne Sweep.json
-source/content/Transitions/Jumping Guard.json
-source/content/Transitions/Kimura Defense.json
-source/content/Transitions/Kimura to Back Take.json
-source/content/Transitions/Kiss of the Dragon.json
-source/content/Transitions/Knee Bar from Top Positions.json
-source/content/Transitions/Knee Cut Pass.json
-source/content/Transitions/Knee Cut.json
-source/content/Transitions/Knee Shield Retention.json
-source/content/Transitions/Knee Slice Pass.json
-source/content/Transitions/Knee Slice from Half.json
-source/content/Transitions/Knee Slice with Underhook.json
-source/content/Transitions/Knee Slice.json
-source/content/Transitions/Knee Tap.json
-source/content/Transitions/Knee Through.json
-source/content/Transitions/Kosoto Gake.json
-source/content/Transitions/Kosoto Gari.json
-source/content/Transitions/Kouchi Gari.json
-source/content/Transitions/Lasso Guard Pass.json
-source/content/Transitions/Lasso Guard Sweeps.json
-source/content/Transitions/Lasso Guard Variations.json
-source/content/Transitions/Leg Drag Pass.json
-source/content/Transitions/Leg Drag Setup.json
-source/content/Transitions/Leg Weave Pass.json
-source/content/Transitions/Lockdown Sweeps.json
-source/content/Transitions/Long Step Pass.json
-source/content/Transitions/Long Step.json
-source/content/Transitions/Lumberjack Sweep.json
-source/content/Transitions/Matrix Back Take.json
-source/content/Transitions/Morote Seoi Nage.json
-source/content/Transitions/Mount to Armbar.json
-source/content/Transitions/Muscle Sweep.json
-source/content/Transitions/North-South Escape.json
-source/content/Transitions/North-South to Kimura.json
-source/content/Transitions/Old School Sweep.json
-source/content/Transitions/Omoplata Sweep.json
-source/content/Transitions/Omoplata to Back.json
-source/content/Transitions/Omoplata to Sweep.json
-source/content/Transitions/Open Guard to Deep Half.json
-source/content/Transitions/Osoto Gari.json
-source/content/Transitions/Ouchi Gari.json
-source/content/Transitions/Outside Ashi Entry.json
-source/content/Transitions/Over-Under Pass.json
-source/content/Transitions/Overhook Sweep.json
-source/content/Transitions/Pendulum Sweep.json
-source/content/Transitions/Peruvian Necktie Setup.json
-source/content/Transitions/Position Change.json
-source/content/Transitions/Posture Recovery.json
-source/content/Transitions/Pressure Pass.json
-source/content/Transitions/Pull guard.json
-source/content/Transitions/RDLR Pass.json
-source/content/Transitions/Re-Guard from Headquarters.json
-source/content/Transitions/Re-Guard.json
-source/content/Transitions/Reverse De La Riva Recovery.json
-source/content/Transitions/Rolling Back Take.json
-source/content/Transitions/Rolling Guard Pull.json
-source/content/Transitions/Rolling Kimura Escape.json
-source/content/Transitions/Rolling Kimura.json
-source/content/Transitions/Rolling to Guard.json
-source/content/Transitions/Russian Tie to Back Take.json
-source/content/Transitions/Saddle Defense.json
-source/content/Transitions/Saddle Entry from Top.json
-source/content/Transitions/Sasae Tsurikomi Ashi.json
-source/content/Transitions/Scissor Sweep.json
-source/content/Transitions/Seoi Nage.json
-source/content/Transitions/Shin Shield Recovery.json
-source/content/Transitions/Shin to Shin Pull.json
-source/content/Transitions/Shrimp Escape.json
-source/content/Transitions/Sickle Sweep.json
-source/content/Transitions/Side Control Escape.json
-source/content/Transitions/Side Control to Mount.json
-source/content/Transitions/Single Leg Entry.json
-source/content/Transitions/Single Leg Finish.json
-source/content/Transitions/Single Leg Takedown.json
-source/content/Transitions/Single Leg Variations.json
-source/content/Transitions/Single Leg X Entry.json
-source/content/Transitions/Single Leg X Sweep.json
-source/content/Transitions/Single Leg to Back Take.json
-source/content/Transitions/Sitting Guard Pull.json
-source/content/Transitions/Smash Pass.json
-source/content/Transitions/Snap Down to Front Headlock.json
-source/content/Transitions/Snap Down.json
-source/content/Transitions/Spider Guard Pass.json
-source/content/Transitions/Spider Guard Sweeps.json
-source/content/Transitions/Spider Guard Variations.json
-source/content/Transitions/Spider Guard to Omoplata.json
-source/content/Transitions/Sprawl Defense.json
-source/content/Transitions/Sprawl.json
-source/content/Transitions/Stack Defense.json
-source/content/Transitions/Stack Pass.json
-source/content/Transitions/Standing to Single Leg X.json
-source/content/Transitions/Standing up in Base.json
-source/content/Transitions/Standing up.json
-source/content/Transitions/Sumi Gaeshi.json
-source/content/Transitions/Switch to Triangle.json
-source/content/Transitions/Tai Otoshi.json
-source/content/Transitions/Takedown Defense.json
-source/content/Transitions/Tani Otoshi.json
-source/content/Transitions/Tap Out.json
-source/content/Transitions/Technical Stand Up to Single Leg.json
-source/content/Transitions/Technical Stand-up.json
-source/content/Transitions/Technical Standup.json
-source/content/Transitions/Tomahawk Sweep.json
-source/content/Transitions/Tomoe Nage.json
-source/content/Transitions/Toreando Pass.json
-source/content/Transitions/Transition to Mount.json
-source/content/Transitions/Transition to North-South.json
-source/content/Transitions/Transition to Omoplata.json
-source/content/Transitions/Transition to Truck.json
-source/content/Transitions/Triangle Escape.json
-source/content/Transitions/Triangle Setup.json
-source/content/Transitions/Triangle to Armbar.json
-source/content/Transitions/Triangle to Back.json
-source/content/Transitions/Triangle to Omoplata.json
-source/content/Transitions/Tripod Sweep.json
-source/content/Transitions/Truck Entry.json
-source/content/Transitions/Turtle Transition.json
-source/content/Transitions/Turtle to Back Control.json
-source/content/Transitions/Turtle to Back Take.json
-source/content/Transitions/Turtle to Guard.json
-source/content/Transitions/Turtle to Standing.json
-source/content/Transitions/Two-on-One to Back Take.json
-source/content/Transitions/Uchi Mata.json
-source/content/Transitions/Underhook Pass.json
-source/content/Transitions/Underhook Sweep from Half.json
-source/content/Transitions/Underhook Sweep.json
-source/content/Transitions/Upa Escape.json
-source/content/Transitions/Waiter Sweep.json
-source/content/Transitions/Whizzer.json
-source/content/Transitions/X Pass.json
-source/content/Transitions/X-Guard Sweep.json
-source/content/Transitions/X-Guard to Ashi Transition.json
+content/Positions/Anaconda Control.json
+content/Positions/Aoki Lock.json
+content/Positions/Armbar Control.json
+content/Positions/Ashi Garami/50-50 Guard.json
+content/Positions/Ashi Garami/Backside 50-50.json
+content/Positions/Ashi Garami/Cross Ashi-Garami.json
+content/Positions/Ashi Garami/Honey Hole.json
+content/Positions/Ashi Garami/Inside Ashi-Garami.json
+content/Positions/Ashi Garami.json
+content/Positions/Ashi Garami/Outside Ashi-Garami.json
+content/Positions/Ashi Garami/Saddle.json
+content/Positions/Ashi Garami/Ushiro Ashi-Garami.json
+content/Positions/Back Control/Body Triangle.json
+content/Positions/Back Control.json
+content/Positions/Back Control/Seat Belt Control Back.json
+content/Positions/Back Control/Standing Back Control.json
+content/Positions/Body Lock.json
+content/Positions/Buggy Choke.json
+content/Positions/Butterfly Guard/Butterfly Hook Control.json
+content/Positions/Butterfly Guard/Half Butterfly.json
+content/Positions/Butterfly Guard.json
+content/Positions/Clamp Guard.json
+content/Positions/Clinch.json
+content/Positions/Closed Guard/Diamond Guard.json
+content/Positions/Closed Guard.json
+content/Positions/Collar Sleeve Guard.json
+content/Positions/Combat Base.json
+content/Positions/Crab Ride.json
+content/Positions/Crackhead Control.json
+content/Positions/Cross Body Ride.json
+content/Positions/Crucifix.json
+content/Positions/Darce Control.json
+content/Positions/Dead Orchard Control.json
+content/Positions/De La Riva Guard.json
+content/Positions/De La Riva Guard/Reverse De La Riva Guard.json
+content/Positions/Dogfight Position.json
+content/Positions/Double Jump.json
+content/Positions/Double Sleeve Guard.json
+content/Positions/Double Unders.json
+content/Positions/Estima Lock.json
+content/Positions/Feet on Hips Guard.json
+content/Positions/Front Headlock.json
+content/Positions/Game Over.json
+content/Positions/Gift Wrap.json
+content/Positions/Gogoplata Control.json
+content/Positions/Grasshopper Guard.json
+content/Positions/Guillotine Control.json
+content/Positions/Half Guard/Butterfly Half Guard.json
+content/Positions/Half Guard/Deep Half Guard.json
+content/Positions/Half Guard/Electric Chair.json
+content/Positions/Half Guard/Flattened Half Guard.json
+content/Positions/Half Guard.json
+content/Positions/Half Guard/Knee Shield Half Guard.json
+content/Positions/Half Guard/Lockdown.json
+content/Positions/Half Guard/Old School.json
+content/Positions/Half Guard/Pocket Half Guard.json
+content/Positions/Half Guard/Reverse Half Guard.json
+content/Positions/Half Guard/Z-Lock Half Guard.json
+content/Positions/Harness.json
+content/Positions/Headquarters Position.json
+content/Positions/Hindulotine.json
+content/Positions/Inside Sankaku.json
+content/Positions/Inverted Guard.json
+content/Positions/Jailbreak.json
+content/Positions/K-Guard.json
+content/Positions/Kimura Trap.json
+content/Positions/Kneebar Control.json
+content/Positions/Knee on Belly.json
+content/Positions/Lapel Guard.json
+content/Positions/Lasso Guard/Inverted Lasso Guard.json
+content/Positions/Lasso Guard.json
+content/Positions/Lasso Guard/Russian Leg Lasso.json
+content/Positions/Leg Drag Control.json
+content/Positions/Leg Entanglement.json
+content/Positions/Leg Hook.json
+content/Positions/Leg Knot.json
+content/Positions/Leg Weave.json
+content/Positions/Matrix.json
+content/Positions/Mount/3-4 Mount.json
+content/Positions/Mount/High Mount.json
+content/Positions/Mount.json
+content/Positions/Mount/Modified Mount.json
+content/Positions/Mount/Mounted Crucifix.json
+content/Positions/Mount/Mounted Triangle.json
+content/Positions/Mount/S Mount.json
+content/Positions/Mount/Technical Mount.json
+content/Positions/North-South.json
+content/Positions/Omoplata Control.json
+content/Positions/Open Guard.json
+content/Positions/Overhook Control.json
+content/Positions/Overhook Guard.json
+content/Positions/Piranha Guard.json
+content/Positions/Quarter Guard.json
+content/Positions/Reverse Mount.json
+content/Positions/Ringworm Guard.json
+content/Positions/Rodeo Ride.json
+content/Positions/Rubber Guard/Carni.json
+content/Positions/Rubber Guard/Chill Dog.json
+content/Positions/Rubber Guard/Crackhead Control.json
+content/Positions/Rubber Guard/Invisible Collar.json
+content/Positions/Rubber Guard.json
+content/Positions/Rubber Guard/Meathook.json
+content/Positions/Rubber Guard/Mission Control.json
+content/Positions/Rubber Guard/New York Control.json
+content/Positions/Rubber Guard/New York.json
+content/Positions/Rubber Guard/Zombie.json
+content/Positions/Russian Cowboy.json
+content/Positions/Scramble Position.json
+content/Positions/Seated Guard.json
+content/Positions/Shin-to-Shin Guard.json
+content/Positions/Shoulder of Justice.json
+content/Positions/Side Control.json
+content/Positions/Side Control/Kesa Gatame.json
+content/Positions/Side Control/Kuzure Kesa-Gatame.json
+content/Positions/Side Control/Modified Scarf Hold.json
+content/Positions/Side Control/Reverse Kesa-Gatame.json
+content/Positions/Side Control/Reverse Scarf Hold.json
+content/Positions/Side Control/Scarf Hold Position.json
+content/Positions/Side Control/Side Control Consolidation.json
+content/Positions/Spider Guard.json
+content/Positions/Squid Guard.json
+content/Positions/Standing Guard.json
+content/Positions/Standing Position.json
+content/Positions/Standing Rear Clinch.json
+content/Positions/Straight Ankle Lock Control.json
+content/Positions/Toe Hold Control.json
+content/Positions/Triangle Control.json
+content/Positions/Triangle Control/Rear Triangle.json
+content/Positions/Triangle Escape Position.json
+content/Positions/Turtle.json
+content/Positions/Twister Control.json
+content/Positions/Twister Control/Truck.json
+content/Positions/Twister Control/Twister Side Control.json
+content/Positions/Vaporizer.json
+content/Positions/Williams Guard.json
+content/Positions/Worm Guard.json
+content/Positions/X-Guard.json
+content/Positions/X-Guard/Reverse X-Guard.json
+content/Positions/X-Guard/Single Leg X-Guard.json
+content/Positions/Z-Guard.json
+content/Principles/Action and Reaction.json
+content/Principles/Angle Creation.json
+content/Principles/Armbar Escape.json
+content/Principles/Back Escape Series.json
+content/Principles/Base Maintenance.json
+content/Principles/Biomechanical Principles.json
+content/Principles/Bridge and Shrimp.json
+content/Principles/Bridging Mechanics.json
+content/Principles/Butterfly Hook Retention.json
+content/Principles/Cardio Conditioning.json
+content/Principles/Chin Protection.json
+content/Principles/Collar Control.json
+content/Principles/Competition Mindset.json
+content/Principles/Competition Training.json
+content/Principles/Concepts vs Techniques.json
+content/Principles/Connection Breaking.json
+content/Principles/Connection Principles.json
+content/Principles/Control Maintenance.json
+content/Principles/Control Point Hierarchy.json
+content/Principles/Creating Reactions.json
+content/Principles/Creating Space.json
+content/Principles/Cross Face Control.json
+content/Principles/Dealing with Pressure.json
+content/Principles/Defense Technique.json
+content/Principles/Defensive Concepts.json
+content/Principles/Defensive Frame.json
+content/Principles/Defensive Framing.json
+content/Principles/Defensive Posture.json
+content/Principles/Defensive Strategy.json
+content/Principles/Dilemma Creation.json
+content/Principles/Distance Creation.json
+content/Principles/Double Pants Grip.json
+content/Principles/Drilling Methodology.json
+content/Principles/Energy Conservation.json
+content/Principles/Energy Management System.json
+content/Principles/Escape Fundamentals.json
+content/Principles/Escape Hierarchy.json
+content/Principles/Explosive Power.json
+content/Principles/Flexibility Training.json
+content/Principles/Flow Rolling.json
+content/Principles/Forward Pressure.json
+content/Principles/Frame Creation.json
+content/Principles/Frame Management.json
+content/Principles/Game Planning.json
+content/Principles/Granby Roll Concept.json
+content/Principles/Grip Advantage.json
+content/Principles/Grip Breaking.json
+content/Principles/Grip Break.json
+content/Principles/Grip Fighting.json
+content/Principles/Grip Fighting Strategies.json
+content/Principles/Grip Strategy.json
+content/Principles/Guard Passing.json
+content/Principles/Guard Recovery.json
+content/Principles/Guard Retention.json
+content/Principles/Hand Fighting from Back.json
+content/Principles/Hand Fighting.json
+content/Principles/Head Control.json
+content/Principles/Hip Elevation.json
+content/Principles/Hip Escape Mechanics.json
+content/Principles/Hip Movement.json
+content/Principles/Hip Pressure.json
+content/Principles/Knee on Belly Escape.json
+content/Principles/Knee Shield Retention.json
+content/Principles/Leg Entanglement.json
+content/Principles/Leverage Principles.json
+content/Principles/Long Step Passing.json
+content/Principles/Match Preparation.json
+content/Principles/Match Strategy.json
+content/Principles/Maximum Efficiency Principle.json
+content/Principles/Mount Escape Hierarchy.json
+content/Principles/Mount Escape Series.json
+content/Principles/Off-Balancing.json
+content/Principles/Offensive Combinations.json
+content/Principles/Offensive vs Defensive Mindset.json
+content/Principles/Pacing.json
+content/Principles/Passing Counter System.json
+content/Principles/Pin Escape Methodology.json
+content/Principles/Positional Hierarchy.json
+content/Principles/Positional Sparring.json
+content/Principles/Position Chains.json
+content/Principles/Position-Over-Submission Approach.json
+content/Principles/Posture Breaking.json
+content/Principles/Posture Up.json
+content/Principles/Pressure Application.json
+content/Principles/Pressure Passing Framework.json
+content/Principles/Pressure Passing.json
+content/Principles/Pressure Reduction.json
+content/Principles/Progressive Resistance Training.json
+content/Principles/Risk Assessment.json
+content/Principles/RNC Defense.json
+content/Principles/Shoulder Pressure.json
+content/Principles/Shrimping.json
+content/Principles/Side Control Defensive Framework.json
+content/Principles/Side Control Escapes.json
+content/Principles/Single Leg Variations.json
+content/Principles/Sleeve Control.json
+content/Principles/Space Creation.json
+content/Principles/Space Generation.json
+content/Principles/Space Management.json
+content/Principles/Speed Passing.json
+content/Principles/Sprawl Defense.json
+content/Principles/Strength Development.json
+content/Principles/Submission Chains.json
+content/Principles/Submission Control Position.json
+content/Principles/Submission Defense Concepts.json
+content/Principles/Submission Defense.json
+content/Principles/Submission Position.json
+content/Principles/Sweep Mechanics.json
+content/Principles/System Building.json
+content/Principles/Takedown Entry.json
+content/Principles/Technical Standup Concept.json
+content/Principles/Timing and Rhythm.json
+content/Principles/Timing Sweeps.json
+content/Principles/Top Half Guard.json
+content/Principles/Transition Management.json
+content/Principles/Transition Sequences.json
+content/Principles/Underhook Defense.json
+content/Principles/Weight Distribution.json
+content/Principles/Whizzer Control.json
+content/Submissions/Achilles Lock.json
+content/Submissions/Americana from 3-4 Mount.json
+content/Submissions/Americana from Kesa Gatame.json
+content/Submissions/Americana from Mount.json
+content/Submissions/Americana from Reverse Kesa.json
+content/Submissions/Americana from Side Control.json
+content/Submissions/Americana from Technical Mount.json
+content/Submissions/Americana.json
+content/Submissions/Anaconda Choke.json
+content/Submissions/Anaconda Finish from Dead Orchard.json
+content/Submissions/Ankle Lock from X-Guard.json
+content/Submissions/Aoki Lock Finish.json
+content/Submissions/Aoki Lock.json
+content/Submissions/Armbar from Back.json
+content/Submissions/Armbar from Back with Legs.json
+content/Submissions/Armbar from Crucifix.json
+content/Submissions/Armbar from Guard.json
+content/Submissions/Armbar from High Mount.json
+content/Submissions/Armbar from Knee on Belly.json
+content/Submissions/Armbar from Mount.json
+content/Submissions/Armbar from Side Control.json
+content/Submissions/Armbar from S Mount.json
+content/Submissions/Armbar from Technical Mount.json
+content/Submissions/Arm Crush.json
+content/Submissions/Arm in Guillotine.json
+content/Submissions/Arm Triangle from Scarf Hold.json
+content/Submissions/Arm Triangle.json
+content/Submissions/Banana Split.json
+content/Submissions/Baratoplata.json
+content/Submissions/Baseball Bat Choke.json
+content/Submissions/Belly Down Armbar Finish.json
+content/Submissions/Belly Down Armbar.json
+content/Submissions/Bicep Slicer.json
+content/Submissions/Body Triangle RNC.json
+content/Submissions/Boston Crab.json
+content/Submissions/Bow and Arrow Choke.json
+content/Submissions/Bow and Arrow from Seat Belt.json
+content/Submissions/Brabo Choke.json
+content/Submissions/Breadcutter Choke.json
+content/Submissions/Buggy Choke Finish.json
+content/Submissions/Buggy Choke.json
+content/Submissions/Calf Slicer from 50-50.json
+content/Submissions/Calf Slicer from Rodeo Ride.json
+content/Submissions/Calf Slicer from Truck.json
+content/Submissions/Calf Slicer.json
+content/Submissions/Can Opener.json
+content/Submissions/Chin Strap Guillotine.json
+content/Submissions/Choke from Crucifix.json
+content/Submissions/Clock Choke.json
+content/Submissions/Cross Collar Choke from High Mount.json
+content/Submissions/Cross Collar Choke from KOB.json
+content/Submissions/Cross Collar Choke.json
+content/Submissions/Crotch Ripper.json
+content/Submissions/Darce Choke.json
+content/Submissions/Darce from Leg Drag.json
+content/Submissions/Electric Chair Finish.json
+content/Submissions/Electric Chair Submission.json
+content/Submissions/Estima Lock Finish.json
+content/Submissions/Estima Lock.json
+content/Submissions/Ezekiel Choke.json
+content/Submissions/Ezekiel from Mount.json
+content/Submissions/Ezekiel from Side Control Consolidation.json
+content/Submissions/Far Side Armbar.json
+content/Submissions/Flying Armbar.json
+content/Submissions/Flying Kneebar.json
+content/Submissions/Gift Wrap Armbar.json
+content/Submissions/Gift Wrap RNC.json
+content/Submissions/Gogoplata Finish.json
+content/Submissions/Gogoplata.json
+content/Submissions/Guillotine Choke.json
+content/Submissions/Guillotine from Butterfly Guard.json
+content/Submissions/Heel Hook from Saddle.json
+content/Submissions/Heel Hook from Ushiro Ashi.json
+content/Submissions/Heel Hook.json
+content/Submissions/High Elbow Guillotine.json
+content/Submissions/Inside Heel Hook from Honey Hole.json
+content/Submissions/Inside Heel Hook.json
+content/Submissions/Inside Sankaku Heel Hook Finish.json
+content/Submissions/Inverted Triangle.json
+content/Submissions/Japanese Necktie.json
+content/Submissions/Kesa Gatame Arm Crush.json
+content/Submissions/Kimura from Guard.json
+content/Submissions/Kimura from Half Guard.json
+content/Submissions/Kimura from Kimura Trap.json
+content/Submissions/Kimura from Modified Scarf Hold.json
+content/Submissions/Kimura from Mount.json
+content/Submissions/Kimura from North-South.json
+content/Submissions/Kimura from Shoulder of Justice.json
+content/Submissions/Kimura from Side Control.json
+content/Submissions/Kimura from Standing.json
+content/Submissions/Kimura from Turtle.json
+content/Submissions/Kimura.json
+content/Submissions/Kneebar from 50-50.json
+content/Submissions/Kneebar from Guard.json
+content/Submissions/Kneebar from Half Guard.json
+content/Submissions/Kneebar from Top.json
+content/Submissions/Kneebar.json
+content/Submissions/Loop Choke from Mount.json
+content/Submissions/Loop Choke.json
+content/Submissions/Marce Choke.json
+content/Submissions/Mir Lock.json
+content/Submissions/Monoplata from Guard.json
+content/Submissions/Monoplata from Mount.json
+content/Submissions/Monoplata.json
+content/Submissions/Mounted Crucifix Armbar.json
+content/Submissions/Mounted Triangle Finish.json
+content/Submissions/North-South Choke from Reverse Scarf.json
+content/Submissions/North-South Choke.json
+content/Submissions/Omoplata from Guard.json
+content/Submissions/Omoplata from Spider Guard.json
+content/Submissions/Omoplata.json
+content/Submissions/Outside Heel Hook from Backside 50-50.json
+content/Submissions/Outside Heel Hook from Cross Ashi.json
+content/Submissions/Outside Heel Hook.json
+content/Submissions/Paper Cutter Choke.json
+content/Submissions/Peruvian Necktie.json
+content/Submissions/Rear Naked Choke from Rodeo.json
+content/Submissions/Rear Naked Choke.json
+content/Submissions/Rear Triangle Choke.json
+content/Submissions/Reverse Armbar.json
+content/Submissions/Reverse Kimura.json
+content/Submissions/RNC from Seat Belt.json
+content/Submissions/Rolling Armbar.json
+content/Submissions/Rolling Omoplata.json
+content/Submissions/Russian Cowboy RNC.json
+content/Submissions/Short Choke from Cross Body.json
+content/Submissions/Short Choke.json
+content/Submissions/Spine Lock.json
+content/Submissions/Spinning Armbar.json
+content/Submissions/Standing Guillotine from Clinch.json
+content/Submissions/Standing RNC from Rear Clinch.json
+content/Submissions/Standing RNC.json
+content/Submissions/Straight Ankle Lock.json
+content/Submissions/Suloev Stretch.json
+content/Submissions/Tarikoplata.json
+content/Submissions/Ten Finger Guillotine.json
+content/Submissions/Toe Hold from 50-50.json
+content/Submissions/Toe Hold from Outside Ashi.json
+content/Submissions/Toe Hold from Top.json
+content/Submissions/Toe Hold.json
+content/Submissions/Triangle Choke Back.json
+content/Submissions/Triangle Choke Front.json
+content/Submissions/Triangle Choke.json
+content/Submissions/Triangle Choke Side.json
+content/Submissions/Triangle from Closed Guard.json
+content/Submissions/Triangle from De La Riva.json
+content/Submissions/Triangle from Open Guard.json
+content/Submissions/Triangle from Spider Guard Bottom.json
+content/Submissions/Triangle from Spider Guard.json
+content/Submissions/Twister from Twister SC.json
+content/Submissions/Twister.json
+content/Submissions/Von Flue Choke.json
+content/Submissions/Williams Shoulder Lock.json
+content/Systems/10th Planet Half Guard Bottom System.json
+content/Systems/10th Planet No-Gi Guard System.json
+content/Systems/10th Planet Rubber Guard System.json
+content/Systems/Andrew Wiltse Half Guard System.json
+content/Systems/Back Attack System.json
+content/Systems/Back Defense Protocol.json
+content/Systems/Berimbolo.json
+content/Systems/Bernardo Faria Pressure System.json
+content/Systems/Blue to Purple Progression.json
+content/Systems/B-Team Dilemma System.json
+content/Systems/Caio Terra Guard Retention System.json
+content/Systems/Competition Preparation System.json
+content/Systems/Competition Scoring Strategy.json
+content/Systems/Competition Strategy.json
+content/Systems/Craig Jones Leg Lock System.json
+content/Systems/Danaher Front Headlock System.json
+content/Systems/Danaher Leg Lock System.json
+content/Systems/Danaher Straight Jacket System.json
+content/Systems/Defensive Prioritization Framework.json
+content/Systems/Dynamic Guard System.json
+content/Systems/Garry Tonon Leg Lock to Back System.json
+content/Systems/Gi-Specific Strategy.json
+content/Systems/Gordon Ryan Passing System.json
+content/Systems/IBJJF Strategy Guide.json
+content/Systems/Keenan Cornelius Lapel Guard System.json
+content/Systems/Kimura Trap System.json
+content/Systems/Lachlan Giles Leg Lock Defense Framework.json
+content/Systems/Lockdown to Electric Chair System.json
+content/Systems/Marcelo Garcia Butterfly Guard System.json
+content/Systems/Marcelo Garcia Guillotine System.json
+content/Systems/Marcelo Garcia X-Guard System.json
+content/Systems/Mental Game Framework.json
+content/Systems/Mikey Musumeci Berimbolo System.json
+content/Systems/MMA Crossover Strategy.json
+content/Systems/Modern No-Gi Passing System.json
+content/Systems/No-Gi Competition Approach.json
+content/Systems/No-Gi Tactical Framework.json
+content/Systems/Roger Gracie Fundamental System.json
+content/Systems/Rubber Guard to Omoplata System.json
+content/Systems/Rubber Guard to Triangle System.json
+content/Systems/Ryan Hall Triangle System.json
+content/Systems/Self-Defense Application Framework.json
+content/Systems/Standing Defense Strategy.json
+content/Systems/Straight Footlock to Kneebar Chain.json
+content/Systems/Submission Clinic System.json
+content/Systems/Teaching Methodology Framework.json
+content/Systems/Twister System.json
+content/Transitions/100% Sweep.json
+content/Transitions/3-4 Mount to S Mount.json
+content/Transitions/3-4 Mount to Technical Mount.json
+content/Transitions/50-50 Entry from Standing.json
+content/Transitions/50-50 Entry.json
+content/Transitions/50-50 Guard to Backside 50-50.json
+content/Transitions/50-50 Guard to Inside Ashi.json
+content/Transitions/50-50 Guard to Outside Ashi.json
+content/Transitions/50-50 Guard to Single Leg X-Guard.json
+content/Transitions/50-50 Pass.json
+content/Transitions/Advance to Chill Dog.json
+content/Transitions/Americana from Modified Mount.json
+content/Transitions/Americana.json
+content/Transitions/Anaconda Choke.json
+content/Transitions/Anaconda Control to Dead Orchard Control.json
+content/Transitions/Anaconda from Turtle.json
+content/Transitions/Anaconda Grip Break to Front Headlock.json
+content/Transitions/Anaconda Setup.json
+content/Transitions/Anaconda to Side Control.json
+content/Transitions/Angle Change Escape.json
+content/Transitions/Ankle Lock Escape to Standing.json
+content/Transitions/Ankle Lock Finish.json
+content/Transitions/Ankle Pick.json
+content/Transitions/Ankle Pick Sweep.json
+content/Transitions/Aoki Lock Finish.json
+content/Transitions/Aoki Lock to Back Control.json
+content/Transitions/Aoki Lock to Crucifix.json
+content/Transitions/Armbar Defense.json
+content/Transitions/Armbar Finish.json
+content/Transitions/Armbar from Back Transition.json
+content/Transitions/Armbar from Clamp Guard.json
+content/Transitions/Armbar from Crucifix.json
+content/Transitions/Armbar from North-South.json
+content/Transitions/Armbar from Reverse Mount.json
+content/Transitions/Armbar on Free Arm.json
+content/Transitions/Armbar Setup from Double Sleeve.json
+content/Transitions/Arm Drag Escape.json
+content/Transitions/Arm Drag from Clinch Bottom.json
+content/Transitions/Arm Drag from Clinch.json
+content/Transitions/Arm Drag from Standing.json
+content/Transitions/Arm Drag.json
+content/Transitions/Arm Drag Sweep.json
+content/Transitions/Arm Drag to Back.json
+content/Transitions/Arm Extraction and Pass.json
+content/Transitions/Arm Extraction from Clamp Guard.json
+content/Transitions/Arm Extraction.json
+content/Transitions/Arm Extraction to Turtle.json
+content/Transitions/Arm in Guillotine Variation.json
+content/Transitions/Arm Recovery from Crucifix.json
+content/Transitions/Arm Recovery to Guard.json
+content/Transitions/Arm Triangle from Front Headlock.json
+content/Transitions/Arm Triangle from Top.json
+content/Transitions/Arm Triangle from Turtle.json
+content/Transitions/Arm Triangle.json
+content/Transitions/Arm Triangle Setup.json
+content/Transitions/Arm Triangle Transition.json
+content/Transitions/Ashi Entry from Leg Entanglement.json
+content/Transitions/Ashi Garami Escape.json
+content/Transitions/Ashi Garami Maintenance.json
+content/Transitions/Ashi Garami to Leg Entanglement.json
+content/Transitions/Back Control Maintenance.json
+content/Transitions/Back Control to Cross Body Ride.json
+content/Transitions/Back Control to Crucifix.json
+content/Transitions/Back Control to Reverse Half Guard.json
+content/Transitions/Back Control to Seat Belt Control Back.json
+content/Transitions/Back Door Escape from Half Guard.json
+content/Transitions/Back Door Escape.json
+content/Transitions/Backside 50-50 Entry from Ashi.json
+content/Transitions/Backstep Around Worm Guard.json
+content/Transitions/Backstep from Deep Half.json
+content/Transitions/Backstep from De La Riva.json
+content/Transitions/Backstep from K-Guard.json
+content/Transitions/Backstep from Leg Knot.json
+content/Transitions/Backstep from Leg Weave.json
+content/Transitions/Backstep from Reverse Half.json
+content/Transitions/Backstep from Single Leg X.json
+content/Transitions/Backstep from Worm Guard.json
+content/Transitions/Back Step.json
+content/Transitions/Backstep Pass from Reverse X-Guard.json
+content/Transitions/Back Step Pass.json
+content/Transitions/Back Take from 50-50.json
+content/Transitions/Back Take from Anaconda.json
+content/Transitions/Back Take from Armbar.json
+content/Transitions/Back Take from Ashi.json
+content/Transitions/Back Take from Bottom.json
+content/Transitions/Back Take from Kesa Gatame.json
+content/Transitions/Back Take from Lockdown Defense.json
+content/Transitions/Back Take from Top.json
+content/Transitions/Back Take.json
+content/Transitions/Back Turn from Technical Mount.json
+content/Transitions/Balloon Sweep.json
+content/Transitions/Baratoplata.json
+content/Transitions/Baratoplata Setup.json
+content/Transitions/Base Attack to Sweep.json
+content/Transitions/Baseball Bat Choke.json
+content/Transitions/Basic Butterfly Sweep.json
+content/Transitions/Belly Down Armbar Transition.json
+content/Transitions/Berimbolo Entry.json
+content/Transitions/Bodylock Pass from Seated.json
+content/Transitions/Body Lock Pass.json
+content/Transitions/Body Lock Takedown from Clinch.json
+content/Transitions/Body Lock Takedown.json
+content/Transitions/Body Lock to Standing.json
+content/Transitions/Body Triangle Escape to Half Guard.json
+content/Transitions/Body Triangle Escape to Side Control.json
+content/Transitions/Body Triangle Lock.json
+content/Transitions/Body Triangle Squeeze.json
+content/Transitions/Bolo Sweep.json
+content/Transitions/Boot Defense from Toe Hold.json
+content/Transitions/Boot Scoot Escape from Saddle.json
+content/Transitions/Bow and Arrow Choke.json
+content/Transitions/Bow and Arrow Choke Setup.json
+content/Transitions/Bow and Arrow Setup from Standing Back.json
+content/Transitions/Breadcutter Choke.json
+content/Transitions/Break Clinch.json
+content/Transitions/Break Overhook Guard.json
+content/Transitions/Bridge and Roll.json
+content/Transitions/Bridge and Turn to Turtle.json
+content/Transitions/Bridge Defense from Mounted Triangle.json
+content/Transitions/Bridge Escape from 3-4 Mount.json
+content/Transitions/Bridge Escape from Kesa Gatame.json
+content/Transitions/Bridge Escape from Modified Mount.json
+content/Transitions/Bridge Escape from Modified Scarf Hold.json
+content/Transitions/Bridge Escape from Mounted Crucifix.json
+content/Transitions/Bridge Escape from Reverse Scarf Hold.json
+content/Transitions/Bridge Escape from Scarf Hold.json
+content/Transitions/Bridge Escape from S Mount.json
+content/Transitions/Bridge from Modified Scarf Hold.json
+content/Transitions/Bridge from Reverse Kesa-Gatame.json
+content/Transitions/Bridge from Reverse Mount.json
+content/Transitions/Bridge from Scarf Hold Position.json
+content/Transitions/Bridge from Technical Mount.json
+content/Transitions/Bridge to Mount from High Mount.json
+content/Transitions/Buggy Choke to Front Headlock.json
+content/Transitions/Buggy Choke to North-South.json
+content/Transitions/Buggy Choke to Side Control.json
+content/Transitions/Bullfighter Pass.json
+content/Transitions/Bull Pass from Collar Sleeve.json
+content/Transitions/Bull Pass from Seated.json
+content/Transitions/Butterfly Guard Pull.json
+content/Transitions/Butterfly Guard to Butterfly Half Guard.json
+content/Transitions/Butterfly Guard to Butterfly Hook Control.json
+content/Transitions/Butterfly Guard to Half Butterfly.json
+content/Transitions/Butterfly Guard to X-Guard.json
+content/Transitions/Butterfly Half Guard Sweep.json
+content/Transitions/Butterfly Hook Recovery.json
+content/Transitions/Butterfly Hook Sweep.json
+content/Transitions/Butterfly Pass.json
+content/Transitions/Butterfly Smash.json
+content/Transitions/Butterfly Sweep.json
+content/Transitions/Butterfly Sweep with Guillotine.json
+content/Transitions/Calf Slicer.json
+content/Transitions/Carni to Gogoplata Setup.json
+content/Transitions/Cartwheel Escape from Omoplata.json
+content/Transitions/Cartwheel Pass.json
+content/Transitions/Chair Sit to Back.json
+content/Transitions/Choke from Crucifix.json
+content/Transitions/Clear leg and transition to X-Guard.json
+content/Transitions/Clock Choke.json
+content/Transitions/Closed Guard to Omoplata.json
+content/Transitions/Closed Guard to Overhook Guard.json
+content/Transitions/Closed Guard to Triangle.json
+content/Transitions/Collar Drag from Open Guard.json
+content/Transitions/Collar Drag from Worm Guard.json
+content/Transitions/Collar Drag.json
+content/Transitions/Collar Sleeve Sweep.json
+content/Transitions/Collar Sleeve to De La Riva.json
+content/Transitions/Collar Sleeve to Spider Guard.json
+content/Transitions/Combat Base to Headquarters.json
+content/Transitions/Complete Leg Weave Pass.json
+content/Transitions/Complete Pass from Flattened Half.json
+content/Transitions/Complete Pass from Quarter.json
+content/Transitions/Complete Triangle Escape from Top.json
+content/Transitions/Complete Triangle Escape.json
+content/Transitions/Consolidate Mount.json
+content/Transitions/Consolidation to Knee on Belly.json
+content/Transitions/Consolidation to Mount.json
+content/Transitions/Controlled Descent.json
+content/Transitions/Counter Ashi Entry.json
+content/Transitions/Counter Entangle from Cross Ashi.json
+content/Transitions/Counter Entangle to 50-50 from Ashi.json
+content/Transitions/Counter-entangle to 50-50 Guard.json
+content/Transitions/Counter Entry to Opponent's Leg.json
+content/Transitions/Counter from Ankle Lock.json
+content/Transitions/Counter from Estima Lock.json
+content/Transitions/Counter heel hook.json
+content/Transitions/Counter Leg Attack.json
+content/Transitions/Counter Leg Hook.json
+content/Transitions/Counter Roll from Matrix.json
+content/Transitions/Counter Roll to Top.json
+content/Transitions/Counter Rotation from Toe Hold.json
+content/Transitions/Counter Sweep from Leg Entanglement.json
+content/Transitions/Counter Sweep from Outside Ashi.json
+content/Transitions/Counter Sweep.json
+content/Transitions/Counter Throw from Standing Rear Clinch.json
+content/Transitions/Crab Ride Escape to Guard.json
+content/Transitions/Crab Ride to Back.json
+content/Transitions/Crackhead Control Entry.json
+content/Transitions/Crackhead Control to Carni.json
+content/Transitions/Crackhead Control to Mission Control.json
+content/Transitions/Crackhead Control to New York.json
+content/Transitions/Cross Ashi to 50-50.json
+content/Transitions/Cross Ashi Transition.json
+content/Transitions/Cross Body to Back Control.json
+content/Transitions/Cross Body to Side Control.json
+content/Transitions/Cross Collar Choke Finish.json
+content/Transitions/Cross Collar Choke.json
+content/Transitions/Crossface from Dogfight.json
+content/Transitions/Crossface from Old School.json
+content/Transitions/Cross Face Pass from Flattened Half.json
+content/Transitions/Crossface Pass.json
+content/Transitions/Crossface to Combat Base.json
+content/Transitions/Crucifix Choke Defense.json
+content/Transitions/Crucifix from Turtle.json
+content/Transitions/Crucifix Maintenance.json
+content/Transitions/Crucifix to Mount.json
+content/Transitions/Crucifix Transition.json
+content/Transitions/Darce Choke.json
+content/Transitions/Darce Control Maintenance.json
+content/Transitions/Darce from Lockdown Counter.json
+content/Transitions/Darce from Turtle.json
+content/Transitions/Darce Setup.json
+content/Transitions/Darce to Anaconda Switch.json
+content/Transitions/Dead Orchard to Anaconda Finish.json
+content/Transitions/Dead Orchard to Darce Switch.json
+content/Transitions/Deashi Harai.json
+content/Transitions/Deep Half Entry from Flattened.json
+content/Transitions/Deep Half Entry from Half Guard.json
+content/Transitions/Deep Half Entry.json
+content/Transitions/Deep Half Sweep.json
+content/Transitions/Deep Half to X-Guard.json
+content/Transitions/Defend Old School Sweep.json
+content/Transitions/Defend Vaporizer Sweep.json
+content/Transitions/Defense from Standing Rear Clinch.json
+content/Transitions/Defensive Roll.json
+content/Transitions/De La Riva Sweep.json
+content/Transitions/De La Riva to X-Guard Transition.json
+content/Transitions/Distance Creation to Reset.json
+content/Transitions/Dogfight Position.json
+content/Transitions/Dogfight Sweep.json
+content/Transitions/Double Jump to Mount.json
+content/Transitions/Double Jump to Side Control.json
+content/Transitions/Double Leg Entry.json
+content/Transitions/Double Leg Finish.json
+content/Transitions/Double Leg Setup.json
+content/Transitions/Double Sleeve Sweep.json
+content/Transitions/Double Sleeve to De La Riva.json
+content/Transitions/Double Sleeve to Lasso.json
+content/Transitions/Double Sleeve to Spider Guard.json
+content/Transitions/Double Sleeve to Spider.json
+content/Transitions/Double Underhook Pass.json
+content/Transitions/Double Under Pass.json
+content/Transitions/Duck Under from Clinch.json
+content/Transitions/Duck Under.json
+content/Transitions/Elbow Escape from 3-4 Mount.json
+content/Transitions/Elbow Escape from Back.json
+content/Transitions/Elbow Escape from Flattened Half.json
+content/Transitions/Elbow Escape from Mount.json
+content/Transitions/Elbow Escape to Guard.json
+content/Transitions/Elbow Escape to Remove Hooks.json
+content/Transitions/Electric Chair Entry from Deep Half.json
+content/Transitions/Electric Chair Transition.json
+content/Transitions/Elevation Sweep to Mount.json
+content/Transitions/Elevator Sweep.json
+content/Transitions/Escape Body Lock.json
+content/Transitions/Escape Chill Dog.json
+content/Transitions/Escape Dead Orchard Control.json
+content/Transitions/Escape Double Jump.json
+content/Transitions/Escape from Crab Ride.json
+content/Transitions/Escape from Cross Body Ride.json
+content/Transitions/Escape from Dead Orchard.json
+content/Transitions/Escape from Rodeo Ride.json
+content/Transitions/Escape from Russian Cowboy.json
+content/Transitions/Escape from Truck.json
+content/Transitions/Escape from Vaporizer.json
+content/Transitions/Escape Leg Hook.json
+content/Transitions/Escape Matrix Position.json
+content/Transitions/Escape Modified Scarf Hold.json
+content/Transitions/Escape Reverse Half Guard.json
+content/Transitions/Escape Reverse Kesa-Gatame.json
+content/Transitions/Escape Reverse Mount.json
+content/Transitions/Escape Reverse Scarf Hold.json
+content/Transitions/Escape Scarf Hold Position.json
+content/Transitions/Escape Seat Belt Control.json
+content/Transitions/Escape Shoulder of Justice.json
+content/Transitions/Escape Side Control Consolidation.json
+content/Transitions/Escape Technical Mount to Half Guard.json
+content/Transitions/Escape Twister Side Control.json
+content/Transitions/Escape Vaporizer.json
+content/Transitions/Escape Z-Lock Half Guard.json
+content/Transitions/Escape Zombie Control.json
+content/Transitions/Estima Lock Counter Roll.json
+content/Transitions/Estima Lock.json
+content/Transitions/Estima Lock to Ashi Garami.json
+content/Transitions/Estima Lock to Saddle.json
+content/Transitions/Explosive Bridge to Guard Recovery.json
+content/Transitions/Explosive Bridge to Turtle.json
+content/Transitions/Explosive Forward Roll.json
+content/Transitions/Extract leg and establish Single Leg X.json
+content/Transitions/Extract legs and stand up.json
+content/Transitions/Ezekiel from Closed Guard.json
+content/Transitions/Fallback to Inside Ashi-Garami.json
+content/Transitions/Far Side Armbar from KOB.json
+content/Transitions/Feet on Hips Sickle Sweep.json
+content/Transitions/Feet on Hips to De La Riva.json
+content/Transitions/Feet on Hips Tripod Sweep.json
+content/Transitions/Fight to Inside Ashi from Saddle.json
+content/Transitions/Finish Buggy Choke.json
+content/Transitions/Finish from Hindulotine.json
+content/Transitions/Fireman's Carry.json
+content/Transitions/Float Passing.json
+content/Transitions/Flower Sweep.json
+content/Transitions/Follow to Back Control.json
+content/Transitions/Foot Grab Sweep.json
+content/Transitions/Forward Drive Sweep from Dogfight.json
+content/Transitions/Forward Roll from Saddle.json
+content/Transitions/Forward Roll.json
+content/Transitions/Frame and Distance Creation.json
+content/Transitions/Frame and Escape Mounted Triangle.json
+content/Transitions/Frame and Extract to Half Guard.json
+content/Transitions/Frame and Posture from Anaconda.json
+content/Transitions/Frame and Shrimp from Knee on Belly.json
+content/Transitions/Frame and Shrimp from S Mount.json
+content/Transitions/Frame and Shrimp to Guard.json
+content/Transitions/Frame and Turn.json
+content/Transitions/Frame Escape from Darce.json
+content/Transitions/Frame Escape from High Mount.json
+content/Transitions/Frame Escape from Kuzure Kesa.json
+content/Transitions/Frame Escape from Shoulder of Justice.json
+content/Transitions/Frame from Reverse Scarf Hold.json
+content/Transitions/Frame from Shoulder of Justice.json
+content/Transitions/Frame from Side Control Consolidation.json
+content/Transitions/Frame from Twister Side Control.json
+content/Transitions/Frame to Guard from Kesa Gatame.json
+content/Transitions/Front Headlock to Anaconda.json
+content/Transitions/Front Headlock to Back.json
+content/Transitions/Front Headlock to Darce.json
+content/Transitions/Front Headlock to Guillotine.json
+content/Transitions/Ghost Escape from Side Control.json
+content/Transitions/Ghost Escape.json
+content/Transitions/Gift Wrap Arm Recovery.json
+content/Transitions/Gift Wrap Control.json
+content/Transitions/Gift Wrap from Back.json
+content/Transitions/Gift Wrap.json
+content/Transitions/Gift Wrap Maintenance.json
+content/Transitions/Gift Wrap to Back.json
+content/Transitions/Gift Wrap to Technical Mount.json
+content/Transitions/Gift Wrap Transition.json
+content/Transitions/Gogoplata.json
+content/Transitions/Gogoplata to Armbar.json
+content/Transitions/Granby Roll to Guard.json
+content/Transitions/Granby to Closed Guard.json
+content/Transitions/Grasshopper Sweep.json
+content/Transitions/Grip Break and Face.json
+content/Transitions/Grip Break.json
+content/Transitions/Grip Fight Escape from Rear Triangle.json
+content/Transitions/Grip Strip from Buggy Choke.json
+content/Transitions/Guard Opening Sequence.json
+content/Transitions/Guard Pass from Chill Dog.json
+content/Transitions/Guard Pass from Diamond Guard.json
+content/Transitions/Guard Pass from Leg Entanglement.json
+content/Transitions/Guard Pass from New York Control.json
+content/Transitions/Guard Pass from Standing Guard.json
+content/Transitions/Guard Pass from Triangle Escape.json
+content/Transitions/Guard Pass from Williams Guard.json
+content/Transitions/Guard Pull from Clinch.json
+content/Transitions/Guard Pull.json
+content/Transitions/Guard Recovery from Combat Base.json
+content/Transitions/Guard Recovery from Double Sleeve Guard.json
+content/Transitions/Guard Recovery from Double Unders.json
+content/Transitions/Guard Recovery from Guillotine Control.json
+content/Transitions/Guard Recovery from Hindulotine.json
+content/Transitions/Guard Recovery from Inside Ashi-Garami.json
+content/Transitions/Guard Recovery from Jailbreak.json
+content/Transitions/Guard Recovery from Leg Entanglement.json
+content/Transitions/Guard Recovery from Reverse Half Guard.json
+content/Transitions/Guard Recovery from Spider Guard.json
+content/Transitions/Guard Recovery from Squid Guard.json
+content/Transitions/Guard Recovery from Triangle Control.json
+content/Transitions/Guard Recovery from Zombie.json
+content/Transitions/Guillotine Choke.json
+content/Transitions/Guillotine Counter.json
+content/Transitions/Guillotine Defense.json
+content/Transitions/Guillotine Escape to Von Flue.json
+content/Transitions/Guillotine Escape via Posture.json
+content/Transitions/Guillotine from Turtle.json
+content/Transitions/Guillotine Setup.json
+content/Transitions/Half Butterfly Sweep.json
+content/Transitions/Half Butterfly to Dogfight.json
+content/Transitions/Half Guard Pass.json
+content/Transitions/Half Guard Recovery.json
+content/Transitions/Half Guard to Back Take.json
+content/Transitions/Half Guard to Double Jump.json
+content/Transitions/Half Guard to Flattened Half Guard.json
+content/Transitions/Half Guard to K-Guard.json
+content/Transitions/Half Guard to Leg Hook.json
+content/Transitions/Half Guard to Old School.json
+content/Transitions/Half Guard to Pocket Half Guard.json
+content/Transitions/Half Guard to Quarter Guard.json
+content/Transitions/Half Guard to Triangle Escape Position.json
+content/Transitions/Half Guard to X-Guard.json
+content/Transitions/Hand Control to Extract.json
+content/Transitions/Hand Fight from Seat Belt Control.json
+content/Transitions/Hand Fighting from Back.json
+content/Transitions/Hand Fighting to Remove Collar Grip.json
+content/Transitions/Hand Fight to Turtle from Back.json
+content/Transitions/Harai Goshi.json
+content/Transitions/Harness Escape to Half Guard.json
+content/Transitions/Harness to Body Lock.json
+content/Transitions/Head Extraction to Posture.json
+content/Transitions/Headquarters Pass.json
+content/Transitions/Heel Drag Escape.json
+content/Transitions/Heel Grab Sweep.json
+content/Transitions/Heel Hook Defense Escape.json
+content/Transitions/Heel Hook from Backside 50-50.json
+content/Transitions/Heel Hook from Saddle.json
+content/Transitions/Heel Hook.json
+content/Transitions/Heel Strip from Ashi Garami.json
+content/Transitions/High Crotch.json
+content/Transitions/High Elbow Guillotine Variation.json
+content/Transitions/High Guard to Rubber Guard.json
+content/Transitions/High Mount to S Mount.json
+content/Transitions/High Mount Transition.json
+content/Transitions/Hindulotine Choke Finish.json
+content/Transitions/Hindulotine to Anaconda Choke.json
+content/Transitions/Hindulotine to Darce Choke.json
+content/Transitions/Hip Bump Sweep.json
+content/Transitions/Hip Bump Sweep V2.json
+content/Transitions/Hip Escape from Back Control.json
+content/Transitions/Hip Escape from Cross Body Ride.json
+content/Transitions/Hip Escape from Crucifix.json
+content/Transitions/Hip Escape from Front Headlock.json
+content/Transitions/Hip Escape from Mounted Crucifix.json
+content/Transitions/Hip Escape from Russian Cowboy.json
+content/Transitions/Hip Escape from Side Control Consolidation.json
+content/Transitions/Hip Escape from Truck.json
+content/Transitions/Hip Escape to Guard.json
+content/Transitions/Hip Escape to Turtle.json
+content/Transitions/Hip Rotation Defense.json
+content/Transitions/Hip Rotation Escape from Electric Chair.json
+content/Transitions/Hitchhiker Escape from Armbar.json
+content/Transitions/Hitchhiker Escape.json
+content/Transitions/Homer Simpson Sweep.json
+content/Transitions/Honey Hole to Saddle.json
+content/Transitions/Hook Leg and Take Back.json
+content/Transitions/Hook Sweep.json
+content/Transitions/Inside Ashi Entry.json
+content/Transitions/Inside Ashi-Garami to Cross Ashi.json
+content/Transitions/Inside Ashi-Garami to Honey Hole.json
+content/Transitions/Inside Ashi-Garami to Ushiro Ashi.json
+content/Transitions/Inside Ashi to Outside Ashi.json
+content/Transitions/Inside Heel Hook from Honey Hole.json
+content/Transitions/Inside Heel Hook from Ushiro.json
+content/Transitions/Inside Position Recovery.json
+content/Transitions/Inside Sankaku Heel Hook.json
+content/Transitions/Inside Sankaku to Saddle.json
+content/Transitions/Inversion Escape from Leg Entanglement.json
+content/Transitions/Inversion Escape.json
+content/Transitions/Inversion from Headquarters.json
+content/Transitions/Inversion to Turtle.json
+content/Transitions/Inverted Lasso Sweep.json
+content/Transitions/Inverted Lasso to Lasso Guard.json
+content/Transitions/Inverted Triangle.json
+content/Transitions/Invert from Reverse Half Guard.json
+content/Transitions/Ippon Seoi Nage.json
+content/Transitions/Jailbreak to Back Take.json
+content/Transitions/Jailbreak to Deep Half Entry.json
+content/Transitions/Jailbreak to Turtle.json
+content/Transitions/Japanese Necktie Setup.json
+content/Transitions/John Wayne Sweep.json
+content/Transitions/Jumping Guard.json
+content/Transitions/Kesa Gatame to Modified Scarf Hold.json
+content/Transitions/Kesa Gatame to Reverse Kesa-Gatame.json
+content/Transitions/K-Guard Sweep.json
+content/Transitions/K-Guard to Single Leg X.json
+content/Transitions/Kimura Counter via Roll.json
+content/Transitions/Kimura Defense Arm Extraction.json
+content/Transitions/Kimura Defense.json
+content/Transitions/Kimura from Back.json
+content/Transitions/Kimura from Crab Ride.json
+content/Transitions/Kimura from Diamond Guard.json
+content/Transitions/Kimura from Half Guard.json
+content/Transitions/Kimura.json
+content/Transitions/Kimura on Trapped Arm.json
+content/Transitions/Kimura Sweep.json
+content/Transitions/Kimura Switch.json
+content/Transitions/Kimura to Back Take.json
+content/Transitions/Kimura Trap to Reverse Scarf Hold.json
+content/Transitions/Kiss of the Dragon from RDLR.json
+content/Transitions/Kiss of the Dragon.json
+content/Transitions/Kneebar Control Maintenance.json
+content/Transitions/Kneebar entry.json
+content/Transitions/Kneebar Finish.json
+content/Transitions/Kneebar from Estima Lock.json
+content/Transitions/Kneebar from Grasshopper.json
+content/Transitions/Kneebar from Ushiro.json
+content/Transitions/Kneebar.json
+content/Transitions/Kneebar Setup.json
+content/Transitions/Kneebar to 50-50 Transition.json
+content/Transitions/Kneebar to Ashi Garami.json
+content/Transitions/Knee Cut from Feet on Hips.json
+content/Transitions/Knee Cut from Headquarters.json
+content/Transitions/Knee Cut Pass.json
+content/Transitions/Knee Extraction.json
+content/Transitions/Knee on Belly.json
+content/Transitions/Knee Pin from X-Guard.json
+content/Transitions/Knee Shield from Quarter Guard.json
+content/Transitions/Knee Shield Half Guard to Z-Guard.json
+content/Transitions/Knee Shield Retention.json
+content/Transitions/Knee Shield to Closed Guard.json
+content/Transitions/Knee Slice Despite Lapel.json
+content/Transitions/Knee Slice from Butterfly Half.json
+content/Transitions/Knee Slice from Closed Guard.json
+content/Transitions/Knee Slice from Deep Half.json
+content/Transitions/Knee Slice from DLR.json
+content/Transitions/Knee Slice from Half.json
+content/Transitions/Knee Slice from Knee Shield.json
+content/Transitions/Knee Slice from Reverse X-Guard.json
+content/Transitions/Knee Slice from Seated Guard.json
+content/Transitions/Knee Slice from Z-Guard.json
+content/Transitions/Knee Slice Pass.json
+content/Transitions/Knee Slide from Combat Base.json
+content/Transitions/Knee Slide from Flattened Half.json
+content/Transitions/Knee Slide from Jailbreak.json
+content/Transitions/Knee Tap.json
+content/Transitions/Knee Through from Quarter.json
+content/Transitions/Knee Through.json
+content/Transitions/Knee Torque Sweep.json
+content/Transitions/KOB to Mount.json
+content/Transitions/KOB to Side Control.json
+content/Transitions/Kosoto Gake.json
+content/Transitions/Kosoto Gari.json
+content/Transitions/Kouchi Gari.json
+content/Transitions/Lapel Clear to Toreando Pass.json
+content/Transitions/Lapel Elevator Sweep.json
+content/Transitions/Lapel Grip Break and Posture Recovery.json
+content/Transitions/Lapel Guard to Piranha Guard.json
+content/Transitions/Lapel Omoplata Entry.json
+content/Transitions/Lapel Strip from Worm Guard.json
+content/Transitions/Lapel Sweep to Back.json
+content/Transitions/Lapel to De La Riva.json
+content/Transitions/Lapel to Lasso Guard.json
+content/Transitions/Lapel to Spider Guard.json
+content/Transitions/Lapel Triangle Setup.json
+content/Transitions/Lasso Guard Backstep Pass.json
+content/Transitions/Lasso Guard Pass.json
+content/Transitions/Lasso Guard Stack Pass.json
+content/Transitions/Lasso Guard to Inverted Lasso Guard.json
+content/Transitions/Lasso Guard to Russian Leg Lasso.json
+content/Transitions/Lasso Sweep.json
+content/Transitions/Leg Drag Counter to Half Guard.json
+content/Transitions/Leg Drag Escape to Closed Guard.json
+content/Transitions/Leg Drag from DLR.json
+content/Transitions/Leg Drag from Headquarters.json
+content/Transitions/Leg Drag Pass.json
+content/Transitions/Leg Drag Pass to Side Control.json
+content/Transitions/Leg Drag to Back Take.json
+content/Transitions/Leg Drag to Crucifix.json
+content/Transitions/Leg Drag to Darce Setup.json
+content/Transitions/Leg Drag to Inside Ashi.json
+content/Transitions/Leg Drag to Knee on Belly.json
+content/Transitions/Leg Drag to Mount.json
+content/Transitions/Leg Drag to North-South.json
+content/Transitions/Leg Drag to Technical Mount.json
+content/Transitions/Leg Drag While Clearing Lapel.json
+content/Transitions/Leg Extraction Escape from Entanglement.json
+content/Transitions/Leg Extraction Escape.json
+content/Transitions/Leg Extraction from Cross Ashi.json
+content/Transitions/Leg Extraction from Inside Ashi.json
+content/Transitions/Leg Extraction from Lapel Wrap.json
+content/Transitions/Leg Extraction from Leg Knot.json
+content/Transitions/Leg Extraction from Truck.json
+content/Transitions/Leg Extraction.json
+content/Transitions/Leg Extraction Pass.json
+content/Transitions/Leg Extraction to Combat Base.json
+content/Transitions/Leg Extraction to Guard.json
+content/Transitions/Leg Hook to Half Guard.json
+content/Transitions/Leg Hook to Side Control.json
+content/Transitions/Leg Pummeling from Saddle.json
+content/Transitions/Leg Recovery to De La Riva.json
+content/Transitions/Leg Weave Escape to Half Guard.json
+content/Transitions/Leg Weave Pass Completion.json
+content/Transitions/Leg Weave Pass.json
+content/Transitions/Level Change Takedown.json
+content/Transitions/Limp Leg Escape to Pass.json
+content/Transitions/Limp leg extraction to Half Guard.json
+content/Transitions/Lockdown Break and Pass.json
+content/Transitions/Lockdown Break from Z-Lock.json
+content/Transitions/Lockdown Escape to Half Guard Pass.json
+content/Transitions/Lockdown Recovery.json
+content/Transitions/Lockdown to Vaporizer.json
+content/Transitions/Lockdown to Z-Lock Half Guard.json
+content/Transitions/Lockdown Whizzer Pass.json
+content/Transitions/Long Step Around Ringworm.json
+content/Transitions/Long Step Pass.json
+content/Transitions/Lumberjack Sweep.json
+content/Transitions/Mat Return from Rear Clinch.json
+content/Transitions/Mat Return from Standing Rear Clinch.json
+content/Transitions/Mat Return to Back Mount.json
+content/Transitions/Matrix Back Take.json
+content/Transitions/Matrix to Back Control.json
+content/Transitions/Matrix to Side Control.json
+content/Transitions/Meathook to Gogoplata Control.json
+content/Transitions/Mission Control Entry from Rubber Guard.json
+content/Transitions/Mission Control Recovery.json
+content/Transitions/Modified Scarf to Kesa Gatame.json
+content/Transitions/Modified Scarf to Mount.json
+content/Transitions/Morote Seoi Nage.json
+content/Transitions/Mount Control.json
+content/Transitions/Mounted Crucifix Entry.json
+content/Transitions/Mounted Crucifix to S Mount.json
+content/Transitions/Mounted Triangle.json
+content/Transitions/Mounted Triangle Squeeze.json
+content/Transitions/Mounted Triangle to S Mount.json
+content/Transitions/Mount Escape to Half Guard Back Take.json
+content/Transitions/Mount to 3-4 Mount.json
+content/Transitions/Mount to Armbar.json
+content/Transitions/Mount to Knee on Belly.json
+content/Transitions/Mount to Technical Mount.json
+content/Transitions/Muscle Sweep.json
+content/Transitions/Neck Crank.json
+content/Transitions/New York Control Escape.json
+content/Transitions/New York Control to Invisible Collar.json
+content/Transitions/New York Control to Zombie.json
+content/Transitions/New York Entry from Rubber Guard.json
+content/Transitions/New York Pass to Side Control.json
+content/Transitions/New York to Invisible Collar.json
+content/Transitions/North-South Choke.json

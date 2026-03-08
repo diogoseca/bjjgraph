@@ -1,0 +1,285 @@
+role,position,pts,t_out,s_out,inc,total_out,cross_sys,n_finish,n_advance,n_maintain,n_retreat,health,flags
+Scramble Position,Scramble Position,?,0,0,3,0,0,0,0,0,0,50,DEAD_END
+Side Control,Side Control,?,0,0,3,0,0,0,0,0,0,50,DEAD_END
+Turtle,Turtle,?,0,0,2,0,0,0,0,0,0,50,DEAD_END
+Gogoplata Control,Gogoplata Control,?,0,0,1,0,0,0,0,0,0,50,DEAD_END
+Guillotine Control,Guillotine Control,?,0,0,1,0,0,0,0,0,0,50,DEAD_END
+Omoplata Control,Omoplata Control,?,0,0,1,0,0,0,0,0,0,50,DEAD_END
+3-4 Mount/Bottom,3-4 Mount,0,2,0,7,2,3,0,0,2,0,55,"NEED_ADVANCE,LOW_VARIETY"
+Reverse Mount/Bottom,Reverse Mount,0,2,0,6,2,4,0,0,2,0,55,"NEED_ADVANCE,LOW_VARIETY"
+Scramble Position/Top,Scramble Position,0,1,0,6,1,4,0,0,1,0,55,"NEED_ADVANCE,LOW_VARIETY"
+Kuzure Kesa-Gatame/Bottom,Kuzure Kesa-Gatame,0,2,0,5,2,4,0,0,2,0,55,"NEED_ADVANCE,LOW_VARIETY"
+Modified Mount/Bottom,Modified Mount,0,2,0,5,2,3,0,0,2,0,55,"NEED_ADVANCE,LOW_VARIETY"
+New York Control/Bottom,New York Control,0,2,0,5,2,4,0,0,2,0,55,LOW_VARIETY
+Toe Hold Control/Bottom,Toe Hold Control,0,2,0,5,2,4,0,0,2,0,55,LOW_VARIETY
+Vaporizer/Bottom,Vaporizer,0,2,0,5,2,4,0,0,2,0,55,"NEED_ADVANCE,LOW_VARIETY"
+Overhook Control/Bottom,Overhook Control,0,2,0,4,2,4,0,1,1,0,55,LOW_VARIETY
+Overhook Control/Top,Overhook Control,0,2,0,4,2,3,0,2,0,0,55,LOW_VARIETY
+Straight Ankle Lock Control/Bottom,Straight Ankle Lock Control,0,1,0,11,1,1,1,0,0,0,60,LOW_VARIETY
+Mission Control/Bottom,Mission Control,0,2,0,8,2,5,0,0,2,0,60,LOW_VARIETY
+Twister Control/Top,Twister Control,0,1,1,7,2,1,2,0,0,0,60,LOW_VARIETY
+Harness/Bottom,Harness,0,2,0,6,2,5,0,0,2,0,60,"NEED_ADVANCE,LOW_VARIETY"
+Single Leg X-Guard/Top,Single Leg X-Guard,0,2,0,22,2,3,0,1,1,0,65,LOW_VARIETY
+Crucifix/Bottom,Crucifix,0,3,0,16,3,4,0,0,3,0,65,NEED_ADVANCE
+Kimura Trap/Bottom,Kimura Trap,0,3,0,16,3,4,0,0,3,0,65,
+S Mount/Bottom,S Mount,0,3,0,16,3,4,0,0,3,0,65,NEED_ADVANCE
+High Mount/Bottom,High Mount,0,3,0,13,3,3,0,0,1,2,65,NEED_ADVANCE
+New York/Top,New York,0,2,0,11,2,4,0,1,1,0,65,LOW_VARIETY
+Double Sleeve Guard/Top,Double Sleeve Guard,0,2,0,10,2,4,0,2,0,0,65,LOW_VARIETY
+Mounted Crucifix/Bottom,Mounted Crucifix,0,3,0,10,3,4,0,0,2,1,65,NEED_ADVANCE
+Estima Lock/Bottom,Estima Lock,0,3,0,9,3,4,0,0,3,0,65,
+Body Lock/Top,Body Lock,0,2,0,8,2,3,0,1,1,0,65,LOW_VARIETY
+Mission Control/Top,Mission Control,0,3,0,8,3,3,0,0,3,0,65,NEED_ADVANCE
+Rubber Guard/Top,Rubber Guard,0,2,0,8,2,4,0,1,1,0,65,LOW_VARIETY
+Worm Guard/Top,Worm Guard,0,2,0,8,2,4,0,1,1,0,65,LOW_VARIETY
+Zombie/Top,Zombie,0,2,0,8,2,4,0,1,1,0,65,LOW_VARIETY
+Backside 50-50/Bottom,Backside 50-50,0,2,0,7,2,2,2,0,0,0,65,LOW_VARIETY
+Feet on Hips Guard/Top,Feet on Hips Guard,0,2,0,7,2,4,0,1,1,0,65,LOW_VARIETY
+Half Butterfly/Top,Half Butterfly,0,2,0,7,2,2,0,1,1,0,65,LOW_VARIETY
+Rear Triangle/Bottom,Rear Triangle,0,2,0,7,2,3,0,1,1,0,65,LOW_VARIETY
+Reverse Half Guard/Top,Reverse Half Guard,0,2,0,7,2,3,0,2,0,0,65,LOW_VARIETY
+Reverse Kesa-Gatame/Bottom,Reverse Kesa-Gatame,0,3,0,7,3,4,0,0,3,0,65,NEED_ADVANCE
+Reverse Scarf Hold/Bottom,Reverse Scarf Hold,0,3,0,7,3,4,0,0,3,0,65,NEED_ADVANCE
+Scarf Hold Position/Bottom,Scarf Hold Position,0,3,0,7,3,4,0,0,3,0,65,NEED_ADVANCE
+Shoulder of Justice/Bottom,Shoulder of Justice,0,3,0,7,3,4,0,0,2,1,65,NEED_ADVANCE
+Standing Guard/Top,Standing Guard,0,2,0,7,2,2,0,2,0,0,65,LOW_VARIETY
+Carni/Bottom,Carni,0,2,0,6,2,3,1,0,1,0,65,LOW_VARIETY
+Carni/Top,Carni,0,2,0,6,2,4,0,1,1,0,65,LOW_VARIETY
+Clamp Guard/Top,Clamp Guard,0,2,0,6,2,4,0,1,1,0,65,LOW_VARIETY
+Crab Ride/Bottom,Crab Ride,0,3,0,6,3,4,0,0,3,0,65,NEED_ADVANCE
+Crab Ride/Top,Crab Ride,0,2,0,6,2,3,0,1,1,0,65,LOW_VARIETY
+Leg Hook/Top,Leg Hook,0,2,0,6,2,2,0,1,1,0,65,LOW_VARIETY
+Quarter Guard/Top,Quarter Guard,0,2,0,6,2,3,0,2,0,0,65,LOW_VARIETY
+Reverse De La Riva Guard/Top,Reverse De La Riva Guard,0,2,0,6,2,4,0,1,1,0,65,LOW_VARIETY
+Squid Guard/Top,Squid Guard,0,2,0,6,2,4,0,1,1,0,65,LOW_VARIETY
+Z-Lock Half Guard/Bottom,Z-Lock Half Guard,0,2,0,6,2,3,0,1,1,0,65,LOW_VARIETY
+Butterfly Half Guard/Bottom,Butterfly Half Guard,0,2,0,5,2,4,0,1,1,0,65,LOW_VARIETY
+Butterfly Half Guard/Top,Butterfly Half Guard,0,2,0,5,2,2,0,2,0,0,65,LOW_VARIETY
+Butterfly Hook Control/Bottom,Butterfly Hook Control,0,2,0,5,2,4,0,1,1,0,65,LOW_VARIETY
+Butterfly Hook Control/Top,Butterfly Hook Control,0,2,0,5,2,3,0,1,1,0,65,LOW_VARIETY
+Double Jump/Top,Double Jump,0,2,0,5,2,3,0,2,0,0,65,LOW_VARIETY
+Double Unders/Top,Double Unders,0,2,0,5,2,3,0,2,0,0,65,LOW_VARIETY
+Inverted Guard/Top,Inverted Guard,0,2,0,5,2,2,0,1,1,0,65,LOW_VARIETY
+Inverted Lasso Guard/Bottom,Inverted Lasso Guard,0,2,0,5,2,3,0,1,1,0,65,LOW_VARIETY
+Inverted Lasso Guard/Top,Inverted Lasso Guard,0,2,0,5,2,4,0,1,1,0,65,LOW_VARIETY
+Invisible Collar/Top,Invisible Collar,0,1,0,5,1,2,1,0,0,0,65,LOW_VARIETY
+K-Guard/Bottom,K-Guard,0,2,0,5,2,3,0,1,1,0,65,LOW_VARIETY
+Matrix/Top,Matrix,0,2,0,5,2,3,0,2,0,0,65,LOW_VARIETY
+Overhook Guard/Bottom,Overhook Guard,0,2,0,5,2,4,0,1,1,0,65,LOW_VARIETY
+Overhook Guard/Top,Overhook Guard,0,2,0,5,2,3,0,1,1,0,65,LOW_VARIETY
+Piranha Guard/Bottom,Piranha Guard,0,2,0,5,2,3,0,1,1,0,65,LOW_VARIETY
+Piranha Guard/Top,Piranha Guard,0,2,0,5,2,3,0,1,1,0,65,LOW_VARIETY
+Russian Leg Lasso/Bottom,Russian Leg Lasso,0,2,0,5,2,3,0,1,1,0,65,LOW_VARIETY
+Russian Leg Lasso/Top,Russian Leg Lasso,0,2,0,5,2,4,0,1,1,0,65,LOW_VARIETY
+Shin-to-Shin Guard/Bottom,Shin-to-Shin Guard,0,2,0,5,2,3,0,1,1,0,65,LOW_VARIETY
+Z-Guard/Top,Z-Guard,0,2,0,5,2,3,0,2,0,0,65,LOW_VARIETY
+Armbar Control/Bottom,Armbar Control,0,3,0,33,3,6,0,0,3,0,70,
+North-South/Bottom,North-South,0,3,0,21,3,6,0,0,3,0,70,NEED_ADVANCE
+Darce Control/Bottom,Darce Control,0,3,0,18,3,5,0,0,3,0,70,
+Knee on Belly/Bottom,Knee on Belly,0,3,0,15,3,5,0,0,3,0,70,NEED_ADVANCE
+Anaconda Control/Bottom,Anaconda Control,0,4,0,14,4,5,0,0,4,0,70,
+Mounted Triangle/Bottom,Mounted Triangle,0,3,0,10,3,5,0,0,2,1,70,NEED_ADVANCE
+Standing Position,Standing Position,?,0,1,10,1,1,1,0,0,0,70,LOW_VARIETY
+Standing Back Control/Bottom,Standing Back Control,0,3,0,9,3,7,0,0,3,0,70,
+Body Lock/Bottom,Body Lock,0,3,0,8,3,5,0,0,3,0,70,
+Crackhead Control/Bottom,Crackhead Control,0,4,0,8,4,5,0,0,4,0,70,
+Dead Orchard Control/Bottom,Dead Orchard Control,0,3,0,8,3,7,0,0,3,0,70,
+Modified Scarf Hold/Bottom,Modified Scarf Hold,0,3,0,7,3,5,0,0,3,0,70,NEED_ADVANCE
+Side Control Consolidation/Bottom,Side Control Consolidation,0,3,0,7,3,5,0,0,2,1,70,
+Twister Control/Bottom,Twister Control,0,4,0,7,4,5,0,0,4,0,70,
+Twister Side Control/Bottom,Twister Side Control,0,3,0,7,3,5,0,0,3,0,70,
+Collar Sleeve Guard/Top,Collar Sleeve Guard,0,2,0,6,2,5,0,1,1,0,70,LOW_VARIETY
+Meathook/Top,Meathook,0,2,0,6,2,5,0,1,1,0,70,LOW_VARIETY
+Reverse Mount/Top,Reverse Mount,4,3,0,6,3,5,0,2,1,0,70,NEED_FINISH
+K-Guard/Top,K-Guard,0,2,0,5,2,5,0,1,1,0,70,LOW_VARIETY
+Shin-to-Shin Guard/Top,Shin-to-Shin Guard,0,2,0,5,2,6,0,1,1,0,70,LOW_VARIETY
+Jailbreak/Bottom,Jailbreak,0,4,0,4,4,6,0,1,3,0,70,
+Saddle/Top,Saddle,0,3,1,38,4,3,2,0,2,0,75,
+Ashi Garami/Bottom,Ashi Garami,0,3,0,22,3,3,1,0,2,0,75,
+Darce Control/Top,Darce Control,0,3,1,18,4,3,2,0,2,0,75,
+X-Guard/Top,X-Guard,0,4,0,17,4,3,0,2,2,0,75,
+Gift Wrap/Bottom,Gift Wrap,0,3,0,16,3,4,0,2,1,0,75,
+Kimura Trap/Top,Kimura Trap,0,3,1,16,4,4,1,2,1,0,75,
+Knee Shield Half Guard/Top,Knee Shield Half Guard,0,3,0,16,3,2,0,2,1,0,75,
+Kneebar Control/Bottom,Kneebar Control,0,3,0,16,3,4,0,1,2,0,75,
+Combat Base/Bottom,Combat Base,0,3,0,15,3,4,0,1,2,0,75,
+Omoplata Control/Bottom,Omoplata Control,0,3,0,15,3,4,0,1,2,0,75,
+Outside Ashi-Garami/Top,Outside Ashi-Garami,0,3,1,15,4,4,1,1,2,0,75,
+Spider Guard/Top,Spider Guard,0,2,1,15,3,2,1,2,0,0,75,
+Standing Rear Clinch/Bottom,Standing Rear Clinch,0,3,0,13,3,4,0,2,1,0,75,
+Technical Mount/Bottom,Technical Mount,0,3,0,13,3,4,0,1,2,0,75,
+Body Triangle/Bottom,Body Triangle,4,4,0,11,4,3,2,1,0,1,75,
+Dogfight Position/Top,Dogfight Position,0,3,0,11,3,3,0,1,2,0,75,
+Guillotine Control/Bottom,Guillotine Control,0,4,0,11,4,4,1,1,2,0,75,
+Guillotine Control/Top,Guillotine Control,0,3,1,11,4,2,3,1,0,0,75,
+Hindulotine/Top,Hindulotine,0,3,0,10,3,3,2,1,0,0,75,
+Mounted Triangle/Top,Mounted Triangle,4,3,1,10,4,4,2,0,2,0,75,
+Electric Chair/Bottom,Electric Chair,0,2,1,9,3,4,1,1,1,0,75,
+Honey Hole/Bottom,Honey Hole,0,3,0,9,3,4,0,1,2,0,75,
+Honey Hole/Top,Honey Hole,0,2,1,9,3,3,2,0,1,0,75,
+Kesa Gatame/Top,Kesa Gatame,3,2,2,9,4,3,2,0,2,0,75,
+Leg Knot/Top,Leg Knot,0,3,0,9,3,3,0,1,2,0,75,
+Seat Belt Control Back/Bottom,Seat Belt Control Back,0,3,0,9,3,4,0,1,2,0,75,
+Seat Belt Control Back/Top,Seat Belt Control Back,4,2,2,9,4,3,2,0,2,0,75,
+Cross Body Ride/Bottom,Cross Body Ride,0,3,0,8,3,4,0,1,2,0,75,
+Cross Body Ride/Top,Cross Body Ride,0,3,1,8,4,4,1,2,1,0,75,
+Dead Orchard Control/Top,Dead Orchard Control,0,2,1,8,3,2,2,0,1,0,75,
+Leg Entanglement/Top,Leg Entanglement,0,3,0,8,3,3,0,1,2,0,75,
+Rodeo Ride/Top,Rodeo Ride,0,2,2,8,4,3,2,1,1,0,75,
+Worm Guard/Bottom,Worm Guard,0,3,0,8,3,4,0,1,2,0,75,
+Aoki Lock/Bottom,Aoki Lock,0,3,0,7,3,4,0,1,2,0,75,
+Backside 50-50/Top,Backside 50-50,0,2,1,7,3,3,2,0,1,0,75,
+Chill Dog/Bottom,Chill Dog,0,3,0,7,3,4,0,1,2,0,75,
+Chill Dog/Top,Chill Dog,0,3,0,7,3,4,0,1,2,0,75,
+Clinch,Clinch,?,0,1,7,1,2,1,0,0,0,75,LOW_VARIETY
+Cross Ashi-Garami/Top,Cross Ashi-Garami,0,2,1,7,3,3,2,0,1,0,75,
+Inside Sankaku/Top,Inside Sankaku,0,3,1,7,4,3,3,0,1,0,75,
+Modified Scarf Hold/Top,Modified Scarf Hold,3,2,1,7,3,3,1,1,1,0,75,
+Old School/Top,Old School,0,3,0,7,3,4,0,2,1,0,75,
+Pocket Half Guard/Bottom,Pocket Half Guard,0,3,0,7,3,3,0,2,1,0,75,
+Pocket Half Guard/Top,Pocket Half Guard,0,3,0,7,3,3,0,2,1,0,75,
+Reverse Kesa-Gatame/Top,Reverse Kesa-Gatame,3,2,1,7,3,3,1,0,2,0,75,
+Reverse Scarf Hold/Top,Reverse Scarf Hold,3,2,1,7,3,3,1,0,2,0,75,
+Scarf Hold Position/Top,Scarf Hold Position,3,2,1,7,3,3,1,1,1,0,75,
+Shoulder of Justice/Top,Shoulder of Justice,3,2,1,7,3,3,1,2,0,0,75,
+Side Control Consolidation/Top,Side Control Consolidation,3,2,1,7,3,3,1,2,0,0,75,
+Standing Guard/Bottom,Standing Guard,0,3,0,7,3,4,0,1,2,0,75,
+Triangle Escape Position/Top,Triangle Escape Position,0,3,0,7,3,4,0,1,2,0,75,
+Twister Side Control/Top,Twister Side Control,3,2,1,7,3,4,1,2,0,0,75,
+Collar Sleeve Guard/Bottom,Collar Sleeve Guard,0,3,0,6,3,4,0,1,2,0,75,
+Leg Hook/Bottom,Leg Hook,0,3,0,6,3,4,0,1,2,0,75,
+Leg Weave/Bottom,Leg Weave,0,3,0,6,3,3,0,1,2,0,75,
+Quarter Guard/Bottom,Quarter Guard,0,3,0,6,3,3,0,1,2,0,75,
+Reverse De La Riva Guard/Bottom,Reverse De La Riva Guard,0,3,0,6,3,4,0,1,2,0,75,
+Russian Cowboy/Top,Russian Cowboy,0,2,1,6,3,2,2,1,0,0,75,
+Scramble Position/Bottom,Scramble Position,0,2,1,6,3,3,1,1,1,0,75,
+Z-Lock Half Guard/Top,Z-Lock Half Guard,0,3,0,6,3,3,0,2,1,0,75,
+Double Unders/Bottom,Double Unders,0,3,0,5,3,4,0,1,2,0,75,
+Inverted Guard/Bottom,Inverted Guard,0,3,0,5,3,4,0,1,2,0,75,
+Invisible Collar/Bottom,Invisible Collar,0,3,0,5,3,2,0,1,2,0,75,
+Kuzure Kesa-Gatame/Top,Kuzure Kesa-Gatame,3,3,0,5,3,2,2,1,0,0,75,
+Modified Mount/Top,Modified Mount,4,3,0,5,3,3,1,0,2,0,75,
+Toe Hold Control/Top,Toe Hold Control,0,2,1,5,3,4,1,0,2,0,75,
+Vaporizer/Top,Vaporizer,0,3,0,5,3,4,0,1,2,0,75,
+Williams Guard/Bottom,Williams Guard,0,2,1,5,3,4,2,1,0,0,75,
+Williams Guard/Top,Williams Guard,0,3,0,5,3,4,0,1,2,0,75,
+Z-Guard/Bottom,Z-Guard,0,3,0,5,3,4,0,2,1,0,75,
+Jailbreak/Top,Jailbreak,0,3,0,4,3,4,0,3,0,0,75,
+Triangle Control/Bottom,Triangle Control,0,4,0,28,4,6,1,1,2,0,80,
+Deep Half Guard/Bottom,Deep Half Guard,0,4,0,26,4,5,0,2,2,0,80,
+Headquarters Position/Bottom,Headquarters Position,0,4,0,23,4,5,0,1,3,0,80,
+Butterfly Guard/Top,Butterfly Guard,0,4,0,22,4,5,0,2,2,0,80,
+De La Riva Guard/Top,De La Riva Guard,0,4,0,22,4,6,0,2,2,0,80,
+Single Leg X-Guard/Bottom,Single Leg X-Guard,0,4,0,22,4,5,0,1,3,0,80,
+Leg Drag Control/Bottom,Leg Drag Control,0,6,0,19,6,7,0,0,6,0,80,
+Truck/Bottom,Truck,0,4,0,18,4,5,0,1,3,0,80,
+Kneebar Control/Top,Kneebar Control,0,3,1,16,4,5,1,0,3,0,80,
+Anaconda Control/Top,Anaconda Control,0,3,1,14,4,6,1,2,1,0,80,
+Buggy Choke/Bottom,Buggy Choke,0,5,0,14,5,6,0,0,5,0,80,
+Gogoplata Control/Bottom,Gogoplata Control,0,3,1,12,4,6,1,1,2,0,80,
+Body Triangle/Top,Body Triangle,4,3,1,11,4,5,1,1,1,1,80,
+Lasso Guard/Bottom,Lasso Guard,0,4,0,11,4,5,0,1,3,0,80,
+Lockdown/Top,Lockdown,0,4,0,11,4,5,0,2,2,0,80,
+Ringworm Guard/Bottom,Ringworm Guard,0,3,0,11,3,5,0,1,2,0,80,
+Mounted Crucifix/Top,Mounted Crucifix,4,3,1,10,4,6,1,1,2,0,80,
+Reverse X-Guard/Top,Reverse X-Guard,0,3,0,10,3,5,0,2,1,0,80,
+Seated Guard/Bottom,Seated Guard,0,4,0,10,4,5,0,1,3,0,80,
+Kesa Gatame/Bottom,Kesa Gatame,0,3,0,9,3,5,0,1,2,0,80,
+Leg Entanglement/Bottom,Leg Entanglement,0,4,0,8,4,7,0,1,3,0,80,
+Rodeo Ride/Bottom,Rodeo Ride,0,3,0,8,3,6,0,1,2,0,80,
+Zombie/Bottom,Zombie,0,4,0,8,4,7,0,1,3,0,80,
+3-4 Mount/Top,3-4 Mount,4,3,1,7,4,6,1,0,3,0,80,
+Cross Ashi-Garami/Bottom,Cross Ashi-Garami,0,3,0,7,3,5,0,1,2,0,80,
+Diamond Guard/Bottom,Diamond Guard,0,3,0,7,3,5,0,1,2,0,80,
+Diamond Guard/Top,Diamond Guard,0,3,0,7,3,5,0,1,2,0,80,
+Feet on Hips Guard/Bottom,Feet on Hips Guard,0,4,0,7,4,5,0,1,3,0,80,
+Half Butterfly/Bottom,Half Butterfly,0,4,0,7,4,5,0,2,2,0,80,
+Inside Sankaku/Bottom,Inside Sankaku,0,3,0,7,3,5,0,1,2,0,80,
+Rear Triangle/Top,Rear Triangle,4,3,1,7,4,5,2,2,0,0,80,
+Reverse Half Guard/Bottom,Reverse Half Guard,0,4,0,7,4,5,0,1,3,0,80,
+Triangle Escape Position/Bottom,Triangle Escape Position,0,3,0,7,3,5,0,1,2,0,80,
+Clamp Guard/Bottom,Clamp Guard,0,3,0,6,3,5,0,1,2,0,80,
+Harness/Top,Harness,4,3,0,6,3,5,1,0,1,1,80,
+Meathook/Bottom,Meathook,0,4,0,6,4,6,0,1,3,0,80,
+Russian Cowboy/Bottom,Russian Cowboy,0,3,0,6,3,5,0,1,2,0,80,
+Squid Guard/Bottom,Squid Guard,0,3,0,6,3,6,0,1,2,0,80,
+Double Jump/Bottom,Double Jump,0,3,0,5,3,6,0,1,2,0,80,
+Matrix/Bottom,Matrix,0,3,0,5,3,5,0,1,2,0,80,
+New York Control/Top,New York Control,0,3,0,5,3,5,0,1,2,0,80,
+Inside Ashi-Garami/Bottom,Inside Ashi-Garami,0,4,1,43,5,4,1,0,4,0,85,
+Armbar Control/Top,Armbar Control,0,4,1,33,5,4,3,1,1,0,85,
+Flattened Half Guard/Top,Flattened Half Guard,0,3,0,33,3,2,0,3,0,0,85,
+Deep Half Guard/Top,Deep Half Guard,0,3,0,26,3,3,0,3,0,0,85,
+Omoplata Control/Top,Omoplata Control,0,4,1,15,5,4,3,2,0,0,85,
+Dogfight Position/Bottom,Dogfight Position,0,4,0,11,4,4,0,3,1,0,85,
+Lasso Guard/Top,Lasso Guard,0,3,0,11,3,4,0,3,0,0,85,
+Seated Guard/Top,Seated Guard,0,4,0,10,4,3,0,3,1,0,85,
+Crackhead Control/Top,Crackhead Control,0,3,0,8,3,4,0,3,0,0,85,
+Old School/Bottom,Old School,0,4,0,7,4,4,0,3,1,0,85,
+Leg Weave/Top,Leg Weave,0,3,0,6,3,3,0,3,0,0,85,
+Open Guard/Bottom,Open Guard,0,12,1,230,13,13,1,1,11,0,90,
+Closed Guard/Top,Closed Guard,0,6,8,217,14,5,9,1,4,0,90,
+Turtle/Bottom,Turtle,0,10,0,120,10,11,0,1,9,0,90,
+Standing Position/Bottom,Standing Position,0,8,0,66,8,7,0,2,6,0,90,
+Front Headlock/Bottom,Front Headlock,0,5,0,50,5,7,0,1,4,0,90,
+Front Headlock/Top,Front Headlock,0,11,7,50,18,8,8,2,8,0,90,
+Inside Ashi-Garami/Top,Inside Ashi-Garami,0,6,2,43,8,10,2,1,5,0,90,
+50-50 Guard/Bottom,50-50 Guard,0,5,2,42,7,7,2,0,5,0,90,
+Saddle/Bottom,Saddle,0,5,0,38,5,5,0,1,4,0,90,
+Flattened Half Guard/Bottom,Flattened Half Guard,0,5,0,33,5,5,0,1,4,0,90,
+Triangle Control/Top,Triangle Control,0,4,1,28,5,5,1,0,4,0,90,
+Ashi Garami/Top,Ashi Garami,0,4,2,22,6,7,2,0,4,0,90,
+Clinch/Bottom,Clinch,0,6,0,19,6,8,0,1,5,0,90,
+Lapel Guard/Bottom,Lapel Guard,0,11,0,19,11,13,0,2,9,0,90,
+Truck/Top,Truck,0,3,3,18,6,5,3,2,1,0,90,
+Ushiro Ashi-Garami/Bottom,Ushiro Ashi-Garami,0,7,0,17,7,9,0,1,6,0,90,
+Ushiro Ashi-Garami/Top,Ushiro Ashi-Garami,0,7,1,17,8,10,3,1,4,0,90,
+X-Guard/Bottom,X-Guard,0,5,1,17,6,6,1,2,3,0,90,
+Knee Shield Half Guard/Bottom,Knee Shield Half Guard,0,5,0,16,5,6,0,1,4,0,90,
+S Mount/Top,S Mount,4,4,1,16,5,7,1,1,3,0,90,
+Combat Base/Top,Combat Base,0,5,0,15,5,5,0,2,3,0,90,
+Outside Ashi-Garami/Bottom,Outside Ashi-Garami,0,4,1,15,5,6,2,1,2,0,90,
+Spider Guard/Bottom,Spider Guard,0,6,2,15,8,10,2,1,5,0,90,
+Grasshopper Guard/Bottom,Grasshopper Guard,0,7,0,13,7,9,0,2,5,0,90,
+Technical Mount/Top,Technical Mount,4,3,2,13,5,5,2,0,3,0,90,
+Gogoplata Control/Top,Gogoplata Control,0,6,1,12,7,6,1,1,5,0,90,
+Lockdown/Bottom,Lockdown,0,3,2,11,5,5,2,0,3,0,90,
+New York/Bottom,New York,0,5,0,11,5,7,0,1,4,0,90,
+Straight Ankle Lock Control/Top,Straight Ankle Lock Control,0,6,1,11,7,5,1,1,5,0,90,
+Double Sleeve Guard/Bottom,Double Sleeve Guard,0,7,0,10,7,8,0,1,6,0,90,
+Electric Chair/Top,Electric Chair,0,5,0,9,5,5,0,2,3,0,90,
+Estima Lock/Top,Estima Lock,0,5,1,9,6,5,3,0,3,0,90,
+Leg Knot/Bottom,Leg Knot,0,6,0,9,6,7,0,1,5,0,90,
+Standing Back Control/Top,Standing Back Control,4,6,1,9,7,8,1,2,4,0,90,
+Rubber Guard/Bottom,Rubber Guard,0,5,1,8,6,7,1,1,4,0,90,
+Aoki Lock/Top,Aoki Lock,0,4,1,7,5,6,2,2,1,0,90,
+Headquarters Position/Top,Headquarters Position,0,5,0,23,5,4,0,3,2,0,95,
+Crucifix/Top,Crucifix,4,5,3,16,8,4,6,0,2,0,95,
+Half Guard/Bottom,Half Guard,0,14,2,530,16,12,2,6,8,0,100,
+Half Guard/Top,Half Guard,0,18,2,530,20,14,2,11,7,0,100,
+Side Control/Bottom,Side Control,-3,8,0,356,8,8,0,7,1,0,100,
+Side Control/Top,Side Control,3,9,15,356,24,10,17,2,5,0,100,
+Open Guard/Top,Open Guard,0,8,0,230,8,6,0,8,0,0,100,
+Back Control/Bottom,Back Control,-4,8,0,217,8,6,0,8,0,0,100,
+Back Control/Top,Back Control,4,12,5,217,17,10,8,1,7,1,100,
+Closed Guard/Bottom,Closed Guard,0,20,7,217,27,11,7,12,8,0,100,
+Mount/Bottom,Mount,-4,6,0,188,6,5,0,6,0,0,100,
+Mount/Top,Mount,4,7,10,188,17,8,10,2,5,0,100,
+Turtle/Top,Turtle,0,20,5,120,25,13,7,10,8,0,100,
+Standing Position/Top,Standing Position,0,35,2,66,37,15,2,21,14,0,100,
+50-50 Guard/Top,50-50 Guard,0,6,3,42,9,7,3,3,3,0,100,
+Butterfly Guard/Bottom,Butterfly Guard,0,8,1,22,9,7,1,6,2,0,100,
+De La Riva Guard/Bottom,De La Riva Guard,0,6,1,22,7,6,1,4,2,0,100,
+North-South/Top,North-South,3,5,2,21,7,5,3,3,1,0,100,
+Clinch/Top,Clinch,0,8,0,19,8,5,0,6,2,0,100,
+Lapel Guard/Top,Lapel Guard,0,8,0,19,8,9,0,5,3,0,100,
+Leg Drag Control/Top,Leg Drag Control,0,9,1,19,10,12,1,7,2,0,100,
+Gift Wrap/Top,Gift Wrap,4,7,2,16,9,8,4,1,4,0,100,
+Knee on Belly/Top,Knee on Belly,2,4,2,15,6,5,3,3,0,0,100,
+Buggy Choke/Top,Buggy Choke,0,9,1,14,10,9,2,4,4,0,100,
+Grasshopper Guard/Top,Grasshopper Guard,0,6,0,13,6,7,0,5,1,0,100,
+High Mount/Top,High Mount,4,4,2,13,6,6,3,1,2,0,100,
+Standing Rear Clinch/Top,Standing Rear Clinch,0,5,1,13,6,8,1,3,2,0,100,
+Ringworm Guard/Top,Ringworm Guard,0,6,0,11,6,6,0,3,3,0,100,
+Hindulotine/Bottom,Hindulotine,0,8,0,10,8,8,1,4,3,0,100,
+Reverse X-Guard/Bottom,Reverse X-Guard,0,6,0,10,6,7,0,3,3,0,100,

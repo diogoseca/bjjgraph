@@ -1,0 +1,208 @@
+{# BJJ Position Single Page Template #}
+{# Generates neutral/asymmetric position pages with no top/bottom split #}
+{# Input: data (complete JSON for neutral position) #}
+
+---
+title: "{{ data.name }} | BJJ Position Guide | BJJ Graph"
+description: "{{ data.description }}"
+{% if data.graph is defined and data.graph == false %}graph: false
+{% endif %}---
+
+{# PostHog A/B Testing Metadata #}
+<body data-content-type="positions">
+
+<!-- Schema Markup - HowTo -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "How to Use {{ data.name.split('|')[0].strip() }}",
+  "description": "Complete guide to {{ data.name.split('|')[0].strip().lower() }} in BJJ.",
+  "step": [
+    {%- for transition in data.transitions[:8] %}
+    {
+      "@type": "HowToStep",
+      "name": "Execute {{ transition.transition }}",
+      "text": "From this position, attempt {{ transition.transition }}. This technique is attempted in {{ transition.attempt_probability }}% of exchanges from this position.",
+      "position": {{ loop.index }}
+    }{{ "," if not loop.last else "" }}
+    {%- endfor %}
+  ],
+  "totalTime": "PT2M"
+}
+</script>
+
+<!-- Schema Markup - FAQ from Common Mistakes -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {%- for error in data.common_errors[:6] %}
+    {
+      "@type": "Question",
+      "name": "What happens if you {{ error.error.lower() }}?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "{{ error.consequence }} The correct approach is: {{ error.correction }}"
+      }
+    }{{ "," if not loop.last else "" }}
+    {%- endfor %}
+  ]
+}
+</script>
+
+<!-- Schema Markup - WebPage -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "{{ data.name.split('|')[0].strip() }}",
+  "description": "{{ data.description }}",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Positions",
+      "item": "https://bjjgraph.org/Positions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "{{ data.name.split('|')[0].strip() }}",
+      "item": "https://bjjgraph.org/Positions/{{ data.name.split('|')[0].strip().replace(' ', '-') }}"
+    }
+  ]
+}
+</script>
+
+{# Flexbox wrapper for CSS order-based A/B testing #}
+<main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+<section id="overview" class="content-section">
+
+{{ data.overview }}
+
+</section>
+
+<section id="state-invariants" class="content-section">
+
+## Position Definition
+
+{% for invariant in data.state_invariants -%}
+- {{ invariant }}
+{% endfor %}
+
+</section>
+
+<section id="prerequisites" class="content-section">
+
+## Prerequisites
+
+{% for prereq in data.prerequisites -%}
+- {{ prereq }}
+{% endfor %}
+
+</section>
+
+<section id="key-principles" class="content-section">
+
+## Key Principles
+
+{% for principle in data.key_principles -%}
+- {{ principle }}
+{% endfor %}
+
+</section>
+
+<section id="decision-tree" class="content-section">
+
+## Decision Making from This Position
+
+{% for node in data.decision_tree -%}
+**{{ node.condition }}:**
+{% for action in node.actions -%}
+- Execute **[[{{ resolve(action.technique) }}/Attacker|{{ action.technique }}]]** → [[{{ resolve(action.target) }}]] (Probability: {{ action.probability }}%)
+{% endfor %}
+
+{% endfor %}
+
+</section>
+
+<section id="common-mistakes" class="content-section hide-minimal">
+
+## Common Mistakes
+
+{% for error in data.common_errors -%}
+### {{ loop.index }}. {{ error.error }}
+
+- ❌ **Consequence**: {{ error.consequence }}
+- ✅ **Correction**: {{ error.correction }}
+
+{% endfor %}
+
+</section>
+
+<section id="training-drills" class="content-section hide-minimal">
+
+## Training Drills
+
+{% for drill in data.training_drills -%}
+### {{ drill.name }}
+
+{{ drill.description }}
+
+{% if drill.duration -%}
+**Duration**: {{ drill.duration }}
+{% endif %}
+
+{% endfor %}
+
+</section>
+
+<section id="position-metrics" class="content-section">
+
+## Success Rates and Statistics
+
+| Metric | Rate |
+|--------|------|
+| Retention Rate | {{ data.position_metrics.retention_rate.value }}% |
+| Advancement Probability | {{ data.position_metrics.advancement_probability.value }}% |
+| Submission Probability | {{ data.position_metrics.submission_probability.value }}% |
+
+{% if data.position_metrics.average_time -%}
+**Average Time in Position**: {{ data.position_metrics.average_time }}
+{% endif %}
+
+</section>
+
+<section id="related-content" class="content-section">
+
+## Related Positions and Techniques
+
+{% for item in data.related_content -%}
+- **[[{{ resolve(item.name) }}]]** - {{ item.relationship }}
+{% endfor %}
+
+</section>
+
+</main>

@@ -1,0 +1,389 @@
+{
+  "name": "Escape from Truck",
+  "description": "Master the Escape from Truck position in BJJ. Complete guide covering boot clearing, leg extraction, granby roll mechanics, and scramble recovery techniques.",
+  "tags": [
+    "bjj",
+    "transition",
+    "escape",
+    "truck",
+    "twister-defense",
+    "defensive",
+    "guard-recovery",
+    "scramble",
+    "10th-planet"
+  ],
+  "from_position": "Truck/Bottom",
+  "outcomes": [
+    {
+      "to": "Side Control/Top",
+      "probability": 35,
+      "result": "success"
+    },
+    {
+      "to": "Truck/Bottom",
+      "probability": 40,
+      "result": "failure"
+    },
+    {
+      "to": "Back Control/Bottom",
+      "probability": 25,
+      "result": "counter"
+    }
+  ],
+  "success_rate": 35,
+  "overview": "The Escape from Truck is one of the most critical defensive techniques in modern no-gi grappling. The truck position, popularized by the 10th Planet Jiu-Jitsu system, creates a dangerous control platform where the top player can threaten twisters, calf slicers, banana splits, and back takes simultaneously. Successfully escaping requires methodical attention to the position's three control layers: boot pressure on the hip generating torque through the spine, leg entanglement of the trapped limb restricting lower body mobility, and upper body control through harness or arm positioning limiting defensive movement. The escape carries significant urgency because remaining in truck bottom exposes you to spinal submissions with very short windows before injury occurs.\n\nThe escape mechanics center on systematically dismantling the top player's control hierarchy in reverse order of threat priority. First, protect the neck from twister and choke attacks by tucking the chin and hand fighting near the collar line. Second, address the boot pressure that generates torque through the spine by clearing the foot from the hip using hand fighting and hip rotation. Third, extract the trapped leg from the figure-four entanglement through ankle circling, hip rotation, and shrimping to create angular separation. The granby roll serves as the primary escape vehicle once boot pressure is cleared, using rotational momentum to break free from remaining leg entanglement and achieve guard recovery or a scramble to top position.\n\nTiming is essential when executing this escape. Attempting to escape when the truck top player has fully consolidated all three control layers typically fails and wastes precious energy that accelerates submission vulnerability. The optimal window occurs during the opponent's submission setup transitions, when their weight shifts to attack the twister or calf slicer create momentary openings in the control structure. Advanced practitioners learn to create these openings through deliberate hand fighting and hip movement rather than waiting passively for opportunities to appear.",
+  "conditions": [
+    "Trapped in truck bottom position with opponent controlling from perpendicular angle behind you",
+    "At least one arm free to fight grips and address boot pressure on the hip",
+    "Neck not already locked in twister finishing position with full spinal rotation achieved",
+    "Sufficient energy remaining to execute multi-step escape sequence requiring coordinated upper and lower body movement",
+    "Enough mat space available to execute granby roll or forward roll escape variant"
+  ],
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Granby Roll Escape",
+      "description": "The primary escape method where you clear the boot, tuck your head, post on your shoulder, and roll your hips over in a backward somersault motion to break free from the leg entanglement and achieve guard recovery or a scramble to top position.",
+      "when_to_use": "When boot pressure has been cleared or reduced and the opponent's weight is committed forward or to one side, creating space for the roll"
+    },
+    {
+      "variant_name": "Forward Roll to Top",
+      "description": "Rolling forward over your own head using the opponent's leg entanglement as a pivot point, ending up in a top position. This escape uses the opponent's leg control against them by rolling through rather than fighting out of the entanglement directly.",
+      "when_to_use": "When the opponent attacks the calf slicer and extends your trapped leg, creating the leverage needed for a forward roll escape that ends in deep half guard or top position"
+    },
+    {
+      "variant_name": "Hip Escape to Half Guard",
+      "description": "A more conservative escape using repeated shrimping movements to create angular separation between your trapped leg and the opponent's entangling legs, eventually extracting the leg and recovering half guard or knee shield position.",
+      "when_to_use": "When the opponent has loose upper body control but strong boot and leg entanglement, making rolling escapes risky but shrimping effective for incremental space creation"
+    }
+  ],
+  "position_integration": "The Escape from Truck integrates with the broader defensive hierarchy in BJJ by providing a specific escape pathway from one of the most dangerous back-attack positions in the 10th Planet system. Understanding this escape is essential for practitioners who regularly face leg lock specialists and crab ride players who use truck entries from turtle attacks, lockdown systems, and scramble situations. The escape connects to the wider guard recovery system, as successful escapes typically lead to half guard, open guard, or side control positions from which the practitioner can re-engage offensively. Mastery of this escape reduces the deterrent effect of truck threats, allowing more aggressive turtle defense and scramble engagement without fear of being trapped in a submission-heavy control position with limited escape options.",
+  "related_content": [
+    {
+      "name": "Truck",
+      "relationship": "Starting position for this escape technique"
+    },
+    {
+      "name": "Back Control",
+      "relationship": "Counter outcome when escape attempt is intercepted"
+    },
+    {
+      "name": "Side Control",
+      "relationship": "Target position upon successful escape and reversal"
+    },
+    {
+      "name": "Twister Control",
+      "relationship": "Primary submission threat motivating urgent escape"
+    },
+    {
+      "name": "Turtle",
+      "relationship": "Alternative escape destination via defensive roll"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Alternative escape destination via hip escape variant"
+    },
+    {
+      "name": "Deep Half Guard",
+      "relationship": "Destination via forward roll escape variant"
+    },
+    {
+      "name": "Crab Ride",
+      "relationship": "Related back attack position with similar escape challenges"
+    },
+    {
+      "name": "Calf Slicer from Truck",
+      "relationship": "Submission threat during leg extraction phase of escape"
+    },
+    {
+      "name": "Banana Split",
+      "relationship": "Submission threat from truck creating escape urgency"
+    }
+  ],
+  "attacker": {
+    "name": "Escape from Truck Attacker",
+    "description": "Learn to execute the Escape from Truck as the attacker. Step-by-step boot clearing, leg extraction, and granby roll mechanics for escaping truck bottom position in BJJ.",
+    "overview": "As the attacker executing the Escape from Truck, you are the bottom player trapped in the truck position working to systematically dismantle the top player's control and achieve a better position. Your primary challenge is addressing three simultaneous control layers while defending against imminent submission threats including the twister, calf slicer, and banana split. The escape requires calm, methodical execution rather than explosive panic movements.\n\nYour escape sequence follows a strict priority hierarchy: protect the neck first to prevent spinal submissions, then clear the boot pressure that generates torque, then extract the trapped leg from the entanglement, and finally execute the escape roll or scramble to achieve guard recovery or a top position. Rushing any step or skipping the hierarchy consistently results in submission or worsened position. The granby roll is your highest-percentage escape tool once the foundational control points have been addressed.",
+    "key_principles": [
+      "Neck protection takes absolute priority over all other escape actions to prevent twister and spinal injury",
+      "Address the boot pressure before attempting leg extraction since the boot is the engine of all truck control",
+      "Use systematic sequential escape methodology rather than explosive random movements that waste energy",
+      "Coordinate hip movement with hand fighting to create angular separation from the opponent's control points",
+      "Time escape attempts with opponent's submission transitions when their weight distribution shifts",
+      "Maintain composure under extreme pressure to execute multi-step escape sequences without panic"
+    ],
+    "setup_requirements": [
+      "Establish immediate neck defense with chin tucked and at least one hand protecting the collar line",
+      "Identify which side the boot is positioned on and assess the strength of the leg entanglement",
+      "Create initial defensive posture with hips slightly elevated rather than completely flattened on the mat",
+      "Assess opponent's grip configuration to determine whether upper body control or leg control is the weaker link",
+      "Ensure your free leg is actively posted for base and potential bridging or shrimping movement"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Protect Neck and Establish Defensive Posture",
+        "description": "Immediately tuck your chin tight to your chest and position both hands near your neck and collar line to prevent twister grips and choke attempts. This is your absolute first priority. Elevate your hips slightly off the mat to prevent complete flattening, and use your free leg to post for base and stability."
+      },
+      {
+        "step_number": 2,
+        "action": "Identify and Target Boot Pressure",
+        "description": "Locate the opponent's boot foot pressing against your hip and determine which hand you can safely redirect to fight it. The boot is the engine of truck control, generating all the torque that prevents you from rotating your hips and straightening your body. You must neutralize it before meaningful escape is possible."
+      },
+      {
+        "step_number": 3,
+        "action": "Fight Upper Body Grips While Maintaining Neck Defense",
+        "description": "Use your near-side hand to strip or weaken the opponent's harness, seatbelt, or arm control while keeping your other hand protecting the neck. Breaking the upper body connection reduces their ability to follow your movement during the escape and limits their control over your spinal rotation."
+      },
+      {
+        "step_number": 4,
+        "action": "Clear Boot Pressure from Hip",
+        "description": "Redirect your free hand to push, hook, or peel the opponent's boot foot off your hip. Combine this hand fighting with hip rotation away from the boot to reduce the leverage angle. Once boot pressure is neutralized, the opponent's torque generation drops dramatically and the entire control system weakens."
+      },
+      {
+        "step_number": 5,
+        "action": "Extract Trapped Leg from Entanglement",
+        "description": "With boot pressure cleared, begin working your trapped leg free by circling your ankle, rotating your hip inward, and shrimping to create angular separation between your leg and the opponent's controlling figure-four configuration. Use small incremental movements rather than one explosive pull to avoid re-tightening the entanglement."
+      },
+      {
+        "step_number": 6,
+        "action": "Execute Granby Roll or Escape Movement",
+        "description": "Initiate the granby roll by tucking your head, posting on your near shoulder, and rolling your hips over your head toward the opponent. The rotational momentum breaks any remaining leg entanglement and creates distance from the truck position. Alternatively, execute a hip escape to recover half guard if rolling space is limited."
+      },
+      {
+        "step_number": 7,
+        "action": "Establish New Position and Prevent Re-Entry",
+        "description": "As you complete the roll or hip escape, immediately secure a new position by establishing defensive frames, inserting guard hooks, or driving to top position. Prioritize facing your opponent with your hips squared to prevent them from re-establishing truck control or transitioning directly to back control with hooks."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Opponent increases boot pressure and flattens you with chest weight during escape attempt",
+        "effectiveness": "High",
+        "your_response": "Pause escape sequence, re-establish neck protection, and work to re-address the boot before continuing. Use hip elevation and free leg posting to resist flattening while fighting the boot with your hand.",
+        "targets_outcome": "Truck/Bottom"
+      },
+      {
+        "counter": "Opponent abandons truck and transitions to back control by inserting hooks during your escape movement",
+        "effectiveness": "Medium",
+        "your_response": "Immediately shift to back defense protocol with chin tuck and hand fighting on choking arm. Your escape created movement that the opponent exploited, so address the new position rather than continuing the truck escape.",
+        "targets_outcome": "Back Control/Bottom"
+      },
+      {
+        "counter": "Opponent attacks calf slicer on your trapped leg when you begin extraction",
+        "effectiveness": "Medium",
+        "your_response": "Sharply bend your knee to reduce compression on the joint while using the opponent's leg extension commitment to initiate a forward roll escape. Their weight shift for the calf slicer creates a window for rolling through.",
+        "targets_outcome": "Truck/Bottom"
+      },
+      {
+        "counter": "Opponent follows your granby roll rotation and maintains back exposure throughout",
+        "effectiveness": "Medium",
+        "your_response": "Continue the roll without stopping and transition to a sit-out or scramble rather than settling in a compromised position. Use the momentum of the roll to create distance and face your opponent before they can re-consolidate control.",
+        "targets_outcome": "Back Control/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Attempting explosive escape without addressing boot pressure first",
+        "consequence": "The boot generates torque that prevents hip rotation, so explosive movements fail and waste energy while potentially exposing the neck to twister grips",
+        "correction": "Always clear or reduce boot pressure before initiating the escape roll or hip escape. The boot is the foundation of truck control and must be addressed first."
+      },
+      {
+        "error": "Abandoning neck protection to fight leg entanglement with both hands",
+        "consequence": "Exposes the cervical spine to twister grip which can be locked in quickly, creating immediate spinal submission danger",
+        "correction": "Maintain at least one hand near the neck at all times during escape. Fight the boot and leg entanglement with one hand while the other protects the collar line."
+      },
+      {
+        "error": "Stopping the granby roll halfway through the rotation",
+        "consequence": "Leaves you in a worse position than the starting truck bottom, often with back fully exposed and no base or frame to prevent immediate submission or back control",
+        "correction": "Commit fully to the granby roll once initiated. Complete the rotation and immediately establish guard or scramble to top. Partial rolls are more dangerous than staying in truck."
+      },
+      {
+        "error": "Panicking and using explosive random movements without systematic sequence",
+        "consequence": "Rapid energy depletion without meaningful progress toward escape, often creating better submission angles for the truck top player",
+        "correction": "Breathe, maintain composure, and follow the escape hierarchy: protect neck, clear boot, extract leg, execute roll. Systematic approach succeeds where panic fails."
+      },
+      {
+        "error": "Failing to face the opponent after completing the escape roll",
+        "consequence": "Opponent immediately transitions to back control or re-establishes truck position because your back remains exposed after the escape movement",
+        "correction": "Upon completing the roll or scramble, immediately square your hips to face the opponent and establish guard hooks or frames. Facing your opponent eliminates back attack opportunities."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Mechanics",
+        "focus": "Boot clearing and neck protection fundamentals",
+        "description": "Practice individual escape components in isolation: boot clearing drills with partner providing static boot pressure, neck protection hand fighting against slow twister setups, and granby roll mechanics from flat position. No resistance initially, focusing on correct movement patterns and sequencing."
+      },
+      {
+        "phase": "Phase 2: Integration",
+        "focus": "Combining boot clear with leg extraction and escape roll",
+        "description": "Chain the escape components into complete sequences. Partner establishes truck with light control (25-30% resistance). Practice flowing from neck protection through boot clearing to leg extraction to granby roll completion. Emphasize smooth transitions between steps without gaps."
+      },
+      {
+        "phase": "Phase 3: Resistance Training",
+        "focus": "Full escape sequence against progressive resistance",
+        "description": "Execute complete escape sequences against increasing resistance (50%, 70%, 90%). Partner actively adjusts control and threatens submissions during escape attempts. Develop timing for initiating escape during opponent's transitions. Practice all three escape variants."
+      },
+      {
+        "phase": "Phase 4: Live Application",
+        "focus": "Positional sparring from truck bottom",
+        "description": "Full positional sparring starting from established truck bottom. Partner works for submissions and position maintenance while you work complete escapes. Reset after submission, escape, or position change. Develop instinctive escape responses under realistic competitive pressure."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "Your opponent increases boot pressure and begins setting up the twister grip on your far arm - what is your immediate response?",
+        "answer": "Immediately prioritize neck defense by tucking your chin tight and using both hands to fight the twister grip on your far arm. Do not attempt explosive escape movements that would expose your cervical spine. Systematically fight the grip while maintaining chin tuck, then work to clear the boot pressure once the twister threat is neutralized, since the boot generates the torque enabling the twister finish."
+      },
+      {
+        "question": "What is the most critical control element to neutralize first when escaping from truck position?",
+        "answer": "The boot pressure on your hip is the most critical control element to neutralize after securing neck defense. The boot creates the torque that generates spinal rotation for the twister and maintains the perpendicular body alignment. Without boot pressure, the truck top player loses their primary control engine and all submissions become significantly harder to execute, making leg extraction and escape roll possible."
+      },
+      {
+        "question": "You successfully clear the boot but your leg remains trapped in the figure-four entanglement - how do you proceed?",
+        "answer": "With the boot cleared, shift focus to leg extraction by circling your trapped ankle inward and rotating your hip to create angular separation within the figure-four entanglement. Use small incremental shrimping movements rather than one explosive pull. If direct extraction fails within a few attempts, initiate the granby roll which uses rotational momentum to break through remaining leg control."
+      },
+      {
+        "question": "What determines the optimal timing window for initiating the granby roll escape from truck?",
+        "answer": "The optimal timing window occurs when the truck top player shifts weight to set up a submission such as the twister or calf slicer, transitions between attacks, or when you have successfully reduced one of their control points such as clearing the boot or stripping a grip. Attempting escape during fully consolidated control has much lower success rates and wastes energy that accelerates submission vulnerability."
+      },
+      {
+        "question": "Your opponent transitions from twister setup to calf slicer attack during your escape attempt - how do you adjust?",
+        "answer": "When the opponent switches from twister to calf slicer, your trapped leg is being extended and compressed at the knee. Immediately bend your knee sharply to reduce joint pressure and buy time. Then use the opponent's changed weight distribution and commitment to the leg attack to initiate your forward roll escape. The transition between attacks creates a brief window where their positional control is less stable than during either settled attack."
+      },
+      {
+        "question": "What hip movement is essential for creating the space needed to extract the trapped leg from truck entanglement?",
+        "answer": "Hip rotation away from the opponent combined with shrimping movement is essential for creating extraction space. By rotating your hips and driving them away from the truck top player, you create angular separation between your trapped leg and their entangling legs, making it possible to circle your ankle free. This movement must be coordinated with boot clearing since the boot prevents effective hip rotation."
+      },
+      {
+        "question": "You begin the granby roll but the opponent follows your rotation maintaining back exposure - what should you do?",
+        "answer": "If the opponent follows your granby roll rotation, use their forward momentum against them by continuing the roll without stopping and transitioning to a sit-out or scramble sequence. You can switch to a sit-out motion mid-roll, turning into the opponent to achieve a reversal. The key is never stopping mid-roll, as incomplete rolls leave you in worse positions with your back fully exposed and no defensive frames established."
+      },
+      {
+        "question": "Why must neck protection be maintained throughout the entire escape sequence rather than only at the beginning?",
+        "answer": "The twister targets the cervical spine and can cause serious injury with very little warning before damage occurs. Even during active escape sequences, momentary exposure of the neck can allow the truck top player to reestablish the twister grip and lock the rotation before you can defend. Maintaining chin tuck and hand fighting near the neck throughout ensures that escape movements do not inadvertently create submission openings for the opponent."
+      }
+    ],
+    "safety_considerations": "The truck position threatens the twister (spinal lock) and calf slicer (knee compression), both of which can cause serious injury with minimal warning. Tap immediately when you feel rotational pressure on your cervical spine or compression on your knee joint. During training, communicate clearly with your partner about pressure levels and never attempt explosive escapes that could injure either practitioner. The twister in particular can damage cervical vertebrae and spinal ligaments before pain signals fully register. Prioritize training longevity over ego-driven resistance to tapping."
+  },
+  "defender": {
+    "name": "Escape from Truck Defender",
+    "description": "Prevent Escape from Truck attempts as the defender. Recognition cues, counter techniques, and transition strategies for maintaining truck control or advancing to back control in BJJ.",
+    "overview": "As the defender resisting the Escape from Truck, you are the truck top player working to maintain your dominant control position and prevent the bottom player from escaping to guard, turtle, or a top position. Your primary advantage is the three-layered control system of boot pressure, leg entanglement, and upper body control that the escaper must systematically dismantle in sequence. By recognizing escape attempt initiation cues early, you can counter each stage of the escape and either maintain truck position or transition to back control.\n\nYour defensive strategy centers on maintaining the integrity of your control layers and punishing escape attempts with submission threats or positional advancement. When the bottom player begins fighting your boot, increase pressure and attack. When they begin extracting their leg, threaten the calf slicer. When they attempt the granby roll, follow the rotation and transition to back control. Every escape attempt creates vulnerability that you can exploit if you recognize the movement early and respond with the appropriate counter.",
+    "key_principles": [
+      "Maintain constant boot pressure as the foundation of all truck control even during submission attempts",
+      "Recognize escape initiation cues early to counter before the escape sequence develops momentum",
+      "Use the bottom player's escape attempts as triggers for submission attacks or back control transitions",
+      "Keep weight distributed between chest pressure and leg entanglement to prevent both rolling and shrimping escapes",
+      "Transition to back control when truck maintenance becomes untenable rather than losing position entirely",
+      "Create submission dilemmas that force the bottom player to choose between defending and escaping"
+    ],
+    "recognition_cues": [
+      "Bottom player's free hand moves from neck protection toward your boot foot on their hip, indicating they are beginning boot clearing sequence",
+      "Bottom player elevates hips and posts their free leg, creating the base needed for granby roll or hip escape initiation",
+      "Bottom player tucks their head and loads weight onto their shoulder, the preparatory position for granby roll execution",
+      "Bottom player begins circling their trapped ankle or rotating their hip, attempting to create space for leg extraction from the figure-four"
+    ],
+    "defensive_options": [
+      {
+        "action": "Increase boot pressure and flatten bottom player with chest weight",
+        "when_to_use": "When you recognize the bottom player beginning to fight your boot or elevating their hips for escape preparation",
+        "targets_outcome": "Truck/Bottom",
+        "if_successful": "Bottom player is driven flat, boot pressure is re-consolidated, and their escape attempt is shut down before it develops",
+        "risk": "Over-committing chest pressure forward can create space for granby roll if boot pressure slips during weight shift"
+      },
+      {
+        "action": "Transition to back control by inserting hooks during escape movement",
+        "when_to_use": "When the bottom player has begun their escape roll or hip escape and maintaining truck control is becoming compromised",
+        "targets_outcome": "Back Control/Bottom",
+        "if_successful": "You maintain dominant back position with hooks and seatbelt, scoring 4 points and retaining submission threats",
+        "risk": "If hooks are not secured quickly during transition, the bottom player may complete their escape to guard or top position"
+      },
+      {
+        "action": "Attack calf slicer on the trapped leg when bottom player begins leg extraction",
+        "when_to_use": "When the bottom player begins circling their ankle or extending their trapped leg to create extraction space",
+        "targets_outcome": "Truck/Bottom",
+        "if_successful": "Bottom player must abandon leg extraction to defend the submission, resetting the escape sequence and burning their energy",
+        "risk": "Committing to the calf slicer shifts your weight and may loosen upper body control, creating an escape window"
+      },
+      {
+        "action": "Follow the granby roll rotation and maintain back exposure for back control entry",
+        "when_to_use": "When the bottom player commits to the granby roll and begins rotating through the escape",
+        "targets_outcome": "Back Control/Bottom",
+        "if_successful": "You flow with their rotation, insert hooks during the roll, and establish back control as they complete the movement",
+        "risk": "If you fail to maintain chest-to-back connection during the roll, the bottom player may scramble free to guard or top position"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Truck/Bottom",
+        "how": "Maintain boot pressure and leg entanglement by recognizing escape attempts early and increasing control before the escape develops momentum. Counter hand fighting on the boot by driving boot deeper and adding chest pressure to flatten the bottom player."
+      },
+      {
+        "outcome": "Back Control/Bottom",
+        "how": "When truck maintenance becomes untenable due to successful boot clearing or leg extraction, immediately transition to back control by inserting hooks and establishing seatbelt grip during the escape movement. Follow the bottom player's granby roll rotation to maintain back exposure and convert to standard back control."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Losing boot pressure while focused on upper body submissions like the twister",
+        "consequence": "Bottom player clears the boot easily during your submission attempt, gaining the space needed to extract their leg and complete the escape",
+        "correction": "Maintain boot pressure as a non-negotiable foundation even while attacking submissions. The boot enables the twister; without it, both control and submission are lost."
+      },
+      {
+        "error": "Failing to recognize escape initiation cues and reacting too late",
+        "consequence": "Bottom player progresses through multiple escape steps before you respond, making the escape much harder to counter once momentum is established",
+        "correction": "Watch for the specific cues: hand moving to boot, hip elevation, head tuck, and ankle circling. Counter at the earliest sign rather than waiting for the full escape attempt."
+      },
+      {
+        "error": "Trying to force truck maintenance when control has deteriorated rather than transitioning to back control",
+        "consequence": "Complete loss of dominant position as the bottom player escapes to guard or top position while you struggle to hold a compromised truck",
+        "correction": "Recognize when truck control is deteriorating beyond recovery and immediately transition to back control. Preserving dominant position through adaptation is more effective than stubbornly maintaining a collapsing control."
+      },
+      {
+        "error": "Over-committing to the calf slicer and releasing upper body control",
+        "consequence": "Bottom player uses the freed upper body to execute granby roll or sit-out escape while you are committed to the leg attack",
+        "correction": "Attack the calf slicer while maintaining some degree of upper body connection. If the calf slicer is not finishing, return to full truck control rather than chasing the submission at the expense of position."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What visual cue indicates the bottom player is about to attempt a granby roll escape from truck?",
+        "answer": "The bottom player will post their free hand on the mat near their shoulder, tuck their head tight to their chest, and begin loading weight onto their upper back and shoulder in preparation for the roll. They may also rotate their hips upward to generate rotational momentum. Recognizing these preparatory movements allows you to increase boot pressure, flatten them with chest weight, or transition to back control before the roll initiates."
+      },
+      {
+        "question": "How should you adjust your control when you feel the bottom player beginning to fight your boot on their hip?",
+        "answer": "Increase boot pressure by driving your foot deeper into their hip and adding forward chest pressure to flatten them and restrict their hand fighting range. If they continue fighting the boot despite increased pressure, consider immediately transitioning to a submission attack like the calf slicer or twister to punish the hand fighting, or begin transitioning to back control to capitalize on their defensive focus."
+      },
+      {
+        "question": "What is the primary risk when the bottom player successfully clears your boot from their hip?",
+        "answer": "Without boot pressure, your ability to generate torque and maintain the perpendicular control angle is severely compromised. The bottom player can now rotate their hips freely, extract their trapped leg much more easily, and initiate escape rolls that you cannot resist through leg entanglement alone. You should immediately either re-establish boot pressure, transition to back control by inserting hooks, or commit to a submission before they complete the escape."
+      },
+      {
+        "question": "Your opponent begins extracting their trapped leg from the entanglement - what should you prioritize?",
+        "answer": "Prioritize maintaining the leg entanglement by squeezing your controlling leg tighter and adjusting your hook position to close the space they created. If extraction seems inevitable, immediately transition to a calf slicer attack using their partially extended leg as leverage, or abandon leg control entirely and transition to back control by establishing hooks and seatbelt grip before they achieve full guard recovery."
+      },
+      {
+        "question": "When should you abandon truck maintenance and transition to back control instead?",
+        "answer": "Transition to back control when you cannot maintain boot pressure despite adjustments, your leg entanglement is loosening and leg extraction appears imminent, or the bottom player has successfully cleared one major control point and is progressing through their escape sequence. Back control preserves your dominant position and scoring potential rather than risking a complete loss of control from a deteriorating truck position."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Recognition",
+        "focus": "Identifying escape attempt initiation cues",
+        "description": "Partner attempts escape sequences from truck bottom at slow speed (30-40% pace). Practice recognizing the four primary cues: hand moving to boot, hip elevation, head tuck for granby, and ankle circling for leg extraction. Call out each cue as you see it without countering yet."
+      },
+      {
+        "phase": "Phase 2: Counter Timing",
+        "focus": "Applying appropriate counters to each escape stage",
+        "description": "Partner performs escape sequences at moderate speed. Practice matching each escape cue with the correct counter: increase boot pressure when boot is targeted, attack calf slicer when leg extraction begins, follow rotation when granby initiates. Develop automatic counter selection."
+      },
+      {
+        "phase": "Phase 3: Transition Flow",
+        "focus": "Flowing between truck maintenance and back control transitions",
+        "description": "Full positional sparring from truck with focus on maintaining dominant position or transitioning to back control. Practice reading when truck control is salvageable versus when immediate transition to back control is the better tactical choice. Develop adaptive decision-making under live resistance."
+      }
+    ]
+  }
+}

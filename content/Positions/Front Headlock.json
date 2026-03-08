@@ -1,0 +1,676 @@
+{
+  "name": "Front Headlock",
+  "slug": "front-headlock",
+  "description": "Master front headlock position in BJJ. Strategic control position for setting up guillotines, anacondas, darces, and back takes with complete offensive analysis.",
+  "variant_uniqueness": "Bent-over control with submission versatility",
+  "overview": "The front headlock is one of the most dominant control positions in Brazilian Jiu-Jitsu, occurring when you secure your opponent's head and neck while they are bent forward, typically on their hands and knees or in a compromised standing position. This position represents a critical junction point in grappling where numerous high-percentage submissions and positional advancements become available.\n\nThe front headlock's strategic value lies in its ability to control an opponent's posture while simultaneously threatening multiple submission systems. From this position, you can attack with guillotine chokes, anaconda chokes, darce chokes, or transition to back control. The position naturally occurs during scrambles, failed takedown attempts, turtle position attacks, and guard passing sequences.\n\nThe mechanics of front headlock control revolve around maintaining downward pressure on your opponent's head while controlling their far shoulder or arm. Your chest weight drives into their upper back, preventing them from standing up or improving their position. This creates a dilemma: if they stay static, you can work your submissions; if they try to escape, you can transition to back control or other dominant positions.\n\nHistorically, the front headlock has evolved from wrestling into one of modern BJJ's most sophisticated control systems. The position has been systematized into comprehensive attack sequences, with high-level competitors demonstrating its effectiveness at the highest levels of competition. The position is equally effective in gi and no-gi contexts, though the specific grips and submission mechanics vary slightly.\n\nThe front headlock represents the intersection of positional control and submission threat. Unlike positions where you must choose between maintaining control and hunting for submissions, the front headlock allows you to do both simultaneously. Your control mechanics naturally set up your submission attacks, and your submission threats reinforce your positional control. This synergy makes it one of the highest-percentage positions in all of grappling.\n\nUnderstanding the front headlock requires recognizing its role as a transitional control position rather than a static holding position. You're constantly reading your opponent's defensive responses and adapting your attacks accordingly. If they turtle tight, you work your chokes. If they try to stand, you can guillotine. If they roll, you take the back. This dynamic nature requires both technical precision and tactical awareness.",
+  "key_principles": [
+    "Front headlock is a dynamic control position, not a resting position - constantly threaten submissions or transitions",
+    "Chest pressure drives down into opponent's upper back, preventing postural recovery and creating submission opportunities",
+    "Control the far shoulder or arm to prevent opponent from rolling away or standing up",
+    "Hip position determines submission availability - stay high and tight for chokes, can extend for certain finishes",
+    "Head control alone is insufficient - must combine with shoulder/arm control and proper weight distribution",
+    "Create submission dilemmas where defensive movements open alternative attacks",
+    "Maintain connection between your chest and opponent's back to prevent space creation"
+  ],
+  "related_positions": [
+    {
+      "name": "Turtle",
+      "relationship": "Primary entry position - front headlock typically secured when opponent turtles defensively"
+    },
+    {
+      "name": "Guillotine Control",
+      "relationship": "Direct submission transition - front headlock converts to guillotine when opponent stands or you adjust grip"
+    },
+    {
+      "name": "Anaconda Control",
+      "relationship": "Submission control position - arm-in front headlock transitions to anaconda by threading arm and locking gable grip"
+    },
+    {
+      "name": "Darce Control",
+      "relationship": "Submission control position - front headlock converts to darce by underhooking near arm and threading opposite arm"
+    },
+    {
+      "name": "Back Control",
+      "relationship": "High-value advancement - front headlock transitions to back when opponent tries escaping forward or to side"
+    },
+    {
+      "name": "Side Control",
+      "relationship": "Alternative advancement - can flatten opponent from front headlock into side control pinning position"
+    },
+    {
+      "name": "Crucifix",
+      "relationship": "Alternative control - if opponent rolls through front headlock escape, can catch crucifix position"
+    },
+    {
+      "name": "Kimura Trap",
+      "relationship": "Alternative submission - if opponent defends chokes by freeing head, kimura on near arm becomes available"
+    }
+  ],
+  "top": {
+    "name": "Front Headlock Top",
+    "description": "Master front headlock control in BJJ. Complete offensive system for guillotines, anacondas, darces, and back takes with systematic attack sequences.",
+    "tags": [
+      "offensive",
+      "control",
+      "front-headlock",
+      "intermediate",
+      "submission-system",
+      "head-control"
+    ],
+    "overview": "Front headlock top is one of the most dominant offensive control positions in Brazilian Jiu-Jitsu, offering a unique combination of strong positional control and multiple high-percentage submission options. When executed properly, this position allows you to control an opponent who is bent forward, typically on their hands and knees, while simultaneously threatening guillotine, anaconda, darce chokes, and back takes.\n\nThe strategic value of front headlock top lies in its versatility and the dilemmas it creates for your opponent. Unlike many positions where you must choose between maintaining control and hunting submissions, the front headlock allows both simultaneously. Your control mechanics naturally set up your submission attacks, and your submission threats reinforce your positional dominance. This synergy makes it one of the highest-percentage attacking positions in modern grappling.\n\nFront headlock top typically arises during scrambles, when your opponent turtles defensively, during failed takedown attempts, or as a deliberate entry from guard passing sequences. The position has become increasingly systematized in modern BJJ, with comprehensive front headlock systems becoming standard curriculum at high-level academies. Understanding these systems transforms the front headlock from an opportunistic position into a deliberate strategic destination.\n\nThe biomechanics of front headlock control revolve around creating downward pressure with your chest while controlling your opponent's head and far shoulder. Your weight drives into their upper back, collapsing their posture and preventing them from standing up or improving position. Your arms work in tandem - one controls the head (setting up chokes), while the other controls the far shoulder or arm (preventing escapes). This dual control system creates a cage around your opponent's upper body.\n\nModern competitors have demonstrated the effectiveness of front headlock top at the highest levels of competition. The position has become the foundation of entire competitive strategies, serving as both a submission platform and a gateway to back attacks. The position works equally well in gi and no-gi contexts, though the specific grips and tactics vary.\n\nMastering front headlock top requires understanding both the technical details of individual submissions and the overarching strategic framework that connects them. You must develop the ability to read your opponent's defensive responses and adapt your attacks accordingly, creating submission chains where each defensive movement opens a new attack. This systematic approach, combined with positional patience and technical precision, makes the front headlock one of the most powerful weapons in modern Brazilian Jiu-Jitsu.",
+    "state_properties": {
+      "point_value": 0,
+      "position_type": "Offensive/Controlling",
+      "risk_level": "Low to Medium",
+      "energy_cost": "Medium",
+      "time_sustainability": "Medium"
+    },
+    "state_invariants": [
+      "You control opponent's head and neck with at least one arm wrapped around their head, while your chest drives downward pressure into their upper back and shoulders, forcing them into bent-forward compromised posture with limited mobility and defensive options",
+      "Your opponent's torso is bent forward at the waist, typically with their hands and knees on mat or attempting to stand with compromised posture, while you maintain superior position above and around their head with ability to sprawl hips back or step around to different angles for submissions or back take",
+      "You control opponent's far shoulder or arm with your free hand (the hand not controlling head), preventing them from rolling away or standing up, while maintaining ability to transition between guillotine, anaconda, darce grips, or release to take back depending on their defensive reactions"
+    ],
+    "prerequisites": [
+      "You have secured control of opponent's head with at least one arm wrapped around their head/neck",
+      "Opponent's posture is compromised into bent-forward position (hands and knees, turtle, or standing bent over)",
+      "You have established chest pressure driving down into opponent's upper back, preventing easy postural recovery"
+    ],
+    "key_principles": [
+      "Front headlock is a dynamic attacking position - constantly threaten submissions or transitions, never simply hold",
+      "Chest pressure into opponent's upper back prevents them from standing or improving posture",
+      "Control the far shoulder or arm to prevent rolling escapes and set up arm-in submissions",
+      "Hip position determines submission type - high and tight for guillotine, can shift for anaconda/darce",
+      "Create submission dilemmas where defensive movements open alternative attacks",
+      "Maintain connection between your chest and opponent's back - space allows escapes",
+      "Read opponent's weight distribution and defensive reactions to determine optimal attack"
+    ],
+    "decision_tree": [
+      {
+        "condition": "If opponent keeps head low and stays tight in turtle with arms protected",
+        "actions": [
+          {
+            "technique": "Anaconda Setup",
+            "target": "Anaconda Control",
+            "probability": 60
+          },
+          {
+            "technique": "Darce Setup",
+            "target": "Darce Control",
+            "probability": 55
+          },
+          {
+            "technique": "Force Flatten to Side Control",
+            "target": "Side Control",
+            "probability": 50
+          }
+        ]
+      },
+      {
+        "condition": "If opponent attempts to stand up or lift their head while you have front headlock",
+        "actions": [
+          {
+            "technique": "Guillotine Setup",
+            "target": "Guillotine Control",
+            "probability": 70
+          },
+          {
+            "technique": "Snap Down and Resettle",
+            "target": "Front Headlock",
+            "probability": 60
+          }
+        ]
+      },
+      {
+        "condition": "If opponent circles or turns their body to escape laterally",
+        "actions": [
+          {
+            "technique": "Front Headlock to Back",
+            "target": "Back Control",
+            "probability": 65
+          },
+          {
+            "technique": "Step Over to Mount",
+            "target": "Mount",
+            "probability": 55
+          }
+        ]
+      },
+      {
+        "condition": "If opponent attempts forward roll or granby roll escape",
+        "actions": [
+          {
+            "technique": "Follow to Crucifix",
+            "target": "Crucifix",
+            "probability": 50
+          },
+          {
+            "technique": "Maintain Control and Resettle",
+            "target": "Front Headlock",
+            "probability": 60
+          }
+        ]
+      },
+      {
+        "condition": "If opponent successfully defends neck by tucking chin but remains in position",
+        "actions": [
+          {
+            "technique": "Switch to Kimura",
+            "target": "Kimura Trap",
+            "probability": 55
+          },
+          {
+            "technique": "Force to Side Control",
+            "target": "Side Control",
+            "probability": 60
+          }
+        ]
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Holding static front headlock without threatening submissions or transitions",
+        "consequence": "Allows opponent time to establish defensive frames, improve posture, and eventually escape",
+        "correction": "Constantly attack with submissions or position changes - front headlock should feel oppressive to opponent with threats coming continuously"
+      },
+      {
+        "error": "Controlling only the head without securing far shoulder or arm",
+        "consequence": "Opponent can easily roll away or circle out since their body is free to rotate",
+        "correction": "Always control far shoulder with your non-choking hand, creating cage around opponent's upper body"
+      },
+      {
+        "error": "Chest position too high or weight too far back from opponent",
+        "consequence": "Opponent can easily stand up or improve posture since no downward pressure prevents them",
+        "correction": "Drive chest weight directly down into opponent's upper back, keeping hips low and forward"
+      },
+      {
+        "error": "Committing fully to one submission without reading opponent's defensive reactions",
+        "consequence": "Opponent escapes while you're focused on single attack that isn't available",
+        "correction": "Stay sensitive to opponent's movements and weight shifts - adapt your attack based on their defense"
+      },
+      {
+        "error": "Gripping too tight with arms instead of using body weight for control",
+        "consequence": "Arms fatigue quickly, grip weakens, and opponent escapes as your control deteriorates",
+        "correction": "Use body positioning and chest pressure for control, reserving arm strength for finishing submissions"
+      },
+      {
+        "error": "Allowing space to develop between your chest and opponent's back",
+        "consequence": "Space allows opponent to shrimp away, turn their body, or stand up effectively",
+        "correction": "Maintain constant pressure and connection - follow opponent's movements to prevent space creation"
+      },
+      {
+        "error": "Failing to sprawl hips back when setting up arm-in chokes",
+        "consequence": "Opponent can roll through or forward, escaping control and potentially reversing position",
+        "correction": "As you lock anaconda or darce grip, immediately sprawl hips back and to the side to prevent rolls"
+      }
+    ],
+    "training_drills": [
+      {
+        "name": "Front Headlock Submission Chain Drill",
+        "description": "Partner gives turtle position, you establish front headlock. Partner calls out which defense they're using (stand, circle, stay tight), you respond with appropriate submission (guillotine for standing, back take for circling, anaconda/darce for tight). Flow continuously through options.",
+        "duration": "5 minutes"
+      },
+      {
+        "name": "Front Headlock Control Maintenance",
+        "description": "Establish front headlock on resisting partner who works to escape using any method. Your goal is maintaining control position without finishing submissions, focusing on weight distribution, pressure, and far shoulder control. Partner progressively increases resistance.",
+        "duration": "3 minutes"
+      },
+      {
+        "name": "Front Headlock Entry Repetitions",
+        "description": "Partner gives various starting positions (open guard, passing, scrambles, sprawl). You work to achieve front headlock control from each. Reset after each successful entry. Builds recognition of front headlock opportunities during live rolling.",
+        "duration": "4 minutes"
+      },
+      {
+        "name": "Submission Finishing from Front Headlock",
+        "description": "Start with established front headlock control. Partner gives moderate resistance focusing on neck defense. You work to finish guillotine, anaconda, or darce choke (rotate which submission each round). Focus on proper mechanics and submission details rather than speed.",
+        "duration": "6 minutes"
+      },
+      {
+        "name": "Front Headlock to Back Take Timing",
+        "description": "Establish front headlock, partner attempts to circle away to escape. You practice timing and footwork for stepping over and taking back. Partner starts slow, gradually increases escape speed. Focus on smooth transition without losing control.",
+        "duration": "4 minutes"
+      }
+    ],
+    "related_content": [
+      {
+        "name": "Turtle",
+        "relationship": "Primary attack target - front headlock is main offensive position against turtle"
+      },
+      {
+        "name": "Guillotine Control",
+        "relationship": "Primary submission option - front headlock naturally transitions to guillotine"
+      },
+      {
+        "name": "Anaconda Control",
+        "relationship": "Arm-in submission option - front headlock converts to anaconda with arm trap"
+      },
+      {
+        "name": "Darce Control",
+        "relationship": "Arm-in submission option - front headlock converts to darce with underhook"
+      },
+      {
+        "name": "Back Control",
+        "relationship": "Positional advancement - front headlock transitions to back when opponent circles"
+      },
+      {
+        "name": "Front Headlock to Guillotine",
+        "relationship": "Primary transition pathway to guillotine submission from front headlock control"
+      },
+      {
+        "name": "Snap Down to Front Headlock",
+        "relationship": "Primary entry method from standing - snap opponent's head down to establish control"
+      },
+      {
+        "name": "Guillotine Choke",
+        "relationship": "Primary submission finish from front headlock position"
+      },
+      {
+        "name": "Anaconda Choke",
+        "relationship": "Arm-in choke finish available from front headlock"
+      },
+      {
+        "name": "Darce Choke",
+        "relationship": "Arm-in choke finish available from front headlock"
+      }
+    ],
+    "position_metrics": {
+      "retention_rate": {
+        "value": 78,
+        "description": "Successfully maintaining front headlock control against escape attempts"
+      },
+      "advancement_probability": {
+        "value": 72,
+        "description": "Converting front headlock to submission or better position"
+      },
+      "submission_probability": {
+        "value": 58,
+        "description": "Finishing submission directly from front headlock position"
+      },
+      "average_time": "30-90 seconds (position to submission or transition)"
+    },
+    "transitions": [
+      {
+        "transition": "Guillotine Setup",
+        "attempt_probability": 12
+      },
+      {
+        "transition": "Anaconda Setup",
+        "attempt_probability": 11
+      },
+      {
+        "transition": "Darce Setup",
+        "attempt_probability": 11
+      },
+      {
+        "transition": "Front Headlock to Back",
+        "attempt_probability": 11
+      },
+      {
+        "transition": "Arm Triangle from Front Headlock",
+        "attempt_probability": 6
+      },
+      {
+        "transition": "Japanese Necktie Setup",
+        "attempt_probability": 7
+      },
+      {
+        "transition": "Peruvian Necktie Setup",
+        "attempt_probability": 7
+      },
+      {
+        "transition": "Step Over to Mount",
+        "attempt_probability": 5
+      },
+      {
+        "transition": "Turtle Flatten to Side Control",
+        "attempt_probability": 7
+      },
+      {
+        "transition": "Snap Down to Front Headlock",
+        "attempt_probability": 5
+      },
+      {
+        "transition": "Crucifix from Turtle",
+        "attempt_probability": 4
+      },
+      {
+        "transition": "Kimura",
+        "attempt_probability": 4
+      },
+      {
+        "transition": "Brabo Choke",
+        "attempt_probability": 2
+      },
+      {
+        "transition": "Chin Strap Guillotine",
+        "attempt_probability": 2
+      },
+      {
+        "transition": "Peruvian Necktie",
+        "attempt_probability": 2
+      },
+      {
+        "transition": "Arm in Guillotine",
+        "attempt_probability": 1
+      },
+      {
+        "transition": "High Elbow Guillotine",
+        "attempt_probability": 1
+      },
+      {
+        "transition": "Japanese Necktie",
+        "attempt_probability": 1
+      },
+      {
+        "transition": "Ten Finger Guillotine",
+        "attempt_probability": 1
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the primary weight distribution strategy for maintaining front headlock control?",
+        "answer": "Your chest weight should drive directly down into the opponent's upper back and neck, with hips kept low and forward. The majority of your body weight should be transmitted through your chest onto their shoulders and upper back, not supported by your own legs. This creates constant downward pressure that collapses their posture and prevents them from standing or improving position. Your arms provide secondary control but should not bear the primary burden of maintaining the position."
+      },
+      {
+        "question": "How do you prevent an opponent from rolling away when you have front headlock control?",
+        "answer": "Control their far shoulder or arm with your non-choking hand at all times. This creates a cage around their upper body that prevents rotation. Additionally, maintain chest-to-back connection and follow their movement if they attempt to turn. If they try to roll toward your choking arm side, immediately sprawl your hips back and to the outside to jam the roll. The combination of far shoulder control and reactive hip sprawling shuts down most rolling escape attempts."
+      },
+      {
+        "question": "Your opponent starts to lift their head and posture up while you have front headlock - what immediate adjustment do you make?",
+        "answer": "Immediately increase downward pressure through your chest while snapping their head back down. If they continue to posture despite pressure, this is actually an opportunity - transition directly to a guillotine grip by threading your arm deeper under their chin as their neck extends. Their posturing movement exposes the neck and makes the guillotine more available. The key is recognizing that their defensive movement opens an offensive opportunity rather than trying to simply maintain the original control."
+      },
+      {
+        "question": "What are the essential grip priorities when establishing and maintaining front headlock top?",
+        "answer": "The primary grip is your arm controlling the head, which should wrap deeply around their neck with your armpit tight against the crown of their head. Your secondary grip controls their far shoulder or lat to prevent rotation. For submissions, you need to transition to specific grips: guillotine requires chin strap or under-chin positioning, anaconda requires threading under the neck to trap their arm, darce requires underhooking their near arm. Throughout all variations, maintain that chest-to-back connection as the foundation that all grips build upon."
+      },
+      {
+        "question": "How should you apply pressure in front headlock to maximize control while minimizing your own energy expenditure?",
+        "answer": "Use skeletal structure and body weight rather than muscular effort. Let your chest drop heavily onto their upper back while keeping your own posture relatively relaxed. Your legs should be spread wide in a sprawl-like base, providing stability without requiring constant muscular engagement. Avoid death-gripping with your arms - use them primarily for directional control while your body weight does the heavy work. This approach allows you to maintain oppressive pressure for extended periods without fatiguing your grip or arms."
+      },
+      {
+        "question": "Your opponent successfully tucks their chin and denies your choke attempts - what systematic response do you employ?",
+        "answer": "First, recognize that chin tucking only defends against the immediate choke but keeps them trapped in a bad position. Switch your attack to either positional advancement or alternative submissions. You can flatten them to side control by driving forward and stepping over, transition to back control if they try to escape laterally, or attack the near arm with a kimura grip since their hands are occupied defending the neck. The systematic response is never to force the blocked choke but to chain to whatever their defense opens."
+      },
+      {
+        "question": "How do you recover control if the opponent creates space between your chest and their back during front headlock?",
+        "answer": "Immediately follow their movement to eliminate the space before it grows. If they shrimp or hip away, step your feet to follow and re-establish chest contact. If they're lifting up, snap them back down while driving your weight forward. Never let space persist - the moment you feel their back leave your chest, that's your signal to move. The worst response is to try holding static position with arm strength while they create distance. Movement matches movement."
+      },
+      {
+        "question": "What is the relationship between hip position and submission availability from front headlock top?",
+        "answer": "Hip position directly determines which submissions are accessible. Hips high and tight against opponent's body favor guillotine attacks - you can pull guard and finish or drop for standing guillotine. Hips sprawled back and to the side favor arm-in chokes like anaconda and darce, as this position prevents the opponent from rolling through while you thread your arm. For back takes, you need mobile hips ready to step over as the opponent tries to circle away. Understanding this relationship allows you to proactively position your hips based on which attack you want to set up."
+      }
+    ]
+  },
+  "bottom": {
+    "name": "Front Headlock Bottom",
+    "description": "Escape front headlock control in BJJ. Defensive strategies for avoiding guillotines, anacondas, darces while regaining guard or standing position safely.",
+    "tags": [
+      "defensive",
+      "escape",
+      "front-headlock",
+      "intermediate",
+      "turtle-escape",
+      "head-control-defense"
+    ],
+    "overview": "Being caught in front headlock bottom is one of the most dangerous defensive positions in Brazilian Jiu-Jitsu, requiring immediate and precise defensive responses to avoid powerful submissions while working to improve position. This position occurs when your opponent has secured control of your head and neck while you're bent forward, typically on your hands and knees in turtle or during a failed takedown attempt.\n\nThe defensive challenge of front headlock bottom is threefold: you must simultaneously prevent submission completion, avoid giving up back control, and work to escape to a neutral or advantageous position. Your opponent has multiple high-percentage submission options including guillotine, anaconda, darce, and various cranks, all of which can finish quickly if not properly defended.\n\nDefensive priorities in front headlock bottom follow a clear hierarchy: first protect your neck and airway, second prevent your opponent from securing back control, and third create space to escape. Many practitioners make the fatal error of prioritizing escape over defense, leading to quick submissions during the escape attempt. You must secure your defensive frames and neck protection before attempting any positional improvement.\n\nThe biomechanics of front headlock bottom defense revolve around posture management and hand fighting. Your primary defensive tool is maintaining connection between your chin and chest, preventing your opponent from extending your neck. Your hands work to control your opponent's choking arm or create frames against their hips, preventing them from consolidating their control. Your hips must stay mobile and ready to move, as static defense in front headlock bottom rarely succeeds.\n\nModern front headlock defense has evolved significantly, particularly in the no-gi context where this position has become more prominent. Understanding common submission mechanics allows you to predict and prevent your opponent's attacks before they fully develop. For example, recognizing when your opponent is setting up an anaconda versus a guillotine changes your defensive strategy and escape options.\n\nSuccessful front headlock bottom defense requires remaining calm under pressure. This position naturally creates a feeling of vulnerability and urgency, but panicked movements typically result in either submission or back exposure. Systematic defensive responses, combined with patient opportunistic escapes, provide the highest percentage path to safety.",
+    "state_properties": {
+      "point_value": 0,
+      "position_type": "Defensive",
+      "risk_level": "High",
+      "energy_cost": "High",
+      "time_sustainability": "Short"
+    },
+    "state_invariants": [
+      "Your head and neck are controlled by opponent's arm(s), with opponent's chest driving downward pressure into your upper back and shoulders, creating bent-over posture that limits your mobility and vision while exposing you to multiple submission threats",
+      "Your torso is bent forward at the waist, typically with your hands and knees on the mat or attempting to stand with compromised posture, while opponent maintains superior position above and around your head with ability to sprawl their hips back or step around to different angles",
+      "Your chin must remain tucked tightly to your chest (defensive positioning) to prevent neck extension and submission completion, while your hands work defensively to either control opponent's choking arm, create frames against their body, or post on the mat for base and escape leverage"
+    ],
+    "prerequisites": [
+      "Opponent has secured head control with at least one arm wrapped around your head/neck",
+      "Your posture is compromised into a bent-forward position (hands and knees, bent at waist, or failing takedown)",
+      "Opponent has chest pressure driving down into your upper back, preventing easy postural recovery"
+    ],
+    "key_principles": [
+      "Chin protection is paramount - keep chin tucked to chest at all times to prevent neck extension and submission",
+      "Never stay static in front headlock bottom - must constantly work to improve position while maintaining defensive frames",
+      "Hand fight to control opponent's choking arm at the wrist or elbow, limiting their ability to tighten chokes",
+      "Create space by posting hands on opponent's hips or thighs, then circle away from their pressure",
+      "Stand up whenever possible - getting to feet removes many submission options and equalizes position",
+      "If opponent commits heavily to one submission, use their commitment to escape the opposite direction",
+      "Roll through aggressively if opponent overcommits forward - can result in reversal or guard recovery"
+    ],
+    "decision_tree": [
+      {
+        "condition": "If opponent has guillotine grip with hands locked and is pulling up on neck",
+        "actions": [
+          {
+            "technique": "Guillotine Defense - Chin Tuck and Arm Control",
+            "target": "Front Headlock",
+            "probability": 60
+          },
+          {
+            "technique": "Forward Roll Escape",
+            "target": "Turtle",
+            "probability": 30
+          }
+        ]
+      },
+      {
+        "condition": "If opponent has arm-in control (one of your arms trapped with their grip) indicating anaconda or darce setup",
+        "actions": [
+          {
+            "technique": "Circle Away from Trapped Arm Side",
+            "target": "Half Guard",
+            "probability": 50
+          },
+          {
+            "technique": "Roll Through to Guard",
+            "target": "Closed Guard",
+            "probability": 35
+          }
+        ]
+      },
+      {
+        "condition": "If opponent's weight is high and forward, attempting to flatten you to mat",
+        "actions": [
+          {
+            "technique": "Technical Stand-up",
+            "target": "Standing Position",
+            "probability": 55
+          },
+          {
+            "technique": "Granby Roll to Guard",
+            "target": "Closed Guard",
+            "probability": 40
+          }
+        ]
+      },
+      {
+        "condition": "If opponent extends their hips back in sprawl position while maintaining head control",
+        "actions": [
+          {
+            "technique": "Circle to Side and Recover Guard",
+            "target": "Half Guard",
+            "probability": 45
+          },
+          {
+            "technique": "Drive Forward and Stand",
+            "target": "Standing Position",
+            "probability": 35
+          }
+        ]
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Lifting head up or extending neck while attempting to escape",
+        "consequence": "Immediately exposes neck to guillotine, anaconda, or darce choke finish",
+        "correction": "Keep chin permanently tucked to chest throughout entire escape sequence, only lifting head after completely clearing opponent's control"
+      },
+      {
+        "error": "Staying static on hands and knees hoping opponent will give up position",
+        "consequence": "Allows opponent time to perfect their grip and weight distribution, making eventual submission inevitable",
+        "correction": "Constantly move and change levels - work to stand, circle, or roll through - never remain stationary"
+      },
+      {
+        "error": "Using both hands to push on opponent's hips or body without controlling choking arm",
+        "consequence": "Opponent has free access to lock up guillotine, anaconda, or darce without interference",
+        "correction": "Always keep one hand fighting opponent's choking arm at wrist or elbow while other hand frames or posts"
+      },
+      {
+        "error": "Attempting to pull head straight back out of opponent's control",
+        "consequence": "Plays directly into opponent's pulling force, tightening choke and wasting energy ineffectively",
+        "correction": "Escape perpendicular to opponent's force by circling to sides or rolling forward, never pulling straight back"
+      },
+      {
+        "error": "Flattening completely to mat in turtle with opponent on top",
+        "consequence": "Eliminates all mobility and escape options while giving opponent stable platform to finish chokes or take back",
+        "correction": "Maintain space between chest and mat even under heavy pressure - keep knees under hips ready to move"
+      },
+      {
+        "error": "Panicking and making large explosive movements without technical foundation",
+        "consequence": "Burns energy rapidly while creating openings for opponent to tighten choke or advance position",
+        "correction": "Stay calm and systematic - secure defensive frames first, then make measured technical escapes"
+      }
+    ],
+    "training_drills": [
+      {
+        "name": "Front Headlock Escape Positioning Drill",
+        "description": "Partner establishes front headlock control, you work solely on maintaining proper defensive positioning (chin tucked, hand fighting, mobile hips) without attempting escape. Focus on staying safe under pressure for extended periods.",
+        "duration": "3 minutes"
+      },
+      {
+        "name": "Technical Standup from Front Headlock",
+        "description": "Start in front headlock bottom, partner maintains moderate pressure. Practice standing up while keeping chin protected and one hand controlling their choking arm. Reset and repeat, increasing partner's resistance progressively.",
+        "duration": "5 minutes"
+      },
+      {
+        "name": "Front Headlock Escape Flow Drill",
+        "description": "Partner establishes front headlock, you attempt one escape technique. Whether successful or not, partner re-establishes front headlock from new position, you attempt different escape. Chain through all escape options continuously.",
+        "duration": "4 minutes"
+      },
+      {
+        "name": "Submission Defense Specific Drill",
+        "description": "Partner establishes front headlock and announces which submission they'll attempt (guillotine, anaconda, or darce). You practice specific defense for that submission while maintaining escape opportunities. Switch submissions every minute.",
+        "duration": "6 minutes"
+      }
+    ],
+    "related_content": [
+      {
+        "name": "Turtle",
+        "relationship": "Primary entry position - front headlock typically attacks turtle, requires similar defensive principles"
+      },
+      {
+        "name": "Guillotine Defense",
+        "relationship": "Specific submission defense transition essential for surviving front headlock position"
+      },
+      {
+        "name": "Technical Stand-up",
+        "relationship": "Primary escape method - standing removes most submission threats from front headlock"
+      },
+      {
+        "name": "Granby Roll to Guard",
+        "relationship": "Alternative escape method - rolling through front headlock to recover guard"
+      },
+      {
+        "name": "Half Guard",
+        "relationship": "Common recovery position after successful escape from front headlock"
+      },
+      {
+        "name": "Closed Guard",
+        "relationship": "Ideal recovery position if escape creates opportunity for full guard"
+      },
+      {
+        "name": "Back Control",
+        "relationship": "Position to prevent - front headlock often transitions to back if defense fails"
+      }
+    ],
+    "position_metrics": {
+      "retention_rate": {
+        "value": 42,
+        "description": "Percentage staying in front headlock bottom (higher means failing to escape)"
+      },
+      "advancement_probability": {
+        "value": 48,
+        "description": "Successfully escaping to neutral or better position"
+      },
+      "submission_probability": {
+        "value": 25,
+        "description": "Getting submitted from this position (opponent's success rate)"
+      },
+      "average_time": "15-45 seconds (must escape quickly or risk submission)"
+    },
+    "transitions": [
+      {
+        "transition": "Technical Stand-up",
+        "attempt_probability": 19
+      },
+      {
+        "transition": "Granby Roll to Guard",
+        "attempt_probability": 11
+      },
+      {
+        "transition": "Turtle to Guard",
+        "attempt_probability": 13
+      },
+      {
+        "transition": "Stand and Circle Away",
+        "attempt_probability": 15
+      },
+      {
+        "transition": "Roll Through to Reversal",
+        "attempt_probability": 13
+      },
+      {
+        "transition": "Arm Drag Escape",
+        "attempt_probability": 9
+      },
+      {
+        "transition": "Guillotine Defense",
+        "attempt_probability": 9
+      },
+      {
+        "transition": "Sit Through to Guard",
+        "attempt_probability": 7
+      },
+      {
+        "transition": "Hip Escape from Front Headlock",
+        "attempt_probability": 4
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the absolute first priority when you find yourself in front headlock bottom?",
+        "answer": "Protect your neck by tucking your chin tightly to your chest. This is non-negotiable and must happen before any escape attempt. The chin tuck prevents neck extension which is required for most front headlock chokes to finish. If you extend your neck while escaping, you're likely to get caught in a guillotine, anaconda, or darce. Secure the chin tuck first, then begin hand fighting and working your escape. Many practitioners get submitted because they prioritize escape over protection."
+      },
+      {
+        "question": "How should you distribute your hands defensively when trapped in front headlock bottom?",
+        "answer": "One hand must always be fighting the opponent's choking arm, controlling at the wrist or elbow to limit their ability to deepen their grip or tighten the choke. The other hand can frame against their hip, post on the mat for base, or prepare for an escape movement. Never use both hands to push their body while leaving the choking arm uncontrolled - this gives them free access to lock up submissions. The hand fighting the choking arm is your primary defensive tool after the chin tuck."
+      },
+      {
+        "question": "Your opponent is setting up an anaconda choke - you feel your arm getting trapped. What is your immediate response?",
+        "answer": "Circle away from the trapped arm side immediately. The anaconda requires your arm trapped against your neck, so moving toward that side makes the choke tighter. By circling away, you create the angle that makes it harder for them to finish while potentially extracting your trapped arm. As you circle, keep fighting the choking arm and look to recover guard or stand. If the grip is too deep to circle out, consider rolling through toward the trapped arm side to invert and potentially recover guard, though this is riskier."
+      },
+      {
+        "question": "When is the optimal time to attempt a technical standup escape from front headlock bottom?",
+        "answer": "The optimal time is when the opponent's weight shifts forward or their base narrows - typically when they're reaching to deepen a grip or transitioning between attacks. At this moment, their pressure on you temporarily lessens and their ability to follow your movement is compromised. Post your hands, explosively drive up while keeping chin tucked, and control their choking arm throughout the standup. Do not attempt the standup when they have heavy, settled pressure with wide base - in that case, work to create the opening first by hand fighting or forcing them to adjust."
+      },
+      {
+        "question": "Why is remaining static in front headlock bottom one of the worst defensive choices?",
+        "answer": "Static defense allows your opponent unlimited time to perfect their position, adjust their grips, and choose their optimal attack. Every second you stay still, they can improve their angle, deepen their choking arm, or set up a transition to back control. The front headlock is designed to be an attacking position, so a static defender will eventually succumb to submission or positional loss. Constant movement and escape attempts, even small ones, force the opponent to react rather than attack, creating windows for escape. Even failed escape attempts are better than no movement because they prevent the opponent from settling."
+      },
+      {
+        "question": "How do you defend against your opponent flattening you from front headlock to set up chokes or back take?",
+        "answer": "Maintain space between your chest and the mat at all costs. Keep your knees under your hips in a ready position rather than letting your legs extend behind you. If they drive forward, you can post with your hands and create the base needed to stand or circle. Your hips must remain mobile and ready to move. If you feel yourself getting flattened, immediately work to get your knees back under you and either stand up or circle to create angle. Once fully flattened with legs extended, your escape options become extremely limited."
+      },
+      {
+        "question": "Your opponent has loose front headlock control but you're fatigued - should you rest or continue working to escape?",
+        "answer": "Continue working to escape, but do so efficiently rather than explosively. Loose control means their submission threat is reduced, but it also represents your best opportunity to escape before they retighten. Use technical escapes rather than explosive ones to conserve energy - steady circling, methodical hand fighting, and patient positioning. Resting allows them to recover their control and energy while you remain in a dangerous position. The concept of 'resting' in front headlock bottom is largely a myth - you're burning energy just surviving, so you might as well direct that energy toward escape."
+      },
+      {
+        "question": "What is the relationship between your escape direction and the opponent's submission attempts from front headlock?",
+        "answer": "Your escape direction should generally be perpendicular to or away from their primary attack angle. For guillotines, the choke tightens if you drive into them, so circle to the sides or roll through. For anaconda, escape away from your trapped arm side. For darce, the trapped arm is opposite, so escape toward the darce side. For back takes, they typically step toward one side, so escape the opposite direction. Reading which submission they're setting up tells you which escape direction is safest. Escaping directly into their attack line is the worst choice in all scenarios."
+      }
+    ]
+  }
+}

@@ -1,0 +1,661 @@
+{
+  "name": "Seated Guard",
+  "slug": "seated-guard",
+  "description": "Master Seated Guard in BJJ. Complete guide covering entries, transitions, and technical standups. Versatile open guard with 50% sweep success at intermediate level.",
+  "variant_uniqueness": "Upright posture with posted hands enables standups",
+  "overview": "Seated Guard is an upright open guard position where you sit on the mat with your hips on the ground, hands posted behind you for base, and legs extended or bent toward your opponent. This position provides a stable base with excellent mobility and the ability to quickly transition to standing or other guard positions. Unlike closed guard or butterfly guard, Seated Guard maintains maximum freedom of leg movement for distance management and attacks.\n\nThe strategic value of Seated Guard lies in its versatility and ease of entry/exit. It's commonly used as a transitional position when guard is opened, when recovering from guard pass attempts, or when opponent stands to create distance. The position allows you to control engagement distance with your feet while maintaining the option to stand up at any moment, making it difficult for opponents to commit fully to passing attempts.\n\nSeated Guard works best when opponent is standing or on knees with distance, but becomes vulnerable if opponent gets chest-to-chest pressure or establishes strong control grips. The position requires active movement and timing - staying static allows opponent to pass. Most effective for practitioners comfortable with wrestling-style attacks and technical standups. This dual-perspective position demonstrates how the same physical arrangement creates vastly different tactical situations depending on whether you're sitting (bottom) or standing over opponent (top).",
+  "key_principles": [
+    "Seated Guard is transitional not static - constant movement required",
+    "Posted hands create stable yet mobile base for offense and defense",
+    "Distance management through active feet determines success",
+    "Technical standup option forces opponent caution and respect",
+    "Hip mobility differentiates seated guard from closed guard mechanics",
+    "Attack timing depends on opponent weight shifts and postural changes"
+  ],
+  "related_positions": [
+    {
+      "name": "Butterfly Guard",
+      "relationship": "Natural progression by inserting hooks when opponent close"
+    },
+    {
+      "name": "Standing Guard",
+      "relationship": "Natural progression by standing up from seated"
+    },
+    {
+      "name": "Single Leg X-Guard",
+      "relationship": "Common entry from seated guard when opponent steps forward"
+    },
+    {
+      "name": "X-Guard",
+      "relationship": "Related guard variation with similar entries"
+    },
+    {
+      "name": "Open Guard",
+      "relationship": "Parent category position, seated guard is specific type"
+    }
+  ],
+  "top": {
+    "name": "Seated Guard Top",
+    "description": "Master passing Seated Guard in BJJ. Strategic guide covering distance management, grip control, and passing sequences. 55% pass success at advanced level.",
+    "tags": [
+      "bjj",
+      "position",
+      "guard-passing",
+      "open-guard",
+      "fundamental",
+      "seated",
+      "distance-management",
+      "top"
+    ],
+    "overview": "Seated Guard Top position places you standing or on your knees facing an opponent who is sitting upright with hands posted behind them and legs extended toward you. This position requires careful distance management and grip fighting to prevent opponent from standing up or entering leg entanglements. Unlike closed guard or butterfly guard top positions, you must respect opponent's ability to instantly transition to standing, making aggressive pressure passing dangerous.\n\nThe strategic challenge of passing Seated Guard lies in controlling opponent's mobility while avoiding their sweeps and leg attacks. Your opponent has excellent base and can quickly redirect their legs to push, pull, or entangle. The posted hands give them structural support and enable technical standups, so you cannot simply bull rush forward. Instead, you must use grip fighting to limit their options and choose passing angles that minimize their ability to use their legs effectively.\n\nSeated Guard Top works best when you establish dominant grips (collar, sleeves, or pants) before closing distance. Maintaining standing posture gives you mobility to avoid sweeps but leaves you vulnerable to ankle picks and single leg attacks. Dropping to knees provides more pressure but allows opponent to insert butterfly hooks or transition to other guards. Most effective strategy involves constant stance switching and angle changes to keep opponent guessing while systematically limiting their offensive options.",
+    "state_properties": {
+      "point_value": 0,
+      "position_type": "Offensive",
+      "risk_level": "Medium",
+      "energy_cost": "Medium",
+      "time_sustainability": "Medium"
+    },
+    "state_invariants": [
+      "Standing or kneeling position facing opponent who is seated upright with posted hands and active legs, maintaining athletic stance with knees bent and hips mobile for quick direction changes",
+      "Maintaining distance awareness to prevent opponent's feet from pushing your hips or controlling your legs, typically staying just outside their maximum leg reach until ready to engage",
+      "Grip fighting to establish control on opponent's sleeves, collar, or pants before advancing position, with at least one dominant grip secured before closing distance",
+      "Posture management to avoid being pulled down into opponent's closed guard or butterfly guard, keeping spine aligned and head position above hips at all times",
+      "Angle management to stay outside opponent's centerline where their legs have less leverage, typically positioning at 45-degree angles rather than directly in front"
+    ],
+    "prerequisites": [
+      "Opponent in seated guard position with hands posted and legs extended",
+      "Ability to maintain standing or kneeling posture without being swept",
+      "Understanding of distance management to stay outside opponent's optimal attack range",
+      "Grip fighting skills to establish dominant control",
+      "Awareness of opponent's technical standup threat"
+    ],
+    "key_principles": [
+      "Distance Control First: Establish grips and control opponent's legs before closing distance to prevent sweeps",
+      "Respect the Standup: Opponent can stand instantly, so maintain posture and grip control to prevent this",
+      "Angle Over Pressure: Passing from angles prevents opponent from using their legs effectively against you",
+      "Grip Before Advance: Never advance position without establishing dominant grips first",
+      "Stance Switching: Alternate between standing and kneeling to keep opponent guessing and prevent them from timing attacks",
+      "Leg Control Priority: Control at least one of opponent's legs before attempting to pass to prevent their mobility"
+    ],
+    "decision_tree": [
+      {
+        "condition": "If opponent has no grips and legs are extended defensively",
+        "actions": [
+          {
+            "technique": "Toreando Pass",
+            "target": "Side Control",
+            "probability": 65
+          },
+          {
+            "technique": "Long Step Pass",
+            "target": "Side Control",
+            "probability": 55
+          },
+          {
+            "technique": "Leg Drag Pass",
+            "target": "Side Control",
+            "probability": 60
+          }
+        ]
+      },
+      {
+        "condition": "If opponent establishes sleeve or collar grips",
+        "actions": [
+          {
+            "technique": "Grip Break",
+            "target": "Seated Guard Top",
+            "probability": 70
+          },
+          {
+            "technique": "Knee Slice Pass",
+            "target": "Side Control",
+            "probability": 50
+          },
+          {
+            "technique": "Stack Pass",
+            "target": "Side Control",
+            "probability": 45
+          }
+        ]
+      },
+      {
+        "condition": "If opponent attempts to stand or technical standup",
+        "actions": [
+          {
+            "technique": "Snap Down",
+            "target": "Front Headlock",
+            "probability": 60
+          },
+          {
+            "technique": "Toreando Pass",
+            "target": "Side Control",
+            "probability": 55
+          },
+          {
+            "technique": "Bodylock Pass",
+            "target": "Side Control",
+            "probability": 50
+          }
+        ]
+      },
+      {
+        "condition": "If opponent tries to insert butterfly hooks or enter leg entanglements",
+        "actions": [
+          {
+            "technique": "Knee Slice Pass",
+            "target": "Side Control",
+            "probability": 60
+          },
+          {
+            "technique": "Smash Pass",
+            "target": "Side Control",
+            "probability": 50
+          },
+          {
+            "technique": "Long Step Pass",
+            "target": "Side Control",
+            "probability": 55
+          }
+        ]
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Rushing Forward Without Grip Control",
+        "consequence": "Opponent easily sweeps you, takes your back, or enters leg entanglements. You give away superior position by being impatient.",
+        "correction": "Establish dominant grips first - control sleeves, collar, or pants before advancing. Think grip first, pressure second. Should never feel like opponent's legs are free to attack while you're entering."
+      },
+      {
+        "error": "Staying Too Static in One Stance",
+        "consequence": "Opponent times their attacks perfectly, hitting sweeps or standups consistently. Your predictable positioning makes their offense easy.",
+        "correction": "Constantly switch between standing and kneeling. Change angles frequently. Make opponent guess where you'll be next. Movement disrupts their timing and makes their attacks less effective."
+      },
+      {
+        "error": "Ignoring Technical Standup Threat",
+        "consequence": "Opponent stands up freely, resetting the position or taking top position themselves. You lose any passing advantage gained.",
+        "correction": "Maintain grips that prevent standup - particularly collar or sleeve control. When opponent tries to stand, immediately attack with snap down or bodylock pass."
+      },
+      {
+        "error": "Walking Into Sweeps with Bad Posture",
+        "consequence": "Opponent's scissor sweep, tripod sweep, or butterfly sweep succeeds easily due to your poor balance and positioning.",
+        "correction": "Maintain upright posture with good base. Don't lean forward over opponent. Keep weight distributed evenly. Feel opponent's legs as early warning system for sweeps."
+      },
+      {
+        "error": "Allowing Both Your Ankles to Be Controlled",
+        "consequence": "Opponent enters ankle picks, single leg X, or other leg attacks that compromise your passing. You become defensive instead of offensive.",
+        "correction": "Keep at least one foot out of opponent's grip range at all times. When one ankle is grabbed, immediately circle away and establish control with that leg. Never let both legs get trapped."
+      },
+      {
+        "error": "Passing Without Angle",
+        "consequence": "Opponent's legs create strong defensive frames, blocking your pass attempts. Their legs have maximum leverage against your straight-on pressure.",
+        "correction": "Circle to angles outside opponent's centerline. Pass from 45-degree angles where their legs can't effectively frame. Think around, not through."
+      },
+      {
+        "error": "Dropping Weight Too Early",
+        "consequence": "Opponent inserts butterfly hooks, closes guard, or transitions to better guards before you've secured passing position.",
+        "correction": "Only drop weight when you've cleared opponent's legs and are moving to consolidation. Maintain standing or kneeling posture until the last moment of pass completion."
+      }
+    ],
+    "training_drills": [
+      {
+        "name": "Grip Fighting from Seated Guard Top",
+        "description": "Partner starts in seated guard. You stand or kneel and attempt to establish dominant grips (collar, sleeves, pants). Partner fights grips and tries to stand. Focus on winning grip battles and preventing technical standups. Reset when pass is achieved or opponent stands.",
+        "duration": "3 minutes"
+      },
+      {
+        "name": "Distance Management Drill",
+        "description": "Partner in seated guard attempts to touch your hips or control your ankles with their feet. You maintain distance using footwork and grip control. Partner scores when they successfully control your lower body. You score when you establish dominant passing grips.",
+        "duration": "2 minutes"
+      },
+      {
+        "name": "Stance Switching Pass Drill",
+        "description": "Pass seated guard while alternating between standing and kneeling every 10-15 seconds. Partner provides progressive resistance. Focus on smooth transitions between stances while maintaining pressure and grip control. Emphasizes adaptability.",
+        "duration": "5 minutes"
+      },
+      {
+        "name": "Angle Passing Flow",
+        "description": "Start standing over seated guard. Flow through toreando, leg drag, and long step passes, always attacking from angles (never straight forward). Partner provides light resistance. Focus on circling movement and angle creation.",
+        "duration": "5 minutes"
+      },
+      {
+        "name": "Seated Guard Top Positional Sparring",
+        "description": "Start with you standing/kneeling and partner in seated guard. Attempt to pass. Partner defends, sweeps, or stands. Reset when pass is completed or opponent achieves sweep/standup. Full resistance. Focus on implementing grip control and angle passing concepts.",
+        "duration": "5 minutes"
+      }
+    ],
+    "related_content": [
+      {
+        "name": "Toreando Pass",
+        "relationship": "Primary passing technique against seated guard"
+      },
+      {
+        "name": "Knee Slice Pass",
+        "relationship": "Effective pass when opponent tries to insert hooks"
+      },
+      {
+        "name": "Long Step Pass",
+        "relationship": "Pressure-based pass effective against seated opponents"
+      },
+      {
+        "name": "Leg Drag Pass",
+        "relationship": "Angle-based pass effective against extended legs"
+      },
+      {
+        "name": "Front Headlock",
+        "relationship": "Counter position when opponent attempts standup"
+      },
+      {
+        "name": "Side Control",
+        "relationship": "Target position after successful pass"
+      },
+      {
+        "name": "Headquarters Position",
+        "relationship": "Intermediate control position during passing"
+      },
+      {
+        "name": "Combat Base",
+        "relationship": "Kneeling stance option for passing approach"
+      }
+    ],
+    "position_metrics": {
+      "retention_rate": {
+        "value": 68
+      },
+      "advancement_probability": {
+        "value": 62
+      },
+      "submission_probability": {
+        "value": 30
+      },
+      "average_time": "30-90 seconds"
+    },
+    "transitions": [
+      {
+        "transition": "Toreando Pass",
+        "attempt_probability": 38
+      },
+      {
+        "transition": "Knee Slice Pass",
+        "attempt_probability": 12
+      },
+      {
+        "transition": "Long Step Pass",
+        "attempt_probability": 11
+      },
+      {
+        "transition": "Leg Drag Pass",
+        "attempt_probability": 12
+      },
+      {
+        "transition": "Stack Pass",
+        "attempt_probability": 11
+      },
+      {
+        "transition": "Smash Pass",
+        "attempt_probability": 10
+      },
+      {
+        "transition": "Bodylock Pass from Seated",
+        "attempt_probability": 4
+      },
+      {
+        "transition": "Bull Pass from Seated",
+        "attempt_probability": 1
+      },
+      {
+        "transition": "Knee Slice from Seated Guard",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Toreando Pass from Seated Guard",
+        "attempt_probability": 1
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the primary risk when approaching a seated guard player without establishing grips first?",
+        "answer": "Approaching without grips allows the opponent to freely attack with sweeps, enter leg entanglements like Single Leg X-Guard, or execute a technical standup. Their legs remain uncontrolled and can push, hook, or entangle you. The seated player has excellent base from their posted hands, so they can react offensively to any uncommitted approach. Always establish at least one dominant grip (collar, sleeve, or pants) before closing distance."
+      },
+      {
+        "question": "Why is stance switching between standing and kneeling important when passing seated guard?",
+        "answer": "Stance switching disrupts the opponent's timing and prevents them from calibrating their attacks. When you stay static in one stance, they can time sweeps, standups, and entries perfectly. Standing gives mobility but exposes you to ankle picks; kneeling provides pressure but allows hook insertion. By constantly alternating, you keep the opponent guessing and force them to constantly readjust their offensive timing."
+      },
+      {
+        "question": "Your opponent in seated guard starts to execute a technical standup - what is the optimal counter?",
+        "answer": "The optimal counter is a snap down to front headlock position. As they rise to stand, their head becomes exposed and they momentarily compromise their base. By snapping their head down with a collar or head tie, you can establish front headlock control which offers guillotine and go-behind opportunities. Alternatively, a quick toreando pass or bodylock can capitalize on their weight shift during the standup attempt."
+      },
+      {
+        "question": "What angle should you approach from when passing seated guard, and why?",
+        "answer": "Approach from 45-degree angles outside the opponent's centerline rather than directly in front. When you pass straight forward, their legs have maximum leverage to frame, push, and create distance. From the angle, their legs cannot generate the same power to resist, and you can redirect their leg defense while advancing to the side. Think of going around their leg defense rather than through it."
+      },
+      {
+        "question": "How do you prevent an opponent from inserting butterfly hooks as you drop your weight to pass?",
+        "answer": "The key is timing - only drop weight after you've cleared or controlled their legs. Maintain standing or kneeling posture until you've established a clear passing angle and leg control. If they try to insert hooks, immediately use knee slice or long step to cut through before hooks are fully established. Control at least one of their legs with your hands to limit their ability to create hook position."
+      },
+      {
+        "question": "What grip combination provides the best control for preventing both sweeps and technical standups from seated guard?",
+        "answer": "A collar grip combined with same-side pants or sleeve control provides excellent control. The collar grip prevents them from sitting up for technical standup and breaks their posture. The pants/sleeve grip limits their leg mobility for sweeps. This combination allows you to pull them off-balance while controlling their primary offensive tools. Some practitioners prefer double pants grips for maximum leg control before establishing upper body control."
+      },
+      {
+        "question": "Your opponent grabs both your ankles while you're standing over their seated guard - what is the correct response?",
+        "answer": "Immediately circle one foot free while maintaining posture - never allow both ankles to remain controlled. As you free one leg, use that freedom to establish a controlling grip on their collar or pants. If they commit fully to ankle control, their upper body becomes vulnerable to collar drags and snap downs. The worst response is to stand still or try to advance with both ankles controlled, as this invites ankle picks and single leg X entries."
+      },
+      {
+        "question": "When is it appropriate to fully commit your weight forward during a seated guard pass?",
+        "answer": "Only commit full weight forward after you've cleared the opponent's legs and are moving into consolidation position. Premature weight commitment while their legs are still active allows them to insert hooks, close guard, or use your forward momentum for sweeps. The correct sequence is: establish grips, create angle, control legs, clear leg defense, then drop weight for consolidation. If you feel their legs are still threatening, maintain mobility instead of committing."
+      }
+    ]
+  },
+  "bottom": {
+    "name": "Seated Guard Bottom",
+    "description": "Master Seated Guard Bottom in BJJ. Upright open guard with posted hands, 75% technical standup success at advanced level. Complete defensive and offensive guide.",
+    "tags": [
+      "bjj",
+      "position",
+      "guard",
+      "open-guard",
+      "fundamental",
+      "seated",
+      "distance-management",
+      "bottom"
+    ],
+    "overview": "Seated Guard Bottom is an upright open guard position where you sit on the mat with your hips on the ground, hands posted behind you for base, and legs extended or bent toward your opponent. This position provides a stable base with excellent mobility and the ability to quickly transition to standing or other guard positions. Unlike closed guard or butterfly guard, Seated Guard maintains maximum freedom of leg movement for distance management and attacks.\n\nThe strategic value of Seated Guard lies in its versatility and ease of entry/exit. It's commonly used as a transitional position when guard is opened, when recovering from guard pass attempts, or when opponent stands to create distance. The position allows you to control engagement distance with your feet while maintaining the option to stand up at any moment, making it difficult for opponents to commit fully to passing attempts.\n\nSeated Guard works best when opponent is standing or on knees with distance, but becomes vulnerable if opponent gets chest-to-chest pressure or establishes strong control grips. The position requires active movement and timing - staying static allows opponent to pass. Most effective for practitioners comfortable with wrestling-style attacks and technical standups.",
+    "state_properties": {
+      "point_value": 0,
+      "position_type": "Defensive with offensive options",
+      "risk_level": "Medium",
+      "energy_cost": "Low",
+      "time_sustainability": "Medium"
+    },
+    "state_invariants": [
+      "Hips positioned flat on the mat with buttocks making full contact with ground, providing stable seated base from which to move",
+      "Hands posted behind torso approximately shoulder-width apart, fingers pointing away from body, elbows slightly bent to create spring-like structural support",
+      "Legs extended or bent toward opponent with feet active and mobile, maintaining ability to push, pull, or hook opponent's legs and hips",
+      "Upper body upright with chest forward and head up, creating active posture rather than passive seated position",
+      "Weight distributed through hips and hands in tripod formation, allowing quick lateral movement and ability to elevate hips off mat when needed"
+    ],
+    "prerequisites": [
+      "Opponent standing or on knees with some distance from your torso",
+      "Ability to post hands behind body for base support",
+      "Freedom of leg movement without opponent controlling both legs",
+      "Space to sit up from lying position or transition from other guard",
+      "No strong chest-to-chest pressure from opponent"
+    ],
+    "key_principles": [
+      "Active Base Maintenance: Posted hands provide stability but must allow movement - rigid base limits mobility, too loose base allows opponent to flatten you",
+      "Distance Management: Feet actively control spacing - too close allows chest pressure, too far limits offensive options",
+      "Ready to Stand: Mental and physical preparedness to technical standup at any moment forces opponent caution",
+      "Hip Mobility Priority: Unlike closed guard, seated guard requires constant hip adjustment to keep opponent off-balance",
+      "Frame Before Grip: When opponent closes distance, establish frames with feet before they secure control grips",
+      "Attack Timing: Seated Guard attacks rely on opponent's movement and balance - watch for weight shifts and postural changes"
+    ],
+    "decision_tree": [
+      {
+        "condition": "If opponent maintains distance and stays standing with upright posture",
+        "actions": [
+          {
+            "technique": "Technical Stand-up",
+            "target": "Standing Position",
+            "probability": 70
+          },
+          {
+            "technique": "Single Leg X Entry",
+            "target": "Single Leg X-Guard",
+            "probability": 55
+          },
+          {
+            "technique": "Ankle Pick",
+            "target": "Side Control",
+            "probability": 45
+          }
+        ]
+      },
+      {
+        "condition": "If opponent steps forward to close distance or attempt pass",
+        "actions": [
+          {
+            "technique": "Scissor Sweep",
+            "target": "Mount",
+            "probability": 55
+          },
+          {
+            "technique": "Tripod Sweep",
+            "target": "Side Control",
+            "probability": 50
+          },
+          {
+            "technique": "Butterfly Sweep",
+            "target": "Mount",
+            "probability": 50
+          }
+        ]
+      },
+      {
+        "condition": "If opponent drops to knees and attempts to establish control grips",
+        "actions": [
+          {
+            "technique": "Butterfly Sweep",
+            "target": "Mount",
+            "probability": 60
+          },
+          {
+            "technique": "X-Guard Sweep",
+            "target": "Mount",
+            "probability": 50
+          },
+          {
+            "technique": "Technical Stand-up",
+            "target": "Standing Position",
+            "probability": 65
+          }
+        ]
+      },
+      {
+        "condition": "If opponent establishes chest-to-chest pressure",
+        "actions": [
+          {
+            "technique": "Shrimp Escape",
+            "target": "Half Guard",
+            "probability": 55
+          },
+          {
+            "technique": "Hip Escape",
+            "target": "Half Guard",
+            "probability": 50
+          },
+          {
+            "technique": "Frame and Shrimp",
+            "target": "Butterfly Guard",
+            "probability": 45
+          }
+        ]
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Staying Static in Seated Position",
+        "consequence": "Opponent easily establishes grips and controls your legs, passing becomes straightforward. Position loses its defensive and offensive value.",
+        "correction": "Constantly adjust hip position - small movements side to side, forward and back. Keep opponent guessing and prevent static control. If opponent seems comfortable and slowly advancing position, you're too static. Should feel like you're always adjusting."
+      },
+      {
+        "error": "Posting Hands Too Narrow or Too Wide",
+        "consequence": "Weak base allows opponent to flatten you to back, losing seated position advantage. Cannot generate power for sweeps.",
+        "correction": "Post hands slightly wider than shoulders, fingers pointing away, elbows slightly bent like springs. Engage lats for structural support. Test your base by having partner push you lightly - should feel stable but mobile."
+      },
+      {
+        "error": "Letting Opponent Control Both Legs Simultaneously",
+        "consequence": "Loss of mobility and distance control. Opponent can stack you, pass easily, or establish dominant grips without resistance.",
+        "correction": "Always keep at least one leg free and active. If opponent grabs one leg, immediately use other leg to push, frame, or attack. Think of legs as independent defensive and offensive tools."
+      },
+      {
+        "error": "Passive Feet - Not Using Them to Manage Distance",
+        "consequence": "Opponent closes distance at will, establishes pressure, and passes without encountering resistance. Seated guard becomes purely defensive.",
+        "correction": "Actively push, pull, and frame with feet. Use them as probes to feel opponent's weight distribution and as barriers to prevent advancement. Feet should constantly be working."
+      },
+      {
+        "error": "Failing to Stand When Appropriate",
+        "consequence": "Missing escape opportunities and allowing opponent to settle into passing game. Position becomes increasingly difficult to maintain.",
+        "correction": "Recognize when standing is best option - typically when opponent commits to standing passes or when you need to reset. Practice technical standups until they become automatic reflex."
+      },
+      {
+        "error": "Leaning Too Far Back on Posted Hands",
+        "consequence": "Creates weak angle that allows opponent to drive over you. Reduces ability to quickly change levels or stand up.",
+        "correction": "Maintain upright posture with chest forward and shoulders over hips. Think of posted hands as support, not primary base. Should be able to lift one hand briefly without collapsing."
+      },
+      {
+        "error": "Not Establishing Grips When Opponent Enters Range",
+        "consequence": "Opponent controls the gripping exchange and establishes dominant control before you can react. Limits your offensive options.",
+        "correction": "When opponent enters range, immediately establish grips on sleeves, pants, or ankles. Don't wait for perfect opportunity - establish any grip to slow opponent's advancement and create offensive possibilities."
+      }
+    ],
+    "training_drills": [
+      {
+        "name": "Seated Guard Movement Drill",
+        "description": "Partner stands and slowly walks around you in circle. Maintain seated guard while pivoting on hips to face them, keeping constant distance with feet. Focus on smooth hip movement and active base maintenance. Progress to partner making sudden direction changes.",
+        "duration": "3-5 minutes"
+      },
+      {
+        "name": "Technical Standup Repetitions",
+        "description": "Start in seated guard. Partner stands at distance. Execute technical standup, return to seated guard, repeat. Focus on smooth transition from seated to standing while maintaining defensive posture. Progress to partner attempting to prevent standup with grip fighting.",
+        "duration": "5 minutes"
+      },
+      {
+        "name": "Seated Guard to Sweep Flow Drill",
+        "description": "Partner starts standing or on knees. Flow through different sweep entries from seated guard: scissor sweep, tripod sweep, butterfly sweep, single leg X. Partner provides progressive resistance. Focus on recognizing timing windows and weight distribution cues.",
+        "duration": "5-7 minutes"
+      },
+      {
+        "name": "Distance Control Game",
+        "description": "Start in seated guard with partner standing. Partner tries to establish grips and close distance. You prevent using only feet and legs (no grips). Focus on using feet as active frames and distance management tools. Score point when opponent gets chest-to-chest pressure.",
+        "duration": "2 minutes"
+      },
+      {
+        "name": "Seated Guard Positional Sparring",
+        "description": "Start in seated guard. Partner attempts to pass. You defend and look for sweeps or technical standups. Reset if pass is successful or sweep/standup achieved. Focus on maintaining active movement and recognizing transition opportunities.",
+        "duration": "5 minutes"
+      }
+    ],
+    "related_content": [
+      {
+        "name": "Open Guard",
+        "relationship": "Parent category position, seated guard is specific type"
+      },
+      {
+        "name": "Butterfly Guard",
+        "relationship": "Natural progression by inserting hooks when opponent close"
+      },
+      {
+        "name": "Standing Guard",
+        "relationship": "Natural progression by standing up from seated"
+      },
+      {
+        "name": "Single Leg X-Guard",
+        "relationship": "Common entry from seated guard when opponent steps forward"
+      },
+      {
+        "name": "X-Guard",
+        "relationship": "Related guard variation with similar entries"
+      },
+      {
+        "name": "Technical Stand-up",
+        "relationship": "Primary escape and transition technique from seated guard"
+      },
+      {
+        "name": "Scissor Sweep",
+        "relationship": "High-percentage sweep from seated guard"
+      },
+      {
+        "name": "De La Riva Guard",
+        "relationship": "Alternative guard when opponent stands with leg forward"
+      },
+      {
+        "name": "Shin-to-Shin Guard",
+        "relationship": "Transitional guard connecting seated to leg entanglements"
+      }
+    ],
+    "position_metrics": {
+      "retention_rate": {
+        "value": 60
+      },
+      "advancement_probability": {
+        "value": 60
+      },
+      "submission_probability": {
+        "value": 42
+      },
+      "average_time": "20-60 seconds"
+    },
+    "transitions": [
+      {
+        "transition": "Technical Stand-up",
+        "attempt_probability": 12
+      },
+      {
+        "transition": "Butterfly Sweep",
+        "attempt_probability": 11
+      },
+      {
+        "transition": "Scissor Sweep",
+        "attempt_probability": 12
+      },
+      {
+        "transition": "Single Leg X Entry",
+        "attempt_probability": 11
+      },
+      {
+        "transition": "Ankle Pick",
+        "attempt_probability": 10
+      },
+      {
+        "transition": "Tripod Sweep",
+        "attempt_probability": 11
+      },
+      {
+        "transition": "X-Guard Sweep",
+        "attempt_probability": 11
+      },
+      {
+        "transition": "Lumberjack Sweep",
+        "attempt_probability": 11
+      },
+      {
+        "transition": "Foot Grab Sweep",
+        "attempt_probability": 11
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the optimal hand posting position for maintaining seated guard, and why does it matter?",
+        "answer": "Post hands slightly wider than shoulder-width apart, fingers pointing away from body, elbows slightly bent like springs. This creates a stable tripod base with your hips while allowing mobility. Too narrow collapses under pressure, too wide limits your ability to move laterally. The slight elbow bend creates a spring-like structure that absorbs pressure without collapsing, while engaging your lats provides additional structural support."
+      },
+      {
+        "question": "Your opponent is standing at distance without committing to pass - what is the best tactical response?",
+        "answer": "When opponent maintains distance without engaging, the technical standup is often the highest-percentage response. You have space to stand safely, and standing resets the position to neutral where you can re-engage on equal terms or shoot takedowns. Alternatively, you can scoot forward to force engagement, but this requires reading their reaction. A passive opponent at distance is an opportunity to improve your position."
+      },
+      {
+        "question": "How should your feet function in seated guard, and what happens if they become passive?",
+        "answer": "Your feet should actively manage distance by pushing, pulling, framing, and probing. They detect opponent's weight distribution and act as barriers to prevent advancement. Active feet push on hips to maintain space, hook ankles for sweep setups, and frame against knees to prevent passes. Passive feet allow opponent to close distance at will, establish pressure, and pass without meaningful resistance. The difference between good and poor seated guard is primarily foot activity."
+      },
+      {
+        "question": "Opponent steps forward aggressively - what sweep options become available and why?",
+        "answer": "When opponent steps forward, their weight shifts onto their lead leg, compromising their base. This opens scissor sweep (catch stepping leg with your shin while driving with other leg), tripod sweep (feet on hip and ankle while pulling their sleeve), and butterfly sweep (insert hook and elevate as their weight commits forward). The key is recognizing the weight shift and attacking during the transition when their base is weakest."
+      },
+      {
+        "question": "What is the correct response when opponent achieves chest-to-chest pressure in seated guard?",
+        "answer": "Once chest-to-chest pressure is established, seated guard has failed - you must immediately transition. Frame with forearms or elbows against their shoulders/chest to create space, then shrimp your hips away to recover half guard or butterfly guard. The key is not to accept the pressure but to immediately work to recover a more defensible position. Trying to maintain seated guard under chest pressure is futile and leads to getting passed."
+      },
+      {
+        "question": "Why is constant hip movement essential in seated guard, and what should this movement look like?",
+        "answer": "Constant hip adjustment prevents opponent from establishing static control and timing their passes. Movement should include small lateral shifts, forward scoots to close distance for attacks, and backward movements to create space. You should always be micro-adjusting based on opponent's positioning. If opponent seems comfortable and is slowly advancing their position, you're too static. The movement makes it impossible for them to time grips and passes precisely."
+      },
+      {
+        "question": "When opponent controls one of your legs, what is the correct defensive response?",
+        "answer": "Immediately activate your free leg as both a defensive and offensive tool. The free leg can push on their hip to create distance, frame against their knee to prevent advancement, hook their ankle for sweep attempts, or set up Single Leg X-Guard entry. Never allow both legs to be controlled simultaneously. Think of your legs as independent systems - when one is compromised, the other compensates. The worst response is to try to free the controlled leg while leaving the other passive."
+      },
+      {
+        "question": "What visual cues indicate it's time to execute a technical standup rather than stay in seated guard?",
+        "answer": "Execute technical standup when: opponent commits to standing passes and is focused on leg control rather than pressure; when you've created enough distance that they can't immediately close; when opponent hesitates or resets their position; when grip fighting has stalemated and neither has dominant control; or when you need to reset after a near-pass. The key cue is space - if you have room to stand without opponent immediately driving into you, the standup is available."
+      }
+    ]
+  }
+}

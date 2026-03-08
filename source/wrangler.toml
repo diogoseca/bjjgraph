@@ -7,10 +7,6 @@ compatibility_date = "2024-01-01"
 # Pages configuration
 pages_build_output_dir = "public"
 
-# Environment variables (non-sensitive defaults)
-[vars]
-POSTHOG_API_HOST = "https://us.i.posthog.com"
-
 # Production environment
 [env.production]
 name = "bjjgraph-production"

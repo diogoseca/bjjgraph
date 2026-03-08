@@ -1,0 +1,392 @@
+{
+  "name": "Mount to 3-4 Mount",
+  "description": "Master the Transition to 3-4 Mount from standard mount. Learn asymmetric leg repositioning, weight shifting mechanics, and setup conditions for this BJJ mount variation.",
+  "tags": [
+    "bjj",
+    "mount",
+    "positional advancement",
+    "mount variation",
+    "top control",
+    "weight distribution",
+    "asymmetric mount"
+  ],
+  "from_position": "Mount/Top",
+  "outcomes": [
+    {
+      "to": "3-4 Mount/Top",
+      "probability": 70,
+      "result": "success"
+    },
+    {
+      "to": "Mount/Top",
+      "probability": 20,
+      "result": "failure"
+    },
+    {
+      "to": "Half Guard/Bottom",
+      "probability": 10,
+      "result": "counter"
+    }
+  ],
+  "success_rate": 65,
+  "overview": "The Transition to 3-4 Mount is a positional adjustment from standard mount where the top player extracts one leg from the traditional mount configuration and posts it outside the opponent's body, creating an asymmetric three-quarter contact pattern. This transition converts the bilateral symmetry of standard mount into a directional control platform optimized for specific submission entries and positional advancements. The movement itself is deceptively simple—pulling one knee out and posting the foot—but executing it without creating escape windows requires precise timing, weight management, and understanding of when the asymmetric configuration provides tactical advantage over standard mount.\n\nStrategically, this transition serves as a gateway to the mount variation hierarchy. The 3-4 Mount configuration provides superior mobility for flowing into S-mount armbar attacks, technical mount back takes, and high mount collar work compared to standard mount where both legs are committed inside. The posted leg creates a dynamic base that resists bridging on one side while enabling rapid weight shifts to the other. Practitioners who develop fluency in this transition gain access to branching attack trees that are slower or impossible to reach from symmetrical mount.\n\nThe transition is most effective when the opponent is actively defending submissions from standard mount, particularly when they bring elbows tight or begin framing on one side. Their defensive commitment creates predictable weight distribution that the top player exploits by shifting to the asymmetric configuration on the opposite side. Conversely, attempting this transition against a passive opponent who is not yet framing wastes the positional advantage of settled mount pressure. The key tactical decision is recognizing when the trade-off between standard mount stability and 3-4 Mount mobility favors the transition based on the opponent's current defensive posture.",
+  "conditions": [
+    "Established mount position with stable base and hip pressure on opponent's torso",
+    "Opponent actively defending or framing on one side, creating directional commitment",
+    "Top player has at least one grip or underhook established to maintain control during leg extraction",
+    "Opponent's hips are controlled and unable to generate immediate bridging power during transition window"
+  ],
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Grip-First 3-4 Entry",
+      "description": "Establish a dominant collar grip or crossface before extracting the leg. The grip prevents the opponent from turning into you during the transition and provides an anchor point that maintains pressure even as your base temporarily narrows during the leg extraction.",
+      "when_to_use": "When opponent has strong frames and you need additional control before changing your base configuration"
+    },
+    {
+      "variant_name": "Reaction-Based 3-4 Entry",
+      "description": "Threaten a submission from standard mount to force a defensive reaction, then transition to 3-4 Mount on the opposite side as the opponent commits their arms to defense. The submission threat freezes their hips while their arm movement creates the opening for leg extraction.",
+      "when_to_use": "Against experienced defenders who immediately exploit any base change—the submission threat occupies their attention during the transition"
+    },
+    {
+      "variant_name": "Hip Switch 3-4 Entry",
+      "description": "From low mount, shift hips laterally toward one side while simultaneously extracting the opposite leg to post. This lateral hip movement drives weight into the opponent's diaphragm on the mounted side while the posting leg establishes the asymmetric base in a single coordinated movement.",
+      "when_to_use": "When opponent is flat and passive, allowing you to use hip movement rather than grip establishment to initiate the transition"
+    }
+  ],
+  "position_integration": "The Transition to 3-4 Mount occupies a critical junction in the mount variation hierarchy, connecting standard mount to the full spectrum of asymmetric mount attacks. From 3-4 Mount, practitioners can advance to S-mount for armbar finishing, technical mount for back control, or high mount for collar attacks—each pathway requiring specific opponent reactions to become available. This transition also functions defensively: when an opponent begins a strong hip escape on one side, shifting to 3-4 Mount on the opposite side converts their escape energy into your positional advantage. Mastery of this transition transforms mount from a static control position into a dynamic attacking platform where positional adjustments and submission threats flow continuously.",
+  "related_content": [
+    {
+      "name": "Mount",
+      "relationship": "Starting position from which 3-4 Mount transition is initiated"
+    },
+    {
+      "name": "3-4 Mount",
+      "relationship": "Target position achieved on successful transition"
+    },
+    {
+      "name": "S Mount",
+      "relationship": "Common advancement from 3-4 Mount for armbar attacks"
+    },
+    {
+      "name": "Technical Mount",
+      "relationship": "Alternative advancement when opponent turns away from 3-4 Mount pressure"
+    },
+    {
+      "name": "High Mount",
+      "relationship": "Alternative mount variation accessible from 3-4 configuration"
+    },
+    {
+      "name": "S-Mount Transition",
+      "relationship": "Follow-up transition from 3-4 Mount to armbar platform"
+    },
+    {
+      "name": "Consolidate Mount",
+      "relationship": "Alternative when maintaining standard mount is more advantageous"
+    },
+    {
+      "name": "Armbar from Mount",
+      "relationship": "Primary submission threat that creates openings for 3-4 Mount entry"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Counter outcome position when opponent recovers guard during transition"
+    },
+    {
+      "name": "Back Control",
+      "relationship": "Advanced position accessible through 3-4 Mount to technical mount chain"
+    },
+    {
+      "name": "High Mount Transition",
+      "relationship": "Related mount advancement transition using similar weight shifting mechanics"
+    }
+  ],
+  "attacker": {
+    "name": "Mount to 3-4 Mount Attacker",
+    "description": "Complete guide to executing the Transition to 3-4 Mount from standard mount. Step-by-step mechanics for leg extraction, weight shifting, and maintaining control during the positional adjustment.",
+    "overview": "Executing the Transition to 3-4 Mount requires coordinating weight transfer, grip establishment, and leg extraction into a seamless movement that maintains constant pressure on the opponent throughout. The fundamental challenge is extracting one leg from inside mount configuration without creating a momentary gap that allows hip escape or knee insertion. Success depends on loading your weight onto the side that remains mounted before the extraction begins, ensuring the opponent bears maximum pressure precisely when your base is most vulnerable. This transition rewards patience and timing over speed—rushing the leg extraction is the most common cause of failure, while methodical weight shifting with grip-supported control produces consistent results at all levels.",
+    "key_principles": [
+      "Load weight onto the mounted side before extracting the opposite leg—the opponent must feel increased pressure, not decreased, during transition",
+      "Establish a controlling grip or underhook before changing your base to prevent opponent from exploiting the transition window",
+      "Extract the leg in a smooth arc close to the opponent's body rather than lifting high, which creates space and telegraphs your intention",
+      "Maintain chest-to-chest connection throughout the transition to prevent any frame insertion during the base change",
+      "Post the extracted leg with the ball of the foot firmly on the mat, knee angled outward for maximum base width",
+      "Drive the remaining mounted knee deeper into the opponent's ribs immediately after posting, consolidating the asymmetric control"
+    ],
+    "setup_requirements": [
+      "Stable mount position with hips heavy on opponent's torso and no active escape in progress",
+      "At least one controlling grip established—collar, crossface, wrist, or underhook—to anchor pressure during leg extraction",
+      "Opponent's bridge has been neutralized or their hips are controlled, preventing explosive escape during the transition window",
+      "Clear understanding of which side to post based on opponent's defensive posture and your intended attack chain"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Assess defensive posture",
+        "description": "From settled mount, observe the opponent's arm positioning and framing. Identify which side they are directing defensive effort toward—this determines which leg you will extract. If they frame strongly on your left side, you will extract your right leg to post, creating 3-4 Mount with your left knee remaining mounted on their weaker defensive side."
+      },
+      {
+        "step_number": 2,
+        "action": "Establish controlling grip",
+        "description": "Secure a dominant grip on the side where you will maintain the mounted knee. A cross-collar grip, underhook, or wrist pin works effectively. This grip serves as your anchor point—it maintains pressure and prevents the opponent from turning into you during the leg extraction phase. Without this grip, the transition becomes significantly riskier."
+      },
+      {
+        "step_number": 3,
+        "action": "Shift weight to mounted side",
+        "description": "Transfer your body weight laterally toward the side where your knee will remain mounted. Drop your chest and shoulder pressure onto the opponent's chest on that side. The opponent should feel increased pressure during this phase—they should not sense that you are about to change your base configuration. This weight loading is the critical safety mechanism that prevents escape during extraction."
+      },
+      {
+        "step_number": 4,
+        "action": "Extract posting leg",
+        "description": "In a smooth, controlled arc, slide your knee outward and backward, extracting your leg from the mount configuration on the lighter side. Keep the movement close to the opponent's body—do not lift your knee high as this telegraphs the movement and creates space. The extraction should feel like your knee is sliding along the mat surface rather than lifting over the opponent's hip."
+      },
+      {
+        "step_number": 5,
+        "action": "Post foot and establish base",
+        "description": "Plant the ball of your extracted foot firmly on the mat with your knee angled outward at approximately 45 degrees. This posted leg creates the third point of your triangular base. The foot should be close enough to the opponent's hip to maintain base integrity but far enough to allow hip mobility and weight shifting for subsequent attacks or adjustments."
+      },
+      {
+        "step_number": 6,
+        "action": "Drive mounted knee and consolidate",
+        "description": "Immediately drive your remaining mounted knee deeper into the opponent's ribs or armpit on the mounted side. This wedging action eliminates any space that may have been created during the transition and establishes the characteristic 3-4 Mount pressure. Simultaneously adjust your chest pressure to maintain forward lean, ensuring your weight distribution favors the mounted side."
+      },
+      {
+        "step_number": 7,
+        "action": "Verify control and assess attack options",
+        "description": "Confirm that your posted leg provides stable base, your mounted knee is tight against the opponent's body, and your grip or underhook is still secure. Assess the opponent's reaction to determine your next move: if they remain flat, advance to submissions; if they turn toward the posted leg, prepare S-mount or technical mount transition; if they bridge, use your posted leg to ride the movement and re-settle."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Opponent hip escapes toward the extraction side during leg movement",
+        "effectiveness": "High",
+        "your_response": "Immediately abandon the extraction and re-settle standard mount. Drive both knees back inside and flatten your hips to kill their hip movement. Retry the transition only after re-establishing settled pressure and neutralizing their escape angle.",
+        "targets_outcome": "Half Guard/Bottom"
+      },
+      {
+        "counter": "Opponent bridges explosively the moment they feel weight shift",
+        "effectiveness": "Medium",
+        "your_response": "Use the posting leg to absorb the bridge by driving your foot into the mat and riding the upward movement. Keep your grip anchor tight and let the bridge energy pass underneath you. If the bridge is exceptionally strong, post your free hand on the mat for additional base and re-settle once the bridge collapses.",
+        "targets_outcome": "Mount/Top"
+      },
+      {
+        "counter": "Opponent inserts knee shield or elbow frame during the transition window",
+        "effectiveness": "High",
+        "your_response": "If the frame is shallow, drive your mounted knee over it using hip pressure and complete the transition. If the frame creates significant space, abandon the 3-4 attempt, fight the frame with crossface and underhook pressure, and re-establish standard mount before reattempting.",
+        "targets_outcome": "Half Guard/Bottom"
+      },
+      {
+        "counter": "Opponent grabs the extracting leg to prevent posting",
+        "effectiveness": "Low",
+        "your_response": "Continue the extraction—gripping the leg requires them to extend an arm, which creates an immediate Americana or wrist control opportunity. Use your controlling grip to pin their other arm while completing the transition, then attack the extended arm that attempted to block your leg.",
+        "targets_outcome": "3-4 Mount/Top"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Extracting the leg without first shifting weight to the mounted side",
+        "consequence": "Creates a momentary pressure vacuum that allows the opponent to hip escape or insert a knee shield, often resulting in half guard recovery",
+        "correction": "Always shift weight laterally and increase pressure on the mounted side before beginning leg extraction—the opponent should feel heavier, not lighter, during the transition"
+      },
+      {
+        "error": "Lifting the knee high during extraction rather than sliding it close to the mat",
+        "consequence": "Telegraphs the transition, creates space between your hip and the opponent's body, and gives them a clear window to initiate escape",
+        "correction": "Slide the knee outward along the mat surface in a low arc, keeping it close to the opponent's hip throughout the extraction movement"
+      },
+      {
+        "error": "Attempting the transition without an established controlling grip",
+        "consequence": "No anchor point to maintain pressure during the base change—opponent can turn, bridge, or frame freely during the transition window",
+        "correction": "Always establish at least one dominant grip (collar, crossface, wrist pin, or underhook) before initiating the leg extraction sequence"
+      },
+      {
+        "error": "Posting the foot too far from the opponent's body after extraction",
+        "consequence": "Weakens the triangular base, reduces pressure on the opponent, and creates space they can exploit for guard recovery",
+        "correction": "Post the foot within arm's reach of the opponent's hip, maintaining a tight triangular base that preserves pressure while allowing mobility"
+      },
+      {
+        "error": "Failing to drive the mounted knee deeper after completing the extraction",
+        "consequence": "Leaves space on the mounted side that allows frame insertion, reducing the positional advantage gained from the transition",
+        "correction": "Immediately drive the remaining mounted knee into the ribs or armpit as the final consolidation step of the transition sequence"
+      },
+      {
+        "error": "Attempting the transition while the opponent is actively bridging or hip escaping",
+        "consequence": "Changing your base during an active escape attempt compounds their momentum—high probability of losing mount entirely",
+        "correction": "Only initiate the transition from settled mount when the opponent is static or between escape attempts, never during active defensive movement"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Mechanics",
+        "focus": "Solo and cooperative drilling of leg extraction mechanics",
+        "description": "Practice the weight shift and leg extraction sequence with a compliant partner. Focus on maintaining chest contact throughout, developing the low-arc knee extraction path, and establishing stable posted foot position. Perform 20 repetitions per side with zero resistance, prioritizing smooth coordination over speed."
+      },
+      {
+        "phase": "Phase 2: Grip Integration",
+        "focus": "Adding controlling grips before transition initiation",
+        "description": "Practice establishing collar, crossface, or wrist control grips from standard mount, then executing the transition while maintaining grip integrity. Partner provides 25% resistance, specifically testing whether the grip holds during the extraction window. Develop the habit of grip-first, transition-second sequencing."
+      },
+      {
+        "phase": "Phase 3: Reaction Drilling",
+        "focus": "Executing against specific defensive responses",
+        "description": "Partner provides one of three predetermined responses during the transition: hip escape, bridge, or frame insertion. Top player practices the correct adjustment for each response—abandoning and resettling, riding the bridge, or fighting through the frame. Build automatic recognition and reaction to each counter pattern."
+      },
+      {
+        "phase": "Phase 4: Live Positional Sparring",
+        "focus": "Full resistance application with chain transitions",
+        "description": "Start from settled mount with full resistance. Practitioner must read the opponent's defensive posture, select the correct side for 3-4 Mount entry, execute the transition, and immediately flow to the next technique (submission or further positional advancement). Score based on successful transitions and follow-up attacks."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "Why must you shift weight to the mounted side before extracting the posting leg?",
+        "answer": "The weight shift ensures the opponent feels increased pressure during the transition rather than a momentary reduction in control. Without loading weight onto the mounted side first, extracting a leg creates a pressure vacuum that gives the opponent a window for hip escape or frame insertion. The weight transfer also pre-loads the mounted knee for the consolidation drive that follows extraction, making the entire sequence feel like one continuous pressure application rather than a disjointed position change."
+      },
+      {
+        "question": "Your opponent has both elbows tight defending collar choke attempts from mount. How does this create an opportunity for the 3-4 Mount transition?",
+        "answer": "When both elbows are tucked tight, the opponent's arms are committed to neck defense and cannot establish frames or grips to exploit your base change. Their tight arm positioning also means they cannot insert knee shields during the extraction window. This defensive posture creates an ideal transition opportunity because the primary counters to the 3-4 Mount entry—framing, gripping your leg, and knee insertion—are all neutralized by their elbow-tight position. Transition to 3-4 Mount, then attack the Americana or armbar that their elbow position exposes."
+      },
+      {
+        "question": "What is the critical difference between a high-arc and low-arc knee extraction, and why does it matter?",
+        "answer": "A high-arc extraction lifts the knee upward and over the opponent's hip, creating visible space between your body and theirs that telegraphs the movement and allows frame insertion. A low-arc extraction slides the knee outward along the mat surface, maintaining proximity to the opponent's body throughout the movement. The low arc matters because it preserves the seal between your hip and their torso, preventing the gap that experienced opponents exploit for knee shield insertion or hip escape initiation. The difference in outcome is significant—high-arc extraction fails against competent defenders approximately twice as often as low-arc technique."
+      },
+      {
+        "question": "Your opponent begins a strong hip escape toward your right side as you attempt to extract your right leg. What is your immediate response?",
+        "answer": "Immediately abort the extraction and drive both knees back inside to standard mount. Drop your hips and flatten your weight onto their torso to kill the hip escape momentum. Re-establish settled mount pressure, then wait for the opponent to settle before reattempting. Continuing the extraction into an active hip escape compounds their movement with your base change, creating a high probability of losing mount entirely. The correct response is always to prioritize position retention over completing a transition that has been countered."
+      },
+      {
+        "question": "Which controlling grip provides the most security during the transition, and why?",
+        "answer": "The crossface (underhook with shoulder pressure into their jaw) provides the most security because it controls head position, prevents turning, restricts hip escape on the crossface side, and does not require hand positioning that interferes with the leg extraction. Collar grips are effective but can be stripped during the transition. Wrist pins work but limit your own posting ability. The crossface establishes a structural control point that maintains pressure independent of your lower body configuration, making it the ideal anchor for the base change."
+      },
+      {
+        "question": "How do you decide which leg to extract for the 3-4 Mount configuration?",
+        "answer": "Extract the leg on the side where the opponent is directing their defensive energy and frames. If they are framing strongly on your left side, extract your right leg and post it, keeping your left knee mounted on their weaker defensive side. This principle ensures your mounted knee faces minimal resistance while the posted leg is on the side where the opponent has already committed their defensive structure. Additionally, consider your intended follow-up attack—if you want to set up an armbar on their right arm, mount with your left knee and post your right leg to create the correct angle."
+      },
+      {
+        "question": "What happens if you attempt the transition when the opponent is actively bridging?",
+        "answer": "Changing your base configuration during an active bridge is extremely dangerous because you are voluntarily reducing your contact points while the opponent is generating maximum upward force. The bridge displaces your center of gravity upward while the leg extraction removes one of your stabilizing contact points simultaneously, creating compounding instability. The likely result is losing mount entirely—either through a successful bridge-and-roll reversal or the opponent creating enough space to recover half guard or full guard. Always wait for the bridge to fail and the opponent to settle before initiating the transition."
+      },
+      {
+        "question": "After completing the transition to 3-4 Mount, what is the most important consolidation action?",
+        "answer": "Driving the remaining mounted knee deeper into the opponent's ribs or armpit is the most critical consolidation action. This wedging motion eliminates any residual space created during the transition window and establishes the characteristic directional pressure of 3-4 Mount. Without this consolidation drive, the mounted side remains loose enough for the opponent to insert frames or begin shrimp escapes. The knee drive should be combined with forward chest pressure to create a heavy, settled position before considering any subsequent attacks or transitions."
+      }
+    ],
+    "safety_considerations": "The Transition to 3-4 Mount is a positional adjustment with low inherent injury risk. However, practitioners should avoid driving the posted knee into training partners with excessive force during the consolidation phase, as concentrated knee pressure on the ribcage can cause bruising or rib injuries. During drilling, communicate with your partner about pressure levels and avoid full competition intensity on the knee drive until both practitioners are comfortable with the position. The primary safety concern is the bottom player's breathing—heavy chest pressure combined with a tight mounted knee can restrict breathing significantly, so monitor your partner for distress signals and allow breathing space during extended drilling sessions."
+  },
+  "defender": {
+    "name": "Mount to 3-4 Mount Defender",
+    "description": "Complete defensive guide against the Transition to 3-4 Mount. Learn recognition cues, timing windows for counter-movement, and techniques to prevent the positional adjustment or recover guard.",
+    "overview": "Defending the Transition to 3-4 Mount requires recognizing the setup cues before the leg extraction begins and exploiting the brief window of reduced base stability during the transition. The defender's primary advantage is that any base change from the top player temporarily reduces their contact points and control pressure—this is the moment where defensive action has the highest success rate. The key defensive insight is that prevention is far easier than escape: stopping the transition before it completes requires significantly less energy and technical precision than escaping settled 3-4 Mount after the top player consolidates. Effective defense begins with reading the weight shift that precedes the extraction, then immediately attacking that moment with frames, hip escape, or knee insertion before the asymmetric base is established.",
+    "key_principles": [
+      "Recognize the pre-transition weight shift—when you feel pressure increase on one side, the opposite leg is about to extract",
+      "Attack during the extraction window, not after—once the foot is posted and the knee is consolidated, your defensive opportunity has passed",
+      "Frame toward the extracting leg side where pressure is momentarily reduced, not toward the heavy mounted side",
+      "Use hip escape toward the lighter side the moment you detect the leg extraction beginning",
+      "Control the opponent's far arm or wrist to prevent them from posting for base during your counter-movement",
+      "Keep elbows tight throughout but ready to insert as frames the instant the transition creates space"
+    ],
+    "recognition_cues": [
+      "Sudden increase in pressure on one side of your chest and ribs—indicates weight loading before leg extraction on the opposite side",
+      "Opponent establishes a new grip (collar, crossface, or wrist pin) from settled mount without immediately attacking—grip establishment often precedes positional adjustment",
+      "Feeling the opponent's knee begin to slide outward along your hip rather than maintaining symmetrical pressure on both sides",
+      "Opponent's upper body shifts laterally, breaking the centered chest-to-chest alignment of standard mount",
+      "One of the opponent's legs begins to lose contact with your inner thigh or hip, reducing the bilateral squeeze of standard mount"
+    ],
+    "defensive_options": [
+      {
+        "action": "Frame and hip escape toward the extracting leg side during the transition window",
+        "when_to_use": "The moment you feel the opponent's leg begin to slide outward—this is the highest-percentage defensive window",
+        "targets_outcome": "Half Guard/Bottom",
+        "if_successful": "Insert knee shield on the extraction side and recover to half guard before the 3-4 Mount is consolidated",
+        "risk": "If timed too late, the opponent's posted foot is already established and your frame is met with consolidated asymmetric pressure"
+      },
+      {
+        "action": "Explosive bridge toward the mounted side when weight shifts laterally",
+        "when_to_use": "When you detect the weight loading phase before extraction begins—the pre-committed weight shift makes the opponent vulnerable to directional bridging",
+        "targets_outcome": "Mount/Top",
+        "if_successful": "Disrupts the transition timing and forces the opponent to re-settle standard mount, resetting the position",
+        "risk": "If the opponent has already posted the leg, the bridge drives into their strongest base point and wastes energy"
+      },
+      {
+        "action": "Grip the extracting leg and prevent it from posting",
+        "when_to_use": "When you detect the knee extraction beginning and can reach the leg before it clears your body",
+        "targets_outcome": "Mount/Top",
+        "if_successful": "Forces the opponent to abandon the transition and return to standard mount, preventing the positional adjustment entirely",
+        "risk": "Extending your arm to grip the leg exposes it to Americana or wrist control attacks if the grip fails"
+      },
+      {
+        "action": "Turn into the extraction side and fight for underhook",
+        "when_to_use": "When the leg extraction creates enough space for you to turn your shoulders and fight for inside position on the lighter side",
+        "targets_outcome": "Half Guard/Bottom",
+        "if_successful": "Establish underhook position that prevents mount reconsolidation and creates pathway to half guard or turtle",
+        "risk": "Turning exposes your back if the opponent is already in 3-4 position and can immediately transition to technical mount"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Half Guard/Bottom",
+        "how": "Insert knee shield on the extraction side during the transition window when the opponent's base is temporarily reduced. Use the frame and hip escape combination timed to the leg extraction movement. Once the knee is inside, consolidate half guard grips immediately to prevent the opponent from re-passing."
+      },
+      {
+        "outcome": "Mount/Top",
+        "how": "Disrupt the transition before it completes by bridging explosively toward the mounted side during the weight shift phase. The opponent's committed lateral weight makes them vulnerable to a well-timed directional bridge that either reverses the position or forces them to abandon the transition and re-settle standard mount. This outcome requires detecting the transition early—before the leg extraction begins."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Waiting until the 3-4 Mount is fully consolidated before attempting to escape",
+        "consequence": "Miss the highest-percentage defensive window during the transition. Settled 3-4 Mount is significantly harder to escape than disrupting the transition in progress.",
+        "correction": "React to the recognition cues—weight shift, grip establishment, or knee sliding—immediately rather than waiting to assess the completed position"
+      },
+      {
+        "error": "Framing toward the heavy mounted side instead of the lighter extraction side",
+        "consequence": "Frames push directly into the opponent's strongest pressure point, wasting energy without creating meaningful space for escape",
+        "correction": "Direct frames and hip escape toward the extraction side where pressure is reduced during the transition, exploiting the temporary gap in control"
+      },
+      {
+        "error": "Extending arms fully to push the opponent away during the transition",
+        "consequence": "Extended arms become immediate targets for Americana or armbar attacks, particularly as the 3-4 configuration provides excellent angle for shoulder locks",
+        "correction": "Keep elbows bent at 90 degrees using forearm frames. Create space through hip movement rather than arm extension"
+      },
+      {
+        "error": "Panicking and bridging randomly without timing the bridge to the weight shift",
+        "consequence": "Bridges that are not synchronized with the opponent's weight transfer waste energy and fail to disrupt their base, leaving you exhausted under mount pressure",
+        "correction": "Wait for the specific cue of lateral weight loading, then bridge explosively into the direction of their committed weight shift for maximum disruption"
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the earliest recognition cue that tells you the opponent is preparing to transition to 3-4 Mount?",
+        "answer": "The earliest cue is feeling a new grip being established without an immediate submission follow-up—when the opponent secures a collar grip, crossface, or wrist pin from settled mount without attacking, they are likely anchoring for a positional adjustment. The next cue is feeling pressure increase on one side of your torso as they load weight laterally in preparation for leg extraction on the opposite side. Recognizing this grip-then-shift pattern gives you the maximum window for defensive action."
+      },
+      {
+        "question": "Why is the transition window your best opportunity for defense rather than waiting until 3-4 Mount is settled?",
+        "answer": "During the leg extraction, the opponent temporarily reduces their contact points from four (two knees, two lower legs) to three (one knee, one leg, one posting foot), and their base narrows during the movement. This momentary reduction in control creates gaps in pressure that allow frame insertion and hip escape with significantly less effort than escaping the consolidated position. Once the foot is posted and the mounted knee is driven deep, the asymmetric base is actually more resistant to bridging than standard mount, making late defense much harder."
+      },
+      {
+        "question": "Your opponent loads weight to your left side and begins extracting their right leg. Where do you direct your hip escape?",
+        "answer": "Direct your hip escape toward the right side—toward the extracting leg. This is the side where pressure is momentarily reduced as the leg clears your body and before the foot is posted. Your hip escape into the lighter side meets minimal resistance and creates the best angle for knee insertion into half guard. Escaping toward the left (heavy) side would push directly into the opponent's concentrated weight and committed grip, making the escape far more difficult and energy-intensive."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Recognition",
+        "focus": "Identifying transition setup cues with eyes closed",
+        "description": "Partner establishes mount and alternates between attacking submissions and setting up 3-4 Mount transition. Bottom player focuses solely on identifying which action is being prepared based on tactile cues—weight shifts, grip changes, and knee movement. Call out 'transition' when you detect the 3-4 setup. No escape attempts in this phase, pure recognition development."
+      },
+      {
+        "phase": "Phase 2: Timing Windows",
+        "focus": "Executing defensive frames during the extraction window",
+        "description": "Partner performs the 3-4 Mount transition at 50% speed while bottom player practices inserting frames and initiating hip escape during the leg extraction phase. Focus on timing the defensive action to the extraction movement rather than reacting after the position is consolidated. Reset and repeat 15-20 times per side."
+      },
+      {
+        "phase": "Phase 3: Counter Selection",
+        "focus": "Choosing the correct defensive response based on transition variant",
+        "description": "Partner uses different 3-4 Mount entries—grip-first, reaction-based, and hip switch—at moderate speed. Bottom player practices selecting and executing the appropriate counter for each variant: frame and shrimp for grip-first, bridge disruption for reaction-based, and leg grip for hip switch. Build automatic pattern recognition linking transition type to defensive response."
+      },
+      {
+        "phase": "Phase 4: Live Defense Rounds",
+        "focus": "Full resistance defense with position reset",
+        "description": "Start from standard mount with full resistance. Top player attempts to transition to 3-4 Mount using any method. Bottom player defends using trained responses. Score: bottom player earns points for preventing the transition or recovering guard, top player earns points for completing the transition and consolidating. Rotate partners to experience different body types and transition styles."
+      }
+    ]
+  }
+}

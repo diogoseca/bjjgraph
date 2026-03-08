@@ -1,0 +1,395 @@
+{
+  "name": "Deep Half Sweep",
+  "description": "Master the Deep Half Sweep in BJJ. Step-by-step guide to hip-lift sweep mechanics from deep half guard with setup, counters, and defensive strategies.",
+  "tags": [
+    "bjj",
+    "transition",
+    "sweep",
+    "deep-half-guard",
+    "half-guard",
+    "leverage",
+    "bottom-game"
+  ],
+  "from_position": "Deep Half Guard/Bottom",
+  "outcomes": [
+    {
+      "to": "Side Control/Top",
+      "probability": 50,
+      "result": "success"
+    },
+    {
+      "to": "Deep Half Guard/Bottom",
+      "probability": 30,
+      "result": "failure"
+    },
+    {
+      "to": "Half Guard/Bottom",
+      "probability": 20,
+      "result": "counter"
+    }
+  ],
+  "success_rate": 50,
+  "overview": "The Deep Half Sweep is a fundamental sweep from deep half guard bottom that leverages the bottom player's positioning underneath the opponent's center of gravity to generate powerful upward force and complete a sweep to top position. By maintaining a deep underhook on the opponent's far leg while using the head and shoulder as a wedge point, the bottom player creates a lever system that can overcome significant size and strength disadvantages.\n\nThis sweep functions as the bread-and-butter attack from deep half guard, distinct from the Waiter Sweep or Old School Sweep in its reliance on direct hip elevation rather than leg manipulation or rolling mechanics. The bottom player walks their feet toward the opponent's head to create the optimal angle, then drives their hips upward to load the opponent's weight before completing the sweep with a coordinated drive to side control.\n\nThe Deep Half Sweep is most effective when the opponent commits their weight forward or attempts to apply crossface pressure, as this weight commitment provides the loading needed for the elevation phase. Understanding the timing window between when the opponent's weight shifts forward and when they can post to recover base is essential for consistent execution at the competitive level.",
+  "conditions": [
+    "Deep underhook on opponent's far leg is securely established with arm wrapped around thigh",
+    "Head and shoulder are wedged underneath opponent's hip creating a fulcrum point",
+    "Opponent's weight is centered or shifted forward rather than sprawled back",
+    "Bottom player has sufficient hip mobility to elevate and drive through the sweep",
+    "Opponent's near leg is controlled or monitored to prevent step-over counter"
+  ],
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Rolling Deep Half Sweep",
+      "description": "Instead of driving directly upward and forward, the bottom player rolls underneath the opponent toward the far side, using momentum to complete the sweep. The rolling variation is less dependent on raw hip elevation power and more on timing and body coordination.",
+      "when_to_use": "When opponent sprawls their hips back to prevent the standard hip-lift elevation, the rolling variation uses their sprawl momentum against them by redirecting underneath"
+    },
+    {
+      "variant_name": "Belt Grip Power Sweep (Gi)",
+      "description": "In gi grappling, the bottom player secures a grip on the opponent's belt with the free hand before executing the hip elevation. The belt grip provides additional pulling leverage and prevents the opponent from disengaging during the sweep sequence.",
+      "when_to_use": "When wearing the gi and the opponent's belt is accessible, this variation adds significant control and makes the sweep substantially harder to defend"
+    },
+    {
+      "variant_name": "Knee Tap Finish",
+      "description": "As the hips elevate and the opponent begins to lose balance, the bottom player uses their free hand to tap the opponent's near knee inward, collapsing their base and accelerating the sweep completion rather than relying solely on hip elevation.",
+      "when_to_use": "When the opponent posts their near leg wide to resist the hip elevation, the knee tap removes their posting base and forces the sweep through"
+    }
+  ],
+  "position_integration": "The Deep Half Sweep occupies a central role in the deep half guard system as the primary direct sweep option. It chains naturally with the Waiter Sweep and Old School Sweep to create a comprehensive sweeping threat from deep half bottom. When the Deep Half Sweep is defended through sprawling, it opens entries to the back via the rolling back take. When defended through backstep, it creates opportunities to transition to X-Guard or Single Leg X-Guard. This sweep also serves as a gateway technique for practitioners developing their deep half game, as mastering the basic hip elevation mechanics provides the foundation for all advanced deep half attacks.",
+  "related_content": [
+    {
+      "name": "Deep Half Guard",
+      "relationship": "Source position from which this sweep is executed"
+    },
+    {
+      "name": "Side Control",
+      "relationship": "Primary target position after successful sweep completion"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Fallback position when counter occurs and deep half is lost"
+    },
+    {
+      "name": "Back Control",
+      "relationship": "Alternative target via rolling back take when sweep is defended"
+    },
+    {
+      "name": "X-Guard",
+      "relationship": "Transition option when opponent pulls leg back to defend sweep"
+    },
+    {
+      "name": "Single Leg X-Guard",
+      "relationship": "Alternative guard entry when deep half sweep path is blocked"
+    },
+    {
+      "name": "Lockdown",
+      "relationship": "Complementary control system that can set up deep half entries"
+    },
+    {
+      "name": "Backstep from Deep Half",
+      "relationship": "Common defensive counter by top player against sweep attempts"
+    },
+    {
+      "name": "Deep Half Entry from Half Guard",
+      "relationship": "Primary entry pathway to reach deep half sweep position"
+    },
+    {
+      "name": "Electric Chair",
+      "relationship": "Alternative submission option from similar deep half positioning"
+    }
+  ],
+  "attacker": {
+    "name": "Deep Half Sweep Attacker",
+    "description": "Execute the Deep Half Sweep from deep half guard bottom. Step-by-step mechanics for hip elevation sweeps with grip details, timing cues, and chain attack options.",
+    "overview": "As the attacker executing the Deep Half Sweep, your objective is to leverage your deep underhook position and body placement underneath the opponent to generate sufficient upward force to displace their base and complete a sweep to side control top. The sweep relies on proper body mechanics rather than explosive athleticism, making it effective across weight classes when executed with correct timing and positioning. Your entire body functions as a unified lever: the shoulder wedge against the opponent's inner thigh creates the fulcrum, the deep underhook provides the control handle, and hip elevation generates the force that drives the sweep through to completion.",
+    "key_principles": [
+      "Maintain constant tension on the deep underhook throughout the entire sweep sequence to prevent the opponent from extracting their leg",
+      "Use your feet to walk toward the opponent's head before attempting elevation to create the optimal sweeping angle",
+      "Time the hip elevation for when the opponent's weight shifts forward or when they commit to a crossface attempt",
+      "Drive through the sweep with your entire body rather than trying to muscle the opponent over with just your arms",
+      "Keep your head low and wedged tight against the opponent's inner thigh to maintain the fulcrum point",
+      "Consolidate to side control immediately after the sweep rather than celebrating the reversal prematurely"
+    ],
+    "setup_requirements": [
+      "Deep underhook established with arm wrapped tightly around opponent's far thigh, pulling the leg close to your chest",
+      "Head and shoulder wedged underneath opponent's near hip, creating the primary fulcrum for sweep leverage",
+      "Feet positioned to walk toward opponent's head to create optimal angle before elevation begins",
+      "Free hand monitoring or controlling opponent's near leg to prevent step-over counter and backstep escape",
+      "Hips positioned directly underneath opponent's center of gravity for maximum elevation leverage"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Confirm deep underhook security",
+        "description": "Verify that your arm is wrapped tightly around the opponent's far thigh with your shoulder pressed firmly against their inner thigh. Pull their leg toward your chest to maintain tension. Your elbow should be behind their knee or higher on the thigh for maximum control."
+      },
+      {
+        "step_number": 2,
+        "action": "Wedge head and shoulder into position",
+        "description": "Position your head underneath the opponent's near hip with your shoulder driving upward into their inner thigh. This creates the fulcrum point for the sweep. Your ear should be roughly at their hip line with your shoulder creating upward pressure that disrupts their base."
+      },
+      {
+        "step_number": 3,
+        "action": "Walk feet toward opponent's head",
+        "description": "Using small steps, walk your feet toward the opponent's head side to create an acute angle between your body and theirs. This angle is critical because it positions your hip elevation to drive their weight forward and over rather than straight up. Three to four small steps are typically sufficient."
+      },
+      {
+        "step_number": 4,
+        "action": "Monitor near leg with free hand",
+        "description": "Use your free hand to control or block the opponent's near knee, preventing them from stepping over your body or backstopping to resist the sweep. Frame against their knee or hook their ankle to remove their posting option on that side."
+      },
+      {
+        "step_number": 5,
+        "action": "Elevate hips to load opponent's weight",
+        "description": "Drive your hips upward powerfully, loading the opponent's weight onto your shoulder and chest. This is the power generation phase of the sweep. Your bridge should be directed slightly forward toward the opponent's head rather than straight up, using the angle created by your foot walking to direct the force optimally."
+      },
+      {
+        "step_number": 6,
+        "action": "Drive forward and complete the sweep",
+        "description": "As the opponent's weight shifts over the tipping point, drive forward with your shoulder and chest while maintaining your underhook grip throughout the rotation. Follow through by coming up to your knees and immediately advancing to top position rather than stopping halfway through the sweep motion."
+      },
+      {
+        "step_number": 7,
+        "action": "Consolidate to side control",
+        "description": "As you arrive to top position, immediately establish crossface control and hip-to-hip pressure in side control. Release the underhook only after you have established dominant top control with your chest perpendicular to the opponent's torso. Settle your weight before attempting any submissions."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Crossface pressure to flatten bottom player and prevent hip elevation",
+        "effectiveness": "High",
+        "your_response": "Use the crossface pressure as a timing cue. When opponent drives forward with crossface, their weight commits forward which actually loads the sweep. Maintain your underhook and use their forward pressure to fuel the elevation.",
+        "targets_outcome": "Deep Half Guard/Bottom"
+      },
+      {
+        "counter": "Sprawl hips back to remove weight from bottom player's leverage point",
+        "effectiveness": "High",
+        "your_response": "When opponent sprawls, immediately transition to the rolling variation by rolling underneath them toward the far side, or switch to X-Guard or Single Leg X by hooking their retreating legs with your feet.",
+        "targets_outcome": "Deep Half Guard/Bottom"
+      },
+      {
+        "counter": "Backstep around bottom player's legs to pass guard entirely",
+        "effectiveness": "Medium",
+        "your_response": "Follow the backstep with your hips and maintain the underhook. If they commit to the backstep, use their rotation to enter a rolling back take or transition to half butterfly guard on the other side.",
+        "targets_outcome": "Half Guard/Bottom"
+      },
+      {
+        "counter": "Whizzer on the underhook arm to prevent elevation and strip control",
+        "effectiveness": "Medium",
+        "your_response": "When opponent applies whizzer, their far leg becomes lighter and more accessible. Switch to Electric Chair entry by using the whizzer pressure to feed your lockdown deeper, or drive through the whizzer with increased hip elevation pressure.",
+        "targets_outcome": "Deep Half Guard/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Attempting the sweep without first walking feet toward opponent's head to create angle",
+        "consequence": "Hip elevation drives opponent straight up rather than forward, making the sweep easily resisted by posting and sprawling",
+        "correction": "Always walk feet three to four small steps toward opponent's head before attempting elevation. The resulting angle directs your force forward and over rather than straight up"
+      },
+      {
+        "error": "Loose underhook that allows opponent to extract their far leg during the sweep",
+        "consequence": "Loss of primary control mechanism mid-sweep, resulting in failed sweep and potential guard pass by opponent",
+        "correction": "Maintain constant pulling tension on the underhook throughout the entire sweep sequence. Elbow should stay tight to your body with the opponent's thigh pulled against your chest"
+      },
+      {
+        "error": "Head positioned too low or too far from opponent's hip",
+        "consequence": "Weak fulcrum point reduces sweep leverage significantly, requiring much more force to complete the sweep and making it easy to defend",
+        "correction": "Position your ear at opponent's hip line with your shoulder driving firmly into their inner thigh. The head-shoulder wedge must be tight against their body to function as an effective lever"
+      },
+      {
+        "error": "Elevating hips explosively without proper timing or setup",
+        "consequence": "Opponent reads the explosive movement and adjusts weight distribution to counter. Energy is wasted on low-percentage attempts that telegraph your intentions",
+        "correction": "Wait for the opponent to commit their weight forward or react to a grip change before elevating. The sweep should feel effortless when properly timed rather than requiring maximum exertion"
+      },
+      {
+        "error": "Stopping after the sweep instead of immediately consolidating top position",
+        "consequence": "Opponent recovers guard or scrambles to a neutral position, negating the sweep advantage entirely",
+        "correction": "Drive through the sweep in one continuous motion from elevation to side control consolidation. Establish crossface and hip pressure immediately upon arriving to top position"
+      },
+      {
+        "error": "Neglecting to control opponent's near leg during the sweep",
+        "consequence": "Opponent posts their near leg to resist the sweep or steps over to take a dominant angle, completely nullifying the sweep attempt",
+        "correction": "Use your free hand to block or frame against opponent's near knee throughout the sweep. Preventing them from posting is as important as generating sweep force"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Mechanics",
+        "focus": "Body positioning and leverage fundamentals",
+        "description": "Practice entering deep half guard and establishing proper underhook, head position, and foot placement with a cooperative partner. Execute the sweep slowly focusing on the angle creation through foot walking and the hip elevation mechanics. Repeat 20 times per side with no resistance."
+      },
+      {
+        "phase": "Phase 2: Timing and Sensitivity",
+        "focus": "Reading opponent weight shifts and timing elevation",
+        "description": "Partner provides controlled forward pressure and crossface attempts. Practice timing your hip elevation to coincide with their weight commitment. Develop sensitivity to the moment when their weight loads onto your shoulder wedge, indicating optimal sweep timing."
+      },
+      {
+        "phase": "Phase 3: Chain Attacks",
+        "focus": "Linking sweep with alternatives when defended",
+        "description": "Partner defends the initial sweep attempt using sprawl, backstep, or whizzer. Practice transitioning immediately to alternative attacks: rolling back take when they sprawl, X-Guard entry when they pull leg back, Electric Chair when they whizzer. Build automatic follow-up responses."
+      },
+      {
+        "phase": "Phase 4: Live Application",
+        "focus": "Full resistance positional sparring integration",
+        "description": "Positional sparring starting in deep half guard bottom. Attempt the Deep Half Sweep against full resistance, applying timing, angle creation, and chain attacks developed in previous phases. Track success rate and identify patterns in defensive responses to refine approach."
+      },
+      {
+        "phase": "Phase 5: Competition Simulation",
+        "focus": "Match context and strategic integration",
+        "description": "Practice entering deep half from various guard positions under match-intensity conditions. Combine entries, sweeps, and follow-ups into fluid sequences. Work on executing when fatigued and under point pressure to develop reliability in competition scenarios."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "Your opponent begins applying heavy crossface pressure as you establish deep half - how do you use this to your advantage for the sweep?",
+        "answer": "Heavy crossface pressure means the opponent is committing their weight forward, which is exactly what loads the Deep Half Sweep. Rather than fighting the crossface, maintain your underhook and use their forward pressure as fuel for your hip elevation. Their weight commitment forward means they have less ability to sprawl back when you drive your hips up. Time your elevation for the moment their pressure peaks."
+      },
+      {
+        "question": "What is the critical foot positioning adjustment that must happen before attempting the hip elevation?",
+        "answer": "You must walk your feet in small steps toward the opponent's head to create an acute angle between your body and theirs. This angle redirects your hip elevation force from straight upward to forward-and-over, making the sweep dramatically more effective. Without this angle adjustment, the opponent can simply post their hands or sprawl to resist a straight upward elevation. Three to four small steps typically create sufficient angle."
+      },
+      {
+        "question": "What grip modifications are required for executing this sweep in no-gi versus gi?",
+        "answer": "In no-gi, the underhook must be deeper with the arm wrapped further around the thigh, often using a gable grip or butterfly grip behind the knee for maximum security since there is no friction from the gi. The free hand uses wrist control or a frame against the hip instead of lapel or belt grips. In gi, you can supplement with a belt grip on the free hand for additional pulling power and pant grip on the near leg for better control."
+      },
+      {
+        "question": "Your opponent sprawls their hips back when they feel your elevation attempt - what is your immediate chain attack?",
+        "answer": "When the opponent sprawls back, immediately transition to either the rolling variation by continuing underneath them toward the far side to take the back, or switch to X-Guard or Single Leg X-Guard by hooking their retreating legs with your feet. The sprawl removes their weight from your shoulders but creates space underneath that you can exploit by following their retreating legs with leg hooks rather than trying to force the original sweep path."
+      },
+      {
+        "question": "What determines whether the Deep Half Sweep will finish in side control versus mount?",
+        "answer": "The angle you create before elevation and the direction of your drive determine the finish position. A more perpendicular angle with a drive across the opponent's body typically finishes in side control. Driving more directly over the opponent's centerline while maintaining the underhook can finish in mount. Side control is the higher-percentage finish because it requires less precision during the scramble phase of the sweep completion."
+      },
+      {
+        "question": "How does the direction of force differ between the Deep Half Sweep and the Waiter Sweep from the same position?",
+        "answer": "The Deep Half Sweep generates force through hip elevation directed forward and over the opponent, using the shoulder wedge as a fulcrum. The force vector is primarily upward then forward. The Waiter Sweep generates force by elevating the opponent's far leg with the free hand while using hip movement to off-balance them laterally. The Waiter Sweep force is more rotational while the Deep Half Sweep is more linear and direct."
+      },
+      {
+        "question": "What body positioning error most commonly causes the Deep Half Sweep to fail against skilled opponents?",
+        "answer": "The most common error is attempting the elevation without creating sufficient angle by walking the feet toward the opponent's head. When the body alignment is too parallel to the opponent, the hip elevation drives them straight up rather than forward, allowing them to simply post their hands or sprawl their weight back to resist. The angle is what transforms raw upward force into sweeping momentum that bypasses their posting ability."
+      },
+      {
+        "question": "Your opponent applies a whizzer to your underhook arm during the sweep attempt - what adjustment prevents the counter?",
+        "answer": "When the opponent whizzers your underhook arm, do not try to fight the whizzer directly. Instead, redirect by driving your underhook elbow toward their far hip, making the whizzer less effective at stripping your control. Alternatively, use the whizzer pressure to set up an Electric Chair entry by feeding your hips deeper and establishing lockdown on their trapped leg. The whizzer commits their arm, which can be exploited for the position change."
+      }
+    ],
+    "safety_considerations": "The Deep Half Sweep is generally a low-risk technique with no joint manipulation or choking mechanics involved. The primary safety concern is neck positioning during the sweep. Ensure your head remains tucked against the opponent's thigh rather than extended or twisted, as the weight loading during elevation can create cervical compression if the head is mispositioned. Avoid attempting the sweep if you feel any neck discomfort in the starting position. Partners should communicate immediately if they feel trapped in an awkward position during the sweep rotation. During drilling, control the speed of the sweep completion to prevent the top player from being dumped unexpectedly onto their head or shoulder."
+  },
+  "defender": {
+    "name": "Deep Half Sweep Defender",
+    "description": "Defend the Deep Half Sweep in BJJ. Recognition cues, defensive counters, and strategies for shutting down hip-lift sweeps from deep half guard top.",
+    "overview": "As the defender against the Deep Half Sweep, you are the top player in deep half guard who must prevent the bottom player from completing their hip elevation sweep. Your primary challenge is that the bottom player has already established a strong mechanical advantage through their deep underhook and positioning underneath your center of gravity. Successful defense requires early recognition of the sweep setup, disruption of the bottom player's angle creation, and either neutralizing the sweep threat to maintain position or countering to improve your position by passing their guard entirely. Understanding the sweep mechanics allows you to identify and attack the critical failure points in the bottom player's technique.",
+    "key_principles": [
+      "Recognize the sweep setup early by monitoring the bottom player's foot walking and hip positioning changes",
+      "Maintain balanced weight distribution to avoid loading the sweep with forward pressure",
+      "Use crossface and hip control strategically without overcommitting weight forward",
+      "Attack the underhook grip continuously to weaken the primary control mechanism",
+      "Keep your near leg posted wide to maintain a strong base against the elevation",
+      "When the sweep begins, sprawl hips back immediately rather than trying to muscle through the position"
+    ],
+    "recognition_cues": [
+      "Bottom player begins walking their feet in small steps toward your head, creating a sweeping angle",
+      "Increased upward pressure from the bottom player's shoulder against your inner thigh indicating elevation is imminent",
+      "Bottom player's free hand shifts from controlling your near leg to blocking your near knee posting position",
+      "You feel your weight being loaded onto the bottom player's shoulder wedge as they prepare to elevate",
+      "Bottom player tightens their underhook grip noticeably, pulling your far leg closer to their chest"
+    ],
+    "defensive_options": [
+      {
+        "action": "Sprawl hips back to remove weight from bottom player's shoulder wedge",
+        "when_to_use": "As soon as you feel the bottom player begin to walk their feet toward your head or sense increased upward pressure from their shoulder",
+        "targets_outcome": "Deep Half Guard/Bottom",
+        "if_successful": "Bottom player loses the loaded angle needed for the sweep and must reset their positioning to attempt again",
+        "risk": "Sprawling too aggressively can open space for the bottom player to transition to a rolling back take or X-Guard entry"
+      },
+      {
+        "action": "Drive crossface pressure and flatten the bottom player's upper body",
+        "when_to_use": "When the bottom player is still in the setup phase and has not yet created sufficient angle for the sweep",
+        "targets_outcome": "Deep Half Guard/Bottom",
+        "if_successful": "Flattening the bottom player removes their ability to generate hip elevation and forces them to address the crossface before attempting any sweep",
+        "risk": "Excessive forward pressure during crossface can actually load the sweep if the bottom player maintains proper underhook and timing"
+      },
+      {
+        "action": "Backstep pass to extract trapped leg and pass around to side control",
+        "when_to_use": "When the bottom player commits heavily to the sweep setup and their legs are not actively blocking your backstep path",
+        "targets_outcome": "Half Guard/Bottom",
+        "if_successful": "You extract your trapped leg from deep half and transition to a passing position, converting from a defensive situation to an offensive one",
+        "risk": "The backstep creates a brief moment of instability where the bottom player can follow your rotation and enter a back take attempt"
+      },
+      {
+        "action": "Strip the underhook by circling your trapped leg outward and driving your knee through",
+        "when_to_use": "When you have established crossface control and the bottom player's underhook grip has loosened due to your pressure or positional adjustments",
+        "targets_outcome": "Half Guard/Bottom",
+        "if_successful": "Breaking the underhook eliminates the deep half position entirely, allowing you to extract your leg and transition to standard half guard top for passing",
+        "risk": "If the underhook strip fails, the movement may create space that the bottom player exploits for elevation or angle creation"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Half Guard/Bottom",
+        "how": "Counter the sweep by combining crossface pressure with systematic leg extraction. Drive crossface to flatten the bottom player, then circle your trapped knee outward and pull it free while maintaining upper body control. Transition immediately to standard half guard top where you have superior passing options and the deep half leverage system is neutralized."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Driving excessive forward pressure in response to feeling the sweep setup",
+        "consequence": "Forward weight commitment is exactly what loads the Deep Half Sweep. The bottom player uses your forward pressure as fuel for their hip elevation, making the sweep more powerful rather than shutting it down.",
+        "correction": "Distribute weight evenly or shift slightly backward when you sense the sweep loading. Use crossface to control their upper body without driving your full weight forward."
+      },
+      {
+        "error": "Keeping near leg close to body instead of posting wide for base",
+        "consequence": "Narrow base makes you easy to tip over during the hip elevation phase. Without a wide posting leg, you have no counter-leverage against the upward force.",
+        "correction": "Post your free leg far to the side to create a wide, stable tripod base. The wider your base, the more force the bottom player needs to generate to complete the sweep."
+      },
+      {
+        "error": "Ignoring the angle change when opponent walks feet toward your head",
+        "consequence": "Allowing the bottom player to create their sweeping angle unopposed makes the sweep dramatically more effective and harder to defend once the elevation begins.",
+        "correction": "When you feel their feet walking toward your head, immediately address it by shifting your hips away from their head or circling to break the angle they are creating."
+      },
+      {
+        "error": "Attempting to muscle out of the position rather than using technical defense",
+        "consequence": "The deep half position gives the bottom player superior mechanical leverage. Trying to power through it wastes energy and often creates the momentum shifts that complete the sweep.",
+        "correction": "Use technical defenses: crossface control, weight distribution management, and systematic leg extraction rather than explosive attempts to pull free."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the earliest recognition cue that the bottom player is setting up the Deep Half Sweep specifically rather than another attack?",
+        "answer": "The earliest cue is the bottom player walking their feet in small steps toward your head. This angle creation is unique to the hip-lift sweep and distinguishes it from the rolling back take which involves turning away from you or the Waiter Sweep which involves their free hand reaching for your far leg. When you feel the foot walking combined with increased shoulder pressure against your inner thigh, the hip-lift sweep is being loaded."
+      },
+      {
+        "question": "Why is driving heavy crossface pressure a risky defensive strategy against the Deep Half Sweep?",
+        "answer": "Heavy crossface pressure requires committing your weight forward toward the bottom player's head side. This forward weight commitment is exactly what powers the Deep Half Sweep, as the bottom player uses your forward pressure combined with their hip elevation to tip you over. A skilled deep half player will deliberately bait the crossface to load the sweep. Instead, use crossface to control their head direction without driving your full weight forward."
+      },
+      {
+        "question": "What is the optimal timing window for executing the backstep counter against the Deep Half Sweep?",
+        "answer": "The optimal backstep timing is immediately after you feel the bottom player commit to their foot walking but before they begin the hip elevation. At this point, their focus is on creating angle rather than maintaining leg control, creating a brief window where your trapped leg is less actively restrained. If you backstep too early they have not committed and can easily readjust. If you backstep too late during the elevation their upward pressure makes extraction much more difficult."
+      },
+      {
+        "question": "How should you adjust your weight distribution when you feel the sweep elevation beginning?",
+        "answer": "Immediately shift your weight backward by dropping your hips away from the bottom player's shoulder and posting your free leg wider behind you. Do not try to drive forward to counter the elevation as this feeds the sweep. The goal is to remove your weight from their shoulder fulcrum point so their elevation lifts nothing. Simultaneously widen your base laterally to create stability against the forward-directed sweep force."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Recognition",
+        "focus": "Identifying sweep setup cues",
+        "description": "Partner establishes deep half and slowly executes the sweep setup sequence. Focus solely on recognizing each phase: underhook tightening, foot walking, angle creation, and elevation initiation. Call out each phase as you feel it happening to develop tactile awareness."
+      },
+      {
+        "phase": "Phase 2: Individual Counters",
+        "focus": "Practicing each defensive option in isolation",
+        "description": "Partner sets up the Deep Half Sweep while you practice individual defensive responses: sprawl defense, crossface flatten, backstep extraction, and underhook strip. Master each counter independently with cooperative resistance before combining them."
+      },
+      {
+        "phase": "Phase 3: Defensive Decision Making",
+        "focus": "Selecting appropriate counter based on sweep variation",
+        "description": "Partner varies their sweep approach including standard elevation, rolling, and belt grip while you practice selecting and executing the appropriate defensive response for each variation. Build automatic recognition-to-response patterns through repetition."
+      },
+      {
+        "phase": "Phase 4: Live Defensive Sparring",
+        "focus": "Full resistance defense application",
+        "description": "Positional sparring starting in deep half guard top. Defend all sweep attempts with full resistance while working to extract and pass. Track which defensive options work best against specific training partners and refine approach based on results."
+      }
+    ]
+  }
+}

@@ -3,6 +3,905 @@
 // put your custom CSS here!
 
 // ============================================================================
+// Landing Page (Homepage)
+// ============================================================================
+
+// Google-style homepage: hide sidebar, meta; center content vertically
+body[data-slug="index"] .content-meta {
+  display: none;
+}
+
+body[data-slug="index"] .sidebar {
+  position: absolute !important;
+  width: 0 !important;
+  height: 0 !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  border: 0 !important;
+  overflow: hidden !important;
+  clip: rect(0, 0, 0, 0) !important;
+  pointer-events: none;
+}
+
+// Re-enable pointer events on search container (uses position:fixed when open)
+body[data-slug="index"] #search-container {
+  pointer-events: auto;
+}
+
+// Collapse grid to single centered column
+body[data-slug="index"] #quartz-body {
+  grid-template-columns: 1fr !important;
+  grid-template-areas:
+    "grid-center"
+    "grid-footer" !important;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+// Vertically center above-fold content
+body[data-slug="index"] .center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  text-align: center;
+}
+
+body[data-slug="index"] .page-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+body[data-slug="index"] .center > article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+// Hide afterBody (EditOnGithub etc) and hr on homepage
+body[data-slug="index"] .page-footer {
+  display: none;
+}
+
+body[data-slug="index"] hr {
+  display: none;
+}
+
+// Footer: centered block, left-aligned content inside
+body[data-slug="index"] footer {
+  width: fit-content;
+  margin: 0 auto;
+  text-align: left;
+}
+
+// Hero content
+.tagline {
+  font-size: 1.1rem;
+  color: var(--dark);
+  opacity: 0.7;
+  margin: 0 0 1.5rem 0;
+}
+
+// Search + Roll bar (Google-style)
+.hero-actions {
+  margin: 0 0 1.25rem 0;
+  display: flex;
+  justify-content: center;
+}
+
+// Stats grid (linked category counts)
+.stats-grid {
+  display: flex;
+  justify-content: center;
+  gap: 0.75rem;
+}
+
+.stats-grid-secondary {
+  margin-top: 0.5rem;
+}
+
+.stat-link {
+  text-decoration: none;
+  color: var(--gray);
+  font-size: 0.8rem;
+  letter-spacing: 0.03em;
+  padding: 6px 14px;
+  border-radius: 16px;
+  background: transparent;
+  transition:
+    color 0.15s;
+
+  &:hover {
+    color: var(--secondary);
+    background: transparent;
+  }
+}
+
+.stat-number {
+  font-weight: 600;
+}
+
+.search-roll-bar {
+  display: flex;
+  max-width: 500px;
+  border: 1px solid var(--lightgray);
+  border-radius: 24px;
+  overflow: hidden;
+  background: var(--light);
+
+  &:hover,
+  &:focus-within {
+    border-color: var(--secondary);
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.1);
+  }
+}
+
+.search-trigger {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.75rem 1rem;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  text-align: left;
+  color: var(--gray);
+  font-size: 0.95rem;
+
+  .search-icon {
+    flex-shrink: 0;
+    opacity: 0.7;
+  }
+
+  .search-placeholder {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  &:hover {
+    color: var(--darkgray);
+  }
+}
+
+.roll-trigger {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.25rem;
+  border: none;
+  border-left: 1px solid var(--lightgray);
+  background: var(--light);
+  color: var(--secondary);
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.15s;
+
+  .roll-icon {
+    width: 28px;
+    height: 28px;
+  }
+
+  &:hover {
+    background: var(--highlight);
+  }
+}
+
+// ============================================================================
+// Move Cards (Position Pages)
+// ============================================================================
+
+.move-cards-container {
+  margin: 1.5rem 0;
+}
+
+.move-cards-title {
+  font-size: 1rem;
+  color: var(--gray);
+  margin-bottom: 0.75rem;
+  font-weight: 500;
+}
+
+.move-cards {
+  display: flex;
+  gap: 0.75rem;
+  overflow-x: auto;
+  padding: 0.5rem 0;
+  -webkit-overflow-scrolling: touch;
+
+  &::-webkit-scrollbar {
+    height: 6px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: var(--lightgray);
+    border-radius: 3px;
+  }
+}
+
+.move-card {
+  flex: 0 0 auto;
+  min-width: 160px;
+  padding: 1rem;
+  border: 1px solid var(--lightgray);
+  border-radius: 8px;
+  background: var(--light);
+  cursor: pointer;
+  transition: all 0.15s;
+
+  &:hover {
+    border-color: var(--secondary);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+
+  &.submission {
+    border-color: var(--tertiary);
+    background: linear-gradient(135deg, var(--light), rgba(186, 38, 55, 0.05));
+  }
+
+  &.submission:hover {
+    border-color: var(--tertiary);
+    box-shadow: 0 4px 12px rgba(186, 38, 55, 0.15);
+  }
+}
+
+.move-card-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.move-card-technique {
+  font-weight: 500;
+  color: var(--dark);
+}
+
+.move-card-badge {
+  font-size: 0.65rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  padding: 0.15em 0.5em;
+  border-radius: 4px;
+  white-space: nowrap;
+  flex-shrink: 0;
+
+  &--common {
+    background: rgba(46, 160, 67, 0.12);
+    color: #1a7f37;
+  }
+
+  &--rare {
+    background: rgba(130, 80, 223, 0.12);
+    color: #6639ba;
+  }
+}
+
+.move-card-votes {
+  display: flex;
+  gap: 0.25rem;
+  margin-top: 0.5rem;
+  justify-content: flex-end;
+}
+
+.vote-btn {
+  background: none;
+  border: 1px solid var(--lightgray);
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 0.15rem 0.4rem;
+  font-size: 0.7rem;
+  color: var(--gray);
+  line-height: 1;
+  transition: all 0.15s;
+
+  &:hover {
+    border-color: var(--secondary);
+    color: var(--secondary);
+  }
+}
+
+.move-card-probability {
+  font-size: 0.85rem;
+  color: var(--gray);
+}
+
+.vote-nudge {
+  font-size: 0.75rem;
+
+  &.positive {
+    color: #1a7f37;
+  }
+
+  &.negative {
+    color: #ba2637;
+  }
+}
+
+.probability-bar {
+  height: 4px;
+  background: var(--lightgray);
+  border-radius: 2px;
+  margin-top: 0.5rem;
+  overflow: hidden;
+}
+
+.probability-fill {
+  height: 100%;
+  background: var(--secondary);
+  transition: width 0.3s;
+}
+
+// ============================================================================
+// Snackbar System
+// ============================================================================
+
+#snackbar-container {
+  position: fixed;
+  bottom: 2rem;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1000;
+  pointer-events: none;
+}
+
+.snackbar {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 1.5rem;
+  background: var(--dark);
+  color: var(--light);
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  animation: slideUp 0.3s ease-out;
+  pointer-events: auto;
+
+  &.success {
+    background: #2e7d32;
+  }
+
+  &.failure {
+    background: #c62828;
+  }
+
+  &.info {
+    background: var(--secondary);
+  }
+}
+
+.snackbar-message {
+  flex: 1;
+}
+
+.snackbar-undo {
+  padding: 0.5rem 1rem;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  background: transparent;
+  color: var(--light);
+  cursor: pointer;
+  font-size: 0.9rem;
+
+  &:hover {
+    background: rgba(255, 255, 255, 0.1);
+  }
+}
+
+.snackbar-close {
+  padding: 0.25rem 0.5rem;
+  border: none;
+  background: transparent;
+  color: var(--light);
+  cursor: pointer;
+  opacity: 0.7;
+  font-size: 1.2rem;
+
+  &:hover {
+    opacity: 1;
+  }
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+// ============================================================================
+// Flashcard Component (Transitions & Submissions)
+// ============================================================================
+
+.flashcard-container {
+  margin: 1.5rem 0;
+}
+
+.flashcard {
+  padding: 1.5rem;
+  border: 2px solid var(--lightgray);
+  border-radius: 12px;
+  background: var(--light);
+}
+
+.flashcard-label {
+  font-size: 0.85rem;
+  color: var(--gray);
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.flashcard-question {
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+  color: var(--dark);
+}
+
+.flashcard-answer {
+  padding: 1rem;
+  background: var(--highlight);
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  color: var(--dark);
+
+  &.hidden {
+    display: none;
+  }
+}
+
+.flashcard-actions {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.reveal-btn {
+  padding: 0.75rem 1.5rem;
+  border: 1px solid var(--secondary);
+  border-radius: 8px;
+  background: transparent;
+  color: var(--secondary);
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.15s;
+
+  &:hover {
+    background: var(--secondary);
+    color: var(--light);
+  }
+}
+
+.result-btns {
+  display: flex;
+  gap: 1rem;
+
+  &.hidden {
+    display: none;
+  }
+}
+
+.remembered-btn {
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 8px;
+  background: #2e7d32;
+  color: white;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background 0.15s;
+
+  &:hover {
+    background: #1b5e20;
+  }
+}
+
+.missed-btn {
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 8px;
+  background: #c62828;
+  color: white;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background 0.15s;
+
+  &:hover {
+    background: #b71c1c;
+  }
+}
+
+.flashcard-downvote {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  background: none;
+  border: 1px solid var(--lightgray);
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 0.15rem 0.4rem;
+  font-size: 0.7rem;
+  color: var(--gray);
+  line-height: 1;
+  transition: all 0.15s;
+  margin-left: auto;
+
+  &:hover {
+    border-color: #ba2637;
+    color: #ba2637;
+  }
+
+  &.hidden {
+    display: none;
+  }
+}
+
+.flashcard-feedback {
+  margin-top: 0.75rem;
+
+  &.hidden {
+    display: none;
+  }
+}
+
+.feedback-input-row {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.feedback-input {
+  flex: 1;
+  padding: 0.5rem 0.75rem;
+  border: 1px solid var(--lightgray);
+  border-radius: 8px;
+  background: var(--light);
+  color: var(--dark);
+  font-size: 0.9rem;
+
+  &:focus {
+    outline: none;
+    border-color: var(--secondary);
+  }
+}
+
+.feedback-submit {
+  padding: 0.5rem 0.75rem;
+  border: none;
+  border-radius: 8px;
+  background: var(--secondary);
+  color: var(--light);
+  cursor: pointer;
+  font-size: 1rem;
+  line-height: 1;
+  transition: background 0.15s;
+
+  &:hover {
+    opacity: 0.85;
+  }
+}
+
+// ============================================================================
+// Terminal State (Victory/Defeat)
+// ============================================================================
+
+.terminal-state {
+  text-align: center;
+  padding: 2rem;
+
+  h2 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
+
+  &.victory h2 {
+    color: #2e7d32;
+  }
+
+  &.defeat h2 {
+    color: #c62828;
+  }
+}
+
+.journey-replay {
+  margin: 1.5rem 0;
+  text-align: left;
+
+  h4 {
+    margin-bottom: 0.5rem;
+    color: var(--gray);
+  }
+}
+
+.journey-path {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 1rem;
+  background: var(--highlight);
+  border-radius: 8px;
+}
+
+.journey-step {
+  padding: 0.25rem 0.75rem;
+  border-radius: 4px;
+  font-size: 0.9rem;
+
+  &.position {
+    background: var(--graphPosition);
+    color: white;
+  }
+
+  &.transition {
+    background: var(--graphTransition);
+    color: white;
+  }
+
+  &.submission {
+    background: var(--graphSubmission);
+    color: white;
+  }
+}
+
+.roll-stats {
+  margin: 1rem 0;
+  color: var(--gray);
+}
+
+.roll-again {
+  margin-top: 1rem;
+  padding: 1rem 2rem;
+  font-size: 1.1rem;
+}
+
+// Terminal actions on submission pages
+.terminal-actions {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+// ============================================================================
+// Victory Display Component
+// ============================================================================
+
+.victory-display {
+  margin: 1.5rem 0;
+}
+
+.stats-section {
+  margin: 1.5rem 0;
+}
+
+.stats-heading {
+  font-size: 0.85rem;
+  color: var(--gray);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin: 0 0 0.75rem 0;
+  text-align: center;
+}
+
+.lifetime-stats-section {
+  border-top: 1px solid var(--lightgray);
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+}
+
+.stat-success {
+  color: #2e7d32 !important;
+}
+
+.stat-failure {
+  color: #c62828 !important;
+}
+
+.victory-stats {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin: 1.5rem 0;
+}
+
+.stat-item {
+  text-align: center;
+}
+
+.stat-value {
+  display: block;
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--secondary);
+}
+
+.stat-label {
+  font-size: 0.85rem;
+  color: var(--gray);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.victory-subtitle {
+  font-size: 1.1rem;
+  color: var(--gray);
+  margin-bottom: 1rem;
+}
+
+.roll-again-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 12px;
+  background: #2e7d32;
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+  margin: 1rem 0;
+
+  &:hover {
+    background: #1b5e20;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(46, 125, 50, 0.3);
+  }
+
+  .roll-icon {
+    width: 24px;
+    height: 24px;
+    filter: brightness(0) invert(1);
+  }
+}
+
+// Performance Report (Strengths / Revisit)
+.performance-report {
+  margin: 1.5rem 0;
+  text-align: left;
+}
+
+.report-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+
+  @media (max-width: 600px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.report-column {
+  padding: 1rem;
+  border-radius: 8px;
+  background: var(--highlight);
+}
+
+.report-heading {
+  margin: 0 0 0.75rem 0;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+
+  .strengths & {
+    color: #2e7d32;
+  }
+
+  .weaknesses & {
+    color: #c62828;
+  }
+}
+
+.report-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.report-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.15);
+
+  &:last-child {
+    border-bottom: none;
+  }
+
+  &.empty {
+    color: var(--gray);
+    font-style: italic;
+  }
+}
+
+.report-technique {
+  font-weight: 500;
+  color: var(--dark);
+}
+
+.report-rate {
+  font-size: 0.9rem;
+  font-weight: 600;
+  min-width: 3rem;
+  text-align: right;
+
+  .strength & {
+    color: #2e7d32;
+  }
+
+  .weakness & {
+    color: #c62828;
+  }
+}
+
+.victory-fallback {
+  text-align: center;
+  padding: 2rem;
+}
+
+.fallback-message {
+  font-size: 1.25rem;
+  color: var(--gray);
+  margin-bottom: 1.5rem;
+}
+
+// Journey path with colored badges
+.journey-arrow {
+  color: var(--gray);
+  font-weight: 500;
+}
+
+.journey-step {
+  &.success {
+    box-shadow: 0 0 0 2px #2e7d32;
+  }
+
+  &.failure {
+    opacity: 0.6;
+    text-decoration: line-through;
+  }
+}
+
+// Confetti container
+#confetti-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+// Confetti animation
+@keyframes confetti-fall {
+  0% {
+    transform: translateY(0) rotate(0deg);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(300px) rotate(720deg);
+    opacity: 0;
+  }
+}
+
+.confetti-piece {
+  position: absolute;
+}
+
+// ============================================================================
 // Global Dark Mode Scrollbar Styles
 // ============================================================================
 
@@ -49,26 +948,49 @@ article {
 // Test 3: Visual Enhancement Variants
 // ----------------------------------------------------------------------------
 
-// Enhanced variant: Add visual styling to expert insights and key sections
-.variant-visual-enhanced {
+// Common Mistakes Accordion
+#common-mistakes .mistake-heading {
+  cursor: pointer;
+  user-select: none;
+  padding-right: 1.5rem;
+  position: relative;
 
-  // Expert insights with colored left border and subtle background
-  .expert-insight,
-  #expert-insights {
-    border-left: 4px solid #284b63;
-    padding-left: 1.5rem;
-    padding-right: 1rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    background: rgba(40, 75, 99, 0.05);
-    margin: 1.5rem 0;
-    border-radius: 4px;
-
-    h2, h3 {
-      margin-top: 0;
-    }
+  &::after {
+    content: "+";
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1.2rem;
+    color: var(--gray);
   }
 
+  &.open::after {
+    content: "\2212";
+  }
+}
+
+#common-mistakes .mistake-body {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+
+  &.open {
+    max-height: 600px;
+  }
+}
+
+// Decision tree styling (applied unconditionally for all pages)
+#decision-tree {
+  background: rgba(255, 242, 54, 0.08);
+  padding: 1.5rem;
+  border-radius: 4px;
+  border-left: 4px solid #f0b429;
+  margin: 1.5rem 0;
+}
+
+// Enhanced variant: Add visual styling to key sections
+.variant-visual-enhanced {
   // Visual emphasis on key principles
   #key-principles {
     background: rgba(132, 165, 157, 0.08);
@@ -79,15 +1001,6 @@ article {
     ul {
       margin-top: 0.5rem;
     }
-  }
-
-  // Highlight decision tree sections for better scannability
-  #decision-tree {
-    background: rgba(255, 242, 54, 0.08);
-    padding: 1.5rem;
-    border-radius: 4px;
-    border-left: 4px solid #f0b429;
-    margin: 1.5rem 0;
   }
 
   // Subtle enhancement for execution/transition steps
@@ -123,25 +1036,45 @@ summary::-webkit-details-marker {
 }
 
 // ============================================================================
+// Role Quick Links (Hub Pages)
+// ============================================================================
+
+.role-links {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+
+  a {
+    padding: 0.5rem 1rem;
+    border: 1px solid var(--secondary);
+    border-radius: 8px;
+    background: transparent;
+    color: var(--secondary);
+    font-weight: 500;
+    font-size: 0.9rem;
+    text-decoration: none;
+    transition: all 0.15s;
+
+    &:hover {
+      background: var(--secondary);
+      color: var(--light) !important;
+    }
+  }
+}
+
+// ============================================================================
 // Dark Mode Adjustments for A/B Testing Variants
 // ============================================================================
 
 @media (prefers-color-scheme: dark) {
+  #decision-tree {
+    background: rgba(255, 242, 54, 0.05);
+    border-left-color: #c4961f;
+  }
+
   .variant-visual-enhanced {
-
-    .expert-insight,
-    #expert-insights {
-      background: rgba(123, 151, 170, 0.1);
-      border-left-color: #7b97aa;
-    }
-
     #key-principles {
       background: rgba(132, 165, 157, 0.1);
-    }
-
-    #decision-tree {
-      background: rgba(255, 242, 54, 0.05);
-      border-left-color: #c4961f;
     }
   }
 
@@ -150,5 +1083,34 @@ summary::-webkit-details-marker {
     box-shadow:
       inset 0 0.5rem 0.5rem -0.5rem rgba(255, 255, 255, 0.08),
       inset 0 -0.5rem 0.5rem -0.5rem rgba(255, 255, 255, 0.08);
+  }
+}
+
+// ============================================================================
+// Dark Mode: White hover text for navigation elements
+// ============================================================================
+
+[saved-theme="dark"] {
+  // General link hover
+  a:hover {
+    color: #fff !important;
+  }
+
+  // Breadcrumbs hover
+  .breadcrumb-element a:hover {
+    color: #fff !important;
+  }
+
+  // Explorer hover
+  #explorer-content ul li > a:hover,
+  .folder-container div > a:hover,
+  .folder-container div > button:hover span,
+  .folder-icon:hover {
+    color: #fff !important;
+  }
+
+  // Table of contents hover
+  #toc-content ul > li > a:hover {
+    color: #fff !important;
   }
 }

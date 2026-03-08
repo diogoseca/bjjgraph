@@ -1,0 +1,394 @@
+{
+  "name": "Recover Full Guard from Quarter Guard",
+  "description": "Master Recover Full Guard from Quarter Guard in BJJ. Expert guide to hip escape mechanics, frame creation, and leg replacement from quarter guard.",
+  "tags": [
+    "bjj",
+    "guard-recovery",
+    "quarter-guard",
+    "half-guard",
+    "defensive-technique",
+    "hip-escape",
+    "guard-retention",
+    "transitional"
+  ],
+  "from_position": "Quarter Guard/Bottom",
+  "outcomes": [
+    {
+      "to": "Half Guard/Bottom",
+      "probability": 50,
+      "result": "success"
+    },
+    {
+      "to": "Quarter Guard/Bottom",
+      "probability": 30,
+      "result": "failure"
+    },
+    {
+      "to": "Side Control/Bottom",
+      "probability": 20,
+      "result": "counter"
+    }
+  ],
+  "success_rate": 50,
+  "overview": "Recover Full Guard from Quarter Guard is a fundamental defensive recovery technique in BJJ's guard retention system. When the bottom player finds themselves in quarter guard—a severely compromised position with minimal leg entanglement remaining—the ability to recover to a functional half guard determines whether they maintain defensive viability or surrender position entirely. This technique relies on precise hip escape timing, effective frame creation against the passer's pressure, and coordinated leg replacement to re-establish meaningful guard structure before the top player can consolidate side control.\n\nThe recovery works by creating momentary space through framing and hip movement, then using that space to reinsert the inside knee and re-establish leg entanglement at the half guard level. The bottom player must coordinate upper body frames against the passer's chest or shoulder with a decisive hip escape away from the passing direction, creating just enough gap to slide the knee back between themselves and their opponent. The technique demands efficiency because quarter guard deteriorates rapidly under competent pressure—hesitation or incomplete execution allows the top player to advance further toward full pass completion.\n\nStrategically, this recovery represents the last viable opportunity to retain guard before conceding side control. It integrates with the broader quarter guard bottom game where the bottom player must decide between offensive options like sweeps and back takes versus defensive recovery to more sustainable guard positions. The technique is most effective when combined with the threat of sweeps, as the top player's reaction to sweep attempts often creates the space needed for guard recovery. Understanding when to abandon offensive quarter guard attacks in favor of guard recovery is a key decision-making skill that separates competent guard players from those who get passed repeatedly.",
+  "conditions": [
+    "Bottom player has minimal leg entanglement in quarter guard with at least partial foot or ankle contact on opponent's leg",
+    "Bottom player retains some hip mobility and is not completely flattened by opponent's crossface pressure",
+    "At least one frame or underhook remains to create space for hip escape movement",
+    "Top player has not yet fully cleared legs to consolidate side control"
+  ],
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Frame and Shrimp Recovery",
+      "description": "Uses forearm frames against the passer's chest or neck combined with an explosive hip escape to create space for knee reinsertion. The bottom player pushes the passer's upper body away while simultaneously shrimping the hips to create an angle, then threads the inside knee through the gap to recover half guard entanglement.",
+      "when_to_use": "When the top player's weight is centered on your chest and you can establish forearm frames before they consolidate crossface control."
+    },
+    {
+      "variant_name": "Underhook-Assisted Recovery",
+      "description": "Leverages an existing underhook to prevent flattening while using the free leg to create a knee shield frame. The underhook prevents the passer from driving shoulder pressure through, creating enough space for the bottom player to work the inside leg back into half guard position through a combination of hip escape and knee insertion.",
+      "when_to_use": "When you have maintained the underhook from half guard and the opponent has advanced to quarter guard but cannot strip your underhook control."
+    },
+    {
+      "variant_name": "Butterfly Hook Replacement",
+      "description": "Instead of recovering traditional half guard leg entanglement, the bottom player inserts a butterfly hook with the inside foot against the passer's inner thigh. This creates immediate elevation threat and distance management, transitioning from quarter guard into a butterfly half guard configuration rather than standard half guard.",
+      "when_to_use": "When the passer's weight is shifted forward and their leg position allows butterfly hook insertion rather than traditional half guard recovery."
+    }
+  ],
+  "position_integration": "Recover Full Guard from Quarter Guard occupies a critical position in BJJ's guard retention hierarchy, serving as the last defensive checkpoint before guard is fully passed. It connects quarter guard bottom to the broader half guard system, allowing practitioners to reset to positions with greater offensive capability. This technique integrates with the sweep-versus-recovery decision tree that defines quarter guard play: when sweeps and back takes from quarter guard are unavailable or too risky, guard recovery provides a safe fallback that preserves positional integrity. The technique also synergizes with knee shield retention and deep half guard entries as alternative recovery pathways from the same compromised position.",
+  "related_content": [
+    {
+      "name": "Quarter Guard",
+      "relationship": "Starting position from which guard recovery is attempted"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Primary recovery target position providing functional guard with offensive options"
+    },
+    {
+      "name": "Side Control",
+      "relationship": "Position opponent achieves if guard recovery fails and pass is completed"
+    },
+    {
+      "name": "Knee Shield Half Guard",
+      "relationship": "Alternative recovery target using knee shield frame for distance management"
+    },
+    {
+      "name": "Knee Shield from Quarter Guard",
+      "relationship": "Related recovery technique targeting knee shield configuration instead of standard half guard"
+    },
+    {
+      "name": "Complete Pass from Quarter",
+      "relationship": "Opposing technique the top player uses to advance past quarter guard to side control"
+    },
+    {
+      "name": "Knee Through from Quarter",
+      "relationship": "Top player passing technique that guard recovery must defend against"
+    },
+    {
+      "name": "Deep Half Guard",
+      "relationship": "Alternative guard recovery option when opponent drives weight forward during pass attempt"
+    },
+    {
+      "name": "Flattened Half Guard",
+      "relationship": "Compromised position that may result from incomplete guard recovery"
+    },
+    {
+      "name": "Old School Sweep",
+      "relationship": "Offensive quarter guard technique whose threat creates space for guard recovery"
+    },
+    {
+      "name": "Elbow Escape from Flattened Half",
+      "relationship": "Related escape technique using similar hip escape mechanics from compromised bottom position"
+    }
+  ],
+  "attacker": {
+    "name": "Recover Full Guard from Quarter Guard Attacker",
+    "description": "Master guard recovery from quarter guard bottom. Learn frame creation, hip escape timing, and leg replacement techniques to recover half guard from compromised positions.",
+    "overview": "As the attacker executing Recover Full Guard from Quarter Guard, you are the bottom player fighting to recover functional guard from a severely compromised quarter guard position. Your primary objective is to create enough space through framing and hip movement to reinsert your knee and re-establish half guard entanglement before the top player can consolidate the pass. This requires precise timing—you must identify the moment when your opponent adjusts weight or commits to a passing action, then exploit that window with coordinated upper and lower body movement. The technique demands efficiency and decisiveness because quarter guard deteriorates rapidly, meaning every second spent in passive defense reduces your probability of successful recovery.",
+    "key_principles": [
+      "Frame before you move—establish solid contact against the passer's chest, shoulder, or neck before attempting any hip escape to ensure the frame creates actual space rather than just burning energy",
+      "Hip escape creates the space, knee insertion fills it—the shrimp movement must be immediately followed by knee reinsertion before the space collapses under returning pressure",
+      "Time the recovery to opponent's weight shifts—the optimal moment is when the passer adjusts grips, changes passing angle, or commits weight to one direction",
+      "Coordinate upper and lower body simultaneously—frames push the opponent's upper body while hips escape in the opposite direction, creating maximum space through opposing forces",
+      "Maintain leg contact throughout recovery—do not completely disengage your remaining leg control, as this allows the passer to freely advance past your guard",
+      "Commit fully once you begin the recovery—half-hearted attempts waste energy and telegraph your intention without creating sufficient space for guard recovery"
+    ],
+    "setup_requirements": [
+      "At least partial leg contact on opponent's trapped leg through ankle hook, knee contact, or quarter lockdown providing the anchor point for recovery",
+      "One functional frame established against opponent's upper body—either forearm across chest, hand on shoulder, or underhook preventing complete flattening",
+      "Hip mobility sufficient to execute at least a partial hip escape—being completely flattened with zero mobility makes recovery impossible and requires a different escape path",
+      "Opponent has not yet fully cleared your legs to consolidate side control—the window for recovery closes once both legs are past your hip line",
+      "Sufficient awareness of opponent's weight distribution to identify timing windows for the recovery attempt"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Establish frames against passer's upper body",
+        "description": "Place your forearm or hand against your opponent's chest, shoulder, or neck to create a structural barrier. If you have an underhook, use it to prevent their shoulder from driving into your face. The frame must be a solid skeletal structure—use bone-on-bone contact rather than muscular pushing to conserve energy while creating meaningful resistance against their advancing pressure."
+      },
+      {
+        "step_number": 2,
+        "action": "Identify timing window for hip escape",
+        "description": "Wait for the moment when your opponent shifts weight, adjusts grips, or commits to a specific passing direction. Common timing windows include when they lift their hips to advance position, when they reach for a new grip with one hand reducing their base, or when they begin transitioning from crossface to underhook. This micro-adjustment creates a brief reduction in pressure that your frame can exploit."
+      },
+      {
+        "step_number": 3,
+        "action": "Execute explosive hip escape away from passing direction",
+        "description": "Drive your hips away from the direction your opponent is passing by pushing off your posted foot and bridging into a shrimp motion. The hip escape should move your hips at least six to eight inches away from their center line, creating space between your body and theirs. Your frame simultaneously pushes their upper body in the opposite direction, maximizing the total space created through opposing forces."
+      },
+      {
+        "step_number": 4,
+        "action": "Insert inside knee between you and opponent",
+        "description": "Immediately after the hip escape creates space, drive your inside knee through the gap between your bodies. The knee should point toward your opponent's hip or chest, acting as a wedge that prevents them from re-closing the distance. This is the critical moment—the knee must enter the space before your opponent can drive their weight back down and collapse the gap you created with the hip escape."
+      },
+      {
+        "step_number": 5,
+        "action": "Re-establish leg entanglement at half guard level",
+        "description": "Once the knee is inserted, work your legs to trap your opponent's leg between both of your legs at the knee or thigh level. Use your bottom leg to hook behind their knee while your top leg closes over their thigh, creating the standard half guard entanglement. This provides meaningful control that prevents the passer from easily advancing and gives you access to the full half guard offensive system."
+      },
+      {
+        "step_number": 6,
+        "action": "Secure upper body grips and stabilize position",
+        "description": "With half guard leg entanglement re-established, immediately fight for dominant upper body grips—ideally an underhook on the trapped leg side or a knee shield frame against their chest. Do not relax after recovering leg position; the recovery is incomplete until you have both leg entanglement and upper body control that prevents the passer from immediately re-advancing past your guard."
+      },
+      {
+        "step_number": 7,
+        "action": "Angle hips and establish offensive half guard structure",
+        "description": "Turn onto your side facing your opponent with hips angled approximately thirty to forty-five degrees off the mat. This side positioning activates your half guard offensive system including sweeps, back takes, and guard transitions. Remaining flat on your back after recovery leaves you in flattened half guard, which is nearly as compromised as the quarter guard you just escaped. The recovery is complete when you have functional, angled half guard with upper body control."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Opponent drives heavy crossface to prevent hip escape and flatten you back down",
+        "effectiveness": "High",
+        "your_response": "Use your free hand to block the crossface before it establishes by framing against their bicep or shoulder. If crossface is already established, redirect your recovery to deep half guard entry by getting underneath their weight rather than trying to create distance against their pressure.",
+        "targets_outcome": "Side Control/Bottom"
+      },
+      {
+        "counter": "Opponent drops weight and sprawls hips back when feeling your frame and hip escape initiation",
+        "effectiveness": "Medium",
+        "your_response": "When opponent sprawls, their leg position often loosens momentarily. Use this window to hook their leg with your bottom foot and pull it back into half guard entanglement. The sprawl actually assists your recovery if you can capture the leg before they re-establish forward pressure.",
+        "targets_outcome": "Quarter Guard/Bottom"
+      },
+      {
+        "counter": "Opponent backsteps around your recovery attempt to take a different passing angle",
+        "effectiveness": "Medium",
+        "your_response": "Follow their movement with your hips and adjust your knee shield orientation to face the new passing angle. If they backstep far enough, you may have space to recover to open guard or establish butterfly hooks rather than half guard. Stay connected to their leg to prevent complete disengagement.",
+        "targets_outcome": "Side Control/Bottom"
+      },
+      {
+        "counter": "Opponent posts far hand on mat and drives knee through the gap you created during hip escape",
+        "effectiveness": "High",
+        "your_response": "If the knee drives through before your knee shield establishes, immediately switch to underhook and come up to dogfight position rather than trying to re-close the guard. The posted hand creates a back take opportunity if you can get your underhook deep and come up to your knees alongside them.",
+        "targets_outcome": "Side Control/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Attempting guard recovery while completely flat on back with no frames established",
+        "consequence": "Hip escape has no space to work because opponent's weight pins you to the mat. The recovery attempt generates minimal movement and wastes energy without creating the space needed for knee reinsertion, leaving you more exhausted and in the same compromised position.",
+        "correction": "Always establish at least one frame against opponent's upper body before attempting the hip escape. If you cannot frame, first focus on getting to your side through bridging and underhook work before attempting full guard recovery."
+      },
+      {
+        "error": "Hip escaping without simultaneously pushing opponent away with frames",
+        "consequence": "The hip escape moves your body but the opponent follows your movement, maintaining the same relative distance and preventing space creation. The recovery attempt moves you across the mat without actually creating the gap needed for knee insertion.",
+        "correction": "Coordinate frame extension and hip escape as one simultaneous movement—push their upper body away while your hips escape in the opposite direction. The opposing forces multiply the space created compared to hip escape alone."
+      },
+      {
+        "error": "Inserting knee too slowly after creating space with hip escape",
+        "consequence": "The space created by hip escape collapses within one to two seconds as the opponent drives weight back forward. Delayed knee insertion means the gap closes before your knee can wedge through, wasting the energy spent on the hip escape and requiring the entire sequence to restart.",
+        "correction": "Train the hip escape to knee insertion as one fluid motion rather than two separate movements. The knee should begin driving inward during the hip escape itself, entering the space as it opens rather than waiting until after the escape completes."
+      },
+      {
+        "error": "Recovering leg position without fighting for upper body grips afterward",
+        "consequence": "Half guard without upper body control is easily re-passed. The opponent immediately begins another passing sequence against your half guard, and without grips you end up back in quarter guard or worse within seconds.",
+        "correction": "Treat the recovery as incomplete until both leg entanglement and upper body control are established. Immediately fight for underhook or knee shield after recovering leg position—do not relax or celebrate the recovery before securing grips."
+      },
+      {
+        "error": "Telegraphing the recovery attempt by tensing up or pausing before the hip escape",
+        "consequence": "Opponent recognizes the impending recovery attempt and preemptively increases pressure, drives crossface harder, or adjusts position to block the hip escape before it can create space. Telegraphing eliminates the timing advantage that makes the recovery work.",
+        "correction": "Initiate the recovery as a sudden explosive movement without preparatory tension or wind-up. The frame should already be in position from general defensive posture, and the hip escape should launch from relaxed positioning when the timing window appears."
+      },
+      {
+        "error": "Completely disengaging remaining leg contact during recovery attempt",
+        "consequence": "Without any leg connection, the opponent can freely advance past your guard during the recovery attempt. Complete disengagement removes the anchor point that provides leverage for the hip escape and allows the passer to simply step over your legs into side control.",
+        "correction": "Maintain at least partial leg contact—ankle hook, foot on hip, or knee contact—throughout the entire recovery sequence. This connection serves as both an anchor for your hip escape and a barrier that prevents the opponent from freely advancing while you reposition."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Solo Hip Escape Mechanics",
+        "focus": "Developing efficient hip escape movement patterns without resistance",
+        "description": "Practice solo shrimping drills emphasizing the coordination between pushing off the posted foot, bridging to create space, and immediately inserting the knee into the gap. Focus on performing the entire frame-shrimp-insert sequence as one fluid movement. Repeat fifty to one hundred repetitions per session until the movement pattern becomes automatic."
+      },
+      {
+        "phase": "Phase 2: Cooperative Partner Drilling",
+        "focus": "Executing the full recovery sequence against a stationary partner",
+        "description": "Partner holds quarter guard top position without active resistance. Practice the complete recovery sequence from frame establishment through hip escape to knee insertion and grip acquisition. Focus on proper frame placement, explosive hip escape direction, and immediate knee insertion timing. Ten repetitions per side with partner feedback on pressure and positioning."
+      },
+      {
+        "phase": "Phase 3: Progressive Resistance Training",
+        "focus": "Performing recovery against increasing levels of realistic passing pressure",
+        "description": "Partner applies gradually increasing passing pressure from twenty-five percent to seventy-five percent while you practice the recovery. Partner introduces specific counters one at a time—crossface pressure, weight drops, backsteps—so you develop appropriate responses to each. Track success rate and adjust timing based on which resistance patterns cause failure."
+      },
+      {
+        "phase": "Phase 4: Live Positional Sparring",
+        "focus": "Executing recovery under full competitive conditions with complete decision-making",
+        "description": "Start in quarter guard bottom against a fully resisting partner. Practice selecting between recovery, sweeps, and back takes based on the live situation. Partner tries to complete the pass while you attempt recovery or offensive transitions. Track success rate across rounds and identify which situations favor recovery versus offensive alternatives."
+      },
+      {
+        "phase": "Phase 5: Integration and Chain Drilling",
+        "focus": "Combining recovery with offensive quarter guard techniques in flowing sequences",
+        "description": "Flow between recovery attempts and offensive options—attempt old school sweep, if blocked recover guard, if recovery stalls switch to deep half entry. Practice the decision tree that determines when to attack versus when to recover, developing the situational awareness to choose the right option in real time during rolling."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the optimal timing window for initiating guard recovery from quarter guard?",
+        "answer": "The optimal timing window occurs when the top player shifts weight to adjust grips, changes passing angle, or commits to a specific passing direction. These micro-adjustments create brief reductions in forward pressure that allow your frames to create space. Common windows include when they reach for a new grip with one hand, when they lift their hips to advance position, or when they transition between crossface and underhook control. Initiating recovery during these transitions exploits the momentary instability in their pressure."
+      },
+      {
+        "question": "What conditions must exist before you can attempt guard recovery from quarter guard?",
+        "answer": "Four conditions must be present: at least partial leg contact on the opponent's trapped leg providing an anchor point, one functional frame established against their upper body preventing complete flattening, sufficient hip mobility to execute at least a partial hip escape, and the opponent must not have fully cleared your legs to consolidate side control. If any condition is missing, you should address it first before attempting recovery—for example, bridge to create space for a frame if you have none."
+      },
+      {
+        "question": "What is the most critical mechanical detail in the hip escape during guard recovery?",
+        "answer": "The most critical detail is coordinating the frame push and hip escape as simultaneous opposing forces. The frame pushes the opponent's upper body one direction while your hips escape in the opposite direction, creating double the space compared to hip escape alone. The hip escape must move at least six to eight inches away from the opponent's center line, and the inside knee must begin driving inward during the escape itself rather than after it completes, treating the entire sequence as one fluid movement."
+      },
+      {
+        "question": "Your opponent drives a heavy crossface as you begin your hip escape—how do you adjust your recovery?",
+        "answer": "When the crossface prevents effective hip escape toward distance, redirect the recovery toward deep half guard entry instead. Turn into the opponent rather than away, getting your head underneath their chest while your outside arm reaches for their far leg. The crossface pressure that blocks standard recovery actually assists deep half entry by keeping your bodies close together. Alternatively, use your free hand to block the crossface at the bicep before it establishes, then proceed with standard recovery."
+      },
+      {
+        "question": "What grip should you prioritize immediately after recovering leg entanglement at half guard?",
+        "answer": "The underhook on the trapped leg side should be the first priority grip after recovering leg position. The underhook provides the primary offensive pathway to sweeps and back takes while preventing the opponent from re-establishing the crushing shoulder pressure that led to quarter guard in the first place. If the underhook is unavailable due to opponent's positioning, establish a knee shield frame with your shin across their torso as the secondary option to create distance and prevent immediate re-advancement."
+      },
+      {
+        "question": "How does the direction of your hip escape affect which guard variation you recover to?",
+        "answer": "Hip escaping away from the opponent creates space for standard half guard recovery with knee shield options and distance management. Hip escaping toward and underneath the opponent leads to deep half guard position with sweeping advantages. Hip escaping while staying square can allow butterfly hook insertion for butterfly half guard. The direction should be chosen based on the opponent's pressure—escape away from heavy forward pressure, go underneath against committed crossface pressure, and stay square against opponents who maintain upright posture."
+      },
+      {
+        "question": "Your opponent posts their far hand on the mat during your recovery attempt—what opportunity does this create?",
+        "answer": "A posted far hand removes one of the opponent's control points and shifts their base away from you. This creates two opportunities: first, the reduced pressure on your upper body makes the standard frame-and-shrimp recovery more effective since there is less weight to move. Second, the posted hand exposes the opponent to being pulled off-balance with your underhook—you can potentially convert the recovery attempt into a sweep or back take by using the underhook to pull them toward the posted hand side while coming up to your knees."
+      },
+      {
+        "question": "When should you abandon guard recovery in favor of offensive options from quarter guard?",
+        "answer": "Abandon recovery in favor of offense when you have a deep underhook and your opponent posts their hand for base, creating sweep and back take opportunities. Also switch to offense when the opponent lifts their hips high during a passing attempt, creating space underneath for old school sweep or electric chair entries. Recovery should be the default when you lack the underhook, when you are being flattened, or when offensive attempts have already failed and position continues deteriorating. The decision point is underhook quality—deep underhook with angle means attack, compromised underhook or flat position means recover."
+      }
+    ],
+    "safety_considerations": "Guard recovery from quarter guard is generally low-risk for injury, but practitioners should be cautious about explosive hip escape movements that can strain the lower back or hip flexors if performed without proper warm-up. Avoid using excessive muscular effort to force recovery when the timing window has closed, as this can lead to neck strain from fighting against crossface pressure or knee injuries from forcing leg insertion through tight spaces. If the opponent has established deep crossface control, do not bridge explosively against their head pressure as this can compress cervical vertebrae. Practice the technique at moderate intensity before adding full resistance, and tap if any joint compression or neck pressure becomes uncomfortable during drilling."
+  },
+  "defender": {
+    "name": "Recover Full Guard from Quarter Guard Defender",
+    "description": "Learn to prevent guard recovery when passing quarter guard. Understand how to maintain pressure, block hip escapes, and capitalize on recovery attempts to complete the pass.",
+    "overview": "As the defender against Recover Full Guard from Quarter Guard, you are the top player working to prevent the bottom player from recovering functional guard and instead capitalizing on their compromised position to complete the pass. Your primary objective is to maintain forward pressure that eliminates the space needed for hip escape and knee reinsertion while simultaneously advancing your own passing position. Understanding the bottom player's recovery mechanics allows you to anticipate their movement patterns and block recovery attempts before they generate meaningful space. The defender's advantage is positional—you have gravity, weight distribution, and superior angle working in your favor, making prevention primarily a matter of maintaining proper pressure rather than executing complex techniques.",
+    "key_principles": [
+      "Maintain constant forward pressure through chest and shoulder to eliminate space for hip escape—the bottom player cannot recover guard if there is no space to insert their knee",
+      "Control the bottom player's hip mobility through crossface pressure and chest weight to prevent the shrimping motion that initiates recovery",
+      "Capitalize on recovery attempts—when the bottom player frames and hip escapes, they momentarily create openings that allow you to advance your passing position if you react correctly",
+      "Keep your hips low and advancing forward past the bottom player's center line to maintain the quarter guard advantage and prevent leg re-entanglement",
+      "Anticipate the timing of recovery attempts by reading frame establishment and hip tensing as pre-indicators of the upcoming escape movement",
+      "Drive through recovery attempts rather than withdrawing—when you feel the bottom player frame, increase pressure rather than backing off to reset"
+    ],
+    "recognition_cues": [
+      "Bottom player establishes forearm frame against your chest, shoulder, or neck—this is the preparatory movement for hip escape and indicates recovery attempt is imminent",
+      "Bottom player tenses their hips and begins turning onto their side, indicating the hip escape is about to begin as they create the angle needed for knee insertion",
+      "Bottom player's inside knee begins driving toward your body as they attempt to insert it into the space between you, signaling the critical moment of the recovery",
+      "Bottom player bridges slightly before hip escaping, creating the initial space needed to begin the shrimp motion away from your passing direction",
+      "Bottom player's remaining leg contact tightens or shifts position as they prepare to use it as an anchor point for the recovery sequence"
+    ],
+    "defensive_options": [
+      {
+        "action": "Drive crossface and increase forward pressure when feeling frames establish",
+        "when_to_use": "When the bottom player begins framing against your chest or shoulder, indicating imminent recovery attempt",
+        "targets_outcome": "Side Control/Bottom",
+        "if_successful": "Crossface prevents hip escape, flattens bottom player, and creates opportunity to complete pass to side control within seconds",
+        "risk": "Over-committing forward pressure without maintaining base exposes you to sweep attempts if the bottom player has underhook control"
+      },
+      {
+        "action": "Backstep around the recovering knee before it establishes shield position",
+        "when_to_use": "When the bottom player successfully creates space and begins inserting their knee but has not yet established full half guard entanglement",
+        "targets_outcome": "Side Control/Bottom",
+        "if_successful": "Bypasses the knee shield entirely and allows pass completion to side control through a different angle that the bottom player's recovery cannot address",
+        "risk": "Backstep creates momentary space that skilled bottom players can use for crab ride or back take entries if the backstep is telegraphed"
+      },
+      {
+        "action": "Drop weight and sprawl hips back to collapse the space created by hip escape",
+        "when_to_use": "When the bottom player executes a hip escape and begins creating space between your bodies that threatens knee insertion",
+        "targets_outcome": "Quarter Guard/Bottom",
+        "if_successful": "Eliminates the space created by hip escape, returns to quarter guard pressure, and forces bottom player to restart recovery sequence from more depleted energy",
+        "risk": "Sprawling too far back may disengage your passing pressure entirely, giving the bottom player time to recover guard or switch to alternative escape paths"
+      },
+      {
+        "action": "Control inside knee with hand and pin it to the mat while continuing pass",
+        "when_to_use": "When you feel the bottom player's inside knee beginning to drive toward your body for guard recovery",
+        "targets_outcome": "Side Control/Bottom",
+        "if_successful": "Directly blocks the knee reinsertion that is essential for guard recovery, allowing you to continue passing while their primary recovery tool is neutralized",
+        "risk": "Using your hand to control the knee removes one point of base, potentially creating sweep vulnerability if the bottom player has strong underhook"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Side Control/Bottom",
+        "how": "Capitalize on the bottom player's frame and hip escape attempt by driving through their recovery with crossface pressure. When they extend frames and create space, use that momentary opening to drive your knee past their hip line entirely and consolidate side control before their knee can reinsert. The recovery attempt actually creates opportunities for pass completion if you maintain forward pressure through their movement."
+      },
+      {
+        "outcome": "Quarter Guard/Bottom",
+        "how": "Collapse the space created by the bottom player's hip escape by immediately dropping weight and driving your chest back down onto their torso. Control their inside knee with your hand to prevent reinsertion while re-establishing crossface control. This returns to the original quarter guard position but with the bottom player having expended energy on a failed recovery attempt, making subsequent passing easier."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Withdrawing pressure when feeling bottom player's frames establish instead of driving through them",
+        "consequence": "Backing off creates exactly the space the bottom player needs for guard recovery. The frames are designed to push you away, and your withdrawal compounds their effect, making recovery almost guaranteed.",
+        "correction": "When you feel frames, increase forward pressure rather than retreating. Drive your chest and shoulder weight into the frames while advancing your hips. Make the bottom player support your weight with their frames, which is exhausting and unsustainable."
+      },
+      {
+        "error": "Maintaining static position in quarter guard without actively working to complete the pass",
+        "consequence": "Giving the bottom player time allows them to find timing windows for recovery, develop frames, and create angles. Quarter guard is transitional—staying static allows the bottom player to eventually recover guard through persistent hip escape attempts.",
+        "correction": "Treat quarter guard as a transitional state and actively work to complete the pass within five to ten seconds. Use crossface, weight distribution, and leg extraction techniques to advance to side control before the bottom player can organize recovery attempts."
+      },
+      {
+        "error": "Ignoring the bottom player's underhook while focusing only on leg extraction for the pass",
+        "consequence": "The underhook provides the bottom player's primary offensive tool for sweeps and back takes. Allowing it to remain means the bottom player has both offensive and recovery options available from quarter guard.",
+        "correction": "Address the underhook by either stripping it with crossface pressure and shoulder drive, whizzering it to neutralize its offensive capability, or using it as a passing handle by accepting the underhook and backstep passing over it."
+      },
+      {
+        "error": "Over-committing weight forward without maintaining base against sweep attempts during recovery",
+        "consequence": "The bottom player may use your forward momentum against you by combining their recovery attempt with a sweep, using the space and angle created by hip escape to off-balance you rather than simply recovering guard.",
+        "correction": "Maintain base with your free leg posted wide and your posting hand ready to catch yourself. Forward pressure should be controlled and directional rather than fully committed—seventy percent forward pressure with thirty percent base retention prevents sweep vulnerability."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What are the earliest recognition cues that the bottom player is about to attempt guard recovery from quarter guard?",
+        "answer": "The earliest cues are frame establishment with forearm pressing against your chest or shoulder, hip tensing indicating preparation for shrimp movement, and the bottom player beginning to turn onto their side. These preparatory movements occur one to two seconds before the actual hip escape and knee insertion. Recognizing these pre-indicators allows you to increase pressure and block the recovery before it generates meaningful space, which is far easier than countering a recovery already in progress."
+      },
+      {
+        "question": "How should you adjust your pressure when the bottom player successfully creates space with a hip escape?",
+        "answer": "When the bottom player creates space, immediately drive your hips forward to close the gap while simultaneously increasing crossface pressure to prevent their knee from entering the space. Do not chase their hips—instead advance your own position forward past where their hips were, turning their escape into your passing progression. If the space is too large to close with pressure alone, use your hand to control their inside knee and prevent reinsertion while you continue advancing."
+      },
+      {
+        "question": "When should you choose to backstep versus drive forward in response to the bottom player's recovery attempt?",
+        "answer": "Drive forward when the bottom player's recovery is early-stage and their knee has not yet entered the space between you—your pressure can collapse the space before their knee inserts. Backstep when the bottom player has successfully inserted their knee and is beginning to establish half guard entanglement—at this point, driving forward plays into their recovering guard structure, while backstepping takes a completely different angle that bypasses their reinserted knee. The decision point is whether their knee has crossed the centerline between your bodies."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Recognition and Pressure Response",
+        "focus": "Identifying recovery attempts and maintaining forward pressure against frames",
+        "description": "Partner announces their recovery attempt before executing it. Practice recognizing the frame establishment and hip escape initiation, then responding with increased crossface pressure and forward hip drive. Focus on maintaining heavy chest connection while advancing position. Partner executes recovery at fifty percent speed and intensity."
+      },
+      {
+        "phase": "Phase 2: Counter Technique Development",
+        "focus": "Developing specific responses to successful and partially successful recovery attempts",
+        "description": "Partner executes full-speed recovery attempts while you practice specific counters: crossface drive, knee pin, backstep, and weight drop. Alternate between counters to develop the decision-making that selects the right response based on the recovery stage. Track which counter is most effective against different recovery variations."
+      },
+      {
+        "phase": "Phase 3: Pass Completion Integration",
+        "focus": "Converting recovery prevention directly into pass completion under realistic conditions",
+        "description": "Full positional sparring from quarter guard where your goal is to complete the pass within fifteen seconds while partner attempts recovery. Focus on maintaining constant pressure advancement rather than settling in quarter guard. Develop the ability to read and immediately capitalize on recovery attempts as passing opportunities rather than simply blocking them."
+      }
+    ]
+  }
+}

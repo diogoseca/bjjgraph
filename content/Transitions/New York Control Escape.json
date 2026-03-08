@@ -1,0 +1,399 @@
+{
+  "name": "New York Control Escape",
+  "description": "Master New York Control Escape in BJJ. Systematic overhook extraction, posture recovery, and passing strategies against rubber guard control positions.",
+  "tags": [
+    "bjj",
+    "transition",
+    "escape",
+    "rubber guard defense",
+    "guard top",
+    "10th planet defense",
+    "posture recovery"
+  ],
+  "from_position": "New York Control/Top",
+  "outcomes": [
+    {
+      "to": "Open Guard/Top",
+      "probability": 55,
+      "result": "success"
+    },
+    {
+      "to": "New York Control/Top",
+      "probability": 30,
+      "result": "failure"
+    },
+    {
+      "to": "Half Guard/Bottom",
+      "probability": 15,
+      "result": "counter"
+    }
+  ],
+  "success_rate": 55,
+  "overview": "The New York Control Escape is a systematic defensive technique executed by the top player trapped in the 10th Planet rubber guard New York Control position. This escape addresses one of the most challenging defensive scenarios in modern no-gi grappling, where the bottom player's combination of a leg wrapped over the shoulder and a deep overhook creates a controlling web that nullifies standard passing mechanics while threatening gogoplata, triangle, and omoplata submissions simultaneously.\n\nThe escape follows a strict sequential protocol where overhook extraction must occur before any leg removal attempts. Reversing this priority exposes the top player to cascading submission threats as the trapped arm prevents effective defensive hand fighting. The technique emphasizes lateral movement and circular base distribution rather than the forward pressure that intuitively feels correct but feeds directly into the bottom player's submission chains. Success requires patience, disciplined arm positioning with elbows tight to the body, and recognition of brief windows when the bottom player adjusts grips or transitions between attacks.\n\nStrategic mastery of this escape extends beyond simple positional recovery. Practitioners who develop reliable New York Control extraction mechanics gain confidence when engaging rubber guard specialists, removing the psychological pressure that causes many competitors to make critical errors through panic-driven responses. The escape integrates with broader guard passing strategy, as successful extraction typically creates open guard scenarios where the top player can immediately implement their preferred passing sequences against a momentarily disrupted guard structure.",
+  "conditions": [
+    "Top player is trapped in New York Control with overhook and leg wrap established across shoulder",
+    "Bottom player has active controls but has not yet locked in a finishing submission",
+    "Top player maintains sufficient base and arm positioning to begin systematic escape protocol",
+    "Top player's arms are not yet fully isolated for triangle, omoplata, or gogoplata setup"
+  ],
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Standing Extraction Escape",
+      "description": "Explosive standing escape that uses elevation and gravity to break the leg wrap structure. The top player posts one foot, drives upward while maintaining chin-to-chest defensive posture, and uses the height differential to reduce overhook depth before extracting the arm.",
+      "when_to_use": "When the bottom player's flexibility creates relatively loose leg control, or when the overhook is shallow enough that standing creates sufficient angle change to extract the arm"
+    },
+    {
+      "variant_name": "Lateral Slide Escape",
+      "description": "Low-profile escape using lateral hip movement and shoulder rotation to slide out from underneath the leg wrap while maintaining heavy base. The top player creates angle through sideways movement rather than upward posture, keeping weight distributed to prevent sweep attempts during extraction.",
+      "when_to_use": "When standing is too risky due to active sweep threats, or when the bottom player has strong leg hooks that would track upward movement but are vulnerable to lateral angle changes"
+    },
+    {
+      "variant_name": "Stack and Extract",
+      "description": "Pressure-based escape where the top player drives hips forward to stack the bottom player's hips upward, compressing their leg wrap structure while simultaneously working shoulder rotation to extract the overhook. The stacking action reduces the bottom player's hip mobility and submission angles.",
+      "when_to_use": "Against practitioners with limited flexibility who struggle to maintain proper New York structure when their hips are elevated, or when the bottom player's leg wrap is deep but the overhook is accessible"
+    }
+  ],
+  "position_integration": "The New York Control Escape integrates into the broader rubber guard defensive framework as the primary extraction technique against the most advanced rubber guard control position. Mastery of this escape allows top players to confidently engage rubber guard practitioners without the positional anxiety that leads to critical defensive errors. The escape connects directly to open guard top passing sequences upon successful completion, and understanding its mechanics informs defensive strategies against related rubber guard positions including Mission Control, Invisible Collar, and Zombie. Failed escape attempts that result in half guard bottom create secondary defensive requirements, making this technique a gateway to understanding the complete rubber guard defensive system. The disciplined arm positioning and patient sequential protocol developed through this escape transfer to defending all overhook-based guard systems in both gi and no-gi contexts.",
+  "related_content": [
+    {
+      "name": "New York Control",
+      "relationship": "Source position requiring systematic escape"
+    },
+    {
+      "name": "Open Guard",
+      "relationship": "Primary target position after successful escape"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Counter outcome position when swept during escape attempt"
+    },
+    {
+      "name": "Mission Control",
+      "relationship": "Related rubber guard position requiring similar defensive principles"
+    },
+    {
+      "name": "Closed Guard",
+      "relationship": "Recovery position achievable during partial escape"
+    },
+    {
+      "name": "Combat Base",
+      "relationship": "Intermediate base position during escape sequencing"
+    },
+    {
+      "name": "Invisible Collar",
+      "relationship": "Adjacent rubber guard position with overlapping escape mechanics"
+    },
+    {
+      "name": "Rubber Guard",
+      "relationship": "Parent guard system containing New York Control"
+    },
+    {
+      "name": "Chill Dog",
+      "relationship": "Related rubber guard variation with similar escape requirements"
+    },
+    {
+      "name": "Overhook Guard",
+      "relationship": "Related overhook-based position sharing arm extraction principles"
+    }
+  ],
+  "attacker": {
+    "name": "New York Control Escape Attacker",
+    "description": "Complete guide to executing the New York Control Escape from top position. Step-by-step overhook extraction, posture recovery, and guard passing mechanics against rubber guard.",
+    "overview": "Executing the New York Control Escape requires the top player to override natural instincts that worsen the position and instead follow a disciplined sequential protocol. The attacker must resist the urge to drive forward or posture up vertically, as both movements feed into the bottom player's submission chains. Instead, the escape relies on patient overhook extraction through shoulder rotation and angle creation, followed by systematic leg control removal once the arm is freed. The entire sequence demands awareness of submission threats at every stage while maintaining enough base to prevent sweeps during transitional moments. Success produces open guard top position where the top player immediately gains access to standard passing sequences.",
+    "key_principles": [
+      "Extract the overhook before attempting to remove leg control - reversed priority creates submission exposure",
+      "Use lateral movement and circular base rather than forward pressure that feeds submission chains",
+      "Maintain elbows tight to ribs with hands protecting neck throughout the entire escape sequence",
+      "Recognize grip adjustment windows as brief opportunities for arm extraction timing",
+      "Keep chin tucked to chest to defend gogoplata and reduce triangle vulnerability",
+      "Distribute weight through wide, low base to resist sweeps during transitional moments",
+      "Exercise patience through systematic protocol rather than explosive escape attempts that create openings"
+    ],
+    "setup_requirements": [
+      "Establish wide, low base with knees spread and hips close to mat to prevent sweeps during escape",
+      "Tuck chin firmly to chest to defend against gogoplata shin placement across throat",
+      "Position elbows tight against ribs with hands protecting neck to prevent arm isolation for triangle",
+      "Identify which arm is trapped in the overhook and assess the depth of control before beginning extraction",
+      "Verify the bottom player is not mid-transition to a submission before initiating escape movement"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Establish defensive base",
+        "description": "Widen your knees and lower your hips toward the mat while tucking your chin to your chest. Position your elbows tight against your ribs with both hands protecting your neck. This defensive platform prevents immediate submission threats while creating the stability needed for the escape sequence."
+      },
+      {
+        "step_number": 2,
+        "action": "Create lateral angle",
+        "description": "Shift your hips laterally toward the side of the trapped arm rather than driving forward or backward. This lateral movement reduces the overhook's mechanical advantage by changing the angle of the arm relative to the bottom player's controlling grip. Maintain your low base throughout this weight shift to prevent sweep attempts."
+      },
+      {
+        "step_number": 3,
+        "action": "Rotate shoulder for overhook extraction",
+        "description": "Drive your trapped shoulder forward and downward while simultaneously pulling your elbow toward your hip on the same side. The rotation creates a wedge that reduces the overhook depth. Time this movement to coincide with any grip adjustment by the bottom player, as temporary looseness in their control dramatically increases extraction success."
+      },
+      {
+        "step_number": 4,
+        "action": "Extract trapped arm",
+        "description": "Complete the arm extraction by pulling your elbow past the bottom player's armpit while maintaining shoulder rotation. Immediately establish a defensive hand position with the freed arm, posting on the bottom player's hip or bicep to prevent re-engagement of the overhook. Do not extend your arm fully, as this creates triangle vulnerability."
+      },
+      {
+        "step_number": 5,
+        "action": "Address leg control",
+        "description": "With the overhook eliminated, use your newly freed hand to control the bottom player's leg that wraps over your shoulder. Push the knee away from your body while simultaneously walking your hips backward to reduce the leg's leverage across your back. The leg control becomes substantially weaker without the complementary overhook restriction."
+      },
+      {
+        "step_number": 6,
+        "action": "Clear the leg wrap",
+        "description": "Drive the bottom player's controlling leg across their own centerline while posting your freed hand on their hip for stability. Rotate your torso to slide your shoulder out from underneath the leg wrap. The combination of pushing their leg away and rotating your body creates the angle needed to fully clear the leg control structure."
+      },
+      {
+        "step_number": 7,
+        "action": "Recover posture and establish passing position",
+        "description": "Once both the overhook and leg wrap are cleared, establish open guard top position by widening your base, securing grip control on the bottom player's legs or hips, and beginning standard passing sequences. Maintain distance management to prevent the bottom player from re-establishing rubber guard entries or recovering closed guard."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Bottom player deepens overhook and re-engages arm control during extraction attempt",
+        "effectiveness": "High",
+        "your_response": "Reset to defensive base position and wait for the next grip adjustment window. Attempting to force the extraction against a freshly deepened overhook wastes energy and increases submission exposure. Look for the bottom player to transition between attacks as this creates momentary looseness.",
+        "targets_outcome": "New York Control/Top"
+      },
+      {
+        "counter": "Bottom player initiates triangle setup by shooting leg around neck during arm extraction",
+        "effectiveness": "High",
+        "your_response": "Immediately retract your arm and tuck chin to chest while pinching elbows tight to ribs. If the leg has crossed your neck, drive your head into their hip and work to posture through the partially locked triangle before it tightens. Prevent the ankle from locking behind their knee.",
+        "targets_outcome": "New York Control/Top"
+      },
+      {
+        "counter": "Bottom player uses hip bump or overhook leverage to sweep during lateral angle creation",
+        "effectiveness": "Medium",
+        "your_response": "Post your free hand wide to the mat on the opposite side of the sweep direction while driving your hip weight downward. If the sweep begins to succeed, immediately abandon the escape attempt and focus on base recovery. Consider a controlled transition to half guard rather than being fully swept to mount.",
+        "targets_outcome": "Half Guard/Bottom"
+      },
+      {
+        "counter": "Bottom player transitions to gogoplata by shooting shin across throat as space is created",
+        "effectiveness": "Medium",
+        "your_response": "Tuck chin aggressively to chest and drive your head toward the mat on the side away from the incoming shin. If possible, stack their hips by driving forward to compress the shin angle. Standing up explosively can also create enough distance to clear the shin before it settles across the throat.",
+        "targets_outcome": "New York Control/Top"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Driving forward with pressure attempting to muscle through the position",
+        "consequence": "Forward pressure deepens the leg wrap across your back and improves the bottom player's angles for gogoplata, triangle, and omoplata submissions. It also loads your weight forward, making sweeps easier to execute.",
+        "correction": "Use lateral movement and circular base distribution instead. Shift weight sideways to change the angle of the overhook rather than compressing into the bottom player's structure."
+      },
+      {
+        "error": "Attempting to remove leg control before escaping the overhook",
+        "consequence": "The trapped arm prevents effective defensive hand fighting during leg removal. The bottom player cycles between submission threats while the overhook keeps you locked in their system.",
+        "correction": "Always extract the overhook first through shoulder rotation and lateral angle creation. The leg wrap becomes dramatically weaker once the overhook is eliminated."
+      },
+      {
+        "error": "Extending arms to push away or post during escape",
+        "consequence": "Extended arms provide the isolation needed for triangle setup and create space for omoplata rotations. Arm extension is the primary vulnerability the bottom player exploits.",
+        "correction": "Keep elbows pinned to ribs with hands at neck level throughout the escape. Use shoulder rotation and hip movement rather than arm extension to create escape angles."
+      },
+      {
+        "error": "Attempting explosive upward posture recovery while leg wrap persists",
+        "consequence": "The leg over your shoulder mechanically prevents vertical posture. Attempting to straighten up only tightens leg control and drives the trapped arm deeper into the overhook.",
+        "correction": "Use circular and lateral base distribution to reduce leg control effectiveness before any vertical posture attempts. Only recover posture after both overhook and leg wrap are cleared."
+      },
+      {
+        "error": "Panicking and rushing through escape steps out of sequence",
+        "consequence": "Skipping the sequential protocol exposes you to submission threats at each stage. Rushed movements telegraph your intentions and allow the bottom player to proactively set up counters.",
+        "correction": "Trust the systematic protocol and execute each phase completely before advancing. The escape is faster when done correctly in sequence than when steps are skipped."
+      },
+      {
+        "error": "Failing to re-establish grip control after clearing the overhook and leg wrap",
+        "consequence": "The bottom player immediately re-enters rubber guard or closes their guard, requiring you to restart the escape from the beginning with accumulated fatigue.",
+        "correction": "Immediately control the bottom player's hip and far leg upon clearing the position. Establish passing grips before they can re-engage their guard structure and maintain distance to prevent closed guard recovery."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Mechanics",
+        "focus": "Overhook extraction technique",
+        "description": "Practice the shoulder rotation and lateral angle creation for overhook extraction against a stationary partner. Focus on the mechanical sequence of widening base, shifting hips laterally, and driving the shoulder forward while pulling the elbow to the hip. No resistance. Repeat 20 times per side."
+      },
+      {
+        "phase": "Phase 2: Sequencing",
+        "focus": "Complete escape protocol",
+        "description": "Chain the full sequence from defensive base through overhook extraction, leg clearing, and posture recovery. Partner holds New York Control with 30% resistance. Emphasize smooth transitions between each phase without rushing. Practice recognizing the completion of each phase before advancing to the next."
+      },
+      {
+        "phase": "Phase 3: Timing",
+        "focus": "Window recognition and counter awareness",
+        "description": "Partner applies 60% resistance and periodically adjusts grips, creating extraction windows. Practice recognizing and exploiting these brief openings for arm extraction. Partner also begins threatening submissions during escape to develop defensive awareness while maintaining escape protocol."
+      },
+      {
+        "phase": "Phase 4: Live application",
+        "focus": "Full resistance positional sparring",
+        "description": "Begin in New York Control with full resistance. Top player works to escape while bottom player works to maintain position or finish submissions. Track success rate over multiple rounds. Reset to New York Control whenever escape succeeds or submission occurs. Target 50% escape rate against similar-level training partners."
+      },
+      {
+        "phase": "Phase 5: Integration",
+        "focus": "Escape to passing chain",
+        "description": "Full resistance from New York Control through escape and immediate passing sequence. Practice transitioning directly from successful escape into preferred guard pass without pause. Bottom player attempts to re-establish guard immediately upon escape, testing the top player's ability to maintain forward pressure and passing initiative."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "Why must overhook extraction occur before leg removal when escaping New York Control?",
+        "answer": "The overhook traps your arm against your body and prevents effective defensive hand fighting. If you attempt to remove the leg control while the overhook persists, you cannot use your trapped arm to push the leg away or protect against submissions. Meanwhile, the bottom player freely cycles between gogoplata, triangle, and omoplata threats because your arm remains immobilized. Extracting the overhook first restores your ability to use both hands defensively, after which the leg wrap alone provides substantially weaker control."
+      },
+      {
+        "question": "What is the critical hip movement during the lateral angle creation phase of the escape?",
+        "answer": "Shift your hips laterally toward the trapped arm side while keeping them low and heavy on the mat. This lateral shift changes the angle of your arm relative to the bottom player's overhook grip, reducing its mechanical advantage. The movement must be controlled and deliberate rather than explosive, maintaining your wide base throughout. Shifting toward the trapped side specifically creates the angle that allows shoulder rotation for extraction, whereas shifting away would actually deepen the overhook control."
+      },
+      {
+        "question": "Your opponent adjusts their overhook grip mid-escape - how do you exploit this window?",
+        "answer": "Grip adjustments create one to two seconds where the overhook depth temporarily decreases and pulling pressure relaxes. Immediately accelerate your shoulder rotation forward and pull your elbow toward your hip during this window. Time your maximum extraction effort to coincide with their grip transition rather than fighting against their full control. If the window closes before extraction completes, reset to defensive base and wait for the next adjustment rather than forcing through re-established control."
+      },
+      {
+        "question": "What grip should you establish immediately after freeing your trapped arm?",
+        "answer": "Post your freed hand on the bottom player's hip or bicep with a bent-arm frame. Do not extend your arm fully, as this creates triangle vulnerability. The hip frame prevents them from re-engaging the overhook by maintaining separation, while controlling their bicep prevents them from reaching for your head or establishing new grips. This defensive hand position must be established before you begin addressing the leg control, as even a brief moment without arm protection invites re-engagement of the overhook."
+      },
+      {
+        "question": "The bottom player shoots their shin toward your neck for a gogoplata during your escape - what is your immediate response?",
+        "answer": "Tuck your chin firmly to your chest to close the throat and prevent the shin from settling across your trachea. Drive your head toward the mat on the side away from the incoming shin to reduce the angle. If possible, stack their hips by driving forward momentarily to compress the shin arc. As a last resort, stand up explosively to create distance that eliminates the shin-to-throat angle. Prevention is superior to reaction - maintaining chin-to-chest posture throughout the escape eliminates most gogoplata opportunities before they develop."
+      },
+      {
+        "question": "How do you prevent being swept during the lateral weight shift phase of the escape?",
+        "answer": "Maintain a wide base with knees spread beyond shoulder width and hips heavy on the mat throughout the lateral shift. Your free hand should be prepared to post on the mat opposite to the shift direction if you feel sweep pressure. Move your weight laterally in small increments rather than committing large positional changes that compromise balance. If sweep momentum develops despite your base, immediately abandon the escape attempt and prioritize base recovery before the sweep completes, potentially accepting half guard rather than a full sweep to mount."
+      },
+      {
+        "question": "What specific conditions indicate the escape is safe to begin versus situations where you should wait?",
+        "answer": "Begin the escape when the bottom player's submissions are not actively being set up, your chin is securely tucked, both elbows are tight to your ribs, and you can establish a wide base without interference. Wait if the bottom player is mid-transition to a triangle or gogoplata, your arm is being actively pulled across your centerline, the overhook has just been freshly deepened after a failed attempt, or you feel your base is compromised by recent sweep pressure. Attempting escape during active submission setups dramatically increases the likelihood of getting caught."
+      }
+    ],
+    "safety_considerations": "The New York Control Escape involves shoulder rotation under load and lateral hip movement while managing an opponent's body weight. Be cautious of shoulder strain during overhook extraction, particularly if the bottom player resists aggressively. Communicate with training partners about pressure thresholds during drilling, and tap immediately if you feel joint stress in your trapped shoulder during live training. Neck safety requires maintaining chin-to-chest posture throughout to prevent gogoplata pressure on the trachea."
+  },
+  "defender": {
+    "name": "New York Control Escape Defender",
+    "description": "Master defending against the New York Control Escape. Maintain rubber guard position through overhook re-engagement, submission threats, and sweep counters from bottom.",
+    "overview": "Defending against the New York Control Escape requires the bottom player to recognize escape patterns early and respond with targeted counter-techniques that either restore full control or transition to advantageous positions. The defender's primary objective is to prevent overhook extraction, as the overhook constitutes the structural foundation of New York Control's submission system. When extraction cannot be prevented, the defender must immediately transition to alternative attacks or sweep attempts that punish the escape attempt rather than allowing free position advancement. Understanding the escape's sequential nature allows the defender to identify which phase the top player is in and apply the appropriate counter at each stage, transforming defensive retention into offensive opportunity.",
+    "key_principles": [
+      "Monitor overhook depth constantly and immediately re-engage when extraction begins before the arm clears your armpit",
+      "Maintain active leg pressure across opponent's back to prevent the postural changes needed for escape",
+      "Transition to submission threats when escape attempts create space, converting defense into offense",
+      "Use grip adjustments sparingly and quickly, as every adjustment creates an extraction window for the top player",
+      "Sweep immediately if the top player compromises their base during lateral movement, punishing improper escape mechanics",
+      "Keep free hand controlling opponent's other arm or neck to prevent the defensive posting that enables extraction"
+    ],
+    "recognition_cues": [
+      "Top player widens their knees and drops their hips lower to the mat, establishing the wide base needed for escape",
+      "Top player's trapped shoulder begins rotating forward and their elbow drives toward their hip, initiating overhook extraction",
+      "Top player shifts weight laterally rather than driving forward, indicating systematic escape protocol rather than passing attempt",
+      "Top player tucks chin aggressively to chest while pulling elbows tight to ribs, assuming full defensive posture",
+      "Top player's free hand begins posting or framing on your hip rather than maintaining head or grip control"
+    ],
+    "defensive_options": [
+      {
+        "action": "Deepen overhook by driving arm further under opponent's armpit and clasping shoulder or own leg",
+        "when_to_use": "As soon as you feel the opponent's shoulder beginning to rotate forward or their elbow pulling toward their hip",
+        "targets_outcome": "New York Control/Top",
+        "if_successful": "Opponent's extraction attempt is nullified and you maintain full control with opportunity to transition to submissions",
+        "risk": "Overcommitting to the overhook can expose your back if the opponent suddenly changes angle and attempts to circle behind"
+      },
+      {
+        "action": "Initiate triangle setup by shooting leg around opponent's neck as their arm begins to separate from your overhook",
+        "when_to_use": "When the opponent's arm partially clears the overhook and creates space between their elbow and ribs during extraction",
+        "targets_outcome": "New York Control/Top",
+        "if_successful": "Opponent must abandon escape to defend triangle, resetting to New York Control or advancing to triangle control",
+        "risk": "If the triangle angle is poor, the opponent may use the leg transition to clear your control entirely"
+      },
+      {
+        "action": "Execute hip bump sweep during opponent's lateral weight shift when their base is transitionally compromised",
+        "when_to_use": "When the top player shifts weight laterally for angle creation and temporarily has their center of gravity off-center",
+        "targets_outcome": "Half Guard/Bottom",
+        "if_successful": "Opponent is swept and you achieve top position, converting their escape attempt into a positional reversal",
+        "risk": "Failed sweep attempt may accelerate their escape by creating additional space and breaking your leg control structure"
+      },
+      {
+        "action": "Transition to Mission Control or Crackhead Control as the overhook begins failing",
+        "when_to_use": "When you recognize the overhook is compromised beyond recovery but your leg wrap still controls their posture",
+        "targets_outcome": "New York Control/Top",
+        "if_successful": "You maintain guard control through an alternative rubber guard position without conceding escape to open guard",
+        "risk": "Transition requires releasing the failing overhook, which momentarily reduces control and may allow leg extraction if not executed smoothly"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "New York Control/Top",
+        "how": "Immediately deepen overhook control when you feel the opponent's shoulder rotate or elbow pull toward hip. Keep active leg pressure across their back and threaten submissions to force them to abandon escape attempts and return to defensive positioning."
+      },
+      {
+        "outcome": "Half Guard/Bottom",
+        "how": "Time a hip bump sweep to coincide with the opponent's lateral weight shift during angle creation. When their center of gravity moves off-center, drive your hip upward while pulling with the overhook to topple their compromised base. Follow through to establish top half guard position."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Allowing passive leg pressure without actively pulling knee toward opponent's far shoulder",
+        "consequence": "Reduces leg control effectiveness and allows the top player to recover posture and clear the leg wrap with minimal effort after extracting the overhook",
+        "correction": "Constantly pull the wrapping leg across the opponent's back while driving the knee toward their far shoulder. Active engagement maintains the mechanical structure needed to prevent escape even during overhook battles."
+      },
+      {
+        "error": "Frequently adjusting overhook grip without awareness that each adjustment creates extraction windows",
+        "consequence": "Grip transitions temporarily reduce overhook depth, giving the top player brief opportunities to extract their arm. Skilled opponents time their extraction to coincide with these adjustments.",
+        "correction": "Establish a deep, secure overhook grip and maintain it without unnecessary adjustments. When grip changes are required, execute them as quickly as possible and immediately re-establish full depth to minimize extraction windows."
+      },
+      {
+        "error": "Failing to transition to alternative attacks when the escape is partially succeeding",
+        "consequence": "Clinging to a failing overhook until the top player fully extracts loses the opportunity to transition to triangle, omoplata, or alternative rubber guard positions that could punish the escape attempt",
+        "correction": "Recognize when the overhook is compromised beyond recovery and immediately transition to submission threats or alternative guard positions. A smooth transition to Mission Control or triangle setup is more valuable than a lost overhook battle."
+      },
+      {
+        "error": "Releasing free hand control to fight for the overhook with both hands",
+        "consequence": "The opponent's free arm establishes defensive posting on your hip or mat, accelerating their escape and preventing your counter-attacks",
+        "correction": "Maintain control of the opponent's free arm or neck with your non-overhook hand throughout. This limits their ability to post defensively and preserves your offensive framework even during contested escape sequences."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the earliest recognition cue that the top player is initiating a New York Control Escape?",
+        "answer": "The first reliable cue is the top player widening their knees and dropping their hips lower toward the mat, establishing the wide base needed for the lateral angle creation phase. This precedes the shoulder rotation and is your best window for proactive defense. Immediately deepen your overhook and increase active leg pressure when you observe this base change, as it indicates the escape protocol has begun before the arm extraction becomes the primary threat."
+      },
+      {
+        "question": "How should you adjust when you feel the opponent's shoulder beginning to rotate forward under your overhook?",
+        "answer": "Immediately drive your controlling arm deeper under their armpit while pulling your elbow toward your own hip to increase overhook depth. Simultaneously increase active leg pressure by pulling your knee more aggressively toward their far shoulder. If the rotation continues despite deepening, begin transitioning your leg toward their neck for a triangle setup, converting their extraction movement into submission vulnerability. The shoulder rotation is the critical extraction mechanic and stopping it early is far easier than countering a completed extraction."
+      },
+      {
+        "question": "When is the optimal moment to attempt a sweep against someone escaping New York Control?",
+        "answer": "The optimal sweep timing is during the lateral weight shift phase when the top player moves their center of gravity off-center to create angle for overhook extraction. Their base is transitionally compromised during this movement, making hip bump sweeps and overhook-assisted off-balancing most effective. Attempting the sweep too early before they shift means fighting against a stable base, while attempting too late after arm extraction means you have lost the overhook leverage needed to power the sweep."
+      },
+      {
+        "question": "Your overhook is failing and you cannot prevent arm extraction - what transition preserves offensive pressure?",
+        "answer": "Immediately transition to Mission Control or Crackhead Control by bringing your leg to their head and controlling posture with your shin before they can clear the leg wrap. Alternatively, if their arm is partially free, shoot for a triangle by threading your leg around their neck and freed arm. The key is recognizing overhook failure early enough to transition proactively rather than clinging to a lost grip. Any rubber guard control that maintains leg engagement preserves your offensive framework better than attempting to re-establish a compromised overhook."
+      },
+      {
+        "question": "What prevents the top player from simply standing up explosively to escape New York Control?",
+        "answer": "Active leg pressure across their back combined with the deep overhook creates a structural connection that tracks upward movement and converts their elevation into submission angles. When they stand, the leg wrap tightens across their shoulder and the overhook pulls their posture forward, creating improved gogoplata and triangle angles. To defend against standing escapes specifically, drive your leg wrap deeper and pull your overhook arm downward as they begin to elevate, loading their posture forward while their base lifts away from them."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Recognition",
+        "focus": "Identifying escape initiation cues",
+        "description": "Partner telegraphs escape attempts by widening base and beginning shoulder rotation at slow speed. Practice recognizing these cues and immediately deepening overhook control. Focus on developing sensitivity to the base changes and shoulder movements that precede extraction attempts."
+      },
+      {
+        "phase": "Phase 2: Counter techniques",
+        "focus": "Overhook re-engagement and submission transitions",
+        "description": "Partner attempts escape at 50% speed while you practice specific counters: overhook deepening, triangle setup during arm extraction, and hip bump sweep during lateral weight shift. Drill each counter independently before combining them into responsive defensive flow."
+      },
+      {
+        "phase": "Phase 3: Transition flow",
+        "focus": "Maintaining offensive pressure through guard transitions",
+        "description": "Partner applies escape with 70% effort. Practice transitioning between New York Control retention, Mission Control, triangle setup, and sweep attempts based on the escape phase and available opportunities. Develop smooth flow between defensive and offensive responses without gaps in control."
+      },
+      {
+        "phase": "Phase 4: Live retention",
+        "focus": "Full resistance positional sparring",
+        "description": "Full resistance from New York Control with bottom player working to maintain position or finish while top player works to escape. Track retention rate and submission rate across rounds. Target maintaining New York Control or transitioning to favorable position in 60% of rounds against equal-level training partners."
+      }
+    ]
+  }
+}

@@ -29,6 +29,7 @@ export type Analytics =
       provider: "posthog"
       apiKey: string
       host?: string
+      uiHost?: string
     }
   | {
       provider: "tinylytics"

@@ -1,0 +1,364 @@
+{
+  "name": "Knee Shield to Closed Guard",
+  "description": "Master the Knee Shield to Closed Guard recovery in BJJ. Complete guide covering leg extraction, hip mechanics, and guard closure from half guard bottom.",
+  "tags": [
+    "bjj",
+    "transition",
+    "guard-recovery",
+    "half-guard",
+    "knee-shield",
+    "closed-guard",
+    "bottom",
+    "retention"
+  ],
+  "from_position": "Knee Shield Half Guard/Bottom",
+  "outcomes": [
+    {
+      "to": "Closed Guard/Bottom",
+      "probability": 55,
+      "result": "success"
+    },
+    {
+      "to": "Knee Shield Half Guard/Bottom",
+      "probability": 30,
+      "result": "failure"
+    },
+    {
+      "to": "Flattened Half Guard/Bottom",
+      "probability": 15,
+      "result": "counter"
+    }
+  ],
+  "success_rate": 55,
+  "overview": "The Knee Shield to Closed Guard transition is a fundamental guard recovery technique where the bottom player leverages their knee shield frame to create the space necessary for extracting their trapped leg and establishing full closed guard around the opponent's waist. This represents a strategic position upgrade—moving from the half guard family, where one leg remains entangled, to the closed guard system where both legs wrap the opponent and create a complete control circuit. The technique is particularly valuable when offensive options from knee shield are limited and the practitioner seeks the superior sweep and submission platforms that closed guard offers.\n\nThe mechanical challenge centers on a coordinated sequence: maintaining the knee shield frame for distance while simultaneously hip escaping and threading the bottom leg free from the half guard entanglement. The timing window is narrow—the extraction creates a moment of vulnerability where the top player can drive forward to flatten the position or strip grips to prevent guard closure. Successful execution requires combining upper body grip control with precise hip movement, ensuring the knee shield remains active until the exact moment of leg extraction to prevent the opponent from capitalizing on the transition.\n\nThis technique occupies an important role in the half guard retention system, serving as the primary path to closed guard when the bottom player determines that sweeping from knee shield is not viable. Advanced practitioners use the threat of this recovery to force passing reactions from the top player, creating a dilemma where addressing the guard closure attempt opens opportunities for sweeps and back takes. Understanding when to commit to closed guard recovery versus maintaining knee shield for offensive opportunities is a key strategic decision that reflects positional maturity in the half guard game.",
+  "conditions": [
+    "Bottom player has established knee shield frame with shin across opponent's torso creating distance",
+    "Bottom leg is trapped between opponent's legs in standard half guard configuration",
+    "Sufficient space exists between bodies to allow hip escape movement for leg extraction",
+    "At least one controlling grip established on opponent's upper body preventing forward drive",
+    "Opponent's crossface pressure is managed or neutralized through frames or grip fighting"
+  ],
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Hip Escape Extraction",
+      "description": "The classic method using a strong diagonal shrimp away from the opponent to create an extraction channel along the inside of their thigh. The bottom player drives off their bottom foot and angles their hips approximately 45 degrees, threading the trapped leg free through the gap created by the angular hip movement. This is the highest-percentage variant and works against most passing styles.",
+      "when_to_use": "Default method when opponent maintains moderate forward pressure and you have sufficient grip control to prevent them from following your hip escape"
+    },
+    {
+      "variant_name": "Knee Shield Push and Extract",
+      "description": "Instead of shrimping away, the bottom player uses an explosive push with the knee shield to drive the opponent backward, creating momentary separation. During this brief window of distance, the bottom leg is quickly extracted and swung around before the opponent can re-close the gap. Requires strong hip flexor engagement and precise timing.",
+      "when_to_use": "Effective against opponents who maintain tight distance and make shrimping difficult, particularly when they keep their hips low and heavy against your guard"
+    },
+    {
+      "variant_name": "Underhook-Assisted Recovery",
+      "description": "The bottom player establishes an underhook on the near side before initiating the extraction, using the underhook to create an angle that both facilitates the hip escape and prevents the opponent from driving forward during the transition. The underhook acts as an anchor point that controls the opponent's shoulder while the legs work the extraction sequence.",
+      "when_to_use": "Best when the opponent's near arm is available for underhook control and they are not actively threatening crossface, giving you the additional control point needed for a controlled extraction"
+    }
+  ],
+  "position_integration": "The Knee Shield to Closed Guard transition occupies a critical junction in the half guard retention system, serving as the primary upgrade path when the bottom player wants to move from the defensive-oriented knee shield to the more offensively potent closed guard. This technique connects the half guard family to the closed guard system, creating a strategic bridge that grants access to the full sweep and submission arsenals of both position families. In the broader positional hierarchy, this recovery represents one of several options available from knee shield—alongside sweeps, back takes, and transitions to other guard variants like deep half or X-guard—making it an essential tool for maintaining positional flexibility and strategic optionality in the bottom game.",
+  "related_content": [
+    {
+      "name": "Knee Shield Half Guard",
+      "relationship": "Source position—knee shield frame provides the distance and structure enabling this recovery"
+    },
+    {
+      "name": "Closed Guard",
+      "relationship": "Target position—successful extraction establishes full closed guard control circuit"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Parent position family—knee shield is a specialized variant within the half guard system"
+    },
+    {
+      "name": "Flattened Half Guard",
+      "relationship": "Counter outcome—failed extraction can result in opponent flattening the position"
+    },
+    {
+      "name": "Deep Half Guard",
+      "relationship": "Alternative recovery path when knee shield to closed guard is not available"
+    },
+    {
+      "name": "Open Guard",
+      "relationship": "Related guard system—if guard closure fails, may transition to open guard retention"
+    },
+    {
+      "name": "Butterfly Guard",
+      "relationship": "Alternative guard system accessible during half guard transitions"
+    },
+    {
+      "name": "Back Door Escape from Half Guard",
+      "relationship": "Related leg extraction technique using similar hip escape mechanics from half guard"
+    }
+  ],
+  "attacker": {
+    "name": "Knee Shield to Closed Guard Attacker",
+    "description": "Learn how to execute the Knee Shield to Closed Guard recovery as the bottom player. Step-by-step leg extraction technique with hip escape mechanics and grip strategies for closing guard from half guard.",
+    "overview": "As the attacker executing this guard recovery, your objective is to leverage the distance created by your knee shield frame to extract your trapped bottom leg and establish full closed guard around your opponent's waist. This is fundamentally a position upgrade technique—you are trading the limited offensive options of knee shield half guard for the comprehensive sweep and submission platform of closed guard. Success depends on coordinating your hip escape timing with grip control and knee shield management, executing the extraction during a window where your opponent cannot drive forward to flatten you. The key insight is that your knee shield must remain active as a barrier until the exact moment your leg clears the entanglement, creating a seamless transition from half guard frame to closed guard lock.",
+    "key_principles": [
+      "Maintain knee shield frame as an active barrier until the moment of leg extraction—premature retraction invites flattening pressure",
+      "Coordinate hip escape direction at a diagonal angle away from opponent to create the extraction channel along the inside of their thigh",
+      "Preserve at least one upper body controlling grip throughout the entire sequence to prevent opponent from capitalizing on the movement",
+      "Time the extraction attempt when opponent's weight shifts or they reach for grips, exploiting momentary reductions in forward pressure",
+      "Close guard immediately upon extraction with zero delay—any gap between leg clearance and ankle lock allows opponent to establish open guard passing position",
+      "Use the threat of guard closure to create reactions that open alternative attacks like sweeps and back takes from knee shield"
+    ],
+    "setup_requirements": [
+      "Knee shield frame firmly established with shin pressed across opponent's chest or abdomen creating maximum distance between bodies",
+      "At least one controlling grip on opponent's collar, sleeve, or wrist preventing them from driving forward or establishing crossface during the extraction",
+      "Hips angled slightly away from opponent with mobility to execute a full hip escape without obstruction from mat or opponent's legs",
+      "Bottom leg hook maintained on opponent's far leg providing secondary control and preventing opponent from backstopping or angling during the transition",
+      "Opponent's crossface pressure neutralized through frames, grip control, or positional angling so their shoulder cannot pin your head during extraction"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Establish strong knee shield frame",
+        "description": "Ensure your knee shield is firmly pressed into the opponent's chest with at least one collar or sleeve grip controlling their posture and preventing forward drive, creating the maximum distance needed for the extraction sequence to succeed."
+      },
+      {
+        "step_number": 2,
+        "action": "Control opponent's near arm",
+        "description": "Secure a grip on the opponent's near sleeve, wrist, or bicep to prevent them from establishing a crossface or driving forward during the transition, which would collapse your working space and eliminate the extraction path entirely."
+      },
+      {
+        "step_number": 3,
+        "action": "Hip escape away from opponent",
+        "description": "Execute a strong hip escape by driving off your bottom foot and shrimping diagonally away from your opponent at approximately 45 degrees, creating angular space along the path your trapped bottom leg needs to travel during extraction."
+      },
+      {
+        "step_number": 4,
+        "action": "Extract trapped bottom leg",
+        "description": "Pull your trapped bottom leg free from between the opponent's legs by threading it around their near hip, using the angle and space created by your hip escape to clear the half guard entanglement without losing upper body grip control."
+      },
+      {
+        "step_number": 5,
+        "action": "Swing freed leg around opponent's back",
+        "description": "Once the leg clears the half guard entanglement, immediately swing it around the opponent's back to the far side, transitioning from the single-leg trap to a position where both legs can encircle their waist for guard closure."
+      },
+      {
+        "step_number": 6,
+        "action": "Lock ankles and close guard",
+        "description": "Cross your ankles behind the opponent's lower back immediately upon getting both legs around their waist, pulling them into your hips with heel pressure to establish the locked closed guard circuit before they can posture up and resist."
+      },
+      {
+        "step_number": 7,
+        "action": "Break posture and establish offensive grips",
+        "description": "Pull the opponent forward using combined heel pressure into their lower back and dominant collar or head control, breaking their posture to prevent them from establishing the defensive frames needed to reopen your newly established closed guard."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Opponent drives forward with heavy crossface pressure during extraction attempt to collapse space and flatten position",
+        "effectiveness": "High",
+        "your_response": "Abandon extraction immediately, re-establish knee shield frame with strong push, and hip escape to recreate distance before reattempting when pressure subsides",
+        "targets_outcome": "Flattened Half Guard/Bottom"
+      },
+      {
+        "counter": "Opponent backsteps or creates angle during leg extraction to prevent guard closure from a different direction",
+        "effectiveness": "Medium",
+        "your_response": "Follow their movement with your hips, maintain controlling grips, and adjust knee shield angle to match their new position before reattempting the extraction sequence",
+        "targets_outcome": "Knee Shield Half Guard/Bottom"
+      },
+      {
+        "counter": "Opponent strips controlling grips and postures up aggressively before guard can be closed after extraction",
+        "effectiveness": "Medium",
+        "your_response": "Use feet on hips as temporary frames to maintain distance while immediately re-establishing grips, then either reattempt closure or transition to open guard retention system",
+        "targets_outcome": "Knee Shield Half Guard/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Attempting leg extraction without creating sufficient distance through the knee shield frame first",
+        "consequence": "Opponent easily drives forward during the extraction attempt, flattening the position and potentially passing to side control",
+        "correction": "Establish maximum distance with knee shield and confirm space exists before initiating the hip escape—if you cannot straighten your arm fully between bodies, there is not enough room"
+      },
+      {
+        "error": "Releasing controlling grips on opponent's upper body during the hip escape phase",
+        "consequence": "Opponent is free to drive forward, establish crossface, or posture up during the vulnerable extraction window when your legs are transitioning",
+        "correction": "Maintain at least one controlling grip throughout the entire sequence—train to hip escape while keeping collar or sleeve control active with the non-posting hand"
+      },
+      {
+        "error": "Extracting the trapped leg but failing to close guard immediately, leaving an open guard gap",
+        "consequence": "Opponent recognizes the open guard window and immediately begins passing before you can lock ankles, negating the entire recovery effort",
+        "correction": "Drill the extraction-to-closure as a single continuous motion—the ankle lock should happen within one second of the leg clearing the entanglement with no pause between phases"
+      },
+      {
+        "error": "Shrimping directly backward instead of at a diagonal angle away from the opponent",
+        "consequence": "The trapped leg remains caught because the straight-back hip escape does not create the angular clearance needed to thread the leg around the opponent's hip",
+        "correction": "Angle your hip escape at approximately 45 degrees away from the opponent, creating a diagonal channel along the inside of their thigh that your leg can travel through during extraction"
+      },
+      {
+        "error": "Abandoning the knee shield frame too early before the bottom leg is fully extracted from the entanglement",
+        "consequence": "Opponent drives into the vacated space, collapsing the position into flattened half guard before the guard can be closed, creating a worse position than the starting point",
+        "correction": "Keep the knee shield active as a rigid barrier until the trapped leg has completely cleared the opponent's legs—only retract the shield knee to wrap around their back once extraction is confirmed"
+      },
+      {
+        "error": "Telegraphing the recovery attempt by visibly looking at the trapped leg or changing grip pattern dramatically before initiating",
+        "consequence": "Experienced opponent reads the intent and preemptively drives forward or strips grips to shut down the extraction before it begins",
+        "correction": "Disguise the recovery attempt by threatening a sweep or submission from knee shield first, then transitioning to the extraction when their defensive reaction creates the opening you need"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Solo Mechanics",
+        "focus": "Hip escape and leg threading movement patterns",
+        "description": "Practice the diagonal hip escape motion and leg extraction sequence without a partner, focusing on the coordination between hip movement and leg threading. Use a grappling dummy or pillow as a reference point for the knee shield. Perform 20 repetitions per side, emphasizing the continuous flow from hip escape through guard closure."
+      },
+      {
+        "phase": "Phase 2: Cooperative Drilling",
+        "focus": "Full technique execution with minimal resistance",
+        "description": "Partner holds knee shield half guard top position with light resistance while you execute the complete extraction sequence. Focus on maintaining grips throughout, timing the hip escape, and achieving immediate guard closure. Partner provides feedback on timing windows and telegraphing. 15 repetitions per side."
+      },
+      {
+        "phase": "Phase 3: Progressive Resistance",
+        "focus": "Timing and adaptation under increasing pressure",
+        "description": "Partner increases resistance from 30% to 70% over multiple rounds, actively resisting the extraction while threatening passes. Develop sensitivity to timing windows—learn to feel when opponent's weight shifts create extraction opportunities. Practice abandoning failed attempts and re-establishing position safely."
+      },
+      {
+        "phase": "Phase 4: Live Integration",
+        "focus": "Combining with knee shield offensive system in rolling",
+        "description": "During positional sparring from knee shield, integrate the closed guard recovery as one option alongside sweeps, back takes, and other transitions. Develop the ability to read when guard recovery is the optimal choice versus maintaining knee shield for offense. Track success rate over sessions to measure improvement."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the optimal timing window for attempting the leg extraction from knee shield?",
+        "answer": "The best timing window occurs when your opponent reaches for grips or shifts their weight to set up a pass. During these moments, their forward pressure temporarily reduces, creating the space needed for the hip escape. After successfully defending a pass attempt—when your opponent resets their position—there is also a brief window where their weight is transitioning and cannot immediately resist your extraction movement."
+      },
+      {
+        "question": "What conditions must exist before you attempt to close guard from knee shield?",
+        "answer": "You need four conditions in place: a strong knee shield frame creating distance from the opponent's chest, at least one controlling grip on their upper body preventing forward pressure, your hips must be mobile and not flattened to the mat, and the opponent's crossface must be neutralized. Attempting without these conditions results in getting flattened rather than recovering guard."
+      },
+      {
+        "question": "What is the most critical hip movement during the leg extraction?",
+        "answer": "The shrimping motion must angle your hips away from the opponent at approximately 45 degrees rather than directly backward. This diagonal hip escape creates a channel along the inside of the opponent's thigh for your trapped leg to travel through. If you shrimp straight back, your leg remains trapped because you have not created the angular clearance needed for extraction."
+      },
+      {
+        "question": "What is the most common reason this transition fails at the intermediate level?",
+        "answer": "The most common failure is releasing the knee shield frame too early during the extraction attempt. Practitioners retract the knee shield before their bottom leg is fully free, which allows the opponent to drive forward and flatten the position into an inferior half guard. The knee shield must remain active as a barrier until the extraction is complete and both legs can immediately close around the opponent."
+      },
+      {
+        "question": "What grip configuration provides the best control during the guard closure sequence?",
+        "answer": "Cross collar grip with your far hand combined with same-side sleeve or wrist control on the opponent's near arm provides optimal control. The collar grip prevents posture recovery after guard closure, while the sleeve control prevents crossface pressure during extraction. In no-gi, an overhook on the near arm with head control behind the neck accomplishes the same dual control objectives."
+      },
+      {
+        "question": "In which direction should you apply force with your knee shield during the extraction?",
+        "answer": "Apply outward and slightly downward force with the knee shield, pushing the opponent's torso away from your centerline while maintaining the frame as a rigid barrier. This direction maximizes the distance between your bodies and creates the largest possible channel for leg extraction. Pushing upward alone lifts them off your hips but does not create the lateral extraction space your leg needs to clear."
+      },
+      {
+        "question": "Your opponent posts their hand on the mat as you begin extracting your leg—how do you adjust?",
+        "answer": "Their posted hand creates a base that resists your extraction but removes that hand from controlling you. Immediately secure a grip on their posting arm's sleeve or wrist, which both prevents effective posting and gives you an additional control point. Then complete the extraction using their compromised base—with one hand posted, they cannot drive forward effectively to prevent your guard closure."
+      },
+      {
+        "question": "If the opponent successfully prevents your guard closure and you end up with one leg free but guard open, what is your immediate follow-up?",
+        "answer": "Transition immediately to an open guard system rather than forcing the closed guard against strong resistance. Place your freed foot on their hip as a frame while your other foot hooks behind their leg, establishing a butterfly guard entry or single leg X-guard position. The half-extracted position creates excellent entries to alternative guard systems that may be more effective than fighting to close guard."
+      }
+    ],
+    "safety_considerations": "This transition involves hip escape movements and leg extraction that place moderate stress on the hip flexors, groin, and medial knee ligaments. Practitioners should warm up hip mobility thoroughly before drilling extensively. Avoid forcing the leg extraction against heavy resistance—if the opponent is driving significant pressure during the attempt, abandon the extraction and re-establish your frame rather than risking knee or hip injury. Partners should communicate immediately if they feel any discomfort in the trapped knee during drilling. This is a low-risk technique overall, but rushing the mechanics under load can strain the inner knee structures."
+  },
+  "defender": {
+    "name": "Knee Shield to Closed Guard Defender",
+    "description": "Learn to prevent the Knee Shield to Closed Guard recovery as the top player. Recognition cues, pressure strategies, and counter-techniques to maintain half guard top and prevent guard closure.",
+    "overview": "As the defender in this scenario, you are the top player in knee shield half guard and your opponent is attempting to extract their trapped leg to close full guard around your waist. Your objective is to prevent this guard recovery, which would move you from an offensive passing position into the defensively disadvantaged closed guard top. Prevention requires maintaining forward pressure that eliminates the space your opponent needs for the hip escape and leg extraction, while monitoring their grip changes and hip movements for early signs of the recovery attempt. The most effective defense is proactive—collapsing the knee shield and establishing dominant passing grips before the recovery is ever initiated, rather than reacting to an attempt already in progress.",
+    "key_principles": [
+      "Maintain constant forward pressure through your shoulder and chest to prevent the space creation needed for hip escape and leg extraction",
+      "Control opponent's near hip with your hand to block the shrimping motion that enables the extraction channel",
+      "Work to collapse or redirect the knee shield frame before the opponent can use it as a launching platform for the recovery",
+      "Monitor opponent's bottom leg entanglement and prevent extraction by maintaining your leg positioning tight around their trapped leg",
+      "Use crossface pressure to restrict opponent's ability to create angles that facilitate the leg threading motion",
+      "React immediately to any hip escape movement with corresponding forward drive and angle adjustment to close the extraction space"
+    ],
+    "recognition_cues": [
+      "Opponent begins hip escaping away while maintaining or increasing knee shield push pressure, creating distance rather than attacking",
+      "Bottom player shifts grips from offensive configurations like collar-sleeve to purely distance-creating frames on your shoulders or chest",
+      "Opponent's trapped bottom leg begins a pulling and threading motion, attempting to disengage from between your legs",
+      "Increased outward pushing pressure from the knee shield without any accompanying sweep threat or attack follow-up indicating positional recovery intent",
+      "Opponent angles their hips diagonally away from you rather than staying square, creating the angular channel needed for leg extraction"
+    ],
+    "defensive_options": [
+      {
+        "action": "Drive forward with heavy crossface pressure to collapse space and flatten opponent's position",
+        "when_to_use": "As soon as you feel opponent shrimping away or sense increased pushing pressure from their knee shield without offensive intent",
+        "targets_outcome": "Flattened Half Guard/Bottom",
+        "if_successful": "Opponent loses knee shield frame and you establish dominant flattened half guard top with crossface and underhook control",
+        "risk": "If timed poorly or opponent has strong underhook, your forward momentum can be redirected into a sweep"
+      },
+      {
+        "action": "Backstep and create angle to prevent guard closure while maintaining top control from a different direction",
+        "when_to_use": "When opponent's leg is partially extracted but guard is not yet closed—stepping back removes the wrapping angle they need",
+        "targets_outcome": "Knee Shield Half Guard/Bottom",
+        "if_successful": "You prevent guard closure and maintain half guard top position with the option to restart your passing sequence",
+        "risk": "Creates momentary space that opponent may use for alternative transitions like deep half guard entry"
+      },
+      {
+        "action": "Strip opponent's controlling grips and establish strong upright posture to deny the pull needed for guard closure",
+        "when_to_use": "When opponent's grips are the primary mechanism enabling them to pull you into closed guard after leg extraction",
+        "targets_outcome": "Knee Shield Half Guard/Bottom",
+        "if_successful": "Without controlling grips, opponent cannot break your posture or pull you close enough to lock their ankles behind your back",
+        "risk": "Momentary loss of your own control during grip stripping may allow opponent to complete the extraction"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Flattened Half Guard/Bottom",
+        "how": "Drive forward with crossface pressure the moment you detect the hip escape attempt, collapsing the knee shield frame and establishing heavy top pressure that pins opponent flat to the mat with your underhook controlling their far shoulder"
+      },
+      {
+        "outcome": "Knee Shield Half Guard/Bottom",
+        "how": "Shut down the recovery attempt early by maintaining tight leg entanglement on their trapped leg and controlling their near hip to prevent the shrimping motion, forcing them to abandon the extraction and reset to neutral knee shield position"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Allowing too much space between bodies by sitting back or maintaining passive posture in knee shield top",
+        "consequence": "Opponent has room to execute the full hip escape and leg extraction sequence without any pressure to disrupt the timing or close the extraction channel",
+        "correction": "Maintain active forward pressure through your shoulder into their upper chest, keeping your hips low and heavy to reduce the space available for shrimping and leg threading"
+      },
+      {
+        "error": "Focusing exclusively on upper body control while neglecting to monitor and prevent the bottom leg extraction",
+        "consequence": "Opponent successfully threads their leg free while you control their collar or sleeve, and before you realize it they have closed guard around your waist",
+        "correction": "Maintain awareness of both the upper body grip battle and the leg entanglement—use your legs to squeeze their trapped leg and prevent extraction while your upper body works grips"
+      },
+      {
+        "error": "Reacting too late to the hip escape movement, allowing guard closure before pressure can be applied",
+        "consequence": "By the time you drive forward, the opponent has already extracted their leg and locked ankles, putting you in the disadvantageous closed guard top position",
+        "correction": "Develop sensitivity to the earliest signs of the recovery attempt—the initial hip escape motion—and respond immediately with forward pressure rather than waiting to see the full extraction develop"
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the earliest recognition cue that your opponent is attempting to close guard from knee shield?",
+        "answer": "The earliest cue is a change in their knee shield pressure from offensive pushing with sweep threats to purely distance-creating pushing, combined with a diagonal hip escape motion away from you. When the bottom player shifts from threatening sweeps to creating maximum distance with their frame while their hips begin angling away, they are setting up the leg extraction. Recognizing this shift before the hip escape completes gives you the reaction time to shut down the attempt."
+      },
+      {
+        "question": "How should you adjust your weight distribution to prevent the guard closure?",
+        "answer": "Shift your weight low and forward into their knee shield area, driving your hips toward the mat and your shoulder into their upper chest or crossface position. Your weight should be concentrated through your chest and shoulder rather than distributed evenly on your knees, which creates the crushing forward pressure that eliminates the space they need for the hip escape and subsequent leg extraction sequence."
+      },
+      {
+        "question": "What is your best recovery option if you recognize the extraction attempt too late and their leg is already partially freed?",
+        "answer": "Immediately control their extracting leg at the knee or ankle, preventing them from swinging it fully around your back to lock ankles. Step your far leg back and angle your body to create a passing angle rather than allowing guard closure. If you can trap their partially freed leg between your arm and body before they complete the wrap, you establish an open guard passing position rather than being pulled into closed guard."
+      },
+      {
+        "question": "Your opponent successfully closes guard on you after the recovery—what immediate actions minimize the positional damage?",
+        "answer": "Immediately establish strong posture by sitting upright with your spine straight and head positioned directly over your hips. Place both hands on their hips to create distance and prevent them from breaking your posture for attacks. Begin the standard closed guard top survival sequence: posture first, then grip fight, then guard opening. The faster you establish posture after guard closure, the fewer offensive options they can develop against you."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Recognition Drilling",
+        "focus": "Identifying early cues of guard recovery attempts",
+        "description": "Partner executes the Knee Shield to Closed Guard recovery at slow speed while you practice identifying the recognition cues—hip escape initiation, grip changes, leg movement. Call out each cue as you detect it. Develop pattern recognition before working on physical responses."
+      },
+      {
+        "phase": "Phase 2: Pressure Response Training",
+        "focus": "Applying forward pressure to shut down extraction attempts",
+        "description": "Partner attempts guard recovery at progressive resistance levels while you practice the forward drive and crossface counter. Focus on timing your pressure application to the moment of hip escape detection. Work on maintaining base while driving forward to avoid being swept by late attempts."
+      },
+      {
+        "phase": "Phase 3: Live Positional Sparring",
+        "focus": "Integrating prevention into complete passing game",
+        "description": "Full positional sparring from knee shield half guard top where partner is free to attempt any technique including guard recovery. Practice maintaining passing pressure that proactively prevents the recovery while pursuing your own passing objectives. Track how often opponent successfully closes guard to measure defensive improvement."
+      }
+    ]
+  }
+}

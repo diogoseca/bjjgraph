@@ -1,0 +1,403 @@
+{
+  "name": "Stack from Inverted Lasso",
+  "description": "Master the stack pass from inverted lasso guard in BJJ. Complete guide to pressure mechanics, arm extraction, and passing technique for all levels.",
+  "tags": [
+    "guard-passing",
+    "stack-pass",
+    "inverted-lasso-defense",
+    "pressure-passing",
+    "advanced",
+    "sport-jiu-jitsu"
+  ],
+  "from_position": "Inverted Lasso Guard/Top",
+  "outcomes": [
+    {
+      "to": "Half Guard/Top",
+      "probability": 35,
+      "result": "success"
+    },
+    {
+      "to": "Side Control/Top",
+      "probability": 20,
+      "result": "success"
+    },
+    {
+      "to": "Inverted Lasso Guard/Top",
+      "probability": 25,
+      "result": "failure"
+    },
+    {
+      "to": "Mount/Bottom",
+      "probability": 20,
+      "result": "counter"
+    }
+  ],
+  "success_rate": 55,
+  "overview": "The stack pass from inverted lasso guard is a pressure-based guard passing technique deployed by the top player when an opponent inverts into lasso guard with elevated hips and angular sweeping threats. Rather than attempting lateral movement or grip fighting to defeat the inversion, the stack exploits the bottom player's extended body position by driving forward compressive pressure through the shoulders and chest, folding the inverted player over themselves and neutralizing the hip elevation that makes inverted lasso guard dangerous. The technique targets the fundamental structural vulnerability of any inverted position: the bottom player's spine must support both their own body weight and any additional load the top player applies, creating a compressive force that rapidly degrades offensive capability.\n\nThis technique is most effective when the bottom player overcommits to their inversion, particularly when they extend the lassoed leg aggressively for overhead sweeps or reach for berimbolo entries. The timing window is narrow but decisive — the stack must be initiated while the bottom player is committed to the inverted posture but before they establish their optimal attacking angle. Executed correctly, the compression drives the opponent's knees toward their face, transfers the top player's weight advantage into structural dominance, and creates slack in the lasso hook that permits systematic arm extraction and pass completion to half guard or side control.\n\nThe stack from inverted lasso occupies a specific tactical niche in the guard passing hierarchy. While cartwheel passes and arm extraction rely on lateral movement and grip fighting respectively, the stack uses direct vertical pressure to defeat the position. This makes it particularly effective against flexible opponents who maintain inverted positions through other passing attempts, as the compression targets their structural integrity rather than attempting to outmaneuver their mobility. The technique carries meaningful counter risk, however, as poorly timed or poorly angled stacking pressure can feed directly into the bottom player's overhead sweep mechanics, making precise angle selection and base management essential throughout execution.",
+  "conditions": [
+    "Bottom player is committed to inverted lasso guard position with shoulders on the mat and hips elevated",
+    "Top player has forward access without being fully blocked by strong frames on hips or chest",
+    "Bottom player's lasso hook is actively engaged with leg threaded through top player's arm",
+    "Sufficient mat space exists for the compression sequence without boundary interference"
+  ],
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Standing Stack",
+      "description": "Executed from a fully standing position with both feet planted wide, using gravitational advantage to generate maximum compressive force through the inverted player's structure. The standing position allows the top player to drop their full body weight into the compression.",
+      "when_to_use": "When you have strong base and the bottom player is fully committed to the inversion with no immediate sweep threat, maximizing compression through gravitational advantage."
+    },
+    {
+      "variant_name": "Kneeling Stack with Hip Control",
+      "description": "Initiated from a kneeling position with one knee posted beside the inverted player's hip, providing superior lateral base stability while maintaining meaningful compressive force. The posted knee prevents the bottom player from rotating away during the stack.",
+      "when_to_use": "When the situation is uncertain or the bottom player has strong sweep mechanics, sacrificing maximum compression for greater base stability and sweep defense."
+    },
+    {
+      "variant_name": "Shoulder-Drive Stack",
+      "description": "Leads with the shoulder directly into the bottom player's midsection rather than using hands-first contact, generating immediate compressive force while keeping both hands free for grip fighting and hip control throughout the folding sequence.",
+      "when_to_use": "When the bottom player's frames are focused on hand control rather than shoulder blocking, allowing direct shoulder penetration to the midsection for rapid compression."
+    }
+  ],
+  "position_integration": "The stack from inverted lasso guard integrates into the broader guard passing system as a direct pressure-based counter to inversion-dependent guard play. It connects the inverted lasso position to half guard and side control passing pathways, providing a linear compressive alternative to the lateral movement options such as cartwheel passes and backsteps that characterize most inverted guard counters. The technique chains naturally with arm extraction sequences and knee cut passes that complete the transition to dominant positions, and functions as part of a broader anti-inversion strategy where stack threats discourage opponents from inverting freely.",
+  "related_content": [
+    {
+      "name": "Inverted Lasso Guard",
+      "relationship": "Starting position where this technique is initiated from top"
+    },
+    {
+      "name": "Lasso Guard",
+      "relationship": "Parent guard system — understanding standard lasso mechanics aids stack application"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Primary success destination when pass completes with partial leg entanglement"
+    },
+    {
+      "name": "Side Control",
+      "relationship": "Clean pass destination when full guard clearance is achieved"
+    },
+    {
+      "name": "Lasso Guard Stack Pass",
+      "relationship": "Related stacking technique from standard lasso guard with similar compression mechanics"
+    },
+    {
+      "name": "Pass Inverted Lasso Guard",
+      "relationship": "Alternative passing approach from the same starting position"
+    },
+    {
+      "name": "Inverted Lasso Sweep",
+      "relationship": "Primary sweep threat that the stack pass aims to neutralize"
+    },
+    {
+      "name": "Berimbolo Entry",
+      "relationship": "Major offensive threat from inverted lasso that stack pressure can prevent"
+    },
+    {
+      "name": "Stack Pass from Spider",
+      "relationship": "Similar stacking mechanics applied from a different open guard system"
+    },
+    {
+      "name": "Spider Guard",
+      "relationship": "Related guard system with similar passing principles and stack applications"
+    }
+  ],
+  "attacker": {
+    "name": "Stack from Inverted Lasso Attacker",
+    "description": "Learn to execute the stack pass from inverted lasso guard. Step-by-step guide covering pressure mechanics, arm extraction timing, and completion to dominant passing positions.",
+    "overview": "The stack from inverted lasso guard is a pressure-based passing technique where the top player exploits the bottom player's extended inverted posture by driving compressive forward pressure through their shoulders and chest. This folds the inverted player over their own spine, neutralizing hip elevation and sweep mechanics while creating slack in the lasso hook for arm extraction. The technique requires precise timing and angle selection — initiating the stack during the commitment phase of the inversion creates maximum compression while the bottom player's defensive options are limited by their inverted body position. Success depends on controlling the angle of pressure to compress rather than elevate, maintaining wide base throughout to resist counter-sweeps, and systematically extracting the lassoed arm once sufficient slack is generated.",
+    "key_principles": [
+      "Direct compressive pressure at the midsection and lower chest rather than the hips — hip-directed pressure feeds sweep mechanics instead of neutralizing them",
+      "Maintain wide lateral base throughout the stack to resist overhead sweep counters that exploit forward weight commitment",
+      "Control the bottom player's hips with grips before initiating forward drive to prevent rotational escape during compression",
+      "Generate compression through body weight transfer rather than muscular pushing — let gravity and structural positioning do the heavy work",
+      "Create slack in the lasso hook through spinal compression before attempting arm extraction — fighting a tight lasso wastes energy",
+      "Monitor the balance point constantly — if your hips rise above your shoulders, you have overcommitted and are vulnerable to sweep",
+      "Complete the pass immediately after arm extraction before the opponent can recover grips or reestablish guard structure"
+    ],
+    "setup_requirements": [
+      "Identify that the bottom player has committed to the inverted lasso position with shoulders on mat and hips elevated",
+      "Secure controlling grips on the bottom player's hips or pants to prevent rotational escape during the stack",
+      "Confirm your base is wide enough to resist lateral sweeping pressure before initiating forward drive",
+      "Assess that the bottom player's free leg is not positioned to block your shoulder entry to their midsection",
+      "Verify timing window — the bottom player must be in committed inversion but not yet established in their optimal attacking angle"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Recognize the inversion commitment",
+        "description": "Watch for the bottom player's shoulders touching the mat and hips elevating as they commit to the inverted lasso position. This signals the optimal window to initiate the stack before they establish their full attacking angle for berimbolo or overhead sweep entries."
+      },
+      {
+        "step_number": 2,
+        "action": "Establish hip and pant grips",
+        "description": "Secure grips on the bottom player's hips or pants with your free hand to control their lower body rotation. This prevents them from adjusting their angle or rotating away during the stack, anchoring their lower body in place for the compression sequence."
+      },
+      {
+        "step_number": 3,
+        "action": "Lower level and drive forward",
+        "description": "Drop your level by bending at the knees and waist, then drive your shoulder into the bottom player's midsection or lower chest area with controlled forward momentum. The contact point must be below their chest to generate folding force rather than pushing them away."
+      },
+      {
+        "step_number": 4,
+        "action": "Fold and compress the inverted player",
+        "description": "Continue driving forward to push the bottom player's knees toward their face, using your body weight and hip pressure to fold them over their own spine. This compression eliminates hip mobility and neutralizes the angular momentum required for sweeps and berimbolo rotation."
+      },
+      {
+        "step_number": 5,
+        "action": "Create slack in the lasso hook",
+        "description": "As the compression folds the bottom player, the change in distance between their hip and shoulder creates natural slack in the lasso loop around your arm. Maintain the compressive pressure while beginning to work your arm free through the loosened hook structure."
+      },
+      {
+        "step_number": 6,
+        "action": "Extract the lassoed arm",
+        "description": "Systematically remove your arm from the lasso by first addressing the ankle grip that locks your sleeve, then pulling the arm through the loosened hook while maintaining forward pressure. Avoid explosive pulling that retightens the lasso — use controlled, sequential withdrawal."
+      },
+      {
+        "step_number": 7,
+        "action": "Establish upper body control",
+        "description": "With the lasso broken, immediately slide your freed arm across to establish crossface or underhook control. This prevents the opponent from recovering guard grips or reestablishing the lasso while you consolidate your passing position above them."
+      },
+      {
+        "step_number": 8,
+        "action": "Complete the pass to half guard or side control",
+        "description": "Clear the remaining leg entanglement by driving your hips through and sliding past the bottom player's legs. If their legs maintain any hook, settle into half guard top and work the remaining extraction. If legs clear completely, consolidate directly to side control with chest pressure."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Bottom player frames against shoulders and hip escapes to prevent compression from establishing",
+        "effectiveness": "High",
+        "your_response": "Lower your angle of attack to drive beneath the frames, targeting the midsection rather than the chest where frames are strongest. Alternatively, transition to a different passing approach if frames fully block shoulder access.",
+        "targets_outcome": "Inverted Lasso Guard/Top"
+      },
+      {
+        "counter": "Bottom player redirects stacking momentum into overhead sweep by extending lasso hook and pulling with grips",
+        "effectiveness": "Medium",
+        "your_response": "Widen your base immediately when you feel your weight traveling past the balance point. Shift hips back and lower your center of gravity rather than continuing forward. If the sweep initiates, backstep to one side rather than fighting the momentum.",
+        "targets_outcome": "Mount/Bottom"
+      },
+      {
+        "counter": "Bottom player extends lasso hook forcefully to resist the spinal fold and maintain hip elevation",
+        "effectiveness": "Medium",
+        "your_response": "Change the angle of compressive pressure to attack perpendicular to the lasso's structural line rather than fighting directly against the extension. Angle your drive slightly to one side to collapse the lasso's leverage advantage.",
+        "targets_outcome": "Inverted Lasso Guard/Top"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Driving pressure directly into the bottom player's hips rather than their midsection",
+        "consequence": "Hip-directed pressure elevates rather than compresses, feeding directly into overhead sweep mechanics and adding momentum that makes the sweep nearly unstoppable",
+        "correction": "Aim shoulder pressure at the midsection and lower chest area to generate folding force that pushes knees toward face rather than elevating the hips further"
+      },
+      {
+        "error": "Attempting the stack without first securing controlling grips on hips or pants",
+        "consequence": "The bottom player rotates away from the pressure, re-establishes their attacking angle, and the stack never generates meaningful compression",
+        "correction": "Secure pants or hip grips before initiating the forward drive, anchoring their lower body in place so compression accumulates rather than dissipating through rotation"
+      },
+      {
+        "error": "Maintaining a narrow base during the compression phase",
+        "consequence": "Highly vulnerable to lateral sweeps as the bottom player redirects stacking force sideways, toppling the stacker with minimal effort",
+        "correction": "Post feet wide apart throughout the stack to create lateral stability, keeping center of gravity low and distributed across a broad base"
+      },
+      {
+        "error": "Rushing arm extraction before the compression has created sufficient slack in the lasso",
+        "consequence": "The lasso retightens under the pulling force, the bottom player regains structural tension, and the position resets with wasted energy",
+        "correction": "Fully commit to the compression phase first, waiting until the lasso loop has visibly loosened before beginning controlled arm withdrawal"
+      },
+      {
+        "error": "Committing full body weight over the bottom player without maintaining a posting foot as backup base",
+        "consequence": "If the compression fails or the bottom player counters, there is no recovery mechanism and the sweep becomes inevitable",
+        "correction": "Always maintain at least one posting foot planted firmly as an emergency base, distributing weight between the compression point and your own structural support"
+      },
+      {
+        "error": "Failing to control the bottom player's free leg before or during the stack initiation",
+        "consequence": "The free leg posts on your hip to block compression, or threads behind your back to initiate berimbolo rotation that defeats the entire passing attempt",
+        "correction": "Pin or control the free leg with your hand or by trapping it against your hip before committing to the forward drive, removing their primary steering and counter-attack mechanism"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Compression Mechanics",
+        "focus": "Learning proper body positioning and pressure angle for the stack",
+        "description": "Partner holds inverted lasso guard statically with no resistance. Practice lowering level, making shoulder contact at the midsection, and generating folding compression. Focus on driving knees toward face rather than elevating hips. 20 repetitions building proper angle and pressure distribution."
+      },
+      {
+        "phase": "Phase 2: Timing Recognition",
+        "focus": "Identifying the optimal moment to initiate the stack",
+        "description": "Partner transitions between upright and inverted lasso guard at varying speeds. Practice recognizing the commitment phase of the inversion and initiating the stack within the 1-2 second optimal window. Call out the timing cue before executing. 15 repetitions with increasing transition speed."
+      },
+      {
+        "phase": "Phase 3: Arm Extraction Integration",
+        "focus": "Combining compression with systematic arm extraction",
+        "description": "Partner maintains moderate lasso tension during compression. Practice the full sequence: compress, identify slack creation, address ankle grip, extract arm. Partner provides progressive resistance on the lasso hook. 15 repetitions focusing on the transition from compression to extraction."
+      },
+      {
+        "phase": "Phase 4: Counter Defense",
+        "focus": "Maintaining the stack against active defensive responses",
+        "description": "Partner actively defends with frames, sweep attempts, and lasso extension at 70% intensity. Practice adjusting angle, widening base, and aborting when swept. Develop recognition of when the stack is working versus when to transition to alternative passing. 3-minute positional rounds."
+      },
+      {
+        "phase": "Phase 5: Live Application",
+        "focus": "Full-speed integration in positional sparring",
+        "description": "Start in inverted lasso guard with top player attempting stack pass among other options. Partner defends at full intensity. Focus on choosing the stack when conditions are favorable and transitioning away when they are not. 5-minute rounds with role switching."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the optimal timing window for initiating the stack against an inverted lasso guard player?",
+        "answer": "The stack should be initiated when the bottom player commits to the inversion with shoulders on the mat and hips elevating, but before they establish their optimal attacking angle. This window typically lasts 1-2 seconds during the transition from upright to fully inverted positioning. Initiating too early catches them still mobile with strong frames, while too late allows them to establish angular momentum for sweeps or berimbolo entries that become extremely difficult to stop."
+      },
+      {
+        "question": "Why should compressive pressure be directed at the midsection rather than the hips during the stack?",
+        "answer": "Pressure directed at the hips actually assists overhead sweep mechanics by adding upward momentum that the bottom player can redirect over their body. The midsection is the fulcrum point where folding force is most effective — driving shoulder pressure into the lower chest and abdominal area causes the opponent's spine to flex, pushing their knees toward their face and eliminating the hip elevation that makes inverted lasso dangerous. Midsection pressure compresses and folds rather than elevating."
+      },
+      {
+        "question": "What grip configuration provides the best control during the stack pass from inverted lasso?",
+        "answer": "The optimal grip configuration combines a same-side pants or hip grip to control the bottom player's lower body rotation with either a collar grip or pressure through the shoulder on their upper body. The pants grip prevents hip rotation that would allow angle recovery, while the shoulder drive or collar grip ensures compressive force transfers through the entire body structure rather than dissipating. Avoid gripping the gi top near their chest as this can actually assist their frames."
+      },
+      {
+        "question": "Your opponent begins redirecting your stacking pressure into an overhead sweep — how do you adjust?",
+        "answer": "Immediately widen your base by posting both feet farther apart and shift your pressure angle downward rather than continuing forward. If you feel your weight traveling over the opponent's hips and your hips rising above your shoulders, you have overcommitted. Backstep to one side rather than fighting the momentum directly. The critical recognition point is when forward pressure stops compressing the opponent and starts elevating your own center of gravity — at that moment you must abort or redirect."
+      },
+      {
+        "question": "How does the stack mechanically create slack in the lasso hook, and why is this necessary before arm extraction?",
+        "answer": "The lasso hook works by threading the bottom player's leg through your arm with tension maintained by hip elevation and sleeve grip. When you stack the bottom player by folding their knees toward their face, this shortens the distance between their hip and shoulder, which reduces the circumference of the loop their leg makes around your arm. This slack is necessary because the lasso's mechanical strength comes from structural tension — once slack exists, your arm can be withdrawn through the loosened loop without fighting the full resistance of the taut hook."
+      },
+      {
+        "question": "What is the critical mechanical difference between executing the stack from standing versus kneeling?",
+        "answer": "Standing stack provides more gravitational advantage and compressive force because your full body weight drives downward through the opponent without being partially supported by your own knees. However, standing sacrifices lateral base stability and recovery options if the stack fails or the opponent initiates a sweep. Kneeling stack offers better lateral stability through the posted knee and greater ability to absorb sweep attempts, but generates less compression. Choose standing when you have clear timing and angle, kneeling when the situation is uncertain."
+      },
+      {
+        "question": "After extracting your arm from the lasso, what immediate actions prevent the opponent from recovering guard?",
+        "answer": "Immediately establish crossface or underhook control with the freed arm to prevent the opponent from turning into you and reestablishing grips. Maintain hip pressure throughout to keep them compressed while you work to clear the remaining leg entanglement. The critical window is the 1-2 seconds after extraction before they can recover — if you hesitate or lose pressure, they will re-grip your sleeve and potentially re-establish the lasso or transition to another guard system."
+      },
+      {
+        "question": "Why is controlling the bottom player's free leg essential before committing to the stack?",
+        "answer": "The free leg is the bottom player's primary counter-attack mechanism during a stack attempt. Without control, they can post it on your hip to block forward compression, thread it behind your back to initiate berimbolo rotation, or use it to create angular momentum for sweeps. Pinning or controlling the free leg before committing to the forward drive removes their ability to steer, redirect, or counter the compression, transforming the stack from a contested exchange into a controlled progression."
+      }
+    ],
+    "safety_considerations": "Stack passing creates significant spinal compression on the bottom player, particularly in the cervical and thoracic regions. Control the pace of compression to avoid forcing the opponent's spine beyond safe range of motion. Monitor your partner's neck position throughout — if their neck is bearing weight rather than their shoulders, reduce pressure immediately. The bottom player should tap or verbally signal if they feel unsafe cervical pressure, and the top player must release compression promptly when any discomfort is communicated. Avoid explosive driving motions that could cause whiplash-type injury, and never bounce or slam into the compression. In training, build pressure gradually rather than crashing into the stack."
+  },
+  "defender": {
+    "name": "Stack from Inverted Lasso Defender",
+    "description": "Defend against the stack pass from inverted lasso guard. Recognition cues, frame-based defenses, counter-sweep techniques, and recovery strategies to maintain your guard position.",
+    "overview": "Defending the stack from inverted lasso guard requires early recognition of the compression threat and immediate deployment of frame-based or momentum-based defensive strategies before the top player establishes full compressive control. The stack targets the inverted player's fundamental structural vulnerability — elevated hips supported by the spine and shoulders — making frame placement and hip escape timing critical for survival. When frames prove insufficient, the defender must understand how to redirect the stacking pressure into counter-sweeps rather than passively absorbing the compression. Successful defense either preserves the inverted lasso guard position for continued offensive play or converts the opponent's aggressive forward commitment into a sweeping opportunity that reverses the positional hierarchy entirely.",
+    "key_principles": [
+      "Recognize the stack initiation within the first second by feeling the shift from lateral to forward compressive pressure through the lasso connection",
+      "Deploy frames against the opponent's shoulders before their shoulder makes contact with your midsection — late frames are ineffective against established compression",
+      "Maintain hip elevation through active core engagement rather than passive structural support — the moment your hips drop, compression accelerates",
+      "Keep the lasso hook tight throughout defensive exchanges to preserve your primary control mechanism and prevent arm extraction",
+      "Understand that the opponent's forward commitment creates sweep vulnerability — their aggression is your counter-attack opportunity",
+      "Know when to abandon the inverted position and recover to standard lasso or another guard rather than fighting a losing compression battle",
+      "Use the free leg actively for hip posting and sweep setups rather than letting it float passively during the defensive exchange"
+    ],
+    "recognition_cues": [
+      "Top player drops their level and shifts weight forward toward your midsection rather than moving laterally or fighting grips",
+      "Increasing compressive pressure building on your shoulders and upper back as their body weight transfers into your inverted structure",
+      "Top player's hands move to control your hips or secure pants grips to anchor your lower body before driving forward",
+      "Top player's shoulder lowers toward your chest or midsection rather than staying upright — this telegraphs the stacking intention",
+      "Feeling your knees being driven toward your face as forward pressure converts to spinal compression"
+    ],
+    "defensive_options": [
+      {
+        "action": "Frame against the opponent's shoulders with both arms to create a structural barrier preventing their shoulder from reaching your midsection",
+        "when_to_use": "Immediately upon recognizing the forward weight shift, before compression is established — frames must be proactive not reactive",
+        "targets_outcome": "Inverted Lasso Guard/Top",
+        "if_successful": "The stack is prevented from establishing compression, and you maintain your inverted lasso guard position with full offensive capability intact",
+        "risk": "If frames are bypassed or collapsed, you absorb the compression without the structural barrier and end up folded with limited options"
+      },
+      {
+        "action": "Extend the lasso hook forcefully and redirect stacking pressure into an overhead sweep by pulling with sleeve grip and elevating with the lassoed leg",
+        "when_to_use": "When the opponent commits forward past their balance point and their hips rise above their shoulders — timing the sweep to match their maximum forward commitment",
+        "targets_outcome": "Mount/Bottom",
+        "if_successful": "The opponent's forward momentum is converted into rotational force that sweeps them over your body, and you follow through to mount or top position",
+        "risk": "If mistimed, the extension creates space for arm extraction without generating sufficient sweep force, losing the lasso without gaining the sweep"
+      },
+      {
+        "action": "Hip escape laterally to change the angle of the compression, preventing direct spinal folding by rotating your body axis away from the pressure line",
+        "when_to_use": "When frames alone cannot stop the compression and you need to redirect the force vector rather than absorb it directly",
+        "targets_outcome": "Inverted Lasso Guard/Top",
+        "if_successful": "The angle change dissipates the compressive force, and you re-establish your inverted position from a new angle with maintained lasso control",
+        "risk": "Excessive hip escape may loosen the lasso hook if not carefully managed, potentially enabling arm extraction during the positional adjustment"
+      },
+      {
+        "action": "Abandon the inversion by rolling back to upright lasso guard while maintaining the lasso hook and sleeve grip throughout the transition",
+        "when_to_use": "When the stack is establishing and neither frames nor counter-sweep are viable — cut your losses and recover to a more defensible guard position",
+        "targets_outcome": "Inverted Lasso Guard/Top",
+        "if_successful": "You preserve the lasso connection and return to standard lasso guard where the stack threat is eliminated and you retain offensive options",
+        "risk": "The transition back to upright creates a momentary vulnerability window where the opponent can accelerate their pass if they read the recovery"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Inverted Lasso Guard/Top",
+        "how": "Deploy proactive frames against the opponent's shoulders immediately upon recognizing the stack initiation, then hip escape to re-establish your attacking angle. Maintain lasso hook tension throughout to preserve position and keep all offensive options available."
+      },
+      {
+        "outcome": "Mount/Bottom",
+        "how": "Time the overhead sweep precisely as the opponent commits their weight past the balance point during the stack. Extend the lasso hook while pulling strongly with the sleeve grip, using their forward momentum to generate the rotational force that completes the sweep to mount."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Releasing the lasso hook under compression pressure in a panic response",
+        "consequence": "Immediately eliminates all control and sweep capability, leaving you inverted with no connection to the opponent and completely vulnerable to any passing technique",
+        "correction": "Maintain the lasso hook as your highest defensive priority — it is your anchor and leverage point. Even under compression, the lasso provides counter-sweep opportunities that disappear the moment it is released."
+      },
+      {
+        "error": "Remaining passive during the stacking compression without deploying frames or counter-attacks",
+        "consequence": "The compression accumulates unchallenged, folding you completely and creating maximum lasso slack that enables easy arm extraction and pass completion",
+        "correction": "React immediately to any forward pressure with active frames, hip escapes, or counter-sweep attempts. Passivity in inverted position is catastrophic because it allows compression to build exponentially."
+      },
+      {
+        "error": "Attempting the overhead counter-sweep too late after compression is already fully established",
+        "consequence": "Insufficient hip elevation remains to generate sweep force, and the attempt wastes energy while the opponent extracts their arm from the loosened lasso",
+        "correction": "The overhead sweep must be initiated early when the opponent's momentum is forward and your hips still have elevation. Once knees are at your face, the sweep window has closed and you must recover to upright guard instead."
+      },
+      {
+        "error": "Bearing weight on the neck rather than distributing across shoulders and upper back during compression",
+        "consequence": "Creates dangerous cervical spine pressure that risks serious injury and eliminates the hip mobility needed for any defensive technique",
+        "correction": "Roll weight distribution onto the shoulder blades and upper back with chin tucked firmly to chest. If you feel neck pressure increasing, immediately tap or signal your partner and adjust your weight-bearing surface before continuing."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the first physical cue that indicates your opponent is initiating a stack pass rather than another passing approach?",
+        "answer": "The first cue is the directional shift of their pressure from lateral or grip-focused to direct forward compression toward your midsection. You will feel their weight dropping and driving toward you rather than circling, fighting grips, or stepping around. Their shoulder begins lowering toward your chest, and their hands typically move to secure hip or pants grips to anchor your lower body before driving forward. This forward commitment pattern is distinct from cartwheel passes or arm extraction attempts."
+      },
+      {
+        "question": "How can you use the opponent's stacking pressure to generate a counter-sweep rather than just defending?",
+        "answer": "The opponent's forward weight commitment during the stack creates an inherent balance vulnerability — their center of gravity moves ahead of their base. By extending the lasso hook while pulling strongly with the sleeve grip at the moment of maximum forward commitment, you convert their linear forward force into rotational momentum that carries them over your body. The key is timing: execute when their hips are above their shoulders and their weight is past the tipping point, not before or after this critical moment."
+      },
+      {
+        "question": "When should you abandon the inverted lasso position rather than continuing to defend the stack?",
+        "answer": "Abandon the inversion when your frames have been bypassed, your hips are being driven down, and the compression is established enough that counter-sweep timing has passed. Continuing to fight from a compromised inversion drains energy rapidly and exposes you to complete pass. The decision point is when your knees are approaching your face and lasso tension is decreasing — at this stage, maintaining the lasso hook while rolling back to upright guard preserves your connection and creates a defensible position rather than fighting a losing structural battle."
+      },
+      {
+        "question": "Why is maintaining the lasso hook your highest defensive priority even when being stacked?",
+        "answer": "The lasso hook is simultaneously your defensive anchor and your counter-attack mechanism. Without it, you have no structural connection to control the opponent, no leverage for counter-sweeps, and no way to prevent the pass. Even under compression, the lasso provides the possibility of overhead sweeps and prevents the opponent from freely disengaging to pursue other passes. Releasing the hook eliminates all options simultaneously and leaves you inverted with zero control — the worst possible defensive outcome."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Recognition and Frame Placement",
+        "focus": "Identifying stack initiation cues and deploying frames before compression establishes",
+        "description": "Partner slowly initiates stack from inverted lasso at 30% speed. Practice recognizing the forward pressure shift and placing frames against their shoulders within one second. Call out the recognition cue verbally before framing. 20 repetitions building reaction speed and frame positioning accuracy."
+      },
+      {
+        "phase": "Phase 2: Counter-Sweep Mechanics",
+        "focus": "Converting stacking pressure into overhead sweep through proper timing and lasso extension",
+        "description": "Partner commits to stack at 50% intensity. Practice timing the overhead sweep by extending the lasso hook and pulling with sleeve grip as their weight passes the balance point. Partner falls through the sweep to build confidence in the mechanics. 15 repetitions per side focusing on the timing window."
+      },
+      {
+        "phase": "Phase 3: Defensive Decision-Making",
+        "focus": "Choosing between frame defense, counter-sweep, and guard recovery based on pressure dynamics",
+        "description": "Partner varies their stack intensity and angle across repetitions. Practice selecting the appropriate defensive response: frames when caught early, counter-sweep when timing is right, guard recovery when compression establishes. Develop pattern recognition for which defense suits each scenario. 3-minute positional rounds."
+      },
+      {
+        "phase": "Phase 4: Full-Speed Defense",
+        "focus": "Integrating all defensive options under realistic pressure and speed",
+        "description": "Partner attempts stack pass at full speed from inverted lasso guard. Defend using the complete defensive toolkit with real-time decision-making. Focus on maintaining lasso hook throughout all defensive exchanges and recognizing when to transition between defensive strategies. 5-minute rounds with role switching."
+      }
+    ]
+  }
+}

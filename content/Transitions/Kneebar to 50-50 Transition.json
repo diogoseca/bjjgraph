@@ -1,0 +1,394 @@
+{
+  "name": "Kneebar to 50-50 Transition",
+  "description": "Master the kneebar to 50-50 transition in BJJ. Learn to flow from defended kneebar control into 50-50 guard for heel hooks and leg attack chains.",
+  "tags": [
+    "leg locks",
+    "transition",
+    "50-50",
+    "kneebar",
+    "leg entanglement",
+    "no-gi",
+    "advanced"
+  ],
+  "from_position": "Kneebar Control/Top",
+  "outcomes": [
+    {
+      "to": "50-50 Guard/Top",
+      "probability": 55,
+      "result": "success"
+    },
+    {
+      "to": "Kneebar Control/Top",
+      "probability": 30,
+      "result": "failure"
+    },
+    {
+      "to": "Half Guard/Bottom",
+      "probability": 15,
+      "result": "counter"
+    }
+  ],
+  "success_rate": 55,
+  "overview": "The kneebar to 50-50 transition represents a strategic positional shift within the modern leg attack system, employed when the kneebar finish from top control is effectively defended. Rather than continuing to force a low-percentage submission against a bent knee defense, the attacker threads their legs into a 50-50 configuration, converting positional control into a new attack platform with access to heel hooks, calf slicers, and back takes.\n\nThis transition capitalizes on a fundamental principle of leg lock systems: when one submission pathway is defended, the defensive reaction itself creates openings for different attacks. The opponent defending the kneebar by bending their knee and creating frames inadvertently positions their leg for 50-50 entry. The attacker's existing leg contact from kneebar position provides the foundation for threading into the symmetrical entanglement without fully releasing control.\n\nThe critical tactical consideration is managing the transition window between releasing kneebar finishing grips and establishing 50-50 control. During this brief period, the attacker's control is at its weakest, creating the primary escape opportunity for the defender. Skilled execution minimizes this window through deliberate sequencing: the legs begin threading into 50-50 before the arms fully release kneebar grips, maintaining continuous control throughout the positional change. Success depends on reading the opponent's defensive commitment and timing the transition to catch them during their strongest kneebar defense, when they are least prepared for the positional shift.",
+  "conditions": [
+    "Kneebar finish is being effectively defended with opponent maintaining bent knee",
+    "Attacker retains control of opponent's leg sufficient for leg threading",
+    "Opponent's defensive posture prevents productive extension within 10-15 seconds",
+    "Sufficient leg contact exists to begin threading into 50-50 without fully releasing control"
+  ],
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Standard Leg Thread Entry",
+      "description": "The primary variation where the attacker sequentially threads their legs from kneebar control into 50-50. The inside leg passes across the opponent's hip line first, followed by the outside leg triangling around the thigh. Emphasizes maintaining arm control throughout the threading sequence to prevent extraction.",
+      "when_to_use": "When opponent is stationary in their kneebar defense with a firmly bent knee, providing a stable base for controlled leg threading."
+    },
+    {
+      "variant_name": "Hip Switch Entry",
+      "description": "The attacker uses a hip rotation to create the 50-50 angle rather than threading sequentially. By switching hips and rotating toward the opponent's trapped leg, the attacker can rapidly establish the 50-50 entanglement. This variation is faster but requires more precise timing and coordination.",
+      "when_to_use": "When opponent begins creating distance or attempting extraction, requiring a faster transition than standard threading allows."
+    },
+    {
+      "variant_name": "Rolling 50-50 Entry",
+      "description": "The attacker uses a forward roll over the opponent's defensive frames to arrive in 50-50 position. This variation bypasses the opponent's posting hand and hip frames entirely by going over them rather than through them. Requires strong spatial awareness and commitment.",
+      "when_to_use": "When opponent's posting hand creates an effective block against standard leg threading and hip switch entries."
+    }
+  ],
+  "position_integration": "The kneebar to 50-50 transition occupies a critical juncture in the modern leg attack system, connecting the direct kneebar submission pathway to the broader 50-50 attack ecosystem. From kneebar control, practitioners who encounter strong defense gain access to 50-50's diverse attack chains including heel hooks, calf slicers, and transitions to backside 50-50 or honey hole. This integration prevents defensive specialists from neutralizing the leg attack game by defending a single submission type. The transition also connects to back takes from 50-50, creating a positional advancement pathway that rewards flowing between leg entanglements rather than forcing individual finishes. Within competition strategy, this transition transforms a stalled kneebar attempt into renewed offensive pressure without conceding positional advantage.",
+  "related_content": [
+    {
+      "name": "Kneebar Control",
+      "relationship": "Source position from which this transition initiates when kneebar finish is defended"
+    },
+    {
+      "name": "50-50 Guard",
+      "relationship": "Target position providing symmetrical leg entanglement with multiple submission opportunities"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Counter outcome position when defender successfully escapes during transition"
+    },
+    {
+      "name": "Heel Hook",
+      "relationship": "Primary submission available from 50-50 top after successful transition"
+    },
+    {
+      "name": "Back Take from 50-50",
+      "relationship": "Follow-up positional advancement from established 50-50 when submissions are defended"
+    },
+    {
+      "name": "Inside Ashi-Garami",
+      "relationship": "Related leg entanglement accessible through 50-50 transitions for different attack angles"
+    },
+    {
+      "name": "Saddle",
+      "relationship": "Advanced leg entanglement reachable through 50-50 offering superior heel hook control"
+    },
+    {
+      "name": "Backside 50-50",
+      "relationship": "Strategic 50-50 variation accessible after establishing standard 50-50 position"
+    },
+    {
+      "name": "Kneebar Control Maintenance",
+      "relationship": "Alternative to transitioning when maintaining kneebar control remains productive"
+    },
+    {
+      "name": "50-50 Pass",
+      "relationship": "Exit strategy from 50-50 to advance past leg entanglement to top position"
+    }
+  ],
+  "attacker": {
+    "name": "Kneebar to 50-50 Transition Attacker",
+    "description": "Master the attacker perspective for the kneebar to 50-50 transition. Step-by-step execution, timing cues, grip sequences, and attack chains from established 50-50.",
+    "overview": "From the attacker's perspective, the kneebar to 50-50 transition is a calculated positional upgrade that converts a defended submission position into a versatile attacking platform. The attacker must read their opponent's kneebar defense, recognize when the finish probability has dropped below a productive threshold, and smoothly redirect into 50-50 where fresh attack chains become available. The transition requires maintaining continuous leg control throughout the positional shift while threading into a new entanglement configuration. Timing is paramount: initiating too early abandons a viable kneebar, while waiting too long allows the defender to build frames and begin their own escape sequence. The attacker who masters this transition transforms every kneebar defense into a pathway toward heel hooks, calf slicers, and back takes.",
+    "key_principles": [
+      "Read kneebar defense quality before committing to transition - only shift when finish probability drops below productive threshold",
+      "Maintain continuous leg contact throughout the transition to prevent extraction during the grip change window",
+      "Thread legs into 50-50 before fully releasing kneebar arm grips to minimize the control gap",
+      "Establish inside position control immediately upon entering 50-50 to secure offensive priority",
+      "Settle hip pressure quickly after threading to prevent opponent from sitting up and equalizing",
+      "Treat the transition as a positional upgrade, not a retreat - maintain attacking intent throughout",
+      "Chain immediately into heel hook or alternative attacks upon establishing 50-50 before opponent adapts defensively"
+    ],
+    "setup_requirements": [
+      "Established kneebar control from top position with arm grips on opponent's lower leg",
+      "Opponent demonstrating effective kneebar defense through sustained bent knee and defensive posture",
+      "Sufficient leg contact with opponent's trapped leg to enable threading without releasing control",
+      "Assessment that kneebar finish probability is low enough to justify positional transition",
+      "Awareness of opponent's free leg position to anticipate resistance during threading"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Assess kneebar defense quality",
+        "description": "Evaluate opponent's defensive posture, noting their knee bend resistance, grip strength on your arms, and hip rotation. Determine that the kneebar finish probability has dropped below a productive threshold and that a positional transition to 50-50 will yield better offensive returns than continued forcing."
+      },
+      {
+        "step_number": 2,
+        "action": "Pre-load leg threading angle",
+        "description": "Before releasing any kneebar finishing grips, adjust your hip alignment and inside leg position to prepare for 50-50 entry. Your inside leg should begin shifting toward the opponent's hip line while maintaining contact with their trapped leg throughout this preparatory adjustment."
+      },
+      {
+        "step_number": 3,
+        "action": "Initiate inside leg threading",
+        "description": "Pass your inside leg across the opponent's hip line, weaving it between their legs to establish the first half of the 50-50 entanglement. Maintain arm control on their lower leg throughout this movement to prevent leg extraction during the threading sequence."
+      },
+      {
+        "step_number": 4,
+        "action": "Thread outside leg to complete entanglement",
+        "description": "Bring your outside leg around the opponent's thigh to complete the symmetrical 50-50 configuration. Your legs should now mirror your opponent's leg position with both legs interlocked. Pinch your knees together immediately to secure the entanglement structure."
+      },
+      {
+        "step_number": 5,
+        "action": "Transfer arm grips to 50-50 control",
+        "description": "Systematically shift your arm grips from kneebar finishing configuration to 50-50 control position. Release one hand at a time, maintaining continuous contact with opponent's leg throughout. Transition grip focus from lower calf to heel and ankle area for heel hook access."
+      },
+      {
+        "step_number": 6,
+        "action": "Establish top position and hip pressure",
+        "description": "Drive your hips downward to establish dominant top position within the 50-50 entanglement. Apply weight through your pelvis into opponent's lower abdomen to prevent them from sitting up and equalizing. Maintain upright torso posture for optimal pressure distribution."
+      },
+      {
+        "step_number": 7,
+        "action": "Secure inside position control",
+        "description": "Ensure your inside leg maintains the dominant inside angle against opponent's leg structure. Inside position control determines offensive priority in 50-50 and must be established before pursuing submissions. Fight for this control immediately if opponent contests it."
+      },
+      {
+        "step_number": 8,
+        "action": "Initiate primary attack chain",
+        "description": "Begin your primary attack sequence from 50-50 top by establishing two-handed heel control. Threaten heel hook as the primary submission while maintaining awareness of transition opportunities to backside 50-50, honey hole, or back take based on opponent's defensive reactions."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Opponent straightens and extracts leg during the grip transition moment",
+        "effectiveness": "High",
+        "your_response": "Maintain at least one grip on their leg and follow their hip movement. If extraction is partial, convert to straight ankle lock on the exposed ankle or chase with 50-50 entry from a different angle before they fully disengage.",
+        "targets_outcome": "Half Guard/Bottom"
+      },
+      {
+        "counter": "Opponent posts hand on attacker's hip to block leg threading",
+        "effectiveness": "Medium",
+        "your_response": "Strip their posting hand with your near arm while continuing leg threading with the opposite side. Alternatively, abandon the 50-50 attempt and return to kneebar finishing pressure while their hand is occupied posting rather than defending the knee.",
+        "targets_outcome": "Kneebar Control/Top"
+      },
+      {
+        "counter": "Opponent bridges explosively and hip escapes during weight transition",
+        "effectiveness": "High",
+        "your_response": "Follow their bridge with your hips and maintain leg contact. If they create significant distance, immediately consolidate any available top position rather than chasing the 50-50 entry. Prioritize not ending in an inferior position.",
+        "targets_outcome": "Half Guard/Bottom"
+      },
+      {
+        "counter": "Opponent immediately fights for inside position as 50-50 is established",
+        "effectiveness": "Medium",
+        "your_response": "Prioritize winning the inside position battle using your initial momentum advantage from the transition. Press your inside shin deeper into their leg structure and drive hips forward before they can establish parity. Whoever wins inside control first controls the submission hierarchy.",
+        "targets_outcome": "50-50 Guard/Top"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Releasing all arm control before legs are fully threaded into 50-50 configuration",
+        "consequence": "Opponent extracts their leg through the uncontrolled gap, escaping to half guard or open guard and leaving attacker without position",
+        "correction": "Maintain at least one arm grip on opponent's leg at all times during the transition. Release grips sequentially - never simultaneously - and only after legs have begun establishing the 50-50 entanglement"
+      },
+      {
+        "error": "Threading legs too slowly, giving opponent time to read and react to the transition",
+        "consequence": "Opponent establishes defensive frames, posts on hip, or begins extraction before 50-50 can be completed",
+        "correction": "Execute the leg threading sequence as a single committed movement once the decision is made. Pre-load the threading angle before initiating so the transition happens in one fluid motion rather than incremental adjustments"
+      },
+      {
+        "error": "Failing to establish inside position control upon entering 50-50",
+        "consequence": "Opponent immediately matches or gains inside position, neutralizing the offensive advantage of the transition and potentially gaining submission priority",
+        "correction": "Make inside leg positioning the first priority after completing the threading. Drive your inside shin into the dominant angle before settling weight or pursuing grips on the heel"
+      },
+      {
+        "error": "Abandoning kneebar prematurely when the finish is still viable",
+        "consequence": "Wasted positional advantage by transitioning away from a position where the submission was still available, unnecessarily complicating the attack chain",
+        "correction": "Set clear finish thresholds before transitioning. If opponent's knee is straightening under pressure or their grip defense is weakening, continue the kneebar rather than transitioning to 50-50"
+      },
+      {
+        "error": "Losing hip pressure during the transition and allowing opponent to sit up",
+        "consequence": "Opponent equalizes position immediately upon 50-50 entry, eliminating the top position advantage that makes the transition worthwhile",
+        "correction": "Maintain downward hip pressure throughout the transition. Drive weight through your pelvis into their abdomen even while threading legs. Settle hip pressure before pursuing heel grips"
+      },
+      {
+        "error": "Neglecting to attack immediately after establishing 50-50 position",
+        "consequence": "Opponent has time to establish their own defensive grips, hide their heel, and prepare counter-attacks, reducing the offensive advantage gained from the transition",
+        "correction": "Begin fighting for heel control within the first 2-3 seconds of establishing 50-50. The transition's value comes from catching the opponent during defensive recalibration before they adapt to the new threat"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Mechanics",
+        "focus": "Leg threading sequence and grip transitions",
+        "description": "Drill the leg threading motion from kneebar control to 50-50 with a cooperative partner. Focus on maintaining at least one point of control at all times, sequential grip releases, and arriving in 50-50 with inside position established. No resistance, pure repetition of movement pattern."
+      },
+      {
+        "phase": "Phase 2: Timing Recognition",
+        "focus": "Reading kneebar defense to identify transition windows",
+        "description": "Partner applies varying levels of kneebar defense from light to strong. Practice identifying when the defense is too strong for the finish and transitioning to 50-50. Develop the ability to distinguish between defended kneebars worth continuing versus those requiring positional shift."
+      },
+      {
+        "phase": "Phase 3: Chain Integration",
+        "focus": "Connecting 50-50 attacks to transition",
+        "description": "After completing the transition to 50-50, immediately flow into heel hook, kneebar, or back take sequences. Partner defends progressively. Develop the ability to chain from kneebar defense reading through 50-50 entry directly into submission attacks without pause."
+      },
+      {
+        "phase": "Phase 4: Live Positional Sparring",
+        "focus": "Full resistance application and decision-making",
+        "description": "Start from kneebar control with partner defending at full resistance. Attacker must decide between continuing kneebar, transitioning to 50-50, or pursuing alternative leg attacks. Win condition: finish submission or advance position. Develops realistic timing and tactical decision-making under pressure."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the optimal timing window for initiating the kneebar to 50-50 transition?",
+        "answer": "The optimal window opens when the opponent demonstrates sustained kneebar defense with a firmly bent knee for 10-15 seconds and your finishing pressure is not making progress. The transition should occur while the opponent is fully committed to their kneebar defense, as their defensive posture creates the conditions for 50-50 threading and their mental focus on knee defense leaves them unprepared for the positional shift."
+      },
+      {
+        "question": "What conditions must exist before attempting the kneebar to 50-50 transition?",
+        "answer": "Four conditions must be present: the kneebar finish must be clearly defended with the opponent maintaining a bent knee and defensive grips; you must retain sufficient leg contact with their trapped leg to enable threading; your arms must still control their lower leg enough to prevent extraction during the transition; and you must have assessed that the finish probability is too low to justify continued effort versus the 50-50 alternative."
+      },
+      {
+        "question": "What is the most critical leg threading mechanic during this transition?",
+        "answer": "The most critical mechanic is threading the inside leg across the opponent's hip line before releasing kneebar arm grips. The inside leg must establish contact with the opponent's thigh and begin the 50-50 weave while arms still maintain control of the lower leg. This overlap ensures there is no moment of zero control. The outside leg follows to complete the triangle, but the inside leg establishes the entanglement structure."
+      },
+      {
+        "question": "Your opponent begins extracting their leg as you release kneebar grips to thread into 50-50 - how do you recover?",
+        "answer": "If extraction begins during grip transition, immediately re-secure whatever grip remains rather than continuing the 50-50 threading. Use the arm nearest their heel to maintain control while your legs try to re-establish kneebar entanglement. If their leg is already partially free, transition to a straight ankle lock on the exposed ankle or follow their retreating leg to chase into 50-50 from a different entry angle rather than forcing the original path."
+      },
+      {
+        "question": "What grip sequence ensures continuous control throughout the transition from kneebar to 50-50?",
+        "answer": "The sequence is: maintain both arms in kneebar configuration while legs begin threading; release the far arm first while keeping the near arm secured on the lower leg; thread legs deeper as the far arm repositions to 50-50 control on the heel or ankle; finally release the near arm and transition it to two-handed heel control only after legs have established the 50-50 entanglement. At no point should both arms release simultaneously."
+      },
+      {
+        "question": "In which direction should your hips move during the transition to establish 50-50 top position?",
+        "answer": "Your hips should drive forward and downward toward the opponent's lower abdomen during the transition. This accomplishes two goals: it maintains top position pressure that prevents the opponent from sitting up, and it positions your pelvis at the correct height relative to their entangled leg for optimal 50-50 control. Avoid moving hips laterally or backward, as this creates space for the opponent to escape or equalize."
+      },
+      {
+        "question": "Your opponent posts their free hand on your hip to block leg threading - how do you adjust?",
+        "answer": "Strip their posting hand with your near arm using a quick two-on-one grip break before they settle the post. If the post is firmly established, use a hip switch variation to change the threading angle and bypass their blocking hand entirely. A third option is to temporarily abandon the 50-50 transition and re-commit to kneebar finishing pressure, as their hand posting on your hip removes one of their kneebar defensive grips."
+      },
+      {
+        "question": "The transition to 50-50 is blocked and you cannot complete the leg threading - what are your immediate options?",
+        "answer": "Three immediate options exist: first, return to kneebar finishing pressure since the opponent's defensive resources may have shifted during your transition attempt; second, transition to inside ashi-garami by adjusting your leg positioning without fully threading into 50-50; third, use the existing leg contact to sweep to a dominant top position rather than pursuing any leg entanglement. The key is responding within 2-3 seconds rather than continuing to force the blocked transition."
+      }
+    ],
+    "safety_considerations": "The kneebar to 50-50 transition involves leg entanglement near the knee joint. During training, execute the transition with controlled speed to prevent accidental knee torque during leg threading. Communicate with your partner before drilling, especially when threading legs around their knee. Be aware that 50-50 position opens heel hook opportunities that can damage the knee if applied suddenly. Always maintain awareness of both practitioners' knee alignment throughout the transition sequence and release immediately upon tap."
+  },
+  "defender": {
+    "name": "Kneebar to 50-50 Transition Defender",
+    "description": "Master defending the kneebar to 50-50 transition in BJJ. Recognition cues, prevention timing, escape techniques, and counter-opportunities during the transition window.",
+    "overview": "From the defender's perspective, the kneebar to 50-50 transition presents both danger and opportunity. While you have successfully defended the kneebar finish, your opponent is now attempting to convert their positional control into a 50-50 configuration that opens new submission threats including heel hooks and calf slicers. The transition moment represents your best window for escape, as the attacker must briefly compromise their control to thread their legs into the new position. Recognizing this transition early and acting decisively during the grip change is essential for avoiding a potentially worse situation. The defender must quickly decide between preventing the 50-50 entry entirely, accepting it while fighting for inside position, or using the transition window to extract their leg and escape.",
+    "key_principles": [
+      "Recognize transition cues immediately - any change from kneebar finishing pressure to leg repositioning signals the 50-50 entry attempt",
+      "Exploit the grip transition window when attacker releases kneebar finishing grips to thread legs, as this is your lowest-control moment",
+      "Decide quickly between prevention, acceptance with inside position fight, or full extraction based on how far the threading has progressed",
+      "Keep your heel hidden throughout - even during the transition, the attacker may attempt opportunistic heel hooks",
+      "Use the transition moment to create distance through hip escaping rather than remaining static and allowing the attacker to complete their threading",
+      "If 50-50 is established, immediately contest inside position rather than passively accepting bottom position"
+    ],
+    "recognition_cues": [
+      "Attacker's finishing pressure on the kneebar decreases or stops entirely despite maintaining leg control",
+      "Attacker begins repositioning their legs around your trapped leg rather than driving hips for extension",
+      "Attacker's arm grips shift from pulling your leg tight against their chest to looser transitional holds",
+      "You feel the attacker's inside leg begin to pass across your hip line toward your opposite side",
+      "Attacker's hip alignment changes from perpendicular kneebar angle to parallel 50-50 orientation"
+    ],
+    "defensive_options": [
+      {
+        "action": "Post hand on attacker's hip to block leg threading",
+        "when_to_use": "Early in transition as attacker begins shifting from kneebar finishing pressure to leg repositioning",
+        "targets_outcome": "Kneebar Control/Top",
+        "if_successful": "Attacker cannot complete 50-50 entry and must either return to kneebar or abandon the attempt",
+        "risk": "Posting hand removes one of your defensive frames against kneebar reattack if attacker reverts"
+      },
+      {
+        "action": "Hip escape and extract trapped leg during grip transition window",
+        "when_to_use": "During the 1-2 second moment when attacker releases kneebar finishing grips to begin threading legs",
+        "targets_outcome": "Half Guard/Bottom",
+        "if_successful": "Full escape from leg entanglement, recovering to half guard top position",
+        "risk": "Failed extraction attempt leaves you partially entangled in a worse configuration with less energy"
+      },
+      {
+        "action": "Bridge explosively to create distance and disrupt leg threading sequence",
+        "when_to_use": "As attacker's weight shifts during leg repositioning, momentarily reducing their base stability",
+        "targets_outcome": "Half Guard/Bottom",
+        "if_successful": "Distance creation prevents 50-50 completion and enables leg extraction to half guard",
+        "risk": "Bridge energy expenditure without successful escape leaves you fatigued in same position"
+      },
+      {
+        "action": "Accept 50-50 entry but immediately fight for inside position and heel control",
+        "when_to_use": "When leg threading has progressed too far to prevent, making prevention attempts wasteful",
+        "targets_outcome": "50-50 Guard/Top",
+        "if_successful": "Equalizes or reverses positional advantage within 50-50 through superior inside control",
+        "risk": "Delayed action allows attacker to settle into dominant top 50-50 with established offensive grips"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Half Guard/Bottom",
+        "how": "Time your hip escape and leg extraction during the transition moment when the attacker releases kneebar finishing grips to begin threading legs for 50-50. This window lasts approximately 1-2 seconds and represents your best opportunity to extract your leg completely and recover to half guard top position before the attacker can re-establish any leg entanglement."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Failing to recognize the transition until 50-50 is already established",
+        "consequence": "Missed the escape window entirely and now must defend from bottom 50-50 against an opponent with established inside position and heel access",
+        "correction": "Monitor attacker's leg movement and pressure changes constantly. Any decrease in kneebar finishing pressure combined with leg repositioning signals the transition. React during the first leg threading motion, not after the entanglement is complete"
+      },
+      {
+        "error": "Using explosive energy without technical direction during the transition window",
+        "consequence": "Energy wasted on untechnical movements that fail to create meaningful escape, leaving you fatigued in a worse position",
+        "correction": "Direct escape energy into specific technical actions: hip escape toward a defined direction, grip strip on a specific hand, or bridge with immediate follow-up extraction. Every movement should have a clear tactical purpose"
+      },
+      {
+        "error": "Allowing attacker to establish inside position unchallenged upon 50-50 entry",
+        "consequence": "Attacker gains immediate submission priority from dominant inside control, reducing your defensive and counter-offensive options significantly",
+        "correction": "If 50-50 cannot be prevented, immediately fight for inside position using your inside leg to contest the angle. This must happen within the first 2-3 seconds of entanglement establishment before the attacker settles"
+      },
+      {
+        "error": "Continuing to defend as if the kneebar is still the primary threat rather than addressing the transition",
+        "consequence": "Defensive resources remain committed to bent knee posture while the attacker freely threads into 50-50 without resistance",
+        "correction": "Recognize when the threat has shifted from kneebar extension to positional transition. Redirect your defensive focus from knee protection to preventing leg threading and maintaining escape options"
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What are the earliest recognition cues that your opponent is transitioning from kneebar to 50-50?",
+        "answer": "The earliest cues are a decrease in kneebar finishing pressure on your knee joint combined with a shift in the attacker's leg positioning around your trapped leg. You will feel their inside leg begin to move across your hip line rather than maintaining kneebar fulcrum position. Their arm grips may also loosen slightly as they prepare to transition from finishing configuration to threading control."
+      },
+      {
+        "question": "Your opponent begins threading their legs for 50-50 entry - what immediate action gives you the best chance of preventing the transition?",
+        "answer": "The highest-percentage prevention is posting your near hand firmly on their hip to block their inside leg from passing across your hip line. This physical barrier prevents the first threading step that establishes 50-50. Simultaneously hip escape away from their threading direction to increase the distance their legs must travel. If both actions execute within the first second of their threading attempt, prevention success rate is significantly higher than later interventions."
+      },
+      {
+        "question": "Why is the grip transition moment the most critical window for escaping the kneebar to 50-50 transition?",
+        "answer": "The grip transition moment is critical because the attacker must release their kneebar finishing grips to reposition arms for 50-50 control. During this 1-2 second window, the attacker has minimal arm control over your leg while their legs are only partially threaded into the new configuration. This represents the lowest total control point in the entire transition sequence, making leg extraction through hip escape most likely to succeed."
+      },
+      {
+        "question": "You failed to prevent the 50-50 entry and your opponent is settling into top position - what is your first priority?",
+        "answer": "Your absolute first priority is fighting for inside position with your inside leg before the attacker can settle hip pressure. Inside position control determines who has submission priority in 50-50. Simultaneously hide your heel by rotating your knee inward to prevent immediate heel hook attacks. Do not waste energy on escape attempts until you have addressed these two defensive priorities, as escaping without inside position control or heel protection dramatically increases submission risk."
+      },
+      {
+        "question": "Your opponent releases their kneebar grips but you feel their legs beginning to wrap around yours - how do you create distance?",
+        "answer": "Execute an immediate hip escape in the direction away from their wrapping legs while simultaneously using both hands to push against their hip or thigh. The hip escape must be explosive and directional, not just a general shrimp. Target creating enough distance that their threading legs cannot complete the 50-50 triangle. If you cannot fully escape, use the created distance to insert a knee shield between your bodies, which prevents them from settling top pressure even if the 50-50 entanglement forms."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Recognition",
+        "focus": "Identifying transition cues from kneebar to 50-50",
+        "description": "Partner performs the kneebar to 50-50 transition at slow speed while you practice identifying each recognition cue. Call out the transition as soon as you detect it. Develop sensitivity to pressure changes and leg repositioning that signal the shift from kneebar finish to 50-50 entry."
+      },
+      {
+        "phase": "Phase 2: Prevention Techniques",
+        "focus": "Blocking leg threading and exploiting escape windows",
+        "description": "Partner attempts the transition at moderate speed while you practice specific prevention techniques: hip posting, leg extraction during grip changes, and explosive bridging. Drill each prevention method independently before combining them into reactive chains."
+      },
+      {
+        "phase": "Phase 3: Counter and Recovery",
+        "focus": "Defensive actions when prevention fails",
+        "description": "Start with partner completing the transition to 50-50. Practice inside position fighting, heel protection, and position reversal from bottom 50-50. Develop the ability to transition from failed prevention directly into 50-50 defensive protocol without mental reset or panic."
+      }
+    ]
+  }
+}

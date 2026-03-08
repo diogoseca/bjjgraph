@@ -1,0 +1,403 @@
+{
+  "name": "Pass Z-Lock",
+  "description": "Master passing Z-Lock Half Guard in BJJ. Systematic approach to neutralizing lockdown mechanics, freeing the trapped leg, and advancing to side control.",
+  "tags": [
+    "bjj",
+    "transition",
+    "guard-pass",
+    "half-guard",
+    "z-lock",
+    "pressure-passing",
+    "top-game",
+    "lockdown-counter"
+  ],
+  "from_position": "Z-Lock Half Guard/Top",
+  "outcomes": [
+    {
+      "to": "Side Control/Top",
+      "probability": 55,
+      "result": "success"
+    },
+    {
+      "to": "Z-Lock Half Guard/Top",
+      "probability": 30,
+      "result": "failure"
+    },
+    {
+      "to": "Half Guard/Bottom",
+      "probability": 15,
+      "result": "counter"
+    }
+  ],
+  "success_rate": 55,
+  "overview": "Pass Z-Lock is a systematic guard passing sequence designed to defeat the Z-Lock Half Guard configuration, an advanced lockdown variation that combines traditional lockdown mechanics with a butterfly hook element forming a characteristic Z-shape with the legs. The Z-Lock creates dual-threat defense by simultaneously controlling the trapped leg through lockdown tension and managing distance through the butterfly hook, making it one of the more difficult half guard variations to pass cleanly. The pass requires methodical upper body control establishment followed by systematic dismantling of the leg configuration before completing the advance to side control.\n\nThe fundamental challenge lies in the Z-Lock's dual-leg defense system. Unlike a standard lockdown where breaking one connection frees the leg, the Z-Lock requires neutralizing both the lockdown hook and the butterfly element in sequence without creating space for the bottom player to recover or initiate sweeps. The passer must maintain constant shoulder pressure throughout the extraction process to prevent the bottom player from re-establishing the Z-Lock configuration or transitioning to alternative guard variations like deep half or standard knee shield.\n\nStrategically, this pass rewards patience and methodical progression over explosive movement. Attempting to muscle through the Z-Lock typically fails because the dual-leg system absorbs force from multiple angles. Instead, the passer should establish dominant crossface and shoulder pressure first, then systematically strip the lockdown tension before addressing the butterfly hook element. The pass integrates naturally into broader half guard passing systems and chains effectively with knee slice, smash pass, and backstep passing options when the initial Z-Lock break creates defensive reactions.",
+  "conditions": [
+    "Opponent has established Z-Lock Half Guard configuration with both lockdown and butterfly hook elements active",
+    "Top player has achieved some degree of upper body control through crossface or shoulder pressure",
+    "Bottom player's hips are not fully angled away, allowing the passer to maintain chest-to-chest connection",
+    "Passer's free leg is posted with sufficient base to resist sweep attempts during the passing sequence"
+  ],
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Pressure Knee Slice Variation",
+      "description": "After breaking the Z-Lock tension, immediately transition to a knee slice pass by driving the knee across the opponent's thigh line while maintaining heavy crossface pressure. This variation prioritizes speed of completion over positional consolidation, cutting through before the bottom player can re-establish any guard configuration.",
+      "when_to_use": "When the bottom player's hips are flat and they lack an active underhook, making the direct knee slice path available without significant obstruction."
+    },
+    {
+      "variant_name": "Backstep Pass Variation",
+      "description": "Instead of driving forward through the Z-Lock, disengage the trapped leg by backstepping over the bottom player's guard structure. This redirects the passing angle from forward pressure to lateral movement, bypassing the Z-Lock's forward-facing defensive architecture entirely and arriving at side control from the opposite direction.",
+      "when_to_use": "When the bottom player maintains strong forward frames and lockdown tension that resists direct forward passing pressure, making lateral passing more efficient."
+    },
+    {
+      "variant_name": "Smash Pass Integration",
+      "description": "Combine Z-Lock neutralization with smash passing mechanics by driving the bottom player's knees together and past their centerline. Use heavy hip pressure to flatten the opponent while simultaneously breaking the lockdown configuration through the compression of their leg structure against their own body.",
+      "when_to_use": "Against opponents with strong lockdown retention who maintain the Z-Lock even under heavy pressure, requiring compression-based leg extraction rather than technical stripping."
+    }
+  ],
+  "position_integration": "Pass Z-Lock sits within the broader half guard passing system as a specialized response to the Z-Lock variation. It connects the Z-Lock Half Guard top position to side control, completing the guard pass that other half guard techniques initiate. The pass chains naturally with knee slice, smash pass, and backstep options when the bottom player adjusts their defense during the Z-Lock breaking sequence. Understanding this pass is essential for any practitioner who regularly faces lockdown specialists or 10th Planet-influenced guard players, as the Z-Lock represents one of the more technically challenging half guard configurations to defeat.",
+  "related_content": [
+    {
+      "name": "Z-Lock Half Guard",
+      "relationship": "Source position where this pass begins, containing the defensive structure being defeated"
+    },
+    {
+      "name": "Side Control",
+      "relationship": "Primary target position upon successful completion of the pass"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Parent guard category containing Z-Lock as specialized variation"
+    },
+    {
+      "name": "Lockdown",
+      "relationship": "Related leg entanglement system that forms the foundation of Z-Lock mechanics"
+    },
+    {
+      "name": "Knee Shield Half Guard",
+      "relationship": "Alternative half guard variation the bottom player may transition to if Z-Lock is compromised"
+    },
+    {
+      "name": "Flattened Half Guard",
+      "relationship": "Intermediate position created when passer successfully breaks Z-Lock tension but hasn't completed the pass"
+    },
+    {
+      "name": "Deep Half Guard",
+      "relationship": "Common escape target for bottom player when Z-Lock retention fails under pressure"
+    },
+    {
+      "name": "Escape Z-Lock Half Guard",
+      "relationship": "Defender's primary technique for recovering from compromised Z-Lock position"
+    },
+    {
+      "name": "Lockdown Break from Z-Lock",
+      "relationship": "Related technique focused specifically on breaking the lockdown component of the Z-Lock"
+    },
+    {
+      "name": "Headquarters Position",
+      "relationship": "Alternative passing hub position accessible if passer extracts leg but doesn't complete the pass"
+    },
+    {
+      "name": "Dogfight Position",
+      "relationship": "Scramble position that may result if bottom player recovers underhook during the pass"
+    }
+  ],
+  "attacker": {
+    "name": "Pass Z-Lock Attacker",
+    "description": "Complete guide to passing Z-Lock Half Guard from the top position. Step-by-step breakdown of lockdown neutralization, leg extraction, and side control consolidation with counters to common defenses.",
+    "overview": "As the passer, your objective is to systematically dismantle the bottom player's Z-Lock configuration while maintaining constant pressure that prevents them from re-establishing defensive structures or launching sweep attacks. The Z-Lock is a dual-threat system combining lockdown control with butterfly hook mechanics, so your passing approach must address both elements in sequence rather than attempting to force through both simultaneously. Success requires establishing dominant upper body control first, then progressively stripping the leg configuration before completing the pass to side control. The key mental framework is patience through pressure: make the position increasingly uncomfortable for the bottom player until the Z-Lock becomes unsustainable, then capitalize on the openings that appear as they attempt to adjust.",
+    "key_principles": [
+      "Establish crossface and shoulder pressure before attempting any leg extraction to prevent the bottom player from using upper body movement to re-establish the Z-Lock",
+      "Address the lockdown and butterfly hook components sequentially rather than simultaneously to avoid creating space on both sides",
+      "Maintain hip-to-hip connection throughout the passing sequence to prevent the bottom player from creating angles for sweeps or guard recovery",
+      "Use skeletal pressure through shoulder and hips rather than muscular force to sustain the pass without burning energy reserves",
+      "Monitor the bottom player's underhook attempts constantly, as recovering the underhook is their primary pathway to neutralizing your pass",
+      "Drive the knee of your trapped leg forward to stretch and weaken the lockdown configuration before attempting full extraction"
+    ],
+    "setup_requirements": [
+      "Crossface established with forearm or shoulder driving opponent's head away, controlling their ability to turn into you",
+      "Shoulder pressure sinking weight into opponent's chest to limit their upper body mobility and frame creation",
+      "Free leg posted wide with foot firmly on the mat to provide base against sweep attempts",
+      "Near hand controlling opponent's far hip or blocking their knee to prevent shrimping and angle creation",
+      "Hips low and heavy on the trapped leg side to compress the Z-Lock configuration and limit the butterfly hook's elevation ability"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Establish dominant crossface and shoulder pressure",
+        "description": "Drive your shoulder into the opponent's chest or jaw while establishing a crossface with your forearm across their face and neck. Your weight should transfer through your shoulder bone directly into their upper body, making it difficult for them to turn or create frames. This upper body control must be secured before attempting any leg work, as premature leg extraction without head control allows the bottom player to follow your movement and re-establish the Z-Lock."
+      },
+      {
+        "step_number": 2,
+        "action": "Block the far hip and neutralize underhook attempts",
+        "description": "Position your near hand firmly against the opponent's far hip, pressing it flat to the mat to prevent any shrimping or angle creation. Simultaneously monitor their inside arm for underhook attempts by keeping your elbow tight and using your crossface-side shoulder to pin their near-side shoulder. If they begin threading an underhook, immediately swim your arm over theirs to re-establish control before they can leverage it into a sweep."
+      },
+      {
+        "step_number": 3,
+        "action": "Break the lockdown tension by driving the trapped knee forward",
+        "description": "Begin extending your trapped leg forward and down, driving your knee toward the mat past the opponent's hips. This stretches the lockdown configuration and weakens the ankle hook that secures it. Do not attempt to rip the leg free explosively, as this creates space and momentum that the bottom player can redirect into sweeps. Instead, apply steady forward pressure with your knee while maintaining heavy shoulder weight to prevent them from adjusting the lockdown grip."
+      },
+      {
+        "step_number": 4,
+        "action": "Strip the lockdown hook from the ankle",
+        "description": "Once the lockdown tension is reduced through knee extension, use your free leg to step on and peel the opponent's hooking foot off your ankle. Alternatively, windshield-wiper your trapped foot outward while driving your knee to the mat to strip the hook mechanically. The key is maintaining upper body pressure throughout this step, as the moment you lighten your weight to address the legs is when the bottom player will attempt to re-establish the lock or transition to an alternative guard."
+      },
+      {
+        "step_number": 5,
+        "action": "Neutralize the butterfly hook element",
+        "description": "With the lockdown broken, the remaining threat is the butterfly hook under your thigh. Drive your hip down onto the hook leg, compressing it flat to the mat rather than allowing it to elevate. Use your free knee to pin their butterfly hook leg to the mat or step over it laterally. Maintain constant forward pressure through your shoulder to prevent them from using the remaining hook to create elevation or transition to standard half guard sweeps."
+      },
+      {
+        "step_number": 6,
+        "action": "Cut knee across the opponent's thigh line",
+        "description": "With both Z-Lock components neutralized, slice your knee across the opponent's thigh line toward the mat on the far side. Keep your shin heavy across their legs to prevent any last-moment knee insertion or guard recovery attempt. Your crossface should intensify during this phase, driving their head away and preventing them from turning to follow your knee cut."
+      },
+      {
+        "step_number": 7,
+        "action": "Clear remaining leg hooks and consolidate side control",
+        "description": "Complete the pass by sprawling your hips back to clear any remaining leg entanglement, then immediately drop your hips to establish side control. Transition your crossface to a full side control configuration with chest perpendicular to their torso, near hand blocking the far hip, and hips low and heavy. Do not rush this consolidation phase, as incomplete side control establishment allows the bottom player to re-insert a knee and recover half guard."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Bottom player hip escapes and re-establishes the Z-Lock configuration by reinserting butterfly hook",
+        "effectiveness": "High",
+        "your_response": "Immediately re-establish hip-to-hip contact and drive shoulder pressure forward. Block their far hip aggressively and restart the lockdown stripping sequence from step 3.",
+        "targets_outcome": "Z-Lock Half Guard/Top"
+      },
+      {
+        "counter": "Bottom player recovers underhook and comes up to dogfight position threatening sweeps",
+        "effectiveness": "High",
+        "your_response": "Apply immediate whizzer control on the underhook arm while driving shoulder into their head. Use the whizzer to re-flatten them and re-establish crossface before they can generate sweeping momentum.",
+        "targets_outcome": "Z-Lock Half Guard/Top"
+      },
+      {
+        "counter": "Bottom player transitions to deep half guard by ducking under your pressure during leg extraction",
+        "effectiveness": "Medium",
+        "your_response": "Maintain heavy hips and prevent them from getting their head underneath you. If they begin the deep half entry, immediately backstep to address the position change rather than continuing the forward pass.",
+        "targets_outcome": "Z-Lock Half Guard/Top"
+      },
+      {
+        "counter": "Bottom player executes old school sweep or electric chair attack during the lockdown break",
+        "effectiveness": "Medium",
+        "your_response": "Base out wide with your free leg and drive crossface pressure to flatten their angle. The old school sweep requires them to be on their side with an underhook, so denying the underhook and flattening them neutralizes the sweep threat.",
+        "targets_outcome": "Half Guard/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Attempting to rip the trapped leg free explosively without breaking the lockdown first",
+        "consequence": "Creates significant space and momentum that the bottom player redirects into sweep attacks or uses to re-establish a stronger Z-Lock configuration with deeper hooks",
+        "correction": "Break the lockdown tension progressively through steady knee extension and ankle stripping before attempting full leg extraction, maintaining pressure throughout"
+      },
+      {
+        "error": "Lifting hips to create space for leg extraction rather than driving them into the opponent",
+        "consequence": "Provides the bottom player with the space needed to activate their butterfly hook for elevation sweeps or to re-insert defensive frames",
+        "correction": "Keep hips heavy and low throughout the extraction process, using forward pressure to compress the Z-Lock rather than creating vertical space"
+      },
+      {
+        "error": "Neglecting upper body control while focused on the leg battle",
+        "consequence": "Bottom player recovers underhook, establishes frames, or creates angles that lead to sweeps and position reversals",
+        "correction": "Establish and maintain crossface pressure as the absolute priority before and during all leg extraction work. If crossface is lost, abandon leg work and re-establish upper body control first"
+      },
+      {
+        "error": "Addressing only the lockdown component while ignoring the butterfly hook element",
+        "consequence": "Bottom player uses the remaining butterfly hook to elevate and sweep, or transitions to butterfly half guard with strong offensive options",
+        "correction": "Treat the Z-Lock as a two-stage problem. After breaking the lockdown, immediately compress and neutralize the butterfly hook before attempting to complete the knee cut"
+      },
+      {
+        "error": "Rushing to complete the pass before fully clearing all leg entanglements",
+        "consequence": "Bottom player catches a last-moment half guard recovery by reinserting a knee or hooking an ankle, resetting the entire passing sequence",
+        "correction": "Verify that both the lockdown and butterfly hook are fully cleared before committing to the knee cut and side control consolidation. Patience in the final phase prevents resets"
+      },
+      {
+        "error": "Maintaining static pressure without progressing through the passing stages",
+        "consequence": "Gives the bottom player time to problem-solve, adjust grips, and work escape sequences without urgency or pressure to react",
+        "correction": "Maintain constant progression through the passing stages. Once upper body control is established, begin breaking the lockdown immediately. Each phase should flow into the next with steady forward momentum"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Mechanics",
+        "focus": "Lockdown breaking and leg extraction technique",
+        "description": "Practice the lockdown stripping sequence with a cooperative partner who holds the Z-Lock at 30% tension. Focus on the knee extension, ankle peel, and butterfly hook compression sequence. Repeat 20 times per side, building smooth muscle memory for the leg extraction pattern without resistance."
+      },
+      {
+        "phase": "Phase 2: Pressure Integration",
+        "focus": "Combining upper body control with leg extraction",
+        "description": "Add crossface and shoulder pressure to the leg extraction sequence. Partner holds Z-Lock at 50% resistance while you practice maintaining constant shoulder weight throughout the entire passing sequence. The goal is zero pressure reduction during leg work."
+      },
+      {
+        "phase": "Phase 3: Counter Response",
+        "focus": "Adapting to defensive reactions during the pass",
+        "description": "Partner actively defends using common counters: re-establishing Z-Lock, recovering underhook, transitioning to deep half. Practice recognizing each counter and applying the correct response while maintaining passing pressure. Work 3-minute rounds with full resistance."
+      },
+      {
+        "phase": "Phase 4: Chain Passing",
+        "focus": "Linking Z-Lock pass with alternative passing options",
+        "description": "Chain the Z-Lock pass with knee slice, smash pass, and backstep variations based on partner's defensive reactions. If the direct Z-Lock break stalls, transition to alternative passes. Develop automatic responses to each defensive pattern in 5-minute positional sparring rounds."
+      },
+      {
+        "phase": "Phase 5: Competition Simulation",
+        "focus": "Full-speed application against resisting opponents",
+        "description": "Positional sparring starting from Z-Lock Half Guard top. Passer scores by completing the pass to side control. Bottom player scores by sweeping or recovering full guard. Full resistance with time pressure to develop the ability to execute the pass under competition conditions."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the single most important control to establish before attempting any leg extraction from Z-Lock Half Guard?",
+        "answer": "The crossface and shoulder pressure must be established as the absolute first priority. Without dominant upper body control pinning the opponent's head away and driving weight through the shoulder into their chest, any leg extraction attempt creates space that the bottom player exploits for sweeps, underhook recovery, or Z-Lock re-establishment. The crossface prevents the bottom player from turning to follow your movement during the pass."
+      },
+      {
+        "question": "Why must you address the lockdown and butterfly hook components sequentially rather than simultaneously?",
+        "answer": "Attempting to strip both components at once requires you to lighten pressure on at least one side, creating the space the bottom player needs to activate their offensive game. By addressing the lockdown first through knee extension and ankle stripping while maintaining heavy pressure on the butterfly hook side, you eliminate one threat without opening the other. Once the lockdown is broken, you can redirect all passing pressure to compress and neutralize the butterfly hook."
+      },
+      {
+        "question": "Your opponent recovers their underhook while you are midway through stripping the lockdown. What do you do?",
+        "answer": "Immediately abandon the leg work and address the underhook. Apply whizzer control on their underhook arm while intensifying crossface pressure to flatten their angle. The underhook gives them sweep and back take pathways that are more dangerous than the Z-Lock itself. Once you neutralize the underhook through whizzer pressure and re-flatten them to the mat, resume the lockdown stripping sequence from where you left off."
+      },
+      {
+        "question": "What is the critical mechanical detail in breaking the lockdown component of the Z-Lock?",
+        "answer": "The key mechanical action is driving your trapped knee forward and down toward the mat past the opponent's hips, which stretches and weakens the ankle hook securing the lockdown. This forward knee drive must be steady and progressive rather than explosive, as jerking the leg creates momentum the bottom player redirects into sweeps. Simultaneously, your weight must remain forward through shoulder pressure to prevent them from pulling your base backward through the lockdown tension."
+      },
+      {
+        "question": "How do you prevent the bottom player from transitioning to deep half guard during your Z-Lock passing sequence?",
+        "answer": "Deep half entry requires the bottom player to get their head underneath your hips and duck under your pressure. Prevent this by maintaining heavy hip-to-hip contact that eliminates the space needed to duck under. If you feel them beginning to angle toward deep half by turning their back and sliding underneath, immediately drop your hips lower and intensify forward shoulder pressure. If the deep half entry progresses beyond the initial stage, abandon the forward pass and backstep to address the new position."
+      },
+      {
+        "question": "What grip should your near hand maintain during the Z-Lock passing sequence and why?",
+        "answer": "Your near hand should control the opponent's far hip throughout the pass, pressing it flat to the mat. This blocks shrimping, prevents angle creation for sweeps, and limits the bottom player's ability to create the hip mobility needed to re-establish the Z-Lock or transition to alternative guards. Only release this hip control momentarily when stripping the lockdown ankle hook, and immediately return to hip blocking once the hook is cleared."
+      },
+      {
+        "question": "The lockdown is broken but the bottom player still has a strong butterfly hook elevating your thigh. How do you complete the pass?",
+        "answer": "Drive your hip down directly onto the butterfly hook leg, compressing it flat to the mat rather than trying to step over it. Use your body weight through the hip to eliminate the hook's lifting power. Once flattened, pin the hook leg with your knee or step laterally past it. Maintain aggressive crossface throughout because the butterfly hook's effectiveness depends on the bottom player having enough upper body angle to direct the elevation into a sweep."
+      },
+      {
+        "question": "What determines the optimal timing window for initiating the Z-Lock pass attempt?",
+        "answer": "The optimal timing is after you have established heavy crossface pressure and the bottom player has begun using energy to maintain the Z-Lock configuration defensively rather than threatening sweeps. Signs include their hips settling flat, reduced underhook fighting activity, and visible fatigue in the lockdown tension. Initiating the pass while they are actively attacking with sweeps or fighting for the underhook dramatically reduces success probability because their energy and attention are directed toward offensive movement."
+      }
+    ],
+    "safety_considerations": "The Z-Lock pass involves significant pressure on the bottom player's knee and ankle joints during the lockdown breaking phase. Drive the knee extension gradually rather than explosively to avoid hyperextending the bottom player's knee or straining their ankle. During training, communicate with your partner about pressure levels, particularly when stripping the lockdown hook. If your partner signals discomfort in their knee or ankle, release pressure immediately and adjust your angle. Crossface pressure should be firm but controlled to avoid neck strain."
+  },
+  "defender": {
+    "name": "Pass Z-Lock Defender",
+    "description": "Complete guide to defending against Z-Lock Half Guard passing attempts. Recognition cues, retention strategies, counter-sweeps, and guard recovery options to maintain your half guard position.",
+    "overview": "As the defender in Z-Lock Half Guard, your primary objectives are retaining the Z-Lock configuration, preventing the passer from establishing dominant upper body control, and converting their passing attempts into sweep or back take opportunities. The Z-Lock's dual-leg system provides multiple defensive layers, but each layer requires active maintenance. Passive defense where you simply hold the lockdown will eventually fail against a methodical passer. Instead, you must constantly threaten offensive actions that force the passer to address your attacks rather than systematically dismantling your guard. Your defensive hierarchy prioritizes maintaining the underhook and hip angle first, retaining the Z-Lock configuration second, and recovering to alternative guard positions third. When the Z-Lock is compromised, immediate transition to deep half, knee shield, or standard half guard prevents the passer from capitalizing on the broken configuration.",
+    "key_principles": [
+      "Maintain constant underhook fighting to prevent the passer from establishing dominant crossface that enables their passing sequence",
+      "Keep hips angled on your side rather than flat to preserve sweep threats and prevent the passer from driving you flat for the pass",
+      "Actively re-establish the Z-Lock components whenever the passer strips them rather than accepting the degraded position",
+      "Threaten sweeps continuously during the passer's leg extraction attempts to force them to address your offense rather than completing the pass",
+      "Transition immediately to alternative guard positions when the Z-Lock becomes unsustainable rather than clinging to a broken configuration",
+      "Use the butterfly hook element actively to create elevation threats that prevent the passer from settling heavy hips on your guard"
+    ],
+    "recognition_cues": [
+      "Passer establishes heavy crossface and drives shoulder into your chest while their free leg posts wide for base",
+      "Passer begins extending their trapped knee forward and downward, stretching the lockdown tension in your legs",
+      "Passer's near hand presses against your far hip, blocking your ability to shrimp or create angles",
+      "Passer's weight shifts from their upper body toward their hips as they prepare to address the leg configuration",
+      "Passer uses their free foot to step on or peel your lockdown hooking foot from their ankle"
+    ],
+    "defensive_options": [
+      {
+        "action": "Recover underhook and come up to dogfight position while maintaining lockdown tension",
+        "when_to_use": "When the passer lightens their crossface pressure to address the leg configuration, creating a window for the underhook insertion",
+        "targets_outcome": "Z-Lock Half Guard/Top",
+        "if_successful": "Forces passer to abandon the pass and address your underhook and sweep threats, resetting the position",
+        "risk": "If underhook recovery fails, you may end up flattened with compromised upper body control"
+      },
+      {
+        "action": "Activate butterfly hook to elevate and sweep when passer commits weight forward during lockdown strip",
+        "when_to_use": "When the passer drives heavy forward pressure to break the lockdown, creating forward momentum you can redirect upward through the butterfly hook",
+        "targets_outcome": "Half Guard/Bottom",
+        "if_successful": "Sweeps the passer using their own forward momentum, reversing the position entirely",
+        "risk": "If the sweep fails, you lose the butterfly hook element and are left with only the lockdown defense"
+      },
+      {
+        "action": "Transition to deep half guard by ducking under the passer's pressure before they complete the lockdown strip",
+        "when_to_use": "When the lockdown tension is failing and you cannot maintain the Z-Lock configuration, but still have enough hip mobility to angle underneath",
+        "targets_outcome": "Z-Lock Half Guard/Top",
+        "if_successful": "Establishes a strong sweeping position that is difficult for the passer to address once you are underneath",
+        "risk": "Passer may flatten you during the transition if your timing is late or their hip pressure prevents you from getting underneath"
+      },
+      {
+        "action": "Re-establish lockdown hook immediately after the passer strips it by re-hooking the ankle before they advance",
+        "when_to_use": "Immediately after the passer strips the lockdown hook but before they address the butterfly component, during the brief transition between phases",
+        "targets_outcome": "Z-Lock Half Guard/Top",
+        "if_successful": "Resets the Z-Lock entirely, forcing the passer to restart their entire passing sequence",
+        "risk": "Requires fast leg dexterity and may fail if the passer maintains heavy pressure on the stripped leg"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Half Guard/Bottom",
+        "how": "Time a butterfly hook sweep when the passer commits forward momentum during the lockdown stripping phase. Use their weight transfer against them by elevating with the hook while pulling with whatever remains of the lockdown to off-balance them laterally."
+      },
+      {
+        "outcome": "Z-Lock Half Guard/Top",
+        "how": "Aggressively re-establish the Z-Lock configuration every time the passer strips a component. Fight for the underhook to prevent them from settling into the passing sequence. Maintain constant sweep threats that force them to address your offense rather than completing the pass."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Holding the lockdown passively without threatening sweeps or maintaining hip angle",
+        "consequence": "Passer methodically strips the Z-Lock configuration without consequence because there is no offensive threat forcing them to react defensively",
+        "correction": "Maintain constant sweep threats through the Z-Lock system. Even while defending, feint old school sweeps and butterfly elevations to disrupt the passer's timing and force them to address your offense"
+      },
+      {
+        "error": "Allowing the passer to establish crossface without fighting for the underhook",
+        "consequence": "Dominant crossface control enables the entire passing sequence by preventing you from turning, framing, or creating the angles needed for sweeps and guard transitions",
+        "correction": "Treat the underhook battle as the highest priority. Contest the crossface immediately by fighting for your own underhook before the passer settles their shoulder pressure"
+      },
+      {
+        "error": "Remaining flat on your back instead of maintaining active hip angle toward the passer",
+        "consequence": "Flat positioning eliminates all sweep angles, allows the passer to drive maximum pressure through your chest, and makes lockdown retention significantly harder",
+        "correction": "Stay on your side facing the passer with active hip angle. Use continuous small hip escape movements to maintain the angle even under pressure. The Z-Lock works best when your hips are angled, not flat"
+      },
+      {
+        "error": "Clinging to a broken Z-Lock configuration instead of transitioning to alternative guard positions",
+        "consequence": "Passer completes the pass because you spent energy trying to re-establish a guard that was already compromised rather than transitioning to a viable defensive position",
+        "correction": "When the Z-Lock is broken beyond recovery, immediately transition to deep half guard, standard half guard with knee shield, or butterfly guard rather than attempting to rebuild the Z-Lock from a compromised state"
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is your highest priority defensive action when you feel the passer beginning to establish crossface pressure?",
+        "answer": "Immediately fight for the underhook on the trapped leg side by threading your arm deep past their armpit toward their back or belt. The underhook prevents the passer from completing the crossface and gives you the primary offensive tool for sweeps and back takes. If the crossface is established before you can get the underhook, use your nearside arm to frame against their shoulder and create enough space to begin working the underhook back in."
+      },
+      {
+        "question": "The passer has broken your lockdown hook but your butterfly element is still active. What is your best immediate response?",
+        "answer": "Immediately attempt to re-hook the lockdown before the passer transitions to addressing the butterfly component. The brief moment between lockdown strip and butterfly neutralization is your best window. If re-hooking fails, use the butterfly hook aggressively to sweep or elevate before they can compress it flat. If neither works, transition to standard butterfly half guard or deep half guard rather than fighting from a half-Z-Lock position with reduced defensive options."
+      },
+      {
+        "question": "How do you recognize the optimal moment to attempt a sweep counter during the Z-Lock passing sequence?",
+        "answer": "The optimal sweep window occurs when the passer shifts their weight forward and down to drive their trapped knee extension for the lockdown break. This forward weight commitment temporarily compromises their lateral base, making them vulnerable to butterfly hook elevation and old school sweep entries. Watch for the passer lightening their free leg post or shifting their center of gravity past your hip line. These are the moments where their forward momentum can be redirected into a sweep."
+      },
+      {
+        "question": "When should you abandon the Z-Lock and transition to an alternative guard position?",
+        "answer": "Transition away when both Z-Lock components are compromised simultaneously, meaning the lockdown hook has been stripped and the butterfly hook is being compressed flat. If you cannot re-establish either component within one or two attempts, continuing to fight for the Z-Lock wastes energy and gives the passer time to consolidate. Deep half guard is the highest-percentage alternative because it directly converts the passer's forward pressure into your sweeping leverage, while knee shield half guard is safer if you need time to re-establish defensive frames."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Recognition",
+        "focus": "Identifying passing initiation cues and timing",
+        "description": "Partner initiates Z-Lock pass at 50% speed and intensity. Focus on recognizing the crossface establishment, knee extension, and hook stripping sequence. Call out each phase as it happens. No resistance needed - this is purely pattern recognition training to develop awareness of the passing sequence."
+      },
+      {
+        "phase": "Phase 2: Retention Drilling",
+        "focus": "Maintaining Z-Lock configuration under progressive resistance",
+        "description": "Partner attempts to pass at 60-70% intensity while you focus on retaining the Z-Lock through active hip movement, underhook fighting, and re-hooking stripped components. Goal is maintaining the Z-Lock for 60+ seconds against increasing pressure. Develop the reflexive re-establishment of each Z-Lock component."
+      },
+      {
+        "phase": "Phase 3: Counter Offense",
+        "focus": "Converting passing attempts into sweep and back take opportunities",
+        "description": "Partner passes at full intensity while you practice timing counter-sweeps during the lockdown stripping phase. Focus on the butterfly hook elevation during forward weight shift, old school sweep entries when underhook is recovered, and deep half transitions when the Z-Lock fails. Work 3-minute rounds with full resistance."
+      },
+      {
+        "phase": "Phase 4: Positional Sparring",
+        "focus": "Full-speed defense with alternative guard transitions",
+        "description": "Positional sparring from Z-Lock Half Guard bottom with full resistance. Defender scores by retaining guard for 2 minutes, sweeping, or submitting. Practice the complete defensive decision tree including Z-Lock retention, transition to alternative guards, and counter-sweeps under competition conditions."
+      }
+    ]
+  }
+}

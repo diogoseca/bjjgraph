@@ -1,0 +1,402 @@
+{
+  "name": "Leg Weave Escape to Half Guard",
+  "description": "Master the leg weave escape to half guard in BJJ. Frame-based defensive recovery using hip movement, knee insertion, and timing to regain guard structure.",
+  "tags": [
+    "bjj",
+    "transition",
+    "escape",
+    "half-guard",
+    "leg-weave",
+    "guard-recovery",
+    "defensive"
+  ],
+  "from_position": "Leg Weave/Bottom",
+  "outcomes": [
+    {
+      "to": "Half Guard/Bottom",
+      "probability": 55,
+      "result": "success"
+    },
+    {
+      "to": "Leg Weave/Bottom",
+      "probability": 30,
+      "result": "failure"
+    },
+    {
+      "to": "Side Control/Bottom",
+      "probability": 15,
+      "result": "counter"
+    }
+  ],
+  "success_rate": 55,
+  "overview": "The Leg Weave Escape to Half Guard is a fundamental defensive recovery technique executed from the bottom of the leg weave position. When the top player has successfully threaded their leg through the bottom player's guard structure and established forward pressure, the bottom player must employ precise framing, timed hip escapes, and knee insertion to recover a viable half guard position. This escape represents the primary defensive pathway from one of the most pressure-heavy passing positions in modern BJJ.\n\nThe technique centers on creating space through structural frames rather than muscular effort, then using that space to reinsert the knee shield or recover a half guard hook before the passer can complete their advance. The critical timing window occurs when the top player shifts weight to initiate a passing sequence, momentarily reducing their ability to maintain the weave depth. Recognizing and exploiting these micro-transitions separates effective escape artists from practitioners who remain trapped under sustained pressure.\n\nSuccessfully executing this escape requires coordinated movement across multiple planes simultaneously: lateral hip escape to create angle, vertical frame pressure to prevent flattening, and rotational knee insertion to re-establish the guard structure. The escape is most effective when chained with other defensive options from the leg weave bottom, creating a defensive system where each failed escape attempt flows naturally into an alternative recovery pathway such as deep half entry or dogfight transition.",
+  "conditions": [
+    "Bottom player is caught in leg weave with top player's lead leg threaded between their legs",
+    "Bottom player maintains at least one hook or leg connection preventing complete guard pass",
+    "Top player has established upper body control through crossface, underhook, or collar grips",
+    "Bottom player has sufficient arm mobility to establish defensive frames against top player's chest and shoulder"
+  ],
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Knee Shield Reinsertion",
+      "description": "Rather than recovering standard half guard hook, the bottom player inserts their knee directly into a knee shield position across the top player's torso. This creates immediate distance and transitions to a more offensive half guard variation with better frame structure.",
+      "when_to_use": "When the top player's pressure is primarily chest-to-chest and there is sufficient space to insert the knee between bodies"
+    },
+    {
+      "variant_name": "Deep Half Entry Escape",
+      "description": "Instead of recovering standard half guard, the bottom player uses the hip escape momentum to dive underneath the top player into deep half guard. This converts the escape into an offensive entry that immediately threatens sweeps.",
+      "when_to_use": "When the top player drives heavy forward pressure and commits their weight over the bottom player's centerline"
+    },
+    {
+      "variant_name": "Dogfight Recovery",
+      "description": "The bottom player uses frames and hip escape to create enough space to come up on their elbow and establish a dogfight position with underhook control, bypassing half guard entirely for a more neutral scramble position.",
+      "when_to_use": "When the bottom player has a strong underhook and the top player's weight is distributed laterally rather than directly forward"
+    }
+  ],
+  "position_integration": "The Leg Weave Escape to Half Guard serves as the primary defensive link between the leg weave passing position and the half guard system. It connects the high-pressure passing battle to the rich offensive ecosystem of half guard bottom, where sweeps, back takes, and deep half entries become available. This escape is central to any guard retention strategy against modern pressure passing styles that rely on leg weave mechanics, and it feeds directly into the knee shield, lockdown, and butterfly half guard variations that form the backbone of competitive bottom game systems. The technique also represents a critical decision point in the defensive flowchart where the bottom player must choose between recovering guard structure or converting the escape into an offensive transition.",
+  "related_content": [
+    {
+      "name": "Leg Weave",
+      "relationship": "Starting position where this escape is initiated from the bottom"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Target position recovered after successful escape execution"
+    },
+    {
+      "name": "Knee Shield Half Guard",
+      "relationship": "Primary recovery target offering immediate distance management and offensive options"
+    },
+    {
+      "name": "Deep Half Guard",
+      "relationship": "Alternative escape destination when forward pressure is heavy"
+    },
+    {
+      "name": "Flattened Half Guard",
+      "relationship": "Compromised position resulting from partial or failed escape attempts"
+    },
+    {
+      "name": "Dogfight Position",
+      "relationship": "Alternative recovery position when underhook is established during escape"
+    },
+    {
+      "name": "Side Control",
+      "relationship": "Worst-case outcome when escape fails and top player completes the pass"
+    },
+    {
+      "name": "Backstep from Leg Weave",
+      "relationship": "Top player counter-technique that threatens during escape attempts"
+    },
+    {
+      "name": "Complete Leg Weave Pass",
+      "relationship": "Passing technique the escape aims to prevent"
+    },
+    {
+      "name": "Back Door Escape from Half Guard",
+      "relationship": "Related defensive escape concept from similar pressure positions"
+    },
+    {
+      "name": "Lockdown",
+      "relationship": "Alternative defensive strategy when half guard is recovered with leg entanglement"
+    }
+  ],
+  "attacker": {
+    "name": "Leg Weave Escape to Half Guard Attacker",
+    "description": "Master the leg weave escape from bottom position. Step-by-step defensive recovery using frames, hip escapes, and knee insertion to regain half guard against pressure passing.",
+    "overview": "As the bottom player caught in the leg weave, your primary objective is to prevent the pass completion and recover a functional guard position. The escape requires establishing frames that prevent the top player from flattening you while creating sufficient space through hip escapes to reinsert your knee between your bodies. This is not a power-based escape but rather a timing and structure-dependent movement that exploits the moments when the passer shifts weight to advance their position. Success depends on maintaining active defensive frames throughout the sequence and committing fully to the hip escape when the timing window presents itself. The technique rewards patience and precision over explosive effort, making it accessible across body types and athletic profiles.",
+    "key_principles": [
+      "Establish structural frames against the passer's chest and shoulder before attempting any escape movement",
+      "Use hip escape momentum to create angle rather than pushing directly against the passer's weight",
+      "Time the knee insertion during the passer's weight shifts or passing attempts when their base is momentarily compromised",
+      "Maintain far-side hook connection throughout the escape to prevent complete guard pass during transition",
+      "Coordinate upper body frames with lower body movement so each element supports the other simultaneously",
+      "Commit fully to each escape attempt rather than making half-efforts that waste energy without creating meaningful positional change"
+    ],
+    "setup_requirements": [
+      "At least one hook or leg connection remains between you and the passer preventing immediate pass completion",
+      "Sufficient arm mobility to establish forearm frame on the passer's neck, shoulder, or chest",
+      "Hip mobility allowing lateral escape movement despite the weaved leg creating restriction",
+      "Awareness of passer's weight distribution to identify timing windows for the escape",
+      "Far-side leg actively engaged as a hook on the passer's thigh or hip maintaining minimum connection"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Establish primary defensive frame",
+        "description": "Drive your near-side forearm into the passer's neck or shoulder to create a structural wedge that prevents their chest from flattening you. This frame is not meant to push them away but to create a rigid barrier that maintains space between your chest and theirs. Keep your elbow tight to your body for maximum structural integrity."
+      },
+      {
+        "step_number": 2,
+        "action": "Set secondary hip frame",
+        "description": "Place your far-side hand on the passer's hip or belt line to control their forward drive and establish a reference point for your hip escape direction. This grip allows you to monitor their weight shifts and provides additional leverage for the upcoming hip escape movement. Maintain a bent arm position to prevent grip strips."
+      },
+      {
+        "step_number": 3,
+        "action": "Bridge to create momentum",
+        "description": "Execute a sharp bridge upward into the passer's chest to momentarily disrupt their weight distribution and create a split-second of space. The bridge is not meant to elevate them but to shift their weight slightly backward, creating the window for your hip escape. Direct the bridge diagonally toward the far shoulder for maximum disruption of their settled base."
+      },
+      {
+        "step_number": 4,
+        "action": "Hip escape to create angle",
+        "description": "Immediately following the bridge, perform a strong hip escape away from the passer, sliding your hips laterally to create an angle between your body and theirs. Use your far-side foot planted on the mat as the driving force for the escape. The goal is to create enough space between your bodies that your knee can fit in the gap created by the angle change."
+      },
+      {
+        "step_number": 5,
+        "action": "Insert knee to recover guard structure",
+        "description": "As the space opens from the hip escape, drive your near-side knee between your body and the passer's torso. Aim to position your shin across their hip line to establish a knee shield configuration. The insertion must be decisive and fully committed because a partial knee shield is easily collapsed by an experienced passer who recognizes the recovery attempt."
+      },
+      {
+        "step_number": 6,
+        "action": "Secure half guard hooks and adjust position",
+        "description": "Once your knee is inserted, immediately clamp your legs to secure a half guard hook on the passer's trapped leg. Adjust your hip angle to face the passer rather than lying flat, establishing the on-your-side position fundamental to effective half guard bottom. Use your frames to maintain the distance created during the escape."
+      },
+      {
+        "step_number": 7,
+        "action": "Establish offensive half guard grips",
+        "description": "Transition from defensive frames to offensive half guard grips by fighting for the underhook on the near side while maintaining your knee shield or frame structure. This converts the escape from a purely defensive recovery into an active guard position with sweep and back take threats. The underhook battle begins immediately upon recovering half guard to prevent reinitiation of the passing sequence."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Top player drives crossface harder to prevent hip escape, flattening bottom player's shoulder to the mat",
+        "effectiveness": "High",
+        "your_response": "Use the bridge momentum to create a micro-window for the hip escape before the crossface fully settles. If caught flat, redirect escape angle toward deep half entry rather than fighting the crossface directly",
+        "targets_outcome": "Leg Weave/Bottom"
+      },
+      {
+        "counter": "Top player drives knee deeper through the weave when feeling hip escape, increasing leg threading to maintain position",
+        "effectiveness": "Medium",
+        "your_response": "Use the far-side hook to control their advancing leg and time the knee insertion for the moment their weight shifts forward with the drive. Their forward commitment creates space behind their knee for your guard recovery",
+        "targets_outcome": "Leg Weave/Bottom"
+      },
+      {
+        "counter": "Top player strips frames and transitions immediately to knee slice or smash pass during escape attempt",
+        "effectiveness": "High",
+        "your_response": "If frames are stripped, abandon the standard escape and immediately re-establish distance through a secondary frame or transition to deep half entry. Do not continue the escape sequence without frame support",
+        "targets_outcome": "Side Control/Bottom"
+      },
+      {
+        "counter": "Top player backsteps to attack the back when bottom player creates angle during hip escape",
+        "effectiveness": "Medium",
+        "your_response": "Keep shoulders within 45 degrees of the mat during hip escape and maintain awareness of back exposure. If you feel them circling toward your back, flatten immediately and reset frames rather than continuing the escape",
+        "targets_outcome": "Side Control/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Attempting to push the passer away with arms extended rather than using structural frames",
+        "consequence": "Arms fatigue rapidly and extended limbs are easily stripped or redirected. The passer collapses through the weak frame and flattens the bottom player completely",
+        "correction": "Keep elbows bent and tight to the body when framing. Use forearm wedges against the neck and shoulder that rely on skeletal structure rather than muscular effort to maintain space"
+      },
+      {
+        "error": "Hip escaping without first establishing frames to maintain the space created",
+        "consequence": "The passer follows the hip movement and immediately re-establishes chest pressure in the new position. The escape burns energy without creating any lasting positional improvement",
+        "correction": "Always establish frames before initiating hip escape. The sequence is frame first, then bridge, then hip escape with frames maintaining the space. Skipping the frame step makes the escape self-defeating"
+      },
+      {
+        "error": "Inserting the knee too shallow, resulting in a weak or partial knee shield that collapses under pressure",
+        "consequence": "The passer easily drives through the partial shield and re-establishes the leg weave or completes the pass to side control",
+        "correction": "Drive the knee deep across the passer's torso with the shin angled toward their far shoulder. A fully committed insertion with the shin bone across their hip line is much harder to collapse than a knee barely poked between bodies"
+      },
+      {
+        "error": "Releasing the far-side hook during the escape attempt before securing the new half guard position",
+        "consequence": "Losing the only remaining leg connection accelerates the guard pass. The passer steps over the freed leg and completes the pass to side control without resistance",
+        "correction": "Maintain the far-side hook throughout the entire escape sequence. Only release it when you have definitively secured the new half guard position with knee shield and proper hooks established"
+      },
+      {
+        "error": "Making multiple small uncommitted escape attempts rather than one decisive coordinated movement",
+        "consequence": "Each half-attempt telegraphs the escape direction without creating enough space to actually recover guard. The passer adapts their pressure and the bottom player exhausts energy without progress",
+        "correction": "Consolidate defensive position patiently, identify the timing window, then commit fully to one coordinated bridge-escape-insertion sequence. One explosive committed attempt is worth more than five weak ones"
+      },
+      {
+        "error": "Turning too far away from the passer during hip escape, exposing the back",
+        "consequence": "The passer transitions from passing to back taking, converting a guard recovery situation into a far worse positional crisis with choke threats",
+        "correction": "Keep shoulder rotation within 45 degrees of the mat during hip escape. Face the passer as you recover guard rather than turning away. If you feel back exposure, flatten immediately and reset"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Frame Mechanics",
+        "focus": "Developing structural frame placement and maintenance under pressure",
+        "description": "Practice establishing forearm frames against a partner applying leg weave pressure at 50% intensity. Focus on correct arm positioning, elbow angles, and skeletal alignment that maintains space with minimal muscular effort. 5-minute rounds alternating sides."
+      },
+      {
+        "phase": "Phase 2: Hip Escape Coordination",
+        "focus": "Integrating bridge and hip escape with frame maintenance",
+        "description": "From established frames, drill the bridge-to-hip-escape sequence with partner maintaining moderate leg weave pressure. Focus on timing the hip escape immediately after the bridge creates disruption. Partner does not counter, allowing bottom player to refine movement pattern."
+      },
+      {
+        "phase": "Phase 3: Knee Insertion Timing",
+        "focus": "Developing precise knee shield insertion during the escape sequence",
+        "description": "Full escape sequence with partner increasing resistance to 70%. Focus on the critical moment of knee insertion and establishing a stable half guard position. Partner begins attempting to re-establish leg weave after each escape. 4-minute rounds with reset on each completion."
+      },
+      {
+        "phase": "Phase 4: Live Escape Integration",
+        "focus": "Applying escape under full competitive resistance with chain options",
+        "description": "Positional sparring starting from leg weave position at full resistance. Bottom player attempts escape to half guard while top player works to maintain position or pass. If primary escape fails, bottom player transitions to alternative options like deep half or dogfight."
+      },
+      {
+        "phase": "Phase 5: Defensive System Flow",
+        "focus": "Chaining escape with offensive half guard play",
+        "description": "Extended positional rounds where successful escape immediately continues into half guard offensive sequences including sweeps and back takes. Develops the connection between defensive recovery and offensive transition so the escape becomes a launching point rather than just survival."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the optimal timing window for initiating the hip escape during the leg weave escape sequence?",
+        "answer": "The optimal timing window occurs when the top player shifts their weight to advance their passing position, either driving forward for a smash pass or laterally for a knee slice. During these weight transfers, their ability to maintain the weave depth is momentarily reduced. The bridge creates an additional micro-window by disrupting their settled weight distribution. Initiating the hip escape during this combined window of weight shift plus bridge disruption gives the highest probability of creating sufficient space for knee insertion."
+      },
+      {
+        "question": "Why must frames be established before attempting the hip escape rather than simultaneously?",
+        "answer": "Frames must be established first because without structural support, any space created by the hip escape is immediately reclaimed by the passer following with their chest pressure. The frame serves as a doorstop that prevents the space from closing as you move your hips. Attempting both simultaneously splits your coordination and typically results in neither being effective, producing weak frames that collapse and incomplete hip escapes that fail to create meaningful angle."
+      },
+      {
+        "question": "Your knee shield insertion is consistently being collapsed by the passer - what mechanical adjustment should you make?",
+        "answer": "Drive the shin deeper across the passer's torso so it angles toward their far shoulder rather than sitting vertically in front of their chest. Angle your knee outward slightly to create a wider wedge effect. The shin bone should be the contact surface rather than just the knee point. Additionally, ensure your hip escape has created sufficient angle before attempting insertion, since a knee shield inserted from a flat position lacks the structural support that comes from being on your side."
+      },
+      {
+        "question": "How should you adjust the escape when the passer has an extremely strong crossface that prevents your hip escape?",
+        "answer": "When the crossface is too strong for a lateral hip escape, redirect your escape pathway downward toward deep half guard rather than fighting the crossface directly. Use your near-side arm to underhook their trapped leg and dive your head underneath their base. The deep half entry uses their forward crossface pressure against them by converting it into momentum for your descent underneath. This transforms a defensive problem into an offensive entry."
+      },
+      {
+        "question": "What grip should you prioritize immediately after successfully recovering half guard from the leg weave?",
+        "answer": "The near-side underhook is the highest priority grip immediately after recovering half guard. It provides both defensive protection against the passer re-establishing their passing position and offensive options for sweeps and back takes. Without the underhook, the passer can easily re-establish crossface control and reinitiate their leg weave. Fight for the underhook while your knee shield maintains the space created during the escape."
+      },
+      {
+        "question": "The passer begins backstopping when you create angle during your hip escape - how do you prevent back exposure?",
+        "answer": "Maintain your shoulders within 45 degrees of the mat throughout the hip escape and keep your chest oriented toward the passer rather than turning away. Your near-side elbow should stay connected to your knee to prevent the passer from circling behind you. If you feel them beginning to circle toward your back, immediately flatten back to the mat and reset your frames rather than continuing the escape. A reset from leg weave bottom is far preferable to giving up back control."
+      },
+      {
+        "question": "How do you chain the escape when your first attempt fails but you have created partial space?",
+        "answer": "Use the partial space to transition to an alternative escape pathway rather than resetting completely. If you created angle but could not insert the knee shield, use the momentum to drive into deep half guard underneath the passer. If you created space but lost your frames, immediately re-establish the primary forearm frame before the passer can reclaim the space. The key is maintaining whatever positional gains you achieved and building on them rather than starting the entire sequence from scratch."
+      }
+    ],
+    "safety_considerations": "The leg weave escape is a low-risk defensive technique with minimal injury potential when practiced correctly. Primary safety concern is neck strain from excessive crossface pressure during drilling. Partners should communicate about pressure intensity and build resistance gradually across training phases. Avoid explosive bridging into a partner who is not braced, as this can cause knee or ankle injuries to the top player. During live training, tap if caught in a fully consolidated pass rather than fighting desperately from a compromised position, as forced scrambles from bad positions can lead to shoulder or neck injuries."
+  },
+  "defender": {
+    "name": "Leg Weave Escape to Half Guard Defender",
+    "description": "Counter the leg weave escape from top position. Maintain passing pressure through crossface control, weight distribution, and frame prevention to deny half guard recovery.",
+    "overview": "As the top player maintaining the leg weave, your goal is to prevent the bottom player from recovering half guard while advancing your own passing position. Recognizing the early signs of escape attempts allows you to shut them down before they develop momentum. The defender must maintain constant forward pressure and upper body control while being prepared to transition between passing options when the bottom player begins their escape sequence. Understanding the escape mechanics allows you to counter each phase systematically: preventing frames from establishing, following hip escapes with your own weight, and collapsing knee shield insertion attempts before they solidify into a functional guard structure.",
+    "key_principles": [
+      "Maintain constant forward chest pressure to prevent the bottom player from establishing effective defensive frames",
+      "Control the crossface aggressively to limit the bottom player's ability to create hip escape angles",
+      "Keep the weaved leg deep between the bottom player's legs to maintain maximum structural control",
+      "Anticipate frame attempts and address them immediately before they become established structural barriers",
+      "Follow hip escape movement with your own weight rather than remaining static and allowing space to open",
+      "Chain passing options together so that when one pass is defended you immediately threaten another"
+    ],
+    "recognition_cues": [
+      "Bottom player begins driving forearm into your neck or shoulder to establish a primary defensive frame",
+      "Bottom player places far hand on your hip and starts small bridging movements to create escape momentum",
+      "Bottom player's hips begin shifting laterally, indicating the start of a hip escape sequence",
+      "Bottom player's near-side knee starts pressing inward between your bodies, attempting knee shield reinsertion",
+      "Bottom player's far-side hook becomes more active, gripping tighter to anchor their escape movement"
+    ],
+    "defensive_options": [
+      {
+        "action": "Drive crossface pressure harder and lower your hips to smother the bottom player's frame attempts before they are established",
+        "when_to_use": "When you feel the bottom player's forearm beginning to wedge against your neck or shoulder at the earliest stage of the escape",
+        "targets_outcome": "Leg Weave/Bottom",
+        "if_successful": "Bottom player remains flattened with their frame neutralized, maintaining your passing position",
+        "risk": "Over-committing your weight forward can create deep half guard entry opportunities for the bottom player"
+      },
+      {
+        "action": "Follow the hip escape by shifting your weight laterally and immediately driving your weaved knee deeper to close the space they created",
+        "when_to_use": "When the bottom player has begun hip escaping and is creating angle, before they can insert the knee shield",
+        "targets_outcome": "Leg Weave/Bottom",
+        "if_successful": "Space created by hip escape is reclaimed and bottom player is returned to flattened leg weave position",
+        "risk": "Lateral weight shift may create a momentary balance point that an experienced bottom player can exploit for a sweep"
+      },
+      {
+        "action": "Transition immediately to knee slice pass when bottom player creates space, converting their escape movement into your passing opportunity",
+        "when_to_use": "When the bottom player has created significant space and knee shield insertion is imminent or partially established",
+        "targets_outcome": "Side Control/Bottom",
+        "if_successful": "Bottom player's escape space is used against them as you complete the pass through the opening they created",
+        "risk": "If the knee slice is defended, the bottom player may have recovered enough guard structure to reset to a stronger defensive position"
+      },
+      {
+        "action": "Backstep around the escape attempt to attack the back when bottom player over-rotates during hip escape",
+        "when_to_use": "When the bottom player turns more than 45 degrees during their escape and exposes their back",
+        "targets_outcome": "Side Control/Bottom",
+        "if_successful": "Bottom player's escape rotation is converted into back exposure, leading to back control or a dominant passing angle",
+        "risk": "If the backstep is scouted, the bottom player can use your circular movement to establish deep half guard or complete their escape"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Leg Weave/Bottom",
+        "how": "Maintain constant crossface pressure and follow any hip escape movement with your own weight. Address frame attempts immediately by lowering your shoulder and driving through their forearm. Keep the weaved leg deep and your hips low to prevent space creation."
+      },
+      {
+        "outcome": "Side Control/Bottom",
+        "how": "When the bottom player creates space during their escape attempt, immediately transition to a knee slice or smash pass through the opening. Their escape movement creates passing lanes that did not exist when they were static. Exploit these windows decisively rather than trying to re-establish the leg weave."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Remaining static when the bottom player begins hip escaping, allowing them to create space unopposed",
+        "consequence": "Bottom player successfully creates angle and inserts knee shield, recovering half guard and eliminating your passing position advantage",
+        "correction": "Follow the hip escape immediately by shifting your weight in the same direction. Your chest pressure should track their movement so that space never opens between your bodies"
+      },
+      {
+        "error": "Over-relying on crossface alone without controlling the bottom player's hip movement through leg weave depth",
+        "consequence": "Upper body is controlled but hips are free to escape, creating enough space for guard recovery below your control line",
+        "correction": "Maintain deep leg threading with your weaved knee while simultaneously applying crossface. Both upper and lower body control must work together to prevent the escape"
+      },
+      {
+        "error": "Allowing the bottom player to establish frames without immediately addressing them",
+        "consequence": "Established frames create structural barriers that are exponentially harder to remove once fully set. The bottom player gains a stable platform for their escape sequence",
+        "correction": "Address frame attempts the instant you feel them beginning by driving your shoulder into their forearm, stripping the hand from your hip, or changing angle to make the frame less effective"
+      },
+      {
+        "error": "Panicking when bottom player creates partial space and abandoning the leg weave position entirely",
+        "consequence": "Premature position abandonment gives the bottom player a free guard recovery when the leg weave may have been salvageable with proper adjustment",
+        "correction": "When partial space is created, assess whether you can reclaim it by driving weight forward, or whether transitioning to a complementary pass is the better option. Make a deliberate tactical decision rather than an emotional reaction"
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the earliest recognition cue that tells you the bottom player is about to attempt the escape?",
+        "answer": "The earliest cue is the bottom player's near-side forearm beginning to wedge against your neck or shoulder. This frame establishment is the mandatory first step of the escape sequence, and without it no hip escape will be effective. When you feel this forearm pressure beginning, immediately drive your shoulder into the frame to prevent it from setting. This preemptive response shuts down the entire escape chain at its origin point."
+      },
+      {
+        "question": "How should you adjust your weight distribution when you feel the bottom player bridging underneath you?",
+        "answer": "Lower your hips and widen your base slightly by posting your free leg further from your body. Absorb the bridge by relaxing your weight downward rather than stiffening against it. The bridge is meant to create a momentum window for the hip escape, so by settling your weight into the bridge rather than resisting it rigidly, you deny the disruption they need. Keep your chest connected to their body throughout so you follow any movement that results from the bridge."
+      },
+      {
+        "question": "The bottom player successfully inserts a partial knee shield - what is your best immediate response?",
+        "answer": "Rather than fighting directly against the inserted knee, which is structurally strong, transition your passing approach to exploit the new configuration. Angle your pressure diagonally over the knee shield and drive toward a knee slice pass through the shield. Alternatively, backstep around the shield entirely. The worst response is trying to crush the shield straight down with chest pressure, as the shin bone provides excellent structural support against vertical force."
+      },
+      {
+        "question": "When is it better to abandon the leg weave and transition to a different pass rather than fighting to maintain position?",
+        "answer": "Transition to a different pass when the bottom player has successfully recovered their knee shield with proper hip angle and the underhook battle is contested. At this point, the leg weave advantage is largely neutralized and you are fighting from standard half guard top rather than the superior leg weave position. Recognizing this transition point and immediately switching to an appropriate half guard pass saves energy and maintains offensive initiative."
+      },
+      {
+        "question": "How do you prevent the bottom player from converting their escape into a deep half guard entry?",
+        "answer": "Keep your hips back and weight distributed away from your lead leg when you feel the bottom player attempting to dive underneath you. The deep half entry requires them to get their head under your center of gravity and control your lead leg. Sprawling your hips back while maintaining upper body connection removes the space they need to complete the deep half entry. If they get partially underneath, immediately backstep your weaved leg free and circle toward their head to re-establish a dominant passing angle."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Recognition Drilling",
+        "focus": "Identifying escape cues and developing automatic responses",
+        "description": "Bottom player performs each phase of the escape slowly and deliberately while top player focuses on recognizing each cue and naming the appropriate counter. No resistance, purely developing pattern recognition. 5-minute rounds with verbal identification of each cue."
+      },
+      {
+        "phase": "Phase 2: Counter Timing",
+        "focus": "Applying counters at the correct moment during escape sequences",
+        "description": "Bottom player attempts escapes at 60% speed and resistance. Top player practices applying each counter at the correct timing point, including smothering frames early, following hip escapes, and transitioning passes when space is created. Focus on timing rather than force."
+      },
+      {
+        "phase": "Phase 3: Passing Chain Integration",
+        "focus": "Converting escape attempts into passing opportunities",
+        "description": "Full speed positional sparring from leg weave. Top player practices maintaining position and converting escape attempts into passing sequences. Emphasis on reading which escape the bottom player commits to and selecting the appropriate counter-pass."
+      },
+      {
+        "phase": "Phase 4: Competitive Application",
+        "focus": "Maintaining leg weave and passing under full resistance",
+        "description": "Extended positional rounds at competition intensity. Top player must maintain leg weave control or complete a pass within 2 minutes against a fully resisting bottom player using all available escape options. Develops the complete defensive and offensive toolkit from leg weave top."
+      }
+    ]
+  }
+}

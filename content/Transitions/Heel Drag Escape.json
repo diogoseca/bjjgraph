@@ -1,0 +1,398 @@
+{
+  "name": "Heel Drag Escape",
+  "description": "Master the Heel Drag Escape from mount in BJJ. Learn precise heel hooking mechanics, optimal timing windows, and systematic half guard recovery chains.",
+  "tags": [
+    "bjj",
+    "transition",
+    "mount escape",
+    "heel drag",
+    "half guard recovery",
+    "escape technique",
+    "fundamental defense"
+  ],
+  "from_position": "Mount/Bottom",
+  "outcomes": [
+    {
+      "to": "Half Guard/Bottom",
+      "probability": 55,
+      "result": "success"
+    },
+    {
+      "to": "Mount/Bottom",
+      "probability": 30,
+      "result": "failure"
+    },
+    {
+      "to": "Technical Mount/Bottom",
+      "probability": 15,
+      "result": "counter"
+    }
+  ],
+  "success_rate": 55,
+  "overview": "The Heel Drag Escape is one of the most energy-efficient and mechanically elegant methods of escaping the mount position. Rather than relying on explosive bridging power or complex multi-step sequences, this technique leverages a precise foot movement to recover half guard by hooking the top player's foot with your heel and dragging it across your body. The simplicity of the movement belies its effectiveness: when properly timed, the heel drag creates an inescapable leg entanglement that immediately transitions the position from full mount to half guard.\n\nThe strategic value of the heel drag lies in its low energy cost and high reliability. Unlike the upa escape, which requires trapping the opponent's arm and leg before committing to an explosive bridge, the heel drag can be executed with minimal upper body movement. This makes it particularly effective when the top player maintains strong base and wide knees, as the escape targets the feet rather than challenging the opponent's core base structure. The technique works best when combined with a slight hip bump or bridge to momentarily create space between the opponent's foot and the mat, allowing the heel to hook underneath.\n\nFrom a positional chess perspective, the heel drag escape is a critical component of the mount defense hierarchy. It serves as an excellent complement to the elbow escape and upa, creating a three-pronged defensive system where each escape covers the weaknesses of the others. Successfully recovering half guard through the heel drag immediately opens a rich offensive landscape including underhook battles, deep half entries, and back take sequences that transform a purely defensive situation into an active positional exchange.",
+  "conditions": [
+    "Top player has at least one foot planted flat on the mat near your hip line, providing a target for the hooking motion",
+    "Your legs retain sufficient freedom of movement and are not trapped by full grapevine hooks from the top player",
+    "You can generate enough hip mobility for a slight bridge or bump to create space between the opponent's foot and the mat",
+    "The top player's weight is centered on your torso rather than positioned extremely high near your chest or armpits"
+  ],
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Near-Side Heel Drag",
+      "description": "The standard version where the same-side heel hooks the opponent's nearest foot. Your right heel hooks their right foot or left heel hooks their left foot. This is the highest-percentage variation because the heel travels the shortest distance and the hooking angle is most natural.",
+      "when_to_use": "Default option when the opponent has a foot planted within range of your same-side heel. Best for initial heel drag attempts."
+    },
+    {
+      "variant_name": "Cross-Body Heel Drag",
+      "description": "The opposite foot reaches across your body to hook the opponent's far foot. Requires greater hip mobility and a slightly larger bridge to create space for the longer reach. Creates a different entanglement angle that can catch opponents who have learned to defend the near-side version.",
+      "when_to_use": "When the near-side foot has been retracted or is positioned too high. Also effective as a surprise variation when the opponent expects same-side attacks."
+    },
+    {
+      "variant_name": "Bridge-to-Heel Drag Combination",
+      "description": "Combines a full-power bridge toward one side as if attempting an upa escape, then immediately executes the heel drag on the opposite side as the opponent posts to defend the bridge. The bridge displaces the opponent's weight and frequently plants their posting foot in a perfect position for the heel hook.",
+      "when_to_use": "Against opponents with excellent mount retention who preemptively lift their feet against standard heel drag attempts. The bridge forces them to plant a foot for base, creating the hooking opportunity."
+    }
+  ],
+  "position_integration": "The Heel Drag Escape occupies a foundational role in the mount escape hierarchy, serving as the most energy-efficient pathway from mount bottom to half guard recovery. It integrates directly with the broader half guard offensive system, where the recovered position enables sweeps through underhook battles, deep half entries, and back take sequences. The technique chains naturally with the elbow escape and upa escape, forming a comprehensive mount defense system where each escape covers the defensive gaps of the others. When the opponent defends the heel drag by lifting their feet, they often create the space needed for an elbow escape. Conversely, when they defend the elbow escape by driving weight low and wide, their feet become vulnerable to the heel drag. This complementary relationship makes the heel drag an essential component of any complete mount escape system rather than a standalone technique.",
+  "related_content": [
+    {
+      "name": "Mount",
+      "relationship": "Source position where the heel drag escape begins from bottom mount"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Primary target position recovered through successful heel drag escape"
+    },
+    {
+      "name": "Elbow Escape from Mount",
+      "relationship": "Complementary mount escape that chains with heel drag in the escape hierarchy"
+    },
+    {
+      "name": "Knee Shield Half Guard",
+      "relationship": "Defensive half guard variation for establishing control after successful heel drag recovery"
+    },
+    {
+      "name": "Deep Half Guard",
+      "relationship": "Advanced recovery option accessible from half guard after heel drag escape"
+    },
+    {
+      "name": "High Mount",
+      "relationship": "Threatened advancement position if heel drag escape timing is delayed"
+    },
+    {
+      "name": "Deep Half Entry from Half Guard",
+      "relationship": "Follow-up transition chain available after recovering half guard through heel drag"
+    },
+    {
+      "name": "Back Door Escape from Half Guard",
+      "relationship": "Alternative escape continuation if recovered half guard proves insufficient"
+    }
+  ],
+  "attacker": {
+    "name": "Heel Drag Escape Attacker",
+    "description": "Learn to execute the Heel Drag Escape from mount with precise heel hooking mechanics, optimal bridge timing, and systematic half guard recovery sequences for BJJ practitioners.",
+    "overview": "The Heel Drag Escape from mount leverages precise foot mechanics to bypass the opponent's core base structure, targeting their foot placement rather than their weight distribution. As the bottom mount player, your primary objective is to hook the top player's near foot with your heel and drag it across your centerline to establish half guard. This technique excels in situations where explosive bridge escapes are unavailable or have been defended, offering a low-energy alternative that can be executed repeatedly without significant fatigue. The heel drag's effectiveness increases when combined with other escape attempts, as the opponent's defensive adjustments to block bridges or elbow escapes often create the exact foot positioning that makes the heel drag possible. Mastering this escape transforms mount defense from a desperate survival situation into a methodical positional recovery process.",
+    "key_principles": [
+      "Target the foot, not the base - the heel drag bypasses the opponent's core balance by attacking their foot placement rather than challenging their weight distribution",
+      "Time the hook with hip movement - combine the heel catch with a subtle bridge or hip bump to create the 2-3 inches of space needed between the opponent's foot and the mat",
+      "Commit fully to the drag - once the heel catches the ankle or instep, pull decisively with your entire leg to bring the foot across your centerline before the opponent can retract",
+      "Close legs immediately - the moment the foot crosses between your legs, clamp your knees and thighs together to establish half guard before the opponent extracts their trapped leg",
+      "Follow with upper body control - after recovering half guard, immediately turn to your side and fight for the underhook to prevent the opponent from re-passing or flattening you",
+      "Chain with complementary escapes - use the heel drag as part of a systematic escape chain where each attempt sets up the next rather than repeatedly forcing one technique"
+    ],
+    "setup_requirements": [
+      "Identify which of the opponent's feet is accessible to your heel, typically the foot nearest your hip planted flat on the mat",
+      "Maintain minimal hip space through active postural adjustments rather than completely flattened positioning on your back",
+      "Both legs must retain freedom of movement with no full grapevine hooks from the top player locking your legs in place",
+      "Position both arms as frames against the opponent's hips or lower ribcage to prevent advancement during the escape and provide structural support for the bridge",
+      "Establish controlled breathing rhythm to manage energy output and avoid panic-driven explosive attempts"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Assess Foot Position",
+        "description": "Identify which of the opponent's feet is planted near your hip and accessible to your heel. The target foot should be flat on the mat within range of your hooking leg, typically positioned between your hip and knee line. If both feet are available, select the one on the side where you have better hip mobility."
+      },
+      {
+        "step_number": 2,
+        "action": "Establish Defensive Frames",
+        "description": "Place both hands on the opponent's hips or lower ribcage to create stable forearm frames. This prevents them from advancing to high mount and provides structural support for the upcoming hip movement without exposing your arms to Americana or armbar submissions. Keep elbows tight to your body throughout."
+      },
+      {
+        "step_number": 3,
+        "action": "Execute Controlled Hip Bump",
+        "description": "Perform a controlled bridge or hip bump to momentarily lift the opponent's weight and create space between their foot and the mat. This does not need to be an explosive full bridge; a focused directional bump of 2-3 inches is sufficient for the heel to hook underneath their ankle or instep."
+      },
+      {
+        "step_number": 4,
+        "action": "Hook the Heel Over Opponent's Foot",
+        "description": "As space opens from the bump, swing your heel over the top of the opponent's targeted foot and hook it from the outside, catching the ankle or instep. Your heel must wrap around the outside of their foot to create a secure lever point. Use the heel bone, not the toes or top of the foot, for a secure grip."
+      },
+      {
+        "step_number": 5,
+        "action": "Drag Foot Across Centerline",
+        "description": "Pull your hooking leg inward with a decisive medial pulling motion, dragging the opponent's foot across your centerline and between your legs. Use the pulling power of your entire leg from the hip rather than just ankle flexion to generate sufficient force to move their leg regardless of resistance or weight differential."
+      },
+      {
+        "step_number": 6,
+        "action": "Close Legs to Establish Half Guard",
+        "description": "The moment the opponent's leg crosses between yours, immediately clamp your knees and thighs together to establish the half guard leg entanglement. Squeeze your inner thighs tight to prevent them from extracting their trapped leg. Pinch your knees together at or below their knee line to create a secure lock."
+      },
+      {
+        "step_number": 7,
+        "action": "Establish Upper Body Control and Turn to Side",
+        "description": "With half guard secured, immediately turn to your side facing the opponent and fight for the underhook on the trapped-leg side. Establish a knee shield or forearm frame to prevent crossface pressure and begin working your half guard offensive game. This upper body transition must happen immediately to prevent the opponent from flattening you and re-passing."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Opponent lifts threatened foot off mat and drives knee upward toward armpit to deny hooking access",
+        "effectiveness": "High",
+        "your_response": "Switch immediately to an elbow escape on the same side. The knee driving toward your armpit creates space on the opposite hip that you can exploit with a hip escape. The failed heel drag becomes a setup that opens the elbow escape.",
+        "targets_outcome": "Mount/Bottom"
+      },
+      {
+        "counter": "Opponent inserts grapevine hooks by wrapping their feet around your legs to eliminate all lower body mobility",
+        "effectiveness": "High",
+        "your_response": "Abandon the heel drag and work to clear the grapevine first by walking your feet inward toward your hips and prying your knees apart. Once one grapevine is cleared, immediately attempt the heel drag before they can re-establish the hook.",
+        "targets_outcome": "Mount/Bottom"
+      },
+      {
+        "counter": "Opponent transitions to technical mount by inserting a hook behind your body as your leg movement creates space",
+        "effectiveness": "Medium",
+        "your_response": "Abandon the heel drag and immediately address the technical mount by turning into the opponent and working to clear the hook. Frame on their hip to prevent further advancement toward back control and fight to recover half guard through standard technical mount escapes.",
+        "targets_outcome": "Technical Mount/Bottom"
+      },
+      {
+        "counter": "Opponent drives heavy downward hip pressure while widening base to flatten your positioning and eliminate bridging space",
+        "effectiveness": "Medium",
+        "your_response": "Use persistent small hip bumps combined with frame pressure on their hips to gradually create micro-spaces. Chain multiple small heel drag attempts rather than waiting for one large opening. Alternatively, switch to elbow escape which works better against heavy forward pressure.",
+        "targets_outcome": "Mount/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Using the toes or top of the foot instead of the heel bone to hook the opponent's ankle",
+        "consequence": "Insufficient grip on the opponent's foot causing the drag to slip before completing the pull across centerline, wasting the bridging effort",
+        "correction": "Focus on wrapping the heel bone around the outside of the opponent's ankle or instep. The heel's curved shape creates a natural hook that the toes cannot replicate."
+      },
+      {
+        "error": "Attempting the heel drag without any preceding hip bump or bridge to create space",
+        "consequence": "The opponent's foot remains pinned to the mat under their own body weight, making it impossible for the heel to hook underneath and resulting in a sliding motion with no purchase",
+        "correction": "Always precede the heel hook with a controlled hip bump or bridge directed slightly toward the target foot side. Even 2-3 inches of space is sufficient for the heel to catch."
+      },
+      {
+        "error": "Failing to close the legs immediately after dragging the foot across centerline",
+        "consequence": "Opponent extracts their foot before half guard is established, returning to full mount with the escape attempt completely wasted",
+        "correction": "Clamp your knees and thighs together the instant the foot crosses between your legs. Practice the close as a reflexive action paired with the drag completion."
+      },
+      {
+        "error": "Extending arms overhead to push the opponent's chest during the escape attempt",
+        "consequence": "Exposed arms create immediate vulnerability to Americana, Kimura, and armbar attacks from the mounted opponent",
+        "correction": "Keep hands framing on the opponent's hips or lower ribcage with elbows tight to your body. Use forearm frames for structural support rather than arm extension."
+      },
+      {
+        "error": "Attempting the heel drag when the opponent has full grapevine hooks locked on both legs",
+        "consequence": "Complete inability to generate the leg movement needed for the hooking motion, resulting in wasted energy with no positional progress",
+        "correction": "Clear at least one grapevine hook before attempting the heel drag. Walk your foot toward your hip and pry your knee outward to break the grapevine, then immediately transition to the heel drag."
+      },
+      {
+        "error": "Performing an explosive full bridge instead of a controlled directional hip bump",
+        "consequence": "Excessive energy expenditure and potential back exposure if the bridge is defended, without creating the targeted space at the foot level needed for the heel hook",
+        "correction": "Use a small, controlled hip bump directed toward the side of the target foot. Save explosive bridges for upa attempts where full reversal is the goal."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Isolated Mechanics",
+        "focus": "Heel hooking motion and leg closure",
+        "description": "Practice the heel drag motion without a partner, lying on your back and simulating the hooking motion against a foam roller or training dummy placed at hip level. Focus on using the heel bone rather than the toes, the inward pulling trajectory, and the reflexive leg closure. Drill 50 repetitions each side per session."
+      },
+      {
+        "phase": "Phase 2: Partner Drilling with Compliance",
+        "focus": "Bridge timing and complete escape sequence",
+        "description": "Partner maintains mount with zero resistance. Practice the complete sequence: assess foot position, frame, bridge, hook, drag, close, turn to side, establish half guard control. Partner provides verbal feedback on heel placement accuracy and timing. Progress to slow deliberate resistance after 20 clean repetitions."
+      },
+      {
+        "phase": "Phase 3: Chain Integration",
+        "focus": "Combining heel drag with elbow escape and upa",
+        "description": "Partner maintains mount with 50-70% resistance. Practice chains: attempt upa, when defended switch to heel drag; attempt elbow escape, when defended switch to heel drag on the opposite side. Develop automatic transitions between escapes based on the opponent's defensive reactions. Focus on reading which escape is available based on opponent's base."
+      },
+      {
+        "phase": "Phase 4: Progressive Resistance Application",
+        "focus": "Executing against increasing defensive intensity",
+        "description": "Positional sparring starting from mount bottom. Partner increases resistance from 50% to 80% to full competition resistance across sessions. Track success rate and identify which counters most frequently defeat your heel drag. Develop specific responses to each counter encountered."
+      },
+      {
+        "phase": "Phase 5: Competition Simulation",
+        "focus": "Full speed execution with consequences",
+        "description": "Full positional sparring rounds from mount bottom with submission threat. Must escape within 60 seconds or reset. Track escape success rate and average time to half guard recovery. Alternate between partners of different sizes and mount retention styles to develop adaptable heel drag timing."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the optimal timing window for initiating the heel drag during a mount escape sequence?",
+        "answer": "The optimal timing is immediately after a subtle hip bump or bridge that creates 2-3 inches of space between the opponent's foot and the mat. This momentary lift gives your heel access to hook over their ankle or instep. Attempting the drag without this space creation results in your heel sliding off the top of their foot without catching. The bump and hook should be nearly simultaneous actions."
+      },
+      {
+        "question": "What conditions must exist before you can attempt the heel drag escape?",
+        "answer": "The opponent must have at least one foot planted flat on the mat within range of your hooking leg, typically near your hip line. Your legs must have freedom of movement, meaning the opponent cannot have full grapevine hooks locked. You also need enough hip mobility to generate a small bridge or bump to create space, and your arms should be framing on the opponent's hips rather than extended where they can be attacked."
+      },
+      {
+        "question": "What is the most critical mechanical detail that determines whether the heel drag succeeds or fails?",
+        "answer": "The heel must hook over and around the outside of the opponent's foot, catching the ankle or instep with the heel bone before pulling inward. Using the toes or the top of the foot instead of the heel provides insufficient grip and leverage, causing the drag to slip. The hooking motion must engage the entire leg's pulling power from the hip rather than relying on ankle flexion alone, which lacks the force needed against a resisting opponent."
+      },
+      {
+        "question": "What are the most common failure points when executing the heel drag escape?",
+        "answer": "The three primary failure points are: insufficient space creation before the hook attempt, causing the heel to slide off the opponent's foot without catching; failure to commit to a decisive inward pull once the heel catches, allowing the opponent time to retract their foot; and not immediately closing the legs after completing the drag, which permits the opponent to extract their leg before half guard is established. Each failure point represents a timing error rather than a strength deficiency."
+      },
+      {
+        "question": "What grip or frame positioning should you maintain during the heel drag to prevent the opponent from advancing?",
+        "answer": "Both hands should frame on the opponent's hips or lower ribcage using forearm frames rather than extended arms. This prevents advancement to high mount during the escape attempt while avoiding the arm exposure that creates Americana or armbar opportunities. The frames also provide the structural support needed for the directional bridging motion that creates the hooking space. Keep elbows pinned tight to your body throughout the entire sequence."
+      },
+      {
+        "question": "In which direction should force be applied during the heel drag motion?",
+        "answer": "Force should be applied inward across your centerline, pulling the opponent's foot from outside your hip to between your legs. The direction is medial and slightly downward, using the natural curling motion of your entire leg from the hip. Pulling upward or outward dissipates the hooking force and allows the foot to escape the hook. Think of it as sweeping their foot toward your opposite knee in a curved arc rather than pulling it straight inward."
+      },
+      {
+        "question": "Your opponent counters your heel drag by lifting their foot and driving their knee toward your armpit - how do you adjust?",
+        "answer": "When the opponent lifts their foot to avoid the hook, immediately switch to an elbow escape on the same side. The knee driving toward your armpit creates space on the opposite hip that you can exploit with a hip escape and knee insertion. The heel drag attempt becomes a setup for the elbow escape, creating a two-attack chain where defending one opens the other. This chain is the foundation of systematic mount defense."
+      },
+      {
+        "question": "If the heel drag partially succeeds but the opponent begins extracting their leg before you establish half guard, what follow-up options exist?",
+        "answer": "Immediately reattempt the drag with a more decisive pull while simultaneously turning to your side to create the half guard angle. If the leg is almost free, transition to a deep half guard entry by threading underneath their body before they fully extract. Alternatively, use the partial entanglement to insert a butterfly hook that transitions to butterfly half guard, which offers different offensive options than standard half guard recovery."
+      },
+      {
+        "question": "How does the heel drag integrate with other mount escapes in a systematic escape hierarchy?",
+        "answer": "The heel drag forms part of a three-escape system alongside the upa and elbow escape. When the opponent defends the upa by posting wide, their planted foot becomes vulnerable to the heel drag. When they defend the heel drag by lifting their feet, they create the space needed for an elbow escape. When they drive weight forward to prevent the elbow escape, the upa bridge becomes available. Each escape's defense opens the next, creating an unsolvable defensive loop."
+      },
+      {
+        "question": "What distinguishes the near-side heel drag from the cross-body variation in terms of setup and application?",
+        "answer": "The near-side heel drag uses the same-side heel to hook the opponent's nearest foot, requiring less hip mobility and covering a shorter distance, making it the default high-percentage option. The cross-body variation uses the opposite foot to reach across, requiring greater hip mobility and a larger bridge for space creation. The cross-body version is primarily used when the near-side foot has been retracted or when the opponent has adapted to defend the standard version, offering a different angle of attack."
+      }
+    ],
+    "safety_considerations": "The Heel Drag Escape is one of the lowest-risk mount escapes as it involves no explosive joint manipulation or significant neck-loading movements. However, practitioners should be mindful of knee and ankle stress during the dragging motion, particularly when training with larger partners whose weight may resist the hooking motion and create lateral torque on the knee. Partners maintaining mount should avoid driving weight through grapevines during initial drill work to prevent knee hyperextension on the bottom player. If any sharp knee pain occurs during the hooking motion, stop immediately and assess whether the angle of the drag is placing lateral stress on the knee joint. Training partners should communicate resistance levels clearly during progressive drilling phases."
+  },
+  "defender": {
+    "name": "Heel Drag Escape Defender",
+    "description": "Learn to prevent and counter the Heel Drag Escape from mount. Foot placement strategies, early recognition cues, and transition options for maintaining dominant mount control in BJJ.",
+    "overview": "Defending against the Heel Drag Escape requires the top mount player to understand the specific foot positioning and base management vulnerabilities that make this escape possible. The heel drag targets your feet rather than your core base structure, making it a subtle escape that can succeed before you recognize it is occurring. Prevention focuses on three key areas: maintaining proper foot positioning that denies hooking access, reading the bottom player's hip movement patterns that signal the escape attempt, and having immediate counter-transitions ready when partial escape occurs. Unlike defending explosive bridge escapes where the threat is obvious, the heel drag demands awareness of your own foot placement and sensitivity to the subtle leg movements happening below your hips. Understanding when your mount is most vulnerable to the heel drag allows preemptive adjustment of foot position and weight distribution to eliminate the technique before it begins.",
+    "key_principles": [
+      "Keep feet tucked tight against the opponent's hips with toes curled under rather than planted flat on the mat to minimize hooking access",
+      "Recognize the controlled hip bump as the primary precursor to a heel drag attempt, distinguishing it from bridge escape setups",
+      "Drive knees wide and maintain pressure through the balls of your feet rather than flat foot placement when sensing increased leg activity",
+      "Transition immediately to a more dominant variation if partial escape occurs rather than fighting to maintain a compromised standard mount",
+      "Use proactive grapevine hooks when sensing repeated leg movement to eliminate the bottom player's ability to generate hooking motions",
+      "Maintain heavy downward hip pressure to reduce the bottom player's ability to bridge and create the space needed for the heel to catch"
+    ],
+    "recognition_cues": [
+      "Bottom player's feet begin repositioning laterally toward your ankles or feet rather than planting for a vertical bridge",
+      "Subtle controlled hip bump directed toward one side that creates targeted space at the foot level rather than full bridging for upa reversal",
+      "Bottom player's attention and eye focus shifts downward toward your feet and leg positioning rather than toward your upper body",
+      "Small lateral leg movements from the bottom player contrasting with the larger explosive movements typical of bridge or elbow escape setups",
+      "Bottom player's arms maintain hip-level frames rather than reaching for arm and leg traps, indicating the escape targets your feet rather than your base"
+    ],
+    "defensive_options": [
+      {
+        "action": "Lift the threatened foot off the mat and drive that knee upward toward the opponent's armpit",
+        "when_to_use": "When you feel heel contact on your foot or ankle, or when you recognize lateral foot movement from the bottom player targeting your feet",
+        "targets_outcome": "Mount/Bottom",
+        "if_successful": "Denies the hooking point completely and advances your mount position toward high mount",
+        "risk": "Momentary base instability on one leg creates brief vulnerability to upa escape if opponent reads the weight shift"
+      },
+      {
+        "action": "Insert grapevine hooks by wrapping your feet around the opponent's legs to eliminate all lower body mobility",
+        "when_to_use": "Proactively when you sense increased leg activity and lateral foot movement from the bottom player before they initiate the hook",
+        "targets_outcome": "Mount/Bottom",
+        "if_successful": "Eliminates all heel drag attempts and most lower body escape movements while maintaining heavy mount control",
+        "risk": "Grapevines reduce your own mobility and make it harder to transition to submissions or advance to higher mount variations"
+      },
+      {
+        "action": "Transition to technical mount by inserting a far hook behind the opponent's body as their leg movement creates space",
+        "when_to_use": "When the heel drag partially succeeds and the opponent's legs are actively working to close around your leg, converting their escape motion into your advancement",
+        "targets_outcome": "Technical Mount/Bottom",
+        "if_successful": "Converts the opponent's escape attempt into a more dominant position that threatens back control",
+        "risk": "Incomplete hook insertion may result in a scramble where the opponent recovers turtle or half guard"
+      },
+      {
+        "action": "Drive heavy downward hip pressure while widening base to flatten the opponent's positioning",
+        "when_to_use": "As a preemptive measure when you feel the opponent begin to adjust their feet or generate small hip bumps",
+        "targets_outcome": "Mount/Bottom",
+        "if_successful": "Eliminates the space needed for the bridge component of the heel drag and pins the opponent flat",
+        "risk": "Over-committing weight forward can expose you to upa escape if the opponent transitions from heel drag to bridge reversal"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Mount/Bottom",
+        "how": "Recognize the heel drag attempt early through lateral foot movement cues, immediately lift the threatened foot and drive your knee upward, then re-settle your weight with adjusted foot positioning to prevent further attempts."
+      },
+      {
+        "outcome": "Technical Mount/Bottom",
+        "how": "When the opponent's heel drag partially succeeds and their legs are actively working, use their leg movement to insert your far hook behind their body. Convert their escape energy into your positional advancement by threading your hook as they open their legs for the drag."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Planting feet flat on the mat far from the opponent's hips, creating easy hooking targets",
+        "consequence": "Bottom player's heel can easily reach and hook your ankle, making the heel drag nearly impossible to prevent once initiated",
+        "correction": "Keep feet tucked tight against the opponent's hips with toes curled under or maintain pressure through the balls of your feet. Minimize the distance between your feet and the opponent's body."
+      },
+      {
+        "error": "Ignoring subtle hip bumps and lateral leg movement from the bottom player as insignificant activity",
+        "consequence": "The heel drag succeeds before you recognize it is happening, resulting in immediate half guard recovery for the bottom player",
+        "correction": "Treat every controlled hip bump and lateral leg movement as a potential heel drag setup. Respond immediately by adjusting foot position or driving weight downward to eliminate space."
+      },
+      {
+        "error": "Fighting to maintain standard mount after the opponent's heel has already caught your foot and begun the drag",
+        "consequence": "Wasted energy in a losing battle as the entanglement progressively tightens, ending in half guard recovery anyway but with worse positioning for the top player",
+        "correction": "Accept the partial escape and immediately transition to technical mount by inserting a hook behind the opponent's body. Convert their success into a more dangerous position for them rather than fighting the entanglement."
+      },
+      {
+        "error": "Attempting to pull the trapped foot free by lifting straight upward after the heel catches",
+        "consequence": "The upward pulling direction actually tightens the heel hook and provides the opponent with additional leverage to complete the drag",
+        "correction": "Circle the trapped foot outward and backward rather than pulling straight up. If extraction fails within one second, immediately transition to technical mount."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What foot positioning prevents the heel drag escape from being initiated?",
+        "answer": "Keep your feet tucked tight against the opponent's hips with toes curled under rather than flat on the mat. Positioning feet close to the opponent's body reduces the angle available for their heel to hook over your ankle. Alternatively, drive your knees wide and maintain pressure through the balls of your feet rather than flat foot placement, which keeps your ankles elevated and inaccessible to the hooking motion."
+      },
+      {
+        "question": "How do you distinguish a heel drag setup from a standard bridge escape attempt?",
+        "answer": "The heel drag setup involves subtle lateral leg movement and a controlled directional hip bump rather than the explosive upward hip thrust of a bridge-based upa. Watch for the opponent's feet moving toward your ankles rather than planting flat for a vertical bridge. The preceding hip bump is typically smaller and directed toward one side, and the opponent's arms maintain hip-level frames rather than attempting to trap your arm and leg for a bridge reversal."
+      },
+      {
+        "question": "When should you transition to technical mount rather than fighting to maintain standard mount against an active heel drag?",
+        "answer": "Transition when the opponent's heel has partially caught your foot and their legs are actively closing. Rather than fighting to extract your foot from an increasingly tight entanglement, use the leg activity and space to insert your far hook behind their body. This converts their successful escape attempt into a more dominant position for you and threatens back control. The decision point is roughly one second after the heel catches; if you cannot free your foot in that window, transition immediately."
+      },
+      {
+        "question": "What is your immediate priority when you feel your foot being hooked during a heel drag attempt?",
+        "answer": "The immediate priority is to lift the threatened foot off the mat and drive that knee upward toward the opponent's armpit. Speed is critical because once the heel catches and the opponent begins the inward drag, the entanglement becomes progressively harder to break. Secondary priority is driving heavy downward hip pressure with your posted leg to flatten the opponent and eliminate their ability to close their legs around your trapped leg."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Recognition Training",
+        "focus": "Identifying heel drag setups and distinguishing from other escapes",
+        "description": "Partner alternates between heel drag attempts, upa escapes, and elbow escapes from bottom mount. Top player calls out which escape is being attempted before it completes. Develop pattern recognition for the specific hip bump and lateral leg movement that signals a heel drag. 30 repetitions identifying correctly before progressing."
+      },
+      {
+        "phase": "Phase 2: Prevention Drilling",
+        "focus": "Proactive foot positioning and mount adjustment",
+        "description": "Partner attempts heel drags at 50% resistance while you practice defensive foot positioning, grapevine insertion timing, and weight distribution adjustments. Focus on preventing the heel from catching rather than responding after it hooks. Track prevention rate and work toward 80% denial before the hook catches."
+      },
+      {
+        "phase": "Phase 3: Counter-Transition Integration",
+        "focus": "Converting failed prevention into positional advancement",
+        "description": "Partner executes heel drags at 70% resistance. When prevention fails, practice the immediate transition to technical mount using the opponent's leg activity. Develop the automatic response of inserting a hook rather than fighting the entanglement. Build the technical mount transition as a reflexive backup to prevention."
+      },
+      {
+        "phase": "Phase 4: Live Application Sparring",
+        "focus": "Full resistance mount retention against systematic escape chains",
+        "description": "Positional sparring from mount top against opponents who use the heel drag as part of their escape chain. Must maintain mount or advance position for 90 seconds. Track which escape in the chain most frequently succeeds and develop specific defensive responses to the heel drag within combination escape sequences."
+      }
+    ]
+  }
+}

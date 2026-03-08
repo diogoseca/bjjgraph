@@ -1,0 +1,598 @@
+{
+  "name": "Headquarters Position",
+  "slug": "headquarters-position",
+  "description": "Master Headquarters Position in BJJ. Strategic passing control position with multiple offensive pathways and 70% advancement rate for systematic guard passing.",
+  "variant_uniqueness": "Systematic passing hub with versatile control",
+  "overview": "Headquarters Position is a fundamental guard passing control position where the top player establishes dominant leg control while maintaining strong base and upright posture. This position serves as the central hub of modern systematic guard passing, acting as a strategic decision point from which the passer selects optimal passing routes based on opponent reactions. The position creates exceptional control with relatively low risk, limiting the bottom player's defensive options while maintaining multiple offensive pathways.\n\nHeadquarters offers a systematic approach to bypassing various guard configurations by controlling one of the opponent's legs while establishing triangulated base structure. From this position, the passer can flow seamlessly between knee slice, long step, smash pass, and leg weave variations, making it one of the most versatile positions in contemporary guard passing systems. The position's effectiveness stems from its ability to compress infinite guard passing complexity into finite if-then decision sequences.\n\nThis position represents a fundamental evolution in guard passing theory, moving away from commitment-heavy explosive passes toward measured, reactive approaches that maintain safety while threatening multiple directions simultaneously. The passer can probe defenses methodically, returning to headquarters between attempts rather than overcommitting to single directions, creating grinding systematic pressure that exhausts defensive options over time.",
+  "key_principles": [
+    "Control opponent's leg by driving knee firmly toward mat, eliminating their ability to create frames or recover guard structure through sustained pressure",
+    "Establish strong posting base with opposite leg positioned wide and perpendicular to opponent's body line, creating triangular structure resistant to sweeps",
+    "Maintain upright posture with strong spine alignment and vertical orientation, preventing forward weight shift that creates rolling opportunities or compromises balance",
+    "Create and manipulate passing angles by adjusting hip position and weight distribution while maintaining connection with trapped leg throughout transitions",
+    "Control opponent's hip mobility through strategic placement of trapped leg and systematic pressure application that limits their movement options",
+    "Neutralize opponent's frames and hooks by maintaining distance with posting hand while controlling with gripping hand, preventing them from creating space",
+    "Systematically eliminate defensive options by reading reactions and selecting appropriate passing variations, using headquarters as central decision hub"
+  ],
+  "related_positions": [
+    {
+      "name": "Combat Base",
+      "relationship": "Preceding position - often used to establish headquarters control from guard configurations"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Common starting position from which headquarters is established during passing sequences"
+    },
+    {
+      "name": "Side Control",
+      "relationship": "Primary target position for most passing sequences initiated from headquarters"
+    },
+    {
+      "name": "Deep Half Guard",
+      "relationship": "Common defensive entry opponent attempts from headquarters pressure"
+    },
+    {
+      "name": "Knee Shield Half Guard",
+      "relationship": "Defensive guard structure opponent may attempt to establish against headquarters"
+    },
+    {
+      "name": "Knee Cut from Headquarters",
+      "relationship": "Primary offensive transition when opponent turns toward trapped leg"
+    },
+    {
+      "name": "Toreando from Headquarters",
+      "relationship": "Primary offensive transition when opponent extends leg to create distance"
+    },
+    {
+      "name": "Leg Drag from Headquarters",
+      "relationship": "Offensive transition when opponent creates strong frames or straightens leg"
+    },
+    {
+      "name": "Back Step Pass",
+      "relationship": "Counter transition when opponent attempts deep half or underhook attacks"
+    },
+    {
+      "name": "Mount",
+      "relationship": "Advanced target position achievable through progressive passing sequences"
+    }
+  ],
+  "top": {
+    "name": "Headquarters Position Top",
+    "description": "Master Headquarters Position in BJJ. Strategic passing control position with multiple offensive pathways and 70% advancement rate for systematic guard passing.",
+    "tags": [
+      "bjj",
+      "position",
+      "headquarters",
+      "guard-passing",
+      "top-control",
+      "systematic-passing",
+      "half-guard"
+    ],
+    "overview": "Headquarters Position is a fundamental guard passing control position where the top player establishes dominant leg control while maintaining strong base and upright posture. This position serves as the central hub of modern systematic guard passing, acting as a strategic decision point from which the passer selects optimal passing routes based on opponent reactions. The position creates exceptional control with relatively low risk, limiting the bottom player's defensive options while maintaining multiple offensive pathways.\n\nHeadquarters offers a systematic approach to bypassing various guard configurations by controlling one of the opponent's legs while establishing triangulated base structure. From this position, the passer can flow seamlessly between knee slice, long step, smash pass, and leg weave variations, making it one of the most versatile positions in contemporary guard passing systems. The position's effectiveness stems from its ability to compress infinite guard passing complexity into finite if-then decision sequences.\n\nThis position represents a fundamental evolution in guard passing theory, moving away from commitment-heavy explosive passes toward measured, reactive approaches that maintain safety while threatening multiple directions simultaneously. The passer can probe defenses methodically, returning to headquarters between attempts rather than overcommitting to single directions, creating grinding systematic pressure that exhausts defensive options over time.",
+    "state_properties": {
+      "point_value": 0,
+      "position_type": "Offensive/Controlling",
+      "risk_level": "Low",
+      "energy_cost": "Low",
+      "time_sustainability": "Long"
+    },
+    "state_invariants": [
+      "One opponent leg controlled and pinned between top player's legs with knee driven toward mat by shin or knee pressure, restricting hip mobility and preventing guard recovery through sustained downward pressure",
+      "Supporting leg firmly posted wide on mat creating stable triangular base typically positioned 45-90 degrees from controlled leg, providing stability against sweeps while allowing dynamic weight transfer for passing attacks",
+      "Upright posture maintained with spine aligned vertically and perpendicular to mat, head up with shoulders positioned over hips rather than leaning forward, creating structural integrity that prevents breakdown and maintains balance",
+      "Control hand grips opponent's knee, thigh, or pants at knee line while opposite hand controls lapel, collar, or establishes underhook, preventing frames while maintaining distance management and preventing opponent from establishing defensive structures",
+      "Opponent's hips flattened to mat or controlled through combination of leg pressure and upper body control, limiting mobility and ability to create hip movement necessary for guard retention or sweep attempts"
+    ],
+    "prerequisites": [
+      "Solid understanding of base mechanics and weight distribution principles in top positions",
+      "Ability to establish and maintain knee-line control against resistance from various guard configurations",
+      "Familiarity with fundamental guard passing concepts, timing, and systematic passing methodology",
+      "Recognition of opponent's defensive patterns, guard retention strategies, and common escape sequences",
+      "Competence in grip fighting and hand positioning to establish initial control from standing or combat base"
+    ],
+    "key_principles": [
+      "Control opponent's leg by driving knee firmly toward mat, eliminating their ability to create frames or recover guard structure through sustained pressure",
+      "Establish strong posting base with opposite leg positioned wide and perpendicular to opponent's body line, creating triangular structure resistant to sweeps",
+      "Maintain upright posture with strong spine alignment and vertical orientation, preventing forward weight shift that creates rolling opportunities or compromises balance",
+      "Create and manipulate passing angles by adjusting hip position and weight distribution while maintaining connection with trapped leg throughout transitions",
+      "Control opponent's hip mobility through strategic placement of trapped leg and systematic pressure application that limits their movement options",
+      "Neutralize opponent's frames and hooks by maintaining distance with posting hand while controlling with gripping hand, preventing them from creating space",
+      "Systematically eliminate defensive options by reading reactions and selecting appropriate passing variations, using headquarters as central decision hub"
+    ],
+    "transitions": [
+      {
+        "transition": "Knee Cut from Headquarters",
+        "attempt_probability": 28
+      },
+      {
+        "transition": "Toreando from Headquarters",
+        "attempt_probability": 18
+      },
+      {
+        "transition": "Leg Drag from Headquarters",
+        "attempt_probability": 17
+      },
+      {
+        "transition": "Back Step Pass",
+        "attempt_probability": 12
+      },
+      {
+        "transition": "Body Lock Pass",
+        "attempt_probability": 10
+      },
+      {
+        "transition": "Headquarters Pass",
+        "attempt_probability": 10
+      },
+      {
+        "transition": "Saddle Entry from Top",
+        "attempt_probability": 5
+      }
+    ],
+    "decision_tree": [
+      {
+        "condition": "If opponent keeps leg straight and attempts to push knee line with foot on hip creating distance",
+        "actions": [
+          {
+            "technique": "Toreando from Headquarters",
+            "target": "Side Control",
+            "probability": 70
+          },
+          {
+            "technique": "Leg Drag from Headquarters",
+            "target": "Leg Drag Control",
+            "probability": 60
+          }
+        ]
+      },
+      {
+        "condition": "If opponent turns toward trapped leg attempting to recover half guard or full guard structures",
+        "actions": [
+          {
+            "technique": "Knee Cut from Headquarters",
+            "target": "Side Control",
+            "probability": 75
+          },
+          {
+            "technique": "Body Lock Pass",
+            "target": "Side Control",
+            "probability": 65
+          }
+        ]
+      },
+      {
+        "condition": "If opponent creates strong frames with hands on shoulder and hip attempting to maintain distance",
+        "actions": [
+          {
+            "technique": "Leg Drag from Headquarters",
+            "target": "Leg Drag Control",
+            "probability": 80
+          },
+          {
+            "technique": "Body Lock Pass",
+            "target": "Side Control",
+            "probability": 70
+          }
+        ]
+      },
+      {
+        "condition": "If opponent attempts deep half guard entry or commits to underhook sweep mechanics",
+        "actions": [
+          {
+            "technique": "Back Step Pass",
+            "target": "Back Control",
+            "probability": 65
+          },
+          {
+            "technique": "Knee Cut from Headquarters",
+            "target": "Side Control",
+            "probability": 60
+          }
+        ]
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Poor knee control with insufficient pressure on opponent's knee line",
+        "consequence": "Allows opponent to recover guard structure, create effective frames, or enter into half guard positions that neutralize passing momentum and reset position to opponent's advantage",
+        "correction": "Drive knee firmly toward mat using weight from hips, pinning opponent's knee and restricting hip mobility through constant downward pressure maintained throughout entire passing sequence"
+      },
+      {
+        "error": "Excessive forward lean with weight shifted over hands rather than hips and chest",
+        "consequence": "Creates vulnerability to forward rolls, off-balancing sweeps, and granby roll escapes while compromising base stability and reaction time to opponent movements",
+        "correction": "Keep spine upright and perpendicular to mat, distributing weight through hips and posting leg while using hands for balance and control rather than weight support"
+      },
+      {
+        "error": "Insufficient base width with posting leg positioned too close to opponent's body",
+        "consequence": "Reduces stability against lateral sweeps and makes passer vulnerable to being pushed or pulled off balance during opponent's escape attempts or sweep mechanics",
+        "correction": "Post supporting leg wide and away from opponent's centerline creating triangular base with posting foot angled perpendicular to opponent's body for maximum stability"
+      },
+      {
+        "error": "Passive positioning without active pressure or advancing intention",
+        "consequence": "Allows opponent time to develop escape sequences, recover guard structures, or create effective defensive frames that prevent progression and eliminate passing advantages",
+        "correction": "Maintain constant forward pressure while reading opponent's reactions, continuously threatening multiple passing options to prevent opponent from settling into defensive patterns"
+      },
+      {
+        "error": "Telegraphing pass direction through premature weight shifts or grip changes",
+        "consequence": "Opponent anticipates passing direction and establishes defensive structures or escape routes before passer can complete technique, neutralizing passing attempts",
+        "correction": "Maintain neutral position until opponent commits to defensive pattern, then explosively execute appropriate counter-pass while using feints and subtle adjustments to disguise intentions"
+      },
+      {
+        "error": "Losing connection with trapped leg during transitional moments between passes",
+        "consequence": "Opponent recovers full guard or creates scramble situations that eliminate passing advantages and reset position to neutral or worse positions",
+        "correction": "Maintain leg control throughout entire passing sequence using consistent pressure, ensuring new control is established before releasing original grip during transitions"
+      }
+    ],
+    "training_drills": [
+      {
+        "name": "Headquarters Maintenance Drill",
+        "description": "Partner starts in headquarters with one leg trapped. Bottom player uses various escape attempts including frames, shrimps, deep half entries, and guard recovery while top player maintains position and adjusts base. Focus on weight distribution, posting mechanics, and knee control pressure throughout opponent's defensive movements.",
+        "duration": "3 minutes per round, 3-4 rounds per partner"
+      },
+      {
+        "name": "Headquarters Passing Cycle",
+        "description": "From established headquarters position, cycle through all primary passing options including knee cut, toreando, leg drag, and backstep based on coach's calls or timer intervals. Bottom player provides progressive resistance. Emphasizes reading reactions and selecting appropriate passing variations while maintaining headquarters as central hub.",
+        "duration": "5 minutes continuous flow, 2-3 rounds per partner"
+      },
+      {
+        "name": "Recovery to Headquarters Drill",
+        "description": "Start from compromised positions where opponent has frames, partial guard recovery, or defensive grips established. Work to re-establish headquarters control against resistance. Develops ability to find and maintain headquarters position during live rolling and competition scenarios with realistic resistance levels.",
+        "duration": "2 minutes per scenario, 5-6 different starting positions"
+      }
+    ],
+    "related_content": [
+      {
+        "name": "Combat Base",
+        "relationship": "Preceding position - often used to establish headquarters control from guard configurations"
+      },
+      {
+        "name": "Half Guard",
+        "relationship": "Common starting position from which headquarters is established during passing sequences"
+      },
+      {
+        "name": "Side Control",
+        "relationship": "Primary target position for most passing sequences initiated from headquarters"
+      },
+      {
+        "name": "Deep Half Guard",
+        "relationship": "Common defensive entry opponent attempts from headquarters pressure"
+      },
+      {
+        "name": "Knee Shield Half Guard",
+        "relationship": "Defensive guard structure opponent may attempt to establish against headquarters"
+      },
+      {
+        "name": "Knee Cut from Headquarters",
+        "relationship": "Primary offensive transition when opponent turns toward trapped leg"
+      },
+      {
+        "name": "Toreando from Headquarters",
+        "relationship": "Primary offensive transition when opponent extends leg to create distance"
+      },
+      {
+        "name": "Leg Drag from Headquarters",
+        "relationship": "Offensive transition when opponent creates strong frames or straightens leg"
+      },
+      {
+        "name": "Back Step Pass",
+        "relationship": "Counter transition when opponent attempts deep half or underhook attacks"
+      },
+      {
+        "name": "Mount",
+        "relationship": "Advanced target position achievable through progressive passing sequences"
+      }
+    ],
+    "position_metrics": {
+      "retention_rate": {
+        "value": 90,
+        "description": "High retention due to triangulated base structure and low-energy maintenance requirements"
+      },
+      "advancement_probability": {
+        "value": 72,
+        "description": "Strong advancement rate driven by multiple passing pathways and systematic decision-making"
+      },
+      "submission_probability": {
+        "value": 38,
+        "description": "Moderate submission threat primarily through passing to dominant positions first"
+      },
+      "average_time": "30-90 seconds before advancing to side control or mount, or returning to guard configurations"
+    },
+    "knowledge_assessment": [
+      {
+        "question": "What are the essential grips and contact points for maintaining headquarters position?",
+        "answer": "The control hand grips the opponent's knee, thigh, or pants at the knee line to manage leg position, while the opposite hand controls the lapel, collar, or establishes an underhook to prevent frames. The trapped leg is pinned between your legs with knee driven toward the mat using shin or knee pressure. The posting leg is planted wide at 45-90 degrees from the controlled leg, creating a triangular base. These four contact points work together to restrict hip mobility and prevent guard recovery."
+      },
+      {
+        "question": "How should you distribute your weight to maintain headquarters against an active opponent?",
+        "answer": "Weight should be distributed primarily through the hips and the posting leg rather than through the hands or arms. Maintain an upright posture with spine vertical and perpendicular to the mat, keeping shoulders directly over hips. Avoid leaning forward, as this shifts weight onto the hands and creates vulnerability to forward rolls and granby escapes. The downward pressure on the trapped leg comes from hip engagement rather than upper body weight, allowing the hands to remain free for grip adjustments and frame neutralization."
+      },
+      {
+        "question": "Your opponent starts hip escaping aggressively toward the side of their trapped leg - what adjustment do you make?",
+        "answer": "Follow the hip escape by adjusting your posting leg position to maintain the triangular base relative to their new hip angle. Increase downward pressure on the trapped knee to limit further hip movement, and use the control hand to push their near-side knee back toward the mat. This reaction naturally loads the knee cut pass, so if the hip escape continues, transition directly into the knee cut by driving the knee through the gap their movement created. The key is matching their lateral movement with your base adjustments rather than trying to hold a static position."
+      },
+      {
+        "question": "What are the base fundamentals that prevent sweeps from headquarters, and what is the most common base error?",
+        "answer": "The triangulated base structure with the posting leg wide and perpendicular to the opponent's body creates stability against both lateral and forward-backward sweeps. The most common error is positioning the posting leg too close to the opponent's body, which narrows the base and makes the passer vulnerable to being pushed or pulled off balance. The posting foot should be angled outward with weight on the ball of the foot, allowing rapid directional adjustment. When the base is correct, the opponent cannot generate sufficient leverage to off-balance the passer regardless of sweep direction."
+      },
+      {
+        "question": "Your opponent establishes a strong knee shield and begins framing on your shoulder - how do you shut this down?",
+        "answer": "Address the knee shield first by angling your hips to compress their knee toward the mat rather than fighting the frame directly. Use the control hand to grip below their knee shield and apply inward pressure while maintaining downward weight on the trapped leg. Strip the shoulder frame by swimming your elbow inside their wrist and pinning it to their body or by changing levels to slip underneath the frame. If the knee shield remains strong, transition to a smash pass by collapsing your weight laterally across their knee shield, using their own defensive structure against them by turning it into a passing lane."
+      },
+      {
+        "question": "How should you apply pressure from headquarters without overcommitting in any single direction?",
+        "answer": "Maintain constant forward pressure through hip engagement and downward leg control while keeping your center of gravity centered over your base. Use micro-adjustments rather than large movements - small shifts in hip angle, subtle grip changes, and incremental weight transfers that probe defensive reactions without exposing you to counters. Threaten multiple passing directions simultaneously by staying in a neutral headquarters alignment between passes. The pressure should feel like a slow grind that methodically eliminates defensive options rather than explosive bursts that risk losing position."
+      },
+      {
+        "question": "Your opponent partially recovers guard by getting their free foot on your hip while you still control one leg - how do you recover full headquarters?",
+        "answer": "Do not release the controlled leg. Use your free hand to grip the foot on your hip at the ankle or heel and push it to the mat or past your hip line. Simultaneously increase downward pressure on the trapped leg to prevent the opponent from combining the foot-on-hip frame with a hip escape. Once the foot is cleared, immediately re-establish your posting base and upper body control grips before the opponent can create another frame. If the foot is too strong to clear directly, step your posting leg back slightly to change the angle, which often breaks the foot placement by changing the distance relationship."
+      },
+      {
+        "question": "How do you manage energy expenditure from headquarters during a long match or multiple consecutive guard passing attempts?",
+        "answer": "Headquarters is designed as a low-energy control position because the structure does the work rather than muscular effort. Maintain position through skeletal alignment and gravity-based pressure rather than gripping strength or pushing force. Between passing attempts, return to a neutral headquarters stance and allow your grips to reset rather than maintaining death grips continuously. Use the opponent's reactions to dictate your passing choices rather than forcing techniques against resistance, which conserves energy while exhausting the bottom player who must continuously create defensive structures."
+      }
+    ]
+  },
+  "bottom": {
+    "name": "Headquarters Position Bottom",
+    "description": "Master Headquarters Position in BJJ. Strategic passing control position with multiple offensive pathways and 70% advancement rate for systematic guard passing.",
+    "tags": [
+      "bjj",
+      "position",
+      "headquarters",
+      "guard-passing",
+      "top-control",
+      "systematic-passing",
+      "half-guard"
+    ],
+    "overview": "Headquarters Position is a fundamental guard passing control position where the top player establishes dominant leg control while maintaining strong base and upright posture. This position serves as the central hub of modern systematic guard passing, acting as a strategic decision point from which the passer selects optimal passing routes based on opponent reactions. The position creates exceptional control with relatively low risk, limiting the bottom player's defensive options while maintaining multiple offensive pathways.\n\nHeadquarters offers a systematic approach to bypassing various guard configurations by controlling one of the opponent's legs while establishing triangulated base structure. From this position, the passer can flow seamlessly between knee slice, long step, smash pass, and leg weave variations, making it one of the most versatile positions in contemporary guard passing systems. The position's effectiveness stems from its ability to compress infinite guard passing complexity into finite if-then decision sequences.\n\nThis position represents a fundamental evolution in guard passing theory, moving away from commitment-heavy explosive passes toward measured, reactive approaches that maintain safety while threatening multiple directions simultaneously. The passer can probe defenses methodically, returning to headquarters between attempts rather than overcommitting to single directions, creating grinding systematic pressure that exhausts defensive options over time.",
+    "state_properties": {
+      "point_value": 0,
+      "position_type": "Offensive/Controlling",
+      "risk_level": "Low",
+      "energy_cost": "Low",
+      "time_sustainability": "Long"
+    },
+    "state_invariants": [
+      "One opponent leg controlled and pinned between top player's legs with knee driven toward mat by shin or knee pressure, restricting hip mobility and preventing guard recovery through sustained downward pressure",
+      "Supporting leg firmly posted wide on mat creating stable triangular base typically positioned 45-90 degrees from controlled leg, providing stability against sweeps while allowing dynamic weight transfer for passing attacks",
+      "Upright posture maintained with spine aligned vertically and perpendicular to mat, head up with shoulders positioned over hips rather than leaning forward, creating structural integrity that prevents breakdown and maintains balance",
+      "Control hand grips opponent's knee, thigh, or pants at knee line while opposite hand controls lapel, collar, or establishes underhook, preventing frames while maintaining distance management and preventing opponent from establishing defensive structures",
+      "Opponent's hips flattened to mat or controlled through combination of leg pressure and upper body control, limiting mobility and ability to create hip movement necessary for guard retention or sweep attempts"
+    ],
+    "prerequisites": [
+      "Solid understanding of base mechanics and weight distribution principles in top positions",
+      "Ability to establish and maintain knee-line control against resistance from various guard configurations",
+      "Familiarity with fundamental guard passing concepts, timing, and systematic passing methodology",
+      "Recognition of opponent's defensive patterns, guard retention strategies, and common escape sequences",
+      "Competence in grip fighting and hand positioning to establish initial control from standing or combat base"
+    ],
+    "key_principles": [
+      "Control opponent's leg by driving knee firmly toward mat, eliminating their ability to create frames or recover guard structure through sustained pressure",
+      "Establish strong posting base with opposite leg positioned wide and perpendicular to opponent's body line, creating triangular structure resistant to sweeps",
+      "Maintain upright posture with strong spine alignment and vertical orientation, preventing forward weight shift that creates rolling opportunities or compromises balance",
+      "Create and manipulate passing angles by adjusting hip position and weight distribution while maintaining connection with trapped leg throughout transitions",
+      "Control opponent's hip mobility through strategic placement of trapped leg and systematic pressure application that limits their movement options",
+      "Neutralize opponent's frames and hooks by maintaining distance with posting hand while controlling with gripping hand, preventing them from creating space",
+      "Systematically eliminate defensive options by reading reactions and selecting appropriate passing variations, using headquarters as central decision hub"
+    ],
+    "transitions": [
+      {
+        "transition": "Re-Guard from Headquarters",
+        "attempt_probability": 30
+      },
+      {
+        "transition": "Sweep from Headquarters",
+        "attempt_probability": 25
+      },
+      {
+        "transition": "Inversion from Headquarters",
+        "attempt_probability": 25
+      },
+      {
+        "transition": "Shin-to-Shin from Headquarters",
+        "attempt_probability": 20
+      }
+    ],
+    "decision_tree": [
+      {
+        "condition": "If opponent keeps leg straight and attempts to push knee line with foot on hip creating distance",
+        "actions": [
+          {
+            "technique": "Toreando from Headquarters",
+            "target": "Side Control",
+            "probability": 70
+          },
+          {
+            "technique": "Leg Drag from Headquarters",
+            "target": "Leg Drag Control",
+            "probability": 60
+          }
+        ]
+      },
+      {
+        "condition": "If opponent turns toward trapped leg attempting to recover half guard or full guard structures",
+        "actions": [
+          {
+            "technique": "Knee Cut from Headquarters",
+            "target": "Side Control",
+            "probability": 75
+          },
+          {
+            "technique": "Body Lock Pass",
+            "target": "Side Control",
+            "probability": 65
+          }
+        ]
+      },
+      {
+        "condition": "If opponent creates strong frames with hands on shoulder and hip attempting to maintain distance",
+        "actions": [
+          {
+            "technique": "Leg Drag from Headquarters",
+            "target": "Leg Drag Control",
+            "probability": 80
+          },
+          {
+            "technique": "Body Lock Pass",
+            "target": "Side Control",
+            "probability": 70
+          }
+        ]
+      },
+      {
+        "condition": "If opponent attempts deep half guard entry or commits to underhook sweep mechanics",
+        "actions": [
+          {
+            "technique": "Back Step Pass",
+            "target": "Back Control",
+            "probability": 65
+          },
+          {
+            "technique": "Knee Cut from Headquarters",
+            "target": "Side Control",
+            "probability": 60
+          }
+        ]
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Poor knee control with insufficient pressure on opponent's knee line",
+        "consequence": "Allows opponent to recover guard structure, create effective frames, or enter into half guard positions that neutralize passing momentum and reset position to opponent's advantage",
+        "correction": "Drive knee firmly toward mat using weight from hips, pinning opponent's knee and restricting hip mobility through constant downward pressure maintained throughout entire passing sequence"
+      },
+      {
+        "error": "Excessive forward lean with weight shifted over hands rather than hips and chest",
+        "consequence": "Creates vulnerability to forward rolls, off-balancing sweeps, and granby roll escapes while compromising base stability and reaction time to opponent movements",
+        "correction": "Keep spine upright and perpendicular to mat, distributing weight through hips and posting leg while using hands for balance and control rather than weight support"
+      },
+      {
+        "error": "Insufficient base width with posting leg positioned too close to opponent's body",
+        "consequence": "Reduces stability against lateral sweeps and makes passer vulnerable to being pushed or pulled off balance during opponent's escape attempts or sweep mechanics",
+        "correction": "Post supporting leg wide and away from opponent's centerline creating triangular base with posting foot angled perpendicular to opponent's body for maximum stability"
+      },
+      {
+        "error": "Passive positioning without active pressure or advancing intention",
+        "consequence": "Allows opponent time to develop escape sequences, recover guard structures, or create effective defensive frames that prevent progression and eliminate passing advantages",
+        "correction": "Maintain constant forward pressure while reading opponent's reactions, continuously threatening multiple passing options to prevent opponent from settling into defensive patterns"
+      },
+      {
+        "error": "Telegraphing pass direction through premature weight shifts or grip changes",
+        "consequence": "Opponent anticipates passing direction and establishes defensive structures or escape routes before passer can complete technique, neutralizing passing attempts",
+        "correction": "Maintain neutral position until opponent commits to defensive pattern, then explosively execute appropriate counter-pass while using feints and subtle adjustments to disguise intentions"
+      },
+      {
+        "error": "Losing connection with trapped leg during transitional moments between passes",
+        "consequence": "Opponent recovers full guard or creates scramble situations that eliminate passing advantages and reset position to neutral or worse positions",
+        "correction": "Maintain leg control throughout entire passing sequence using consistent pressure, ensuring new control is established before releasing original grip during transitions"
+      }
+    ],
+    "training_drills": [
+      {
+        "name": "Headquarters Maintenance Drill",
+        "description": "Partner starts in headquarters with one leg trapped. Bottom player uses various escape attempts including frames, shrimps, deep half entries, and guard recovery while top player maintains position and adjusts base. Focus on weight distribution, posting mechanics, and knee control pressure throughout opponent's defensive movements.",
+        "duration": "3 minutes per round, 3-4 rounds per partner"
+      },
+      {
+        "name": "Headquarters Passing Cycle",
+        "description": "From established headquarters position, cycle through all primary passing options including knee cut, toreando, leg drag, and backstep based on coach's calls or timer intervals. Bottom player provides progressive resistance. Emphasizes reading reactions and selecting appropriate passing variations while maintaining headquarters as central hub.",
+        "duration": "5 minutes continuous flow, 2-3 rounds per partner"
+      },
+      {
+        "name": "Recovery to Headquarters Drill",
+        "description": "Start from compromised positions where opponent has frames, partial guard recovery, or defensive grips established. Work to re-establish headquarters control against resistance. Develops ability to find and maintain headquarters position during live rolling and competition scenarios with realistic resistance levels.",
+        "duration": "2 minutes per scenario, 5-6 different starting positions"
+      }
+    ],
+    "related_content": [
+      {
+        "name": "Combat Base",
+        "relationship": "Preceding position - often used to establish headquarters control from guard configurations"
+      },
+      {
+        "name": "Half Guard",
+        "relationship": "Common starting position from which headquarters is established during passing sequences"
+      },
+      {
+        "name": "Side Control",
+        "relationship": "Primary target position for most passing sequences initiated from headquarters"
+      },
+      {
+        "name": "Deep Half Guard",
+        "relationship": "Common defensive entry opponent attempts from headquarters pressure"
+      },
+      {
+        "name": "Knee Shield Half Guard",
+        "relationship": "Defensive guard structure opponent may attempt to establish against headquarters"
+      },
+      {
+        "name": "Knee Cut from Headquarters",
+        "relationship": "Primary offensive transition when opponent turns toward trapped leg"
+      },
+      {
+        "name": "Toreando from Headquarters",
+        "relationship": "Primary offensive transition when opponent extends leg to create distance"
+      },
+      {
+        "name": "Leg Drag from Headquarters",
+        "relationship": "Offensive transition when opponent creates strong frames or straightens leg"
+      },
+      {
+        "name": "Back Step Pass",
+        "relationship": "Counter transition when opponent attempts deep half or underhook attacks"
+      },
+      {
+        "name": "Mount",
+        "relationship": "Advanced target position achievable through progressive passing sequences"
+      }
+    ],
+    "position_metrics": {
+      "retention_rate": {
+        "value": 90,
+        "description": "High retention due to triangulated base structure and low-energy maintenance requirements"
+      },
+      "advancement_probability": {
+        "value": 72,
+        "description": "Strong advancement rate driven by multiple passing pathways and systematic decision-making"
+      },
+      "submission_probability": {
+        "value": 38,
+        "description": "Moderate submission threat primarily through passing to dominant positions first"
+      },
+      "average_time": "30-90 seconds before advancing to side control or mount, or returning to guard configurations"
+    },
+    "knowledge_assessment": [
+      {
+        "question": "What are the essential grips and contact points for maintaining headquarters position?",
+        "answer": "The control hand grips the opponent's knee, thigh, or pants at the knee line to manage leg position, while the opposite hand controls the lapel, collar, or establishes an underhook to prevent frames. The trapped leg is pinned between your legs with knee driven toward the mat using shin or knee pressure. The posting leg is planted wide at 45-90 degrees from the controlled leg, creating a triangular base. These four contact points work together to restrict hip mobility and prevent guard recovery."
+      },
+      {
+        "question": "How should you distribute your weight to maintain headquarters against an active opponent?",
+        "answer": "Weight should be distributed primarily through the hips and the posting leg rather than through the hands or arms. Maintain an upright posture with spine vertical and perpendicular to the mat, keeping shoulders directly over hips. Avoid leaning forward, as this shifts weight onto the hands and creates vulnerability to forward rolls and granby escapes. The downward pressure on the trapped leg comes from hip engagement rather than upper body weight, allowing the hands to remain free for grip adjustments and frame neutralization."
+      },
+      {
+        "question": "Your opponent starts hip escaping aggressively toward the side of their trapped leg - what adjustment do you make?",
+        "answer": "Follow the hip escape by adjusting your posting leg position to maintain the triangular base relative to their new hip angle. Increase downward pressure on the trapped knee to limit further hip movement, and use the control hand to push their near-side knee back toward the mat. This reaction naturally loads the knee cut pass, so if the hip escape continues, transition directly into the knee cut by driving the knee through the gap their movement created. The key is matching their lateral movement with your base adjustments rather than trying to hold a static position."
+      },
+      {
+        "question": "What are the base fundamentals that prevent sweeps from headquarters, and what is the most common base error?",
+        "answer": "The triangulated base structure with the posting leg wide and perpendicular to the opponent's body creates stability against both lateral and forward-backward sweeps. The most common error is positioning the posting leg too close to the opponent's body, which narrows the base and makes the passer vulnerable to being pushed or pulled off balance. The posting foot should be angled outward with weight on the ball of the foot, allowing rapid directional adjustment. When the base is correct, the opponent cannot generate sufficient leverage to off-balance the passer regardless of sweep direction."
+      },
+      {
+        "question": "Your opponent establishes a strong knee shield and begins framing on your shoulder - how do you shut this down?",
+        "answer": "Address the knee shield first by angling your hips to compress their knee toward the mat rather than fighting the frame directly. Use the control hand to grip below their knee shield and apply inward pressure while maintaining downward weight on the trapped leg. Strip the shoulder frame by swimming your elbow inside their wrist and pinning it to their body or by changing levels to slip underneath the frame. If the knee shield remains strong, transition to a smash pass by collapsing your weight laterally across their knee shield, using their own defensive structure against them by turning it into a passing lane."
+      },
+      {
+        "question": "How should you apply pressure from headquarters without overcommitting in any single direction?",
+        "answer": "Maintain constant forward pressure through hip engagement and downward leg control while keeping your center of gravity centered over your base. Use micro-adjustments rather than large movements - small shifts in hip angle, subtle grip changes, and incremental weight transfers that probe defensive reactions without exposing you to counters. Threaten multiple passing directions simultaneously by staying in a neutral headquarters alignment between passes. The pressure should feel like a slow grind that methodically eliminates defensive options rather than explosive bursts that risk losing position."
+      },
+      {
+        "question": "Your opponent partially recovers guard by getting their free foot on your hip while you still control one leg - how do you recover full headquarters?",
+        "answer": "Do not release the controlled leg. Use your free hand to grip the foot on your hip at the ankle or heel and push it to the mat or past your hip line. Simultaneously increase downward pressure on the trapped leg to prevent the opponent from combining the foot-on-hip frame with a hip escape. Once the foot is cleared, immediately re-establish your posting base and upper body control grips before the opponent can create another frame. If the foot is too strong to clear directly, step your posting leg back slightly to change the angle, which often breaks the foot placement by changing the distance relationship."
+      },
+      {
+        "question": "How do you manage energy expenditure from headquarters during a long match or multiple consecutive guard passing attempts?",
+        "answer": "Headquarters is designed as a low-energy control position because the structure does the work rather than muscular effort. Maintain position through skeletal alignment and gravity-based pressure rather than gripping strength or pushing force. Between passing attempts, return to a neutral headquarters stance and allow your grips to reset rather than maintaining death grips continuously. Use the opponent's reactions to dictate your passing choices rather than forcing techniques against resistance, which conserves energy while exhausting the bottom player who must continuously create defensive structures."
+      }
+    ]
+  }
+}

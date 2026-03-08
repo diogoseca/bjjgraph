@@ -2,60 +2,62 @@
 
 ![Status](https://img.shields.io/badge/Status-Beta-yellow)
 ![Active Development](https://img.shields.io/badge/Development-Active-green)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![License: PolyForm Noncommercial](https://img.shields.io/badge/License-PolyForm%20Noncommercial-blue.svg)](LICENSE)
 
 > **Note:** BJJGraph is under active development. Content is being expanded daily. Contributions welcome!
 
 Brazilian Jiu-Jitsu knowledge graph and state machine as a static site.
 
-**Live Site**: [bjjgraph.org](https://bjjgraph.org)
+**Production**: [bjjgraph.org](https://bjjgraph.org) | **Dev Preview**: [dev.bjjgraph.pages.dev](https://dev.bjjgraph.pages.dev)
 
 ## What's Inside
 
-- **95+ Positions** - BJJ positions as state machine nodes
-- **71+ Transitions** - Techniques as probabilistic edges between states
-- **49+ Submissions** - Terminal states and finishing techniques
+- **85+ Positions** - BJJ positions as state machine nodes
+- **1000+ Transitions** - Techniques as probabilistic edges between states
+- **150+ Submissions** - Terminal states and finishing techniques
 - **Expert Systems** - Systematic approaches from Danaher, Gordon Ryan, Eddie Bravo
 - **Interactive Graph** - Visual exploration of position relationships
 
 ## Quick Start
 
 ```bash
-cd source
-npm install          # Install dependencies (Node 20+)
-npx quartz build --serve   # Development server at localhost:8080
+cd source && npm install   # Install dependencies (Node 20+)
+cd .. && npm run dev       # Development server at localhost:8080
 ```
 
 ## Contributing
 
+### npm Scripts (Root package.json)
+
+| Command | Description |
+|---------|-------------|
+| `npm run validate:json` | Validate JSON schemas |
+| `npm run validate:graph` | Validate graph integrity |
+| `npm run regenerate:json` | Fix/enrich JSON content with Claude AI |
+| `npm run regenerate:md` | Regenerate markdown from JSON |
+| `npm run regenerate:hubs` | Generate category hub pages |
+| `npm run regenerate:graph` | Generate graph.json |
+| `npm run regenerate` | Run all regeneration steps |
+| `npm run build` | Build static site |
+| `npm run regenerate:build` | Regenerate + build (full workflow) |
+| `npm run dev` | Development server with live reload |
+
 ### Pre-Flight Checklist
 
-Before making changes, run these commands:
-
 ```bash
-# 1. Validate JSON source files
-python3 scripts/validate_json.py
-
-# 2. Regenerate markdown from JSON
-python3 scripts/json_to_md.py
-
-# 3. Build the site
-cd source && npx quartz build
-
-# 4. Run type checking
-cd source && npm run check
+npm run regenerate:build   # Full validation, generation, and build
+cd source && npm run check # Type checking
 ```
 
 ### Content Workflow
 
 BJJGraph uses a **JSON-first** content system:
 
-1. **Edit** JSON source files in `source/content/`
-2. **Validate** with `python3 scripts/validate_json.py`
-3. **Regenerate** markdown with `python3 scripts/json_to_md.py`
-4. **Test** build with `npx quartz build --serve`
+1. **Edit** JSON source files in `content/` (e.g., `content/Positions/Mount.json`)
+2. **Validate & Regenerate** with `npm run regenerate`
+3. **Test** build with `npm run dev`
 
-Never edit `.md` files in `source/content/` directly - they are generated from JSON.
+Never edit `.md` files in `content/` directly — they are generated from the `.json` source files.
 
 ### Documentation
 
@@ -80,15 +82,15 @@ Built on [Quartz 4.0](https://quartz.jzhao.xyz/) with:
 
 ```
 bjjgraph/
-├── source/
-│   ├── content/           # Content files (JSON source + generated MD)
-│   │   ├── Positions/     # 95+ positions
-│   │   ├── Transitions/   # 71+ transitions
-│   │   ├── Submissions/   # 49+ submissions
-│   │   ├── Systems/       # Expert systems
-│   │   └── Principles/    # Fundamental principles
-│   ├── templates/         # Jinja2 templates for MD generation
-│   └── quartz/            # Static site generator
+├── content/               # *.json = SOURCE data, *.md = GENERATED output
+│   ├── Positions/         # 85+ positions
+│   ├── Transitions/       # 1000+ transitions
+│   ├── Submissions/       # 150+ submissions
+│   ├── Systems/           # Expert systems
+│   └── Principles/        # Fundamental principles
+├── templates/             # JSON schemas + Jinja2 templates (NOT source data)
+├── source/                # Quartz static site generator (MIT)
+│   └── quartz/
 ├── scripts/               # Validation and automation
 ├── docs/                  # Project documentation
 └── tests/                 # Test artifacts
@@ -102,6 +104,17 @@ We're looking for partners who share this vision—BJJ apps, gear companies, aca
 
 **Contact**: [Diogo Seca on LinkedIn](https://www.linkedin.com/in/diogoseca/)
 
+## Deployment
+
+Hosted on **Cloudflare Pages**. Deploys are triggered by GitHub Actions.
+
+| Branch | URL | Workflow |
+|--------|-----|----------|
+| `main` | [bjjgraph.org](https://bjjgraph.org) | `.github/workflows/deploy.yaml` |
+| `dev` | [dev.bjjgraph.pages.dev](https://dev.bjjgraph.pages.dev) | `.github/workflows/deploy-dev.yaml` |
+
+Preview deployments for `dev` are also available at unique URLs (e.g., `<hash>.bjjgraph.pages.dev`) visible in the Cloudflare Pages dashboard.
+
 ## Analytics
 
 - **PostHog**: https://us.posthog.com/project/236155
@@ -109,7 +122,7 @@ We're looking for partners who share this vision—BJJ apps, gear companies, aca
 
 ## License
 
-MIT License - see [LICENSE](LICENSE)
+PolyForm Noncommercial 1.0.0 - Free for personal, educational, and non-commercial use. Commercial use requires permission. See [LICENSE](LICENSE)
 
 ## Links
 

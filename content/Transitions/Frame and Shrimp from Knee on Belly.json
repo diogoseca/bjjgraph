@@ -1,0 +1,388 @@
+{
+  "name": "Frame and Shrimp from Knee on Belly",
+  "description": "Master the Frame and Shrimp escape from Knee on Belly in BJJ. Complete guide covering framing technique, hip escape mechanics, and half guard recovery.",
+  "tags": [
+    "bjj",
+    "escape",
+    "knee-on-belly",
+    "half-guard-recovery",
+    "hip-escape",
+    "framing",
+    "defensive-technique",
+    "guard-recovery"
+  ],
+  "from_position": "Knee on Belly/Bottom",
+  "outcomes": [
+    {
+      "to": "Half Guard/Bottom",
+      "probability": 50,
+      "result": "success"
+    },
+    {
+      "to": "Knee on Belly/Bottom",
+      "probability": 30,
+      "result": "failure"
+    },
+    {
+      "to": "Mount/Bottom",
+      "probability": 20,
+      "result": "counter"
+    }
+  ],
+  "success_rate": 50,
+  "overview": "The Frame and Shrimp from Knee on Belly is a fundamental escape technique that addresses one of the most pressure-intensive positions in Brazilian Jiu-Jitsu. When an opponent establishes Knee on Belly, the crushing weight through their knee onto the solar plexus creates respiratory distress and severely limits defensive options. This escape employs the universal defensive principles of structural framing and hip escaping to systematically create space and recover to half guard, transforming a dire defensive situation into a position with legitimate offensive capability.\n\nThe technique works by first establishing structural frames against the opponent's knee and hip to manage the downward pressure, then using a coordinated bridge-and-shrimp sequence to move the hips away from under the knee. The critical detail lies in the direction and timing of the shrimp — moving away from the knee rather than into it, and timing the hip escape to coincide with the opponent's weight commitment. Once sufficient lateral displacement is achieved, the bottom player inserts their near-side knee between the bodies and locks half guard, immediately transitioning from a severely disadvantaged scoring position to one rich with sweeping and back-taking opportunities.\n\nStrategically, this escape represents disciplined, methodical KOB defense. Rather than panicking under pressure or wasting energy pushing against the knee with extended arms, the practitioner uses proper biomechanics — frames create structure, the bridge creates momentary space, and the shrimp creates the angle needed for guard recovery. The technique chains naturally with knee shield insertions, underhook battles, and the full half guard offensive system. Against opponents who follow the hip escape aggressively, the space created during their pursuit often enables even more favorable guard recoveries.",
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Knee Shield Insertion Variation",
+      "description": "After creating space with the shrimp, insert the near-side shin across the opponent's body as a knee shield rather than closing half guard immediately. This creates additional distance and frames that prevent the opponent from re-establishing pressure while providing a stronger defensive structure.",
+      "when_to_use": "When the opponent is aggressively following your hip escape and you need maximum distance management before consolidating guard position"
+    },
+    {
+      "variant_name": "Far-Side Hip Escape Angle",
+      "description": "Instead of shrimping directly away from the knee, angle the hip escape toward the opponent's feet at approximately 45 degrees. This diagonal escape path creates a sharper angle that makes it harder for the opponent to follow with their knee and opens up butterfly hook insertion possibilities.",
+      "when_to_use": "When the opponent has a wide base that makes direct lateral escape insufficient, or when you want to recover butterfly guard rather than standard half guard"
+    },
+    {
+      "variant_name": "Underhook-First Recovery",
+      "description": "Combine the frame and shrimp with an immediate underhook on the near side as you turn to your side. Rather than framing with both arms, the near-side arm shoots for the underhook during the bridge phase while the far hand controls the knee. This accelerates the transition from escape to offensive half guard.",
+      "when_to_use": "When the opponent's near-side arm is posted on the mat for base rather than controlling your upper body, leaving the underhook available during the escape"
+    }
+  ],
+  "position_integration": "The Frame and Shrimp from Knee on Belly sits within the broader KOB escape system as a methodical, technique-driven option alongside more reactive escapes like pushing the knee and reguarding or turning to turtle. Its primary value is the reliable recovery to half guard, which connects directly into the half guard offensive system including underhook sweeps, deep half entries, back takes, and lockdown sequences. The escape also develops fundamental hip escape mechanics that transfer to escapes from mount, side control, and other pressure-based top positions. Within the positional hierarchy, this technique represents the critical bridge between surviving a high-pressure disadvantage and re-entering the guard game with genuine offensive potential.",
+  "conditions": [
+    "Opponent has established Knee on Belly with knee on your torso and weight committed through the contact point",
+    "Both forearms are available for framing — not trapped or controlled by the opponent's grips",
+    "You are not currently defending an immediate submission attempt that requires both hands",
+    "Sufficient composure to execute a technical sequence rather than panicked pushing"
+  ],
+  "related_content": [
+    {
+      "name": "Knee on Belly",
+      "relationship": "Source position — this escape is initiated from Knee on Belly bottom"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Primary target position — successful escape recovers to half guard with offensive options"
+    },
+    {
+      "name": "Side Control",
+      "relationship": "Adjacent position in the control hierarchy — opponent may drop to side control during escape"
+    },
+    {
+      "name": "Mount",
+      "relationship": "Counter outcome position — opponent may advance to mount if escape timing is poor"
+    },
+    {
+      "name": "Knee Shield Half Guard",
+      "relationship": "Enhanced recovery target — inserting knee shield creates stronger defensive structure than standard half guard"
+    },
+    {
+      "name": "Open Guard",
+      "relationship": "Alternative recovery target when more space is created than needed for half guard"
+    },
+    {
+      "name": "Frame and Shrimp to Guard",
+      "relationship": "Related general-purpose escape technique sharing core framing and hip escape mechanics"
+    },
+    {
+      "name": "Back Control",
+      "relationship": "Positional threat that motivates proper escape direction — turning wrong way exposes back"
+    },
+    {
+      "name": "Deep Half Guard",
+      "relationship": "Advanced alternative recovery when opponent drives forward during escape attempt"
+    },
+    {
+      "name": "Butterfly Guard",
+      "relationship": "Alternative guard recovery when butterfly hook insertion is available during escape"
+    }
+  ],
+  "attacker": {
+    "name": "Frame and Shrimp from Knee on Belly Attacker",
+    "description": "Learn how to execute the Frame and Shrimp escape from Knee on Belly as the bottom player. Step-by-step guide covering framing mechanics, hip escape timing, and half guard recovery.",
+    "overview": "As the bottom player executing the Frame and Shrimp escape, your objective is to systematically dismantle the opponent's Knee on Belly control through disciplined framing and precise hip escape mechanics. This technique requires composure under extreme pressure — the opponent's knee is driving into your diaphragm, making breathing difficult and creating urgency that tempts panicked reactions. Your success depends on executing a structured sequence: establish frames to manage pressure, bridge to create momentary space, shrimp your hips away from the knee, and insert your leg to recover half guard. Each phase must be executed with technical precision rather than desperate strength, as the opponent is actively working to maintain their dominant position and will exploit extended arms, poor timing, or incomplete movement.",
+    "key_principles": [
+      "Frame on the opponent's knee and hip simultaneously to create structural resistance against downward pressure before attempting any escape movement",
+      "Turn to your side before shrimping — the escape requires lateral hip movement that is impossible while flat on your back under full pressure",
+      "Direct your hip escape away from the knee and toward your feet — shrimping into the knee drives your body further under their pressure",
+      "Time your shrimp with a slight bridge to momentarily unweight the knee and create the space needed for lateral hip displacement",
+      "Keep elbows tight throughout the escape — extended arms become submission targets and waste the structural energy needed for effective framing",
+      "Insert your near-side knee between the bodies immediately when space permits to establish half guard and prevent KOB re-establishment"
+    ],
+    "setup_requirements": [
+      "Opponent has established Knee on Belly with weight committed through their knee onto your torso",
+      "Both forearms are available for framing against the opponent's knee and hip — not trapped or controlled",
+      "Sufficient awareness to identify escape timing windows when opponent shifts weight or reaches for grips",
+      "Ability to manage breathing under diaphragm pressure to sustain the multi-step escape sequence"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Establish defensive frames",
+        "description": "Place your near-side forearm against the opponent's knee with your elbow tight to your body. Your far-side hand controls their hip, belt, or pants at the waistline. These dual frames create structural resistance against the downward knee pressure without exposing your arms to submission attacks. Do not push with extended arms — maintain compact, structural frames."
+      },
+      {
+        "step_number": 2,
+        "action": "Turn to your side",
+        "description": "Rotate your body to face away from the opponent's knee pressure, turning onto your near-side hip. This reduces the surface area exposed to the crushing knee pressure and creates the hip angle necessary for effective shrimping. Your shoulders should angle toward the mat on the side away from the knee. This rotation is the prerequisite for all subsequent escape movement."
+      },
+      {
+        "step_number": 3,
+        "action": "Bridge to create space",
+        "description": "Execute a short, explosive bridge by driving both feet into the mat and lifting your hips. This momentarily unweights the opponent's knee from your torso and creates the gap needed for your hip escape. The bridge should be quick and sharp rather than slow and sustained — a sustained bridge allows the opponent to simply ride the movement and re-settle their weight."
+      },
+      {
+        "step_number": 4,
+        "action": "Shrimp hips away from knee",
+        "description": "Immediately following the bridge, shrimp your hips laterally away from the opponent's knee toward your own feet. The direction is critical — move away from the knee, not into it. Use both feet to drive the shrimp while your frames simultaneously push the opponent's knee in the opposite direction. This coordinated movement creates maximum lateral displacement between your torso and the knee contact point."
+      },
+      {
+        "step_number": 5,
+        "action": "Insert near-side knee",
+        "description": "As space opens between your torso and the opponent's knee, drive your near-side knee across your body and into the gap between yourself and the opponent. This knee insertion creates a physical barrier that prevents the opponent from re-establishing Knee on Belly and begins the transition to half guard. Angle the knee to point toward the opponent's far hip for maximum blocking effect."
+      },
+      {
+        "step_number": 6,
+        "action": "Lock half guard entanglement",
+        "description": "Once your knee is inserted, close your legs around the opponent's nearest leg to establish the half guard entanglement. Secure their leg between your knees and ankles using a triangle or grapevine configuration. This leg control prevents the opponent from extracting their leg and completing a pass back to a dominant position."
+      },
+      {
+        "step_number": 7,
+        "action": "Consolidate half guard position",
+        "description": "With half guard locked, immediately work to establish proper offensive positioning. Get fully on your side facing the opponent, fight for the underhook on the trapped leg side, and establish either a knee shield for distance management or close-contact half guard for sweeping. Your priority transitions from defensive escape to offensive guard play — the escape is not complete until you have a working guard position."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Opponent follows your hip escape by hopping their knee to your new position, re-establishing Knee on Belly on the opposite side of your torso",
+        "effectiveness": "High",
+        "your_response": "Chain multiple shrimps together without pausing — insert your knee shield immediately and continue shrimping in the same direction rather than resetting flat. Each successive shrimp degrades their ability to follow cleanly.",
+        "targets_outcome": "Knee on Belly/Bottom"
+      },
+      {
+        "counter": "Opponent transitions directly to mount by stepping over your body as you create space with your shrimp, using the gap you created for guard recovery as their entry to mount",
+        "effectiveness": "High",
+        "your_response": "Accelerate your knee insertion timing — the moment you feel space, drive your knee across before they can step over. Keep your near-side elbow tight and use it as a secondary barrier against their leg passing over your body.",
+        "targets_outcome": "Mount/Bottom"
+      },
+      {
+        "counter": "Opponent drives knee deeper and widens their base when they feel initial frames, increasing downward pressure to prevent the bridge from creating meaningful space",
+        "effectiveness": "Medium",
+        "your_response": "Wait for their weight commitment, then redirect your escape — when they fully commit pressure downward, their lateral mobility decreases. Use a sharper angled shrimp toward their feet where they have less ability to follow while maintaining pressure.",
+        "targets_outcome": "Knee on Belly/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Pushing the opponent's knee away with extended arms instead of using structural forearm frames",
+        "consequence": "Extended arms become immediately vulnerable to armbars and Americanas. Pushing also creates vertical force that the opponent's weight easily absorbs, wasting energy without creating the lateral displacement needed for escape.",
+        "correction": "Keep elbows tight to your body and frame with forearms against the knee and hip. Frames create structural resistance and enable lateral movement rather than fighting the opponent's weight vertically."
+      },
+      {
+        "error": "Attempting to hip escape while remaining flat on your back instead of turning to your side first",
+        "consequence": "Hip escape mechanics are severely compromised when flat — the hips cannot generate meaningful lateral movement without the rotation that comes from being on your side. The escape stalls and the opponent re-settles weight.",
+        "correction": "Always rotate to your side before shrimping. Turn your body to face away from the knee, placing your weight on the near-side hip. This rotation activates the correct hip musculature for lateral escape movement."
+      },
+      {
+        "error": "Shrimping directly into the opponent's knee instead of away from it",
+        "consequence": "Moving toward the knee drives your torso deeper under the opponent's weight, increasing pressure and making the position worse. You end up more pinned than when you started.",
+        "correction": "Shrimp laterally away from the knee toward your own feet. Your frames push the knee one direction while your hips move the opposite direction, creating maximum displacement between your body and the pressure point."
+      },
+      {
+        "error": "Executing the bridge and shrimp as two separate, disconnected movements rather than one coordinated sequence",
+        "consequence": "The bridge without an immediate shrimp simply lifts the opponent momentarily before they re-settle. The gap between movements allows the opponent to adjust and re-apply pressure before any escape progress is made.",
+        "correction": "Coordinate the bridge and shrimp as one fluid movement — the bridge creates space and the shrimp immediately fills that space with lateral displacement. Think of it as one explosive action with two components, not two separate steps."
+      },
+      {
+        "error": "Stopping movement after a single failed shrimp attempt and lying still under pressure",
+        "consequence": "The opponent re-settles their full weight and consolidates grips, making each subsequent escape attempt exponentially harder. Static defense under KOB leads to energy depletion through respiratory distress.",
+        "correction": "Chain multiple shrimp attempts continuously without pausing. Each shrimp creates incremental space improvement even if the full escape does not succeed immediately. Continuous movement prevents the opponent from settling and compounds small positional gains."
+      },
+      {
+        "error": "Failing to insert the knee quickly enough after creating space with the shrimp",
+        "consequence": "The opponent follows the hip escape and re-establishes knee contact on your new position, or steps over to mount. The space you created is wasted because there is no physical barrier to prevent re-establishment.",
+        "correction": "Drive the near-side knee into the gap the instant space appears between your torso and the opponent. The knee insertion must be immediate — treat it as the continuation of the shrimp rather than a separate subsequent action."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Solo Movement",
+        "focus": "Bridge-and-shrimp coordination",
+        "description": "Practice the bridge-and-shrimp as a single coordinated movement from a flat back position. Focus on turning to your side, bridging explosively, and shrimping laterally in one fluid motion. Perform 3 sets of 10 repetitions each direction, emphasizing the timing connection between bridge and shrimp."
+      },
+      {
+        "phase": "Cooperative Drilling",
+        "focus": "Complete escape sequence with light resistance",
+        "description": "Partner establishes Knee on Belly with minimal weight while you practice the full frame-bridge-shrimp-insert sequence. Partner holds position but does not actively follow or resist. Focus on proper frame placement, escape direction, and knee insertion timing. 5-minute rounds alternating sides."
+      },
+      {
+        "phase": "Progressive Resistance",
+        "focus": "Escape under increasing pressure",
+        "description": "Partner gradually increases KOB pressure from 25% to 75% over multiple rounds and begins following hip escapes. You must chain multiple shrimps and adapt timing to match the opponent's reactions. This phase develops the sensitivity to detect when the opponent's weight shifts and the persistence to chain escape attempts."
+      },
+      {
+        "phase": "Counter Integration",
+        "focus": "Handling opponent reactions during escape",
+        "description": "Partner actively counters the escape by following hip movement, threatening mount transitions, and attacking exposed arms. You practice recognizing counters and adjusting — accelerating knee insertion against mount attempts, chaining shrimps against positional followers, and retracting frames against arm attacks."
+      },
+      {
+        "phase": "Live Situational Sparring",
+        "focus": "Full escape-to-offense sequence",
+        "description": "Start under full-resistance KOB and execute the escape against a fully resisting opponent. After recovering half guard, immediately transition to offensive half guard play — underhook sweeps, back takes, or knee shield retention. This phase connects the defensive escape to the subsequent offensive system."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the most critical frame placement for initiating the Frame and Shrimp escape from Knee on Belly?",
+        "answer": "The near-side forearm frames against the opponent's knee while the far hand controls their hip or belt line. This dual frame creates structural resistance against the downward knee pressure without extending the arms into vulnerable submission positions. The frames must be established before any movement begins — they are the foundation upon which the entire escape sequence is built. Without proper frames, the opponent's pressure overwhelms any escape attempt."
+      },
+      {
+        "question": "Why must you turn to your side before attempting the hip escape in this technique?",
+        "answer": "Turning to your side reduces the surface area exposed to knee pressure and activates the hip musculature in the correct plane for lateral shrimping. When flat on your back, your hips cannot generate the lateral displacement needed to escape — the movement is biomechanically blocked. The rotation creates the angular relationship between your hips and the mat that enables effective shrimping and also shifts the pressure contact point, providing some breathing relief."
+      },
+      {
+        "question": "Your opponent follows your first shrimp by hopping their knee to your new position — how do you adjust?",
+        "answer": "Immediately continue shrimping in the same direction and insert your knee shield on the new side rather than resetting flat. Chain multiple shrimp attempts together without pausing, as each displacement degrades the opponent's ability to follow cleanly. Their repeated knee repositioning compromises their base stability, and the cumulative space gains from chained shrimps eventually exceed their ability to track your movement."
+      },
+      {
+        "question": "What is the correct direction for the hip escape in this technique and why does direction matter?",
+        "answer": "The hip escape moves laterally away from the opponent's knee — toward your own feet and the side opposite the knee contact point. Direction is critical because shrimping into the knee drives your body further under the opponent's weight, increasing pressure rather than relieving it. Moving away creates maximum displacement between your torso and the pressure point, while your frames push the knee in the opposite direction to amplify the separation."
+      },
+      {
+        "question": "What happens if you extend your arms to push the opponent's knee away instead of using structural frames?",
+        "answer": "Extended arms become immediately vulnerable to armbars and Americanas — the opponent can capture an outstretched limb and transition to a submission without abandoning their controlling position. Additionally, vertical pushing force is easily absorbed by the opponent's committed bodyweight, making it energetically wasteful. Proper frames keep elbows tight and convert defensive arm structure into a platform for lateral escape movement rather than futile vertical resistance."
+      },
+      {
+        "question": "What grip should you prioritize immediately after recovering half guard from this escape?",
+        "answer": "The underhook on the trapped leg side is the highest-priority grip after recovering half guard. This underhook provides the primary offensive pathway to sweeps, back takes, and positional improvements from half guard bottom. Without establishing the underhook, the opponent can immediately re-establish crossface control, flatten you back out, and resume their passing sequence — potentially returning you to the same pressure-based disadvantage you just escaped."
+      },
+      {
+        "question": "Your opponent begins reaching for a cross collar grip as you initiate your frames — how do you proceed?",
+        "answer": "The submission attempt compromises the opponent's base stability and creates an opening for accelerated escape. Defend the collar grip with your far hand controlling their choking wrist while maintaining your near-side frame on their knee. Use their weight redistribution toward the submission to enhance your bridge — they have less base stability when committing a hand to attacking. Time your shrimp during their grip adjustment and prioritize completing the escape."
+      },
+      {
+        "question": "When is the optimal timing window to initiate the Frame and Shrimp escape?",
+        "answer": "The best timing is immediately after the opponent establishes KOB before they settle their full weight and secure controlling grips on your collar and belt. Every second of delay allows them to consolidate pressure, establish the grip framework for their attack sequence, and begin threatening submissions. Secondary timing windows occur when the opponent adjusts their knee position, reaches for grips, or begins a submission setup — each of these actions temporarily compromises their base stability."
+      },
+      {
+        "question": "Why is it important to insert your knee immediately after creating space rather than waiting?",
+        "answer": "The space created by the shrimp is temporary — the opponent is actively working to follow your movement and re-establish knee contact. Without a physical barrier, the opponent simply hops their knee to your new position and resets the entire exchange. The inserted knee creates an obstacle that prevents direct re-establishment and begins the structural transition to half guard. Delayed insertion wastes the space gained and often leads to the opponent advancing to mount through the gap you created."
+      }
+    ],
+    "safety_considerations": "This escape technique involves no direct joint manipulation or choking mechanics, making it low-risk from a submission safety perspective. The primary concern is managing the significant compressive pressure on the diaphragm and solar plexus during the escape sequence. Practitioners with rib injuries, respiratory conditions, or recent abdominal surgery should communicate clearly with training partners about pressure levels. During drilling, the top player should modulate pressure progressively and watch for signs of respiratory distress. Tap immediately if you cannot breathe — there is no technical benefit to training through oxygen deprivation."
+  },
+  "defender": {
+    "name": "Frame and Shrimp from Knee on Belly Defender",
+    "description": "Defend against the Frame and Shrimp escape from Knee on Belly. Top player strategies for maintaining position, following hip escapes, and transitioning to mount.",
+    "overview": "As the top player defending against the Frame and Shrimp escape from Knee on Belly, your objective is to maintain your dominant position by anticipating and neutralizing the bottom player's escape mechanics. The Frame and Shrimp is one of the most fundamental KOB escapes, relying on frames against your knee and hip followed by coordinated hip escape movement. Your defense revolves around three primary strategies: preventing effective frames from being established through grip control, following hip escape movement to maintain knee contact on the torso, and capitalizing on escape attempts by transitioning to mount or re-establishing pressure. Understanding the mechanics of this escape allows you to predict its initiation and respond with weight adjustments, grip changes, and positional transitions that either maintain your KOB or advance to an even more dominant position.",
+    "key_principles": [
+      "Maintain constant forward pressure through the knee to limit the bottom player's ability to create effective frames and generate hip escape movement",
+      "Control at least one upper body contact point — collar, belt, or wrist — to restrict the bottom player's framing ability and create submission threats that deter the escape",
+      "Keep your base dynamic with the posted foot positioned to follow hip escape movement and re-establish knee contact on the opponent's new position",
+      "Anticipate the bridge-and-shrimp sequence by feeling for the setup cues and responding before the full escape develops",
+      "Recognize when KOB maintenance becomes untenable and transition to mount or side control rather than fighting a losing positional battle",
+      "Punish extended arms by threatening armbars or Americanas, creating a deterrent that discourages the framing structure required for the escape"
+    ],
+    "recognition_cues": [
+      "Bottom player places forearm against your knee and hand on your hip or belt, establishing the dual frame structure that precedes the escape",
+      "Bottom player begins rotating to their side, reducing surface area under your knee and creating the hip angle needed for shrimping",
+      "Bottom player plants both feet flat on the mat with knees bent, preparing for the bridge that will momentarily unweight your knee",
+      "Bottom player's breathing pattern shifts from distressed short gasps to controlled measured breaths as they compose themselves for a technical escape sequence"
+    ],
+    "defensive_options": [
+      {
+        "action": "Follow the hip escape by hopping your knee to the bottom player's new torso position, maintaining pressure contact throughout their lateral movement",
+        "when_to_use": "When you feel the bottom player beginning to shrimp away from your knee and their frames are pushing your knee laterally — match their movement with your knee repositioning",
+        "targets_outcome": "Knee on Belly/Bottom",
+        "if_successful": "KOB is re-established on the opponent's new position, forcing them to restart the entire escape sequence with less energy",
+        "risk": "If you commit too aggressively to following, you may overextend your base and create a larger gap for guard recovery than the opponent's shrimp alone would have produced"
+      },
+      {
+        "action": "Transition to mount by stepping over the bottom player's body as they create space with their shrimp, using the escape gap as your entry to a more stable dominant position",
+        "when_to_use": "When the bottom player has displaced their hips significantly but has not yet inserted their knee — the space they created for guard recovery also permits your leg to pass over",
+        "targets_outcome": "Mount/Bottom",
+        "if_successful": "You advance to full mount, a more stable dominant position with higher submission potential and control than KOB",
+        "risk": "If the bottom player times their knee insertion correctly during your transition, you end up in their half guard rather than achieving mount"
+      },
+      {
+        "action": "Attack the framing arm with an armbar setup or wrist control when the bottom player extends their forearm against your knee, forcing them to retract their frames",
+        "when_to_use": "When the bottom player's forearm is positioned against your knee with their elbow slightly elevated from their body, creating submission vulnerability in their extended arm",
+        "targets_outcome": "Knee on Belly/Bottom",
+        "if_successful": "The submission threat forces the bottom player to retract their frames, eliminating the structural foundation required for the escape and resetting them to a passive defensive position",
+        "risk": "Shifting your attention and weight toward the arm attack may compromise your knee pressure and inadvertently create the space the bottom player needs to execute their escape"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Knee on Belly/Bottom",
+        "how": "Follow the bottom player's hip escape by adjusting your knee position to track their torso rather than anchoring to a mat position. Use your grips on collar and belt to limit their movement range and re-settle your weight after each escape attempt. Punish their framing arms with submission threats to discourage repeated attempts."
+      },
+      {
+        "outcome": "Mount/Bottom",
+        "how": "Capitalize on the space the bottom player creates during their shrimp by stepping your free leg over their body to establish mount. The critical timing is after their hips move but before their knee inserts — swing your far leg across and settle your hips before they can close the gap with their knee barrier."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Remaining static with full weight committed through the knee instead of staying mobile and ready to follow escape movement",
+        "consequence": "The bottom player's frames and shrimp create enough displacement for guard recovery because you cannot reposition quickly enough to maintain pressure contact on their moving torso",
+        "correction": "Keep feet light and base dynamic — be prepared to hop your knee to the new position or transition to mount at the first sign of escape initiation. Static KOB against active escape attempts is unsustainable."
+      },
+      {
+        "error": "Releasing all controlling grips to post hands on the mat when feeling the bottom player bridge",
+        "consequence": "Loss of upper body control allows the bottom player to establish frames freely and execute the full escape sequence without any grip interference slowing their movement",
+        "correction": "Maintain at least one controlling grip — collar or belt — while adjusting base. Use grip control to limit the bottom player's framing options and movement range even during base adjustments."
+      },
+      {
+        "error": "Fighting the hip escape by driving the knee harder into the same spot rather than following the bottom player's lateral movement",
+        "consequence": "The bottom player's lateral displacement has already moved their torso — increasing downward pressure on the vacated position applies force to empty mat while they continue escaping beside you",
+        "correction": "Follow the movement by tracking your knee to the bottom player's new torso position. Think of your knee as following their solar plexus, not anchoring to a fixed mat coordinate."
+      },
+      {
+        "error": "Attempting submissions from a compromised KOB position after the escape is already significantly underway",
+        "consequence": "Submission attempts from unstable base sacrifice the remaining positional control and accelerate the escape rather than preventing it",
+        "correction": "If the escape is already in motion, prioritize positional maintenance or advancement to mount. Only attack submissions from a fully settled, stable KOB where your base is not being actively undermined."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What are the earliest recognition cues that your opponent is about to attempt the Frame and Shrimp escape?",
+        "answer": "The earliest cues are the bottom player placing their forearm against your knee while their other hand reaches for your hip or belt — this dual frame structure is the prerequisite for the escape. Additionally, watch for them rotating to their side and planting both feet flat on the mat. These movements signal the bridge-and-shrimp sequence is imminent. Responding before the shrimp begins is significantly more effective than reacting after displacement has already occurred."
+      },
+      {
+        "question": "Your opponent has partially escaped with their hips displaced but has not yet inserted their knee — what is your best response?",
+        "answer": "This is the critical decision window for transitioning to mount. The space the bottom player created with their shrimp is the same space you can use to step your free leg across and establish mount. Act immediately by swinging your posted foot over their body and settling your hips before they can close the distance with their knee insertion. If mount is not available due to angle or timing, hop your knee to their new torso position to re-establish KOB."
+      },
+      {
+        "question": "Why is following the hip escape more effective than increasing downward pressure on the same spot?",
+        "answer": "The hip escape creates lateral displacement that moves the bottom player's torso out from under your knee contact point. Increasing downward pressure on the position they have already vacated applies force to empty space while they continue escaping. Following the movement by repositioning your knee keeps constant pressure on their torso, maintaining the control relationship. Your knee should track their solar plexus as a moving target rather than anchoring to a fixed position on the mat."
+      },
+      {
+        "question": "How do you balance between maintaining KOB and attacking your opponent's framing arms?",
+        "answer": "Attack the framing arm only from a stable, fully settled KOB position where your base is secure and the opponent's escape has not yet begun. If the escape is already in motion with active hip displacement, prioritize position over submission — maintaining KOB or advancing to mount provides sustained advantage, while a failed submission attempt from a compromised base often loses the position entirely. Use arm attacks primarily as deterrents that discourage framing rather than as primary objectives during active escape defense."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Recognition Drilling",
+        "focus": "Identifying escape initiation cues",
+        "description": "Partner signals the Frame and Shrimp escape by establishing frames and turning to their side at varying speeds. Practice identifying the cues — frame placement, side rotation, foot positioning — and calling them out before the partner executes the full escape. Develops anticipatory awareness for early intervention."
+      },
+      {
+        "phase": "Follow Drilling",
+        "focus": "Tracking hip escape movement with knee repositioning",
+        "description": "Partner executes full Frame and Shrimp sequences at moderate speed while you practice following their hip escape by hopping your knee to the new torso position. Maintain pressure contact throughout their movement. Develop the foot speed and balance needed to reposition without losing control."
+      },
+      {
+        "phase": "Transition Integration",
+        "focus": "Converting escape attempts into mount advancement",
+        "description": "Partner attempts Frame and Shrimp with progressive resistance while you practice the decision between re-establishing KOB and transitioning to mount. Read the timing of their knee insertion — if you can step over before it arrives, take mount. If not, follow and re-establish. Builds the split-second decision-making for live application."
+      },
+      {
+        "phase": "Live Positional Sparring",
+        "focus": "Full-speed KOB defense against all escape methods",
+        "description": "Maintain KOB against a fully resisting partner who mixes Frame and Shrimp with other escapes — pushing the knee, turning to turtle, technical stand-up. Practice reading which escape is being attempted and applying the correct defensive response in real time with full resistance and speed."
+      }
+    ]
+  }
+}

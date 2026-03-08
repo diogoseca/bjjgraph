@@ -1,0 +1,415 @@
+{
+  "name": "Ringworm Guard Entry",
+  "description": "Master Ringworm Guard Entry in BJJ. Advanced lapel configuration combining worm and squid guard elements for devastating sweeps and back takes.",
+  "tags": [
+    "bjj",
+    "transition",
+    "technique",
+    "lapel-guard",
+    "gi-specific",
+    "advanced"
+  ],
+  "from_position": "Lapel Guard/Bottom",
+  "outcomes": [
+    {
+      "to": "Ringworm Guard/Bottom",
+      "probability": 58,
+      "result": "success"
+    },
+    {
+      "to": "Lapel Guard/Bottom",
+      "probability": 27,
+      "result": "failure"
+    },
+    {
+      "to": "Half Guard/Bottom",
+      "probability": 15,
+      "result": "counter"
+    }
+  ],
+  "success_rate": 58,
+  "overview": "Ringworm Guard Entry represents the most sophisticated evolution of lapel-based guard systems, combining the leg entanglement of worm guard with the arm control of squid guard into a unified configuration. This dual-threat position creates unprecedented control density by simultaneously restricting the opponent's leg mobility and posting arm, essentially eliminating both primary passing mechanisms in one configuration.\n\nThe strategic value of ringworm lies in its ability to create compounding dilemmas. Unlike simpler lapel configurations where the opponent can focus defensive resources on a single control point, ringworm requires them to address multiple entanglements simultaneously. Attempting to clear the leg wrap exposes the arm to deeper control; trying to extract the arm allows the leg wrap to tighten. This mechanical trap frustrates even technically proficient passers who understand individual lapel guard solutions.\n\nFrom a game theory perspective, ringworm represents an investment position. The complexity of establishing the full configuration means higher setup risk compared to basic worm or squid guard, but the payoff is a control position with dramatically higher submission and sweep percentages. Advanced practitioners use ringworm as an endgame configuration, transitioning into it from simpler lapel guards once they've read their opponent's defensive tendencies and identified optimal attack vectors.",
+  "related_content": [
+    {
+      "name": "Lapel Guard",
+      "relationship": "Starting position and foundation for all lapel-based configurations"
+    },
+    {
+      "name": "Worm Guard",
+      "relationship": "Primary component providing leg entanglement foundation"
+    },
+    {
+      "name": "Squid Guard",
+      "relationship": "Secondary component providing arm control element"
+    },
+    {
+      "name": "Lapel Sweep to Back",
+      "relationship": "High-percentage follow-up attack from established ringworm"
+    },
+    {
+      "name": "Lapel Omoplata Entry",
+      "relationship": "Submission option when arm wrap is deep enough"
+    },
+    {
+      "name": "Spider Guard",
+      "relationship": "Alternative guard for transition when ringworm is cleared"
+    },
+    {
+      "name": "Lasso Guard",
+      "relationship": "Complementary guard sharing similar control principles"
+    },
+    {
+      "name": "De La Riva Guard",
+      "relationship": "Common entry position before establishing lapel configurations"
+    },
+    {
+      "name": "Back Control",
+      "relationship": "Primary destination from successful ringworm back takes"
+    },
+    {
+      "name": "Long Step Around Ringworm",
+      "relationship": "Counter technique opponents use to escape the configuration"
+    },
+    {
+      "name": "Ringworm Guard",
+      "relationship": "Target position once entry is successfully completed"
+    }
+  ],
+  "attacker": {
+    "name": "Ringworm Guard Entry Attacker",
+    "description": "How to execute Ringworm Guard Entry in BJJ. Attacking perspective with setup, execution steps, and counters.",
+    "overview": "Ringworm Guard Entry represents the most sophisticated evolution of lapel-based guard systems, combining the leg entanglement of worm guard with the arm control of squid guard into a unified configuration. This dual-threat position creates unprecedented control density by simultaneously restricting the opponent's leg mobility and posting arm, essentially eliminating both primary passing mechanisms in one configuration.\n\nThe strategic value of ringworm lies in its ability to create compounding dilemmas. Unlike simpler lapel configurations where the opponent can focus defensive resources on a single control point, ringworm requires them to address multiple entanglements simultaneously. Attempting to clear the leg wrap exposes the arm to deeper control; trying to extract the arm allows the leg wrap to tighten. This mechanical trap frustrates even technically proficient passers who understand individual lapel guard solutions.\n\nFrom a game theory perspective, ringworm represents an investment position. The complexity of establishing the full configuration means higher setup risk compared to basic worm or squid guard, but the payoff is a control position with dramatically higher submission and sweep percentages. Advanced practitioners use ringworm as an endgame configuration, transitioning into it from simpler lapel guards once they've read their opponent's defensive tendencies and identified optimal attack vectors.",
+    "key_principles": [
+      "Establish worm guard leg entanglement first before adding the arm component—sequence matters for stability",
+      "Use opponent's clearing attempts on one control point to deepen the other configuration",
+      "Maintain continuous lapel tension through body positioning rather than grip strength alone",
+      "Create dilemmas where defending the sweep opens back take and vice versa",
+      "Keep hips angled toward the entangled side to maximize leverage and control",
+      "Transition fluidly between attack options based on opponent's weight distribution",
+      "Preserve grip endurance by using structural hooks rather than muscular squeezing"
+    ],
+    "setup_requirements": [
+      "Basic lapel guard already established with opponent's lapel extracted and in your control",
+      "Worm guard leg wrap completed around opponent's lead leg behind the knee",
+      "Opponent's posting arm identified and within reach for squid guard transition",
+      "Hip angle established toward the control side with shoulder off the mat",
+      "Sleeve or wrist grip secured on the arm you intend to wrap",
+      "Opponent's base disrupted enough to prevent immediate pressure passing"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Secure worm guard foundation",
+        "description": "From basic lapel guard, feed the extracted lapel behind your opponent's lead knee and thread it through to your far-side hand. Pull tension on the lapel to lock their leg in place, preventing them from stepping back or changing angle."
+      },
+      {
+        "step_number": 2,
+        "action": "Control the posting arm",
+        "description": "With your nearside hand, secure a grip on your opponent's sleeve or wrist of their posting arm. This is typically the arm they use to base when you threaten sweeps from worm guard. Pull this arm across your centerline."
+      },
+      {
+        "step_number": 3,
+        "action": "Thread lapel around arm",
+        "description": "Transfer the lapel fabric from behind their knee to also wrap around their controlled arm. Feed the lapel over their bicep and back under their armpit, creating a secondary anchor point that restricts their posting ability."
+      },
+      {
+        "step_number": 4,
+        "action": "Consolidate dual configuration",
+        "description": "Pull tension on both control points simultaneously, ensuring the leg wrap remains tight while the arm configuration prevents them from posturing. Your body position should be angled toward the control side with hips off-center."
+      },
+      {
+        "step_number": 5,
+        "action": "Establish sweep angle",
+        "description": "Shift your hips underneath your opponent's base, loading your legs for sweep mechanics. The dual control makes it nearly impossible for them to post either their leg or arm to prevent the sweep."
+      },
+      {
+        "step_number": 6,
+        "action": "Threaten attack sequence",
+        "description": "From the completed ringworm configuration, cycle between sweep attempts and back take threats. When opponent bases against the sweep, pursue the back; when they defend the back take, complete the sweep. Maintain continuous pressure until one attack succeeds."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Early posture recovery and lapel strip before full configuration",
+        "effectiveness": "High",
+        "your_response": "If opponent postures before you complete the arm wrap, transition back to basic worm guard and wait for another posting opportunity rather than forcing the incomplete ringworm",
+        "targets_outcome": "Lapel Guard/Bottom"
+      },
+      {
+        "counter": "Backstep around the leg entanglement while freeing the arm",
+        "effectiveness": "Medium",
+        "your_response": "Follow their backstep rotation and pursue the back take aggressively—their movement actually opens the path to their back if you maintain lapel tension and hip follow",
+        "targets_outcome": "Half Guard/Bottom"
+      },
+      {
+        "counter": "Heavy forward pressure to smash through the configuration",
+        "effectiveness": "Medium",
+        "your_response": "Use their forward drive to load sweep mechanics—their pressure adds momentum to your sweep if you time the hip elevation with their weight commitment",
+        "targets_outcome": "Ringworm Guard/Bottom"
+      },
+      {
+        "counter": "Standing up explosively to create distance and reset",
+        "effectiveness": "Low",
+        "your_response": "Maintain grips and follow them up to standing, converting to technical standup sweeps or transitioning to single leg X-guard entries with the lapel still engaged",
+        "targets_outcome": "Lapel Guard/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Attempting arm wrap before worm guard leg entanglement is secure",
+        "consequence": "Opponent easily escapes the incomplete configuration and advances to passing position, as neither control point is strong enough independently",
+        "correction": "Always establish a solid worm guard foundation with full lapel tension on the leg before reaching for the arm—sequence discipline is essential"
+      },
+      {
+        "error": "Death-gripping the lapel fabric with excessive forearm tension",
+        "consequence": "Rapid forearm fatigue within 2-3 minutes causes both control points to fail simultaneously, leaving you in compromised guard position",
+        "correction": "Hook fingers through the lapel and use body positioning to maintain tension—let skeletal structure rather than muscles do the work"
+      },
+      {
+        "error": "Lying flat on back instead of maintaining angled hip position",
+        "consequence": "Reduced leverage on both control points and easier for opponent to drive through with pressure, negating the mechanical advantages of the configuration",
+        "correction": "Keep hips angled toward the entangled side with shoulder elevated, creating a wedge that multiplies control effectiveness"
+      },
+      {
+        "error": "Focusing on one attack option instead of cycling between threats",
+        "consequence": "Opponent can dedicate all defensive resources to stopping your single attack, eliminating the dilemma advantage that makes ringworm effective",
+        "correction": "Continuously transition between sweep and back take threats—if they defend one, immediately attack the other to maintain pressure"
+      },
+      {
+        "error": "Releasing leg control when reaching for the arm configuration",
+        "consequence": "Opponent recognizes the opening and steps their leg free, escaping the primary control point and reducing you to a compromised squid guard",
+        "correction": "Maintain constant leg tension throughout the arm capture process—use your legs to squeeze their knee while hands work the arm wrap"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Week 1-2",
+        "focus": "Worm guard foundation",
+        "description": "Drill basic worm guard entries and maintenance with focus on lapel feeding mechanics and leg entanglement. Partner provides no resistance. Establish muscle memory for the leg wrap before adding complexity."
+      },
+      {
+        "phase": "Week 3-4",
+        "focus": "Arm capture timing",
+        "description": "From established worm guard, practice capturing opponent's posting arm when they base against sweep threats. Partner provides light resistance and intentional posting reactions. Focus on reading when the arm becomes available."
+      },
+      {
+        "phase": "Week 5-6",
+        "focus": "Full configuration integration",
+        "description": "Combine leg entanglement and arm wrap into complete ringworm configuration. Partner provides moderate resistance to both control points. Practice maintaining dual tension and transitioning between sweep and back take threats."
+      },
+      {
+        "phase": "Week 7+",
+        "focus": "Live application and troubleshooting",
+        "description": "Apply ringworm guard in live rolling against training partners of various skill levels. Focus on entering the position from scrambles and other guard variations. Identify personal failure points and refine accordingly."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the primary goal of Ringworm Guard Entry?",
+        "answer": "The primary goal is to establish a dual-control configuration that simultaneously restricts the opponent's leg mobility through worm guard entanglement and their posting ability through squid guard arm wrap. This creates compounding dilemmas where defending one control point exposes the other, dramatically increasing sweep and back take success rates compared to simpler lapel guards."
+      },
+      {
+        "question": "What position do you start Ringworm Guard Entry from?",
+        "answer": "This technique starts from Lapel Guard with the opponent's lapel already extracted and in your control. Specifically, you should have basic worm guard established with the lapel fed behind their lead knee before attempting to add the arm configuration component."
+      },
+      {
+        "question": "What are the key grips needed for Ringworm Guard Entry?",
+        "answer": "You need a pistol grip or four-finger hook through the lapel fabric that wraps behind the opponent's knee, a sleeve or wrist grip on their posting arm, and ultimately the same lapel threaded around both the leg and arm. The grips should use structural hooks rather than muscular squeezing to preserve endurance."
+      },
+      {
+        "question": "How do you counter Ringworm Guard Entry?",
+        "answer": "The most effective counter is early posture recovery and lapel strip before the full configuration is established. Once ringworm is complete, backstep escapes become necessary but are less reliable. Prevention is significantly easier than escape, so address lapel extractions immediately rather than allowing configuration development."
+      },
+      {
+        "question": "When is the best time to attempt Ringworm Guard Entry?",
+        "answer": "Attempt ringworm entry when you have solid worm guard established and your opponent posts their hand to base against your sweep threats. Their posting reaction creates the opening for the arm capture. Don't force the entry—wait for the specific defensive reaction that exposes the arm."
+      },
+      {
+        "question": "Your opponent tries to backstep around your ringworm configuration—how do you adjust?",
+        "answer": "Follow their backstep rotation aggressively and pursue the back take. Their movement actually opens the path to their back if you maintain lapel tension and follow with your hips. Don't try to hold them in place—use their escape attempt as your entry to the superior position."
+      },
+      {
+        "question": "What is the critical sequencing requirement when establishing ringworm guard?",
+        "answer": "Always establish the worm guard leg entanglement first before adding the arm component. The leg wrap provides the foundation that prevents them from simply stepping away when you reach for the arm. Attempting the arm wrap first leaves both control points weak and easily escaped."
+      },
+      {
+        "question": "How do you maintain grip endurance during extended ringworm exchanges?",
+        "answer": "Use structural grips with fingers hooked through the lapel rather than muscular squeezing. Let body positioning maintain tension on the fabric—angle your hips toward the control side and use your entire body weight to load the configuration rather than relying on forearm strength alone."
+      },
+      {
+        "question": "Your opponent drives heavy forward pressure into your ringworm guard—what is the optimal response?",
+        "answer": "Use their forward momentum to load sweep mechanics. Their pressure actually adds power to your sweep if you time the hip elevation with their weight commitment. The dual control prevents them from posting either leg or arm to stop the sweep, so their aggression becomes your advantage."
+      },
+      {
+        "question": "What makes ringworm guard superior to basic worm guard in terms of game theory?",
+        "answer": "Ringworm creates compounding dilemmas that basic worm guard cannot. When opponent addresses the leg entanglement, the arm control deepens; when they try to free the arm, the leg wrap tightens. This forces them to solve multiple problems simultaneously rather than focusing defensive resources on a single control point."
+      }
+    ],
+    "safety_considerations": "Ringworm guard entry involves complex lapel configurations that create significant tension on joints and the gi fabric itself. Practice with controlled intensity to avoid shoulder strain from the arm wrap component. Ensure the gi is in good condition before drilling—worn lapels can tear under the stress of dual configurations. Communicate clearly with training partners about tension levels, as the compounding controls can quickly become uncomfortable. Avoid forcing the configuration against explosive resistance, as sudden movements while entangled can cause finger injuries or shoulder tweaks. When escaping ringworm, tap early if you feel joint pressure rather than fighting through compromised positions."
+  },
+  "defender": {
+    "name": "Ringworm Guard Entry Defender",
+    "description": "How to defend against Ringworm Guard Entry in BJJ. Recognition cues, defensive options, and escape strategies.",
+    "overview": "Defending against Ringworm Guard Entry requires understanding that this is a two-phase attack—the worm guard leg entanglement followed by the squid guard arm capture—and that your defensive window narrows dramatically once the second phase completes. The top player must recognize the transition from basic worm guard to ringworm early and act decisively during the configuration window rather than waiting until dual control is established.\n\nThe fundamental defensive principle is prevention over escape. Stripping the lapel grip or recovering posture before the arm wrap completes is exponentially easier than escaping a fully locked ringworm configuration. Once both control points are established, the bottom player creates compounding dilemmas where every escape attempt from one entanglement deepens the other. The top player must maintain constant awareness of their posting arm exposure and avoid giving the bottom player the reaction they need to initiate the arm capture.\n\nWhen caught in a developing ringworm entry, the defender should prioritize addressing the weaker control point first. If the arm wrap is still incomplete, strip it immediately before it consolidates. If the leg entanglement is looser, backstep or stand to create extraction angles. The worst response is passivity—allowing the bottom player time to adjust tension and establish optimal angles for their sweep and back take threats.",
+    "key_principles": [
+      "Prevent the second phase of configuration—address the arm capture attempt before it consolidates into full ringworm",
+      "Maintain strong posture and base to deny the bottom player the reactions they need to initiate the arm wrap",
+      "Keep posting arm retracted and tight to your body when you sense worm guard is established to deny the capture opportunity",
+      "Act with urgency during the transition window between worm guard and ringworm—passivity allows consolidation",
+      "Address the weaker control point first when partially caught, stripping the incomplete entanglement before it tightens",
+      "Use controlled backstep or standing movements rather than explosive jerking that can be redirected into sweeps"
+    ],
+    "recognition_cues": [
+      "Bottom player has worm guard established with lapel behind your knee and begins reaching for your posting arm or sleeve with their free hand",
+      "You feel the lapel fabric being redirected from solely around your leg upward toward your arm or bicep area while the bottom player adjusts their hip angle",
+      "Bottom player shifts from threatening worm guard sweeps to pulling your arm across their centerline, indicating they want to capture it for the ringworm configuration",
+      "Your posting arm feels increasingly restricted as the lapel fabric begins threading over your bicep or under your armpit from the existing leg wrap"
+    ],
+    "defensive_options": [
+      {
+        "action": "Strip the lapel grip and recover posture before the arm wrap completes",
+        "when_to_use": "Early in the entry when bottom player is still threading lapel from leg to arm—the configuration is weakest during this transition",
+        "targets_outcome": "Lapel Guard/Bottom",
+        "if_successful": "Reset to basic lapel guard defense where you face a single control point rather than dual entanglement",
+        "risk": "If you fail to strip the grip cleanly, reaching for the lapel with both hands can expose your arm further to the capture"
+      },
+      {
+        "action": "Backstep around the leg entanglement while keeping arm tight to body",
+        "when_to_use": "When worm guard is established but the arm capture has not begun or is in early stages—use your footwork to change the angle",
+        "targets_outcome": "Half Guard/Bottom",
+        "if_successful": "You clear the lapel entanglement and end up in a passing position with the opponent in half guard or open guard",
+        "risk": "If you backstep without maintaining defensive posture, the bottom player can follow your rotation and take your back"
+      },
+      {
+        "action": "Stand up explosively and create distance to reset the engagement",
+        "when_to_use": "When both grips are partially established but not yet consolidated—standing changes the angles and reduces lapel tension effectiveness",
+        "targets_outcome": "Lapel Guard/Bottom",
+        "if_successful": "Distance creation resets to standing guard passing where ringworm configuration is much harder to maintain",
+        "risk": "Bottom player may follow you up and convert to technical standup sweeps or maintain enough tension to pull you back down"
+      },
+      {
+        "action": "Drive heavy forward pressure to collapse the bottom player's structure before configuration completes",
+        "when_to_use": "When the bottom player is still on their back adjusting the lapel threading and hasn't established their angled hip position yet",
+        "targets_outcome": "Half Guard/Bottom",
+        "if_successful": "Smashing the bottom player flat eliminates the angles needed for ringworm mechanics and can lead to a half guard pass",
+        "risk": "If the bottom player has already loaded sweep mechanics, your forward pressure adds momentum to their sweep"
+      },
+      {
+        "action": "Retract posting arm and establish collar grip to control distance and prevent arm capture",
+        "when_to_use": "When you recognize the bottom player shifting from worm guard attacks to reaching for your posting arm—proactive arm protection",
+        "targets_outcome": "Lapel Guard/Bottom",
+        "if_successful": "Denies the arm capture that converts worm guard to ringworm, keeping the fight in single-control-point territory",
+        "risk": "Retracting your arm reduces your base and posting ability, potentially making you vulnerable to basic worm guard sweeps"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Lapel Guard/Bottom",
+        "how": "Strip the lapel grip or recover posture before the arm wrap consolidates. Use both hands to peel the lapel fabric from your arm while maintaining heavy hip pressure. Alternatively, stand up to change the angle and reduce the effectiveness of the lapel tension. The goal is to reduce the configuration back to basic worm guard or reset entirely."
+      },
+      {
+        "outcome": "Half Guard/Bottom",
+        "how": "Execute a backstep around the leg entanglement, using the rotation to clear the lapel wrap from your leg while keeping your arm tight. Drive your shoulder pressure through the backstep to prevent the bottom player from following your movement. Even if you don't clear the lapel completely, the angle change often results in a half guard position where you have significant passing advantages."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Ignoring the arm capture attempt and continuing to base with the posting hand exposed",
+        "consequence": "Bottom player secures the full ringworm configuration with both leg and arm entangled, creating compounding dilemmas that are extremely difficult to escape once consolidated",
+        "correction": "Retract your posting arm immediately when you sense the bottom player reaching for it from worm guard—tuck your elbow tight and establish a collar grip instead of posting on the mat"
+      },
+      {
+        "error": "Attempting explosive jerking movements to rip free from the lapel wrap",
+        "consequence": "Explosive energy is redirected by the lapel configuration into sweeping momentum, often resulting in dramatic position reversal as your own force is used against you",
+        "correction": "Use controlled, methodical movements to address the lapel configuration—systematic grip breaking and gradual pressure changes rather than explosive yanking"
+      },
+      {
+        "error": "Remaining passive and waiting for the bottom player to finish establishing the configuration",
+        "consequence": "Every second of inaction allows the bottom player to adjust tension, establish optimal angles, and lock in both control points, reducing your escape probability significantly",
+        "correction": "Act with urgency during the configuration window—the moment you recognize worm guard transitioning to ringworm, immediately address the developing arm capture before it consolidates"
+      },
+      {
+        "error": "Using only one hand to fight the lapel grip while leaving the other arm dangling",
+        "consequence": "The free arm becomes an easy target for the arm capture, and single-hand grip fighting rarely generates enough force to break established lapel configurations",
+        "correction": "Commit both hands to the grip-breaking sequence when necessary, prioritizing the lapel strip over other controls temporarily to prevent the more dangerous dual configuration"
+      },
+      {
+        "error": "Turning your back toward the opponent during escape attempts",
+        "consequence": "Exposes your back for immediate back take, which is the highest-percentage attack from ringworm guard and results in one of the worst possible positions",
+        "correction": "Keep your chest facing the opponent throughout all escape attempts—square your shoulders and maintain visual contact, even during backstep movements"
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the most critical defensive window when facing Ringworm Guard Entry?",
+        "answer": "The most critical defensive window is during the transition from worm guard to ringworm—specifically when the bottom player begins redirecting the lapel from your leg toward your arm. Once both control points are established, escape difficulty increases dramatically. Acting during this configuration window before the arm wrap consolidates is exponentially easier than escaping the completed position."
+      },
+      {
+        "question": "Your opponent has worm guard and reaches for your posting arm—what is your immediate response?",
+        "answer": "Immediately retract your posting arm, tucking your elbow tight to your body and establishing a collar grip instead of posting on the mat. This denies the arm capture that converts basic worm guard into the far more dangerous ringworm configuration. Accept the temporary reduction in base to prevent the dual entanglement."
+      },
+      {
+        "question": "Why is explosive movement particularly dangerous when caught in a developing ringworm configuration?",
+        "answer": "The lapel wrap acts as a lever that converts explosive energy into sweeping momentum. Sudden jerking or pulling movements are redirected through the fabric into off-balancing forces that the bottom player can exploit for sweeps. Controlled, methodical movement preserves your base and prevents your own energy from being weaponized against you through the configuration."
+      },
+      {
+        "question": "What visual and tactile cues indicate your opponent is transitioning from worm guard to ringworm?",
+        "answer": "You will feel the lapel fabric being redirected upward from your leg toward your arm or bicep area. Visually, the bottom player shifts their free hand from threatening sweeps to reaching for your sleeve or wrist. Their hip angle changes as they adjust position to thread the lapel around your arm. The lapel tension on your leg may momentarily decrease as they reroute the fabric."
+      },
+      {
+        "question": "Your opponent has completed the ringworm configuration with both leg and arm trapped—what is your best escape strategy?",
+        "answer": "Identify which control point is weaker and address it first. Typically the arm wrap is newer and less consolidated than the leg entanglement. Work to strip the arm portion using both hands while maintaining heavy hip pressure to prevent sweep loading. If the arm wrap is too deep, backstep around the leg entanglement while keeping shoulders square to prevent back exposure. Accept half guard as a favorable outcome rather than fighting for full reset."
+      },
+      {
+        "question": "How does your weight distribution need to change when defending against ringworm entry compared to standard worm guard?",
+        "answer": "Against standard worm guard, you can distribute weight forward to pressure and work extraction. Against developing ringworm, you must keep weight slightly back and centered to avoid committing forward momentum that feeds into sweep mechanics. Keep your center of gravity over your free leg rather than the trapped leg, and avoid leaning into the arm capture side where your weight aids the bottom player's configuration."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Week 1-2",
+        "focus": "Recognition and early prevention",
+        "description": "Partner establishes worm guard and slowly transitions toward ringworm. Practice identifying the moment the arm capture begins and immediately retracting the posting arm. No live resistance—focus purely on reading the cues and developing the prevention reflex before the configuration completes."
+      },
+      {
+        "phase": "Week 3-4",
+        "focus": "Grip stripping and posture recovery",
+        "description": "Partner establishes partial ringworm with one control point solid and the other developing. Practice systematic grip breaking sequences to strip the weaker entanglement. Partner provides moderate resistance. Focus on using both hands efficiently and maintaining base throughout the grip fighting exchange."
+      },
+      {
+        "phase": "Week 5-6",
+        "focus": "Escape from completed configuration",
+        "description": "Partner establishes full ringworm with both control points consolidated. Practice backstep escapes, standing extraction, and pressure-based escapes against increasing resistance. Develop the ability to identify which control point to address first and chain escape attempts when the initial effort is blocked."
+      },
+      {
+        "phase": "Week 7+",
+        "focus": "Live defensive sparring",
+        "description": "Positional sparring starting from worm guard with partner actively working toward ringworm. Defend the entry in real time against full resistance. Track success rates at preventing the configuration versus escaping after establishment. Refine personal defensive game plan based on patterns identified in live training."
+      }
+    ]
+  },
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Reverse Ringworm Entry",
+      "description": "Enter ringworm configuration from squid guard first rather than worm guard. Capture the arm and establish that control, then thread the lapel down to their leg. Useful when opponent gives you the arm before the leg.",
+      "when_to_use": "When opponent posts their arm early but keeps their lead leg mobile and difficult to entangle"
+    },
+    {
+      "variant_name": "Deep Ringworm with Collar Grip",
+      "description": "Add a cross-collar grip with your free hand after establishing the basic ringworm configuration. This creates a third control point and opens direct choke threats from the position.",
+      "when_to_use": "Against opponents who accept the ringworm position and try to wait you out rather than actively escaping"
+    },
+    {
+      "variant_name": "Half-Ringworm Transition",
+      "description": "Use a partial ringworm setup where the lapel wraps the arm but only touches the leg rather than fully entangling it. Lower commitment but faster to establish.",
+      "when_to_use": "During fast-paced exchanges where there's insufficient time for full configuration but you want more control than basic squid guard"
+    }
+  ],
+  "conditions": [
+    "Opponent's gi lapel has been extracted and is in your control",
+    "Worm guard leg entanglement is secure with tension on the lapel behind opponent's knee",
+    "Opponent's posting arm is within reach and exposed from basing against sweep threats",
+    "Your hip angle is established toward the control side with sufficient mobility to thread the lapel"
+  ],
+  "position_integration": "Ringworm Guard Entry fits into the modern gi guard ecosystem as an advanced evolution of the lapel guard system. It serves as an endgame configuration that practitioners transition into from simpler positions like basic worm guard or squid guard once they've identified optimal attack angles. The position connects to the broader lapel guard network including spider guard and lasso guard transitions for recovery options. Successful ringworm establishment typically leads to either back takes or dominant sweeps, making it a high-value destination position worth the investment of establishing the complex configuration. The technique represents the culmination of lapel-based guard development and is particularly effective in gi competition where grips are durable and opponents cannot simply slip free."
+}

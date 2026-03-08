@@ -17,7 +17,7 @@ OUTPUT_PASSED="tests/artifacts/all_content_validated_and_ready_to_hook.txt"
 
 echo "Counting files..."
 # Count total files first
-total=$(find source/content/{Positions,Transitions,Submissions,Principles,Systems} -name "*.json" | grep -v TEMPLATE | wc -l | xargs)
+total=$(find content/{Positions,Transitions,Submissions,Principles,Systems} -name "*.json" | grep -v TEMPLATE | wc -l | xargs)
 echo "Found $total files to validate"
 echo ""
 
@@ -30,7 +30,7 @@ echo ""
 
 # Build file list first
 TEMP_FILELIST="/tmp/filelist_$$.txt"
-find source/content/{Positions,Transitions,Submissions,Principles,Systems} -name "*.json" | grep -v TEMPLATE | sort > "$TEMP_FILELIST"
+find content/{Positions,Transitions,Submissions,Principles,Systems} -name "*.json" | grep -v TEMPLATE | sort > "$TEMP_FILELIST"
 
 # Validate all files
 current=0

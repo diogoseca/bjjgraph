@@ -1,0 +1,395 @@
+{
+  "name": "Dogfight Sweep",
+  "description": "Master the Dogfight Sweep in BJJ. Complete guide to this underhook-driven half guard sweep with far leg control, execution steps, and defensive counters.",
+  "tags": [
+    "bjj",
+    "transition",
+    "sweep",
+    "half-guard",
+    "dogfight",
+    "underhook",
+    "positional-advancement",
+    "side-control"
+  ],
+  "from_position": "Dogfight Position/Bottom",
+  "outcomes": [
+    {
+      "to": "Side Control/Top",
+      "probability": 55,
+      "result": "success"
+    },
+    {
+      "to": "Dogfight Position/Bottom",
+      "probability": 30,
+      "result": "failure"
+    },
+    {
+      "to": "Flattened Half Guard/Bottom",
+      "probability": 15,
+      "result": "counter"
+    }
+  ],
+  "success_rate": 55,
+  "overview": "The Dogfight Sweep is the primary sweep from the Dogfight Position, executed when the bottom half guard player has established a deep underhook and risen to their knees. The technique exploits a fundamental mechanical principle: by controlling the opponent's far leg while simultaneously driving forward with underhook pressure, you eliminate their ability to post and resist the lateral force applied to their upper body. The opponent is toppled over their trapped leg into an unrecoverable position, landing the sweeper directly into side control.\n\nStrategically, the Dogfight Sweep is the anchor technique of the Dogfight attacking system. Its primary value extends beyond the sweep itself—the threat of far leg control forces opponents to make defensive choices that expose them to other attacks. If they pull their far leg back to prevent the sweep, their back becomes vulnerable. If they whizzer heavily to stop the underhook drive, they become susceptible to forward pressure sweeps or deep half guard entries. This dilemma-based framework is what makes the Dogfight position one of the most dangerous configurations in modern half guard play.\n\nThe sweep scales effectively across skill levels. Beginners can succeed with raw forward pressure and grip strength. Advanced practitioners refine the timing to execute during weight transitions, reading when the opponent shifts their base and attacking the precise moment their far leg becomes load-bearing. The mechanical simplicity combined with strategic depth makes this sweep essential for any competitive half guard practitioner.",
+  "conditions": [
+    "Bottom player has established deep underhook reaching to opponent's far lat or shoulder blade",
+    "Both players are elevated to kneeling positions in Dogfight configuration",
+    "Bottom player's inside leg remains trapped in half guard between opponent's legs",
+    "Bottom player maintains head position at or above opponent's head level with forward pressure",
+    "Opponent's far leg is within reaching distance for grip control with free hand"
+  ],
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Far Knee Tap Sweep",
+      "description": "Instead of gripping behind the far knee with a sustained hold, the sweeper uses a quick tap-and-redirect on the opponent's far knee, pushing it laterally while driving forward with the underhook. This version requires less grip commitment and works well against opponents who actively retract their far leg.",
+      "when_to_use": "When the opponent keeps their far leg mobile and retracts quickly, making a sustained grip difficult to establish"
+    },
+    {
+      "variant_name": "Hip Limp Sweep",
+      "description": "The underhook arm reaches deeper to control the opponent's far hip directly rather than relying on the free hand for far leg control. The sweeper uses the underhook to scoop under the opponent's hip while driving forward, creating a lifting-and-dumping motion that topples the opponent over their trapped side. This variation keeps both control points on the same side of the body.",
+      "when_to_use": "When the underhook is extremely deep and the opponent is defending far leg grips by posting wide or pulling their leg back"
+    },
+    {
+      "variant_name": "No-Gi Collar Tie Variation",
+      "description": "In no-gi situations where the underhook may be slippery, the sweeper reinforces their drive by establishing a collar tie or head snap with their free hand before reaching for the far leg. The collar tie pulls the opponent's posture forward, loading their weight onto the sweeper's underhook side, then the free hand releases to grab the far leg for the sweep completion.",
+      "when_to_use": "In no-gi grappling when underhook control is less secure due to sweat, or when the opponent has strong whizzer defense that requires additional off-balancing before the far leg grab"
+    }
+  ],
+  "position_integration": "The Dogfight Sweep is the central technique of the Dogfight Position attacking system within the half guard hierarchy. It connects the bottom player's guard recovery sequence—establishing an underhook and rising to knees from flat half guard—to top position achievement through side control. The sweep creates an essential dilemma network with back takes and forward drive sweeps, where defending one attack opens vulnerability to another. This makes the Dogfight Sweep the cornerstone that elevates half guard from a defensive survival position to a proactive offensive platform, particularly in no-gi grappling where underhook battles define positional exchanges. Mastery of this sweep is prerequisite for developing a complete Dogfight game.",
+  "related_content": [
+    {
+      "name": "Dogfight Position",
+      "relationship": "Source position from which this sweep is executed; the bottom player must establish the Dogfight configuration before attempting the sweep"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Parent guard system; the Dogfight Position arises from successful half guard recovery and underhook establishment"
+    },
+    {
+      "name": "Side Control",
+      "relationship": "Primary target position achieved upon successful sweep completion"
+    },
+    {
+      "name": "Flattened Half Guard",
+      "relationship": "Counter outcome position when opponent successfully defends with whizzer and crossface pressure to flatten the sweeper"
+    },
+    {
+      "name": "Back Control",
+      "relationship": "Alternative attack target when opponent defends sweep by retracting far leg, exposing their back"
+    },
+    {
+      "name": "Deep Half Guard",
+      "relationship": "Alternative transition when opponent applies heavy forward pressure that prevents the sweep drive"
+    },
+    {
+      "name": "Forward Drive Sweep from Dogfight",
+      "relationship": "Complementary sweep from same position that chains with Dogfight Sweep when opponent defends the far leg grip"
+    },
+    {
+      "name": "Underhook Sweep from Dogfight",
+      "relationship": "Alternative sweep variation using underhook leverage without far leg control"
+    },
+    {
+      "name": "Back Take",
+      "relationship": "Primary chain attack when opponent over-defends the sweep by pulling hips away"
+    },
+    {
+      "name": "Crossface from Dogfight",
+      "relationship": "Defender's primary counter technique using crossface pressure to shut down the sweep drive"
+    }
+  ],
+  "attacker": {
+    "name": "Dogfight Sweep Attacker",
+    "description": "Complete attacking guide for the Dogfight Sweep. Step-by-step execution of underhook drive and far leg control to achieve side control from the Dogfight Position.",
+    "overview": "The Dogfight Sweep attacker is the bottom half guard player who has successfully elevated to the kneeling Dogfight Position with a deep underhook established. From this position, the attacker uses forward driving pressure combined with far leg control to topple the opponent and achieve side control. The sweep requires precise coordination between the underhook drive and the far leg grab, as executing these simultaneously creates a mechanical lever the opponent cannot resist. Success depends on maintaining constant forward pressure, eliminating the opponent's posting options, and following through completely to consolidate the top position. The attacker must also be prepared to chain to back takes or alternative sweeps when the opponent defends the primary Dogfight Sweep attempt, making the sweep threat a gateway to the entire Dogfight attacking system.",
+    "key_principles": [
+      "Drive forward relentlessly through the underhook—the sweep is powered by leg drive and hip pressure, not arm pulling",
+      "Control the opponent's far leg or knee before committing to the sweep to eliminate their primary posting base",
+      "Coordinate the underhook drive and far leg grip as a simultaneous action rather than sequential steps",
+      "Maintain head pressure into the opponent's chest or shoulder throughout the sweep to prevent them from recovering posture",
+      "Follow through completely after toppling the opponent—do not stop driving until you have cleared your trapped leg and settled into side control",
+      "Read weight distribution to time the sweep when the opponent loads their far leg, making it the perfect moment to remove that post"
+    ],
+    "setup_requirements": [
+      "Deep underhook established with hand reaching to opponent's far lat or shoulder blade, providing maximum leverage for the forward drive",
+      "Head positioned at or above opponent's head level, pressed firmly into their chest or shoulder on the underhook side",
+      "Inside leg maintaining half guard entanglement to prevent opponent from freely adjusting their base or disengaging",
+      "Outside leg posted with knee and foot ready to generate forward driving power through the sweep",
+      "Forward pressure already established through underhook and head, loading the opponent's base before reaching for the far leg"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Confirm underhook depth and head position",
+        "description": "Before initiating the sweep, verify your underhook reaches to the opponent's far lat or shoulder blade and your head is driving into their chest on the underhook side. A shallow underhook that only reaches the near hip will lack the leverage needed. Adjust by scooting your knees closer and re-pummeling deeper if necessary."
+      },
+      {
+        "step_number": 2,
+        "action": "Establish forward driving pressure",
+        "description": "Begin loading the opponent's base by driving forward through your underhook and head. Push off your outside posted leg to generate hip-level pressure that forces the opponent to widen their base or post their far leg to maintain balance. This preparatory pressure is essential because it makes the far leg load-bearing before you remove it."
+      },
+      {
+        "step_number": 3,
+        "action": "Reach for the far leg control",
+        "description": "With your free hand (non-underhook side), reach across and grip behind the opponent's far knee or grab their far thigh. The grip should be firm enough to control the leg's position but does not need crushing strength. Cupping behind the knee is the highest-percentage grip as it allows you to both block the post and redirect the leg."
+      },
+      {
+        "step_number": 4,
+        "action": "Block the far leg post and drive laterally",
+        "description": "Simultaneously pull the opponent's far leg toward you with your grip hand while driving your shoulder and underhook forward and laterally across their body. The direction of force is diagonal—forward and toward the side of their controlled leg. This removes their posting ability while your body mass drives them off balance in the direction they cannot resist."
+      },
+      {
+        "step_number": 5,
+        "action": "Topple the opponent and follow through",
+        "description": "As the opponent begins falling, maintain your underhook connection and continue driving forward over them. Do not release the far leg grip until they are fully on their back. Your momentum should carry you over their body as they fall, placing you in a natural chest-to-chest position on top. Keep your head low and your weight committed forward throughout the entire toppling motion."
+      },
+      {
+        "step_number": 6,
+        "action": "Clear the trapped leg",
+        "description": "Once on top with the opponent on their back, immediately work to extract your previously trapped inside leg from the half guard entanglement. Use a knee slide or hip switch motion to free your leg while maintaining heavy chest pressure on the opponent. Do not lift your weight to free the leg—keep pressure constant and use technique to extract it."
+      },
+      {
+        "step_number": 7,
+        "action": "Consolidate side control",
+        "description": "Establish crossface control with your near arm driving across the opponent's neck and face, and use your far arm to block their hip or underhook their far arm. Settle your hips low and heavy against theirs, sprawl your legs back for base, and distribute your weight perpendicularly across their torso. Prevent immediate guard recovery by maintaining constant pressure."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Opponent applies heavy whizzer and drives forward to flatten the sweeper back to the mat",
+        "effectiveness": "High",
+        "your_response": "If the whizzer pressure is overwhelming, redirect by ducking under into deep half guard where the whizzer becomes a liability. Alternatively, release the far leg grip momentarily to re-pummel the underhook deeper, then reattempt with improved leverage.",
+        "targets_outcome": "Flattened Half Guard/Bottom"
+      },
+      {
+        "counter": "Opponent retracts far leg and pulls hips back to deny the grip",
+        "effectiveness": "Medium",
+        "your_response": "When the opponent pulls their far leg back, their back becomes exposed. Immediately transition to a back take by deepening the underhook, driving your chest into their back, and working to establish seatbelt or harness control as they turn away.",
+        "targets_outcome": "Dogfight Position/Bottom"
+      },
+      {
+        "counter": "Opponent crossfaces aggressively and sprawls their hips back to create distance",
+        "effectiveness": "High",
+        "your_response": "Against strong crossface and sprawl, maintain your underhook at all costs and angle your body offline to redirect the crossface pressure past your head. If you cannot maintain the dogfight posture, drop to deep half guard or reset to knee shield half guard to preserve your guard.",
+        "targets_outcome": "Flattened Half Guard/Bottom"
+      },
+      {
+        "counter": "Opponent sits through to a hip switch position, changing the angle of engagement",
+        "effectiveness": "Medium",
+        "your_response": "Follow the opponent's hip switch by adjusting your own angle. If they switch to face the other direction, your underhook may transition to a body lock grip. Chase their hips with forward pressure and look for the far leg on the new angle or transition to a forward drive sweep.",
+        "targets_outcome": "Dogfight Position/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Reaching for the far leg before establishing forward pressure through the underhook",
+        "consequence": "The opponent easily posts their far leg to base out and the reaching arm is extended away from your body, weakening your overall structure and potentially exposing you to a whizzer counter-attack",
+        "correction": "Always establish forward driving pressure first through underhook and head position before reaching for the far leg. The opponent should already be loaded onto their far leg before you attempt to remove that post."
+      },
+      {
+        "error": "Allowing the underhook to become shallow during the sweep attempt",
+        "consequence": "Shallow underhook provides insufficient leverage to topple the opponent. The sweep stalls mid-execution, the opponent strips the underhook with their whizzer, and you are flattened back to half guard bottom.",
+        "correction": "Fight to maintain underhook depth throughout the entire sweep sequence. If the underhook is being stripped, prioritize re-pummeling deeper before continuing the sweep rather than forcing it with inadequate leverage."
+      },
+      {
+        "error": "Driving straight forward instead of diagonally across the opponent's body",
+        "consequence": "A straight forward drive allows the opponent to absorb the force by simply posting both legs back. The sweep attempt becomes a stalling push that wastes energy without creating off-balance.",
+        "correction": "Direct the sweep force diagonally—forward and toward the side of the controlled far leg. This angulated force creates a rotational off-balance that the opponent cannot resist with symmetrical posting."
+      },
+      {
+        "error": "Releasing the far leg grip too early before the opponent is fully toppled",
+        "consequence": "The opponent recovers their posting base mid-sweep, stops the topple, and may counter with a crossface or whizzer to flatten you. The sweep momentum is wasted and the position resets at best.",
+        "correction": "Maintain the far leg grip until the opponent's back is completely on the mat and you are already transitioning to the top position. Only release when you need that hand for side control consolidation."
+      },
+      {
+        "error": "Stopping the forward drive once the opponent begins to fall instead of following through",
+        "consequence": "The opponent lands on their back but you remain on your knees with space between you, allowing them to immediately recover guard with knee shields or frames before you can consolidate.",
+        "correction": "Follow through completely by driving your body weight over the falling opponent. Your chest should land on their torso as they hit the mat, giving you immediate top pressure and preventing any guard recovery attempt."
+      },
+      {
+        "error": "Lifting hips and weight off the opponent while trying to clear the trapped leg after the sweep",
+        "consequence": "Creating space during leg extraction allows the opponent to insert a knee shield, recover half guard, or even reguard entirely, negating the sweep you just completed",
+        "correction": "Keep your chest heavy and hips low while clearing the trapped leg. Use a knee slide or hip switch motion to extract the leg without lifting your weight. Maintain constant pressure during the consolidation phase."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Mechanics",
+        "focus": "Isolating the sweep motion without resistance",
+        "description": "Practice the complete sweep sequence with a fully cooperative partner. Focus on underhook depth, far leg grip placement, diagonal drive direction, and follow-through to side control. Perform 20 repetitions per side, emphasizing smooth coordination between the underhook drive and far leg control. Partner provides zero resistance."
+      },
+      {
+        "phase": "Phase 2: Timing and Sensitivity",
+        "focus": "Reading weight distribution and selecting optimal timing",
+        "description": "Partner provides moderate resistance with whizzer and crossface but allows the sweep when timing is correct. Sweeper practices reading when the opponent loads their far leg (the optimal moment to attack) versus when they shift weight to the near leg (when the sweep will fail). Develop tactile sensitivity to weight distribution changes through underhook contact."
+      },
+      {
+        "phase": "Phase 3: Chain Attacks",
+        "focus": "Combining Dogfight Sweep with back takes and alternative sweeps",
+        "description": "Partner defends the Dogfight Sweep with realistic counters. When the far leg grip is denied, immediately chain to back take attempts. When the whizzer shuts down the drive, transition to deep half guard entry or forward drive sweep. Practice flowing between three to four techniques without pausing between failed attempts. Build automatic chain reactions."
+      },
+      {
+        "phase": "Phase 4: Positional Sparring",
+        "focus": "Full resistance application from Dogfight starting position",
+        "description": "Start in Dogfight with full resistance. Bottom player attempts sweeps, back takes, and transitions while top player defends and counter-attacks. Two-minute rounds with reset to Dogfight after each position change. Track sweep success rate and adjust technique based on common failure patterns identified during live training."
+      },
+      {
+        "phase": "Phase 5: Competition Integration",
+        "focus": "Incorporating the sweep into full rolling and match scenarios",
+        "description": "During regular sparring, deliberately seek the Dogfight Position from half guard and execute the sweep under full competition conditions. Track how often you reach Dogfight, how often the sweep succeeds, and what defenses opponents use. Refine approach based on recurring patterns across multiple training partners with different body types and defensive styles."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the critical grip that makes the Dogfight Sweep mechanically inevitable when combined with underhook pressure?",
+        "answer": "The grip behind the opponent's far knee or thigh is the critical element. This grip removes the opponent's primary posting base—their far leg—which is the only structure preventing them from being toppled by the underhook drive. Without this post, the opponent has no way to resist the diagonal force being applied through the underhook and head pressure. The grip should cup behind the knee for maximum control over the leg's position."
+      },
+      {
+        "question": "What direction should force be applied during the Dogfight Sweep execution?",
+        "answer": "Force must be applied diagonally—forward and toward the side of the opponent's controlled far leg. A straight forward push is easily absorbed by symmetrical posting, but a diagonal drive creates a rotational off-balance that cannot be countered once the far leg post is removed. Think of driving your shoulder toward the spot on the mat where the opponent's far hip will land, not straight through their centerline."
+      },
+      {
+        "question": "Your opponent posts their far leg wide and actively retracts it when you reach for the grip—how do you adjust?",
+        "answer": "When the opponent retracts their far leg to deny the grip, their hips must turn away from you, exposing their back. This is the primary chain attack opportunity. Immediately abandon the far leg grip attempt and transition to a back take by deepening your underhook, driving your chest into their turning back, and working for seatbelt control. The sweep threat creates the back take opportunity, and vice versa—this dilemma is what makes the Dogfight system so effective."
+      },
+      {
+        "question": "What are the entry requirements that must exist before attempting the Dogfight Sweep?",
+        "answer": "Five conditions must exist: a deep underhook reaching the opponent's far lat or shoulder blade, head position at or above the opponent's head level with forward pressure, inside leg still entangled in half guard to anchor your position, outside leg posted for driving power, and forward pressure already loading the opponent's base before reaching for the far leg. Attempting the sweep without any of these conditions dramatically reduces success probability."
+      },
+      {
+        "question": "Your Dogfight Sweep attempt stalls because the opponent applies a heavy whizzer—what is your immediate chain attack?",
+        "answer": "A heavy whizzer means the opponent is committing significant energy and weight to controlling your underhook arm. This creates two immediate chain opportunities: first, duck under the whizzer pressure and enter deep half guard where the whizzer becomes a structural disadvantage for the opponent; second, use the whizzer pressure against them by redirecting to a forward drive sweep that exploits their committed weight. Never fight a strong whizzer head-on—redirect the force into your next technique."
+      },
+      {
+        "question": "When is the optimal timing window to initiate the far leg grab during the Dogfight Sweep?",
+        "answer": "The optimal timing window is when the opponent loads weight onto their far leg, typically during their attempt to apply crossface pressure or when they push back against your forward drive. At this moment their far leg is load-bearing and cannot be easily retracted. Initiating the grab when the opponent is shifting weight to their near side or adjusting grips means the far leg is light and easily moved away, resulting in a failed grip attempt and lost offensive momentum."
+      },
+      {
+        "question": "What specific grip on the far leg provides the highest percentage of sweep completion?",
+        "answer": "Cupping behind the far knee with your palm on the back of the kneecap area provides the best combination of control and mechanical advantage. This grip allows you to both block the leg from posting backward and redirect it laterally toward you. Gripping the pant leg at the ankle provides distance but less control. Gripping the thigh muscle is strong but can slip in no-gi. The behind-the-knee cup is effective in both gi and no-gi and allows precise control of the leg's trajectory during the sweep."
+      }
+    ],
+    "safety_considerations": "The Dogfight Sweep is a relatively low-risk technique with no direct joint manipulation or choking pressure. Primary injury concerns involve knee strain on the trapped inside leg during explosive sweep attempts, particularly if the leg is twisted as both players topple. Shoulder strain can occur from deep underhook positioning under heavy whizzer pressure. Both partners should communicate immediately if knee or shoulder discomfort occurs during drilling. The sweeper should avoid jerking motions when controlling the far leg to prevent knee hyperextension on the opponent. During training, follow through smoothly rather than explosively to allow the partner to fall safely and breakfall properly."
+  },
+  "defender": {
+    "name": "Dogfight Sweep Defender",
+    "description": "Defensive guide against the Dogfight Sweep. Recognition cues, whizzer defense, crossface counters, and strategies to flatten or counter the sweep attempt.",
+    "overview": "The Dogfight Sweep defender is the top half guard player facing an opponent who has risen to the kneeling Dogfight Position with an established underhook. The primary defensive challenge is preventing the opponent from simultaneously controlling your far leg and driving forward with underhook pressure. Effective defense requires active whizzer control to neutralize the underhook, strategic far leg positioning to deny the critical grip, and the ability to apply crossface pressure to flatten the sweeper back to the mat. Recognizing the sweep attempt early through tactile cues is essential, as the technique becomes extremely difficult to stop once the far leg grip is established and forward momentum is generated. The best defenders do not merely prevent the sweep but use their defensive actions to create passing opportunities.",
+    "key_principles": [
+      "Maintain an active whizzer at all times in Dogfight to neutralize the underhook's leverage and prevent the forward drive that powers the sweep",
+      "Keep your far leg retracted and positioned close to your body rather than posted wide where it becomes an easy target for the grip",
+      "Apply crossface pressure to control the sweeper's head position and drive them backward, preventing the forward posture they need",
+      "Sprawl your hips back when you feel the sweep initiated to remove the angle and distance needed for the toppling motion",
+      "Flatten the opponent back to half guard bottom whenever possible rather than merely defending the sweep attempt in the Dogfight position",
+      "Read the sweeper's free hand—when it leaves its posting position to reach for your far leg, the sweep is imminent and you must react immediately"
+    ],
+    "recognition_cues": [
+      "Opponent's free hand (non-underhook side) releases from its posting position and reaches across your body toward your far knee or thigh",
+      "Increased forward driving pressure through the underhook combined with head pressure intensifying against your chest or shoulder",
+      "Opponent's outside leg repositions to generate more forward driving power, shifting from a stable post to a pushing platform",
+      "Subtle weight shift as the opponent loads their drive, often preceded by a slight hip adjustment or knee walk to close distance before committing"
+    ],
+    "defensive_options": [
+      {
+        "action": "Heavy whizzer with hip sprawl to flatten the sweeper backward",
+        "when_to_use": "As soon as you feel increased forward pressure and the free hand reaching for your far leg, apply maximum downward whizzer force while sprawling your hips back",
+        "targets_outcome": "Flattened Half Guard/Bottom",
+        "if_successful": "The sweeper is driven back to flat half guard bottom, losing their elevated posture and all offensive momentum from the Dogfight position",
+        "risk": "Over-committing to the whizzer can expose your back if the sweeper redirects to a back take instead of continuing the sweep"
+      },
+      {
+        "action": "Retract far leg and circle hips to deny the grip",
+        "when_to_use": "When you see or feel the opponent's free hand reaching for your far knee, immediately pull the far leg back and circle your hips away from the reaching hand",
+        "targets_outcome": "Dogfight Position/Bottom",
+        "if_successful": "The sweep is denied because the critical far leg grip cannot be established, and the position remains in neutral Dogfight where you can reset your defense",
+        "risk": "Pulling the far leg back can expose your back to the sweeper if they immediately transition to a back take entry"
+      },
+      {
+        "action": "Crossface and drive forward to stuff the sweep before it develops",
+        "when_to_use": "At the earliest recognition of sweep initiation, drive your forearm or shoulder across the sweeper's face and neck to turn their head away and break their posture",
+        "targets_outcome": "Flattened Half Guard/Bottom",
+        "if_successful": "The crossface disrupts the sweeper's head position and forward drive, allowing you to flatten them and begin passing sequences from half guard top",
+        "risk": "If the crossface is not strong enough, the sweeper may continue driving through it and complete the sweep despite the pressure"
+      },
+      {
+        "action": "Post far arm on mat and base out wide to resist the topple",
+        "when_to_use": "When the sweep is already mid-execution and the far leg grip has been established, post your far hand on the mat to create an additional base point",
+        "targets_outcome": "Dogfight Position/Bottom",
+        "if_successful": "The hand post creates enough resistance to stall the sweep, allowing you to recover your far leg position and reset the Dogfight engagement",
+        "risk": "Posting the hand leaves it vulnerable to grip stripping and reduces your ability to apply whizzer or crossface pressure simultaneously"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Flattened Half Guard/Bottom",
+        "how": "Apply heavy whizzer downward pressure combined with crossface and hip sprawl to drive the sweeper flat onto their back. Once flattened, immediately begin half guard passing sequences using crossface and underhook to prevent them from re-elevating to Dogfight."
+      },
+      {
+        "outcome": "Dogfight Position/Bottom",
+        "how": "Deny the far leg grip through active leg retraction and hip circling, then maintain whizzer control to keep the position neutral. From the stalled Dogfight, work to re-flatten the opponent or initiate your own passing sequence by stripping their underhook and establishing crossface dominance."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Posting far leg wide and heavy, making it an easy target for the far leg grip",
+        "consequence": "The sweeper easily grips behind the far knee and completes the sweep because the wide post cannot be retracted quickly enough once gripped",
+        "correction": "Keep the far leg relatively close to your body and ready to retract. Maintain a narrow base that can be widened temporarily for stability but immediately narrowed when you detect the reaching hand."
+      },
+      {
+        "error": "Relying solely on the whizzer without adding crossface or sprawl pressure",
+        "consequence": "A whizzer alone cannot stop a committed forward drive from a sweeper with a deep underhook. The sweeper powers through the whizzer and completes the sweep despite the overhook.",
+        "correction": "Combine the whizzer with crossface pressure to control the sweeper's head and sprawl your hips back to remove their driving angle. All three defensive elements must work together."
+      },
+      {
+        "error": "Failing to recognize the sweep initiation until the far leg is already gripped",
+        "consequence": "Once the far leg grip is established and forward momentum is generated, the sweep becomes nearly impossible to stop. Late recognition means the defensive window has already closed.",
+        "correction": "Monitor the sweeper's free hand position constantly. The moment it leaves its post and begins reaching across your body, immediately activate your defensive response—do not wait until the grip is established."
+      },
+      {
+        "error": "Pulling away from the sweeper to create distance instead of driving into them with pressure",
+        "consequence": "Pulling away concedes the forward momentum battle and allows the sweeper to chase and continue driving. Distance creation in Dogfight favors the person with the underhook.",
+        "correction": "Drive into the sweeper with crossface and whizzer pressure rather than retreating. Forward pressure from the top player is the most effective counter to forward drive from the bottom player."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the earliest tactile cue that a Dogfight Sweep attempt is being initiated?",
+        "answer": "The earliest cue is feeling the opponent's free hand release from its posting position on your body or the mat and begin reaching across toward your far leg. This is typically accompanied by a slight increase in forward pressure through the underhook as the sweeper loads their drive. You may also feel their outside knee reposition to generate more pushing power. The hand leaving its post is the most reliable and earliest indicator, as the sweep cannot be completed without the far leg grip."
+      },
+      {
+        "question": "Your opponent has already gripped your far knee and is driving forward—what is your last-resort defense?",
+        "answer": "When the sweep is mid-execution, your best last-resort option is to post your far hand on the mat behind you while simultaneously driving your hips back into the sweeper with maximum sprawl pressure. The hand post creates a temporary third base point that can stall the topple long enough for you to strip their far leg grip with your whizzer-side hand or circle your hips away. If the sweep is too far advanced for this, consider turning into the sweep direction and accepting turtle position rather than being swept cleanly to your back."
+      },
+      {
+        "question": "How do you balance defending the Dogfight Sweep without over-committing and exposing your back?",
+        "answer": "The key is maintaining your hips facing the opponent rather than turning them away during defense. Apply whizzer and crossface pressure while keeping your chest oriented toward the sweeper. When retracting your far leg, circle it backward and toward the sweeper's hip rather than pulling it completely behind you, which would turn your back. If you feel the sweeper beginning to transition from sweep to back take (indicated by their underhook deepening toward your far hip rather than driving forward), immediately re-engage your whizzer and drive your hips forward to deny the back exposure."
+      },
+      {
+        "question": "After successfully defending the Dogfight Sweep and remaining in Dogfight position, how should you capitalize?",
+        "answer": "Immediately transition from defense to offense after a successful sweep defense. The sweeper has committed energy to a failed attempt and is momentarily off-balance or restructuring. Drive forward with crossface pressure to flatten them back to half guard bottom before they can set up another attack. Strip their underhook by swimming your arm inside during the moment of transition. If you can flatten them and establish crossface control, you have effectively turned their offensive Dogfight into your passing opportunity."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Recognition",
+        "focus": "Identifying sweep initiation cues under controlled conditions",
+        "description": "Partner slowly executes the Dogfight Sweep while you focus on identifying the moment the free hand reaches for the far leg and forward pressure increases. Practice calling out 'sweep' the instant you feel the initiation. Partner confirms accuracy of recognition timing. No active defense yet—purely sensory development."
+      },
+      {
+        "phase": "Phase 2: Counter Mechanics",
+        "focus": "Drilling individual defensive responses in isolation",
+        "description": "Practice each defensive option separately: whizzer sprawl, far leg retraction, crossface counter, and hand post. Partner attempts the sweep at moderate intensity while you execute one specific defense per round. Develop muscle memory for each response before combining them. Focus on timing the defense with the sweep initiation rather than applying it preemptively."
+      },
+      {
+        "phase": "Phase 3: Combined Defense",
+        "focus": "Integrating multiple defensive responses against varied attacks",
+        "description": "Partner chains Dogfight Sweep with back take attempts and forward drive sweeps. Practice selecting and combining appropriate defensive responses based on which attack is being initiated. Develop the ability to switch between whizzer defense (for sweeps) and hip defense (for back takes) fluidly. Build automatic defensive pattern recognition."
+      },
+      {
+        "phase": "Phase 4: Live Application",
+        "focus": "Full resistance Dogfight defense and counter-attack",
+        "description": "Full resistance positional sparring starting in Dogfight. Defend all sweep and back take attempts while actively working to flatten the opponent and initiate passing sequences. Two-minute rounds with goal of both preventing the sweep and advancing to a passing position. Track defense success rate and identify gaps in recognition or execution."
+      }
+    ]
+  }
+}

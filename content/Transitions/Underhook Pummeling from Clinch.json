@@ -1,0 +1,412 @@
+{
+  "name": "Underhook Pummeling from Clinch",
+  "description": "Master underhook pummeling from the clinch in BJJ. Complete guide to pummel sequences, timing windows, and hand fighting for dominant inside position control.",
+  "tags": [
+    "bjj",
+    "transition",
+    "clinch",
+    "pummeling",
+    "underhook",
+    "grip-fighting",
+    "wrestling",
+    "standing"
+  ],
+  "from_position": "Clinch/Bottom",
+  "outcomes": [
+    {
+      "to": "Clinch/Top",
+      "probability": 55,
+      "result": "success"
+    },
+    {
+      "to": "Clinch/Bottom",
+      "probability": 30,
+      "result": "failure"
+    },
+    {
+      "to": "Body Lock/Bottom",
+      "probability": 15,
+      "result": "counter"
+    }
+  ],
+  "success_rate": 55,
+  "overview": "Underhook pummeling is the foundational skill for winning inside position battles in the clinch. When your opponent has established dominant grips through overhooks, collar ties, or superior underhook positioning, pummeling provides the systematic methodology to fight back to an advantageous position. The technique involves swimming your arm underneath your opponent's controlling arm to establish an underhook, granting inside position and access to takedown entries, back takes, and positional control.\n\nThe strategic importance of pummeling cannot be overstated in modern grappling. Inside position through underhooks controls distance, dictates engagement pace, and creates direct pathways to offensive techniques. Without effective pummeling, a practitioner stuck in the disadvantaged clinch is limited to reactive defense or disengagement. The pummel itself is a micro-battle demanding precise timing, efficient mechanics, and the ability to chain multiple attempts when initial efforts are blocked.\n\nAt the highest levels, pummeling transcends simple arm swimming and becomes an integrated system combining level changes, pressure shifts, and feints to create windows for underhook establishment. Elite clinch fighters create the conditions that make pummeling succeed by manipulating the opponent's posture, weight distribution, and attention before executing the swim motion. This systematic approach transforms pummeling from a single technique into a complete positional control methodology.",
+  "conditions": [
+    "Standing clinch engagement with close-range upper body contact established",
+    "Opponent has positional advantage through superior grips or inside control",
+    "At least one arm available for swimming motion beneath opponent's controlling arm",
+    "Sufficient balance and base to maintain stance during the pummeling exchange"
+  ],
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Inside Swim (Standard Pummel)",
+      "description": "Classic single-arm pummel where you circle your arm in a tight arc underneath the opponent's overhook to establish one underhook. The most fundamental version emphasizing compact elbow path and immediate consolidation with head position.",
+      "when_to_use": "Default technique when opponent has a single overhook or collar tie and you need to fight back to inside position on one side"
+    },
+    {
+      "variant_name": "Snap and Swim",
+      "description": "Use a collar tie snap or sharp push-pull to momentarily break the opponent's posture and create an opening, then immediately pummel to the underhook during their recovery before they can re-establish defensive grips.",
+      "when_to_use": "Against opponents with tight overhook defense who consistently block standard swim attempts through active pressure maintenance"
+    },
+    {
+      "variant_name": "Level Change Pummel",
+      "description": "Drop your level slightly by bending your knees while simultaneously executing the swim motion, changing the angle of entry and making it significantly harder for the opponent to maintain their overhook on a target that is moving both laterally and vertically.",
+      "when_to_use": "Against taller opponents or when standard same-level pummeling is being consistently blocked due to opponent's superior arm length or positioning"
+    },
+    {
+      "variant_name": "Double Pump",
+      "description": "Rapid pummeling on both sides in quick succession, aggressively fighting for double underhooks. Requires excellent timing and a brief positional advantage to execute before the opponent can address both sides. High reward but commits significant energy.",
+      "when_to_use": "When you create a momentary timing advantage through a successful feint or pressure shift and want to aggressively establish complete inside control before the opponent recovers"
+    }
+  ],
+  "position_integration": "Underhook pummeling is the critical link between defensive clinch play and offensive standing grappling. It connects the disadvantaged clinch position to the entire offensive clinch game including body lock takedowns, duck unders, arm drags, and single leg entries. Without pummeling proficiency, a practitioner's standing game lacks the recovery mechanism needed to re-establish offensive capability when an opponent gains grip dominance. This transition is equally relevant in gi and no-gi contexts and applies across BJJ, wrestling, judo, and MMA standing exchanges, making it one of the most universally important grappling skills.",
+  "related_content": [
+    {
+      "name": "Clinch",
+      "relationship": "Source position where the underhook pummeling battle occurs"
+    },
+    {
+      "name": "Body Lock",
+      "relationship": "Counter position opponent may establish during a failed pummel attempt"
+    },
+    {
+      "name": "Standing Position",
+      "relationship": "Parent standing context for clinch engagement"
+    },
+    {
+      "name": "Back Control",
+      "relationship": "Potential follow-up position after establishing dominant underhooks and chaining to back take"
+    },
+    {
+      "name": "Front Headlock",
+      "relationship": "Alternative clinch outcome when opponent capitalizes on posture break during pummel"
+    },
+    {
+      "name": "Arm Drag from Clinch",
+      "relationship": "Complementary clinch technique that chains effectively with pummeling sequences"
+    },
+    {
+      "name": "Arm Drag from Clinch Bottom",
+      "relationship": "Alternative offensive technique from the same disadvantaged clinch position"
+    },
+    {
+      "name": "Body Lock Takedown",
+      "relationship": "Primary follow-up takedown after establishing double underhooks through pummeling"
+    },
+    {
+      "name": "Break Clinch",
+      "relationship": "Alternative response when pummeling fails and disengagement is preferred"
+    },
+    {
+      "name": "Ankle Pick",
+      "relationship": "Takedown opportunity that opens when pummeling creates angular displacement"
+    }
+  ],
+  "attacker": {
+    "name": "Underhook Pummeling from Clinch Attacker",
+    "description": "Master the attacking mechanics of underhook pummeling from the disadvantaged clinch. Learn swim motion technique, timing, consolidation, and follow-up chains.",
+    "overview": "Executing underhook pummeling from the disadvantaged clinch requires a systematic approach to inside position recovery. The attacker must combine precise arm mechanics with strategic pressure creation to swim underneath the opponent's controlling arms and establish dominant underhooks. Success depends on a tight elbow path, immediate consolidation through head position and hip drive, and the ability to chain follow-up techniques before the opponent can re-pummel. The attacker's goal is to transform the disadvantaged clinch position into an offensive launching pad for takedowns and positional advancement through methodical inside position recovery.",
+    "key_principles": [
+      "Keep the elbow tight to the ribs throughout the swim motion, threading in a compact arc that minimizes telegraph and reaction time for the opponent",
+      "Consolidate every successful pummel immediately with head position to the underhook side and forward hip drive to prevent instant re-pummeling",
+      "Create the window before you swim—use push-pull rhythm, feints, or level changes to generate the opening rather than forcing through static resistance",
+      "Chain pummeling attempts in sequence, using a blocked first attempt to set up an attack on the opposite side or a different technique entirely",
+      "Match your pummeling intensity to your energy budget—controlled, technical pummeling is sustainable while muscular arm wrestling depletes reserves rapidly",
+      "Treat pummeling as a three-part system: create opening, swim to underhook, consolidate with head and hips—all three must execute in rapid succession"
+    ],
+    "setup_requirements": [
+      "Both practitioners engaged in standing clinch with close-range upper body contact and active grip engagement",
+      "Opponent has established at least one dominant grip such as overhook, collar tie, or body lock that creates positional disadvantage",
+      "Sufficient arm mobility with at least one arm free enough to initiate the swim motion underneath opponent's controlling arm",
+      "Stable base with feet positioned shoulder-width apart and knees bent for balance during the dynamic pummeling exchange",
+      "Head not completely pinned—some ability to fight for head position is required to complete post-pummel consolidation"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Assess grip configuration and identify swimming lane",
+        "description": "Read the opponent's current grip setup to identify which side offers the most accessible path for the swim motion. Note whether they have overhooks, collar ties, or body lock grips, and determine which arm is least loaded with defensive pressure. Select the side where their control is weakest or where you can create the best opening through setup."
+      },
+      {
+        "step_number": 2,
+        "action": "Create opening through pressure or feint",
+        "description": "Generate a distraction or pressure shift to momentarily occupy the opponent's attention and create a window for the swim. Options include a sharp push-pull on their upper body, a level change feint that draws their hands downward, or a collar tie snap that disrupts their posture. The goal is to create one to two seconds where their defensive grip pressure relaxes or redirects."
+      },
+      {
+        "step_number": 3,
+        "action": "Drop elbow and initiate the swim motion",
+        "description": "Drop your elbow tight against your ribcage and begin threading your forearm underneath the opponent's controlling arm. Keep the arc as compact as possible, moving your hand in a tight circular path from outside their arm to inside their armpit. Speed and compactness are critical here—a wide swim is easily blocked while a tight swim is difficult to stop once initiated."
+      },
+      {
+        "step_number": 4,
+        "action": "Thread underhook to completion and secure position",
+        "description": "Drive your arm through until your hand reaches the opponent's far shoulder blade or wraps around their back, establishing the underhook with your elbow clamped tight against their body. Your forearm should be pressed firmly against their ribs with no space between your arm and their torso. A loose underhook is easily stripped, so squeeze tight immediately upon completion."
+      },
+      {
+        "step_number": 5,
+        "action": "Establish dominant head position on underhook side",
+        "description": "Immediately drive your forehead into the opponent's shoulder on the underhook side, pressing firmly to create a structural barrier that prevents them from re-pummeling. Your head position acts as a wedge that locks the underhook in place and disrupts their ability to fight back to inside position. Without this step, the underhook is temporary and will be stripped within seconds."
+      },
+      {
+        "step_number": 6,
+        "action": "Consolidate with hip drive and weight commitment",
+        "description": "Drive your hips forward toward the opponent on the underhook side, eliminating the space between your bodies and making it mechanically difficult for them to swim back. Your hip bone should connect with their hip, and your weight should shift slightly forward through the underhook. This closes the swimming lane they need to counter-pummel and transforms the underhook from a grip into structural control."
+      },
+      {
+        "step_number": 7,
+        "action": "Chain to follow-up technique or continue pummeling",
+        "description": "Immediately threaten an offensive technique from the newly established dominant position. Options include pummeling for double underhooks on the opposite side, entering a body lock takedown, shooting for a single leg using the angle created, or executing a duck under to the back. Hesitation after consolidation allows the opponent to recover and neutralize your positional gain through their own counter-pummeling."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Opponent clamps overhook or whizzer on the swimming arm, blocking underhook establishment through downward pressure",
+        "effectiveness": "High",
+        "your_response": "Use the overhook commitment against them by immediately attacking the opposite side where they are now weaker, or circle toward the whizzer side to create an angle for a duck under or arm drag",
+        "targets_outcome": "Clinch/Bottom"
+      },
+      {
+        "counter": "Opponent capitalizes on the opening during the swim to lock hands around your torso and establish body lock control",
+        "effectiveness": "Medium",
+        "your_response": "Frame on their hips immediately with both hands, lower your center of gravity, and begin working to break the grip through hip pummeling and hand fighting before they can initiate a takedown",
+        "targets_outcome": "Body Lock/Bottom"
+      },
+      {
+        "counter": "Opponent immediately counter-pummels the moment your underhook reaches their body, stripping it before you can consolidate",
+        "effectiveness": "High",
+        "your_response": "Anticipate the re-pummel and accelerate your consolidation sequence—drive head to shoulder and hips forward simultaneously rather than in stages, or transition immediately to a second pummel attempt on the opposite side",
+        "targets_outcome": "Clinch/Bottom"
+      },
+      {
+        "counter": "Opponent uses the moment your arm drops for the swim to snap your head down with an aggressive collar tie, disrupting your posture",
+        "effectiveness": "Medium",
+        "your_response": "Maintain posture and chin position throughout the swim by keeping your head up and driven forward into their shoulder rather than allowing it to drop. If snapped down, immediately address posture recovery before continuing pummel attempts",
+        "targets_outcome": "Clinch/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Swimming too wide with the arm, creating a large visible arc that telegraphs the pummel attempt",
+        "consequence": "Opponent reads the wide swim motion and easily blocks with an overhook or redirects your arm before it can establish inside position",
+        "correction": "Keep your elbow pinned tight to your ribs throughout the entire swim, threading in a compact arc that stays close to both bodies and minimizes the reaction window for the opponent"
+      },
+      {
+        "error": "Failing to establish head position after securing the underhook",
+        "consequence": "Opponent re-pummels immediately because there is no structural barrier preventing them from swimming back to inside position, negating your successful pummel",
+        "correction": "Drive your forehead to the underhook-side shoulder immediately upon securing the underhook—treat head position as an inseparable part of the pummel, not a separate follow-up step"
+      },
+      {
+        "error": "Pummeling without creating any setup, feint, or pressure change first",
+        "consequence": "Opponent reads the raw pummel attempt before it begins and blocks or counters preemptively because no distraction occupied their attention",
+        "correction": "Always create a window through push-pull rhythm, level change feint, or collar tie snap before initiating the swim—the setup is what makes the pummel land"
+      },
+      {
+        "error": "Standing too upright with hips back during the pummel motion, creating excessive space between bodies",
+        "consequence": "The gap between bodies makes it impossible to consolidate the underhook because the opponent has room to maneuver, redirect, or establish their own body lock",
+        "correction": "Maintain slight forward lean with hips engaged and knees bent throughout the sequence, keeping close body contact that reduces the space available for opponent's defensive adjustments"
+      },
+      {
+        "error": "Attempting to muscle through the pummel using raw arm strength against a loaded overhook",
+        "consequence": "Rapid energy depletion with minimal positional gain as the opponent matches force against force, leading to exhaustion without establishing inside position",
+        "correction": "Use timing, angle changes, and body mechanics rather than arm strength—the swim succeeds through speed and path efficiency, not power output"
+      },
+      {
+        "error": "Not consolidating after a successful pummel, pausing before establishing head position and hip drive",
+        "consequence": "The one to two second window between underhook establishment and opponent's counter-pummel is wasted, and the opponent strips the underhook before any advantage is realized",
+        "correction": "Execute the pummel as a three-part burst: swim, head, hips—all within two seconds with no pause between steps"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Solo Mechanics",
+        "focus": "Pummel motion fundamentals and muscle memory",
+        "description": "Practice the swim motion solo and with a stationary partner, focusing on tight elbow path, arm threading mechanics, and the complete swim-to-head-to-hip sequence without any resistance. Build the motor pattern before adding complexity."
+      },
+      {
+        "phase": "Phase 2: Cooperative Drilling",
+        "focus": "Timing and rhythm with a partner",
+        "description": "Partner offers light to moderate resistance while you practice pummel sequences, developing sensitivity to pressure changes and building muscle memory for the complete swim-consolidation chain. Work both sides equally."
+      },
+      {
+        "phase": "Phase 3: Progressive Resistance",
+        "focus": "Adaptation under increasing defensive pressure",
+        "description": "Partner increases resistance progressively from 50% to full competition intensity across multiple rounds, forcing development of timing, feinting, combination pummeling, and the ability to chain blocked attempts into alternative attacks."
+      },
+      {
+        "phase": "Phase 4: Situational Sparring",
+        "focus": "Live application from disadvantaged clinch",
+        "description": "Begin from disadvantaged clinch positions in live sparring, working pummeling into takedown chains and positional recovery. Develop the ability to read live opponents and select appropriate pummel variants based on their defensive tendencies."
+      },
+      {
+        "phase": "Phase 5: Competition Simulation",
+        "focus": "Pummeling under fatigue and competitive stress",
+        "description": "Integrate pummeling into full timed rounds with competition-intensity standing exchanges, building the conditioning and mental composure needed to execute precise technique under fatigue and competitive pressure."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the optimal timing window for initiating a pummel attempt against an opponent with an established overhook?",
+        "answer": "The optimal window opens when the opponent shifts their weight, adjusts their grip, or momentarily relaxes overhook pressure. This typically occurs during transitions between techniques or when you create a distraction through push-pull rhythm or feint. Attempting to pummel against a fully loaded, actively maintained overhook is significantly harder and should be avoided in favor of creating the opening first."
+      },
+      {
+        "question": "What body position must be established before you can effectively initiate a pummel from the disadvantaged clinch?",
+        "answer": "You need a stable base with knees bent and feet shoulder-width apart, with your center of gravity low enough to generate forward pressure. Your head should be actively fighting for position rather than completely controlled by opponent's collar tie. Without base stability and some head position autonomy, pummel attempts are easily countered because your structure is compromised and you lack the platform to generate the required swimming motion."
+      },
+      {
+        "question": "What is the most critical mechanical detail that determines whether a pummel attempt succeeds or fails?",
+        "answer": "The elbow path during the swim is the decisive mechanical factor. The elbow must stay tight against your ribs throughout the entire motion, threading in a compact arc close to both bodies. A wide elbow path creates a visible telegraph that the opponent blocks easily, while a tight elbow path reduces the reaction window and makes the swim faster and significantly more difficult to counter."
+      },
+      {
+        "question": "What is the most common failure point when practitioners attempt to pummel against an experienced opponent?",
+        "answer": "The most common failure occurs immediately after the underhook is threaded—practitioners fail to consolidate with head position and hip drive, giving the opponent a window to re-pummel or strip the underhook. Securing the arm underneath is only one-third of the technique; without immediate follow-up of forehead pressure to the shoulder and hips driving forward, the underhook is recovered by the opponent within seconds."
+      },
+      {
+        "question": "What hand configuration on the swimming arm best facilitates a successful pummel attempt?",
+        "answer": "The swimming arm should begin with the hand open and elbow bent close to the body, ready to thread quickly underneath the opponent's arm. Clenching the fist or extending the arm creates tension that slows the swim. Once the underhook is established, the hand should reach the opponent's far shoulder blade or wrap their back with the elbow clamped tight to lock the position and prevent it from being stripped."
+      },
+      {
+        "question": "In which direction should force be applied when consolidating an underhook gained through pummeling?",
+        "answer": "Force should be applied diagonally forward and upward through the underhook, driving your shoulder into the opponent's armpit while simultaneously driving your hips into their hip on the same side. This combined vector lifts their arm away from re-pummeling position and closes the space needed for them to swim back. Pure forward pressure alone is insufficient—the upward component makes the underhook structurally difficult to strip."
+      },
+      {
+        "question": "Your opponent immediately responds to your successful pummel with an aggressive re-pummel attempt on the opposite side—how do you adjust?",
+        "answer": "Immediately consolidate the first underhook by clamping your elbow and driving your head to that side. Then use the opposite arm to either frame on their bicep to slow their re-pummel or preemptively swim to establish double underhooks before they complete their swim. If they win the opposite underhook, you reach an over-under position—one underhook each—which is neutral rather than disadvantaged, representing a significant improvement from your starting position."
+      },
+      {
+        "question": "Your initial pummel attempt is blocked by a strong whizzer—what chain technique should you use to still advance position?",
+        "answer": "When the whizzer blocks your pummel, use the opponent's commitment to that side as an anchor point. Circle toward the whizzer side to create an angle, then attack the opposite side where they are now weaker, or use the angle for a duck under to the back. The whizzer commits their arm and weight to one side, creating an opening on the other—attack the weakness their defense creates rather than continuing to fight through their strongest defensive point."
+      },
+      {
+        "question": "How should you adjust your pummeling approach when your opponent is significantly taller with longer arms?",
+        "answer": "Against taller opponents, the level change pummel variant is most effective. Drop your level by bending your knees while executing the swim, changing the entry angle so you're pummeling underneath their longer arm at a point closer to their body where their leverage advantage is minimized. The height differential actually creates a wider swimming lane when you lower your level, making the underhook easier to establish from below rather than attempting the swim at their height."
+      }
+    ],
+    "safety_considerations": "Pummeling involves rapid arm movements near the face and neck area. Avoid striking or jerking motions that could cause accidental eye pokes, ear damage, or neck strain. During training, establish clear communication about intensity levels before engaging. Avoid aggressive forward driving after establishing underhooks, which can cause cervical spine compression if your partner's head is caught. Stop immediately if either partner reports shoulder impingement, neck discomfort, or finger injuries from caught grips. Warm up shoulders thoroughly before intensive pummeling sessions."
+  },
+  "defender": {
+    "name": "Underhook Pummeling from Clinch Defender",
+    "description": "Learn to defend against underhook pummeling in the clinch. Recognition cues, counter-pummeling, overhook defense, and capitalizing on failed pummel attempts.",
+    "overview": "Defending against underhook pummeling requires maintaining your established grip advantages and dominant clinch positioning. When holding the superior position through overhooks, head control, or inside ties, your primary objective is preventing the opponent from swimming underneath your controlling arms to establish underhooks that would transfer positional dominance. Effective defense combines active grip maintenance with constant downward pressure, immediate counter-pummeling when you feel the swim beginning, and the ability to capitalize on the opponent's openings during their swim attempts to advance your own position through body lock establishment or takedown entries.",
+    "key_principles": [
+      "Maintain active overhook pressure that loads weight downward onto the opponent's swimming arm, making the swim mechanically difficult",
+      "Keep elbows tight to your body to close the swimming lanes the opponent needs for the underhook path",
+      "Counter-pummel immediately whenever you feel the opponent's arm beginning to thread—speed of response is more important than strength",
+      "Use head position as a structural anchor, pressing your forehead into their shoulder to create a barrier against their consolidation",
+      "Capitalize on failed pummel attempts by immediately advancing to body lock or initiating takedown entry during the recovery window",
+      "Never allow both underhooks to be lost simultaneously—address each pummel attempt individually and maintain at least one side secured"
+    ],
+    "recognition_cues": [
+      "Opponent's elbow drops toward their hip on one side as they prepare to initiate the swim motion underneath your controlling arm",
+      "Opponent creates a push-pull rhythm or sudden pressure change, using the disruption as a setup to mask the incoming pummel attempt",
+      "Opponent's weight shifts noticeably to one side as they angle their body to create a wider swimming lane for the underhook entry",
+      "Opponent's hand releases a collar tie or upper grip and begins moving downward toward your armpit area, signaling the swim is imminent",
+      "Opponent drops their level slightly through knee bend, indicating a level change pummel variant is being set up"
+    ],
+    "defensive_options": [
+      {
+        "action": "Clamp overhook or whizzer immediately on the swimming arm to block underhook establishment",
+        "when_to_use": "The moment you feel the opponent's arm beginning to swim underneath your controlling grip—early intervention is critical",
+        "targets_outcome": "Clinch/Bottom",
+        "if_successful": "Opponent's pummel is blocked and they remain in the inferior clinch position with no positional advancement",
+        "risk": "Over-committing to the whizzer on one side may open the opposite side to a secondary pummel or arm drag attempt"
+      },
+      {
+        "action": "Counter-pummel to strip the newly established underhook before consolidation",
+        "when_to_use": "After the opponent threads one underhook but before they establish head position and hip drive to consolidate",
+        "targets_outcome": "Clinch/Bottom",
+        "if_successful": "You strip the opponent's underhook and re-establish your dominant inside position, returning to the pre-pummel status quo",
+        "risk": "Failed counter-pummel during the exchange window may leave you with fewer control points and a worsened grip configuration"
+      },
+      {
+        "action": "Capitalize into body lock by wrapping arms around opponent's torso during the opening created by their swim",
+        "when_to_use": "When the opponent's pummel attempt creates a clear opening to their torso as their elbow lifts and they commit to the swim",
+        "targets_outcome": "Body Lock/Bottom",
+        "if_successful": "You establish body lock control that eliminates further pummeling and creates direct takedown threats from dominant position",
+        "risk": "Reaching for the body lock requires temporarily abandoning overhook control, leaving your head position vulnerable if the lock fails"
+      },
+      {
+        "action": "Snap down during the swim transition when opponent's posture breaks",
+        "when_to_use": "When the opponent drops their head or loosens posture during the swim motion, creating vulnerability to downward pressure",
+        "targets_outcome": "Clinch/Bottom",
+        "if_successful": "Opponent's pummel attempt is disrupted and they must recover posture completely before they can attempt another swim",
+        "risk": "The snap down may give up space if the opponent anticipates and pulls away, potentially creating distance that resets the engagement"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Clinch/Bottom",
+        "how": "Maintain active overhook pressure and counter-pummel immediately when you feel the opponent's arm beginning to swim. Use forehead pressure on their shoulder as a structural barrier and keep your elbows tight to close swimming lanes. Address each pummel attempt within the first second before it develops into a completed underhook."
+      },
+      {
+        "outcome": "Body Lock/Bottom",
+        "how": "When the opponent's aggressive pummel attempt creates a clear opening to their torso—specifically when their elbow lifts away from their body during the swim—dive your arms around their waist and lock hands. The moment during the swim is when their centerline is most exposed and the body lock can be established before they can retract."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Passive grip maintenance without actively loading downward pressure onto the pummeling arm",
+        "consequence": "Opponent easily swims underneath static overhooks and establishes underhooks with minimal resistance, gaining inside position for free",
+        "correction": "Actively drive downward pressure through your overhooks and maintain heavy, engaged grips that resist the swim motion through constant loading rather than static holding"
+      },
+      {
+        "error": "Focusing exclusively on blocking the pummel without capitalizing or counter-attacking",
+        "consequence": "Opponent makes unlimited pummel attempts with no penalty or consequence, eventually succeeding through persistence and accumulated micro-advantages",
+        "correction": "Treat each blocked pummel as an offensive opportunity—immediately counter-pummel, advance to body lock, or initiate a takedown entry during the recovery window after the failed swim"
+      },
+      {
+        "error": "Allowing both sides to be attacked simultaneously by failing to stagger defensive responses",
+        "consequence": "Opponent establishes double underhooks by chaining rapid pummels on both sides while you try to address both threats at once and address neither effectively",
+        "correction": "Address each pummel attempt individually and immediately, securing one side completely before shifting defensive attention to the other side"
+      },
+      {
+        "error": "Standing too tall and creating space between bodies during the clinch engagement",
+        "consequence": "Increased swimming lane available for opponent's pummel attempts and reduced ability to apply the downward pressure that blocks the swim motion",
+        "correction": "Maintain close body-to-body contact with slight forward lean, minimizing the physical space the opponent needs to thread their arm through while keeping your weight advantageous"
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the earliest recognition cue that your opponent is about to attempt an underhook pummel?",
+        "answer": "The earliest cue is a subtle weight shift to one side combined with their elbow beginning to drop toward their hip on the swimming side. This preparatory movement occurs before the actual swim motion begins. Recognizing this preparation gives you maximum response time to clamp your overhook, drive your forehead into their shoulder, and close the swimming lane before the attempt fully develops."
+      },
+      {
+        "question": "Your opponent successfully pummel-wins one underhook and is beginning to drive their head to that side—what is your immediate priority?",
+        "answer": "Your immediate priority is counter-pummeling on that same side before they consolidate with head position and hip drive. The window between the underhook being threaded and full consolidation is approximately one to two seconds. Use your overhook on that side to create downward pressure while swimming your arm underneath theirs to strip the underhook. If you miss the window, transition to managing the over-under position rather than fighting a fully consolidated underhook."
+      },
+      {
+        "question": "How do you prevent an opponent from chaining a blocked pummel into an attack on the opposite side?",
+        "answer": "After blocking the initial pummel with your overhook, immediately re-establish pressure on both sides rather than relaxing after the successful defense. The opponent's natural chain is to use your overhook commitment against them by attacking the opposite side. Use your free hand to frame on their bicep or establish collar tie control on the side they are likely to attack next, denying them the space and angle needed for a combination pummel sequence."
+      },
+      {
+        "question": "When is it more advantageous to capitalize into a body lock rather than simply blocking the pummel attempt?",
+        "answer": "Capitalizing into a body lock is most advantageous when the opponent's pummel attempt creates a clear opening to their torso—specifically when their elbow lifts away during the swim and their head drops momentarily. This window occurs during aggressive pummel attempts where the opponent commits significant body movement. If their pummel is subtle and controlled, blocking and counter-pummeling is safer because the body lock attempt may fail and could compromise your existing dominant position."
+      },
+      {
+        "question": "What stance adjustment prevents the opponent from creating the angle they need for effective pummeling?",
+        "answer": "Maintain a slightly staggered stance with your lead foot positioned slightly inside their lead foot, keeping your hips square to their centerline. This positioning closes the inside lane they need for the swim motion and forces them to pummel from a wider angle, which is slower and easier to detect. Additionally, slight forward pressure through your chest and shoulders reduces the space between bodies, making the swimming arc more difficult to complete regardless of the angle attempted."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Recognition Drilling",
+        "focus": "Identifying pummel attempts before they develop",
+        "description": "Partner executes slow pummel attempts at 30-50% speed while you practice recognizing the early cues—elbow drop, weight shift, pressure change—and initiating defensive responses before the swim motion begins. Develop tactile sensitivity to the preparatory movements."
+      },
+      {
+        "phase": "Phase 2: Counter-Pummel Development",
+        "focus": "Building counter-pummeling speed and accuracy",
+        "description": "Partner pummels at moderate intensity while you practice stripping newly established underhooks and re-establishing inside position through counter-pummeling sequences. Focus on the timing window between underhook entry and consolidation."
+      },
+      {
+        "phase": "Phase 3: Capitalize and Advance",
+        "focus": "Converting defense into offensive advancement",
+        "description": "Practice transitioning from blocked pummel attempts directly into body lock establishments, takedown entries, and other offensive advances. Develop the instinct to punish failed pummel attempts rather than simply blocking them."
+      },
+      {
+        "phase": "Phase 4: Live Clinch Defense",
+        "focus": "Full-speed integration against determined pummelers",
+        "description": "Defend against full-resistance pummeling in timed competitive rounds, maintaining dominant position while capitalizing on opponent's openings. Build the conditioning and pattern recognition needed for competition-pace clinch defense."
+      }
+    ]
+  }
+}

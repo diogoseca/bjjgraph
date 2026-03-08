@@ -1,0 +1,414 @@
+{
+  "name": "Rolling Escape to Guard",
+  "description": "Master the Rolling Escape to Guard from Aoki Lock. Complete guide to forward roll escape mechanics, shoulder protection, and guard recovery techniques.",
+  "tags": [
+    "bjj",
+    "transition",
+    "escape",
+    "aoki-lock",
+    "guard-recovery",
+    "defensive",
+    "rolling-escape",
+    "shoulder-lock-defense"
+  ],
+  "from_position": "Aoki Lock/Bottom",
+  "outcomes": [
+    {
+      "to": "Open Guard/Bottom",
+      "probability": 55,
+      "result": "success"
+    },
+    {
+      "to": "Aoki Lock/Bottom",
+      "probability": 30,
+      "result": "failure"
+    },
+    {
+      "to": "Back Control/Bottom",
+      "probability": 15,
+      "result": "counter"
+    }
+  ],
+  "success_rate": 55,
+  "overview": "The Rolling Escape to Guard is a critical defensive technique for escaping the dangerous Aoki Lock position. When trapped in the leg-entangled shoulder lock, the forward roll toward your trapped arm creates momentum that disrupts the opponent's control structure while following the path of least resistance for your shoulder. This technique exploits a fundamental principle: rolling with the submission pressure rather than fighting against it reduces joint stress while creating space for arm extraction.\n\nStrategically, this escape should be initiated when you recognize the Aoki Lock is being established but before full pressure is applied. The rolling motion uses the opponent's forward hip drive against them, converting their finishing pressure into escape momentum. The technique requires precise timing - too early and you give up the position unnecessarily, too late and the submission is already locked.\n\nThe Rolling Escape represents the primary high-percentage escape from Aoki Lock, particularly effective when the opponent commits heavily to the shoulder pressure. Success depends on coordinating the roll direction, maintaining internal shoulder rotation throughout, and immediately establishing guard frames upon completing the escape. This technique appears regularly in no-gi competition where shoulder locks from leg entanglements are common finishing positions.",
+  "related_content": [
+    {
+      "name": "Aoki Lock",
+      "relationship": "Starting position and submission being escaped"
+    },
+    {
+      "name": "Open Guard",
+      "relationship": "Primary recovery position after successful escape"
+    },
+    {
+      "name": "Arm Extraction to Turtle",
+      "relationship": "Alternative escape technique from same starting position"
+    },
+    {
+      "name": "Granby Roll to Guard",
+      "relationship": "Related rolling escape mechanics used in other positions"
+    },
+    {
+      "name": "Hip Escape to Guard",
+      "relationship": "Alternative guard recovery method if roll is partially successful"
+    },
+    {
+      "name": "Back Control",
+      "relationship": "Position opponent may achieve if escape fails or roll is followed"
+    },
+    {
+      "name": "Turtle",
+      "relationship": "Alternative recovery position if full guard is not achievable"
+    },
+    {
+      "name": "Omoplata Control",
+      "relationship": "Related shoulder lock position with similar escape principles"
+    },
+    {
+      "name": "Aoki Lock Finish",
+      "relationship": "Submission transition this escape aims to prevent"
+    },
+    {
+      "name": "Aoki Lock to Back Control",
+      "relationship": "Transition opponent may use if they follow the roll momentum"
+    }
+  ],
+  "conditions": [
+    "Opponent has established Aoki Lock control with leg entanglement around your shoulder",
+    "Shoulder is under rotational pressure but not yet at tap threshold",
+    "You have identified the direction of your trapped arm for roll trajectory",
+    "Hip mobility remains sufficient to initiate and complete forward roll mechanics",
+    "Free hand is available to post and assist rolling motion"
+  ],
+  "attacker": {
+    "name": "Rolling Escape to Guard Attacker",
+    "description": "How to execute Rolling Escape to Guard in BJJ. Attacking perspective with setup, execution steps, and counters for escaping Aoki Lock.",
+    "overview": "The Rolling Escape to Guard is executed by the bottom player trapped in Aoki Lock. The forward roll toward your trapped arm creates momentum that disrupts the opponent's control structure while following the path of least resistance for your shoulder. This technique exploits a fundamental biomechanical principle: rolling with the submission pressure rather than fighting against it reduces joint stress while creating space for arm extraction. The rolling motion converts the opponent's forward hip drive into escape momentum, and the technique requires precise timing and committed execution to succeed.\n\nSuccess depends on coordinating the roll direction with internal shoulder rotation throughout the entire movement. The escape must be initiated when the opponent commits to their hip drive for finishing pressure - at this moment their weight is forward and their structure is committed. Completing the roll to a functional guard position with immediate frame establishment is critical, as a partial escape invites back control or re-attack from your opponent.",
+    "key_principles": [
+      "Roll toward your trapped arm direction to follow the path of least resistance and reduce shoulder torque",
+      "Maintain internal shoulder rotation throughout the roll to protect the joint from external rotation damage",
+      "Use opponent's forward pressure momentum to assist and accelerate your rolling escape motion",
+      "Time the roll when opponent commits to hip drive rather than when they are adjusting position",
+      "Keep your free arm posted and ready to establish guard frames immediately upon completing the roll",
+      "Coordinate hip movement with the roll to create maximum space for arm extraction during the transition",
+      "Establish leg frames immediately upon guard recovery to prevent opponent from immediately re-attacking"
+    ],
+    "setup_requirements": [
+      "Opponent has established Aoki Lock control with leg entanglement around your shoulder",
+      "Your shoulder is under rotational pressure but not yet at tap threshold",
+      "You have identified the direction of your trapped arm for roll trajectory planning",
+      "Your free hand is positioned to post and assist with the rolling motion",
+      "Hip mobility remains sufficient to initiate and complete forward roll mechanics",
+      "Mental commitment to the escape direction is established before initiating movement"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Identify roll direction",
+        "description": "Locate your trapped arm and commit to rolling toward that direction. The roll must go toward the trapped arm to follow the path of least resistance on your shoulder joint."
+      },
+      {
+        "step_number": 2,
+        "action": "Internal shoulder rotation",
+        "description": "Rotate your trapped shoulder internally by turning your palm toward the floor and pulling your elbow toward your hip. This protects the shoulder from the dangerous external rotation that causes injury."
+      },
+      {
+        "step_number": 3,
+        "action": "Post free hand",
+        "description": "Plant your free hand firmly on the mat beside your hip on the trapped arm side. This post provides the base and leverage needed to initiate the forward roll and control its trajectory."
+      },
+      {
+        "step_number": 4,
+        "action": "Initiate forward roll",
+        "description": "Drive your hips up and forward toward your trapped arm while tucking your chin. Use opponent's hip pressure against them by converting their forward drive into roll momentum. The roll goes over your shoulder on the trapped side."
+      },
+      {
+        "step_number": 5,
+        "action": "Extract arm during roll",
+        "description": "As you complete the forward roll, pull your trapped arm free from the loosened leg entanglement. The rolling motion creates space between opponent's legs that allows arm extraction."
+      },
+      {
+        "step_number": 6,
+        "action": "Establish guard frames",
+        "description": "Upon completing the roll facing your opponent, immediately establish foot on hip or knee shield frame to prevent them from immediately closing distance. Your free hand controls their collar or sleeve to complete guard recovery."
+      },
+      {
+        "step_number": 7,
+        "action": "Secure open guard position",
+        "description": "Transition from initial frames to a functional open guard with at least two connection points - one leg controlling distance and one hand controlling their upper body. Begin active guard retention to prevent immediate pass attempts."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Opponent follows the roll to maintain back control",
+        "effectiveness": "High",
+        "your_response": "If opponent follows your roll, immediately establish turtle defense or continue the roll to seated guard position - do not stop mid-roll",
+        "targets_outcome": "Back Control/Bottom"
+      },
+      {
+        "counter": "Opponent tightens leg entanglement anticipating the roll",
+        "effectiveness": "Medium",
+        "your_response": "Attack their posted leg base before rolling to destabilize their structure, then initiate the roll when they adjust",
+        "targets_outcome": "Aoki Lock/Bottom"
+      },
+      {
+        "counter": "Opponent switches to back control instead of finishing shoulder lock",
+        "effectiveness": "Medium",
+        "your_response": "If you feel them transitioning to back control, use the opening to extract your arm and immediately establish guard rather than completing full roll",
+        "targets_outcome": "Back Control/Bottom"
+      },
+      {
+        "counter": "Opponent base posts and resists the roll direction",
+        "effectiveness": "Low",
+        "your_response": "Their resistance to the roll often loosens the leg entanglement - use this moment to extract arm and hip escape to guard instead",
+        "targets_outcome": "Aoki Lock/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Rolling away from trapped arm direction",
+        "consequence": "Dramatically increases shoulder torque and may cause immediate submission or serious shoulder injury",
+        "correction": "Always roll toward your trapped arm - visualize rolling over that shoulder. This follows the pressure rather than fighting it."
+      },
+      {
+        "error": "Initiating roll with shoulder externally rotated",
+        "consequence": "Shoulder remains vulnerable to submission during roll, may tap mid-escape or sustain injury",
+        "correction": "Internally rotate shoulder before rolling - palm toward floor, elbow toward hip. Maintain this rotation throughout escape."
+      },
+      {
+        "error": "Attempting roll when shoulder is already at maximum pressure",
+        "consequence": "Movement under maximum pressure risks serious shoulder injury including rotator cuff tears or dislocation",
+        "correction": "Initiate escape early when you recognize the position, not after pressure is fully applied. If pressure is dangerous, tap immediately."
+      },
+      {
+        "error": "Stopping mid-roll without completing to guard",
+        "consequence": "Gives opponent opportunity to re-establish control or transition to back control with your arm still trapped",
+        "correction": "Commit fully to the roll and continue until you face opponent with guard frames established. Partial escapes invite counter-attacks."
+      },
+      {
+        "error": "Neglecting to establish guard frames after roll completion",
+        "consequence": "Opponent immediately closes distance and passes or re-attacks the shoulder from a new angle",
+        "correction": "Prioritize foot on hip or shin frame the instant you complete the roll - guard establishment is part of the escape, not a separate action."
+      },
+      {
+        "error": "Using muscular effort to fight the roll instead of technique",
+        "consequence": "Exhausts energy rapidly, increases shoulder stress, and often fails against committed opponents",
+        "correction": "Use technique and momentum rather than strength - the roll should feel smooth and use opponent's pressure to assist movement."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Week 1-2",
+        "focus": "Roll mechanics without resistance",
+        "description": "Practice forward roll mechanics from Aoki Lock position with compliant partner. Focus on roll direction toward trapped arm, internal shoulder rotation, and proper posting with free hand. 20+ repetitions per side."
+      },
+      {
+        "phase": "Week 3-4",
+        "focus": "Timing recognition",
+        "description": "Partner applies 30% pressure while you identify optimal roll timing windows. Focus on recognizing when opponent commits to hip drive vs adjusting position. Develop sensitivity to pressure changes that signal roll opportunities."
+      },
+      {
+        "phase": "Week 5-6",
+        "focus": "Complete sequence with guard recovery",
+        "description": "Chain the roll with immediate guard frame establishment against 50% resistance. Partner attempts to follow roll or re-attack. Focus on smooth transition from roll completion to functional guard position."
+      },
+      {
+        "phase": "Week 7+",
+        "focus": "Competition application",
+        "description": "Live positional sparring starting in Aoki Lock bottom. Partner attempts legitimate finish while you escape and recover guard. Test escape under realistic pressure and time constraints. Integrate with overall Aoki Lock defense system."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the primary biomechanical principle behind the Rolling Escape to Guard?",
+        "answer": "The primary principle is rolling with the submission pressure rather than against it. By rolling toward your trapped arm, you follow the path of least resistance, dramatically reducing shoulder torque while converting the opponent's forward hip drive into escape momentum. This allows you to create space for arm extraction while protecting the joint."
+      },
+      {
+        "question": "Why must you roll toward your trapped arm rather than away from it?",
+        "answer": "Rolling toward your trapped arm follows the direction of shoulder pressure rather than fighting against it, dramatically reducing torque on the shoulder joint. Rolling away increases the rotational stress on your shoulder, potentially causing submission or serious injury. The trapped-arm direction also creates space in the leg entanglement for arm extraction."
+      },
+      {
+        "question": "What shoulder position must you maintain throughout the rolling escape?",
+        "answer": "You must maintain internal shoulder rotation throughout the entire escape - palm facing toward the floor with elbow pulled toward your hip. This protects your shoulder from the dangerous external rotation that Aoki Lock applies. External rotation during the roll leaves your shoulder vulnerable to submission or injury even while escaping."
+      },
+      {
+        "question": "When is the optimal timing to initiate the rolling escape?",
+        "answer": "Initiate the roll when your opponent commits to forward hip drive for the finishing pressure. At this moment, their weight is forward and their leg entanglement is tight - you can use their pressure momentum to assist your roll while the committed position prevents them from easily adjusting. Do not wait until shoulder pressure reaches dangerous levels."
+      },
+      {
+        "question": "Your opponent begins following your roll toward back control - how should you adjust?",
+        "answer": "If opponent follows your rolling momentum, you have two options: establish turtle position immediately when arm extracts and address the back control threat, or continue the roll with more momentum into seated guard and immediately turn to face them. Do not stop mid-roll facing away from your opponent - this invites back control."
+      },
+      {
+        "question": "What are the key grips and frames needed immediately after completing the roll?",
+        "answer": "Immediately establish foot on hip frame with your primary leg to create distance and prevent opponent from closing in. Your free hand should control their collar, sleeve, or wrist to prevent them from re-establishing grips. The combination of leg frame and upper body grip creates functional open guard structure that prevents immediate pass or re-attack."
+      },
+      {
+        "question": "Your opponent tightens their leg entanglement when they sense you preparing to roll - what do you do?",
+        "answer": "Before rolling, attack their posted leg base with your free hand to destabilize their structure. When they adjust their base to maintain balance, the leg entanglement naturally loosens slightly - this is your window to initiate the roll. The key is creating a dilemma between maintaining leg tightness and maintaining base."
+      },
+      {
+        "question": "What distinguishes the Rolling Escape from the Arm Extraction escape from Aoki Lock?",
+        "answer": "The Rolling Escape uses forward momentum and the opponent's pressure to create escape, making it effective when opponent is actively finishing. The Arm Extraction escape works by loosening the leg entanglement first and pulling the arm free without rolling, which is better when the opponent's leg control is compromised. The roll works specifically because you use their committed pressure against them."
+      },
+      {
+        "question": "How do you determine whether to complete the full roll to guard or stop in turtle?",
+        "answer": "If the opponent follows your rolling momentum aggressively, stopping in turtle may be necessary because continuing the roll would expose your back. If the opponent is slow to react or their control breaks during the roll, complete the full rotation to open guard where you have better offensive options. Read the opponent's reaction during the roll to make this decision."
+      },
+      {
+        "question": "What conditions make the Rolling Escape higher or lower percentage?",
+        "answer": "The escape is highest percentage when the opponent commits heavily to forward hip pressure for the finish, when their posted leg base is narrow, and when you initiate before full pressure is applied. It becomes lower percentage when the opponent maintains wide base, controls your hips with their hands, or has already achieved maximum shoulder pressure where rolling risks injury."
+      }
+    ],
+    "safety_considerations": "The Rolling Escape from Aoki Lock involves significant shoulder joint stress and requires careful training progression. Never practice this escape under full finishing pressure - tap early if shoulder reaches discomfort threshold rather than risking injury during escape attempts. The shoulder should remain internally rotated throughout; external rotation during the roll can cause rotator cuff tears, labrum damage, or dislocation. Start all training with compliant partners and gradually increase resistance over weeks. Avoid this escape entirely if you have existing shoulder injuries or limited shoulder mobility. In competition, recognize that failed escape attempts may worsen shoulder position - if the roll does not create immediate arm extraction space, tap rather than continuing to fight from a worse angle. Communicate clearly with training partners about pressure levels and establish tap protocols before drilling."
+  },
+  "defender": {
+    "name": "Rolling Escape to Guard Defender",
+    "description": "How to counter the Rolling Escape from Aoki Lock top. Recognition cues, prevention strategies, and follow-up transitions to maintain control.",
+    "overview": "As the Aoki Lock top player, defending against the Rolling Escape requires anticipating and countering your opponent's attempt to use forward momentum to escape the shoulder lock. The rolling escape is the highest-percentage escape from Aoki Lock, so recognizing its setup early and having systematic counter-strategies is essential for finishing the submission or maintaining dominant position. Your defensive approach centers on three pillars: maintaining tight leg entanglement that resists the roll, controlling your opponent's hips to prevent roll initiation, and having a prepared follow-up plan when the roll begins so you can transition to back control rather than losing position entirely.\n\nThe key defensive insight is that you do not need to completely prevent the roll - you need to ensure that if the roll happens, you follow it into a dominant position. Many high-level grapplers allow the roll to begin and then ride it to back control, converting the opponent's escape attempt into a worse position for them. This requires sensitivity to the opponent's hip movement, strong chest-to-back pressure during the roll, and immediate hook insertion when the roll creates space. The defender who understands this principle turns the opponent's best escape into a transition opportunity.",
+    "key_principles": [
+      "Maintain tight leg entanglement with active squeezing to prevent space creation needed for the roll",
+      "Control opponent's hips with your hands to prevent them from generating the upward hip drive that initiates the roll",
+      "Keep your posted leg base wide and stable so the opponent cannot destabilize you before rolling",
+      "Follow the roll with chest-to-back pressure rather than fighting it - convert their escape into your back take",
+      "Recognize early hip movement cues and increase finishing pressure or transition before the roll begins",
+      "Maintain forward weight distribution through your hips to reduce space available for arm extraction during the roll"
+    ],
+    "recognition_cues": [
+      "Opponent's free hand posts on the mat beside their hip on the trapped arm side, establishing a base for the roll",
+      "Opponent's hips begin driving upward and forward toward their trapped arm, generating roll momentum",
+      "Opponent internally rotates their trapped shoulder with palm turning toward the floor and elbow pulling toward their hip",
+      "Opponent tucks their chin and shifts their weight forward rather than pulling away from the shoulder pressure",
+      "Opponent attacks your posted leg base with their free hand, attempting to destabilize you before initiating the roll"
+    ],
+    "defensive_options": [
+      {
+        "action": "Tighten leg entanglement and increase hip pressure to prevent roll initiation",
+        "when_to_use": "When you detect early setup cues before the roll begins - opponent posting free hand or shifting hips forward",
+        "targets_outcome": "Aoki Lock/Bottom",
+        "if_successful": "Opponent remains trapped in Aoki Lock and you can continue working toward the submission finish",
+        "risk": "Over-committing to tightening may create a static position that opponent can exploit with a different escape"
+      },
+      {
+        "action": "Follow the roll with chest-to-back connection and transition to back control with hooks",
+        "when_to_use": "When the roll has already begun and you cannot prevent it - ride their momentum and insert hooks as they complete the roll",
+        "targets_outcome": "Back Control/Bottom",
+        "if_successful": "You achieve back control with hooks, converting their escape attempt into a worse position for them",
+        "risk": "If you lose chest connection during the roll, opponent may complete to guard and you lose all control"
+      },
+      {
+        "action": "Widen base and control opponent's hips with both hands to block hip elevation",
+        "when_to_use": "When opponent begins attacking your posted leg or shifting their hips - preemptive base stabilization",
+        "targets_outcome": "Aoki Lock/Bottom",
+        "if_successful": "Opponent cannot generate the hip drive needed for the roll and remains trapped in Aoki Lock position",
+        "risk": "Using both hands on hips means you cannot simultaneously apply maximum shoulder pressure"
+      },
+      {
+        "action": "Accelerate the submission finish before roll completes",
+        "when_to_use": "When opponent initiates the roll but has not yet extracted their arm - the roll can momentarily increase shoulder exposure",
+        "targets_outcome": "Aoki Lock/Bottom",
+        "if_successful": "Opponent taps during the roll attempt as the movement briefly increases submission pressure",
+        "risk": "Forcing the finish during movement risks applying dangerous uncontrolled pressure that could injure your training partner"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Aoki Lock/Bottom",
+        "how": "Prevent the roll entirely by maintaining tight leg entanglement, controlling opponent's hips with your hands, and keeping your posted leg base wide. Recognize early setup cues and increase pressure or adjust position before they can generate roll momentum."
+      },
+      {
+        "outcome": "Back Control/Bottom",
+        "how": "When the roll cannot be prevented, ride it by maintaining chest-to-back connection throughout. As opponent completes the roll, insert your hooks before they can establish guard frames. Your existing upper body control from Aoki Lock converts directly into seatbelt or harness grip for back control."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Fighting the roll by pulling backward against the opponent's momentum",
+        "consequence": "Creates space in the leg entanglement as you separate, allowing arm extraction while you lose base and positional control",
+        "correction": "Follow the roll forward with chest-to-back pressure. Stay connected and convert the movement into a back take rather than fighting it."
+      },
+      {
+        "error": "Maintaining narrow posted leg base that is easily destabilized",
+        "consequence": "Opponent attacks your posted leg and collapses your base, making the roll easy to initiate and complete successfully",
+        "correction": "Keep your posted leg wide with foot firmly planted, distributing weight evenly. Adjust base position when you feel opponent targeting your post."
+      },
+      {
+        "error": "Losing leg entanglement tension during position adjustments",
+        "consequence": "Creates space for opponent to extract arm without needing to complete the full roll, escaping directly to guard",
+        "correction": "Maintain constant active squeezing with your legs even while adjusting hand position or base. Leg tension is your primary control mechanism."
+      },
+      {
+        "error": "Ignoring early roll setup cues and reacting only after the roll begins",
+        "consequence": "By the time you react, the roll has enough momentum to succeed and you cannot prevent it or follow effectively",
+        "correction": "Develop sensitivity to the three early cues: free hand posting, hip elevation, and internal shoulder rotation. Address the escape attempt at the earliest stage."
+      },
+      {
+        "error": "Forcing the finish aggressively when sensing the escape attempt",
+        "consequence": "Explosive uncontrolled pressure during movement risks serious shoulder injury to your training partner and may result in disqualification",
+        "correction": "Apply controlled progressive pressure rather than explosive force. If they are escaping, prioritize transitioning to back control over forcing a dangerous finish."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What are the earliest recognition cues that your opponent is preparing to roll?",
+        "answer": "The three earliest cues are: the opponent's free hand posting on the mat beside their hip on the trapped arm side, their hips beginning to drive upward toward the trapped arm creating roll momentum, and their trapped shoulder rotating internally with palm turning toward the floor. Recognizing these cues gives you time to increase pressure, adjust base, or prepare to follow the roll."
+      },
+      {
+        "question": "Why is following the roll often better than trying to prevent it entirely?",
+        "answer": "Following the roll with chest-to-back connection converts the escape attempt into a back control opportunity, which is actually a worse position for your opponent than Aoki Lock bottom. By riding their momentum and inserting hooks as they roll, you maintain dominant control throughout. Trying to prevent the roll by pulling backward often creates the exact space the opponent needs for arm extraction."
+      },
+      {
+        "question": "How should you adjust your base when you detect your opponent targeting your posted leg?",
+        "answer": "Widen your posted leg stance and shift weight distribution to make your base more stable against lateral attacks. If opponent reaches for your posted leg with their free hand, you can use that opening to increase hip pressure on their shoulder since their free hand is now occupied. This creates a dilemma where attacking your base reduces their escape capability."
+      },
+      {
+        "question": "Your opponent initiates the roll and you follow with chest connection - what must you do immediately as they complete the rotation?",
+        "answer": "Insert hooks inside their thighs before they can establish guard frames. Your legs, which were entangled around their arm, must transition to hip control hooks as the roll changes the positional relationship. Simultaneously convert your existing upper body control to seatbelt or harness grip. The transition window is approximately one to two seconds before they can post and face you."
+      },
+      {
+        "question": "What is the risk of forcing an accelerated finish when you sense the roll beginning?",
+        "answer": "Forcing explosive pressure during the opponent's rolling movement creates uncontrolled force vectors on the shoulder joint that can cause serious injury including rotator cuff tears, labrum damage, or dislocation. The dynamic movement makes it difficult to control pressure precisely. In competition this risks disqualification, and in training it risks injuring your partner. Controlled transition to back control is the safer high-percentage response."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Week 1-2",
+        "focus": "Recognition and prevention drills",
+        "description": "Partner telegraphs roll setups at slow speed while you practice recognizing the three early cues (hand post, hip elevation, shoulder rotation). Practice tightening leg entanglement and adjusting base in response. No live resistance - focus on pattern recognition."
+      },
+      {
+        "phase": "Week 3-4",
+        "focus": "Following the roll technique",
+        "description": "Partner executes the roll at moderate speed while you practice maintaining chest-to-back connection throughout the rotation. Focus on transitioning from Aoki Lock leg position to back control hooks during the roll. Develop smooth follow mechanics."
+      },
+      {
+        "phase": "Week 5-6",
+        "focus": "Decision-making under pressure",
+        "description": "Partner randomly chooses between rolling, arm extraction, or staying put from Aoki Lock bottom. You must read the situation and select appropriate response: tighten and finish, follow to back, or maintain position. 50% resistance with varied scenarios."
+      },
+      {
+        "phase": "Week 7+",
+        "focus": "Live positional sparring",
+        "description": "Full positional sparring starting in Aoki Lock top. Partner uses all escape methods while you work to finish or transition. Test your ability to recognize and counter rolling escapes in real-time with progressive resistance up to competition intensity."
+      }
+    ]
+  },
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Immediate Turtle Recovery",
+      "description": "Instead of completing the full roll to guard, stop in turtle position when the roll creates sufficient arm extraction space. Useful when opponent follows aggressively and you need immediate defensive position rather than open guard.",
+      "when_to_use": "When opponent follows your roll momentum and would immediately pass your guard"
+    },
+    {
+      "variant_name": "Seated Guard Continuation",
+      "description": "Continue the rolling momentum past open guard into a seated guard position with your back toward opponent. From seated guard, immediately turn to face opponent while establishing sleeve and leg control.",
+      "when_to_use": "When you have significant rolling momentum and opponent is slow to recover"
+    },
+    {
+      "variant_name": "Half Roll to Arm Extraction",
+      "description": "Initiate roll motion to create space in leg entanglement, but instead of completing full roll, use the loosened grip to extract arm and hip escape to guard. Less committed movement that works when opponent resists the roll direction.",
+      "when_to_use": "When opponent resists your roll by posting strongly, creating opening for arm extraction"
+    }
+  ],
+  "position_integration": "The Rolling Escape to Guard is the primary high-percentage escape from Aoki Lock bottom, fitting into the overall shoulder lock defense system alongside arm extraction and base attack escapes. This technique connects Aoki Lock defense to open guard recovery, where you can re-establish offensive threats or continue defensive sequences. The escape exemplifies the principle of flowing with submission pressure rather than fighting it - a concept that applies across all shoulder lock defenses. Successfully recovering guard from Aoki Lock prevents the top player from achieving their submission while returning you to a position with sweep and submission options. The rolling motion also sets up potential transitions to turtle if full guard recovery is not possible, maintaining defensive structure throughout the escape sequence."
+}

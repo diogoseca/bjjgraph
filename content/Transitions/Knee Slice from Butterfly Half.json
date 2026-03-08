@@ -1,0 +1,452 @@
+{
+  "name": "Knee Slice from Butterfly Half",
+  "description": "Master the knee slice pass from butterfly half guard in BJJ. Learn to neutralize butterfly hooks, slice through half guard, and advance to side control.",
+  "tags": [
+    "bjj",
+    "guard-passing",
+    "knee-slice",
+    "butterfly-half-guard",
+    "transition",
+    "pressure-passing",
+    "half-guard"
+  ],
+  "from_position": "Butterfly Half Guard/Top",
+  "outcomes": [
+    {
+      "to": "Side Control/Top",
+      "probability": 50,
+      "result": "success"
+    },
+    {
+      "to": "Half Guard/Top",
+      "probability": 20,
+      "result": "failure"
+    },
+    {
+      "to": "Butterfly Half Guard/Top",
+      "probability": 15,
+      "result": "failure"
+    },
+    {
+      "to": "Half Guard/Bottom",
+      "probability": 15,
+      "result": "counter"
+    }
+  ],
+  "success_rate": 50,
+  "overview": "The Knee Slice from Butterfly Half Guard is a specialized guard passing technique that addresses one of the most common and challenging hybrid guard configurations in modern Brazilian Jiu-Jitsu. Unlike a standard knee slice from regular half guard, this variation demands that the passer first neutralize the active butterfly hook before committing to the slicing motion across the thigh line. The butterfly hook creates an additional layer of defensive complexity because it provides the bottom player with elevation potential capable of sweeping the passer mid-technique if left unaddressed. The sequential challenge of killing the hook, establishing upper body control, and then executing the slice makes this a more technically demanding version of the fundamental knee cut pass.\n\nThe technique operates on a layered problem-solving framework: first control the butterfly hook through hip pressure, shin-on-shin contact, or direct manual control, then establish the crossface and underhook configuration necessary for the knee slice, and finally execute the slicing motion while maintaining chest-to-chest connection throughout. The critical mechanical insight is that the butterfly hook must be neutralized before the knee begins its journey across the bottom player's thigh—attempting to slice while the hook remains active is the primary reason this pass fails at the intermediate level. Practitioners who rush the slice without addressing the hook consistently find themselves elevated and swept.\n\nStrategically, the knee slice from butterfly half guard fills a critical gap in the top player's passing arsenal because butterfly half guard has become one of the most popular guard configurations in modern competition and training. Players who cannot effectively pass this hybrid position will consistently stall against guard players who combine butterfly hook elevation with half guard leg entanglement. The pass chains naturally with smash passing when the bottom player blocks the slice laterally, backstep passing when they overshoot the hook defense, and leg weave concepts when the knee shield appears as a secondary defense. This multi-layered integration creates a passing attack system where each defensive reaction from the guard player opens a new passing pathway for the top player.",
+  "conditions": [
+    "Top player has one leg trapped in half guard configuration with butterfly hook under free leg",
+    "Upper body control partially or fully established through crossface, collar tie, or underhook",
+    "Butterfly hook is manageable and not fully loaded with elevation pressure",
+    "Bottom player's posture is partially broken or flattened, reducing sweep threat",
+    "Free leg has stable base to drive slicing motion without collapsing structure"
+  ],
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Crossface-First Knee Slice",
+      "description": "Establish a heavy crossface to turn the bottom player's head away before initiating the slice. The crossface prevents the bottom player from following your motion and kills their ability to load the butterfly hook with directional force. Drive shoulder into their jaw while simultaneously dropping hip weight onto the butterfly hook side before slicing.",
+      "when_to_use": "When the bottom player has strong upper body grips but a relatively passive butterfly hook that can be managed through pressure alone."
+    },
+    {
+      "variant_name": "Shin-Pin Knee Slice",
+      "description": "Use your shin to pin the butterfly hook foot to the mat before beginning the slice. Step your free leg wide, drop your shin across the bottom player's butterfly hook foot, and use the pinning pressure to completely eliminate the hook's elevation potential. Once pinned, execute a standard knee slice with the confidence that the hook cannot disrupt your pass.",
+      "when_to_use": "When the bottom player has a very active butterfly hook that resists hip pressure alone and you need a mechanical solution to neutralize it before passing."
+    },
+    {
+      "variant_name": "Hip Switch Knee Slice",
+      "description": "Use a quick hip switch to change the angle of the knee slice, moving from a direct linear path to a diagonal cut that simultaneously bypasses the butterfly hook and clears the half guard trap. The hip switch creates momentary weightlessness that the bottom player cannot easily sweep through, while the new angle creates a passing lane that did not exist in the original alignment.",
+      "when_to_use": "When the bottom player is actively adjusting their butterfly hook to match your initial passing angle and a direct knee slice is being effectively countered through mirror adjustments."
+    },
+    {
+      "variant_name": "Underhook Knee Slice",
+      "description": "Secure a deep underhook on the butterfly hook side before initiating the slice. The underhook allows you to control the bottom player's far shoulder and hip line simultaneously, creating a unified control structure that prevents them from following your movement or generating sweep power. Drive the underhook deep to collapse their butterfly hook side frame before committing to the slice.",
+      "when_to_use": "When the bottom player has a strong overhook or collar tie that prevents crossface establishment, making the underhook the more accessible upper body control option."
+    }
+  ],
+  "position_integration": "The Knee Slice from Butterfly Half Guard occupies a critical position in the modern guard passing hierarchy, bridging the gap between butterfly guard passing concepts and half guard passing mechanics. It connects directly to the broader knee slice passing system used from headquarters position and standard half guard, while incorporating the butterfly hook management skills required for full butterfly guard passing. When the knee slice is defended, the passer can chain to smash pass by dropping hip weight laterally, backstep pass by reversing direction when the bottom player over-commits to the far side defense, or leg weave by threading the slicing leg deeper when the bottom player creates a knee shield frame. From the bottom player's perspective, this pass threat forces defensive reactions that connect to the deep half guard entry system, butterfly sweep counter-offense, and knee shield recovery chain. The technique serves as a key decision point in the positional hierarchy where the top player either advances toward side control or gets redirected into the half guard passing cycle.",
+  "related_content": [
+    {
+      "name": "Butterfly Half Guard",
+      "relationship": "Starting position from which this pass is initiated"
+    },
+    {
+      "name": "Side Control",
+      "relationship": "Primary target position on successful pass completion"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Intermediate position if butterfly hook is neutralized but pass stalls"
+    },
+    {
+      "name": "Knee Slice Pass",
+      "relationship": "Parent passing technique sharing core slicing mechanics"
+    },
+    {
+      "name": "Smash Pass",
+      "relationship": "Chain passing option when bottom player blocks the knee slice laterally"
+    },
+    {
+      "name": "Back Step Pass",
+      "relationship": "Alternative pass when bottom player over-defends the knee slice direction"
+    },
+    {
+      "name": "100% Sweep",
+      "relationship": "Primary counter sweep the bottom player threatens during the pass attempt"
+    },
+    {
+      "name": "Butterfly Half Guard Sweep",
+      "relationship": "Counter sweep technique exploiting passer's commitment to the slice"
+    },
+    {
+      "name": "Deep Half Guard",
+      "relationship": "Defensive transition the bottom player may use to escape the knee slice"
+    },
+    {
+      "name": "Knee Shield Half Guard",
+      "relationship": "Defensive recovery position the bottom player inserts to block the slice"
+    },
+    {
+      "name": "Headquarters Position",
+      "relationship": "Related passing control position sharing knee slice mechanics"
+    },
+    {
+      "name": "Dogfight Position",
+      "relationship": "Scramble position that can result when both players contest during the pass"
+    }
+  ],
+  "attacker": {
+    "name": "Knee Slice from Butterfly Half Attacker",
+    "description": "Complete guide to executing the knee slice pass from butterfly half guard top. Learn the sequential approach to neutralizing the butterfly hook, establishing upper body control, and completing the slice to side control with detailed mechanics and troubleshooting.",
+    "overview": "Executing the knee slice from butterfly half guard top requires a disciplined sequential approach that distinguishes it from a standard knee slice. The primary challenge is the butterfly hook, which acts as an active defensive mechanism capable of elevating and sweeping you if you attempt to slice without first neutralizing it. The pass demands that you solve three problems in order: kill the butterfly hook through hip pressure or direct control, establish dominant upper body position through crossface or underhook, and then execute the slicing motion with committed forward drive while maintaining chest connection. Rushing any step exposes you to sweeps from the butterfly hook or reguarding through the half guard trap. The successful passer treats this as a methodical progression rather than a single explosive movement, reading the bottom player's defensive adjustments at each stage and adapting the passing angle accordingly.",
+    "key_principles": [
+      "Kill the butterfly hook before initiating the knee slice—attempting to slice over an active hook is the most common cause of failure and sweep",
+      "Establish dominant upper body control through crossface or underhook before committing lower body to the slicing motion",
+      "Maintain chest-to-chest connection throughout the slice to prevent the bottom player from inserting frames or recovering guard",
+      "Drive the slicing knee diagonally across the thigh line using hip pressure, not just leg movement—the hip drives the knee",
+      "Post the free leg wide with toes gripping the mat for base stability against sweep attempts during the transition",
+      "Use sequential weight shifting rather than jumping into the pass—transfer pressure from butterfly hook control to the slicing motion progressively",
+      "Arrive with your upper body first and let the lower body follow—head and shoulders establish side control before the legs finish clearing"
+    ],
+    "setup_requirements": [
+      "Butterfly hook must be neutralized or controlled through hip pressure, shin pin, or direct hand control before beginning the slice",
+      "Crossface or underhook established on the far side to prevent the bottom player from following your passing motion",
+      "Half guard entanglement identified and weakened through preliminary pressure or angle adjustment",
+      "Free leg posted wide with stable base on the mat to resist sweep attempts during the passing transition",
+      "Bottom player's upright posture broken or at minimum compromised so they cannot load the butterfly hook with full elevation power"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Establish Upper Body Control",
+        "description": "From butterfly half guard top, fight to establish a crossface by driving your shoulder into the bottom player's jaw and turning their head away from the passing direction. Alternatively, secure an underhook on the butterfly hook side by threading your arm under their armpit. This upper body control must be in place before any lower body passing mechanics begin, as it prevents the bottom player from sitting up into a strong sweeping posture and limits their ability to follow your movement during the slice."
+      },
+      {
+        "step_number": 2,
+        "action": "Neutralize the Butterfly Hook",
+        "description": "With upper body control established, address the butterfly hook by dropping your hip weight onto the hook side, collapsing the space the bottom player needs for elevation. Drive your hips low and forward, using your body weight to flatten their butterfly hook foot to the mat. You can reinforce this by placing your shin across their hook foot or using your free hand to push their knee down toward the mat. The hook is neutralized when the bottom player can no longer generate meaningful upward lift through their hooked leg."
+      },
+      {
+        "step_number": 3,
+        "action": "Position the Slicing Knee",
+        "description": "With the butterfly hook controlled, angle your trapped leg so that the knee points diagonally across the bottom player's body toward their far hip. Your knee should be positioned at the apex of their thigh line, ready to begin the slicing trajectory. Keep your shin tight against their inner thigh to prevent them from recovering the butterfly hook or switching to a knee shield frame during this transition. Your weight should be distributed forward through your chest and shoulders, not sitting back on your heels."
+      },
+      {
+        "step_number": 4,
+        "action": "Drive the Knee Across",
+        "description": "Initiate the slice by driving your hip forward and down while your knee travels diagonally across the bottom player's thigh. The power comes from hip extension, not from pushing with the knee alone. Simultaneously intensify your crossface pressure to pin their shoulders to the mat and prevent them from turning into you or recovering guard. Your free leg posts wide and drives forward to provide the engine for the slicing motion. Maintain constant chest-to-chest pressure throughout this phase to prevent any space from opening."
+      },
+      {
+        "step_number": 5,
+        "action": "Clear the Half Guard Entanglement",
+        "description": "As your knee crosses the thigh line, the bottom player's half guard grip will weaken. Use the momentum of the slice to free your trapped leg by windshield-wipering your foot out of their leg entanglement. Do not pull your foot straight back, as this creates space they can exploit for reguarding. Instead, circle your foot toward the mat on the far side while maintaining forward hip pressure. Your shin should scrape across their thigh as it clears, keeping constant contact rather than lifting away."
+      },
+      {
+        "step_number": 6,
+        "action": "Establish Side Control Frames",
+        "description": "As your leg clears the entanglement, immediately establish side control grips by sliding your crossface arm deeper under their head and placing your far arm either in an underhook position or controlling their near hip. Your chest should already be connected to their chest from the slicing motion. Spread your legs wide with toes on the mat to create a stable base. Drop your hip weight onto their torso to prevent any bridge or hip escape attempts during the consolidation."
+      },
+      {
+        "step_number": 7,
+        "action": "Consolidate Side Control",
+        "description": "Complete the pass by settling your full weight into side control position. Adjust your hip placement so your near hip is blocking their ability to turn into you, and your far hip is low to prevent them from inserting a knee. Tighten your crossface to control their head position and limit their defensive movement. Walk your feet toward their head slightly to angle your body perpendicular to theirs, maximizing pressure distribution. The pass is complete when you have stable chest-to-chest connection with controlled head position and no remaining leg entanglement."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Bottom player elevates with butterfly hook during slice initiation",
+        "effectiveness": "High",
+        "your_response": "Immediately drop hips low and sprawl weight back onto the hook to kill the elevation. If the sweep is already in motion, post your far hand wide and circle to the non-butterfly side to redirect their momentum. Re-establish upper body control before reattempting the slice.",
+        "targets_outcome": "Butterfly Half Guard/Top"
+      },
+      {
+        "counter": "Bottom player hip escapes and inserts knee shield frame",
+        "effectiveness": "Medium",
+        "your_response": "Transition to a smash pass by dropping your weight onto the knee shield and driving it flat. Alternatively, backstep around the knee shield by reversing direction and stepping your free leg behind their knee shield to enter from a new angle. Do not try to force the knee slice through a fully established knee shield.",
+        "targets_outcome": "Half Guard/Top"
+      },
+      {
+        "counter": "Bottom player secures underhook and drives to dogfight position",
+        "effectiveness": "High",
+        "your_response": "Immediately whizzer the underhook arm by threading your arm over their bicep and clamping down with your elbow. Drive your weight onto their shoulder through the whizzer to flatten them back to the mat. If they achieve full dogfight, disengage the knee slice and re-establish top position through crossface pressure before reattempting.",
+        "targets_outcome": "Half Guard/Bottom"
+      },
+      {
+        "counter": "Bottom player dives underneath to deep half guard",
+        "effectiveness": "Medium",
+        "your_response": "Immediately sprawl your hips back to prevent them from getting fully underneath you. Control their far shoulder with a whizzer or crossface and work to flatten them by driving your hip into their face side. If they achieve deep half, transition to the deep half guard passing sequence rather than forcing the knee slice from a compromised angle.",
+        "targets_outcome": "Butterfly Half Guard/Top"
+      },
+      {
+        "counter": "Bottom player grabs your slicing leg ankle and redirects your knee path",
+        "effectiveness": "Low",
+        "your_response": "Strip the ankle grip by circling your foot away from their hand while maintaining forward hip drive. The forward pressure of the slice combined with your upper body control makes ankle grips alone insufficient to stop the pass. If they persist, use your free hand to break the grip and immediately resume the slicing motion before they can establish a stronger frame.",
+        "targets_outcome": "Half Guard/Top"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Attempting the knee slice before neutralizing the butterfly hook",
+        "consequence": "The active butterfly hook catches your forward momentum and redirects it into a sweep, sending you over to the side or directly onto your back. The bottom player uses your own commitment to the slice as the engine for their sweep completion.",
+        "correction": "Always address the butterfly hook first through hip pressure, shin pin, or direct hand control. Verify the hook is dead by testing for upward lift before initiating any slicing motion. Treat hook neutralization as a mandatory prerequisite, not an optional step."
+      },
+      {
+        "error": "Rising up high to generate slicing power instead of staying low with chest connection",
+        "consequence": "Creates space between your chest and the bottom player's torso, allowing them to insert frames, recover butterfly hook, transition to knee shield, or sit up into a sweeping posture. The space you create becomes the weapon used against you.",
+        "correction": "Generate slicing power through hip drive and forward pressure, not by rising up. Your chest should remain glued to their chest throughout the entire slicing motion. Think of sliding your body forward rather than lifting up and cutting down."
+      },
+      {
+        "error": "Neglecting the crossface and relying solely on the knee slice motion",
+        "consequence": "Without crossface control, the bottom player can turn into you, follow your passing direction, and either reguard or come up to a dogfight position. The pass becomes a scramble rather than a controlled progression.",
+        "correction": "Establish and maintain crossface throughout the entire pass. The crossface pins their head and prevents them from turning or following. Even if your knee slice is technically perfect, without head control the bottom player retains too many defensive options."
+      },
+      {
+        "error": "Rushing the pass as a single explosive movement rather than a sequential progression",
+        "consequence": "Skipping steps creates windows where the bottom player can execute sweeps, insert frames, or transition to defensive guards. The explosive approach works against beginners but consistently fails against trained guard players who exploit gaps in your passing sequence.",
+        "correction": "Treat the pass as three distinct phases: upper body control, hook neutralization, knee slice execution. Only advance to the next phase when the current one is secured. Methodical progression is slower but dramatically more reliable than explosive attempts."
+      },
+      {
+        "error": "Pulling the trapped foot straight backward during leg extraction instead of windshield-wipering",
+        "consequence": "Pulling straight back creates space between your hip and their body, which the bottom player exploits to reguard with a knee shield, recover full butterfly half guard, or insert frames that stall the pass. The backward pull also compromises your base momentarily.",
+        "correction": "Windshield-wiper your foot by circling it toward the mat on the far side while maintaining constant forward hip pressure. The foot traces an arc rather than a straight line, keeping continuous contact with their leg and preventing space from opening during extraction."
+      },
+      {
+        "error": "Narrow base with the free leg during the slicing motion",
+        "consequence": "Without a wide base, any lateral sweep attempt from the bottom player has a high probability of success because your center of gravity is unstable. Even minor off-balancing from the remaining butterfly hook or a hip bump can topple you.",
+        "correction": "Post your free leg wide with toes gripping the mat, creating a stable triangle base with your slicing knee and posted foot. The wider the base, the more lateral force you can absorb during the transition. Adjust base width continuously as you progress through the slice."
+      },
+      {
+        "error": "Allowing the bottom player to re-establish grips after initially breaking their structure",
+        "consequence": "The bottom player recovers offensive potential through grips, underhook, or collar tie, forcing you to restart the passing sequence from the beginning while having expended energy on the failed attempt.",
+        "correction": "Maintain continuous pressure and forward progression once you begin the pass. Do not pause between steps or allow breathing room. Each phase should flow into the next with constant weight and control, denying grip recovery opportunities."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Hook Neutralization Mechanics",
+        "focus": "Butterfly hook killing techniques",
+        "description": "Practice only the hook neutralization portion against a cooperative partner who holds butterfly half guard. Work hip drops, shin pins, and direct hand control of the hook. Partner provides progressively stronger hook elevation attempts while you develop sensitivity to when the hook is truly dead versus merely suppressed. 5-minute rounds focused exclusively on killing the hook without proceeding to the pass."
+      },
+      {
+        "phase": "Phase 2: Upper Body Control Integration",
+        "focus": "Combining crossface and underhook with hook control",
+        "description": "Add upper body control establishment to the hook neutralization drill. Practice the sequence of crossface to hook kill, or underhook to hook kill, developing muscle memory for the correct order of operations. Partner now resists upper body control and defends the hook simultaneously, forcing you to manage both challenges. Reset after upper body control is established—do not proceed to the slice yet."
+      },
+      {
+        "phase": "Phase 3: Full Pass Execution at Low Resistance",
+        "focus": "Complete knee slice sequence with controlled partner",
+        "description": "Execute the complete pass from hook neutralization through side control consolidation against a partner providing 30-50% resistance. Focus on smooth transitions between phases rather than speed. Partner allows the pass to succeed but provides enough resistance to require correct technique at each stage. Drill 20-30 repetitions per round, refining the feeling of continuous pressure throughout the sequence."
+      },
+      {
+        "phase": "Phase 4: Counter Recognition and Adaptation",
+        "focus": "Responding to defensive reactions during the pass",
+        "description": "Partner now actively defends using specific counters: butterfly hook elevation, knee shield insertion, underhook to dogfight, and deep half entry. Practice recognizing each counter early and applying the correct response. Build chains where a defended knee slice flows to smash pass, backstep, or re-establishment of position. Develop the if-then decision framework for each defensive reaction."
+      },
+      {
+        "phase": "Phase 5: Live Positional Sparring",
+        "focus": "Full resistance application from butterfly half guard top",
+        "description": "Start in butterfly half guard top against a fully resisting partner. Top player's objective is to pass to side control using the knee slice or any chain passing option that develops from it. Bottom player uses their full arsenal of sweeps and transitions. Track success rates over multiple rounds to identify which phases of the pass are breaking down and which counters you struggle to address."
+      },
+      {
+        "phase": "Phase 6: Competition Integration",
+        "focus": "Applying the pass under match pressure conditions",
+        "description": "Incorporate the knee slice from butterfly half guard into full rolling sessions, specifically seeking the position during sparring. Practice setting up the passing attempt proactively by steering guard players into butterfly half guard configurations where you can apply the technique. Develop entries into the position from standing passing sequences and chain the pass with your existing guard passing system under time pressure and scoring conditions."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What must happen to the butterfly hook before you can safely initiate the knee slice motion?",
+        "answer": "The butterfly hook must be completely neutralized through hip pressure, shin pin, or direct hand control before beginning the slice. You verify neutralization by testing whether the bottom player can generate meaningful upward lift through the hooked leg. If any elevation potential remains, the hook will catch your forward momentum during the slice and convert it into a sweep. Treat hook neutralization as a mandatory prerequisite that must be confirmed before advancing to the slicing phase."
+      },
+      {
+        "question": "Your opponent elevates with the butterfly hook as you begin the knee slice—how do you adjust?",
+        "answer": "Immediately abort the slice and address the hook. Drop your hips low and sprawl your weight back onto the butterfly hook side to kill the elevation. Post your far hand wide on the mat to create a base point against the sweep direction. If the elevation has significant momentum, circle toward the non-butterfly side while maintaining shoulder pressure to redirect their sweeping force. Only reattempt the slice after re-establishing both upper body control and hook neutralization."
+      },
+      {
+        "question": "What is the correct trajectory of the slicing knee during execution?",
+        "answer": "The knee travels diagonally across the bottom player's thigh line, moving from inside to outside while angling toward their far hip. The power comes from hip extension driving forward and down, not from pushing the knee independently. The shin maintains constant contact with the bottom player's inner thigh throughout the slice, scraping across rather than lifting away. This diagonal path with continuous contact prevents the bottom player from inserting frames or recovering guard during the slicing motion."
+      },
+      {
+        "question": "The bottom player inserts a knee shield as you begin the slice—what options do you have?",
+        "answer": "You have three primary options when a knee shield appears. First, transition to a smash pass by dropping your hip weight directly onto the knee shield to flatten it and drive through with heavy pressure. Second, backstep by reversing your slicing leg behind their knee shield to attack from a new angle on the opposite side. Third, maintain crossface pressure and work to strip the knee shield by pushing their knee toward the mat with your hand before re-initiating the slice. Forcing the knee slice through an established knee shield is the least effective option."
+      },
+      {
+        "question": "What grip or control must be established on the far side before committing to the slice?",
+        "answer": "A crossface driving your shoulder into the bottom player's jaw to turn their head away from the passing direction is the primary control. The crossface prevents them from following your movement, sitting up into sweep posture, or turning to insert defensive frames. Alternatively, an underhook on the butterfly hook side that controls their far shoulder provides similar upper body dominance. Without either of these controls, the bottom player retains enough mobility to counter the slice through head following, underhook establishment, or posture recovery."
+      },
+      {
+        "question": "Where should your weight be distributed during the slicing motion?",
+        "answer": "Weight should be distributed forward through your chest and shoulders into the bottom player's torso, creating constant chest-to-chest pressure. Your hips drive the slice forward and down while remaining as low as possible to prevent space creation. The free leg carries minimal weight but posts wide for base stability. Avoid sitting back on your heels or rising up above the bottom player—both errors create space that enables defensive reactions. Think of your body weight flowing through your chest onto their chest, with the hip as the engine driving everything forward."
+      },
+      {
+        "question": "Your opponent secures a deep underhook and begins coming up to a dogfight position during your slice—how do you respond?",
+        "answer": "Immediately apply a whizzer by threading your arm over their underhook bicep and clamping your elbow tight to your ribs. Drive your bodyweight down onto their shoulder through the whizzer to flatten them back to the mat. If they achieve full dogfight before you can whizzer, disengage the knee slice entirely and work to re-flatten them using crossface and hip pressure before reattempting. Do not continue the knee slice against a fully established dogfight—the underhook gives them enough mechanical advantage to sweep or take the back."
+      },
+      {
+        "question": "What is the role of the free leg during the knee slice execution?",
+        "answer": "The free leg serves as both the engine and the stabilizer for the pass. It posts wide on the mat with toes gripping for traction, providing the base stability necessary to resist sweep attempts from the remaining half guard entanglement or any residual butterfly hook pressure. During the slicing phase, the free leg drives forward to power the hip extension that propels the slicing knee across the thigh line. The wider the free leg posts, the more lateral stability you maintain against counter-sweep attempts during the vulnerable transition moment."
+      },
+      {
+        "question": "The bottom player transitions to deep half guard as you attempt the knee slice—what is your counter?",
+        "answer": "Immediately sprawl your hips back to prevent them from getting fully underneath your center of gravity. Control their far shoulder with a crossface or whizzer to limit their ability to complete the deep half entry. If they achieve deep half, abandon the knee slice and transition to deep half guard passing by establishing a whizzer and working to flatten them with shoulder pressure while walking your hips away. The key is early recognition—if you catch the deep half attempt during initiation, the sprawl alone often kills it."
+      },
+      {
+        "question": "How do you properly extract your trapped foot after the knee has crossed the thigh line?",
+        "answer": "Windshield-wiper your foot by circling it toward the mat on the far side rather than pulling it straight backward. The foot traces an arc that maintains constant contact with their legs, preventing any space from opening during extraction. Simultaneously maintain forward hip pressure so that the extraction does not create the backward momentum the bottom player needs to reguard. If the half guard grip is exceptionally tight, use your free hand to push their top knee down while you circle the foot free, but never sacrifice chest-to-chest pressure to reach for the leg."
+      }
+    ],
+    "safety_considerations": "When drilling the knee slice from butterfly half guard, exercise caution with the lateral pressure your slicing knee applies to the bottom player's inner thigh and knee joint. Excessive force or incorrect angle during the slice can stress the MCL and meniscus of the bottom player's trapped leg. Control your speed during the slicing phase, especially when the bottom player's leg is entangled and cannot move freely. The crossface should apply firm but controlled pressure—avoid driving forcefully into the jaw or neck in a way that could cause cervical spine discomfort. Both partners should communicate about pressure levels throughout the drill. During live sparring, be particularly aware of knee position when the bottom player is actively defending, as unexpected directional changes can create dangerous twisting forces on trapped joints. If the bottom player taps or verbally indicates discomfort at any point during the pass, release pressure immediately."
+  },
+  "defender": {
+    "name": "Knee Slice from Butterfly Half Defender",
+    "description": "Complete defensive guide against the knee slice pass from butterfly half guard bottom. Learn to recognize the attack early, maintain your butterfly hook, and counter with sweeps or guard transitions to deny the pass.",
+    "overview": "Defending the knee slice from butterfly half guard bottom centers on preserving the two structural elements that make the position viable: the butterfly hook elevation potential and the half guard leg entanglement. The passer must neutralize both to complete the slice, so your defensive strategy focuses on keeping at least one of these elements active at all times. Early recognition of the knee slice setup—specifically the passer dropping hip weight onto your butterfly hook and establishing crossface—gives you the critical seconds needed to choose between maintaining the position through active hook defense, transitioning to an alternative guard system like deep half or knee shield, or converting the passer's commitment into a counter-sweep. The defender who waits until the knee is already crossing the thigh line has significantly fewer options than one who recognizes and reacts at the hook neutralization phase.",
+    "key_principles": [
+      "Maintain an active butterfly hook with constant upward pressure as your primary line of defense—a live hook prevents the slice from starting",
+      "Fight relentlessly for the underhook to prevent crossface establishment, which is the passer's key to controlling your head and limiting your defensive movement",
+      "Stay on your side rather than flat on your back to preserve hip mobility for frames, escapes, and sweep attempts during the pass",
+      "Recognize the pass attempt during the hook neutralization phase rather than waiting until the knee is already slicing—early recognition creates more defensive options",
+      "Threaten counter-sweeps constantly to force the passer into defensive reactions that interrupt their passing sequence",
+      "Have a secondary defensive plan ready for when the butterfly hook is killed—knee shield insertion, deep half entry, or reguard to closed guard",
+      "Frame against the slicing knee with your hands or forearm to slow its progress while creating the hip movement needed to reguard"
+    ],
+    "recognition_cues": [
+      "Top player drops hip weight specifically onto your butterfly hook side, attempting to flatten or pin the hook to the mat",
+      "Top player establishes crossface by driving shoulder into your jaw and turning your head away from the butterfly hook side",
+      "Top player's slicing knee begins angling diagonally toward your far hip rather than staying neutral in the half guard position",
+      "Top player's free leg posts wide and begins driving forward, indicating committed weight transfer for the slicing motion",
+      "Top player's chest pressure intensifies and drops lower onto your torso, eliminating the space needed for hook elevation"
+    ],
+    "defensive_options": [
+      {
+        "action": "Active butterfly hook elevation and sweep attempt",
+        "when_to_use": "When you detect the knee slice setup early, before the passer has fully neutralized your hook, and you still have meaningful elevation power through the hooked leg",
+        "targets_outcome": "Half Guard/Bottom",
+        "if_successful": "You sweep the passer using their forward commitment against them, ending in top position with half guard or better",
+        "risk": "If the passer reads the elevation attempt and sprawls, they kill the hook more decisively and resume the pass from a stronger position"
+      },
+      {
+        "action": "Hip escape and knee shield insertion",
+        "when_to_use": "When the butterfly hook has been partially or fully neutralized and the passer is beginning the slicing motion—insert your inside knee as a frame before the knee crosses the thigh line",
+        "targets_outcome": "Half Guard/Top",
+        "if_successful": "You convert from butterfly half guard to knee shield half guard, which stops the knee slice and forces the passer to address a new defensive structure",
+        "risk": "If the knee shield insertion is late, the passer drives through it with the existing slice momentum and passes directly to side control"
+      },
+      {
+        "action": "Underhook and come up to dogfight position",
+        "when_to_use": "When the passer has killed your butterfly hook but has not yet established a strong crossface—you still have upper body mobility to fight for the underhook",
+        "targets_outcome": "Half Guard/Bottom",
+        "if_successful": "You achieve a dogfight scramble where your underhook gives you access to sweeps, back takes, or guard recovery from a strong position",
+        "risk": "The passer applies a whizzer and drives you flat, completing the pass or establishing a more dominant top position"
+      },
+      {
+        "action": "Dive to deep half guard",
+        "when_to_use": "When the passer applies heavy forward pressure with crossface established and your butterfly hook is compromised—use their forward momentum to slide underneath them",
+        "targets_outcome": "Butterfly Half Guard/Top",
+        "if_successful": "You escape the knee slice entirely and establish deep half guard, which offers superior sweeping mechanics from underneath",
+        "risk": "If the deep half entry is too slow, the passer sprawls and you end up flattened underneath them with neither butterfly half nor deep half guard established"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Half Guard/Bottom",
+        "how": "Time a counter-sweep as the passer commits their weight forward for the knee slice. Use the butterfly hook or an underhook-driven reversal to exploit their directional commitment and sweep them into bottom half guard. The critical timing window is during the passer's weight transfer from hook neutralization to slicing motion, when their base is temporarily narrowed."
+      },
+      {
+        "outcome": "Butterfly Half Guard/Top",
+        "how": "Maintain active butterfly hook defense by constantly driving the hook upward and fighting for the underhook to deny the crossface. Force the passer to abort the knee slice by threatening sweeps every time they attempt to initiate. Frame against the slicing knee with your far hand while hip escaping to reset the position. If successful, the passer returns to neutral butterfly half guard top without having advanced."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Allowing the butterfly hook to become passive without constant upward pressure",
+        "consequence": "The passer neutralizes the hook easily through basic hip pressure, removing your primary defensive mechanism and allowing the knee slice to proceed without resistance from the elevation threat",
+        "correction": "Keep the butterfly hook aggressively active with continuous upward driving force through hip flexors and knee extension. Even between sweep attempts, maintain constant tension in the hook to force the passer to address it before they can initiate the slice."
+      },
+      {
+        "error": "Accepting the crossface without fighting for the underhook",
+        "consequence": "The crossface turns your head away from the passing direction, eliminates your ability to follow the passer's movement, and pins your shoulders flat, removing access to sweeps, frames, and transitions that require upper body mobility",
+        "correction": "Fight aggressively for the underhook before the passer establishes crossface. Frame against their bicep, swim your arm underneath, and establish the underhook on the butterfly hook side. If the crossface lands, immediately work to remove it through framing and hip escape rather than accepting it."
+      },
+      {
+        "error": "Lying flat on the back instead of maintaining a side angle toward the passer",
+        "consequence": "Being flat removes hip mobility needed for framing, hip escaping, and transitioning to alternative guard positions. The passer can apply maximum chest-to-chest pressure and the knee slice meets minimal structural resistance.",
+        "correction": "Maintain your body on its side facing the passer with shoulders elevated off the mat. Use constant hip escape motion to prevent flattening. If flattened, prioritize getting back to your side through a frame and hip escape before the slicing knee crosses the thigh line."
+      },
+      {
+        "error": "Waiting until the knee is already crossing to begin defensive reactions",
+        "consequence": "Once the knee is mid-slice with crossface established and hook killed, defensive options are severely limited. The window for effective defense has passed, and most defensive attempts at this stage result in scrambles where the passer has the advantage.",
+        "correction": "React during the setup phase—when the passer begins dropping hip weight onto your hook or establishing the crossface. Early defensive reactions at the hook-killing phase give you maximum options. Train yourself to recognize setup cues rather than the slice itself."
+      },
+      {
+        "error": "Releasing the half guard leg entanglement prematurely during defensive transitions",
+        "consequence": "Without the half guard trap, the passer can freely disengage and attack with any passing option, not just the knee slice. You lose the structural anchor that limits their mobility and provides the foundation for your defensive guard system.",
+        "correction": "Maintain the half guard trap throughout all defensive transitions. Whether you insert a knee shield, come to dogfight, or dive to deep half, keep the half guard entanglement intact until you have established control in the new position. Only release the trap when you have a superior alternative control mechanism secured."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What are the earliest recognition cues that a knee slice is being set up from butterfly half guard top?",
+        "answer": "The earliest cues are the passer dropping hip weight specifically onto your butterfly hook side to kill the elevation potential, and the passer fighting to establish a crossface by driving their shoulder into your jaw. These actions precede the actual slicing motion by several seconds and represent the setup phase where you have maximum defensive options. Secondary cues include the passer's slicing knee angling toward your far hip and their free leg posting wide to build the base for forward drive."
+      },
+      {
+        "question": "The passer has killed your butterfly hook and is beginning the slice—what is your immediate priority?",
+        "answer": "Your immediate priority is inserting a secondary defensive structure before the knee crosses the thigh line. The two highest-percentage options are inserting a knee shield by driving your inside knee across their body as a frame, or diving to deep half guard by sliding underneath them while their weight is committed forward. The choice depends on spacing—if there is room between your bodies, the knee shield is more accessible; if the passer is tight against you with heavy chest pressure, the deep half entry exploits their forward commitment."
+      },
+      {
+        "question": "How does maintaining an active butterfly hook prevent the knee slice from being initiated?",
+        "answer": "An active butterfly hook with constant upward pressure forces the passer to solve the elevation problem before they can safely commit to the slicing motion. If they attempt to slice while the hook is active, their forward momentum feeds directly into a butterfly sweep because the hook redirects their weight over the elevation point. This means the passer must dedicate time and energy to killing the hook first, which creates windows for you to counter-attack during their hook neutralization attempts. The active hook essentially acts as a gate that must be unlocked before the pass can begin."
+      },
+      {
+        "question": "You failed to stop the knee slice early and the passer is halfway through—what recovery options remain?",
+        "answer": "With the knee mid-slice, your options narrow significantly but are not eliminated. Frame against the slicing knee with both hands and hip escape hard in the opposite direction to create space for guard recovery. If the passer's upper body control is loose, swim your near arm for an underhook and attempt to come to turtle or dogfight before the pass consolidates. If the pass appears inevitable, begin preemptive framing for side control defense by getting your near elbow to the mat and establishing inside frames before they settle their weight."
+      },
+      {
+        "question": "When is counter-sweeping during the knee slice attempt most effective?",
+        "answer": "Counter-sweeping is most effective during the transition between hook neutralization and slice initiation—the moment when the passer shifts their weight from killing your hook to driving the knee forward. At this precise moment, their base is temporarily narrowed as weight transfers from wide base to directional drive. The butterfly hook elevation, if timed to this weight transfer, catches the passer in a structurally compromised position where they cannot simultaneously abort the slice and re-establish wide base. This requires reading the passer's timing and loading the hook in anticipation rather than reacting after the slice begins."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Recognition Drills",
+        "focus": "Identifying knee slice setup cues from butterfly half guard bottom",
+        "description": "Partner initiates the knee slice setup slowly while you call out each recognition cue as it appears: hip drop on hook, crossface attempt, knee angling, free leg posting. Practice identifying the setup 20-30 times until the cue recognition becomes automatic. No defensive reactions yet—focus purely on reading the passer's intentions."
+      },
+      {
+        "phase": "Phase 2: Hook Retention Under Pressure",
+        "focus": "Maintaining active butterfly hook against hook-killing attempts",
+        "description": "Partner specifically targets your butterfly hook through hip drops, shin pins, and hand control while you practice keeping the hook active. Develop sensitivity for how much upward pressure is needed to maintain threat and when the hook is being successfully killed despite your defense. If the hook dies, practice immediate transition to secondary defense rather than fighting a dead position."
+      },
+      {
+        "phase": "Phase 3: Defensive Option Selection",
+        "focus": "Choosing correct defensive response based on passer's approach",
+        "description": "Partner varies between four knee slice setups: crossface-first, shin-pin, underhook, and hip switch. For each variation, practice the optimal defensive response: counter-sweep timing, knee shield insertion, underhook to dogfight, or deep half entry. Build the decision tree through repetition until the correct response fires automatically for each setup variation."
+      },
+      {
+        "phase": "Phase 4: Live Defense Sparring",
+        "focus": "Full resistance defense against knee slice from butterfly half guard bottom",
+        "description": "Positional sparring starting in butterfly half guard bottom against a partner committed to the knee slice pass. Score points for sweeps, guard retention after 90 seconds, and successful transitions to alternative guard positions. Track which defensive options succeed most frequently against different training partners and refine your defensive decision-making under genuine pressure."
+      }
+    ]
+  }
+}

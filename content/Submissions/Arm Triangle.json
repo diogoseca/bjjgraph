@@ -1,0 +1,521 @@
+{
+  "name": "Arm Triangle",
+  "description": "Master the Arm Triangle choke in BJJ. Setup from side control, execution mechanics, finishing details. Success rates: Beginner 35%, Intermediate 55%, Advanced 70%.",
+  "tags": [
+    "bjj",
+    "submission",
+    "choke",
+    "arm-triangle",
+    "side-control",
+    "kata-gatame",
+    "blood-choke",
+    "hub",
+    "finishing-guide"
+  ],
+  "submission_category": "Choke",
+  "submission_type": "Blood Choke",
+  "target_area": "Carotid arteries (compressed by opponent's own shoulder and your arm)",
+  "starting_position": "Side Control",
+  "success_rate": 62,
+  "overview": "The Arm Triangle (Kata Gatame) is a fundamental blood choke that uses the opponent's own shoulder and arm to compress one carotid artery while your arm compresses the other. Unlike the rear naked choke which requires access to both sides of the neck, the arm triangle turns the opponent's defensive frame into an offensive weapon. This submission is particularly effective from side control and can be finished from multiple positions including modified mount, north-south transition, and even from turtle when the opponent is defending incorrectly. The mechanics rely on proper head positioning, shoulder pressure, and controlled weight distribution rather than pure strength. Understanding the anatomy of the choke—creating a triangle with your arms around the opponent's head and their own arm—is essential for consistent finishing. The arm triangle represents a perfect example of using an opponent's defensive structure against them, making it a high-percentage submission across all skill levels when the fundamental mechanics are properly applied.",
+  "safety_considerations": {
+    "injury_risks": [
+      {
+        "injury": "Loss of consciousness from blood choke",
+        "severity": "High",
+        "recovery_time": "Immediate recovery if released promptly; potential stroke risk if held too long"
+      },
+      {
+        "injury": "Neck strain from improper pressure angle",
+        "severity": "Medium",
+        "recovery_time": "3-7 days with rest"
+      },
+      {
+        "injury": "Shoulder compression injury to trapped arm",
+        "severity": "Medium",
+        "recovery_time": "5-14 days depending on severity"
+      }
+    ],
+    "application_speed": "SLOW and progressive - 3-5 seconds minimum from lock to tap. Blood chokes can cause unconsciousness in 6-8 seconds.",
+    "tap_signals": [
+      "Verbal tap (say 'tap' clearly)",
+      "Physical hand tap (multiple taps on opponent or mat)",
+      "Physical foot tap (multiple taps with foot)",
+      "Any distress signal or loss of resistance",
+      "Immediately release if opponent goes limp"
+    ],
+    "release_protocol": [
+      "Immediately release arm squeeze and remove head pressure",
+      "Step back from opponent's head and shoulders",
+      "Allow opponent to breathe and recover (30-60 seconds)",
+      "Check for consciousness and normal breathing",
+      "If unconscious: position on side, elevate legs, monitor breathing until conscious"
+    ],
+    "training_restrictions": [
+      "Never spike or jerk the submission - apply smooth progressive pressure only",
+      "Never hold after tap signal - release immediately upon any tap",
+      "Always allow tap access - do not trap both arms in training",
+      "Never use competition speed in training - practice control first",
+      "Stop immediately if opponent's face changes color (purple/red indicates excessive pressure)"
+    ]
+  },
+  "outcomes": [
+    {
+      "to": "game-over",
+      "probability": 60,
+      "result": "success"
+    },
+    {
+      "to": "Side Control/Top",
+      "probability": 25,
+      "result": "failure"
+    },
+    {
+      "to": "Closed Guard/Bottom",
+      "probability": 15,
+      "result": "counter"
+    }
+  ],
+  "from_positions": [
+    "Side Control",
+    "Mount",
+    "High Mount",
+    "Modified Mount",
+    "North-South",
+    "Kesa Gatame",
+    "Turtle",
+    "Half Guard",
+    "Knee on Belly"
+  ],
+  "related_submissions": [
+    "Darce Choke",
+    "Anaconda Choke",
+    "North-South Choke",
+    "Guillotine Choke",
+    "Rear Naked Choke",
+    "Ezekiel Choke",
+    "Clock Choke",
+    "Brabo Choke",
+    "Marce Choke"
+  ],
+  "related_content": [
+    {
+      "name": "Side Control Consolidation",
+      "relationship": "Primary setup position requiring tight control"
+    },
+    {
+      "name": "Mount",
+      "relationship": "Alternative setup position when opponent frames"
+    },
+    {
+      "name": "Kuzure Kesa-Gatame",
+      "relationship": "Modified scarf hold position allows similar setup"
+    },
+    {
+      "name": "Modified Scarf Hold",
+      "relationship": "Body positioning allows similar mechanics"
+    },
+    {
+      "name": "North-South",
+      "relationship": "Finishing position variation with downward pressure"
+    },
+    {
+      "name": "Technical Mount",
+      "relationship": "Alternative finishing position with leg control"
+    },
+    {
+      "name": "S Mount",
+      "relationship": "Modified mount finish provides excellent angle"
+    },
+    {
+      "name": "Darce Choke",
+      "relationship": "Related head and arm choke with similar mechanics"
+    },
+    {
+      "name": "Anaconda Choke",
+      "relationship": "Sister submission with opposite arm threading direction"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Can set up arm triangle during top pressure passing"
+    },
+    {
+      "name": "Turtle",
+      "relationship": "Common setup position when opponent turtles defensively"
+    },
+    {
+      "name": "Back Control",
+      "relationship": "Alternative target when opponent turns during arm triangle defense"
+    }
+  ],
+  "attacker": {
+    "name": "Arm Triangle Attacker",
+    "description": "How to execute Arm Triangle in BJJ. Attacking perspective with setup, execution, and finishing mechanics.",
+    "overview": "The Arm Triangle (Kata Gatame) is a fundamental blood choke that uses the opponent's own shoulder and arm to compress one carotid artery while your arm compresses the other. Unlike the rear naked choke which requires access to both sides of the neck, the arm triangle turns the opponent's defensive frame into an offensive weapon. This submission is particularly effective from side control and can be finished from multiple positions including modified mount, north-south transition, and even from turtle when the opponent is defending incorrectly. The mechanics rely on proper head positioning, shoulder pressure, and controlled weight distribution rather than pure strength. Understanding the anatomy of the choke—creating a triangle with your arms around the opponent's head and their own arm—is essential for consistent finishing. The arm triangle represents a perfect example of using an opponent's defensive structure against them, making it a high-percentage submission across all skill levels when the fundamental mechanics are properly applied.",
+    "key_principles": [
+      "Create the triangle structure: your arms and opponent's trapped arm/shoulder form three sides around their neck",
+      "Head position is critical: your head must be tight to opponent's head on the choke side to prevent space",
+      "Shoulder pressure drives the choke: walk your shoulder toward opponent's head to compress carotid",
+      "Angle adjustment: slight angle toward trapped arm side tightens the choke significantly",
+      "Squeeze mechanics: pull elbow to ribcage while driving shoulder pressure, not just arm strength",
+      "Weight distribution: use body weight through shoulder, not arm strength alone",
+      "Trapped arm positioning: opponent's arm must be across their own neck for choke to work"
+    ],
+    "setup_requirements": [
+      "Opponent's near arm must be isolated and positioned across their own neck",
+      "Head control established with your head tight to opponent's head",
+      "Crossface control active to prevent opponent turning into you",
+      "Your choking arm must thread under opponent's neck with proper depth",
+      "Hip positioning allows weight to drive through shoulder toward opponent's head",
+      "Opponent's far arm controlled or neutralized to prevent escape frames"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Isolate and trap the near arm",
+        "description": "From side control with crossface pressure, use your chest and shoulder to drive opponent's near arm across their own neck. The key is making their defensive frame become the choking mechanism. Drive your weight through your shoulder while controlling their head, forcing their arm to cross their centerline. This arm will compress one carotid artery while your arm compresses the other.",
+        "timing": "2-3 seconds"
+      },
+      {
+        "step_number": 2,
+        "action": "Thread the choking arm deep",
+        "description": "Slide your near arm (the one closest to opponent's head) under their neck, reaching as deep as possible toward the far side of their neck. Your bicep should contact one side of their neck while their own trapped shoulder/arm contacts the other side. The deeper you can thread this arm, the tighter the eventual choke. Your forearm should emerge on the far side of their head with your hand reaching toward their far shoulder.",
+        "timing": "1-2 seconds"
+      },
+      {
+        "step_number": 3,
+        "action": "Lock the grip and create the triangle",
+        "description": "Reach your free hand over opponent's back and grab your own bicep (gable grip) or clasp your hands together. This creates the triangle structure: your bicep on one side of their neck, their trapped arm/shoulder on the other side, and your forearm across the back of their head/neck. Ensure your head is positioned tight against opponent's head on the choke side—this is critical to prevent space and escape.",
+        "timing": "1-2 seconds"
+      },
+      {
+        "step_number": 4,
+        "action": "Adjust angle and position",
+        "description": "Shift your body position slightly toward the trapped arm side (typically moving toward north-south or modified mount). This angle adjustment is what transforms the hold into a finishing choke. Your shoulder should be driving toward opponent's head, and your hips should be positioned to allow maximum shoulder pressure. Some practitioners prefer to step over into modified mount; others finish from a tight side control angle.",
+        "timing": "2-3 seconds"
+      },
+      {
+        "step_number": 5,
+        "action": "Drive shoulder pressure and walk the choke tight",
+        "description": "The finish comes from walking your shoulder toward opponent's head while simultaneously squeezing your elbows together and pulling your choking-side elbow to your ribcage. Your shoulder pressure combined with the squeeze closes the triangle and compresses both carotid arteries. Walk your knees forward incrementally (small steps) to increase shoulder pressure. Keep your head glued to opponent's head throughout.",
+        "timing": "3-5 seconds to tap"
+      },
+      {
+        "step_number": 6,
+        "action": "Maintain position and pressure until tap",
+        "description": "Continue steady pressure with your shoulder driving forward and elbows tight to your body. Do not relax or adjust once the choke is locked—maintain consistent pressure. Watch for tap signals carefully as blood chokes can cause unconsciousness quickly. The moment you feel a tap or see any distress signal, release immediately by opening your arms and stepping back from opponent's head and shoulders.",
+        "timing": "1-3 seconds typically"
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Frame against your neck/chin with trapped arm",
+        "effectiveness": "High",
+        "your_response": "Maintain crossface pressure and wait for arm to fatigue, or use your weight to collapse the frame by driving your shoulder through their arm structure. Once frame collapses, thread deeper immediately.",
+        "targets_outcome": "Side Control/Top"
+      },
+      {
+        "counter": "Turn into you to recover guard",
+        "effectiveness": "High",
+        "your_response": "Prevent the turn by maintaining heavy crossface and hip pressure. If they begin turning, you can transition to taking the back or switching to a guillotine variation. Do not fight the turn if they commit—flow with it to back control.",
+        "targets_outcome": "Closed Guard/Bottom"
+      },
+      {
+        "counter": "Bridge and create space at the hips",
+        "effectiveness": "Medium",
+        "your_response": "Base wide with your legs and keep your weight distributed through your shoulder toward their head, not your hips. A proper arm triangle keeps weight high on the shoulders, making hip escapes less effective. Tighten your head position to their head.",
+        "targets_outcome": "Side Control/Top"
+      },
+      {
+        "counter": "Grab your choking arm wrist and pull down",
+        "effectiveness": "Medium",
+        "your_response": "This defense only works before the lock is complete. Once your hands are locked and head position is tight, their pulling provides minimal relief. Counter by accelerating your shoulder walk and angle adjustment to finish before they can create significant space.",
+        "targets_outcome": "Side Control/Top"
+      },
+      {
+        "counter": "Straighten trapped arm to create space",
+        "effectiveness": "Low",
+        "your_response": "If your angle and shoulder pressure are correct, straightening the arm actually tightens the choke by creating a more rigid compression structure. Continue walking your shoulder forward and maintain head-to-head pressure.",
+        "targets_outcome": "game-over"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Squeezing with arm strength alone without shoulder pressure",
+        "consequence": "Choke never tightens fully, opponent can defend indefinitely, you fatigue your arms quickly",
+        "correction": "Use your entire body weight driving through your shoulder toward opponent's head. The squeeze comes from structural pressure and body positioning, not bicep strength. Walk your knees forward to increase shoulder drive."
+      },
+      {
+        "error": "Head position too far from opponent's head (space between heads)",
+        "consequence": "Opponent can turn their head into the space and relieve pressure on carotid arteries, preventing the finish",
+        "correction": "Keep your head glued tight to opponent's head on the choke side throughout the entire sequence. Think of your head as a plug preventing their escape. No space should exist between your heads."
+      },
+      {
+        "error": "Finishing from directly perpendicular side control position",
+        "consequence": "Choke angle is inefficient, opponent can bridge or turn more easily, finish becomes strength-based",
+        "correction": "Always adjust your angle toward the trapped arm side before finishing. Move toward north-south or step into modified mount. The angle change is what makes the choke work with technique rather than strength."
+      },
+      {
+        "error": "Not threading arm deep enough under opponent's neck",
+        "consequence": "Insufficient control of one side of neck, choke becomes one-sided arm bar on neck rather than true blood choke",
+        "correction": "Before locking your grip, ensure your choking arm is as deep as possible with your bicep on the far side of their neck. Your hand should be reaching toward their far shoulder. Depth creates the proper triangle structure."
+      },
+      {
+        "error": "Holding the choke after opponent taps or goes unconscious",
+        "consequence": "Can cause loss of consciousness, potential brain damage from prolonged oxygen deprivation, or stroke in extreme cases",
+        "correction": "Release immediately upon any tap signal. Watch opponent's face color and resistance level. If they go limp or stop resisting, release instantly even without tap. Blood chokes work quickly—there is no benefit to holding pressure after tap."
+      },
+      {
+        "error": "Applying sudden jerking or spiking pressure to finish faster",
+        "consequence": "Can cause neck strain, whiplash-type injury, or force unconsciousness before opponent can tap safely",
+        "correction": "Apply smooth, progressive pressure over 3-5 seconds minimum. The gradual increase allows opponent to recognize the danger and tap safely. Training is about control and learning, not speed finishes."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Mechanics Isolation",
+        "focus": "Triangle structure and arm threading depth",
+        "description": "With a compliant partner, practice isolating the near arm across the neck and threading your choking arm to proper depth. Drill the grip lock and head positioning without any finishing pressure. Repeat 20-30 reps per side focusing on consistent arm depth and head seal. Partner provides zero resistance and gives feedback on pressure placement."
+      },
+      {
+        "phase": "Phase 2: Positional Finishing",
+        "focus": "Angle adjustment and shoulder walk mechanics",
+        "description": "From a locked arm triangle position, practice the angle change toward modified mount or north-south and the shoulder walk finishing sequence. Partner remains still and taps when choke engages to verify correct mechanics. Focus on generating finishing pressure from body weight and angle rather than arm squeeze. Drill from both sides with emphasis on the non-dominant side."
+      },
+      {
+        "phase": "Phase 3: Entry and Counter Integration",
+        "focus": "Setup chains and responding to defensive reactions",
+        "description": "Partner provides moderate resistance and uses common defenses: framing with trapped arm, turning in, bridging, and grabbing the choking wrist. Practice recognizing each defense and applying the correct counter-response while maintaining the submission position. Chain the arm triangle with transitions to back take, guillotine, or darce when primary finish is defended."
+      },
+      {
+        "phase": "Phase 4: Live Sparring Integration",
+        "focus": "Opportunistic entry recognition and competition finishing",
+        "description": "During positional sparring from side control and mount, identify natural arm triangle opportunities when opponent frames defensively. Practice entering the submission under full resistance with emphasis on not telegraphing intent. Develop sensitivity for when to commit to the finish versus when to abandon and maintain position. Track finishing percentage and identify which defensive patterns give you the most difficulty."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What creates the actual choking pressure in an arm triangle, and why is it more effective than just squeezing with your arms?",
+        "answer": "The choking pressure comes from the triangle structure formed by your bicep on one side of the opponent's neck, their own trapped shoulder/arm on the other side, and your shoulder driving toward their head. This structural pressure compresses both carotid arteries simultaneously. It's more effective than arm squeezing because you're using your entire body weight through proper positioning and angle, making it sustainable and powerful without relying on grip strength that fatigues quickly.",
+        "safety_critical": false
+      },
+      {
+        "question": "Why is head position critical in the arm triangle, and what specific position should your head maintain?",
+        "answer": "Your head must be positioned tight against the opponent's head on the choke side with no space between heads. This is critical because any space allows the opponent to turn their head into that gap, relieving pressure on the carotid artery and escaping the choke. Your head essentially acts as a plug that prevents their head from turning and maintains the compression on both sides of their neck throughout the finish.",
+        "safety_critical": false
+      },
+      {
+        "question": "What is the minimum application time for an arm triangle in training, and why is this safety protocol important?",
+        "answer": "Minimum 3-5 seconds of progressive pressure from lock to tap. This safety protocol is important because blood chokes can cause unconsciousness in 6-8 seconds, and sudden spiking pressure can force unconsciousness before the opponent has time to recognize the danger and tap safely. Gradual application allows the training partner to feel the choke developing and tap early, preventing injury while still learning the mechanics effectively.",
+        "safety_critical": true
+      },
+      {
+        "question": "What angle adjustment is needed to finish the arm triangle effectively, and why is finishing from perpendicular side control inefficient?",
+        "answer": "You must shift your body angle toward the trapped arm side, typically moving toward north-south or modified mount rather than staying perpendicular to opponent's body. This angle adjustment is what transforms the hold into a finishing choke because it allows your shoulder to drive more directly toward their head, creating the compression needed on both carotid arteries. From perpendicular side control, your shoulder pressure is less effective and the opponent can more easily bridge or turn to escape.",
+        "safety_critical": false
+      },
+      {
+        "question": "What are the immediate steps you must take upon receiving a tap signal during an arm triangle, and what additional monitoring is required if the opponent was held too long?",
+        "answer": "Immediately release arm squeeze and remove all head pressure, step back from opponent's head and shoulders completely, and allow them to breathe and recover for 30-60 seconds. If the opponent was held too long and goes unconscious, position them on their side, elevate their legs slightly, and monitor their breathing closely until they regain consciousness. Never leave an unconscious training partner unattended. Check for normal breathing pattern and mental clarity before allowing them to continue training.",
+        "safety_critical": true
+      },
+      {
+        "question": "What is the proper mechanics of the 'squeeze' in an arm triangle finish, and which body parts generate the majority of the pressure?",
+        "answer": "The squeeze comes from pulling your choking-side elbow tight to your ribcage while simultaneously walking your shoulder forward toward opponent's head. The majority of pressure is generated by your shoulder driving through your body weight (walking your knees forward) rather than your arm muscles. Your elbows squeeze together to tighten the triangle structure, but the finishing pressure comes from shoulder walk and body positioning, not bicep strength.",
+        "safety_critical": false
+      },
+      {
+        "question": "Your opponent starts to bridge explosively while you have the arm triangle locked - what adjustment prevents escape?",
+        "answer": "Base out wide with your legs to absorb the bridge force, keep your weight distributed forward through your shoulder toward their head rather than sitting on your hips. Drive your head tighter against theirs to eliminate any space created. If the bridge is strong, use their upward momentum to accelerate your angle change toward the trapped arm side, which actually tightens the choke. Never fight the bridge by going rigid - flow with it while maintaining your structural pressure.",
+        "safety_critical": false
+      },
+      {
+        "question": "What anatomical structures does the arm triangle attack, and how does the opponent's own body contribute to the submission?",
+        "answer": "The arm triangle compresses the carotid arteries on both sides of the neck, restricting blood flow to the brain. The opponent's own shoulder and trapped arm create one side of the compression against one carotid, while your bicep and forearm compress the other carotid. This is why the submission is so efficient - you only need to control one side with your arm because the opponent's body provides the other compression surface. The triangle structure (your arm, their arm, your forearm behind the head) creates a sealed compression chamber around the neck.",
+        "safety_critical": false
+      },
+      {
+        "question": "What grip adjustments should you make if your initial lock feels loose or the opponent is creating space?",
+        "answer": "First, check that your choking arm is threaded deep enough with your bicep fully past the centerline of their neck. If shallow, rethread before tightening. Second, ensure you're grabbing your own bicep rather than just clasping hands, as the bicep grip provides more structural rigidity. Third, pull your locking hand deeper over their back to create a tighter triangle. Finally, drive your head tighter against theirs and walk your shoulder forward - often the grip isn't the problem, it's insufficient angle and pressure.",
+        "safety_critical": false
+      },
+      {
+        "question": "What is the point of no escape in an arm triangle, and how do you recognize when the opponent can no longer defend?",
+        "answer": "The point of no escape occurs when three conditions are met: your arm is threaded deep with bicep past neck centerline, your angle is adjusted toward the trapped arm side allowing direct shoulder drive, and your head is sealed tight against theirs eliminating any turning space. At this point, even if the opponent bridges or struggles, they cannot create enough space to relieve carotid pressure. You recognize this when you feel both sides of their neck compressed and they can no longer turn their head. The tap usually follows within 3-5 seconds of reaching this position.",
+        "safety_critical": false
+      },
+      {
+        "question": "In competition, what finishing strategies maximize your arm triangle success rate under time pressure?",
+        "answer": "Establish the position quickly but finish slowly and methodically - rushing the finish often loses the position entirely. Use your body weight efficiently by walking knees forward rather than muscling the squeeze. If the first angle doesn't finish within 10-15 seconds, briefly disengage and reattack from a different setup rather than burning energy on a stalling choke. Consider transitioning to modified mount for the finish if side control angle isn't working - the leg control prevents escape during your finish. Always maintain the option to transition to darce or anaconda if they defend the standard arm triangle.",
+        "safety_critical": false
+      },
+      {
+        "question": "What visual and tactile indicators tell you the choke is working and you should continue applying pressure versus when you need to readjust?",
+        "answer": "Working choke indicators: opponent's face begins to redden or flush, you feel their body relax slightly as blood flow restricts, their defensive movements become weaker and less coordinated, and you can feel both sides of the neck being compressed simultaneously through your structure. Readjustment needed: opponent can turn their head freely, you feel space between your head and theirs, their bridge movements create significant displacement, or you're having to squeeze hard with your arms rather than feeling structural pressure. If you must use arm strength to maintain pressure, your angle or depth is wrong.",
+        "safety_critical": true
+      }
+    ]
+  },
+  "defender": {
+    "name": "Arm Triangle Defender",
+    "description": "How to defend against Arm Triangle in BJJ. Recognition, escape paths, and defensive strategies.",
+    "overview": "Defending the arm triangle requires early recognition and immediate action, as the submission becomes exponentially harder to escape once the attacker locks their grip and adjusts their angle. The defender's primary objective is preventing the arm from being driven across their own neck in the first place, because once that arm is trapped and the attacker threads under the neck, the defensive window narrows rapidly. The most critical defensive principle is understanding that your own shoulder is being weaponized against you—the attacker needs your arm across your neck to create the compression. Keeping your elbows tight to your body and never allowing your near arm to cross your centerline eliminates the primary setup. When caught in the early stages, creating a strong frame with the trapped arm against the attacker's neck prevents them from closing the gap and sealing the choke. Timing is everything: the bridge-and-turn escape must happen before the attacker completes the angle adjustment, and the wrist grip defense must be applied before the lock is fully secured. Advanced defenders learn to use the attacker's commitment to the arm triangle as an opportunity to recover guard by turning into the attacker during the setup phase, accepting a temporarily worse position to ultimately escape the submission threat entirely.",
+    "key_principles": [
+      "Prevent arm isolation: keep elbows tight to your body and never allow your near arm to cross your own neck centerline",
+      "Early recognition is survival: defend during the setup phase before the grip is locked, not after the choke is sealed",
+      "Create frames immediately: use your trapped arm to frame against the attacker's neck or jaw to prevent head seal and maintain space",
+      "Turn into the attacker: rotating toward the choking side creates space and can lead to guard recovery before the angle is set",
+      "Control the choking arm wrist: grip the attacker's wrist with your free hand and pull downward to prevent depth and threading completion",
+      "Bridge timing is critical: explosive bridges must happen during the angle adjustment phase when the attacker's base is transitional",
+      "Never go flat: maintain a slight angle with your hips to preserve bridging power and prevent full compression"
+    ],
+    "recognition_cues": [
+      "Attacker drives crossface pressure while simultaneously walking their chest into your near arm, pushing it across your own neck and trapping it between your bodies",
+      "Attacker's head drops tight against the side of your head on the choke side, eliminating the gap you need to turn and creating the seal for the compression triangle",
+      "Attacker begins threading their near arm under your neck with their hand reaching past the far side, combined with a distinct weight shift toward your head as they prepare the angle change"
+    ],
+    "defensive_options": [
+      {
+        "action": "Frame with trapped arm against attacker's neck and jaw",
+        "when_to_use": "Immediately when you feel your arm being driven across your neck and before the attacker locks their grip. Most effective in the first 2-3 seconds of the setup.",
+        "targets_outcome": "Side Control/Top",
+        "if_successful": "Prevents the choke from being locked and forces attacker to abandon the submission attempt, returning to standard side control position",
+        "risk": "If the frame collapses under sustained pressure, you lose your last defensive barrier and the choke locks in deeper than if you had attempted a different escape"
+      },
+      {
+        "action": "Turn into attacker to recover closed guard",
+        "when_to_use": "When the attacker begins their angle adjustment toward modified mount or north-south. The weight shift during angle change creates a window for rotation before the choke is fully sealed.",
+        "targets_outcome": "Closed Guard/Bottom",
+        "if_successful": "Recover to closed guard by turning into the attacker, using their angle change momentum to create space for hip movement and leg insertion",
+        "risk": "If the turn is incomplete, you may expose your back to the attacker who can transition to back control instead of finishing the arm triangle"
+      },
+      {
+        "action": "Bridge explosively toward trapped arm side and roll",
+        "when_to_use": "When the attacker has locked the grip but has not yet completed the angle adjustment. Their base is most vulnerable during the transition between side control and modified mount positions.",
+        "targets_outcome": "Side Control/Top",
+        "if_successful": "Reverses the position entirely, ending in top position as the attacker's committed arm position prevents them from posting to stop the roll",
+        "risk": "Requires significant explosive power and precise timing. If the bridge fails, you exhaust energy reserves needed for subsequent escape attempts"
+      },
+      {
+        "action": "Grab choking arm wrist with free hand and pull downward",
+        "when_to_use": "During the threading phase before the attacker locks their hands together. Once both hands are locked, this defense becomes ineffective against proper technique.",
+        "targets_outcome": "Side Control/Top",
+        "if_successful": "Prevents the attacker from achieving sufficient depth with the choking arm, making the triangle structure too loose to generate finishing pressure",
+        "risk": "Commits your free arm to a single defensive task, reducing your ability to frame or create space with that hand if the grip fight is lost"
+      }
+    ],
+    "escape_paths": [
+      "Frame against attacker's neck with trapped arm to prevent head seal, then shrimp hips away and insert knee to recover half guard before the grip is locked",
+      "Turn into the attacker during the angle adjustment phase, using the weight shift window to hip escape toward them and recover closed guard with legs wrapped around their torso",
+      "Bridge explosively toward the trapped arm side when attacker transitions to modified mount, using their compromised base during the step-over to roll them and reverse position"
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Side Control/Top",
+        "how": "Bridge and roll toward the trapped arm side during the attacker's angle adjustment phase when their base is compromised by the transition. The attacker's arm commitment prevents them from posting to stop the reversal, allowing you to end in top side control."
+      },
+      {
+        "outcome": "Closed Guard/Bottom",
+        "how": "Turn into the attacker before the choke is fully sealed by using your hips to rotate toward them during their angle change. Insert your legs around their waist as you turn, recovering full closed guard and neutralizing the submission threat entirely."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Allowing the near arm to drift across your own neck without resistance",
+        "consequence": "Gives the attacker the primary setup condition for free. Once the arm crosses your centerline and the attacker threads underneath, recovery becomes exponentially harder.",
+        "correction": "Keep elbows pinned tight to your ribs at all times in side control. The moment you feel crossface pressure pushing your arm, actively fight to keep your elbow connected to your hip and your fist near your own chin."
+      },
+      {
+        "error": "Pushing on the attacker's head or chest with straight arms while trapped",
+        "consequence": "Extended arms accelerate the arm isolation and give the attacker a lever to drive your arm across your neck faster. You also exhaust arm strength needed for framing defense.",
+        "correction": "Use short, bent-arm frames against the attacker's neck and jaw rather than pushing with extended arms. Frame with your forearm and elbow connected to your torso for structural strength."
+      },
+      {
+        "error": "Bridging directly upward instead of toward the trapped arm side",
+        "consequence": "An upward bridge against a properly angled arm triangle has no mechanical advantage. The attacker's weight is distributed forward through their shoulder, making vertical bridges ineffective and energy-wasting.",
+        "correction": "Always bridge at a 45-degree angle toward the trapped arm side. This direction exploits the attacker's compromised base during the angle change and creates the rotational force needed for a reversal."
+      },
+      {
+        "error": "Waiting until the choke is fully locked before attempting defense",
+        "consequence": "Once the attacker's grip is locked, head is sealed, and angle is adjusted, escape probability drops below 10%. All meaningful defensive windows have passed.",
+        "correction": "Defend during the setup phase. The moment you recognize the crossface driving your arm, the arm threading, or the head dropping tight, begin your primary escape immediately. Seconds matter in arm triangle defense."
+      },
+      {
+        "error": "Turning away from the attacker to relieve pressure",
+        "consequence": "Turning away exposes your back and gives the attacker a direct path to back control with hooks. This trades a bad position for a potentially worse one.",
+        "correction": "Always turn toward the attacker when escaping, not away. Turning into them creates the space needed for guard recovery while keeping your back protected against the mat."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the single most important preventive defense against the arm triangle, and at what stage must it be applied?",
+        "answer": "The most important preventive defense is keeping your near-side elbow tight to your body and never allowing your arm to cross your own neck centerline. This must be applied constantly while in bottom side control, not reactively after the setup begins. The arm triangle requires your arm across your neck to function—if that condition is never met, the submission cannot be initiated regardless of the attacker's skill level. Maintaining this discipline eliminates the arm triangle threat entirely.",
+        "safety_critical": false
+      },
+      {
+        "question": "Your opponent has locked the grip and is walking toward modified mount to finish - what is your last realistic escape window?",
+        "answer": "The angle adjustment phase (moving from side control to modified mount) is the last realistic escape window because the attacker's base is temporarily compromised during the step-over transition. Execute an explosive bridge toward the trapped arm side at the exact moment they lift their leg to step over. Their committed arm position prevents them from posting, and the directional bridge can reverse the position. If this window passes and the angle is set, the probability of escape drops dramatically and you should focus on tapping before unconsciousness.",
+        "safety_critical": true
+      },
+      {
+        "question": "Why is turning toward the attacker the correct escape direction, and what makes turning away dangerous?",
+        "answer": "Turning toward the attacker creates space between your neck and their choking arm by moving your body into the gap rather than tightening it. This direction also allows you to insert your legs for guard recovery since you're rotating toward their hips. Turning away is dangerous because it exposes your back to the attacker, who can easily insert hooks and transition to back control. Additionally, turning away can actually tighten the choke by compressing your trapped arm further into your own neck as the rotation closes the triangle structure.",
+        "safety_critical": false
+      },
+      {
+        "question": "At what point should you tap to an arm triangle in training, and what physical signals indicate the choke is engaged on the carotid arteries?",
+        "answer": "You should tap the moment you feel bilateral pressure on both sides of your neck combined with the inability to create space through framing or turning. Physical signals that the blood choke is engaged include a sudden sensation of pressure in your head, visual changes (tunnel vision or darkening at the edges), a feeling of fullness or throbbing in your temples, and a rapid decrease in your ability to generate defensive force. Do not wait for these signals to intensify—tap immediately upon recognizing carotid compression. Blood chokes can cause unconsciousness in 6-8 seconds from full engagement.",
+        "safety_critical": true
+      },
+      {
+        "question": "How does the frame defense with the trapped arm work mechanically, and what specific contact point on the attacker should you target?",
+        "answer": "The frame defense works by inserting your trapped forearm vertically against the attacker's neck or jawline, creating a structural barrier that prevents them from closing the head seal needed to finish the choke. The specific target is the attacker's throat and chin area—placing your forearm bone against their neck creates a rigid structure that is difficult to collapse with shoulder pressure alone. The frame must be reinforced by keeping your elbow connected to your torso for structural support rather than relying on arm strength. This defense is most effective before the grip is locked, as it prevents the attacker from achieving the head-to-head seal critical for finishing.",
+        "safety_critical": false
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Recognition and Prevention",
+        "focus": "Identifying arm triangle setups and maintaining preventive posture",
+        "description": "Partner slowly sets up arm triangle from side control while you practice recognizing the three key cues: crossface driving your arm, arm threading under your neck, and head dropping tight. Focus on maintaining elbow-to-hip connection and preventing arm isolation. No escape attempts yet—purely recognition and positional discipline at walking speed."
+      },
+      {
+        "phase": "Phase 2: Early-Stage Escapes",
+        "focus": "Frame defense and wrist grip defense during setup phase",
+        "description": "Partner initiates arm triangle setup with moderate resistance. Practice the frame defense with trapped arm against their neck and the free-hand wrist grip to prevent arm threading depth. Partner provides realistic pressure but pauses at each checkpoint so you can execute the defense. Build muscle memory for immediate defensive reactions before the grip is locked."
+      },
+      {
+        "phase": "Phase 3: Late-Stage Escapes Under Pressure",
+        "focus": "Bridge-and-roll timing and turn-in guard recovery",
+        "description": "Partner locks the arm triangle grip and begins the angle adjustment. Practice explosive bridge toward the trapped arm side with proper timing during the step-over transition. Also drill turning into the attacker for guard recovery during the angle change window. Partner provides 70-80% resistance and finishes the choke if your timing or technique fails, reinforcing the urgency of correct execution."
+      },
+      {
+        "phase": "Phase 4: Full Resistance Positional Sparring",
+        "focus": "Integrating all defensive layers against live attacks",
+        "description": "Positional sparring starting from side control where the top player's goal is finishing the arm triangle and the bottom player chains all defensive layers: prevention, early-stage escapes, and late-stage escapes in sequence. Full resistance with realistic transitions. Track which defensive layer succeeds most often and identify gaps in your defensive chain that need additional drilling."
+      }
+    ]
+  },
+  "variations_and_setups": [
+    {
+      "variation_name": "Arm Triangle from Mount",
+      "description": "When opponent frames from bottom mount with one arm, trap that arm across their neck and transition to side control or modified mount to finish. This is often easier to set up than from side control because opponent's defensive frames from mount naturally position their arm across their neck.",
+      "when_to_use": "When opponent uses stiff arm defense from bottom mount, or when you have high mount and opponent tries to push your head away"
+    },
+    {
+      "variation_name": "Arm Triangle from North-South",
+      "description": "From north-south position with opponent's arm trapped, use your body weight driving through your shoulder while maintaining the triangle structure. Some practitioners prefer this finish because the downward shoulder pressure is easier to generate from this angle.",
+      "when_to_use": "When transitioning from side control to north-south and opponent's arm is already trapped, or when opponent defends initial side control finish by turning away"
+    },
+    {
+      "variation_name": "Arm Triangle from Turtle",
+      "description": "When opponent turtles and reaches to defend with their near arm, trap that arm across their own neck while threading your choking arm under. Roll them to their side or back to finish with the same shoulder pressure mechanics. Turtle is a prime setup position because opponent often defends with extended arms.",
+      "when_to_use": "When opponent turtles defensively and extends their arms, particularly in scrambles or after failed guard passes"
+    },
+    {
+      "variation_name": "Modified Mount Finish",
+      "description": "Instead of staying in side control, step your leg over opponent's body into a modified mount position (sometimes called S-mount) with your shin across their torso. This provides excellent angle and shoulder pressure for finishing. Your weight drives down through your shoulder while their body is controlled by your legs.",
+      "when_to_use": "When opponent is defending strongly from side control or when you want maximum control during the finish"
+    }
+  ]
+}

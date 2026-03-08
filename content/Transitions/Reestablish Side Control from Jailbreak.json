@@ -1,0 +1,382 @@
+{
+  "name": "Reestablish Side Control from Jailbreak",
+  "description": "Master reestablishing Side Control from Jailbreak in BJJ. Systematic approach to countering explosive escapes with pressure control and weight redistribution.",
+  "tags": [
+    "side-control",
+    "jailbreak",
+    "half-guard",
+    "passing",
+    "pressure",
+    "top-game",
+    "positional-control"
+  ],
+  "from_position": "Jailbreak/Top",
+  "outcomes": [
+    {
+      "to": "Side Control/Top",
+      "probability": 55,
+      "result": "success"
+    },
+    {
+      "to": "Half Guard/Top",
+      "probability": 25,
+      "result": "failure"
+    },
+    {
+      "to": "Deep Half Guard/Top",
+      "probability": 20,
+      "result": "counter"
+    }
+  ],
+  "success_rate": 55,
+  "overview": "Reestablishing Side Control from Jailbreak is a critical positional recovery technique for the top player when a bottom half guard practitioner initiates the explosive jailbreak escape. The jailbreak, prominent in 10th Planet methodology, leverages an underhook and explosive inversion to roll through top pressure and escape to turtle or back take opportunities. The top player who recognizes this escape pattern early can shut it down through decisive pressure redistribution and underhook neutralization.\n\nThe technical execution centers on three sequential priorities: first, immediately driving crossface pressure to pin the bottom player's head and prevent completion of the inversion; second, neutralizing the underhook through whizzer control or arm threading; and third, walking the hips around to reestablish perpendicular alignment characteristic of standard side control. The critical timing element requires the top player to react before the bottom player generates sufficient rotational momentum to complete the roll.\n\nFrom a strategic standpoint, mastering this recovery prevents the bottom player from relying on jailbreak as a primary escape option, which channels their defense toward more predictable patterns like traditional half guard retention. The psychological impact of consistently shutting down explosive escape attempts forces the bottom player into energy-intensive repeated attempts or abandonment of their preferred escape system entirely.",
+  "conditions": [
+    "Top player is established in Jailbreak Top position with upper body connection maintained",
+    "Bottom player has initiated or is preparing to initiate jailbreak escape with underhook",
+    "Top player has at least partial crossface or head control preventing immediate completion of inversion",
+    "Bottom player has not yet generated sufficient rotational momentum to complete the escape roll"
+  ],
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Crossface Drive Reestablishment",
+      "description": "Uses heavy crossface pressure to pin the bottom player's head to the mat, preventing the inversion that powers the jailbreak escape. The top player drives their shoulder into the bottom player's face while walking hips to perpendicular alignment.",
+      "when_to_use": "When the bottom player has not yet fully committed to the inversion and head control is available"
+    },
+    {
+      "variant_name": "Whizzer Counter Reestablishment",
+      "description": "Targets the underhook directly by establishing a deep overhook that neutralizes the bottom player's primary connection point. Once the underhook is controlled, the top player can safely redistribute weight and walk to side control.",
+      "when_to_use": "When the bottom player has established a strong underhook but has not yet begun inverting"
+    },
+    {
+      "variant_name": "Hip Switch Cutoff",
+      "description": "The top player switches hip positioning to cut off the escape angle rather than fighting the inversion directly. By driving the near hip into the bottom player's body, the rolling path is blocked and the bottom player cannot generate momentum.",
+      "when_to_use": "When the bottom player begins inverting but has not gained full rotational momentum"
+    }
+  ],
+  "position_integration": "Reestablishing Side Control from Jailbreak occupies a crucial defensive role within the top player's half guard passing system. It serves as the primary answer to the 10th Planet jailbreak escape, ensuring that passing sequences are not derailed by explosive inversions. This technique connects the Jailbreak Top passing position back to the Side Control hub, where the top player regains access to the full spectrum of submissions, transitions, and positional advancements. Mastery of this recovery makes the entire half guard passing game more robust by eliminating one of the most dangerous escape pathways available to the bottom player.",
+  "related_content": [
+    {
+      "name": "Side Control",
+      "relationship": "Target position after successful reestablishment"
+    },
+    {
+      "name": "Jailbreak",
+      "relationship": "Source position where the technique initiates"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Parent guard position in the half guard hierarchy"
+    },
+    {
+      "name": "North-South Recovery from Jailbreak",
+      "relationship": "Alternative transition from the same starting position"
+    },
+    {
+      "name": "Deep Half Guard",
+      "relationship": "Counter destination when bottom player dives underneath"
+    },
+    {
+      "name": "Side Control Consolidation",
+      "relationship": "Follow-up consolidation position after reestablishment"
+    },
+    {
+      "name": "Crossface from Dogfight",
+      "relationship": "Related crossface control technique using similar mechanics"
+    },
+    {
+      "name": "Complete Pass from Flattened Half",
+      "relationship": "Related passing completion technique from half guard"
+    },
+    {
+      "name": "Flattened Half Guard",
+      "relationship": "Related position in the half guard passing hierarchy"
+    },
+    {
+      "name": "Lockdown",
+      "relationship": "Alternative bottom player control that may precede jailbreak attempts"
+    }
+  ],
+  "attacker": {
+    "name": "Reestablish Side Control from Jailbreak Attacker",
+    "description": "Master reestablishing Side Control from Jailbreak as the top player. Complete guide covering crossface pressure, underhook neutralization, and systematic hip repositioning to counter explosive escape attempts.",
+    "overview": "As the top player in Jailbreak, your objective is to recognize and shut down the bottom player's explosive jailbreak escape attempt before they generate sufficient momentum to complete the inversion. The reestablishment to Side Control requires immediate reaction through crossface reinforcement, underhook neutralization, and systematic hip repositioning. Your advantage lies in reading the escape early and responding with overwhelming forward pressure that collapses the escape mechanism before it develops. Success depends on understanding that the jailbreak's power comes from the underhook and rotational momentum—eliminate either element and the escape fails.",
+    "key_principles": [
+      "React immediately when you detect underhook establishment or beginning of inversion—delay allows momentum to build past the recovery threshold",
+      "Drive crossface pressure forward and down to pin the bottom player's head and prevent the rotational motion that powers the escape",
+      "Neutralize the underhook through whizzer control or arm threading before it becomes the fulcrum for the roll",
+      "Maintain chest-to-chest connection throughout the recovery to prevent space creation that enables guard recovery",
+      "Walk hips toward perpendicular alignment only after the escape motion is fully stalled and upper body control is reestablished",
+      "Distribute weight strategically onto the bottom player's shoulders rather than fighting leg frames directly"
+    ],
+    "setup_requirements": [
+      "Top position in Jailbreak with at least partial upper body connection maintained through crossface or head control",
+      "Recognition that bottom player is initiating jailbreak escape through underhook establishment or beginning inversion",
+      "Sufficient forward weight position to drive pressure onto bottom player's shoulders and upper body",
+      "Bottom player has not yet completed the full rolling motion—recovery is most effective during early or mid-stage jailbreak attempts"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Recognize Jailbreak Initiation",
+        "description": "Detect the bottom player's underhook establishment and initial hip turn toward inversion. Key indicators include their free leg posting on the mat, shoulder turning away from you, and chin tucking toward their chest. Early recognition is essential because the escape becomes exponentially harder to stop once rotational momentum builds past the tipping point."
+      },
+      {
+        "step_number": 2,
+        "action": "Drive Crossface Forward",
+        "description": "Immediately reinforce crossface pressure by driving your forearm or shoulder into the bottom player's face and neck, turning their head away from the direction of the roll. This pins their shoulders to the mat and mechanically prevents completion of the inversion. Commit your weight forward through your chest and shoulder to maximize the pinning effect."
+      },
+      {
+        "step_number": 3,
+        "action": "Neutralize the Underhook",
+        "description": "Address the bottom player's underhook by establishing a whizzer over their underhooking arm or by threading your arm inside to strip their grip. The underhook is the structural connection that prevents separation during their roll—removing it eliminates the escape's primary mechanical advantage and leaves the bottom player without leverage for the inversion."
+      },
+      {
+        "step_number": 4,
+        "action": "Collapse Forward Pressure",
+        "description": "Drive your chest weight down onto the bottom player's upper body, collapsing any space they created during the escape attempt. Your hips should drop low and heavy while your chest pins their shoulders flat to the mat. Use your head positioned on the opposite side of the crossface to create additional downward pressure and prevent any return to the escape angle."
+      },
+      {
+        "step_number": 5,
+        "action": "Walk Hips to Perpendicular Alignment",
+        "description": "Once the bottom player's escape motion is stalled and their shoulders are pinned, begin walking your hips around toward perpendicular alignment with their torso. Move in small controlled steps, maintaining constant chest pressure throughout the repositioning. Do not rush this movement—premature hip repositioning creates space for guard recovery or re-initiation of the escape."
+      },
+      {
+        "step_number": 6,
+        "action": "Establish Hip-to-Hip Contact",
+        "description": "Complete the transition by reconnecting your hips against the bottom player's hips, eliminating space for knee insertion or guard recovery. Your near hip should be heavy and in direct contact with their far hip, blocking any attempt to re-engage half guard. Place your near hand on their far hip to prevent last-moment knee insertion that would nullify the entire recovery effort."
+      },
+      {
+        "step_number": 7,
+        "action": "Settle into Standard Side Control",
+        "description": "Finalize the side control position with proper weight distribution: chest perpendicular to opponent's torso, crossface maintained, near hand blocking far hip, far arm either underhooking their head or posting for base. Verify all control points are established before considering offensive options. Take a moment to settle your weight and ensure the bottom player cannot immediately re-engage escape sequences."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Bottom player explosively completes the jailbreak roll before top player can react with sufficient counter-pressure",
+        "effectiveness": "High",
+        "your_response": "If the roll has significant momentum, follow the motion and look to establish front headlock or turtle top control rather than fighting the roll directly. Drive forward over the top to prevent back exposure.",
+        "targets_outcome": "Deep Half Guard/Top"
+      },
+      {
+        "counter": "Bottom player abandons jailbreak and recovers traditional half guard frames with knee shield insertion",
+        "effectiveness": "Medium",
+        "your_response": "Transition to standard half guard passing sequence using knee slice, smash pass, or backstep. The abandoned jailbreak means they have conceded the explosive escape for positional defense.",
+        "targets_outcome": "Half Guard/Top"
+      },
+      {
+        "counter": "Bottom player redirects underneath for deep half guard entry during the recovery sequence",
+        "effectiveness": "Medium",
+        "your_response": "Immediately sprawl hips back and reinforce whizzer to prevent them from reaching full deep half position. If they achieve deep half, switch to standard deep half passing techniques rather than continuing the side control recovery.",
+        "targets_outcome": "Deep Half Guard/Top"
+      },
+      {
+        "counter": "Bottom player uses free leg to frame against your hips and block the walk-around to perpendicular alignment",
+        "effectiveness": "Low",
+        "your_response": "Maintain upper body connection and walk around leg frames rather than fighting through them directly. Use crossface to keep shoulders pinned while your hips navigate past the leg barriers incrementally.",
+        "targets_outcome": "Half Guard/Top"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Reacting too slowly to the jailbreak initiation and allowing rotational momentum to build",
+        "consequence": "Bottom player generates sufficient force to complete the roll, escaping to turtle or creating back take opportunities",
+        "correction": "Train pattern recognition for jailbreak cues—underhook establishment, hip turn, chin tuck. React at the first indicator rather than waiting for full commitment to the escape."
+      },
+      {
+        "error": "Sitting back on hips instead of driving forward pressure to counter the escape",
+        "consequence": "Creates space between bodies that the bottom player exploits to complete the inversion or recover defensive guard frames",
+        "correction": "Drive weight forward through chest and shoulders onto bottom player's upper body. Forward pressure collapses the escape mechanism while sitting back enables it."
+      },
+      {
+        "error": "Ignoring the underhook and focusing only on crossface control",
+        "consequence": "Bottom player maintains the structural connection needed to roll through despite head control, especially if they have flexibility to invert with head pinned",
+        "correction": "Address both crossface and underhook simultaneously. Use whizzer or arm threading to neutralize the underhook while maintaining crossface pressure."
+      },
+      {
+        "error": "Moving hips to perpendicular alignment before the escape motion is fully stalled",
+        "consequence": "Hip repositioning creates momentary space that the bottom player exploits to insert knee for half guard recovery or re-initiate the jailbreak",
+        "correction": "Confirm the bottom player's escape is completely stalled with shoulders pinned flat before beginning hip walk-around. Patience in this phase prevents reversion."
+      },
+      {
+        "error": "Using only arm strength to control position without engaging body weight",
+        "consequence": "Arms fatigue quickly and bottom player eventually breaks through grip-based control to continue escape attempts",
+        "correction": "Use skeletal structure and body weight for control rather than muscular effort. Chest pressure, hip weight, and head positioning should do the heavy lifting."
+      },
+      {
+        "error": "Failing to block the far hip when settling into side control",
+        "consequence": "Bottom player immediately inserts knee and recovers half guard, negating the entire reestablishment effort",
+        "correction": "As soon as you reach perpendicular alignment, place near hand on opponent's far hip to block knee insertion. This is the final lock that secures the side control position."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Recognition Drilling",
+        "focus": "Pattern recognition for jailbreak initiation cues",
+        "description": "Partner slowly initiates jailbreak escape from bottom half guard. Top player practices identifying the three key cues: underhook establishment, hip turn toward inversion, and chin tuck. Call out each cue as it appears. No resistance, focus purely on visual and tactile pattern recognition. 5 minutes per side."
+      },
+      {
+        "phase": "Isolated Component Practice",
+        "focus": "Individual components of the reestablishment sequence",
+        "description": "Practice crossface drive, underhook neutralization via whizzer, and hip walk-around as separate isolated movements. Partner provides minimal resistance and holds static positions to allow focus on proper mechanics of each component. 10 repetitions of each component per side."
+      },
+      {
+        "phase": "Connected Sequence Training",
+        "focus": "Full reestablishment sequence with progressive resistance",
+        "description": "Execute complete reestablishment from jailbreak recognition through side control settlement. Partner begins at 30% resistance and increases to 70% over multiple rounds. Focus on smooth transitions between sequence steps without gaps that allow the bottom player to re-initiate escape."
+      },
+      {
+        "phase": "Live Positional Sparring",
+        "focus": "Full resistance application from Jailbreak position",
+        "description": "Start from Jailbreak Top with partner fully committed to escaping via jailbreak. Top player must reestablish side control or achieve any dominant position. Bottom player wins by completing escape to turtle, recovering guard, or sweeping. Full resistance, 3-minute rounds with reset after each conclusion."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What are the three primary indicators that a bottom player is initiating a jailbreak escape?",
+        "answer": "The three key indicators are: underhook establishment on the same side as the trapped leg with elbow tight to their hip, hip turn toward the trapped leg side as they begin rotating toward inversion, and chin tuck toward their chest as they prepare to roll. Recognizing these cues early is critical because the escape becomes exponentially harder to stop once rotational momentum develops. Reacting at the first indicator rather than waiting for all three gives you the maximum time window for response."
+      },
+      {
+        "question": "Why is neutralizing the underhook essential for preventing the jailbreak escape?",
+        "answer": "The underhook serves as the mechanical fulcrum that enables the entire jailbreak escape. It creates a structural connection between the bottom player and the top player that prevents separation during the inversion roll. Without this connection, the bottom player simply rolls away without carrying the top player, losing the leverage needed to complete the escape. Neutralizing the underhook through whizzer control or arm threading removes the escape's primary mechanical advantage and leaves the bottom player unable to generate effective rotational force."
+      },
+      {
+        "question": "Your crossface is established but the bottom player still manages to begin inverting—what adjustment do you make?",
+        "answer": "If the bottom player begins inverting despite your crossface, the underhook is likely still providing enough structural support to power the escape. Immediately establish a whizzer over their underhooking arm while maintaining crossface. If the inversion is already significantly advanced past the 45-degree threshold, switch strategy from prevention to following the momentum—drive forward over the top of their roll to establish front headlock or turtle top control rather than fighting a roll that has already developed substantial momentum."
+      },
+      {
+        "question": "What is the critical timing threshold between a recoverable and an unrecoverable jailbreak attempt?",
+        "answer": "The transition from recoverable to unrecoverable occurs when the bottom player's shoulders pass approximately 45 degrees of rotation from the mat. Before this point, forward pressure and crossface can collapse the motion back to flat. After this point, the rotational momentum becomes self-sustaining and attempting to fight it directly wastes energy and often results in being rolled through. The top player must train to recognize this threshold and switch from prevention to following strategies when the escape passes the recovery point."
+      },
+      {
+        "question": "How does the hip walk-around differ from a standard guard pass when reestablishing side control?",
+        "answer": "Unlike a standard guard pass where the top player navigates past active leg defenses, the hip walk-around during jailbreak recovery focuses on moving from a parallel position to perpendicular alignment while maintaining constant chest pressure on a mostly flat opponent. The key difference is that the bottom player's primary defense at this stage is re-initiating the escape or inserting a knee, not active leg framing. Therefore the walk-around prioritizes maintaining downward pressure and controlling the far hip rather than defeating leg frames."
+      },
+      {
+        "question": "What should you do if the bottom player abandons the jailbreak and transitions to deep half guard entry?",
+        "answer": "When the bottom player switches from jailbreak to deep half entry, immediately recognize the shift by their movement underneath your body rather than away from it. Sprawl your hips back to prevent them from reaching full deep half position, as deep half becomes significantly more dangerous once they secure your far leg. Establish a whizzer on their underhooking arm and drive crossface pressure to flatten their approach. If they achieve full deep half despite your defense, switch to standard deep half passing techniques."
+      },
+      {
+        "question": "How do you manage the transition from preventing the jailbreak to settling into side control without creating exploitable gaps?",
+        "answer": "The key is sequential control—never release one point of control before establishing the next. Maintain crossface throughout the entire sequence. Only begin walking hips after confirming the escape is stalled. Only release whizzer or arm control after hips have reached perpendicular alignment. Only shift hand to far hip after weight is properly distributed. Each step builds on the previous one without creating windows for the bottom player to re-initiate escape. Rushing any step creates the exact space the bottom player needs."
+      }
+    ],
+    "safety_considerations": "While this transition does not involve direct submission threat, neck safety is paramount for the bottom player during inversion attempts. The top player should avoid excessive downward pressure on the neck during crossface application, particularly when the bottom player is mid-inversion with their spine flexed. Always allow space for the bottom player to tap or verbally submit if they experience neck discomfort. In training, communicate with partners about pressure intensity and stop immediately if the bottom player shows signs of neck strain or cervical distress."
+  },
+  "defender": {
+    "name": "Reestablish Side Control from Jailbreak Defender",
+    "description": "Defend against Side Control reestablishment from Jailbreak. Complete guide to maintaining jailbreak escape momentum, countering top pressure, and recovering guard when the escape is shut down.",
+    "overview": "As the bottom player attempting the jailbreak escape, your opponent's attempt to reestablish side control represents the critical counter you must overcome. The top player will drive crossface pressure, neutralize your underhook, and walk their hips to perpendicular alignment to restore side control. Your defense focuses on maintaining the underhook connection, generating sufficient rotational momentum before they can shut it down, and having contingency plans when the primary escape is disrupted. Understanding the top player's recovery sequence allows you to time your explosive commitment for the moments when their counter is weakest and to switch to alternative escapes when the jailbreak window closes.",
+    "key_principles": [
+      "Maintain underhook connection at all costs—it is the structural prerequisite for all jailbreak escape variations and contingency transitions",
+      "Commit explosively to the escape once initiated, as hesitation allows the top player time to establish crossface and whizzer counters",
+      "Time the escape when the top player's weight shifts forward, making their base most vulnerable to rotational force",
+      "Have contingency transitions ready when the primary jailbreak roll is shut down, including deep half guard and half guard frame recovery",
+      "Use the free leg actively to generate propulsion for escape and to block the top player's hip repositioning",
+      "Recognize when the escape window has closed and switch to alternative defensive options rather than wasting energy on a blocked path"
+    ],
+    "recognition_cues": [
+      "Top player drives crossface pressure forward and down with increased intensity, attempting to pin your head flat to the mat and prevent inversion",
+      "Top player establishes whizzer or overhook control over your underhooking arm, actively trying to strip or neutralize the connection",
+      "Top player begins walking hips toward perpendicular alignment while maintaining heavy chest pressure across your shoulders",
+      "Top player drops weight forward through their chest onto your upper body, collapsing the space you need for the inversion roll"
+    ],
+    "defensive_options": [
+      {
+        "action": "Accelerate the jailbreak roll with explosive hip generation and free leg push before the top player completes their counter",
+        "when_to_use": "Early in the counter attempt before crossface is fully established and rotational momentum is still available",
+        "targets_outcome": "Deep Half Guard/Top",
+        "if_successful": "Complete the escape to turtle, back take opportunity, or guard recovery, nullifying the reestablishment attempt entirely",
+        "risk": "If the roll fails mid-motion, you end up flattened in a worse position with depleted energy for subsequent escape attempts"
+      },
+      {
+        "action": "Abandon jailbreak and recover traditional half guard frames with knee shield reestablishment",
+        "when_to_use": "When the top player has successfully pinned your head with crossface and the inversion path is mechanically blocked",
+        "targets_outcome": "Half Guard/Top",
+        "if_successful": "Return to standard half guard bottom with frames established, allowing traditional escape sequences and guard retention",
+        "risk": "Releasing escape momentum gives the top player time to settle weight and potentially advance to full side control"
+      },
+      {
+        "action": "Transition to deep half guard entry by diving underneath the top player instead of rolling through",
+        "when_to_use": "When the top player drives forward pressure heavily but their far leg remains accessible for deep half guard entry",
+        "targets_outcome": "Deep Half Guard/Top",
+        "if_successful": "Achieve deep half guard position with strong sweep threats and back take opportunities from underneath",
+        "risk": "Failed deep half entry results in being flattened under heavy pressure with no defensive frames or guard structure"
+      },
+      {
+        "action": "Frame with free leg against top player's hips to block hip walk-around while re-establishing escape angle",
+        "when_to_use": "During the hip repositioning phase when the top player begins walking toward perpendicular alignment",
+        "targets_outcome": "Half Guard/Top",
+        "if_successful": "Stall the pass completion and create sufficient space to reinsert knee for half guard recovery",
+        "risk": "Leg frames alone cannot hold position indefinitely without underhook support and active hip movement"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Deep Half Guard/Top",
+        "how": "When the top player drives forward pressure to shut down jailbreak, redirect your underhook to dive underneath their body for deep half guard entry. Their forward weight commitment actually assists your transition underneath them. Secure their far leg and establish hip positioning for sweep threats from deep half."
+      },
+      {
+        "outcome": "Half Guard/Top",
+        "how": "If the jailbreak is completely stalled, immediately switch to recovering traditional half guard frames. Insert knee shield before the top player completes perpendicular alignment. Use remaining underhook connection to help establish defensive frames and prevent the pass from completing to side control."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Continuing to force the jailbreak roll after the top player has established strong crossface and whizzer control",
+        "consequence": "Energy wasted on an escape that is mechanically blocked, leaving you exhausted and vulnerable to being passed or submitted",
+        "correction": "Recognize when the escape window has closed and immediately switch to contingency plans like deep half entry or half guard frame recovery"
+      },
+      {
+        "error": "Releasing the underhook to create frames when the top player drives forward pressure",
+        "consequence": "Losing the underhook eliminates all jailbreak escape options and removes your primary connection point for any recovery technique",
+        "correction": "Maintain the underhook even under heavy pressure. Use your free arm and legs to create frames while keeping the underhook as your structural anchor"
+      },
+      {
+        "error": "Failing to use the free leg actively during the escape attempt or during defense",
+        "consequence": "Insufficient momentum to complete the roll or inability to block the top player's hip repositioning toward perpendicular alignment",
+        "correction": "Actively push off the mat with your free leg to generate rotational force during escape, then transition to framing against the top player's hips if the roll is stalled"
+      },
+      {
+        "error": "Waiting too long to initiate the escape, allowing the top player to settle weight and establish full control points",
+        "consequence": "The jailbreak requires a brief window of opportunity—once the top player stabilizes with crossface and hip control, the escape mechanics cannot generate sufficient force",
+        "correction": "Execute the jailbreak explosively at the optimal moment when the top player's weight shifts forward. Waiting for perfect conditions means the window closes permanently."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is your primary response when you feel the top player driving crossface to shut down your jailbreak?",
+        "answer": "When crossface pressure intensifies, you have a split-second decision point. If the crossface is still developing and you have momentum, accelerate the escape with explosive hip generation to complete the roll before the pin is fully established. If the crossface has already pinned your head to the mat, abandon the jailbreak and immediately transition to a contingency option—either diving underneath for deep half guard or recovering half guard frames with knee shield insertion. Continuing to force a blocked escape wastes energy and accomplishes nothing."
+      },
+      {
+        "question": "How do you determine whether to continue the jailbreak or switch to deep half guard entry?",
+        "answer": "The decision depends on the top player's weight distribution and your access to their legs. If the top player drives their weight forward and down but their far leg remains accessible, transitioning to deep half is optimal because their forward commitment actually assists your movement underneath them. If the top player sprawls their hips back while maintaining crossface, deep half entry is blocked and half guard frame recovery becomes the better option. The key indicator is whether you can access their far leg—if yes, deep half; if no, recover half guard."
+      },
+      {
+        "question": "What role does the free leg play in maintaining your defensive options during the jailbreak counter?",
+        "answer": "The free leg serves dual purposes: propulsion for escape attempts and frame creation against the top player's hip repositioning. During an active jailbreak roll, the free leg pushes off the mat to generate rotational momentum. When the roll is stalled, the free leg transitions to framing against the top player's hips to block their walk-around to perpendicular alignment. The free leg should never be passive—it should constantly be either pushing for escape or blocking the pass completion."
+      },
+      {
+        "question": "When should you completely abandon the jailbreak attempt and accept half guard recovery as your best outcome?",
+        "answer": "Abandon the jailbreak when three conditions are met simultaneously: the top player has established strong crossface pinning your head flat, your underhook has been significantly compromised by their whizzer or arm control, and you have expended significant energy on failed escape attempts. At this point, continuing to force the jailbreak guarantees failure and depletes resources needed for half guard defense. Immediately transition to recovering knee shield and traditional half guard frames to establish a defensible position."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Counter Recognition",
+        "focus": "Identifying when the top player initiates side control reestablishment",
+        "description": "Partner practices jailbreak counters at slow speed while you identify each step of their recovery sequence. Call out when crossface increases, when whizzer is established, and when hips begin walking around. Develop awareness of the counter pattern without resistance. 5 minutes per side."
+      },
+      {
+        "phase": "Contingency Switching",
+        "focus": "Transitioning between jailbreak and alternative escape options",
+        "description": "Partner shuts down the jailbreak at different stages of the escape. Practice switching to deep half entry when blocked early and half guard recovery when blocked late. Develop fluid transitions between escape options based on what the top player takes away. Moderate resistance, 10 reps per contingency."
+      },
+      {
+        "phase": "Timing and Commitment",
+        "focus": "Explosive execution within the escape window under full resistance",
+        "description": "Partner provides full resistance and actively counters the jailbreak. Focus on timing the explosive roll for moments of forward weight commitment and committing fully to the chosen escape path. If the jailbreak is shut down, switch immediately to contingency. Full speed, 3-minute rounds with reset after each conclusion."
+      }
+    ]
+  }
+}

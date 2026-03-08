@@ -1,0 +1,405 @@
+{
+  "name": "Backstep from Leg Weave",
+  "description": "Master the backstep from leg weave in BJJ. Complete guard passing guide with execution steps, counters, defensive strategies, and training drills.",
+  "tags": [
+    "guard-passing",
+    "backstep",
+    "leg-weave",
+    "angular-pass",
+    "pressure-passing",
+    "advanced-technique"
+  ],
+  "from_position": "Leg Weave/Top",
+  "outcomes": [
+    {
+      "to": "Side Control/Top",
+      "probability": 55,
+      "result": "success"
+    },
+    {
+      "to": "Leg Weave/Top",
+      "probability": 30,
+      "result": "failure"
+    },
+    {
+      "to": "Deep Half Guard/Top",
+      "probability": 15,
+      "result": "counter"
+    }
+  ],
+  "success_rate": 55,
+  "overview": "The Backstep from Leg Weave is an advanced guard passing technique where the top player uses rotational hip movement to clear the bottom player's remaining guard hooks from an established leg weave position, arriving in side control. Unlike linear passing options from leg weave such as the knee slice or smash pass, the backstep introduces an angular change that exploits moments when the bottom player commits defensive frames against forward-driving pressure.\n\nThe technique operates on the principle of directional misdirection. When the bottom player establishes strong frames against forward crossface pressure and weight distribution, the backstep pivots around those defensive structures rather than driving through them. The passer rotates their hips, swinging the free leg behind and around the bottom player's legs while maintaining upper body connection through the weaved leg. This angular shift creates a passing pathway that circumvents the defensive framework entirely.\n\nStrategically, this technique serves as a secondary option within the leg weave passing system. When primary forward-driving passes meet organized resistance, the backstep provides a directional change that punishes over-commitment to frontal defense. Advanced passers chain the backstep with knee slice, smash pass, and leg drag threats to create multi-directional dilemmas where defending one passing angle necessarily opens vulnerability to another, making the leg weave position progressively more dangerous the longer the bottom player remains trapped.",
+  "conditions": [
+    "Established leg weave position with deep threading of lead leg between opponent's legs",
+    "Upper body control through crossface, collar grip, or underhook preventing opponent from sitting up",
+    "Bottom player's defensive frames oriented against forward pressure, not lateral movement",
+    "Sufficient space to initiate hip rotation without losing weaved leg connection",
+    "Bottom player's far-side hook still engaged, preventing direct forward pass completion"
+  ],
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Collar-Grip Backstep",
+      "description": "Maintain a deep collar grip with the crossface hand throughout the rotation, using the collar connection as an anchor point that keeps upper body control while the hips rotate. The collar grip prevents the bottom player from following the rotation and provides a pulling force that accelerates the pass completion.",
+      "when_to_use": "In gi grappling when you have established a deep collar grip from leg weave. Particularly effective when the bottom player has strong hip frames but weak collar defense."
+    },
+    {
+      "variant_name": "Underhook Backstep",
+      "description": "Secure a deep underhook on the near side before initiating the backstep. The underhook maintains chest-to-chest connection throughout the rotation and prevents the bottom player from diving to deep half guard during the weight transfer. This variation sacrifices some rotational speed for superior upper body control.",
+      "when_to_use": "In no-gi situations where collar grips are unavailable. Best used when the bottom player has a strong underhook battle and you need to secure connection before rotating."
+    },
+    {
+      "variant_name": "Far-Leg Kickout Backstep",
+      "description": "Instead of a smooth rotational pivot, explosively kick the free leg behind and wide to clear the bottom player's hooks in a single motion. This variation relies on speed and explosive hip movement rather than controlled rotation, catching the bottom player before they can react to the directional change.",
+      "when_to_use": "Against opponents with fast reactions who tend to re-guard quickly. Best deployed as a surprise change of pace after several failed forward-driving pass attempts."
+    }
+  ],
+  "position_integration": "The Backstep from Leg Weave integrates into the broader guard passing system as a directional complement to forward-driving passes. Within the leg weave ecosystem, it functions as the change-of-angle option that punishes defensive framing designed to stop linear pressure. It connects the leg weave passing platform to side control consolidation, sharing mechanical principles with backstep passes from De La Riva, K-Guard, deep half guard, and single leg X positions. The technique reinforces the passing principle that effective guard passing requires multi-directional threats rather than single-vector pressure. When combined with knee slice and leg drag options, the backstep transforms the leg weave from a single-option control point into a three-directional passing hub.",
+  "related_content": [
+    {
+      "name": "Leg Weave",
+      "relationship": "Starting position where the backstep is initiated from established leg threading control"
+    },
+    {
+      "name": "Side Control",
+      "relationship": "Primary target position reached upon successful backstep pass completion"
+    },
+    {
+      "name": "Deep Half Guard",
+      "relationship": "Counter position the bottom player may achieve if they dive under during the backstep rotation"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Common recovery position for the bottom player if the backstep partially fails"
+    },
+    {
+      "name": "Backstep from De La Riva",
+      "relationship": "Related backstep technique sharing similar hip rotation mechanics from a different guard"
+    },
+    {
+      "name": "Backstep from Deep Half",
+      "relationship": "Similar backstep concept applied when opponent enters deep half during passing"
+    },
+    {
+      "name": "Backstep from K-Guard",
+      "relationship": "Parallel backstep application demonstrating the universal backstep passing principle"
+    },
+    {
+      "name": "Backstep from Single Leg X",
+      "relationship": "Related angular pass from leg entanglement sharing rotational mechanics"
+    },
+    {
+      "name": "Back Step Pass",
+      "relationship": "General backstep passing concept that encompasses this specific application"
+    },
+    {
+      "name": "Headquarters Position",
+      "relationship": "Alternative passing platform with related pressure and control concepts"
+    },
+    {
+      "name": "Leg Drag Control",
+      "relationship": "Complementary passing finish accessible when bottom player turns during backstep"
+    },
+    {
+      "name": "Knee Shield Half Guard",
+      "relationship": "Defensive position the bottom player attempts to recover during failed backstep"
+    }
+  ],
+  "attacker": {
+    "name": "Backstep from Leg Weave Attacker",
+    "description": "Master executing the backstep from leg weave. Step-by-step passing guide with hip rotation mechanics, grip management, and chain passing sequences.",
+    "overview": "Executing the Backstep from Leg Weave requires precise coordination between upper body control maintenance and hip rotation mechanics. The attacker must shift from forward-driving pressure to a rotational passing angle while keeping the weaved leg connected as a pivot point. The critical challenge is maintaining enough upper body connection to prevent the bottom player from following the rotation or diving to deep half guard, while generating sufficient rotational momentum to clear the remaining guard hooks. Success depends on reading the bottom player's defensive orientation and choosing the backstep when their frames are committed against forward pressure, creating a timing window where the angular change bypasses their defensive structure entirely.",
+    "key_principles": [
+      "Maintain upper body connection throughout the rotation to prevent the bottom player from creating separation or following the hip movement",
+      "Use the weaved leg as a pivot anchor point rather than extracting it during the rotation, keeping structural control through the passing sequence",
+      "Initiate the backstep when the bottom player's frames are committed against forward pressure, exploiting their defensive orientation",
+      "Control the rotation speed to match the situation - faster against reactive opponents, more controlled against opponents who chase the hips",
+      "Settle weight immediately upon clearing the legs to prevent guard recovery during the transition to side control",
+      "Keep the free leg active during the backstep, using it to clear hooks and establish side control positioning simultaneously"
+    ],
+    "setup_requirements": [
+      "Established leg weave with lead leg threaded deep between the bottom player's legs, past their hip line",
+      "Upper body control through crossface, collar grip, or underhook that can be maintained through hip rotation",
+      "Bottom player's defensive frames oriented frontally, pushing against forward pressure rather than lateral movement",
+      "Stable base on the weaved leg side that can serve as a rotation pivot without collapsing"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Confirm leg weave depth and upper body control",
+        "description": "Before initiating the backstep, verify that your lead leg is threaded deep past the opponent's hip line and that your upper body control is secure. Your crossface hand should have a firm grip on the collar, the mat behind their head, or an underhook. The weaved leg must be deep enough to serve as a stable pivot point during rotation."
+      },
+      {
+        "step_number": 2,
+        "action": "Shift weight onto the weaved leg",
+        "description": "Transfer your center of gravity onto the weaved leg side. This loads the pivot point and frees your far leg for the backstep motion. Keep your chest connected to the opponent's upper body during this weight shift to prevent them from sensing the directional change and adjusting their defensive frames."
+      },
+      {
+        "step_number": 3,
+        "action": "Initiate hip rotation away from opponent",
+        "description": "Begin turning your hips by rotating away from the bottom player, pivoting on the weaved leg. Your hips should turn from facing the opponent to facing perpendicular or slightly away. This rotation is the core mechanical action that redirects the passing angle from forward to lateral."
+      },
+      {
+        "step_number": 4,
+        "action": "Swing the free leg behind and around",
+        "description": "As your hips rotate, swing your free leg in a wide arc behind you, clearing it past the bottom player's legs and hooks. The arc should be wide enough to avoid catching on their remaining hooks. Keep this leg bent and active, ready to establish posting position on the far side of their body."
+      },
+      {
+        "step_number": 5,
+        "action": "Clear remaining hooks with hip drive",
+        "description": "As the free leg completes its arc, drive your hips through to break any remaining half guard hooks or leg connections. The combination of rotational momentum and hip pressure should extract your weaved leg from between their legs as you complete the pass. If the hook persists, use a secondary hip pop to clear it."
+      },
+      {
+        "step_number": 6,
+        "action": "Establish side control grips and settle weight",
+        "description": "Immediately upon clearing the legs, drop your weight into side control position. Reestablish crossface with your near arm driving across their face. Position your hips low and heavy against their hips. Your far arm controls their far hip or underhooks to prevent immediate guard recovery attempts."
+      },
+      {
+        "step_number": 7,
+        "action": "Consolidate and prevent re-guard",
+        "description": "In the first two seconds after arriving in side control, focus entirely on preventing the bottom player from reinserting their knee or recovering any guard structure. Sprawl your legs back, drive crossface pressure, and lock your hips against theirs. Only begin offensive work after the position is fully consolidated and the opponent has accepted the pass."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Bottom player hooks the stepping leg during rotation, preventing the arc from clearing",
+        "effectiveness": "High",
+        "your_response": "If the hook catches early, abort the backstep and return to forward leg weave pressure. If it catches late, use a secondary hip pop to strip the hook while maintaining upper body control. Do not fight the hook with just your leg - use your whole body rotation to generate the clearing force.",
+        "targets_outcome": "Leg Weave/Top"
+      },
+      {
+        "counter": "Bottom player dives under to deep half guard during the weight transfer phase",
+        "effectiveness": "High",
+        "your_response": "The deep half entry exploits the moment your weight lifts off their hips. Counter by keeping chest pressure heavy throughout the rotation and using your crossface grip to prevent them from turning under you. If they achieve deep half, immediately sprawl hips back and begin deep half passing sequences rather than continuing the backstep.",
+        "targets_outcome": "Deep Half Guard/Top"
+      },
+      {
+        "counter": "Bottom player frames against your hip and shrimps away during the rotation, creating enough space to re-guard",
+        "effectiveness": "Medium",
+        "your_response": "This counter exploits the brief window when your hips are elevated during rotation. Minimize this window by keeping your rotation low and fast. If they create space, immediately switch to a direct leg drag or knee slice rather than completing the backstep, using their shrimp direction against them.",
+        "targets_outcome": "Leg Weave/Top"
+      },
+      {
+        "counter": "Bottom player turns into you aggressively during the backstep, attempting to come to knees or turtle",
+        "effectiveness": "Medium",
+        "your_response": "Their turn actually assists your pass if you maintain connection. Follow their rotation with your chest, converting the backstep into a direct back take opportunity. Keep your arms controlling their upper body and transition from the pass to back control rather than fighting to complete side control.",
+        "targets_outcome": "Side Control/Top"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Releasing upper body control before initiating the backstep rotation",
+        "consequence": "Bottom player immediately creates space, sits up, or recovers guard structure as there is no upper body anchor preventing their movement during the directional change",
+        "correction": "Confirm upper body grip security before beginning the rotation. The crossface or collar grip must be maintained throughout the entire backstep sequence. Think of the upper body grip as the fixed point around which your hips rotate."
+      },
+      {
+        "error": "Lifting hips too high during the rotation, creating space under the chest",
+        "consequence": "Bottom player dives to deep half guard or inserts knee for half guard recovery during the elevated moment, countering the pass before it completes",
+        "correction": "Keep the rotation arc low and tight. Your hips should slide laterally rather than lifting vertically. Imagine your belt line staying at the same height throughout the rotation rather than arcing upward."
+      },
+      {
+        "error": "Backstep arc too narrow, catching the free leg on opponent's hooks",
+        "consequence": "The backstep stalls mid-rotation with your leg tangled in their guard, leaving you in a compromised half-turned position that is worse than the original leg weave",
+        "correction": "Swing the free leg in a wide arc that clears well past their legs before settling. Better to over-rotate and adjust than to catch on their hooks mid-pass. Practice the arc width in drilling until the clearance path is automatic."
+      },
+      {
+        "error": "Attempting the backstep when the bottom player's frames are oriented laterally rather than frontally",
+        "consequence": "The backstep directly into their lateral frames, which are now well-positioned to block the angular pass. The technique loses its primary advantage of bypassing defensive structure",
+        "correction": "Only initiate the backstep when you feel the bottom player pushing against forward pressure. If their frames are already tracking your lateral movement, return to forward-driving passes like knee slice or smash pass instead."
+      },
+      {
+        "error": "Failing to consolidate side control immediately after clearing the legs",
+        "consequence": "Bottom player recovers half guard or reinserts knee during the transition window between pass completion and position establishment",
+        "correction": "The moment your legs clear, drop your weight immediately into side control. Crossface, hip-to-hip connection, and sprawled legs should happen in the same motion as the final clearing step, not as a separate action."
+      },
+      {
+        "error": "Using the backstep as a primary technique rather than a chain option",
+        "consequence": "Opponents learn to anticipate the rotation and preposition their hooks and frames laterally, reducing the technique's effectiveness significantly",
+        "correction": "Establish the backstep as a secondary option that follows failed forward-driving passes. The bottom player must be defending forward pressure for the backstep to function. Set it up by threatening knee slice or smash pass first, then backstep when they overcommit frontally."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Solo Hip Rotation Drill",
+        "focus": "Developing the rotational hip mechanics without resistance",
+        "description": "Practice the backstep pivot motion from a kneeling position without a partner. Focus on loading the pivot leg, rotating the hips, and swinging the free leg in a wide arc. Perform 20 repetitions each side, emphasizing smooth rotation and low hip height throughout the arc. Build muscle memory for the rotational pattern."
+      },
+      {
+        "phase": "Phase 2: Cooperative Partner Drilling",
+        "focus": "Executing the complete technique against a stationary partner",
+        "description": "With a partner in leg weave bottom holding static defensive frames, practice the full backstep sequence from grip confirmation through side control consolidation. Partner does not resist but holds realistic positioning. Perform 10 repetitions each side, focusing on maintaining upper body connection throughout rotation."
+      },
+      {
+        "phase": "Phase 3: Progressive Resistance with Specific Counters",
+        "focus": "Handling individual defensive responses during the backstep",
+        "description": "Partner provides specific pre-agreed counters during each repetition: hook the stepping leg (round 1), dive to deep half (round 2), frame and shrimp (round 3). Practice the appropriate response to each counter at increasing resistance levels from 30% to 80%. Build automatic counter-recognition and response patterns."
+      },
+      {
+        "phase": "Phase 4: Chain Passing Integration",
+        "focus": "Combining the backstep with forward-driving passes in live sequences",
+        "description": "Begin in leg weave and attempt knee slice or smash pass first. When the partner defends the forward pass, transition to the backstep. Then reverse: begin with backstep threat and switch to forward pass when partner adjusts laterally. Practice the two-direction passing chain against increasing resistance until the combination flows naturally."
+      },
+      {
+        "phase": "Phase 5: Live Positional Sparring",
+        "focus": "Applying the backstep under full competitive resistance",
+        "description": "Start in leg weave position with full resistance. Top player works to complete any pass with the backstep as one available option. Bottom player uses all defensive tools. Track backstep success rate across rounds, aiming for consistent application when the timing window presents itself. Three-minute rounds, reset after pass or guard recovery."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the optimal timing window for initiating the backstep from leg weave?",
+        "answer": "The optimal timing is when the bottom player commits their defensive frames against forward-driving pressure. When they are pushing directly against your chest or shoulder, their frames are oriented frontally and cannot easily redirect to block lateral movement. The backstep exploits this commitment by rotating around their frames rather than through them. Attempting the backstep when they are already tracking lateral movement defeats the purpose of the angular change."
+      },
+      {
+        "question": "What grip must be maintained throughout the entire backstep rotation and why?",
+        "answer": "The upper body grip, whether crossface collar grip, underhook, or head control, must be maintained throughout the rotation without interruption. This grip serves as the fixed anchor point around which the hips rotate. Without it, the bottom player can follow the rotation, create separation, or dive to deep half guard during the weight transfer. The grip transforms the backstep from a disconnected movement into a controlled pivoting pass."
+      },
+      {
+        "question": "Your opponent catches your stepping leg with a hook mid-rotation - how do you respond?",
+        "answer": "If caught early in the rotation, abort the backstep and return to forward leg weave pressure rather than fighting the hook from a compromised angle. If caught late when the rotation is nearly complete, use a full-body hip pop rather than just a leg kick to strip the hook, keeping your chest connected to their upper body throughout. Never try to fight the hook with just your leg in isolation, as the bottom player's hook strength will exceed your extraction strength without hip involvement."
+      },
+      {
+        "question": "What is the critical hip height principle during the backstep rotation?",
+        "answer": "The hips must stay low throughout the rotation, sliding laterally rather than lifting vertically. Elevated hips create space between your chest and the opponent's body, giving them a window to dive to deep half guard, insert a knee for half guard recovery, or create frames that block the pass completion. Think of the belt line maintaining a constant height throughout the rotation arc. The low hip path also generates more rotational force than a high arc."
+      },
+      {
+        "question": "How wide should the free leg arc during the backstep, and what happens if it is too narrow?",
+        "answer": "The free leg should swing in a deliberately wide arc that clears well past the bottom player's hooks and legs before settling on the far side. A narrow arc is the most common mechanical failure because the stepping leg catches on the opponent's remaining guard hooks mid-rotation, stalling the pass in a half-turned position. This compromised position is worse than the starting leg weave because you have lost your forward pressure angle without completing the lateral pass. Over-rotating is always preferable to under-rotating."
+      },
+      {
+        "question": "What chain attack sequence sets up the backstep most effectively?",
+        "answer": "The most effective setup is a genuine forward-driving pass threat, either knee slice or smash pass, that forces the bottom player to establish frontal defensive frames. When you feel their arms and legs pushing against your forward pressure, that commitment creates the timing window for the backstep. The key is that the forward threat must be genuine enough to force a real defensive response. Feinting forward pressure without commitment does not create the same frontal frame commitment that makes the backstep effective."
+      },
+      {
+        "question": "You feel your opponent beginning to turn under you for deep half as you initiate the rotation - what adjustment prevents this counter?",
+        "answer": "Immediately increase chest pressure by driving your shoulder into their upper chest and sprawling your hips back slightly. The deep half entry requires the bottom player to get under your center of gravity, which they cannot accomplish if your chest weight prevents them from turning. If they have already begun the turn, abort the backstep and switch to deep half defense by sprawling and fighting for the underhook on their turning side. Continuing the backstep against a committed deep half entry is almost always unsuccessful."
+      },
+      {
+        "question": "After clearing the legs, what must happen in the first two seconds to prevent re-guard?",
+        "answer": "In the first two seconds, you must simultaneously establish three control points: crossface pressure driving their head away, hip-to-hip connection with your hips heavy against theirs, and a far hip block with your near arm to prevent knee insertion. These three points must be established as a single coordinated action rather than sequentially. Any delay in establishing all three gives the bottom player a window to insert a knee and recover half guard, which is the most common way the pass is lost after the legs have been cleared."
+      }
+    ],
+    "safety_considerations": "The backstep involves significant hip rotation while maintaining leg entanglement with your partner. Avoid rapid, uncontrolled twisting motions that could strain the medial collateral ligament of the weaved leg. Partners should communicate immediately if they feel knee torsion during the rotation phase. During drilling, practice the hip pivot at slow speed before adding speed or resistance. Be particularly careful when the bottom player's hooks catch the stepping leg mid-rotation, as forcing through a caught hook can create dangerous torque on both players' knees."
+  },
+  "defender": {
+    "name": "Backstep from Leg Weave Defender",
+    "description": "Master defending the backstep from leg weave. Recognition cues, defensive timing, deep half counters, and guard recovery strategies.",
+    "overview": "Defending the Backstep from Leg Weave requires early recognition of the rotational weight shift and immediate redirection of defensive frames from frontal to lateral orientation. The backstep exploits frontal defensive commitment, so the defender must avoid over-committing frames against forward pressure and maintain awareness of angular passing threats. The critical defensive window occurs during the top player's weight transfer onto the pivot leg, when their pressure momentarily lightens and their balance is in transition. Effective defense combines hook placement to catch the stepping leg, hip movement to follow the rotation, and deep half guard entries that exploit the space created when the passer's hips elevate during the pivot. Understanding the attacker's mechanical requirements allows the defender to identify and exploit the inherent vulnerabilities in the rotational passing sequence.",
+    "key_principles": [
+      "Avoid over-committing defensive frames against forward pressure, which creates the timing window for the backstep",
+      "Maintain awareness of the passer's hip orientation - any rotation away signals a backstep or angular pass attempt",
+      "Keep the far-side hook active and ready to catch the stepping leg during its arc behind your body",
+      "Use the weight transfer moment when the passer loads the pivot leg to initiate counter-movements like deep half entries",
+      "Follow the passer's rotation with your own hip movement rather than remaining static as they circle around you",
+      "Maintain connection with at least one hook throughout the backstep to prevent clean pass completion"
+    ],
+    "recognition_cues": [
+      "The top player shifts weight noticeably onto the weaved leg side, lightening pressure on the opposite hip and creating an asymmetric weight distribution",
+      "Forward chest pressure briefly decreases or redirects as the passer loads the pivot point for rotation",
+      "The passer's free leg lifts or begins swinging laterally behind your body instead of driving forward",
+      "Upper body grip tightens suddenly as the passer secures their anchor point before initiating the rotation",
+      "The passer's hips begin turning away from you, changing from a chest-to-chest facing to a perpendicular or away-facing angle"
+    ],
+    "defensive_options": [
+      {
+        "action": "Hook the stepping leg with your far-side foot as it swings behind you",
+        "when_to_use": "As soon as you feel the free leg lifting and beginning its arc. The hook must be inserted early in the arc before the leg clears past your body.",
+        "targets_outcome": "Leg Weave/Top",
+        "if_successful": "The backstep stalls mid-rotation, the passer is caught in a half-turned position and must reset to leg weave or abandon the pass attempt",
+        "risk": "If you miss the hook or it is stripped, you have delayed your other defensive responses and the pass may complete with less resistance"
+      },
+      {
+        "action": "Dive to deep half guard by turning under the passer during the weight transfer phase",
+        "when_to_use": "When you feel the passer's weight shift onto the pivot leg and their chest pressure lightens. This window is brief but exploitable if recognized early.",
+        "targets_outcome": "Deep Half Guard/Top",
+        "if_successful": "You achieve deep half guard position with sweep potential, completely reversing the passing dynamic from defensive to offensive",
+        "risk": "If the passer maintains heavy chest pressure through the rotation, the deep half entry may be smothered, leaving you flattened and worse off"
+      },
+      {
+        "action": "Redirect frames laterally to match the backstep direction, tracking the passer's rotation with your forearms",
+        "when_to_use": "When you recognize the hip rotation beginning but the stepping leg has not yet started its arc. Redirecting frames before the rotation gains momentum is essential.",
+        "targets_outcome": "Leg Weave/Top",
+        "if_successful": "Your frames now block the lateral passing angle, forcing the passer to either abort the backstep or fight through your redirected defensive structure",
+        "risk": "If the backstep was a feint and the passer returns to forward driving, your laterally oriented frames may be poorly positioned against renewed forward pressure"
+      },
+      {
+        "action": "Follow the rotation by hip-escaping in the same direction as the backstep, maintaining guard connection",
+        "when_to_use": "When the backstep is already in progress and hooking the leg is no longer possible. Following the rotation prevents the passer from circling around a static target.",
+        "targets_outcome": "Leg Weave/Top",
+        "if_successful": "You maintain guard connection by moving with the passer rather than being passed around, potentially recovering knee shield or full half guard",
+        "risk": "If you over-rotate while following, you may expose your back and convert a guard pass defense into a back take situation"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Deep Half Guard/Top",
+        "how": "Recognize the weight transfer onto the pivot leg and immediately turn under the passer, threading your body beneath their center of gravity. The backstep's hip elevation creates the space needed for deep half entry. Secure the passer's far leg with both arms and establish deep half hooks before they can sprawl back."
+      },
+      {
+        "outcome": "Leg Weave/Top",
+        "how": "Catch the stepping leg early with your far-side hook, stalling the rotation mid-arc. Alternatively, redirect your defensive frames laterally to match the new passing angle, blocking the backstep before it clears your legs. Either approach returns the position to leg weave where you retain your existing guard hooks and defensive structures."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Over-committing frames against forward pressure, creating the exact defensive orientation the backstep exploits",
+        "consequence": "When frames are fully committed frontally, they cannot redirect fast enough to block the angular backstep, and the passer rotates around your defensive structure unimpeded",
+        "correction": "Keep at least one arm in a neutral position that can redirect laterally if the passer changes angle. Think of your frames as covering a zone rather than pushing in one direction. The frame on the hip should be ready to track lateral movement."
+      },
+      {
+        "error": "Remaining static on the mat while the passer rotates around you",
+        "consequence": "A stationary target is the easiest to pass with angular movement. The passer completes the full rotation arc without any tracking from the defender, arriving cleanly in side control.",
+        "correction": "Follow the passer's rotation with your own hip movement. As they backstep, shrimp your hips in the same direction to maintain your guard hooks on their legs. Your body should track their movement rather than lying still as they circle."
+      },
+      {
+        "error": "Attempting to dive to deep half too late, after the passer has already completed the rotation",
+        "consequence": "The deep half entry fails because the passer's weight is already settled on the far side. You end up flattened on your side with no guard hooks and the pass already completed.",
+        "correction": "The deep half entry must happen during the weight transfer phase, not after the rotation completes. If you miss the timing window, switch to re-guarding by following the rotation with hip escapes rather than forcing a late deep half attempt."
+      },
+      {
+        "error": "Chasing the stepping leg with only the far hook while neglecting upper body defense",
+        "consequence": "Even if you catch the hook, the passer's upper body control (crossface, collar) keeps you pinned while they work to strip the hook. You exhaust your leg fighting the hook without addressing the upper body anchor holding the position together.",
+        "correction": "Combine the hook attempt with an upper body defensive action. As you reach for the stepping leg with your hook, simultaneously frame against their shoulder or collar grip to create separation. Attacking both the leg clearance and the upper body anchor gives you a higher probability of stalling the pass."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the earliest tactile cue that a backstep is being attempted from leg weave?",
+        "answer": "The earliest cue is an asymmetric weight shift where the passer loads their pivot leg side noticeably heavier while their forward chest pressure briefly lightens or redirects. This weight transfer happens before any visible leg movement and provides the maximum defensive reaction time. Experienced defenders learn to feel this pressure change through their chest and hip contact before seeing the stepping leg begin its arc."
+      },
+      {
+        "question": "Why is the deep half entry the strongest counter to the backstep, and when must it be initiated?",
+        "answer": "Deep half is the strongest counter because the backstep inherently creates the conditions deep half requires: the passer's hips elevate during rotation and their weight shifts onto one leg, opening space beneath their center of gravity. The entry must be initiated during the weight transfer phase, the brief moment when the passer loads the pivot leg and before their rotation builds momentum. Once the rotation is in progress, the passer's chest pressure re-engages and closes the deep half entry window."
+      },
+      {
+        "question": "How do you prevent back exposure when following the backstep rotation with hip movement?",
+        "answer": "Keep your inside shoulder connected to the passer's chest as you hip-escape in the direction of their rotation. Never turn away from the passer during the follow. Your hip escape should move your hips while your shoulders stay facing the passer, creating an angled position rather than a turned-away position. If you feel yourself rotating past 45 degrees away from the passer, flatten back to the mat and reset your defensive structure rather than continuing the follow and exposing your back."
+      },
+      {
+        "question": "Your far-side hook catches the stepping leg but the passer is still applying heavy upper body pressure - what do you do?",
+        "answer": "Holding the hook alone is not sustainable because the passer will strip it while maintaining their upper body anchor. You must address the upper body control simultaneously. Frame against their crossface shoulder to create head space, then use the stalled moment to re-establish your near-side frames. The hook buys you time but does not resolve the position - use that time to rebuild your full defensive structure including frames, hip angle, and underhook battle rather than just holding the hook and hoping."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Recognition Drilling",
+        "focus": "Identifying backstep initiation cues from leg weave bottom",
+        "description": "Partner alternates between forward-driving passes and backstep attempts from leg weave. Bottom player calls out which direction the pass is going as early as possible, without attempting to defend. Develop the ability to read weight shifts and hip rotation through contact feedback. Ten pass attempts per round, track correct identification rate."
+      },
+      {
+        "phase": "Phase 2: Individual Defensive Responses",
+        "focus": "Practicing each defensive option in isolation against cooperative backstep",
+        "description": "Partner performs the backstep at 50% speed. Bottom player practices one defensive response per round: hook the stepping leg (round 1), dive to deep half (round 2), redirect frames laterally (round 3), follow with hip movement (round 4). Five repetitions per response, focusing on timing and mechanics without combining responses."
+      },
+      {
+        "phase": "Phase 3: Combined Defense with Increasing Resistance",
+        "focus": "Chaining defensive responses against resisted backstep attempts",
+        "description": "Partner performs backsteps at increasing resistance levels from 50% to 90%. Bottom player uses whatever defensive option feels correct based on timing and positioning. If the first response fails, immediately transition to the next option. Develop the ability to chain defenses: hook attempt to deep half to frame redirect. Three-minute rounds with continuous reset after each pass or successful defense."
+      },
+      {
+        "phase": "Phase 4: Full Passing Defense Positional Sparring",
+        "focus": "Defending the backstep within the full leg weave passing context",
+        "description": "Start in leg weave with top player using all available passes including backstep. Bottom player defends all passing attempts with the backstep defense integrated into their overall defensive framework. This phase tests whether the defender can recognize and respond to the backstep among other threats without over-anticipating it. Five-minute rounds at full resistance."
+      }
+    ]
+  }
+}

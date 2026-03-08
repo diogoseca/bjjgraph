@@ -1,0 +1,406 @@
+{
+  "name": "Progression to Zombie",
+  "description": "Learn Progression to Zombie in 10th Planet Rubber Guard. Advance from New York to deeper control with systematic hip rotation and overhook mechanics.",
+  "tags": [
+    "bjj",
+    "transition",
+    "rubber guard",
+    "10th planet",
+    "no-gi",
+    "flexible guard",
+    "control progression"
+  ],
+  "from_position": "New York/Bottom",
+  "outcomes": [
+    {
+      "to": "Zombie/Bottom",
+      "probability": 58,
+      "result": "success"
+    },
+    {
+      "to": "New York/Bottom",
+      "probability": 27,
+      "result": "failure"
+    },
+    {
+      "to": "Closed Guard/Bottom",
+      "probability": 15,
+      "result": "counter"
+    }
+  ],
+  "success_rate": 58,
+  "overview": "Progression to Zombie represents the natural evolution of control within the Rubber Guard system, allowing the bottom player to transition from New York into a deeper, more restrictive control position. The Zombie position intensifies the pressure on the opponent by bringing the controlling leg higher around their shoulder while maintaining the overhook, creating a system where escape becomes exponentially more difficult and submission threats multiply.\n\nStrategically, this transition exploits the opponent's compromised posture in New York. When the opponent settles into defending the standard New York attacks or begins slowly working toward posture recovery, the Zombie progression catches them mid-adjustment. The key insight is that the transition occurs during the opponent's defensive cycle, capitalizing on the brief moment when their defensive structure is weakest. Advanced practitioners time this movement to coincide with the opponent's exhale or minor weight shift.\n\nThe biomechanical advantage of Zombie over New York lies in the increased leverage created by the higher leg position. By bringing the shin from across the back to wrapping around the shoulder and neck region, the bottom player gains mechanical advantage that makes posture recovery nearly impossible. This deeper control also opens direct pathways to high-percentage submissions including the gogoplata, omoplata, and various choke combinations that are less accessible from standard New York control.",
+  "conditions": [
+    "Established New York control with deep overhook and broken posture",
+    "Opponent settling into passive defense or beginning slow posture recovery",
+    "Sufficient hip flexibility to elevate shin from back to shoulder level",
+    "Secure shin grip near the ankle with ability to guide leg movement"
+  ],
+  "related_content": [
+    {
+      "name": "New York",
+      "relationship": "Starting position - must be established before Progression to Zombie"
+    },
+    {
+      "name": "Zombie",
+      "relationship": "Target position - deeper rubber guard control achieved through this transition"
+    },
+    {
+      "name": "Mission Control",
+      "relationship": "Foundation position - entry point to entire rubber guard system"
+    },
+    {
+      "name": "Invisible Collar",
+      "relationship": "Alternative progression from New York - targets neck control"
+    },
+    {
+      "name": "Chill Dog",
+      "relationship": "Follow-up position from Zombie - gogoplata setup"
+    },
+    {
+      "name": "Carni",
+      "relationship": "Alternative progression - omoplata attack pathway"
+    },
+    {
+      "name": "Gogoplata",
+      "relationship": "Primary submission available from Zombie position"
+    },
+    {
+      "name": "Closed Guard",
+      "relationship": "Fallback position if rubber guard control fails"
+    },
+    {
+      "name": "Omoplata",
+      "relationship": "Secondary submission pathway accessible from Zombie"
+    },
+    {
+      "name": "Advance to Chill Dog",
+      "relationship": "Alternative transition from New York toward gogoplata pathway"
+    }
+  ],
+  "attacker": {
+    "name": "Progression to Zombie Attacker",
+    "description": "How to execute Progression to Zombie in BJJ. Attacking perspective with setup, execution steps, and counters for deepening Rubber Guard control.",
+    "overview": "Executing the Progression to Zombie requires precise coordination between hip rotation, overhook maintenance, and incremental shin repositioning. As the attacker from New York Bottom, your goal is to elevate your controlling leg from across the opponent's back to wrapping around their shoulder-neck junction, creating a dramatically deeper control position that severely limits their defensive options and opens high-percentage submission pathways.\n\nThe transition exploits a fundamental timing window in the opponent's defensive cycle. When they settle into defending standard New York attacks or begin methodically working toward posture recovery, their defensive structure experiences brief moments of reduced engagement. These micro-windows are where the Zombie progression succeeds. The movement must be driven primarily by hip rotation rather than arm strength, using the core as the engine while the shin-gripping hand merely guides the leg along its path.\n\nSuccess depends on maintaining the overhook as an independent anchor throughout the entire transition. The overhook cannot be sacrificed or weakened during leg repositioning. This dual-task demand - keeping the anchor solid while moving the leg - is what makes the transition technically challenging but also what makes it effective, since the opponent cannot exploit the repositioning phase if overhook control remains constant.",
+    "key_principles": [
+      "Maintain overhook depth throughout the transition - releasing grip pressure even momentarily allows escape",
+      "Use hip rotation rather than arm pulling to drive the leg higher around the opponent's shoulder",
+      "Time the progression when opponent begins defensive adjustment or weight shift",
+      "Keep constant downward pressure on opponent's head and shoulders during leg repositioning",
+      "Core engagement must increase during transition to prevent opponent from driving forward",
+      "The free hand guides the shin while the overhook arm maintains control independently",
+      "Small incremental movements are more effective than large explosive repositioning attempts"
+    ],
+    "setup_requirements": [
+      "Established New York control with deep overhook secured around opponent's tricep",
+      "Opponent's posture must be broken with head and shoulders pulled down toward your chest",
+      "Hip flexibility sufficient to elevate shin from back position to shoulder level",
+      "Shin grip hand positioned near ankle with ability to guide leg movement",
+      "Opponent showing signs of settling into defensive posture or beginning slow escape attempt"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Confirm control integrity",
+        "description": "Verify your overhook depth is secure with shoulder tight against opponent's armpit. Check that your shin-gripping hand has solid purchase near the ankle. Ensure opponent's posture remains broken with their head below your chin level before initiating any transition movement."
+      },
+      {
+        "step_number": 2,
+        "action": "Increase core engagement",
+        "description": "Tighten your abdominal muscles and hip flexors to create a stable platform for the transition. This increased tension prevents the opponent from driving forward during leg repositioning and maintains the forward-pulling force on their upper body that compensates for temporarily reduced shin pressure."
+      },
+      {
+        "step_number": 3,
+        "action": "Initiate hip rotation toward overhook side",
+        "description": "Begin rotating your hips toward the overhook side while simultaneously pulling your knee toward your same-side shoulder. This rotation is the primary mechanical driver of leg elevation. Do not attempt to pull the shin higher with arm strength alone, as this exhausts your grip and creates inconsistent movement."
+      },
+      {
+        "step_number": 4,
+        "action": "Guide shin from back to shoulder",
+        "description": "Use your shin-gripping hand to guide your leg from across the opponent's back upward to wrap around their shoulder. The shin should progressively slide from mid-back to upper back to the junction where neck meets shoulder. Maintain constant contact with the opponent's body throughout this sliding motion."
+      },
+      {
+        "step_number": 5,
+        "action": "Secure Zombie grip at new elevation",
+        "description": "Once the shin is positioned around the shoulder-neck junction, adjust your grip to control the shin at this new angle. Your hand position may need to shift from near the ankle to mid-shin to maintain effective control at the higher elevation. Test grip security before releasing any transitional pressure."
+      },
+      {
+        "step_number": 6,
+        "action": "Consolidate Zombie position",
+        "description": "Pull opponent's head down with the overhook while using the new leg position to trap their shoulder completely. Adjust your hip angle to load their weight onto the trapped arm side, eliminating their ability to post or create base. Begin assessing which submission or advancement pathway their defensive posture exposes."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Posture explosion during transition - opponent drives hips forward and lifts head aggressively as leg moves",
+        "effectiveness": "High",
+        "your_response": "Abandon transition and return to New York control, using their forward drive momentum to set up Chill Dog or triangle instead",
+        "targets_outcome": "New York/Bottom"
+      },
+      {
+        "counter": "Overhook extraction attempt - opponent pulls trapped arm back toward their hip during leg repositioning",
+        "effectiveness": "Medium",
+        "your_response": "Tighten overhook grip and shoot leg over their shoulder for triangle setup, converting their extraction attempt into submission opportunity",
+        "targets_outcome": "Closed Guard/Bottom"
+      },
+      {
+        "counter": "Stack pressure - opponent drives weight forward to flatten your hips and prevent leg elevation",
+        "effectiveness": "Medium",
+        "your_response": "Accept stack momentarily and use momentum to sweep or transition to omoplata setup as their weight commits forward",
+        "targets_outcome": "New York/Bottom"
+      },
+      {
+        "counter": "Grip stripping - opponent uses free hand to peel your grip off your own shin during repositioning",
+        "effectiveness": "Low",
+        "your_response": "Maintain control with overhook while re-establishing shin grip, or transition to Invisible Collar using the free hand opportunity created by their grip fighting",
+        "targets_outcome": "New York/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Releasing overhook pressure while focusing on leg repositioning",
+        "consequence": "Opponent extracts trapped arm and restores posture, completely escaping rubber guard control",
+        "correction": "Maintain overhook as the anchor throughout transition - the overhook must work independently while leg moves"
+      },
+      {
+        "error": "Attempting to pull leg higher using only arm strength rather than hip rotation",
+        "consequence": "Inefficient movement that exhausts grip strength and often fails to achieve proper Zombie position",
+        "correction": "Drive transition with hip rotation toward overhook side, using arm only to guide rather than pull"
+      },
+      {
+        "error": "Rushing the transition without confirming initial New York control is solid",
+        "consequence": "Starting from compromised position results in failed transition and potential loss of all control",
+        "correction": "Verify deep overhook, broken posture, and secure shin grip before initiating any movement"
+      },
+      {
+        "error": "Relaxing core engagement during leg repositioning phase",
+        "consequence": "Opponent drives forward immediately, flattening your hips and preventing leg elevation",
+        "correction": "Increase core engagement during transition - this is when you need maximum tension, not minimum"
+      },
+      {
+        "error": "Moving the leg in one large explosive movement rather than incremental adjustments",
+        "consequence": "Creates opening for opponent to counter during large movement, loses control during adjustment",
+        "correction": "Use small progressive movements, continuously adjusting grip and hip position throughout"
+      },
+      {
+        "error": "Failing to adjust grip position after shin reaches shoulder level",
+        "consequence": "Grip at wrong angle cannot maintain control, position deteriorates back to New York or worse",
+        "correction": "Proactively reposition grip hand as leg elevation changes angle requirements"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Week 1-2",
+        "focus": "Flexibility and position recognition",
+        "description": "Practice hip flexibility drills specifically targeting the range needed for Zombie position. Work static holds in New York, then Zombie, without opponent resistance. Focus on understanding the structural differences between positions and building comfort with high leg elevation."
+      },
+      {
+        "phase": "Week 3-4",
+        "focus": "Transition mechanics",
+        "description": "Practice the full transition sequence with compliant partner. Partner maintains New York position while you execute 20-30 repetitions per session. Focus on hip rotation as primary driver and maintaining overhook throughout. Partner provides feedback on pressure consistency."
+      },
+      {
+        "phase": "Week 5-6",
+        "focus": "Timing and resistance",
+        "description": "Partner begins offering moderate defensive reactions during transition. Practice recognizing optimal timing windows when opponent adjusts position. Work counter-responses to common defenses. Build reaction speed and ability to abandon transition when countered."
+      },
+      {
+        "phase": "Week 7+",
+        "focus": "Live integration",
+        "description": "Incorporate transition into positional sparring from closed guard and rubber guard positions. Track success rate and identify personal failure patterns. Work chains from Zombie to submissions. Practice recognizing when Zombie is appropriate versus other New York progressions."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the primary mechanical driver of leg elevation during the Progression to Zombie?",
+        "answer": "Hip rotation toward the overhook side is the primary driver of leg elevation, not arm strength. The arm guides and controls the shin position, but the mechanical power for elevating the leg comes from rotating the hips. Using only arm strength is inefficient, exhausts grip strength quickly, and often fails to achieve proper Zombie position. The hip rotation creates a smooth, progressive elevation that maintains constant contact with the opponent's body."
+      },
+      {
+        "question": "Your opponent begins slowly extracting their overhook-trapped arm as you start the transition - how do you respond?",
+        "answer": "Tighten overhook grip immediately and convert their extraction attempt into a triangle setup by shooting your transitioning leg over their shoulder rather than around it. Their arm extraction naturally positions the arm inside your guard as it pulls back, creating the perfect triangle entry. The extraction attempt becomes an offensive opportunity rather than a defensive success for them."
+      },
+      {
+        "question": "What are the two critical grips needed for successful Progression to Zombie and how do they function?",
+        "answer": "Two critical grips must be maintained: the deep overhook around opponent's tricep with shoulder-to-armpit pressure preventing arm extraction, and the shin grip near the ankle with hand positioned to guide leg elevation. The overhook functions as the immovable anchor throughout the transition while the shin grip repositions progressively as the leg moves higher, adjusting its angle to maintain control at each new elevation."
+      },
+      {
+        "question": "When is the optimal timing window to attempt Progression to Zombie?",
+        "answer": "The optimal timing is when the opponent settles into defending standard New York attacks or begins a slow, methodical posture recovery attempt. During these defensive adjustments, their structure is temporarily compromised as they redistribute weight and attention. Advanced practitioners specifically time the transition to coincide with the opponent's exhale or minor weight shift when their defensive engagement drops to its lowest point."
+      },
+      {
+        "question": "Why must core engagement increase rather than decrease during the transition phase?",
+        "answer": "During leg repositioning, you temporarily reduce the pressure your shin exerts across the opponent's back as it slides upward. This creates a brief window where opponents commonly drive forward to flatten your hips and escape. Increased core engagement compensates for the reduced shin pressure, maintains the forward-pulling force on their upper body, and creates the stable platform needed for controlled hip rotation throughout the transition."
+      },
+      {
+        "question": "Your opponent explodes forward with posture as your leg begins moving higher - what is the correct response?",
+        "answer": "Abandon the Zombie transition immediately and return to New York control. Use their forward momentum against them by transitioning to Chill Dog setup or shooting for a triangle as they drive in. Their aggressive forward movement actually assists these alternative attacks because it brings their head closer and compresses the space needed for control. Never fight against explosive posture recovery during mid-transition - redirect their energy instead."
+      },
+      {
+        "question": "What distinguishes a failed Progression to Zombie from a successful position that simply needs minor adjustment?",
+        "answer": "A failed transition is defined by compromised overhook control or significant opponent posture recovery - either condition means the transition has failed and you must reset. A successful but imperfect Zombie still has deep overhook intact and opponent's posture remains broken, even if shin position is not optimal around the shoulder. From imperfect Zombie, small grip and hip adjustments can consolidate full position, while lost overhook or restored posture requires starting over from guard recovery."
+      },
+      {
+        "question": "What entry conditions must exist before you attempt the Progression to Zombie?",
+        "answer": "Four conditions must be confirmed: deep overhook secured around opponent's tricep with shoulder-to-armpit contact, opponent's posture broken with head and shoulders pulled below your chin level, secure shin grip near your ankle with ability to guide the leg, and the opponent showing signs of settling into passive defense or beginning a slow escape. Attempting the transition without all four conditions dramatically increases failure rate and risks losing all rubber guard control."
+      },
+      {
+        "question": "How does the direction of force change as the shin moves from the back to the shoulder during the transition?",
+        "answer": "In New York, the shin across the back creates a primarily downward pulling force on the opponent's torso that breaks their posture. As the shin elevates toward the shoulder during transition, the force vector shifts from pure downward pull to a diagonal force that simultaneously pulls the shoulder down and restricts its lateral movement. At full Zombie, the shin around the shoulder-neck junction creates a wrapping force that traps the shoulder joint and prevents any posting or base creation on that side, fundamentally changing the control dynamic."
+      },
+      {
+        "question": "Your opponent stacks you aggressively during the transition - how do you use their forward weight commitment?",
+        "answer": "Accept the stack momentarily rather than fighting it. Their forward weight commitment means their hips are high and their base is narrow - use this by angling your hips to the side and redirecting their stacking momentum into a sweep or omoplata setup. The stack itself brings their shoulder deeper into your control zone. If the stack is too strong, transition to Carni by rotating toward the omoplata angle since their forward pressure assists the rotation needed for that pathway."
+      }
+    ],
+    "safety_considerations": "Progression to Zombie requires significant hip flexibility, and forcing the position beyond your comfortable range can strain hip flexors, adductors, or cause knee discomfort. During training, communicate with partners about pressure levels and never hold position past the point of discomfort. The transition involves complex leg positioning that can torque the knee if performed incorrectly - always move the hip joint rather than rotating the knee in isolation. When practicing with resistance, start slowly and build speed gradually to allow your body to adapt to the movement patterns. If you experience any sharp pain in hips, knees, or lower back during the transition, stop immediately and consult with a qualified instructor about your technique."
+  },
+  "defender": {
+    "name": "Progression to Zombie Defender",
+    "description": "How to defend against Progression to Zombie in BJJ. Recognition cues, defensive options, and escape strategies from the top player's perspective.",
+    "overview": "Defending the Progression to Zombie requires the top player to recognize the transition early and act decisively during the narrow window before the deeper control is established. As the defender trapped in New York, you are already in a compromised position with broken posture, a trapped arm in the overhook, and the opponent's shin across your back. The Zombie progression compounds these problems by elevating the controlling leg to the shoulder-neck region, making escape exponentially harder once consolidated.\n\nThe critical defensive insight is that the transition creates a brief vulnerability for the attacker. While they are repositioning their leg from your back to your shoulder, their shin pressure temporarily decreases and their attention is divided between maintaining the overhook and guiding the leg. This mid-transition window is your highest-percentage moment to escape, counter, or at minimum prevent the position from advancing. Recognizing the tactile and visual cues that signal the transition is beginning allows you to time your defense within this window rather than reacting after Zombie is fully established.\n\nDefensive success depends on understanding which element of the control system to attack. The overhook is the anchor, the shin grip guides the transition, and the hip rotation drives the elevation. Disrupting any one of these three components during the transition phase can prevent Zombie from being achieved. The most effective defensive approach targets the hip rotation by driving forward pressure at the moment of transition, which collapses the mechanical advantage the attacker needs to elevate their leg.",
+    "key_principles": [
+      "Recognize transition cues early - defense during the leg repositioning phase is far more effective than defense after Zombie is consolidated",
+      "Drive forward pressure during the transition to collapse the space needed for hip rotation and leg elevation",
+      "Target the shin grip as the weakest link in the control chain during repositioning",
+      "Maintain constant defensive tension on the overhook to prevent the anchor from deepening",
+      "Use the brief reduction in shin pressure during transition as a window for posture recovery",
+      "Never remain passive in New York waiting for the Zombie to establish - force the attacker to maintain current position or regress"
+    ],
+    "recognition_cues": [
+      "Feeling the opponent's hip begin rotating toward the overhook side - this is the earliest indicator that Zombie progression is initiating",
+      "Sensing decreased shin pressure across your back as the attacker's leg begins to slide upward from its static New York position",
+      "Opponent's shin-gripping hand shifts position or releases momentarily to guide the leg to a higher elevation around your shoulder",
+      "Increased core tension from the bottom player - you feel their abdominal engagement tighten as they prepare the platform for transition",
+      "The overhook arm pulls your shoulder slightly more forward as the attacker compensates for reduced shin control during repositioning"
+    ],
+    "defensive_options": [
+      {
+        "action": "Explosive posture recovery - drive hips forward and lift head aggressively the moment you feel shin pressure decrease",
+        "when_to_use": "Immediately upon sensing the first recognition cue (hip rotation or decreased shin pressure) before the leg reaches shoulder level",
+        "targets_outcome": "New York/Bottom",
+        "if_successful": "Prevents Zombie from establishing, forces opponent back to New York control or potentially breaks rubber guard entirely if posture is fully recovered",
+        "risk": "If timed too late after Zombie is partially established, the explosive drive brings your head deeper into their control zone and may assist their transition"
+      },
+      {
+        "action": "Overhook extraction with arm pull - aggressively retract trapped arm toward your hip while the opponent's attention is divided between overhook and leg repositioning",
+        "when_to_use": "When you feel the opponent's overhook grip momentarily soften as they focus on guiding their shin with their other hand",
+        "targets_outcome": "Closed Guard/Bottom",
+        "if_successful": "Extracting the trapped arm eliminates the anchor of the entire rubber guard system, forcing opponent to re-establish from closed guard or scramble",
+        "risk": "Partial extraction that fails to clear the arm can be converted into a triangle setup by the attacker who shoots their transitioning leg over your shoulder"
+      },
+      {
+        "action": "Shin grip strip - use free hand to peel opponent's grip off their own shin during the moment they are repositioning",
+        "when_to_use": "When the opponent's shin grip visibly loosens or repositions during the leg elevation phase, creating a window where their grip is weakest",
+        "targets_outcome": "New York/Bottom",
+        "if_successful": "Without shin control, the attacker cannot guide their leg to shoulder level and the transition stalls, often reverting to standard New York or forcing them to re-grip",
+        "risk": "Committing your free hand to grip stripping temporarily reduces your ability to frame against their upper body pressure"
+      },
+      {
+        "action": "Stack and drive forward - commit weight forward to flatten opponent's hips, eliminating the hip rotation space needed for leg elevation",
+        "when_to_use": "When you feel the hip rotation beginning but before significant leg elevation has occurred, using your body weight to collapse the mechanical advantage",
+        "targets_outcome": "New York/Bottom",
+        "if_successful": "Flat hips prevent hip rotation entirely, stalling the transition and potentially opening opportunities for stacking passes or guard opening",
+        "risk": "Forward weight commitment can be redirected into sweeps or omoplata setups if the attacker reads the drive and angles their hips"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "New York/Bottom",
+        "how": "Prevent the transition by disrupting the leg elevation during the repositioning window. Drive forward pressure to collapse hip rotation space, strip the shin grip to remove leg guidance, or time posture recovery to coincide with decreased shin pressure. Successfully keeping the position in New York rather than allowing advancement to Zombie maintains your current defensive options without the position worsening."
+      },
+      {
+        "outcome": "Closed Guard/Bottom",
+        "how": "Extract the trapped arm from the overhook during the transition window when the attacker's grip attention is divided. Combine arm extraction with aggressive posture recovery to break the entire rubber guard structure. Once the overhook is cleared and posture is recovered, the attacker's legs naturally open from the failed rubber guard position, allowing you to settle into closed guard top where your defensive situation is significantly improved."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Waiting passively in New York hoping the opponent will not advance to Zombie",
+        "consequence": "Guarantees the transition succeeds because the attacker chooses their timing at leisure without any defensive pressure disrupting their execution",
+        "correction": "Maintain constant defensive activity in New York - fight the overhook, work toward posture recovery, and force the attacker to use energy maintaining current position rather than advancing freely"
+      },
+      {
+        "error": "Attempting to defend after Zombie is already fully consolidated around the shoulder",
+        "consequence": "Defense from established Zombie is dramatically harder than defense during transition, with success rates dropping by approximately 40% compared to mid-transition defense",
+        "correction": "Learn to recognize the early cues of Zombie initiation and immediately commit to a defensive response during the transition window before the position consolidates"
+      },
+      {
+        "error": "Pulling backward to escape rather than driving forward pressure during the transition",
+        "consequence": "Backward movement actually assists the attacker's hip rotation by creating the space they need to elevate their leg, and the pulling motion can be redirected into sweeps",
+        "correction": "Drive forward and down into the attacker during the transition, collapsing the hip rotation space and compressing the structure they need for leg elevation"
+      },
+      {
+        "error": "Focusing exclusively on the transitioning leg while ignoring the overhook anchor",
+        "consequence": "Even if you temporarily delay the leg repositioning, the deep overhook maintains their fundamental control and they simply attempt the transition again when you tire",
+        "correction": "Address the overhook as the primary control element - weakening or extracting the overhook defeats the entire rubber guard system, not just the Zombie transition"
+      },
+      {
+        "error": "Using explosive escape attempts without technical setup or timing",
+        "consequence": "Random explosive movements during New York create momentum that the attacker redirects into sweeps, triangles, or omoplata entries using your own energy against you",
+        "correction": "Time defensive explosions precisely to the transition window when the attacker's control is weakest, and commit fully to a single defensive pathway rather than flailing in multiple directions"
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the earliest recognition cue that your opponent is initiating Progression to Zombie?",
+        "answer": "The earliest cue is feeling the opponent's hip begin rotating toward the overhook side. This hip rotation precedes any visible leg movement and signals that they are creating the mechanical platform for leg elevation. The secondary cue is sensing decreased shin pressure across your back as the leg begins to slide, and feeling the overhook arm pull slightly more forward as they compensate for reduced shin control."
+      },
+      {
+        "question": "Why is defense during the transition window dramatically more effective than defense after Zombie is established?",
+        "answer": "During the transition, the attacker's control system is temporarily weakened in three ways: shin pressure across your back decreases as the leg moves, the attacker's attention is divided between maintaining the overhook and guiding the leg, and their grip on the shin may need to adjust position. This creates a window where their control is at approximately 60-70% of full strength. Once Zombie consolidates, all three control elements are re-established at full strength with the added mechanical advantage of the higher leg position."
+      },
+      {
+        "question": "You feel your opponent's shin beginning to slide up your back - what is your immediate defensive response?",
+        "answer": "Immediately drive forward pressure with your hips and chest to collapse the space needed for hip rotation and leg elevation. Simultaneously, use your free hand to strip their shin grip if accessible, targeting the moment when their hand is repositioning on the moving leg. If the forward drive stalls their transition, follow up with overhook extraction attempts while their control system is disrupted. Do not pull backward as this creates the space they need to complete the transition."
+      },
+      {
+        "question": "What makes the overhook the highest-priority target for your defensive efforts?",
+        "answer": "The overhook is the anchor of the entire rubber guard system - without it, neither New York nor Zombie can exist. While disrupting the shin grip or hip rotation only prevents the specific Zombie transition (the attacker can re-attempt), extracting the overhook defeats the entire control framework and forces the attacker to rebuild from closed guard. Every moment you spend weakening the overhook compounds into positional advantage, whereas defending only the leg elevation is a temporary delay that must be repeated indefinitely."
+      },
+      {
+        "question": "Your overhook extraction attempt partially succeeds but the arm is not fully free - what is the risk and how do you manage it?",
+        "answer": "A partial extraction where your arm is sliding out but not fully clear creates a dangerous triangle entry for the attacker. They can redirect their transitioning leg over your shoulder instead of around it, catching your partially-extracted arm inside the triangle. To manage this, commit fully to the extraction - once you start pulling, do not stop halfway. Drive your elbow tight to your ribs and rotate your forearm toward your hip in a corkscrew motion. If you feel them shooting for the triangle, immediately stuff your head forward and drive into them to prevent the leg from clearing your shoulder."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Week 1-2",
+        "focus": "Recognition and awareness",
+        "description": "Partner establishes New York and initiates Progression to Zombie at slow speed. Focus exclusively on identifying the tactile and visual cues that signal the transition is beginning. Do not attempt to defend yet - simply call out each recognition cue as you feel it. Build the sensory awareness that enables timely defensive responses."
+      },
+      {
+        "phase": "Week 3-4",
+        "focus": "Individual defensive techniques",
+        "description": "Practice each defensive option in isolation against moderate resistance. Drill posture recovery timing, overhook extraction mechanics, shin grip stripping, and forward pressure defense separately. Partner initiates Zombie progression and you execute a single predetermined defense 15-20 times per round before switching to the next option."
+      },
+      {
+        "phase": "Week 5-6",
+        "focus": "Reactive defense selection",
+        "description": "Partner randomly chooses when and how to initiate Zombie progression from New York. You must recognize the transition, select the appropriate defensive response based on the specific opening, and execute. Build decision-making speed under realistic timing pressure. Track success rates for each defensive option to identify your highest-percentage response."
+      },
+      {
+        "phase": "Week 7+",
+        "focus": "Live positional sparring integration",
+        "description": "Full positional sparring starting from New York with partner attempting all rubber guard progressions including Zombie. Integrate Zombie defense into your complete New York escape strategy. Work on maintaining defensive activity throughout the engagement rather than waiting passively. Identify whether your defense patterns are predictable and develop variation."
+      }
+    ]
+  },
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Quick Zombie Entry",
+      "description": "Abbreviated transition that skips incremental adjustment in favor of explosive hip rotation when opponent creates opening. Used when opponent momentarily compromises their defensive structure with a failed escape attempt or significant weight shift.",
+      "when_to_use": "When opponent attempts posture recovery and creates brief window of vulnerability"
+    },
+    {
+      "variant_name": "Zombie with Wrist Control",
+      "description": "Modified entry where the free hand controls opponent's wrist on the non-overhook side before transitioning. Provides additional control and prevents opponent from using that arm to grip strip, frame, or counter during the leg repositioning phase.",
+      "when_to_use": "Against opponents who actively use their free hand to grip strip or frame during transitions"
+    },
+    {
+      "variant_name": "Low Flexibility Zombie",
+      "description": "Modified position for practitioners with limited hip mobility. Leg wraps around upper back rather than full shoulder encirclement. Provides similar control vectors with reduced flexibility requirement, trading some submission access for accessibility.",
+      "when_to_use": "When hip flexibility limits ability to achieve full Zombie position"
+    }
+  ],
+  "position_integration": "Progression to Zombie is a critical link in the 10th Planet Rubber Guard system's decision tree. From New York, practitioners have four primary advancement options: Invisible Collar (attacking the neck), Zombie (deepening leg control), Chill Dog (gogoplata pathway), and Carni (omoplata pathway). Zombie specifically addresses situations where the opponent attempts to weather the storm in New York, settling into passive defense or slowly working toward posture recovery. The deeper control of Zombie forces renewed defensive urgency and opens submission pathways that were less accessible from New York. From Zombie, practitioners can further advance to Chill Dog for gogoplata finishes, transition to mounted positions via sweeps, or attack with triangles and omoplatas. Understanding when to progress to Zombie versus the other New York follow-ups depends on reading the opponent's defensive reactions and selecting the pathway that exploits their specific defensive choices."
+}

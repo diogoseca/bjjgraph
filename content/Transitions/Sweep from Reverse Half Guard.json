@@ -1,0 +1,412 @@
+{
+  "name": "Sweep from Reverse Half Guard",
+  "description": "Master the Sweep from Reverse Half Guard in BJJ. Momentum-based reversal using inverted geometry to reach mount from an unconventional bottom position.",
+  "tags": [
+    "bjj",
+    "transition",
+    "sweep",
+    "reverse half guard",
+    "half guard",
+    "advanced",
+    "momentum sweep",
+    "inverted"
+  ],
+  "from_position": "Reverse Half Guard/Bottom",
+  "outcomes": [
+    {
+      "to": "Mount/Top",
+      "probability": 40,
+      "result": "success"
+    },
+    {
+      "to": "Reverse Half Guard/Bottom",
+      "probability": 35,
+      "result": "failure"
+    },
+    {
+      "to": "Side Control/Bottom",
+      "probability": 25,
+      "result": "counter"
+    }
+  ],
+  "success_rate": 40,
+  "overview": "The Sweep from Reverse Half Guard exploits the inverted geometry of the reverse half position to generate momentum-based reversals that catch opponents off-guard. Unlike conventional half guard sweeps that rely on underhook battles and incremental weight displacement, this sweep channels the opponent's forward pressure through rotational mechanics, converting their drive into the energy that completes the reversal. The technique rewards practitioners who understand timing over strength, as the sweep window opens specifically when the top player commits weight forward.\n\nStrategically, this sweep addresses a critical problem: the reverse half guard bottom is an inherently transitional position where staying passive guarantees deterioration. The sweep transforms a precarious defensive scenario into a direct path to mount, bypassing intermediate positions entirely. This leap in positional hierarchy makes it a high-reward technique, though the 40% success rate reflects the precise timing and body coordination required. When the sweep fails, the bottom player typically retains their reverse half guard hook and can reset, but a well-timed counter by the top player can result in guard pass to side control.\n\nThe technique integrates naturally into a reverse half guard attack system that includes back takes and guard recovery options. Threatening the sweep forces the top player to moderate their forward pressure, which in turn opens windows for alternative attacks. This creates a fundamental dilemma: drive forward and risk being swept, or stay conservative and allow the bottom player time to transition to more favorable positions like deep half guard or dogfight.",
+  "conditions": [
+    "Opponent driving forward pressure into the reverse half guard position",
+    "Secure leg entanglement maintained on opponent's trapped leg",
+    "Bottom player has sufficient hip mobility to generate rotational force",
+    "Opponent's weight committed over their knees rather than sitting back on their hips",
+    "Bottom player's back is not fully flattened to the mat with space to initiate rotation"
+  ],
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Momentum Roll Sweep",
+      "description": "Uses a complete rolling motion underneath the opponent, channeling their forward drive into a full rotation that lands directly in mount. The bottom player curls underneath, maintaining leg control throughout the roll, and uses the opponent's committed weight as the primary force vector for the reversal.",
+      "when_to_use": "When the opponent is driving heavy forward pressure with their chest low against your back, committing their weight over their knees. The heavier the drive, the more effective this rolling variant becomes."
+    },
+    {
+      "variant_name": "Hip Bump Reversal",
+      "description": "A more compact version that uses an explosive hip bump rather than a full roll. The bottom player bridges their hips sharply into the opponent's center of gravity while simultaneously redirecting the trapped leg, creating an off-balancing force that tips the opponent over without requiring a complete rotation.",
+      "when_to_use": "When space is limited and a full roll is not possible, or when the opponent's pressure is moderate rather than heavy. Also effective against opponents who post their hands wide, as the hip bump targets their center mass directly."
+    },
+    {
+      "variant_name": "Underhook Elevation Sweep",
+      "description": "Combines an underhook on the near side with the reverse half guard leg control to create a lifting sweep. The bottom player secures the underhook, elevates the opponent's hips using their legs, and drives through to complete the reversal to mount using combined upper and lower body coordination.",
+      "when_to_use": "When the opponent leaves space for an underhook by reaching for grips or attempting to establish crossface control. The underhook provides a steering handle that increases sweep accuracy and control during the transition."
+    }
+  ],
+  "position_integration": "The Sweep from Reverse Half Guard sits at a critical junction in the bottom half guard system. It connects the reverse half guard position directly to mount, providing a high-value positional jump that rewards practitioners who develop comfort in inverted configurations. The sweep threat forces top players to moderate their passing pressure, which indirectly supports other bottom attacks including back takes from reverse half, deep half guard entries, and standard half guard recovery. Within a complete half guard game, reverse half guard sweeps complement conventional underhook sweeps and deep half entries by attacking from an angle that most opponents rarely drill against, creating strategic surprise value that persists even at advanced levels.",
+  "related_content": [
+    {
+      "name": "Reverse Half Guard",
+      "relationship": "Starting position from which this sweep is executed"
+    },
+    {
+      "name": "Mount",
+      "relationship": "Primary target position achieved on successful sweep completion"
+    },
+    {
+      "name": "Side Control",
+      "relationship": "Position opponent may achieve if they counter the sweep attempt"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Standard half guard from which reverse half guard often originates"
+    },
+    {
+      "name": "Deep Half Guard",
+      "relationship": "Alternative attack option when sweep timing is not available"
+    },
+    {
+      "name": "Dogfight Position",
+      "relationship": "Intermediate position accessible during failed sweep recovery"
+    },
+    {
+      "name": "Escape Reverse Half Guard",
+      "relationship": "Defensive transition the top player uses to prevent sweeps"
+    },
+    {
+      "name": "Backstep from Reverse Half",
+      "relationship": "Top player's primary passing option that creates the reverse half guard scenario"
+    },
+    {
+      "name": "Invert from Reverse Half Guard",
+      "relationship": "Alternative offensive transition from the same starting position"
+    },
+    {
+      "name": "Old School",
+      "relationship": "Related sweep position utilizing similar half guard mechanics"
+    },
+    {
+      "name": "Back Control",
+      "relationship": "Alternative offensive target from reverse half guard bottom"
+    },
+    {
+      "name": "Pass Reverse Half",
+      "relationship": "Opponent's passing technique that the sweep directly counters"
+    }
+  ],
+  "attacker": {
+    "name": "Sweep from Reverse Half Guard Attacker",
+    "description": "Master executing the Sweep from Reverse Half Guard. Step-by-step mechanics for timing, rotation, and completing the reversal to mount from inverted half guard.",
+    "overview": "Executing the Sweep from Reverse Half Guard requires precise timing and body coordination to convert the opponent's forward pressure into a complete positional reversal. The attacker must maintain secure leg entanglement throughout the sweep while generating rotational force through their hips and core. Unlike strength-based sweeps, this technique is fundamentally timing-dependent—the sweep works because the opponent's committed weight becomes the force that completes the reversal. The attacker's role is to redirect that force rather than overpower it, making technical precision far more important than physical attributes. Success depends on reading the opponent's weight distribution, choosing the correct moment to initiate, and maintaining leg control through the entire transition to land in a consolidated mount position.",
+    "key_principles": [
+      "Time the sweep to coincide with the opponent's forward weight commitment rather than forcing against a neutral base",
+      "Maintain continuous leg entanglement on the trapped leg throughout the entire sweep rotation to prevent escape",
+      "Generate rotational force through hip and core engagement rather than relying on upper body strength",
+      "Use the opponent's forward pressure as the primary force vector for completing the reversal",
+      "Commit fully to the sweep direction once initiated—half-committed attempts fail and expose you to passing",
+      "Immediately consolidate mount upon landing by establishing hip pressure and base before the opponent can re-guard"
+    ],
+    "setup_requirements": [
+      "Secure leg entanglement on opponent's trapped leg with active clamping using both legs",
+      "Opponent's weight committed forward with pressure driving into your back or hips",
+      "Sufficient hip mobility and space to initiate rotational movement underneath opponent",
+      "Defensive hand positioning protecting neck from chokes during the vulnerable transition phase",
+      "Core engagement ready to generate the explosive rotational force needed to complete the sweep"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Confirm leg entanglement and weight distribution",
+        "description": "Verify that your legs are securely clamping the opponent's trapped leg with constant tension. Feel for their weight distribution—the sweep requires their weight to be committed forward over their knees. If their weight is back or neutral, wait or use other attacks to draw them forward before initiating."
+      },
+      {
+        "step_number": 2,
+        "action": "Establish rotational alignment",
+        "description": "Angle your hips and torso to create the rotational pathway for the sweep. Your body should be positioned to channel the opponent's forward drive into a lateral or diagonal rolling motion. Tuck your chin to protect your neck and prepare your arms to assist the rotation by posting or framing."
+      },
+      {
+        "step_number": 3,
+        "action": "Initiate hip rotation with explosive timing",
+        "description": "As the opponent drives forward with committed pressure, explosively rotate your hips in the sweep direction. Use your core to generate the initial rotational force, timing the movement to coincide with the peak of their forward pressure. The opponent's weight should carry the momentum once you redirect it through your rotation."
+      },
+      {
+        "step_number": 4,
+        "action": "Redirect opponent's weight over their base",
+        "description": "Guide the opponent's center of gravity past their support base using the combined force of your hip rotation and their committed weight. Your legs maintain tight control of the trapped leg throughout, preventing them from posting or basing out to stop the sweep. Their forward momentum becomes the primary force completing the reversal."
+      },
+      {
+        "step_number": 5,
+        "action": "Follow through the rotation to top position",
+        "description": "Continue the rotational movement all the way through to arrive on top of the opponent. Do not stop halfway—incomplete rotations leave you in scramble positions where the opponent can recover. Drive through the sweep with continuous hip engagement until you are fully on top with your chest over the opponent's torso."
+      },
+      {
+        "step_number": 6,
+        "action": "Extract trapped leg and establish mount",
+        "description": "Once on top, immediately work to extract your leg from the remaining entanglement while maintaining chest pressure to prevent the opponent from re-guarding. Slide your knee across the opponent's body to establish mount position. Secure hip pressure and establish base with your hands before the opponent can bridge or shrimp away."
+      },
+      {
+        "step_number": 7,
+        "action": "Consolidate mount with pressure and base",
+        "description": "Settle your weight through your hips onto the opponent's torso, establishing a wide base with your knees. Post your hands briefly if needed for stability, then transition to heavy hip pressure with mobile upper body. Prevent the opponent's immediate escape attempts by grapevining their legs or driving your hips forward against any bridging."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Opponent bases out with hand post to prevent the roll",
+        "effectiveness": "High",
+        "your_response": "Switch to underhook elevation variant or use their posted arm as leverage for a different sweep angle. Their posted hand creates a new off-balance point you can attack from the opposite direction.",
+        "targets_outcome": "Reverse Half Guard/Bottom"
+      },
+      {
+        "counter": "Opponent sits back to remove forward pressure",
+        "effectiveness": "High",
+        "your_response": "Abandon the sweep attempt and transition to deep half guard entry or standard half guard recovery. Without forward pressure, the sweep lacks the necessary force vector. Use their withdrawal to create space for alternative positions.",
+        "targets_outcome": "Reverse Half Guard/Bottom"
+      },
+      {
+        "counter": "Opponent sprawls and drives crossface to flatten you",
+        "effectiveness": "Medium",
+        "your_response": "Use the crossface pressure to fuel a different sweep direction. Their sprawl commitment can be redirected if you time a secondary rotation. Alternatively, use the flattening to transition to an inversion entry or turtle recovery.",
+        "targets_outcome": "Side Control/Bottom"
+      },
+      {
+        "counter": "Opponent extracts trapped leg during sweep initiation",
+        "effectiveness": "High",
+        "your_response": "Immediately recover guard position by inserting butterfly hooks or recovering to closed guard before they can establish passing position. Leg extraction during the sweep is the most dangerous counter because it removes your primary control mechanism.",
+        "targets_outcome": "Side Control/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Initiating the sweep when opponent's weight is neutral or sitting back",
+        "consequence": "Sweep fails completely because there is no forward momentum to redirect. The rotation falls flat, wasting energy and potentially exposing your back to the opponent for passing or back control.",
+        "correction": "Wait for clear forward pressure commitment before initiating. Feel for the opponent's weight over their knees rather than their hips. Use feints or partial movements to draw forward pressure if needed."
+      },
+      {
+        "error": "Losing leg entanglement during the rotation",
+        "consequence": "Opponent extracts their leg mid-sweep, killing the reversal and leaving you in a compromised position where they can immediately pass to side control or take your back.",
+        "correction": "Maintain active clamping pressure with both legs throughout the entire sweep. Squeeze continuously rather than relying on static positioning. If you feel the entanglement loosening, abort the sweep and re-establish control before trying again."
+      },
+      {
+        "error": "Half-committing to the sweep rotation and stopping midway",
+        "consequence": "Leaves you in an awkward scramble position that is neither reverse half guard nor mount. The opponent can easily capitalize on your incomplete position to pass or establish dominant control.",
+        "correction": "Once you initiate the sweep, commit fully to the rotation. Drive all the way through to top position without pausing. If the sweep is not working within the first moment of initiation, abort completely rather than half-finishing."
+      },
+      {
+        "error": "Neglecting to protect the neck during the rotation phase",
+        "consequence": "Opponent secures a guillotine, anaconda, or darce choke during the vulnerable rotational transition, submitting you during what should have been an offensive movement.",
+        "correction": "Keep your chin tucked tightly to your chest throughout the entire sweep. Use your near hand to defend the neck while your far hand assists the rotation. Neck protection is non-negotiable during any inverted transition."
+      },
+      {
+        "error": "Failing to consolidate mount immediately after completing the sweep",
+        "consequence": "Opponent recovers guard or escapes before you can capitalize on the positional gain, negating the successful sweep and returning to a neutral or disadvantageous exchange.",
+        "correction": "Immediately establish hip pressure and base the moment you arrive on top. Prioritize mount consolidation over celebration. Extract your leg from any remaining entanglement while keeping chest pressure, then settle into proper mount mechanics."
+      },
+      {
+        "error": "Using upper body strength instead of hip rotation to power the sweep",
+        "consequence": "Sweep is underpowered and easily stopped by any opponent with decent base. Arm-based sweeps lack the force generation of hip-driven mechanics and exhaust the attacker rapidly.",
+        "correction": "Generate all primary force through hip rotation and core engagement. Arms assist direction and framing but should not be the power source. Practice the sweep slowly to develop the hip-driven mechanics before adding speed."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Mechanics",
+        "focus": "Solo hip rotation and body coordination",
+        "description": "Practice the sweep rotation solo, focusing on generating force through hip movement while maintaining a tucked chin and compact body position. Drill the rotational pathway 20 times per side to build muscle memory for the sweep direction and body positioning without an opponent."
+      },
+      {
+        "phase": "Phase 2: Cooperative Drilling",
+        "focus": "Partner drilling with no resistance",
+        "description": "Execute the sweep with a cooperative partner who provides realistic forward pressure but does not resist the sweep. Focus on timing the initiation with the partner's forward drive, maintaining leg entanglement throughout, and completing the full rotation to mount. Build 50 successful repetitions before advancing."
+      },
+      {
+        "phase": "Phase 3: Progressive Resistance",
+        "focus": "Timing development under increasing opposition",
+        "description": "Partner provides 25%, then 50%, then 75% resistance during sweep attempts. At each resistance level, identify when the sweep timing window opens and closes. Develop the ability to abort failed attempts cleanly and re-establish position. Practice the decision-making between sweep variants based on partner's defensive reactions."
+      },
+      {
+        "phase": "Phase 4: Live Integration",
+        "focus": "Competition-pace application with chain attacks",
+        "description": "Incorporate the sweep into live rolling from reverse half guard situations. Start positional sparring from reverse half guard bottom with full resistance. Chain the sweep with back take attempts and guard recovery options. Track success rate and identify patterns in when the sweep works versus when alternatives are needed."
+      },
+      {
+        "phase": "Phase 5: Chain Attack Development",
+        "focus": "Building systematic attack sequences from reverse half",
+        "description": "Develop a complete attack tree from reverse half guard where the sweep is one branch. Practice flowing between sweep attempts, back takes, deep half entries, and guard recovery based on opponent reactions. The goal is making each technique set up the others, creating an unsolvable dilemma from reverse half guard bottom."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the optimal timing window for initiating the Sweep from Reverse Half Guard?",
+        "answer": "The optimal timing window opens when the opponent commits their weight forward with pressure driving into your back or hips. Specifically, you should feel their weight shift over their knees rather than sitting back on their hips. This forward commitment provides the momentum vector that the sweep redirects into a reversal. Initiating too early when weight is neutral results in insufficient force, while initiating too late after they have settled their base makes the sweep significantly harder."
+      },
+      {
+        "question": "What conditions must exist before you can attempt this sweep?",
+        "answer": "Four conditions must be present: secure leg entanglement on the opponent's trapped leg with active clamping, opponent's weight committed forward rather than neutral or withdrawn, sufficient hip mobility and space to generate rotational force, and defensive hand positioning protecting your neck from chokes during the transition. Missing any of these conditions significantly reduces success probability and increases counter risk."
+      },
+      {
+        "question": "What is the most critical mechanical detail that makes this sweep work?",
+        "answer": "The hip rotation is the most critical mechanical detail. The sweep is powered by explosive hip rotation through the core, not by upper body pulling or pushing. The hips generate the rotational force that redirects the opponent's forward pressure into a lateral or diagonal rolling motion. Without proper hip engagement, the sweep lacks sufficient force to overcome even moderate resistance. Arms assist direction and framing but must not be the primary power source."
+      },
+      {
+        "question": "Your opponent posts their hand to stop the sweep—how do you adjust?",
+        "answer": "When the opponent posts a hand, switch to the underhook elevation variant or redirect the sweep angle to attack their new off-balance point. Their posted arm creates a fixed base on one side, making them vulnerable to being swept in the opposite direction. You can also use their posted arm as a lever by controlling the wrist and redirecting the sweep over that arm. The key is recognizing the post immediately and adapting rather than forcing the original sweep angle."
+      },
+      {
+        "question": "What grip configuration provides the best control during the sweep?",
+        "answer": "The primary grip is the leg entanglement itself, maintained through active clamping with both legs. For upper body control, the near hand defends the neck while the far hand assists rotation by posting on the mat or framing against the opponent's body. In gi, collar or sleeve grips can supplement control, but the legs must provide the majority of control. Over-relying on upper body grips compromises the hip-driven mechanics that power the sweep."
+      },
+      {
+        "question": "In which direction should force be applied during the sweep rotation?",
+        "answer": "Force should be directed laterally or diagonally, perpendicular to the opponent's forward drive. The opponent's weight is moving forward, so redirecting it sideways creates the off-balance. Think of the force application as a wheel turning—your hips are the axle and the rotational force channels the opponent's linear momentum into circular motion that tips them over their support base. The exact angle depends on the variant but always converts their forward drive into lateral displacement."
+      },
+      {
+        "question": "Your opponent sits back to remove forward pressure when they feel you setting up the sweep—what is your best response?",
+        "answer": "When the opponent withdraws pressure, the sweep loses its force vector and should be abandoned immediately. Instead, capitalize on their withdrawal by transitioning to deep half guard entry, standard half guard recovery, or back take attempts. Their backward weight shift creates space that was not previously available, opening alternative attacks. Use the sweep threat as bait—their fear of being swept creates the space that enables other techniques in your reverse half guard system."
+      },
+      {
+        "question": "What are the chain attacks if the initial sweep attempt is blocked?",
+        "answer": "If blocked, the primary chains are: transition to back take by using the opponent's defensive posting to expose their back, entry to deep half guard using the space created during the sweep exchange, recovery to standard half guard with underhook for conventional sweep attempts, or inversion to attack with leg entanglement entries. The key is having a predetermined secondary option so that the failed sweep immediately flows into the next technique without pause."
+      },
+      {
+        "question": "What distinguishes a failed sweep that stays in reverse half guard from one that results in side control bottom?",
+        "answer": "A failed sweep that stays in reverse half guard occurs when the opponent simply stops the rotation but does not advance—you retain your leg entanglement and return to the starting position. Side control bottom results when the opponent both stops the sweep and capitalizes by extracting their trapped leg and passing during your compromised positioning. The difference is whether you maintain leg control during the failure. If leg control holds, you stay in reverse half; if it breaks during the failed attempt, the opponent passes."
+      }
+    ],
+    "safety_considerations": "The Sweep from Reverse Half Guard involves rotational forces through the spine and neck during the inverted transition phase. Always keep the chin tucked tightly during rotation to protect cervical vertebrae. Avoid forcing the sweep against a fully posted opponent, as this can create awkward twisting loads on the lower back and knees. During training, tap immediately if you feel any neck compression or spinal torque during the rotation. Partners should allow the sweep to complete rather than resisting in ways that create dangerous spinal angles. Progress resistance gradually and ensure both partners understand the rotational mechanics before drilling at full speed."
+  },
+  "defender": {
+    "name": "Sweep from Reverse Half Guard Defender",
+    "description": "Master defending the Sweep from Reverse Half Guard. Recognition cues, base defense, and counter strategies to prevent the reversal and maintain top position.",
+    "overview": "Defending the Sweep from Reverse Half Guard requires the top player to recognize the sweep setup early and deny the mechanical conditions that make it work. The sweep relies on forward pressure commitment and rotational mechanics, so the defense centers on weight management, base control, and preventing the bottom player from generating rotational force. The defender must understand that their own forward pressure is the fuel for this sweep—the more aggressively they drive forward without awareness, the more they enable the reversal. Effective defense balances maintaining passing pressure with denying the specific weight distribution that the sweep exploits, creating a nuanced positional chess match where the top player must advance without overcommitting.",
+    "key_principles": [
+      "Monitor your own weight distribution to avoid overcommitting forward pressure that fuels the sweep",
+      "Maintain wide base with active posting to prevent being rolled through rotational force",
+      "Immediately address the leg entanglement—extracting your trapped leg removes the sweep entirely",
+      "Recognize the sweep setup early through tactile cues and body positioning changes",
+      "Use crossface pressure and head control to prevent the bottom player from initiating rotation",
+      "Stay heavy on hips rather than driving chest pressure that can be redirected by the sweep mechanics"
+    ],
+    "recognition_cues": [
+      "Bottom player's hips begin to angle or rotate underneath you, creating the pathway for the sweep direction",
+      "Bottom player tightens their leg clamp on your trapped leg with increased squeezing pressure, securing the entanglement for the sweep",
+      "Bottom player tucks their chin and compacts their body, preparing for the rotational movement that powers the sweep",
+      "You feel a sudden increase in hip engagement from the bottom player coinciding with your forward weight commitment",
+      "Bottom player's arms shift from defensive positioning to posting or framing positions that assist rotation"
+    ],
+    "defensive_options": [
+      {
+        "action": "Post hand wide on the sweep side to create a base that stops the rotation",
+        "when_to_use": "As soon as you feel the rotational force initiating—the earlier you post, the easier it is to stop the sweep",
+        "targets_outcome": "Reverse Half Guard/Bottom",
+        "if_successful": "Sweep is completely stopped and you maintain top position in reverse half guard with opportunity to continue passing",
+        "risk": "Your posting arm may be vulnerable to the underhook elevation variant or the bottom player may redirect the sweep to the opposite direction"
+      },
+      {
+        "action": "Sit back and withdraw forward pressure to remove the sweep's force vector",
+        "when_to_use": "When you feel the bottom player tightening their leg clamp and preparing to initiate the sweep before they begin rotation",
+        "targets_outcome": "Reverse Half Guard/Bottom",
+        "if_successful": "Denies the sweep entirely by removing the forward momentum it requires, keeping you in top position",
+        "risk": "Creates space that the bottom player can use to transition to deep half guard, back take, or standard half guard recovery"
+      },
+      {
+        "action": "Drive crossface pressure and sprawl to flatten the bottom player before they can rotate",
+        "when_to_use": "When the sweep attempt is in early stages and the bottom player has not yet generated significant rotational momentum",
+        "targets_outcome": "Side Control/Bottom",
+        "if_successful": "Flattens the bottom player and may allow you to complete the pass to side control, converting their offensive attempt into your advancement",
+        "risk": "If your sprawl is too aggressive, it may feed additional forward pressure into the sweep if the bottom player has already initiated rotation"
+      },
+      {
+        "action": "Extract trapped leg from the entanglement during the sweep initiation",
+        "when_to_use": "When you feel the sweep setup beginning and have enough hip mobility to pull your leg free from the clamping pressure",
+        "targets_outcome": "Side Control/Bottom",
+        "if_successful": "Completely removes the sweep mechanism and allows immediate guard pass completion to side control",
+        "risk": "If extraction fails, you may be caught in an even tighter entanglement with worse positioning for the next sweep attempt"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Reverse Half Guard/Bottom",
+        "how": "Post a hand wide on the sweep side the moment you feel rotational force. Maintain a wide base with hips heavy and avoid overcommitting forward pressure. This stops the sweep while keeping you in top position to continue your passing sequence."
+      },
+      {
+        "outcome": "Side Control/Bottom",
+        "how": "Counter the sweep attempt by sprawling aggressively and driving crossface pressure to flatten the bottom player. Simultaneously work to extract your trapped leg from the entanglement. If you time the sprawl with their sweep initiation, their compromised positioning during the failed sweep creates a direct passing opportunity to side control."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Driving forward pressure aggressively without monitoring the bottom player's sweep setup",
+        "consequence": "Provides the exact force vector the sweep requires, making the reversal almost inevitable against a technically proficient bottom player",
+        "correction": "Balance forward pressure with base awareness. Keep hips heavy rather than driving chest pressure, and maintain at least one posting hand ready. Feel for the bottom player's leg clamping and rotational preparation before committing weight forward."
+      },
+      {
+        "error": "Attempting to resist the sweep by stiffening the upper body rather than addressing base",
+        "consequence": "Upper body stiffness does not stop rotational sweeps. The sweep uses hip and core mechanics that overwhelm arm-based resistance, resulting in being swept despite feeling like you are resisting strongly.",
+        "correction": "Address the sweep at the base level by posting hands wide and sitting back to remove forward pressure. Base defense and weight management stop rotational sweeps far more effectively than upper body resistance."
+      },
+      {
+        "error": "Ignoring the leg entanglement and focusing only on upper body passing",
+        "consequence": "The leg entanglement is the mechanism that enables the sweep. Leaving it intact while focusing on passing creates repeated sweep threats that eventually succeed.",
+        "correction": "Prioritize extracting the trapped leg from the entanglement. Use hip movement and backstep mechanics to free your leg before committing to passing sequences. Without the leg entanglement, the sweep threat disappears entirely."
+      },
+      {
+        "error": "Overreacting by fully withdrawing from the position when sensing sweep danger",
+        "consequence": "Creates excessive space that the bottom player exploits for deep half guard entries, back takes, or complete guard recovery—losing your positional advantage without the sweep actually being executed.",
+        "correction": "Moderate your response to the sweep threat. Post and adjust base rather than fully withdrawing. Maintain enough pressure to prevent alternative transitions while denying the forward commitment the sweep requires."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the earliest recognition cue that a Sweep from Reverse Half Guard is being attempted?",
+        "answer": "The earliest cue is feeling the bottom player tighten their leg clamp on your trapped leg while angling their hips for rotation. This preparatory tightening and hip alignment happens before the explosive sweep initiation. You may also feel them tuck their chin and compact their body. Recognizing these early setup signs gives you the maximum time window to establish defensive base before the sweep reaches full momentum."
+      },
+      {
+        "question": "Why is your own forward pressure the primary factor enabling this sweep?",
+        "answer": "The Sweep from Reverse Half Guard uses rotational mechanics to redirect the top player's forward pressure into the force that completes the reversal. Without forward pressure commitment, there is no momentum to redirect and the sweep lacks sufficient force. This means the top player's aggressive driving is literally the energy source for being swept. Understanding this creates a defensive dilemma: you need some forward pressure to pass, but too much feeds the sweep."
+      },
+      {
+        "question": "Your opponent tightens their leg clamp and you feel their hips beginning to rotate—what is your immediate response?",
+        "answer": "Immediately post your hand wide on the sweep-side and sit your hips back to remove forward pressure. This two-part response addresses both the rotational force with a structural base and the energy source by withdrawing the forward drive. Do not attempt to resist through upper body stiffness. Additionally, begin working to extract your trapped leg from the entanglement to permanently remove the sweep threat."
+      },
+      {
+        "question": "How do you balance maintaining passing pressure with defending against the sweep threat?",
+        "answer": "Keep your hips heavy on the opponent rather than driving chest-first forward pressure. Hip-based pressure maintains control and passing threat without providing the forward momentum the sweep needs. Maintain at least one hand ready to post for base defense. Advance your pass methodically through leg extraction and backstep mechanics rather than driving forward into the sweep trap. The pass should come from technical positioning, not from pressure that enables the sweep."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Recognition",
+        "focus": "Identifying sweep setup cues",
+        "description": "Partner establishes reverse half guard bottom and performs the sweep setup sequence without completing the sweep. Focus on feeling the tactile cues: leg tightening, hip angling, chin tuck, and body compaction. Identify each cue verbally as you feel it. Build the pattern recognition that triggers defensive response."
+      },
+      {
+        "phase": "Phase 2: Base Defense",
+        "focus": "Posting and weight management drills",
+        "description": "Partner attempts the sweep at 50% speed while you practice posting hand defense, hip withdrawal, and base maintenance. Repeat until the defensive response becomes automatic upon feeling sweep initiation. Vary the sweep angle and timing to develop adaptable base defense."
+      },
+      {
+        "phase": "Phase 3: Counter Offense",
+        "focus": "Converting sweep defense into passing opportunities",
+        "description": "After successfully defending the sweep, immediately transition to guard passing. Practice the sequence of sweep defense into leg extraction into pass completion. Develop the habit of capitalizing on the bottom player's compromised position after a failed sweep rather than simply returning to neutral control."
+      },
+      {
+        "phase": "Phase 4: Live Pressure Testing",
+        "focus": "Full resistance positional sparring from reverse half guard top",
+        "description": "Start in reverse half guard top against full-resistance partners who are actively hunting sweeps and back takes. Practice balancing passing pressure with sweep awareness in live conditions. Track how often you get swept versus successfully passing to refine your weight management instincts."
+      }
+    ]
+  }
+}

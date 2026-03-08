@@ -1,0 +1,633 @@
+{
+  "name": "Half Butterfly",
+  "slug": "half-butterfly",
+  "description": "Master Half Butterfly guard in BJJ. Hybrid position combining butterfly hooks with half guard control. Learn sweeps, transitions, and retention strategies with expert analysis.",
+  "variant_uniqueness": "Hook trades leg retention for sweep elevation",
+  "overview": "Half Butterfly is a dynamic hybrid guard position that combines elements of traditional butterfly guard with half guard retention mechanics. The bottom practitioner uses one butterfly hook on the opponent's inner thigh while maintaining half guard control on the opposite leg, creating a powerful platform for sweeps and transitions. This position offers superior mobility compared to traditional half guard while providing more structural control than standard butterfly guard.\n\nThe asymmetric nature of Half Butterfly creates natural leverage advantages for sweeps and allows seamless transitions to deep half guard, x-guard, or traditional butterfly guard. Originally popularized by wrestlers transitioning to BJJ, this position has become fundamental to modern no-gi grappling and is particularly effective against pressure passers who attempt to flatten the bottom player.\n\nFrom the top perspective, Half Butterfly Top represents a critical transitional moment in the guard passing sequence where the passer has achieved partial success but not complete control. The top player must neutralize the remaining butterfly hook's lifting mechanism through precise weight distribution and pressure angles while simultaneously advancing the pass. This position requires careful weight distribution to prevent the butterfly hook from generating lifting power while maintaining forward pressure to complete the pass. Understanding both perspectives is essential for modern competitive grappling, as this position frequently appears in high-level matches and represents a key battleground between guard player and passer.",
+  "key_principles": [
+    "Maintain constant upward pressure through butterfly hook to prevent opponent from establishing heavy top pressure",
+    "Use trapped leg as anchor point while butterfly hook creates dynamic movement and off-balancing opportunities",
+    "Establish underhook control on butterfly hook side to maximize sweep effectiveness and prevent passing consolidation",
+    "Generate constant movement and angle changes to prevent opponent from settling weight and establishing static control",
+    "From top, drive chest forward and hips low to shift load away from hook's optimal leverage point",
+    "Coordinate both guard components - tighten half guard when elevating butterfly hook to create dual threats",
+    "Transition fluidly between half butterfly, deep half, and full butterfly based on opponent's pressure and weight distribution"
+  ],
+  "related_positions": [
+    {
+      "name": "Butterfly Guard",
+      "relationship": "Parent position - full butterfly guard with both hooks"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Foundation position - traditional half guard from which butterfly hook is added"
+    },
+    {
+      "name": "Deep Half Guard",
+      "relationship": "Common transition target when opponent applies forward pressure"
+    },
+    {
+      "name": "X-Guard",
+      "relationship": "Transition target when opponent stands or elevates posture"
+    },
+    {
+      "name": "Knee Shield Half Guard",
+      "relationship": "Alternative half guard variation with different defensive structure"
+    },
+    {
+      "name": "Dogfight Position",
+      "relationship": "Similar hybrid position with different leg configuration"
+    },
+    {
+      "name": "Lockdown",
+      "relationship": "Alternative half guard retention mechanism"
+    },
+    {
+      "name": "Butterfly Half Guard",
+      "relationship": "Parent category encompassing half butterfly variations"
+    },
+    {
+      "name": "Side Control",
+      "relationship": "Primary target position for top player's passing attempts"
+    },
+    {
+      "name": "Mount",
+      "relationship": "Secondary target for successful sweeps from bottom"
+    },
+    {
+      "name": "Back Control",
+      "relationship": "Alternative advancement target from successful back takes"
+    },
+    {
+      "name": "Overhook Control",
+      "relationship": "Critical control concept determining success in exchanges"
+    }
+  ],
+  "top": {
+    "name": "Half Butterfly Top",
+    "description": "Master Half Butterfly Top position in BJJ. Top player control against bottom's butterfly hook with passing options. Key position for guard passing with 60-70% pass success rate.",
+    "tags": [
+      "bjj",
+      "position",
+      "half-butterfly",
+      "top",
+      "guard-passing",
+      "half-guard-variant",
+      "pressure-passing"
+    ],
+    "overview": "Half Butterfly Top is a transitional position where the top player has passed one side of the butterfly guard but the bottom player retains one butterfly hook. This creates a dynamic half guard variant where the top player aims to complete the pass while the bottom player attempts to recover full butterfly guard or sweep. The position requires careful weight distribution from the top player to prevent the butterfly hook from generating lifting power while simultaneously advancing the pass.\n\nThis is a critical juncture in modern guard passing, as many high-level players use butterfly-based guards and the top player must understand how to neutralize the remaining hook while maintaining forward pressure. The position often arises during knee slice attempts, smash passes, or when passing aggressive butterfly guard players who fight to retain at least one hook. Success in this position requires understanding both pressure passing principles and the biomechanics of how the butterfly hook generates leverage.\n\nThe top player must establish upper body control first through crossface or underhook, then systematically neutralize the butterfly hook's effectiveness through strategic weight distribution and hip positioning. The position demands constant forward pressure while maintaining a wide base to prevent sweeps, creating a technical challenge that separates effective passers from those who get swept or stalled in guard.",
+    "state_properties": {
+      "point_value": 0,
+      "position_type": "Offensive",
+      "risk_level": "Medium",
+      "energy_cost": "Medium",
+      "time_sustainability": "Short to Medium"
+    },
+    "state_invariants": [
+      "Top player has passed to one side with upper body control while bottom player maintains one butterfly hook on the opposite side",
+      "Top player's weight is distributed forward with chest pressure on bottom player's upper body, hips driving toward the mat to reduce hook effectiveness",
+      "Bottom player is on their back or side with one leg creating butterfly hook insertion under top player's thigh while other leg is controlled or passed",
+      "Top player's base is established with knees wide and hips low, creating stable platform to resist hook's lifting mechanics"
+    ],
+    "prerequisites": [
+      "Partial pass of butterfly guard with one side cleared",
+      "Control of bottom player's upper body through crossface, underhook, or collar grips",
+      "Bottom player retains one functional butterfly hook",
+      "Top player has established forward pressure and weight distribution"
+    ],
+    "key_principles": [
+      "Keep weight distributed forward onto bottom player's chest to reduce butterfly hook's lifting effectiveness",
+      "Control the near-side arm with underhook or overhook to prevent bottom player from creating frames",
+      "Drive hips low and forward to flatten bottom player and reduce space for hook engagement",
+      "Establish crossface or head control to limit bottom player's ability to turn into you",
+      "Maintain wide base with knees to prevent being swept while creating passing angles",
+      "Prevent bottom player from recovering full butterfly guard by controlling their free leg",
+      "Use strategic weight shifts to bait reactions and create passing opportunities"
+    ],
+    "decision_tree": [
+      {
+        "condition": "If bottom player extends butterfly hook for sweep attempt",
+        "actions": [
+          {
+            "technique": "Leg Weave Pass",
+            "target": "Side Control",
+            "probability": 65
+          },
+          {
+            "technique": "Smash Pass",
+            "target": "Side Control",
+            "probability": 55
+          }
+        ]
+      },
+      {
+        "condition": "Else if bottom player attempts to recover full butterfly guard",
+        "actions": [
+          {
+            "technique": "Knee Slice Pass",
+            "target": "Side Control",
+            "probability": 70
+          },
+          {
+            "technique": "Long Step Pass",
+            "target": "Side Control",
+            "probability": 60
+          }
+        ]
+      },
+      {
+        "condition": "Else if bottom player creates underhook and attempts to come up",
+        "actions": [
+          {
+            "technique": "Underhook Pass",
+            "target": "Side Control",
+            "probability": 65
+          },
+          {
+            "technique": "Leg Drag Pass",
+            "target": "Side Control",
+            "probability": 45
+          }
+        ]
+      },
+      {
+        "condition": "Else if bottom player turns to turtle to escape",
+        "actions": [
+          {
+            "technique": "Front Headlock to Guillotine",
+            "target": "Front Headlock",
+            "probability": 50
+          },
+          {
+            "technique": "Back Take from Top",
+            "target": "Back Control",
+            "probability": 55
+          }
+        ]
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Standing too upright with weight off bottom player's chest",
+        "consequence": "Butterfly hook becomes fully effective and bottom player can generate powerful lifting mechanics for sweeps",
+        "correction": "Drive chest forward and down onto bottom player's upper body, keeping hips low to minimize hook's leverage"
+      },
+      {
+        "error": "Allowing bottom player to establish strong underhook on passing side",
+        "consequence": "Bottom player can elevate top player's weight and create sweeping opportunities or guard recovery",
+        "correction": "Fight for overhook or underhook control, use crossface to prevent bottom player from turning into you"
+      },
+      {
+        "error": "Keeping narrow base with knees too close together",
+        "consequence": "Unstable platform makes top player vulnerable to sweeps and reduces ability to generate passing pressure",
+        "correction": "Widen base with knees spread to create stable foundation while maintaining forward pressure"
+      },
+      {
+        "error": "Focusing only on passing without controlling bottom player's upper body",
+        "consequence": "Bottom player can frame, create angles, and either sweep or recover full guard position",
+        "correction": "Establish crossface or head control first, then work passing sequences with upper body secured"
+      },
+      {
+        "error": "Allowing bottom player to create too much space between bodies",
+        "consequence": "Bottom player can insert second butterfly hook, create frames, or initiate guard recovery sequences",
+        "correction": "Maintain tight chest-to-chest connection with constant forward pressure to limit bottom player's space"
+      },
+      {
+        "error": "Committing weight too early to one passing direction",
+        "consequence": "Bottom player reads commitment and can time sweeps or guard recoveries in opposite direction",
+        "correction": "Use feints and weight shifts to create reactions before committing to specific passing lane"
+      }
+    ],
+    "training_drills": [
+      {
+        "name": "Pressure Maintenance Drill",
+        "description": "Bottom player maintains one butterfly hook while top player practices maintaining forward pressure and preventing hook effectiveness. Focus on weight distribution, chest pressure, and hip positioning. Bottom player provides progressive resistance, attempting to sweep when top player's pressure weakens.",
+        "duration": "3 minutes per round"
+      },
+      {
+        "name": "Passing Chain Flow Drill",
+        "description": "From half butterfly top, top player flows between different passing options (knee slice, smash pass, long step, leg drag) while bottom player provides 50% resistance and maintains one butterfly hook. Focus on smooth transitions between passing techniques and maintaining control throughout. Emphasize connection and pressure rather than speed.",
+        "duration": "5 minutes continuous flow"
+      },
+      {
+        "name": "Hook Neutralization Drill",
+        "description": "Bottom player has one butterfly hook inserted and attempts to maximize its effectiveness. Top player practices various methods to neutralize the hook: weight distribution, hip positioning, leg weaving, and strategic grips. Restart position after each successful neutralization or sweep. Develops understanding of hook mechanics and counters.",
+        "duration": "2 minutes per round"
+      },
+      {
+        "name": "Reaction-Based Passing Drill",
+        "description": "Top player maintains half butterfly top while bottom player randomly chooses between three defensive actions: sweep attempt, guard recovery, or turtle. Top player must recognize action and execute appropriate counter (leg weave for sweep, knee slice for recovery, take back from turtle). Develops pattern recognition and reactive passing.",
+        "duration": "4 minutes per round"
+      }
+    ],
+    "related_content": [
+      {
+        "name": "Half Butterfly",
+        "relationship": "Complementary position - opposite perspective"
+      },
+      {
+        "name": "Butterfly Guard",
+        "relationship": "Parent position - starting point before partial pass"
+      },
+      {
+        "name": "Half Guard",
+        "relationship": "Similar position - half guard variant from top"
+      },
+      {
+        "name": "Knee Shield Half Guard",
+        "relationship": "Related variation - common transition point"
+      },
+      {
+        "name": "Knee Slice Pass",
+        "relationship": "Primary technique - most common passing option"
+      },
+      {
+        "name": "Smash Pass",
+        "relationship": "Primary technique - high-pressure passing option"
+      },
+      {
+        "name": "Underhook Pass",
+        "relationship": "Counter technique - used when bottom player gets underhook"
+      },
+      {
+        "name": "Deep Half Guard",
+        "relationship": "Common transition - where bottom player escapes"
+      }
+    ],
+    "position_metrics": {
+      "retention_rate": {
+        "value": 70
+      },
+      "advancement_probability": {
+        "value": 68
+      },
+      "submission_probability": {
+        "value": 30
+      },
+      "average_time": "30-90 seconds"
+    },
+    "transitions": [
+      {
+        "transition": "Knee Slice Pass",
+        "attempt_probability": 35
+      },
+      {
+        "transition": "Smash Pass",
+        "attempt_probability": 18
+      },
+      {
+        "transition": "Underhook Pass",
+        "attempt_probability": 10
+      },
+      {
+        "transition": "Body Lock Pass",
+        "attempt_probability": 8
+      },
+      {
+        "transition": "Half Guard to Flattened Half Guard",
+        "attempt_probability": 10
+      },
+      {
+        "transition": "Half Guard Pass",
+        "attempt_probability": 5
+      },
+      {
+        "transition": "Leg Weave Pass",
+        "attempt_probability": 10
+      },
+      {
+        "transition": "Pass Half Butterfly",
+        "attempt_probability": 2
+      },
+      {
+        "transition": "Smash Half Butterfly",
+        "attempt_probability": 2
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the most critical weight distribution adjustment to neutralize the butterfly hook's lifting power?",
+        "answer": "Drive your chest forward and down onto the bottom player's upper body while keeping your hips low and heavy. This shifts the load away from the hook's optimal leverage point near the thigh and distributes your weight where the bottom player's structural support is weakest. Avoid sitting upright, which allows the hook to engage fully and generate maximum elevation."
+      },
+      {
+        "question": "Your opponent begins to elevate with their butterfly hook - what immediate adjustment prevents the sweep?",
+        "answer": "Immediately widen your base by spreading your knees outward while driving your hips forward toward the mat. Simultaneously apply heavier chest pressure and drive your shoulder across their face with a crossface. This combination removes space for the hook to generate lift and pins their upper body, killing the sweep before momentum builds."
+      },
+      {
+        "question": "What are the essential grips and control points for maintaining half butterfly top position?",
+        "answer": "The primary controls are crossface pressure controlling their head position, underhook or overhook on the near-side arm to prevent framing, and control of the far hip or leg to prevent guard recovery. The crossface is paramount as it limits their ability to turn into you and generate sweeping angles. Secondary control includes using your chest as a connection point to feel their movements."
+      },
+      {
+        "question": "How do you shut down the bottom player's primary escape route to deep half guard?",
+        "answer": "Keep your hips heavy and your inside knee positioned to block their head from diving underneath you. When you feel them attempting to turn away and shoot their outside arm under your hips, immediately sprawl your hips back and drive weight forward to flatten them. Maintaining constant chest pressure prevents them from creating the angle needed to enter deep half."
+      },
+      {
+        "question": "What base errors most commonly lead to being swept from half butterfly top?",
+        "answer": "The three most common base errors are: keeping knees too close together which creates a narrow platform easily tipped by hook elevation, allowing hips to rise above shoulder level which shifts your center of gravity above the hook's fulcrum point, and posting weight on your hands instead of distributing through your chest and hips. Each error gives the hook maximum mechanical advantage for sweeps."
+      },
+      {
+        "question": "The bottom player gets an underhook and starts coming up - what technique chain prevents the sweep?",
+        "answer": "When they establish the underhook and begin to elevate, immediately circle toward their back while maintaining head position. If they continue rising, transition to the Underhook Pass by driving your overhook deep, sprawling your hips away, and using your head to drive them back down. If they collapse back, immediately return to heavy pressure and restart your passing sequence."
+      },
+      {
+        "question": "How do you manage energy expenditure while maintaining pressure in this position?",
+        "answer": "Use skeletal structure rather than muscular effort to maintain pressure - let your bodyweight work through proper alignment rather than actively pushing. Keep your hips low so you're driving weight downward naturally. Avoid constant movement; instead, settle into pressure and wait for their reactions to guide your passing. Move in response to their attempts rather than initiating constantly."
+      },
+      {
+        "question": "Your opponent partially recovers butterfly guard by inserting their second hook - how do you recover control?",
+        "answer": "Immediately address the new hook by driving your hips toward the mat on that side and using your knee or shin to block the hook's elevation. Reestablish crossface pressure and work to clear one hook at a time by swimming your leg over or backstopping around it. Do not try to pass through double hooks - retreat slightly if needed to reset with only one hook engaged."
+      }
+    ]
+  },
+  "bottom": {
+    "name": "Half Butterfly Bottom",
+    "description": "Master Half Butterfly Bottom position in BJJ. Hybrid guard combining half guard and butterfly hooks. Learn sweeps, transitions, and retention with 55% sweep success rate.",
+    "tags": [
+      "bjj",
+      "position",
+      "half-butterfly",
+      "bottom",
+      "guard",
+      "hybrid-guard",
+      "sweeps",
+      "butterfly-guard",
+      "half-guard-variant"
+    ],
+    "overview": "Half Butterfly Bottom is a dynamic hybrid guard position that combines elements of half guard and butterfly guard. The bottom practitioner controls one of the opponent's legs between their own legs (half guard component) while maintaining a butterfly hook on the free leg side. This position offers excellent sweeping opportunities and creates offensive dilemmas for the top player who must defend both the half guard escape and butterfly hook threats simultaneously.\n\nThe position is particularly effective in no-gi grappling and modern competitive BJJ, where practitioners use the butterfly hook to elevate and off-balance opponents while the half guard component prevents easy passing. The unique structure allows for multiple sweep variations, back-take opportunities, and transitions to other guard positions. Unlike traditional half guard which can be more defensive, Half Butterfly Bottom maintains constant attacking pressure through the butterfly hook's lifting power combined with half guard control.\n\nThis position represents an evolution in half guard theory, popularized by practitioners like Marcelo Garcia and Lucas Leite, who recognized that adding the butterfly hook creates additional vectors of control and sweep mechanics that pure half guard lacks. The position excels in creating scrambles and forcing opponents into defensive postures, making it ideal for practitioners who favor dynamic, movement-based guard play.",
+    "state_properties": {
+      "point_value": 0,
+      "position_type": "Offensive",
+      "risk_level": "Medium",
+      "energy_cost": "Medium",
+      "time_sustainability": "Medium to Long"
+    },
+    "state_invariants": [
+      "Bottom player has one leg of opponent trapped between their legs (half guard control) while maintaining control of that trapped leg with both legs wrapped around it, preventing opponent from fully extracting the leg",
+      "Bottom player's free leg maintains a butterfly hook positioned under opponent's free-side thigh with foot placed on mat, creating elevation and off-balancing potential through hip lifting mechanics",
+      "Bottom player is on their side or partially on their back with shoulders turned toward opponent, maintaining active frames on opponent's upper body with at least one underhook or overhook grip",
+      "Opponent is in a top position with one leg trapped in half guard while their free leg is threatened by the butterfly hook, forcing them to manage pressure distribution between defending the sweep and attempting to pass"
+    ],
+    "prerequisites": [
+      "Opponent's leg successfully trapped between bottom player's legs in half guard configuration",
+      "Sufficient space created to insert butterfly hook on free-leg side",
+      "Bottom player maintains active hip mobility and can turn toward opponent",
+      "At least one upper body connection established (underhook, overhook, or collar grip)",
+      "Bottom player's hips remain mobile and not flattened completely to mat"
+    ],
+    "key_principles": [
+      "Maintain constant lifting pressure through butterfly hook to prevent opponent from settling their weight and establishing stable passing pressure",
+      "Use half guard leg control to prevent opponent from extracting trapped leg while simultaneously threatening sweeps with butterfly hook",
+      "Create angles by turning body toward opponent's free side, using butterfly hook and upper body grips to off-balance opponent diagonally",
+      "Keep active frames and grips on upper body to prevent opponent from flattening you to back and controlling posture",
+      "Coordinate hip movement with butterfly hook elevation to create sweeping momentum rather than using arm strength alone",
+      "Maintain awareness of both sweep opportunities to trapped leg side and transitions to other guards if opponent defends",
+      "Use constant threatening motion to prevent opponent from consolidating passing pressure or establishing crossface control"
+    ],
+    "decision_tree": [
+      {
+        "condition": "If opponent is upright with high posture and not applying heavy pressure",
+        "actions": [
+          {
+            "technique": "Basic Butterfly Sweep",
+            "target": "Mount",
+            "probability": 55
+          },
+          {
+            "technique": "Old School Sweep",
+            "target": "Side Control",
+            "probability": 60
+          }
+        ]
+      },
+      {
+        "condition": "Else if opponent drives forward with heavy chest pressure attempting to flatten you",
+        "actions": [
+          {
+            "technique": "Deep Half Entry",
+            "target": "Deep Half Guard",
+            "probability": 65
+          },
+          {
+            "technique": "Granby to Closed Guard",
+            "target": "Closed Guard",
+            "probability": 50
+          }
+        ]
+      },
+      {
+        "condition": "Else if opponent attempts to extract trapped leg and establish passing pressure",
+        "actions": [
+          {
+            "technique": "Hook Sweep",
+            "target": "Mount",
+            "probability": 50
+          },
+          {
+            "technique": "Underhook Sweep from Half",
+            "target": "Side Control",
+            "probability": 55
+          }
+        ]
+      },
+      {
+        "condition": "Else if opponent's weight shifts to free-leg side defending butterfly hook",
+        "actions": [
+          {
+            "technique": "Back Take from Bottom",
+            "target": "Back Control",
+            "probability": 45
+          },
+          {
+            "technique": "Rolling Back Take from Half Butterfly",
+            "target": "Back Control",
+            "probability": 40
+          }
+        ]
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Allowing butterfly hook to become passive without active lifting pressure",
+        "consequence": "Opponent can settle their weight and establish stable passing pressure, neutralizing sweep threats",
+        "correction": "Maintain constant upward pressure through butterfly hook, actively lifting and off-balancing opponent even when not executing sweep"
+      },
+      {
+        "error": "Letting opponent flatten you completely to your back",
+        "consequence": "Loses hip mobility needed for sweeps and allows opponent to establish dominant crossface control",
+        "correction": "Stay on your side with shoulders turned toward opponent, using frames and grips to prevent being flattened while maintaining hip escape mobility"
+      },
+      {
+        "error": "Losing half guard control while focusing on butterfly hook",
+        "consequence": "Opponent extracts trapped leg and easily passes to side control or mount",
+        "correction": "Coordinate both legs together - half guard legs squeeze trapped leg while butterfly hook lifts, creating dual threats opponent must address simultaneously"
+      },
+      {
+        "error": "Using only arm strength to execute sweeps without hip elevation",
+        "consequence": "Sweeps are weak and easily defended, causing arm fatigue and failed sweep attempts",
+        "correction": "Drive sweeps primarily from hip extension and butterfly hook elevation, using grips only to guide opponent's fall and control upper body"
+      },
+      {
+        "error": "Maintaining static position without threatening constant movement",
+        "consequence": "Gives opponent time to establish grips, settle weight, and methodically work passing sequences",
+        "correction": "Create constant motion through hip movement, angle changes, and sweep attempts to keep opponent defensive and prevent them from establishing rhythm"
+      },
+      {
+        "error": "Allowing opponent to achieve underhook on half guard side",
+        "consequence": "Opponent can drive shoulder pressure, flatten you, and control hip movement for easier passing",
+        "correction": "Fight for underhook on trapped leg side or establish strong frames to prevent opponent's underhook from controlling your upper body"
+      }
+    ],
+    "training_drills": [
+      {
+        "name": "Butterfly Hook Elevation Drill",
+        "description": "Partner in top half butterfly. Practice lifting and off-balancing opponent using only butterfly hook hip extension while maintaining half guard control. Focus on coordinating hip lift with angle creation.",
+        "duration": "5 minutes per side"
+      },
+      {
+        "name": "Sweep Transition Flow",
+        "description": "Start in half butterfly bottom. Partner gives 50% resistance. Flow between different sweep options (butterfly sweep, old school, hook sweep) based on partner's weight distribution. Emphasis on reading opponent's pressure and selecting appropriate sweep.",
+        "duration": "3 minutes per round"
+      },
+      {
+        "name": "Half Butterfly Retention Sparring",
+        "description": "Bottom player maintains half butterfly position while top player attempts to pass. Bottom player wins by executing successful sweep or maintaining position for 2 minutes. Top player wins by passing. Resets on successful defense or sweep. Develops retention and timing under pressure.",
+        "duration": "5 minutes per round"
+      },
+      {
+        "name": "Guard Recovery to Half Butterfly",
+        "description": "Start with partner achieving initial passing pressure. Practice recovering half butterfly position using hip escapes, frames, and butterfly hook insertion. Simulates realistic guard recovery scenarios.",
+        "duration": "10 reps per side"
+      }
+    ],
+    "related_content": [
+      {
+        "name": "Butterfly Guard",
+        "relationship": "Sister guard position - shares butterfly hook mechanics"
+      },
+      {
+        "name": "Half Guard",
+        "relationship": "Parent position - half butterfly adds butterfly hook to traditional half guard"
+      },
+      {
+        "name": "Deep Half Guard",
+        "relationship": "Common transition target when opponent applies heavy pressure"
+      },
+      {
+        "name": "X-Guard",
+        "relationship": "Transition target from butterfly hook extension"
+      },
+      {
+        "name": "Dogfight Position",
+        "relationship": "Similar hybrid position with different leg configuration"
+      },
+      {
+        "name": "Basic Butterfly Sweep",
+        "relationship": "Primary sweep technique from this position"
+      },
+      {
+        "name": "Old School Sweep",
+        "relationship": "High-percentage sweep using underhook mechanics"
+      },
+      {
+        "name": "Hook Sweep",
+        "relationship": "Core sweep using butterfly hook elevation"
+      }
+    ],
+    "position_metrics": {
+      "retention_rate": {
+        "value": 68
+      },
+      "advancement_probability": {
+        "value": 58
+      },
+      "submission_probability": {
+        "value": 30
+      },
+      "average_time": "45-90 seconds in competitive scenarios"
+    },
+    "transitions": [
+      {
+        "transition": "Basic Butterfly Sweep",
+        "attempt_probability": 15
+      },
+      {
+        "transition": "Old School Sweep",
+        "attempt_probability": 22
+      },
+      {
+        "transition": "Hook Sweep",
+        "attempt_probability": 10
+      },
+      {
+        "transition": "Underhook Sweep from Half",
+        "attempt_probability": 12
+      },
+      {
+        "transition": "Deep Half Entry",
+        "attempt_probability": 12
+      },
+      {
+        "transition": "Butterfly Guard to X-Guard",
+        "attempt_probability": 6
+      },
+      {
+        "transition": "Elevator Sweep",
+        "attempt_probability": 4
+      },
+      {
+        "transition": "Kimura from Half Guard",
+        "attempt_probability": 5
+      },
+      {
+        "transition": "Half Butterfly Sweep",
+        "attempt_probability": 4
+      },
+      {
+        "transition": "Half Butterfly to Dogfight",
+        "attempt_probability": 5
+      },
+      {
+        "transition": "Reguard from Half Butterfly",
+        "attempt_probability": 3
+      },
+      {
+        "transition": "Rolling Back Take from Half Butterfly",
+        "attempt_probability": 2
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the essential weight distribution for maintaining an effective butterfly hook in half butterfly bottom?",
+        "answer": "Position yourself on your side rather than flat on your back, with your hips angled toward your opponent. The butterfly hook foot should be planted on the mat with your heel pulled toward your own hip, creating a loaded spring position. Your weight should be distributed through your shoulder and hip on the mat side, keeping your hips mobile and ready to elevate. This positioning maximizes the hook's lifting power."
+      },
+      {
+        "question": "Your opponent starts applying heavy crossface pressure - what immediate adjustment prevents being flattened?",
+        "answer": "Frame with your inside arm against their bicep or shoulder to create space, while simultaneously shrimping your hips away from the crossface side. Use your butterfly hook to lift and disrupt their weight distribution. If the crossface is too strong, transition to deep half by shooting your outside arm under their hips and inverting your angle. Never stay flat and absorb crossface pressure passively."
+      },
+      {
+        "question": "What are the essential grip priorities when establishing half butterfly bottom?",
+        "answer": "First priority is the underhook on the butterfly hook side - this maximizes sweep effectiveness and prevents the opponent from flattening you. Second priority is controlling their far arm or collar to prevent them from posting during sweeps. Third is maintaining active frames to manage distance. The underhook is critical because it creates the diagonal angle needed for high-percentage sweeps."
+      },
+      {
+        "question": "How do you shut down the opponent's primary passing attempt (knee slice) from this position?",
+        "answer": "When you feel them beginning a knee slice, immediately create angle by turning toward the passing direction while driving your butterfly hook upward to disrupt their base. Use your half guard legs to prevent their knee from cutting through by squeezing and elevating slightly. If they commit to the slice, transition to deep half by diving under. Never let them flatten you first - mobility is your primary defense."
+      },
+      {
+        "question": "How should you coordinate the butterfly hook and half guard legs to maximize sweeping power?",
+        "answer": "The legs work as a unified system - as you elevate with the butterfly hook, simultaneously tighten your half guard squeeze on the trapped leg. This creates a dual-vector off-balancing force that's extremely difficult to counter. The half guard prevents them from posting their trapped leg while the hook removes their base on the free side. Time the squeeze and lift together rather than sequentially."
+      },
+      {
+        "question": "Your opponent posts their hand to stop your butterfly sweep - what technique chain addresses this?",
+        "answer": "When they post, immediately attack the posted arm with a kimura grip while maintaining your hook elevation. If they defend the kimura, their weight shifts and opens the sweep again. Alternatively, use the post as an opportunity to transition to X-guard by extending your hook leg under their posted side while controlling their far leg. The post creates vulnerability that you can exploit with the right follow-up."
+      },
+      {
+        "question": "How do you manage energy expenditure while maintaining an active half butterfly guard?",
+        "answer": "Use your skeletal structure rather than constant muscular tension - let your hook rest with heel on the mat between sweep attempts rather than holding it elevated. Create activity through hip movement and angle changes that require minimal energy. Time your explosive sweep attempts for when the opponent creates openings rather than forcing constantly. Rest between exchanges by maintaining frames rather than grip fighting continuously."
+      },
+      {
+        "question": "Your opponent successfully extracts their trapped leg - how do you recover guard retention?",
+        "answer": "Immediately recover full butterfly guard by inserting your free leg as a second hook before they can establish passing grips. If they're too fast, transition to seated guard and use your frames to manage distance while working to re-establish hooks. Never allow them to consolidate a passing position - even a scrappy guard recovery is better than accepting side control. Stay active and use hip movement to create space for hook insertion."
+      }
+    ]
+  }
+}

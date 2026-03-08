@@ -1,0 +1,383 @@
+{
+  "name": "Escape from Rodeo Ride",
+  "description": "Master the Escape from Rodeo Ride in BJJ. Complete guide covering grip disruption, weight shift exploitation, and systematic transition to side control top.",
+  "tags": [
+    "bjj",
+    "transition",
+    "escape",
+    "rodeo-ride",
+    "positional-escape",
+    "defense",
+    "turtle-defense"
+  ],
+  "from_position": "Rodeo Ride/Bottom",
+  "outcomes": [
+    {
+      "to": "Side Control/Top",
+      "probability": 40,
+      "result": "success"
+    },
+    {
+      "to": "Rodeo Ride/Bottom",
+      "probability": 35,
+      "result": "failure"
+    },
+    {
+      "to": "Back Control/Bottom",
+      "probability": 25,
+      "result": "counter"
+    }
+  ],
+  "success_rate": 40,
+  "overview": "The Escape from Rodeo Ride is a critical defensive transition that every turtle player must master. When an opponent establishes Rodeo Ride—a dynamic turtle attack position characterized by asymmetric grips, loaded hip pressure, and constant positional adjustments—the bottom practitioner faces an escalating threat of back control, submissions, and positional advancement. Unlike escaping static top control positions, escaping Rodeo Ride requires matching the attacker's dynamism with precisely timed defensive movements that exploit moments of weight shift and grip transition.\n\nThe escape operates on a fundamental principle: the rider's mobility advantage is also their vulnerability. Because Rodeo Ride relies on constant pressure adjustment rather than locked-in control, every grip change and weight shift creates a brief window where the bottom practitioner can disrupt the rider's balance, strip a controlling grip, or create enough space to change the positional relationship entirely. The primary escape pathway leads to side control top, achieved by collapsing the rider's base and rotating underneath them. However, failed attempts can result in the rider transitioning to full back control with hooks, making timing and commitment level critical decisions.\n\nSuccessful execution requires combining grip fighting to address the near-arm control, hip movement to disrupt the rider's base, and explosive rotation at the precise moment when the rider's weight shifts during an attack attempt or positional adjustment. The escape integrates naturally with the broader turtle defense system and shares mechanical principles with guard recovery and technical stand-up sequences.",
+  "conditions": [
+    "Opponent has established Rodeo Ride control over your turtle position with hip pressure and near-arm control",
+    "You maintain at least one free arm capable of posting and framing during the escape",
+    "Your knees remain under your hips preserving turtle base structure and rotational capability",
+    "You can identify the rider's weight distribution pattern and pressure direction",
+    "Neck is protected from immediate choking threats before initiating escape sequence"
+  ],
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Granby Roll Escape",
+      "description": "An inversion-based escape where the bottom practitioner uses a shoulder roll to rotate underneath the rider and emerge facing them. The granby exploits the rider's high shoulder positioning by rolling through the gap between their hips and the mat, using momentum to complete the full rotation into a guard or top position.",
+      "when_to_use": "When the rider's weight is loaded high on your shoulders with minimal hip control, particularly after they reach for a collar or neck grip that shifts their center of gravity forward and upward."
+    },
+    {
+      "variant_name": "Sit-Back Guard Recovery",
+      "description": "Rather than rotating underneath the rider, the bottom practitioner sits their hips back between the rider's legs to establish butterfly guard or half guard. This variant addresses the rider's upper body control by changing the positional relationship through backward hip movement rather than rotation.",
+      "when_to_use": "When the rider has strong upper body control but weak hip pressure, or when the rotation-based escape has been scouted and the rider is pre-positioned to counter it."
+    },
+    {
+      "variant_name": "Explosive Stand-Up Escape",
+      "description": "A standing escape where the bottom practitioner strips the rider's grips and explosively stands to their feet, using a technical stand-up pattern to shed the rider's control. Requires addressing grips before standing to prevent transition to standing back control.",
+      "when_to_use": "When the rider's grips are compromised and hip pressure is light, particularly in no-gi where collar grips are unavailable and the rider relies more on body positioning than grip control."
+    }
+  ],
+  "position_integration": "The Escape from Rodeo Ride sits at a critical junction in the turtle defense system. It connects the defensive turtle position to offensive top positions, specifically side control, and serves as the primary counter to one of the most dangerous turtle attack positions in modern grappling. This escape shares fundamental mechanics with other turtle escapes including the granby roll, sit-through, and technical stand-up, and practitioners who develop sensitivity to weight distribution in Rodeo Ride find their entire turtle defense game improves as a result. The escape also reinforces the principle that dynamic attacking positions create dynamic escape opportunities—the rider's constant movement creates the very windows that enable escape.",
+  "related_content": [
+    {
+      "name": "Side Control",
+      "relationship": "Primary escape target position achieved through successful rotation"
+    },
+    {
+      "name": "Back Control",
+      "relationship": "Counter outcome when rider capitalizes on escape attempt to insert hooks"
+    },
+    {
+      "name": "Turtle",
+      "relationship": "Starting defensive position from which Rodeo Ride control develops"
+    },
+    {
+      "name": "Crab Ride",
+      "relationship": "Related turtle attack position sharing similar escape mechanics and principles"
+    },
+    {
+      "name": "Calf Slicer from Rodeo Ride",
+      "relationship": "Submission threat from Rodeo Ride that motivates escape urgency"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Alternative escape target via sit-back guard recovery variant"
+    },
+    {
+      "name": "Granby Roll to Guard",
+      "relationship": "Related inversion-based escape technique used in the granby roll variant"
+    },
+    {
+      "name": "Crab Ride Escape to Guard",
+      "relationship": "Related turtle escape sharing grip fighting and rotation principles"
+    }
+  ],
+  "attacker": {
+    "name": "Escape from Rodeo Ride Attacker",
+    "description": "Execute the Escape from Rodeo Ride in BJJ. Step-by-step guide to disrupting rider control, creating escape windows, and transitioning to side control top from turtle defense.",
+    "overview": "As the bottom practitioner trapped in Rodeo Ride, your primary objective is to systematically dismantle the rider's control and transition to a dominant top position. The escape requires precise timing, active grip fighting, and explosive movement at the right moment. You must first address the near-arm control that limits your posting ability, then exploit the rider's weight shifts to collapse their base and rotate into side control. The attacker's mindset should be one of controlled aggression—patient enough to wait for the right moment but decisive enough to commit fully when the window appears. Every movement should serve the dual purpose of improving your defensive structure while degrading the rider's control mechanisms.",
+    "key_principles": [
+      "Fight grips constantly to prevent the rider from establishing settled control and creating submission angles",
+      "Use hip movement to disrupt the rider's base rather than trying to muscle out from underneath",
+      "Time escape attempts to coincide with the rider's weight shifts during attacks or positional adjustments",
+      "Maintain turtle structure throughout the escape—collapsing flat eliminates all escape options",
+      "Commit fully to the escape direction once initiated, as half-committed attempts allow the rider to adjust and counter",
+      "Address near-arm control first before attempting any major positional change or rotation"
+    ],
+    "setup_requirements": [
+      "Maintain defensive turtle position with knees under hips and elbows tight to body",
+      "Identify which arm the rider is controlling and the direction of their primary hip pressure",
+      "Establish at least one free arm for posting and framing during the escape rotation",
+      "Sense the rider's weight distribution to determine the optimal escape direction",
+      "Protect neck from collar or choking grips before initiating any escape sequence"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Assess Control Configuration",
+        "description": "From defensive turtle, identify the rider's primary control points: which arm they control, where their hips are loaded, and the direction of their chest pressure. This assessment determines your escape direction and timing. Feel for the rider's posted leg position—the escape will target the opposite side."
+      },
+      {
+        "step_number": 2,
+        "action": "Initiate Grip Fighting on Near Arm",
+        "description": "Begin actively fighting the near-arm control by pulling your trapped arm toward your body and using your free hand to strip or block the rider's controlling grip. Do not attempt major movement until this grip is at least partially compromised. Use sharp elbow pulls and wrist rotations to break the grip rather than sustained pulling."
+      },
+      {
+        "step_number": 3,
+        "action": "Create Hip Space",
+        "description": "Execute a small hip escape away from the rider's pressure direction, creating a gap between your hip and the mat on the escape side. This space is essential for the rotation that follows and must be created without fully exposing your back to hook insertion. Keep the movement compact and explosive."
+      },
+      {
+        "step_number": 4,
+        "action": "Collapse the Rider's Base",
+        "description": "Use your free posting arm to drive into the rider's posted leg or hip, disrupting their tripod base structure. Time this push to coincide with their weight shift during a grip adjustment or attack setup for maximum effect. The goal is to compromise their balance point so they cannot follow your subsequent rotation."
+      },
+      {
+        "step_number": 5,
+        "action": "Rotate Underneath the Rider",
+        "description": "As the rider's base is disrupted, rotate your hips and shoulders underneath them, turning from turtle position to face their body. Drive your near shoulder into their chest or hip to maintain contact throughout the rotation and prevent them from recovering their riding position or inserting hooks during the transition."
+      },
+      {
+        "step_number": 6,
+        "action": "Establish Perpendicular Contact",
+        "description": "Complete the rotation by driving your chest perpendicular to the former rider's torso, establishing crossface pressure with your forearm across their neck and face. Secure hip-to-hip connection immediately to prevent guard recovery. Your weight should settle onto their chest as you emerge from the rotation."
+      },
+      {
+        "step_number": 7,
+        "action": "Consolidate Side Control Top",
+        "description": "Once perpendicular contact is established, spread your base wide with both legs and sink your weight onto the opponent's chest. Secure proper grips—crossface with one arm and far hip control with the other. Prevent knee insertion for guard recovery by maintaining tight hip-to-hip connection. Do not release pressure to attempt submissions until the position is fully secured."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Rider maintains tight hip pressure and immediately re-establishes near-arm control after grip is stripped",
+        "effectiveness": "High",
+        "your_response": "Chain multiple escape attempts rather than relying on a single effort. Use the first attempt to disrupt the rider's rhythm even if the escape itself fails, then immediately reattempt when they re-settle and their grip is not yet deep.",
+        "targets_outcome": "Rodeo Ride/Bottom"
+      },
+      {
+        "counter": "Rider inserts hooks and transitions to full back control during the escape rotation when space is created",
+        "effectiveness": "High",
+        "your_response": "If you feel hooks entering during the rotation, immediately abort the escape and sit back to trap the entering leg against the mat. Address hook removal before reattempting the escape, as completing the rotation with hooks in leads to back control.",
+        "targets_outcome": "Back Control/Bottom"
+      },
+      {
+        "counter": "Rider follows hip movement with matching pressure adjustment to maintain riding position on the new angle",
+        "effectiveness": "Medium",
+        "your_response": "Use a feint in one direction to draw the rider's weight shift, then explosively escape in the opposite direction when they commit to following your initial movement. Their adjustment creates momentum in the wrong direction.",
+        "targets_outcome": "Rodeo Ride/Bottom"
+      },
+      {
+        "counter": "Rider sprawls hips low and drives chest pressure forward to flatten you during the escape attempt",
+        "effectiveness": "Medium",
+        "your_response": "If flattened, immediately work to recover turtle structure by getting knees under hips rather than continuing a compromised escape from flat position. Once turtle is recovered, restart the escape sequence from step one.",
+        "targets_outcome": "Rodeo Ride/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Attempting escape without first addressing near-arm control",
+        "consequence": "Rider easily follows movement and maintains or improves control, potentially transitioning to back control with hooks during the disrupted escape",
+        "correction": "Always fight the near-arm grip first to create the posting ability needed for the escape rotation. No escape works without a free posting arm."
+      },
+      {
+        "error": "Collapsing flat on stomach instead of maintaining turtle base",
+        "consequence": "Eliminates all escape options and creates conditions for mount advancement or crucifix control by the rider",
+        "correction": "Keep knees under hips even under heavy pressure. Small adjustments from turtle always provide better escape opportunities than any movement from a flattened position."
+      },
+      {
+        "error": "Escaping into the rider's pressure direction rather than away from it",
+        "consequence": "Assists the rider's control by moving into their strongest direction, wasting energy on a low-percentage escape angle",
+        "correction": "Identify the rider's pressure direction and escape perpendicular or away from it, exploiting the weak side of their tripod base where their posted leg cannot provide support."
+      },
+      {
+        "error": "Making half-committed escape attempts that alert the rider without creating real positional change",
+        "consequence": "Rider recognizes the escape pattern and pre-positions to counter the next attempt, making subsequent escapes progressively harder",
+        "correction": "Either commit fully to the escape with explosive movement or continue patient grip fighting. Half-committed attempts give the rider information without creating escape opportunity."
+      },
+      {
+        "error": "Neglecting neck protection during the escape rotation phase",
+        "consequence": "Rider secures a choke during the transition when the neck is momentarily exposed during the rotation between turtle and side control",
+        "correction": "Keep chin tucked and one hand ready to defend the neck throughout the entire escape sequence, especially during the rotation phase when the collar and neck become briefly accessible."
+      },
+      {
+        "error": "Trying to stand up directly without first disrupting the rider's grips and base",
+        "consequence": "Rider follows to standing with superior grip position and transitions to standing back control, worsening the situation",
+        "correction": "Strip grips and create separation before attempting to stand. Standing with the rider's grips still attached guarantees they maintain control in a worse position for you."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Mechanics",
+        "focus": "Basic escape movement pattern without resistance",
+        "description": "Practice the complete escape rotation from turtle against a non-resisting partner positioned in Rodeo Ride. Focus on the hip escape, base collapse, and rotation sequence as isolated components, then chain them together. Build muscle memory for the full movement before adding any resistance."
+      },
+      {
+        "phase": "Phase 2: Grip Fighting Integration",
+        "focus": "Combining grip fighting with escape mechanics",
+        "description": "Partner establishes Rodeo Ride grips at 25-50% resistance. Practice fighting the near-arm control and executing the escape with proper timing. Focus on identifying when grips are sufficiently compromised to initiate the rotation and when to continue fighting grips."
+      },
+      {
+        "phase": "Phase 3: Timing and Sensitivity",
+        "focus": "Reading weight shifts and creating escape windows",
+        "description": "Partner applies 50-75% pressure and randomly shifts weight during attacks. Practice recognizing escape windows during grip transitions, attack setups, and positional adjustments. Execute escapes only during genuine openings rather than at random."
+      },
+      {
+        "phase": "Phase 4: Live Application",
+        "focus": "Full resistance escape scenarios",
+        "description": "Full resistance positional sparring starting from Rodeo Ride bottom. Work the escape against various Rodeo Ride attack strategies including back take attempts, choke setups, and crab ride transitions. Track escape success rate and identify recurring failure patterns."
+      },
+      {
+        "phase": "Phase 5: Chain Escapes",
+        "focus": "Linking multiple escape attempts and variants",
+        "description": "Practice chaining escape attempts where the first attempt sets up the second. If the rotation fails, immediately transition to sit-back guard recovery or explosive stand-up. Develop fluid transitions between all three escape variants based on the rider's counter."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the first control point you should address before attempting to escape Rodeo Ride?",
+        "answer": "The near-arm control must be addressed first because it prevents you from posting and generating the base needed for any escape attempt. Without a free posting arm, you cannot create the leverage to collapse the rider's base or execute the rotation into side control. Fight the near-arm grip by pulling your elbow tight to your body and using your free hand to strip or block the controlling grip before initiating major positional movement."
+      },
+      {
+        "question": "How do you identify the optimal timing window for initiating the escape rotation?",
+        "answer": "The optimal timing window occurs when the rider shifts their weight during a grip adjustment, attack setup, or positional transition. Feel for changes in hip pressure—lighter pressure on your torso indicates the rider is moving or reaching for a new grip. The moment between attacks when the rider resets their position creates the largest window. Their posted leg movement also signals a base compromise that you can exploit with the rotation."
+      },
+      {
+        "question": "Your opponent maintains extremely tight hip pressure and you cannot create space for rotation—what alternative approach should you take?",
+        "answer": "When hip pressure prevents rotation, switch to the sit-back guard recovery variant. Rather than trying to rotate underneath, work to bring your hips back between the rider's legs to establish butterfly guard or half guard. Use frames against their chest or arms to create the separation needed for backward hip movement. Tight forward hip pressure actually makes it difficult for the rider to prevent your hips from moving backward, so exploit this directional limitation."
+      },
+      {
+        "question": "What is the critical difference between the escape rotation and simply rolling over?",
+        "answer": "The escape rotation involves actively driving your shoulder into the rider's body while maintaining contact throughout, which controls the distance and prevents them from recovering their riding position or inserting hooks. Simply rolling over creates separation that allows the rider to adjust and potentially establish full back control. The rotation should keep you connected to the rider so you emerge in side control with contact already established rather than in an open scramble."
+      },
+      {
+        "question": "You begin the escape but feel the rider inserting hooks on your far side—what should you do immediately?",
+        "answer": "Immediately abort the rotation escape and prioritize preventing full back control. Sit back toward the hook side to trap the rider's entering leg between your body and the mat, preventing the second hook from inserting. Use your free hand to fight the first hook while maintaining chin protection. Remaining in Rodeo Ride bottom is far preferable to giving up full back control with both hooks, as submission threat escalates dramatically from back control."
+      },
+      {
+        "question": "Why is it essential to consolidate side control immediately after completing the escape rather than attempting a submission?",
+        "answer": "The former rider will immediately attempt to recover guard or turtle, and the first few seconds after the escape are when your positional control is most vulnerable. Establishing proper crossface, hip-to-hip connection, and wide base prevents guard recovery and secures the positional advantage you earned through the escape. Attempting a submission before consolidating risks losing the position entirely, wasting the energy and timing invested in the escape sequence."
+      }
+    ],
+    "safety_considerations": "The escape from Rodeo Ride involves explosive hip movement and rotation that can strain the neck and lower back if performed with poor mechanics. Always warm up thoroughly before drilling this technique. The granby roll variant carries cervical spine risk if performed with speed before mechanics are solid—progress gradually from slow repetitions. Communicate with training partners about pressure levels and intensity. Tap immediately if you feel sharp pain in the neck or spine during the rotation phase. Avoid forcing the escape against a fully locked body triangle, as this can cause rib or spinal injury."
+  },
+  "defender": {
+    "name": "Escape from Rodeo Ride Defender",
+    "description": "Defend against the Escape from Rodeo Ride in BJJ. Learn to recognize escape attempts, maintain rider control, and counter with back control transitions from Rodeo Ride top.",
+    "overview": "As the rider in Rodeo Ride, your objective when the bottom practitioner attempts to escape is to either maintain your controlling position or capitalize on their movement to advance to full back control. The escape attempt actually creates opportunities because the bottom practitioner must generate space and movement to escape, and that same space and movement can be redirected into hook insertion or seat belt establishment. Your defensive strategy should focus on maintaining at least one primary control point throughout the escape attempt while staying ready to transition your control mechanism from riding position to back hooks when the bottom practitioner commits to their escape direction. Reading the escape early and choosing the correct response—maintain position or advance to back control—is the central skill of defending this transition.",
+    "key_principles": [
+      "Maintain at least one anchor point of control throughout the escape attempt—never release all grips simultaneously during adjustments",
+      "Follow the bottom practitioner's hip movement with your own hips rather than fighting against it from a static position",
+      "Use the space created by escape attempts as an opportunity to insert hooks for full back control advancement",
+      "Keep chest-to-back connection as the primary control mechanism even when grips are being fought and stripped",
+      "Anticipate the escape direction by reading hip angle changes and posting patterns before the explosive movement",
+      "Stay low with hips heavy on the bottom practitioner's back rather than rising up, which creates the space the escaper needs"
+    ],
+    "recognition_cues": [
+      "Bottom practitioner begins intensified grip fighting on your near-arm control with increased urgency and repeated stripping attempts",
+      "You feel the bottom practitioner's hips shift and create space between their hip and the mat on one side",
+      "The bottom practitioner's free arm moves to a posting position on the mat rather than staying tucked in defensive turtle",
+      "You sense a change in the bottom practitioner's breathing pattern—deeper breaths followed by breath-holding signal imminent explosive movement",
+      "The bottom practitioner begins to angle their knees and hips in preparation for rotation rather than maintaining a square turtle base"
+    ],
+    "defensive_options": [
+      {
+        "action": "Maintain tight hip pressure and immediately re-establish near-arm control after grip strip",
+        "when_to_use": "When the escape attempt is in its early stages and the bottom practitioner has only begun grip fighting without creating significant hip space",
+        "targets_outcome": "Rodeo Ride/Bottom",
+        "if_successful": "Bottom practitioner's escape is neutralized and you maintain full riding control with all primary control points intact",
+        "risk": "Over-committing to re-gripping may create the weight shift the bottom practitioner needs to execute the escape rotation"
+      },
+      {
+        "action": "Insert hooks and transition to full back control as space is created during the escape attempt",
+        "when_to_use": "When the bottom practitioner creates significant hip space during their escape, particularly during the rotation phase when their back is briefly more exposed",
+        "targets_outcome": "Back Control/Bottom",
+        "if_successful": "You advance from Rodeo Ride to the most dominant position in BJJ with 4-point scoring opportunity and high-percentage submission access",
+        "risk": "If hook insertion is timed poorly, the bottom practitioner may trap your leg and use it as leverage to complete their escape to side control"
+      },
+      {
+        "action": "Follow hip movement with matching sprawl to shut down the escape and re-establish riding position",
+        "when_to_use": "When the bottom practitioner attempts to create space through hip escape but has not yet begun the full rotation",
+        "targets_outcome": "Rodeo Ride/Bottom",
+        "if_successful": "You shut down the escape at its early stage and can immediately re-threaten attacks from a stabilized riding position",
+        "risk": "Sprawling too aggressively may flatten the bottom practitioner, which maintains control but can reduce your own attacking options from the new angle"
+      },
+      {
+        "action": "Switch to seat belt grip during the scramble to maintain upper body control when riding position is lost",
+        "when_to_use": "When the escape creates a scramble and you are losing riding position but still have chest-to-back contact",
+        "targets_outcome": "Back Control/Bottom",
+        "if_successful": "You maintain upper body control through the seat belt and can re-establish hooks from the new control position",
+        "risk": "If the seat belt is not secured properly during the scramble, the bottom practitioner completes the escape to side control"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Back Control/Bottom",
+        "how": "When the bottom practitioner initiates rotation for the escape, follow their hip movement and use the space they create to insert both hooks while securing a seat belt grip. Their escape movement actually opens the path to full back control if you can match their rotation speed with hook insertion timing. Prioritize the bottom hook first, then establish the seat belt before inserting the top hook."
+      },
+      {
+        "outcome": "Rodeo Ride/Bottom",
+        "how": "Maintain constant hip pressure and active grip fighting throughout the escape attempt. Re-establish near-arm control immediately when the bottom practitioner fights it free. Stay connected with your chest to their back while adjusting your angle to match their movement, making their escape efforts ineffective without surrendering your riding position."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Allowing both controlling grips to be stripped simultaneously during the escape attempt",
+        "consequence": "Bottom practitioner has complete freedom to execute escape rotation unopposed, leading to loss of position to side control",
+        "correction": "Always maintain at least one control point. If near-arm control is stripped, immediately secure collar, neck, or far-side grip as replacement before addressing the lost grip."
+      },
+      {
+        "error": "Rising hips high off the bottom practitioner's back during the scramble to chase grips",
+        "consequence": "Creates the exact space the bottom practitioner needs to complete the rotation and establish side control top",
+        "correction": "Keep hips heavy and low throughout the escape defense, sinking your weight into their back even when adjusting position and fighting for new grips."
+      },
+      {
+        "error": "Overcommitting to re-establishing the riding position when back control opportunity is available",
+        "consequence": "Misses the superior advancement opportunity, and the bottom practitioner may escape entirely during the re-gripping attempt",
+        "correction": "Recognize when the escape has opened a clear path to back control and commit to hook insertion rather than trying to re-establish a compromised riding position."
+      },
+      {
+        "error": "Releasing chest-to-back connection to reach for grips or submissions during the escape",
+        "consequence": "Loss of the primary control mechanism that makes all other controls effective, accelerating the escape",
+        "correction": "Chest-to-back connection is the last thing you should release. Maintain this contact while adjusting grips and leg position around it as the fundamental anchor."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the most reliable indicator that the bottom practitioner is about to attempt an escape from Rodeo Ride?",
+        "answer": "The most reliable indicator is a combination of intensified grip fighting on your near-arm control paired with hip positioning changes where the bottom practitioner angles their knees for rotation rather than maintaining square turtle. These two changes together signal imminent escape, as the bottom practitioner needs both a free posting arm and proper hip angle to execute the rotation. Subtle changes in their breathing pattern—deeper breaths followed by breath-holding—also signal the transition from defensive posture to escape preparation."
+      },
+      {
+        "question": "Why should you consider transitioning to back control rather than maintaining Rodeo Ride when the escape is partially successful?",
+        "answer": "Rodeo Ride is inherently a transitional position, and once the bottom practitioner has partially disrupted your control, re-establishing the full riding position requires fighting against their momentum and improved defensive structure. Back control with hooks offers significantly more stable control and higher submission percentage. The escape attempt actually creates the space and movement patterns that facilitate hook insertion, so capitalizing on this opportunity is strategically superior to fighting to re-establish a compromised position."
+      },
+      {
+        "question": "How do you adjust your defense when the bottom practitioner uses the granby roll variant to escape?",
+        "answer": "Against the granby roll, immediately drop your weight forward and down toward the mat to prevent the inversion from completing. Drive your chest pressure into their upper back to flatten them before they can get their hips over their shoulders. If the roll is already in progress, follow the rotation by switching your hips to the other side and maintaining chest contact throughout. The granby roll requires them to elevate their hips above their shoulders, so any downward pressure that prevents this elevation defeats the technique entirely."
+      },
+      {
+        "question": "Your grip on the near arm is stripped but you still have chest-to-back contact—what is your immediate priority?",
+        "answer": "Your immediate priority is deciding between re-establishing a new control grip and transitioning to hooks based on the bottom practitioner's movement. If they are beginning the escape rotation and creating space, insert hooks immediately since their movement opens the path to back control. If they remain in tight turtle and have not yet begun the rotation, re-establish near-arm control or switch to collar or far-side grip while maintaining chest pressure. The wrong choice is hesitation—a free arm in turtle will be used to escape within seconds."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Recognition",
+        "focus": "Identifying escape initiation cues and patterns",
+        "description": "Partner attempts escapes from Rodeo Ride bottom at 50% speed. Practice recognizing the grip fighting intensification, hip angle changes, and breathing pattern shifts that precede escape attempts. Call out the escape direction before it happens to build predictive awareness."
+      },
+      {
+        "phase": "Phase 2: Counter Timing",
+        "focus": "Executing defensive responses at the correct moment",
+        "description": "Partner attempts escapes at 75% speed and intensity. Practice choosing between maintaining riding position and transitioning to back control based on the escape type and stage. Focus on executing the appropriate counter at the moment that maximizes your positional advantage."
+      },
+      {
+        "phase": "Phase 3: Live Defense",
+        "focus": "Full resistance escape defense with attacking pressure",
+        "description": "Full resistance positional sparring from Rodeo Ride. Defend escape attempts while maintaining your own attacking pressure and offensive threats. Track how often you maintain position versus transition to back control versus lose position entirely."
+      },
+      {
+        "phase": "Phase 4: Transition Mastery",
+        "focus": "Converting escape attempts into back control advancement",
+        "description": "Specifically practice converting the bottom practitioner's escape attempts into back control with hooks. Partner executes escape at full speed while you work on following their movement with hook insertion and seat belt establishment. Develop the reflexive transition from rider to back controller."
+      }
+    ]
+  }
+}

@@ -1,0 +1,415 @@
+{
+  "name": "Knee Slice from Z-Guard",
+  "description": "Master the Knee Slice from Z-Guard in BJJ. Complete guide covering shield collapse, passing mechanics, and defense for this essential half guard pass.",
+  "tags": [
+    "bjj",
+    "guard-passing",
+    "knee-slice",
+    "z-guard",
+    "half-guard",
+    "pressure-passing",
+    "top-game"
+  ],
+  "from_position": "Z-Guard/Top",
+  "outcomes": [
+    {
+      "to": "Side Control/Top",
+      "probability": 50,
+      "result": "success"
+    },
+    {
+      "to": "Half Guard/Top",
+      "probability": 30,
+      "result": "failure"
+    },
+    {
+      "to": "Deep Half Guard/Top",
+      "probability": 20,
+      "result": "counter"
+    }
+  ],
+  "success_rate": 50,
+  "overview": "The Knee Slice from Z-Guard is a fundamental guard passing technique that addresses one of the most challenging defensive structures in modern half guard play. Z-Guard positions the bottom player's knee shield at shoulder height rather than hip level, creating exceptional distance management that neutralizes many standard passing approaches. The knee slice overcomes this elevated barrier through systematic shield collapse combined with angular knee movement that penetrates the guard structure at its weakest transition point—the gap between the collapsed shield frame and the bottom player's hip control. This makes the technique essential knowledge for any practitioner regularly encountering Z-Guard in training or competition.\n\nExecuting this pass demands a methodical three-phase approach. First, the passer must neutralize the elevated knee shield through combined crossface pressure and grip fighting, progressively collapsing the frame over time rather than attempting to blast through it. Second, the knee slice initiates at a precise angle across the opponent's thigh line, driving through the gap created by the collapsed shield while maintaining constant upper body control. Third, the pass completes by clearing the entangled legs and consolidating into side control. The critical distinction from a standard knee slice is the mandatory preparation phase needed to address Z-Guard's superior framing geometry—without properly collapsing the shield first, the elevated knee will stuff the slice every time.\n\nStrategically, this technique occupies a central role in the top player's half guard passing system against modern guard players. It chains naturally with smash passes when the bottom player blocks the slice by flattening their shield, with backstep entries when the opponent over-commits to frontal defense, and with long step passes when distance management prevents close-range slicing. The bottom player facing this technique must choose between maintaining the shield frame, entering deep half guard, or recovering to a different guard variation—each decision carrying distinct risks and opportunities that shape the tactical exchange and create the cascading dilemmas that characterize high-level passing.",
+  "conditions": [
+    "Top player has established position in opponent's Z-Guard with one leg trapped in half guard entanglement",
+    "Bottom player's knee shield is elevated to shoulder or upper chest height creating the characteristic Z-Guard frame",
+    "Top player has sufficient base and posture to withstand sweep threats while applying passing pressure",
+    "At least one upper body control point is available or can be established through grip fighting",
+    "Bottom player's far arm is not controlling a deep underhook that would enable immediate back take"
+  ],
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Crossface Knee Slice",
+      "description": "Heavy crossface pressure drives the opponent's head away while collapsing the knee shield, using shoulder-to-chin contact to control posture before initiating the slicing motion. The crossface hand reaches behind the head while the other hand pins the knee shield leg at the knee.",
+      "when_to_use": "When you can establish strong crossface control and the opponent is not actively threatening sweeps with their far arm"
+    },
+    {
+      "variant_name": "Collar Grip Knee Slice",
+      "description": "In gi, a deep cross-collar grip replaces the crossface for upper body control. The collar grip pulls the opponent's shoulder off the mat while simultaneously loading weight onto the knee shield to collapse it. Provides superior control at the cost of requiring gi grips.",
+      "when_to_use": "In gi training when you can secure a deep collar grip that breaks the opponent's posture and prevents them from maintaining the elevated shield"
+    },
+    {
+      "variant_name": "Underhook Knee Slice",
+      "description": "Securing a deep underhook on the far side before initiating the slice. The underhook prevents the opponent from re-establishing frames and creates a tight connection that makes the pass difficult to stop once initiated. Requires winning the underhook battle first.",
+      "when_to_use": "When you have won the underhook exchange on the far side and the opponent cannot establish defensive frames with their far arm"
+    }
+  ],
+  "position_integration": "The Knee Slice from Z-Guard occupies a central role in the top player's half guard passing system, serving as the primary direct passing technique against elevated knee shield variations. It chains seamlessly with smash passes when the bottom player blocks the slice by flattening their shield, with backstep passes when the opponent over-commits to frontal defense, and with long step passes when distance management prevents close-range slicing. From the bottom player's perspective, this technique's existence forces the Z-Guard player to maintain active defense rather than relying on passive framing, driving the development of transition-based defensive strategies centered on deep half entries, underhook recovery, and back take opportunities when the passer overcommits to the slice.",
+  "related_content": [
+    {
+      "name": "Half Guard",
+      "relationship": "Parent position category from which Z-Guard derives as a specialized variation"
+    },
+    {
+      "name": "Side Control",
+      "relationship": "Primary destination position after successful knee slice pass completion"
+    },
+    {
+      "name": "Deep Half Guard",
+      "relationship": "Counter position the bottom player enters to stop the pass mid-execution"
+    },
+    {
+      "name": "Knee Shield Half Guard",
+      "relationship": "Related guard position with lower knee shield placement requiring similar passing approach"
+    },
+    {
+      "name": "Headquarters Position",
+      "relationship": "Transitional passing position for resetting and re-initiating knee slice sequences"
+    },
+    {
+      "name": "Dogfight Position",
+      "relationship": "Scramble position arising when bottom player comes up during contested pass attempts"
+    },
+    {
+      "name": "Flattened Half Guard",
+      "relationship": "Intermediate position when shield collapses but pass is not yet completed"
+    },
+    {
+      "name": "Lockdown",
+      "relationship": "Alternative half guard retention system bottom player may employ to counter the slice"
+    },
+    {
+      "name": "Back Control",
+      "relationship": "Position bottom player may achieve if passer overcommits during the slice"
+    }
+  ],
+  "attacker": {
+    "name": "Knee Slice from Z-Guard Attacker",
+    "description": "Complete attacker guide for the Knee Slice from Z-Guard. Learn shield collapse techniques, passing mechanics, grip sequences, and how to chain with alternative passes.",
+    "overview": "The Knee Slice from Z-Guard Attacker perspective focuses on systematically dismantling the elevated knee shield structure before executing a penetrating knee slice to achieve side control. Success requires disciplined sequencing—rushing the slice without proper shield collapse is the single most common failure point at every level. The attacker must establish upper body dominance through crossface or collar control, progressively collapse the knee shield using directed hip pressure, and only then initiate the slicing motion at the correct angle to cut through the half guard entanglement. The technique rewards patience and methodical execution over explosive athleticism, making it accessible to practitioners of all body types when the mechanics are properly understood.",
+    "key_principles": [
+      "Collapse the knee shield before initiating the slice—the elevated Z-Guard frame must be neutralized through progressive pressure rather than forced through with explosive movement",
+      "Establish upper body control through crossface or collar grip as the first priority, pinning the opponent's shoulders to prevent them from creating angles or re-inserting the shield",
+      "Angle the slicing knee at approximately 45 degrees across the opponent's thigh line rather than driving straight down, which the shield can easily redirect",
+      "Maintain constant hip-to-mat pressure throughout the pass to prevent the bottom player from re-establishing frames or creating space for guard recovery",
+      "Control the bottom player's far arm to eliminate secondary frames that allow them to hip escape, re-insert the shield, or threaten back takes",
+      "Chain the knee slice with alternative passes based on defensive reactions—the slice should function as part of a passing system, not an isolated technique"
+    ],
+    "setup_requirements": [
+      "Knee shield partially collapsed or at least destabilized through consistent pressure application, reducing the shield angle from shoulder height toward the hip",
+      "Crossface, collar grip, or underhook established to control the bottom player's upper body and prevent them from re-establishing the elevated shield position",
+      "Far arm controlled through sleeve grip, wrist control, or posting pressure to eliminate secondary defensive frames",
+      "Stable base with the free leg posted wide enough to resist sweep attempts during the transition from pressure to slicing motion",
+      "Bottom player's hips managed through weight distribution—your hip pressure prevents them from hip escaping to create angles"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Establish upper body control",
+        "description": "Secure crossface control by driving your shoulder into the opponent's chin and reaching behind their head, or establish a deep collar grip. This pins their shoulders to the mat and prevents them from maintaining the active angle that powers the Z-Guard shield. Win the grip fight before attempting anything else."
+      },
+      {
+        "step_number": 2,
+        "action": "Collapse the knee shield progressively",
+        "description": "Drive your hip and chest pressure forward and downward into the knee shield at a 45-degree angle, not straight down. Use your free hand to control the opponent's shield-side knee, pushing it toward their hip. The goal is to reduce the shield angle from shoulder height to hip level over several seconds of sustained pressure."
+      },
+      {
+        "step_number": 3,
+        "action": "Pin the shield leg",
+        "description": "Once the shield collapses below chest height, use your knee and shin to staple the opponent's shield leg to the mat. Drive your knee into their inner thigh, trapping the leg and preventing them from re-inserting the shield. Your weight should be heavy on this pinning contact point while your upper body control remains tight."
+      },
+      {
+        "step_number": 4,
+        "action": "Initiate the knee slice",
+        "description": "With the shield neutralized and the leg pinned, begin sliding your knee across the opponent's thigh line at a 45-degree angle toward their far hip. The slicing motion should be smooth and continuous, not jerky—maintain pressure throughout the slide. Your hips stay low and heavy, driving toward the mat as the knee cuts across."
+      },
+      {
+        "step_number": 5,
+        "action": "Drive through with hip pressure",
+        "description": "As your knee clears the halfway point across the opponent's thigh, accelerate the hip drive forward and down. Your chest and shoulder maintain the crossface pressure while your hips complete the slicing trajectory. This is the commitment point—half-measures here allow guard recovery. Drive until your knee reaches the mat on the far side."
+      },
+      {
+        "step_number": 6,
+        "action": "Clear the entangled leg",
+        "description": "Extract your trailing leg from the half guard entanglement by circling it backward and away from the opponent's hooks. Use a backstep motion if their half guard grip is tight, or simply slide the leg free if the entanglement has loosened during the slice. Do not lift your hips to extract—keep weight heavy throughout."
+      },
+      {
+        "step_number": 7,
+        "action": "Consolidate side control",
+        "description": "As the trailing leg clears, immediately settle into side control with proper weight distribution. Establish chest-to-chest contact, maintain the crossface or transition to a more stable control configuration, and spread your knees wide for base. The pass is not complete until you have stabilized side control for several seconds."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Bottom player re-inserts knee shield before slice initiates",
+        "effectiveness": "High",
+        "your_response": "Reset the shield collapse sequence with tighter grip control. Address the far arm more aggressively to prevent them from generating the framing power needed for re-insertion. Consider switching to a smash pass variation that pins the shield leg flat.",
+        "targets_outcome": "Half Guard/Top"
+      },
+      {
+        "counter": "Bottom player dives underneath for deep half guard entry during the slice",
+        "effectiveness": "Medium",
+        "your_response": "Immediately sprawl hips back and drive shoulder pressure into their far shoulder to stop the dive. If they complete the deep half entry, transition to deep half guard passing. Prevention is better than reaction—keep hips heavy throughout the slice to deny space for the dive.",
+        "targets_outcome": "Deep Half Guard/Top"
+      },
+      {
+        "counter": "Bottom player frames on the shoulder and hip escapes to create distance",
+        "effectiveness": "Medium",
+        "your_response": "Follow their hip escape by circling your hips in the same direction, maintaining pressure. Strip the shoulder frame by swimming your arm inside their frame and re-establishing crossface. Use their hip escape momentum to accelerate your knee slice angle.",
+        "targets_outcome": "Half Guard/Top"
+      },
+      {
+        "counter": "Bottom player secures underhook and drives to dogfight position",
+        "effectiveness": "Medium",
+        "your_response": "Apply immediate whizzer control to neutralize the underhook before they can come up to dogfight. Drive your hip pressure down to flatten them back to the mat. If they achieve the dogfight, use the whizzer to control their posture and look for front headlock or darce entries.",
+        "targets_outcome": "Half Guard/Top"
+      },
+      {
+        "counter": "Bottom player turns away and begins back exposure recovery",
+        "effectiveness": "Low",
+        "your_response": "Recognize this as acceleration opportunity for the knee slice—their turning motion actually helps clear the path for your slicing knee. Maintain crossface and drive through the pass aggressively, completing to side control before they can fully turn to turtle.",
+        "targets_outcome": "Side Control/Top"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Attempting the knee slice before collapsing the knee shield",
+        "consequence": "The elevated shield blocks the slicing knee completely, wasting energy and giving the bottom player time to set up sweeps or transitions",
+        "correction": "Always complete the shield collapse phase before initiating the slice. The shield must be at or below chest height before the knee begins its cutting trajectory across the thigh line."
+      },
+      {
+        "error": "Slicing the knee straight down instead of at an angle across the thigh",
+        "consequence": "Straight-down pressure is easily absorbed by the shield structure and does not penetrate the guard. The bottom player simply re-elevates the shield once pressure is released.",
+        "correction": "Angle the knee slice at approximately 45 degrees across the opponent's thigh line, driving toward their far hip. The angular motion cuts through the guard rather than pushing into it."
+      },
+      {
+        "error": "Lifting hips during the slice to create momentum",
+        "consequence": "Space created under the hips allows the bottom player to enter deep half guard, re-insert the shield, or initiate sweeps that capitalize on the elevated center of gravity",
+        "correction": "Keep hips heavy and driving toward the mat throughout the entire pass. The slicing motion comes from angular knee movement, not from lifting and dropping weight."
+      },
+      {
+        "error": "Neglecting crossface or upper body control before attempting the pass",
+        "consequence": "Without upper body control, the bottom player freely adjusts their angle, re-inserts frames, and threatens sweeps that make the knee slice impossible to complete",
+        "correction": "Establish crossface or collar control as the absolute first priority. No passing attempt should begin until at least one dominant upper body grip is secured."
+      },
+      {
+        "error": "Failing to control the bottom player's far arm during the slice",
+        "consequence": "The uncontrolled far arm creates secondary frames that stall the pass, enables underhook entry for sweeps, and allows guard recovery through framing and hip escape",
+        "correction": "Pin the far arm with your free hand through sleeve grip, wrist control, or post pressure. Eliminating the far arm removes the bottom player's primary defensive tool."
+      },
+      {
+        "error": "Rushing through the pass in one explosive movement",
+        "consequence": "Explosive attempts telegraph the pass direction, allowing the bottom player to time their defensive response perfectly. Failed explosive attempts also drain significant energy.",
+        "correction": "Execute the pass as a methodical sequence: control, collapse, pin, slice, clear. Each phase flows into the next with sustained pressure rather than bursts."
+      },
+      {
+        "error": "Stopping the slice midway when encountering resistance",
+        "consequence": "Pausing mid-slice creates a stalemate where neither player has advantageous position. The bottom player uses the pause to re-establish frames and recover guard structure.",
+        "correction": "Once past the commitment point (knee halfway across the thigh), drive through to completion. If resistance is too strong before that point, reset with better control rather than stalling in no-man's land."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Shield Collapse Mechanics",
+        "focus": "Learning to progressively collapse the Z-Guard knee shield through pressure and grip control",
+        "description": "Partner maintains Z-Guard with 50% resistance. Practice establishing crossface, collapsing the shield through hip pressure, and pinning the shield leg. No passing attempts—focus exclusively on reducing the shield from shoulder height to hip height consistently. 3-minute rounds, 4-5 reps."
+      },
+      {
+        "phase": "Phase 2: Slice Mechanics Isolation",
+        "focus": "Developing correct knee angle and hip drive for the slicing motion",
+        "description": "Partner starts with shield already collapsed to mid-chest level. Practice the knee slice motion in isolation with 25% resistance, focusing on the 45-degree angle, continuous hip pressure, and smooth sliding rather than explosive jerking. Repeat until the motion feels natural and automatic."
+      },
+      {
+        "phase": "Phase 3: Full Sequence Integration",
+        "focus": "Connecting shield collapse to knee slice in one continuous passing sequence",
+        "description": "Full pass from Z-Guard with progressive resistance (50-75%). Partner applies realistic defense including shield re-insertion attempts, framing, and hip escaping. Top player must demonstrate complete sequence: control, collapse, pin, slice, clear, consolidate. Reset after each attempt."
+      },
+      {
+        "phase": "Phase 4: Chain Passing",
+        "focus": "Integrating the knee slice with alternative passes based on defensive reactions",
+        "description": "Positional sparring from Z-Guard where bottom player defends freely. Top player chains knee slice with smash pass, backstep, and long step based on reactions. Develop pattern recognition for which alternative to use when the primary slice is defended. 5-minute rounds."
+      },
+      {
+        "phase": "Phase 5: Live Application",
+        "focus": "Applying the complete knee slice system in live rolling starting from Z-Guard",
+        "description": "Full sparring starting from Z-Guard position. Both players work freely with full resistance. Top player practices reading the correct moment to initiate the slice versus when to chain to alternatives. Track success rate over multiple rounds to identify weak points."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "Your opponent has a strong Z-Guard with their knee shield high on your shoulder—what must you accomplish before initiating the knee slice?",
+        "answer": "You must collapse the knee shield from shoulder height to at least chest or hip level before the slice can work. This requires establishing crossface or collar control first to pin their upper body, then applying progressive hip and chest pressure at an angle into the shield. Attempting the slice against a fully elevated Z-Guard shield will fail because the elevated knee mechanically blocks the slicing trajectory. The preparation phase is non-negotiable for consistent success."
+      },
+      {
+        "question": "What is the correct angle for the knee during the slicing motion through Z-Guard?",
+        "answer": "The knee should slice at approximately 45 degrees across the opponent's thigh line, driving toward their far hip rather than straight down into the mat. This angular trajectory cuts through the guard structure rather than pushing into it, which the shield can absorb and redirect. The 45-degree angle also keeps your hip pressure low and continuous throughout the motion, preventing the space creation that enables deep half entries or shield re-insertion."
+      },
+      {
+        "question": "You begin the knee slice and your opponent immediately dives underneath for deep half guard—how do you respond?",
+        "answer": "Immediately sprawl your hips back and drive shoulder pressure into their far shoulder to arrest the deep half entry before it completes. If you catch it early enough, the sprawl will deny them the space to get their head underneath your hips. If they complete the entry, transition to deep half guard passing rather than trying to retreat to Z-Guard top. Prevention is always preferable—maintaining heavy hip pressure throughout the slice denies the space they need for the deep half dive."
+      },
+      {
+        "question": "What grip combination provides the strongest upper body control for the knee slice from Z-Guard?",
+        "answer": "The crossface with the near hand reaching behind their head combined with a knee or pant grip controlling the shield leg provides the strongest foundation. The crossface pins their shoulders and prevents angle creation while the knee grip assists with collapsing the shield. In gi, a deep cross-collar grip can replace the crossface for even stronger control. The far arm should be controlled through sleeve grip or posted pressure to eliminate secondary frames."
+      },
+      {
+        "question": "Your crossface is established but the opponent keeps re-inserting their knee shield each time you attempt to slice—what adjustment do you make?",
+        "answer": "The re-insertion indicates insufficient control of the shield leg itself. Add a direct grip on their knee or shin with your free hand to physically prevent the re-insertion while maintaining the crossface with the other arm. Alternatively, switch to pinning their shield leg with your own knee pressure on their inner thigh before releasing the crossface grip. The key insight is that crossface alone controls the upper body but not the shield leg—you need both controlled simultaneously."
+      },
+      {
+        "question": "What is the most common mechanical failure that causes the knee slice to stall against Z-Guard?",
+        "answer": "The most common failure is lifting the hips during the slice to generate downward momentum. This creates space underneath the passer that the bottom player exploits for deep half entries, shield re-insertion, or sweep setups. The hips must remain heavy and driving toward the mat throughout the entire pass. The slicing power comes from angular knee movement combined with sustained hip pressure, not from a lift-and-drop motion that telegraphs the pass and creates defensive openings."
+      },
+      {
+        "question": "The bottom player frames hard on your shoulder and begins hip escaping to create distance—how do you maintain passing pressure?",
+        "answer": "Follow their hip escape by circling your hips in the same direction they are moving, maintaining chest-to-chest proximity. Simultaneously swim your arm inside their shoulder frame to strip it and re-establish the crossface. Use their hip escape momentum to accelerate your own knee slice angle—their lateral movement can actually help clear the path for your slicing knee if you match their direction. Never let them create static distance; stay attached and use their movement against them."
+      },
+      {
+        "question": "What hip position is critical during the final phase of clearing the legs in the knee slice?",
+        "answer": "During leg extraction, the hips must remain heavy and pressed toward the mat at all times. The common mistake is lifting the hips to step the trailing leg free from the half guard entanglement—this creates space for the opponent to recover guard or re-establish hooks. Instead, circle the trailing leg backward using a backstep motion while keeping hip pressure constant. The extraction happens through leg movement, not hip elevation. Only after the leg fully clears should you begin settling into side control."
+      }
+    ],
+    "safety_considerations": "The knee slice pass involves lateral pressure on the bottom player's knee shield leg during the collapse phase. Apply progressive, sustained pressure rather than sudden explosive force to avoid knee or hip injuries to your training partner. Be attentive to flexibility limitations, particularly when driving the slicing knee across the thigh line. If your partner signals discomfort in their knee or hip joints, release pressure immediately and reset. In drilling, use controlled speed and allow your partner to tap or verbally indicate when pressure approaches their tolerance threshold."
+  },
+  "defender": {
+    "name": "Knee Slice from Z-Guard Defender",
+    "description": "Complete defender guide for the Knee Slice from Z-Guard. Learn recognition cues, defensive timing, deep half entries, and guard recovery strategies against knee slice passing.",
+    "overview": "Defending the Knee Slice from Z-Guard requires early recognition of the passing sequence and proactive disruption before the knee slice reaches the point of no return. The defender's primary advantage lies in the Z-Guard's superior framing geometry, which provides multiple opportunities to re-insert the knee shield, enter deep half guard, or use framing to create enough space for guard recovery. The critical defensive principle is never allowing the top player to simultaneously control the upper body and collapse the knee shield—disrupting either element derails the pass. Once the passer achieves both upper body control and shield collapse, defensive options narrow rapidly, making early intervention essential for consistent defense.",
+    "key_principles": [
+      "Maintain active knee shield pressure into the passer's shoulder at all times—a loaded, dynamic shield is far harder to collapse than a passive frame",
+      "Fight for underhook control on the trapped leg side as the primary offensive-defensive tool, preventing crossface and enabling immediate sweep threats",
+      "Recognize the three-phase passing sequence early: upper body control, shield collapse, knee slice—and disrupt the earliest phase possible",
+      "Keep shoulders off the mat at a 45-degree angle to maintain hip mobility and prevent the passer from pinning you flat with crossface pressure",
+      "Transition proactively when the shield is compromised rather than stubbornly trying to re-establish a deteriorating Z-Guard position",
+      "Use the passer's forward commitment against them by timing deep half entries or back takes to moments when their weight shifts during the slice"
+    ],
+    "recognition_cues": [
+      "Top player's hip drive increases against your knee shield, shifting from maintaining position to actively collapsing the frame",
+      "Top player's hand reaches behind your head or grabs your collar, establishing the crossface or collar grip that precedes the slice",
+      "Top player's free hand moves to control your shield leg at the knee, attempting to pin it and prevent re-insertion of the frame",
+      "Top player's far-side knee begins angling across your thigh line rather than staying parallel—this is the slice initiation",
+      "Your knee shield angle decreases from shoulder height toward your hip, indicating the shield is being successfully collapsed"
+    ],
+    "defensive_options": [
+      {
+        "action": "Re-insert the knee shield before the slice initiates",
+        "when_to_use": "Early in the sequence when the passer has begun collapsing the shield but has not yet pinned your leg or initiated the slice",
+        "targets_outcome": "Half Guard/Top",
+        "if_successful": "Guard is maintained and the passer must restart their passing sequence from scratch, burning energy and time",
+        "risk": "If the re-insertion fails because the passer has already pinned the leg, you waste energy and end up in a worse position with less time to transition"
+      },
+      {
+        "action": "Enter deep half guard by diving underneath the passer's hips",
+        "when_to_use": "When the shield has collapsed past the recovery point but the slice has not yet completed—the passer's forward pressure creates the space needed to duck underneath",
+        "targets_outcome": "Deep Half Guard/Top",
+        "if_successful": "You achieve deep half guard with strong sweeping mechanics and the passer must completely change their passing approach",
+        "risk": "Mistiming the entry allows the passer to sprawl and establish heavy pressure, potentially leading to a flattened half guard or completed pass"
+      },
+      {
+        "action": "Frame and hip escape to recover guard distance",
+        "when_to_use": "When the passer's crossface is not fully established and there is enough space to create distance through hip escape movement",
+        "targets_outcome": "Half Guard/Top",
+        "if_successful": "Distance is re-established and you can re-insert the knee shield or transition to a different guard variation with better framing",
+        "risk": "Hip escaping against a strong crossface is ineffective and may expose your back if you turn too far away from the passer"
+      },
+      {
+        "action": "Underhook and drive to dogfight position",
+        "when_to_use": "When the passer lifts their hips during the slice attempt, creating space for you to secure an underhook and come up to knees",
+        "targets_outcome": "Half Guard/Top",
+        "if_successful": "You achieve the dogfight scramble position with strong sweep potential and the pass is completely neutralized",
+        "risk": "If the passer applies a strong whizzer or crossface before you complete the rise to dogfight, you may end up flattened with your underhook trapped"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Deep Half Guard/Top",
+        "how": "Time your deep half entry to the moment when the passer commits their weight forward during the shield collapse or slice initiation. Dive your head and shoulders underneath their hip line while maintaining your leg entanglement. Their forward pressure actually assists your entry when timed correctly."
+      },
+      {
+        "outcome": "Half Guard/Top",
+        "how": "Maintain active shield pressure and fight for the underhook throughout the exchange. Strip the crossface grip early before it consolidates. Hip escape to create angles that make the slice trajectory ineffective. Force the passer to restart their sequence by denying at least one critical control point at all times."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Maintaining passive knee shield without active pressure or adjustment",
+        "consequence": "A static shield is progressively collapsed through sustained pressure, and without active management the shield deteriorates until the slice becomes unavoidable",
+        "correction": "Treat the knee shield as a dynamic spring that requires constant tension and active repositioning. Push back against pressure, adjust the angle as the passer moves, and use micro hip escapes to maintain optimal shield positioning."
+      },
+      {
+        "error": "Allowing crossface control without fighting for head position",
+        "consequence": "The crossface pins your shoulders to the mat, eliminates hip mobility, and makes shield re-insertion and transitions to deep half guard extremely difficult",
+        "correction": "Fight the crossface hand immediately—strip the grip, frame on the bicep, or turn your head toward the passer to deny the chin-to-shoulder contact. Winning the head position battle is the single highest-priority defensive action."
+      },
+      {
+        "error": "Remaining flat on back instead of maintaining side angle",
+        "consequence": "Flat positioning removes all hip mobility and makes you a stationary target for the shield collapse and knee slice sequence",
+        "correction": "Stay on your side at approximately 45 degrees facing the passer. Use continuous small hip escapes to maintain the angle. If you feel your back touching the mat, immediately hip escape to recover the side position."
+      },
+      {
+        "error": "Attempting deep half entry too late after the slice is already past the thigh",
+        "consequence": "Late deep half attempts fail because the passer's knee has already cleared the entry window, resulting in a completed pass to side control with you trapped underneath",
+        "correction": "The deep half entry window opens when the shield collapses and closes when the slicing knee passes the midline of your thigh. Recognize the window and commit fully within that timing—hesitation is worse than a slightly early attempt."
+      },
+      {
+        "error": "Fighting each phase of the pass independently rather than threatening offensive counters",
+        "consequence": "Purely defensive responses allow the passer to methodically progress through each phase without consequence, eventually overwhelming your defenses through systematic pressure",
+        "correction": "Threaten sweeps and back takes throughout the defensive exchange. An underhook sweep threat forces the passer to address your offense, disrupting their passing sequence and creating openings for guard recovery."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "You feel the top player's pressure increasing on your knee shield and their hand reaching behind your head for crossface—what is your immediate response?",
+        "answer": "Fight the crossface hand before it consolidates behind your head. Frame on their bicep or forearm to prevent the hand from reaching your head. Simultaneously increase your knee shield pressure into their shoulder to maintain distance. If you lose the crossface battle, immediately transition to your secondary defense—either diving for deep half or hip escaping to create angle. The crossface grip is the gateway to the entire passing sequence, so preventing it is your highest-priority defensive action."
+      },
+      {
+        "question": "What is the earliest recognition cue that a knee slice attempt is being initiated from Z-Guard?",
+        "answer": "The earliest cue is the passer's hip pressure shifting from steady maintenance pressure to active forward-and-downward drive aimed at collapsing your knee shield. This is followed by their hand moving to control your shield leg at the knee. These preparatory actions occur before the actual slice begins and represent the best window for defensive intervention—once you feel increasing collapse pressure combined with leg control, the knee slice attempt is being loaded."
+      },
+      {
+        "question": "The top player has collapsed your knee shield and their knee is halfway across your thigh—is it too late to defend?",
+        "answer": "It is not too late but your options have narrowed significantly. The deep half entry window is closing rapidly—if you can still get your head and shoulders underneath their hip line, commit to the deep half immediately with full commitment. If the deep half window has passed, your best option is to frame on their hip and begin recovering to turtle position, which preserves more options than being flattened into side control. Attempting to re-insert the knee shield at this point is almost certainly too late and wastes critical defensive energy."
+      },
+      {
+        "question": "What body position must you maintain to keep maximum defensive options available against the knee slice?",
+        "answer": "Maintain a 45-degree side angle facing the passer with your shoulders off the mat and your hips mobile. Your inside hip should be free to hip escape for angle creation and your outside leg should maintain active knee shield tension into their shoulder. The underhook on the trapped-leg side provides offensive threat and structural support. This angled position preserves access to all defensive transitions: shield re-insertion, deep half entry, hip escape recovery, and underhook-based sweeps."
+      },
+      {
+        "question": "Your knee shield has been neutralized and the pass is almost complete—what is your last-resort defensive option?",
+        "answer": "Your last resort is to frame hard on the passer's hip and shoulder with both arms while bridging and shrimping to create enough space to either re-establish any form of half guard entanglement with your legs or transition to turtle. Focus on preventing the crossface from sealing the pass to side control—if you can maintain head position and keep space between your chest and theirs, you can work to recover guard even from a nearly-passed position. Accept the inferior position temporarily rather than giving up entirely."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Recognition Training",
+        "focus": "Identifying knee slice setup cues from Z-Guard bottom",
+        "description": "Partner works through the knee slice setup at 25% speed. Defender practices identifying each phase: crossface attempt, shield collapse, leg pin, slice initiation. Call out each phase verbally as you recognize it. Build pattern recognition before adding defensive responses."
+      },
+      {
+        "phase": "Phase 2: Single Defense Isolation",
+        "focus": "Practicing individual defensive responses to specific phases",
+        "description": "Isolate each defensive option separately. Round 1: practice only shield re-insertion against progressive collapse pressure. Round 2: practice only deep half entry timing. Round 3: practice only frame-and-hip-escape recovery. Master each response individually before combining them."
+      },
+      {
+        "phase": "Phase 3: Defensive Decision Making",
+        "focus": "Choosing the correct defense based on passing phase and available options",
+        "description": "Partner passes at 50-75% speed with varied timing. Defender must read which phase the pass has reached and select the appropriate defense: early = shield re-insertion, mid = deep half entry, late = frame and recover. Develop automatic decision making under increasing pressure."
+      },
+      {
+        "phase": "Phase 4: Live Defensive Sparring",
+        "focus": "Full-speed defensive application against unrestricted knee slice passing",
+        "description": "Positional sparring starting from Z-Guard. Top player passes freely with full resistance. Bottom player practices the complete defensive system including offensive counters like underhook sweeps and back takes. Track defensive success rate over multiple rounds."
+      }
+    ]
+  }
+}

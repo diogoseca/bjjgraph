@@ -1,0 +1,401 @@
+{
+  "name": "Gift Wrap Control",
+  "description": "Master Gift Wrap Control in BJJ. Complete guide to arm trapping from Kuzure Kesa-Gatame with attacker execution steps and defender escape strategies.",
+  "tags": [
+    "bjj",
+    "transition",
+    "control",
+    "arm-trap",
+    "side-control",
+    "intermediate"
+  ],
+  "from_position": "Kuzure Kesa-Gatame/Top",
+  "outcomes": [
+    {
+      "to": "Gift Wrap/Top",
+      "probability": 65,
+      "result": "success"
+    },
+    {
+      "to": "Kuzure Kesa-Gatame/Top",
+      "probability": 25,
+      "result": "failure"
+    },
+    {
+      "to": "Half Guard/Bottom",
+      "probability": 10,
+      "result": "counter"
+    }
+  ],
+  "success_rate": 58,
+  "overview": "Gift Wrap Control is a powerful arm-trapping technique that transforms the already dominant Kuzure Kesa-Gatame position into an even more controlling configuration. By wrapping the opponent's far arm across their own throat and securing it with your grip, you eliminate their primary defensive tool while creating multiple submission and transition opportunities. This technique represents a critical evolution in pinning control, moving beyond simple pressure maintenance to active limb immobilization.\n\nThe strategic value of the Gift Wrap lies in its dual function as both a control enhancement and a submission platform. Once established, the wrapped arm prevents effective framing, eliminates bridge power (since the opponent cannot post), and creates immediate access to chokes, back takes, and mounted attacks. The position exemplifies the principle of using the opponent's own body against them—their trapped arm becomes a lever that restricts their movement and breathing while exposing their neck and back.\n\nIn competition and training contexts, the Gift Wrap serves as a transitional hub position. From here, you can advance to mount with virtually no resistance, take the back by rolling the opponent toward their trapped arm, or finish with collar chokes and arm attacks. Understanding when and how to establish this control—particularly reading the opponent's defensive arm positioning—separates intermediate practitioners from advanced ones who can systematically shut down escape attempts.",
+  "related_content": [
+    {
+      "name": "Kuzure Kesa-Gatame",
+      "relationship": "Starting position—Gift Wrap is established from this modified scarf hold"
+    },
+    {
+      "name": "Gift Wrap",
+      "relationship": "Target position—the control configuration achieved by this transition"
+    },
+    {
+      "name": "Mount",
+      "relationship": "Common follow-up—Gift Wrap facilitates low-resistance mount transition"
+    },
+    {
+      "name": "Back Take from Top",
+      "relationship": "Chain attack—opponent turning away from Gift Wrap exposes back"
+    },
+    {
+      "name": "Side Control to Mount",
+      "relationship": "Alternative transition—used when Gift Wrap is not available"
+    },
+    {
+      "name": "Arm Triangle",
+      "relationship": "Submission option—wrapped arm position can set up arm triangle"
+    },
+    {
+      "name": "Kimura from Side Control",
+      "relationship": "Alternative attack—used when arm extends during wrap attempt"
+    },
+    {
+      "name": "Americana from Side Control",
+      "relationship": "Alternative attack—available when opponent posts defensively"
+    },
+    {
+      "name": "Cross Collar Choke",
+      "relationship": "Submission from Gift Wrap—wrapped arm assists collar control"
+    }
+  ],
+  "attacker": {
+    "name": "Gift Wrap Control Attacker",
+    "description": "How to execute Gift Wrap Control in BJJ. Attacking perspective with setup, execution steps, and counters from Kuzure Kesa-Gatame.",
+    "overview": "Gift Wrap Control is a powerful arm-trapping technique that transforms the already dominant Kuzure Kesa-Gatame position into an even more controlling configuration. By wrapping the opponent's far arm across their own throat and securing it with your grip, you eliminate their primary defensive tool while creating multiple submission and transition opportunities. This technique represents a critical evolution in pinning control, moving beyond simple pressure maintenance to active limb immobilization.\n\nThe strategic value of the Gift Wrap lies in its dual function as both a control enhancement and a submission platform. Once established, the wrapped arm prevents effective framing, eliminates bridge power (since the opponent cannot post), and creates immediate access to chokes, back takes, and mounted attacks. The position exemplifies the principle of using the opponent's own body against them—their trapped arm becomes a lever that restricts their movement and breathing while exposing their neck and back.\n\nIn competition and training contexts, the Gift Wrap serves as a transitional hub position. From here, you can advance to mount with virtually no resistance, take the back by rolling the opponent toward their trapped arm, or finish with collar chokes and arm attacks. Understanding when and how to establish this control—particularly reading the opponent's defensive arm positioning—separates intermediate practitioners from advanced ones who can systematically shut down escape attempts.",
+    "key_principles": [
+      "Control the wrist before attempting to wrap—premature wrapping allows arm recovery",
+      "Use your chest pressure to pin opponent's elbow while threading their arm across",
+      "The wrapped arm must cross opponent's throat line to maximize control effectiveness",
+      "Maintain hip pressure throughout the wrapping sequence—never sacrifice base for grip",
+      "Secure the wrap by grabbing your own bicep or the opponent's far shoulder",
+      "Head position past opponent's far shoulder prevents them turning into the wrap",
+      "The wrap should feel tight immediately—if loose, opponent can thread arm free"
+    ],
+    "setup_requirements": [
+      "Kuzure Kesa-Gatame established with consistent hip pressure into opponent's ribs",
+      "Opponent's near arm is already trapped or controlled across your body",
+      "Opponent's far arm is within reach and not actively framing your hip",
+      "Your chest is low and heavy, preventing opponent from creating upper body space",
+      "Base leg posted wide for stability during the grip transition",
+      "Opponent is relatively flat on their back or side, not actively bridging"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Control far wrist",
+        "description": "While maintaining hip pressure, reach across with your near-side hand to grip opponent's far wrist. This initial control prevents them from framing against your hip or posting to bridge."
+      },
+      {
+        "step_number": 2,
+        "action": "Pin elbow with chest",
+        "description": "Shift your chest weight onto opponent's far-side elbow, pinning it to the mat. This creates the mechanical leverage needed to thread their arm across their body without resistance."
+      },
+      {
+        "step_number": 3,
+        "action": "Thread arm across throat",
+        "description": "Pull opponent's wrist toward their far shoulder while your chest pins their elbow. Their forearm should cross directly over their throat, with their elbow pointing toward their trapped-arm side."
+      },
+      {
+        "step_number": 4,
+        "action": "Secure the wrap",
+        "description": "Release the wrist grip and reach under opponent's wrapped arm to grab your own bicep (or their far shoulder for deeper control). Your arm threads under their tricep, locking their arm in place."
+      },
+      {
+        "step_number": 5,
+        "action": "Consolidate head position",
+        "description": "Drive your head past opponent's far shoulder, placing your ear against the mat on their far side. This prevents them from turning into you and adds pressure to the wrapped arm configuration."
+      },
+      {
+        "step_number": 6,
+        "action": "Tighten and settle",
+        "description": "Squeeze your elbows together to compress the wrap while resettling your hip pressure. The opponent should feel significant pressure across their throat from their own arm, plus restricted breathing from your hip."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Opponent straightens arm before wrap completes, preventing the fold",
+        "effectiveness": "High",
+        "your_response": "Abandon the wrap attempt and transition to armbar or americana on the extended arm—their defense creates a different submission opportunity",
+        "targets_outcome": "Kuzure Kesa-Gatame/Top"
+      },
+      {
+        "counter": "Opponent frames against your hip with far arm before you can secure wrist",
+        "effectiveness": "High",
+        "your_response": "Maintain Kuzure Kesa-Gatame pressure and wait for them to reach toward you or attempt escape before re-attempting the wrap",
+        "targets_outcome": "Kuzure Kesa-Gatame/Top"
+      },
+      {
+        "counter": "Opponent explosively bridges as you release wrist to secure wrap",
+        "effectiveness": "Medium",
+        "your_response": "Keep head position past their shoulder and widen base leg—their bridge without arm posting has minimal power and you can resettle",
+        "targets_outcome": "Half Guard/Bottom"
+      },
+      {
+        "counter": "Opponent turns aggressively into you during wrap transition",
+        "effectiveness": "Medium",
+        "your_response": "Their turn toward you opens mount transition—use their momentum to slide your knee across their belly while maintaining arm control",
+        "targets_outcome": "Kuzure Kesa-Gatame/Top"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Releasing hip pressure to focus on arm manipulation",
+        "consequence": "Opponent creates space and escapes or recovers guard before wrap is completed",
+        "correction": "Maintain constant hip pressure throughout—use chest and arm movements to wrap while hips stay heavy"
+      },
+      {
+        "error": "Attempting wrap when opponent's arm is fully extended",
+        "consequence": "Cannot fold the arm across their body, wasting energy and losing positional advantage",
+        "correction": "Wait for bent arm or use elbow pin to create the fold—extended arm indicates armbar opportunity instead"
+      },
+      {
+        "error": "Wrapping arm across opponent's chest instead of throat",
+        "consequence": "Significantly reduced control effectiveness—opponent can still breathe and create frames",
+        "correction": "Ensure wrapped forearm crosses directly over throat line, applying pressure to trachea area"
+      },
+      {
+        "error": "Head positioned above opponent rather than past their far shoulder",
+        "consequence": "Opponent can turn into you and potentially reverse or escape the wrap",
+        "correction": "Drive head past far shoulder with ear on mat—this redirects any turning force"
+      },
+      {
+        "error": "Loose wrap grip that allows opponent's arm to slide free",
+        "consequence": "Opponent recovers arm and frames, returning to standard escape position",
+        "correction": "Squeeze elbows together tightly when securing wrap—grip should feel locked immediately"
+      },
+      {
+        "error": "Transitioning to wrap against actively bridging opponent",
+        "consequence": "Bridge momentum combined with grip transition creates reversal opportunity",
+        "correction": "Settle opponent's bridge first by widening base and resettling pressure before attempting wrap"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Week 1-2",
+        "focus": "Grip mechanics",
+        "description": "Practice the wrist control to wrap sequence with compliant partner. Focus on threading the arm smoothly across the throat and securing your grip on your own bicep. No escape attempts—pure repetition of movement pattern."
+      },
+      {
+        "phase": "Week 3-4",
+        "focus": "Pressure maintenance",
+        "description": "Add light resistance where partner attempts to straighten arm or frame. Focus on maintaining hip pressure throughout wrap attempt. If pressure is lost, reset and restart rather than forcing completion."
+      },
+      {
+        "phase": "Week 5-6",
+        "focus": "Timing and recognition",
+        "description": "Partner defends at 50% with realistic arm positioning. Practice recognizing when wrap is available versus when armbar or americana is better option. Chain between control attempts based on partner's defense."
+      },
+      {
+        "phase": "Week 7+",
+        "focus": "Competition application",
+        "description": "Full positional sparring starting from Kuzure Kesa-Gatame. Partner escapes with full resistance while you work to establish Gift Wrap. Track success rate and adjust technique based on common failure points."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the primary goal of Gift Wrap Control?",
+        "answer": "The primary goal is to immobilize the opponent's far arm by wrapping it across their own throat, eliminating their ability to frame, post, or bridge effectively. This creates a control platform for advancing to mount, taking the back, or finishing with chokes and arm attacks."
+      },
+      {
+        "question": "What grip do you secure after threading the opponent's arm across their throat?",
+        "answer": "After threading their arm, you reach under their tricep and grab your own bicep (creating a figure-four lock) or grip their far shoulder for deeper control. This secures the wrapped arm and prevents them from straightening or recovering it."
+      },
+      {
+        "question": "Your opponent posts their far hand on your hip as you attempt the wrap—what adjustment do you make?",
+        "answer": "When they post on your hip, the wrap is not available. Maintain Kuzure Kesa-Gatame pressure and wait. Their posting arm will eventually tire or they will reach toward you to attempt an escape. That reaching motion creates the wrap opportunity. Alternatively, attack the posted arm with americana or kimura pressure."
+      },
+      {
+        "question": "Why must the wrapped arm cross the opponent's throat rather than their chest?",
+        "answer": "Crossing the throat maximizes control by restricting breathing and creating discomfort that limits defensive movement. Chest placement allows relatively free breathing and space to work frames. The throat position also sets up collar chokes and adds psychological pressure that makes opponents more likely to give up position."
+      },
+      {
+        "question": "What is the critical hip movement during the wrapping sequence?",
+        "answer": "There should be minimal hip movement—the hips stay heavy and pressed into opponent's ribs throughout. The common error is lifting hips to reach for the arm. Instead, use chest pressure on their elbow and arm mechanics to thread the wrap while hips maintain constant downward pressure."
+      },
+      {
+        "question": "Your opponent straightens their far arm explosively as you begin the wrap—how do you respond?",
+        "answer": "Convert immediately to armbar or americana. Their defensive straightening exposes the arm for submission. Do not chase the wrap against an extended arm—the straightening is actually a mistake that creates a better opportunity. Secure the extended wrist and transition to the submission appropriate for their arm angle."
+      },
+      {
+        "question": "What head position prevents the opponent from turning into you during and after the wrap?",
+        "answer": "Your head must be past their far shoulder with your ear on the mat on their far side. This position redirects any turning force across your body harmlessly. Head positioned above them or on their near side creates a pivot point they can use to roll you over."
+      },
+      {
+        "question": "How do you chain from Gift Wrap to back take when the opponent turns away?",
+        "answer": "As they turn away from you (exposing their back), maintain the wrap grip and follow their rotation. Your wrap arm becomes the seatbelt grip as you insert hooks. Their own turning motion combined with their trapped arm pulling across their body facilitates the back take—they essentially roll themselves into your back control."
+      },
+      {
+        "question": "What creates the mechanical leverage to fold a resistant opponent's arm across their body?",
+        "answer": "Pin their elbow to the mat using your chest weight before pulling on their wrist. This creates a lever where the pinned elbow is the fulcrum. Without elbow control, you're trying to muscle their entire arm—with elbow pinned, you only need to move their forearm, which requires far less force."
+      },
+      {
+        "question": "When transitioning from Gift Wrap to mount, what maintains arm control during the transition?",
+        "answer": "Keep the wrap grip secured on your bicep throughout the mount transition. Slide your knee across their belly while squeezing your elbows together to maintain arm immobilization. Only adjust your grip after mount is fully established and you've resettled your weight."
+      }
+    ],
+    "safety_considerations": "Gift Wrap Control applies pressure across the opponent's throat through their own arm, creating potential breathing restriction and neck strain. Always allow training partners to tap immediately when discomfort occurs. The shoulder of the wrapped arm experiences rotational stress—release pressure if partner indicates shoulder pain. In training, establish the wrap with controlled pressure rather than explosive force to avoid inadvertent throat compression. Partners with neck injuries or cervical spine issues should communicate before drilling this position. When transitioning from Gift Wrap to submissions, maintain awareness that the wrap itself may cause tap-worthy discomfort before the actual submission is locked."
+  },
+  "defender": {
+    "name": "Gift Wrap Control Defender",
+    "description": "How to defend against Gift Wrap Control in BJJ. Recognition cues, defensive options, and escape strategies from Kuzure Kesa-Gatame arm wrap.",
+    "overview": "Defending against Gift Wrap Control requires understanding that the technique has a narrow execution window and becomes exponentially harder to escape once fully locked. The defender's primary objective is early recognition and prevention—stopping the wrap before the arm crosses the throat. Once the wrap is secured, the defender faces restricted breathing, eliminated framing ability, and vulnerability to mount transitions, back takes, and chokes. The position is particularly dangerous because the defender's own arm becomes the instrument of control against them.\n\nThe biomechanical challenge of Gift Wrap defense centers on the fact that the attacker uses chest weight on the elbow as a fulcrum, making it nearly impossible to simply muscle the arm free once the wrap is locked. Successful defense therefore depends on timing: either preventing wrist control before the wrap begins, straightening the arm to deny the fold, or creating enough hip movement during the brief grip transition to disrupt the attacker's base. Each defensive window is narrow and requires precise execution under pressure.\n\nFrom a systematic perspective, Gift Wrap defense integrates into the broader Kuzure Kesa-Gatame escape framework. The defender must balance between preventing the wrap (which requires arm management) and working standard bottom escapes (which require hip movement and framing). Over-focusing on either creates openings for the other. Advanced defenders learn to use their wrap prevention efforts as setup for hip escapes—when the attacker reaches for the far wrist, their weight shifts slightly, creating a momentary window for bridging or shrimping that can restore guard position.",
+    "key_principles": [
+      "Early recognition is paramount—once the wrap crosses the throat, escape difficulty increases tenfold",
+      "Keep the far arm bent and elbow tight to your body to deny the wrist control needed to initiate the wrap",
+      "Use hip movement to disrupt the attacker's base during their grip transition rather than fighting the wrap directly with arm strength",
+      "If the wrap begins, straighten the arm explosively before it crosses the throat—this denies the fold and may expose the attacker to losing position",
+      "Frame against the attacker's hip with the far hand as a preemptive measure to create distance and deny wrist access",
+      "Bridge timing matters more than bridge power—time explosive movement to the moment the attacker releases wrist control to secure the wrap grip"
+    ],
+    "recognition_cues": [
+      "Attacker's near-side hand reaches across your body toward your far wrist or forearm while maintaining Kuzure Kesa-Gatame pressure",
+      "Attacker shifts chest weight onto your far-side elbow, pinning it to the mat—this is the setup for threading your arm across your throat",
+      "Attacker's head begins driving past your far shoulder toward the mat, indicating they are committing to the wrap position and consolidating control",
+      "You feel your far wrist being pulled toward your opposite shoulder while your elbow is pinned—the arm is being threaded across your throat"
+    ],
+    "defensive_options": [
+      {
+        "action": "Post far hand on attacker's hip to create a frame that prevents wrist access",
+        "when_to_use": "Before attacker secures wrist control—this is the earliest and most effective prevention point",
+        "targets_outcome": "Kuzure Kesa-Gatame/Top",
+        "if_successful": "Attacker cannot initiate the wrap and must return to standard Kuzure Kesa-Gatame attacks, giving you time to work hip escapes",
+        "risk": "Extended arm may be vulnerable to americana or kimura if attacker switches attacks"
+      },
+      {
+        "action": "Explosively straighten the far arm before it crosses the throat line",
+        "when_to_use": "When attacker has wrist control and begins threading your arm across your body—you must act before the arm crosses the throat",
+        "targets_outcome": "Kuzure Kesa-Gatame/Top",
+        "if_successful": "Denies the fold needed to complete the wrap, forces attacker to either abandon wrap or switch to armbar/americana on the extended arm",
+        "risk": "Extended arm is exposed to armbar finish if attacker reads the straightening and transitions immediately"
+      },
+      {
+        "action": "Explosive bridge timed to the moment attacker releases wrist to secure wrap grip",
+        "when_to_use": "During the grip transition when attacker switches from wrist control to figure-four lock—this is the weakest moment in their control chain",
+        "targets_outcome": "Half Guard/Bottom",
+        "if_successful": "Bridge disrupts attacker's base during their most vulnerable moment, creating space to recover guard or escape to turtle",
+        "risk": "If mistimed, attacker re-secures control and you have spent energy without gaining position"
+      },
+      {
+        "action": "Turn aggressively into the attacker during wrap attempt to deny head positioning",
+        "when_to_use": "When attacker commits to driving head past your far shoulder—turning into them prevents the head from reaching past your shoulder",
+        "targets_outcome": "Half Guard/Bottom",
+        "if_successful": "Disrupts the wrap consolidation and may create scramble opportunity to recover half guard or closed guard",
+        "risk": "Turning into attacker without sufficient arm defense may accelerate the mount transition"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Kuzure Kesa-Gatame/Top",
+        "how": "Prevent the wrap entirely by maintaining a stiff arm frame on the attacker's hip with your far hand. This denies wrist access and forces the attacker to abandon the wrap attempt, returning to standard Kuzure Kesa-Gatame where you retain both arms for defense. Combine the frame with small hip escapes to begin working toward standard bottom escapes."
+      },
+      {
+        "outcome": "Half Guard/Bottom",
+        "how": "Time an explosive bridge to the precise moment the attacker transitions from wrist control to the wrap grip. This brief window where both hands are occupied creates maximum base vulnerability. Bridge perpendicular to their posting leg and immediately shrimp your hips away to insert a knee shield, recovering to half guard where you have full use of both arms."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Leaving the far arm extended and relaxed at your side while in Kuzure Kesa-Gatame bottom",
+        "consequence": "Gives the attacker free access to your far wrist, allowing them to initiate the wrap with zero resistance",
+        "correction": "Keep the far arm bent with elbow tight to your ribs and hand near your chin, or actively frame against the attacker's hip to deny wrist access"
+      },
+      {
+        "error": "Attempting to pull the wrapped arm free by muscling against the figure-four grip after the wrap is locked",
+        "consequence": "Wastes energy fighting against a mechanically superior grip while the attacker maintains position and prepares follow-up attacks",
+        "correction": "Once the wrap is locked, focus on hip movement and bridging to disrupt the attacker's base rather than fighting the arm control directly—escape the position, not the grip"
+      },
+      {
+        "error": "Panicking and bridging randomly when feeling the arm being threaded across the throat",
+        "consequence": "Untimed bridges are easily absorbed by the attacker and drain energy without creating meaningful positional change",
+        "correction": "Time your bridge to the specific moment the attacker releases wrist control to secure the figure-four lock—this is the one moment their control chain has a gap"
+      },
+      {
+        "error": "Focusing entirely on arm defense while neglecting hip escapes and guard recovery",
+        "consequence": "Even if you prevent the wrap, you remain stuck in Kuzure Kesa-Gatame bottom where the attacker can simply re-attempt or switch to other attacks",
+        "correction": "Integrate wrap prevention with hip escape attempts—use the attacker's reaching motion as a trigger to shrimp, combining arm defense with positional improvement"
+      },
+      {
+        "error": "Turning away from the attacker when the wrap begins to lock",
+        "consequence": "Turning away exposes your back and accelerates the back take transition that Gift Wrap sets up",
+        "correction": "If you must turn, turn into the attacker to deny their head positioning past your shoulder—never turn away unless you have a clear turtle escape plan"
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the earliest point at which you can prevent the Gift Wrap from being established?",
+        "answer": "The earliest prevention point is before the attacker secures wrist control on your far arm. By posting your far hand on the attacker's hip or keeping your elbow bent tight to your ribs, you deny access to the wrist they need to initiate the threading sequence. Once they grip your wrist, the defense becomes significantly more difficult."
+      },
+      {
+        "question": "Your arm is being threaded across your throat but has not yet crossed the centerline—what is your best response?",
+        "answer": "Explosively straighten the arm before it crosses your throat. The fold requires a bent elbow—a straight arm cannot be wrapped across the throat. This straightening carries risk of armbar exposure, but it denies the wrap. Simultaneously bridge to create space and disrupt the attacker's elbow pin that creates the folding leverage."
+      },
+      {
+        "question": "Why is the grip transition moment the most vulnerable point in the attacker's Gift Wrap sequence?",
+        "answer": "During the grip transition, the attacker must release their wrist grip and reach under your tricep to secure the figure-four or bicep grip. For a brief moment, both of their hands are occupied with grip change rather than control—their base is temporarily compromised because they cannot post or adjust. This is the optimal window for an explosive bridge."
+      },
+      {
+        "question": "The wrap is fully locked with the attacker's head past your far shoulder—what is your escape priority?",
+        "answer": "Once fully locked, stop fighting the arm grip and focus entirely on hip movement and base disruption. Bridge toward the attacker's posting leg to attack their base structure. Use any space created to shrimp and insert a knee between your bodies. The goal shifts from preventing the wrap to escaping the position entirely—recovering half guard or turtle."
+      },
+      {
+        "question": "How does your far arm position in Kuzure Kesa-Gatame bottom determine your vulnerability to the Gift Wrap?",
+        "answer": "If your far arm is relaxed at your side or extended toward the mat, the attacker has free access to your wrist for the wrap initiation. If your far arm frames on the attacker's hip, it blocks their reaching path. If your elbow is bent tight with hand near your chin, they cannot easily grip and thread. Arm positioning is the single biggest factor in Gift Wrap vulnerability."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Week 1-2",
+        "focus": "Recognition and prevention",
+        "description": "Partner initiates Gift Wrap at slow speed from Kuzure Kesa-Gatame. Practice identifying the wrist reach and elbow pin early. Focus on preemptive hip framing and keeping the far arm in defensive position. No escape attempts yet—develop awareness of the attack sequence."
+      },
+      {
+        "phase": "Week 3-4",
+        "focus": "Timing defensive responses",
+        "description": "Partner attempts Gift Wrap at moderate speed. Practice the three defensive windows: hip frame before wrist control, arm straightening before the fold, and explosive bridge during grip transition. Partner provides feedback on timing accuracy."
+      },
+      {
+        "phase": "Week 5-6",
+        "focus": "Escape from locked wrap",
+        "description": "Partner establishes full Gift Wrap control. Practice escaping the locked position through bridging, hip movement, and guard recovery. Accept that arm recovery is secondary—focus on disrupting base and creating space for half guard recovery at increasing resistance levels."
+      },
+      {
+        "phase": "Week 7+",
+        "focus": "Integration with positional sparring",
+        "description": "Full resistance positional sparring starting from Kuzure Kesa-Gatame bottom. Partner can attempt Gift Wrap or any other attack. Practice blending wrap prevention with standard escapes under competition conditions. Track which defensive window you use most successfully."
+      }
+    ]
+  },
+  "variants_and_adaptations": [
+    {
+      "variant_name": "No-Gi Gift Wrap",
+      "description": "Without gi grips, secure the wrap by cupping opponent's far shoulder or grabbing their neck/head. Increased difficulty maintaining control due to sweat, requiring tighter body positioning and faster transitions to submissions.",
+      "when_to_use": "All no-gi grappling situations where standard grip on bicep may slip"
+    },
+    {
+      "variant_name": "Gift Wrap from Mount",
+      "description": "Establish wrap from mount position by trapping opponent's defensive arm as they frame against your chest. Same wrapping mechanics but with gravity assistance and immediate access to mounted chokes.",
+      "when_to_use": "When opponent frames with bent arm from mount bottom—convert their defense into Gift Wrap control"
+    },
+    {
+      "variant_name": "Deep Gift Wrap (Shoulder Lock Variation)",
+      "description": "Thread arm deeper so opponent's wrist reaches past their far shoulder. This creates shoulder lock pressure in addition to control, potentially finishing without further transition.",
+      "when_to_use": "Against flexible opponents who tolerate standard wrap pressure without tapping"
+    }
+  ],
+  "conditions": [
+    "Kuzure Kesa-Gatame must be established with stable hip pressure",
+    "Opponent's far arm must be accessible and not actively framing the attacker's hip",
+    "Attacker must have sufficient base stability to maintain position during grip transitions",
+    "Opponent should be relatively flat or turned slightly away, not explosively bridging"
+  ],
+  "position_integration": "Gift Wrap Control functions as a transitional hub within the side control and mount attacking systems. From Kuzure Kesa-Gatame, it represents an evolution of control when the opponent's far arm becomes available. The position chains directly to mount (sliding knee across with arm still wrapped), back control (following opponent's turn away), and various chokes (collar chokes with wrapped arm assisting, arm triangle setups). Gift Wrap also serves as a recovery point—if a submission attempt fails from mount or back control, the wrap can often be re-established during the scramble. Understanding Gift Wrap as a control position rather than solely a submission setup allows practitioners to use it strategically throughout exchanges, creating rest points under dominant control while evaluating the best attacking option."
+}

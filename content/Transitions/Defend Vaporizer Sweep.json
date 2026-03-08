@@ -1,0 +1,373 @@
+{
+  "name": "Defend Vaporizer Sweep",
+  "description": "Master Vaporizer sweep defense in BJJ. Learn to counter lockdown whip-up sweeps, maintain top position, and escape to half guard with proven defensive techniques.",
+  "tags": [
+    "bjj",
+    "defense",
+    "vaporizer",
+    "sweep-defense",
+    "half-guard",
+    "10th-planet",
+    "lockdown-counter",
+    "top-position"
+  ],
+  "from_position": "Vaporizer/Top",
+  "outcomes": [
+    {
+      "to": "Half Guard/Top",
+      "probability": 50,
+      "result": "success"
+    },
+    {
+      "to": "Vaporizer/Top",
+      "probability": 30,
+      "result": "failure"
+    },
+    {
+      "to": "Half Guard/Bottom",
+      "probability": 20,
+      "result": "counter"
+    }
+  ],
+  "success_rate": 50,
+  "overview": "Defending the Vaporizer sweep is a critical survival skill for practitioners caught in the 10th Planet lockdown system. When the bottom player establishes the Vaporizer position with a deep lockdown and aggressive whip-up motion, the top player faces immediate sweep threats including the Old School sweep, rolling back takes, and transitions to the Electric Chair or Truck. This defensive transition focuses on neutralizing sweep mechanics while systematically working to extract from the lockdown and return to a standard half guard passing position.\n\nThe defense operates on the principle of base management and pressure redistribution. Rather than fighting the lockdown directly with explosive force, the top player must widen their base, lower their center of gravity, and apply strategic shoulder pressure to counter the whip-up motion that generates sweep momentum. The key technical challenge lies in simultaneously addressing both the lower body entanglement and the upper body control that the bottom player uses as complementary attack vectors.\n\nSuccessful execution requires reading the bottom player's specific sweep attempt and applying the appropriate counter at the right moment. Against the Old School sweep, the defender must prevent the posted foot from generating leverage. Against rolling attacks toward the Truck, the defender must control hip rotation. This situational awareness, combined with methodical lockdown clearing technique, transforms a desperate defensive scramble into a systematic positional recovery that feeds directly into standard half guard passing sequences.",
+  "conditions": [
+    "Top player is trapped in Vaporizer position with one leg caught in the bottom player's lockdown figure-four configuration",
+    "Bottom player is actively threatening or executing a sweep attempt through whip-up motion, foot posting, or rolling mechanics",
+    "Top player retains sufficient base and posting ability to initiate defensive response before sweep completion"
+  ],
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Base Widening Defense",
+      "description": "Primary defensive response focused on sprawling the free leg wide and lowering the center of gravity to create maximum resistance against lateral rolling forces. Emphasizes stability and pressure over active escape.",
+      "when_to_use": "When the bottom player has strong whip-up pressure and is threatening the Old School sweep with a posted foot and active underhook driving lateral rotation"
+    },
+    {
+      "variant_name": "Pressure Through Defense",
+      "description": "Aggressive defensive response that drives heavy shoulder pressure into the bottom player's chest to pin them flat and deny the hip mobility needed for effective whip-up motion. Trades mobility for crushing top pressure.",
+      "when_to_use": "When the bottom player's lockdown is moderate and their primary threat comes from upper body leverage rather than leg entanglement power"
+    },
+    {
+      "variant_name": "Active Lockdown Clearing Defense",
+      "description": "Combines sweep defense with immediate lockdown extraction using controlled leg circulation, knee pointing, and gradual heel retraction. Prioritizes escaping the entire Vaporizer position rather than simply surviving the sweep.",
+      "when_to_use": "When the bottom player's sweep attempt has been initially neutralized and there is a window to work on extracting the trapped leg before they can re-establish offensive pressure"
+    }
+  ],
+  "position_integration": "The Defend Vaporizer Sweep transition is essential for any practitioner regularly facing 10th Planet-style half guard players. It connects directly to the broader half guard top passing system, as successful defense feeds into standard passing sequences including the knee slice, smash pass, and pressure passing options. This technique also integrates with the counter-offensive framework from half guard top, where defending a sweep creates opportunities for submissions like the Kimura or Darce Choke when the bottom player overcommits to sweep mechanics. Understanding this defense completes the top player's defensive toolkit against lockdown-based half guard systems and prevents a common positional collapse that leads to being swept or submitted.",
+  "related_content": [
+    {
+      "name": "Vaporizer",
+      "relationship": "Source position where this defensive transition is executed from top"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Primary target position after successful sweep defense and lockdown extraction"
+    },
+    {
+      "name": "Lockdown",
+      "relationship": "Control mechanism that must be neutralized during the defensive sequence"
+    },
+    {
+      "name": "Electric Chair",
+      "relationship": "Submission threat the bottom player may transition to when sweep defense creates openings"
+    },
+    {
+      "name": "Old School",
+      "relationship": "Primary sweep position the bottom player attacks from within the Vaporizer"
+    },
+    {
+      "name": "Combat Base",
+      "relationship": "Intermediate stability position used during defensive recovery and passing transitions"
+    },
+    {
+      "name": "Side Control",
+      "relationship": "Advanced target position if defense leads to successful half guard pass completion"
+    },
+    {
+      "name": "Old School Sweep",
+      "relationship": "Primary sweep technique being defended against from the Vaporizer bottom"
+    }
+  ],
+  "attacker": {
+    "name": "Defend Vaporizer Sweep Attacker",
+    "description": "Learn to defend Vaporizer sweeps from top position. Step-by-step guide to base management, lockdown clearing, and systematic escape to half guard top against 10th Planet attacks.",
+    "overview": "The Defend Vaporizer Sweep attacker is the top player caught in the Vaporizer position who must neutralize the bottom player's sweep attempts while systematically clearing the lockdown entanglement. This requires coordinated defensive responses across multiple threat vectors including the Old School sweep, rolling back takes, and Electric Chair transitions. The attacker must manage their base width, shoulder pressure placement, and hip positioning simultaneously to deny the bottom player the momentum and leverage needed for sweep completion. Success depends on recognizing which specific sweep is being attempted, applying the precise countermeasure at the optimal timing window, and then transitioning into lockdown clearing mechanics that lead to half guard top extraction. The defensive mindset must be active rather than passive, using controlled adjustments and constant pressure rather than explosive reactions that create the space the bottom player needs for their attacks.",
+    "key_principles": [
+      "Widen base immediately upon detecting whip-up motion by sprawling the free leg laterally to create a stable platform resistant to rolling forces",
+      "Apply heavy chest-to-chest shoulder pressure into the bottom player to limit their hip mobility and reduce whip-up effectiveness",
+      "Address the lockdown through controlled leg circulation and knee positioning rather than explosive extraction that tightens the entanglement",
+      "Counter the underhook with a whizzer or crossface to neutralize the upper body leverage essential for sweep completion",
+      "Distribute weight to simultaneously defend against both the Old School sweep direction and the rolling back take direction",
+      "Maintain patient grinding defensive pressure rather than explosive movements that waste energy and create space for the bottom player's attacks"
+    ],
+    "setup_requirements": [
+      "Top player is trapped in Vaporizer position with one leg caught in the bottom player's lockdown figure-four configuration",
+      "Bottom player has initiated or is actively threatening a sweep through whip-up motion, foot posting, or rolling mechanics",
+      "Top player retains sufficient base and posting ability to initiate a defensive response before the sweep is completed",
+      "Top player can identify the direction and type of sweep being attempted to select the appropriate counter technique",
+      "Upper body positioning allows for shoulder pressure application or whizzer establishment against the bottom player's underhook"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Recognize sweep direction and type",
+        "description": "Identify whether the bottom player is attempting an Old School sweep using a lateral roll with posted foot and underhook, a rolling back take rotating toward Truck position, or an Electric Chair entry splitting your legs while driving upward. The specific defense depends entirely on reading the correct threat in time to apply the appropriate counter."
+      },
+      {
+        "step_number": 2,
+        "action": "Widen base and lower center of gravity",
+        "description": "Immediately sprawl your free leg out to the side opposite the sweep direction, posting your foot wide on the mat. Lower your hips toward the mat to drop your center of gravity, making it significantly harder for the bottom player to generate the rotational momentum needed to complete the sweep attempt."
+      },
+      {
+        "step_number": 3,
+        "action": "Drive shoulder pressure into opponent's chest",
+        "description": "Commit heavy shoulder pressure into the bottom player's upper chest and shoulder area, pinning them flat and limiting their ability to generate the hip drive necessary for the whip-up motion. This pressure also prevents them from turning to their side, which is essential for most sweep completions from the Vaporizer."
+      },
+      {
+        "step_number": 4,
+        "action": "Neutralize upper body control with whizzer or crossface",
+        "description": "Counter the bottom player's underhook by establishing a deep whizzer on their underhook arm or driving a crossface to control their head position. Without their underhook functioning as a lever, the sweep loses its primary upper body driving mechanism and becomes significantly less threatening overall."
+      },
+      {
+        "step_number": 5,
+        "action": "Begin controlled lockdown clearing sequence",
+        "description": "Point your trapped knee toward the mat to narrow the profile of your leg within the lockdown. Use controlled leg circulation movements, rotating your foot in small circles while shifting your weight side to side. Work your heel progressively toward your buttock, creating the angle needed to slip your foot free from the figure-four configuration."
+      },
+      {
+        "step_number": 6,
+        "action": "Extract trapped leg while maintaining pressure",
+        "description": "As the lockdown loosens from your circulation work, pull your knee through the gap while keeping constant shoulder pressure on the bottom player. Do not lift your weight to extract the leg as this creates space for re-establishment. Slide the leg free using the angle you created rather than pulling directly backward."
+      },
+      {
+        "step_number": 7,
+        "action": "Establish standard half guard top position",
+        "description": "Once your leg clears the lockdown, immediately transition to standard half guard top with proper crossface and weight distribution. Maintain heavy pressure through the transition to prevent the bottom player from recovering the lockdown or transitioning to a different guard variation. Consolidate position before initiating any passing sequence."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Bottom player transitions to Electric Chair by releasing lockdown and controlling far leg when top player widens base",
+        "effectiveness": "High",
+        "your_response": "Keep far knee tucked tight and legs together when widening base. If they begin splitting your legs, immediately squeeze knees together and drive hips forward to prevent the separation needed for Electric Chair entry",
+        "targets_outcome": "Half Guard/Bottom"
+      },
+      {
+        "counter": "Bottom player switches to rolling back take toward Truck position when top player commits shoulder pressure forward",
+        "effectiveness": "Medium",
+        "your_response": "Turn hips toward the bottom player rather than away when you feel rotational force. Establish a whizzer and drive weight into their chest to prevent the roll from gaining momentum. If they begin to secure the far leg hook, immediately address the back take threat",
+        "targets_outcome": "Half Guard/Bottom"
+      },
+      {
+        "counter": "Bottom player tightens lockdown and increases whip-up pressure from a different angle after initial defense",
+        "effectiveness": "Medium",
+        "your_response": "Maintain widened base and continue systematic lockdown clearing. The re-established whip-up is less effective once center of gravity is lowered. Continue patient leg circulation and avoid reverting to a narrow base that enables renewed sweep attempts",
+        "targets_outcome": "Vaporizer/Top"
+      },
+      {
+        "counter": "Bottom player releases underhook to reach for far leg, threatening sweep by attacking base directly",
+        "effectiveness": "Low",
+        "your_response": "When they release the underhook, immediately drive crossface pressure and accelerate lockdown clearing. Their base attack without the underhook has significantly less power, and the loss of upper body control weakens their overall position",
+        "targets_outcome": "Vaporizer/Top"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Attempting to pull the trapped leg free with explosive force rather than controlled circulation",
+        "consequence": "Creates space and energy expenditure that the bottom player exploits to tighten the lockdown, complete the sweep, or advance to Electric Chair",
+        "correction": "Use controlled leg circulation by pointing knee to mat, rotating foot in small circles, and gradually working heel toward buttock while maintaining shoulder pressure throughout"
+      },
+      {
+        "error": "Maintaining a narrow base with knees close together during sweep defense",
+        "consequence": "Bottom player easily generates the rotational momentum needed to complete Old School sweep or rolling back take due to minimal lateral stability",
+        "correction": "Sprawl free leg wide immediately upon detecting whip-up pressure, creating a tripod base that resists lateral forces from multiple directions"
+      },
+      {
+        "error": "Posting hand on the mat near the bottom player's hip during whip-up defense",
+        "consequence": "Creates a perfect lever point for Old School sweep completion and may expose the arm to underhook attacks or Kimura threats",
+        "correction": "Post hands wide and away from the bottom player's hip, or keep hands on their body for control rather than on the mat where they become leverage points"
+      },
+      {
+        "error": "Focusing exclusively on clearing the lockdown while ignoring upper body control battle",
+        "consequence": "Even if the leg is freed, the bottom player's maintained underhook allows immediate re-establishment of lockdown or transition to back take",
+        "correction": "Address both control points simultaneously by establishing whizzer or crossface while performing lockdown clearing, ensuring upper body is neutralized as leg is freed"
+      },
+      {
+        "error": "Driving weight forward aggressively to pressure through the position",
+        "consequence": "Forward weight commitment elevates hips and plays directly into Electric Chair setup, making leg separation and submission significantly easier for the bottom player",
+        "correction": "Distribute weight through heavy shoulder pressure while keeping hips mobile and low, ready to adjust based on the specific attack being threatened"
+      },
+      {
+        "error": "Remaining completely passive and waiting for the bottom player to exhaust themselves",
+        "consequence": "Gives the bottom player unlimited time to perfect controls, set up high-percentage sweeps, and chain attacks in sequence until one succeeds",
+        "correction": "Maintain active defensive pressure with constant small adjustments that prevent the bottom player from settling into optimal attacking alignment"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Foundation",
+        "focus": "Base widening and weight distribution",
+        "description": "Practice widening base and lowering center of gravity from Vaporizer top against a compliant partner. Focus on the physical sensation of being stable against lateral pressure. Partner applies 25% whip-up resistance. Perform 20 repetitions each side."
+      },
+      {
+        "phase": "Phase 2: Integration",
+        "focus": "Combining base defense with lockdown clearing",
+        "description": "Partner establishes full Vaporizer with 50% resistance. Practice the complete defensive sequence from base widening through lockdown clearing to half guard extraction. Focus on smooth transitions between defensive phases without creating gaps the bottom player can exploit."
+      },
+      {
+        "phase": "Phase 3: Reaction Training",
+        "focus": "Identifying and countering specific sweep types",
+        "description": "Partner randomly selects between Old School sweep, rolling back take, and Electric Chair entry at 75% resistance. Top player must correctly identify the threat and apply the appropriate defensive response. Build pattern recognition for each attack's preparatory movements."
+      },
+      {
+        "phase": "Phase 4: Live Application",
+        "focus": "Full resistance positional sparring",
+        "description": "Positional sparring starting from Vaporizer. Bottom player attempts sweeps at full resistance while top player works to defend and escape to half guard. Three-minute rounds with the objective of defending the sweep and extracting or the bottom player completing the sweep. Track success rates."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "Your opponent initiates a strong whip-up and you feel your weight shifting laterally - what is your immediate first response?",
+        "answer": "Immediately widen your base by sprawling your free leg out to the side opposite the sweep direction and lower your hips toward the mat. This creates a wider platform that resists the rotational force of the whip-up. Simultaneously drive your shoulder into their chest to limit their hip driving ability. The instinct to post your hand should be overridden by the base widening response, as a hand post near their hip creates a lever point they can exploit for the Old School sweep."
+      },
+      {
+        "question": "What conditions must exist before you should attempt to clear the lockdown?",
+        "answer": "You should only begin active lockdown clearing once you have established a stable wide base and neutralized the bottom player's upper body control through a whizzer or crossface. Attempting to clear the lockdown while your base is narrow or while they have an active underhook creates space and opportunities for them to complete the sweep or advance to the Electric Chair. The lockdown clearing is the final phase of the defensive sequence, not the first response."
+      },
+      {
+        "question": "What is the critical difference between defending an Old School sweep versus a rolling back take from the Vaporizer?",
+        "answer": "The Old School sweep operates on a lateral rolling plane where the bottom player uses their posted foot and underhook to roll you sideways. Defense requires widening base in the opposite direction of the roll. The rolling back take operates on a rotational plane where they attempt to rotate your body to expose your back for Truck entry. Defense requires turning your hips toward them rather than allowing rotation away. Misidentifying the attack and applying the wrong defense can accelerate the technique rather than stopping it."
+      },
+      {
+        "question": "Why should you avoid explosive movements when clearing the lockdown from the Vaporizer?",
+        "answer": "Explosive extraction attempts trigger a reflexive tightening response in the bottom player's lockdown, making the entanglement harder to escape. The rapid movement also creates momentary space between your bodies that the bottom player uses to adjust grips, re-angle hips, or transition to a different attack. Controlled circulation movements work incrementally to loosen the configuration without creating these defensive openings. Energy expenditure from explosive attempts also accelerates fatigue while the lockdown requires minimal energy to maintain."
+      },
+      {
+        "question": "Your opponent's lockdown is very tight and you cannot make progress clearing it - what alternative approach should you consider?",
+        "answer": "If the lockdown cannot be cleared through circulation, shift focus to neutralizing their upper body control completely. By establishing dominant crossface pressure and eliminating their underhook, you remove their ability to generate meaningful sweep threats even with the lockdown intact. This buys time to work the lockdown from a safer position. Alternatively, consider pointing the knee to mat and walking your free foot to create a passing angle that works around the lockdown rather than through it."
+      },
+      {
+        "question": "How should your grip strategy change when you feel the bottom player transitioning from an Old School sweep to an Electric Chair attempt?",
+        "answer": "When the bottom player transitions to Electric Chair, they need to release the lockdown partially and control your far leg for the split. Your grip priority shifts from whizzer defense against the underhook to actively squeezing your knees together and blocking access to your far leg. Use your hands to control their wrist or forearm reaching for your far leg. Keep hips low and legs tight rather than maintaining the wide base for Old School defense, as the wide base actually facilitates the Electric Chair leg separation."
+      }
+    ],
+    "safety_considerations": "When defending Vaporizer sweeps, be mindful of medial collateral ligament stress on the trapped knee during lockdown clearing. Avoid explosive twisting motions that can strain knee ligaments. If you feel sharp pain in the trapped knee during extraction attempts, stop immediately and tap. During training, communicate with partners about lockdown tightness and agree on resistance levels before drilling. The lockdown can apply significant force to the knee joint, particularly when combined with rotation during sweep defense."
+  },
+  "defender": {
+    "name": "Defend Vaporizer Sweep Defender",
+    "description": "Learn to complete Vaporizer sweeps against defensive opponents. Adapt sweep strategy, chain attacks, and exploit defensive reactions to maintain offensive pressure from Vaporizer bottom.",
+    "overview": "The Defend Vaporizer Sweep defender is the bottom player whose sweep attempts from the Vaporizer position are being actively countered by a technically aware top player. When the top player successfully reads and defends the initial sweep, the bottom player must adapt by adjusting sweep mechanics, transitioning to alternative attacks such as the Electric Chair or Truck entry, or re-establishing Vaporizer control to threaten from a different angle. Understanding how the top player defends each specific sweep enables the bottom player to set traps and create chains of attacks that exploit defensive commitments. The key insight is that each defensive response the top player makes opens a different offensive opportunity, and the bottom player who can flow between these threats maintains offensive pressure even against well-prepared opponents.",
+    "key_principles": [
+      "Read the top player's defensive response and immediately transition to the attack that exploits their specific positional commitment",
+      "Maintain lockdown control throughout the defensive exchange as the primary anchor for all offensive options from the Vaporizer",
+      "Use the top player's defensive weight distribution against them by threatening attacks in the direction opposite their defensive commitment",
+      "Chain sweep and submission attempts in rapid sequence rather than fully committing to a single technique the top player has identified and is defending",
+      "Keep whip-up pressure active even during defended sequences to prevent the top player from establishing a settled defensive base",
+      "Recognize when the top player begins systematic lockdown clearing and either accelerate attacks or tighten the lockdown before extraction progresses"
+    ],
+    "recognition_cues": [
+      "Top player widens base and sprawls free leg laterally, indicating they have identified the sweep direction and are establishing defensive stability against lateral rolling",
+      "Top player drives heavy shoulder pressure into your chest while maintaining low hips, signaling direct counter to the whip-up mechanism",
+      "Top player begins circulating trapped leg or pointing knee toward the mat, indicating active lockdown clearing attempt that will eventually free their leg",
+      "Top player establishes whizzer or crossface against your underhook, showing systematic defense of the upper body control essential for sweep completion",
+      "Top player's breathing becomes controlled and movements become deliberate rather than explosive, indicating a patient defensive strategy designed to avoid creating exploitable space"
+    ],
+    "defensive_options": [
+      {
+        "action": "Transition to Electric Chair by releasing lockdown and controlling far leg when top player widens base to defend sweep",
+        "when_to_use": "When the top player commits to a wide base with knees spread apart to resist lateral rolling, exposing the far leg to capture and split",
+        "targets_outcome": "Half Guard/Bottom",
+        "if_successful": "Top player's far leg is captured and split, leading to Electric Chair submission or sweep to dominant top position",
+        "risk": "If far leg control fails, you lose the lockdown and the top player may immediately clear to half guard top"
+      },
+      {
+        "action": "Switch to rolling back take toward Truck when top player drives forward shoulder pressure",
+        "when_to_use": "When the top player commits weight forward through shoulder pressure, creating momentum that can be redirected into a rotational back take toward Truck position",
+        "targets_outcome": "Half Guard/Bottom",
+        "if_successful": "Top player is rotated and you secure leg hooks for Truck position or back control",
+        "risk": "If rotation is stopped, you may lose your underhook and the top player consolidates half guard top with strong crossface"
+      },
+      {
+        "action": "Tighten lockdown and re-establish whip-up from an adjusted angle after initial defense",
+        "when_to_use": "When the top player has defended the initial sweep but has not yet begun clearing the lockdown, providing a window to reset the attacking sequence",
+        "targets_outcome": "Vaporizer/Top",
+        "if_successful": "Full Vaporizer control is re-established with the top player still trapped, enabling renewed sweep and submission threats from a fresh angle",
+        "risk": "Repeated attempts from the same position may fatigue your legs and give the top player additional time to work their lockdown clearing sequence"
+      },
+      {
+        "action": "Accelerate sweep commitment when lockdown clearing is detected before extraction progresses",
+        "when_to_use": "When you feel the top player beginning to circulate their leg and the lockdown begins to loosen, requiring immediate offensive commitment before control is lost",
+        "targets_outcome": "Half Guard/Bottom",
+        "if_successful": "Sweep is completed before the lockdown fully clears, catching the top player in transition between defensive phases",
+        "risk": "Rushing the sweep without full lockdown control may produce a sloppy technique that the top player can easily defend or counter"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Half Guard/Bottom",
+        "how": "Chain sweep attempts by reading the top player's defensive commitment direction and attacking the opposite side. When they widen base for Old School defense, transition to Electric Chair. When they drive forward pressure, redirect into rolling back take. Force them to choose which sweep to defend, then execute the complementary attack they cannot simultaneously counter."
+      },
+      {
+        "outcome": "Vaporizer/Top",
+        "how": "Maintain lockdown integrity and re-establish whip-up pressure from an adjusted angle after each defended sweep attempt. Use small hip adjustments to change the angle of force and refresh underhook depth each time. As long as the lockdown remains intact and the underhook is active, you retain the offensive advantage and can continue threatening sweeps until one succeeds."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Abandoning the lockdown to chase a sweep that is being successfully defended",
+        "consequence": "Losing the lockdown eliminates all offensive options from the Vaporizer and allows the top player to immediately advance to standard half guard top or complete a pass",
+        "correction": "Maintain lockdown integrity as the absolute priority throughout the exchange. Only release the lockdown deliberately for specific techniques like the Electric Chair that require it as part of their mechanics"
+      },
+      {
+        "error": "Committing fully to a single sweep direction without reading the top player's defensive positioning",
+        "consequence": "Top player focuses all defensive energy on stopping the telegraphed threat, successfully defending with minimal effort and potentially beginning lockdown clearing",
+        "correction": "Use feints and partial commitment to read the defensive response before committing. Chain attacks based on which direction the top player defends, attacking their defensive blind spots"
+      },
+      {
+        "error": "Relaxing whip-up pressure after an initial sweep attempt is defended",
+        "consequence": "Top player settles into a stable defensive base and begins systematic lockdown clearing without offensive pressure to interrupt their escape sequence",
+        "correction": "Maintain constant whip-up pressure between sweep attempts to keep the top player reactive. The whip-up should be the default state with sweeps launched from this active base"
+      },
+      {
+        "error": "Using only arm strength for sweep attempts rather than coordinated hip and core driving",
+        "consequence": "Sweep attempts lack sufficient force to move a well-based opponent and result in rapid fatigue that degrades lockdown maintenance quality",
+        "correction": "Generate sweep force from hips and core with the underhook serving as a guide rather than the primary mover. Coordinate lockdown extension with hip drive for maximum mechanical advantage"
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "The top player widens their base and lowers their hips to defend your Old School sweep - what attack does this defensive reaction expose?",
+        "answer": "The wide base with lowered hips directly exposes the top player to the Electric Chair submission and sweep. When their knees are spread apart for lateral stability, their far leg becomes accessible for capture. Release the lockdown deliberately, secure their far leg, and drive your hips upward to split their legs. Their wide defensive stance, which protects against the lateral sweep, becomes a liability against the vertical leg split of the Electric Chair."
+      },
+      {
+        "question": "How should you adjust your attack strategy when you feel the top player beginning to clear your lockdown?",
+        "answer": "When you detect lockdown clearing through leg circulation or knee positioning changes, immediately escalate offensive urgency. Either tighten the lockdown by squeezing your legs together and extending their leg further, or commit to an immediate sweep attempt before the lockdown degrades to the point where it no longer provides leverage. A partially cleared lockdown still provides enough control for one committed sweep attempt, but waiting longer eliminates remaining offensive options entirely."
+      },
+      {
+        "question": "Why is chaining attacks more effective than committing fully to a single sweep from the Vaporizer?",
+        "answer": "A committed single sweep can be identified and defended with focused attention. By chaining attacks, you force the top player to defend in multiple directions, and each defensive commitment opens the complementary attack. Defending the Old School sweep requires widening base laterally, which opens the Electric Chair. Defending the Electric Chair requires squeezing knees together, which enables the lateral Old School sweep. This creates an unsolvable dilemma where defending one threat guarantees vulnerability to another."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Attack Recognition",
+        "focus": "Reading defensive reactions",
+        "description": "Partner defends Vaporizer sweeps using specific defensive patterns at 50% resistance. Practice identifying which defense is being used and verbally calling out the appropriate counter-attack before executing. Build the recognition-to-response connection that enables rapid transitions between sweep attempts."
+      },
+      {
+        "phase": "Phase 2: Chain Drilling",
+        "focus": "Multi-attack sequencing",
+        "description": "Practice flowing between Old School sweep, Electric Chair, and rolling back take in predetermined sequences against moderate resistance. Focus on maintaining lockdown integrity between transitions and keeping whip-up pressure active throughout the chain. Perform 10 complete three-attack chains per side."
+      },
+      {
+        "phase": "Phase 3: Reactive Chains",
+        "focus": "Reading and reacting to live defense",
+        "description": "Partner provides 75% resistance with genuine defensive reactions. Practice reading their defensive response in real-time and selecting the appropriate counter-attack. Develop the ability to switch attack direction mid-sequence based on defensive feedback without losing control position."
+      },
+      {
+        "phase": "Phase 4: Competition Simulation",
+        "focus": "Full resistance positional sparring from Vaporizer",
+        "description": "Full resistance positional sparring starting from Vaporizer. Bottom player works to complete sweeps while top player uses all available defenses. Track which attack chains produce the highest success rates against fully resisting opponents to identify your most reliable offensive sequences."
+      }
+    ]
+  }
+}

@@ -25,13 +25,12 @@ export default (() => {
     const organizationSchema = {
       "@context": "https://schema.org",
       "@type": "Organization",
-      "name": "BJJ Graph",
-      "description": "Comprehensive Brazilian Jiu-Jitsu knowledge graph and state machine covering 90+ positions, 70+ transitions, and 50+ submissions",
-      "url": `https://${cfg.baseUrl}`,
-      "logo": `https://${cfg.baseUrl}/static/icon.png`,
-      "sameAs": [
-        "https://github.com/diogoseca/bjjgraph"
-      ]
+      name: "BJJ Graph",
+      description:
+        "Comprehensive Brazilian Jiu-Jitsu knowledge graph and state machine covering 90+ positions, 70+ transitions, and 50+ submissions",
+      url: `https://${cfg.baseUrl}`,
+      logo: `https://${cfg.baseUrl}/static/icon.png`,
+      sameAs: ["https://github.com/diogoseca/bjjgraph"],
     }
 
     // Get extracted schemas from SchemaExtractor transformer
@@ -73,13 +72,20 @@ export default (() => {
         <link rel="icon" href={iconPath} />
         <meta name="description" content={description} />
         <meta name="generator" content="Quartz" />
-        <script type="application/ld+json" dangerouslySetInnerHTML={{
-          __html: JSON.stringify(organizationSchema)
-        }} />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(organizationSchema),
+          }}
+        />
         {extractedSchemas.map((schema: object, i: number) => (
-          <script key={`schema-${i}`} type="application/ld+json" dangerouslySetInnerHTML={{
-            __html: JSON.stringify(schema)
-          }} />
+          <script
+            key={`schema-${i}`}
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{
+              __html: JSON.stringify(schema),
+            }}
+          />
         ))}
         {css.map((href) => (
           <link key={href} href={href} rel="stylesheet" type="text/css" spa-preserve />
@@ -87,9 +93,11 @@ export default (() => {
         {js
           .filter((resource) => resource.loadTime === "beforeDOMReady")
           .map((res) => JSResourceToScriptElement(res, true))}
-        <script dangerouslySetInnerHTML={{
-          __html: `document.documentElement.setAttribute("saved-theme", "dark");`
-        }} />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `document.documentElement.setAttribute("saved-theme", "dark");`,
+          }}
+        />
       </head>
     )
   }

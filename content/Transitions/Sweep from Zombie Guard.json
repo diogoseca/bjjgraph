@@ -1,0 +1,404 @@
+{
+  "name": "Sweep from Zombie Guard",
+  "description": "Master the Sweep from Zombie Guard in BJJ. Learn lockdown-based reversal mechanics from the 10th Planet Zombie position to achieve dominant mount control.",
+  "tags": [
+    "bjj",
+    "transition",
+    "sweep",
+    "rubber-guard",
+    "zombie",
+    "lockdown",
+    "10th-planet",
+    "half-guard",
+    "reversal"
+  ],
+  "from_position": "Zombie/Bottom",
+  "outcomes": [
+    {
+      "to": "Mount/Top",
+      "probability": 45,
+      "result": "success"
+    },
+    {
+      "to": "Zombie/Bottom",
+      "probability": 35,
+      "result": "failure"
+    },
+    {
+      "to": "Open Guard/Bottom",
+      "probability": 20,
+      "result": "counter"
+    }
+  ],
+  "success_rate": 45,
+  "overview": "The Sweep from Zombie Guard is a lockdown-based reversal originating from the 10th Planet Jiu-Jitsu system that transforms the defensive Zombie bottom position into an offensive platform for achieving mount. The technique exploits the mechanical advantage created by the lockdown entanglement on the opponent's leg, combining it with underhook control and strategic hip elevation to systematically dismantle the top player's base and complete the reversal. The sweep rewards practitioners who develop sensitivity to weight distribution changes and precise timing of the coordinated force application.\n\nThe sweep mechanics center on three simultaneous forces working in coordination: the lockdown stretch pulls the opponent's trapped leg laterally to compromise their base, the underhook provides the rotational axis around which the reversal occurs, and hip elevation generates the lifting force that overcomes the top player's weight distribution. This combination creates a structural failure in the opponent's position that becomes increasingly difficult to resist as the technique progresses through each stage. Timing the sweep when the opponent commits weight forward or attempts to extract their trapped leg dramatically increases success probability.\n\nWithin the broader Zombie offensive system, this sweep functions as the primary reversal threat that forces the top player into a defensive posture, opening secondary attacks like the Electric Chair submission or Deep Half Guard entries. The constant threat of the sweep creates the dilemma-based offense central to the 10th Planet methodology, where every defensive adjustment the top player makes to prevent the sweep creates vulnerability to alternative attacks. This dynamic makes the Zombie bottom position far more dangerous than a standard half guard recovery.",
+  "conditions": [
+    "Lockdown is established on opponent's leg with active tension through thigh squeeze and instep hook",
+    "Near-side underhook secured with chest-to-chest connection before sweep initiation",
+    "Bottom player is on their side with hips angled toward opponent, not flattened on back",
+    "Opponent's weight is not completely shifted away from the sweep direction"
+  ],
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Standard Underhook Sweep",
+      "description": "The foundational version using a deep underhook grip on the opponent's far lat combined with steady lockdown stretch pressure. The sweep develops gradually through incremental angle creation and progressive lockdown tension, finishing with a controlled hip bridge that rolls the opponent to their back.",
+      "when_to_use": "When the opponent is stationary in top position with moderate forward pressure, allowing time to establish all sweep components methodically"
+    },
+    {
+      "variant_name": "Whip-Up Variation",
+      "description": "An explosive variation that capitalizes on the opponent's forward weight commitment by using a sharp hip pop combined with sudden lockdown stretch acceleration. Rather than building pressure gradually, this version catches the opponent during a weight transition and uses their momentum against them.",
+      "when_to_use": "When the opponent drives forward aggressively for crossface or attempts to flatten you with chest pressure, providing momentum that accelerates the sweep"
+    },
+    {
+      "variant_name": "Plan B Electric Chair Transition",
+      "description": "A chain attack variation where the initial sweep attempt is deliberately used to force the opponent to post wide, creating the leg separation needed for an Electric Chair entry. The sweep threat becomes a setup rather than the primary objective, exploiting the opponent's defensive reactions.",
+      "when_to_use": "When the opponent successfully posts their far leg to resist the direct sweep, opening their base for leg separation and Electric Chair submission entry"
+    }
+  ],
+  "position_integration": "The Sweep from Zombie Guard occupies a central role in the 10th Planet half guard system, functioning as the primary reversal threat from the Zombie position. It connects directly to mount on success, creating a dramatic positional advancement worth 4 points in competition. When defended, it chains naturally into the Electric Chair submission or Deep Half Guard entries, making it the foundation of the Zombie bottom offensive system. Understanding this sweep is essential for practitioners of lockdown-based half guard games, as its threat level dictates the top player's defensive priorities and opens all secondary attacks from the position.",
+  "related_content": [
+    {
+      "name": "Lockdown",
+      "relationship": "Core control mechanism providing the primary sweep leverage through leg entanglement"
+    },
+    {
+      "name": "Old School",
+      "relationship": "Related sweep position sharing similar mechanics from the lockdown half guard system"
+    },
+    {
+      "name": "Electric Chair",
+      "relationship": "Primary chain attack when the sweep is defended with wide base posting"
+    },
+    {
+      "name": "Mount",
+      "relationship": "Target position achieved on successful sweep completion"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Parent guard family from which the Zombie position derives"
+    },
+    {
+      "name": "Deep Half Guard",
+      "relationship": "Alternative transition available when sweep creates space beneath the opponent"
+    },
+    {
+      "name": "Open Guard",
+      "relationship": "Counter outcome position when the Zombie structure is broken during the sweep attempt"
+    },
+    {
+      "name": "Dogfight Position",
+      "relationship": "Related half guard transition hub offering alternative offensive pathways"
+    },
+    {
+      "name": "Rubber Guard",
+      "relationship": "Related 10th Planet system sharing the dilemma-based offensive philosophy"
+    }
+  ],
+  "attacker": {
+    "name": "Sweep from Zombie Guard Attacker",
+    "description": "Learn to execute the Sweep from Zombie Guard in BJJ. Step-by-step lockdown reversal technique with setup requirements, timing cues, and chain attack options from Zombie bottom.",
+    "overview": "Executing the Sweep from Zombie Guard requires coordinating three mechanical systems simultaneously: the lockdown stretch that compromises the opponent's base, the underhook that creates the rotational axis for the reversal, and the hip drive that generates sufficient force to complete the positional change. The sweep is most effective when timed with the opponent's weight shifts or passing attempts, as their forward commitment provides additional momentum for the reversal. Mastery of this technique transforms the Zombie bottom from a survival position into a genuine offensive threat that forces constant defensive awareness from the top player, creating the cascading dilemmas that define high-level lockdown half guard play.",
+    "key_principles": [
+      "Maintain active lockdown tension throughout the entire sweep sequence to prevent the opponent from re-establishing their base at any stage",
+      "Secure a deep underhook with your chest connected to the opponent's chest before initiating any sweeping motion",
+      "Generate sweep force primarily through hip extension and bridge mechanics rather than upper body pulling strength",
+      "Time the sweep to coincide with the opponent's weight commitment forward or their attempt to extract the trapped leg",
+      "Keep your head below the opponent's head throughout the sweep to prevent crossface counters and maintain the driving wedge",
+      "Follow through completely to mount rather than settling in top half guard after the reversal"
+    ],
+    "setup_requirements": [
+      "Lockdown entanglement established on opponent's near leg with active tension through thigh squeeze and instep hook behind the calf",
+      "Near-side underhook secured with chest-to-chest connection and shoulder driving into the opponent's sternum",
+      "Bottom player positioned on their side with hips angled toward the opponent rather than flat on back",
+      "Far-side hand controlling opponent's far shoulder, tricep, or collar to prevent posting and provide additional pulling leverage",
+      "Head positioned below the opponent's chin level to prevent crossface establishment and create an upward driving wedge"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Confirm lockdown and underhook establishment",
+        "description": "Verify your lockdown is active with instep hooked deep behind the opponent's calf and thigh squeeze engaged through your adductors. Your near-side underhook should have your arm threaded fully under their armpit with your hand gripping their far shoulder blade or lat muscle. This double control foundation is the non-negotiable prerequisite before initiating any sweep mechanics."
+      },
+      {
+        "step_number": 2,
+        "action": "Create the perpendicular angle",
+        "description": "Walk your feet toward the opponent's hips while maintaining lockdown tension to create a perpendicular angle with your body relative to theirs. Use small hip escapes to progressively increase this angle until your torso is roughly ninety degrees to their centerline. This angle generates the rotational leverage needed for the sweep and prevents them from simply driving you flat with forward pressure."
+      },
+      {
+        "step_number": 3,
+        "action": "Initiate the lockdown stretch",
+        "description": "Extend your hips away from the opponent while maintaining the lockdown grip to stretch their trapped leg laterally. This stretch disrupts their base by pulling their support leg out of alignment with their center of gravity, creating structural instability that makes the sweep mechanically favorable. The stretch should feel like controlled tension building progressively rather than an explosive jerk."
+      },
+      {
+        "step_number": 4,
+        "action": "Drive with the underhook",
+        "description": "Use your underhook to drive your shoulder forcefully into the opponent's chest while simultaneously beginning to elevate your hips off the mat. The combination of lateral lockdown stretch and forward underhook drive creates opposing forces on the opponent's structure that compromise their ability to post effectively or resist the sweep direction. Your head should be driving into their sternum as an additional force vector."
+      },
+      {
+        "step_number": 5,
+        "action": "Bridge explosively to complete the reversal",
+        "description": "Bridge explosively with your hips while maintaining both the lockdown stretch and underhook drive simultaneously. Your body should rotate as a unit around the axis created by your underhook contact point on the opponent's torso. Commit fully to the rotational motion without hesitation once you feel their base start to collapse under the combined forces. Half-committed sweeps fail consistently."
+      },
+      {
+        "step_number": 6,
+        "action": "Release lockdown during the rotation",
+        "description": "As the sweep passes the tipping point and the opponent begins rolling to their back, release the lockdown entanglement by extending your legs free from the triangle configuration around their leg. This release must be timed precisely during the rotation rather than after you land on top, as maintaining the lockdown in top position restricts your ability to establish mount and may trap your own leg."
+      },
+      {
+        "step_number": 7,
+        "action": "Establish and consolidate mount control",
+        "description": "Immediately slide your knees to either side of the opponent's torso as the sweep completes and settle your hips down to establish mount control with heavy forward pressure. Secure crossface or collar control with your hands to prevent the opponent from establishing frames or initiating immediate escape sequences. The transition from sweep completion to mount stabilization must be one continuous fluid action with no pause or celebration."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Opponent drives heavy crossface pressure to flatten the bottom player before the sweep angle develops",
+        "effectiveness": "High",
+        "your_response": "Frame with your far hand on their shoulder or bicep to prevent the crossface from settling against your jaw. If the crossface establishes successfully, transition to Deep Half Guard entry rather than forcing the sweep against flattened positioning where you lack the hip angle for force generation.",
+        "targets_outcome": "Zombie/Bottom"
+      },
+      {
+        "counter": "Opponent posts their free leg wide and drops their hip to create a triangular base resistant to the sweep direction",
+        "effectiveness": "Medium",
+        "your_response": "Increase lockdown stretch intensity to pull their posted leg off its base alignment, or transition to Electric Chair attack by splitting their legs through the opening their wide base creates. The wide post that defeats the sweep is precisely the leg position that exposes them to the Electric Chair.",
+        "targets_outcome": "Zombie/Bottom"
+      },
+      {
+        "counter": "Opponent establishes a deep whizzer on the underhook arm to neutralize the rotational axis",
+        "effectiveness": "High",
+        "your_response": "Swim your underhook deeper past the whizzer by circling your hand and re-threading under their armpit, or abandon the underhook temporarily and switch to an overhook grip that allows a modified sweep angle using lockdown tension as the primary force vector rather than the underhook rotation.",
+        "targets_outcome": "Zombie/Bottom"
+      },
+      {
+        "counter": "Opponent strips the lockdown by posting on their trapped knee and systematically pulling their leg free",
+        "effectiveness": "Medium",
+        "your_response": "If you feel the lockdown weakening, immediately attempt the sweep before it breaks completely using whatever tension remains. If the lockdown fully breaks, transition to standard half guard recovery with knee shield insertion to prevent the pass rather than attempting the sweep without your primary control mechanism.",
+        "targets_outcome": "Open Guard/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Attempting the sweep without establishing a deep underhook first",
+        "consequence": "Sweep lacks the rotational axis needed for completion, resulting in a failed attempt that wastes energy and allows the opponent to settle heavier top pressure with improved crossface control",
+        "correction": "Always secure the underhook with chest-to-chest connection before initiating any sweeping motion. The underhook is the non-negotiable prerequisite - drill underhook recovery from Zombie as a standalone skill."
+      },
+      {
+        "error": "Releasing the lockdown too early during the sweep execution",
+        "consequence": "Opponent immediately re-establishes their base by freeing their trapped leg, nullifying all sweep momentum and potentially advancing their pass with the newly freed mobility",
+        "correction": "Maintain lockdown tension until you have passed the tipping point of the sweep and your hips are rising above the opponent's. Release only during the rotation phase when mount is inevitable."
+      },
+      {
+        "error": "Lying flat on your back instead of maintaining side positioning during sweep setup",
+        "consequence": "Eliminates the hip angle needed to generate sweep force and makes you vulnerable to crossface control that prevents any offensive hip movement or angle creation",
+        "correction": "Stay on your side throughout the setup by actively driving your underhook shoulder into the opponent and walking your feet toward their hips to create and maintain the perpendicular angle."
+      },
+      {
+        "error": "Using arm strength rather than hip drive to power the sweep",
+        "consequence": "Rapid energy depletion without sufficient force to complete the reversal against a properly based opponent, leaving you fatigued with diminished defensive capability for subsequent attempts",
+        "correction": "Generate sweep power through explosive hip extension and bridge mechanics. Your arms maintain connection points and guide direction while your hips and legs produce the actual sweeping force."
+      },
+      {
+        "error": "Failing to follow through to mount after completing the reversal",
+        "consequence": "Opponent recovers to half guard or establishes frames before you consolidate top position, wasting the positional advantage earned by the successful sweep and potentially getting re-swept",
+        "correction": "Commit to an immediate transition to mount by releasing lockdown and sliding knees to mount position in one continuous fluid motion. The sweep and mount establishment must be a single action."
+      },
+      {
+        "error": "Telegraphing the sweep by loading up obviously before executing",
+        "consequence": "Opponent reads the sweep attempt and preemptively posts, adjusts weight distribution, or establishes a whizzer to neutralize the attack before it develops past the initial setup phase",
+        "correction": "Disguise sweep attempts by maintaining constant lockdown pressure and subtle angle adjustments throughout the position. The actual sweep should feel like an acceleration of existing pressure rather than a new distinct movement."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Mechanical Foundation",
+        "focus": "Individual component mastery",
+        "description": "Practice lockdown establishment, underhook securing, angle creation, and hip bridge mechanics as separate isolated skills. Drill each component against a stationary partner until the movements become automatic. Minimum 50 repetitions of each component per session before combining."
+      },
+      {
+        "phase": "Phase 2: Component Integration",
+        "focus": "Combining lockdown, underhook, and hip drive into unified sweep",
+        "description": "Connect all three sweep components into a single fluid motion against a compliant partner providing zero resistance. Focus on timing the lockdown stretch with the underhook drive and hip elevation so all three forces peak simultaneously. Develop smooth coordination and eliminate pauses between stages."
+      },
+      {
+        "phase": "Phase 3: Progressive Resistance",
+        "focus": "Executing against increasing defensive pressure",
+        "description": "Partner gradually increases resistance from 30% to 80% over multiple rounds. Practice reading the opponent's base adjustments and timing your sweep to exploit their weight shifts. Partner introduces common counters (crossface, whizzer, base posting) at controlled intensity to develop adaptive responses."
+      },
+      {
+        "phase": "Phase 4: Chain Attack Integration",
+        "focus": "Flowing between sweep and alternative attacks on defense",
+        "description": "When partner successfully defends the sweep, immediately transition to Electric Chair entry, Deep Half Guard, or guard recovery based on their specific defensive reaction. Develop the ability to read defensive responses and select the appropriate follow-up attack without hesitation."
+      },
+      {
+        "phase": "Phase 5: Competition Application",
+        "focus": "Live application under full resistance and pressure",
+        "description": "Positional sparring starting from Zombie bottom with no restrictions on partner's offensive or defensive options. Track sweep success rate and identify patterns in successful versus failed attempts. Aim for consistent 35-40% success rate against equal-level training partners before relying on this technique in competition."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the optimal timing window for initiating the Sweep from Zombie Guard?",
+        "answer": "The optimal timing is when the opponent commits their weight forward attempting to pass or establish crossface pressure. Their forward weight shift adds momentum to your sweep direction, reducing the force you need to generate. A secondary timing window opens when they attempt to extract their trapped leg from the lockdown, as the pulling motion temporarily compromises their base and creates space for your hip elevation."
+      },
+      {
+        "question": "What entry requirements must exist before you can attempt the sweep?",
+        "answer": "Four conditions must be met simultaneously: active lockdown with instep hooked behind the calf and thigh squeeze engaged, a deep underhook with chest-to-chest connection reaching the opponent's far lat, side positioning with your hips angled toward the opponent rather than flat on your back, and far-side hand controlling the opponent's upper body or posting for leverage. Attempting the sweep without any single condition dramatically reduces success probability."
+      },
+      {
+        "question": "What is the critical mechanical detail that determines whether the sweep succeeds or fails?",
+        "answer": "The coordination between lockdown stretch direction and underhook drive angle is the critical mechanical detail. The lockdown must stretch the opponent's leg laterally while the underhook drives forward and upward simultaneously. When these forces align correctly, they create a rotational moment the opponent cannot resist by posting. If either force is misaligned or mistimed, the opponent can absorb the sweep attempt through base adjustment alone."
+      },
+      {
+        "question": "What are the three most common failure points when executing this sweep?",
+        "answer": "First, insufficient underhook depth which removes the rotational axis and allows the opponent to whizzer and flatten you back down. Second, attempting the sweep while flat on your back rather than on your side, which eliminates the hip angle needed for force generation. Third, poor timing when the opponent's weight is shifted away from the sweep direction, requiring maximum force against their strongest base alignment rather than catching them during a transition."
+      },
+      {
+        "question": "What grip requirements must be met for the sweep to achieve maximum effectiveness?",
+        "answer": "The primary grip is the underhook, which should be deep enough that your hand reaches the opponent's far lat or shoulder blade for maximum rotational leverage. The lockdown is the secondary grip requiring your instep hooked deep behind their calf with active thigh adductor engagement providing constant tension. Your far hand should control the opponent's far tricep to prevent posting, grip their collar for pulling leverage, or post on the mat for additional elevation force."
+      },
+      {
+        "question": "In what direction should force be applied during the sweep execution?",
+        "answer": "Force should be applied in two coordinated vectors: the lockdown stretches the opponent's leg laterally away from your body, while the underhook and hip drive push diagonally forward and upward into the opponent's chest. The combined effect creates rotational force around the axis formed by your underhook contact point. Your bridge drives your hips toward the ceiling while your shoulder drives into their sternum, creating opposing moments that overcome their base."
+      },
+      {
+        "question": "Your opponent posts their far hand on the mat to resist the sweep - how do you adjust?",
+        "answer": "Redirect your far hand to attack their posting arm by either pulling it across your body or pushing their elbow inward to collapse the post. Alternatively, increase lockdown stretch intensity to pull their base further apart, making the single-hand post insufficient to maintain balance. If the post is too strong to overcome directly, transition to an Electric Chair attack by driving your hips upward while maintaining the lockdown, splitting their legs through the opening their wide post creates."
+      },
+      {
+        "question": "What chain attacks should you pursue if the initial sweep attempt is blocked?",
+        "answer": "If blocked by heavy crossface, transition to Deep Half Guard entry by ducking under the opponent's chest. If blocked by whizzer, convert to an Old School Sweep variation or fight to re-establish the underhook through swimming motions. If blocked by wide base posting, transition to Electric Chair submission by elevating your hips and splitting the opponent's legs. The sweep threat creates openings for all these alternatives because the opponent cannot defend everything simultaneously."
+      },
+      {
+        "question": "How should you adjust the sweep when facing a significantly heavier opponent?",
+        "answer": "Against heavier opponents, timing becomes paramount since you must catch them during weight transitions rather than trying to move their static mass. Increase the lockdown stretch duration to maximize base disruption before initiating the sweep. Use smaller incremental angle adjustments rather than attempting one explosive motion. The Whip-Up variation works well here because it uses their forward momentum against them, and be ready to chain into Electric Chair when the direct sweep stalls."
+      },
+      {
+        "question": "What is the role of head positioning throughout the sweep execution?",
+        "answer": "Your head should remain below the opponent's head level throughout the entire sweep sequence. This prevents them from establishing a crossface which would flatten you and kill the sweep, and creates a physical wedge that drives upward into their chest during execution. Think of your forehead driving into their sternum as an additional force vector complementing the underhook drive. If your head rises above theirs, you lose mechanical advantage and become vulnerable to being driven back to flat positioning."
+      }
+    ],
+    "safety_considerations": "The Sweep from Zombie Guard involves significant rotational forces on both practitioners' knees due to the lockdown entanglement. Release the lockdown immediately if either practitioner experiences sharp knee pain or popping sensations. The lockdown stretch should create controlled tension through muscular engagement, not acute joint stress on the knee or ankle. During training, communicate with your partner about lockdown pressure intensity and complete the sweep with smooth controlled rotation rather than explosive jerking movements to minimize injury risk. Practitioners with existing knee or ankle injuries should exercise particular caution and consider modified lockdown depth."
+  },
+  "defender": {
+    "name": "Sweep from Zombie Guard Defender",
+    "description": "Learn to defend the Sweep from Zombie Guard in BJJ. Recognition cues, defensive techniques, and counter-strategies for maintaining top position against lockdown-based sweeps.",
+    "overview": "Defending the Sweep from Zombie Guard requires understanding the biomechanical vulnerabilities the lockdown system exploits and addressing them before the sweep reaches its mechanical tipping point. The defender occupying Zombie Top must prevent the three conditions that make the sweep sound: deep underhook connection, lateral lockdown stretch creating base disruption, and hip elevation generating rotational force. Effective defense prioritizes maintaining crossface control to flatten the bottom player's angle, neutralizing the underhook through whizzer or swim-through techniques, and keeping weight distributed low through the hips to resist elevation. Recognition of the sweep's setup phase is critical because once all three components align simultaneously, the sweep becomes extremely difficult to resist regardless of size or strength advantage.",
+    "key_principles": [
+      "Maintain heavy crossface pressure to prevent the bottom player from creating the perpendicular angle essential for sweep leverage",
+      "Counter the underhook immediately with a whizzer or by swimming through to re-establish your own underhook dominance",
+      "Keep your base wide and your hips low to prevent being elevated by the hip bridge component of the sweep",
+      "Drive your weight diagonally forward and down through your shoulder rather than sitting upright which invites the sweep",
+      "Attack the lockdown systematically through posture and pressure rather than explosive pulling that creates momentum the sweeper exploits",
+      "Recognize early setup cues and address them individually before the sweeper coordinates all three sweep components simultaneously"
+    ],
+    "recognition_cues": [
+      "Bottom player begins walking their feet toward your hips to create a perpendicular angle with their body, signaling sweep angle development",
+      "Increased lockdown tension pulling your trapped leg laterally away from your centerline, indicating the stretch phase has been initiated",
+      "Bottom player drives their underhook shoulder deeper into your chest while their head drops below your chin level for the driving wedge",
+      "Bottom player's far hand moves to control your far shoulder, tricep, or collar, establishing the final grip needed for sweep completion",
+      "Upward hip pressure combined with simultaneous lockdown stretch, signaling that the sweep execution sequence is imminent and must be addressed immediately"
+    ],
+    "defensive_options": [
+      {
+        "action": "Drive heavy crossface and flatten the bottom player before the sweep angle develops",
+        "when_to_use": "Early in the setup when you feel the bottom player beginning to walk their feet toward your hips and create the perpendicular angle",
+        "targets_outcome": "Zombie/Bottom",
+        "if_successful": "Bottom player is flattened on their back, losing the hip angle and underhook depth needed for the sweep entirely",
+        "risk": "Over-committing to crossface can expose your far arm to kimura attack or allow the bottom player to transition to Deep Half Guard entry"
+      },
+      {
+        "action": "Establish a deep whizzer on the underhook arm and drive your hip into the bottom player's shoulder",
+        "when_to_use": "When you feel the underhook deepening and the bottom player driving their shoulder into your chest with increasing pressure",
+        "targets_outcome": "Zombie/Bottom",
+        "if_successful": "Neutralizes the rotational axis of the sweep, preventing the bottom player from generating sufficient turning force for the reversal",
+        "risk": "Whizzer can be countered by the bottom player swimming their arm through for a deeper underhook or switching to an overhook sweep variation"
+      },
+      {
+        "action": "Post your far leg wide and drop your hip to create a triangular base that absorbs sweep force",
+        "when_to_use": "When you feel lockdown stretch and hip elevation beginning simultaneously, indicating the sweep execution has been initiated",
+        "targets_outcome": "Zombie/Bottom",
+        "if_successful": "Creates a wide triangular base that absorbs the sweep force without being overturned, allowing you to re-settle top pressure and resume passing",
+        "risk": "Wide base posting opens space for Electric Chair entry or allows transition to Deep Half Guard underneath your elevated hip"
+      },
+      {
+        "action": "Strip the lockdown by posting on your trapped knee and pulling your leg free while maintaining upper body control",
+        "when_to_use": "When the sweep is developing but not yet at full execution and you have sufficient base to dedicate effort toward leg extraction",
+        "targets_outcome": "Open Guard/Bottom",
+        "if_successful": "Removes the lockdown entanglement entirely, eliminating the primary sweep mechanic and reducing the bottom player to standard open guard",
+        "risk": "If you lose upper body control during leg extraction, the bottom player may use the transition moment to complete the sweep or recover a different guard"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Zombie/Bottom",
+        "how": "Maintain heavy crossface pressure combined with whizzer control to neutralize both the underhook axis and the angle creation simultaneously. Drive your weight diagonally forward to flatten the bottom player onto their back, removing their ability to generate the hip angle needed for elevation. Once flattened, work systematically to extract your leg from the lockdown and advance to side control through established passing sequences."
+      },
+      {
+        "outcome": "Open Guard/Bottom",
+        "how": "Strip the lockdown entanglement by posting on your trapped knee and methodically working your leg free while maintaining consistent chest pressure on the bottom player's upper body. Once the lockdown breaks, the bottom player loses their primary sweep mechanic and control structure, falling back to standard open guard where you have superior passing options and a significant positional advantage to exploit."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Sitting upright with weight on your heels when feeling lockdown tension increase",
+        "consequence": "Creates exactly the posture the sweep exploits - an elevated center of gravity with compromised base that makes the reversal trivially easy for a technically competent bottom player",
+        "correction": "Drive weight forward and down through your chest and shoulder whenever you feel lockdown tension increase, keeping your hips low and your center of gravity well below the sweep's effective tipping range"
+      },
+      {
+        "error": "Attempting explosive leg extraction against a tight lockdown without first addressing the underhook",
+        "consequence": "The pulling motion creates momentum that the bottom player redirects into the sweep, and the momentary base disruption provides the exact timing window needed for the reversal to succeed",
+        "correction": "Address the underhook first with crossface or whizzer before attempting to extract your trapped leg. Neutralize the rotational axis that powers the sweep before fighting the lockdown grip."
+      },
+      {
+        "error": "Allowing the bottom player to create a perpendicular angle without any resistance or counter-pressure",
+        "consequence": "Once the perpendicular angle is established with a deep underhook, the sweep becomes mechanically inevitable regardless of weight or strength differences between practitioners",
+        "correction": "Continuously apply forward crossface pressure to prevent angle creation. When you feel the bottom player walking their feet toward your hips, increase shoulder pressure and drive your chest into their shoulder to collapse the developing angle."
+      },
+      {
+        "error": "Making panicked explosive adjustments when feeling the sweep developing rather than responding methodically",
+        "consequence": "Uncontrolled movements create exactly the momentum shifts and weight transitions the sweeper needs, and you may expose your back or arms to alternative attacks during chaotic repositioning",
+        "correction": "Stay calm and address each sweep component methodically in priority order: counter the underhook, resist the angle creation, and maintain your base width. Systematic composed defense is far more effective than explosive panic reactions."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the earliest recognition cue that a Sweep from Zombie Guard is being set up?",
+        "answer": "The earliest cue is the bottom player beginning to walk their feet toward your hips to create a perpendicular body angle. This angle adjustment precedes the active sweep execution by several seconds and is the most reliable early indicator. You may also feel the underhook deepening and their head dropping below your chin level. Addressing this angle creation immediately by driving crossface pressure prevents the sweep from developing to its mechanical tipping point."
+      },
+      {
+        "question": "Which defensive response should you prioritize when you feel the lockdown stretch and the underhook drive simultaneously?",
+        "answer": "Prioritize neutralizing the underhook with either a deep whizzer or by swimming your arm through to re-establish your own underhook control. The underhook provides the rotational axis without which the sweep cannot complete regardless of how intense the lockdown stretch becomes. While the lockdown creates base disruption, it alone cannot reverse you without the underhook creating the critical turning moment. Once the underhook is neutralized, the lockdown stretch becomes manageable."
+      },
+      {
+        "question": "How do you maintain top position when the sweep has already progressed past the midpoint of execution?",
+        "answer": "If the sweep is past the mechanical tipping point, your best option is to post your far hand on the mat and immediately work to insert a knee between you and the opponent to prevent them from achieving full mount. Accept the positional change but fight for top half guard rather than allowing clean mount by inserting your knee shield frame during the reversal. This damage control approach preserves a recoverable position rather than fighting a losing battle."
+      },
+      {
+        "question": "What base adjustments prevent the lockdown stretch from compromising your stability?",
+        "answer": "Widen your free leg post significantly and angle it perpendicular to the lockdown's lateral pulling direction. Drop your hip on the locked side toward the mat to lower your center of gravity below the sweep's effective elevation range. Drive forward pressure through your chest rather than posting upright on your hands. The triangular base created by your free leg, your locked leg contact, and your chest pressure provides three-point stability that resists the sweep's rotational force."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Recognition Drills",
+        "focus": "Identifying sweep setup cues early through tactile awareness",
+        "description": "Partner slowly sets up the sweep components in isolation - angle creation, lockdown stretch deepening, underhook penetration - while you practice identifying each setup phase verbally. No resistance applied, purely recognition training. Call out each cue as you feel it to build automatic detection patterns."
+      },
+      {
+        "phase": "Phase 2: Individual Counter Practice",
+        "focus": "Practicing each defensive response in isolation against specific setup phases",
+        "description": "Partner sets up the sweep and freezes at specific development phases. Practice crossface counter against angle creation, whizzer insertion against underhook deepening, and wide base posting against hip elevation as individual isolated responses. Build muscle memory for each defensive tool independently."
+      },
+      {
+        "phase": "Phase 3: Progressive Sweep Defense",
+        "focus": "Defending against increasing sweep intensity across multiple rounds",
+        "description": "Partner attempts the full sweep at 40%, 60%, then 80% intensity across progressive rounds. Practice selecting and executing the appropriate defensive response based on which phase of the sweep you identify. Track at which development stage you successfully interrupt the sweep consistently."
+      },
+      {
+        "phase": "Phase 4: Counter-Offense Integration",
+        "focus": "Transitioning from successful defense directly into passing sequences",
+        "description": "After successfully defending the sweep, immediately transition to a passing sequence exploiting the positional advantage your defense created. Practice flowing from whizzer defense into leg extraction and pass, from crossface counter into pressure passing. The defense should create passing opportunities, not merely stall the sweep."
+      }
+    ]
+  }
+}

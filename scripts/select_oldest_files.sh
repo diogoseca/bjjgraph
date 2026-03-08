@@ -9,7 +9,7 @@ set -e
 
 NUM_FILES=${1:-10}
 cd "$(dirname "$0")/.."
-CONTENT_DIR="source/content"
+CONTENT_DIR="content"
 
 if [ ! -d "$CONTENT_DIR" ]; then
     echo "Error: Content directory not found at $CONTENT_DIR" >&2

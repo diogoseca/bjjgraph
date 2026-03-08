@@ -1,0 +1,395 @@
+{
+  "name": "Stack Escape from Triangle",
+  "description": "Master the Stack Escape from Triangle choke in BJJ. Step-by-step guide covering stacking mechanics, posture recovery, and passing to half guard or side control.",
+  "tags": [
+    "bjj",
+    "triangle escape",
+    "stack escape",
+    "guard defense",
+    "triangle defense",
+    "escape technique",
+    "positional escape"
+  ],
+  "from_position": "Triangle Control/Top",
+  "outcomes": [
+    {
+      "to": "Half Guard/Top",
+      "probability": 50,
+      "result": "success"
+    },
+    {
+      "to": "Triangle Control/Top",
+      "probability": 30,
+      "result": "failure"
+    },
+    {
+      "to": "Omoplata Control/Top",
+      "probability": 20,
+      "result": "counter"
+    }
+  ],
+  "success_rate": 50,
+  "overview": "The Stack Escape from Triangle is a fundamental defensive technique employed by the top player caught in an opponent's triangle choke. Rather than attempting to create lateral separation or extract the head, the stack escape uses forward driving pressure to fold the opponent's body onto their own shoulders and neck, collapsing the triangle's choking geometry by eliminating the perpendicular angle required for effective arterial compression. The technique exploits a critical vulnerability in the triangle position: when the bottom player's hips are driven above their shoulders, their legs lose the ability to extend and generate squeezing force, transforming the position from an active choking threat into a structurally weakened configuration.\n\nStrategically, the stack escape serves as both a primary escape method and a forcing function that creates predictable defensive reactions from the triangle player. The most common counter is the omoplata transition, where the bottom player releases the triangle lock and pivots to capture the trapped arm at the shoulder. Experienced practitioners recognize this exchange and prepare for the omoplata as a natural continuation of the stack sequence rather than a surprise counter. The technique rewards patience, proper grip establishment on the opponent's hips or pants, and controlled forward pressure over explosive or panicked movements that waste energy and create defensive openings.\n\nThe biomechanics of the stack work by changing the force vector of the triangle from horizontal compression to vertical loading. As the opponent's body folds, their legs transition from squeezing laterally across the neck to pressing vertically, which dramatically reduces arterial compression efficiency. The top player then uses this window of reduced choking pressure to systematically clear the triangle lock and transition to a passing position, most commonly landing in half guard top where the escape momentum can be converted into a guard pass.",
+  "conditions": [
+    "Caught in opponent's triangle choke from top position with posture broken",
+    "At least one hand available to establish grips on opponent's hips or pants",
+    "Triangle lock is established but practitioner retains consciousness and motor control",
+    "Sufficient mat space to drive forward and stack opponent onto their shoulders",
+    "Ability to post at least one foot on the mat to generate upward and forward driving force"
+  ],
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Standing Stack Escape",
+      "description": "Full standing variation where the top player stands completely upright before driving hips forward, generating maximum stacking force through full leg extension. Requires clearing the opponent's head control to establish full upright posture before committing to the forward drive.",
+      "when_to_use": "When opponent's triangle lock is loose enough to allow full standing, or when additional height is needed to generate sufficient stacking pressure against larger opponents with strong hip extension"
+    },
+    {
+      "variant_name": "Kneeling Stack Escape",
+      "description": "Modified version performed from the knees using progressive hip drive and upper body forward pressure without standing. The top player walks their knees forward incrementally while driving hips into the opponent, relying on gradual compression rather than explosive standing force.",
+      "when_to_use": "When opponent's head control prevents standing, when the triangle lock is too tight to create space for standing, or when the practitioner lacks the explosive strength needed for the standing variation"
+    },
+    {
+      "variant_name": "Shoulder Pin Stack",
+      "description": "Variation emphasizing control of the opponent's far shoulder throughout the stack to prevent omoplata transition. The free hand pins the opponent's far shoulder to the mat while the trapped hand grips the near-side pants, creating an anti-rotation frame that denies the hip pivot needed for omoplata entry.",
+      "when_to_use": "Against opponents known for quick omoplata transitions from triangle, or when the initial stack attempt triggers opponent rotation toward the trapped arm side indicating omoplata setup"
+    }
+  ],
+  "position_integration": "The Stack Escape from Triangle occupies a critical role in the defensive guard escape hierarchy, representing one of two primary escape pathways from the triangle choke alongside lateral head extraction methods. Within the broader BJJ positional system, this technique connects triangle defense to half guard passing and side control establishment, transforming a defensive crisis into a passing opportunity. Understanding this technique is essential for top players who must navigate triangle threats from all guard variations. The stack escape directly connects to the omoplata defense chain when the bottom player transitions during the attempt, making knowledge of both sequences inseparable for competent defensive play. The technique also serves as a decision-forcing mechanism in the guard exchange, creating predictable opponent reactions that experienced practitioners can anticipate and exploit.",
+  "related_content": [
+    {
+      "name": "Triangle Control",
+      "relationship": "Source position from which the stack escape is initiated by the caught top player"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Primary target position after successful stack escape and triangle clearance"
+    },
+    {
+      "name": "Omoplata Control",
+      "relationship": "Counter position opponent may transition to when stack compromises triangle angle"
+    },
+    {
+      "name": "Complete Triangle Escape from Top",
+      "relationship": "Alternative triangle escape using lateral head extraction rather than stacking mechanics"
+    },
+    {
+      "name": "Complete Triangle Escape",
+      "relationship": "Related escape technique addressing triangle defense from a different mechanical approach"
+    },
+    {
+      "name": "Posture Up from Triangle",
+      "relationship": "Prerequisite technique for establishing the posture needed to initiate the stack sequence"
+    },
+    {
+      "name": "Posture in Triangle",
+      "relationship": "Related defensive concept for managing posture inside triangle control before escaping"
+    },
+    {
+      "name": "Triangle Choke",
+      "relationship": "The primary submission threat being escaped through the stacking mechanism"
+    },
+    {
+      "name": "Closed Guard",
+      "relationship": "Alternative escape destination if triangle is cleared without completing a full pass"
+    },
+    {
+      "name": "Cartwheel Escape from Omoplata",
+      "relationship": "Follow-up escape technique if opponent successfully counters stack with omoplata transition"
+    }
+  ],
+  "attacker": {
+    "name": "Stack Escape from Triangle Attacker",
+    "description": "Complete guide to executing the Stack Escape from Triangle in BJJ. Learn posture recovery, stacking mechanics, grip positioning, and pass completion from the top position.",
+    "overview": "Executing the Stack Escape from Triangle requires the top player to transform a defensive crisis into a passing opportunity through systematic forward driving pressure. As the player caught in the triangle, your primary objective is to collapse the choking geometry by driving your opponent's hips above their shoulders, eliminating the perpendicular angle that generates arterial compression. The technique demands controlled aggression—establishing proper grips before standing, maintaining constant forward pressure during the stack, and immediately consolidating position after clearing the triangle lock. Success depends on recognizing the transition window between full triangle defense and the moment when the opponent's structure breaks down under sustained stacking pressure, then capitalizing on that window before the bottom player can transition to an omoplata or recover their choking angle.",
+    "key_principles": [
+      "Establish grips on opponent's hips or pants before initiating any upward movement to control their position throughout the stack sequence",
+      "Drive hips forward and upward rather than pulling backward—the escape works by collapsing the triangle's angle, not by creating distance from it",
+      "Tuck chin toward the trapped arm shoulder immediately upon being caught to reduce arterial compression and buy time for the escape sequence",
+      "Pin opponent's far shoulder to prevent rotation toward the omoplata transition that the stack naturally creates as a counter opportunity",
+      "Maintain constant forward pressure throughout the stack rather than using explosive bursts that fatigue quickly and create defensive openings",
+      "Consolidate position immediately after clearing the triangle—do not pause between breaking the lock and establishing half guard or side control"
+    ],
+    "setup_requirements": [
+      "Assess triangle tightness and identify which arm is trapped versus free before committing to the escape",
+      "Establish grips on both of opponent's hips, pants, or belt with trapped and free hands",
+      "Tuck chin toward trapped arm shoulder to create neck space and reduce choking pressure",
+      "Post at least one foot on the mat near opponent's hip to generate upward and forward driving force",
+      "Confirm sufficient consciousness and motor control to execute a multi-step escape under blood flow restriction"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Immediate chin tuck and posture assessment",
+        "description": "The moment you recognize the triangle is locked, tuck your chin firmly toward the trapped arm shoulder. This creates space between your neck and the opponent's thigh, reducing arterial compression. Assess the tightness of the lock, note which arm is trapped, and identify your free hand position. Begin controlled breathing to manage blood flow restriction and maintain cognitive function throughout the escape."
+      },
+      {
+        "step_number": 2,
+        "action": "Establish hip and pants grips",
+        "description": "With your free hand, grip the opponent's same-side hip or pant leg at the hip crease. Walk your trapped hand down to grip the opponent's opposite pant leg or hip. These bilateral grips are essential for controlling the opponent's hip angle throughout the stack and preventing them from adjusting their perpendicular finishing angle as you drive forward. Without these grips, the opponent can follow your movement and maintain choking pressure."
+      },
+      {
+        "step_number": 3,
+        "action": "Post foot and begin posture recovery",
+        "description": "Post your free-side foot on the mat near the opponent's hip, keeping your knee outside their body. Use this posted leg to begin driving upward, generating force through your quad and glute. The goal is to create enough vertical height to begin driving forward rather than being pulled down into the choking angle. Keep your core engaged and spine aligned to prevent the opponent from collapsing your posture back down with head control."
+      },
+      {
+        "step_number": 4,
+        "action": "Drive hips forward to initiate stack",
+        "description": "Drive your hips aggressively forward toward the opponent's head, forcing their body weight onto their shoulders and upper back. Keep constant forward pressure as you walk your knees toward their head. The opponent's legs will progressively lose their squeezing angle as their body folds and their hips rise above their shoulders. Maintain your grip on their hips throughout this drive to prevent them from scooting their hips away or recovering the perpendicular angle."
+      },
+      {
+        "step_number": 5,
+        "action": "Pin far shoulder and maintain stack pressure",
+        "description": "With the opponent stacked on their shoulders, use your free hand to pin their far shoulder to the mat. This anti-rotation control prevents them from pivoting their hips to transition to the omoplata, which is the highest-percentage counter to the stack. Maintain downward chest pressure while keeping your hips high and driving forward. The opponent should be compressed with their knees near their face, unable to extend their legs for choking pressure."
+      },
+      {
+        "step_number": 6,
+        "action": "Clear the triangle lock",
+        "description": "While maintaining stack pressure and shoulder pin, work to break the triangle configuration. Push down on the locking ankle with one hand while turning your head and body toward the trapped arm side to slide free. Alternatively, use your posted hand to peel the top leg off your neck while driving your knee across. The key is to keep forward pressure constant during clearance—any relief of the stack allows the opponent to relock or transition."
+      },
+      {
+        "step_number": 7,
+        "action": "Drive knee across to establish passing position",
+        "description": "As the triangle breaks open, immediately drive your knee across the opponent's thigh line to establish half guard top or side control. Do not allow any space for the opponent to recover guard or re-engage their legs around your head. Use the same forward momentum from the stack to slide through into your passing position. Establish crossface control or underhook on the near side as your knee crosses to begin securing the new position."
+      },
+      {
+        "step_number": 8,
+        "action": "Consolidate position",
+        "description": "Once past the triangle, secure your new position immediately with chest-to-chest pressure and upper body control. Establish crossface and underhook to prevent guard recovery. If in half guard top, begin systematic passing. If in side control, consolidate with shoulder pressure and hip control. Speed of consolidation is critical—the opponent is momentarily disorganized from the stack and this window closes quickly as they recover composure and defensive framing."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Angle re-adjustment through hip escaping to maintain perpendicular choking geometry",
+        "effectiveness": "High",
+        "your_response": "Pin their far shoulder to the mat with your free hand to prevent hip rotation and maintain constant forward driving pressure to override their angle adjustment before it completes",
+        "targets_outcome": "Triangle Control/Top"
+      },
+      {
+        "counter": "Omoplata transition by releasing triangle lock and pivoting hips to capture trapped arm",
+        "effectiveness": "High",
+        "your_response": "Keep trapped elbow tight to your ribcage, immediately pin their far shoulder to deny the rotation, and if the pivot begins, circle away from the omoplata direction while maintaining forward stack pressure",
+        "targets_outcome": "Omoplata Control/Top"
+      },
+      {
+        "counter": "Head pull with both hands to break posture and re-establish triangle choking pressure before stack develops",
+        "effectiveness": "Medium",
+        "your_response": "Drive chin into their sternum and use your posted leg to generate upward force through your entire body with core engaged, walk posted foot closer to their hip for stronger mechanical angle",
+        "targets_outcome": "Triangle Control/Top"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Pulling trapped arm out before establishing stack position",
+        "consequence": "Creates additional space inside the triangle that allows opponent to tighten the lock further, and the arm extraction uses the arm as a lever against your own neck amplifying choking pressure",
+        "correction": "Establish full stack pressure first to loosen the overall triangle structure before addressing arm positioning—the arm will come free naturally as the triangle geometry collapses"
+      },
+      {
+        "error": "Leaning backward or pulling away instead of driving hips forward during escape attempt",
+        "consequence": "Creates distance that allows opponent to extend hips fully and maintain optimal choking angle, often tightening the triangle rather than loosening it",
+        "correction": "Drive hips forward and upward aggressively, keep weight moving toward opponent's head to collapse the triangle angle rather than fighting the squeeze from distance"
+      },
+      {
+        "error": "Standing without first establishing grips on opponent's hips or pants",
+        "consequence": "Opponent can maintain angle adjustments and follow your movement, keeping choking pressure constant regardless of your height, and may use your upright posture to create armbar transition",
+        "correction": "Establish bilateral grips on both hips, belt, or pants before standing to control opponent's position and prevent them from adjusting angle during the stack"
+      },
+      {
+        "error": "Failing to pin opponent's far shoulder during the stack",
+        "consequence": "Opponent rotates freely to the omoplata position using the stacking momentum against you, converting your escape attempt into a worse positional outcome",
+        "correction": "Dedicate your free hand to controlling opponent's far shoulder throughout the stack, creating an anti-rotation frame that denies the hip pivot needed for omoplata entry"
+      },
+      {
+        "error": "Rushing the pass after breaking the triangle without consolidating position",
+        "consequence": "Opponent recovers guard, recloses triangle, or establishes defensive frames before you can secure dominant position",
+        "correction": "Immediately establish crossface and underhook control as the triangle breaks, securing half guard top or side control methodically before attempting further advancement"
+      },
+      {
+        "error": "Not tucking chin toward trapped arm shoulder during initial defense",
+        "consequence": "Accelerates arterial compression and blood flow restriction, reducing the time window available for executing the escape and potentially causing premature loss of consciousness",
+        "correction": "Immediately tuck chin toward the trapped arm shoulder as a reflexive first response to create space in the neck and reduce the severity of the arterial compression"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Stack Mechanics",
+        "focus": "Basic standing and driving movement patterns",
+        "description": "Practice standing from triangle position and driving hips forward with no resistance. Focus on proper foot placement, weight transfer forward rather than backward, and hip drive mechanics. Build muscle memory for the forward compression motion that collapses the triangle angle."
+      },
+      {
+        "phase": "Phase 2: Grip Establishment and Control",
+        "focus": "Hand positioning and opponent hip control",
+        "description": "Add grip fighting elements to the stack sequence. Practice grabbing pants and hips with both hands, pinning the far shoulder, and controlling opponent's ability to adjust angle. Partner provides light resistance to simulate grip fighting."
+      },
+      {
+        "phase": "Phase 3: Counter Recognition",
+        "focus": "Identifying and responding to omoplata transitions and angle adjustments",
+        "description": "Partner begins attempting omoplata transitions and angle re-adjustments during the stack. Practice recognizing these counters through tactile and visual cues, and applying appropriate responses including shoulder pin, elbow tuck, and directional circling."
+      },
+      {
+        "phase": "Phase 4: Progressive Resistance Drilling",
+        "focus": "Full escape sequence under increasing resistance",
+        "description": "Positional sparring starting in triangle control. Practice the complete stack escape sequence against progressive resistance from 50% to 75% to full resistance. Develop timing, decision-making under pressure, and ability to chain with alternative escapes when the stack is denied."
+      },
+      {
+        "phase": "Phase 5: Pass Integration",
+        "focus": "Connecting escape to passing game",
+        "description": "After breaking the triangle, immediately transition to half guard passing or side control consolidation. Practice the escape as part of a complete positional sequence rather than an isolated technique, emphasizing the speed of consolidation after clearing the lock."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the first defensive action you should take when caught in a triangle before attempting the stack escape?",
+        "answer": "Tuck your chin immediately toward the trapped arm shoulder to create space between your neck and the opponent's thigh. This reduces arterial compression, buys time for the escape sequence, and prevents the choke from reaching critical blood flow restriction before you can establish grips and initiate the stack."
+      },
+      {
+        "question": "Why is driving your hips forward and upward the critical mechanical movement in the stack escape rather than pulling backward?",
+        "answer": "Forward hip drive forces the opponent's body weight onto their shoulders and upper back, collapsing the triangle structure by changing the angle of their legs relative to your neck. This reduces squeezing power because their legs can no longer extend effectively, and it removes the perpendicular angle they need for optimal arterial compression. Pulling backward maintains the angle and allows them to extend."
+      },
+      {
+        "question": "Your opponent begins rotating their hips to transition to an omoplata as you initiate the stack—how do you respond?",
+        "answer": "Immediately pin their far shoulder to the mat with your free hand to prevent the rotation needed for the omoplata entry. Keep your trapped elbow tight to your body to deny the lever they need for the shoulder lock. If the rotation has already begun, circle away from the omoplata direction while maintaining forward stack pressure to deny completion of the pivot."
+      },
+      {
+        "question": "What grip configuration should you establish before standing up to initiate the stack?",
+        "answer": "Grip both of the opponent's hips or pants at hip level with both hands. The trapped hand grabs the same-side pant leg or hip, while the free hand controls the opposite hip. These bilateral grips allow you to control the opponent's hip angle and prevent them from scooting away or adjusting their perpendicular finishing position as you drive forward into the stack."
+      },
+      {
+        "question": "Why should you avoid attempting to extract your trapped arm before establishing the stack position?",
+        "answer": "Pulling the trapped arm creates additional space inside the triangle that allows the opponent to tighten the lock further. The arm extraction attempt also uses the arm as a lever against your own neck, amplifying choking pressure temporarily. Instead, establish the stack first to loosen the overall structure—the arm will come free more easily as the triangle geometry collapses under stacking pressure."
+      },
+      {
+        "question": "What determines whether you end up in half guard top or side control after a successful stack escape?",
+        "answer": "The speed and completeness of your leg clearance determines your final position. If you fully clear both legs and drive your knee across before the opponent recovers any leg entanglement, you achieve side control. If the opponent manages to recapture one leg during the clearance phase, you land in half guard top, which is still a successful escape requiring systematic passing to advance further."
+      },
+      {
+        "question": "Your opponent pulls your head down with both hands as you attempt to posture for the stack—what is your immediate adjustment?",
+        "answer": "Drive your chin into their sternum and use your posted leg to generate upward force through your entire body with your core fully engaged. Keep your spine straight rather than fighting the pull with just neck muscles. Walk your posted foot closer to their hip to create a stronger mechanical angle for posture recovery, using your leg strength rather than upper body alone to overcome their head control."
+      },
+      {
+        "question": "What is the most important action immediately after clearing the triangle lock?",
+        "answer": "Immediately establish positional control by driving into crossface or underhook on the pass side. Do not pause after clearing the triangle—the opponent is momentarily disorganized from being stacked and this window is critical for consolidating half guard top or side control before they recover their defensive framing and guard retention reflexes."
+      }
+    ],
+    "safety_considerations": "Stack escapes involve driving significant weight onto an opponent's neck and spine. Always control stacking pressure gradually and never slam or drop weight explosively onto a stacked opponent. Monitor your own neck throughout for signs of blood flow restriction including lightheadedness, tunnel vision, or tingling—tap immediately if you experience these symptoms before the escape is established. Communicate with training partners about neck discomfort during drilling. Partners being stacked should tap if they experience pain in the cervical spine, and the stacking player must release pressure immediately upon any tap signal."
+  },
+  "defender": {
+    "name": "Stack Escape from Triangle Defender",
+    "description": "Defend against the Stack Escape from Triangle in BJJ. Learn to maintain triangle control, adjust choking angles, and transition to omoplata when the opponent commits to stacking.",
+    "overview": "Defending against the Stack Escape requires the triangle bottom player to maintain choking geometry under increasing forward pressure while preparing secondary attack transitions. As the practitioner with the triangle locked, your primary defensive objective is to preserve the perpendicular angle that generates arterial compression by constantly adjusting hip position through hip escaping to the choking leg side. When the stack progresses beyond a recoverable triangle angle, transitioning to the omoplata represents the highest-percentage counter, using the opponent's own forward commitment against them. Understanding the decision point between maintaining the triangle and transitioning to omoplata is the critical defensive skill that separates effective triangle players from those who lose their position entirely when opponents commit to the stack. The defender must also maintain constant head control and hip extension to resist the stack before it develops full compression, as early intervention is significantly more effective than late-stage resistance.",
+    "key_principles": [
+      "Maintain the perpendicular choking angle through constant hip adjustment—the triangle's effectiveness depends on geometric positioning, not raw squeezing force",
+      "Control opponent's posture through persistent head pulling and grip management on the back of their neck or collar to prevent them from achieving the upright stance needed to initiate the stack",
+      "Recognize stack attempts early through tactile cues and preemptively adjust hips before the opponent generates full stacking leverage",
+      "Prepare the omoplata transition as your primary counter before it becomes necessary—when the stack neutralizes your triangle angle, the omoplata window is brief",
+      "Use hip extension and active leg engagement to resist the stack by driving hips upward and away from your own shoulders, maintaining the space needed for effective arterial compression",
+      "Keep one hand controlling the opponent's trapped arm to prevent grip changes that enable them to establish the bilateral hip control needed for the stack"
+    ],
+    "recognition_cues": [
+      "Opponent begins posturing up and posts a foot on the mat near your hip, shifting weight from knees to feet",
+      "Opponent grabs your pants at both hips or belt with both hands, establishing bilateral control for forward drive",
+      "Opponent's weight shifts forward and upward as they begin walking knees toward your head",
+      "Opponent tucks chin toward their trapped arm shoulder, indicating preparation for sustained forward pressure",
+      "Opponent's chest begins rising away from your body as they generate the vertical clearance needed to drive forward into the stack"
+    ],
+    "defensive_options": [
+      {
+        "action": "Hip escape to choking leg side to re-establish perpendicular finishing angle before stack develops full pressure",
+        "when_to_use": "When opponent begins driving forward but has not yet fully committed to the stack with both feet posted",
+        "targets_outcome": "Triangle Control/Top",
+        "if_successful": "Maintain full triangle choking pressure with restored perpendicular angle, forcing opponent to restart their escape sequence",
+        "risk": "If timed too late, the opponent's forward momentum overrides the angle adjustment and the stack continues with additional compression"
+      },
+      {
+        "action": "Transition to omoplata by releasing triangle lock and pivoting hips to capture trapped arm at the shoulder",
+        "when_to_use": "When the stack has progressed to the point where your triangle angle is fully compromised and your back is being driven flat despite hip adjustments",
+        "targets_outcome": "Omoplata Control/Top",
+        "if_successful": "Establish dominant omoplata control with sweep and submission options, converting the opponent's escape attempt into a worse position",
+        "risk": "If the pivot is incomplete or too slow, the opponent may extract their arm and complete the pass to side control"
+      },
+      {
+        "action": "Pull opponent's head down with both hands while extending hips upward to break their posture and re-establish choking pressure",
+        "when_to_use": "Early in the stack attempt before the opponent has established full upright posture and bilateral hip grips",
+        "targets_outcome": "Triangle Control/Top",
+        "if_successful": "Collapse opponent's posture back into the triangle, restoring full choking pressure and denying the postural foundation for the stack",
+        "risk": "If opponent's posture is already too established, pulling the head wastes energy without breaking the stack and delays the omoplata transition window"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Triangle Control/Top",
+        "how": "Maintain the perpendicular choking angle through constant hip escaping to the choking leg side. Pull the opponent's head down aggressively with both hands, extend hips for maximum upward pressure, and keep the choking leg's knee pointing toward the trapped shoulder to sustain arterial compression despite stacking attempts."
+      },
+      {
+        "outcome": "Omoplata Control/Top",
+        "how": "When the stack neutralizes your triangle angle beyond recovery, immediately release the lock and pivot your hips toward the trapped arm side. Shoot your top leg through to capture the opponent's arm at the shoulder joint, establishing omoplata control before they can posture up and extract the arm. Use their forward stacking momentum to assist the rotation."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Remaining flat on back instead of actively hip escaping to maintain the perpendicular choking angle during the stack",
+        "consequence": "The stack easily compresses your legs and eliminates the geometric angle needed for arterial compression, leading to complete triangle breakdown and pass",
+        "correction": "Continuously hip escape to the choking leg side to maintain the 30-45 degree perpendicular angle even under stacking pressure, treating angle maintenance as your primary defensive priority"
+      },
+      {
+        "error": "Holding onto the triangle lock too long when the stack has fully neutralized the choking angle",
+        "consequence": "Miss the narrow window for the omoplata transition as the opponent clears the triangle, ending up with no submission threat and an opponent in passing position",
+        "correction": "Recognize when the stack has progressed beyond recoverable triangle angle and immediately initiate the omoplata transition before the opponent begins clearing your legs"
+      },
+      {
+        "error": "Releasing head control to fight the opponent's grips on your pants or hips",
+        "consequence": "Opponent achieves full upright posture and drives the stack through with maximum forward pressure against no postural resistance",
+        "correction": "Maintain head control as the absolute highest defensive priority—breaking their posture is more effective than fighting their pants grips because the stack requires postural foundation to generate force"
+      },
+      {
+        "error": "Compensating for lost angle by squeezing legs harder rather than adjusting hip position",
+        "consequence": "Burns leg endurance rapidly without generating effective choking pressure, leaving you exhausted and unable to maintain the triangle or transition to omoplata",
+        "correction": "Focus on re-establishing the perpendicular angle through hip movement rather than compensating with raw squeezing force, as the triangle works through geometric positioning not muscle power"
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the earliest recognition cue that your opponent is attempting a stack escape from your triangle?",
+        "answer": "The primary early cue is the opponent posting a foot on the mat near your hip and beginning to shift their weight from knees to feet. This weight redistribution is the earliest indication of a stack attempt and provides the maximum window for preemptive angle adjustment through hip escaping before they generate full stacking pressure with bilateral hip grips."
+      },
+      {
+        "question": "When should you abandon the triangle and transition to omoplata instead of continuing to fight the stack?",
+        "answer": "Transition to omoplata when you can no longer maintain the perpendicular angle needed for effective arterial compression despite hip adjustments. If your back is being driven flat and your legs are losing their squeeze angle with the opponent's hips clearly above your shoulders, the stack has progressed beyond triangle recovery. The omoplata transition must be initiated before the opponent begins clearing your legs from around their neck."
+      },
+      {
+        "question": "Why is maintaining the perpendicular angle more important than squeezing harder when being stacked?",
+        "answer": "The triangle choke works through carotid artery compression at a specific geometric angle between your legs and the opponent's neck, not through raw squeezing force. Squeezing harder with legs in a compromised angle burns muscular endurance without generating effective choking pressure on the arteries. Maintaining the 30-45 degree perpendicular angle ensures that whatever leg pressure you apply is directed into the correct anatomical targets for arterial compression."
+      },
+      {
+        "question": "Your opponent has established grips on both your hips and is beginning to stand—what is your priority defensive action?",
+        "answer": "Your priority is maintaining head control by pulling their head down with both hands or gripping behind their neck. If you break their posture before they fully stand, the stack loses its driving foundation. Simultaneously begin hip escaping to the choking leg side to re-establish your angle. If the posture break fails and they achieve full standing posture, immediately prepare for the omoplata transition rather than continuing to fight from a deteriorating triangle."
+      },
+      {
+        "question": "How does hip extension help defend against a stack escape from your triangle?",
+        "answer": "Hip extension drives your pelvis upward and away from the mat, maintaining the vertical component of the choking pressure that the stack is designed to neutralize. By extending your hips, you prevent your body from being folded in half onto your own shoulders and keep your legs in a position where they can maintain effective squeeze on the opponent's carotid arteries even as their body drives forward into the stack."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Recognition Drilling",
+        "focus": "Early identification of stack attempt cues",
+        "description": "Partner initiates stack escape at varying speeds and intensities. Practice identifying the earliest cues including foot posting, grip changes on your hips, and weight shift forward. Respond with immediate angle adjustment through hip escaping before the stack develops full forward pressure."
+      },
+      {
+        "phase": "Phase 2: Angle Maintenance Under Pressure",
+        "focus": "Hip escape and angle recovery during progressive stacking",
+        "description": "Partner applies progressive stacking pressure from 50% to 75% to full resistance while you maintain triangle angle through constant hip escaping and re-angling to the choking leg side. Build endurance and mechanical efficiency for sustained angle maintenance under increasing compression."
+      },
+      {
+        "phase": "Phase 3: Omoplata Transition Timing",
+        "focus": "Decision point between maintaining triangle and transitioning to omoplata",
+        "description": "Practice the critical decision point between holding the triangle and pivoting to omoplata. Partner commits to the stack at various levels of intensity. Develop the ability to recognize the exact moment when triangle recovery is no longer viable and execute the omoplata pivot smoothly."
+      },
+      {
+        "phase": "Phase 4: Live Positional Defense",
+        "focus": "Full resistance triangle retention against stacking with all defensive options",
+        "description": "Positional sparring starting in triangle control with partner's goal being the stack escape. Practice the full defensive repertoire including angle maintenance, head control, hip extension, and omoplata transitions against unrestricted resistance with emphasis on reading the opponent and selecting the correct response."
+      }
+    ]
+  }
+}

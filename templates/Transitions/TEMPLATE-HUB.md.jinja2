@@ -1,0 +1,143 @@
+{# BJJ Transition Hub Page Template #}
+{# Generates hub pages with summaries from attacker and defender perspectives #}
+{# Input: Root fields (name, description, overview, etc.) + attacker, defender, outcomes #}
+
+---
+title: "{{ name }} | BJJ Technique | BJJ Graph"
+description: "{{ description }}"
+---
+
+{# PostHog A/B Testing Metadata #}
+<body data-content-type="transitions-hub">
+
+{# Flexbox wrapper for A/B testing #}
+<main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+<div class="role-links">
+
+[[{{ name }}/Attacker|Play as Attacker]]
+[[{{ name }}/Defender|Play as Defender]]
+
+</div>
+
+<section id="overview" class="content-section">
+
+{{ overview }}
+
+**From Position**: [[{{ resolve(from_position.split('/')[0]) }}]] ({{ from_position.split('/')[1] if '/' in from_position else '' }})
+**Success Rate**: {{ success_rate }}%
+
+</section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+{% for outcome in outcomes -%}
+| {{ outcome.result | capitalize }} | [[{{ resolve(outcome.to.split('/')[0] if '/' in outcome.to else outcome.to) }}]] | {{ outcome.probability }}% |
+{% endfor %}
+
+</section>
+
+<section class="content-section">
+
+## Attacker vs Defender
+
+| &nbsp; | Attacker | Defender |
+|--------|----------|----------|
+| **Focus** | Execute technique | Prevent or counter |
+| **Key Principles** | {{ attacker.key_principles[0][:60] }}... | {{ defender.key_principles[0][:60] }}... |
+| **Options** | {{ attacker.execution_steps | length }} execution steps | {{ defender.defensive_options | length }} defensive options |
+
+</section>
+
+<section id="attacker-summary" class="content-section">
+
+## Playing as Attacker
+
+[[{{ name }}/Attacker|→ Full Attacker Guide]]
+
+### Key Principles
+
+{% for principle in attacker.key_principles %}
+- {{ principle }}
+{% endfor %}
+
+### Execution Steps
+
+{% for step in attacker.execution_steps %}
+- **{{ step.action }}**: {{ step.description[:100] }}...
+{% endfor %}
+
+### Common Mistakes
+
+{% for error in attacker.common_errors[:3] %}
+- **{{ error.error }}**
+  - Consequence: {{ error.consequence }}
+  - Correction: {{ error.correction }}
+{% endfor %}
+
+</section>
+
+<section id="defender-summary" class="content-section">
+
+## Playing as Defender
+
+[[{{ name }}/Defender|→ Full Defender Guide]]
+
+### Key Principles
+
+{% for principle in defender.key_principles %}
+- {{ principle }}
+{% endfor %}
+
+### Recognition Cues
+
+{% for cue in defender.recognition_cues %}
+- {{ cue }}
+{% endfor %}
+
+### Defensive Options
+
+{% for option in defender.defensive_options[:3] %}
+- **{{ option.action }}** - When: {{ option.when_to_use }}
+{% endfor %}
+
+</section>
+
+{% if variants_and_adaptations is defined and variants_and_adaptations %}
+<section id="variants" class="content-section hide-minimal">
+
+## Variations
+
+{% for variant in variants_and_adaptations %}
+**{{ variant.variant_name }}**: {{ variant.description }}{% if variant.when_to_use %} (When to use: {{ variant.when_to_use }}){% endif %}
+
+{% endfor %}
+
+</section>
+{% endif %}
+
+{% if position_integration is defined and position_integration %}
+<section id="position-integration" class="content-section">
+
+## Position Integration
+
+{{ position_integration }}
+
+</section>
+{% endif %}
+
+<section id="related-content" class="content-section">
+
+## Related Techniques
+
+{% for item in related_content %}
+- [[{{ resolve(item.name) }}]] - {{ item.relationship }}
+{% endfor %}
+
+</section>
+
+</main>

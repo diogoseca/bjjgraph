@@ -1,0 +1,419 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "BJJ Position Single Template Schema",
+  "description": "JSON Schema for neutral/asymmetric positions with NO clear top/bottom distinction (Standing, Clinch, Scramble). Generates single comprehensive page.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "name",
+    "description",
+    "tags",
+    "variant_uniqueness",
+    "overview",
+    "state_properties",
+    "state_invariants",
+    "prerequisites",
+    "key_principles",
+    "transitions",
+    "decision_tree",
+    "common_errors",
+    "training_drills",
+    "related_content",
+    "position_metrics"
+  ],
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "Position name (must match filename without .json)",
+      "minLength": 1,
+      "examples": [
+        "Standing Position",
+        "Clinch Position"
+      ]
+    },
+    "description": {
+      "type": "string",
+      "description": "SEO meta description 150-160 characters",
+      "minLength": 140,
+      "maxLength": 180,
+      "examples": [
+        "Master standing position in BJJ. Complete guide to grips, takedowns, guard pulls, and maintaining balance with offensive and defensive strategies."
+      ]
+    },
+    "tags": {
+      "type": "array",
+      "description": "Content tags (minimum 3)",
+      "minItems": 3,
+      "items": {
+        "type": "string"
+      },
+      "examples": [
+        [
+          "bjj",
+          "position",
+          "standing",
+          "neutral",
+          "takedowns"
+        ]
+      ]
+    },
+    "variant_uniqueness": {
+      "type": "string",
+      "description": "What makes this neutral position unique (20-50 characters)",
+      "minLength": 20,
+      "maxLength": 50,
+      "examples": [
+        "Upright posture with equal offensive access for both players"
+      ]
+    },
+    "overview": {
+      "type": "string",
+      "description": "2-3 paragraph position description with strategic context (400+ characters)",
+      "minLength": 400,
+      "examples": [
+        "Standing position is the neutral starting state in Brazilian Jiu-Jitsu where both practitioners are on their feet..."
+      ]
+    },
+    "state_properties": {
+      "type": "object",
+      "description": "Core state machine properties",
+      "additionalProperties": false,
+      "required": [
+        "point_value",
+        "position_type",
+        "risk_level",
+        "energy_cost",
+        "time_sustainability"
+      ],
+      "properties": {
+        "point_value": {
+          "type": "integer",
+          "description": "IBJJF points (0=neutral, 2=advantage, 3=pass, 4=mount/back)",
+          "minimum": 0,
+          "maximum": 4
+        },
+        "position_type": {
+          "type": "string",
+          "enum": [
+            "Neutral",
+            "Offensive",
+            "Defensive",
+            "Controlling",
+            "Offensive/Controlling",
+            "Defensive with offensive options"
+          ]
+        },
+        "risk_level": {
+          "type": "string",
+          "enum": [
+            "Low",
+            "Medium",
+            "High",
+            "Low to Medium",
+            "Medium to High"
+          ]
+        },
+        "energy_cost": {
+          "type": "string",
+          "enum": [
+            "Low",
+            "Medium",
+            "High"
+          ]
+        },
+        "time_sustainability": {
+          "type": "string",
+          "enum": [
+            "Short",
+            "Medium",
+            "Long",
+            "Short to Medium",
+            "Medium to Long"
+          ]
+        }
+      }
+    },
+    "state_invariants": {
+      "type": "array",
+      "description": "Conditions that must remain true with anatomical detail (minimum 3, 50+ characters each)",
+      "minItems": 3,
+      "items": {
+        "type": "string",
+        "minLength": 50
+      },
+      "examples": [
+        [
+          "Both practitioners on feet in athletic stance with balanced posture",
+          "Engagement through grips (gi) or body control (no-gi) being established",
+          "Equal opportunity for both players to initiate attacks or defensive positioning"
+        ]
+      ]
+    },
+    "prerequisites": {
+      "type": "array",
+      "description": "Conditions before entering position (minimum 3)",
+      "minItems": 3,
+      "items": {
+        "type": "string"
+      },
+      "examples": [
+        [
+          "Basic athletic stance and balance",
+          "Understanding of grip fighting principles",
+          "Awareness of takedown and guard pull mechanics"
+        ]
+      ]
+    },
+    "key_principles": {
+      "type": "array",
+      "description": "5-7 fundamental principles",
+      "minItems": 5,
+      "maxItems": 7,
+      "items": {
+        "type": "string"
+      },
+      "examples": [
+        [
+          "Maintain good posture with bent knees and low center of gravity",
+          "Establish dominant grips before attempting takedowns or pulls",
+          "Control distance and angles to set up attacks"
+        ]
+      ]
+    },
+    "transitions": {
+      "type": "array",
+      "description": "Available transitions from this position. attempt_probability MUST sum to 100%",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "transition",
+          "attempt_probability"
+        ],
+        "properties": {
+          "transition": {
+            "type": "string",
+            "description": "Name of the transition technique (must exist as Transition JSON)"
+          },
+          "attempt_probability": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 100,
+            "description": "Probability this transition is attempted (all must sum to 100%)"
+          }
+        }
+      }
+    },
+    "decision_tree": {
+      "type": "array",
+      "description": "If/else logic for state transitions (minimum 3)",
+      "minItems": 3,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "condition",
+          "actions"
+        ],
+        "properties": {
+          "condition": {
+            "type": "string",
+            "description": "If/else if condition describing opponent behavior (10+ characters)",
+            "minLength": 10
+          },
+          "actions": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "technique",
+                "target",
+                "probability"
+              ],
+              "properties": {
+                "technique": {
+                  "type": "string",
+                  "minLength": 3
+                },
+                "target": {
+                  "type": "string",
+                  "minLength": 3
+                },
+                "probability": {
+                  "type": "integer",
+                  "minimum": 0,
+                  "maximum": 100
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "common_errors": {
+      "type": "array",
+      "description": "Common mistakes with corrections (minimum 5)",
+      "minItems": 5,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "error",
+          "consequence",
+          "correction"
+        ],
+        "properties": {
+          "error": {
+            "type": "string",
+            "minLength": 10
+          },
+          "consequence": {
+            "type": "string",
+            "minLength": 10
+          },
+          "correction": {
+            "type": "string",
+            "minLength": 10
+          }
+        }
+      }
+    },
+    "training_drills": {
+      "type": "array",
+      "description": "Practice drills (minimum 3)",
+      "minItems": 3,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "name",
+          "description"
+        ],
+        "properties": {
+          "name": {
+            "type": "string",
+            "minLength": 3
+          },
+          "description": {
+            "type": "string",
+            "minLength": 20
+          },
+          "duration": {
+            "type": "string",
+            "description": "Optional drill duration",
+            "examples": [
+              "3 minutes",
+              "5 minutes",
+              "2 minutes"
+            ]
+          }
+        }
+      }
+    },
+    "related_content": {
+      "type": "array",
+      "description": "Related positions/techniques (3-15 items)",
+      "minItems": 3,
+      "maxItems": 15,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "name",
+          "relationship"
+        ],
+        "properties": {
+          "name": {
+            "type": "string",
+            "description": "Related content name",
+            "minLength": 1
+          },
+          "relationship": {
+            "type": "string",
+            "description": "How it relates (e.g., 'Common destination via guard pull') (5+ characters)",
+            "minLength": 5
+          }
+        }
+      }
+    },
+    "position_metrics": {
+      "type": "object",
+      "description": "Success rates, retention rates, probabilities",
+      "additionalProperties": false,
+      "required": [
+        "retention_rate",
+        "advancement_probability",
+        "submission_probability"
+      ],
+      "properties": {
+        "retention_rate": {
+          "allOf": [
+            { "$ref": "#/$defs/value_with_description" },
+            { "description": "Position retention rate" }
+          ]
+        },
+        "advancement_probability": {
+          "allOf": [
+            { "$ref": "#/$defs/value_with_description" },
+            { "description": "Probability of advancing to better position" }
+          ]
+        },
+        "submission_probability": {
+          "allOf": [
+            { "$ref": "#/$defs/value_with_description" },
+            { "description": "Probability of finishing from this position" }
+          ]
+        },
+        "average_time": {
+          "type": "string",
+          "description": "Average time spent in position (optional)"
+        }
+      }
+    },
+    "knowledge_assessment": {
+      "type": "array",
+      "description": "Q&A pairs about this position (optional)",
+      "minItems": 6,
+      "maxItems": 8,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["question", "answer"],
+        "properties": {
+          "question": {
+            "type": "string",
+            "pattern": ".*\\?$",
+            "description": "Question about position mechanics, strategy, or technique"
+          },
+          "answer": {
+            "type": "string",
+            "minLength": 50,
+            "description": "Detailed answer (50+ characters)"
+          }
+        }
+      }
+    }
+  },
+  "$defs": {
+    "value_with_description": {
+      "type": "object",
+      "description": "A metric value with optional description",
+      "additionalProperties": false,
+      "required": ["value"],
+      "properties": {
+        "value": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 100,
+          "description": "Percentage value (0-100)"
+        },
+        "description": {
+          "type": "string",
+          "description": "Optional description of this metric"
+        }
+      }
+    }
+  }
+}

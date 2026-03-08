@@ -88,8 +88,8 @@ type TweenNode = {
 // Helper to get hub slug from Bottom/Top role pages (playing_as model)
 function getHubSlug(nodeId: SimpleSlug): SimpleSlug {
   const lowerNodeId = nodeId.toLowerCase()
-  if (lowerNodeId.endsWith('/bottom') || lowerNodeId.endsWith('/top')) {
-    return nodeId.split('/').slice(0, -1).join('/') as SimpleSlug
+  if (lowerNodeId.endsWith("/bottom") || lowerNodeId.endsWith("/top")) {
+    return nodeId.split("/").slice(0, -1).join("/") as SimpleSlug
   }
   return nodeId
 }
@@ -152,26 +152,24 @@ async function renderGraph(container: string, fullSlug: FullSlug) {
 
   // Define the 6 main category hub pages
   const categoryHubs = new Set<SimpleSlug>([
-    'positions' as SimpleSlug,
-    'transitions' as SimpleSlug,
-    'submissions' as SimpleSlug,
-    'systems' as SimpleSlug,
-    'principles' as SimpleSlug,
-    'learning' as SimpleSlug
+    "positions" as SimpleSlug,
+    "transitions" as SimpleSlug,
+    "submissions" as SimpleSlug,
+    "systems" as SimpleSlug,
+    "principles" as SimpleSlug,
+    "learning" as SimpleSlug,
   ])
 
   // Determine page type and apply appropriate graph logic
   // Strip trailing slash from slug to avoid double slashes when concatenating
-  const slugClean = slug.replace(/\/$/, '')
+  const slugClean = slug.replace(/\/$/, "")
   const slugLower = slugClean.toLowerCase()
-  const isHomepage = slugClean === 'index'
+  const isHomepage = slugClean === "index"
   const isCategoryHub = categoryHubs.has(slugLower as SimpleSlug)
-
-  console.log('[Graph Debug] slug:', slug, 'slugClean:', slugClean, 'slugLower:', slugLower, 'isHomepage:', isHomepage, 'isCategoryHub:', isCategoryHub)
 
   if (isHomepage) {
     // Homepage: Show only the 6 main category nodes
-    categoryHubs.forEach(hub => {
+    categoryHubs.forEach((hub) => {
       // Find the actual slug (any case) that matches this hub
       for (const [nodeSlug] of data.entries()) {
         if (nodeSlug.toLowerCase() === hub) {
@@ -187,53 +185,46 @@ async function renderGraph(container: string, fullSlug: FullSlug) {
     neighbourhood.add(slugClean as SimpleSlug)
 
     // Add all children in this category
-    const categoryPrefix = slugLower + '/'
-    console.log('[Graph Debug] Category hub detected, prefix:', categoryPrefix)
+    const categoryPrefix = slugLower + "/"
     let childCount = 0
     for (const [nodeSlug] of data.entries()) {
       const nodeLower = nodeSlug.toLowerCase()
       // Include items that start with category prefix, but exclude Bottom/Top variants
-      if (nodeLower.startsWith(categoryPrefix) &&
-          !nodeLower.endsWith('/bottom') &&
-          !nodeLower.endsWith('/top')) {
+      if (
+        nodeLower.startsWith(categoryPrefix) &&
+        !nodeLower.endsWith("/bottom") &&
+        !nodeLower.endsWith("/top")
+      ) {
         neighbourhood.add(nodeSlug)
         childCount++
       }
     }
-    console.log('[Graph Debug] Category hub added', childCount, 'children, total neighbourhood size:', neighbourhood.size)
   } else {
     // All other pages: Show depth-1 connections, excluding category hubs
     const wl: (SimpleSlug | "__SENTINEL")[] = [slugClean as SimpleSlug, "__SENTINEL"]
 
     // For position hubs, aggregate links from Bottom and Top role pages
-    const isPositionHub = slugLower.startsWith('positions/') &&
-                          !slugLower.endsWith('/bottom') &&
-                          !slugLower.endsWith('/top')
-
-    console.log('[Graph Debug] isPositionHub:', isPositionHub)
+    const isPositionHub =
+      slugLower.startsWith("positions/") &&
+      !slugLower.endsWith("/bottom") &&
+      !slugLower.endsWith("/top")
 
     if (isPositionHub) {
-      const bottomSlugToFind = slugLower + '/bottom'
-      const topSlugToFind = slugLower + '/top'
-
-      console.log('[Graph Debug] Looking for role pages:', bottomSlugToFind, topSlugToFind)
+      const bottomSlugToFind = slugLower + "/bottom"
+      const topSlugToFind = slugLower + "/top"
 
       // Find and collect role pages first (to avoid sentinel index shifting)
       const rolePagesToAdd: SimpleSlug[] = []
       for (const [nodeSlug] of data.entries()) {
         const nodeLower = nodeSlug.toLowerCase()
         if (nodeLower === bottomSlugToFind || nodeLower === topSlugToFind) {
-          console.log('[Graph Debug] Found role page:', nodeSlug)
           rolePagesToAdd.push(nodeSlug)
         }
       }
 
-      console.log('[Graph Debug] Found', rolePagesToAdd.length, 'role pages to add')
-
       // Insert all role pages at once before sentinel
       const sentinelIndex = wl.indexOf("__SENTINEL")
       wl.splice(sentinelIndex, 0, ...rolePagesToAdd)
-      console.log('[Graph Debug] Worklist after splice:', wl)
     }
 
     if (depth >= 0) {
@@ -256,16 +247,14 @@ async function renderGraph(container: string, fullSlug: FullSlug) {
     }
 
     // Remove category hub pages from neighbourhood for regular pages
-    categoryHubs.forEach(hub => neighbourhood.delete(hub))
+    categoryHubs.forEach((hub) => neighbourhood.delete(hub))
   }
-
-  console.log('[Graph Debug] Final neighbourhood size before filtering:', neighbourhood.size, 'items:', Array.from(neighbourhood).slice(0, 10))
 
   const nodes = [...neighbourhood]
     .filter((url) => {
       // Filter out Bottom/Top role pages (playing_as model) - show only hub pages
       const lowerUrl = url.toLowerCase()
-      return !lowerUrl.endsWith('/bottom') && !lowerUrl.endsWith('/top')
+      return !lowerUrl.endsWith("/bottom") && !lowerUrl.endsWith("/top")
     })
     .map((url) => {
       let text = url.startsWith("tags/") ? "#" + url.substring(5) : data.get(url)?.title
@@ -273,7 +262,7 @@ async function renderGraph(container: string, fullSlug: FullSlug) {
       // If no title found, extract from URL path
       if (!text) {
         // Get the last part of the path (the actual filename)
-        const parts = url.split('/')
+        const parts = url.split("/")
         text = parts[parts.length - 1] || url
       }
 
@@ -304,20 +293,52 @@ async function renderGraph(container: string, fullSlug: FullSlug) {
       .filter((l) => l.source && l.target && l.source !== l.target) as LinkData[], // Remove self-loops and invalid links
   }
 
-  // we virtualize the simulation and use pixi to actually render it
-  // Performance mode: default = fast settling, legacy = old slow settling
-  const graphMode = getGraphMode()
-  const isLegacy = graphMode === "legacy"
-  const effectiveAlphaDecay = isTouchDevice ? 0.1 : isLegacy ? 0.0228 : 0.05
-  const effectiveVelocityDecay = isTouchDevice ? 0.5 : 0.4
+  // Check for pre-computed graph positions (injected at build time)
+  const positionsEl = document.getElementById("graph-positions")
+  let precomputed: Record<string, { x: number; y: number }> | null = null
+  if (positionsEl) {
+    try {
+      const parsed = JSON.parse(positionsEl.textContent!)
+      precomputed = {}
+      for (const n of parsed.nodes) {
+        precomputed[n.id] = { x: n.x, y: n.y }
+      }
+    } catch {
+      precomputed = null
+    }
+  }
 
-  const simulation: Simulation<NodeData, LinkData> = forceSimulation<NodeData>(graphData.nodes)
-    .force("charge", forceManyBody().strength(-100 * repelForce).distanceMax(200))
-    .force("center", forceCenter().strength(centerForce))
-    .force("link", forceLink(graphData.links).distance(linkDistance))
-    .force("collide", forceCollide<NodeData>((n) => nodeRadius(n)).iterations(1))
-    .alphaDecay(effectiveAlphaDecay)
-    .velocityDecay(effectiveVelocityDecay)
+  // If pre-computed positions exist, assign them to nodes and skip simulation
+  let simulation: Simulation<NodeData, LinkData> | null = null
+  if (precomputed) {
+    for (const node of graphData.nodes) {
+      const pos = precomputed[node.id]
+      if (pos) {
+        node.x = pos.x
+        node.y = pos.y
+      }
+    }
+  } else {
+    // we virtualize the simulation and use pixi to actually render it
+    // Performance mode: default = fast settling, legacy = old slow settling
+    const graphMode = getGraphMode()
+    const isLegacy = graphMode === "legacy"
+    const effectiveAlphaDecay = isTouchDevice ? 0.1 : isLegacy ? 0.0228 : 0.05
+    const effectiveVelocityDecay = isTouchDevice ? 0.5 : 0.4
+
+    simulation = forceSimulation<NodeData>(graphData.nodes)
+      .force(
+        "charge",
+        forceManyBody()
+          .strength(-100 * repelForce)
+          .distanceMax(200),
+      )
+      .force("center", forceCenter().strength(centerForce))
+      .force("link", forceLink(graphData.links).distance(linkDistance))
+      .force("collide", forceCollide<NodeData>((n) => nodeRadius(n)).iterations(1))
+      .alphaDecay(effectiveAlphaDecay)
+      .velocityDecay(effectiveVelocityDecay)
+  }
 
   // Animation state tracking for stopping RAF when settled
   let animationRunning = false
@@ -335,7 +356,6 @@ async function renderGraph(container: string, fullSlug: FullSlug) {
 
   // Skip rendering if container has zero dimensions (not laid out yet)
   if (width === 0 || height === 0) {
-    console.log('[Graph Debug] Container has zero dimensions, skipping render:', { width, height })
     return
   }
 
@@ -456,9 +476,13 @@ async function renderGraph(container: string, fullSlug: FullSlug) {
 
     tweenGroup.getAll().forEach((tw) => tw.start())
     tweens.set("link", {
-      update: tweenGroup.update.bind(tweenGroup),
+      update(time: number) {
+        tweenGroup.update(time)
+        if (tweenGroup.getAll().length === 0) tweens.delete("link")
+      },
       stop() {
         tweenGroup.getAll().forEach((tw) => tw.stop())
+        tweens.delete("link")
       },
     })
   }
@@ -497,9 +521,13 @@ async function renderGraph(container: string, fullSlug: FullSlug) {
 
     tweenGroup.getAll().forEach((tw) => tw.start())
     tweens.set("label", {
-      update: tweenGroup.update.bind(tweenGroup),
+      update(time: number) {
+        tweenGroup.update(time)
+        if (tweenGroup.getAll().length === 0) tweens.delete("label")
+      },
       stop() {
         tweenGroup.getAll().forEach((tw) => tw.stop())
+        tweens.delete("label")
       },
     })
   }
@@ -521,9 +549,13 @@ async function renderGraph(container: string, fullSlug: FullSlug) {
 
     tweenGroup.getAll().forEach((tw) => tw.start())
     tweens.set("hover", {
-      update: tweenGroup.update.bind(tweenGroup),
+      update(time: number) {
+        tweenGroup.update(time)
+        if (tweenGroup.getAll().length === 0) tweens.delete("hover")
+      },
       stop() {
         tweenGroup.getAll().forEach((tw) => tw.stop())
+        tweens.delete("hover")
       },
     })
   }
@@ -640,13 +672,14 @@ async function renderGraph(container: string, fullSlug: FullSlug) {
   }
 
   let currentTransform = zoomIdentity
-  if (enableDrag) {
+  if (enableDrag && !precomputed) {
+    // Drag enabled only for live simulation (not pre-computed layouts)
     select<HTMLCanvasElement, NodeData | undefined>(app.canvas).call(
       drag<HTMLCanvasElement, NodeData | undefined>()
         .container(() => app.canvas)
         .subject(() => graphData.nodes.find((n) => n.id === hoveredNodeId))
         .on("start", function dragstarted(event) {
-          if (!event.active) simulation.alphaTarget(1).restart()
+          if (!event.active) simulation!.alphaTarget(1).restart()
           startAnimation() // Restart animation loop when dragging
           event.subject.fx = event.subject.x
           event.subject.fy = event.subject.y
@@ -665,7 +698,7 @@ async function renderGraph(container: string, fullSlug: FullSlug) {
           event.subject.fy = initPos.y + (event.y - initPos.y) / currentTransform.k
         })
         .on("end", function dragended(event) {
-          if (!event.active) simulation.alphaTarget(0)
+          if (!event.active) simulation!.alphaTarget(0)
           event.subject.fx = null
           event.subject.fy = null
           dragging = false
@@ -715,7 +748,7 @@ async function renderGraph(container: string, fullSlug: FullSlug) {
   }
 
   function animate(time: number) {
-    const isActive = simulation.alpha() > simulation.alphaMin()
+    const isActive = simulation ? simulation.alpha() > simulation.alphaMin() : false
 
     // Only update positions when simulation is active
     if (isActive) {
@@ -751,6 +784,27 @@ async function renderGraph(container: string, fullSlug: FullSlug) {
     }
   }
 
+  // For pre-computed layouts, set positions and draw once immediately
+  if (precomputed) {
+    for (const n of nodeRenderData) {
+      const { x, y } = n.simulationData
+      if (x == null || y == null) continue
+      n.gfx.position.set(x + width / 2, y + height / 2)
+      if (n.label) {
+        n.label.position.set(x + width / 2, y + height / 2)
+      }
+    }
+    for (const l of linkRenderData) {
+      const linkData = l.simulationData
+      l.gfx.clear()
+      l.gfx.moveTo(linkData.source.x! + width / 2, linkData.source.y! + height / 2)
+      l.gfx
+        .lineTo(linkData.target.x! + width / 2, linkData.target.y! + height / 2)
+        .stroke({ alpha: l.alpha, width: 1, color: l.color })
+    }
+    app.renderer.render(stage)
+  }
+
   // Start the animation loop
   startAnimation()
 
@@ -758,7 +812,7 @@ async function renderGraph(container: string, fullSlug: FullSlug) {
     if (graphAnimationFrameHandle !== null) {
       cancelAnimationFrame(graphAnimationFrameHandle)
     }
-    simulation.stop()
+    if (simulation) simulation.stop()
     tweens.clear()
     app.destroy(true, { children: true, texture: true })
   })

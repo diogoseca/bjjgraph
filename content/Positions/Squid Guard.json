@@ -1,0 +1,626 @@
+{
+  "name": "Squid Guard",
+  "slug": "squid-guard",
+  "description": "Master Squid Guard in BJJ. Strategic guide covering asymmetrical control, sweeps, back takes, and passing strategies with complete perspective analysis.",
+  "variant_uniqueness": "Asymmetrical lapel control bypasses responses",
+  "overview": "Squid Guard is an advanced open guard position that combines elements of De La Riva Guard and Reverse De La Riva Guard with unique lapel control. The bottom player establishes a deep hook behind the opponent's knee while using the opponent's lapel to create a powerful control system that restricts the top player's mobility and posture. This position is characterized by the bottom player's ability to control distance, break posture, and create angles for sweeps and back takes.\n\nThe position derives its name from the tentacle-like control created by the lapel, which wraps around the opponent's leg or body to create additional points of control beyond traditional guard structures. Squid Guard excels at neutralizing pressure passing attempts and forcing the top player into predictable reactions that can be exploited for offensive transitions. The position requires significant technical understanding of lapel manipulation, hook placement, and timing to be effective.\n\nWhile Squid Guard is primarily used in gi grappling due to its reliance on lapel grips, the concepts of hook placement and angle creation translate to no-gi variations using overhooks or body positioning. This guard is particularly effective against opponents who rely on heavy pressure or static passing, as the lapel control disrupts their base and the hook placement prevents forward pressure. Advanced practitioners use Squid Guard as a transition hub, moving fluidly to other open guards, sweeps, or back attacks based on the opponent's defensive reactions.",
+  "key_principles": [
+    "Maintain constant tension on the lapel to restrict opponent's posture and mobility",
+    "Use the deep hook to off-balance opponent and prevent them from settling their weight",
+    "Keep active leg management with the non-hooking leg to control distance and create frames",
+    "Adjust angle constantly to stay perpendicular or at 45 degrees to opponent's hips",
+    "Combine lapel pull with hook extension to create maximum off-balancing effect",
+    "Use lapel wrapping strategically around opponent's leg or body to multiply control points",
+    "Stay ready to transition to other guards or attacks when opponent commits to a direction"
+  ],
+  "related_positions": [
+    {
+      "name": "De La Riva Guard",
+      "relationship": "Parent position - shares hook mechanics and concepts"
+    },
+    {
+      "name": "Reverse De La Riva Guard",
+      "relationship": "Similar position - alternative hook placement strategy"
+    },
+    {
+      "name": "X-Guard",
+      "relationship": "Common transition target from both perspectives"
+    },
+    {
+      "name": "Single Leg X-Guard",
+      "relationship": "Natural progression sharing single leg control"
+    },
+    {
+      "name": "Lasso Guard",
+      "relationship": "Related guard - alternative lapel control system"
+    },
+    {
+      "name": "Spider Guard",
+      "relationship": "Related guard - complementary open guard system"
+    },
+    {
+      "name": "Back Control",
+      "relationship": "Primary advancement target via back takes"
+    },
+    {
+      "name": "Worm Guard",
+      "relationship": "Similar lapel-based guard system"
+    }
+  ],
+  "top": {
+    "name": "Squid Guard Top",
+    "description": "Master Squid Guard Top in BJJ. Learn guard passing strategies, lapel defense, and counter techniques with 65% pass rate. Complete guide to neutralizing asymmetrical control.",
+    "tags": [
+      "bjj",
+      "position",
+      "squid-guard",
+      "top-position",
+      "guard-passing",
+      "lapel-defense",
+      "open-guard-passing"
+    ],
+    "overview": "Squid Guard Top represents the passing player's position when facing an opponent utilizing Squid Guard, a modern lapel-based guard system. This position requires specific understanding of lapel control dynamics and strategic pressure application to neutralize the bottom player's attacking sequences. The top player must navigate complex lapel entanglements while maintaining posture and preventing sweeps or back takes.\n\nSquid Guard Top demands excellent grip fighting awareness and patient, systematic passing approaches. Unlike traditional open guards, the bottom player uses their own gi lapel wrapped around the top player's leg to create unique control points and off-balancing opportunities. The top player's primary objectives include maintaining vertical posture, preventing the bottom player from inverting or taking the back, and methodically clearing the lapel entanglements before advancing position.\n\nSuccess in this position correlates strongly with lapel grip management, base maintenance, and timing-based passing entries. The top player must balance aggressive passing pressure with defensive awareness of submission threats and back exposure. Understanding the mechanical principles of lapel-based guards and their inherent vulnerabilities allows the top practitioner to systematically dismantle the position and advance to dominant control positions.",
+    "state_properties": {
+      "point_value": 0,
+      "position_type": "Defensive with offensive options",
+      "risk_level": "Medium",
+      "energy_cost": "Medium",
+      "time_sustainability": "Medium"
+    },
+    "state_invariants": [
+      "Top player stands or kneels with one or both legs entangled by bottom player's lapel wrapped around knee or ankle, creating tension and control through fabric manipulation",
+      "Bottom player remains on their back or inverted with active lapel grips maintaining connection to top player's lower body, using lapel tension to control distance and create off-balancing threats",
+      "Top player maintains upright posture with hands positioned to prevent lapel deepening or back exposure while working to clear entanglements and establish passing grips",
+      "Bottom player's legs create frames and barriers using both traditional guard mechanics and lapel-augmented control points to prevent hip-to-hip pressure and guard consolidation"
+    ],
+    "prerequisites": [
+      "Bottom player has successfully established Squid Guard configuration with lapel wrapped around top player's leg",
+      "Top player has entered bottom player's open guard range and triggered lapel entanglement",
+      "Bottom player maintains active lapel control and positioning on back or inverted",
+      "Top player recognizes Squid Guard configuration and adapts passing strategy accordingly"
+    ],
+    "key_principles": [
+      "Maintain vertical posture and prevent forward collapse into bottom player's inverted attack range",
+      "Control bottom player's free hand to prevent lapel grip reinforcement or additional entanglement establishment",
+      "Create systematic lapel clearing sequence before attempting traditional passing mechanics",
+      "Maintain wide base and weight distribution to prevent off-balancing from lapel tension",
+      "Time passing entries to moments when bottom player adjusts lapel configuration",
+      "Prevent bottom player from achieving full inversion or back exposure positions",
+      "Use pressure and grip fighting to force bottom player into defensive postures before advancing"
+    ],
+    "decision_tree": [
+      {
+        "condition": "If bottom player maintains tight lapel control and begins inverting",
+        "actions": [
+          {
+            "technique": "Back Step",
+            "target": "Headquarters Position",
+            "probability": 65
+          },
+          {
+            "technique": "Stack Pass",
+            "target": "Reverse De La Riva Guard",
+            "probability": 55
+          }
+        ]
+      },
+      {
+        "condition": "If bottom player's lapel grip loosens or becomes shallow",
+        "actions": [
+          {
+            "technique": "Pressure Pass",
+            "target": "Side Control",
+            "probability": 70
+          },
+          {
+            "technique": "Toreando Pass",
+            "target": "Headquarters Position",
+            "probability": 68
+          }
+        ]
+      },
+      {
+        "condition": "If bottom player transitions to traditional guard retention without lapel",
+        "actions": [
+          {
+            "technique": "Leg Drag Pass",
+            "target": "Leg Drag Control",
+            "probability": 72
+          },
+          {
+            "technique": "Knee Slice Pass",
+            "target": "Side Control",
+            "probability": 75
+          }
+        ]
+      },
+      {
+        "condition": "If bottom player establishes triangle threat from inverted position",
+        "actions": [
+          {
+            "technique": "Posture Recovery",
+            "target": "Open Guard",
+            "probability": 60
+          },
+          {
+            "technique": "Stack Pass",
+            "target": "Side Control",
+            "probability": 58
+          }
+        ]
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Allowing bottom player to achieve full inversion without postural response",
+        "consequence": "Back exposure and potential back take or submission threats",
+        "correction": "Maintain vertical posture and establish heavy crossface or shoulder pressure immediately when bottom player begins inverting"
+      },
+      {
+        "error": "Attempting traditional passing mechanics while lapel remains entangled",
+        "consequence": "Off-balancing and sweep vulnerability due to lapel tension restricting movement",
+        "correction": "Systematically clear lapel entanglement first through unwrapping or grip stripping before initiating passing sequences"
+      },
+      {
+        "error": "Collapsing forward into bottom player's inverted attack range",
+        "consequence": "Triangle setups, omoplata entries, and increased back exposure",
+        "correction": "Maintain upright posture with base management and use pressure from distance rather than chest-to-chest contact"
+      },
+      {
+        "error": "Ignoring bottom player's free hand and allowing lapel grip reinforcement",
+        "consequence": "Deeper entanglement and more complex passing problem",
+        "correction": "Control bottom player's free hand with grip fighting and prevent additional lapel manipulation"
+      },
+      {
+        "error": "Committing to single passing direction without adaptability",
+        "consequence": "Bottom player can predict and counter with specific sweep or back take",
+        "correction": "Maintain multiple passing threats and adapt based on bottom player's defensive adjustments"
+      },
+      {
+        "error": "Using excessive force without systematic technique",
+        "consequence": "Energy expenditure and potential injury to joints stressed by lapel tension",
+        "correction": "Use methodical lapel clearing sequences combined with pressure and timing rather than pure strength"
+      }
+    ],
+    "training_drills": [
+      {
+        "name": "Lapel unwrapping drill",
+        "description": "Partner establishes Squid Guard configuration. Practice systematic lapel unwrapping sequences while maintaining posture and preventing inversion. Repeat with different lapel configurations and entanglement depths. Focus on grip stripping and postural control.",
+        "duration": "5 minutes per side"
+      },
+      {
+        "name": "Inversion defense drill",
+        "description": "Partner in Squid Guard attempts full inversion while top player practices posture recovery, crossface establishment, and backstep counters. Focus on preventing back exposure and maintaining top position. Partner uses 50% resistance.",
+        "duration": "3 minutes per round, 4 rounds"
+      },
+      {
+        "name": "Progressive resistance passing from Squid Guard",
+        "description": "Start with 30% resistance from bottom player. Top player executes complete passing sequences from Squid Guard Top through to consolidated side control. Gradually increase resistance to 70% over multiple rounds. Emphasize systematic approach.",
+        "duration": "6 minutes total, increasing resistance each 2 minutes"
+      },
+      {
+        "name": "Grip fighting and lapel control",
+        "description": "Isolated drill focusing on preventing bottom player from deepening lapel grips while top player works to strip and clear lapel entanglements. Emphasize hand fighting and grip replacement strategies. Reset after each successful clear or deepening.",
+        "duration": "4 minutes per round, 3 rounds"
+      }
+    ],
+    "related_content": [
+      {
+        "name": "Squid Guard",
+        "relationship": "Opposite perspective of same position"
+      },
+      {
+        "name": "Worm Guard",
+        "relationship": "Similar lapel-based guard passing challenge"
+      },
+      {
+        "name": "Lapel Guard",
+        "relationship": "Related lapel entanglement passing position"
+      },
+      {
+        "name": "Lasso Guard",
+        "relationship": "Similar control mechanics with different entanglement method"
+      },
+      {
+        "name": "Spider Guard",
+        "relationship": "Related open guard passing position"
+      },
+      {
+        "name": "De La Riva Guard",
+        "relationship": "Related hook-based guard with similar passing principles"
+      },
+      {
+        "name": "Leg Drag Pass",
+        "relationship": "Primary passing technique from this position"
+      },
+      {
+        "name": "Toreando Pass",
+        "relationship": "Alternative passing approach"
+      },
+      {
+        "name": "Stack Pass",
+        "relationship": "Pressure-based passing option"
+      },
+      {
+        "name": "Back Step",
+        "relationship": "Counter technique for inversion attempts"
+      }
+    ],
+    "position_metrics": {
+      "retention_rate": {
+        "value": 62
+      },
+      "advancement_probability": {
+        "value": 72
+      },
+      "submission_probability": {
+        "value": 30
+      },
+      "average_time": "45-90 seconds"
+    },
+    "transitions": [
+      {
+        "transition": "Stack Pass",
+        "attempt_probability": 14
+      },
+      {
+        "transition": "Leg Drag Pass",
+        "attempt_probability": 13
+      },
+      {
+        "transition": "Back Step",
+        "attempt_probability": 12
+      },
+      {
+        "transition": "Toreando Pass",
+        "attempt_probability": 14
+      },
+      {
+        "transition": "Pressure Pass",
+        "attempt_probability": 24
+      },
+      {
+        "transition": "Knee Slice Pass",
+        "attempt_probability": 14
+      },
+      {
+        "transition": "Pass Squid Guard",
+        "attempt_probability": 6
+      },
+      {
+        "transition": "Pressure Through Squid Guard",
+        "attempt_probability": 3
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the first priority when you find yourself in Squid Guard Top?",
+        "answer": "The first priority is maintaining vertical posture and preventing forward collapse. Falling into the bottom player's attack range exposes you to inversions, back takes, and submission threats. Establish a wide base, keep your hips back, and focus on posture before attempting any passing sequences. Only after securing stable posture should you begin addressing the lapel entanglements."
+      },
+      {
+        "question": "Your opponent begins inverting while maintaining tight lapel control - what immediate adjustment prevents back exposure?",
+        "answer": "Execute a backstep motion by stepping your trapped leg backward while simultaneously establishing shoulder pressure or crossface on their upper body. This cuts off their inversion angle and prevents them from completing the rotation to your back. The backstep must be timed as they initiate the inversion, not after they achieve full rotation. Combine this with grip fighting to strip their lapel control."
+      },
+      {
+        "question": "Why must you clear the lapel entanglement before attempting traditional passing mechanics?",
+        "answer": "The lapel creates a mechanical tether that restricts your movement and provides constant off-balancing leverage to the bottom player. Attempting passes like knee slice or toreando while still entangled allows them to redirect your momentum into sweeps or use the tension to recover guard. Systematically unwrapping or stripping the lapel first removes their primary control point and allows you to pass with normal mechanics."
+      },
+      {
+        "question": "How should you respond when the bottom player's lapel grip momentarily loosens?",
+        "answer": "Immediately capitalize on the window by explosively advancing your pass. A loose lapel grip indicates either fatigue or transition, both opportunities to clear the entanglement entirely or pass before they can re-establish control. Time your knee slice or toreando entry to this moment, using their grip weakness against them. Don't allow them to reset and re-secure the lapel."
+      },
+      {
+        "question": "What is the critical base adjustment to prevent being swept by lapel tension?",
+        "answer": "Maintain a wide stance with weight distributed evenly between both legs, keeping your hips low and centered over your base. Avoid standing tall on straight legs, which makes you vulnerable to off-balancing. When you feel lapel tension pulling in one direction, counterbalance by shifting weight to the opposite leg and widening your base further in that direction. The goal is to make yourself heavy and immovable despite their pulling."
+      },
+      {
+        "question": "Your opponent achieves full inversion and threatens to take your back - what recovery sequence should you execute?",
+        "answer": "Immediately sprawl your hips backward while driving shoulder pressure into their inverted body to flatten them. Strip any lapel grips with your hands while maintaining this pressure. If they've already started circling to your back, spin in the same direction they're moving to face them, abandoning the pass in favor of preventing the back take. Re-establish neutral positioning before attempting to pass again."
+      },
+      {
+        "question": "Why is controlling the bottom player's free hand essential when passing Squid Guard?",
+        "answer": "The free hand is their primary tool for deepening lapel control, adjusting grips, and reinforcing their guard structure. Allowing them to freely manipulate the lapel means they can progressively tighten entanglements and create more complex passing problems. By controlling their free hand through wrist control or sleeve grips, you prevent them from improving their position while you work to clear the existing entanglement."
+      },
+      {
+        "question": "How do you recognize when to abandon a specific passing direction and switch sides?",
+        "answer": "Watch for defensive overcommitment - when the bottom player shifts their hips heavily to one side, loads their hook in a specific direction, or adjusts their lapel wrap to defend a particular pass. This defensive commitment creates vulnerability on the opposite side. Recognizing these patterns allows you to bait their defensive reactions and immediately attack the newly opened passing lane before they can readjust."
+      }
+    ]
+  },
+  "bottom": {
+    "name": "Squid Guard Bottom",
+    "description": "Master Squid Guard Bottom in BJJ. Advanced asymmetrical guard with lapel control offering sweeps and back takes. Success rates: Beginner 35%, Intermediate 55%, Advanced 70%.",
+    "tags": [
+      "bjj",
+      "position",
+      "squid-guard",
+      "open-guard",
+      "bottom",
+      "advanced",
+      "asymmetrical-guard",
+      "lapel-guard"
+    ],
+    "overview": "Squid Guard Bottom is an advanced asymmetrical open guard position characterized by one leg threading through the opponent's legs while maintaining upper body control through lapel manipulation. This unique guard creates unusual angles and off-balancing opportunities that confuse traditional passing responses. The position gets its name from the tentacle-like leg and lapel configuration that wraps and controls the opponent.\n\nThe Squid Guard excels at creating dilemmas for the top player through its unconventional structure. Unlike traditional open guards that rely on bilateral symmetry, the Squid Guard's asymmetrical nature forces opponents into unfamiliar defensive patterns. This position is particularly effective against pressure passers who rely on standard passing sequences, as the leg configuration and lapel control disrupts their base and creates opportunities for sweeps and back takes.\n\nWhile technically demanding and requiring significant flexibility, coordination, and lapel manipulation skills, the Squid Guard offers a high ceiling for advanced practitioners. The position integrates well into modern guard retention systems and provides unique pathways to dominant positions that bypass traditional guard passing exchanges. Success in this position depends on maintaining active leg tension, controlling lapel grips, and recognizing the timing windows for attacks.",
+    "state_properties": {
+      "point_value": 0,
+      "position_type": "Offensive",
+      "risk_level": "Medium",
+      "energy_cost": "Medium",
+      "time_sustainability": "Medium"
+    },
+    "state_invariants": [
+      "Bottom player on their back or side with one leg threaded between opponent's legs from inside position, creating asymmetrical control with the threading leg's foot hooking behind opponent's far knee or thigh",
+      "Bottom player controls opponent's lapel, typically wrapping it around opponent's leg or body, creating restrictive control that limits mobility and posture while preventing forward pressure",
+      "Non-threading leg positioned outside opponent's body, typically controlling opponent's near hip or creating distance with foot on hip or bicep, maintaining spatial control and preventing opponent from settling into passing position",
+      "Upper body grips established on opponent's sleeve, collar, or lapel with at least one strong grip point, providing steering control and preventing opponent from achieving dominant grips or posture",
+      "Opponent standing, kneeling, or in combat base position attempting to pass, with their base disrupted by the threading leg's tension and lapel restriction"
+    ],
+    "prerequisites": [
+      "Opponent in standing or kneeling passing position",
+      "Space created to thread leg between opponent's legs",
+      "Access to opponent's gi lapel for gripping and manipulation",
+      "At least one upper body grip established on sleeve, collar, or lapel",
+      "Hip mobility and flexibility to maintain asymmetrical leg configuration",
+      "Understanding of guard retention principles and angle creation"
+    ],
+    "key_principles": [
+      "Maintain constant tension with threading leg to disrupt opponent's base and prevent them from settling into stable passing position",
+      "Use non-threading leg actively to control distance and create angles, never allowing it to become passive",
+      "Coordinate upper body lapel grips with leg movements to create compound control that limits opponent's options",
+      "Keep hips mobile and ready to transition, using hip movement to generate sweeping power and adjust angles",
+      "Recognize opponent's weight distribution and attack when they commit weight forward or backward",
+      "Combine off-balancing with lapel and grip control to create sweep opportunities",
+      "Use asymmetry as advantage by creating unfamiliar angles that bypass opponent's trained passing responses"
+    ],
+    "decision_tree": [
+      {
+        "condition": "If opponent maintains upright posture with weight distributed evenly",
+        "actions": [
+          {
+            "technique": "De La Riva Sweep",
+            "target": "Side Control",
+            "probability": 60
+          },
+          {
+            "technique": "X-Guard Sweep",
+            "target": "X-Guard",
+            "probability": 55
+          }
+        ]
+      },
+      {
+        "condition": "If opponent drives forward with pressure attempting to stack",
+        "actions": [
+          {
+            "technique": "Kiss of the Dragon",
+            "target": "Back Control",
+            "probability": 60
+          },
+          {
+            "technique": "Berimbolo Entry",
+            "target": "Back Control",
+            "probability": 55
+          }
+        ]
+      },
+      {
+        "condition": "If opponent turns away from threading leg to escape tension",
+        "actions": [
+          {
+            "technique": "Back Take",
+            "target": "Back Control",
+            "probability": 65
+          },
+          {
+            "technique": "Omoplata to Back",
+            "target": "Back Control",
+            "probability": 55
+          }
+        ]
+      },
+      {
+        "condition": "If opponent attempts to disengage and create distance",
+        "actions": [
+          {
+            "technique": "Guard Recovery from Squid Guard",
+            "target": "Open Guard",
+            "probability": 70
+          },
+          {
+            "technique": "Shin to Shin Pull",
+            "target": "Spider Guard",
+            "probability": 60
+          }
+        ]
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Allowing threading leg to become passive without maintaining constant tension",
+        "consequence": "Opponent easily extracts their leg and passes to side control, eliminating all guard advantages",
+        "correction": "Maintain active tension with threading leg throughout, constantly adjusting pressure to disrupt opponent's base and prevent extraction"
+      },
+      {
+        "error": "Releasing lapel tension during transitions",
+        "consequence": "Opponent regains posture and can establish passing pressure or clear the guard entirely",
+        "correction": "Maintain constant tension on the lapel throughout all movements, treating it as a non-negotiable control point that anchors your guard structure"
+      },
+      {
+        "error": "Neglecting upper body grip control and relying solely on leg position",
+        "consequence": "Opponent achieves dominant grips and uses them to control distance and passing angles, neutralizing leg configurations",
+        "correction": "Coordinate upper body grips with leg movements, ensuring at least one strong grip that prevents opponent from establishing their preferred grips"
+      },
+      {
+        "error": "Remaining static in position without creating angles or movement",
+        "consequence": "Opponent stabilizes their base and systematically breaks down guard structure with methodical passing",
+        "correction": "Keep hips mobile and constantly adjust angles, using movement to create off-balancing opportunities and prevent opponent from settling"
+      },
+      {
+        "error": "Overcommitting to sweep attempts without proper setup or timing",
+        "consequence": "Failed sweep leaves guard open and vulnerable to immediate pass, often resulting in scrambles that favor top player",
+        "correction": "Wait for opponent's weight commitment before initiating sweeps, using grips and leg tension to create clear opportunities rather than forcing attacks"
+      },
+      {
+        "error": "Failing to protect against leg attacks when threading leg is exposed",
+        "consequence": "Opponent capitalizes on threading leg exposure to enter leg entanglement positions or secure leg locks",
+        "correction": "Maintain awareness of threading leg vulnerability and adjust position immediately if opponent shows leg lock threats, transitioning to safer guard variations"
+      }
+    ],
+    "training_drills": [
+      {
+        "name": "Squid Guard Entry Flow Drill",
+        "description": "Partner starts in standing position. Practice entering Squid Guard from various open guard positions (Spider, De La Riva, Seated), focusing on smooth leg threading, lapel feeding, and grip establishment. Emphasize maintaining guard structure through transitions. 5 minutes continuous flow, alternating entry methods.",
+        "duration": "5 minutes"
+      },
+      {
+        "name": "Sweep Chain Repetition",
+        "description": "From established Squid Guard, drill sequences of sweeps with compliant partner. Focus on De La Riva sweep to X-Guard sweep to back take chain. Partner offers realistic resistance to grips but allows sweeps to complete. Build muscle memory for transition timing. 10 repetitions per side.",
+        "duration": "10 minutes"
+      },
+      {
+        "name": "Progressive Resistance Guard Retention",
+        "description": "Maintain Squid Guard while partner attempts to pass with increasing resistance levels (30%, 50%, 70%). Focus on using leg tension, lapel control, hip movement, and grip control to prevent passes. Reset to Squid Guard after each passing attempt. Develops retention skills under pressure. 3-minute rounds.",
+        "duration": "3 x 3 minute rounds"
+      },
+      {
+        "name": "Asymmetrical Control Maintenance",
+        "description": "Hold Squid Guard position with partner attempting to extract threading leg and clear lapel entanglement. Bottom player focuses solely on maintaining guard structure without attacking. Develops endurance and positional awareness. 2-minute holds.",
+        "duration": "5 x 2 minute rounds"
+      }
+    ],
+    "related_content": [
+      {
+        "name": "De La Riva Guard",
+        "relationship": "Parent position sharing hook mechanics and concepts"
+      },
+      {
+        "name": "Reverse De La Riva Guard",
+        "relationship": "Similar position with alternative hook placement"
+      },
+      {
+        "name": "X-Guard",
+        "relationship": "Common transition target sharing leg control"
+      },
+      {
+        "name": "Single Leg X-Guard",
+        "relationship": "Natural progression with single leg control"
+      },
+      {
+        "name": "Lasso Guard",
+        "relationship": "Related lapel control guard system"
+      },
+      {
+        "name": "Spider Guard",
+        "relationship": "Complementary open guard variation"
+      },
+      {
+        "name": "Worm Guard",
+        "relationship": "Similar advanced lapel guard system"
+      },
+      {
+        "name": "Back Control",
+        "relationship": "Primary advancement via back takes"
+      },
+      {
+        "name": "Omoplata Control",
+        "relationship": "Submission threat from position"
+      },
+      {
+        "name": "Inverted Guard",
+        "relationship": "Related guard used during retention and transitions"
+      }
+    ],
+    "position_metrics": {
+      "retention_rate": {
+        "value": 60
+      },
+      "advancement_probability": {
+        "value": 62
+      },
+      "submission_probability": {
+        "value": 40
+      },
+      "average_time": "30-90 seconds"
+    },
+    "transitions": [
+      {
+        "transition": "Kiss of the Dragon",
+        "attempt_probability": 22
+      },
+      {
+        "transition": "X-Guard Sweep",
+        "attempt_probability": 10
+      },
+      {
+        "transition": "Single Leg X Sweep",
+        "attempt_probability": 9
+      },
+      {
+        "transition": "Berimbolo Entry",
+        "attempt_probability": 9
+      },
+      {
+        "transition": "De La Riva Sweep",
+        "attempt_probability": 9
+      },
+      {
+        "transition": "Guard Recovery from Squid Guard",
+        "attempt_probability": 10
+      },
+      {
+        "transition": "Omoplata Sweep",
+        "attempt_probability": 8
+      },
+      {
+        "transition": "Triangle Setup",
+        "attempt_probability": 8
+      },
+      {
+        "transition": "Omoplata to Back",
+        "attempt_probability": 9
+      },
+      {
+        "transition": "Squid Guard Sweep",
+        "attempt_probability": 4
+      },
+      {
+        "transition": "Squid to Ringworm Guard",
+        "attempt_probability": 2
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What are the essential grips required to maintain effective Squid Guard control?",
+        "answer": "The primary grip is on the opponent's lapel, wrapped around their leg or body to create constant tension and restrict their mobility. Secondary grips include sleeve control on their far arm to prevent grip stripping, and collar grip to break their posture. The lapel grip is non-negotiable - without it, Squid Guard degenerates into standard De La Riva and loses its unique advantages. At minimum, maintain the lapel wrap plus one upper body grip."
+      },
+      {
+        "question": "How should you distribute your weight and position your hips to maximize guard retention?",
+        "answer": "Keep your hips angled at approximately 45 degrees to your opponent rather than flat on your back. This angle creates better leverage for sweeps and makes it harder for them to stack or pressure pass. Your weight should be slightly on the hip of your non-threading leg, which allows rapid hip adjustment and creates rotational power. Avoid being flat - it eliminates your mobility and sweep potential."
+      },
+      {
+        "question": "Your opponent starts standing upright with good posture - what immediate threat should you create?",
+        "answer": "When they stand tall with neutral weight distribution, attack with sweeping movements that exploit their height and narrow base. Pull the lapel to break their posture while simultaneously extending your threading leg to elevate their far leg. This combination of pulling and lifting creates immediate off-balancing that threatens sweeps. The taller they stand, the more vulnerable they are to elevation-based attacks."
+      },
+      {
+        "question": "Your opponent begins driving forward with heavy pressure attempting to stack you - how do you respond?",
+        "answer": "Use their forward momentum against them by initiating back take sequences. When they drive forward, they're essentially loading your guard and creating the energy you need for inversions. Time your berimbolo or Kiss of the Dragon entry to their forward pressure, using their momentum to accelerate your rotation underneath them. The key is recognizing their commitment early and initiating your inversion before they flatten you."
+      },
+      {
+        "question": "What is the primary danger to your threading leg and how do you protect it?",
+        "answer": "The threading leg is exposed to leg lock attacks, particularly heel hooks and kneebars, when opponents recognize the vulnerability. Protect it by maintaining constant movement and tension - a stationary threading leg is an easy target. If you sense them reaching for your heel or shifting to attack the leg, immediately withdraw the thread and transition to Spider Guard or Lasso Guard. Never allow them to isolate the threading leg with both hands."
+      },
+      {
+        "question": "How do you recover when your opponent strips your lapel grip?",
+        "answer": "The moment your lapel grip breaks, you must immediately transition to another guard or re-establish control. Don't try to maintain Squid Guard without the lapel - it's the defining element. Options include: re-feeding the lapel if possible, transitioning to standard De La Riva by maintaining your hook, shifting to Spider Guard using your sleeve grip, or threatening a triangle to force them to give you the space to re-establish. Prioritize maintaining some control over forcing the lapel back."
+      },
+      {
+        "question": "Your opponent turns away from your threading leg pressure - what attack sequence should you follow?",
+        "answer": "When they turn away, they're exposing their back to escape your leg pressure. Immediately pursue with back take sequences - use your threading leg to follow their hip rotation while pulling on your lapel and upper body grips to accelerate their turn. Your non-threading leg should hook their hip to prevent them from completing a full escape. The goal is to convert their defensive turn into your offensive back take before they can stabilize in a new position."
+      },
+      {
+        "question": "How do you manage energy expenditure while maintaining active Squid Guard?",
+        "answer": "Squid Guard is energy-intensive due to the constant tension required. Manage energy by using frame-based distance control with your non-threading leg rather than pure muscular effort. Let the lapel wrap do most of the work - properly wrapped, it creates mechanical restriction that doesn't require constant pulling. Recognize when to transition out of Squid Guard if opponent is successfully defending without advancing, rather than depleting yourself trying to force attacks from a stalemated position."
+      }
+    ]
+  }
+}

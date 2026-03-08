@@ -1,0 +1,403 @@
+{
+  "name": "Leg Drag to Technical Mount",
+  "description": "Master the Leg Drag to Technical Mount transition in BJJ. Step-by-step execution from Leg Drag Control to dominant technical mount position.",
+  "tags": [
+    "bjj",
+    "transition",
+    "guard-passing",
+    "leg-drag",
+    "mount",
+    "positional-advancement",
+    "intermediate"
+  ],
+  "from_position": "Leg Drag Control/Top",
+  "outcomes": [
+    {
+      "to": "Technical Mount/Top",
+      "probability": 65,
+      "result": "success"
+    },
+    {
+      "to": "Leg Drag Control/Top",
+      "probability": 25,
+      "result": "failure"
+    },
+    {
+      "to": "Half Guard/Bottom",
+      "probability": 10,
+      "result": "counter"
+    }
+  ],
+  "success_rate": 58,
+  "overview": "The Leg Drag to Technical Mount transition represents a highly efficient pathway from guard passing to a dominant top position. Unlike the standard mount transition which requires clearing the opponent's hips completely, technical mount allows you to secure a controlling position while the opponent remains partially on their side—the exact orientation created by effective leg drag pressure.\n\nThis transition capitalizes on the leg drag's inherent mechanics: when you control the opponent's leg across their body and drive hip pressure, they naturally turn onto their side to protect their back. Rather than fighting to flatten them for a traditional mount, technical mount accepts and exploits this sideways orientation. Your knee slides behind their back while your other leg posts in front, creating a stable platform with immediate submission access to the near arm and neck.\n\nThe strategic value lies in maintaining offensive pressure throughout the transition. Many practitioners lose submissions attempting to consolidate full mount from leg drag, giving opponents time to recover guard. Technical mount eliminates this gap—you arrive with arm triangles, mounted triangles, and armbars immediately available. The position also prevents common mount escapes like the upa because the opponent cannot generate leverage from their side.",
+  "conditions": [
+    "Established leg drag control with opponent's leg pulled across their body",
+    "Hip pressure forcing opponent onto their side with back partially exposed",
+    "Upper body control through crossface, collar grip, or underhook on far side",
+    "Opponent defending back take by facing toward you rather than turning away"
+  ],
+  "related_content": [
+    {
+      "name": "Leg Drag Control",
+      "relationship": "Starting position for this transition"
+    },
+    {
+      "name": "Technical Mount",
+      "relationship": "Target position upon successful completion"
+    },
+    {
+      "name": "Leg Drag to Back Take",
+      "relationship": "Alternative transition when opponent turns away"
+    },
+    {
+      "name": "Leg Drag to Mount",
+      "relationship": "Alternative when opponent stays flat on back"
+    },
+    {
+      "name": "Arm Triangle",
+      "relationship": "Primary submission threat from technical mount"
+    },
+    {
+      "name": "Armbar from Mount",
+      "relationship": "Secondary submission threat from technical mount"
+    },
+    {
+      "name": "Leg Drag Pass",
+      "relationship": "Entry technique to the starting position"
+    },
+    {
+      "name": "Gift Wrap",
+      "relationship": "Control option during transition when opponent frames"
+    },
+    {
+      "name": "Back Control",
+      "relationship": "Alternative endpoint if opponent turtles during transition"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Common counter position if transition fails"
+    }
+  ],
+  "attacker": {
+    "name": "Leg Drag to Technical Mount Attacker",
+    "description": "How to execute Leg Drag to Technical Mount in BJJ. Attacking perspective with setup, execution steps, and counters.",
+    "overview": "The Leg Drag to Technical Mount transition represents a highly efficient pathway from guard passing to a dominant top position. Unlike the standard mount transition which requires clearing the opponent's hips completely, technical mount allows you to secure a controlling position while the opponent remains partially on their side—the exact orientation created by effective leg drag pressure.\n\nThis transition capitalizes on the leg drag's inherent mechanics: when you control the opponent's leg across their body and drive hip pressure, they naturally turn onto their side to protect their back. Rather than fighting to flatten them for a traditional mount, technical mount accepts and exploits this sideways orientation. Your knee slides behind their back while your other leg posts in front, creating a stable platform with immediate submission access to the near arm and neck.\n\nThe strategic value lies in maintaining offensive pressure throughout the transition. Many practitioners lose submissions attempting to consolidate full mount from leg drag, giving opponents time to recover guard. Technical mount eliminates this gap—you arrive with arm triangles, mounted triangles, and armbars immediately available. The position also prevents common mount escapes like the upa because the opponent cannot generate leverage from their side.",
+    "key_principles": [
+      "Maintain constant hip pressure throughout the transition to prevent guard recovery",
+      "Accept the opponent's sideways orientation rather than fighting to flatten them",
+      "Your posting leg in front controls their hip and prevents them turning into you",
+      "The knee behind their back must slide deep before releasing leg drag control",
+      "Upper body control (crossface or underhook) must be established before completing mount",
+      "Technical mount offers immediate submission threats—arrive attacking, not settling",
+      "Weight distribution stays diagonal across opponent, not straight down"
+    ],
+    "setup_requirements": [
+      "Established leg drag control with opponent's leg pulled across their body",
+      "Hip pressure forcing opponent onto their side with back partially exposed",
+      "Upper body control through crossface, collar grip, or underhook on far side",
+      "Opponent defending back take by facing toward you rather than turning away",
+      "Your base allows forward movement while maintaining the crossed-leg configuration"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Secure upper body control",
+        "description": "Before initiating the mount transition, establish a strong crossface or underhook on the far side. Your forearm drives across their jaw or your arm threads under their far armpit. This control prevents them from turning into you during the transition."
+      },
+      {
+        "step_number": 2,
+        "action": "Increase hip pressure",
+        "description": "Drive your chest into their near hip with increased intensity, forcing them fully onto their side. Your weight shifts forward and diagonal, loading pressure through your shoulder into their hip bone. This creates the space behind their back for your knee insertion."
+      },
+      {
+        "step_number": 3,
+        "action": "Slide knee behind back",
+        "description": "While maintaining crossface pressure, slide your near-side knee behind their back, aiming to place it at their lower back or kidney level. The knee insertion must be deep enough that your shin contacts their back, not just your knee point."
+      },
+      {
+        "step_number": 4,
+        "action": "Release leg drag grip",
+        "description": "Once your knee is secure behind their back, release the leg drag grip and bring that hand to control their near arm or establish a grip on their collar. The trapped leg will naturally stay pinned under your body weight if your position is correct."
+      },
+      {
+        "step_number": 5,
+        "action": "Post front leg",
+        "description": "Swing your other leg around to post in front of their hips, with your foot planted on the mat near their belt line. This leg prevents them from turning into you and serves as your primary base for the technical mount position."
+      },
+      {
+        "step_number": 6,
+        "action": "Consolidate technical mount",
+        "description": "Settle your weight diagonally across their torso, with your hips heavy and chest pressure driving into their shoulder. Your crossface hand controls their head while your other hand secures their near arm. Begin immediately threatening arm triangle or armbar."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Opponent turns away aggressively to turtle as you transition",
+        "effectiveness": "Medium",
+        "your_response": "Follow immediately to back control—their turn exposes the back. Thread your bottom hook as they rotate and establish seatbelt grip before they can settle in turtle.",
+        "targets_outcome": "Technical Mount/Top"
+      },
+      {
+        "counter": "Opponent frames on your hip and creates space before knee insertion",
+        "effectiveness": "High",
+        "your_response": "Do not force the mount. Return to tight leg drag control, clear their frame with your crossface arm, then reattempt the transition once pressure is reestablished.",
+        "targets_outcome": "Leg Drag Control/Top"
+      },
+      {
+        "counter": "Opponent bridges and rolls toward you as you release leg drag",
+        "effectiveness": "Medium",
+        "your_response": "Post wide with your front leg and drive your crossface down. If they continue rolling, flow with the momentum and transition to knee on belly on the opposite side.",
+        "targets_outcome": "Leg Drag Control/Top"
+      },
+      {
+        "counter": "Opponent inserts knee shield as you transition to mount",
+        "effectiveness": "High",
+        "your_response": "Accept half guard position temporarily. Use your leg drag mechanics to smash the knee shield flat, then work standard half guard passing to mount.",
+        "targets_outcome": "Half Guard/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Releasing leg drag control before establishing upper body control",
+        "consequence": "Opponent immediately recovers guard or escapes to their knees before mount is secured",
+        "correction": "Always establish crossface or underhook BEFORE releasing the leg drag grip—upper body control is the anchor for the transition"
+      },
+      {
+        "error": "Attempting to flatten opponent for full mount instead of accepting technical mount",
+        "consequence": "Creates scramble opportunity and wastes energy fighting their natural defensive position",
+        "correction": "Accept their sideways orientation and slide directly into technical mount—fighting for full mount loses the positional advantage"
+      },
+      {
+        "error": "Inserting knee behind back too shallow (only knee touching, not shin)",
+        "consequence": "Opponent can easily roll you over or escape their hips underneath your leg",
+        "correction": "Drive knee deep until your entire shin is against their back, creating a wall they cannot roll past"
+      },
+      {
+        "error": "Posting front leg too far from opponent's hips",
+        "consequence": "Opponent can turn into you and recover closed guard or push your leg over for escape",
+        "correction": "Post front foot at their belt line, close enough to block any hip movement toward you"
+      },
+      {
+        "error": "Rushing the transition without maintaining pressure throughout",
+        "consequence": "Opponent times the transition to create space and recover guard during the movement",
+        "correction": "Maintain constant hip pressure during every phase—the transition should feel like increasing pressure, not releasing it"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Week 1-2",
+        "focus": "Position recognition and basic mechanics",
+        "description": "Practice the knee insertion and leg posting from static leg drag position. Partner offers no resistance. Focus on the sequence: upper body control, knee behind back, release grip, post front leg. Drill 20 repetitions per side daily."
+      },
+      {
+        "phase": "Week 3-4",
+        "focus": "Timing and pressure maintenance",
+        "description": "Partner provides light defensive movement (framing, slight hip escapes). Focus on maintaining constant pressure throughout transition. Practice recognizing when opponent's position is optimal for technical mount versus back take."
+      },
+      {
+        "phase": "Week 5-6",
+        "focus": "Counter responses and combinations",
+        "description": "Partner actively counters with frames, bridges, and guard recovery attempts. Practice adjusting to common counters and chaining to alternative positions (back take, knee on belly) when technical mount is blocked."
+      },
+      {
+        "phase": "Week 7+",
+        "focus": "Live integration and submission chains",
+        "description": "Incorporate into live rolling with specific focus. Start from leg drag control and work to finish from technical mount. Chain immediate submission threats (arm triangle, armbar) upon arriving in position."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the primary goal of Leg Drag to Technical Mount?",
+        "answer": "The primary goal is to convert your leg drag control into a dominant mounted position without losing offensive pressure. Technical mount allows you to capitalize on the opponent's sideways orientation rather than fighting to flatten them, arriving in mount with immediate submission threats to the exposed arm and neck."
+      },
+      {
+        "question": "What position do you start Leg Drag to Technical Mount from?",
+        "answer": "This technique starts from Leg Drag Control with you as the top player. You must have the opponent's leg controlled and pulled across their body, with hip pressure forcing them onto their side. Upper body control through crossface or underhook must also be established."
+      },
+      {
+        "question": "What are the key grips needed for Leg Drag to Technical Mount?",
+        "answer": "The primary grip is the leg drag control on the opponent's hip or pants. Before transitioning, you need upper body control through either a crossface (forearm across jaw), underhook on the far side, or collar grip. The leg drag grip is only released after upper body control and knee insertion are secure."
+      },
+      {
+        "question": "Your opponent posts their near arm against your hip as you begin transitioning—how do you adjust?",
+        "answer": "Do not force through the frame. First, use your crossface arm to clear their posting arm by swimming inside or pushing it across their body. Alternatively, trap the posting arm in a gift wrap position, which gives you additional control during the transition and sets up back takes if they turn away."
+      },
+      {
+        "question": "Why is technical mount preferred over full mount from leg drag control?",
+        "answer": "Technical mount accepts and exploits the opponent's natural sideways defensive position rather than fighting against it. From leg drag, the opponent is already on their side protecting their back. Technical mount secures control from this angle immediately, with direct access to arm triangles and armbars, while full mount would require additional work to flatten them."
+      },
+      {
+        "question": "What is the most critical mechanical detail in the knee insertion phase?",
+        "answer": "The knee must be inserted deeply enough that your entire shin contacts their back, not just the knee point. This creates a wall that prevents them from rolling past your leg. A shallow insertion only touching with the knee allows them to easily escape their hips underneath or roll you over."
+      },
+      {
+        "question": "Your opponent turns away aggressively as you insert your knee—how do you respond?",
+        "answer": "Follow immediately to back control rather than forcing the mount. Their turn exposes the back. Thread your bottom hook as they rotate, establish seatbelt grip (over-under on their torso), and insert the second hook before they can settle into turtle. The back take is often higher percentage than fighting for mount against this defense."
+      },
+      {
+        "question": "When is the optimal timing window to attempt this transition?",
+        "answer": "The optimal window is when you have maximum hip pressure established and the opponent commits to staying on their side rather than turning away. If they are actively fighting to turn toward you with frames, they are defending the mount. If they are protecting their back by facing you, they have conceded the mount position and you should transition immediately."
+      },
+      {
+        "question": "How do you maintain pressure throughout the transition without creating space?",
+        "answer": "The key is sequential movement rather than simultaneous. Establish upper body control first while increasing hip pressure. Insert knee while maintaining crossface. Only release leg drag after knee is deep. Post front leg immediately. Each phase maintains or increases pressure—never release one control point until the next is established."
+      },
+      {
+        "question": "What immediate submissions should you threaten upon arriving in technical mount?",
+        "answer": "The arm triangle is the primary threat because your crossface is already in position. Simply swim your arm under their neck and lock the figure-four grip. Secondary options include the near-side armbar by trapping their arm and swinging your leg over their head, and the mounted triangle if they post their arm to defend the choke."
+      },
+      {
+        "question": "What is the primary direction of force application during the knee insertion phase?",
+        "answer": "The force direction is forward and diagonal, driving through your chest and shoulder into their near hip while simultaneously sliding the knee laterally behind their back. The diagonal vector pins their hips to the mat while opening the space behind their back. Driving straight down wastes energy and does not create the gap needed for knee insertion."
+      },
+      {
+        "question": "If your opponent successfully inserts a knee shield during your transition, what is your chain attack sequence?",
+        "answer": "Accept the half guard position rather than fighting the shield. Immediately re-establish crossface to flatten the knee shield and drive your shoulder into their jaw. From there, chain into a knee slice pass using the pressure angle you already have from the leg drag. If they defend the knee slice by underhooking, switch to a backstep pass or darce choke entry on the exposed neck."
+      }
+    ],
+    "safety_considerations": "This transition is relatively low-risk compared to many BJJ techniques, but proper training protocols should still be followed. During the knee insertion phase, be careful not to drop your full weight suddenly onto the opponent's ribs—slide into position with controlled pressure. When practicing with newer partners, communicate before transitioning to prevent them from attempting dangerous spinal twisting escapes. The submission threats available from technical mount (arm triangle, armbar) require standard tap-and-release protocols. Never crank submissions in training without giving partners time to tap. If the opponent's arm is trapped awkwardly during the transition, release and reset rather than forcing them into a position where joint damage could occur."
+  },
+  "defender": {
+    "name": "Leg Drag to Technical Mount Defender",
+    "description": "How to defend against Leg Drag to Technical Mount in BJJ. Recognition cues, defensive options, and escape strategies.",
+    "overview": "Defending the Leg Drag to Technical Mount transition requires understanding that you are in a rapidly deteriorating position. Your opponent already has leg drag control and is working to advance to one of the most submission-rich positions in BJJ. The critical defensive window is narrow—once the knee slides behind your back and the front leg posts, you are in technical mount and your defensive options shrink dramatically. Your defensive strategy must focus on disrupting the transition before it completes rather than trying to escape technical mount after the fact.\n\nThe defender's primary tools are frames, hip movement, and early recognition. The moment you feel your opponent's hip pressure increase and their upper body control tighten, you must act. Framing against their shoulder or hip creates the space needed to either recover your trapped leg into half guard or turn away decisively to force a scramble. Passivity is your enemy—every second of inaction allows the attacker to complete another phase of the transition sequence.\n\nUnderstanding which phase of the transition the attacker is in determines your best defensive response. Before the knee insertion, you can frame and recover guard. During the knee insertion, you can turn away to force a back take scramble (which is often preferable to conceding technical mount). After the knee is deep and the front leg posts, your options are limited to technical mount escapes. Reading these phases in real time and selecting the appropriate defense is the hallmark of an experienced defender in this scenario.",
+    "key_principles": [
+      "Act early—the defensive window closes rapidly once hip pressure increases and the knee begins sliding behind your back",
+      "Frame at the shoulder and hip simultaneously to create structural resistance against the transition",
+      "Recover your trapped leg by inserting a knee shield before the attacker can post their front leg",
+      "If the knee is already behind your back, turning away to force a back take scramble is often preferable to conceding technical mount",
+      "Never allow your near arm to become isolated—keep elbows tight and connected to your knees",
+      "Use hip escapes to create angle and distance rather than pushing straight against the attacker's pressure"
+    ],
+    "recognition_cues": [
+      "Attacker increases hip pressure significantly while tightening their crossface or underhook—this signals the transition is beginning",
+      "Attacker's near-side knee begins lifting off the mat and sliding toward the space behind your back rather than maintaining standard leg drag position",
+      "Attacker releases their leg drag grip on your hip or pants while maintaining upper body control—this indicates the knee is already inserted and they are moving to post the front leg",
+      "You feel the attacker's weight shift forward and diagonal rather than straight down—this loading pattern precedes the knee insertion phase"
+    ],
+    "defensive_options": [
+      {
+        "action": "Frame on attacker's shoulder and hip, then hip escape to insert knee shield and recover half guard",
+        "when_to_use": "Before the attacker's knee slides behind your back—this is the highest-percentage defensive window when you still have space to create frames",
+        "targets_outcome": "Half Guard/Bottom",
+        "if_successful": "You recover half guard with knee shield established, neutralizing the mount threat and returning to a position with offensive options",
+        "risk": "If your frames are weak or poorly timed, the attacker clears them and completes the transition with increased pressure"
+      },
+      {
+        "action": "Turn away decisively to force back exposure and scramble for turtle position",
+        "when_to_use": "When the attacker's knee is already behind your back and recovering guard is no longer viable—turning into a back take scramble is preferable to conceding settled technical mount",
+        "targets_outcome": "Leg Drag Control/Top",
+        "if_successful": "You force a scramble where you can fight for underhooks from turtle or reguard before the attacker establishes back control with hooks",
+        "risk": "Attacker follows your rotation and secures seatbelt with hooks for full back control"
+      },
+      {
+        "action": "Bridge explosively toward the attacker while trapping their posting arm to create reversal opportunity",
+        "when_to_use": "When the attacker releases the leg drag grip to post their front leg—this brief moment with only one hand controlling creates a reversal window",
+        "targets_outcome": "Leg Drag Control/Top",
+        "if_successful": "You disrupt their base during the grip transition, potentially sweeping them or creating enough space to recover guard",
+        "risk": "If the bridge is poorly timed, the attacker rides it and uses your momentum to settle deeper into technical mount"
+      },
+      {
+        "action": "Pummel inside arm to underhook position and sit up into the attacker to prevent knee from settling",
+        "when_to_use": "During the knee insertion phase when the attacker's upper body control is momentarily lighter as they focus on moving their legs",
+        "targets_outcome": "Leg Drag Control/Top",
+        "if_successful": "Your underhook prevents the attacker from completing the crossface and drives them back, stalling the transition and potentially allowing guard recovery",
+        "risk": "If the attacker maintains strong crossface pressure, your pummeling attempt exposes your arm for isolation"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Half Guard/Bottom",
+        "how": "Frame against the attacker's shoulder with your near arm and hip escape to create enough space to insert your knee between your bodies as a shield. Thread your bottom leg around their trapped leg to establish half guard entanglement before they can withdraw the leg and reposition. The key is inserting the knee shield before their front leg posts."
+      },
+      {
+        "outcome": "Leg Drag Control/Top",
+        "how": "Bridge explosively during the moment the attacker releases their leg drag grip to reposition their hands. Time the bridge to coincide with their weight shift, which temporarily compromises their base. Combine the bridge with strong frames to push them back to the original leg drag position, then immediately begin standard leg drag bottom escapes."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Remaining passive and flat on back while the attacker completes each transition phase",
+        "consequence": "Attacker completes the full transition to settled technical mount with no resistance, arriving with immediate submission threats and fully consolidated control",
+        "correction": "React immediately when you feel hip pressure increase—the transition takes only 2-3 seconds to complete, so defensive action must begin at the first recognition cue"
+      },
+      {
+        "error": "Extending the near arm to push against the attacker's chest or head during the transition",
+        "consequence": "The extended arm becomes isolated as the attacker slides into technical mount, providing an immediate armbar or arm triangle opportunity",
+        "correction": "Keep elbows tight to your ribs at all times—frame with forearm and elbow structure rather than extended arm pushing, and use hip movement to create space instead of arm extension"
+      },
+      {
+        "error": "Attempting to recover guard by pulling the trapped leg straight back without creating frames first",
+        "consequence": "The attacker's body weight and hip pressure make direct leg extraction impossible, wasting energy and allowing the transition to continue unimpeded",
+        "correction": "Establish frames at the shoulder and hip first to create separation, then use the space generated to extract the leg and insert a knee shield"
+      },
+      {
+        "error": "Turning away from the attacker without a plan, exposing the back without fighting for underhooks",
+        "consequence": "Attacker immediately follows the rotation, establishes seatbelt control and hooks, and secures full back control—a worse position than technical mount",
+        "correction": "If you must turn away, do so with purpose—immediately fight for underhooks as you rotate, protect your neck, and be prepared to wrestle up from turtle rather than conceding the back"
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the most critical timing window for defending the Leg Drag to Technical Mount transition?",
+        "answer": "The most critical window is before the attacker's knee slides behind your back. Once the knee is inserted deep with the shin against your back, your defensive options narrow significantly. The moment you feel increased hip pressure and tightening of the crossface, you must immediately frame and begin creating space. Waiting even one second past the knee insertion often means the transition is complete."
+      },
+      {
+        "question": "Your attacker has already inserted their knee behind your back but has not yet posted their front leg—what is your best defensive option?",
+        "answer": "At this stage, recovering guard is extremely difficult. Your best option is to turn away decisively and force a back take scramble. As you turn, immediately fight for underhooks and work to get to your knees in turtle position. From turtle, you can fight for underhooks and create scramble opportunities. This is preferable to lying still and allowing them to post the front leg and settle into technical mount with full submission access."
+      },
+      {
+        "question": "Why is extending your arms to push the attacker away a critical defensive error during this transition?",
+        "answer": "Any arm extension during this transition is immediately exploitable. The attacker is already positioned to slide into technical mount, and an extended arm becomes isolated the moment the knee settles behind your back. The arm triangle and armbar are the primary submissions from technical mount, and both require an extended or isolated arm. Frame with bent elbows and forearm structures instead, generating space through hip movement rather than arm pushing."
+      },
+      {
+        "question": "How do you recover half guard as a defensive response to this transition?",
+        "answer": "Frame against the attacker's shoulder with your near forearm while simultaneously hip escaping to create space between your bodies. Use the space to insert your near knee across their body as a shield, then wrap your bottom leg around their trapped leg to establish the half guard entanglement. The entire sequence must happen before the attacker posts their front leg—once the front leg is posted, the knee shield insertion becomes nearly impossible due to the blocking angle."
+      },
+      {
+        "question": "What recognition cues indicate the Leg Drag to Technical Mount transition has begun?",
+        "answer": "Four primary cues signal the transition: the attacker's hip pressure increases dramatically against your near hip, their crossface or underhook tightens simultaneously with the pressure increase, their near-side knee lifts off the mat and begins moving toward your back, and their weight shifts forward and diagonal rather than straight down. Recognizing any combination of these cues should trigger an immediate defensive response."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Week 1-2",
+        "focus": "Recognition and framing fundamentals",
+        "description": "Partner slowly executes the Leg Drag to Technical Mount transition while you practice identifying each phase. Focus on building the frame response—shoulder and hip frames with hip escape—without resistance from the attacker. Drill 15 repetitions per side, pausing at each recognition cue to confirm you can identify the transition phase."
+      },
+      {
+        "phase": "Week 3-4",
+        "focus": "Timed defensive responses with light resistance",
+        "description": "Partner executes the transition at moderate speed. Practice inserting knee shield before knee insertion completes, and practice the turn-away to turtle when the knee is already behind your back. Partner provides 50% resistance. Focus on selecting the correct defense based on which phase the transition is in."
+      },
+      {
+        "phase": "Week 5-6",
+        "focus": "Live defensive scenarios with full resistance",
+        "description": "Partner executes the transition at full speed with full intent. Practice the complete defensive decision tree: frame and recover guard early, turn to turtle mid-transition, or bridge during grip release. Evaluate success rate for each defensive option and identify which works best for your body type and timing."
+      },
+      {
+        "phase": "Week 7+",
+        "focus": "Integration into positional sparring from leg drag",
+        "description": "Begin positional sparring rounds starting from leg drag bottom. Defend all transition attempts including technical mount, back take, standard mount, and side control. Build automatic defensive responses that activate without conscious thought at the first recognition cue."
+      }
+    ]
+  },
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Gi-specific collar drag variation",
+      "description": "Instead of crossface, grip the far collar deeply and pull their head toward you as you transition. The collar grip creates a natural arm triangle setup upon arriving in technical mount.",
+      "when_to_use": "In gi training when you have established collar control during the leg drag"
+    },
+    {
+      "variant_name": "Direct arm triangle entry",
+      "description": "As you transition, thread your crossface arm under their neck and lock the arm triangle grip before fully settling into technical mount. Arrive with submission already secured.",
+      "when_to_use": "When opponent is defending with arms tight to body and neck is exposed"
+    },
+    {
+      "variant_name": "Gift wrap transition",
+      "description": "If opponent posts their near arm to prevent your knee insertion, trap that arm across their body into a gift wrap. Use the gift wrap control to facilitate the mount transition and maintain back exposure.",
+      "when_to_use": "When opponent frames with near arm rather than protecting their head"
+    }
+  ],
+  "position_integration": "The Leg Drag to Technical Mount serves as a critical link between guard passing and submission finishing in modern BJJ. This transition sits within the broader leg drag passing system, which offers multiple endpoints including side control, back control, and mount. Choosing technical mount over these alternatives is optimal when the opponent defends the back take by facing you, but commits to staying on their side rather than fighting back to guard.\n\nFrom technical mount, you have direct chains to arm triangles, mounted triangles, and armbars on the near side. The position also offers pathways to full mount if you choose to flatten the opponent, or back control if they turn away. Understanding this transition means understanding the decision tree from leg drag: opponent turns away leads to back take, opponent stays flat leads to standard mount, opponent stays sideways facing you leads to technical mount."
+}

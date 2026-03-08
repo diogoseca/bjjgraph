@@ -1,0 +1,417 @@
+{
+  "name": "Escape from Dead Orchard",
+  "description": "Master the Escape from Dead Orchard to Open Guard in BJJ. Complete guide to rolling escapes, aggressive hip movement, and full guard recovery techniques.",
+  "tags": [
+    "bjj",
+    "transition",
+    "escape",
+    "dead-orchard",
+    "choke-defense",
+    "positional-escape",
+    "guard-recovery",
+    "rolling-escape"
+  ],
+  "from_position": "Dead Orchard Control/Bottom",
+  "outcomes": [
+    {
+      "to": "Open Guard/Bottom",
+      "probability": 35,
+      "result": "success"
+    },
+    {
+      "to": "Dead Orchard Control/Bottom",
+      "probability": 40,
+      "result": "failure"
+    },
+    {
+      "to": "Side Control/Bottom",
+      "probability": 25,
+      "result": "counter"
+    }
+  ],
+  "success_rate": 35,
+  "overview": "The Escape from Dead Orchard to Open Guard is a higher-amplitude defensive transition that prioritizes creating maximum distance from the anaconda grip configuration rather than the incremental frame-and-shrimp approach of standard dead orchard escapes. Where the conventional escape targets front headlock recovery through small positional gains, this variation commits to aggressive rolling mechanics, explosive hip escape chains, and inversion to break free entirely and recover full open guard with leg frames between you and the opponent.\n\nThis escape exploits a fundamental weakness of the dead orchard position: the top player's grip depends on maintaining a specific compression angle and chest-to-back connection. By executing a coordinated roll or aggressive multi-shrimp sequence that dramatically changes body angle, the bottom player can break the grip's mechanical advantage in a single decisive movement rather than grinding through incremental gains. The trade-off is higher risk - if the roll or explosive escape is read by the top player, they can abandon the dead orchard grip and immediately transition to side control, capitalizing on the bottom player's extended body position.\n\nStrategically, this escape is best deployed when the incremental escape has stalled or when the opponent's grip has been partially loosened but not broken. It represents the second phase of the dead orchard escape decision tree: attempt the methodical frame-and-shrimp first, and if it stalls after two to three attempts, commit to the higher-amplitude movement while whatever space has been created still exists. The successful outcome places you in open guard with full leg frames, which is a significantly better recovery position than front headlock bottom.",
+  "conditions": [
+    "Opponent has established Dead Orchard Control but grip depth has been partially compromised through prior escape attempts",
+    "Bottom player retains sufficient hip mobility and energy for explosive movement after initial defensive efforts",
+    "Some angular separation already exists from prior frame-and-shrimp work, reducing the choke's full compression",
+    "Bottom player's free arm is positioned to control the choking arm during the rolling or explosive escape movement",
+    "Opponent's weight has shifted or is elevated enough to allow rolling or multi-shrimp movement"
+  ],
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Granby Roll to Open Guard",
+      "description": "Execute a granby roll by loading weight onto your shoulders and rolling your hips over in the direction opposite the trapped arm. This inverting movement dramatically changes the angle and creates enough distance for full open guard establishment. The roll should follow the same rotational line the opponent uses for the anaconda finish but in reverse, using their own positional architecture against them.",
+      "when_to_use": "When the opponent's hips are elevated or their weight shifts forward, creating enough space under your shoulders to initiate the inversion"
+    },
+    {
+      "variant_name": "Explosive Multi-Shrimp Chain",
+      "description": "Chain three to four rapid hip escapes in succession without pausing between movements, each building on the angle created by the previous shrimp. Unlike the methodical single-shrimp approach, this variation commits to continuous explosive movement that overwhelms the opponent's ability to follow and re-tighten. The goal is to create enough total distance in a two to three second burst to insert both feet on the opponent's hips.",
+      "when_to_use": "When the opponent's grip has loosened from prior escape work and you need to capitalize on the accumulated space before they re-settle"
+    },
+    {
+      "variant_name": "Sit-Through to Guard Recovery",
+      "description": "From a position where some base has been recovered, execute a sit-through by threading the free-side leg across your body and sitting through to face the opponent. This reorients your body from a compressed turtle-like state to a seated guard position where you can immediately establish leg frames and grips for open guard control.",
+      "when_to_use": "When you have recovered enough base to get a knee underneath you and the opponent's grip has shifted to a looser headlock configuration"
+    }
+  ],
+  "position_integration": "The Escape from Dead Orchard to Open Guard functions as the aggressive second option within the dead orchard escape decision tree, complementing the incremental frame-and-shrimp escape that targets front headlock recovery. This transition connects to the broader guard recovery system by providing a pathway from one of the most compromised bottom positions directly to open guard, bypassing the intermediate front headlock and half guard stages. It links to the anaconda and darce defense frameworks through shared principles of angle change and grip disruption, and feeds into the open guard retention and sweep systems once recovery is achieved. Understanding both the methodical and explosive escape variants gives the practitioner a complete defensive toolset against 10th Planet and modern front headlock systems.",
+  "related_content": [
+    {
+      "name": "Dead Orchard Control",
+      "relationship": "Source position - the control state this escape addresses"
+    },
+    {
+      "name": "Open Guard",
+      "relationship": "Primary escape target - full guard recovery with leg frames"
+    },
+    {
+      "name": "Side Control",
+      "relationship": "Counter outcome - where opponent lands if they abandon grip and pass"
+    },
+    {
+      "name": "Anaconda Control",
+      "relationship": "Parent control family - dead orchard is an advanced anaconda variation"
+    },
+    {
+      "name": "Escape Dead Orchard Control",
+      "relationship": "Complementary escape - incremental frame-and-shrimp pathway to front headlock"
+    },
+    {
+      "name": "Anaconda Grip Break to Front Headlock",
+      "relationship": "Related escape technique - similar grip-breaking principles from standard anaconda"
+    },
+    {
+      "name": "Dead Orchard to Anaconda Finish",
+      "relationship": "Primary threat - submission this escape must prevent"
+    },
+    {
+      "name": "Dead Orchard to Darce Switch",
+      "relationship": "Secondary threat - alternative submission during escape attempts"
+    },
+    {
+      "name": "Darce Control",
+      "relationship": "Related control position - similar defensive principles apply"
+    },
+    {
+      "name": "Front Headlock",
+      "relationship": "Intermediate position - less aggressive escapes target this recovery state"
+    },
+    {
+      "name": "Turtle",
+      "relationship": "Common preceding position - dead orchard often established from failed turtle defense"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Alternative escape target - accessible if open guard recovery is partially blocked"
+    }
+  ],
+  "attacker": {
+    "name": "Escape from Dead Orchard Attacker",
+    "description": "Execute the aggressive Dead Orchard escape to open guard in BJJ. Step-by-step guide to rolling escapes, explosive hip chains, and full guard recovery from this dangerous anaconda position.",
+    "overview": "As the bottom player executing the Escape from Dead Orchard to Open Guard, your objective is to create enough distance in a decisive burst to fully disengage from the anaconda grip and establish open guard with leg frames. This is not the patient, incremental escape - this is the committed, higher-amplitude movement reserved for situations where the methodical approach has stalled or where a window of reduced pressure presents itself. You are trading the lower-risk incremental gains for a single decisive action that either breaks you free to open guard or, if countered, may leave you under side control. The timing and commitment of this escape are critical: half-measures result in worsened position, while full commitment with proper mechanics yields the best recovery position available from dead orchard.",
+    "key_principles": [
+      "Commit fully to the explosive escape movement once initiated - half-measures allow the opponent to counter and tighten the position simultaneously",
+      "Use prior frame-and-shrimp work to loosen the grip before deploying this escape, treating it as phase two of the escape sequence rather than an opening move",
+      "Direct the rolling or multi-shrimp movement away from the trapped arm side to maximize angle disruption against the anaconda compression",
+      "Maintain chin-to-chest contact throughout the explosive movement to prevent the choke from sinking during transition",
+      "Immediately establish leg frames on the opponent's hips upon creating distance rather than pausing to assess the situation",
+      "Accept the calculated risk that a failed attempt may result in side control, which is still a significant positional improvement over dead orchard"
+    ],
+    "setup_requirements": [
+      "Prior frame establishment at the choking arm elbow that has partially compromised the grip's compression angle",
+      "Some hip angle already created through initial shrimp attempts, providing a starting position for the explosive movement",
+      "Free arm positioned to control the opponent's choking arm during the rolling or explosive escape phase",
+      "Sufficient energy reserves remaining for a committed explosive movement after the initial defensive phase",
+      "Opponent's weight distribution identified - elevated hips favor granby roll, settled weight favors multi-shrimp chain"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Assess readiness for aggressive escape",
+        "description": "After initial frame-and-shrimp work has partially loosened the dead orchard grip, assess whether conditions are right for the aggressive escape. Check that your frame at the choking arm elbow is solid, some hip angle exists, and the opponent's grip depth has been reduced from maximum. If the grip is still fully locked with no angular separation, return to incremental escape work before attempting this variation."
+      },
+      {
+        "step_number": 2,
+        "action": "Load weight onto shoulders for rolling escape",
+        "description": "Shift weight onto your upper back and shoulders while maintaining the elbow frame. Draw your knees toward your chest to load your hips for the explosive movement. This preparation phase should take less than one second to avoid telegraphing the escape. Your free hand maintains frame contact with the choking arm to prevent re-tightening during the load phase."
+      },
+      {
+        "step_number": 3,
+        "action": "Execute the explosive movement",
+        "description": "For the granby roll: drive your hips over your shoulders away from the trapped arm side, using the rotational momentum to tear free from the compression angle. For the multi-shrimp chain: fire three to four rapid hip escapes in succession away from the trapped arm, each one building angle without pausing. Both variations must be performed with full commitment and continuous movement."
+      },
+      {
+        "step_number": 4,
+        "action": "Break the grip connection",
+        "description": "As the explosive movement changes the angle dramatically, the anaconda grip loses its mechanical advantage. Use your free arm to actively push the choking arm away from your neck as the grip loosens, creating the final separation needed. If executing the granby, the inversion itself creates separation. If multi-shrimping, the accumulated distance opens enough space to begin extracting your head from the grip configuration."
+      },
+      {
+        "step_number": 5,
+        "action": "Establish immediate leg frames",
+        "description": "The instant you feel the grip break or loosen significantly, get both feet on the opponent's hips or establish shin frames across their thighs. Do not pause to celebrate the escape or assess your position. The opponent will immediately attempt to close distance and pass, so the window to establish defensive leg structure is one to two seconds at most. Your legs are your primary tools for maintaining the distance you just created."
+      },
+      {
+        "step_number": 6,
+        "action": "Secure upper body grips",
+        "description": "With leg frames established, immediately secure at least one upper body grip. In gi, grab the collar or sleeve. In no-gi, control the wrist or bicep of the arm that was choking you. This creates the two-point connection system that defines functional open guard and prevents the opponent from freely engaging their passing game."
+      },
+      {
+        "step_number": 7,
+        "action": "Stabilize open guard position",
+        "description": "Complete the transition to active open guard by sitting up to an engaged posture rather than remaining flat on your back. Adjust your specific guard variation based on the opponent's reaction: if they stand, establish de la riva or collar-sleeve; if they drive forward, insert butterfly hooks; if they disengage to reset, use the space to sit up fully and re-engage on your terms."
+      },
+      {
+        "step_number": 8,
+        "action": "Prevent re-engagement of dead orchard",
+        "description": "Maintain active leg frames and grip fighting to prevent the opponent from re-establishing any front headlock control. If they attempt to grab your head, use your feet on their hips to create distance before they can break your posture. The escape is only complete when you are in a stable open guard with active offensive and defensive controls, making a return to dead orchard impossible."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Opponent sprawls heavily and drives weight forward as they feel the explosive escape begin",
+        "effectiveness": "High",
+        "your_response": "If the granby roll is stuffed, immediately switch to multi-shrimp chain in the opposite direction. If already committed to the roll, use their forward pressure to accelerate the rotation rather than fighting against it.",
+        "targets_outcome": "Dead Orchard Control/Bottom"
+      },
+      {
+        "counter": "Opponent releases the dead orchard grip and immediately transitions to side control pressure pass",
+        "effectiveness": "Medium",
+        "your_response": "Recognize the grip release and immediately pivot from escape mode to guard retention mode. Get legs between bodies before they can establish crossface and hip control. Even partial guard recovery is better than conceding side control passively.",
+        "targets_outcome": "Side Control/Bottom"
+      },
+      {
+        "counter": "Opponent follows the rolling movement and re-establishes anaconda grip from the new angle",
+        "effectiveness": "High",
+        "your_response": "If the opponent follows your roll, the new angle should provide better hip escape opportunity than the original position. Immediately chain into the incremental frame-and-shrimp escape from the new angle rather than attempting another roll.",
+        "targets_outcome": "Dead Orchard Control/Bottom"
+      },
+      {
+        "counter": "Opponent switches to darce grip during the explosive transition when the trapped arm shifts position",
+        "effectiveness": "Medium",
+        "your_response": "The darce requires a different arm threading than the anaconda. Use the momentary grip adjustment to accelerate your escape, as the transition between grips creates a window of reduced compression. Circle toward the newly threatened side to prevent the darce from locking.",
+        "targets_outcome": "Dead Orchard Control/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Attempting the aggressive escape as the first response without prior frame-and-shrimp work",
+        "consequence": "Explosive movement against a fully locked dead orchard grip tightens the choke and wastes critical energy reserves",
+        "correction": "Always perform initial frame establishment and at least one to two shrimp attempts to loosen the grip before deploying the aggressive escape as a phase-two option"
+      },
+      {
+        "error": "Half-committing to the granby roll and stalling midway through the rotation",
+        "consequence": "Leaves you in an inverted position with no base and no guard, fully exposed to the opponent passing or re-establishing the choke from a new angle",
+        "correction": "Once the granby roll is initiated, commit fully to completing the rotation. A partial roll is worse than no roll. If you are not confident in the commitment, use the multi-shrimp chain instead"
+      },
+      {
+        "error": "Failing to establish leg frames immediately after creating distance",
+        "consequence": "The opponent closes the distance within one to two seconds and either re-establishes dead orchard or passes directly to side control",
+        "correction": "Train the escape-to-guard-frame sequence as a single continuous movement. The feet must hit the opponent's hips within one second of the grip breaking"
+      },
+      {
+        "error": "Rolling toward the trapped arm side during the granby escape",
+        "consequence": "Feeds your head and trapped arm deeper into the anaconda grip, dramatically worsening the choke and potentially causing immediate submission",
+        "correction": "Always roll away from the trapped arm side. The rotation should move your body in the direction that opens the grip rather than tightening it"
+      },
+      {
+        "error": "Lifting chin during the explosive movement to look where you are going",
+        "consequence": "Exposes the neck to full blood choke compression during the most vulnerable phase of the escape when the grip may momentarily tighten",
+        "correction": "Keep strict chin-to-chest discipline throughout the entire explosive movement. Navigate by feel and body positioning, not by looking"
+      },
+      {
+        "error": "Pausing to rest in open guard after the escape rather than immediately establishing active controls",
+        "consequence": "Opponent capitalizes on your momentary relaxation to initiate a guard pass before you have defensive structure",
+        "correction": "Transition directly from escape to active open guard engagement. Establish grips, adjust leg frames, and sit up to an engaged posture within three seconds of breaking free"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Rolling Mechanics",
+        "focus": "Granby roll and inversion from compressed positions",
+        "description": "Practice granby rolls from turtle position without opponent resistance to build the movement pattern. Focus on smooth rotation, weight loading onto shoulders, and hip clearance. Progress to granby rolls with a partner applying light dead orchard pressure at 30% to build comfort with rolling under compression. Twenty repetitions per side per session."
+      },
+      {
+        "phase": "Phase 2: Multi-Shrimp Chains",
+        "focus": "Continuous explosive hip escape sequences",
+        "description": "Drill chains of three to four rapid hip escapes from bottom with partner applying moderate top pressure. Focus on maintaining frame contact throughout the chain and generating cumulative distance without pausing between shrimps. Partner provides 50% resistance and does not actively counter. Track total distance created per chain to measure improvement."
+      },
+      {
+        "phase": "Phase 3: Escape-to-Guard Transitions",
+        "focus": "Connecting the explosive escape to immediate open guard establishment",
+        "description": "Chain the full sequence from dead orchard bottom: frame, initial shrimp, explosive escape movement, leg frame establishment, grip acquisition. Partner provides 60% resistance. Focus on making the escape-to-guard-frame a single continuous movement with no pause. Measure time from escape initiation to stable open guard."
+      },
+      {
+        "phase": "Phase 4: Decision Training",
+        "focus": "Choosing between incremental and aggressive escape based on conditions",
+        "description": "Positional sparring from dead orchard bottom at 70% resistance where partner varies their grip depth and pressure patterns. Practice reading conditions that favor the aggressive escape versus conditions requiring continued incremental work. Develop the decision framework for when to deploy each escape type."
+      },
+      {
+        "phase": "Phase 5: Full Resistance Integration",
+        "focus": "Applying the complete escape system under competition conditions",
+        "description": "Full resistance positional sparring starting from dead orchard control bottom. Use the complete escape decision tree: attempt incremental escape first, assess conditions, deploy aggressive escape when appropriate. Track escape success rates and destination positions to evaluate which conditions best predict successful open guard recovery."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "When should you deploy the aggressive escape to open guard rather than continuing the incremental frame-and-shrimp approach?",
+        "answer": "Deploy the aggressive escape when the incremental approach has created some angular separation and loosened the grip but stalled after two to three attempts, and the opponent is beginning to re-settle their weight. The prior work has compromised the grip enough for the explosive movement to succeed, but further incremental attempts face diminishing returns. Also deploy when you feel the opponent's weight shift or elevate momentarily, creating a window for the larger movement. Never deploy as the first escape attempt against a fully locked grip."
+      },
+      {
+        "question": "What is the critical difference in rolling direction between the granby roll escape and the anaconda finishing rotation?",
+        "answer": "The anaconda finish involves the top player rolling you toward your trapped arm side, which tightens the circular compression. The granby escape rolls you away from the trapped arm side, which opens the compression angle and disrupts the grip mechanics. Rolling in the wrong direction feeds your neck into the choke and can cause immediate submission. The correct direction always moves your body so that your neck separates from the choking arm rather than compressing further into it."
+      },
+      {
+        "question": "Your granby roll is partially stuffed and you end up on your side with the grip still partially engaged - what is your immediate response?",
+        "answer": "Do not attempt a second granby roll from this compromised position. Instead, immediately switch to the multi-shrimp chain taking advantage of the new angle the partial roll created. The partial roll has changed the compression angle even if it did not break the grip, and this new angle often provides better hip escape mechanics than the original flat position. Use whatever angular gain the partial roll achieved to fuel the shrimp chain, and focus on establishing leg frames from the side-lying position."
+      },
+      {
+        "question": "What must happen within two seconds of the dead orchard grip breaking during the aggressive escape?",
+        "answer": "Both feet must contact the opponent's hips or establish shin frames across their thighs to create the structural barrier that defines open guard. The opponent will immediately attempt to close distance and pass, so the window for establishing defensive leg structure is extremely brief. Training should focus on making the escape-to-leg-frame transition automatic and continuous rather than treating them as separate actions. Without immediate leg frames, the escaped distance collapses and the opponent achieves side control."
+      },
+      {
+        "question": "How does the opponent's weight distribution determine which aggressive escape variant you should use?",
+        "answer": "Elevated hips favor the granby roll because the space under your shoulders allows loading weight for the inversion and the opponent's high center of gravity makes it harder for them to stuff the roll. Settled heavy weight favors the multi-shrimp chain because there is insufficient space for the granby loading phase, but the shrimp chain can generate distance even under heavy pressure through cumulative small movements. If the opponent's weight is transitioning between states, that transition moment is the optimal window for either variant."
+      },
+      {
+        "question": "Your opponent releases the dead orchard grip during your escape and starts driving toward side control - how do you adjust your objective?",
+        "answer": "Immediately pivot from escape-focused movement to guard retention. The dead orchard grip releasing is actually a partial success, so your priority shifts from breaking a choke to preventing a pass. Get your legs between bodies before the opponent establishes crossface and hip control. Even getting to half guard represents a significant positional improvement from dead orchard. Do not continue the rolling or shrimping movement beyond what is needed to establish guard frames, as excessive movement without the opponent's grip provides nothing and may create passing angles."
+      },
+      {
+        "question": "Why is the multi-shrimp chain performed without pausing between individual shrimps?",
+        "answer": "Pausing between shrimps allows the opponent to follow each individual movement, re-settle their weight, and re-establish the compression angle. The chain works because the continuous movement overwhelms the opponent's ability to adjust, creating cumulative distance that exceeds what any single shrimp could achieve. Each pause gives the opponent a micro-window to tighten the grip, nullifying the previous shrimp's gains. The three to four rapid shrimps should feel like one continuous flowing movement rather than discrete individual escapes separated by assessment pauses."
+      },
+      {
+        "question": "What specific upper body grip should you prioritize after establishing leg frames in open guard recovery?",
+        "answer": "Prioritize controlling the arm that was performing the anaconda choke. In gi, grip their sleeve at the wrist of the choking arm. In no-gi, control the wrist or bicep of that arm. This grip serves dual purpose: it prevents the opponent from re-establishing any front headlock or anaconda configuration, and it creates an asymmetric control that you can use for sweeps and guard attacks. Controlling the formerly choking arm is psychologically effective as well, removing their primary offensive tool and forcing them to develop a new attacking strategy from open guard top."
+      }
+    ],
+    "safety_considerations": "The aggressive escape from Dead Orchard involves explosive movements while your neck is under compression, creating risk of cervical strain if performed without proper technique. Always maintain chin-to-chest contact during rolling movements to protect the cervical spine. In training, tap immediately if you feel the choke tighten during a failed escape attempt rather than forcing through a locked submission. Partners should release pressure immediately during escape drilling and communicate clearly about resistance levels. Start all aggressive escape practice at low resistance and increase gradually as mechanics become automatic."
+  },
+  "defender": {
+    "name": "Escape from Dead Orchard Defender",
+    "description": "Prevent the aggressive Dead Orchard escape as the top player in BJJ. Guide to countering rolling escapes, stuffing multi-shrimp chains, and transitioning to side control when grip is compromised.",
+    "overview": "As the practitioner maintaining Dead Orchard Control against an opponent attempting the aggressive escape to open guard, your primary task is recognizing the transition from incremental escape attempts to committed explosive movement and responding with the appropriate counter before momentum builds. The aggressive escape is more dangerous to your control than the standard frame-and-shrimp because it generates significantly more distance in a shorter time window, but it also carries greater risk for the bottom player, creating counter-opportunities that do not exist against the patient escape. Your responses include sprawling to stuff rolling attempts, following multi-shrimp chains with hip adjustments, and strategically releasing the dead orchard to secure side control when maintaining the grip is no longer viable. The key tactical insight is that a controlled release into side control pass is preferable to losing the position entirely by fighting for a grip that has been structurally compromised.",
+    "key_principles": [
+      "Recognize the transition from incremental to explosive escape by feeling the bottom player load weight onto their shoulders or draw knees toward chest",
+      "Sprawl heavily and drive weight forward at the first sign of rolling or inversion to stuff the granby before momentum builds",
+      "Follow multi-shrimp chains with your own hip adjustments, matching each shrimp to maintain the compression angle",
+      "Make the strategic decision to release the dead orchard and secure side control when the grip has been compromised beyond recovery",
+      "Use the bottom player's commitment to explosive movement against them by capitalizing on their extended body position during failed attempts",
+      "Maintain steady chest-to-back pressure that prevents the bottom player from loading weight onto their shoulders for the granby roll"
+    ],
+    "recognition_cues": [
+      "Bottom player shifts weight onto upper back and shoulders, drawing knees toward chest in preparation for granby roll",
+      "Sudden increase in hip escape speed with chained movements rather than single shrimp-and-pause pattern",
+      "Bottom player's free arm shifts from framing at your elbow to controlling your choking arm wrist for active redirection",
+      "Change in breathing pattern from controlled defensive rhythm to sharp exhale indicating commitment to explosive movement",
+      "Bottom player's hips begin rotating away from the trapped arm side with significantly more amplitude than previous escape attempts"
+    ],
+    "defensive_options": [
+      {
+        "action": "Sprawl and drive chest pressure forward to pin bottom player's shoulders flat and prevent granby roll loading",
+        "when_to_use": "When you feel the bottom player shifting weight to their upper back and drawing knees toward chest, indicating granby roll preparation",
+        "targets_outcome": "Dead Orchard Control/Bottom",
+        "if_successful": "Bottom player's rolling attempt is stuffed, they are flattened, and your dead orchard grip may tighten from the sprawl pressure",
+        "risk": "Over-committing the sprawl can elevate your hips, creating space that the bottom player redirects into a multi-shrimp chain escape"
+      },
+      {
+        "action": "Match the multi-shrimp chain by walking your hips in the same direction, maintaining compression angle throughout the chain",
+        "when_to_use": "When the bottom player begins rapid consecutive hip escapes rather than single shrimps, attempting to build cumulative distance",
+        "targets_outcome": "Dead Orchard Control/Bottom",
+        "if_successful": "Each individual shrimp is neutralized by your matching hip movement, the bottom player fatigues from failed explosive attempts, and the position remains locked",
+        "risk": "Failing to match the speed of the chain allows cumulative distance to build and the grip to loosen progressively"
+      },
+      {
+        "action": "Release dead orchard grip and immediately establish crossface and hip control for side control pass",
+        "when_to_use": "When the aggressive escape has compromised your grip depth beyond recovery and continuing to fight for the choke would result in full guard recovery",
+        "targets_outcome": "Side Control/Bottom",
+        "if_successful": "You transition from a compromised dead orchard to dominant side control, maintaining top position and offensive advantage",
+        "risk": "If the bottom player reads the release early, they may establish guard frames before you secure side control"
+      },
+      {
+        "action": "Accelerate anaconda finishing rotation as the bottom player commits to escape movement",
+        "when_to_use": "When the bottom player's escape creates rotational momentum that you can redirect into the anaconda finishing angle",
+        "targets_outcome": "Dead Orchard Control/Bottom",
+        "if_successful": "The bottom player's own escape energy drives them into the anaconda finish, converting their aggressive escape into a submission",
+        "risk": "If the bottom player recognizes the finishing rotation and matches it, the grip may break entirely during the accelerated movement"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Dead Orchard Control/Bottom",
+        "how": "Sprawl to stuff rolling attempts and match multi-shrimp chains with hip adjustments to maintain compression angle. The aggressive escape burns the bottom player's energy rapidly, so surviving their committed attempt often leaves them exhausted and more vulnerable to the incremental squeeze."
+      },
+      {
+        "outcome": "Side Control/Bottom",
+        "how": "When the aggressive escape compromises your grip beyond recovery, make the strategic decision to release the dead orchard and immediately establish crossface and hip control. Time the release to catch the bottom player mid-movement when their body is extended and their legs are not yet in position to establish guard frames."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Fighting to maintain the dead orchard grip after it has been structurally compromised by the aggressive escape",
+        "consequence": "Bottom player completes the escape to open guard, achieving the best-case outcome, rather than ending up under the more manageable side control",
+        "correction": "Recognize the decision point where maintaining the grip is no longer viable and immediately transition to side control. A controlled position change preserves your dominance better than a lost scramble."
+      },
+      {
+        "error": "Failing to recognize the transition from incremental to explosive escape and reacting too late to counter",
+        "consequence": "The rolling movement or multi-shrimp chain builds momentum before you respond, making the counter significantly harder and often resulting in full guard recovery",
+        "correction": "Develop sensitivity to the loading phase cues: weight shift to shoulders, knees drawing to chest, grip on your wrist. Counter during the loading phase before momentum develops, not after the explosive movement begins."
+      },
+      {
+        "error": "Relaxing pressure after successfully stuffing the first aggressive escape attempt",
+        "consequence": "Bottom player immediately chains into a second variant, using whatever space your relaxation created to fuel the next attempt",
+        "correction": "After stuffing an aggressive escape, immediately re-tighten the grip and increase pressure. The bottom player's energy expenditure on the failed attempt is only an advantage if you capitalize on it with increased control."
+      },
+      {
+        "error": "Lifting hips during the sprawl counter, creating the exact space needed for granby roll execution",
+        "consequence": "The intended counter becomes the setup for the bottom player's escape, as the elevated hips create rolling space under their shoulders",
+        "correction": "Drive hips down and forward during the sprawl, pinning the bottom player's shoulders to the mat with chest weight. The counter is about flattening, not about elevating your own center of gravity."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the most critical timing window for countering the granby roll escape attempt?",
+        "answer": "The critical window is during the loading phase when the bottom player shifts weight to their shoulders and draws knees toward their chest. This is the one to two second preparation phase before the roll itself begins. Once the rolling momentum starts, stuffing it requires significantly more force and energy. By sprawling and driving chest pressure forward during the loading phase, you pin their shoulders flat and remove the mechanical foundation the granby requires."
+      },
+      {
+        "question": "When should you strategically release the dead orchard grip and transition to side control instead of fighting to maintain it?",
+        "answer": "Release when you feel your grip depth has moved past the point of submission viability, specifically when your hand position has slipped back toward the near shoulder rather than past the far shoulder. Also release when the bottom player has created significant hip angle that you cannot close within two to three hip adjustments. The decision calculus is simple: side control top is a dominant position worth 3 points, while fighting for a compromised dead orchard risks the bottom player escaping entirely to open guard where you have zero advantage."
+      },
+      {
+        "question": "How do you prevent the multi-shrimp chain from building cumulative distance against your dead orchard control?",
+        "answer": "Match each shrimp with your own hip adjustment in the same direction, maintaining the compression angle throughout the chain. The key is anticipating the chain rather than reacting to individual shrimps. When you feel the first rapid shrimp, immediately begin walking your hips in the same direction with equivalent urgency. Your hip adjustments should be slightly ahead of their shrimps rather than trailing behind. If you fall behind the chain by even one shrimp, the cumulative distance becomes difficult to recover."
+      },
+      {
+        "question": "Your opponent attempts a granby roll and you successfully stuff it - what should your immediate follow-up be?",
+        "answer": "Immediately increase the dead orchard pressure by driving your shoulder harder into their trapped shoulder and walking your choking arm grip deeper. The failed granby attempt has expended significant energy and likely left the bottom player slightly disoriented from the attempted inversion. This is the optimal moment to attempt the anaconda finish, as their defensive resources are temporarily depleted. Do not simply maintain the current pressure level - actively advance toward the submission during this recovery window."
+      },
+      {
+        "question": "How does the aggressive escape create different counter-opportunities compared to the standard frame-and-shrimp escape?",
+        "answer": "The aggressive escape extends the bottom player's body and commits them to large movements that create vulnerability windows not present in the incremental escape. During a committed granby roll, the bottom player temporarily abandons their defensive frame to generate rotation, and a successful stuff leaves them in a worse position than before. During the multi-shrimp chain, their energy expenditure is dramatically higher, creating fatigue opportunities. The trade-off is that these openings are brief and require quick recognition, whereas the incremental escape provides fewer openings but also fewer counter-attack opportunities."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Counter Recognition",
+        "focus": "Identifying aggressive escape loading cues under controlled conditions",
+        "description": "Partner telegraphs the loading phase for granby rolls and multi-shrimp chains at slow speed. Practice recognizing the weight shift, knee draw, and grip change that indicate the aggressive escape is being deployed. Develop automatic recognition that triggers your counter response."
+      },
+      {
+        "phase": "Phase 2: Sprawl and Follow Mechanics",
+        "focus": "Physical execution of counter-sprawl and hip-following techniques",
+        "description": "Partner executes granby rolls and multi-shrimp chains at 50% speed and power while you practice the sprawl counter and hip-matching response. Focus on driving weight down and forward during sprawl and matching shrimp chain speed with hip adjustments. Build the physical patterns at controlled pace."
+      },
+      {
+        "phase": "Phase 3: Transition Decision Training",
+        "focus": "Choosing between maintaining dead orchard and releasing to side control",
+        "description": "Partner varies between aggressive escapes that can be stuffed and aggressive escapes that compromise the grip beyond recovery. Practice reading the grip status in real time and making the correct decision to either re-tighten or release to side control. Resistance at 70%."
+      },
+      {
+        "phase": "Phase 4: Full Resistance Positional Sparring",
+        "focus": "Maintaining control against all escape variants at competition intensity",
+        "description": "Full resistance rounds from dead orchard control where bottom player uses the complete escape decision tree including both incremental and aggressive variants. Track retention rate, submission finish rate, and side control transition rate. Target maintaining advantage in at least 65% of rounds against similarly skilled partners."
+      }
+    ]
+  }
+}

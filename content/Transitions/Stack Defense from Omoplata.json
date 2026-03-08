@@ -1,0 +1,385 @@
+{
+  "name": "Stack Defense from Omoplata",
+  "description": "Master the stack defense from omoplata in BJJ. Complete guide covering hip angle adjustments, grip control against stacking, and counter-sweep techniques.",
+  "tags": [
+    "bjj",
+    "transition",
+    "omoplata",
+    "stack-defense",
+    "guard-retention",
+    "counter-sweep",
+    "bottom-game"
+  ],
+  "from_position": "Omoplata Control/Bottom",
+  "outcomes": [
+    {
+      "to": "Half Guard/Top",
+      "probability": 50,
+      "result": "success"
+    },
+    {
+      "to": "Omoplata Control/Bottom",
+      "probability": 30,
+      "result": "failure"
+    },
+    {
+      "to": "Open Guard/Bottom",
+      "probability": 20,
+      "result": "counter"
+    }
+  ],
+  "success_rate": 50,
+  "overview": "The stack defense from omoplata is a critical reactive technique employed when the bottom player has established omoplata control and the opponent responds by driving their weight forward in an attempt to stack and relieve shoulder pressure. This stacking response is one of the three primary escapes from omoplata alongside the forward roll and arm extraction, making stack defense an essential skill for anyone who plays omoplata-based guards.\n\nThe fundamental principle of stack defense centers on redirecting the opponent's forward momentum laterally rather than absorbing it directly. When the opponent drives forward to stack, the omoplata player adjusts their hip angle away from the pressure, simultaneously increasing rotational torque on the trapped shoulder while creating an angle that transforms the opponent's linear force into a sweeping opportunity. This redirection requires precise timing and grip management, particularly control of the opponent's belt or hip to guide their momentum.\n\nSuccessful execution of the stack defense not only neutralizes the escape attempt but frequently results in a counter-sweep to top position, typically landing in half guard top or side control. The technique represents a high-level application of the principle that every defensive reaction from the opponent should create a new offensive opportunity, embodying the dilemma-based approach that makes omoplata control such a versatile attacking platform.",
+  "conditions": [
+    "Omoplata control established with controlling leg securely positioned over opponent's shoulder and shin across upper back",
+    "Opponent initiating forward stacking pressure by driving weight toward your head to relieve shoulder lock",
+    "Belt or hip grip available for controlling the direction of opponent's forward momentum",
+    "Free leg accessible for posting behind your body to prevent being compressed during the stack",
+    "Sufficient mat space behind you for lateral hip angle adjustment"
+  ],
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Gi Belt-Pull Stack Defense",
+      "description": "Uses a deep belt grip to redirect the stacking momentum into a powerful lateral sweep. The belt provides exceptional control over the opponent's center of gravity, allowing precise steering of their forward drive into rotational sweep energy. The grip is maintained throughout the entire sequence from defense to sweep completion.",
+      "when_to_use": "In gi training when opponent's belt is accessible and they commit to a strong forward stack with upright posture"
+    },
+    {
+      "variant_name": "No-Gi Hip Control Stack Defense",
+      "description": "Replaces the belt grip with a figure-four lock around the opponent's waist or a direct grip on their far hip bone. Requires tighter hip connection and more aggressive angle changes to compensate for reduced grip control. The overhook on the far hip provides a steering mechanism similar to the belt grip but demands greater precision.",
+      "when_to_use": "In no-gi grappling when belt grips are unavailable and you must rely on body control and hip positioning"
+    },
+    {
+      "variant_name": "Preemptive Angle Adjustment",
+      "description": "Initiates the hip angle change before the opponent fully commits to the stack, based on early recognition of weight-shifting cues. Rather than waiting for the stack to develop, the defender proactively creates the counter-sweep angle at the first sign of forward pressure. This variation is less reactive and more anticipatory, requiring superior positional awareness.",
+      "when_to_use": "Against opponents who telegraph their stack attempt or who consistently use the stack as their primary omoplata escape"
+    }
+  ],
+  "position_integration": "The stack defense from omoplata occupies a critical position within the omoplata control system, serving as the primary response to one of the three most common omoplata escapes. It bridges the gap between bottom guard play and top position acquisition, creating a pathway from omoplata control to half guard top through the counter-sweep mechanism. This technique integrates with the broader sweep system available from omoplata, including the standard omoplata sweep and rolling omoplata, forming a comprehensive response framework where each opponent reaction is met with an appropriate counter-technique. Mastery of this defense ensures that the stacking escape, rather than threatening your position, becomes another opportunity to advance to a dominant top position.",
+  "related_content": [
+    {
+      "name": "Omoplata Control",
+      "relationship": "Source position where this defensive technique is executed from bottom"
+    },
+    {
+      "name": "Cartwheel Escape from Omoplata",
+      "relationship": "Alternative escape pathway the opponent may use when the stack is defended"
+    },
+    {
+      "name": "Roll Forward from Omoplata",
+      "relationship": "Complementary escape technique often chained with stack attempts by the opponent"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Primary success outcome position after executing the counter-sweep"
+    },
+    {
+      "name": "Open Guard",
+      "relationship": "Recovery position when the stack defense fails and omoplata control is lost"
+    },
+    {
+      "name": "Closed Guard",
+      "relationship": "Guard recovery target if omoplata is lost during the scramble"
+    },
+    {
+      "name": "Omoplata from Lasso",
+      "relationship": "Entry transition that commonly leads to the omoplata control position"
+    },
+    {
+      "name": "Rolling Omoplata",
+      "relationship": "Related omoplata submission within the same attack system"
+    },
+    {
+      "name": "Spider Guard",
+      "relationship": "Common guard position for initiating omoplata setups that lead to this scenario"
+    }
+  ],
+  "attacker": {
+    "name": "Stack Defense from Omoplata Attacker",
+    "description": "Master the attacker perspective for stack defense from omoplata. Learn hip angle adjustments, grip control, and counter-sweep mechanics to convert stack escapes into top position.",
+    "overview": "As the attacker executing the stack defense, you are the practitioner who has established omoplata control from bottom and must now address your opponent's stacking attempt. Your primary objective is to redirect their forward momentum laterally while maintaining shoulder isolation, converting their escape attempt into a sweeping opportunity. The stack is predictable in its direction—forward and downward—which allows you to prepare your defensive framework before it develops fully. The key to successful stack defense is proactive hip angle management combined with strategic grip placement on the opponent's hip or belt. Rather than fighting the stack directly with muscular effort, you use positional adjustments that increase your mechanical advantage while decreasing the opponent's ability to compress you. This transforms a defensive situation into an offensive one, exemplifying the concept that the best defense creates attacking opportunities.",
+    "key_principles": [
+      "Redirect stacking momentum laterally rather than absorbing it directly by angling your hips away from the pressure to create a sweeping vector",
+      "Maintain constant grip on opponent's belt or hip to control the direction and speed of their forward drive throughout the entire defensive sequence",
+      "Keep your controlling leg tight across the opponent's upper back throughout the defense to preserve both submission threat and positional control",
+      "Use your free leg as a dynamic post to prevent being folded and to assist with momentum redirection and sweep completion",
+      "Recognize the stack early through pressure cues and begin your hip adjustment before the opponent commits full body weight to the drive",
+      "Increase shoulder rotation pressure as you angle away so the stack defense makes the omoplata more dangerous rather than less threatening"
+    ],
+    "setup_requirements": [
+      "Established omoplata control with controlling leg securely positioned over opponent's shoulder and shin actively pressing across their upper back",
+      "Grip on opponent's belt, pants at hip level, or waist control in no-gi to manage their forward momentum and steer redirection",
+      "Free leg available for posting behind your body at approximately forty-five degrees to prevent being compressed during the stacking pressure",
+      "Sufficient hip mobility to angle laterally away from stacking pressure while maintaining active leg control across the opponent's back",
+      "Opponent beginning to shift weight forward or drive hips toward your head, signaling the initiation of the stack attempt"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Recognize the stack initiation",
+        "description": "Feel the opponent shifting their weight forward toward your head and beginning to drive their hips upward. The pressure will increase on your chest and their shoulder will start to rise as they attempt to compress you underneath their body weight. This early recognition window is critical for deploying the defense before the stack fully develops."
+      },
+      {
+        "step_number": 2,
+        "action": "Establish hip-level grip control",
+        "description": "Secure a strong grip on the opponent's belt with your near hand, or control their far hip through their pants. In no-gi, establish a figure-four grip around their waist or hook your hand on their far hip bone. This grip serves as your steering mechanism for redirecting the stacking momentum throughout the entire defensive sequence."
+      },
+      {
+        "step_number": 3,
+        "action": "Angle hips away from stacking direction",
+        "description": "Move your hips laterally away from the opponent by hip escaping toward the side of your controlling leg. This adjustment accomplishes two objectives simultaneously: it prevents the opponent from compressing you flat and increases the rotational angle on their trapped shoulder, making the omoplata tighter under stacking pressure rather than looser."
+      },
+      {
+        "step_number": 4,
+        "action": "Post with free leg for base and redirection",
+        "description": "Plant your free foot firmly on the mat behind your body at approximately a forty-five-degree angle from your spine. This post serves as a structural brace against the forward pressure and provides the foundation for redirecting the stacking momentum into a lateral sweep direction. Keep the leg actively engaged rather than passively placed."
+      },
+      {
+        "step_number": 5,
+        "action": "Redirect the stacking momentum laterally",
+        "description": "As the opponent drives forward, use your belt grip and hip angle to guide their momentum toward the mat on your controlling-leg side. Pull with your grip while pushing with your shin across their back, creating a rotational force that tips them over the weakened base on their trapped-arm side where they cannot effectively post for balance."
+      },
+      {
+        "step_number": 6,
+        "action": "Follow through to establish top position",
+        "description": "As the opponent is redirected and begins to roll to their side, follow their momentum by coming up to your knees while maintaining leg control to prevent guard recovery. Drive your weight forward over their body as you transition from bottom to top, using the sweep momentum to establish a controlling position before they can reorganize their defensive frames."
+      },
+      {
+        "step_number": 7,
+        "action": "Consolidate half guard top control",
+        "description": "Once on top, immediately drive your weight forward and establish crossface or underhook control. If you land in half guard top, begin your passing sequence while the opponent is still recovering from the failed stack and sweep reversal. Secure head control and hip pressure to prevent them from recovering guard or creating frames for escape."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Opponent widens base by posting free hand on mat to prevent lateral sweep",
+        "effectiveness": "Medium",
+        "your_response": "Attack the posting arm by gripping their wrist to remove the post, or increase your pull on their belt to break the connection between their hand and the mat before completing the sweep",
+        "targets_outcome": "Half Guard/Top"
+      },
+      {
+        "counter": "Opponent abandons the stack and transitions to arm extraction during your angle adjustment",
+        "effectiveness": "High",
+        "your_response": "Immediately increase shin pressure across their back and pull your hips closer to their shoulder to re-tighten the omoplata before they can fully extract the arm",
+        "targets_outcome": "Open Guard/Bottom"
+      },
+      {
+        "counter": "Opponent switches to forward roll escape during the redirection phase",
+        "effectiveness": "Medium",
+        "your_response": "Follow the rolling momentum while maintaining shin pressure and belt grip, transitioning to a back take as they complete the roll rather than insisting on the lateral sweep",
+        "targets_outcome": "Omoplata Control/Bottom"
+      },
+      {
+        "counter": "Opponent explosively drives through before angle adjustment is complete",
+        "effectiveness": "High",
+        "your_response": "If the angle is not yet established, abandon the lateral defense and use your free leg to hook their hip, creating a pendulum-style sweep using their forward momentum against them",
+        "targets_outcome": "Open Guard/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Fighting the stack head-on with direct resistance instead of angling hips laterally away from pressure",
+        "consequence": "Get compressed and stacked flat under opponent's weight, losing omoplata control and ending in inferior bottom position",
+        "correction": "Always angle hips laterally toward the controlling-leg side rather than pushing straight back against the stack"
+      },
+      {
+        "error": "Releasing grip on belt or hip during the redirection phase of the defense",
+        "consequence": "Lose control of opponent's momentum direction, allowing them to posture up and extract their shoulder",
+        "correction": "Maintain grip throughout the entire sequence from initial defense through sweep completion because this grip is your steering mechanism"
+      },
+      {
+        "error": "Failing to post with the free leg during the stack pressure",
+        "consequence": "Get folded and compressed under opponent's weight without structural support, leading to spinal discomfort and loss of position",
+        "correction": "Plant your free foot on the mat behind you at forty-five degrees as soon as you feel the stack beginning"
+      },
+      {
+        "error": "Relaxing leg pressure across the opponent's back during the hip angle adjustment",
+        "consequence": "Opponent extracts their shoulder from the omoplata configuration during the transitional movement",
+        "correction": "Keep your shin actively pressing across their upper back throughout the angle change by pulling your knee toward the mat"
+      },
+      {
+        "error": "Attempting the counter-sweep before establishing proper angle and grip control",
+        "consequence": "Premature sweep attempt fails because opponent still has adequate base and your leverage angle is insufficient",
+        "correction": "Complete the hip angle adjustment and confirm your belt grip before committing to the lateral sweep"
+      },
+      {
+        "error": "Panicking under stacking pressure and abandoning the omoplata position entirely",
+        "consequence": "Give up a strong offensive position unnecessarily when a technical solution exists for neutralizing the stack",
+        "correction": "Trust the mechanics of the defense and execute the hip angle adjustment calmly rather than releasing your legs in a panic"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Hip Mechanics",
+        "focus": "Isolated hip angle adjustment movement",
+        "description": "Practice the lateral hip escape from omoplata position without a partner. Focus on maintaining leg position across an imaginary opponent's back while moving your hips laterally. Build muscle memory for the specific angle change that forms the foundation of the stack defense. Repeat 20 times per side."
+      },
+      {
+        "phase": "Phase 2: Cooperative Drilling",
+        "focus": "Full technique sequence with compliant partner",
+        "description": "Partner establishes omoplata control from bottom. Top partner applies slow, controlled stacking pressure. Bottom partner executes the full defense sequence: recognition, grip, angle, post, redirect, sweep. Reset and repeat. Focus on smooth sequencing rather than speed. Alternate roles every 5 repetitions."
+      },
+      {
+        "phase": "Phase 3: Progressive Resistance",
+        "focus": "Stack defense against increasing pressure",
+        "description": "Partner applies stacking pressure at 50% intensity while you execute the defense. Increase resistance to 75% once the technique is smooth. Partner adds defensive reactions like widening base or transitioning to forward roll. Practice adapting your defense to each variation while maintaining technical precision."
+      },
+      {
+        "phase": "Phase 4: Live Integration",
+        "focus": "Full positional sparring from omoplata control",
+        "description": "Positional sparring starting in established omoplata control. Top partner uses any escape including the stack. Bottom partner must identify the escape type and apply appropriate defense. Score points for successful sweeps and maintained control. Develop the real-time recognition and reaction speed needed for competition application."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "When is the optimal timing window to begin your stack defense from omoplata?",
+        "answer": "Begin your stack defense the moment you feel the opponent's weight shifting forward toward your head and their hips beginning to rise. Do not wait until they have fully committed their weight to the stack, as this makes the redirection significantly harder. Early recognition through pressure sensitivity allows you to begin your hip angle adjustment while the opponent is still building momentum, giving you the mechanical advantage of redirecting partially committed force rather than fighting against their full body weight."
+      },
+      {
+        "question": "What is the most critical hip movement in the stack defense from omoplata?",
+        "answer": "The lateral hip escape away from the stacking direction toward the controlling-leg side is the single most critical movement. By moving your hips laterally, you simultaneously prevent being compressed flat and increase the rotational angle on the opponent's trapped shoulder. This hip escape transforms the linear stacking force into rotational energy that you can redirect for a sweep, while also making the omoplata submission tighter rather than looser under the stacking pressure."
+      },
+      {
+        "question": "Your opponent posts their far hand wide during the stack attempt to prevent the sweep—how do you adjust your defense?",
+        "answer": "When the opponent posts wide with their far hand, they are creating base to prevent the lateral sweep. Adjust by increasing your pull on their belt or hip to break their posting arm's connection to the mat. Alternatively, use your free hand to attack their posting arm by grabbing the wrist to remove the post or threading for an underhook that eliminates their base. The wide post means their weight is forward and vulnerable to a strong lateral redirection once you remove their posting support."
+      },
+      {
+        "question": "What grip is most important for controlling the stack defense and where should it be placed?",
+        "answer": "The near-side grip on the opponent's belt or hip is the most critical grip. It should be placed on the belt line or the top of their pants at hip level, giving you control over their center of gravity and the direction of their momentum. This grip serves as a steering mechanism that allows you to guide their forward pressure laterally into a sweep. Without this grip, you can adjust your angle but cannot effectively redirect their momentum, reducing the technique from a counter-sweep to merely a survival defense."
+      },
+      {
+        "question": "What direction should you redirect the stacking force and why is this direction optimal?",
+        "answer": "Redirect the stacking force laterally toward the side of your controlling leg where your shin crosses their back. This direction maximizes sweep potential because the opponent's base is weakest on that side due to having their arm trapped and unable to post. Additionally, redirecting toward your controlling-leg side increases the rotational pressure on their trapped shoulder, maintaining your submission threat throughout the defense. Never redirect toward your free-leg side, as this relieves shoulder pressure and gives the opponent better base."
+      },
+      {
+        "question": "Your opponent transitions from a stack to a forward roll during your defense—how do you adapt?",
+        "answer": "If the opponent transitions from a stack to a forward roll, immediately abandon the lateral redirection and follow the rolling momentum. Maintain your shin pressure across their back and grip on their belt as they roll. Follow them through the roll by coming up to your knees and maintaining connection throughout. The forward roll from a partially established stack often leaves the opponent disoriented, creating an excellent opportunity to transition to back control as they complete the roll rather than insisting on maintaining the omoplata finish angle."
+      },
+      {
+        "question": "What is the most common failure point in the stack defense and how do you address it?",
+        "answer": "The most common failure point is waiting too long to begin the hip angle adjustment, allowing the opponent to fully commit their weight before you respond. By this point, the stacking pressure is too great to redirect efficiently and you risk being compressed flat. Address this by developing sensitivity to early stacking cues including the initial shift of weight forward and the slight rise of their hips, beginning your lateral hip escape immediately upon recognition rather than waiting for the stack to become uncomfortable."
+      },
+      {
+        "question": "If the stack defense fails to produce a sweep, what chain attacks should you transition to?",
+        "answer": "If the counter-sweep fails but you maintain omoplata control, immediately reset your hip angle and threaten the omoplata finish with increased rotational pressure. If the opponent begins to extract their arm, transition to a triangle by throwing your top leg over their head while controlling their wrist. If they posture up, use the momentum to execute a standard omoplata sweep by sitting up and driving them forward. If you lose the omoplata entirely, immediately establish open guard frames with feet on hips and work to recover a specific guard variation."
+      }
+    ],
+    "safety_considerations": "Stack defense from omoplata involves managing significant compressive forces on your spine and neck. Never fight the stack with your neck—always redirect with hip movement. If you feel excessive pressure on your cervical spine, release the omoplata and recover guard rather than risking neck injury. During training, the stacking partner should apply gradual pressure rather than explosive drives to allow the defending partner time to execute proper defensive mechanics. Both partners should communicate clearly about pressure levels and tap immediately if discomfort occurs in the shoulder, neck, or spine."
+  },
+  "defender": {
+    "name": "Stack Defense from Omoplata Defender",
+    "description": "Learn to counter the stack defense from omoplata. Recognition cues, timing windows, and tactical options for completing or adapting your stack escape attempt.",
+    "overview": "The defender in this scenario is the practitioner whose shoulder is trapped in the omoplata, attempting to use a stacking approach to escape. When the omoplata player begins defending the stack through hip angle adjustments and grip control, you must adapt your escape strategy based on the specific defensive reactions you encounter. Understanding the mechanics of the stack defense allows you to identify windows of opportunity where the omoplata player's adjustments create momentary vulnerabilities—particularly during the hip escape movement when their leg control may briefly loosen, or when they commit to the sweep redirection and expose space for arm extraction. The defender's primary advantage is forward momentum and gravitational weight, but these must be applied strategically rather than blindly to avoid being swept by the very force you generate.",
+    "key_principles": [
+      "Maintain forward drive while keeping your base wide enough to prevent being swept laterally during the omoplata player's redirection attempts",
+      "Keep elbows tight to your body to prevent the opponent from steering your momentum with their belt or hip grips",
+      "Recognize when the omoplata player begins angling their hips laterally because this signals the stack defense is being deployed",
+      "Be prepared to abandon the stack and transition to arm extraction or forward roll if the defense proves effective against your current approach",
+      "Control your own center of gravity by keeping your head positioned directly over your base rather than reaching forward past your support",
+      "Attack the opponent's controlling grips early to remove their ability to redirect your stacking momentum into a sweep"
+    ],
+    "recognition_cues": [
+      "Bottom player's hips begin shifting laterally away from your stacking direction rather than remaining underneath your forward drive",
+      "Increased rotational pressure on your trapped shoulder as the opponent increases their angle and tightens the omoplata configuration",
+      "Bottom player's free leg plants firmly on the mat behind them, establishing a structural post for sweep redirection",
+      "Grip on your belt or hip tightens and begins pulling you toward one side rather than simply absorbing your forward pressure"
+    ],
+    "defensive_options": [
+      {
+        "action": "Widen base with free hand posting wide on the mat while driving hips forward with maximum pressure",
+        "when_to_use": "When you feel the opponent angling away and beginning to redirect your forward momentum laterally toward a sweep",
+        "targets_outcome": "Open Guard/Bottom",
+        "if_successful": "Opponent cannot execute the counter-sweep and may lose omoplata control under sustained and well-based stacking pressure",
+        "risk": "Extended posting arm may be vulnerable to grip attacks or wrist control by the omoplata player"
+      },
+      {
+        "action": "Abandon the stack and transition to forward roll or cartwheel escape",
+        "when_to_use": "When the stack defense is fully established with the opponent having strong lateral angle and secure belt grip control",
+        "targets_outcome": "Omoplata Control/Bottom",
+        "if_successful": "Reset the positional dynamic and attempt a different escape avenue that may have better success odds",
+        "risk": "If the transition is poorly timed, the omoplata player may follow the roll to establish back control"
+      },
+      {
+        "action": "Strip the opponent's belt grip with your free hand before committing fully to the forward stack",
+        "when_to_use": "Early in the stacking sequence before the opponent establishes their full defensive framework and grip control",
+        "targets_outcome": "Open Guard/Bottom",
+        "if_successful": "Remove the opponent's primary control mechanism for redirecting your momentum, making the direct stack viable again",
+        "risk": "Using your free hand to strip the grip temporarily removes your base support on that side"
+      },
+      {
+        "action": "Drive through explosively before the opponent completes their lateral angle adjustment",
+        "when_to_use": "In the first one to two seconds of the stack when you have momentum advantage and the opponent has not yet adjusted their hip angle",
+        "targets_outcome": "Open Guard/Bottom",
+        "if_successful": "Overwhelm the defense before it is established and escape the omoplata through superior pressure and timing",
+        "risk": "If the opponent reads the explosive drive, the added momentum amplifies the effectiveness of their counter-sweep"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Open Guard/Bottom",
+        "how": "Commit to the stack with proper base width and grip management, overwhelming the opponent's defensive angle adjustments before they can establish the counter-sweep framework. Keep your head positioned directly over your base while driving your hips forward and upward to relieve shoulder pressure. Attack their belt grip early to remove their steering control over your momentum."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Driving forward with narrow base and arms tucked close without posting for balance",
+        "consequence": "Easily swept laterally when the omoplata player redirects your concentrated momentum with their angle adjustment and belt grip",
+        "correction": "Widen your base by posting your free hand on the mat and distributing your weight broadly across both knees and the posted hand"
+      },
+      {
+        "error": "Ignoring the opponent's grip on your belt or hip during the stacking attempt",
+        "consequence": "Opponent maintains full directional control over your momentum, making the counter-sweep nearly unavoidable",
+        "correction": "Address the belt grip early by stripping it with your free hand or adjusting your hip position to reduce the grip's mechanical effectiveness"
+      },
+      {
+        "error": "Committing exclusively to the stack without having a backup escape plan ready",
+        "consequence": "When the stack defense works and you are swept, you end up on bottom with diminished energy and no transition advantage",
+        "correction": "Always have a secondary escape ready such as the forward roll or arm extraction and transition immediately when the stack is being effectively defended"
+      },
+      {
+        "error": "Stacking too slowly and giving the opponent time to establish the perfect defensive angle and grip position",
+        "consequence": "Opponent sets up the counter-sweep at their leisure with optimal grip placement and hip positioning, making the sweep nearly guaranteed",
+        "correction": "If you choose to stack, commit with decisive forward pressure to challenge the defense before it is fully established and the angle is set"
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What are the earliest signs that the omoplata player is deploying the stack defense?",
+        "answer": "The earliest signs include their hips beginning to shift laterally away from your stacking direction, increased rotational pressure on your trapped shoulder, and their free leg planting firmly on the mat as a structural post. You may also feel their grip on your belt or hip tighten and begin pulling you to one side rather than simply resisting your forward pressure. Recognizing these cues within the first one to two seconds of your stack gives you the best window to adjust your approach."
+      },
+      {
+        "question": "When should you abandon the stack attempt and transition to an alternative escape from omoplata?",
+        "answer": "Abandon the stack when you feel the opponent has established a strong lateral hip angle and has a secure grip on your belt or hip that they are actively using to redirect your momentum sideways. If your stacking force is being converted into rotational movement pulling you to one side, the counter-sweep is likely imminent. At this point, immediately transition to either a forward roll escape or arm extraction. Continuing to stack against an established defense wastes energy and increases your vulnerability to being swept."
+      },
+      {
+        "question": "How do you maintain your balance when the omoplata player attempts to redirect your stacking momentum laterally?",
+        "answer": "Keep your free hand posted on the mat with your arm creating a wide base perpendicular to the redirection direction. Lower your center of gravity by bending your knees rather than leaning forward at the waist. Keep your head positioned directly above your base rather than reaching toward the opponent. If you feel yourself being pulled to one side, immediately post your free hand on that side and drive your weight in the opposite direction to counter the sweep attempt."
+      },
+      {
+        "question": "What body mechanics prevent the lateral counter-sweep during your stack attempt?",
+        "answer": "Distribute your weight broadly rather than channeling it into a narrow forward line. Post your free hand wide on the mat, keep your knees apart, and maintain a low center of gravity throughout the stack. When you feel the lateral pull, drive your hips in the opposite direction while keeping your chest over your opponent's body. Your free leg should be ready to post or step to whichever side the sweep is directed, providing an immediate base recovery option that prevents the sweep from completing."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Recognition",
+        "focus": "Identifying stack defense cues in real time",
+        "description": "Practice identifying the stack defense cues in slow-motion drilling. Partner establishes omoplata and you initiate a stack. Partner deploys the defense slowly while you identify each element aloud: hip angle change, grip establishment, free leg post. Build pattern recognition before adding any resistance."
+      },
+      {
+        "phase": "Phase 2: Base Management",
+        "focus": "Maintaining balance against the counter-sweep",
+        "description": "From the stacking position, focus exclusively on maintaining your base as the partner attempts the counter-sweep at 50% intensity. Practice posting with your free hand, adjusting weight distribution, and recovering balance when pulled laterally. No escape attempts during this phase—purely base retention and sweep prevention."
+      },
+      {
+        "phase": "Phase 3: Escape Transitions",
+        "focus": "Switching between escape methods based on opponent reactions",
+        "description": "Practice transitioning between stack, forward roll, and arm extraction based on the defensive response you encounter. Partner deploys stack defense with increasing commitment. When you feel the defense establishing, practice smooth transitions to alternative escapes. Develop decision-making to read which escape avenue has the highest probability of success."
+      },
+      {
+        "phase": "Phase 4: Live Application",
+        "focus": "Full positional sparring from omoplata control",
+        "description": "Positional sparring starting in omoplata control with you as the person being controlled. Attempt various escapes including the stack while partner uses full defensive options. Develop the ability to read defensive reactions in real time and adapt your escape strategy accordingly. Focus on energy efficiency and decisive escape attempts."
+      }
+    ]
+  }
+}

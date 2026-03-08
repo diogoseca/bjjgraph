@@ -1,0 +1,713 @@
+{
+  "name": "Inverted Guard",
+  "slug": "inverted-guard",
+  "description": "Master inverted guard in BJJ. Complete guide covering berimbolo entries, back takes, defensive mobility, and transitional pathways with modern competition applications.",
+  "variant_uniqueness": "Upside-down mobility for dynamic angles",
+  "overview": "Inverted Guard is a modern guard position where the practitioner turns upside-down, with their back facing the ground and legs positioned upward toward the opponent. This position creates unique angles for controlling the opponent's movement and setting up sweeps, leg entanglements, and back takes. While physically demanding and technically complex, Inverted Guard offers exceptional defensive capabilities through its mobility and creates offensive opportunities that are difficult to counter using traditional passing approaches. This position has become increasingly prominent in modern BJJ competition, particularly in the context of berimbolo sequences and leg entanglement entries. The inverted position is typically transitional rather than static, serving as a critical link between guard retention sequences and more dominant attacking positions. The position's strategic value lies in creating unconventional angles that disrupt traditional passing mechanics while simultaneously establishing pathways to back control and leg attacks. Inverted guard requires significant hip and spine flexibility combined with spatial awareness while upside-down. The position emerged prominently in the early 2000s through competition innovations by the Mendes brothers and has since evolved into a comprehensive system with multiple entry methods and transition pathways. Modern practitioners integrate inversion throughout their guard retention systems, using it defensively against pressure passing while maintaining offensive threats. The position's effectiveness stems from forcing opponents to navigate unfamiliar angles and grips while the inverted practitioner maintains superior mobility and transition options.",
+  "key_principles": [
+    "Maintain shoulder and upper back contact with the mat, never allowing weight to rest on the neck or cervical spine",
+    "Create space and defensive frames through proper leg positioning and active hip rotation",
+    "Control opponent's weight distribution and pressure through strategic angles and grip management",
+    "Utilize momentum and rotational movement to create sweep opportunities and prevent static passing",
+    "Establish grip controls (sleeve, collar, pants) that facilitate inversions and protect against smash passes",
+    "Anticipate and counter passing attempts through dynamic movement rather than static holding",
+    "Develop clear pathways to more dominant positions like back control, X-guard, or leg entanglements rather than remaining inverted"
+  ],
+  "related_positions": [
+    {
+      "name": "De La Riva Guard",
+      "relationship": "Primary entry position for inverted guard transitions and berimbolo sequences"
+    },
+    {
+      "name": "Reverse De La Riva Guard",
+      "relationship": "Frequently connects to inverted guard entries and back take opportunities"
+    },
+    {
+      "name": "Single Leg X-Guard",
+      "relationship": "Common transition target from inverted position with sweep and leg entanglement options"
+    },
+    {
+      "name": "X-Guard",
+      "relationship": "Related guard position with similar sweep mechanics and base disruption"
+    },
+    {
+      "name": "Back Control",
+      "relationship": "Primary offensive goal from inverted guard via berimbolo and rolling back takes"
+    },
+    {
+      "name": "Turtle",
+      "relationship": "Alternative defensive posture with different risk-reward trade-offs"
+    },
+    {
+      "name": "Rubber Guard",
+      "relationship": "Alternative dynamic guard system with flexibility requirements"
+    },
+    {
+      "name": "Spider Guard",
+      "relationship": "Entry position that can transition to inverted guard for defensive retention"
+    },
+    {
+      "name": "Lasso Guard",
+      "relationship": "Connected guard position with inversion pathways"
+    },
+    {
+      "name": "Butterfly Guard",
+      "relationship": "Alternative mobile guard system with sweep emphasis"
+    }
+  ],
+  "top": {
+    "name": "Inverted Guard Top",
+    "description": "Master inverted guard from top perspective. Strategic passing approaches against inverted guard with pressure control, stack passes, and submission opportunities.",
+    "tags": [
+      "bjj",
+      "passing",
+      "pressure",
+      "top_game",
+      "guard_passing",
+      "modern"
+    ],
+    "overview": "From the top perspective, facing an opponent in Inverted Guard requires strategic adjustments to traditional passing approaches. The inverted position creates unconventional angles that make standard pressure passing and distance passing less effective, requiring specific techniques and timing to pass successfully. The top player must recognize the transitional nature of inverted guard and prevent the bottom player from achieving their primary objectives: berimbolo entries, back takes, and leg entanglement positions. Success from the top position involves controlling the opponent's rotation, preventing their hips from achieving optimal angles, and capitalizing on opportunities to apply crushing pressure through smash passes and stack passes. The top player must maintain awareness of the bottom player's grip controls and foot placement, as these determine the available transitions from inverted guard. Modern guard passing systems have developed specific responses to inverted guard, including headquarters positioning, leg weave passes, and strategic pressure application that forces the inverted player to abandon the position. The key strategic principle is recognizing when the opponent begins inverting and immediately attacking with appropriate passing techniques rather than allowing them to establish optimal inverted positioning. Top players must also protect against the berimbolo sequence by controlling distance, maintaining proper base, and preventing the opponent from establishing the grips necessary for back take entries. Training emphasis should focus on recognizing inversion entries early and responding with immediate passing pressure that forces defensive reactions.",
+    "state_properties": {
+      "point_value": 0,
+      "position_type": "Offensive",
+      "risk_level": "Medium",
+      "energy_cost": "Medium",
+      "time_sustainability": "Medium"
+    },
+    "state_invariants": [
+      "Top player maintains standing or combat base position with weight distributed to prevent being pulled into berimbolo or back take sequences by the inverted opponent",
+      "Top player controls distance through strategic grips on opponent's pants, legs, or belt to prevent optimal inversion angles and regulate engagement distance",
+      "Top player maintains awareness of opponent's rotation and hip movement to anticipate and counter berimbolo entries, back takes, and leg entanglement attempts",
+      "Top player establishes passing grips and pressure angles that force the inverted opponent to abandon the position or expose themselves to stack passes and smash passes"
+    ],
+    "prerequisites": [
+      "Understanding of berimbolo mechanics and common back take sequences from inverted guard to recognize threats early",
+      "Developed pressure passing skills with ability to apply controlled weight without overcommitting forward",
+      "Recognition of grip controls that enable inversion and ability to break or prevent these grips",
+      "Knowledge of stack passing mechanics and appropriate timing for application against inverted opponents",
+      "Awareness of leg entanglement entries from inverted guard and defensive positioning to prevent these transitions"
+    ],
+    "key_principles": [
+      "Recognize inversion attempts early and immediately attack with appropriate passing pressure to prevent optimal positioning",
+      "Control opponent's rotation and hip movement through strategic grips and weight distribution",
+      "Maintain proper base and distance to prevent being pulled into berimbolo or back take sequences",
+      "Apply crushing pressure through smash passes and stack passes when opponent commits to inverted position",
+      "Protect against leg entanglement entries by controlling distance and maintaining proper leg positioning",
+      "Force opponent to abandon inverted position through sustained pressure rather than allowing them to maintain mobility",
+      "Capitalize on transitional moments when opponent moves from inverted guard to other positions"
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the primary danger when engaging an opponent in inverted guard, and how should you position your base to mitigate it?",
+        "answer": "The primary danger is the berimbolo or rolling back take sequence where the inverted player uses your forward momentum to spin underneath and take your back. To mitigate this, maintain a wide base with weight distributed evenly, keep your hips back rather than driving forward, and control the opponent's far hip or pants to prevent them from initiating rotation. Never lean your weight forward without first controlling their hips."
+      },
+      {
+        "question": "When an opponent starts inverting, what is the optimal timing window to apply pressure and shut down their position?",
+        "answer": "The optimal timing window is during the initial inversion phase before they establish full shoulder contact and hip elevation. Once they achieve optimal inversion with elevated hips and rotational capability, passing becomes significantly harder. Attack immediately when you see them begin to turn their hips and shoulders toward the mat, before they can establish grips and foot placement on your body."
+      },
+      {
+        "question": "Your opponent has established inverted guard with good grips. What specific grips should you prioritize breaking first, and why?",
+        "answer": "Prioritize breaking the grip on your far hip or belt first, as this is the grip that enables berimbolo rotation and controls your center of gravity. Without this grip, the opponent cannot effectively pull themselves underneath you. Secondary priority is the sleeve grip that controls your posting hand, as this prevents you from establishing base when they attempt sweeps or back takes."
+      },
+      {
+        "question": "How do you recognize the difference between a defensive inversion for guard retention versus an offensive inversion setting up a berimbolo?",
+        "answer": "A defensive inversion typically shows the opponent inverting away from you with focus on creating distance and recovering guard, often with less aggressive gripping. An offensive berimbolo setup shows the opponent inverting toward you with aggressive far hip or belt grip, foot placement on your hip line, and rotational intent pulling your weight forward. The offensive version maintains close distance while the defensive version creates separation."
+      },
+      {
+        "question": "When should you choose a stack pass versus a smash pass against inverted guard, and what body positioning cues indicate each?",
+        "answer": "Choose a stack pass when the opponent's hips are elevated with legs extended upward, creating vertical space to drive their knees toward their face. Choose a smash pass when the opponent's hips are more laterally oriented with legs to one side, allowing you to flatten them with shoulder pressure. If they maintain active hip rotation, stack pass is generally more effective; if their hips are relatively static, smash pass applies better."
+      },
+      {
+        "question": "Your opponent keeps using granby rolls to escape your passing pressure. What adjustment should you make to shut down this escape?",
+        "answer": "To shut down granby rolls, control the opponent's rotation by establishing a grip on their far shoulder or collar that prevents them from completing the roll. Additionally, follow their rotation with your pressure rather than maintaining a static angle - as they begin to roll, circle your pressure in the same direction while keeping your weight heavy on their hips. Headquarters position is particularly effective as it controls their bottom leg and limits rolling options."
+      },
+      {
+        "question": "What are the warning signs that you're about to be caught in a leg entanglement entry from inverted guard?",
+        "answer": "Warning signs include: the opponent's inside foot hooking behind your knee or on your hip line, their outside leg threading between your legs, aggressive gripping of your pants at the knee or ankle, and hip rotation bringing their legs across your center line. If you feel their foot approaching your hip crease while they control your sleeve or pants, immediately step back and break grips before they can establish X-guard or single leg X entries."
+      },
+      {
+        "question": "How should you adjust your passing strategy when facing an opponent who is extremely flexible and can maintain inverted guard for extended periods?",
+        "answer": "Against highly flexible opponents, avoid extended engagement that allows them to use their mobility advantage. Use rapid grip changes to prevent them from establishing optimal controls, and apply intermittent heavy pressure rather than sustained grinding. Consider using more dynamic passing like leg drags or toreando movements that test their ability to track you, rather than purely pressure-based approaches that play into their strength of maintaining unusual positions."
+      }
+    ],
+    "decision_tree": [
+      {
+        "condition": "If opponent inverts with hips elevated and begins rotating for berimbolo entry",
+        "actions": [
+          {
+            "technique": "Stack Pass",
+            "target": "Side Control",
+            "probability": 65
+          },
+          {
+            "technique": "Pressure Pass",
+            "target": "Side Control",
+            "probability": 55
+          }
+        ]
+      },
+      {
+        "condition": "Else if opponent maintains inverted position with legs extended upward creating static target",
+        "actions": [
+          {
+            "technique": "Smash Pass",
+            "target": "Side Control",
+            "probability": 60
+          },
+          {
+            "technique": "Knee Slice Pass",
+            "target": "Side Control",
+            "probability": 55
+          }
+        ]
+      },
+      {
+        "condition": "Else if opponent attempts to enter single leg X or X-guard from inverted position",
+        "actions": [
+          {
+            "technique": "Headquarters Pass",
+            "target": "Headquarters Position",
+            "probability": 70
+          },
+          {
+            "technique": "Leg Weave Pass",
+            "target": "Side Control",
+            "probability": 60
+          }
+        ]
+      },
+      {
+        "condition": "Else if opponent's hips flatten or rotation slows indicating loss of mobility",
+        "actions": [
+          {
+            "technique": "Pressure Pass",
+            "target": "Side Control",
+            "probability": 65
+          },
+          {
+            "technique": "Smash Pass",
+            "target": "Side Control",
+            "probability": 60
+          }
+        ]
+      },
+      {
+        "condition": "Else if opponent attempts to recover guard through granby roll or technical standup",
+        "actions": [
+          {
+            "technique": "Knee Slice Pass",
+            "target": "Side Control",
+            "probability": 58
+          },
+          {
+            "technique": "Headquarters Pass",
+            "target": "Headquarters Position",
+            "probability": 62
+          }
+        ]
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Overcommitting weight forward into berimbolo sequence without proper base",
+        "consequence": "Opponent easily completes berimbolo entry and achieves back control with minimal resistance",
+        "correction": "Maintain proper base with legs wide and weight distributed, controlling distance rather than driving forward without strategic purpose"
+      },
+      {
+        "error": "Allowing opponent to establish optimal inversion angles without immediate pressure",
+        "consequence": "Opponent gains full mobility and offensive options from inverted guard, making passing significantly more difficult",
+        "correction": "Recognize inversion attempts early and immediately apply passing pressure to prevent optimal positioning and force defensive reactions"
+      },
+      {
+        "error": "Poor grip control allowing opponent to establish sleeve, collar, or pants grips that facilitate inversion",
+        "consequence": "Opponent controls distance and creates angles necessary for successful berimbolo and back take sequences",
+        "correction": "Establish dominant grips first and break opponent's grip controls before they can achieve optimal inverted positioning"
+      },
+      {
+        "error": "Hesitating during stack pass application allowing opponent to escape or counter",
+        "consequence": "Opponent uses granby roll or rotation to escape stack pressure and recover guard position",
+        "correction": "Commit fully to stack pass once initiated, maintaining continuous pressure and controlling opponent's rotation throughout the pass"
+      },
+      {
+        "error": "Failing to protect legs from entanglement entries while focusing on passing",
+        "consequence": "Opponent secures single leg X-guard, X-guard, or ashi garami positions leading to leg attacks",
+        "correction": "Maintain awareness of leg positioning throughout passing sequences, keeping feet away from opponent's hip line and hook controls"
+      },
+      {
+        "error": "Using excessive energy to pass without strategic approach or timing",
+        "consequence": "Energy depletion while opponent maintains position with minimal effort through mobility and rotation",
+        "correction": "Apply strategic pressure at optimal moments when opponent commits to transitions, using timing and technique rather than pure strength"
+      },
+      {
+        "error": "Allowing opponent to maintain inverted position indefinitely without forcing action",
+        "consequence": "Stalemate situation where opponent conserves energy while you expend effort attempting to pass",
+        "correction": "Force opponent to abandon inverted position through sustained pressure, grip controls, and strategic positioning that eliminates their transitional options"
+      }
+    ],
+    "training_drills": [
+      {
+        "name": "Stack pass drilling against inverted guard with progressive resistance",
+        "description": "Partner establishes inverted guard while you practice stack passing mechanics with graduated resistance. Focus on proper pressure angles, controlling opponent's rotation, and maintaining position throughout the pass. Start with cooperative drilling and increase resistance as mechanics improve.",
+        "duration": "8-12 minutes per session"
+      },
+      {
+        "name": "Berimbolo defense and counter-passing sequences",
+        "description": "Partner attempts berimbolo entries from inverted guard while you practice defensive positioning and immediate counter-passing. Emphasis on recognizing berimbolo attempts early and responding with appropriate base adjustments and passing techniques before opponent achieves back control.",
+        "duration": "10-15 minutes per session"
+      },
+      {
+        "name": "Pressure passing against dynamic inverted guard retention",
+        "description": "Partner uses inverted guard with full mobility and transitional intent while you practice applying strategic pressure to force position abandonment or create passing opportunities. Focus on timing pressure application when opponent commits to transitions.",
+        "duration": "10-15 minutes per session"
+      },
+      {
+        "name": "Grip fighting and control establishment against inversion entries",
+        "description": "Partner attempts to establish grips and enter inverted guard from various open guard positions while you practice preventing these entries through dominant grip controls and strategic positioning. Develop ability to recognize and shut down inversion attempts before optimal positioning is achieved.",
+        "duration": "8-12 minutes per session"
+      },
+      {
+        "name": "Leg entanglement defense while passing inverted guard",
+        "description": "Partner actively attempts single leg X, X-guard, and ashi garami entries from inverted guard while you practice passing while maintaining leg safety. Focus on positioning feet away from opponent's hip line while maintaining passing pressure and forward movement.",
+        "duration": "10-15 minutes per session"
+      }
+    ],
+    "related_content": [
+      {
+        "name": "Side Control",
+        "relationship": "Primary target position after successful passing from inverted guard top"
+      },
+      {
+        "name": "Headquarters Position",
+        "relationship": "Effective control position against inverted guard and leg entanglement attempts"
+      },
+      {
+        "name": "Stack Pass",
+        "relationship": "Primary passing technique against inverted guard with high success rate"
+      },
+      {
+        "name": "Smash Pass",
+        "relationship": "Effective pressure passing technique when opponent maintains static inverted position"
+      },
+      {
+        "name": "Pressure Pass",
+        "relationship": "Strategic passing approach using weight and timing against inverted guard"
+      },
+      {
+        "name": "Leg Weave Pass",
+        "relationship": "Technical passing approach to neutralize hook controls from inverted guard"
+      },
+      {
+        "name": "Knee Slice Pass",
+        "relationship": "Effective passing technique during transitional moments from inverted guard"
+      },
+      {
+        "name": "Mount",
+        "relationship": "Advanced target position after consolidating passing success"
+      },
+      {
+        "name": "Knee on Belly",
+        "relationship": "Transitional control position during passing sequences"
+      }
+    ],
+    "position_metrics": {
+      "retention_rate": {
+        "value": 70,
+        "description": "Rate of successfully maintaining top position without being swept or submitted"
+      },
+      "advancement_probability": {
+        "value": 65,
+        "description": "Probability of successfully passing to side control or more dominant position"
+      },
+      "submission_probability": {
+        "value": 45,
+        "description": "Probability of achieving submission after successful pass"
+      },
+      "average_time": "10-30 seconds to pass or opponent transitions out"
+    },
+    "transitions": [
+      {
+        "transition": "Smash Pass",
+        "attempt_probability": 8
+      },
+      {
+        "transition": "Stack Pass",
+        "attempt_probability": 6
+      },
+      {
+        "transition": "Pressure Pass",
+        "attempt_probability": 7
+      },
+      {
+        "transition": "Leg Weave Pass",
+        "attempt_probability": 4
+      },
+      {
+        "transition": "Knee Slice Pass",
+        "attempt_probability": 6
+      },
+      {
+        "transition": "Headquarters Pass",
+        "attempt_probability": 8
+      },
+      {
+        "transition": "Toreando Pass",
+        "attempt_probability": 11
+      },
+      {
+        "transition": "Back Step Pass",
+        "attempt_probability": 29
+      },
+      {
+        "transition": "Leg Drag Pass",
+        "attempt_probability": 10
+      },
+      {
+        "transition": "Stack Pass from Inversion",
+        "attempt_probability": 8
+      },
+      {
+        "transition": "Stack from Inverted",
+        "attempt_probability": 2
+      },
+      {
+        "transition": "Toreando from Inverted",
+        "attempt_probability": 1
+      }
+    ]
+  },
+  "bottom": {
+    "name": "Inverted Guard Bottom",
+    "description": "Master inverted guard from bottom perspective. Dynamic defensive position with berimbolo entries, back takes, and leg entanglement pathways for modern competition.",
+    "tags": [
+      "bjj",
+      "guard",
+      "open_guard",
+      "modern",
+      "inverted",
+      "dynamic",
+      "berimbolo",
+      "back_attack",
+      "leg_entanglement"
+    ],
+    "overview": "From the bottom perspective, Inverted Guard represents a highly mobile defensive posture that creates unique offensive opportunities through unconventional angles. The practitioner positions themselves upside-down with shoulders and upper back in contact with the mat, weight carefully distributed to avoid neck compression. The legs extend upward toward the opponent, creating defensive frames while maintaining connection through hooks, grips, or foot placement. This position excels at neutralizing pressure passing attempts while simultaneously establishing pathways to back attacks and leg entanglements. The bottom player must maintain constant movement and transitional intent, as static holding in inverted guard leads to energy depletion and increased vulnerability to stack passes. Success from this position requires specific flexibility, developed inversion mechanics, and clear understanding of connected positions like berimbolo entries, X-guard variations, and back take sequences. The modern competition meta has elevated inverted guard from a niche position to a fundamental component of comprehensive guard retention systems, particularly in no-gi and advanced gi competition. The position's effectiveness stems from forcing opponents to navigate unfamiliar passing angles while the inverted practitioner maintains superior mobility and offensive options. Training emphasis should focus on rapid transitions rather than sustained holding, with clear pathways to dominant positions serving as the primary objective of inversion.",
+    "state_properties": {
+      "point_value": 0,
+      "position_type": "Defensive with offensive options",
+      "risk_level": "Medium",
+      "energy_cost": "Medium",
+      "time_sustainability": "Short to Medium"
+    },
+    "state_invariants": [
+      "Practitioner inverted with shoulders and upper back in contact with the mat, head tucked to protect the neck, weight distributed across shoulder blades rather than neck vertebrae to prevent cervical compression injuries",
+      "Legs elevated and extended toward opponent's hips or torso, creating defensive frames while maintaining connection through hooks, grips, or foot placement on opponent's body to control distance and prevent smash passing",
+      "Hips mobile and ready to rotate, allowing dynamic movement to track opponent's passing attempts and create angular advantages for sweeps or transitions to more dominant positions",
+      "Upper body grips established on opponent's sleeves, collar, or pants to control distance and prevent opponent from establishing dominant passing grips or applying crushing pressure that would flatten the guard"
+    ],
+    "prerequisites": [
+      "Adequate hip and spine flexibility to invert safely without neck compression or injury risk",
+      "Developed inverting mechanics and ability to granby roll smoothly with proper weight distribution",
+      "Spatial awareness and balance control while upside-down, maintaining orientation during dynamic movement",
+      "Recognition of entry opportunities from open guard positions like De La Riva and Reverse De La Riva",
+      "Understanding of connected positions like berimbolo, X-guard, and Single Leg X-Guard with clear transitional pathways"
+    ],
+    "key_principles": [
+      "Maintain shoulder and upper back contact with the mat, never allowing weight to rest on the neck or cervical spine",
+      "Create space and defensive frames through proper leg positioning and active hip rotation to prevent flattening",
+      "Control opponent's weight distribution and pressure through strategic angles and grip management",
+      "Utilize momentum and rotational movement to create sweep opportunities and prevent static passing",
+      "Establish grip controls (sleeve, collar, pants) that facilitate inversions and protect against smash passes",
+      "Anticipate and counter passing attempts through dynamic movement rather than static holding",
+      "Develop clear pathways to more dominant positions like back control, X-guard, or leg entanglements rather than remaining inverted"
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the most critical body positioning element for maintaining inverted guard safely and effectively?",
+        "answer": "The most critical element is keeping your weight distributed across your shoulder blades rather than your neck. Your head should be tucked with chin toward chest, and you should actively press your shoulders into the mat while elevating your hips. If you feel pressure on your cervical spine or neck, you've inverted incorrectly and need to immediately adjust by driving through your shoulders and lifting your hips higher to redistribute weight."
+      },
+      {
+        "question": "Your opponent starts applying stack pressure to flatten you. What immediate adjustment should you make before they consolidate the position?",
+        "answer": "Immediately execute a granby roll to the side opposite their pressure, using the momentum from their drive to assist your rotation. As you feel them committing weight forward, turn your hips toward one side while pushing off with your posting hand and rolling over your shoulder. This converts their passing pressure into your escape momentum. If the granby isn't available, actively rotate your hips and angle your legs to prevent them from achieving a direct line of pressure through your center."
+      },
+      {
+        "question": "What are the essential grips you need to establish from inverted guard to set up a berimbolo entry?",
+        "answer": "For berimbolo, you need a grip on the opponent's far hip or belt (critical for pulling yourself underneath and controlling their rotation), and a secondary grip on their sleeve or collar to prevent them from posting or basing away. The far hip grip is non-negotiable - without it, you cannot generate the pull necessary to rotate underneath them. The sleeve grip prevents them from posting their hand to stop your rotation."
+      },
+      {
+        "question": "How do you determine whether to attack with a berimbolo versus transitioning to X-guard or single leg X from inverted guard?",
+        "answer": "The decision depends on opponent's weight distribution and posture. If opponent is leaning forward with weight over you and close distance, berimbolo is optimal because their forward momentum aids your rotation underneath. If opponent maintains an upright posture with weight back and creates distance, transition to X-guard or single leg X because you can use their leg as a platform for elevation and sweeps. Also consider your grip situation - strong far hip grip favors berimbolo while strong pants grip at the knee favors leg entanglement entries."
+      },
+      {
+        "question": "Your opponent is effectively shutting down your inversions by controlling your hips with their hands. How do you create offensive opportunities?",
+        "answer": "When opponent commits both hands to controlling your hips, they sacrifice their base and grip fighting capability. Use this by attacking their grip hands with your feet - place your feet on their wrists or forearms to break the grip control. Alternatively, use the freedom in your upper body to establish collar or sleeve grips, then use those grips to off-balance them as you invert. You can also simply stand up using a technical standup when they're so focused on your hips that they can't address your upper body movement."
+      },
+      {
+        "question": "What indicators tell you that you're running out of time in inverted guard and need to transition immediately?",
+        "answer": "Key indicators include: your hip elevation declining (hips sinking toward mat), increasing pressure on your neck or shoulders, opponent consolidating grips on both your legs, your rotation becoming sluggish or blocked, and increasing energy expenditure to maintain basic positioning. When you notice these signs, immediately execute your highest percentage transition - whether berimbolo, guard recovery via granby roll, or technical standup. The position becomes dangerous when you've lost the ability to rotate freely."
+      },
+      {
+        "question": "How should you manage your energy while playing inverted guard during a long competition match?",
+        "answer": "Inverted guard should be used as a transitional position, not a resting position. Enter inversion with a specific attack in mind and execute it within 3-5 seconds. If the attack fails, immediately transition to a more sustainable guard position like De La Riva or recover to seated guard rather than re-establishing inverted guard repeatedly. Use inversion sparingly as a tactical tool to create specific angles or defend specific passes, not as your primary guard system throughout the match."
+      },
+      {
+        "question": "Your opponent recognizes your berimbolo attempt and begins counter-rotating in the same direction. What should you do?",
+        "answer": "When opponent counter-rotates with your berimbolo, use their rotation to transition to alternative attacks. You can: follow them into a truck position by controlling their bottom leg as they rotate, switch to a kiss of the dragon variation by releasing your hook and spinning directly to their back, or accept the scramble and immediately establish X-guard or single leg X as you both settle. The key is maintaining grip on their hip throughout so you can redirect to whichever position becomes available based on how they complete their counter-rotation."
+      }
+    ],
+    "decision_tree": [
+      {
+        "condition": "If opponent attempts smash pass with forward pressure and weight driving into shoulders",
+        "actions": [
+          {
+            "technique": "Granby Roll to Guard",
+            "target": "Closed Guard",
+            "probability": 60
+          },
+          {
+            "technique": "Berimbolo Entry",
+            "target": "Back Control",
+            "probability": 50
+          }
+        ]
+      },
+      {
+        "condition": "Else if opponent commits weight forward to control position with close distance",
+        "actions": [
+          {
+            "technique": "Rolling Back Take",
+            "target": "Back Control",
+            "probability": 55
+          },
+          {
+            "technique": "Kiss of the Dragon",
+            "target": "Back Control",
+            "probability": 45
+          }
+        ]
+      },
+      {
+        "condition": "Else if opponent maintains distance and steps back to disengage",
+        "actions": [
+          {
+            "technique": "Technical Stand-up",
+            "target": "Standing Guard",
+            "probability": 65
+          },
+          {
+            "technique": "Single Leg X Entry",
+            "target": "Single Leg X-Guard",
+            "probability": 55
+          }
+        ]
+      },
+      {
+        "condition": "Else if opponent establishes strong base with legs wide and low posture",
+        "actions": [
+          {
+            "technique": "X-Guard Sweep",
+            "target": "X-Guard",
+            "probability": 50
+          },
+          {
+            "technique": "Single Leg X Entry",
+            "target": "Single Leg X-Guard",
+            "probability": 60
+          }
+        ]
+      },
+      {
+        "condition": "Else if opponent begins stack pass with hips elevated and pressure angled downward",
+        "actions": [
+          {
+            "technique": "Granby Roll to Guard",
+            "target": "Closed Guard",
+            "probability": 65
+          },
+          {
+            "technique": "Reverse X-Guard Entry",
+            "target": "Reverse X-Guard",
+            "probability": 45
+          }
+        ]
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Insufficient shoulder pressure with weight on neck instead of shoulder blades",
+        "consequence": "Risk of neck injury and inability to maintain position or create rotation for transitions",
+        "correction": "Distribute weight across shoulder blades, keep head tucked, and actively press shoulders into mat while lifting hips to maintain proper inversion mechanics"
+      },
+      {
+        "error": "Poor weight distribution allowing opponent to flatten guard and eliminate mobility",
+        "consequence": "Loss of defensive capability, making smash passes and stack passes highly effective with no escape options",
+        "correction": "Maintain active hip elevation and rotation, never allowing hips to settle flat to mat, constantly adjusting position to track opponent movement"
+      },
+      {
+        "error": "Overextension of legs without maintaining connection to opponent's body",
+        "consequence": "Loss of control over opponent's movement and inability to prevent passing or apply offensive techniques effectively",
+        "correction": "Keep legs engaged with hooks or foot placement on opponent's hips, belt, or legs while maintaining grip controls on sleeves, collar, or pants"
+      },
+      {
+        "error": "Extended time in inverted position without transitional intent or clear pathway",
+        "consequence": "Excessive energy expenditure and increased vulnerability to stack passes, pressure passes, and referee penalties for stalling",
+        "correction": "Use inversion as transitional position, immediately moving to berimbolo, back take, or guard recovery rather than static holding without purpose"
+      },
+      {
+        "error": "Lack of clear transitional intent or pathway to dominant position",
+        "consequence": "Stalling in position without offensive or defensive purpose, leading to referee penalties or successful passes by opponent",
+        "correction": "Always have clear objective when inverting: either entering leg entanglement, setting up back take, or recovering guard position with specific technique in mind"
+      },
+      {
+        "error": "Failing to protect against stack passes by not recognizing early warning signs",
+        "consequence": "Opponent drives weight onto shoulders and neck, creating severe pressure and passing opportunities with submission risk",
+        "correction": "Recognize stacking attempts early and immediately granby roll or rotate to alleviate pressure and re-establish guard before position becomes critical"
+      },
+      {
+        "error": "Poor grip selection that doesn't facilitate inversion or protect against smash passing",
+        "consequence": "Opponent establishes dominant grips and applies crushing pressure that prevents transitional movement",
+        "correction": "Establish strategic grips on sleeves, collar, or pants that enable rotational movement and prevent opponent from consolidating passing position"
+      }
+    ],
+    "training_drills": [
+      {
+        "name": "Inversion flow drills with progressive resistance",
+        "description": "Practice inverting from various guard positions with partner providing graduated resistance, focusing on smooth transitions and maintaining shoulder pressure rather than neck compression. Start with no resistance and gradually increase opposition over training sessions. Emphasize proper weight distribution and safe inversion mechanics.",
+        "duration": "5-10 minutes per session"
+      },
+      {
+        "name": "Transition practice between inverted guard and related positions",
+        "description": "Drill specific pathways from inverted guard to berimbolo, X-guard, single leg X, and back control. Partner provides realistic resistance at decision points. Focus on recognizing cues that indicate which transition is most available based on opponent's weight distribution and movement.",
+        "duration": "10-15 minutes per session"
+      },
+      {
+        "name": "Specific entry practice from various guards",
+        "description": "Start from De La Riva, Reverse De La Riva, Spider Guard, or Lasso Guard and practice inverting in response to specific passing attempts. Partner cycles through different passing styles (pressure, speed, distance) while you develop appropriate inversion entries and immediate transitions.",
+        "duration": "8-12 minutes per session"
+      },
+      {
+        "name": "Defensive inversion against smash passes",
+        "description": "Partner attempts to smash pass from standing or combat base while you practice inverting defensively and immediately transitioning to offensive positions or guard recovery. Emphasis on preventing neck compression and maintaining mobility throughout the defensive sequence.",
+        "duration": "6-10 minutes per session"
+      },
+      {
+        "name": "Berimbolo and back take sequences from inversion",
+        "description": "Focus specifically on berimbolo entries and rolling back takes from inverted guard. Partner provides graduated resistance while you develop timing, grips, and rotational mechanics necessary for successful back attacks from inverted positions.",
+        "duration": "10-15 minutes per session"
+      }
+    ],
+    "related_content": [
+      {
+        "name": "De La Riva Guard",
+        "relationship": "Common entry position for inverted guard transitions and primary connection point"
+      },
+      {
+        "name": "Reverse De La Riva Guard",
+        "relationship": "Frequently connects to inverted guard entries with similar grip structures"
+      },
+      {
+        "name": "Single Leg X-Guard",
+        "relationship": "Primary transition target from inverted position with sweep and leg entanglement options"
+      },
+      {
+        "name": "X-Guard",
+        "relationship": "Related guard position with similar sweep mechanics and base disruption strategies"
+      },
+      {
+        "name": "Berimbolo Entry",
+        "relationship": "Primary offensive transition utilizing inversion for back attack sequences"
+      },
+      {
+        "name": "Rolling Back Take",
+        "relationship": "Key transition to back control from inverted position using rotational mechanics"
+      },
+      {
+        "name": "Granby Roll to Guard",
+        "relationship": "Essential movement pattern for exiting inverted guard safely and recovering guard"
+      },
+      {
+        "name": "Kiss of the Dragon",
+        "relationship": "Advanced back take variation from inverted guard with high finishing potential"
+      },
+      {
+        "name": "Truck",
+        "relationship": "Related inverted position with back attack and submission opportunities"
+      },
+      {
+        "name": "Spider Guard",
+        "relationship": "Entry position that can transition to inverted guard for defensive retention"
+      },
+      {
+        "name": "Lasso Guard",
+        "relationship": "Connected guard position with inversion pathways and similar control strategies"
+      }
+    ],
+    "position_metrics": {
+      "retention_rate": {
+        "value": 60,
+        "description": "Rate of maintaining inverted guard without being passed or forced to abandon position"
+      },
+      "advancement_probability": {
+        "value": 60,
+        "description": "Probability of transitioning to a more dominant position like back control or X-guard"
+      },
+      "submission_probability": {
+        "value": 40,
+        "description": "Probability of reaching a submission-threatening position from inverted guard"
+      },
+      "average_time": "5-15 seconds (transitional position)"
+    },
+    "transitions": [
+      {
+        "transition": "Berimbolo Entry",
+        "attempt_probability": 24
+      },
+      {
+        "transition": "Rolling Back Take",
+        "attempt_probability": 10
+      },
+      {
+        "transition": "Kiss of the Dragon",
+        "attempt_probability": 7
+      },
+      {
+        "transition": "Single Leg X Entry",
+        "attempt_probability": 9
+      },
+      {
+        "transition": "X-Guard Sweep",
+        "attempt_probability": 7
+      },
+      {
+        "transition": "Granby Roll to Guard",
+        "attempt_probability": 9
+      },
+      {
+        "transition": "Omoplata",
+        "attempt_probability": 4
+      },
+      {
+        "transition": "Roll to Truck",
+        "attempt_probability": 5
+      },
+      {
+        "transition": "Reverse X-Guard Entry",
+        "attempt_probability": 4
+      },
+      {
+        "transition": "Technical Stand-up",
+        "attempt_probability": 6
+      },
+      {
+        "transition": "Bolo Sweep",
+        "attempt_probability": 7
+      },
+      {
+        "transition": "Reverse De La Riva Recovery",
+        "attempt_probability": 6
+      },
+      {
+        "transition": "Sweep from Inverted Guard",
+        "attempt_probability": 2
+      }
+    ]
+  }
+}

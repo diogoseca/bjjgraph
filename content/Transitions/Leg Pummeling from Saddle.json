@@ -1,0 +1,415 @@
+{
+  "name": "Leg Pummeling from Saddle",
+  "description": "Master leg pummeling from saddle position in BJJ. Step-by-step escape technique for downgrading dangerous entanglements to inside ashi-garami safely.",
+  "tags": [
+    "bjj",
+    "transition",
+    "leg-locks",
+    "escape",
+    "leg-pummeling",
+    "ashi-garami",
+    "defensive",
+    "advanced"
+  ],
+  "from_position": "Saddle/Bottom",
+  "outcomes": [
+    {
+      "to": "Inside Ashi-Garami/Bottom",
+      "probability": 55,
+      "result": "success"
+    },
+    {
+      "to": "Saddle/Bottom",
+      "probability": 30,
+      "result": "failure"
+    },
+    {
+      "to": "Open Guard/Top",
+      "probability": 15,
+      "result": "counter"
+    }
+  ],
+  "success_rate": 55,
+  "overview": "Leg pummeling from the saddle is a critical defensive technique that enables a trapped practitioner to systematically downgrade from one of the most dangerous leg entanglement positions in Brazilian Jiu-Jitsu to the comparatively safer inside ashi-garami configuration. Rather than attempting a complete escape, this technique acknowledges the difficulty of fully extracting from a locked saddle and instead focuses on replacing the opponent's controlling legs with your own hooks, effectively converting a submission-imminent position into a manageable entanglement where defensive options multiply significantly.\n\nThe mechanics of leg pummeling center on using your free leg and hip movement to infiltrate the space between your trapped leg and the opponent's figure-four or triangle lock. By inserting your free leg inside the opponent's controlling hooks and progressively replacing their entanglement structure with your own defensive positioning, you break the perpendicular control that makes the saddle so dangerous. This converts the position from one where the opponent has dominant inside control and heel access to one where both practitioners share a more neutral leg configuration.\n\nSuccess with this technique requires patience, precise timing, and an unwavering commitment to heel protection throughout the pummeling sequence. The transition window is narrow—the opponent will feel your legs moving and attempt to either re-lock their controlling configuration or capitalize on the momentary instability by attacking immediately. Training this escape under progressive resistance builds the sensitivity to recognize when the opponent's legs momentarily loosen, creating the split-second opportunity for the pummel to succeed.",
+  "conditions": [
+    "Your leg is trapped in saddle with opponent's figure-four or triangle configuration established around it",
+    "Your free leg retains enough mobility to initiate pummeling action against opponent's controlling hooks",
+    "Opponent has not yet secured a finishing grip on your heel with full rotational commitment",
+    "You have sufficient hip mobility remaining to create the micro-space needed for leg insertion"
+  ],
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Hip Switch Pummel",
+      "description": "Uses a dramatic hip rotation away from the opponent to create space between their controlling legs before inserting your free leg. The hip switch momentarily unweights your trapped leg and creates an angle change that disrupts the opponent's perpendicular alignment, opening a window for the pummel.",
+      "when_to_use": "When the opponent has tight hip pressure but their triangle lock is slightly loose, allowing the hip rotation to create the necessary gap for insertion."
+    },
+    {
+      "variant_name": "Incremental Knee Wedge Pummel",
+      "description": "Rather than attempting a single decisive pummel, this variation uses your free knee as a progressive wedge between the opponent's controlling legs. Small, repeated knee insertions gradually pry open the figure-four configuration without the large movement that telegraphs the escape attempt.",
+      "when_to_use": "Against patient opponents who immediately re-lock when they feel large movements. The incremental approach is harder to detect and counter because each individual movement is subtle."
+    },
+    {
+      "variant_name": "Frame-Assisted Pummel",
+      "description": "Combines hand frames on the opponent's hips or knees with the leg pummeling action. Your hands push their controlling legs apart or prevent them from re-closing while your free leg inserts into the gap. This two-point approach splits the opponent's defensive attention between your hands and legs.",
+      "when_to_use": "When the opponent's triangle lock is tight but their grip fighting is focused on your heel rather than preventing frames on their legs."
+    }
+  ],
+  "position_integration": "Leg pummeling from saddle occupies a critical position in the leg lock escape hierarchy, sitting between pure positional defense (heel hiding, grip fighting) and complete extraction escapes (boot scoot, forward roll). It represents the intermediate step that most successful saddle escapes pass through—even practitioners who eventually achieve full guard recovery typically must first downgrade through inside ashi-garami. This technique integrates directly with the broader leg entanglement defense system, as the inside ashi-garami position reached through successful pummeling opens additional escape pathways including standing up, further leg extraction, and counter-entanglement options that are unavailable from the saddle itself.",
+  "related_content": [
+    {
+      "name": "Saddle",
+      "relationship": "Starting position where the practitioner is trapped and initiating the pummeling escape"
+    },
+    {
+      "name": "Inside Ashi-Garami",
+      "relationship": "Target position reached through successful leg pummeling, offering improved defensive options"
+    },
+    {
+      "name": "Open Guard",
+      "relationship": "Position the opponent may achieve if they capitalize on the pummeling attempt to disengage and pass"
+    },
+    {
+      "name": "Fight to Inside Ashi from Saddle",
+      "relationship": "Alternative escape technique with similar goal of downgrading from saddle to inside ashi"
+    },
+    {
+      "name": "Boot Scoot Escape from Saddle",
+      "relationship": "Complementary escape option using scooting mechanics rather than leg pummeling"
+    },
+    {
+      "name": "Forward Roll from Saddle",
+      "relationship": "Higher-risk escape alternative using rolling momentum to clear the entanglement"
+    },
+    {
+      "name": "Ashi Garami Escape",
+      "relationship": "Follow-up escape technique applicable once inside ashi-garami is reached"
+    },
+    {
+      "name": "Fallback to Inside Ashi-Garami",
+      "relationship": "Related transition from the attacker perspective of voluntarily downgrading to inside ashi"
+    },
+    {
+      "name": "Honey Hole",
+      "relationship": "Alternative name for saddle in some systems, same starting position applies"
+    },
+    {
+      "name": "Heel Hook from Saddle",
+      "relationship": "Primary submission threat the pummeling escape aims to prevent"
+    },
+    {
+      "name": "Leg Entanglement",
+      "relationship": "Conceptual framework governing the hierarchy of positions involved in this escape"
+    }
+  ],
+  "attacker": {
+    "name": "Leg Pummeling from Saddle Attacker",
+    "description": "Complete guide to executing leg pummeling escapes from saddle position. Step-by-step mechanics for replacing opponent's controlling hooks with defensive positioning to reach inside ashi-garami.",
+    "overview": "As the attacker executing leg pummeling from saddle, you are the practitioner whose leg is trapped in the opponent's saddle configuration. Your objective is not to fully escape the entanglement in a single motion but to systematically downgrade the position by replacing the opponent's dominant controlling legs with your own hooks, converting saddle into the less dangerous inside ashi-garami. This requires a precise combination of hip movement, timing, and incremental leg insertion while maintaining continuous heel protection throughout the sequence. The technique demands patience—rushing the pummel typically results in the opponent either re-locking their configuration or attacking during the transition. Successful execution depends on reading micro-movements in the opponent's leg tension and exploiting the brief windows when their controlling hooks shift weight or adjust position.",
+    "key_principles": [
+      "Protect the heel throughout the entire pummeling sequence—never sacrifice heel safety for positional advancement",
+      "Use hip movement to create the initial space needed for leg insertion rather than relying solely on leg strength",
+      "Target the opponent's inside controlling leg first, as this disrupts their perpendicular alignment most effectively",
+      "Make progressive, incremental pummeling movements rather than one explosive attempt that telegraphs the escape",
+      "Time the pummel to coincide with the opponent's grip transitions or positional adjustments when their legs momentarily lighten",
+      "Maintain frames on the opponent's hips with your hands to prevent them from re-tightening control during the pummel"
+    ],
+    "setup_requirements": [
+      "Your heel must still be protected or partially hidden—do not attempt pummeling if the opponent has a finishing grip with rotation already applied",
+      "Your free leg must have enough range of motion to reach the opponent's controlling hooks for the pummeling action",
+      "You need at least one hand available for framing on the opponent's hips or knees to create and maintain space",
+      "The opponent's figure-four or triangle configuration should show some looseness or transitional movement that creates a window for insertion"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Establish defensive baseline",
+        "description": "Before initiating the pummel, confirm your heel is protected by rotating your knee inward toward your centerline. Use both hands to guard your foot and ankle area if the opponent is threatening grips. Assess the tightness of their figure-four configuration and identify which of their controlling legs presents the best pummeling target—typically the leg closest to your free hip."
+      },
+      {
+        "step_number": 2,
+        "action": "Create hip space through controlled movement",
+        "description": "Bridge or hip escape slightly to create micro-space between your trapped leg and the opponent's controlling hooks. Move your hips toward the opponent rather than away—this counterintuitively reduces joint stress while creating the angle change needed for the pummel. The hip movement should be subtle enough not to trigger an immediate defensive response from the opponent."
+      },
+      {
+        "step_number": 3,
+        "action": "Frame on opponent's controlling legs",
+        "description": "Post one or both hands on the opponent's knees or shins that form their figure-four configuration. These frames serve dual purposes: they prevent the opponent from re-tightening their lock, and they create additional space for your free leg to begin the pummeling insertion. Maintain heel protection with at least one hand if the opponent is actively hunting for the heel."
+      },
+      {
+        "step_number": 4,
+        "action": "Insert free leg inside opponent's controlling hook",
+        "description": "Thread your free leg between the opponent's top controlling leg and your trapped leg. Use your knee as a wedge, driving it into the gap created by your hip movement and hand frames. The insertion should be progressive—get your knee past their hook first, then work your shin and foot through. Do not kick or use explosive force, as this creates instability that the opponent can exploit."
+      },
+      {
+        "step_number": 5,
+        "action": "Replace opponent's hook with your own positioning",
+        "description": "Once your free leg is threaded past the opponent's controlling hook, use it to push their leg away from the figure-four position while simultaneously pulling your trapped leg toward your centerline. Your inserted leg now functions as a barrier preventing the opponent from re-establishing the saddle lock. This is the critical conversion moment where the position transitions from saddle toward inside ashi-garami."
+      },
+      {
+        "step_number": 6,
+        "action": "Clear the triangle or figure-four lock",
+        "description": "With your free leg now wedged inside the opponent's configuration, work to fully break the triangle or figure-four by extending your inserted leg while rotating your hips. The opponent's controlling legs should now be separated rather than locked together. Use your frames to prevent them from re-clasping. This step requires sustained effort as the opponent will fight to re-lock."
+      },
+      {
+        "step_number": 7,
+        "action": "Establish inside ashi-garami configuration",
+        "description": "As the saddle configuration breaks, immediately establish the inside ashi-garami relationship by positioning your legs to control the opponent's remaining entanglement. Your inside leg should create a frame across their hip while your outside leg maintains connection to prevent them from fully extracting. You are now in a dramatically less dangerous position where additional escape options become available."
+      },
+      {
+        "step_number": 8,
+        "action": "Consolidate defensive position",
+        "description": "Once in inside ashi-garami, immediately re-protect your heel and establish proper defensive grips. Frame on the opponent's hips to control distance and prevent them from re-advancing to saddle. Assess whether to continue escaping toward full guard recovery or stabilize in inside ashi where the submission threat is significantly reduced. Do not relax—the opponent will attempt to re-enter saddle immediately."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Opponent immediately re-locks their figure-four or triangle configuration when they feel the pummeling attempt",
+        "effectiveness": "High",
+        "your_response": "Maintain your inserted leg position and continue framing rather than withdrawing. If they re-lock with your leg inside, you have actually improved your position. Use sustained hip pressure and frames to prevent a clean re-lock. If they do successfully re-lock, restart the sequence from the hip movement phase.",
+        "targets_outcome": "Saddle/Bottom"
+      },
+      {
+        "counter": "Opponent abandons positional control to immediately attack the heel hook during the transitional instability",
+        "effectiveness": "High",
+        "your_response": "If the opponent lunges for the heel during your pummel, immediately prioritize heel protection over completing the pummeling sequence. Retract your free leg to guard the heel if necessary. The momentary positional looseness that enables pummeling also makes the heel more vulnerable—never trade heel safety for positional progress.",
+        "targets_outcome": "Saddle/Bottom"
+      },
+      {
+        "counter": "Opponent uses your leg movement to completely disengage from the entanglement and transition to a passing position",
+        "effectiveness": "Medium",
+        "your_response": "If the opponent disengages during your pummel, immediately recover guard by establishing foot-on-hip frames and hand grips. While losing the entanglement entirely means they may pass, this outcome is preferable to remaining in saddle. Transition to open guard retention immediately.",
+        "targets_outcome": "Open Guard/Top"
+      },
+      {
+        "counter": "Opponent increases hip pressure and drives perpendicular to shut down the space needed for pummeling",
+        "effectiveness": "High",
+        "your_response": "When the opponent drives hip pressure to prevent pummeling, use the pressure against them by timing your hip escape to coincide with their drive. Their forward commitment creates a moment where you can angle off and create space on the opposite side. Alternatively, switch to a different escape pathway such as boot scoot or forward roll if pummeling is consistently denied.",
+        "targets_outcome": "Saddle/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Attempting the pummel explosively with a single large movement that telegraphs the escape",
+        "consequence": "Opponent recognizes the escape immediately and either re-locks their controlling configuration before the pummel completes or attacks the momentarily exposed heel during the large movement",
+        "correction": "Use incremental, progressive pummeling movements rather than one explosive attempt. Insert your knee first, then progressively work your shin and foot through the gap while maintaining frames throughout."
+      },
+      {
+        "error": "Neglecting heel protection while focusing on the pummeling mechanics",
+        "consequence": "Opponent capitalizes on the momentary heel exposure during the transition to secure a finishing grip and complete the heel hook before the pummel succeeds",
+        "correction": "Maintain at least one hand guarding the heel and ankle area throughout the pummeling sequence. Only commit both hands to framing when the heel is hidden through knee rotation and the opponent is not actively hunting for it."
+      },
+      {
+        "error": "Targeting the opponent's outside controlling leg instead of their inside leg first",
+        "consequence": "Pummeling against the outside leg does not effectively disrupt the perpendicular alignment or break the figure-four lock, resulting in wasted energy and maintained opponent control",
+        "correction": "Always target the opponent's inside controlling leg (the one across your hip) first, as this is the keystone of their saddle configuration. Disrupting this leg collapses the entire controlling structure."
+      },
+      {
+        "error": "Pulling the trapped leg away from the opponent while attempting to pummel with the free leg",
+        "consequence": "Creates rotational force on the knee joint that magnifies heel hook danger and generates the exact extension the opponent needs to finish submissions",
+        "correction": "Move your body toward the opponent rather than pulling your leg away. The pummeling action should happen through leg insertion, not leg extraction. Keep your hips close to reduce joint stress."
+      },
+      {
+        "error": "Stopping the pummeling sequence halfway and leaving the free leg partially inserted",
+        "consequence": "A half-completed pummel creates an unstable configuration where the opponent can trap your free leg alongside the original trapped leg, worsening your entanglement to a double-leg saddle",
+        "correction": "Once you commit to the pummel, continue progressive insertion until the figure-four is fully broken or you are clearly blocked. If blocked, withdraw completely and reset rather than remaining in a half-pummeled configuration."
+      },
+      {
+        "error": "Failing to consolidate the inside ashi-garami position after a successful pummel",
+        "consequence": "Opponent immediately re-enters saddle because you relaxed after breaking the initial configuration without establishing defensive controls in the new position",
+        "correction": "Treat the successful pummel as only the first step—immediately establish heel protection, hip frames, and defensive grips in the inside ashi-garami position. The opponent will attempt instant re-entry."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Solo Mechanics",
+        "focus": "Hip movement and leg insertion patterns",
+        "description": "Practice the hip escape to pummel sequence without a partner, using a grappling dummy or pillow between your legs. Focus on the coordination of hip movement creating space followed by free leg insertion. Develop the muscle memory for progressive knee-shin-foot threading. 50 repetitions per side per session."
+      },
+      {
+        "phase": "Phase 2: Cooperative Drilling",
+        "focus": "Pummeling mechanics against a stationary partner",
+        "description": "Partner establishes saddle with zero resistance. Practice the complete eight-step sequence with attention to heel protection, frame placement, and leg insertion angle. Partner provides feedback on when they feel the pummel succeeding and where gaps in technique allow re-locking. 20 repetitions per side."
+      },
+      {
+        "phase": "Phase 3: Progressive Resistance",
+        "focus": "Timing and sensitivity against active defense",
+        "description": "Partner increases resistance gradually from 25% to 75%. Focus shifts from raw mechanics to timing the pummel during the opponent's weight shifts and grip transitions. Develop sensitivity to feel when their controlling legs lighten. Practice aborting and restarting when the window closes."
+      },
+      {
+        "phase": "Phase 4: Chain Escapes",
+        "focus": "Combining pummeling with other saddle escapes",
+        "description": "Integrate leg pummeling with boot scoot escape, forward roll, and fight to inside ashi techniques. When pummeling is denied, flow to alternative escapes. When alternative escapes create space, use that space for pummeling. Develop the ability to switch between escape methods fluidly based on opponent reactions."
+      },
+      {
+        "phase": "Phase 5: Live Application",
+        "focus": "Full resistance positional sparring from saddle",
+        "description": "Begin rounds in saddle bottom against fully resisting opponents. Track success rate of pummeling attempts versus other escape methods. Develop personal preferences for which variant works best against different body types and control styles. Target 3-5 minute rounds with reset to saddle after each escape or submission."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the optimal timing window for initiating the leg pummel against a controlling opponent?",
+        "answer": "The optimal window occurs when the opponent transitions between grips—specifically when they shift from positional control grips to submission finishing grips. During this transition, their legs momentarily lighten as their attention and energy redirect to their hands. A secondary window opens when the opponent adjusts their perpendicular angle, as the hip repositioning creates micro-gaps in their figure-four configuration. Recognizing these windows requires training sensitivity through progressive resistance drilling."
+      },
+      {
+        "question": "What conditions must exist before you can safely attempt leg pummeling from saddle?",
+        "answer": "Four conditions must be present: your heel must still be protected or partially hidden (never attempt with a finishing grip locked in), your free leg must retain enough mobility to reach the opponent's controlling hooks, you need at least one hand available for framing on their legs, and the opponent's figure-four must show some looseness or be in transition. If any condition is absent—particularly heel protection—prioritize tapping or alternative defense over attempting the pummel."
+      },
+      {
+        "question": "What is the most critical hip movement during the leg pummeling sequence?",
+        "answer": "The initial hip escape toward the opponent (not away) is the most critical movement. This counterintuitive direction reduces joint stress on the trapped knee while creating the angle change needed to open space between the opponent's controlling legs. Moving away from the opponent extends your leg further into their control and increases rotational vulnerability. The hip movement toward them also disrupts their perpendicular alignment, which is the foundation of saddle dominance."
+      },
+      {
+        "question": "Why does targeting the opponent's inside controlling leg first produce better results than targeting the outside leg?",
+        "answer": "The inside controlling leg—the one positioned across your hip—is the keystone of the saddle structure. It provides the perpendicular alignment and inside position that make saddle dominant. Disrupting this leg collapses the entire control framework, because without inside position across the hip, the opponent cannot maintain the rotational control needed for heel hook finishing mechanics. The outside leg merely reinforces what the inside leg establishes, so removing it alone leaves the fundamental control intact."
+      },
+      {
+        "question": "What grip configuration should you maintain on your own legs during the pummel?",
+        "answer": "At minimum, one hand should guard your heel and ankle area at all times during the pummeling sequence. The other hand frames on the opponent's controlling knee or shin to create and maintain space. If the opponent is not actively threatening heel grips, both hands can frame on their legs to accelerate the pummel, but instantly return one hand to heel protection if they shift toward submission grips. The hands serve as both shields and wedges throughout the technique."
+      },
+      {
+        "question": "Your opponent drives heavy hip pressure when they feel your pummeling attempt—how do you adjust your approach?",
+        "answer": "Use the forward drive against them by timing your hip escape to coincide with their pressure commitment. As they drive forward, angle off laterally using the momentum to create space on the opposite side from their drive. Their committed weight makes it harder for them to adjust direction quickly. If they consistently shut down pummeling through pressure, switch to a boot scoot escape or forward roll that uses their forward pressure as the escape mechanism rather than fighting against it."
+      },
+      {
+        "question": "What is the primary risk if you leave your free leg partially inserted during a stalled pummel attempt?",
+        "answer": "A half-inserted leg creates a catastrophic configuration where the opponent can trap both your legs in an expanded saddle, essentially doubling their control. Your free leg, now wedged inside their hooks without completing the pummel, cannot function as a frame or escape tool and may itself become an additional target for submission. The partially inserted position is worse than the original saddle because you have lost your primary defensive tool—the free leg—without gaining positional improvement."
+      },
+      {
+        "question": "Your pummel succeeds and you reach inside ashi-garami—what are your first three actions in the new position?",
+        "answer": "First, immediately re-protect your heel by rotating your knee inward and using your hands to guard the foot and ankle. Second, establish a frame on the opponent's hips with your inside leg to prevent them from re-advancing to saddle through backward stepping or angle changes. Third, assess grip positioning and begin systematic grip fighting to strip any remaining controls they have on your trapped leg. Only after these three defensive priorities are addressed should you consider further escape toward full guard recovery."
+      },
+      {
+        "question": "How does the opponent's body type affect which pummeling variant you should prioritize?",
+        "answer": "Against opponents with long legs, the hip switch pummel works best because their longer controlling legs create larger gaps during angle changes. Against stocky opponents with tight figure-fours, the incremental knee wedge pummel is more effective because their shorter legs leave less space for dramatic movements but are more susceptible to progressive prying. Against opponents with strong grips but less leg dexterity, the frame-assisted pummel using hand frames to separate their legs before inserting works well because it bypasses their leg tightness entirely."
+      },
+      {
+        "question": "If the opponent attacks your heel hook during your pummeling attempt, what is the correct immediate response?",
+        "answer": "Immediately abort the pummeling sequence and return to pure heel defense. Retract your free leg to guard the heel if it was committed to the pummel. Use both hands to fight the heel grip—strip at the thumbs with two-on-one grip fighting. Rotate your knee inward to hide the heel. The positional progress from pummeling is meaningless if the opponent finishes the heel hook during the transition. Only resume pummeling after the submission threat is fully addressed and the opponent returns to positional control."
+      }
+    ],
+    "safety_considerations": "Leg pummeling from saddle involves transitional movement through positions with high knee ligament injury risk. Never attempt pummeling when the opponent has already secured a finishing heel hook grip with rotational pressure—tap immediately in this scenario. Throughout the pummeling sequence, maintain strict heel protection and avoid any explosive pulling of the trapped leg away from the opponent, as this creates the kinetic energy that magnifies joint damage. If you feel any sharp pain in the knee during the transition, stop immediately and tap. Train this technique under qualified instruction with progressive resistance, and always communicate clearly with training partners about the danger level of the position."
+  },
+  "defender": {
+    "name": "Leg Pummeling from Saddle Defender",
+    "description": "Comprehensive guide to preventing and countering leg pummeling escapes while maintaining saddle control. Techniques for recognizing escape attempts and converting them into submission opportunities.",
+    "overview": "As the defender against leg pummeling from saddle, you are the practitioner who has established the dominant saddle position and must prevent the opponent from downgrading your control to inside ashi-garami through leg replacement. Your primary objective is to maintain the figure-four or triangle configuration that defines saddle dominance while exploiting the opponent's pummeling movements as opportunities for submission or positional advancement. The defender's role requires constant vigilance for the subtle hip movements and leg insertions that signal pummeling attempts, combined with the tactical discipline to choose between re-locking control, attacking during the transition, or strategically disengaging when the position becomes compromised. Understanding the pummeling mechanics from the defender's perspective enables preemptive adjustments that deny the escape before it gains momentum.",
+    "key_principles": [
+      "Maintain constant hip pressure into the trapped leg to deny the space needed for pummeling insertion",
+      "Monitor the opponent's free leg position continuously—any movement toward your controlling hooks signals a pummeling attempt",
+      "Re-lock your figure-four or triangle immediately when you feel any separation in your controlling legs",
+      "Increase perpendicular alignment and hip drive when pummeling attempts begin rather than chasing the legs",
+      "Use the instability created by pummeling attempts as submission opportunities rather than purely defensive moments",
+      "Control the opponent's framing hands to prevent them from wedging your controlling legs apart"
+    ],
+    "recognition_cues": [
+      "Opponent's free leg becomes active and moves toward the space between your controlling hooks rather than framing on your hips",
+      "Opponent initiates subtle hip escape movement toward you rather than away, creating angle changes that loosen your figure-four",
+      "Opponent shifts hand placement from heel protection to framing on your knees or shins, indicating they are preparing to create space for leg insertion",
+      "You feel a reduction in tightness of your triangle or figure-four lock without having changed your own positioning",
+      "Opponent's knee begins wedging between your controlling legs with progressive, incremental pressure rather than explosive movement"
+    ],
+    "defensive_options": [
+      {
+        "action": "Increase hip pressure and re-lock controlling configuration immediately upon recognizing pummeling attempt",
+        "when_to_use": "At the earliest sign of pummeling—when you feel the opponent's free leg moving toward your hooks or their hips shifting to create space",
+        "targets_outcome": "Saddle/Bottom",
+        "if_successful": "Opponent remains fully trapped in saddle with their escape attempt neutralized, and the energy expenditure of the failed pummel may create submission opportunities",
+        "risk": "If you commit too much weight forward to re-lock, the opponent may use your momentum for a different escape such as forward roll"
+      },
+      {
+        "action": "Attack the heel hook immediately during the transitional instability of the pummeling attempt",
+        "when_to_use": "When the opponent has committed their free leg and hands to the pummel, temporarily abandoning heel protection during the insertion attempt",
+        "targets_outcome": "Saddle/Bottom",
+        "if_successful": "Opponent must abort the pummel to defend the submission, resetting to a defensive posture in saddle where you maintain control and initiative",
+        "risk": "If the submission attempt fails and you release positional control during the attack, the opponent may complete the pummel while you are recovering from the submission attempt"
+      },
+      {
+        "action": "Strategically disengage from the compromised entanglement and transition to a passing position",
+        "when_to_use": "When the opponent's pummel has progressed past the point of recovery and your saddle control is irretrievably compromised",
+        "targets_outcome": "Open Guard/Top",
+        "if_successful": "You escape the entanglement entirely and achieve top position in open guard, converting from a deteriorating leg lock position to a passing opportunity",
+        "risk": "If you disengage without securing a passing grip, the opponent may recover guard and you lose your leg attack position entirely"
+      },
+      {
+        "action": "Backstep to re-establish saddle from a different angle when the original configuration is partially compromised",
+        "when_to_use": "When the opponent has inserted their knee but has not yet fully broken your triangle lock—the partial pummel creates a window for angular adjustment",
+        "targets_outcome": "Saddle/Bottom",
+        "if_successful": "You re-establish saddle control from a new angle that clears the opponent's inserted leg and returns to full figure-four dominance",
+        "risk": "The backstep creates momentary instability that a technically aware opponent can exploit to complete the pummel or transition to a different escape"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Saddle/Bottom",
+        "how": "Maintain heavy hip pressure and immediately re-lock your figure-four or triangle configuration at the first sign of pummeling. Drive your inside controlling leg deeper across the opponent's hip and squeeze your legs together to eliminate the gap needed for insertion. Address their framing hands by stripping grips or pinning their arms before they can wedge your legs apart."
+      },
+      {
+        "outcome": "Open Guard/Top",
+        "how": "When saddle control is irretrievably compromised, proactively disengage by extracting your legs while simultaneously establishing upper body controls for guard passing. Push off the opponent's hips as you clear your legs, immediately establish grips on their legs or collar, and transition to a headquarters or combat base position. This is a tactical retreat that preserves top position rather than fighting for a lost entanglement."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Failing to recognize pummeling attempts until the opponent's free leg is already deeply inserted between your controlling hooks",
+        "consequence": "The pummel progresses past the point where simple re-locking can recover the position, forcing you to either abandon saddle or fight from a severely compromised configuration",
+        "correction": "Monitor the opponent's free leg position constantly. Any active movement toward your controlling hooks—not framing on your hips—signals a pummeling attempt. React at the first sign by increasing hip pressure and squeezing your controlling legs together."
+      },
+      {
+        "error": "Releasing positional control to chase a heel hook when the opponent begins pummeling",
+        "consequence": "Both the submission and the position fail—the opponent's movement during the pummel makes the heel hook difficult to finish, and releasing leg control to grab the heel allows the pummel to complete",
+        "correction": "Prioritize maintaining saddle control first. Only attack the heel hook if the opponent has clearly abandoned heel protection during the pummel. If choosing to attack, ensure your legs remain locked while your hands transition to the heel—never sacrifice leg control for hand grips."
+      },
+      {
+        "error": "Allowing the opponent to establish hand frames on your controlling knees without immediately stripping those grips",
+        "consequence": "The opponent's frames progressively wedge your controlling legs apart, creating the space needed for the pummel while you focus on other aspects of control",
+        "correction": "Treat hand frames on your controlling legs as an immediate threat equal to a submission attempt. Strip or redirect their framing hands before they can generate leverage. Use your own hands to control their wrists or forearms, preventing them from establishing the wedge position."
+      },
+      {
+        "error": "Panicking and using explosive movements to re-establish control rather than technical adjustments",
+        "consequence": "Explosive responses create unpredictable momentum that the opponent can redirect into their escape, and the energy expenditure reduces your ability to sustain control long-term",
+        "correction": "Respond to pummeling attempts with controlled, technical adjustments—increase hip pressure gradually, squeeze controlling legs together steadily, and re-lock configuration methodically. Technical defense against technical escape."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the earliest recognition cue that indicates your opponent is about to attempt leg pummeling rather than another escape method?",
+        "answer": "The earliest cue is a change in the opponent's free leg behavior—instead of framing on your hips to push you away (which signals boot scoot or standard escape), the free leg moves toward the space between your controlling hooks with an insertion angle. This is often preceded by a subtle hip escape toward you rather than away, which creates the angle change needed for the pummel. Recognizing this directional difference—toward your hooks versus toward your hips—gives you the maximum reaction window."
+      },
+      {
+        "question": "When should you choose to attack a submission during the pummeling attempt versus re-locking your controlling configuration?",
+        "answer": "Attack the submission when the opponent has clearly committed both hands to framing and their free leg to insertion, leaving their heel unprotected during the transition. Re-lock your configuration when the opponent is still in the early stages of pummeling with their hands split between heel protection and framing. The decision point is the opponent's hand positioning—if both hands are on your legs creating frames, their heel is exposed; if one hand guards the heel, re-locking control is the higher-percentage response."
+      },
+      {
+        "question": "How do you prevent the opponent from using the hip switch pummel variant against your saddle control?",
+        "answer": "The hip switch pummel relies on the opponent rotating their hips dramatically to create space. Counter this by maintaining heavy hip pressure directly into their trapped thigh and using your top controlling leg to block their hip rotation. When you feel the hip switch beginning, drive your weight forward and slightly toward the direction of their rotation to shut down the angle change before it creates the gap needed for insertion. Your hip pressure should feel like a wedge that gets tighter when they attempt to rotate."
+      },
+      {
+        "question": "What is the correct response if the opponent successfully inserts their knee between your controlling legs but has not yet completed the full pummel?",
+        "answer": "This is a critical decision point with a narrow window. Squeeze your controlling legs together on their inserted knee to trap it in place—this prevents further insertion while maintaining partial control. Simultaneously assess whether you can re-lock your triangle or figure-four around both their trapped leg and their inserted knee. If the insertion is too deep for re-locking, transition immediately to either a submission attempt on the now-exposed heel or a strategic disengage to guard passing position. Do not remain in a half-compromised saddle hoping the situation improves."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Recognition Drilling",
+        "focus": "Identifying pummeling cues versus other escape attempts",
+        "description": "Partner alternates between pummeling attempts, boot scoot escapes, and forward rolls from saddle. Practice identifying which escape is being attempted within the first 1-2 seconds based on the direction and nature of the initial movement. Call out the escape type before responding defensively. Build pattern recognition at training pace before increasing speed."
+      },
+      {
+        "phase": "Phase 2: Re-locking Mechanics",
+        "focus": "Maintaining and recovering figure-four control against pummeling",
+        "description": "Partner performs slow-motion pummeling attempts while you practice the specific mechanics of re-locking your controlling legs. Focus on timing the squeeze, driving hip pressure, and addressing hand frames. Partner gradually increases speed as your re-locking becomes automatic. 15-20 repetitions per round."
+      },
+      {
+        "phase": "Phase 3: Counter-Attack Integration",
+        "focus": "Converting pummeling attempts into submission opportunities",
+        "description": "Partner commits to full pummeling attempts while you practice recognizing the heel exposure that occurs during the transition. Alternate between re-locking control and attacking heel hooks based on the opponent's hand positioning. Develop the tactical decision-making for choosing between positional defense and offensive counter-attack."
+      },
+      {
+        "phase": "Phase 4: Live Positional Rounds",
+        "focus": "Full resistance saddle retention against all escape methods",
+        "description": "Start in established saddle against fully resisting opponents who use all available escape methods including leg pummeling. Track which escapes succeed most often and identify defensive gaps. Three-minute rounds with reset to saddle. Goal is maintaining saddle or finishing the submission in 80% of attempts against training-level resistance."
+      }
+    ]
+  }
+}

@@ -1,0 +1,387 @@
+{
+  "name": "Guard Recovery from Double Unders",
+  "description": "Master guard recovery from double unders in BJJ. Learn frame creation, hip escape mechanics, and guard retention techniques to escape crushing pressure passes.",
+  "tags": [
+    "bjj",
+    "transition",
+    "guard-recovery",
+    "double-unders",
+    "escape",
+    "pressure-defense",
+    "guard-retention",
+    "defensive-technique"
+  ],
+  "from_position": "Double Unders/Bottom",
+  "outcomes": [
+    {
+      "to": "Closed Guard/Bottom",
+      "probability": 40,
+      "result": "success"
+    },
+    {
+      "to": "Open Guard/Bottom",
+      "probability": 15,
+      "result": "success"
+    },
+    {
+      "to": "Double Unders/Bottom",
+      "probability": 25,
+      "result": "failure"
+    },
+    {
+      "to": "Side Control/Bottom",
+      "probability": 20,
+      "result": "counter"
+    }
+  ],
+  "success_rate": 55,
+  "overview": "Guard Recovery from Double Unders is a critical defensive transition executed by the bottom player when trapped in the double unders passing position. The top player has established bilateral underhook control under both legs with hands clasped behind the back, creating tremendous forward pressure that stacks the bottom player's weight onto their shoulders. This guard recovery sequence represents the bottom player's systematic response to reclaim leg positioning and re-establish a functional guard, most commonly closed guard or open guard.\n\nThe technique centers on frame creation and hip escape mechanics working in concert. The bottom player must first establish skeletal frames against the top player's face, neck, or shoulders to create enough separation to begin hip movement. Once minimal space exists, the bottom player hip escapes laterally while fighting to free one or both legs from the underhook control. The freed legs are then repositioned between the bodies, either closing around the opponent's waist for closed guard or establishing feet-on-hips positioning for open guard retention.\n\nStrategic timing is paramount in this recovery. Attempting guard recovery too early when the top player's pressure is maximal wastes energy against their strongest control. Waiting too long allows the pass to complete. The optimal window occurs during the top player's grip adjustment, weight shift, or transition between passing angles. Successful practitioners develop sensitivity to these micro-moments and execute explosive guard recovery sequences precisely when the top player's control momentarily weakens.",
+  "conditions": [
+    "Opponent has secured double underhooks under both of your legs with hands clasped behind your back",
+    "Your hips are being elevated with forward stacking pressure compressing your spine",
+    "At least one arm is free to create frames against opponent's upper body",
+    "Opponent has not yet walked knees fully past your hips to complete the pass",
+    "You retain sufficient hip mobility to turn to at least one side"
+  ],
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Frame-Based Hip Escape Recovery",
+      "description": "Classical method using cross-face forearm frames to generate initial separation followed by systematic hip escape and sequential leg extraction. Relies on skeletal frame strength and precise lateral hip movement to create progressive space for guard re-establishment.",
+      "when_to_use": "When opponent maintains moderate forward pressure and you have sufficient arm freedom to establish strong frames against their jawline or neck"
+    },
+    {
+      "variant_name": "Granby Roll Recovery",
+      "description": "Uses the opponent's forward pressure momentum to execute a shoulder roll that creates space and repositions your body underneath or to the side. The rolling motion simultaneously breaks the underhook connection and creates distance for guard re-establishment in a single explosive movement.",
+      "when_to_use": "When opponent commits heavy forward pressure and your standard frame-based recovery is being overwhelmed by their weight advantage"
+    },
+    {
+      "variant_name": "Butterfly Hook Insertion Recovery",
+      "description": "Focuses on getting one or both feet inside the opponent's thighs to establish butterfly hooks, using the elevation mechanic to create space and break the double underhook connection. Once hooks are established, the bottom player can either sweep or transition to full butterfly guard.",
+      "when_to_use": "When opponent's underhook control is slightly loose or their elbows are flared, creating enough gap to thread your feet inside their thighs"
+    }
+  ],
+  "position_integration": "Guard Recovery from Double Unders occupies a critical defensive node in the BJJ guard retention system. It connects the double unders passing position back to the closed guard or open guard family, serving as the bottom player's primary pathway for reversing the guard passing sequence. This transition integrates with the broader guard retention framework that includes deep half entries, butterfly hook recoveries, and granby rolls as complementary escape options from the same starting position. Mastering this recovery ensures the bottom player can systematically address pressure passing threats and maintain their guard-based game even against elite passers who specialize in bilateral underhook control and stacking mechanics.",
+  "related_content": [
+    {
+      "name": "Double Unders",
+      "relationship": "Starting position where this guard recovery technique is executed from the bottom perspective"
+    },
+    {
+      "name": "Closed Guard",
+      "relationship": "Primary target position upon successful completion of the guard recovery sequence"
+    },
+    {
+      "name": "Open Guard",
+      "relationship": "Secondary recovery target when full closed guard closure is not achievable"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Alternative recovery position when only one leg can be freed from underhook control"
+    },
+    {
+      "name": "Deep Half Guard",
+      "relationship": "Complementary escape destination from the same starting position using different mechanics"
+    },
+    {
+      "name": "Butterfly Guard",
+      "relationship": "Alternative guard position achievable through butterfly hook insertion variant"
+    },
+    {
+      "name": "Headquarters Position",
+      "relationship": "Related passing position that often precedes double unders establishment"
+    },
+    {
+      "name": "Knee Shield Half Guard",
+      "relationship": "Intermediate recovery position achievable when one leg is freed with knee shield frame"
+    },
+    {
+      "name": "Combat Base",
+      "relationship": "Top player's base structure that influences available recovery timing windows"
+    },
+    {
+      "name": "Turtle",
+      "relationship": "Alternative escape destination via granby roll when guard recovery fails"
+    }
+  ],
+  "attacker": {
+    "name": "Guard Recovery from Double Unders Attacker",
+    "description": "Master the attacker perspective for guard recovery from double unders. Complete guide to frame creation, hip escape mechanics, and systematic leg extraction techniques for recovering guard against pressure passing.",
+    "overview": "As the bottom player executing guard recovery from double unders, your primary objective is to break the crushing pressure cycle and re-establish a functional guard position. This requires systematic frame creation against the top player's head and shoulders, precise hip escape timing to create lateral space, and aggressive leg repositioning to insert barriers between your body and theirs. The technique demands patience during the framing phase and explosiveness during the actual recovery window. Understanding the top player's weight distribution and pressure patterns allows you to identify moments of vulnerability where recovery attempts have the highest probability of success. Your frames must use skeletal alignment rather than muscular effort so they can be sustained against significantly heavier opponents without exhausting your arms before the recovery window opens.",
+    "key_principles": [
+      "Frame with skeletal structure rather than muscular effort to sustain separation against heavier opponents without premature fatigue",
+      "Time recovery attempts to the top player's grip adjustments and weight shifts rather than fighting peak pressure",
+      "Hip escape laterally to reduce stacking effectiveness before attempting leg extraction from underhook control",
+      "Extract the near-side leg first since it has greater range of motion due to the hip escape angle",
+      "Immediately establish a barrier with the first freed leg to prevent re-establishment of double underhook control",
+      "Commit fully to the recovery sequence once initiated rather than making tentative half-attempts that waste energy"
+    ],
+    "setup_requirements": [
+      "Both forearms available to create cross-frame against opponent's jawline, neck, or upper chest",
+      "Sufficient hip mobility to execute lateral hip escape despite stacking pressure on your spine",
+      "Mental recognition of the top player's pressure rhythm to identify optimal timing windows for recovery",
+      "Core engagement to resist being completely flattened while maintaining ability to generate explosive hip movement",
+      "At least partial ability to turn hips to one side rather than being pinned completely flat on your back"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Establish Defensive Frames",
+        "description": "Place both forearms against the top player's jawline and upper chest, creating a cross-frame structure that uses skeletal alignment through your forearms and elbows rather than muscular pushing to generate initial separation between your torso and their crushing stacking pressure."
+      },
+      {
+        "step_number": 2,
+        "action": "Create Hip Angle Through Lateral Escape",
+        "description": "Execute a strong hip escape toward one side while maintaining frame pressure against the opponent's face, rotating your body approximately thirty to forty-five degrees off-center to reduce the effectiveness of their forward stacking pressure and open space beneath their underhook control for leg extraction."
+      },
+      {
+        "step_number": 3,
+        "action": "Break Underhook Grip on Near Side",
+        "description": "Push against the opponent's bicep or forearm on the side you are escaping toward using your same-side hand while simultaneously pulling your near-side knee toward your chest to create slack in their underhook grip and begin extracting your leg from their bilateral control."
+      },
+      {
+        "step_number": 4,
+        "action": "Insert Knee Shield or Foot Frame",
+        "description": "Once the near-side leg gains partial freedom from the underhook, immediately insert your knee or shin between your body and theirs to create a physical barrier that prevents re-establishment of the double underhook position and generates additional separation for the second leg."
+      },
+      {
+        "step_number": 5,
+        "action": "Extract Second Leg from Underhook Control",
+        "description": "With your first leg establishing a frame between bodies, continue the hip escape while using the freed leg as active leverage to push against their torso, systematically breaking their remaining underhook connection on the far side to liberate your second leg from their control."
+      },
+      {
+        "step_number": 6,
+        "action": "Close Guard or Establish Open Guard",
+        "description": "Once both legs are freed and repositioned between your body and the opponent, wrap both legs around their waist and lock ankles behind their back for closed guard recovery, or place both feet on their hips with active sleeve or collar grips for open guard retention."
+      },
+      {
+        "step_number": 7,
+        "action": "Consolidate Guard with Dominant Grips",
+        "description": "Immediately establish controlling grips appropriate to your recovered guard position, such as collar and sleeve for closed guard or dual pant grips for open guard, while maintaining active leg pressure to prevent the opponent from re-entering the double unders passing configuration."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Opponent increases forward stacking pressure and drives chest into your frame to collapse separation",
+        "effectiveness": "High",
+        "your_response": "Redirect their forward pressure laterally through hip escape rather than opposing it directly. Their committed forward drive actually assists your lateral escape when combined with proper hip movement and angle creation.",
+        "targets_outcome": "Double Unders/Bottom"
+      },
+      {
+        "counter": "Opponent walks knees past your hips during your hip escape attempt to complete the guard pass",
+        "effectiveness": "High",
+        "your_response": "Abandon the standard frame-and-escape sequence and commit fully to either a granby roll using their forward momentum or pivot to a deep half guard entry by threading underneath their advancing hips before the pass completes.",
+        "targets_outcome": "Side Control/Bottom"
+      },
+      {
+        "counter": "Opponent re-clasps hands and tightens underhook connection after you partially break the grip",
+        "effectiveness": "Medium",
+        "your_response": "Maintain your frame pressure and hip angle rather than resetting flat. The partial break means their grip is weaker than initial establishment. Continue working the same-side leg extraction while their grip is compromised.",
+        "targets_outcome": "Double Unders/Bottom"
+      },
+      {
+        "counter": "Opponent transitions to over-under or leg weave passing configuration when one leg escapes",
+        "effectiveness": "Medium",
+        "your_response": "Use the freed leg to immediately establish knee shield or butterfly hook before they can consolidate the new passing position. The transition between passing configurations creates a window where their control is weaker than either position alone.",
+        "targets_outcome": "Side Control/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Pushing against opponent's chest with extended arms rather than framing against jawline with forearms",
+        "consequence": "Extended arms are easily collapsed or redirected, wasting energy without creating meaningful separation and potentially exposing arms to kimura attacks",
+        "correction": "Frame with forearms against the jawline and neck, keeping elbows tight to your body as anchor points. The frame must use bone structure to redirect pressure rather than muscular pushing with straight arms."
+      },
+      {
+        "error": "Attempting guard recovery while lying flat on your back without first creating a hip angle",
+        "consequence": "Flat back position maximizes the opponent's stacking leverage and makes leg extraction nearly impossible since both legs are equally trapped under full compression",
+        "correction": "Always hip escape laterally before attempting leg extraction. The angle reduces stacking pressure effectiveness and gives the near-side leg greater range of motion for extraction."
+      },
+      {
+        "error": "Making tentative half-attempts at leg extraction rather than committing fully to the recovery sequence",
+        "consequence": "Half-efforts waste energy without generating enough momentum to break the underhook connection, alerting the opponent to your recovery intent and allowing them to preemptively counter",
+        "correction": "Once you identify a recovery window and initiate the hip escape, commit fully to the entire sequence. Explosive committed movement succeeds where gradual tentative attempts fail."
+      },
+      {
+        "error": "Trying to extract both legs simultaneously rather than freeing one leg at a time sequentially",
+        "consequence": "Splitting focus between both legs means neither generates enough force to break the grip, and the simultaneous effort often results in your back flattening and losing the hip angle",
+        "correction": "Always extract the near-side leg first using your hip escape angle advantage. Use the freed leg as a barrier before working to extract the second leg systematically."
+      },
+      {
+        "error": "Failing to immediately establish guard structure after freeing legs, leaving a gap before consolidation",
+        "consequence": "The opponent re-enters double unders or transitions to another passing configuration during the brief window between leg freedom and guard establishment",
+        "correction": "The moment both legs are free, immediately close guard or establish open guard frames. There should be zero pause between leg extraction and guard consolidation."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Frame Mechanics",
+        "focus": "Building skeletal frame structure and hip escape coordination",
+        "description": "Practice establishing forearm frames against a partner's forward pressure from double unders position at 30% resistance. Focus on proper forearm placement, elbow anchoring, and maintaining frame integrity under progressive pressure increases. Drill hip escape motion independently then combine with frames."
+      },
+      {
+        "phase": "Phase 2: Leg Extraction Timing",
+        "focus": "Sequential leg extraction technique and timing windows",
+        "description": "With partner holding double unders at 50% resistance, practice the full frame-to-hip-escape-to-leg-extraction sequence. Focus on identifying the near-side leg extraction, establishing the knee shield barrier, then extracting the second leg. Partner provides controlled resistance with periodic grip loosening to simulate timing windows."
+      },
+      {
+        "phase": "Phase 3: Guard Consolidation Speed",
+        "focus": "Rapid transition from leg extraction to guard establishment",
+        "description": "Drill the complete recovery sequence with emphasis on eliminating the gap between freeing legs and closing guard. Partner attempts to re-enter double unders during the consolidation phase at 60% intensity. Track time from leg freedom to established guard and work to minimize it."
+      },
+      {
+        "phase": "Phase 4: Live Recovery Under Full Resistance",
+        "focus": "Applying guard recovery against full resistance and varied counters",
+        "description": "Positional sparring starting from double unders bottom against partner applying full passing pressure. Practice reading timing windows, selecting between recovery variants based on opponent's reactions, and chaining to alternative escapes when primary recovery fails. Track success rate across rounds."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the optimal timing window for initiating guard recovery from double unders?",
+        "answer": "The optimal window occurs when the top player shifts their weight to adjust grips, transitions between passing angles, or pauses to consolidate position. These micro-moments create brief reductions in forward pressure that allow frame creation and hip movement to be significantly more effective. Attempting recovery during peak pressure wastes energy and has minimal chance of success. Develop sensitivity to the rhythm of their pressure application."
+      },
+      {
+        "question": "What frame structure provides the most effective initial separation against double unders stacking pressure?",
+        "answer": "A cross-face frame with both forearms positioned against the opponent's jawline and neck creates the strongest initial separation. This structure uses skeletal alignment through the forearms and elbows rather than muscular pushing, meaning it can be sustained against significantly heavier opponents. The frame must anchor at the elbows against your own ribcage to prevent collapse under forward drive."
+      },
+      {
+        "question": "Your opponent tightens their grip and drives harder as you begin establishing frames - how do you adjust your recovery approach?",
+        "answer": "Rather than fighting their forward drive directly, redirect the energy laterally by hip escaping to one side while maintaining your frame angle. Their increased forward pressure actually assists your lateral escape when combined with proper hip movement because their commitment prevents them from adjusting laterally. Use their force vector against them to create the angle needed for leg extraction."
+      },
+      {
+        "question": "Which leg should you prioritize freeing first when trapped in double unders and why?",
+        "answer": "Prioritize freeing the leg on the side you are hip escaping toward, as this near-side leg has significantly greater range of motion due to the angle your hip escape has created. The near-side leg can be extracted by pulling the knee toward your chest while pushing against their bicep on the same side. Once free, this leg immediately becomes your primary frame and barrier against re-entry."
+      },
+      {
+        "question": "Your opponent begins walking their knees forward during your frame-based recovery attempt - what critical adjustment do you make?",
+        "answer": "If knees are advancing past your hips, the standard guard recovery window is closing rapidly. Abandon the frame-and-hip-escape sequence and commit fully to either a granby roll using their forward momentum or dive to deep half guard by threading underneath their advancing hips. Both alternatives use their forward movement as fuel rather than fighting against the direction of their pass completion."
+      },
+      {
+        "question": "What grip adjustments should you prioritize immediately after successfully closing guard from double unders recovery?",
+        "answer": "Immediately establish a dominant collar grip with one hand deep behind the neck and a sleeve or wrist grip with the other hand to control their posture. Pull them forward to break their upright positioning and prevent them from immediately re-initiating guard opening sequences. Your legs should actively squeeze with heels pulling into their lower back to consolidate the recovered position before they can counter."
+      }
+    ],
+    "safety_considerations": "Guard recovery from double unders involves significant spinal compression during the stacking phase. Both practitioners must be aware of cervical and lumbar strain risks when the bottom player is heavily stacked onto their shoulders. The top player should monitor the bottom player's comfort level and avoid driving excessive weight through the neck during training. Tap immediately if experiencing sharp neck pain, numbness in extremities, or difficulty breathing due to compression. Practice recovery techniques at controlled intensity with cooperative partners before applying under full resistance."
+  },
+  "defender": {
+    "name": "Guard Recovery from Double Unders Defender",
+    "description": "Master defending against guard recovery from double unders. Complete guide to maintaining bilateral underhook pressure, countering frame creation, and advancing to pass completion when opponent attempts guard recovery.",
+    "overview": "As the top player defending against guard recovery attempts from double unders, your objective is to maintain bilateral underhook control and relentless forward pressure while advancing toward pass completion. You must recognize early indicators of guard recovery attempts and counter them by increasing pressure, tightening grip connections, and strategically advancing your knees past the opponent's hips. The defensive battle centers on preventing frame creation and maintaining the chest-to-leg contact that makes your double unders control effective. When the bottom player initiates recovery mechanics, your ability to read their intent within the first one to two seconds and respond with the appropriate counter determines whether you maintain position, advance the pass, or concede guard recovery.",
+    "key_principles": [
+      "Maintain constant forward pressure through chest-to-thigh contact to prevent frame creation and space generation",
+      "Keep underhook grip connection tight with elbows against your own ribs to deny the bottom player space for leg extraction",
+      "Read frame establishment attempts early and drive through them with increased forward pressure rather than retreating",
+      "Advance knees progressively forward during the bottom player's recovery attempts to close the passing window",
+      "Be prepared to transition passing configurations when one underhook breaks rather than fighting to re-establish double unders",
+      "Use the bottom player's explosive recovery attempts as opportunities to advance the pass during their post-effort fatigue"
+    ],
+    "recognition_cues": [
+      "Bottom player's hands move to your jawline, face, or neck to establish forearm frames for separation",
+      "Bottom player's hips begin turning to one side rather than remaining flat under your stacking pressure",
+      "Increased leg activity and resistance against your underhook control as they attempt to create slack for extraction",
+      "Bottom player's breathing pattern shifts from steady to explosive preparation, indicating imminent recovery attempt",
+      "Bottom player pushes against your bicep or forearm on one side while pulling their knee toward their chest"
+    ],
+    "defensive_options": [
+      {
+        "action": "Increase forward chest pressure and drive through their frame attempts",
+        "when_to_use": "When bottom player begins establishing forearm frames against your jawline or neck before hip escape",
+        "targets_outcome": "Double Unders/Bottom",
+        "if_successful": "Bottom player's frames collapse under increased pressure, maintaining your full double unders control and stacking position",
+        "risk": "Over-committing forward can provide momentum for the bottom player's granby roll escape if they redirect your pressure laterally"
+      },
+      {
+        "action": "Walk knees forward past opponent's hips to complete guard pass",
+        "when_to_use": "When bottom player hip escapes and momentarily loosens their leg connection during recovery attempt",
+        "targets_outcome": "Side Control/Bottom",
+        "if_successful": "Complete the guard pass to side control while opponent is mid-recovery with legs partially freed but not yet repositioned",
+        "risk": "If pass completion is too slow, bottom player may establish half guard or knee shield during your advancement"
+      },
+      {
+        "action": "Re-grip and squeeze underhooks tighter to prevent leg extraction",
+        "when_to_use": "When bottom player begins working to extract one leg from your underhook by pulling knee to chest",
+        "targets_outcome": "Double Unders/Bottom",
+        "if_successful": "Re-establish full bilateral underhook control and reset stacking pressure to original dominant position",
+        "risk": "Momentary grip adjustment creates a brief window where bottom player can execute explosive leg extraction before you re-secure"
+      },
+      {
+        "action": "Transition to over-under or leg weave passing configuration",
+        "when_to_use": "When bottom player successfully frees one leg from your underhook control and standard re-grip fails",
+        "targets_outcome": "Side Control/Bottom",
+        "if_successful": "Maintain passing pressure through alternative configuration, converting partial guard recovery into a different passing pathway",
+        "risk": "Freed leg may establish butterfly hook or knee shield during the configuration transition, allowing partial guard recovery"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Double Unders/Bottom",
+        "how": "Maintain relentless forward pressure with tight elbow connection throughout their recovery attempt. Drive through their frames rather than retreating, keeping chest weight on their thighs at all times. Re-grip quickly if any slack develops in your underhook connection. Their failed recovery attempt will exhaust them, weakening subsequent escape attempts."
+      },
+      {
+        "outcome": "Side Control/Bottom",
+        "how": "Capitalize on the bottom player's hip escape and frame creation by walking your knees forward past their hips during their recovery sequence. The space they create for leg extraction also opens a pathway for your knees to advance. Time your pass completion during the transition between their frame establishment and leg extraction when their focus is split between two tasks."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Backing away from the bottom player's forearm frames instead of driving through them",
+        "consequence": "Creates the exact separation the bottom player needs for hip escape and leg extraction, effectively assisting their guard recovery",
+        "correction": "Drive your forehead into their forearms while continuing forward pressure. Their frames cannot overcome your full body weight if you keep advancing progressively rather than pulling back."
+      },
+      {
+        "error": "Allowing elbows to flare outward during grip maintenance under the bottom player's leg extraction attempts",
+        "consequence": "Creates gaps between your arms and torso that allow the bottom player to thread their knees through and establish barriers between your bodies",
+        "correction": "Keep elbows squeezed tightly against your own ribs throughout the entire sequence. Treat your arms as a single control unit that cannot be separated by the bottom player's leg movement."
+      },
+      {
+        "error": "Remaining static in double unders when the bottom player's recovery attempts are progressively succeeding",
+        "consequence": "Allows incremental guard recovery as each attempt gains slightly more separation, eventually leading to full guard re-establishment",
+        "correction": "If the bottom player is making progressive recovery progress, immediately transition to advancing the pass by walking knees forward. Better to attempt pass completion than to slowly lose the battle of attrition."
+      },
+      {
+        "error": "Releasing both underhooks simultaneously to try to re-establish a different grip configuration",
+        "consequence": "Complete loss of control allows the bottom player to instantly recover full guard position or scramble to a better defensive posture",
+        "correction": "Never release both underhooks at the same time. If transitioning to over-under or leg weave, maintain one underhook while adjusting the other, ensuring continuous control throughout the grip change."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What early indicators signal that the bottom player is about to attempt guard recovery from double unders?",
+        "answer": "Key indicators include the bottom player's hands moving to your jawline to establish frames, their hips beginning to turn to one side rather than staying flat, increased leg resistance as they create slack for extraction, and their breathing pattern shifting to explosive preparation. Recognizing these cues within the first one to two seconds allows you to preemptively increase pressure before the recovery sequence develops fully."
+      },
+      {
+        "question": "How should you adjust your pressure response when the bottom player establishes strong forearm frames against your face?",
+        "answer": "Drive your forehead into their forearms while simultaneously walking your knees forward and increasing chest-to-thigh pressure. The frames cannot overcome your full body weight if you keep advancing progressively. Avoid the instinct to pull your head back, which creates the separation they need. Lower your level and drive with your hips while maintaining tight underhook grip beneath their legs."
+      },
+      {
+        "question": "Your opponent successfully frees one leg during their guard recovery attempt - what immediate response prevents full recovery?",
+        "answer": "Immediately shift your remaining underhook grip to control the freed leg at the knee or ankle while maintaining your underhook on the other side. Transition from double underhook control to an over-under or leg weave configuration which maintains passing pressure even with one leg freed. Drive forward on the still-controlled side to prevent them from establishing a complete guard structure with the freed leg acting as a barrier."
+      },
+      {
+        "question": "When is the optimal moment to advance your pass rather than continuing to fight for double unders maintenance against recovery attempts?",
+        "answer": "Advance the pass when the bottom player's escape attempt creates momentary exhaustion or when their frames collapse after a failed recovery attempt. The recovery window between their explosive escape efforts presents ideal passing opportunities because they briefly relax from the effort. Walk your knees past their hips during this fatigue phase and immediately transition to side control establishment before they can mount another recovery attempt."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Pressure Maintenance Awareness",
+        "focus": "Recognizing recovery attempt indicators and maintaining pressure response",
+        "description": "Partner attempts guard recovery at 40% resistance while you focus on recognizing the early cues of frame creation, hip turning, and leg extraction. Practice maintaining continuous forward pressure without allowing any separation. Build awareness of the pressure rhythm and when recovery windows open."
+      },
+      {
+        "phase": "Phase 2: Counter-Timing Development",
+        "focus": "Timing pressure increases and pass advancement to recovery attempt windows",
+        "description": "Partner increases recovery intensity to 60% while you practice timing your pressure responses to their specific recovery mechanics. Walk knees forward during their hip escape, drive through frames during establishment, re-grip during their leg extraction pauses. Develop the reactive timing that shuts down each phase of recovery."
+      },
+      {
+        "phase": "Phase 3: Pass Completion During Recovery",
+        "focus": "Converting failed recovery attempts into completed guard passes",
+        "description": "Partner attempts full recovery at 80% intensity while you practice advancing the pass during their recovery efforts. Focus on recognizing the moment to abandon double unders maintenance and commit to side control transition. Track pass completion rate during active recovery defense."
+      },
+      {
+        "phase": "Phase 4: Configuration Transition Under Duress",
+        "focus": "Seamlessly switching passing configurations when partial recovery succeeds",
+        "description": "Full resistance positional sparring where partner successfully frees one leg. Practice transitioning to over-under, leg weave, or single underhook passing without losing all control. Develop the ability to maintain continuous passing pressure across multiple grip and position configurations."
+      }
+    ]
+  }
+}

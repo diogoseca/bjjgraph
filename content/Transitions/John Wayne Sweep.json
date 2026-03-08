@@ -1,0 +1,428 @@
+{
+  "name": "John Wayne Sweep",
+  "description": "Master the John Wayne Sweep from Half Guard. High-reward transition to Mount using pistol grip break, angular momentum, and underhook leverage.",
+  "tags": [
+    "bjj",
+    "sweep",
+    "half-guard",
+    "mount",
+    "technique",
+    "offensive",
+    "guard"
+  ],
+  "from_position": "Half Guard/Bottom",
+  "outcomes": [
+    {
+      "to": "Mount/Top",
+      "probability": 58,
+      "result": "success"
+    },
+    {
+      "to": "Half Guard/Bottom",
+      "probability": 27,
+      "result": "failure"
+    },
+    {
+      "to": "Half Guard/Top",
+      "probability": 15,
+      "result": "counter"
+    }
+  ],
+  "success_rate": 58,
+  "overview": "The John Wayne Sweep is a powerful offensive technique from half guard that capitalizes on opponent's forward pressure and poor base management. Named after the characteristic pistol-shooting motion used during the grip break, this sweep combines elements of traditional half guard underhook work with creative grip fighting. The technique exploits the moment when your opponent reaches for crossface control or attempts to flatten you, using their forward commitment against them. By establishing strong sleeve control from the underhook side, creating an angle with your hip movement, and utilizing the half guard hook effectively, you can off-balance your opponent and transition directly to mount.\n\nThe sweep operates on a three-phase mechanical sequence: first, two-on-one sleeve control from the underhook side eliminates one posting arm and creates a rotational axis; second, the signature pistol grip break removes the remaining base point; third, coordinated hip elevation using the trapped leg and angular rotation complete the reversal. This combination of upper body control and lower body leverage makes it one of the highest-reward half guard attacks available, landing directly in mount rather than a scramble position.\n\nThis sweep is particularly effective in gi grappling where grip control provides leverage advantages, though no-gi variations exist using wrist and tricep controls. The technique integrates naturally into a broader half guard attack system, chaining with underhook sweeps, back takes, deep half entries, and kimura attacks depending on the opponent's defensive reaction. Competition practitioners value the sweep for its direct path to a 4-point mount position.",
+  "related_content": [
+    {
+      "name": "Half Guard",
+      "relationship": "Starting position - foundational position from which technique is executed"
+    },
+    {
+      "name": "Knee Shield Half Guard",
+      "relationship": "Related half guard variation - knee shield can set up underhook for sweep entry"
+    },
+    {
+      "name": "Mount",
+      "relationship": "Ending position - primary destination when sweep is successful"
+    },
+    {
+      "name": "Old School",
+      "relationship": "Alternative technique - classic half guard underhook sweep with different finish"
+    },
+    {
+      "name": "Deep Half Guard",
+      "relationship": "Backup position - safety transition when opponent establishes strong crossface"
+    },
+    {
+      "name": "Dogfight Position",
+      "relationship": "Related position - underhook battle that can set up or result from sweep attempt"
+    },
+    {
+      "name": "Arm Drag to Back",
+      "relationship": "Chain technique - option when opponent defends by withdrawing hips"
+    },
+    {
+      "name": "Kimura from Guard",
+      "relationship": "Counter technique - submission attack on posted arm instead of pistol break"
+    },
+    {
+      "name": "Lockdown",
+      "relationship": "Alternative half guard control - can be used to control opponent before sweep setup"
+    },
+    {
+      "name": "Back Take from Bottom",
+      "relationship": "Chain technique - back take option when opponent over-defends the sweep"
+    }
+  ],
+  "conditions": [
+    "Half guard established with inside leg trapping opponent's leg",
+    "Underhook secured on the near side with two-on-one sleeve control on far arm",
+    "Opponent applying forward pressure or attempting crossface control",
+    "Sufficient mat space for rotational sweep completion"
+  ],
+  "attacker": {
+    "name": "John Wayne Sweep Attacker",
+    "description": "How to execute John Wayne Sweep in BJJ. Attacking perspective with setup, execution steps, and counters.",
+    "overview": "The John Wayne Sweep is a powerful offensive technique from half guard that capitalizes on opponent's forward pressure and poor base management. Named after the characteristic pistol-shooting motion used during the grip break, this sweep combines elements of traditional half guard underhook work with creative grip fighting. The technique exploits the moment when your opponent reaches for crossface control or attempts to flatten you, using their forward commitment against them. By establishing strong sleeve control from the underhook side, creating an angle with your hip movement, and utilizing the half guard hook effectively, you can off-balance your opponent and transition directly to mount. This sweep is particularly effective in gi grappling where grip control provides leverage advantages, though no-gi variations exist using wrist and tricep controls.",
+    "key_principles": [
+      "Establish dominant underhook and sleeve control before initiating sweep momentum",
+      "Create angular positioning to break opponent's base structure from half guard",
+      "Use the trapped leg and hip bridge to elevate opponent while controlling upper body",
+      "Time the sweep with opponent's forward pressure or crossface attempt",
+      "Maintain tight connection throughout the rotation to prevent scrambles",
+      "Follow through completely to secure mount rather than settling for top position",
+      "Break opponent's posted hand using the signature 'pistol' motion when needed"
+    ],
+    "setup_requirements": [
+      "Half guard established with inside leg trapping opponent's leg between yours",
+      "Strong underhook on near side with sleeve control on far arm (gi) or wrist/tricep (no-gi)",
+      "Opponent applying forward pressure or attempting crossface and shoulder pressure",
+      "Your hips mobile and ready to create angle from the half guard",
+      "Upper body posture maintained with underhook providing frame and leverage",
+      "Sufficient space to rotate without hitting obstacles or mat boundaries"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Establish underhook and sleeve control",
+        "description": "From half guard bottom, secure a deep underhook on the near side and use it to come up on your side. Establish a two-on-one grip on your opponent's far sleeve, with one hand on the wrist and the other on the tricep or elbow. Pull this arm across your centerline to break their posting base. In no-gi, establish a firm grip on the wrist and tricep."
+      },
+      {
+        "step_number": 2,
+        "action": "Secure half guard hook",
+        "description": "Ensure your inside leg is actively trapping opponent's leg with a strong half guard hook. Your outside knee should be positioned as a frame or shield to maintain distance and prevent being flattened. Keep your hips close to theirs and angled to the underhook side to maximize leverage."
+      },
+      {
+        "step_number": 3,
+        "action": "Create angular momentum",
+        "description": "While maintaining sleeve control and underhook, angle your body approximately 45 degrees toward the underhook side. This off-balances your opponent and positions your body for the rotational sweep. Your head should move toward the outside of their controlled arm as you come up on your hip."
+      },
+      {
+        "step_number": 4,
+        "action": "Execute pistol grip break",
+        "description": "If opponent posts their free hand on the mat, perform the signature 'John Wayne' motion by making a pistol shape with your free hand and breaking their posted grip by striking or pushing it away. This removes their primary base point and commits them to the sweep."
+      },
+      {
+        "step_number": 5,
+        "action": "Bridge, elevate and rotate",
+        "description": "Explosively bridge your hips upward while pulling strongly on the controlled sleeve. Use the trapped half guard leg as a fulcrum and your outside leg to drive the rotation. Simultaneously rotate your body underneath theirs, using your core and hips to generate momentum. Your goal is to invert their base completely while maintaining tight sleeve control throughout."
+      },
+      {
+        "step_number": 6,
+        "action": "Complete the sweep to mount",
+        "description": "As your opponent rotates over you, follow through by continuing to pull their controlled arm while using your legs to guide them past your guard. Release the half guard hook at the appropriate moment and immediately establish mount by bringing your knees up their sides as they land on their back."
+      },
+      {
+        "step_number": 7,
+        "action": "Secure mount position",
+        "description": "Once on top, quickly establish mount control by distributing your weight properly, getting your knees high into their armpits, and maintaining upper body control. Keep their controlled arm trapped if possible to prevent immediate escape attempts."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Opponent withdraws hips and creates distance when they feel the angle developing",
+        "effectiveness": "High",
+        "your_response": "Immediately transition to deep half guard entry by following their backward movement, or switch to a knee shield recovery to reset the half guard position and re-establish the underhook",
+        "targets_outcome": "Half Guard/Bottom"
+      },
+      {
+        "counter": "Opponent establishes strong crossface and drives forward with shoulder pressure to flatten you",
+        "effectiveness": "Medium",
+        "your_response": "Use their forward pressure to execute a standard underhook sweep to the opposite side, or transition to deep half guard by dropping under their weight and establishing deep half control",
+        "targets_outcome": "Half Guard/Bottom"
+      },
+      {
+        "counter": "Opponent posts free hand strongly and distributes weight over posted arm to prevent pistol break",
+        "effectiveness": "Medium",
+        "your_response": "Attack the posted arm with a kimura grip instead of breaking it, forcing them to defend the submission while you transition to a different sweep or back take opportunity",
+        "targets_outcome": "Half Guard/Bottom"
+      },
+      {
+        "counter": "Opponent sprawls legs back and flattens body weight down onto you to kill the sweep momentum",
+        "effectiveness": "Low",
+        "your_response": "Immediately re-establish knee shield to create distance, or transition to lockdown to control their leg and reset your half guard position rather than fighting from a flattened position",
+        "targets_outcome": "Half Guard/Top"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Attempting the sweep without establishing proper sleeve control first",
+        "consequence": "Opponent easily posts their free arm and prevents the sweep, potentially passing your guard during the failed attempt",
+        "correction": "Always secure dominant two-on-one grip control before initiating any angular movement or elevation. The sleeve control is the foundation that makes the entire technique work"
+      },
+      {
+        "error": "Creating angle too early before opponent commits forward pressure",
+        "consequence": "Opponent recognizes the setup and simply withdraws their hips, nullifying the sweep opportunity and creating distance",
+        "correction": "Wait for opponent to apply forward pressure or reach for underhooks before creating your angle. Time the sweep with their commitment to moving forward"
+      },
+      {
+        "error": "Failing to break the posted hand and attempting sweep anyway",
+        "consequence": "Opponent maintains their base through the posted arm, resulting in incomplete sweep or getting stuck in a scramble position",
+        "correction": "Execute the pistol grip break decisively when opponent posts. If unable to break it, immediately attack with kimura or transition to different technique"
+      },
+      {
+        "error": "Extending butterfly hooks too early without rotational momentum",
+        "consequence": "You lift opponent slightly but they land back in base, wasting energy and telegraphing future attempts",
+        "correction": "Coordinate hook extension with angular rotation and sleeve pull simultaneously. All three components must work together as one explosive movement"
+      },
+      {
+        "error": "Releasing sleeve control during the rotation phase",
+        "consequence": "Opponent regains posture mid-sweep and recovers their base or counters by taking top position",
+        "correction": "Maintain constant tension on controlled sleeve throughout entire sweep until you've established mount. The grip is your steering wheel"
+      },
+      {
+        "error": "Not following through to mount and stopping in half guard or scramble",
+        "consequence": "Missing the opportunity to secure dominant position and allowing opponent to defend or re-guard",
+        "correction": "Commit fully to the sweep by continuing rotational momentum and immediately bringing knees up to establish mount as opponent lands"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Grip Control Fundamentals",
+        "focus": "Establishing and maintaining two-on-one sleeve control from butterfly guard",
+        "description": "Partner offers static butterfly guard position. Practice securing two-on-one grips on sleeve, breaking opponent's centerline, and creating angular positioning. Focus on grip strength and control rather than completing sweeps. Drill pistol grip break motion repetitively."
+      },
+      {
+        "phase": "Phase 2: Coordinated Movement Drilling",
+        "focus": "Synchronizing sleeve pull, hook extension, and rotation",
+        "description": "Partner allows sweep to develop slowly. Practice coordinating all three components of the sweep with emphasis on timing and technique. Partner should maintain light base to allow repetitions but provide feedback on technique gaps. Complete 10-15 repetitions per side."
+      },
+      {
+        "phase": "Phase 3: Dynamic Entry and Timing",
+        "focus": "Recognizing setup opportunities during live movement",
+        "description": "Start from standing and pull guard to butterfly, immediately looking for John Wayne Sweep opportunity. Partner applies forward pressure naturally. Practice reading their weight distribution and timing your angle creation with their commitment. Focus on reactive execution."
+      },
+      {
+        "phase": "Phase 4: Countering Defensive Reactions",
+        "focus": "Adapting to common counters and maintaining offensive initiative",
+        "description": "Partner actively defends the sweep using distance creation, underhooks, or strong posts. Practice recognizing when sweep is not available and transitioning smoothly to alternative attacks like X-guard, deep half guard, or kimura. Maintain offensive pressure throughout."
+      },
+      {
+        "phase": "Phase 5: Competition Simulation",
+        "focus": "Executing technique under full resistance with consequences",
+        "description": "Live rolling with specific goal of hitting John Wayne Sweep from butterfly guard. Partner uses full defensive tactics and counter-passing attempts. Practice chaining technique with other butterfly guard attacks and maintaining composure under pressure."
+      },
+      {
+        "phase": "Phase 6: Integration and Flow Development",
+        "focus": "Seamless integration with complete butterfly guard system",
+        "description": "Free rolling with emphasis on using John Wayne Sweep as part of larger guard retention and sweeping system. Combine with arm drags, back takes, and submission threats. Focus on reading opponent's defensive patterns and selecting optimal technique."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "Why is establishing two-on-one sleeve control essential before attempting the John Wayne Sweep?",
+        "answer": "Two-on-one sleeve control serves multiple critical functions: it breaks your opponent's ability to post on that side, creates an angle by pulling their arm across their centerline which disrupts their base, provides a steering mechanism to guide them through the sweep, and prevents them from establishing underhooks or grips on that side. Without this control, opponent can easily post and maintain their base throughout your sweep attempt."
+      },
+      {
+        "question": "What is the mechanical purpose of creating a 45-degree angle before executing the sweep?",
+        "answer": "The angular positioning serves to off-balance your opponent by moving their center of gravity outside their base of support. When you angle toward the controlled sleeve side, you create a rotational axis that your opponent cannot defend by simply widening their base. This angle also positions your body optimally to rotate underneath theirs during the sweep while maintaining leverage through the butterfly hooks. The angle transforms a linear lifting motion into a circular sweeping motion with far greater mechanical efficiency."
+      },
+      {
+        "question": "Your opponent successfully withdraws their hips backward as you create your angle - how should you adjust?",
+        "answer": "When opponent withdraws hips, immediately follow their backward momentum by transitioning to X-guard or single leg X-guard. Keep your top butterfly hook active while inserting your bottom hook behind their knee as they move back. Alternatively, you can transition to seated guard with ankle pick entries or follow them to standing and attack with wrestling-based takedowns. The key is recognizing that their backward movement creates different opportunities rather than fighting against it."
+      },
+      {
+        "question": "What biomechanical principles make the butterfly hooks effective during the elevation phase of this sweep?",
+        "answer": "The butterfly hooks create leverage by positioning your feet under your opponent's center of gravity at their hip/thigh junction. When you extend your legs, you create a first-class lever where your hips are the fulcrum, your extending legs are the effort arm, and your opponent's upper body is the resistance arm. The close proximity of your hips to theirs maximizes mechanical advantage. Additionally, the hooks prevent lateral escape by controlling the inside thigh position, forcing opponent's weight to rotate over you rather than stepping out."
+      },
+      {
+        "question": "When should you release your butterfly hooks during the sweep rotation?",
+        "answer": "Release your butterfly hooks at the moment your opponent's hips pass the vertical plane above you and their weight begins falling to the opposite side. Releasing too early results in incomplete rotation and scrambles. Releasing too late causes your legs to become trapped underneath them, preventing you from establishing mount. The optimal timing is when you feel their weight commit past the tipping point, typically when their back is facing the ceiling and their momentum is irreversible."
+      },
+      {
+        "question": "How does the John Wayne Sweep integrate with other butterfly guard attacks to create a systematic approach?",
+        "answer": "The John Wayne Sweep works synergistically with arm drags, basic butterfly sweeps, and X-guard entries. If opponent defends the pistol break, you attack kimura. If they withdraw hips, you enter X-guard. If they drive forward with underhook, you execute basic butterfly sweep to that side. If they remain neutral, you arm drag to back take. This creates a decision tree where every defensive reaction opens a different offensive opportunity, embodying the principle of dilemma creation that defines effective guard systems."
+      },
+      {
+        "question": "Your opponent posts their free hand firmly on the mat and you cannot break it with the pistol motion - what are your options?",
+        "answer": "When the pistol grip break fails, immediately transition to attacking the posted arm with a kimura grip by circling your free hand under their wrist and clasping your own wrist. This forces them to either defend the submission by pulling their arm back (which removes their base and allows the sweep), or remain posted and risk the kimura finish. You can also use the moment they defend the kimura to regrip and attempt the sweep from a different angle, or transition to an arm drag on that posted arm to access the back."
+      },
+      {
+        "question": "What is the most critical hip movement in the John Wayne Sweep and why does it differ from a standard butterfly sweep?",
+        "answer": "The critical hip movement is the angular rotation toward the controlled sleeve side, creating approximately 45 degrees of offset before elevation. Unlike a standard butterfly sweep which uses primarily vertical elevation with lateral tilting, the John Wayne Sweep emphasizes rotational movement that spirals the opponent over a diagonal axis. Your hips must stay connected to the opponent throughout this rotation. This angular approach is more difficult to defend because it attacks the opponent's base on a vector they cannot counter by simply widening their knees."
+      },
+      {
+        "question": "What grip requirements distinguish the John Wayne Sweep from the basic butterfly sweep?",
+        "answer": "The John Wayne Sweep requires a dominant two-on-one grip configuration on the opponent's lead sleeve or arm, with one hand controlling the wrist and the other at the elbow or tricep. This differs from the basic butterfly sweep which typically uses an underhook on one side and collar or head control on the other. The two-on-one configuration is essential because it isolates one arm completely, creating a structural imbalance that the pistol grip break then exploits. The free hand must also be available for the signature pistol motion, which is unique to this sweep."
+      },
+      {
+        "question": "Your opponent sprawls their legs back and flattens their weight down as you begin the angle - what is the correct response?",
+        "answer": "When opponent sprawls and flattens, your butterfly hooks lose their mechanical advantage because the angle of elevation becomes ineffective against a flat opponent. The correct response is to immediately abandon the sweep attempt rather than burning energy against a nullified position. Transition to closed guard by locking your legs around their waist before they can advance, or reset to seated butterfly guard by framing on their shoulders and scooting your hips back. Attempting to force the sweep against a sprawled opponent wastes energy and exposes you to guard passing."
+      }
+    ],
+    "safety_considerations": "The John Wayne Sweep is generally a low-risk technique for both practitioners when executed properly. The primary safety concern is ensuring sufficient mat space for the rotation, as the sweep involves rotating opponent over your body with momentum. Practice initially on soft surfaces and ensure no obstacles are nearby. Partners should be aware of the incoming sweep to avoid reflexively posting with their arm at dangerous angles, which can cause wrist or shoulder injuries. When drilling, the bottom practitioner should control the speed of rotation initially to prevent unexpected impacts. Advanced practitioners should be mindful of their partner's flexibility limitations when pulling the controlled arm across centerline, as excessive force can strain the shoulder. In competition settings, be aware of mat boundaries to avoid rotating your opponent off the mat."
+  },
+  "defender": {
+    "name": "John Wayne Sweep Defender",
+    "description": "How to defend against John Wayne Sweep in BJJ. Recognition cues, defensive options, and escape strategies.",
+    "overview": "Defending the John Wayne Sweep requires understanding its three-phase execution sequence and intercepting at the earliest possible stage. The sweep depends on a chain of prerequisites: underhook establishment, two-on-one sleeve control, angular positioning, pistol grip break, and coordinated hip elevation. Each phase presents a distinct defensive window, and the earlier you intervene, the higher your success rate. Once the rotation begins with full momentum, defensive options narrow dramatically.\n\nFrom the top position in half guard, your primary defensive objective against the John Wayne Sweep is denying the underhook and preventing the two-on-one grip from isolating your arm across your centerline. If the grip is established, your secondary objective becomes maintaining a strong crossface and posting base while working to recover the controlled arm. The sweep becomes nearly unstoppable once both your posting base and arm control are compromised, so defensive urgency escalates with each phase the attacker completes.\n\nEffective defense integrates crossface pressure, grip fighting, and tactical hip positioning. Maintaining heavy shoulder pressure and denying the underhook neutralizes the setup. If the attacker achieves the angle, strong posting combined with driving your weight forward can nullify the elevation. Skilled defenders also use the attacker's commitment against them by timing guard passes during the rotation attempt, capitalizing on the momentary vulnerability created when the bottom player fully commits to the sweep.",
+    "key_principles": [
+      "Deny the underhook by maintaining strong crossface and shoulder pressure from half guard top",
+      "Prevent two-on-one grip establishment by maintaining elbow connection and active grip fighting",
+      "Maintain at least one strong posting point at all times to resist the rotational sweep",
+      "Use whizzer (overhook) to counter opponent's underhook when it is established",
+      "Use the attacker's commitment against them by timing counter-passes during full sweep attempts",
+      "Keep elbows tight to torso to prevent arm isolation across your centerline",
+      "Recognize the pistol grip break motion and immediately redistribute weight to maintain base"
+    ],
+    "recognition_cues": [
+      "Opponent secures deep underhook and two-on-one grip on your far sleeve, pulling your arm across their body toward their opposite hip",
+      "Opponent's body begins angling approximately 45 degrees to the underhook side while maintaining half guard hook control on your leg",
+      "Opponent's free hand forms a pistol shape and moves toward your posted hand on the mat, signaling the signature grip break",
+      "You feel simultaneous upward bridge pressure from opponent's hips and lateral pulling on your controlled arm creating a rotational force vector",
+      "Opponent's head drops below your chest level and moves to the outside of your controlled arm, coming up strongly on their hip from half guard"
+    ],
+    "defensive_options": [
+      {
+        "action": "Strip the two-on-one grip by circling your controlled elbow back toward your hip and pulling your wrist free using a strong circular motion",
+        "when_to_use": "Immediately when you feel opponent establishing two-on-one control on your sleeve before they can create an angle. This is the highest-percentage defense because it stops the sweep at its foundation.",
+        "targets_outcome": "Half Guard/Bottom",
+        "if_successful": "Returns to neutral half guard top position with opponent unable to execute sweep, allowing you to re-establish crossface and passing grips",
+        "risk": "If grip strip fails, you may overextend your arm and give opponent a deeper angle for the sweep"
+      },
+      {
+        "action": "Drive crossface pressure and flatten opponent by sprawling your hips back and applying shoulder weight",
+        "when_to_use": "When you feel the opponent creating angular positioning and your arm is already partially controlled. Best used before the pistol grip break occurs.",
+        "targets_outcome": "Half Guard/Bottom",
+        "if_successful": "Flattens opponent and kills the underhook angle, resetting to a dominant half guard top position where you can work your passing game",
+        "risk": "If opponent has deep underhook, your forward pressure may fuel their sweep attempt"
+      },
+      {
+        "action": "Establish whizzer (overhook) on opponent's underhook arm and drive forward with heavy hip pressure to kill the angle",
+        "when_to_use": "When opponent has established the underhook and angle but has not yet executed the pistol grip break. The whizzer counters the underhook directly.",
+        "targets_outcome": "Half Guard/Top",
+        "if_successful": "Neutralizes underhook and kills angular momentum, flattening opponent and potentially opening knee slice or smash pass opportunities",
+        "risk": "If opponent has already secured the two-on-one sleeve grip, the whizzer alone may not be enough to prevent the rotation"
+      },
+      {
+        "action": "Post free hand strongly with wide base and immediately re-distribute weight over the posted arm when you feel the pistol grip break attempt",
+        "when_to_use": "When opponent attempts the signature pistol grip break on your posted hand. Stiffen your posting arm, widen your base, and shift your center of gravity over the post.",
+        "targets_outcome": "Half Guard/Bottom",
+        "if_successful": "Maintains your base structure despite the grip break attempt, forcing opponent to abandon the sweep or transition to a different attack",
+        "risk": "Posting with a straight arm creates vulnerability to kimura attack if opponent switches from grip break to submission"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Half Guard/Bottom",
+        "how": "Strip the two-on-one grip early by circling your elbow back to your hip, then re-establish crossface and passing posture. Alternatively, drive your weight forward to flatten them and nullify the underhook angle."
+      },
+      {
+        "outcome": "Half Guard/Top",
+        "how": "Time a counter-pass during the opponent's sweep commitment. When they fully commit to the rotation, their half guard structure is momentarily weakened. Drive forward through their legs with a knee slice or smash pass, or use the sprawl to flatten their guard and advance to side control."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Allowing the two-on-one grip to establish without immediately contesting it through active grip fighting",
+        "consequence": "Once the two-on-one is secured, your arm is isolated across the opponent's centerline, removing one posting option and making the sweep significantly easier to execute",
+        "correction": "Fight grips immediately and continuously. The moment you feel opponent grabbing your sleeve with both hands, circle your elbow back toward your hip and pull your wrist free. Prevent the grip from settling by keeping your arms active."
+      },
+      {
+        "error": "Leaning forward into opponent's hooks when feeling off-balanced by the grip pull rather than withdrawing hips",
+        "consequence": "Your forward momentum becomes the primary energy source for the sweep, making elevation effortless for the attacker and the rotation nearly unstoppable",
+        "correction": "When you feel the pull from the two-on-one grip, resist the instinct to drive forward. Instead, sit your hips back, widen your base, and work to recover the controlled arm from a balanced posture."
+      },
+      {
+        "error": "Posting with a straight, locked-out arm when opponent attempts the pistol grip break",
+        "consequence": "Creates a rigid lever that the pistol motion can easily break, and exposes the arm to kimura attack if opponent switches strategy",
+        "correction": "Post with a slightly bent arm and distribute weight broadly rather than concentrating it on a single point. Keep your elbow slightly bent and your hand wide, ready to adjust posting position dynamically."
+      },
+      {
+        "error": "Turning away from the sweep direction during rotation instead of facing into it",
+        "consequence": "Exposes your back to potential back take if the sweep partially succeeds, converting a guard recovery situation into an even worse positional crisis",
+        "correction": "Always face toward the direction of the sweep rotation. If you feel the rotation beginning, turn into it and work to establish top position or at minimum recover inside butterfly guard top."
+      },
+      {
+        "error": "Attempting to stand up while the two-on-one grip is still fully secured on your arm",
+        "consequence": "Standing with a compromised arm gives opponent a direct entry to X-guard or single leg X-guard, trading one bad position for another",
+        "correction": "Strip or at least partially compromise the two-on-one grip before standing. If you must stand with grip intact, immediately circle the controlled arm free as you create distance."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the single most important defensive action against the John Wayne Sweep and at what stage should it occur?",
+        "answer": "The most important defensive action is stripping the two-on-one grip on your sleeve before the attacker can establish angular positioning. This should occur immediately when you feel both of the opponent's hands securing your sleeve or wrist. The two-on-one grip is the foundation of the entire sweep; without it, the attacker cannot isolate your arm, create the rotational axis, or execute the pistol grip break. Every subsequent defensive option has a lower success rate than preventing this initial grip."
+      },
+      {
+        "question": "Why is withdrawing your hips backward a more effective defense than driving forward when you feel the sweep developing?",
+        "answer": "Withdrawing hips removes your center of gravity from the attacker's hook elevation range, which neutralizes the mechanical advantage their butterfly hooks provide. Driving forward is counterproductive because the John Wayne Sweep specifically exploits forward momentum. Your forward pressure becomes the energy source the attacker uses for elevation and rotation. By pulling hips back, you deny the sweep its required mechanical input while creating distance that makes the two-on-one grip less effective as a steering mechanism."
+      },
+      {
+        "question": "You feel the opponent's free hand forming the pistol shape and moving toward your posted hand - what is your immediate response?",
+        "answer": "Immediately shift your weight distribution to widen your base and strengthen the posting arm. Bend your elbow slightly to create a more resilient post that cannot be easily broken by the pistol strike. Simultaneously, start circling your controlled arm free from the two-on-one grip using the momentary distraction of the pistol attempt. If the pistol break connects, you need a secondary posting option ready, so prepare to post with your head or opposite hand to maintain base while recovering structure."
+      },
+      {
+        "question": "How can you use the attacker's full commitment to the sweep rotation as a counter-passing opportunity?",
+        "answer": "When the attacker fully commits to the rotation by extending hooks and pulling strongly on your arm, their guard structure is temporarily compromised because both legs are occupied with elevation rather than retention. If you can maintain base through the initial rotation attempt by posting strongly, you can immediately drive forward through their opened guard with a smash pass, over-under pass, or body lock pass. The key timing window is when the sweep fails but the attacker's legs have not yet recovered to a defensive configuration."
+      },
+      {
+        "question": "What are the recognition cues that distinguish a John Wayne Sweep setup from a standard butterfly sweep setup?",
+        "answer": "The defining recognition cue is the two-on-one grip configuration on a single arm, which differs from the standard butterfly sweep's typical underhook plus collar/head control. Additionally, the John Wayne Sweep involves a more pronounced angular body rotation to approximately 45 degrees before elevation, whereas the standard butterfly sweep attacks more laterally. The signature pistol grip break motion is unique to this sweep. If you feel both of the opponent's hands on one of your arms combined with angular hip movement, you are facing a John Wayne Sweep rather than a standard butterfly sweep."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Recognition and Grip Prevention",
+        "focus": "Identifying John Wayne Sweep setups and preventing the two-on-one grip",
+        "description": "Partner slowly works through the John Wayne Sweep setup phases while you practice recognizing each stage. Focus exclusively on stripping the two-on-one grip using elbow circles and wrist extraction. No passing or countering yet - just recognition and grip prevention at various stages of the setup."
+      },
+      {
+        "phase": "Phase 2: Base Maintenance Under Sweep Pressure",
+        "focus": "Maintaining posting structure during active sweep attempts",
+        "description": "Partner establishes the full John Wayne Sweep setup including two-on-one grip and angle. Practice maintaining base through strong posting, hip positioning, and weight distribution as partner attempts the full sweep with increasing intensity. Focus on staying balanced through the rotation attempt rather than stripping grips."
+      },
+      {
+        "phase": "Phase 3: Counter-Passing and Tactical Hip Movement",
+        "focus": "Converting defensive survival into offensive passing opportunities",
+        "description": "Partner attempts the full John Wayne Sweep against your active defense. Practice the hip withdrawal defense, forward pressure counter with underhook, and timing counter-passes when the sweep attempt fails. Work on reading which defensive response is appropriate based on the stage of the sweep setup."
+      },
+      {
+        "phase": "Phase 4: Live Defensive Sparring",
+        "focus": "Defending against the John Wayne Sweep under full resistance",
+        "description": "Positional sparring starting in butterfly guard with partner specifically hunting for John Wayne Sweep. Defend with full technical repertoire including grip fighting, hip movement, posting, and counter-passing. Partner chains the sweep with other butterfly attacks to simulate realistic offensive pressure and test defensive adaptability."
+      }
+    ]
+  },
+  "variants_and_adaptations": [
+    {
+      "variant_name": "No-Gi John Wayne Sweep",
+      "description": "Executed with wrist and tricep control instead of sleeve grips. Requires stronger connection and faster execution due to reduced friction. Often combined with Russian tie control on the lead arm.",
+      "when_to_use": "In no-gi grappling or MMA contexts where gi grips are unavailable. Particularly effective when opponent reaches for underhooks aggressively."
+    },
+    {
+      "variant_name": "John Wayne to Back Take",
+      "description": "If opponent posts strongly and prevents mount, maintain sleeve control and use momentum to take the back instead. Insert bottom hook as they rotate and establish seat belt control.",
+      "when_to_use": "When opponent successfully posts during sweep but you've already committed to the rotation. Allows you to salvage offensive position rather than returning to guard."
+    },
+    {
+      "variant_name": "Double Sleeve John Wayne",
+      "description": "Control both sleeves instead of using pistol break, pulling both arms across centerline simultaneously. Creates even more off-balancing but requires exceptional grip strength.",
+      "when_to_use": "Against smaller opponents or those with weaker grips. Also effective when opponent keeps both hands high and available for control."
+    },
+    {
+      "variant_name": "John Wayne from Butterfly Guard",
+      "description": "Execute the sweep from full butterfly guard using both hooks for elevation instead of the half guard trapped leg. Uses the same pistol grip break but with butterfly hook mechanics for more explosive elevation.",
+      "when_to_use": "When you have full butterfly guard established with both hooks. The dual hook elevation provides more power but the sweep follows the same grip fighting and pistol break sequence."
+    }
+  ],
+  "position_integration": "The John Wayne Sweep is a cornerstone technique within the offensive half guard system and represents an evolution of traditional underhook sweeping mechanics. It integrates seamlessly with the fundamental half guard philosophy of using the underhook to create offensive angles while maintaining the trapped leg as a control point. The technique serves as a bridge between basic half guard sweeps like the Old School and more dynamic attacks like back takes and deep half entries, as the underhook positioning and grip controls are transferable. This sweep represents the creative grip fighting and angular attacks that make half guard effective against larger opponents, connecting to the broader concept of using frames and leverage to overcome top pressure. As part of a complete half guard attack system, the John Wayne Sweep provides a high-reward option that directly threatens mount, one of the most dominant positions in BJJ, making it particularly valuable in competition settings where point-scoring is crucial."
+}

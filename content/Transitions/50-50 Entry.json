@@ -1,0 +1,399 @@
+{
+  "name": "50-50 Entry",
+  "description": "Master the 50-50 Entry from inverted guards. Step-by-step leg threading mechanics to secure 50-50 position. Success rates: Beginner 30%, Intermediate 50%, Advanced 65%.",
+  "tags": [
+    "bjj",
+    "transition",
+    "leg-entanglement",
+    "inverted-guard",
+    "50-50",
+    "no-gi"
+  ],
+  "from_position": "Inverted Guard/Bottom",
+  "outcomes": [
+    {
+      "to": "50-50 Guard/Top",
+      "probability": 65,
+      "result": "success"
+    },
+    {
+      "to": "Inverted Guard/Top",
+      "probability": 25,
+      "result": "failure"
+    },
+    {
+      "to": "Side Control/Bottom",
+      "probability": 10,
+      "result": "counter"
+    }
+  ],
+  "success_rate": 58,
+  "overview": "The 50-50 Entry represents one of the most important transitions in modern leg lock systems, allowing practitioners to secure the symmetrical 50-50 Guard from various inverted positions. This technique involves threading your legs around your opponent's leg while inverting or rolling, creating the interlocking leg configuration that defines the 50-50 position. The entry is particularly effective against standing opponents who attempt to disengage from your guard, as your rolling and inverting motion follows their movement while simultaneously establishing leg control.\n\nStrategically, the 50-50 Entry serves as both an offensive pathway to heel hook attacks and a defensive mechanism to neutralize aggressive guard passes. When an opponent steps into your guard or attempts to back away, the 50-50 Entry capitalizes on their weight distribution to secure the entanglement. The technique requires precise timing and hip mobility, as the leg threading must occur during the opponent's transition between positions rather than when they are fully settled.\n\nFrom a systematic perspective, the 50-50 Entry functions as a gateway to the entire leg entanglement system. Once established, you gain access to heel hooks, toe holds, and various sweeping mechanics. The position also creates what practitioners call a \"neutral leg lock position\" where both players have equivalent attacking opportunities, making it crucial to understand both offensive and defensive applications from the moment of entry.",
+  "related_content": [
+    {
+      "name": "50-50 Guard",
+      "relationship": "Target position - destination of successful entry"
+    },
+    {
+      "name": "Inverted Guard",
+      "relationship": "Starting position category"
+    },
+    {
+      "name": "Inside Ashi-Garami",
+      "relationship": "Alternative leg entanglement from same starting positions"
+    },
+    {
+      "name": "Heel Hook",
+      "relationship": "Primary submission from completed 50-50 position"
+    },
+    {
+      "name": "Backside 50-50",
+      "relationship": "Follow-up position for additional heel hook angles"
+    },
+    {
+      "name": "Outside Ashi-Garami",
+      "relationship": "Transition option when opponent back-steps out of 50-50"
+    },
+    {
+      "name": "De La Riva Guard",
+      "relationship": "Alternative guard retention if entry fails"
+    },
+    {
+      "name": "Saddle",
+      "relationship": "Advanced leg entanglement accessible from 50-50"
+    },
+    {
+      "name": "Kiss of the Dragon",
+      "relationship": "Aggressive berimbolo-style variant of the 50-50 Entry"
+    },
+    {
+      "name": "Grasshopper Guard",
+      "relationship": "Inverted guard variant commonly used to initiate 50-50 entries"
+    }
+  ],
+  "attacker": {
+    "name": "50-50 Entry Attacker",
+    "description": "How to execute 50-50 Entry in BJJ. Attacking perspective with setup, execution steps, and counters.",
+    "overview": "The 50-50 Entry represents one of the most important transitions in modern leg lock systems, allowing practitioners to secure the symmetrical 50-50 Guard from various inverted positions. This technique involves threading your legs around your opponent's leg while inverting or rolling, creating the interlocking leg configuration that defines the 50-50 position. The entry is particularly effective against standing opponents who attempt to disengage from your guard, as your rolling and inverting motion follows their movement while simultaneously establishing leg control.\n\nStrategically, the 50-50 Entry serves as both an offensive pathway to heel hook attacks and a defensive mechanism to neutralize aggressive guard passes. When an opponent steps into your guard or attempts to back away, the 50-50 Entry capitalizes on their weight distribution to secure the entanglement. The technique requires precise timing and hip mobility, as the leg threading must occur during the opponent's transition between positions rather than when they are fully settled.\n\nFrom a systematic perspective, the 50-50 Entry functions as a gateway to the entire leg entanglement system. Once established, you gain access to heel hooks, toe holds, and various sweeping mechanics. The position also creates what practitioners call a \"neutral leg lock position\" where both players have equivalent attacking opportunities, making it crucial to understand both offensive and defensive applications from the moment of entry.",
+    "key_principles": [
+      "Thread your outside leg behind opponent's knee before committing to the roll",
+      "Use hip rotation rather than arm strength to complete the entanglement",
+      "Maintain constant contact with opponent's leg throughout the transition",
+      "Time the entry to opponent's weight shift or stepping motion",
+      "Keep your hips elevated and mobile during the threading phase",
+      "Control the pace of the roll to prevent opponent from clearing their leg",
+      "Immediately secure heel exposure upon completing the entry"
+    ],
+    "setup_requirements": [
+      "Inverted or semi-inverted positioning with hips elevated above shoulders",
+      "One leg already engaged with opponent's lower body (hook or contact)",
+      "Opponent standing or in combat base with one leg forward",
+      "Clear line to thread your leg behind opponent's knee joint",
+      "Sufficient hip mobility to complete the rolling motion",
+      "Grip or frame to control distance during entry attempt"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Establish inversion",
+        "description": "From your guard position, begin inverting by rolling your shoulders toward the mat while elevating your hips. Your weight should transfer to your upper back and shoulders, freeing your legs for dynamic movement."
+      },
+      {
+        "step_number": 2,
+        "action": "Thread outside leg",
+        "description": "Shoot your outside leg (the one furthest from opponent) behind their lead leg, aiming to place your calf behind their knee joint. This initial thread creates the foundation for the 50-50 configuration."
+      },
+      {
+        "step_number": 3,
+        "action": "Hip rotation",
+        "description": "Rotate your hips toward the threaded leg side, using the rotational momentum to pull opponent's leg deeper into the entanglement. Your inside leg should begin wrapping over their thigh."
+      },
+      {
+        "step_number": 4,
+        "action": "Complete the wrap",
+        "description": "Continue rotating as your inside leg crosses over opponent's thigh and hooks behind their hip or lower back. Both legs should now be interlocked around their single leg in the characteristic 50-50 configuration."
+      },
+      {
+        "step_number": 5,
+        "action": "Secure leg control",
+        "description": "Pinch your knees together to trap opponent's leg while controlling their ankle or foot with your hands. Your thighs should be squeezing their knee joint from both sides."
+      },
+      {
+        "step_number": 6,
+        "action": "Expose the heel",
+        "description": "Use your grips to rotate opponent's foot outward, exposing the heel for attack while preventing them from straightening their leg. Settle your hips low to maximize control and attacking leverage."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Opponent backsteps and clears leg before thread completes",
+        "effectiveness": "High",
+        "your_response": "Follow with re-inversion and transition to outside ashi-garami or single leg X-guard instead",
+        "targets_outcome": "Inverted Guard/Top"
+      },
+      {
+        "counter": "Opponent drives forward with stack pressure during inversion",
+        "effectiveness": "Medium",
+        "your_response": "Use the forward momentum to accelerate your roll and complete entry faster, or granby roll to guard recovery",
+        "targets_outcome": "Side Control/Bottom"
+      },
+      {
+        "counter": "Opponent establishes strong collar tie or head control",
+        "effectiveness": "Medium",
+        "your_response": "Frame against their bicep or wrist while threading to maintain distance, or abort to closed guard",
+        "targets_outcome": "Inverted Guard/Top"
+      },
+      {
+        "counter": "Opponent steps over your threading leg to pass",
+        "effectiveness": "Low",
+        "your_response": "Continue the roll underneath them and transition to single leg X-guard from the opposite side",
+        "targets_outcome": "Side Control/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Threading leg too shallow without getting behind the knee",
+        "consequence": "Opponent easily extracts their leg and passes to side control before entanglement completes",
+        "correction": "Ensure your calf is positioned completely behind their knee joint before initiating hip rotation"
+      },
+      {
+        "error": "Attempting entry when opponent has both feet planted with wide base",
+        "consequence": "Entry fails because opponent has too much stability to be pulled into entanglement",
+        "correction": "Wait for opponent to narrow their base or shift weight to one leg before attempting"
+      },
+      {
+        "error": "Releasing leg control during the rolling motion",
+        "consequence": "Opponent clears their leg mid-roll, leaving you inverted in vulnerable position",
+        "correction": "Maintain constant leg-to-leg contact throughout entire transition using your knees as hooks"
+      },
+      {
+        "error": "Rolling too fast without proper leg positioning",
+        "consequence": "Speed without control results in loose entanglement that opponent escapes immediately",
+        "correction": "Prioritize leg placement over speed - a slower, controlled entry beats a fast sloppy one"
+      },
+      {
+        "error": "Failing to pinch knees after completing entry",
+        "consequence": "Opponent straightens their leg and either escapes or establishes superior attacking angle",
+        "correction": "Immediately squeeze knees together upon completing wrap to trap their leg at the knee joint"
+      },
+      {
+        "error": "Neglecting heel exposure after securing position",
+        "consequence": "Opponent has time to establish defensive grips and neutralize your attacking opportunities",
+        "correction": "Rotate their foot outward with your hands simultaneously as you complete the entry"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Week 1-2",
+        "focus": "Leg threading mechanics",
+        "description": "Practice solo hip mobility drills and partner drilling of the leg thread without resistance. Focus on getting your calf completely behind their knee from various angles. Drill the motion 50+ times per session until the threading pattern becomes automatic."
+      },
+      {
+        "phase": "Week 3-4",
+        "focus": "Entry timing",
+        "description": "Partner provides light movement and weight shifts while you practice identifying entry windows. Work on timing your thread to their stepping motion. Partner should not actively resist but should move realistically."
+      },
+      {
+        "phase": "Week 5-6",
+        "focus": "Entry combinations",
+        "description": "Chain the 50-50 Entry with other leg entanglement transitions. If entry fails, immediately flow to single leg X, inside ashi, or guard recovery. Partner increases resistance to 50-75% and actively tries to prevent the entry."
+      },
+      {
+        "phase": "Week 7+",
+        "focus": "Live application",
+        "description": "Apply the entry in positional sparring starting from inverted guard or open guard. Full resistance with immediate transition to heel hook attacks upon successful entry. Track success rate and identify remaining technical gaps."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the primary goal of the 50-50 Entry?",
+        "answer": "The primary goal is to establish the 50-50 Guard position by threading your legs around your opponent's single leg, creating an interlocking leg configuration that provides access to heel hook attacks, toe holds, and sweeping opportunities while neutralizing their passing attempts."
+      },
+      {
+        "question": "Where exactly must you position your threading leg for a successful entry?",
+        "answer": "Your calf must be positioned completely behind your opponent's knee joint, not on the thigh or shin. This placement creates the mechanical lock that prevents them from extracting their leg during the rotation phase of the entry."
+      },
+      {
+        "question": "What timing window should you target for the highest percentage entry?",
+        "answer": "The optimal window is when your opponent shifts their weight from one foot to the other, either stepping forward to engage or backward to disengage. This weight transfer momentarily compromises their ability to clear the leg you're threading around."
+      },
+      {
+        "question": "Your opponent begins back-stepping as you initiate the thread - how do you adjust?",
+        "answer": "Follow their backstep by re-inverting in the same direction they're moving. As they step back, their trailing leg becomes the new target. You can also abort the 50-50 Entry and transition to outside ashi-garami or single leg X-guard on the leg they leave behind."
+      },
+      {
+        "question": "Why is pinching your knees together critical after completing the entry?",
+        "answer": "Pinching your knees together traps the opponent's leg at the knee joint and prevents them from straightening their leg to escape. Without this knee pinch, they can extend their leg out of the entanglement or create space to establish a superior attacking angle."
+      },
+      {
+        "question": "Your opponent drives forward with stack pressure during your inversion - what is your response?",
+        "answer": "Use their forward momentum to accelerate your rolling motion and complete the entry faster. Their forward drive actually helps pull their leg deeper into the entanglement. Alternatively, granby roll away to guard recovery if the stack is too heavy to work underneath."
+      },
+      {
+        "question": "How should you manage hip positioning throughout the entry?",
+        "answer": "Keep your hips elevated and mobile during the threading phase using your shoulders as a base. During the rotation, use hip torque rather than arm pulling to complete the entanglement. After entry, settle your hips low to maximize control and create the attacking platform for heel hooks."
+      },
+      {
+        "question": "What grip priorities should you establish immediately upon completing the 50-50 Entry?",
+        "answer": "First secure control of their ankle or foot, then use that grip to rotate their foot outward to expose the heel. The heel exposure grip takes priority over any upper body grips because it establishes your attacking threat and prevents them from freeing their leg."
+      },
+      {
+        "question": "What conditions must exist before you can attempt the 50-50 Entry?",
+        "answer": "You need an inverted or semi-inverted position with hips elevated, at least one leg already engaged with opponent's lower body, opponent standing or in combat base with weight on one leg, and a clear threading path behind their knee joint. Attempting without these prerequisites drastically reduces success rate."
+      },
+      {
+        "question": "What is the relationship between the 50-50 Entry and the broader leg lock system?",
+        "answer": "The 50-50 Entry serves as a gateway to the entire leg entanglement system. From 50-50, you can access heel hooks, transition to inside ashi for straight ankle locks, or move to backside 50-50 for additional heel hook angles. It's also reversible - you can transition back out to single leg X or other guard positions if needed."
+      }
+    ],
+    "safety_considerations": "The 50-50 Entry leads directly to positions where devastating leg locks are available. Practice with controlled speed and always respect tap signals immediately. When drilling, complete the entry without immediately attacking the heel to build proper habits. Avoid forcing the entry against flexible opponents who can counter-rotate and apply heel hooks faster than you. If you feel any torque on your own knee during a failed entry, disengage immediately rather than fighting through. Never attempt this technique against partners with existing knee injuries. In competition, be aware that explosive 50-50 entries can result in accidental heel hooks that injure both practitioners."
+  },
+  "defender": {
+    "name": "50-50 Entry Defender",
+    "description": "How to defend against 50-50 Entry in BJJ. Recognition cues, defensive options, and escape strategies.",
+    "overview": "Defending the 50-50 Entry requires understanding the mechanics of leg threading and inversion that your opponent uses to establish the entanglement. As the defender, you are typically standing or in combat base when the bottom player begins inverting and shooting their legs toward yours. Your defensive window is narrow - once the threading leg passes behind your knee and your opponent commits to the hip rotation, extraction becomes exponentially harder. Early recognition is paramount, as prevention is far more energy-efficient than escaping a completed 50-50.\n\nThe defender's primary strategic framework centers on denying the thread before it completes. This means controlling distance, managing your base width, and being prepared to backstep or clear your lead leg the moment you detect inversion. Your posture and weight distribution directly determine how vulnerable you are - a narrow stance with weight shifted forward onto one leg is an invitation. Maintaining a wide, athletic base with weight centered between both feet forces the attacker to work significantly harder for the entry.\n\nIf prevention fails and the entanglement begins forming, your defensive priorities shift immediately to leg extraction and passing. A half-completed 50-50 entry where you maintain leg clearing capability is actually a passing opportunity, as the attacker is inverted and vulnerable. Understanding this offensive-within-defensive framework transforms the 50-50 Entry defense from pure survival into a counter-attacking system.",
+    "key_principles": [
+      "Recognize inversion attempts within the first half-second and immediately address your lead leg positioning before the thread initiates",
+      "Maintain a wide athletic base with weight distributed evenly between both feet to deny the single-leg weight shift the attacker needs",
+      "Control distance aggressively - either crowd the inverting opponent with pressure or step completely out of threading range",
+      "Treat a partially completed thread as a passing opportunity rather than panicking, since the attacker is inverted and vulnerable during mid-entry",
+      "Never allow your knee to remain bent with your foot planted when opponent is inverting, as this creates the ideal threading target behind your knee"
+    ],
+    "recognition_cues": [
+      "Opponent begins rolling their shoulders toward the mat while elevating their hips, shifting weight from seated position to upper back",
+      "Opponent's outside leg shoots toward the space behind your lead knee, with their calf aiming to hook behind your knee joint",
+      "Opponent establishes grips on your pants, ankle, or foot that pull your lead leg forward while they simultaneously begin rotating their hips",
+      "Opponent's hips elevate above their shoulders from any guard position, indicating imminent inversion with legs free to thread"
+    ],
+    "defensive_options": [
+      {
+        "action": "Backstep and clear your lead leg by stepping it behind your rear leg, removing the threading target entirely",
+        "when_to_use": "As soon as you detect the opponent beginning to invert or shoot their outside leg toward your knee",
+        "targets_outcome": "Inverted Guard/Top",
+        "if_successful": "Opponent's thread misses entirely and they remain inverted without entanglement, leaving them vulnerable to your passing pressure",
+        "risk": "If you backstep too late, their leg may follow yours and complete a partial thread, or they redirect to outside ashi-garami on your trailing leg"
+      },
+      {
+        "action": "Drive forward with heavy stack pressure, pinning opponent's shoulders to the mat and collapsing their inversion before the thread completes",
+        "when_to_use": "When opponent has begun inverting but has not yet completed the leg thread behind your knee",
+        "targets_outcome": "Side Control/Bottom",
+        "if_successful": "Opponent's inversion collapses under your weight and you can pass directly to side control as they are flattened on their back",
+        "risk": "If opponent is already partially threaded, your forward pressure may accelerate their rotation and help complete the entry into 50-50"
+      },
+      {
+        "action": "Straighten your lead leg explosively and push your knee forward to prevent the calf from hooking behind it, then circle your foot out",
+        "when_to_use": "When you feel the opponent's calf beginning to contact the back of your knee but the hook is not yet secured",
+        "targets_outcome": "Inverted Guard/Top",
+        "if_successful": "Their threading leg slides off your straightened leg and they must re-attempt the entry from a less favorable angle",
+        "risk": "Straightening your leg shifts your weight forward onto one foot, which can create a sweep opportunity if opponent redirects to X-guard"
+      },
+      {
+        "action": "Strip opponent's grips on your pants or ankle and step completely out of range, resetting to neutral standing",
+        "when_to_use": "When opponent is still establishing grips before initiating the inversion, before any leg contact is made",
+        "targets_outcome": "Inverted Guard/Top",
+        "if_successful": "Complete distance reset denies the entry entirely and forces opponent to work from an inferior guard position without controlling grips",
+        "risk": "Giving up proximity may allow opponent to recover to a more sustainable guard like De La Riva or seated guard"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Inverted Guard/Top",
+        "how": "Deny the leg thread through early backstep, leg straightening, or grip stripping before the entanglement forms. Maintain your standing base while opponent remains inverted, then immediately apply passing pressure while they are in a compromised upside-down position."
+      },
+      {
+        "outcome": "Side Control/Bottom",
+        "how": "This represents the worst-case counter outcome where your opponent completes a pass after your failed defense. Minimize this risk by never committing fully forward during stack pressure unless you are certain the thread has not begun. If you do end up here, it means the attacker redirected from their 50-50 attempt into a guard pass."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Standing with a narrow stance and weight shifted onto the lead leg while opponent plays inverted guard",
+        "consequence": "Creates the ideal target for the 50-50 thread - a loaded, bent knee with your calf easily accessible from behind",
+        "correction": "Maintain a wide athletic base with weight distributed evenly. Keep both knees slightly bent but not deeply flexed, and be ready to backstep with either foot at any moment."
+      },
+      {
+        "error": "Freezing and looking down at the threading leg instead of immediately reacting with footwork",
+        "consequence": "The thread completes during the hesitation window and you are pulled into the 50-50 entanglement before you can respond",
+        "correction": "Train an automatic backstep response to any inversion attempt. The moment you see shoulders rolling toward the mat, your lead foot should already be moving backward."
+      },
+      {
+        "error": "Attempting to push the threading leg away with your hands instead of moving your own leg",
+        "consequence": "Your hands become occupied fighting their leg while your base remains compromised, and their hip rotation is stronger than your arm push",
+        "correction": "Move your leg first - footwork is always faster and more effective than hand fighting against leg threading. Use your hands for grip control on their pants or ankles, not to block their legs directly."
+      },
+      {
+        "error": "Driving forward aggressively after the thread has already passed behind your knee",
+        "consequence": "Your forward momentum accelerates their rotation and helps complete the 50-50 entry, essentially doing their work for them",
+        "correction": "If the thread is already behind your knee, switch to leg extraction by straightening your leg and circling your foot out rather than driving forward. Stack pressure only works before the thread completes."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the earliest recognition cue that a 50-50 Entry is being attempted against you?",
+        "answer": "The earliest cue is your opponent rolling their shoulders toward the mat while elevating their hips from any guard position. This inversion preparation happens before the leg thread and gives you the maximum defensive window. By the time their outside leg is shooting toward your knee, you are already in a reactive position with less time to respond."
+      },
+      {
+        "question": "Your opponent has hooked their calf behind your lead knee but has not yet completed the hip rotation - what is your best defensive option?",
+        "answer": "Immediately straighten your lead leg by driving your knee forward and extending your foot, then circle your foot outward to strip the hook. Their calf needs the bend of your knee to maintain the hook - a straightened leg removes the shelf their calf is sitting on. Simultaneously shift your weight to your rear leg and begin backstepping to create additional extraction distance."
+      },
+      {
+        "question": "Why is driving forward with stack pressure dangerous if the opponent has already begun threading their leg?",
+        "answer": "Forward pressure after the thread has started actually accelerates the opponent's rotation by loading weight onto their shoulders, which is exactly the base they use for the rolling motion. Your forward drive pulls your own knee deeper into the entanglement. Stack pressure is only effective as a preemptive defense before any leg contact occurs, when it collapses the inversion entirely."
+      },
+      {
+        "question": "How should your stance and weight distribution change when facing an opponent who plays inverted guard?",
+        "answer": "Widen your stance significantly beyond your normal combat base, distribute weight evenly between both feet, and keep your knees bent at a moderate angle rather than deeply flexed. Never shift more than 60% of your weight onto your lead leg. Stay on the balls of your feet ready to backstep, and keep your lead foot ready to retract at any moment rather than planted flat on the mat."
+      },
+      {
+        "question": "Your opponent's 50-50 Entry fails and they are stuck inverted without the entanglement - how do you capitalize?",
+        "answer": "This is a prime passing opportunity. Immediately apply pressure to their inverted body by driving your hips into their elevated legs, folding them over themselves with stack pressure. Control their pants at the knees to prevent them from re-establishing guard or re-attempting the entry. Work toward passing to side control while they are compromised in the inverted position with no leg entanglement protecting them."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Week 1-2",
+        "focus": "Recognition and backstep drilling",
+        "description": "Partner slowly demonstrates the 50-50 Entry from inverted guard at 25% speed while you practice recognizing the initiation cues and executing the backstep. Focus on identifying the shoulder roll, hip elevation, and leg shooting motion. Drill 30+ backstep responses per session until the reaction becomes automatic."
+      },
+      {
+        "phase": "Week 3-4",
+        "focus": "Leg extraction mechanics",
+        "description": "Partner establishes a partial thread (calf behind your knee but no hip rotation completed) while you practice straightening your leg, circling your foot out, and recovering your stance. Work both legs. Partner increases the depth of the thread progressively so you develop extraction from various stages of completion."
+      },
+      {
+        "phase": "Week 5-6",
+        "focus": "Counter-passing after failed entries",
+        "description": "Partner attempts full-speed 50-50 entries that you defend. When defense succeeds and opponent remains inverted without entanglement, immediately transition to passing. Practice stack passes and pressure passes against the inverted opponent. Partner provides 50-75% resistance during the passing phase."
+      },
+      {
+        "phase": "Week 7+",
+        "focus": "Live positional sparring defense",
+        "description": "Positional rounds starting with partner in inverted guard and you standing. Partner attempts 50-50 entries at full speed while you defend and counter-pass with full resistance. Track your prevention rate and identify which entry variants still catch you. Focus on the specific variants that penetrate your defense most often."
+      }
+    ]
+  },
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Kiss of the Dragon Entry",
+      "description": "A more aggressive berimbolo-style entry where you invert completely underneath your opponent and spin through to 50-50. This variant works well when opponent is standing tall and requires greater hip flexibility.",
+      "when_to_use": "Against standing opponents who maintain significant distance from your guard"
+    },
+    {
+      "variant_name": "K-Guard to 50-50",
+      "description": "Entry initiated from K-Guard position where your inside knee is already positioned across opponent's hip. The transition uses the existing leg configuration to speed up the 50-50 establishment.",
+      "when_to_use": "When you have already established K-Guard and opponent begins to retreat"
+    },
+    {
+      "variant_name": "Single Leg X to 50-50",
+      "description": "Entry from Single Leg X-Guard where you use your existing leg positioning to elevate and thread into 50-50. Less inversion required since legs are already engaged.",
+      "when_to_use": "When opponent defends your single leg X sweeps by posting and you need to transition to attacks"
+    }
+  ],
+  "conditions": [
+    "Opponent standing or in combat base with at least one leg forward within threading range",
+    "You have established an inverted or semi-inverted position with hips elevated",
+    "At least one of your legs has contact with opponent's lower body",
+    "Opponent's weight is shifted predominantly to one leg or they are in the process of stepping"
+  ],
+  "position_integration": "The 50-50 Entry functions as the primary gateway from inverted guard positions into the leg entanglement system. It connects grasshopper guard, K-Guard, and single leg X-Guard to the 50-50 position, which then branches into inside heel hook attacks, backside 50-50 transitions, and sweeping opportunities. The entry represents a critical skill for any practitioner building a leg lock game, as 50-50 is one of the most common competitive leg lock positions. Defensively, understanding the 50-50 Entry helps you recognize when opponents are attempting to establish the position, allowing earlier prevention. The technique integrates with upper body attacks as well - a threatening 50-50 Entry forces opponents to address their legs, potentially opening guillotines and front headlock transitions if they over-commit to leg clearing."
+}

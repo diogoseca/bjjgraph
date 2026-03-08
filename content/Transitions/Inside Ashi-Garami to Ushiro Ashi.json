@@ -1,0 +1,401 @@
+{
+  "name": "Inside Ashi-Garami to Ushiro Ashi",
+  "description": "Master Inside Ashi-Garami to Ushiro Ashi transition in BJJ. Follow opponent rotation to maintain leg control and access reversed heel hook finishing angles.",
+  "tags": [
+    "leg-entanglement",
+    "ashi-garami",
+    "transition",
+    "leg-locks",
+    "no-gi",
+    "advanced",
+    "positional-advancement"
+  ],
+  "from_position": "Inside Ashi-Garami/Top",
+  "outcomes": [
+    {
+      "to": "Ushiro Ashi-Garami/Top",
+      "probability": 55,
+      "result": "success"
+    },
+    {
+      "to": "Inside Ashi-Garami/Top",
+      "probability": 30,
+      "result": "failure"
+    },
+    {
+      "to": "Half Guard/Bottom",
+      "probability": 15,
+      "result": "counter"
+    }
+  ],
+  "success_rate": 55,
+  "overview": "The Inside Ashi-Garami to Ushiro Ashi transition is a critical positional advancement within modern leg lock systems that allows the attacker to maintain offensive control when the opponent attempts to escape standard inside ashi through hip rotation or inversion. Rather than losing the entanglement during the opponent's defensive movement, the skilled practitioner follows the rotation while adapting their leg configuration to establish the reversed ushiro ashi-garami position, preserving attacking opportunities from an entirely new angle.\n\nThis transition exemplifies the principle that defensive movement in leg entanglements should be converted into positional advancement rather than resisted through brute force. When the opponent rotates their hips away from inside ashi-garami, the attacker's inside leg and outside leg must reorganize around the opponent's now-inverted hip line. The key mechanical challenge is maintaining heel control and leg pressure throughout the rotation while simultaneously adjusting body angle to match the opponent's new orientation. Timing is essential: initiating the follow too early telegraphs the intention, while following too late allows the opponent to complete their escape entirely.\n\nMastery of this transition separates intermediate leg lock practitioners from advanced ones. Practitioners who cannot follow rotations lose attacking position every time an opponent inverts, creating a reliable escape route that undermines the entire ashi-garami system. Those who develop ushiro ashi maintenance can sustain offensive pressure through defensive scrambles, closing off the inversion escape and forcing defenders into increasingly limited options. The transition integrates naturally with the broader ashi-garami system, connecting inside ashi to back takes, saddle entries, and direct heel hook finishes from the reversed configuration.",
+  "conditions": [
+    "Opponent begins rotating or inverting hips away from standard inside ashi-garami control",
+    "Attacker maintains at least partial heel control or leg clamp during opponent's initial rotation",
+    "Inside leg still has connection to opponent's hip or thigh area sufficient to follow movement",
+    "Opponent has not yet completed full rotation to turtle or standing position"
+  ],
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Proactive Hip Drive Entry",
+      "description": "Rather than waiting for the opponent to initiate rotation, the attacker drives the opponent's hip away using the inside leg while simultaneously adjusting leg configuration to create the ushiro angle. This forces the transition on the attacker's timing rather than being reactive to the defender's escape.",
+      "when_to_use": "When the opponent is defending heel exposure effectively from standard inside ashi and you need to change the angle of attack to access new finishing opportunities."
+    },
+    {
+      "variant_name": "Mid-Rotation Heel Hook",
+      "description": "During the transition phase, the opponent's heel is momentarily exposed as they rotate and their defensive hand positioning shifts. The attacker capitalizes on this window by attacking the heel hook before fully establishing ushiro ashi, catching the opponent between positions where their defense is weakest.",
+      "when_to_use": "When the opponent initiates a slow or telegraphed rotation and their heel becomes momentarily accessible during the transitional phase between inside ashi and full inversion."
+    },
+    {
+      "variant_name": "Back Take Continuation",
+      "description": "Instead of consolidating ushiro ashi-garami, the attacker uses the ushiro position as a brief waypoint and continues following the opponent's rotation to establish back control. The leg entanglement is released in favor of seatbelt or harness grips as the opponent's back becomes exposed through continued rotation.",
+      "when_to_use": "When the opponent commits fully to the rotation and their continued turning momentum exposes their back more readily than it exposes their heel for submission."
+    }
+  ],
+  "position_integration": "Inside Ashi-Garami to Ushiro Ashi serves as a critical link in the leg entanglement chain, connecting the foundational inside ashi-garami position to the reversed ushiro configuration. This transition eliminates one of the most common and effective defensive responses to standard ashi-garami attacks: the inversion escape. Practitioners who master this follow-through close off the opponent's primary escape route and force defenders into increasingly limited options. The transition also opens pathways to back control and saddle entries that are not directly accessible from standard inside ashi-garami, expanding the attacker's offensive tree significantly. Within competition strategy, the ability to follow rotations transforms leg lock exchanges from isolated attempts into sustained offensive sequences where the attacker maintains initiative through multiple positional changes.",
+  "related_content": [
+    {
+      "name": "Inside Ashi-Garami",
+      "relationship": "Starting position for this transition providing the foundation for all follow-through mechanics"
+    },
+    {
+      "name": "Saddle",
+      "relationship": "Alternative advancement target accessible from ushiro ashi when inside leg control is deep"
+    },
+    {
+      "name": "Honey Hole",
+      "relationship": "Advanced entanglement that can be reached through ushiro as an intermediate position"
+    },
+    {
+      "name": "Outside Ashi-Garami",
+      "relationship": "Alternative ashi configuration that shares similar rotation-following principles"
+    },
+    {
+      "name": "Back Control",
+      "relationship": "Common transition target when opponent over-rotates through ushiro position"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Counter outcome position when opponent successfully escapes the entire leg entanglement"
+    },
+    {
+      "name": "Ashi Garami Maintenance",
+      "relationship": "Related maintenance concept governing control retention during positional changes"
+    },
+    {
+      "name": "Back Take from Ashi",
+      "relationship": "Related transition using similar rotation-following mechanics from ashi positions"
+    },
+    {
+      "name": "Inside Heel Hook",
+      "relationship": "Primary submission available from the ushiro ashi destination position"
+    },
+    {
+      "name": "Heel Hook from Saddle",
+      "relationship": "Related submission pathway accessible through ushiro to saddle advancement"
+    }
+  ],
+  "attacker": {
+    "name": "Inside Ashi-Garami to Ushiro Ashi Attacker",
+    "description": "Learn to execute Inside Ashi-Garami to Ushiro Ashi as the attacker. Step-by-step guide covering rotation follow mechanics, heel control retention, and reversed finishing angle establishment.",
+    "overview": "The attacker in the Inside Ashi-Garami to Ushiro Ashi transition must convert the opponent's defensive rotation into a positional advancement rather than allowing the escape to succeed. This requires the attacker to read the opponent's hip movement, maintain heel control throughout the rotation, and systematically adapt their leg configuration from the standard inside ashi frame to the reversed ushiro entanglement. The transition rewards sensitivity and timing over explosive movement, as the attacker must flow with the opponent's energy rather than fighting against it. Success depends on maintaining tight leg-to-leg connection and adjusting body angle in real-time as the opponent's hips change orientation.",
+    "key_principles": [
+      "Follow the rotation rather than fighting it: convert defensive energy into positional advancement by matching opponent's hip movement",
+      "Maintain heel control as the absolute priority throughout the entire transition phase regardless of body position changes",
+      "Adapt leg configuration progressively: inside leg transitions from hip frame to underneath position while outside leg crosses over knee line",
+      "Keep hips connected to opponent's trapped leg throughout rotation to prevent space creation that enables complete escape",
+      "Recognize the optimal moment to consolidate ushiro versus continuing to back control based on opponent's rotation depth",
+      "Use the transition itself as an attack window: the opponent's attention is split between escaping and defending submissions during rotation"
+    ],
+    "setup_requirements": [
+      "Established inside ashi-garami with inside leg across opponent's near hip and outside leg hooking behind their knee",
+      "At least one controlling grip on opponent's heel, ankle, or lower leg with sufficient purchase to follow movement",
+      "Awareness that opponent is initiating or about to initiate hip rotation or inversion away from standard ashi position",
+      "Sufficient hip mobility and body awareness to rotate your own torso in coordination with opponent's movement",
+      "Mental readiness to transition rather than stubbornly maintain the original position against increasing resistance"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Read the rotation trigger",
+        "description": "Feel the opponent's hips beginning to rotate away from your inside ashi-garami control. Key indicators include their far hip lifting, their torso turning away, or their free leg posting to initiate the inversion. Do not resist this initial movement."
+      },
+      {
+        "step_number": 2,
+        "action": "Lock heel control",
+        "description": "Before following the rotation, ensure your heel grip is secure. Tighten your C-grip or transition to figure-four configuration around the heel. This grip must survive the entire rotation without slipping, so commit both hands to heel security before moving your body."
+      },
+      {
+        "step_number": 3,
+        "action": "Release inside leg frame",
+        "description": "As the opponent's hip rotates away, your inside leg across their hip will naturally lose its blocking effectiveness. Rather than fighting to maintain this frame, allow the inside leg to begin sliding underneath the opponent's trapped leg, following the path created by their rotation."
+      },
+      {
+        "step_number": 4,
+        "action": "Follow with your torso",
+        "description": "Rotate your upper body in the same direction as the opponent's hips, keeping your chest oriented toward their trapped leg throughout. Your shoulders should turn to face the new angle that their rotation is creating. Avoid lifting your hips off the mat during this rotation."
+      },
+      {
+        "step_number": 5,
+        "action": "Reposition outside leg over knee line",
+        "description": "As you follow the rotation, your outside leg must cross over the opponent's knee line from the reversed angle. This is the critical mechanical adjustment that creates the ushiro configuration. Drive your outside leg across their thigh with active downward pressure to establish the reversed figure-four."
+      },
+      {
+        "step_number": 6,
+        "action": "Seat inside leg underneath",
+        "description": "Complete the inside leg repositioning by threading it underneath the opponent's trapped leg. The inside leg should now be on the opposite side compared to standard inside ashi, creating the reversed entanglement geometry. Squeeze both legs together to close any gaps."
+      },
+      {
+        "step_number": 7,
+        "action": "Close distance and consolidate",
+        "description": "Scoot your hips toward the opponent to eliminate any space created during the rotation. Your chest should reconnect with their trapped leg, and your legs should clamp tightly around their limb in the ushiro configuration. Confirm that both your outside leg over and inside leg under are properly positioned."
+      },
+      {
+        "step_number": 8,
+        "action": "Establish attack angle",
+        "description": "Adjust your upper body angle and grip configuration for the reversed finishing position. The heel hook angle from ushiro differs from standard ashi, requiring your hands to be positioned closer to your own hip line. Assess whether to finish immediately, transition to saddle, or follow to back control based on opponent's continued movement."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Opponent accelerates rotation to complete full escape to turtle before ushiro is established",
+        "effectiveness": "High",
+        "your_response": "Increase your follow speed and prioritize maintaining any leg connection. If they reach turtle, immediately transition to back control rather than attempting to re-establish leg entanglement from behind.",
+        "targets_outcome": "Half Guard/Bottom"
+      },
+      {
+        "counter": "Opponent reverses rotation direction mid-turn, returning to face you and re-establishing defensive frames",
+        "effectiveness": "Medium",
+        "your_response": "Allow the reversal and return to standard inside ashi-garami control with your original leg configuration. The reversal actually resets you to your starting position where you can reattempt or change attacks.",
+        "targets_outcome": "Inside Ashi-Garami/Top"
+      },
+      {
+        "counter": "Opponent uses free leg to post firmly on mat and stands up during the transitional phase",
+        "effectiveness": "High",
+        "your_response": "Transition your inside leg to hook behind their standing leg, converting toward Single Leg X-Guard or pulling them back down. If they achieve full standing base, consider releasing to guard recovery rather than holding a compromised entanglement.",
+        "targets_outcome": "Half Guard/Bottom"
+      },
+      {
+        "counter": "Opponent strips heel grip during the rotation by using both hands to peel your fingers while hips are mid-turn",
+        "effectiveness": "Medium",
+        "your_response": "Immediately re-grip using the opposite hand configuration or switch to controlling the ankle rather than the heel. If grip is lost entirely, abandon the heel attack and use leg control to pursue back take or positional scramble.",
+        "targets_outcome": "Inside Ashi-Garami/Top"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Releasing heel control during the rotation to reposition hands or body",
+        "consequence": "Opponent completes escape during the moment of no grip, converting a controllable transition into a full escape to neutral or advantageous position",
+        "correction": "Lock heel grip BEFORE initiating the body follow. Treat heel control as non-negotiable throughout the transition. If grip is slipping, tighten it before adjusting body position."
+      },
+      {
+        "error": "Fighting the rotation with brute force instead of following the opponent's movement",
+        "consequence": "Exhausts energy in a losing battle against hip rotation momentum, often resulting in both loss of position and significant fatigue that compromises subsequent attacks",
+        "correction": "Embrace the rotation as an opportunity rather than a threat. The moment you feel the opponent inverting, mentally shift from maintaining inside ashi to establishing ushiro ashi. Flow with their energy."
+      },
+      {
+        "error": "Failing to adjust body angle after the rotation, maintaining the original torso orientation",
+        "consequence": "Creates mechanical disadvantage for heel hook finishing because your body is angled incorrectly for the reversed configuration, reducing submission effectiveness significantly",
+        "correction": "Your torso must rotate to face the opponent's trapped leg from the new angle. After completing the follow, verify that your chest is oriented toward their leg and your hips are aligned for ushiro attacks."
+      },
+      {
+        "error": "Positioning outside leg too shallow across opponent's thigh instead of deep over the knee line",
+        "consequence": "Opponent easily clears the shallow leg and completes escape, as the figure-four lacks sufficient depth to maintain the reversed entanglement under resistance",
+        "correction": "Drive outside leg deep across opponent's thigh so it crosses well past the knee line. The deeper the outside leg position, the more secure the ushiro configuration. Actively push it down with hip pressure."
+      },
+      {
+        "error": "Attempting heel hook immediately during the transition before consolidating ushiro position",
+        "consequence": "Premature attack from unstable position results in both failed submission and lost entanglement as the opponent uses the incomplete control to complete their escape",
+        "correction": "Follow a two-phase approach: first establish secure ushiro ashi-garami with proper leg configuration and tight connection, then attack. The brief delay to consolidate dramatically increases finishing percentage."
+      },
+      {
+        "error": "Allowing excessive space between your hips and the opponent's trapped leg during the rotation",
+        "consequence": "Space gives opponent room to extract their leg, straighten their knee, or create frames that prevent you from re-closing the distance after the rotation completes",
+        "correction": "Maintain hip-to-leg connection throughout by scooting your hips toward the opponent as you follow. Your body should travel with their rotation, not chase it from a distance."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Solo Mechanics",
+        "focus": "Leg repositioning and body rotation",
+        "description": "Practice the leg configuration change from inside ashi to ushiro with a grappling dummy or training partner providing zero resistance. Focus on the precise sequence: inside leg sliding underneath, outside leg crossing over, torso rotation to match new angle. Perform 30 repetitions per side, developing smooth muscle memory for the transition mechanics."
+      },
+      {
+        "phase": "Phase 2: Cooperative Drilling",
+        "focus": "Timing the follow with partner rotation",
+        "description": "Partner initiates slow, controlled rotation from inside ashi-garami while you practice following with proper technique. Partner provides no defensive resistance but rotates at realistic speed. Focus on maintaining heel control throughout and arriving in consolidated ushiro position. Gradually increase rotation speed across sessions."
+      },
+      {
+        "phase": "Phase 3: Progressive Resistance",
+        "focus": "Maintaining control against escape attempts",
+        "description": "Partner provides 50-75% resistance during rotation, actively attempting to complete escape to turtle or standing. Practice the decision point between consolidating ushiro, attacking during transition, and following to back control. Develop sensitivity for when the opponent's rotation favors each option. 5-minute rounds alternating roles."
+      },
+      {
+        "phase": "Phase 4: Live Positional Sparring",
+        "focus": "Integration into leg lock exchanges",
+        "description": "Begin in inside ashi-garami with partner at full resistance. Attack standard inside ashi techniques, and when opponent initiates rotation escape, apply the ushiro transition in live conditions. Track success rate across rounds and identify patterns in your failures. Integrate with full leg lock system including back takes and saddle transitions from ushiro."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "Your opponent begins rotating their hips away while you have inside ashi-garami - what is your immediate first priority before following?",
+        "answer": "Your immediate first priority is securing your heel grip. Before moving your body to follow the rotation, confirm that your C-grip or figure-four on the heel is locked tight enough to survive the rotation. Without secure heel control, following the rotation only results in a loose entanglement that the opponent can easily escape. Lock the grip, then follow."
+      },
+      {
+        "question": "What is the critical difference in leg configuration between inside ashi-garami and the ushiro ashi position you are transitioning to?",
+        "answer": "In inside ashi-garami, your inside leg crosses the opponent's near hip as a frame while your outside leg hooks behind their knee. In ushiro ashi, the configuration reverses: your outside leg crosses over the opponent's knee line from the top while your inside leg slides underneath their trapped leg. This reversal occurs because the opponent's hip inversion changes which side of their leg each of your legs needs to control."
+      },
+      {
+        "question": "Your opponent's rotation is very fast and they are about to reach turtle - should you continue pursuing ushiro ashi or change strategy?",
+        "answer": "Change strategy to back control pursuit. When the opponent's rotation momentum carries them past the ushiro ashi window and toward full turtle, the highest-percentage option is following to back control rather than trying to re-establish leg entanglement from behind. Release the heel and transition to seatbelt or harness grips as their back becomes exposed. Chasing ushiro against fast rotation typically results in a scramble where neither player has control."
+      },
+      {
+        "question": "What grip adjustment must you make for heel hooks from ushiro ashi compared to standard inside ashi-garami?",
+        "answer": "In ushiro ashi, the opponent's inverted hip position changes the optimal heel hook grip angle. Your hands need to be positioned closer to your own hip line rather than reaching across their body as in standard inside ashi. The finishing mechanics require a more compact position with your body curled toward their heel rather than extending away. The rotational direction of the heel hook may also change depending on whether you are attacking the inside or outside heel from the reversed angle."
+      },
+      {
+        "question": "During the transition, at what moment is the opponent's heel most vulnerable for a mid-rotation attack?",
+        "answer": "The opponent's heel is most vulnerable during the brief window when they shift their defensive hand position to accommodate the rotation. As they turn, their hands must move from defending heel exposure in standard ashi to establishing new frames for the inversion. This grip transition creates a one-to-two second window where the heel is exposed with diminished hand defense. Attacking during this window requires pre-loaded grip position and immediate commitment to the finish."
+      },
+      {
+        "question": "How do you prevent your outside leg from being cleared as you attempt to cross it over the opponent's knee line during the transition?",
+        "answer": "Drive the outside leg deep across the opponent's thigh using active hip pressure rather than simply placing it on top. Angle your hip downward into their leg to create weight-based pressure that is difficult to clear with hand fighting alone. If the opponent reaches for your outside leg to clear it, this momentarily releases their heel defense, creating an immediate attack window. Maintain constant downward pressure through the outside leg throughout the consolidation phase."
+      },
+      {
+        "question": "Your opponent stops their rotation halfway and begins fighting your grips from the partially inverted position - how do you proceed?",
+        "answer": "A stalled rotation creates an advantageous scenario for you. The opponent is in a compromised half-rotated position where they cannot use standard inside ashi escapes or complete the inversion. Continue applying forward pressure with your legs to either force them to complete the rotation into ushiro or collapse back to inside ashi where you have dominant control. Use this stall as an opportunity to consolidate whichever position their partial rotation has made available."
+      },
+      {
+        "question": "What are the signs that you should redirect from ushiro ashi to a saddle entry instead of consolidating the reversed entanglement?",
+        "answer": "Redirect to saddle when your inside leg has deep control on the opponent's thigh but your outside leg has been partially cleared, when the opponent successfully prevents heel exposure from ushiro through persistent hand fighting, or when their continued rotation makes the ushiro angle progressively worse for finishing. The inside leg depth is the key indicator: if it is controlling above the knee with strong pressure, saddle entry becomes mechanically available and often higher-percentage than forcing the ushiro finish."
+      }
+    ],
+    "safety_considerations": "Ushiro Ashi-Garami involves heel hook positions that carry significant knee ligament injury risk, particularly to the MCL and ACL. Always apply rotational pressure slowly and progressively during training. The transitional phase between inside ashi and ushiro can create sudden angle changes on the knee joint that the trapped person may not anticipate. Communicate clearly with training partners throughout the transition. Never crank through resistance. If the opponent taps during any phase of the rotation, release immediately and check for injury. Train this transition under qualified instruction with experienced partners who understand leg lock mechanics and proper tap timing."
+  },
+  "defender": {
+    "name": "Inside Ashi-Garami to Ushiro Ashi Defender",
+    "description": "Learn to defend the Inside Ashi-Garami to Ushiro Ashi transition. Recognize the follow attempt, prevent ushiro establishment, and escape to safe positions.",
+    "overview": "The defender in the Inside Ashi-Garami to Ushiro Ashi transition faces a critical decision point during their escape from standard inside ashi-garami. The rotation or inversion that initiates this transition is typically a deliberate defensive choice by the trapped person, but when the attacker follows the rotation successfully, the defender ends up in the reversed ushiro entanglement rather than completing their escape. Understanding how to prevent the attacker from establishing ushiro ashi, or how to continue escaping through the reversed position, is essential for any practitioner who uses inversion as a leg lock escape method. The defender must balance the speed of their rotation with awareness of the attacker's follow-through, maintaining heel protection throughout while working systematically to clear the entanglement.",
+    "key_principles": [
+      "Commit fully to the rotation: halfway inversions are the worst outcome, creating maximum vulnerability with minimum escape progress",
+      "Protect the heel throughout by maintaining dorsiflexion and controlling the attacker's inside knee with your hands",
+      "Speed of rotation must outpace the attacker's follow-through to create separation before ushiro is consolidated",
+      "Use both hands to control the attacker's leg positions rather than reaching for the mat during rotation",
+      "Recognize when to accept turtle position rather than fighting a losing battle against established ushiro entanglement",
+      "Monitor the attacker's outside leg: if it crosses over your knee line, you are in ushiro and must shift to ushiro-specific escapes"
+    ],
+    "recognition_cues": [
+      "Attacker's body begins following your hip rotation rather than resisting it, indicating they intend to maintain entanglement",
+      "Attacker's inside leg releases from your hip frame and begins sliding underneath your trapped leg to reposition",
+      "Attacker tightens heel grip significantly just before or during the initial phase of your rotation",
+      "Attacker's torso angle shifts to match your rotation direction instead of remaining oriented to the original inside ashi position"
+    ],
+    "defensive_options": [
+      {
+        "action": "Accelerate rotation speed to complete escape before ushiro is established",
+        "when_to_use": "Early in the rotation before the attacker has repositioned their outside leg over your knee line. Most effective when you have significant rotational momentum and the attacker is slow to follow.",
+        "targets_outcome": "Half Guard/Bottom",
+        "if_successful": "You complete the rotation to turtle or standing, clearing the leg entanglement entirely and forcing the attacker to pursue from behind",
+        "risk": "If acceleration fails and you run out of momentum, you are in deep ushiro with the attacker fully consolidated behind your movement"
+      },
+      {
+        "action": "Reverse rotation direction suddenly to collapse back to standard inside ashi position",
+        "when_to_use": "When you recognize the attacker is committed to following your rotation. The sudden direction change catches them mid-transition with their legs in an awkward intermediate configuration.",
+        "targets_outcome": "Inside Ashi-Garami/Top",
+        "if_successful": "You return to standard inside ashi-garami where you can attempt different escape methods that do not involve rotation",
+        "risk": "The direction change can momentarily expose your heel if not accompanied by strong hand defense on the attacker's grip"
+      },
+      {
+        "action": "Post free leg firmly and drive to standing during transitional phase",
+        "when_to_use": "When the attacker's leg configuration is in transition between inside ashi and ushiro, creating a brief window where entanglement control is weakest. Most effective for athletic defenders with strong posting ability.",
+        "targets_outcome": "Half Guard/Bottom",
+        "if_successful": "You stand up and disengage from the leg entanglement entirely, resetting to standing or achieving dominant top position",
+        "risk": "If the attacker maintains heel control while you stand, your body weight drives the heel hook deeper, potentially creating a more dangerous submission angle"
+      },
+      {
+        "action": "Strip the attacker's heel grip using both hands during the rotation",
+        "when_to_use": "When the attacker's grip is not fully consolidated and you can access their controlling hands during the transitional movement. Focus on peeling fingers from the heel one hand at a time.",
+        "targets_outcome": "Inside Ashi-Garami/Top",
+        "if_successful": "Without heel control, the attacker cannot threaten submissions from either inside ashi or ushiro, reducing the entanglement to a positional control problem",
+        "risk": "Using both hands for grip fighting removes your ability to post or frame, potentially allowing the attacker to flatten you during the transition"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Half Guard/Bottom",
+        "how": "Complete the rotation to turtle or standing before the attacker establishes ushiro ashi. Commit fully to the inversion with maximum speed, maintaining heel protection through dorsiflexion. Use the free leg to post and drive away from the attacker's control. Once legs are cleared, immediately establish guard or scramble to top position."
+      },
+      {
+        "outcome": "Inside Ashi-Garami/Top",
+        "how": "Reverse rotation direction when you recognize the attacker is following, collapsing back to standard inside ashi-garami. Simultaneously strip the attacker's heel grip during the direction change. This returns you to the original position where you can attempt alternative escape methods such as leg extraction, standing, or counter-entanglement."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Stopping the inversion halfway when feeling the attacker follow, creating the worst possible position",
+        "consequence": "A half-completed rotation leaves you inverted and fully entangled in ushiro with maximum heel exposure. The attacker consolidates control while you are in the most compromised defensive orientation.",
+        "correction": "Once you initiate rotation, either commit fully to complete the escape or immediately reverse direction. Never pause in the middle of an inversion—a half-turn is worse than no turn at all."
+      },
+      {
+        "error": "Relaxing foot position during rotation, allowing toes to point and heel to become exposed",
+        "consequence": "The attacker secures finishing heel hook grip during the transition, converting your escape attempt into a submission. Heel exposure during rotation is extremely dangerous because the changing angles can load the knee joint unexpectedly.",
+        "correction": "Maintain strong dorsiflexion throughout the entire rotation. Pull toes toward your shin and keep the foot flexed as an absolute priority. This is non-negotiable regardless of what else is happening during the escape."
+      },
+      {
+        "error": "Using hands to push off the mat for rotation instead of controlling the attacker's legs",
+        "consequence": "The attacker freely repositions their legs into ushiro configuration while your hands are occupied on the mat. By the time you address the leg entanglement, ushiro is fully established.",
+        "correction": "Use your hands to control the attacker's inside knee and grip throughout the rotation. Your rotational power should come from hip and core movement, not arm pushing. Hand control on the attacker's legs is your primary defensive tool."
+      },
+      {
+        "error": "Attempting to stand immediately without first clearing the leg entanglement",
+        "consequence": "Standing while entangled loads your body weight onto the trapped leg, deepening the attacker's control and potentially creating more dangerous submission angles. The attacker can use your standing momentum to sweep you.",
+        "correction": "Clear the leg entanglement first through systematic extraction, or accept turtle position as a safe intermediate. Only stand when your trapped leg has been freed from the figure-four configuration."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "You are rotating to escape inside ashi and feel the attacker following your movement - what is your most important immediate physical action?",
+        "answer": "Maintain strong dorsiflexion on the trapped foot while using your hands to control the attacker's inside knee. These two actions protect against the heel hook finish and prevent the attacker from deepening the entanglement to saddle. The foot position protects the heel from finishing grips, while the hand on their knee prevents their inside leg from transitioning to the underneath position that completes the ushiro configuration."
+      },
+      {
+        "question": "What distinguishes a successful escape from a failed escape when the attacker attempts to follow your rotation to ushiro?",
+        "answer": "Success is determined by whether your rotation speed outpaces the attacker's leg repositioning. If you complete the rotation to turtle or standing before their outside leg crosses over your knee line and their inside leg threads underneath, you have escaped. If their legs establish the reversed figure-four before you clear the entanglement, you are in ushiro ashi and must shift to ushiro-specific defensive strategies rather than continuing the same escape pattern."
+      },
+      {
+        "question": "When should you abandon the rotation escape and reverse direction instead of trying to outpace the attacker's follow?",
+        "answer": "Reverse direction when you recognize the attacker has already repositioned their outside leg over your knee line, indicating ushiro is being established faster than your escape is progressing. Also reverse when the attacker's heel grip tightens significantly during your rotation, suggesting they are preparing a mid-transition heel hook attack. The reversal catches them in an intermediate leg position that is weaker than either established inside ashi or consolidated ushiro."
+      },
+      {
+        "question": "How do you prevent the attacker from transitioning to saddle if they successfully establish ushiro ashi despite your defense?",
+        "answer": "Control their inside knee with both hands to prevent it from sliding deeper along your thigh. The saddle transition requires the attacker's inside leg to achieve deep thigh control past your knee line. By blocking this with active hand fighting on their knee, you limit them to ushiro attacks only and prevent advancement to the higher-control saddle position. Simultaneously continue working to clear their outside leg to create escape opportunities from ushiro."
+      },
+      {
+        "question": "Your training partner has completed the follow to ushiro and their outside leg is firmly crossed over your knee - what escape hierarchy should you follow?",
+        "answer": "First, protect your heel through dorsiflexion and grip fighting to prevent immediate submission. Second, attempt to clear their outside leg by pulling your trapped leg away while pushing their hip with your free leg. Third, if clearing fails, continue rotating toward turtle to deny heel hook finishing angles. Fourth, if turtle is achieved, immediately begin turtle escapes before they transition to back control. Accept each level of retreat as necessary rather than forcing extraction from deep ushiro entanglement."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Recognition Drilling",
+        "focus": "Identifying when the attacker initiates the follow",
+        "description": "Partner alternates between resisting your rotation (allowing normal escape) and following your rotation (attempting ushiro). Practice recognizing the difference through feel and visual cues. Develop the sensitivity to detect within the first quarter-turn whether the attacker is following. 20 repetitions per session at slow speed."
+      },
+      {
+        "phase": "Phase 2: Speed and Commitment Training",
+        "focus": "Completing rotation before ushiro is established",
+        "description": "Partner follows every rotation attempt at moderate speed. Practice committing fully to the escape with maximum controlled speed, maintaining heel protection throughout. Focus on reaching turtle position before the attacker's outside leg crosses your knee line. Track success rate across sets to measure improvement."
+      },
+      {
+        "phase": "Phase 3: Direction Reversal Practice",
+        "focus": "Counter-strategy when escape speed is insufficient",
+        "description": "Partner follows at full speed, making escape through rotation difficult. Practice recognizing the moment to reverse direction, collapsing back to inside ashi while stripping the attacker's heel grip during the direction change. Alternate between completing the rotation and reversing to develop decision-making under pressure."
+      },
+      {
+        "phase": "Phase 4: Live Positional Sparring",
+        "focus": "Full resistance defense integration",
+        "description": "Begin in inside ashi-garami with partner at full resistance attacking and following. Practice the complete defensive decision tree including rotation escape, direction reversal, standing, and grip stripping. Track which defensive options are most successful against each partner. Integrate into full leg lock sparring rounds."
+      }
+    ]
+  }
+}

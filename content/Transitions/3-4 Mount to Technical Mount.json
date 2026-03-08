@@ -1,0 +1,397 @@
+{
+  "name": "3-4 Mount to Technical Mount",
+  "description": "Master the 3-4 Mount to Technical Mount transition in BJJ. Complete execution guide with leg posting mechanics, back exposure reads, and drill progressions.",
+  "tags": [
+    "bjj",
+    "transition",
+    "mount",
+    "technical-mount",
+    "3-4-mount",
+    "positional-advancement",
+    "mount-offense"
+  ],
+  "from_position": "3-4 Mount/Top",
+  "outcomes": [
+    {
+      "to": "Technical Mount/Top",
+      "probability": 55,
+      "result": "success"
+    },
+    {
+      "to": "3-4 Mount/Top",
+      "probability": 30,
+      "result": "failure"
+    },
+    {
+      "to": "Half Guard/Top",
+      "probability": 15,
+      "result": "counter"
+    }
+  ],
+  "success_rate": 55,
+  "overview": "The 3-4 Mount to Technical Mount transition capitalizes on the bottom player's natural defensive reactions to advance from asymmetric mount control into a position optimized for armbar attacks and back takes. This represents one of the most organic progressions within the mount hierarchy, as the bottom player's attempts to turn away or create space on the lighter side of 3-4 Mount naturally expose the angles needed for Technical Mount entry. The asymmetric weight distribution of 3-4 Mount creates predictable defensive patterns that a prepared top player exploits through precise timing and arm isolation.\n\nThe mechanical sequence involves reading the opponent's shoulder rotation or arm extension, securing wrist-and-elbow control on the near-side arm, then sliding the posted knee up toward the head while reconfiguring the inside leg into a tucked hook underneath the opponent's body. Timing is critical—initiating too early before arm control is established risks losing mount entirely, while waiting too long allows the bottom player to settle into defensive frames that block the knee advancement. The transition window typically lasts two to three seconds once the bottom player commits to turning.\n\nStrategically, this transition converts a positional control advantage into an immediate submission threat platform. Practitioners who master this read-and-react pattern maintain continuous offensive pressure from mount, preventing the bottom player from settling into predictable escape sequences. The transition feeds directly into armbar finishes, triangle setups, and back takes from Technical Mount, creating cascading offensive dilemmas that overwhelm even technically proficient defenders. Competition footage consistently shows that mount players who chain 3-4 Mount into Technical Mount achieve significantly higher finishing rates than those who remain in static mount configurations.",
+  "conditions": [
+    "Top player has established stable 3-4 Mount with mounted knee tight against opponent's ribs or armpit",
+    "Bottom player shows signs of turning away, extending an arm defensively, or attempting to create space on the posted-leg side",
+    "At least one of opponent's arms is accessible for wrist-and-elbow isolation before committing to leg repositioning",
+    "Top player's base is stable enough to allow leg reconfiguration without losing top position during the weight shift"
+  ],
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Arm-Drag Entry",
+      "description": "When the bottom player posts their far arm against your chest or hip to create space, drag that arm across their body using a two-on-one grip. This arm drag simultaneously isolates the limb and creates the rotation angle needed for Technical Mount entry without requiring the opponent to turn away first.",
+      "when_to_use": "When the bottom player actively frames with extended arms rather than keeping elbows tight, providing an arm to drag and isolate."
+    },
+    {
+      "variant_name": "Turn-Chase Entry",
+      "description": "Instead of waiting for the opponent to turn, actively drive crossface pressure to force them to turn away, then follow their rotation by immediately sliding the posted knee up as they expose their back. This proactive variant creates the opening rather than waiting for it.",
+      "when_to_use": "Against defensive opponents who keep elbows tight and refuse to extend arms, requiring you to force the turning reaction through sustained shoulder pressure."
+    },
+    {
+      "variant_name": "No-Gi Wrist Control Variation",
+      "description": "In no-gi situations where sleeve grips are unavailable, secure a deep C-grip on the opponent's wrist with the thumb-side hand while using the other hand to cup the elbow or tricep. The sweat factor requires tighter initial control and faster transition execution compared to gi-based entries.",
+      "when_to_use": "During no-gi training or competition where traditional sleeve and collar grips are unavailable and wrist control requires modified grip configurations."
+    }
+  ],
+  "position_integration": "The 3-4 Mount to Technical Mount transition sits at the heart of the mount offense hierarchy, connecting asymmetric mount control to the submission-finishing platform of Technical Mount. This transition activates whenever the bottom player's defensive reactions—particularly turning away or extending arms—create openings for advancement. It chains seamlessly with armbar attacks, back takes, and triangle setups from Technical Mount, while also feeding back into consolidated mount or S-Mount entries if Technical Mount proves unstable. Understanding this transition transforms 3-4 Mount from a static holding position into a dynamic launching point for finishing sequences, and it represents the critical link between positional dominance and submission completion in the mount game.",
+  "related_content": [
+    {
+      "name": "3-4 Mount",
+      "relationship": "Starting position for this transition providing the asymmetric mount base"
+    },
+    {
+      "name": "Technical Mount",
+      "relationship": "Target position establishing the stepped-leg configuration for submission attacks"
+    },
+    {
+      "name": "3-4 Mount to S Mount",
+      "relationship": "Sister transition from the same starting position offering alternative mount advancement"
+    },
+    {
+      "name": "Mount to Armbar",
+      "relationship": "Primary follow-up technique from Technical Mount once arm isolation is complete"
+    },
+    {
+      "name": "Back Take",
+      "relationship": "Key follow-up transition when opponent turns away to defend armbar from Technical Mount"
+    },
+    {
+      "name": "Armbar from Technical Mount",
+      "relationship": "Primary submission available after successful transition to Technical Mount"
+    },
+    {
+      "name": "Americana from Technical Mount",
+      "relationship": "Alternative submission when opponent defends armbar by keeping elbow tight"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Counter position reached by defender if transition attempt fails and mount is lost"
+    },
+    {
+      "name": "S Mount",
+      "relationship": "Alternative asymmetric mount progression sharing similar offensive principles"
+    },
+    {
+      "name": "Back Turn from Technical Mount",
+      "relationship": "Defender's escape transition from the resulting Technical Mount position"
+    }
+  ],
+  "attacker": {
+    "name": "3-4 Mount to Technical Mount Attacker",
+    "description": "Master attacking mechanics for the 3-4 Mount to Technical Mount transition. Complete guide covering arm isolation, leg repositioning, timing reads, and submission chain setups from this critical mount advancement.",
+    "overview": "From the attacker's perspective, the 3-4 Mount to Technical Mount transition is a read-and-react positional advancement that converts asymmetric mount control into an immediate finishing platform. The transition requires patience to identify the correct timing window—typically when the bottom player turns their shoulders or extends an arm—followed by decisive commitment to arm isolation and leg repositioning. The entire sequence should execute within two to three seconds once initiated, as hesitation allows the bottom player to reset defensive frames and block the advancement. Success depends on maintaining constant pressure throughout the transition so the bottom player never feels the weight relief that signals a positional change is occurring.",
+    "key_principles": [
+      "Arm isolation always precedes leg movement—never reposition your legs until you have firm two-on-one control of the opponent's arm with wrist and elbow secured",
+      "Maintain forward pressure throughout the transition to mask the weight shift and prevent the bottom player from timing defensive reactions to your movement",
+      "Read the bottom player's shoulder rotation as the primary trigger for initiating the transition, rather than forcing it on your own timeline",
+      "Execute the leg repositioning as a single fluid motion rather than two separate movements, sliding the posted knee up while simultaneously tucking the inside hook",
+      "Keep hips tight to the opponent's shoulder throughout and after the transition to establish the proximity needed for armbar mechanics",
+      "Commit fully once initiated—half-committed transitions create scramble opportunities that benefit the bottom player more than the top player"
+    ],
+    "setup_requirements": [
+      "Stable 3-4 Mount established with mounted-side knee tight to opponent's ribs and posted leg providing dynamic base outside the body",
+      "Forward chest pressure maintaining opponent flat or partially turned, limiting their ability to create explosive escape movements",
+      "At least one arm accessible for isolation—either extended defensively, framing against your body, or exposed due to turning motion",
+      "Weight distributed through hips and chest rather than sitting upright on knees, ensuring pressure continuity during the transition",
+      "Clear identification of which direction the opponent is turning or extending, determining which side to establish Technical Mount"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Read defensive reaction",
+        "description": "Monitor the opponent's shoulder line and hip movement for signs of turning away or arm extension. The optimal window opens when they commit to rotating their torso or push against your body with a straightened arm, creating the alignment needed for Technical Mount entry on that side."
+      },
+      {
+        "step_number": 2,
+        "action": "Secure two-on-one arm control",
+        "description": "Before any leg repositioning, establish firm grip on the near-side arm—one hand gripping the wrist to prevent rotation and the other controlling above the elbow to prevent retraction. Both grips must be locked before committing to the transition, as losing arm control mid-movement leaves you in an unstable position."
+      },
+      {
+        "step_number": 3,
+        "action": "Shift weight forward toward controlled arm",
+        "description": "Transfer body weight forward and toward the arm-controlled side, loading pressure onto the opponent's upper chest and shoulder. This pins their upper body flat, prevents defensive hip escape during your transition, and creates the space behind you needed for leg repositioning."
+      },
+      {
+        "step_number": 4,
+        "action": "Slide posted knee toward opponent's head",
+        "description": "Drive the posted-side knee along the mat toward the opponent's head, bringing the shin perpendicular to their upper body. The foot plants flat on the mat outside their head, establishing the stabilizing tripod base that defines Technical Mount. Move the knee in a smooth arc rather than lifting it, maintaining mat contact throughout."
+      },
+      {
+        "step_number": 5,
+        "action": "Reconfigure inside leg to hook position",
+        "description": "Simultaneously tuck the formerly mounted-side leg underneath the opponent's body, transitioning from the knee-on-ribs 3-4 Mount configuration to a hook underneath their hip or lower back. This inside hook maintains body connection and prevents the opponent from sliding out the back door during the transition."
+      },
+      {
+        "step_number": 6,
+        "action": "Settle hips tight against shoulder",
+        "description": "Drop your hips directly against the opponent's shoulder on the arm-controlled side, closing the distance that submission defense requires. Your hip-to-shoulder proximity determines armbar effectiveness—any gap allows the opponent to rotate their elbow down and begin arm retraction before you can finish."
+      },
+      {
+        "step_number": 7,
+        "action": "Verify base and consolidate position",
+        "description": "Confirm the posted leg provides stable base against rolling attempts, the inside hook maintains connection underneath the opponent, and arm control prevents any retraction. Position your head on the opposite side of the controlled arm to prevent sit-up attempts and complete Technical Mount establishment. You are now ready to attack."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Opponent clamps elbows tight to ribs, denying arm isolation needed to initiate the transition",
+        "effectiveness": "High",
+        "your_response": "Apply sustained crossface pressure to force them to turn away, exposing the far arm. Alternatively, attack the near-side arm with Americana threat to force them to open elbows reactively, then immediately transition when the arm extends.",
+        "targets_outcome": "3-4 Mount/Top"
+      },
+      {
+        "counter": "Opponent bridges explosively during the weight shift phase, disrupting your base before leg repositioning completes",
+        "effectiveness": "High",
+        "your_response": "Ride the bridge by staying heavy on your inside hook and posted leg. If mount is compromised, immediately transition to side control or knee on belly rather than fighting back to mount. If bridge is toward the arm-controlled side, use their momentum to accelerate into the armbar.",
+        "targets_outcome": "Half Guard/Top"
+      },
+      {
+        "counter": "Opponent frames against your hip with their free arm to block the posted knee from advancing toward their head",
+        "effectiveness": "Medium",
+        "your_response": "Attack the framing arm with a gift wrap by swimming your hand underneath their forearm and grabbing their far shoulder. The frame becomes a trapped limb, giving you superior arm control for the transition. Alternatively, redirect to an Americana on the framing arm.",
+        "targets_outcome": "3-4 Mount/Top"
+      },
+      {
+        "counter": "Opponent shrimps away and inserts knee shield during the transitional weight shift, recovering half guard",
+        "effectiveness": "High",
+        "your_response": "If the knee shield is already in, accept the half guard top position and work to re-pass rather than forcing mount recovery against an established frame. Immediately establish crossface and underhook control to begin passing sequence from half guard top.",
+        "targets_outcome": "Half Guard/Top"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Attempting to reposition legs before securing firm two-on-one arm control",
+        "consequence": "Opponent retracts their arm during the transition, leaving you in an unstable asymmetric position without the arm isolation that justifies Technical Mount. You lose both the arm attack and potentially the mount itself.",
+        "correction": "Treat arm isolation as the non-negotiable prerequisite. Both wrist and elbow must be controlled with firm grips before any leg movement begins. If you cannot isolate the arm, do not initiate the transition."
+      },
+      {
+        "error": "Sliding the posted knee too far from the opponent's body, creating excessive space",
+        "consequence": "The gap between your posted shin and their body allows them to turn into you, establish frames, or insert a knee between your bodies to begin guard recovery. The Technical Mount loses its control properties when distance is created.",
+        "correction": "Keep the posted shin close to the opponent's head and shoulder with the knee tracking along the mat near their ear. The shin should be perpendicular to their body with minimal gap between your leg and their upper body."
+      },
+      {
+        "error": "Failing to shift weight forward before leg repositioning, maintaining centered weight distribution",
+        "consequence": "Without forward weight shift, the bottom player feels the pressure reduction during leg movement and times a bridge or hip escape. The transition becomes telegraphed and easily countered.",
+        "correction": "Drive chest and shoulder weight forward onto the opponent's upper body before moving any legs. They should feel increased pressure, not decreased pressure, as you initiate the transition."
+      },
+      {
+        "error": "Moving too slowly and telegraphing each phase of the transition separately",
+        "consequence": "Opponent recognizes the pattern after arm control and preemptively defends the leg repositioning with frames, bridges, or elbow clamps. The element of surprise is lost and defensive timing becomes easy.",
+        "correction": "Once arm control is secured, execute the leg repositioning as a single explosive movement. The transition from arm isolation to completed Technical Mount should happen within two seconds—decisive commitment, not gradual adjustment."
+      },
+      {
+        "error": "Neglecting to tuck the inside hook during leg repositioning, leaving both legs on the same side",
+        "consequence": "Without the inside hook underneath the opponent, Technical Mount lacks the connection needed to prevent them from sliding out the back. The position becomes a poorly configured side mount rather than true Technical Mount.",
+        "correction": "As the posted knee slides up, simultaneously tuck the opposite leg underneath the opponent's body. Both leg movements should occur as part of the same motion, not sequentially."
+      },
+      {
+        "error": "Settling hips too far from the opponent's shoulder after completing the transition",
+        "consequence": "Hip distance from the shoulder compromises armbar mechanics—the opponent can rotate their elbow inward and begin extracting their arm before you can transition to the finish. The primary submission threat is neutralized.",
+        "correction": "After completing leg repositioning, immediately drive hips tight against the opponent's shoulder on the controlled-arm side. Hip-to-shoulder contact should be maintained continuously from this point forward."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Mechanics",
+        "focus": "Leg repositioning and arm isolation fundamentals",
+        "description": "Practice the complete transition sequence against a compliant partner from static 3-4 Mount. Focus on smooth leg repositioning—posted knee slides up while inside leg tucks simultaneously. Repeat 20 times per side with zero resistance, building muscle memory for the coordination pattern before adding any defensive reactions."
+      },
+      {
+        "phase": "Phase 2: Timing and Reads",
+        "focus": "Recognizing defensive triggers and timing entry",
+        "description": "Partner performs specific defensive movements—turning away, extending arms, bridging—at random intervals from 3-4 Mount bottom. Top player must identify the correct trigger and initiate the transition only when the window is open. Emphasize reading shoulder rotation as the primary cue. 25% resistance from bottom player."
+      },
+      {
+        "phase": "Phase 3: Chain Integration",
+        "focus": "Connecting transition to submissions and back takes",
+        "description": "After completing the transition to Technical Mount, immediately flow into armbar setup, back take, or triangle entry based on partner's defensive reaction. Build the complete offensive chain from 3-4 Mount through Technical Mount to finish. Partner cycles through different defenses at 50% resistance."
+      },
+      {
+        "phase": "Phase 4: Progressive Resistance",
+        "focus": "Executing under realistic defensive pressure",
+        "description": "Full positional sparring starting from 3-4 Mount. Bottom player defends at 75-100% intensity using all available counters. Top player must identify or create the transition window, execute cleanly, and follow up with attacks. Track success rate across rounds and identify which counters cause the most difficulty."
+      },
+      {
+        "phase": "Phase 5: Competition Simulation",
+        "focus": "Complete mount offense sequences under fatigue",
+        "description": "Begin from standing or open guard, work to mount, establish 3-4 Mount, and execute the Technical Mount transition under full resistance. Add time pressure and fatigue simulation through consecutive rounds. Focus on maintaining technique quality when physically and mentally taxed."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "When is the optimal timing window for initiating the 3-4 Mount to Technical Mount transition?",
+        "answer": "The optimal window opens when the bottom player commits to turning their shoulders away from the mounted side or extends an arm defensively against your chest or hip. These reactions create the arm exposure needed for isolation and the body alignment that facilitates leg repositioning. Never initiate when the opponent is settled with elbows tight and shoulders flat—wait for or force a reaction first."
+      },
+      {
+        "question": "Your opponent bridges toward your posted leg during the transition attempt—how do you adjust?",
+        "answer": "Ride the bridge by keeping your inside hook tight and driving your posted leg into the mat for stability. If their bridge creates momentum toward the arm-controlled side, use that energy to accelerate into the armbar by swinging your leg over immediately. If the bridge disrupts your base significantly, flow with it to side control or knee on belly rather than fighting back to mount against their momentum."
+      },
+      {
+        "question": "What grip must you secure before repositioning your legs, and why is this non-negotiable?",
+        "answer": "You must secure a two-on-one grip on the near-side arm—one hand on the wrist controlling rotation and one hand above the elbow preventing retraction. This is non-negotiable because Technical Mount without arm isolation has no submission threat. Repositioning your legs while the opponent's arms are free creates an unstable position where they can frame, bridge, and escape during the transition window when your base is compromised."
+      },
+      {
+        "question": "What is the most critical mechanical detail during the leg repositioning phase?",
+        "answer": "Both legs must move simultaneously as a coordinated unit—the posted knee slides up toward the head while the inside leg tucks underneath the opponent's body in the same motion. Moving them sequentially creates a gap where neither leg provides proper function, opening escape windows. The simultaneity also masks the transition from the bottom player, who feels continuous pressure rather than the telltale weight shift of sequential leg movement."
+      },
+      {
+        "question": "Your opponent clamps their elbows tight and refuses to extend any arm—what do you do to create the entry?",
+        "answer": "Apply sustained crossface pressure to force them to turn away from the discomfort, which naturally extends the far arm. Alternatively, threaten an Americana or Ezekiel choke to force a defensive arm reaction that creates the extension you need. You can also simply maintain heavy 3-4 Mount pressure and threaten the S-Mount transition on the other side—the bottom player cannot defend both directions simultaneously, and eventually one arm will extend to address a threat."
+      },
+      {
+        "question": "How does the direction of force change between maintaining 3-4 Mount and entering Technical Mount?",
+        "answer": "In 3-4 Mount, force is directed downward through the hips and chest into the opponent's torso, creating compression pressure. During the Technical Mount entry, force redirects forward and laterally toward the controlled arm side—your weight shifts from center-mass compression to angular pressure pinning the opponent's shoulder to the mat. This directional change is what creates the armbar angle but also what makes the transition vulnerable to well-timed bridges."
+      },
+      {
+        "question": "The transition is blocked because your opponent frames against your hip with their free arm—what chain attack opens up?",
+        "answer": "Their framing arm is now extended and exposed. Swim your hand underneath their forearm to establish a gift wrap control, trapping their arm across their own body. This gift wrap gives you superior control for completing the Technical Mount transition with both arms now controlled, or you can redirect to attack the newly exposed framing arm with an Americana. Their defensive frame becomes your offensive opportunity—this is the cascading dilemma principle in action."
+      }
+    ],
+    "safety_considerations": "This transition involves significant pressure on the opponent's ribcage and shoulder during leg repositioning. Apply weight shifts gradually during drilling to avoid rib compression injuries. When training the arm isolation component, release immediately if your partner signals discomfort in the shoulder or elbow. Avoid explosive knee slides toward the head during initial learning phases, as accidental contact with the face or jaw can occur. Partners should communicate clearly about pressure tolerance, and the top player should check in during early repetitions before applying full transition speed."
+  },
+  "defender": {
+    "name": "3-4 Mount to Technical Mount Defender",
+    "description": "Defend against the 3-4 Mount to Technical Mount transition in BJJ. Recognition cues, prevention timing, half guard recovery, and defensive principles for blocking mount advancement.",
+    "overview": "From the defender's perspective, the 3-4 Mount to Technical Mount transition represents a critical moment where the situation is about to get dramatically worse. While 3-4 Mount is already a disadvantageous position, Technical Mount adds immediate armbar and back take threats that make escape exponentially more difficult. Recognizing the transition cues early and intervening before arm isolation is complete offers the best defensive window. Once the attacker secures wrist-and-elbow control and begins leg repositioning, defensive options narrow to survival and damage limitation rather than prevention. The defender's strategic priority is denying arm isolation above all else—without a controlled arm, the attacker has no reason to commit to Technical Mount and the position lacks its primary threat.",
+    "key_principles": [
+      "Keep elbows glued to your ribs at all times—arm extension or framing with straight arms is the primary trigger that enables the attacker's transition",
+      "Recognize shoulder pressure changes and weight shifts as early warning signals that the transition is being initiated",
+      "Time defensive bridging to coincide with the attacker's leg repositioning phase, when their base is most compromised and vulnerable to disruption",
+      "Prioritize preventing arm isolation over all other defensive considerations—without your arm controlled, the attacker cannot justify committing to Technical Mount",
+      "Use the transition moment as an escape opportunity rather than just a defensive crisis, since the attacker's weight shift creates windows for hip escape and half guard recovery",
+      "Maintain head position turned away from the side the attacker is advancing toward to prevent triangle setups if Technical Mount is established"
+    ],
+    "recognition_cues": [
+      "Attacker's hands shift from general control to specifically targeting one of your arms with a two-on-one wrist-and-elbow grip, signaling arm isolation intent",
+      "Forward weight shift increases chest pressure on your upper body, pinning your shoulders flat in preparation for the leg repositioning phase",
+      "Posted-side knee begins sliding upward along the mat toward your head rather than maintaining its static outside position",
+      "Attacker's head moves to the opposite side of your controlled arm, establishing the angular position needed for Technical Mount and armbar mechanics"
+    ],
+    "defensive_options": [
+      {
+        "action": "Bridge and hip escape during weight shift",
+        "when_to_use": "The moment you feel the attacker's weight shift forward and laterally as they begin sliding their posted knee upward—this is when their base is most compromised",
+        "targets_outcome": "Half Guard/Top",
+        "if_successful": "You recover half guard, dramatically reducing the submission threat and creating offensive sweep opportunities from a far more manageable defensive position",
+        "risk": "If mistimed, the bridge can extend your arm further and accelerate the attacker's transition to Technical Mount with deeper arm control"
+      },
+      {
+        "action": "Clamp elbows tight and deny arm isolation",
+        "when_to_use": "Immediately when you feel the attacker's hands shifting to target a specific arm with two-on-one control—this is the earliest and most effective intervention point",
+        "targets_outcome": "3-4 Mount/Top",
+        "if_successful": "The attacker cannot justify committing to Technical Mount without arm control and remains in 3-4 Mount, preserving your current defensive position without worsening",
+        "risk": "Elbows tight limits your own framing and escape options, potentially allowing the attacker to maintain heavy pressure and search for alternative openings"
+      },
+      {
+        "action": "Frame against advancing knee with forearm",
+        "when_to_use": "When the posted knee begins its upward slide toward your head—use your near-side forearm as a wedge against the knee to physically block its advancement",
+        "targets_outcome": "3-4 Mount/Top",
+        "if_successful": "The attacker's leg repositioning is blocked, forcing them to abandon the Technical Mount attempt and reset in 3-4 Mount or try a different advancement",
+        "risk": "Extending the arm to frame against the knee can expose it to isolation if the attacker redirects their grip to capture the framing arm instead"
+      },
+      {
+        "action": "Turn into attacker and establish underhook during transition",
+        "when_to_use": "During the brief moment when the attacker's weight shifts forward for leg repositioning, turn toward them and fight for an underhook on the side they are advancing from",
+        "targets_outcome": "Half Guard/Top",
+        "if_successful": "The underhook prevents Technical Mount completion and creates a path to recover half guard with an offensive underhook already established for sweeping",
+        "risk": "Turning into the attacker during mount can expose your back if the timing is wrong, potentially giving up back control instead of recovering half guard"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Half Guard/Top",
+        "how": "Time your bridge and hip escape to coincide with the attacker's weight shift during leg repositioning. As they lift or slide their posted knee toward your head, immediately bridge toward the mounted side and shrimp your hips away, inserting your knee between your bodies to recover half guard before they complete the transition."
+      },
+      {
+        "outcome": "3-4 Mount/Top",
+        "how": "Block the transition by keeping elbows clamped tight to your ribs to deny arm isolation, and use your near-side forearm as a wedge against the advancing knee. Without arm control and with the knee blocked, the attacker cannot complete the Technical Mount entry and must remain in 3-4 Mount, preserving your current position."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Extending arms to push the attacker away or frame against their chest with straightened elbows",
+        "consequence": "Extended arms become the exact target the attacker needs for isolation—you create the opening that enables the transition rather than preventing it, often resulting in immediate arm control and accelerated Technical Mount entry",
+        "correction": "Keep elbows bent at 90 degrees and glued to your ribs. All defensive frames should use forearm contact with bent elbows, never straightened arms that can be isolated."
+      },
+      {
+        "error": "Turning away from the attacker in an attempt to turtle or escape, exposing the back",
+        "consequence": "Turning away is exactly what the attacker wants—it exposes your arm for isolation and creates the shoulder rotation angle that makes Technical Mount entry effortless. Many attackers specifically apply pressure to provoke this turning reaction.",
+        "correction": "If you must turn, turn into the attacker to establish an underhook, not away from them. Turning away hands them the transition and potentially exposes your back for control."
+      },
+      {
+        "error": "Failing to time defensive bridge with the attacker's leg repositioning phase",
+        "consequence": "Bridging when the attacker is settled in stable 3-4 Mount wastes energy without disrupting their base. The bridge only works during the brief window when their legs are in transit and base is compromised.",
+        "correction": "Wait for the specific moment when you feel their weight shift forward and their posted knee begin to move. This is the vulnerability window—bridge immediately when you feel the base change, not before."
+      },
+      {
+        "error": "Remaining completely passive and flat without establishing any defensive frames when transition cues appear",
+        "consequence": "The attacker completes the transition unopposed, establishing deep arm control and perfect Technical Mount position. Once settled in Technical Mount, escape difficulty increases dramatically compared to intervening during the transition.",
+        "correction": "The transition moment is your best defensive opportunity—intervene during the movement, not after it completes. Establish frames, bridge, or clamp elbows the instant you recognize transition cues."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What are the earliest recognition cues that your opponent is transitioning from 3-4 Mount to Technical Mount?",
+        "answer": "The earliest cue is their hands shifting from general pressure to specifically targeting one of your arms with a two-on-one grip on your wrist and elbow. Following this, you will feel increased forward weight shift onto your upper chest and shoulders as they prepare for leg repositioning. The posted knee will begin sliding upward along the mat rather than staying in its static outside position. Recognizing the arm isolation attempt is the earliest and most important signal."
+      },
+      {
+        "question": "Your opponent begins sliding their knee toward your head—what is your immediate response?",
+        "answer": "Immediately bridge toward the mounted side where their inside knee was positioned, then shrimp your hips away toward the advancing knee side to begin half guard recovery. The leg repositioning phase is when their base is most compromised, making this the optimal moment for a disruptive bridge. Simultaneously, clamp your near-side elbow tight to deny any further arm isolation. Speed is critical—you have approximately two seconds before the Technical Mount is established."
+      },
+      {
+        "question": "When should you prioritize recovering half guard versus blocking the transition in place?",
+        "answer": "Block the transition in place when you detect arm isolation attempts early—clamping elbows tight before they secure two-on-one control is the highest-percentage defensive option. Prioritize half guard recovery when the attacker has already secured arm control and begun leg repositioning, because at that point blocking the transition is unlikely to succeed. The bridge-and-shrimp to half guard exploits the base vulnerability during their movement rather than trying to prevent an already-committed transition."
+      },
+      {
+        "question": "What body position error makes you most vulnerable to this transition?",
+        "answer": "Lying flat on your back with arms extended or framing against the attacker's chest with straight elbows. This position provides the attacker with easy arm isolation targets and eliminates your ability to create defensive angles through hip movement. The flat position also makes your shoulders easily pinnable, which is exactly the condition the attacker needs to shift weight forward and begin the Technical Mount entry sequence. Staying on your side with elbows tight is the corrective position."
+      },
+      {
+        "question": "How does turning away from the attacker create vulnerability to Technical Mount entry?",
+        "answer": "Turning away rotates your shoulder off the mat and extends your near-side arm away from your body, creating exactly the arm exposure the attacker needs for isolation. The turning motion also aligns your body at the angle that makes the attacker's leg repositioning natural and easy—their posted knee slides into position along the path your rotation creates. Many experienced attackers deliberately apply crossface pressure to provoke this turning reaction because it hands them the transition on a plate."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Recognition",
+        "focus": "Identifying transition cues before they develop",
+        "description": "Partner initiates 3-4 Mount to Technical Mount transition at 25% speed. Bottom player calls out each recognition cue as it appears—arm targeting, weight shift, knee movement, head repositioning. No escape attempts, purely developing the pattern recognition needed to react at full speed later."
+      },
+      {
+        "phase": "Phase 2: Prevention Mechanics",
+        "focus": "Blocking the transition through arm protection and framing",
+        "description": "Partner attempts the transition at 50% intensity while bottom player practices clamping elbows, framing against the advancing knee, and denying arm isolation. Focus on the mechanical execution of each prevention technique in isolation before combining them. Track which prevention method succeeds most often for your body type."
+      },
+      {
+        "phase": "Phase 3: Escape and Recovery",
+        "focus": "Bridge timing and half guard recovery when prevention fails",
+        "description": "Partner completes arm isolation and begins leg repositioning. Bottom player practices timing the bridge to the weight-shift window and executing hip escape to half guard recovery. Emphasize the coordination between bridge direction and shrimp direction. Gradually increase partner resistance from 50% to 75%."
+      },
+      {
+        "phase": "Phase 4: Live Defense Integration",
+        "focus": "Full-speed transition defense under realistic conditions",
+        "description": "Positional sparring starting from 3-4 Mount at full intensity. Bottom player uses all defensive tools—prevention, bridging, and recovery—based on the situation. Score points for successful transition blocks (staying in 3-4 Mount) and half guard recoveries. Identify which attacker setups cause the most difficulty and develop specific responses."
+      }
+    ]
+  }
+}

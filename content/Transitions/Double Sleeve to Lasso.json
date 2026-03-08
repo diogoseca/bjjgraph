@@ -1,0 +1,404 @@
+{
+  "name": "Double Sleeve to Lasso",
+  "description": "Master the Double Sleeve to Lasso guard transition in BJJ. Learn grip threading mechanics, entry timing, and guard evolution from sleeve control.",
+  "tags": [
+    "bjj",
+    "transition",
+    "guard-transition",
+    "lasso-guard",
+    "double-sleeve",
+    "gi",
+    "open-guard",
+    "sleeve-control"
+  ],
+  "from_position": "Double Sleeve Guard/Bottom",
+  "outcomes": [
+    {
+      "to": "Lasso Guard/Bottom",
+      "probability": 55,
+      "result": "success"
+    },
+    {
+      "to": "Double Sleeve Guard/Bottom",
+      "probability": 30,
+      "result": "failure"
+    },
+    {
+      "to": "Open Guard/Top",
+      "probability": 15,
+      "result": "counter"
+    }
+  ],
+  "success_rate": 55,
+  "overview": "The Double Sleeve to Lasso transition is one of the most fundamental guard evolution pathways in gi Brazilian Jiu-Jitsu. From an established Double Sleeve Guard, the bottom player threads one shin across the opponent's trapped arm to create the signature lasso control. This transition upgrades balanced bilateral sleeve control into asymmetric positional dominance, trading the distributed nature of double sleeve grips for the powerful lever system that defines Lasso Guard. The mechanical advantage gained through the lasso creates a fulcrum against the opponent's shoulder that dramatically restricts their mobility on one side, opening superior sweep angles and submission entries that were unavailable from the starting position.\n\nThe strategic value of this transition becomes apparent when the opponent begins systematically addressing double sleeve grips. Rather than engaging in a grip-fighting war of attrition, threading the lasso during the opponent's grip-breaking attempts converts their offensive action into an opportunity. The ideal entry window occurs when the opponent shifts weight or commits one arm to a grip break, creating momentary space for the shin to thread through. This timing-dependent nature means the transition rewards practitioners who develop sensitivity to their opponent's weight distribution and grip-fighting patterns rather than those who attempt to force the entry against a settled, well-postured opponent.\n\nFrom a systems perspective, the Double Sleeve to Lasso transition serves as a critical link between two major guard families. Double Sleeve Guard functions as a gateway position with connections to Spider Guard, Collar Sleeve Guard, and various sweep systems. By transitioning to Lasso Guard, the bottom player accesses a different attack ecosystem featuring sickle sweeps, omoplata entries, and triangle setups that chain together more effectively than the options available from pure double sleeve control. This transition also serves as a defensive upgrade when the opponent threatens to pass the double sleeve guard, as the lasso provides stronger unilateral control even if one grip is compromised.",
+  "conditions": [
+    "Both sleeve grips secured at cuff level with firm pistol grips before initiating the thread",
+    "Opponent within engagement range on knees or standing with arms accessible for threading",
+    "Sufficient hip mobility to thread shin across opponent's arm without releasing opposite sleeve grip",
+    "Target arm extended enough to permit shin insertion between elbow and shoulder",
+    "At least one foot maintaining contact with opponent's body for base during the transition"
+  ],
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Deep Lasso Entry",
+      "description": "Thread the shin past the elbow crease and deep across the tricep toward the shoulder, maximizing the lever arm and shoulder pressure on the opponent. The deeper thread creates a more secure lasso that is significantly harder for the opponent to clear.",
+      "when_to_use": "When the opponent keeps their arms extended and is not actively retracting, allowing time for a full-depth insertion"
+    },
+    {
+      "variant_name": "Quick Shallow Lasso",
+      "description": "Partial thread hooking the shin just above the elbow without driving all the way to the shoulder. Faster to establish and useful as a transitional control that can be deepened once the initial hook is secured.",
+      "when_to_use": "When the opponent is actively retracting their arm and you have a narrow window to establish any lasso control before they pull free"
+    },
+    {
+      "variant_name": "Inverted Lasso Entry",
+      "description": "Invert your body during the threading motion to approach the arm from underneath, creating an unusual angle that bypasses standard arm retraction defenses. Combines the lasso entry with berimbolo-style hip movement.",
+      "when_to_use": "Against opponents who consistently retract their arms when they recognize standard threading attempts, as the inverted angle attacks from below their defensive posture"
+    }
+  ],
+  "position_integration": "The Double Sleeve to Lasso transition occupies a central role in the open guard ecosystem as a guard evolution pathway. It connects the Double Sleeve Guard family to the Lasso Guard attack system, allowing the bottom player to upgrade from balanced bilateral control to asymmetric dominance. This transition frequently chains with transitions to Spider Guard and De La Riva Guard, creating a three-pronged guard evolution system where the bottom player selects the optimal upgrade based on the opponent's posture and positioning. The lasso destination is particularly valuable against opponents who stand tall, as the threading creates immediate off-balancing pressure. Mastery of this transition enables a fluid open guard game where the practitioner can cycle between guard systems based on defensive reactions, maintaining constant offensive pressure without committing to any single configuration that the opponent can solve.",
+  "related_content": [
+    {
+      "name": "Double Sleeve Guard",
+      "relationship": "Starting position for this transition providing bilateral sleeve control foundation"
+    },
+    {
+      "name": "Lasso Guard",
+      "relationship": "Target position achieved on successful completion of the threading motion"
+    },
+    {
+      "name": "Spider Guard",
+      "relationship": "Related guard system sharing sleeve control mechanics and common alternative transition from double sleeve"
+    },
+    {
+      "name": "Open Guard",
+      "relationship": "Parent guard category and counter outcome position when grips are stripped during transition"
+    },
+    {
+      "name": "Collar Sleeve Guard",
+      "relationship": "Alternative sleeve-based guard with similar grip foundations and transition pathways"
+    },
+    {
+      "name": "De La Riva Guard",
+      "relationship": "Common guard transition partner accessible from double sleeve when opponent stands"
+    },
+    {
+      "name": "Inverted Lasso Guard",
+      "relationship": "Advanced lasso variation accessible after establishing initial lasso control"
+    },
+    {
+      "name": "Russian Leg Lasso",
+      "relationship": "Double lasso variation that can be built from the initial single lasso entry"
+    },
+    {
+      "name": "Armbar Setup from Double Sleeve",
+      "relationship": "Alternative offensive option from the starting position when lasso entry is unavailable"
+    },
+    {
+      "name": "Double Sleeve Sweep",
+      "relationship": "Direct sweep alternative from double sleeve when guard transition is not needed"
+    },
+    {
+      "name": "Sickle Sweep",
+      "relationship": "High-percentage follow-up technique commonly executed immediately after establishing lasso guard"
+    },
+    {
+      "name": "Triangle Setup",
+      "relationship": "Submission entry commonly chained when opponent's posture breaks after lasso is established"
+    }
+  ],
+  "attacker": {
+    "name": "Double Sleeve to Lasso Attacker",
+    "description": "Learn to execute the Double Sleeve to Lasso guard transition. Step-by-step threading mechanics, grip management, timing windows, and chain attacks from lasso guard.",
+    "overview": "Executing the Double Sleeve to Lasso transition requires precise coordination between grip tension, hip mobility, and timing. As the attacker, your objective is to thread your shin across the opponent's arm while maintaining control throughout the transition. The fundamental challenge lies in creating enough space to insert your leg without compromising your existing sleeve grip structure. Success depends on reading the opponent's weight distribution and grip-fighting patterns to identify the optimal moment for entry, rather than forcing the transition against a settled opponent. Developing this sensitivity transforms the lasso entry from a random attempt into a reliable positional upgrade that serves as the foundation for a complete lasso guard offensive system.",
+    "key_principles": [
+      "Maintain constant tension on both sleeve grips throughout the threading process to prevent the opponent from retracting their arm or breaking free during the transition",
+      "Time the threading attempt to coincide with the opponent's weight shift or grip-breaking effort when their target arm is most accessible and extended",
+      "Use hip elevation and rotation to create the space needed for shin insertion rather than relying solely on pulling the arm toward you with grip strength",
+      "Thread the shin decisively in one smooth motion rather than incrementally pushing the leg through in stages that give the opponent time to react",
+      "Establish immediate lasso extension after completing the thread to create the fulcrum pressure before the opponent can retract or adjust",
+      "Adjust non-lasso foot placement immediately after threading to support the new guard structure and prevent the opponent from circling around the control"
+    ],
+    "setup_requirements": [
+      "Secure deep pistol grips on both sleeve cuffs with four fingers inside the sleeve opening and thumbs outside for maximum grip security",
+      "Position at least one foot on the opponent's hip or bicep to maintain distance and create the space required for the threading motion",
+      "Identify the target arm for threading by reading which side the opponent's weight is shifting toward or which arm is more extended",
+      "Ensure hips are elevated and mobile rather than flat on the mat to enable the rotational threading motion",
+      "Confirm the target arm is within threading range and not retracted tight against the opponent's body before committing to the entry"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Secure bilateral sleeve grips at the cuffs",
+        "description": "Establish deep pistol grips on both of the opponent's sleeve cuffs with four fingers inside and thumbs outside. Pull both sleeves toward your hips to create constant tension that prevents the opponent from easily retracting their arms or breaking free from your control system."
+      },
+      {
+        "step_number": 2,
+        "action": "Establish foot placement for distance control",
+        "description": "Place both feet on the opponent's hips or one foot on the hip and one on the bicep to create and maintain the distance necessary for the threading motion. Active foot pressure prevents the opponent from closing distance while providing a stable platform for your hip movement during the transition."
+      },
+      {
+        "step_number": 3,
+        "action": "Select threading side and create initial space",
+        "description": "Choose which arm to lasso based on the opponent's weight distribution and arm positioning. Pull the target sleeve more aggressively toward your same-side hip while preparing to lift your foot off that hip, beginning to create the angular space needed for your shin to enter between their arm and body."
+      },
+      {
+        "step_number": 4,
+        "action": "Elevate hips and initiate the shin thread",
+        "description": "Elevate your hips off the mat and rotate toward the threading side while simultaneously pulling the target sleeve down and across your body. Insert the ball of your foot between the opponent's arm and their torso, beginning the threading motion with your toes pointing toward their far shoulder to establish the correct entry angle."
+      },
+      {
+        "step_number": 5,
+        "action": "Complete the thread across the tricep",
+        "description": "Drive your shin across the opponent's tricep area between the elbow and shoulder in one decisive motion. Your calf should cross over the top of their arm while your foot emerges on the far side. Maintain your sleeve grip tension throughout this motion to prevent the opponent from pulling their arm free during the critical threading phase."
+      },
+      {
+        "step_number": 6,
+        "action": "Extend the lasso leg for maximum leverage",
+        "description": "Once the shin is threaded, immediately straighten and extend your lasso leg to push against the opponent's shoulder and arm. This extension creates the characteristic fulcrum that defines lasso guard, placing biomechanical pressure on their shoulder joint that restricts their ability to posture, advance, or use the trapped arm effectively for passing."
+      },
+      {
+        "step_number": 7,
+        "action": "Reposition the non-lasso foot for secondary control",
+        "description": "Adjust your free foot to support the new lasso guard structure by placing it on the opponent's opposite hip for distance management, on their bicep for spider-lasso hybrid control, or hooking behind their knee to prepare sweep angles. This secondary control point is essential for preventing the opponent from circling around the lasso side."
+      },
+      {
+        "step_number": 8,
+        "action": "Consolidate grip depth and establish offensive posture",
+        "description": "Deepen your sleeve grip on the lasso side if needed, ensuring maximum tension on the trapped arm. Establish a secondary grip with your free hand on the opponent's collar, far sleeve, or pants to create multiple control points that support offensive attacks and prevent the opponent from systematically dismantling the newly established lasso guard position."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Opponent retracts arm rapidly before the thread completes, pulling elbow tight to their body",
+        "effectiveness": "High",
+        "your_response": "Immediately attempt the thread on the opposite arm which is now relatively extended, or convert to spider guard foot-on-bicep on the retracting arm",
+        "targets_outcome": "Double Sleeve Guard/Bottom"
+      },
+      {
+        "counter": "Opponent drives forward with shoulder pressure during the threading attempt to collapse guard structure",
+        "effectiveness": "Medium",
+        "your_response": "Use their forward momentum to complete the thread by pulling the sleeve and extending the lasso leg simultaneously, converting their pressure into lasso leverage",
+        "targets_outcome": "Lasso Guard/Bottom"
+      },
+      {
+        "counter": "Opponent strips both sleeve grips simultaneously during the threading attempt using explosive grip breaks",
+        "effectiveness": "High",
+        "your_response": "Immediately post feet on hips to maintain distance, hip escape to create angle, and re-establish grips or transition to feet-on-hips guard for recovery",
+        "targets_outcome": "Open Guard/Top"
+      },
+      {
+        "counter": "Opponent circles laterally toward the threading side to flatten the lasso angle and prevent shin crossing",
+        "effectiveness": "Medium",
+        "your_response": "Follow their movement with hip rotation and consider switching the threading attempt to the opposite arm, which becomes more accessible as they circle away from it",
+        "targets_outcome": "Double Sleeve Guard/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Releasing tension on the non-threading sleeve grip during the transition",
+        "consequence": "Opponent uses their free arm to establish passing grips or control your legs, compromising your guard structure before the lasso is established",
+        "correction": "Maintain constant pulling tension on both sleeves throughout the threading process, using your non-threading arm as an anchor that keeps the opponent's upper body managed"
+      },
+      {
+        "error": "Threading the shin too shallow across the forearm rather than deep across the tricep",
+        "consequence": "Lasso control is weak and easily cleared by the opponent simply pulling their arm back or circling their elbow free with minimal effort",
+        "correction": "Thread the shin deep across the tricep between elbow and shoulder, ensuring your calf wraps fully over the top of their arm for maximum control depth and retention"
+      },
+      {
+        "error": "Attempting to thread with hips flat on the mat instead of elevated and rotated",
+        "consequence": "Insufficient space to complete the thread, resulting in the shin getting stuck halfway or the opponent easily blocking the entry with basic posture adjustments",
+        "correction": "Elevate hips and rotate toward the threading side before initiating the shin insertion to create the necessary clearance angle for a clean entry"
+      },
+      {
+        "error": "Forcing the transition against a retracted, well-postured opponent with both arms tight to their body",
+        "consequence": "Failed threading attempt that burns energy and potentially weakens your grip position without achieving the lasso, giving the opponent initiative",
+        "correction": "Wait for the opponent to extend their arm through a grip break attempt, passing entry, or posture adjustment before timing the thread to exploit the opening"
+      },
+      {
+        "error": "Neglecting to reposition the non-lasso foot after completing the thread",
+        "consequence": "Opponent easily passes around the lasso side because there is no secondary control preventing their lateral movement or maintaining distance",
+        "correction": "Immediately establish your non-lasso foot on the opponent's hip, bicep, or behind their knee to create the dual control system essential for effective lasso guard"
+      },
+      {
+        "error": "Threading too slowly in multiple incremental pushes rather than one decisive motion",
+        "consequence": "Gives the opponent time to react mid-thread, retract their arm, or adjust posture to block the entry before completion",
+        "correction": "Commit fully to the threading motion in one smooth, decisive movement once you have created sufficient space and identified the correct timing window"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Mechanics",
+        "focus": "Solo drilling and cooperative partner work",
+        "description": "Practice the threading motion with a cooperative partner who maintains static double sleeve guard position. Focus on hip elevation, rotation, and smooth shin insertion. Drill 50 repetitions per side to build muscle memory for the correct threading path and leg angle."
+      },
+      {
+        "phase": "Phase 2: Timing Recognition",
+        "focus": "Entry recognition and timing windows",
+        "description": "Partner provides light resistance and varies their arm positioning between extended and retracted. Practice identifying when the arm is accessible versus when to wait. Begin threading only when you read a genuine opening, developing sensitivity to weight shifts and arm extension moments."
+      },
+      {
+        "phase": "Phase 3: Chain Integration",
+        "focus": "Combining with guard transitions and follow-up attacks",
+        "description": "Chain the lasso entry with immediate follow-up attacks: thread to lasso, then execute sickle sweep or triangle setup. Practice transitioning between double sleeve, lasso, and spider guard based on partner reactions. Develop fluid movement between guard systems without pausing."
+      },
+      {
+        "phase": "Phase 4: Live Application",
+        "focus": "Positional sparring from double sleeve guard",
+        "description": "Full resistance positional rounds starting from double sleeve guard bottom. Objective is to establish lasso guard against a resisting partner who is actively trying to break grips and pass. Track success rate over multiple rounds and identify which timing windows work against different passing styles."
+      },
+      {
+        "phase": "Phase 5: Competition Integration",
+        "focus": "Guard transition under full sparring pressure",
+        "description": "Integrate the double sleeve to lasso transition into complete sparring rounds. Practice entering from guard pull scenarios and against varied opponent styles. Develop the ability to select between lasso, spider, and De La Riva entries based on real-time reading of the opponent's posture and reactions."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the optimal timing window for initiating the shin thread against a kneeling opponent?",
+        "answer": "The best timing window occurs when the opponent commits one arm to a grip-breaking attempt, shifts their weight laterally to begin a passing sequence, or reaches forward to establish their own grips. During these moments, their target arm extends away from their body, creating the space needed for the shin to thread through. Attempting the thread while the opponent is settled with arms retracted tight to their body significantly reduces success probability because there is no gap for insertion."
+      },
+      {
+        "question": "Why is hip elevation critical during the threading motion and what happens if your hips stay flat?",
+        "answer": "Hip elevation creates the vertical clearance needed for your shin to pass over and through the opponent's arm. When your hips remain flat on the mat, the threading angle becomes nearly impossible because your leg cannot achieve sufficient height to cross the tricep. Elevated hips also enable the rotational movement that drives the shin through in one smooth motion, whereas flat hips force a slow incremental push that the opponent can easily counter by simply retracting their arm."
+      },
+      {
+        "question": "Your opponent pulls their arm back forcefully as you begin threading - what immediate adjustment do you make?",
+        "answer": "Immediately redirect your threading attempt to the opposite arm, which is now relatively extended from the pulling motion on the other side. If the opposite arm is also retracted, convert the foot that was beginning to thread into a foot-on-bicep spider guard hook on the same arm instead. Never chase a retracted arm by trying to pull it back toward you, as this wastes energy and creates openings for the opponent to advance their passing grips while you are overcommitted."
+      },
+      {
+        "question": "What grip depth and configuration provides maximum control once the lasso is established?",
+        "answer": "Grip the sleeve cuff deeply with a pistol grip where your knuckles press against the inside of the cuff opening. Maintain pulling tension toward your hip rather than extending the arm outward. The sleeve grip should create a tight connection so that any extension of your lasso leg translates directly into shoulder pressure on the opponent. A shallow grip near the mid-forearm provides insufficient leverage and is easily stripped during the opponent's escape attempts."
+      },
+      {
+        "question": "How does the non-lasso foot positioning affect your offensive options from the completed transition?",
+        "answer": "The non-lasso foot placement determines your entire attack system from lasso guard. Foot on the opposite hip creates maximum distance control and supports sickle sweep entries through off-balancing. Foot on the opposite bicep creates a spider-lasso hybrid that enables triangle attacks when the opponent's posture breaks forward. Hooking behind the opponent's knee removes their base on that side and facilitates pendulum-style sweeps. Switching between these positions based on the opponent's reactions is essential for maintaining offensive pressure."
+      },
+      {
+        "question": "What is the critical direction of force when extending the lasso leg after threading?",
+        "answer": "The lasso leg should extend diagonally away from the opponent's body, pushing their trapped arm outward and upward while the sleeve grip pulls inward and downward toward your hip. This creates opposing forces that form a fulcrum against the opponent's shoulder joint. Pushing straight up or straight away from you reduces the leverage significantly. The diagonal extension maximizes the rotational torque on their shoulder, which is what makes lasso guard so restrictive for the trapped arm."
+      }
+    ],
+    "safety_considerations": "The Double Sleeve to Lasso transition is generally low-risk since it involves guard repositioning rather than joint manipulation or choking. However, maintain awareness of your partner's shoulder flexibility when extending the lasso leg, as the fulcrum created against the shoulder joint can cause discomfort or strain if applied explosively. Thread the leg smoothly rather than jamming it through. During drilling, communicate with your partner if the lasso extension creates excessive shoulder pressure. Avoid cranking the sleeve grip while extending the leg aggressively, as this combination can hyperextend the opponent's elbow when the arm is fully trapped."
+  },
+  "defender": {
+    "name": "Double Sleeve to Lasso Defender",
+    "description": "Learn to prevent and counter the Double Sleeve to Lasso guard transition. Recognition cues, arm retraction timing, grip defense, and counter-passing strategies from top position.",
+    "overview": "Defending the Double Sleeve to Lasso transition requires awareness of the bottom player's threading intentions and proactive arm management. As the defender in top position, your objective is to prevent the shin from crossing your arm, which would establish the powerful lasso control that severely restricts your mobility and passing options. Successful defense hinges on recognizing the threading attempt early through specific pre-threading cues, retracting the target arm before the shin completes its path, and using the bottom player's transition attempt as a window to advance your own passing position. Understanding the mechanics of the lasso entry allows you to position your arms and posture in ways that make the thread geometrically difficult, forcing the bottom player to abandon the attempt or settle for inferior guard positions.",
+    "key_principles": [
+      "Keep elbows tight to your body and arms retracted when you sense the bottom player adjusting foot placement for a threading attempt",
+      "Maintain strong upright posture with chest forward and hips back to minimize the space available for shin threading between your arm and torso",
+      "Address sleeve grips proactively through systematic grip breaks rather than allowing the bottom player to maintain extended pulling control",
+      "Recognize early hip elevation and rotation by the bottom player as pre-threading signals and immediately retract the threatened arm in response",
+      "Use the bottom player's threading attempt as a passing window since they must release foot pressure from your hip to thread their leg",
+      "Control distance aggressively when you feel one foot leave your hip, as this indicates an imminent guard transition attempt that creates defensive vulnerability"
+    ],
+    "recognition_cues": [
+      "Bottom player lifts one foot off your hip while maintaining or increasing sleeve tension on that side, creating space for the threading motion",
+      "Bottom player's hips elevate off the mat and rotate to one side, indicating they are preparing to angle their shin across your arm",
+      "Increased pulling tension on one sleeve combined with decreased pressure from the same-side foot signals the specific threading side",
+      "Bottom player shifts their head and shoulders toward one side while their opposite hip lifts, establishing the rotational angle required for the threading entry"
+    ],
+    "defensive_options": [
+      {
+        "action": "Retract the threatened arm by pulling your elbow tight to your ribs and rotating your wrist to strip the sleeve grip",
+        "when_to_use": "As soon as you feel increased sleeve tension on one side combined with the foot lifting off your hip, before the shin enters",
+        "targets_outcome": "Double Sleeve Guard/Bottom",
+        "if_successful": "Bottom player fails to thread and must reset from double sleeve guard, potentially with a weakened or broken grip on the retracted side",
+        "risk": "If retraction is too late, the shin may already be partially threaded, making full extraction more difficult than prevention"
+      },
+      {
+        "action": "Drive forward with shoulder pressure into the bottom player during the threading attempt to collapse their guard structure",
+        "when_to_use": "When the bottom player lifts their foot off your hip to begin threading, removing their primary distance-management frame on that side",
+        "targets_outcome": "Double Sleeve Guard/Bottom",
+        "if_successful": "Collapses the bottom player's guard structure and prevents them from completing the thread by eliminating the space needed for hip rotation",
+        "risk": "If the bottom player is already mid-thread, forward pressure may actually help them complete the lasso by driving your arm deeper into their leg path"
+      },
+      {
+        "action": "Strip both sleeve grips simultaneously by posting hands on opponent's hips and driving backward with posture",
+        "when_to_use": "When the bottom player commits both arms to pulling and their feet are transitioning off your hips during the threading setup phase",
+        "targets_outcome": "Open Guard/Top",
+        "if_successful": "Completely breaks the bottom player's grip system, leaving them in open guard without sleeve controls while you maintain top position with full passing initiative",
+        "risk": "If the grip break fails, you may have compromised your own posture and arm positioning without gaining positional advantage"
+      },
+      {
+        "action": "Circle laterally toward the threading side to flatten the angle and prevent the shin from achieving the crossing path",
+        "when_to_use": "When you recognize the threading attempt early enough to reposition before the shin enters the threading channel",
+        "targets_outcome": "Double Sleeve Guard/Bottom",
+        "if_successful": "Removes the perpendicular angle the bottom player needs for threading, forcing them to abandon the attempt or readjust their entire guard structure",
+        "risk": "Circling may expose your back angle or create openings for alternative guard transitions like De La Riva entries on the opposite side"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Open Guard/Top",
+        "how": "Time your grip break to coincide with the threading attempt when the bottom player has committed their leg to the transition and temporarily reduced their foot frames on your body. Strip both sleeve grips and immediately establish your own passing grips on their legs before they can recover controls."
+      },
+      {
+        "outcome": "Double Sleeve Guard/Bottom",
+        "how": "Retract the targeted arm sharply by pulling your elbow to your ribs the instant you feel the threading attempt initiate. Keep your arm tight against your body and maintain forward posture to deny the bottom player the space needed for a second threading attempt on the same side."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Leaving arms extended with elbows flared wide while in the bottom player's double sleeve guard",
+        "consequence": "Arms become easy threading targets with large gaps between arm and torso, allowing the bottom player to insert their shin with minimal setup or timing precision",
+        "correction": "Keep elbows close to your body and arms bent, minimizing the gap between your arm and torso that the bottom player needs for shin threading"
+      },
+      {
+        "error": "Ignoring the bottom player's hip elevation and rotation as pre-threading signals",
+        "consequence": "Thread completes before you can react, establishing full lasso control that is significantly harder to clear than it would have been to prevent",
+        "correction": "Treat any hip elevation or rotation from the bottom player as an immediate threat signal and retract the arm on the side they are rotating toward without delay"
+      },
+      {
+        "error": "Pulling straight backward away from the bottom player when sensing the threading attempt",
+        "consequence": "Extends the bottom player's control distance and may actually help them complete the thread by creating more space for their shin to travel through",
+        "correction": "Drive forward into the bottom player or circle laterally rather than retreating straight back, which reduces threading space rather than increasing it"
+      },
+      {
+        "error": "Focusing exclusively on grip fighting while ignoring the foot and hip positioning that enables the thread",
+        "consequence": "Even if you maintain your arm position, the bottom player can still create threading opportunities through active hip movement and foot repositioning",
+        "correction": "Address both the grip battle and the bottom player's foot placement simultaneously, using posture and pressure to compress the space they need for hip rotation and threading"
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What early warning signs indicate the bottom player is about to attempt a lasso thread?",
+        "answer": "The key recognition cues include one foot lifting off your hip while sleeve tension increases on that side, hip elevation and rotation toward one side creating the threading angle, increased pulling on one sleeve compared to the other, and the bottom player's gaze or shoulders shifting toward the arm they intend to thread. These signals typically occur in sequence within one to two seconds before the actual threading attempt, giving you a narrow but actionable window to prevent the entry through arm retraction or posture adjustment."
+      },
+      {
+        "question": "Why is driving forward more effective than retreating when defending the threading attempt?",
+        "answer": "Retreating backward extends the distance between you and the bottom player, which paradoxically creates more space for their shin to travel through during the threading motion. Driving forward compresses the space the bottom player needs for hip rotation and leg insertion, making it geometrically more difficult to complete the thread. Additionally, the bottom player has just lifted one foot off your hip to begin threading, temporarily weakening their distance management and making them more vulnerable to forward pressure that collapses their entire guard structure."
+      },
+      {
+        "question": "The bottom player's shin is halfway through the threading motion and you cannot prevent it - what should you do?",
+        "answer": "Immediately rotate your arm inward while pulling your elbow sharply toward your hip to reduce the remaining space the shin can travel through. Simultaneously step toward the threading side to flatten the angle and minimize thread depth. If the thread is too advanced to prevent, focus on keeping your elbow bent and tight to ensure a shallow lasso rather than allowing the shin to cross fully to a deep position. A shallow lasso provides significantly less control and is much easier to clear through subsequent grip breaks and posture adjustments."
+      },
+      {
+        "question": "How does the bottom player's threading attempt create a passing opportunity for the top player?",
+        "answer": "During the threading attempt, the bottom player must lift one foot off your hip and commit their leg to the threading motion, temporarily reducing their defensive frames from two legs to one. This creates a window where you face reduced resistance to forward movement and can drive into a passing sequence before the lasso establishes. The transition also occupies both of the bottom player's arms with sleeve gripping duties, limiting their ability to create secondary frames or establish alternative controls, making them vulnerable to aggressive forward pressure timed to coincide with the foot lifting."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Recognition",
+        "focus": "Identifying pre-threading cues and timing signals",
+        "description": "Partner performs lasso entries at 50% speed. Focus exclusively on recognizing the pre-threading signals: foot lifting off hip, hip elevation, rotation toward threading side. Call out the cue verbally before the thread completes to build pattern recognition without worrying about defensive technique execution."
+      },
+      {
+        "phase": "Phase 2: Prevention Mechanics",
+        "focus": "Arm retraction and posture adjustment against the thread",
+        "description": "Partner attempts lasso entries at progressive resistance levels. Practice retracting the threatened arm by pulling your elbow tight to your ribs the moment you recognize the threading cue. Focus on keeping arms compact and maintaining upright posture throughout. Track how often you successfully prevent the thread from completing."
+      },
+      {
+        "phase": "Phase 3: Counter-Passing Integration",
+        "focus": "Converting successful defense into immediate passing opportunities",
+        "description": "Once arm retraction becomes reliable, chain defensive reactions with immediate passing attempts. When you retract the arm and prevent the thread, capitalize on the bottom player's compromised guard structure by advancing with a grip break to passing sequence without pausing."
+      },
+      {
+        "phase": "Phase 4: Live Situational Sparring",
+        "focus": "Full resistance from double sleeve guard top position",
+        "description": "Positional sparring starting from double sleeve guard top. Bottom player actively attempts lasso entries, sweeps, and transitions while you defend all threading attempts and work to pass. Reset after each successful pass or sweep. Track both lasso prevention rate and pass completion rate over multiple sessions."
+      }
+    ]
+  }
+}

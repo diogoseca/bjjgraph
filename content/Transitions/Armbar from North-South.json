@@ -1,0 +1,409 @@
+{
+  "name": "Armbar from North-South",
+  "description": "Master the Armbar from North-South in BJJ. Complete guide covering setup from North-South position, execution steps, counters, and defensive strategies.",
+  "tags": [
+    "bjj",
+    "transition",
+    "technique",
+    "armbar",
+    "north-south",
+    "submission-setup",
+    "arm-attack"
+  ],
+  "from_position": "North-South/Top",
+  "outcomes": [
+    {
+      "to": "Armbar Control/Top",
+      "probability": 58,
+      "result": "success"
+    },
+    {
+      "to": "North-South/Top",
+      "probability": 30,
+      "result": "failure"
+    },
+    {
+      "to": "Half Guard/Bottom",
+      "probability": 12,
+      "result": "counter"
+    }
+  ],
+  "success_rate": 58,
+  "overview": "The Armbar from North-South represents a systematic submission setup that capitalizes on the inherent arm isolation available from perpendicular chest pressure. This technique exploits the fundamental vulnerability of North-South control—when the top practitioner maintains chest-to-chest pressure, the bottom player's arms become naturally separated from their body and exposed to attack. The transition requires precise hip rotation and leg placement to convert a pinning position into a submission control.\n\nStrategically, this armbar setup serves as a primary offensive option when the opponent's near-side arm becomes isolated during North-South maintenance. The technique creates a powerful dilemma: if the bottom player commits both arms to defending the kimura threat, the armbar becomes available; if they focus on arm defense, the chest pressure and positional control remain devastating. This attack chain makes North-South exponentially more dangerous.\n\nThe mechanical foundation relies on pivoting your body perpendicular to the opponent's arm while maintaining control of their wrist and elbow. Your legs create the fulcrum for the hyperextension by clamping across their chest and shoulder line. Success depends on controlling the arm throughout the transition—any slack allows defensive hitchhiker escapes or guard recovery attempts.",
+  "related_content": [
+    {
+      "name": "North-South",
+      "relationship": "Starting position for this transition"
+    },
+    {
+      "name": "Armbar Control",
+      "relationship": "Primary success outcome position"
+    },
+    {
+      "name": "Armbar Finish",
+      "relationship": "Follow-up finish transition from Armbar Control"
+    },
+    {
+      "name": "North-South to Kimura",
+      "relationship": "Complementary attack creating offensive dilemma"
+    },
+    {
+      "name": "North-South Choke",
+      "relationship": "Alternative submission from same starting position"
+    },
+    {
+      "name": "Armbar from Mount",
+      "relationship": "Related armbar entry with similar finishing mechanics"
+    },
+    {
+      "name": "Armbar from Side Control",
+      "relationship": "Alternative entry to same submission control"
+    },
+    {
+      "name": "Back Take from Top",
+      "relationship": "Transition option when armbar rotation is defended"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Common counter position if rotation fails"
+    },
+    {
+      "name": "Belly Down Armbar",
+      "relationship": "Variant finish against hitchhiker defense"
+    },
+    {
+      "name": "Hitchhiker Escape",
+      "relationship": "Primary defensive escape the attacker must counter"
+    }
+  ],
+  "conditions": [
+    "Established North-South control with chest pressure on opponent's torso",
+    "Near-side arm isolated or drifting away from opponent's body",
+    "Opponent's elbow separated from their ribs creating attack angle",
+    "Stable base with weight distributed through chest, not arms",
+    "Clear rotational path without obstruction from opponent's legs"
+  ],
+  "attacker": {
+    "name": "Armbar from North-South Attacker",
+    "description": "How to execute Armbar from North-South in BJJ. Attacking perspective with setup, execution steps, and counters.",
+    "overview": "The Armbar from North-South represents a systematic submission setup that capitalizes on the inherent arm isolation available from perpendicular chest pressure. This technique exploits the fundamental vulnerability of North-South control—when the top practitioner maintains chest-to-chest pressure, the bottom player's arms become naturally separated from their body and exposed to attack. The transition requires precise hip rotation and leg placement to convert a pinning position into a submission control.\n\nStrategically, this armbar setup serves as a primary offensive option when the opponent's near-side arm becomes isolated during North-South maintenance. The technique creates a powerful dilemma: if the bottom player commits both arms to defending the kimura threat, the armbar becomes available; if they focus on arm defense, the chest pressure and positional control remain devastating. This attack chain makes North-South exponentially more dangerous.\n\nThe mechanical foundation relies on pivoting your body perpendicular to the opponent's arm while maintaining control of their wrist and elbow. Your legs create the fulcrum for the hyperextension by clamping across their chest and shoulder line. Success depends on controlling the arm throughout the transition—any slack allows defensive hitchhiker escapes or guard recovery attempts.",
+    "key_principles": [
+      "Isolate the near-side arm before initiating any rotational movement toward the armbar",
+      "Maintain wrist control as the primary anchor throughout the entire transition sequence",
+      "Hip rotation must be explosive and committed—half-measures allow escape",
+      "Legs create the clamp across the shoulder line before hip extension begins",
+      "Keep the arm tight to your chest during rotation to prevent elbow extraction",
+      "The finishing position requires your knees pinched together with heels driving down",
+      "Thumb orientation controls arm rotation—thumb up creates proper hyperextension angle"
+    ],
+    "setup_requirements": [
+      "Established North-South control with chest pressure on opponent's torso",
+      "Near-side arm isolated with underhook or wrist control secured",
+      "Opponent's elbow separated from their body creating attack angle",
+      "Your base stable with weight distributed through chest, not arms",
+      "Clear path for hip rotation without obstacles from opponent's legs"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Secure wrist control",
+        "description": "From North-South, control the near-side wrist with your same-side hand using a pistol grip. Your thumb wraps around the radial side while fingers secure the ulnar side of their wrist."
+      },
+      {
+        "step_number": 2,
+        "action": "Establish elbow control",
+        "description": "Use your opposite arm to underhook their elbow, pulling it tight against your ribs. This two-on-one control prevents them from bending their arm or pulling it back to their body."
+      },
+      {
+        "step_number": 3,
+        "action": "Begin hip rotation",
+        "description": "Pivot your hips explosively toward their arm, swinging your far-side leg over their face. Your hip bone should move toward their shoulder as you rotate perpendicular to their body."
+      },
+      {
+        "step_number": 4,
+        "action": "Position legs for control",
+        "description": "Land with your near-side leg across their chest below the armpit and far-side leg over their face. Pinch knees together tightly to clamp their shoulder and prevent sitting up."
+      },
+      {
+        "step_number": 5,
+        "action": "Secure arm position",
+        "description": "Pull their wrist to your chest with their thumb pointing up toward the ceiling. Their elbow should rest on your hip bone or lower abdomen, creating the fulcrum for hyperextension."
+      },
+      {
+        "step_number": 6,
+        "action": "Apply breaking pressure",
+        "description": "Elevate your hips while pulling their wrist toward your chest and driving heels downward. The extension should be controlled and progressive, allowing time for the tap."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Hitchhiker escape where opponent rotates toward the trapped arm and extracts elbow",
+        "effectiveness": "High",
+        "your_response": "Maintain heavy leg pressure on their face and follow their rotation, transitioning to mounted armbar or back take if they commit to the escape",
+        "targets_outcome": "North-South/Top"
+      },
+      {
+        "counter": "Stacking defense where opponent drives forward to relieve pressure on elbow",
+        "effectiveness": "Medium",
+        "your_response": "Angle your body away from the stack, keep legs heavy on their shoulder, and use hip extension angle to maintain breaking pressure despite the stack",
+        "targets_outcome": "North-South/Top"
+      },
+      {
+        "counter": "Grip fighting to clasp hands together and prevent arm extension",
+        "effectiveness": "Medium",
+        "your_response": "Attack the grip by wedging your forearm between their hands, or transition to triangle or omoplata if their arm configuration allows",
+        "targets_outcome": "Armbar Control/Top"
+      },
+      {
+        "counter": "Guard recovery by inserting knee between bodies during transition",
+        "effectiveness": "Low",
+        "your_response": "Explosive hip rotation that clears their legs before they can insert a knee, or immediately return to North-South if guard recovery begins",
+        "targets_outcome": "Half Guard/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Releasing chest pressure before securing arm control",
+        "consequence": "Opponent escapes North-South entirely or recovers defensive frames that prevent arm isolation",
+        "correction": "Maintain chest contact until both wrist and elbow control are fully established before initiating any rotation"
+      },
+      {
+        "error": "Slow or uncommitted hip rotation during transition",
+        "consequence": "Opponent has time to defend, extract arm, or insert knee for guard recovery",
+        "correction": "Execute hip rotation as one explosive movement—hesitation kills this technique"
+      },
+      {
+        "error": "Legs positioned too high across opponent's neck instead of shoulder",
+        "consequence": "Creates illegal choke position and fails to control the shoulder joint for armbar mechanics",
+        "correction": "Near leg crosses chest below armpit, far leg controls face—neither should compress the throat"
+      },
+      {
+        "error": "Extending arm with thumb facing down instead of up",
+        "consequence": "Improper angle disperses force across the joint rather than hyperextending the elbow",
+        "correction": "Rotate their arm so thumb points toward ceiling before applying any extension pressure"
+      },
+      {
+        "error": "Knees spread apart during finishing position",
+        "consequence": "Opponent can sit up, extract arm through the gap, or begin stack escape",
+        "correction": "Squeeze knees together like holding a ball, creating a tight clamp on their shoulder"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Week 1-2",
+        "focus": "Positional mechanics",
+        "description": "Practice arm isolation from North-South against a non-resisting partner. Focus on the wrist grip, elbow underhook, and feeling the correct arm position before any rotation. Drill the hip rotation movement without the arm to build muscle memory for the pivot."
+      },
+      {
+        "phase": "Week 3-4",
+        "focus": "Transition timing",
+        "description": "Partner provides light defensive movement during North-South. Practice recognizing when the arm becomes available and timing the rotation. Work on leg positioning and knee pinch in the finishing position."
+      },
+      {
+        "phase": "Week 5-6",
+        "focus": "Defense and counter integration",
+        "description": "Partner attempts common defenses including hitchhiker, stacking, and grip fighting. Learn to adjust and maintain control despite resistance. Chain to alternative submissions when armbar is defended."
+      },
+      {
+        "phase": "Week 7+",
+        "focus": "Live application",
+        "description": "Apply technique in positional sparring starting from North-South. Work on creating the arm isolation organically from the flow of live rolling. Test against training partners of various skill levels."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the primary goal of Armbar from North-South?",
+        "answer": "The primary goal is to transition from the pinning control of North-South into a submission control position (Armbar Control) by isolating the opponent's arm and rotating your body to create a hyperextension angle on their elbow joint. This converts positional dominance into a submission threat."
+      },
+      {
+        "question": "What position do you start Armbar from North-South from?",
+        "answer": "This technique starts from North-South/Top, where you have perpendicular chest pressure across the opponent's torso with your head near their hips and your hips near their head. The position must be established with stable base before the armbar transition begins."
+      },
+      {
+        "question": "What are the key grips needed for Armbar from North-South?",
+        "answer": "The essential grips are a pistol grip on the wrist (thumb wrapping the radial side, fingers on ulnar side) and an elbow underhook that pulls their arm tight to your ribs. This two-on-one control prevents arm extraction and maintains connection throughout the rotation. The wrist grip is the primary anchor that must never release."
+      },
+      {
+        "question": "How should you respond if your opponent attempts the hitchhiker escape?",
+        "answer": "Follow their rotation by adjusting your angle—don't fight directly against the escape direction. Keep heavy leg pressure on their face to slow the rotation. If they commit fully to hitchhiker, transition to mounted armbar by following them into mount, or take their back if their rotation exposes it. The key is staying connected rather than losing the arm entirely."
+      },
+      {
+        "question": "When is the best time to attempt Armbar from North-South?",
+        "answer": "The optimal timing window opens when the opponent's near-side arm drifts away from their body—often during their attempts to create frames or push against your pressure. Also effective when they extend an arm to defend a kimura threat, as this arm extension creates the isolation needed for the armbar. Never attempt when the arm is tight to their body."
+      },
+      {
+        "question": "What is the correct thumb orientation for the finishing position?",
+        "answer": "The opponent's thumb should point toward the ceiling (supinated position). This orientation ensures the hyperextension force is applied directly against the elbow joint's natural bend direction. Thumb pointing down or to the side disperses the force and creates an uncomfortable but non-breaking angle that allows escape."
+      },
+      {
+        "question": "Your opponent stacks forward during the armbar finish—how do you adjust?",
+        "answer": "Angle your body away from the stack direction rather than fighting directly against their forward pressure. Keep your legs heavy on their shoulder to prevent them from completing the stack. Use the angled hip extension to maintain breaking pressure even as they drive forward. If stacking continues, consider transitioning to triangle if their arm configuration allows."
+      },
+      {
+        "question": "What determines whether this technique leads to a finish versus just positional control?",
+        "answer": "The transition leads to Armbar Control (the submission control position), not directly to a finish. From Armbar Control, you can execute the Armbar Finish which leads to game-over. The key factors are: maintaining arm control throughout rotation, achieving proper leg positioning across the shoulder line, and having the correct thumb-up arm orientation before applying extension."
+      },
+      {
+        "question": "Why must the hip rotation be explosive rather than gradual?",
+        "answer": "A gradual rotation gives the opponent time to react—inserting a knee for guard recovery, extracting their elbow, or beginning defensive grips. The explosive rotation overwhelms their reaction time and establishes the armbar position before defensive reflexes engage. Half-committed rotations consistently fail because the transition phase is when you're most vulnerable."
+      },
+      {
+        "question": "What chain attacks become available if the opponent defends by clasping their hands?",
+        "answer": "When they clasp hands, the arm becomes temporarily immobilized but their defensive posture creates new openings. You can wedge your forearm between their hands to break the grip, transition to a triangle by threading your leg under their defending arm, or attack an omoplata if their arm angle permits. The grip defense often exposes other submission entries."
+      }
+    ],
+    "safety_considerations": "The armbar applies hyperextension force to the elbow joint which can cause serious ligament damage or dislocation if applied too quickly or without allowing time for the tap. Always apply finishing pressure progressively, not explosively. In training, release immediately upon feeling the tap or verbal submission. Partners should tap early rather than testing joint flexibility limits. Practitioners with previous elbow injuries should communicate limitations before drilling. Avoid this technique entirely if partner has acute elbow inflammation or injury. The leg position should never compress the throat—adjust leg placement if partner indicates breathing difficulty."
+  },
+  "defender": {
+    "name": "Armbar from North-South Defender",
+    "description": "How to defend against Armbar from North-South in BJJ. Recognition cues, defensive options, and escape strategies.",
+    "overview": "Defending the Armbar from North-South requires early recognition and immediate preventive action, because the transition from stable North-South control to a locked armbar position happens in one explosive movement. The defender's primary challenge is that they are already in a compromised pin where breathing is restricted and arm mobility is limited. Once the attacker secures wrist and elbow control and begins their hip rotation, the window for effective defense narrows dramatically. The bottom player must therefore prioritize keeping their elbows tight to their body and fighting for inside wrist control before the isolation occurs.\n\nThe defensive strategy operates on two timelines: prevention and escape. Prevention focuses on denying the attacker the arm isolation they need by keeping elbows pinned to the ribs, clasping hands together, and using hip movement to disrupt the attacker's base before they can initiate rotation. If prevention fails and the attacker begins rotating, the defender shifts to escape mode—bending the attacked arm, controlling the attacker's leg across the face, and using bridge-and-turn mechanics to either recover North-South bottom (where they are no worse off) or insert a knee for half guard recovery.\n\nThe most dangerous moment for the defender is during the attacker's hip rotation, when the position transitions from a pin to a submission threat. Recognizing the grip changes and weight shifts that precede this rotation is essential. A defender who reacts at the first sign of arm isolation—before the rotation begins—has significantly higher escape rates than one who waits until the armbar is fully locked in.",
+    "key_principles": [
+      "Keep elbows tight to your ribs at all times during North-South bottom to deny the arm isolation needed for the armbar setup",
+      "Fight for inside wrist control the moment you feel the attacker grip your wrist or underhook your elbow—early grip fighting prevents the transition entirely",
+      "Bend the attacked arm immediately if isolation occurs—a bent arm cannot be hyperextended and buys time for escape sequences",
+      "Control the attacker's leg across your face with your free hand to prevent them from clamping down and completing the rotation",
+      "Use hip movement and bridging to disrupt the attacker's base during their rotation—they are most vulnerable mid-transition",
+      "Never extend your arm to push the attacker away, as this creates the exact isolation they need for the armbar"
+    ],
+    "recognition_cues": [
+      "Attacker shifts from maintaining equal chest pressure to focusing control on one of your arms with a distinct wrist grip and elbow underhook—this two-on-one grip change is the primary indicator",
+      "Attacker's hips begin rotating toward one side rather than maintaining the standard perpendicular North-South alignment, often accompanied by their far leg swinging upward",
+      "Attacker's weight shifts from distributed chest pressure across your torso to concentrated pressure along your shoulder line on the attacked arm side",
+      "You feel your near-side elbow being pulled away from your ribs and your wrist being controlled with a firm pistol grip while the attacker's opposite arm threads under your elbow"
+    ],
+    "defensive_options": [
+      {
+        "action": "Clamp elbows tight to ribs and clasp hands together to prevent arm isolation before the rotation begins",
+        "when_to_use": "As soon as you feel the attacker gripping your wrist or underhooking your elbow—this is the highest-percentage prevention window",
+        "targets_outcome": "North-South/Top",
+        "if_successful": "Attacker cannot isolate the arm and must abandon the armbar attempt, returning to standard North-South control where you resume your escape sequence",
+        "risk": "Clasping hands commits both arms to defense, temporarily preventing you from creating frames for North-South escape"
+      },
+      {
+        "action": "Bridge explosively toward the attacker's rotating side and insert your near-side knee between your bodies during their hip rotation",
+        "when_to_use": "During the attacker's hip rotation when their weight is shifting and base is momentarily compromised—timing is critical as this window lasts less than one second",
+        "targets_outcome": "Half Guard/Bottom",
+        "if_successful": "Your knee insertion establishes half guard, converting the submission threat into a guard retention scenario where you have established offensive options",
+        "risk": "Mistiming the bridge allows the attacker to complete the rotation with your knee trapped awkwardly, potentially worsening your position"
+      },
+      {
+        "action": "Bend the attacked arm forcefully, rotate thumb toward the ceiling, and use your free hand to grip the attacker's leg across your face and push it away",
+        "when_to_use": "When the attacker has completed their rotation and you are in the armbar position but the arm is not yet fully extended—this is your last-resort defense",
+        "targets_outcome": "North-South/Top",
+        "if_successful": "Creating space between the attacker's legs and controlling their leg allows you to turn into the attacker and recover to a scramble or return to North-South bottom",
+        "risk": "If the attacker has strong leg control and your arm is already partially extended, this defense may not generate enough space before they finish"
+      },
+      {
+        "action": "Hitchhiker escape by rotating your thumb toward your own head and turning your body away from the attacker while sliding your elbow across their hips",
+        "when_to_use": "When the attacker has established the armbar position but their legs are not tightly clamped—the escape requires enough space to rotate your elbow through",
+        "targets_outcome": "North-South/Top",
+        "if_successful": "You extract your arm completely and can turn to turtle or recover to a neutral position, resetting the exchange entirely",
+        "risk": "Experienced attackers follow your rotation and transition to belly-down armbar or back take, which can be worse than the original armbar"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "North-South/Top",
+        "how": "Prevent arm isolation by keeping elbows tight and fighting grips early, or successfully escape the armbar through hitchhiker escape or arm extraction, returning to North-South bottom where you can resume standard escape sequences"
+      },
+      {
+        "outcome": "Half Guard/Bottom",
+        "how": "Insert your knee between your bodies during the attacker's rotation phase by timing a bridge when their weight shifts. The knee creates a frame that converts the submission attempt into a guard retention battle where you have sweeping and back-taking options"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Extending the arm to push the attacker away when feeling North-South pressure",
+        "consequence": "Creates the exact arm isolation the attacker needs—a straight arm away from the body is the ideal setup for the armbar transition",
+        "correction": "Keep elbows glued to your ribs and use forearm frames against the attacker's chest rather than pushing with extended arms"
+      },
+      {
+        "error": "Attempting to bridge and roll directly away from the attacker during the armbar rather than turning into them",
+        "consequence": "Rolling away extends the arm further and gives the attacker a clean angle to finish the hyperextension with gravity assistance",
+        "correction": "Bridge toward the attacker and turn into the armbar position, stacking their hips and reducing the extension angle on your elbow"
+      },
+      {
+        "error": "Ignoring the leg across the face and only focusing on freeing the trapped arm",
+        "consequence": "The leg across the face is the primary mechanism preventing you from sitting up—without addressing it, all arm escape attempts fail because the attacker can drop back freely",
+        "correction": "Use your free hand to grip and push the attacker's leg off your face before committing to arm extraction, creating the space needed to sit up and recover"
+      },
+      {
+        "error": "Panicking and using explosive muscular effort to rip the arm free without technical setup",
+        "consequence": "Rapid energy depletion without meaningful progress, and the explosive pull often straightens the arm into the exact finishing angle the attacker wants",
+        "correction": "Stay calm, bend the arm first, establish thumb-up position, control the leg, then execute a technical escape sequence rather than raw power extraction"
+      },
+      {
+        "error": "Waiting too long to react to the initial arm isolation before the rotation begins",
+        "consequence": "Once the attacker completes the hip rotation and establishes leg control, escape success rates drop dramatically compared to early prevention",
+        "correction": "React immediately to any two-on-one grip on your arm—the moment you feel wrist control plus elbow underhook, begin your defensive response before the rotation starts"
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the earliest recognition cue that an Armbar from North-South is being attempted?",
+        "answer": "The earliest cue is the attacker shifting from distributed chest pressure to focused two-on-one control on one arm—specifically a pistol grip on your wrist combined with an underhook on your elbow. This grip change precedes the hip rotation and represents the best defensive window because the attacker has not yet begun the transition."
+      },
+      {
+        "question": "Why is extending your arm to push the attacker away the worst possible defensive response?",
+        "answer": "Extending your arm creates the exact conditions the attacker needs: an isolated arm separated from your body with the elbow exposed. The attacker already has positional advantage from North-South, so a straight arm away from your torso is essentially handing them the setup. Keep elbows tight to ribs and use forearm frames instead."
+      },
+      {
+        "question": "Your arm has been isolated and the attacker is mid-rotation—what is your immediate defensive priority?",
+        "answer": "Immediately bend the attacked arm as hard as possible and rotate your thumb toward the ceiling to strengthen the elbow joint structure. Simultaneously bridge your hips toward the attacker to disrupt their rotation and try to insert your near-side knee between your bodies. The bent arm buys time and the knee insertion can convert the situation to half guard."
+      },
+      {
+        "question": "When is the attacker most vulnerable during the Armbar from North-South transition?",
+        "answer": "The attacker is most vulnerable during the hip rotation phase, because their weight is shifting from stable North-South pressure to a transitional position. Their base is momentarily compromised as they swing their leg over. A well-timed bridge during this rotation can disrupt their balance and prevent the armbar from being established."
+      },
+      {
+        "question": "What makes the hitchhiker escape risky against experienced attackers?",
+        "answer": "Experienced attackers anticipate the hitchhiker rotation and follow it, transitioning to a belly-down armbar that eliminates the escape direction entirely, or using the rotation to take the back. The hitchhiker works best when the attacker's legs are loose and they are not expecting the rotation, but against a prepared opponent it can lead to worse positions."
+      },
+      {
+        "question": "How does the kimura-armbar dilemma affect your defensive strategy from North-South bottom?",
+        "answer": "From North-South bottom, bending your arm to defend the armbar exposes you to the kimura, while extending your arm to defend the kimura exposes you to the armbar. The solution is to keep your elbow tight to your ribs without extending or over-bending—maintain a neutral arm position and focus on hip movement and frames rather than committing to defending either specific submission."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Week 1-2",
+        "focus": "Recognition and prevention",
+        "description": "Partner slowly demonstrates the arm isolation and rotation from North-South while you practice recognizing the grip changes and weight shifts. Focus on keeping elbows tight, clasping hands defensively, and identifying the moment the attacker commits to the armbar. No resistance from the attacker during grip fighting."
+      },
+      {
+        "phase": "Week 3-4",
+        "focus": "Escape mechanics",
+        "description": "Partner establishes the armbar position at varying depths of control. Practice each escape individually: arm bending with thumb-up rotation, leg control and push-off, hitchhiker escape, and bridge-to-knee-insertion. Partner provides 50% resistance and resets when escape succeeds."
+      },
+      {
+        "phase": "Week 5-6",
+        "focus": "Timing and live defense",
+        "description": "Partner attacks the armbar from North-South at full speed with moderate resistance. Defender must choose the appropriate defense based on the depth of the attack: prevention if early, knee insertion if mid-rotation, arm defense and escape if locked in. Build decision-making under pressure."
+      },
+      {
+        "phase": "Week 7+",
+        "focus": "Positional sparring integration",
+        "description": "Full positional sparring starting from North-South bottom. Partner may attack armbar, kimura, or North-South choke. Defender must read the attack and apply the correct defensive strategy. Progress to full rolling where you actively create and escape North-South scenarios."
+      }
+    ]
+  },
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Spinning Armbar",
+      "description": "Rather than pivoting in place, spin your entire body around the arm like a compass needle. This creates more momentum and can overwhelm a defender who expects the standard rotation.",
+      "when_to_use": "When opponent is actively defending and standard rotation is being blocked"
+    },
+    {
+      "variant_name": "Far-side Armbar",
+      "description": "Attack the arm on the opposite side by threading under their head and controlling the far wrist. Requires more body movement but catches opponents focused on defending the near-side arm.",
+      "when_to_use": "When near-side arm is heavily defended or tucked tight to body"
+    },
+    {
+      "variant_name": "Belly-down Armbar",
+      "description": "Instead of finishing on your back, rotate past perpendicular into a belly-down position. This prevents the hitchhiker escape and allows for greater control of mobile opponents.",
+      "when_to_use": "Against flexible opponents who excel at hitchhiker escapes"
+    }
+  ],
+  "position_integration": "The Armbar from North-South is a cornerstone attack within the North-South control system, working in direct combination with the Kimura and North-South choke threats. When an opponent defends the kimura by extending their arm, the armbar becomes available. Conversely, defending the armbar by bending the arm exposes the kimura. This creates the fundamental attacking dilemma from North-South that makes the position so dangerous. The technique also connects to the broader armbar family—skills developed here transfer directly to armbars from mount, guard, and back control. Additionally, the armbar attempt can lead to back takes when opponents over-commit to rotation escapes, integrating with your overall positional advancement game."
+}

@@ -31,7 +31,6 @@ interface Options {
   rssFullHtml: boolean
   includeEmptyFiles: boolean
   contentTruncateLength?: number
-  enableGzipCompression?: boolean
 }
 
 const defaultOptions: Options = {
@@ -41,7 +40,6 @@ const defaultOptions: Options = {
   rssFullHtml: false,
   includeEmptyFiles: true,
   contentTruncateLength: 3000, // Truncate content to 3000 chars to reduce file size
-  enableGzipCompression: true, // Gzip compress to stay under Cloudflare 25MB limit
 }
 
 function generateSiteMap(cfg: GlobalConfiguration, idx: ContentIndex): string {
@@ -195,19 +193,16 @@ export const ContentIndex: QuartzEmitterPlugin<Partial<Options>> = (opts) => {
         }),
       )
 
-      // Option 2: Write gzip compressed version if enabled
-      if (opts?.enableGzipCompression) {
-        const compressed = await gzipAsync(Buffer.from(jsonContent, "utf-8"))
-        const fpGz = joinSegments("static", "contentIndex") as FullSlug
-        emitted.push(
-          await write({
-            ctx,
-            content: compressed, // Write as binary buffer
-            slug: fpGz,
-            ext: ".json.gz",
-          }),
-        )
-      }
+      // Write gzip compressed version (saves ~70-80% bandwidth)
+      const compressed = await gzipAsync(Buffer.from(jsonContent, "utf-8"))
+      emitted.push(
+        await write({
+          ctx,
+          content: compressed,
+          slug: fp,
+          ext: ".json.gz",
+        }),
+      )
 
       return emitted
     },

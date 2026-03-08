@@ -1,0 +1,326 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "BJJ Principle Template Schema V3",
+  "description": "Standardized JSON schema for BJJ principle pages - strict 12-section structure",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "name",
+    "description",
+    "tags",
+    "application_level",
+    "complexity_level",
+    "development_timeline",
+    "overview",
+    "key_principles",
+    "component_skills",
+    "principle_relationships",
+    "application_contexts",
+    "decision_framework",
+    "common_errors",
+    "training_approaches",
+    "developmental_metrics",
+    "related_content"
+  ],
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "Principle name (must match filename without .json)",
+      "minLength": 3,
+      "examples": [
+        "Base Maintenance",
+        "Action and Reaction"
+      ]
+    },
+    "description": {
+      "type": "string",
+      "description": "SEO meta description 150-160 characters",
+      "minLength": 140,
+      "maxLength": 180,
+      "examples": [
+        "Understand Base Maintenance in BJJ. Learn stability principles, weight distribution, cross-position application."
+      ]
+    },
+    "tags": {
+      "type": "array",
+      "description": "Content tags (minimum 3)",
+      "minItems": 3,
+      "items": {
+        "type": "string"
+      },
+      "examples": [
+        [
+          "bjj",
+          "principle",
+          "base",
+          "stability"
+        ]
+      ]
+    },
+    "application_level": {
+      "type": "string",
+      "enum": [
+        "Fundamental",
+        "Intermediate",
+        "Advanced",
+        "Expert"
+      ],
+      "description": "When this principle becomes relevant"
+    },
+    "complexity_level": {
+      "type": "string",
+      "enum": [
+        "Low",
+        "Medium",
+        "High"
+      ]
+    },
+    "development_timeline": {
+      "type": "string",
+      "examples": [
+        "Beginner to Advanced",
+        "Intermediate to Expert"
+      ]
+    },
+    "overview": {
+      "type": "string",
+      "description": "2-3 paragraph principle description (400+ characters)",
+      "minLength": 400,
+      "examples": [
+        "Base Maintenance is a fundamental principle describing the ability to maintain stable positioning..."
+      ]
+    },
+    "key_principles": {
+      "type": "array",
+      "description": "6-9 fundamental principles",
+      "minItems": 6,
+      "maxItems": 9,
+      "items": {
+        "type": "string"
+      }
+    },
+    "component_skills": {
+      "type": "array",
+      "description": "5-8 discrete sub-skills (50+ character descriptions)",
+      "minItems": 5,
+      "maxItems": 8,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "skill_name",
+          "description"
+        ],
+        "properties": {
+          "skill_name": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string",
+            "minLength": 50
+          }
+        }
+      }
+    },
+    "principle_relationships": {
+      "type": "array",
+      "description": "Network of related principles (3-15 items)",
+      "minItems": 3,
+      "maxItems": 15,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "principle_name",
+          "relationship_type",
+          "description"
+        ],
+        "properties": {
+          "principle_name": {
+            "type": "string"
+          },
+          "relationship_type": {
+            "type": "string",
+            "enum": [
+              "Prerequisite",
+              "Complementary",
+              "Extension",
+              "Alternative",
+              "Advanced form"
+            ]
+          },
+          "description": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "application_contexts": {
+      "type": "array",
+      "description": "Cross-position applications (5-20 items)",
+      "minItems": 5,
+      "maxItems": 20,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "context",
+          "how_applied"
+        ],
+        "properties": {
+          "context": {
+            "type": "string",
+            "description": "Position or scenario where principle applies"
+          },
+          "how_applied": {
+            "type": "string",
+            "description": "How principle manifests in this context"
+          }
+        }
+      }
+    },
+    "decision_framework": {
+      "type": "array",
+      "description": "6-8 steps for applying the principle",
+      "minItems": 6,
+      "maxItems": 8,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "step_number",
+          "decision_point",
+          "action"
+        ],
+        "properties": {
+          "step_number": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "decision_point": {
+            "type": "string"
+          },
+          "action": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "common_errors": {
+      "type": "array",
+      "description": "Common misunderstandings (minimum 5)",
+      "minItems": 5,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "error",
+          "consequence",
+          "correction"
+        ],
+        "properties": {
+          "error": {
+            "type": "string"
+          },
+          "consequence": {
+            "type": "string"
+          },
+          "correction": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "training_approaches": {
+      "type": "array",
+      "description": "4-6 training methods",
+      "minItems": 4,
+      "maxItems": 6,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "approach_name",
+          "description",
+          "focus"
+        ],
+        "properties": {
+          "approach_name": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          },
+          "focus": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "developmental_metrics": {
+      "type": "array",
+      "description": "Observable skill markers at 4 levels (exactly 4)",
+      "minItems": 4,
+      "maxItems": 4,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "level",
+          "observable_behaviors"
+        ],
+        "properties": {
+          "level": {
+            "type": "string",
+            "enum": [
+              "Beginner",
+              "Intermediate",
+              "Advanced",
+              "Expert"
+            ]
+          },
+          "observable_behaviors": {
+            "type": "array",
+            "minItems": 3,
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "related_content": {
+      "type": "array",
+      "description": "Related positions/transitions/principles (3-15 items)",
+      "minItems": 3,
+      "maxItems": 15,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "name",
+          "content_type",
+          "relationship"
+        ],
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "content_type": {
+            "type": "string",
+            "enum": [
+              "Position",
+              "Transition",
+              "Submission",
+              "Principle",
+              "System"
+            ]
+          },
+          "relationship": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

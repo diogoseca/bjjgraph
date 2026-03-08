@@ -1,0 +1,409 @@
+{
+  "name": "Arm Extraction from Clamp Guard",
+  "description": "Master arm extraction from clamp guard in BJJ. Complete guide to freeing your trapped arm safely while avoiding submissions and maintaining top position.",
+  "tags": [
+    "bjj",
+    "transition",
+    "escape",
+    "clamp-guard",
+    "arm-extraction",
+    "top-player",
+    "guard-passing",
+    "no-gi"
+  ],
+  "from_position": "Clamp Guard/Top",
+  "outcomes": [
+    {
+      "to": "Open Guard/Top",
+      "probability": 50,
+      "result": "success"
+    },
+    {
+      "to": "Clamp Guard/Top",
+      "probability": 30,
+      "result": "failure"
+    },
+    {
+      "to": "Armbar Control/Bottom",
+      "probability": 20,
+      "result": "counter"
+    }
+  ],
+  "success_rate": 50,
+  "overview": "Arm Extraction from Clamp Guard is the top player's primary escape technique when their arm becomes trapped between the bottom player's legs in clamp guard. The clamp guard immobilizes one arm through shin-on-bicep pressure, creating an asymmetric control situation where the guard player has both hands free while the top player operates with a significant structural disadvantage. Successful extraction requires precise mechanics because the direction and method of extraction directly determines whether the top player escapes cleanly or feeds into the guard player's submission chain.\n\nThe critical challenge is that every intuitive extraction method plays into the guard player's offensive system. Pulling the arm straight back exposes the elbow for an armbar. Circling the arm outward opens the pathway to a triangle or omoplata. Driving forward into the clamp creates sweep opportunities. The top player must use a combination of posture management, angle creation, and rotational extraction mechanics that neutralize the guard player's pre-set submission triggers before committing to the extraction.\n\nTiming is equally important as technique. The longer the arm remains trapped, the deeper the bottom player consolidates control and sets up attacks. Early extraction attempts when the clamp is still shallow succeed at significantly higher rates than attempts against an established deep clamp with supplementary wrist control and optimal hip angle. Recognizing the clamp entry and responding within the first two to three seconds before the bottom player establishes wrist control is the highest-percentage window for successful extraction.",
+  "conditions": [
+    "Opponent has established clamp guard with shin positioned across your bicep, trapping your arm between their legs",
+    "Your arm is isolated from your defensive framework with reduced ability to post, frame, or grip fight",
+    "You maintain sufficient base and posture to initiate the extraction sequence without being immediately swept",
+    "The guard player has not yet committed to a submission entry from the clamp position"
+  ],
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Standing Extraction",
+      "description": "Rise to full standing while maintaining base to create vertical separation between your arm and the opponent's clamping legs. The standing posture uses gravity to weaken the clamp and allows you to use your body weight to drive the extraction downward through the loosened gap.",
+      "when_to_use": "When the opponent's clamp is deep with shin firmly on bicep and ground-based extraction methods have failed. Standing creates the most dramatic change in leverage dynamics."
+    },
+    {
+      "variant_name": "Stacking Extraction",
+      "description": "Drive forward aggressively to stack the opponent's hips over their shoulders, compressing their body and weakening the bilateral leg pressure. Extract the arm while their legs are loaded with your body weight and unable to squeeze effectively against the compression.",
+      "when_to_use": "When the opponent has broken your posture and you cannot achieve upright positioning. Use their forward pull against them by continuing the momentum into a stack."
+    },
+    {
+      "variant_name": "Backstep Extraction",
+      "description": "Step your outside leg back and around while rotating your body away from the trapped arm. This creates a spinning extraction path that uses your entire body rotation rather than just arm strength to pull through the clamp, often opening leg drag passing opportunities.",
+      "when_to_use": "When the opponent has strong bilateral clamp but weak far-side hip control. The backstep also creates passing opportunities if the extraction succeeds during the rotation."
+    }
+  ],
+  "position_integration": "Arm extraction from clamp guard is a critical defensive skill within the guard passing system. When the top player's arm is trapped in clamp guard, all standard passing sequences are neutralized until the arm is freed. This transition bridges the gap between being stuck in a deteriorating position and resuming offensive guard passing. Successful extraction returns the top player to open guard top, where the full spectrum of passing techniques becomes available again. The extraction mechanics transfer directly to escaping spider guard bicep controls and lasso guard entanglements, making this a foundational skill for dealing with any guard system that relies on arm isolation through leg-based controls.",
+  "related_content": [
+    {
+      "name": "Clamp Guard",
+      "relationship": "Source position where the arm becomes trapped between opponent's legs"
+    },
+    {
+      "name": "Open Guard",
+      "relationship": "Target position after successful extraction, where passing resumes"
+    },
+    {
+      "name": "Armbar Control",
+      "relationship": "Counter outcome position when extraction feeds into opponent's armbar"
+    },
+    {
+      "name": "Arm Extraction",
+      "relationship": "Related general arm extraction technique applicable across guard positions"
+    },
+    {
+      "name": "Armbar from Clamp Guard",
+      "relationship": "Primary submission threat the guard player attacks during extraction attempts"
+    },
+    {
+      "name": "Triangle Setup",
+      "relationship": "Secondary submission threat when extraction circles outward past the shoulder"
+    },
+    {
+      "name": "Lasso Guard",
+      "relationship": "Alternative arm entanglement guard using similar leg-on-arm control concepts"
+    },
+    {
+      "name": "Combat Base",
+      "relationship": "Posture variation used during extraction to maximize base and leverage"
+    },
+    {
+      "name": "Headquarters Position",
+      "relationship": "Passing position commonly established immediately after successful extraction"
+    },
+    {
+      "name": "Collar Sleeve Guard",
+      "relationship": "Related guard system that can transition into clamp guard if arm control deepens"
+    }
+  ],
+  "attacker": {
+    "name": "Arm Extraction from Clamp Guard Attacker",
+    "description": "Learn to extract your trapped arm from clamp guard in BJJ. Step-by-step guide covering rotational mechanics, grip stripping, and safe extraction paths that avoid feeding submissions.",
+    "overview": "As the top player caught in clamp guard, your immediate priority is freeing your trapped arm before the bottom player can deepen control and launch submissions. The extraction demands precise rotational mechanics rather than raw pulling force, because every linear escape direction feeds directly into the guard player's pre-loaded armbar, triangle, or omoplata entries. You must systematically address each layer of control — wrist grip, shin-on-bicep pressure, and hip angle — before committing to the extraction motion. Understanding that the clamp guard deteriorates for you with every passing second creates appropriate urgency: extract early while the clamp is shallow, or face increasingly dangerous submission threats as the guard player consolidates position and loads attacks.",
+    "key_principles": [
+      "Strip wrist grips before attempting extraction — the wrist grip is the anchor that prevents rotational escape and allows the guard player to redirect your arm into submissions",
+      "Use internal rotation of the trapped arm with thumb toward the mat to create the smallest cross-section through the clamp gap and reduce shin-on-bicep contact area",
+      "Maintain strong posture throughout extraction with head up, spine aligned, and weight distributed through knees to prevent the guard player from breaking posture and deepening control",
+      "Create lateral angle change before extracting to reduce bilateral clamp pressure, directing the extraction through the weakest structural point of the leg configuration",
+      "Drive your knee forward on the trapped arm side as a mechanical wedge between the opponent's legs to progressively open the clamp gap with skeletal leverage",
+      "Keep your free hand actively controlling the opponent's hip or knee throughout extraction to prevent angle adjustments and re-clamping during the escape",
+      "Transition immediately to a passing position after extraction — pausing in open guard without established grips allows the opponent to re-establish the clamp or enter another guard"
+    ],
+    "setup_requirements": [
+      "Establish upright posture with head above hips to prevent the guard player from pulling you forward into deeper clamp control",
+      "Identify clamp depth by assessing whether shin contact is on bicep (deep) or forearm (shallow), which determines extraction difficulty and method selection",
+      "Locate and assess the opponent's wrist grip on your trapped hand — this grip must be broken before extraction can succeed",
+      "Establish free hand control on the opponent's hip, knee, or far leg to maintain base and prevent angle adjustments during extraction",
+      "Distribute weight through both knees with slight bias toward the trapped arm side to generate the driving force needed for the knee wedge"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Establish posture",
+        "description": "Immediately sit up tall with your spine aligned and head above your hips. Press your free hand on the opponent's torso or hip to create separation. Resist any forward pulls on your collar or head by driving your hips back and engaging your core to prevent being folded forward into a deeper clamp."
+      },
+      {
+        "step_number": 2,
+        "action": "Strip wrist grip",
+        "description": "Use your free hand to address the opponent's grip on your trapped wrist. Apply a two-on-one grip break by cupping over their gripping hand and peeling their fingers while simultaneously rotating your trapped wrist toward their thumb, the weakest point of any grip. Do not attempt extraction until this grip is broken or significantly weakened."
+      },
+      {
+        "step_number": 3,
+        "action": "Establish hip control",
+        "description": "Place your free hand firmly on the opponent's far hip or same-side knee. This control point serves dual purposes: it prevents the opponent from adjusting their hip angle to re-tighten the clamp, and it provides a pushing frame that maintains your base against sweep attempts during the extraction sequence."
+      },
+      {
+        "step_number": 4,
+        "action": "Rotate trapped arm internally",
+        "description": "Turn your trapped forearm so that your thumb points toward the mat using internal rotation. This reduces the cross-sectional profile of your arm within the clamp, making your forearm and elbow the narrowest possible shape to slide through the gap between the opponent's legs. The rotation also pulls your elbow tighter to your body."
+      },
+      {
+        "step_number": 5,
+        "action": "Drive knee forward as wedge",
+        "description": "Advance your knee on the trapped arm side forward between the opponent's clamping legs, using it as a mechanical wedge to progressively separate their legs. The knee creates structural separation that your arm strength alone cannot achieve, opening the gap through which your arm will extract. Drive steadily rather than explosively to maintain balance."
+      },
+      {
+        "step_number": 6,
+        "action": "Create lateral angle change",
+        "description": "Shift your body weight and hips laterally away from the trapped arm side by approximately fifteen to twenty degrees. This angle change reduces the bilateral pressure of the clamp because the opponent's legs can no longer squeeze symmetrically. The angle also misaligns their shin from the thickest part of your bicep."
+      },
+      {
+        "step_number": 7,
+        "action": "Extract arm through gap",
+        "description": "With the clamp weakened by the knee wedge and angle change, pull your arm out in a smooth circular motion toward your own hip rather than straight backward. Circle your elbow inward while maintaining internal rotation. The circular path avoids triggering the armbar from linear pulling and prevents feeding the triangle from outward circulation."
+      },
+      {
+        "step_number": 8,
+        "action": "Transition to passing position",
+        "description": "The moment your arm clears the clamp, immediately establish bilateral grip control on the opponent's legs with both hands on their knees or ankles. Step back into a passing stance or drop into headquarters position. Do not pause after extraction; the opponent will immediately attempt to re-establish the clamp or transition to another guard if given time."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Opponent tightens clamp and re-angles hips to follow your movement before extraction completes",
+        "effectiveness": "High",
+        "your_response": "Reset and re-strip their wrist grip before re-attempting. Increase knee wedge pressure and address their hip angle by pushing their far hip with your free hand before the next extraction attempt.",
+        "targets_outcome": "Clamp Guard/Top"
+      },
+      {
+        "counter": "Opponent attacks armbar by extending hips against your shoulder as your arm straightens during extraction",
+        "effectiveness": "High",
+        "your_response": "Immediately bend your elbow and rotate thumb upward for armbar defense. Do not continue extraction if your arm begins to straighten — retract toward your body and re-establish posture before attempting a different extraction angle.",
+        "targets_outcome": "Armbar Control/Bottom"
+      },
+      {
+        "counter": "Opponent shoots their leg over your shoulder to enter triangle when you create lateral angle during extraction",
+        "effectiveness": "Medium",
+        "your_response": "Keep your posture tall and drive your trapped-side shoulder forward into their thigh to prevent the leg from clearing over your head. If the triangle is partially locked, posture immediately and begin standard triangle defense protocols.",
+        "targets_outcome": "Clamp Guard/Top"
+      },
+      {
+        "counter": "Opponent uses sweep attempt exploiting your compromised base during the weight shift phase of extraction",
+        "effectiveness": "Medium",
+        "your_response": "Maintain wide base with your free leg posted far to the side. Keep your center of gravity low and distribute weight evenly rather than fully committing to the extraction direction. If partially swept, post with your free hand and recover base before continuing.",
+        "targets_outcome": "Clamp Guard/Top"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Pulling the trapped arm straight backward against the clamp in a linear motion",
+        "consequence": "Linear backward pulling straightens your arm and directly loads the armbar. The guard player simply needs to elevate their hips to finish the submission as you create the extension angle for them.",
+        "correction": "Use circular extraction motion with internal rotation. Circle your elbow toward your own hip rather than pulling straight away from the opponent, keeping the arm bent throughout the motion."
+      },
+      {
+        "error": "Attempting extraction without stripping the opponent's wrist grip first",
+        "consequence": "The wrist grip anchors your hand in place while you try to move your elbow, effectively straightening your arm under tension and creating the exact configuration needed for an armbar finish.",
+        "correction": "Always break the wrist grip as the first action in the extraction sequence. Use a two-on-one grip break targeting their thumb as the weak point of the grip before any extraction motion."
+      },
+      {
+        "error": "Leaning forward into the opponent to create pressure during extraction",
+        "consequence": "Forward lean loads your weight onto the clamp side, deepens the shin-on-bicep contact, and removes your base on the free side, creating immediate sweep opportunities for the guard player.",
+        "correction": "Maintain upright posture with hips back. Use your knee as the forward-driving element rather than your upper body. Keep weight distributed evenly through both knees throughout the extraction."
+      },
+      {
+        "error": "Neglecting base during the extraction by focusing entirely on the trapped arm",
+        "consequence": "The guard player exploits your narrow focus by attacking sweeps with their free hands. Losing your base during extraction often results in being swept directly into bottom position.",
+        "correction": "Maintain a wide base with your free leg posted to the side throughout the extraction. Keep your free hand on the opponent's hip or knee for additional stabilization against sweep attempts."
+      },
+      {
+        "error": "Using explosive jerking motions to rip the arm free from the clamp",
+        "consequence": "Explosive pulls telegraph the extraction direction, allowing the guard player to time their counter-submission precisely. The momentum also compromises your base and can carry you into the submission angle.",
+        "correction": "Use steady, progressive extraction pressure rather than explosive movements. Combine the knee wedge, angle change, and rotation as a continuous, controlled sequence with constant base awareness."
+      },
+      {
+        "error": "Stopping after extraction without immediately establishing passing grips on the opponent's legs",
+        "consequence": "The brief pause allows the opponent to re-engage their legs, establish a new guard variation, or re-clamp the same arm. You return to the same trapped position within seconds.",
+        "correction": "Treat extraction and passing grip establishment as one continuous movement. The moment your arm clears, both hands should control the opponent's legs and you should be stepping into a passing stance."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Mechanics",
+        "focus": "Extraction motion and arm rotation",
+        "description": "Practice the internal rotation and circular extraction path with a cooperative partner. Establish the clamp at 30% resistance and perform 20 repetitions per side, focusing on the thumb-down rotation, knee wedge placement, and circular elbow path. No resistance on the extraction itself — build the motor pattern first."
+      },
+      {
+        "phase": "Phase 2: Grip Stripping",
+        "focus": "Breaking wrist control under progressive resistance",
+        "description": "Partner establishes clamp guard with active wrist grip at 50% resistance. Practice the two-on-one grip break followed immediately by the extraction sequence. Focus on the seamless transition from grip break to extraction without pausing. 15 repetitions per side with partner re-gripping between attempts."
+      },
+      {
+        "phase": "Phase 3: Counter Recognition",
+        "focus": "Identifying and avoiding submission traps during extraction",
+        "description": "Partner establishes clamp guard and actively attacks armbar, triangle, or sweep during extraction attempts at 60% resistance. Develop the ability to recognize which counter is loading based on the opponent's hip and leg movement and adjust the extraction angle accordingly. Practice aborting the extraction and resetting when a counter is detected."
+      },
+      {
+        "phase": "Phase 4: Live Integration",
+        "focus": "Extraction under full resistance with immediate passing",
+        "description": "Positional sparring starting in clamp guard. Top player must extract and establish a passing position within 30 seconds. Bottom player works at 80-100% resistance using full offensive toolbox. Score extraction as a point and successful pass as two points. Develop timing, pressure management, and seamless transition from extraction to guard passing."
+      },
+      {
+        "phase": "Phase 5: Chain Response",
+        "focus": "Extraction as part of complete passing sequences",
+        "description": "Full guard passing rounds where partner specifically targets clamp guard entries during open guard engagement. Develop the ability to recognize the clamp attempt, address it immediately, extract, and continue passing without losing momentum. Integrate with broader guard passing strategy rather than treating extraction as an isolated skill."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the most critical grip to break before attempting arm extraction from clamp guard?",
+        "answer": "The wrist grip on your trapped hand is the most critical grip to break first. This grip anchors your hand in place and prevents the internal rotation needed for extraction. When you attempt to move your elbow without addressing the wrist grip, you straighten your arm under tension, creating the exact configuration the guard player needs for an armbar finish. Use a two-on-one grip break targeting the opponent's thumb as the weakest structural point before any extraction attempt."
+      },
+      {
+        "question": "Your opponent has a deep clamp with their shin firmly across your bicep — how does this change your extraction approach compared to a shallow forearm-level clamp?",
+        "answer": "A deep bicep-level clamp requires significantly more preparation before extraction. You must invest additional time in the knee wedge and angle change to mechanically separate the clamping legs before attempting the circular pull. A shallow forearm-level clamp can often be extracted with just internal rotation and a quick circular motion because the forearm's tapered shape naturally slides through the gap. For deep clamps, consider combining the extraction with a posture change to standing, which creates vertical separation that dramatically weakens the bilateral leg pressure."
+      },
+      {
+        "question": "What direction should you rotate your trapped arm during extraction and why?",
+        "answer": "Rotate your trapped arm internally so your thumb points toward the mat. This achieves two critical objectives: it reduces the cross-sectional profile of your forearm and elbow to the narrowest possible shape for sliding through the clamp gap, and it pulls your elbow tighter against your ribcage, shortening the lever arm the opponent can use for armbar attacks. External rotation with thumb up would widen your elbow profile and is the finishing position for the armbar — exactly the configuration you need to avoid during extraction."
+      },
+      {
+        "question": "You begin extracting and feel your opponent's hips elevate against your shoulder — what is happening and how do you respond?",
+        "answer": "The hip elevation indicates the opponent is loading an armbar. Your extraction motion has likely straightened your arm enough to create the extension angle they need for the finish. Immediately abandon the extraction attempt, bend your elbow aggressively, and rotate your thumb toward the ceiling for armbar defense. Pull your elbow toward your own ribcage and re-establish posture before reattempting. Never fight through an armbar load — reset completely and address the angle that created the threat before trying again."
+      },
+      {
+        "question": "How does the knee wedge function during extraction and where exactly should it be positioned?",
+        "answer": "The knee on your trapped arm side drives forward between the opponent's clamping legs, positioned just below where their legs cross or overlap. It functions as a mechanical separator that progressively opens the gap between their legs through skeletal leverage rather than muscular effort. Position your shin bone against the inside of their bottom thigh, using bone-on-bone pressure to spread the clamp. This mechanical advantage is essential because your arm alone cannot overcome the combined squeezing force of both legs applying bilateral pressure."
+      },
+      {
+        "question": "Your opponent releases the clamp momentarily but re-clamps as you begin withdrawing your arm — what adjustment prevents this?",
+        "answer": "Speed your extraction through the moment the clamp releases rather than pausing in the gap. The re-clamp happens because you create space but do not exploit it immediately. Combine the knee wedge separation with a simultaneous arm withdrawal so the extraction happens in the same instant the gap opens. Additionally, as your arm begins to clear, use your free hand to push their top clamping leg away from your arm toward their opposite hip, physically preventing the re-clamp by controlling the leg that would re-engage."
+      },
+      {
+        "question": "What base adjustment prevents being swept during the extraction sequence?",
+        "answer": "Post your free leg wide to the opposite side with your foot planted firmly on the mat, creating a tripod base with your two knees and one posted foot. Keep your center of gravity low by sitting back on your heels rather than rising up during the extraction. Your free hand should maintain contact with the opponent's hip or knee throughout — this contact point provides both anti-sweep stability and prevents the opponent from changing their angle. If you feel your base compromised at any point, pause the extraction and re-establish base before continuing."
+      },
+      {
+        "question": "After successfully extracting your arm, what are your first two actions within the next second?",
+        "answer": "First, immediately establish bilateral leg control with both hands gripping the opponent's knees, ankles, or pants to prevent them from re-engaging any guard configuration. Second, step back or laterally into a passing stance — either standing with hips back or dropping into headquarters position with one knee between their legs. The extraction is not complete until you have passing grips established. Any pause between extraction and grip establishment allows the opponent to shoot their legs back into clamp position, spider guard, or lasso guard, negating all the work invested in the extraction."
+      }
+    ],
+    "safety_considerations": "Arm extraction carries inherent risk of elbow hyperextension if the extraction direction straightens the arm while the opponent maintains clamp pressure. Never force a linear backward pull against a deep clamp. If you feel extension pressure on your elbow during any extraction attempt, immediately abandon the technique and reset your position. The opponent's armbar threat is real throughout this transition — tap without hesitation if your arm straightens beyond your control to prevent ligament damage. During training, communicate with your partner about pressure level and extraction speed to ensure safe practice at all intensity levels."
+  },
+  "defender": {
+    "name": "Arm Extraction from Clamp Guard Defender",
+    "description": "Learn to maintain clamp guard and counter arm extraction attempts in BJJ. Recognition cues, retention mechanics, and submission entries off opponent's failed extraction sequences.",
+    "overview": "As the bottom player maintaining clamp guard, your goal during the opponent's extraction attempt is to either retain the clamp or convert their escape effort into a submission entry. Every extraction method creates a specific vulnerability: linear pulling opens the armbar, outward circulation opens the triangle, and forward driving opens sweeps. Your defensive strategy is fundamentally offensive — you are not passively holding the clamp but actively reading the extraction direction and channeling it into your pre-loaded attacks. The longer you maintain the clamp and the more extraction attempts you force the opponent to make, the more fatigued their trapped arm becomes and the higher your submission conversion rate climbs with each failed extraction.",
+    "key_principles": [
+      "Maintain shin-on-bicep positioning by adjusting hip angle to follow the opponent's arm movement — never let the clamp slide to the forearm where retention drops significantly",
+      "Keep wrist control on the trapped hand as the primary anchor that prevents internal rotation and blocks the circular extraction paths the top player needs",
+      "Use extraction attempts as triggers for submissions rather than fighting statically to hold the clamp — the opponent's movement creates your offensive openings",
+      "Angle your hips continuously to maintain optimal clamp leverage, rotating to follow the opponent's angle changes and keeping bilateral pressure symmetric",
+      "Control the opponent's posture with your free hand on their head, collar, or far shoulder to prevent them from sitting up and generating extraction leverage",
+      "Maintain hip connection to the opponent to prevent them from creating the vertical separation needed for standing extraction variants"
+    ],
+    "recognition_cues": [
+      "Opponent postures up suddenly and begins addressing your wrist grip with their free hand, indicating systematic extraction preparation",
+      "Opponent drives their knee forward between your legs, creating a mechanical wedge to separate your clamping legs",
+      "Opponent rotates their trapped forearm internally with thumb turning toward the mat, reducing their arm profile for extraction through the gap",
+      "Opponent shifts their weight laterally away from the trapped arm side, creating an angle change to reduce bilateral clamp pressure",
+      "Opponent's free hand moves from your hip to your top clamping leg, signaling they plan to push your leg away during the extraction motion"
+    ],
+    "defensive_options": [
+      {
+        "action": "Tighten clamp and re-angle hips to follow the opponent's lateral movement",
+        "when_to_use": "When the opponent begins any angle change or weight shift during extraction setup, before they commit to the extraction motion",
+        "targets_outcome": "Clamp Guard/Top",
+        "if_successful": "Opponent remains trapped in clamp guard with deepened control, forcing them to restart the entire extraction sequence from scratch",
+        "risk": "Over-committing to hip adjustment may create a momentary gap if timing is slightly off"
+      },
+      {
+        "action": "Attack armbar by extending hips when opponent's arm straightens during backward extraction pull",
+        "when_to_use": "When the opponent pulls their arm backward and their elbow begins to extend past 90 degrees, creating the hyperextension angle needed for the finish",
+        "targets_outcome": "Armbar Control/Bottom",
+        "if_successful": "Transition to armbar control with the isolated arm already partially extended, creating a high-percentage submission finish opportunity",
+        "risk": "If the opponent recognizes the armbar early and bends their elbow, you may lose clamp position entirely during the transition to armbar configuration"
+      },
+      {
+        "action": "Re-grip the wrist immediately after opponent strips your grip to prevent rotational extraction",
+        "when_to_use": "The instant you feel your wrist grip being broken — do not wait for the grip to fully separate before re-engaging with a fresh grip",
+        "targets_outcome": "Clamp Guard/Top",
+        "if_successful": "Opponent must restart the grip-stripping process, buying time and fatiguing their free hand while you maintain the anchor point",
+        "risk": "Repeatedly re-gripping without attacking may allow the opponent to develop better extraction timing through repetition"
+      },
+      {
+        "action": "Threaten triangle by shooting your leg over opponent's shoulder when they create outward angle",
+        "when_to_use": "When the opponent circles their arm outward or creates significant lateral angle change, exposing their neck and shoulder line to your top leg",
+        "targets_outcome": "Clamp Guard/Top",
+        "if_successful": "Enter triangle control with one arm already isolated, dramatically reducing the opponent's defensive options against the choke",
+        "risk": "The triangle attempt requires partially releasing the clamp — if the triangle is not secured, the opponent may escape to open guard entirely"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Clamp Guard/Top",
+        "how": "Maintain shin-on-bicep contact by following the opponent's arm with continuous hip angle adjustments. Re-establish wrist grip immediately whenever it is broken. Use your free hand to control posture and prevent the opponent from generating the upright position needed for extraction leverage. Each failed extraction attempt fatigues their arm and deepens your positional advantage."
+      },
+      {
+        "outcome": "Armbar Control/Bottom",
+        "how": "Read the opponent's extraction direction and attack the armbar when their arm extends during a backward pull. Elevate your hips against their shoulder as their arm straightens, and transition your leg control from clamp configuration to armbar configuration by shooting your top leg across their face while maintaining grip on the wrist."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Holding the clamp passively without threatening attacks when the opponent begins extraction",
+        "consequence": "The opponent systematically addresses each control layer — grip, angle, wedge — without any pressure, eventually extracting cleanly because you offered no offensive threat to interrupt their sequence.",
+        "correction": "Treat every extraction attempt as a submission trigger. The moment they begin extracting, threaten the corresponding submission based on their extraction direction to force them to choose between extraction and defense."
+      },
+      {
+        "error": "Allowing the clamp to slide from bicep to forearm without immediately re-establishing position",
+        "consequence": "Forearm-level clamping provides approximately 40% less retention than bicep-level control. The tapered forearm shape allows easy extraction with minimal technique from the top player.",
+        "correction": "Hip escape immediately to re-seat your shin back onto the bicep. If the slide has progressed past the forearm toward the wrist, transition to the submission entry rather than fighting to re-establish a deteriorated clamp."
+      },
+      {
+        "error": "Releasing posture control with both hands to reinforce the clamp retention with grip strength",
+        "consequence": "The opponent postures up freely, gains full upright leverage for extraction, and can use their height and weight advantage to power through the leg clamp from an elevated position.",
+        "correction": "Always maintain at least one hand controlling the opponent's posture through head, collar, or far shoulder contact. The clamp is maintained primarily through skeletal leg structure and hip angle, not through hand reinforcement."
+      },
+      {
+        "error": "Fighting the knee wedge by squeezing both legs harder with muscular effort",
+        "consequence": "Muscular squeezing against a bone wedge fatigues your legs rapidly and is mechanically ineffective against the opponent's skeletal structure driving between your legs.",
+        "correction": "Instead of squeezing against the wedge, adjust your hip angle to redirect the wedge force. Angle your hips further away from the trapped arm to change the pressure vector, making the knee wedge slide rather than separate."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the earliest recognition cue that your opponent is about to attempt arm extraction from clamp guard?",
+        "answer": "The earliest cue is the opponent addressing your wrist grip with their free hand. Before any successful extraction, they must break this grip because it anchors their hand and prevents the internal rotation needed to reduce their arm profile. When you see their free hand move toward your gripping hand rather than toward your body or legs, an extraction attempt is imminent. This is your trigger to either re-grip preemptively or immediately begin transitioning to a submission entry."
+      },
+      {
+        "question": "Your opponent has driven their knee forward as a wedge and your clamp is loosening — what is your best response?",
+        "answer": "Rather than fighting the wedge with muscular leg squeeze, immediately hip escape away from the trapped arm to change the angle of the knee wedge. This adjustment redirects the wedge force from effective leg separation to ineffective lateral pressure. Simultaneously, threaten the armbar by extending your hips — even if you do not fully commit, the armbar threat forces the opponent to retract their posture and abandon the knee wedge to defend, giving you time to re-establish optimal clamp positioning."
+      },
+      {
+        "question": "How do you determine whether to maintain the clamp or transition to a submission when the opponent begins extracting?",
+        "answer": "Assess the clamp depth and the extraction progress. If the shin is still on the bicep and the extraction has not progressed past the initial grip-stripping phase, fight to maintain the clamp by re-gripping and re-angling your hips. If the clamp has already slid to the forearm or the opponent has significant angle change established, transition immediately to the submission that corresponds to their extraction direction — armbar for backward pulls, triangle for outward circles. Holding a deteriorating clamp is worse than committing to a submission entry with partial control."
+      },
+      {
+        "question": "What is the defensive priority when your opponent successfully strips your wrist grip on the trapped hand?",
+        "answer": "Immediately re-grip the wrist before they can complete the internal rotation that reduces their arm profile. You have approximately one to two seconds between grip break and completed rotation. If you cannot re-grip in time, shift your priority to posture control with that hand by grabbing behind their head or collar to prevent them from sitting up. The posture control partially compensates for the lost wrist grip by denying them the upright leverage needed for extraction."
+      },
+      {
+        "question": "How should you use the opponent's extraction attempts to set up sweeps from clamp guard?",
+        "answer": "When the opponent shifts their weight laterally for angle change or drives their knee forward for the wedge, they compromise their base in predictable directions. The lateral shift opens scissor sweep opportunities on the opposite side because their weight moves away from that base point. The knee drive forward removes one base point and loads their weight over your hips, creating hip bump sweep openings. Time your sweep attempt to coincide with their maximum commitment to the extraction motion, when their base is most compromised and their attention is focused on the arm rather than on balance."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Recognition",
+        "focus": "Identifying extraction attempts and their phases",
+        "description": "Partner performs the full extraction sequence at 30% speed while you focus on identifying each phase: grip strip, internal rotation, knee wedge, angle change. Call out each phase as you recognize it. Build the pattern recognition that triggers your defensive and offensive responses before the extraction progresses past recovery."
+      },
+      {
+        "phase": "Phase 2: Retention Mechanics",
+        "focus": "Maintaining clamp under extraction pressure",
+        "description": "Partner attempts extraction at 50-60% resistance. Focus on hip angle adjustments, wrist re-gripping, and posture control to maintain the clamp through each extraction phase. Do not attack submissions yet — build the retention foundation of following movement with your hips first. 15 repetitions per side with progressive resistance."
+      },
+      {
+        "phase": "Phase 3: Counter-Attack Integration",
+        "focus": "Converting extraction attempts into submissions",
+        "description": "Partner attempts extraction at 70% resistance. Practice reading the extraction direction and transitioning to the corresponding submission: armbar for backward pulls, triangle for outward circles, sweep for forward drives. Develop the decision-making process that selects the correct counter-attack based on the opponent's specific movement pattern."
+      },
+      {
+        "phase": "Phase 4: Live Positional Sparring",
+        "focus": "Full-resistance clamp retention and counter-attacks",
+        "description": "Positional sparring starting in established clamp guard at full resistance. Bottom player scores for maintaining clamp past 15 seconds, achieving submissions, or completing sweeps. Top player scores for clean extraction and establishing passing position. Develop the complete defensive and offensive system under competitive pressure with realistic timing and intensity."
+      }
+    ]
+  }
+}

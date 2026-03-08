@@ -1,0 +1,395 @@
+{
+  "name": "Overhook Extraction",
+  "description": "Master Overhook Extraction from New York Top. Step-by-step arm extraction against rubber guard control with corkscrew mechanics and guard passing chains.",
+  "tags": [
+    "bjj",
+    "transition",
+    "technique",
+    "escape",
+    "rubber guard defense",
+    "arm extraction",
+    "no-gi"
+  ],
+  "from_position": "New York/Top",
+  "outcomes": [
+    {
+      "to": "Closed Guard/Top",
+      "probability": 65,
+      "result": "success"
+    },
+    {
+      "to": "New York/Top",
+      "probability": 25,
+      "result": "failure"
+    },
+    {
+      "to": "Triangle Control/Bottom",
+      "probability": 10,
+      "result": "counter"
+    }
+  ],
+  "success_rate": 58,
+  "overview": "Overhook Extraction is a critical defensive technique for escaping the New York position within 10th Planet's Rubber Guard system. When trapped in New York Top, your arm is locked in a deep overhook while your opponent's shin crosses your back, breaking your posture and compromising your base. The overhook extraction addresses the arm control component, freeing your trapped limb and opening pathways to posture recovery and guard passing.\n\nThe technique operates on the principle that the overhook, while strong, has a structural weakness: it requires constant tension and positioning from the bottom player. By systematically changing the angle of your trapped elbow and using rotational movement rather than linear pulling, you exploit the overhook's blind spots. The key insight is that pulling straight back reinforces the overhook, while corkscrewing your elbow downward and toward your hip creates an angle the overhook cannot maintain.\n\nStrategically, overhook extraction should not be attempted in isolation. The sequence must address base and posture concerns simultaneously. Attempting extraction without stable base invites sweeps; attempting it without addressing posture allows the bottom player to transition to other attacks like triangles or omoplatas. When executed correctly within the proper sequence, overhook extraction serves as the gateway from defensive survival in New York to offensive guard passing opportunities.",
+  "conditions": [
+    "Your arm is trapped in opponent's deep overhook from New York position",
+    "You have established or are establishing a wide base with knees spread",
+    "You have recognized that overhook grip has a momentary weakness or you have addressed shin control first",
+    "Your free hand is available for framing or grip fighting"
+  ],
+  "related_content": [
+    {
+      "name": "New York",
+      "relationship": "Starting position - the control you are escaping from"
+    },
+    {
+      "name": "Closed Guard",
+      "relationship": "Target position after successful extraction"
+    },
+    {
+      "name": "Posture Recovery",
+      "relationship": "Complementary technique - often combined with extraction"
+    },
+    {
+      "name": "Stack Defense",
+      "relationship": "Alternative approach when extraction is blocked"
+    },
+    {
+      "name": "Pressure Pass",
+      "relationship": "Follow-up technique after successful extraction"
+    },
+    {
+      "name": "Triangle Control",
+      "relationship": "Counter threat - what opponent attempts during extraction"
+    },
+    {
+      "name": "Leg Drag Pass",
+      "relationship": "High-percentage passing option after arm is freed"
+    },
+    {
+      "name": "Mission Control",
+      "relationship": "Related rubber guard position that precedes New York in the system"
+    },
+    {
+      "name": "Invisible Collar",
+      "relationship": "Advanced rubber guard position opponent may transition to during extraction"
+    }
+  ],
+  "attacker": {
+    "name": "Overhook Extraction Attacker",
+    "description": "How to execute Overhook Extraction in BJJ. Attacking perspective with setup, execution steps, and counters for escaping New York rubber guard control.",
+    "overview": "Overhook Extraction is a critical defensive technique for escaping the New York position within 10th Planet's Rubber Guard system. When trapped in New York Top, your arm is locked in a deep overhook while your opponent's shin crosses your back, breaking your posture and compromising your base. The overhook extraction addresses the arm control component, freeing your trapped limb and opening pathways to posture recovery and guard passing.\n\nThe technique operates on the principle that the overhook, while strong, has a structural weakness: it requires constant tension and positioning from the bottom player. By systematically changing the angle of your trapped elbow and using rotational movement rather than linear pulling, you exploit the overhook's blind spots. The key insight is that pulling straight back reinforces the overhook, while corkscrewing your elbow downward and toward your hip creates an angle the overhook cannot maintain.\n\nStrategically, overhook extraction should not be attempted in isolation. The sequence must address base and posture concerns simultaneously. Attempting extraction without stable base invites sweeps; attempting it without addressing posture allows the bottom player to transition to other attacks like triangles or omoplatas. When executed correctly within the proper sequence, overhook extraction serves as the gateway from defensive survival in New York to offensive guard passing opportunities.",
+    "key_principles": [
+      "Never pull the trapped arm straight back - this reinforces the overhook and triggers counter-attacks",
+      "Corkscrew motion (elbow down and toward hip) exploits the overhook's structural blind spot",
+      "Base establishment must precede extraction attempts - wide knees prevent sweeps during the technique",
+      "Posture engagement during extraction prevents triangle transitions as the arm comes free",
+      "Grip fighting the opponent's shin-controlling hand creates space for the extraction motion",
+      "Speed is secondary to angle - correct elbow angle succeeds where explosive pulling fails",
+      "Immediate guard passing engagement after extraction prevents opponent from re-establishing control"
+    ],
+    "setup_requirements": [
+      "Wide base established with knees spread to prevent sweeps during extraction attempt",
+      "Free hand actively grip-fighting opponent's shin-controlling grip or framing on their hip",
+      "Core engaged and weight distributed to resist forward pressure from opponent",
+      "Mental recognition that overhook grip has weakened or opponent's attention is divided"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Establish base",
+        "description": "Widen your knees significantly to create a stable triangular base. Your free hand should frame on opponent's hip or grip-fight their shin-controlling hand. Without stable base, the extraction will result in a sweep."
+      },
+      {
+        "step_number": 2,
+        "action": "Engage posture",
+        "description": "Begin driving your chest upward while keeping your trapped elbow tight to your body. Do not attempt to stand or create distance yet - focus on engaging your posterior chain to resist the downward pull of the shin control."
+      },
+      {
+        "step_number": 3,
+        "action": "Compromise shin control",
+        "description": "Use your free hand to grip-fight opponent's hand that is controlling their own shin. Peel fingers or strip the grip by pushing their wrist toward their body. Even partially weakening this grip reduces the structural integrity of the entire New York position."
+      },
+      {
+        "step_number": 4,
+        "action": "Angle the elbow",
+        "description": "Rotate your trapped elbow downward so it points toward your own hip rather than toward the floor. This subtle angle change is critical - it positions your arm for extraction rather than reinforcing the overhook's grip."
+      },
+      {
+        "step_number": 5,
+        "action": "Corkscrew extraction",
+        "description": "While maintaining the downward elbow angle, begin a spiraling motion toward your hip. Think of unscrewing a tight lid rather than pulling straight back. Your elbow leads the motion, your shoulder follows, and the arm extracts in a curved path."
+      },
+      {
+        "step_number": 6,
+        "action": "Maintain posture through extraction",
+        "description": "As your arm begins to free, immediately drive your posture upward. The moment of extraction is when triangle attacks become available - keeping your head and shoulder high prevents the leg from shooting over your shoulder."
+      },
+      {
+        "step_number": 7,
+        "action": "Secure passing grips",
+        "description": "The instant your arm is free, establish control on opponent's legs or hips for guard passing. Do not pause to celebrate the extraction - your opponent will immediately attempt to re-establish New York or transition to other guards."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Opponent deepens overhook and tightens shoulder-to-armpit pressure when they feel extraction beginning",
+        "effectiveness": "High",
+        "your_response": "Pause the extraction and focus on grip-fighting their shin control instead. Once shin control is compromised, return to the extraction sequence.",
+        "targets_outcome": "New York/Top"
+      },
+      {
+        "counter": "Opponent shoots leg over your shoulder for triangle as your arm extracts",
+        "effectiveness": "High",
+        "your_response": "Drive posture up and stack immediately. The triangle attempt requires your head down - keeping posture defeats the counter and may create passing opportunities.",
+        "targets_outcome": "Triangle Control/Bottom"
+      },
+      {
+        "counter": "Opponent uses your extraction motion to generate hip bump sweep momentum",
+        "effectiveness": "Medium",
+        "your_response": "Maintain wide base throughout and keep weight centered over both knees. If sweep begins, post with free hand and drive weight toward the sweep direction to counter.",
+        "targets_outcome": "New York/Top"
+      },
+      {
+        "counter": "Opponent transitions to Invisible Collar or Zombie before extraction completes",
+        "effectiveness": "Medium",
+        "your_response": "Recognize early and shift to stack defense rather than continuing extraction. Address the new position before returning to overhook extraction attempts.",
+        "targets_outcome": "New York/Top"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Pulling trapped arm straight backward in a linear motion",
+        "consequence": "Reinforces the overhook's grip strength and may trigger immediate sweep or submission counter",
+        "correction": "Use corkscrew motion with elbow angled downward toward your hip - spiral out rather than pull back"
+      },
+      {
+        "error": "Attempting extraction before establishing wide base with knees spread",
+        "consequence": "Opponent sweeps during the extraction attempt when your focus is on arm rather than balance",
+        "correction": "Always widen base first, creating stable platform that can absorb sweep attempts during extraction"
+      },
+      {
+        "error": "Relaxing posture engagement during the extraction motion",
+        "consequence": "Creates opening for triangle attack as arm extracts with head remaining low and vulnerable",
+        "correction": "Drive chest and head upward throughout extraction - posture and extraction happen together, not sequentially"
+      },
+      {
+        "error": "Pausing after successful extraction instead of immediately engaging guard pass",
+        "consequence": "Opponent re-establishes New York control or transitions to alternative guard before you capitalize",
+        "correction": "Treat extraction as the beginning of your attack sequence, not the end - immediately control legs for passing"
+      },
+      {
+        "error": "Flaring elbow outward during extraction attempt",
+        "consequence": "Creates perfect angle for armbar attack and may hyperextend elbow against overhook pressure",
+        "correction": "Keep elbow tight to body throughout, pointing downward toward hip rather than outward to the side"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Week 1-2",
+        "focus": "Corkscrew mechanics",
+        "description": "Practice the elbow angle and spiral motion in isolation without partner resistance. Partner holds static overhook while you drill the correct extraction path 50+ repetitions per session until the motion becomes automatic."
+      },
+      {
+        "phase": "Week 3-4",
+        "focus": "Integration with base",
+        "description": "Combine extraction mechanics with base widening and posture engagement. Partner adds light resistance to test your structure. Focus on maintaining wide knees and upward posture throughout the extraction sequence."
+      },
+      {
+        "phase": "Week 5-6",
+        "focus": "Counter recognition",
+        "description": "Partner actively attempts triangle, sweeps, and position transitions during your extraction. Develop ability to recognize counters early and adjust your response. Practice abandoning extraction to address new threats when necessary."
+      },
+      {
+        "phase": "Week 7+",
+        "focus": "Full chain integration",
+        "description": "Execute complete sequence from New York escape through guard pass in live rolling. Track success rate and identify which counters give you trouble. Refine timing and develop personal variations based on your body type and game."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the primary goal of Overhook Extraction and what comes immediately after?",
+        "answer": "The primary goal is to free your trapped arm from the opponent's deep overhook control in New York position. However, the extraction itself is not the end goal - it is the gateway that enables offensive action. The instant your arm is free, you must immediately establish grips on opponent's legs or hips and begin guard passing before they can re-establish rubber guard control."
+      },
+      {
+        "question": "Why does pulling straight backward fail against a properly set overhook?",
+        "answer": "Pulling straight back reinforces the overhook's biomechanical advantage. The overhook is designed to resist linear pulling force - the opponent's shoulder-to-armpit pressure creates a wedge that tightens under direct resistance. The solution is angular extraction using a corkscrew motion that exploits the overhook's blind spot below and behind the grip."
+      },
+      {
+        "question": "What base position must you establish before attempting overhook extraction and why?",
+        "answer": "You must establish a wide base with knees spread significantly before attempting extraction. Without stable base, the focus required for extraction leaves you vulnerable to sweeps - the bottom player can use hip bump or other sweep mechanics while your attention is on the arm. Wide base creates a stable platform that can absorb sweep attempts during the extraction sequence."
+      },
+      {
+        "question": "Your opponent shoots their leg over your shoulder as your arm extracts - what went wrong and how do you respond?",
+        "answer": "Your posture dropped during the extraction, creating the opening for triangle. The response is immediate stacking - drive your head and shoulder up and forward while pushing into your opponent's hips. This removes the space needed for the triangle to lock. The correction for future attempts is maintaining upward posture throughout extraction, not just at the end."
+      },
+      {
+        "question": "Describe the correct elbow angle and motion path for the corkscrew extraction technique?",
+        "answer": "The elbow should angle downward toward your own hip rather than pointing at the floor or flaring outward. From this angle, execute a spiraling motion as if unscrewing a tight lid - the elbow leads, drawing a curved path toward your hip while the shoulder follows. This spiral exploits the overhook's structural weakness at angles below and behind the grip line."
+      },
+      {
+        "question": "Your opponent deepens their overhook when they feel your extraction beginning - how do you adapt?",
+        "answer": "Pause the extraction attempt and redirect your effort to grip-fighting their shin-controlling hand instead. The shin control and overhook work together as a system - compromising the shin control reduces the structural integrity of the entire New York position. Once their shin control weakens, return to the overhook extraction with improved odds of success."
+      },
+      {
+        "question": "What is the optimal timing window for initiating the corkscrew extraction?",
+        "answer": "The optimal window occurs when your opponent's attention shifts away from maintaining overhook tension - typically when they are adjusting their shin grip, attempting to transition to a deeper rubber guard position like Invisible Collar or Zombie, or when they pause momentarily after a failed attack attempt. Initiating during these windows of divided attention significantly increases extraction success rate."
+      },
+      {
+        "question": "What grip must you address on your opponent before the extraction has highest chance of success?",
+        "answer": "The shin-controlling grip is the priority target. Your opponent's hand gripping their own shin creates the closed kinetic chain that powers the entire New York position. Stripping or weakening this grip before attempting extraction reduces the structural integrity of the overhook simultaneously, because the shin control provides the leverage that keeps your posture broken and your arm trapped."
+      },
+      {
+        "question": "How does the direction of force differ between the corkscrew extraction and a standard arm pull?",
+        "answer": "A standard arm pull applies force directly backward along the arm's axis, which the overhook is mechanically optimized to resist. The corkscrew extraction applies force in a downward spiral toward your own hip - a rotational vector that the overhook cannot efficiently counter. The force path curves below and behind the opponent's shoulder-to-armpit wedge, bypassing the overhook's strongest resistance plane entirely."
+      },
+      {
+        "question": "Your extraction attempt is blocked and your opponent begins transitioning to Zombie - what is your response?",
+        "answer": "Immediately abandon the extraction and shift to stack defense. The Zombie position deepens leg control and creates additional choking threats that are more dangerous than New York. Address the transition by driving your weight forward into your opponent's hips to prevent their leg from climbing higher. Once you have neutralized the Zombie attempt and returned to New York, reassess whether extraction or an alternative escape is more viable."
+      }
+    ],
+    "safety_considerations": "Overhook extraction carries moderate injury risk primarily to the shoulder and elbow of the trapped arm. Never explosively yank your arm to escape - this can hyperextend the elbow against the overhook pressure or strain the shoulder capsule. The corkscrew motion should be smooth and controlled. If you feel significant pain during extraction, stop and work to create space rather than forcing through. Partners should release immediately if the person on top signals discomfort. When drilling, start with zero resistance and progress slowly to ensure both partners understand the mechanics before adding intensity."
+  },
+  "defender": {
+    "name": "Overhook Extraction Defender",
+    "description": "How to defend against Overhook Extraction in BJJ. Maintain New York control when opponent attempts arm extraction with recognition cues and retention strategies.",
+    "overview": "As the defender in Overhook Extraction, you are the bottom player in New York position working to maintain your rubber guard control while your opponent attempts to free their trapped arm. Your role is to preserve the overhook and shin control that define New York, preventing the top player from recovering posture and initiating guard passes. The defensive challenge centers on reading your opponent's extraction attempts early and responding with the correct counter - deepening the overhook, transitioning to triangle, or advancing to deeper rubber guard positions before the arm comes free.\n\nSuccessful defense requires understanding that the overhook and shin control function as an integrated system. When one element weakens, the other becomes vulnerable. Your defensive priority is maintaining both control points simultaneously while cycling through offensive threats that keep the top player reacting rather than executing their extraction plan. Every moment they spend defending your attacks is a moment they cannot dedicate to the corkscrew motion that frees their arm.",
+    "key_principles": [
+      "Maintain shoulder-to-armpit pressure on the overhook continuously - any slack enables the corkscrew extraction angle",
+      "Active shin grip adjustment prevents the top player from stripping your controlling hand",
+      "Read the elbow angle change as the primary recognition cue - downward elbow rotation signals imminent extraction",
+      "Transition to triangle or deeper rubber guard positions when extraction becomes inevitable rather than fighting a losing grip battle",
+      "Hip activity and constant offensive cycling keeps the top player defensive and unable to commit to extraction mechanics",
+      "The overhook and shin control are a unified system - reinforce whichever element is being attacked"
+    ],
+    "recognition_cues": [
+      "Opponent's trapped elbow begins rotating downward toward their hip rather than remaining pointed at the floor - this is the setup for corkscrew extraction",
+      "Opponent widens their base significantly by spreading knees apart, indicating they are preparing a stable platform for extraction attempts",
+      "Opponent's free hand shifts from framing on your hip to grip-fighting your shin-controlling hand, signaling they are targeting the structural foundation of your control",
+      "Opponent begins driving chest upward with posterior chain engagement while keeping elbow tight - the posture engagement phase that precedes extraction"
+    ],
+    "defensive_options": [
+      {
+        "action": "Deepen the overhook by swimming your shoulder tighter against their armpit and pulling their elbow across your centerline",
+        "when_to_use": "When you feel the initial elbow angle change signaling corkscrew setup, before they have committed to the spiral motion",
+        "targets_outcome": "New York/Top",
+        "if_successful": "Opponent's extraction attempt stalls and they remain trapped in New York with reinforced overhook control",
+        "risk": "Over-committing to the deepen may compromise your shin grip if you shift too much attention to the overhook"
+      },
+      {
+        "action": "Shoot your leg over opponent's shoulder for triangle as their arm begins to extract, using the extraction motion to create the space needed for leg placement",
+        "when_to_use": "When opponent's arm is partially extracted and their posture has momentarily dropped during the corkscrew motion",
+        "targets_outcome": "Triangle Control/Bottom",
+        "if_successful": "You transition from New York control to an even more dominant triangle position with immediate submission threat",
+        "risk": "If opponent maintains strong posture during extraction, the triangle attempt fails and you lose New York entirely"
+      },
+      {
+        "action": "Transition to Invisible Collar or Zombie by advancing your leg position and swimming your free hand to the back of their head before extraction completes",
+        "when_to_use": "When you sense the overhook is weakening despite your reinforcement and extraction appears inevitable within 2-3 seconds",
+        "targets_outcome": "New York/Top",
+        "if_successful": "You advance to a deeper rubber guard position with stronger control, making the overhook extraction irrelevant as the new position presents different threats",
+        "risk": "The transition requires momentary adjustment that may give opponent the opening to complete extraction if your timing is off"
+      },
+      {
+        "action": "Use hip bump momentum timed with their extraction effort to sweep, converting their focus on arm extraction into a balance vulnerability",
+        "when_to_use": "When opponent has committed heavily to the extraction and shifted weight backward, creating an exploitable imbalance",
+        "targets_outcome": "New York/Top",
+        "if_successful": "You sweep the opponent and achieve mount or top position, completely nullifying the extraction attempt",
+        "risk": "If opponent maintains wide base, the hip bump fails and you may lose positional control during the sweep attempt"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "New York/Top",
+        "how": "Maintain constant shoulder-to-armpit overhook pressure while actively reinforcing your shin grip. When you feel the elbow angle change, immediately deepen the overhook by pulling their tricep tighter across your chest. Keep cycling through minor attack threats to prevent them from dedicating full attention to extraction mechanics."
+      },
+      {
+        "outcome": "Triangle Control/Bottom",
+        "how": "Time your triangle entry to the moment their arm is partially extracted and their posture dips. As the corkscrew creates space between their arm and your body, shoot your choking leg over their shoulder while pulling their head down. Their extracted arm is now inside your triangle configuration. This requires precise timing - too early and you lack space, too late and they have posture to defend."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Relying solely on grip strength to maintain the overhook without adjusting shoulder position",
+        "consequence": "The corkscrew extraction exploits angular weakness that grip strength alone cannot counter - opponent spirals free while you exhaust your grip",
+        "correction": "Maintain active shoulder-to-armpit pressure by adjusting your shoulder position to close the angle the corkscrew targets. The structural connection matters more than grip force."
+      },
+      {
+        "error": "Losing shin grip while focusing entirely on defending the overhook extraction",
+        "consequence": "Without shin control, opponent recovers posture immediately and the overhook loses its leverage foundation, collapsing the entire New York position",
+        "correction": "Treat shin grip and overhook as a unified system. When opponent attacks one element, briefly reinforce it while maintaining awareness of the other. Never let both degrade simultaneously."
+      },
+      {
+        "error": "Remaining passive in New York and waiting for extraction to start before reacting",
+        "consequence": "Gives opponent time to establish wide base, engage posture, and execute extraction mechanics from an optimized position",
+        "correction": "Maintain constant offensive cycling between attack threats - hip bumps, triangle feints, transitions to deeper positions. Keep them reacting rather than executing their escape plan."
+      },
+      {
+        "error": "Attempting triangle too late when opponent has already recovered full posture during extraction",
+        "consequence": "Triangle attempt fails because opponent has the posture and base to stuff your leg and may pass guard during your failed transition",
+        "correction": "The triangle window exists during extraction, not after. If opponent achieves full posture with arm free, accept closed guard recovery rather than forcing a low-percentage triangle."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the earliest recognition cue that your opponent is setting up a corkscrew extraction?",
+        "answer": "The earliest cue is their trapped elbow beginning to rotate downward toward their own hip. This angle change precedes the actual spiral motion and signals that they are positioning for the corkscrew. You may also notice them widening their base and grip-fighting your shin-controlling hand, but the elbow rotation is the most reliable indicator because it represents the mechanical setup without which the extraction cannot succeed."
+      },
+      {
+        "question": "How do the overhook and shin control work together as a defensive system, and what happens when one fails?",
+        "answer": "The overhook traps the arm while the shin control breaks posture and provides leverage that keeps the overhook effective. They form a closed kinetic chain where each element reinforces the other. When shin control fails, the opponent can recover posture, which removes the downward leverage that keeps the arm trapped in the overhook. When the overhook fails, the opponent's arm is free to post and frame, making shin control alone insufficient to maintain New York."
+      },
+      {
+        "question": "When should you transition to triangle rather than continue fighting to maintain the overhook?",
+        "answer": "Transition to triangle when the arm is partially extracted but the opponent's posture has momentarily dipped during their corkscrew motion. This is the precise window where the space created by extraction allows your leg to shoot over their shoulder while their compromised posture prevents them from defending. If you wait until full extraction with recovered posture, the triangle percentage drops dramatically. The key is recognizing when maintaining the overhook is a losing battle and converting to a higher-value position."
+      },
+      {
+        "question": "Your opponent begins grip-fighting your shin-controlling hand - what is the correct defensive priority?",
+        "answer": "Reinforce the shin grip immediately by adjusting your hand position and pulling your shin tighter across their back. Simultaneously deepen the overhook to compensate for any momentary looseness. If they strip the shin grip despite your defense, use the freed leg to immediately transition to triangle or closed guard rather than trying to re-establish New York from a compromised position. The shin grip is the structural foundation - once it is fully compromised, New York cannot be maintained."
+      },
+      {
+        "question": "How do you use offensive cycling to prevent your opponent from executing their extraction plan?",
+        "answer": "Alternate between attack threats every 5-10 seconds: hip bump feints that force them to post and widen base, triangle set-ups that force them to protect their neck, and transitions toward Invisible Collar or Zombie that force them to address new positional threats. Each threat requires a different defensive response from the top player, preventing them from settling into the systematic base-posture-extraction sequence. The goal is not necessarily to finish any single attack but to keep them perpetually reacting."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Week 1-2",
+        "focus": "Overhook retention mechanics",
+        "description": "Partner attempts slow, cooperative corkscrew extractions while you practice deepening the overhook and maintaining shin grip. Focus on feeling the elbow angle change and responding with shoulder adjustment. 40-50 repetitions per session with zero to light resistance."
+      },
+      {
+        "phase": "Week 3-4",
+        "focus": "Transition timing",
+        "description": "Partner increases extraction resistance to 50-70%. Practice the decision point between maintaining New York and transitioning to triangle. Drill the triangle entry timed to partial extraction with focus on recognizing the correct window. Include abandoned triangle attempts that return to New York."
+      },
+      {
+        "phase": "Week 5-6",
+        "focus": "Offensive cycling under pressure",
+        "description": "Partner works full extraction sequences while you cycle through attack threats to disrupt their timing. Practice hip bumps, triangle feints, and transitions to deeper rubber guard positions. Focus on maintaining offensive initiative rather than purely reactive defense."
+      },
+      {
+        "phase": "Week 7+",
+        "focus": "Live situational sparring",
+        "description": "Start in New York with partner working full resistance extraction. Integrate all defensive tools - overhook retention, offensive cycling, triangle transitions, and positional advancement. Track how often you maintain position versus successfully transition versus lose control entirely."
+      }
+    ]
+  },
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Hip-drive extraction",
+      "description": "Rather than isolating arm movement, use explosive hip drive backward while maintaining elbow angle. Your body weight assists the extraction. Higher risk of sweep but faster execution when timing is correct.",
+      "when_to_use": "When opponent's shin control has momentarily weakened and you sense opportunity for rapid escape"
+    },
+    {
+      "variant_name": "Swim-through extraction",
+      "description": "Instead of corkscrewing out, swim your trapped arm forward and around opponent's head, transitioning to a cross-face position. This reverses the direction and can surprise opponents expecting backward extraction.",
+      "when_to_use": "When opponent is defending conventional extraction by deepening their overhook aggressively"
+    },
+    {
+      "variant_name": "Stack-assisted extraction",
+      "description": "Combine forward stacking pressure with the corkscrew motion. Drive your weight into opponent's hips to flatten them while simultaneously working the extraction. The stacking compresses their guard structure, weakening the overhook's leverage foundation.",
+      "when_to_use": "Against flexible opponents who can maintain deep overhook control despite standard extraction attempts"
+    }
+  ],
+  "position_integration": "Overhook Extraction is the central technique in the New York Top escape sequence, serving as the bridge between defensive survival and offensive opportunity. Within the broader rubber guard defense system, it works in conjunction with base widening and posture recovery - these three techniques form an integrated escape methodology. Successfully extracting the overhook opens direct pathways to pressure passing, leg drag, or toreando-style passes. The technique also teaches principles applicable to overhook escapes in other contexts including guillotine defense and front headlock escapes where similar arm-trapping mechanics apply."
+}

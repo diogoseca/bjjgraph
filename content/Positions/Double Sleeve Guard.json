@@ -1,0 +1,667 @@
+{
+  "name": "Double Sleeve Guard",
+  "slug": "double-sleeve-guard",
+  "description": "Master Double Sleeve Guard in BJJ. Strategic guide covering grip control, sweeps, and passing strategies with complete perspective analysis.",
+  "variant_uniqueness": "Bilateral sleeve control optimizes distance",
+  "overview": "Double Sleeve Guard is a fundamental open guard position where the bottom practitioner controls both of the opponent's sleeves while maintaining distance with their feet on the hips or biceps. This position provides excellent control over the opponent's upper body, preventing them from establishing grips or initiating passing sequences while setting up numerous sweep and transition opportunities. The position is particularly effective in gi jiu-jitsu, where the sleeve grips create a strong connection that can be used to manipulate the opponent's posture and balance.\n\nDouble Sleeve Guard is characterized by its emphasis on grip fighting dominance and distance management. By controlling both sleeves, the bottom player neutralizes the opponent's ability to grip the pants or control the legs, forcing them into a defensive posture. This guard excels at creating off-balancing opportunities and can transition seamlessly into more specialized guards like Spider Guard, Lasso Guard, or De La Riva Guard. The position requires good hip mobility and grip strength but offers a high return on investment for practitioners who develop proficiency with the fundamental sweeps and transitions available from this control position. From the top perspective, the challenge lies in systematically breaking the sleeve grips while maintaining posture and creating passing opportunities through angle creation and strategic pressure application.",
+  "key_principles": [
+    "Maintain constant tension on both sleeve grips to prevent opponent from breaking grips and establishing their own control system",
+    "Use feet actively to push and pull opponent's body, creating off-balancing opportunities and preventing them from settling their weight",
+    "Keep hips mobile and ready to follow opponent's movements, adjusting foot placement as they attempt to change angles",
+    "Break opponent's posture by pulling sleeves while pushing with feet, creating a concave bend in their spine that compromises their base",
+    "Transition grips and foot placement fluidly to prevent opponent from anticipating and countering sweep attempts",
+    "Maintain visual contact with opponent and read their weight distribution to time sweeps and transitions optimally",
+    "Use the guard to control tempo and prevent opponent from initiating their passing game"
+  ],
+  "related_positions": [
+    {
+      "name": "Spider Guard",
+      "relationship": "Natural transition when opponent stands or extends arms with feet in sleeves"
+    },
+    {
+      "name": "Lasso Guard",
+      "relationship": "Common transition when opponent circles to one side with threading variation"
+    },
+    {
+      "name": "Collar Sleeve Guard",
+      "relationship": "Hybrid guard using one sleeve and one collar grip for mixed control"
+    },
+    {
+      "name": "De La Riva Guard",
+      "relationship": "Advanced guard transition when opponent attempts to step around for passing"
+    },
+    {
+      "name": "Closed Guard",
+      "relationship": "Can transition by closing legs if opponent closes distance"
+    },
+    {
+      "name": "Open Guard",
+      "relationship": "Parent category position encompassing double sleeve variations"
+    },
+    {
+      "name": "Seated Guard",
+      "relationship": "Alternative open guard posture with similar grip strategies"
+    },
+    {
+      "name": "Feet on Hips Guard",
+      "relationship": "Related guard emphasizing distance management with leg frames"
+    },
+    {
+      "name": "Combat Base",
+      "relationship": "Common top player posture when facing double sleeve control"
+    },
+    {
+      "name": "Triangle Control",
+      "relationship": "Primary submission entry from broken posture scenarios"
+    }
+  ],
+  "top": {
+    "name": "Double Sleeve Guard Top",
+    "description": "Master Double Sleeve Guard Top in BJJ. Complete guide covering passing strategies, grips, and transitions. Systematic passing with 65% success rate.",
+    "tags": [
+      "bjj",
+      "position",
+      "guard-passing",
+      "top-position",
+      "open-guard",
+      "gi",
+      "grip-fighting"
+    ],
+    "overview": "Double Sleeve Guard Top represents the passing position when facing an opponent who has secured bilateral sleeve grips while on their back. This is one of the most common guard configurations in gi BJJ, where the bottom player controls both of your sleeves at the wrists or forearms to create distance and maintain a defensive barrier. The top player's primary objective is to break these grips systematically while advancing position, requiring excellent grip fighting, posture control, and strategic movement. This position demands patience and technical precision, as rushing against strong sleeve grips often results in sweeps or submission attempts. The key to success lies in understanding grip hierarchy, creating angles to diminish the effectiveness of the sleeve controls, and using strategic pressure combined with grip breaks to advance. Many world-class competitors have built entire passing systems around defeating the double sleeve guard, making it essential knowledge for any serious practitioner. The position serves as a gateway to numerous passing sequences and requires both physical attributes (grip strength, posture) and tactical awareness (timing, angle creation, pressure application).",
+    "state_properties": {
+      "point_value": 0,
+      "position_type": "Offensive",
+      "risk_level": "Medium",
+      "energy_cost": "Medium",
+      "time_sustainability": "Medium to Long"
+    },
+    "state_invariants": [
+      "Top player maintains upright posture with hips elevated above opponent's guard, preventing lower body from being pulled into bottom player's offensive range while maintaining balance through posted hands or controlled grips",
+      "Bottom player controls both of top player's sleeves at wrist or forearm level with bilateral grips, creating a frame that maintains distance and prevents top player from achieving dominant grips or closing distance effectively",
+      "Bottom player's legs are positioned either with feet on hips, knees bent with shins across, or in dynamic movement patterns to prevent top player from achieving knee cut, leg drag, or other passing entries while maintaining the sleeve control framework"
+    ],
+    "prerequisites": [
+      "Opponent has established both sleeve grips while maintaining guard position",
+      "Top player has achieved standing or combat base posture above the guard",
+      "Sufficient distance exists between players due to bottom player's sleeve control and leg positioning",
+      "Top player maintains balance and posture despite bilateral sleeve grips",
+      "Bottom player is on their back with active guard retention using legs and sleeve controls"
+    ],
+    "key_principles": [
+      "Maintain strong upright posture with chest forward and hips back to prevent being pulled forward into submissions or sweeps",
+      "Systematically break grips using proper grip breaking mechanics rather than relying purely on strength",
+      "Create angles and circular movement to diminish the effectiveness of the sleeve grips and create passing opportunities",
+      "Control the distance by managing your own sleeve position and preventing bottom player from establishing additional controls",
+      "Use strategic pressure and timing to advance grips on opponent's legs, belt, or collar while managing their sleeve controls",
+      "Prevent bottom player from establishing foot-on-hip or foot-on-bicep controls which strengthen their guard retention",
+      "Transition between different passing approaches based on how bottom player adjusts their leg positioning and sleeve grip depth"
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "Your opponent has strong double sleeve grips and you feel yourself being pulled forward - what immediate adjustment should you make?",
+        "answer": "Immediately widen your base by stepping your feet wider apart, sit your hips back while keeping your chest up, and engage your core to resist the forward pull. Rather than fighting the grips with your arms, use your entire body structure to maintain posture. Think about driving your hips away from your opponent while keeping your shoulders over your knees to maintain balance."
+      },
+      {
+        "question": "What are the essential grip breaking mechanics for defeating double sleeve control?",
+        "answer": "Effective grip breaking uses leverage and hip rotation rather than arm strength. The primary techniques include: rotating your wrist toward opponent's thumb (weakest part of grip), posting your elbow on their hip to create a fulcrum for breaking, stepping laterally while rotating your arm to create angular force, and two-on-one breaks where you grip your own sleeve and pull while stepping. Hip movement multiplies breaking power significantly."
+      },
+      {
+        "question": "How should you distribute your weight when attempting to pass against double sleeve guard?",
+        "answer": "Keep your weight centered between both feet with hips back and chest slightly forward. Avoid leaning too far forward as this makes you vulnerable to forward-pulling sweeps. Your weight should be dynamic, ready to shift based on their reactions. When initiating a pass, commit your weight decisively in one direction rather than staying neutral, but only after breaking at least one grip or creating a favorable angle."
+      },
+      {
+        "question": "Your opponent begins to insert their feet on your biceps as you attempt to break grips - how do you respond?",
+        "answer": "Address the feet immediately before they establish bicep control, as this strengthens their position significantly. Options include: swimming your elbows inside their feet to knock them down, stepping back quickly to remove the contact point and reset, or committing to a quick toreando pass before they can settle the bicep hooks. Never allow them to establish both bicep hooks with sleeve grips simultaneously."
+      },
+      {
+        "question": "What common posture error leads to triangles and omoplatas from double sleeve guard?",
+        "answer": "Allowing your shoulders to dip below hip level while your head is pulled forward creates the primary submission window. When you lean forward with bent posture, your head enters the triangle zone and your shoulders become vulnerable to omoplata rotations. Additionally, reaching forward with one arm while the other stays back creates the arm isolation needed for these submissions. Maintain symmetrical posture with both shoulders at the same height."
+      },
+      {
+        "question": "How do you maintain forward passing pressure after successfully breaking one sleeve grip?",
+        "answer": "Immediately establish your own grip on their leg, belt, or collar with your freed hand - don't leave it empty. Step toward the freed side to create an angle that diminishes their remaining grip's effectiveness. Your new grip should be controlling their leg on the passing side, preventing them from re-establishing their guard structure. Continue moving forward without pausing, as any hesitation allows them to re-grip."
+      },
+      {
+        "question": "Your opponent is cycling their legs dynamically between your arms - what passing strategy should you employ?",
+        "answer": "Dynamic leg movement indicates they're defending reactively rather than attacking. Time your grip break and pass initiation to coincide with their leg movement, attacking when legs are in transition between positions. The knee slice pass is particularly effective here because you can enter during the movement window. Alternatively, control both legs simultaneously with a toreando grip to freeze their movement before passing."
+      },
+      {
+        "question": "What energy management strategy allows sustained pressure against a skilled double sleeve guard player?",
+        "answer": "Avoid extended grip fighting battles where both players are pulling constantly. Instead, use cycles of pressure and release: apply grip breaking pressure for 3-5 seconds, then maintain position without fighting if unsuccessful, then try a different angle. Stay mobile with your feet while keeping your arms relaxed between attempts. Chain grip breaks with passing attempts so energy expenditure directly contributes to position advancement rather than isolated grip battles."
+      }
+    ],
+    "decision_tree": [
+      {
+        "condition": "If opponent maintains strong double sleeve grips with feet on hips creating maximum distance",
+        "actions": [
+          {
+            "technique": "Grip Break",
+            "target": "Combat Base",
+            "probability": 60
+          },
+          {
+            "technique": "Toreando Pass",
+            "target": "Side Control",
+            "probability": 50
+          }
+        ]
+      },
+      {
+        "condition": "If opponent has sleeve grips but legs are in dynamic movement without stable foot placement",
+        "actions": [
+          {
+            "technique": "Knee Slice Pass",
+            "target": "Side Control",
+            "probability": 55
+          },
+          {
+            "technique": "Leg Drag Pass",
+            "target": "Leg Drag Control",
+            "probability": 50
+          },
+          {
+            "technique": "Long Step Pass",
+            "target": "Side Control",
+            "probability": 45
+          }
+        ]
+      },
+      {
+        "condition": "If opponent loses one sleeve grip or weakens bilateral control",
+        "actions": [
+          {
+            "technique": "X Pass",
+            "target": "Side Control",
+            "probability": 65
+          },
+          {
+            "technique": "Stack Pass",
+            "target": "Side Control",
+            "probability": 55
+          }
+        ]
+      },
+      {
+        "condition": "If opponent attempts to transition to different guard variation or sweep",
+        "actions": [
+          {
+            "technique": "Pressure Pass",
+            "target": "Side Control",
+            "probability": 60
+          },
+          {
+            "technique": "Smash Pass",
+            "target": "Side Control",
+            "probability": 50
+          }
+        ]
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Allowing posture to break forward while opponent maintains strong sleeve grips",
+        "consequence": "Creates vulnerability to sweeps, triangles, and omoplatas as your weight shifts forward into their offensive range",
+        "correction": "Maintain upright posture with chest up and hips back, using core engagement to resist forward pulling while systematically addressing grip breaks"
+      },
+      {
+        "error": "Attempting to pass immediately without addressing the sleeve grips first",
+        "consequence": "Opponent uses sleeve control to redirect your passing momentum, leading to sweeps or guard retention with minimal effort",
+        "correction": "Break at least one sleeve grip before committing to a passing sequence, or use grips and angles that neutralize the sleeve control's effectiveness"
+      },
+      {
+        "error": "Using only upper body strength to break grips without proper mechanics",
+        "consequence": "Depletes energy rapidly while often failing to break grips of skilled opponents, leaving you exhausted mid-pass attempt",
+        "correction": "Employ proper grip breaking mechanics using hip rotation, stepping patterns, and leverage rather than pure arm strength"
+      },
+      {
+        "error": "Remaining static in one position allowing opponent to set up their preferred attacks",
+        "consequence": "Bottom player establishes rhythm, finds optimal grip depth, and sets up sweeps or submissions from a stable defensive position",
+        "correction": "Maintain constant motion through angle changes, circling, and pressure variations to prevent opponent from settling into comfortable defensive patterns"
+      },
+      {
+        "error": "Failing to control distance after breaking grips, allowing opponent to immediately re-establish",
+        "consequence": "Creates a frustrating cycle of grip fighting without making forward progress toward passing",
+        "correction": "After breaking grips, immediately advance your own grips on their legs or belt while controlling distance to prevent re-establishment of sleeve controls"
+      },
+      {
+        "error": "Ignoring opponent's foot placement on hips or biceps while focusing only on sleeve grips",
+        "consequence": "Even with weak sleeve grips, strong foot frames can maintain distance and facilitate sweeps or guard retention",
+        "correction": "Address both the sleeve grips and leg positioning simultaneously, using strategies that diminish both control mechanisms"
+      }
+    ],
+    "training_drills": [
+      {
+        "name": "Progressive Grip Breaking Drill",
+        "description": "Partner maintains double sleeve grips with varying intensity (30%, 50%, 70%, 100%) while you practice different grip breaking techniques including wrist rotation breaks, elbow posting breaks, and hip movement breaks. Focus on mechanics over strength.",
+        "duration": "5 minutes per round, 3 rounds"
+      },
+      {
+        "name": "Toreando Passing Flow Drill",
+        "description": "Starting from double sleeve guard top, practice fluid toreando passing movements where you control both sleeves or pants and move the legs side to side. Partner provides 50% resistance initially, increasing as technique improves. Emphasize maintaining posture, controlling opponent's leg positioning, and circling to side control.",
+        "duration": "3 minutes per side, 4 rounds"
+      },
+      {
+        "name": "Guard Passing Decision Tree Sparring",
+        "description": "Positional sparring starting from double sleeve guard top where top player must recognize bottom player's defensive patterns and select appropriate passing strategy. Bottom player varies between strong sleeve retention, foot on hips frames, and dynamic guard movement. Reset after each successful pass or sweep.",
+        "duration": "5 minutes per position, switch roles, 6 rounds total"
+      },
+      {
+        "name": "Grip Fighting to Knee Slice Drill",
+        "description": "Start with opponent holding double sleeve grips. Practice breaking one grip, establishing your own control on their pants or belt, then immediately entering knee slice position. Partner provides progressive resistance. Focus on smooth transitions from grip break to passing entry.",
+        "duration": "4 minutes per round, 4 rounds"
+      }
+    ],
+    "related_content": [
+      {
+        "name": "Double Sleeve Guard Bottom",
+        "relationship": "Opposite perspective - bottom player's position"
+      },
+      {
+        "name": "Combat Base",
+        "relationship": "Alternative posture for addressing double sleeve grips"
+      },
+      {
+        "name": "Toreando Pass",
+        "relationship": "Primary passing technique from this position"
+      },
+      {
+        "name": "Knee Slice Pass",
+        "relationship": "High-percentage passing option after grip break"
+      },
+      {
+        "name": "Leg Drag Pass",
+        "relationship": "Effective passing option creating angle and control"
+      },
+      {
+        "name": "Spider Guard",
+        "relationship": "Similar position with different grip configuration"
+      },
+      {
+        "name": "Closed Guard",
+        "relationship": "Related guard passing scenario"
+      },
+      {
+        "name": "Open Guard",
+        "relationship": "Parent category of guard passing positions"
+      },
+      {
+        "name": "Headquarters Position",
+        "relationship": "Intermediate control position during passing sequences"
+      },
+      {
+        "name": "Side Control",
+        "relationship": "Primary destination after successful pass"
+      }
+    ],
+    "position_metrics": {
+      "retention_rate": {
+        "value": 62
+      },
+      "advancement_probability": {
+        "value": 58
+      },
+      "submission_probability": {
+        "value": 12
+      },
+      "average_time": "45-90 seconds before pass attempt or position change"
+    },
+    "transitions": [
+      {
+        "transition": "Toreando Pass",
+        "attempt_probability": 10
+      },
+      {
+        "transition": "Knee Slice Pass",
+        "attempt_probability": 10
+      },
+      {
+        "transition": "Leg Drag Pass",
+        "attempt_probability": 10
+      },
+      {
+        "transition": "Long Step Pass",
+        "attempt_probability": 8
+      },
+      {
+        "transition": "X Pass",
+        "attempt_probability": 8
+      },
+      {
+        "transition": "Double Under Pass",
+        "attempt_probability": 6
+      },
+      {
+        "transition": "Grip Break",
+        "attempt_probability": 35
+      },
+      {
+        "transition": "Stack Pass",
+        "attempt_probability": 8
+      },
+      {
+        "transition": "Pass Double Sleeve Guard",
+        "attempt_probability": 3
+      },
+      {
+        "transition": "Toreando from Double Sleeve",
+        "attempt_probability": 2
+      }
+    ]
+  },
+  "bottom": {
+    "name": "Double Sleeve Guard Bottom",
+    "description": "Master Double Sleeve Guard Bottom in BJJ. Control-focused open guard with bilateral sleeve grips. Learn sweeps, transitions, and guard retention with 65% advanced success rates.",
+    "tags": [
+      "bjj",
+      "position",
+      "open-guard",
+      "guard-bottom",
+      "sleeve-control",
+      "gi-guard",
+      "sweeps"
+    ],
+    "overview": "Double Sleeve Guard Bottom is a fundamental open guard position where the bottom practitioner controls both of the opponent's sleeves while maintaining distance with their feet on the hips or biceps. This position provides excellent control over the opponent's upper body, preventing them from establishing grips or initiating passing sequences while setting up numerous sweep and transition opportunities. The position is particularly effective in gi jiu-jitsu, where the sleeve grips create a strong connection that can be used to manipulate the opponent's posture and balance. Double Sleeve Guard is characterized by its emphasis on grip fighting dominance and distance management. By controlling both sleeves, the bottom player neutralizes the opponent's ability to grip the pants or control the legs, forcing them into a defensive posture. This guard excels at creating off-balancing opportunities and can transition seamlessly into more specialized guards like Spider Guard, Lasso Guard, or De La Riva Guard. The position requires good hip mobility and grip strength but offers a high return on investment for practitioners who develop proficiency with the fundamental sweeps and transitions available from this control position.",
+    "state_properties": {
+      "point_value": 0,
+      "position_type": "Defensive with offensive options",
+      "risk_level": "Low to Medium",
+      "energy_cost": "Medium",
+      "time_sustainability": "Medium to Long"
+    },
+    "state_invariants": [
+      "Bottom practitioner controls both of opponent's sleeves with firm grips at or near the cuffs, maintaining constant tension to prevent opponent from breaking grips or establishing their own control",
+      "Bottom practitioner's hips are mobile and off the mat, with feet actively posted on opponent's hips, biceps, or shoulders to maintain distance and prevent opponent from closing the gap",
+      "Opponent is on their knees or standing, unable to establish controlling grips on bottom player's pants or belt due to sleeve control, with their upper body posture being constantly manipulated",
+      "Bottom practitioner's shoulders remain on the mat with head neutral or slightly lifted to maintain visual contact with opponent's movements and maintain proper spinal alignment",
+      "Distance is maintained between bottom player's torso and top player through active foot pressure, preventing top player from establishing chest-to-chest pressure or smash passing positions"
+    ],
+    "prerequisites": [
+      "Opponent is in open guard top position on their knees or standing",
+      "Bottom practitioner has established grips on both of opponent's sleeves",
+      "Sufficient distance exists between bottom and top player to extend legs",
+      "Bottom practitioner's guard has not been passed and they maintain hip mobility",
+      "Opponent has not yet established dominant grips on pants or belt"
+    ],
+    "key_principles": [
+      "Maintain constant tension on both sleeve grips to prevent opponent from breaking grips and establishing their own control system",
+      "Use feet actively to push and pull opponent's body, creating off-balancing opportunities and preventing them from settling their weight",
+      "Keep hips mobile and ready to follow opponent's movements, adjusting foot placement as they attempt to change angles",
+      "Break opponent's posture by pulling sleeves while pushing with feet, creating a concave bend in their spine that compromises their base",
+      "Transition grips and foot placement fluidly to prevent opponent from anticipating and countering sweep attempts",
+      "Maintain visual contact with opponent and read their weight distribution to time sweeps and transitions optimally",
+      "Use the guard to control tempo and prevent opponent from initiating their passing game"
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "Your opponent begins to rotate their wrists to break your sleeve grips - what adjustment maintains your control?",
+        "answer": "Immediately pull your elbows tight to your ribs while curling your wrists inward, creating a structure where your grip strength is reinforced by your arm position rather than isolated finger strength. Simultaneously extend your legs to push them away, which makes their rotation less effective because they're being stretched. Re-grip deeper on the cuff if needed, as grip depth near the wrist opening provides maximum control with minimal effort."
+      },
+      {
+        "question": "What are the essential grip configurations for maintaining double sleeve control?",
+        "answer": "Grip at or near the cuffs with four fingers inside the sleeve opening and thumb outside, creating a pistol grip. Your grip should be deep enough that your knuckles touch the inside of the cuff. Maintain constant pulling tension toward your hips with both arms bent at approximately 90 degrees. Your elbows should stay close to your body rather than flaring outward, which both strengthens your grip and positions you for sweeps."
+      },
+      {
+        "question": "How should you position your hips and legs to maintain optimal distance against a standing opponent?",
+        "answer": "Keep your hips elevated slightly off the mat with feet actively pushing on opponent's hips or biceps. Your legs should be bent at approximately 45-90 degrees depending on their distance - more bent when they're closer, more extended when they're further. Never let your hips rest flat on the mat as this eliminates your mobility. Your feet should push with the balls of your feet, not your heels, for maximum control and quick repositioning."
+      },
+      {
+        "question": "Your opponent successfully breaks one of your sleeve grips and begins to pass - how do you recover?",
+        "answer": "Immediately use your remaining sleeve grip to pull them off-balance while creating an angle with your hips. Hip out toward the freed side to create distance and prevent them from achieving passing pressure. Your free hand should immediately seek to re-grip their sleeve, control their collar, or frame on their bicep. Transition to lasso guard, spider guard, or collar sleeve guard rather than fighting to re-establish double sleeve from a compromised position."
+      },
+      {
+        "question": "What body mechanics create the most effective sweeping power from double sleeve guard?",
+        "answer": "Combine push-pull mechanics with hip rotation for maximum sweeping power. Your feet push in one direction while your sleeve grips pull in another, creating rotational force. Your hips should come off the mat and rotate in the sweeping direction while your shoulders stay relatively fixed. The power comes from your core rotation and leg extension, not your arms pulling - your arms direct the force while your legs and hips generate it."
+      },
+      {
+        "question": "Your opponent postures strongly and pulls their arms back to break your grips - what sweep opportunity does this create?",
+        "answer": "Their backward posture creates an excellent opportunity for the push sweep or technical stand-up. When they pull back, follow their momentum by sitting up while maintaining one sleeve grip. Use their backward energy to come to seated position or standing. Alternatively, if they pull back while you have feet on their hips, extend your legs explosively while pulling their sleeves to create a double ankle sweep opportunity as their base lifts."
+      },
+      {
+        "question": "How do you recognize the optimal moment to attempt a sweep versus maintaining guard retention?",
+        "answer": "Sweep when opponent's weight shifts uncommitted in one direction, when they reach to break your grip (their posting hand is occupied), when they step laterally creating a vulnerable base, or when they lean forward attempting to pressure pass. Maintain retention when their base is solid and symmetrical, when they have a hand ready to post, or when they're patiently working grip breaks without committing weight. Read their hips and shoulders - movement there precedes balance vulnerability."
+      },
+      {
+        "question": "Your grips feel fatigued after extended grip fighting - how do you manage energy while maintaining control?",
+        "answer": "Transition one grip to a more sustainable position like lasso or spider guard where the gi wrapping provides mechanical advantage requiring less grip strength. Alternate which hand is doing primary pulling work. Use your legs to do more of the controlling work, posting feet firmly on hips to maintain distance without requiring constant sleeve tension. Consider closing guard briefly to recover grip strength if opponent gets close enough. Strategic guard transitions preserve grip endurance better than sustained double sleeve fighting."
+      }
+    ],
+    "decision_tree": [
+      {
+        "condition": "If opponent maintains strong upright posture and attempts to break grips by pulling arms back",
+        "actions": [
+          {
+            "technique": "Tripod Sweep",
+            "target": "Open Guard",
+            "probability": 60
+          },
+          {
+            "technique": "Sickle Sweep",
+            "target": "Open Guard",
+            "probability": 55
+          }
+        ]
+      },
+      {
+        "condition": "If opponent leans forward with weight attempting to break grips and establish chest pressure",
+        "actions": [
+          {
+            "technique": "Triangle Setup",
+            "target": "Triangle Control",
+            "probability": 55
+          },
+          {
+            "technique": "Scissor Sweep",
+            "target": "Mount",
+            "probability": 60
+          },
+          {
+            "technique": "Omoplata Sweep",
+            "target": "Side Control",
+            "probability": 50
+          }
+        ]
+      },
+      {
+        "condition": "If opponent attempts to circle or step to one side to initiate passing sequence",
+        "actions": [
+          {
+            "technique": "Pendulum Sweep",
+            "target": "Mount",
+            "probability": 55
+          },
+          {
+            "technique": "Flower Sweep",
+            "target": "Mount",
+            "probability": 58
+          },
+          {
+            "technique": "De La Riva Sweep",
+            "target": "De La Riva Guard",
+            "probability": 52
+          }
+        ]
+      },
+      {
+        "condition": "If opponent successfully breaks one sleeve grip and establishes pants grip",
+        "actions": [
+          {
+            "technique": "Guard Recovery from Double Sleeve Guard",
+            "target": "Open Guard",
+            "probability": 45
+          },
+          {
+            "technique": "Overhook Sweep",
+            "target": "Mount",
+            "probability": 50
+          }
+        ]
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Releasing tension on sleeve grips, allowing opponent to break grips easily",
+        "consequence": "Opponent establishes their own grips on pants or belt and initiates passing sequence with dominant control",
+        "correction": "Maintain constant pulling tension on both sleeves, using bicep curl motion and keeping elbows tight to body"
+      },
+      {
+        "error": "Allowing feet to rest passively on opponent's hips without active pushing",
+        "consequence": "Opponent closes distance and establishes smash passing pressure, collapsing the guard structure",
+        "correction": "Actively push with balls of feet, extending legs to create and maintain distance while adjusting pressure based on opponent's movements"
+      },
+      {
+        "error": "Keeping hips flat on mat instead of mobile and ready to move",
+        "consequence": "Unable to follow opponent's circling movements, making sweeps ineffective and allowing easy passing",
+        "correction": "Keep hips elevated slightly off mat, ready to pivot and follow opponent's direction changes"
+      },
+      {
+        "error": "Gripping too high on opponent's sleeves near the shoulders instead of at the cuffs",
+        "consequence": "Opponent has greater range of motion and can use leverage to break grips more easily",
+        "correction": "Establish grips at or near the cuffs where opponent has minimal leverage and maximum control can be maintained"
+      },
+      {
+        "error": "Attempting sweeps without first breaking opponent's posture and balance",
+        "consequence": "Sweeps fail as opponent maintains strong base and can simply step through or around sweep attempts",
+        "correction": "First use push-pull dynamics to break posture, then time sweep when opponent is off-balance"
+      },
+      {
+        "error": "Failing to transition grips when opponent adjusts position",
+        "consequence": "Opponent creates angles for passing that cannot be controlled with static double sleeve grips",
+        "correction": "Be ready to transition one sleeve grip to lasso, spider, or collar grip as opponent moves"
+      }
+    ],
+    "training_drills": [
+      {
+        "name": "Double Sleeve Grip Retention Drill",
+        "description": "Partner attempts to break both sleeve grips using various methods while bottom player maintains grips for 2-minute rounds. Focus on grip strength, frame integrity, and re-establishing grips quickly if broken. Partner should use realistic grip breaking strategies including posting, pulling back, and circling.",
+        "duration": "5 rounds of 2 minutes"
+      },
+      {
+        "name": "Sweep Chain Flow Drill",
+        "description": "From double sleeve guard, practice flowing between scissor sweep, flower sweep, and pendulum sweep based on partner's resistance. Partner provides progressive resistance, allowing successful sweeps initially then increasing difficulty. Emphasize smooth transitions between sweep options and reading partner's weight distribution.",
+        "duration": "10 minutes"
+      },
+      {
+        "name": "Distance Management Drill",
+        "description": "Maintain double sleeve control while partner attempts to close distance and establish chest pressure. Bottom player must use feet to maintain optimal distance, adjusting foot placement between hips, biceps, and shoulders as needed. Focus on active leg extension and hip mobility to prevent opponent from collapsing guard.",
+        "duration": "3 rounds of 3 minutes"
+      },
+      {
+        "name": "Guard Transition Drill",
+        "description": "Start from double sleeve guard and transition to spider guard, lasso guard, or De La Riva guard based on partner's movement. Partner walks around attempting to pass while bottom player adjusts grips and foot placement to transition between guard types. Emphasize maintaining control throughout transitions.",
+        "duration": "8 minutes"
+      }
+    ],
+    "related_content": [
+      {
+        "name": "Spider Guard",
+        "relationship": "Natural transition when opponent stands or extends arms"
+      },
+      {
+        "name": "Lasso Guard",
+        "relationship": "Common transition when opponent circles to one side"
+      },
+      {
+        "name": "Closed Guard",
+        "relationship": "Can transition to closed guard if opponent closes distance"
+      },
+      {
+        "name": "Open Guard",
+        "relationship": "Parent category position"
+      },
+      {
+        "name": "Collar Sleeve Guard",
+        "relationship": "Similar guard with mixed grip strategy"
+      },
+      {
+        "name": "Scissor Sweep",
+        "relationship": "Primary offensive technique from this position"
+      },
+      {
+        "name": "Flower Sweep",
+        "relationship": "High-percentage sweep option"
+      },
+      {
+        "name": "Triangle Control",
+        "relationship": "Primary submission entry from broken posture"
+      },
+      {
+        "name": "Omoplata Control",
+        "relationship": "Submission control position from shoulder isolation"
+      },
+      {
+        "name": "De La Riva Guard",
+        "relationship": "Advanced guard transition against standing opponent"
+      }
+    ],
+    "position_metrics": {
+      "retention_rate": {
+        "value": 72
+      },
+      "advancement_probability": {
+        "value": 52
+      },
+      "submission_probability": {
+        "value": 32
+      },
+      "average_time": "45-90 seconds before transition or pass attempt"
+    },
+    "transitions": [
+      {
+        "transition": "Tripod Sweep",
+        "attempt_probability": 69
+      },
+      {
+        "transition": "Omoplata Sweep",
+        "attempt_probability": 4
+      },
+      {
+        "transition": "Triangle Setup",
+        "attempt_probability": 8
+      },
+      {
+        "transition": "Omoplata",
+        "attempt_probability": 4
+      },
+      {
+        "transition": "Guard Recovery from Double Sleeve Guard",
+        "attempt_probability": 4
+      },
+      {
+        "transition": "Sickle Sweep",
+        "attempt_probability": 6
+      },
+      {
+        "transition": "Flower Sweep",
+        "attempt_probability": 2
+      },
+      {
+        "transition": "Pendulum Sweep",
+        "attempt_probability": 2
+      },
+      {
+        "transition": "Armbar Setup from Double Sleeve",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Double Sleeve Sweep",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Double Sleeve to De La Riva",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Double Sleeve to Lasso",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Double Sleeve to Spider",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Double Sleeve to Spider Guard",
+        "attempt_probability": 1
+      }
+    ]
+  }
+}

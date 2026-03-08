@@ -1,0 +1,443 @@
+{
+  "name": "Foot Grab Sweep",
+  "description": "Master the Foot Grab Sweep from seated guard. Step-by-step execution covering grip control, off-balancing mechanics, and follow-through to top position.",
+  "tags": [
+    "bjj",
+    "transition",
+    "sweep",
+    "open_guard",
+    "foot_control",
+    "intermediate",
+    "de_la_riva",
+    "butterfly_guard",
+    "seated_guard"
+  ],
+  "from_position": "Seated Guard/Bottom",
+  "outcomes": [
+    {
+      "to": "Side Control/Top",
+      "probability": 70,
+      "result": "success"
+    },
+    {
+      "to": "Seated Guard/Bottom",
+      "probability": 20,
+      "result": "failure"
+    },
+    {
+      "to": "Seated Guard/Top",
+      "probability": 10,
+      "result": "counter"
+    }
+  ],
+  "success_rate": 60,
+  "overview": "The Foot Grab Sweep is a fundamental open guard technique that exploits an opponent's forward pressure and poor base management. By controlling one of the opponent's feet while simultaneously breaking their posture and grips, the practitioner creates a powerful sweeping motion that elevates the opponent and reverses position. This technique is particularly effective against opponents who attempt to stand and pass the guard, or those who maintain a squared-up stance with weight distributed evenly on both legs.\n\nThe sweep works on the principle of removing one of the opponent's base points while simultaneously creating directional force that their remaining leg cannot compensate for. When executed properly, the foot grab sweep allows the practitioner to control the opponent's movement completely, preventing them from posting or recovering their base. The technique is highly versatile and can be adapted to various open guard positions including butterfly guard, seated guard, and de la riva variations.\n\nSuccess with this sweep depends heavily on timing, grip control, and the ability to read the opponent's weight distribution. Advanced practitioners can chain this sweep with other attacks, using the opponent's defensive reactions to create offensive opportunities. The foot grab sweep is an essential component of a complete open guard game and serves as both a primary attacking option and a counter to standing guard passes.",
+  "related_content": [
+    {
+      "name": "Butterfly Sweep",
+      "relationship": "Alternative sweep from similar positions with different mechanics"
+    },
+    {
+      "name": "Ankle Pick Sweep",
+      "relationship": "Similar foot control concept with different execution"
+    },
+    {
+      "name": "Single Leg X Entry",
+      "relationship": "Common transition when foot grab is defended by stepping back"
+    },
+    {
+      "name": "Hook Sweep",
+      "relationship": "Alternative open guard sweep with similar timing windows"
+    },
+    {
+      "name": "De La Riva Sweep",
+      "relationship": "Can transition between these sweeps based on opponent's base"
+    },
+    {
+      "name": "Tripod Sweep",
+      "relationship": "Another open guard sweep that works well in combination"
+    },
+    {
+      "name": "Butterfly Guard",
+      "relationship": "Starting position for butterfly variation of this sweep"
+    },
+    {
+      "name": "Open Guard",
+      "relationship": "Parent guard category from which this technique operates"
+    },
+    {
+      "name": "De La Riva Guard",
+      "relationship": "Alternative starting position for DLR variation of this sweep"
+    },
+    {
+      "name": "Lumberjack Sweep",
+      "relationship": "Related standing-opponent sweep that creates similar dilemmas"
+    },
+    {
+      "name": "Ankle Pick",
+      "relationship": "Complementary takedown option from same gripping position"
+    },
+    {
+      "name": "Leg Drag Pass",
+      "relationship": "Common opponent response that this sweep can counter"
+    }
+  ],
+  "conditions": [
+    "Opponent standing or on knees within foot-reach distance",
+    "At least one hand free to grab opponent's foot or ankle",
+    "Opponent's weight is committed forward or distributed unevenly",
+    "Active open guard position with hip mobility available",
+    "Upper body grip control established to prevent opponent from simply retreating"
+  ],
+  "attacker": {
+    "name": "Foot Grab Sweep Attacker",
+    "description": "How to execute the Foot Grab Sweep in BJJ. Attacking perspective with setup, execution steps, counters, and training progressions.",
+    "overview": "The Foot Grab Sweep is a fundamental open guard technique that exploits an opponent's forward pressure and poor base management. By controlling one of the opponent's feet while simultaneously breaking their posture and grips, the practitioner creates a powerful sweeping motion that elevates the opponent and reverses position. This technique is particularly effective against opponents who attempt to stand and pass the guard, or those who maintain a squared-up stance with weight distributed evenly on both legs.\n\nThe sweep works on the principle of removing one of the opponent's base points while simultaneously creating directional force that their remaining leg cannot compensate for. When executed properly, the foot grab sweep allows the practitioner to control the opponent's movement completely, preventing them from posting or recovering their base. The technique is highly versatile and can be adapted to various open guard positions including butterfly guard, seated guard, and de la riva variations.\n\nSuccess with this sweep depends heavily on timing, grip control, and the ability to read the opponent's weight distribution. Advanced practitioners can chain this sweep with other attacks, using the opponent's defensive reactions to create offensive opportunities. The foot grab sweep is an essential component of a complete open guard game and serves as both a primary attacking option and a counter to standing guard passes.",
+    "key_principles": [
+      "Control the opponent's foot before initiating the sweep to eliminate their base",
+      "Break the opponent's grips and posture simultaneously with the foot control",
+      "Use your legs and hips to create directional force perpendicular to their remaining base",
+      "Time the sweep when opponent's weight is committed forward or to one side",
+      "Maintain constant pressure and connection throughout the sweeping motion",
+      "Follow through completely to secure top position and prevent scrambles",
+      "Keep your own base active and ready to adjust if the sweep is countered"
+    ],
+    "setup_requirements": [
+      "Open guard position established with opponent on knees or standing",
+      "At least one grip on opponent's sleeve, collar, or pant leg",
+      "Opponent's weight distributed unevenly or committed forward",
+      "Clear access to grab opponent's foot or ankle",
+      "Hip mobility to create angles and generate sweeping force",
+      "Active guard retention with legs engaged to prevent passing"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Establish grip control",
+        "description": "From open guard, secure a strong grip on the opponent's sleeve or collar with one hand. Simultaneously use your legs to control their hips or torso, preventing them from creating distance. Your free hand should be ready to grab their foot."
+      },
+      {
+        "step_number": 2,
+        "action": "Isolate target foot",
+        "description": "Identify which foot to attack based on the opponent's weight distribution. Typically, choose the foot that has less weight on it or the one that aligns with your sweeping direction. Use your leg to push or hook behind their opposite knee, forcing weight onto one leg."
+      },
+      {
+        "step_number": 3,
+        "action": "Grab the foot",
+        "description": "With your free hand, quickly reach and secure a firm grip on the opponent's foot, ankle, or heel. The grip should be strong enough to control their leg completely. Your thumb should wrap around the heel or inside of the ankle for maximum control."
+      },
+      {
+        "step_number": 4,
+        "action": "Break posture and grips",
+        "description": "Pull down sharply on your sleeve or collar grip while simultaneously lifting and pulling the captured foot. This dual action breaks the opponent's posture and eliminates their grips on you. Your legs should actively push or hook to further destabilize their base."
+      },
+      {
+        "step_number": 5,
+        "action": "Generate sweeping force",
+        "description": "Drive your hips off the mat and rotate your body in the direction of the sweep. Pull the controlled foot across your body while pushing with your legs against the opponent's remaining base. The motion should be circular and continuous, like a windshield wiper."
+      },
+      {
+        "step_number": 6,
+        "action": "Elevate and rotate opponent",
+        "description": "As the opponent begins to fall, maintain control of their foot and continue the rotational motion. Your legs should actively drive them over while your grips guide their direction. Elevate your hips to create maximum leverage and ensure they cannot post with their hands."
+      },
+      {
+        "step_number": 7,
+        "action": "Follow through to top position",
+        "description": "As the opponent falls to their back or side, release the foot grip and immediately establish top position. Drive forward with your chest and establish control with your weight. Secure grips and move to consolidate side control, mount, or maintain positional advantage."
+      },
+      {
+        "step_number": 8,
+        "action": "Establish top control",
+        "description": "Once on top, immediately establish dominant grips and distribute your weight to prevent the opponent from recovering guard. Control their hips with your hands or legs, and begin advancing to a more dominant position or setting up submissions."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Opponent pulls their foot back before you can secure the grip",
+        "effectiveness": "High",
+        "your_response": "Transition to alternative sweep or guard retention. Use the motion of reaching for the foot to set up collar drag, arm drag, or switch to different guard position like de la riva or x-guard.",
+        "targets_outcome": "Seated Guard/Bottom"
+      },
+      {
+        "counter": "Opponent posts their free hand to prevent being swept",
+        "effectiveness": "Medium",
+        "your_response": "Attack the posting arm with a kimura grip or armbar. Alternatively, continue the sweeping motion more aggressively to overcome the post, or switch directions to sweep to the opposite side.",
+        "targets_outcome": "Seated Guard/Bottom"
+      },
+      {
+        "counter": "Opponent sprawls back and creates distance",
+        "effectiveness": "Medium",
+        "your_response": "Maintain foot control and follow their movement. Transition to single leg x-guard or ashi garami position. Use their backward motion to enter leg entanglement positions.",
+        "targets_outcome": "Seated Guard/Bottom"
+      },
+      {
+        "counter": "Opponent steps over to pass before sweep completes",
+        "effectiveness": "Low",
+        "your_response": "Use their stepping motion to reverse the sweep direction or transition to deep half guard. Their movement creates opportunity for back takes or alternative sweeps.",
+        "targets_outcome": "Seated Guard/Top"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Grabbing the foot without first establishing upper body control",
+        "consequence": "Opponent easily pulls their foot free and advances to passing position",
+        "correction": "Always establish sleeve or collar grip first. Use this grip to break opponent's posture before reaching for the foot. The upper body control prevents them from reacting effectively."
+      },
+      {
+        "error": "Attempting sweep when opponent's weight is evenly distributed",
+        "consequence": "Opponent maintains base and counters by passing guard or creating pressure",
+        "correction": "Wait for or create weight shift. Use your legs to push their hips, forcing weight onto one leg before attacking the other foot. Timing is crucial for this sweep's success."
+      },
+      {
+        "error": "Using only arm strength to complete the sweep",
+        "consequence": "Sweep lacks power and opponent can resist or counter effectively",
+        "correction": "Engage your entire body in the sweeping motion. Drive with your hips, rotate your core, and use your legs to create the majority of the sweeping force. Arms only guide direction."
+      },
+      {
+        "error": "Releasing the foot too early in the sweep",
+        "consequence": "Opponent recovers base mid-sweep and maintains top position or passes",
+        "correction": "Maintain foot control throughout the entire sweeping motion until opponent is completely off balance and falling. Only release when committing to top position establishment."
+      },
+      {
+        "error": "Failing to follow through after the sweep",
+        "consequence": "Opponent scrambles back to guard or escapes before control is established",
+        "correction": "Immediately drive forward as opponent falls. Stay connected and pressure them to the mat. Establish heavy top pressure and secure grips before opponent can recover."
+      },
+      {
+        "error": "Sweeping in a linear direction instead of circular motion",
+        "consequence": "Opponent can post their hand or free leg to prevent completion",
+        "correction": "Use rotational, circular sweeping motion that goes around their base rather than straight across. This makes it harder for opponent to counter and creates better angles."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Week 1-2: Fundamental mechanics",
+        "focus": "Foot grip and basic sweeping motion",
+        "description": "Practice foot gripping techniques with stationary partner. Focus on proper hand placement on the foot and ankle. Drill the basic sweeping motion without resistance, emphasizing hip elevation and rotational movement. Partner remains still to allow repetition of mechanics."
+      },
+      {
+        "phase": "Week 3-4: Timing and grip coordination",
+        "focus": "Coordinating upper body control with foot grab",
+        "description": "Partner provides light movement and slight resistance. Practice establishing sleeve/collar grip first, then timing the foot grab appropriately. Work on breaking posture simultaneously with foot control. Partner allows sweep to complete but provides realistic movement."
+      },
+      {
+        "phase": "Week 5-6: Weight distribution reading",
+        "focus": "Identifying optimal timing based on opponent's position",
+        "description": "Partner varies their stance and weight distribution. Practitioner must read which foot to attack and when to initiate sweep. Increase resistance progressively. Partner may attempt basic counters like pulling foot back or posting hand."
+      },
+      {
+        "phase": "Week 7-8: Counter defense integration",
+        "focus": "Responding to common counters and maintaining sweep success",
+        "description": "Partner actively tries to counter the sweep using posting, sprawling, or foot withdrawal. Practitioner works on adjustments, alternative sweeps, and transitions. Focus on maintaining offensive pressure even when primary sweep is defended."
+      },
+      {
+        "phase": "Week 9-12: Live integration",
+        "focus": "Executing sweep during positional sparring",
+        "description": "Full resistance positional sparring from open guard. Partner attempts to pass while practitioner looks for foot grab sweep opportunities. Work on chaining with other sweeps and creating dilemmas. Track success rate and identify patterns."
+      },
+      {
+        "phase": "Ongoing: Competition refinement",
+        "focus": "High-level application and system building",
+        "description": "Integrate foot grab sweep into complete open guard system. Practice against various passing styles. Work on combinations with leg entanglements, back takes, and submission threats. Film and analyze execution during live rolling and competition."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "Why is it important to establish upper body grip control before grabbing the opponent's foot?",
+        "answer": "Establishing upper body control first serves multiple purposes: it breaks the opponent's posture, making them less able to react to the foot grab; it prevents them from establishing strong grips on you; and it controls their upper body movement so they cannot easily pull their foot away. Without upper body control first, the opponent can simply step back or pull their foot free before the sweep can be initiated."
+      },
+      {
+        "question": "What mechanical principles make the foot grab sweep effective despite an opponent potentially being larger and stronger?",
+        "answer": "The foot grab sweep works through leverage and base manipulation rather than strength. By controlling one foot while the opponent's weight is on the other leg, you eliminate half their base. The circular, rotational sweeping motion creates force perpendicular to their remaining base, making it geometrically impossible to maintain balance regardless of strength. Hip elevation and full body rotation generate force far exceeding what arm strength alone could produce."
+      },
+      {
+        "question": "How should you adjust your foot grab sweep when facing an opponent who consistently posts their hand to defend?",
+        "answer": "Against hand-posting opponents, you have several options: attack the posting arm with kimura or armbar while maintaining foot control; increase the speed and explosiveness of your sweep to overcome the post; change the angle of your sweep to go around the posted hand; or use the posting action as a cue to transition to alternative attacks like arm drags or back takes. Advanced practitioners can fake the foot grab to bait the post, then attack the exposed arm."
+      },
+      {
+        "question": "What are the key timing indicators that signal the optimal moment to initiate the foot grab sweep?",
+        "answer": "Optimal timing occurs when: the opponent's weight shifts forward onto their hands; they attempt to stand from kneeling position; their weight commits to one leg during passing attempts; they break your guard and begin moving to establish passing position; or they reach for grips and extend their arms, compromising their posture. The common element is temporary instability or commitment of weight that prevents quick adjustment."
+      },
+      {
+        "question": "How does the foot grab sweep integrate into a complete open guard system?",
+        "answer": "The foot grab sweep functions as both a primary attack and a transition tool within open guard. It chains effectively with single leg x-guard entries (if opponent defends by stepping back), butterfly sweeps (when opponent pressures forward), and leg entanglements (if foot control is maintained after failed sweep). It also serves as a counter to standing passes and creates dilemmas when combined with upper body attacks like guillotines or collar drags. Advanced players use it to force reactions that open other attacks."
+      },
+      {
+        "question": "What body mechanics should be emphasized when teaching beginners the foot grab sweep?",
+        "answer": "For beginners, emphasize: proper hip elevation using core and glute engagement; circular rather than linear sweeping motion; maintaining connection throughout the sweep; following through completely to top position; and coordinating all body parts to work together. The common beginner mistake is relying only on arms, so stress that the sweep's power comes from the hips and legs while arms only guide. Also teach them to establish grips sequentially (upper body first, then foot) rather than reaching blindly for the foot."
+      },
+      {
+        "question": "Your opponent pulls their foot back as you reach for it, then immediately steps forward to pass - what is the correct response?",
+        "answer": "This is a common reactive sequence. As they pull the foot back, your reaching hand is already extended, so redirect it to grab their sleeve or collar on the advancing side. Their forward step shifts their weight onto the lead leg, which you can now attack with a scissor sweep, tripod sweep, or butterfly hook elevation. The key is not to chase the retreating foot but to use your momentum to transition seamlessly to the next attack in the chain. Their passing attempt actually creates better sweep opportunities because their weight is committed directionally."
+      },
+      {
+        "question": "What grip on the foot or ankle provides the most control, and why does grip placement matter?",
+        "answer": "The most effective grip cups the heel with your thumb wrapping inside the ankle and fingers securing around the back of the heel and Achilles area. This grip controls the entire lower leg like a steering wheel, preventing the opponent from rotating their foot free. Gripping the toes or forefoot provides less control because the opponent can flex their ankle to slip out. The heel grip locks the ankle joint and gives you rotational control over the entire limb, which is essential for generating the circular sweeping force needed to complete the technique."
+      },
+      {
+        "question": "What is the most critical hip movement during the execution of the foot grab sweep?",
+        "answer": "The critical hip movement is the elevation and rotation that occurs as you pull the captured foot across your body. Your hips must drive off the mat forcefully, creating an arc that generates the sweeping power. Think of your hips as the engine and your arms as the steering wheel. Without hip elevation, you are relying on arm strength alone, which is insufficient against a resisting opponent. The hip drive should be explosive and continuous, not a static lift, and it must rotate in the direction of the sweep to create the circular force that prevents the opponent from posting to recover balance."
+      },
+      {
+        "question": "If the foot grab sweep is blocked but you maintain the foot grip, what chain attacks become available?",
+        "answer": "Maintaining the foot grip after a blocked sweep opens several high-percentage options. You can transition to single leg x-guard by threading your inside leg through and hooking their far hip. You can enter ashi garami by pulling the controlled leg across your body and establishing heel hook position. You can switch to an ankle pick by driving forward with the grip. You can also use the foot control to off-balance them for a different sweep angle, or release and immediately attack the other foot while they are adjusting. The foot grip is valuable real estate that should never be abandoned without transitioning to something productive."
+      }
+    ],
+    "safety_considerations": "When practicing the foot grab sweep, controlled execution is essential to prevent injury to both practitioners. The partner being swept should be aware of the incoming sweep and prepared to break fall appropriately, protecting their head and neck during rotation. Avoid yanking or twisting the ankle joint aggressively; control should be firm but not violent. When drilling, ensure proper mat space is available for the sweeping motion to complete safely without obstacles. Partners should communicate about resistance levels, especially during initial learning phases. Be particularly careful when transitioning to top position not to land with knees or elbows on the partner's body. If the sweep fails, don't force completion as this can lead to knee or ankle injuries. Advanced practitioners should be mindful of their partner's experience level and adjust speed and power accordingly."
+  },
+  "defender": {
+    "name": "Foot Grab Sweep Defender",
+    "description": "How to defend against the Foot Grab Sweep in BJJ. Recognition cues, defensive options, escape strategies, and counter-attacks from the passer's perspective.",
+    "overview": "Defending the Foot Grab Sweep requires understanding the sweep's mechanical dependencies and disrupting them before the sweeper can generate full rotational force. As the top player standing or kneeling over an open guard, you must manage your base width, weight distribution, and grip positioning to deny the bottom player access to your feet while maintaining your passing initiative. The sweep relies on isolating one base point and creating perpendicular force, so your defense centers on maintaining two-point base stability and denying the grip sequence that precedes the sweep.\n\nThe most critical defensive window occurs during the setup phase, before the bottom player has secured the foot grip. Once both grips are established (upper body control plus foot grip), the sweep becomes exponentially harder to stop. Recognizing the sweeper's intention early through visual and tactile cues allows you to retract the targeted foot, break the controlling grip, or shift your weight to nullify the sweep angle before it develops. Experienced defenders use the sweep attempt as an opportunity to advance their own passing position, converting the opponent's reach for the foot into an opening for toreando passes, leg drags, or pressure passing sequences.\n\nDefensive success depends on disciplined base management, active grip fighting, and the willingness to abandon a compromised stance rather than trying to muscle through a sweep that has already been initiated. The defender who can recognize the foot grab attempt within the first half-second has a significant advantage over one who reacts only after feeling the pull.",
+    "key_principles": [
+      "Maintain staggered stance with weight distributed across both legs to prevent isolation of a single base point",
+      "Keep feet active and mobile rather than flat-footed, making them difficult targets for the sweeper to grip",
+      "Prioritize breaking the upper body grip first, as the sweep cannot succeed without dual control points",
+      "Shift weight onto the targeted foot immediately when you feel a grab attempt, making it impossible to lift",
+      "Use grip fighting to occupy the sweeper's hands before they can establish the foot-plus-sleeve combination",
+      "Convert defensive reactions into passing opportunities by exploiting the space created when opponent reaches for your foot"
+    ],
+    "recognition_cues": [
+      "Opponent's free hand reaches low toward your ankle or foot rather than fighting for upper body grips",
+      "Opponent uses their legs to push one of your knees or hips laterally, attempting to shift your weight onto one leg to expose the other foot",
+      "Opponent pulls sharply on your sleeve or collar while simultaneously scooting their hips closer, creating the angle needed for the foot grab",
+      "You feel your balance shift unexpectedly to one side as opponent's legs engage your hips asymmetrically",
+      "Opponent transitions from a passive seated guard to an aggressive hip-forward posture with one hand dropping below your knee line"
+    ],
+    "defensive_options": [
+      {
+        "action": "Retract the targeted foot and circle away from the sweep direction while maintaining your upper body posture",
+        "when_to_use": "As soon as you feel or see the opponent's hand reaching for your foot, before they secure the grip",
+        "targets_outcome": "Seated Guard/Bottom",
+        "if_successful": "Sweep attempt fails completely, opponent returns to seated guard without any control, and you maintain your passing position with initiative",
+        "risk": "Circling away may create distance that allows opponent to stand up or reset their guard position"
+      },
+      {
+        "action": "Drive your weight forward onto the grabbed foot while crossfacing or pressuring opponent's upper body to flatten them",
+        "when_to_use": "When the opponent has already gripped your foot but has not yet generated rotational force",
+        "targets_outcome": "Seated Guard/Bottom",
+        "if_successful": "Your weight on the foot makes it impossible for them to lift or pull it across their body, killing the sweep mechanics entirely",
+        "risk": "Driving forward aggressively may overcommit your weight and expose you to a different sweep direction or guillotine"
+      },
+      {
+        "action": "Strip the upper body grip by peeling their controlling hand off your sleeve or collar, removing the anchor point the sweep requires",
+        "when_to_use": "When opponent has both grips established but has not yet initiated the hip drive and rotational sweep",
+        "targets_outcome": "Seated Guard/Bottom",
+        "if_successful": "Without the upper body grip, the foot control alone cannot generate the necessary off-balancing force to complete the sweep",
+        "risk": "Focusing on grip fighting may delay your passing and allow opponent to re-establish grips or switch to a different attack"
+      },
+      {
+        "action": "Step over the sweeping motion and immediately attack with a leg drag or toreando pass, converting their sweep attempt into a passing opportunity",
+        "when_to_use": "When the sweep is already in motion but you have enough base to redirect your momentum into a passing angle",
+        "targets_outcome": "Seated Guard/Top",
+        "if_successful": "You bypass their guard entirely and establish a dominant top position, punishing their offensive attempt",
+        "risk": "Mistiming the step-over can accelerate the sweep and put you in a worse position than if you had simply defended"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Seated Guard/Bottom",
+        "how": "Defend the sweep by retracting the targeted foot early, breaking the upper body grip, or loading weight onto the grabbed foot to kill the sweep mechanics. Any of these actions returns the position to the starting state where you retain your passing initiative and the opponent must rebuild their attack from scratch."
+      },
+      {
+        "outcome": "Seated Guard/Top",
+        "how": "Convert the sweep defense into a guard pass by timing a step-over or leg drag as the opponent commits to the sweeping motion. When they reach for your foot, their upper body is momentarily unprotected, and their hips are committed to the sweep angle. Use this opening to change your angle and pass to side control, turning their offensive attempt into your advancement."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Standing with a square, even stance directly in front of the seated guard player",
+        "consequence": "Both feet are equally accessible and weight is evenly distributed, making it easy for the sweeper to isolate either foot and initiate the sweep from their preferred angle",
+        "correction": "Maintain a staggered stance with one foot forward and one back, keeping your weight slightly biased toward the rear foot. This makes the lead foot harder to control meaningfully and the rear foot nearly impossible to reach."
+      },
+      {
+        "error": "Trying to pull the foot free by yanking straight back after the grip is secured",
+        "consequence": "The sweeper's grip is strongest in the direct pull-away line, and your backward momentum can be redirected into the sweep. Yanking back also compromises your posture and base.",
+        "correction": "Instead of pulling straight back, circle your foot laterally while pushing your hips forward. The circular motion breaks the grip angle, and forward hip pressure kills the sweep's rotational mechanics. If the grip is too strong, address the upper body control grip first."
+      },
+      {
+        "error": "Ignoring the upper body grip and focusing only on freeing the captured foot",
+        "consequence": "The upper body grip is the anchor that allows the sweeper to generate off-balancing force. Even if you free one foot, the maintained upper body control lets them immediately attack the other foot or switch to a different sweep.",
+        "correction": "Prioritize breaking the sleeve or collar grip first. Without the upper body anchor, the foot grip alone cannot complete the sweep. Strip their controlling hand, then address the foot grip from a position of structural advantage."
+      },
+      {
+        "error": "Freezing in place when feeling the sweep initiate instead of moving dynamically",
+        "consequence": "A static response allows the sweeper to build momentum and complete the rotational force needed. Stillness is the worst response to a sweep that relies on creating perpendicular force against a fixed base.",
+        "correction": "Move immediately in any direction when you feel the sweep begin. Circle toward the sweep direction to take away the angle, or drive forward aggressively to flatten the sweeper. Any movement is better than none because it disrupts the force vectors the sweep depends on."
+      },
+      {
+        "error": "Overextending arms to push the opponent away when they reach for your foot",
+        "consequence": "Extended arms are vulnerable to arm drags, collar drags, and two-on-one grip attacks that can lead to back takes or alternative sweeps",
+        "correction": "Keep your elbows close to your body and use your legs and stance changes to create distance rather than pushing. If you need to create separation, use controlled frames against their shoulders or hips rather than straight-arm pushes."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the earliest recognition cue that a foot grab sweep is being set up, and why does early recognition matter?",
+        "answer": "The earliest cue is the opponent's free hand dropping below your knee line while they maintain an upper body grip with the other hand. This two-grip coordination (high and low) is the signature setup for the foot grab sweep. Early recognition matters because the defensive window shrinks dramatically once both grips are secured. Defending during the reach phase (before the foot grip) has a much higher success rate than defending after both grips are locked in and the hip drive has begun."
+      },
+      {
+        "question": "Why is a staggered stance more effective than a square stance when defending against foot grab sweeps?",
+        "answer": "A staggered stance creates unequal distances to each foot, making it impossible for the sweeper to threaten both feet simultaneously. The lead foot is closer but carries less weight, so grabbing it has reduced sweeping effect. The rear foot is out of range entirely. A square stance presents both feet at equal distance with equal weight distribution, giving the sweeper their choice of target. The staggered stance also naturally biases your weight rearward, which makes you harder to pull forward into the sweep's rotational arc."
+      },
+      {
+        "question": "Your opponent has gripped your right foot and your left sleeve - what should you address first and why?",
+        "answer": "Address the left sleeve grip first. The upper body grip is the anchor that generates the off-balancing pull needed to make the foot grab effective. Without that anchor, the foot grip alone lacks the mechanical advantage to complete the sweep. By breaking the sleeve grip, you remove the opposing force that creates the scissoring effect. Once the sleeve grip is broken, you can retract your foot freely or simply load weight onto it to neutralize the remaining control. Trying to free the foot first while the sleeve grip remains intact often results in the opponent simply adjusting and re-gripping the foot."
+      },
+      {
+        "question": "How can you convert a foot grab sweep defense into a guard passing opportunity?",
+        "answer": "When the opponent reaches for your foot, their upper body opens and their hips commit to a specific angle. This creates a passing window. As you retract the targeted foot, immediately redirect your momentum into a toreando pass by gripping their knees and swinging their legs to the side. Alternatively, as they commit to the sweep angle, step over their lower body with the non-targeted foot and establish a leg drag position. The reach for your foot takes one of their hands away from guard retention, and their hip commitment to the sweep angle means they cannot quickly adjust to defend the pass."
+      },
+      {
+        "question": "What is the correct response if the foot grab sweep is already in full motion and you feel yourself being elevated?",
+        "answer": "Once the sweep is in full motion with hip elevation and rotational force, attempting to resist the sweep directly usually fails and can result in awkward landings. Instead, post your far hand on the mat in the direction you are falling, use that post to base out and prevent your shoulders from hitting the mat. Immediately work to establish a strong base from the posted hand, scramble your hips forward, and try to end up in a neutral position rather than flat on your back. If you cannot prevent the sweep, focus on landing in a way that allows immediate guard recovery rather than ending up in a consolidated side control."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Week 1-2: Recognition and stance discipline",
+        "focus": "Identifying sweep setup cues and maintaining proper stance",
+        "description": "Partner drills the foot grab sweep at slow speed while you practice recognizing the setup sequence. Focus on maintaining a staggered stance and identifying the moment the hand drops toward your foot. No active defense yet, purely pattern recognition and base awareness."
+      },
+      {
+        "phase": "Week 3-4: Early phase defense",
+        "focus": "Foot retraction and grip breaking timing",
+        "description": "Partner attempts the foot grab at moderate speed. Practice retracting the targeted foot before the grip is secured and stripping the upper body control grip. Work on the timing of weight shifts and lateral foot movement. Partner provides realistic but not full-speed attacks."
+      },
+      {
+        "phase": "Week 5-6: Mid-sweep defense and counter-passing",
+        "focus": "Defending after grips are secured and converting to passes",
+        "description": "Partner secures both grips and begins the sweep. Practice loading weight onto the grabbed foot, breaking grips under pressure, and converting defense into toreando or leg drag passes. Increase resistance progressively. Partner completes sweep if defense fails."
+      },
+      {
+        "phase": "Week 7-8: Live positional sparring",
+        "focus": "Full resistance defense in realistic passing scenarios",
+        "description": "Full resistance sparring from standing over seated guard. Partner uses foot grab sweep as part of their complete game. Practice integrating sweep defense with your overall passing strategy. Track how often the sweep lands versus how often you successfully defend or counter-pass."
+      }
+    ]
+  },
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Butterfly Guard Foot Grab",
+      "description": "From butterfly guard with hooks in, reach under opponent's leg to grab the far ankle. Use your butterfly hook on the same side to elevate while pulling the ankle across your body. Creates powerful off-balancing effect.",
+      "when_to_use": "When opponent is pressuring forward in butterfly guard and you have strong hooks established"
+    },
+    {
+      "variant_name": "Seated Guard Foot Scoop",
+      "description": "From seated guard position, scoop opponent's lead foot with both hands, hugging it to your chest. Rotate your body while pulling the foot to create sweeping motion. Often chains with single leg x-guard entries.",
+      "when_to_use": "Against opponent attempting to standing pass with one foot forward"
+    },
+    {
+      "variant_name": "De La Riva Foot Push Sweep",
+      "description": "From de la riva guard, release the de la riva hook momentarily to grab opponent's far foot. Push their near leg while pulling their far foot across, creating scissoring action that sweeps them to their back.",
+      "when_to_use": "When opponent's weight is on their far leg and they're attempting to circle away from de la riva"
+    },
+    {
+      "variant_name": "X-Guard Transition Foot Grab",
+      "description": "When attempting x-guard entry, if opponent posts their far leg wide, abandon x-guard and grab that posted foot instead. Use your existing leg positioning to elevate and sweep while controlling the foot.",
+      "when_to_use": "During x-guard entries when opponent widens base to prevent elevation"
+    }
+  ],
+  "position_integration": "The foot grab sweep is a fundamental component of open guard systems and serves as a critical bridge between various guard positions. It integrates seamlessly with butterfly guard, seated guard, and de la riva guard, providing a reliable sweeping option when opponents attempt to stand or create distance. The technique complements leg entanglement games, as the foot control naturally transitions to single leg x-guard or ashi garami positions if the sweep is defended. Within competition strategy, the foot grab sweep functions as both a points-scoring technique and a position-improving tool that can lead to dominant top positions like side control or mount. It also serves an important role in guard retention, as the threat of the sweep forces opponents to respect your open guard and adjust their passing approaches. The sweep pairs particularly well with upper body attacks, creating a high-low dilemma where opponents must defend against both collar/sleeve attacks and foot grab threats simultaneously. Advanced practitioners integrate it into complex guard systems where multiple sweeps, submissions, and transitions flow together based on opponent reactions."
+}

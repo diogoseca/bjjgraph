@@ -1,0 +1,400 @@
+{
+  "name": "Bridge to Mount from High Mount",
+  "description": "Master the Bridge to Mount escape from High Mount in BJJ. Explosive hip mechanics, timing windows, and bridging technique to regress opponent's position.",
+  "tags": [
+    "bjj",
+    "transition",
+    "escape",
+    "bridge",
+    "high-mount",
+    "mount",
+    "defensive",
+    "survival"
+  ],
+  "from_position": "High Mount/Bottom",
+  "outcomes": [
+    {
+      "to": "Mount/Bottom",
+      "probability": 55,
+      "result": "success"
+    },
+    {
+      "to": "High Mount/Bottom",
+      "probability": 30,
+      "result": "failure"
+    },
+    {
+      "to": "S Mount/Bottom",
+      "probability": 15,
+      "result": "counter"
+    }
+  ],
+  "success_rate": 55,
+  "overview": "The Bridge to Mount from High Mount is a fundamental defensive technique where the bottom player uses explosive hip extension to displace the top player's elevated knee positioning, forcing them to slide back from high mount to standard mount. While this does not constitute a full escape, it represents a critical positional regression that moves the bottom player from one of the most submission-dense positions in BJJ to a more manageable defensive scenario where traditional escape mechanics become viable again.\n\nThe technique exploits high mount's primary structural trade-off: the top player sacrifices base stability for submission proximity. By positioning their knees near the armpits, the top player elevates their center of gravity and narrows their support base. An explosive, well-timed bridge takes advantage of this reduced stability, driving the top player's hips upward and backward, forcing their knees to slide down the torso to re-establish equilibrium in standard mount.\n\nStrategic context is essential for understanding this technique's value within the broader escape hierarchy. From high mount bottom, submission danger is extreme and traditional escape mechanisms are mechanically compromised by the elevated knee positioning. The bridge to mount serves as a damage-control tool that buys time and creates subsequent escape opportunities from regular mount, where bridge-and-roll and elbow escape mechanics become viable. Experienced practitioners recognize that partial defensive wins—regressing the opponent's position rather than fully escaping—are often the optimal strategy from severely disadvantaged positions.",
+  "conditions": [
+    "Bottom player must have at least one foot planted flat on the mat with knee bent for bridge leverage",
+    "Opponent positioned in high mount with knees near armpits or shoulders",
+    "Bottom player retains some hip mobility and is not fully grapevined by opponent's legs",
+    "Arms are in defensive position protecting neck and chest, not currently trapped or isolated"
+  ],
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Directional Bridge",
+      "description": "Angle the bridge toward one side rather than driving straight up, creating rotational displacement that is harder for the top player to absorb with symmetric base adjustment. The lateral force vector destabilizes the top player's posting structure on one side.",
+      "when_to_use": "When opponent has symmetric base with knees evenly placed near both armpits and strong forward pressure"
+    },
+    {
+      "variant_name": "Trap-and-Bridge",
+      "description": "Secure control of opponent's posting arm by trapping it against your chest before executing the bridge, removing their primary base recovery tool and dramatically increasing bridge effectiveness. Requires recognizing when one arm is accessible.",
+      "when_to_use": "When opponent reaches for grips or begins a submission setup and one arm becomes accessible for trapping"
+    },
+    {
+      "variant_name": "Double Pump Bridge",
+      "description": "Execute two rapid bridges in succession, using the first to break opponent's rhythm and force a defensive reaction, then the second to generate maximum displacement during the momentary window created by their adjustment response.",
+      "when_to_use": "When initial single bridge attempts are being absorbed by a well-based opponent who resets quickly between attempts"
+    }
+  ],
+  "position_integration": "The Bridge to Mount from High Mount occupies a critical role in the mount escape hierarchy as the first-line defensive tool when trapped in high mount. Unlike standard mount escapes that aim for guard recovery, this technique serves as a positional regression tool that moves the bottom player from the most submission-dense mount variation to standard mount where traditional escape mechanics become viable. It connects the high mount survival framework to the complete mount escape system, creating a two-stage escape pathway: first regress from high mount to mount via bridge, then execute standard mount escapes to recover guard. This technique also integrates with broader positional awareness, teaching practitioners to recognize when partial defensive wins are the optimal strategy rather than attempting direct escapes from severely disadvantaged positions.",
+  "related_content": [
+    {
+      "name": "High Mount",
+      "relationship": "Source position from which the bridge technique is initiated by the bottom player"
+    },
+    {
+      "name": "Mount",
+      "relationship": "Target position after successful bridge displaces opponent's knees from high mount to standard mount"
+    },
+    {
+      "name": "S Mount",
+      "relationship": "Counter outcome position where opponent capitalizes on bridge attempt to advance rather than regress"
+    },
+    {
+      "name": "Upa Escape",
+      "relationship": "Primary follow-up escape technique once opponent is regressed to regular mount position"
+    },
+    {
+      "name": "Elbow Escape to Guard",
+      "relationship": "Secondary follow-up escape from regular mount that becomes viable after successful bridge"
+    },
+    {
+      "name": "Bridge Escape from S Mount",
+      "relationship": "Related bridge escape technique from similar dominant position with shared mechanics"
+    },
+    {
+      "name": "Hip Escape to Guard",
+      "relationship": "Complementary escape technique in the mount escape chain following position regression"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Common recovery position in the complete escape sequence after bridge and mount escape"
+    },
+    {
+      "name": "Technical Mount",
+      "relationship": "Related mount variation that may result from failed bridge attempts with side turning"
+    },
+    {
+      "name": "Shrimp Escape",
+      "relationship": "Alternative escape movement that complements bridge mechanics in the escape hierarchy"
+    }
+  ],
+  "attacker": {
+    "name": "Bridge to Mount from High Mount Attacker",
+    "description": "Learn to execute the explosive Bridge to Mount from High Mount bottom. Complete guide covering hip mechanics, timing windows, and escape sequencing for positional regression.",
+    "overview": "As the attacker executing the Bridge to Mount from High Mount, your goal is to generate enough upward and directional force through explosive hip extension to destabilize the top player's elevated position, forcing their knees to slide back from your armpits to your hips. This is a positional regression technique rather than a full escape—you are moving from the most dangerous mount variation to standard mount where traditional escape mechanics become viable.\n\nThe technique demands precise timing above all else. Bridging against a settled, well-based opponent in high mount is mechanically inefficient and wastes critical energy. The optimal window opens during the top player's weight shifts—when they reach for grips, begin a submission setup, or adjust position. These transitional moments elevate their center of gravity and narrow their support base, creating vulnerability to explosive upward displacement. Mastering this timing transforms the bridge from a desperate gamble into a reliable defensive tool.",
+    "key_principles": [
+      "Time bridges exclusively during opponent's weight shifts rather than against settled position to maximize displacement",
+      "Generate all force through hip extension and foot drive, never through arm pushing which exposes limbs to attack",
+      "Angle bridges directionally rather than straight up to create rotational displacement that is harder to absorb",
+      "Commit fully to each bridge with maximum explosive force rather than using tentative testing movements",
+      "Chain bridge directly into mount escape sequence without pausing in regular mount position",
+      "Conserve energy between bridge attempts by remaining relaxed and breathing steadily until timing windows appear"
+    ],
+    "setup_requirements": [
+      "Both feet planted flat on the mat as close to hips as possible with knees bent at approximately 90 degrees",
+      "Arms tucked defensively against ribs with hands protecting chin and neck in compact shell position",
+      "Weight shifted onto shoulders and upper back in preparation for upward hip drive through the bridge",
+      "Mental readiness to identify opponent's weight shift and execute immediately without hesitation",
+      "Sufficient energy reserves preserved through calm defensive posture and controlled breathing"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Plant feet for maximum leverage",
+        "description": "Position both feet flat on the mat as close to your hips as possible, with knees bent at approximately 90 degrees. Wider foot placement provides more stability but less height; closer placement generates more vertical force. Ensure both heels are firmly planted for maximum drive through the floor."
+      },
+      {
+        "step_number": 2,
+        "action": "Establish defensive arm position",
+        "description": "Tuck elbows tight against your ribs with hands positioned near your chin and neck, creating a compact defensive shell. Do not extend arms to push on opponent's body. This position protects against arm isolation while keeping your structure compact for the bridge movement."
+      },
+      {
+        "step_number": 3,
+        "action": "Identify the timing window",
+        "description": "Monitor opponent's weight distribution through tactile feedback, waiting for the moment they shift weight forward to establish grips or begin a submission attempt. Feel for lightening of knee pressure against your ribs and forward movement of their torso. This creates the optimal window for bridge execution."
+      },
+      {
+        "step_number": 4,
+        "action": "Execute explosive hip extension",
+        "description": "Drive forcefully through your feet and shoulders simultaneously, extending hips vertically with maximum explosive power to lift the opponent's center of gravity. Exhale sharply during execution. The force should feel like a controlled explosion through your posterior chain—glutes, hamstrings, and lower back generating unified upward thrust."
+      },
+      {
+        "step_number": 5,
+        "action": "Direct bridge angle for displacement",
+        "description": "Angle the bridge slightly toward one side rather than driving straight upward, creating rotational displacement force that is harder for the top player to absorb with symmetric base adjustment. Turn your hips approximately 15-20 degrees off center to maximize the destabilizing effect on their knee positioning."
+      },
+      {
+        "step_number": 6,
+        "action": "Maintain sustained upward pressure",
+        "description": "Continue driving hips upward for the full duration of the bridge rather than pulsing briefly, forcing the top player's knees to progressively slide down your torso toward hip level. Hold the bridge apex for one to two seconds to maximize displacement before returning hips to the mat."
+      },
+      {
+        "step_number": 7,
+        "action": "Establish mount defense frames",
+        "description": "As the opponent slides to regular mount, immediately create elbow-knee connection frames by pressing your forearms against their hips and bringing your elbows toward your knees. This defensive structure prevents them from immediately walking knees back to high mount position."
+      },
+      {
+        "step_number": 8,
+        "action": "Chain into mount escape sequence",
+        "description": "Without pausing in regular mount, immediately initiate a standard mount escape—either elbow escape by shrimping and inserting knee shield, or upa escape by trapping arm and foot on the same side. The opponent will attempt to re-establish high mount, so this transition must be continuous and immediate."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Opponent posts hands wide near head and drives hips downward for tripod base stability",
+        "effectiveness": "High",
+        "your_response": "Wait for a different timing window when they reach for grips or submissions rather than bridging against active posting. Their posting creates a stable tripod that absorbs upward force effectively.",
+        "targets_outcome": "High Mount/Bottom"
+      },
+      {
+        "counter": "Opponent transitions to S Mount by sliding one knee across torso during bridge displacement",
+        "effectiveness": "Medium",
+        "your_response": "Immediately protect the near-side arm by clasping hands or gripping your own lapel. Work to collapse the S Mount position back through hip movement and frame creation.",
+        "targets_outcome": "S Mount/Bottom"
+      },
+      {
+        "counter": "Opponent grapevines both legs inside yours to eliminate hip extension leverage",
+        "effectiveness": "High",
+        "your_response": "Switch to small hip bumps combined with forearm frames on their hips rather than full bridges. Work to free one leg at a time by hooking their foot with yours to break the grapevine configuration.",
+        "targets_outcome": "High Mount/Bottom"
+      },
+      {
+        "counter": "Opponent drops chest flat and crossfaces during bridge to maintain heavy forward pressure",
+        "effectiveness": "Medium",
+        "your_response": "Use the chest-to-chest pressure as an opportunity to shrimp to the opposite side of the crossface and create frames for an elbow escape rather than continuing to bridge against the flattened position.",
+        "targets_outcome": "High Mount/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Extending arms to push on opponent's chest or face during bridge attempt",
+        "consequence": "Arms become immediately exposed to armbar, americana, or kimura attacks while bridge force is diminished by directing energy through arms rather than hips",
+        "correction": "Keep arms tucked tight against ribs throughout the bridge, generating all displacement force through hip extension and foot drive only"
+      },
+      {
+        "error": "Attempting bridge when opponent has fully established wide base with active posting",
+        "consequence": "Bridge force is absorbed easily by opponent's tripod base, wasting critical energy reserves without any positional change",
+        "correction": "Wait for opponent's weight shift during grip establishment or submission setup before executing bridge, timing the moment their base narrows"
+      },
+      {
+        "error": "Bridging straight up without directional angle",
+        "consequence": "Opponent absorbs vertical force by pressing hips downward and spreading knees, maintaining high mount with minimal adjustment needed",
+        "correction": "Angle bridge 15-20 degrees toward one side to create rotational displacement that the opponent cannot absorb with simple downward pressure"
+      },
+      {
+        "error": "Single weak tentative bridge instead of fully committed explosive effort",
+        "consequence": "Insufficient force to displace opponent from high mount while alerting them to your escape intention, causing them to tighten position",
+        "correction": "Commit fully to each bridge with maximum explosive power, driving through feet and shoulders simultaneously with sharp exhale"
+      },
+      {
+        "error": "Failing to chain into mount escape immediately after successful bridge",
+        "consequence": "Opponent quickly walks knees back to high mount position within seconds, completely negating the bridge effort and wasting energy",
+        "correction": "Bridge directly into elbow escape or upa setup without pausing in regular mount, treating the bridge as step one of a continuous escape sequence"
+      },
+      {
+        "error": "Holding breath and tensing entire body between bridge attempts",
+        "consequence": "Rapid energy depletion and reduced explosive capacity for subsequent bridge attempts, creating a death spiral of diminishing escape potential",
+        "correction": "Exhale sharply during bridge execution and maintain controlled steady breathing between attempts while staying physically relaxed until the next timing window"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Bridge Mechanics",
+        "focus": "Hip extension power and directional angles",
+        "description": "Practice explosive bridges without a partner, focusing on driving hips to maximum height with directional angles. Build posterior chain power through bridge repetitions, hip thrusts, and glute bridges. Develop the habit of angling bridges laterally rather than straight up."
+      },
+      {
+        "phase": "Phase 2: Timing Development",
+        "focus": "Reading opponent weight shifts from bottom",
+        "description": "Partner maintains high mount and periodically reaches for grips or begins submission setups. Bottom player bridges only when detecting the weight shift, developing tactile sensitivity to the precise moment when the top player's base becomes compromised."
+      },
+      {
+        "phase": "Phase 3: Progressive Resistance",
+        "focus": "Bridge effectiveness against increasing opposition",
+        "description": "Partner provides increasing resistance in high mount across rounds (25%, 50%, 75%, full) while bottom player practices timed bridges. Develop the ability to generate sufficient displacement force against realistic opposition while maintaining proper mechanics."
+      },
+      {
+        "phase": "Phase 4: Escape Chaining",
+        "focus": "Bridge to mount escape sequences",
+        "description": "Practice full sequences from bridge to mount escape, chaining the bridge directly into elbow escape or upa without any pause in regular mount. Develop the habit of continuous escape movement and eliminate the gap between bridge completion and escape initiation."
+      },
+      {
+        "phase": "Phase 5: Live Application",
+        "focus": "Competition-speed full resistance execution",
+        "description": "Positional sparring starting from high mount bottom, applying bridge to mount technique at full speed against fully resisting opponents. Track success rates across rounds, identify preferred timing patterns, and develop automatic bridge responses to specific submission setups."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the primary timing window for executing the bridge from high mount bottom?",
+        "answer": "The optimal timing window opens when the top player shifts weight forward to establish grips or initiate a submission setup. This forward weight shift elevates their center of gravity and narrows their support base, making them maximally vulnerable to explosive upward displacement. Bridging while they maintain static pressure with wide base and active posting is mechanically inefficient and likely to fail without sufficient force to overcome their tripod stability."
+      },
+      {
+        "question": "Why should the bridge be angled to one side rather than directed straight upward?",
+        "answer": "A directional bridge creates rotational displacement force that the top player cannot absorb by simply pressing hips downward. Straight upward bridges allow the opponent to spread knees and drive weight down symmetrically to maintain position. An angled bridge forces them to post to one side, creating asymmetric displacement that destabilizes their knee positioning and forces their knees to slide down the torso."
+      },
+      {
+        "question": "What should your arms be doing during bridge execution from high mount bottom?",
+        "answer": "Arms must remain tucked tight against your ribs with hands protecting chin and neck throughout the bridge. Never extend arms to push on opponent's chest, face, or shoulders, as this creates immediate armbar, americana, and kimura opportunities. All bridge force is generated through hip extension and foot drive. Arms serve exclusively defensive purposes during the movement, protecting against submission threats while the hips do the work."
+      },
+      {
+        "question": "Your bridge successfully forces the opponent to regular mount - what is your immediate next action?",
+        "answer": "Immediately chain into a standard mount escape sequence without pausing in regular mount. Establish elbow-knee connection frames and begin either an elbow escape by shrimping to insert a knee shield, or an upa escape by trapping arm and foot on the same side for an explosive bridge-and-roll. The opponent will attempt to walk knees back to high mount within seconds, so the transition from bridge to escape must be continuous and immediate."
+      },
+      {
+        "question": "The opponent grapevines your legs when you attempt to bridge - how do you adjust your escape approach?",
+        "answer": "When grapevined, full bridges become mechanically compromised because your legs cannot generate sufficient leverage for explosive hip extension. Switch to small hip bumps combined with forearm frame creation against their hips. Use micro-movements to gradually work their knees downward. Attempt to hook one of their grapevining feet with yours to break the configuration before resuming bridge attempts with full leverage."
+      },
+      {
+        "question": "What physical cue tells you the opponent is about to reach for a submission grip from high mount?",
+        "answer": "The opponent will release some chest-to-chest pressure and sit slightly more upright, or you will feel one hand release contact as they reach toward your collar, wrist, or head. Their weight shifts forward onto the posting hand as they reach, and knee pressure against your ribs may momentarily lighten on one side. This is the precise moment to bridge, as their base is compromised and attention is directed toward grip establishment rather than position maintenance."
+      },
+      {
+        "question": "How do you manage energy when trapped in high mount waiting for bridge opportunities?",
+        "answer": "Remain physically relaxed between bridge attempts, breathing steadily and controlling your heart rate through nasal breathing. Avoid constant struggling or tentative testing bridges when the opponent's base is solid, as this depletes energy without positional improvement. Stay mentally alert for timing windows while keeping your body in a low-energy defensive posture. Each bridge attempt should be a fully committed explosive effort followed by immediate relaxation if unsuccessful, preserving capacity for subsequent attempts."
+      }
+    ],
+    "safety_considerations": "Bridge technique from high mount carries risk of neck strain if executed with poor head positioning. Always bridge through the shoulders and feet, never through the neck or head. Keep your chin tucked throughout the movement to protect cervical spine alignment. If the opponent has established deep collar grips, be aware that explosive bridges can inadvertently tighten chokes—tap immediately if any choke becomes compromised during bridge attempts. Practice bridge mechanics without a partner before adding resistance to develop proper spinal alignment and force generation patterns. Communicate intensity expectations with training partners before drilling."
+  },
+  "defender": {
+    "name": "Bridge to Mount from High Mount Defender",
+    "description": "Learn to maintain High Mount against bridge attempts. Base adjustment, pressure control, and counter-transitions to defend against explosive bridging escapes from bottom.",
+    "overview": "As the defender in high mount, your goal is to maintain the elevated knee position against the bottom player's bridge attempts while capitalizing on their movement to advance position or attack submissions. The bridge from high mount is the bottom player's primary tool for regressing your position, and defending it requires understanding weight distribution, base mechanics, and transitional awareness that converts defensive reactions into offensive opportunities.\n\nEffective bridge defense combines proactive pressure maintenance with reactive base adjustments. Rather than rigidly fighting every bridge, the skilled top player learns to absorb bridge force through structural positioning and flow with displacement into even more dominant variations like S Mount or Technical Mount. This converts the bottom player's escape attempt into a positional advancement, creating a psychological deterrent against future bridge attempts.",
+    "key_principles": [
+      "Maintain forward weight distribution with chest positioned over opponent's chest to maximize bridge absorption capacity",
+      "Keep knees wedged tight against opponent's armpits creating constant compression that restricts hip mobility",
+      "Post hands wide near opponent's head when sensing bridge setup for immediate tripod base stability",
+      "Flow with bridge momentum into S Mount or Technical Mount rather than rigidly fighting displacement",
+      "Drive hips downward into opponent's sternum during bridge to counteract upward force with structural pressure",
+      "Monitor opponent's foot positioning and core tension for bridge setup cues and adjust preemptively"
+    ],
+    "recognition_cues": [
+      "Opponent plants both feet flat on the mat close to their hips with knees sharply bent at approximately 90 degrees",
+      "Visible tightening of opponent's core and gluteal muscles as they load posterior chain for explosive movement",
+      "Opponent shifts weight onto shoulders and upper back, creating a subtle arch in preparation for upward drive",
+      "Sharp exhale or momentary breath hold from opponent immediately preceding explosive hip extension",
+      "Opponent's arms tuck tighter against body in compact defensive posture rather than attempting to create frames"
+    ],
+    "defensive_options": [
+      {
+        "action": "Post hands wide and drive hips downward into a tripod base position",
+        "when_to_use": "When feeling initial upward hip pressure indicating a bridge attempt is beginning",
+        "targets_outcome": "High Mount/Bottom",
+        "if_successful": "Bridge force is fully absorbed through tripod stability and high mount is maintained with increased control pressure",
+        "risk": "Hands posting near opponent's head creates momentary opportunity for them to trap a posting arm"
+      },
+      {
+        "action": "Transition to S Mount by sliding one knee across torso during bridge displacement",
+        "when_to_use": "When bridge generates enough force to partially displace your knees and you feel position beginning to slide",
+        "targets_outcome": "S Mount/Bottom",
+        "if_successful": "Position advances to S Mount which is more dominant than high mount with immediate armbar threat",
+        "risk": "Mistimed transition during bridge chaos could allow opponent to recover half guard or create a scramble"
+      },
+      {
+        "action": "Insert grapevine hooks inside opponent's legs to eliminate bridging leverage",
+        "when_to_use": "When opponent repeatedly attempts bridges and you need to eliminate their hip extension capability entirely",
+        "targets_outcome": "High Mount/Bottom",
+        "if_successful": "Opponent's bridging power is mechanically eliminated by removing leg leverage through grapevine control",
+        "risk": "Grapevine may lower your overall position toward standard mount with reduced submission proximity"
+      },
+      {
+        "action": "Capitalize on bridge commitment by securing collar grip or arm isolation for submission",
+        "when_to_use": "When opponent commits fully to bridge with arms tucked tight, creating momentary exposure of neck or arms",
+        "targets_outcome": "High Mount/Bottom",
+        "if_successful": "Bridge attempt becomes the setup for your submission attack as their movement creates openings",
+        "risk": "Failed submission attempt during bridge may compound into greater positional displacement"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "High Mount/Bottom",
+        "how": "Absorb bridge force by posting hands wide near opponent's head, driving hips downward into their sternum, and keeping knees wedged tight against armpits. Maintain forward weight distribution throughout the bridge and re-settle pressure immediately after bridge subsides."
+      },
+      {
+        "outcome": "S Mount/Bottom",
+        "how": "Capitalize on bridge displacement by transitioning one knee across opponent's torso into S Mount position as their bridge creates the space for the crossing movement. Convert their escape attempt into a positional advancement that threatens immediate armbar."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Sitting upright with weight centered over opponent's hips rather than leaning forward",
+        "consequence": "Bridge easily displaces you backward as your elevated center of gravity amplifies the upward force, forcing knees to slide down to regular mount or worse",
+        "correction": "Lean forward with chest positioned over opponent's upper chest, distributing weight onto their sternum area so bridges must overcome gravity advantage"
+      },
+      {
+        "error": "Rigid resistance against bridge force rather than flowing with displacement momentum",
+        "consequence": "Explosive well-timed bridge can fully unseat you or create enough positional chaos for guard recovery scramble",
+        "correction": "Flow with bridge momentum by transitioning to S Mount or Technical Mount rather than fighting displacement rigidly"
+      },
+      {
+        "error": "Failing to post hands when sensing bridge attempt through tactile cues",
+        "consequence": "Insufficient base structure to absorb upward force, resulting in knees sliding down and position regressing to standard mount",
+        "correction": "Develop automatic posting reaction when feeling upward hip pressure, placing one or both hands wide near opponent's head for tripod stability"
+      },
+      {
+        "error": "Keeping feet crossed behind opponent's back during bridge defense",
+        "consequence": "Crossed feet reduce ability to post legs dynamically for base recovery and create potential vulnerability to ankle attacks",
+        "correction": "Keep feet uncrossed with toes on mat ready to post or transition, allowing dynamic base adjustment in response to bridge direction"
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the most important weight distribution adjustment for absorbing a bridge from high mount?",
+        "answer": "Drive weight forward so your chest is positioned directly over the opponent's upper chest, with hips pressing downward into their sternum. This forward distribution forces them to bridge against your weight at a mechanical disadvantage because the upward force must overcome both gravity and your structural positioning. If you sit upright, your center of gravity is higher and the bridge can displace you backward with significantly less force."
+      },
+      {
+        "question": "Your opponent plants their feet and you sense a bridge is imminent - what preemptive adjustment do you make?",
+        "answer": "Immediately post one hand wide near their head for tripod stability and squeeze knees tighter against their armpits to restrict hip range of motion. Drop hips slightly lower to increase the vertical distance they must bridge to displace you. If possible, reach for a collar grip or wrist control with your free hand to threaten a submission, which forces them to defend rather than commit to the bridge."
+      },
+      {
+        "question": "The opponent's bridge partially succeeds and your knees begin sliding downward - how do you recover advantage?",
+        "answer": "Rather than fighting to walk knees back up immediately, flow with the displacement momentum by transitioning to S Mount on whichever side the bridge created space. Step one knee across their torso while extending the other leg back for base. This converts their partially successful escape into a positional advancement for you that is more dangerous than the original high mount position."
+      },
+      {
+        "question": "How do you distinguish between a bridge attempt and an elbow escape setup from high mount bottom?",
+        "answer": "Bridge attempts involve both feet planting flat with bilateral upward hip drive, felt as direct upward pressure against your hips and lower torso. Elbow escape setups involve turning to one side, creating frames on your hip, and driving a knee toward the hip line laterally. The distinction matters because bridges require base widening through posting, while elbow escapes require closing the lateral space between your knee and their hip on the escape side. Misidentifying leads to incorrect defensive positioning."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Pressure Maintenance",
+        "focus": "Forward weight distribution and base structure",
+        "description": "Practice maintaining high mount against progressive bridge attempts at increasing intensity (25%, 50%, 75%, full). Focus on keeping chest over opponent's chest, driving hips downward, and developing automatic posting reactions when feeling upward pressure."
+      },
+      {
+        "phase": "Phase 2: Base Adjustment Reactions",
+        "focus": "Posting and recovery mechanics under bridge pressure",
+        "description": "Partner provides explosive bridge attempts at unpredictable timing while you practice posting hands for tripod stability and re-settling after bridge absorption. Develop automatic base widening reactions that engage within a fraction of a second of sensing upward force."
+      },
+      {
+        "phase": "Phase 3: Counter-Transition Flow",
+        "focus": "Converting bridge attempts into positional advancement",
+        "description": "When partner bridges, practice flowing to S Mount or Technical Mount rather than fighting to maintain exact high mount position. Develop the habit of reading bridge direction and using displacement momentum to advance rather than resist."
+      },
+      {
+        "phase": "Phase 4: Live Positional Sparring",
+        "focus": "Full-speed defense against all escape combinations",
+        "description": "Start in high mount with partner attempting all available escapes including bridges, elbow escapes, and frame-based escapes. Maintain position or advance while defending against realistic escape combinations at competition speed and intensity."
+      }
+    ]
+  }
+}

@@ -1,0 +1,404 @@
+{
+  "name": "New York Control to Zombie",
+  "description": "Master New York Control to Zombie transition in BJJ. 10th Planet rubber guard progression when opponent extracts leg. Success rates: Beginner 30%, Intermediate 50%, Advanced 65%.",
+  "tags": [
+    "bjj",
+    "transition",
+    "rubber-guard",
+    "10th-planet",
+    "guard-transition",
+    "no-gi"
+  ],
+  "from_position": "New York Control/Bottom",
+  "outcomes": [
+    {
+      "to": "Zombie/Bottom",
+      "probability": 60,
+      "result": "success"
+    },
+    {
+      "to": "New York Control/Bottom",
+      "probability": 25,
+      "result": "failure"
+    },
+    {
+      "to": "Half Guard/Bottom",
+      "probability": 15,
+      "result": "counter"
+    }
+  ],
+  "success_rate": 58,
+  "overview": "The New York Control to Zombie transition represents a critical continuation within the 10th Planet Rubber Guard system, executed when the opponent begins successfully extracting their trapped shoulder from your New York configuration. Rather than fighting to maintain a failing position, this transition redirects offensive energy into the Zombie position - a lockdown-based half guard variant that preserves offensive momentum while adapting to the changed circumstances.\n\nThis transition exemplifies the systematic philosophy of rubber guard: positions flow into each other based on opponent reactions, and every defensive action opens specific offensive pathways. When the opponent extracts their shoulder from New York Control, they create the exact positioning needed for you to establish lockdown and enter the Zombie. The key is recognizing the transition window before it closes.\n\nStrategic timing distinguishes successful practitioners. The transition must occur during the extraction process, not after the opponent has fully escaped. Attempting to hold a failing New York creates stalling positions without offensive options, while transitioning too early abandons viable submission chains. The sweet spot is when overhook depth becomes insufficient but before the opponent achieves full posture recovery - typically a 1-2 second window that requires pattern recognition and immediate response.",
+  "related_content": [
+    {
+      "name": "New York Control",
+      "relationship": "Starting position"
+    },
+    {
+      "name": "Zombie",
+      "relationship": "Target position"
+    },
+    {
+      "name": "Mission Control",
+      "relationship": "Alternative recovery option from failing New York"
+    },
+    {
+      "name": "Lockdown",
+      "relationship": "Core mechanic of Zombie position"
+    },
+    {
+      "name": "Old School Sweep",
+      "relationship": "Primary sweep from established Zombie"
+    },
+    {
+      "name": "Electric Chair Submission",
+      "relationship": "Primary submission from established Zombie"
+    },
+    {
+      "name": "Deep Half Guard",
+      "relationship": "Alternative transition when opponent drives forward"
+    },
+    {
+      "name": "Crackhead Control to Mission Control",
+      "relationship": "Related rubber guard transition"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Fallback position if Zombie fails"
+    },
+    {
+      "name": "Rubber Guard",
+      "relationship": "Parent system"
+    }
+  ],
+  "attacker": {
+    "name": "New York Control to Zombie Attacker",
+    "description": "How to execute New York Control to Zombie in BJJ. Attacking perspective with setup, execution steps, and counters.",
+    "overview": "The New York Control to Zombie transition represents a critical continuation within the 10th Planet Rubber Guard system, executed when the opponent begins successfully extracting their trapped shoulder from your New York configuration. Rather than fighting to maintain a failing position, this transition redirects offensive energy into the Zombie position - a lockdown-based half guard variant that preserves offensive momentum while adapting to the changed circumstances.\n\nThis transition exemplifies the systematic philosophy of rubber guard: positions flow into each other based on opponent reactions, and every defensive action opens specific offensive pathways. When the opponent extracts their shoulder from New York Control, they create the exact positioning needed for you to establish lockdown and enter the Zombie. The key is recognizing the transition window before it closes.\n\nStrategic timing distinguishes successful practitioners. The transition must occur during the extraction process, not after the opponent has fully escaped. Attempting to hold a failing New York creates stalling positions without offensive options, while transitioning too early abandons viable submission chains. The sweet spot is when overhook depth becomes insufficient but before the opponent achieves full posture recovery - typically a 1-2 second window that requires pattern recognition and immediate response.",
+    "key_principles": [
+      "Transition during shoulder extraction, not after - timing window is brief but specific",
+      "The opponent's extraction movement creates the positioning for lockdown establishment",
+      "Maintain hip connection throughout the transition to prevent guard passing",
+      "Leg positioning shifts from high guard wrap to lockdown configuration smoothly",
+      "Preserve offensive momentum rather than fighting to maintain failing controls",
+      "Pattern recognition determines success - know the extraction signals that trigger transition"
+    ],
+    "setup_requirements": [
+      "New York Control established with overhook and leg wrap across opponent's back",
+      "Opponent begins extracting shoulder from overhook control",
+      "Your high guard leg position allows conversion to lockdown grip",
+      "Hip connection maintained - opponent has not created significant distance",
+      "Opponent's trapped leg accessible for lockdown establishment"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Recognize extraction",
+        "description": "Feel the opponent rotating their shoulder forward and pulling their arm from your overhook. This extraction movement is your trigger - do not wait until they complete it."
+      },
+      {
+        "step_number": 2,
+        "action": "Release overhook",
+        "description": "Allow the failing overhook to release rather than fighting it. Immediately bring that arm to frame against their chest or shoulder to maintain distance and prevent smash pressure."
+      },
+      {
+        "step_number": 3,
+        "action": "Drop high guard leg",
+        "description": "Your leg wrapped over their shoulder drops down to trap their near leg. The foot that was near their far shoulder now hooks behind their calf on the same side as your former overhook."
+      },
+      {
+        "step_number": 4,
+        "action": "Establish lockdown",
+        "description": "Triangle your legs around their trapped leg with your bottom leg hooking over your top foot. Create lockdown tension by squeezing your thighs together and extending your hips slightly."
+      },
+      {
+        "step_number": 5,
+        "action": "Fight for underhook",
+        "description": "Your frame arm transitions to fighting for underhook position on the same side as your lockdown. Thread your arm under their armpit while maintaining lockdown tension to prevent them from establishing crossface."
+      },
+      {
+        "step_number": 6,
+        "action": "Establish Zombie structure",
+        "description": "Turn onto your side facing the opponent with lockdown active, underhook fighting in progress, and near-side frame protecting your head from crossface. You are now in Zombie position with full offensive options available."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Opponent drives forward aggressively during transition to flatten you before lockdown establishes",
+        "effectiveness": "High",
+        "your_response": "Immediately establish near-side frame against their chest and shrimp your hips away. If lockdown cannot be completed, transition to standard half guard retention with knee shield",
+        "targets_outcome": "Half Guard/Bottom"
+      },
+      {
+        "counter": "Opponent creates distance by posting and backing away during your leg repositioning",
+        "effectiveness": "Medium",
+        "your_response": "Chase their retreating leg with your lockdown attempt. If they create too much distance, let them stand and recover to open guard with feet on hips rather than overextending",
+        "targets_outcome": "New York Control/Bottom"
+      },
+      {
+        "counter": "Opponent establishes crossface before you can fight for underhook",
+        "effectiveness": "Medium",
+        "your_response": "Maintain lockdown and protect your head position. Use lockdown stretches to disrupt their base while working to insert your frame. The crossface is less effective when your lockdown controls their leg",
+        "targets_outcome": "New York Control/Bottom"
+      },
+      {
+        "counter": "Opponent immediately attacks with knee slice pass as your legs transition",
+        "effectiveness": "Medium",
+        "your_response": "Accelerate lockdown establishment and use the lockdown tension to block their knee slide. Turn into them rather than away, making the knee slice line unavailable",
+        "targets_outcome": "Half Guard/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Fighting to maintain a failing overhook instead of transitioning",
+        "consequence": "Position becomes a stalling battle with no offensive options, allowing opponent to methodically escape",
+        "correction": "Recognize that a 70% overhook is worse than a properly established Zombie - transition early rather than late"
+      },
+      {
+        "error": "Allowing hip separation during the transition",
+        "consequence": "Opponent creates distance and achieves full posture recovery, enabling standard passing sequences",
+        "correction": "Maintain hip connection throughout by keeping your legs engaged with their body during the entire transition"
+      },
+      {
+        "error": "Establishing lockdown too high on opponent's thigh rather than controlling the knee",
+        "consequence": "Lockdown becomes ineffective and easily cleared, losing primary Zombie control mechanism",
+        "correction": "Hook behind their calf with your foot and squeeze thighs around their knee area for maximum control"
+      },
+      {
+        "error": "Transitioning to lockdown while lying flat on back instead of on side",
+        "consequence": "Opponent immediately flattens you and completes pass, as flat lockdown has minimal defensive value",
+        "correction": "Turn onto your side as you establish lockdown - being on your side is essential for all Zombie offensive and defensive options"
+      },
+      {
+        "error": "Neglecting frame and underhook battle after lockdown is established",
+        "consequence": "Opponent establishes dominant crossface and chest pressure, neutralizing your lockdown advantages",
+        "correction": "Immediately fight for underhook or establish frame after lockdown - do not rest in lockdown without upper body control"
+      },
+      {
+        "error": "Transitioning too late after opponent has fully extracted and recovered posture",
+        "consequence": "The transition window closes and you must fight from disadvantaged half guard against a postured opponent",
+        "correction": "Transition must begin when you feel shoulder rotation starting, not when extraction is complete"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Week 1-2",
+        "focus": "Recognition and Mechanics",
+        "description": "Partner establishes New York Control, then slowly extracts shoulder while you practice recognizing the trigger and executing the leg transition to lockdown. No resistance - focus on smooth mechanics and timing recognition."
+      },
+      {
+        "phase": "Week 3-4",
+        "focus": "Transition Speed",
+        "description": "Partner extracts at moderate speed while you work to complete the transition before they achieve full posture. Begin adding frame and underhook battle after lockdown establishment. Partner provides light passing pressure after extraction."
+      },
+      {
+        "phase": "Week 5-6",
+        "focus": "Counter Integration",
+        "description": "Partner varies their extraction timing and immediately attacks with passes after escaping. Practice transitioning to Zombie and immediately defending or attacking. Add common counters and your responses to those counters."
+      },
+      {
+        "phase": "Week 7+",
+        "focus": "Live Application",
+        "description": "Full positional sparring starting from New York Control. Partner works to escape and pass while you work complete rubber guard system including New York attacks and Zombie transitions. Track success rate and refine timing."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the primary trigger that indicates you should transition from New York to Zombie?",
+        "answer": "The trigger is feeling the opponent's shoulder rotating forward and their arm beginning to slip from your overhook. This extraction movement - not its completion - signals the transition. You must recognize this within the first moment of shoulder rotation to have time to complete the transition before they achieve full posture recovery."
+      },
+      {
+        "question": "What position do you start the New York to Zombie transition from?",
+        "answer": "This technique starts from New York Control/Bottom, which is an advanced rubber guard position with one leg wrapped over the opponent's shoulder across their back while maintaining an overhook with the opposite arm. The position is part of the 10th Planet system."
+      },
+      {
+        "question": "What leg configuration must you achieve for proper Zombie establishment?",
+        "answer": "Your leg that was wrapped over their shoulder drops to trap their near leg. Hook your foot behind their calf, then triangle your legs by placing your bottom leg's foot over your top foot. Squeeze your thighs together around their knee area and maintain tension through hip extension. This lockdown configuration is the mechanical foundation of Zombie position."
+      },
+      {
+        "question": "Your opponent drives forward aggressively as you attempt to establish lockdown - what immediate adjustment do you make?",
+        "answer": "Immediately establish a strong near-side frame against their chest or shoulder to prevent being flattened. Shrimp your hips away from them to create space. If lockdown cannot be completed due to their pressure, abandon the Zombie attempt and transition to standard half guard retention with knee shield - a partial lockdown with no upper body control against a driving opponent leads to getting smashed."
+      },
+      {
+        "question": "Why is fighting to maintain a failing overhook strategically worse than transitioning to Zombie?",
+        "answer": "A degraded overhook (70% depth or less) provides insufficient control for submission setups but still commits you to a position with limited options. The opponent can methodically extract while you stall. Transitioning to Zombie converts their extraction energy into a new offensive structure where you maintain initiative through lockdown sweeps and Electric Chair threats. Holding failing positions violates systematic flow principles."
+      },
+      {
+        "question": "What upper body control battle must you win immediately after establishing lockdown?",
+        "answer": "You must fight for the underhook on the same side as your lockdown while simultaneously protecting your head from crossface with a near-side frame. Thread your arm under their armpit and work to connect your shoulder to their chest. If they establish crossface first, maintain lockdown and use stretches to disrupt their base while working to insert your frame. The underhook battle determines whether Zombie becomes offensive or purely defensive."
+      },
+      {
+        "question": "Your opponent creates distance by posting and backing away during your leg repositioning - how do you respond?",
+        "answer": "Chase their retreating leg with your lockdown attempt, extending your legs to hook their calf before they achieve full separation. However, if they create substantial distance, do not overextend - this compromises your guard recovery. Instead, let them stand and immediately recover to open guard with feet on hips. From there you can re-engage with shin-to-shin or other guard entries rather than scrambling from a disadvantaged position."
+      },
+      {
+        "question": "What is the optimal timing window for this transition, and what happens if you miss it?",
+        "answer": "The window is 1-2 seconds from when shoulder rotation begins until they achieve full posture recovery. Transition too early and you abandon viable New York attacks; transition too late and you're fighting from disadvantaged half guard against a postured opponent. Missing the window typically results in a battle to recover half guard with knee shield, which is less advantageous than a properly established Zombie with underhook control."
+      },
+      {
+        "question": "How does body positioning differ between New York Control and Zombie, and why does this matter?",
+        "answer": "In New York, you're on your back with hips elevated, leg over shoulder, and overhook controlling posture. In Zombie, you must be on your side with lockdown active and underhook fighting in progress. The side positioning is essential - flat lockdown has minimal defensive value and allows the opponent to flatten and pass. The transition requires actively turning onto your side as the lockdown establishes, not settling flat with legs entangled."
+      },
+      {
+        "question": "What follow-up attacks become available once Zombie is properly established?",
+        "answer": "Primary attacks include Old School Sweep when opponent's weight shifts backward, Electric Chair submission when you can get your underhook deep and control their far leg, and Deep Half Guard entry when they drive forward. You can also threaten Granby Roll to guard recovery and Rolling Back Take if they overcommit to crossface. These options require proper Zombie structure - lockdown, side positioning, and active underhook battle."
+      }
+    ],
+    "safety_considerations": "This transition involves rapid leg repositioning that can strain hip flexors and groin muscles if performed without adequate flexibility. Warm up thoroughly before drilling, particularly hip rotators and adductors. The lockdown component puts torque on your training partner's knee - apply lockdown tension gradually during drilling and release immediately if partner indicates discomfort. Avoid explosive lockdown stretches until both practitioners are comfortable with the mechanics. Practitioners with hip or knee injuries should consult a medical professional before training this position. Always tap early if caught in a bad position during the transition rather than fighting through compromised mechanics."
+  },
+  "defender": {
+    "name": "New York Control to Zombie Defender",
+    "description": "How to defend against New York Control to Zombie in BJJ. Recognition cues, defensive options, and escape strategies.",
+    "overview": "Defending the New York Control to Zombie transition requires understanding that this is a reaction-based technique triggered by your own shoulder extraction from New York Control. As the top player, your extraction attempt is the catalyst - the bottom player converts your escape momentum into lockdown establishment. The defensive challenge is that you must complete your extraction while simultaneously preventing them from catching your leg in lockdown, which demands awareness of their leg movement patterns during the transition window.\n\nThe critical defensive insight is that your greatest vulnerability occurs in the 1-2 seconds between beginning shoulder extraction and achieving full posture recovery. During this window, your posture is compromised, your base is transitional, and the bottom player's legs are actively repositioning from high guard wrap to lockdown configuration. Successful defense requires completing extraction aggressively while immediately establishing passing pressure or distance before the lockdown solidifies. Half-measures - extracting slowly, pausing mid-extraction, or failing to address the leg entanglement - allow the bottom player to establish Zombie with full offensive structure.\n\nThe most effective defensive strategy combines aggressive posture recovery with immediate passing threats. Rather than simply escaping and resettling, use your extraction momentum to drive into a passing sequence that denies the bottom player time to organize their lockdown and underhook. Establish crossface pressure immediately upon extraction to flatten them before they can turn to their side, which is essential for Zombie function. If lockdown establishes despite your efforts, the defensive priorities shift to neutralizing the underhook battle and preventing the Old School Sweep and Electric Chair threats that make Zombie dangerous.",
+    "key_principles": [
+      "Complete shoulder extraction aggressively and immediately address the leg entanglement before lockdown solidifies",
+      "Establish crossface or chest pressure the instant your arm is free to prevent the bottom player from turning to their side",
+      "Recognize that pausing after extraction creates the exact window the bottom player needs to establish lockdown",
+      "Drive forward into passing pressure rather than backing away, which allows guard recovery and re-engagement",
+      "Control their top knee during extraction to prevent the leg repositioning needed for lockdown configuration",
+      "Maintain wide base throughout extraction to resist being off-balanced during the transitional phase"
+    ],
+    "recognition_cues": [
+      "Bottom player's overhook grip loosens or releases voluntarily rather than being stripped - indicates they are abandoning New York to transition rather than fighting to maintain it",
+      "Their high guard leg begins dropping from your shoulder toward your hip or thigh, seeking to hook behind your calf for lockdown establishment",
+      "Bottom player's free hand shifts from controlling your head or arm to framing against your chest, creating space for the body rotation needed to turn onto their side",
+      "You feel their hips drop and rotate as they begin transitioning from the elevated New York hip angle to a side-facing Zombie orientation"
+    ],
+    "defensive_options": [
+      {
+        "action": "Drive forward with immediate crossface pressure upon extraction, flattening the bottom player before they can turn to their side and establish lockdown structure",
+        "when_to_use": "Immediately upon completing shoulder extraction when bottom player begins leg repositioning but has not yet established lockdown",
+        "targets_outcome": "Half Guard/Bottom",
+        "if_successful": "Bottom player is flattened on their back in compromised half guard without lockdown, allowing you to proceed with standard half guard passing sequences",
+        "risk": "If bottom player frames effectively, driving forward can create momentum they redirect into a sweep or back take"
+      },
+      {
+        "action": "Post on far hip and backstep to extract your leg entirely from their entanglement before lockdown solidifies, creating distance and denying the trapped leg",
+        "when_to_use": "When you feel their legs beginning to triangle around your leg but the lockdown has not yet fully tightened",
+        "targets_outcome": "New York Control/Bottom",
+        "if_successful": "You achieve full leg extraction and recover to open guard top position, forcing bottom player to re-engage from neutral guard rather than advantageous Zombie",
+        "risk": "Backstepping creates space that bottom player may use to recover full guard or re-establish rubber guard entries"
+      },
+      {
+        "action": "Control their top knee with your free hand and pin it to the mat while driving your trapped leg straight to prevent the lockdown triangle from closing",
+        "when_to_use": "During the transition moment when their leg is dropping from your shoulder but has not yet hooked behind your calf",
+        "targets_outcome": "New York Control/Bottom",
+        "if_successful": "Lockdown is denied and you maintain dominant top position in standard half guard or open guard with passing opportunities",
+        "risk": "Reaching for their knee can compromise your posture and open space for them to re-establish rubber guard controls"
+      },
+      {
+        "action": "Stand up explosively during extraction, pulling your trapped leg free while establishing standing base over their guard",
+        "when_to_use": "When the bottom player's grip structure is weakest during the transition - after overhook releases but before lockdown establishes",
+        "targets_outcome": "New York Control/Bottom",
+        "if_successful": "You achieve full standing posture with both legs free, forcing a complete guard re-engagement from bottom player without any entanglement advantage",
+        "risk": "Standing creates distance that allows guard recovery, and if lockdown catches during the stand-up, you lose base and become vulnerable to sweeps"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "New York Control/Bottom",
+        "how": "Complete extraction aggressively and either backstep to free your leg entirely or establish immediate crossface pressure that prevents lockdown. The key is eliminating the transition window by moving through it decisively rather than pausing in the vulnerable phase. Control their top knee during extraction to mechanically prevent the lockdown triangle from forming."
+      },
+      {
+        "outcome": "Half Guard/Bottom",
+        "how": "If lockdown partially establishes, immediately drive heavy crossface pressure to flatten the bottom player onto their back. A flat lockdown without side positioning is a compromised half guard that you can systematically pass. Deny the underhook by keeping your shoulder pressure forward and your elbow tight. From flattened half guard, work standard leg extraction and knee slice or smash pass sequences."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Pausing after extracting from the overhook to reset posture before addressing the leg entanglement",
+        "consequence": "The pause gives the bottom player the exact 1-2 second window needed to drop their leg, establish lockdown, fight for underhook, and turn to their side in full Zombie structure",
+        "correction": "Treat extraction and passing as one continuous motion - the moment your arm is free, immediately drive crossface pressure forward or backstep to extract your leg, never pause in the transitional phase"
+      },
+      {
+        "error": "Backing away from the bottom player after extracting from New York rather than driving forward",
+        "consequence": "Creating distance allows the bottom player to recover guard structure, re-establish rubber guard entries, or use the space to complete lockdown without pressure",
+        "correction": "Drive forward into the bottom player immediately after extraction, using chest and crossface pressure to deny them the space and time needed for Zombie establishment"
+      },
+      {
+        "error": "Ignoring the bottom player's leg movement during extraction and focusing only on freeing your arm",
+        "consequence": "While you concentrate on arm extraction, their leg drops from your shoulder and hooks behind your calf, establishing lockdown before you recognize the threat",
+        "correction": "Monitor both their arm grip and leg position during extraction - use your free hand to control their top knee and prevent the leg from dropping into lockdown position while simultaneously completing arm extraction"
+      },
+      {
+        "error": "Attempting to fight the lockdown by explosively pulling your leg free after it has fully established",
+        "consequence": "Wastes energy, risks knee or ankle injury, and keeps you engaged in the lockdown battle where the bottom player has superior leverage and offensive options",
+        "correction": "Once lockdown is fully established, accept the position and switch to Zombie top defense - establish crossface, flatten them, and work systematic lockdown escape through pressure and posture rather than explosive extraction"
+      },
+      {
+        "error": "Allowing the bottom player to achieve underhook after lockdown establishes without immediately countering with crossface or whizzer",
+        "consequence": "Bottom player achieves full Zombie structure with lockdown plus underhook, giving them access to Old School Sweep, Electric Chair, and back take threats",
+        "correction": "The moment lockdown catches, your immediate priority is denying the underhook through aggressive crossface pressure or whizzer control - winning the upper body battle neutralizes most of Zombie's offensive power"
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the most dangerous moment for the defender during this transition?",
+        "answer": "The most dangerous moment is the 1-2 second window between beginning shoulder extraction from New York and achieving full posture recovery. During this phase, your posture is compromised, your base is transitional, and the bottom player's legs are actively repositioning from high guard wrap to lockdown configuration. Any pause or hesitation in this window gives the attacker time to establish full Zombie structure with lockdown and underhook."
+      },
+      {
+        "question": "Your opponent releases their overhook voluntarily as you begin extracting - what does this signal and how should you respond?",
+        "answer": "A voluntary overhook release signals the bottom player is abandoning New York to transition to Zombie rather than fighting to maintain it. This is your cue that they are about to drop their leg for lockdown. Respond by immediately controlling their top knee with your free hand to prevent leg repositioning while driving forward with crossface pressure. Do not interpret their release as surrender - it is the beginning of their next attack."
+      },
+      {
+        "question": "You feel the bottom player's leg dropping from your shoulder during extraction - what is the correct defensive priority?",
+        "answer": "Your immediate priority is preventing the lockdown from forming by controlling their dropping leg. Push their top knee toward the mat with your free hand while simultaneously driving your trapped leg straight and posting your base wide. If you can prevent the leg from hooking behind your calf, the lockdown cannot establish. This is a brief window - once their foot hooks your calf and their legs triangle, the lockdown is set and you must switch to top pressure defense instead."
+      },
+      {
+        "question": "The lockdown has already established despite your defense - what is the correct order of defensive priorities from Zombie top?",
+        "answer": "First, establish crossface or heavy shoulder pressure to prevent them from turning to their side - a flat Zombie has minimal offensive power. Second, deny the underhook by keeping your shoulder forward and elbow tight, using whizzer if they begin threading their arm. Third, maintain wide base with your free leg posted to resist lockdown stretches and sweep attempts. Only after controlling their upper body and base should you begin working to systematically extract your trapped leg through posture and pressure."
+      },
+      {
+        "question": "Why is backing away after extraction more dangerous than driving forward into the bottom player?",
+        "answer": "Backing away creates space that the bottom player exploits in multiple ways: they can recover full guard, re-establish rubber guard entries like Mission Control, or use the distance to complete their lockdown without any top pressure interfering. Driving forward denies them space and time, forces them flat which kills Zombie structure, and converts your extraction momentum directly into passing pressure. Forward pressure also prevents them from turning to their side, which is mechanically required for all Zombie offensive options."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Week 1-2",
+        "focus": "Recognition and Extraction Completion",
+        "description": "Partner holds New York Control and you practice completing shoulder extraction while immediately driving forward with crossface. Focus on recognizing when their overhook releases voluntarily and identifying their leg dropping as the lockdown trigger. No lockdown resistance yet - develop the habit of continuous forward pressure after extraction."
+      },
+      {
+        "phase": "Week 3-4",
+        "focus": "Lockdown Prevention",
+        "description": "Partner actively attempts the transition to Zombie while you work to prevent lockdown establishment. Practice controlling their top knee during extraction, backstepping to free your leg, and standing up through the transition. Partner increases transition speed each round. Focus on the timing of when to address the leg versus maintain upper body pressure."
+      },
+      {
+        "phase": "Week 5-6",
+        "focus": "Zombie Top Defense",
+        "description": "Accept that lockdown will sometimes establish and practice defensive priorities from Zombie top. Drill crossface establishment against their underhook attempts, weight distribution to resist lockdown stretches, and recognition of Old School Sweep and Electric Chair setups. Partner works full Zombie offense while you practice systematic defense."
+      },
+      {
+        "phase": "Week 7+",
+        "focus": "Complete Defensive Flow",
+        "description": "Full positional sparring from New York Control where you work to extract, prevent Zombie, and pass. If Zombie establishes, work systematic top defense and passing. Track which defensive options succeed most frequently and refine timing. Integrate with overall anti-rubber-guard strategy including defense against Mission Control and other 10th Planet positions."
+      }
+    ]
+  },
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Mission Control Recovery",
+      "description": "Instead of transitioning to Zombie, recover to Mission Control by bringing your leg back to shin-on-face position when the overhook starts failing",
+      "when_to_use": "When opponent extracts slowly and you have time to reset rubber guard structure rather than transitioning to lockdown"
+    },
+    {
+      "variant_name": "Direct Old School Entry",
+      "description": "Transition directly to Old School Sweep setup by establishing lockdown and immediately attacking the sweep rather than settling into Zombie",
+      "when_to_use": "When opponent's weight distribution is already favorable for the sweep during their extraction attempt"
+    },
+    {
+      "variant_name": "Deep Half Redirect",
+      "description": "Instead of lockdown, dive under the opponent toward Deep Half Guard when they drive forward during extraction",
+      "when_to_use": "When opponent drives forward aggressively during extraction, making lockdown difficult but Deep Half accessible"
+    }
+  ],
+  "position_integration": "New York Control to Zombie represents the systematic philosophy of 10th Planet Jiu-Jitsu where positions flow based on opponent reactions. When New York attacks are defended through shoulder extraction, the transition preserves offensive momentum by converting to Zombie's lockdown-based attack system. This creates a continuous threat chain: New York offers gogoplata, triangle, and omoplata; when those are defended, Zombie offers Old School Sweep and Electric Chair. The opponent cannot rest after escaping one layer because the next layer is already engaging. This transition should be drilled as part of complete rubber guard flow, not in isolation.",
+  "conditions": [
+    "New York Control must be established before the transition is relevant",
+    "Opponent must begin shoulder extraction from the overhook - this is the triggering condition",
+    "Bottom player must have sufficient hip flexibility to convert from high guard wrap to lockdown",
+    "Hip connection between players must be maintained - significant distance prevents lockdown establishment",
+    "Bottom player's legs must be able to reach opponent's near leg for lockdown triangle"
+  ]
+}

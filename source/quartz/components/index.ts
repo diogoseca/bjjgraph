@@ -22,6 +22,10 @@ import RecentNotes from "./RecentNotes"
 import Breadcrumbs from "./Breadcrumbs"
 import Comments from "./Comments"
 import EditOnGithub from "./EditOnGithub"
+import MoveCards from "./MoveCards"
+import Snackbar from "./Snackbar"
+import TransitionFlashcard from "./TransitionFlashcard"
+import VictoryDisplay from "./VictoryDisplay"
 
 export {
   ArticleTitle,
@@ -48,4 +52,8 @@ export {
   Breadcrumbs,
   Comments,
   EditOnGithub,
+  MoveCards,
+  Snackbar,
+  TransitionFlashcard,
+  VictoryDisplay,
 }

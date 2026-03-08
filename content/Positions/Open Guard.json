@@ -1,0 +1,737 @@
+{
+  "name": "Open Guard",
+  "slug": "open-guard",
+  "description": "Master Open Guard in BJJ. Strategic guide covering distance management, sweep systems, and submission attacks from both bottom and top perspectives.",
+  "variant_uniqueness": "Dynamic leg positioning for mobility and control",
+  "overview": "Open Guard is the fundamental bottom position in BJJ where you use your legs positioned between you and your opponent to create distance, manage angles, and prevent them from establishing dominant control. Unlike closed guard where your legs lock around the opponent's back, open guard maintains an open configuration that allows for greater mobility and diverse attacking options at the cost of requiring more active management. This position serves as the gateway to all modern guard systems and is essential for contemporary BJJ competition.\n\nThe defining characteristic of open guard is the use of your legs as active frames and tools to control distance and create angles. Your feet may be on opponent's hips, shins across their thighs, knees creating frames, or various combinations depending on the specific guard variation you're entering. Upper body grips on gi sleeves and collars (or wrist and elbow control in no-gi) complement the leg frames to prevent opponent from freely closing distance or establishing pressure.\n\nOpen guard requires constant movement and active management - it's a dynamic rather than static position. The guard player must continuously read opponent's movements and adjust leg positioning, grips, and angles accordingly. This active nature makes it more energy-intensive than closed guard but offers superior options for entering specific guard systems like Spider Guard, De La Riva, X-Guard, or Butterfly Guard. Modern BJJ competition heavily favors open guard due to its versatility and the sophisticated attacking systems that have been developed from it.\n\nFrom the top perspective, Open Guard Top represents the fundamental challenge of navigating past an opponent's dynamic leg frames while managing grip battles, maintaining base against sweeps, and creating passing opportunities. Success requires reading the specific guard variation being employed and selecting appropriate passing strategies - pressure passing against close guards, movement passing against distance guards, and systematic dismantling of complex guard structures through grip dominance and angle creation.",
+  "key_principles": [
+    "Active leg management creates distance control and prevents opponent from establishing pressure or freely advancing position",
+    "Distance control is the primary objective - managing space between you and opponent determines who controls the engagement",
+    "Hip mobility enables angle creation and quick transitions between guard variations or passing sequences",
+    "Grip fighting determines who controls the pace and direction of guard play or passing attempts",
+    "Read opponent's posture and movement to select appropriate guard variation or passing strategy",
+    "Never remain static - constant adjustment and movement prevent opponent from settling into preferred strategy",
+    "Multiple attack paths available from open guard make it the gateway to modern BJJ systems"
+  ],
+  "related_positions": [
+    {
+      "name": "Closed Guard",
+      "relationship": "Related guard position with locked leg configuration offering more security but less mobility"
+    },
+    {
+      "name": "Butterfly Guard",
+      "relationship": "Specific open guard variation using butterfly hooks for control and sweeping"
+    },
+    {
+      "name": "Spider Guard",
+      "relationship": "Specific open guard variation using sleeve and shin control for distance management"
+    },
+    {
+      "name": "De La Riva Guard",
+      "relationship": "Specific open guard variation with de la riva hook for controlling standing opponents"
+    },
+    {
+      "name": "Lasso Guard",
+      "relationship": "Specific open guard variation using lapel and shin control for asymmetrical attacks"
+    },
+    {
+      "name": "X-Guard",
+      "relationship": "Advanced open guard variation for single leg control and sweeping"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Common transition position when open guard is partially passed"
+    },
+    {
+      "name": "Side Control",
+      "relationship": "Dominant position reached after successful guard passing"
+    },
+    {
+      "name": "Seated Guard",
+      "relationship": "Upright open guard variation with different angle dynamics"
+    },
+    {
+      "name": "Headquarters Position",
+      "relationship": "Transitional passing position during open guard top sequences"
+    }
+  ],
+  "top": {
+    "overview": "Open Guard Top is the fundamental position where the top player engages with an opponent who is utilizing an open guard (any guard where the legs are not closed around the opponent's waist). The position encompasses a wide range of specific scenarios depending on the bottom player's guard configuration, but generally involves the top player standing or in combat base, working to navigate past the opponent's legs to establish a more dominant position. This position serves as the starting point for all guard passing sequences and represents one of the most complex and dynamic positional battles in BJJ. Success in this position requires understanding grip fighting, distance management, pressure application, and recognizing the specific guard type being employed to select appropriate passing strategies. The top player must balance between maintaining safe posture to avoid sweeps and submissions while simultaneously creating passing opportunities through grip dominance, angle creation, and strategic pressure. Elite performance in open guard top demands rapid pattern recognition to identify the specific guard variation being employed and immediate implementation of the counter-passing strategy - pressure passes for close guards like butterfly and half guard, movement-based passes for distance guards like spider and de la riva, and systematic dismantling of complex guard structures through superior grip fighting and positional control.",
+    "state_properties": {
+      "point_value": 0,
+      "position_type": "Offensive/Controlling",
+      "risk_level": "Medium",
+      "energy_cost": "Medium",
+      "time_sustainability": "Medium to Long"
+    },
+    "state_invariants": [
+      "Top player maintains upright posture with hips elevated above opponent's guard structure, preventing forward collapse while managing distance through strategic positioning and grip control with spine alignment and base distribution",
+      "Bottom player's legs remain open and active, creating frames and barriers between their body and the top player's advancement attempts, utilizing hooks, grips, and positioning to maintain guard integrity and offensive threats",
+      "No chest-to-chest connection established, with clear separation maintained through the bottom player's leg frames and the top player's posture, creating a dynamic space where passing attempts and guard retention occur with constant adjustments",
+      "Top player's base distributed through feet (standing) or knees/feet (combat base) with weight controlled to maintain balance against sweep attempts while preparing to apply passing pressure through strategic weight shifts"
+    ],
+    "prerequisites": [
+      "Understanding of various guard types and their specific characteristics (Spider, De La Riva, Lasso, X-Guard, Butterfly, etc.)",
+      "Fundamental base and balance principles to maintain stability against sweeps and off-balancing attempts",
+      "Grip fighting skills to establish and maintain advantageous grips while breaking opponent's grips systematically",
+      "Recognition of passing opportunities based on opponent's guard configuration and movements",
+      "Defensive awareness against common sweeps, submissions, and guard recovery techniques",
+      "Ability to transition between standing and combat base positions fluidly based on tactical requirements"
+    ],
+    "key_principles": [
+      "Maintain proper posture with spine alignment and hips back to prevent forward pulls and maintain base against sweep attempts",
+      "Control opponent's legs through strategic grips and positioning to limit their mobility and offensive options",
+      "Create and exploit passing angles by moving laterally and circling to bypass defensive frames and leg barriers",
+      "Establish grip dominance early in exchanges to dictate the pace and direction of passing sequences",
+      "Manage distance appropriately for your passing style - close for pressure passing, further for speed and movement-based passing",
+      "Anticipate and counter defensive guard transitions by recognizing patterns and maintaining connection points",
+      "Apply strategic pressure to break down guard structures while preserving energy and maintaining safe positioning"
+    ],
+    "decision_tree": [
+      {
+        "condition": "If opponent establishes De La Riva or Reverse De La Riva hook with active grip control",
+        "actions": [
+          {
+            "technique": "Leg Weave Pass",
+            "target": "Side Control",
+            "probability": 55
+          },
+          {
+            "technique": "Leg Drag Pass",
+            "target": "Side Control",
+            "probability": 50
+          }
+        ]
+      },
+      {
+        "condition": "If opponent creates strong collar and sleeve grips with Spider or Lasso guard configuration",
+        "actions": [
+          {
+            "technique": "Stack Pass",
+            "target": "Side Control",
+            "probability": 50
+          },
+          {
+            "technique": "Toreando Pass",
+            "target": "Side Control",
+            "probability": 60
+          }
+        ]
+      },
+      {
+        "condition": "If opponent uses butterfly hooks with underhook control",
+        "actions": [
+          {
+            "technique": "Smash Pass",
+            "target": "Side Control",
+            "probability": 55
+          },
+          {
+            "technique": "Headquarters Pass",
+            "target": "Headquarters Position",
+            "probability": 48
+          }
+        ]
+      },
+      {
+        "condition": "If opponent attempts to sit up or create upright seated guard position",
+        "actions": [
+          {
+            "technique": "Pressure Pass",
+            "target": "Side Control",
+            "probability": 52
+          },
+          {
+            "technique": "Double Under Pass",
+            "target": "Side Control",
+            "probability": 48
+          }
+        ]
+      },
+      {
+        "condition": "If opponent extends legs to create distance with feet on hips",
+        "actions": [
+          {
+            "technique": "Long Step Pass",
+            "target": "Side Control",
+            "probability": 50
+          },
+          {
+            "technique": "X Pass",
+            "target": "Side Control",
+            "probability": 45
+          }
+        ]
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Poor posture with rounded back and hips too close to opponent",
+        "consequence": "Increased vulnerability to forward pulls, collar drags, and overhead sweeps; loss of base and balance leading to successful guard retention or sweeps",
+        "correction": "Maintain upright spine alignment with chest up, hips back, and weight distributed through the legs; keep head above hips and shoulders back to prevent forward collapse"
+      },
+      {
+        "error": "Neglecting grip fighting and allowing opponent to establish dominant grips first",
+        "consequence": "Opponent controls distance, posture, and passing angles; significantly reduced passing success rate as bottom player dictates the engagement",
+        "correction": "Proactively engage in grip fighting from initial contact; prioritize breaking opponent's grips while establishing your own control grips on pants, ankles, or collar"
+      },
+      {
+        "error": "Committing prematurely to pass without proper setup or grip control",
+        "consequence": "Telegraphed passing attempts that are easily countered; leaving vulnerable positions exposed during failed pass attempts; energy waste on ineffective techniques",
+        "correction": "Build systematic passing sequences with proper grip establishment, angle creation, and pressure application before committing fully to the pass"
+      },
+      {
+        "error": "Passive engagement without applying pressure or creating threats",
+        "consequence": "Allows opponent time to establish complex guard structures, recover optimal positioning, and set up offensive attacks; stalling in neutral without advancement",
+        "correction": "Constantly apply forward pressure and create passing threats to keep opponent defensive; use feints and combination attacks to force reactions and create openings"
+      },
+      {
+        "error": "Telegraphing passes with obvious weight shifts and predictable movement patterns",
+        "consequence": "Opponent anticipates passing direction and prepares defensive responses; low passing success rate due to predictability",
+        "correction": "Use misdirection, feints, and combination attacks; vary passing directions and pressure points; maintain unpredictability in movement and grip transitions"
+      },
+      {
+        "error": "Standing too upright without controlling opponent's legs or hips",
+        "consequence": "Opponent easily establishes distance management guards (Spider, Lasso, feet on hips); difficulty closing distance to initiate meaningful passing sequences",
+        "correction": "Control opponent's legs immediately when standing - grab pants, ankles, or knees; use strategic movement to prevent full extension while maintaining base"
+      },
+      {
+        "error": "Ignoring guard type and using inappropriate passing strategy for the specific guard configuration",
+        "consequence": "Using pressure passes against distance guards or speed passes against close guards; mismatched strategy leads to failed attempts and energy waste",
+        "correction": "Identify specific guard type being employed and select appropriate passing strategy; pressure pass butterfly/half guard, movement pass De La Riva/Spider guard"
+      }
+    ],
+    "training_drills": [
+      {
+        "name": "Grip Fighting Flow Drill",
+        "description": "Partner drill where both players engage in continuous grip fighting exchanges without attempting full passes. Top player works to establish passing grips while bottom player fights to maintain guard grips. Focus on hand fighting speed, grip breaks, and re-gripping. Progress to timed rounds with specific grip objectives.",
+        "duration": "3-5 minute rounds"
+      },
+      {
+        "name": "Passing Flow with Progressive Resistance",
+        "description": "Start with bottom player offering 30% resistance while top player practices passing sequences against various guard types. Gradually increase resistance to 50%, 70%, then 100% over multiple rounds. Focus on technical execution, angle creation, and pressure application at each resistance level.",
+        "duration": "5 rounds x 3 minutes at each resistance level"
+      },
+      {
+        "name": "Base and Posture Recovery Exercises",
+        "description": "Bottom player actively attempts to break top player's posture and base while top player focuses solely on maintaining proper positioning without attempting passes. Emphasizes core strength, balance, and postural awareness under dynamic pressure. Include standing and combat base variations.",
+        "duration": "2-3 minute focused rounds"
+      },
+      {
+        "name": "Guard Recognition and Response Drill",
+        "description": "Bottom player cycles through different guard types (Spider, De La Riva, Butterfly, Lasso, etc.) every 30 seconds while top player must quickly identify the guard and initiate appropriate passing strategy. Develops pattern recognition and strategic decision-making under time pressure.",
+        "duration": "5-6 minute continuous drill"
+      }
+    ],
+    "related_content": [
+      {
+        "name": "Side Control",
+        "relationship": "Primary advancement target from successful passes"
+      },
+      {
+        "name": "Headquarters Position",
+        "relationship": "Common transitional position during passing sequences"
+      },
+      {
+        "name": "Combat Base",
+        "relationship": "Fundamental posture variation within open guard top"
+      },
+      {
+        "name": "Leg Drag Control",
+        "relationship": "Controlling position during leg drag passing"
+      },
+      {
+        "name": "Closed Guard",
+        "relationship": "Related position with closed leg configuration"
+      },
+      {
+        "name": "Toreando Pass",
+        "relationship": "Fundamental lateral passing technique"
+      },
+      {
+        "name": "Knee Slice Pass",
+        "relationship": "Core pressure passing technique"
+      },
+      {
+        "name": "Leg Drag Pass",
+        "relationship": "High-percentage passing technique from standing"
+      }
+    ],
+    "position_metrics": {
+      "retention_rate": {
+        "value": 60,
+        "description": "Moderate retention reflecting the dynamic nature of guard engagement where both players frequently transition"
+      },
+      "advancement_probability": {
+        "value": 60,
+        "description": "Solid advancement probability reflecting diverse passing options available from open guard top"
+      },
+      "submission_probability": {
+        "value": 5,
+        "description": "Low direct submission probability - most submissions come after passing to dominant position"
+      },
+      "average_time": "2-4 minutes per passing sequence"
+    },
+    "name": "Open Guard Top",
+    "description": "Master Open Guard Top in BJJ. Complete guide covering passing strategies, pressure control, and transitions against dynamic open guard systems.",
+    "tags": [
+      "bjj",
+      "position",
+      "top",
+      "guard-passing",
+      "control",
+      "pressure",
+      "passing"
+    ],
+    "transitions": [
+      {
+        "transition": "Toreando Pass",
+        "attempt_probability": 17
+      },
+      {
+        "transition": "Knee Slice Pass",
+        "attempt_probability": 9
+      },
+      {
+        "transition": "Leg Drag Pass",
+        "attempt_probability": 9
+      },
+      {
+        "transition": "Stack Pass",
+        "attempt_probability": 8
+      },
+      {
+        "transition": "Long Step Pass",
+        "attempt_probability": 9
+      },
+      {
+        "transition": "X Pass",
+        "attempt_probability": 8
+      },
+      {
+        "transition": "Smash Pass",
+        "attempt_probability": 9
+      },
+      {
+        "transition": "Double Under Pass",
+        "attempt_probability": 9
+      },
+      {
+        "transition": "Pressure Pass",
+        "attempt_probability": 9
+      },
+      {
+        "transition": "Knee Cut Pass",
+        "attempt_probability": 9
+      },
+      {
+        "transition": "Float Passing",
+        "attempt_probability": 4
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What base adjustment should you make when your opponent starts establishing sleeve grips from spider guard?",
+        "answer": "Immediately address the grip by stripping it with a two-on-one break or circling your arm out before they can establish full bicep control. If they complete the grip, lower your elbow toward your hip to reduce their leverage, step back to create slack in your arm, and work to break the grip systematically rather than pulling straight back against their control."
+      },
+      {
+        "question": "What are the essential grip priorities for maintaining passing pressure in open guard top?",
+        "answer": "Control opponent's legs through pant grips at the knees or ankles as first priority, preventing them from establishing hooks or frames. Secondary priority is controlling their upper body through collar grip or head control to prevent them from sitting up. The combination of leg control and upper body pressure creates the foundation for all passing sequences."
+      },
+      {
+        "question": "How do you shut down the primary sweep threat when opponent establishes butterfly hooks?",
+        "answer": "Drive your hips back and down to flatten your center of gravity below their hooks, making elevation extremely difficult. Simultaneously control their near sleeve or wrist to prevent the underhook that powers butterfly sweeps. Apply forward shoulder pressure while keeping your hips heavy and low - this removes the space they need to elevate you."
+      },
+      {
+        "question": "Your opponent begins recovering De La Riva hook after you cleared it - what immediate adjustment prevents this?",
+        "answer": "Step your hooked leg backward immediately while maintaining control of their hooking leg with your hands. Push their knee across their centerline with your grip hand and shift your hips away from the recovering hook. Circling to the outside rather than driving forward prevents re-establishment and opens leg drag or toreando opportunities."
+      },
+      {
+        "question": "What weight distribution fundamentals maintain your passing position against constant framing?",
+        "answer": "Keep your hips low and center of gravity over your base while distributing weight through your toes for mobility. Avoid putting weight on your hands as this allows opponent to redirect you. Apply pressure diagonally downward through your shoulder or chest rather than straight down, which creates angles that are harder to frame against and facilitates lateral passing movement."
+      },
+      {
+        "question": "How do you maintain control when your passing sequence is partially stopped and opponent begins recovering guard?",
+        "answer": "Immediately establish a new connection point before they complete guard recovery - hip control, collar grip, or pant grip. Rather than resetting completely, transition to headquarters position or leg weave to maintain passing pressure. Keep your chest connected to their body and circle toward their back rather than retreating, which allows them to fully re-establish guard structure."
+      },
+      {
+        "question": "What grip fighting sequence should you use when opponent has both sleeve grips established?",
+        "answer": "Address one grip at a time using two-on-one breaks, starting with the grip that most threatens your posture. Circle your wrist out while pushing their grip hand toward their centerline. Once free, immediately re-establish your own grip before addressing the second. Never try to break both simultaneously as this compromises your base and allows them to off-balance you."
+      },
+      {
+        "question": "How do you manage energy expenditure during extended guard passing sequences?",
+        "answer": "Use strategic pressure and body positioning rather than explosive movements. Let gravity do work by positioning your weight on top of their frames rather than fighting against them. Commit to passes fully rather than half-attempts that waste energy. Recognize when to reset to a stable headquarters position rather than continuously forcing through strong defensive structures."
+      }
+    ]
+  },
+  "bottom": {
+    "overview": "Open Guard Bottom is a dynamic family of guard positions where the bottom player's legs are not closed around the opponent, allowing for greater mobility and attack variety at the cost of some defensive security. This position offers exceptional offensive versatility through numerous variations (butterfly, spider, lasso, de la riva, reverse de la riva, x-guard, single leg x), creating a complex strategic landscape. Open Guard serves as both a starting point for sweeps and submissions and as a transitional hub connecting various guard systems. The position emphasizes active engagement through foot and hand control, distance management, and constant threat creation. Unlike closed guard's reliance on leg lock for control, open guard requires continuous adjustment and reactive positioning based on opponent movement. This makes it simultaneously more demanding and more versatile, rewarding practitioners who develop strong grip fighting, hip mobility, and transition fluency. Success in open guard bottom depends on reading opponent's posture within 2-3 seconds and immediately transitioning to the appropriate specific guard system - Spider for kneeling opponents, De La Riva for standing opponents, Butterfly for forward pressure. The guard player must create constant dilemmas through simultaneous threats of sweeps and submissions, preventing the passer from settling into their preferred strategy.",
+    "state_properties": {
+      "point_value": 0,
+      "position_type": "Defensive with offensive options",
+      "risk_level": "Medium",
+      "energy_cost": "Medium",
+      "time_sustainability": "Medium"
+    },
+    "state_invariants": [
+      "Legs are open and actively engaged with opponent's hips, knees, or ankles, creating barriers and control points rather than passive positioning with constant micro-adjustments based on opponent's movements",
+      "Bottom player maintains at least one point of contact with opponent through hands (grips on gi/wrists) or feet (hooks on hips/legs), preventing free movement and maintaining connection for offensive and defensive purposes",
+      "Hip positioning remains mobile and reactive, with bottom player able to adjust angles and create distance through shrimping and hip movement, never remaining flat on back for extended periods",
+      "Upper body maintains active frames or grips that prevent opponent from achieving chest-to-chest pressure or establishing dominant crossface control, creating separation and offensive opportunities"
+    ],
+    "prerequisites": [
+      "Hip mobility and leg dexterity sufficient to maintain active foot positioning on opponent's hips, knees, or legs",
+      "Understanding of grip fighting fundamentals including sleeve control, collar grips, and pant grips",
+      "Basic framing mechanics with arms to create and maintain distance",
+      "Ability to manage distance dynamically through shrimping and hip escape movements",
+      "Developed sense of balance and base to prevent being easily driven backward or flattened",
+      "Familiarity with at least 2-3 specific guard variations to transition into from open guard"
+    ],
+    "key_principles": [
+      "Maintain active foot and hand engagement at all times - passive limbs invite passing pressure",
+      "Control distance and angles through strategic framing and leg positioning, never allowing opponent to close distance freely",
+      "Prevent opponent from establishing dominant grips or pressure by constant grip fighting and hand battling",
+      "Create and exploit leverage through strategic hooks and grips, using opponent's momentum against them",
+      "Connect upper and lower body control systems - grips and hooks must work together cohesively",
+      "Constantly threaten multiple attack vectors simultaneously to create dilemmas and prevent focused passing",
+      "Maintain hip mobility and avoid being flattened - once shoulders are pinned, guard retention becomes exponentially harder"
+    ],
+    "decision_tree": [
+      {
+        "condition": "If opponent is standing or on knees with upright posture",
+        "actions": [
+          {
+            "technique": "De La Riva Sweep",
+            "target": "Standing Position",
+            "probability": 55
+          },
+          {
+            "technique": "Sickle Sweep",
+            "target": "Mount",
+            "probability": 55
+          },
+          {
+            "technique": "Tripod Sweep",
+            "target": "Mount",
+            "probability": 50
+          }
+        ]
+      },
+      {
+        "condition": "If opponent attempts to pass with knee cut or slice",
+        "actions": [
+          {
+            "technique": "Shin Shield Recovery",
+            "target": "Knee Shield Half Guard",
+            "probability": 50
+          },
+          {
+            "technique": "Open Guard to Deep Half",
+            "target": "Deep Half Guard",
+            "probability": 45
+          },
+          {
+            "technique": "Berimbolo Entry",
+            "target": "Back Control",
+            "probability": 40
+          }
+        ]
+      },
+      {
+        "condition": "If opponent drives forward with pressure passing",
+        "actions": [
+          {
+            "technique": "Butterfly Sweep",
+            "target": "Mount",
+            "probability": 60
+          },
+          {
+            "technique": "Elevator Sweep",
+            "target": "Mount",
+            "probability": 50
+          },
+          {
+            "technique": "Collar Drag from Open Guard",
+            "target": "Back Control",
+            "probability": 45
+          }
+        ]
+      },
+      {
+        "condition": "If opponent establishes strong grips and attempts toreando",
+        "actions": [
+          {
+            "technique": "Reverse De La Riva Recovery",
+            "target": "Reverse De La Riva Guard",
+            "probability": 50
+          },
+          {
+            "technique": "Granby to Closed Guard",
+            "target": "Closed Guard",
+            "probability": 45
+          }
+        ]
+      },
+      {
+        "condition": "If opponent postures up and creates distance",
+        "actions": [
+          {
+            "technique": "Butterfly Guard to X-Guard",
+            "target": "X-Guard",
+            "probability": 55
+          },
+          {
+            "technique": "De La Riva to X-Guard Transition",
+            "target": "X-Guard",
+            "probability": 50
+          },
+          {
+            "technique": "Scissor Sweep from Open Guard",
+            "target": "Mount",
+            "probability": 50
+          }
+        ]
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Passive legs/feet that remain static without active engagement",
+        "consequence": "Allows opponent to easily control distance, establish grips, and initiate passing sequences without resistance",
+        "correction": "Maintain constant foot activity - push, pull, hook, and reposition feet to create barriers and control opponent's movement"
+      },
+      {
+        "error": "Overextending arms in frames or grips, creating vulnerability to armlocks",
+        "consequence": "Exposes limbs to submissions and allows opponent to break through frames by attacking the extended joints",
+        "correction": "Keep elbows close to body when framing, use structure rather than strength, and maintain bent-arm angles for safety"
+      },
+      {
+        "error": "Disconnected upper and lower body control - grips and hooks working independently",
+        "consequence": "Creates gaps in defensive structure that allow opponent to split defenses and achieve passing position",
+        "correction": "Coordinate grip fighting with foot positioning - when pushing with feet, pull with hands; when hooking with legs, frame with arms"
+      },
+      {
+        "error": "Static positioning without adjustment to opponent's movement",
+        "consequence": "Allows opponent to establish rhythm, predict defensive responses, and systematically dismantle guard structure",
+        "correction": "Constantly adjust angles, switch grips, change guard variations, and create unpredictable movement patterns"
+      },
+      {
+        "error": "Poor distance management - allowing opponent too close or being pushed too far away",
+        "consequence": "Too close enables smash passing and pressure; too far eliminates control and allows opponent to disengage completely",
+        "correction": "Maintain optimal mid-range distance where feet can control hips/knees while hands control upper body - adjust dynamically"
+      },
+      {
+        "error": "Flat back position with shoulders pinned to mat",
+        "consequence": "Severely limits hip mobility, makes guard retention exponentially harder, and signals imminent guard pass",
+        "correction": "Keep shoulders off mat when possible, maintain active posture, and use bridging/shrimping to prevent flattening"
+      },
+      {
+        "error": "Committing too heavily to single guard variation without transition options",
+        "consequence": "Allows opponent to develop specialized counters and passing strategies for that specific guard",
+        "correction": "Develop fluid transitions between guard variations - spider to lasso to de la riva - based on opponent's reactions"
+      }
+    ],
+    "training_drills": [
+      {
+        "name": "Open Guard Retention with Progressive Passing Pressure",
+        "description": "Partner attempts various passes while you maintain open guard structure. Start at 50% intensity and gradually increase to competition pace. Focus on maintaining active feet, preventing grips, and recovering when partially passed. Reset when pass is completed or sweep is achieved.",
+        "duration": "5 minutes per round, 3-4 rounds"
+      },
+      {
+        "name": "Transition Flows Between Guard Variations",
+        "description": "Flow drill moving between butterfly, spider, de la riva, lasso, and x-guard variations. Partner applies light pressure while you transition smoothly between guards. Emphasis on maintaining control throughout transitions and developing muscle memory for guard switching.",
+        "duration": "3 minutes per round, 4-5 rounds"
+      },
+      {
+        "name": "Distance Management Cycles",
+        "description": "Partner alternates between pressure passing and distance creation while you adjust foot positioning and frames to maintain optimal range. Practice pushing away when too close, pulling in when too far. Develop sensitivity to distance and automatic correction responses.",
+        "duration": "2 minutes per round, 5-6 rounds"
+      },
+      {
+        "name": "Grip Fighting from Guard Bottom",
+        "description": "Positional sparring focused exclusively on establishing and breaking grips from open guard. No passing or sweeping - purely grip fighting. Develop hand fighting skills, wrist control, and strategic grip sequences.",
+        "duration": "3 minutes per round, 4 rounds"
+      }
+    ],
+    "related_content": [
+      {
+        "name": "Closed Guard",
+        "relationship": "Alternative guard position - more secure but less mobile"
+      },
+      {
+        "name": "Butterfly Guard",
+        "relationship": "Specific open guard variation with butterfly hooks"
+      },
+      {
+        "name": "Spider Guard",
+        "relationship": "Specific open guard variation using sleeve and foot control"
+      },
+      {
+        "name": "De La Riva Guard",
+        "relationship": "Specific open guard variation with de la riva hook"
+      },
+      {
+        "name": "Lasso Guard",
+        "relationship": "Specific open guard variation with lasso grip"
+      },
+      {
+        "name": "X-Guard",
+        "relationship": "Advanced open guard variation for sweeps"
+      },
+      {
+        "name": "Half Guard",
+        "relationship": "Common transition when open guard is partially passed"
+      },
+      {
+        "name": "Scissor Sweep from Open Guard",
+        "relationship": "Fundamental sweep technique from open guard"
+      },
+      {
+        "name": "Butterfly Sweep",
+        "relationship": "Core sweeping technique from butterfly guard variation"
+      },
+      {
+        "name": "Collar Drag from Open Guard",
+        "relationship": "Off-balancing technique to create scramble or back take opportunities"
+      }
+    ],
+    "position_metrics": {
+      "retention_rate": {
+        "value": 60,
+        "description": "Moderate retention reflecting the dynamic and transitional nature of open guard"
+      },
+      "advancement_probability": {
+        "value": 60,
+        "description": "Strong advancement through diverse sweep and submission systems"
+      },
+      "submission_probability": {
+        "value": 25,
+        "description": "Moderate direct submission threat through triangles, armbars, and omoplatas from guard"
+      },
+      "average_time": "30-90 seconds in competition, 2-5 minutes in training"
+    },
+    "name": "Open Guard Bottom",
+    "description": "Master Open Guard Bottom in BJJ. Complete guide covering setup, control, sweeps, and submissions. Dynamic position with diverse attack systems.",
+    "tags": [
+      "bjj",
+      "position",
+      "guard",
+      "open-guard",
+      "bottom",
+      "offensive",
+      "sweeps",
+      "submissions"
+    ],
+    "transitions": [
+      {
+        "transition": "Butterfly Sweep",
+        "attempt_probability": 25
+      },
+      {
+        "transition": "De La Riva Sweep",
+        "attempt_probability": 4
+      },
+      {
+        "transition": "Sickle Sweep",
+        "attempt_probability": 3
+      },
+      {
+        "transition": "Tripod Sweep",
+        "attempt_probability": 4
+      },
+      {
+        "transition": "Elevator Sweep",
+        "attempt_probability": 2
+      },
+      {
+        "transition": "Omoplata Sweep",
+        "attempt_probability": 2
+      },
+      {
+        "transition": "Kimura Sweep",
+        "attempt_probability": 2
+      },
+      {
+        "transition": "Armbar Finish",
+        "attempt_probability": 2
+      },
+      {
+        "transition": "Scissor Sweep from Open Guard",
+        "attempt_probability": 4
+      },
+      {
+        "transition": "Open Guard to Deep Half",
+        "attempt_probability": 5
+      },
+      {
+        "transition": "Open Guard to Collar Sleeve Guard",
+        "attempt_probability": 9
+      },
+      {
+        "transition": "Open Guard to De La Riva",
+        "attempt_probability": 11
+      },
+      {
+        "transition": "Open Guard to Double Sleeve Guard",
+        "attempt_probability": 4
+      },
+      {
+        "transition": "Open Guard to Feet on Hips Guard",
+        "attempt_probability": 7
+      },
+      {
+        "transition": "Collar Drag from Open Guard",
+        "attempt_probability": 4
+      },
+      {
+        "transition": "Scramble from Failed Sweep",
+        "attempt_probability": 3
+      },
+      {
+        "transition": "Technical Stand Up from Open Guard",
+        "attempt_probability": 6
+      },
+      {
+        "transition": "Transition to Clamp Guard",
+        "attempt_probability": 1
+      },
+      {
+        "transition": "Triangle from Open Guard",
+        "attempt_probability": 2
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "Your opponent begins driving forward with shoulder pressure - what hip adjustment maintains your guard structure?",
+        "answer": "Immediately hip escape diagonally away from the pressure direction while maintaining one foot on their hip and the other creating a frame on their knee or thigh. Never stay flat when pressure comes - angle your body to create space and prevent being flattened. This hip escape creates the space needed to insert hooks or establish a specific guard variation."
+      },
+      {
+        "question": "What are the essential connection points for maintaining open guard control against a standing opponent?",
+        "answer": "Minimum two connection points required: one controlling lower body (foot on hip, de la riva hook, or shin frame) and one controlling upper body (collar grip, sleeve grip, or wrist control). Without both connections, opponent can freely advance. The feet manage distance while hands control their posture and movement direction."
+      },
+      {
+        "question": "How do you shut down a toreando pass attempt when opponent grabs your pants at the knees?",
+        "answer": "Immediately grip their sleeves or wrists to prevent them from redirecting your legs. Keep your knees pointed at them rather than allowing them to be pushed to one side. If they begin the lateral movement, follow with your hips and establish a hook on their near leg. The key is preventing the angle creation by keeping your legs between you and them."
+      },
+      {
+        "question": "Your opponent strips your collar grip while maintaining pant control - what immediate recovery prevents the pass?",
+        "answer": "Establish a new connection point immediately - either re-grip the collar from a different angle, control their same-side sleeve, or frame on their shoulder with your hand. Simultaneously create distance with your feet by pushing on their hips. Never allow them to have upper body freedom while controlling your legs - this is the passing configuration."
+      },
+      {
+        "question": "What weight distribution fundamentals allow you to maintain guard when being stacked?",
+        "answer": "Keep weight on your upper back and shoulders rather than rolling onto your neck. Post with one or both hands behind you to prevent being folded completely. Turn your body to the side rather than staying square - this makes stacking much more difficult and creates angles for guard retention or sweep opportunities."
+      },
+      {
+        "question": "How do you maintain control when your primary guard variation is being systematically dismantled?",
+        "answer": "Transition to a different guard variation before your current guard completely fails. Recognize early warning signs (losing key grips, opponent creating angle) and flow to complementary guards. For example, if spider guard grips are being stripped, transition to lasso or de la riva before losing all control. The transition itself can create sweep opportunities."
+      },
+      {
+        "question": "What framing priorities prevent opponent from achieving chest-to-chest pressure?",
+        "answer": "Primary frame on their shoulder or bicep with your forearm - not extended arm. Secondary frame with your knee or shin across their hip line. Keep elbows tight to your body when framing to prevent kimura attacks. Create a structure that uses your skeleton's strength rather than muscular effort to maintain distance."
+      },
+      {
+        "question": "How do you manage energy when defending sustained passing pressure for extended periods?",
+        "answer": "Use efficient movements - small hip adjustments rather than large escapes when possible. Let your guard structure absorb pressure rather than fighting it directly. Threaten sweeps and submissions to force opponent to reset rather than continuously defending. Transition to half guard or closed guard periodically to recover if needed - these require less active maintenance."
+      }
+    ]
+  }
+}

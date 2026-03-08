@@ -1,0 +1,396 @@
+{
+  "name": "Sprawl and Disengage",
+  "description": "Learn Sprawl and Disengage in BJJ. Escape inverted guards safely by driving hips back and creating distance. Complete guide with execution steps and counters.",
+  "tags": [
+    "bjj",
+    "transition",
+    "guard-passing",
+    "defensive",
+    "no-gi",
+    "inverted-guard-counter"
+  ],
+  "from_position": "Grasshopper Guard/Top",
+  "outcomes": [
+    {
+      "to": "Standing Position/Top",
+      "probability": 65,
+      "result": "success"
+    },
+    {
+      "to": "Grasshopper Guard/Top",
+      "probability": 25,
+      "result": "failure"
+    },
+    {
+      "to": "Single Leg X-Guard/Bottom",
+      "probability": 10,
+      "result": "counter"
+    }
+  ],
+  "success_rate": 58,
+  "overview": "The Sprawl and Disengage is a fundamental defensive technique used when facing grasshopper guard and other inverted guard positions. When an opponent inverts and threatens leg entanglements, the sprawl creates immediate distance by driving your hips backward and down toward the mat, removing your legs from their attacking range before they can establish hooks or grips.\n\nThis technique prioritizes safety and position reset over direct passing. Rather than fighting through the inverted guard and risking leg entanglements, you recognize when engagement is unfavorable and strategically disengage to reset from standing. The sprawl mechanic—borrowed from wrestling defense—is adapted here specifically to counter the elevation and leg control attempts inherent to inverted guards.\n\nFrom a systematic perspective, the Sprawl and Disengage represents intelligent risk management. When facing a skilled grasshopper guard player, attempting to pass through their legs often results in rolling kneebars, ankle locks, or 50-50 entanglements. By disengaging cleanly, you deny them the leg contact they need while maintaining top position and the ability to re-engage on your terms. The technique is particularly valuable in competition where conceding points for a sweep is far worse than resetting to neutral standing.",
+  "related_content": [
+    {
+      "name": "Grasshopper Guard",
+      "relationship": "Starting position - opponent's guard you are countering"
+    },
+    {
+      "name": "Back Step Pass",
+      "relationship": "Alternative technique - used when partial entanglement exists"
+    },
+    {
+      "name": "Leg Drag Pass",
+      "relationship": "Follow-up option - can chain from sprawl when maintaining contact"
+    },
+    {
+      "name": "Toreando Pass",
+      "relationship": "Follow-up option - common re-engagement after resetting to standing"
+    },
+    {
+      "name": "Front Headlock",
+      "relationship": "Alternative outcome - catch if opponent follows aggressively"
+    },
+    {
+      "name": "Combat Base",
+      "relationship": "Alternative starting position - sprawl can execute from kneeling"
+    },
+    {
+      "name": "Standing Position",
+      "relationship": "Primary destination - where you reset after successful disengage"
+    },
+    {
+      "name": "Single Leg X-Guard",
+      "relationship": "Counter risk - where opponent may end up if they catch your leg"
+    },
+    {
+      "name": "Inverted Guard",
+      "relationship": "Related system - sprawl applies to all inverted guard variants"
+    }
+  ],
+  "attacker": {
+    "name": "Sprawl and Disengage Attacker",
+    "description": "How to execute Sprawl and Disengage in BJJ. Attacking perspective with setup, execution steps, and counters.",
+    "overview": "The Sprawl and Disengage is a fundamental defensive technique used when facing grasshopper guard and other inverted guard positions. When an opponent inverts and threatens leg entanglements, the sprawl creates immediate distance by driving your hips backward and down toward the mat, removing your legs from their attacking range before they can establish hooks or grips.\n\nThis technique prioritizes safety and position reset over direct passing. Rather than fighting through the inverted guard and risking leg entanglements, you recognize when engagement is unfavorable and strategically disengage to reset from standing. The sprawl mechanic—borrowed from wrestling defense—is adapted here specifically to counter the elevation and leg control attempts inherent to inverted guards.\n\nFrom a systematic perspective, the Sprawl and Disengage represents intelligent risk management. When facing a skilled grasshopper guard player, attempting to pass through their legs often results in rolling kneebars, ankle locks, or 50-50 entanglements. By disengaging cleanly, you deny them the leg contact they need while maintaining top position and the ability to re-engage on your terms. The technique is particularly valuable in competition where conceding points for a sweep is far worse than resetting to neutral standing.",
+    "key_principles": [
+      "Hip extension is the primary escape mechanism—drive hips backward and down simultaneously",
+      "Speed of recognition determines success—sprawl at the first sign of leg threading, not after contact",
+      "Maintain visual tracking of opponent's legs throughout the disengagement",
+      "Weight distribution shifts away from engaged leg to free leg for balance",
+      "Distance creation must be decisive—half measures result in partial entanglements",
+      "Re-engagement should only occur from a position of postural advantage"
+    ],
+    "setup_requirements": [
+      "Standing or combat base position with at least one leg partially engaged with opponent's guard",
+      "Recognition that opponent is attempting to establish grasshopper guard or similar inverted position",
+      "No existing deep leg entanglement or hook already secured behind knee",
+      "Sufficient balance to execute hip extension without losing base"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Recognize threat",
+        "description": "Identify that your opponent is inverting and beginning to thread their legs toward yours. Look for shoulder contact with mat, hip elevation, and legs actively seeking hooks behind your knees or around your ankles."
+      },
+      {
+        "step_number": 2,
+        "action": "Post and base",
+        "description": "Plant your hands on opponent's hips or thighs to create a posting structure. This frames against their elevation attempt and provides the base needed to drive your hips backward without losing balance."
+      },
+      {
+        "step_number": 3,
+        "action": "Drive hips back",
+        "description": "Explosively extend your hips backward and downward, similar to a wrestling sprawl. Your chest drops toward opponent's legs while your hips travel away from their reach. This creates the primary distance."
+      },
+      {
+        "step_number": 4,
+        "action": "Extract legs",
+        "description": "As your hips extend back, actively pull your legs away from any partial contact. Step backward with both feet, prioritizing the leg closest to their hook attempts. Avoid pulling straight up which can complete their entanglement."
+      },
+      {
+        "step_number": 5,
+        "action": "Establish distance",
+        "description": "Continue stepping backward until you are completely outside their leg range. Your feet should be at least hip-width apart in a stable standing base. Maintain forward-facing posture with eyes tracking their movement."
+      },
+      {
+        "step_number": 6,
+        "action": "Reset to standing",
+        "description": "From the disengaged position, establish a stable fighting stance outside their guard range. You now have the option to re-engage on your terms, circle to find a better angle, or wait for them to commit to coming up before re-engaging."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Opponent follows with inversion roll to reestablish contact",
+        "effectiveness": "High",
+        "your_response": "Continue circling away and make them expend energy chasing. Their inverted position is unsustainable—patience wins.",
+        "targets_outcome": "Grasshopper Guard/Top"
+      },
+      {
+        "counter": "Opponent shoots for single leg as you disengage",
+        "effectiveness": "Medium",
+        "your_response": "Sprawl deeper and crossface to prevent them from getting underneath your hips. Their transition from inversion to shot creates vulnerability.",
+        "targets_outcome": "Single Leg X-Guard/Bottom"
+      },
+      {
+        "counter": "Opponent grabs ankle before you can fully extract",
+        "effectiveness": "Medium",
+        "your_response": "Continue hip extension while stripping grip with opposite hand. Pull leg in circular motion rather than straight back to break grip angle.",
+        "targets_outcome": "Grasshopper Guard/Top"
+      },
+      {
+        "counter": "Opponent uses momentum to come up to seated guard",
+        "effectiveness": "Low",
+        "your_response": "This is actually favorable—they've abandoned their inverted attack system for a more neutral position you can engage directly.",
+        "targets_outcome": "Standing Position/Top"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Initiating sprawl too late after opponent has established deep hook",
+        "consequence": "The hook behind your knee prevents hip extension and they pull you into their entanglement system",
+        "correction": "Sprawl at the first sign of inversion—when you see shoulders touch mat and hips elevate, not after they've made leg contact"
+      },
+      {
+        "error": "Pulling leg straight up rather than driving hips back",
+        "consequence": "Upward motion feeds directly into their sweep mechanics and often completes their hook for them",
+        "correction": "Drive hips backward and down first, then extract legs in a circular motion away from their body"
+      },
+      {
+        "error": "Staying bent over after sprawl instead of establishing distance",
+        "consequence": "Bent posture keeps you in their engagement range and vulnerable to follow-up attacks",
+        "correction": "Immediately step back to standing distance after sprawl—the sprawl creates momentary separation, not a holding position"
+      },
+      {
+        "error": "Losing visual contact with opponent's legs during disengagement",
+        "consequence": "You cannot track their follow-up attempts and may step directly into a new attack angle",
+        "correction": "Keep eyes on their hips and legs throughout—head position should allow continuous visual tracking"
+      },
+      {
+        "error": "Disengaging with narrow base and feet close together",
+        "consequence": "Narrow base makes you vulnerable to being pulled off balance if they maintain any grip",
+        "correction": "Step back to a wide athletic stance with feet at least hip-width apart for stability"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Week 1-2",
+        "focus": "Sprawl mechanics",
+        "description": "Practice sprawl motion in isolation—partner elevates hips while you focus on explosive hip extension, hand posting, and leg extraction. No resistance, pure mechanics drilling."
+      },
+      {
+        "phase": "Week 3-4",
+        "focus": "Recognition timing",
+        "description": "Partner varies between committing to grasshopper and faking inversion. Develop recognition of when sprawl is needed versus when other passing options exist. Light resistance on successful reads."
+      },
+      {
+        "phase": "Week 5-6",
+        "focus": "Follow-up sequences",
+        "description": "Partner actively follows after your sprawl with inversions and shot attempts. Practice chaining sprawl with re-engagement, circling, and secondary pass attempts. Medium resistance throughout."
+      },
+      {
+        "phase": "Week 7+",
+        "focus": "Live integration",
+        "description": "Implement in full sparring against inverted guard players. Focus on when disengagement is the right choice versus when to fight through. Analyze decision-making post-roll."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the primary goal of Sprawl and Disengage?",
+        "answer": "The primary goal is to safely remove your legs from an opponent's inverted guard attack range before they can establish hooks or leg entanglements. It prioritizes position reset and safety over direct passing, allowing you to re-engage on more favorable terms."
+      },
+      {
+        "question": "What position do you start Sprawl and Disengage from?",
+        "answer": "This technique starts from Grasshopper Guard/Top, when you are standing or in combat base facing an opponent who is inverting into grasshopper guard or similar inverted guard position."
+      },
+      {
+        "question": "What visual cues indicate you should initiate the sprawl?",
+        "answer": "Initiate when you see opponent's shoulders make contact with the mat, their hips begin elevating above their torso, and their legs start actively threading toward your knees or ankles. The key is recognizing the inversion before leg contact is established."
+      },
+      {
+        "question": "Why is pulling your leg straight up a mistake during this technique?",
+        "answer": "Pulling straight up feeds directly into the opponent's sweeping mechanics and often completes their hook for them by lifting your leg into their entanglement path. The correct motion is driving hips backward and down first, then extracting legs in a circular path away from their body."
+      },
+      {
+        "question": "How should you respond if opponent follows with an inversion roll after your sprawl?",
+        "answer": "Continue circling away and maintain distance, making them expend energy chasing. Their inverted position is extremely taxing on core muscles and unsustainable—patience and measured distance management will exhaust them faster than direct engagement."
+      },
+      {
+        "question": "What hand positioning should you establish before driving your hips back?",
+        "answer": "Post your hands on opponent's hips or thighs to create a framing structure. This frames against their elevation attempt and provides the stable base needed to drive your hips backward without losing balance or falling forward."
+      },
+      {
+        "question": "When is sprawl and disengage preferable to fighting through the guard?",
+        "answer": "It is preferable when the opponent has skilled leg entanglement abilities, when you recognize the threat late and partial contact has been made, in competition where sweep points matter more than engagement time, or when fatigue makes risky engagement inadvisable."
+      },
+      {
+        "question": "How do you convert the sprawl into a leg drag passing opportunity?",
+        "answer": "Use the sprawl to clear their hooks but maintain some leg contact rather than fully disengaging. As their inversion collapses from your hip pressure, immediately transition to controlling their near leg and dragging it across your body into leg drag position."
+      },
+      {
+        "question": "Your opponent catches your ankle mid-extraction—what grip-breaking mechanics do you use?",
+        "answer": "Continue driving your hips backward to maintain structural advantage while using your opposite hand to address their grip. Strip the ankle grip using a circular peeling motion that attacks the weakest point of their grip—typically their thumb side. Avoid pulling straight back against their grip strength, as the circular motion breaks their grip angle more efficiently."
+      },
+      {
+        "question": "What base width should you establish after completing the disengagement?",
+        "answer": "Establish a wide athletic stance with feet at least hip-width apart or wider. A narrow base makes you vulnerable to being pulled off balance if they maintain any grip or shoot forward. The wide base provides stability for either re-engagement or continued movement."
+      },
+      {
+        "question": "How does the sprawl timing differ when opponent grabs your ankle versus threading for a hook?",
+        "answer": "With an ankle grab, you have slightly more time since they need to convert grip to entanglement. Continue hip extension while stripping grip with opposite hand in circular motion. With a threading hook attempt, timing is more critical—you must sprawl before they complete the hook behind your knee, as extraction becomes much harder after."
+      },
+      {
+        "question": "Your opponent abandons the inversion and starts coming up aggressively after your sprawl—how do you capitalize?",
+        "answer": "As they transition from inverted to upright, there is a vulnerable window where their base is compromised and head position is exposed. If they drive forward with head down, snap down to a front headlock to capitalize on their poor posture. If they come up to seated guard, re-engage with a standing pass like toreando or bull fighter while they are still establishing grips."
+      }
+    ],
+    "safety_considerations": "The Sprawl and Disengage is inherently a safety-focused technique designed to avoid dangerous leg entanglements. However, proper execution requires attention to several safety factors. When sprawling explosively, avoid hyperextending your own knees by maintaining slight bend throughout. If opponent has any grip on your ankle, do not attempt to explosively rip away as this can cause ankle or knee injury—instead use controlled circular extraction. Be aware of training partners' faces when posting hands, as errant hand placement during explosive sprawl can cause accidental contact. In drilling, start with controlled speed until both partners understand the timing and spacing involved."
+  },
+  "defender": {
+    "name": "Sprawl and Disengage Defender",
+    "description": "How to defend against Sprawl and Disengage in BJJ. Recognition cues, defensive options, and escape strategies from the grasshopper guard bottom perspective.",
+    "overview": "As the grasshopper guard player, your opponent's sprawl and disengage represents the most common defensive reaction to your inverted guard system. When the top player drives their hips back and attempts to extract their legs, your goal is to maintain leg contact and prevent the full reset to standing. The defender in this scenario is actually the bottom player working to retain their guard and offensive position.\n\nUnderstanding the sprawl timing is critical for maintaining your grasshopper guard against competent passers. The moment you see their hips begin driving backward, you must already be initiating your counter—whether that means tightening existing hooks, shooting for ankle control, or following their retreat with an inversion roll. Passive defense here means losing all offensive leverage and being forced to re-engage from a disadvantaged open guard.\n\nThe key defensive framework involves recognizing which phase of the sprawl your opponent is in and matching your response accordingly. Early-phase sprawls (before hip extension completes) can be countered by tightening hooks and pulling them back into your guard. Mid-phase sprawls (during hip extension) require you to transition your attack angle by following with inversions. Late-phase sprawls (after distance is established) demand you either chase aggressively or accept the reset and prepare to re-establish guard on the next engagement.",
+    "key_principles": [
+      "Maintain at least one point of leg contact throughout the sprawl attempt to prevent full disengagement",
+      "React to the sprawl before it completes—early intervention is exponentially more effective than late recovery",
+      "Use hip elevation and core engagement to follow their retreating hips rather than letting them create distance",
+      "Convert their backward momentum into leg entanglement opportunities by threading legs during their hip extension",
+      "Accept the positional reset gracefully when the sprawl succeeds rather than overcommitting and exposing yourself to passes",
+      "Conserve energy for re-engagement rather than exhausting yourself chasing a fully disengaged opponent"
+    ],
+    "recognition_cues": [
+      "Opponent's hands post firmly on your hips or thighs with stiffened arms, creating a framing structure against your elevation",
+      "Opponent's weight shifts backward noticeably as their hips begin driving away from your legs",
+      "Opponent's chest drops toward your legs while their feet start stepping backward away from your hook range",
+      "Opponent breaks eye contact with your upper body and focuses downward on their own leg extraction path"
+    ],
+    "defensive_options": [
+      {
+        "action": "Tighten hooks and pull opponent back into guard before sprawl completes",
+        "when_to_use": "Early phase of sprawl when their hips have not yet fully extended and your hooks are still engaged behind their knees",
+        "targets_outcome": "Grasshopper Guard/Top",
+        "if_successful": "Opponent returns to your guard range and you maintain full grasshopper guard offensive position",
+        "risk": "If their hip extension is too powerful, you waste energy fighting against their sprawl and end up in worse position with fatigued hooks"
+      },
+      {
+        "action": "Follow with inversion roll to reestablish leg contact on their retreating legs",
+        "when_to_use": "Mid-phase of sprawl when they have partially disengaged but you can still reach their legs by rolling toward them",
+        "targets_outcome": "Grasshopper Guard/Top",
+        "if_successful": "You reestablish grasshopper guard or transition to a related leg entanglement position with renewed contact",
+        "risk": "Following aggressively expends significant energy and may leave you in a compromised position if they sprawl again immediately"
+      },
+      {
+        "action": "Shoot for ankle or heel control as their leg retreats to transition into single leg X-guard",
+        "when_to_use": "When you detect the sprawl beginning and can redirect one hand to catch their retreating ankle before distance is established",
+        "targets_outcome": "Single Leg X-Guard/Bottom",
+        "if_successful": "You convert their sprawl attempt into a single leg X-guard entry, maintaining offensive guard position with new attack angles",
+        "risk": "Reaching for the ankle with your hand reduces your inverted base stability and may result in being flattened if you miss the grip"
+      },
+      {
+        "action": "Accept reset and immediately transition to seated guard or De La Riva on re-engagement",
+        "when_to_use": "Late phase of sprawl when full disengagement has occurred and chasing would waste energy without realistic chance of reconnection",
+        "targets_outcome": "Standing Position/Top",
+        "if_successful": "You conserve energy for the next exchange and can establish a fresh guard position when they re-engage",
+        "risk": "Opponent may use the standing reset to initiate a passing sequence from distance before you can establish a new guard"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Grasshopper Guard/Top",
+        "how": "Tighten hooks aggressively at the first sign of the sprawl, before their hips fully extend. Use your inside hook behind their knee as an anchor and pull their weight back over your hips while simultaneously elevating to disrupt their base. The earlier you react, the higher your success rate—once their hips are fully extended, recovery becomes exponentially harder."
+      },
+      {
+        "outcome": "Single Leg X-Guard/Bottom",
+        "how": "As their leg retreats during the sprawl, redirect your hook configuration to catch their ankle with your inside leg wrap while your outside foot shoots to their hip. This converts their extraction attempt into a single leg X entry. Time the catch to the moment their leg is mid-extraction—too early and they haven't committed to the sprawl, too late and they're out of range."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Reacting passively to the sprawl and allowing full disengagement without attempting any counter",
+        "consequence": "Opponent resets to standing with full positional advantage, your grasshopper guard is nullified, and you must rebuild guard from scratch against a now-prepared passer",
+        "correction": "Always have a pre-planned response to the sprawl—whether tightening hooks, following with a roll, or transitioning to ankle control. Never simply watch them disengage."
+      },
+      {
+        "error": "Overcommitting to chasing the opponent after they have fully disengaged and established distance",
+        "consequence": "Exhausts your core and hip flexors from repeated inversions with no contact, leaving you fatigued and unable to maintain any guard when they re-engage",
+        "correction": "Recognize when the sprawl has succeeded and accept the reset. Conserve energy by transitioning to seated guard or standing up rather than repeatedly inverting to chase."
+      },
+      {
+        "error": "Releasing all hooks simultaneously to reach for their ankle with hands",
+        "consequence": "Losing structural leg control to grab with hands is a downgrade—your hands cannot generate the same sweeping leverage as your hooks, and you may be flattened or passed",
+        "correction": "Always maintain at least one hook or leg contact while transitioning. Use your legs as the primary retention mechanism and hands as supplementary grip."
+      },
+      {
+        "error": "Failing to elevate hips during the counter, allowing opponent's sprawl pressure to flatten you to the mat",
+        "consequence": "Once flattened, you lose all grasshopper guard mechanics and are vulnerable to heavy stack passes or direct guard passing",
+        "correction": "Actively drive your hips upward against their sprawl pressure. Your hip elevation is what maintains the guard—if hips drop, the position collapses entirely."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the most critical timing window for countering the sprawl and disengage?",
+        "answer": "The most critical window is the early phase before their hips fully extend backward. Once you detect their hands posting on your hips and weight shifting back, you have approximately one second to tighten your hooks and pull their weight back over your center of gravity. After their hips fully extend, the force required to recover them into your guard increases dramatically."
+      },
+      {
+        "question": "How do you convert a failed grasshopper retention into a single leg X-guard entry?",
+        "answer": "As their leg begins retreating during the sprawl, redirect your inside hook from behind their knee to wrap around their ankle or lower calf. Simultaneously shoot your outside foot to their hip to create the classic single leg X configuration. The key is catching their ankle during the extraction motion—their backward momentum actually helps seat your ankle wrap as their leg slides through your control."
+      },
+      {
+        "question": "When should you accept the positional reset rather than continue fighting the sprawl?",
+        "answer": "Accept the reset when their hips have fully extended, both feet have stepped back beyond your leg range, and they have broken all hook contact. Continuing to chase at this point wastes core energy on low-percentage recovery attempts. Instead, immediately come up to seated guard or standing position and prepare to re-establish guard when they re-engage on more equal terms."
+      },
+      {
+        "question": "What body mechanics allow you to follow the opponent's retreating hips during mid-phase sprawl?",
+        "answer": "Use a shoulder-roll inversion to follow their retreating hips. Drive off your shoulder blades and roll your hips toward them, extending your legs to maintain contact as they move backward. Your core generates the following force while your shoulder blades serve as the pivot point. This rolling pursuit is more energy-efficient than simply extending your legs, as it uses your entire body's momentum."
+      },
+      {
+        "question": "Your opponent posts their hands on your hips before sprawling—how does this change your defensive approach?",
+        "answer": "Their hand post telegraphs the sprawl and gives you an early warning advantage. Use this moment to pre-tighten your hooks and begin elevating your hips against their frames before the sprawl initiates. You can also strip one of their posting hands by pulling it toward you with your grip, which destabilizes their sprawl base and may cause them to fall forward into your guard rather than retreating cleanly."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Week 1-2",
+        "focus": "Hook retention mechanics",
+        "description": "Partner performs slow, controlled sprawl motions while you practice tightening hooks and maintaining leg contact. Focus on the squeeze-and-pull response to backward hip movement. No live resistance, purely mechanical repetition of hook retention against retreating opponent."
+      },
+      {
+        "phase": "Week 3-4",
+        "focus": "Transition to single leg X-guard",
+        "description": "Partner performs sprawl at moderate speed while you practice catching their ankle during extraction and converting to single leg X-guard. Work the timing of releasing your behind-the-knee hook and redirecting to an ankle wrap. Light resistance with partner cooperating on the conversion."
+      },
+      {
+        "phase": "Week 5-6",
+        "focus": "Inversion pursuit and energy management",
+        "description": "Partner performs full sprawl and reset cycles. Practice following with inversion rolls when hooks are lost, and recognizing when to accept the reset versus chase. Medium resistance with emphasis on reading the sprawl phase correctly and selecting the appropriate counter."
+      },
+      {
+        "phase": "Week 7+",
+        "focus": "Live situational sparring",
+        "description": "Full resistance positional sparring starting from grasshopper guard. Top player is instructed to use sprawl and disengage as primary defense. Bottom player practices the full defensive decision tree—hook retention, ankle catch to SLX, inversion pursuit, or reset acceptance based on live conditions."
+      }
+    ]
+  },
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Sprawl to Leg Drag",
+      "description": "Rather than fully disengaging, use the sprawl to clear their hooks then immediately transition to a leg drag passing position. Requires more precise timing but converts defensive action into passing opportunity.",
+      "when_to_use": "When opponent's inversion is shallow and you can maintain some leg contact safely"
+    },
+    {
+      "variant_name": "Sprawl to Front Headlock",
+      "description": "If opponent attempts to follow your sprawl by coming up, catch their head in a front headlock position as they rise. Converts their pursuit into a disadvantageous position for them.",
+      "when_to_use": "When opponent aggressively chases after your disengagement"
+    },
+    {
+      "variant_name": "Combat Base Sprawl",
+      "description": "Execute sprawl from kneeling combat base rather than standing. Drop hips back while maintaining one knee posted. Useful when already engaged at lower level.",
+      "when_to_use": "When you are in combat base and opponent begins inverting"
+    }
+  ],
+  "conditions": [
+    "Opponent is actively inverting or has established grasshopper guard or similar inverted position",
+    "At least one of your legs is partially in opponent's engagement range but no deep hook is secured",
+    "You have sufficient base and balance to execute explosive hip extension",
+    "No existing grips or entanglements prevent backward hip movement"
+  ],
+  "position_integration": "The Sprawl and Disengage functions as a critical safety valve within the inverted guard passing system. When facing grasshopper guard, K-guard, or other leg-hunting inverted positions, it provides the option to reset rather than risk leg entanglements. This technique connects to the broader guard passing system by giving practitioners an exit strategy that preserves top position without conceding sweep points. After successful disengagement, common follow-ups include re-engaging with toreando pass from distance, waiting for opponent to abandon inversion and come up to seated guard, or circling to find angles where their inversion is less effective. The technique is particularly valuable when integrated with a systematic approach that recognizes when engagement is favorable versus when strategic retreat is the higher-percentage play."
+}

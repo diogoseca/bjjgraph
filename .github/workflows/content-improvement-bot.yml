@@ -70,7 +70,7 @@ jobs:
 
           # 1. Generate complete content catalog for [[Wikilinks]]
           echo "Generating content catalog..."
-          find source/content -type f \( -name "*.json" -o -name "*.md" \) \
+          find content -type f \( -name "*.json" -o -name "*.md" \) \
             ! -name "CONTRIBUTING-*" ! -name "TEMPLATE*" ! -name "index.md" \
             -exec basename {} \; | \
             sed 's/\.json$//; s/\.md$//' | \
@@ -100,13 +100,13 @@ jobs:
 
               if [[ $file_size -lt 200 ]] || grep -q "TODO" "$file" 2>/dev/null; then
                 echo "  → Empty/minimal file (<200 bytes or has TODOs)"
-                echo "  → Running fix_content.sh to fill template..."
+                echo "  → Running regenerate_content_json.py to fill template..."
 
-                chmod +x ./scripts/fix_content.sh
-                if ./scripts/fix_content.sh "$file"; then
+                chmod +x ./scripts/regenerate_content_json.py
+                if ./scripts/regenerate_content_json.py "$file"; then
                   echo "  ✓ Template filled successfully"
                 else
-                  echo "  ✗ fix_content.sh failed - skipping this file"
+                  echo "  ✗ regenerate_content_json.py failed - skipping this file"
                   continue
                 fi
               fi
@@ -117,33 +117,33 @@ jobs:
 
                 # Detect SINGLE/DUAL/FAMILY
                 position_name="${file_base}"
-                variant_folder="source/content/Positions/$position_name"
+                variant_folder="content/Positions/$position_name"
 
                 if [ ! -d "$variant_folder" ]; then
                   template_type="SINGLE"
-                  template_file="source/templates/Positions/TEMPLATE-POSITION-SINGLE.json"
+                  template_file="templates/Positions/TEMPLATE-POSITION-SINGLE.json"
                 elif ls "$variant_folder"/*.json >/dev/null 2>&1; then
                   template_type="FAMILY"
-                  template_file="source/templates/Positions/TEMPLATE-POSITION-FAMILY.json"
+                  template_file="templates/Positions/TEMPLATE-POSITION-FAMILY.json"
                 else
                   template_type="DUAL"
-                  template_file="source/templates/Positions/TEMPLATE-POSITION-DUAL.json"
+                  template_file="templates/Positions/TEMPLATE-POSITION-DUAL.json"
                 fi
 
                 echo "  → Position template: $template_type"
 
               elif [[ "$file" == *"/Submissions/"* ]]; then
                 category="Submissions"
-                template_file="source/templates/Submissions.json"
+                template_file="templates/Submissions.json"
               elif [[ "$file" == *"/Transitions/"* ]]; then
                 category="Transitions"
-                template_file="source/templates/Transitions.json"
+                template_file="templates/Transitions.json"
               elif [[ "$file" == *"/Principles/"* ]]; then
                 category="Principles"
-                template_file="source/templates/Principles.json"
+                template_file="templates/Principles.json"
               elif [[ "$file" == *"/Systems/"* ]]; then
                 category="Systems"
-                template_file="source/templates/Systems.json"
+                template_file="templates/Systems.json"
               else
                 echo "  ✗ Unknown category - skipping"
                 continue
@@ -172,8 +172,8 @@ jobs:
               echo "  → Markdown file in $category"
 
               # Try to find template
-              if ls "source/templates/$category"/*.json >/dev/null 2>&1; then
-                template_file=$(ls "source/templates/$category"/*.json | head -1)
+              if ls "templates/$category"/*.json >/dev/null 2>&1; then
+                template_file=$(ls "templates/$category"/*.json | head -1)
                 cp "$template_file" "/tmp/preprocessing/${file_base}_template.json"
                 echo "  ✓ Template found: $template_file"
               else
@@ -247,7 +247,7 @@ jobs:
                For each article, create `/tmp/paa_output/<filename>_paa.json`:
                ```json
                {
-                 "article_path": "source/content/...",
+                 "article_path": "content/...",
                  "seed_keyword": "extracted keyword",
                  "paa_questions": [
                    {
@@ -482,7 +482,7 @@ jobs:
             If PAA reveals content gaps or you identify opportunities:
             - Append to `tests/artifacts/suggested_new_files.csv`
             - Format: `relative_path,"plan with why/target/sections"`
-            - Example: `source/content/Principles/Base-Maintenance.md,"Core principle referenced in 20+ positions; target: beginners; sections: definition, mechanics, drills; gap: no dedicated article exists"`
+            - Example: `content/Principles/Base-Maintenance.md,"Core principle referenced in 20+ positions; target: beginners; sections: definition, mechanics, drills; gap: no dedicated article exists"`
 
             # Execution Order
 
@@ -506,7 +506,7 @@ jobs:
           echo "Validating and retrying .json files"
           echo "========================================"
 
-          chmod +x ./scripts/fix_content.sh
+          chmod +x ./scripts/regenerate_content_json.py
           UPDATED_FILES=""
           FIXED_FILES=""
 
@@ -521,7 +521,7 @@ jobs:
               echo "  ✓ Validation passed"
               UPDATED_FILES="${UPDATED_FILES}${file}"$'\n'
             else
-              echo "  ✗ Validation failed - retrying with fix_content.sh (max 3 attempts)"
+              echo "  ✗ Validation failed - retrying with regenerate_content_json.py (max 3 attempts)"
 
               attempts=0
               fixed=false
@@ -530,7 +530,7 @@ jobs:
                 ((++attempts))
                 echo "    Attempt $attempts/3..."
 
-                if ./scripts/fix_content.sh "$file"; then
+                if ./scripts/regenerate_content_json.py "$file"; then
                   if python3 scripts/validate_json.py --file "$file" 2>&1 | grep -q "Valid"; then
                     echo "    ✓ Fixed successfully"
                     UPDATED_FILES="${UPDATED_FILES}${file}"$'\n'
@@ -568,7 +568,7 @@ jobs:
           while IFS= read -r json_file; do
             [ -z "$json_file" ] && continue
             echo "  → $json_file"
-            python3 scripts/json_to_md.py --file "$json_file" || echo "    ⚠ Warning: Regeneration failed"
+            python3 scripts/regenerate_md_from_json.py --file "$json_file" || echo "    ⚠ Warning: Regeneration failed"
           done <<< "${{ steps.validate_retry.outputs.updated_json_files }}"
 
       - name: Check for changes
@@ -675,7 +675,7 @@ jobs:
 
           **Pre-processing (Bash):**
           1. Generated content catalog → `/tmp/preprocessing/content_catalog.txt`
-          2. Auto-filled empty .json files (<200 bytes) with `fix_content.sh`
+          2. Auto-filled empty .json files (<200 bytes) with `regenerate_content_json.py`
           3. Detected template types (SINGLE/DUAL/FAMILY positions)
           4. Read templates and 5 examples per file
           5. Pre-validated .json files, saved results

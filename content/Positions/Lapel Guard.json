@@ -1,0 +1,637 @@
+{
+  "name": "Lapel Guard",
+  "slug": "lapel-guard",
+  "description": "Master lapel guard in BJJ with comprehensive strategies for control, sweeps, and submissions using gi grips. Includes bottom and top perspectives with transition paths.",
+  "variant_uniqueness": "Gi fabric becomes control extension point",
+  "overview": "Lapel guard represents a modern evolution in gi-based Brazilian Jiu-Jitsu guard play, utilizing the opponent's lapel fabric to create powerful control systems that transcend traditional grip fighting. This position fundamentally alters the guard game by transforming the gi itself into an extension of the practitioner's limbs, creating frames, barriers, and control points that would be impossible in no-gi grappling.\n\nThe strategic foundation of lapel guard lies in its ability to neutralize superior athleticism and strength through mechanical advantage. By feeding the opponent's lapel around their body, legs, or arms, the bottom player establishes control points that are extremely difficult to break without technical knowledge. Unlike traditional open guards that rely on constant grip fighting and positional adjustment, lapel guards create semi-permanent control structures that persist even when other grips are broken.\n\nFrom the top perspective, lapel guard presents unique defensive challenges that require specific technical solutions. The fabric wrapped around limbs or torso creates barriers that prevent standard passing approaches, forcing the top player to either address the lapel configuration directly or navigate around the unusual frames it creates. Understanding lapel guard mechanics from both positions is essential for modern gi competition.\n\nThe position encompasses numerous variations including worm guard, squid guard, ringworm guard, and other lapel-based systems, each creating distinct control patterns and submission threats. The common thread is the use of lapel fabric to extend control beyond what hands and legs alone can achieve, fundamentally changing the timing and mechanics of guard passing and retention.\n\nLapel guards excel in gi competition where grips are durable and lapel fabric provides reliable anchor points. The position allows smaller practitioners to control larger opponents through mechanical leverage rather than physical strength. The technical complexity also creates significant knowledge gaps—practitioners unfamiliar with lapel guard mechanics often struggle immensely against even moderate-level players who understand the system.\n\nThe energy dynamics of lapel guard favor the bottom player in extended exchanges. Once lapel configurations are established, maintaining them requires relatively low energy compared to the intense problem-solving and grip breaking required from the top position. This inverts the traditional guard dynamic where the bottom player typically expends more energy than the passer.",
+  "key_principles": [
+    "Lapel fabric becomes an extension of your limbs—use it to create persistent control points",
+    "Establish lapel configurations early before opponent establishes dominant grips",
+    "Combine lapel controls with traditional guards for maximum retention and offensive options",
+    "From top, address lapel configurations immediately rather than fighting through them",
+    "Bottom player creates dilemmas where defending sweep opens submission and vice versa",
+    "Lapel guards are gi-specific—develop complementary no-gi guards for complete game",
+    "Complex lapel configurations favor technical knowledge over athletic attributes"
+  ],
+  "related_positions": [
+    {
+      "name": "Worm Guard",
+      "relationship": "Primary lapel guard variation using lapel wrapped around opponent's leg"
+    },
+    {
+      "name": "Squid Guard",
+      "relationship": "Lapel guard variation with lapel wrapped around opponent's arm"
+    },
+    {
+      "name": "Ringworm Guard",
+      "relationship": "Advanced lapel configuration combining worm and squid elements"
+    },
+    {
+      "name": "Collar Sleeve Guard",
+      "relationship": "Traditional guard that transitions naturally into lapel configurations"
+    },
+    {
+      "name": "Spider Guard",
+      "relationship": "Complementary guard that shares grip strategies and can combine with lapel grips"
+    },
+    {
+      "name": "Lasso Guard",
+      "relationship": "Traditional guard with similar control principles using leg entanglement"
+    },
+    {
+      "name": "De La Riva Guard",
+      "relationship": "Often used as entry position before establishing lapel configurations"
+    },
+    {
+      "name": "Seated Guard",
+      "relationship": "Common position for initiating lapel extractions and configurations"
+    },
+    {
+      "name": "Closed Guard",
+      "relationship": "Can transition to lapel guards when opponent begins to open guard"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Backup position when lapel guard is partially passed"
+    }
+  ],
+  "top": {
+    "name": "Lapel Guard Top",
+    "description": "Navigate and pass lapel guard configurations with technical precision. Strategic guide to clearing lapel barriers, establishing dominant grips, and completing passes.",
+    "tags": [
+      "guard-passing",
+      "lapel-defense",
+      "pressure-passing",
+      "gi-strategy",
+      "technical"
+    ],
+    "overview": "Lapel guard top position presents unique technical challenges that distinguish it from traditional guard passing scenarios. The opponent has transformed their gi into a control system by feeding the lapel around your body, legs, or arms, creating mechanical barriers that prevent standard passing approaches.\n\nThe fundamental problem from top is that lapel configurations create persistent obstacles that don't disappear when you break traditional grips. Unlike a collar grip or sleeve grip that's gone when you strip it, a lapel wrapped around your leg continues to control your movement even after you've broken your opponent's hand grip on it. This requires addressing the fabric configuration itself, not just the grips maintaining it.\n\nSuccessful passing from lapel guard top requires understanding the specific configuration being used—worm, squid, ringworm, or hybrid variations each present different mechanical problems. Attempting to pass without clearing the lapel obstruction typically results in compromised position or exposure to sweeps and back takes.\n\nThe strategic approach involves either clearing the lapel configuration entirely before initiating passing sequences, or using specific passing mechanics that navigate around the lapel barriers without directly engaging them. Both approaches are valid; the choice depends on the specific configuration, your body type, and your passing style preferences.\n\nEnergy management is challenging from top because solving the lapel puzzle requires active problem-solving while the bottom player maintains control with relatively low effort. This creates pressure to act quickly before fatigue sets in, but rushing without proper technique typically results in defensive errors that lead to sweeps or back exposure.\n\nDeveloping lapel guard top competency requires specific drilling and study. Generic pressure passing or athletic passing often fails against competent lapel players, necessitating technical solutions that directly address the unique control mechanisms. Understanding the position from both sides—playing lapel guard yourself—significantly accelerates learning how to pass it effectively.",
+    "state_properties": {
+      "point_value": 0,
+      "position_type": "Neutral",
+      "risk_level": "Medium",
+      "energy_cost": "Medium",
+      "time_sustainability": "Medium"
+    },
+    "state_invariants": [
+      "Top player faces opponent in guard position where their own lapel has been extracted and configured around their body, leg, or arm creating a mechanical barrier that restricts passing options—this fabric configuration persists independent of hand grips",
+      "Top player must maintain balance and base despite the lapel configuration pulling them off-balance or restricting movement in specific directions, requiring constant postural adjustment",
+      "Bottom player uses the lapel configuration to create frames and barriers that prevent hip contact and pressure passing approaches, fundamentally altering the passing geometry"
+    ],
+    "prerequisites": [
+      "Understanding of how different lapel configurations (worm, squid, ringworm) affect passing mechanics",
+      "Ability to maintain posture and base despite being pulled or restricted by lapel fabric",
+      "Knowledge of proper grip sequences for clearing lapel configurations",
+      "Basic guard passing competency in traditional open guards",
+      "Recognition of when opponent is attempting to establish lapel control for early prevention"
+    ],
+    "key_principles": [
+      "Address lapel configuration immediately—don't attempt to pass through it without clearing",
+      "Prevent lapel extraction in first place through early grip fighting and pressure",
+      "Create distance to reduce leverage opponent gains from lapel configuration",
+      "Use backstep or circling passes that navigate around rather than through lapel barriers",
+      "Clear one layer of control at a time—systematically dismantle complex configurations",
+      "Maintain constant forward pressure to prevent opponent from re-establishing cleared configurations",
+      "Recognize specific lapel guard variations and apply appropriate technical solutions"
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the first priority when you recognize your opponent has established a lapel configuration around your leg?",
+        "answer": "Address the lapel configuration immediately before attempting any passing sequence. The fabric creates a mechanical barrier that persists even after breaking hand grips, so you must either clear the configuration entirely or use specific backstep mechanics to navigate around it rather than fighting through."
+      },
+      {
+        "question": "Your opponent starts feeding your lapel around your lead leg while you're in combat base—what adjustment prevents the worm guard establishment?",
+        "answer": "Immediately establish dominant grips on their collar and sleeve while applying forward pressure. Step your lead leg back to prevent the lapel from completing its wrap around your knee. The key is engaging with grip fighting and pressure before they complete the configuration, as prevention is far easier than clearing an established wrap."
+      },
+      {
+        "question": "How does energy management differ when passing lapel guard compared to traditional open guards?",
+        "answer": "Lapel guard inverts typical energy dynamics—the bottom player maintains control with low effort while you must actively problem-solve. This creates pressure to act quickly before fatigue sets in, but rushing causes defensive errors. The solution is systematic clearing combined with immediate passing pressure, solving the problem and advancing position in one continuous action."
+      },
+      {
+        "question": "What are the essential grips for clearing a worm guard lapel configuration?",
+        "answer": "Control the opponent's gripping hand first to prevent them from adjusting the wrap, then use your free hand to work the fabric off your leg systematically. A collar grip with your clearing hand helps maintain pressure while you address the configuration. Avoid pulling the lapel with muscular force—instead use technical unwinding motions."
+      },
+      {
+        "question": "Your opponent has squid guard with the lapel wrapped around your posting arm—what is the primary passing approach?",
+        "answer": "Create distance to reduce the leverage they gain from the arm configuration, or apply heavy pressure passing that compresses them despite the lapel barrier. The squid guard's arm wrap is less restrictive to leg movement than worm guard, so leg-based passing like toreando becomes viable once you manage the arm entanglement or commit to pressure through it."
+      },
+      {
+        "question": "How do you identify whether your opponent is playing worm guard versus squid guard versus ringworm?",
+        "answer": "Worm guard has the lapel wrapped around your leg, typically threaded behind the knee. Squid guard wraps the lapel around your arm, usually the posting arm. Ringworm combines elements with multiple wraps creating complex configurations. Recognition is critical because each requires different technical solutions—backstep for worm, pressure or distance for squid, full reset for ringworm."
+      },
+      {
+        "question": "Your opponent begins sitting up aggressively from lapel guard trying to take your back—what counter maintains your position?",
+        "answer": "Backstep immediately when they elevate their torso, using their forward momentum to disengage from the lapel configuration and circle to turtle position. Their commitment to the sit-up opens the path around the lapel barrier. Maintain heavy shoulder pressure during the backstep to prevent them from completing the back take."
+      },
+      {
+        "question": "What is the most common mistake when attempting to clear lapel configurations, and how does it compromise your position?",
+        "answer": "Using excessive force to rip the lapel free causes rapid grip fatigue and is often unsuccessful because the fabric is wrapped around body parts rather than just gripped. This compromises your position by draining energy, potentially damaging the gi, and leaving you in the same trapped position but now fatigued. Technical unwinding or navigating around is always superior to forcing."
+      }
+    ],
+    "decision_tree": [
+      {
+        "condition": "If opponent has worm guard with lapel around your leg",
+        "actions": [
+          {
+            "technique": "Backstep Around Worm Guard",
+            "target": "Turtle",
+            "probability": 60
+          },
+          {
+            "technique": "Distance Creation to Reset",
+            "target": "Standing Guard",
+            "probability": 55
+          }
+        ]
+      },
+      {
+        "condition": "If opponent has squid guard with lapel controlling your arm",
+        "actions": [
+          {
+            "technique": "Pressure Pass Through Squid",
+            "target": "Half Guard",
+            "probability": 50
+          },
+          {
+            "technique": "Lapel Clear to Toreando Pass",
+            "target": "Side Control",
+            "probability": 55
+          }
+        ]
+      },
+      {
+        "condition": "If opponent has complex ringworm configuration with multiple wraps",
+        "actions": [
+          {
+            "technique": "Distance Creation to Reset",
+            "target": "Standing Guard",
+            "probability": 65
+          },
+          {
+            "technique": "Long Step Around Ringworm",
+            "target": "Side Control",
+            "probability": 45
+          }
+        ]
+      },
+      {
+        "condition": "If you've successfully cleared lapel configuration",
+        "actions": [
+          {
+            "technique": "Immediate Pressure When Lapel Cleared",
+            "target": "Half Guard",
+            "probability": 70
+          },
+          {
+            "technique": "Knee Slice Despite Lapel",
+            "target": "Knee on Belly",
+            "probability": 65
+          }
+        ]
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Attempting standard pressure passing without addressing lapel configuration",
+        "consequence": "Lapel fabric creates barrier that prevents hip contact, resulting in failed passing attempt and exposure to sweeps or back takes",
+        "correction": "First clear or neutralize lapel configuration, then apply passing pressure—don't try to pass through a mechanical barrier"
+      },
+      {
+        "error": "Using excessive force to rip lapel free from opponent's control",
+        "consequence": "Rapid grip fatigue, potential gi damage, and often unsuccessful as fabric is wrapped around body parts rather than just gripped",
+        "correction": "Use technical lapel clearing sequences that address the configuration systematically, unwinding or navigating around rather than forcing"
+      },
+      {
+        "error": "Allowing opponent time and space to establish complex lapel configurations",
+        "consequence": "Fighting against fully-developed ringworm or multi-layer configurations is exponentially more difficult than preventing their establishment",
+        "correction": "Engage immediately with dominant grips and pressure when opponent begins extracting lapel, preventing configuration before it's complete"
+      },
+      {
+        "error": "Maintaining static base position while opponent adjusts lapel configuration",
+        "consequence": "Opponent fine-tunes their control while you remain stuck in compromised position with no progress toward passing",
+        "correction": "Constant movement and angle changes prevent opponent from establishing clean lapel configurations—be difficult to configure"
+      },
+      {
+        "error": "Ignoring which specific lapel guard variation opponent is using",
+        "consequence": "Applying wrong technical solution (worm guard pass to squid guard configuration) results in failed pass and wasted energy",
+        "correction": "Identify specific variation (worm, squid, ringworm, etc.) and apply corresponding technical solution designed for that configuration"
+      },
+      {
+        "error": "Pulling backward to escape lapel control instead of passing forward",
+        "consequence": "Creates distance but resets exchange without progress, essentially stalling rather than advancing position",
+        "correction": "Clear lapel configuration while simultaneously advancing passing position—solve problem and make progress in single action"
+      }
+    ],
+    "training_drills": [
+      {
+        "name": "Lapel Configuration Recognition",
+        "description": "Partner establishes various lapel guard configurations (worm, squid, ringworm) in sequence. You have 5 seconds to identify the specific variation and state which passing approach is most appropriate. Focus on rapid pattern recognition without attempting full passes.",
+        "duration": "3 minutes"
+      },
+      {
+        "name": "Systematic Lapel Clearing",
+        "description": "Partner establishes single lapel configuration and maintains it with moderate resistance. Practice technical clearing sequences specific to each variation, focusing on economy of movement rather than speed. Reset after each successful clear.",
+        "duration": "5 minutes"
+      },
+      {
+        "name": "Prevention Sparring",
+        "description": "Start in open guard with partner attempting to extract your lapel and establish configurations. Your only goal is preventing lapel control through early grip fighting and pressure. Partner succeeds if they establish any clean configuration; you succeed if you prevent it for 30 seconds.",
+        "duration": "5 minutes"
+      },
+      {
+        "name": "Pass Completion After Clear",
+        "description": "Partner establishes lapel configuration of choice. Clear it using appropriate technique, then immediately complete guard pass before partner can re-establish control. Emphasize the connection between clearing and passing as single continuous action.",
+        "duration": "4 minutes"
+      }
+    ],
+    "related_content": [
+      {
+        "name": "Worm Guard",
+        "relationship": "Most common lapel configuration you'll face—requires specific backstep solutions"
+      },
+      {
+        "name": "Squid Guard",
+        "relationship": "Arm control variation requiring pressure passing or distance creation"
+      },
+      {
+        "name": "Ringworm Guard",
+        "relationship": "Complex configuration often requiring full reset rather than direct passing"
+      },
+      {
+        "name": "Toreando Pass",
+        "relationship": "Effective passing method after clearing lapel configurations"
+      },
+      {
+        "name": "Long Step Pass",
+        "relationship": "Navigates around lapel barriers by changing passing angle"
+      },
+      {
+        "name": "Back Step",
+        "relationship": "Primary solution for worm guard configurations"
+      },
+      {
+        "name": "Standing Guard",
+        "relationship": "Reset position for creating distance from complex lapel configurations"
+      },
+      {
+        "name": "Side Control",
+        "relationship": "Common passing destination after successfully clearing lapel configurations"
+      },
+      {
+        "name": "Half Guard",
+        "relationship": "Intermediate position often reached during lapel guard passing attempts"
+      },
+      {
+        "name": "Knee on Belly",
+        "relationship": "Dominant position achievable after clearing lapel and completing knee slice"
+      }
+    ],
+    "position_metrics": {
+      "retention_rate": {
+        "value": 65,
+        "description": "Success rate maintaining top position without being swept from lapel guard"
+      },
+      "advancement_probability": {
+        "value": 60,
+        "description": "Likelihood of successfully passing guard against established lapel configuration"
+      },
+      "submission_probability": {
+        "value": 40,
+        "description": "Probability of completing pass and achieving submission after clearing lapel guard"
+      },
+      "average_time": "3-5 minutes to successfully pass established lapel guard in competition"
+    },
+    "transitions": [
+      {
+        "transition": "Lapel Clear to Toreando Pass",
+        "attempt_probability": 12
+      },
+      {
+        "transition": "Backstep Around Worm Guard",
+        "attempt_probability": 16
+      },
+      {
+        "transition": "Pressure Pass Through Squid",
+        "attempt_probability": 11
+      },
+      {
+        "transition": "Knee Slice Despite Lapel",
+        "attempt_probability": 12
+      },
+      {
+        "transition": "Long Step Around Ringworm",
+        "attempt_probability": 11
+      },
+      {
+        "transition": "Stack Pass Over Lapel Barrier",
+        "attempt_probability": 9
+      },
+      {
+        "transition": "Distance Creation to Reset",
+        "attempt_probability": 8
+      },
+      {
+        "transition": "Leg Drag While Clearing Lapel",
+        "attempt_probability": 11
+      },
+      {
+        "transition": "Leg Extraction from Lapel Wrap",
+        "attempt_probability": 10
+      }
+    ]
+  },
+  "bottom": {
+    "name": "Lapel Guard Bottom",
+    "description": "Control opponents with innovative lapel grips and configurations. Comprehensive guide to sweeps, submissions, and retention strategies from bottom position.",
+    "tags": [
+      "guard",
+      "lapel-guard",
+      "open-guard",
+      "gi-specific",
+      "technical",
+      "modern-bjj"
+    ],
+    "overview": "Lapel guard bottom represents one of the most innovative developments in modern gi grappling, transforming the opponent's uniform into a sophisticated control system. From this position, the bottom practitioner feeds the opponent's lapel around their body, creating unique frames and barriers that fundamentally alter guard passing dynamics.\n\nThe position begins with extracting one of the opponent's lapels—typically from a seated or open guard position. The bottom player feeds this lapel around the opponent's leg (worm guard), arm (squid guard), or through more complex configurations. Once established, these lapel wraps create persistent control points that don't require constant grip maintenance like traditional guards.\n\nStrategically, lapel guard bottom excels at neutralizing pressure passing and creating technical puzzles that athletic passers often struggle to solve. The fabric barriers prevent opponents from achieving the hip contact necessary for effective pressure passing, while simultaneously loading sweeping mechanics that trigger when the opponent attempts to clear the lapel obstruction.\n\nThe offensive potential from lapel guard includes powerful sweeps, back takes, and submission entries. Many attacks are constructed as true dilemmas—if the opponent defends the sweep by posting, they expose their back; if they defend the back take by staying heavy, they get swept. This forced-choice dynamic makes lapel guard particularly effective against higher-level opponents who understand they're in danger.\n\nEnergy management favors the bottom player significantly once configurations are established. Maintaining lapel control requires relatively minimal effort compared to the complex problem-solving required from the top position. This allows the bottom player to wait patiently for specific reactions rather than constantly fighting for position.\n\nThe learning curve for lapel guard is steep but rewarding. Initial sessions focus on reliably establishing basic configurations under resistance. Intermediate development adds sweeps and transitions between lapel variations. Advanced play involves reading opponent's weight distribution and creating submission opportunities from the control positions. The technical complexity creates significant competitive advantage against opponents unfamiliar with the system.",
+    "state_properties": {
+      "point_value": 0,
+      "position_type": "Offensive",
+      "risk_level": "Low to Medium",
+      "energy_cost": "Low",
+      "time_sustainability": "Long"
+    },
+    "state_invariants": [
+      "Bottom player has established control of opponent's lapel with at least one grip point feeding the fabric around opponent's body, leg, or arm—this lapel configuration creates a mechanical barrier that persists independent of hand grip strength",
+      "Bottom player maintains open guard structure with hips mobile and legs active, using the lapel as a supplementary control point rather than relying solely on it—this allows continued guard retention if lapel grip is lost",
+      "Opponent's posture is disrupted by the lapel configuration which pulls them off-balance or restricts their movement in specific directions, typically preventing them from achieving the hip contact necessary for effective pressure passing"
+    ],
+    "prerequisites": [
+      "Ability to extract opponent's lapel while maintaining guard position",
+      "Understanding of basic open guard mechanics and hip movement",
+      "Sufficient gi grip strength to feed lapel around opponent's body parts",
+      "Knowledge of which lapel configuration to use based on opponent's posture and passing style",
+      "Ability to maintain guard retention while establishing lapel grips"
+    ],
+    "key_principles": [
+      "Extract and configure lapel early before opponent establishes dominant passing grips",
+      "Use lapel as persistent control point that doesn't require constant grip maintenance",
+      "Combine lapel control with leg frames to create redundant defensive systems",
+      "Create sweep/submission dilemmas where defending one attack opens the other",
+      "Maintain hip mobility—lapel control supplements but doesn't replace active guard movement",
+      "Transition between lapel configurations based on opponent's reactions and weight distribution",
+      "Use lapel barriers to prevent hip contact and pressure passing approaches"
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What are the essential grips for maintaining lapel guard once a worm guard configuration is established?",
+        "answer": "The primary grip threads through the lapel fabric behind the opponent's knee, using a pistol grip or four-finger hook. The secondary grip controls the far sleeve or collar to prevent them from posturing away. Use skeletal alignment rather than muscular squeeze—hook fingers through the lapel and let body positioning maintain tension to preserve grip endurance."
+      },
+      {
+        "question": "Your opponent starts driving heavy forward pressure trying to smash through your lapel configuration—what adjustment prevents the pass?",
+        "answer": "Transition to squid guard by redirecting the lapel around their posting arm instead of their leg. Their forward pressure actually aids this reconfiguration. Alternatively, use their forward momentum to load a back take, as driving forward opens the path behind them. The key is converting their pressure into your offensive opportunity rather than fighting it directly."
+      },
+      {
+        "question": "How do you distribute your weight to maintain lapel guard against a standing opponent?",
+        "answer": "Keep your hips angled toward your lapel grip side, not flat on your back. Your non-lapel leg creates an active frame or hooks their lead leg for additional control. Shoulder weight stays light with the ability to sit up quickly for back takes. The lapel provides primary control while your hips and legs remain dynamic for transitions."
+      },
+      {
+        "question": "What is the most common error when holding lapel grips, and how does it compromise retention?",
+        "answer": "Gripping the lapel fabric with excessive forearm tension rather than structural alignment causes rapid forearm fatigue. Within 2-3 minutes of death-gripping, your control fails completely. The correction is hooking fingers through the lapel and using body positioning to maintain tension, allowing the skeletal structure rather than muscles to do the work."
+      },
+      {
+        "question": "Your opponent successfully strips your primary lapel grip—what immediate recovery maintains guard?",
+        "answer": "Transition to spider guard by immediately bicep controlling both arms, or flow to lasso guard by wrapping your leg around their arm. These traditional guards share similar control principles and don't require re-establishing the lapel configuration. Alternatively, re-extract the lapel from a safer angle before they advance position."
+      },
+      {
+        "question": "How do you shut down the backstep escape when your opponent recognizes they're in worm guard?",
+        "answer": "Maintain sleeve control on the same side as your lapel wrap to prevent them from posting and changing angle. When they begin the backstep motion, sit up aggressively and pursue the back take rather than trying to hold them in place. Their backstep actually opens the path to their back if you follow their rotation."
+      },
+      {
+        "question": "Your opponent posts their hand to base while you threaten a sweep—what attack capitalizes on this reaction?",
+        "answer": "The posted arm is vulnerable to omoplata. Rotate your hips under their posting arm while maintaining lapel control, threading your leg over their shoulder. Their base post becomes the setup for shoulder lock control. This is a classic lapel guard dilemma—defending the sweep opens the submission."
+      },
+      {
+        "question": "How do you manage energy when your opponent is aggressively trying to clear your lapel configuration?",
+        "answer": "Let the lapel configuration do the work rather than actively fighting their clearing attempts. Maintain structural grips and wait for specific reactions—their energy expenditure far exceeds yours. When they create openings through aggressive clearing, capitalize with sweeps or submissions. Patience is a weapon when you control the exchange with low energy output."
+      }
+    ],
+    "decision_tree": [
+      {
+        "condition": "If opponent stands with upright posture and attempts to create distance",
+        "actions": [
+          {
+            "technique": "Worm Guard Entry",
+            "target": "Worm Guard",
+            "probability": 70
+          },
+          {
+            "technique": "Lapel to De La Riva",
+            "target": "De La Riva Guard",
+            "probability": 60
+          }
+        ]
+      },
+      {
+        "condition": "If opponent attempts pressure pass with low posture driving forward",
+        "actions": [
+          {
+            "technique": "Squid Guard Entry",
+            "target": "Squid Guard",
+            "probability": 65
+          },
+          {
+            "technique": "Lapel Triangle Setup",
+            "target": "Triangle Control",
+            "probability": 50
+          }
+        ]
+      },
+      {
+        "condition": "If opponent posts hand to base while attempting to clear lapel",
+        "actions": [
+          {
+            "technique": "Lapel Omoplata Entry",
+            "target": "Omoplata Control",
+            "probability": 55
+          },
+          {
+            "technique": "Lapel Sweep to Back",
+            "target": "Back Control",
+            "probability": 60
+          }
+        ]
+      },
+      {
+        "condition": "If opponent successfully strips primary lapel grip",
+        "actions": [
+          {
+            "technique": "Lapel to Spider Guard",
+            "target": "Spider Guard",
+            "probability": 65
+          },
+          {
+            "technique": "Lapel to Lasso Guard",
+            "target": "Lasso Guard",
+            "probability": 60
+          }
+        ]
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Relying exclusively on lapel grip without maintaining leg frames or hip mobility",
+        "consequence": "Opponent can pass around the lapel control using toreando or pressure passing, rendering the lapel configuration irrelevant",
+        "correction": "Use lapel as supplementary control point while maintaining active leg frames and mobile hips—the lapel enhances but doesn't replace fundamental guard retention"
+      },
+      {
+        "error": "Attempting complex lapel configurations while opponent has dominant grips established",
+        "consequence": "Opponent initiates pass before lapel configuration is complete, catching the bottom player in vulnerable transition",
+        "correction": "Establish lapel control early in the exchange before opponent secures passing grips, or break opponent's grips before beginning lapel configuration"
+      },
+      {
+        "error": "Holding lapel fabric with overly tight grip using excessive forearm strength",
+        "consequence": "Rapid forearm fatigue compromises grip endurance, causing lapel control to fail in extended exchanges",
+        "correction": "Use structural grip relying on skeletal alignment rather than muscular squeeze—hook fingers through lapel and use body positioning to maintain tension"
+      },
+      {
+        "error": "Failing to adjust lapel configuration when opponent changes their passing angle or posture",
+        "consequence": "Static lapel configuration becomes ineffective as opponent navigates around it, leading to guard pass",
+        "correction": "Flow between worm, squid, and other lapel configurations based on opponent's movement—treat lapel guard as dynamic system rather than static position"
+      },
+      {
+        "error": "Pursuing lapel attacks without creating genuine dilemmas that force opponent to choose",
+        "consequence": "Opponent can defend all attacks simultaneously by maintaining good posture and base, neutralizing offensive threats",
+        "correction": "Structure attacks so defending sweep opens submission and defending submission opens sweep—force opponent into lose-lose decisions"
+      },
+      {
+        "error": "Using lapel guard in no-gi training or scenarios without gi grips available",
+        "consequence": "Developing over-reliance on gi-specific strategies that don't translate to no-gi or self-defense contexts",
+        "correction": "Balance lapel guard development with no-gi alternatives like butterfly, X-guard, or leg entanglements for complete guard game"
+      }
+    ],
+    "training_drills": [
+      {
+        "name": "Lapel Extraction Repetitions",
+        "description": "Partner maintains various open guard positions while you practice extracting lapels and feeding them into basic configurations. Focus on maintaining guard retention throughout the extraction process. Reset every 30 seconds regardless of success.",
+        "duration": "5 minutes"
+      },
+      {
+        "name": "Configuration Flow Drill",
+        "description": "Start in basic lapel guard with one configuration (worm, squid, or ringworm). Partner slowly changes their passing angle or posture every 10 seconds. Practice flowing between different lapel configurations without losing control. Emphasize smooth transitions rather than static holds.",
+        "duration": "5 minutes"
+      },
+      {
+        "name": "Lapel Guard Sweep Timing",
+        "description": "Establish lapel configuration of choice. Partner attempts to clear the lapel using specific techniques (grip breaking, pressure, or circling). Execute sweeps based on their clearing attempts, focusing on using their momentum against them. Reset after each sweep attempt.",
+        "duration": "3 minutes"
+      },
+      {
+        "name": "Lapel to Submission Chains",
+        "description": "From established lapel guard, partner defends first submission attempt (triangle or omoplata). Flow immediately to second submission option using their defensive reaction. Practice creating genuine dilemmas where defense opens another attack.",
+        "duration": "4 minutes"
+      }
+    ],
+    "related_content": [
+      {
+        "name": "Worm Guard",
+        "relationship": "Primary variation with lapel wrapped around opponent's leg"
+      },
+      {
+        "name": "Squid Guard",
+        "relationship": "Arm control variation complementing worm guard"
+      },
+      {
+        "name": "Ringworm Guard",
+        "relationship": "Advanced configuration combining multiple lapel wraps"
+      },
+      {
+        "name": "Spider Guard",
+        "relationship": "Traditional guard that combines well with lapel grips"
+      },
+      {
+        "name": "Lasso Guard",
+        "relationship": "Shares control principles and can be combined with lapel control"
+      },
+      {
+        "name": "De La Riva Guard",
+        "relationship": "Common entry position for establishing lapel configurations"
+      },
+      {
+        "name": "Collar Sleeve Guard",
+        "relationship": "Traditional guard that transitions naturally to lapel variations"
+      },
+      {
+        "name": "Triangle Control",
+        "relationship": "Common submission finish from lapel guard setups"
+      },
+      {
+        "name": "Omoplata Control",
+        "relationship": "Shoulder lock option from squid guard configurations"
+      },
+      {
+        "name": "Back Control",
+        "relationship": "High-percentage destination from lapel guard back takes"
+      }
+    ],
+    "position_metrics": {
+      "retention_rate": {
+        "value": 78,
+        "description": "Success rate maintaining guard against passing attempts once lapel configuration established"
+      },
+      "advancement_probability": {
+        "value": 65,
+        "description": "Likelihood of achieving sweep or back take from established lapel guard"
+      },
+      "submission_probability": {
+        "value": 50,
+        "description": "Probability of finishing submission directly from lapel guard position"
+      },
+      "average_time": "2-4 minutes in competition exchanges with experienced practitioners"
+    },
+    "transitions": [
+      {
+        "transition": "Worm Guard Entry",
+        "attempt_probability": 16
+      },
+      {
+        "transition": "Squid Guard Entry",
+        "attempt_probability": 12
+      },
+      {
+        "transition": "Ringworm Guard Entry",
+        "attempt_probability": 5
+      },
+      {
+        "transition": "Lapel Sweep to Back",
+        "attempt_probability": 22
+      },
+      {
+        "transition": "Lapel Omoplata Entry",
+        "attempt_probability": 8
+      },
+      {
+        "transition": "Lapel Triangle Setup",
+        "attempt_probability": 6
+      },
+      {
+        "transition": "Lapel to Lasso Guard",
+        "attempt_probability": 7
+      },
+      {
+        "transition": "Lapel to Spider Guard",
+        "attempt_probability": 7
+      },
+      {
+        "transition": "Lapel to De La Riva",
+        "attempt_probability": 7
+      },
+      {
+        "transition": "Lapel Elevator Sweep",
+        "attempt_probability": 8
+      },
+      {
+        "transition": "Lapel Guard to Piranha Guard",
+        "attempt_probability": 2
+      }
+    ]
+  }
+}

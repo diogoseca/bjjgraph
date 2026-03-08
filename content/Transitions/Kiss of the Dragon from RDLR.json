@@ -1,0 +1,396 @@
+{
+  "name": "Kiss of the Dragon from RDLR",
+  "description": "Master the Kiss of the Dragon from Reverse De La Riva Guard. Complete guide to this inversion-based back take with execution steps and defensive counters.",
+  "tags": [
+    "bjj",
+    "transition",
+    "back-take",
+    "inversion",
+    "reverse-de-la-riva",
+    "advanced",
+    "guard-offense",
+    "kiss-of-the-dragon"
+  ],
+  "from_position": "Reverse De La Riva Guard/Bottom",
+  "outcomes": [
+    {
+      "to": "Back Control/Top",
+      "probability": 55,
+      "result": "success"
+    },
+    {
+      "to": "Reverse De La Riva Guard/Bottom",
+      "probability": 30,
+      "result": "failure"
+    },
+    {
+      "to": "Side Control/Bottom",
+      "probability": 15,
+      "result": "counter"
+    }
+  ],
+  "success_rate": 55,
+  "overview": "The Kiss of the Dragon is an inversion-based back take executed from Reverse De La Riva Guard, where the bottom player threads their body underneath the opponent by rotating through the space between their legs. This technique exploits the unique angular advantages of the RDLR hook to create a pathway for deep inversion, emerging on the opponent's back side to establish hooks and upper body control. The technique gained prominence through modern competitors and has become a staple of advanced guard play, particularly in gi competition where pants grips enhance control during the rotation.\n\nThe mechanical foundation relies on the RDLR hook creating a pivot point around the opponent's far leg. As the bottom player initiates the inversion, their head passes between the opponent's legs while maintaining hook control to prevent disengagement. The critical moment occurs during the rotation phase, where the inverting player must maintain continuous leg contact to guide their body around the opponent's stance and emerge with back exposure. Unlike the berimbolo, which typically enters from a more lateral angle, Kiss of the Dragon drives directly underneath the opponent's center of gravity, making it particularly effective when the opponent maintains an upright posture or attempts to disengage from the RDLR hook.\n\nStrategically, this technique creates a powerful dilemma for the top player: driving forward feeds into waiter sweeps, but standing tall or creating distance exposes the exact spacing needed for the Kiss of the Dragon entry. The technique integrates seamlessly with the broader RDLR attack system, functioning as the primary back-take option that forces opponents to choose between equally unfavorable defensive postures.",
+  "conditions": [
+    "Established RDLR hook with instep behind opponent's far knee creating the pivot point for rotation",
+    "Active ankle grip on the hooked leg providing directional control for the inversion",
+    "Opponent standing upright or in elevated combat base creating sufficient clearance between their legs",
+    "Far leg free from posting position to generate rotational momentum for the threading motion",
+    "Hips elevated off the mat with active core engagement to initiate inversion"
+  ],
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Standard Gi Kiss of the Dragon",
+      "description": "Uses pants grips on the far ankle and near pant leg to maintain maximum rotational control throughout the inversion. The fabric grips allow for a more controlled, deliberate threading motion and provide strong steering during the rotation phase.",
+      "when_to_use": "Default variation in gi competition when you have established strong pants grips from RDLR"
+    },
+    {
+      "variant_name": "No-Gi Kiss of the Dragon",
+      "description": "Replaces pants grips with cupping grips around the Achilles tendon and heel hook configurations. Requires more explosive commitment to the rotation due to reduced grip security, with emphasis on speed rather than controlled threading.",
+      "when_to_use": "No-gi competition or when opponent strips your gi grips before you can initiate the standard variation"
+    },
+    {
+      "variant_name": "Kiss of the Dragon to Crab Ride",
+      "description": "Stops the rotation at the crab ride position rather than completing the full back take. One hook establishes behind the opponent's knee from the back while maintaining a seated position on their far hip, allowing systematic progression to full back control.",
+      "when_to_use": "When opponent defends the full back take by tucking their elbows or when you want a more conservative approach with intermediate control before committing to hooks"
+    }
+  ],
+  "position_integration": "Kiss of the Dragon occupies a central role in the Reverse De La Riva attack system, serving as the primary back-take threat that forces the top player into defensive postures vulnerable to other RDLR attacks. The technique connects the bottom guard game to the back control system through inversion mechanics, creating a direct pathway from open guard to the most dominant position in BJJ. It chains effectively with berimbolo entries, crab ride transitions, and waiter sweeps, forming a comprehensive attack network where each technique's defensive response feeds into another attack. Understanding Kiss of the Dragon is essential for any practitioner utilizing RDLR as a primary guard, as the threat alone forces opponents to modify their passing strategies and adopt lower, more conservative stances that open other offensive pathways.",
+  "related_content": [
+    {
+      "name": "Reverse De La Riva Guard",
+      "relationship": "Source position providing the hook structure and grips that enable the inversion entry"
+    },
+    {
+      "name": "Back Control",
+      "relationship": "Primary target position reached upon successful completion of the inversion and hook insertion"
+    },
+    {
+      "name": "Crab Ride",
+      "relationship": "Intermediate control position during the technique and alternative stopping point before full back take"
+    },
+    {
+      "name": "Berimbolo Entry",
+      "relationship": "Related inversion-based back take sharing similar rotational mechanics from RDLR guard"
+    },
+    {
+      "name": "De La Riva Guard",
+      "relationship": "Parent guard system with standard hook orientation that RDLR inverts for different attack angles"
+    },
+    {
+      "name": "Side Control",
+      "relationship": "Counter outcome position when top player successfully sprawls and passes during failed inversion"
+    },
+    {
+      "name": "Seat Belt Control Back",
+      "relationship": "Upper body control configuration established immediately after completing the back take"
+    },
+    {
+      "name": "Single Leg X-Guard",
+      "relationship": "Alternative transition from RDLR when Kiss of the Dragon entry is denied by backstepping"
+    },
+    {
+      "name": "X-Guard",
+      "relationship": "Related guard position accessible when opponent's backstep defense creates elevation opportunities"
+    },
+    {
+      "name": "Open Guard",
+      "relationship": "Recovery position when RDLR structure is compromised during failed inversion attempts"
+    }
+  ],
+  "attacker": {
+    "name": "Kiss of the Dragon from RDLR Attacker",
+    "description": "Learn to execute Kiss of the Dragon from Reverse De La Riva Guard. Step-by-step inversion mechanics, grip sequences, and back take completion for this advanced guard technique.",
+    "overview": "The Kiss of the Dragon from RDLR is executed by the bottom guard player who initiates a deep inversion underneath the opponent, threading through the space between their legs to emerge on the back side. As the attacker, your objective is to convert the rotational control of the RDLR hook into a complete back take by maintaining continuous leg contact throughout the inversion, controlling the opponent's ability to disengage, and establishing hooks and upper body control upon emerging behind them. Success depends on precise timing of the entry when the opponent creates space, committed and decisive rotation through the threading phase, and immediate consolidation of back control hooks upon emerging from the inversion.",
+    "key_principles": [
+      "Maintain continuous leg contact with opponent's far leg throughout the entire inversion to prevent disengagement and guide rotation path",
+      "Commit fully to the inversion once initiated—half-committed rotations stall between opponent's legs in extremely vulnerable positions",
+      "Use the RDLR hook as a pivot point that controls the direction and speed of your rotation around the opponent's stance",
+      "Keep your far-side grip active during inversion to prevent opponent from backstepping away from the rotation",
+      "Emerge from the inversion with immediate hook insertion priority before establishing upper body control",
+      "Time the entry when opponent's weight shifts backward or upward, creating maximum space underneath their hips for the inversion"
+    ],
+    "setup_requirements": [
+      "Established RDLR hook with instep positioned behind opponent's far knee creating the pivot point for rotation",
+      "Active ankle grip on the hooked leg's ankle providing directional control during the inversion sequence",
+      "Opponent in standing or elevated combat base position with sufficient clearance between their legs for entry",
+      "Far leg positioned on opponent's hip or in space ready to facilitate the rotation and eventual hook insertion",
+      "Hips elevated off the mat with active core engagement to generate the rotational momentum needed for inversion"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Establish RDLR structure and grips",
+        "description": "From Reverse De La Riva Guard bottom, confirm your near-side foot has a deep hook behind the opponent's far knee with your instep controlling their leg. Secure a firm grip on their far ankle with your near-side hand while your far-side hand controls their near pant leg or hip for distance management."
+      },
+      {
+        "step_number": 2,
+        "action": "Create inversion angle",
+        "description": "Shift your hips toward the centerline underneath your opponent by walking your shoulders toward them. Your far leg releases its frame on their hip and begins to swing in the direction of the inversion, generating the initial rotational momentum needed to thread through."
+      },
+      {
+        "step_number": 3,
+        "action": "Initiate the inversion",
+        "description": "Duck your head between the opponent's legs while simultaneously pulling their far ankle toward you with your grip hand. Your RDLR hook maintains contact and acts as the pivot point, guiding your body's rotation underneath their stance. Commit fully to the rotation at this point—there is no effective half-measure."
+      },
+      {
+        "step_number": 4,
+        "action": "Thread through the legs",
+        "description": "Continue rotating your body underneath the opponent, threading your shoulders and torso between their legs. Maintain constant contact with your hook-side leg wrapped around their far leg to prevent them from stepping away or sprawling during the transition phase."
+      },
+      {
+        "step_number": 5,
+        "action": "Complete the rotation",
+        "description": "As your body emerges on the opponent's back side, your hook-side leg naturally transitions from the RDLR hook to a back control hook position behind their thigh. Your momentum carries you into position behind them with your chest approaching their back. Use your far-side arm to reach for their hip or waist to pull yourself through."
+      },
+      {
+        "step_number": 6,
+        "action": "Establish back control hooks",
+        "description": "Immediately insert both hooks inside the opponent's thighs as you complete the rotation. Your near-side hook should already be in position from the RDLR hook configuration, and your far-side hook inserts as you settle behind them. Deep hook placement inside the thighs prevents immediate escape."
+      },
+      {
+        "step_number": 7,
+        "action": "Secure upper body control",
+        "description": "Establish seatbelt grip with your over arm reaching across their chest and under arm threading beneath their armpit, hands clasped together. Pull your chest tight against their back and begin systematic breakdown of their defensive posture from the back control position."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Opponent sprawls hips back and drives weight down during inversion attempt",
+        "effectiveness": "High",
+        "your_response": "If you feel the sprawl before committing, abort and return to RDLR to threaten waiter sweep or berimbolo. If already mid-inversion, use their downward pressure to accelerate your rotation and pull harder on the ankle grip to slide through faster.",
+        "targets_outcome": "Reverse De La Riva Guard/Bottom"
+      },
+      {
+        "counter": "Opponent backsteps their far leg away from the hook to remove the pivot point",
+        "effectiveness": "High",
+        "your_response": "Follow the backstepping leg by adjusting your hook depth and transitioning to crab ride or single leg X-guard entry rather than forcing the full Kiss of the Dragon rotation against a retreating target.",
+        "targets_outcome": "Reverse De La Riva Guard/Bottom"
+      },
+      {
+        "counter": "Opponent drives forward with crossface pressure to flatten you before inversion begins",
+        "effectiveness": "Medium",
+        "your_response": "Use their forward momentum to load the waiter sweep instead, converting their defensive pressure into a different offensive opportunity. Their forward drive feeds directly into RDLR sweep mechanics.",
+        "targets_outcome": "Side Control/Bottom"
+      },
+      {
+        "counter": "Opponent grabs your belt or pants to stall the rotation mid-inversion",
+        "effectiveness": "Medium",
+        "your_response": "Continue pulling on their ankle while using your free hand to strip their grip. If stalled mid-rotation, transition to turtle position and work to complete the back take from there rather than remaining inverted.",
+        "targets_outcome": "Reverse De La Riva Guard/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Initiating the inversion without sufficient space underneath opponent",
+        "consequence": "Head and shoulders get stuck between opponent's legs, creating a vulnerable position where opponent can apply downward pressure, crossface, or consolidate a passing position over your inverted body.",
+        "correction": "Wait for opponent to stand tall or shift weight backward before initiating. Create space by extending your RDLR hook to push their far knee outward and elevate your hips to generate clearance for the threading motion."
+      },
+      {
+        "error": "Releasing the ankle grip during the rotation phase",
+        "consequence": "Opponent can freely backstep or disengage their leg from your hook, causing the inversion to stall with you in an inverted position with no directional control and no means to prevent their escape.",
+        "correction": "Maintain the ankle grip throughout the entire rotation as your primary steering mechanism. Only release after your body has fully emerged on the back side and you are transitioning to seatbelt control."
+      },
+      {
+        "error": "Half-committing to the inversion and stalling mid-rotation",
+        "consequence": "Leaves you inverted between opponent's legs in an extremely vulnerable position where they can sprawl, apply downward pressure, or establish passing position over your body.",
+        "correction": "Once you begin the inversion past the point of no return with head between legs, commit fully and accelerate through the rotation. The technique requires decisive, continuous movement without hesitation."
+      },
+      {
+        "error": "Losing the RDLR hook contact during the threading phase",
+        "consequence": "Without the hook as a guide rail, your body drifts away from the optimal rotation path and you emerge in a scramble position rather than directly behind the opponent with hook access.",
+        "correction": "Maintain constant pressure with your hook-side leg wrapped around their far leg throughout the entire inversion. Think of your leg as a track that guides your body's rotation around their stance."
+      },
+      {
+        "error": "Neglecting to insert hooks immediately upon emerging behind opponent",
+        "consequence": "Opponent can turn to face you, stand up, or establish defensive turtle before you consolidate back control, wasting the positional advantage gained by the inversion.",
+        "correction": "Prioritize hook insertion the moment your body clears the opponent's legs. Your near-side hook should transition naturally from the RDLR configuration; focus immediately on getting the far-side hook in."
+      },
+      {
+        "error": "Attempting Kiss of the Dragon when opponent has low heavy base with knees bent",
+        "consequence": "Insufficient clearance for the inversion leads to getting stuck or flattened, often resulting in the opponent consolidating a passing position over your compromised inverted body.",
+        "correction": "Only initiate when opponent is standing upright or has elevated their hips enough to create a clear pathway. Use off-balancing pressure through your hook to force them to stand taller first before attempting the entry."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Inversion Mechanics",
+        "focus": "Body rotation and spatial awareness",
+        "description": "Practice the inversion movement pattern without a partner, focusing on smooth rotation from supine position through the threading motion. Use a grappling dummy to simulate the pivot point. Develop comfort with being inverted and rotating through tight spaces with 30 repetitions per session."
+      },
+      {
+        "phase": "Phase 2: Controlled Repetitions",
+        "focus": "Full technique with cooperative partner",
+        "description": "Partner stands in combat base while you establish RDLR and execute the complete Kiss of the Dragon sequence at zero resistance. Focus on maintaining hook contact, controlling the ankle grip, and smooth hook insertion upon emergence. Perform 20 repetitions per side per session."
+      },
+      {
+        "phase": "Phase 3: Progressive Resistance",
+        "focus": "Timing and adaptation under pressure",
+        "description": "Partner provides increasing resistance through sprawling, backstepping, and grip fighting at 25%, 50%, and 75% intensity. Develop the ability to read when the technique is available versus when to abort and pursue alternative attacks from RDLR."
+      },
+      {
+        "phase": "Phase 4: Chain Drilling",
+        "focus": "Integration with RDLR attack system",
+        "description": "Flow between Kiss of the Dragon, berimbolo entry, waiter sweep, and crab ride transitions based on partner's defensive reactions. Develop the ability to switch between techniques mid-attempt and recognize which attack each defensive response opens."
+      },
+      {
+        "phase": "Phase 5: Live Application",
+        "focus": "Competition-speed execution",
+        "description": "Positional sparring starting from RDLR with full resistance. Track success rate and identify which opponent reactions consistently open the Kiss of the Dragon entry versus which require alternative attacks. Develop timing for competition-speed application."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What specific weight shift from the opponent creates the optimal entry window for Kiss of the Dragon?",
+        "answer": "The optimal window opens when the opponent shifts their weight backward or upright, creating clearance underneath their hips for the inversion. This typically occurs when they attempt to disengage from the RDLR hook, stand taller to improve their base, or shift weight to their far leg to initiate a passing sequence. The backward weight shift simultaneously creates space and loads their balance point away from the direction of your rotation, making it harder for them to sprawl defensively."
+      },
+      {
+        "question": "Why is maintaining the ankle grip throughout the rotation critical to technique success?",
+        "answer": "The ankle grip serves as the steering mechanism that controls the direction and speed of your rotation underneath the opponent. Without it, the opponent can freely backstep or adjust their stance to prevent your body from completing the threading motion. The grip also pulls their leg into your rotation path, preventing them from creating distance. Releasing it mid-inversion leaves you inverted with no directional control and no means to prevent their escape from your hook structure."
+      },
+      {
+        "question": "Your opponent begins sprawling as you initiate the inversion—should you continue or abort?",
+        "answer": "This depends on timing. If you have only begun shifting your hips and have not committed your head between their legs, abort immediately and return to RDLR to threaten other attacks like the waiter sweep. If you are already past the point of no return with your head threading through, accelerate the rotation and use their downward sprawl pressure to fuel your momentum. The sprawl compresses the space in a way that can help you slide through faster if you maintain your ankle grip and pull aggressively."
+      },
+      {
+        "question": "What is the critical difference between the RDLR hook depth needed for Kiss of the Dragon versus a standard RDLR sweep?",
+        "answer": "For Kiss of the Dragon, the RDLR hook needs to be deeper around the opponent's far leg with the instep controlling behind the knee rather than a shallow calf hook. This deeper hook creates a tighter pivot point that guides your body's rotation path directly underneath the opponent's center of gravity. A shallow hook used for standard sweeps does not provide enough rotational guidance and allows your body to drift off the optimal inversion path during the threading phase, resulting in scrambles rather than clean back takes."
+      },
+      {
+        "question": "If your Kiss of the Dragon attempt stalls with you partially inverted between the opponent's legs, what is the safest recovery?",
+        "answer": "The safest recovery is to pull your head back through the space between their legs, returning to a supine position rather than continuing a stalled rotation. Use your ankle grip and hook to maintain distance and prevent them from driving forward to pass. Re-establish your RDLR structure immediately and threaten a different technique to reset their defensive posture. Never remain stationary in the inverted position between their legs—either complete the rotation or retreat to guard."
+      },
+      {
+        "question": "How do you adjust the Kiss of the Dragon entry when transitioning from gi to no-gi?",
+        "answer": "In no-gi, replace the pants grip on the far ankle with a cupping grip around the Achilles tendon or heel. The grip is less secure, so you must commit more explosively to the rotation once initiated. Your far-side hand should control behind the opponent's near knee rather than gripping pants, creating a pulling frame that prevents their forward drive. The inversion mechanics remain identical, but the timing window is narrower due to reduced grip security, requiring faster commitment once you identify the entry opening."
+      }
+    ],
+    "safety_considerations": "The inversion component of Kiss of the Dragon places significant stress on the cervical spine during the threading phase. Never force the rotation if your head or neck feels compressed between the opponent's legs. Ensure adequate neck flexibility and strength through progressive conditioning before drilling this technique at full speed. In training, communicate with your partner about the speed of defensive reactions—sudden sprawls during mid-inversion can create dangerous neck compression. Avoid this technique entirely if you have existing cervical spine issues or recent neck injuries."
+  },
+  "defender": {
+    "name": "Kiss of the Dragon from RDLR Defender",
+    "description": "Learn to defend and counter the Kiss of the Dragon from Reverse De La Riva Guard. Recognition cues, sprawl timing, and passing counters against this inversion-based back take.",
+    "overview": "As the defender against Kiss of the Dragon from RDLR, you are the top player facing an opponent who has established Reverse De La Riva Guard and is threatening to invert underneath you to take your back. Your primary objective is to recognize the inversion setup early and deny the space required for the technique's execution. Successful defense relies on maintaining low base positioning with hips back, controlling the opponent's ankle grip that serves as their steering mechanism, and responding decisively to inversion attempts through sprawl, backstep, or forward pressure before the rotation passes the point of no return. Early recognition and immediate action are far more effective than reacting once the inversion has begun.",
+    "key_principles": [
+      "Maintain low heavy base with hips back to deny the space underneath you that the inversion requires for threading",
+      "Control the opponent's near-side hip to prevent the initial angular shift that precedes the inversion entry",
+      "Strip or control the ankle grip early, as this is the attacker's steering mechanism for the entire rotation",
+      "Backstep decisively when you feel the inversion beginning—partial retreats allow the attacker to follow your movement",
+      "Keep chest driving forward and down to eliminate the clearance between your legs needed for the threading motion",
+      "Never stand tall or straighten your legs when an RDLR hook is established, as this creates the exact spacing the technique exploits"
+    ],
+    "recognition_cues": [
+      "Opponent's hips begin shifting toward your centerline with shoulders walking underneath you, indicating the angle creation phase before inversion",
+      "Increased pulling pressure on your far ankle as opponent loads the grip for rotational control during the threading motion",
+      "Opponent's far leg releases its posting position on your hip, freeing it to generate rotational momentum for the inversion",
+      "Opponent's head begins lowering toward the space between your legs as they initiate the threading phase",
+      "Sudden elevation of opponent's hips combined with visible core engagement, indicating imminent inversion commitment"
+    ],
+    "defensive_options": [
+      {
+        "action": "Sprawl hips back and drive weight down onto opponent's inverting body",
+        "when_to_use": "When you feel opponent's hips shifting toward your centerline and recognize early inversion setup before head enters between legs",
+        "targets_outcome": "Reverse De La Riva Guard/Bottom",
+        "if_successful": "Opponent's inversion stalls and they return to RDLR guard position without gaining back exposure",
+        "risk": "If timed late after opponent has committed, the sprawl may compress your own base and actually accelerate their rotation through"
+      },
+      {
+        "action": "Backstep far leg away from the RDLR hook to remove the pivot point entirely",
+        "when_to_use": "When opponent releases far leg frame indicating imminent inversion commitment or when you feel the hook deepening",
+        "targets_outcome": "Reverse De La Riva Guard/Bottom",
+        "if_successful": "Removes the rotational axis needed for the technique, forcing opponent to re-establish guard structure from scratch",
+        "risk": "Backstepping opens space for X-Guard or Single Leg X transitions if opponent reads the retreat and adjusts"
+      },
+      {
+        "action": "Drive crossface forward and flatten opponent before inversion begins",
+        "when_to_use": "When opponent is still building grips and angle but has not yet committed to the rotation",
+        "targets_outcome": "Side Control/Bottom",
+        "if_successful": "Opponent is flattened and you consolidate passing position to side control over their compromised guard",
+        "risk": "Forward pressure feeds into waiter sweep if opponent redirects your momentum upward using the established RDLR hook"
+      },
+      {
+        "action": "Strip the ankle grip with two-on-one break and re-establish base",
+        "when_to_use": "When you identify the ankle grip as the primary threat and opponent has not begun the inversion rotation",
+        "targets_outcome": "Reverse De La Riva Guard/Bottom",
+        "if_successful": "Opponent loses their steering mechanism and cannot effectively direct the inversion rotation path",
+        "risk": "Grip fighting may divert attention from base maintenance, opening alternative sweep opportunities from RDLR"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Side Control/Bottom",
+        "how": "When the inversion attempt stalls or is initiated with poor timing, drive forward with crossface pressure to flatten the opponent and consolidate to side control by pinning their hips and establishing chest-to-chest pressure over their compromised guard structure."
+      },
+      {
+        "outcome": "Reverse De La Riva Guard/Bottom",
+        "how": "Deny the technique early by maintaining low base with heavy hips, stripping the ankle grip through two-on-one grip breaks, and preventing the space creation needed for the inversion. Force them to remain in RDLR where you can pursue systematic passing strategies."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Standing tall or straightening legs when RDLR hook is established",
+        "consequence": "Creates the exact spacing between your legs that Kiss of the Dragon requires for the inversion entry, giving the attacker a clear pathway to thread underneath your stance.",
+        "correction": "Maintain bent knees with hips low and back, keeping minimal clearance between your legs. Your stance should actively deny space rather than providing the clearance the technique needs."
+      },
+      {
+        "error": "Reacting to the inversion by reaching down to push opponent's head away",
+        "consequence": "Takes your hands off defensive grips and base posts, compromising your balance and allowing the attacker to complete the rotation while you lack the structure to prevent it.",
+        "correction": "Address the technique through hip position and sprawl mechanics rather than hand intervention. Keep your hands on established grips and use your body weight and stance geometry to deny space."
+      },
+      {
+        "error": "Backstepping too slowly or partially when recognizing the inversion entry",
+        "consequence": "Half-retreats allow the attacker to follow your movement and may actually create better angles for completing the rotation as you move into their threading path.",
+        "correction": "When you backstep, commit fully and decisively—clear your leg completely from the hook's range rather than inching backward. Combine the backstep with a grip on their hip to prevent them from following."
+      },
+      {
+        "error": "Ignoring the ankle grip while focusing only on removing the RDLR hook",
+        "consequence": "The ankle grip is the attacker's steering mechanism—even if you partially address the hook, the grip allows them to redirect and re-establish control for another inversion attempt.",
+        "correction": "Prioritize stripping the ankle grip before addressing the hook itself. Break the grip through wrist control or two-on-one peel, then work on removing the hook from a position of grip advantage."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the earliest recognition cue that your opponent is setting up Kiss of the Dragon rather than a standard RDLR sweep?",
+        "answer": "The earliest cue is the opponent's hips shifting toward your centerline combined with their far leg releasing its posting position on your hip. Standard RDLR sweeps typically maintain the far leg frame for leverage, while Kiss of the Dragon requires freeing the far leg to generate rotational momentum. Additionally, increased downward pull on your far ankle and the opponent's shoulders beginning to walk underneath you indicate inversion setup rather than sweep mechanics."
+      },
+      {
+        "question": "Your opponent has already committed to the inversion and their head is threading between your legs—what is the most effective response at this late stage?",
+        "answer": "At this late stage, the most effective response is to immediately sit your hips to the mat on the side their head is entering, compressing the space and stalling the rotation. Simultaneously reach for their far hip to prevent them from completing the circle around your leg. If they have progressed too far to stop, switch your defensive priority to preventing hook insertion by immediately turning to face them as they emerge, rather than trying to stop the rotation itself."
+      },
+      {
+        "question": "How should you adjust your base specifically when you feel the RDLR hook deepening behind your knee?",
+        "answer": "When the hook deepens behind your knee, immediately widen your stance and sit your hips back while angling your hooked knee outward to reduce the hook's rotational leverage. Place more weight on your hooked-side leg to make it heavier and harder to rotate around. Your hands should establish grips on their near-side hip to prevent hip elevation and begin stripping the ankle grip that controls the direction of any rotation attempt."
+      },
+      {
+        "question": "Why is the crossface counter risky against an opponent with an established RDLR hook?",
+        "answer": "The crossface requires driving your weight forward, which is exactly the direction the RDLR hook is designed to exploit for sweeps. Forward pressure loads the waiter sweep and gives the opponent leverage to elevate your base. The crossface only works if you can flatten the opponent before they redirect your momentum upward with their hook. If they read the crossface coming, they can use your forward drive as additional fuel for the inversion, making the entry easier rather than harder."
+      },
+      {
+        "question": "What passing strategy should you adopt immediately after successfully defending a Kiss of the Dragon attempt?",
+        "answer": "After stuffing the inversion, immediately capitalize on the opponent's compromised guard structure. Their RDLR hook will be weakened from the failed attempt, and they will be recovering from the inverted position with their grips disrupted. Drive forward with a leg drag or knee slice pass while their hips are still returning to guard position. The window after a failed inversion is one of the best passing opportunities from RDLR top, as the opponent needs several seconds to re-establish hook depth and grip configuration."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Recognition",
+        "focus": "Identifying inversion setup cues versus standard sweep threats",
+        "description": "Partner establishes RDLR and alternates between standard sweep setups and Kiss of the Dragon entries at slow speed. Focus on identifying the specific cues that differentiate the inversion from other attacks. Call out the technique you recognize before the partner completes it."
+      },
+      {
+        "phase": "Phase 2: Timing Responses",
+        "focus": "Practicing defensive reactions at correct timing windows",
+        "description": "Partner attempts Kiss of the Dragon at increasing speeds while you practice sprawl, backstep, and grip strip defenses. Focus on responding at the earliest possible moment during setup rather than mid-inversion. Track which defensive option works best against each entry variation."
+      },
+      {
+        "phase": "Phase 3: Counter-Passing",
+        "focus": "Converting successful defense into immediate passing opportunities",
+        "description": "After defending the Kiss of the Dragon attempt, immediately transition to a passing sequence. Practice connecting the sprawl defense to leg drag passing, and the backstep defense to headquarters positioning. Develop the instinct to attack immediately after successful defense."
+      },
+      {
+        "phase": "Phase 4: Live Positional Sparring",
+        "focus": "Full resistance application from RDLR top position",
+        "description": "Positional rounds starting from opponent's RDLR guard with full resistance. Defend all RDLR attacks including Kiss of the Dragon while working to pass. Develop the ability to maintain defensive awareness against the inversion while simultaneously pursuing passing opportunities."
+      }
+    ]
+  }
+}

@@ -37,6 +37,10 @@ const defaultOptions = {
     // Hide tags folder
     if (node.name === "tags") return false
 
+    // Hide terminal state page (Game Over is a sink node, not navigable from explorer)
+    // node.name is a slug segment where spaces become hyphens
+    if (node.name === "Game-Over") return false
+
     // Hide Bottom/Top folders (case-insensitive)
     // These are reserved folder names in the BJJ Graph architecture
     const nodeName = node.name.toLowerCase()
@@ -47,7 +51,7 @@ const defaultOptions = {
     // Hide Bottom/Top files under Positions folders (playing_as model)
     if (node.file?.slug) {
       const slug = node.file.slug.toLowerCase()
-      if ((slug.endsWith('/bottom') || slug.endsWith('/top')) && slug.includes('positions/')) {
+      if ((slug.endsWith("/bottom") || slug.endsWith("/top")) && slug.includes("positions/")) {
         return false
       }
     }

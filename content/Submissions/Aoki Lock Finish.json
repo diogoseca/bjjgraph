@@ -1,0 +1,463 @@
+{
+  "name": "Aoki Lock Finish",
+  "description": "Master the Aoki Lock Finish in BJJ. Advanced shoulder lock submission using leg entanglement control. Complete guide with execution, defense, and safety.",
+  "tags": [
+    "bjj",
+    "submission",
+    "shoulder-lock",
+    "aoki-lock",
+    "joint-lock",
+    "leg-entanglement",
+    "advanced",
+    "no-gi"
+  ],
+  "submission_category": "Joint Lock",
+  "submission_type": "Shoulder Lock",
+  "target_area": "Shoulder joint (glenohumeral complex and rotator cuff)",
+  "starting_position": "Aoki Lock",
+  "from_position": "Aoki Lock/Top",
+  "from_positions": [
+    "Aoki Lock",
+    "Turtle",
+    "Front Headlock"
+  ],
+  "success_rate": 50,
+  "overview": "The Aoki Lock Finish is the terminal submission sequence from the Aoki Lock control position, a specialized shoulder lock named after Japanese MMA fighter Shinya Aoki. This technique combines omoplata-style shoulder rotation with leg entanglement control to create devastating rotational pressure on the glenohumeral joint. The finish requires precise hip positioning, controlled progressive pressure application, and deep understanding of shoulder anatomy to execute safely and effectively. Unlike traditional shoulder locks that rely on grip-based control, the Aoki Lock uses leg entanglement as its primary trapping mechanism, making traditional shoulder lock defenses largely ineffective.\n\nFrom a strategic perspective, the Aoki Lock Finish serves as the primary submission threat from Aoki Lock control, with alternative transitions to back control, crucifix, and truck positions available when the defender successfully neutralizes the shoulder pressure. The bilateral nature of the control position means the attacker must maintain leg entanglement tightness while simultaneously generating finishing pressure through hip drive, making this a technically demanding finish that rewards methodical execution over explosive application. The dilemma structure forces defenders to choose between defending the shoulder lock and exposing transition opportunities.\n\nThe Aoki Lock Finish has gained prominence in no-gi competition and submission-only formats where advanced shoulder locks are permitted. Its effectiveness stems from the difficulty of defending against simultaneous leg entanglement control and shoulder rotation, as traditional shoulder lock escapes are compromised by the leg-based trapping mechanism. Mastering this finish requires progressive training that prioritizes safety, as the shoulder joint is particularly vulnerable to catastrophic injury when subjected to the rotational forces this technique generates. The position carries significant injury risk, making controlled application speed and tap recognition essential training components.",
+  "safety_considerations": {
+    "injury_risks": [
+      {
+        "injury": "Shoulder dislocation (glenohumeral subluxation or complete dislocation from excessive rotational force)",
+        "severity": "CRITICAL",
+        "recovery_time": "3-6 months, may require surgical repair and extensive rehabilitation"
+      },
+      {
+        "injury": "Rotator cuff tear (partial or complete tear of supraspinatus, infraspinatus, or subscapularis tendons)",
+        "severity": "High",
+        "recovery_time": "2-6 months, surgery required for complete tears"
+      },
+      {
+        "injury": "Glenoid labrum tear from excessive rotational force on shoulder capsule",
+        "severity": "High",
+        "recovery_time": "3-6 months, often requires arthroscopic surgery"
+      },
+      {
+        "injury": "Shoulder capsule sprain (stretching or tearing of glenohumeral ligaments)",
+        "severity": "Medium",
+        "recovery_time": "2-8 weeks with rest and rehabilitation"
+      }
+    ],
+    "application_speed": "SLOW and PROGRESSIVE. Apply pressure gradually over 3-5 seconds minimum using controlled hip drive. Never jerk, spike, or explosively apply rotational force to the shoulder joint. Allow adequate time for partner to recognize danger and tap.",
+    "tap_signals": [
+      "Verbal tap (saying 'tap' or any distress signal)",
+      "Physical hand tap on partner, mat, or any available surface",
+      "Physical foot tap on mat with free leg",
+      "Any unusual screaming, groaning, or distress vocalization"
+    ],
+    "release_protocol": [
+      "Release leg entanglement pressure immediately upon any tap signal without question or hesitation",
+      "If in doubt whether partner tapped, release immediately and ask before continuing",
+      "After release, allow opponent's shoulder to return to neutral position naturally without forcing it",
+      "Monitor partner for shoulder injury after release—check mobility, pain level, and range of motion before continuing"
+    ],
+    "training_restrictions": [
+      "Practice finishing pressure only with experienced partners who understand shoulder lock risks and mechanics",
+      "Never apply full finishing pressure speed in training—always use slow progressive application even when drilling at speed",
+      "Beginners should not attempt this finish until they have demonstrated shoulder lock safety awareness under qualified instruction",
+      "Do not apply this submission to partners with pre-existing shoulder injuries or recent shoulder surgery"
+    ]
+  },
+  "outcomes": [
+    {
+      "to": "game-over",
+      "probability": 50,
+      "result": "success"
+    },
+    {
+      "to": "Aoki Lock/Top",
+      "probability": 25,
+      "result": "failure"
+    },
+    {
+      "to": "Closed Guard/Top",
+      "probability": 15,
+      "result": "counter"
+    },
+    {
+      "to": "Turtle/Top",
+      "probability": 10,
+      "result": "counter"
+    }
+  ],
+  "variations_and_setups": [
+    {
+      "variation_name": "Standard Hip Drive Finish",
+      "description": "The primary finishing method using direct forward and downward hip pressure into the shoulder joint while maintaining full leg entanglement control. Relies on body weight transfer through hips rather than muscular effort for maximum pressure sustainability.",
+      "when_to_use": "When you have full leg entanglement control with stable posted-leg base and opponent's shoulder is fully isolated with no imminent escape threat"
+    },
+    {
+      "variation_name": "Rolling Follow Finish",
+      "description": "Following the opponent's defensive roll attempt while maintaining leg entanglement contact, applying finishing pressure during the transition when the opponent is mid-escape and their shoulder is most vulnerable to rotational force.",
+      "when_to_use": "When the opponent initiates a defensive roll but you maintain leg entanglement contact throughout, catching them in a compromised position mid-escape"
+    },
+    {
+      "variation_name": "Transition Threat Finish",
+      "description": "Using the threat of transitioning to back control or crucifix to force the opponent to stop their escape movement and address the transition threat, then redirecting immediately to the shoulder lock finish when they become stationary.",
+      "when_to_use": "When the opponent's primary defense focuses on preventing transitions rather than the shoulder lock itself, creating a freeze response you can exploit"
+    }
+  ],
+  "related_submissions": [
+    "Americana",
+    "Baratoplata",
+    "Armbar from Side Control",
+    "Choke from Crucifix",
+    "Armbar from Crucifix",
+    "Belly Down Armbar"
+  ],
+  "related_content": [
+    {
+      "name": "Aoki Lock",
+      "relationship": "Control position from which this finish is executed"
+    },
+    {
+      "name": "Aoki Lock to Back Control",
+      "relationship": "Alternative transition when shoulder lock is defended"
+    },
+    {
+      "name": "Aoki Lock to Crucifix",
+      "relationship": "Chain transition when opponent exposes far arm during defense"
+    },
+    {
+      "name": "Omoplata Control",
+      "relationship": "Similar shoulder lock mechanics with different leg configuration"
+    },
+    {
+      "name": "Kimura Trap",
+      "relationship": "Related shoulder manipulation system with grip-based control"
+    },
+    {
+      "name": "Back Control",
+      "relationship": "Primary advancement position when finish is defended"
+    },
+    {
+      "name": "Crucifix",
+      "relationship": "Alternative control position accessible during Aoki Lock defense"
+    }
+  ],
+  "attacker": {
+    "name": "Aoki Lock Finish Attacker",
+    "description": "Master the Aoki Lock Finish as the attacker. Step-by-step shoulder lock execution from leg entanglement, progressive pressure mechanics, transition options, and safety protocols.",
+    "overview": "Executing the Aoki Lock Finish requires establishing dominant leg entanglement control over the opponent's shoulder before applying progressive rotational pressure through controlled hip drive. The finish demands precise coordination between leg squeeze, hip positioning, and pressure application to generate submission-forcing torque on the glenohumeral joint while maintaining safety for your training partner. Success depends on methodical execution, patience, and the ability to recognize when transitioning to alternative attacks like back control or crucifix offers better probability than forcing a defended shoulder lock. The finishing sequence uses body weight mechanics rather than muscular effort, making it sustainable and controllable when applied correctly.",
+    "key_principles": [
+      "Maintain tight leg entanglement around opponent's arm and shoulder complex as the foundation for all finishing pressure",
+      "Apply finishing pressure through controlled hip drive rather than explosive or jerking movements to prevent injury",
+      "Keep posted leg close to opponent's body to maintain stable base and maximize rotational pressure on the shoulder joint",
+      "Control opponent's hips with hands throughout the finish to prevent rotation, escape angles, and defensive movement",
+      "Monitor opponent's tap signals constantly during pressure application including verbal taps, physical taps, and distress signals",
+      "Recognize when defensive resistance indicates a transition to back control or crucifix offers higher success than forcing the finish"
+    ],
+    "setup_requirements": [
+      "Secure leg entanglement with thigh positioned over opponent's shoulder and shin controlling their upper arm",
+      "Establish stable base through posted leg positioned close to opponent's body",
+      "Control opponent's hips with both hands to prevent rotation and escape angles",
+      "Confirm opponent's arm is extended and isolated between your legs with limited rotation capability",
+      "Verify body positioning allows forward and downward hip drive directly into opponent's shoulder joint"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Verify leg entanglement control",
+        "description": "Confirm both legs are tightly secured around opponent's trapped arm with thigh positioned over the shoulder and shin controlling the upper arm. Squeeze legs together to eliminate any slack in the entanglement that could allow arm extraction or shoulder rotation during the finish.",
+        "timing": "2-3 seconds"
+      },
+      {
+        "step_number": 2,
+        "action": "Establish base and hip position",
+        "description": "Post free leg close to opponent's body to create a stable platform for applying shoulder pressure. Position hips directly over opponent's shoulder joint with weight distributed forward and downward into the joint for maximum rotational leverage.",
+        "timing": "2-3 seconds"
+      },
+      {
+        "step_number": 3,
+        "action": "Secure hip control with hands",
+        "description": "Place both hands on opponent's far hip and near hip to prevent any rotational movement or escape angle creation. This hand control stops the defender from turning into pressure or creating space for arm extraction during the finishing sequence.",
+        "timing": "1-2 seconds"
+      },
+      {
+        "step_number": 4,
+        "action": "Set optimal pressure angle",
+        "description": "Adjust hip position to create the optimal rotational pressure vector on opponent's glenohumeral joint. Drive hips forward and down along the line of maximum shoulder stress while keeping legs tight around the trapped arm complex.",
+        "timing": "2-3 seconds"
+      },
+      {
+        "step_number": 5,
+        "action": "Apply initial progressive pressure",
+        "description": "Begin controlled hip drive into opponent's shoulder, applying gradual rotational pressure over three to five seconds minimum. Monitor opponent's reaction and defensive attempts carefully while maintaining all control points throughout the initial pressure application phase.",
+        "timing": "3-5 seconds"
+      },
+      {
+        "step_number": 6,
+        "action": "Increase finishing pressure",
+        "description": "Incrementally increase hip drive and rotational force while maintaining tight leg entanglement and hip control with hands. Let body weight transfer through hips into the shoulder joint rather than relying on muscular effort alone for the finishing pressure.",
+        "timing": "3-5 seconds"
+      },
+      {
+        "step_number": 7,
+        "action": "Monitor for tap and release immediately",
+        "description": "Watch for all forms of tap signal including verbal tap, physical hand tap on partner or mat, foot tap with free leg, or any distress vocalization throughout the finishing sequence. Release all pressure immediately upon receiving any tap signal without hesitation or delay.",
+        "timing": "Continuous throughout finish"
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Defender rolls toward trapped arm to relieve shoulder pressure and recover guard",
+        "effectiveness": "High",
+        "your_response": "Follow the roll and transition to back control using the rolling momentum to establish seat belt grip as they expose their back during the escape attempt",
+        "targets_outcome": "Closed Guard/Top"
+      },
+      {
+        "counter": "Defender attacks posted leg with free hand to destabilize finishing base",
+        "effectiveness": "Medium",
+        "your_response": "Reposition posted leg quickly while maintaining leg entanglement tightness, then re-establish hip pressure before defender can complete arm extraction",
+        "targets_outcome": "Aoki Lock/Top"
+      },
+      {
+        "counter": "Defender bridges explosively upward to create space for arm extraction",
+        "effectiveness": "Medium",
+        "your_response": "Drive hips forward and tighten legs during the bridge, using opponent's upward momentum to increase shoulder pressure rather than fighting against it",
+        "targets_outcome": "Aoki Lock/Top"
+      },
+      {
+        "counter": "Defender extracts arm by loosening leg entanglement and pulling free to turtle",
+        "effectiveness": "High",
+        "your_response": "If arm extraction begins, immediately transition to back control or crucifix rather than fighting to maintain a compromised shoulder lock position",
+        "targets_outcome": "Turtle/Top"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Applying shoulder pressure too quickly or explosively rather than progressively",
+        "consequence": "Risk of serious shoulder injury to training partner including rotator cuff tears, labrum damage, or shoulder dislocation",
+        "correction": "Apply pressure gradually over 3-5 seconds minimum using controlled hip drive rather than explosive jerking movements. Maintain constant awareness of tap signals throughout."
+      },
+      {
+        "error": "Posting free leg too far from opponent's body during finishing attempt",
+        "consequence": "Insufficient hip pressure on shoulder allows defender to rotate shoulder and escape the lock or extract their trapped arm",
+        "correction": "Keep posted leg close to opponent's body, maintaining constant downward hip pressure into the shoulder joint throughout the finishing attempt"
+      },
+      {
+        "error": "Allowing leg entanglement to loosen around opponent's arm during pressure application",
+        "consequence": "Defender extracts arm from between legs, escaping submission control and recovering guard or turtle position",
+        "correction": "Maintain constant inward squeeze with both legs around opponent's shoulder and upper arm complex. Re-tighten immediately if any slack develops."
+      },
+      {
+        "error": "Neglecting hip control with hands during the finishing sequence",
+        "consequence": "Defender rotates into pressure or creates escape angles, neutralizing the shoulder lock and potentially escaping to guard",
+        "correction": "Keep hands actively controlling opponent's hips throughout the entire finishing sequence, adjusting position to prevent any defensive rotation"
+      },
+      {
+        "error": "Forcing the finish when opponent has established strong defensive posture",
+        "consequence": "Energy waste on low-percentage finish while missing high-percentage transition opportunities to back control, crucifix, or truck",
+        "correction": "Recognize when defensive resistance is strong and transition to alternative attacks rather than committing further to a defended shoulder lock"
+      },
+      {
+        "error": "Looking away from opponent or losing visual awareness during pressure application",
+        "consequence": "Miss critical tap signals, fail to recognize defensive movements, or get swept by undetected escape attempts",
+        "correction": "Maintain visual awareness of opponent's body language, hand signals, and facial expression throughout the entire finishing sequence"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Mechanics",
+        "focus": "Leg entanglement and hip positioning",
+        "description": "Drill entry to Aoki Lock control and basic finishing mechanics with compliant partner at zero resistance. Focus on proper leg placement, hip angle, and progressive pressure application. Build muscle memory for controlled pressure over 3-5 seconds."
+      },
+      {
+        "phase": "Phase 2: Controlled Resistance",
+        "focus": "Finishing against defensive reactions",
+        "description": "Apply finish against partner providing 30-50% resistance with common defensive reactions. Practice maintaining control while partner attempts rolling escapes and arm extraction. Develop sensitivity to submission depth and tap recognition."
+      },
+      {
+        "phase": "Phase 3: Transition Integration",
+        "focus": "Recognizing transition opportunities",
+        "description": "Practice flowing between finish attempt and transitions to back control, crucifix, and truck based on partner's defensive reactions. Develop decision-making framework for when to commit to finish versus transition to alternative attacks."
+      },
+      {
+        "phase": "Phase 4: Live Application",
+        "focus": "Competition-speed finishing with safety",
+        "description": "Apply finish in positional sparring rounds starting from Aoki Lock control with full resistance. Maintain safety protocols under realistic pressure. Develop timing, pressure sensitivity, and chain submission awareness in live scenarios."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What anatomical structure does the Aoki Lock Finish primarily attack?",
+        "answer": "The Aoki Lock Finish attacks the glenohumeral shoulder joint by applying rotational pressure through hip drive while the arm is isolated by leg entanglement. The primary structures at risk are the rotator cuff tendons (supraspinatus, infraspinatus, subscapularis), the glenoid labrum, and the joint capsule. The mechanical action creates external rotation force on a shoulder that cannot internally rotate due to the leg trapping.",
+        "safety_critical": true
+      },
+      {
+        "question": "What indicators tell you the shoulder is approaching its breaking point during the finish?",
+        "answer": "Key breaking point indicators include the opponent's arm beginning to lose structural resistance and moving further into external rotation, verbal sounds of distress or increased breathing rate, involuntary tensing of the entire body, and the shoulder joint feeling like it is approaching end range of motion. At this point you must be prepared for an immediate tap and ready to release instantly without any delay.",
+        "safety_critical": true
+      },
+      {
+        "question": "What three controls must be established before committing to the finishing pressure?",
+        "answer": "Before committing to finish, verify three critical controls: tight leg entanglement around the arm with no slack allowing extraction, stable base through posted leg positioned close to opponent's body, and both hands controlling opponent's hips to prevent rotation. Attempting the finish without all three controls results in low success probability and creates unnecessary risk of position loss or injury.",
+        "safety_critical": false
+      },
+      {
+        "question": "At what point during the finish can the defender no longer effectively escape?",
+        "answer": "The point of no escape occurs when the attacker has achieved deep hip positioning directly over the shoulder joint, the leg entanglement eliminates all arm extraction angles, and the defender's hip mobility is fully controlled by the attacker's hands. Once progressive pressure begins from this fully locked position, the defender's only realistic option is to tap. However, always respect any tap signal at any stage of the finish regardless of perceived escape viability.",
+        "safety_critical": true
+      },
+      {
+        "question": "What are the most common finishing errors that reduce the success rate of this submission?",
+        "answer": "The most common finishing errors are applying pressure too quickly without progressive buildup which risks injury, allowing the leg entanglement to loosen during pressure application which permits extraction, posting the free leg too far from the opponent creating insufficient base pressure, and neglecting hip control with hands allowing defensive rotation. Each error gives the defender a specific escape window that reduces finishing probability.",
+        "safety_critical": false
+      },
+      {
+        "question": "How should you adjust your pressure when the defender begins rotating their shoulder inward?",
+        "answer": "When the defender rotates their shoulder inward, tighten your legs to prevent further rotation and redirect your hip pressure to counter their rotation angle. Increase forward drive with your hips while maintaining the arm isolation. If they achieve significant internal rotation that neutralizes the shoulder lock threat, transition immediately to back control since their rotation movement often exposes the back for a seat belt grip.",
+        "safety_critical": false
+      },
+      {
+        "question": "Your opponent refuses to tap despite significant shoulder pressure during training - what should you do?",
+        "answer": "Immediately stop increasing pressure and release the submission entirely. Never continue applying force to a shoulder lock when your partner is not tapping at expected pressure thresholds. Communicate with your partner to check if they are OK. They may not realize the danger, may have hypermobile joints, or may not be feeling the submission from the correct angle. Prioritize safety over training the finish in every situation.",
+        "safety_critical": true
+      }
+    ]
+  },
+  "defender": {
+    "name": "Aoki Lock Finish Defender",
+    "description": "Master Aoki Lock Finish defense in BJJ. Recognition cues, escape techniques, shoulder protection, and tap awareness for surviving this advanced shoulder lock.",
+    "overview": "Defending against the Aoki Lock Finish requires immediate recognition of the shoulder lock threat and systematic address of both the leg entanglement and the rotational pressure simultaneously. The defender must protect the shoulder through internal rotation, attack the attacker's base to create escape opportunities, and maintain continuous movement toward escape rather than adopting static defensive posture. Critical safety awareness is paramount, as the shoulder joint can sustain catastrophic damage including rotator cuff tears, labrum tears, and dislocations if the defender fights the submission beyond safe limits rather than tapping early. Every defensive decision must balance escape probability against shoulder injury risk.",
+    "key_principles": [
+      "Internally rotate shoulder immediately to resist external rotation pressure from attacker's hip drive",
+      "Address leg entanglement control before attempting arm extraction to avoid increasing shoulder torque",
+      "Use free hand to attack attacker's posted leg base or hip control to create escape angles and destabilize their platform",
+      "Roll toward trapped arm direction following path of least resistance rather than fighting against the pressure direction",
+      "Tap early when shoulder pressure reaches discomfort threshold to prevent catastrophic shoulder injury",
+      "Create continuous movement toward escape rather than adopting static defensive posture that allows attacker to perfect pressure"
+    ],
+    "recognition_cues": [
+      "Attacker's legs tightening around your arm with increasing squeeze pressure on shoulder and upper arm complex",
+      "Attacker's hips positioning directly over your shoulder joint with forward and downward pressure building",
+      "Attacker's hands securing your hips to prevent rotation and escape movement",
+      "Increasing rotational pressure on your shoulder joint with your arm unable to rotate freely",
+      "Attacker's posted leg moving closer to your body indicating preparation for committed finishing pressure"
+    ],
+    "defensive_options": [
+      {
+        "action": "Roll toward trapped arm to relieve shoulder pressure and recover guard",
+        "when_to_use": "When shoulder pressure is building but before the attacker commits fully to the finish with maximum hip drive",
+        "targets_outcome": "Closed Guard/Top",
+        "if_successful": "Escape shoulder lock pressure and recover to closed guard position where you can rebuild defense",
+        "risk": "If timed poorly, rolling can temporarily increase shoulder torque before relief is achieved"
+      },
+      {
+        "action": "Attack attacker's posted leg base to destabilize finishing platform",
+        "when_to_use": "When attacker adjusts position or pressure angle, creating momentary instability in their posted leg base",
+        "targets_outcome": "Turtle/Top",
+        "if_successful": "Destabilize attacker's finishing platform, creating window for arm extraction and escape to turtle",
+        "risk": "Requires committing free hand to base attack, temporarily reducing other defensive options"
+      },
+      {
+        "action": "Extract arm by loosening leg entanglement before full pressure",
+        "when_to_use": "When leg entanglement has any slack or looseness before full finishing pressure application begins",
+        "targets_outcome": "Turtle/Top",
+        "if_successful": "Remove arm from entanglement entirely and recover to turtle or guard position",
+        "risk": "Failed extraction attempt may cause attacker to tighten the lock further and worsen position"
+      },
+      {
+        "action": "Tap immediately when pressure exceeds safe shoulder threshold",
+        "when_to_use": "When shoulder pressure reaches discomfort level and all viable escape paths are exhausted or unavailable",
+        "targets_outcome": "game-over",
+        "if_successful": "Prevent shoulder injury and preserve long-term training ability and joint health",
+        "risk": "None - tapping is always the correct decision when safety is at risk"
+      }
+    ],
+    "escape_paths": [
+      "Roll toward trapped arm to use attacker's forward pressure momentum against them, escaping to closed guard recovery",
+      "Extract arm by addressing leg entanglement first and pulling free to recover turtle position",
+      "Hip escape to change the pressure angle and create space for arm extraction or guard recovery"
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Closed Guard/Top",
+        "how": "Roll toward trapped arm direction using attacker's forward pressure momentum to escape shoulder lock and recover closed guard"
+      },
+      {
+        "outcome": "Turtle/Top",
+        "how": "Extract arm from loosened leg entanglement during attacker's position adjustment window and recover to turtle position"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Rolling away from trapped arm direction against the pressure",
+        "consequence": "Dramatically increases shoulder torque and rotational stress, often leading to immediate submission or serious shoulder injury",
+        "correction": "Always roll toward your trapped arm, following the path of least resistance and using attacker's forward momentum against them"
+      },
+      {
+        "error": "Attempting to muscle arm free without addressing leg entanglement first",
+        "consequence": "Exhausts energy rapidly while increasing shoulder stress from pulling against entanglement, making escape impossible and raising injury risk",
+        "correction": "Address the leg entanglement control first by creating hip angles or attacking attacker's base before attempting any arm extraction"
+      },
+      {
+        "error": "Defending beyond safe shoulder range of motion to avoid tapping",
+        "consequence": "Catastrophic shoulder injury including rotator cuff tears, labrum damage, or shoulder dislocation requiring months of recovery or surgery",
+        "correction": "Tap early when shoulder pressure reaches discomfort threshold. No training session or competition match is worth a shoulder injury."
+      },
+      {
+        "error": "Remaining static and defensive without active escape attempts",
+        "consequence": "Allows attacker time to perfect pressure angle and apply controlled finishing pressure without interruption or positional threat",
+        "correction": "Move immediately upon recognizing the finishing attempt. Create continuous movement toward escape rather than static resistance."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the first defensive priority when you recognize the Aoki Lock Finish is being applied?",
+        "answer": "The immediate first priority is internally rotating your shoulder to resist the external rotation pressure from the attacker's hip drive. This buys critical time and reduces injury risk. Simultaneously assess escape options: can you attack the posted leg base, can you roll toward your trapped arm, or should you begin addressing the leg entanglement. Never fight the rotation by pulling your arm away from the direction of pressure.",
+        "safety_critical": true
+      },
+      {
+        "question": "When should you tap to the Aoki Lock Finish rather than continue defending?",
+        "answer": "Tap immediately when you feel sharp pain in the shoulder joint, when your arm reaches end range of external rotation, when you cannot prevent the attacker's progressive pressure from increasing, or when you have exhausted all escape options with no viable path remaining. Shoulder injuries from this position include rotator cuff tears, labrum tears, and dislocations that require months of recovery or surgical intervention.",
+        "safety_critical": true
+      },
+      {
+        "question": "How do you capitalize on the attacker's position adjustments to create escape opportunities?",
+        "answer": "When the attacker adjusts their posted leg, hip angle, or hand position on your hips, there is a momentary window where their control loosens. Attack their base with your free hand during these adjustment moments. Time your arm extraction attempt to coincide with loosened leg entanglement since the lock often loosens during repositioning. Chain these attempts together rather than waiting for isolated opportunities.",
+        "safety_critical": false
+      },
+      {
+        "question": "What is the correct rolling direction for escaping the Aoki Lock Finish?",
+        "answer": "Always roll toward your trapped arm direction, following the path of least resistance. This reduces shoulder torque by moving your body in the same direction as the force being applied rather than against it. Rolling away from the trapped arm dramatically increases rotational stress on the shoulder joint and accelerates the submission. The correct roll toward the trapped arm often leads directly to closed guard recovery.",
+        "safety_critical": false
+      },
+      {
+        "question": "How do you manage energy when defending the Aoki Lock Finish over an extended period?",
+        "answer": "Avoid constant maximum tension resistance which exhausts you rapidly and accelerates the submission. Use efficient defensive posture with internal shoulder rotation as your baseline defense requiring minimal energy. Time your explosive escape attempts to coincide with the attacker's adjustments or pressure changes rather than fighting continuously. Accept that some pressure is inevitable and focus energy on creating specific escape windows.",
+        "safety_critical": false
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Recognition and Safety",
+        "focus": "Identifying the finish attempt and tap awareness",
+        "description": "Learn to recognize Aoki Lock Finish cues including leg tightening, hip positioning changes, and hand control on hips. Practice tapping at various pressure thresholds to develop safety awareness and understand personal shoulder limits."
+      },
+      {
+        "phase": "Phase 2: Escape Mechanics",
+        "focus": "Rolling and arm extraction techniques",
+        "description": "Drill rolling escape toward trapped arm direction and arm extraction techniques against 30% resistance. Focus on correct movement patterns, escape direction, and timing the extraction to coincide with entanglement looseness."
+      },
+      {
+        "phase": "Phase 3: Counter-Offensive Defense",
+        "focus": "Base attacks and chaining escape attempts",
+        "description": "Practice attacking attacker's posted leg base and chaining multiple escape attempts together against 50-70% resistance. Develop ability to capitalize on adjustment windows and convert defensive positions into escape opportunities."
+      },
+      {
+        "phase": "Phase 4: Live Defensive Sparring",
+        "focus": "Full resistance defense with tap decision-making",
+        "description": "Positional sparring starting in Aoki Lock with full finishing pressure applied. Practice complete defensive sequence from recognition through escape or tap decision under realistic conditions while maintaining safety awareness."
+      }
+    ]
+  }
+}

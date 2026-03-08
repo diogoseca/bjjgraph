@@ -16,12 +16,12 @@ const config: QuartzConfig = {
       provider: "posthog",
       apiKey: process.env.POSTHOG_API_KEY || "",
       host: process.env.POSTHOG_API_HOST,
+      uiHost: "https://us.i.posthog.com",
     },
     locale: "en-US",
     baseUrl: "bjjgraph.org",
     ignorePatterns: [
       "private",
-      "templates",
       ".obsidian",
       "CONTRIBUTING-*.md",
       "**/CONTRIBUTING*.md",
@@ -30,7 +30,6 @@ const config: QuartzConfig = {
       "TEMPLATE.*",
       "**/TEMPLATE.*",
       "**/!(bjj-graph).json",
-      "**/*.jinja2",
     ],
     defaultDateType: "created",
     theme: {
@@ -100,7 +99,6 @@ const config: QuartzConfig = {
       Plugin.CrawlLinks({ markdownLinkResolution: "shortest" }),
       Plugin.SchemaExtractor(),
       Plugin.Description(),
-      Plugin.Latex({ renderEngine: "katex" }),
     ],
     filters: [Plugin.RemoveDrafts()],
     emitters: [

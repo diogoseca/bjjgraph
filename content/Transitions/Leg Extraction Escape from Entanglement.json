@@ -1,0 +1,438 @@
+{
+  "name": "Leg Extraction Escape from Entanglement",
+  "description": "Master the Leg Extraction Escape from leg entanglements in BJJ. Step-by-step guide to freeing your trapped leg, protecting the heel, and recovering guard.",
+  "tags": [
+    "bjj",
+    "transition",
+    "escape",
+    "leg-entanglement",
+    "defense",
+    "leg-lock-defense",
+    "guard-recovery",
+    "no-gi",
+    "advanced"
+  ],
+  "from_position": "Leg Entanglement/Bottom",
+  "outcomes": [
+    {
+      "to": "Open Guard/Bottom",
+      "probability": 45,
+      "result": "success"
+    },
+    {
+      "to": "Leg Entanglement/Bottom",
+      "probability": 35,
+      "result": "failure"
+    },
+    {
+      "to": "Ashi Garami/Top",
+      "probability": 20,
+      "result": "counter"
+    }
+  ],
+  "success_rate": 45,
+  "overview": "Leg Extraction Escape from Entanglement is the fundamental defensive technique for freeing a trapped leg from an opponent's leg entanglement control. Unlike inversion-based escapes that use rotational movement or boot scoot escapes that create linear distance, leg extraction focuses on systematically clearing each connection point that anchors the entanglement structure, then withdrawing the leg through the created gap. This escape addresses the most common leg entanglement scenarios where the opponent has established outside or inside ashi garami control but has not yet advanced to a fully consolidated finishing position like the saddle.\n\nThe technique operates on a simple biomechanical principle: leg entanglements rely on multiple contact points working together to trap the leg. By addressing these connection points sequentially rather than trying to rip the leg free explosively, the escaping practitioner can methodically dismantle the control structure without exposing the heel to dangerous finishing angles. The extraction sequence typically begins with controlling the opponent's grip on the foot or ankle, continues with clearing the inside hook behind the knee, and finishes with withdrawing the leg through the gap while transitioning to a safe guard position.\n\nStrategically, leg extraction escape represents the most energy-efficient defensive option from leg entanglements when the opponent has not yet advanced deep into the positional hierarchy. Compared to inversions, which require significant athletic ability and carry rotational injury risk, or boot scoot escapes that demand sustained hip movement, leg extraction relies primarily on precise hand fighting and mechanical clearing that any body type can execute. The key timing window occurs before the opponent consolidates tight hip-to-hip pressure and secures a finishing grip on the heel. Once those two conditions are met, alternative escape methods become necessary, making early recognition and immediate action critical to this escape's success.",
+  "conditions": [
+    "Opponent has established a leg entanglement but has not yet consolidated the saddle or achieved tight hip-to-hip pressure",
+    "Your heel is not currently controlled in a finishing grip and you can still straighten or rotate your trapped leg",
+    "You have at least one hand free to address the opponent's connection points on your trapped leg",
+    "The opponent's inside hook behind your knee has not been fully locked with a figure-four or triangle configuration",
+    "You maintain enough base or posture to generate the pushing force needed to clear the entanglement structure"
+  ],
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Standing Leg Extraction",
+      "description": "Performed from a standing base where you use gravity and hip elevation to create downward extraction angle. Drive the trapped knee upward while pushing the opponent's hooks away with your hands, using your standing leg's base to generate superior leverage. The height advantage makes it significantly harder for the opponent to maintain the entanglement.",
+      "when_to_use": "When you have maintained or recovered a standing base and the opponent is seated or supine with the entanglement. Most effective early before opponent pulls you down to mat level."
+    },
+    {
+      "variant_name": "Seated Hip Scoop Extraction",
+      "description": "From a seated position, scoop your hips backward while using both hands to strip the opponent's inside hook and any grip on your foot. The hip scoop creates a momentary gap in the entanglement structure by changing the angle of your thigh relative to their hooks. Combine the scoop with a sharp knee-to-chest pull to complete the extraction.",
+      "when_to_use": "When you have been pulled to the mat but maintain an upright seated posture with your hands free. Effective against loose outside ashi garami where the opponent's hooks are not deeply set."
+    },
+    {
+      "variant_name": "Push-Kick Extraction",
+      "description": "Use your free leg to push-kick against the opponent's hip or shoulder while simultaneously pulling the trapped knee to your chest. The push-kick creates distance that degrades the entanglement integrity while the knee pull extracts the leg through the created gap. Requires coordination between the pushing and pulling actions.",
+      "when_to_use": "When your free leg is not entangled and you have enough space to place your foot on the opponent's body. Particularly effective when the opponent is reaching for your heel and their upper body is exposed to the push-kick."
+    },
+    {
+      "variant_name": "Grip-Strip-to-Knee-Cut Extraction",
+      "description": "Strip the opponent's grip on your foot using a two-on-one wrist peel, then immediately cut your knee across their body to create a passing angle. This variant converts the escape directly into a guard passing opportunity rather than recovering to open guard. The knee cut motion naturally withdraws the leg from the entanglement while establishing top pressure.",
+      "when_to_use": "When the opponent has a loose entanglement and their guard recovery is compromised. Best used against opponents who commit heavily to re-gripping after their initial control is stripped, creating a window for the knee cut."
+    }
+  ],
+  "position_integration": "Leg Extraction Escape from Entanglement sits at the center of the defensive leg lock system, serving as the primary first-response escape from early-stage leg entanglements before the opponent advances through the positional hierarchy. It connects directly to the open guard recovery pathway, allowing the escaping practitioner to re-establish distance and active leg frames after clearing the entanglement. When leg extraction fails, practitioners must transition to secondary escapes including the Inversion Escape from Leg Entanglement for rotational clearing or the Boot Scoot Escape from Saddle if the opponent advances position. The technique also chains with offensive counter-opportunities: a successful extraction that maintains contact can flow directly into guard passing sequences or counter leg entanglements when the opponent overcommits to re-establishing control. Understanding leg extraction as one option within a complete defensive decision tree, rather than the only escape, is essential for systematic leg lock defense at the purple belt level and above.",
+  "related_content": [
+    {
+      "name": "Leg Entanglement",
+      "relationship": "Starting position - the entanglement family this escape addresses"
+    },
+    {
+      "name": "Open Guard",
+      "relationship": "Primary recovery position after successful leg extraction"
+    },
+    {
+      "name": "Ashi Garami",
+      "relationship": "Specific entanglement configuration this escape targets"
+    },
+    {
+      "name": "Inversion Escape from Leg Entanglement",
+      "relationship": "Alternative escape using rotational movement when extraction is blocked"
+    },
+    {
+      "name": "Boot Scoot Escape from Saddle",
+      "relationship": "Secondary escape for advanced entanglements where extraction is not viable"
+    },
+    {
+      "name": "Heel Strip from Ashi Garami",
+      "relationship": "Complementary technique addressing heel grip before extraction"
+    },
+    {
+      "name": "Ashi Garami Escape",
+      "relationship": "General escape framework that includes leg extraction as a primary method"
+    },
+    {
+      "name": "Inside Ashi-Garami",
+      "relationship": "Advanced entanglement position requiring modified extraction approach"
+    },
+    {
+      "name": "Outside Ashi-Garami",
+      "relationship": "Most common entanglement configuration where extraction has highest success rate"
+    },
+    {
+      "name": "Saddle",
+      "relationship": "Advanced entanglement where extraction becomes significantly more difficult"
+    },
+    {
+      "name": "Guard Recovery from Leg Entanglement",
+      "relationship": "Follow-up transition to re-establish guard structure after extraction"
+    },
+    {
+      "name": "Heel Hook Defense Escape",
+      "relationship": "Emergency defense when opponent achieves heel grip during extraction attempt"
+    }
+  ],
+  "attacker": {
+    "name": "Leg Extraction Escape from Entanglement Attacker",
+    "description": "Master the Leg Extraction Escape execution from leg entanglements. Systematic guide to clearing hooks, stripping grips, and recovering guard position safely.",
+    "overview": "As the person executing the Leg Extraction Escape, your objective is to systematically dismantle the opponent's leg entanglement structure by clearing each connection point in sequence, then withdrawing your trapped leg to recover a safe guard position. The escape demands precise hand fighting to address the opponent's grips on your foot and hooks behind your knee, combined with coordinated hip movement to create extraction angles. Success requires recognizing the specific entanglement configuration you are trapped in, identifying which connection points are weakest, and attacking those first to create a cascading failure in the opponent's control structure. The attacker must maintain heel protection throughout the entire extraction sequence, as any moment where the heel becomes exposed during the escape creates a finishing opportunity for the opponent that is far more dangerous than the original entanglement.",
+    "key_principles": [
+      "Address connection points sequentially from most accessible to deepest rather than trying to rip free all at once",
+      "Maintain straight leg alignment throughout extraction to prevent heel exposure during the escape movement",
+      "Use two-on-one grip fighting to strip the opponent's strongest control grip before attempting full extraction",
+      "Keep your hips oriented away from the opponent to create the longest extraction pathway and reduce re-entanglement risk",
+      "Coordinate free leg pushing with trapped leg pulling to generate compound force that overwhelms single-limb retention",
+      "Commit fully to the extraction once you begin clearing hooks rather than hesitating mid-sequence and allowing re-grip"
+    ],
+    "setup_requirements": [
+      "Identify the specific entanglement configuration to determine which connection points must be cleared and in what order",
+      "Verify your heel is not currently controlled in a finishing grip before initiating the extraction sequence",
+      "Establish at least one hand free from the opponent's upper body control to begin grip fighting on the entanglement",
+      "Create initial base through standing, kneeling, or seated posture that provides leverage for the extraction force",
+      "Assess the opponent's hip proximity: extraction success drops significantly when their hips are tight against your trapped leg"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Assess entanglement and protect heel",
+        "description": "Immediately identify which leg is trapped and what configuration the opponent has established. Straighten your trapped leg to align the knee and prevent heel exposure. Tuck your chin and posture up to prevent being pulled flat. This assessment determines your entire escape sequence and must happen within the first two seconds of recognizing the entanglement."
+      },
+      {
+        "step_number": 2,
+        "action": "Establish base and free your hands",
+        "description": "Recover to standing, kneeling, or seated posture to create leverage for the extraction. If the opponent has upper body grips, strip those first using standard grip breaks. You need at least one hand free to address the entanglement connection points. Post with your free hand if needed to maintain base against the opponent's pulling and off-balancing attempts."
+      },
+      {
+        "step_number": 3,
+        "action": "Strip the foot or ankle grip",
+        "description": "Using a two-on-one grip, peel the opponent's hand off your foot or ankle. Target their wrist with both hands and strip downward toward the mat, rotating their grip below your ankle line. This removes the finishing threat and their ability to control your foot rotation. If they have a deep heel grip, transition to heel strip defense before continuing extraction."
+      },
+      {
+        "step_number": 4,
+        "action": "Clear the inside hook",
+        "description": "Address the opponent's inside leg hook that sits behind your knee or calf. Use your newly freed hand to push their hook leg downward while simultaneously pulling your trapped knee upward toward your chest. The combination of pushing their hook down and pulling your knee up creates the gap needed for extraction. Keep your heel pointed away from their body throughout this clearing motion."
+      },
+      {
+        "step_number": 5,
+        "action": "Create extraction angle with hip movement",
+        "description": "Shift your hips laterally away from the opponent while maintaining the cleared gap from the previous step. This angular hip movement changes the geometry of the entanglement, making it mechanically impossible for the opponent to re-establish the hook with the same angle. Think of pulling your knee on a diagonal path toward your opposite shoulder rather than straight back."
+      },
+      {
+        "step_number": 6,
+        "action": "Push-kick with free leg for distance",
+        "description": "Place your free foot on the opponent's hip, shoulder, or bicep and extend forcefully to create distance. This push-kick serves dual purposes: it prevents the opponent from following your retreating hips and generates the final separation needed to fully withdraw the trapped leg. Maintain pressure with the push-kick until the trapped leg is completely clear."
+      },
+      {
+        "step_number": 7,
+        "action": "Extract the trapped leg completely",
+        "description": "Pull your trapped knee sharply to your chest while maintaining the push-kick distance with your free leg. The extraction must be decisive and complete, withdrawing the entire leg past the opponent's control structure in one continuous motion. A partial extraction that leaves your foot within their reach invites immediate re-entanglement or ankle lock counter-attacks."
+      },
+      {
+        "step_number": 8,
+        "action": "Recover to open guard with active frames",
+        "description": "Immediately establish open guard structure with both feet active against the opponent's hips or shoulders. Place your hands on their wrists or sleeves to prevent them from re-entering your legs. Do not relax after the extraction: the opponent will immediately attempt to re-establish the entanglement or advance to a passing position, so active guard frames must be in place before they can close distance."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Opponent follows hip retreat and re-establishes the inside hook before extraction completes",
+        "effectiveness": "High",
+        "your_response": "If they follow your hips, switch to an angular extraction by changing direction mid-escape. Combine with a collar drag or arm drag to redirect their momentum past you, then complete the extraction while they recover balance.",
+        "targets_outcome": "Leg Entanglement/Bottom"
+      },
+      {
+        "counter": "Opponent transitions to a deeper entanglement (inside ashi or saddle) during your extraction attempt",
+        "effectiveness": "High",
+        "your_response": "Abort the extraction immediately and address the new entanglement configuration. If they advance to saddle, transition to boot scoot escape. If they achieve inside ashi, reset your connection point clearing sequence for the new configuration before attempting extraction again.",
+        "targets_outcome": "Ashi Garami/Top"
+      },
+      {
+        "counter": "Opponent grabs the heel during extraction when foot passes through exposed angle",
+        "effectiveness": "High",
+        "your_response": "Immediately straighten the leg and begin heel strip defense using two-on-one wrist control. Do not continue the extraction with their hand on your heel. The heel strip must be completed before resuming any extraction movement to prevent submission during the escape.",
+        "targets_outcome": "Ashi Garami/Top"
+      },
+      {
+        "counter": "Opponent uses upper body grips to prevent you from establishing the base needed for extraction",
+        "effectiveness": "Medium",
+        "your_response": "Address the upper body grips first with standard grip breaks before returning to the entanglement. If they control your collar or lapel, strip it with a two-on-one break. If they control your sleeve, circle your wrist free. Upper body freedom is a prerequisite for successful extraction.",
+        "targets_outcome": "Leg Entanglement/Bottom"
+      },
+      {
+        "counter": "Opponent cross-grips your extracting hand to prevent you from clearing their hooks",
+        "effectiveness": "Medium",
+        "your_response": "Use your free hand to break their cross-grip while maintaining knee-to-chest positioning on the trapped leg. If both hands are occupied, use your free leg to push-kick their grip hand away or transition to a pummel sequence to free your hands one at a time.",
+        "targets_outcome": "Leg Entanglement/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Explosive ripping of the trapped leg without clearing connection points first",
+        "consequence": "The explosive force rotates the knee and exposes the heel to finishing angle, giving the opponent an immediate heel hook opportunity that is more dangerous than the original entanglement",
+        "correction": "Clear the foot grip and inside hook sequentially before attempting any extraction force. The extraction should feel methodical, not explosive, with each connection point addressed before moving to the next."
+      },
+      {
+        "error": "Bending the trapped knee during extraction, creating heel exposure",
+        "consequence": "A bent knee with the foot near the opponent's chest is the exact finishing position for heel hooks. Bending during extraction hands the opponent a submission they may not have had before the escape attempt.",
+        "correction": "Maintain straight leg alignment throughout the entire extraction. Think of pulling a straight rod through a tube rather than bending the leg to navigate around hooks."
+      },
+      {
+        "error": "Attempting extraction while flat on your back without establishing base",
+        "consequence": "No leverage for the extraction force, opponent can easily follow your movement, and your hands are poorly positioned to address connection points from a supine position",
+        "correction": "Recover to seated, kneeling, or standing posture before beginning the extraction sequence. The first priority is always base recovery, even if it means briefly accepting the entanglement."
+      },
+      {
+        "error": "Stopping mid-extraction after clearing only some connection points",
+        "consequence": "The opponent recognizes the escape attempt and immediately re-establishes cleared connection points while potentially advancing to a deeper entanglement to prevent future extraction attempts",
+        "correction": "Once you begin the extraction sequence, commit to completing it in one continuous motion. Hesitation mid-escape is worse than not starting because the opponent now knows your escape pathway and can defend against it."
+      },
+      {
+        "error": "Neglecting to establish guard frames after successful extraction",
+        "consequence": "The opponent immediately re-enters your legs and establishes a new entanglement or bypasses your legs entirely to achieve a passing position, wasting the energy spent on the escape",
+        "correction": "The extraction is not complete until your feet are on the opponent's hips and your hands control their wrists. Treat guard recovery as the final step of the escape, not a separate action."
+      },
+      {
+        "error": "Turning away from the opponent during extraction to create distance",
+        "consequence": "Turning exposes your back, allows the opponent to follow your rotation into a back take or advanced saddle position, and creates worse positional problems than the original entanglement",
+        "correction": "Face the opponent throughout the extraction sequence. Use hip shifting and push-kicks for distance rather than rotation. Your chest should always face their body."
+      },
+      {
+        "error": "Attempting to strip multiple grips simultaneously with one hand",
+        "consequence": "Insufficient force on any single grip break, resulting in none of the connection points being cleared effectively while the opponent consolidates the ones you partially addressed",
+        "correction": "Use two-on-one grip fighting to address the most threatening grip first, then move sequentially to the next. Concentrated force on one grip at a time clears connections reliably."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Mechanics",
+        "focus": "Connection point identification and sequential clearing",
+        "description": "Partner establishes loose outside ashi garami with no resistance. Practice identifying each connection point (foot grip, inside hook, hip pressure) and clearing them in sequence. Perform 20 slow-motion extractions per side, focusing on maintaining straight leg alignment throughout. No timing pressure, purely mechanical repetition."
+      },
+      {
+        "phase": "Phase 2: Grip Fighting Integration",
+        "focus": "Two-on-one grip strips under light resistance",
+        "description": "Partner holds grips at 50% strength while you practice two-on-one wrist peels on the foot grip and hand clearing on the inside hook. Add the push-kick with the free leg and practice the full extraction sequence against graduated resistance. 10 repetitions per side with increasing grip strength each round."
+      },
+      {
+        "phase": "Phase 3: Positional Sparring",
+        "focus": "Full extraction under resistance with guard recovery",
+        "description": "Start in outside ashi garami with partner at 70-80% resistance. Execute the complete escape including guard recovery with active frames. Partner is permitted to follow, re-grip, and counter. 3-minute rounds with resets after each successful escape or submission. Track success rate to measure improvement."
+      },
+      {
+        "phase": "Phase 4: Decision Tree Integration",
+        "focus": "Choosing between extraction, inversion, and boot scoot based on entanglement depth",
+        "description": "Partner varies the entanglement configuration randomly between outside ashi, inside ashi, and early saddle. Practice recognizing which escape is appropriate for each configuration: extraction for loose outside ashi, inversion for tight inside ashi, boot scoot for saddle. Develops real-time defensive decision-making under pressure."
+      },
+      {
+        "phase": "Phase 5: Live Application",
+        "focus": "Full-speed integration during rolling",
+        "description": "Intentionally allow training partners to establish leg entanglements during live rolling to practice recognition and escape selection under full competition conditions. Track which configurations you encounter most frequently and which escape methods succeed most often. Adjust training focus based on data."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the most critical body alignment to maintain throughout the entire leg extraction sequence?",
+        "answer": "Straight leg alignment on the trapped leg is the single most critical factor. The knee must remain extended or at most slightly bent with the heel pointing away from the opponent throughout the extraction. Any significant bending of the trapped knee during extraction creates the exact finishing angle the opponent needs for heel hooks. The extraction motion should feel like pulling a straight rod through a gap rather than navigating a bent leg around obstacles. If your heel becomes visible to the opponent at any point during the escape, you have created a more dangerous situation than the original entanglement."
+      },
+      {
+        "question": "Why must connection points be cleared sequentially rather than attempting to rip the leg free with one explosive movement?",
+        "answer": "Explosive ripping against multiple connection points simultaneously generates rotational force on the knee joint, which is precisely the mechanism that exposes the heel to finishing angles. Each connection point in the entanglement serves a specific control function: the foot grip controls rotation, the inside hook prevents withdrawal, and hip pressure maintains proximity. By clearing them sequentially, you eliminate each control function without creating the rotational force that makes the other connection points more dangerous. Sequential clearing also requires significantly less energy than explosive extraction, preserving your resources for the guard recovery that follows."
+      },
+      {
+        "question": "Your opponent's inside hook is deeply set behind your knee and you cannot clear it with your hand - how do you modify the extraction?",
+        "answer": "When the inside hook is too deep to clear manually, modify the extraction angle by shifting your hips laterally rather than pulling straight back. The lateral hip shift changes the angle between your thigh and their hook, reducing the mechanical advantage of the hook. Simultaneously, use your free leg to push against their hooking leg's hip or thigh to create leverage for the angular extraction. If the hook remains locked, this configuration likely indicates they have advanced beyond outside ashi, and you should consider transitioning to an inversion escape or boot scoot rather than forcing the extraction against a consolidated entanglement."
+      },
+      {
+        "question": "What is the optimal timing window for initiating the leg extraction escape?",
+        "answer": "The optimal timing window is immediately after the opponent establishes initial leg contact but before they consolidate tight hip-to-hip pressure and secure a grip on your foot or heel. This window typically lasts three to five seconds after entry. The escape becomes progressively harder as the opponent advances through the positional hierarchy: outside ashi offers the widest window, inside ashi narrows it significantly, and saddle configuration makes extraction nearly impossible. Recognizing the entanglement within the first two seconds and beginning the escape sequence immediately provides the highest success rate. Waiting to assess the situation costs valuable seconds during which the opponent consolidates control."
+      },
+      {
+        "question": "After successfully extracting your leg, your opponent immediately shoots back in for your legs - what guard structure prevents re-entanglement?",
+        "answer": "Establish an active open guard with both feet placed firmly on the opponent's hips, creating a frame that prevents them from closing the distance needed for re-entanglement. Your hands should control their wrists or sleeves to prevent them from gripping your feet or pants. The feet-on-hips configuration is specifically effective because it addresses the opponent's primary re-entry pathway: they need to close hip distance and establish leg contact, which the hip frames directly prevent. If they attempt to circle around the feet, transition to a de la riva or reverse de la riva hook to maintain the defensive structure while creating your own offensive threats."
+      },
+      {
+        "question": "You begin the extraction but your opponent grabs your heel mid-escape - what is your immediate response?",
+        "answer": "Immediately halt all extraction movement and address the heel grip as the highest priority threat. Straighten the trapped leg fully to reduce the opponent's finishing leverage, then apply a two-on-one wrist peel on the hand controlling your heel, stripping downward below your ankle line. Do not continue any pulling or extraction force while they have heel control, as this can amplify rotational force on your knee. Only resume the extraction sequence after the heel grip is completely cleared. This is a non-negotiable safety principle: extraction with a heel grip in place is more dangerous than remaining in the entanglement."
+      },
+      {
+        "question": "How does the extraction approach differ between outside ashi garami and inside ashi garami configurations?",
+        "answer": "In outside ashi garami, the opponent's inside hook sits on the outside of your thigh with their body to the outside of your leg, making the extraction pathway relatively direct: clear the hook, pull the knee to chest, and withdraw. In inside ashi garami, the opponent's body is positioned between your legs with the hook on the inside, creating a more complex extraction geometry. The inside ashi extraction requires a lateral hip shift away from the opponent combined with a diagonal knee pull toward your opposite shoulder to navigate past their body positioning. Inside ashi also typically involves deeper hooks and tighter hip pressure, reducing the success rate of pure extraction and often requiring combination with grip stripping or transition to alternative escapes."
+      },
+      {
+        "question": "Your opponent controls your far sleeve with their hand while maintaining the entanglement - how does this affect your extraction sequence?",
+        "answer": "The far sleeve grip prevents you from establishing the two-on-one grip fighting needed to strip the entanglement connection points. This grip must be broken before the extraction can begin, making it a priority zero action. Use a standard sleeve break by circling your wrist toward their thumb or pulling your elbow sharply to your hip. If the grip is very strong, use your free hand to peel their fingers while temporarily accepting the entanglement. The critical insight is that the sleeve grip does not make the entanglement itself more dangerous, it only delays your escape. Do not panic or attempt to extract without your hands free, as this leads to the explosive ripping error that exposes the heel."
+      },
+      {
+        "question": "What physical cue tells you that your extraction has succeeded and you can transition to guard recovery?",
+        "answer": "The extraction is complete when your knee passes entirely past the opponent's hooking structure and your foot clears their control radius. The physical cue is feeling zero contact between your trapped leg and any part of the opponent's legs or body. You should be able to freely bend and extend the formerly trapped leg without any resistance from the opponent's structure. However, the escape is not truly finished until you establish active guard frames: feet on hips and hands on wrists. The gap between extraction and guard recovery is the most vulnerable moment because you have no offensive guard but no entanglement defense either."
+      },
+      {
+        "question": "During training, your partner begins applying a heel hook while you are mid-extraction - what is the correct response?",
+        "answer": "Tap immediately if you feel rotational pressure on your knee during the extraction. Training safety takes absolute priority over escape completion. In competition, you would halt extraction and address the heel grip with maximum urgency using the two-on-one strip. But in training, the correct response is to recognize that a heel hook applied during an extraction attempt creates amplified rotational force because your leg is partially extended and moving. The combined forces of their rotation and your extraction movement can cause injury faster than a static heel hook. Tap, reset, and analyze what allowed them to secure the heel during your escape so you can address that gap in your connection point clearing sequence."
+      }
+    ],
+    "safety_considerations": "Leg extraction from entanglements carries significant injury risk to the knee joint if performed incorrectly. The most dangerous error is explosive ripping that exposes the heel to finishing angles during the extraction movement. Always maintain straight leg alignment throughout the escape and never continue extraction if the opponent has secured a grip on your heel. In training, tap immediately if you feel any rotational pressure on the knee during an escape attempt. Practice at slow speed until the mechanical clearing sequence is automatic before adding resistance. Partners should apply entanglements with control and communicate clearly about heel exposure during drilling. Never train this escape with a partner who does not understand heel hook mechanics and proper application safety."
+  },
+  "defender": {
+    "name": "Leg Extraction Escape from Entanglement Defender",
+    "description": "Defend against the Leg Extraction Escape from your leg entanglement. Counter-strategies for maintaining control when opponent attempts to clear hooks and withdraw.",
+    "overview": "As the defender (the person maintaining the leg entanglement while the opponent attempts to extract), your objective is to preserve your control structure by preventing the systematic clearing of connection points that makes extraction possible. You must maintain the integrity of your inside hook, foot grip, and hip pressure while simultaneously looking for opportunities to advance to a deeper entanglement or finish a submission when the opponent's escape attempt creates momentary heel exposure. The defender's mindset combines patient retention of existing control with opportunistic advancement, recognizing that each failed extraction attempt depletes the opponent's energy and erodes their defensive composure. Understanding the escaping practitioner's clearing sequence allows you to anticipate and counter each step before it compromises your position.",
+    "key_principles": [
+      "Maintain constant hip pressure against the trapped leg to prevent the space creation that enables extraction",
+      "Re-pummel hooks immediately when cleared rather than accepting even momentary loss of connection points",
+      "Recognize extraction attempts early through the opponent's hand positioning and hip movement to preemptively counter",
+      "Use the opponent's extraction movement to advance to deeper entanglements rather than simply retaining current position",
+      "Control the opponent's free leg to eliminate the push-kick that powers the final extraction phase",
+      "Stay patient with submission attempts and wait for heel exposure created by the opponent's escape errors"
+    ],
+    "recognition_cues": [
+      "Opponent begins using both hands to address your grip on their foot or ankle rather than maintaining defensive frames",
+      "Opponent recovers to standing or seated base from flat position, indicating they are establishing leverage for extraction",
+      "Opponent's free leg repositions to place the foot on your hip or shoulder in preparation for a push-kick",
+      "Opponent straightens the trapped leg and pulls their knee toward their chest while shifting hips laterally",
+      "Opponent breaks your upper body grips before addressing the leg entanglement, signaling a systematic extraction sequence"
+    ],
+    "defensive_options": [
+      {
+        "action": "Follow the opponent's hip retreat with your own hip advancement to maintain zero distance",
+        "when_to_use": "When the opponent shifts their hips away to create extraction angle, advance your hips to match their retreat",
+        "targets_outcome": "Leg Entanglement/Bottom",
+        "if_successful": "Opponent cannot create the gap needed for extraction and remains trapped in the current entanglement",
+        "risk": "If you overcommit to following, the opponent may redirect and use your forward momentum to sweep or create a scramble"
+      },
+      {
+        "action": "Advance to inside ashi or saddle during the opponent's grip-stripping phase when their hands are occupied",
+        "when_to_use": "When the opponent uses both hands to strip your foot grip, their legs and hips are momentarily undefended, creating a window for advancement",
+        "targets_outcome": "Ashi Garami/Top",
+        "if_successful": "Opponent's extraction attempt fails and they are now in a deeper entanglement with reduced escape options",
+        "risk": "If the advancement is sloppy, you may lose the original entanglement without securing the deeper position"
+      },
+      {
+        "action": "Attack the heel when it becomes momentarily exposed during the extraction movement",
+        "when_to_use": "When the opponent bends the trapped knee during clearing or changes leg angle during extraction, creating brief heel exposure",
+        "targets_outcome": "Ashi Garami/Top",
+        "if_successful": "Opponent must abandon extraction and address the immediate heel hook threat, resetting their entire escape sequence",
+        "risk": "If the heel grab misses, you may have released a connection point to reach for it, facilitating their extraction"
+      },
+      {
+        "action": "Control the opponent's free leg with your hand or by hooking it to eliminate the push-kick",
+        "when_to_use": "When the opponent positions their free foot on your body in preparation for the push-kick phase of extraction",
+        "targets_outcome": "Leg Entanglement/Bottom",
+        "if_successful": "Without the push-kick, the opponent lacks the force to complete the extraction and remains in the entanglement",
+        "risk": "Reaching for the free leg may require releasing a grip on the trapped leg, temporarily weakening your entanglement structure"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Leg Entanglement/Bottom",
+        "how": "Maintain persistent hip pressure and immediately re-pummel any cleared hooks. Follow the opponent's lateral hip movement to prevent gap creation. Control their free leg to eliminate the push-kick force. Patient retention of the existing entanglement exhausts the opponent's escape energy and preserves your attacking position."
+      },
+      {
+        "outcome": "Ashi Garami/Top",
+        "how": "Capitalize on the window created when the opponent uses both hands to strip grips by advancing to inside ashi or saddle. Alternatively, attack the heel during momentary exposure created by the opponent's extraction angle changes. Convert their escape attempt into a deeper positional problem through opportunistic advancement."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Remaining static while the opponent systematically clears connection points one at a time",
+        "consequence": "Each cleared connection point makes the next one easier to clear, creating a cascading failure that results in complete extraction",
+        "correction": "Actively re-establish cleared connection points immediately and advance position during the opponent's grip-fighting phases rather than passively holding"
+      },
+      {
+        "error": "Reaching for the heel prematurely when it is not truly exposed, releasing a control grip in the process",
+        "consequence": "The released grip facilitates the extraction while the heel grab fails, resulting in complete loss of the entanglement with no submission",
+        "correction": "Only attack the heel when there is genuine exposure created by the opponent's error. Maintain control connection points as first priority and opportunistic heel attacks as secondary."
+      },
+      {
+        "error": "Allowing the opponent to establish a standing base without following with hip advancement",
+        "consequence": "The standing opponent has gravity-assisted extraction leverage that makes the entanglement nearly impossible to maintain from a supine position",
+        "correction": "Sit up or follow the opponent's base recovery with your own elevation. Use sleeve or collar grips to pull yourself toward them as they rise rather than letting them create height advantage."
+      },
+      {
+        "error": "Ignoring the opponent's free leg, which then provides the push-kick force for final extraction",
+        "consequence": "The push-kick creates the decisive distance that completes the extraction after you successfully retained all other connection points",
+        "correction": "Proactively manage the free leg by hooking it with your arm, trapping it with your leg, or blocking it from reaching your body. The free leg is the extraction's engine."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the most effective moment to advance your entanglement when the opponent attempts leg extraction?",
+        "answer": "The optimal advancement window is when the opponent commits both hands to stripping your foot or ankle grip. At this moment, their legs and hips are undefended because their hands are occupied with grip fighting rather than managing your hooks or blocking your hip advancement. Step your outside leg over their hip or re-pummel your inside hook deeper while their attention is focused on their hands. This creates the paradox where their grip-stripping success on one connection point results in deeper entanglement on another, effectively punishing the escape attempt."
+      },
+      {
+        "question": "How do you prevent the opponent's lateral hip shift from creating the extraction angle?",
+        "answer": "Follow their hip movement immediately by advancing your own hips in the same direction, maintaining zero distance between your hips and the trapped leg. Use your inside hook to pull their leg toward you as they shift, counteracting the gap creation. If they shift right, follow right while pulling with the hook. The key is anticipating the lateral movement by watching their hip positioning and free leg placement, which telegraph the shift direction before it occurs. Proactive following is far more effective than reactive catching after the gap has already been created."
+      },
+      {
+        "question": "Your opponent successfully strips your foot grip but you maintain the inside hook - what is your priority?",
+        "answer": "Immediately re-establish the foot grip or advance to a deeper entanglement that does not rely on the foot grip for primary control. The inside hook alone provides temporary retention but will eventually be cleared if the opponent has free hands. Your options are: re-grip the foot from a different angle before they clear the hook, advance to saddle by stepping over with your outside leg while the hook holds them in place, or transition to a kneebar position that uses the inside hook as the primary control structure. The worst response is doing nothing because the inside hook has a limited retention window without the complementary foot grip."
+      },
+      {
+        "question": "What distinguishes a genuine extraction attempt from a feint designed to create scramble opportunities?",
+        "answer": "A genuine extraction attempt involves systematic connection point clearing with both hands committed to the entangled area, combined with base recovery and directional hip movement away from you. A feint typically involves only partial hand commitment with the opponent keeping one hand free for a collar drag, arm drag, or guard pull if you overreact. The telltale sign of a genuine attempt is the opponent recovering base before addressing the entanglement, because they need leverage for real extraction. A feint usually skips the base recovery step. Read the base position to differentiate: if they recover base first, it is likely genuine and you should counter accordingly."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Recognition",
+        "focus": "Identifying extraction attempts through body positioning cues",
+        "description": "Partner performs leg extraction escapes at slow speed while you observe and verbally call out each step: base recovery, grip strip, hook clear, hip shift, push-kick, extraction. Build pattern recognition without resistance. Identify the visual and tactile cues that signal each phase of the escape."
+      },
+      {
+        "phase": "Phase 2: Retention Mechanics",
+        "focus": "Re-pummeling hooks and following hip movement",
+        "description": "Partner attempts extraction at 50% speed while you practice re-establishing cleared hooks and following lateral hip shifts. Focus on timing your re-pummel to occur simultaneously with their clearing attempt rather than after the fact. 10 repetitions per side with progressive speed increases."
+      },
+      {
+        "phase": "Phase 3: Counter-Advancement",
+        "focus": "Advancing position during extraction windows",
+        "description": "Partner attempts full extraction at 70% resistance. Practice recognizing the grip-fighting window and advancing to inside ashi or saddle during that moment. Also practice heel attacks during momentary exposure. Track advancement success rate to measure timing improvement."
+      },
+      {
+        "phase": "Phase 4: Live Integration",
+        "focus": "Full-speed retention and counter-attack during rolling",
+        "description": "During live rolling, focus specifically on retaining leg entanglements when partners attempt extraction. Develop the automatic response of following, re-pummeling, and advancing rather than passively holding. Review which extraction methods succeed against you most often and develop specific counters for those patterns."
+      }
+    ]
+  }
+}

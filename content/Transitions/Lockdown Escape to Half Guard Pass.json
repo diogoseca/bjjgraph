@@ -1,0 +1,420 @@
+{
+  "name": "Lockdown Escape to Half Guard Pass",
+  "description": "Master Lockdown Escape to Half Guard Pass in BJJ. Systematic leg extraction and pass from Lockdown Top. Success rates: Beginner 30%, Intermediate 50%, Advanced 65%.",
+  "tags": [
+    "bjj",
+    "transition",
+    "technique",
+    "half-guard",
+    "lockdown",
+    "passing",
+    "10th-planet-counter",
+    "leg-extraction",
+    "pressure-passing"
+  ],
+  "from_position": "Lockdown/Top",
+  "outcomes": [
+    {
+      "to": "Side Control/Top",
+      "probability": 65,
+      "result": "success"
+    },
+    {
+      "to": "Lockdown/Top",
+      "probability": 25,
+      "result": "failure"
+    },
+    {
+      "to": "Deep Half Guard/Bottom",
+      "probability": 10,
+      "result": "counter"
+    }
+  ],
+  "success_rate": 58,
+  "overview": "The Lockdown Escape to Half Guard Pass is the essential counter-technique for the top player trapped in an opponent's lockdown half guard. When your leg is caught in the figure-four lockdown configuration, your mobility is severely compromised and you face constant sweep and submission threats from the Electric Chair, Old School, and whip-up attacks. This technique provides a systematic pathway to extract your trapped leg and immediately advance to side control rather than settling for neutral half guard.\n\nThe key insight is that the lockdown's power derives from the triangled leg configuration gripping your trapped leg. Simply yanking your leg free plays into the lockdown's mechanical strength and risks knee injury. Instead, this technique employs forward pressure to limit the opponent's hip extension, the limp leg concept to reduce grip effectiveness, and systematic breaking of the foot triangle before extraction. The combination of these principles creates the mechanical advantage needed to escape the entanglement safely.\n\nStrategically, this technique transforms a defensive predicament into offensive momentum. By flowing directly from escape into a passing sequence, you capitalize on the momentary disruption caused by breaking the opponent's primary control structure. This prevents them from re-establishing the lockdown or transitioning to alternative guards, converting what could be an exhausting positional battle into efficient advancement to dominant position.",
+  "conditions": [
+    "Your leg is trapped in opponent's lockdown figure-four configuration from half guard top",
+    "You have established some degree of upper body control (crossface, shoulder pressure, or whizzer)",
+    "Your free leg is available for posting and base maintenance",
+    "Opponent is actively using lockdown for sweeps, submissions, or positional control"
+  ],
+  "related_content": [
+    {
+      "name": "Lockdown",
+      "relationship": "Starting position - the control structure being escaped"
+    },
+    {
+      "name": "Side Control",
+      "relationship": "Target position after successful pass"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Parent position category containing lockdown variation"
+    },
+    {
+      "name": "Knee Slice Pass",
+      "relationship": "Primary passing option after leg extraction"
+    },
+    {
+      "name": "Smash Pass",
+      "relationship": "Alternative passing finish from extraction"
+    },
+    {
+      "name": "Deep Half Guard",
+      "relationship": "Counter position opponent may transition to"
+    },
+    {
+      "name": "Electric Chair",
+      "relationship": "Primary submission threat from lockdown requiring defense"
+    },
+    {
+      "name": "Old School Sweep",
+      "relationship": "Sweep threat to defend against during extraction"
+    },
+    {
+      "name": "Lockdown Break and Pass",
+      "relationship": "Related technique with similar escape mechanics"
+    },
+    {
+      "name": "Crossface Pass",
+      "relationship": "Upper body control method supporting extraction"
+    },
+    {
+      "name": "Darce Choke",
+      "relationship": "Submission opportunity during extraction sequence"
+    }
+  ],
+  "attacker": {
+    "name": "Lockdown Escape to Half Guard Pass Attacker",
+    "description": "How to execute Lockdown Escape to Half Guard Pass in BJJ. Attacking perspective with setup, execution steps, and counters.",
+    "overview": "The Lockdown Escape to Half Guard Pass is the essential counter-technique for the top player trapped in an opponent's lockdown half guard. When your leg is caught in the figure-four lockdown configuration, your mobility is severely compromised and you face constant sweep and submission threats from the Electric Chair, Old School, and whip-up attacks. This technique provides a systematic pathway to extract your trapped leg and immediately advance to side control rather than settling for neutral half guard.\n\nThe key insight is that the lockdown's power derives from the triangled leg configuration gripping your trapped leg. Simply yanking your leg free plays into the lockdown's mechanical strength and risks knee injury. Instead, this technique employs forward pressure to limit the opponent's hip extension, the limp leg concept to reduce grip effectiveness, and systematic breaking of the foot triangle before extraction. The combination of these principles creates the mechanical advantage needed to escape the entanglement safely.\n\nStrategically, this technique transforms a defensive predicament into offensive momentum. By flowing directly from escape into a passing sequence, you capitalize on the momentary disruption caused by breaking the opponent's primary control structure. This prevents them from re-establishing the lockdown or transitioning to alternative guards, converting what could be an exhausting positional battle into efficient advancement to dominant position.",
+    "key_principles": [
+      "Maintain consistent forward chest pressure to limit opponent's ability to extend hips and generate lockdown sweep and submission pressure",
+      "Apply the limp leg concept by completely relaxing your trapped leg to reduce the lockdown's grip effectiveness",
+      "Address the foot triangle configuration first before attempting leg extraction to prevent knee injury and grip strengthening",
+      "Establish and maintain crossface or head control throughout to prevent opponent from achieving optimal sweep angles",
+      "Time extraction attempts during opponent's grip adjustments or attack transitions when the lockdown momentarily loosens",
+      "Transition immediately into passing rather than pausing in half guard to prevent lockdown re-engagement",
+      "Use knee pressure driving toward opponent's hip during extraction to reduce torque on your trapped knee"
+    ],
+    "setup_requirements": [
+      "Trapped in opponent's lockdown from half guard top with one leg caught in their figure-four leg configuration",
+      "Forward pressure established with chest weight distributed across opponent's torso to limit their hip mobility",
+      "Free leg (outside leg) posted wide at approximately 45 degrees for base and stability against sweep attempts",
+      "Upper body control secured through crossface, shoulder pressure, or whizzer to prevent opponent achieving optimal angles",
+      "Recognition that opponent's lockdown is the primary obstacle requiring systematic neutralization before passing"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Establish forward pressure",
+        "description": "Drive your chest weight forward onto opponent's torso while keeping hips low and connected. Your weight should pin their upper body to the mat, limiting their ability to extend their hips for Electric Chair pressure. Establish crossface with your nearside arm driving into their neck and jaw."
+      },
+      {
+        "step_number": 2,
+        "action": "Post wide base",
+        "description": "Position your free leg wide at approximately 45 degrees from your body with toes gripping the mat firmly. This creates a tripod base that prevents the Old School sweep and whip-up while providing stability for the subsequent extraction sequence."
+      },
+      {
+        "step_number": 3,
+        "action": "Limp the trapped leg",
+        "description": "Completely relax your trapped leg, removing all muscular tension from the knee and ankle. This reduces the lockdown's grip effectiveness by eliminating the rigid structure that makes the figure-four entanglement powerful. A relaxed leg slides through the triangle more easily."
+      },
+      {
+        "step_number": 4,
+        "action": "Break the foot triangle",
+        "description": "Use your free hand to reach down and separate opponent's feet where the ankles cross behind your calf. Alternatively, drive your knee toward their hip while pulling your heel upward to force the triangle open through knee pressure. The figure-four must be broken before extraction."
+      },
+      {
+        "step_number": 5,
+        "action": "Extract the leg",
+        "description": "With the foot triangle broken, drive your knee toward opponent's near hip while pulling your heel free from between their legs. Maintain forward chest pressure throughout to prevent re-engagement. The extraction should be smooth and controlled rather than explosive."
+      },
+      {
+        "step_number": 6,
+        "action": "Transition to pass",
+        "description": "As your leg clears the lockdown, immediately drive your knee across opponent's thigh for knee slice position or sprawl your hips for smash pass. Do not pause in half guard—continue directly into passing to establish side control before they recover defensive structure."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Opponent re-engages lockdown during extraction by catching your ankle before it fully clears their legs",
+        "effectiveness": "High",
+        "your_response": "Maintain forward pressure and restart from step 3. Focus on completely breaking the foot triangle and use your hand to guide your foot clear of their legs during extraction.",
+        "targets_outcome": "Lockdown/Top"
+      },
+      {
+        "counter": "Opponent transitions to Deep Half Guard as you break the lockdown by diving underneath toward your far hip",
+        "effectiveness": "Medium",
+        "your_response": "Sprawl hips immediately and establish whizzer control on their underhooking arm. Use your free leg to backstep and prevent their hips from getting under yours. Drive weight forward to flatten them.",
+        "targets_outcome": "Deep Half Guard/Bottom"
+      },
+      {
+        "counter": "Opponent uses the lockdown release to hit Old School sweep by rolling backward with deep underhook",
+        "effectiveness": "Medium",
+        "your_response": "Establish deep whizzer on their underhooking arm before extraction. If they begin rolling, sprawl and use the whizzer to drive them flat rather than following the sweep direction.",
+        "targets_outcome": "Lockdown/Top"
+      },
+      {
+        "counter": "Opponent attempts whip-up sweep by coming up to their side during your extraction",
+        "effectiveness": "Low",
+        "your_response": "Your forward chest pressure should prevent significant elevation. If they begin rising, drive your crossface harder while posting your hand far side for base. Stay heavy and connected.",
+        "targets_outcome": "Lockdown/Top"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Yanking the trapped leg out forcefully without breaking the foot triangle first",
+        "consequence": "Increases torque on your knee joint potentially causing MCL or meniscus injury, and often fails as the lockdown grip strengthens against resistance",
+        "correction": "Always address the foot triangle configuration before extraction. Use hand separation or knee pressure to break the figure-four, then extract smoothly with a relaxed leg."
+      },
+      {
+        "error": "Sitting back or posting hands behind you in response to Electric Chair stretch pressure",
+        "consequence": "Gives opponent ideal angle and leverage for the Electric Chair submission or Old School sweep, dramatically increasing their success probability",
+        "correction": "Maintain forward chest pressure throughout. Your weight should stay over your opponent, not behind you. If stretched uncomfortably, drive forward harder rather than leaning back."
+      },
+      {
+        "error": "Tensing the trapped leg and fighting the lockdown with muscular resistance",
+        "consequence": "Creates a rigid structure that the lockdown grips more effectively, wastes energy rapidly, and often results in opponent extending the Electric Chair further",
+        "correction": "Apply the limp leg concept by completely relaxing your trapped leg. A relaxed leg is much harder to control and creates space for technical extraction."
+      },
+      {
+        "error": "Ignoring upper body control while focusing solely on extracting the trapped leg",
+        "consequence": "Opponent achieves optimal angle for sweeps or submissions, or takes your back during the extraction attempt",
+        "correction": "Maintain crossface, head control, or whizzer throughout the entire extraction. Upper body control limits opponent's options and prevents them from capitalizing on transitions."
+      },
+      {
+        "error": "Pausing in half guard after extracting the leg instead of immediately transitioning to pass",
+        "consequence": "Allows opponent to re-establish lockdown or transition to another guard variation, negating your escape effort",
+        "correction": "Continue directly into passing sequence the moment your leg clears. The momentum from extraction should flow seamlessly into knee slice, smash pass, or leg drag without pause."
+      },
+      {
+        "error": "Attempting extraction when opponent has maximum lockdown extension and pressure engaged",
+        "consequence": "Extraction fails against fully engaged lockdown, wastes significant energy, and often results in deeper entanglement",
+        "correction": "Time extraction with opponent's grip adjustments, sweep attempts, or submission setups. These moments create slight loosening that significantly improves extraction success."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Week 1-2",
+        "focus": "Lockdown mechanics understanding",
+        "description": "Study the lockdown configuration from both perspectives. Practice identifying the foot triangle and understanding how the figure-four creates control. Drill the limp leg concept repeatedly until relaxing the trapped leg becomes automatic. Practice forward pressure maintenance without extraction attempts."
+      },
+      {
+        "phase": "Week 3-4",
+        "focus": "Breaking sequence isolation",
+        "description": "Focus specifically on breaking the foot triangle using both hand separation and knee pressure methods. Partner holds lockdown with 30% resistance while you practice break mechanics. Build muscle memory for the extraction path with knee driving toward hip and heel clearing between legs."
+      },
+      {
+        "phase": "Week 5-6",
+        "focus": "Complete sequence with passing",
+        "description": "Chain the lockdown escape directly into passing sequences. Practice knee slice, smash pass, and leg drag finishes from extraction. Partner provides moderate resistance and attempts basic re-engagement. Develop seamless transitions without pausing in half guard."
+      },
+      {
+        "phase": "Week 7+",
+        "focus": "Live application against lockdown specialists",
+        "description": "Positional sparring starting in Lockdown Top against training partners who actively use the lockdown system. Work the complete defensive and passing sequence against full resistance. Develop recognition of timing windows and counter-to-counter sequences."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the primary goal of Lockdown Escape to Half Guard Pass?",
+        "answer": "The primary goal is to systematically extract your trapped leg from the opponent's lockdown figure-four configuration and immediately transition into a guard pass to achieve side control. Rather than merely escaping to neutral half guard where they can re-engage, the technique channels escape momentum directly into offensive advancement."
+      },
+      {
+        "question": "Why must you break the foot triangle before attempting to extract your trapped leg?",
+        "answer": "The foot triangle is the structural foundation of the lockdown's control. Attempting extraction without breaking it increases torque on your knee joint potentially causing injury, and actually strengthens the opponent's grip as they can resist against your pulling movement. Breaking the triangle first removes the mechanical advantage that makes lockdown effective."
+      },
+      {
+        "question": "What is the limp leg concept and why is it critical for this technique?",
+        "answer": "The limp leg concept involves completely relaxing your trapped leg, removing all muscular tension from knee and ankle. This is critical because a tensed leg creates a rigid structure that the lockdown grips effectively, while a relaxed leg is much harder to control and creates space within the figure-four. The lockdown's power depends on controlling a rigid object—remove rigidity, reduce control."
+      },
+      {
+        "question": "Your opponent starts extending their hips aggressively for Electric Chair pressure—what immediate adjustment do you make?",
+        "answer": "Drive your chest weight forward harder onto their torso while simultaneously posting your free leg wider for increased base. Use your free hand to push their far hip flat to the mat, reducing their extension leverage. Forward pressure directly counters their hip extension and limits the submission threat while you continue working the escape sequence."
+      },
+      {
+        "question": "During extraction, your opponent begins transitioning to Deep Half Guard—how do you respond?",
+        "answer": "Immediately sprawl your hips back and away while establishing whizzer control on their underhooking arm. Do not allow them to fully secure deep half by preventing their hips from getting underneath yours. Use your free leg to backstep and block their hip movement while driving weight forward to flatten them back to the mat."
+      },
+      {
+        "question": "What are the key grips and controls needed throughout this technique?",
+        "answer": "Maintain crossface control with your nearside arm driving into opponent's neck and jaw throughout the sequence. Your farside arm controls their underhook or establishes whizzer. Free hand assists with breaking the foot triangle when needed. Upper body control must be maintained throughout—losing it allows opponent to achieve sweep angles or take your back."
+      },
+      {
+        "question": "Why should you not pause in half guard after successfully extracting your leg?",
+        "answer": "Pausing in half guard allows your opponent to recover and re-establish the lockdown or transition to another guard variation. The momentum from extraction should flow directly into passing. The opponent is momentarily disrupted from losing their primary control structure—capitalize on this window before they can establish new defenses."
+      },
+      {
+        "question": "When is the optimal timing to attempt the lockdown extraction?",
+        "answer": "The optimal timing is when your opponent adjusts their grips, attempts a sweep, or initiates a submission setup. These moments create slight loosening in the lockdown configuration as they redistribute focus and energy. Attempting extraction against a fully engaged, static lockdown has much lower success rates than exploiting these transitional moments."
+      },
+      {
+        "question": "How do you prevent the Old School sweep during your extraction attempt?",
+        "answer": "Establish a deep whizzer on opponent's underhooking arm before beginning extraction. When they attempt to roll backward for Old School, sprawl your hips away while driving your whizzer into them, flattening them rather than following the sweep direction. Your wide base with the free leg provides additional stability against the rolling motion."
+      },
+      {
+        "question": "What determines whether to use hand separation versus knee pressure to break the foot triangle?",
+        "answer": "Use hand separation when you can safely release crossface without opponent achieving sweep angle, or when the triangle is loosely configured and easily accessible. Use knee pressure when maintaining upper body control is critical or when opponent's triangle is deeply set. Knee pressure keeps both hands engaged in control while the mechanics open the triangle."
+      },
+      {
+        "question": "Your opponent secures a deep underhook and begins loading the whip-up—what is your critical first response?",
+        "answer": "Immediately drive heavy crossface pressure into their jaw and neck to flatten their upper body back to the mat, preventing the sit-up motion the whip-up requires. Simultaneously widen your free leg base to absorb the lateral force. If they continue rising, overhook their underhooking arm and drive your shoulder weight into their chest. The whip-up requires elevation—deny vertical space."
+      },
+      {
+        "question": "After breaking the foot triangle, your heel gets caught on opponent's knee during extraction—how do you clear it?",
+        "answer": "Circle your knee in a small arc toward their hip rather than pulling straight back, which creates the catch point. Use your free hand to cup your own heel and guide it over the obstruction while maintaining crossface with your other arm. The circular extraction path avoids the geometry that creates the knee catch and allows smooth clearing without losing upper body control."
+      }
+    ],
+    "safety_considerations": "The Lockdown Escape to Half Guard Pass involves significant torque potential on the trapped knee joint, making proper technique essential for injury prevention. Never attempt to forcefully yank your leg free without first breaking the foot triangle—this can cause MCL, LCL, or meniscus damage. If you feel sharp pain in your knee during the sequence, tap and reset rather than continuing through discomfort. When drilling, partners should apply lockdown pressure progressively, allowing the escaping player to work technique before adding resistance. Practitioners with existing knee injuries should approach this technique cautiously and may need to modify the extraction angle. Communication with training partners is essential throughout to prevent injury."
+  },
+  "defender": {
+    "name": "Lockdown Escape to Half Guard Pass Defender",
+    "description": "How to defend against Lockdown Escape to Half Guard Pass in BJJ. Recognition cues, defensive options, and escape strategies.",
+    "overview": "As the lockdown player (defender), your goal is to prevent the top player from extracting their trapped leg and completing the pass to side control. The lockdown is your primary control mechanism and offensive platform—when the top player begins working to break it, you must recognize their approach and counter appropriately. Your defensive strategy centers on maintaining the integrity of the figure-four triangle, preventing the top player from establishing the forward pressure and crossface that enable extraction, and transitioning to offensive attacks that punish their escape attempts.\n\nThe critical defensive window occurs when the top player begins addressing your foot triangle. At this moment, their attention splits between upper body control and leg extraction, creating opportunities for you to attack with sweeps or deepen your control. Your response should not be purely reactive—the most effective defense is proactive offense. When you feel them relaxing their trapped leg or reaching for your feet, immediately attack with the whip-up, Old School, or transition to Deep Half Guard.\n\nUnderstanding the escape mechanics from the defender's perspective allows you to anticipate each step and insert your counter at the optimal moment. The top player's extraction follows a predictable sequence: forward pressure, limp leg, triangle break, extraction, pass. Your goal is to disrupt this sequence as early as possible, ideally preventing them from ever reaching the triangle break stage by keeping them reactive to your offensive threats.",
+    "key_principles": [
+      "Maintain maximum lockdown tension by keeping ankles tightly crossed and actively pulling their heel toward your hip with flexed feet throughout",
+      "Fight for and maintain the underhook on the trapped-leg side to prevent crossface establishment and enable sweep attacks",
+      "Stay proactively offensive rather than passively holding lockdown—attack with sweeps to keep opponent defending instead of extracting",
+      "Monitor opponent's free hand constantly—when it reaches toward your feet to break the triangle, immediately attack with upper body offense",
+      "Use hip extension aggressively to off-balance opponent and prevent them from settling the forward pressure needed for extraction",
+      "If lockdown integrity is compromised, transition immediately to Deep Half Guard rather than fighting a losing battle to re-establish the triangle"
+    ],
+    "recognition_cues": [
+      "Opponent begins driving heavy forward chest pressure while simultaneously relaxing their trapped leg—the combination of these two actions signals the start of the extraction sequence",
+      "Opponent's free hand releases upper body control and reaches toward your feet or ankles, indicating they are targeting the foot triangle for separation",
+      "Opponent posts their free leg significantly wider than normal base position, creating the tripod stability needed to resist your sweep attempts during extraction",
+      "Opponent shifts weight distribution forward and slightly toward the crossface side, loading pressure onto your upper body to pin you flat while working the leg free",
+      "You feel reduced tension in opponent's trapped leg—the limp leg concept removes the rigid structure you are controlling, making the lockdown feel less effective"
+    ],
+    "defensive_options": [
+      {
+        "action": "Tighten lockdown and extend hips aggressively while fighting for underhook to load Electric Chair or Old School sweep",
+        "when_to_use": "Early in the escape sequence when opponent first begins applying forward pressure and before they address the foot triangle",
+        "targets_outcome": "Lockdown/Top",
+        "if_successful": "Opponent is forced to abandon extraction and defend sweep, resetting to neutral lockdown position where you retain offensive initiative",
+        "risk": "If opponent has already established deep crossface, your extension may be countered by their forward pressure and flattening"
+      },
+      {
+        "action": "Transition to Deep Half Guard by releasing lockdown and diving underneath opponent's hips with deep underhook on far leg",
+        "when_to_use": "When opponent has successfully broken or is about to break the foot triangle and lockdown re-engagement is unlikely",
+        "targets_outcome": "Deep Half Guard/Bottom",
+        "if_successful": "You establish a new offensive guard position with powerful sweep leverage, converting the lockdown loss into a positionally advantageous transition",
+        "risk": "If opponent reads the transition and sprawls early, you may end up flattened underneath without proper deep half structure"
+      },
+      {
+        "action": "Re-engage lockdown by recapturing ankle triangle before opponent's heel fully clears your legs",
+        "when_to_use": "During the extraction phase when opponent's foot is partially free but has not yet cleared completely",
+        "targets_outcome": "Lockdown/Top",
+        "if_successful": "Lockdown is fully re-established, negating opponent's escape effort and forcing them to restart the entire extraction sequence",
+        "risk": "If opponent anticipates re-engagement and uses their hand to guide their foot clear, you waste energy on a failed recapture"
+      },
+      {
+        "action": "Execute whip-up sweep by coming up explosively to elbow and driving into opponent when their hand drops to break foot triangle",
+        "when_to_use": "The moment opponent releases upper body control to reach for your feet—their base is momentarily compromised",
+        "targets_outcome": "Lockdown/Top",
+        "if_successful": "You achieve sweep to top position or dogfight, completely reversing the positional dynamic and punishing their extraction attempt",
+        "risk": "If opponent maintains crossface while reaching with other hand, your elevation attempt may be stuffed and you lose energy"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Lockdown/Top",
+        "how": "Maintain tight ankle triangle by actively squeezing knees together and pulling opponent's heel toward your hip. When they begin extraction, immediately attack with Old School sweep or whip-up to force them to defend rather than extract. Fight for the underhook constantly and use hip extension to disrupt their forward pressure. If they break the triangle, immediately re-engage by recapturing their ankle before full clearance."
+      },
+      {
+        "outcome": "Deep Half Guard/Bottom",
+        "how": "When you sense the lockdown is about to be broken—their hand is on your feet, the triangle is loosening—proactively release the lockdown and thread your body underneath their hips. Secure a deep underhook on their far leg and position your head and shoulder against their inner thigh. This converts a losing defensive exchange into a new offensive platform with powerful sweep leverage."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Holding lockdown passively without attacking when opponent begins extraction sequence",
+        "consequence": "Opponent methodically works through the extraction steps without pressure, successfully breaking triangle and passing to side control with minimal resistance",
+        "correction": "The moment you feel extraction beginning, immediately attack with sweeps or submissions. Your best defense is proactive offense that forces opponent to abandon extraction and defend."
+      },
+      {
+        "error": "Maintaining a loose lockdown with ankles uncrossed or feet not flexed, allowing easy triangle break",
+        "consequence": "Opponent separates feet with minimal effort and extracts leg quickly, bypassing the most difficult phase of the escape",
+        "correction": "Keep ankles tightly crossed at all times with top foot hooked deep and actively pulling. Squeeze knees together and flex feet to maintain maximum compression on the trapped leg."
+      },
+      {
+        "error": "Allowing opponent to establish deep crossface without fighting for underhook or framing",
+        "consequence": "Crossface flattens you to the mat, eliminates your hip mobility for extensions, and removes your ability to execute sweeps or transitions",
+        "correction": "Prioritize the underhook battle from the start. Use frames against their bicep and shoulder to prevent crossface establishment. If crossface is achieved, immediately whip up into opponent rather than accepting the flattened position."
+      },
+      {
+        "error": "Attempting to hold lockdown after foot triangle is clearly broken instead of transitioning to Deep Half Guard",
+        "consequence": "You fight a losing battle trying to re-establish a broken configuration while opponent extracts and passes, wasting energy on a position that no longer exists",
+        "correction": "Recognize when the lockdown is compromised beyond recovery and immediately transition to Deep Half Guard. The transition must be decisive—dive underneath their hips and secure the far leg underhook before they can sprawl."
+      },
+      {
+        "error": "Extending lockdown without coordinating upper body attacks, giving opponent a predictable pattern to time extraction",
+        "consequence": "Opponent learns your extension rhythm and times their triangle break or extraction during your recovery between extensions",
+        "correction": "Coordinate lockdown extensions with sweep attempts—extend while simultaneously driving for whip-up or rolling for Old School. Uncoordinated extensions are wasted energy that actually help the opponent time their escape."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is your primary defensive strategy when you feel the top player beginning the lockdown extraction sequence?",
+        "answer": "Your primary strategy should be proactive offense rather than passive defense. The moment you sense extraction beginning—forward pressure increasing, their leg relaxing, hand reaching for your feet—immediately attack with sweeps or deepen your control. Attack with the whip-up when their hand drops to your feet, or load the Old School when they drive forward. Forcing them to defend your attacks interrupts their extraction sequence."
+      },
+      {
+        "question": "The top player reaches down to separate your feet—what immediate opportunity does this create?",
+        "answer": "When the top player reaches for your feet, they sacrifice upper body control momentarily. This creates an immediate whip-up sweep opportunity—come up explosively to your elbow and drive into them while their base is compromised by the reaching hand. Their attention split between feet and balance makes this the highest-percentage counter-attack timing available from lockdown bottom."
+      },
+      {
+        "question": "When should you abandon lockdown retention and transition to Deep Half Guard instead?",
+        "answer": "Transition to Deep Half Guard when your foot triangle has been broken and opponent has begun extracting their heel. Rather than fighting to re-engage a compromised lockdown, proactively dive underneath their hips while they are focused on completing extraction. The transition must happen before their leg fully clears—once they extract completely and begin passing, the Deep Half entry window closes rapidly."
+      },
+      {
+        "question": "How do you prevent the top player from establishing the forward pressure that enables extraction?",
+        "answer": "Use aggressive hip extension through the lockdown to constantly off-balance the top player backward, preventing them from settling their chest weight onto your torso. Fight for the underhook to create frames and angles that make forward pressure difficult to maintain. When they do establish forward pressure, immediately whip up into them using their own committed weight as momentum for the sweep."
+      },
+      {
+        "question": "Your lockdown triangle has been broken but opponent's heel hasn't cleared yet—what is the optimal response?",
+        "answer": "This is a critical decision point with two viable options depending on timing. If you can immediately recapture the ankle triangle by squeezing your legs together and re-hooking, attempt re-engagement. If the foot is already past your knee line and re-engagement is unlikely, commit fully to the Deep Half Guard transition by threading underneath their hips and securing the far leg underhook. Hesitating between these options wastes the narrow window for either."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Week 1-2",
+        "focus": "Lockdown retention and recognition",
+        "description": "Practice maintaining tight lockdown against progressive extraction attempts. Focus on keeping ankles crossed, feet flexed, and knees squeezed. Develop sensitivity to the tactile cues that indicate extraction is beginning—feeling the trapped leg relax, sensing forward pressure increase, detecting the hand reaching for your feet. No counter-attacks yet, purely retention."
+      },
+      {
+        "phase": "Week 3-4",
+        "focus": "Counter-attack timing from lockdown",
+        "description": "Drill the whip-up and Old School sweep specifically timed to the extraction sequence. Partner works the extraction while you practice attacking when their hand drops to your feet or when they drive forward. Develop the reflexive connection between feeling extraction cues and launching counter-attacks."
+      },
+      {
+        "phase": "Week 5-6",
+        "focus": "Deep Half Guard transition",
+        "description": "Practice the transition from compromised lockdown to Deep Half Guard. Partner successfully breaks your triangle while you drill the dive underneath, far leg underhook, and proper head positioning. Develop the decision-making for when to hold lockdown versus when to transition. Chain Deep Half entries with sweep attempts."
+      },
+      {
+        "phase": "Week 7+",
+        "focus": "Live defensive sparring against extraction specialists",
+        "description": "Positional sparring starting in lockdown bottom against partners who have trained the extraction sequence. Work the complete defensive decision tree including retention, counter-attacks, and transitions under full resistance. Develop real-time recognition and appropriate response selection."
+      }
+    ]
+  },
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Standing Lockdown Break",
+      "description": "When opponent's lockdown is less secure, stand up on your free leg to break the position. Post wide, drive hips forward, and use the standing posture to strip the lockdown through gravity and hip positioning. Immediately drop back into passing position once leg clears.",
+      "when_to_use": "When opponent's lockdown is shallow, their figure-four is not fully secured, or when you have strong base and can stand without being swept"
+    },
+    {
+      "variant_name": "Backstep Extraction",
+      "description": "Instead of extracting forward through pressure, backstep your free leg behind you while maintaining crossface control. The rotation creates an angle that makes the lockdown configuration geometrically difficult to maintain, opening the triangle without hand intervention.",
+      "when_to_use": "When opponent has strong foot triangle resisting hand separation, or when you prefer rotational escapes over linear extraction methods"
+    },
+    {
+      "variant_name": "Darce Counter Setup",
+      "description": "If opponent has deep underhook during lockdown, use the extraction sequence to shoot your arm under their neck for Darce choke setup. The lockdown break transitions directly into submission rather than side control.",
+      "when_to_use": "When opponent prioritizes underhook over lockdown maintenance, creating the arm-in configuration ideal for Darce entry"
+    }
+  ],
+  "position_integration": "The Lockdown Escape to Half Guard Pass represents the critical defensive response to the 10th Planet lockdown system, transforming a compromised position into offensive advancement. Within the half guard hierarchy, this technique bridges the gap between being trapped in an opponent's control system and establishing your own dominant position. The technique integrates with the broader passing game by providing a direct pathway from a defensive predicament to side control, bypassing the neutral half guard exchange entirely. Understanding this technique is essential for anyone facing lockdown practitioners regularly, as the lockdown system has become increasingly popular across competition and training. The principles of forward pressure, systematic control breaking, and immediate transition apply broadly to other trapped-leg scenarios in half guard."
+}

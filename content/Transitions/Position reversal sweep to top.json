@@ -1,0 +1,403 @@
+{
+  "name": "Position reversal sweep to top",
+  "description": "Master 50-50 Guard reversal sweep in BJJ. Hip elevation technique from bottom to top position. Success rates: Beginner 30%, Intermediate 50%, Advanced 65%.",
+  "tags": [
+    "bjj",
+    "transition",
+    "sweep",
+    "50-50",
+    "reversal",
+    "leg entanglement"
+  ],
+  "from_position": "50-50 Guard/Bottom",
+  "outcomes": [
+    {
+      "to": "50-50 Guard/Top",
+      "probability": 65,
+      "result": "success"
+    },
+    {
+      "to": "50-50 Guard/Bottom",
+      "probability": 25,
+      "result": "failure"
+    },
+    {
+      "to": "Inside Ashi-Garami/Bottom",
+      "probability": 10,
+      "result": "counter"
+    }
+  ],
+  "success_rate": 58,
+  "overview": "The Position Reversal Sweep from 50-50 Guard Bottom is a fundamental technique for escaping the defensive 50-50 position and achieving top control. This sweep exploits the symmetrical nature of the 50-50 configuration, where small positional advantages can dramatically shift the control hierarchy. The technique centers on gaining inside position control with your leg while using hip elevation and directional momentum to reverse your opponent's top pressure.\n\nFrom the bottom 50-50 position, you face significant disadvantage due to your opponent's gravitational control and heel hook threat. The reversal sweep provides an escape pathway that not only removes you from danger but places you in an offensive position. The key mechanical principle involves breaking your opponent's base through inside leg control combined with hip elevation that lifts their weight while you rotate underneath. Timing is critical—the sweep works best when your opponent commits weight forward or reaches aggressively for heel control, momentarily compromising their base stability.\n\nThis sweep integrates into the modern leg lock game as an essential defensive tool. Rather than simply extracting legs and disengaging, the reversal allows you to turn a bad position into an attacking platform. Once on top, you inherit all the offensive opportunities of top 50-50 including heel hooks, kneebars, and back takes. The sweep represents the principle that every defensive position should contain offensive counter-opportunities.",
+  "related_content": [
+    {
+      "name": "50-50 Guard",
+      "relationship": "Starting position (bottom) and target position (top)"
+    },
+    {
+      "name": "Inside Heel Hook",
+      "relationship": "Primary follow-up submission after achieving top position"
+    },
+    {
+      "name": "Counter heel hook",
+      "relationship": "Alternative attack when sweep is defended and opponent's heel exposed"
+    },
+    {
+      "name": "Back Take from 50-50",
+      "relationship": "Chain attack option from top position after sweep"
+    },
+    {
+      "name": "50-50 Guard to Single Leg X-Guard",
+      "relationship": "Alternative escape when reversal sweep is blocked"
+    },
+    {
+      "name": "Extract legs and stand up",
+      "relationship": "Alternative escape option when sweep unavailable"
+    },
+    {
+      "name": "Kneebar from 50-50",
+      "relationship": "Follow-up submission option after achieving top position"
+    },
+    {
+      "name": "Single Leg X-Guard",
+      "relationship": "Transition target when opponent's low base prevents reversal"
+    },
+    {
+      "name": "Inside Ashi-Garami",
+      "relationship": "Counter position opponent may achieve if they disengage during sweep and re-entangle"
+    },
+    {
+      "name": "Calf Slicer from 50-50",
+      "relationship": "Alternative submission from top 50-50 after successful sweep"
+    }
+  ],
+  "attacker": {
+    "name": "Position reversal sweep to top Attacker",
+    "description": "How to execute Position reversal sweep to top in BJJ. Attacking perspective with setup, execution steps, and counters.",
+    "overview": "The Position Reversal Sweep from 50-50 Guard Bottom is a fundamental technique for escaping the defensive 50-50 position and achieving top control. This sweep exploits the symmetrical nature of the 50-50 configuration, where small positional advantages can dramatically shift the control hierarchy. The technique centers on gaining inside position control with your leg while using hip elevation and directional momentum to reverse your opponent's top pressure.\n\nFrom the bottom 50-50 position, you face significant disadvantage due to your opponent's gravitational control and heel hook threat. The reversal sweep provides an escape pathway that not only removes you from danger but places you in an offensive position. The key mechanical principle involves breaking your opponent's base through inside leg control combined with hip elevation that lifts their weight while you rotate underneath. Timing is critical—the sweep works best when your opponent commits weight forward or reaches aggressively for heel control, momentarily compromising their base stability.\n\nThis sweep integrates into the modern leg lock game as an essential defensive tool. Rather than simply extracting legs and disengaging, the reversal allows you to turn a bad position into an attacking platform. Once on top, you inherit all the offensive opportunities of top 50-50 including heel hooks, kneebars, and back takes. The sweep represents the principle that every defensive position should contain offensive counter-opportunities.",
+    "key_principles": [
+      "Inside position control must be established or matched before initiating the sweep—without inside leg control, the reversal probability drops significantly",
+      "Hip elevation provides the mechanical advantage to lift opponent's weight off your torso and create sweeping momentum",
+      "Directional rotation follows the line of your inside leg control, sweeping opponent perpendicular to their base",
+      "Grip fighting on opponent's heel simultaneously defends against heel hook and creates anchor point for sweep mechanics",
+      "Timing the sweep when opponent reaches forward for heel control creates optimal window as their base is compromised",
+      "Maintain leg entanglement throughout the sweep to prevent opponent from disengaging and retain attacking position on top"
+    ],
+    "setup_requirements": [
+      "Inside position control established or actively being recovered with your inside leg pressing against opponent's leg structure",
+      "Defensive grips on opponent's hands preventing them from securing heel control",
+      "Hips mobile and not pinned flat—maintain slight angle to enable hip elevation",
+      "Recognition of opponent's weight distribution to identify optimal sweep timing when they lean forward",
+      "Mental commitment to complete reversal rather than passive defense"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Establish inside control",
+        "description": "Fight to position your inside leg (typically left leg) with shin or calf pressing inside opponent's leg structure, creating the inside control angle that is prerequisite for successful reversal"
+      },
+      {
+        "step_number": 2,
+        "action": "Control opponent's hands",
+        "description": "Use two-on-one grip fighting to break opponent's heel control attempts while establishing your own grip on their ankle or heel area, preventing their submission threat while creating sweep anchor"
+      },
+      {
+        "step_number": 3,
+        "action": "Create hip angle",
+        "description": "Shrimp your hips slightly to the outside, creating an angle that enables explosive hip elevation while preventing opponent from flattening you with direct downward pressure"
+      },
+      {
+        "step_number": 4,
+        "action": "Elevate hips explosively",
+        "description": "Drive your hips upward toward the ceiling while pressing your inside leg firmly against opponent's leg structure, lifting their weight off your torso and breaking their base stability"
+      },
+      {
+        "step_number": 5,
+        "action": "Rotate and follow",
+        "description": "As opponent's weight lifts, rotate your body in the direction of your inside leg control, using the momentum to sweep them sideways while you follow their movement to come on top"
+      },
+      {
+        "step_number": 6,
+        "action": "Secure top position",
+        "description": "As you complete the rotation to top position, immediately drive your hips forward and down to establish top 50-50 control, preventing opponent from re-reversing with the same technique"
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Opponent drops hips and widens base to prevent elevation",
+        "effectiveness": "High",
+        "your_response": "If opponent drops hips low, switch to leg extraction escape or transition to Single Leg X-Guard where their low base becomes vulnerability",
+        "targets_outcome": "50-50 Guard/Bottom"
+      },
+      {
+        "counter": "Opponent posts hand on mat to block rotation",
+        "effectiveness": "Medium",
+        "your_response": "Attack the posted arm by controlling wrist and continuing rotation—posted arm creates Kimura or armbar opportunity if trapped during sweep",
+        "targets_outcome": "50-50 Guard/Bottom"
+      },
+      {
+        "counter": "Opponent disengages legs to avoid being swept",
+        "effectiveness": "Medium",
+        "your_response": "If opponent extracts legs, immediately pursue standing position or re-guard—their disengagement eliminates their offensive threat as well",
+        "targets_outcome": "50-50 Guard/Bottom"
+      },
+      {
+        "counter": "Opponent counters with heel hook attack during your elevation, threatening submission mid-sweep",
+        "effectiveness": "High",
+        "your_response": "Immediately abort the sweep and prioritize heel defense by rotating your knee inward and stripping their grip with two-on-one hand fighting before reattempting",
+        "targets_outcome": "Inside Ashi-Garami/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Attempting sweep without inside position control",
+        "consequence": "Sweep fails as opponent's inside control anchors them in place and may expose your heel to attack",
+        "correction": "Always establish or actively fight for inside leg control before committing to the sweep—this is non-negotiable prerequisite"
+      },
+      {
+        "error": "Remaining flat on back without creating hip angle",
+        "consequence": "Cannot generate hip elevation power needed for the sweep, opponent maintains heavy pressure control",
+        "correction": "Create slight angle by shrimping before elevation—flat hips have no mechanical advantage for explosive upward movement"
+      },
+      {
+        "error": "Releasing grip control on opponent's hands during sweep",
+        "consequence": "Opponent secures heel hook grip during your sweep attempt, turning your offense into their submission",
+        "correction": "Maintain two-on-one grip fighting throughout—never sacrifice heel defense for sweep execution"
+      },
+      {
+        "error": "Stopping momentum halfway through rotation",
+        "consequence": "Position stalls in neutral where either practitioner can complete reversal, negating your timing advantage",
+        "correction": "Commit fully to the sweep once initiated—partial execution is worse than not attempting"
+      },
+      {
+        "error": "Failing to secure top position immediately after sweep",
+        "consequence": "Opponent immediately re-reverses using the same technique, returning you to bottom position",
+        "correction": "Drive hips forward and establish top pressure within first second of completing sweep to prevent re-reversal"
+      },
+      {
+        "error": "Sweeping in wrong direction relative to inside leg positioning",
+        "consequence": "Rotation fights against your own inside leg anchor, drastically reducing sweep power and likely stalling in neutral",
+        "correction": "Always rotate in the direction your inside leg points—if left leg has inside position, sweep to the left; never sweep against your own structural advantage"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Week 1-2",
+        "focus": "Fundamentals",
+        "description": "Practice inside position control mechanics and hip elevation without resistance. Focus on feeling the correct angle for hip drive and understanding how inside control creates sweep direction."
+      },
+      {
+        "phase": "Week 3-4",
+        "focus": "Timing",
+        "description": "Partner provides light top pressure while you identify optimal timing windows. Practice recognizing when opponent reaches forward and their base becomes vulnerable to sweep."
+      },
+      {
+        "phase": "Week 5-6",
+        "focus": "Combinations",
+        "description": "Integrate sweep with heel hook defense chain. Practice flowing between sweep attempt, counter heel hook when they overreach, and leg extraction when sweep is blocked."
+      },
+      {
+        "phase": "Week 7+",
+        "focus": "Live application",
+        "description": "Apply sweep in live rolling from bottom 50-50. Focus on recognizing real-time opportunities and executing under full resistance and time pressure."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the primary goal of the position reversal sweep from 50-50 bottom?",
+        "answer": "The primary goal is to escape the defensive bottom 50-50 position and achieve top control where you gain offensive advantages including heel hook opportunities, kneebar access, and back take options while removing yourself from submission danger."
+      },
+      {
+        "question": "Why is inside position control critical before attempting this sweep?",
+        "answer": "Inside position control determines sweep direction and success probability. Your inside leg creates the anchor point around which the sweep rotates. Without inside control, your sweep lacks mechanical advantage and opponent's inside leg blocks your rotation. Attempting to sweep against superior inside control typically fails and may expose your heel."
+      },
+      {
+        "question": "Your opponent drops their hips and widens their base when you attempt elevation—what adjustment should you make?",
+        "answer": "When opponent drops hips low, the reversal sweep becomes low percentage. Switch strategies to either leg extraction escape to standing or transition to Single Leg X-Guard by using their low base against them. Their heavy hips position actually facilitates Single Leg X entry because their weight is committed downward."
+      },
+      {
+        "question": "What are the essential grips needed during the reversal sweep?",
+        "answer": "Two-handed control fighting opponent's grip on your heel is essential throughout. One hand should cup or control their gripping hand while the other controls their wrist or forearm. These grips serve dual purpose: defending against heel hook and creating anchor point for sweep mechanics. Never release both grips simultaneously."
+      },
+      {
+        "question": "When is the optimal timing window to initiate this sweep?",
+        "answer": "The optimal timing is when opponent reaches forward aggressively to attack your heel. This forward weight commitment compromises their base stability and creates momentary vulnerability. Their hands busy reaching for heel means reduced ability to post and stop the rotation. This timing principle applies across all grappling—attack when opponent is in transition."
+      },
+      {
+        "question": "What is the most critical action immediately after completing the sweep rotation?",
+        "answer": "Immediately drive hips forward and down to establish heavy top pressure within the first second. Failing to secure top position allows opponent to immediately re-reverse using the same sweep mechanics. The brief moment after sweep completion is highest vulnerability for re-reversal."
+      },
+      {
+        "question": "Your opponent posts their hand on the mat to stop your sweep rotation—how should you respond?",
+        "answer": "The posted hand creates arm attack opportunity. Control their wrist with your hands while continuing the sweep rotation. Their posted arm becomes trapped as you complete the sweep, potentially exposing Kimura grip or armbar depending on arm angle. Their defense becomes your offense."
+      },
+      {
+        "question": "What direction should the sweep rotation follow relative to your inside leg?",
+        "answer": "The sweep rotation follows the line of your inside leg control. If your left leg has inside position, you rotate to your left, sweeping opponent in that direction. Your inside leg acts as the pivot point around which the sweep mechanics operate. Sweeping against your inside leg direction has very low success probability."
+      },
+      {
+        "question": "Your opponent threatens a heel hook while you are mid-elevation—should you continue the sweep or abort?",
+        "answer": "Abort the sweep immediately and prioritize heel defense. Finishing the rotation under active heel hook tension risks catastrophic knee injury as the rotational force compounds the heel hook torque. Strip their heel grip with two-on-one hand fighting, rotate your knee inward to relieve pressure, and only reattempt the sweep once your heel is safe. No positional gain is worth a knee injury."
+      },
+      {
+        "question": "What hip movement creates the mechanical advantage for this sweep?",
+        "answer": "The critical hip movement is an explosive upward bridge combined with lateral rotation. First, shrimp slightly to create an angle that loads your hip muscles. Then drive hips explosively toward the ceiling to lift opponent's weight off your torso. The upward bridge breaks their base, and the subsequent lateral rotation in the direction of your inside leg converts vertical force into sweeping momentum. Without the initial angle creation, the bridge lacks sufficient power."
+      },
+      {
+        "question": "If the sweep is blocked but opponent's legs remain entangled, what chain attacks become available?",
+        "answer": "When the sweep stalls but entanglement remains, several chain attacks open: counter heel hook becomes available if opponent over-committed their hands defending the sweep rather than protecting their own heel; transition to Single Leg X-Guard by using their committed weight against them; or reattempt the sweep from a different angle after resetting hip position. The key is recognizing that a blocked sweep is not a dead end but a transition point within the 50-50 system."
+      }
+    ],
+    "safety_considerations": "This sweep involves dynamic hip elevation and rotation with entangled legs, creating potential for knee stress if executed incorrectly. Always ensure your knee tracks in natural alignment during elevation—avoid twisting motions that could stress the MCL or meniscus. If opponent has deep heel hook control, prioritize defending the heel over completing the sweep, as finishing the rotation under heel hook tension can cause catastrophic knee injury. Practice initially at slow speed to develop proper mechanics before adding explosiveness. Tap early if you feel any heel hook tension during the sweep attempt."
+  },
+  "defender": {
+    "name": "Position reversal sweep to top Defender",
+    "description": "How to defend against Position reversal sweep to top in BJJ. Recognition cues, defensive options, and escape strategies.",
+    "overview": "Defending the Position Reversal Sweep from 50-50 Guard Top requires understanding the mechanical triggers that enable the sweep and preemptively denying them. As the top player in 50-50, you hold gravitational advantage and offensive initiative, but the symmetrical nature of the position means your opponent can reverse you with relatively small positional adjustments. The sweep relies on three sequential elements: inside position recovery, hip elevation, and directional rotation. Your defensive strategy must interrupt at least one of these elements before momentum builds.\n\nThe most effective defensive approach is proactive rather than reactive. Maintaining heavy hip pressure and inside position control prevents the sweep conditions from developing in the first place. When you feel your opponent fighting for inside position or creating hip angle, immediately address these threats before they chain into the full sweep. Your weight distribution is your primary defensive weapon—keeping hips low and wide makes the elevation component mechanically impossible. Simultaneously, pursuing your own offensive submissions forces the bottom player to defend rather than initiate sweeps, creating a proactive defensive cycle where your offense is your best defense.",
+    "key_principles": [
+      "Maintain dominant inside position control at all times—this is the single most important factor preventing the sweep from being initiated",
+      "Keep hips heavy with constant downward pressure to deny the elevation component that powers the sweep mechanics",
+      "Widen your base laterally when you feel opponent fighting for hip angle, making yourself harder to tip in any direction",
+      "Continue pursuing offensive submissions to force opponent into defensive mode rather than allowing them space to set up the reversal",
+      "Monitor opponent's hip angle continuously—any shrimping motion signals imminent sweep attempt and requires immediate weight adjustment",
+      "Control opponent's grip fighting by securing your own heel attack grips, which simultaneously threatens them and prevents them from establishing sweep anchors"
+    ],
+    "recognition_cues": [
+      "Opponent begins aggressively fighting for inside leg position, pressing their shin or calf against the inside of your leg structure to gain the inside control angle",
+      "Opponent creates hip angle by shrimping to the outside rather than remaining flat—this angle is the mechanical prerequisite for explosive hip elevation",
+      "Opponent's hands shift from passive heel defense to active two-on-one grip fighting on your wrists, indicating they are preparing offensive action rather than simply surviving",
+      "Opponent's hips begin elevating even slightly off the mat, signaling the initiation of the sweep—this is the last moment to effectively counter before momentum builds"
+    ],
+    "defensive_options": [
+      {
+        "action": "Drop hips low and widen base immediately upon feeling opponent create hip angle or fight for inside position",
+        "when_to_use": "As soon as you recognize any of the sweep setup cues: inside position fight, hip angle creation, or grip fighting escalation",
+        "targets_outcome": "50-50 Guard/Bottom",
+        "if_successful": "Sweep attempt is denied entirely, opponent remains on bottom with no elevation possible, and you maintain top control with offensive initiative",
+        "risk": "Dropping hips low temporarily reduces your own submission leverage and may allow opponent to transition to Single Leg X-Guard if your weight commits too far forward"
+      },
+      {
+        "action": "Post your hand on the mat on the side opponent is rotating toward to create structural block against the sweep direction",
+        "when_to_use": "When opponent has already begun the rotation phase and hip elevation is in progress—this is a late-stage defensive reaction",
+        "targets_outcome": "50-50 Guard/Bottom",
+        "if_successful": "Rotation is physically blocked by your posted arm, sweep stalls, and you can reset to top position with hip pressure",
+        "risk": "Posted arm becomes vulnerable to Kimura or wrist control if opponent traps it during continued rotation attempt"
+      },
+      {
+        "action": "Disengage legs entirely by extracting from the 50-50 entanglement and resetting to a neutral or passing position",
+        "when_to_use": "When opponent has established strong inside position and hip angle making the sweep highly likely—sometimes the best defense is disengagement",
+        "targets_outcome": "50-50 Guard/Bottom",
+        "if_successful": "You escape the entanglement entirely and can re-engage from standing or pursue guard passing from a neutral position",
+        "risk": "Disengagement eliminates your own offensive position and heel hook opportunities, and opponent may also stand creating a neutral reset"
+      },
+      {
+        "action": "Attack opponent's heel aggressively during their sweep setup to force them to abandon the sweep and defend the submission",
+        "when_to_use": "When you recognize early sweep setup cues but still have heel access—forcing a defensive reaction interrupts their offensive sequence",
+        "targets_outcome": "Inside Ashi-Garami/Bottom",
+        "if_successful": "Opponent must abandon sweep setup to defend heel hook, potentially transitioning you into a more dominant leg entanglement as they scramble to protect their heel",
+        "risk": "Reaching forward for heel exposes your own base and may actually provide the timing window opponent needs if your attack is not committed enough"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "50-50 Guard/Bottom",
+        "how": "Deny the sweep entirely by maintaining heavy hip pressure, inside position control, and wide base. Address sweep setup cues immediately upon recognition—drop hips, widen base, and re-establish downward pressure before opponent can build elevation momentum. The goal is to return to status quo where you maintain top control."
+      },
+      {
+        "outcome": "Inside Ashi-Garami/Bottom",
+        "how": "When opponent commits heavily to the sweep and creates space in the entanglement, use their positional commitment against them by transitioning to Inside Ashi-Garami. As they rotate and shift weight for the sweep, disengage from 50-50 configuration and re-entangle their leg in Inside Ashi where you have superior submission access. Their sweep attempt created the opening you needed for a more dominant position."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Allowing opponent to establish inside position without contesting it",
+        "consequence": "Inside position gives opponent the anchor point and directional control needed for the sweep—once they have it, defending the sweep becomes exponentially harder",
+        "correction": "Fight for inside position constantly as a baseline habit in 50-50 top. Your inside leg should always be pressing for dominant inside angle. Never concede inside position passively."
+      },
+      {
+        "error": "Maintaining high hips or light pressure while focusing exclusively on heel attack",
+        "consequence": "Light hips make elevation trivially easy for the bottom player—they need very little force to lift you when your weight is not driving downward",
+        "correction": "Balance offensive heel hunting with constant downward hip pressure. Even while reaching for submissions, keep your pelvis driving into their lower abdomen. Heavy hips are your first line of sweep defense."
+      },
+      {
+        "error": "Reacting to the sweep only after opponent has already elevated and begun rotation",
+        "consequence": "Late reaction means the sweep has already built momentum and is very difficult to stop—posting or base-widening at this stage often fails against committed sweeps",
+        "correction": "React to the setup cues, not the sweep itself. Address inside position fighting, hip angle creation, and grip changes immediately. Defending the precursors is far easier than defending the sweep in progress."
+      },
+      {
+        "error": "Posting with arm to block sweep without protecting the arm from trapping",
+        "consequence": "Posted arm becomes trapped by opponent's grip control during continued rotation, exposing Kimura or wrist lock vulnerability that is worse than being swept",
+        "correction": "If you must post to block rotation, keep your posted arm structurally strong with elbow tight and wrist aligned. Immediately retract the posting arm once rotation pressure stops rather than leaving it extended where opponent can isolate it."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the earliest recognition cue that your opponent is setting up the reversal sweep from bottom 50-50?",
+        "answer": "The earliest cue is opponent fighting aggressively for inside leg position by pressing their shin or calf against the inside of your leg structure. This precedes all other sweep components—hip angle, grip fighting, and elevation. Addressing inside position recovery immediately prevents the entire sweep chain from developing. If they cannot establish inside control, the sweep has near-zero probability of success."
+      },
+      {
+        "question": "Why is maintaining heavy hip pressure the most effective passive defense against this sweep?",
+        "answer": "Heavy hip pressure directly denies the elevation component that provides the mechanical force for the sweep. The sweep requires the bottom player to lift your weight upward before rotating—without successful elevation, no rotation is possible. Constant downward hip pressure through your pelvis into their lower abdomen means they must generate enough force to lift your entire bodyweight, which is exponentially harder than lifting light hips. This makes elevation the highest-energy component for the attacker."
+      },
+      {
+        "question": "Your opponent has established inside position and created hip angle—what is your defensive priority sequence?",
+        "answer": "First, immediately drop your hips and widen your base to deny the elevation component even though they have inside position. Second, address the inside position by fighting your own leg back to inside control angle. Third, consider attacking their heel aggressively to force them back into defensive mode. Do not attempt all three simultaneously—the elevation denial is most urgent because once they elevate, the sweep becomes very difficult to stop regardless of other factors."
+      },
+      {
+        "question": "When should you consider disengaging from 50-50 rather than defending the sweep in place?",
+        "answer": "Disengage when opponent has established clear inside position advantage, created significant hip angle, and your defensive adjustments have failed to deny these conditions. At that point, the sweep probability is very high and continued resistance risks being swept to a worse position. Disengagement sacrifices your top offensive position but resets to neutral, which is better than being reversed to bottom 50-50 where you face the same heel hook threats you were previously applying."
+      },
+      {
+        "question": "Your opponent begins elevating their hips while you are reaching for their heel—should you complete the heel attack or address the sweep?",
+        "answer": "Address the sweep immediately by driving your hips back down and widening your base. An in-progress heel attack that has not secured control will not finish faster than the sweep completes. If you had strong heel control already established, the sweep would be unlikely—the fact that they are elevating means your heel attack is insufficiently developed. Prioritize position over a speculative submission attempt. You can always re-attack the heel once you have re-established stable top position."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Week 1-2",
+        "focus": "Recognition drilling",
+        "description": "Partner slowly performs each sweep setup phase (inside position fight, hip angle creation, grip change, elevation) while you identify and verbally call out each cue. Practice recognizing the sequence without attempting defense yet—build pattern recognition first."
+      },
+      {
+        "phase": "Week 3-4",
+        "focus": "Positional maintenance",
+        "description": "Partner attempts sweep at 50% resistance while you practice maintaining heavy hips, inside position control, and base width. Focus on denying the sweep through proactive positioning rather than reactive counters. Measure success by how long you maintain top position."
+      },
+      {
+        "phase": "Week 5-6",
+        "focus": "Defensive reactions",
+        "description": "Partner attempts sweep at 75% resistance with full timing. Practice the three primary defensive responses: base widening, arm posting, and leg disengagement. Develop instinct for which response matches which sweep phase. Integrate offensive heel attacks as proactive defense."
+      },
+      {
+        "phase": "Week 7+",
+        "focus": "Live integration",
+        "description": "Defend the sweep in live rolling while maintaining your own offensive game plan from top 50-50. The goal is seamless integration where sweep defense does not interrupt your submission hunting—your offense and defense operate simultaneously rather than in alternating phases."
+      }
+    ]
+  },
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Underhook reversal",
+      "description": "Rather than relying solely on inside leg control, secure an underhook on opponent's far leg during elevation to create additional sweeping leverage and prevent them from posting",
+      "when_to_use": "When opponent maintains good base and inside leg control alone is insufficient"
+    },
+    {
+      "variant_name": "Heel hook bait reversal",
+      "description": "Allow opponent to begin reaching for heel hook, then use their forward weight commitment as timing trigger for explosive sweep—their reaching creates maximum base vulnerability",
+      "when_to_use": "Against aggressive leg lock hunters who overcommit to heel exposure"
+    },
+    {
+      "variant_name": "Knee push reversal",
+      "description": "Instead of pure hip elevation, use your free hand to push against opponent's knee while bridging, redirecting their base laterally and combining push-pull mechanics with hip elevation for stronger sweeping force",
+      "when_to_use": "When opponent has strong base that resists pure hip elevation but leaves their knee accessible for redirection"
+    }
+  ],
+  "conditions": [
+    "You are on the bottom of a 50-50 Guard entanglement with opponent controlling top position",
+    "Inside position control has been established or is at parity with opponent's inside control",
+    "Your heel is currently defended and not under active heel hook threat",
+    "Your hips are mobile enough to create angle for hip elevation—not fully pinned flat by opponent's pressure",
+    "Opponent's weight is committed forward or their hands are occupied with heel attack rather than posting for base"
+  ],
+  "position_integration": "The position reversal sweep is a cornerstone defensive technique within the bottom 50-50 system. It provides the primary offensive escape pathway when you find yourself on bottom of this symmetrical leg entanglement. The sweep integrates with the complete 50-50 defensive hierarchy: first priority is heel defense, second is inside position recovery, and third is either this reversal sweep or leg extraction to standing. Once on top, you inherit the full offensive toolkit of top 50-50 including Inside Heel Hook, Outside Heel Hook, Kneebar from 50-50, Calf Slicer from 50-50, and Back Take from 50-50. The sweep also chains with counter heel hook attacks—if opponent overcommits defending the sweep, their heel often becomes exposed."
+}

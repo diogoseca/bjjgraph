@@ -1,0 +1,638 @@
+{
+  "name": "Overhook Control",
+  "slug": "overhook-control",
+  "description": "Master overhook control (whizzer) in BJJ. Complete guide covering offensive attacks, defensive applications, and submission chains from this versatile wrestling control position.",
+  "variant_uniqueness": "Arm elevation neutralizes offensive capability",
+  "overview": "Overhook Control Position, also known as the whizzer in wrestling terminology, represents one of the most versatile control mechanisms in Brazilian Jiu-Jitsu and grappling. This control involves wrapping your arm over the opponent's extended arm from above, creating a vice-like connection with your armpit sealed tightly over their shoulder. The position appears across countless scenarios including standing clinch exchanges, turtle attacks, front headlock sequences, half guard battles, and as a fundamental counter to underhook attempts.\n\nThe strategic significance of the overhook lies in its ability to simultaneously neutralize the opponent's offensive capabilities while creating direct pathways to dominant positions and submissions. When properly executed, the overhook elevates the opponent's arm above their optimal power generation angle, effectively removing it as a functional tool. This transforms any engagement into a one-armed contest where you maintain bilateral control while your opponent is reduced to single-arm defensive capacity.\n\nModern BJJ has evolved the overhook from its wrestling roots into a sophisticated offensive platform. The position creates immediate submission opportunities including Kimura locks, Darce chokes, Anaconda chokes, and arm triangles, while simultaneously providing clear pathways to back control through arm drags, two-on-one grips, and crab ride entries. Understanding the decision tree from overhook control represents essential knowledge for competitive grapplers: when opponents pull back, attack the Kimura; when they drive forward, enter front headlock submissions; when they circle, take the back.\n\nThe dual nature of overhook control makes it equally valuable as both an offensive weapon and defensive tool. Offensively, it serves as a transitional control leading to dominant positions within seconds. Defensively, it prevents opponents from establishing their preferred grips, disrupts their attacking sequences, and creates separation when needed. This versatility across multiple contexts and positions makes overhook control one of the most high-percentage techniques in grappling, with applications ranging from beginner fundamentals through advanced competition strategies.",
+  "key_principles": [
+    "Armpit Seal Priority: The power of overhook control originates from the tight seal between your armpit and opponent's shoulder, not the hand grip behind their back",
+    "Transitional Mindset: Treat overhook as a 3-5 second transitional control leading immediately to submissions or positional advancement, never as static holding position",
+    "Elevation and Structure Breaking: Constantly drive opponent's arm upward and backward to break their structure and eliminate their ability to generate power from the controlled arm",
+    "Hip Connection Requirement: Maintain close hip-to-hip positioning to prevent opponent from circling away or creating the distance needed to escape the control",
+    "Attack Chain Recognition: Read opponent's defensive reactions to select appropriate follow-up attacks - pull back triggers Kimura, drive forward triggers front headlock chokes, circling triggers back takes",
+    "Bilateral vs Unilateral Advantage: Exploit the mechanical advantage where you maintain full bilateral control while opponent is reduced to single-arm defensive capability",
+    "Free Arm Engagement: The non-overhooking arm must actively control head, establish secondary grips, or threaten attacks rather than remaining passive"
+  ],
+  "related_positions": [
+    {
+      "name": "Front Headlock",
+      "relationship": "Commonly combined with overhook for complete upper body control and front headlock submission entries"
+    },
+    {
+      "name": "Back Control",
+      "relationship": "Primary positional advancement target accessed via arm drags, two-on-one grips, and crab ride entries from overhook"
+    },
+    {
+      "name": "Kimura Trap",
+      "relationship": "Direct submission control position accessed when opponent pulls their arm back against overhook pressure"
+    },
+    {
+      "name": "Darce Control",
+      "relationship": "Front headlock submission position entered when opponent drives forward into overhook control"
+    },
+    {
+      "name": "Clinch",
+      "relationship": "Standing position where overhook control is frequently established during initial grip fighting exchanges"
+    },
+    {
+      "name": "Turtle",
+      "relationship": "Common position where top player uses overhook to control bottom player and set up back takes or submissions"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Guard position where both top and bottom players frequently battle for overhook vs underhook control"
+    },
+    {
+      "name": "Crab Ride",
+      "relationship": "Transitional attacking position accessed from overhook when opponent turns away to defend"
+    },
+    {
+      "name": "Crucifix",
+      "relationship": "Advanced control position accessible from overhook on turtle through proper rolling mechanics"
+    },
+    {
+      "name": "Overhook Guard",
+      "relationship": "Guard variation built around the overhook grip as the primary control mechanism"
+    }
+  ],
+  "top": {
+    "name": "Overhook Control Top",
+    "description": "Master overhook control from top positions. Wrestling-based whizzer for submissions, back takes, and passing. Success rates: Beginner 42%, Intermediate 58%, Advanced 72%.",
+    "tags": [
+      "bjj",
+      "position",
+      "control",
+      "overhook",
+      "whizzer",
+      "wrestling",
+      "top",
+      "offensive"
+    ],
+    "overview": "Overhook Control from top position, known universally as the whizzer in wrestling, represents one of the most dominant control mechanisms in grappling. When achieved from top position, the overhook serves primarily offensive purposes: setting up submissions, taking the back, advancing position, and neutralizing opponent's defensive efforts. The control involves wrapping your arm over the opponent's extended arm from above, sealing your armpit tightly over their shoulder, and maintaining close body positioning that prevents escape while creating immediate attacking opportunities.\n\nThe strategic power of top overhook stems from its ability to simultaneously accomplish multiple objectives within a single control position. First, it completely neutralizes the opponent's controlled arm as an offensive or defensive tool, effectively reducing them to one-armed capability. Second, it elevates their arm above the optimal power generation angle, breaking their structure and posture. Third, it creates direct mechanical pathways to high-percentage submissions including Kimura locks, Darce chokes, and Anaconda chokes. Fourth, it provides clear avenues to back control through arm drags, crab rides, and crucifix entries.\n\nTop overhook appears in countless high-level competition scenarios: countering underhook passing attempts, controlling turtle position, establishing dominance from front headlock, winning clinch exchanges, and maintaining control during scrambles. Modern competition grapplers have integrated the overhook into systematic approaches where the position serves as a central decision point. The clarity of the decision tree makes top overhook particularly valuable for building coherent offensive systems: when opponent pulls back, attack Kimura; when they drive forward, enter Darce or Anaconda; when they turn away, take the back or crucifix.\n\nThe transitional nature of top overhook distinguishes it from static control positions. High-level practitioners never hold the overhook for extended periods - they immediately begin working toward their next objective within 3-5 seconds of establishing control. This aggressive mindset transforms the overhook from a simple grip into a dynamic attacking platform that creates constant pressure and dilemmas for opponents. Understanding when to maintain the overhook versus when to transition from it represents essential tactical knowledge for competitive success across all skill levels and rule sets.",
+    "state_properties": {
+      "point_value": 0,
+      "position_type": "Offensive/Controlling",
+      "risk_level": "Medium",
+      "energy_cost": "Medium",
+      "time_sustainability": "Short to Medium"
+    },
+    "state_invariants": [
+      "Your arm wrapped over opponent's arm from above with armpit sealed tightly over their shoulder, creating a vice-like connection with no gap between your armpit and their shoulder joint",
+      "Your grip secured behind opponent's back, around their shoulder, or in figure-four configuration with hands clasped together for maximum control and submission setup capability",
+      "Opponent's arm elevated and trapped at approximately shoulder height or above, preventing them from generating power, posting effectively, or establishing defensive structure",
+      "Close body-to-body connection maintained with your hips positioned near opponent's hips to prevent them from circling away, creating distance, or using footwork to escape",
+      "Your weight distributed to reinforce the overhook control while maintaining mobility for transitions to submissions, back takes, or positional advancements"
+    ],
+    "prerequisites": [
+      "Opponent has extended arm reaching for underhook, posting on mat, attempting to push you away, or in compromised turtle position",
+      "You have angle and space to wrap your arm over theirs from superior position",
+      "Understanding of leverage principles and how to use overhook to break opponent's structure systematically",
+      "Ability to maintain tight connections while remaining mobile for rapid transitions to attacks",
+      "Recognition of submission and back-take opportunities that overhook control creates in various positional contexts"
+    ],
+    "key_principles": [
+      "Armpit Seal Creates Control: Keep armpit sealed tightly over opponent's shoulder with zero gap - the armpit connection creates the control more than the hand grip",
+      "Upward and Backward Pressure: Constantly drive their arm upward and backward to break their structure, limit their mobility, and create submission opportunities",
+      "Hip Connection Prevents Escape: Maintain close hip position to prevent opponent from circling away or creating the distance needed to escape the control",
+      "Head Control Combination: Combine overhook with head control using free arm for complete upper body dominance and submission setup",
+      "Attack Within Seconds: Treat overhook as transitional control leading to back takes or submissions within 3-5 seconds rather than static holding position",
+      "Read Defensive Reactions: When opponent attempts to escape or adjust, immediately capitalize on their movement to enter appropriate submission or advancement",
+      "Systematic Decision Tree: Follow clear if/else logic - pull back triggers Kimura, drive forward triggers front headlock chokes, turn away triggers back takes"
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "Your opponent starts pulling their trapped arm backward forcefully - what immediate adjustment do you make?",
+        "answer": "When opponent pulls back, immediately transition to a Kimura grip by releasing your hand grip and securing the figure-four on their wrist. Their backward pulling motion actually assists your Kimura entry by bending their arm into the proper position. Do not fight their pull with strength - use it to enter the submission. If they manage to create distance, follow by transitioning to an arm drag to take their back."
+      },
+      {
+        "question": "What are the three essential connection points for maintaining effective overhook control from top position?",
+        "answer": "The three essential connection points are: first, the armpit seal over opponent's shoulder with zero gap, which creates the primary control mechanism; second, hip-to-hip proximity that prevents opponent from circling away or creating escape angles; and third, head positioning either tight to theirs or controlling their head with your free hand. These three points working together create inescapable control - losing any one significantly weakens the position."
+      },
+      {
+        "question": "You feel your armpit seal starting to loosen as opponent rotates their shoulder - how do you recover the control?",
+        "answer": "Immediately drive your hips forward while simultaneously pulling your elbow tight to your ribs, re-sealing the armpit connection. Drop your shoulder weight downward onto their shoulder to flatten them and reestablish the seal. If the gap has opened too much, transition immediately to an alternative control - either secure a front headlock or transition to a back take attempt rather than fighting to recover a compromised overhook."
+      },
+      {
+        "question": "What is the primary weight distribution error that allows opponents to escape overhook control?",
+        "answer": "Overcommitting weight forward without maintaining base is the primary error. When you lean too far forward, opponent can use your momentum to roll you over or escape underneath. The correct distribution maintains forward pressure through the overhook while keeping your feet positioned to support dynamic movement. You should be able to pressure forward but instantly adjust if opponent creates an escape opportunity - balance constant pressure with reactive mobility."
+      },
+      {
+        "question": "Your opponent drives forward aggressively into your overhook - what submission entry does this create?",
+        "answer": "Forward driving creates optimal entry for Darce or Anaconda chokes. As they drive in, their head drops forward and their arm is already controlled by your overhook. Thread your choking arm around their neck (Darce goes arm-side first, Anaconda goes head-side first), secure the figure-four grip, and finish by sprawling your hips away while pulling their head down. Their forward momentum assists your choke entry rather than hindering it."
+      },
+      {
+        "question": "How do you manage energy expenditure when maintaining overhook control against a defensive opponent?",
+        "answer": "Energy management requires understanding that overhook is transitional, not positional. Maximum control time is 3-5 seconds before attacking or advancing. Use skeletal alignment rather than muscular tension - your armpit seal should rest on their shoulder, not grip it with arm strength. Transfer pressure through body positioning rather than squeezing. If opponent is successfully defending, don't fight to maintain - transition to alternative attacks or reset to another control position."
+      },
+      {
+        "question": "You've partially lost the overhook as opponent circles their arm toward escape - what recovery options exist?",
+        "answer": "Three recovery options depending on how far the escape has progressed: if arm is still elevated, quickly re-establish armpit seal by driving your shoulder down and forward; if they've brought their arm to centerline, immediately transition to an arm drag and pursue back control; if their arm is nearly free, release the overhook entirely and secure a front headlock or snap them down before they can recompose. Never chase a failing grip - transition proactively."
+      },
+      {
+        "question": "What specific grip height provides maximum leverage from top overhook position?",
+        "answer": "The grip should be high on opponent's shoulder blade or behind their neck, never low on their back near the waist. High grip positioning provides maximum control over their posture and structure - you can drive their shoulder down and restrict their head movement. Low grips allow opponent to use their body movement to escape because the lever arm is too short. As they move, constantly adjust your grip upward to maintain the high position."
+      }
+    ],
+    "decision_tree": [
+      {
+        "condition": "If opponent's posture is upright and they are trying to pull their arm back against your pressure",
+        "actions": [
+          {
+            "technique": "Kimura",
+            "target": "Kimura Trap",
+            "probability": 65
+          },
+          {
+            "technique": "Two-on-One to Back Take",
+            "target": "Back Control",
+            "probability": 60
+          }
+        ]
+      },
+      {
+        "condition": "If opponent drops their weight forward and drives into you with pressure",
+        "actions": [
+          {
+            "technique": "Darce Choke",
+            "target": "Darce Control",
+            "probability": 60
+          },
+          {
+            "technique": "Anaconda Choke",
+            "target": "Anaconda Control",
+            "probability": 55
+          }
+        ]
+      },
+      {
+        "condition": "If opponent stands up or increases distance trying to escape the overhook",
+        "actions": [
+          {
+            "technique": "Snap Down to Front Headlock",
+            "target": "Front Headlock",
+            "probability": 70
+          },
+          {
+            "technique": "Arm Drag to Back",
+            "target": "Back Control",
+            "probability": 65
+          }
+        ]
+      },
+      {
+        "condition": "If opponent circles toward their trapped arm side attempting to create escape angle",
+        "actions": [
+          {
+            "technique": "Arm Drag to Back",
+            "target": "Back Control",
+            "probability": 65
+          },
+          {
+            "technique": "Crab Ride to Back",
+            "target": "Crab Ride",
+            "probability": 58
+          }
+        ]
+      },
+      {
+        "condition": "If opponent turns away from overhook or drops to turtle position to defend",
+        "actions": [
+          {
+            "technique": "Crucifix from Turtle",
+            "target": "Crucifix",
+            "probability": 50
+          },
+          {
+            "technique": "Crab Ride to Back",
+            "target": "Crab Ride",
+            "probability": 58
+          }
+        ]
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Leaving gap between armpit and opponent's shoulder while focusing on hand grip",
+        "consequence": "Opponent can easily circle their arm out or limp-arm escape through the gap. Gap allows them to generate power and change their angle. No real control is established, making subsequent attacks impossible to set up effectively.",
+        "correction": "Seal your armpit completely over their shoulder like a vice. Your armpit should be glued to their shoulder with zero space. This tight connection is what creates the control - the grip behind their back is secondary to the armpit seal. Maintain this seal as you move."
+      },
+      {
+        "error": "Static holding without attacking or advancing position within first few seconds",
+        "consequence": "Opponent finds ways to neutralize the control through patience, hip movement, or by establishing secondary controls. Holding without attacking gives them time to solve the problem and escape. Energy is wasted maintaining a stalemate that leads nowhere.",
+        "correction": "Immediately begin working toward submissions (Kimura, Darce, Anaconda), back takes, or positional improvements within 3-5 seconds of establishing overhook. Create constant pressure toward your attacking goals. The overhook is transitional - use it quickly to advance."
+      },
+      {
+        "error": "Failing to control opponent's hips with body positioning and hip connection",
+        "consequence": "Opponent circles away from the overhook, creates distance through footwork, and eventually escapes the control. Without hip connection, the arm control becomes isolated and ineffective. Opponent can reestablish neutral position or even gain advantage.",
+        "correction": "Maintain close hip-to-hip connection while controlling the overhook. Your hips should be close enough to opponent's hips that they cannot circle away effectively. Use your body position to cut off their escape angles and maintain pressure."
+      },
+      {
+        "error": "Gripping too far down opponent's back instead of high on shoulder or behind neck",
+        "consequence": "Leverage is reduced significantly. Opponent can use their body movement to escape more easily. The mechanical advantage of the overhook is lost, making it easier for opponent to pull their arm free or neutralize the control.",
+        "correction": "Grip high on opponent's shoulder or behind their neck for maximum leverage. The higher the grip, the more control you have over their posture and structure. Adjust grip to maintain high position as they move, never allowing it to slide down their back."
+      },
+      {
+        "error": "Allowing opponent to get their head lower than yours or establish superior head position",
+        "consequence": "Opponent gains superior leverage and can drive forward effectively. They can use their head position to break your structure and escape the overhook. Head position determines who has the dominant position in the exchange.",
+        "correction": "Keep your head tight to theirs or slightly above, using your free hand to control their head. Fight to maintain superior head position while keeping the overhook tight. Head control and overhook work together for complete dominance - never sacrifice head position."
+      },
+      {
+        "error": "Overcommitting weight forward without maintaining base and balance",
+        "consequence": "Opponent can use your forward momentum against you, potentially sweeping or reversing position. You become vulnerable to opponent's counters and lose the ability to react to their movements. You may lose top position entirely despite having overhook.",
+        "correction": "Maintain solid base with feet positioned to support dynamic movement while applying pressure. Keep your weight distributed so you can pressure forward but also react to opponent's escape attempts. Balance offense with defensive awareness and mobility."
+      }
+    ],
+    "training_drills": [
+      {
+        "name": "Overhook Retention Drill from Top",
+        "description": "Partner starts with arm extended from turtle or standing, you establish overhook. Partner attempts to escape using limp arm, circling, posture changes, and hip movement. Practice maintaining tight armpit seal and adapting grip as they move. Reset when escape occurs or 30 seconds elapses. Focus on pressure and mobility.",
+        "duration": "5 minutes (alternating 90-second rounds)"
+      },
+      {
+        "name": "Overhook to Submission Flow Drill",
+        "description": "Establish overhook from standing, turtle top, or front headlock position. Flow through chain of Kimura to Darce to Anaconda setups based on partner's defensive reactions. Focus on reading their movement and transitioning smoothly between attacks without losing overhook control. Partner provides progressive resistance.",
+        "duration": "6 minutes (alternating 90-second rounds)"
+      },
+      {
+        "name": "Overhook Counter-Wrestling Drill from Standing",
+        "description": "Both partners attempt to establish underhooks from standing clinch position. When partner shoots underhook, immediately counter with overhook and work to dominant position (front headlock, back control, or Kimura setup). Emphasizes timing, recognition, and transitional attacking from overhook establishment.",
+        "duration": "6 minutes (3 minutes per person)"
+      },
+      {
+        "name": "Overhook Back Take Series from Turtle",
+        "description": "Start with overhook control from turtle top position. Practice different back take entries: arm drag, two-on-one grip, crab ride, and crucifix. Focus on maintaining overhook control while transitioning to back or advanced control. Partner provides 50% resistance with realistic escape attempts.",
+        "duration": "8 minutes (4 minutes per person)"
+      }
+    ],
+    "related_content": [
+      {
+        "name": "Kimura Trap",
+        "relationship": "Primary submission control accessed when opponent pulls back against overhook pressure"
+      },
+      {
+        "name": "Darce Control",
+        "relationship": "Front headlock submission position entered when opponent drives forward into overhook"
+      },
+      {
+        "name": "Front Headlock",
+        "relationship": "Often combined with overhook for complete upper body control and submission setup"
+      },
+      {
+        "name": "Anaconda Control",
+        "relationship": "Alternative front headlock submission from overhook when opponent drops their head"
+      },
+      {
+        "name": "Back Control",
+        "relationship": "Common advancement target using arm drag, two-on-one, or crab ride from overhook"
+      },
+      {
+        "name": "Crab Ride",
+        "relationship": "Transitional position accessed via overhook control when opponent turns away"
+      },
+      {
+        "name": "Crucifix",
+        "relationship": "Advanced control position accessible from overhook on turtle through proper mechanics"
+      },
+      {
+        "name": "Turtle",
+        "relationship": "Common bottom position where top player uses overhook to control and attack"
+      },
+      {
+        "name": "Overhook Guard",
+        "relationship": "Guard position that mirrors top overhook concepts from bottom perspective"
+      }
+    ],
+    "position_metrics": {
+      "retention_rate": {
+        "value": 60
+      },
+      "advancement_probability": {
+        "value": 66
+      },
+      "submission_probability": {
+        "value": 50
+      },
+      "average_time": "5-15 seconds (transitional attacking position)"
+    },
+    "transitions": [
+      {
+        "transition": "Kimura",
+        "attempt_probability": 16
+      },
+      {
+        "transition": "Darce Choke",
+        "attempt_probability": 10
+      },
+      {
+        "transition": "Anaconda Choke",
+        "attempt_probability": 9
+      },
+      {
+        "transition": "Arm Drag to Back",
+        "attempt_probability": 11
+      },
+      {
+        "transition": "Two-on-One to Back Take",
+        "attempt_probability": 10
+      },
+      {
+        "transition": "Snap Down to Front Headlock",
+        "attempt_probability": 11
+      },
+      {
+        "transition": "Crab Ride to Back",
+        "attempt_probability": 10
+      },
+      {
+        "transition": "Crucifix from Turtle",
+        "attempt_probability": 8
+      },
+      {
+        "transition": "Side Control to Mount",
+        "attempt_probability": 11
+      },
+      {
+        "transition": "Overhook Pass to Side Control",
+        "attempt_probability": 4
+      }
+    ]
+  },
+  "bottom": {
+    "name": "Overhook Control Bottom",
+    "description": "Master overhook control from bottom positions. Guard-based whizzer applications for sweeps, submissions, and defensive control. Success rates: Beginner 35%, Intermediate 50%, Advanced 68%.",
+    "tags": [
+      "bjj",
+      "position",
+      "guard",
+      "overhook",
+      "whizzer",
+      "control",
+      "bottom",
+      "defensive"
+    ],
+    "overview": "Overhook Control from bottom positions represents a sophisticated defensive and offensive tool that transforms the traditional wrestling whizzer into a guard-based control mechanism. When playing guard, the overhook serves multiple strategic purposes: preventing opponent's passing attempts, setting up sweeps, creating submission opportunities, and maintaining distance control. Unlike top position overhook which emphasizes offensive pressure, bottom overhook often functions as a shield that protects guard position while creating offensive opportunities.\n\nThe mechanical advantage of bottom overhook comes from its ability to control opponent's posture and limit their passing angles. By wrapping over their arm and controlling behind their shoulder or back, you effectively remove one of their posting bases and create structural vulnerabilities in their passing attempts. This is particularly valuable in half guard, butterfly guard, and seated guard positions where controlling opponent's arm directly impacts their ability to establish dominant passing grips or generate forward pressure.\n\nFrom bottom position, the overhook creates direct pathways to high-percentage sweeps and back takes. The elevation of opponent's arm disrupts their base, making them vulnerable to butterfly sweeps, elevator sweeps, and off-balancing attacks. When opponents attempt to pull their arm free, this reaction creates opportunities for arm drag entries to the back or transitions to triangle and omoplata controls. The overhook also serves as an excellent counter to opponent's underhook passing attempts, particularly in half guard where the whizzer prevents the traditional underhook pass.\n\nModern guard players have integrated overhook control into systematic approaches where the position serves as a central hub connecting multiple attacking sequences. The decision tree from bottom overhook parallels top position applications but with guard-specific contexts: when opponent postures back, pursue arm drags or triangle entries; when they drive forward, transition to front headlock or guillotine controls; when they try to circle away, follow with sweeping motions or back exposure. This systematic approach transforms the bottom overhook from a simple defensive grip into a comprehensive guard retention and attacking platform that works across multiple guard variations and skill levels.",
+    "state_properties": {
+      "point_value": 0,
+      "position_type": "Defensive with offensive options",
+      "risk_level": "Medium",
+      "energy_cost": "Medium",
+      "time_sustainability": "Medium"
+    },
+    "state_invariants": [
+      "Your arm wrapped over opponent's arm from above with armpit sealed tightly against their shoulder, maintaining the seal even as they attempt to pull free or change angles",
+      "Your grip secured behind opponent's back, around their shoulder blade, or in figure-four configuration with your hands clasped, adjusted based on their posture and passing attempts",
+      "Opponent's arm elevated to shoulder height or above, preventing them from establishing strong posting base or generating downward pressure toward your guard",
+      "Your body angle adjusted to maintain overhook control while keeping your guard structure intact, with hips mobile enough to adjust to opponent's passing attempts",
+      "Opposite arm active in maintaining guard distance, controlling opponent's head, or establishing secondary grips that complement the overhook control"
+    ],
+    "prerequisites": [
+      "Opponent has extended arm into your guard attempting underhook, crossface, or passing grip establishment",
+      "You have sufficient space and angle to wrap your arm over theirs from above position",
+      "Understanding of guard retention principles and how overhook prevents specific passing mechanics",
+      "Ability to maintain overhook seal while adjusting body position and guard structure",
+      "Recognition of sweep and submission opportunities created by overhook control from bottom"
+    ],
+    "key_principles": [
+      "Dual Purpose Control: Overhook from bottom serves both defensive functions (preventing passes) and offensive functions (setting up sweeps and back takes)",
+      "Guard Structure Maintenance: Keep overhook tight while maintaining guard hooks, frames, or distance control with your legs and opposite arm",
+      "Posture Disruption: Use overhook to break opponent's posture forward or manipulate their weight distribution to create sweep opportunities",
+      "Base Removal: Elevated arm removes one of opponent's posting bases, making them vulnerable to directional sweeps and off-balancing attacks",
+      "Reaction-Based Attacks: When opponent attempts to free their arm by pulling back, immediately transition to arm drags, triangles, or omoplata controls",
+      "Active Bottom Position: Never allow overhook to become static holding position - constantly threaten sweeps, submissions, or positional improvements",
+      "Angle Creation: Combine overhook with hip movement and angle changes to create multiple attacking vectors from bottom position"
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "Your opponent begins driving forward with pressure into your overhook side - what sweep opportunity does this create?",
+        "answer": "Forward driving pressure creates the ideal setup for the overhook sweep. As they drive in, their weight commits forward and their base becomes narrow. Use your outside leg to hook over their back while your inside foot pushes off their hip. Pull their trapped arm across your body while elevating with your legs. Their forward momentum combines with your sweeping motion to roll them directly into mount. Time the sweep with their pressure rather than fighting against it."
+      },
+      {
+        "question": "What are the essential grips for maintaining overhook control while preserving guard mobility from bottom?",
+        "answer": "The primary grip is the armpit seal over opponent's shoulder - this must remain tight regardless of other grip changes. Secondary grip options include: gripping high on their shoulder blade or neck for maximum leverage, figure-four grip with your hands clasped for control during transitions, or a grip on their belt or pants to prevent them from pulling away. Your opposite arm should control their head, sleeve, or collar rather than remaining passive."
+      },
+      {
+        "question": "You feel opponent beginning to pass to your overhook side despite your control - what adjustment saves the position?",
+        "answer": "When being passed to overhook side, immediately use your hips to create angle away from the pass direction while maintaining the armpit seal. If the pass has progressed too far, release the overhook and use that arm to frame against their hip or shoulder while hip escaping to re-guard. The critical error is maintaining overhook when it prevents effective guard recovery - recognize when to release and transition to defensive frames rather than holding a grip that's become a liability."
+      },
+      {
+        "question": "How do you shut down the primary escape when opponent attempts to limp-arm out of your overhook?",
+        "answer": "Counter the limp-arm by immediately driving your overhook shoulder down while pulling your elbow tight to your ribs, eliminating any gap. As they attempt to slip out, follow their arm rotation with your body angle - don't let them create space between your armpit and their shoulder. If they're successfully creating space, transition immediately to an arm drag using their pulling motion against them. The limp-arm escape requires them to move their shoulder away - pursue that shoulder rather than holding static position."
+      },
+      {
+        "question": "What pressure application from bottom overhook prevents opponent from establishing dominant passing grips?",
+        "answer": "Constant upward and outward pressure on their trapped arm prevents grip establishment. By keeping their arm elevated above their power line, they cannot use it to crossface, underhook, or post effectively. Combine this with your opposite arm controlling their head or collar to deny their other hand's effectiveness. The pressure should make them feel one-armed - they have bilateral capability but you've removed one arm's function through the overhook elevation and structure-breaking pressure."
+      },
+      {
+        "question": "Your opponent postures back strongly attempting to pull their arm free - what immediate attack does this create?",
+        "answer": "Backward posturing creates arm drag and back take opportunities. As they pull back, follow their movement by sitting up with them while maintaining overhook control. Use their pulling energy to transition to a two-on-one grip on their trapped arm and drag it across your body while you circle behind. Alternatively, their upward posture exposes their neck for triangle entries - shoot your overhook-side leg over their shoulder as they posture. Their pulling motion opens attack paths rather than closing them."
+      },
+      {
+        "question": "How do you manage energy when maintaining bottom overhook against a patient passer who isn't providing reactions?",
+        "answer": "Against a patient opponent, you must create the reactions rather than waiting for them. Use your legs to bump, off-balance, or threaten sweeps that force them to adjust. The overhook provides control but requires active engagement - never settle into static holding. If opponent refuses to engage, use the overhook as a base to sit up, threatening technical stand-up or arm drags. Bottom overhook energy cost increases when you wait passively - decrease it by constantly threatening attacks that make opponent react."
+      },
+      {
+        "question": "After a partial sweep attempt fails, how do you recover full overhook control without losing guard position?",
+        "answer": "After failed sweep, immediately re-center your hips while maintaining the armpit seal - don't let the failed sweep open space in your overhook. Use your legs to block opponent's passing attempts while you recompose hip position. Re-establish your secondary grip (head control, collar, sleeve) before attempting another attack. The critical element is keeping the armpit sealed during recovery - if that connection breaks during your recomposition, opponent will escape or pass. Move your hips and legs while keeping your upper body connection intact."
+      }
+    ],
+    "decision_tree": [
+      {
+        "condition": "If opponent postures back attempting to pull their arm free",
+        "actions": [
+          {
+            "technique": "Arm Drag to Back",
+            "target": "Back Control",
+            "probability": 66
+          },
+          {
+            "technique": "Triangle Setup",
+            "target": "Triangle Control",
+            "probability": 62
+          }
+        ]
+      },
+      {
+        "condition": "If opponent drives forward with pressure into overhook side",
+        "actions": [
+          {
+            "technique": "Overhook Sweep",
+            "target": "Mount",
+            "probability": 70
+          },
+          {
+            "technique": "Butterfly Sweep",
+            "target": "Mount",
+            "probability": 68
+          }
+        ]
+      },
+      {
+        "condition": "If opponent drops their head forward attempting to pass",
+        "actions": [
+          {
+            "technique": "Guillotine Setup",
+            "target": "Guillotine Control",
+            "probability": 64
+          },
+          {
+            "technique": "Closed Guard to Omoplata",
+            "target": "Omoplata Control",
+            "probability": 58
+          }
+        ]
+      },
+      {
+        "condition": "If opponent attempts to circle away from overhook side",
+        "actions": [
+          {
+            "technique": "Elevator Sweep",
+            "target": "Mount",
+            "probability": 67
+          },
+          {
+            "technique": "Arm Drag to Back",
+            "target": "Back Control",
+            "probability": 66
+          }
+        ]
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Holding overhook statically without using it to create sweep or submission opportunities",
+        "consequence": "Opponent patiently works to free their arm or establishes strong passing position with their opposite side. Energy is wasted maintaining control that doesn't advance your position. Opponent eventually solves the problem through systematic grip breaking or positional adjustments.",
+        "correction": "Immediately begin working toward sweeps, arm drags, or submissions when you establish overhook. Use the control to create off-balance and attack within 3-5 seconds. The overhook is transitional - capitalize on it before opponent adapts."
+      },
+      {
+        "error": "Allowing gap between your armpit and opponent's shoulder while focused on hand grip",
+        "consequence": "Opponent easily circles their arm out or uses limp arm escape. The fundamental control mechanism is lost, rendering the position ineffective. Your grip behind their back becomes isolated and weak without the armpit seal.",
+        "correction": "Prioritize sealing your armpit completely over their shoulder like a vice. The armpit seal creates the control - the hand grip is secondary. Maintain this seal even as you move and attack, adjusting your body angle to preserve the connection."
+      },
+      {
+        "error": "Losing guard structure and hip mobility while maintaining overhook",
+        "consequence": "Opponent passes to your overhook side because your hips are static and unable to adjust. Guard hooks become flat and ineffective. You maintain the overhook but lose the guard position, resulting in being passed while still holding their arm.",
+        "correction": "Keep your hips mobile and guard structure active while controlling overhook. Use your legs to maintain distance and angle control. The overhook should enhance your guard retention, not compromise it - stay mobile and ready to adjust."
+      },
+      {
+        "error": "Failing to use opposite arm effectively for distance control or secondary attacks",
+        "consequence": "Opponent establishes strong crossface or controls your head with their free arm. Your guard becomes one-dimensional and easier to pass. Without bilateral control, opponent dominates the engagement despite your overhook.",
+        "correction": "Use your free arm actively to control opponent's head, establish frames, or set up secondary grips. The combination of overhook plus opposite arm control creates complete dominance. Work both arms together systematically."
+      },
+      {
+        "error": "Not recognizing when opponent has established strong passing angle despite overhook",
+        "consequence": "You maintain the overhook as opponent passes your guard to side control or mount. The overhook becomes a liability as you refuse to release it even when the pass is complete. You end up in worse position still holding the grip.",
+        "correction": "Be willing to release overhook and transition to escape protocols when opponent has established dominant passing position. The overhook is valuable but not worth holding when it prevents effective defensive responses. Recognize when to let go."
+      }
+    ],
+    "training_drills": [
+      {
+        "name": "Bottom Overhook Retention Drill",
+        "description": "Start in guard with overhook established. Partner attempts various passing strategies while you maintain overhook control and adjust your guard structure. Practice keeping armpit seal and hip mobility while partner applies realistic passing pressure. Focus on maintaining control under dynamic movement.",
+        "duration": "5 minutes (alternating 90-second rounds)"
+      },
+      {
+        "name": "Overhook to Sweep Flow Drill",
+        "description": "Establish overhook from butterfly guard or half guard. Partner provides directional pressure (forward, backward, circling). React with appropriate sweep based on their movement: butterfly sweep for forward pressure, elevator sweep for circling, arm drag for backward pull. Chain 3-4 sweeps per round.",
+        "duration": "6 minutes (3 minutes per person)"
+      },
+      {
+        "name": "Overhook to Submission Chain",
+        "description": "Start with overhook from closed or open guard. Flow between triangle setup, omoplata, arm drag to back, and guillotine control based on partner's defensive reactions. Focus on reading their movement and transitioning smoothly without losing overhook until final attack. Partner provides progressive resistance.",
+        "duration": "8 minutes (4 minutes per person)"
+      },
+      {
+        "name": "Half Guard Overhook Battle Drill",
+        "description": "Both partners start in half guard with one attempting underhook, other attempting overhook. Battle for superior control position. Winner works to advance position (sweep, pass, or submission). Emphasizes grip fighting and recognition of when overhook beats underhook and vice versa.",
+        "duration": "6 minutes (alternating 1-minute rounds)"
+      }
+    ],
+    "related_content": [
+      {
+        "name": "Butterfly Guard",
+        "relationship": "Primary guard position where bottom overhook is used for sweep setups and back takes"
+      },
+      {
+        "name": "Half Guard",
+        "relationship": "Guard position featuring constant overhook vs underhook control battles"
+      },
+      {
+        "name": "Closed Guard",
+        "relationship": "Guard variation where overhook controls opponent's posture and prevents passing"
+      },
+      {
+        "name": "Back Control",
+        "relationship": "Common advancement target accessed via arm drag from bottom overhook"
+      },
+      {
+        "name": "Triangle Control",
+        "relationship": "Submission control accessed when opponent postures against overhook"
+      },
+      {
+        "name": "Omoplata Control",
+        "relationship": "Alternative submission control from bottom overhook when opponent drives forward"
+      },
+      {
+        "name": "Guillotine Control",
+        "relationship": "Front headlock submission available when opponent drops head into overhook"
+      },
+      {
+        "name": "Overhook Guard",
+        "relationship": "Dedicated guard system built around the overhook grip as primary control"
+      }
+    ],
+    "position_metrics": {
+      "retention_rate": {
+        "value": 61
+      },
+      "advancement_probability": {
+        "value": 57
+      },
+      "submission_probability": {
+        "value": 42
+      },
+      "average_time": "8-20 seconds (transitional guard control)"
+    },
+    "transitions": [
+      {
+        "transition": "Arm Drag to Back",
+        "attempt_probability": 11
+      },
+      {
+        "transition": "Overhook Sweep",
+        "attempt_probability": 22
+      },
+      {
+        "transition": "Butterfly Sweep",
+        "attempt_probability": 11
+      },
+      {
+        "transition": "Triangle Setup",
+        "attempt_probability": 10
+      },
+      {
+        "transition": "Closed Guard to Omoplata",
+        "attempt_probability": 9
+      },
+      {
+        "transition": "Guillotine Setup",
+        "attempt_probability": 10
+      },
+      {
+        "transition": "Elevator Sweep",
+        "attempt_probability": 11
+      },
+      {
+        "transition": "Old School Sweep",
+        "attempt_probability": 10
+      },
+      {
+        "transition": "Overhook Control Sweep",
+        "attempt_probability": 4
+      },
+      {
+        "transition": "Overhook to Half Guard",
+        "attempt_probability": 2
+      }
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "issues": [
+    {
+      "type": "low_connectivity",
+      "name": "Game Over",
+      "connections": 1
+    }
+  ],
+  "actions": [],
+  "results": [],
+  "summary": {
+    "issues_found": 1,
+    "actions_planned": 0,
+    "applied": 0,
+    "skipped": 0
+  }
+}

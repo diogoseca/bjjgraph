@@ -1,0 +1,409 @@
+{
+  "name": "Body Triangle Escape to Half Guard",
+  "description": "Escape the body triangle to half guard in BJJ. Complete guide to systematic triangle clearing, hip movement, and guard recovery from dominant back control.",
+  "tags": [
+    "bjj",
+    "transition",
+    "escape",
+    "body-triangle",
+    "back-control",
+    "half-guard",
+    "guard-recovery",
+    "defensive-technique"
+  ],
+  "from_position": "Body Triangle/Bottom",
+  "outcomes": [
+    {
+      "to": "Half Guard/Bottom",
+      "probability": 30,
+      "result": "success"
+    },
+    {
+      "to": "Body Triangle/Bottom",
+      "probability": 45,
+      "result": "failure"
+    },
+    {
+      "to": "Back Control/Bottom",
+      "probability": 25,
+      "result": "counter"
+    }
+  ],
+  "success_rate": 30,
+  "overview": "The Body Triangle Escape to Half Guard is one of the most technically demanding escapes in Brazilian Jiu-Jitsu, requiring practitioners to systematically dismantle the figure-four leg lock that characterizes body triangle back control before recovering a viable guard position. Unlike standard back escape sequences where hook clearing enables rotation, the body triangle creates a locked mechanical structure that must be specifically attacked at its weakest point—the foot tucked behind the opponent's knee—before any meaningful positional change is possible.\n\nThe escape sequence prioritizes turning toward the side where the triangle leg crosses your body, which reduces the effective squeezing angle and creates the structural opportunity to attack the lock. Once the foot is pushed free from behind the knee, the locked configuration collapses, allowing hip escape movement and leg threading to establish half guard. Targeting half guard rather than turtle provides immediate offensive options including underhook sweeps and guard recovery sequences that accelerate positional recovery.\n\nStrategically, this escape demands exceptional timing and patience. Attempting to clear the triangle while the opponent is actively attacking your neck creates double jeopardy—defending the choke and attacking the lock simultaneously depletes energy rapidly under breathing restriction. Experienced practitioners wait for moments when the opponent adjusts grips or transitions between submission attempts, using these brief windows to execute the critical clearing mechanics. The breathing restriction imposed by the body triangle creates genuine urgency, making mental composure and systematic execution even more important than in standard back escape scenarios.",
+  "conditions": [
+    "Opponent has locked body triangle around your torso with figure-four leg configuration",
+    "You are being controlled from the back with opponent's chest against your back",
+    "Opponent has established upper body control through seatbelt, collar grips, or similar configuration",
+    "You have identified which side the triangle leg crosses your body",
+    "You have secured initial neck defense preventing immediate choke finish"
+  ],
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Ankle Push Clear",
+      "description": "The primary clearing method where you use your bottom hand to locate and push the opponent's foot out from behind their own knee. Your palm or C-grip drives the ankle downward and away from the knee crease, targeting the structural anchor of the figure-four lock with precise directional force rather than general pulling.",
+      "when_to_use": "Default method when you can reach the lock point after turning toward the triangle side and the opponent's upper body attacks allow you a brief window to redirect one hand"
+    },
+    {
+      "variant_name": "Bridge and Roll Clear",
+      "description": "An alternative when the ankle push is blocked. Bridge upward into the opponent to create momentary space between your torso and their legs, then sharply roll toward the triangle side. The bridging action changes the squeeze angle and the rolling momentum can pop the foot free from behind the knee when combined with hip pressure.",
+      "when_to_use": "When the opponent's ankle is too deep behind the knee for a direct push or when they actively block your hand from reaching the lock point"
+    },
+    {
+      "variant_name": "Knee Wedge Clear",
+      "description": "Instead of targeting the foot directly, use your bottom knee to wedge between your torso and the opponent's locking leg. The knee creates a structural frame that gradually pries the triangle open by expanding the space inside the lock. Works by attacking the circumference of the triangle rather than the lock point itself.",
+      "when_to_use": "When the opponent maintains strong squeeze and you cannot turn sufficiently to reach the ankle, or when your hands are occupied defending neck attacks and you need a hands-free clearing option"
+    }
+  ],
+  "position_integration": "The Body Triangle Escape to Half Guard occupies a specialized node within the back escape hierarchy, addressing the unique mechanical challenge posed by body triangle control versus standard hook-based back control. This escape connects the most dominant control variation—body triangle back control—directly to half guard, bypassing the turtle intermediate position that characterizes most back escapes. By recovering half guard rather than turtle, the practitioner immediately gains access to sweeps, underhook battles, and guard recovery sequences that accelerate the positional recovery timeline. The technique integrates with the broader defensive system by providing a specialized solution when standard hook-clearing escapes are mechanically impossible, and chains naturally into half guard offensive sequences including deep half entries, knee shield retention, and underhook sweeps.",
+  "related_content": [
+    {
+      "name": "Body Triangle",
+      "relationship": "Starting position – the dominant body triangle back control you are escaping from"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Target escape destination providing immediate offensive options after clearing the triangle"
+    },
+    {
+      "name": "Back Control",
+      "relationship": "Parent position category – body triangle is a variation of standard back control"
+    },
+    {
+      "name": "Back Door Escape",
+      "relationship": "Related escape system from back control that addresses hook-based control rather than triangle"
+    },
+    {
+      "name": "Hip Escape to Turtle",
+      "relationship": "Alternative escape path from body triangle when half guard recovery is blocked"
+    },
+    {
+      "name": "Turtle",
+      "relationship": "Alternative intermediate escape destination with fewer offensive options than half guard"
+    },
+    {
+      "name": "Seat Belt Control Back",
+      "relationship": "Common upper body control configuration maintained by opponent during body triangle"
+    },
+    {
+      "name": "Rear Naked Choke",
+      "relationship": "Primary submission threat you must defend throughout the escape sequence"
+    }
+  ],
+  "attacker": {
+    "name": "Body Triangle Escape to Half Guard Attacker",
+    "description": "Execute the body triangle escape to half guard. Step-by-step clearing technique, hip escape mechanics, and guard recovery from the most dominant back control variation.",
+    "overview": "From the attacker's perspective, the Body Triangle Escape to Half Guard demands systematic execution under significant physical and psychological pressure. You must simultaneously manage breathing restriction, protect your neck from submission attempts, and methodically attack the mechanical weakness of the triangle lock. The escape centers on identifying the triangle leg's crossing direction, turning toward that side to reduce squeeze effectiveness, and attacking the foot behind your opponent's knee to collapse the figure-four structure. Success requires patience, precise timing, and the discipline to execute technical clearing mechanics rather than explosive scrambling that wastes energy under breathing restriction. The reward is substantial—recovering half guard provides immediate offensive options that transform you from a survival state to an active engagement position.",
+    "key_principles": [
+      "Neck defense before triangle clearing: Always maintain chin protection and hand fighting on the choking arm before redirecting any energy to attacking the leg lock",
+      "Turn toward the triangle leg: Angling your torso toward the side where the opponent's leg crosses your body reduces squeeze pressure and creates access to the lock point",
+      "Attack the foot behind the knee: The figure-four lock's structural weakness is the foot tucked behind the opponent's knee – target this point with precise directional force",
+      "Hip escape creates guard recovery angle: Once the triangle is cleared, immediate hip escape generates the angle needed to thread your legs and establish half guard",
+      "Timing over strength: Execute clearing mechanics during opponent's grip transitions or submission setup adjustments rather than fighting the fully engaged squeeze",
+      "Breathing management under restriction: Take controlled shallow breaths and avoid panic, conserving oxygen for the precise moments when technical execution is required",
+      "Continuous sequence execution: The clear, hip escape, and half guard establishment must flow as one unbroken chain – pausing after any step invites re-establishment of control"
+    ],
+    "setup_requirements": [
+      "Neck defense established with chin tucked and at least one hand controlling the opponent's choking arm through two-on-one grip fighting",
+      "Identification of which side the triangle leg crosses your body to determine the correct turning direction for the escape",
+      "Sufficient energy reserves to execute the clearing sequence – do not attempt when completely exhausted from prolonged squeeze without first managing breathing",
+      "Opponent's submission attempt is in transition or being reset, creating a brief window where grip pressure is reduced and attention is split",
+      "Mental composure maintained despite breathing restriction and positional pressure – panic signals abort the attempt and return to survival mode"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Secure Neck Defense",
+        "description": "Before any escape attempt, ensure your chin is tucked deeply and at least one hand controls the opponent's choking arm through two-on-one grip fighting. This prevents the opponent from capitalizing on your escape attempt with an immediate rear naked choke. Establish this defense as a non-negotiable prerequisite before redirecting any energy toward the triangle lock."
+      },
+      {
+        "step_number": 2,
+        "action": "Identify Triangle Side",
+        "description": "Determine which direction the opponent's leg crosses your body by feeling the position of their crossing thigh against your torso. The crossing leg enters from one side and the foot tucks behind the opposite knee. You will turn toward the side where the leg enters to reduce the squeeze angle and position your hand to access the lock point."
+      },
+      {
+        "step_number": 3,
+        "action": "Turn Toward Triangle Leg",
+        "description": "Rotate your torso toward the side where the triangle leg crosses your body. This movement reduces the effective squeezing angle on your ribcage, partially relieves breathing restriction, and positions your bottom hand to reach the lock point behind the opponent's knee. Use your shoulder and hip together to drive the turn rather than twisting only your upper body."
+      },
+      {
+        "step_number": 4,
+        "action": "Attack the Lock Point",
+        "description": "With your bottom hand, reach for the opponent's foot that is tucked behind their own knee. Use a C-grip or palm push to drive the ankle downward and away from the knee crease, breaking the figure-four configuration. Apply precise mechanical pressure perpendicular to the femur rather than raw pulling strength against the locked structure. Maintain neck defense with your top hand throughout."
+      },
+      {
+        "step_number": 5,
+        "action": "Clear the Triangle",
+        "description": "As the foot comes free from behind the knee, the triangle structure collapses. Immediately use your legs and hips to push their legs apart, preventing the opponent from re-locking the triangle. Insert your elbow or forearm between your body and their legs as a wedge to occupy the space and block any re-locking attempt. Do not pause to rest at this stage."
+      },
+      {
+        "step_number": 6,
+        "action": "Hip Escape to Create Angle",
+        "description": "Execute a strong hip escape away from the opponent, creating the angle necessary for leg threading. Your hips should move toward the mat and away from the opponent's body, generating space between your torso and their now-unlocked legs. Drive with your feet against the mat to generate power for the hip escape movement while maintaining your frame in the cleared space."
+      },
+      {
+        "step_number": 7,
+        "action": "Thread Legs for Half Guard",
+        "description": "As space opens from the hip escape, thread your bottom leg between the opponent's legs and trap their top leg between both of your legs at or below the knee. Establish the fundamental half guard leg entanglement with a firm knee pinch to prevent the opponent from immediately extracting their leg and re-taking the back or transitioning to a pass."
+      },
+      {
+        "step_number": 8,
+        "action": "Secure Half Guard and Transition to Offense",
+        "description": "Once half guard is established, immediately fight for the underhook on the trapped leg side and create a knee shield or forearm frame to prevent the opponent from flattening you or re-taking the back. Shift your mindset from escape mode to half guard offensive mode, threatening sweeps and back takes to establish positional initiative and prevent the opponent from consolidating top control."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Opponent tightens triangle squeeze and pulls you back flat when you begin turning toward the triangle side",
+        "effectiveness": "High",
+        "your_response": "Wait for squeeze to relax slightly during the opponent's next grip adjustment, then use a sharp explosive turn rather than gradual rotation. The opponent cannot maintain maximum squeeze indefinitely and brief relaxation windows always occur during upper body transitions.",
+        "targets_outcome": "Body Triangle/Bottom"
+      },
+      {
+        "counter": "Opponent attacks neck with rear naked choke when you redirect your hand from neck defense to the triangle lock point",
+        "effectiveness": "High",
+        "your_response": "Immediately return to neck defense and abandon the clearing attempt. Alternate between brief clearing attempts and neck protection rather than committing both hands to the triangle for extended periods. Develop a rhythm of defend-clear-defend that limits your neck exposure window.",
+        "targets_outcome": "Body Triangle/Bottom"
+      },
+      {
+        "counter": "Opponent transitions to standard hooks when the triangle is partially cleared, inserting feet inside your thighs",
+        "effectiveness": "Medium",
+        "your_response": "Accept this as a positional improvement – standard hooks are significantly easier to clear than body triangle. Immediately begin standard back escape sequences using hip escape and hook removal before the opponent can re-establish the triangle lock.",
+        "targets_outcome": "Back Control/Bottom"
+      },
+      {
+        "counter": "Opponent re-drives foot behind knee to re-lock the triangle after you partially clear the ankle",
+        "effectiveness": "Medium",
+        "your_response": "When attacking the foot, push it completely clear and immediately wedge your elbow into the space between your body and their leg to prevent re-locking. Do not release wedge pressure until you have completed the hip escape. The frame must occupy the space before they can drive the foot back.",
+        "targets_outcome": "Body Triangle/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Attempting to clear the triangle before establishing neck defense",
+        "consequence": "Opponent sinks rear naked choke while both hands are occupied with the triangle lock, resulting in immediate submission from an undefended neck",
+        "correction": "Always secure neck defense first – chin tucked with at least one hand fighting the choking arm – before redirecting any energy to triangle clearing attempts"
+      },
+      {
+        "error": "Turning away from the triangle leg instead of toward it",
+        "consequence": "Increases the effective squeezing angle on your ribcage, tightens the breathing restriction, and moves your hand further from the lock point behind the opponent's knee",
+        "correction": "Identify which side the triangle enters and turn specifically toward that side, reducing squeeze angle and positioning your bottom hand to attack the foot behind the knee"
+      },
+      {
+        "error": "Using explosive scrambling rather than systematic clearing mechanics",
+        "consequence": "Rapidly depletes limited oxygen under breathing restriction without addressing the structural lock, wastes energy on ineffective movements, and may expose your neck during uncontrolled motion",
+        "correction": "Execute precise mechanical clearing – target the foot behind the knee with calculated directional force rather than attempting to power through or scramble out of the locked figure-four structure"
+      },
+      {
+        "error": "Pausing after clearing the triangle instead of immediately hip escaping to half guard",
+        "consequence": "Opponent quickly re-establishes the triangle or transitions to hooks, negating all escape progress and forcing a restart under greater fatigue and depleted energy reserves",
+        "correction": "The triangle clear and hip escape must be one continuous sequence – immediately hip escape and thread legs the moment the lock breaks with no pause for recovery"
+      },
+      {
+        "error": "Neglecting to establish underhook and frame after reaching half guard",
+        "consequence": "Opponent immediately flattens you and begins re-taking the back or advancing to side control, losing the hard-earned positional gain from the escape",
+        "correction": "As you establish half guard, immediately fight for the underhook on the trapped leg side and create a knee shield or forearm frame to prevent flattening – transition from escape mindset to half guard offense"
+      },
+      {
+        "error": "Pulling at the opponent's thighs or trying to pry legs apart rather than targeting the specific lock point",
+        "consequence": "The figure-four configuration is structurally sound against general pulling force – energy is wasted on the wrong target while the lock remains fully intact and functional",
+        "correction": "Target specifically the ankle or foot tucked behind the opponent's knee – this is the only structural weakness in a properly locked body triangle and the only viable point of mechanical attack"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Mechanics",
+        "focus": "Triangle lock clearing technique isolation",
+        "description": "Practice the specific mechanical sequence of turning toward the triangle leg and attacking the foot behind the knee. Partner applies light triangle with no upper body attacks. Focus entirely on precise hand placement, force direction, and clearing motion. Repetitions on both sides."
+      },
+      {
+        "phase": "Phase 2: Integration",
+        "focus": "Combining neck defense with clearing attempts",
+        "description": "Partner applies body triangle with moderate squeeze and light neck attacks. Practice alternating between neck defense and triangle clearing attempts, developing the rhythm of defend-clear-defend-clear. Build the timing of when to redirect hands and when to return to neck protection."
+      },
+      {
+        "phase": "Phase 3: Complete Sequence",
+        "focus": "Full escape through to half guard establishment",
+        "description": "Execute the full sequence from triangle clearing through hip escape to half guard establishment and underhook. Partner provides 50-60% resistance. Focus on making the clear-to-half-guard transition continuous without pausing between steps."
+      },
+      {
+        "phase": "Phase 4: Live Application",
+        "focus": "Full resistance execution under realistic conditions",
+        "description": "Start in body triangle with partner providing full resistance on both upper and lower body, including genuine submission attempts and escape counters. Execute the complete escape under realistic conditions including breathing restriction and positional adjustments."
+      },
+      {
+        "phase": "Phase 5: Chain Escapes",
+        "focus": "Linking with alternative escape pathways",
+        "description": "Practice alternating between body triangle escape to half guard, hip escape to turtle, and other escape options based on partner's defensive adjustments. Develop the ability to read which escape is available and switch between clearing methods when primary option is blocked."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the optimal timing window for attacking the body triangle lock?",
+        "answer": "The best timing is when your opponent adjusts their upper body grips or transitions between submission setups. During these brief moments, their squeeze pressure naturally reduces slightly and their attention shifts to hand positioning, creating a window where the lock point is most vulnerable to your clearing attempt. Never attempt the clear while they are actively attacking your neck."
+      },
+      {
+        "question": "What conditions must exist before you can attempt the triangle clearing sequence?",
+        "answer": "You must have established basic neck defense with chin tucked and at least one hand controlling the choking arm. You must have identified which side the triangle crosses your body to determine the correct turning direction. Attempting the clear without neck defense invites immediate choke, and turning the wrong direction increases squeeze pressure rather than reducing it."
+      },
+      {
+        "question": "What is the critical mechanical detail that makes the ankle push clearing technique effective?",
+        "answer": "The figure-four lock depends entirely on the foot being tucked behind the opponent's knee. By pushing the ankle downward and away from the knee crease, you remove the structural anchor of the entire lock. The force direction must be perpendicular to the opponent's femur, pushing the foot outward rather than trying to pull the legs apart, which attacks the weakest angle of the figure-four configuration."
+      },
+      {
+        "question": "Your opponent's triangle is locked tightly with the crossing leg entering from your left side – which direction do you turn and why?",
+        "answer": "Turn toward your left side, toward the triangle leg. This reduces the effective squeezing angle by aligning your torso with the direction of the crossing leg rather than remaining perpendicular to it. Turning left also positions your left hand closer to the lock point behind your opponent's knee where the foot is tucked, enabling the clearing attempt."
+      },
+      {
+        "question": "What grip do you use to attack the triangle lock point and where exactly do you apply force?",
+        "answer": "Use a C-grip or palm push on the opponent's ankle or instep with the hand closest to the mat. Wrap your fingers behind or around the ankle and push it downward away from their knee crease. Apply force perpendicular to the femur line, driving the foot toward the mat and outward. Avoid grabbing the toes or foot sole as this provides insufficient mechanical advantage against the locked structure."
+      },
+      {
+        "question": "Your opponent begins attacking a rear naked choke as you start clearing the triangle – how do you respond?",
+        "answer": "Immediately abandon the clearing attempt and return both hands to neck defense. Tuck your chin deeply and establish two-on-one control on the choking arm. Never try to race the choke by rushing the clear – the choke finishes faster than the clear completes. Wait for the opponent's next grip transition to create a new window for resuming the clearing attempt."
+      },
+      {
+        "question": "If the body triangle escape to half guard is blocked and the opponent re-locks the triangle, what alternatives do you pursue?",
+        "answer": "Switch to hip escape toward turtle as an alternative destination, which attacks a different angle and forces the opponent to adjust their defensive positioning. If the opponent tightens to prevent all turning, attempt the bridge-and-roll variation which uses upward pressure instead of lateral movement. Alternating between escape directions prevents the opponent from settling into a single defensive pattern."
+      },
+      {
+        "question": "Why is half guard a superior escape destination compared to turtle when escaping body triangle?",
+        "answer": "Half guard immediately provides offensive options including underhook sweeps, deep half entries, and back take sequences that put pressure on the opponent and transition the dynamic from survival to engagement. Turtle leaves you in a defensive position where the opponent can immediately re-take the back. Half guard forces the opponent into a guard passing scenario rather than maintaining attacking dominance."
+      },
+      {
+        "question": "What are your immediate priorities upon establishing half guard after the escape?",
+        "answer": "Immediately secure the underhook on the trapped leg side and establish a knee shield or forearm frame to prevent flattening. The opponent will attempt to re-take back control or pass to side control in the first seconds after you reach half guard. Getting the underhook before they can re-establish crossface or seatbelt control is the critical transition point that determines whether the escape truly succeeds."
+      },
+      {
+        "question": "How do you prevent the opponent from re-locking the triangle after you partially clear the ankle?",
+        "answer": "The moment the foot clears from behind the knee, immediately insert your elbow or forearm into the space between your body and their locking leg as a structural wedge. This frame physically blocks the foot from returning to the lock position. Maintain this wedge while executing the hip escape – do not release it until your legs are threaded and half guard is established."
+      }
+    ],
+    "safety_considerations": "This escape involves significant spinal rotation and breathing management under chest compression. Never practice triangle clearing techniques explosively, as sudden movements while the opponent's legs are locked around your torso can cause rib injuries or intercostal muscle strain. Partners should communicate clearly about squeeze pressure levels and release immediately if the bottom player signals distress or difficulty breathing. During initial learning phases, the back controller should apply light triangle pressure to allow safe repetition of clearing mechanics. Tap immediately if breathing becomes severely restricted during training – there is no benefit to training through dangerous levels of breathing restriction."
+  },
+  "defender": {
+    "name": "Body Triangle Escape to Half Guard Defender",
+    "description": "Defend against the body triangle escape in BJJ. Learn to maintain triangle lock, counter clearing attempts, and retain dominant back control against systematic escape sequences.",
+    "overview": "As the defender in the Body Triangle Escape to Half Guard, you are the back controller working to prevent your opponent from dismantling your body triangle and recovering guard. Your primary tools are squeeze maintenance, neck attacks that punish escape attempts, and positional adjustments that address clearing mechanics. The key defensive principle is creating a double threat – every escape attempt your opponent makes should expose them to a submission counter, forcing them to choose between escaping the triangle and defending their neck. When the triangle lock is genuinely threatened beyond recovery, transitioning swiftly to standard hooks preserves back control even if the triangle configuration is lost.",
+    "key_principles": [
+      "Punish clearing attempts with immediate neck attacks: Any time the opponent redirects hands from neck defense to the triangle, capitalize with choke entries that force them to abandon the escape",
+      "Maintain deep lock position: Keep your foot driven deep behind your knee and actively squeeze to prevent space creation around the lock point",
+      "Follow the turn: When the opponent turns toward the triangle side, follow their rotation with your own hip adjustment to maintain optimal perpendicular squeeze angle",
+      "Transition to hooks as contingency: If the triangle is partially cleared and cannot be immediately re-established, transition to standard hooks to preserve back control",
+      "Seatbelt dominance throughout: Maintain strong seatbelt control that limits the opponent's ability to generate the rotation and hand positioning needed for the escape sequence",
+      "Strategic pressure modulation: Increase squeeze pressure when the opponent attempts to clear, creating urgency and energy depletion that shrinks their execution window"
+    ],
+    "recognition_cues": [
+      "Opponent begins turning their torso toward the side where your triangle leg crosses their body – this is the initial setup movement for the clearing sequence",
+      "Opponent's hand moves from defending your choking arm toward your ankle or foot behind your knee, indicating they are targeting the figure-four lock point",
+      "Opponent's hips begin shifting and creating space between your legs and their torso, suggesting hip escape movement to create the angle needed for clearing",
+      "Opponent takes a deep breath and pauses hand fighting momentarily – this often precedes a committed clearing attempt as they prepare for the effort expenditure"
+    ],
+    "defensive_options": [
+      {
+        "action": "Increase triangle squeeze and pull opponent's torso back flat with seatbelt",
+        "when_to_use": "When opponent begins turning toward the triangle leg side, before they access the lock point",
+        "targets_outcome": "Body Triangle/Bottom",
+        "if_successful": "Opponent is flattened back to neutral defensive position with full triangle pressure restored and escape progress reset",
+        "risk": "If squeeze timing is late and opponent has already turned sufficiently, increased pressure may not prevent access to the lock point"
+      },
+      {
+        "action": "Attack rear naked choke by driving choking arm under chin during hand redirection",
+        "when_to_use": "When opponent redirects one or both hands from neck defense to attack the triangle lock point, creating a neck defense gap",
+        "targets_outcome": "Body Triangle/Bottom",
+        "if_successful": "Forces opponent to abandon clearing attempt and return both hands to neck defense, completely resetting their escape progress",
+        "risk": "If choke attempt fails to penetrate, opponent retains brief window with loosened upper body control to resume the clearing attempt"
+      },
+      {
+        "action": "Transition to standard hooks by unlocking triangle and inserting both feet as hooks inside thighs",
+        "when_to_use": "When triangle is partially cleared with foot dislodged from behind knee and no immediate re-lock is available",
+        "targets_outcome": "Back Control/Bottom",
+        "if_successful": "Maintains dominant back control position with hooks, preventing opponent from reaching half guard despite losing the body triangle configuration",
+        "risk": "Standard hooks are substantially easier for the opponent to clear than body triangle, opening new escape pathways"
+      },
+      {
+        "action": "Re-drive foot behind knee to re-lock triangle before opponent establishes blocking frame",
+        "when_to_use": "Immediately after opponent partially clears the ankle but before they wedge an elbow or forearm into the space",
+        "targets_outcome": "Body Triangle/Bottom",
+        "if_successful": "Full body triangle control restored, requiring opponent to restart the entire escape sequence under increased fatigue",
+        "risk": "If opponent has already inserted a frame, the re-lock attempt will fail and you lose the initiative to transition to alternative control"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Body Triangle/Bottom",
+        "how": "Immediately punish any clearing attempt with neck attacks, forcing opponent to repeatedly abandon escape progress and return to defensive hand fighting. Maintain deep foot lock behind your knee, follow the opponent's turning attempts with hip adjustments, and modulate squeeze pressure to deplete their energy reserves."
+      },
+      {
+        "outcome": "Back Control/Bottom",
+        "how": "When the triangle lock is partially cleared and re-locking is not viable, swiftly transition to standard hooks before the opponent can thread legs for half guard. Insert both feet as hooks inside their thighs while maintaining seatbelt control, preserving the dominant back position even though the breathing pressure of the triangle is lost."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Allowing opponent to turn toward the triangle side without following with hip adjustment",
+        "consequence": "Opponent accesses the lock point behind your knee and begins the clearing sequence with reduced squeeze pressure and optimal hand positioning",
+        "correction": "Match the opponent's turning motion by adjusting your own hips to stay directly behind them, maintaining the optimal perpendicular squeeze angle on their ribcage throughout their rotation attempt"
+      },
+      {
+        "error": "Focusing exclusively on maintaining the triangle lock while neglecting upper body seatbelt control",
+        "consequence": "Opponent uses loosened seatbelt to create frames, posture, and generate the rotation needed to clear the triangle with both hands free from neck defense",
+        "correction": "Maintain tight seatbelt control throughout – your upper body grip is what prevents the opponent from having the freedom and positioning to systematically attack the lock point"
+      },
+      {
+        "error": "Delaying the transition to standard hooks when the triangle is clearly compromised beyond recovery",
+        "consequence": "Opponent clears the triangle completely and hip escapes to half guard or turtle before you can re-establish any form of leg control over their hips",
+        "correction": "Recognize early when the triangle is failing and immediately transition to hooks while you still have seatbelt control and chest connection – preserving back control is more important than preserving the specific triangle variation"
+      },
+      {
+        "error": "Squeezing at maximum effort constantly rather than modulating pressure strategically",
+        "consequence": "Your legs fatigue rapidly, making the triangle progressively weaker and easier for the opponent to clear over time as your muscle endurance depletes",
+        "correction": "Maintain a moderate baseline squeeze sufficient for control and increase pressure strategically when the opponent initiates clearing attempts, preserving leg endurance for the critical defensive moments"
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "How do you recognize that your opponent is about to attempt a body triangle clearing sequence?",
+        "answer": "Watch for the opponent beginning to turn their torso toward the triangle leg side, which reduces your squeeze angle. Their hand moving from neck defense toward your ankle behind your knee is the most definitive indicator of an imminent clearing attempt. A brief pause in their hand fighting often precedes a committed attempt as they gather energy and focus for the effort."
+      },
+      {
+        "question": "What is your optimal response when the opponent successfully pushes your foot out from behind your knee?",
+        "answer": "Immediately attempt to re-drive the foot behind your knee before they can establish a blocking frame with their elbow or forearm. If the re-lock is not possible within one to two seconds, transition to standard hooks by inserting both feet inside their thighs while maintaining seatbelt control. Do not spend extended time trying to re-lock a clearly compromised triangle while the opponent is actively hip escaping toward guard recovery."
+      },
+      {
+        "question": "Why is attacking the neck the most effective counter when your opponent begins the triangle clearing sequence?",
+        "answer": "Neck attacks create an impossible resource allocation problem – the opponent must defend the choke with their hands, but clearing the triangle also requires their hands. They cannot do both simultaneously. Every second they spend returning to neck defense is a second they cannot work on the triangle clearing, and repeated choke threats deplete their energy and mental composure under the breathing restriction your triangle creates."
+      },
+      {
+        "question": "What positional adjustments maintain your triangle's effectiveness when the opponent turns toward the crossing leg?",
+        "answer": "Follow their turning motion by adjusting your hips to stay perpendicular to their torso rather than allowing them to align with your squeeze direction. Pull their shoulders back toward you with the seatbelt and drive your chest tighter against their back. Increase momentary squeeze pressure during the turn to discourage continued rotation and potentially force them to abandon the turning attempt entirely."
+      },
+      {
+        "question": "When should you prioritize transitioning to hooks over fighting to maintain the body triangle?",
+        "answer": "Transition to hooks when the opponent has successfully dislodged your foot from behind your knee and has established a structural frame preventing re-locking. If you spend more than two to three seconds attempting to re-lock against an active frame, you are losing time that could be spent securing hooks. The critical factor is whether seatbelt and chest connection remain intact – if they do, hooks will preserve back control effectively."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Recognition",
+        "focus": "Identifying escape attempt cues early",
+        "description": "Partner performs body triangle escape sequences at moderate speed while you focus on recognizing the cues – turning motion, hand redirection toward ankle, hip shifting. Do not counter initially, just develop the ability to read escape attempts before they reach the critical clearing phase."
+      },
+      {
+        "phase": "Phase 2: Counter Timing",
+        "focus": "Applying counters at the correct moments",
+        "description": "Partner attempts escapes at 50% speed and intensity. Practice applying specific counters at the correct timing – neck attacks when hands leave defense, squeeze increases when turning begins, hip adjustments to follow rotation. Build automatic responses to each escape cue."
+      },
+      {
+        "phase": "Phase 3: Full Resistance Retention",
+        "focus": "Maintaining triangle under realistic escape pressure",
+        "description": "Partner attempts full-speed body triangle escapes with realistic intensity. Practice maintaining triangle control, chaining counters together, and making the critical decision of when to fight for the triangle versus when to transition to hooks. Develop situational judgment for position preservation."
+      },
+      {
+        "phase": "Phase 4: Submission Integration",
+        "focus": "Converting escape attempts into finishing opportunities",
+        "description": "Partner attempts escapes while you practice using their clearing attempts as submission openings – attacking the neck when hands redirect to the triangle, isolating reaching arms for armbar transitions, and using strategic pressure increases to force defensive errors that create choke entries."
+      }
+    ]
+  }
+}

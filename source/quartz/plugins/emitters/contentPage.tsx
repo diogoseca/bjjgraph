@@ -9,7 +9,7 @@ import BodyConstructor from "../../components/Body"
 import { pageResources, renderPage } from "../../components/renderPage"
 import { FullPageLayout } from "../../cfg"
 import { Argv } from "../../util/ctx"
-import { FilePath, isRelativeURL, joinSegments, pathToRoot } from "../../util/path"
+import { FilePath, FullSlug, isRelativeURL, joinSegments, pathToRoot } from "../../util/path"
 import { defaultContentPageLayout, sharedPageComponents } from "../../../quartz.layout"
 import { Content } from "../../components"
 import chalk from "chalk"
@@ -96,8 +96,19 @@ export const ContentPage: QuartzEmitterPlugin<Partial<FullPageLayout>> = (userOp
     },
     async emit(ctx, content, resources): Promise<FilePath[]> {
       const cfg = ctx.cfg.configuration
-      const fps: FilePath[] = []
       const allFiles = content.map((c) => c[1].data)
+
+      // Build slugMap once for O(1) transclusion lookups (replaces O(n) .find() per page)
+      const slugMap = new Map<FullSlug, typeof allFiles[0]>()
+      for (const f of allFiles) {
+        if (f.slug) slugMap.set(f.slug, f)
+      }
+
+      // Render all pages (CPU-bound), then batch write to disk
+      const WRITE_BATCH = 64
+      const fps: FilePath[] = []
+      const pendingWrites: Array<{ ctx: typeof ctx; content: string; slug: FullSlug; ext: ".html" }> =
+        []
 
       let containsIndex = false
       for (const [tree, file] of content) {
@@ -115,17 +126,24 @@ export const ContentPage: QuartzEmitterPlugin<Partial<FullPageLayout>> = (userOp
           children: [],
           tree,
           allFiles,
+          slugMap,
         }
 
-        const content = renderPage(cfg, slug, componentData, opts, externalResources)
-        const fp = await write({
-          ctx,
-          content,
-          slug,
-          ext: ".html",
-        })
+        const rendered = renderPage(cfg, slug, componentData, opts, externalResources)
+        pendingWrites.push({ ctx, content: rendered, slug, ext: ".html" })
 
-        fps.push(fp)
+        // Flush writes in batches to avoid holding too much in memory
+        if (pendingWrites.length >= WRITE_BATCH) {
+          const batch = pendingWrites.splice(0, pendingWrites.length)
+          const results = await Promise.all(batch.map((w) => write(w)))
+          fps.push(...results)
+        }
+      }
+
+      // Flush remaining
+      if (pendingWrites.length > 0) {
+        const results = await Promise.all(pendingWrites.map((w) => write(w)))
+        fps.push(...results)
       }
 
       if (!containsIndex && !ctx.argv.fastRebuild) {

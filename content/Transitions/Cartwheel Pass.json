@@ -1,0 +1,394 @@
+{
+  "name": "Cartwheel Pass",
+  "description": "Learn Cartwheel Pass in BJJ. Athletic passing technique from Grasshopper Guard to Side Control. Success rates: Beginner 30%, Intermediate 50%, Advanced 65%.",
+  "tags": [
+    "bjj",
+    "transition",
+    "guard-pass",
+    "inverted-guard",
+    "athletic",
+    "advanced"
+  ],
+  "from_position": "Grasshopper Guard/Top",
+  "outcomes": [
+    {
+      "to": "Side Control/Top",
+      "probability": 65,
+      "result": "success"
+    },
+    {
+      "to": "Grasshopper Guard/Top",
+      "probability": 25,
+      "result": "failure"
+    },
+    {
+      "to": "Closed Guard/Bottom",
+      "probability": 10,
+      "result": "counter"
+    }
+  ],
+  "success_rate": 58,
+  "overview": "The Cartwheel Pass is an athletic and dynamic technique used to bypass inverted guards, particularly the Grasshopper Guard. When facing an opponent who has inverted with their legs elevated and threatening leg entanglements, the cartwheel motion allows you to vault over their defensive structure entirely, landing directly into side control. This pass exploits a fundamental weakness of inverted guards: while they excel at controlling opponents who engage directly with their legs, they struggle against aerial passes that avoid leg contact altogether.\n\nThe technique requires committing to the cartwheel motion with conviction, as hesitation mid-pass creates vulnerability to being pulled into the guard player's entanglement system. Your hands plant on the mat beside the opponent's hips, and you rotate your body laterally through the air, allowing your legs to clear their elevated guard completely. The landing must be controlled, transitioning immediately into heavy side control pressure before the opponent can reorganize their defensive structure.\n\nStrategically, the Cartwheel Pass functions best as a surprise element within your passing game. Its athletic nature means it cannot be spammed repeatedly without significant energy expenditure. The optimal timing occurs when the guard player has committed deeply to their inversion, creating space beside their body for your hand placement. Attempting the pass when they are actively adjusting or have legs extended toward you significantly reduces success probability and increases counter risk.",
+  "related_content": [
+    {
+      "name": "Grasshopper Guard",
+      "relationship": "Starting position - the inverted guard this pass is designed to defeat"
+    },
+    {
+      "name": "Side Control",
+      "relationship": "Primary destination after successful pass completion"
+    },
+    {
+      "name": "Back Step Pass",
+      "relationship": "Alternative passing option when cartwheel is defended or legs intercept"
+    },
+    {
+      "name": "Leg Drag Pass",
+      "relationship": "Complementary pass that creates openings when cartwheel is threatened"
+    },
+    {
+      "name": "Inverted Guard",
+      "relationship": "Parent guard category that cartwheel pass addresses"
+    },
+    {
+      "name": "Bullfighter Pass",
+      "relationship": "Ground-based alternative for passing inverted guards with leg control"
+    },
+    {
+      "name": "North-South",
+      "relationship": "Alternative landing position when opponent rotates during pass"
+    },
+    {
+      "name": "Front Headlock",
+      "relationship": "Conversion option when opponent technical stands during landing"
+    },
+    {
+      "name": "Closed Guard",
+      "relationship": "Counter outcome position when opponent catches legs during cartwheel"
+    }
+  ],
+  "attacker": {
+    "name": "Cartwheel Pass Attacker",
+    "description": "How to execute Cartwheel Pass in BJJ. Attacking perspective with setup, execution steps, and counters.",
+    "overview": "The Cartwheel Pass is an athletic and dynamic technique used to bypass inverted guards, particularly the Grasshopper Guard. When facing an opponent who has inverted with their legs elevated and threatening leg entanglements, the cartwheel motion allows you to vault over their defensive structure entirely, landing directly into side control. This pass exploits a fundamental weakness of inverted guards: while they excel at controlling opponents who engage directly with their legs, they struggle against aerial passes that avoid leg contact altogether.\n\nThe technique requires committing to the cartwheel motion with conviction, as hesitation mid-pass creates vulnerability to being pulled into the guard player's entanglement system. Your hands plant on the mat beside the opponent's hips, and you rotate your body laterally through the air, allowing your legs to clear their elevated guard completely. The landing must be controlled, transitioning immediately into heavy side control pressure before the opponent can reorganize their defensive structure.\n\nStrategically, the Cartwheel Pass functions best as a surprise element within your passing game. Its athletic nature means it cannot be spammed repeatedly without significant energy expenditure. The optimal timing occurs when the guard player has committed deeply to their inversion, creating space beside their body for your hand placement. Attempting the pass when they are actively adjusting or have legs extended toward you significantly reduces success probability and increases counter risk.",
+    "key_principles": [
+      "Commit fully to the cartwheel motion - hesitation allows opponent to establish leg hooks",
+      "Hand placement must be precise, beside opponent's hips, not on their body",
+      "Maintain visual awareness of opponent's legs throughout the rotation to avoid entanglement",
+      "Generate sufficient rotation speed to clear the elevated guard structure completely",
+      "Land with immediate heavy pressure to prevent guard recovery or re-inversion",
+      "Timing is critical - initiate when opponent is deeply inverted with legs committed elsewhere"
+    ],
+    "setup_requirements": [
+      "Opponent established in inverted guard position with elevated hips and legs",
+      "Clear space beside opponent's body for hand placement and cartwheel trajectory",
+      "Opponent's legs committed to one direction, creating passing lane on opposite side",
+      "Standing or combat base position with ability to generate lateral momentum",
+      "Mental commitment to complete the pass - partial attempts invite counters"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Establish position",
+        "description": "From standing or combat base facing the inverted guard, assess opponent's leg positioning and identify which side offers the clear passing lane based on where their legs are committed."
+      },
+      {
+        "step_number": 2,
+        "action": "Create angle",
+        "description": "Step laterally toward the identified passing lane, beginning to circle around the edge of opponent's guard structure while maintaining enough distance to avoid leg hooks."
+      },
+      {
+        "step_number": 3,
+        "action": "Plant lead hand",
+        "description": "Drive your lead hand firmly to the mat beside opponent's hip on the passing side, fingers pointing away from their body to support your rotation through the cartwheel."
+      },
+      {
+        "step_number": 4,
+        "action": "Initiate cartwheel",
+        "description": "Push off your feet and begin the cartwheel rotation, driving your hips up and over while your trailing hand reaches toward the mat on the far side of opponent's body."
+      },
+      {
+        "step_number": 5,
+        "action": "Clear legs",
+        "description": "Rotate your legs through the air in the cartwheel arc, keeping them elevated and wide to completely clear opponent's inverted guard structure without making contact."
+      },
+      {
+        "step_number": 6,
+        "action": "Land in side control",
+        "description": "Complete the rotation by landing your hip-side knee first, immediately driving chest pressure perpendicular across opponent's torso while establishing crossface and hip control."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Opponent tracks your movement and rotates their inversion to follow, maintaining leg threat",
+        "effectiveness": "High",
+        "your_response": "Abort the cartwheel and circle back to original side, using their rotation against them by attacking the now-exposed opposite angle",
+        "targets_outcome": "Grasshopper Guard/Top"
+      },
+      {
+        "counter": "Opponent extends legs directly at you during cartwheel initiation, catching your hips or legs",
+        "effectiveness": "Medium",
+        "your_response": "Increase cartwheel height and speed to clear the extended legs, or convert to a back step pass if legs catch early",
+        "targets_outcome": "Grasshopper Guard/Top"
+      },
+      {
+        "counter": "Opponent posts on hip and technical stands during your aerial transition",
+        "effectiveness": "Medium",
+        "your_response": "Land and immediately transition to front headlock or snap down rather than forcing side control on a recovering opponent",
+        "targets_outcome": "Grasshopper Guard/Top"
+      },
+      {
+        "counter": "Opponent Granby rolls under your landing trajectory, recovering guard as you land",
+        "effectiveness": "Low",
+        "your_response": "Follow their roll and reestablish top position, using their momentum to settle into north-south or repeat passing sequence",
+        "targets_outcome": "Closed Guard/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Hesitating mid-cartwheel or attempting a slow, controlled rotation",
+        "consequence": "Gives opponent time to adjust legs, catch your hips, and pull you into leg entanglement or sweep",
+        "correction": "Commit fully to the athletic movement - the cartwheel must be explosive and completed in one fluid motion without pause"
+      },
+      {
+        "error": "Placing hands directly on opponent's body instead of beside their hips",
+        "consequence": "Hands get trapped, opponent can control your posting arm, and your rotation becomes unstable",
+        "correction": "Plant hands firmly on the mat beside opponent's hips, using the floor for stable support throughout rotation"
+      },
+      {
+        "error": "Attempting the pass when opponent's legs are extended toward you",
+        "consequence": "Legs intercept your cartwheel trajectory, resulting in getting caught in half guard or leg entanglement",
+        "correction": "Wait for opponent to commit their legs away from your passing lane before initiating - timing is more important than speed"
+      },
+      {
+        "error": "Landing too far from opponent after completing the cartwheel",
+        "consequence": "Creates space for opponent to recover guard, re-invert, or technical stand before you establish control",
+        "correction": "Aim landing to place your chest directly on opponent's upper body, establishing immediate perpendicular pressure"
+      },
+      {
+        "error": "Failing to establish immediate control after landing",
+        "consequence": "Opponent frames, shrimps, or re-inverts before you can settle your weight, negating the pass",
+        "correction": "Land with heavy hip-down pressure and immediately drive crossface while blocking far hip - consolidation happens simultaneously with landing"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Week 1-2",
+        "focus": "Cartwheel mechanics",
+        "description": "Practice cartwheel motion solo without partner to develop comfort with the athletic movement. Focus on hand placement, rotation speed, and controlled landing. Build shoulder stability and spatial awareness required for the technique."
+      },
+      {
+        "phase": "Week 3-4",
+        "focus": "Partner drilling static",
+        "description": "Partner holds inverted guard position without resistance. Practice complete sequence from observation through landing and consolidation. Focus on trajectory, clearance, and immediate pressure establishment. Reset and repeat 20+ repetitions per session."
+      },
+      {
+        "phase": "Week 5-6",
+        "focus": "Timing and recognition",
+        "description": "Partner actively moves in inverted guard, adjusting leg positions and angles. Practice recognizing the optimal timing window and executing the pass during appropriate moments. Partner begins providing moderate defensive reactions."
+      },
+      {
+        "phase": "Week 7+",
+        "focus": "Live integration",
+        "description": "Incorporate into positional sparring from standing against inverted guards. Partner defends with full intent. Focus on integrating the pass into broader passing game, combining with other techniques when cartwheel is defended."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the primary goal of the Cartwheel Pass?",
+        "answer": "The primary goal is to completely bypass the opponent's inverted guard structure by vaulting over their elevated legs, avoiding leg entanglements entirely, and landing directly in side control with immediate pressure before they can reorganize defensively."
+      },
+      {
+        "question": "What position do you start the Cartwheel Pass from?",
+        "answer": "This technique starts from Grasshopper Guard Top, specifically when facing an opponent who has established an inverted guard position with elevated hips and legs threatening leg entanglements or sweeps."
+      },
+      {
+        "question": "Where should your hands be placed when initiating the cartwheel?",
+        "answer": "Hands must be planted firmly on the mat beside the opponent's hips, not on their body. This positioning provides stable support for your rotation while keeping your arms free from potential traps and ensuring consistent trajectory through the pass."
+      },
+      {
+        "question": "Your opponent begins tracking your movement and rotating their inversion to follow - how should you respond?",
+        "answer": "Abort the cartwheel attempt and immediately circle back to your original side. Use their rotation against them by attacking the now-exposed opposite angle, as their commitment to following you has created an opening elsewhere."
+      },
+      {
+        "question": "When is the optimal timing to attempt the Cartwheel Pass?",
+        "answer": "The optimal timing is when the opponent has committed deeply to their inversion with legs directed away from your intended passing lane. Attempting when they are actively adjusting or have legs extended toward you significantly reduces success and increases counter risk."
+      },
+      {
+        "question": "What is the consequence of hesitating during the cartwheel rotation?",
+        "answer": "Hesitation gives the opponent time to recognize the pass, adjust their leg positioning, and either catch your hips with hooks or extend legs to intercept your trajectory, pulling you into leg entanglement or setting up a sweep."
+      },
+      {
+        "question": "How should you land to maximize control after completing the cartwheel?",
+        "answer": "Land with your hip-side knee first, immediately driving chest pressure perpendicular across opponent's torso. Establish crossface and block their far hip simultaneously with landing - consolidation must happen in the same moment as touchdown."
+      },
+      {
+        "question": "The opponent extends their legs at you during your cartwheel initiation - what adjustment should you make?",
+        "answer": "Increase your cartwheel height and rotation speed to clear the extended legs, maintaining commitment to the pass. Alternatively, if their legs catch you early in the movement, convert immediately to a back step pass rather than forcing the incomplete cartwheel."
+      },
+      {
+        "question": "What direction of force should you generate during the cartwheel rotation?",
+        "answer": "Force should be lateral and upward, creating an arc that carries your body over and around the opponent's guard structure. The momentum must be sufficient to clear their elevated legs completely while landing close enough to establish immediate pressure."
+      },
+      {
+        "question": "How does the Cartwheel Pass integrate with other passing techniques against inverted guards?",
+        "answer": "The Cartwheel Pass functions as an athletic surprise element that complements more methodical passes like the back step or leg drag. Its threat forces opponents to respect aerial passes, which creates openings for ground-based passing when they adjust defensively."
+      }
+    ],
+    "safety_considerations": "The Cartwheel Pass carries inherent athletic risk due to its acrobatic nature. Practitioners should develop comfortable cartwheel mechanics through solo drilling before attempting with partners. Ensure adequate mat space and ceiling clearance before practicing. The landing phase requires controlled deceleration to avoid crashing weight onto the opponent's face or ribs - aim to land beside them with pressure spreading gradually. Avoid attempting this pass when fatigued, as compromised coordination increases injury risk for both parties. Partners should communicate clearly, and the receiving player should tap or verbalize if landing pressure is excessive. Practitioners with shoulder, wrist, or neck injuries should avoid this technique until fully recovered."
+  },
+  "defender": {
+    "name": "Cartwheel Pass Defender",
+    "description": "How to defend against Cartwheel Pass in BJJ. Recognition cues, defensive options, and escape strategies.",
+    "overview": "Defending the Cartwheel Pass from bottom grasshopper guard requires early recognition and proactive leg management. The pass succeeds when the top player finds a clear lane beside your body and vaults over your elevated legs before you can react. Your defensive strategy centers on denying that lane by tracking their lateral movement with your inversion angle, keeping at least one leg extended toward them as a barrier, and maintaining active hip elevation that allows rapid repositioning. The cartwheel's explosive nature means late reactions are almost always insufficient - once the top player is airborne, your options narrow dramatically to damage control rather than prevention.\n\nThe most effective defensive window occurs during the passer's setup phase, before they commit to the cartwheel rotation. During this phase, you can read their circling movement, adjust your inversion to follow, and extend legs to intercept their intended trajectory. If the cartwheel is already in motion, your best options shift to recovering closed guard by wrapping legs as they land, or Granby rolling underneath to reset the engagement entirely. Understanding which defensive response matches each phase of the pass is critical for consistent defense.",
+    "key_principles": [
+      "Track the passer's lateral movement continuously - rotate your inversion angle to always face the threat and deny clear passing lanes",
+      "Maintain at least one leg extended toward the passer as a barrier that forces them to either engage your legs or abort the pass attempt",
+      "Preserve hip elevation throughout defense - dropping hips eliminates your ability to reposition and makes all aerial passes easier to complete",
+      "React during the setup phase rather than waiting for the cartwheel to begin, as once airborne the passer is extremely difficult to stop",
+      "Keep hands free and ready to frame against the landing rather than committed to grips that restrict your defensive mobility"
+    ],
+    "recognition_cues": [
+      "Passer begins circling laterally around the edge of your guard rather than engaging directly with your legs, stepping wide to create angle for the cartwheel entry",
+      "Passer drops one hand toward the mat beside your hip while their weight shifts to one side, indicating they are about to plant for the cartwheel rotation",
+      "Passer disengages from all leg contact and creates distance before moving laterally, signaling they intend to vault over rather than pass through your guard",
+      "Passer's posture shifts from low combat base to more upright and mobile stance, loading their legs for the explosive lateral push-off required for the cartwheel"
+    ],
+    "defensive_options": [
+      {
+        "action": "Rotate your inversion to track the passer's lateral movement, extending both legs toward their new angle to block the cartwheel lane",
+        "when_to_use": "As soon as you detect the passer circling laterally during the setup phase, before they plant their hand on the mat",
+        "targets_outcome": "Grasshopper Guard/Top",
+        "if_successful": "Passer finds no clear lane and must abort the cartwheel attempt, returning to neutral standing position facing your guard",
+        "risk": "Over-rotation exposes the opposite side if passer feints and switches direction"
+      },
+      {
+        "action": "Extend one leg directly into the passer's hip or shoulder line as they begin the cartwheel, creating a physical barrier they must navigate around or through",
+        "when_to_use": "When the passer has already planted their lead hand and begun loading for the cartwheel rotation",
+        "targets_outcome": "Grasshopper Guard/Top",
+        "if_successful": "Extended leg intercepts the passer's trajectory mid-rotation, disrupting the cartwheel and either stopping the pass or pulling them into your leg entanglement system",
+        "risk": "If the passer clears your extended leg with sufficient height, you have one less leg in position for guard recovery"
+      },
+      {
+        "action": "Execute a Granby roll underneath the passer's aerial trajectory as they cartwheel over, rolling to face them and reestablishing guard contact as they land",
+        "when_to_use": "When the cartwheel is already committed and airborne, making leg interception impossible",
+        "targets_outcome": "Grasshopper Guard/Top",
+        "if_successful": "You escape underneath the pass entirely, resetting to a guard position facing the passer before they can consolidate side control",
+        "risk": "Mistiming the Granby roll can leave you flat on your back with the passer already in side control"
+      },
+      {
+        "action": "Catch the passer's hips or legs with your own legs as they land, immediately wrapping closed guard before they can establish crossface and hip control",
+        "when_to_use": "When the cartwheel has completed and the passer is landing beside you but has not yet consolidated side control pressure",
+        "targets_outcome": "Closed Guard/Bottom",
+        "if_successful": "You recover closed guard despite the pass being completed, denying the passer any positional advantage and resetting the engagement",
+        "risk": "If the passer lands with heavy pressure and immediate crossface, your legs may be too late to close around their waist"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Grasshopper Guard/Top",
+        "how": "Track the passer's lateral movement early by rotating your inversion angle to face them continuously. Extend at least one leg toward their circling path to deny the passing lane. If they plant a hand, immediately shoot your near leg into their hip line to intercept the rotation. The key is reacting during their setup phase - once you block the lane, they must disengage and reset, returning you to your original grasshopper guard position with full offensive capability."
+      },
+      {
+        "outcome": "Closed Guard/Bottom",
+        "how": "If the cartwheel is already in motion and cannot be stopped, immediately begin curling your body to face the direction they are landing. As they touch down, shoot both legs around their waist before they can sprawl their hips away or establish crossface. Your arms frame against their shoulder and hip to create enough space for your legs to close. This is damage control rather than prevention, but closed guard is a strong recovery position that denies them the side control advantage they were seeking."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Staying static in grasshopper guard without tracking the passer's lateral movement",
+        "consequence": "Creates a wide-open passing lane beside your body that the passer exploits with an uncontested cartwheel, landing in deep side control with no defensive structures in place",
+        "correction": "Continuously rotate your inversion angle to face the passer as they circle, treating their lateral movement as the primary threat and adjusting your leg positioning to always block their most likely cartwheel trajectory"
+      },
+      {
+        "error": "Dropping hips to the mat when sensing the cartwheel is coming",
+        "consequence": "Eliminates your ability to rotate, extend legs, or Granby roll effectively, making you a flat target that is easy to pass and pin",
+        "correction": "Maintain active hip elevation throughout the defensive sequence - your elevated hips are what give you the mobility to track, intercept, and recover against aerial passes"
+      },
+      {
+        "error": "Committing both legs to one side in an overly aggressive entanglement attempt",
+        "consequence": "Exposes the opposite side completely, and a feint cartwheel followed by direction change catches you with no legs available to block the actual passing lane",
+        "correction": "Keep one leg as a tracking barrier toward the passer while the other maintains your inversion structure - never commit both legs to the same angle unless you have secured a hook"
+      },
+      {
+        "error": "Attempting to grab the passer's arm or body during the cartwheel rotation",
+        "consequence": "The rotational force of the cartwheel strips your grip easily and the reaching motion compromises your shoulder base, flattening you and accelerating the pass completion",
+        "correction": "Use your legs as your primary defensive tools against the cartwheel, not your arms - keep hands ready to frame against the landing pressure rather than reaching for grips during the aerial phase"
+      },
+      {
+        "error": "Panicking and abandoning the inversion entirely when the cartwheel is initiated",
+        "consequence": "Flattening out removes all guard structure and makes you easier to pin, while also eliminating any possibility of leg interception or Granby roll recovery",
+        "correction": "Trust your inverted position and work within it - even if the cartwheel succeeds, maintaining inversion gives you recovery options like Granby rolls and leg wraps that are impossible from a flat position"
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the earliest recognition cue that a cartwheel pass is being set up?",
+        "answer": "The earliest cue is when the passer begins circling laterally around the edge of your guard rather than engaging directly with your legs. This wide circling movement, combined with disengagement from leg contact, signals they are looking for a clear lane beside your body to plant their hand and initiate the cartwheel rotation."
+      },
+      {
+        "question": "Your opponent has already planted their hand and begun the cartwheel - what is your best defensive option at this point?",
+        "answer": "At this late stage, your best option is to execute a Granby roll underneath their aerial trajectory, rolling to face them and reestablishing guard contact as they land. Alternatively, prepare to catch their hips with your legs as they land, wrapping closed guard before they consolidate side control. Attempting to intercept with legs at this point is usually too late."
+      },
+      {
+        "question": "Why is maintaining hip elevation critical when defending the cartwheel pass?",
+        "answer": "Hip elevation provides the mobility needed to rotate your inversion angle, extend legs toward the passer, and execute Granby rolls for recovery. When your hips drop to the mat, you lose all rotational ability and become a flat, stationary target that the passer can easily vault over and pin in side control without resistance."
+      },
+      {
+        "question": "How should you position your legs to deny the cartwheel passing lane without overcommitting?",
+        "answer": "Extend one leg toward the passer as a tracking barrier that follows their lateral movement, while keeping the other leg maintaining your inversion base and ready to switch sides. This split configuration blocks the most likely cartwheel trajectory while preserving your ability to adjust if they change direction or feint to the opposite side."
+      },
+      {
+        "question": "The passer feints a cartwheel to one side then switches direction - how do you avoid being caught by this misdirection?",
+        "answer": "Avoid committing both legs to one side when you detect lateral movement. Keep one leg as a mobile barrier and the other as a base leg, so you can quickly pivot your inversion angle when the direction changes. React to the hand plant rather than the initial circling - the actual cartwheel requires a committed hand on the mat, which is harder to fake than footwork."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Week 1-2",
+        "focus": "Recognition and tracking",
+        "description": "Partner circles laterally at walking speed while you practice rotating your inversion angle to follow their movement. No cartwheel attempts yet - purely develop the habit of tracking lateral movement and maintaining leg positioning toward the threat. Build the connection between seeing circling motion and automatically adjusting your guard angle."
+      },
+      {
+        "phase": "Week 3-4",
+        "focus": "Leg interception drilling",
+        "description": "Partner telegraphs the cartwheel setup by planting their hand slowly. Practice extending your near leg into their trajectory at the correct timing. Partner increases speed gradually. Focus on the timing of leg extension relative to hand plant - too early allows redirection, too late allows the cartwheel to clear."
+      },
+      {
+        "phase": "Week 5-6",
+        "focus": "Granby roll recovery",
+        "description": "Partner executes full cartwheel passes at moderate speed. Practice Granby rolling underneath and recovering guard as they land. Alternate between Granby recovery and closed guard catch depending on landing position. Build comfort with defensive options when prevention fails."
+      },
+      {
+        "phase": "Week 7+",
+        "focus": "Live defensive sparring",
+        "description": "Positional rounds starting in grasshopper guard where partner can attempt cartwheel passes along with other passing methods. Defend with full defensive toolkit including tracking, interception, Granby rolls, and guard recovery. Develop the ability to read which pass is coming and select appropriate defense in real time."
+      }
+    ]
+  },
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Baby Cartwheel Pass",
+      "description": "A modified version with shorter rotation arc, keeping hips lower throughout. Useful when ceiling height is limited or opponent's guard is lower to the mat. Sacrifices some clearance height for increased control and reduced athletic demand.",
+      "when_to_use": "When opponent's inversion is shallow or when working in confined spaces"
+    },
+    {
+      "variant_name": "Cartwheel to North-South",
+      "description": "Instead of landing in side control, continue rotation to land directly into north-south position. Useful when opponent is already beginning to turn toward you during the pass, as north-south secures control regardless of their facing direction.",
+      "when_to_use": "When opponent rotates to follow your movement during the cartwheel"
+    },
+    {
+      "variant_name": "Feint Cartwheel to Leg Drag",
+      "description": "Show the cartwheel setup to draw opponent's legs toward that side, then abort and immediately execute a leg drag pass on the opposite side. Exploits opponent's defensive reaction to create the opening.",
+      "when_to_use": "Against opponents who have successfully defended previous cartwheel attempts"
+    }
+  ],
+  "conditions": [
+    "Opponent is established in an inverted guard position with elevated hips",
+    "Clear lateral space exists beside opponent's body for hand placement",
+    "Opponent's legs are committed to one direction, leaving opposite side open",
+    "Passer has standing or combat base with ability to generate lateral momentum",
+    "Passer has sufficient athletic ability and cartwheel mechanics for the rotation"
+  ],
+  "position_integration": "The Cartwheel Pass occupies a specialized niche in the guard passing hierarchy, specifically addressing inverted guards that traditional passing methods struggle to solve. When integrated into a complete passing game, it serves as the athletic complement to more methodical approaches like the back step pass, leg drag, or toreando. The threat of the cartwheel forces inverted guard players to keep their legs closer to their body for protection, which paradoxically creates openings for those ground-based passes. After completing the pass, standard side control attacks and transitions apply - the Cartwheel Pass is simply a means of arriving there. Common follow-ups from the established side control include Americana, kimura, arm triangle setups, or positional advancement to mount or north-south depending on opponent's defensive reactions."
+}

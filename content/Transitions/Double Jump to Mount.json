@@ -1,0 +1,397 @@
+{
+  "name": "Double Jump to Mount",
+  "description": "Master the Double Jump to Mount transition in BJJ. Complete guide to step-over mechanics from turtle attack hooks to establishing dominant mount control.",
+  "tags": [
+    "bjj",
+    "transition",
+    "mount",
+    "turtle-attack",
+    "double-jump",
+    "positional-advancement",
+    "step-over",
+    "advanced"
+  ],
+  "from_position": "Double Jump/Top",
+  "outcomes": [
+    {
+      "to": "Mount/Top",
+      "probability": 55,
+      "result": "success"
+    },
+    {
+      "to": "Double Jump/Top",
+      "probability": 30,
+      "result": "failure"
+    },
+    {
+      "to": "Half Guard/Bottom",
+      "probability": 15,
+      "result": "counter"
+    }
+  ],
+  "success_rate": 55,
+  "overview": "The Double Jump to Mount transition is an opportunistic positional advancement technique executed from the Double Jump Top position, where the top player has established bilateral leg hooks inside the opponent's thighs during a turtle attack. While the primary advancement from Double Jump typically targets back control through hook conversion or crab ride entries, the mount pathway becomes viable when the opponent flattens their base and goes belly-down, making traditional back-taking mechanics less effective due to the elimination of the space needed for hook reclassification.\n\nThis transition exploits the opponent's defensive choice to flatten rather than maintain an active turtle. By systematically extracting the leg hooks and stepping over to establish a straddling position, the top player converts lateral hook-based control into the superior downward pressure of mount. The technique requires precise sequencing: upper body control must remain continuous while each hook is extracted independently, and the step-over must be timed to settle mount weight before the opponent can recover guard or rebuild defensive frames.\n\nThe Double Jump to Mount pathway represents a critical secondary option within the turtle attack system that prevents opponents from using a flat belly-down defense as a safe harbor against back takes. When practitioners demonstrate the ability to convert flattened turtle defense into mount as readily as active turtle into back control, they create a complete offensive dilemma where no defensive response from turtle is truly safe. This dual threat significantly increases the overall success rate of turtle attacks and forces the bottom player into increasingly narrow defensive corridors where every choice opens a different avenue of positional advancement.",
+  "conditions": [
+    "Opponent is in belly-down or flattened turtle position from Double Jump Top control",
+    "Top player has established bilateral leg hooks inside opponent's thighs with stable upper body connection",
+    "Upper body control maintained through seatbelt harness, crossface, or overhook throughout the transition",
+    "Opponent's hip mobility is compromised by the flattened base, preventing active turtle recovery",
+    "Opponent is not actively sitting to guard or turning to create scramble opportunities"
+  ],
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Sequential Step-Over Mount",
+      "description": "The standard version where hooks are extracted one at a time with deliberate weight transfer between each phase. The top player posts one foot, settles weight, then swings the second leg over to complete the mount. Prioritizes control retention over speed.",
+      "when_to_use": "When the opponent is fully flattened and passive, allowing methodical progression without time pressure. Best against opponents with strong guard recovery who need constant pressure to prevent turning."
+    },
+    {
+      "variant_name": "Explosive Double Extraction Mount",
+      "description": "A faster variant where both hooks are extracted in rapid succession with an explosive step-over that relies on committed upper body pressure to maintain control during the brief moment of no lower body contact. Higher risk but faster execution.",
+      "when_to_use": "When the opponent is temporarily stunned or exhausted from sustained Double Jump pressure and the window for mount establishment is closing. Best used when you feel the opponent beginning to mobilize for a guard recovery attempt."
+    },
+    {
+      "variant_name": "Rolling Mount Transition",
+      "description": "When the opponent attempts to roll away from Double Jump pressure, the top player follows the roll and uses the rotational momentum to land in mount on the other side. Converts a defensive roll into a positional gift by maintaining upper body connection throughout the rotation.",
+      "when_to_use": "When the opponent initiates a forward or lateral roll to escape hook control. Rather than fighting the roll, ride it and establish mount as they settle face-up from the rolling motion."
+    }
+  ],
+  "position_integration": "The Double Jump to Mount transition occupies a strategic role within the turtle attack system as the secondary positional advancement pathway, complementing the primary back-take chain by punishing opponents who flatten to defend hooks. Within the broader positional hierarchy, this technique connects the turtle attack subsystem directly to the mount submission chain, allowing practitioners to access the highest-scoring position in competition (4 points) from a position that otherwise yields no direct points. The transition also integrates with the mount variation system, as practitioners can choose to establish standard mount, technical mount, or immediately advance to high mount based on the opponent's defensive posture during the step-over. By developing this pathway alongside back-take and truck entries from Double Jump, practitioners create a complete three-pronged attack system from turtle that eliminates safe defensive options.",
+  "related_content": [
+    {
+      "name": "Double Jump",
+      "relationship": "Source position - bilateral leg hook control from turtle top serving as the transition starting point"
+    },
+    {
+      "name": "Mount",
+      "relationship": "Target position - full mount established through successful step-over from hook control"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Counter outcome position - reached when defender successfully reverses during the transition attempt"
+    },
+    {
+      "name": "Back Control",
+      "relationship": "Alternative advancement - primary target from Double Jump when mount pathway is defended or suboptimal"
+    },
+    {
+      "name": "Turtle",
+      "relationship": "Parent position - Double Jump enters from turtle top attacks and this transition continues the attack chain"
+    },
+    {
+      "name": "Crab Ride",
+      "relationship": "Alternative lateral control option when step-over mount is defended by active hip movement"
+    },
+    {
+      "name": "Side Control",
+      "relationship": "Alternative dominant position accessible if mount entry angles laterally during the step-over"
+    },
+    {
+      "name": "Truck",
+      "relationship": "Alternative leg entanglement available when opponent rolls during the mount transition attempt"
+    }
+  ],
+  "attacker": {
+    "name": "Double Jump to Mount Attacker",
+    "description": "Learn to execute the Double Jump to Mount transition. Step-by-step guide covering hook extraction, weight transfer, and mount establishment from turtle top.",
+    "overview": "The Double Jump to Mount transition from the attacker's perspective involves converting bilateral hook-based turtle control into the dominant mount position through systematic hook extraction and step-over mechanics. This technique is most effective when the bottom player has committed to a flat belly-down defense that compromises their ability to resist the step-over but also makes back-taking more difficult. The attacker must maintain continuous upper body pressure throughout the transition to prevent the defender from exploiting the momentary vulnerability created during hook extraction. Success depends on reading the opponent's defensive posture accurately, timing the extraction sequence when their base is most compromised, and executing the weight transfer with precision that denies any recovery window. The technique rewards patience in setup and decisiveness in execution, as hesitation during the step-over creates the defensive gaps that allow counter-movements.",
+    "key_principles": [
+      "Maintain continuous upper body control through crossface or harness connection throughout the entire hook extraction and step-over sequence",
+      "Extract hooks sequentially rather than simultaneously to ensure at least one control point is active at all times during the transition",
+      "Drive weight downward through hips and chest during the step-over to deny the opponent space for guard recovery or defensive frame insertion",
+      "Read the opponent's base quality before initiating the transition and only commit when flattened defense makes mount the highest-percentage option",
+      "Treat the transition as a single continuous motion from hook extraction through mount consolidation without pausing between phases",
+      "Use the step-over momentum to immediately settle mount pressure before the opponent can reorganize their defensive structure"
+    ],
+    "setup_requirements": [
+      "Bilateral leg hooks established inside opponent's thighs from Double Jump Top position with feet controlling hip positioning",
+      "Upper body control secured through seatbelt harness, crossface, or overhook before initiating any hook extraction",
+      "Opponent flattened in belly-down position with hips pressed to mat and knees no longer actively supporting their weight",
+      "Opponent not actively turning or sitting to guard, indicating their defensive mobility is compromised by current control",
+      "Sufficient chest-to-back pressure established to prevent opponent from rebuilding turtle base during the transition"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Assess opponent's defensive posture",
+        "description": "Evaluate the bottom player's base from Double Jump position. Confirm they are flattened belly-down with hips pressed to the mat and knees not actively supporting weight. Verify that their defensive posture makes back-taking suboptimal but leaves them vulnerable to the step-over mount pathway."
+      },
+      {
+        "step_number": 2,
+        "action": "Tighten upper body control",
+        "description": "Before initiating any hook extraction, secure dominant upper body connection through seatbelt harness or crossface control. This connection must remain continuous throughout the entire transition to prevent the opponent from turning into guard or recovering turtle posture. Drive shoulder pressure into opponent's upper back."
+      },
+      {
+        "step_number": 3,
+        "action": "Extract first hook",
+        "description": "Remove the hook on the side you intend to step over, sliding your foot free from inside the opponent's thigh while maintaining chest pressure and the opposite hook for continued lower body influence. Post the freed foot flat on the mat beside the opponent's hip to create a stable platform for the step-over."
+      },
+      {
+        "step_number": 4,
+        "action": "Transfer weight to posted leg and upper body",
+        "description": "Shift your weight onto the posted foot and your chest-to-back connection with the opponent. This weight transfer must be smooth and controlled to prevent creating any space that allows the opponent to turn, initiate a hip escape, or recover defensive positioning beneath you. The remaining hook provides supplementary control during this phase."
+      },
+      {
+        "step_number": 5,
+        "action": "Execute step-over and extract second hook",
+        "description": "Swing the second leg over the opponent's body to the opposite side, extracting the remaining hook and establishing the straddling mount position. Keep your hips as low as possible and drive weight downward throughout the step-over to prevent the opponent from bucking, bridging, or inserting a knee during this transitional moment."
+      },
+      {
+        "step_number": 6,
+        "action": "Settle hips into mount base",
+        "description": "Drop your hips immediately onto the opponent's lower back or hip area, establishing proper mount weight distribution as they transition from belly-down to face-up position. Widen your knees to create a stable base and prevent immediate bridge escapes while beginning the transition from prone top control to standard mount positioning."
+      },
+      {
+        "step_number": 7,
+        "action": "Adjust to standard mount control",
+        "description": "As the opponent adjusts from belly-down to face-up under your mount pressure, transition your weight distribution and knee positioning to standard mount configuration. Position knees at hip level with toes hooked under the opponent's thighs, and drive hips forward into their solar plexus to create crushing downward pressure that prevents escape attempts."
+      },
+      {
+        "step_number": 8,
+        "action": "Consolidate position and establish offensive grips",
+        "description": "Secure dominant grip control appropriate for your preferred mount attack system. Establish hand-fighting dominance and begin reading the opponent's defensive reactions to determine whether to threaten submissions immediately, advance to high mount or technical mount, or maintain heavy low mount pressure to exhaust the defender before attacking."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Opponent turns to side and recovers half guard during hook extraction phase",
+        "effectiveness": "High",
+        "your_response": "Maintain crossface pressure and immediately switch to half guard top passing sequence rather than forcing the mount transition against an active guard recovery",
+        "targets_outcome": "Half Guard/Bottom"
+      },
+      {
+        "counter": "Opponent posts on hands and recovers active turtle position when hooks are removed",
+        "effectiveness": "Medium",
+        "your_response": "Re-establish hooks to return to Double Jump position or transition to crab ride or harness back take by following the opponent's upward movement",
+        "targets_outcome": "Double Jump/Top"
+      },
+      {
+        "counter": "Opponent bridges explosively during step-over to create reversal or scramble opportunity",
+        "effectiveness": "Medium",
+        "your_response": "Post hands immediately and drive hips low to absorb the bridge energy, then re-settle mount with wider base and grapevined legs to prevent subsequent escape attempts",
+        "targets_outcome": "Double Jump/Top"
+      },
+      {
+        "counter": "Opponent hip escapes and inserts knee shield as mount is being established during the settling phase",
+        "effectiveness": "High",
+        "your_response": "Immediately address the knee insertion by collapsing it with shoulder pressure or transitioning to knee slice pass to complete advancement to side control instead of mount",
+        "targets_outcome": "Half Guard/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Extracting both hooks simultaneously without maintaining sequential lower body control",
+        "consequence": "Complete loss of lower body control allowing opponent to turn freely, recover guard, or initiate scramble from the uncontrolled position",
+        "correction": "Always extract hooks one at a time with continuous upper body pressure maintained throughout, ensuring at least one hook or a posted foot provides control at every moment"
+      },
+      {
+        "error": "Rushing the step-over without establishing proper weight transfer onto the posted leg",
+        "consequence": "Creates a gap between your hips and the opponent's body that allows knee insertion and half guard recovery, negating the positional advancement",
+        "correction": "Settle weight fully onto the posted foot and upper body connection before initiating the step-over swing, ensuring no space exists for defensive insertions"
+      },
+      {
+        "error": "Lifting hips too high during the step-over phase of the transition",
+        "consequence": "Elevated hips create space beneath you that the opponent exploits with hip escapes, knee insertions, or guard recovery movements",
+        "correction": "Keep hips as low as possible throughout the entire step-over by driving weight downward through your center of mass rather than stepping over with an upright posture"
+      },
+      {
+        "error": "Releasing upper body control during hook extraction to use hands for balance",
+        "consequence": "Opponent immediately creates distance, turns to face you, or recovers turtle position without the crossface or harness restricting their movement",
+        "correction": "Maintain crossface or harness connection as a non-negotiable anchor throughout the entire transition, using leg posting and hip position for balance instead of releasing grips"
+      },
+      {
+        "error": "Attempting the mount transition when the opponent still has an active turtle base with posting knees",
+        "consequence": "Opponent uses remaining base to counter with roll escapes, guard recoveries, or scrambles that result in complete position loss",
+        "correction": "Only initiate the mount transition when the opponent's base is clearly compromised with hips flattened to the mat, otherwise pursue back control or other Double Jump attacks"
+      },
+      {
+        "error": "Failing to consolidate mount immediately after the step-over completes",
+        "consequence": "Opponent exploits the brief settling period to initiate escape before mount pressure is established, often recovering half guard or creating a scramble",
+        "correction": "Treat the step-over and mount consolidation as a single continuous motion, dropping hips and widening base immediately as the stepping leg clears the opponent's body"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Mechanics",
+        "focus": "Hook extraction and step-over technique",
+        "description": "Practice the sequential hook extraction and step-over on a compliant partner from established Double Jump position. Focus on maintaining upper body pressure throughout, keeping hips low during the step-over, and settling mount immediately. Perform 20 repetitions per side with zero resistance to build muscle memory for the movement pattern."
+      },
+      {
+        "phase": "Phase 2: Timing and Weight Transfer",
+        "focus": "Smooth weight distribution during transition phases",
+        "description": "With a partner providing 30% resistance, practice reading the correct moment to initiate the transition based on the opponent's base quality. Focus on the weight transfer sequence: from hooks to posted foot to mount settling. Partner gives feedback on any gaps in pressure during the transition."
+      },
+      {
+        "phase": "Phase 3: Live Resistance Drilling",
+        "focus": "Executing against increasing defensive effort",
+        "description": "Positional sparring starting from Double Jump Top with opponent's goal to prevent mount. Begin at 50% resistance and increase to 80% over sessions. Track success rate and identify which defensive reactions cause the most failures. Develop automatic responses to each common counter."
+      },
+      {
+        "phase": "Phase 4: System Integration",
+        "focus": "Chaining mount transition with alternative Double Jump attacks",
+        "description": "Practice reading the opponent's defensive choice and selecting between mount transition, back take, crab ride, and truck entries from Double Jump. Partner randomly cycles through flattening, turning, sitting to guard, and rolling defenses while you select the appropriate attack pathway in real time."
+      },
+      {
+        "phase": "Phase 5: Competition Simulation",
+        "focus": "Full-speed execution under match-intensity conditions",
+        "description": "Timed rounds starting from turtle attack with goal of achieving mount or back control within 30 seconds. Partner provides full resistance. Track conversion rates and recovery time between attempts to build cardio-specific conditioning for the transition sequence."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the optimal timing window for initiating the Double Jump to Mount transition?",
+        "answer": "The optimal timing window occurs when the opponent has fully flattened their base from turtle position, pressing their hips to the mat with knees no longer actively supporting weight. This belly-down defensive posture makes traditional back-taking difficult but leaves the opponent vulnerable to the step-over mount transition because they cannot resist the weight transfer with their hips already grounded and their base eliminated."
+      },
+      {
+        "question": "What conditions must exist in the Double Jump position before attempting the mount transition?",
+        "answer": "You must have established bilateral leg hooks inside the opponent's thighs, continuous upper body control through harness or crossface, and the opponent must be in a flattened or compromised turtle base with hips pressed to the mat. The opponent should not be actively sitting to guard or turning, as these movements indicate sufficient mobility to counter the step-over and suggest pursuing back control instead."
+      },
+      {
+        "question": "What is the most critical mechanical detail during the hook extraction phase?",
+        "answer": "The most critical detail is extracting hooks one at a time while maintaining continuous upper body pressure through your chest and shoulder connection. Simultaneous extraction of both hooks eliminates all lower body control at once, creating a gap where the opponent can turn, shrimp, or recover guard. Sequential extraction ensures at least one control point is always active throughout the transition."
+      },
+      {
+        "question": "Why do practitioners commonly lose position during the step-over phase?",
+        "answer": "The most common failure occurs when practitioners lift their hips too high during the step-over, creating space beneath them that allows the opponent to insert a knee, hip escape to half guard, or initiate scramble movements. The step-over must be executed with hips staying as low as physically possible, driving weight downward throughout the entire motion to deny the space needed for defensive insertions."
+      },
+      {
+        "question": "What upper body grip must be maintained throughout the entire transition sequence?",
+        "answer": "A continuous crossface, seatbelt harness, or overhook connection must be maintained from the initial Double Jump position through final mount consolidation without interruption. This upper body control prevents the opponent from creating distance, turning to face you, or recovering turtle position during the vulnerable hook extraction and step-over phases where lower body control is temporarily reduced."
+      },
+      {
+        "question": "In which direction should your weight be distributed during the step-over to mount?",
+        "answer": "Weight should be distributed downward and slightly forward throughout the step-over, driving through your chest and shoulder into the opponent's upper back. This prevents the opponent from creating space by bridging or shrimping, and ensures that your hips settle immediately into mount pressure as the step-over completes rather than hovering above the opponent and creating exploitable gaps."
+      },
+      {
+        "question": "Your opponent begins turning toward you as you extract your first hook - how do you adjust?",
+        "answer": "If the opponent turns toward you during hook extraction, abandon the mount transition and immediately redirect to a back take or crab ride entry by following their turning motion. Their movement actually facilitates these alternative transitions more effectively. Forcing the mount against an actively turning opponent typically results in half guard or a scramble, whereas flowing with their movement leads to equally or more dominant positions."
+      },
+      {
+        "question": "If your mount transition attempt is blocked by the opponent recovering their base, what alternative attacks should you pursue?",
+        "answer": "When the mount is blocked, immediately chain to alternative Double Jump attacks based on the opponent's defensive response. If they recover turtle, re-establish hooks for back control pursuit. If they turn to their side, enter crab ride. If they roll away from pressure, follow into truck position. The mount transition is one option within a broader three-pronged attack system from Double Jump that eliminates safe defensive choices."
+      }
+    ],
+    "safety_considerations": "Double Jump to Mount is a positional transition without direct submission threat, making it relatively safe during training. Primary safety concerns involve maintaining controlled weight transfer during the step-over to avoid dropping weight suddenly on the opponent's spine or ribs. The transition from belly-down to face-up position can stress the defender's lower back if executed with excessive speed or force. Partners should communicate during drilling to ensure comfortable pressure levels, and the top player should settle weight gradually rather than slamming into mount position. During live sparring, practitioners should be aware that the rapid position change can disorient the defender, so monitor for any signs of discomfort in the cervical spine area from crossface pressure maintained throughout the transition."
+  },
+  "defender": {
+    "name": "Double Jump to Mount Defender",
+    "description": "Defend against the Double Jump to Mount transition. Recognition cues, timing windows, and proven escape strategies to prevent mount establishment from turtle.",
+    "overview": "Defending the Double Jump to Mount transition requires recognizing the critical moment when the top player begins extracting their leg hooks to initiate the step-over. The primary defensive window occurs during hook extraction, when the top player's control is temporarily weakened by the transition between hook-based lateral control and mount-based downward pressure. This brief vulnerability represents the defender's best opportunity to disrupt the transition through timed hip escapes, guard recovery attempts, or active turning movements that prevent mount establishment.\n\nThe defender must understand that passive resistance from a flattened belly-down position is precisely what makes this transition viable for the attacker. Active defensive engagement requires rebuilding base, creating angles through hip movement, and turning to face the opponent during the transition rather than remaining prone. The mechanical sequence of the step-over creates predictable weight shifts that an aware defender can anticipate and exploit, using the attacker's own transitional movement as the trigger for defensive actions that are most effective when the attacker's control is at its weakest point between two stable positions.",
+    "key_principles": [
+      "Recognize hook extraction as the primary defensive window when attacker's control is at its most vulnerable transitional point",
+      "Maintain active hip movement throughout the transition to prevent the attacker from settling mount pressure on a static target",
+      "Turn toward the opponent during the transition rather than away to recover guard position and prevent flat mount establishment",
+      "Establish frames with elbows and knees before the step-over completes to create structural barriers against mount consolidation",
+      "Use the attacker's asymmetric weight distribution during the step-over as a trigger for bridge or hip escape timing",
+      "Avoid remaining flat and passive in belly-down position as this is the exact posture that enables the mount transition"
+    ],
+    "recognition_cues": [
+      "One leg hook begins withdrawing from inside your thigh while upper body pressure increases through your back",
+      "Attacker's foot posts flat on the mat beside your hip after extracting the first hook, creating a stable base for the step-over",
+      "Weight shifts to one side of your body as the attacker prepares to swing their leg across during the step-over phase",
+      "Chest and shoulder pressure intensifies as the attacker commits weight forward to compensate for reduced lower body control",
+      "Grip configuration changes from hook-focused hip control to tighter crossface or harness connection on your upper body"
+    ],
+    "defensive_options": [
+      {
+        "action": "Turn into opponent and recover half guard during hook extraction",
+        "when_to_use": "When the first hook is extracted and control is transitionally weakened, immediately hip escape and turn to face the attacker",
+        "targets_outcome": "Half Guard/Bottom",
+        "if_successful": "Recover to half guard top position, reversing the positional hierarchy and neutralizing the mount threat entirely",
+        "risk": "If timing is late, the attacker may follow your turn to take the back instead of completing the mount"
+      },
+      {
+        "action": "Rebuild turtle base and recover active defensive posture",
+        "when_to_use": "When the attacker begins extracting hooks but has not yet initiated the step-over, immediately drive up to hands and knees",
+        "targets_outcome": "Double Jump/Top",
+        "if_successful": "Prevent mount advancement and force attacker to re-establish hooks or pursue alternative attacks from turtle top",
+        "risk": "If base recovery is incomplete, attacker may re-establish hooks with improved control or redirect to back take"
+      },
+      {
+        "action": "Time bridge during step-over to exploit asymmetric weight distribution",
+        "when_to_use": "During the step-over phase when the attacker's weight is shifting to one side and their balance is most compromised",
+        "targets_outcome": "Half Guard/Bottom",
+        "if_successful": "Bridge creates enough disruption to prevent mount settlement, creating opportunity to insert knee and recover half guard",
+        "risk": "Mistimed bridge wastes energy without preventing mount and may accelerate the attacker's weight drop into established mount"
+      },
+      {
+        "action": "Hip escape and insert knee shield as mount begins settling",
+        "when_to_use": "In the final phase when the step-over is completing but mount weight has not fully settled, shrimp away and insert knee",
+        "targets_outcome": "Half Guard/Bottom",
+        "if_successful": "Knee insertion prevents full mount establishment and creates half guard recovery or open guard distance",
+        "risk": "Late execution allows mount to consolidate before knee insertion, making escape significantly more difficult"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Half Guard/Bottom",
+        "how": "Time your hip escape during the hook extraction phase when the attacker's lower body control is at its weakest. Turn your body to face the opponent while inserting your knee across their hip line to prevent the step-over from completing. The most effective timing is the moment between first hook extraction and the step-over initiation."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Remaining flat and passive in belly-down position throughout the entire transition",
+        "consequence": "Allows the attacker to complete the step-over unopposed and settle into established mount with full weight pressure, from which escape becomes dramatically more difficult",
+        "correction": "Begin active defensive movement as soon as you feel the first hook extracting - turn toward the opponent, rebuild base, or initiate hip escape immediately"
+      },
+      {
+        "error": "Attempting to defend only after mount is fully established rather than during the transition",
+        "consequence": "The defensive window during hook extraction closes once mount is consolidated, and escape success rates drop significantly against settled mount pressure",
+        "correction": "Recognize the hook extraction as the defensive trigger and act during the transition phase when control is weakest rather than waiting for mount to settle"
+      },
+      {
+        "error": "Extending arms upward to push the attacker away during the step-over",
+        "consequence": "Extended arms create immediate vulnerability to armbar and americana attacks once mount is established, combining positional disadvantage with submission danger",
+        "correction": "Use forearm frames close to your body and structural hip escapes rather than extended arm pushing to create defensive distance"
+      },
+      {
+        "error": "Turning away from the attacker rather than toward them during the transition",
+        "consequence": "Turning away exposes the back and facilitates back control rather than preventing mount, potentially leading to an even worse position",
+        "correction": "Always turn to face the opponent during defensive movements from belly-down position, using the turn to insert frames and recover guard rather than giving up back exposure"
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What are the earliest recognition cues that the opponent is transitioning from Double Jump to mount?",
+        "answer": "The earliest cues include feeling one leg hook begin to withdraw from inside your thigh while upper body pressure simultaneously increases through your back, the attacker's foot posting flat on the mat beside your hip after hook removal, and a change in grip configuration from hook-based hip control to tighter crossface or harness connection. These combined signals indicate the mount transition is imminent."
+      },
+      {
+        "question": "During which phase of the mount transition is defensive action most likely to succeed?",
+        "answer": "The most effective defensive window occurs during hook extraction, specifically the brief moment between when the first hook is removed and when the step-over begins. During this phase, the attacker's lower body control is at its weakest point with only one hook or no hooks maintaining leg influence. Hip escapes, turtle recovery, and guard recovery attempts have the highest success probability during this transitional vulnerability."
+      },
+      {
+        "question": "Your opponent has extracted one hook and is stepping over - what is your immediate defensive response?",
+        "answer": "Immediately initiate a hip escape toward the side of the extracted hook while turning your body to face the opponent and inserting your knee to establish a frame or half guard position. This hip movement creates a physical barrier that prevents the step-over from completing cleanly. Timing is critical because the hip escape must begin during the step-over motion before the attacker settles weight into mount."
+      },
+      {
+        "question": "Why is remaining flat and passive the worst defensive strategy during this transition?",
+        "answer": "Remaining flat allows the attacker to complete the entire step-over sequence unopposed and settle into an established mount with full gravitational pressure, from which escape requires significantly more energy and technical execution. The transition phase offers a brief window of reduced attacker control that completely disappears once mount is consolidated. Flat positioning also eliminates your hip mobility, which is the primary mechanical tool for disrupting the step-over."
+      },
+      {
+        "question": "How can you exploit the attacker's weight shift during the step-over to create a reversal?",
+        "answer": "During the step-over, the attacker's weight shifts asymmetrically to one side as they swing their leg across your body. This creates a brief moment of compromised lateral balance that can be exploited with a well-timed bridge in the direction of the step-over, using their own momentum against them. Combined with framing against the stepping-over side, this creates disruption that often results in half guard recovery rather than a clean mount establishment."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Recognition",
+        "focus": "Identifying transition initiation cues",
+        "description": "Partner performs the Double Jump to Mount transition at slow speed while you focus on identifying each recognition cue: hook extraction sensation, weight shift, foot posting, grip changes. Call out each cue as you feel it. Build sensory awareness before adding defensive responses."
+      },
+      {
+        "phase": "Phase 2: Timing",
+        "focus": "Defensive action timing during hook extraction",
+        "description": "Partner performs the transition at moderate speed while you practice initiating hip escapes and turns at the exact moment of hook extraction. Focus on reacting to the first hook withdrawal rather than waiting for the step-over. Partner provides feedback on whether defensive timing was early, late, or optimal."
+      },
+      {
+        "phase": "Phase 3: Defensive Options",
+        "focus": "Selecting appropriate defense based on transition phase",
+        "description": "Practice all four defensive options against the transition at increasing resistance: turn to guard, rebuild turtle, bridge during step-over, and knee insertion. Partner varies their step-over speed and timing to force different defensive selections. Develop automatic response patterns for each transition phase."
+      },
+      {
+        "phase": "Phase 4: Live Positional Sparring",
+        "focus": "Full resistance defense with realistic pressure",
+        "description": "Positional rounds starting from Double Jump Bottom with attacker pursuing mount. Defend at full resistance for 2-minute rounds, tracking successful defenses versus mount establishments. Integrate recognition, timing, and option selection into fluid defensive responses under competition-intensity pressure."
+      }
+    ]
+  }
+}

@@ -1,0 +1,455 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "BJJ Submission Template Schema V3",
+  "description": "Standardized JSON schema for BJJ submission pages - strict 14-section structure with safety emphasis",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "name",
+    "description",
+    "tags",
+    "submission_category",
+    "submission_type",
+    "target_area",
+    "starting_position",
+    "success_rate",
+    "overview",
+    "safety_considerations",
+    "key_principles",
+    "setup_requirements",
+    "execution_steps",
+    "opponent_defense_patterns",
+    "common_errors",
+    "variations_and_setups",
+    "knowledge_assessment",
+    "from_positions",
+    "related_submissions",
+    "related_content"
+  ],
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "Submission name (must match filename without .json)",
+      "minLength": 3,
+      "examples": [
+        "Armbar from Mount",
+        "Rear Naked Choke"
+      ]
+    },
+    "description": {
+      "type": "string",
+      "description": "SEO meta description 150-160 characters",
+      "minLength": 140,
+      "maxLength": 180,
+      "examples": [
+        "Master Armbar from Mount in BJJ. Complete guide with safety protocols, setup, execution. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%."
+      ]
+    },
+    "tags": {
+      "type": "array",
+      "description": "Content tags (minimum 3)",
+      "minItems": 3,
+      "items": {
+        "type": "string"
+      },
+      "examples": [
+        [
+          "bjj",
+          "submission",
+          "armbar",
+          "joint-lock"
+        ]
+      ]
+    },
+    "submission_category": {
+      "type": "string",
+      "enum": [
+        "Choke",
+        "Joint Lock",
+        "Compression",
+        "Combination"
+      ],
+      "description": "Primary submission category"
+    },
+    "submission_type": {
+      "type": "string",
+      "description": "Specific type within category",
+      "examples": [
+        "Arm Lock",
+        "Blood Choke",
+        "Leg Lock",
+        "Shoulder Lock"
+      ]
+    },
+    "target_area": {
+      "type": "string",
+      "description": "Anatomical target area",
+      "examples": [
+        "Elbow joint",
+        "Carotid arteries",
+        "Ankle and knee ligaments"
+      ]
+    },
+    "starting_position": {
+      "type": "string",
+      "description": "Position where submission can be attempted",
+      "examples": [
+        "Mount",
+        "Closed Guard Bottom",
+        "Ashi Garami"
+      ]
+    },
+    "success_rate": {
+      "type": "integer",
+      "description": "Overall success rate percentage (0-100)",
+      "minimum": 0,
+      "maximum": 100
+    },
+    "overview": {
+      "type": "string",
+      "description": "2-3 paragraph submission description with strategic context (400+ characters)",
+      "minLength": 400,
+      "examples": [
+        "The Armbar from Mount is a fundamental finishing technique targeting the elbow joint..."
+      ]
+    },
+    "safety_considerations": {
+      "type": "object",
+      "description": "Mandatory safety content",
+      "additionalProperties": false,
+      "required": [
+        "injury_risks",
+        "application_speed",
+        "tap_signals",
+        "release_protocol",
+        "training_restrictions"
+      ],
+      "properties": {
+        "injury_risks": {
+          "type": "array",
+          "description": "Specific injuries with severity and recovery time (minimum 2)",
+          "minItems": 2,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "injury",
+              "severity",
+              "recovery_time"
+            ],
+            "properties": {
+              "injury": {
+                "type": "string"
+              },
+              "severity": {
+                "type": "string",
+                "enum": [
+                  "Low",
+                  "Medium",
+                  "High",
+                  "CRITICAL"
+                ]
+              },
+              "recovery_time": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "application_speed": {
+          "type": "string",
+          "description": "Minimum application time in training",
+          "examples": [
+            "SLOW and progressive - 3-5 seconds minimum",
+            "EXTREMELY SLOW - 5-7 seconds minimum"
+          ]
+        },
+        "tap_signals": {
+          "type": "array",
+          "description": "All valid tap signals (minimum 3)",
+          "minItems": 3,
+          "items": {
+            "type": "string"
+          },
+          "examples": [
+            [
+              "Verbal tap",
+              "Physical hand tap",
+              "Physical foot tap",
+              "Any distress signal"
+            ]
+          ]
+        },
+        "release_protocol": {
+          "type": "array",
+          "description": "Step-by-step release instructions (minimum 3)",
+          "minItems": 3,
+          "items": {
+            "type": "string"
+          }
+        },
+        "training_restrictions": {
+          "type": "array",
+          "description": "Prohibited actions in training (minimum 2)",
+          "minItems": 2,
+          "items": {
+            "type": "string"
+          },
+          "examples": [
+            [
+              "Never spike or jerk the submission",
+              "Never use competition speed in training",
+              "Always allow tap access"
+            ]
+          ]
+        }
+      }
+    },
+    "key_principles": {
+      "type": "array",
+      "description": "5-7 fundamental principles",
+      "minItems": 5,
+      "maxItems": 7,
+      "items": {
+        "type": "string"
+      }
+    },
+    "setup_requirements": {
+      "type": "array",
+      "description": "Prerequisites before attempting (minimum 4)",
+      "minItems": 4,
+      "items": {
+        "type": "string"
+      }
+    },
+    "execution_steps": {
+      "type": "array",
+      "description": "Step-by-step finishing sequence with timing (minimum 6)",
+      "minItems": 6,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "step_number",
+          "action",
+          "description"
+        ],
+        "properties": {
+          "step_number": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "action": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string",
+            "minLength": 50
+          },
+          "timing": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "opponent_defense_patterns": {
+      "type": "array",
+      "description": "Opponent's defensive responses (minimum 3)",
+      "minItems": 3,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "defense",
+          "effectiveness"
+        ],
+        "properties": {
+          "defense": {
+            "type": "string"
+          },
+          "effectiveness": {
+            "type": "string",
+            "enum": [
+              "High",
+              "Medium",
+              "Low"
+            ]
+          },
+          "your_adjustment": {
+            "type": "string",
+            "description": "How to maintain submission despite defense"
+          }
+        }
+      }
+    },
+    "common_errors": {
+      "type": "array",
+      "description": "Mistakes with corrections including DANGER labels (minimum 5)",
+      "minItems": 5,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "error",
+          "consequence",
+          "correction"
+        ],
+        "properties": {
+          "error": {
+            "type": "string"
+          },
+          "consequence": {
+            "type": "string"
+          },
+          "correction": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "variations_and_setups": {
+      "type": "array",
+      "description": "Different entries and variations (minimum 2)",
+      "minItems": 2,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "variation_name",
+          "description"
+        ],
+        "properties": {
+          "variation_name": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          },
+          "when_to_use": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "knowledge_assessment": {
+      "type": "array",
+      "description": "Questions including safety-critical items (minimum 5)",
+      "minItems": 5,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "question",
+          "answer"
+        ],
+        "properties": {
+          "question": {
+            "type": "string",
+            "pattern": ".*\\?$"
+          },
+          "answer": {
+            "type": "string",
+            "minLength": 50
+          },
+          "safety_critical": {
+            "type": "boolean",
+            "description": "True if this question tests safety knowledge"
+          }
+        }
+      }
+    },
+    "from_positions": {
+      "type": "array",
+      "description": "Positions where submission can be applied (2-12 for SEO internal linking)",
+      "minItems": 2,
+      "maxItems": 12,
+      "items": {
+        "type": "string",
+        "description": "Position name"
+      },
+      "examples": [
+        [
+          "Mount Top",
+          "Side Control Top",
+          "Back Control Top"
+        ]
+      ]
+    },
+    "related_submissions": {
+      "type": "array",
+      "description": "Related or chained submissions (3-15 for internal linking)",
+      "minItems": 3,
+      "maxItems": 15,
+      "items": {
+        "type": "string",
+        "description": "Submission name"
+      },
+      "examples": [
+        [
+          "Kimura",
+          "Armbar from Mount",
+          "Triangle Choke"
+        ]
+      ]
+    },
+    "from_position": {
+      "type": "string",
+      "description": "Position this submission is executed from (format: Position/Role, e.g. 'Back Control/Top')"
+    },
+    "outcomes": {
+      "type": "array",
+      "description": "Probabilistic outcomes of submission attempt (probabilities must sum to 100)",
+      "minItems": 2,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "to",
+          "probability",
+          "result"
+        ],
+        "properties": {
+          "to": {
+            "type": "string",
+            "description": "Target position or 'game-over' for successful finish"
+          },
+          "probability": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 100
+          },
+          "result": {
+            "type": "string",
+            "enum": [
+              "success",
+              "failure",
+              "counter"
+            ]
+          }
+        }
+      }
+    },
+    "related_content": {
+      "type": "array",
+      "description": "Related submissions/positions/techniques (3-12 items)",
+      "minItems": 3,
+      "maxItems": 12,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "name",
+          "relationship"
+        ],
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "relationship": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

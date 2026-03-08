@@ -1,0 +1,410 @@
+{
+  "name": "Reverse Heel Hook Counter",
+  "description": "Master the Reverse Heel Hook Counter from Ushiro Ashi-Garami. Counter-attack technique turning defensive leg entanglement into inside ashi-garami offense.",
+  "tags": [
+    "bjj",
+    "transition",
+    "leg-lock",
+    "counter",
+    "no-gi",
+    "advanced",
+    "defensive"
+  ],
+  "from_position": "Ushiro Ashi-Garami/Bottom",
+  "outcomes": [
+    {
+      "to": "Inside Ashi-Garami/Top",
+      "probability": 50,
+      "result": "success"
+    },
+    {
+      "to": "Ushiro Ashi-Garami/Bottom",
+      "probability": 30,
+      "result": "failure"
+    },
+    {
+      "to": "game-over",
+      "probability": 20,
+      "result": "counter"
+    }
+  ],
+  "success_rate": 50,
+  "overview": "The Reverse Heel Hook Counter is a sophisticated defensive technique executed when trapped in ushiro ashi-garami. Rather than purely escaping, this counter-attack capitalizes on the opponent's commitment to their heel hook attempt by entering your own leg entanglement on their exposed leg. The technique requires precise timing—executing too early reveals your intention, while waiting too long allows the opponent to finish their submission.\n\nThis counter exemplifies the modern leg lock game's principle that defense and offense exist on a continuum. When your opponent adjusts their grips or repositions for a finishing heel hook, their own legs momentarily become vulnerable. The reverse heel hook counter exploits this window by using your free leg and hands to enter an inside ashi-garami configuration on the opponent's attacking leg, creating a submission race or forcing them to abandon their attack.\n\nThe technique is particularly effective against opponents who over-commit to heel hook finishes without maintaining proper leg defense. Advanced practitioners use this counter as a proactive defensive strategy, actually inviting certain heel hook attempts knowing they can intercept with the counter. This creates a psychological advantage where opponents become hesitant to commit fully to their attacks.",
+  "related_content": [
+    {
+      "name": "Ushiro Ashi-Garami",
+      "relationship": "Starting position where defender is trapped in reversed leg entanglement"
+    },
+    {
+      "name": "Inside Ashi-Garami",
+      "relationship": "Primary target position achieved on successful counter-entanglement"
+    },
+    {
+      "name": "Inside Heel Hook",
+      "relationship": "Primary submission finish after establishing counter position"
+    },
+    {
+      "name": "Counter Ashi Entry",
+      "relationship": "Related counter-entanglement technique from leg lock defense"
+    },
+    {
+      "name": "50-50 Guard",
+      "relationship": "Alternative counter position creating neutral leg lock exchange"
+    },
+    {
+      "name": "Ashi Garami Escape",
+      "relationship": "Alternative defensive option when counter timing is not available"
+    },
+    {
+      "name": "Saddle",
+      "relationship": "Position opponent may advance to, making counter inadvisable"
+    },
+    {
+      "name": "Back Take from Ashi",
+      "relationship": "Alternative counter option exploiting opponent's commitment"
+    },
+    {
+      "name": "Kneebar",
+      "relationship": "Alternative submission available from counter position on opponent's leg"
+    },
+    {
+      "name": "Granby Roll to Guard",
+      "relationship": "Complementary escape option when counter window is missed"
+    }
+  ],
+  "attacker": {
+    "name": "Reverse Heel Hook Counter Attacker",
+    "description": "How to execute Reverse Heel Hook Counter in BJJ. Attacking perspective with setup, execution steps, and counters from ushiro ashi-garami.",
+    "overview": "The Reverse Heel Hook Counter transforms a compromised defensive position into offensive opportunity. Executed from ushiro ashi-garami bottom, you exploit your opponent's commitment to their heel hook finish by entering your own inside ashi-garami on their attacking leg. The key is recognizing the narrow timing window during their grip adjustment phase—when their hands release to reposition for a finishing grip, their legs momentarily lose defensive integrity.\n\nThis counter requires simultaneous management of two opposing priorities: protecting your own heel from the opponent's attack while establishing offensive entanglement on their leg. The technique rewards practitioners who have deep understanding of both inside ashi-garami mechanics and heel hook defense, as failure in either domain results in submission loss. Advanced practitioners develop the ability to maintain dorsiflexion on the trapped foot reflexively, freeing their cognitive attention for the offensive counter-entry.\n\nThe psychological dimension of this counter is significant. Opponents who have been caught by it become hesitant to fully commit to heel hook finishes from ushiro, creating longer defensive windows for standard escapes. This makes the counter valuable even when not directly executed—its mere presence in your game forces opponents to attack more cautiously from positions where commitment is essential for finishing.",
+    "key_principles": [
+      "Time the counter during opponent's grip adjustment phase when their legs are momentarily exposed",
+      "Maintain heel protection on your trapped leg throughout the entire counter sequence",
+      "Use opponent's commitment to their attack as the opening for your counter-entanglement",
+      "Control distance with your free leg to prevent opponent from deepening their position",
+      "Prioritize establishing inside position on their leg before attempting any finishing grip",
+      "Accept that successful counters may result in leg lock exchanges requiring superior finishing speed",
+      "Monitor opponent's upper body posture to anticipate their next grip adjustment opportunity"
+    ],
+    "setup_requirements": [
+      "Trapped in ushiro ashi-garami with opponent working toward heel hook finish",
+      "Opponent's attacking leg becomes exposed during their grip adjustment or finishing attempt",
+      "Free leg available to establish counter-entanglement on opponent's leg",
+      "Sufficient hip mobility to rotate into counter position while maintaining heel defense",
+      "Understanding of inside ashi-garami entry mechanics from inverted position",
+      "Recognition of opponent's heel hook timing to execute counter during their commitment phase"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Protect heel",
+        "description": "Maintain strong dorsiflexion on trapped foot with toes pulled toward shin. Use both hands to frame against opponent's grip attempts while monitoring their upper body movement for grip adjustment windows."
+      },
+      {
+        "step_number": 2,
+        "action": "Identify window",
+        "description": "Watch for opponent releasing their inside leg control or shifting hands to establish finishing heel grip. This adjustment phase creates the opening where their own leg becomes accessible for counter-entanglement."
+      },
+      {
+        "step_number": 3,
+        "action": "Hip rotation",
+        "description": "Rotate your hips toward opponent's attacking leg while using your free leg to hook behind their knee. This creates the angle needed to enter inside ashi-garami configuration on their leg."
+      },
+      {
+        "step_number": 4,
+        "action": "Establish inside position",
+        "description": "Thread your bottom leg between opponent's legs to establish the inside position fundamental to inside ashi-garami. Your knee should be positioned inside their thigh line with foot controlling their far hip."
+      },
+      {
+        "step_number": 5,
+        "action": "Control their leg",
+        "description": "Use your outside leg to cross over opponent's trapped leg, completing the inside ashi-garami configuration. Simultaneously use hands to control their heel area, preventing them from extracting their leg."
+      },
+      {
+        "step_number": 6,
+        "action": "Establish heel grip",
+        "description": "Once entanglement is secure, work to establish your heel hook grip using standard inside heel hook mechanics. Cup their heel with your far hand while your near hand controls above the knee for finishing leverage."
+      },
+      {
+        "step_number": 7,
+        "action": "Finish or force release",
+        "description": "Apply rotational pressure to their heel while monitoring their grip on your leg. Either finish the submission or use the threat to force them to release your leg and address their own defense."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Opponent accelerates their heel hook finish before you can establish counter position, forcing you to tap or accept injury",
+        "effectiveness": "High",
+        "your_response": "If opponent accelerates, abandon counter and prioritize heel defense. Resume systematic escape rather than racing to a losing exchange.",
+        "targets_outcome": "game-over"
+      },
+      {
+        "counter": "Opponent withdraws attacking leg when sensing counter attempt, returning to neutral entanglement",
+        "effectiveness": "Medium",
+        "your_response": "Use their withdrawal momentum to continue your escape sequence or transition to single leg x-guard as they retract.",
+        "targets_outcome": "Ushiro Ashi-Garami/Bottom"
+      },
+      {
+        "counter": "Opponent transitions to saddle or honey hole before you establish inside position, deepening control",
+        "effectiveness": "High",
+        "your_response": "Recognize saddle transition early and switch to turtle escape or granby roll rather than forcing failed counter.",
+        "targets_outcome": "game-over"
+      },
+      {
+        "counter": "Opponent posts with free leg and creates distance, preventing your counter-entanglement entry",
+        "effectiveness": "Medium",
+        "your_response": "Use their posting motion to create space for your own leg extraction, converting to escape rather than counter.",
+        "targets_outcome": "Ushiro Ashi-Garami/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Relaxing heel protection while focusing on counter-entanglement entry",
+        "consequence": "Opponent finishes heel hook during the counter attempt, resulting in submission loss",
+        "correction": "Maintain dorsiflexion on trapped foot throughout entire sequence. Never sacrifice heel defense for offensive positioning."
+      },
+      {
+        "error": "Attempting counter when opponent has deep, secure heel hook grip already established",
+        "consequence": "Counter fails and movement creates space for opponent to finish, accelerating submission",
+        "correction": "Only attempt counter during opponent's adjustment phase. If grip is already deep, focus on escape rather than counter."
+      },
+      {
+        "error": "Using hands to reach for opponent's leg rather than protecting own heel first",
+        "consequence": "Removes defensive barrier allowing opponent's hands to access heel, creating immediate submission danger",
+        "correction": "Keep hands defending your heel until opponent's own leg is close enough to control without reaching."
+      },
+      {
+        "error": "Failing to establish inside position before attempting heel grip",
+        "consequence": "Counter-entanglement is unstable and opponent easily extracts their leg while maintaining your trapped leg",
+        "correction": "Prioritize complete inside ashi-garami configuration before any heel grip attempts."
+      },
+      {
+        "error": "Telegraphing counter attempt by moving toward opponent's leg before they commit to finish",
+        "consequence": "Opponent recognizes threat and either withdraws or accelerates finish before you're in position",
+        "correction": "Maintain defensive posture until opponent begins grip adjustment, then execute rapid counter entry."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Week 1-2",
+        "focus": "Fundamentals",
+        "description": "Practice the counter entry mechanics with no resistance. Partner holds static ushiro position while you drill the hip rotation and inside ashi entry. Focus on maintaining heel protection throughout movement."
+      },
+      {
+        "phase": "Week 3-4",
+        "focus": "Timing",
+        "description": "Partner slowly works toward heel hook while you identify the optimal counter timing window. Practice recognizing when their grip adjustments create openings. Partner provides feedback on timing accuracy."
+      },
+      {
+        "phase": "Week 5-6",
+        "focus": "Combinations",
+        "description": "Integrate counter with escape sequences. If counter fails, flow to turtle or deep half. If successful, practice inside heel hook finishing mechanics. Partner provides moderate resistance to test decision-making."
+      },
+      {
+        "phase": "Week 7+",
+        "focus": "Live application",
+        "description": "Apply technique in positional sparring starting from ushiro ashi-garami. Partner attacks with full intent while you choose between escape, counter, or acceptance of position. Develop situational awareness for when counter is viable."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the primary goal of the Reverse Heel Hook Counter?",
+        "answer": "The primary goal is to capitalize on opponent's heel hook commitment by entering your own leg entanglement on their attacking leg. This either creates a submission opportunity on them or forces them to abandon their attack to defend, allowing your escape."
+      },
+      {
+        "question": "What foot position must you maintain throughout the entire counter sequence?",
+        "answer": "Maintain dorsiflexion (foot flexed with toes pulled toward shin) on your trapped foot throughout the entire sequence. This protects your heel from exposure even while you're executing offensive movements. Relaxing this position to focus on the counter is a critical error."
+      },
+      {
+        "question": "When is the optimal timing window to initiate the counter?",
+        "answer": "The optimal window is when your opponent adjusts their grips or repositions to establish their finishing heel hook grip. During this adjustment phase, their own legs momentarily become exposed and they're focused on offense rather than defending their own legs."
+      },
+      {
+        "question": "Your opponent has a deep heel hook grip already established. Should you attempt the counter?",
+        "answer": "No. If their grip is already deep and secure, attempting the counter will likely fail and the movement may actually create space for them to finish. When facing an established grip, focus on systematic escape mechanics rather than counter-attack."
+      },
+      {
+        "question": "What grips do you need to establish for the inside heel hook finish after successful counter entry?",
+        "answer": "Cup their heel with your far hand (the hand away from their hip), wrapping around the outside of their foot. Your near hand controls above their knee to prevent extraction and provides the rotational base. Apply inside rotational pressure by turning their heel toward their buttocks."
+      },
+      {
+        "question": "Your counter entry is successful but opponent accelerates their finish during the exchange. What determines who wins?",
+        "answer": "Leg lock exchanges favor whoever established position first, has superior finishing mechanics, and maintains better defensive posture on their own leg. If you entered after they already had deep control, they likely finish first. The counter is most effective when initiated during their adjustment phase before deep grip establishment."
+      },
+      {
+        "question": "How do you adapt the counter if opponent withdraws their leg when sensing your entry?",
+        "answer": "Use their withdrawal momentum to facilitate your escape rather than chasing the counter. As they retract their attacking leg, the pressure on your trapped leg decreases, creating space for single leg x-guard entry or complete leg extraction. Convert defensive success to positional recovery."
+      },
+      {
+        "question": "What body position indicates your opponent is about to transition to saddle rather than finish the heel hook?",
+        "answer": "Watch for their inside leg driving deeper against your thigh and their outside leg preparing to step through rather than tightening. This indicates saddle transition rather than immediate heel hook finish. When you see this, abandon counter attempts and prioritize turtle rotation or granby escape."
+      },
+      {
+        "question": "Why is inside ashi-garami the preferred counter position rather than outside ashi-garami?",
+        "answer": "Inside ashi-garami is accessible from your inverted position without requiring you to completely reverse your hip orientation. The geometry of ushiro ashi-garami bottom naturally positions you for inside entry on their attacking leg. Outside ashi would require passing their leg to the other side, exposing your heel during transition."
+      },
+      {
+        "question": "How does the reverse heel hook counter create psychological pressure on opponents?",
+        "answer": "When opponents know you have this counter in your arsenal, they become hesitant to fully commit to heel hook finishes from ushiro. This hesitation either allows you more time for standard escapes or causes them to abandon advantageous positions prematurely. The threat of the counter is often as valuable as the technique itself."
+      },
+      {
+        "question": "Your opponent's free leg hooks your hip during your counter rotation - how do you adjust?",
+        "answer": "Their free leg hooking your hip indicates they are attempting to re-establish control or enter a counter-entanglement of their own. Use your near-side hand to strip their hook by pushing their ankle off your hip while continuing the rotation. If you cannot strip the hook, abort the counter and use the space created by their reaching leg to extract your trapped leg instead."
+      },
+      {
+        "question": "What is the critical direction of force when applying the inside heel hook finish from the counter position?",
+        "answer": "The rotational force drives their heel inward toward their own buttock, attacking the lateral collateral ligament and meniscus. Your body rotates away from their knee line while the heel remains pinned against your chest. The force is generated through hip extension and torso rotation, not arm strength—pull heel tight to sternum and bridge your hips away to create the finishing torque."
+      }
+    ],
+    "safety_considerations": "The reverse heel hook counter involves significant joint stress on both practitioners' knees. Both heel hooks in play target the knee's rotational stability, and injuries can occur rapidly without warning pain. Always tap early during training when feeling rotational pressure—knees do not provide adequate warning signals before ligament damage. Train this technique with controlled partners who understand heel hook mechanics. Avoid explosive finishing movements. When drilling, apply heel hook pressure slowly and incrementally. This counter should not be attempted in training against partners who lack leg lock experience, as their unpredictable reactions may cause injury to either participant. In competition, understand that leg lock exchanges carry inherent injury risk and only engage if you're prepared for potential consequences."
+  },
+  "defender": {
+    "name": "Reverse Heel Hook Counter Defender",
+    "description": "How to defend against Reverse Heel Hook Counter in BJJ. Recognition cues, defensive options, and strategies to maintain your heel hook attack.",
+    "overview": "Defending against the Reverse Heel Hook Counter means you are the original attacker in ushiro ashi-garami who is now facing a counter-entanglement on your own leg. Your opponent, rather than simply escaping, has entered inside ashi-garami on your attacking leg during your grip adjustment phase. This creates a leg lock exchange scenario where your original attacking advantage is being contested.\n\nThe defender's primary challenge is managing two simultaneous demands: maintaining offensive pressure on the original heel hook while addressing the counter-entanglement threatening your own knee. Panicking and abandoning your attack entirely gives the opponent a free positional advantage, while ignoring their counter leads to a submission race you may lose. The optimal response depends on the depth of your original grip versus the quality of their counter-entry—whoever has deeper positional control typically wins the exchange.\n\nSuccessful defense requires early recognition of the counter attempt, ideally before inside position is fully established on your leg. The earlier you detect the counter, the more options remain available—from simply accelerating your finish to withdrawing and re-establishing position. Understanding the biomechanical tells that precede the counter (opponent's hip rotation toward your leg, free leg hooking your knee) allows proactive defensive responses rather than reactive scrambling.",
+    "key_principles": [
+      "Recognize counter-entry attempts during your grip adjustment phase before inside position is established on your leg",
+      "Maintain inside leg control throughout your heel hook finishing attempts to deny the counter-entry angle",
+      "Keep your own heel protected by tucking your foot behind opponent's thigh when attacking from ushiro",
+      "Assess grip depth advantage—if your heel hook grip is deeper than their counter, accelerate the finish rather than defending",
+      "Control your free leg position to prevent opponent from using it as a hook or lever for counter-entanglement",
+      "Avoid releasing leg pressure during grip adjustments, as this creates the primary window for counter-attack"
+    ],
+    "recognition_cues": [
+      "Opponent's hips begin rotating toward your attacking leg rather than away during their escape attempt",
+      "Opponent's free leg hooks behind your knee or begins threading between your legs instead of posting for escape",
+      "Opponent stops defending their heel and shifts hand fighting toward your lower body and leg position",
+      "Opponent slows or pauses their escape rotation, indicating a deliberate positional change rather than continued inversion",
+      "You feel opponent's inside leg crossing your hip line from an unexpected angle during your grip adjustment"
+    ],
+    "defensive_options": [
+      {
+        "action": "Accelerate heel hook finish before counter-entanglement is established",
+        "when_to_use": "When you already have a deep heel grip and opponent is only beginning their counter rotation—your positional advantage is clear",
+        "targets_outcome": "game-over",
+        "if_successful": "You finish the heel hook before opponent can establish inside ashi on your leg, ending the exchange in your favor",
+        "risk": "If your grip is not as deep as you believe, racing to finish creates a chaotic exchange where both practitioners may be injured"
+      },
+      {
+        "action": "Withdraw attacking leg and re-establish ushiro ashi-garami control from scratch",
+        "when_to_use": "When you detect the counter attempt early before your leg is entangled—opponent has begun rotating but has not yet secured inside position",
+        "targets_outcome": "Ushiro Ashi-Garami/Bottom",
+        "if_successful": "You deny the counter entirely and return to the original attacking position with your leg safe, opponent remains trapped",
+        "risk": "Withdrawing creates space that may allow opponent to complete their escape entirely rather than just the counter"
+      },
+      {
+        "action": "Transition to saddle or honey hole to deepen your control beyond counter-attack range",
+        "when_to_use": "When opponent's counter rotation creates the angle for you to step your outside leg through to saddle configuration",
+        "targets_outcome": "Ushiro Ashi-Garami/Bottom",
+        "if_successful": "You advance to a higher-control entanglement where the counter is no longer viable and your finishing options multiply",
+        "risk": "The transition requires momentary adjustment that could accelerate opponent's counter if your timing is off"
+      },
+      {
+        "action": "Enter your own counter-counter by establishing 50-50 guard from the exchange",
+        "when_to_use": "When opponent has partially established inside ashi on your leg but your entanglement is also partially maintained—neither side has clear advantage",
+        "targets_outcome": "Ushiro Ashi-Garami/Bottom",
+        "if_successful": "Creates a neutral 50-50 position where both practitioners have equal attacking opportunity, negating opponent's counter advantage",
+        "risk": "50-50 exchanges favor whoever has better heel hook finishing mechanics, and you have lost your original positional advantage"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "game-over",
+        "how": "Accelerate your heel hook finish when you detect the counter attempt but already have deep grip control. Your positional advantage from the original ushiro top position means your grip was established first—commit to the finish before their counter-entanglement becomes dangerous."
+      },
+      {
+        "outcome": "Ushiro Ashi-Garami/Bottom",
+        "how": "Withdraw your attacking leg early when you sense the counter rotation beginning, then immediately re-engage with tighter inside leg control to deny future counter windows. This resets the exchange to your original advantageous position while eliminating the counter threat."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Panicking and completely abandoning your heel hook attack when sensing the counter",
+        "consequence": "Gives opponent a free inside ashi-garami position on your leg without any exchange pressure, converting their defensive move into pure offensive gain",
+        "correction": "Assess your grip depth before reacting. If your grip is deep, accelerate the finish. If shallow, withdraw your leg specifically while maintaining leg entanglement on their original trapped leg."
+      },
+      {
+        "error": "Releasing inside leg control during grip adjustments to reach for a better heel grip",
+        "consequence": "Creates the exact window the counter exploits—opponent threads their leg through the space where your inside leg was controlling and establishes counter-entanglement",
+        "correction": "Maintain inside leg pressure throughout all grip adjustments. Adjust hands one at a time while keeping constant leg control. Never sacrifice leg position for grip improvement."
+      },
+      {
+        "error": "Ignoring the counter threat and continuing to attack as if nothing changed",
+        "consequence": "Opponent establishes deep inside ashi-garami on your leg while you are focused on finishing, creating a submission race from an increasingly disadvantaged position",
+        "correction": "Develop awareness of counter-entry cues (hip rotation, leg threading) and address them immediately. Even a brief pause to assess the situation is better than blindly continuing an attack that is being countered."
+      },
+      {
+        "error": "Leaving your free leg extended and unprotected during heel hook attempts from ushiro",
+        "consequence": "Opponent hooks your free leg easily during counter rotation, using it as the primary lever to establish inside ashi-garami configuration",
+        "correction": "Tuck your free leg behind opponent's thigh or keep it actively controlling their hip movement. Never let it hang loose where opponent can capture it during their counter entry."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "You are attacking from ushiro ashi-garami and feel your opponent's hips rotating toward your leg. What does this indicate?",
+        "answer": "This rotation toward your attacking leg rather than away indicates the opponent is initiating a reverse heel hook counter rather than a standard escape. Standard escapes involve rotating away to clear legs, while counter-attacks require rotating toward your leg to establish entanglement. You should immediately assess your grip depth and decide whether to accelerate your finish or withdraw your leg."
+      },
+      {
+        "question": "Your heel hook grip is shallow and your opponent has begun threading their leg between yours. Should you race to finish?",
+        "answer": "No. With a shallow grip, racing to finish is a losing strategy because the opponent's counter-entanglement will establish before your finish materializes. Instead, withdraw your attacking leg before they complete inside position, reset your ushiro control with tighter inside leg pressure, and re-attack with better grip establishment before adjusting again."
+      },
+      {
+        "question": "What specific leg positioning prevents the counter-entry angle during your heel hook attempts?",
+        "answer": "Maintaining strong inside leg pressure across the opponent's hip throughout your attack denies the angle needed for counter-entry. Your inside leg acts as a barrier that prevents their hip rotation toward your leg. Additionally, keep your free leg tucked behind their thigh rather than extended, removing the hook point they need to initiate counter-entanglement."
+      },
+      {
+        "question": "How do you determine whether you have enough grip advantage to win a leg lock exchange if the counter is established?",
+        "answer": "Evaluate three factors: grip depth (is your heel hook grip past the point of no return or still establishing), positional timing (did you have your grip before they entered counter position), and finishing proximity (how many adjustments remain before your submission is complete). If you had deep grip before their counter began, your positional priority typically wins the exchange. If both grips are establishing simultaneously, the exchange is a coin flip."
+      },
+      {
+        "question": "Your opponent successfully establishes inside ashi-garami on your leg during the counter. What is the most dangerous mistake at this point?",
+        "answer": "The most dangerous mistake is freezing or becoming indecisive. Once the counter is established, you must immediately commit to a plan: either finish your heel hook if your grip is deeper, engage in the exchange if grips are equal, or release your attack and address your own defense if their position is superior. Hesitation allows them to solidify their position while your grip remains static, progressively worsening your odds in the exchange."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Week 1-2",
+        "focus": "Counter recognition",
+        "description": "From ushiro ashi-garami top, partner slowly initiates counter-entry while you practice recognizing the hip rotation and leg threading cues. No finishing attempts from either side. Focus purely on identifying when the counter is beginning and verbalizing what you observe."
+      },
+      {
+        "phase": "Week 3-4",
+        "focus": "Defensive responses",
+        "description": "Practice each defensive option in isolation: accelerating the finish, withdrawing the leg, transitioning to saddle, entering 50-50. Partner initiates counter at various speeds while you select and execute the appropriate response based on your grip depth and their entry progress."
+      },
+      {
+        "phase": "Week 5-6",
+        "focus": "Prevention drilling",
+        "description": "Focus on maintaining inside leg control and free leg positioning throughout heel hook attempts from ushiro. Partner attempts counters while you practice denying the entry angle through correct leg positioning. Develop the habit of never releasing leg pressure during grip adjustments."
+      },
+      {
+        "phase": "Week 7+",
+        "focus": "Live exchange management",
+        "description": "Positional sparring from ushiro ashi-garami where partner is specifically attempting reverse heel hook counters. Practice real-time assessment of grip advantage and selecting defensive responses under pressure. Develop comfort with leg lock exchange scenarios and the decision-making they require."
+      }
+    ]
+  },
+  "variants_and_adaptations": [
+    {
+      "variant_name": "50-50 Entry Counter",
+      "description": "Rather than entering inside ashi-garami, use the counter window to enter 50-50 guard where both practitioners have equal leg entanglement. This neutral position prevents opponent's finish while creating your own heel hook opportunities.",
+      "when_to_use": "When opponent's leg positioning makes inside ashi entry difficult, or when you prefer the symmetry of 50-50 exchanges"
+    },
+    {
+      "variant_name": "Back Take Counter",
+      "description": "Instead of counter-entangling legs, use the window to continue inversion and take opponent's back as they commit to heel hook. Particularly effective when their upper body control is weak during finishing attempts.",
+      "when_to_use": "When opponent's back is exposed during their heel hook commitment phase and you have sufficient rotation momentum"
+    },
+    {
+      "variant_name": "Kneebar Counter Entry",
+      "description": "Enter kneebar position on opponent's attacking leg rather than heel hook configuration. Triangle your legs around their knee and apply extension pressure while they're focused on their own heel hook attempt.",
+      "when_to_use": "When their knee is more accessible than heel during the counter window, or against opponents with strong heel hook defense"
+    }
+  ],
+  "conditions": [
+    "Trapped in ushiro ashi-garami with opponent actively working toward heel hook finish",
+    "Opponent's grip is in adjustment phase rather than deeply established",
+    "Free leg is available and not fully controlled by opponent",
+    "Sufficient hip mobility remains to rotate into counter position"
+  ],
+  "position_integration": "The Reverse Heel Hook Counter represents an advanced evolution in leg lock defense philosophy—transforming a purely defensive position into an offensive opportunity. This technique integrates into the broader ashi-garami system as part of the counter-attack branch of leg entanglement defense. When trapped in ushiro ashi-garami, practitioners face a decision tree: escape to turtle, granby to standing, recover guard, or counter-attack. The reverse heel hook counter occupies the counter-attack branch, serving as the primary offensive option from this defensive position. Success with this technique requires mastery of both inside ashi-garami attacks and ushiro ashi-garami defenses, making it a purple-to-brown belt level skill that rewards deep understanding of leg lock positional hierarchies."
+}

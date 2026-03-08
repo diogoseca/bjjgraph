@@ -1,0 +1,22 @@
+{
+  "name": "bjjgraph",
+  "version": "1.5.9",
+  "description": "BJJ knowledge graph and state machine",
+  "scripts": {
+    "postinstall": "cd source && npm install",
+    "serve": "npx serve -l 8080 source/public",
+    "dev": "npm run build && npm run serve",
+    "validate:json": "python3 scripts/validate_json.py --all",
+    "validate:graph": "python3 scripts/validate_graph_integrity.py",
+    "regenerate:issues": "./scripts/regenerate_list_of_content_files_to_fix.sh",
+    "regenerate:json": "python3 scripts/regenerate_content_json.py --batch",
+    "regenerate:explode": "python3 scripts/explode_graph_connections.py",
+    "regenerate:md": "python3 scripts/regenerate_md_from_json.py --all",
+    "regenerate:hubs": "python3 scripts/regenerate_category_hub_pages.py",
+    "regenerate:graph": "python3 scripts/regenerate_graph.py",
+    "regenerate:votes": "python3 scripts/regenerate_votes.py",
+    "regenerate": "npm run regenerate:issues && npm run regenerate:json && npm run regenerate:explode && npm run regenerate:md && npm run regenerate:hubs && npm run regenerate:votes && npm run regenerate:graph",
+    "build": "cd source && npx quartz build --concurrency 4 -d ../content",
+    "regenerate:build": "npm run regenerate && npm run build"
+  }
+}

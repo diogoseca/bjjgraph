@@ -1,0 +1,417 @@
+{
+  "name": "Frame and Shrimp from S Mount",
+  "description": "Master the Frame and Shrimp escape from S Mount in BJJ. Essential hip escape technique to recover half guard using frames and systematic shrimping mechanics.",
+  "tags": [
+    "escape",
+    "mount-escape",
+    "s-mount",
+    "hip-escape",
+    "shrimp",
+    "defensive-technique",
+    "guard-recovery",
+    "frame"
+  ],
+  "from_position": "S Mount/Bottom",
+  "outcomes": [
+    {
+      "to": "Half Guard/Bottom",
+      "probability": 45,
+      "result": "success"
+    },
+    {
+      "to": "S Mount/Bottom",
+      "probability": 35,
+      "result": "failure"
+    },
+    {
+      "to": "Armbar Control/Bottom",
+      "probability": 20,
+      "result": "counter"
+    }
+  ],
+  "success_rate": 45,
+  "overview": "The Frame and Shrimp from S Mount is the primary fundamental escape when trapped beneath an opponent's S Mount position. S Mount places the bottom practitioner in immediate submission danger, particularly armbars, as the top person sits perpendicular with one leg over the head and the other across the torso, isolating the near arm. The Frame and Shrimp uses defensive forearm frames against the opponent's hips combined with systematic hip escaping (shrimping) to create enough lateral space to insert a knee and recover half guard.\n\nThis escape epitomizes the core BJJ defensive principle: create frames first, then move your hips. The frame prevents the opponent from following your hip movement, while the shrimp generates the actual distance needed for guard recovery. The technique demands precise timing, as attempting to shrimp without proper frames allows the opponent to follow, while framing without shrimping creates no actual positional change. The combination of both elements, executed during the opponent's adjustment windows, provides the highest-percentage escape path from this dangerous position.\n\nThe Frame and Shrimp integrates into the broader mount escape system as the go-to response when bridging alone is insufficient. While bridge-based escapes work best against standard mount, S Mount's perpendicular angle makes bridging less effective because the top person's weight is distributed differently. Framing and shrimping attacks S Mount's structural weakness: the top person's base becomes narrower in perpendicular alignment, making lateral hip escapes more effective than vertical bridges. Understanding when to bridge versus when to frame and shrimp is a critical skill for surviving all mount variations.",
+  "conditions": [
+    "Opponent has established S Mount with leg extended over your head and other leg across your torso",
+    "Your trapped arm is currently protected with bent-arm defense or collar grip",
+    "At least one hand is available for framing against opponent's hip",
+    "Feet can be posted flat on the mat to generate hip escape power",
+    "You have identified a timing window during opponent's grip adjustment or submission setup"
+  ],
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Double Frame Shrimp",
+      "description": "Uses both hands simultaneously to frame against the opponent's hips before executing the shrimp. Generates significantly more space than single-hand framing but temporarily abandons trapped arm protection. Requires the collar grip to be extremely secure or the opponent's arm control to be momentarily loose.",
+      "when_to_use": "When opponent's arm control is loose and you need maximum frame power to create space against heavy hip pressure"
+    },
+    {
+      "variant_name": "Frame to Knee Shield Recovery",
+      "description": "Instead of recovering standard half guard entanglement, inserts the knee as a shield across the opponent's torso with the shin creating a frame. This establishes knee shield half guard rather than standard half guard, providing better distance management and preventing the opponent from immediately re-establishing heavy top pressure.",
+      "when_to_use": "When you create enough space for knee insertion but the opponent is still driving forward with pressure, making knee shield preferable to standard half guard"
+    },
+    {
+      "variant_name": "Shrimp to Turtle Transition",
+      "description": "When half guard recovery is not achievable, continues the shrimp far enough to rotate to knees and establish turtle position. Sacrifices guard recovery for immediate positional improvement and removes the armbar threat entirely. Requires careful attention to not expose the back during the rotation.",
+      "when_to_use": "When repeated shrimps fail to create enough space for knee insertion but you have created significant lateral distance from the opponent's control center"
+    }
+  ],
+  "position_integration": "The Frame and Shrimp from S Mount connects the mount escape system to the half guard recovery system, serving as the critical bridge between surviving a near-submission position and re-establishing an active guard. When bridge-based escapes fail against the perpendicular angle of S Mount, the frame and shrimp provides the lateral escape pathway that exploits S Mount's inherent base weakness. Successful execution feeds directly into the half guard bottom game, where the escaping practitioner can then work sweeps, back takes, or further guard recovery through knee shield, deep half, or lockdown variations. This technique reinforces the fundamental defensive chain: protect the arm, create frames, move hips, recover guard. Mastery of this escape is essential for any practitioner facing high-level mount attacks.",
+  "related_content": [
+    {
+      "name": "S Mount",
+      "relationship": "Source position - the dominant mount variation this escape addresses"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Primary escape destination - successful frame and shrimp recovers half guard"
+    },
+    {
+      "name": "Bridge Escape from S Mount",
+      "relationship": "Alternative escape technique - bridge-based approach for when perpendicular angle allows"
+    },
+    {
+      "name": "Trap and Roll from S Mount",
+      "relationship": "Alternative escape technique - reversal-based approach using opponent's weight against them"
+    },
+    {
+      "name": "Armbar from S Mount",
+      "relationship": "Primary submission threat - the attack that motivates this escape"
+    },
+    {
+      "name": "Armbar Control",
+      "relationship": "Counter outcome position - where opponent ends up if they capitalize on failed escape"
+    },
+    {
+      "name": "Mount",
+      "relationship": "Parent position - S Mount is a variation of mount requiring different escape mechanics"
+    },
+    {
+      "name": "Frame Escape from High Mount",
+      "relationship": "Similar technique concept - frame-based escape from a different mount variation"
+    },
+    {
+      "name": "Elbow Escape from Mount",
+      "relationship": "Related escape concept - uses similar hip escape mechanics from standard mount"
+    },
+    {
+      "name": "Knee Shield Half Guard",
+      "relationship": "Variant escape destination - knee shield recovery provides better distance management after escape"
+    },
+    {
+      "name": "Open Guard",
+      "relationship": "Extended escape destination - full escape may recover open guard if enough distance is created"
+    }
+  ],
+  "attacker": {
+    "name": "Frame and Shrimp from S Mount Attacker",
+    "description": "Execute the Frame and Shrimp escape from S Mount bottom. Master framing mechanics, hip escape timing, and half guard recovery to escape this dangerous submission position.",
+    "overview": "Executing the Frame and Shrimp from S Mount requires combining disciplined arm protection with aggressive lateral hip movement to create enough space for guard recovery. As the bottom practitioner trapped in S Mount, you face immediate armbar threat from the opponent's perpendicular positioning with their leg over your head isolating your near arm. Your primary objective is to establish strong structural frames against the opponent's hips, use explosive shrimping to create lateral distance, and insert your knee to recover half guard before the opponent can re-establish dominant control or finish the submission. The technique demands calm execution under extreme pressure, precise timing during the opponent's adjustment windows, and the discipline to maintain trapped arm protection throughout the entire escape sequence without exception.",
+    "key_principles": [
+      "Protect the trapped arm continuously throughout the escape - never sacrifice arm safety to create frames or generate movement",
+      "Frame against the opponent's hip bone specifically, not their upper body or thigh - hip frames prevent them from following your lateral movement",
+      "Shrimp your hips away from the trapped arm side to create the most effective escape angle and maximum distance from the submission threat",
+      "Time the escape to coincide with the opponent's weight shifts, grip adjustments, or submission setups when their pressure momentarily decreases",
+      "Knee insertion is the critical checkpoint - once your knee enters the space between your body and the opponent, commit fully to half guard recovery",
+      "Chain multiple rapid shrimps rather than relying on a single explosive movement - cumulative distance creation overwhelms the opponent's ability to follow"
+    ],
+    "setup_requirements": [
+      "Trapped arm secured with collar grip or bent-arm defense keeping elbow at 90 degrees or tighter against ribs",
+      "Free hand positioned to reach and drive into opponent's near hip bone for primary frame establishment",
+      "Feet posted flat on the mat with knees bent to generate maximum hip escape power through leg drive",
+      "Timing window identified where opponent is adjusting grips, shifting weight, initiating submission, or repositioning legs"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Secure trapped arm defense",
+        "description": "Grip your own collar or lapel firmly with the trapped hand, keeping the elbow bent at 90 degrees or tighter pressed against your ribs. This collar grip is your non-negotiable anchor throughout the entire escape sequence. The bent arm position makes armbar completion exponentially more difficult and must be established before any escape movement begins."
+      },
+      {
+        "step_number": 2,
+        "action": "Establish primary hip frame",
+        "description": "Drive your free hand directly into the opponent's near hip bone (iliac crest), creating a structural barrier with your forearm and palm. Position your elbow close to your own body for maximum structural strength rather than pushing with an extended arm. This frame is the mechanical wedge that prevents the opponent from following your hip movement during the shrimp."
+      },
+      {
+        "step_number": 3,
+        "action": "Bridge to create initial momentum",
+        "description": "Execute a short, controlled bridge by driving your hips upward off the mat using your posted feet. This bridge is not a full escape attempt but rather a momentum generator that momentarily lifts the opponent's hip pressure off your shoulder, creating a split-second gap for your frame to fill. The bridge direction should be slightly diagonal toward your free hand side."
+      },
+      {
+        "step_number": 4,
+        "action": "Explosive hip escape away from trapped arm",
+        "description": "Immediately following the bridge momentum, drive your hips laterally away from the trapped arm side using your posted feet and core rotation. This shrimp must be explosive and directional, moving your hips toward the opponent's legs rather than straight back. Your frame hand maintains pressure on their hip throughout the movement, preventing them from following your escape direction."
+      },
+      {
+        "step_number": 5,
+        "action": "Chain second shrimp for additional distance",
+        "description": "Without pausing after the first shrimp, immediately execute a second hip escape in the same direction to create cumulative distance. Reset your feet quickly between shrimps by pulling them closer to your hips. This chained movement creates more space than the opponent can close by following, as their perpendicular base makes lateral tracking mechanically difficult."
+      },
+      {
+        "step_number": 6,
+        "action": "Insert knee between bodies",
+        "description": "As space opens between your torso and the opponent's crossing leg, drive your near-side knee into the gap with your shin angled across their body. This knee insertion creates a structural barrier that prevents the opponent from re-establishing chest-to-torso pressure. Aim to position the knee at their hip level, creating the foundation for half guard entanglement below."
+      },
+      {
+        "step_number": 7,
+        "action": "Establish half guard leg entanglement",
+        "description": "Hook the opponent's near leg with both of your legs, wrapping the previously trapped leg around their thigh while your far leg reinforces the entanglement from behind. Secure the leg tightly between your knees and thighs, establishing the fundamental half guard control structure that prevents them from simply stepping back into mount."
+      },
+      {
+        "step_number": 8,
+        "action": "Recover side-facing half guard position",
+        "description": "Rotate onto your side facing the opponent, establishing proper half guard posture with frames against their upper body. Battle for the underhook on the trapped leg side while maintaining knee shield or forearm frame to prevent them from re-flattening you. You have now transitioned from survival mode to an active offensive position with sweep and back take options."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Opponent drives hip-to-shoulder pressure down preemptively when sensing frame attempt",
+        "effectiveness": "High",
+        "your_response": "Use a micro-bridge to create momentary lift before framing rather than trying to frame through settled weight. The bridge creates a split-second gap that your frame hand can fill before the pressure returns.",
+        "targets_outcome": "S Mount/Bottom"
+      },
+      {
+        "counter": "Opponent immediately attacks armbar when you commit free hand to framing against their hip",
+        "effectiveness": "Medium",
+        "your_response": "Ensure collar grip is ironclad before moving free hand to frame. Only frame after confirming the trapped arm cannot be extended. If opponent accelerates armbar during frame, retract free hand and re-secure arm defense immediately.",
+        "targets_outcome": "Armbar Control/Bottom"
+      },
+      {
+        "counter": "Opponent follows your hip movement by scooting laterally to maintain perpendicular angle",
+        "effectiveness": "High",
+        "your_response": "Chain three or more rapid shrimps without pausing, creating cumulative distance faster than they can follow from their narrow perpendicular base. Their following movement compromises their own stability, potentially opening bridge escape opportunities.",
+        "targets_outcome": "S Mount/Bottom"
+      },
+      {
+        "counter": "Opponent widens base by posting legs farther apart to resist frame pressure",
+        "effectiveness": "Medium",
+        "your_response": "Exploit the wider base by targeting the increased space between their legs for knee insertion. A wider base means less concentrated pressure on your shoulder, making the shrimp more effective even against a stable frame defense.",
+        "targets_outcome": "S Mount/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Releasing collar grip on trapped hand to use both arms for framing",
+        "consequence": "Extends the trapped arm directly into armbar position, giving opponent the exact arm extension they need to finish the submission immediately",
+        "correction": "Never release the collar grip under any circumstances during the escape. Frame with your free hand only. The collar grip is the single most important defensive element throughout the sequence."
+      },
+      {
+        "error": "Shrimping toward the trapped arm side instead of away from it",
+        "consequence": "Moves your body deeper into the opponent's submission setup, making the armbar easier to complete and reducing your ability to create distance from their control",
+        "correction": "Always shrimp AWAY from the trapped arm side, directing hips toward the opponent's legs and torso. This direction maximizes distance from the submission threat and opens the correct angle for knee insertion."
+      },
+      {
+        "error": "Attempting to hip escape without establishing a frame first",
+        "consequence": "Opponent simply follows your hip movement since nothing blocks them from maintaining hip-to-shoulder contact, rendering the shrimp completely ineffective",
+        "correction": "Always establish the hip frame BEFORE initiating the shrimp. The frame is the barrier that prevents the opponent from tracking your movement. Without it, shrimping is wasted energy."
+      },
+      {
+        "error": "Executing a single shrimp then pausing to assess results",
+        "consequence": "Insufficient distance for knee insertion, and the pause gives the opponent time to readjust position and close whatever space was created during the single movement",
+        "correction": "Chain two to three rapid shrimps in immediate succession without pausing. Cumulative distance creation is the key mechanical principle. Reset feet quickly between shrimps and maintain frame throughout."
+      },
+      {
+        "error": "Framing against the opponent's chest or upper body instead of their hip bone",
+        "consequence": "Upper body frame does not prevent hip-to-shoulder tracking because the opponent can adjust their hips independently. The frame fails to serve its primary function of blocking lateral following.",
+        "correction": "Frame directly on the opponent's near hip bone (iliac crest). This specific placement controls the structural center of their base and mechanically prevents them from shifting weight to follow your shrimp."
+      },
+      {
+        "error": "Inserting knee too early before adequate lateral space exists",
+        "consequence": "Knee gets trapped between bodies without establishing proper half guard entanglement, creating a compromised position that is neither S Mount nor half guard",
+        "correction": "Wait for clear space to open between your torso and the opponent's crossing leg before committing the knee. If the space is marginal, execute one more shrimp before insertion."
+      },
+      {
+        "error": "Panicking and thrashing with explosive random movement instead of technical execution",
+        "consequence": "Wastes energy rapidly, often inadvertently extends the trapped arm into submission position, and creates zero productive positional change",
+        "correction": "Stay calm and execute controlled, purposeful movements. Each action has a specific goal: frame placement, bridge momentum, shrimp direction, knee insertion. Panic-driven movement achieves none of these."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Frame Mechanics",
+        "focus": "Isolated frame placement and structural strength",
+        "description": "Practice establishing hip frames against a partner in S Mount with zero resistance. Focus on precise hand placement on the hip bone, maintaining structural arm alignment with elbow close to your body, and understanding the force vectors. Drill 20 frame placements per side, building muscle memory for correct positioning before adding any hip movement."
+      },
+      {
+        "phase": "Phase 2: Shrimp Integration",
+        "focus": "Combining frames with hip escape movement",
+        "description": "Chain the frame establishment with explosive shrimping at 25% partner resistance. Focus on the bridge-to-shrimp timing, maintaining frame contact throughout the hip escape, and chaining multiple shrimps in rapid succession. Partner holds S Mount lightly and provides enough weight to require proper technique without preventing the escape."
+      },
+      {
+        "phase": "Phase 3: Knee Insertion and Guard Recovery",
+        "focus": "Complete escape sequence to half guard",
+        "description": "Execute the full escape from frame through knee insertion to half guard recovery at 50% partner resistance. Focus on recognizing when adequate space exists for the knee, transitioning smoothly from shrimping to leg entanglement, and recovering proper side-facing half guard posture. Repeat 10 full sequences per side per round."
+      },
+      {
+        "phase": "Phase 4: Timing Development",
+        "focus": "Reading opponent adjustments and executing with proper timing",
+        "description": "Partner actively controls from S Mount top at 75% resistance, shifting weight and adjusting grips realistically. Practice identifying timing windows during these adjustments and executing the escape with precision. Partner should vary their control patterns to develop the escaping practitioner's ability to read different scenarios."
+      },
+      {
+        "phase": "Phase 5: Live Application",
+        "focus": "Full resistance positional sparring integration",
+        "description": "Positional sparring starting from S Mount at full competition resistance. Integrate the Frame and Shrimp with bridge escapes and trap-and-roll attempts based on what the top person gives you. Track escape success rate over multiple rounds and identify which timing windows produce the highest percentage escapes."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "Your opponent has tight hip-to-shoulder pressure and you cannot create any frame space - what adjustment creates the initial opening?",
+        "answer": "Use a short bridge upward (not a full bridge escape) to momentarily lift the opponent's hips and create a split-second gap between their hip and your shoulder. Your frame hand must enter this gap during the bridge, not after the opponent settles back. The bridge provides maybe half a second of reduced pressure, which is enough to wedge your forearm into position if the timing is precise."
+      },
+      {
+        "question": "What is the most critical hip movement direction when executing the Frame and Shrimp from S Mount?",
+        "answer": "Shrimp your hips away from the trapped arm side, directing movement toward the opponent's legs and torso. This direction creates maximum distance between your shoulder and their hip pressure while moving your body toward the side where you can insert a knee. Shrimping toward the trapped arm moves you deeper into the submission setup and must be avoided at all costs."
+      },
+      {
+        "question": "During the escape, your opponent momentarily releases your wrist to readjust their grip - how do you capitalize on this window?",
+        "answer": "Immediately pull your trapped arm back tight to your body and re-grip your collar with maximum commitment. Simultaneously execute the frame and shrimp with full explosiveness since the opponent has temporarily lost their primary arm control. This is your highest-percentage escape window, giving you one to two seconds of reduced resistance before they re-establish control."
+      },
+      {
+        "question": "What grip should your trapped hand maintain throughout the escape sequence and why?",
+        "answer": "Grip your own collar or lapel with the trapped hand, keeping the elbow bent at 90 degrees or tighter. This collar grip uses the gi fabric as a structural anchor, requiring the opponent to overcome both your grip strength and the material's resistance to extend the arm into armbar position. The bent-arm configuration is exponentially harder to attack than any straight-arm position."
+      },
+      {
+        "question": "Your frame creates space but the opponent immediately follows your hip movement and closes the distance - what chain technique solves this problem?",
+        "answer": "Execute a second and third immediate shrimp in the same direction without resetting your frame position. Rapid chained shrimps create cumulative distance faster than the opponent can follow from their perpendicular position, because their narrow S Mount base makes lateral tracking mechanically difficult. After two to three rapid shrimps, sufficient space should open for knee insertion."
+      },
+      {
+        "question": "Where exactly should your free hand frame against the opponent, and why is this specific placement critical?",
+        "answer": "Frame directly on the opponent's near hip bone at the iliac crest, not their thigh, chest, or upper body. The hip bone is the structural center of their base and the origin point of their weight transfer. Framing here mechanically prevents them from shifting their hips to follow your shrimp. Framing on their upper body allows independent hip adjustment, defeating the purpose entirely."
+      },
+      {
+        "question": "What four conditions must exist before you should attempt the Frame and Shrimp escape?",
+        "answer": "First, your trapped arm must be secured with collar grip and bent elbow providing armbar defense. Second, your free hand must be positioned to reach the opponent's hip for frame establishment. Third, your feet must be posted flat on the mat for shrimping power generation through leg drive. Fourth, you must identify a timing window where the opponent is adjusting position or initiating an attack. Attempting without all four conditions significantly reduces escape probability."
+      },
+      {
+        "question": "If your knee insertion is blocked and you cannot establish half guard after multiple shrimps, what is your immediate backup plan?",
+        "answer": "If repeated shrimps and knee insertion attempts fail, transition to a bridge-based escape while the opponent adjusts to counter your shrimping direction. The opponent's focus on preventing lateral escape often compromises their defense against vertical bridges. Alternatively, if significant lateral distance exists but knee insertion remains blocked, continue shrimping to rotate toward turtle position, removing the armbar threat entirely."
+      },
+      {
+        "question": "How does the Frame and Shrimp exploit the specific structural weakness of S Mount compared to standard mount?",
+        "answer": "S Mount's perpendicular body angle creates a narrower base for the top person compared to standard mount's chest-to-chest square positioning. This narrow base makes it mechanically difficult for the top person to track lateral hip movement without compromising their own stability. The Frame and Shrimp exploits this by creating lateral distance through shrimping, which is more effective against the narrow perpendicular base than vertical bridges."
+      }
+    ],
+    "safety_considerations": "The Frame and Shrimp from S Mount requires constant attention to arm protection throughout the escape. Never release the collar grip on your trapped arm to attempt escape movement, as an exposed extended arm in S Mount leads directly to armbar with potential for serious elbow hyperextension injury. If the opponent secures full arm extension with their hips locked tight against your shoulder, tap immediately rather than attempting to power out of the completed submission. During training, communicate with partners about resistance levels and tap early when practicing escape timing to avoid cumulative joint stress. Be particularly cautious with newer training partners who may apply sudden jerking pressure during armbar attempts."
+  },
+  "defender": {
+    "name": "Frame and Shrimp from S Mount Defender",
+    "description": "Counter the Frame and Shrimp escape from S Mount top. Maintain dominant positional control, prevent hip movement, and capitalize on escape attempts to secure armbar submissions.",
+    "overview": "As the S Mount top practitioner, defending against the Frame and Shrimp escape means maintaining your positional dominance while your opponent attempts to create space through frames and systematic hip movement. Your primary defensive tools are relentless hip-to-shoulder pressure that eliminates framing space, leg positioning that blocks knee insertion, and the ability to follow your opponent's lateral hip movement to maintain your perpendicular attacking angle. Understanding the Frame and Shrimp mechanics from the defender's perspective allows you to anticipate escape timing, block space creation at its origin, and capitalize on escape attempts by transitioning to armbar or adjusting to maintain S Mount when the bottom person creates openings during their movement. The key insight is that escape attempts often create better submission opportunities than static control, because the bottom person must compromise their arm defense to generate frames.",
+    "key_principles": [
+      "Maintain relentless hip-to-shoulder pressure as your primary defense against frame establishment and space creation",
+      "Follow your opponent's lateral hip movement by scooting your hips in the same direction to maintain perpendicular control angle",
+      "Control the trapped arm continuously and watch for grip loosening during escape attempts that creates armbar opportunity",
+      "Keep your posted leg stable with foot planted firmly and your crossing leg heavy across their torso to block knee insertion",
+      "Recognize escape preparation cues and preemptively tighten control during the opponent's setup phase before they execute",
+      "Use escape attempts as submission windows since the bottom person must weaken arm defense to generate framing force"
+    ],
+    "recognition_cues": [
+      "Opponent's free hand moves toward your hip or near hip bone area, indicating frame establishment",
+      "Opponent's feet adjust to flat posted position on the mat, generating leverage for imminent hip escape",
+      "Opponent executes a short bridge or slight hip lift, creating momentum for the shrimp that follows",
+      "Opponent's body tension increases noticeably with deeper breathing, signaling preparation for explosive escape attempt",
+      "Opponent's hips begin lateral movement away from the trapped arm side, confirming the shrimp is in progress"
+    ],
+    "defensive_options": [
+      {
+        "action": "Drive hip weight down into opponent's shoulder when you feel frame hand contact your hip",
+        "when_to_use": "Immediately when opponent's free hand makes contact with your hip, before the frame is fully established",
+        "targets_outcome": "S Mount/Bottom",
+        "if_successful": "Crushes the frame attempt before it generates space, demoralizing the escape effort and forcing the opponent to reset",
+        "risk": "Over-committing forward weight can be exploited by an explosive bridge if you lose structural balance"
+      },
+      {
+        "action": "Follow opponent's hip movement by scooting your hips laterally in the same direction they shrimp",
+        "when_to_use": "When opponent successfully creates initial space through frame and begins shrimping away from the trapped arm",
+        "targets_outcome": "S Mount/Bottom",
+        "if_successful": "Maintains S Mount control by keeping hip-to-shoulder connection despite their lateral movement, negating the escape",
+        "risk": "Following too aggressively can compromise your own perpendicular base and create opportunity for bridge escape"
+      },
+      {
+        "action": "Attack armbar immediately when opponent commits their free hand to framing, weakening arm defense",
+        "when_to_use": "When opponent moves free hand to your hip and their collar grip on the trapped arm loosens or their attention splits between defense and escape",
+        "targets_outcome": "Armbar Control/Bottom",
+        "if_successful": "Secure armbar finish during the escape attempt while opponent's defensive structure is momentarily compromised",
+        "risk": "If the armbar attempt fails because the collar grip held, the opponent may have already created significant escape distance"
+      },
+      {
+        "action": "Block knee insertion by driving your crossing leg down and pinching your knees together when space opens",
+        "when_to_use": "When opponent has created lateral space and is attempting to insert their knee between your bodies",
+        "targets_outcome": "S Mount/Bottom",
+        "if_successful": "Prevents half guard recovery even after successful shrimping, keeping opponent in compromised position between S Mount and half guard",
+        "risk": "Focusing on leg defense may cause you to lose hip-to-shoulder pressure, allowing further space creation"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "S Mount/Bottom",
+        "how": "Maintain constant hip-to-shoulder pressure, follow opponent's hip movement by scooting laterally, and prevent knee insertion by keeping legs tight. Stay heavy through your hip connection and deny every inch of space the opponent tries to create through their frames and shrimps."
+      },
+      {
+        "outcome": "Armbar Control/Bottom",
+        "how": "Capitalize when opponent commits their free hand to framing against your hip, which momentarily weakens their trapped arm defense. Attack the armbar aggressively during this window, securing wrist control and extending the arm before they can retract. The escape attempt creates the submission opportunity."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Allowing space between your hip and opponent's shoulder during escape attempt without immediately closing it",
+        "consequence": "Opponent establishes a structural frame and creates enough distance through chained shrimps to insert a knee and recover half guard",
+        "correction": "Keep hips glued to their shoulder at all times, driving your weight forward and down. The moment you feel any gap forming, drive your hip bone back into their shoulder before the frame fully establishes."
+      },
+      {
+        "error": "Remaining static while opponent executes multiple rapid shrimps",
+        "consequence": "Opponent creates cumulative lateral distance through chained shrimps and recovers half guard because you failed to track their movement",
+        "correction": "Follow opponent's hip movement immediately by scooting your hips in the same direction they shrimp. Your perpendicular angle must track with their body movement to maintain control."
+      },
+      {
+        "error": "Overreacting to the frame by sitting up or dramatically repositioning your body",
+        "consequence": "Creates the exact timing window the opponent needs for an explosive escape because you momentarily unweighted your hip-to-shoulder connection",
+        "correction": "Absorb the frame pressure through your hip weight and structural leg positioning rather than repositioning your upper body. Stay heavy and let your skeletal alignment resist the frame."
+      },
+      {
+        "error": "Chasing the armbar recklessly when opponent begins escape rather than maintaining position",
+        "consequence": "If the armbar attempt fails, the opponent has already created significant escape distance during your attacking transition",
+        "correction": "Only commit to armbar when you have clear arm extension opportunity. If the collar grip is still solid and the arm is bent, maintain S Mount position first and wait for a better submission opening."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the earliest recognition cue that your opponent is about to attempt a Frame and Shrimp escape?",
+        "answer": "The first sign is typically their free hand moving toward your near hip or their feet adjusting to a flat, posted position on the mat. These preparatory movements precede the actual escape by one to two seconds, giving you time to preemptively tighten control by driving your hip weight down and securing their trapped arm more firmly before the frame and shrimp begins."
+      },
+      {
+        "question": "How should you adjust your weight distribution when you feel your opponent begin to shrimp laterally?",
+        "answer": "Shift your weight forward and down through your hip into their shoulder while simultaneously scooting your hips in the same lateral direction they are escaping. Your weight should drive through the point where your hip contacts their shoulder, acting like a tracking point. Avoid sitting up or lifting your hips, as this creates the space they need to establish the frame and accelerate their escape."
+      },
+      {
+        "question": "When is it appropriate to abandon S Mount and transition to another position during an escape attempt?",
+        "answer": "Transition to standard mount if the opponent creates enough space that your perpendicular angle is significantly compromised but you still maintain top position. It is better to secure mount and re-attempt S Mount later than to fight from a deteriorating S Mount where hip-to-shoulder connection is lost. Never stay in a compromised S Mount because the opponent may complete their escape to half guard while you struggle to maintain an untenable position."
+      },
+      {
+        "question": "What specific opening does the Frame and Shrimp escape create for your armbar attack?",
+        "answer": "When the bottom person moves their free hand to frame against your hip, they reduce their arm defense by splitting their attention and physical resources between escape mechanics and arm protection. If their collar grip loosens even slightly during this commitment, you have a brief window to attack the armbar while their defensive structure is compromised. The key is recognizing whether their collar grip genuinely weakened or if they are baiting you into an armbar attempt to create escape distance."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Pressure Maintenance",
+        "focus": "Maintaining hip-to-shoulder connection under escape pressure",
+        "description": "Hold S Mount while partner attempts frame and shrimp at 25% resistance. Focus entirely on maintaining hip-to-shoulder pressure and feeling the escape attempt develop through tactile feedback. Learn to absorb frame pressure through your hip weight rather than repositioning."
+      },
+      {
+        "phase": "Phase 2: Lateral Tracking",
+        "focus": "Following opponent's hip movement to maintain control",
+        "description": "Partner shrimps at 50% resistance while you practice scooting laterally to follow their hip movement without losing perpendicular positioning. Develop the sensitivity to track their direction changes and the mechanics to adjust your base while maintaining heavy hip pressure."
+      },
+      {
+        "phase": "Phase 3: Capitalizing on Escape Attempts",
+        "focus": "Transitioning between position maintenance and submission attacks",
+        "description": "Partner attempts full Frame and Shrimp at 75% resistance. Practice both maintaining position when their arm defense is strong and transitioning to armbar when you detect their collar grip weakening during frame commitment. Develop the decision-making between holding position and attacking."
+      },
+      {
+        "phase": "Phase 4: Live Positional Integration",
+        "focus": "Full resistance S Mount defense against all escape types",
+        "description": "Full competition resistance positional sparring from S Mount top. Integrate defense against frame and shrimp with responses to bridge escapes and trap-and-roll attempts. Develop pattern recognition for which escape your opponent is attempting and apply the correct defensive response in real time."
+      }
+    ]
+  }
+}

@@ -1,0 +1,644 @@
+{
+  "name": "Knee Shield Half Guard",
+  "slug": "knee-shield-half-guard",
+  "description": "Master Knee Shield Half Guard in BJJ. Strategic guide covering setup, defensive retention, passing strategies, and transitions with complete bottom and top perspective analysis.",
+  "variant_uniqueness": "Knee shield barrier prevents pressure contact",
+  "overview": "Knee Shield Half Guard is a fundamental variation of half guard characterized by the bottom player using their top leg's shin as a defensive frame across the opponent's torso. This creates critical distance that prevents the crushing pressure typical of traditional half guard, fundamentally altering the position's dynamics for both players. The knee shield acts as both a defensive barrier preventing the pass and an offensive launching point for sweeps, back takes, and guard transitions.\n\nFrom the bottom perspective, the knee shield provides superior defensive security compared to flat half guard while maintaining offensive capabilities. The frame prevents the top player from settling their weight and establishing dominant grips, allowing the bottom player to maintain mobility and create angles for attacks. The position requires active management—constantly adjusting shield height and angle based on opponent pressure while threatening sweeps to keep the passer defensive.\n\nFrom the top perspective, passing the knee shield presents a strategic challenge requiring patience, systematic pressure, and grip dominance. The top player must collapse, redirect, or bypass the shield while preventing sweeps and guard recoveries. Success depends on understanding the biomechanical weaknesses of the knee shield structure and recognizing when to switch between different passing approaches. The position demands careful weight distribution to maintain forward pressure without overcommitting to vulnerable positions.\n\nThe knee shield half guard has become essential in modern competitive BJJ, with world-class practitioners demonstrating its effectiveness at the highest levels. Understanding both perspectives of this position is critical for developing a complete guard game and passing system.",
+  "key_principles": [
+    "Knee shield creates distance management system controlling spatial relationship between bodies",
+    "Bottom player must combine shield with upper body frames and hip mobility for complete defense",
+    "Top player must control distance to prevent shield from becoming offensive launching point",
+    "Shield height adjusts dynamically based on passing approach—higher against standing, lower against knee slice",
+    "Grip fighting determines position outcome—control prevents dominant passing or sweeping grips",
+    "Position requires constant micro-adjustments and active management from both players",
+    "Successful play demands balancing defensive security with offensive threat creation"
+  ],
+  "related_positions": [
+    {
+      "name": "Half Guard",
+      "relationship": "Parent position—knee shield is specialized defensive variant"
+    },
+    {
+      "name": "Deep Half Guard",
+      "relationship": "Common transition target when knee shield is compromised"
+    },
+    {
+      "name": "Lockdown",
+      "relationship": "Alternative half guard control method using leg entanglement"
+    },
+    {
+      "name": "X-Guard",
+      "relationship": "Transition target when opponent stands to pass"
+    },
+    {
+      "name": "Side Control",
+      "relationship": "Primary advancement target for successful top player"
+    },
+    {
+      "name": "Headquarters Position",
+      "relationship": "Related passing position with similar dynamics"
+    },
+    {
+      "name": "Overhook Control",
+      "relationship": "Key grip battle scenario in position"
+    },
+    {
+      "name": "Dogfight Position",
+      "relationship": "Common scramble when both players establish underhooks"
+    },
+    {
+      "name": "Flattened Half Guard",
+      "relationship": "Degraded position when knee shield collapses under pressure"
+    }
+  ],
+  "top": {
+    "name": "Knee Shield Half Guard Top",
+    "description": "Master Knee Shield Half Guard Top in BJJ. Complete guide covering passing strategies, pressure techniques, and transitions. 65% pass rate for advanced.",
+    "tags": [
+      "bjj",
+      "position",
+      "half-guard",
+      "top",
+      "passing",
+      "knee-shield",
+      "pressure"
+    ],
+    "overview": "Knee Shield Half Guard Top is a challenging passing position where the top practitioner faces an opponent using their knee as a defensive frame in half guard. The bottom player's shin creates a barrier across the passer's torso, preventing chest-to-chest connection and making traditional pressure passing difficult. This position requires patience, strategic pressure application, and systematic dismantling of the knee shield frame. The top player must control the upper body while working to collapse, redirect, or bypass the knee shield to advance position. Success in this position depends on understanding proper weight distribution, grip fighting, and recognizing when to switch between different passing approaches. The knee shield is one of the most effective defensive frames in modern BJJ, making this a critical position to master for any serious competitor.\n\nFrom top position, the primary goal is to neutralize the knee shield's effectiveness by controlling distance, establishing superior grips, and applying strategic pressure that forces the bottom player into defensive compromises. The passer must balance between maintaining forward pressure to prevent re-guards while avoiding overcommitment that leads to sweeps. Understanding the biomechanical weaknesses of the knee shield structure—particularly how it becomes vulnerable when extended too far or compressed too much—is essential for consistent passing success.",
+    "state_properties": {
+      "point_value": 0,
+      "position_type": "Offensive",
+      "risk_level": "Medium",
+      "energy_cost": "Medium",
+      "time_sustainability": "Medium to Long"
+    },
+    "state_invariants": [
+      "Top player's torso facing bottom player with knee shield shin across chest/abdomen, creating defensive barrier that prevents chest-to-chest connection and forward advancement",
+      "Bottom player has one leg trapped between top player's legs (half guard structure) while other leg creates active frame with shin positioned horizontally across top player's centerline",
+      "Top player maintains base with knees on mat on either side of bottom player's hips, weight distributed to prevent being swept while applying strategic pressure to collapse or redirect knee shield",
+      "Bottom player's knee shield leg bent at approximately 90 degrees with foot positioned near top player's far hip, shin bone serving as primary defensive structure against passing attempts"
+    ],
+    "prerequisites": [
+      "Opponent has established knee shield frame from half guard bottom position",
+      "Top player has secured at least one grip on opponent's upper body or pants",
+      "Bottom player's shin is across top player's torso creating space",
+      "Top player maintains base and posture to prevent immediate sweeps",
+      "Half guard structure is established with one leg trapped between top player's legs"
+    ],
+    "key_principles": [
+      "Control opponent's knee shield leg at ankle or pants to limit mobility and frame strength",
+      "Maintain proper base with knees wide to prevent hip bump and underhook sweeps",
+      "Use crossface and shoulder pressure to break bottom player's posture and upper body control",
+      "Apply strategic pressure in waves rather than constant grinding to create defensive reactions",
+      "Control distance to prevent bottom player from creating additional frames or re-guarding",
+      "Switch between passing approaches based on opponent's defensive adjustments",
+      "Never allow opponent to establish strong underhook connection on near side"
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "Your opponent is pushing their knee shield strongly into your chest. What adjustment should you make?",
+        "answer": "Angle your body at 45 degrees to the knee shield rather than facing it directly. This redirects the force of their frame away from your centerline, reducing its effectiveness. Simultaneously control their ankle or pants grip on the knee shield leg to limit their ability to adjust the shield angle. Apply shoulder pressure into their upper chest rather than pushing into the shield itself."
+      },
+      {
+        "question": "What are the essential grips for maintaining pressure while passing the knee shield?",
+        "answer": "The crossface grip controlling opponent's head and near shoulder is primary, preventing them from turning into you or establishing frames. Secondary grip should control the knee shield leg at the ankle, knee, or pants to limit shield mobility. For gi, collar and pants grips provide excellent control. In no-gi, underhook on far side and wrist control on near side prevent their offensive grip establishment."
+      },
+      {
+        "question": "How do you shut down the opponent's underhook attempt from bottom knee shield?",
+        "answer": "Maintain heavy crossface pressure driving your shoulder into their jaw to prevent them from turning their shoulder up to create underhook space. Control their near arm with an overhook or wrist grip. If they begin threading their arm through, immediately whizzer their underhook attempt while driving your weight forward. Never allow space between your chest and their shoulder on the near side."
+      },
+      {
+        "question": "What grip priorities should you establish when entering knee shield top position?",
+        "answer": "First priority is crossface control to neutralize upper body mobility and underhook threats. Second is controlling the knee shield leg to limit frame adjustments. Third is far hip control to prevent hip escape and re-guard attempts. In gi, collar grip plus pants grip on shield leg creates excellent control. In no-gi, underhook plus head control accomplishes similar objectives."
+      },
+      {
+        "question": "How do you apply pressure effectively without overcommitting and getting swept?",
+        "answer": "Apply pressure in waves rather than constant maximum pressure. Drive weight through your shoulder into their upper chest, not directly into the knee shield. Keep your base wide with knees on either side of their hips. Distribute weight so you can post quickly if they attempt sweeps. Never fully extend your legs or bring knees together—maintain a tripod-like base that allows quick recovery."
+      },
+      {
+        "question": "Your opponent starts to hip escape during your pass attempt—what immediate adjustment do you make?",
+        "answer": "Immediately control their far hip with your free hand, blocking their hip escape motion. Drive your weight forward and down toward their upper body while maintaining crossface. Switch your passing angle to follow their hip movement rather than fighting against it. If they create significant space, consider transitioning to a different pass like the long step that capitalizes on the angle they've created."
+      },
+      {
+        "question": "How do you manage energy when facing a persistent knee shield that won't collapse?",
+        "answer": "Avoid burning energy pushing directly into a strong shield. Instead, create multiple angles of attack forcing them to constantly readjust. Use pressure waves—apply heavy pressure, release slightly to bait reactions, then capitalize on their adjustments. Switch between knee slice threats, smash pass setups, and long step opportunities. The goal is making them expend energy adjusting while you conserve energy through efficient positioning."
+      },
+      {
+        "question": "Your opponent partially escapes and recovers their knee shield after you nearly passed—how do you recover?",
+        "answer": "Immediately re-establish crossface control before they can optimize their shield position. Control their near arm to prevent underhook re-establishment. Don't abandon position—consolidate what you have before restarting the pass sequence. Address any grip they established during the scramble. Reset your base with knees wide, then systematically work to collapse the recovered shield using the same methodical approach."
+      }
+    ],
+    "decision_tree": [
+      {
+        "condition": "If opponent has strong knee shield with upper body control and underhook threat",
+        "actions": [
+          {
+            "technique": "Crossface Pass",
+            "target": "Side Control",
+            "probability": 55
+          },
+          {
+            "technique": "Smash Pass",
+            "target": "Side Control",
+            "probability": 50
+          }
+        ]
+      },
+      {
+        "condition": "If opponent extends knee shield too far creating space underneath",
+        "actions": [
+          {
+            "technique": "Knee Slice from Half",
+            "target": "Side Control",
+            "probability": 65
+          },
+          {
+            "technique": "Leg Weave Pass",
+            "target": "Side Control",
+            "probability": 55
+          }
+        ]
+      },
+      {
+        "condition": "If opponent attempts to establish deep underhook",
+        "actions": [
+          {
+            "technique": "Long Step Pass",
+            "target": "Side Control",
+            "probability": 60
+          },
+          {
+            "technique": "Underhook Pass",
+            "target": "Mount",
+            "probability": 50
+          }
+        ]
+      },
+      {
+        "condition": "If opponent's knee shield collapses or loses structural integrity",
+        "actions": [
+          {
+            "technique": "Smash Pass",
+            "target": "Side Control",
+            "probability": 70
+          },
+          {
+            "technique": "Side Control to North-South",
+            "target": "North-South",
+            "probability": 60
+          }
+        ]
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Driving straight into knee shield with chest creating perfect defensive frame",
+        "consequence": "Opponent maintains strong defensive structure and can easily re-guard or sweep",
+        "correction": "Angle body at 45 degrees to knee shield, apply pressure through shoulder into opponent's upper chest while controlling knee shield leg at ankle"
+      },
+      {
+        "error": "Allowing opponent to establish deep underhook on near side",
+        "consequence": "Bottom player gains offensive capabilities including old school sweep and back take options",
+        "correction": "Maintain heavy crossface pressure and control opponent's near arm with overhook or wrist control, never allowing deep underhook connection"
+      },
+      {
+        "error": "Staying static in position without applying pressure or creating reactions",
+        "consequence": "Opponent has time to optimize defensive structure and set up attacks",
+        "correction": "Apply pressure in waves, constantly adjusting grips and threatening different passing angles to force opponent into defensive compromises"
+      },
+      {
+        "error": "Overcommitting to pass attempt without securing upper body control first",
+        "consequence": "Opponent can use momentum against you for sweeps or re-guards",
+        "correction": "Establish crossface and shoulder pressure before attempting to clear knee shield, ensuring upper body is controlled throughout passing sequence"
+      },
+      {
+        "error": "Allowing knee shield to frame directly into shoulder creating maximum leverage",
+        "consequence": "Opponent's frame becomes extremely difficult to collapse or bypass",
+        "correction": "Keep knee shield shin below shoulder line by controlling ankle and applying downward pressure, or redirect shin across body rather than straight into shoulder"
+      },
+      {
+        "error": "Neglecting to control opponent's far hip during passing attempts",
+        "consequence": "Opponent can hip escape and recover full guard or create scrambles",
+        "correction": "Maintain connection to far hip with hand or knee throughout pass, preventing hip mobility and re-guard opportunities"
+      }
+    ],
+    "training_drills": [
+      {
+        "name": "Knee Shield Collapse Drill",
+        "description": "Bottom player maintains knee shield while top player practices collapsing the frame using shoulder pressure and ankle control. Top player works through proper angling and weight distribution to systematically break down the shield structure. Start with 50% resistance and gradually increase. Focus on maintaining base while applying progressive pressure.",
+        "duration": "5 minutes per partner"
+      },
+      {
+        "name": "Passing Sequence Flow Drill",
+        "description": "Start in knee shield half guard top. Top player chains together knee slice, smash pass, and long step attempts based on bottom player's defensive reactions. Bottom player provides intelligent resistance, creating realistic defensive frames without fully committing to sweeps. Emphasize smooth transitions between passing approaches.",
+        "duration": "6 minutes continuous flow"
+      },
+      {
+        "name": "Grip Fighting Battle Drill",
+        "description": "Both players focus exclusively on establishing dominant grips from knee shield top position. Top player works for crossface and ankle control while bottom player fights for underhook and collar grips. Reset after one player achieves dominant control position. Develops grip fighting awareness and hand speed specific to knee shield battles.",
+        "duration": "4 minutes rapid reset format"
+      },
+      {
+        "name": "Positional Sparring from Knee Shield",
+        "description": "Start in knee shield half guard top position with specific goal constraints. Top player must achieve side control or better position within 2 minutes. Bottom player must sweep or submit. Reset and switch roles. Track success rates to measure improvement over time.",
+        "duration": "2-minute rounds, 5-6 rounds per session"
+      }
+    ],
+    "related_content": [
+      {
+        "name": "Knee Shield Half Guard",
+        "relationship": "Hub position—this is the top perspective"
+      },
+      {
+        "name": "Half Guard",
+        "relationship": "Parent position—broader category"
+      },
+      {
+        "name": "Side Control",
+        "relationship": "Primary transition target from successful passing"
+      },
+      {
+        "name": "Knee Slice from Half",
+        "relationship": "Primary offensive transition technique"
+      },
+      {
+        "name": "Smash Pass",
+        "relationship": "Key passing technique for collapsing knee shield"
+      },
+      {
+        "name": "Deep Half Guard",
+        "relationship": "Common defensive transition from bottom player"
+      },
+      {
+        "name": "Lockdown",
+        "relationship": "Alternative defensive structure from half guard"
+      },
+      {
+        "name": "Long Step Pass",
+        "relationship": "Alternative passing approach bypassing knee shield"
+      },
+      {
+        "name": "Headquarters Position",
+        "relationship": "Related top control position with similar passing dynamics"
+      },
+      {
+        "name": "Mount",
+        "relationship": "Advanced transition target from underhook pass variations"
+      }
+    ],
+    "position_metrics": {
+      "retention_rate": {
+        "value": 70
+      },
+      "advancement_probability": {
+        "value": 58
+      },
+      "submission_probability": {
+        "value": 25
+      },
+      "average_time": "45-90 seconds for experienced passers, 2-3 minutes for beginners"
+    },
+    "transitions": [
+      {
+        "transition": "Knee Slice from Half",
+        "attempt_probability": 37
+      },
+      {
+        "transition": "Smash Pass",
+        "attempt_probability": 15
+      },
+      {
+        "transition": "Long Step Pass",
+        "attempt_probability": 7
+      },
+      {
+        "transition": "Underhook Pass",
+        "attempt_probability": 6
+      },
+      {
+        "transition": "Crossface Pass",
+        "attempt_probability": 12
+      },
+      {
+        "transition": "Leg Weave Pass",
+        "attempt_probability": 5
+      },
+      {
+        "transition": "Back Step Pass",
+        "attempt_probability": 7
+      },
+      {
+        "transition": "Body Lock Pass",
+        "attempt_probability": 7
+      },
+      {
+        "transition": "Knee Slice from Knee Shield",
+        "attempt_probability": 2
+      },
+      {
+        "transition": "Smash from Knee Shield",
+        "attempt_probability": 1
+      },
+      {
+        "transition": "Smash Pass from Knee Shield",
+        "attempt_probability": 1
+      }
+    ]
+  },
+  "bottom": {
+    "name": "Knee Shield Half Guard Bottom",
+    "description": "Master Knee Shield Half Guard Bottom in BJJ. Essential defensive half guard with knee shield barrier. Learn frames, sweeps, and retention with 80% defensive success rate for advanced practitioners.",
+    "tags": [
+      "bjj",
+      "position",
+      "half-guard",
+      "knee-shield",
+      "defensive",
+      "bottom",
+      "retention"
+    ],
+    "overview": "Knee Shield Half Guard Bottom is one of the most fundamental and effective defensive half guard positions in modern Brazilian Jiu-Jitsu. The position is characterized by the bottom practitioner using their top leg as a structural barrier (knee shield) pressed against the opponent's torso, creating critical distance and preventing the crushing pressure typical of flattened half guard positions. This knee shield creates a powerful frame that not only prevents the pass but also serves as a launching point for sweeps, back takes, and transitions to other guard systems. The position represents a perfect blend of defensive security and offensive potential, making it essential knowledge for practitioners at all levels.\n\nUnlike traditional half guard where the top player can establish heavy crossface and underhook control, the knee shield creates a fundamental structural problem for the passer. The bottom player's shin becomes a rigid barrier that prevents the top player from settling their weight and advancing their position. This distance allows the bottom player to work their grips, create angles, and maintain the mobility necessary for effective guard retention. The position is particularly effective in both gi and no-gi contexts, though grip fighting strategies differ significantly between the two.\n\nThe knee shield half guard has become a cornerstone position in modern competitive BJJ, with world-class competitors demonstrating its effectiveness at the highest levels. The position offers multiple pathways to success: maintaining retention against pressure passers, sweeping aggressive opponents, or transitioning to more offensive guard systems when opportunities arise. Understanding the knee shield is essential for developing a complete defensive guard game.",
+    "state_properties": {
+      "point_value": 0,
+      "position_type": "Defensive with offensive options",
+      "risk_level": "Low to Medium",
+      "energy_cost": "Medium",
+      "time_sustainability": "Medium to Long"
+    },
+    "state_invariants": [
+      "Bottom player's shin is pressed horizontally across opponent's torso/chest, creating a rigid barrier that prevents forward pressure and maintains critical distance between bodies",
+      "Bottom player's trapped leg remains positioned between opponent's legs in traditional half guard configuration, with the foot typically hooking behind opponent's far leg for additional control",
+      "Bottom player maintains at least one grip on opponent's sleeve, collar, or body, preventing them from controlling both arms and establishing dominant grips for passing sequences",
+      "Bottom player's hips remain mobile and not flattened to the mat, maintaining the ability to create angles, adjust the knee shield height, and generate movement for defensive and offensive purposes"
+    ],
+    "prerequisites": [
+      "One leg trapped between opponent's legs in half guard configuration",
+      "Ability to create sufficient space to insert knee shield barrier",
+      "Opponent attempting to pass or establish control from top half guard",
+      "Bottom player's hips not completely flattened to mat",
+      "Sufficient frame strength to maintain knee shield under pressure"
+    ],
+    "key_principles": [
+      "Maintain constant pressure outward with knee shield to create maximum distance and prevent opponent from settling weight",
+      "Keep hips mobile and ready to adjust angles—never allow hips to become completely flat or static against the mat",
+      "Control at least one of opponent's arms through grips to prevent them from establishing dominant passing grips",
+      "Use bottom leg actively to control opponent's posture and prevent them from standing or creating advantageous passing angles",
+      "Adjust knee shield height based on opponent's pressure—higher against standing passes, lower against knee slice attempts",
+      "Combine frames with hip movement to create angles for sweeps and prevent opponent from consolidating position",
+      "Maintain ready position for quick transitions to deep half, x-guard, or other guard systems when opportunities present"
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "Your opponent starts driving heavy pressure into your knee shield. What adjustment maintains your frame?",
+        "answer": "Brace your knee shield by keeping your shin at approximately 45 degrees across their chest while engaging your hip flexors to push outward. Support the frame with your elbow behind your knee for additional structural integrity. If they continue driving, hip escape away to create angle rather than absorbing pressure directly. Your free hand should frame on their shoulder or bicep to create secondary support."
+      },
+      {
+        "question": "What are the essential grips for maintaining knee shield half guard bottom?",
+        "answer": "Primary grip should control opponent's near arm—sleeve grip in gi, wrist control in no-gi—preventing them from establishing crossface. Secondary grip controls far collar or behind their head to manage distance and prevent posture. In no-gi, an overhook on their near arm combined with head control provides excellent retention. Never allow both your arms to be controlled simultaneously."
+      },
+      {
+        "question": "How do you shut down the opponent's knee slice attempt through your knee shield?",
+        "answer": "As they begin the knee slice, lower your knee shield and drive your shin into their hip or thigh rather than their chest—this blocks the slice angle. Simultaneously frame on their shoulder with your hand to prevent forward pressure. Hip escape away from the direction of their slice while maintaining your bottom leg hook. If they persist, transition to deep half by diving under their weight as they commit forward."
+      },
+      {
+        "question": "What grip priorities should you establish when entering knee shield from flat half guard?",
+        "answer": "First establish frame with near arm on their bicep or shoulder to create space for shield insertion. Second, hip escape and insert knee shield as high as possible across their chest. Third, establish collar or sleeve grip to prevent them from collapsing the newly established shield. Finally, secure your bottom leg hook behind their far leg. The sequence must be quick—any delay allows them to smash the shield before it's established."
+      },
+      {
+        "question": "How do you effectively threaten sweeps while maintaining defensive integrity?",
+        "answer": "Use your grips and hip movement to create sweep angles without fully committing your weight. Threaten the underhook sweep by attempting to swim for underhook, which forces opponent to defend and creates passing hesitation. Keep one hand ready to frame if the sweep fails. The threat of sweeps is often more valuable than the sweep itself—it prevents opponent from committing fully to passing, buying time for better opportunities."
+      },
+      {
+        "question": "Your opponent successfully flattens your knee shield slightly. What immediate recovery do you make?",
+        "answer": "Immediately frame on their shoulder with both hands and explosive hip escape away from them to recreate space. As space opens, re-insert your knee shield at the highest position possible. If they maintain pressure preventing re-insertion, transition to alternative guards—deep half if they're committed forward, butterfly or closed guard if they create distance. Never fight to maintain a compromised knee shield position."
+      },
+      {
+        "question": "How do you manage energy when defending persistent passing pressure from knee shield?",
+        "answer": "Rely on skeletal structure rather than muscle tension—your shin bone does the work, not your leg muscles. Use efficient hip escapes rather than pushing against their weight. Time your defensive movements to their pressure waves rather than maintaining constant tension. Create micro-rests by establishing strong frames then relaxing muscles while maintaining frame position. Attack periodically to make them defensive, creating recovery opportunities."
+      },
+      {
+        "question": "Your opponent stands up from knee shield top position. How do you immediately transition?",
+        "answer": "This is an opportunity, not a defensive crisis. Immediately hook their standing leg with your bottom leg and swim to X-guard or single leg X-guard by inverting your hips and establishing double hooks on their standing leg. Alternatively, elevate their standing leg with your knee shield while grabbing their ankle to enter technical stand-up or single leg attack. Standing creates space you can exploit—follow their hips with your hooks as they rise."
+      }
+    ],
+    "decision_tree": [
+      {
+        "condition": "If opponent attempts to smash knee shield down and flatten position with heavy pressure",
+        "actions": [
+          {
+            "technique": "Knee Shield Retention",
+            "target": "Knee Shield Half Guard",
+            "probability": 60
+          },
+          {
+            "technique": "Deep Half Entry",
+            "target": "Deep Half Guard",
+            "probability": 55
+          }
+        ]
+      },
+      {
+        "condition": "If opponent stands up to create passing angles or attempt standing passes",
+        "actions": [
+          {
+            "technique": "Single Leg X Entry",
+            "target": "Single Leg X-Guard",
+            "probability": 65
+          },
+          {
+            "technique": "Butterfly Guard to X-Guard",
+            "target": "X-Guard",
+            "probability": 55
+          }
+        ]
+      },
+      {
+        "condition": "If opponent commits to knee slice or attempts to step over knee shield",
+        "actions": [
+          {
+            "technique": "Old School Sweep",
+            "target": "Side Control",
+            "probability": 52
+          },
+          {
+            "technique": "Underhook Sweep from Half",
+            "target": "Side Control",
+            "probability": 48
+          }
+        ]
+      },
+      {
+        "condition": "If opponent establishes underhook and attempts to consolidate position",
+        "actions": [
+          {
+            "technique": "Kimura",
+            "target": "Kimura Trap",
+            "probability": 45
+          },
+          {
+            "technique": "Half Guard to Back Take",
+            "target": "Back Control",
+            "probability": 42
+          }
+        ]
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Allowing knee shield to collapse toward chest, reducing structural barrier",
+        "consequence": "Opponent can flatten position, establish crushing pressure, and advance to side control or mount",
+        "correction": "Maintain active outward pressure with knee shield, keeping shin parallel to mat and constantly pushing opponent away from centerline"
+      },
+      {
+        "error": "Failing to control opponent's arms through grips, allowing them freedom of movement",
+        "consequence": "Opponent can establish dominant grips like crossface and underhook, making passes significantly easier and limiting sweep options",
+        "correction": "Immediately establish sleeve, collar, or wrist control to prevent opponent from achieving advantageous grip configurations"
+      },
+      {
+        "error": "Keeping hips completely static and flat against mat without angle adjustment",
+        "consequence": "Position becomes purely defensive with limited sweep opportunities, opponent can methodically work passing sequences without fear of counters",
+        "correction": "Constantly adjust hip angles, create micro-movements, and maintain readiness to create sweeping angles or transition opportunities"
+      },
+      {
+        "error": "Positioning knee shield too high or too low for opponent's passing strategy",
+        "consequence": "Shield becomes ineffective—too high allows knee slice, too low allows opponent to step over and establish mount pressure",
+        "correction": "Dynamically adjust knee shield height based on opponent's passing approach—mid-chest against knee cuts, higher against pressure, lower against standing passes"
+      },
+      {
+        "error": "Neglecting bottom leg control and hook maintenance on opponent's far leg",
+        "consequence": "Opponent can easily extract their trapped leg, complete the pass to side control or establish dominant positions",
+        "correction": "Maintain active bottom leg hook behind opponent's far leg, using it to control their posture and prevent leg extraction"
+      },
+      {
+        "error": "Overcommitting to sweeps without proper setup or timing recognition",
+        "consequence": "Failed sweep attempts deplete energy, create passing opportunities for opponent, and can result in worse positions like mounted position",
+        "correction": "Develop patience in knee shield, wait for opponent's weight commitment or errors before attempting sweeps, maintain position security first"
+      }
+    ],
+    "training_drills": [
+      {
+        "name": "Knee Shield Retention Against Progressive Pressure",
+        "description": "Partner applies increasing pressure attempting to flatten knee shield. Practitioner maintains frames, adjusts angles, and uses hip movement to prevent collapse. Start at 50% pressure, increase to 100% over 5-minute rounds. Focus on maintaining structural integrity of knee shield under maximum pressure.",
+        "duration": "5 minutes per round, 3 rounds"
+      },
+      {
+        "name": "Grip Fighting Flow from Knee Shield",
+        "description": "Both practitioners work for dominant grips from knee shield half guard. Top player seeks crossface and underhook, bottom player prevents these while establishing sleeve/collar control. Reset when dominant position achieved. Develops grip awareness and hand fighting essential for position maintenance.",
+        "duration": "3 minutes per round, 4 rounds"
+      },
+      {
+        "name": "Sweep Timing Recognition Drill",
+        "description": "Top player alternates between different passing strategies (smash, knee slice, standing). Bottom player must recognize timing windows and execute appropriate sweep. Coach calls out passing type, practitioner responds with correct sweep option. Builds decision-making speed and sweep selection.",
+        "duration": "2 minutes per scenario, 6 scenarios"
+      },
+      {
+        "name": "Transition Chain Drilling",
+        "description": "From knee shield, practice flowing between deep half, x-guard, and standard half guard based on opponent's reactions. Partner provides moderate resistance and varies responses. Focus on seamless transitions maintaining control throughout movement sequences.",
+        "duration": "4 minutes continuous flow, 3 rounds"
+      }
+    ],
+    "related_content": [
+      {
+        "name": "Knee Shield Half Guard",
+        "relationship": "Hub position—this is the bottom perspective"
+      },
+      {
+        "name": "Half Guard",
+        "relationship": "Parent position—knee shield is specialized variant"
+      },
+      {
+        "name": "Deep Half Guard",
+        "relationship": "Common transition target from knee shield"
+      },
+      {
+        "name": "Lockdown",
+        "relationship": "Alternative half guard control method"
+      },
+      {
+        "name": "X-Guard",
+        "relationship": "Transition target when opponent stands"
+      },
+      {
+        "name": "Overhook Guard",
+        "relationship": "Related grip fighting concept for retention"
+      },
+      {
+        "name": "Old School Sweep",
+        "relationship": "Primary offensive technique from position"
+      },
+      {
+        "name": "Knee Slice from Half",
+        "relationship": "Most common passing threat to defend"
+      },
+      {
+        "name": "Flattened Half Guard",
+        "relationship": "Degraded position to avoid through active shield management"
+      }
+    ],
+    "position_metrics": {
+      "retention_rate": {
+        "value": 72
+      },
+      "advancement_probability": {
+        "value": 48
+      },
+      "submission_probability": {
+        "value": 28
+      },
+      "average_time": "1-3 minutes depending on skill differential and passing strategy"
+    },
+    "transitions": [
+      {
+        "transition": "Old School Sweep",
+        "attempt_probability": 9
+      },
+      {
+        "transition": "Underhook Sweep from Half",
+        "attempt_probability": 6
+      },
+      {
+        "transition": "Deep Half Entry",
+        "attempt_probability": 8
+      },
+      {
+        "transition": "Half Guard to Back Take",
+        "attempt_probability": 5
+      },
+      {
+        "transition": "Single Leg X Entry",
+        "attempt_probability": 6
+      },
+      {
+        "transition": "Lumberjack Sweep",
+        "attempt_probability": 5
+      },
+      {
+        "transition": "Kimura",
+        "attempt_probability": 4
+      },
+      {
+        "transition": "Knee Shield Retention",
+        "attempt_probability": 51
+      },
+      {
+        "transition": "Elevator Sweep",
+        "attempt_probability": 4
+      },
+      {
+        "transition": "Knee Shield Half Guard to Z-Guard",
+        "attempt_probability": 1
+      },
+      {
+        "transition": "Knee Shield to Closed Guard",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Underhook from Knee Shield",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Sweep from Knee Shield",
+        "attempt_probability": 1
+      }
+    ]
+  }
+}

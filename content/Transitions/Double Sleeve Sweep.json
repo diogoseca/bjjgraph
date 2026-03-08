@@ -1,0 +1,398 @@
+{
+  "name": "Double Sleeve Sweep",
+  "description": "Master the Double Sleeve Sweep in BJJ. Complete guide to executing and defending this high-percentage guard sweep from bilateral sleeve control to mount.",
+  "tags": [
+    "bjj",
+    "sweep",
+    "double-sleeve-guard",
+    "gi-technique",
+    "mount-entry",
+    "open-guard",
+    "bilateral-control",
+    "transition"
+  ],
+  "from_position": "Double Sleeve Guard/Bottom",
+  "outcomes": [
+    {
+      "to": "Mount/Top",
+      "probability": 55,
+      "result": "success"
+    },
+    {
+      "to": "Double Sleeve Guard/Bottom",
+      "probability": 30,
+      "result": "failure"
+    },
+    {
+      "to": "Open Guard/Bottom",
+      "probability": 15,
+      "result": "counter"
+    }
+  ],
+  "success_rate": 55,
+  "overview": "The Double Sleeve Sweep is a fundamental sweep from Double Sleeve Guard that exploits bilateral sleeve control to generate rotational force and off-balance the top player. By combining asymmetric sleeve pulls with strategic foot placement on the hips, the bottom player creates a push-pull dynamic that compromises the top player's base and directs their fall to one side. The sweep's effectiveness stems from controlling both arms simultaneously, which prevents the opponent from posting to stop the sweep and limits their ability to create a counterbalancing frame.\n\nThis sweep serves as the signature offensive technique from Double Sleeve Guard, differentiating it from the Tripod Sweep or Sickle Sweep through its reliance on upper body directional control rather than ankle hooks. The bilateral sleeve control provides a unique mechanical advantage: when one sleeve is pulled across the body while the opposite foot pushes the hip, the opponent faces a rotational force they cannot resist without freeing at least one arm. This creates a dilemma where grip fighting to free the arms opens the sweep, and maintaining defensive posture invites continued off-balancing pressure.\n\nAt intermediate and advanced levels, the Double Sleeve Sweep becomes the entry point for a broader sweep chain system. When the opponent defends the primary sweep direction by posting wide, the bottom player can redirect to an overhead sweep using both feet on hips. When the opponent drives forward to prevent the overhead, the scissor variation becomes available. This adaptability makes the sweep difficult to defend against skilled practitioners who can read weight distribution and redirect force accordingly.",
+  "conditions": [
+    "Bilateral sleeve grips established at or near the cuffs with secure pistol grips",
+    "At least one foot positioned on opponent's hip with the ball of the foot",
+    "Opponent within leg-pushing range from Double Sleeve Guard bottom position",
+    "Hips mobile and slightly elevated off the mat to enable rotation",
+    "Opponent's posture at least partially compromised through preliminary push-pull pressure"
+  ],
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Overhead Sweep Variant",
+      "description": "Both feet placed symmetrically on opponent's hips, pulling both sleeves overhead while extending legs upward to flip the opponent over your head. Requires strong bilateral grip and hip elevation to generate the lifting force needed for the overhead trajectory.",
+      "when_to_use": "When opponent drives forward aggressively or when they resist the lateral sweep by posting to the side, making the overhead direction the path of least resistance"
+    },
+    {
+      "variant_name": "Scissor Sweep Variation",
+      "description": "One shin placed across opponent's hip line as a horizontal barrier while the other leg kicks the near knee from the outside. Combined with the sleeve pull across the body, this creates a scissoring action that topples the opponent over the blocking shin.",
+      "when_to_use": "When opponent widens their base symmetrically to resist the standard push-pull sweep, making them vulnerable to the low leg attack on their knee line"
+    },
+    {
+      "variant_name": "No-Gi Wrist Control Adaptation",
+      "description": "Replace sleeve grips with two-on-one wrist control and elbow cups to maintain bilateral upper body control without gi grips. Same push-pull mechanics apply but with reduced grip security, requiring faster execution and more precise timing.",
+      "when_to_use": "When training or competing no-gi where sleeve grips are unavailable, requiring adaptation of the control mechanics to skin-on-skin contact points"
+    }
+  ],
+  "position_integration": "The Double Sleeve Sweep integrates into the Double Sleeve Guard system as the primary positional advancement tool, complementing the Armbar Setup from Double Sleeve and guard transitions to Spider Guard, Lasso Guard, and De La Riva Guard. Within the broader BJJ positional hierarchy, this sweep provides a direct path from open guard to mount, one of the largest point jumps available in competition. The sweep chains naturally with the Tripod Sweep and Sickle Sweep, sharing the open guard starting position and similar weight-distribution reads. Opponents who focus on defending this sweep open themselves to armbar setups or guard transition chains, creating the positional dilemma system that makes Double Sleeve Guard effective.",
+  "related_content": [
+    {
+      "name": "Double Sleeve Guard",
+      "relationship": "Source position providing the bilateral sleeve control framework for this sweep"
+    },
+    {
+      "name": "Mount",
+      "relationship": "Primary target position reached on successful sweep completion"
+    },
+    {
+      "name": "Open Guard",
+      "relationship": "Fallback position when opponent counters the sweep and breaks grip control"
+    },
+    {
+      "name": "Armbar Setup from Double Sleeve",
+      "relationship": "Complementary attack from same position creating sweep-submission dilemma"
+    },
+    {
+      "name": "Tripod Sweep",
+      "relationship": "Related sweep sharing open guard mechanics and similar weight-distribution reads"
+    },
+    {
+      "name": "Sickle Sweep",
+      "relationship": "Chain sweep option when opponent defends the Double Sleeve Sweep direction"
+    },
+    {
+      "name": "Scissor Sweep from Open Guard",
+      "relationship": "Similar sweeping mechanic using shin barrier combined with directional pull"
+    },
+    {
+      "name": "Spider Guard",
+      "relationship": "Natural guard transition when opponent extends arms during sweep defense"
+    },
+    {
+      "name": "Collar Sleeve Guard",
+      "relationship": "Alternative grip configuration sharing one sleeve control for mixed attacks"
+    },
+    {
+      "name": "Lasso Guard",
+      "relationship": "Guard transition option when opponent circles to defend the lateral sweep"
+    },
+    {
+      "name": "Flower Sweep",
+      "relationship": "Related sweep concept using directional off-balancing from guard bottom"
+    }
+  ],
+  "attacker": {
+    "name": "Double Sleeve Sweep Attacker",
+    "description": "Learn to execute the Double Sleeve Sweep from bottom guard. Step-by-step technique breakdown with timing cues, chain attack variations, and progressive drilling methods.",
+    "overview": "Executing the Double Sleeve Sweep requires mastery of the push-pull dynamic that bilateral sleeve control uniquely enables. The attacker uses both sleeve grips to simultaneously prevent the opponent from posting and to direct the force of the sweep, while feet on the hips provide the pushing power that generates rotational torque. The technique rewards practitioners who develop sensitivity to weight distribution, as the optimal sweep moment occurs when the opponent's center of gravity shifts past their base. At higher levels, the sweep becomes the first link in a chain system where each defensive response opens a different sweep variant, creating an unsolvable positional dilemma for the top player.",
+    "key_principles": [
+      "Maintain constant bilateral tension on both sleeves to prevent the opponent from posting or establishing defensive grips",
+      "Use feet on hips as dynamic levers that push, redirect, and create rotational force rather than serving as static distance frames",
+      "Generate sweeping power from core rotation and leg extension, not arm pulling - arms direct the force trajectory while hips and legs produce it",
+      "Time the sweep when opponent's weight shifts forward or laterally, amplifying existing momentum rather than overcoming static resistance",
+      "Maintain sleeve control throughout the entire sweep motion to prevent posting and ensure clean arrival in mount",
+      "Create asymmetric force vectors by pulling one sleeve across the body while pushing the opposite hip, generating irresistible rotational torque"
+    ],
+    "setup_requirements": [
+      "Secure pistol grips on both sleeves at or near the cuffs with four fingers inside the sleeve opening and thumb outside",
+      "Establish at least one foot on opponent's hip with the ball of the foot for dynamic pushing capability",
+      "Opponent must be on their knees or in combat base within range where feet can reach their hips effectively",
+      "Hips must be mobile and slightly off the mat, angled to facilitate the intended sweep direction",
+      "Opponent's posture should be compromised through initial push-pull pressure cycles before committing to the sweep"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Secure bilateral sleeve grips",
+        "description": "Establish pistol grips on both of opponent's sleeves at the cuffs, with four fingers inside the sleeve opening and thumb outside. Maintain constant pulling tension toward your hips with elbows bent at approximately 90 degrees and tight to your body. Grip depth should place your knuckles against the inside of the cuff for maximum purchase."
+      },
+      {
+        "step_number": 2,
+        "action": "Position feet on opponent's hips",
+        "description": "Place the balls of both feet on opponent's hip bones, creating a strong pushing frame that maintains distance and provides directional leverage. Keep legs bent at 45-90 degrees with knees pointed toward opponent's shoulders for maximum mechanical advantage and readiness to extend."
+      },
+      {
+        "step_number": 3,
+        "action": "Break opponent's posture with push-pull cycles",
+        "description": "Simultaneously pull both sleeves toward your chest while extending your legs to push opponent's hips away. This creates a concave bend in their spine that compromises their base and shifts their weight forward over their hands. Repeat two to three cycles to degrade their posture before committing to the sweep direction."
+      },
+      {
+        "step_number": 4,
+        "action": "Load the sweep direction",
+        "description": "Pull the sleeve on your sweep side across your centerline toward the opposite hip while maintaining tension on the other sleeve. Simultaneously shift your hips slightly toward the sweep side, creating the angle needed for rotational force generation. Your body should form a diagonal line pointing in the intended sweep direction."
+      },
+      {
+        "step_number": 5,
+        "action": "Execute the asymmetric off-balance",
+        "description": "Push forcefully with the foot on the hip opposite to your sweep direction while pulling the cross-body sleeve downward toward the mat on the sweep side. The foot on the sweep side kicks outward and downward, removing the opponent's base on that side. The combined diagonal forces create rotational torque the opponent cannot resist."
+      },
+      {
+        "step_number": 6,
+        "action": "Follow through to mount",
+        "description": "As the opponent falls to the side, maintain both sleeve grips and immediately sit up following their body to the mat. Bring your hips over their torso and establish mount position with your knees on either side. Keep sleeve control during the transition to prevent them from framing or recovering guard."
+      },
+      {
+        "step_number": 7,
+        "action": "Consolidate mount position",
+        "description": "Once arriving in mount, settle your weight through your hips onto opponent's solar plexus region. Maintain at least one sleeve grip to prevent immediate framing while posting the other hand for balance if needed. Transition your mindset from sweep-momentum to mount-control by establishing base width before initiating any attacks."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Opponent posts free hand wide on the sweep side to block the directional fall",
+        "effectiveness": "High",
+        "your_response": "Switch sweep direction immediately to attack the now-unprotected opposite side, or transition to overhead sweep variant using both feet on hips",
+        "targets_outcome": "Double Sleeve Guard/Bottom"
+      },
+      {
+        "counter": "Opponent drives forward aggressively to flatten your guard structure",
+        "effectiveness": "Medium",
+        "your_response": "Accept their forward momentum and redirect into the overhead sweep by extending both legs upward while pulling sleeves past your head",
+        "targets_outcome": "Double Sleeve Guard/Bottom"
+      },
+      {
+        "counter": "Opponent pulls arms back forcefully to strip sleeve grips",
+        "effectiveness": "High",
+        "your_response": "Follow their backward pull by sitting up toward technical standup, or re-grip immediately before they reset posture and establish their own passing grips",
+        "targets_outcome": "Open Guard/Bottom"
+      },
+      {
+        "counter": "Opponent widens base and drops weight low to prevent any off-balancing",
+        "effectiveness": "Medium",
+        "your_response": "Transition to scissor sweep variant by placing one shin across their hip line while maintaining sleeve control for the directional pull against their widened but elevated base",
+        "targets_outcome": "Double Sleeve Guard/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Pulling with arms only instead of using core rotation and leg extension to generate sweep force",
+        "consequence": "Sweep lacks power, opponent easily resists the attempt, and forearms fatigue rapidly from isolated arm pulling",
+        "correction": "Generate sweep force through hip rotation and leg extension while arms simply direct the opponent's fall trajectory along the intended diagonal path"
+      },
+      {
+        "error": "Releasing one sleeve grip during the sweep attempt before mount is established",
+        "consequence": "Opponent posts the freed hand immediately, halting the sweep momentum and potentially initiating a guard pass",
+        "correction": "Maintain both sleeve grips throughout the entire sweep motion, only releasing after mount position is fully consolidated with hips settled"
+      },
+      {
+        "error": "Attempting the sweep with hips flat on the mat and no lateral angle",
+        "consequence": "No rotational power generated, sweep attempt is telegraphed and easily defended with a simple weight shift",
+        "correction": "Elevate hips off the mat and angle them toward the sweep direction before committing, loading rotational energy that releases on extension"
+      },
+      {
+        "error": "Failing to follow through after successfully off-balancing opponent",
+        "consequence": "Opponent recovers base mid-sweep, returning to combat base or standing with posture restored",
+        "correction": "Commit fully to following the sweep by sitting up immediately as opponent's base breaks and driving hips over their body to secure mount"
+      },
+      {
+        "error": "Sweeping without first breaking opponent's posture through push-pull cycles",
+        "consequence": "Opponent's strong upright posture absorbs the off-balancing force and they maintain base throughout the attempt",
+        "correction": "Use two to three push-pull cycles to degrade posture before committing to the sweep, targeting the moment their weight shifts forward"
+      },
+      {
+        "error": "Feet positioned too high on opponent's chest instead of directly on the hip bones",
+        "consequence": "Reduced mechanical leverage for pushing, feet slide during the sweep attempt, and opponent can trap or redirect the feet",
+        "correction": "Place feet directly on hip bones where maximum pushing leverage exists through stable bone-to-bone contact"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Mechanics",
+        "focus": "Solo and cooperative drilling of sweep mechanics",
+        "description": "Practice the push-pull timing with a cooperative partner at zero resistance. Focus on grip placement at the cuffs, foot positioning on hips, and the asymmetric force generation sequence. Partner allows the sweep to completion including the follow-through to mount to build full-motion muscle memory."
+      },
+      {
+        "phase": "Phase 2: Timing",
+        "focus": "Reading opponent's weight distribution for optimal sweep moments",
+        "description": "Partner provides 30-50% resistance with natural posture adjustments and weight shifts. Practice identifying the optimal sweep moment when opponent's center of gravity moves past their base. Develop sensitivity to the weight shift cues that signal when the sweep will be most effective."
+      },
+      {
+        "phase": "Phase 3: Chain attacks",
+        "focus": "Linking sweep variants based on defensive reactions",
+        "description": "Practice flowing between the primary lateral sweep, the overhead variant, and the scissor variant based on partner's specific defensive reactions. Partner provides 70% resistance and uses designated counters including posting, driving forward, and widening base. Focus on reading which variant opens based on each defense."
+      },
+      {
+        "phase": "Phase 4: Live application",
+        "focus": "Competition-pace integration against full resistance",
+        "description": "Full resistance positional sparring starting from Double Sleeve Guard. Apply the sweep and all variants against resisting opponents using real passing strategies. Focus on integrating the sweep threat within the broader double sleeve attacking system including armbar setups and guard transitions."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the optimal timing window for attempting the Double Sleeve Sweep?",
+        "answer": "The optimal timing is when the opponent's weight shifts forward during a grip breaking attempt or when they lean laterally during a passing entry. Their weight shift creates momentum you can redirect rather than fighting static resistance. Watch for the moment their hips shift past their knees, which is when their base is most compromised and the push-pull mechanics generate maximum force."
+      },
+      {
+        "question": "What grip configuration must be established before committing to the sweep?",
+        "answer": "Both sleeves must be controlled at or near the cuffs with pistol grips where four fingers are inside the sleeve opening. Grip depth is critical as knuckles should contact the inside of the cuff for maximum purchase. Both grips must be secure enough to withstand pulling forces during the sweep without slipping, because a weak or high grip on either sleeve allows the opponent to post and neutralize the attempt."
+      },
+      {
+        "question": "What is the critical hip movement that generates the primary sweeping power?",
+        "answer": "The hips must rotate toward the sweep direction while elevating off the mat, creating torquing force that combines with the leg push and sleeve pull. The rotation originates from the core and transfers through the legs rather than being an arm-pulling motion. The hips should shift laterally six to eight inches toward the sweep side before the final kick, loading rotational energy that releases when the sweeping leg extends and the cross-body sleeve pulls downward."
+      },
+      {
+        "question": "Your opponent posts their hand wide when they sense the sweep direction - how do you adjust?",
+        "answer": "Immediately redirect the sweep to the opposite direction where they no longer have a post, since the posting hand was freed from your sleeve grip. Alternatively, transition to the overhead sweep variant by placing both feet on hips and extending upward while pulling sleeves overhead. The key is reading the post instantly and switching directions before they can settle their weight and reposition their base."
+      },
+      {
+        "question": "What are the entry requirements that must exist before this sweep can succeed?",
+        "answer": "Five conditions are required: secure bilateral sleeve grips at the cuffs, at least one foot positioned on the opponent's hip, opponent within effective leg-pushing range, hips mobile and elevated off the mat, and opponent's posture at least partially compromised through preliminary push-pull pressure. Attempting the sweep without all five conditions reduces success probability dramatically because each element contributes a necessary component of the off-balancing force."
+      },
+      {
+        "question": "In which direction should force be applied for maximum sweeping effectiveness?",
+        "answer": "Force should be applied diagonally. The sleeve pull goes across your body and downward toward the mat on the sweep side while the foot push goes in the opposite direction at approximately 45 degrees upward and away. This creates rotational torque around the opponent's center of mass rather than a linear push they can resist by leaning back. The diagonal force vectors are harder to counter because they attack the base from multiple angles simultaneously."
+      },
+      {
+        "question": "Your opponent drives forward aggressively when you establish double sleeve grips - what sweep opens up?",
+        "answer": "Their forward drive is the ideal setup for the overhead sweep variant. Accept their momentum by pulling your knees toward your chest, place both feet firmly on their hips, then extend your legs explosively upward and backward while pulling their sleeves past your head. Their forward energy becomes the primary sweeping force rather than something you must overcome. This makes the overhead variant the highest-percentage option against aggressive forward pressure."
+      },
+      {
+        "question": "What happens to your attack chain when the opponent successfully defends the initial sweep direction?",
+        "answer": "The chain flows based on their defensive reaction. If they post to stop the lateral sweep, switch to the overhead variant targeting their now-elevated posture. If they sit back to prevent the overhead, their backward weight shift reopens the primary asymmetric sweep. If they widen their base symmetrically, the scissor variant using a shin across their hip becomes available. Maintaining sleeve control throughout defensive adjustments is essential so you can immediately redirect to the next chain option."
+      }
+    ],
+    "safety_considerations": "The Double Sleeve Sweep is a low-risk technique with minimal injury potential for both practitioners. Primary safety concerns involve controlled landings when completing the sweep - guide your partner to the mat rather than slamming them. Wrist strain can occur from aggressive grip fighting, so release grips if your partner signals discomfort. During drilling, execute sweeps at controlled speed to prevent training partners from landing awkwardly on shoulders or head. Always practice on properly matted surfaces and communicate with your partner about sweep intensity."
+  },
+  "defender": {
+    "name": "Double Sleeve Sweep Defender",
+    "description": "Defend against the Double Sleeve Sweep in BJJ. Recognition cues, counter-strategies, and grip breaking techniques to neutralize this bilateral sleeve guard sweep.",
+    "overview": "Defending the Double Sleeve Sweep requires immediate recognition of the bilateral sleeve control threat and systematic grip breaking before the bottom player generates sweeping momentum. The top player's primary objective is preventing the push-pull dynamic from developing by maintaining strong upright posture, breaking grips proactively, and denying foot placement on the hips. When the sweep is initiated, posting the hand wide on the sweep side and driving weight forward are the most effective emergency responses. Understanding the sweep's mechanics reveals its core vulnerabilities: it requires both sleeve grips, foot-on-hip contact, and a rotational angle. Removing any one of these three elements neutralizes the threat entirely, giving the defender multiple defensive pathways to choose from based on timing and positioning.",
+    "key_principles": [
+      "Break sleeve grips systematically before the bottom player can establish the push-pull framework that powers the sweep",
+      "Maintain strong upright posture with hips back and chest forward to resist forward pulling forces",
+      "Deny foot placement on hips by controlling opponent's legs or maintaining close pressure distance",
+      "Post immediately and wide when you feel rotational force developing to create a structural block",
+      "Drive weight forward and low when the overhead sweep variant is threatened to prevent leg elevation",
+      "Address the sweep threat at the earliest stage rather than waiting for full commitment before reacting"
+    ],
+    "recognition_cues": [
+      "Opponent pulls both sleeves toward their chest while extending legs against your hips, creating a distinctive stretching sensation through your upper body",
+      "One sleeve is pulled sharply across opponent's body toward the opposite hip while the other sleeve maintains directional tension",
+      "Opponent's hips shift laterally off-center and elevate slightly off the mat, indicating loading for a directional sweep",
+      "Asymmetric foot pressure develops where one foot pushes harder on your hip while the other foot repositions or begins to kick outward"
+    ],
+    "defensive_options": [
+      {
+        "action": "Post hand wide on the sweep side and drive forward to block the rotational path",
+        "when_to_use": "When you feel the asymmetric pull beginning and your balance is being compromised to one side",
+        "targets_outcome": "Double Sleeve Guard/Bottom",
+        "if_successful": "Sweep is neutralized and you maintain top position with opportunity to initiate grip break and passing sequence",
+        "risk": "If you post with a hand still controlled by sleeve grip, opponent may redirect into armbar or triangle setup"
+      },
+      {
+        "action": "Break one sleeve grip using wrist rotation toward their thumb combined with elbow posting",
+        "when_to_use": "Before the sweep develops momentum, ideally when you first feel bilateral tension on your sleeves",
+        "targets_outcome": "Open Guard/Bottom",
+        "if_successful": "Bottom player loses the bilateral control needed for any sweep variant and you can initiate your preferred passing sequence",
+        "risk": "During the grip break, temporary one-handed base may allow a different sweep attempt if timed poorly by you"
+      },
+      {
+        "action": "Drive weight low and forward while widening base to compress the guard",
+        "when_to_use": "When opponent loads the overhead sweep variant with both feet on hips pushing upward",
+        "targets_outcome": "Double Sleeve Guard/Bottom",
+        "if_successful": "Forward pressure collapses their guard structure and prevents the elevation needed for the overhead variant",
+        "risk": "Driving forward into double sleeve control can expose you to triangle setups if opponent redirects one sleeve across your neck"
+      },
+      {
+        "action": "Circle laterally away from the sweep direction to remove the angle",
+        "when_to_use": "When you recognize the asymmetric loading early and have time to move before full sweep commitment",
+        "targets_outcome": "Double Sleeve Guard/Bottom",
+        "if_successful": "Removes the angle the bottom player needs for rotational force and may create a passing opportunity",
+        "risk": "Circling without first breaking grips may walk you into a redirected sweep to the opposite side"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Double Sleeve Guard/Bottom",
+        "how": "Break at least one sleeve grip before the sweep develops momentum and maintain strong upright posture throughout. Post immediately on the sweep side if off-balanced. Drive weight forward to prevent elevation while systematically working grip breaks."
+      },
+      {
+        "outcome": "Open Guard/Bottom",
+        "how": "Aggressively strip both sleeve grips using two-on-one grip breaks with wrist rotation and hip movement. Once bilateral control is broken, immediately establish your own control grips on their pants or ankles and begin a passing sequence before they can re-grip your sleeves."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Leaning forward with rounded posture when sleeves are being pulled toward bottom player",
+        "consequence": "Dramatically increases susceptibility to the sweep because forward weight shift provides the exact momentum the bottom player needs to complete the rotation",
+        "correction": "Maintain upright posture with chest forward and hips back, using core engagement to resist the forward pull rather than arm strength alone"
+      },
+      {
+        "error": "Attempting to break both sleeve grips simultaneously by pulling both arms back",
+        "consequence": "Compromises base by removing both posting hands from the equation, creating an easy sweep opportunity for the bottom player",
+        "correction": "Break grips one at a time using proper mechanics, maintaining base and a posting hand with the free arm while working each grip break individually"
+      },
+      {
+        "error": "Ignoring the initial push-pull pressure cycles and waiting until the sweep is fully committed before reacting",
+        "consequence": "By the time the rotational force fully develops, posting may not be fast enough to prevent the sweep from completing",
+        "correction": "Address the threat at the earliest stage by breaking grips or adjusting posture as soon as bilateral sleeve tension and foot-on-hip pressure are detected"
+      },
+      {
+        "error": "Standing tall without controlling opponent's legs when attempting to create distance",
+        "consequence": "Creates additional leverage for the bottom player's feet on hips and makes the overhead sweep variant particularly effective",
+        "correction": "When standing, immediately control opponent's pants at the knees or ankles to limit their leg mobility and reduce the effectiveness of hip-based pushing"
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What are the earliest recognition cues that a Double Sleeve Sweep is being set up?",
+        "answer": "The earliest cues are bilateral pulling tension on both sleeves combined with foot placement on your hips. Before the actual sweep, the bottom player tests your posture with push-pull cycles, pulling sleeves toward their chest while extending legs. When you feel this stretching sensation and notice their hips shifting off-center, the sweep setup is in progress. Early recognition at this stage allows grip breaking before any sweep momentum develops."
+      },
+      {
+        "question": "Which defensive response takes highest priority when you feel the sweep beginning?",
+        "answer": "Posting the hand wide on the sweep side takes highest priority because it directly addresses the immediate threat of being toppled. Even if you cannot break grips, a strong post prevents the sweep from completing. Post with your palm flat on the mat, arm extended, on the side toward which you feel yourself being directed. This buys time to address the grip situation and rebuild your base from a stable position."
+      },
+      {
+        "question": "How do you prevent the overhead sweep variant when opponent has both feet on your hips?",
+        "answer": "Drive your weight forward and down while pulling your elbows toward your ribs to compress the distance between you and the bottom player. The overhead sweep requires the bottom player to elevate you with their legs, which becomes impossible when your weight is driven forward past your knees. Additionally, step one knee forward between their legs to eliminate the parallel foot placement they need for the overhead variation to generate lifting force."
+      },
+      {
+        "question": "Your opponent redirects to the opposite sweep direction after your initial post - what adjustment do you make?",
+        "answer": "Immediately transfer your post to the new sweep side while simultaneously attempting to break the sleeve grip on that side using wrist rotation. Use hip rotation to face the new direction of force. The key insight is that the redirect requires the bottom player to reload the sweep mechanics, which takes a fraction of a second. Use this window to break a grip or drive forward before the new sweep direction can fully develop its rotational force."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Recognition",
+        "focus": "Identifying sweep setups through tactile and visual cues",
+        "description": "Partner sets up the Double Sleeve Sweep at slow speed without completing it. Practice feeling the bilateral tension, recognizing hip shifts, and identifying asymmetric foot pressure patterns. Call out the sweep direction before partner commits to build pattern recognition."
+      },
+      {
+        "phase": "Phase 2: Reactive defense",
+        "focus": "Posting and posture maintenance under progressive resistance",
+        "description": "Partner attempts the sweep at 50-70% speed and power. Practice posting on the sweep side, grip breaking mechanics, and posture maintenance as primary defensive tools. Focus on developing an immediate posting response when sweep force is detected rather than hesitating."
+      },
+      {
+        "phase": "Phase 3: Proactive prevention",
+        "focus": "Preventing the sweep setup through aggressive grip fighting",
+        "description": "Partner attempts to establish double sleeve grips and set up the sweep from the beginning. Practice proactive grip fighting to prevent bilateral control from being established. Work on breaking grips before the push-pull framework can develop its full off-balancing pressure."
+      },
+      {
+        "phase": "Phase 4: Counter-offensive",
+        "focus": "Converting sweep defense into passing opportunities",
+        "description": "Full resistance positional sparring where successful sweep defense launches directly into guard passing sequences. After defending the sweep and breaking bilateral grips, immediately transition to your preferred passing strategy before opponent can re-establish double sleeve control."
+      }
+    ]
+  }
+}

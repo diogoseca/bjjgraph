@@ -1,0 +1,399 @@
+{
+  "name": "Smash Pocket Half",
+  "description": "Master the Smash Pocket Half pass in BJJ. Pressure-based technique to neutralize the deep underhook pocket half guard and flatten the opponent for passing.",
+  "tags": [
+    "bjj",
+    "transition",
+    "guard-pass",
+    "pressure-passing",
+    "half-guard",
+    "smash-pass",
+    "pocket-half-guard"
+  ],
+  "from_position": "Pocket Half Guard/Top",
+  "outcomes": [
+    {
+      "to": "Flattened Half Guard/Top",
+      "probability": 55,
+      "result": "success"
+    },
+    {
+      "to": "Pocket Half Guard/Top",
+      "probability": 30,
+      "result": "failure"
+    },
+    {
+      "to": "Half Guard/Bottom",
+      "probability": 15,
+      "result": "counter"
+    }
+  ],
+  "success_rate": 55,
+  "overview": "The Smash Pocket Half is a pressure-based transitional technique used from Pocket Half Guard Top to neutralize the bottom player's deep underhook advantage and collapse their pocket frame. Unlike general smash passes that work from standard half guard configurations, this technique specifically targets the structural elements that make Pocket Half Guard dangerous - the deep underhook reaching across the back and the active hip frame that creates sweeping leverage. By systematically eliminating these control points through directed pressure, the top player transitions the position into a Flattened Half Guard where conventional passing becomes significantly easier.\n\nThe technique centers on redirecting chest pressure to collapse the pocket space while simultaneously stripping or neutralizing the bottom player's underhook. This requires coordinated application of crossface pressure, shoulder driving force, and hip control that overwhelms the bottom player's ability to maintain their offensive structure. The smash is not a single explosive movement but rather a progressive compression that methodically removes each element of the pocket configuration - first the hip frame, then the underhook depth, and finally the bottom player's angle on the mat.\n\nStrategically, the Smash Pocket Half serves as a critical link in pressure-passing chains from half guard. When the bottom player establishes a strong pocket position that resists conventional knee slice or underhook passes, the smash provides an alternative pathway that uses overwhelming pressure to reset the positional dynamic. Advanced practitioners use this technique as a setup for subsequent passes by first removing the pocket advantages before transitioning to their preferred passing sequence from the resulting flattened position.",
+  "conditions": [
+    "Top player has established Pocket Half Guard Top position with at least partial underhook control",
+    "Bottom player has active deep underhook and hip frame creating pocket space",
+    "Top player has sufficient weight distribution to apply downward smashing pressure",
+    "Bottom player's knee shield is not fully established or has been partially neutralized",
+    "Top player has head position on crossface side to support pressure application"
+  ],
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Shoulder Drive Smash",
+      "description": "Emphasizes driving the shoulder directly into the bottom player's chin and jaw line while simultaneously pulling with the underhook to collapse their frame. The shoulder acts as the primary pressure tool, redirecting the bottom player's head away and compromising their ability to maintain underhook depth.",
+      "when_to_use": "When the bottom player's head is accessible and their underhook is moderately deep but not fully locked behind the back"
+    },
+    {
+      "variant_name": "Hip Switch Smash",
+      "description": "Uses a deliberate hip switching motion to change the angle of pressure from straight down to diagonal, catching the bottom player's frame at an angle where it provides less structural support. The top player switches from chest-to-chest pressure to driving the hip into the bottom player's near thigh while maintaining upper body control.",
+      "when_to_use": "When the bottom player has a strong frontal pocket frame that resists direct downward pressure"
+    },
+    {
+      "variant_name": "Crossface-First Smash",
+      "description": "Prioritizes establishing dominant crossface control before committing to the smash. The top player first fights to get their forearm across the bottom player's face, turning their head away, which weakens the underhook connection before applying the full smashing pressure sequence.",
+      "when_to_use": "When the bottom player has excellent underhook depth and the direct smash is likely to be countered by sweep attempts"
+    }
+  ],
+  "position_integration": "The Smash Pocket Half occupies a specialized niche in the half guard passing hierarchy, serving as the designated response when conventional passes are stalled by a well-established pocket half guard. It connects the Pocket Half Guard position to the Flattened Half Guard position, creating a two-step passing pathway: first smash the pocket to flatten, then use flattened half guard passes to complete to side control. This technique chains naturally with the Cross Face Pass from Flattened Half, Complete Pass from Flattened Half, and Knee Slide from Flattened Half as follow-up techniques once the pocket has been collapsed.",
+  "related_content": [
+    {
+      "name": "Pocket Half Guard",
+      "relationship": "Source position - the pocket configuration this technique targets"
+    },
+    {
+      "name": "Flattened Half Guard",
+      "relationship": "Target position on success - pocket collapsed into flattened configuration"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Parent position category for both source and target positions"
+    },
+    {
+      "name": "Side Control",
+      "relationship": "Ultimate passing target after completing subsequent pass from flattened position"
+    },
+    {
+      "name": "Deep Half Guard",
+      "relationship": "Common counter-transition the bottom player may attempt during the smash"
+    },
+    {
+      "name": "Pocket Half Pass",
+      "relationship": "Alternative passing technique from the same starting position"
+    },
+    {
+      "name": "Pass Pocket Half",
+      "relationship": "Related passing approach that addresses pocket half guard differently"
+    },
+    {
+      "name": "Complete Pass from Flattened Half",
+      "relationship": "Follow-up technique to complete the pass after successful smash"
+    },
+    {
+      "name": "Cross Face Pass from Flattened Half",
+      "relationship": "Alternative follow-up pass using crossface from the flattened position"
+    },
+    {
+      "name": "Smash Pass from Knee Shield",
+      "relationship": "Related smash technique applied to different half guard variation"
+    },
+    {
+      "name": "Knee Shield Half Guard",
+      "relationship": "Position the bottom player may recover to if pocket is partially neutralized"
+    }
+  ],
+  "attacker": {
+    "name": "Smash Pocket Half Attacker",
+    "description": "Master the attacking mechanics of the Smash Pocket Half. Step-by-step guide to collapsing the pocket half guard through systematic pressure application and underhook neutralization.",
+    "overview": "As the attacker executing the Smash Pocket Half, your objective is to systematically dismantle the bottom player's pocket half guard structure through progressive pressure application. The pocket half guard is defined by the bottom player's deep underhook and active hip frame, and your goal is to eliminate both control points by driving heavy chest pressure while stripping or compromising the underhook. Success requires patience and methodical execution rather than explosive force - each component of the pocket must be addressed in sequence to prevent the bottom player from recovering or countering with sweeps.",
+    "key_principles": [
+      "Prioritize collapsing the pocket space before attempting to strip the underhook - removing the hip frame first weakens underhook effectiveness",
+      "Use skeletal alignment and body weight rather than muscular effort to generate sustained crushing pressure throughout the technique",
+      "Maintain constant crossface pressure to prevent the bottom player from turning into the underhook and generating sweep angles",
+      "Progress systematically through the smash sequence - rushing invites counters from the bottom player's active pocket position",
+      "Control the bottom player's free arm to prevent frames that could recreate pocket space during the compression",
+      "Keep your base wide during the smash to prevent sweep counters that exploit weight commitment",
+      "Coordinate upper body pressure with lower body hip control to create a unified compressive force"
+    ],
+    "setup_requirements": [
+      "Established Pocket Half Guard Top position with chest connected to opponent's upper torso",
+      "Head positioned on the crossface side opposite the underhook, with forehead or temple driving into opponent's jaw",
+      "Free arm controlling opponent's near arm or posted for base, ready to transition to crossface grip",
+      "Hips low and connected to opponent's body with trapped leg secure between opponent's legs",
+      "Weight distributed forward through chest and shoulders rather than on knees or hands"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Establish heavy chest connection",
+        "description": "Lower your entire chest weight directly onto the opponent's upper torso, driving your sternum into their chest. Eliminate any gap between your bodies by sinking your weight through your ribs and pectoral muscles rather than supporting yourself on your elbows or hands. This initial pressure begins collapsing the pocket space."
+      },
+      {
+        "step_number": 2,
+        "action": "Drive crossface pressure",
+        "description": "Position your head on the opposite side from the opponent's underhook and drive your forehead or temple into their jaw, turning their head away from the underhook side. This disrupts their ability to reinforce the underhook with head pressure and begins separating their shoulder connection to your body."
+      },
+      {
+        "step_number": 3,
+        "action": "Collapse the hip frame",
+        "description": "Use your near-side hip to drive into the opponent's bottom leg frame, eliminating the pocket space they created with their foot against your hip. Drop your hip weight directly onto their thigh while maintaining chest pressure, removing the structural wedge that gave them sweeping leverage."
+      },
+      {
+        "step_number": 4,
+        "action": "Strip or neutralize the underhook",
+        "description": "With the pocket space collapsed and crossface established, use your free hand to either strip the opponent's underhook grip by peeling their hand off your back, or drive your shoulder deeper to pin their arm against their body. The key is eliminating their underhook as a pulling mechanism for sweeps."
+      },
+      {
+        "step_number": 5,
+        "action": "Flatten the opponent's hips",
+        "description": "Drive your near-side knee toward the mat while maintaining chest pressure to force the opponent's hips flat to the ground. Their angle on the mat was maintaining offensive potential - removing this angle eliminates sweep threats and transitions the position toward flattened half guard."
+      },
+      {
+        "step_number": 6,
+        "action": "Pin the near shoulder",
+        "description": "Use your crossface arm to pin the opponent's near shoulder to the mat, preventing them from turning back to their side or recovering the pocket position. The crossface pressure combined with shoulder pinning completes the transition to a flattened half guard configuration."
+      },
+      {
+        "step_number": 7,
+        "action": "Consolidate Flattened Half Guard",
+        "description": "Settle your weight into the new flattened half guard position, ensuring the opponent cannot recover their underhook, hip frame, or angle. Widen your base with your free leg and maintain forward pressure through your chest. From here, you are positioned to execute subsequent passes to side control."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Bottom player deepens underhook and threatens Old School sweep during pressure application",
+        "effectiveness": "High",
+        "your_response": "Immediately widen your base on the far side and lower your hips to prevent the sweep angle. If the underhook is too deep, abandon the smash and address the sweep threat before re-attempting.",
+        "targets_outcome": "Half Guard/Bottom"
+      },
+      {
+        "counter": "Bottom player scoots hips underneath for Deep Half Guard entry as you commit weight forward",
+        "effectiveness": "High",
+        "your_response": "Sprawl your hips back immediately and drive your trapped knee to the mat. If they establish deep half, you must abandon the smash and address the new guard position before it becomes established.",
+        "targets_outcome": "Pocket Half Guard/Top"
+      },
+      {
+        "counter": "Bottom player frames with free arm against your shoulder or hip to maintain pocket distance",
+        "effectiveness": "Medium",
+        "your_response": "Use your free hand to pin their framing arm to their body before continuing the smash sequence. Control their wrist or elbow to prevent re-establishment of the frame.",
+        "targets_outcome": "Pocket Half Guard/Top"
+      },
+      {
+        "counter": "Bottom player bridges explosively to create space and recover pocket position",
+        "effectiveness": "Medium",
+        "your_response": "Ride the bridge by maintaining chest connection and widening your base rather than fighting the lift. Wait for them to return to the mat, then immediately re-apply pressure and continue the smash progression.",
+        "targets_outcome": "Pocket Half Guard/Top"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Attempting to strip the underhook before collapsing the pocket space and hip frame",
+        "consequence": "Bottom player uses intact hip frame and pocket leverage to initiate sweep when you lift weight to fight the underhook",
+        "correction": "Always collapse the pocket space first by driving hip pressure into their thigh frame before addressing the underhook - remove the foundation before the structure"
+      },
+      {
+        "error": "Supporting weight on hands or elbows instead of sinking chest weight onto opponent",
+        "consequence": "Insufficient pressure allows bottom player to maintain pocket space, hip mobility, and offensive options",
+        "correction": "Drop your entire chest weight onto the opponent's torso using skeletal alignment rather than muscular support - let gravity and body positioning create the pressure"
+      },
+      {
+        "error": "Neglecting crossface pressure while focusing on the underhook battle",
+        "consequence": "Bottom player turns into the underhook freely, generating sweep angles and maintaining pocket structure",
+        "correction": "Establish crossface pressure first to turn the opponent's head away, which structurally weakens their underhook before you attempt to strip it"
+      },
+      {
+        "error": "Rushing the smash sequence with explosive movements rather than progressive compression",
+        "consequence": "Creates openings for sweeps as sudden weight shifts compromise base, and bottom player capitalizes on the momentum change",
+        "correction": "Apply the smash as a slow, methodical compression where each step is consolidated before progressing to the next element"
+      },
+      {
+        "error": "Keeping a narrow base with both knees close together during the smash",
+        "consequence": "Highly vulnerable to sweep attempts as the narrow base provides minimal resistance to lateral force",
+        "correction": "Maintain a wide triangular base with your free leg posted far out to the side, providing stability against sweep counters throughout the smash"
+      },
+      {
+        "error": "Allowing the opponent to re-establish their bottom leg frame after initial collapse",
+        "consequence": "Pocket space reopens and all smash progress is lost, requiring the entire sequence to restart",
+        "correction": "Once the hip frame is collapsed, immediately pin it by dropping your hip weight onto their thigh and keeping it there while progressing through the remaining steps"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Pressure Mechanics",
+        "focus": "Developing proper chest pressure and weight distribution",
+        "description": "Practice sinking chest weight onto a cooperative partner from Pocket Half Guard Top. Focus on using skeletal alignment rather than muscular effort. Partner provides feedback on pressure quality. Drill 3-minute rounds maintaining constant heavy pressure without using arms for support."
+      },
+      {
+        "phase": "Phase 2: Sequential Collapse",
+        "focus": "Learning the step-by-step pocket collapse sequence",
+        "description": "Walk through the full smash sequence at 30% speed with a cooperative partner: chest connection, crossface, hip frame collapse, underhook strip, hip flattening, shoulder pin. Partner allows each step to succeed while providing positional feedback. Repeat 20 times per round."
+      },
+      {
+        "phase": "Phase 3: Resistance Training",
+        "focus": "Executing against progressive defensive resistance",
+        "description": "Partner begins at 40% resistance and increases to 70% over multiple rounds. Bottom player actively fights to maintain pocket structure including re-establishing underhook, creating frames, and threatening sweeps. Top player must complete the full smash sequence against increasing defensive quality."
+      },
+      {
+        "phase": "Phase 4: Counter Integration",
+        "focus": "Recognizing and responding to common defensive reactions",
+        "description": "Partner alternates between different counter-strategies: deep half entry, Old School sweep threats, bridging, and framing. Top player must identify the counter and apply the appropriate response while maintaining smash pressure. Practice scenario recognition and reaction selection."
+      },
+      {
+        "phase": "Phase 5: Live Application",
+        "focus": "Integrating the smash into live rolling situations",
+        "description": "Positional sparring starting from Pocket Half Guard Top. Top player's primary objective is completing the smash to Flattened Half Guard, with secondary option of completing the pass. Bottom player attempts full resistance offense and defense. Three-minute rounds with reset on position change."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "Why must you collapse the pocket space before attempting to strip the opponent's underhook?",
+        "answer": "The pocket space created by the bottom player's hip frame provides the structural foundation for their underhook-based sweeps. If you try to strip the underhook while the hip frame is intact, you must lift or shift your weight to fight the grip, which gives the bottom player leverage to execute sweeps like the Old School. Collapsing the hip frame first removes the sweeping foundation, making the underhook progressively weaker and safer to strip without exposing yourself to counters."
+      },
+      {
+        "question": "Your opponent begins scooting their hips underneath you for a Deep Half entry during your smash - how do you respond?",
+        "answer": "Immediately sprawl your hips back and drive your trapped knee toward the mat to prevent them from getting underneath your center of gravity. If you feel their hips shifting under you, abandon the smash temporarily and address the deep half threat by maintaining your hips above their centerline. Once you have prevented the entry, re-establish chest pressure and restart the smash sequence from the chest connection step."
+      },
+      {
+        "question": "What is the optimal direction of force application during the crossface pressure step?",
+        "answer": "The crossface force should be directed diagonally - simultaneously pushing the opponent's jaw away from the underhook side while driving their head toward the mat. This diagonal vector is more effective than purely lateral pressure because it turns the head away, which structurally weakens the shoulder connection powering the underhook, while also contributing to the overall flattening objective of the smash."
+      },
+      {
+        "question": "What grip does the opponent need to maintain for their pocket structure, and how does this inform your stripping strategy?",
+        "answer": "The bottom player needs their underhook hand gripping your far lat, armpit, or belt line behind your back. This deep grip gives them rotational control and sweeping power. When stripping, target their wrist or forearm rather than trying to peel their hand off your back. Push their elbow toward their body to shorten the lever arm of the underhook, reducing its effectiveness before fully removing it."
+      },
+      {
+        "question": "How should you adjust your base if the opponent bridges explosively during the smash?",
+        "answer": "Do not fight the bridge directly with downward force, as this creates a strength contest that wastes energy and may compromise your position. Instead, widen your base immediately in the direction of the bridge by posting your free leg further out. Maintain chest-to-chest connection and ride the bridge rather than resisting it. Bridges are energetically expensive and self-limiting, typically lasting one to two seconds before the opponent must return to the mat, at which point you re-apply the smash."
+      },
+      {
+        "question": "What are the critical differences between the Smash Pocket Half and a general smash pass from standard half guard?",
+        "answer": "The Smash Pocket Half specifically addresses the pocket half guard's unique threats: the deep underhook and the hip frame creating the pocket space. A standard smash pass assumes the bottom player lacks a deep underhook and focuses primarily on flattening and leg extraction. The Smash Pocket Half adds the preliminary steps of collapsing the pocket space and neutralizing the underhook before the flattening can occur, making it a more specialized and sequential technique."
+      },
+      {
+        "question": "After successfully smashing to Flattened Half Guard, what follow-up error most commonly allows the opponent to recover pocket position?",
+        "answer": "The most common error is immediately attempting to extract the trapped leg and complete the pass without first consolidating the flattened position. When you rush to pass, you must shift your weight, which creates momentary space the opponent can use to re-establish their hip frame and swim the underhook back in. Instead, spend several seconds settling into the flattened half guard, ensuring shoulders are pinned flat, underhook is neutralized, and crossface is dominant before beginning any pass attempt."
+      }
+    ],
+    "safety_considerations": "The Smash Pocket Half involves significant pressure application to the opponent's torso and face. Be mindful of the crossface pressure on the jaw and neck area, avoiding excessive force that could cause cervical strain. Apply pressure progressively rather than explosively to give training partners time to tap if uncomfortable. Be aware that chest compression on smaller training partners can restrict breathing, so maintain communication and respond immediately to taps or verbal signals of distress."
+  },
+  "defender": {
+    "name": "Smash Pocket Half Defender",
+    "description": "Learn to defend the Smash Pocket Half in BJJ. Recognition cues, escape timing, and defensive strategies to maintain your pocket half guard against pressure passing.",
+    "overview": "Defending the Smash Pocket Half requires understanding the sequential nature of the attack and intervening at the earliest possible stage. As the bottom player in Pocket Half Guard, your pocket structure is your primary offensive weapon - the deep underhook and hip frame create sweeping leverage and prevent the top player from advancing. When the top player initiates the smash, your defensive priority is maintaining the integrity of the pocket structure by preserving your hip frame and underhook depth. Early recognition of the smash attempt allows you to counter before the progressive compression takes effect, either by threatening sweeps to force the top player to abandon pressure or by transitioning to alternative guard positions that nullify the smash approach.",
+    "key_principles": [
+      "Recognize the smash initiation early through pressure changes and head positioning before the compression becomes overwhelming",
+      "Maintain active hip frame at all costs - the pocket space is the structural foundation of your offensive options and defensive integrity",
+      "Use sweep threats proactively to force the top player to widen their base and abandon committed smashing pressure",
+      "Transition to alternative guards rather than fighting a losing battle once the pocket structure begins collapsing",
+      "Keep the underhook depth by pulling constantly and using head pressure against the opponent's ribs to reinforce the connection",
+      "Never accept being flattened - initiate defensive transitions before you lose hip mobility and angle on the mat"
+    ],
+    "recognition_cues": [
+      "Top player lowers their chest weight dramatically, sinking heavy pressure onto your upper torso rather than maintaining a normal engagement distance",
+      "Top player drives their head into your jaw or face on the crossface side, attempting to turn your head away from the underhook",
+      "Top player's near hip drops toward the mat, targeting the pocket space created by your bottom leg frame against their hip",
+      "Top player's free hand moves to control your near arm or wrist, preparing to strip frames before committing to the smash"
+    ],
+    "defensive_options": [
+      {
+        "action": "Threaten the Old School sweep by pulling with underhook and coming up to elbow",
+        "when_to_use": "Early in the smash sequence before chest pressure becomes fully committed and while your hip frame is still intact",
+        "targets_outcome": "Half Guard/Bottom",
+        "if_successful": "Top player must widen base and lift pressure to defend the sweep, abandoning the smash and potentially getting swept",
+        "risk": "If the sweep attempt fails and top player maintains pressure, you may lose the underhook position during the attempt"
+      },
+      {
+        "action": "Scoot hips underneath for Deep Half Guard entry using the forward pressure",
+        "when_to_use": "When the top player commits heavy forward pressure during the smash, redirecting their weight over your body",
+        "targets_outcome": "Pocket Half Guard/Top",
+        "if_successful": "Transition to Deep Half Guard neutralizes the smash and establishes a new offensive position with strong sweeping options",
+        "risk": "If the entry is scouted, top player can sprawl and flatten you further, accelerating the smash completion"
+      },
+      {
+        "action": "Reinforce underhook with head pressure and increase bottom leg frame resistance",
+        "when_to_use": "When the smash is in its early stages and you still have sufficient pocket space and underhook depth to contest",
+        "targets_outcome": "Pocket Half Guard/Top",
+        "if_successful": "Maintain pocket structure and force the top player to abandon the smash, returning to neutral Pocket Half Guard engagement",
+        "risk": "Energy-intensive approach that may eventually fail against persistent pressure, leaving you fatigued in a compromised position"
+      },
+      {
+        "action": "Bridge explosively and recover angle before pocket collapses",
+        "when_to_use": "When your hip frame is partially collapsed but you still have underhook control and bridging ability",
+        "targets_outcome": "Pocket Half Guard/Top",
+        "if_successful": "Creates space to re-establish hip frame and pocket distance, resetting the position to your preferred engagement",
+        "risk": "Bridges are energetically expensive and if the top player rides it effectively, you waste energy without meaningful position recovery"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Half Guard/Bottom",
+        "how": "Time your Old School sweep threat when the top player commits their weight forward for the smash. Use their forward momentum against them by pulling with the underhook while posting your free hand and coming up to your elbow. The top player's smash commitment makes them vulnerable to being swept because their weight is already moving in the direction you need for the sweep."
+      },
+      {
+        "outcome": "Pocket Half Guard/Top",
+        "how": "Defend the smash in its early stages by reinforcing your underhook depth and maintaining aggressive hip frame pressure. Use head pressure against the opponent's ribs combined with constant pulling on the underhook to prevent them from establishing the crossface and collapsing the pocket. If you can stall their progression through the first two steps, most opponents will abandon the smash and return to other passing approaches."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Passively accepting the smash pressure without actively countering or transitioning",
+        "consequence": "The progressive compression systematically removes all defensive options, leading to complete flattening with no escape routes available",
+        "correction": "Respond immediately when you recognize the smash initiation - either threaten a sweep to disrupt the pressure or begin transitioning to an alternative guard position before the compression becomes overwhelming"
+      },
+      {
+        "error": "Fighting to maintain a compromised underhook instead of transitioning to a new position",
+        "consequence": "Wastes energy holding a losing battle while the top player systematically collapses every other element of the pocket structure",
+        "correction": "If your underhook is being successfully stripped, immediately transition to Deep Half Guard, Knee Shield, or Butterfly Half rather than clinging to a weakening pocket position"
+      },
+      {
+        "error": "Bridging repeatedly without following up with positional improvement",
+        "consequence": "Rapidly depletes energy reserves while the top player simply rides each bridge and re-applies pressure, leading to exhaustion and eventual flattening",
+        "correction": "Each bridge must serve a specific tactical purpose - recovering hip frame, creating angle for sweep, or transitioning to new guard. Never bridge without a plan for what happens when you return to the mat"
+      },
+      {
+        "error": "Allowing the top player to establish crossface before countering the smash",
+        "consequence": "Once the crossface is established, the underhook loses much of its effectiveness because you cannot turn into it or use head pressure to reinforce it",
+        "correction": "Use your forehead pressure against the opponent's ribs or chest proactively to create a physical barrier against the crossface. If the crossface begins, immediately threaten the Old School sweep to force them to disengage"
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the earliest recognition cue that a smash attempt is beginning, and why is early detection critical?",
+        "answer": "The earliest cue is the top player dramatically increasing their chest weight onto your torso while simultaneously driving their head toward your jaw on the crossface side. Early detection is critical because the smash is a progressive compression technique - each step makes the next step easier for the attacker and harder for you to counter. If you recognize and respond during the first step, you have multiple effective defensive options. By the third or fourth step, your options are severely limited and escape becomes significantly more difficult."
+      },
+      {
+        "question": "When should you abandon your pocket position and transition to Deep Half Guard during a smash?",
+        "answer": "Transition to Deep Half Guard when the top player commits significant forward pressure but before your hip frame has been fully collapsed. The ideal timing is when you feel heavy chest pressure driving you toward flat, but you still have enough hip mobility to scoot underneath. The top player's forward weight commitment actually aids your deep half entry because they are already driving their center of gravity over your body. If you wait until you are completely flat, the deep half entry becomes exponentially harder."
+      },
+      {
+        "question": "Why is the Old School sweep threat particularly effective against the smash attempt?",
+        "answer": "The Old School sweep exploits the exact weight distribution the top player uses during the smash. To generate smashing pressure, the top player must commit their weight forward and downward. The Old School sweep uses the underhook to redirect this committed weight over the bottom player's shoulder, converting the attacker's own pressure into sweeping momentum. The smash also typically requires the top player to narrow their base slightly to drive the hip into the pocket frame, which further compromises their resistance to the lateral sweep direction."
+      },
+      {
+        "question": "What defensive option should you choose if your underhook has been partially stripped but you still have hip frame intact?",
+        "answer": "With a partially stripped underhook but intact hip frame, your best option is to immediately transition to Knee Shield Half Guard. Use the remaining pocket space from your hip frame to insert your knee between your bodies and establish a shin frame across the opponent's chest or hip. This transitions you from a compromised pocket position to a defensive guard with strong distance management. Attempting to re-establish the deep underhook against a dominant crossface is typically a losing battle that wastes energy better spent on guard transitions."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Recognition Training",
+        "focus": "Identifying smash initiation cues and developing defensive awareness",
+        "description": "Partner alternates between normal Pocket Half Guard top engagement and smash initiation at varying intensities. Bottom player calls out the moment they recognize the smash attempt, focusing on identifying the earliest possible cue. Practice until recognition becomes reflexive and consistent."
+      },
+      {
+        "phase": "Phase 2: Defensive Technique Drilling",
+        "focus": "Practicing each defensive option against cooperative smash attempts",
+        "description": "Partner executes the smash at 40% speed and intensity. Bottom player practices each defensive option in sequence: Old School sweep threat, Deep Half transition, underhook reinforcement, and bridging recovery. Perform 10 repetitions of each defense, focusing on timing and technical execution."
+      },
+      {
+        "phase": "Phase 3: Decision-Making Under Pressure",
+        "focus": "Selecting appropriate defensive responses against increasing resistance",
+        "description": "Partner applies the smash at 60-80% intensity while bottom player must read the specific attack angle and select the most appropriate defensive response. Emphasis on choosing the right defense for the situation rather than defaulting to a single response. Partner provides feedback on timing and technique selection."
+      },
+      {
+        "phase": "Phase 4: Positional Sparring Integration",
+        "focus": "Applying defensive skills in live rolling scenarios",
+        "description": "Start in Pocket Half Guard Bottom against a partner who may or may not attempt the smash. Bottom player must maintain pocket structure, recognize smash attempts, and execute appropriate defenses while also pursuing their own offensive game. Full resistance with position resets on pass or sweep."
+      }
+    ]
+  }
+}

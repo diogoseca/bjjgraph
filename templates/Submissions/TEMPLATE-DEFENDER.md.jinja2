@@ -1,0 +1,218 @@
+{# BJJ Submission Defender Page Template #}
+{# Generates defender perspective pages from defender section #}
+{# Input: defender (full defender section), name (hub name), from_position, outcomes, safety_considerations, target_area #}
+
+---
+title: "{{ defender.name }} | BJJ Defense Guide | BJJ Graph"
+description: "{{ defender.description }}"
+---
+
+{# PostHog A/B Testing Metadata #}
+<body data-content-type="submissions">
+
+> **SAFETY**: {{ name }} targets the {{ target_area }}. Tap early and often. Your safety is more important than any training round.
+
+<!-- Schema Markup - HowTo for Defense -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "How to Defend {{ name }} in BJJ",
+  "description": "Step-by-step guide for defending and escaping {{ name }} in BJJ.",
+  "step": [
+    {%- for option in defender.defensive_options[:6] %}
+    {
+      "@type": "HowToStep",
+      "name": "{{ option.action }}",
+      "text": "{{ option.when_to_use }}{% if option.if_successful %} If successful: {{ option.if_successful }}{% endif %}",
+      "position": {{ loop.index }}
+    }{{ "," if not loop.last else "" }}
+    {%- endfor %}
+  ],
+  "tool": ["BJJ Gi or No-Gi attire", "Training partner", "Mat space"],
+  "totalTime": "PT5M"
+}
+</script>
+
+<!-- Schema Markup - FAQ from Knowledge Assessment -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {%- for qa in defender.knowledge_assessment[:6] %}
+    {
+      "@type": "Question",
+      "name": "{{ qa.question }}",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "{{ qa.answer }}"
+      }
+    }{{ "," if not loop.last else "" }}
+    {%- endfor %}
+  ]
+}
+</script>
+
+<!-- Schema Markup - WebPage -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "{{ defender.name }}",
+  "description": "{{ defender.description }}",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Submissions",
+      "item": "https://bjjgraph.org/Submissions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "{{ name }}",
+      "item": "https://bjjgraph.org/Submissions/{{ name.replace(' ', '-') }}"
+    },
+    {
+      "@type": "ListItem",
+      "position": 4,
+      "name": "Defender",
+      "item": "https://bjjgraph.org/Submissions/{{ name.replace(' ', '-') }}/Defender"
+    }
+  ]
+}
+</script>
+
+{# Flexbox wrapper for A/B testing #}
+<main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+<section id="overview" class="content-section">
+
+{{ defender.overview }}
+
+{% if from_position is defined and from_position -%}
+**Opponent's Starting Position**: [[{{ resolve(from_position.split('/')[0]) }}]] ({{ from_position.split('/')[1] if '/' in from_position else '' }})
+{% endif %}
+
+</section>
+
+<section id="recognition-cues" class="content-section">
+
+## How to Recognize This Submission
+
+{% for cue in defender.recognition_cues -%}
+- {{ cue }}
+{% endfor %}
+
+</section>
+
+<section id="key-principles" class="content-section">
+
+## Key Defensive Principles
+
+{% for principle in defender.key_principles -%}
+- {{ principle }}
+{% endfor %}
+
+</section>
+
+<section id="defensive-options" class="content-section">
+
+## Defensive Options
+
+{% for option in defender.defensive_options -%}
+### {{ loop.index }}. {{ option.action }}
+
+- **When to use**: {{ option.when_to_use }}
+- **Targets**: [[{{ resolve(option.targets_outcome.split('/')[0] if '/' in option.targets_outcome else option.targets_outcome) }}]]
+{% if option.if_successful %}- **If successful**: {{ option.if_successful }}{% endif %}
+{% if option.risk %}- **Risk**: {{ option.risk }}{% endif %}
+
+{% endfor %}
+
+</section>
+
+<section id="escape-paths" class="content-section">
+
+## Escape Paths
+
+{% for escape in defender.escape_paths -%}
+- {{ escape }}
+{% endfor %}
+
+</section>
+
+<section id="favorable-outcomes" class="content-section">
+
+## Best-Case Outcomes for Defender
+
+{% for favorable in defender.favorable_outcomes -%}
+### → [[{{ resolve(favorable.outcome.split('/')[0] if '/' in favorable.outcome else favorable.outcome) }}]]
+
+{{ favorable.how }}
+
+{% endfor %}
+
+</section>
+
+<section id="common-mistakes" class="content-section hide-minimal">
+
+## Common Defensive Mistakes
+
+{% for error in defender.common_errors -%}
+### {{ loop.index }}. {{ error.error }}
+
+- **Consequence**: {{ error.consequence }}
+- **Correction**: {{ error.correction }}
+
+{% endfor %}
+
+</section>
+
+<section id="training-progressions" class="content-section hide-minimal">
+
+## Training Progressions
+
+{% for progression in defender.training_progressions -%}
+**{{ progression.phase }}** - {{ progression.focus }}
+{{ progression.description }}
+
+{% endfor %}
+
+</section>
+
+{% if defender.knowledge_assessment %}
+<section id="knowledge-assessment" class="content-section">
+
+## Test Your Knowledge
+
+{% for qa in defender.knowledge_assessment -%}
+**Q{{ loop.index }}**: {{ qa.question }}{% if qa.safety_critical %} **[SAFETY-CRITICAL]**{% endif %}
+**A**: {{ qa.answer }}
+
+{% endfor %}
+
+</section>
+{% endif %}
+
+</main>

@@ -1,0 +1,411 @@
+{
+  "name": "Posture Recovery from Diamond Guard",
+  "description": "Learn posture recovery from diamond guard in BJJ. Systematic approach to breaking the overhook-head control frame, restoring upright posture, and neutralizing closed guard offense.",
+  "tags": [
+    "bjj",
+    "transition",
+    "escape",
+    "diamond-guard",
+    "posture-recovery",
+    "top-player",
+    "guard-passing",
+    "defensive-technique"
+  ],
+  "from_position": "Diamond Guard/Top",
+  "outcomes": [
+    {
+      "to": "Closed Guard/Top",
+      "probability": 45,
+      "result": "success"
+    },
+    {
+      "to": "Diamond Guard/Top",
+      "probability": 35,
+      "result": "failure"
+    },
+    {
+      "to": "Armbar Control/Bottom",
+      "probability": 20,
+      "result": "counter"
+    }
+  ],
+  "success_rate": 45,
+  "overview": "Posture Recovery from Diamond Guard is a critical defensive transition for the top player trapped inside the diamond guard configuration, where the bottom player has established an overhook on one arm combined with head control behind the neck. The diamond frame creates converging force vectors that pull the top player's posture down and forward, eliminating the structural base required for guard passing or even basic survival. Without successful posture recovery, the top player faces an escalating chain of triangle, omoplata, and kimura threats that become increasingly difficult to defend as fatigue accumulates.\n\nThe fundamental challenge of this recovery lies in the dual-point control system. Unlike standard closed guard posture breaks that rely on a single collar grip or head pull, the diamond frame uses two independent but mutually reinforcing controls. The overhook eliminates one posting arm entirely, while head control drives the spine into flexion. Addressing either control point in isolation is insufficient because the remaining control compensates. Successful recovery therefore requires a sequenced approach: first neutralize the more dangerous control (head control), then address the overhook, and finally drive the hips backward to restore spinal alignment.\n\nThis transition is particularly important because diamond guard represents a position of significant energy asymmetry favoring the bottom player. The guard player maintains the diamond with relatively low muscular effort through structural alignment, while the top player expends considerable energy fighting two converging pulls. Every second spent in broken posture deepens fatigue and increases submission vulnerability. The posture recovery must be executed with technical precision rather than raw strength, using head positioning, elbow alignment, and hip drive as primary tools rather than attempting to muscle through the frame.",
+  "conditions": [
+    "Opponent has established diamond guard with overhook on one arm and head control behind your neck",
+    "Your posture is broken with head pulled below shoulder line and spine in flexion",
+    "Your trapped arm is controlled by the overhook making it unavailable for posting",
+    "Opponent's closed guard legs are locked behind your lower back reinforcing the posture break",
+    "You have at least one free hand available to begin addressing the control points"
+  ],
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Head Circle Recovery",
+      "description": "Circle your head to the outside of the head-controlling arm by rotating your chin toward the overhook side and driving your forehead past their wrist. This breaks the head control angle without requiring hand intervention, freeing your hands to address the overhook simultaneously.",
+      "when_to_use": "When the opponent's head control grip is on the back of your neck rather than a deep collar grip, and you have enough neck mobility to perform the circular motion under pressure."
+    },
+    {
+      "variant_name": "Hip Drive Posture Break",
+      "description": "Instead of addressing grips first, explosively drive your hips backward while posting your free hand on the mat behind you. The sudden distance creation stretches the diamond frame beyond its effective range, weakening both control points simultaneously through hip separation rather than sequential grip fighting.",
+      "when_to_use": "When the opponent's guard legs are not extremely tight and there is enough slack in the diamond frame to generate backward hip movement. Most effective when opponent is focused on attacking rather than squeezing legs."
+    },
+    {
+      "variant_name": "Standing Posture Recovery",
+      "description": "Rise to your feet while inside the diamond guard by posting one foot, then the other, and using gravity and leg drive to generate the posture recovery force. Standing changes the angle of the diamond pulls from horizontal to vertical, significantly reducing their effectiveness and creating guard-opening opportunities.",
+      "when_to_use": "When kneeling posture recovery has failed multiple times and the opponent's diamond frame is too strong to break from knees. Requires sufficient base and balance to stand while under pull pressure."
+    }
+  ],
+  "position_integration": "Posture Recovery from Diamond Guard sits at the intersection of guard passing fundamentals and specialized guard defense. It connects the defensive survival sequence required when caught in an advanced closed guard variation with the proactive guard opening progression that leads to passing. Successfully recovering posture from diamond guard transitions the engagement from the bottom player's offensive framework back to the standard closed guard dynamic where the top player has realistic passing options. This transition is also a gateway to the broader posture recovery skill set required against all pulling guards including rubber guard, mission control, and overhook guard. The mechanical principles — addressing head control first, sequencing grip breaks, and using hip drive for structural recovery — transfer directly to these related scenarios.",
+  "related_content": [
+    {
+      "name": "Diamond Guard",
+      "relationship": "Starting position — specialized closed guard variation with overhook and head control"
+    },
+    {
+      "name": "Closed Guard",
+      "relationship": "Target position after successful posture recovery neutralizes diamond controls"
+    },
+    {
+      "name": "Armbar Control",
+      "relationship": "Counter outcome — opponent catches armbar during failed recovery attempt"
+    },
+    {
+      "name": "Overhook Guard",
+      "relationship": "Related guard sharing overhook control mechanics that require similar recovery approach"
+    },
+    {
+      "name": "Guard Pass from Diamond Guard",
+      "relationship": "Follow-up transition after posture is recovered and guard can be opened"
+    },
+    {
+      "name": "Overhook Strip from Diamond Guard",
+      "relationship": "Complementary technique addressing the overhook control point specifically"
+    },
+    {
+      "name": "Guard Opening Sequence",
+      "relationship": "Next phase after posture recovery enables systematic guard break progression"
+    },
+    {
+      "name": "Rubber Guard",
+      "relationship": "Related high-control guard requiring similar posture recovery principles"
+    },
+    {
+      "name": "Mission Control",
+      "relationship": "Related rubber guard position with comparable head control requiring posture recovery"
+    },
+    {
+      "name": "Triangle Control",
+      "relationship": "Submission threat if posture recovery is attempted carelessly exposing the neck"
+    },
+    {
+      "name": "Kimura Trap",
+      "relationship": "Submission threat from the overhook control if recovery exposes the trapped arm"
+    }
+  ],
+  "attacker": {
+    "name": "Posture Recovery from Diamond Guard Attacker",
+    "description": "Master posture recovery from diamond guard as the top player. Step-by-step guide to breaking the overhook and head control frame, restoring structural posture, and escaping submission threats.",
+    "overview": "As the top player trapped in diamond guard, your immediate priority is breaking the dual-point control system before the bottom player launches submission chains. The diamond frame uses converging force vectors from the overhook and head control that are mutually reinforcing — addressing them requires a deliberate sequence rather than brute force. Your free hand is your primary tool for dismantling the frame one control point at a time, while hip drive and head positioning provide the structural recovery force. Success depends on patience, correct sequencing, and explosive commitment when the frame weakens. Rushing any step or attempting to power through the diamond typically results in deeper entanglement or submission exposure.",
+    "key_principles": [
+      "Address head control before the overhook — head control maintains broken posture that makes overhook escape mechanically impossible",
+      "Use head positioning and circular motion rather than hand fighting to break neck control, preserving your free hand for the overhook",
+      "Drive hips backward as the primary posture recovery force once controls are loosened, using leg drive rather than back extension",
+      "Keep your free elbow tight to your body to prevent the opponent from isolating it for armbar or triangle entries",
+      "Move in continuous sequence without pausing between steps — stopping mid-recovery allows the opponent to re-establish broken controls",
+      "Maintain heavy downward pressure through your trapped-side shoulder to resist being pulled forward while working the recovery",
+      "Breathe through the discomfort of broken posture — panic and breath-holding accelerate fatigue which favors the bottom player"
+    ],
+    "setup_requirements": [
+      "Identify which arm is trapped in the overhook and confirm your free hand has range of motion to address controls",
+      "Assess the depth of the overhook — shallow overhook at the wrist allows more aggressive recovery than deep overhook past the tricep",
+      "Confirm your knees are spread wide enough to maintain base during the recovery movement and prevent being swept during the transition",
+      "Establish mental sequencing: head control first, then overhook, then hip drive — commitment to this order prevents wasted effort",
+      "Position your free hand on the opponent's bicep or wrist of their head-controlling arm to prepare for the first grip break"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Stabilize base and assess controls",
+        "description": "Spread your knees wide and dig your toes into the mat for traction. Identify which arm is overhoooked and locate the opponent's head-controlling hand on your neck. Take a controlled breath and commit to the sequential recovery. Avoid panicking or making sudden jerky movements that create sweep openings."
+      },
+      {
+        "step_number": 2,
+        "action": "Address head control with free hand",
+        "description": "Use your free hand to grip the opponent's wrist or forearm of their head-controlling arm. Push their grip toward their own chest while simultaneously driving your forehead into their sternum to create counter-pressure. The goal is not to rip the hand off your neck but to reduce the downward pull enough to begin head extraction."
+      },
+      {
+        "step_number": 3,
+        "action": "Circle head to the outside",
+        "description": "Rotate your chin toward the overhook side and drive your head in a circular motion past their controlling wrist. Your forehead traces an arc from their chest toward the mat on the overhook side. This head circle breaks the line of pull and prevents them from simply re-gripping your neck. Maintain contact pressure throughout so they cannot insert their hand back behind your neck."
+      },
+      {
+        "step_number": 4,
+        "action": "Post free hand on opponent's hip",
+        "description": "Once head control is neutralized, immediately plant your free hand firmly on the opponent's hip bone on the non-overhook side. This hand becomes your primary frame for creating distance. Push their hip away from you while simultaneously beginning to straighten your spine. The hip post prevents them from following your posture recovery with their own hip movement."
+      },
+      {
+        "step_number": 5,
+        "action": "Begin hip drive backward",
+        "description": "Initiate a strong backward hip drive by extending your legs and pushing your hips away from the opponent. This stretches the overhook beyond its effective control range as the increased distance weakens the grip geometry. Keep your free hand pressing on their hip throughout the drive to maintain the frame. Your spine should begin straightening as distance increases."
+      },
+      {
+        "step_number": 6,
+        "action": "Extract trapped arm from overhook",
+        "description": "As hip drive creates slack in the overhook, rotate your trapped elbow downward toward the mat and pull your arm back toward your body in a corkscrewing motion. The combination of distance from hip drive and rotational extraction breaks the overhook. Do not pull straight back as this tightens the overhook — the rotation is essential for changing the grip angle."
+      },
+      {
+        "step_number": 7,
+        "action": "Establish upright posture",
+        "description": "Once the overhook releases, immediately drive both hands to the opponent's hips or biceps and sit your hips back to full upright posture with your head over your hips and chest elevated. This is the critical consolidation moment — if you pause between overhook escape and full posture recovery, the opponent will re-establish diamond control before you complete the transition."
+      },
+      {
+        "step_number": 8,
+        "action": "Consolidate closed guard top position",
+        "description": "With posture recovered, spread your base wide and establish controlling grips on the opponent's biceps or collar to prevent them from pulling you back down. You have now transitioned from diamond guard to standard closed guard top position where systematic guard opening and passing sequences become available. Maintain active posture defense to prevent re-establishment of the diamond."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Opponent tightens closed guard legs and increases heel pull during hip drive to prevent distance creation",
+        "effectiveness": "High",
+        "your_response": "If hip drive is stalled by tight legs, switch to standing posture recovery variant. Post one foot and use leg drive to generate vertical force that the closed guard squeeze cannot match horizontally.",
+        "targets_outcome": "Diamond Guard/Top"
+      },
+      {
+        "counter": "Opponent releases head control preemptively and shoots for triangle when you begin circling your head",
+        "effectiveness": "Medium",
+        "your_response": "When you feel head control release, immediately tuck your chin and drive your freed head to the opposite side of the triangle threat. Post your free hand inside their thigh to prevent the leg from closing across your neck. Continue posture recovery with both hands now available.",
+        "targets_outcome": "Armbar Control/Bottom"
+      },
+      {
+        "counter": "Opponent deepens overhook and switches to kimura grip when you address head control first",
+        "effectiveness": "Medium",
+        "your_response": "If the overhook converts to kimura grip, immediately straighten the trapped arm and drive it toward the mat to prevent the rotation. Use your free hand to control their wrist on the kimura grip while driving hips backward to create distance. The straight arm position neutralizes the kimura angle.",
+        "targets_outcome": "Diamond Guard/Top"
+      },
+      {
+        "counter": "Opponent angles hips and begins omoplata rotation when you attempt arm extraction from overhook",
+        "effectiveness": "Medium",
+        "your_response": "If you feel hip rotation toward omoplata, immediately drive your weight forward over the opponent and post your free hand past their hip. Stack their hips to flatten the rotation angle. Pull your trapped arm toward your centerline rather than away from their body.",
+        "targets_outcome": "Armbar Control/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Attempting to address the overhook before breaking head control",
+        "consequence": "Head control maintains broken posture that makes overhook escape mechanically impossible because your spine cannot generate the extension force needed to create slack in the overhook grip",
+        "correction": "Always break head control first by circling your head or using your free hand to strip the neck grip. Only attempt overhook extraction after your head is free and spine can begin straightening."
+      },
+      {
+        "error": "Using raw pulling strength to rip arm straight backward out of the overhook",
+        "consequence": "Pulling straight back actually tightens the overhook angle and burns energy rapidly. The opponent's overhook grip strengthens when force is applied in the direction it was designed to resist.",
+        "correction": "Use a corkscrewing rotation with your elbow driving downward toward the mat while hip drive creates distance. The rotational vector changes the grip geometry in a direction the overhook cannot effectively resist."
+      },
+      {
+        "error": "Keeping knees narrow during the recovery attempt reducing base stability",
+        "consequence": "Narrow base makes you vulnerable to hip bump sweeps and pendulum sweeps during the recovery when your attention is focused on grip fighting rather than balance",
+        "correction": "Spread knees wide and dig toes in before beginning any grip fighting. Base stability must be established first because the recovery sequence requires multiple steps that temporarily reduce defensive awareness."
+      },
+      {
+        "error": "Pausing between breaking head control and driving hips backward",
+        "consequence": "Any pause in the sequence gives the bottom player time to re-grip behind your neck or switch to an alternative attack. The diamond is designed to be re-established quickly — hesitation resets your progress to zero.",
+        "correction": "Execute the recovery as one continuous flowing sequence. Head circle flows directly into hip post which flows directly into backward hip drive. Practice the full sequence as a single movement pattern."
+      },
+      {
+        "error": "Leaning forward and placing weight on hands to push up instead of driving hips backward",
+        "consequence": "Forward weight shift deepens posture break, exposes your arms to isolation attacks, and eliminates hip drive capability. The opponent's guard legs pull you further forward when weight transfers to your hands.",
+        "correction": "Drive recovery force through your hips and legs moving backward rather than pushing up with arms. Sit your hips back toward your heels while maintaining torso contact with opponent's body until distance creates natural posture restoration."
+      },
+      {
+        "error": "Failing to consolidate posture immediately after extracting the trapped arm",
+        "consequence": "The moment between overhook escape and full posture recovery is the most dangerous gap — the opponent will immediately attempt to re-establish diamond or switch to a different attack before you settle into closed guard top",
+        "correction": "Treat arm extraction and posture consolidation as one motion. The instant your arm is free, drive both hands to their hips and sit back to full upright posture in a single explosive movement."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Isolated Mechanics",
+        "focus": "Head circle and hip drive patterns",
+        "description": "Practice the head circle motion against a stationary diamond frame with partner at 20% resistance. Focus on the circular path of the forehead, maintaining contact pressure throughout the arc. Then practice isolated hip drives from broken posture position. 20 repetitions of each element separately before combining."
+      },
+      {
+        "phase": "Phase 2: Sequenced Recovery",
+        "focus": "Connecting the full recovery chain",
+        "description": "Combine head control break, hip post, hip drive, and arm extraction into a single flowing sequence against a partner holding diamond guard at 40% resistance. Focus on eliminating pauses between steps and developing the timing of each transition. 15 full repetitions per round, 3 rounds."
+      },
+      {
+        "phase": "Phase 3: Defensive Counter Recognition",
+        "focus": "Reacting to opponent adjustments mid-recovery",
+        "description": "Partner holds diamond guard and actively adjusts their control during your recovery attempts — re-gripping neck, tightening legs, threatening triangle. Practice recognizing each counter and implementing the appropriate adjustment without abandoning the recovery sequence. 5-minute rounds at 60% resistance."
+      },
+      {
+        "phase": "Phase 4: Live Application",
+        "focus": "Full resistance posture recovery",
+        "description": "Positional sparring starting in diamond guard. Top player works posture recovery while bottom player actively attacks with full submission chains. Reset if submission is achieved or posture is fully recovered. Track success rate across rounds and identify which counters cause the most difficulty. 3-minute rounds, 5 rounds."
+      },
+      {
+        "phase": "Phase 5: Integration with Passing",
+        "focus": "Chaining recovery directly into guard opening and pass",
+        "description": "Start in diamond guard and chain posture recovery directly into a guard opening attempt and pass. The goal is seamless transition from defensive recovery through neutral closed guard top into offensive passing. Full resistance from bottom player. 5-minute rounds focusing on complete sequence completion."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "Why must head control be addressed before the overhook during posture recovery from diamond guard?",
+        "answer": "Head control maintains the broken spine position that makes overhook escape mechanically impossible. When your head is pulled down, your spine is in flexion and cannot generate the extension force needed to create slack in the overhook. Additionally, head control controls your centerline and weight distribution — without a neutral head position, hip drive cannot generate effective backward force. The overhook becomes relatively easy to address once the head is free because spinal extension creates natural slack in the grip."
+      },
+      {
+        "question": "What is the optimal direction for extracting your arm from a deep overhook?",
+        "answer": "The extraction should use a corkscrewing rotation with the elbow driving downward toward the mat rather than pulling straight backward. Pulling straight back tightens the overhook angle because the grip was designed to resist that vector. The downward elbow rotation changes the grip geometry by turning the arm into a shape the overhook cannot contain. Combined with backward hip drive creating slack, the rotational extraction breaks the grip efficiently without requiring superior strength."
+      },
+      {
+        "question": "Your opponent releases head control and immediately shoots their leg toward your neck for a triangle — how do you respond?",
+        "answer": "When head control releases and you see or feel the leg shooting toward your neck, immediately tuck your chin tightly and drive your freed head to the opposite side from the incoming leg. Post your free hand inside their thigh to create a frame preventing the triangle from closing. With your head safe, continue the posture recovery sequence since you now have one fewer control point to address. The key recognition cue is feeling sudden neck freedom combined with hip rotation — this combination always signals a triangle attempt."
+      },
+      {
+        "question": "What grip should your free hand establish first during the recovery sequence?",
+        "answer": "Your free hand should first grip the opponent's wrist or forearm of their head-controlling arm. This is the initial entry point into the recovery sequence because breaking head control requires direct hand intervention before the head circle can succeed against a strong grip. After head control is broken, the free hand repositions to the opponent's hip bone to establish the frame for hip drive. The hand transitions through multiple roles during the sequence — grip fighter, frame post, and finally posture anchor."
+      },
+      {
+        "question": "Why is standing posture recovery sometimes necessary against a strong diamond frame?",
+        "answer": "The closed guard legs reinforce the diamond frame by pulling the top player's hips forward and down, which is maximally effective when the top player is on their knees. Standing changes the force vectors from horizontal to vertical, meaning the guard player's leg squeeze works against gravity rather than with it. The top player's leg drive when standing generates significantly more backward force than knee-based hip drive. Additionally, standing creates a guard-opening opportunity since the closed guard is harder to maintain when the top player achieves full standing posture."
+      },
+      {
+        "question": "What base configuration should you establish before beginning the recovery attempt?",
+        "answer": "Spread your knees wider than shoulder width and dig your toes into the mat for maximum traction. This wide base prevents hip bump sweeps and pendulum sweeps that the bottom player may attempt during your recovery when your attention shifts to grip fighting. The toes-in position provides the traction needed for backward hip drive. Without establishing this base first, the recovery sequence becomes a sweep opportunity for the bottom player because each step of the grip fighting temporarily reduces your defensive awareness."
+      },
+      {
+        "question": "Your opponent deepens the overhook and converts to a kimura grip as you break head control — what is your immediate response?",
+        "answer": "Immediately straighten your trapped arm and drive it toward the mat to prevent the rotational force the kimura requires. The kimura grip depends on bending the elbow to create a lever — a straight arm with the hand driven toward the mat eliminates this leverage. Use your free hand to control their wrist on the kimura grip while driving your hips backward. The straight arm position combined with hip drive creates enough distance to strip the grip. Do not attempt to rotate out of the kimura, as this plays into the grip's designed force vector."
+      },
+      {
+        "question": "What is the most common timing mistake during posture recovery from diamond guard?",
+        "answer": "The most common timing mistake is pausing between breaking head control and initiating hip drive. This pause gives the bottom player a window to re-establish head control or switch to an alternative attack such as triangle or omoplata. The diamond guard is designed to be quickly re-established — the bottom player only needs one hand back behind the neck to restore the frame. The recovery must be executed as one continuous flowing sequence where head circle flows into hip post flows into backward drive without any static moments."
+      }
+    ],
+    "safety_considerations": "Posture recovery from diamond guard involves significant cervical spine loading during the head circle extraction. Never use explosive jerking motions to free your head from behind-the-neck control, as this risks cervical strain or injury. Drive the recovery through hip movement rather than neck extension. If neck pain or discomfort occurs during training, stop immediately and reassess technique. Partners should release head control gradually during drilling phases to allow safe practice of the extraction pattern. Tap immediately if you feel any sharp pain in the neck or trapped shoulder during live application."
+  },
+  "defender": {
+    "name": "Posture Recovery from Diamond Guard Defender",
+    "description": "Defend against posture recovery from diamond guard in BJJ. Learn to maintain the diamond frame, recognize recovery attempts, and counter with submissions when top player fights to posture up.",
+    "overview": "As the diamond guard player (bottom), your objective is to maintain the overhook and head control frame that keeps the top player's posture broken, denying them the structural base required for guard passing. When the top player begins a posture recovery attempt, you must recognize the early indicators and respond with frame reinforcement, grip re-establishment, or submission entries that punish the recovery attempt. The diamond guard gives you an inherent energy advantage — maintaining the frame requires less effort than breaking it — so your strategy should emphasize patience, grip retention, and calculated submission threats that force the top player to abandon recovery attempts and return to defensive survival.",
+    "key_principles": [
+      "Maintain constant downward pull through both the overhook and head control simultaneously — losing either control point triggers rapid posture recovery",
+      "Use heel pressure pulling into their lower back to reinforce upper body controls with lower body anchoring",
+      "Recognize posture recovery attempts at the earliest possible stage when they are easiest to counter",
+      "Transition to submission entries when recovery attempts create predictable arm and head positions",
+      "Keep your hips angled toward the overhook side to maximize the diamond frame's structural efficiency",
+      "Re-establish any broken control point immediately — a 2-second gap is sufficient for the top player to complete recovery",
+      "Cycle between submission threats during recovery attempts to create defensive overload that stalls the escape"
+    ],
+    "recognition_cues": [
+      "Top player spreads their knees wider and digs toes into the mat, indicating base establishment for a recovery attempt",
+      "You feel their free hand gripping your wrist or forearm on the head-controlling arm, signaling they are about to strip head control",
+      "Top player begins circling their head with chin rotating toward the overhook side, attempting to extract from head control",
+      "You feel backward hip pressure as the top player drives their weight away from you, trying to stretch the diamond frame",
+      "Top player's trapped arm begins rotating with elbow driving downward, indicating corkscrewing extraction attempt from overhook"
+    ],
+    "defensive_options": [
+      {
+        "action": "Deepen head control by switching from neck grip to deep collar or crown-of-head cup when you feel them address your wrist",
+        "when_to_use": "When you feel the top player's free hand grip your head-controlling wrist — switch grip before they can strip it",
+        "targets_outcome": "Diamond Guard/Top",
+        "if_successful": "Top player's recovery attempt is reset to zero as you maintain broken posture with a deeper, harder-to-strip grip",
+        "risk": "Brief moment of reduced head control during grip switch may allow partial posture recovery"
+      },
+      {
+        "action": "Shoot for triangle entry by releasing head control and swinging your leg over their neck when they circle their head",
+        "when_to_use": "When the top player successfully breaks head control and begins circling — their head is momentarily in a predictable position ideal for triangle leg placement",
+        "targets_outcome": "Armbar Control/Bottom",
+        "if_successful": "Triangle control captures the opponent in a submission position that is worse than the diamond guard they escaped",
+        "risk": "If triangle fails to lock, you lose diamond guard entirely and end up in open guard with reduced control"
+      },
+      {
+        "action": "Increase heel pull and squeeze legs tighter when you feel backward hip drive to stall distance creation",
+        "when_to_use": "When you feel the top player driving their hips backward to stretch the frame — immediately increase lower body anchoring",
+        "targets_outcome": "Diamond Guard/Top",
+        "if_successful": "Hip drive is stalled and the top player cannot create sufficient distance to extract the overhook, maintaining the diamond",
+        "risk": "Extended squeezing fatigues your legs and may not overcome a strong standing recovery attempt"
+      },
+      {
+        "action": "Convert overhook to kimura grip when you feel the arm rotating during extraction attempt",
+        "when_to_use": "When the top player's trapped arm begins corkscrewing and the overhook is slipping — redirect the control to a more threatening grip",
+        "targets_outcome": "Armbar Control/Bottom",
+        "if_successful": "Kimura grip is a more dangerous control than the overhook and transitions directly to kimura submission or trap position",
+        "risk": "If kimura conversion fails, you lose the overhook entirely and the diamond frame collapses"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Diamond Guard/Top",
+        "how": "Maintain diamond frame by immediately reinforcing any control point the top player addresses. Switch head control grip to deeper position when they target your wrist. Increase leg squeeze when they drive hips back. Re-sink overhook when slack develops. Patient maintenance eventually exhausts the top player's recovery attempts."
+      },
+      {
+        "outcome": "Armbar Control/Bottom",
+        "how": "When the top player commits to head circle or arm extraction, they create predictable positions that expose their neck and arms. Release head control and shoot for triangle when their head circles. Convert overhook to kimura grip when their arm rotates. The top player's recovery movement creates the openings for your counter-attacks."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Maintaining passive diamond control without threatening submissions during recovery attempts",
+        "consequence": "Gives the top player unlimited time to methodically work through the recovery sequence without pressure, eventually succeeding through incremental progress",
+        "correction": "Cycle between triangle, omoplata, and kimura threats during recovery attempts. Each defensive action the top player takes should trigger a submission entry that punishes their movement pattern."
+      },
+      {
+        "error": "Releasing head control to reach for a triangle too early before the top player has committed to recovery",
+        "consequence": "Premature head control release allows immediate posture recovery since the diamond frame loses its primary control point voluntarily",
+        "correction": "Only release head control for triangle entry when the top player has already partially broken your head grip and their head is in the predictable circling motion. The timing must be reactive to their escape, not preemptive."
+      },
+      {
+        "error": "Focusing entirely on squeezing legs without managing upper body grips",
+        "consequence": "Leg squeeze alone cannot prevent posture recovery when both upper body controls are stripped. The top player can stand up through even strong leg pressure once their posture is upright.",
+        "correction": "Use legs as reinforcement for upper body controls, not as the primary retention mechanism. The overhook and head control are the diamond's foundation — legs amplify them but cannot replace them."
+      },
+      {
+        "error": "Allowing the overhook to gradually become shallow without actively re-sinking the grip",
+        "consequence": "A shallow overhook at the wrist level provides minimal control and can be extracted easily with a single rotation, collapsing the diamond without warning",
+        "correction": "Continuously monitor overhook depth by checking your elbow position relative to their tricep. When you feel slack developing, immediately pull your elbow tight to your ribs and re-sink the hook deeper before the gap widens."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the earliest recognition cue that the top player is about to attempt posture recovery?",
+        "answer": "The earliest cue is the top player spreading their knees wider and digging their toes into the mat. This base establishment precedes all grip fighting and indicates they are preparing to generate backward hip drive. Recognizing this base change gives you a 1-2 second head start to preemptively deepen your controls, increase leg squeeze, or threaten a submission that disrupts their preparation before the actual recovery sequence begins."
+      },
+      {
+        "question": "When should you convert from diamond guard to a triangle attempt during the opponent's posture recovery?",
+        "answer": "Convert to a triangle when the top player has successfully begun circling their head past your head control and their chin is rotating toward the overhook side. At this moment their head is in a predictable arc, their posture is partially recovering, and their neck is exposed on the non-overhook side. Release head control and swing your leg from the overhook side over their neck while they are mid-circle. Their own head movement carries them into the triangle path. Converting too early (before they commit to the circle) wastes the diamond position."
+      },
+      {
+        "question": "How do you prevent the top player from successfully using a standing posture recovery variant?",
+        "answer": "When you feel the top player posting a foot to stand, immediately uncross your ankles and transition to open guard hooks or climb to high guard. The standing recovery works because closed guard leg squeeze is less effective vertically. By transitioning to a guard system that controls their standing posture — such as sleeve and collar grips with feet on hips — you maintain offensive capability from the new position. Alternatively, time a hip bump sweep as they post one foot, exploiting the momentary balance compromise during the transition."
+      },
+      {
+        "question": "Why does the diamond guard create an energy advantage for the bottom player and how do you exploit this?",
+        "answer": "The diamond frame uses structural alignment and skeletal connection rather than muscular effort, so maintaining it costs minimal energy. The top player must actively fight two converging control points using significant muscular effort against a closed geometric structure. Exploit this by being patient and cycling through low-energy submission threats that force continued defensive responses. Each recovery attempt drains the top player's resources while your energy expenditure stays low. After 2-3 failed recovery attempts, the top player's grip fighting becomes weaker and submissions become higher percentage."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Frame Maintenance",
+        "focus": "Holding diamond guard under increasing posture recovery pressure",
+        "description": "Establish diamond guard and maintain it while partner attempts posture recovery at progressive resistance levels of 30%, 50%, and 70%. Focus on recognizing which control point is being targeted and reinforcing it. Track how long the diamond can be maintained at each resistance level. 2-minute rounds, 4 rounds per resistance level."
+      },
+      {
+        "phase": "Phase 2: Counter Attack Integration",
+        "focus": "Threatening submissions during recovery attempts",
+        "description": "Partner attempts posture recovery while you practice recognizing the timing windows for triangle, omoplata, and kimura entries. Focus on identifying which submission becomes available based on the specific recovery method the top player uses. Partner provides moderate resistance (50%) and pauses when caught in a submission position to allow technical correction."
+      },
+      {
+        "phase": "Phase 3: Grip Re-Establishment",
+        "focus": "Recovering diamond controls after partial escape",
+        "description": "Partner breaks one control point (head control or overhook) but not both. Practice rapidly re-establishing the broken control before they can strip the second one. Develop the reflex of immediately deepening the remaining control while re-sinking the lost grip. Alternate between losing head control and losing overhook to practice both recovery patterns."
+      },
+      {
+        "phase": "Phase 4: Live Positional Sparring",
+        "focus": "Full resistance diamond guard retention and offense",
+        "description": "Positional sparring starting in diamond guard with full resistance from both players. Bottom player wins by maintaining diamond for 2 minutes, achieving a submission, or sweeping. Top player wins by recovering posture to closed guard or passing. Track win rates and adjust technique based on common failure patterns. 3-minute rounds, 5 rounds."
+      }
+    ]
+  }
+}

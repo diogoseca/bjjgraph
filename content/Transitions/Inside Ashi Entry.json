@@ -1,0 +1,438 @@
+{
+  "name": "Inside Ashi Entry",
+  "description": "Master Inside Ashi Entry in BJJ. Systematic leg entanglement entry from open guard with setup, timing, and control mechanics for heel hook systems.",
+  "tags": [
+    "bjj",
+    "transition",
+    "leg entanglement",
+    "ashi garami",
+    "inside position",
+    "leg locks",
+    "no-gi",
+    "advanced technique"
+  ],
+  "from_position": "Open Guard/Bottom",
+  "outcomes": [
+    {
+      "to": "Inside Ashi-Garami/Top",
+      "probability": 65,
+      "result": "success"
+    },
+    {
+      "to": "Open Guard/Bottom",
+      "probability": 25,
+      "result": "failure"
+    },
+    {
+      "to": "Open Guard/Top",
+      "probability": 10,
+      "result": "counter"
+    }
+  ],
+  "success_rate": 58,
+  "overview": "Inside Ashi Entry is a fundamental transition in modern leg lock systems that establishes the inside position on your opponent's leg. This entry creates immediate offensive opportunities for inside heel hooks, straight ankle locks, and transitions to more dominant leg entanglements. The inside position refers to having your outside leg positioned between your opponent's legs, creating a wedge that controls their hip and prevents escape. This entry is particularly effective from seated guard, single leg X-guard, or when your opponent is standing in your open guard. The key to successful execution lies in proper angle creation, hip control, and timing the entry when your opponent's weight is committed forward. Inside Ashi is considered one of the safest leg entanglements to enter because it offers strong control while maintaining defensive integrity against counter leg attacks.",
+  "related_content": [
+    {
+      "name": "Inside Ashi-Garami",
+      "relationship": "Destination position - where this entry leads"
+    },
+    {
+      "name": "Outside Ashi Entry",
+      "relationship": "Alternative entry method to different leg entanglement"
+    },
+    {
+      "name": "Single Leg X Entry",
+      "relationship": "Prerequisite transition that facilitates easier inside ashi entry"
+    },
+    {
+      "name": "X-Guard to Ashi Garami",
+      "relationship": "Related transition connecting X-guard system to leg locks"
+    },
+    {
+      "name": "Saddle Entry from Top",
+      "relationship": "Follow-up transition from inside ashi to more dominant entanglement"
+    },
+    {
+      "name": "Ashi Garami Escape",
+      "relationship": "Counter technique that opponent uses to defend this entry"
+    },
+    {
+      "name": "Inside Heel Hook",
+      "relationship": "Primary submission available from inside ashi position"
+    },
+    {
+      "name": "Straight Ankle Lock",
+      "relationship": "Secondary submission option from inside ashi"
+    },
+    {
+      "name": "Heel Grab Sweep",
+      "relationship": "Alternative technique when inside ashi entry is defended"
+    },
+    {
+      "name": "De La Riva to X-Guard Transition",
+      "relationship": "Related entry method from similar guard position"
+    },
+    {
+      "name": "Kiss of the Dragon",
+      "relationship": "Advanced entry method that can transition to inside ashi"
+    },
+    {
+      "name": "50-50 Guard",
+      "relationship": "Neutral position that often results from inside ashi scrambles"
+    }
+  ],
+  "attacker": {
+    "name": "Inside Ashi Entry Attacker",
+    "description": "How to execute Inside Ashi Entry in BJJ. Attacking perspective with setup, execution steps, and counters.",
+    "overview": "Inside Ashi Entry is a fundamental transition in modern leg lock systems that establishes the inside position on your opponent's leg. This entry creates immediate offensive opportunities for inside heel hooks, straight ankle locks, and transitions to more dominant leg entanglements. The inside position refers to having your outside leg positioned between your opponent's legs, creating a wedge that controls their hip and prevents escape. This entry is particularly effective from seated guard, single leg X-guard, or when your opponent is standing in your open guard. The key to successful execution lies in proper angle creation, hip control, and timing the entry when your opponent's weight is committed forward. Inside Ashi is considered one of the safest leg entanglements to enter because it offers strong control while maintaining defensive integrity against counter leg attacks.",
+    "key_principles": [
+      "Establish inside leg position between opponent's legs as primary control point",
+      "Control opponent's hip with inside leg to prevent rotation and escape",
+      "Break opponent's posture down to prevent them from standing or extracting their leg",
+      "Create acute angle with your body relative to opponent's leg line",
+      "Secure proper grips (heel grip and knee line control) before finishing transitions",
+      "Maintain constant tension on the trapped leg throughout entry sequence",
+      "Use your outside leg as a blocking mechanism against opponent's free leg"
+    ],
+    "setup_requirements": [
+      "Opponent standing or posting on at least one leg in your open guard",
+      "Clear path to establish inside leg position between opponent's legs",
+      "Ability to control opponent's near leg with your hands (ankle or knee grip)",
+      "Sufficient distance to swing your outside leg around opponent's hip",
+      "Opponent's weight committed forward or toward the leg you're attacking",
+      "Your inside leg free and positioned to thread between opponent's thighs",
+      "Upper body posture maintained to prevent opponent from driving forward over you"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Establish leg control",
+        "description": "From open guard, secure a two-on-one grip on your opponent's near leg, with one hand controlling the ankle and the other hand gripping behind the knee or on the calf. Pull this leg slightly toward you to break their base and prevent them from stepping back."
+      },
+      {
+        "step_number": 2,
+        "action": "Thread inside leg",
+        "description": "Simultaneously as you pull their leg, thread your inside leg (the leg on the same side as the leg you're attacking) between their legs, driving your knee and shin through the gap between their thighs. Your shin should end up across their far hip, creating a wedge that prevents hip rotation."
+      },
+      {
+        "step_number": 3,
+        "action": "Hook outside leg",
+        "description": "Swing your outside leg over and around their near hip, hooking your foot behind their thigh or calf. This leg acts as a secondary control mechanism that prevents them from circling away or extracting their trapped leg. Keep this leg active with constant backward pressure."
+      },
+      {
+        "step_number": 4,
+        "action": "Break posture and create angle",
+        "description": "Pull down on the trapped leg while simultaneously scooting your hips away at a 45-90 degree angle relative to your opponent's leg line. This off-angle position is critical for control and prevents your opponent from jumping over your guard or driving forward with pressure."
+      },
+      {
+        "step_number": 5,
+        "action": "Secure heel grip",
+        "description": "Transition your ankle grip to a heel control, cupping the heel with your near-side hand with fingers pointing toward the toes. Your far-side hand should maintain control of their knee line or transition to a cross grip on the heel, creating a pocket for potential heel hook attacks."
+      },
+      {
+        "step_number": 6,
+        "action": "Consolidate position",
+        "description": "Pull the heel tight to your chest while extending your hips slightly to create tension on the trapped leg. Ensure your inside leg is firmly wedged across their hip and your outside leg is actively pulling. Your upper body should be slightly elevated, not flat on your back, to maintain control and offensive posture."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Opponent sprawls hard and drives weight forward over your guard before entry is complete",
+        "effectiveness": "High",
+        "your_response": "Immediately abandon the entry and transition to butterfly guard or technical standup. If committed, switch to a heel grab sweep or transition to deep half guard to work from underneath the pressure.",
+        "targets_outcome": "Open Guard/Bottom"
+      },
+      {
+        "counter": "Opponent steps back and pulls their leg out as you attempt to thread inside position",
+        "effectiveness": "Medium",
+        "your_response": "Follow their backward movement by hip escaping forward, maintaining grips. Transition to single leg X-guard or standing guard rather than losing control completely. Use their backward momentum to elevate them.",
+        "targets_outcome": "Open Guard/Bottom"
+      },
+      {
+        "counter": "Opponent immediately counters with their own leg entanglement on your exposed leg",
+        "effectiveness": "Medium",
+        "your_response": "Prioritize establishing your inside position first and clearing your trapped leg. Use your outside leg to block their leg from advancing. If necessary, accept a neutral 50-50 position rather than being caught in a bad entanglement.",
+        "targets_outcome": "Open Guard/Top"
+      },
+      {
+        "counter": "Opponent rotates their hip away and circles out of the entanglement",
+        "effectiveness": "Low",
+        "your_response": "Follow their rotation by scooting your hips and maintaining the inside leg wedge pressure. Transition to outside ashi or saddle position as they rotate. Never allow them to complete a full rotation without following.",
+        "targets_outcome": "Open Guard/Bottom"
+      },
+      {
+        "counter": "Opponent grabs your free leg and threatens a heel hook counter",
+        "effectiveness": "High",
+        "your_response": "Immediately address the threat by pulling your free leg back and establishing a defensive frame. If needed, release your attack temporarily to clear your leg, then re-enter. Never ignore counter leg attacks in exchange for your own attack.",
+        "targets_outcome": "Open Guard/Top"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Threading inside leg too shallow, failing to wedge across opponent's far hip",
+        "consequence": "Opponent easily rotates their hip away and extracts their leg, or drives forward to pass your guard. You lose all control and end up in a scramble or defensive position.",
+        "correction": "Drive your inside knee and shin all the way through until your shin is firmly across their far hip. Feel for the wedge pressure that prevents hip rotation. Your knee should be visible past their far thigh."
+      },
+      {
+        "error": "Staying square to opponent instead of creating proper off-angle position",
+        "consequence": "Opponent can easily drive forward with pressure, stack you, or jump over your guard to pass. You have no leverage for control or attacks and remain flat on your back in a defensive position.",
+        "correction": "Immediately after establishing leg positions, scoot your hips away at a 45-90 degree angle. Your body should form an 'L' or 'T' shape relative to their leg line, never remaining parallel to them."
+      },
+      {
+        "error": "Failing to secure proper heel grip, leaving opponent's foot free to rotate",
+        "consequence": "Opponent can rotate their heel and eventually extract their leg from the entanglement. Your control is weak and they can easily transition to a passing position or counter-entanglement.",
+        "correction": "Cup the heel firmly with palm across the Achilles, fingers pointing toward toes. Your grip should control heel rotation completely. Add second hand for increased control and finishing options."
+      },
+      {
+        "error": "Neglecting to hook and control with outside leg",
+        "consequence": "Opponent circles away from the entanglement or uses their free leg to establish base and extract the trapped leg. You have only one point of leg control, which is insufficient against skilled opponents.",
+        "correction": "Always establish the outside leg hook simultaneously with the inside leg thread. This leg should actively pull backward, creating a pinching effect that traps their leg between your two legs."
+      },
+      {
+        "error": "Attempting entry when opponent's weight is too far back or uncommitted",
+        "consequence": "Opponent easily steps back and pulls their leg free before you can establish control. You expend energy on a failed entry and potentially expose yourself to counter attacks or passing.",
+        "correction": "Time your entry for when opponent's weight is forward or they step toward you. If needed, use a collar drag or ankle pick to create forward momentum first, then enter as they react."
+      },
+      {
+        "error": "Lying too flat on back instead of maintaining elevated upper body posture",
+        "consequence": "Opponent can drive forward pressure more easily, reducing your control. Your offensive options are limited and you're more vulnerable to being stacked or passed over.",
+        "correction": "Maintain an elevated upper body position by posting on your elbows or sitting up slightly. This posture allows you to pull and extend more effectively while preventing opponent from collapsing your guard."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Fundamental Mechanics (Weeks 1-2)",
+        "focus": "Learn basic leg threading and inside position establishment",
+        "description": "Practice the inside leg threading motion in isolation with a static partner. Focus on getting your shin fully across their far hip and creating the wedge. Partner offers no resistance but maintains standing posture. Drill 20-30 repetitions per side daily, emphasizing proper leg placement and angle creation."
+      },
+      {
+        "phase": "Phase 2: Grip and Control Integration (Weeks 3-4)",
+        "focus": "Add proper gripping sequences and heel control to positional entry",
+        "description": "Partner adds light resistance by attempting to step back when you thread your leg. Practice securing grips on ankle and knee, transitioning to heel control, and establishing the outside leg hook. Work on smooth coordination between leg positioning and grip transitions. Drill entries from various open guard configurations."
+      },
+      {
+        "phase": "Phase 3: Timing and Reactive Entries (Weeks 5-6)",
+        "focus": "Develop timing against movement and basic defensive reactions",
+        "description": "Partner actively moves in standing position, stepping forward and backward naturally. Practice recognizing optimal entry timing when their weight commits forward. Partner may attempt to step back or sprawl with moderate resistance. Focus on following their movement and maintaining grips through their initial defensive reactions."
+      },
+      {
+        "phase": "Phase 4: Entry Against Counters (Weeks 7-8)",
+        "focus": "Handle common defensive responses and counter-entanglements",
+        "description": "Partner actively defends with specific counters: stepping back, sprawling, or attempting counter leg entanglements. Practice problem-solving during entry, including abandoning bad entries, transitioning to alternative positions, and clearing your own leg from danger. Introduce positional sparring starting from open guard."
+      },
+      {
+        "phase": "Phase 5: Advanced Entries and Chains (Weeks 9-12)",
+        "focus": "Link inside ashi entry to complete leg lock system and transitions",
+        "description": "Practice entering inside ashi from various positions: single leg X, butterfly guard, seated guard, de la riva. Chain entries together with submission attempts and transitions to saddle, outside ashi, and 50-50. Partner uses full defensive resistance and counter-attacks. Introduce consequence by allowing partner to pass if entry fails."
+      },
+      {
+        "phase": "Phase 6: Live Application and Refinement (Ongoing)",
+        "focus": "Integrate entry into live rolling with positional emphasis",
+        "description": "Use inside ashi entry during regular sparring sessions, starting from standing or open guard situations. Focus on high-percentage entries against different opponent body types and skill levels. Review footage of failed entries to identify technical breakdowns. Develop personal variations and setups that work with your game."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the defining characteristic of the 'inside' position in inside ashi garami?",
+        "answer": "The inside position is defined by having your outside leg positioned between your opponent's legs, creating a wedge across their far hip. This inside leg acts as a blocking mechanism that prevents hip rotation and escape, distinguishing inside ashi from outside ashi where your legs are positioned on the outside of their leg."
+      },
+      {
+        "question": "Why is creating an off-angle position (45-90 degrees) critical for inside ashi control?",
+        "answer": "The off-angle position prevents your opponent from driving forward pressure, jumping over your guard, or stacking you. When you're square to your opponent, they can use their weight and posture to pass or escape. The angle gives you mechanical leverage for control and creates the proper alignment for heel hook and ankle lock finishing mechanics while maintaining defensive integrity."
+      },
+      {
+        "question": "How should you respond if your opponent begins to counter-entangle your free leg during your inside ashi entry?",
+        "answer": "You must immediately prioritize clearing your trapped leg and establishing defensive frames, even if it means temporarily releasing your attack. Never ignore counter leg attacks in favor of your own offensive attempts. Pull your free leg back, use your outside leg to block their advancement, and if necessary, accept a neutral 50-50 position rather than allowing them to secure a dominant entanglement on your leg."
+      },
+      {
+        "question": "What is the optimal timing for initiating an inside ashi entry from open guard?",
+        "answer": "The optimal timing is when your opponent's weight is committed forward or they step toward you with the leg you're attacking. This forward weight commitment prevents them from easily stepping back and extracting their leg. If opponent is too far back, you should use techniques like collar drags, ankle picks, or off-balancing to create forward momentum first before entering."
+      },
+      {
+        "question": "What are the two primary leg controls in inside ashi and what function does each serve?",
+        "answer": "The inside leg (shin across opponent's far hip) serves as the primary wedge that prevents hip rotation and escape, creating the defining inside position. The outside leg (hooked behind opponent's near thigh or calf) acts as a secondary control that prevents circular escape and creates a pinching effect. Together they trap the leg between two points of control, making escape very difficult."
+      },
+      {
+        "question": "Why is inside ashi considered one of the safer leg entanglements to enter compared to positions like saddle or outside ashi?",
+        "answer": "Inside ashi maintains better defensive integrity because your free leg remains relatively safe and available for defensive use, your hips are mobile and not committed to a specific lock, and you can quickly transition to defensive positions if needed. Unlike saddle where you're fully committed with legs crossed, or outside ashi where counter-entanglements are easier, inside ashi allows you to maintain offensive pressure while preserving escape routes."
+      },
+      {
+        "question": "What should your heel grip look like in inside ashi and why is this grip configuration important?",
+        "answer": "Your heel grip should cup the heel with your palm across the Achilles tendon, fingers pointing toward the toes. This configuration controls heel rotation completely, preventing your opponent from rotating their foot to relieve pressure or extract their leg. A proper heel grip creates a pocket for inside heel hook attacks and provides maximum control with minimum effort."
+      },
+      {
+        "question": "Your opponent sprawls heavy on your chest mid-entry and your inside leg is only partially threaded - what do you do?",
+        "answer": "Abandon the inside ashi entry immediately rather than fighting through pressure from a compromised position. Frame against their shoulders to create space and withdraw your partially-threaded leg. Transition to butterfly guard by inserting hooks, or use a technical standup to reset to seated guard. Forcing a half-completed entry under sprawl pressure wastes energy and exposes you to guard passes. Reset and look for a cleaner entry opportunity when their weight shifts."
+      },
+      {
+        "question": "What grip sequence should you follow when transitioning from initial ankle control to heel hook position?",
+        "answer": "Start with a two-on-one ankle grip to control the leg and break base. As you establish leg positions, transition your near-side hand to a C-grip on the heel with fingers wrapping around the heel bone and thumb on the Achilles. Your far-side hand maintains knee line control or transitions to reinforce the heel grip. Only after legs and angle are established should you commit to figure-four grip for the heel hook finish. Rushing to the figure-four before positional control is secure results in losing the grip when opponent moves."
+      },
+      {
+        "question": "You successfully enter inside ashi but opponent immediately begins pummel-fighting your inside leg off their hip - how do you maintain position?",
+        "answer": "Drive your inside leg deeper across their hip by extending forcefully while simultaneously pulling their trapped heel tighter to your chest. Use your outside leg hook to increase the pinching pressure, preventing them from creating the space needed to clear your shin. Angle your hips further away to load more weight onto the inside leg frame. If they partially clear your leg, immediately re-thread it before they complete the escape. The moment they stop pummeling to rest, advance to a more dominant position like saddle or threaten a submission to change their defensive focus."
+      }
+    ],
+    "safety_considerations": "Inside ashi entry is relatively safe compared to more committed leg entanglements, but practitioners must respect several important safety principles. Never force entries against skilled opponents who are counter-attacking your free leg without first addressing the threat - this can result in you being caught in a heel hook while attempting your own attack. When drilling entries, use controlled movement and clear communication about resistance levels, particularly during the leg threading phase where knees can be vulnerable to twisting. Partners should immediately verbally indicate if they feel unsafe pressure on their knee during entry. Progress resistance gradually over weeks, not within single training sessions. In competition or live sparring, be aware that inside ashi entries can result in scrambles where both athletes' legs become entangled - maintain awareness of your own leg safety at all times and never sacrifice your defensive positioning solely to complete an entry. Beginners should master the entry mechanics with zero resistance before adding any reactive elements."
+  },
+  "defender": {
+    "name": "Inside Ashi Entry Defender",
+    "description": "How to defend against Inside Ashi Entry in BJJ. Recognition cues, defensive options, and escape strategies.",
+    "overview": "Defending the Inside Ashi Entry requires early recognition and immediate action before your opponent can consolidate leg control. The entry is most vulnerable during the threading phase when their inside leg has not yet crossed your hip, making this the critical window for prevention. Once the entanglement is established with both legs controlling yours and a heel grip secured, escape becomes exponentially more difficult and dangerous due to heel hook threats. Your defensive strategy should prioritize denying the inside leg position entirely through hip management and distance control, with secondary options focused on extracting your heel and clearing your leg before submissions can be applied. Understanding the attacker's sequence allows you to disrupt each phase systematically rather than panicking once caught.",
+    "key_principles": [
+      "React to the initial grip on your ankle or knee immediately - early defense prevents the entanglement from forming",
+      "Control your own hip rotation to deny the inside leg wedge across your far hip",
+      "Never allow your heel to be controlled while your leg remains trapped between their legs",
+      "Maintain upright posture and forward pressure to prevent attacker from creating the off-angle needed for control",
+      "Address your own leg safety first before attempting to pass or advance position when legs become entangled",
+      "Keep your weight back and base wide when you recognize open guard players hunting for leg entries"
+    ],
+    "recognition_cues": [
+      "Opponent grips your ankle or calf with both hands and begins pulling your leg toward them while seated or lying in open guard",
+      "You feel their inside leg threading between your thighs with shin pressure moving across your near hip toward your far hip",
+      "Opponent's outside leg swings upward and hooks behind your knee or thigh while their body angles away from you at 45-90 degrees",
+      "Your base becomes compromised as opponent pulls your leg forward and you feel your weight shifting onto the attacked leg",
+      "Opponent transitions from standard open guard grips (collar/sleeve) to two-on-one leg control with both hands on the same leg"
+    ],
+    "defensive_options": [
+      {
+        "action": "Sprawl and drive hips forward immediately when you feel the initial ankle or knee grip, pushing your weight over their guard before they can thread the inside leg",
+        "when_to_use": "Earliest possible defense - use the moment you feel two-on-one grip on your leg and before their inside leg begins threading between yours",
+        "targets_outcome": "Open Guard/Bottom",
+        "if_successful": "You flatten opponent under your pressure, breaking their guard structure and returning to standard open guard top passing position",
+        "risk": "If you sprawl too late and their inside leg is already partially threaded, your forward momentum may help them complete the entry by loading weight onto their wedge"
+      },
+      {
+        "action": "Step back explosively with the attacked leg while stripping their grip, pulling your knee out of their control and re-establishing distance",
+        "when_to_use": "Use when their inside leg is beginning to thread but has not yet crossed fully across your hip, and you still have freedom to move your attacked leg backward",
+        "targets_outcome": "Open Guard/Bottom",
+        "if_successful": "You extract your leg from the developing entanglement and reset to standing open guard position with distance restored",
+        "risk": "If opponent maintains ankle grip during your retreat, they may follow your backward movement and use your momentum to pull themselves into single leg X-guard"
+      },
+      {
+        "action": "Counter-entangle by immediately attacking their free leg with your own inside hook, establishing a mirror position to neutralize their offensive advantage",
+        "when_to_use": "Use when their inside leg has already crossed your hip and extraction is difficult, but their outside leg hook is not yet fully secured",
+        "targets_outcome": "Open Guard/Top",
+        "if_successful": "You establish a neutral 50-50 or mirror entanglement that eliminates their positional advantage and creates a mutual leg lock exchange",
+        "risk": "Engaging in counter-entanglement means accepting a leg lock battle where the more skilled leg locker has advantage, and you may end up in a worse entanglement if your counter is incomplete"
+      },
+      {
+        "action": "Rotate your hip forcefully toward the attacker while posting your free leg wide, turning your trapped knee away from heel hook exposure and creating extraction angle",
+        "when_to_use": "Use when inside ashi is partially established but attacker has not yet secured heel grip, and you still have hip mobility",
+        "targets_outcome": "Open Guard/Bottom",
+        "if_successful": "Your hip rotation clears the inside leg wedge and allows you to extract your trapped leg, returning to open guard engagement",
+        "risk": "If attacker follows your rotation and transitions to outside ashi or saddle, you may end up in a worse entanglement than the original inside ashi"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Open Guard/Bottom",
+        "how": "Extract your trapped leg by addressing grips early and either sprawling to prevent the entry or stepping back explosively before the inside leg wedge is established. Strip their ankle/knee grips using two-on-one hand control, then immediately re-establish distance with frames on their hips. The key is acting within the first 2-3 seconds of their entry attempt before consolidation."
+      },
+      {
+        "outcome": "Open Guard/Top",
+        "how": "Counter-entangle their free leg when inside ashi is partially established, creating a mirror position that neutralizes their advantage. From the resulting neutral entanglement, disengage by backing out and standing up. Alternatively, if you successfully sprawl early and flatten them, use the forward pressure to begin a guard pass sequence, converting their failed entry into your passing opportunity."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Ignoring the initial two-on-one leg grip and allowing opponent to begin threading without resistance",
+        "consequence": "By the time you react, their inside leg is already across your hip and outside leg is hooking behind your knee. You are now defending a consolidated inside ashi rather than preventing a developing entry, which is exponentially harder.",
+        "correction": "Treat any two-on-one grip on your leg as an immediate threat. Strip grips within 1-2 seconds using two-on-one hand fighting, or sprawl immediately to deny the threading angle. Train recognition of the initial grip as a trigger for instant defensive response."
+      },
+      {
+        "error": "Pulling your trapped leg straight backward against their grip rather than creating angles for extraction",
+        "consequence": "Straight backward pulling plays directly into their control mechanics - their two-leg pinch is strongest in the linear pulling direction. You burn energy fighting their strongest grip configuration while they maintain control easily.",
+        "correction": "Rotate your hip and angle your knee outward or inward while extracting, never pull straight back. Circular movement defeats the linear pinch. Combine hip rotation with grip stripping on their hands to create a multi-directional escape that overwhelms their ability to maintain control."
+      },
+      {
+        "error": "Reaching down with both hands to fight the leg entanglement while ignoring posture and balance",
+        "consequence": "Bending forward to fight their grips breaks your posture and base, making you vulnerable to sweeps and allowing them to pull you deeper into the entanglement. Your compromised posture actually helps them establish the off-angle they need for control.",
+        "correction": "Maintain upright posture and base while addressing the entanglement. Use one hand for grip fighting and keep the other posting or framing to maintain balance. Address leg control with your hips and leg movement first, hands second. Never sacrifice posture to fight grips."
+      },
+      {
+        "error": "Panicking and attempting violent leg extraction once heel grip is secured, risking knee injury",
+        "consequence": "Explosive extraction attempts against a secured heel grip can cause serious knee ligament damage, particularly if opponent has begun applying rotational pressure. Panic movements remove your technical options and increase injury risk dramatically.",
+        "correction": "If heel grip is secured, slow down and address grips methodically. Strip the heel grip with two-on-one hand control before attempting extraction. Rotate your knee toward the floor to relieve heel hook pressure while working grips. Tap immediately if you feel rotational pressure on your knee rather than fighting through it."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the earliest recognition cue that your opponent is attempting an Inside Ashi Entry from open guard?",
+        "answer": "The earliest cue is when your opponent establishes a two-on-one grip on your leg, typically one hand on your ankle and one behind your knee or calf. This grip configuration is the precursor to every inside ashi entry variation. The moment you feel both their hands controlling the same leg, you should immediately begin defensive action - strip grips, step back, or sprawl. Waiting for the leg threading phase means you've already missed the best defensive window."
+      },
+      {
+        "question": "Why is sprawling forward dangerous if their inside leg has already partially threaded across your hip?",
+        "answer": "When their inside leg is already across your hip, sprawling forward drives your weight onto their wedge, which actually helps them consolidate the position. Your forward pressure loads their inside leg frame and creates the downward angle they need for control. Instead, when the inside leg is partially threaded, you should focus on hip rotation to clear the wedge or step back to extract, never drive forward into an established frame."
+      },
+      {
+        "question": "Your opponent has inside ashi established and secures your heel with a C-grip - what is your immediate priority?",
+        "answer": "Your immediate priority is stripping the heel grip before they can transition to a figure-four finish grip. Use both hands in a two-on-one configuration to peel their fingers off your heel, working from the pinky side. Simultaneously rotate your knee toward the mat to relieve heel hook exposure. Do not attempt to extract your leg while the heel grip is active - this creates dangerous rotational force on your knee. Address the grip first, then work on leg extraction once your heel is free."
+      },
+      {
+        "question": "When is counter-entanglement an appropriate defensive response versus when should you prioritize extraction?",
+        "answer": "Counter-entanglement is appropriate when their inside leg has crossed your hip and extraction is difficult, but their outside leg hook is not yet fully secured - this narrow window allows you to establish a mirror position. Prioritize extraction when the entry is still developing (inside leg not yet across hip) or when you are significantly less skilled in leg locks than your opponent. Counter-entangling against a superior leg locker puts you in a mutual exchange where they have the advantage, so only accept this option when extraction has failed."
+      },
+      {
+        "question": "How should you adjust your standing posture and base when you recognize an opponent is hunting for leg entries from open guard?",
+        "answer": "Widen your base and keep your weight slightly back rather than leaning forward into their guard. Maintain an athletic stance with knees bent but avoid stepping too close with either leg, as forward steps are the primary trigger for entries. Control distance with your arms using collar or wrist grips rather than closing distance with your legs. When you must step forward, do so with your lead leg only while keeping your trailing leg back as a base, and immediately retract if you feel any two-on-one grip establishing on your lead leg."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Recognition and Early Prevention (Weeks 1-2)",
+        "focus": "Learn to identify entry attempts and execute immediate grip stripping or sprawl defense",
+        "description": "Partner attempts inside ashi entries at 30% speed while you practice recognizing the two-on-one grip and threading motion. Focus on three primary responses: grip strip with two-on-one hands, explosive step back, and sprawl. Drill each response 15-20 times per side. Partner gradually increases speed to 50% as recognition improves."
+      },
+      {
+        "phase": "Phase 2: Mid-Entry Defense (Weeks 3-4)",
+        "focus": "Develop hip rotation and extraction techniques when inside leg has partially threaded",
+        "description": "Partner establishes partial inside ashi (inside leg across hip but no heel grip) and you practice hip rotation escapes, backstep extractions, and counter-entanglement entries. Work from the specific moment where early prevention has failed but full consolidation hasn't occurred. 10-15 repetitions per escape method per side with 50% resistance."
+      },
+      {
+        "phase": "Phase 3: Grip Fighting from Established Position (Weeks 5-6)",
+        "focus": "Strip heel grips and create extraction opportunities from consolidated inside ashi",
+        "description": "Partner establishes full inside ashi with heel grip and you practice two-on-one grip stripping sequences, knee rotation to relieve heel hook pressure, and systematic leg extraction after clearing grips. Emphasize safety - tap immediately if rotational pressure is felt before grip is stripped. Work with experienced partners who can control their submissions."
+      },
+      {
+        "phase": "Phase 4: Live Defensive Sparring and Integration (Weeks 7+)",
+        "focus": "Apply defensive skills against progressive resistance and in live rolling",
+        "description": "Positional sparring starting from open guard where partner actively hunts inside ashi entries. Practice the full defensive sequence from recognition through escape. Introduce live rolling with emphasis on preventing leg entries from open guard top. Review footage to identify which defensive responses are working and which need refinement against different entry variations."
+      }
+    ]
+  },
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Inside Ashi from Single Leg X-Guard",
+      "description": "When controlling opponent in single leg X, their leg is already isolated. Simply thread your free leg between their legs to establish inside position while maintaining your existing leg hook. This is one of the highest percentage entries because you already have positional control.",
+      "when_to_use": "Use when you've established single leg X but want to transition to more offensive leg entanglement with heel hook opportunities. Particularly effective when opponent begins to defend the single leg X sweep by stepping back."
+    },
+    {
+      "variant_name": "Seated Guard Inside Ashi Entry",
+      "description": "From seated guard position with both legs extended, grip opponent's near ankle with both hands and pull while simultaneously threading your inside leg between theirs. Your outside leg swings over from extended position. This entry works well in no-gi when opponent is hesitant to engage.",
+      "when_to_use": "Excellent entry when opponent is standing at distance and you're in seated guard. Works particularly well in no-gi competition where opponents maintain distance. Also effective when transitioning from failed guard pulls."
+    },
+    {
+      "variant_name": "De La Riva to Inside Ashi Transition",
+      "description": "From de la riva guard, release your de la riva hook and use that leg to thread between opponent's legs while your far leg hooks over as normal. Your existing grips on ankle and pants/belt help break their posture down. Smooth transition that maintains continuous control.",
+      "when_to_use": "Use when opponent is defending de la riva sweeps by maintaining strong posture and pulling back. This transition capitalizes on their defensive posture by switching to a leg entanglement system. Common in gi competition."
+    },
+    {
+      "variant_name": "Kiss of the Dragon Entry to Inside Ashi",
+      "description": "After executing a kiss of the dragon back take attempt, if opponent defends by sitting to their hip, immediately thread your inside leg between theirs and establish inside ashi. Your momentum from the roll helps create the angle needed for strong control.",
+      "when_to_use": "Advanced entry used when opponent successfully defends your kiss of the dragon or berimbolo back take attempt. Allows you to maintain offensive pressure by immediately threatening leg attacks rather than returning to guard."
+    },
+    {
+      "variant_name": "Butterfly Guard Inside Ashi Entry",
+      "description": "From butterfly guard with hooks engaged, remove one hook and thread that leg between opponent's legs while using your butterfly hook on the opposite side to help break them forward. Your existing upper body control makes this entry particularly high percentage.",
+      "when_to_use": "Effective when opponent is defending butterfly sweeps with heavy pressure or when you want to diversify your attack options from butterfly. Works exceptionally well against opponents who don't expect leg attacks from butterfly guard."
+    }
+  ],
+  "conditions": [
+    "Opponent must have at least one leg posted on the mat within reach of your open guard",
+    "Your inside leg must be free to thread between opponent's legs without obstruction",
+    "You must have at least one controlling grip on opponent's near leg before initiating entry",
+    "Opponent's weight should be committed forward or toward the leg you intend to attack"
+  ],
+  "position_integration": "Inside ashi entry serves as a critical gateway into the modern leg entanglement system pioneered by systematic and the Death Squad athletes. This position sits at the intersection of traditional open guard play and specialized leg lock systems, making it essential for contemporary BJJ competitors. Inside ashi connects directly to multiple positions: it transitions smoothly to outside ashi when opponent rotates, to saddle/honey hole when you cross your feet, to 50-50 when opponent establishes their own inside position, and back to single leg X-guard when backing out defensively. The entry itself can be initiated from numerous positions including de la riva guard, butterfly guard, seated guard, and single leg X, making it a versatile tool that integrates throughout your entire guard system. Understanding inside ashi entry is fundamental before progressing to more advanced leg entanglements because it teaches the core concepts of angle creation, inside position control, and heel grip mechanics that apply throughout leg locking. For comprehensive grappling systems, inside ashi represents the bridge between traditional positional grappling and submission-oriented leg attack systems."
+}

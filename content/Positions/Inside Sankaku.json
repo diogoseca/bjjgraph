@@ -1,0 +1,692 @@
+{
+  "name": "Inside Sankaku",
+  "slug": "inside-sankaku",
+  "description": "Master Inside Sankaku (Honey Hole) in BJJ. Complete guide covering setup, control mechanics, escapes, and finishing sequences with systematic breakdown.",
+  "variant_uniqueness": "Hip entanglement optimizes inside heel hook angle",
+  "overview": "Inside Sankaku, also known as the 'Honey Hole' or '411', is an advanced leg entanglement position where the opponent's leg is trapped in a figure-four configuration that exposes the inside of their heel. This position is considered one of the most dominant leg entanglements in modern Brazilian Jiu-Jitsu, offering exceptional control and high-percentage submission opportunities. The configuration allows for devastating mechanical advantage in applying inside heel hooks while severely limiting the opponent's defensive options. The position is characterized by the practitioner's legs forming a triangle around the opponent's trapped leg, with the heel facing toward the attacker's centerline. This entanglement emerged as a cornerstone of modern leg lock systems, particularly in no-gi grappling, and has become essential knowledge for advanced practitioners competing in submission-only formats. The position provides superior control over the opponent's hip mobility while creating optimal angles for attacking with the inside heel hook. Understanding the systematic breakdown of defensive barriers - establishing the fundamental entanglement structure, controlling hip mobility, dominating the knee line to prevent rotation, and isolating heel exposure - is critical for success from this position. The strategic trade-off of Inside Sankaku is that while it offers tremendous offensive control, both practitioners are engaged in leg entanglements, requiring the top player to maintain superior positioning and control to prevent counter-attacks. Modern competition has proven this position to be among the highest percentage finishing positions when proper control protocols are followed.",
+  "key_principles": [
+    "Establish and maintain tight hip-to-hip connection to prevent opponent from creating escape space",
+    "Control the knee line barrier to prevent defensive rotation and maintain inside heel exposure",
+    "Systematically break down defensive layers before attempting submission - position before submission",
+    "Maintain proper leg configuration with outside leg crossed over inside leg to secure entanglement",
+    "Distribute weight through hips rather than hands to maximize control pressure on the entanglement",
+    "Remain aware of counter-attack opportunities and protect your own legs while maintaining offensive control",
+    "Use strategic patience to tire opponent's defensive efforts before committing to finishing attacks"
+  ],
+  "related_positions": [
+    {
+      "name": "Outside Ashi-Garami",
+      "relationship": "Primary entry position with similar leg entanglement theory but different heel exposure angle"
+    },
+    {
+      "name": "Saddle",
+      "relationship": "Alternative leg entanglement with both legs trapped, higher control but different submission mechanics"
+    },
+    {
+      "name": "50-50 Guard",
+      "relationship": "Symmetrical leg entanglement that can transition to Inside Sankaku when one player establishes superior positioning"
+    },
+    {
+      "name": "Single Leg X-Guard",
+      "relationship": "Common entry position that facilitates transition into Inside Sankaku"
+    },
+    {
+      "name": "Cross Ashi-Garami",
+      "relationship": "Related entanglement with similar leg configuration but opposite heel exposure"
+    },
+    {
+      "name": "Kneebar Control",
+      "relationship": "Alternative submission option when heel hook defenses are strong"
+    },
+    {
+      "name": "Back Control",
+      "relationship": "Alternative advancement when opponent sacrifices back to defend leg attack"
+    },
+    {
+      "name": "Deep Half Guard",
+      "relationship": "Guard position that can transition to leg entanglements including Inside Sankaku"
+    }
+  ],
+  "top": {
+    "name": "Inside Sankaku Top",
+    "description": "Master Inside Sankaku top perspective. Complete control mechanics, submission paths, and systematic breakdown of defensive barriers.",
+    "tags": [
+      "bjj",
+      "position",
+      "leg_entanglement",
+      "offensive",
+      "inside_sankaku",
+      "top",
+      "advanced"
+    ],
+    "overview": "Inside Sankaku from the top perspective represents one of the most dominant and highly-controlled positions in modern leg lock systems, offering exceptional mechanical advantage for inside heel hook attacks while severely limiting the opponent's defensive and escape options. From this position, the top player has established a figure-four leg entanglement around the opponent's leg with the heel exposed toward their centerline, creating optimal biomechanical alignment for devastating submissions. The position's effectiveness derives from its multi-layered control system - hip-to-hip connection prevents the opponent from creating escape distance, knee line dominance prevents defensive rotation, and the leg configuration itself isolates the trapped limb from defensive resources. Understanding the systematic approach to this position is critical: first establish the fundamental entanglement structure, then secure hip connection, next dominate the knee line, and finally isolate heel exposure before attempting the submission. Many practitioners fail by rushing to the submission before establishing complete positional control, which allows skilled opponents to escape or counter-attack. The top player must also maintain awareness of their own leg positioning, as engagement in leg entanglements creates mutual vulnerability that must be managed through superior positioning and control. Modern competition has proven Inside Sankaku to be among the highest percentage finishing positions, with success rates climbing significantly as practitioners develop systematic understanding of the position's control mechanics. The strategic depth of the position extends beyond simple submission hunting - it can be used to force opponents into bad positions, drain their energy through defensive efforts, and create multiple attack pathways that form dilemmas where every defensive choice opens different offensive opportunities.",
+    "state_properties": {
+      "point_value": 0,
+      "position_type": "Offensive/Controlling",
+      "risk_level": "Medium",
+      "energy_cost": "Medium",
+      "time_sustainability": "Medium"
+    },
+    "state_invariants": [
+      "Opponent's leg is trapped in your figure-four configuration created by your legs, with your outside leg crossing over your inside leg to secure the entanglement at the knee joint",
+      "Your legs form a tight triangle around opponent's trapped leg, with your feet positioned to control the knee line and prevent rotational escape movements",
+      "Inside heel exposure is maintained with the opponent's heel facing toward your centerline, creating optimal mechanical advantage for inside heel hook attacks",
+      "Hip-to-hip connection is established and maintained, with your hips positioned close to opponent's hips to prevent them from creating the distance needed for escape",
+      "Control of opponent's knee line is maintained through precise leg positioning, preventing them from clearing the knee line which would allow defensive rotation",
+      "Your inside leg (the leg on the same side as the trapped leg) hooks under the opponent's thigh to maintain the fundamental entanglement structure"
+    ],
+    "prerequisites": [
+      "Understanding of basic leg entanglement theory and systematic progression",
+      "Knowledge of proper hip positioning and maintenance of connection in leg attacks",
+      "Familiarity with rotational control concepts and knee line theory",
+      "Awareness of competition rule restrictions regarding leg locks in various rulesets",
+      "Development of hip flexibility to maintain proper positioning throughout control",
+      "Understanding of inside heel hook mechanics, application, and safety protocols"
+    ],
+    "key_principles": [
+      "Control opponent's hip mobility through proper leg positioning and maintaining tight hip-to-hip connection throughout the entanglement",
+      "Maintain the knee line control to prevent defensive rotation by keeping your legs configured to block opponent's ability to turn into you",
+      "Create and maintain proper angles for inside heel hook by positioning opponent's heel toward your centerline with optimal leverage",
+      "Establish strong hip connection to prevent escapes by keeping your hips close to opponent's hips and eliminating space",
+      "Isolate the trapped leg from defensive resources by controlling the knee joint and preventing opponent from using their free leg effectively",
+      "Control upper body positioning when possible to prevent counters, particularly being aware of opponent's ability to attack your legs",
+      "Distribute weight strategically to maintain control while preparing for submission attempts without sacrificing positional security"
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "Your opponent starts pumping their hips backward to create space - what adjustment do you make to maintain control?",
+        "answer": "Follow their hip movement by driving your own hips forward while maintaining the figure-four leg configuration. Use your core to close the distance they create. Your outside leg should actively pull their knee toward you as you advance your hips, preventing them from extracting the trapped leg. The key is anticipating the movement and matching their hip escape with your own forward pressure."
+      },
+      {
+        "question": "What are the three essential control points that must be established before attempting the inside heel hook?",
+        "answer": "The three essential control points are: (1) Hip-to-hip connection - your hips must be tight against opponent's hips to prevent escape distance, (2) Knee line control - your legs must block their ability to rotate their knee past the barrier created by your leg configuration, and (3) Proper heel exposure - the heel must be facing toward your centerline with your grip positioning established. Only when all three are secured should you commit to the submission."
+      },
+      {
+        "question": "How do you shut down the primary escape when your opponent attempts to clear the knee line by rotating away?",
+        "answer": "When they rotate away attempting to clear the knee line, immediately adjust your outside leg to follow their movement and maintain the barrier. Drive your hips forward and angle slightly to cut off their rotation path. If they continue the rotation, be ready to transition to Outside Ashi-Garami where you can attack the outside heel hook instead. The rotation that clears one heel hook often exposes the other."
+      },
+      {
+        "question": "What grip configuration provides the strongest control for the inside heel hook finish?",
+        "answer": "The optimal grip uses a two-on-one configuration where both hands control the ankle and heel. Your blade hand (the hand closer to the heel) wraps around the Achilles tendon with the blade of your wrist positioned against the heel. Your secondary hand grabs your own wrist or forearm to reinforce the position. Keep elbows tight to your body and the foot tucked into your armpit for maximum breaking power."
+      },
+      {
+        "question": "Your opponent hides their heel by pressing it against their own hip - what pressure application forces the exposure?",
+        "answer": "Apply consistent hip pressure forward while using your inside leg to elevate their knee slightly. This creates tension on their hip flexor and makes maintaining the hidden heel position exhausting. Alternatively, transition to toe hold attack which targets the foot regardless of heel hiding. The pressure forces them to choose between exhaustion defending heel exposure or accepting a different submission threat."
+      },
+      {
+        "question": "What movement indicates your opponent is about to attempt a rolling escape, and how do you counter it?",
+        "answer": "The tell-tale signs are: shoulder dipping toward the mat, head turning toward their trapped leg, and hip loading to initiate the roll. Counter by immediately driving your weight down into the entanglement, pulling their trapped knee tighter to your body, and using your outside hand to post or grab their far hip to prevent the rotation. If they commit fully, follow the roll and transition to Saddle for even tighter control."
+      },
+      {
+        "question": "How do you manage energy expenditure while maintaining Inside Sankaku against an opponent who is actively defending?",
+        "answer": "Distribute weight through your hips rather than using arm strength for control. Maintain steady, consistent pressure rather than explosive movements that drain energy quickly. Let the position do the work - the mechanical advantage of the entanglement means small adjustments maintain control against larger escape efforts. Be patient and wait for them to tire from defensive efforts before committing to submission attempts."
+      },
+      {
+        "question": "Your opponent has partially extracted their leg but hasn't fully escaped - how do you recover full control?",
+        "answer": "Immediately re-engage your inside leg hook under their thigh while driving your hips forward to close the gap. Use your outside leg to recapture knee line control by pressing down on their leg above the knee. Grab their ankle with your hands to prevent further extraction while your legs reestablish the full figure-four configuration. The key is quick reaction - once they fully extract, recovery becomes exponentially harder."
+      }
+    ],
+    "decision_tree": [
+      {
+        "condition": "If opponent maintains defensive posture and protects heel by keeping it hidden",
+        "actions": [
+          {
+            "technique": "Hip pressure application",
+            "target": "Inside Sankaku",
+            "probability": 70
+          },
+          {
+            "technique": "Toe Hold transition",
+            "target": "game-over",
+            "probability": 60
+          },
+          {
+            "technique": "Kneebar attack",
+            "target": "game-over",
+            "probability": 55
+          }
+        ]
+      },
+      {
+        "condition": "If opponent attempts to clear knee line by rotating away from you",
+        "actions": [
+          {
+            "technique": "Outside Ashi Entry",
+            "target": "Outside Ashi-Garami",
+            "probability": 65
+          },
+          {
+            "technique": "Position maintenance with leg adjustment",
+            "target": "Inside Sankaku",
+            "probability": 60
+          },
+          {
+            "technique": "Outside Heel Hook",
+            "target": "game-over",
+            "probability": 50
+          }
+        ]
+      },
+      {
+        "condition": "If opponent turns into you attempting to pass knee line and stack",
+        "actions": [
+          {
+            "technique": "Saddle Entry",
+            "target": "Saddle",
+            "probability": 70
+          },
+          {
+            "technique": "Leg position adjustment",
+            "target": "Inside Sankaku",
+            "probability": 60
+          },
+          {
+            "technique": "Rolling Back Take",
+            "target": "Back Control",
+            "probability": 55
+          }
+        ]
+      },
+      {
+        "condition": "If opponent attempts to stand up or create vertical distance",
+        "actions": [
+          {
+            "technique": "Hip elevation and entanglement maintenance",
+            "target": "Inside Sankaku",
+            "probability": 65
+          },
+          {
+            "technique": "Single Leg X-Guard transition",
+            "target": "Single Leg X-Guard",
+            "probability": 55
+          },
+          {
+            "technique": "Sweep to top position",
+            "target": "Mount",
+            "probability": 50
+          }
+        ]
+      },
+      {
+        "condition": "If opponent exposes heel and you have optimal submission angle established",
+        "actions": [
+          {
+            "technique": "Inside Heel Hook finish",
+            "target": "game-over",
+            "probability": 75
+          },
+          {
+            "technique": "Toe Hold finish",
+            "target": "game-over",
+            "probability": 50
+          }
+        ]
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Poor hip connection - maintaining too much distance from opponent's hips",
+        "consequence": "Opponent easily creates space to escape the entanglement and extract their trapped leg, nullifying all control and submission threats",
+        "correction": "Keep hips tight to opponent's hips at all times, using your core strength to maintain connection and eliminate space, adjusting your position to stay connected as they move"
+      },
+      {
+        "error": "Failure to control knee line - allowing opponent to clear the knee line barrier",
+        "consequence": "Opponent can rotate defensively to neutralize the inside heel hook angle and potentially escape or counter-attack your legs",
+        "correction": "Maintain proper leg configuration with your outside leg crossed over to block knee line, actively adjusting leg position to prevent opponent from turning through"
+      },
+      {
+        "error": "Crossing ankles improperly - locking ankles in a way that reduces control or creates vulnerability",
+        "consequence": "Weakened positional control, potential for ankle injury, and creation of escape opportunities for opponent through the weakened structure",
+        "correction": "Cross your outside leg over your inside leg at the proper angle, maintaining flexibility in the ankle lock and being ready to adjust as needed for control"
+      },
+      {
+        "error": "Hunting submissions prematurely - attacking heel hook before establishing complete positional control",
+        "consequence": "Loss of position as opponent exploits your premature attack to escape, potentially allowing them to pass or counter-attack your legs",
+        "correction": "Establish all control points first (hip connection, knee line control, proper angle) before committing to the submission, following systematic breakdown of defenses"
+      },
+      {
+        "error": "Neglecting upper body awareness - focusing only on leg control while ignoring opponent's upper body",
+        "consequence": "Opponent may attack your legs, establish grips that aid their escape, or use upper body positioning to create leverage for defensive movements",
+        "correction": "Maintain awareness of opponent's upper body positioning, control their hands when possible, and be prepared to defend counter-attacks while maintaining leg entanglement"
+      },
+      {
+        "error": "Incorrect weight distribution - putting too much weight on hands or upper body instead of hips",
+        "consequence": "Reduced control pressure on the entanglement, making it easier for opponent to move and escape while tiring your arms unnecessarily",
+        "correction": "Distribute weight primarily through your hips into the entanglement point, using hands for balance and adjustment rather than primary pressure"
+      },
+      {
+        "error": "Attacking wrong heel - confusing inside and outside heel hook positions and angles",
+        "consequence": "Ineffective submission attempts with poor mechanical advantage, wasted energy, and potential loss of position",
+        "correction": "Verify heel position (heel toward your centerline equals inside heel hook), understand the mechanical difference, and attack only when proper angle is established"
+      }
+    ],
+    "training_drills": [
+      {
+        "name": "Inside Sankaku Entry Drilling",
+        "description": "Practice entering Inside Sankaku from various positions including Outside Ashi-Garami, Single Leg X-Guard, and 50-50 Guard. Partner provides light resistance while you focus on proper leg configuration, hip connection, and knee line control. Emphasis on smooth transitions and maintaining control throughout entry.",
+        "duration": "5-10 minutes"
+      },
+      {
+        "name": "Knee Line Maintenance Against Resistance",
+        "description": "Partner actively attempts to clear the knee line using various defensive rotations while you maintain Inside Sankaku position. Focus on adjusting your leg position, hip pressure, and angle to prevent their defensive movements. Progress from light to moderate resistance.",
+        "duration": "3-5 minutes"
+      },
+      {
+        "name": "Hip Connection and Control Drills",
+        "description": "Partner attempts to create distance and escape while you maintain tight hip connection in Inside Sankaku. Practice following their movements, adjusting your position, and using core strength to eliminate space. Emphasize maintaining connection without using excessive grip strength.",
+        "duration": "4-6 minutes"
+      },
+      {
+        "name": "Submission Chain Drilling",
+        "description": "Flow drill starting from Inside Sankaku, attempting inside heel hook, then transitioning to toe hold, kneebar, or position changes based on partner's defensive reactions. Build muscle memory for common defensive patterns and appropriate responses.",
+        "duration": "5-10 minutes"
+      },
+      {
+        "name": "Positional Sparring from Inside Sankaku",
+        "description": "Start in established Inside Sankaku position. Top player works to maintain position and finish submissions while bottom player works to escape. Reset when position is lost or submission is achieved. Build live understanding of position dynamics.",
+        "duration": "5-8 minutes"
+      }
+    ],
+    "related_content": [
+      {
+        "name": "Outside Ashi-Garami",
+        "relationship": "Common entry position - frequently transitioned from to enter Inside Sankaku"
+      },
+      {
+        "name": "Saddle",
+        "relationship": "Related leg entanglement - similar control concepts with different angle and both legs trapped"
+      },
+      {
+        "name": "50-50 Guard",
+        "relationship": "Alternative leg entanglement - can transition between positions based on opponent defense"
+      },
+      {
+        "name": "Single Leg X-Guard",
+        "relationship": "Entry position - common pathway to Inside Sankaku from standing or guard"
+      },
+      {
+        "name": "Inside Heel Hook",
+        "relationship": "Primary submission - the main finishing technique from this position"
+      },
+      {
+        "name": "Toe Hold",
+        "relationship": "Alternative submission - attacked when heel is hidden or defended"
+      },
+      {
+        "name": "Cross Ashi-Garami",
+        "relationship": "Related position - similar leg configuration with different attacking opportunities"
+      },
+      {
+        "name": "Back Control",
+        "relationship": "Transition target - available when opponent gives back defending leg attack"
+      },
+      {
+        "name": "Honey Hole",
+        "relationship": "Alternative name for Inside Sankaku - same position with different terminology"
+      },
+      {
+        "name": "Kneebar Control",
+        "relationship": "Alternative finishing position when heel hook defenses are effective"
+      }
+    ],
+    "position_metrics": {
+      "retention_rate": {
+        "value": 70,
+        "description": "Ability to maintain position against escape attempts"
+      },
+      "advancement_probability": {
+        "value": 65,
+        "description": "Probability of advancing to submission or better position"
+      },
+      "submission_probability": {
+        "value": 55,
+        "description": "Probability of finishing submission from this position"
+      },
+      "average_time": "30-90 seconds before submission or position change"
+    },
+    "transitions": [
+      {
+        "transition": "Heel Hook",
+        "attempt_probability": 40
+      },
+      {
+        "transition": "Toe Hold",
+        "attempt_probability": 10
+      },
+      {
+        "transition": "Outside Ashi Entry",
+        "attempt_probability": 8
+      },
+      {
+        "transition": "Saddle Entry from Top",
+        "attempt_probability": 8
+      },
+      {
+        "transition": "50-50 Entry",
+        "attempt_probability": 3
+      },
+      {
+        "transition": "Kneebar Finish",
+        "attempt_probability": 8
+      },
+      {
+        "transition": "Calf Slicer",
+        "attempt_probability": 3
+      },
+      {
+        "transition": "Rolling Back Take",
+        "attempt_probability": 10
+      },
+      {
+        "transition": "Inside Ashi-Garami to Honey Hole",
+        "attempt_probability": 6
+      },
+      {
+        "transition": "Inside Sankaku Heel Hook",
+        "attempt_probability": 1
+      },
+      {
+        "transition": "Inside Sankaku to Saddle",
+        "attempt_probability": 1
+      },
+      {
+        "transition": "Inside Sankaku Heel Hook Finish",
+        "attempt_probability": 2
+      }
+    ]
+  },
+  "bottom": {
+    "name": "Inside Sankaku Bottom",
+    "description": "Master Inside Sankaku bottom perspective. Defensive strategies, escape mechanics, and counter-attack options from the defending position.",
+    "tags": [
+      "bjj",
+      "position",
+      "leg_entanglement",
+      "defensive",
+      "inside_sankaku",
+      "bottom",
+      "advanced"
+    ],
+    "overview": "From the bottom perspective of Inside Sankaku, the practitioner finds themselves with their leg trapped in the opponent's figure-four entanglement, facing one of the most dangerous positions in modern leg lock systems. The bottom player's primary objective is immediate escape, as remaining in this position exposes them to high-percentage inside heel hook attacks with limited defensive options. Understanding the mechanics of how the position controls you is essential for developing effective escape strategies. The top player maintains control through hip-to-hip connection, knee line dominance, and proper leg configuration - each of these control points must be systematically addressed in the escape sequence. The bottom perspective requires recognizing the urgency of the situation while maintaining composure to execute technical escapes rather than panicking into worse positions. Common defensive priorities include protecting the heel by keeping it hidden against your own hip, preventing the top player from establishing optimal submission angles, and creating the space necessary to extract the trapped leg. Many practitioners make the critical error of attempting to pass the knee line by turning into the top player, which often leads directly into the Saddle position or exposes the heel more completely. Instead, effective defense focuses on hip mobility, creating angles that diminish the top player's control, and systematically working through escape protocols. The bottom player must also be aware that desperation attempts to escape can result in injury if the top player has already established submission grips, making it essential to defend the submission first before attempting positional escapes. Understanding both the offensive mechanics from the top perspective and defensive requirements from bottom creates a complete picture of this position's dynamics.",
+    "state_properties": {
+      "point_value": 0,
+      "position_type": "Defensive",
+      "risk_level": "High",
+      "energy_cost": "High",
+      "time_sustainability": "Short"
+    },
+    "state_invariants": [
+      "Your leg is trapped in opponent's figure-four configuration with their outside leg crossed over their inside leg at your knee joint, severely limiting your leg mobility",
+      "Opponent maintains hip-to-hip connection with their hips positioned close to yours, preventing you from creating the distance needed for leg extraction",
+      "Your heel is exposed toward opponent's centerline in the inside heel hook position, creating immediate submission danger that must be defended",
+      "Opponent's legs control your knee line, preventing you from performing the rotational movements that would normally facilitate escape from leg entanglements",
+      "Your trapped leg's hip mobility is restricted by the entanglement structure, limiting your ability to generate the power needed for explosive escape movements",
+      "Upper body positioning is often compromised with opponent controlling grips or maintaining distance that prevents you from attacking their legs effectively"
+    ],
+    "prerequisites": [
+      "Understanding of leg entanglement escape theory and systematic defense protocols",
+      "Knowledge of inside heel hook mechanics to understand the submission threat being defended",
+      "Familiarity with knee line concepts and how rotational control prevents escapes",
+      "Development of hip flexibility to facilitate escape movements",
+      "Understanding of when to tap to prevent injury from heel hooks",
+      "Awareness of legal positions and submissions based on competition ruleset"
+    ],
+    "key_principles": [
+      "Protect your heel immediately by hiding it against your own hip to prevent optimal submission angle",
+      "Never turn into opponent attempting to pass knee line as this leads directly to Saddle position",
+      "Create hip mobility and space before attempting leg extraction - distance is the key to escape",
+      "Address the submission threat first before attempting positional escapes to prevent injury",
+      "Use technical escapes rather than explosive movements that can result in injury if submission is locked",
+      "Maintain awareness of opponent's upper body positioning to prevent them from consolidating control",
+      "Recognize when the position is lost and tap early rather than risking serious knee or ankle injury"
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "Your opponent has established Inside Sankaku and is reaching for your heel - what is your immediate defensive priority?",
+        "answer": "Immediately hide your heel by pressing it tightly against your own hip, turning your toes inward and your knee outward to create maximum protection. Your hand closest to the trapped leg should reach down to grab your own foot or ankle to assist in keeping the heel hidden. This buys time to address the positional aspects of the escape and prevents the submission from being locked before you can create space."
+      },
+      {
+        "question": "What body positioning mistake most commonly leads to transitioning from Inside Sankaku into an even worse position like Saddle?",
+        "answer": "The most common mistake is turning into the opponent attempting to pass the knee line. When you rotate toward them, you actually assist their entry into the Saddle by bringing your second leg into the entanglement. The correct escape direction is always away from the opponent - create distance by moving your hips backward and away, not through them. This fundamental directional error accounts for most Saddle transitions from Inside Sankaku."
+      },
+      {
+        "question": "How do you know when to tap versus when escape is still possible in Inside Sankaku?",
+        "answer": "Tap immediately when: (1) opponent has secured a firm two-on-one grip on your heel with their wrist blade positioned against the Achilles, (2) you feel rotational pressure beginning on your heel, or (3) you cannot freely move your foot within their grip. If your heel is still hidden, they don't have grip control, or you can still rotate your foot, escape is possible. The inside heel hook can cause career-ending injury in milliseconds once locked - there is no time to assess mid-submission."
+      },
+      {
+        "question": "Your opponent momentarily loses hip connection while adjusting their grip - what escape opportunity does this create?",
+        "answer": "The loss of hip connection is your primary escape window. Immediately pump your hips backward to extend the distance, using your free leg to push off their hip or the mat. As you create space, begin extracting your trapped leg by pulling your knee toward your chest while your hips move away. Your goal is to create enough distance that their leg configuration can no longer maintain the figure-four around your leg. Speed is critical - this window closes quickly."
+      },
+      {
+        "question": "What are the essential grips or frames you need to establish for a successful hip escape from Inside Sankaku?",
+        "answer": "Establish frames using: (1) your near-side hand controlling their knee or leg to prevent them from following your hip movement, (2) your far-side hand either posting on the mat for hip mobility or reaching down to assist heel protection, and (3) your free leg positioned to push off their hip, the mat, or to hook their leg for counter-leverage. The frames create the structural support needed to generate hip escape power while maintaining heel protection."
+      },
+      {
+        "question": "If a Granby roll escape attempt fails and you end up in Turtle, what position are you likely transitioning to?",
+        "answer": "A failed Granby roll from Inside Sankaku typically transitions you to Turtle position with your opponent in a seated or kneeling position behind you, still potentially controlling your trapped leg. From here, you've escaped the immediate heel hook danger but face back exposure threats. The opponent may pursue back control or attempt to re-enter leg entanglements. Protect your neck and establish defensive grips to prevent seatbelt control while you work to recompose to guard."
+      },
+      {
+        "question": "When is attempting a counter leg attack a viable strategy from Inside Sankaku bottom?",
+        "answer": "Counter leg attacks are viable when: (1) the opponent is focused on submission grips rather than positional control, creating upper body openings, (2) you can reach their free leg or expose their heel without worsening your heel exposure, or (3) you can transition to 50-50 guard where the entanglement becomes symmetrical. This is generally a last-resort strategy for experienced practitioners - prioritize escape over counter-attack unless escape has failed repeatedly and you have clear access to their leg."
+      },
+      {
+        "question": "How do you manage defensive energy expenditure when trapped in Inside Sankaku against a patient opponent?",
+        "answer": "Avoid constant explosive escape attempts that drain energy quickly. Instead, protect your heel using positional defense (hiding heel against hip) which requires minimal energy. Wait for the opponent to create escape windows through their own movements rather than forcing opportunities. When they adjust grips or position, use that moment for controlled technical escapes. Frantic struggling accelerates exhaustion and increases injury risk - systematic defense with patient timing is more sustainable."
+      }
+    ],
+    "decision_tree": [
+      {
+        "condition": "If opponent has not yet established full control and submission grips",
+        "actions": [
+          {
+            "technique": "Immediate hip escape and leg extraction",
+            "target": "Open Guard",
+            "probability": 45
+          },
+          {
+            "technique": "Frame creation and distance generation",
+            "target": "Half Guard",
+            "probability": 40
+          },
+          {
+            "technique": "Counter leg attack",
+            "target": "50-50 Guard",
+            "probability": 35
+          }
+        ]
+      },
+      {
+        "condition": "If opponent has established strong position but no submission grip yet",
+        "actions": [
+          {
+            "technique": "Heel protection and defensive posture",
+            "target": "Inside Sankaku",
+            "probability": 60
+          },
+          {
+            "technique": "Granby roll escape attempt",
+            "target": "Turtle",
+            "probability": 30
+          },
+          {
+            "technique": "Technical standup",
+            "target": "Standing Position",
+            "probability": 25
+          }
+        ]
+      },
+      {
+        "condition": "If opponent has established submission grip on your heel",
+        "actions": [
+          {
+            "technique": "Immediate tap if fully locked",
+            "target": "game-over",
+            "probability": 100
+          },
+          {
+            "technique": "Last resort rolling escape",
+            "target": "Turtle",
+            "probability": 15
+          }
+        ]
+      },
+      {
+        "condition": "If opponent loses hip connection or creates space",
+        "actions": [
+          {
+            "technique": "Explosive leg extraction",
+            "target": "Open Guard",
+            "probability": 55
+          },
+          {
+            "technique": "Hip escape to guard recovery",
+            "target": "Half Guard",
+            "probability": 50
+          },
+          {
+            "technique": "Technical standup",
+            "target": "Standing Position",
+            "probability": 40
+          }
+        ]
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Turning into opponent trying to pass knee line",
+        "consequence": "Leads directly into Saddle position with even worse control and heel exposure",
+        "correction": "Escape by creating distance and moving away from opponent, not through them"
+      },
+      {
+        "error": "Attempting explosive movements when submission is locked",
+        "consequence": "Severe knee and ankle ligament damage from forcing movement against locked heel hook",
+        "correction": "Tap immediately when submission is locked rather than attempting escape"
+      },
+      {
+        "error": "Neglecting heel protection while attempting escape",
+        "consequence": "Heel becomes fully exposed during escape attempt, allowing opponent easy submission finish",
+        "correction": "Keep heel hidden against your own hip throughout entire escape sequence"
+      },
+      {
+        "error": "Giving up back position to escape leg entanglement",
+        "consequence": "Trades one dangerous position for another, giving up points and back control",
+        "correction": "Focus on technical leg extraction rather than sacrificing back"
+      },
+      {
+        "error": "Failing to address submission threat before positional escape",
+        "consequence": "Opponent finishes submission during your escape attempt",
+        "correction": "Defend submission first, then work on positional escape only when safe"
+      },
+      {
+        "error": "Losing composure and panicking",
+        "consequence": "Poor decision making, wasted energy, and increased injury risk from frantic movements",
+        "correction": "Stay calm, follow systematic escape protocols, tap when necessary"
+      }
+    ],
+    "training_drills": [
+      {
+        "name": "Inside Sankaku Escape Drilling",
+        "description": "Partner establishes Inside Sankaku position without submission grip. Practice systematic escape sequences focusing on heel protection, creating distance, and leg extraction. Partner provides progressive resistance from cooperative to moderate.",
+        "duration": "5-8 minutes"
+      },
+      {
+        "name": "Submission Defense Protocol",
+        "description": "Partner establishes Inside Sankaku and slowly applies submission pressure. Practice recognizing submission danger, protecting heel, and understanding when to tap. Focus on defensive positioning rather than escape.",
+        "duration": "3-5 minutes"
+      },
+      {
+        "name": "Granby Roll Escape Drilling",
+        "description": "Specific drilling of Granby roll escape from Inside Sankaku. Practice timing, direction, and maintaining heel protection throughout the rolling movement. Partner attempts to follow and maintain position.",
+        "duration": "4-6 minutes"
+      },
+      {
+        "name": "Counter Leg Attack Drilling",
+        "description": "When opponent establishes Inside Sankaku, practice entering your own leg attacks to neutralize their position. Focus on transitioning to 50-50 or other positions where mutual entanglement reduces their control.",
+        "duration": "5-7 minutes"
+      }
+    ],
+    "related_content": [
+      {
+        "name": "Inside Sankaku",
+        "relationship": "Opposite perspective - understanding offensive mechanics aids defensive strategy"
+      },
+      {
+        "name": "Saddle",
+        "relationship": "Common transition when bottom player makes escape errors"
+      },
+      {
+        "name": "50-50 Guard",
+        "relationship": "Counter-attack destination that neutralizes opponent's positional advantage"
+      },
+      {
+        "name": "Inside Heel Hook",
+        "relationship": "Primary submission threat that must be defended from this position"
+      },
+      {
+        "name": "Turtle",
+        "relationship": "Common escape destination after Granby roll or failed extraction attempts"
+      },
+      {
+        "name": "Open Guard",
+        "relationship": "Primary escape destination after successful leg extraction"
+      },
+      {
+        "name": "Half Guard",
+        "relationship": "Alternative guard recovery position during escape sequence"
+      }
+    ],
+    "position_metrics": {
+      "retention_rate": {
+        "value": 28,
+        "description": "Ability to prevent opponent from advancing to submission"
+      },
+      "advancement_probability": {
+        "value": 32,
+        "description": "Probability of escaping to better position"
+      },
+      "submission_probability": {
+        "value": 12,
+        "description": "Probability of counter-attacking successfully"
+      },
+      "average_time": "15-45 seconds before submission or escape"
+    },
+    "transitions": [
+      {
+        "transition": "Hip Escape to Guard",
+        "attempt_probability": 14
+      },
+      {
+        "transition": "Granby Roll to Guard",
+        "attempt_probability": 13
+      },
+      {
+        "transition": "Technical Stand-up",
+        "attempt_probability": 5
+      },
+      {
+        "transition": "Counter Leg Attack",
+        "attempt_probability": 9
+      },
+      {
+        "transition": "Frame and Extract to Half Guard",
+        "attempt_probability": 26
+      },
+      {
+        "transition": "Counter-entangle to 50-50 Guard",
+        "attempt_probability": 17
+      },
+      {
+        "transition": "Angle Change Escape",
+        "attempt_probability": 6
+      },
+      {
+        "transition": "Ashi Garami Escape",
+        "attempt_probability": 7
+      },
+      {
+        "transition": "Sweep from Inside Sankaku",
+        "attempt_probability": 3
+      }
+    ]
+  }
+}

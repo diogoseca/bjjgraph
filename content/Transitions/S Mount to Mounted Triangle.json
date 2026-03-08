@@ -1,0 +1,422 @@
+{
+  "name": "S Mount to Mounted Triangle",
+  "description": "Master the S Mount to Mounted Triangle transition in BJJ. Learn leg threading mechanics, triangle lock timing, submission chains, and how to counter defensive reactions.",
+  "tags": [
+    "transition",
+    "mount-attack",
+    "triangle-setup",
+    "submission-chain",
+    "s-mount",
+    "mounted-triangle",
+    "advanced"
+  ],
+  "from_position": "S Mount/Top",
+  "outcomes": [
+    {
+      "to": "Mounted Triangle/Top",
+      "probability": 55,
+      "result": "success"
+    },
+    {
+      "to": "S Mount/Top",
+      "probability": 30,
+      "result": "failure"
+    },
+    {
+      "to": "Half Guard/Bottom",
+      "probability": 15,
+      "result": "counter"
+    }
+  ],
+  "success_rate": 55,
+  "overview": "The S Mount to Mounted Triangle transition represents one of the most natural submission chains in Brazilian Jiu-Jitsu, capitalizing on a common defensive reaction to armbar threats from S Mount. When the bottom player successfully defends the armbar by bending their arm, clasping their hands, or tucking their elbow tight, the top practitioner can redirect the attack by threading their leg under the opponent's chin to establish a mounted triangle configuration. The leg already positioned over the opponent's head in S Mount provides the structural foundation, making this thread mechanically efficient when executed with proper timing.\n\nThis transition exploits the fundamental defensive dilemma created by S Mount: the opponent must choose between defending arm extension, which invites the triangle, or keeping their arm extended, which invites the armbar. Recognizing this defensive reaction early and committing to the triangle entry before the opponent can retract their arm and re-establish posture is the critical timing element. The hip angle adjustment that precedes the leg thread determines whether the triangle locks cleanly or leaves gaps the defender can exploit.\n\nThe mounted triangle position offers distinct advantages over forcing a contested armbar from S Mount. The triangle configuration creates choking pressure through leg compression while simultaneously threatening the trapped arm with armbar mechanics. This dual threat forces the defender into increasingly narrow defensive options, often resulting in submission or positional advancement to back control when the opponent turns away from the choking pressure. At the highest levels, this transition is a cornerstone of the mount-to-submission chain, appearing in the games of elite competitors who use S Mount as a systematic launching platform for multiple finishing sequences.",
+  "conditions": [
+    "Established S Mount control with near leg over opponent's head and arm isolated between your legs",
+    "Opponent actively defending armbar by bending arm, clasping hands, or gripping their own collar",
+    "Opponent's near arm remains between your legs and has not been fully extracted to safety",
+    "Your base is stable enough to execute the leg threading motion without being displaced by bridging",
+    "Sufficient space exists between opponent's chin and your thigh to thread the leg into triangle position"
+  ],
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Direct Thread from Armbar Defense",
+      "description": "When the opponent clasps their hands together to defend the armbar, thread your head-side leg directly under their chin while maintaining wrist control on the trapped arm. The clasped hands create a fixed arm position that makes the triangle entry predictable and clean.",
+      "when_to_use": "Use when opponent commits both hands to armbar defense by clasping or gripping, leaving their neck exposed and their arms in a fixed configuration that facilitates the triangle lock."
+    },
+    {
+      "variant_name": "Arm Push Assisted Entry",
+      "description": "Push the opponent's defending arm across their centerline toward the far side of their body using your near hand, then thread your leg under the chin as the arm crosses the midline. This forces the arm into the triangle space and creates the angle needed for the lock.",
+      "when_to_use": "Use when the opponent keeps their arm bent but refuses to clasp hands, making the direct thread difficult. The arm push creates the necessary angle and positioning for the triangle configuration."
+    },
+    {
+      "variant_name": "Gift Wrap to Triangle Entry",
+      "description": "Secure a gift wrap by controlling the opponent's far wrist and feeding it under their head to your opposite hand. With the arm trapped across their face, thread your leg under their chin for the mounted triangle. The gift wrap eliminates the free arm as a defensive tool.",
+      "when_to_use": "Use when the opponent's free arm is causing problems by framing against your hip or blocking leg movement. The gift wrap neutralizes both arms simultaneously and creates a clean path for the triangle thread."
+    }
+  ],
+  "position_integration": "The S Mount to Mounted Triangle transition occupies a critical position in the mount submission chain, serving as the primary alternative attack when the armbar from S Mount is well-defended. This creates a branching decision tree from S Mount where armbar defense leads to triangle, triangle defense can circle back to armbar, and turning away from either opens the back take. The mounted triangle itself becomes a hub position with its own submission and transition chains, making this single transition the gateway to an entire secondary attack system. Understanding this transition transforms S Mount from a single-submission position into a multi-threat platform that is exponentially harder to defend, and it integrates seamlessly with high mount and standard mount attack sequences to form a complete top-position submission architecture.",
+  "related_content": [
+    {
+      "name": "S Mount",
+      "relationship": "Starting position - S Mount provides the arm isolation and leg-over-head configuration that enables the triangle entry"
+    },
+    {
+      "name": "Mounted Triangle",
+      "relationship": "Target position - the mounted triangle control position where triangle choke and armbar threats converge"
+    },
+    {
+      "name": "S Mount Armbar Setup",
+      "relationship": "Primary alternative attack - armbar and triangle form the core S Mount submission dilemma"
+    },
+    {
+      "name": "Mounted Triangle Squeeze",
+      "relationship": "Follow-up technique - finishing the triangle choke from the mounted triangle position achieved by this transition"
+    },
+    {
+      "name": "Mounted Triangle Finish",
+      "relationship": "Terminal submission - the mounted triangle choke finish that this transition sets up"
+    },
+    {
+      "name": "Armbar from S Mount",
+      "relationship": "Chain partner submission - opponent defending this armbar creates the opening for the triangle transition"
+    },
+    {
+      "name": "High Mount",
+      "relationship": "Entry position - high mount flows to S Mount which flows to mounted triangle in the submission progression"
+    },
+    {
+      "name": "Mount",
+      "relationship": "Base position - the standard mount from which the entire S Mount to triangle chain originates"
+    },
+    {
+      "name": "Back Control",
+      "relationship": "Alternative advancement - available when opponent turns away during the triangle threading attempt"
+    },
+    {
+      "name": "Gift Wrap",
+      "relationship": "Setup control - gift wrap arm control facilitates the triangle entry by neutralizing defensive framing"
+    },
+    {
+      "name": "High Mount to S Mount",
+      "relationship": "Preceding transition - the entry sequence that establishes the S Mount position from which this technique launches"
+    },
+    {
+      "name": "Mounted Triangle to S Mount",
+      "relationship": "Reverse transition - returning to S Mount when the mounted triangle is not finishing"
+    }
+  ],
+  "attacker": {
+    "name": "S Mount to Mounted Triangle Attacker",
+    "description": "Execute the S Mount to Mounted Triangle transition with precision. Master leg threading timing, arm control maintenance, and triangle lock mechanics to chain submissions from dominant mount position.",
+    "overview": "Attacking the mounted triangle from S Mount requires recognizing the specific defensive reactions that create the opening and executing the leg thread with technical precision while maintaining continuous arm control. The transition exploits the natural defensive dilemma of S Mount: when the opponent bends their arm to prevent armbar extension, they position their arm inside the triangle space and expose their neck to the threading leg. The attacker must coordinate hip adjustment, leg movement, and arm control simultaneously, threading the leg that is already over the opponent's head under their chin while keeping the trapped arm secured between their legs. Timing is critical because the window between armbar defense and triangle entry is narrow, and premature or telegraphed movements allow the defender to extract their arm or create frames that prevent the lock. The transition rewards patience in reading defensive reactions and decisiveness in executing the thread once the opening presents itself.",
+    "key_principles": [
+      "Recognize armbar defense as a triangle opportunity rather than forcing a contested submission against a well-defended arm",
+      "Maintain continuous two-on-one arm control throughout the transition to prevent the opponent from extracting their arm during the threading motion",
+      "Adjust hip angle before threading the leg to create the path under the chin without lifting your weight off the opponent's torso",
+      "Thread the leg smoothly and deliberately under the chin rather than kicking or forcing it, which creates space for escape",
+      "Lock the triangle figure-four configuration immediately after threading before adjusting angle or pursuing the finish",
+      "Keep your weight distributed across the opponent's torso throughout the transition to prevent explosive bridge escapes during the positional change"
+    ],
+    "setup_requirements": [
+      "Established S Mount control with your near leg extended over the opponent's head and foot planted firmly on the mat",
+      "Opponent's near arm is isolated between your legs and they are actively defending the armbar by bending the arm or clasping hands",
+      "Your hips are tight against the opponent's shoulder with sufficient weight preventing them from creating escape space",
+      "The opponent's free arm is controlled or accounted for so it cannot block your leg threading motion",
+      "Your base is stable enough to execute the hip adjustment and leg thread without being displaced by bridging or shrimping"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Recognize the armbar defense pattern",
+        "description": "Observe the opponent bending their trapped arm, clasping hands together, or gripping their own collar to prevent arm extension. This defensive reaction positions their arm inside the triangle space and signals the transition opportunity. Do not continue forcing the armbar against this defense."
+      },
+      {
+        "step_number": 2,
+        "action": "Secure arm control with both hands",
+        "description": "Establish two-on-one control on the opponent's trapped arm at the wrist and elbow. This prevents them from extracting the arm during the transition. Your grip does not need to extend the arm for armbar; it only needs to keep the arm positioned between your legs where it will be trapped by the triangle."
+      },
+      {
+        "step_number": 3,
+        "action": "Adjust hip angle toward opponent's head",
+        "description": "Shift your hips slightly toward the opponent's head by scooting forward, creating the angle needed to slide your leg under their chin. This adjustment should be subtle and weight-bearing, not a dramatic movement that lifts pressure off their torso and allows bridging. Think of angling your hips five to ten degrees rather than a full rotation."
+      },
+      {
+        "step_number": 4,
+        "action": "Thread leg under opponent's chin",
+        "description": "Slide your head-side leg (the one already over their head) down and under the opponent's chin, curling your calf under their neck. The motion is a controlled sliding action, not a kick or stomp. Your knee should end up positioned on the far side of their head with your calf pressing against the near side of their neck, creating the choking angle for the triangle."
+      },
+      {
+        "step_number": 5,
+        "action": "Lock the triangle figure-four",
+        "description": "Once your leg is threaded under the chin, hook your ankle behind your opposite knee to create the figure-four triangle lock. Squeeze your knees together to tighten the configuration around the opponent's neck and trapped arm. This lock must be secured before you release arm control or attempt to adjust your finishing angle."
+      },
+      {
+        "step_number": 6,
+        "action": "Adjust angle for maximum pressure",
+        "description": "With the triangle locked, angle your body perpendicular to the opponent so that your legs create diagonal pressure across their neck and trapped shoulder. Pull the opponent's head toward the trapped arm side using your hand behind their skull. This angle maximizes the choking mechanics of the triangle while maintaining your mount-based positional control."
+      },
+      {
+        "step_number": 7,
+        "action": "Establish mounted triangle control",
+        "description": "Settle your weight through the triangle configuration and establish the mounted triangle position. Control the opponent's free arm with your hands to prevent framing, maintain the figure-four lock tension, and begin assessing finishing options including triangle squeeze, armbar on the trapped arm, or transition to back take if the opponent turns. This is now your control position from which multiple attacks branch."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Opponent straightens their trapped arm explosively to extract it before the triangle locks",
+        "effectiveness": "High",
+        "your_response": "Immediately switch back to the armbar attack on the now-extended arm. Their attempt to escape the triangle by straightening the arm creates the exact opening the armbar requires. Maintain wrist control and pivot hips to secure the armbar before they can re-bend.",
+        "targets_outcome": "S Mount/Top"
+      },
+      {
+        "counter": "Opponent bridges explosively during the hip adjustment phase to displace your base",
+        "effectiveness": "High",
+        "your_response": "Post your free foot wide on the mat to absorb the bridge momentum and drive your hips back down into their shoulder. If the bridge is powerful enough to displace you, abandon the triangle attempt and secure standard mount before they can recover guard. Do not chase the triangle from an unstable base.",
+        "targets_outcome": "Half Guard/Bottom"
+      },
+      {
+        "counter": "Opponent uses their free arm to block your leg from threading under their chin",
+        "effectiveness": "Medium",
+        "your_response": "Control or pin their blocking arm with your near hand, pushing it across their body or trapping it against your hip. Alternatively, use the arm push variant by driving their blocking arm across their centerline, which simultaneously removes the block and positions the arm for the triangle. If their arm is persistent, consider the gift wrap entry.",
+        "targets_outcome": "S Mount/Top"
+      },
+      {
+        "counter": "Opponent turns onto their side away from you to create space and protect their neck",
+        "effectiveness": "Medium",
+        "your_response": "Recognize the turning motion as a back take opportunity. Release the triangle attempt and immediately establish a seatbelt grip over-under on their torso while inserting your hooks. Their attempt to turn away from the triangle gives you their back, which is an even more dominant position.",
+        "targets_outcome": "S Mount/Top"
+      },
+      {
+        "counter": "Opponent hip escapes toward your legs during the transition creating distance",
+        "effectiveness": "Medium",
+        "your_response": "Follow their hip movement by scooting your hips with them to maintain the shoulder connection. If they create significant distance, abandon the triangle and drop back to standard mount to consolidate before re-attacking. Chasing the triangle against effective hip escape usually results in losing the position entirely.",
+        "targets_outcome": "Half Guard/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Forcing the armbar against a well-defended bent arm instead of recognizing the triangle opportunity",
+        "consequence": "Wastes energy fighting a losing battle, gives the opponent time to execute escape sequences, and misses the higher-percentage triangle entry that their defense has created",
+        "correction": "Train pattern recognition so that a bent-arm defense immediately triggers the triangle entry. The armbar and triangle are complementary attacks, not competing ones. When the arm bends, the triangle opens."
+      },
+      {
+        "error": "Releasing arm control during the leg threading motion to use hands for balance",
+        "consequence": "Opponent immediately extracts their arm from between your legs, eliminating both the triangle and armbar threats and potentially recovering enough space to begin escaping the position",
+        "correction": "Maintain at least one hand controlling the trapped arm's wrist throughout the entire threading motion. Use your base and core stability for balance rather than your hands. Practice the thread with one-hand-on-arm as a non-negotiable constraint."
+      },
+      {
+        "error": "Lifting hips high off the opponent's body during the leg threading to create space for the motion",
+        "consequence": "Creates a gap between your weight and their torso that allows explosive bridging, shrimping, or arm extraction. The opponent feels the pressure relief and immediately exploits the space",
+        "correction": "Keep your hips heavy and slide them forward along the opponent's body rather than lifting up. The leg thread should feel like a lateral sliding motion, not a vertical lifting motion. Your weight stays on them throughout."
+      },
+      {
+        "error": "Kicking or forcing the leg under the chin aggressively rather than threading smoothly",
+        "consequence": "Creates excessive space and momentum that the opponent can redirect into an escape. Aggressive leg movement often overshoots the target, landing the calf on the chin or face rather than under the neck where choking pressure is applied",
+        "correction": "Thread the leg with controlled, deliberate motion. Think of sliding your calf into position rather than kicking. The movement should be smooth and precise, ending with your calf pressed against the side of their neck."
+      },
+      {
+        "error": "Attempting to finish the triangle immediately without first locking the figure-four and adjusting angle",
+        "consequence": "Squeezing without proper lock and angle produces minimal choking pressure, exhausts your legs, and gives the opponent time to work defensive frames while you ineffectively squeeze",
+        "correction": "Lock the figure-four first, then adjust your body angle to create the diagonal pressure across the neck, then pull their head toward the trapped arm. Only squeeze for the finish once all three elements are in place."
+      },
+      {
+        "error": "Neglecting the opponent's free arm during and after the transition",
+        "consequence": "The free arm creates frames against your hip that prevent you from settling into the mounted triangle, or pushes your leg off their neck to break the triangle structure before it locks",
+        "correction": "Account for the free arm throughout the transition. Pin it with your near hand, trap it with a gift wrap, or at minimum monitor its position. After locking the triangle, controlling the free arm prevents framing and escape."
+      },
+      {
+        "error": "Attempting the transition when the opponent's arm is nearly extracted rather than fully trapped between legs",
+        "consequence": "The triangle locks around an arm that is halfway out, creating a loose configuration with no choking pressure. The opponent easily withdraws the arm and escapes to a defensive position",
+        "correction": "Only initiate the triangle entry when the opponent's arm is clearly positioned between your legs with no realistic extraction path. If the arm is partially free, re-secure it in S Mount before attempting the transition."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Mechanics",
+        "focus": "Leg threading motion and figure-four lock",
+        "description": "Practice the isolated leg threading motion from S Mount with a compliant partner. Focus on sliding the calf under the chin without lifting your hips, locking the figure-four, and adjusting the angle. Perform 20 repetitions per side until the motion is smooth and automatic. No resistance from partner at this phase."
+      },
+      {
+        "phase": "Phase 2: Arm Control Integration",
+        "focus": "Maintaining arm control during the transition",
+        "description": "Add the constraint of maintaining wrist control on the trapped arm throughout the leg threading motion. Partner provides light resistance by attempting to extract their arm during the thread. Focus on coordinating the hip adjustment, leg movement, and arm retention simultaneously. Build the habit of never releasing the arm."
+      },
+      {
+        "phase": "Phase 3: Defensive Recognition",
+        "focus": "Reading armbar defense and timing the transition",
+        "description": "Partner starts in S Mount bottom and alternates between allowing the armbar and defending it with bent arm or clasped hands. Practice recognizing the defensive pattern in real time and switching from armbar attack to triangle entry within one beat. Develop the automatic response of threading the triangle when the armbar is shut down."
+      },
+      {
+        "phase": "Phase 4: Chain Attacks",
+        "focus": "Flowing between armbar, triangle, and back take based on reactions",
+        "description": "Partner provides progressive resistance from S Mount bottom using various defensive strategies: straightening arm, bending arm, bridging, turning away. Practice the full decision tree: armbar when arm extends, triangle when arm bends, back take when they turn, remount when they bridge. Build automatic chains between all options."
+      },
+      {
+        "phase": "Phase 5: Live Positional Sparring",
+        "focus": "Executing the transition against full resistance",
+        "description": "Begin in S Mount with a fully resisting partner. Work to achieve either the armbar or the mounted triangle within two minutes. Partner uses all available defensive tools. Focus on timing, reading reactions under pressure, and committing to the triangle when the window opens. Track success rate across rounds to measure improvement."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "Your opponent clasps their hands together to defend the armbar from S Mount - what is the optimal next action?",
+        "answer": "Immediately transition to the mounted triangle by threading your head-side leg under their chin. Their clasped hands fix both arms in a bent position that is ideal for the triangle trap. Maintain wrist control on the near arm, adjust your hip angle slightly toward their head, and slide your calf under their chin. Their armbar defense has created the perfect opening for the triangle, and attempting to break their grip for the armbar is lower percentage than accepting the triangle gift."
+      },
+      {
+        "question": "What is the most critical hip movement during the S Mount to Mounted Triangle transition?",
+        "answer": "The subtle forward hip scoot toward the opponent's head that creates the angle for leg threading. This is not a dramatic hip lift or rotation but a five-to-ten degree angle adjustment where your hips slide forward along their body. The key constraint is that your weight must stay on their torso throughout this adjustment. Lifting your hips creates the space they need to bridge or extract their arm. Think of it as shifting your center of gravity forward, not upward."
+      },
+      {
+        "question": "Why must you lock the figure-four before attempting to finish the triangle from mounted position?",
+        "answer": "The figure-four lock is the structural foundation that creates mechanical choking pressure. Without it, you are simply squeezing with your legs, which is energy-intensive and produces minimal pressure on the carotid arteries. The locked configuration redirects your squeezing force into the precise angle needed for the blood choke. Additionally, attempting to finish without the lock leaves your legs vulnerable to being separated by the opponent's defensive framing, collapsing the entire position."
+      },
+      {
+        "question": "Your opponent posts their free hand against your hip to block the leg threading motion - how do you adjust?",
+        "answer": "Control their blocking arm by pinning it with your near hand or pushing it across their centerline. The arm push variant is particularly effective here: drive their forearm across their body toward the far side, which simultaneously removes the blocking frame and positions the arm inside the triangle space. If they resist the arm push strongly, switch to controlling their wrist and peeling it off your hip before re-attempting the thread. Never force the leg past a strong frame."
+      },
+      {
+        "question": "What grip must you maintain throughout the entire transition from S Mount to Mounted Triangle?",
+        "answer": "Wrist control on the opponent's trapped arm is the non-negotiable grip. This grip prevents arm extraction during the vulnerable threading phase when your leg configuration is changing and the triangle is not yet locked. Releasing the wrist to post for balance or adjust position is the single most common reason this transition fails. Train to maintain the wrist grip with one hand while using your other hand and your core for balance and secondary control tasks."
+      },
+      {
+        "question": "The opponent begins a powerful bridge just as you start adjusting your hip angle - what is your immediate response?",
+        "answer": "Post your free foot wide on the mat on the side they are bridging toward to create a structural brace against their upward force. Drive your hips back down into their shoulder to re-establish the weight connection. If the bridge is powerful enough to seriously compromise your base, abandon the triangle attempt entirely and drop back to standard mount to consolidate. Never continue the threading motion from an unstable base, as this almost always results in being swept to half guard bottom or worse."
+      },
+      {
+        "question": "How does the direction of force differ between the armbar attack and the triangle entry from S Mount?",
+        "answer": "The armbar applies force by extending the opponent's arm perpendicular to their body, using hip elevation to hyperextend the elbow joint. The triangle entry redirects force from arm extension to neck compression, threading the leg in a lateral arc under the chin rather than driving the hips upward. The armbar pulls the arm away from the body while the triangle wraps around the neck and arm together. Understanding this directional shift is essential because the transition requires changing your mechanical focus from pulling outward on the arm to wrapping inward around the neck."
+      },
+      {
+        "question": "Your opponent successfully defends three consecutive triangle attempts by keeping their chin tucked and free arm framing - what strategic adjustment should you make?",
+        "answer": "Return to the armbar attack to reset the defensive dilemma. If the opponent has become highly effective at defending the triangle, attacking the armbar forces them back into the arm defense that originally opened the triangle. The power of this chain comes from alternation, not repetition. Additionally, consider the gift wrap variant which neutralizes their free arm framing, or use the arm push to forcibly reposition their blocking arm. If the position has become a stalemate, return to standard mount to rest and re-approach the S Mount with a fresh attack angle."
+      }
+    ],
+    "safety_considerations": "The S Mount to Mounted Triangle transition involves neck compression and potential cervical spine stress. Partners should establish clear tap signals before drilling. The leg threading motion must be controlled and deliberate to avoid striking the opponent's face or jaw. Once the triangle is locked, apply choking pressure gradually to allow time for the tap. Never crank or twist the neck during the transition. In training, release immediately upon any tap signal, verbal or physical. Be especially careful when drilling with less experienced partners who may not recognize the choking pressure building before it becomes dangerous."
+  },
+  "defender": {
+    "name": "S Mount to Mounted Triangle Defender",
+    "description": "Defend the S Mount to Mounted Triangle transition. Recognition cues for early detection, arm extraction timing, frame positioning, and escape sequences to prevent the triangle lock.",
+    "overview": "Defending the S Mount to Mounted Triangle transition requires recognizing the setup before the leg threads under your chin and executing precise defensive actions during the narrow window between the armbar defense and triangle entry. The defender faces a fundamental dilemma: the bent-arm posture that protects against the armbar is exactly the positioning that enables the triangle. Understanding this dilemma is the first step toward resolving it. The critical defensive window occurs during the attacker's hip adjustment and leg threading phase, when their weight shifts and their leg configuration changes. This moment of transition creates brief instability that the defender can exploit through well-timed bridging, arm extraction, or framing. Passive defense in this position leads inevitably to the mounted triangle lock, so the defender must be proactive in disrupting the transition mechanics rather than waiting to defend the established position.",
+    "key_principles": [
+      "Recognize the triangle setup before the leg threads under your chin by reading the attacker's hip adjustment and leg movement",
+      "Keep your chin tucked aggressively toward your chest to deny the space needed for the leg to slide under your neck",
+      "Use your free arm to frame against the attacker's hip on the threading leg side to block the leg path",
+      "Time defensive actions to the attacker's hip adjustment phase when their weight is shifting and their base is temporarily compromised",
+      "If the triangle begins locking, immediately address the choke by turning your head toward the trapped arm and creating space with frames",
+      "Understand that explosive bridging during the transition phase is highest percentage when the attacker's legs are between configurations"
+    ],
+    "recognition_cues": [
+      "The attacker stops actively trying to extend your arm for the armbar and begins adjusting their hip angle forward toward your head",
+      "The attacker's head-side leg begins sliding downward from its posted position over your head toward your neck and chin",
+      "The attacker shifts from two-handed wrist pulling to one-handed arm control, freeing a hand to assist the leg threading or control your head",
+      "You feel the attacker's weight shift forward along your torso as they scoot their hips toward your head to create the threading angle",
+      "The attacker's far leg repositions from across your torso to a wider base, indicating they are preparing for the positional change"
+    ],
+    "defensive_options": [
+      {
+        "action": "Frame against attacker's hip with free arm to block leg threading path",
+        "when_to_use": "As soon as you recognize the hip adjustment that precedes the leg thread. Your forearm against their near hip creates a structural barrier that prevents the leg from sliding under your chin.",
+        "targets_outcome": "S Mount/Top",
+        "if_successful": "The triangle entry is blocked and you remain in S Mount where you can continue armbar defense while looking for escape opportunities",
+        "risk": "If the attacker controls your framing arm, they can pin it and proceed with the triangle entry with both arms now compromised"
+      },
+      {
+        "action": "Explosive bridge during the attacker's hip adjustment phase",
+        "when_to_use": "The moment you feel the attacker's weight shift forward as they begin the hip adjustment. Their leg transition creates a window where their base is compromised between S Mount and triangle configurations.",
+        "targets_outcome": "Half Guard/Bottom",
+        "if_successful": "The bridge disrupts their base during the transition, potentially sweeping them or creating enough space to recover half guard or full guard",
+        "risk": "Poorly timed bridge while the attacker's base is still solid wastes energy and may extend your trapped arm into armbar position"
+      },
+      {
+        "action": "Extract trapped arm by pulling elbow tight to body during the transition",
+        "when_to_use": "During the leg threading motion when the attacker's grip on your wrist may be loosened as they focus on the leg movement. Pull your elbow aggressively toward your hip while turning your wrist to break their grip.",
+        "targets_outcome": "S Mount/Top",
+        "if_successful": "With the arm extracted, the triangle cannot be completed and you eliminate both the triangle and armbar threats simultaneously, forcing the attacker to re-establish control",
+        "risk": "If the arm extraction fails and you straighten your arm during the attempt, you may give the attacker the arm extension they need for the armbar"
+      },
+      {
+        "action": "Tuck chin and turn head toward trapped arm side while shrimping away",
+        "when_to_use": "When the leg is already partially threaded and you cannot prevent the entry. Aggressive chin tuck reduces the space available for the choking angle while shrimping creates distance that loosens the triangle structure.",
+        "targets_outcome": "S Mount/Top",
+        "if_successful": "The triangle cannot achieve a tight lock with your chin tucked, buying time to work frames and potentially extract the arm or escape the position",
+        "risk": "If you focus only on the chin tuck without also addressing the arm position, the attacker can switch to the armbar on your still-trapped arm"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Half Guard/Bottom",
+        "how": "Time an explosive bridge during the attacker's hip adjustment phase when their base is compromised between S Mount and triangle configurations. Bridge at a 45-degree angle toward their posting leg to attack their weakest base point. Follow through with hip escape to recover half guard as they are displaced."
+      },
+      {
+        "outcome": "S Mount/Top",
+        "how": "Frame against the attacker's hip with your free arm to physically block the leg from threading under your chin, while simultaneously extracting your trapped arm by pulling your elbow tight to your body. This prevents the triangle entry and returns to S Mount where armbar defense continues, but you have disrupted their attack chain."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Failing to recognize the triangle setup and continuing to focus exclusively on armbar defense",
+        "consequence": "The leg threads under your chin unopposed and the triangle locks before you realize the attack has changed, putting you in a fully established mounted triangle with no defensive preparation",
+        "correction": "Train to recognize the hip adjustment cue that precedes every triangle entry from S Mount. When you feel the attacker's weight shift forward and their leg begin to move downward, immediately switch your defensive focus from armbar prevention to triangle prevention."
+      },
+      {
+        "error": "Extending the trapped arm to push the threading leg away from your chin",
+        "consequence": "Straightening the arm to push the leg creates the exact armbar opportunity the attacker was originally seeking. You solve the triangle problem but give them a potentially worse submission",
+        "correction": "Keep the trapped arm bent and use your free arm to frame against the attacker's hip or block the leg path. Never straighten the trapped arm for any reason during the transition defense."
+      },
+      {
+        "error": "Bridging too late after the triangle is already locked in figure-four configuration",
+        "consequence": "Explosive bridging against an established triangle lock wastes significant energy and rarely succeeds. The locked triangle absorbs bridge force through the leg structure, and the effort accelerates fatigue that leads to submission",
+        "correction": "Bridge during the transition phase when the attacker's legs are between configurations, not after the lock is established. The defensive window is narrow but high-percentage. Once the triangle locks, switch to frame-based defense and systematic dismantling rather than explosive bridging."
+      },
+      {
+        "error": "Turning your head away from the trapped arm side when the leg begins threading",
+        "consequence": "Turning away opens the angle of your neck to the triangle and makes the choke tighter. It also exposes your back, potentially giving the attacker a back take if they recognize the opportunity",
+        "correction": "Turn your head toward the trapped arm side and tuck your chin aggressively toward that shoulder. This reduces the available angle for the triangle choke and protects against the back take simultaneously."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the earliest recognition cue that your opponent is transitioning from armbar to triangle from S Mount?",
+        "answer": "The earliest cue is the forward hip scoot where the attacker shifts their hips toward your head. This precedes the leg threading by one to two beats and represents the angle adjustment needed to slide the leg under your chin. You will feel their weight shift forward along your torso and their head-side leg begin to move downward from its posted position. This hip adjustment is the trigger for your defensive response, giving you the maximum time to act before the leg threads."
+      },
+      {
+        "question": "Why is bridging during the transition phase more effective than bridging against an established mounted triangle?",
+        "answer": "During the transition phase, the attacker's legs are between configurations, meaning neither the S Mount base nor the triangle lock is fully established. Their weight is shifting forward and their structural control is temporarily compromised. A bridge during this window attacks an unstable base. Once the triangle locks in figure-four, the leg structure creates a stable frame that absorbs bridge force effectively, making the bridge an energy-wasting exercise rather than a viable escape technique."
+      },
+      {
+        "question": "Your opponent has partially threaded their leg under your chin but has not yet locked the figure-four - what defensive actions are still available?",
+        "answer": "Several options remain in this critical window. First, use your free hand to push their calf off your neck and back over your head, reversing the threading motion before the lock establishes. Second, turn your head aggressively toward your trapped arm and tuck your chin to deny the choking angle while the lock is incomplete. Third, bridge explosively while the leg configuration is loose to displace their base. Fourth, extract your trapped arm during this moment when the attacker's grip focus is divided between arm control and leg positioning. Act immediately because the window closes once the figure-four locks."
+      },
+      {
+        "question": "How should your defensive priorities change when transitioning from armbar defense to triangle defense in this position?",
+        "answer": "In armbar defense, your priority is keeping the trapped arm bent and preventing extension. In triangle defense, your priority shifts to protecting your neck by blocking the leg thread and tucking your chin. The critical challenge is that the arm defense posture, specifically the bent arm, is what enables the triangle entry. You must simultaneously maintain arm protection while adding neck protection through chin tuck and leg-blocking frames. Your free arm transitions from a secondary role in armbar defense to the primary defensive tool against the triangle by framing against the attacker's hip."
+      },
+      {
+        "question": "What should you do if the mounted triangle locks fully with the figure-four secured around your neck?",
+        "answer": "Once the triangle is fully locked, the priority shifts from preventing the position to surviving and systematically dismantling it. Tuck your chin toward the trapped arm side to reduce choking pressure. Frame with your free arm against their hip to prevent them from adjusting the angle tighter. Work to create space by small hip escapes rather than explosive bridges. Attempt to walk your trapped arm deeper through the triangle to relieve the choking angle on your neck. If you cannot escape and the choke is tightening, tap before losing consciousness, as the mounted triangle is an extremely high-percentage finishing position."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Recognition",
+        "focus": "Identifying the transition cues from S Mount to triangle",
+        "description": "Partner performs the S Mount to triangle transition at 25% speed while you practice identifying each recognition cue: hip adjustment, leg movement, weight shift, grip change. Call out each cue as you feel it. Build the pattern recognition so that the hip scoot immediately triggers your defensive awareness. Repeat 20 times per side."
+      },
+      {
+        "phase": "Phase 2: Defensive Mechanics",
+        "focus": "Executing frames, chin tuck, and bridge timing",
+        "description": "Practice each defensive option in isolation against the triangle entry: hip framing to block the leg, chin tuck to deny the angle, explosive bridge during the transition window, and arm extraction timing. Partner performs the transition at 50% speed and you execute one defensive action per repetition, cycling through all options."
+      },
+      {
+        "phase": "Phase 3: Decision Making Under Pressure",
+        "focus": "Choosing the correct defense based on the attacker's approach",
+        "description": "Partner varies between direct thread, arm push entry, and gift wrap entry at 75% resistance. Practice reading which variant is being used and selecting the appropriate defensive response in real time. Develop automatic defensive reactions that match the specific attack pattern being employed."
+      },
+      {
+        "phase": "Phase 4: Live Positional Defense",
+        "focus": "Defending the full transition chain against full resistance",
+        "description": "Start in S Mount bottom with partner attacking at full intensity. Defend the armbar, recognize the triangle transition, and execute your defensive plan against a fully resisting attacker. Track success rate across rounds, aiming to prevent the mounted triangle lock at least 40% of the time through early defensive intervention."
+      }
+    ]
+  }
+}

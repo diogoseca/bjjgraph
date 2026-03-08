@@ -1,0 +1,380 @@
+{
+  "name": "Frame and Extract to Half Guard",
+  "description": "Learn Frame and Extract to Half Guard escape from Inside Sankaku in BJJ. Step-by-step defensive technique to recover Half Guard safely and protect against heel hooks.",
+  "tags": [
+    "bjj",
+    "transition",
+    "escape",
+    "leg_entanglement",
+    "defensive",
+    "half_guard",
+    "inside_sankaku"
+  ],
+  "from_position": "Inside Sankaku/Bottom",
+  "outcomes": [
+    {
+      "to": "Half Guard/Top",
+      "probability": 65,
+      "result": "success"
+    },
+    {
+      "to": "Inside Sankaku/Bottom",
+      "probability": 25,
+      "result": "failure"
+    },
+    {
+      "to": "Saddle/Bottom",
+      "probability": 10,
+      "result": "counter"
+    }
+  ],
+  "success_rate": 58,
+  "overview": "Frame and Extract to Half Guard is a critical defensive transition used to escape the dangerous Inside Sankaku (Honey Hole) position. When trapped with your leg in the opponent's figure-four configuration, this technique employs systematic framing and hip movement to create the distance necessary for leg extraction while protecting against the inside heel hook threat. The escape prioritizes heel protection throughout the movement, using structural frames against the opponent's hips and legs to generate separation rather than relying on explosive power that could result in knee injury.\n\nThe strategic importance of this escape cannot be overstated - Inside Sankaku represents one of the highest percentage finishing positions in modern leg lock systems. Practitioners who lack a reliable escape will find themselves tapping repeatedly to inside heel hooks. This technique addresses the position systematically: first defending the immediate submission threat by hiding the heel, then creating frames to establish distance, and finally extracting the trapped leg while transitioning to Half Guard where you can recompose your defense.\n\nThe transition to Half Guard specifically is chosen because it allows you to immediately establish a knee shield and begin rebuilding your guard structure, rather than scrambling to an undefined open guard position. From Half Guard, you have clear pathways to guard recovery, sweeps, or standing back up - all superior to remaining in leg entanglement danger.",
+  "related_content": [
+    {
+      "name": "Inside Sankaku",
+      "relationship": "Starting position"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Target escape destination"
+    },
+    {
+      "name": "Granby Roll to Guard",
+      "relationship": "Alternative escape when frames fail"
+    },
+    {
+      "name": "Inside Heel Hook",
+      "relationship": "Submission threat being defended"
+    },
+    {
+      "name": "Saddle",
+      "relationship": "Position to avoid if escape direction is wrong"
+    },
+    {
+      "name": "Hip Escape to Guard",
+      "relationship": "Related defensive technique using similar mechanics"
+    },
+    {
+      "name": "Knee Shield Half Guard",
+      "relationship": "Preferred Half Guard configuration after escape"
+    },
+    {
+      "name": "Outside Ashi-Garami",
+      "relationship": "Related leg entanglement with similar escape principles"
+    }
+  ],
+  "attacker": {
+    "name": "Frame and Extract to Half Guard Attacker",
+    "description": "How to execute Frame and Extract to Half Guard in BJJ. Attacking perspective with setup, execution steps, and counters.",
+    "overview": "Frame and Extract to Half Guard is a critical defensive transition used to escape the dangerous Inside Sankaku (Honey Hole) position. When trapped with your leg in the opponent's figure-four configuration, this technique employs systematic framing and hip movement to create the distance necessary for leg extraction while protecting against the inside heel hook threat. The escape prioritizes heel protection throughout the movement, using structural frames against the opponent's hips and legs to generate separation rather than relying on explosive power that could result in knee injury.\n\nThe strategic importance of this escape cannot be overstated - Inside Sankaku represents one of the highest percentage finishing positions in modern leg lock systems. Practitioners who lack a reliable escape will find themselves tapping repeatedly to inside heel hooks. This technique addresses the position systematically: first defending the immediate submission threat by hiding the heel, then creating frames to establish distance, and finally extracting the trapped leg while transitioning to Half Guard where you can recompose your defense.\n\nThe transition to Half Guard specifically is chosen because it allows you to immediately establish a knee shield and begin rebuilding your guard structure, rather than scrambling to an undefined open guard position. From Half Guard, you have clear pathways to guard recovery, sweeps, or standing back up - all superior to remaining in leg entanglement danger.",
+    "key_principles": [
+      "Protect your heel throughout the entire escape by keeping it pressed tightly against your own hip until fully extracted",
+      "Create frames using your forearms against opponent's hips and knees before attempting any extraction movement",
+      "Generate escape distance through controlled hip movement away from opponent rather than explosive pulling",
+      "Time your extraction when opponent adjusts their grip or position, exploiting momentary loss of hip connection",
+      "Secure Half Guard immediately upon extraction by closing your knee line and establishing knee shield",
+      "Never sacrifice back position or expose your heel further in desperation attempts to escape"
+    ],
+    "setup_requirements": [
+      "Heel must be protected by pressing it against your own hip with hand assistance if needed",
+      "At least one frame established against opponent's hip or knee to prevent them from following your movement",
+      "Recognition that opponent has not yet secured firm submission grip on your heel",
+      "Hip mobility available to generate backward movement away from opponent's hips",
+      "Mental composure to execute technical escape rather than panicking into worse positions"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Secure heel protection",
+        "description": "Immediately press your trapped heel tightly against your own hip, turning toes inward and knee outward. Use your near-side hand to grab your own foot or ankle to reinforce heel hiding position. This neutralizes the immediate inside heel hook threat."
+      },
+      {
+        "step_number": 2,
+        "action": "Establish primary frame",
+        "description": "Place your far-side forearm against opponent's hip closest to your trapped leg, creating a structural barrier. Your elbow should be positioned to push directly into their hip crease, establishing the leverage point for creating separation."
+      },
+      {
+        "step_number": 3,
+        "action": "Create secondary frame",
+        "description": "Position your near-side hand or forearm against opponent's knee or lower leg that forms the top of their figure-four configuration. This frame prevents them from tightening the entanglement and assists in creating space for extraction."
+      },
+      {
+        "step_number": 4,
+        "action": "Generate hip escape distance",
+        "description": "Drive your frames forward while simultaneously pumping your hips backward and away from opponent. Use your free leg to push off the mat or opponent's hip for additional escape power. Create maximum separation between your hips and their hips."
+      },
+      {
+        "step_number": 5,
+        "action": "Extract trapped leg",
+        "description": "As distance is created, pull your knee toward your chest while continuing to hide your heel. Rotate your leg to spiral out of the figure-four configuration, using the space created by your hip escape to free the trapped limb completely."
+      },
+      {
+        "step_number": 6,
+        "action": "Establish Half Guard",
+        "description": "Immediately upon extraction, close your legs around opponent's nearside leg to establish Half Guard position. Insert your knee shield across their hip to create distance and prevent them from re-entering leg entanglements or passing to side control."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Opponent follows hip escape by advancing hips forward to maintain connection",
+        "effectiveness": "High",
+        "your_response": "Continue generating distance with multiple hip escapes, use free leg to kick their hip away, or transition to Granby roll if they overcommit forward",
+        "targets_outcome": "Inside Sankaku/Bottom"
+      },
+      {
+        "counter": "Opponent attacks heel hook before you can create frames",
+        "effectiveness": "High",
+        "your_response": "Tap immediately if submission is locked. If grip is still being established, commit fully to heel protection and deny the grip before attempting frames",
+        "targets_outcome": "Inside Sankaku/Bottom"
+      },
+      {
+        "counter": "Opponent transitions to Saddle as you create angle",
+        "effectiveness": "Medium",
+        "your_response": "Recognize the transition early and reset heel protection priorities. Never turn into opponent - continue escaping away even if it means temporary position loss",
+        "targets_outcome": "Saddle/Bottom"
+      },
+      {
+        "counter": "Opponent grabs your pants or gi to prevent hip escape",
+        "effectiveness": "Medium",
+        "your_response": "Strip grips using your free hand before attempting hip escape. In no-gi, use wrist control on their gripping hand to clear the obstacle",
+        "targets_outcome": "Inside Sankaku/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Attempting extraction before establishing frames",
+        "consequence": "Opponent follows your movement maintaining hip connection, extraction fails and you waste energy while remaining trapped",
+        "correction": "Always establish at least one solid frame against opponent's hip before generating any escape movement"
+      },
+      {
+        "error": "Exposing heel during extraction attempt",
+        "consequence": "Opponent captures heel during escape movement and finishes inside heel hook, potentially causing serious knee injury",
+        "correction": "Maintain heel protection throughout entire escape sequence - hide heel until leg is completely free of entanglement"
+      },
+      {
+        "error": "Turning into opponent to escape",
+        "consequence": "Movement leads directly into Saddle position where both legs become trapped in even worse control",
+        "correction": "Always escape away from opponent by moving hips backward, never turn through them"
+      },
+      {
+        "error": "Using explosive power when submission grip is established",
+        "consequence": "Severe knee and ankle ligament damage from forcing movement against locked rotational pressure",
+        "correction": "If opponent has heel grip established, tap immediately rather than forcing escape"
+      },
+      {
+        "error": "Failing to establish Half Guard after extraction",
+        "consequence": "Opponent immediately re-enters leg entanglement or passes to side control before you can establish defensive position",
+        "correction": "Close legs around opponent's leg immediately upon extraction, prioritize knee shield before any other movement"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Week 1-2",
+        "focus": "Frame mechanics and heel protection",
+        "description": "Drill frame placement against partner in static Inside Sankaku position. Focus on proper forearm positioning against hips and knees. Practice heel hiding mechanics with hand assistance. No extraction attempts yet - build frame muscle memory."
+      },
+      {
+        "phase": "Week 3-4",
+        "focus": "Hip escape and extraction timing",
+        "description": "Add hip escape movement to established frames. Practice extracting trapped leg when partner provides space. Focus on maintaining heel protection throughout movement. Partner holds position but does not actively resist."
+      },
+      {
+        "phase": "Week 5-6",
+        "focus": "Half Guard establishment and chaining",
+        "description": "Complete escape sequence from frame to Half Guard establishment. Partner provides moderate resistance and may follow hip escapes. Practice multiple escape attempts in sequence when first attempt fails. Develop contingency reactions."
+      },
+      {
+        "phase": "Week 7+",
+        "focus": "Live application and counter-counter",
+        "description": "Positional sparring starting from Inside Sankaku. Partner actively works to maintain position and attack submissions. Develop timing recognition for escape windows. Integrate with other escape options based on opponent reactions."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the primary goal of Frame and Extract to Half Guard?",
+        "answer": "The primary goal is to safely escape Inside Sankaku leg entanglement while protecting your knee from the inside heel hook, transitioning to Half Guard where you can recompose your defensive structure and have clear pathways to guard recovery, sweeps, or standing up."
+      },
+      {
+        "question": "What position do you start Frame and Extract to Half Guard from?",
+        "answer": "This technique starts from Inside Sankaku bottom (also known as Honey Hole or 411), where your leg is trapped in the opponent's figure-four configuration with your heel exposed toward their centerline."
+      },
+      {
+        "question": "What are the key frames needed for Frame and Extract to Half Guard?",
+        "answer": "The two key frames are: (1) a primary frame using your far-side forearm against opponent's hip crease to create the main barrier for generating separation, and (2) a secondary frame with your near-side hand against their knee or lower leg to prevent them from tightening the entanglement and assist extraction."
+      },
+      {
+        "question": "How does an opponent typically counter Frame and Extract to Half Guard?",
+        "answer": "The most effective counter is advancing their hips forward to maintain hip connection as you escape backward. They may also attack the inside heel hook before frames are established, transition to Saddle if you create improper angles, or use grips on your pants or legs to prevent hip escape movement."
+      },
+      {
+        "question": "When is the best time to attempt Frame and Extract to Half Guard?",
+        "answer": "The optimal timing is when opponent has not yet established firm submission grip on your heel and momentarily loses hip connection - often when they adjust their leg position, reach for grips, or reposition their upper body. Never attempt when submission is already locked."
+      },
+      {
+        "question": "Your opponent maintains tight hip connection despite your frames - what adjustment do you make?",
+        "answer": "Chain multiple hip escapes in sequence rather than one large movement, use your free leg to actively kick their hip away while framing, or transition to Granby roll if they overcommit forward chasing your hips. The key is not stopping after one failed attempt."
+      },
+      {
+        "question": "Why specifically transition to Half Guard rather than open guard after extraction?",
+        "answer": "Half Guard provides immediate structure through knee shield and closed leg position, preventing opponent from re-entering leg entanglements or passing quickly. Open guard after extraction leaves you scrambling without clear defensive barriers, while Half Guard gives defined pathways to guard recovery, sweeps, or standing."
+      },
+      {
+        "question": "What physical indicator tells you that escape is no longer safe and you should tap instead?",
+        "answer": "Tap immediately when: opponent has secured two-on-one grip on your heel with their wrist blade positioned against your Achilles, you feel any rotational pressure beginning on your heel, or you cannot freely move your foot within their grip. The inside heel hook causes catastrophic injury in milliseconds once locked."
+      },
+      {
+        "question": "Your free leg gets controlled by the opponent during the hip escape phase - how do you recover?",
+        "answer": "If opponent controls your free leg, you lose your primary engine for generating hip escape distance. Use your hands to strip their grip on the free leg first before continuing the escape. If they are controlling both legs, revert to heel protection posture and wait for them to release one control point to advance their submission. The moment they release the free leg to grip your heel, immediately resume hip escaping."
+      },
+      {
+        "question": "What is the critical direction of force when executing the hip escape portion of this technique?",
+        "answer": "The force must be directed backward and slightly lateral, moving your hips away from the opponent along the line of your trapped leg. Pushing directly backward without lateral angle keeps you in their strongest control plane. The slight angle creates a spiraling path that helps your leg begin exiting the figure-four configuration while the frames prevent the opponent from following your movement."
+      }
+    ],
+    "safety_considerations": "This escape involves significant injury risk due to the inside heel hook threat present in Inside Sankaku. Never attempt explosive extraction if opponent has established submission grip on your heel - tap immediately to prevent career-ending knee ligament damage. The inside heel hook attacks the knee through rotational force that can destroy ACL, MCL, and meniscus simultaneously with no warning sensation before catastrophic failure. During training, use controlled movements and tap early when practicing against partners who are actively applying submissions. Communicate clearly with training partners about heel hook intensity levels. Avoid training this escape at full resistance until you have developed reliable recognition of when submission is locked versus when escape is still viable."
+  },
+  "defender": {
+    "name": "Frame and Extract to Half Guard Defender",
+    "description": "How to defend against Frame and Extract to Half Guard in BJJ. Recognition cues, defensive options, and retention strategies from Inside Sankaku top.",
+    "overview": "As the Inside Sankaku top player, your opponent's Frame and Extract to Half Guard represents the most systematic threat to your leg entanglement control. This escape relies on structured framing against your hips and knees to create separation, followed by controlled hip escape and leg extraction into Half Guard. Your role as the defender is to recognize the escape attempt early, maintain hip-to-hip connection throughout, and exploit any heel exposure that occurs during the extraction phase. Understanding the mechanics of this escape allows you to preemptively shut down each phase: deny frames by maintaining heavy forward hip pressure, follow hip escapes by advancing your own hips, and capitalize on extraction attempts by tightening your figure-four configuration or transitioning to Saddle when the opponent creates angles. The key defensive principle is that every frame your opponent builds must be immediately addressed - allowing even one solid frame to establish transforms the dynamic from offensive control to a positional struggle where time favors the escaper.",
+    "key_principles": [
+      "Maintain constant hip-to-hip connection to deny the space needed for framing and extraction",
+      "Follow every hip escape attempt by advancing your own hips forward to close the distance gap",
+      "Attack frames immediately upon recognition - strip forearm contact from your hips before it becomes load-bearing",
+      "Transition to submission attacks when the escape attempt exposes the heel during extraction phase",
+      "Use your outside leg to cross over and increase downward pressure when opponent begins generating hip escape power",
+      "Recognize the escape direction and cut off lateral angles by adjusting your perpendicular alignment"
+    ],
+    "recognition_cues": [
+      "Opponent's far-side forearm moving toward your hip crease or the junction of your thigh and torso, indicating primary frame establishment",
+      "Opponent's near-side hand reaching toward your knee or the top of your figure-four leg configuration to create secondary frame",
+      "Opponent's hips beginning to shift backward and laterally while their free leg posts on the mat or against your hip for push-off leverage",
+      "Sudden increase in core tension and hip engagement from opponent, signaling imminent hip escape movement",
+      "Opponent grabbing their own foot or ankle on the trapped side, indicating they are prioritizing heel protection before attempting extraction"
+    ],
+    "defensive_options": [
+      {
+        "action": "Advance hips forward and increase hip pressure to deny framing space",
+        "when_to_use": "As soon as you detect forearm frames being established against your hips or legs",
+        "targets_outcome": "Inside Sankaku/Bottom",
+        "if_successful": "Opponent's frames collapse under your forward pressure and they remain trapped in Inside Sankaku with degraded defensive structure",
+        "risk": "Overcommitting forward can allow opponent to use your momentum for a Granby roll escape if your weight distribution is too high"
+      },
+      {
+        "action": "Attack the inside heel hook when heel becomes exposed during extraction attempt",
+        "when_to_use": "When opponent shifts focus from heel protection to frame building or during the extraction phase when the spiraling leg motion momentarily exposes the heel",
+        "targets_outcome": "Inside Sankaku/Bottom",
+        "if_successful": "Opponent must abandon the extraction attempt and return to pure heel defense, resetting them to a worse defensive position with depleted energy",
+        "risk": "Reaching for the heel may require releasing some positional control, creating a window for the extraction to succeed"
+      },
+      {
+        "action": "Transition to Saddle by following the escape angle and capturing the second leg",
+        "when_to_use": "When opponent creates a lateral angle during their hip escape that brings their free leg within reach of your entanglement",
+        "targets_outcome": "Saddle/Bottom",
+        "if_successful": "Opponent ends up in a worse position with both legs controlled, facing multiple submission threats from the Saddle",
+        "risk": "Failed Saddle entry may lose Inside Sankaku control entirely if you release the figure-four to capture the second leg"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Inside Sankaku/Bottom",
+        "how": "Deny all framing attempts by maintaining relentless forward hip pressure and immediately stripping any forearm contact from your hips. Follow every hip escape with your own forward hip advancement to prevent separation. Attack the heel hook when extraction attempts expose the heel to reset the opponent to pure survival mode."
+      },
+      {
+        "outcome": "Saddle/Bottom",
+        "how": "When the opponent generates lateral hip escape angle, follow their angle change and use the opening to capture their free leg into your entanglement. Thread your outside leg around their second leg as they hip escape laterally, establishing double-leg control in Saddle. This converts their escape attempt into an even worse position for them."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Allowing frames to establish without immediate response",
+        "consequence": "Once a load-bearing frame is set against your hip, the opponent can generate significant separation force with each hip escape, making retention exponentially harder with each successive attempt",
+        "correction": "Strip frames the moment you feel forearm contact on your hips - use your hands to redirect their arms away while driving your hips forward to close the space"
+      },
+      {
+        "error": "Staying stationary when opponent hip escapes backward",
+        "consequence": "Distance opens between your hips and theirs, weakening your figure-four control and giving them the space needed to begin leg extraction",
+        "correction": "Follow every hip escape by driving your own hips forward to match their movement, maintaining constant hip-to-hip connection as if your hips are tethered to theirs"
+      },
+      {
+        "error": "Abandoning positional control to chase the heel hook prematurely",
+        "consequence": "Releasing leg configuration pressure to reach for the heel creates the exact space the opponent needs to complete their extraction and escape to Half Guard",
+        "correction": "Maintain your leg entanglement integrity first and only attack the heel when it becomes genuinely exposed during their movement, not by sacrificing control to create your own opportunity"
+      },
+      {
+        "error": "Failing to recognize the lateral angle change indicating Saddle transition opportunity",
+        "consequence": "Missing the window to capture the second leg means the opponent successfully escapes to Half Guard when you could have advanced to an even more dominant position",
+        "correction": "Train pattern recognition for the specific hip angle that brings their free leg within capture range, and develop the reflexive response to thread your outside leg around it"
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the earliest recognition cue that your opponent is beginning Frame and Extract to Half Guard?",
+        "answer": "The earliest cue is their far-side forearm moving toward your hip crease to establish the primary frame. This precedes the hip escape movement and is your first opportunity to intervene. Before the frame becomes load-bearing, you can strip it with minimal effort. Once established and loaded with hip escape force, the frame becomes significantly harder to remove."
+      },
+      {
+        "question": "Your opponent has established a solid frame against your hip and is beginning to generate hip escape distance - what is your response sequence?",
+        "answer": "First, use your near-side hand to strip or redirect their framing forearm away from your hip. Simultaneously drive your hips forward aggressively to close the gap they are creating. If the frame is too established to strip, use your outside leg to increase downward pressure on the entanglement while advancing your hips. The goal is to collapse the frame under your body weight rather than fighting it with arm strength alone."
+      },
+      {
+        "question": "How does the opponent's escape attempt create an opportunity for you to transition to Saddle?",
+        "answer": "When the opponent hip escapes laterally to create extraction angle, their free leg often comes within range of your outside leg. As they angle away, their second leg passes closer to your entanglement structure. By threading your outside leg around their free leg during this lateral movement, you capture both legs in a Saddle configuration. The opponent's own escape movement provides the angle change that makes this transition possible."
+      },
+      {
+        "question": "When during the escape sequence is the opponent's heel most vulnerable to attack?",
+        "answer": "The heel is most vulnerable during the extraction phase when they rotate and spiral their trapped leg out of your figure-four. The spiraling motion can momentarily lift the heel away from their hip where they had been hiding it, creating a brief window for heel hook attack. Additionally, when they shift their near-side hand from heel protection to secondary frame establishment, the heel becomes unguarded."
+      },
+      {
+        "question": "What distinguishes a successful hip pressure response from overcommitting that allows a Granby roll counter?",
+        "answer": "Successful hip pressure maintains low center of gravity with weight distributed through your hips into the entanglement, keeping your base stable. Overcommitting means driving your upper body forward and high, shifting weight above their hips rather than into them. When your weight goes high and forward, the opponent can use your momentum to invert underneath you with a Granby roll. Keep your pressure low, heavy, and centered through the hip connection point rather than lunging forward with your torso."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Week 1-2",
+        "focus": "Frame denial and hip pressure maintenance",
+        "description": "From established Inside Sankaku top, partner slowly attempts to build frames against your hips. Practice immediately stripping frames upon contact and driving hips forward to deny space. No submission attacks yet - focus purely on maintaining hip connection against the framing attempts."
+      },
+      {
+        "phase": "Week 3-4",
+        "focus": "Following hip escapes and maintaining connection",
+        "description": "Partner adds hip escape movement to their frame attempts. Practice advancing your hips in real-time to match their backward movement. Develop the sensitivity to feel when they load up for a hip escape and preemptively drive forward. Partner increases speed gradually."
+      },
+      {
+        "phase": "Week 5-6",
+        "focus": "Submission timing during escape attempts",
+        "description": "Partner executes full escape sequence with moderate resistance. Practice identifying moments when heel becomes exposed during extraction and transitioning to heel hook attack. Also practice recognizing the lateral angle for Saddle transition. Build pattern recognition for both offensive opportunities."
+      },
+      {
+        "phase": "Week 7+",
+        "focus": "Live positional sparring with full escape chains",
+        "description": "Full resistance positional sparring from Inside Sankaku. Partner uses all escape options including Frame and Extract, Granby roll, and counter leg attacks. Develop real-time decision making for whether to maintain position, attack submission, or transition to Saddle based on opponent's specific escape pathway."
+      }
+    ]
+  },
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Gi grip assisted extraction",
+      "description": "In gi training, use pants grips on opponent's legs to enhance frame effectiveness. Grab the fabric at knee level to create stronger barrier against their forward pressure. The material grip provides more control during hip escape phase.",
+      "when_to_use": "When training or competing in gi where pants grips are available"
+    },
+    {
+      "variant_name": "Granby roll combination",
+      "description": "If frames fail to create sufficient distance, immediately transition to Granby roll escape by inverting and rolling over your shoulder away from opponent. This creates explosive separation when controlled escape is denied.",
+      "when_to_use": "When opponent follows your frames and denies hip escape distance"
+    },
+    {
+      "variant_name": "Standing extraction",
+      "description": "If you can create enough initial distance, use frames to stand up entirely rather than transitioning to Half Guard. Post on your free leg and use frames to prevent opponent from following as you extract and stand.",
+      "when_to_use": "When opponent's hip connection is weak and you have good base with free leg"
+    }
+  ],
+  "conditions": [
+    "Trapped in Inside Sankaku with opponent's figure-four around your leg",
+    "Opponent has not yet secured a firm submission grip on your heel",
+    "Sufficient hip mobility to generate backward escape movement",
+    "At least one hand available for framing after heel protection is secured"
+  ],
+  "position_integration": "Frame and Extract to Half Guard serves as a critical survival technique within the leg entanglement ecosystem. When caught in Inside Sankaku, practitioners have limited options - this escape provides the most controlled pathway back to a guard position where standard defensive tools apply. The technique connects to the broader defensive leg lock game by teaching systematic escape principles that transfer to other entanglements like Saddle and Outside Ashi-Garami. Half Guard specifically integrates well as the escape destination because it offers immediate knee shield protection and prevents opponent from chaining back into leg attacks. From Half Guard, standard guard recovery progressions resume - knee shield to full guard, underhook escapes, or standing up."
+}

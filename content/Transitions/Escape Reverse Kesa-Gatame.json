@@ -1,0 +1,416 @@
+{
+  "name": "Escape Reverse Kesa-Gatame",
+  "description": "Master the hip escape from Reverse Kesa-Gatame in BJJ. Systematic guide covering frame establishment, shrimping mechanics, and half guard recovery.",
+  "tags": [
+    "bjj",
+    "transition",
+    "escape",
+    "hip-escape",
+    "reverse-kesa-gatame",
+    "pin-escape",
+    "shrimp",
+    "guard-recovery"
+  ],
+  "from_position": "Reverse Kesa-Gatame/Bottom",
+  "outcomes": [
+    {
+      "to": "Half Guard/Bottom",
+      "probability": 35,
+      "result": "success"
+    },
+    {
+      "to": "Closed Guard/Bottom",
+      "probability": 10,
+      "result": "success"
+    },
+    {
+      "to": "Reverse Kesa-Gatame/Bottom",
+      "probability": 35,
+      "result": "failure"
+    },
+    {
+      "to": "Mount/Bottom",
+      "probability": 20,
+      "result": "counter"
+    }
+  ],
+  "success_rate": 45,
+  "overview": "The Escape from Reverse Kesa-Gatame is a systematic hip escape technique targeting guard recovery from one of the more mechanically challenging scarf hold pins. Unlike the explosive bridge escape from this position, this technique relies on incremental space creation through framing, shrimping, and knee insertion to methodically dismantle the pin. The reverse orientation of Kesa-Gatame eliminates the bottom player's ability to frame against the opponent's face and neck, requiring adaptation of standard side control escape mechanics to account for the top player facing toward the legs.\n\nThe escape follows a deliberate progression: establish a defensive frame with the free arm to prevent further consolidation, turn onto the hip to create an angle for shrimping, execute systematic hip escapes to open space between the bodies, and insert the near knee to establish half guard. Each phase builds on the previous one, making the escape resilient against interruption because partial progress still improves the bottom player's defensive position. The technique exploits the inherent tension in the top player's control—maintaining both chest pressure and arm isolation simultaneously requires precise weight distribution that hip escapes systematically erode.\n\nStrategically, this escape integrates with the bridge escape to create a dual-threat system from Reverse Kesa-Gatame bottom. The bridge targets explosive displacement when the top player's weight is high, while the hip escape methodically creates space when the opponent maintains low, sprawled pressure. Combining both techniques forces the top player into a positional dilemma: sprawling low to stop bridges opens vulnerability to hip escapes, while sitting higher to prevent shrimping creates bridging opportunities. This complementary escape pairing is essential for reliable survival against skilled pin-maintenance practitioners.",
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Elbow-Knee Connection Escape",
+      "description": "Focuses on connecting the near-side elbow to the near-side knee through incremental shrimping, creating a structural frame that prevents the top player from re-settling. Each shrimp drives the elbow closer to the knee until the forearm can establish a knee shield position. This is the highest-percentage variant against opponents who maintain low, heavy pressure.",
+      "when_to_use": "Against opponents who sprawl low with heavy hip pressure on your ribs, where explosive escapes are not viable and incremental space creation is the only reliable path to guard recovery."
+    },
+    {
+      "variant_name": "Far Arm Underhook Escape",
+      "description": "Instead of framing with the free arm, the bottom player threads an underhook on the far side during the shrimp sequence. This underhook prevents the top player from re-establishing chest-to-chest pressure and creates an immediate pathway to offensive half guard once the knee is inserted. Requires more precise timing but yields a superior post-escape position.",
+      "when_to_use": "When the opponent's far arm is available for the underhook and they are focused on maintaining near-arm control. Particularly effective in gi where you can grip the belt or back of the gi for underhook reinforcement."
+    },
+    {
+      "variant_name": "Technical Stand-Up Escape",
+      "description": "After the initial shrimp creates space, the bottom player posts the free arm behind them and executes a technical stand-up rather than recovering guard. This bypasses the guard recovery phase entirely and establishes a standing versus grounded dynamic. Requires sufficient space creation and quick commitment.",
+      "when_to_use": "When the initial shrimp creates significant separation and the top player is slow to follow. Preferred in competition contexts where guard pulling is less desirable or when the bottom player has a strong wrestling base."
+    }
+  ],
+  "position_integration": "The hip escape from Reverse Kesa-Gatame fits within the comprehensive pin escape hierarchy as the primary incremental escape option from reverse scarf hold positions. It complements the bridge escape by covering the low-pressure scenario that bridges cannot address, creating a complete two-threat escape system. The technique feeds directly into the half guard system, where the recovering player can immediately engage sweeps, back takes, and guard transitions. Failed attempts still improve position through partial space creation, making the hip escape a progressive rather than binary technique. Understanding this escape is essential for anyone developing a complete bottom game against scarf hold specialists, as Reverse Kesa-Gatame is increasingly common at the competition level where opponents rotate from standard side control to eliminate traditional framing defenses.",
+  "conditions": [
+    "Trapped underneath Reverse Kesa-Gatame with the top player's chest on your upper torso",
+    "At least one arm retains partial freedom of movement for framing",
+    "Hips can contact the mat to generate shrimping power",
+    "Top player's weight is settled and not actively transitioning to another position"
+  ],
+  "related_content": [
+    {
+      "name": "Reverse Kesa-Gatame",
+      "relationship": "Starting position that this escape addresses"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Primary escape destination through knee insertion"
+    },
+    {
+      "name": "Closed Guard",
+      "relationship": "Full guard recovery destination when sufficient space is created"
+    },
+    {
+      "name": "Mount",
+      "relationship": "Counter position opponent achieves if escape is poorly timed"
+    },
+    {
+      "name": "Bridge from Reverse Kesa-Gatame",
+      "relationship": "Complementary explosive escape that pairs with this hip escape to create dual-threat system"
+    },
+    {
+      "name": "Escape Modified Scarf Hold",
+      "relationship": "Analogous hip escape from related scarf hold variant with similar mechanics"
+    },
+    {
+      "name": "Bridge Escape from Scarf Hold",
+      "relationship": "Related bridge escape technique from scarf hold family"
+    },
+    {
+      "name": "Bridge Escape from Reverse Scarf Hold",
+      "relationship": "Related escape from reverse scarf hold variant"
+    },
+    {
+      "name": "Kesa Gatame",
+      "relationship": "Traditional scarf hold with related escape principles"
+    },
+    {
+      "name": "Side Control",
+      "relationship": "Parent category of pinning positions with shared escape concepts"
+    },
+    {
+      "name": "Knee Shield Half Guard",
+      "relationship": "Preferred half guard variation to establish after successful escape"
+    },
+    {
+      "name": "North-South",
+      "relationship": "Position opponent may transition to if hip escape is detected early"
+    }
+  ],
+  "attacker": {
+    "name": "Escape Reverse Kesa-Gatame Attacker",
+    "description": "Execute the hip escape from Reverse Kesa-Gatame. Step-by-step guide covering frame setup, shrimping sequence, knee insertion, and half guard recovery from this challenging pin.",
+    "overview": "Executing the hip escape from Reverse Kesa-Gatame requires disciplined sequencing through frame establishment, incremental shrimping, and precise knee insertion to recover guard. Unlike the explosive bridge escape from this same position, the hip escape works through systematic space creation that erodes the top player's control over multiple movements rather than a single explosive effort. The technique is particularly effective when the opponent maintains low, heavy pressure that neutralizes bridging attempts, making it the primary escape tool for the most common and technically sound Reverse Kesa-Gatame configurations. Success depends on patience, proper frame placement to prevent re-consolidation, and the discipline to chain multiple small shrimps rather than attempting one large movement.",
+    "key_principles": [
+      "Frame first, shrimp second—the free arm frame must prevent the opponent from following your hip escape before you commit to movement",
+      "Turn onto the hip before shrimping to maximize the distance generated by each hip escape movement",
+      "Direct shrimping force away from the opponent and slightly toward their legs, exploiting the reverse orientation gap",
+      "Insert the knee between bodies at the earliest opportunity rather than creating maximum space first—the knee shield prevents reconsolidation",
+      "Chain multiple small shrimps rather than attempting one large explosive movement, which is easier to counter",
+      "Maintain leg entanglement awareness throughout the escape to prevent feeding a mount transition"
+    ],
+    "setup_requirements": [
+      "Free arm positioned as a frame against opponent's hip, lower back, or near-side shoulder to create initial separation",
+      "Body turned onto the hip away from the opponent to establish the angle needed for effective shrimping",
+      "Far foot planted flat on the mat to generate driving power for hip escape movement",
+      "Near-side elbow tucked tight to the body to protect against Americana and Kimura attacks during the escape",
+      "Assessment that opponent's weight is settled rather than transitioning, confirming the hip escape is viable"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Establish defensive frame with free arm",
+        "description": "From underneath Reverse Kesa-Gatame, position your far arm as a rigid frame against the opponent's hip or lower back. This frame serves two purposes: it prevents them from driving their weight further onto your torso, and it creates the minimal space needed for your initial hip turn. Keep the frame active with constant outward pressure rather than a passive placement."
+      },
+      {
+        "step_number": 2,
+        "action": "Protect trapped arm and tuck chin",
+        "description": "Bend your trapped arm to approximately ninety degrees with the elbow tight against your ribs to prevent Americana and Kimura attacks. Tuck your chin toward your chest to protect against choke attempts. This defensive posture must be established before committing to any escape movement, as the top player will immediately exploit exposed limbs or neck."
+      },
+      {
+        "step_number": 3,
+        "action": "Turn body onto the far hip",
+        "description": "Using the free arm frame as a brace against the opponent, rotate your torso to turn onto the hip facing away from them. This lateral rotation is the foundation of the entire escape—remaining flat on your back makes every subsequent shrimping movement dramatically less effective. Your far shoulder should lift off the mat as you establish this angled position."
+      },
+      {
+        "step_number": 4,
+        "action": "Execute first hip escape",
+        "description": "With your far foot planted flat, drive through the leg to execute a powerful hip escape, moving your hips away from the opponent. The direction should be away from their body and slightly toward their legs, exploiting the gap created by their reverse orientation. Maintain your frame throughout the movement to prevent the opponent from following your hips and re-settling their weight."
+      },
+      {
+        "step_number": 5,
+        "action": "Chain second and third hip escapes",
+        "description": "Immediately replant the driving foot and execute additional hip escapes without pausing between repetitions. Each successive shrimp creates incremental space that accumulates into enough separation for knee insertion. The frame arm must actively push the opponent away during each shrimp to prevent them from closing the distance you create with each movement."
+      },
+      {
+        "step_number": 6,
+        "action": "Insert near knee between bodies",
+        "description": "As sufficient space opens between your torso and the opponent, bring your near knee between your bodies and position the shin across the opponent's waist or hip as a knee shield. This is the critical transition point—once the knee is inserted, the opponent cannot easily re-establish chest-to-chest pressure. Your foot should hook behind their body or plant on their hip for control."
+      },
+      {
+        "step_number": 7,
+        "action": "Establish half guard entanglement",
+        "description": "With the knee shield in place, continue shrimping to create additional space while your legs work to capture the opponent's near leg between yours. Close your legs around their thigh to establish the half guard entanglement. Immediately begin fighting for the underhook on the trapped leg side to transition from defensive recovery to offensive half guard positioning."
+      },
+      {
+        "step_number": 8,
+        "action": "Consolidate offensive guard position",
+        "description": "Once half guard is established, transition to your preferred variation—knee shield for distance management or underhook half guard for sweeps and back takes. Frame with your outside arm to prevent the opponent from re-establishing crossface or chest pressure. Begin your half guard offense immediately rather than resting in the recovered position, as momentum favors continued action."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Opponent drives chest weight down and follows the hip escape to re-flatten you against the mat",
+        "effectiveness": "High",
+        "your_response": "Maintain a rigid frame throughout the shrimp and immediately replant for the next hip escape. If the frame collapses, switch to a bridge attempt to disrupt their weight before resuming shrimping. The key is persistent, repeated shrimps rather than one large movement.",
+        "targets_outcome": "Reverse Kesa-Gatame/Bottom"
+      },
+      {
+        "counter": "Opponent steps over to mount as you create space with the hip escape, exploiting the gap between your bodies",
+        "effectiveness": "High",
+        "your_response": "Keep your near knee high and ready to block the leg-over transition throughout the escape. If you feel them lifting their leg, immediately insert your knee shield before committing to more hip escape movement. Prioritize blocking the mount transition over creating space.",
+        "targets_outcome": "Mount/Bottom"
+      },
+      {
+        "counter": "Opponent attacks the free arm when it is used as a frame, threatening Americana or Kimura on the framing arm",
+        "effectiveness": "Medium",
+        "your_response": "Use intermittent frames rather than a static post—frame, shrimp, retract, repeat. Keep the elbow of the framing arm tight and rotate the frame position to prevent isolation. If the arm is threatened, abandon the frame momentarily and defend the submission before resuming the escape.",
+        "targets_outcome": "Reverse Kesa-Gatame/Bottom"
+      },
+      {
+        "counter": "Opponent switches to north-south or adjusts angle to chase your hip escape movement",
+        "effectiveness": "Medium",
+        "your_response": "If the opponent begins rotating to follow your hips, accelerate the escape and insert the knee immediately rather than creating more space. Their transition creates a window where their weight shifts between positions—exploit this moment of instability for rapid knee insertion.",
+        "targets_outcome": "Reverse Kesa-Gatame/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Remaining flat on back without turning onto the hip before attempting to shrimp",
+        "consequence": "Hip escapes executed from a flat position generate minimal distance because the hips cannot move laterally without first establishing an angle. The opponent's weight pins you through the centerline of your back, making movement nearly impossible.",
+        "correction": "Always turn onto the far hip as the first movement after establishing the frame. Your shoulder should lift off the mat and your body should face sideways before the first shrimp. This angle multiplies the effectiveness of every subsequent hip escape movement."
+      },
+      {
+        "error": "Pushing with arms instead of generating movement from hip escape mechanics",
+        "consequence": "Arm-based pushing exhausts the upper body rapidly while creating minimal actual displacement. The arms cannot generate the force needed to move both your body and the opponent's weight. Additionally, extended arms are vulnerable to submission attacks.",
+        "correction": "The free arm functions as a frame that prevents the opponent from following—not as the primary mover. All displacement comes from the legs and hips through shrimping mechanics. The frame holds space; the hips create it."
+      },
+      {
+        "error": "Creating space but failing to insert the knee shield quickly enough",
+        "consequence": "Space created by hip escapes is temporary—the opponent will close the gap within seconds by driving forward. If the knee is not inserted during the window of space, the bottom player must restart the entire shrimping sequence from a more fatigued state.",
+        "correction": "Insert the knee at the earliest possible moment, even if the space seems insufficient. A partially inserted knee shield is dramatically better than open space that will close. The knee prevents reconsolidation and provides a platform for further escape work."
+      },
+      {
+        "error": "Attempting one large explosive shrimp rather than chaining multiple smaller movements",
+        "consequence": "A single large shrimp is easier for the opponent to counter because they can anticipate the direction and timing. If the single attempt fails, the bottom player is often left in a worse position with depleted energy.",
+        "correction": "Chain three to four smaller hip escapes in rapid succession, each building on the space created by the previous one. Multiple movements are harder to counter than one large one, and partial success still accumulates meaningful space."
+      },
+      {
+        "error": "Bringing the far knee toward the opponent during the escape attempt",
+        "consequence": "Feeding the far leg toward the opponent gives them a direct pathway to step over into mount. The knee creates a stepping stone that facilitates the mount transition, dramatically worsening the bottom player's position.",
+        "correction": "Keep the far leg posted flat on the mat for driving power during shrimps. Only the near knee should move between the bodies for the knee shield. The far leg remains the engine for hip escape power, never crossing the centerline toward the opponent."
+      },
+      {
+        "error": "Neglecting to protect the trapped arm during the escape sequence",
+        "consequence": "As the bottom player focuses on shrimping, they often extend or relax the trapped arm, creating immediate submission opportunities for the top player. An Americana or Kimura attack resets the escape and puts the bottom player in immediate danger.",
+        "correction": "Maintain the trapped arm at ninety degrees with elbow tight to the ribs throughout the entire escape sequence. This defensive posture must be automated so that it persists even during the cognitive demands of executing the shrimping sequence."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Solo Shrimping Mechanics",
+        "focus": "Hip escape movement patterns and hip mobility",
+        "description": "Practice solo shrimping drills on the mat, focusing on turning onto the hip before each shrimp, planting the foot close to the hips, and driving lateral distance. Perform sets of 10 shrimps in each direction, emphasizing the hip turn and chaining multiple movements in rapid succession."
+      },
+      {
+        "phase": "Phase 2: Cooperative Partner Drilling",
+        "focus": "Complete escape sequence with light resistance",
+        "description": "Partner holds Reverse Kesa-Gatame at 25-35% resistance while you execute the full escape sequence: frame, turn, shrimp chain, knee insert, guard recovery. Focus on proper frame placement and the timing of knee insertion. Reset and repeat 10 times per round."
+      },
+      {
+        "phase": "Phase 3: Progressive Resistance Drilling",
+        "focus": "Escape under increasing pressure",
+        "description": "Partner increases resistance from 50% to 80% across rounds. Practice adapting the frame angle and shrimp direction to the opponent's weight adjustments. Begin integrating bridge feints before shrimping to disrupt the opponent's pressure. Develop awareness of when to insert the knee versus when to continue shrimping."
+      },
+      {
+        "phase": "Phase 4: Escape Combination Drilling",
+        "focus": "Chaining hip escape with bridge escape",
+        "description": "Alternate between bridge escape and hip escape based on the partner's resistance style. If they sprawl low, use hip escape. If they sit high, use bridge. Practice reading the opponent's weight distribution and selecting the appropriate escape within the first three seconds of the round."
+      },
+      {
+        "phase": "Phase 5: Live Positional Sparring",
+        "focus": "Full resistance application with post-escape transitions",
+        "description": "Start from Reverse Kesa-Gatame bottom against full resistance. Top player maintains position and threatens submissions. Integrate the hip escape into a complete bottom game: escape to half guard, then immediately execute sweeps or back takes. Track escape-to-offensive-position success rate across rounds."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the optimal timing window for initiating the hip escape from Reverse Kesa-Gatame?",
+        "answer": "The hip escape is most effective when the opponent's weight is settled and low with heavy chest pressure, which paradoxically is when bridges are least effective. The optimal window opens immediately after the opponent commits to a settled position and before they begin attacking submissions. Additionally, any moment the opponent adjusts their weight or attacks creates a micro-window where their pressure momentarily decreases, allowing the initial frame and hip turn."
+      },
+      {
+        "question": "What conditions must exist before you commit to the first shrimping movement?",
+        "answer": "Three conditions must be established: the free arm must be positioned as a rigid frame against the opponent's hip or lower back to prevent them from following the shrimp; the body must be turned onto the far hip to create the angle necessary for effective lateral movement; and the far foot must be planted flat near the hips to generate driving power. Attempting to shrimp without all three conditions dramatically reduces escape effectiveness and wastes energy."
+      },
+      {
+        "question": "What is the most critical hip movement during the escape sequence?",
+        "answer": "The initial turn from flat on the back onto the far hip is the most critical movement. This rotation converts the body from a flat surface that the opponent can pin through their centerline into an angled structure that can generate lateral force through shrimping. Without this hip turn, every subsequent shrimp operates at a fraction of its potential effectiveness. The turn should be the first physical action after establishing the frame."
+      },
+      {
+        "question": "What is the most common reason this escape fails at the purple and brown belt level?",
+        "answer": "The most common failure is inadequate frame maintenance during the shrimping sequence. Practitioners at this level understand the shrimping mechanics but fail to keep the frame rigid and active throughout, allowing the opponent to follow each shrimp and reconsolidate pressure. The frame must persistently prevent the opponent from closing the gap created by each hip escape, functioning as a one-way valve that preserves accumulated space."
+      },
+      {
+        "question": "What grip should the free arm establish first when beginning the escape?",
+        "answer": "The free arm should establish a forearm frame against the opponent's hip bone or lower back, with the elbow pointing downward and the forearm perpendicular to the opponent's body. This placement creates maximum structural strength because the frame is supported by the skeletal structure rather than muscular effort. Avoid posting the hand against the opponent's shoulder or chest, as this creates a longer lever arm that is easier to collapse and more fatiguing to maintain."
+      },
+      {
+        "question": "In which direction should the primary shrimping force be applied during the escape?",
+        "answer": "The shrimping direction should be away from the opponent and slightly toward their legs, which in Reverse Kesa-Gatame means toward the side their hips face. This direction exploits the natural gap created by the reverse orientation and moves the bottom player toward the weakest point of the top player's control. Shrimping directly away or toward the opponent's head moves into stronger control zones and reduces escape efficiency."
+      },
+      {
+        "question": "Your opponent drives their chest down and increases pressure as you begin to shrimp—how do you adjust?",
+        "answer": "Maintain the frame rigidly and pause the shrimping sequence to absorb their pressure. Once they commit their weight forward and low, execute a quick bridge feint to disrupt their settled weight, then immediately resume shrimping while their weight is momentarily displaced. This bridge-to-shrimp combination exploits the opponent's forward commitment—the bridge moves them up, and the shrimp moves you out during the return. Alternatively, switch to the full bridge escape if their weight shifts high enough."
+      },
+      {
+        "question": "You have inserted the knee shield but the opponent is driving heavy pressure against it—what is the immediate follow-up?",
+        "answer": "Once the knee shield is established, shift your frame from the opponent's hip to controlling their far arm or cross-facing hand to prevent them from applying submissions or flattening you past the knee shield. Continue shrimping to widen the space between your bodies while your legs work to capture their near leg for full half guard. The knee shield is not the endpoint—it is the transition point from escape mode to guard recovery mode. Use it as a platform for establishing the underhook."
+      }
+    ],
+    "safety_considerations": "Hip escape drilling involves repetitive spinal rotation and lateral hip movement that can strain the lower back and hip flexors if performed without adequate warm-up. Begin each session with hip circles, spinal mobility exercises, and light shrimping before loading with partner pressure. The top player should apply progressive resistance rather than maximum weight during initial learning phases to prevent rib compression injuries. Communicate about breathing difficulty immediately—chest compression from Reverse Kesa-Gatame can restrict respiration, and both partners should recognize when the bottom player needs a moment to recover breathing before continuing drill repetitions."
+  },
+  "defender": {
+    "name": "Escape Reverse Kesa-Gatame Defender",
+    "description": "Defend against the hip escape from Reverse Kesa-Gatame. Learn to recognize shrimping attempts, maintain pin pressure, and capitalize on failed escapes to advance to mount.",
+    "overview": "Defending against the hip escape from Reverse Kesa-Gatame requires the top player to maintain constant chest-to-chest pressure, follow the bottom player's hip movement, and capitalize on escape attempts to advance position. The primary defensive strategy centers on anticipating the shrimping direction and driving forward to close any space the bottom player creates. Unlike defending against the bridge escape—which demands sprawling and base width—defending the hip escape requires forward pressure and the ability to follow the bottom player's lateral movement while maintaining arm control. Understanding the escape's sequential nature allows the top player to intervene at multiple points: before the frame is established, during the hip turn, or before the knee can be inserted.",
+    "key_principles": [
+      "Maintain constant forward pressure through the chest to prevent the bottom player from creating the initial space needed to turn onto their hip",
+      "Follow the bottom player's shrimping movement by walking your hips forward, closing space as fast as they create it",
+      "Keep the far arm trapped to eliminate the primary framing tool the bottom player needs for the escape sequence",
+      "Recognize the hip turn as the critical escape initiation point and drive weight onto the turning hip to prevent the angle change",
+      "Use the bottom player's committed shrimping direction to time a mount transition, stepping over in the direction they are moving away from",
+      "Alternate between maintaining the pin and threatening submissions to force the bottom player to split defensive attention"
+    ],
+    "recognition_cues": [
+      "Bottom player's free arm moves to establish a frame against your hip, lower back, or near-side shoulder",
+      "Bottom player begins turning their far hip upward, initiating the rotation from flat on their back to a side-lying position",
+      "Far foot plants flat on the mat with heel close to the hips, loading the leg for shrimping power generation",
+      "Subtle lateral hip movement away from you as the bottom player initiates the first micro-shrimp before full commitment"
+    ],
+    "defensive_options": [
+      {
+        "action": "Drive chest weight forward and follow the shrimping direction to re-close space",
+        "when_to_use": "Immediately upon feeling the bottom player's hips begin to move away. The earlier you follow, the less space accumulates from each shrimp.",
+        "targets_outcome": "Reverse Kesa-Gatame/Bottom",
+        "if_successful": "Escape is neutralized and you maintain Reverse Kesa-Gatame with the bottom player having expended energy on failed shrimping",
+        "risk": "Following too aggressively may shift your weight high enough to create a bridging opportunity"
+      },
+      {
+        "action": "Step over to mount as the bottom player shrimps away, exploiting the gap they create",
+        "when_to_use": "When the bottom player has created significant lateral space through shrimping but has not yet inserted a knee shield. The gap between your bodies provides the pathway for the mount transition.",
+        "targets_outcome": "Mount/Bottom",
+        "if_successful": "You advance from Reverse Kesa-Gatame to mount, gaining a superior position with scoring and submission opportunities",
+        "risk": "If the bottom player inserts the knee shield before you complete the step-over, you end up in half guard top"
+      },
+      {
+        "action": "Attack the trapped arm with Americana or Kimura when the bottom player commits to shrimping",
+        "when_to_use": "When the bottom player focuses entirely on the hip escape and relaxes the trapped arm's defensive posture. Their attention to shrimping mechanics often creates a submission window.",
+        "targets_outcome": "Reverse Kesa-Gatame/Bottom",
+        "if_successful": "The submission threat forces the bottom player to abandon the escape and defend, resetting their escape progress",
+        "risk": "Committing to the submission may reduce your chest pressure enough to accelerate the escape"
+      },
+      {
+        "action": "Control the free arm to eliminate the frame before the escape sequence begins",
+        "when_to_use": "When you detect the bottom player positioning their free arm for a frame. Trapping both arms removes the primary escape tool.",
+        "targets_outcome": "Reverse Kesa-Gatame/Bottom",
+        "if_successful": "Bottom player cannot establish the frame needed for the hip escape, forcing them to attempt the riskier bridge escape instead",
+        "risk": "Reaching for the far arm may shift your weight and create momentary space"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Reverse Kesa-Gatame/Bottom",
+        "how": "Follow the bottom player's shrimping movement by driving your hips forward, maintaining chest-to-chest pressure throughout. Close any space created by their hip escapes before they can insert a knee shield. Reconsolidate arm control after each failed escape attempt."
+      },
+      {
+        "outcome": "Mount/Bottom",
+        "how": "When the bottom player creates lateral space through committed shrimping, use the gap to step your far leg over their body into mount. Time the transition for when they are mid-shrimp and their near knee has not yet risen to block. Their shrimping direction actually assists the mount transition by moving their body under your stepping leg."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Remaining static when the bottom player begins shrimping instead of following their movement",
+        "consequence": "Each shrimp accumulates space that brings the bottom player closer to knee insertion and guard recovery. The space compounds rapidly with multiple shrimps, and static pressure becomes ineffective once sufficient distance exists between the bodies.",
+        "correction": "Walk your hips forward with each shrimp the bottom player executes. Your chest must maintain contact with their torso throughout—think of your pressure as adhesive that follows their movement rather than a static weight."
+      },
+      {
+        "error": "Allowing the bottom player to turn onto their hip without driving weight onto the turning side",
+        "consequence": "The hip turn is the escape's foundation—once the bottom player establishes a side-lying position, every subsequent shrimp is dramatically more effective. Allowing the turn unchallenged essentially concedes the first critical phase of the escape.",
+        "correction": "When you feel the bottom player beginning to rotate, drive your weight onto their near-side hip and shoulder to pin them flat. The hip turn is the single most important moment to intervene in the escape sequence."
+      },
+      {
+        "error": "Loosening arm control to post when feeling the bottom player's hip escape movement",
+        "consequence": "Releasing the trapped arm gives the bottom player their most important framing tool. Two free arms make the escape dramatically easier and faster, often resulting in immediate guard recovery.",
+        "correction": "Maintain at least one arm control point throughout the defense. If you need to post for stability, use your far arm while keeping the armpit clamp on the trapped arm with your near arm. Arm control is non-negotiable."
+      },
+      {
+        "error": "Attempting to mount too late after the bottom player has already inserted the knee shield",
+        "consequence": "Trying to step over a knee shield results in landing in half guard top rather than mount. The knee shield blocks the leg-over transition and provides the bottom player with an established defensive structure.",
+        "correction": "The mount transition must happen before the knee is inserted—once you see the knee shield forming, abandon the mount attempt and focus on smashing the knee down or transitioning to a half guard passing strategy instead."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the earliest indicator that the bottom player is initiating a hip escape rather than a bridge?",
+        "answer": "The key differentiator is the hip turn—the bottom player rotating onto their far hip indicates a shrimping escape, while planting both feet symmetrically indicates a bridge. The hip escape also shows the free arm positioning as a lateral frame against your hip rather than a push-off point under your shoulder. Recognizing this distinction within the first second allows you to apply the correct defensive response: forward pressure for hip escapes versus sprawling for bridges."
+      },
+      {
+        "question": "How should you adjust your weight distribution when the bottom player begins shrimping away?",
+        "answer": "Drive your hips forward in the same direction the bottom player is moving, maintaining chest contact throughout their shrimping sequence. Your weight should transfer through your chest and into their upper torso rather than remaining static. Avoid the temptation to sit higher to follow their movement—keep your hips low and walk forward. Each time they shrimp, close the distance immediately before the next shrimp compounds the space."
+      },
+      {
+        "question": "Your opponent successfully inserts a knee shield during their escape—what is the best immediate response?",
+        "answer": "Once the knee shield is in, do not try to remove it by pulling the leg out, as this creates more space. Instead, drive shoulder pressure against the knee shield to flatten it, then transition to a half guard passing strategy such as the knee slice or smash pass. Alternatively, if the shield is not deeply set, you can backstep to re-establish a different control position. The key recognition is that Reverse Kesa-Gatame is lost once the knee enters—switching to half guard top mentality is essential."
+      },
+      {
+        "question": "When is the optimal moment to transition from pin defense to mount advancement during the escape attempt?",
+        "answer": "The optimal moment is when the bottom player has created lateral space through two or three shrimps but has not yet raised their near knee to block. Their hips are angled away from you and moving in one direction, creating a clear pathway for your far leg to step over. This window typically exists for one to two seconds between the space creation and the knee insertion. Committing too early means insufficient space for the step-over; committing too late means the knee shield blocks the transition."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Pressure Following Drill",
+        "focus": "Walking hips forward to match shrimping movement",
+        "description": "Partner executes slow shrimps from Reverse Kesa-Gatame bottom while you practice following their movement with forward hip pressure. Focus on maintaining chest contact throughout each shrimp and closing space immediately. Count how many consecutive shrimps you can neutralize without the partner creating enough space for knee insertion."
+      },
+      {
+        "phase": "Phase 2: Recognition and Response Drill",
+        "focus": "Distinguishing hip escape from bridge and applying correct defense",
+        "description": "Partner alternates between bridge attempts and hip escape attempts without signaling which one. Top player must recognize the escape type within the first second and apply the correct response: sprawl for bridges, forward drive for hip escapes. Develop pattern recognition speed across multiple rounds."
+      },
+      {
+        "phase": "Phase 3: Mount Transition Timing",
+        "focus": "Capitalizing on shrimping gaps to advance to mount",
+        "description": "Partner executes committed hip escapes while you practice timing the mount transition. Focus on recognizing the window between space creation and knee insertion. Alternate between maintaining the pin and transitioning to mount to develop the decision-making about which response is optimal for each situation."
+      },
+      {
+        "phase": "Phase 4: Full Resistance Pin Maintenance",
+        "focus": "Maintaining Reverse Kesa-Gatame against all escape types",
+        "description": "Full-resistance positional sparring where the bottom player uses both bridges and hip escapes mixed together. Top player must maintain position, recognize each escape type, respond appropriately, and capitalize on failed attempts. Track position retention time and mount transition success rate across rounds."
+      }
+    ]
+  }
+}

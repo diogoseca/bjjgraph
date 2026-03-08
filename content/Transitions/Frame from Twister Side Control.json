@@ -1,0 +1,370 @@
+{
+  "name": "Frame from Twister Side Control",
+  "description": "Master the frame escape from twister side control. Complete guide to systematic framing, hip movement, and half guard recovery with step-by-step execution.",
+  "tags": [
+    "escape",
+    "defense",
+    "twister side control",
+    "framing",
+    "half guard recovery",
+    "10th planet",
+    "guard recovery",
+    "no-gi"
+  ],
+  "from_position": "Twister Side Control/Bottom",
+  "outcomes": [
+    {
+      "to": "Half Guard/Bottom",
+      "probability": 40,
+      "result": "success"
+    },
+    {
+      "to": "Twister Side Control/Bottom",
+      "probability": 35,
+      "result": "failure"
+    },
+    {
+      "to": "Truck/Bottom",
+      "probability": 25,
+      "result": "counter"
+    }
+  ],
+  "success_rate": 40,
+  "overview": "The Frame from Twister Side Control is a fundamental escape technique where the bottom player establishes structural frames against the top player's shoulder and hip to create separation, disrupt the leg entanglement, and recover to half guard. Unlike explosive escape methods that risk energy depletion and can worsen the position by exposing the back, this frame-based approach emphasizes incremental positional improvement through biomechanically sound body positioning that redirects the opponent's weight rather than fighting against it directly.\n\nThe technique addresses the core challenge of twister side control defense: managing simultaneous spinal rotation threats and leg entanglement while creating enough space to begin systematic escape. By building rigid frame structures with bent elbows connected to the body, the bottom player creates barriers that mechanically redirect the top player's pressure. This structural advantage allows the escape to succeed even against larger, stronger opponents, making it one of the most reliable pathways out of this dangerous position.\n\nStrategic deployment requires reading the top player's weight distribution and submission intentions. The optimal timing window occurs when the top player shifts weight to pursue twister or choke attacks, momentarily reducing leg entanglement effectiveness. Successful execution chains frame creation into systematic leg extraction and hip escape, arriving in half guard where the bottom player can immediately establish retention grips and transition to offensive sequences. The technique's reliability makes it a cornerstone of any systematic defense against 10th Planet twister-based attacks.",
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Elbow-Knee Connection Frame",
+      "description": "Close-range framing variant where the bottom player connects their elbow directly to their own knee, creating a compact structural barrier between their body and the top player's shoulder. This shortened frame is harder to collapse but generates less initial separation, requiring multiple small adjustments to create escape space.",
+      "when_to_use": "When the top player is applying heavy pressure and standard frames are being collapsed repeatedly, or when insufficient space exists to extend frames to full length."
+    },
+    {
+      "variant_name": "Frame to Technical Standup",
+      "description": "Extended variant where the bottom player uses initial frame separation to post on one hand and come up to a seated position, then transitions directly to standing rather than recovering to half guard. This bypasses the guard recovery entirely and returns to neutral standing position.",
+      "when_to_use": "When the top player's leg entanglement is shallow or has been partially loosened, and sufficient upper body separation exists to safely transition to standing without exposing the back."
+    },
+    {
+      "variant_name": "Granby Roll Frame Reset",
+      "description": "Dynamic variant where after establishing initial frames and creating partial separation, the bottom player uses a granby roll motion to completely change the angle of engagement and arrive in open guard rather than half guard. Requires good timing and spatial awareness.",
+      "when_to_use": "When the top player adjusts forward to re-establish control after initial frames create separation, using their forward momentum to fuel the granby roll escape."
+    }
+  ],
+  "position_integration": "The Frame from Twister Side Control serves as a critical defensive bridge between the specialized 10th Planet twister system and mainstream half guard play. This escape technique connects one of the most dangerous bottom positions in no-gi grappling to the well-established half guard system where practitioners have extensive offensive and defensive tools available. Understanding this frame escape is essential for anyone competing in no-gi environments where twister-based attacks are increasingly common. The technique complements other twister defense methods such as spine protection and granby rolls, providing a methodical alternative that prioritizes controlled positional improvement over explosive athleticism.",
+  "conditions": [
+    "Top player has established twister side control with active leg entanglement on the near leg",
+    "Bottom player has at least one hand free from grips to begin creating frames against the top player",
+    "Bottom player's spine is not fully locked in twister finish position, allowing defensive frame creation",
+    "Sufficient awareness of leg entanglement depth and shoulder pressure intensity to plan escape sequence"
+  ],
+  "related_content": [
+    {
+      "name": "Twister Side Control",
+      "relationship": "Origin position from which this frame escape initiates"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Primary target position upon successful frame escape completion"
+    },
+    {
+      "name": "Truck",
+      "relationship": "Counter outcome position within twister system if escape fails and legs are re-entangled"
+    },
+    {
+      "name": "Escape Twister Side Control",
+      "relationship": "Related escape technique with different mechanics from the same starting position"
+    },
+    {
+      "name": "Back Control",
+      "relationship": "Risk position if framing creates back exposure during the escape attempt"
+    },
+    {
+      "name": "Side Control",
+      "relationship": "Related lateral control position with similar framing escape concepts"
+    },
+    {
+      "name": "Lockdown",
+      "relationship": "Related 10th Planet leg entanglement system with overlapping defensive principles"
+    },
+    {
+      "name": "Turtle",
+      "relationship": "Intermediate position sometimes reached during partial escape sequences from twister control"
+    }
+  ],
+  "attacker": {
+    "name": "Frame from Twister Side Control Attacker",
+    "description": "Learn to escape twister side control using systematic framing techniques. Step-by-step guide covering frame creation, leg extraction, and half guard recovery from bottom.",
+    "overview": "The attacker in this context is the bottom player initiating the frame escape from twister side control. This is a defensive technique executed offensively, where the trapped practitioner systematically builds structural frames to create separation, dismantle the top player's control, and recover to half guard. The escape demands precise sequencing, beginning with spinal protection, progressing through frame establishment and leg extraction, and concluding with half guard recovery and retention grip establishment. Rushing any phase creates vulnerabilities that the top player will exploit through submission attempts or positional advancement. Success requires patience, structural understanding, and the ability to read the opponent's weight distribution to identify optimal timing windows for each phase of the escape.",
+    "key_principles": [
+      "Establish structural frames with bent elbows connected to the body rather than pushing with extended arms",
+      "Address control layers in strict sequence: spine protection first, then upper body frames, then leg extraction",
+      "Use incremental positional improvements rather than explosive escape attempts that risk energy depletion",
+      "Time frame establishment when the opponent shifts weight for submission pursuit, creating momentary gaps in control",
+      "Maintain facing toward the opponent throughout the escape to prevent back exposure and deeper twister mechanics",
+      "Coordinate upper body frame maintenance with lower body leg extraction for sustainable escape progression",
+      "Conserve energy through efficient structural positioning rather than sustained muscular effort against superior leverage"
+    ],
+    "setup_requirements": [
+      "Spinal integrity preserved with no active twister submission fully locked in place",
+      "At least one hand free from the opponent's grip control to begin establishing frames",
+      "Awareness of the top player's weight distribution and primary control points to identify framing targets",
+      "Mental readiness to commit to a systematic multi-step escape rather than a single explosive movement"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Protect Spine",
+        "description": "Use both hands to block any spinal rotation by gripping your own knee, thigh, or the opponent's controlling grip. This is the absolute first priority and must be secured before any other escape action begins, as a fully locked twister can cause serious cervical and thoracic spine injury."
+      },
+      {
+        "step_number": 2,
+        "action": "Establish Shoulder Frame",
+        "description": "Place your near-side forearm against the opponent's shoulder or collarbone with your elbow bent at approximately ninety degrees and connected to your hip, creating a structural barrier that redirects their weight without requiring sustained muscular effort from you."
+      },
+      {
+        "step_number": 3,
+        "action": "Create Hip Frame",
+        "description": "Position your far-side hand on the opponent's hip or belt line with your elbow bent, creating a second structural contact point that prevents them from driving their weight forward and collapsing your primary shoulder frame during the escape sequence."
+      },
+      {
+        "step_number": 4,
+        "action": "Generate Upper Body Separation",
+        "description": "Drive both frames simultaneously while performing a hip escape away from the opponent, creating measurable space between your shoulder and their chest while maintaining the structural integrity of both frame positions throughout the shrimping movement."
+      },
+      {
+        "step_number": 5,
+        "action": "Begin Leg Extraction",
+        "description": "With upper body separation established and frames holding firm, use hip extension and small circular motions to begin unhooking the entangled leg from the opponent's leg hook. Work systematically starting with the leg closest to the mat rather than yanking explosively."
+      },
+      {
+        "step_number": 6,
+        "action": "Complete Hip Escape to Half Guard",
+        "description": "Once the leg entanglement loosens sufficiently from the extraction work, execute a full hip escape to insert your inside knee between yourself and the opponent, establishing the fundamental half guard leg triangle around their now partially freed leg."
+      },
+      {
+        "step_number": 7,
+        "action": "Secure Half Guard Retention",
+        "description": "Immediately after recovering half guard position, establish a knee shield or fight for the underhook on the trapped leg side to prevent the opponent from immediately re-passing or transitioning back to twister side control before you consolidate your new position."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Top player drives heavy shoulder pressure to collapse frames before they become structurally established",
+        "effectiveness": "High",
+        "your_response": "Switch to a tighter elbow-knee connection frame that sacrifices separation distance for structural resilience, or use the opponent's weight commitment to hip escape in the opposite direction",
+        "targets_outcome": "Twister Side Control/Bottom"
+      },
+      {
+        "counter": "Top player re-entangles legs into truck position when extraction creates space at the lower body",
+        "effectiveness": "High",
+        "your_response": "Immediately halt leg extraction and re-focus on upper body frames. Do not continue extraction until frames are re-secured. Consider abandoning extraction temporarily and resetting the escape sequence",
+        "targets_outcome": "Truck/Bottom"
+      },
+      {
+        "counter": "Top player attacks extended framing arm with kimura grip or wristlock when elbow straightens",
+        "effectiveness": "Medium",
+        "your_response": "Withdraw the endangered arm immediately by pulling the elbow tight to your body and tucking the hand against your chest. Re-establish a frame from the opposite side or use a shorter frame that does not expose the arm",
+        "targets_outcome": "Twister Side Control/Bottom"
+      },
+      {
+        "counter": "Top player transitions through truck to back take when separation creates space but legs remain partially entangled",
+        "effectiveness": "Medium",
+        "your_response": "Maintain facing toward the opponent during all frame movements and never allow back exposure. If you feel back exposure developing, halt the escape and re-orient your hips before continuing",
+        "targets_outcome": "Truck/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Extending arms fully to push opponent away instead of building bent-elbow structural frames",
+        "consequence": "Extended arms become vulnerable to kimura, americana, and wristlock attacks while failing to create sustainable separation due to muscular fatigue",
+        "correction": "Keep elbows bent at ninety degrees and connected to the body. Frames should redirect force through skeletal structure rather than rely on arm strength to push the opponent's weight"
+      },
+      {
+        "error": "Attempting leg extraction before establishing and securing upper body frames",
+        "consequence": "Top player drives shoulder into the space created by hip movement, worsening position and potentially deepening the leg entanglement or transitioning to truck",
+        "correction": "Follow the strict escape sequence: spine protection, then shoulder frame, then hip frame, then separation, and only then begin leg extraction with frames actively holding"
+      },
+      {
+        "error": "Turning back toward the opponent during framing to relieve shoulder pressure",
+        "consequence": "Exposes the back and deepens twister mechanics by increasing spinal rotation, which is exactly what the twister submission requires to finish",
+        "correction": "Always maintain facing toward the opponent's hips while using frames to create separation. Never turn your back at any point during the escape sequence"
+      },
+      {
+        "error": "Using explosive full-body escape attempts without systematically dismantling control layers",
+        "consequence": "Energy reserves depleted rapidly without meaningful positional improvement, leaving the bottom player exhausted and more vulnerable to submissions",
+        "correction": "Commit to incremental positional improvement through patient, structured framing. Accept that escape requires multiple small gains rather than one explosive movement"
+      },
+      {
+        "error": "Failing to establish retention grips immediately after recovering half guard position",
+        "consequence": "Top player immediately re-passes or transitions back to twister side control before the half guard is consolidated, negating the entire escape effort",
+        "correction": "The moment half guard is achieved, establish a knee shield or fight for the underhook. Treat half guard recovery and retention grip establishment as a single continuous action"
+      },
+      {
+        "error": "Maintaining a single frame placement after it has been countered repeatedly by the top player",
+        "consequence": "Top player adapts to the predictable frame location and develops efficient collapse mechanics, making each subsequent attempt less effective",
+        "correction": "Vary frame placement between shoulder, collarbone, and hip targets. Switch between standard frames and elbow-knee connection frames based on opponent's counter-pressure patterns"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Foundation",
+        "focus": "Frame mechanics and positioning",
+        "description": "Practice solo frame drills against the wall and with a partner providing no resistance. Focus on correct elbow angle, hip connection, and structural placement. Build muscle memory for proper frame positioning and the sensation of redirecting weight through skeletal structure before adding any resistance."
+      },
+      {
+        "phase": "Integration",
+        "focus": "Complete escape sequence",
+        "description": "Partner establishes twister side control at 30% resistance. Practice the complete sequence from spine protection through frame creation, leg extraction, and half guard recovery. Focus on correct phase sequencing and smooth transitions between each step without rushing or skipping phases."
+      },
+      {
+        "phase": "Resistance Training",
+        "focus": "Escape under active pressure",
+        "description": "Partner applies 50-75% resistance from twister side control while you work the frame escape. Partner actively counters with shoulder pressure collapses, leg re-entanglement, and arm attacks. Develop timing, adaptation, and the ability to switch between frame variations based on opponent reactions."
+      },
+      {
+        "phase": "Live Application",
+        "focus": "Competition simulation",
+        "description": "Full positional sparring starting from twister side control bottom. Top player uses full resistance and all available submissions and transitions. Bottom player works to escape using frame-based methods. Track escape success rate over multiple rounds and identify remaining weaknesses for targeted improvement."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the correct frame structure and why must elbows remain bent throughout the escape?",
+        "answer": "Frames should be built with elbows bent at approximately ninety degrees and connected to the body, creating structural barriers rather than muscular pushing. Straight-arm frames create vulnerability to kimura, americana, and other arm attacks, and they fatigue rapidly because they rely on muscular endurance. Bent-elbow frames redirect force through bone structure, making them sustainable and resistant to collapse under heavy pressure."
+      },
+      {
+        "question": "When is the optimal timing window to establish initial frames against the top player?",
+        "answer": "The optimal window occurs when the top player shifts their weight forward to pursue twister submissions or choke attacks, momentarily reducing their base stability and leg entanglement effectiveness. This weight shift creates a brief period where shoulder pressure decreases slightly, allowing the bottom player to insert frames more easily than during settled, heavy positional control."
+      },
+      {
+        "question": "Your opponent collapses your shoulder frame with heavy pressure - how do you respond?",
+        "answer": "Do not repeatedly attempt the same frame that was collapsed. Switch to a tighter elbow-knee connection frame that sacrifices separation distance for structural resilience. Alternatively, use the momentary weight commitment of their frame collapse to execute a hip escape in the opposite direction, creating space from a different angle. Adapting frame type to counter-pressure is essential."
+      },
+      {
+        "question": "Why must leg extraction follow upper body frame creation rather than being attempted simultaneously?",
+        "answer": "Attempting leg extraction without established upper body frames allows the top player to drive their shoulder into the space created by hip movement, worsening the position and potentially deepening the entanglement into truck. Upper body frames create the separation necessary for the hips to move freely during extraction. Without this separation, leg movement is countered by weight collapse into the torso."
+      },
+      {
+        "question": "What grip should you establish immediately after recovering half guard and why is this critical?",
+        "answer": "Immediately establish a knee shield or fight for the underhook on the trapped leg side. The knee shield creates a physical barrier preventing the opponent from re-establishing chest-to-chest pressure and transitioning back to twister side control. Failing to establish retention grips immediately leaves you vulnerable to being re-passed before the half guard position is consolidated."
+      },
+      {
+        "question": "How do you prevent back exposure during the framing and hip escape sequence?",
+        "answer": "Maintain facing toward the opponent's hips throughout all frame movements and hip escapes. Never turn your back during any phase of the escape, as this gifts back control and potentially deepens twister mechanics. The hip escape should move your hips away while your shoulders and chest continue facing the opponent. If back exposure begins, halt the escape and re-orient before continuing."
+      },
+      {
+        "question": "Your opponent attacks your framing arm with a kimura grip - what is the correct response?",
+        "answer": "Immediately withdraw the endangered arm by pulling the elbow tight to your body and tucking the hand against your chest. Do not fight the kimura grip with an extended arm. Once the arm is safe, re-establish a frame from the opposite side or use a shorter elbow-knee connection frame that does not expose the arm to isolation. No single frame is worth risking a submission."
+      }
+    ],
+    "safety_considerations": "Frame escape from twister side control involves managing significant spinal rotation forces. Never attempt explosive bridging movements while under active twister torque, as this can amplify rotational stress on the cervical and thoracic spine. If the twister submission is fully locked and you cannot prevent spinal rotation through framing, tap immediately rather than risk neck or spine injury. During training, communicate with your partner about the intensity of spinal pressure and use controlled resistance progressions. Begin all drills with light resistance and increase gradually as technique proficiency develops."
+  },
+  "defender": {
+    "name": "Frame from Twister Side Control Defender",
+    "description": "Counter the frame escape from twister side control with pressure maintenance and frame collapse techniques. Systematic approach to maintaining control against bottom player escape attempts.",
+    "overview": "The defender in this context is the top player maintaining twister side control while the bottom player attempts a frame-based escape. Your primary objective is to prevent the establishment of structural frames that create separation, and to maintain the leg entanglement and shoulder pressure that define the position's control. Early recognition of framing attempts is essential because partially built frames are far easier to collapse than fully established ones. The defender must balance between maintaining positional control and recognizing submission opportunities that arise when the bottom player exposes their arms or changes their body angle during escape attempts. This balance between control maintenance and offensive exploitation defines high-level twister side control retention against systematic frame escapes.",
+    "key_principles": [
+      "Recognize framing attempts at their earliest stage and counter before frames become structurally established",
+      "Maintain constant shoulder pressure that prevents the bottom player from inserting frames between your chest and their body",
+      "Keep leg entanglement tight and active throughout all positional adjustments to prevent systematic leg extraction",
+      "Exploit arm exposure during framing attempts as submission opportunities through kimura and wristlock entries",
+      "Balance between collapsing frames to maintain position and transitioning to back take when separation becomes unavoidable",
+      "Use dynamic weight adjustment rather than static pressure to continuously deny frame establishment at different angles"
+    ],
+    "recognition_cues": [
+      "Bottom player's hands moving from defensive positions on their own body toward your shoulder, collarbone, or hip area",
+      "Subtle shift in the bottom player's hip angle as they prepare to shrimp away from your control, indicated by their outside hip beginning to rotate",
+      "Change in the bottom player's breathing pattern from short defensive breaths to a deeper preparation breath indicating imminent exertion",
+      "Bottom player's near-side forearm beginning to angle against your shoulder or chest, positioning to create the primary structural frame",
+      "Slight reduction in the bottom player's resistance to your leg entanglement, indicating they are redirecting attention and energy to upper body framing"
+    ],
+    "defensive_options": [
+      {
+        "action": "Collapse frames with increased shoulder pressure by driving chest weight into the frame before it becomes structurally sound",
+        "when_to_use": "Immediately upon detecting the earliest signs of frame creation, before the bottom player establishes both frames and begins hip escape",
+        "targets_outcome": "Twister Side Control/Bottom",
+        "if_successful": "Bottom player's frames collapse and you return to full twister side control with renewed submission pressure",
+        "risk": "Over-committing weight forward to collapse frames can create a momentary balance disruption the bottom player exploits for a bridge escape"
+      },
+      {
+        "action": "Re-entangle legs into truck position by driving hook deeper when the bottom player begins extracting their legs from the entanglement",
+        "when_to_use": "When the bottom player has created upper body separation and begins the leg extraction phase of their escape sequence",
+        "targets_outcome": "Truck/Bottom",
+        "if_successful": "Achieve full truck position with renewed access to twister, calf slicer, and back take submission chains",
+        "risk": "If the timing is late, the leg extraction may complete before you can re-entangle, allowing the half guard recovery"
+      },
+      {
+        "action": "Attack the extended framing arm with a kimura grip or wristlock when the bottom player's elbow straightens beyond safe range",
+        "when_to_use": "When the bottom player pushes with straight arms rather than building structural bent-elbow frames, exposing their arm to isolation",
+        "targets_outcome": "Twister Side Control/Bottom",
+        "if_successful": "Bottom player is forced to withdraw their frame to defend the arm attack, and you re-establish full positional control",
+        "risk": "Focusing on the arm attack requires temporarily releasing some positional control, which may create space for hip escape if the submission is not secured quickly"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Truck/Bottom",
+        "how": "When the bottom player begins extracting their legs during the escape sequence, immediately re-entangle by driving your hook deeper and transitioning to full truck control, capitalizing on the momentary gap in their upper body frame structure as they shift focus to the lower body"
+      },
+      {
+        "outcome": "Twister Side Control/Bottom",
+        "how": "Drive heavy shoulder pressure into the frames before they become structurally sound, using chest-to-chest weight transfer to collapse the frame structure and return to full twister side control with renewed submission pressure and tighter leg entanglement"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Allowing frames to become fully established before attempting to collapse them with shoulder pressure",
+        "consequence": "Fully established structural frames are significantly harder to collapse than partially built ones, requiring much greater force and creating more positional disruption during the collapse attempt",
+        "correction": "React to the earliest cues of framing by immediately increasing shoulder pressure and driving weight into the contact point before the bottom player can establish skeletal alignment"
+      },
+      {
+        "error": "Releasing leg entanglement to chase arm attacks when the bottom player extends a framing arm",
+        "consequence": "Bottom player extracts their legs during the arm attack pursuit, escaping to half guard or worse while you hold an uncommitted kimura grip",
+        "correction": "Maintain leg entanglement as the non-negotiable control foundation. Only pursue arm attacks with the upper body while legs remain actively hooked and squeezing"
+      },
+      {
+        "error": "Using static heavy pressure without adjusting to the bottom player's changing frame angles and hip positions",
+        "consequence": "Bottom player systematically works around fixed pressure by adjusting frame angles, eventually finding a configuration that creates escape-worthy separation",
+        "correction": "Dynamically adjust weight distribution and pressure angle as the bottom player moves. Follow their hip with your hips and redirect shoulder pressure to match their frame placement"
+      },
+      {
+        "error": "Ignoring the transition opportunity to back take when the bottom player creates meaningful upper body separation",
+        "consequence": "Bottom player uses the separation to complete leg extraction and half guard recovery while you attempt to re-establish a control position that is already compromised",
+        "correction": "Recognize when frame separation has progressed past the point of easy collapse and transition to back take or truck rather than fighting to re-establish lost control"
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What are the earliest recognition cues that the bottom player is initiating a frame escape from twister side control?",
+        "answer": "The earliest cues include the bottom player's hands moving from defensive positions toward your shoulder or hip, a subtle shift in their hip angle as they prepare to shrimp, and changes in their breathing pattern indicating imminent exertion. Their near-side forearm will begin to angle against your shoulder, and you may feel a slight reduction in their resistance to your leg entanglement as they redirect energy to upper body framing."
+      },
+      {
+        "question": "How should you adjust weight distribution when you detect frame creation beginning?",
+        "answer": "Immediately increase shoulder pressure by dropping your chest weight into the frame before it becomes structurally established. A partially built frame is much easier to collapse than a fully established one. Simultaneously tighten your leg hook by squeezing your legs together to prevent the hip movement that accompanies framing. The goal is to address the escape at its inception rather than after meaningful separation is created."
+      },
+      {
+        "question": "When should you transition to back take versus collapsing frames during an escape attempt?",
+        "answer": "Transition to back take when the bottom player has created enough separation that collapsing frames would require over-committing weight forward, potentially creating reversal opportunities. If the frames are still being established and the leg entanglement remains tight, collapsing frames is the more direct and lower-risk response. If the bottom player has partially extracted legs and is turning, the back take becomes higher percentage."
+      },
+      {
+        "question": "What submission opportunities become available during the bottom player's frame escape attempt?",
+        "answer": "Extended framing arms create kimura opportunities when the elbow straightens beyond safe range. If the bottom player turns their head away during hip escape, the neck may become exposed for darce or anaconda choke entries. If leg extraction creates space at the lower body while upper body control is maintained, calf slicer or knee bar positions may open. Recognizing these transforms defense into offense."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Recognition",
+        "focus": "Early detection of escape initiation",
+        "description": "Partner slowly builds frames from twister side control bottom while you practice identifying the earliest cues. Focus on feeling the subtle changes in pressure, hip angle, and hand positioning that indicate framing is about to begin. Develop automatic recognition before the frame becomes structurally established."
+      },
+      {
+        "phase": "Counter Application",
+        "focus": "Frame collapse and re-control techniques",
+        "description": "Partner works frame escape at moderate speed while you practice collapsing frames with shoulder pressure, re-entangling legs into truck, and attacking extended arms. Develop automatic responses to each phase of the escape sequence with emphasis on timing and appropriate counter selection."
+      },
+      {
+        "phase": "Dynamic Defense",
+        "focus": "Submission pursuit during escape attempts",
+        "description": "Full positional sparring where the bottom player actively attempts the frame escape. Focus on maintaining control while recognizing and exploiting submission opportunities that arise during the escape attempt. Balance between re-establishing control and attacking openings created by escape movements."
+      }
+    ]
+  }
+}

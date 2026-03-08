@@ -1,0 +1,408 @@
+{
+  "name": "Standing Escape from SLX",
+  "description": "Master the Standing Escape from Single Leg X-Guard. Learn proper base mechanics, hook clearing sequences, and leg extraction to safely return to standing.",
+  "tags": [
+    "bjj",
+    "transition",
+    "escape",
+    "single-leg-x-guard",
+    "standing",
+    "guard-escape",
+    "leg-entanglement-defense",
+    "base-mechanics"
+  ],
+  "from_position": "Single Leg X-Guard/Top",
+  "outcomes": [
+    {
+      "to": "Standing Position/Top",
+      "probability": 55,
+      "result": "success"
+    },
+    {
+      "to": "Single Leg X-Guard/Top",
+      "probability": 30,
+      "result": "failure"
+    },
+    {
+      "to": "Half Guard/Bottom",
+      "probability": 15,
+      "result": "counter"
+    }
+  ],
+  "success_rate": 55,
+  "overview": "The Standing Escape from Single Leg X-Guard is a fundamental defensive technique for the top player trapped in an opponent's SLX configuration. Rather than engaging in the complex passing game that SLX demands, this escape prioritizes complete disengagement by returning to a neutral standing position. The technique centers on systematic hook clearing, proper base management with the free leg, and controlled extraction of the trapped leg without exposing yourself to sweeps or leg lock entries during the withdrawal.\n\nStrategically, the standing escape serves as a reset button in the modern leg entanglement meta-game. When an opponent has established strong SLX hooks with active grips, attempting to pass directly carries significant sweep and submission risk. The standing escape acknowledges this reality by trading positional advancement for safety, allowing the top player to re-engage on their own terms from neutral standing. This is particularly valuable in competition contexts where being swept from within a leg entanglement can result in both points conceded and immediate submission danger.\n\nThe critical challenge lies in the transition window between being trapped and fully disengaged. The bottom player's hooks create powerful mechanical leverage, and any misstep during extraction can result in an off-balance moment that the bottom player exploits for sweeps or transitions to deeper entanglements. Success requires patience, structural integrity through proper posture and base, and precise sequencing of hook removal before attempting to extract the trapped leg.",
+  "conditions": [
+    "Top player has one leg trapped in opponent's SLX hook configuration",
+    "Top player can establish a stable post with the free leg on the mat",
+    "Top player has at least one hand available for controlling opponent's feet or posting for balance",
+    "Bottom player's hooks are in standard SLX position rather than transitioning to a deeper entanglement",
+    "Top player maintains upright or semi-upright posture with ability to drive hips backward"
+  ],
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Post-and-Peel Standing Escape",
+      "description": "The top player posts their near hand firmly on the mat behind them while using the other hand to peel the bottom player's top hook off the hip. Once the top hook is cleared, the top player drives their hips backward and upward to break the ankle wrap, then steps the trapped leg free while maintaining the post for balance. This variant emphasizes structural stability over speed.",
+      "when_to_use": "When the bottom player has strong sleeve or wrist grips that prevent direct grip-stripping, and you need a stable base point to resist sweep attempts during extraction."
+    },
+    {
+      "variant_name": "Grip-Strip Explosive Standing Escape",
+      "description": "The top player uses both hands to rapidly strip the bottom player's controlling grips on the ankle and hip hook in quick succession, then immediately steps backward with an explosive hip extension to extract the trapped leg before the bottom player can re-establish hooks. This variant prioritizes speed and timing over methodical progression.",
+      "when_to_use": "When the bottom player has loose or newly established hooks that have not yet been consolidated, or when their upper body grips are weak and can be broken quickly."
+    },
+    {
+      "variant_name": "Cross-Grip Stepover Escape",
+      "description": "The top player reaches across to control the bottom player's far-side sleeve or collar while stepping the free leg over the bottom hook. This creates a passing angle that simultaneously clears the primary hook and begins leg extraction. The cross-grip prevents the bottom player from following with their hips to maintain the entanglement.",
+      "when_to_use": "In gi situations where the cross-grip provides substantial control, or when the bottom player is actively trying to transition to X-Guard by inserting a second hook."
+    }
+  ],
+  "position_integration": "The Standing Escape from SLX occupies a critical role in the top player's leg entanglement defense hierarchy. When trapped in Single Leg X-Guard, the top player faces a decision matrix: attempt to pass directly through the entanglement, counter-attack with leg locks of their own, or disengage entirely to reset. The standing escape represents the safest option in this decision tree, trading time and positional initiative for security. It connects directly to the standing position neutral game, where the top player can re-engage with takedowns, guard pulls, or controlled re-entries to passing positions. This escape also serves as a bailout option when other SLX defense strategies like the backstep pass or smash pass fail partway through execution, providing a reliable fallback that prevents the situation from deteriorating into a sweep or submission.",
+  "related_content": [
+    {
+      "name": "Single Leg X-Guard",
+      "relationship": "Starting position from which this escape is executed"
+    },
+    {
+      "name": "Standing Position",
+      "relationship": "Primary target position reached upon successful escape"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Counter outcome position if bottom player sweeps during escape attempt"
+    },
+    {
+      "name": "X-Guard",
+      "relationship": "Related leg entanglement that bottom player may transition to if escape is partially successful"
+    },
+    {
+      "name": "Ashi Garami",
+      "relationship": "Deeper entanglement the bottom player may enter if escape timing is poor"
+    },
+    {
+      "name": "Backstep from Single Leg X",
+      "relationship": "Alternative escape option that leads to passing rather than disengagement"
+    },
+    {
+      "name": "SLX to Ashi Garami",
+      "relationship": "Bottom player transition that threatens if escape is delayed"
+    },
+    {
+      "name": "Single Leg X Sweep",
+      "relationship": "Primary sweep threat the top player must defend during escape"
+    },
+    {
+      "name": "Headquarters Position",
+      "relationship": "Alternative passing position reachable if hooks are partially cleared"
+    },
+    {
+      "name": "Combat Base",
+      "relationship": "Intermediate posture option during escape sequence before fully standing"
+    }
+  ],
+  "attacker": {
+    "name": "Standing Escape from SLX Attacker",
+    "description": "Execute the Standing Escape from Single Leg X-Guard with proper base mechanics, systematic hook clearing, and controlled leg extraction to safely disengage.",
+    "overview": "As the attacker executing the Standing Escape from SLX, your primary objective is complete disengagement from the bottom player's leg entanglement to return to neutral standing. This requires a disciplined, sequential approach that prioritizes base stability over speed. The escape begins with establishing an unshakeable foundation through your free leg, progresses through systematic removal of the opponent's controlling hooks, and concludes with smooth extraction of the trapped leg. Throughout the entire sequence, you must maintain constant awareness of sweep angles and resist the temptation to rush, which creates the off-balance moments your opponent is actively hunting for. The technique rewards patience and structural discipline, relying on posture and alignment rather than explosive athleticism.",
+    "key_principles": [
+      "Establish an immovable base with the free leg before attempting any hook removal - your free foot is your anchor against sweeps",
+      "Address hooks in correct sequence: clear the top hip hook first to reduce elevation, then strip the bottom ankle wrap to free the leg",
+      "Keep your center of gravity low by bending the free knee deeply - standing tall with locked knees creates optimal sweep angles for the bottom player",
+      "Maintain backward hip pressure throughout extraction to deny the bottom player forward pulling leverage",
+      "Control at least one of the opponent's feet with your hands at all times during the escape to prevent re-hooking",
+      "Never look down or round your posture forward, which shifts weight over the trapped leg and directly into the sweep plane",
+      "Commit fully to the escape once you begin extraction - hesitation mid-sequence allows the bottom player to re-establish hooks"
+    ],
+    "setup_requirements": [
+      "Free leg posted firmly on the mat with foot flat and knee bent, positioned diagonally behind you for maximum base width",
+      "Upright or slightly backward-leaning posture with hips driven away from the bottom player's pulling direction",
+      "At least one hand free from opponent's grip control to begin addressing hooks",
+      "Recognition that the bottom player's hooks are in standard SLX configuration rather than transitioning to a deeper entanglement like Ashi Garami or Saddle",
+      "Sufficient space behind you to step the trapped leg clear once hooks are removed"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Establish wide base with free leg",
+        "description": "Plant your free foot firmly on the mat at a diagonal angle behind and to the side of your trapped leg. Bend the knee deeply to lower your center of gravity. Your free leg is the foundation for the entire escape - it must be immovable against any pulling or pushing force from the bottom player. Distribute roughly 60% of your weight through this leg."
+      },
+      {
+        "step_number": 2,
+        "action": "Strip opponent's upper body grips",
+        "description": "Before addressing leg hooks, break any sleeve, wrist, or collar grips the bottom player has established on your upper body. These grips enhance their pulling power and sweeping leverage significantly. Use quick circular grip breaks or two-on-one peel methods to free your hands. Without upper body grips, their ability to generate sweep momentum drops substantially."
+      },
+      {
+        "step_number": 3,
+        "action": "Control and clear the top hip hook",
+        "description": "Reach down with your near hand and grip the bottom player's foot that is hooked on your hip or inner thigh. Push this foot downward and away from your hip using a firm pressing motion directed toward the mat. Clearing this hook first reduces the elevation the bottom player has on your trapped leg, immediately weakening their sweeping leverage and reducing the angle of off-balance pressure."
+      },
+      {
+        "step_number": 4,
+        "action": "Address the bottom ankle wrap",
+        "description": "With the top hook cleared, use your now-free hand to grip the opponent's bottom leg that is wrapped around your ankle or lower calf. Peel their hook from behind your knee or calf by pushing their shin away from you. Simultaneously drive your hips backward to create separation and reduce the tightness of the wrap. Keep your far hand controlling the already-cleared top hook foot to prevent re-insertion."
+      },
+      {
+        "step_number": 5,
+        "action": "Extract trapped leg with backward step",
+        "description": "Once both hooks are cleared or loosened, step your trapped leg backward and away from the bottom player in one smooth motion. Drive your hips backward explosively as you extract to create distance that prevents them from catching your ankle or re-establishing any hook. Keep your weight on the free leg as the anchor point throughout extraction. Do not lift the trapped leg high, which compromises balance - slide it along the mat."
+      },
+      {
+        "step_number": 6,
+        "action": "Establish standing distance and posture",
+        "description": "As soon as the trapped leg is free, immediately establish proper standing posture with both feet on the mat at shoulder width. Step back to create distance from the bottom player's reaching legs. Maintain hands in front of you in a defensive position to prevent them from re-engaging with guard pulls or ankle grips. You have now reached the standing position and can re-engage on your terms."
+      },
+      {
+        "step_number": 7,
+        "action": "Control opponent's guard re-engagement",
+        "description": "After reaching standing position, actively manage the bottom player's attempts to re-establish guard by controlling their feet, maintaining distance, or immediately initiating a passing sequence. Do not simply stand still within their reach. Either circle to a passing angle, disengage completely, or transition to a guard pass from standing. The escape is only complete when you have denied their ability to re-enter the entanglement."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Bottom player re-hooks hip immediately after top hook is cleared",
+        "effectiveness": "High",
+        "your_response": "Maintain constant downward pressure on their foot with your controlling hand even after clearing the hook. Keep your hip turned slightly away from their hooking foot to deny the angle needed for re-insertion. If they do re-hook, repeat the clearing process rather than trying to force extraction through an active hook.",
+        "targets_outcome": "Single Leg X-Guard/Top"
+      },
+      {
+        "counter": "Bottom player extends legs for sweep as you begin extracting trapped leg",
+        "effectiveness": "High",
+        "your_response": "Immediately widen your base with the free leg and lower your hips by bending your knee more deeply. Post your near hand on the mat if needed for emergency stability. Pause the extraction and re-stabilize before continuing. The sweep requires momentum, so stopping your movement removes their timing window.",
+        "targets_outcome": "Half Guard/Bottom"
+      },
+      {
+        "counter": "Bottom player transitions to X-Guard by inserting second hook during escape",
+        "effectiveness": "Medium",
+        "your_response": "Recognize the second hook insertion attempt early and block it with your free hand before it reaches behind your other knee. If they achieve X-Guard, you face a different escape problem. Speed of hook clearing is critical - do not allow a leisurely transition to a stronger guard position.",
+        "targets_outcome": "Single Leg X-Guard/Top"
+      },
+      {
+        "counter": "Bottom player sits up and grabs ankle or pants during leg extraction",
+        "effectiveness": "Medium",
+        "your_response": "Use a sharp push on their shoulder or chest with your free hand to drive them back down as you extract. If they secure the ankle, circle your foot to break the grip rather than pulling straight back. Maintain backward hip pressure to keep them at maximum distance where their reaching grip has minimal strength.",
+        "targets_outcome": "Single Leg X-Guard/Top"
+      },
+      {
+        "counter": "Bottom player follows your retreating leg by scooting hips forward to maintain connection",
+        "effectiveness": "Medium",
+        "your_response": "Match their forward movement with faster backward stepping to maintain the separation gap. Use your hands on their knees or shins to create a frame that prevents them from closing distance. If they are aggressively following, consider pushing their knees to one side to flatten them before continuing extraction.",
+        "targets_outcome": "Single Leg X-Guard/Top"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Attempting to rip the trapped leg free before clearing hooks",
+        "consequence": "Hooks tighten under tension, making extraction harder. The explosive pulling motion also shifts your weight forward over the trapped leg, creating the exact off-balance angle needed for a sweep.",
+        "correction": "Always clear hooks systematically before attempting leg extraction. Address the top hip hook first, then the bottom ankle wrap. Only attempt extraction once both hooks are loosened or removed."
+      },
+      {
+        "error": "Standing upright with locked knees and narrow base during escape",
+        "consequence": "High center of gravity and narrow base create maximum vulnerability to sweeps in any direction. The bottom player needs minimal force to topple you when your legs are straight and close together.",
+        "correction": "Maintain deep knee bend in the free leg throughout the escape, with the foot positioned wide and diagonal behind you. Keep your center of gravity low until the trapped leg is fully extracted."
+      },
+      {
+        "error": "Leaning forward over the bottom player during hook clearing",
+        "consequence": "Forward lean shifts weight directly into the sweep plane. It also makes your upper body reachable for grips that enhance the bottom player's pulling power and sweep mechanics.",
+        "correction": "Maintain a backward lean or at minimum neutral posture throughout the escape. Drive hips away from the bottom player and keep your chest elevated above your hips."
+      },
+      {
+        "error": "Ignoring upper body grips before addressing hooks",
+        "consequence": "Strong sleeve or wrist grips allow the bottom player to generate powerful pulling forces that compromise your base during hook clearing. They can time a pull with your hook removal to create an irresistible sweep.",
+        "correction": "Break all upper body grips as the first action before touching the leg hooks. Without grips, the bottom player loses their primary method of generating sweep momentum."
+      },
+      {
+        "error": "Rushing the escape sequence without establishing stable base first",
+        "consequence": "Without a stable foundation, every movement during the escape creates balance vulnerabilities that an experienced bottom player will exploit with well-timed directional pulls.",
+        "correction": "Treat base establishment as step zero that cannot be skipped. Spend an extra second planting your free foot firmly and bending your knee before beginning any hook removal."
+      },
+      {
+        "error": "Stopping mid-extraction when the leg is partially free",
+        "consequence": "A partially extracted leg is in the most dangerous position - hooks have been loosened but can be quickly re-established, and your weight distribution is transitional and unstable.",
+        "correction": "Once you commit to extracting the trapped leg, complete the motion in one smooth action. Drive your hips backward continuously until the leg is fully clear and you have established standing distance."
+      },
+      {
+        "error": "Failing to control opponent's feet after reaching standing position",
+        "consequence": "The bottom player immediately re-engages with guard pulls, ankle grips, or new hook insertions, nullifying the escape and potentially landing you in a worse entanglement position.",
+        "correction": "After standing, actively manage distance by controlling the opponent's feet or shins and stepping back. Do not celebrate the escape while still within arm's reach of an active guard player."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Base Mechanics",
+        "focus": "Free leg positioning and balance maintenance",
+        "description": "Practice establishing and maintaining base with the free leg while a partner in SLX applies moderate pulling pressure from various angles. Focus on foot placement, knee bend depth, and weight distribution. Hold stable base for 30 seconds against progressive resistance."
+      },
+      {
+        "phase": "Phase 2: Hook Clearing Sequence",
+        "focus": "Systematic removal of top and bottom hooks",
+        "description": "With a cooperative partner in SLX, practice the hook clearing sequence in isolation. Clear top hook, pause and re-stabilize, then clear bottom hook. Partner provides 30% resistance and resets hooks between repetitions. Build muscle memory for the correct clearing order."
+      },
+      {
+        "phase": "Phase 3: Full Extraction Flow",
+        "focus": "Connecting hook clearing to leg extraction and standing",
+        "description": "Combine base establishment, grip stripping, hook clearing, and leg extraction into one fluid sequence. Partner provides 50% resistance throughout. Practice completing the full escape within 5 seconds of initiating. Add the post-escape distance management and foot control."
+      },
+      {
+        "phase": "Phase 4: Live Resistance Drilling",
+        "focus": "Executing escape against active opposition",
+        "description": "Positional sparring starting in SLX with the top player working the standing escape against a fully resisting bottom player. Bottom player uses all available counters including re-hooking, sweeping, and transitioning. Top player chains escape attempts and adjusts to defensive reactions."
+      },
+      {
+        "phase": "Phase 5: Decision-Making Integration",
+        "focus": "Choosing between escape variants based on opponent reactions",
+        "description": "Start in SLX with the top player reading the bottom player's grip configuration and hook tightness to select the appropriate escape variant. Practice switching between post-and-peel, grip-strip explosive, and cross-grip stepover methods based on real-time assessment of the situation."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "Which hook should you clear first when executing the standing escape, and what is the biomechanical reason?",
+        "answer": "Clear the top hip hook first because it creates the elevation that gives the bottom player mechanical advantage for sweeps. The top hook lifts your trapped leg upward and away from the mat, amplifying the off-balance angle. Removing this hook drops your trapped leg closer to the mat, reducing the bottom player's leverage dramatically and making the subsequent ankle wrap removal safer and easier."
+      },
+      {
+        "question": "Your opponent has strong sleeve grips on both your wrists while you are trapped in SLX - what is your immediate priority before attempting the escape?",
+        "answer": "Your immediate priority is breaking those sleeve grips before touching any hooks. Sleeve grips allow the bottom player to generate powerful directional pulls that compromise your base during hook clearing. Use circular grip breaks or two-on-one peel methods to free your hands. Attempting to clear hooks while your wrists are controlled is extremely dangerous because the opponent can time a sharp pull with your weight shift to execute a high-percentage sweep."
+      },
+      {
+        "question": "How should you distribute your weight between your free leg and trapped leg during the escape?",
+        "answer": "Approximately 60-70% of your weight should be on the free leg, which serves as your primary anchor and balance point. The trapped leg should bear minimal weight to facilitate extraction. However, avoid completely unweighting the trapped leg prematurely, which telegraphs the escape and allows the bottom player to elevate it further. Gradually transfer weight to the free leg as you progress through hook clearing, fully unweighting the trapped leg only at the extraction moment."
+      },
+      {
+        "question": "During extraction, you feel the bottom player beginning to extend their legs for a sweep - what is your immediate response?",
+        "answer": "Immediately halt the extraction, widen your base by stepping the free leg further out to the side, and bend your free knee deeply to lower your center of gravity. Post your near hand on the mat if necessary for emergency stability. The sweep requires momentum and your continued movement to succeed - stopping your motion removes their timing window. Re-stabilize completely before resuming the extraction sequence. Do not try to outrun the sweep by extracting faster."
+      },
+      {
+        "question": "What is the critical difference between extracting the trapped leg correctly versus the common error of ripping it free?",
+        "answer": "Correct extraction involves a smooth backward sliding motion along the mat with continuous hip drive away from the opponent, executed only after both hooks have been systematically cleared. The common error of ripping involves an explosive upward or backward yank while hooks are still partially engaged. Ripping fails because the hooks tighten under tension like a Chinese finger trap, and the explosive movement shifts your weight suddenly in ways that create sweep opportunities. Smooth extraction relies on structure and positioning, not speed."
+      },
+      {
+        "question": "After successfully extracting your leg and reaching standing position, your opponent immediately sits up and reaches for your ankles - how do you respond?",
+        "answer": "Use your hands to control their reaching arms or push their shoulders back while stepping backward to create distance beyond their reach. Do not stand stationary within their guard engagement range. Control at least one of their shins or feet to prevent them from scooting forward to close distance. The escape is not complete until you have established standing distance where they cannot re-engage without first standing up themselves or pulling guard."
+      },
+      {
+        "question": "When is the standing escape the wrong tactical choice compared to other SLX defense options?",
+        "answer": "The standing escape is suboptimal when you have already partially cleared the guard and are close to completing a pass, when the bottom player's hooks are loose enough that a backstep pass or smash pass would succeed with less effort, or when you have grip configurations that favor a direct passing sequence. The standing escape sacrifices positional progress to reset to neutral, so it is best reserved for situations where the entanglement is deep, the bottom player's control is strong, and attempting to pass carries high sweep or submission risk."
+      }
+    ],
+    "safety_considerations": "The Standing Escape from SLX is generally low-risk for both practitioners, but care must be taken during extraction to avoid dropping weight suddenly onto the bottom player's legs or torso. The top player should control their descent if balance is lost rather than falling uncontrolled. Avoid twisting the trapped knee laterally during extraction, which can stress the medial collateral ligament. Both players should be aware that rapid hook clearing can occasionally catch fingers or toes, so maintain controlled movements rather than violent ripping motions."
+  },
+  "defender": {
+    "name": "Standing Escape from SLX Defender",
+    "description": "Defend against the Standing Escape from SLX by maintaining hooks, timing sweeps, and transitioning to deeper entanglements when the top player attempts to disengage.",
+    "overview": "As the defender in the Standing Escape from SLX, you are the bottom player working to maintain your Single Leg X-Guard position against a top player who is attempting to stand up and disengage. Your goal is to prevent the escape by maintaining your controlling hooks, re-establishing any hooks that are cleared, and exploiting the balance vulnerabilities that the escape attempt creates. The escape process forces the top player through several transitional moments where their weight distribution shifts and their base narrows, providing windows for sweeps and transitions to deeper entanglements. Your primary tools are active hook management, grip control on the upper body to enhance pulling leverage, and the ability to follow the retreating opponent with hip mobility to maintain connection. The strongest defensive approach combines prevention of the escape with punishment when the attempt is made, creating a lose-lose scenario for the top player.",
+    "key_principles": [
+      "Maintain active, dynamic hooks that constantly readjust to the top player's clearing attempts rather than holding static positions",
+      "Secure strong upper body grips on sleeves, wrists, or collar to generate pulling forces that compromise the top player's base during their escape",
+      "Follow the top player's retreat by scooting your hips forward to maintain connection and prevent them from creating separation distance",
+      "Recognize when the escape creates off-balance moments and immediately exploit them with directional sweeps or transitions to Ashi Garami",
+      "Keep the top player's trapped leg elevated through constant hip extension to deny them the ability to settle weight and establish stable base",
+      "Have predetermined backup positions ready in case hooks are partially cleared, transitioning to X-Guard, butterfly guard, or seated guard rather than losing position entirely"
+    ],
+    "recognition_cues": [
+      "Top player widens their free foot stance and bends their knee deeply, establishing a wider base than normal SLX defense requires",
+      "Top player begins stripping your sleeve or wrist grips with unusual urgency rather than engaging with passing attempts",
+      "Top player's posture shifts backward with hips driving away from you instead of forward pressure or lateral passing angles",
+      "Top player reaches down to grip your top foot on their hip, indicating intent to clear the hook rather than pass around it",
+      "Top player's weight noticeably transfers onto their free leg, lightening the trapped leg in preparation for extraction"
+    ],
+    "defensive_options": [
+      {
+        "action": "Aggressively re-hook the hip each time the top player clears it, using rapid foot replacement",
+        "when_to_use": "As soon as you feel the top player pushing your top foot off their hip, immediately replace it by re-inserting the hook from a different angle before they can address the bottom wrap",
+        "targets_outcome": "Single Leg X-Guard/Top",
+        "if_successful": "The escape sequence resets to the beginning, forcing the top player to expend additional energy clearing the hook again while you maintain full positional control",
+        "risk": "If your re-hooking timing is slow, the top player may clear both hooks in rapid succession and extract before you can re-establish"
+      },
+      {
+        "action": "Time a directional sweep as the top player shifts weight during hook clearing",
+        "when_to_use": "When the top player reaches down to clear your top hook, their posture changes and weight distribution shifts - extend your legs forcefully in the direction opposite to their posted free leg",
+        "targets_outcome": "Half Guard/Bottom",
+        "if_successful": "The top player is swept to their back, and you come up to top position in half guard or potentially mount depending on sweep angle",
+        "risk": "If the sweep fails, the momentum may carry you past the optimal hook position, making it easier for the top player to complete the extraction"
+      },
+      {
+        "action": "Transition to Ashi Garami or deeper leg entanglement when hooks are partially cleared",
+        "when_to_use": "When the top player successfully clears your top hip hook but your bottom ankle wrap remains, redirect your free leg into an inside or outside ashi configuration rather than fighting to restore SLX",
+        "targets_outcome": "Single Leg X-Guard/Top",
+        "if_successful": "You transition from a deteriorating SLX position into a fresh leg entanglement with active submission threats, forcing the top player to deal with a new defensive problem",
+        "risk": "The transition requires releasing some SLX control, and if the timing is off, the top player may complete their extraction during the positional change"
+      },
+      {
+        "action": "Sit up and grab the ankle or pants cuff during extraction to prevent leg withdrawal",
+        "when_to_use": "When both hooks have been cleared and the top player begins stepping the trapped leg backward, immediately sit up and grip their ankle, heel, or pants cuff to prevent complete disengagement",
+        "targets_outcome": "Single Leg X-Guard/Top",
+        "if_successful": "You arrest the extraction mid-motion and can re-insert hooks from the ankle grip, recovering full SLX or transitioning to a seated guard with leg control",
+        "risk": "Sitting up removes your hip-based leverage and if the top player pushes you back down you lose both the grip and your guard structure"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Single Leg X-Guard/Top",
+        "how": "Prevent the escape entirely by maintaining active hooks that re-insert faster than the top player can clear them. Combine aggressive re-hooking with strong upper body grips that deny them the hand freedom needed to address your hooks. Force them to abandon the escape attempt and return to dealing with your sweeping and submission threats from SLX."
+      },
+      {
+        "outcome": "Half Guard/Bottom",
+        "how": "Time a sweep during the escape attempt by exploiting the transitional balance vulnerabilities. When the top player shifts weight to their free leg and reaches down to clear hooks, extend your legs explosively in the direction away from their posted foot. Their narrowed base and forward-leaning posture during hook clearing create optimal sweep conditions that would not exist during normal SLX engagement."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Maintaining static hooks without actively adjusting to the top player's clearing attempts",
+        "consequence": "Static hooks are predictable and easily cleared through systematic removal. Once the top player learns your hook placement, they can strip both hooks with a rehearsed sequence.",
+        "correction": "Keep hooks dynamic by constantly repositioning your feet based on the top player's hand placement and weight distribution. When they reach for one hook, adjust the other to a more secure position. Make your hooks moving targets."
+      },
+      {
+        "error": "Neglecting upper body grips and relying solely on leg hooks to maintain position",
+        "consequence": "Without upper body grips, the top player can clear hooks freely without fear of being pulled off-balance. Your defensive options are limited to hook replacement without the ability to generate sweep momentum.",
+        "correction": "Always maintain at least one strong upper body grip on their sleeve, wrist, or collar. These grips serve dual purpose: they prevent the top player from using both hands to clear hooks, and they provide the pulling leverage needed to sweep during their escape attempt."
+      },
+      {
+        "error": "Remaining flat on your back instead of following the retreating top player with hip scoots",
+        "consequence": "As the top player steps backward, the distance between you grows and your hooks lose tension and effectiveness. From a static back position, you cannot generate the forward pressure needed to maintain connection.",
+        "correction": "Actively scoot your hips toward the top player as they retreat. Use your shoulders and free foot to push yourself forward on the mat, maintaining the close hip-to-leg connection that keeps your hooks effective."
+      },
+      {
+        "error": "Attempting to hold SLX at all costs instead of transitioning to backup positions when hooks are partially cleared",
+        "consequence": "Clinging to a deteriorating SLX position results in complete guard loss with no backup. By the time you accept the position is lost, the top player has already established distance.",
+        "correction": "Have predetermined transition points: if the top hook is cleared, immediately assess whether to re-hook or transition to Ashi Garami. If both hooks are loosened, transition to seated guard, butterfly guard, or De La Riva rather than losing everything."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the single most important upper body grip for preventing the standing escape, and why?",
+        "answer": "The same-side sleeve or wrist grip is most important because it prevents the top player from using that hand to clear your hooks. Since the escape requires systematically removing your hooks with their hands, controlling one wrist effectively cuts their clearing capacity in half and forces them to work one-handed. Additionally, this grip provides pulling leverage for sweep attempts during their escape, creating a dual threat that makes the escape significantly more difficult."
+      },
+      {
+        "question": "You feel the top player successfully clear your top hip hook - should you immediately try to replace it or transition to a different position?",
+        "answer": "This depends on the speed and commitment of their clearing. If they cleared it casually and have not yet addressed your bottom ankle wrap, immediately replace the top hook from a different angle while their attention is on celebrating the clear. However, if they cleared it decisively and are already reaching for your bottom hook, transition proactively to Ashi Garami or inside Ashi by redirecting your free leg into a leg entanglement configuration. Stubbornly fighting for a single hook re-insertion against a committed escape often results in losing everything."
+      },
+      {
+        "question": "How do you recognize the optimal moment to attempt a sweep during the standing escape?",
+        "answer": "The optimal sweep moment occurs when the top player reaches down with one or both hands to clear your hooks. This action narrows their base, shifts their weight distribution forward and toward the trapped leg, and removes their hands from posting position. Watch for the moment they grip your foot - their weight commitment to the clearing action creates a directional vulnerability away from their posted free leg. Extend your legs explosively toward that vulnerability before they complete the hook removal."
+      },
+      {
+        "question": "Your opponent has cleared both hooks and is beginning to step backward - what is your last-resort defense before they fully disengage?",
+        "answer": "Immediately sit up explosively and grab the nearest part of their retreating leg - ankle, heel, pants cuff, or shin. This arrests the extraction and creates a connection point you can use to pull yourself toward them or re-insert hooks from close range. Simultaneously, use your free leg to chase their retreating leg by inserting a butterfly hook or reaching for their far ankle. The key is speed - every fraction of a second they step further away reduces your ability to reconnect. If you cannot reach their leg, transition immediately to seated guard and prepare to re-engage from there."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Hook Retention Drills",
+        "focus": "Maintaining and replacing hooks against clearing attempts",
+        "description": "Partner in top SLX position works to clear your hooks at 50% speed and resistance. Practice rapid hook re-insertion from multiple angles when the top hook is stripped. Build the habit of dynamic hook adjustment rather than static holding. 10 repetitions per side."
+      },
+      {
+        "phase": "Phase 2: Sweep Timing Development",
+        "focus": "Recognizing and exploiting balance vulnerabilities during escape",
+        "description": "Partner executes the standing escape at moderate speed while you focus exclusively on identifying the sweep window when they reach for hooks. Practice extending legs for sweeps at the precise moment their weight shifts. Partner provides feedback on timing accuracy."
+      },
+      {
+        "phase": "Phase 3: Transition Backup Planning",
+        "focus": "Flowing to alternative positions when SLX is compromised",
+        "description": "Practice transitioning from deteriorating SLX to Ashi Garami, butterfly guard, seated guard, and De La Riva as the top player progressively clears hooks. Develop decision points for when to fight for re-hooking versus when to transition. Chain these backup positions into new offensive sequences."
+      },
+      {
+        "phase": "Phase 4: Full Resistance Defense",
+        "focus": "Preventing the complete escape under competition conditions",
+        "description": "Positional sparring where the top player's sole objective is the standing escape and your sole objective is maintaining SLX or sweeping. Use all available tools including hook retention, grip fighting, sweeps, and transitions. Track success rate and identify patterns in your defensive failures."
+      }
+    ]
+  }
+}

@@ -1,0 +1,399 @@
+{
+  "name": "Pressure Pass from Leg Knot",
+  "description": "Master the Pressure Pass from Leg Knot in BJJ. Systematic guide to disengaging leg entanglements and advancing to half guard through pressure-based passing.",
+  "tags": [
+    "pressure passing",
+    "leg knot",
+    "guard passing",
+    "leg entanglement",
+    "positional advancement",
+    "top position"
+  ],
+  "from_position": "Leg Knot/Top",
+  "outcomes": [
+    {
+      "to": "Half Guard/Top",
+      "probability": 45,
+      "result": "success"
+    },
+    {
+      "to": "Side Control/Top",
+      "probability": 10,
+      "result": "success"
+    },
+    {
+      "to": "Leg Knot/Top",
+      "probability": 30,
+      "result": "failure"
+    },
+    {
+      "to": "Half Guard/Bottom",
+      "probability": 15,
+      "result": "counter"
+    }
+  ],
+  "success_rate": 55,
+  "overview": "The Pressure Pass from Leg Knot is a strategic positional advancement technique where the top player disengages from the leg entanglement exchange and uses superior pressure and body mechanics to pass the guard. Rather than continuing to battle for heel hooks, toe holds, or kneebars in the entangled position, the top player commits to establishing upper body control and systematically extracting their legs to achieve a dominant passing position. This technique represents a critical decision point in modern leg lock warfare, acknowledging that positional advancement may offer more strategic value than continuing a contested entanglement.\n\nThe mechanics of this pass rely on the fundamental principle that upper body control supersedes lower body entanglement. By driving weight forward through the chest and establishing a strong crossface or head control, the top player creates downward pressure that flattens the bottom player and reduces their ability to re-entangle or initiate offensive leg attacks. The leg extraction phase requires patience and methodical technique, sliding the knee across the opponent's thigh line while maintaining constant forward pressure to prevent the bottom player from re-establishing their defensive leg configuration.\n\nThis transition is particularly valuable in competition scenarios where time pressure demands positional scoring over submission hunting, and against opponents with exceptional leg lock defense who are difficult to finish from entangled positions. The pressure pass from Leg Knot integrates seamlessly into a broader top game strategy, allowing practitioners to flow between leg lock attacks and pressure passing based on the opponent's defensive reactions and the evolving tactical situation.",
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Heavy Crossface Pressure Pass",
+      "description": "Establishes a deep crossface before attempting leg extraction, using shoulder-to-jaw pressure to turn the opponent's head away and flatten their shoulders. The crossface creates a strong upper body anchor that makes re-entanglement extremely difficult.",
+      "when_to_use": "When the opponent has strong hip mobility and tends to re-entangle during standard extraction attempts. The crossface neutralizes their ability to turn and reinitiate leg attacks."
+    },
+    {
+      "variant_name": "Knee Slide Extraction Pass",
+      "description": "Combines the leg extraction with a knee slice mechanic, sliding the trapped knee directly across the opponent's thigh line while driving the shin into their hip. This merges the extraction and pass completion into a single fluid motion rather than treating them as separate phases.",
+      "when_to_use": "When the entanglement is loose enough to allow a direct knee slide. Most effective when the opponent's legs have partially opened during their own escape attempt or submission defense."
+    },
+    {
+      "variant_name": "Standing Disengage Pass",
+      "description": "The top player posts hands on the mat or opponent's hips and stands up explosively to break the leg entanglement through elevation. Once standing with legs cleared, the passer immediately drops back into a pressure passing position before the bottom player can establish guard.",
+      "when_to_use": "Against opponents who maintain very tight leg entanglement that resists ground-based extraction. The standing posture uses gravity and hip extension to break entanglement configurations that are difficult to clear from kneeling."
+    }
+  ],
+  "position_integration": "The Pressure Pass from Leg Knot occupies a critical strategic niche at the intersection of modern leg lock systems and traditional pressure passing. It serves as the primary escape valve for top players who find themselves in contested leg entanglements where neither submission progress nor defensive stalemate is acceptable. Within the broader positional hierarchy, this technique connects the leg entanglement subsystem to the half guard passing chain, allowing practitioners to transition from one strategic framework to another. It pairs naturally with the Backstep from Leg Knot as an alternative passing option, creating a two-pronged threat that forces the bottom player to defend both leg lock continuation and pressure pass attempts simultaneously.",
+  "conditions": [
+    "Top player has established Leg Knot Top position with at least partial leg entanglement control",
+    "Opponent demonstrates strong leg lock defense making immediate submission unlikely from current configuration",
+    "Upper body access is available for establishing crossface, head control, or collar tie before extraction",
+    "Bottom player's legs are entangled but not in a configuration that immediately threatens the top player's knee or heel",
+    "Top player has made the strategic decision that positional advancement offers better returns than continuing the leg lock exchange"
+  ],
+  "related_content": [
+    {
+      "name": "Leg Knot",
+      "relationship": "Starting position where this technique originates from the top player's perspective"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Primary target position after successful pressure pass completion"
+    },
+    {
+      "name": "Side Control",
+      "relationship": "Advanced target position when the pass completes cleanly beyond half guard"
+    },
+    {
+      "name": "Backstep from Leg Knot",
+      "relationship": "Alternative passing technique from the same starting position using backstep mechanics"
+    },
+    {
+      "name": "Leg Extraction from Leg Knot",
+      "relationship": "Related leg freeing technique that prioritizes disengagement over passing"
+    },
+    {
+      "name": "Leg Entanglement",
+      "relationship": "Parent positional category encompassing the leg knot configuration"
+    },
+    {
+      "name": "50-50 Guard",
+      "relationship": "Counter-entanglement position the defender may transition to during pass attempt"
+    },
+    {
+      "name": "Flattened Half Guard",
+      "relationship": "Intermediate position the bottom player may reach during the pressure pass sequence"
+    },
+    {
+      "name": "Saddle",
+      "relationship": "Alternative offensive option from Leg Knot Top if pass attempt is abandoned"
+    }
+  ],
+  "attacker": {
+    "name": "Pressure Pass from Leg Knot Attacker",
+    "description": "Execute the Pressure Pass from Leg Knot as the top player. Step-by-step guide covering upper body control, systematic leg extraction, and pressure mechanics to advance past leg entanglements.",
+    "overview": "As the attacker executing the Pressure Pass from Leg Knot, your objective is to transition from a contested leg entanglement into a dominant passing position through methodical pressure application and systematic leg extraction. This requires abandoning the leg lock exchange in favor of upper body dominance, establishing crushing forward pressure that flattens your opponent and eliminates their ability to re-entangle or attack your legs. The pass succeeds through patience and sequential progression: control the upper body first, isolate and extract the trapped leg second, complete the pass third. Rushing any phase exposes you to sweeps, re-entanglement, or submission counters that punish premature commitment.",
+    "key_principles": [
+      "Establish upper body control before attempting any leg extraction, as the crossface or head control anchors the entire passing sequence",
+      "Drive weight forward through the chest and hips rather than pushing with arms, creating heavy pressure that restricts opponent's hip mobility",
+      "Extract the trapped leg using controlled sliding mechanics rather than explosive pulling, which prevents re-entanglement and maintains balance",
+      "Maintain constant forward pressure throughout the transition, never allowing space for the opponent to reinitiate leg attacks",
+      "Control the opponent's far hip with your free hand to prevent them from turning into you or establishing frames during extraction",
+      "Treat the pass as a three-phase sequence: stabilize upper body, extract legs, consolidate position, never skipping or rushing phases"
+    ],
+    "setup_requirements": [
+      "Secured Leg Knot Top position with at least one leg entangled in the opponent's leg configuration",
+      "Upper body access sufficient to establish crossface, head control, or collar tie on the opponent",
+      "Strategic assessment confirming that pressure passing offers better returns than continuing leg lock exchanges",
+      "Opponent's immediate leg lock threats have been neutralized or are not actively threatening your knee or heel",
+      "Sufficient base and balance to drive weight forward without being swept during the transition phase"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Establish upper body control",
+        "description": "From Leg Knot Top, reach forward and establish a deep crossface by driving your shoulder into your opponent's jaw, turning their head away from you. Your other hand controls their far hip or grips their belt to prevent hip rotation. This upper body anchor is the foundation of the entire pass and must be secured before any leg extraction begins."
+      },
+      {
+        "step_number": 2,
+        "action": "Drive weight forward and flatten opponent",
+        "description": "Shift your hips forward and drop your chest weight onto the opponent's torso, creating heavy pressure that drives their shoulders flat to the mat. Keep your hips low and heavy rather than elevated, maximizing the downward force that restricts their hip mobility and prevents them from sitting up or re-establishing offensive frames for leg attacks."
+      },
+      {
+        "step_number": 3,
+        "action": "Isolate the trapped leg",
+        "description": "While maintaining upper body pressure, begin working your trapped leg free by angling your knee toward the opponent's hip line. Use small hip adjustments to create slack in the entanglement rather than pulling explosively, which would compromise your upper body position and create space for counter-attacks. Focus on incremental progress rather than a single large extraction movement."
+      },
+      {
+        "step_number": 4,
+        "action": "Slide knee across thigh line",
+        "description": "Once sufficient slack exists, slide your knee across the opponent's thigh in a knee-slice motion while maintaining constant forward chest pressure. The shin should travel across the top of their thigh toward the mat on the far side, creating a wedge that separates their legs and prevents re-entanglement. Keep your weight driving forward through this sliding motion to prevent the opponent from following your knee with their legs."
+      },
+      {
+        "step_number": 5,
+        "action": "Clear the leg completely",
+        "description": "Complete the leg extraction by driving your knee to the mat on the far side of the opponent's body while simultaneously increasing crossface pressure. Your now-freed leg should establish a strong base on the mat, with your shin blocking any attempt to re-hook or re-entangle. The bottom player will likely attempt to catch your foot or ankle at this stage, so clear it past their defensive range completely."
+      },
+      {
+        "step_number": 6,
+        "action": "Consolidate half guard or advance",
+        "description": "With the trapped leg freed, settle your weight into half guard top position if the opponent retains your remaining leg, or advance directly to side control if both legs clear the entanglement. Immediately establish your dominant passing grips with crossface maintained and begin the standard half guard passing sequence. The critical detail is ensuring no gap exists between clearing the entanglement and establishing your top control position."
+      },
+      {
+        "step_number": 7,
+        "action": "Neutralize re-guard attempts",
+        "description": "As you consolidate, the opponent will attempt to insert a knee shield, recover butterfly hooks, or re-engage their legs for a new entanglement configuration. Maintain heavy hip pressure and an active crossface to prevent these recovery attempts. Drive your hips into their thigh to flatten their knee shield attempts, and keep your chest low and connected to deny the space needed for guard re-composition."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Opponent re-entangles legs during extraction by hooking your ankle or knee with their free leg",
+        "effectiveness": "High",
+        "targets_outcome": "Leg Knot/Top",
+        "your_response": "Maintain constant forward chest pressure during extraction so the opponent cannot generate the hip movement needed to re-hook. If they begin re-entangling, immediately drive your knee past their hook point and accelerate the knee slide rather than retreating."
+      },
+      {
+        "counter": "Opponent frames with both hands on your shoulders or biceps to create distance and prevent upper body control",
+        "effectiveness": "Medium",
+        "targets_outcome": "Leg Knot/Top",
+        "your_response": "Swim through the frames by circling your arms inside their elbows and re-establishing the crossface. Use your bodyweight to collapse their frames rather than trying to strip grips with hand fighting. Heavy forward pressure makes it unsustainable for them to hold extended arm frames."
+      },
+      {
+        "counter": "Opponent initiates an aggressive heel hook or toe hold attack during the weight transfer phase",
+        "effectiveness": "High",
+        "targets_outcome": "Leg Knot/Top",
+        "your_response": "If you feel a submission grip on your foot, pause the extraction and address the threat immediately. Turn your knee inward to protect the heel, strip the grip with your free hand, then resume the pass. Never continue extracting while a live submission grip exists on your leg."
+      },
+      {
+        "counter": "Opponent bridges and hip escapes during the consolidation phase to create a sweep opportunity",
+        "effectiveness": "Medium",
+        "targets_outcome": "Half Guard/Bottom",
+        "your_response": "Post your freed leg wide for base when you feel the bridge coming. Keep your crossface tight and drive your hips back into the opponent rather than rising up, which would give them the space to complete the sweep. Maintain a low center of gravity throughout the consolidation."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Attempting leg extraction before establishing upper body control",
+        "consequence": "Opponent freely adjusts their legs, re-entangles, or attacks with submissions during the unanchored extraction attempt, often resulting in a worse position than before",
+        "correction": "Always establish crossface or head control first, creating the upper body anchor that restricts opponent's mobility before any leg extraction work begins"
+      },
+      {
+        "error": "Using explosive pulling to extract trapped leg rather than controlled sliding mechanics",
+        "consequence": "Creates space and momentum that the opponent uses to follow with their legs for re-entanglement, or the explosive movement compromises your base leading to a sweep",
+        "correction": "Use incremental knee sliding with constant forward pressure rather than a single explosive pull. The leg should slide free gradually while your upper body remains heavy and anchored."
+      },
+      {
+        "error": "Rising up to standing or high posture during the extraction phase",
+        "consequence": "Eliminates all pressure and allows the bottom player full freedom to re-guard, re-entangle, or initiate offensive leg attacks from the newly created space",
+        "correction": "Keep chest and hips low and connected to the opponent throughout the entire passing sequence. If you need to create space for extraction, generate it through hip angles rather than elevation."
+      },
+      {
+        "error": "Neglecting the far hip control during the knee slide phase",
+        "consequence": "Opponent turns into you during the extraction, re-establishing their defensive angle and potentially recovering a knee shield or full guard position",
+        "correction": "Maintain hand control on the opponent's far hip throughout the knee slide, preventing them from turning toward you. This hand acts as a steering mechanism that keeps their hips flat and immobilized."
+      },
+      {
+        "error": "Pausing after leg extraction instead of immediately consolidating the passing position",
+        "consequence": "The momentary gap allows the opponent to insert a knee shield, recover butterfly hooks, or re-engage their legs into a new defensive guard structure",
+        "correction": "Treat extraction and consolidation as one continuous motion with no pause between them. The moment your leg clears, your weight should be settling into the half guard or side control position."
+      },
+      {
+        "error": "Overcommitting weight to one side during the pass without maintaining base on the other",
+        "consequence": "Opponent exploits the unbalanced weight distribution to execute a sweep during the transition, ending up in top position",
+        "correction": "Maintain a wide base with your posted leg throughout the pass. Distribute weight between the crossface pressure and the posted leg to remain balanced against sweep attempts from any angle."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Upper Body Control Establishment",
+        "focus": "Developing the ability to establish crossface and head control from Leg Knot Top",
+        "description": "Partner holds Leg Knot Bottom with 30% resistance. Practice reaching forward and establishing the crossface while maintaining your leg entanglement. Focus on driving shoulder pressure and controlling the far hip. Repeat 10-15 times per side until the upper body control becomes automatic from the entangled position."
+      },
+      {
+        "phase": "Phase 2: Controlled Leg Extraction Mechanics",
+        "focus": "Developing the knee slide extraction with constant pressure maintenance",
+        "description": "With upper body control already established, practice the isolated leg extraction movement. Partner provides progressive resistance from 25% to 60%. Focus on maintaining chest pressure throughout the extraction and using incremental sliding rather than explosive pulling. Reset and repeat when extraction stalls."
+      },
+      {
+        "phase": "Phase 3: Full Sequence Integration",
+        "focus": "Combining upper body control, extraction, and consolidation into a seamless sequence",
+        "description": "Run the complete pass from initial Leg Knot Top through consolidation in half guard or side control. Partner provides 50-70% resistance. Emphasis on smooth transitions between phases with no pauses or gaps. Include immediate re-guard prevention after consolidation. Time each repetition to develop efficiency."
+      },
+      {
+        "phase": "Phase 4: Live Application with Decision Making",
+        "focus": "Applying the pressure pass in live positional sparring with strategic decision-making",
+        "description": "Positional sparring starting from Leg Knot Top. Top player chooses between continuing leg lock attacks or initiating the pressure pass based on the opponent's defensive reactions. Bottom player uses full resistance. Develop the ability to recognize when the pressure pass is the optimal tactical choice versus continuing entanglement warfare."
+      },
+      {
+        "phase": "Phase 5: Counter-to-Counter Chains",
+        "focus": "Handling defensive responses and chaining alternative attacks when the pressure pass is defended",
+        "description": "Partner specifically practices the most common defensive responses: re-entanglement, framing, hip escape, and sweep attempts. Top player develops automatic responses to each counter, including returning to leg lock attacks when the pass is strongly defended. Build a decision tree that connects the pressure pass to the broader attacking system."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What must be established before any leg extraction attempt begins during the pressure pass?",
+        "answer": "Upper body control through a deep crossface or head control must be established first. This anchor restricts the opponent's ability to adjust their legs, re-entangle, or initiate submission attacks during the extraction phase. The crossface turns the opponent's head away, the far hip hand prevents rotation, and together they create the stable platform from which the entire extraction operates. Skipping this step is the most common reason the pressure pass fails."
+      },
+      {
+        "question": "Your opponent begins re-hooking your ankle with their free leg as you attempt the knee slide extraction - how do you respond?",
+        "answer": "Increase forward chest pressure immediately to restrict their hip movement, then accelerate your knee past their hooking foot rather than retreating. The key is to drive through the re-hook attempt rather than pulling back, because retreating gives them the space to complete the re-entanglement. If the re-hook is already deep, pause, re-establish pressure, strip the hook with your free hand, and restart the extraction with tighter mechanics."
+      },
+      {
+        "question": "Why is controlled knee sliding preferred over explosive leg pulling during the extraction phase?",
+        "answer": "Explosive pulling creates momentum and space that the opponent can exploit for re-entanglement, sweeps, or submission entries. The sudden movement also compromises your base and upper body control, making you vulnerable during the transition. Controlled knee sliding maintains constant pressure throughout, denies the opponent reactive space, preserves your balance and crossface anchor, and allows you to pause and adjust if the opponent begins a counter without losing positional integrity."
+      },
+      {
+        "question": "When is the optimal tactical moment to initiate the pressure pass from Leg Knot Top?",
+        "answer": "The optimal moment is when the opponent has committed to a strong defensive posture with hidden heels and protected knee lines, making leg lock finishes unlikely. Other strong timing includes when the opponent's grip configuration is focused on defending their legs rather than framing your upper body, and when you detect their legs have loosened their entanglement tension during a positional adjustment. Competition time pressure also creates urgency for positional advancement over submission hunting."
+      },
+      {
+        "question": "What role does the far hip hand play throughout the pressure pass sequence?",
+        "answer": "The far hip hand serves as a critical steering mechanism that prevents the opponent from turning their hips toward you during the extraction and consolidation phases. Without it, the opponent can rotate, insert a knee shield, recover frames, or begin a sweep sequence. It keeps their hips flat and immobilized, ensuring the crossface remains effective and the knee slide has a clear path across the thigh line. This hand should maintain control from the initial setup through final consolidation."
+      },
+      {
+        "question": "Your opponent posts both hands on your shoulders and creates distance during the upper body control phase - what is your correction?",
+        "answer": "Swim your arms inside their extended elbows using circular motions to break the frame structure, then immediately re-establish the crossface. Use your bodyweight dropping forward to collapse their arm frames rather than engaging in a hand-fighting battle at arm's length. Extended arm frames are energy-expensive for the bottom player and unsustainable against heavy forward pressure, so driving your weight into the frames forces them to choose between maintaining arms or protecting their legs."
+      },
+      {
+        "question": "What distinguishes a successful consolidation from one that allows guard recovery?",
+        "answer": "Successful consolidation is characterized by zero gap between leg extraction and weight settlement into the passing position. The moment the knee clears the entanglement, hip pressure should already be driving into the opponent's thigh to prevent knee shield insertion. A failed consolidation typically shows a pause or moment of lightness after extraction where the passer adjusts position, giving the opponent a window to insert hooks, frames, or re-engage their legs. The transition from entanglement to top control must be one continuous weighted movement."
+      },
+      {
+        "question": "How does the pressure pass from Leg Knot chain with other attacks from the same position?",
+        "answer": "The pressure pass creates a two-pronged threat alongside leg lock attacks from Leg Knot Top. When the opponent defends leg locks by hiding their heels and tightening their knee line, the upper body becomes accessible for the pressure pass. When the opponent frames to prevent the pressure pass, their legs loosen creating heel hook and toe hold opportunities. This creates an attacking dilemma where defending one threat exposes the other, forcing the opponent into increasingly compromised positions regardless of their defensive choice."
+      }
+    ],
+    "safety_considerations": "Pressure passing from leg entanglements requires awareness of knee and ankle vulnerability for both practitioners. Avoid explosive twisting motions during the leg extraction phase that could damage trapped joints locked in the entanglement configuration. The knee slide portion carries risk of lateral knee torque on the opponent's trapped leg if performed with excessive force or improper angle. Communicate with training partners about discomfort during entanglement transitions and release pressure immediately if your partner taps or signals pain. During training, perform the extraction at controlled speed to prevent injury from unexpected resistance or sudden positional shifts."
+  },
+  "defender": {
+    "name": "Pressure Pass from Leg Knot Defender",
+    "description": "Defend against the Pressure Pass from Leg Knot in BJJ. Recognition cues, defensive options, and counter-strategies to prevent positional advancement from leg entanglements.",
+    "overview": "As the defender against the Pressure Pass from Leg Knot, your primary objective is to prevent the top player from transitioning out of the leg entanglement and into a dominant passing position. You occupy Leg Knot Bottom, where your legs maintain entanglement control that gives you both defensive anchoring and offensive leg lock potential. The pressure pass threatens to nullify your entire leg entanglement game by establishing upper body dominance and systematically extracting the trapped leg, so your defense must address both the upper body control attempt and the leg extraction mechanics simultaneously.\n\nSuccessful defense requires reading the attacker's intention early and responding before they consolidate the crossface. The moment you recognize the opponent is transitioning from leg lock attacks to a pressure passing strategy, your defensive priorities shift from heel protection to frame establishment and re-entanglement. The defender who maintains active legs and prevents the crossface from settling can force the attacker back into the leg lock exchange where the bottom player retains offensive capability.",
+    "key_principles": [
+      "Deny the crossface by framing against the opponent's shoulder or bicep before they can drive their shoulder into your jaw and flatten your posture",
+      "Maintain active legs throughout the pass attempt, constantly re-hooking and re-entangling to prevent clean extraction of the trapped leg",
+      "Create distance through hip escapes and frames rather than pushing with extended arms that can be collapsed by the passer's forward pressure",
+      "Recognize the transition from leg lock attack to pressure pass early, using the opponent's weight shift forward and reach for upper body control as the primary cue",
+      "Prioritize re-entanglement over guard recovery, as maintaining the leg entanglement preserves your offensive leg lock threats while denying the pass",
+      "Use the opponent's forward weight commitment as a sweep opportunity by redirecting their pressure laterally when they overcommit to the extraction"
+    ],
+    "recognition_cues": [
+      "Opponent stops attacking your heel or ankle and begins reaching forward for your head, collar, or far shoulder, indicating a shift to upper body control",
+      "Opponent drives their chest weight forward and down onto your torso rather than maintaining the distance typical of leg lock attacks",
+      "Opponent's trapped leg begins sliding or angling rather than maintaining the static entanglement position, showing the start of extraction mechanics",
+      "Opponent's free hand moves from controlling your leg to controlling your far hip or belt, establishing the far hip anchor needed for the pressure pass",
+      "Opponent's head drops low beside your head on the crossface side rather than staying upright or distant as in typical leg entanglement positions"
+    ],
+    "defensive_options": [
+      {
+        "action": "Frame against the shoulder and deny the crossface before it settles",
+        "when_to_use": "As soon as you recognize the opponent reaching forward for upper body control, before the crossface is established",
+        "targets_outcome": "Leg Knot/Top",
+        "if_successful": "Opponent cannot establish the upper body anchor needed for the pass, forcing them to either fight for grips or return to leg lock attacks",
+        "risk": "If your frame is weak or your arms are extended, the opponent can swim through and establish an even deeper crossface"
+      },
+      {
+        "action": "Re-hook the opponent's extracting leg with your free leg to re-establish entanglement",
+        "when_to_use": "During the knee slide phase when the opponent's leg is in motion and partially freed from the entanglement",
+        "targets_outcome": "Leg Knot/Top",
+        "if_successful": "The opponent's extraction fails and they return to the entangled position where you maintain offensive leg lock capability",
+        "risk": "If you miss the re-hook, your free leg is now committed and out of position for framing or alternative defense"
+      },
+      {
+        "action": "Hip escape laterally to create angle and insert a knee shield",
+        "when_to_use": "When the opponent has established the crossface and you cannot prevent it, use hip escape to create enough space for knee shield insertion",
+        "targets_outcome": "Half Guard/Top",
+        "if_successful": "You transition to Half Guard Bottom with a knee shield that provides distance management and offensive capability from the guard position",
+        "risk": "The hip escape temporarily reduces your leg entanglement control, potentially allowing the opponent to complete the pass to side control"
+      },
+      {
+        "action": "Bridge and redirect the opponent's forward pressure into a sweep",
+        "when_to_use": "When the opponent overcommits their weight forward during the extraction phase, creating a top-heavy position vulnerable to direction change",
+        "targets_outcome": "Half Guard/Bottom",
+        "if_successful": "You sweep the opponent and end up in top position, completely reversing the positional exchange",
+        "risk": "If the bridge is mistimed or the opponent has a wide base, you expend significant energy without achieving the reversal and may end up flattened"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Leg Knot/Top",
+        "how": "Deny the crossface early through strong frames on the opponent's shoulder and bicep. Maintain active legs that constantly re-hook and re-entangle whenever the opponent attempts extraction. Force the opponent back into the leg entanglement exchange where you retain offensive leg lock capability and they must restart their passing attempt from scratch."
+      },
+      {
+        "outcome": "Half Guard/Bottom",
+        "how": "Time a bridge-and-redirect sweep during the opponent's forward weight transfer when they commit heavily to the crossface or extraction phase. Use the momentum of their forward drive against them by bridging at a 45-degree angle and redirecting their weight over your shoulder. The opponent's commitment to the pressure pass creates the top-heavy posture that makes this sweep available."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Allowing the crossface to settle without any resistance or frame",
+        "consequence": "Once the crossface is established and your head is turned away, your defensive options drop dramatically. The opponent gains the upper body anchor that makes their entire extraction sequence much higher percentage.",
+        "correction": "Frame proactively the instant you recognize the forward reach. Place your forearm across the opponent's throat or shoulder line before their shoulder makes contact with your jaw. Fighting the crossface after it's established is much harder than preventing it."
+      },
+      {
+        "error": "Keeping legs passive during the extraction attempt instead of actively re-hooking",
+        "consequence": "Passive legs allow the opponent to slide free without resistance, completing the extraction cleanly. The pass succeeds almost automatically when the bottom player's legs stop fighting.",
+        "correction": "Maintain constantly active legs that follow the opponent's extracting knee and attempt to re-hook at every opportunity. Treat your legs like grappling hands that are constantly grip-fighting for control of the entanglement."
+      },
+      {
+        "error": "Extending arms to push opponent away rather than using tight structural frames",
+        "consequence": "Extended arms are easily collapsed by the opponent's forward pressure, and the resulting arm isolation can lead to kimura or americana attacks in addition to the completed pass.",
+        "correction": "Keep elbows connected to your body and use forearm frames against the opponent's shoulder and neck rather than pushing at arm's length. Structural frames that use bone alignment are far more sustainable than muscular pushing."
+      },
+      {
+        "error": "Flat back positioning without maintaining hip mobility and side angle",
+        "consequence": "Being flat on your back eliminates escape angles, makes hip escapes nearly impossible, and allows the opponent's chest pressure to pin you completely during the extraction.",
+        "correction": "Stay on your side facing the opponent throughout the defensive sequence. Use continuous micro hip escapes to maintain mobility and create the angles needed for knee shield insertion or re-entanglement attempts."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the earliest recognition cue that your opponent is transitioning from leg lock attacks to a pressure pass attempt?",
+        "answer": "The earliest cue is the opponent reaching forward for your head, collar, or far shoulder while simultaneously driving their chest weight down onto your torso. This represents a fundamental shift from the typical leg lock attacking posture where the opponent maintains distance and focuses on your lower body. The forward weight transfer and upper body reaching are the clearest signals that a pressure pass is beginning and that your defensive priority should shift from heel protection to frame establishment."
+      },
+      {
+        "question": "Your opponent has established the crossface and is beginning the knee slide extraction - what defensive sequence gives you the best chance of preventing the pass?",
+        "answer": "With the crossface already established, your primary option is a hip escape to create enough space for a knee shield insertion. Shrimp your hips away from the crossface side while simultaneously inserting your top knee across the opponent's body as a frame. This transitions you to Half Guard Bottom with a knee shield, which provides distance management and prevents the opponent from completing the pass to side control. The secondary option is to bridge into the crossface to disrupt the opponent's pressure and create a momentary window for re-entanglement."
+      },
+      {
+        "question": "Why should you prioritize re-entanglement over guard recovery when defending the pressure pass from Leg Knot?",
+        "answer": "Re-entanglement preserves your offensive leg lock threats and returns the position to a state where you have active attacking capability. Guard recovery, while safe, surrenders the entire leg entanglement battle and places you in a reactive defensive guard position where the opponent retains the initiative. By re-entangling, you force the opponent back into the leg lock exchange where your defensive efforts transform into offensive opportunity, creating a much more favorable positional outcome than simply recovering to half guard or closed guard."
+      },
+      {
+        "question": "How can you use the opponent's forward weight commitment during the pressure pass as a sweep opportunity?",
+        "answer": "When the opponent drives heavy forward pressure for the crossface or during the extraction phase, their weight distribution becomes top-heavy and vulnerable to lateral redirection. By timing a bridge at a 45-degree angle into their committed weight, you can redirect their momentum over your shoulder for a sweep. The key is timing the bridge to coincide with their maximum forward commitment, when their base is narrowest and their ability to post is most compromised by the extraction mechanics occupying their attention and positioning."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Recognition and Frame Timing",
+        "focus": "Identifying pressure pass initiation cues and establishing defensive frames before the crossface settles",
+        "description": "Partner begins in Leg Knot Top and randomly alternates between continuing leg lock attacks and initiating the pressure pass. Defender practices recognizing the shift and immediately establishing shoulder frames. Start at slow speed with verbal cues, then progress to full speed without warning. Success is measured by frame establishment before crossface contact."
+      },
+      {
+        "phase": "Phase 2: Active Leg Re-Entanglement",
+        "focus": "Maintaining active legs that re-hook and re-entangle during extraction attempts",
+        "description": "Partner performs the knee slide extraction at moderate speed while the defender focuses exclusively on re-hooking with active legs. No upper body defense allowed in this phase, isolating the leg re-entanglement skill. Partner provides progressive resistance as the defender's timing and technique improve. Reset when the extraction completes or the re-entanglement succeeds."
+      },
+      {
+        "phase": "Phase 3: Sweep Timing from Pressure Pass Defense",
+        "focus": "Developing the bridge-and-redirect sweep during the opponent's forward weight commitment",
+        "description": "Partner performs the full pressure pass sequence while the defender specifically works on timing the sweep during maximum forward weight commitment. Practice reading the weight distribution and executing the bridge at the precise moment the passer is most vulnerable. Alternate between sweep attempts and re-entanglement to develop decision-making about which defensive option is best in each scenario."
+      },
+      {
+        "phase": "Phase 4: Full Defensive Sparring from Leg Knot Bottom",
+        "focus": "Integrating all defensive tools against the full pressure pass with live resistance",
+        "description": "Positional sparring starting from Leg Knot with top player's goal of completing the pressure pass and bottom player's goal of either re-entangling, sweeping, or recovering to guard. Track success rates for each defensive option to identify strengths and areas needing development. Include post-round analysis of decision-making and timing."
+      }
+    ]
+  }
+}

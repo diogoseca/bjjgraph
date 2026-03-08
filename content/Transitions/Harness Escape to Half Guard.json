@@ -1,0 +1,422 @@
+{
+  "name": "Harness Escape to Half Guard",
+  "description": "Master the Harness Escape to Half Guard in BJJ. Complete guide to escaping back control through systematic grip fighting, hip movement, and half guard recovery.",
+  "tags": [
+    "bjj",
+    "transition",
+    "escape",
+    "back-control",
+    "half-guard",
+    "defensive",
+    "harness",
+    "positional-escape"
+  ],
+  "from_position": "Harness/Bottom",
+  "outcomes": [
+    {
+      "to": "Half Guard/Bottom",
+      "probability": 55,
+      "result": "success"
+    },
+    {
+      "to": "Harness/Bottom",
+      "probability": 30,
+      "result": "failure"
+    },
+    {
+      "to": "Mount/Bottom",
+      "probability": 15,
+      "result": "counter"
+    }
+  ],
+  "success_rate": 55,
+  "overview": "The Harness Escape to Half Guard is a fundamental defensive transition that addresses one of the most common survival scenarios in BJJ: escaping back control when the opponent has established a seatbelt grip. Rather than attempting a complete escape to turtle or standing position, this technique targets the intermediate objective of recovering half guard, which offers immediate offensive opportunities through sweeps, back takes, and guard transitions. The escape relies on systematic grip fighting to neutralize the choking arm, followed by precise hip movement to create the angle needed to catch the opponent's leg.\n\nThe mechanical foundation centers on disrupting the chest-to-back alignment that makes the harness grip effective. By establishing two-on-one control on the choking arm and executing a diagonal hip escape toward the underhook side, the bottom player creates separation while positioning their legs to thread around the opponent's leg. The timing window is narrow: the hip escape must begin immediately after clearing at least one hook, and the leg catch must happen before the opponent can adjust their position or transition to mount.\n\nStrategically, this escape transforms a purely defensive survival situation into an active offensive platform. Half guard bottom offers legitimate sweep and submission threats that force the former back controller to address entirely new problems. The escape chains naturally with other defensive options—if the half guard catch fails, the bottom player can continue turning to face the opponent or transition to turtle, making this a low-risk component within a broader back escape system.",
+  "conditions": [
+    "Opponent has established harness (seatbelt) grip with one arm over shoulder and one under opposite armpit",
+    "Bottom player can establish at least partial control of the choking arm with two-on-one grip",
+    "At least one hook can be cleared or is not yet fully established",
+    "Bottom player retains enough hip mobility to execute a diagonal hip escape toward the underhook side",
+    "Opponent is not in body triangle configuration, which requires a different escape pathway"
+  ],
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Slide-Down Hip Escape Variation",
+      "description": "The bottom player focuses on sliding their hips downward along the mat rather than turning, using gravity and hip escape mechanics to drop below the opponent's control level. The legs thread around the opponent's leg from below as the hips clear the hook line. This variation is effective against opponents who maintain tight chest-to-back pressure because the downward movement is harder to follow than a lateral turn.",
+      "when_to_use": "When opponent maintains heavy chest pressure and tight harness grip, making lateral turning difficult but leaving space to slide hips downward"
+    },
+    {
+      "variant_name": "Turn-In to Underhook Half Guard",
+      "description": "The bottom player prioritizes turning aggressively toward the underhook side while simultaneously catching the opponent's leg. As the turn completes, the escaping player immediately fights for an underhook on the trapped-leg side, establishing an offensive half guard position rather than a defensive one. This variant creates immediate sweep threats that prevent the opponent from settling into a passing position.",
+      "when_to_use": "When opponent's hooks are loose or partially cleared and the bottom player has strong control of the choking arm, allowing a more aggressive rotational escape"
+    },
+    {
+      "variant_name": "Knee Shield Recovery Variation",
+      "description": "Rather than catching a standard half guard, the escaping player immediately inserts a knee shield across the opponent's torso as they turn. The shin frame creates significant distance and prevents the opponent from re-establishing chest pressure. This variation transitions directly into knee shield half guard, which is one of the strongest defensive configurations in the half guard system and offers excellent distance management.",
+      "when_to_use": "When opponent is likely to immediately pressure forward after losing back control, requiring immediate distance creation and frame establishment"
+    }
+  ],
+  "position_integration": "The Harness Escape to Half Guard connects the back defense system directly to the half guard offensive system, functioning as a critical bridge between pure survival and active attacking. This transition is referenced in nearly every modern back escape curriculum because it targets an intermediate recovery point rather than requiring a complete positional reversal. Practitioners who develop this escape alongside complementary options like turtle recovery and guard pull create a multi-layered defensive network that makes their back defense significantly harder to shut down. The escape feeds directly into the half guard sweep and back take systems, meaning a successful escape immediately puts the former back controller on defense.",
+  "related_content": [
+    {
+      "name": "Harness",
+      "relationship": "Source position from which this escape initiates"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Target position reached upon successful escape"
+    },
+    {
+      "name": "Back Control",
+      "relationship": "Parent position category encompassing the harness configuration"
+    },
+    {
+      "name": "Body Triangle",
+      "relationship": "Related back control variant requiring different escape mechanics"
+    },
+    {
+      "name": "Seat Belt Control Back",
+      "relationship": "Alternative classification of the starting control position"
+    },
+    {
+      "name": "Knee Shield Half Guard",
+      "relationship": "Common half guard variation established after completing escape"
+    },
+    {
+      "name": "Turtle",
+      "relationship": "Alternative escape target when half guard catch fails"
+    },
+    {
+      "name": "Elbow Escape from Back",
+      "relationship": "Complementary back escape technique targeting guard recovery"
+    },
+    {
+      "name": "Body Triangle Escape to Half Guard",
+      "relationship": "Similar escape concept from body triangle back control variant"
+    },
+    {
+      "name": "Escape Seat Belt Control",
+      "relationship": "Related escape addressing the same grip configuration"
+    },
+    {
+      "name": "Mount",
+      "relationship": "Common counter position opponent may achieve if escape is poorly timed"
+    }
+  ],
+  "attacker": {
+    "name": "Harness Escape to Half Guard Attacker",
+    "description": "Complete guide to executing the Harness Escape to Half Guard. Learn grip fighting sequences, hip escape mechanics, and leg threading technique to recover half guard from back control.",
+    "overview": "Executing the Harness Escape to Half Guard requires a disciplined sequence that prioritizes choking arm control before any positional movement. The escape begins with systematic grip fighting to neutralize the rear naked choke threat, progresses through hook clearing and hip escape mechanics, and concludes with threading your legs around the opponent's leg to establish half guard. Success depends on disrupting the opponent's chest-to-back alignment through diagonal movement rather than explosive bridging, and on catching the half guard position before the opponent can transition to mount or re-establish hooks. The escape is most effective when executed as part of a chain with other back defense options, creating a defensive system where each attempt feeds into the next if unsuccessful.",
+    "key_principles": [
+      "Always control the choking arm with a two-on-one grip before initiating any positional escape movement",
+      "Hip escape diagonally toward the underhook side rather than bridging straight up, which disrupts the opponent's alignment more effectively",
+      "Clear hooks methodically rather than explosively—push the bottom hook first using your same-side leg while maintaining grip control",
+      "Catch the opponent's leg in half guard at the earliest opportunity rather than waiting to complete a full turn",
+      "Transition immediately to offensive half guard by fighting for underhook or knee shield rather than settling into flat defensive half guard",
+      "Chain this escape with other back escape options so that failed attempts naturally flow into turtle recovery or continued turning"
+    ],
+    "setup_requirements": [
+      "Establish two-on-one grip on opponent's choking arm with one hand on their wrist and the other controlling near their elbow",
+      "Tuck chin firmly to chest to create a physical barrier against the rear naked choke",
+      "Assess opponent's hook positions to determine which hook to clear first, typically the bottom hook",
+      "Position hips to begin diagonal escape toward the underhook side of the opponent's grip",
+      "Maintain steady breathing and controlled energy expenditure to sustain the escape sequence"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Establish two-on-one grip on choking arm",
+        "description": "Immediately grab the opponent's choking arm (the arm crossing over your shoulder) with both hands. One hand controls the wrist while the other grips near the elbow or tricep area. Pull the arm down toward your chest while keeping your elbows tight to your body. This neutralizes the primary rear naked choke threat and creates the foundation for all subsequent escape movements."
+      },
+      {
+        "step_number": 2,
+        "action": "Protect neck and tuck chin",
+        "description": "While maintaining the two-on-one grip, tuck your chin firmly to your chest and raise your shoulder on the choking-arm side to create a barrier. Turn your head slightly toward the inside of the opponent's elbow crease to prevent the forearm from sliding across your throat. This defensive posture must be maintained throughout the entire escape sequence."
+      },
+      {
+        "step_number": 3,
+        "action": "Clear the bottom hook",
+        "description": "Using your same-side foot and hand, push the opponent's bottom hook (the hook closest to the mat) off your thigh. Drive their foot away by pressing against their ankle or instep with your foot while simultaneously using your free hand to assist if needed. The bottom hook is cleared first because it is the primary obstacle to the hip escape movement that follows."
+      },
+      {
+        "step_number": 4,
+        "action": "Execute diagonal hip escape toward underhook side",
+        "description": "With the bottom hook cleared, immediately hip escape diagonally toward the side of the opponent's underhook arm. Slide your hips away from their body while keeping your shoulders relatively stationary. This diagonal movement disrupts their chest-to-back alignment and creates the angle necessary to begin threading your legs around their leg. The movement should be smooth and controlled rather than explosive."
+      },
+      {
+        "step_number": 5,
+        "action": "Begin turning body toward opponent",
+        "description": "As your hips create the angle from the hip escape, start rotating your torso to face the opponent. Turn toward the underhook side while maintaining your two-on-one grip on the choking arm. Your bottom shoulder drives into the mat as you rotate, and your legs begin to position for catching the opponent's leg. The turn must be deliberate but quick enough to prevent the opponent from following with their hips."
+      },
+      {
+        "step_number": 6,
+        "action": "Thread legs to catch opponent's leg in half guard",
+        "description": "As you turn, thread your inside leg between the opponent's legs and use both legs to trap their near leg between your thighs. Pinch your knees together to secure the entanglement. The leg catch should target their thigh or knee area, not just the ankle, to establish meaningful control. This is the critical moment of the escape—if you miss the leg catch, continue turning to face them or transition to turtle."
+      },
+      {
+        "step_number": 7,
+        "action": "Establish knee shield or frame",
+        "description": "Immediately after catching the half guard, insert your top knee across the opponent's torso as a knee shield, placing your shin diagonally from their hip to their opposite shoulder. This frame creates essential distance between your bodies and prevents the opponent from immediately flattening you with chest pressure. If the knee shield is not available, use forearm frames against their collar bone and bicep to maintain separation."
+      },
+      {
+        "step_number": 8,
+        "action": "Secure underhook and settle into offensive half guard",
+        "description": "Fight for an underhook on the trapped-leg side by swimming your arm under the opponent's armpit and securing a grip on their back or lat. With the underhook established alongside your knee shield or frame, you have transitioned from survival mode into offensive half guard. From here, immediately begin threatening sweeps and back takes to prevent the opponent from consolidating a passing position."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Opponent re-tightens harness grip and drives chest pressure forward to prevent hip escape",
+        "effectiveness": "High",
+        "your_response": "Maintain two-on-one grip and wait for opponent to shift weight before re-attempting the hip escape. Use small incremental hip escapes rather than one large movement. If they overcommit forward, use their momentum to accelerate your turn.",
+        "targets_outcome": "Harness/Bottom"
+      },
+      {
+        "counter": "Opponent follows your rotation and transitions to mount as you turn",
+        "effectiveness": "High",
+        "your_response": "If you feel them riding over, immediately stop turning and re-establish defensive frames. Keep your elbow and knee connected on the turning side to block them from achieving mount. If mount is imminent, abandon the half guard catch and focus on preventing the mount with frames and hip escape in the opposite direction.",
+        "targets_outcome": "Mount/Bottom"
+      },
+      {
+        "counter": "Opponent re-inserts cleared hooks before hip escape is completed",
+        "effectiveness": "Medium",
+        "your_response": "Continue controlling the choking arm while using your legs actively to prevent hook re-insertion. Keep knees squeezed together and legs heavy on the mat. If they re-insert one hook, continue the escape attempt—a single hook is insufficient to prevent the half guard recovery if your grip fighting is sound.",
+        "targets_outcome": "Harness/Bottom"
+      },
+      {
+        "counter": "Opponent releases harness to establish gift wrap or switch to different control",
+        "effectiveness": "Medium",
+        "your_response": "The moment they release the harness grip to transition, accelerate your escape. The transition between grips is the weakest moment in their control chain. Use the brief window of reduced upper body control to complete your hip escape and leg catch in one fluid motion.",
+        "targets_outcome": "Harness/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Attempting hip escape before establishing control of the choking arm",
+        "consequence": "Exposes the neck completely during the turn, allowing the opponent to easily slide their arm across and finish the rear naked choke while you are mid-escape",
+        "correction": "Always establish a secure two-on-one grip on the choking arm before initiating any positional movement. The grip fight is the first and most critical step in the escape sequence."
+      },
+      {
+        "error": "Bridging straight up instead of hip escaping diagonally",
+        "consequence": "Creates space above you rather than to the side, which the opponent can easily recapture by following your hips downward. Bridging also wastes energy without disrupting the opponent's alignment.",
+        "correction": "Execute a diagonal hip escape toward the underhook side. This lateral movement is much harder for the opponent to follow and creates the specific angle needed to catch their leg in half guard."
+      },
+      {
+        "error": "Turning toward the wrong side—away from the underhook rather than toward it",
+        "consequence": "Plays directly into the opponent's control structure and tightens the harness grip rather than loosening it. The escape becomes nearly impossible and may expose the neck further.",
+        "correction": "Always turn toward the underhook side of the opponent's harness grip. Turning toward the underhook disrupts the grip mechanics and creates the optimal angle for the escape."
+      },
+      {
+        "error": "Failing to catch the opponent's leg and allowing them to achieve mount",
+        "consequence": "The incomplete escape leaves you in mount bottom, which is a worse position than the harness you were escaping from. Mount offers the opponent points and strong submission opportunities.",
+        "correction": "Prioritize the leg catch during your turn. If you sense the opponent riding over into mount, stop the turn and re-establish defensive frames. Only commit to the full turn when you can secure the half guard entanglement."
+      },
+      {
+        "error": "Settling into flat defensive half guard after catching the leg",
+        "consequence": "Allows the opponent to establish crossface and underhook control, crushing you into a flattened half guard where they can methodically work their pass with minimal resistance",
+        "correction": "Immediately establish a knee shield or underhook after catching the half guard. The first two seconds after catching the leg determine whether you have offensive or defensive half guard."
+      },
+      {
+        "error": "Using explosive bursts of energy rather than methodical controlled movement",
+        "consequence": "Burns energy rapidly without guaranteed positional improvement. If the explosive attempt fails, you are exhausted and more vulnerable to the opponent's subsequent attacks.",
+        "correction": "Execute the escape with controlled, deliberate movements. Use incremental hip escapes and steady grip fighting rather than one massive explosive effort. This conserves energy and allows you to chain multiple escape attempts."
+      },
+      {
+        "error": "Releasing two-on-one grip to reach for the opponent's leg during the catch",
+        "consequence": "Momentarily frees the choking arm, allowing the opponent to re-attack the rear naked choke at the most vulnerable moment of the escape when your neck is partially exposed during the turn",
+        "correction": "Maintain the two-on-one grip throughout the escape. Use your legs independently to catch the half guard entanglement—your hands stay on the choking arm until the half guard is fully secured and the choke threat is eliminated."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Grip Fighting Foundation",
+        "focus": "Two-on-one control and choking arm management",
+        "description": "Drill the two-on-one grip establishment from harness bottom in isolation. Partner applies harness grip and slowly attempts to slide choking arm across for rear naked choke. Focus on grip speed, hand placement, and maintaining control under increasing resistance. Practice for 2-minute rounds with progressive resistance from 30% to 70%."
+      },
+      {
+        "phase": "Phase 2: Hip Escape Mechanics",
+        "focus": "Diagonal hip escape movement pattern and hook clearing",
+        "description": "Starting from harness bottom with two-on-one established, practice the diagonal hip escape toward the underhook side in isolation. Partner maintains light harness pressure while you focus on the hip escape angle, hook clearing technique, and developing the muscle memory for the diagonal sliding movement. Perform 20-30 repetitions per side."
+      },
+      {
+        "phase": "Phase 3: Full Escape Sequence",
+        "focus": "Connecting all phases into a fluid escape chain",
+        "description": "Execute the complete escape sequence from grip establishment through half guard recovery with a cooperative partner providing 50% resistance. Focus on smooth transitions between each phase: grip fight to hip escape to turn to leg catch to knee shield establishment. Reset and repeat for 5-minute rounds, emphasizing flow rather than power."
+      },
+      {
+        "phase": "Phase 4: Counter Recognition and Adaptation",
+        "focus": "Handling opponent's counter-movements during escape",
+        "description": "Partner actively counters escape attempts with realistic responses: re-tightening harness, following rotation toward mount, re-inserting hooks. Practice adapting your escape in real-time—stopping the turn if mount is threatened, re-attempting hip escape if hooks are re-inserted, accelerating when opponent transitions grips. Build decision-making under pressure."
+      },
+      {
+        "phase": "Phase 5: Live Situational Sparring",
+        "focus": "Full resistance application in competitive conditions",
+        "description": "Begin in harness bottom with full back control established. Both players go at 100% intensity. Bottom player attempts escape while top player maintains position and attacks. 90-second rounds with reset. Track escape success rate and identify specific failure points for targeted improvement. Alternate partners to experience different body types and control styles."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "Your opponent has a tight harness grip but their bottom hook is loose—what is the optimal timing to initiate the escape?",
+        "answer": "The loose bottom hook is the critical window. Immediately establish your two-on-one grip on the choking arm while using your same-side foot to push their loose hook completely off your thigh. Begin your diagonal hip escape the instant the hook clears. Do not wait for a perfect moment—the loose hook IS the moment. Every second you delay allows them to re-establish the hook or tighten their overall position."
+      },
+      {
+        "question": "What grip configuration on the choking arm provides the strongest control during the escape?",
+        "answer": "Grab the opponent's wrist with your hand that is on the same side as their choking arm, and control near their elbow or tricep with your other hand. The wrist grip prevents the arm from sliding across your neck, while the elbow control prevents them from generating the leverage needed to pry your grip open. Keep both elbows tight to your body to make the grip harder to break. A gable grip on the wrist is stronger than finger-to-finger but takes longer to establish."
+      },
+      {
+        "question": "Why must you hip escape diagonally toward the underhook side rather than directly away from the opponent?",
+        "answer": "The diagonal hip escape toward the underhook side disrupts the opponent's chest-to-back alignment in two planes simultaneously—lateral and rotational. A direct escape away from the opponent only creates linear space that they can close by following your hips forward. The diagonal angle toward the underhook side specifically weakens the harness grip mechanics because it loads the underhook arm while creating slack in the over-arm, making the catch easier and the turn more effective."
+      },
+      {
+        "question": "Your opponent begins following your hip escape and you feel their weight shifting toward mount—how do you adjust?",
+        "answer": "Immediately stop your rotational turn and re-establish defensive frames. Plant your near-side elbow and knee together to create a physical barrier against the mount transition. Hip escape in the opposite direction to recover distance. If they have already partially achieved mount, frame against their hip with your near-side hand and use the space to re-insert your knee between your bodies. Only resume the half guard escape attempt once you have denied the mount and re-established your defensive structure."
+      },
+      {
+        "question": "What is the most critical hip movement during the leg catch phase of the escape?",
+        "answer": "As you turn to face the opponent, your bottom hip must drive into the mat while your top hip rotates over to create the angle for the leg catch. The bottom hip serves as a pivot point while the top hip provides the rotational force. Your inside leg threads between the opponent's legs by driving your knee toward their midline, and then both legs pinch together to trap their leg at the thigh or knee level. The hip rotation must be quick and committed—hesitation here is where most failed escapes occur."
+      },
+      {
+        "question": "After catching half guard, your opponent immediately drives forward with heavy crossface pressure—what is your priority?",
+        "answer": "Insert your knee shield immediately before addressing the crossface. The knee shield creates structural distance that prevents them from flattening you regardless of their crossface pressure. Place your shin diagonally across their torso from hip to shoulder. Once the knee shield is established, use your free hand to frame against their crossface arm while fighting for the underhook with your inside arm. The knee shield buys you time and space that makes all subsequent defensive and offensive actions possible."
+      },
+      {
+        "question": "Your first hip escape attempt is stuffed and the opponent re-tightens their grip—what is your chained response?",
+        "answer": "Do not abandon the escape sequence. Maintain your two-on-one grip and execute a second smaller hip escape in the same diagonal direction. Multiple incremental hip escapes are more effective than one explosive attempt because each small movement accumulates positional advantage that the opponent cannot fully recover. If three attempts fail, consider transitioning to a different escape pathway such as the elbow escape to guard or hip escape toward turtle, using the positional changes you have already created."
+      },
+      {
+        "question": "How do you determine whether to catch standard half guard or immediately insert a knee shield during the escape?",
+        "answer": "If the opponent is already driving forward with pressure as you complete the turn, insert the knee shield immediately—you need the distance management more than the offensive position. If the opponent is slow to react or momentarily disorganized after losing back control, catch standard half guard and fight directly for the underhook, which gives you immediate sweep threats. Read their energy: aggressive forward pressure means knee shield first, hesitation or re-gripping means underhook first."
+      },
+      {
+        "question": "What role does the opponent's underhook arm play in your escape mechanics?",
+        "answer": "The opponent's underhook arm (the arm under your armpit) is the arm you turn toward during the escape. Turning toward this arm weakens the harness structure because it compresses the underhook while creating slack in the over-arm connection. As you complete the turn, the underhook arm becomes trapped on the same side as the leg you are catching in half guard. This means the opponent's formerly dominant grip structure now works against them—their underhook becomes the pathway for your underhook battle in half guard."
+      },
+      {
+        "question": "If the escape to half guard fails completely and you remain in harness bottom, what alternative escape should you chain to next?",
+        "answer": "Chain to the elbow escape toward turtle or the hip escape to guard. The positional adjustments you made during the failed half guard attempt—two-on-one grip, partial hook clearing, hip angle creation—have already improved your position even though the escape did not complete. Use the angle you created to attempt a different escape vector. If your hips moved but the leg catch failed, continue the turn toward turtle. If the hip escape was stuffed entirely, try the opposite direction or work to clear the second hook for a different escape pathway."
+      }
+    ],
+    "safety_considerations": "This escape involves significant rotational movement of the spine and neck while under the opponent's weight and control. Always maintain chin protection throughout the escape to prevent the choking arm from compressing the trachea during the turn. Practice the turning mechanics at slow speed before adding resistance. Partners maintaining back control should release immediately if the escaping player signals discomfort in the neck or shoulder area. Avoid explosive jerking movements that could strain the cervical spine—use smooth, controlled hip escapes instead. In training, the back controller should gradually increase resistance rather than applying maximum pressure from the start."
+  },
+  "defender": {
+    "name": "Harness Escape to Half Guard Defender",
+    "description": "Learn to prevent and counter the Harness Escape to Half Guard from back control. Systematic retention strategies, counter-movements, and transition options for maintaining dominant position.",
+    "overview": "Defending against the Harness Escape to Half Guard means you are the practitioner maintaining back control with a harness grip while your opponent attempts to slide their hips down, turn, and catch your leg in half guard. Your primary objective is to maintain the chest-to-back alignment and harness grip integrity that make back control dominant. Early recognition of escape attempts is essential—the escape becomes exponentially harder to prevent once the opponent has cleared a hook and created significant hip angle. Successful defense requires a combination of grip re-tightening, hook management, hip following, and the tactical option of transitioning to mount if the opponent's turn becomes unstoppable rather than losing position entirely.",
+    "key_principles": [
+      "Maintain constant chest-to-back pressure to deny the space needed for hip escape initiation",
+      "Keep the choking arm active and high near the neck to force continuous two-on-one defensive engagement from the opponent",
+      "Use hooks dynamically—re-insert cleared hooks immediately and adjust hook depth based on opponent's hip position",
+      "Follow the opponent's hip escape with your own hip adjustment to maintain alignment rather than allowing separation",
+      "Recognize the escape attempt early through tactile cues and address it before the opponent creates significant angle",
+      "If the opponent's turn becomes unstoppable, transition to mount rather than fighting to maintain back control from a compromised angle"
+    ],
+    "recognition_cues": [
+      "Opponent establishes a firm two-on-one grip on your choking arm and begins pulling it down toward their chest",
+      "Opponent's hips begin sliding downward or diagonally toward your underhook side, creating separation from your chest",
+      "Opponent pushes against your bottom hook with their foot or hand, attempting to clear the leg entanglement",
+      "Opponent's shoulders begin rotating toward your underhook side, indicating the turning phase of the escape",
+      "Opponent's breathing pattern changes from rapid defensive breathing to controlled steady breathing, indicating a committed escape attempt"
+    ],
+    "defensive_options": [
+      {
+        "action": "Re-tighten harness grip and drive chest pressure forward while re-inserting any cleared hooks",
+        "when_to_use": "At the earliest sign of escape—when opponent begins grip fighting on your choking arm or starts hip escape movement",
+        "targets_outcome": "Harness/Bottom",
+        "if_successful": "Opponent remains in harness bottom with your control re-established, forcing them to restart their escape sequence from the beginning",
+        "risk": "If you overcommit forward pressure and opponent redirects momentum, they may accelerate their turn using your pressure against you"
+      },
+      {
+        "action": "Follow opponent's rotation and transition to mount as they turn to face you",
+        "when_to_use": "When opponent has created significant angle and their turn is nearly complete—catching their leg in half guard is imminent",
+        "targets_outcome": "Mount/Bottom",
+        "if_successful": "You achieve mount position, maintaining a dominant 4-point position despite losing back control. Mount offers strong submission and control options.",
+        "risk": "If poorly timed, opponent may catch your leg in half guard during the mount transition, achieving their escape objective"
+      },
+      {
+        "action": "Switch to body triangle to lock opponent's hips and prevent the diagonal hip escape",
+        "when_to_use": "When opponent begins clearing hooks but has not yet created significant hip angle—the body triangle prevents the hip escape entirely",
+        "targets_outcome": "Harness/Bottom",
+        "if_successful": "Body triangle locks the opponent's hips, eliminating the diagonal hip escape that powers this escape and forcing them to pursue a different escape pathway",
+        "risk": "Transitioning to body triangle momentarily loosens your hook control, and a well-timed opponent may exploit the transition window to complete their escape"
+      },
+      {
+        "action": "Release harness and re-grip with stronger control configuration such as gift wrap or collar control",
+        "when_to_use": "When opponent has strong two-on-one grip control and your choking arm is being neutralized, reducing your offensive threat",
+        "targets_outcome": "Harness/Bottom",
+        "if_successful": "New grip configuration bypasses opponent's defensive grips and re-establishes offensive control from back position",
+        "risk": "The moment between releasing and re-gripping is the most vulnerable window—opponent may accelerate their escape during the grip transition"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Harness/Bottom",
+        "how": "Recognize the escape attempt early through the two-on-one grip and hip escape cues. Immediately re-tighten your harness, drive forward chest pressure, and re-insert any cleared hooks before the opponent can create meaningful angle. Active hook management and constant forward pressure prevent the escape from progressing past the initial grip-fighting phase."
+      },
+      {
+        "outcome": "Mount/Bottom",
+        "how": "If the opponent successfully creates significant angle and begins their turn, do not fight to maintain back control from a losing position. Instead, follow their rotation, remove your hooks, and step over into mount. Time the transition for when they are mid-turn and committed to the rotational movement—this is when they are least able to establish the frames needed to prevent mount."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Allowing the opponent to control your choking arm with two-on-one without actively fighting for wrist position",
+        "consequence": "The opponent neutralizes your primary offensive threat and establishes the foundation for their escape sequence. Without the choke threat, there is no punishment for them moving their hips freely.",
+        "correction": "Actively fight the two-on-one by circling your wrist, pulling your arm back toward your body, and keeping the choking arm high near the neck. Make them work constantly to maintain their defensive grip."
+      },
+      {
+        "error": "Maintaining static hook positions without adjusting as the opponent hip escapes",
+        "consequence": "Static hooks are easily cleared by a determined hip escape. Once hooks are lost without following the escape, back control deteriorates rapidly with no recovery opportunity.",
+        "correction": "Treat hooks as dynamic control tools—follow the opponent's hip movement with your legs, re-insert cleared hooks immediately, and adjust hook depth based on the opponent's position changes."
+      },
+      {
+        "error": "Failing to follow the opponent's hip escape with your own hip adjustment",
+        "consequence": "Creates space between your chest and their back, which is the fundamental requirement for the escape to succeed. Once chest-to-back alignment is broken, all other control elements weaken.",
+        "correction": "When you feel the opponent's hips sliding, immediately follow with your own hips to maintain chest-to-back connection. Think of your hips as magnetically attached to theirs—wherever they go, you follow."
+      },
+      {
+        "error": "Attempting to maintain back control from a compromised angle rather than transitioning to mount",
+        "consequence": "Fighting to keep back control when the opponent has already created significant angle results in losing position entirely and ending up in their guard with no points or dominant control.",
+        "correction": "Recognize when back control is no longer viable and immediately transition to mount. Maintaining mount is far better than losing all positional advantage by stubbornly holding a compromised back position."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the earliest tactile cue that indicates your opponent is about to attempt this specific escape?",
+        "answer": "The earliest cue is the opponent establishing a two-on-one grip on your choking arm—both of their hands gripping your wrist and elbow area simultaneously. This is the mandatory first step of the escape because they cannot safely move their hips without neutralizing the choke threat first. When you feel both hands commit to your choking arm, immediately increase forward pressure and begin re-positioning your hooks to deny the hip escape that will follow within seconds."
+      },
+      {
+        "question": "Your opponent has cleared your bottom hook and created a 30-degree angle—should you fight to recover back control or transition to mount?",
+        "answer": "At 30 degrees with one hook cleared, you are at the critical decision point. If your harness grip remains tight and your top hook is still engaged, fight to recover: drive your chest forward, re-insert the bottom hook, and collapse their angle with hip pressure. However, if your grip has been significantly weakened by their two-on-one control and the angle is increasing, begin preparing the mount transition. The deciding factor is grip integrity—strong grip means recover, compromised grip means transition to mount before you lose everything."
+      },
+      {
+        "question": "How should you adjust your hook management when you feel the opponent beginning to push your bottom hook?",
+        "answer": "When you feel pressure on your bottom hook, do not simply resist with leg strength—this becomes an energy war you may lose. Instead, actively re-position the hook by pulling your heel tighter toward your body and driving your instep deeper into their thigh. Simultaneously, increase your top hook engagement and drive forward chest pressure to make it harder for them to create the space needed to clear the hook. If the hook is cleared despite your efforts, immediately follow with your hips to prevent them from creating the diagonal angle."
+      },
+      {
+        "question": "What is the optimal timing window for transitioning from back control to mount during this escape?",
+        "answer": "The optimal window is when the opponent is mid-turn—they have committed to the rotational movement and their hands are occupied controlling your choking arm rather than creating frames. At this point, remove your hooks, drive your hips forward over their body, and step over into mount. If you transition too early, they have not committed and can simply pull you back. If you transition too late, they have already caught your leg in half guard. The mid-turn moment, when they are between back exposure and facing you, offers the best mount transition timing."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Recognition and Early Intervention",
+        "focus": "Identifying escape attempts through tactile cues and responding immediately",
+        "description": "From established harness position, partner attempts the escape at 50% intensity while you focus exclusively on recognizing the two-on-one grip, hip escape initiation, and hook clearing attempts. Practice re-tightening your control within the first 2 seconds of each escape attempt. 2-minute rounds with reset after each successful or failed escape."
+      },
+      {
+        "phase": "Phase 2: Active Hook Management",
+        "focus": "Dynamic hook positioning and recovery during escape attempts",
+        "description": "Partner focuses specifically on clearing hooks while you practice re-inserting, adjusting depth, and following hip movement with your legs. Isolate the hook battle from the grip fight. Partner attempts hook clears at increasing intensity while you develop sensitivity to hook threats and automatic re-insertion responses."
+      },
+      {
+        "phase": "Phase 3: Mount Transition Decision Making",
+        "focus": "Recognizing when to transition to mount versus fighting for back control",
+        "description": "Partner executes full escape attempts with high resistance. Practice the decision point between recovering back control and transitioning to mount. Develop the ability to read angle creation and grip integrity in real-time and make the correct tactical decision. Track decision quality by reviewing outcomes—did you choose correctly based on the position?"
+      },
+      {
+        "phase": "Phase 4: Full Resistance Retention",
+        "focus": "Complete back control retention against determined escape attempts",
+        "description": "Full intensity positional sparring from harness position. Both players operate at 100% with the back controller working to maintain position or transition to mount while the bottom player works all available escapes. 90-second rounds with position tracking. Analyze patterns to identify which escape sequences give you the most difficulty."
+      }
+    ]
+  }
+}

@@ -1,0 +1,395 @@
+{
+  "name": "Double Underhook Pass",
+  "description": "Master Double Underhook Pass from Crackhead Control. Step-by-step guide to passing turtle to Side Control with bilateral underhook mechanics and Gable grip.",
+  "tags": [
+    "bjj",
+    "transition",
+    "technique",
+    "pass",
+    "turtle-attack",
+    "side-control-entry",
+    "crackhead-control",
+    "10th-planet"
+  ],
+  "from_position": "Crackhead Control/Top",
+  "outcomes": [
+    {
+      "to": "Side Control/Top",
+      "probability": 65,
+      "result": "success"
+    },
+    {
+      "to": "Crackhead Control/Top",
+      "probability": 25,
+      "result": "failure"
+    },
+    {
+      "to": "Half Guard/Bottom",
+      "probability": 10,
+      "result": "counter"
+    }
+  ],
+  "success_rate": 58,
+  "overview": "The Double Underhook Pass is a systematic transition from Crackhead Control that uses bilateral underhook control to flatten the turtle defender and advance to Side Control. This technique capitalizes on the chair-sit mechanics of Crackhead Control to thread both arms under the opponent's armpits, creating a powerful scooping action that eliminates their defensive base.\n\nStrategically, this pass exploits the defensive limitations created when an opponent in turtle attempts to protect their neck from back attacks. By focusing their defensive energy on preventing collar and seatbelt grips, they often leave the underhook pathways accessible. The double underhook configuration creates a mechanical advantage where your chest pressure combined with arm leverage makes it nearly impossible for them to maintain the quadruped position.\n\nThe technique represents an evolution in turtle passing methodology, moving away from traditional approaches that emphasized riding the back toward modern systems that prioritize flattening and immediate dominant position acquisition. When executed with proper timing and hip pressure coordination, the Double Underhook Pass creates a direct pathway to Side Control while eliminating the scramble opportunities that make turtle attacks risky.",
+  "related_content": [
+    {
+      "name": "Crackhead Control",
+      "relationship": "Starting position"
+    },
+    {
+      "name": "Side Control",
+      "relationship": "Primary success outcome"
+    },
+    {
+      "name": "Turtle to Back Take",
+      "relationship": "Alternative attack from same position"
+    },
+    {
+      "name": "Turtle to Truck",
+      "relationship": "Alternative attack pathway"
+    },
+    {
+      "name": "Body Lock Pass",
+      "relationship": "Related passing technique with similar mechanics"
+    },
+    {
+      "name": "Double Under Pass",
+      "relationship": "Related double underhook passing concept from guard"
+    },
+    {
+      "name": "North-South",
+      "relationship": "Alternative outcome when driving toward head"
+    },
+    {
+      "name": "Americana from Side Control",
+      "relationship": "Follow-up submission from pass completion"
+    },
+    {
+      "name": "Kimura from Side Control",
+      "relationship": "Follow-up submission from pass completion"
+    },
+    {
+      "name": "Arm Triangle",
+      "relationship": "Follow-up submission from pass completion"
+    }
+  ],
+  "attacker": {
+    "name": "Double Underhook Pass Attacker",
+    "description": "How to execute Double Underhook Pass in BJJ. Attacking perspective with setup, execution steps, and counters.",
+    "overview": "The Double Underhook Pass is a systematic transition from Crackhead Control that uses bilateral underhook control to flatten the turtle defender and advance to Side Control. This technique capitalizes on the chair-sit mechanics of Crackhead Control to thread both arms under the opponent's armpits, creating a powerful scooping action that eliminates their defensive base.\n\nStrategically, this pass exploits the defensive limitations created when an opponent in turtle attempts to protect their neck from back attacks. By focusing their defensive energy on preventing collar and seatbelt grips, they often leave the underhook pathways accessible. The double underhook configuration creates a mechanical advantage where your chest pressure combined with arm leverage makes it nearly impossible for them to maintain the quadruped position.\n\nThe technique represents an evolution in turtle passing methodology, moving away from traditional approaches that emphasized riding the back toward modern systems that prioritize flattening and immediate dominant position acquisition. When executed with proper timing and hip pressure coordination, the Double Underhook Pass creates a direct pathway to Side Control while eliminating the scramble opportunities that make turtle attacks risky.",
+    "key_principles": [
+      "Maintain hip pressure throughout the transition - never release chair-sit weight until fully settled in Side Control",
+      "Thread underhooks sequentially, not simultaneously - secure the first deep before hunting the second",
+      "Use chest pressure against opponent's shoulder blades as primary driving force, not arm strength",
+      "Drive perpendicular to opponent's spine to prevent them from rolling with the pass",
+      "Lock hands only after both underhooks are deep - premature clasping limits leverage",
+      "Time the pass for when opponent commits defensive energy to preventing back takes",
+      "Keep your head low and outside their hip line to prevent reversal opportunities"
+    ],
+    "setup_requirements": [
+      "Crackhead Control established with stable chair-sit position on opponent's lower back",
+      "Opponent in defensive turtle with hands and knees on mat protecting neck",
+      "At least one underhook partially established or pathway clear for entry",
+      "Hip pressure sufficient to prevent opponent from standing or sitting through",
+      "Opponent's arms positioned forward defending their neck rather than blocking underhook entries"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Establish first underhook",
+        "description": "From Crackhead Control, thread your dominant-side arm under opponent's near armpit, driving your hand toward their far shoulder. Keep your elbow tight to their ribs throughout the entry to prevent them from trapping your arm."
+      },
+      {
+        "step_number": 2,
+        "action": "Secure the grip",
+        "description": "Once the first underhook is deep, lock your hand on their far shoulder or clasp their gi lapel in gi training. Your palm should face down with fingers wrapped over the trapezius muscle for maximum control."
+      },
+      {
+        "step_number": 3,
+        "action": "Thread second underhook",
+        "description": "While maintaining the first underhook and hip pressure, swim your opposite arm under their far armpit. This may require a slight hip shift to create the angle, but never fully release your chair-sit weight during this transition."
+      },
+      {
+        "step_number": 4,
+        "action": "Lock the Gable grip",
+        "description": "Connect both hands in a Gable grip (palm-to-palm, no thumb) at the center of opponent's chest. Position your locked hands at their sternum level, not too high toward neck or too low toward belly."
+      },
+      {
+        "step_number": 5,
+        "action": "Drive and flatten",
+        "description": "Using chest pressure against their upper back combined with your locked grip pulling toward you, drive opponent's shoulders to the mat. Push forward with your hips while pulling with your arms, creating a scooping action that collapses their turtle."
+      },
+      {
+        "step_number": 6,
+        "action": "Transition to Side Control",
+        "description": "As opponent flattens, release the Gable grip and immediately establish crossface with near arm while your far arm controls their hip. Sprawl your legs back and settle your weight perpendicular across their torso in classic Side Control position."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Opponent sits back into you before second underhook establishes",
+        "effectiveness": "High",
+        "your_response": "If they sit back early, immediately transition to back take attempt using the single underhook you have. Their sit-back motion often exposes hooks for back control entry.",
+        "targets_outcome": "Crackhead Control/Top"
+      },
+      {
+        "counter": "Opponent granby rolls as you drive forward",
+        "effectiveness": "Medium",
+        "your_response": "Follow their roll while maintaining the double underhook grip. Their roll will often land you directly in Side Control if you keep chest pressure and follow their rotation.",
+        "targets_outcome": "Side Control/Top"
+      },
+      {
+        "counter": "Opponent posts far arm and creates angle to recover guard",
+        "effectiveness": "Medium",
+        "your_response": "Switch to a single underhook pass on the side where they posted, using their extended arm as leverage for a tighter pass angle. Their post creates the space needed for guard recovery only if you release pressure.",
+        "targets_outcome": "Half Guard/Bottom"
+      },
+      {
+        "counter": "Opponent collapses to hip and inserts knee shield",
+        "effectiveness": "Low",
+        "your_response": "Use the momentum from your already-committed pass to drive through the knee shield into a smash pass. Your forward pressure and underhook control make their knee shield less effective than from standard passing situations.",
+        "targets_outcome": "Half Guard/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Releasing hip pressure while hunting the second underhook",
+        "consequence": "Opponent escapes Crackhead Control by sitting through or standing up, resetting the position entirely and wasting the attacking opportunity",
+        "correction": "Maintain chair-sit weight throughout. Only shift hips slightly to create angle for second underhook - never fully disengage from their lower back until the pass is complete."
+      },
+      {
+        "error": "Threading underhooks too shallow near the elbow",
+        "consequence": "Opponent easily strips the grip by straightening their arm or tucking elbow, leaving you without control and exposed to counters",
+        "correction": "Drive underhooks deep until your hands reach past their shoulder line. Shallow underhooks have no mechanical advantage - depth is essential."
+      },
+      {
+        "error": "Locking hands before both underhooks are fully established",
+        "consequence": "Creates a weak grip configuration that opponent can break by swimming one arm free, and limits your ability to adjust position",
+        "correction": "Patience is critical. Secure each underhook fully before connecting the grip. Rushing the lock creates a false sense of control."
+      },
+      {
+        "error": "Driving straight down instead of forward and perpendicular",
+        "consequence": "Opponent maintains base by posting arms, or rolls with your pressure to recover guard or create scramble opportunities",
+        "correction": "Drive at a 45-degree angle forward and across their spine. The perpendicular pressure prevents rolling escapes while the forward element collapses their arm posts."
+      },
+      {
+        "error": "Keeping head too high during the pass transition",
+        "consequence": "Creates space opponent can use for granby roll or guard recovery, and exposes your neck to potential guillotine attacks if they turn into you",
+        "correction": "Keep head low and tight against their shoulder blade or hip throughout the pass. Your head position should lead the direction of your drive."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Week 1-2",
+        "focus": "Underhook entry mechanics",
+        "description": "Practice threading single underhooks from Crackhead Control with cooperative partner. Focus on depth of underhook and maintaining hip pressure during entry. Drill 50 repetitions per side daily."
+      },
+      {
+        "phase": "Week 3-4",
+        "focus": "Chaining to double underhook",
+        "description": "Add the second underhook and Gable grip sequence. Partner provides light resistance by adjusting arm position. Work on timing the second underhook entry based on partner's defensive reactions."
+      },
+      {
+        "phase": "Week 5-6",
+        "focus": "Drive and flatten completion",
+        "description": "Complete full pass sequences with partner resisting the flattening phase. Practice recognizing when partner commits to defense versus counter-attack. Add the Side Control consolidation to each repetition."
+      },
+      {
+        "phase": "Week 7+",
+        "focus": "Live situational sparring",
+        "description": "Begin rounds from Crackhead Control with full resistance. Track pass completion percentage and identify most common failure points. Integrate pass into turtle attack game alongside back takes and truck entries."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the primary goal of the Double Underhook Pass?",
+        "answer": "The primary goal is to transition from Crackhead Control to Side Control by using bilateral underhook control to flatten the turtle defender. The pass eliminates their defensive base through chest pressure and arm leverage, collapsing the quadruped position and advancing to a dominant controlling position."
+      },
+      {
+        "question": "What position do you start the Double Underhook Pass from?",
+        "answer": "This technique starts from Crackhead Control Top, specifically the chair-sit turtle control position where your hips are loaded on opponent's lower back and you have established initial control. The pass requires the mechanical platform that Crackhead Control provides."
+      },
+      {
+        "question": "What are the key grips needed for the Double Underhook Pass?",
+        "answer": "The key grips are deep bilateral underhooks that thread completely under both of opponent's armpits, with hands connecting in a Gable grip (palm-to-palm, no thumb) at their sternum level. The underhooks must be deep enough that your hands reach past their shoulder line."
+      },
+      {
+        "question": "Your opponent sits back into you as you hunt the second underhook - how do you adjust?",
+        "answer": "Immediately abandon the second underhook and transition to back take using the single underhook you have established. Their sit-back motion actually exposes hook opportunities for back control. Use the underhook as a lever to stay connected while you race to establish hooks before they can flatten."
+      },
+      {
+        "question": "When is the optimal timing window to attempt the Double Underhook Pass?",
+        "answer": "The optimal timing is when opponent commits defensive energy to preventing back takes - specifically when they focus on defending collar ties, seatbelt grips, and neck attacks. This defensive focus leaves the underhook pathways more accessible and their attention divided."
+      },
+      {
+        "question": "Why is it critical to maintain hip pressure throughout the pass?",
+        "answer": "Hip pressure from the chair-sit position is what prevents opponent from executing primary turtle escapes like sitting through, standing up, or granby rolling. Releasing this pressure even momentarily gives them the space needed to reset their base or initiate a counter. The pass relies on keeping them loaded while transitioning your upper body control."
+      },
+      {
+        "question": "What direction should you drive when flattening opponent - straight down or at an angle?",
+        "answer": "Drive at approximately a 45-degree angle forward and perpendicular to their spine. Driving straight down allows them to maintain base by posting arms. The perpendicular element prevents rolling escapes, while the forward element collapses their arm posts. The combination creates an unstoppable flattening force."
+      },
+      {
+        "question": "Your opponent begins a granby roll as you initiate the drive - what is the correct response?",
+        "answer": "Follow their roll while maintaining the double underhook grip and chest pressure. Do not fight against the roll direction. If you stay connected and follow the rotation, their granby often lands you directly in Side Control or even Mount. Releasing the grip to stop the roll is the error that creates scramble opportunities."
+      },
+      {
+        "question": "What specific body position indicates opponent is vulnerable to this pass versus defending effectively?",
+        "answer": "Vulnerability is indicated when opponent's arms are positioned forward defending their neck (chin tucked, hands near collar bone) rather than blocking underhook entries (elbows flared, hands near armpits). Also, when their weight is shifted forward defending back takes rather than centered over their knees, they cannot effectively prevent the underhook threading."
+      },
+      {
+        "question": "How do you chain the Double Underhook Pass with back take attempts in a systematic attack sequence?",
+        "answer": "The chain works bidirectionally. Threaten back take to draw opponent's defensive attention to their neck, then switch to Double Underhook Pass when they overcommit to back defense. Conversely, if the pass stalls due to underhook defense, use their arm elevation to enter back take. The opponent cannot defend both simultaneously, creating a dilemma."
+      }
+    ],
+    "safety_considerations": "The Double Underhook Pass is relatively low-risk when executed properly. Primary injury concerns involve shoulder strain for the bottom player if they attempt to post while you drive through - ensure training partners tap or verbally signal discomfort. Avoid explosive jerking motions with the Gable grip that could cause neck strain. When drilling, establish clear communication protocols for when the bottom player feels their shoulder or neck becoming compromised. The technique should not be forced against strong resistance during learning phases - if the pass isn't working, release and reset rather than muscling through with increased pressure."
+  },
+  "defender": {
+    "name": "Double Underhook Pass Defender",
+    "description": "How to defend against Double Underhook Pass in BJJ. Recognition cues, defensive options, and escape strategies.",
+    "overview": "Defending the Double Underhook Pass requires understanding that the technique follows a predictable mechanical sequence: single underhook entry, second underhook threading, Gable grip lock, and forward drive to flatten. Each phase presents a distinct defensive window, and the defender's success depends on recognizing the attempt early and disrupting the sequence before the attacker consolidates the double underhook grip. The most critical defensive moment occurs during the transition from single to double underhook, where the attacker must momentarily shift their hip pressure to create the threading angle.\n\nThe fundamental defensive strategy centers on preventing the attacker from establishing both underhooks simultaneously. A single underhook from Crackhead Control is manageable and even expected. The danger escalates dramatically when both underhooks connect and the Gable grip locks. Defensive priorities should follow this hierarchy: first, prevent the second underhook by controlling elbow position and maintaining tight arm connection to your ribs; second, if both underhooks establish, prevent the Gable grip from locking by swimming one arm free; third, if the grip locks, immediately initiate a counter before the forward drive begins.\n\nThe defender's positional advantages include proximity to the mat for base, the ability to use their own bodyweight by sitting back into the attacker, and access to granby roll mechanics that can redirect the attacker's forward momentum. Successful defense transforms the attacker's committed forward pressure into a liability by using their own momentum against them, either recovering guard through hip insertion or creating enough scramble chaos to reset to a more neutral turtle position.",
+    "key_principles": [
+      "Defend the second underhook aggressively by keeping elbows pinched tight to your ribs and swimming your arm back inside whenever you feel the threading attempt",
+      "Maintain active hip movement to prevent the attacker from settling their weight and committing to the pass sequence",
+      "Recognize the transition from back attack defense to pass attempt immediately - the shift in the attacker's arm placement from your collar to your armpits signals the change",
+      "Use the attacker's forward commitment against them by timing sit-back escapes or granby rolls to coincide with their drive phase",
+      "Keep at least one arm available for posting and framing rather than committing both arms to neck defense, which opens the underhook pathways"
+    ],
+    "recognition_cues": [
+      "Attacker's hands shift from collar tie, seatbelt, or neck attacks to swimming under your armpits - you feel pressure moving from your upper back and neck area to your ribcage and armpit",
+      "Hip pressure from the chair-sit position intensifies and shifts forward slightly as the attacker adjusts their weight to create the threading angle for the second underhook",
+      "You feel one arm being controlled from underneath with upward lifting pressure against your shoulder, followed by the attacker's opposite hand beginning to probe under your far armpit",
+      "The attacker's chest drops lower against your upper back as they commit to the driving position, and you feel their head lower against your shoulder blade or hip rather than staying upright"
+    ],
+    "defensive_options": [
+      {
+        "action": "Sit back into the attacker during the single-to-double underhook transition by dropping your hips toward them and collapsing your turtle base toward their lap",
+        "when_to_use": "When you feel the first underhook establish and the attacker shifts weight to thread the second - this is the highest-percentage defensive window before the grip consolidates",
+        "targets_outcome": "Crackhead Control/Top",
+        "if_successful": "Resets the position to neutral Crackhead Control where the attacker must restart their attack sequence, and may expose back take opportunities if they lose hip position",
+        "risk": "If poorly timed, you may flatten yourself and make the pass easier. Must maintain base through your posting hand to control the sit-back speed."
+      },
+      {
+        "action": "Execute a granby roll toward the side of the first underhook, using the attacker's forward pressure to fuel the rotation and ending facing them in guard position",
+        "when_to_use": "When the attacker commits to the forward drive with both underhooks locked - their committed weight makes them unable to change direction and you can redirect their momentum",
+        "targets_outcome": "Half Guard/Bottom",
+        "if_successful": "Recover to Half Guard or Closed Guard by using the rotation to insert your legs between you and the attacker, converting a passing situation into a guard position",
+        "risk": "If the attacker follows the roll while maintaining the Gable grip, they may land directly in Side Control. Requires explosive commitment and proper hip rotation timing."
+      },
+      {
+        "action": "Insert near-side knee between yourself and the attacker by collapsing to your hip and threading your knee across their centerline as they attempt to flatten you",
+        "when_to_use": "When the flattening drive begins but before your shoulders reach the mat - the transitional moment where space still exists between your hip and the mat",
+        "targets_outcome": "Half Guard/Bottom",
+        "if_successful": "Establish Half Guard by trapping the attacker's leg with your inserted knee, converting the turtle pass into a Half Guard situation where you have established defensive frames",
+        "risk": "If your knee insertion is too late, the attacker drives through to Side Control. If too early, they may redirect around the knee before committing to the pass."
+      },
+      {
+        "action": "Strip the Gable grip by swimming your near arm free using a circular motion toward the mat, breaking the palm-to-palm connection before the drive phase begins",
+        "when_to_use": "Immediately after you feel both hands connect at your chest in the Gable grip but before the attacker initiates the forward drive - there is a brief window where the grip is not yet loaded",
+        "targets_outcome": "Crackhead Control/Top",
+        "if_successful": "Breaks the pass sequence entirely. Without the connected grip, the attacker cannot generate sufficient leverage to flatten you and must reset to single underhook or abandon the pass attempt",
+        "risk": "Swimming the arm may briefly expose your back if the attacker transitions to a back take instead of re-establishing the grip. Must immediately return elbow to ribs after stripping."
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Crackhead Control/Top",
+        "how": "Disrupt the pass early by sitting back into the attacker during the underhook threading phase or by stripping the Gable grip before the drive. This resets to neutral Crackhead Control where the attacker must restart their sequence. Maintain active hip movement and tight elbows after the reset to prevent immediate re-entry."
+      },
+      {
+        "outcome": "Half Guard/Bottom",
+        "how": "If the pass progresses past the grip establishment phase, immediately insert your near-side knee as a frame during the flattening drive. Time the knee insertion for the moment your hip contacts the mat, threading your shin across the attacker's centerline and locking your legs around their near leg. This converts a turtle pass into a Half Guard recovery where you have legitimate offensive options."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Committing both arms to defending the neck while leaving armpits completely unprotected",
+        "consequence": "Creates clear underhook pathways on both sides simultaneously, allowing the attacker to thread both underhooks rapidly without resistance and lock the Gable grip before you can react",
+        "correction": "Dedicate one arm to neck defense and the other to elbow-pinch armpit defense. Alternate which arm defends which threat based on which side the attacker threatens first. Your elbow pinched to your ribs blocks the underhook entry far more effectively than any grip fight."
+      },
+      {
+        "error": "Staying completely static in turtle hoping the attacker will abandon the pass",
+        "consequence": "Gives the attacker unlimited time to methodically thread underhooks, establish the grip, and execute a controlled drive without any timing pressure or disruption",
+        "correction": "Maintain constant hip movement and weight shifts throughout the defensive sequence. Even small circles and directional changes force the attacker to continuously adjust their threading angle, buying time and creating defensive windows."
+      },
+      {
+        "error": "Attempting to stand up after the double underhook grip is already locked",
+        "consequence": "The Gable grip configuration gives the attacker enormous leverage to pull you back down. Standing attempts with a locked Gable grip underneath load your shoulders dangerously and often result in being slammed or driven directly to your back in an even worse position",
+        "correction": "If the grip is locked, commit to granby roll or knee insertion rather than attempting to stand. Standing is only viable before the double underhook establishes. Once locked, your defensive options are rotational escapes and guard recovery, not elevation."
+      },
+      {
+        "error": "Granby rolling too early before the attacker commits their weight forward",
+        "consequence": "The attacker has not yet loaded their weight into the drive, so they can easily follow your rotation, maintain the grip, and end up in Side Control with zero resistance",
+        "correction": "Wait for the attacker to begin the forward drive phase before initiating the granby. You need their committed forward momentum to fuel the escape. The roll should redirect their existing force, not create movement against a balanced opponent."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the most critical defensive window during the Double Underhook Pass sequence?",
+        "answer": "The most critical window is during the transition from single to double underhook, when the attacker must shift their hip pressure to create the threading angle. At this moment, the attacker has only one underhook established and their weight distribution is temporarily compromised. Defensive actions like sitting back or stripping the first underhook are most effective here because the attacker cannot simultaneously maintain hip pressure, control the first underhook, and thread the second."
+      },
+      {
+        "question": "You feel the attacker's Gable grip lock at your sternum with both underhooks deep - what is your immediate priority?",
+        "answer": "Immediately attempt to swim one arm free using a circular motion toward the mat to break the Gable grip before the forward drive loads it. If the grip strip fails, instantly transition to granby roll preparation by shifting your hips to the side and preparing to rotate with their drive. Do not waste time trying to stand or push the attacker off - the locked grip makes both of those options ineffective and dangerous. Your window before the drive begins is approximately one to two seconds."
+      },
+      {
+        "question": "How do you differentiate between the attacker preparing a back take versus setting up the Double Underhook Pass?",
+        "answer": "Back take setups involve the attacker's hands working toward your collar, neck, or seatbelt position on your upper chest and shoulder area. The Double Underhook Pass setup is signaled by the attacker's hands diving under your armpits with upward lifting pressure against your shoulder from below. The tactile difference is unmistakable: back takes attack from above and around your shoulders, while the pass attacks from underneath through your armpit space. Additionally, back take setups typically involve the attacker trying to insert hooks, while the pass setup keeps their legs behind you in the chair-sit."
+      },
+      {
+        "question": "Your opponent drives forward with the locked Gable grip and your shoulders begin approaching the mat - what is your last-resort defensive option?",
+        "answer": "Insert your near-side knee between yourself and the attacker as your hip contacts the mat. Thread your shin across their centerline and immediately lock your legs around their near leg to establish Half Guard. This must happen during the flattening transition before your shoulders are fully pinned. Once in Half Guard, immediately establish a knee shield or underhook to prevent them from simply completing the pass through the half guard position. This is the final checkpoint before Side Control."
+      },
+      {
+        "question": "Why is elbow position more important than grip fighting when defending the underhook entries?",
+        "answer": "Your elbow pinched tight to your ribs creates a physical barrier that blocks the underhook pathway entirely. No amount of grip fighting can thread an underhook through a closed armpit. Grip fighting with your hands means your arms are extended and active, which paradoxically opens the armpit space the attacker needs. The elbow-to-rib connection is a structural defense that requires minimal energy to maintain, while grip fighting is a dynamic battle that fatigues your arms and creates timing windows for the attacker to exploit between your grip breaks."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Week 1-2",
+        "focus": "Recognition and underhook prevention",
+        "description": "Partner drills single underhook threading from Crackhead Control at 30% speed. Defender focuses on recognizing the tactile cues of underhook entry and practicing elbow pinch defense. Track how often the attacker successfully threads the first underhook. Goal is recognition within one second of the attempt beginning."
+      },
+      {
+        "phase": "Week 3-4",
+        "focus": "Sit-back timing and grip strip mechanics",
+        "description": "Partner attempts full double underhook sequence at 50% speed. Defender practices timing the sit-back escape during the single-to-double transition window, and drilling the circular arm swim to strip the Gable grip. Partner provides feedback on timing accuracy. Alternate between both defensive options each round."
+      },
+      {
+        "phase": "Week 5-6",
+        "focus": "Granby roll and guard recovery integration",
+        "description": "Partner completes the full pass sequence including the forward drive at 70% resistance. Defender practices granby roll escapes timed to the drive phase and knee insertion for Half Guard recovery. Focus on reading which escape is available based on how far the pass has progressed. Chain defensive options together when the first attempt fails."
+      },
+      {
+        "phase": "Week 7+",
+        "focus": "Live positional sparring from Crackhead Control",
+        "description": "Full resistance rounds starting from Crackhead Control. Defender scores points for successful guard recovery, neutral reset, or position improvement. Track defensive success rate and identify which phase of the pass most commonly succeeds against you. Adjust defensive emphasis based on your specific failure points."
+      }
+    ]
+  },
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Single Underhook to Body Lock Pass",
+      "description": "When opponent defends the second underhook aggressively, abandon the double underhook and instead slide to a body lock configuration. The single underhook becomes a far-side underhook while you wrap their waist, transitioning to a body lock pass to side control.",
+      "when_to_use": "When opponent successfully defends second underhook entry for extended period"
+    },
+    {
+      "variant_name": "Double Underhook to North-South",
+      "description": "Instead of driving perpendicular for Side Control, maintain the Gable grip and walk your hips around toward their head. The double underhook becomes a powerful control for North-South entry where you can threaten chokes or continue to Side Control from there.",
+      "when_to_use": "When opponent's defensive structure makes perpendicular Side Control difficult"
+    },
+    {
+      "variant_name": "Gi Double Underhook with Lapel Feed",
+      "description": "In gi training, feed opponent's far lapel under their armpit to your underhooking hand. This creates an even tighter configuration and prevents arm escape. The lapel grip substitutes for the Gable grip with superior control.",
+      "when_to_use": "Gi training when opponent has loose lapels accessible"
+    }
+  ],
+  "position_integration": "The Double Underhook Pass represents one of three primary pathways from Crackhead Control: back take, truck entry, and this pass to Side Control. It provides a systematic option when back attacks are heavily defended but the opponent remains committed to turtle. The pass integrates into the modern turtle attack system that emphasizes position acquisition over extended back attack sequences. From the resulting Side Control, standard submission chains become available including Americana, kimura, and arm triangle. Understanding when to select this pass versus back take attempts is essential for efficient Crackhead Control offense. The pass is particularly valuable in competition where points for Side Control (through guard pass scoring) may be strategically important, and where the risk of back attack scrambles is less desirable than guaranteed positional advancement.",
+  "conditions": [
+    "Crackhead Control established with stable chair-sit hip pressure",
+    "Opponent committed to turtle defense rather than actively escaping",
+    "At least one underhook pathway accessible through opponent's armpit",
+    "Opponent's defensive attention directed toward back take prevention"
+  ]
+}

@@ -1,0 +1,398 @@
+{
+  "name": "Hip Rotation Defense",
+  "description": "Master Hip Rotation Defense from Straight Ankle Lock Control. Essential escape technique using hip movement to neutralize ankle lock pressure. Success: 30-65%.",
+  "tags": [
+    "bjj",
+    "leg lock defense",
+    "ankle lock escape",
+    "defensive transition",
+    "hip movement",
+    "leg entanglement"
+  ],
+  "from_position": "Straight Ankle Lock Control/Top",
+  "outcomes": [
+    {
+      "to": "Open Guard/Top",
+      "probability": 50,
+      "result": "success"
+    },
+    {
+      "to": "Straight Ankle Lock Control/Top",
+      "probability": 35,
+      "result": "failure"
+    },
+    {
+      "to": "Inside Ashi-Garami/Bottom",
+      "probability": 15,
+      "result": "counter"
+    }
+  ],
+  "success_rate": 58,
+  "overview": "Hip Rotation Defense is the foundational defensive mechanism for neutralizing straight ankle lock attacks. When caught in ankle lock control, the defender's hip mobility represents their primary defensive resource. By rotating the hip in the correct direction, the defender reduces the attacker's mechanical advantage while creating angles that facilitate foot extraction or guard recovery.\n\nThe technique operates on the principle that ankle lock submissions require the attacker to maintain perpendicular positioning and prevent hip rotation. When the defender successfully rotates, the angle of attack changes dramatically, reducing pressure on the Achilles tendon and ankle joint. The direction of rotation is critical and must be chosen based on the attacker's leg configuration to avoid facilitating transitions to more dangerous positions like inside or outside ashi garami.\n\nStrategically, hip rotation defense serves as both an immediate pressure relief mechanism and a gateway to multiple escape sequences. Successful rotation creates space to extract the trapped knee, establish defensive frames, or transition to counter-attacks. The technique must be executed with controlled precision rather than explosive panic, as wild rotation often opens pathways the attacker has specifically trained to exploit.",
+  "related_content": [
+    {
+      "name": "Straight Ankle Lock Control",
+      "relationship": "Starting position this defense addresses"
+    },
+    {
+      "name": "Ashi Garami Escape",
+      "relationship": "Related defensive sequence for leg entanglements"
+    },
+    {
+      "name": "Inside Ashi-Garami",
+      "relationship": "Dangerous transition hip rotation must deny"
+    },
+    {
+      "name": "Outside Ashi-Garami",
+      "relationship": "Alternative dangerous transition to prevent"
+    },
+    {
+      "name": "50-50 Guard",
+      "relationship": "Counter-entanglement option during rotation"
+    },
+    {
+      "name": "Open Guard",
+      "relationship": "Primary recovery position after successful defense"
+    },
+    {
+      "name": "Frame and Distance Creation",
+      "relationship": "Complementary defensive technique"
+    },
+    {
+      "name": "Counter Entry to Opponent's Leg",
+      "relationship": "Counter-attack option during defense"
+    },
+    {
+      "name": "Knee Extraction",
+      "relationship": "Follow-up extraction technique after rotation creates space"
+    }
+  ],
+  "conditions": [
+    "Opponent has established straight ankle lock control with grip on your ankle and Achilles",
+    "You retain some degree of hip mobility and are not fully pinned by a completed leg triangle",
+    "Your trapped knee can be bent to shorten the lever arm and prepare for extraction",
+    "Your free leg and at least one arm are available for framing and grip fighting"
+  ],
+  "attacker": {
+    "name": "Hip Rotation Defense Attacker",
+    "description": "How to execute Hip Rotation Defense in BJJ. Attacking perspective with setup, execution steps, and counters for escaping ankle lock control.",
+    "overview": "As the person executing Hip Rotation Defense, you are caught in your opponent's straight ankle lock control and must use precise hip rotation to neutralize their submission threat and recover to a safe position. Your hip mobility is your primary weapon against ankle lock mechanics. The attacker's perpendicular alignment and grip on your ankle create a mechanical advantage that depends on preventing your hip from changing angle. By rotating correctly, you collapse that mechanical advantage and open extraction pathways.\n\nThe execution demands reading your opponent's leg configuration before committing to a rotation direction. Rotating the wrong way feeds directly into their transition game, advancing them to inside or outside ashi garami where heel hooks become available. Correct direction assessment followed by controlled rotation, simultaneous grip fighting, and immediate follow-through to knee extraction and guard recovery form the complete defensive sequence. Every component must work together - rotation without grip fighting fails, grip fighting without rotation fails, and either without follow-through to guard recovery leaves you in the same danger.",
+    "key_principles": [
+      "Hip rotation direction is determined by attacker's leg configuration - rotate away from their control path to deny their preferred transition",
+      "Keep the trapped knee bent throughout rotation to maintain structural integrity and preserve extraction options",
+      "Rotation must be controlled and deliberate, not explosive and panicked - systematic movement defeats athletic scrambling",
+      "Combine hip rotation with active two-on-one grip fighting on the attacker's ankle control targeting their thumb line",
+      "Use the free leg to create blocking frames against the attacker's hip, preventing them from following your rotation",
+      "Rotation alone is insufficient - must immediately follow with knee extraction, frame establishment, and guard recovery"
+    ],
+    "setup_requirements": [
+      "Opponent has established straight ankle lock control with grip on your ankle and Achilles tendon",
+      "You maintain some degree of hip mobility and are not completely pinned by a fully consolidated leg triangle",
+      "Your trapped knee is bent or can be bent during execution to shorten the lever arm",
+      "You have identified which direction to rotate based on attacker's leg positioning and transition intentions",
+      "Your arms are free to create frames and fight grips during rotation"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Assess attacker's configuration",
+        "description": "Quickly identify attacker's leg positioning around your trapped leg. Determine if they have inside position, outside position, or are attempting to establish a leg triangle. This assessment dictates rotation direction - rotate in the direction that complicates their transition, not simply the most comfortable direction."
+      },
+      {
+        "step_number": 2,
+        "action": "Bend trapped knee",
+        "description": "Pull your trapped knee toward your chest as much as the attacker's control allows. This shortens the lever arm they can apply pressure through, reduces submission pressure on your ankle joint, and prepares the leg for extraction during the rotation phase."
+      },
+      {
+        "step_number": 3,
+        "action": "Initiate hip rotation",
+        "description": "Begin rotating your hip in the direction that complicates the attacker's transition attempts. If rotating away would give them inside ashi, rotate toward them. If rotating toward would give outside ashi, rotate away. Move the hip as a unified structure with your torso to maximize the angle change."
+      },
+      {
+        "step_number": 4,
+        "action": "Create blocking frames with free leg",
+        "description": "Use your free leg to push against the attacker's hip or thigh, preventing them from following your rotation and maintaining their perpendicular angle. Your hands should simultaneously begin fighting their grip on your ankle, targeting the thumb-line with two-on-one control to systematically break their hold."
+      },
+      {
+        "step_number": 5,
+        "action": "Extract trapped knee",
+        "description": "As rotation creates space between your ankle and attacker's body, pull your bent knee sharply toward your chest while continuing to push with frames. The combination of changed angle from rotation and active knee extraction loosens their ankle grip and reduces submission leverage significantly."
+      },
+      {
+        "step_number": 6,
+        "action": "Recover guard or stand",
+        "description": "Once the ankle is extracted or grip is sufficiently broken, immediately establish defensive guard position by inserting your free leg as a hook or frame between you and the attacker. Alternatively, if space permits, use the momentum to post your free foot and drive to standing, disengaging completely from the leg entanglement."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Attacker follows rotation and transitions to inside ashi garami",
+        "effectiveness": "High",
+        "your_response": "If you feel them threading their leg through during your rotation, immediately reverse direction and establish frames on their hip to prevent the transition. Consider counter-entangling their far leg for 50-50.",
+        "targets_outcome": "Inside Ashi-Garami/Bottom"
+      },
+      {
+        "counter": "Attacker tightens leg triangle to prevent hip rotation entirely",
+        "effectiveness": "High",
+        "your_response": "Address the leg control before attempting rotation. Use your free leg to kick down on their bottom leg, breaking the triangle configuration. Only then initiate hip rotation.",
+        "targets_outcome": "Straight Ankle Lock Control/Top"
+      },
+      {
+        "counter": "Attacker commits to rapid finishing attempt during your rotation",
+        "effectiveness": "Medium",
+        "your_response": "Their commitment to the finish often sacrifices leg control. Continue rotation while accelerating knee extraction. Their finishing posture typically opens better escape angles.",
+        "targets_outcome": "Straight Ankle Lock Control/Top"
+      },
+      {
+        "counter": "Attacker transitions to outside ashi when you rotate toward them",
+        "effectiveness": "Medium",
+        "your_response": "Recognize their hip following yours and immediately reverse rotation while posting your free foot on their hip to create separation and prevent their leg from getting outside position.",
+        "targets_outcome": "Inside Ashi-Garami/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Rotating in the direction that facilitates attacker's desired transition",
+        "consequence": "Your defensive movement actually helps the attacker advance to a more dominant position like inside or outside ashi garami where heel hooks become available",
+        "correction": "Before rotating, identify attacker's leg configuration and transition intentions. Rotate in the direction that complicates their next position, not the direction that feels most natural"
+      },
+      {
+        "error": "Allowing the trapped leg to straighten fully during rotation",
+        "consequence": "Straight leg maximizes attacker's leverage on the ankle, dramatically increases injury risk, and eliminates your ability to use knee extraction as an escape mechanism",
+        "correction": "Maintain bent knee throughout rotation. Pull knee toward chest continuously while rotating hip. The bent knee is your structural protection and extraction tool"
+      },
+      {
+        "error": "Explosive panicked rotation without proper direction assessment",
+        "consequence": "Wild uncontrolled rotation opens specific transition pathways attackers train to exploit. Panic-driven movement accelerates energy expenditure while often worsening position",
+        "correction": "Execute controlled deliberate rotation with clear directional intent. Systematic technical movement outperforms athletic scrambling in leg entanglement escapes"
+      },
+      {
+        "error": "Focusing only on hip rotation while ignoring grip fighting",
+        "consequence": "Attacker maintains strong ankle grip throughout rotation, meaning even successful rotation fails to relieve submission pressure or create extraction opportunity",
+        "correction": "Combine hip rotation with active two-on-one grip fighting targeting the attacker's thumb line. Rotation and grip breaking must work together systematically"
+      },
+      {
+        "error": "Stopping after initial rotation without following through to extraction or guard recovery",
+        "consequence": "Partial rotation without follow-through allows attacker to readjust their angle and re-establish optimal positioning, often achieving better control than before your escape attempt",
+        "correction": "Treat rotation as the first phase of a complete sequence. Immediately follow rotation with knee extraction, frame establishment, and guard recovery. Never pause mid-escape"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Week 1-2",
+        "focus": "Rotation direction recognition",
+        "description": "Partner establishes straight ankle lock control in various leg configurations. Defender identifies correct rotation direction without executing, verbally stating which way to rotate and why. Build pattern recognition before adding movement."
+      },
+      {
+        "phase": "Week 3-4",
+        "focus": "Rotation mechanics with light resistance",
+        "description": "Execute full hip rotation sequence with partner providing 30-40% resistance. Focus on maintaining bent knee throughout, combining rotation with grip fighting, and completing the sequence to guard recovery. Partner allows escape but requires correct technique."
+      },
+      {
+        "phase": "Week 5-6",
+        "focus": "Counter-transition recognition and adjustment",
+        "description": "Partner attempts to follow rotation with transitions to inside or outside ashi. Defender must recognize the counter and adjust rotation direction or implement blocking frames. Emphasis on reading and reacting to attacker's movement."
+      },
+      {
+        "phase": "Week 7+",
+        "focus": "Full resistance integration",
+        "description": "Positional sparring starting from straight ankle lock control. Attacker attempts to finish or advance position while defender implements hip rotation defense under full competitive resistance. Track escape success rate and identify remaining technical gaps."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the primary goal of Hip Rotation Defense?",
+        "answer": "The primary goal is to change the angle of attack by rotating your hip, which reduces the attacker's mechanical advantage on your ankle while creating opportunities for foot extraction, guard recovery, or standing escape. Hip rotation addresses the fundamental perpendicular alignment that makes ankle locks effective."
+      },
+      {
+        "question": "How do you determine which direction to rotate your hip?",
+        "answer": "Rotation direction is determined by the attacker's leg configuration and their desired transition. Rotate in the direction that complicates their next position. If rotating away would give them inside ashi, rotate toward them. If rotating toward would give outside ashi, rotate away. The key is understanding what position they want and choosing the opposite rotation."
+      },
+      {
+        "question": "Why is keeping your trapped knee bent critical during hip rotation?",
+        "answer": "A bent knee maintains structural protection for your ankle joint by shortening the lever arm the attacker can apply pressure through. It preserves your ability to extract the knee toward your chest as part of the escape sequence. Full leg extension maximizes attacker leverage, increases injury risk, and eliminates extraction as an escape option."
+      },
+      {
+        "question": "Your opponent has tight inside leg positioning - if you rotate away, what happens?",
+        "answer": "Rotating away from an attacker with inside leg positioning opens a direct pathway for them to transition to inside ashi garami. Their inside leg is already positioned to thread through, and your rotation away facilitates this by creating the exact angle they need. In this scenario, rotate toward them instead to deny the inside ashi entry."
+      },
+      {
+        "question": "What should you do if the attacker follows your rotation and maintains their angle?",
+        "answer": "If the attacker successfully follows your initial rotation, sharply reverse your rotation direction while they are committed to following. Their momentum in one direction creates vulnerability when you reverse. Simultaneously establish blocking frames with your free leg on their hip to prevent them from continuing to follow while you extract your knee."
+      },
+      {
+        "question": "Why must hip rotation be combined with grip fighting rather than executed in isolation?",
+        "answer": "Rotation alone changes the angle but does not address the attacker's grip control on your ankle. Even successful rotation fails if they maintain strong ankle grip because they can simply readjust their body to the new angle. Two-on-one grip fighting targeting their thumb line while rotating ensures that angle change translates to actual pressure relief and extraction opportunity."
+      },
+      {
+        "question": "What is the optimal timing window for initiating hip rotation defense?",
+        "answer": "Initiate within 2-5 seconds of the attacker establishing ankle control, before they complete leg triangle control and settle their grips. Every passing second allows improved control consolidation. Once full leg configuration and deep grips are established, hip rotation becomes significantly harder. Early aggressive action dramatically improves success probability."
+      },
+      {
+        "question": "How do you use your free leg during hip rotation defense?",
+        "answer": "Your free leg serves multiple functions: it pushes against the attacker's hip or thigh to create blocking frames that prevent them from following your rotation, it can kick down on their bottom leg to break leg triangle configurations before rotating, and after extraction it establishes your first guard recovery hook or frame. Never leave it passive during the escape sequence."
+      },
+      {
+        "question": "What follow-up action must immediately accompany successful hip rotation?",
+        "answer": "Hip rotation must immediately flow into knee extraction and guard recovery. Pull your bent knee sharply toward your chest while continuing frames and grip fighting, then establish defensive guard position with hooks or frames. Rotation alone is incomplete - stopping after rotation allows the attacker to readjust and re-establish optimal control from the new angle."
+      },
+      {
+        "question": "Your opponent commits heavily to the ankle lock finish during your rotation attempt - how does this change your approach?",
+        "answer": "When the attacker over-commits to the finish, they typically sacrifice leg control and positional stability to maximize breaking pressure. This creates a window where continued rotation combined with accelerated knee extraction becomes higher percentage because their legs are less engaged in preventing your movement. Their finishing posture opens better escape angles that would not exist under balanced control."
+      },
+      {
+        "question": "What grip target on the attacker's hands gives you the highest probability of breaking their ankle control?",
+        "answer": "Target the attacker's thumb line with two-on-one grip fighting. The thumb side of their grip is the weakest structural point in any hand configuration. Use both hands to peel their controlling hand at the thumb while rotating your hip to compound the grip-breaking force. Breaking at the thumb line requires significantly less strength than trying to pull your foot straight out of their grip."
+      },
+      {
+        "question": "When is the rotation-to-50-50 counter-entanglement variant preferred over standard rotation to guard recovery?",
+        "answer": "Use the 50-50 counter-entanglement when direct foot extraction appears blocked because the attacker maintains strong grip despite your rotation, but their far leg is accessible. Threading your free leg toward their far leg during rotation establishes symmetrical 50-50 position, which neutralizes their offensive advantage by creating mutual threat. This is preferred when pure escape is failing but counter-attacking is available."
+      }
+    ],
+    "safety_considerations": "Hip rotation defense involves controlled movement under submission threat, requiring awareness of ankle joint vulnerability. During training, partners must communicate clearly about pressure levels - the defender should tap immediately if rotation creates additional pressure rather than relief, as this indicates incorrect rotation direction. Never attempt to power through by rotating against a fully locked submission. When drilling, start with loose ankle control and gradually increase grip security as the defender develops proper rotation mechanics. Avoid explosive uncontrolled rotation that could result in the attacker inadvertently completing the submission. If you feel sharp pain in the ankle, Achilles tendon, or knee during rotation, tap immediately rather than continuing the escape attempt."
+  },
+  "defender": {
+    "name": "Hip Rotation Defense Defender",
+    "description": "How to counter Hip Rotation Defense in BJJ from ankle lock control. Recognition cues, countering strategies, and transitions to maintain or advance leg entanglement.",
+    "overview": "As the defender against Hip Rotation Defense, you are the ankle lock attacker who must prevent your opponent from using hip rotation to neutralize your straight ankle lock control. Your objective is to maintain perpendicular alignment, prevent productive rotation, and either finish the ankle lock or transition to a more dominant leg entanglement when they attempt to rotate. Understanding the mechanics of hip rotation defense allows you to anticipate your opponent's escape direction and position your legs to exploit their movement.\n\nThe critical defensive skill is reading which direction your opponent will rotate and preparing your leg configuration to capitalize on that movement. Every rotation direction opens a specific transition pathway. Hip rotation away from you exposes inside ashi garami entries. Hip rotation toward you opens outside ashi garami. Your ability to follow their rotation while maintaining ankle control or smoothly transitioning to a better entanglement position determines whether their escape attempt becomes your advancement opportunity. The best ankle lock attackers treat hip rotation defense not as a threat but as a trigger for systematic position advancement.",
+    "key_principles": [
+      "Maintain perpendicular alignment to the opponent's body throughout - this preserves ankle lock mechanics and limits their rotation effectiveness",
+      "Consolidate leg triangle control early to restrict hip mobility before they can initiate rotation",
+      "Read the opponent's rotation direction to select the appropriate transition - away opens inside ashi, toward opens outside ashi",
+      "Follow their rotation with your hips rather than fighting it statically - dynamic control defeats defensive movement",
+      "Tighten ankle grip when you feel rotation beginning, particularly deepening the forearm position against the Achilles tendon",
+      "Use their rotation momentum to advance to more dominant positions rather than simply trying to hold the original control"
+    ],
+    "recognition_cues": [
+      "Opponent begins bending their trapped knee and pulling it toward their chest, shortening the lever arm - this is the preparatory movement before rotation",
+      "Opponent's free leg starts posting on your hip or thigh, establishing a frame to create separation and blocking force for their rotation",
+      "Opponent's torso begins twisting as their hips shift off-center from your perpendicular alignment, indicating committed rotation is imminent",
+      "Opponent initiates two-on-one grip fighting against your ankle control hand, targeting your thumb line to break the hold during rotation",
+      "Opponent's breathing pattern changes to deliberate exhale as they prepare to execute a coordinated escape sequence"
+    ],
+    "defensive_options": [
+      {
+        "action": "Follow rotation toward inside ashi garami by threading your inside leg through as they rotate away from you",
+        "when_to_use": "When opponent rotates their hip away from you, creating the angle needed for inside leg threading",
+        "targets_outcome": "Inside Ashi-Garami/Bottom",
+        "if_successful": "You advance to inside ashi garami with superior heel control and access to heel hook attacks, converting their escape into your positional advancement",
+        "risk": "If they reverse rotation direction quickly, you may end up with your leg extended and vulnerable to counter-entanglement"
+      },
+      {
+        "action": "Tighten leg triangle and deepen ankle grip to prevent rotation entirely, then commit to finishing the ankle lock",
+        "when_to_use": "Early in their rotation attempt when they have not yet generated significant angle change and your leg control is still consolidated",
+        "targets_outcome": "Straight Ankle Lock Control/Top",
+        "if_successful": "You shut down the escape attempt completely and maintain original control position with potentially tighter grips, forcing them to find a different escape path",
+        "risk": "If they have already generated significant rotation, attempting to hold static position burns energy without preventing the angle change"
+      },
+      {
+        "action": "Follow rotation toward outside ashi garami by transitioning your outside leg to establish outside position as they rotate toward you",
+        "when_to_use": "When opponent rotates their hip toward you, creating the angle that exposes their far hip for outside leg positioning",
+        "targets_outcome": "Inside Ashi-Garami/Bottom",
+        "if_successful": "You advance to outside ashi garami where you maintain leg attack threats from a different and potentially superior angle of control",
+        "risk": "Their rotation toward you may allow them to establish frames on your upper body and begin working to a passing or standing position"
+      },
+      {
+        "action": "Commit to rapid submission finish by arching back and extending hips while their rotation is mid-execution",
+        "when_to_use": "When their rotation has partially succeeded but you still maintain strong ankle grip and their knee is not fully bent",
+        "targets_outcome": "Straight Ankle Lock Control/Top",
+        "if_successful": "You finish the ankle lock submission before they complete the escape, as their rotation focus may distract from defending the actual finish",
+        "risk": "Over-committing to the finish sacrifices leg control, and if the submission fails, their rotation succeeds with you in a compromised position"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Straight Ankle Lock Control/Top",
+        "how": "Consolidate leg triangle control before they initiate rotation by crossing your ankles around their thigh and deepening your forearm against their Achilles tendon. When you feel preparatory knee bending, immediately tighten your entire control structure - squeeze legs, deepen grip, and pull their heel tighter to your chest. Early consolidation prevents rotation from being mechanically possible."
+      },
+      {
+        "outcome": "Inside Ashi-Garami/Bottom",
+        "how": "When you recognize them rotating away from you, immediately follow their rotation by threading your inside leg across their hip and transitioning to inside ashi garami. Their rotation away creates the exact angle you need for inside position. Maintain heel control throughout the transition and use their defensive momentum to advance to a position where heel hooks become available."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Holding static position and fighting rotation with pure strength rather than following their movement",
+        "consequence": "Burns energy rapidly while the opponent's controlled rotation gradually overcomes your grip strength. Static resistance against dynamic movement is energy-inefficient and ultimately fails against technically proficient rotation",
+        "correction": "Instead of resisting rotation, follow it. Move your hips with their rotation while maintaining ankle grip, converting their escape attempt into a transition to inside or outside ashi garami depending on their rotation direction"
+      },
+      {
+        "error": "Failing to consolidate leg triangle control before the opponent begins their escape sequence",
+        "consequence": "Without completed leg triangle, the opponent retains full hip mobility and can rotate freely, making hip rotation defense much higher percentage and reducing your ability to maintain perpendicular alignment",
+        "correction": "Prioritize completing leg triangle control within the first 3-5 seconds of establishing ankle lock position. Cross ankles around their thigh or establish figure-four leg configuration before focusing on the submission finish"
+      },
+      {
+        "error": "Releasing ankle grip to address the opponent's frames and free leg activity during rotation",
+        "consequence": "Once ankle grip is released even momentarily, the opponent completes extraction and recovers guard immediately. The ankle grip is your primary control point and cannot be abandoned",
+        "correction": "Maintain ankle grip as non-negotiable priority throughout their escape attempt. Address their frames by tightening leg control and following rotation rather than using your hands to fight their frames"
+      },
+      {
+        "error": "Attempting to finish the ankle lock at the exact moment the opponent begins aggressive rotation",
+        "consequence": "Committing to the finish during active rotation often results in losing leg control because your attention shifts from control to submission. The opponent uses your finishing commitment to complete their rotation and extract",
+        "correction": "When facing active rotation, prioritize position maintenance or transition advancement first. Only commit to the finish when rotation is controlled and your legs are preventing further movement"
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is your primary objective when you feel your opponent beginning to rotate their hip during ankle lock control?",
+        "answer": "Your primary objective is to determine their rotation direction and immediately choose between maintaining control by tightening your leg triangle or following their rotation to transition to a more dominant leg entanglement. Rotation away from you opens inside ashi garami, and rotation toward you opens outside ashi garami. Treating their escape as a transition trigger rather than purely a threat to resist converts defensive situations into offensive advancement."
+      },
+      {
+        "question": "Your opponent starts bending their trapped knee and posting their free foot on your hip - what does this sequence indicate?",
+        "answer": "This is the preparatory sequence for hip rotation defense. The bent knee shortens the lever arm to reduce your ankle lock pressure, while the foot on your hip creates the blocking frame they need to prevent you from following their rotation. You must address both simultaneously: tighten your leg wrap to prevent knee bending and use your free hand or leg adjustment to clear their posted foot before they can execute the rotation."
+      },
+      {
+        "question": "Why is following the opponent's rotation more effective than resisting it statically?",
+        "answer": "Static resistance against dynamic hip rotation is energy-inefficient and eventually fails against technically proficient escapers. Following their rotation maintains your connection to their leg while converting their movement into transition opportunities. When you follow rotation, their escape energy becomes your advancement energy. Following opens inside or outside ashi garami pathways that would not exist if they remained stationary in your original control."
+      },
+      {
+        "question": "How do you prevent the opponent's two-on-one grip fighting from breaking your ankle control during their rotation?",
+        "answer": "Deepen your forearm position against their Achilles tendon and pull their heel tighter to your chest so that your grip uses skeletal structure rather than grip strength alone. Pin their heel against your sternum using your entire upper body as the anchor point. When they target your thumb line with two-on-one, rotate your wrist to present a stronger grip angle. Simultaneously tighten your leg control to compound the number of problems they must solve simultaneously."
+      },
+      {
+        "question": "What timing window do you have to consolidate leg control before hip rotation defense becomes highly effective?",
+        "answer": "You have approximately 3-5 seconds after establishing initial ankle control to consolidate your leg triangle or figure-four leg configuration. Once completed, hip rotation becomes mechanically restricted and the opponent must address your leg control before rotation is possible. If you spend this window focusing solely on the submission finish without consolidating leg control, you create the exact conditions where hip rotation defense succeeds at high percentage."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Week 1-2",
+        "focus": "Rotation direction reading",
+        "description": "From established ankle lock control, partner executes hip rotation in both directions at slow speed. Practice identifying rotation direction and verbally calling out the appropriate transition (inside ashi for rotation away, outside ashi for rotation toward). Build pattern recognition before adding physical responses."
+      },
+      {
+        "phase": "Week 3-4",
+        "focus": "Following rotation to transitions",
+        "description": "Partner executes hip rotation at 40-50% speed while you practice following their movement to transition to inside or outside ashi garami. Focus on maintaining ankle grip throughout the transition and arriving in the new position with secure control. Partner provides feedback on grip maintenance and transition smoothness."
+      },
+      {
+        "phase": "Week 5-6",
+        "focus": "Prevention and early shut-down",
+        "description": "Practice consolidating leg triangle control within the first 3-5 seconds of establishing ankle lock position. Partner attempts hip rotation at increasing resistance levels while you work to prevent rotation through early leg consolidation and grip deepening. Track how quickly you can shut down rotation attempts."
+      },
+      {
+        "phase": "Week 7+",
+        "focus": "Full resistance positional sparring",
+        "description": "Positional sparring from straight ankle lock control where the bottom player uses all available escapes including hip rotation defense. Top player practices reading rotation attempts, following to transitions, and finishing submissions during escape windows. Track conversion rate from opponent's rotation attempts to your position advancements."
+      }
+    ]
+  },
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Rotation to 50-50 Counter",
+      "description": "Instead of rotating purely for escape, rotate while simultaneously targeting the attacker's far leg for counter-entanglement. As you rotate, thread your free leg toward their far leg to establish symmetrical 50-50 position, neutralizing their attack.",
+      "when_to_use": "When direct extraction seems blocked but attacker's far leg is accessible during your rotation"
+    },
+    {
+      "variant_name": "Rotation to Standing Escape",
+      "description": "Execute hip rotation with the specific intent of creating enough space to post your free foot and drive to standing. The rotation breaks their perpendicular angle while the stand disengages from leg entanglement entirely.",
+      "when_to_use": "When attacker's upper body control is weak and space exists to establish posting base during rotation"
+    },
+    {
+      "variant_name": "Reverse Rotation Recovery",
+      "description": "Begin rotating in one direction, feel attacker following your rotation to maintain angle, then sharply reverse rotation direction while they're committed to following. The direction change creates extraction opportunity.",
+      "when_to_use": "When attacker is actively following your initial rotation attempt rather than maintaining static control"
+    }
+  ],
+  "position_integration": "Hip Rotation Defense is the foundational defensive response in the straight ankle lock control system and serves as the gateway to all other escape sequences. The technique integrates with the broader leg entanglement defensive framework where hip mobility represents the defender's primary resource. Successful rotation opens pathways to guard recovery, standing escape, or counter-entanglement through 50-50 entry. The technique must be understood in context with the attacker's transition options - inside ashi garami and outside ashi garami are the primary threats that hip rotation must deny. As part of systematic leg lock defense, hip rotation defense is typically the first response attempted, with grip fighting, frame creation, and standing escape building on the space and angle changes that proper rotation creates."
+}

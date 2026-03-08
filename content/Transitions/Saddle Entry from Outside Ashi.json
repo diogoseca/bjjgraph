@@ -1,0 +1,410 @@
+{
+  "name": "Saddle Entry from Outside Ashi",
+  "description": "Master the Saddle Entry from Outside Ashi in BJJ. Advanced counter-entanglement technique converting defensive leg position into dominant saddle control.",
+  "tags": [
+    "bjj",
+    "transition",
+    "leg-entanglement",
+    "counter-entanglement",
+    "saddle-entry",
+    "ashi-garami",
+    "advanced",
+    "no-gi"
+  ],
+  "from_position": "Outside Ashi-Garami/Top",
+  "outcomes": [
+    {
+      "to": "Saddle/Top",
+      "probability": 55,
+      "result": "success"
+    },
+    {
+      "to": "Outside Ashi-Garami/Top",
+      "probability": 30,
+      "result": "failure"
+    },
+    {
+      "to": "Half Guard/Bottom",
+      "probability": 15,
+      "result": "counter"
+    }
+  ],
+  "success_rate": 55,
+  "overview": "The Saddle Entry from Outside Ashi-Garami is an advanced counter-entanglement technique that transforms a defensive leg lock situation into a dominant offensive position. When your leg is trapped in an opponent's outside ashi-garami, rather than simply working to extract your leg and escape, this technique allows you to rotate over the opponent's body and establish your own saddle position on their leg. This counter-offensive approach represents the highest level of leg lock defense, where the boundary between defense and offense dissolves entirely into a fluid exchange of positional control.\n\nThe technique exploits a fundamental property of leg entanglements: the connection is bidirectional. While your opponent's figure-four controls your leg, that same connection anchors them to you and limits their mobility. By controlling their foot to prevent submission during the transition, posting with your free leg to create rotational base, and executing a precise backstep over their body, you convert their outside ashi control into your dominant saddle position. The critical timing window opens when your opponent adjusts their grips, initiates a submission attempt, or loosens their triangle configuration during positional adjustment.\n\nStrategically, mastering this counter-entanglement makes you significantly more dangerous in leg lock exchanges. Opponents who recognize your ability to convert their outside ashi into your saddle will hesitate before committing fully to leg entanglement attacks, creating defensive uncertainty that benefits your overall game. This technique is essential for advanced no-gi competition, particularly in ADCC-style formats where extended leg lock exchanges determine matches and the ability to reverse entanglement positions provides decisive competitive advantage.",
+  "conditions": [
+    "Your leg is trapped in opponent's outside ashi-garami with their figure-four configuration around your leg",
+    "You have protected your heel from immediate submission danger through hiding or grip fighting",
+    "Your free leg has sufficient posting ability to create rotational base on the mat",
+    "Opponent's triangle configuration shows looseness or they are transitioning between grips or submissions",
+    "You have at least one hand controlling opponent's foot or ankle to prevent them from finishing during your entry"
+  ],
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Backstep Rotation Entry",
+      "description": "The classical entry where you post with your free leg and rotate your trapped-leg hip over the opponent's body in one smooth backstep motion, threading your legs into saddle configuration as you pass over their centerline. This is the highest-percentage variation when you have established standing posture.",
+      "when_to_use": "When you have achieved standing or kneeling position with your free leg firmly posted and opponent's triangle is not excessively tight"
+    },
+    {
+      "variant_name": "Rolling Entry",
+      "description": "A shoulder roll variation used when the opponent pulls you down during your entry attempt or when standing posture is not achievable. Instead of stepping over, you roll forward over your shoulder while maintaining control of their foot, arriving in saddle from the momentum of the roll.",
+      "when_to_use": "When opponent pulls your base down during a standing entry attempt or when you cannot establish sufficient height for the backstep"
+    },
+    {
+      "variant_name": "Incremental Leg Pummel Entry",
+      "description": "Rather than one decisive backstep, this variation uses progressive leg pummeling to gradually transition from outside ashi-garami top to saddle. You systematically work one leg at a time into inside position through small hip adjustments and leg threading movements.",
+      "when_to_use": "When opponent's triangle is moderately tight and a single explosive entry is not feasible, requiring patient incremental advancement"
+    }
+  ],
+  "position_integration": "The Saddle Entry from Outside Ashi represents a critical junction in the leg entanglement hierarchy, converting what is traditionally a purely defensive survival scenario into an offensive counter-attacking opportunity. This technique connects the defensive leg lock escape pathway with the offensive saddle attacking system, allowing practitioners to flow between defense and offense without resetting to neutral. Within the broader leg lock system, this counter-entanglement serves as a strategic deterrent against opponents committing fully to outside ashi attacks, creating a meta-game dynamic where the threat of counter-entanglement influences opponent behavior even before execution. The technique bridges escape-focused leg lock defense with the submission-focused saddle game, representing the integration point where comprehensive leg lock understanding becomes truly dangerous in competition exchanges.",
+  "related_content": [
+    {
+      "name": "Outside Ashi-Garami",
+      "relationship": "Starting position where your leg is trapped in opponent's outside leg entanglement"
+    },
+    {
+      "name": "Saddle",
+      "relationship": "Target position establishing dominant perpendicular leg entanglement control"
+    },
+    {
+      "name": "Inside Ashi-Garami",
+      "relationship": "Alternative intermediate entanglement position accessible during entry attempts"
+    },
+    {
+      "name": "Honey Hole",
+      "relationship": "Alternative name for the saddle target position in 10th Planet terminology"
+    },
+    {
+      "name": "Ashi Garami Escape",
+      "relationship": "Alternative defensive option from the same starting position favoring pure escape over counter-attack"
+    },
+    {
+      "name": "Heel Hook from Saddle",
+      "relationship": "Primary follow-up submission after successfully establishing saddle position"
+    },
+    {
+      "name": "Inside Ashi Entry",
+      "relationship": "Related leg entanglement advancement technique with different target position"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Counter outcome position when entry attempt fails and opponent recovers guard"
+    },
+    {
+      "name": "Backside 50-50 Entry from Ashi",
+      "relationship": "Alternative advancement pathway from ashi garami entanglements"
+    },
+    {
+      "name": "Leg Entanglement",
+      "relationship": "Parent conceptual framework encompassing all ashi garami positions and transitions"
+    }
+  ],
+  "attacker": {
+    "name": "Saddle Entry from Outside Ashi Attacker",
+    "description": "Master the offensive counter-entanglement from Outside Ashi-Garami to Saddle. Step-by-step backstep mechanics, timing windows, and grip sequences for establishing dominant leg control.",
+    "overview": "As the attacker executing the Saddle Entry from Outside Ashi, you begin in a disadvantageous defensive position with your leg trapped in your opponent's outside ashi-garami. Your objective is to convert this defensive scenario into an offensive advantage by establishing your own saddle position on your opponent's leg through a precise counter-rotation. This requires protecting your heel throughout the transition, controlling your opponent's foot to prevent them from finishing a submission during the exchange, and executing a technically precise backstep or rotation that threads your legs into saddle configuration around their leg. The transition demands composure under submission threat, awareness of timing windows created by opponent's grip adjustments, and confident commitment to the rotation once initiated.",
+    "key_principles": [
+      "Use opponent's own leg connection as an anchor for your counter-rotation rather than fighting against it",
+      "Protect your heel throughout the entire transition to prevent submission during the vulnerable entry phase",
+      "Time the entry when opponent loosens their triangle or commits to grip changes that momentarily reduce control",
+      "Commit fully to the rotation once initiated because hesitation creates worse positions than either completing or aborting",
+      "Control opponent's foot or ankle with at least one hand throughout the transition to prevent them from finishing",
+      "Establish inside position between opponent's legs before releasing any defensive grips or controls",
+      "Maintain hip pressure through the rotation to prevent opponent from recovering guard or escaping the new entanglement"
+    ],
+    "setup_requirements": [
+      "Your heel is hidden or protected from opponent's immediate heel hook grip preventing submission during entry",
+      "At least one hand securely controls opponent's foot or ankle to neutralize their submission threat during transition",
+      "Free leg is posted firmly on the mat providing rotational base and stability for the backstep movement",
+      "Opponent's triangle configuration shows sufficient looseness to allow your leg to rotate through during the backstep",
+      "You have assessed opponent's grip positioning and identified a timing window for entry based on their adjustments"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Protect heel and establish defensive baseline",
+        "description": "Before initiating any entry attempt, ensure your heel is completely hidden by rotating your knee inward and keeping your toes pointed toward your body. Establish at least one hand grip on your own ankle or shin to prevent heel exposure. This defensive baseline must be maintained until you are ready to commit to the entry."
+      },
+      {
+        "step_number": 2,
+        "action": "Control opponent's foot with dominant hand",
+        "description": "Secure a firm grip on your opponent's foot or ankle with your near-side hand, cupping the Achilles area or gripping the toes. This grip serves dual purpose: it prevents your opponent from finishing any submission during the transition and provides a control point that you will use to manipulate their leg into your saddle configuration after the rotation."
+      },
+      {
+        "step_number": 3,
+        "action": "Establish free leg post for rotational base",
+        "description": "Plant your free leg firmly on the mat with foot flat and knee bent at approximately 90 degrees. Position this post slightly behind your hip line to create maximum rotational leverage. The quality of this post determines the success of the entire backstep, as insufficient base leads to collapsing during rotation and losing position entirely."
+      },
+      {
+        "step_number": 4,
+        "action": "Initiate backstep rotation over opponent's body",
+        "description": "Drive off your posted leg and rotate your trapped-leg hip over the opponent's body in one decisive motion. Your trapped leg swings in an arc over their torso while your hips rotate from facing them to facing perpendicular or away. Maintain your grip on their foot throughout this rotation and keep your weight driving forward rather than falling backward."
+      },
+      {
+        "step_number": 5,
+        "action": "Break opponent's triangle during rotation",
+        "description": "As your hip passes over the opponent's centerline, their figure-four triangle configuration will naturally weaken because the rotational angle disrupts the lock geometry. Use this moment to actively thread your previously trapped leg free from their triangle by pulling your knee through the gap created by the rotation, collapsing their control structure."
+      },
+      {
+        "step_number": 6,
+        "action": "Thread legs into saddle configuration",
+        "description": "Immediately after clearing their triangle, begin establishing your own saddle by threading your legs around the opponent's near leg. Your inside leg hooks underneath their knee while your outside leg crosses over their thigh, creating the figure-four or triangle lock that defines saddle position. This threading must happen before the opponent can recover their own leg entanglement."
+      },
+      {
+        "step_number": 7,
+        "action": "Establish perpendicular alignment and hip pressure",
+        "description": "Angle your body 90 degrees perpendicular to your opponent's body with your hips driving into their trapped thigh. This perpendicular alignment is what creates the mechanical advantage that makes saddle dominant. Drive your hips forward like a wedge, preventing them from rotating either toward or away from you while your legs tighten around their leg."
+      },
+      {
+        "step_number": 8,
+        "action": "Consolidate saddle control with grip sequence",
+        "description": "With positional control established, transition your hand grips from defensive protecting your own heel to offensive controlling their heel and ankle. Secure their ankle with your outside arm to prevent knee rotation, then use your inside arm to control their heel. Do not rush to submission until this control hierarchy is fully established and all defensive frames have been addressed."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Opponent tightens triangle and pulls back to prevent rotation",
+        "effectiveness": "High",
+        "your_response": "If the triangle is too tight for rotation, abort the entry attempt and return to heel protection and escape protocols. Reattempt when they loosen the triangle to adjust grips. Alternatively, switch to an incremental leg pummeling approach that uses gradual positioning rather than one decisive backstep.",
+        "targets_outcome": "Outside Ashi-Garami/Top"
+      },
+      {
+        "counter": "Opponent attacks heel hook during the rotation when heel becomes momentarily exposed",
+        "effectiveness": "High",
+        "your_response": "Maintain heel protection grip on your own ankle throughout the rotation as primary safety measure. If they catch the heel mid-rotation, complete the rotation faster to break their angle or immediately abort and address the heel hook threat. Never pause mid-rotation with an exposed heel.",
+        "targets_outcome": "Outside Ashi-Garami/Top"
+      },
+      {
+        "counter": "Opponent hip escapes and recovers guard during the transition",
+        "effectiveness": "Medium",
+        "your_response": "If opponent creates distance during your rotation, continue the backstep but redirect to a passing position rather than insisting on saddle. You may land in a top position depending on how far they have escaped. Accept the positional improvement over insisting on the saddle entry.",
+        "targets_outcome": "Half Guard/Bottom"
+      },
+      {
+        "counter": "Opponent straightens legs and bridges to prevent you from threading into saddle",
+        "effectiveness": "Medium",
+        "your_response": "Use their extended leg as leverage for your own entry by hooking behind their knee with your inside leg. Their straight leg actually makes it easier to establish inside position. Apply downward pressure on their thigh to collapse the bridge and complete the saddle entry.",
+        "targets_outcome": "Outside Ashi-Garami/Top"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Exposing heel during the backstep rotation by losing protective grip",
+        "consequence": "Opponent catches heel hook during the most vulnerable phase of the transition, potentially causing immediate submission or serious knee injury",
+        "correction": "Maintain at least one hand protecting your own heel or controlling your ankle throughout the rotation. Only release this protective grip after you have fully cleared their triangle and established your own positional control."
+      },
+      {
+        "error": "Initiating entry without controlling opponent's foot first",
+        "consequence": "Opponent freely adjusts their position during your rotation, either retightening their triangle or establishing new grips that prevent saddle entry",
+        "correction": "Always secure control of opponent's foot or ankle before beginning the backstep. This grip anchors them in place and provides a control point for establishing your own saddle after the rotation."
+      },
+      {
+        "error": "Hesitating mid-rotation instead of committing fully to the backstep",
+        "consequence": "Getting stuck in a transitional position where you have lost your defensive structure but not yet established saddle, leaving you vulnerable to both submissions and guard recovery by the opponent",
+        "correction": "Once you commit to the rotation, complete it in one fluid motion. If you feel the entry is not going to work, abort completely and return to defensive position rather than pausing halfway through the movement."
+      },
+      {
+        "error": "Attempting entry when opponent's triangle is still fully locked and tight",
+        "consequence": "The rotation fails because the tight triangle prevents your leg from threading through, and the attempt telegraphs your intention making future attempts harder to execute",
+        "correction": "Wait for genuine looseness in the triangle before attempting entry. Create opportunities by threatening submissions or escapes that force opponent to adjust their grips, then exploit the momentary looseness."
+      },
+      {
+        "error": "Neglecting to establish perpendicular alignment after completing the rotation",
+        "consequence": "Saddle position remains loose and opponent easily escapes or counter-entangles because the mechanical advantage that makes saddle dominant comes specifically from the perpendicular angle",
+        "correction": "After threading your legs into saddle configuration, immediately prioritize perpendicular alignment and hip pressure before attempting any submissions. Position must be established before attack."
+      },
+      {
+        "error": "Rushing to attack heel hook immediately after entry without consolidating control",
+        "consequence": "Opponent escapes the incomplete saddle during your submission attempt because you prioritized finishing over establishing positional dominance first",
+        "correction": "Follow the control hierarchy after entry: perpendicular alignment, hip pressure, inside position confirmation, structural grips, frame clearing, then finally transition to finishing grips. Skipping steps leads to lost positions."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Entry Mechanics",
+        "focus": "Backstep rotation mechanics without resistance",
+        "description": "Practice the complete rotation sequence from outside ashi-garami top position with a compliant partner. Focus on foot control grip, posting mechanics, rotation arc, triangle breaking, and leg threading. Perform 20 repetitions per side with no resistance, building muscle memory for the complete sequence."
+      },
+      {
+        "phase": "Phase 2: Heel Protection Integration",
+        "focus": "Maintaining defensive grip throughout the transition",
+        "description": "Repeat the entry mechanics while partner slowly attempts to access your heel during the rotation. Focus on maintaining protective grip on your own ankle while still executing the backstep. Partner provides 25-50% resistance to your rotation while testing heel access at each phase."
+      },
+      {
+        "phase": "Phase 3: Timing and Recognition",
+        "focus": "Identifying entry windows against active opponent",
+        "description": "Partner actively works outside ashi-garami offense with moderate resistance. Practice recognizing when their triangle loosens during grip transitions or submission setups, and execute the saddle entry during these windows. Develop sensitivity to the feel of a loosening triangle configuration."
+      },
+      {
+        "phase": "Phase 4: Saddle Consolidation Chain",
+        "focus": "Connecting entry to saddle control hierarchy",
+        "description": "After successful entry, practice the complete saddle consolidation sequence: perpendicular alignment, hip pressure, inside position, grip establishment, frame clearing. Partner actively resists both the entry and the subsequent control establishment. Build the connection between entry and offensive control."
+      },
+      {
+        "phase": "Phase 5: Live Positional Sparring",
+        "focus": "Full-resistance application in positional rounds",
+        "description": "Start trapped in partner's outside ashi-garami with full resistance. Work to either escape or counter-entangle to saddle. Partner works to finish submission or maintain position. Three-minute rounds with reset after position change. Develop tactical decision-making about when to attempt entry versus pure escape."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the optimal timing window for initiating the Saddle Entry from Outside Ashi?",
+        "answer": "The optimal timing window opens when your opponent loosens their triangle configuration to adjust grips, initiate a submission attempt, or transition between attacking options. Specifically, watch for moments when they release one hand from your leg to reach for your heel, when they unlock their figure-four to reposition their legs, or when they commit to an ankle lock and create angular changes. These adjustments create momentary looseness that permits your rotation through their triangle."
+      },
+      {
+        "question": "What conditions must exist before you can safely attempt this counter-entanglement?",
+        "answer": "Four conditions must be met: your heel must be protected from immediate submission through hiding or grip fighting, you must have at least one hand controlling your opponent's foot or ankle, your free leg must have solid posting capability on the mat, and the opponent's triangle must show genuine looseness rather than tight locked configuration. Attempting entry without all four conditions dramatically increases both failure rate and injury risk during the transition."
+      },
+      {
+        "question": "What is the most critical mechanical detail that determines whether the backstep rotation succeeds?",
+        "answer": "The quality of your free leg post determines the entire entry. The posted foot must be flat on the mat with your knee bent at approximately 90 degrees, positioned slightly behind your hip line to create maximum rotational leverage. An insufficient post causes you to collapse during the rotation, stalling in a vulnerable transitional position. The post provides both the drive force for rotation and the stability to control your body position throughout the movement arc."
+      },
+      {
+        "question": "Why does hesitating mid-rotation create a worse outcome than either completing or aborting the entry?",
+        "answer": "Pausing mid-rotation puts you in a transitional position where you have abandoned your defensive structure from outside ashi-garami top but have not yet established offensive saddle control. In this no-man's-land, your heel may be exposed without protective grips in place, your opponent can readjust their own legs to re-establish their triangle, and you lack both defensive and offensive frames. Either commit fully and complete the rotation or abort and return to defensive heel protection."
+      },
+      {
+        "question": "What grip must you maintain throughout the rotation and why is it non-negotiable?",
+        "answer": "You must maintain control of your opponent's foot or ankle with at least one hand throughout the entire transition. This grip serves two critical purposes: it prevents your opponent from freely adjusting their position during your rotation, and it provides the control point you will use to manipulate their leg into your saddle configuration after completing the backstep. Releasing this grip allows your opponent to retighten their triangle, rotate away, or establish new defensive frames that prevent saddle entry."
+      },
+      {
+        "question": "How should you direct force during the backstep rotation?",
+        "answer": "Force should be directed forward and rotational, not upward or backward. Drive off your posted leg with your hips rotating over the opponent's centerline while maintaining forward pressure into their body. Your weight should travel in an arc that keeps you connected to them throughout the rotation rather than creating space. Driving backward or upward creates separation that allows the opponent to recover their guard. Think of the rotation as moving through them, not away from them."
+      },
+      {
+        "question": "Your opponent tightens their triangle aggressively as you begin the backstep - how do you adjust?",
+        "answer": "Abort the entry immediately and return to your defensive baseline of heel protection and posture. A tight triangle prevents the rotation from succeeding and forcing it creates dangerous exposure of your heel. Return to working escape protocols or create new looseness by threatening a straight ankle lock or toe hold on their foot, which forces them to address the submission and potentially creates the looseness needed for a subsequent entry attempt."
+      },
+      {
+        "question": "After successfully entering saddle, what attacks are available if your opponent immediately defends the heel hook?",
+        "answer": "The saddle creates a submission dilemma. If the opponent hides their heel by rotating their knee inward, their ankle becomes exposed to straight ankle lock or toe hold attacks. If they defend the ankle by pulling toes back, the heel re-exposes for heel hook. This cycling between threats is the primary offensive chain from saddle. Additionally, if the opponent commits heavily to turning into you during defense, a back take opportunity may present itself as their rotation creates exposure."
+      }
+    ],
+    "safety_considerations": "Leg entanglement transitions carry inherent risk of knee and ankle injury due to the rotational forces involved. During the backstep rotation, the heel is momentarily vulnerable, and uncontrolled rotation can apply dangerous force to the knee ligaments. Always maintain protective grips on your own leg throughout the transition. Practice at slow speed with progressive resistance before attempting at competition pace. Both training partners must understand tap protocols for heel hooks and agree on intensity levels before drilling. If any rotation is felt on the knee joint during the entry, stop immediately and reassess positioning. Never force the entry against a fully locked triangle, as the resistance combined with rotational force can damage both practitioners' joints."
+  },
+  "defender": {
+    "name": "Saddle Entry from Outside Ashi Defender",
+    "description": "Defend against the Saddle Entry counter-entanglement from Outside Ashi-Garami. Recognition cues, prevention strategies, and recovery protocols for maintaining leg control.",
+    "overview": "As the defender against the Saddle Entry from Outside Ashi, you are the practitioner who currently holds outside ashi-garami control on your opponent's leg. Your primary objective is to prevent your opponent from converting your advantageous attacking position into their own dominant saddle through counter-entanglement. Defense requires maintaining tight triangle configuration, recognizing early signs of a backstep attempt, and either tightening your control to prevent the rotation or capitalizing on the exposed heel that occurs during the transition attempt. Understanding this counter-entanglement threat is essential for any serious leg lock player, as it directly influences how aggressively you can commit to attacks from outside ashi-garami without creating counter-opportunities.",
+    "key_principles": [
+      "Maintain a tight triangle configuration at all times to prevent opponent from rotating through your leg control",
+      "Threaten submissions constantly to keep opponent focused on defense rather than counter-entanglement opportunities",
+      "Monitor opponent's free leg positioning as posting with the free leg is the first telegraph of a backstep attempt",
+      "Control opponent's hip rotation by keeping your inside leg actively pulling and your outside leg firmly crossing their thigh",
+      "Capitalize on heel exposure during failed entry attempts by attacking the momentarily unprotected heel",
+      "Maintain your perpendicular hip angle to prevent opponent from generating the rotation needed for the backstep"
+    ],
+    "recognition_cues": [
+      "Opponent shifts weight to their free leg and plants it firmly on the mat as a posting base for rotation",
+      "Opponent controls your foot or ankle with one or both hands, indicating they are neutralizing your submission threat before initiating counter-movement",
+      "Opponent begins rotating their trapped-leg hip upward or over your body rather than pulling their leg straight out for escape",
+      "Opponent's posture rises to standing or high kneeling position with their free leg, creating the height needed for a backstep arc",
+      "Opponent stops fighting to extract their leg and instead seems to accept the entanglement, suggesting they plan to use the connection for counter-entanglement"
+    ],
+    "defensive_options": [
+      {
+        "action": "Tighten triangle and pull opponent's leg back into deep entanglement",
+        "when_to_use": "When you recognize early signs of backstep attempt before opponent has committed to rotation",
+        "targets_outcome": "Outside Ashi-Garami/Top",
+        "if_successful": "Opponent's rotation is blocked by tight triangle and they remain trapped in your outside ashi-garami with submission threats active",
+        "risk": "If tightening is insufficient, opponent may still complete the backstep and the delay cost you a counter-attack opportunity"
+      },
+      {
+        "action": "Attack heel hook immediately when opponent's heel becomes exposed during rotation",
+        "when_to_use": "When opponent commits to the backstep and their heel is momentarily exposed during the rotation arc",
+        "targets_outcome": "Outside Ashi-Garami/Top",
+        "if_successful": "Opponent is forced to abort the entry attempt and address the immediate heel hook threat, returning to defensive posture",
+        "risk": "If the heel hook is not secured quickly enough, opponent completes the rotation and you lose your attacking position"
+      },
+      {
+        "action": "Hip escape and recover to guard before opponent establishes saddle",
+        "when_to_use": "When opponent has partially completed the rotation and your outside ashi control is compromised beyond recovery",
+        "targets_outcome": "Half Guard/Bottom",
+        "if_successful": "You extract your own leg from the developing saddle and recover to half guard or open guard, forcing a positional reset",
+        "risk": "If the hip escape is too slow, opponent catches your leg in saddle and you end up in the worst-case defensive scenario"
+      },
+      {
+        "action": "Follow the rotation and re-establish your own leg entanglement from the new angle",
+        "when_to_use": "When opponent has completed the backstep but has not yet fully consolidated saddle control",
+        "targets_outcome": "Outside Ashi-Garami/Top",
+        "if_successful": "You scramble into your own counter-entanglement, potentially re-establishing outside ashi or reaching 50-50 from the new angle",
+        "risk": "If opponent has already established inside position and hip pressure, your counter-entanglement attempt may give them deeper saddle control"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Outside Ashi-Garami/Top",
+        "how": "Prevent the entry entirely by maintaining tight triangle control and attacking the exposed heel when opponent initiates the backstep. The tighter your triangle and the more active your submission threats, the less likely the opponent will find an opening for counter-entanglement."
+      },
+      {
+        "outcome": "Half Guard/Bottom",
+        "how": "If the opponent's entry partially succeeds and your outside ashi is compromised, hip escape immediately to extract your own leg before they can consolidate saddle. Transition to half guard by framing on their hips and threading your legs into half guard configuration, accepting the positional reset over being caught in their saddle."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Allowing triangle to become loose during grip adjustments or submission attempts",
+        "consequence": "Creates the exact timing window the opponent needs for the backstep rotation, as the loose triangle permits their leg to thread through during rotation",
+        "correction": "Maintain constant squeeze pressure with your legs even during grip transitions. Practice keeping your triangle tight while changing hand grips so that looseness never develops in the leg configuration."
+      },
+      {
+        "error": "Failing to recognize the backstep telegraph until rotation is already committed",
+        "consequence": "By the time you react, the opponent has already broken through your triangle and is establishing saddle, leaving you scrambling to recover rather than preventing the entry",
+        "correction": "Monitor opponent's free leg positioning constantly. Any posting or weight shift to the free leg should trigger immediate triangle tightening and submission pressure to discourage the entry."
+      },
+      {
+        "error": "Not attacking the exposed heel when it becomes available during opponent's rotation attempt",
+        "consequence": "Missed opportunity to punish the entry attempt and re-establish dominant attacking position, allowing opponent to retry with adjusted technique later",
+        "correction": "Develop the reflex to immediately attack the heel when it becomes exposed during rotation attempts. This punishment discourages future counter-entanglement attempts and reinforces your positional advantage."
+      },
+      {
+        "error": "Panicking and releasing all leg control when opponent initiates the backstep",
+        "consequence": "Gives opponent a free transition to saddle without having to work through your defensive resistance, essentially conceding the position change",
+        "correction": "Even during the backstep, maintain whatever leg control you can. Partial resistance slows the transition and may create opportunities to re-establish control or attack the heel during the rotation."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the earliest recognition cue that your opponent is preparing a Saddle Entry rather than a standard escape?",
+        "answer": "The earliest cue is the opponent planting their free leg firmly on the mat in a posting position while simultaneously controlling your foot or ankle with their hands. Standard escape attempts involve pulling the leg straight out or standing up to create distance, while saddle entry preparation involves accepting the entanglement and establishing rotational base. When you see them settle into the position rather than fighting to leave it, they are likely planning a counter-entanglement."
+      },
+      {
+        "question": "Why is maintaining constant submission pressure the best prevention against counter-entanglement attempts?",
+        "answer": "Constant submission pressure forces your opponent to dedicate both hands to protecting their own heel and ankle, leaving them no free hands to control your foot which is a prerequisite for the backstep. Additionally, submission threat keeps their mental focus on defense rather than offense. An opponent who is actively defending a heel hook cannot simultaneously plan and execute a counter-entanglement rotation requiring precise timing and committed movement."
+      },
+      {
+        "question": "Your opponent begins the backstep and their heel becomes briefly exposed - should you release your triangle to pursue the heel hook?",
+        "answer": "No, you should not release your triangle to pursue the heel hook. Instead, maintain your triangle squeeze while reaching for the heel with your upper body. Releasing the triangle to chase the heel gives the opponent exactly what they need to complete the rotation unimpeded. If you can catch the heel while maintaining leg control, you get both the submission opportunity and the prevention of the counter-entanglement. If you cannot reach the heel without releasing the triangle, prioritize maintaining your triangle control."
+      },
+      {
+        "question": "How should you adjust your outside ashi-garami control to specifically defend against the backstep entry?",
+        "answer": "To defend specifically against the backstep, focus on three adjustments: first, keep your outside leg crossing high on their thigh rather than low near the knee, making it harder for them to rotate over; second, maintain active pulling pressure with your inside leg to keep their trapped leg deep in your entanglement; third, angle your hips slightly away from their free leg posting side to reduce the rotational leverage they can generate. These adjustments make the backstep significantly more difficult without compromising your submission options."
+      },
+      {
+        "question": "If the opponent successfully enters saddle despite your prevention attempts, what is your immediate defensive priority?",
+        "answer": "Your immediate priority is hiding your heel by rotating your knee inward toward your centerline while flexing your foot. Do not attempt an immediate escape, as the opponent has just established position and their control mechanics are strongest during initial consolidation. After protecting the heel, begin systematic grip fighting on their hands to prevent them from securing heel control. Only after addressing grips should you begin working hip clears and leg extraction through the established saddle escape hierarchy."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Recognition Drills",
+        "focus": "Identifying backstep telegraphs from outside ashi-garami bottom",
+        "description": "Partner practices saddle entry mechanics at slow speed while you identify each telegraph: free leg posting, foot control grip, hip rotation initiation. Call out each cue verbally. Build pattern recognition so telegraphs trigger automatic defensive responses before conscious analysis."
+      },
+      {
+        "phase": "Phase 2: Prevention Under Pressure",
+        "focus": "Maintaining triangle control against active entry attempts",
+        "description": "Partner actively attempts saddle entry at 50-75% resistance while you practice triangle tightening, hip angle adjustment, and submission threats as preventive measures. Focus on keeping the triangle locked throughout partner's rotation attempts. Reset when entry succeeds or is fully prevented."
+      },
+      {
+        "phase": "Phase 3: Counter-Attack Integration",
+        "focus": "Attacking exposed heel during entry attempts",
+        "description": "Partner initiates backstep at moderate speed while you practice attacking their momentarily exposed heel without releasing your triangle. Develop the timing and reach to punish entry attempts while maintaining positional control. Build the reflex to attack exposed heels automatically."
+      },
+      {
+        "phase": "Phase 4: Recovery Protocols",
+        "focus": "Escaping saddle when prevention fails",
+        "description": "Start from position where partner has partially or fully established saddle after successful entry. Practice the saddle escape hierarchy: heel protection, grip fighting, hip clearing, leg extraction. Develop comfort with worst-case recovery scenarios so that failed prevention does not lead to panic or submission."
+      }
+    ]
+  }
+}

@@ -8,6 +8,7 @@ import {
   simplifySlug,
   splitAnchor,
   transformLink,
+  buildSlugIndex,
 } from "../../util/path"
 import path from "path"
 import { visit } from "unist-util-visit"
@@ -37,6 +38,9 @@ export const CrawlLinks: QuartzTransformerPlugin<Partial<Options>> = (userOpts) 
   return {
     name: "LinkProcessing",
     htmlPlugins(ctx) {
+      // Build slug index ONCE for all files (O(n) build, then O(1) lookups)
+      const slugIndex = buildSlugIndex(ctx.allSlugs)
+
       return [
         () => {
           return (tree: Root, file) => {
@@ -46,6 +50,7 @@ export const CrawlLinks: QuartzTransformerPlugin<Partial<Options>> = (userOpts) 
             const transformOptions: TransformOptions = {
               strategy: opts.markdownLinkResolution,
               allSlugs: ctx.allSlugs,
+              slugIndex,
             }
 
             visit(tree, "element", (node, _index, _parent) => {

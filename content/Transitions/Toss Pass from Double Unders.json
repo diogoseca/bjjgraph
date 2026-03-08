@@ -1,0 +1,393 @@
+{
+  "name": "Toss Pass from Double Unders",
+  "description": "Master the Toss Pass from Double Unders in BJJ. Explosive guard pass redirecting opponent's legs laterally to establish dominant side control position.",
+  "tags": [
+    "guard-pass",
+    "double-unders",
+    "toss-pass",
+    "pressure-passing",
+    "explosive-technique",
+    "side-control-entry",
+    "lateral-redirection"
+  ],
+  "from_position": "Double Unders/Top",
+  "outcomes": [
+    {
+      "to": "Side Control/Top",
+      "probability": 55,
+      "result": "success"
+    },
+    {
+      "to": "Double Unders/Top",
+      "probability": 20,
+      "result": "failure"
+    },
+    {
+      "to": "Half Guard/Top",
+      "probability": 15,
+      "result": "failure"
+    },
+    {
+      "to": "Open Guard/Top",
+      "probability": 10,
+      "result": "counter"
+    }
+  ],
+  "success_rate": 55,
+  "overview": "The Toss Pass from Double Unders is an explosive guard passing technique that capitalizes on bilateral underhook control to dynamically redirect the opponent's legs to one side, clearing the path for immediate side control establishment. Unlike the methodical stack pass that folds the opponent vertically, the toss pass uses lateral redirection combined with explosive hip rotation to clear the legs in a single decisive action. This makes it particularly effective against opponents who have adapted their defensive frames to counter vertical stacking pressure, as the lateral force vector attacks a different defensive plane entirely.\n\nThe technique operates on the principle of misdirection within the pressure passing framework. By initially driving forward pressure as if attempting a standard stack or fold pass, the passer loads the opponent's defensive reactions in the vertical plane. The sudden lateral redirection catches the defender's frames oriented in the wrong direction, creating a brief window where their defensive structure is completely bypassed. The passer must commit fully to the direction change, following the toss with immediate chest-to-chest contact on the landing side to prevent any guard recovery.\n\nStrategic deployment of the toss pass is most effective when paired with standard double unders passing options as part of a pressure passing chain. When the opponent successfully defends the stack pass by maintaining strong frames against vertical pressure, the toss pass becomes available as a complementary angle of attack. The technique requires solid grip mechanics and timing but rewards the passer with a clean pass to side control that often leaves the opponent disoriented and unable to establish defensive frames before the pass is consolidated.",
+  "conditions": [
+    "Both underhooks secured under opponent's legs with hands clasped behind their lower back or belt",
+    "Forward stacking pressure established, loading opponent's defensive frames in the vertical plane",
+    "Opponent's legs controlled and compressed together within the underhook loop",
+    "Sufficient mat space on at least one side to redirect opponent's legs laterally"
+  ],
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Power Toss",
+      "description": "Maximal explosive variant with full hip lift before lateral redirection. The passer elevates the opponent's hips higher than the standard toss, generating more momentum for the lateral sweep. Requires greater explosive strength but produces more dramatic displacement that is harder to defend.",
+      "when_to_use": "Against heavier opponents whose weight makes gradual lateral redirection insufficient, or when the standard toss fails to clear their legs completely"
+    },
+    {
+      "variant_name": "Angle Toss (45-Degree Redirect)",
+      "description": "Diagonal toss combining forward and lateral vectors simultaneously rather than pure lateral redirection. The 45-degree angle bypasses both vertical and horizontal defensive frame orientations, attacking the gap between the two defensive planes. Requires precise hip angle coordination.",
+      "when_to_use": "When the opponent anticipates pure lateral redirection and has adjusted frames diagonally, or against experienced defenders who have been tossed before and pre-orient their defenses"
+    },
+    {
+      "variant_name": "Fake Stack to Toss",
+      "description": "Deliberately exaggerates the vertical stacking motion to force the opponent into full vertical frame commitment before redirecting laterally. The feint creates a stronger misdirection effect by making the opponent over-invest in vertical resistance before the direction change.",
+      "when_to_use": "When the opponent has successfully defended previous stack pass attempts and has developed confidence in their vertical framing, making the lateral redirection more unexpected"
+    }
+  ],
+  "position_integration": "The Toss Pass integrates into the double unders passing system as the lateral complement to the vertical stack pass, creating a two-dimensional threat that forces defenders to choose which direction to orient their frames. When combined with the stack pass and leg weave transitions available from double unders, this technique creates a triangle of passing options that prevents opponents from committing fully to any single defensive orientation. It bridges the gap between pressure passing methodology and dynamic movement-based passing by using established pressure control as the launching platform for explosive directional change. At the competitive level, the toss pass functions as a secondary option that punishes overly committed vertical frame defense, making the primary stack pass more effective through the threat of lateral redirection.",
+  "related_content": [
+    {
+      "name": "Double Unders",
+      "relationship": "Source position providing the bilateral underhook control platform from which the toss pass is launched"
+    },
+    {
+      "name": "Side Control",
+      "relationship": "Primary target position achieved upon successful completion of the toss pass"
+    },
+    {
+      "name": "Stack Pass from Double Unders",
+      "relationship": "Vertical stacking complement that creates the two-dimensional passing threat with the toss pass"
+    },
+    {
+      "name": "Guard Recovery from Double Unders",
+      "relationship": "Defender's primary escape transition that the toss pass aims to prevent"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Common partial pass outcome when the toss fails to fully clear opponent's legs"
+    },
+    {
+      "name": "Open Guard",
+      "relationship": "Counter outcome position when defender successfully recovers guard during the toss"
+    },
+    {
+      "name": "Sweep from Double Unders",
+      "relationship": "Opponent's offensive threat from bottom that incentivizes the passer to complete the pass quickly"
+    },
+    {
+      "name": "Headquarters Position",
+      "relationship": "Related passing control position with similar forward pressure mechanics but different arm configuration"
+    },
+    {
+      "name": "Body Lock Pass",
+      "relationship": "Related explosive pressure passing technique sharing commitment-based passing philosophy"
+    },
+    {
+      "name": "Butterfly Guard",
+      "relationship": "Common guard position that precedes double unders establishment when hooks are cleared"
+    }
+  ],
+  "attacker": {
+    "name": "Toss Pass from Double Unders Attacker",
+    "description": "Master the Toss Pass attacker strategy from Double Unders. Step-by-step execution with grip mechanics, hip rotation timing, and follow-through techniques for explosive lateral guard passing.",
+    "overview": "The Toss Pass attacker operates from an already dominant double unders control position, using the bilateral underhook grip to execute an explosive lateral redirection of the opponent's legs. The attacker's primary challenge is disguising the toss direction while maintaining sufficient forward pressure to prevent early defensive adjustment. Success requires coordinating grip mechanics, hip rotation, and immediate follow-through into side control within a narrow execution window. The attacker must read the opponent's frame orientation to select the optimal toss direction and commit fully to the directional change, as half-committed attempts allow easy defensive recovery.",
+    "key_principles": [
+      "Load vertical pressure before redirecting laterally to create misdirection that catches defensive frames in the wrong orientation",
+      "Generate toss power through hip rotation and core engagement rather than arm strength alone for sustainable and explosive redirection",
+      "Commit fully to the toss direction with no hesitation, as partial commitment allows the defender time to adjust their frames",
+      "Follow the toss immediately with chest-to-mat contact on the passing side to eliminate guard recovery space",
+      "Select toss direction based on opponent's weaker frame side and your preferred side control configuration",
+      "Maintain deep grip behind opponent's back throughout the entire toss motion to prevent legs from separating mid-redirection"
+    ],
+    "setup_requirements": [
+      "Both arms fully threaded under opponent's legs with forearms deep and elbows tight to your ribs",
+      "Hands clasped (gable grip or S-grip) or gripping belt/pants behind opponent's lower back with no slack",
+      "Forward stacking pressure driving opponent's weight onto their shoulders for minimum 2-3 seconds before toss",
+      "Feet positioned with toes engaged, allowing explosive hip rotation toward the chosen toss direction",
+      "Head positioned on the opposite side of the intended toss to maintain balance through the redirection"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Confirm double unders control",
+        "description": "Verify both arms are fully threaded under opponent's legs with hands clasped deep behind their lower back. Elbows must be tight to your ribs with no gaps for the opponent to insert frames. Confirm the grip will hold through explosive lateral movement."
+      },
+      {
+        "step_number": 2,
+        "action": "Establish vertical pressure",
+        "description": "Drive forward pressure through your chest into opponent's thighs, stacking their weight onto their shoulders. This loads their defensive frames in the vertical plane and disguises the incoming lateral redirection. Maintain this pressure for 2-3 seconds to commit their defensive structure."
+      },
+      {
+        "step_number": 3,
+        "action": "Select toss direction",
+        "description": "Read the opponent's frame orientation and select the side where their defensive structure is weaker or absent. Note which hand is framing higher on your body versus lower - toss toward the side of the weaker or lower frame. Shift your head position to the opposite side of the intended toss."
+      },
+      {
+        "step_number": 4,
+        "action": "Load the hip rotation",
+        "description": "While maintaining forward pressure on the surface, subtly shift your weight to the balls of your feet and pre-load your hips for rotation toward the toss direction. Your grip should shift minimally toward the toss side. This loading phase must be brief to avoid telegraphing the direction change."
+      },
+      {
+        "step_number": 5,
+        "action": "Execute the toss",
+        "description": "Explosively rotate your hips toward the toss direction while sweeping your arms laterally, redirecting the opponent's legs to one side. The power comes from core rotation amplified through the arm sweep. The motion should be one continuous explosive action, not a two-part lift-and-redirect. Their legs should clear past your hip line completely."
+      },
+      {
+        "step_number": 6,
+        "action": "Follow through to the mat",
+        "description": "Immediately after the legs clear, drop your chest to the mat on the passing side. Your near arm drives across for crossface control while your body fills the space where the opponent's legs were. This follow-through must happen within one second of the toss to prevent guard recovery. Speed of follow-through determines success more than the toss power itself."
+      },
+      {
+        "step_number": 7,
+        "action": "Consolidate side control",
+        "description": "Establish crossface with your near arm driving forearm pressure across the opponent's jaw and neck. Your far hand blocks their near hip to prevent knee insertion. Drop your hips heavy against their hips with perpendicular chest alignment. Settle your weight and transition from dynamic passing mode to static control mode, eliminating all remaining space."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Opponent inserts butterfly hook on the toss side during redirection, preventing legs from clearing",
+        "effectiveness": "High",
+        "your_response": "If you feel the hook engaging mid-toss, immediately shift to a leg weave passing configuration on that side rather than fighting the hook. Use the momentum of your toss to drive past the hook into a half guard top position, then work to complete the pass from there.",
+        "targets_outcome": "Half Guard/Top"
+      },
+      {
+        "counter": "Opponent frames against your shoulder and hip escapes during the toss, creating distance to recover open guard",
+        "effectiveness": "Medium",
+        "your_response": "Accelerate your follow-through and chase their hip movement with your chest. If they create significant distance, abandon the toss pass and re-establish double unders control by driving forward into their retreating hips before they can fully recover their guard structure.",
+        "targets_outcome": "Open Guard/Top"
+      },
+      {
+        "counter": "Opponent grips your sleeve or wrist to prevent arm release during toss, stalling the redirection",
+        "effectiveness": "Medium",
+        "your_response": "Strip the grip by circling your wrist out of their grip direction while continuing the toss motion. If the grip holds, maintain pressure and revert to forward stacking, then attempt the toss again after re-establishing full pressure and breaking the grip with a sharp elbow retraction.",
+        "targets_outcome": "Double Unders/Top"
+      },
+      {
+        "counter": "Opponent anticipates toss direction and pre-rotates hips toward the toss side, turning into you",
+        "effectiveness": "Low",
+        "your_response": "If the opponent turns into the toss direction, they expose their back. Redirect immediately to a back take by following their rotation and establishing seat belt control as they turn. Their pre-rotation actually assists your transition to a superior position if you read it correctly.",
+        "targets_outcome": "Side Control/Top"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Releasing the grip behind opponent's back before legs have fully cleared to the side",
+        "consequence": "Opponent's legs spring back to center and they immediately recover guard position with both legs active, negating the entire passing attempt",
+        "correction": "Maintain clasped hands behind opponent's back throughout the entire toss arc until your chest makes contact with the mat on the passing side, only then release to establish crossface"
+      },
+      {
+        "error": "Attempting the toss without first establishing sufficient vertical stacking pressure",
+        "consequence": "Opponent's defensive frames are not loaded in the vertical plane, allowing them to easily redirect their resistance laterally to match the toss direction",
+        "correction": "Drive sustained forward pressure for minimum 2-3 seconds before initiating the toss, forcing the opponent to commit their frames to vertical resistance"
+      },
+      {
+        "error": "Failing to follow through with immediate chest-to-mat contact after the toss",
+        "consequence": "Creates a gap between the toss completion and side control establishment that allows the opponent to insert a knee, create frames, or hip escape to recover guard",
+        "correction": "Treat the toss and follow-through as one continuous motion - your chest should hit the mat on the passing side within one second of the legs clearing"
+      },
+      {
+        "error": "Tossing with straight lateral motion rather than incorporating hip rotation",
+        "consequence": "Reduces toss power significantly since arms alone cannot generate sufficient force, and the lack of body rotation leaves the passer poorly positioned for follow-through",
+        "correction": "Initiate the toss with explosive hip rotation toward the toss direction, letting the arms guide the legs while the core generates the primary force"
+      },
+      {
+        "error": "Telegraphing the toss direction by shifting weight or head position too early",
+        "consequence": "Opponent reads the direction change before it happens and pre-adjusts their defensive frames to resist the lateral force, neutralizing the misdirection advantage",
+        "correction": "Keep head and weight centered until the moment of the toss, making the loading phase as brief and subtle as possible"
+      },
+      {
+        "error": "Standing too upright during the toss, creating space under your body",
+        "consequence": "Opponent can dive underneath for deep half guard during the toss motion, turning your offensive action into a defensive crisis",
+        "correction": "Maintain a low, compressed posture throughout the toss with your hips close to the opponent's body, eliminating the space needed for deep half entry"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Foundation",
+        "focus": "Grip mechanics and pressure loading",
+        "description": "Practice establishing deep double unders control with proper grip behind opponent's back. Focus on forward stacking pressure mechanics and weight distribution. No toss motion yet - build the prerequisite pressure platform. Partner remains passive, allowing you to refine grip depth and chest contact angles."
+      },
+      {
+        "phase": "Redirection Mechanics",
+        "focus": "Hip rotation and lateral sweep coordination",
+        "description": "With a compliant partner, practice the toss motion at 30-50% speed. Focus on hip rotation as the primary force generator, arm sweep coordination, and the transition from forward pressure to lateral redirection. Isolate the mechanical sequence before adding speed or resistance."
+      },
+      {
+        "phase": "Follow-Through Integration",
+        "focus": "Toss-to-side-control as one motion",
+        "description": "Combine the toss with immediate follow-through to side control. Practice dropping chest to mat, establishing crossface, and settling hips as a continuous sequence after the toss. Partner provides light resistance during consolidation phase. Develop the habit of treating toss and follow-through as inseparable."
+      },
+      {
+        "phase": "Live Chain Passing",
+        "focus": "Timing, direction selection, and passing chains",
+        "description": "Integrate the toss pass into live double unders passing sequences alongside stack pass and body lock options. Practice reading opponent's defensive frame orientation to select the optimal pass. Increase resistance progressively to competition-level intensity. Develop the ability to switch between toss and stack based on real-time defensive reads."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the optimal timing for initiating the toss after establishing double unders control?",
+        "answer": "The toss should be initiated after driving sustained forward pressure for 2-3 seconds, loading the opponent's defensive frames vertically. The ideal moment is when you feel the opponent committing their frames fully to resist your forward drive, as their defensive structure is then oriented in the wrong plane to resist lateral redirection. Initiating too early before establishing forward pressure telegraphs the toss and allows easy defensive adjustment."
+      },
+      {
+        "question": "How does grip positioning differ between the standard stack pass and the toss pass from double unders?",
+        "answer": "For the toss pass, the grip should be slightly asymmetric compared to the centered grip used for stacking. Shift your clasped hands subtly toward the side you intend to toss, pre-loading the lateral vector while still appearing to drive forward. The grip must remain deep behind the opponent's back to maintain control throughout the explosive redirection - shallow grips will separate during the toss motion, releasing the legs prematurely."
+      },
+      {
+        "question": "Your opponent is successfully framing against your forward pressure with stiff arms on your shoulders - how do you transition to the toss pass?",
+        "answer": "Their stiff arm frames are oriented to resist vertical stacking pressure, making this the ideal moment for the toss pass. Continue driving forward to maintain their frame commitment, then explosively redirect their legs laterally to the side where their frame is weaker. The stiff arms cannot redirect quickly enough to resist the lateral force, and by the time they attempt to adjust, your chest should already be dropping to the mat on the passing side."
+      },
+      {
+        "question": "What body mechanics generate the most effective toss from the double unders position?",
+        "answer": "The toss is generated primarily through hip rotation combined with a lateral sweeping motion of the arms, not through arm strength alone. Your hips should rotate toward the toss direction while your arms guide the legs, using your core as the primary force generator. Think of it as a lateral hip thrust combined with an arm sweep. Your feet must be positioned with toes engaged to allow the hip rotation - a wide flat-footed stance limits rotational power."
+      },
+      {
+        "question": "What should your immediate priority be in the first two seconds after completing the toss?",
+        "answer": "Immediate chest-to-mat contact on the passing side is the absolute priority. Your crossface arm must reach across and control the opponent's head before they can turn toward you, and your hips must drop heavy against their hips to prevent any guard recovery. The two-second window after the toss is critical because the opponent is momentarily disoriented by the directional change. Any delay allows them to establish defensive frames or insert a knee for half guard."
+      },
+      {
+        "question": "When should you choose to toss to the left versus the right side?",
+        "answer": "Toss toward the side where the opponent's defensive frames are weaker or absent. If they have a strong frame on your right shoulder, toss left. Also consider your own dominant side for establishing crossface, as most practitioners have a preferred side control side. Additionally, if the opponent has one leg slightly more extended than the other, toss toward the extended leg side as it provides less resistance to the lateral redirection."
+      },
+      {
+        "question": "You attempt the toss pass but the opponent hooks your leg with a butterfly hook mid-toss - what is your immediate adjustment?",
+        "answer": "Do not fight the butterfly hook directly or try to restart the toss. Instead, immediately transition to a leg weave or half guard passing configuration using the momentum you already generated. Continue driving forward past the hook rather than pulling back. Your weight should pin their hooking leg while you work to clear it from a half guard top position. The toss momentum actually assists this transition if you redirect rather than resist."
+      },
+      {
+        "question": "How do you prevent the opponent from diving to deep half guard during the toss attempt?",
+        "answer": "Maintain a low, compressed posture with your hips close to the opponent's body throughout the toss, eliminating the space they need to rotate underneath you. If you sense them attempting to dive under during the loading phase, immediately walk your knees forward to pin their hips before initiating the toss. The deep half entry requires space under your hips - by keeping your posture low and hips connected, you deny the prerequisite space for this escape."
+      }
+    ],
+    "safety_considerations": "The Toss Pass involves explosive lateral redirection of the opponent's lower body which can stress the lumbar spine and hip joints if performed with excessive force. Partners should communicate comfort levels during drilling, especially regarding the intensity of the toss. The technique works through precise redirection rather than raw power - avoid slamming legs to the mat. Be mindful of training partners with lower back, hip, or knee injuries. During the follow-through, control your chest drop to avoid landing with full force on the opponent's ribs. Always allow controlled landing and avoid explosive toss practice with significantly smaller partners where the force differential creates injury risk."
+  },
+  "defender": {
+    "name": "Toss Pass from Double Unders Defender",
+    "description": "Defend the Toss Pass from Double Unders in BJJ. Recognition cues, frame timing, and guard recovery strategies to counter explosive lateral passing techniques effectively.",
+    "overview": "Defending the Toss Pass from Double Unders requires the bottom player to recognize the subtle cues that differentiate an incoming toss from a standard stack pass, then rapidly adjust their defensive frame orientation from vertical resistance to lateral or diagonal coverage. The defender is already in a compromised double unders bottom position, making early recognition critical since reactive defense after the toss initiates is extremely difficult. The primary defensive strategy involves maintaining frames that resist force from multiple directions simultaneously, and if the toss initiates, immediately working to insert hooks or create frames on the landing side rather than attempting to resist the directional change. Successful defense typically results in guard recovery to half guard or open guard rather than a complete position reversal.",
+    "key_principles": [
+      "Maintain diagonal frame orientation that resists both vertical stacking and lateral redirection rather than committing frames to a single plane",
+      "Recognize pre-toss cues early including grip shifts, head repositioning, and changes in pressure direction to prepare defensive adjustments",
+      "Never fight the toss direction once initiated - redirect your energy to establishing frames and hooks on the landing side",
+      "Keep at least one butterfly hook or knee shield threatening at all times to prevent clean leg clearance during the toss",
+      "Use the opponent's commitment to the toss as an opportunity to create space for guard recovery during their directional transition",
+      "Prioritize hip mobility over upper body frames - the ability to rotate your hips during the toss determines whether you recover guard or get passed"
+    ],
+    "recognition_cues": [
+      "Opponent's grip behind your back shifts subtly to one side, pre-loading the lateral redirection direction",
+      "Opponent's head position moves to the opposite side of the intended toss, counterbalancing for the explosive rotation",
+      "Forward stacking pressure briefly lightens or changes angle as the opponent loads their hips for rotational power",
+      "Opponent's feet reposition with toes engaged and weight shifting to the balls of their feet, preparing for hip rotation",
+      "A subtle pause in the opponent's forward pressure progression as they transition from stacking to toss loading"
+    ],
+    "defensive_options": [
+      {
+        "action": "Insert butterfly hook on the anticipated toss side before the toss initiates, blocking clean leg clearance",
+        "when_to_use": "When you recognize pre-toss cues early, particularly the grip shift and head repositioning, before the explosive motion begins",
+        "targets_outcome": "Half Guard/Top",
+        "if_successful": "Your hook prevents the opponent's legs from clearing completely, forcing them into a half guard top scenario where you have established defensive structure",
+        "risk": "If the toss is powerful enough, the hook may be cleared anyway, and your leg positioning may leave you more vulnerable than standard frames"
+      },
+      {
+        "action": "Frame against opponent's shoulder and hip escape away during the toss motion, using the directional change to create separation distance",
+        "when_to_use": "During the toss execution when the opponent's grip loosens momentarily as they redirect force from vertical to lateral",
+        "targets_outcome": "Open Guard/Top",
+        "if_successful": "You create enough distance to recover open guard with feet on hips or butterfly hooks before the opponent can follow through to side control",
+        "risk": "If your frames are insufficient, the hip escape may leave you flat on your back with the opponent passing directly into side control"
+      },
+      {
+        "action": "Grip opponent's wrist or sleeve on the near side to prevent them from releasing underhook for crossface during follow-through",
+        "when_to_use": "When the toss has already initiated and you cannot prevent the leg clearance, focus on preventing the side control consolidation",
+        "targets_outcome": "Double Unders/Top",
+        "if_successful": "The opponent cannot establish crossface after the toss, giving you time to turn into them and re-establish guard before side control is consolidated",
+        "risk": "The grip may not hold against the explosive motion, and focusing on wrist control may distract from more effective hip movement and frame creation"
+      },
+      {
+        "action": "Turn hips toward the toss direction and immediately establish knee shield on the landing side",
+        "when_to_use": "During the toss when you feel your legs being redirected, accept the direction and use the momentum to establish defensive structure on the landing side",
+        "targets_outcome": "Half Guard/Top",
+        "if_successful": "You establish knee shield half guard before the opponent can consolidate side control, maintaining a strong defensive guard position",
+        "risk": "Turning too aggressively into the toss may expose your back if the opponent reads the turn and transitions to a back take"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Open Guard/Top",
+        "how": "Create maximum frames during the toss transition phase when the opponent's grip loosens. Hip escape aggressively during the directional change, using the brief moment of instability to create separation distance. Immediately establish feet on hips or butterfly hooks before the opponent can re-engage."
+      },
+      {
+        "outcome": "Half Guard/Top",
+        "how": "Insert a butterfly hook or knee shield on the toss side before or during the leg redirection. Accept the directional change rather than fighting it, and use the momentum to establish strong half guard retention with knee shield positioned across the opponent's hip line."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Committing all defensive frames to vertical resistance against the stacking pressure, leaving no lateral coverage",
+        "consequence": "When the toss redirects laterally, all your frames are bypassed completely and you have zero defensive structure on the landing side, resulting in a clean pass to side control",
+        "correction": "Maintain at least one frame in a diagonal orientation that provides partial resistance to both vertical and lateral force, ensuring you always have some defensive coverage regardless of toss direction"
+      },
+      {
+        "error": "Attempting to resist the toss direction by grabbing the opponent's body and holding position",
+        "consequence": "You waste energy fighting the explosive force of the toss while being dragged along with the motion, ending up flat on the mat with no frames and no guard structure",
+        "correction": "Accept the directional change and immediately redirect your energy to establishing defensive frames and hooks on the landing side rather than resisting the toss momentum"
+      },
+      {
+        "error": "Keeping legs straight and passive during the double unders control, providing easy toss targets",
+        "consequence": "Straight passive legs offer no resistance to lateral redirection and eliminate all guard recovery options, making the toss pass almost guaranteed to succeed",
+        "correction": "Keep legs actively bent with constant threat of butterfly hooks or knee shields, forcing the opponent to manage your leg activity while attempting the toss"
+      },
+      {
+        "error": "Focusing on pushing the opponent's chest away rather than controlling their hips and arms",
+        "consequence": "Chest pushes do not affect the toss mechanics which operate through hip rotation and underhook control, wasting your defensive energy on ineffective resistance",
+        "correction": "Direct your frames toward the opponent's hips and shoulders where they affect the toss mechanics, and prioritize controlling their wrists to prevent crossface establishment after the toss"
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What are the earliest recognition cues that indicate a toss pass is being attempted rather than a standard stack pass?",
+        "answer": "The key differentiators are a shift in the opponent's grip behind your back toward one side, a change in their head position toward the opposite side of the intended toss, and a momentary lightening of pure downward pressure as they prepare to redirect laterally. If you feel the pressure change from purely vertical to slightly angled, the toss is likely imminent. The opponent's feet may also reposition to allow hip rotation."
+      },
+      {
+        "question": "Your opponent has begun the toss motion and your legs are being redirected to the left - what is your best immediate defensive response?",
+        "answer": "As your legs are being swept left, immediately fight to insert your right knee across their body to establish a knee shield or hook their left leg for half guard. Simultaneously, your left hand should frame against their right shoulder or hip to create space on the landing side. Do not try to resist the toss direction - use the momentum to turn your hips and begin guard recovery on the side where they will attempt to establish side control."
+      },
+      {
+        "question": "How should you adjust your defensive frame orientation when you suspect the opponent may attempt a toss pass?",
+        "answer": "Shift from bilateral vertical frames to diagonal frames that can resist lateral force from either direction. Instead of both hands pushing against their shoulders, position one forearm across their neck and the other on their hip, creating a diagonal frame structure that resists force from multiple directions. This diagonal orientation means that whether they continue stacking vertically or redirect laterally, at least one of your frames maintains structural integrity."
+      },
+      {
+        "question": "What is the most common defensive mistake when the toss pass is initiated, and how do you avoid it?",
+        "answer": "The most common mistake is attempting to hold onto the opponent's body during the toss, which results in being dragged along with the motion and ending up flat with no defensive structure. Instead of resisting the directional change, accept it and immediately work to establish new frames and hooks on the landing side. Fighting the toss direction wastes energy and delays the critical frame creation needed to prevent side control consolidation."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Recognition Training",
+        "focus": "Identifying toss pass cues versus stack pass cues",
+        "description": "Partner announces whether they will attempt toss pass or stack pass from double unders. Practice identifying the pre-toss cues including grip shifts, head repositioning, and pressure changes. Build pattern recognition without defensive action first, then add frame adjustments once cues are reliably detected."
+      },
+      {
+        "phase": "Frame Adjustment Drilling",
+        "focus": "Multi-directional defensive frame positioning",
+        "description": "Practice switching from vertical anti-stacking frames to diagonal frames that cover lateral redirection. Partner slowly initiates toss motions in both directions while you adjust frame orientation to maintain defensive coverage. Focus on maintaining at least one effective frame regardless of toss direction."
+      },
+      {
+        "phase": "Guard Recovery Under Pressure",
+        "focus": "Post-toss hook insertion and guard re-establishment",
+        "description": "Partner completes the toss at progressively increasing intensity and speed. Practice inserting knee shields, butterfly hooks, or hip escaping during and immediately after the toss motion to prevent pass consolidation. Build the reflex of accepting the toss direction and immediately working guard recovery on the landing side."
+      }
+    ]
+  }
+}

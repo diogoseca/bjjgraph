@@ -1,0 +1,416 @@
+{
+  "name": "Knee Slide from Jailbreak",
+  "description": "Master the Knee Slide from Jailbreak in BJJ. Complete passing guide with execution steps, defensive counters, and training drills for this advanced technique.",
+  "tags": [
+    "guard-pass",
+    "knee-slide",
+    "jailbreak",
+    "half-guard",
+    "pressure-passing",
+    "advanced",
+    "10th-planet"
+  ],
+  "from_position": "Jailbreak/Top",
+  "outcomes": [
+    {
+      "to": "Side Control/Top",
+      "probability": 55,
+      "result": "success"
+    },
+    {
+      "to": "Half Guard/Top",
+      "probability": 25,
+      "result": "failure"
+    },
+    {
+      "to": "Half Guard/Bottom",
+      "probability": 20,
+      "result": "counter"
+    }
+  ],
+  "success_rate": 55,
+  "overview": "The Knee Slide from Jailbreak is a precision guard pass that exploits the extended leg configuration created when the bottom player attempts the Jailbreak escape from half guard. Unlike a standard knee slice where the passer must first contend with knee shields and lockdown entanglements, the Jailbreak position pre-positions the bottom player's legs in an extended configuration that creates natural passing lanes for the knee slide. The top player drives their knee diagonally across the bottom player's thigh line while maintaining heavy crossface pressure, using the gap between the extended legs and torso as the primary passing corridor.\n\nTiming is the decisive factor in this technique. The window for the knee slide exists only while the bottom player's legs remain extended and before they can retract to re-establish half guard frames or transition to deep half. The top player must read the moment when the bottom player's legs are maximally extended and their hip mobility is most compromised, then commit to the slide with conviction. Hesitation allows the bottom player to recover knee shield position or insert butterfly hooks that neutralize the passing lane entirely.\n\nStrategically, this pass fits within the broader Jailbreak passing system as a targeted option when the bottom player's leg extension creates a clear knee slide corridor. It pairs effectively with smash passes and leg weave options from the same position, as the bottom player's defense against the knee slide opens pathways for these alternative passes. The technique is particularly effective when combined with strong crossface control that turns the bottom player's head away, preventing them from facing into the passer and re-establishing defensive frames. Advanced practitioners use the knee slide threat to force defensive reactions that expose higher-percentage passing opportunities.",
+  "conditions": [
+    "Bottom player's legs are extended in Jailbreak configuration away from torso",
+    "Top player has established crossface or collar tie controlling bottom player's head position",
+    "Forward pressure maintained preventing bottom player from retracting legs to re-guard",
+    "Clear passing lane exists between bottom player's extended legs and their torso"
+  ],
+  "variants_and_adaptations": [
+    {
+      "variant_name": "No-Gi Collar Tie Knee Slide",
+      "description": "Uses collar tie and head snap to control the bottom player's posture while executing the knee slide. The collar tie provides directional control of the head that substitutes for gi-based crossface grips, while the snap-down motion loads weight onto the bottom player's shoulders to pin them flat during the slide.",
+      "when_to_use": "In no-gi situations where crossface control is less sticky and the bottom player can more easily turn into the pass"
+    },
+    {
+      "variant_name": "Underhook Knee Slide",
+      "description": "Instead of crossface, the passer establishes a deep underhook on the far side and uses it to lift the bottom player's shoulder off the mat while driving the knee across. This creates an angle that exposes the back if the bottom player turns away, adding a secondary threat to the passing sequence.",
+      "when_to_use": "When the bottom player has strong frames preventing crossface establishment, or when you want to threaten back take as a secondary option"
+    },
+    {
+      "variant_name": "Backstep Knee Slide",
+      "description": "The passer initiates a backstep motion as if entering a leg entanglement, then redirects the momentum into a knee slide when the bottom player reacts by pulling legs back. Exploits the bottom player's defensive reaction to the backstep threat to create the passing lane.",
+      "when_to_use": "Against opponents who are vigilant about the standard knee slide and maintain strong leg frames, but react defensively to backstep entries"
+    }
+  ],
+  "position_integration": "The Knee Slide from Jailbreak occupies a specific niche within the half guard passing ecosystem, serving as a targeted option when the Jailbreak bottom escape creates the extended leg configuration that standard half guard top does not present. It connects the Jailbreak passing position to side control, completing the passing sequence that begins when the top player navigates past the initial half guard frames. This technique integrates with smash passes, leg weaves, and backstep entries from Jailbreak top, forming a passing chain where defense of one option opens another. Understanding this pass is essential for any practitioner who regularly encounters the Jailbreak escape in their half guard passing game.",
+  "related_content": [
+    {
+      "name": "Jailbreak",
+      "relationship": "Source position from which this pass is initiated when bottom player extends legs"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Parent position system containing the Jailbreak variation as an escape option"
+    },
+    {
+      "name": "Side Control",
+      "relationship": "Primary target position achieved on successful pass completion"
+    },
+    {
+      "name": "Headquarters Position",
+      "relationship": "Related passing position with similar leg navigation and pressure mechanics"
+    },
+    {
+      "name": "Deep Half Guard",
+      "relationship": "Counter position the bottom player may enter to prevent the knee slide"
+    },
+    {
+      "name": "Knee Shield Half Guard",
+      "relationship": "Defensive structure bottom player may establish if they retract legs in time"
+    },
+    {
+      "name": "Flattened Half Guard",
+      "relationship": "Related intermediate state when top player pins bottom player before completing slide"
+    },
+    {
+      "name": "Lockdown",
+      "relationship": "Leg entanglement counter the bottom player may attempt to trap the sliding knee"
+    },
+    {
+      "name": "Dogfight Position",
+      "relationship": "Scramble position arising if bottom player achieves underhook during pass attempt"
+    },
+    {
+      "name": "Combat Base",
+      "relationship": "Alternative passing stance the top player may adopt if knee slide is heavily defended"
+    },
+    {
+      "name": "Back Control",
+      "relationship": "Secondary target when underhook knee slide variant exposes opponent's back"
+    }
+  ],
+  "attacker": {
+    "name": "Knee Slide from Jailbreak Attacker",
+    "description": "Execute the Knee Slide from Jailbreak pass in BJJ. Step-by-step guide covering crossface control, knee positioning, hip pressure mechanics, and passing completion to side control.",
+    "overview": "From the attacker's perspective, the Knee Slide from Jailbreak capitalizes on the momentary vulnerability created when the bottom player's legs are extended away from their torso in the Jailbreak configuration. The passer must read the leg extension, maintain heavy upper body control through crossface or collar tie, and drive the knee diagonally across the thigh line before the bottom player can retract and re-establish defensive frames. Success requires combining precise timing with committed forward pressure, as the passing window is brief and half-measures result in the bottom player recovering half guard or worse.",
+    "key_principles": [
+      "Maintain heavy crossface throughout the entire slide to turn opponent's head away and prevent them from facing into the pass",
+      "Drive the knee at a diagonal angle across the thigh line rather than straight down, creating a wedge that separates the legs",
+      "Use hip pressure to pin the bottom player's near leg to the mat while the knee slides through the passing corridor",
+      "Keep chest low and connected to the opponent's torso to prevent any space creation during the transition",
+      "Time the knee slide during maximum leg extension when the bottom player's frames are weakest and hip mobility most compromised",
+      "Commit fully once the slide begins because hesitation allows re-guard and makes the pass significantly harder to complete"
+    ],
+    "setup_requirements": [
+      "Established crossface, collar tie, or heavy shoulder pressure controlling the bottom player's head and preventing them from turning toward the passer",
+      "Bottom player's legs in extended Jailbreak configuration with clear separation between legs and torso creating a passing lane",
+      "Forward pressure maintained with chest connected to opponent preventing space creation or leg retraction",
+      "Free leg posted with foot flat on the mat providing the driving power and base stability needed to execute the slide",
+      "Grip on the far side of the bottom player's body through underhook, lapel, or belt to prevent them from turning away during the pass"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Secure crossface and upper body control",
+        "description": "From Jailbreak top, drive your shoulder into the bottom player's jaw or cheekbone, turning their head away from the direction you intend to slide. Establish a crossface grip behind their far shoulder or a collar tie on their head. This upper body control must be locked in before any leg movement begins, as it prevents the bottom player from turning to face you and re-establishing defensive frames."
+      },
+      {
+        "step_number": 2,
+        "action": "Identify the passing lane",
+        "description": "Read the bottom player's leg configuration to confirm the extended Jailbreak position creates a viable passing corridor. Look for the gap between their extended legs and their torso where your knee will travel. If their legs are actively retracting or they have already inserted a knee shield, abort the knee slide and switch to a smash pass or leg weave instead."
+      },
+      {
+        "step_number": 3,
+        "action": "Position the sliding knee at the entry point",
+        "description": "Angle your trapped-side knee toward the gap between the bottom player's thighs and their hip. The knee should be oriented diagonally rather than pointing straight down, creating a wedge shape that will separate the legs as it travels across. Your foot should be light enough to move freely while your upper body maintains all the control pressure."
+      },
+      {
+        "step_number": 4,
+        "action": "Drive the knee across the thigh line",
+        "description": "In one committed motion, drive your knee diagonally across the bottom player's near thigh while simultaneously increasing your crossface pressure. Your hip drives forward and downward, using your body weight to power the slide rather than muscular effort alone. The knee should travel from outside the bottom player's hip to past their center line, cutting through the passing corridor created by the extended legs."
+      },
+      {
+        "step_number": 5,
+        "action": "Pin the bottom leg with hip pressure",
+        "description": "As your knee clears the thigh line, drop your hip weight onto the bottom player's near leg to pin it to the mat. This prevents them from recovering half guard by re-trapping your leg. Your sliding knee should now be past their hip line with your shin pressing across their thigh, creating a barrier that blocks any re-guard attempt from below."
+      },
+      {
+        "step_number": 6,
+        "action": "Clear the far leg and prevent re-guard",
+        "description": "Use your free leg to push away the bottom player's far leg or step over it entirely, eliminating the last remaining guard structure. If the bottom player attempts to hook your ankle with their far foot, use a quick sprawling motion to free it. Maintain crossface pressure throughout this phase to prevent them from turning into you and recovering any form of guard."
+      },
+      {
+        "step_number": 7,
+        "action": "Extract the sliding leg completely",
+        "description": "Windshield-wiper your sliding leg free from any remaining contact with the bottom player's legs, pulling your foot out behind you. This extraction must be quick and decisive because any lingering leg contact gives the bottom player a handle to re-establish half guard. Keep your hips heavy on their torso during the extraction to prevent them from creating the space needed to re-entangle."
+      },
+      {
+        "step_number": 8,
+        "action": "Consolidate side control",
+        "description": "Once both legs are free, immediately settle into side control by establishing chest-to-chest pressure with near-side underhook and far-side crossface. Drive your hips to the mat and spread your legs for base, eliminating any remaining space between your bodies. Transition your grip configuration from passing grips to side control retention grips, securing the position before the bottom player can create frames or begin escape sequences."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Bottom player retracts legs and re-establishes knee shield before knee slide completes",
+        "effectiveness": "High",
+        "your_response": "Recognize the retraction early and switch to a smash pass by driving your shoulder pressure forward and collapsing the knee shield, or transition to headquarters position to re-read the passing options",
+        "targets_outcome": "Half Guard/Top"
+      },
+      {
+        "counter": "Bottom player secures underhook and sits up into dogfight position during the slide",
+        "effectiveness": "Medium",
+        "your_response": "Apply immediate whizzer on the underhooking arm and drive your weight forward to reflatten them, or if they are already elevated, switch to circling toward their back to exploit the exposed position",
+        "targets_outcome": "Half Guard/Top"
+      },
+      {
+        "counter": "Bottom player hip escapes underneath to enter deep half guard before the slide clears",
+        "effectiveness": "Medium",
+        "your_response": "Sprawl your hips back and post your free hand on the mat to prevent being swept. Reestablish crossface and work a deep half guard passing sequence, or use a backstep to free your trapped leg",
+        "targets_outcome": "Half Guard/Top"
+      },
+      {
+        "counter": "Bottom player bridges and rolls during the knee slide transition to reverse position",
+        "effectiveness": "Low",
+        "your_response": "Maintain heavy crossface and low center of gravity throughout the slide. If the bridge catches you off-balance, post with your free hand and drive your weight back to center. The crossface should prevent any effective bridging direction",
+        "targets_outcome": "Half Guard/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Initiating the knee slide before establishing upper body control through crossface or collar tie",
+        "consequence": "Bottom player turns into the pass, establishes frames, and easily re-guards or sweeps during the sliding motion",
+        "correction": "Lock in crossface or collar tie control first, confirm the bottom player's head is turned away, then begin the knee slide with confidence that upper body control will hold throughout"
+      },
+      {
+        "error": "Sliding the knee straight down instead of at a diagonal angle across the thigh line",
+        "consequence": "The knee gets caught on the bottom player's hip bone or trapped between their legs, stalling the pass and allowing guard recovery",
+        "correction": "Angle the knee diagonally from outside their hip toward their center line, creating a wedge that separates the legs rather than getting caught between them"
+      },
+      {
+        "error": "Rising up onto hands or knees during the slide, losing chest-to-chest pressure",
+        "consequence": "Bottom player creates space to insert frames, retract legs, or sit up into offensive position, neutralizing the passing attempt entirely",
+        "correction": "Stay low throughout the entire slide with chest weight driving into the bottom player's torso. Let body weight power the pass rather than creating space to generate movement"
+      },
+      {
+        "error": "Failing to pin the bottom leg with hip pressure after clearing the thigh line",
+        "consequence": "Bottom player re-traps the sliding leg with their near leg, recovering half guard and resetting the entire passing sequence",
+        "correction": "Immediately drop hip weight onto the near leg as soon as the knee clears the thigh line, treating the leg pin as a non-negotiable step before attempting to clear the far leg"
+      },
+      {
+        "error": "Attempting the knee slide when the bottom player's legs are already retracting from Jailbreak",
+        "consequence": "The passing lane has closed and the knee meets resistance from knee shield or butterfly hooks, resulting in a stalled pass or sweep",
+        "correction": "Read the leg configuration before committing. Only initiate the knee slide when legs are extended and the passing corridor is clearly open. If legs are retracting, switch to smash pass or pressure pass"
+      },
+      {
+        "error": "Releasing crossface control during leg extraction to use both hands for the legs",
+        "consequence": "Bottom player immediately turns toward the passer and re-establishes guard or initiates sweep sequences with the freed upper body",
+        "correction": "Maintain crossface control with one hand throughout the entire extraction phase. Only one hand should work on clearing legs while the other keeps the bottom player's head turned away"
+      },
+      {
+        "error": "Rushing through the consolidation phase instead of settling side control properly",
+        "consequence": "Bottom player immediately frames and begins side control escapes before the passer has established stable control, often recovering guard",
+        "correction": "Take one to two seconds after clearing the legs to fully settle into side control with proper weight distribution, grips, and base before considering any next moves"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Mechanics Isolation",
+        "focus": "Knee slide path and hip pressure",
+        "description": "Partner holds static Jailbreak bottom position with extended legs and zero resistance. Practice the knee slide motion repeatedly, focusing on diagonal knee angle, hip drop timing, and smooth extraction. 20 repetitions per side with emphasis on correct path rather than speed."
+      },
+      {
+        "phase": "Phase 2: Upper Body Integration",
+        "focus": "Coordinating crossface with knee slide",
+        "description": "Add crossface establishment before each repetition. Partner provides light upper body resistance by attempting to turn toward the passer. Focus on maintaining crossface pressure throughout the entire slide without any moment of disconnection. 10 repetitions per side."
+      },
+      {
+        "phase": "Phase 3: Reaction-Based Drilling",
+        "focus": "Reading leg configuration and switching passes",
+        "description": "Partner alternates between holding extended Jailbreak legs and retracting to knee shield. Passer must read the leg position and choose knee slide when legs are extended or smash pass when legs retract. Develops decision-making speed and technique selection accuracy."
+      },
+      {
+        "phase": "Phase 4: Progressive Resistance Sparring",
+        "focus": "Completing the pass under increasing resistance",
+        "description": "Start from Jailbreak top position. Bottom player provides 50% resistance in round one, 75% in round two, and full resistance in round three. Passer wins by achieving stable side control, bottom player wins by recovering guard or sweeping. 3-minute rounds with position resets."
+      },
+      {
+        "phase": "Phase 5: Chain Passing Integration",
+        "focus": "Combining knee slide with alternative passes",
+        "description": "From Jailbreak top, flow between knee slide, smash pass, and leg weave based on bottom player's defensive reactions at full resistance. Focus on recognizing when each pass is available and transitioning smoothly between options rather than forcing any single technique."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the optimal timing window for initiating the Knee Slide from Jailbreak?",
+        "answer": "The optimal window is when the bottom player's legs are at maximum extension in the Jailbreak configuration and their hip mobility is most compromised. This occurs when they have fully committed to the leg extension defense and before they begin retracting to re-establish knee shield or butterfly hooks. Reading this moment requires feeling the bottom player's leg tension through your body contact. If their legs are actively moving or retracting, the window has closed and you should switch to an alternative pass."
+      },
+      {
+        "question": "What entry conditions must exist before you can attempt the Knee Slide from Jailbreak?",
+        "answer": "Four conditions must be present: crossface or collar tie must be established controlling the bottom player's head direction, the bottom player's legs must be extended in the Jailbreak configuration creating a visible passing corridor, forward chest-to-chest pressure must be maintained preventing space creation, and your free leg must be posted with foot flat on the mat to provide driving power. Without all four conditions, the pass will stall or be easily countered by re-guard attempts."
+      },
+      {
+        "question": "What is the most critical mechanical detail in the knee slide motion itself?",
+        "answer": "The most critical detail is the diagonal angle of the knee as it crosses the thigh line. The knee must travel at an angle from outside the bottom player's hip toward their center line, creating a wedge that separates the legs. Sliding the knee straight down rather than diagonally causes it to catch on the hip bone or become trapped between the legs, stalling the entire pass. The diagonal wedge action is what makes the technique efficient and prevents the common stalling problem."
+      },
+      {
+        "question": "Your opponent starts retracting their legs as you begin the knee slide. How do you adjust?",
+        "answer": "Immediately abort the knee slide and transition to a smash pass or pressure pass. The retracting legs mean the passing corridor is closing and forcing the knee slide will result in meeting knee shield or butterfly hook resistance. Drive your shoulder pressure forward and collapse their defensive structure with weight rather than trying to thread your knee through a narrowing gap. Alternatively, switch to headquarters position to reassess the available passing options."
+      },
+      {
+        "question": "What grip configuration do you need to maintain throughout the passing sequence?",
+        "answer": "The primary grip is the crossface, with your arm behind the bottom player's far shoulder and your shoulder or forearm driving into their jaw to turn their head away. The secondary grip is on the far side of their body through an underhook, lapel grip, or belt grip to prevent them from turning away during the pass. The crossface grip must never be released during the knee slide or leg extraction phases, as it is the single most important control preventing re-guard."
+      },
+      {
+        "question": "What is the primary direction of force during the knee slide execution?",
+        "answer": "The force is driven diagonally forward and downward through the hips and chest. The forward component maintains chest-to-chest connection and prevents the bottom player from creating space, while the downward component pins their body to the mat and powers the knee across the thigh line. This diagonal force vector uses your body weight rather than muscular effort, making the pass energy-efficient. Driving purely forward without downward pressure allows the bottom player to bridge, while driving purely downward without forward pressure allows space for re-guard."
+      },
+      {
+        "question": "Your opponent secures an underhook and begins sitting up during your knee slide attempt. What is your response?",
+        "answer": "Apply an immediate whizzer on their underhooking arm by overhooking it and driving your weight forward to reflatten them. If they have already elevated significantly and the whizzer cannot reflatten them, switch to circling toward their back by following their upward momentum and looking for back exposure rather than fighting their leverage head-on. Never try to force them flat with pure strength once they have underhook leverage established, as this creates a losing strength battle."
+      },
+      {
+        "question": "If the knee slide is blocked and you remain in Jailbreak top, what chain attacks become available?",
+        "answer": "The primary chains are smash pass if the bottom player retracts legs to knee shield, leg weave pass if their legs remain extended but block the knee slide path, and backstep to leg entanglement if they commit their underhook to defend the pass. A darce choke opportunity may also present if the bottom player turns their head toward you while defending. The key is recognizing which defense they used to block the knee slide, as each defensive choice opens a specific alternative passing pathway."
+      }
+    ],
+    "safety_considerations": "The Knee Slide from Jailbreak is a relatively low-risk technique that does not directly target joints or the neck. However, the top player must be mindful of driving excessive pressure through the crossface onto the bottom player's jaw, which can cause TMJ issues or neck strain. The knee slide itself should not drive directly into the bottom player's knee joint, but rather across the thigh to avoid ligament stress. During training, partners should communicate clearly about pressure levels and the passer should develop sensitivity to avoid grinding the knee into the bottom player's body. Both players should be aware that explosive commitment to the slide or to countering it can create scramble situations where accidental knee-on-knee collisions or awkward landings occur."
+  },
+  "defender": {
+    "name": "Knee Slide from Jailbreak Defender",
+    "description": "Defend the Knee Slide from Jailbreak in BJJ. Recognition cues, defensive options, and counter-strategies for preventing this advanced half guard pass from completing.",
+    "overview": "Defending the Knee Slide from Jailbreak requires the bottom player to recognize the pass attempt early and act decisively before the passer's knee clears the thigh line. The extended leg configuration of the Jailbreak position creates vulnerability to the knee slide, so the defender must either retract legs quickly to re-establish frames, secure an underhook to prevent the crossface from controlling their head, or redirect into deep half guard before the passing lane opens completely. Once the knee has crossed the thigh line with hip pressure applied, defensive options diminish rapidly, making early recognition the most critical defensive skill.",
+    "key_principles": [
+      "Recognize the knee slide initiation before the knee crosses your thigh line, as defensive success drops dramatically once the slide is in motion",
+      "Retract legs immediately from extended Jailbreak position to re-establish knee shield or butterfly hooks that block the passing corridor",
+      "Fight aggressively for the underhook on the trapped leg side to prevent the crossface from controlling your head direction and spine alignment",
+      "Use hip escape motion to create the angle needed to insert frames between your body and the passer's chest before they consolidate pressure",
+      "Stay on your side rather than allowing your back to flatten to the mat, as being flat eliminates hip mobility and all defensive options",
+      "Chain defensive responses together rather than relying on a single defense, as the passer will adapt to any isolated counter"
+    ],
+    "recognition_cues": [
+      "Passer increases crossface pressure and turns your head away while their weight shifts forward, signaling imminent passing commitment",
+      "Passer's trapped-side knee angles diagonally toward the gap between your thighs and hip rather than remaining in standard half guard position",
+      "Passer's free leg posts firmly on the mat with increased drive through their hips, generating the power needed for the sliding motion",
+      "Passer's chest drops lower and heavier onto your torso as they prepare to use body weight to power the slide across your thigh line",
+      "Passer adjusts their far-side grip by reaching for your belt, far lapel, or underhook, securing the anchor that prevents you from turning away during the pass"
+    ],
+    "defensive_options": [
+      {
+        "action": "Retract legs and re-establish knee shield before the knee slide enters the passing corridor",
+        "when_to_use": "As soon as you feel the passer's knee angle change and weight shift indicating knee slide initiation, before the knee contacts your thigh",
+        "targets_outcome": "Half Guard/Top",
+        "if_successful": "Passer's knee meets your knee shield and the passing lane is blocked, resetting to standard half guard with defensive frames intact",
+        "risk": "If too slow, the passer's knee catches your retracting leg and drives through anyway with momentum, completing the pass with even less resistance"
+      },
+      {
+        "action": "Secure underhook on the trapped leg side and sit up aggressively into dogfight position",
+        "when_to_use": "When the passer commits their weight forward for the slide and their crossface loosens momentarily during the transition",
+        "targets_outcome": "Half Guard/Top",
+        "if_successful": "You achieve dogfight position with superior underhook, creating sweep opportunities and preventing the pass from completing",
+        "risk": "Passer applies whizzer to counter the underhook and uses your forward motion to drive you back flat into a worse position"
+      },
+      {
+        "action": "Hip escape underneath the passer and enter deep half guard before the knee clears the thigh line",
+        "when_to_use": "When the passer's weight drives forward onto your upper body during the slide, creating space underneath for hip escape",
+        "targets_outcome": "Half Guard/Top",
+        "if_successful": "You end up underneath the passer in deep half guard with sweep entries and the knee slide is completely neutralized",
+        "risk": "Passer sprawls back and prevents the deep half entry, leaving you flattened with compromised guard retention"
+      },
+      {
+        "action": "Bridge explosively during the knee slide transition to reverse position",
+        "when_to_use": "At the exact moment the passer's weight is most committed forward and their base is narrowest during the sliding motion",
+        "targets_outcome": "Half Guard/Bottom",
+        "if_successful": "You sweep the passer by exploiting their forward weight commitment, reversing to top position in the scramble",
+        "risk": "Passer has a wide base and the bridge fails, burning significant energy while the passer uses the space to complete the pass"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Half Guard/Bottom",
+        "how": "Time a bridge or hip escape at the exact moment the passer's weight commits forward for the knee slide, exploiting their narrow base and forward momentum to reverse position. Chain the bridge with an underhook on the far side and continue the sweeping motion through to top position."
+      },
+      {
+        "outcome": "Half Guard/Top",
+        "how": "Retract legs early to re-establish knee shield or butterfly hooks before the knee slide reaches the thigh line, forcing the passer back into standard half guard top where your frames prevent the pass. Alternatively, secure the underhook and sit up into dogfight where you have superior leverage."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Keeping legs extended in the Jailbreak position after recognizing the knee slide initiation instead of immediately retracting",
+        "consequence": "The extended legs provide the exact passing corridor the knee slide requires, and the pass completes easily through the open lane",
+        "correction": "As soon as you recognize the knee slide setup through the passer's knee angle change and weight shift, immediately retract your legs to re-establish knee shield or butterfly hooks that block the corridor"
+      },
+      {
+        "error": "Allowing your back to flatten to the mat when the passer applies crossface pressure during the slide",
+        "consequence": "Being flat eliminates all hip mobility needed for escapes, sweeps, and guard recovery, making the pass nearly impossible to defend",
+        "correction": "Maintain your position on your side facing the passer at all costs. Use your free leg to post and your far arm to frame against the crossface to keep your shoulders angled rather than flat"
+      },
+      {
+        "error": "Attempting to push the passer away with straight arms instead of maintaining elbow-to-knee connection",
+        "consequence": "Extended arms are easily collapsed by the passer's forward pressure and may be isolated for kimura or americana attacks",
+        "correction": "Keep elbows connected to your knees as your primary defensive structure. Only extend arms with purpose to specific grip targets rather than pushing against the passer's bodyweight"
+      },
+      {
+        "error": "Defending too late by only reacting after the passer's knee has already crossed the thigh line",
+        "consequence": "Once the knee is past the thigh line with hip pressure applied, defensive success rate drops below 20% and the pass is nearly complete",
+        "correction": "Develop sensitivity to the early recognition cues, especially the passer's knee angle change and weight shift. React to the setup, not to the completed slide"
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the earliest recognition cue that a Knee Slide from Jailbreak is being initiated?",
+        "answer": "The earliest cue is the passer's trapped-side knee changing angle from a neutral half guard position to pointing diagonally toward the gap between your thighs and hip. This angle change precedes the actual sliding motion by a fraction of a second and is accompanied by increased crossface pressure and a weight shift forward through the hips. Recognizing this knee angle change gives you the maximum time to initiate your defensive response before the slide begins."
+      },
+      {
+        "question": "Why is leg retraction the highest-percentage defensive response against this pass?",
+        "answer": "Leg retraction is the highest-percentage defense because it directly eliminates the passing corridor that the knee slide requires. When you retract your legs from the extended Jailbreak configuration and insert a knee shield or butterfly hook, you physically block the path the passer's knee needs to travel. Unlike counters that rely on timing or leverage, retraction simply removes the structural vulnerability. The key is speed: you must retract before the passer's knee enters the corridor."
+      },
+      {
+        "question": "How does the defender's body orientation affect their ability to stop the Knee Slide from Jailbreak?",
+        "answer": "Body orientation is decisive. Being on your side facing the passer preserves hip mobility needed for shrimping, guard recovery, and underhook battles. Being flat on your back eliminates all hip movement and makes every defense exponentially harder. The crossface is specifically designed to flatten you, so actively maintaining your side orientation through posting with your free leg and framing against the crossface is a prerequisite for any successful defense."
+      },
+      {
+        "question": "What should you do if the passer's knee has already crossed your thigh line during the slide?",
+        "answer": "Once the knee has crossed the thigh line, your primary options narrow significantly. Focus on preventing the passer from consolidating by immediately framing against their hip with your near arm and hip escaping to create enough space to get your knee inside as a frame. If you can insert your knee between your bodies, you can push back to half guard. If the pass is too far along, begin transitioning your defense to side control escape preparation rather than burning energy on a lost guard battle."
+      },
+      {
+        "question": "Your opponent fakes the knee slide and switches to a smash pass when you retract your legs. How do you adapt?",
+        "answer": "This is a common chain passing tactic. When you retract your legs and the passer switches to a smash pass, immediately reinforce your knee shield by adding a forearm frame behind your knee and angling your shin diagonally across their body. The knee shield that blocks the knee slide also serves as the first layer of defense against the smash pass. If they drive through the shield, switch to a deep half entry by diving underneath them, using their forward smashing pressure to create space below. Stay mentally prepared for pass switches rather than committing entirely to defending one specific pass."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Recognition Drilling",
+        "focus": "Identifying knee slide initiation cues from Jailbreak bottom",
+        "description": "Partner alternates between standard Jailbreak top pressure and knee slide initiation. Bottom player calls out 'slide' each time they recognize the setup cues without attempting to defend. Develops the pattern recognition needed to react in time during live training."
+      },
+      {
+        "phase": "Phase 2: Defensive Response Isolation",
+        "focus": "Practicing each defensive option in isolation against cooperative partner",
+        "description": "Partner initiates the knee slide at 30% speed and resistance. Bottom player practices each defensive response in isolation: leg retraction to knee shield, underhook to dogfight, deep half entry, and bridge counter. 10 repetitions of each defense per side."
+      },
+      {
+        "phase": "Phase 3: Decision-Based Defense",
+        "focus": "Choosing the correct defensive response based on the passer's timing and pressure",
+        "description": "Partner varies between fast knee slides and slow pressure slides at 60% resistance. Bottom player must read the speed and angle, then select the appropriate defense: retraction for early slides, underhook for slow committed pressure, deep half for heavy forward weight. Develops real-time decision-making."
+      },
+      {
+        "phase": "Phase 4: Full Resistance Positional Sparring",
+        "focus": "Defending under full resistance from Jailbreak bottom",
+        "description": "Start from Jailbreak bottom position. Top player attempts to pass using any technique including knee slide. Bottom player defends with full technique selection at 100% resistance. Bottom player wins by recovering guard or sweeping. 3-minute rounds with position resets after each success or pass."
+      }
+    ]
+  }
+}

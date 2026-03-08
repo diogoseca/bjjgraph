@@ -1,0 +1,398 @@
+{
+  "name": "Leg Drag from DLR",
+  "description": "Master the leg drag pass from De La Riva Guard. Complete BJJ guide covering grip sequences, hook clearing, timing windows, and defensive counters for all levels.",
+  "tags": [
+    "bjj",
+    "transition",
+    "guard-passing",
+    "leg-drag",
+    "de-la-riva",
+    "intermediate",
+    "passing-technique"
+  ],
+  "from_position": "De La Riva Guard/Top",
+  "outcomes": [
+    {
+      "to": "Leg Drag Control/Top",
+      "probability": 55,
+      "result": "success"
+    },
+    {
+      "to": "De La Riva Guard/Top",
+      "probability": 30,
+      "result": "failure"
+    },
+    {
+      "to": "Half Guard/Bottom",
+      "probability": 15,
+      "result": "counter"
+    }
+  ],
+  "success_rate": 55,
+  "overview": "The leg drag from De La Riva Guard is one of the most effective guard passing techniques in modern BJJ, used extensively at the highest levels of competition. The passer strips or neutralizes the DLR hook, controls the bottom player's legs at the ankle or pants level, and drags one leg across the opponent's body while stepping around to establish dominant hip control. This technique exploits the inherent vulnerability in DLR guard structure—the bottom player's commitment to the hook creates predictable leg positioning that the passer can redirect into a powerful passing angle.\n\nThe technique works by converting the bottom player's offensive guard structure into a passing pathway. When the DLR hook is active, the hooked leg is already partially extended toward the passer, making it available for redirection across the opponent's centerline. By controlling the ankle and pulling the leg diagonally while simultaneously circling the hips to the drag side, the passer bypasses the guard entirely and arrives in leg drag control—a dominant position with direct pathways to side control, back control, and mount.\n\nStrategically, the leg drag from DLR occupies a critical position in passing sequences because it chains naturally with toreando passes, knee slices, and backsteps. When a toreando is blocked, the leg drag is a natural continuation in the opposite direction. When a knee slice is stuffed, redirecting into a leg drag catches the guard player during their defensive transition. This chain-ability within a broader passing system makes the leg drag far more dangerous than it would be as an isolated technique, and understanding its integration with complementary passes is essential for consistent guard passing success.",
+  "conditions": [
+    "Top player is in De La Riva Guard facing an active DLR hook",
+    "Bottom player's DLR hook has been partially compromised or ankle grip is being contested",
+    "Top player has established at least one pants or ankle grip on the hooked leg",
+    "Top player has sufficient space and base to redirect the leg across the bottom player's body"
+  ],
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Standing Leg Drag",
+      "description": "Executed from a fully standing position with double pants grips, using explosive hip rotation to clear the DLR hook and drag simultaneously. The standing base provides additional leverage for the drag and makes it harder for the bottom player to follow with hip movement.",
+      "when_to_use": "When the bottom player's DLR guard is played at long range with feet-on-hips distance management, and you have achieved a strong standing posture with balanced base"
+    },
+    {
+      "variant_name": "Kneeling Pressure Drag",
+      "description": "Executed from combat base or kneeling position using collar and pants grips with a pressure-based approach. The passer drives forward to flatten the DLR player's hips before redirecting the leg, combining smash pressure with the drag angle.",
+      "when_to_use": "Against bottom players who maintain a compact DLR structure close to the passer, where standing creates too much space and allows guard transitions"
+    },
+    {
+      "variant_name": "Backstep-to-Drag",
+      "description": "Incorporates a backstep motion to clear the DLR hook by stepping the trapped leg backward and around, then immediately converting the cleared leg position into a drag. Uses the bottom player's hook commitment against them by redirecting their extended leg.",
+      "when_to_use": "When the bottom player maintains an extremely tight DLR hook that resists direct stripping, making conventional hook clearing ineffective"
+    }
+  ],
+  "position_integration": "The leg drag from DLR is a core component of any systematic guard passing game. It connects directly to the broader toreando and leg drag passing family and serves as a bridge between open guard engagement and dominant top control. The technique chains naturally with backstep passes, knee slices, and X-passes, creating a multi-directional passing system that prevents the DLR player from establishing a static defensive rhythm. Its success feeds into the leg drag control position, which itself branches into side control, back take, and mount pathways, making it a high-leverage node in the passing decision tree. Mastery of this technique forces DLR players to play more conservatively with their hook, which in turn opens up other passing options.",
+  "related_content": [
+    {
+      "name": "De La Riva Guard",
+      "relationship": "Source position where the technique is initiated from the top player's perspective"
+    },
+    {
+      "name": "Leg Drag Control",
+      "relationship": "Primary target position achieved on successful completion of the leg drag pass"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Counter outcome position if the bottom player sweeps during the drag transition"
+    },
+    {
+      "name": "Side Control",
+      "relationship": "Common consolidation target after establishing leg drag control"
+    },
+    {
+      "name": "Back Control",
+      "relationship": "High-percentage follow-up when opponent turns away from leg drag pressure"
+    },
+    {
+      "name": "Backstep from De La Riva",
+      "relationship": "Alternative passing approach from the same starting position that can chain with leg drag"
+    },
+    {
+      "name": "Knee Slice from DLR",
+      "relationship": "Complementary passing technique that creates passing chains with the leg drag"
+    },
+    {
+      "name": "Headquarters Position",
+      "relationship": "Intermediate passing position reached when the leg drag partially succeeds"
+    },
+    {
+      "name": "Reverse De La Riva Guard",
+      "relationship": "Guard the bottom player may transition to when defending the drag attempt"
+    },
+    {
+      "name": "Single Leg X-Guard",
+      "relationship": "Counter-guard the bottom player may enter if the drag creates space underneath"
+    }
+  ],
+  "attacker": {
+    "name": "Leg Drag from DLR Attacker",
+    "description": "Execute the leg drag pass from De La Riva Guard. Step-by-step grip sequences, hook clearing mechanics, drag execution, and passing chains for systematic DLR passing.",
+    "overview": "The leg drag from DLR is a high-percentage passing technique that converts the bottom player's guard structure into a passing pathway. As the attacker, you control the opponent's legs through precise gripping, clear the DLR hook through hip rotation rather than brute force, and redirect the leg across their centerline to establish dominant control. The technique's power lies in its integration with other passes—it functions best as part of a toreando-leg drag-knee slice chain that creates multi-directional pressure the guard player cannot predict or defend statically. Mastering the grip sequence, timing the drag to the moment of maximum hook vulnerability, and immediately consolidating with upper body control are the three pillars of consistent execution.",
+    "key_principles": [
+      "Control the ankle grip before attempting to clear the hook—the grip converts hook removal into a passing opportunity rather than a guard recovery",
+      "Use circular hip movement rather than linear pulling to dislodge the DLR hook, exploiting the hook's weakness against rotational forces",
+      "The drag must be explosive and continuous—any pause between clearing the hook and completing the drag allows guard re-establishment",
+      "Establish diagonal pressure from hip-to-far-shoulder rather than driving straight down, which the bottom player can frame against",
+      "Maintain the dragged leg across the opponent's centerline until upper body control is fully established",
+      "Chain the leg drag with toreando, knee slice, and backstep passes to create unpredictable multi-directional pressure"
+    ],
+    "setup_requirements": [
+      "Pants or ankle grip established on the DLR-hooked leg with your near hand",
+      "DLR hook partially compromised through grip fighting, hip pressure, or positional adjustment",
+      "Base established with free leg posted wide enough to resist sweeps during the weight transition of the drag",
+      "Far-side control established through sleeve grip, knee control, or pants grip to prevent the bottom player from framing or transitioning during the drag",
+      "Weight distributed slightly backward to prevent forward sweeps as you initiate the passing sequence"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Establish controlling grips",
+        "description": "Secure a strong pants grip at the ankle or shin on the DLR-hooked leg with your near hand. Control the far knee, pants, or ankle with your opposite hand. These dual grips form the foundation for the drag and must be established before any hook clearing attempt—without them, stripping the hook simply resets the exchange to neutral."
+      },
+      {
+        "step_number": 2,
+        "action": "Strip the DLR hook",
+        "description": "Use a circular hip motion—rotating your trapped leg backward and away—combined with the ankle grip to shear the hooking foot off your knee. Drive your hips slightly forward as your leg circles back, creating a rotational force the hook cannot resist. Do not pull straight backward, as this plays into the guard player's hook tension and strengthens their control."
+      },
+      {
+        "step_number": 3,
+        "action": "Redirect the leg across centerline",
+        "description": "Immediately after the hook clears, pull the controlled leg diagonally across the opponent's body toward your opposite hip. The trajectory must be across and slightly downward—this pins their near hip to the mat and prevents them from following the drag with a hip escape. The movement should be seamless with the hook strip, leaving no gap for the bottom player to re-hook or transition."
+      },
+      {
+        "step_number": 4,
+        "action": "Step around to the drag side",
+        "description": "As you pull the leg across, step your near-side leg forward past the opponent's hip on the drag side. Your knee lands next to their hip, establishing the angle needed for dominant control. This step must be simultaneous with the drag pull—stepping late allows the bottom player to insert a knee shield or hip escape away from the passing angle."
+      },
+      {
+        "step_number": 5,
+        "action": "Establish hip-to-hip pressure",
+        "description": "Drive your near hip into their near-side hip while dropping your chest toward their far shoulder, creating a diagonal pressure line that pins them flat. Your weight transfers from your legs to this hip-and-chest connection. This diagonal vector is critical—straight downward pressure can be framed against, but the cross-body angle eliminates effective framing positions and prevents rotation."
+      },
+      {
+        "step_number": 6,
+        "action": "Secure upper body control",
+        "description": "Release one hand from the leg grip to establish a crossface or far-shoulder control. Your forearm drives across their jaw or neck toward the mat on the far side, preventing them from turning toward you to recover guard. This upper body control completes the leg drag system—the crossed leg controls the lower body while the crossface controls the upper body."
+      },
+      {
+        "step_number": 7,
+        "action": "Consolidate into leg drag control",
+        "description": "Settle your weight fully into the leg drag control position, ensuring the dragged leg remains pinned across their body. Adjust your free hand to fight for an underhook or collar grip that enables your next transition—back take if they turn away, mount if they stay flat, or side control for standard consolidation. Do not rest here; begin advancing immediately."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Bottom player re-threads DLR hook before drag completes by pulling knee back and re-inserting foot behind the passer's knee",
+        "effectiveness": "High",
+        "your_response": "Accelerate the drag with explosive hip rotation and immediately establish crossface to prevent re-hooking. If they consistently re-hook, switch to a backstep pass that uses their hook commitment against them.",
+        "targets_outcome": "De La Riva Guard/Top"
+      },
+      {
+        "counter": "Bottom player hip escapes in the drag direction and inserts a knee shield to block consolidation",
+        "effectiveness": "Medium",
+        "your_response": "Follow their hips with forward pressure and convert to a knee slice pass rather than fighting the shield. The knee shield opens knee slice entries that bypass the obstacle entirely.",
+        "targets_outcome": "De La Riva Guard/Top"
+      },
+      {
+        "counter": "Bottom player underhooks the passer's near leg and drives forward for a sweep during the weight transition of the drag",
+        "effectiveness": "Medium",
+        "your_response": "Maintain a wide base with your posted leg and keep hips low during the drag. If you feel the underhook, immediately whizzer and drive your weight back to crush the sweep attempt before it generates momentum.",
+        "targets_outcome": "Half Guard/Bottom"
+      },
+      {
+        "counter": "Bottom player transitions to Single Leg X-Guard by threading their free leg under the passer's base during the drag",
+        "effectiveness": "Medium",
+        "your_response": "Keep the drag trajectory low and tight to their body to prevent space underneath. If they begin threading, immediately backstep to disengage their hooks before they can elevate for a sweep.",
+        "targets_outcome": "De La Riva Guard/Top"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Attempting the drag without first stripping or neutralizing the ankle grip that powers the DLR hook",
+        "consequence": "The DLR player uses the intact grip to maintain hook tension and either re-establish the hook or execute a sweep during the drag attempt",
+        "correction": "Always strip or contest the controlling ankle grip before redirecting the leg. The grip strip and hook clear should be a coordinated sequence, not separate actions."
+      },
+      {
+        "error": "Pulling the leg straight across horizontally without the downward diagonal component",
+        "consequence": "The bottom player follows the horizontal pull with a hip escape, maintaining guard structure and potentially transitioning to half guard or knee shield",
+        "correction": "Pull the leg across AND slightly downward toward the mat. The downward component pins the hip and prevents the bottom player from following the drag with hip movement."
+      },
+      {
+        "error": "Standing too upright during the drag with a high center of gravity",
+        "consequence": "Vulnerable to being pulled forward by the DLR player's remaining grips, or swept via balloon or tripod sweep during the weight transition",
+        "correction": "Lower your base as you complete the drag and drive hips forward into the opponent. Use arm pull rather than body lean to execute the drag mechanics."
+      },
+      {
+        "error": "Releasing leg control before establishing upper body crossface or shoulder control",
+        "consequence": "The bottom player immediately re-inserts legs into the space and recovers guard before the pass is consolidated",
+        "correction": "Maintain the dragged leg position until crossface or far-shoulder control is fully established. Only release leg control when your upper body has locked them in place."
+      },
+      {
+        "error": "Failing to step around simultaneously with the drag, completing the movements sequentially instead",
+        "consequence": "The delay between the drag and the step-around gives the bottom player time to insert a knee shield or hip escape away from the passing angle",
+        "correction": "The step around must be simultaneous with the drag pull—your near leg moves past their hip as you redirect the leg. Train these as one integrated movement, not two separate actions."
+      },
+      {
+        "error": "Over-committing weight forward during the drag attempt rather than using arm leverage",
+        "consequence": "The DLR player exploits forward momentum for a sweep, especially with balloon or tripod sweep entries that thrive on forward weight commitment",
+        "correction": "Keep weight centered or slightly back. Execute the drag using arm mechanics and hip rotation rather than driving your body forward into the guard player's sweep threats."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Mechanics",
+        "focus": "Grip sequence and hook clearing fundamentals",
+        "description": "Practice the complete grip sequence (ankle grip, hook strip via hip rotation, leg redirect) against a stationary partner. Focus on hand placement, the circular motion that clears the hook, and the simultaneous step-around. 20 repetitions per side with no resistance."
+      },
+      {
+        "phase": "Phase 2: Timing",
+        "focus": "Entry timing from live DLR exchanges",
+        "description": "Partner plays active DLR guard with light resistance (30-40%). Practice recognizing the moment when the hook is most vulnerable—typically when the bottom player adjusts grips, transitions between attacks, or has their ankle grip stripped. Initiate the drag only at these optimal timing windows."
+      },
+      {
+        "phase": "Phase 3: Chaining",
+        "focus": "Passing combinations integrating the leg drag",
+        "description": "Practice three-pass chains starting from DLR top: toreando blocked flows to leg drag, leg drag blocked flows to knee slice, knee slice blocked flows back to toreando. Partner provides 50-60% resistance and defends naturally. Focus on seamless directional changes between passes."
+      },
+      {
+        "phase": "Phase 4: Live Application",
+        "focus": "Full resistance positional sparring",
+        "description": "Start in DLR guard with the passer attempting leg drag passes against fully resisting partners. Three-minute rounds, reset to DLR after each pass or sweep. Track success rate and identify common failure points for targeted drilling."
+      },
+      {
+        "phase": "Phase 5: Competition Simulation",
+        "focus": "Chaining leg drag with consolidation and finishing sequences",
+        "description": "Complete passing rounds where a successful leg drag must be consolidated into side control, back take, or mount within 5 seconds. Partner resists fully throughout. Develops the transition speed needed for competition where leg drag control is always transitional."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What grip must you establish before attempting to clear the DLR hook for the leg drag?",
+        "answer": "You need a strong pants or ankle grip on the hooked leg before attempting to clear the hook. This grip converts the hook removal from a neutral exchange into a passing opportunity—without it, clearing the hook simply resets the guard player's position rather than creating the angle needed for the drag. The grip provides the control needed to redirect the leg across the opponent's centerline immediately after the hook clears."
+      },
+      {
+        "question": "Your opponent re-hooks their DLR immediately after you strip it—how do you prevent this recurring problem?",
+        "answer": "The most common reason for re-hooking is a gap between the hook strip and the leg redirect. You must make these movements continuous rather than sequential—as the hook clears, the leg is already being pulled across their centerline. Additionally, circle your freed leg backward and away from their hooking foot to make re-threading mechanically difficult. If they consistently re-hook despite this, switch to a backstep pass that uses their hook commitment against them by stepping behind and around it."
+      },
+      {
+        "question": "What is the critical direction of force when executing the leg drag from DLR?",
+        "answer": "The force should be diagonal—pulling the leg across the opponent's centerline toward your opposite hip while simultaneously driving your hips forward and around to the drag side. This diagonal vector pins their hip to the mat and prevents rotation. A common error is pulling straight across horizontally, which allows the bottom player to follow the movement with a hip escape. The downward component of the diagonal force eliminates their hip mobility and is what makes the drag stick."
+      },
+      {
+        "question": "During the leg drag attempt, your opponent transitions to Single Leg X-Guard—what went wrong and how do you adjust?",
+        "answer": "This counter occurs when you create space by lifting the leg too high during the drag or when you fail to control the far leg. The bottom player threads their free leg under your base and hooks your thigh. To prevent this, keep the drag trajectory tight and low to their body and control or block their far leg with your free hand. If they achieve the transition, immediately backstep to disengage their hooks before they can elevate for a sweep."
+      },
+      {
+        "question": "What are the ideal conditions that signal the highest-percentage moment to initiate the leg drag from DLR?",
+        "answer": "The optimal timing window is immediately after successfully stripping the ankle grip while the bottom player is reaching to re-grip. During this moment, their DLR hook has lost its primary support structure and they are transitioning between offensive postures. The secondary window is when the bottom player attempts to transition from DLR to another guard such as Reverse DLR or X-Guard, as their hook commitment changes during the transition, creating vulnerability to redirection."
+      },
+      {
+        "question": "How does the leg drag from DLR chain with the toreando pass when the initial attempt is defended?",
+        "answer": "The toreando and leg drag share the same initial grip configuration—double pants or ankle control—and involve similar lateral passing mechanics. When a toreando pass to one side is blocked by the opponent's frames or hip movement, redirect the controlled legs to the opposite side as a leg drag rather than resetting to neutral. This directional change catches the bottom player mid-adjustment and exploits the lag between their defensive reaction to the toreando and the new angle created by the drag."
+      },
+      {
+        "question": "Your opponent keeps an extremely tight DLR hook that you cannot strip directly—what alternative approach leads to the leg drag?",
+        "answer": "Instead of fighting the hook directly, use a backstep motion to extract your leg by stepping backward and around the hook. As your leg clears from behind, the bottom player's leg is already extended and available for the drag. This backstep-to-drag sequence converts their defensive hook retention into a passing pathway. Alternatively, collapse forward to flatten their hips with pressure, which weakens the hook's mechanical advantage, then redirect into the drag as the hook loosens under your weight."
+      },
+      {
+        "question": "What is the most critical body position to maintain as you complete the drag and transition to leg drag control?",
+        "answer": "Your chest must connect diagonally to their far-side hip or shoulder while your near hip drives into their near-side hip. This cross-body pressure angle prevents them from turning toward you to recover guard or turning away without giving up their back. Your posted leg should be on the drag side with your knee next to their hip, and your weight should be driving forward and down through skeletal alignment rather than muscular effort. Releasing this diagonal connection before upper body control is established allows immediate guard recovery."
+      }
+    ],
+    "safety_considerations": "The leg drag from DLR is generally low-risk for injury when executed with controlled force. However, aggressive dragging can strain the hip flexors and groin if the bottom player's leg is pulled beyond their flexibility range. Practitioners should communicate about flexibility limitations before drilling. The passer should use progressive force rather than explosive jerking motions when redirecting the leg. Knee torque can occur if the bottom player's foot catches during the hook clearing phase—ensure the foot clears cleanly before redirecting. In training, prioritize controlled repetitions and build speed gradually."
+  },
+  "defender": {
+    "name": "Leg Drag from DLR Defender",
+    "description": "Defend the leg drag from De La Riva Guard. Recognition cues, timing-based prevention, guard recovery, and counter-sweep strategies for DLR guard players.",
+    "overview": "Defending the leg drag from DLR requires early recognition and proactive prevention rather than reactive escaping. Once the leg is fully dragged across your body and the passer establishes hip pressure, recovery becomes exponentially difficult—making pre-emptive defense essential. The most effective defensive approach combines active grip fighting to deny the controlling grips, dynamic hip movement to prevent the cross-body angle, and immediate guard recovery attempts at the first sign of the drag. Understanding the passer's grip sequence and the specific timing windows where the drag is most vulnerable to disruption allows you to interrupt the technique before it reaches the point of no return, maintaining your DLR guard or transitioning to an alternative defensive structure.",
+    "key_principles": [
+      "Prevent the controlling ankle grip from being established—this is the single most important defensive action against the leg drag",
+      "Maintain constant DLR hook tension to make hook clearing difficult and create sweep threats that discourage the drag attempt",
+      "Use the free leg actively as a frame against the passer's hip on the drag side to prevent the step-around that completes the position",
+      "React to the drag direction immediately by hip escaping in the same direction to follow your leg and prevent cross-body pinning",
+      "If the drag is partially completed, prioritize inserting a knee shield or recovering half guard rather than trying to re-establish full DLR",
+      "Keep hips angled and mobile throughout—flat hips allow the passer to pin you with diagonal pressure after completing the drag"
+    ],
+    "recognition_cues": [
+      "Passer strips your ankle or pants grip and immediately re-grips your pants at the knee or ankle with both hands, establishing the double-leg control needed for the drag",
+      "Passer begins circling their trapped leg backward to clear your DLR hook while maintaining strong control of your lower legs",
+      "Passer's hips start rotating toward the drag side as they pull your leg laterally across your body rather than engaging forward",
+      "Passer breaks your sleeve grip and their weight shifts to the balls of their feet, preparing the explosive step-around that completes the drag",
+      "Passer's head and shoulders angle away from center toward the drag side, telegraphing the direction of the pass before the leg is redirected"
+    ],
+    "defensive_options": [
+      {
+        "action": "Re-establish DLR hook by immediately re-threading your leg before the drag is completed",
+        "when_to_use": "As soon as you feel the hook clearing but before your leg has been pulled across your centerline—the critical moment is when the passer's hip rotation begins",
+        "targets_outcome": "De La Riva Guard/Top",
+        "if_successful": "You maintain full DLR guard and can re-engage with offensive options including sweeps and transitions",
+        "risk": "If timed too late, the passer uses your re-hooking attempt to accelerate the drag by pulling the extended leg across"
+      },
+      {
+        "action": "Hip escape in the direction of the drag and insert knee shield to block consolidation",
+        "when_to_use": "When the leg is being dragged across but the passer has not yet established upper body crossface or shoulder control",
+        "targets_outcome": "De La Riva Guard/Top",
+        "if_successful": "You create enough space to recover a defensive guard structure, typically half guard with knee shield, preventing full leg drag consolidation",
+        "risk": "If you hip escape too late after upper body control is established, you may expose your back to the passer"
+      },
+      {
+        "action": "Underhook the passer's near leg and drive forward for a sweep during their weight transition",
+        "when_to_use": "When the passer over-commits their weight forward during the drag, creating a vulnerable base during the step-around",
+        "targets_outcome": "Half Guard/Bottom",
+        "if_successful": "You reverse the position entirely—the passer is swept and you achieve top position in half guard or side control",
+        "risk": "A failed sweep attempt can leave you flattened with the drag completed and the passer in full leg drag control"
+      },
+      {
+        "action": "Transition to Single Leg X-Guard by threading free leg under the passer's base during the drag",
+        "when_to_use": "When the passer lifts your leg high during the drag, creating space underneath their base that allows your free leg to thread through",
+        "targets_outcome": "De La Riva Guard/Top",
+        "if_successful": "You establish a new guard position that neutralizes the drag entirely and creates immediate sweep and leg attack threats",
+        "risk": "Requires precise timing—if the passer recognizes the threading attempt, they can backstep into a leg entanglement"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "De La Riva Guard/Top",
+        "how": "Maintain active grip fighting to deny the passer's controlling ankle or pants grips. Keep constant hook tension and threaten sweeps to make the drag risky. If the hook is stripped, immediately re-thread your foot behind their knee before the leg is redirected across your body."
+      },
+      {
+        "outcome": "Half Guard/Bottom",
+        "how": "Time a sweep during the passer's weight transition as they step around for the drag. Underhook their near leg and drive forward explosively as their weight shifts laterally during the step-around. Their momentary loss of base during the directional change is your highest-percentage sweep window."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Allowing the ankle grip to be stripped without immediately re-gripping or transitioning to another guard",
+        "consequence": "The passer has unchallenged control of your leg and can complete the drag without meaningful resistance, leading directly to leg drag control",
+        "correction": "The moment you feel your grip being stripped, either fight to maintain it with your other hand or immediately re-grip in a different location. If the grip is lost, transition to another guard structure rather than playing a gripless DLR."
+      },
+      {
+        "error": "Staying flat on your back when the drag begins instead of following with hip movement in the drag direction",
+        "consequence": "The passer pins your hips to the mat with diagonal pressure and establishes full leg drag control with minimal resistance",
+        "correction": "Hip escape in the direction of the drag to prevent cross-body pinning and create space for guard recovery. Your hips must follow your leg—static hips are pinned hips."
+      },
+      {
+        "error": "Attempting to recover full DLR guard after the drag is past the point of no return",
+        "consequence": "Wasted energy and time that should be spent on realistic recovery options, resulting in the passer fully consolidating leg drag control",
+        "correction": "Recognize when the drag has progressed too far for DLR recovery and immediately switch to alternative guard recovery, prioritizing knee shield or half guard insertion over the unrealistic full DLR re-establishment."
+      },
+      {
+        "error": "Reaching with arms extended to fight grips instead of maintaining structural frames at the shoulder and hip",
+        "consequence": "Extended arms create opportunities for the passer to control your upper body with crossface and complete the pass unopposed",
+        "correction": "Keep elbows tight to your body and use structural frames against the passer's shoulders and hips. Only extend arms when secure grips are available and your core defensive structure is maintained."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the earliest recognition cue that a leg drag from DLR is being initiated?",
+        "answer": "The earliest cue is the passer stripping your ankle or pants grip and immediately re-gripping both of your pant legs at the knee or ankle level. This double-leg grip is the prerequisite for the drag—without it, they cannot redirect your leg across your body. When you feel both grips being established simultaneously, begin your defensive response immediately rather than waiting for the hook to be cleared."
+      },
+      {
+        "question": "Your DLR hook has been cleared and your leg is being pulled across—what is the highest-percentage defensive action at this point?",
+        "answer": "At this stage, re-establishing the DLR hook is unlikely to succeed. Your highest-percentage option is to hip escape in the direction of the drag while inserting your far knee as a shield between you and the passer. This prevents them from establishing the hip-to-hip pressure that completes the control position. Even ending up in half guard rather than DLR is a successful defense—you have prevented full leg drag consolidation and maintained a guard with offensive options."
+      },
+      {
+        "question": "How does your defensive approach change when the passer chains a toreando attempt into a leg drag?",
+        "answer": "When the passer transitions from toreando to leg drag, they change the direction of their pass. Your defensive frames and hip angle from defending the toreando will be oriented in the wrong direction for the drag. The key adjustment is to immediately redirect your hip escape to match the new passing direction. Your hands should prioritize controlling the passer's sleeve on the drag side to prevent the step-around. Anticipating this chain by maintaining centerline hip positioning rather than fully committing to one defensive angle is the most effective preventive measure."
+      },
+      {
+        "question": "What role does your free non-DLR leg play in preventing the leg drag completion?",
+        "answer": "Your free leg is your primary physical barrier against the drag completion. It should be actively placed on the passer's hip on the drag side, acting as a frame that prevents them from stepping around. If they push through this frame, convert it into a butterfly hook or knee shield that creates a secondary defensive structure. A passive or dangling free leg offers zero resistance to the step-around and guarantees the drag completes unopposed."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Recognition",
+        "focus": "Identifying drag entries and grip changes early",
+        "description": "Partner initiates leg drag from DLR at half speed while you practice identifying the grip changes and positional cues that signal the drag attempt. Call out the recognition cue verbally before the drag begins. 20 repetitions focusing on perceptual speed."
+      },
+      {
+        "phase": "Phase 2: Prevention",
+        "focus": "Active grip defense and hook maintenance",
+        "description": "Partner attempts full-speed leg drag entries while you focus exclusively on grip fighting to deny the controlling grips needed for the drag. Practice immediate re-gripping, grip breaks, and transitional guard entries when your primary grips are broken."
+      },
+      {
+        "phase": "Phase 3: Recovery",
+        "focus": "Guard recovery after partial drag completion",
+        "description": "Partner establishes a partial leg drag (leg across but no upper body control). Practice hip escaping, inserting knee shields, and recovering half guard under progressive resistance from 40% to 80%. Build the muscle memory for the defensive hip escape and shield insertion sequence."
+      },
+      {
+        "phase": "Phase 4: Counter-Offense",
+        "focus": "Sweep timing during drag weight transitions",
+        "description": "Partner attempts full leg drags while you practice timing sweeps during their weight transition moments. Focus on the underhook entry on their near leg and forward drive when their base is compromised during the step-around. Track sweep success rate to measure improvement."
+      }
+    ]
+  }
+}

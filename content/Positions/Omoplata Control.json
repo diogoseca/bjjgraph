@@ -1,0 +1,577 @@
+{
+  "name": "Omoplata Control",
+  "slug": "omoplata-control",
+  "description": "Master Omoplata Control in BJJ. Strategic guide covering shoulder lock mechanics, sweep chains, and back take transitions with complete perspective analysis.",
+  "variant_uniqueness": "Shoulder isolation enables sweep options",
+  "overview": "Omoplata Control represents a sophisticated transitional position in Brazilian Jiu-Jitsu where the practitioner uses their legs to isolate and control the opponent's shoulder joint while creating multiple offensive pathways. This position exists at the intersection of submission attacks, sweeps, and positional advancement, making it one of the most versatile control positions in modern BJJ. The mechanics involve threading one leg over the opponent's trapped shoulder while maintaining hip connection, creating a lever system that applies rotational pressure to the shoulder capsule. What distinguishes Omoplata Control from other guard positions is its ability to force opponents into predictable defensive reactions, each of which opens different offensive opportunities. The position demonstrates the principle of using leg strength against arm strength, creating a mechanical advantage that limits the opponent's mobility while providing the controller with numerous high-percentage options. Understanding when to finish the submission, when to sweep, and when to transition to back control is essential for maximizing the position's effectiveness. The Omoplata Control position has evolved significantly in competitive BJJ, with modern practitioners recognizing that the control itself often provides more value than the submission finish, as it creates reliable pathways to dominant positions and forces opponents into defensive postures that drain energy and create openings for submission chains.",
+  "key_principles": [
+    "Maintain constant hip connection to opponent's shoulder to control posture and prevent escape",
+    "Use leg pressure across the back as both control mechanism and submission threat",
+    "Create dilemmas where every defensive option leads to different offensive opportunity",
+    "Monitor opponent's weight distribution to anticipate and counter escape attempts",
+    "Transition fluidly between submission finish, sweep, and back take based on defensive reactions",
+    "Control opponent's free arm to limit their base and defensive options",
+    "Adjust hip angle continuously to maintain optimal leverage on shoulder joint"
+  ],
+  "related_positions": [
+    {
+      "name": "Triangle Control",
+      "relationship": "Alternative shoulder attack with similar control principles"
+    },
+    {
+      "name": "Armbar Control",
+      "relationship": "Complementary arm attack from similar guard positions"
+    },
+    {
+      "name": "Closed Guard",
+      "relationship": "Traditional entry position for omoplata attacks"
+    },
+    {
+      "name": "Spider Guard",
+      "relationship": "Modern entry position with strong omoplata connections"
+    },
+    {
+      "name": "Back Control",
+      "relationship": "Primary transition target when opponent defends"
+    },
+    {
+      "name": "Mount",
+      "relationship": "Common result after successful omoplata sweep"
+    },
+    {
+      "name": "Rubber Guard",
+      "relationship": "Alternative guard with similar shoulder control mechanics"
+    },
+    {
+      "name": "Lasso Guard",
+      "relationship": "Entry position with arm isolation for omoplata setup"
+    }
+  ],
+  "top": {
+    "overview": "Omoplata Control Top represents a dominant shoulder lock position where the top practitioner has established deep control over the opponent's shoulder joint using their legs while maintaining superior positioning. This position occurs when you have successfully secured the omoplata configuration with your leg over the opponent's shoulder and arm trapped, creating immense pressure on the shoulder capsule and rotator cuff. The position offers exceptional control and high-percentage submission opportunities, though it requires precise technique and patience to maintain effectively. From the top position in omoplata control, you possess multiple pathways to finish the submission, transition to back control, or sweep to more dominant positions. The mechanics rely heavily on hip positioning, leg pressure distribution, and precise shoulder isolation. Unlike many other submission positions, omoplata control from top allows you to maintain the attack while simultaneously controlling posture and preventing escape, making it one of the most reliable shoulder lock positions in modern Brazilian Jiu-Jitsu. The position is particularly effective in both gi and no-gi contexts, though the gi provides additional grip options for control refinement. Understanding the biomechanical principles of shoulder rotation and the opponent's defensive instincts is crucial for maximizing effectiveness from this position. Modern competition data shows that practitioners who achieve omoplata control top finish the submission approximately 70% of the time at advanced levels, making it one of the highest-percentage attacks from guard positions.",
+    "state_properties": {
+      "point_value": 0,
+      "position_type": "Offensive/Controlling",
+      "risk_level": "Low to Medium",
+      "energy_cost": "Medium",
+      "time_sustainability": "Medium to Long"
+    },
+    "state_invariants": [
+      "Top practitioner's leg is positioned over the opponent's shoulder with the shin crossing their upper back, creating downward pressure on the shoulder capsule and trapping their arm extended",
+      "Opponent's trapped arm is isolated and extended away from their body with the shoulder joint in external rotation, creating mechanical disadvantage and submission pressure",
+      "Top practitioner's hips are positioned close to the opponent's shoulder and upper back, allowing control of the angle of attack and application of rotational pressure to the shoulder joint",
+      "Top practitioner's opposite leg is used for base, posting, and creating additional pressure by controlling the opponent's posture or hip position",
+      "Top practitioner's upper body maintains balance and control through grip management while keeping weight distributed to prevent opponent's forward roll escape",
+      "Opponent is typically on their side or in a compromised seated position with limited mobility, unable to posture up effectively or create distance from the shoulder lock pressure"
+    ],
+    "prerequisites": [
+      "Successful omoplata entry from closed guard, spider guard, or lasso guard position",
+      "Opponent's arm has been isolated and controlled with proper leg positioning established",
+      "Hip positioning has been adjusted to create proper angle of attack on the shoulder",
+      "Base has been established with the free leg to prevent being rolled forward",
+      "Opponent has been broken down from defensive posture to vulnerable position"
+    ],
+    "key_principles": [
+      "Maintain constant pressure on the opponent's shoulder by keeping your shin tight across their upper back and controlling the angle of rotation",
+      "Keep your hips close to the opponent's body to prevent them from creating escape space or rolling forward",
+      "Use your free leg to post and create additional pressure while controlling the opponent's movement and preventing forward rolls",
+      "Control the opponent's posture by preventing them from sitting up or creating an upright position which could relieve shoulder pressure",
+      "Adjust hip angle continuously to maintain optimal shoulder lock pressure as the opponent attempts defensive adjustments",
+      "Maintain grip control on the opponent's belt, pants, or gi to prevent them from rolling and to control their hip position",
+      "Be prepared to transition to back control or alternative submissions if the opponent defends the initial omoplata finish"
+    ],
+    "decision_tree": [
+      {
+        "condition": "If opponent attempts forward roll escape and posts their free hand on the mat",
+        "actions": [
+          {
+            "technique": "Omoplata to Back",
+            "target": "Back Control",
+            "probability": 75
+          },
+          {
+            "technique": "Maintain Omoplata Control and Finish",
+            "target": "game-over",
+            "probability": 65
+          }
+        ]
+      },
+      {
+        "condition": "If opponent sits up and tries to stack or create upright posture",
+        "actions": [
+          {
+            "technique": "Hip Adjustment to Finish Omoplata",
+            "target": "game-over",
+            "probability": 70
+          },
+          {
+            "technique": "Omoplata Sweep",
+            "target": "Mount",
+            "probability": 68
+          }
+        ]
+      },
+      {
+        "condition": "If opponent successfully extracts arm but remains in close range",
+        "actions": [
+          {
+            "technique": "Switch to Triangle",
+            "target": "Triangle Control",
+            "probability": 60
+          },
+          {
+            "technique": "Armbar from Guard",
+            "target": "Armbar Control",
+            "probability": 55
+          }
+        ]
+      },
+      {
+        "condition": "If opponent attempts to create distance and pull arm away",
+        "actions": [
+          {
+            "technique": "Follow to Back Control",
+            "target": "Back Control",
+            "probability": 65
+          },
+          {
+            "technique": "Re-Guard",
+            "target": "Open Guard",
+            "probability": 50
+          }
+        ]
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Allowing too much space between hips and opponent's shoulder during control phase",
+        "consequence": "Opponent can sit up, relieve shoulder pressure, and escape the position or even reverse to top position",
+        "correction": "Keep your hips glued to the opponent's shoulder and upper back, constantly adjusting angle to maintain tight connection and shoulder lock pressure"
+      },
+      {
+        "error": "Failing to post with the free leg, leaving yourself vulnerable to forward roll counters",
+        "consequence": "Opponent successfully executes forward roll and escapes to top position or side control",
+        "correction": "Always maintain strong base with your free leg, posting it behind you or using it to control opponent's hip to prevent rolling momentum"
+      },
+      {
+        "error": "Gripping too high on the opponent's body instead of controlling the belt or hips",
+        "consequence": "Opponent can more easily manipulate their posture and create escape opportunities through hip movement",
+        "correction": "Establish grips on the belt, pants, or lower torso to control hip positioning and prevent postural adjustments that lead to escapes"
+      },
+      {
+        "error": "Finishing the omoplata too early before establishing complete control and proper angle",
+        "consequence": "Opponent defends the submission more easily and may escape the position entirely",
+        "correction": "Be patient in establishing perfect hip angle and shoulder isolation before applying finishing pressure, ensuring all control points are secured"
+      },
+      {
+        "error": "Neglecting to control the opponent's free arm during the position",
+        "consequence": "Opponent uses free arm to post, create base, and facilitate escape or counter-attack",
+        "correction": "Monitor and control the opponent's free arm with grips or positional awareness, preventing them from establishing effective posting or framing"
+      },
+      {
+        "error": "Maintaining static position without adapting to opponent's defensive movements",
+        "consequence": "Opponent finds gaps in your control and successfully escapes or neutralizes the submission threat",
+        "correction": "Continuously adjust hip angle, leg pressure, and grip positioning in response to opponent's movements, staying one step ahead of their defensive strategy"
+      }
+    ],
+    "training_drills": [
+      {
+        "name": "Omoplata Entry and Control Drill",
+        "description": "Partner starts in closed guard while you establish omoplata control from various guard positions. Focus on smooth entry, proper leg positioning over the shoulder, and establishing tight hip connection. Partner provides 25% resistance. Alternate sides every 5 repetitions.",
+        "duration": "10 minutes"
+      },
+      {
+        "name": "Omoplata Control Maintenance Against Escapes",
+        "description": "Start in established omoplata control top position. Partner attempts common escapes at 50-75% intensity. Practice maintaining control through hip adjustments, base management, and grip control. Reset after each successful defense or escape.",
+        "duration": "8 minutes"
+      },
+      {
+        "name": "Omoplata Finish and Transition Flow",
+        "description": "From omoplata control top, flow between finishing the submission, transitioning to back control, and sweeping to mount based on partner's defensive reactions. Partner provides realistic defensive movement. Emphasize smooth transitions and maintaining offensive pressure throughout.",
+        "duration": "15 minutes"
+      },
+      {
+        "name": "Omoplata to Back Take Timing Drill",
+        "description": "Partner in omoplata control position attempts forward roll escape. Practice timing the transition to back control by following the roll and establishing hooks and seat belt control. Focus on smooth weight transfer and maintaining connection throughout the transition.",
+        "duration": "10 minutes"
+      }
+    ],
+    "related_content": [
+      {
+        "name": "Omoplata Control Bottom",
+        "relationship": "Sibling variant - opposite perspective of same position"
+      },
+      {
+        "name": "Omoplata",
+        "relationship": "Primary submission finish from this position"
+      },
+      {
+        "name": "Omoplata from Guard",
+        "relationship": "Common entry submission technique"
+      },
+      {
+        "name": "Triangle Control",
+        "relationship": "Alternative shoulder attack position with similar control mechanics"
+      },
+      {
+        "name": "Armbar Control",
+        "relationship": "Alternative arm attack position from similar guard entries"
+      },
+      {
+        "name": "Back Control",
+        "relationship": "Common transition target when opponent defends omoplata"
+      },
+      {
+        "name": "Spider Guard",
+        "relationship": "Common entry position for establishing omoplata control"
+      },
+      {
+        "name": "Omoplata to Back",
+        "relationship": "Key transition technique from this position"
+      },
+      {
+        "name": "Omoplata Sweep",
+        "relationship": "Alternative offensive option maintaining control"
+      },
+      {
+        "name": "Baratoplata",
+        "relationship": "Related shoulder lock variation with similar mechanics"
+      }
+    ],
+    "position_metrics": {
+      "retention_rate": {
+        "value": 72
+      },
+      "advancement_probability": {
+        "value": 68
+      },
+      "submission_probability": {
+        "value": 62
+      },
+      "average_time": "45-90 seconds"
+    },
+    "name": "Omoplata Control Top",
+    "description": "Master Omoplata Control Top in BJJ. Dominant shoulder lock control with 70% submission rate. Complete guide covering control mechanics and transitions.",
+    "tags": [
+      "bjj",
+      "position",
+      "omoplata",
+      "submission-control",
+      "shoulder-lock",
+      "offensive"
+    ],
+    "transitions": [
+      {
+        "transition": "Omoplata",
+        "attempt_probability": 19
+      },
+      {
+        "transition": "Omoplata to Back",
+        "attempt_probability": 19
+      },
+      {
+        "transition": "Omoplata Sweep",
+        "attempt_probability": 17
+      },
+      {
+        "transition": "Triangle Setup",
+        "attempt_probability": 14
+      },
+      {
+        "transition": "Armbar from Guard",
+        "attempt_probability": 17
+      },
+      {
+        "transition": "Rolling Back Take",
+        "attempt_probability": 14
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "Your opponent starts to roll forward to escape the omoplata - what is the optimal response?",
+        "answer": "When the opponent initiates a forward roll, immediately follow with them while maintaining your leg across their shoulder. Use your free leg to post and control the timing of the roll. As they complete the roll, transition to back control by inserting your hooks and establishing a seatbelt grip. The forward roll actually gives you the momentum to take their back rather than finishing the shoulder lock from a disadvantageous angle."
+      },
+      {
+        "question": "What are the essential grips for maintaining omoplata control from top position?",
+        "answer": "The primary grips should be on the opponent's belt, pants near the hip, or lower torso to control their hip positioning. Avoid gripping too high on their body as this allows them to manipulate their posture. In no-gi, use a figure-four grip around their waist or control their far hip. The secondary grip priority is controlling their free arm to prevent posting or framing that enables escape."
+      },
+      {
+        "question": "How do you shut down the opponent's primary forward roll escape?",
+        "answer": "To prevent the forward roll, maintain tight hip connection to their trapped shoulder while using your free leg as a post behind you. Control their belt or hip to limit their ability to generate rolling momentum. When you feel them loading weight forward, increase downward pressure with your shin across their back and shift your weight to counter their roll direction. If they still commit to the roll, follow it for the back take rather than fighting it."
+      },
+      {
+        "question": "What is the correct hip positioning relative to the opponent's shoulder for maximum control?",
+        "answer": "Your hips should be positioned as close as possible to the opponent's trapped shoulder, ideally with your hip bone nearly touching their shoulder blade. This proximity prevents them from creating space to extract their arm or sit up. The angle should be approximately perpendicular to their spine, allowing you to apply rotational pressure to the shoulder capsule while maintaining balance and base with your free leg."
+      },
+      {
+        "question": "How do you apply finishing pressure while maintaining positional control?",
+        "answer": "Apply finishing pressure by simultaneously driving your hips forward toward their head while pulling their shoulder away from their body with your leg. Sit up tall and lean slightly away from them to increase the shoulder rotation. Maintain control of their belt or hip to prevent them from rolling out. The pressure should be gradual and controlled, increasing rotation of the shoulder joint while your base prevents any escape options."
+      },
+      {
+        "question": "Your opponent postures up and creates some space - how do you recover control?",
+        "answer": "When the opponent creates space by posturing, immediately increase downward pressure with your shin across their upper back while pulling them back down with your grip on their belt or hip. If they achieve partial posture, consider transitioning to the omoplata sweep by following their upward momentum and using it to flip them over. Alternatively, if they continue to posture and you lose leg control, transition immediately to triangle or armbar attacks before they fully escape."
+      },
+      {
+        "question": "How should you manage your energy expenditure while maintaining omoplata control top?",
+        "answer": "Omoplata control top should be maintained with minimal unnecessary movement. Use your skeletal structure and proper positioning rather than muscular tension to hold the position. Keep your weight properly distributed between your base leg and the pressure across their back. Avoid constant squeezing or gripping which leads to rapid fatigue. Let the position do the work - a properly established omoplata requires little energy to maintain while constantly draining your opponent who must work to escape."
+      },
+      {
+        "question": "Your leg slips off the opponent's shoulder during a scramble - how do you recover?",
+        "answer": "If your leg slips from the shoulder, immediately secure control of their wrist or sleeve to prevent full arm extraction. Use your free leg to re-establish guard by hooking their hip while working to re-thread your attacking leg back over their shoulder. If they've created too much distance, transition to closed guard with an overhook on the previously trapped arm, or shoot immediately for a triangle by throwing your legs around their head and arm. Never chase a lost omoplata - transition to a related attack instead."
+      }
+    ]
+  },
+  "bottom": {
+    "overview": "Omoplata Control Bottom represents the offensive application of this position where the bottom practitioner has secured the omoplata configuration while maintaining guard. This perspective offers exceptional attacking opportunities as you use your legs to trap and control the opponent's shoulder from the bottom position. The bottom position allows you to leverage your entire body weight and hip mobility to create rotational pressure on the opponent's shoulder joint while simultaneously threatening sweeps and transitions. From this position, you control the pace and direction of the engagement, forcing your opponent into defensive reactions that create openings for submission finishes, sweeps to dominant top positions, or transitions to back control. The key to success from the bottom perspective is understanding that the omoplata control creates a branching decision tree where each of the opponent's defensive options leads to a different high-percentage attack. Modern competition analysis shows that practitioners who maintain active hip movement and pressure from omoplata control bottom achieve positional advancement or submission approximately 80% of the time at advanced levels. The position requires excellent hip mobility, precise leg positioning, and the ability to read your opponent's weight distribution to capitalize on their defensive commitments. Understanding the biomechanics of shoulder rotation and the opponent's escape options allows you to stay one step ahead, transitioning seamlessly between finishing the shoulder lock, sweeping to mount or side control, or following to back control when they attempt to roll.",
+    "state_properties": {
+      "point_value": 0,
+      "position_type": "Offensive",
+      "risk_level": "Medium",
+      "energy_cost": "Medium",
+      "time_sustainability": "Short to Medium"
+    },
+    "state_invariants": [
+      "Bottom practitioner's leg is threaded over opponent's trapped shoulder with the shin crossing the upper back, creating a lever against the shoulder joint while the knee applies downward pressure",
+      "Trapped arm is isolated and extended away from opponent's body with limited defensive mobility, positioned between the bottom practitioner's legs with the shoulder joint vulnerable to rotation",
+      "Bottom practitioner's hips are positioned close to or underneath opponent's trapped shoulder, enabling control of posture and the ability to generate rotational pressure on the shoulder capsule",
+      "Opponent is typically on hands and knees or in a defensive seated posture, forced to base out with the free arm to prevent being swept or submitted while attempting to create space"
+    ],
+    "prerequisites": [
+      "Successful entry from closed guard, spider guard, or open guard using omoplata setup",
+      "Isolation of opponent's arm with leg control established over the shoulder",
+      "Hip positioning close to opponent's trapped shoulder",
+      "Opponent unable to immediately posture or roll through the control",
+      "Bottom practitioner has sufficient hip mobility to maintain leg positioning"
+    ],
+    "key_principles": [
+      "Maintain constant hip pressure toward opponent's trapped shoulder to prevent escape",
+      "Keep the controlling leg tight across the upper back with active pressure through the shin",
+      "Control opponent's posture by preventing them from sitting back or standing up",
+      "Create angles by moving hips laterally to enhance shoulder rotation pressure",
+      "Use the free leg to prevent opponent from rolling forward or stepping over",
+      "Monitor opponent's free arm position to anticipate escape attempts or counters",
+      "Transition fluidly between submission finish, sweep, and alternative attacks based on opponent's defensive reactions"
+    ],
+    "decision_tree": [
+      {
+        "condition": "If opponent attempts to roll forward through the omoplata",
+        "actions": [
+          {
+            "technique": "Omoplata Sweep",
+            "target": "Side Control",
+            "probability": 70
+          },
+          {
+            "technique": "Rolling Omoplata",
+            "target": "Mount",
+            "probability": 55
+          }
+        ]
+      },
+      {
+        "condition": "If opponent turns into the submission or sits to their hip",
+        "actions": [
+          {
+            "technique": "Omoplata",
+            "target": "game-over",
+            "probability": 65
+          },
+          {
+            "technique": "Omoplata to Back",
+            "target": "Back Control",
+            "probability": 60
+          }
+        ]
+      },
+      {
+        "condition": "If opponent postures up and pulls arm free",
+        "actions": [
+          {
+            "technique": "Triangle Setup",
+            "target": "Triangle Control",
+            "probability": 60
+          },
+          {
+            "technique": "Closed Guard to Omoplata",
+            "target": "Armbar Control",
+            "probability": 50
+          }
+        ]
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Allowing too much space between hips and opponent's trapped shoulder",
+        "consequence": "Opponent can create enough space to extract their arm or roll through the position",
+        "correction": "Keep hips tight to opponent's shoulder, actively pulling your body toward their trapped side while maintaining leg pressure across the back"
+      },
+      {
+        "error": "Failing to control opponent's free arm or body movement",
+        "consequence": "Opponent can post with free arm and create leverage to escape or counter",
+        "correction": "Use your free leg and hands to control opponent's free arm, hips, or gi, preventing them from establishing strong base"
+      },
+      {
+        "error": "Not adjusting hip angle as opponent defends",
+        "consequence": "Shoulder pressure is reduced and submission becomes less threatening, allowing opponent time to escape",
+        "correction": "Continuously move hips laterally away from opponent's body to increase shoulder rotation angle and maintain submission threat"
+      },
+      {
+        "error": "Focusing only on the submission while ignoring sweep opportunities",
+        "consequence": "Miss high-percentage sweeps when opponent commits to defending the shoulder lock",
+        "correction": "Read opponent's weight distribution and defensive posture, transitioning to sweeps when they commit weight forward to defend submission"
+      },
+      {
+        "error": "Relaxing leg pressure across opponent's back",
+        "consequence": "Opponent can slip their shoulder out from under the controlling leg or posture up to escape",
+        "correction": "Maintain constant active pressure with the shin across the upper back, pulling the knee down toward the mat to keep opponent's posture broken"
+      }
+    ],
+    "training_drills": [
+      {
+        "name": "Omoplata Hip Movement Drill",
+        "description": "Partner starts in omoplata control. Bottom practitioner practices moving hips in circular motion around opponent's trapped shoulder, maintaining control while increasing and decreasing angle. Focus on smooth hip movement without losing leg position. Practice transitioning between submission finish angle and sweep angle.",
+        "duration": "3 minutes per side"
+      },
+      {
+        "name": "Omoplata Control to Finish Chain Drill",
+        "description": "Start in omoplata control position. Bottom practitioner flows through the sequence: submission attempt, sweep when opponent defends, back take when opponent turns, triangle when arm escapes. Partner provides progressive resistance at each stage. Emphasize smooth transitions based on opponent's defensive reactions.",
+        "duration": "5 minutes per side"
+      },
+      {
+        "name": "Defensive Escape vs Offensive Control Drill",
+        "description": "Bottom practitioner establishes omoplata control. Top practitioner attempts various escapes at 50% resistance. Bottom practitioner must counter each escape attempt with appropriate offensive transition. Switch roles every 2 minutes. Focus on reading opponent's weight distribution and reacting with correct counter.",
+        "duration": "10 minutes total"
+      }
+    ],
+    "related_content": [
+      {
+        "name": "Omoplata",
+        "relationship": "Primary submission finish from this control position"
+      },
+      {
+        "name": "Triangle Control",
+        "relationship": "Common transition when opponent defends omoplata by pulling arm free"
+      },
+      {
+        "name": "Spider Guard",
+        "relationship": "Common entry position for establishing omoplata control"
+      },
+      {
+        "name": "Closed Guard",
+        "relationship": "Traditional starting position for omoplata attacks"
+      },
+      {
+        "name": "Back Control",
+        "relationship": "Advanced transition target when opponent turns into the shoulder lock"
+      },
+      {
+        "name": "Side Control",
+        "relationship": "Common result after successful omoplata sweep"
+      },
+      {
+        "name": "Rubber Guard",
+        "relationship": "Alternative guard position with similar shoulder control mechanics"
+      },
+      {
+        "name": "Triangle to Omoplata",
+        "relationship": "Reverse transition path for attacking shoulder when triangle is defended"
+      }
+    ],
+    "position_metrics": {
+      "retention_rate": {
+        "value": 68
+      },
+      "advancement_probability": {
+        "value": 72
+      },
+      "submission_probability": {
+        "value": 52
+      },
+      "average_time": "20-45 seconds"
+    },
+    "name": "Omoplata Control Bottom",
+    "description": "Master Omoplata Control Bottom in BJJ. Complete guide covering shoulder control mechanics, sweep options, and submission paths from the bottom position.",
+    "tags": [
+      "bjj",
+      "position",
+      "omoplata",
+      "control",
+      "bottom",
+      "guard",
+      "shoulder-lock",
+      "sweep"
+    ],
+    "transitions": [
+      {
+        "transition": "Omoplata",
+        "attempt_probability": 13
+      },
+      {
+        "transition": "Omoplata Sweep",
+        "attempt_probability": 30
+      },
+      {
+        "transition": "Omoplata to Back",
+        "attempt_probability": 11
+      },
+      {
+        "transition": "Triangle Setup",
+        "attempt_probability": 14
+      },
+      {
+        "transition": "Closed Guard to Omoplata",
+        "attempt_probability": 13
+      },
+      {
+        "transition": "Rolling Omoplata",
+        "attempt_probability": 11
+      },
+      {
+        "transition": "Cartwheel Escape from Omoplata",
+        "attempt_probability": 5
+      },
+      {
+        "transition": "Roll Forward from Omoplata",
+        "attempt_probability": 2
+      },
+      {
+        "transition": "Stack Defense from Omoplata",
+        "attempt_probability": 1
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "Your opponent starts to stack you by driving their weight forward - what adjustment do you make?",
+        "answer": "When being stacked, immediately move your hips laterally away from the opponent to create a sharper angle on their shoulder. This redirects their forward pressure into rotational pressure on the shoulder joint rather than allowing them to compress you. Simultaneously, use your free leg to hook their far hip and pull yourself toward their back, which both relieves the stacking pressure and sets up the sweep or back take. Never fight the stack straight-on - always angle away."
+      },
+      {
+        "question": "What are the essential control points for maintaining omoplata control from bottom?",
+        "answer": "The primary control point is your leg over their shoulder with the shin applying constant pressure across their upper back. Secondary is hip proximity to their trapped shoulder, which should be as close as possible to prevent arm extraction. Third is control of their posting arm or belt/hip to limit their base. Your free leg acts as a dynamic fourth control point, hooking their hip to prevent backward escape and assisting with sweeps and transitions."
+      },
+      {
+        "question": "How do you shut down the opponent's attempt to roll through the omoplata?",
+        "answer": "The forward roll is actually an opportunity rather than a threat when properly managed. Maintain your shin pressure across their back as they initiate the roll and follow them through it. Use your grip on their belt or hip to control the speed and direction of the roll. As they complete the roll, you should end up on top with options to either maintain the omoplata position, sweep to mount, or transition to back control by following their momentum."
+      },
+      {
+        "question": "What grip priorities should you establish in omoplata control bottom?",
+        "answer": "The primary grip should be on their belt or the top of their pants to control their hip movement and prevent them from rolling or posturing. In no-gi, establish a grip on their far hip or a seatbelt position around their waist. Secondary grip priority is controlling their free posting arm, either by grabbing their wrist or hooking their elbow. These grips work together to limit their defensive options and set up your attacks."
+      },
+      {
+        "question": "How do you apply shoulder pressure while staying safe from counters in omoplata bottom?",
+        "answer": "Apply pressure by sitting up perpendicular to their body while maintaining your leg across their back. Lean away from them slightly to increase shoulder rotation while keeping your hips close. Control their hip with your near hand to prevent them from turning into you. Your free leg should be posted or hooking their far hip for stability. Apply pressure gradually and be ready to transition to the sweep or back take if they attempt to roll rather than tap."
+      },
+      {
+        "question": "Your opponent is pulling their arm out of the omoplata - what immediate adjustments do you make?",
+        "answer": "If the arm begins extracting, immediately increase leg pressure by driving your knee toward the mat across their back. If extraction continues, transition immediately rather than chasing the lost position. The most direct option is to throw for a triangle choke since their head is already between your legs. Alternatively, switch to an armbar by swinging your leg over their face while controlling their wrist. The key is recognizing early and transitioning before they fully escape rather than fighting to maintain a compromised omoplata."
+      },
+      {
+        "question": "How should you manage energy expenditure while attacking from omoplata control bottom?",
+        "answer": "Use gravity and body mechanics rather than muscular effort to maintain control. Keep your hips heavy against their shoulder and let your leg weight do the work across their back. Avoid constant squeezing or gripping which rapidly depletes your energy. Stay relaxed between attack attempts and explode only when executing sweeps or transitions. The position should drain your opponent's energy as they work to escape while you conserve energy by using efficient positioning."
+      },
+      {
+        "question": "Your opponent partially postures and creates some distance - how do you recover control?",
+        "answer": "When they create space by partial posturing, use your grip on their belt or hip to pull yourself toward them rather than trying to pull them down. Simultaneously increase shin pressure across their back. If they achieve significant posture, this is the trigger to sweep rather than insist on pulling them back down. Use their elevated posture against them by executing the omoplata sweep, driving forward as they rise and following through to mount or side control. Alternatively, if they pull the arm free, immediately transition to triangle or armbar."
+      }
+    ]
+  }
+}

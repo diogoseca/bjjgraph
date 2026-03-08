@@ -1,0 +1,403 @@
+{
+  "name": "Fight to Inside Ashi from Saddle",
+  "description": "Master the fight from Saddle bottom to Inside Ashi-Garami. Systematic leg pummeling, hip clearing, and entanglement degradation for safer positioning in BJJ.",
+  "tags": [
+    "bjj",
+    "transition",
+    "leg-entanglement",
+    "escape",
+    "saddle",
+    "ashi-garami",
+    "defense",
+    "leg-locks",
+    "advanced"
+  ],
+  "from_position": "Saddle/Bottom",
+  "outcomes": [
+    {
+      "to": "Inside Ashi-Garami/Bottom",
+      "probability": 55,
+      "result": "success"
+    },
+    {
+      "to": "Saddle/Bottom",
+      "probability": 30,
+      "result": "failure"
+    },
+    {
+      "to": "Open Guard/Top",
+      "probability": 15,
+      "result": "counter"
+    }
+  ],
+  "success_rate": 55,
+  "overview": "Fighting to Inside Ashi-Garami from the Saddle bottom represents one of the most critical defensive transitions in modern leg lock grappling. When trapped in the Saddle, you face immediate heel hook, toe hold, and kneebar threats with severely limited defensive options. Rather than attempting a full escape that risks exposing the heel during large movements, this technique focuses on systematically degrading the opponent's entanglement from the highly dominant Saddle configuration to the less threatening Inside Ashi-Garami, where submission finishing mechanics are significantly weaker and additional escape pathways become available.\n\nThe transition operates on the principle of incremental positional improvement. Instead of explosive escapes that create kinetic energy the opponent can exploit, you methodically address the structural elements that make the Saddle dangerous: the figure-four leg configuration, the perpendicular body alignment, and the hip pressure that prevents rotation. By clearing these elements in sequence, you reduce the opponent's mechanical advantage step by step until their entanglement no longer qualifies as Saddle control.\n\nThis approach has gained prominence through high-level competition, where practitioners recognize that surviving dangerous leg entanglements requires patience and technical precision rather than panic-driven escape attempts. The fight to Inside Ashi represents the first gate in a defensive hierarchy: from Saddle, degrade to Inside Ashi; from Inside Ashi, work toward full escape or counter-attack. Understanding this progression transforms leg lock defense from a desperate scramble into a methodical process with clear intermediate objectives.",
+  "conditions": [
+    "Opponent has established Saddle control with figure-four leg configuration around your trapped leg",
+    "Your heel is not yet fully controlled or the opponent has not applied rotational finishing pressure",
+    "Your free leg retains enough mobility to frame on the opponent's hips",
+    "You have sufficient upper body freedom to engage in grip fighting on their controlling hands",
+    "The Saddle entanglement has not yet reached its tightest configuration with all defensive frames cleared"
+  ],
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Hip Switch Pummel",
+      "description": "Uses a hip switch to create the angle needed for leg pummeling rather than fighting directly against the opponent's figure-four. The hip switch changes your body angle relative to the entanglement, making the pummel path shorter and reducing the opponent's ability to re-tighten during the movement.",
+      "when_to_use": "When the opponent maintains extremely tight perpendicular alignment and direct pummeling is blocked by their leg configuration"
+    },
+    {
+      "variant_name": "Seated Scoot Pummel",
+      "description": "Combines a seated hip scoot with simultaneous leg pummeling, using the scooting motion to create distance while degrading the entanglement. The seated position provides better leverage for the pummel because your hips are elevated off the mat, reducing the opponent's ability to pin your movement.",
+      "when_to_use": "When the opponent's hip pressure is dominant and you need to combine distance creation with entanglement degradation"
+    },
+    {
+      "variant_name": "Inversion Pummel",
+      "description": "Inverts underneath the opponent to use rotational momentum for pummeling past their figure-four configuration. The inversion creates confusion and changes the angle of the entanglement dramatically, often loosening the figure-four enough for a quick pummel to Inside Ashi.",
+      "when_to_use": "Against opponents who maintain very tight upper body control and prevent standard hip clearing, particularly when you have good inversion flexibility"
+    }
+  ],
+  "position_integration": "The fight from Saddle to Inside Ashi-Garami occupies a critical position in the defensive leg lock hierarchy. It serves as the first step in a systematic escape sequence: Saddle to Inside Ashi-Garami to Outside Ashi-Garami or full escape. This transition connects directly to the broader Ashi Garami system, where understanding positional hierarchy determines defensive strategy. Practitioners who master this degradation can chain it with Ashi Garami Escape and other defensive transitions to build a complete leg lock survival framework. The technique also integrates with counter-offensive strategies, as Inside Ashi-Garami offers the defender their own submission threats that are unavailable from the Saddle bottom.",
+  "related_content": [
+    {
+      "name": "Saddle",
+      "relationship": "Starting position for this defensive transition"
+    },
+    {
+      "name": "Inside Ashi-Garami",
+      "relationship": "Target position after successful entanglement degradation"
+    },
+    {
+      "name": "Open Guard",
+      "relationship": "Outcome position if entanglement is fully cleared during scramble"
+    },
+    {
+      "name": "Ashi Garami Escape",
+      "relationship": "Follow-up escape technique from Inside Ashi-Garami after degradation"
+    },
+    {
+      "name": "Boot Scoot Escape from Saddle",
+      "relationship": "Alternative escape technique from the same starting position"
+    },
+    {
+      "name": "Fallback to Inside Ashi-Garami",
+      "relationship": "Related concept of controlled positional degradation in leg entanglements"
+    },
+    {
+      "name": "Honey Hole",
+      "relationship": "Alternative name for Saddle position in some systems"
+    },
+    {
+      "name": "Heel Hook from Saddle",
+      "relationship": "Primary submission threat being defended against during this transition"
+    },
+    {
+      "name": "Inside Heel Hook",
+      "relationship": "Submission that makes the Saddle position so dangerous to defend"
+    },
+    {
+      "name": "Leg Entanglement",
+      "relationship": "Conceptual framework for understanding the entanglement hierarchy"
+    },
+    {
+      "name": "Outside Ashi-Garami",
+      "relationship": "Alternative intermediate position in the escape progression"
+    },
+    {
+      "name": "Ashi Garami",
+      "relationship": "Parent position family encompassing all ashi variations"
+    }
+  ],
+  "attacker": {
+    "name": "Fight to Inside Ashi from Saddle Attacker",
+    "description": "Complete guide to fighting from Saddle bottom to Inside Ashi-Garami. Systematic leg pummeling, grip fighting, and hip clearing techniques for degrading dangerous leg entanglements.",
+    "overview": "Executing the fight to Inside Ashi-Garami from Saddle bottom requires systematic dismantling of the opponent's dominant leg entanglement configuration. As the attacker in this transition, you are the person trapped in the Saddle, the most dangerous leg lock position in modern grappling. Your objective is not to escape entirely but to methodically degrade the opponent's control from Saddle to Inside Ashi-Garami, where their finishing mechanics are substantially weakened and additional escape pathways become available. This transition demands patience, precise grip fighting, and disciplined sequential execution rather than explosive movements that risk heel exposure.",
+    "key_principles": [
+      "Protect the heel as the absolute first priority before initiating any movement or leg pummeling",
+      "Address opponent's controlling grips systematically before attempting large positional changes",
+      "Bridge toward the opponent rather than pulling the trapped leg away to reduce joint stress",
+      "Free leg frames on opponent's hips to control distance and prevent re-tightening of the entanglement",
+      "Pursue incremental progress through positional gates rather than explosive all-or-nothing escape attempts",
+      "Clear opponent's hip pressure to reduce perpendicular alignment before beginning leg pummeling",
+      "Maintain composure under submission pressure to execute the technical sequence without panicked reactions"
+    ],
+    "setup_requirements": [
+      "Heel is not yet fully exposed or opponent has not established their finishing grip on your heel",
+      "Free leg is available for framing on opponent's hips or body to create distance",
+      "Some hip mobility remains despite the entanglement pressure from the Saddle configuration",
+      "Opponent has not yet committed to full rotational extension of the heel hook submission",
+      "Upper body retains enough freedom to engage in grip fighting on opponent's controlling hands and feet"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Establish heel protection",
+        "description": "Before initiating any movement, secure your own heel by rotating your knee inward toward your centerline and using both hands to control your foot and ankle area. This prevents the opponent from capitalizing on any movement by immediately attacking the exposed heel. Flex your foot to reduce heel accessibility and create a physical barrier."
+      },
+      {
+        "step_number": 2,
+        "action": "Frame with free leg on opponent's hips",
+        "description": "Post your free leg firmly on the opponent's hip or thigh to create a structural barrier that prevents them from driving their hips deeper into your trapped leg. This frame serves dual purposes: it creates space for subsequent movements and reduces the opponent's ability to maintain the perpendicular alignment that maximizes their mechanical advantage over your trapped leg."
+      },
+      {
+        "step_number": 3,
+        "action": "Strip opponent's controlling grips",
+        "description": "Use two-on-one grip fighting to systematically break the opponent's grips on your ankle, heel, or foot. Address one grip at a time, starting with whichever grip most threatens submission completion. Break at the thumbs where grip strength is weakest, then immediately re-establish your own protective heel control before addressing the next grip."
+      },
+      {
+        "step_number": 4,
+        "action": "Clear hip pressure through bridging",
+        "description": "Bridge your hips toward the opponent while maintaining the free leg frame on their hip. This counter-intuitive movement reduces the perpendicular angle that gives the Saddle its mechanical advantage. Drive toward their body to collapse the space they need for finishing mechanics, converting the perpendicular configuration into a more parallel alignment where their control weakens significantly."
+      },
+      {
+        "step_number": 5,
+        "action": "Initiate inside leg pummel",
+        "description": "Begin extracting your trapped leg from the opponent's figure-four configuration by pummeling your knee toward their centerline. Use small, controlled movements rather than explosive pulling. Your goal is getting your knee past their outside leg hook, which converts the entanglement from Saddle to a basic Ashi-Garami configuration with substantially reduced finishing potential."
+      },
+      {
+        "step_number": 6,
+        "action": "Complete transition to Inside Ashi-Garami",
+        "description": "Once your knee clears the opponent's figure-four, immediately establish Inside Ashi-Garami defensive posture by controlling your own knee line and preventing re-entry to Saddle. Position your hips to face the opponent and use both legs to create distance frames. You are now in a significantly less dangerous entanglement with meaningful escape and counter-attack options."
+      },
+      {
+        "step_number": 7,
+        "action": "Establish defensive frames in new position",
+        "description": "Secure the new position by framing on the opponent's hips with both legs and controlling your own heel to prevent attacks from Inside Ashi-Garami. Begin assessing the next defensive action: further escape through Ashi Garami Escape or counter-attacking with your own leg lock threats. The critical detail is preventing the opponent from immediately re-entering the Saddle by maintaining your knee alignment."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Opponent re-tightens figure-four during leg pummel by driving outside leg hook deeper behind your knee",
+        "effectiveness": "High",
+        "your_response": "Stop the pummel immediately and return to grip fighting phase. Address the re-established figure-four by breaking their foot connection with two-on-one grip fighting before reattempting the leg pummel.",
+        "targets_outcome": "Saddle/Bottom"
+      },
+      {
+        "counter": "Opponent attacks heel hook during transition movement when pummeling momentarily exposes the heel",
+        "effectiveness": "High",
+        "your_response": "Abandon the pummel immediately and return to heel protection using both hands to strip their heel grip. Reset the entire escape sequence from the beginning with improved heel security before resuming.",
+        "targets_outcome": "Saddle/Bottom"
+      },
+      {
+        "counter": "Opponent switches to straight ankle lock threat when you successfully hide the heel during pummeling",
+        "effectiveness": "Medium",
+        "your_response": "Pull toes back to defend the ankle lock while continuing hip clearing movements. Ankle lock defense is less position-dependent than heel hook defense, so you can often maintain escape progress while managing this threat simultaneously.",
+        "targets_outcome": "Saddle/Bottom"
+      },
+      {
+        "counter": "Opponent disengages from leg entanglement entirely to transition to top guard passing position",
+        "effectiveness": "Low",
+        "your_response": "Immediately recover guard by establishing feet on hips and grips on their wrists or sleeves as they disengage from the leg game. This outcome is favorable despite losing the leg entanglement offense.",
+        "targets_outcome": "Open Guard/Top"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Pulling trapped leg explosively away from opponent during escape attempt",
+        "consequence": "Creates rotational force that loads heel hook mechanics and can cause immediate knee ligament damage while actually tightening the Saddle configuration",
+        "correction": "Bridge toward the opponent to reduce the perpendicular angle. Never pull the trapped leg in the direction away from your body. Movement should collapse distance, not create it."
+      },
+      {
+        "error": "Exposing heel during leg pummeling by straightening the trapped leg",
+        "consequence": "Opponent immediately attacks the exposed heel with finishing mechanics during the escape attempt, often resulting in submission or injury",
+        "correction": "Keep knee bent and rotated inward throughout the entire pummeling sequence. Maintain constant heel protection even as you move your knee past their hooks."
+      },
+      {
+        "error": "Attempting leg pummel before addressing opponent's controlling grips",
+        "consequence": "Opponent maintains grip control throughout your movement and redirects the pummel into a worse position or re-tightens the Saddle",
+        "correction": "Systematically strip all controlling grips with two-on-one grip fighting before initiating any large leg pummeling movements. Grips before pummel, always."
+      },
+      {
+        "error": "Pushing opponent away with free leg instead of framing on their hip",
+        "consequence": "Creates space that allows opponent to re-establish perpendicular alignment and actually tighten their Saddle control with renewed hip pressure",
+        "correction": "Frame with free leg on opponent's hip to control their positioning structurally rather than pushing them away. The frame prevents advancement, pushing creates distance they can re-close."
+      },
+      {
+        "error": "Rushing the transition sequence under submission pressure",
+        "consequence": "Sloppy technique exposes the heel, wastes energy, and gives the opponent opportunities to finish during chaotic and uncontrolled movements",
+        "correction": "Accept that the position requires patient, methodical work. Commit to sequential execution regardless of perceived submission pressure. Rushed attempts are more dangerous than controlled patience."
+      },
+      {
+        "error": "Failing to establish defensive frames immediately after reaching Inside Ashi-Garami",
+        "consequence": "Opponent immediately transitions back to Saddle before the new position can be consolidated, wasting all escape progress",
+        "correction": "Instantly secure Inside Ashi-Garami defensive posture upon completing the pummel by controlling your knee line, framing on opponent's hips with both legs, and maintaining heel protection."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Mechanics",
+        "focus": "Individual movement patterns without resistance",
+        "description": "Practice each step of the escape sequence in isolation: heel protection posture, free leg framing, grip fighting motions, hip bridging direction, and leg pummeling mechanics. Partner holds static Saddle position without resisting. Focus on smooth, controlled movements and understanding the correct direction for each action. 20 repetitions per side."
+      },
+      {
+        "phase": "Phase 2: Chaining",
+        "focus": "Connecting steps into a fluid sequence",
+        "description": "Chain all seven steps together as a continuous sequence against a cooperative partner holding Saddle. Focus on transitioning smoothly between phases without pausing. Partner provides light positional holding but does not actively resist or counter. Build muscle memory for the complete escape flow. 10 repetitions per side."
+      },
+      {
+        "phase": "Phase 3: Progressive Resistance",
+        "focus": "Executing against increasing defensive pressure",
+        "description": "Partner applies graduated resistance: 25% for first round, 50% for second, 75% for third. Partner attempts specific counters (re-tightening figure-four, grabbing heel) at each level. Practitioner must adapt the sequence to address real-time defensive reactions while maintaining the correct execution hierarchy. 3-minute rounds per resistance level."
+      },
+      {
+        "phase": "Phase 4: Live Positional Sparring",
+        "focus": "Full resistance integration from Saddle bottom",
+        "description": "Start in Saddle bottom against a fully resisting partner. The round continues until escape is achieved, submission occurs, or time expires. Both partners use all available tools. Focus on timing, reading opponent reactions, and executing the correct sequence under competitive pressure. 3-minute rounds, alternating sides."
+      },
+      {
+        "phase": "Phase 5: Chain Integration",
+        "focus": "Connecting degradation to subsequent escape techniques",
+        "description": "Begin in Saddle bottom and chain the fight to Inside Ashi with follow-up techniques: Ashi Garami Escape, counter-entanglement to 50-50, or standing escape. The goal is building a complete defensive chain rather than treating each transition as isolated. Partner provides full resistance throughout. 5-minute rounds."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the absolute first priority before initiating any leg pummeling movement from Saddle bottom?",
+        "answer": "Protect the heel by rotating your knee inward toward your centerline and using both hands to control your own foot and ankle. No movement should begin until the heel is secured, because any escape attempt that exposes the heel risks immediate heel hook finishing mechanics. The opponent is specifically waiting for this type of error during your escape attempt to finish the submission."
+      },
+      {
+        "question": "Your opponent re-tightens their figure-four as you begin pummeling your knee past their outside leg hook - how do you adjust?",
+        "answer": "Stop the pummel immediately and return to the grip fighting phase. Address the re-established figure-four by breaking their foot connection with two-on-one grip fighting at the thumbs. Only resume the leg pummel after you have loosened their configuration again. Attempting to force through a re-tightened figure-four wastes energy and risks heel exposure during the struggle against superior structural control."
+      },
+      {
+        "question": "Why should you bridge toward the opponent rather than pulling your trapped leg away during the hip clearing phase?",
+        "answer": "Bridging toward the opponent collapses the perpendicular angle that gives the Saddle its mechanical advantage for heel hooks. Pulling the leg away creates rotational force that loads the heel hook mechanics and can cause immediate knee ligament damage. Moving toward the opponent reduces joint stress while eliminating the space they need for finishing. This counter-intuitive direction is the critical biomechanical insight of the technique."
+      },
+      {
+        "question": "What role does the free leg play throughout the entire transition sequence from Saddle to Inside Ashi?",
+        "answer": "The free leg serves as your primary defensive frame throughout the entire transition. It posts on the opponent's hip to prevent them from driving deeper into your trapped leg, controls distance to prevent re-tightening of the entanglement, and reduces the opponent's ability to maintain perpendicular alignment. Without effective free leg framing, the opponent can simply re-establish Saddle pressure whenever you attempt to pummel."
+      },
+      {
+        "question": "You have successfully degraded to Inside Ashi-Garami but feel the opponent immediately attempting to re-enter Saddle - what prevents this?",
+        "answer": "Immediately establish Inside Ashi defensive posture by controlling your own knee line and framing on the opponent's hips with both legs. The critical detail is preventing your knee from rotating outward, which would allow the opponent to thread their legs back into the figure-four configuration. Keep your knee pointed toward your centerline and maintain active hip position facing the opponent rather than turning away from them."
+      },
+      {
+        "question": "During your escape attempt, the opponent begins extending your heel with rotational pressure - what is your immediate response?",
+        "answer": "Tap immediately. Once heel hook rotational pressure is applied, the window for safe escape has closed. Continuing to fight the escape while the heel is being rotated risks severe medial collateral ligament and anterior cruciate ligament damage that can end your training career. There is no escape technique that justifies risking permanent knee injury. Reset and attempt the escape sequence again with better timing and heel protection."
+      },
+      {
+        "question": "What grip must be addressed before the leg pummel can succeed, and where is this grip weakest?",
+        "answer": "The opponent's figure-four leg configuration is the primary structural control that must be addressed, along with any hand grips on your ankle or heel. All grips are weakest at the thumb connection point. Break grips by peeling at the thumbs using two-on-one pressure rather than pulling against the fingers. The figure-four leg hook is weakest when hip pressure has been cleared, as the perpendicular angle sustaining the hook is already compromised."
+      }
+    ],
+    "safety_considerations": "This transition involves significant knee and ankle joint risk due to the Saddle position creating immediate danger to medial and lateral knee ligaments through heel hook mechanics. Never practice at full speed without proper warm-up and explicit partner communication about submission thresholds. If the opponent applies rotational pressure to the heel during your escape attempt, tap immediately rather than continuing the movement. Training partners must apply all submissions slowly and progressively, allowing adequate reaction time. Practitioners should master this technique in controlled drilling with cooperative partners before attempting it in live sparring. Always communicate clearly with your training partner about intensity levels and respect the tap instantly."
+  },
+  "defender": {
+    "name": "Fight to Inside Ashi from Saddle Defender",
+    "description": "Guide to defending against Inside Ashi degradation from Saddle top. Maintain dominant entanglement through hip pressure, leg configuration management, and strategic submission timing.",
+    "overview": "As the defender against the fight to Inside Ashi, you are the Saddle top player whose dominant leg entanglement is being systematically degraded. Your opponent is attempting to reduce your control from the Saddle, where heel hook finishing mechanics are optimal, to Inside Ashi-Garami, where your submission options are significantly weaker and their escape pathways multiply. Defending this transition requires maintaining the structural elements that make the Saddle dominant: perpendicular body alignment, constant hip pressure into the trapped leg, tight figure-four leg configuration, and inside position between the opponent's legs. Your awareness of the incremental escape progression allows you to address each degradation attempt at its earliest stage before it gains momentum.",
+    "key_principles": [
+      "Maintain perpendicular alignment to the opponent's body throughout their escape attempts to preserve maximum mechanical advantage",
+      "Hip pressure must remain constant and heavy into the trapped leg, preventing the bridging that collapses your finishing angle",
+      "Re-engage the figure-four immediately when any looseness develops in the leg configuration from pummeling attempts",
+      "Recognize trained escape patterns early and address them before they develop momentum through their sequential phases",
+      "Consider attacking the submission when the opponent's escape movement momentarily exposes the heel during pummeling",
+      "Inside position between the opponent's legs is the non-negotiable anchor of Saddle control that must be preserved",
+      "Address the opponent's free leg framing to prevent them from generating the hip movement needed for degradation"
+    ],
+    "recognition_cues": [
+      "Opponent begins rotating their trapped knee inward while reaching for their own foot or ankle to protect the heel in a deliberate, controlled manner",
+      "Free leg posts on your hip with increasing structural pressure rather than random pushing, creating a purposeful frame against your advancement",
+      "Opponent's hands shift from general defensive posture to specifically targeting your grip connections at the figure-four configuration",
+      "Hip bridge movements directed toward you rather than away, indicating an attempt to collapse the perpendicular alignment that sustains your control",
+      "Controlled, sequential movements replace panicked reactions, signaling a trained escape protocol rather than instinctive resistance"
+    ],
+    "defensive_options": [
+      {
+        "action": "Re-tighten figure-four and drive hips deeper into trapped leg",
+        "when_to_use": "When you feel any looseness developing in your leg configuration or the opponent begins leg pummeling movements",
+        "targets_outcome": "Saddle/Bottom",
+        "if_successful": "Opponent remains trapped in Saddle with your control fully re-established and their escape progress reset",
+        "risk": "Over-committing to re-tightening can momentarily create space on the opposite side if the opponent anticipates your adjustment"
+      },
+      {
+        "action": "Attack heel hook during escape attempt when pummeling exposes the heel",
+        "when_to_use": "When the opponent's leg pummeling movement momentarily exposes their heel during the transition between positions",
+        "targets_outcome": "Saddle/Bottom",
+        "if_successful": "Opponent must abandon the escape to defend the immediate submission threat, resetting to full defensive posture in Saddle",
+        "risk": "If the attack fails, you may have loosened your own positional control while reaching for the heel, accelerating their degradation"
+      },
+      {
+        "action": "Switch to straight ankle lock threat when heel is hidden",
+        "when_to_use": "When the opponent has successfully hidden their heel through knee rotation but has not completed the leg pummel",
+        "targets_outcome": "Saddle/Bottom",
+        "if_successful": "Forces opponent to address ankle defense, which often re-exposes the heel or halts their escape progress entirely",
+        "risk": "Ankle lock position may provide less structural control than Saddle, potentially accelerating the degradation you are trying to prevent"
+      },
+      {
+        "action": "Disengage from leg entanglement and transition to top guard passing",
+        "when_to_use": "When the entanglement has degraded significantly and re-establishing Saddle control is no longer realistic",
+        "targets_outcome": "Open Guard/Top",
+        "if_successful": "You transition to a top passing position before they can establish counter-offensive leg entanglements from Inside Ashi",
+        "risk": "Abandoning the leg game entirely when re-entry to Saddle may still have been possible with better adjustments"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Saddle/Bottom",
+        "how": "Maintain constant hip pressure and re-engage the figure-four leg configuration at the first sign of looseness during opponent's escape attempts. Attack the submission when their pummeling movement exposes the heel to force them back to purely defensive posture. Address their free leg framing early to prevent the hip movement that drives the degradation sequence."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Allowing hip pressure to decrease when the opponent frames with their free leg on your hip",
+        "consequence": "Creates the space needed for leg pummeling and reduces the perpendicular angle that makes the Saddle dominant, accelerating degradation to Inside Ashi",
+        "correction": "Drive hips constantly into the trapped leg while using your top leg or free hand to address the opponent's free leg frame before it generates meaningful distance"
+      },
+      {
+        "error": "Focusing exclusively on finishing the submission while neglecting positional maintenance",
+        "consequence": "Opponent uses the space created during your finishing attempt to complete the degradation to Inside Ashi-Garami while you are committed to the attack",
+        "correction": "Prioritize maintaining the Saddle configuration over finishing the submission. A maintained Saddle offers unlimited future submission attempts, while a lost position offers none."
+      },
+      {
+        "error": "Ignoring the opponent's systematic grip fighting on your figure-four leg hooks",
+        "consequence": "Gradual loosening of the leg configuration allows progressive degradation of your entanglement control without you recognizing the incremental losses",
+        "correction": "Address grip attacks on your figure-four immediately by re-engaging your leg hooks and adjusting foot positioning. Each small grip break they achieve brings them closer to completing the pummel."
+      },
+      {
+        "error": "Over-reacting to escape attempts with explosive repositioning movements",
+        "consequence": "Creates chaos and unpredictability that benefits the escaper more than the controller, potentially losing the entire entanglement during your own adjustment",
+        "correction": "Make small, precise positional adjustments to maintain control rather than large repositioning movements. The Saddle is maintained through structural pressure, not explosive reactions."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the earliest recognition cue that your opponent is initiating a systematic fight to Inside Ashi rather than a random escape attempt?",
+        "answer": "The earliest cue is deliberate, controlled movement rather than panicked struggles. Watch for the opponent rotating their knee inward while simultaneously reaching for their own foot to protect the heel, followed by their free leg posting firmly on your hip with structural intent rather than pushing randomly. These sequential movements indicate a trained escape protocol rather than instinctive resistance, requiring a systematic defensive response."
+      },
+      {
+        "question": "When should you abandon Saddle maintenance and commit to finishing the submission during the opponent's escape attempt?",
+        "answer": "Attack the submission when the opponent's escape movement momentarily exposes their heel, but only if you can maintain your figure-four leg configuration during the attack. If attacking requires loosening your positional control, the risk-reward is poor because a failed submission attempt from a compromised Saddle accelerates their degradation. The ideal moment is when they pummel their knee and briefly straighten their leg, temporarily exposing the heel."
+      },
+      {
+        "question": "How do you prevent the opponent's free leg framing from generating enough force to clear your hip pressure?",
+        "answer": "Use your top leg or free hand to address their framing leg before it establishes a strong structural post on your hip. Pin their free leg against your body, hook behind their knee with your arm, or use your top leg to cross-control their free leg. If the frame is already established, drive your hips forward into their trapped leg to counteract the pushing force rather than trying to remove the frame directly."
+      },
+      {
+        "question": "Your opponent has partially degraded your Saddle and you feel your figure-four loosening - what is your recovery sequence?",
+        "answer": "Immediately re-engage your outside leg hook behind their knee and drive your inside leg deeper across their hip. Increase hip pressure into their trapped leg to re-establish perpendicular alignment. Only after these structural elements are restored should you address grips on their heel or ankle. If the degradation is too advanced and re-entry to Saddle is unlikely, consider transitioning to an immediate submission attempt from the compromised position or strategically disengaging to top position."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Recognition",
+        "focus": "Identifying escape attempt patterns early",
+        "description": "Partner executes the fight to Inside Ashi sequence at slow speed while you observe and identify each phase: heel protection, free leg framing, grip fighting, hip bridging, and leg pummeling. Call out each phase as it begins. Develop the ability to recognize the complete escape sequence and its individual components before they develop momentum."
+      },
+      {
+        "phase": "Phase 2: Maintenance Under Pressure",
+        "focus": "Holding Saddle against progressive escape resistance",
+        "description": "Partner attempts the escape at graduated intensity: 25%, 50%, 75%, then full resistance. Focus on maintaining hip pressure, figure-four tightness, and perpendicular alignment while the partner works through their escape sequence. Identify which defensive adjustments are most effective at each intensity level. 3-minute rounds per intensity."
+      },
+      {
+        "phase": "Phase 3: Counter-Attacking",
+        "focus": "Timing submissions during opponent's escape attempts",
+        "description": "Partner attempts the full escape sequence while you look for moments where their heel becomes exposed during pummeling. Practice transitioning from positional maintenance to submission attack at the precise moment of heel exposure, then back to maintenance if the attack fails. Develop the timing to punish escape attempts without sacrificing position."
+      },
+      {
+        "phase": "Phase 4: Decision Making",
+        "focus": "Choosing between maintaining position, attacking, and strategic disengagement",
+        "description": "Full live rounds starting in Saddle. Practice reading the opponent's escape progress and making strategic decisions: maintain position when control is strong, attack when opportunities arise, and disengage to top position when the entanglement is compromised beyond recovery. Develop the judgment to select the right strategy based on real-time positional assessment."
+      }
+    ]
+  }
+}

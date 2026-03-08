@@ -1,0 +1,586 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "BJJ Position Dual Template Schema - Hub + Bottom + Top",
+  "description": "JSON Schema for positions WITH two perspectives (bottom/top) but NO variations (Turtle, North-South, etc.). Generates hub page + bottom page + top page.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "name",
+    "slug",
+    "description",
+    "variant_uniqueness",
+    "overview",
+    "key_principles",
+    "related_positions",
+    "bottom",
+    "top"
+  ],
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "Hub position name (without Bottom/Top suffix)",
+      "minLength": 1,
+      "examples": [
+        "Turtle",
+        "North-South"
+      ]
+    },
+    "slug": {
+      "type": "string",
+      "description": "URL slug for hub page",
+      "minLength": 1,
+      "examples": [
+        "turtle",
+        "north-south"
+      ]
+    },
+    "description": {
+      "type": "string",
+      "description": "Hub meta description for SEO (140-180 characters recommended)",
+      "minLength": 1,
+      "examples": [
+        "Master turtle position in BJJ. Strategic guide covering when to use turtle, defensive escapes, and offensive attacks with complete perspective analysis."
+      ]
+    },
+    "variant_uniqueness": {
+      "type": "string",
+      "description": "What makes this DUAL position unique - distinguishes bottom from top perspective",
+      "minLength": 20,
+      "maxLength": 50,
+      "examples": [
+        "Hands-and-knees posture trades back exposure for submission protection"
+      ]
+    },
+    "overview": {
+      "type": "string",
+      "description": "Hub overview covering both perspectives (400+ words minimum)",
+      "minLength": 400,
+      "examples": [
+        "Turtle position is a transitional defensive posture in Brazilian Jiu-Jitsu where the practitioner is on hands and knees..."
+      ]
+    },
+    "key_principles": {
+      "type": "array",
+      "description": "5-7 fundamental principles for this position hub",
+      "minItems": 5,
+      "maxItems": 7,
+      "items": {
+        "type": "string"
+      },
+      "examples": [
+        [
+          "Turtle is never a resting position - always transitional",
+          "Bottom must escape to guard or stand immediately"
+        ]
+      ]
+    },
+    "related_positions": {
+      "type": "array",
+      "description": "Related positions/states/techniques for hub (3-15 items)",
+      "minItems": 3,
+      "maxItems": 15,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "name",
+          "relationship"
+        ],
+        "properties": {
+          "name": {
+            "type": "string",
+            "description": "Related position name",
+            "minLength": 1
+          },
+          "relationship": {
+            "type": "string",
+            "description": "How it relates to this position",
+            "minLength": 5
+          }
+        }
+      }
+    },
+    "bottom": {
+      "type": "object",
+      "description": "Bottom perspective - full position data (same structure as SINGLE template)",
+      "additionalProperties": false,
+      "required": [
+        "overview",
+        "state_properties",
+        "state_invariants",
+        "prerequisites",
+        "key_principles",
+        "transitions",
+        "decision_tree",
+        "common_errors",
+        "training_drills",
+        "related_content",
+        "position_metrics",
+        "name",
+        "description",
+        "tags"
+      ],
+      "properties": {
+        "overview": {
+          "type": "string",
+          "description": "Bottom perspective overview (400+ words minimum)",
+          "minLength": 400
+        },
+        "knowledge_assessment": {
+          "$ref": "#/$defs/knowledge_assessment"
+        },
+        "state_properties": {
+          "$ref": "#/$defs/state_properties"
+        },
+        "state_invariants": {
+          "$ref": "#/$defs/state_invariants"
+        },
+        "prerequisites": {
+          "$ref": "#/$defs/prerequisites"
+        },
+        "key_principles": {
+          "$ref": "#/$defs/key_principles"
+        },
+        "transitions": {
+          "$ref": "#/$defs/transitions"
+        },
+        "decision_tree": {
+          "$ref": "#/$defs/decision_tree"
+        },
+        "common_errors": {
+          "$ref": "#/$defs/common_errors"
+        },
+        "training_drills": {
+          "$ref": "#/$defs/training_drills"
+        },
+        "related_content": {
+          "$ref": "#/$defs/related_content"
+        },
+        "position_metrics": {
+          "$ref": "#/$defs/position_metrics"
+        },
+        "name": {
+          "type": "string",
+          "description": "Must be '{hub_name} Bottom' format",
+          "minLength": 1
+        },
+        "description": {
+          "type": "string",
+          "description": "Meta description for SEO (140-180 characters)",
+          "minLength": 10
+        },
+        "tags": {
+          "type": "array",
+          "description": "Content tags (minimum 3)",
+          "minItems": 3,
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "top": {
+      "type": "object",
+      "description": "Top perspective - full position data (same structure as SINGLE template)",
+      "additionalProperties": false,
+      "required": [
+        "overview",
+        "state_properties",
+        "state_invariants",
+        "prerequisites",
+        "key_principles",
+        "transitions",
+        "decision_tree",
+        "common_errors",
+        "training_drills",
+        "related_content",
+        "position_metrics",
+        "name",
+        "description",
+        "tags"
+      ],
+      "properties": {
+        "overview": {
+          "type": "string",
+          "description": "Top perspective overview (400+ words minimum)",
+          "minLength": 400
+        },
+        "knowledge_assessment": {
+          "$ref": "#/$defs/knowledge_assessment"
+        },
+        "state_properties": {
+          "$ref": "#/$defs/state_properties"
+        },
+        "state_invariants": {
+          "$ref": "#/$defs/state_invariants"
+        },
+        "prerequisites": {
+          "$ref": "#/$defs/prerequisites"
+        },
+        "key_principles": {
+          "$ref": "#/$defs/key_principles"
+        },
+        "transitions": {
+          "$ref": "#/$defs/transitions"
+        },
+        "decision_tree": {
+          "$ref": "#/$defs/decision_tree"
+        },
+        "common_errors": {
+          "$ref": "#/$defs/common_errors"
+        },
+        "training_drills": {
+          "$ref": "#/$defs/training_drills"
+        },
+        "related_content": {
+          "$ref": "#/$defs/related_content"
+        },
+        "position_metrics": {
+          "$ref": "#/$defs/position_metrics"
+        },
+        "name": {
+          "type": "string",
+          "description": "Must be '{hub_name} Top' format",
+          "minLength": 1
+        },
+        "description": {
+          "type": "string",
+          "description": "Meta description for SEO (140-180 characters)",
+          "minLength": 10
+        },
+        "tags": {
+          "type": "array",
+          "description": "Content tags (minimum 3)",
+          "minItems": 3,
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  },
+  "$defs": {
+    "state_properties": {
+      "type": "object",
+      "description": "Core state machine properties",
+      "additionalProperties": false,
+      "required": [
+        "point_value",
+        "position_type",
+        "risk_level",
+        "energy_cost",
+        "time_sustainability"
+      ],
+      "properties": {
+        "point_value": {
+          "type": "integer",
+          "description": "IBJJF points (0=neutral, 2=advantage, 3=pass, 4=mount/back)",
+          "minimum": 0,
+          "maximum": 4
+        },
+        "position_type": {
+          "type": "string",
+          "enum": [
+            "Neutral",
+            "Offensive",
+            "Defensive",
+            "Controlling",
+            "Offensive/Controlling",
+            "Defensive with offensive options"
+          ]
+        },
+        "risk_level": {
+          "type": "string",
+          "enum": [
+            "Low",
+            "Medium",
+            "High",
+            "Low to Medium",
+            "Medium to High"
+          ]
+        },
+        "energy_cost": {
+          "type": "string",
+          "enum": [
+            "Low",
+            "Medium",
+            "High"
+          ]
+        },
+        "time_sustainability": {
+          "type": "string",
+          "enum": [
+            "Short",
+            "Medium",
+            "Long",
+            "Short to Medium",
+            "Medium to Long"
+          ]
+        }
+      }
+    },
+    "state_invariants": {
+      "type": "array",
+      "description": "Conditions that must remain true - WITH anatomical/visual detail",
+      "minItems": 3,
+      "items": {
+        "type": "string",
+        "minLength": 50,
+        "description": "Each invariant describes positioning with anatomical detail"
+      }
+    },
+    "prerequisites": {
+      "type": "array",
+      "description": "Conditions that must be true before entering this position",
+      "minItems": 3,
+      "items": {
+        "type": "string"
+      }
+    },
+    "key_principles": {
+      "type": "array",
+      "description": "5-7 fundamental principles for this position",
+      "minItems": 5,
+      "maxItems": 7,
+      "items": {
+        "type": "string"
+      }
+    },
+    "transitions": {
+      "type": "array",
+      "description": "Available transitions from this position. attempt_probability MUST sum to 100%",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "transition",
+          "attempt_probability"
+        ],
+        "properties": {
+          "transition": {
+            "type": "string",
+            "description": "Name of the transition technique (must exist as Transition JSON)"
+          },
+          "attempt_probability": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 100,
+            "description": "Probability this transition is attempted (all must sum to 100%)"
+          }
+        }
+      }
+    },
+    "decision_tree": {
+      "type": "array",
+      "description": "If/else logic for state transitions",
+      "minItems": 3,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "condition",
+          "actions"
+        ],
+        "properties": {
+          "condition": {
+            "type": "string",
+            "description": "If/else if condition describing opponent behavior",
+            "minLength": 10
+          },
+          "actions": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "technique",
+                "target",
+                "probability"
+              ],
+              "properties": {
+                "technique": {
+                  "type": "string",
+                  "minLength": 3
+                },
+                "target": {
+                  "type": "string",
+                  "minLength": 3
+                },
+                "probability": {
+                  "type": "integer",
+                  "minimum": 0,
+                  "maximum": 100
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "common_errors": {
+      "type": "array",
+      "description": "5+ common mistakes with corrections",
+      "minItems": 5,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "error",
+          "consequence",
+          "correction"
+        ],
+        "properties": {
+          "error": {
+            "type": "string",
+            "minLength": 10
+          },
+          "consequence": {
+            "type": "string",
+            "minLength": 10
+          },
+          "correction": {
+            "type": "string",
+            "minLength": 10
+          }
+        }
+      }
+    },
+    "training_drills": {
+      "type": "array",
+      "description": "3+ drills to practice this position",
+      "minItems": 3,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "name",
+          "description"
+        ],
+        "properties": {
+          "name": {
+            "type": "string",
+            "minLength": 3
+          },
+          "description": {
+            "type": "string",
+            "minLength": 20
+          },
+          "duration": {
+            "type": "string",
+            "description": "Optional drill duration",
+            "examples": [
+              "3 minutes",
+              "5 minutes",
+              "2 minutes"
+            ]
+          }
+        }
+      }
+    },
+    "related_content": {
+      "type": "array",
+      "description": "Related positions/states/techniques (3-15 items)",
+      "minItems": 3,
+      "maxItems": 15,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "name",
+          "relationship"
+        ],
+        "properties": {
+          "name": {
+            "type": "string",
+            "description": "Related content name",
+            "minLength": 1
+          },
+          "relationship": {
+            "type": "string",
+            "description": "How it relates",
+            "minLength": 5
+          }
+        }
+      }
+    },
+    "position_metrics": {
+      "$ref": "#/$defs/position_metrics"
+    },
+    "knowledge_assessment": {
+      "type": "array",
+      "description": "6 Q&A pairs about this position (how to maintain, common mistakes, etc.)",
+      "minItems": 6,
+      "maxItems": 8,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["question", "answer"],
+        "properties": {
+          "question": {
+            "type": "string",
+            "pattern": ".*\\?$",
+            "description": "Question about position mechanics, strategy, or technique"
+          },
+          "answer": {
+            "type": "string",
+            "minLength": 50,
+            "description": "Detailed answer (50+ characters)"
+          }
+        }
+      }
+    },
+    "value_with_description": {
+      "type": "object",
+      "description": "A metric value with optional description",
+      "additionalProperties": false,
+      "required": ["value"],
+      "properties": {
+        "value": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 100,
+          "description": "Percentage value (0-100)"
+        },
+        "description": {
+          "type": "string",
+          "description": "Optional description of this metric"
+        }
+      }
+    },
+    "position_metrics": {
+      "type": "object",
+      "description": "Success rates, retention rates, probabilities",
+      "additionalProperties": false,
+      "required": [
+        "retention_rate",
+        "advancement_probability",
+        "submission_probability"
+      ],
+      "properties": {
+        "retention_rate": {
+          "allOf": [
+            { "$ref": "#/$defs/value_with_description" },
+            { "description": "Position retention rate" }
+          ]
+        },
+        "advancement_probability": {
+          "allOf": [
+            { "$ref": "#/$defs/value_with_description" },
+            { "description": "Probability of advancing to better position" }
+          ]
+        },
+        "submission_probability": {
+          "allOf": [
+            { "$ref": "#/$defs/value_with_description" },
+            { "description": "Probability of finishing from this position" }
+          ]
+        },
+        "average_time": {
+          "type": "string",
+          "description": "Average time spent in position (optional)"
+        }
+      }
+    }
+  }
+}

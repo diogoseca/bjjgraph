@@ -1,0 +1,441 @@
+{
+  "name": "Half Guard Pass",
+  "description": "Master the Half Guard Pass in BJJ. Systematic approach to passing from Half Guard Top to Side Control with pressure, underhook control, and leg extraction.",
+  "tags": [
+    "bjj",
+    "transition",
+    "guard_pass",
+    "half_guard",
+    "fundamental",
+    "pressure_passing",
+    "top_position"
+  ],
+  "from_position": "Half Guard/Top",
+  "outcomes": [
+    {
+      "to": "Side Control/Top",
+      "probability": 75,
+      "result": "success"
+    },
+    {
+      "to": "Half Guard/Bottom",
+      "probability": 15,
+      "result": "failure"
+    },
+    {
+      "to": "Half Guard/Top",
+      "probability": 10,
+      "result": "counter"
+    }
+  ],
+  "success_rate": 70,
+  "overview": "The Half Guard Pass is one of the most essential techniques in Brazilian Jiu-Jitsu, representing the fundamental challenge of progressing from the half guard top position to full side control. This technique encompasses a systematic approach to defeating the bottom player's defensive structure, which includes their leg entanglement, underhook battles, and frame creation. Understanding the half guard pass is crucial because half guard represents one of the most common positions in modern BJJ, serving as a key battleground between the top player's passing efforts and the bottom player's retention and sweeping attacks.\n\nThe effectiveness of the half guard pass lies in understanding the bottom player's defensive hierarchy and systematically dismantling each layer of defense. The bottom player typically relies on distance management through frames, connection through underhooks or overhooks, and leg control through various half guard configurations. The top player must address each of these defensive structures in sequence while maintaining pressure and preventing the bottom player from recovering full guard or executing sweeps.\n\nSuccessful half guard passing requires a combination of technical precision, pressure application, and strategic decision-making. The passer must recognize which variation of half guard they're facing (traditional half guard, lockdown, knee shield, deep half, etc.) and adapt their passing strategy accordingly. This technique forms the foundation for more advanced passing systems and represents a critical skill progression from beginner to advanced levels, with success rates improving dramatically as practitioners develop better pressure, timing, and recognition of defensive reactions.",
+  "conditions": [
+    "Top player has one leg trapped in opponent's half guard entanglement with upper body positioned above opponent",
+    "Top player has established at least preliminary base preventing immediate sweep from bottom player",
+    "Bottom player is actively retaining half guard rather than transitioning to full guard or open guard",
+    "Top player has positional awareness of which half guard variation they are facing (standard, knee shield, lockdown, Z-guard)"
+  ],
+  "related_content": [
+    {
+      "name": "Half Guard",
+      "relationship": "Starting position - understanding bottom perspective improves your passing"
+    },
+    {
+      "name": "Side Control",
+      "relationship": "Standard ending position after successful half guard pass"
+    },
+    {
+      "name": "Deep Half Guard",
+      "relationship": "Major defensive counter to prevent - requires specific awareness and stuffing techniques"
+    },
+    {
+      "name": "Lockdown",
+      "relationship": "Specific half guard variation requiring adapted passing strategy"
+    },
+    {
+      "name": "Knee Shield Half Guard",
+      "relationship": "Common defensive frame requiring clearing technique during pass"
+    },
+    {
+      "name": "Knee Slice Pass",
+      "relationship": "Common follow-up passing technique when establishing headquarters position from half guard"
+    },
+    {
+      "name": "Long Step Pass",
+      "relationship": "Angle-based passing option when direct pressure passing is defended"
+    },
+    {
+      "name": "Crossface Pass",
+      "relationship": "Pressure-based passing variation utilizing crossface control to flatten and extract"
+    },
+    {
+      "name": "Kimura from Half Guard",
+      "relationship": "Submission option available during passing when opponent extends arm defensively"
+    },
+    {
+      "name": "Darce Choke",
+      "relationship": "Opportunistic submission when opponent attempts underhook and turns to their side"
+    },
+    {
+      "name": "Headquarters Position",
+      "relationship": "Transitional position when stepping over half guard legs to access multiple passing angles"
+    },
+    {
+      "name": "Back Step Pass",
+      "relationship": "Alternative passing direction when forward pressure is effectively defended"
+    }
+  ],
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Knee Slice Pass from Half Guard",
+      "description": "Instead of passing directly to side control, step your outside leg over opponent's legs and drive your knee across their belly toward the far side, slicing through their guard structure. This creates a different pressure angle and often catches opponents by surprise who are defending traditional half guard passes.",
+      "when_to_use": "Effective when opponent has strong knee shield defense or when they're expecting traditional pressure passing. Works particularly well in gi where you can control their pants to facilitate the knee slice motion."
+    },
+    {
+      "variant_name": "Smash Pass / Leg Weave from Half Guard",
+      "description": "Weave your trapped leg over opponent's bottom leg while maintaining heavy shoulder pressure. This flattens their defensive structure and creates a different mechanical challenge for the bottom player. Your leg weaves like threading a needle, going over their leg and then sliding free to the far side.",
+      "when_to_use": "Excellent against opponents who maintain very tight half guard control with their legs. The leg weave creates a different extraction angle that bypasses their strongest defensive grips. Particularly effective in no-gi where lockdowns are less threatening."
+    },
+    {
+      "variant_name": "Headquarters Pass",
+      "description": "Step your outside leg completely over both of opponent's legs, establishing a headquarters position where your knee is between their legs. From here, use various knee cut, leg drag, or over-under passing sequences. This removes the half guard entanglement entirely rather than extracting your trapped leg.",
+      "when_to_use": "Highly effective when opponent has strong lockdown or when direct passing is defended. Works well against knee shield half guard as stepping over the shield is often easier than clearing it. Gives access to multiple passing angles from single position."
+    },
+    {
+      "variant_name": "Underhook Pass",
+      "description": "Secure a deep underhook on opponent's far side and use it to lift their shoulders and drive them to their side, then step around their legs while maintaining the underhook. This creates a wrestling-style passing angle with strong control throughout.",
+      "when_to_use": "Best when you can win the underhook battle decisively. Works excellently against opponents who rely heavily on lockdown since the underhook allows you to control their upper body while your legs remain relatively free. Strong in no-gi competition."
+    },
+    {
+      "variant_name": "Long Step Pass",
+      "description": "Rather than freeing your trapped leg in place, take a long step with your free leg far to the side, creating an angle that stretches opponent's half guard structure. This often forces them to release or allows you to circle around their guard entirely.",
+      "when_to_use": "Effective when opponent's half guard is strong and tight. The long step creates a positional problem they must solve - either hold the half guard and be stretched, or release to defend the angle. Works well when combined with strong crossface control."
+    }
+  ],
+  "position_integration": "The half guard pass is a foundational technique within the broader BJJ positional hierarchy, serving as the primary method for advancing from a contested position (half guard top) to a dominant position (side control). Half guard represents one of the most common positions in modern BJJ because it's a natural stopping point during guard passing attempts and guard recovery efforts - the bottom player often catches one leg while attempting to prevent a full pass. Understanding half guard passing is essential for any top game development because you will inevitably encounter this position dozens of times in every training session. The technique integrates with the complete passing system by providing specific solutions for this leg entanglement scenario, distinct from open guard passing or closed guard breaking. It connects directly to side control transitions, knee slice variations, leg drag sequences, and various other passing positions. From a defensive perspective, understanding the half guard pass helps you recognize what the bottom player is trying to prevent and accomplish, making you a better half guard player from both top and bottom. This pass also serves as entry into advanced concepts like pressure passing systems, chain passing sequences, and position-specific grip fighting strategies. Competition analysis shows that successful half guard passing correlates strongly with overall competition success because it demonstrates complete positional control and the ability to navigate complex defensive structures.",
+  "attacker": {
+    "name": "Half Guard Pass Attacker",
+    "description": "How to execute Half Guard Pass in BJJ. Attacking perspective with setup, execution steps, and counters.",
+    "overview": "The Half Guard Pass is one of the most essential techniques in Brazilian Jiu-Jitsu, representing the fundamental challenge of progressing from the half guard top position to full side control. This technique encompasses a systematic approach to defeating the bottom player's defensive structure, which includes their leg entanglement, underhook battles, and frame creation. Understanding the half guard pass is crucial because half guard represents one of the most common positions in modern BJJ, serving as a key battleground between the top player's passing efforts and the bottom player's retention and sweeping attacks.\n\nThe effectiveness of the half guard pass lies in understanding the bottom player's defensive hierarchy and systematically dismantling each layer of defense. The bottom player typically relies on distance management through frames, connection through underhooks or overhooks, and leg control through various half guard configurations. The top player must address each of these defensive structures in sequence while maintaining pressure and preventing the bottom player from recovering full guard or executing sweeps.\n\nSuccessful half guard passing requires a combination of technical precision, pressure application, and strategic decision-making. The passer must recognize which variation of half guard they're facing (traditional half guard, lockdown, knee shield, deep half, etc.) and adapt their passing strategy accordingly. This technique forms the foundation for more advanced passing systems and represents a critical skill progression from beginner to advanced levels, with success rates improving dramatically as practitioners develop better pressure, timing, and recognition of defensive reactions.",
+    "key_principles": [
+      "Control the upper body through crossface, underhook, or head control before addressing the leg entanglement",
+      "Maintain forward pressure and chest-to-chest connection to prevent bottom player from creating space",
+      "Win the underhook battle or neutralize the bottom player's underhook with proper shoulder positioning",
+      "Keep weight distributed forward onto opponent's chest and shoulder to prevent hip escape and leg recovery",
+      "Address the trapped leg systematically by controlling the knee line and preventing leg pumping",
+      "Maintain base and posture to defend against sweep attempts while progressing the pass",
+      "Transition smoothly to side control once the leg is freed to prevent re-guard"
+    ],
+    "setup_requirements": [
+      "Established position in top half guard with opponent's leg controlling one of your legs",
+      "Stable base with posting hand or forearm preventing being swept or rolled",
+      "Upper body control through crossface, underhook, or head control preventing opponent's mobility",
+      "Hip positioning that prevents opponent from achieving deep half guard or electric chair entries",
+      "Pressure directed forward and down onto opponent's chest and shoulder structure",
+      "Recognition of which half guard variation you're facing (traditional, lockdown, knee shield, Z-guard, etc.)",
+      "Posture that defends against underhook sweeps and back takes while allowing forward progress"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Establish upper body control",
+        "description": "From half guard top, immediately work to establish a strong crossface by driving your shoulder across opponent's face toward the far side of the mat. Alternatively, secure an underhook on the far side by swimming your arm underneath their arm and connecting your hands in a gable grip or seat belt configuration. Your chest should be heavy on their chest, limiting their ability to create frames or recover guard."
+      },
+      {
+        "step_number": 2,
+        "action": "Win the underhook battle",
+        "description": "If opponent has an underhook on your near side, address this immediately by either whizzering over their arm (overhooking) and driving your weight onto their shoulder, or by stripping their underhook using your crossface-side hand to peel their grip from your body. The underhook battle is critical - if opponent maintains the underhook, they can execute sweeps and back takes. Your goal is either to remove their underhook or neutralize its effectiveness through superior shoulder pressure."
+      },
+      {
+        "step_number": 3,
+        "action": "Clear the knee shield (if present)",
+        "description": "If opponent establishes a knee shield frame with their top leg, use your crossface-side hand to control their knee, pushing it down toward the mat while simultaneously driving your hips forward. Alternatively, step your outside leg over their knee shield to establish a headquarters or knee slice position. Some advanced passers choose to go under the knee shield by lowering their hips and driving forward, but this requires excellent pressure and timing to avoid being swept."
+      },
+      {
+        "step_number": 4,
+        "action": "Attack the trapped leg",
+        "description": "Once upper body control is established and knee shield is addressed, focus on freeing your trapped leg. Drive your trapped leg's knee toward the mat while simultaneously using hip pressure to flatten opponent's bottom leg. Your trapped leg should begin to extract by pulling the knee up and back while keeping your heel tight to your buttocks. Maintain forward pressure with your chest to prevent opponent from following your hips as you extract."
+      },
+      {
+        "step_number": 5,
+        "action": "Control the hips and prevent recovery",
+        "description": "As your leg begins to free, use your free hand to control opponent's far hip or pants, preventing them from following your movement or recovering full guard. Your crossface should intensify, driving their head away from you. Your hips should stay low and heavy, sprawling slightly to maintain downward pressure. This prevents opponent from sitting up or creating the angle needed for guard recovery."
+      },
+      {
+        "step_number": 6,
+        "action": "Complete the pass to side control",
+        "description": "Once your leg is completely free from the half guard, immediately step it across to the far side of opponent's body, establishing side control position. Do not allow any space between your chest and their chest during this transition. Secure standard side control grips (underhook and crossface, or double underhooks, or head and arm position) and distribute your weight across their torso. Your hips should be heavy on their hip line, preventing them from recovering guard or creating frames."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Bottom player establishes lockdown (legs crossed) and prevents leg extraction",
+        "effectiveness": "High",
+        "your_response": "Address lockdown by whipping your trapped leg violently to break the hold, or systematically attack the lockdown by controlling their top leg's foot and prying it away from your trapped leg while maintaining upper body pressure. Do not try to forcefully rip your leg out - this often fails and wastes energy.",
+        "targets_outcome": "Half Guard/Bottom"
+      },
+      {
+        "counter": "Bottom player achieves underhook and uses it to come up on their side for sweep or back take",
+        "effectiveness": "High",
+        "your_response": "Immediately whizzer their underhook arm and drive your weight onto their shoulder, forcing them flat to the mat. Alternatively, if they've already started to come up, you may need to transition to a front headlock position or back step to defend the sweep. Prevention is key - never allow them to establish and maintain the underhook without addressing it.",
+        "targets_outcome": "Half Guard/Top"
+      },
+      {
+        "counter": "Bottom player creates strong knee shield and uses it to create distance for guard recovery",
+        "effectiveness": "Medium",
+        "your_response": "Either step over the knee shield to knee slice position, or pressure through by controlling the knee with your hand while driving your hips forward and low. Another option is to transition to a different passing angle such as headquarters position or long step pass. Do not remain static against an established knee shield.",
+        "targets_outcome": "Half Guard/Bottom"
+      },
+      {
+        "counter": "Bottom player pumps their trapped leg (the leg controlling yours) to off-balance you and create sweeping opportunities",
+        "effectiveness": "Medium",
+        "your_response": "Counter leg pumping by keeping your hips extremely low and heavy, maintaining chest pressure, and timing your leg extraction for moments when their leg is extended. Use your posting hand to maintain base and prevent being rolled. Some passers prefer to control opponent's bottom knee with their hand to limit the pumping motion.",
+        "targets_outcome": "Half Guard/Top"
+      },
+      {
+        "counter": "Bottom player transitions to deep half guard by getting underneath your hips",
+        "effectiveness": "High",
+        "your_response": "Prevent deep half entry by keeping your hips low and forward, never allowing space underneath your torso. If they begin to enter, immediately limp leg (remove your trapped leg) and hop over to the other side, or sprawl back and establish a front headlock or whizzer position. Deep half is very dangerous if fully established, so prevention is critical.",
+        "targets_outcome": "Half Guard/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Focusing exclusively on freeing the trapped leg while neglecting upper body control",
+        "consequence": "Bottom player uses frames and hip movement to recover full guard or execute sweeps, nullifying your passing attempt despite leg extraction",
+        "correction": "Always establish dominant upper body control first through crossface, underhook, or head control before attempting to free your leg. The pass is won with the upper body, not the legs."
+      },
+      {
+        "error": "Standing too upright or allowing hips to rise too high during the pass",
+        "consequence": "Bottom player creates space underneath your hips to transition to deep half guard, or uses the space to recover full guard or execute technical standup",
+        "correction": "Keep your hips low and chest pressure heavy throughout the entire passing sequence. Your torso should be driving forward and down, not up and away."
+      },
+      {
+        "error": "Allowing opponent to maintain underhook without addressing it",
+        "consequence": "Bottom player uses underhook to come to their side, execute sweeps, or take your back - the underhook gives them significant offensive opportunities",
+        "correction": "Treat opponent's underhook as an emergency that must be addressed immediately. Either whizzer over it, strip it away, or control their shoulder so heavily that the underhook becomes ineffective."
+      },
+      {
+        "error": "Using excessive muscle and force to rip the trapped leg free without proper mechanics",
+        "consequence": "Wastes enormous energy, often fails against technical opponents, and can result in injury to your own knee or hip from violent twisting",
+        "correction": "Use systematic pressure and proper hip positioning to create the space needed for leg extraction. The leg should slide out smoothly when upper body control and pressure are correct, not require violent yanking."
+      },
+      {
+        "error": "Rushing the transition to side control and allowing space during the final pass",
+        "consequence": "Bottom player recovers guard by inserting knee shield or feet on hips, or creates enough space to begin escaping",
+        "correction": "Maintain constant chest-to-chest pressure during the transition to side control. Your hips should slide across to establish side control without ever creating vertical space between your torso and theirs."
+      },
+      {
+        "error": "Remaining static in one position without adapting to opponent's defensive responses",
+        "consequence": "Technical bottom players will use your predictability to set up sweeps, transitions to deep half, or other defensive counters",
+        "correction": "Develop multiple passing options from half guard top and chain them together based on opponent's reactions. If one approach is defended, flow immediately to an alternative passing sequence."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Week 1-2: Fundamental mechanics",
+        "focus": "Learning basic crossface and underhook control from half guard top",
+        "description": "Begin with compliant partner allowing you to establish position. Practice achieving crossface and controlling opponent's head, then work on securing underhook on far side. Drill the feeling of proper chest pressure and hip positioning. Partner should remain relatively static, allowing you to develop muscle memory for correct body positioning. Focus on one detail at a time rather than trying to complete full passes."
+      },
+      {
+        "phase": "Week 3-4: Leg extraction mechanics",
+        "focus": "Developing proper technique for freeing trapped leg",
+        "description": "With partner maintaining passive half guard, practice the mechanics of leg extraction while maintaining upper body control. Focus on hip positioning, knee angle, and timing of leg withdrawal. Partner should hold half guard but not actively defend or attempt sweeps. Learn to feel when your leg is positioned correctly to slide free versus when you're trapped and need to adjust your hips."
+      },
+      {
+        "phase": "Week 5-8: Defending common counters",
+        "focus": "Learning to recognize and address underhook battles, knee shields, and lockdowns",
+        "description": "Partner now actively uses defensive frames including knee shield, underhook attempts, and lockdown control. Practice recognizing each defensive structure and applying appropriate counter-techniques. Begin to understand which passing variations work best against each type of half guard. Partner uses defense but does not attempt sweeps or submissions."
+      },
+      {
+        "phase": "Week 9-12: Dealing with sweep attempts",
+        "focus": "Maintaining base and pressure while partner attempts sweeps",
+        "description": "Partner now actively attempts to sweep from half guard using various techniques. Practice maintaining your base, recognizing sweep attempts early, and adjusting your pressure and positioning to defend while continuing your pass. Learn to time your passing sequences between opponent's offensive attempts. Develop sensitivity to when you're vulnerable versus when you can push forward with the pass."
+      },
+      {
+        "phase": "Month 4-6: Competition-level passing",
+        "focus": "Completing passes against full resistance and chaining multiple passing sequences",
+        "description": "Partner uses full resistance including all defensive techniques, sweeps, and submission attempts from bottom half guard. Practice completing the pass while defending everything opponent throws at you. Develop the ability to chain multiple passing approaches together - if one is defended, flow immediately to another. Work on timing, pressure adjustment, and reading opponent's weight distribution to find passing opportunities."
+      },
+      {
+        "phase": "Ongoing: Situational sparring",
+        "focus": "Starting every roll from half guard top position",
+        "description": "Regularly practice specific sparring starting from half guard top with various partners of different skill levels, body types, and half guard specialties. This develops your ability to adapt your passing to different opponents and styles. Track which passing sequences work best for you against different defensive styles and continue refining your highest-percentage techniques while developing backup options."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "Why is it critical to establish upper body control before attempting to free your trapped leg in half guard?",
+        "answer": "Upper body control prevents the bottom player from creating frames, recovering full guard, or using hip mobility to execute sweeps. Without controlling their upper body first, any attempt to free your leg will likely fail because they can simply follow your movement with their hips and legs. The pass is won with chest pressure and head control, not by forcefully yanking your leg free. Proper upper body dominance limits their mobility and creates the foundation for successful leg extraction."
+      },
+      {
+        "question": "What are the primary dangers of allowing your opponent to maintain an underhook during the half guard pass?",
+        "answer": "The underhook gives the bottom player the ability to come to their side, which is the foundation for sweeps, back takes, and even submission opportunities from half guard. With an underhook, they can drive into you, take your back by coming up behind you, or execute various half guard sweeps including the old school sweep and Homer Simpson sweep. The underhook also prevents you from flattening them with shoulder pressure, allowing them to maintain better defensive structure. This is why experienced passers treat opponent's underhook as a critical threat that must be addressed immediately."
+      },
+      {
+        "question": "How should you adapt your passing strategy when facing lockdown half guard versus traditional half guard?",
+        "answer": "Lockdown half guard requires specific counter-techniques because opponent has their legs crossed, creating a mechanical lock that prevents simple leg extraction. Against lockdown, you should focus on either breaking the lockdown by controlling their top foot and prying it away from your trapped leg, or transitioning to positions that nullify the lockdown's effectiveness such as getting the underhook and driving them to their back. You may also whip your trapped leg sharply to break the hold, or step over to headquarters position to bypass the lockdown entirely. Traditional half guard without lockdown allows more direct pressure passing, whereas lockdown demands addressing the leg configuration specifically."
+      },
+      {
+        "question": "What mechanical principle allows successful leg extraction while maintaining forward pressure during the half guard pass?",
+        "answer": "The key mechanical principle is creating space through hip angle and pressure direction rather than pulling your leg backward. By driving your chest and shoulders forward and downward onto opponent's upper body while simultaneously keeping your hips low, you create compression that limits their ability to follow your leg movement. Your trapped leg then extracts by sliding the knee up and back (pulling heel to buttocks) while your hips continue pressing forward. This creates opposing forces - your upper body going forward, your trapped leg coming backward - that split their defensive structure. The forward pressure pins their upper body while the leg extraction happens below."
+      },
+      {
+        "question": "Why is preventing deep half guard entry considered critical during the half guard passing sequence?",
+        "answer": "Deep half guard represents one of the most dangerous positions for the passer because the bottom player gets underneath your center of gravity, controls your legs from below, and has access to numerous high-percentage sweeps including the Homer Simpson, waiter sweep, and various wrestling-style dump sweeps. Once deep half is established, your passing attempt has essentially failed and you're now defending against being swept or submitted. Prevention requires keeping your hips low and forward, never allowing space underneath your torso. If opponent begins entering deep half, immediate counters are necessary such as hopping over to the other side (limp leg), establishing front headlock control, or sprawling backward."
+      },
+      {
+        "question": "How should you sequence your passing attempts when your initial half guard pass is defended?",
+        "answer": "Rather than remaining static and attempting to force a single passing technique against active defense, experienced passers chain multiple passing sequences together based on opponent's reactions. If traditional pressure passing is defended with strong frames, transition to knee slice or headquarters. If they defend knee slice, flow to leg drag or long step. The key is maintaining forward pressure and control while fluidly transitioning between passing angles. Each defensive response creates new opportunities - if they defend your crossface, they often weaken their leg defense; if they focus entirely on leg retention, their upper body becomes vulnerable."
+      },
+      {
+        "question": "Your opponent posts their far hand on the mat as you begin extracting your trapped leg - how do you adjust your passing approach?",
+        "answer": "When the opponent posts their far hand, they are likely preparing to hip escape or create an angle to recover guard. You should immediately control that posted hand or arm with your crossface-side hand, pinning it to their body or the mat. This removes their ability to frame and create distance. Alternatively, if the arm is extended far enough, you can attack it with a kimura grip while continuing your pass - this forces them to choose between defending the submission and retaining their guard structure. The posted hand is an opportunity, not just an obstacle, because it means their arm is no longer defending against your upper body control."
+      },
+      {
+        "question": "What grip configuration should you prioritize when passing half guard in no-gi versus gi, and why does this change your approach?",
+        "answer": "In gi, you have access to collar and pants grips that provide reliable anchor points - a cross-collar grip combined with a pants grip at the knee gives you excellent control for both upper body management and leg manipulation during extraction. In no-gi, without these friction-based grips, you must rely more heavily on body positioning and pressure rather than grips. Underhooks, overhooks, and head control become your primary connection points. The crossface becomes even more critical in no-gi because you cannot rely on collar grips to control head position. This shifts the passing strategy toward tighter chest-to-chest pressure and more wrestling-based upper body control rather than grip-dependent sequences."
+      }
+    ],
+    "safety_considerations": "Half guard passing is generally safe when practiced with proper control and progressive resistance. The primary safety concerns involve knee and hip injuries to the passing player if they attempt to violently rip their trapped leg free without proper technique - this can stress knee ligaments and hip flexors. Always extract your leg using proper hip positioning and pressure rather than forceful yanking. For the bottom player, ensure your partner doesn't drive crossface pressure excessively hard onto your neck or face, especially when learning. Bottom players should be aware of potential shoulder and rib pressure and communicate if pressure becomes uncomfortable. When practicing lockdown defenses, the top player should use controlled movements when whipping their leg to break the hold rather than violent kicking that could injure their partner's legs. Both partners should build pressure gradually during training rather than applying maximum force immediately. Advanced practitioners should be particularly careful when practicing against deep half guard attempts, as mistimed movements can result in awkward falls or knee torque."
+  },
+  "defender": {
+    "name": "Half Guard Pass Defender",
+    "description": "How to defend against Half Guard Pass in BJJ. Recognition cues, defensive options, and escape strategies.",
+    "overview": "Defending the half guard pass requires the bottom player to understand the systematic approach the top player uses and disrupt it at each critical phase. The defender's primary objective is to prevent the top player from establishing dominant upper body control, maintain the leg entanglement, and create offensive opportunities through sweeps and back takes rather than passively holding position. Effective half guard defense is fundamentally proactive - you are not merely surviving but actively threatening the passer with consequences for every advancement they attempt.\n\nThe defensive hierarchy begins with maintaining connection through the trapped leg while simultaneously fighting for upper body positioning. The underhook on the trapped-leg side is the single most important grip for the defender, providing the foundation for sweeps, back takes, and positional recovery. When the underhook is denied, the defender must transition to alternative defensive structures such as knee shield, Z-guard, or deep half guard to maintain offensive capability. Each of these sub-positions offers distinct defensive advantages and the ability to flow between them keeps the top player guessing and prevents them from settling into a methodical passing sequence.\n\nAt the advanced level, half guard defense becomes a series of interconnected offensive threats rather than a static retention game. Every defensive action should simultaneously threaten a sweep or back take, forcing the passer to choose between advancing their pass and defending your offense. The most effective half guard players make the top player feel like they are solving an endless series of problems rather than progressing through a linear passing sequence.",
+    "key_principles": [
+      "Fight relentlessly for the underhook on the trapped-leg side - this single grip provides access to sweeps, back takes, and prevents the passer from flattening you with crossface pressure",
+      "Never allow yourself to be flattened onto your back with both shoulders on the mat - stay on your side facing the opponent to maintain hip mobility and offensive potential",
+      "Maintain active frames through knee shield, forearm contact, or butterfly hook to prevent chest-to-chest connection that enables the passer's pressure game",
+      "Use the trapped leg as an anchor and fulcrum for leverage rather than just a passive entanglement - actively control the passer's knee line and base through the trapped leg",
+      "Transition between half guard sub-variations (knee shield, deep half, lockdown, Z-guard) based on the passer's pressure and positioning rather than committing to a single defensive structure",
+      "Threaten sweeps and back takes constantly so the passer must divide attention between advancing the pass and defending your offense"
+    ],
+    "recognition_cues": [
+      "Top player drives crossface shoulder pressure across your jaw and neck while settling chest weight onto your torso, indicating they are establishing the upper body control foundation for the pass",
+      "Top player begins pulling their trapped leg's heel toward their buttock and driving the knee toward the mat, signaling the leg extraction phase of the pass is beginning",
+      "Top player wins the underhook battle and strips your near-side underhook by driving their shoulder forward and pummeling underneath your arm",
+      "Top player's free hand moves to control your far hip or knee, indicating they are preparing to prevent your guard recovery during the final extraction phase",
+      "Top player shifts their weight laterally and begins stepping over your knee shield or top leg, signaling a transition to headquarters or knee slice passing angle"
+    ],
+    "defensive_options": [
+      {
+        "action": "Establish underhook and come up to your side to threaten sweep or back take",
+        "when_to_use": "As early as possible before the passer establishes crossface - ideally during the initial positional battle when both players are competing for upper body control",
+        "targets_outcome": "Half Guard/Top",
+        "if_successful": "You gain dominant upper body positioning that enables old school sweep, dogfight position, or back take sequence, potentially reversing the position entirely",
+        "risk": "If the passer counters with a strong whizzer and drives you back flat, you lose the underhook battle and they advance their crossface control"
+      },
+      {
+        "action": "Insert knee shield frame between your bodies and manage distance to prevent chest-to-chest pressure",
+        "when_to_use": "When the passer is driving forward with heavy chest pressure and you cannot secure the underhook - the knee shield creates immediate distance and buys time to recompose",
+        "targets_outcome": "Half Guard/Bottom",
+        "if_successful": "You create enough distance to prevent the passer from using pressure to extract their leg, and you can recompose your grips and offensive structure from behind the shield",
+        "risk": "Passer may step over the knee shield into headquarters position or smash the shield down with their hand to re-establish pressure passing"
+      },
+      {
+        "action": "Transition to deep half guard by getting your head underneath the passer's hips",
+        "when_to_use": "When the passer has established strong crossface and upper body control and you cannot win the underhook battle from standard half guard - deep half changes the angle completely",
+        "targets_outcome": "Half Guard/Bottom",
+        "if_successful": "You achieve a superior sweeping position underneath the passer's center of gravity with access to Homer Simpson sweep, waiter sweep, and various reversal options",
+        "risk": "If the transition is scouted, the passer can sprawl back and establish front headlock control or hop over to the other side, leaving you in a worse position"
+      },
+      {
+        "action": "Establish lockdown on the trapped leg to control passer's posture and prevent leg extraction",
+        "when_to_use": "When the passer begins actively working to extract their trapped leg and you need to stall their progress while setting up your offensive sequence",
+        "targets_outcome": "Half Guard/Bottom",
+        "if_successful": "The lockdown prevents leg extraction entirely and gives you control over the passer's posture, enabling electric chair sweeps and whip-up sequences",
+        "risk": "Strong passers can break the lockdown by controlling your top foot or transitioning to headquarters position, and holding lockdown passively without attacking allows them to methodically address it"
+      },
+      {
+        "action": "Hip escape and recompose to full closed guard or butterfly guard",
+        "when_to_use": "When the passer momentarily lifts their hips during leg extraction or transitions - this brief window allows you to withdraw your trapped leg and reinsert both legs into a full guard position",
+        "targets_outcome": "Half Guard/Bottom",
+        "if_successful": "You recover to a full guard position (closed guard, butterfly guard, or open guard) which resets the passing exchange entirely and gives you a fresh defensive structure",
+        "risk": "If your timing is off and the passer maintains chest pressure during your hip escape, they may complete the pass during your recovery attempt"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Half Guard/Bottom",
+        "how": "Maintain the leg entanglement by keeping your legs active and your hips mobile. When the passer attempts to extract, follow their hip movement with yours, re-tighten your leg grip, and reinsert frames or knee shield to reset the positional exchange. The goal is to deny the pass completion and return to an active half guard where you have offensive options."
+      },
+      {
+        "outcome": "Half Guard/Top",
+        "how": "Execute a sweep from half guard bottom using the underhook as your primary weapon. The old school sweep, dogfight to single leg, or deep half sweep sequences all reverse the position and put you on top. Time your sweep attempt for moments when the passer overcommits to their crossface or leg extraction, shifting their weight forward and making them vulnerable to being rolled."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Lying flat on your back without fighting to stay on your side facing the opponent",
+        "consequence": "The passer achieves dominant crossface and chest pressure that eliminates your hip mobility, making sweeps impossible and the pass nearly inevitable",
+        "correction": "Constantly fight to maintain your position on your side by using hip escapes and underhook battles. If flattened, immediately frame and hip escape to recover your side angle before the passer consolidates."
+      },
+      {
+        "error": "Holding half guard passively without threatening sweeps or back takes",
+        "consequence": "The passer methodically works through their passing sequence without any defensive pressure, eventually completing the pass because you offered no consequences for their advancement",
+        "correction": "Treat every moment in half guard as an opportunity to attack. Constantly threaten underhook sweeps, kimura entries, deep half transitions, and back takes to force the passer into defensive reactions that disrupt their passing rhythm."
+      },
+      {
+        "error": "Overcommitting to a single defensive grip (e.g., holding lockdown without attacking) instead of transitioning between sub-variations",
+        "consequence": "The passer identifies your static defense and systematically addresses it with the specific counter-technique for that variation, eventually passing because you became predictable",
+        "correction": "Flow between knee shield, standard half guard, lockdown, deep half, and Z-guard based on the passer's reactions. Each transition creates new problems for the passer and prevents them from executing a rehearsed passing sequence."
+      },
+      {
+        "error": "Extending arms to push the passer away without maintaining structural frames (elbow-to-knee connection)",
+        "consequence": "Extended arms are vulnerable to kimura, americana, and arm triangle submissions, and the push creates space the passer can use to advance rather than space you can use to recover",
+        "correction": "Frame using forearm-to-shoulder or forearm-to-hip connections with elbows tucked close to your body. Create distance by hip escaping away from the passer rather than pushing them away from you."
+      },
+      {
+        "error": "Panicking when the passer begins extracting their leg and attempting explosive but untimed escapes",
+        "consequence": "Wastes enormous energy, often results in losing the half guard entirely as explosive movements create space the passer exploits, and may expose your back or arms to attacks",
+        "correction": "Recognize that leg extraction is a multi-step process and there are multiple intervention points. Calmly re-tighten your leg grip, follow their hip movement with yours, and reinsert frames. The pass is not complete until they clear your legs and establish side control."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the single most important grip for the half guard bottom player to establish, and why does it provide such a significant defensive and offensive advantage?",
+        "answer": "The underhook on the trapped-leg side is the most important grip because it simultaneously prevents the passer from flattening you with crossface pressure, provides the mechanical leverage needed for sweeps like the old school sweep, creates the pathway for back take sequences when you come up to your side, and forces the passer to address your offensive threat before they can advance their pass. Without the underhook, the bottom player is reduced to purely reactive defense."
+      },
+      {
+        "question": "When the top player has established a strong crossface and you cannot win the underhook battle, what is your best defensive transition and why?",
+        "answer": "Transition to deep half guard by threading underneath the passer's hips. When the passer has dominant crossface and shoulder pressure, fighting for the underhook from standard half guard becomes increasingly difficult. Deep half changes the entire positional dynamic by getting your body underneath their center of gravity, which neutralizes their crossface advantage and gives you access to high-percentage sweeps. The key is to use the crossface pressure itself as your entry - as they drive forward, you redirect underneath rather than fighting against the force."
+      },
+      {
+        "question": "How should you time your sweep attempts relative to the passer's extraction attempts to maximize your success rate?",
+        "answer": "The optimal timing for sweep attempts is during the passer's leg extraction phase, specifically when they shift their weight or lift their hips to free the trapped leg. During extraction, the passer's base is compromised because they are moving their leg rather than posting it for stability. Their weight distribution shifts to accommodate the extraction movement, creating momentary imbalance. Sweeps executed at this precise moment catch the passer mid-transition when they cannot post or base effectively, dramatically increasing your success rate compared to attempting sweeps when the passer has settled stable base and pressure."
+      },
+      {
+        "question": "Your opponent has stripped your underhook and is driving heavy crossface while beginning to extract their trapped leg - what is your immediate defensive sequence?",
+        "answer": "First, create an immediate frame by placing your near forearm against their hip or across their shoulder to prevent complete chest-to-chest compression. Second, hip escape away from them to re-angle your body and prevent being flattened. Third, insert your top knee as a knee shield between your bodies to create distance. Fourth, use the distance created by the knee shield to either re-pummel for the underhook or transition to deep half guard. The critical error is trying to hold the half guard passively once the underhook is lost - you must immediately transition to an alternative defensive structure."
+      },
+      {
+        "question": "Why is transitioning between half guard sub-variations more effective than committing to a single defensive position against a skilled passer?",
+        "answer": "Each half guard sub-variation (knee shield, lockdown, deep half, Z-guard, butterfly half) has specific counter-techniques that experienced passers have drilled extensively. If you commit to one position, the passer identifies it, applies the rehearsed counter, and completes the pass. By flowing between variations based on their reactions, you force the passer to constantly re-assess and change their passing strategy mid-sequence. Each transition also creates a brief moment of positional chaos where sweep opportunities arise. The passer who is solving a new defensive puzzle every few seconds cannot settle into the methodical passing rhythm needed to complete the pass."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Week 1-3: Fundamental retention and framing",
+        "focus": "Learning to maintain half guard against progressive passing pressure",
+        "description": "Begin with partner applying light passing pressure from half guard top. Focus on maintaining your side angle, establishing frames with forearm and knee shield, and keeping the leg entanglement active. Practice the feeling of proper hip positioning and learn to recognize when you are being flattened versus maintaining good defensive structure. Partner increases pressure gradually across sessions."
+      },
+      {
+        "phase": "Week 4-6: Underhook battle and sweep entries",
+        "focus": "Developing the ability to win the underhook and initiate sweep sequences",
+        "description": "Partner now actively contests the underhook and applies crossface pressure. Practice fighting for the underhook through pummeling, timing, and angle creation. When you achieve the underhook, drill entering sweep sequences including old school sweep, dogfight, and back take entries. Learn to recognize when the underhook is available versus when you need to transition to alternative defensive structures."
+      },
+      {
+        "phase": "Week 7-10: Sub-variation transitions under pressure",
+        "focus": "Flowing between knee shield, deep half, lockdown, and Z-guard based on passer's actions",
+        "description": "Partner uses full passing sequences including knee slice, smash pass, and pressure passing chains. Practice transitioning between half guard sub-variations in response to their passing approach - if they clear knee shield, transition to deep half; if they prevent deep half, recover to lockdown. Develop the ability to maintain offensive threats throughout all transitions rather than simply surviving."
+      },
+      {
+        "phase": "Month 4+: Full resistance positional sparring",
+        "focus": "Completing sweeps and back takes against skilled passers using complete defensive system",
+        "description": "Regular positional sparring starting from half guard bottom against partners using full resistance and complete passing systems. Track your retention rate, sweep success, and identify which sub-variations and transitions work best against different passing styles. Develop your personal half guard defensive system by identifying your highest-percentage sequences and building automatic responses to common passing patterns."
+      }
+    ]
+  }
+}

@@ -1,0 +1,428 @@
+{
+  "name": "Pass Inverted Lasso Guard",
+  "description": "Master passing the inverted lasso guard in BJJ. Complete guide to arm extraction, stack passes, and counter-inversion techniques for defeating advanced sport guard systems.",
+  "tags": [
+    "guard passing",
+    "inverted lasso",
+    "advanced",
+    "sport jiu-jitsu",
+    "arm extraction",
+    "stack pass",
+    "counter-inversion",
+    "pressure passing",
+    "gi techniques"
+  ],
+  "from_position": "Inverted Lasso Guard/Top",
+  "outcomes": [
+    {
+      "to": "Side Control/Top",
+      "probability": 45,
+      "result": "success"
+    },
+    {
+      "to": "Half Guard/Top",
+      "probability": 20,
+      "result": "failure"
+    },
+    {
+      "to": "Inverted Lasso Guard/Top",
+      "probability": 20,
+      "result": "failure"
+    },
+    {
+      "to": "Back Control/Bottom",
+      "probability": 15,
+      "result": "counter"
+    }
+  ],
+  "success_rate": 45,
+  "overview": "Passing the inverted lasso guard demands specialized technical knowledge that exceeds standard guard passing principles. When an opponent inverts with a lasso hook threaded through your arm, conventional pressure passing and toreando-style passes become ineffective or actively counterproductive. The inverted position creates rotational leverage that converts your forward pressure into sweep momentum, meaning standard instincts work against you. Successful passing requires understanding the specific mechanics of the inversion and applying targeted counter-strategies that neutralize the geometric advantages before they generate unstoppable force.\n\nThe primary passing approaches fall into three categories: stack passing, which drives the opponent's hips over their head to neutralize inversion angles; systematic arm extraction, which methodically removes the lassoed limb to eliminate the position's foundation; and counter-rotation passing, which follows the opponent's berimbolo attempts with cartwheels or backsteps that convert their momentum into your passing advantage. Each approach has optimal timing windows and risk profiles. Stack passing works best when the opponent commits to overhead sweep mechanics. Arm extraction is most effective when the lasso shows looseness during grip transitions. Counter-rotation techniques shine when the opponent initiates berimbolo sequences.\n\nUnderstanding when to employ each strategy separates competent passers from those who get repeatedly swept. The critical recognition skill is reading the opponent's hip angle and free leg positioning to determine their intended attack, then selecting the appropriate counter before they generate momentum. Delayed responses allow the inverted player to establish dominant angles from which passing becomes exponentially more difficult. The position also presents a unique dilemma for the passer: defending the overhead sweep by retreating weight opens berimbolo entries, while driving forward to prevent berimbolo feeds the sweep mechanics. Threading this needle requires maintaining a controlled neutral weight distribution while systematically dismantling the guard's structural elements.",
+  "conditions": [
+    "Opponent has established inverted lasso guard with lasso hook threaded through your arm and sleeve grip secured",
+    "Opponent is inverted on their shoulders with hips elevated and mobile above the mat surface",
+    "You are in standing, kneeling, or combat base position above the inverted opponent with at least one arm free",
+    "Sufficient mat space exists for both players to move through potential sweep, pass, and berimbolo sequences"
+  ],
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Stack and Walk-Around",
+      "description": "Drive forward pressure angled at the opponent's shoulders to flatten their inverted posture, then walk laterally around their compressed body to clear the legs and establish side control. The stack compresses the inversion's fulcrum advantage and eliminates the hip mobility needed for sweeps.",
+      "when_to_use": "When the opponent commits to overhead sweep mechanics by extending the lasso leg, as their extension creates the structural pathway for the stack to flatten their hips over their shoulders"
+    },
+    {
+      "variant_name": "Systematic Arm Extraction",
+      "description": "Methodically dismantle the lasso structure by first controlling the free leg, then breaking the sleeve grip to create slack, and finally withdrawing the lassoed arm through controlled rotation rather than explosive pulling. Once the arm is free, immediately transition to a standard guard pass.",
+      "when_to_use": "When the lasso shows any looseness during the opponent's grip transitions or when they adjust their inverted position, creating momentary structural weakness in the hook"
+    },
+    {
+      "variant_name": "Cartwheel Counter-Pass",
+      "description": "Instead of resisting the opponent's rotational momentum, follow their berimbolo direction with a cartwheel that matches their rotation. This converts their sweep energy into your passing trajectory, potentially landing directly in side control or back control on the far side of their rotating body.",
+      "when_to_use": "When the opponent has already initiated berimbolo rotation and committed their hips to the spin, making direct resistance inefficient compared to redirecting their momentum"
+    }
+  ],
+  "position_integration": "Passing the inverted lasso guard connects directly to the broader lasso guard passing system and modern sport jiu-jitsu guard breaking methodology. The concepts developed here apply across all inverted guard variations including berimbolo defense, inverted De La Riva counters, and modern guard retention systems. Success feeds into the standard top game progression from side control to mount, knee on belly, or back control. When the pass fails to half guard, the passer transitions into standard half guard top passing sequences. The counter outcome of the opponent taking the back creates a defined recovery pathway through back defense protocols. This pass complements the Stack from Inverted Lasso and Lasso Guard Stack Pass as part of an integrated system for defeating lasso-based guards at all levels of inversion.",
+  "related_content": [
+    {
+      "name": "Inverted Lasso Guard",
+      "relationship": "Source position where the technique begins with the passer trapped in inverted lasso control"
+    },
+    {
+      "name": "Side Control",
+      "relationship": "Primary target position achieved upon successful completion of the guard pass"
+    },
+    {
+      "name": "Lasso Guard",
+      "relationship": "Parent guard system providing the foundational lasso mechanics that the inverted variation builds upon"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Failure outcome position when the pass stalls and the bottom player retains partial guard"
+    },
+    {
+      "name": "Back Control",
+      "relationship": "Counter outcome when the guard player executes a successful berimbolo during the pass attempt"
+    },
+    {
+      "name": "Lasso Guard Stack Pass",
+      "relationship": "Related technique sharing stacking principles applied to standard lasso guard"
+    },
+    {
+      "name": "Lasso Guard Backstep Pass",
+      "relationship": "Complementary passing approach using angles rather than direct pressure against lasso systems"
+    },
+    {
+      "name": "Inverted Lasso Sweep",
+      "relationship": "Primary offensive threat from the guard player that the passer must neutralize"
+    },
+    {
+      "name": "Inverted Lasso to Lasso Guard",
+      "relationship": "Guard transition the bottom player may attempt when the pass threatens their inverted position"
+    },
+    {
+      "name": "De La Riva Guard",
+      "relationship": "Adjacent guard system sharing inversion mechanics and similar passing concepts"
+    },
+    {
+      "name": "Inverted Guard",
+      "relationship": "Related inverted body positioning sharing defensive strategies and counter-techniques"
+    }
+  ],
+  "attacker": {
+    "name": "Pass Inverted Lasso Guard Attacker",
+    "description": "Master executing the inverted lasso guard pass from top. Step-by-step arm extraction, stack pressure, and counter-inversion techniques for completing the pass to side control.",
+    "overview": "Passing the inverted lasso guard from top position requires dismantling a mechanically sophisticated guard structure that converts your forward pressure into sweep momentum. As the passer, your primary challenge is that conventional guard passing responses become counterproductive against an inverted opponent: driving forward feeds sweeps, backing away opens berimbolo, and remaining static allows the guard player to generate angles at will. Success demands early recognition of the inversion, immediate control of the free leg to eliminate berimbolo threats, systematic weakening of the lasso structure through grip fighting and directional pressure, then decisive extraction of the trapped arm followed by immediate transition to a completed pass before the guard can be re-established. The entire sequence must flow without hesitation, as pauses in the passing chain allow the guard player to reload their offensive threats.",
+    "key_principles": [
+      "Recognize the inversion within one to two seconds and respond immediately before the sweep angle is fully established and offensive momentum begins",
+      "Control the opponent's free leg before attempting any passing action because it is their steering mechanism for berimbolo entries and sweep direction",
+      "Maintain neutral weight distribution that neither feeds forward into sweep mechanics nor retreats backward into berimbolo vulnerability",
+      "Extract the lassoed arm through controlled systematic grip fighting rather than explosive pulling that tightens the lasso structure",
+      "Stay connected to the inverted opponent with strategic pressure rather than creating distance that allows re-establishment of superior angles",
+      "Transition immediately from arm extraction to guard pass completion to prevent the opponent from re-establishing grips or switching guard systems"
+    ],
+    "setup_requirements": [
+      "Establish a wide base with feet wider than shoulder width to resist rotational sweep forces from the inverted position",
+      "Identify and secure control of the opponent's free non-lasso leg before committing to any passing approach",
+      "Assess the tightness of the lasso hook and sleeve grip to determine whether arm extraction or stack passing is the appropriate first approach",
+      "Position your free hand for grip fighting on the sleeve connection or for controlling the opponent's hips to limit their rotational mobility",
+      "Maintain a low center of gravity with hips back to prevent forward momentum that the opponent can exploit for overhead sweeps"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Recognize inversion and establish defensive base",
+        "description": "The moment your opponent initiates the backward roll onto their shoulders with the lasso hook engaged, immediately widen your base by stepping feet wider than shoulder width and dropping your hips back. Lower your center of gravity and plant your free hand on the mat for additional stability. This defensive posture prevents the rotational forces generated by the inversion from pulling you off balance or feeding into sweep mechanics."
+      },
+      {
+        "step_number": 2,
+        "action": "Control the free non-lasso leg",
+        "description": "Before attempting any passing technique, secure control of the opponent's non-lasso leg by gripping behind their knee or pinning it to the mat with your hip pressure. This free leg is their primary offensive tool, serving as the steering mechanism for berimbolo entries and the directional controller for overhead sweep trajectories. Neutralizing it before proceeding eliminates their most dangerous attacks and reduces the position to a manageable single-connection problem."
+      },
+      {
+        "step_number": 3,
+        "action": "Address the sleeve grip connection",
+        "description": "Target the opponent's sleeve grip on your lassoed arm by peeling fingers, performing wrist circles to reduce grip purchase, or positioning your arm at an angle that weakens their mechanical advantage. The sleeve grip completes the lever system that makes the inverted lasso effective as both a sweep and submission platform. Breaking or weakening this connection degrades the overall structural integrity of the guard and creates the opening needed for subsequent arm extraction."
+      },
+      {
+        "step_number": 4,
+        "action": "Apply directional pressure to flatten the inversion",
+        "description": "Drive forward pressure angled toward the opponent's shoulders and upper chest rather than their hips, compressing their inverted structure and forcing their weight onto their shoulder blades. This directional distinction is critical because pressure against elevated hips feeds sweep mechanics, while pressure against the shoulders flattens the position and eliminates the hip elevation needed for rotational attacks. Keep your own hips back while driving shoulder pressure forward to maintain your base throughout."
+      },
+      {
+        "step_number": 5,
+        "action": "Create slack and extract the lassoed arm",
+        "description": "With the lasso structure weakened by pressure and grip fighting, use controlled circular movement of your lassoed arm to withdraw it through the hook. Pull your arm steadily toward your own hip while simultaneously using your free hand to push the hooking foot away from your body. The extraction must be smooth and continuous, not jerky, converting the mechanical advantage of the lasso into a position where their threading leg simply slides off your retracting arm as structural tension is removed."
+      },
+      {
+        "step_number": 6,
+        "action": "Initiate guard pass immediately",
+        "description": "The moment your arm clears the lasso hook, transition immediately into your preferred guard pass before the opponent can re-establish grips or shift to an alternative guard system. Drive a knee cut across their thigh, execute a toreando around their legs, or maintain stack pressure and walk laterally to side control. The window between successful arm extraction and guard re-establishment is narrow, typically one to two seconds, making decisive and committed passing action essential."
+      },
+      {
+        "step_number": 7,
+        "action": "Clear the legs and establish perpendicular position",
+        "description": "Push the opponent's legs to one side while simultaneously driving your shoulder through the gap to establish chest-to-chest contact perpendicular to their torso. The leg clearing motion should be smooth and controlled, maintaining your base throughout rather than lunging forward in a way that could be countered with a last-moment guard recovery attempt or underhook escape to the back."
+      },
+      {
+        "step_number": 8,
+        "action": "Consolidate side control",
+        "description": "Complete the pass by settling your weight onto the opponent's torso with your hips low and heavy against their hips. Establish crossface pressure immediately with your near arm across their neck and face to control their head direction, and secure far hip control with your other arm to prevent knee insertion and guard recovery. Only after the position is fully consolidated with all control points established should you begin considering submissions or positional advancement."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Opponent initiates berimbolo rotation by threading their free leg behind your back during the pass attempt",
+        "effectiveness": "High",
+        "your_response": "Follow their rotational direction with a cartwheel counter-pass rather than fighting against the rotation. Your free hand controls their far hip while you cartwheel over their rotating body, converting their berimbolo momentum into your passing trajectory. Fighting against rotation allows the back take to complete.",
+        "targets_outcome": "Back Control/Bottom"
+      },
+      {
+        "counter": "Opponent extends the lasso leg for an overhead sweep as you attempt to establish passing pressure",
+        "effectiveness": "High",
+        "your_response": "Immediately retreat your hips backward and widen your base to remove forward momentum from the sweep equation. If you are already partially lifted, redirect laterally rather than fighting the overhead trajectory. Once the sweep energy is spent, re-approach with controlled stack pressure angled at the shoulders.",
+        "targets_outcome": "Inverted Lasso Guard/Top"
+      },
+      {
+        "counter": "Opponent abandons the inverted position and transitions to standard lasso guard or De La Riva guard to reset the exchange",
+        "effectiveness": "Medium",
+        "your_response": "Capitalize on the transition window where neither the old inverted lasso nor the new guard is fully established. Apply immediate passing pressure during their guard reconfiguration, as the grip changes create momentary structural weakness that standard knee cuts or toreando passes can exploit.",
+        "targets_outcome": "Inverted Lasso Guard/Top"
+      },
+      {
+        "counter": "Opponent inserts a knee shield as you attempt to clear legs for side control, recovering to half guard position",
+        "effectiveness": "Medium",
+        "your_response": "Accept the half guard position rather than forcing the full pass completion against the established knee shield. From half guard top, apply standard knee slide or smash pass sequences. The half guard outcome still represents significant positional advancement from the inverted lasso starting point.",
+        "targets_outcome": "Half Guard/Top"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Driving forward pressure directly into the inverted opponent's elevated hips",
+        "consequence": "Feeds directly into overhead sweep mechanics by adding your forward momentum to their rotational force, making the sweep virtually unstoppable once your weight commits over their fulcrum",
+        "correction": "Angle pressure toward the opponent's shoulders and upper chest rather than their hips. Keep your own hips back while driving shoulder pressure forward to maintain base while flattening their inverted structure."
+      },
+      {
+        "error": "Creating distance by stepping backward away from the inverted guard",
+        "consequence": "Opens significant space for berimbolo entries, allows the opponent to thread their free leg behind your back, and permits them to disengage and reinvert with superior attacking angles",
+        "correction": "Stay connected with strategic pressure on the opponent's shoulders while controlling their hips. Maintain close proximity that limits their rotational options without feeding forward momentum into sweep mechanics."
+      },
+      {
+        "error": "Attempting to explosively rip the lassoed arm free without systematic grip preparation",
+        "consequence": "The lasso structure tightens under explosive force like a finger trap mechanism, wasting energy and potentially creating momentum the opponent redirects into sweeps or berimbolo entries",
+        "correction": "Address the sleeve grip first to create slack, then extract the arm with controlled circular withdrawal. Break the structural connections in sequence rather than fighting the complete system simultaneously."
+      },
+      {
+        "error": "Ignoring the free non-lasso leg before attempting to pass",
+        "consequence": "Allows the opponent to post on your hip for sweep steering, thread behind your back for berimbolo entries, or kick through to create defensive angles that block every passing attempt",
+        "correction": "Always control the free leg first by gripping behind the knee or pinning it with your hip before attempting any arm extraction or stack passing technique."
+      },
+      {
+        "error": "Remaining static with square hips while the opponent adjusts angles from inverted position",
+        "consequence": "Eliminates the mobility needed to counter rotational attacks, makes your body an easy target for sweeps from multiple angles, and allows the opponent to optimize their position while you stand still",
+        "correction": "Maintain an active base with constant micro-adjustments, keeping hips angled and mobile rather than squaring up directly facing the inverted opponent."
+      },
+      {
+        "error": "Pausing after arm extraction instead of immediately transitioning to the guard pass",
+        "consequence": "The opponent re-establishes grips within one to two seconds, transitions to a new guard system, or reinverts with the lasso, completely negating the work invested in the extraction",
+        "correction": "Treat arm extraction and guard pass as one continuous sequence with no pause between them. The moment the arm clears the hook, commit immediately to your passing technique."
+      },
+      {
+        "error": "Dropping full body weight onto the inverted opponent's chest with complete commitment",
+        "consequence": "Transfers all weight to the opponent's strongest structural position where they can bridge and redirect force. Full weight commitment eliminates your own mobility for counter-adjustments.",
+        "correction": "Distribute weight strategically, keeping the majority on your own base with controlled directional pressure on the opponent's weaker structural points rather than dead-weight loading."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Recognition and Base",
+        "focus": "Identifying inversion initiation and establishing defensive positioning",
+        "description": "Partner plays inverted lasso guard at slow speed while you practice recognizing the transition from upright to inverted. As shoulders touch the mat, immediately establish wide base with hips back and free hand posted. 20 repetitions building reaction speed to under one second."
+      },
+      {
+        "phase": "Phase 2: Free Leg Control",
+        "focus": "Securing the non-lasso leg against cooperative resistance",
+        "description": "Partner establishes inverted lasso while you practice controlling their free leg with various grips and hip pins. Partner tests the control by attempting berimbolo entries and sweep adjustments at 40% speed. Develop automatic free leg control as the first action after recognizing inversion."
+      },
+      {
+        "phase": "Phase 3: Arm Extraction Sequence",
+        "focus": "Systematic grip breaking and controlled arm withdrawal",
+        "description": "From established inverted lasso, practice the complete extraction sequence: address sleeve grip, create slack through circular arm movement, withdraw arm to hip. Partner provides progressive resistance from 30% to 70%. Focus on smooth controlled extraction, not explosive pulling."
+      },
+      {
+        "phase": "Phase 4: Pass Completion Chains",
+        "focus": "Linking arm extraction to immediate guard pass without pause",
+        "description": "Practice the full extraction-to-pass-to-side-control sequence as one continuous motion. Partner defends at moderate intensity, testing knee cuts, toreando, and walk-around variations. Develop the timing to transition from extraction to pass within one second."
+      },
+      {
+        "phase": "Phase 5: Counter-Rotation Drilling",
+        "focus": "Cartwheel passes and backstep counters against berimbolo attempts",
+        "description": "Partner initiates berimbolo from inverted lasso at progressive speeds. Practice following their rotation with cartwheel counters that convert their momentum into passing opportunities. Build comfort with the counter-rotation timing and landing position."
+      },
+      {
+        "phase": "Phase 6: Live Positional Sparring",
+        "focus": "Full resistance integration from established inverted lasso guard",
+        "description": "Positional sparring starting from established inverted lasso guard with partner at full competition intensity. Score successful passes, track failure modes, and identify which guard player reactions require additional drilling. Build confidence and adaptive decision-making under pressure."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the most critical timing window for initiating the pass against inverted lasso guard?",
+        "answer": "The most critical window is during the inversion transition itself, before the bottom player completes the roll onto their shoulders and establishes their attacking angle with proper hip elevation. Once the inversion is complete and they have maintained lasso tension with the free leg posted, defensive options narrow significantly. Responding within one to two seconds of recognizing the inversion initiation allows for immediate base establishment, free leg control, or preventive pressure that disrupts the technique before it generates offensive potential."
+      },
+      {
+        "question": "Why does driving straight forward pressure into the inverted opponent's hips fail as a passing strategy?",
+        "answer": "Forward pressure into elevated hips adds momentum to the opponent's overhead sweep mechanics. The inverted position creates a fulcrum where the lasso hook acts as a pivot point, and your forward force gets redirected into rotational energy that lifts your base off the mat and drives you over their body. The harder you drive forward, the more energy you provide for the sweep. Instead, pressure should be angled toward the shoulders and upper chest while keeping your hips back, which flattens the inversion without feeding the rotational mechanics."
+      },
+      {
+        "question": "Your opponent begins berimbolo rotation by threading their free leg behind your back. What immediate counter should you employ?",
+        "answer": "Follow their rotational direction with a cartwheel counter-pass rather than fighting against the rotation. Control their far hip with your free hand while cartwheeling over their rotating body, using their berimbolo momentum to establish a passing position on the far side. Fighting against the rotation allows the back take to complete because you are resisting established angular momentum. Matching the rotation neutralizes their geometric advantage while converting their energy into your passing trajectory."
+      },
+      {
+        "question": "What is the correct sequence for systematically extracting the lassoed arm from the inverted guard?",
+        "answer": "The sequence is: first control the free leg to prevent it from creating angles, then address the sleeve grip on the lassoed arm by peeling fingers or performing wrist circles to reduce grip purchase, next create slack in the lasso hook through controlled circular arm movement, and finally withdraw the arm steadily toward your hip while pushing the hooking foot away with your free hand. Each step must be completed before proceeding to the next. Skipping to arm extraction without first weakening the sleeve grip and controlling the free leg results in the lasso tightening under force."
+      },
+      {
+        "question": "How should you address the free non-lasso leg before attempting any pass, and why is it the highest priority?",
+        "answer": "Secure the free leg by gripping behind the knee or pinning it to the mat with your hip. This leg is the opponent's primary offensive tool: it serves as the steering mechanism for overhead sweeps by directing where your body falls, and it threads behind your back to initiate berimbolo sequences for back takes. Without free leg control, every passing technique becomes a gamble because the opponent retains their two most dangerous attacks. Controlling the free leg first reduces the position from a multi-threat dilemma to a single-connection problem that can be systematically dismantled."
+      },
+      {
+        "question": "What grip must you break first to create slack in the lasso structure, and why does the sequence matter?",
+        "answer": "The sleeve grip must be weakened first because it completes the lever system that gives the lasso its mechanical advantage. The lasso hook alone without sleeve control cannot generate effective sweep force, as the bottom player needs both the pushing force from the hook and the pulling force from the grip to create the rotational couple. Breaking the sleeve grip first reduces the overall structural tension in the system, making the subsequent arm extraction dramatically easier. Attempting to extract the arm while the sleeve grip remains tight causes the lasso to tighten under force."
+      },
+      {
+        "question": "Your opponent transitions from inverted lasso to standard lasso guard mid-exchange. How do you capitalize on this moment?",
+        "answer": "The transition between guard configurations creates a brief window where neither guard is fully established. During this window, apply immediate passing pressure using a knee cut, toreando, or stack pass because the grip changes required for the transition momentarily weaken the bottom player's structural control. The opponent must release some connections to reconfigure from inverted to upright positioning, and their defensive grips are reorganizing rather than anchored. Decisive action during this one-to-two second transition window can convert a neutral exchange into a completed guard pass."
+      },
+      {
+        "question": "Why is maintaining connection preferable to creating distance when facing inverted lasso guard?",
+        "answer": "Creating distance by stepping back opens massive space for berimbolo entries and allows the bottom player to freely thread their legs, generate new angles, and reinvert with superior positioning. Space also permits them to reset their grips without pressure and choose their optimal attack without time constraints. Staying connected with strategic pressure on the opponent's shoulders limits their rotational options, prevents re-engagement with better angles, and forces them to defend your passing pressure while in an energetically demanding inverted position. Connection converts offense into defense for the guard player."
+      }
+    ],
+    "safety_considerations": "When applying stack passes against inverted opponents, exercise particular caution regarding cervical spine compression on the bottom player. The inverted position places the guard player's neck in a vulnerable posture, and aggressive stacking can create dangerous spinal pressure. Apply stacking force gradually and progressively rather than explosively dropping weight. During arm extraction, control the speed of your withdrawal to prevent hyperextension of the opponent's shoulder or elbow. If the bottom player signals any discomfort with neck positioning during drilling, immediately release pressure and allow them to reposition safely. During cartwheel counter-passes, ensure sufficient mat space to prevent either practitioner from colliding with walls or other training pairs."
+  },
+  "defender": {
+    "name": "Pass Inverted Lasso Guard Defender",
+    "description": "Defend your inverted lasso guard against passing attempts. Recognition cues, guard retention strategies, berimbolo counters, and recovery options for maintaining bottom position.",
+    "overview": "Defending your inverted lasso guard against a skilled passer requires maintaining the structural integrity of your lasso hook and sleeve grip while using the position's geometric advantages to counter every passing approach. As the guard player, your primary weapons are the rotational momentum created by the inversion, your free leg's ability to initiate berimbolo and sweep sequences, and the fundamental dilemma you impose on the passer: defending the overhead sweep by retreating weight opens berimbolo, while driving forward to prevent berimbolo feeds the sweep. Successful defense means either retaining your inverted guard, converting the pass attempt into a back take through well-timed berimbolo, or at minimum inserting a knee to recover half guard rather than conceding the full pass to side control. The key is recognizing which passing approach the opponent commits to and selecting the appropriate counter before they progress past the point of no return.",
+    "key_principles": [
+      "Maintain continuous tension on the lasso hook throughout all defensive movements because any slack allows arm extraction that eliminates the position entirely",
+      "Keep the free leg active and threatening at all times, posting on the opponent's hip for sweep steering or threading behind their back for berimbolo entry",
+      "Recognize which of the three primary passing approaches the opponent is attempting and select the correct counter within one to two seconds",
+      "Use hip rotation and angular momentum as primary defensive tools rather than static grip strength that fatigues rapidly under passing pressure",
+      "Treat the inversion as transitional rather than permanent, returning to upright guard when the inverted position no longer offers offensive advantage",
+      "Chain berimbolo and sweep threats together to create a dilemma that prevents the opponent from committing fully to any single passing approach"
+    ],
+    "recognition_cues": [
+      "Opponent widens their base and drops hips backward while maintaining connection, indicating they are establishing a defensive platform against sweeps before attempting to pass",
+      "Opponent's free hand moves to control your non-lasso leg behind the knee, signaling they are targeting your steering mechanism before committing to arm extraction or stack pressure",
+      "Opponent begins circular movement with their lassoed arm rather than pulling explosively, indicating systematic arm extraction approach rather than reactive escape",
+      "Opponent drives shoulder pressure toward your upper chest and shoulders rather than your hips, signaling a stack pass that aims to flatten your inverted structure",
+      "Opponent follows your hip rotation with lateral stepping rather than resisting it, indicating a cartwheel counter-pass attempt that matches your berimbolo rotation"
+    ],
+    "defensive_options": [
+      {
+        "action": "Initiate berimbolo rotation by threading the free leg behind the opponent's back and spinning toward their back",
+        "when_to_use": "When the opponent retreats weight backward to defend overhead sweep or commits both hands to grip fighting on the lasso, reducing their ability to counter the rotation",
+        "targets_outcome": "Back Control/Bottom",
+        "if_successful": "Complete the berimbolo to establish back control, converting their defensive positioning into your offensive advantage with the highest-value counter outcome",
+        "risk": "If the opponent follows your rotation with a cartwheel counter-pass, you may end up giving them a passing angle or back control position"
+      },
+      {
+        "action": "Maintain lasso tension and reangle hips to reset the guard position, preventing the pass from progressing",
+        "when_to_use": "When the opponent's passing attempt has stalled but they maintain connection, creating a neutral exchange where your guard structure is degraded but not broken",
+        "targets_outcome": "Inverted Lasso Guard/Top",
+        "if_successful": "The guard is retained with full offensive potential, forcing the opponent to restart their passing approach from the beginning after expending energy on the failed attempt",
+        "risk": "Extended guard retention from inverted position drains energy rapidly and may allow the opponent to develop a more effective passing approach on subsequent attempts"
+      },
+      {
+        "action": "Insert knee shield as the opponent clears the lasso, recovering to half guard rather than conceding full side control",
+        "when_to_use": "When arm extraction is nearly complete and the lasso structure is compromised beyond recovery, making guard retention impossible but half guard recovery still achievable",
+        "targets_outcome": "Half Guard/Top",
+        "if_successful": "You recover to half guard bottom which, while not ideal, preserves guard position and offers established escape and sweep pathways",
+        "risk": "Late knee insertion may fail against a committed passer who transitions immediately from extraction to side control without pause"
+      },
+      {
+        "action": "Extend lasso leg and pull sleeve for overhead sweep when the opponent drives forward pressure",
+        "when_to_use": "When the opponent commits forward weight for a stack pass with narrow base, as their forward momentum feeds directly into the overhead sweep mechanics",
+        "targets_outcome": "Inverted Lasso Guard/Top",
+        "if_successful": "The opponent is swept overhead and you achieve a dominant top position, completely reversing the positional hierarchy",
+        "risk": "If the opponent has wide base or angled pressure, the sweep stalls and you end up deeper in the stack with less energy to defend"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Back Control/Bottom",
+        "how": "Execute a berimbolo by threading the free leg behind the opponent's back when they retreat weight to defend sweeps or commit both hands to grip fighting. Time the hip rotation to coincide with their defensive weight shift, using their backward momentum to accelerate your spin toward their back. Secure seat belt grip and insert hooks immediately upon reaching the back position."
+      },
+      {
+        "outcome": "Inverted Lasso Guard/Top",
+        "how": "Maintain constant lasso tension and use hip reangulation to reset your guard position whenever the pass attempt stalls. Keep the free leg active and threatening to prevent the opponent from committing fully to any single passing approach. Force them to abandon their pass attempt by creating enough offensive threat that they must prioritize defense over passing."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Allowing the free non-lasso leg to become passive or controlled without fighting to recover it",
+        "consequence": "Without the free leg, both berimbolo entries and overhead sweep mechanics are eliminated, reducing the guard to a single grip that the passer can systematically dismantle without facing any offensive threat",
+        "correction": "Constantly fight to maintain free leg activity. If the opponent controls it, immediately work to recover the posting position by kicking through or circling the foot free. Never accept a controlled free leg without active recovery attempts."
+      },
+      {
+        "error": "Releasing sleeve grip tension when fatigued or when the opponent applies pressure to the inverted shoulders",
+        "consequence": "Without the sleeve connection, the lasso hook alone cannot generate sweep force and the passer can extract their arm freely, completely eliminating the guard position",
+        "correction": "Maintain the sleeve grip as an absolute priority. If grip strength is fading, briefly return to upright guard to recover rather than losing the grip from inverted position where recovery options are minimal."
+      },
+      {
+        "error": "Remaining inverted for extended periods without initiating any technique or returning to upright guard",
+        "consequence": "The inverted position drains energy rapidly while supporting weight on shoulders, and extended hold telegraphs technical limitations that allow the passer to develop counter-strategies at leisure",
+        "correction": "Treat the inversion as a two-to-three second transitional window for executing a specific technique. If neither sweep nor berimbolo is available within that window, return to upright guard to recover energy and reset the attack."
+      },
+      {
+        "error": "Attempting to hold the inverted position by pulling with isolated arm strength rather than using body rotation",
+        "consequence": "Forearms and grip strength fatigue rapidly, making the eventual grip failure a matter of time rather than technique, and reducing sweep power to levels easily resisted by the passer",
+        "correction": "Connect sleeve grip force to hip rotation and body movement so the grip transmits whole-body force rather than generating it independently. The grip anchors the connection while the body generates the power."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the primary recognition cue that the top player is initiating a stack pass rather than arm extraction?",
+        "answer": "The primary cue is the direction of their pressure: stack passing drives shoulder and chest pressure toward your upper chest and shoulders to flatten the inversion, while arm extraction involves circular arm movement and grip fighting without significant forward compression. Additionally, the stack passer typically steps their lead foot forward near your hip to create a driving platform, whereas the arm extractor maintains their base position and works the grip sequence without committing forward weight. Recognizing this directional difference within one second determines whether you should prepare a sweep counter or a grip retention defense."
+      },
+      {
+        "question": "How should you respond when the top player successfully controls your free non-lasso leg?",
+        "answer": "Immediately work to recover the free leg by kicking through, circling the foot to break the grip, or using your free hand to peel their grip off your knee. If direct recovery fails, consider transitioning to a triangle threat by bringing the controlled leg toward their neck, or switching to an omoplata angle that uses the lasso hook without requiring the free leg. Never accept a controlled free leg passively, as this eliminates your two primary offensive weapons and converts the position from a threatening guard to a holding pattern that the passer will dismantle systematically."
+      },
+      {
+        "question": "What determines the optimal moment to transition from inverted lasso guard to berimbolo entry?",
+        "answer": "The optimal berimbolo moment is when the opponent shifts weight backward to defend the overhead sweep or commits both hands to grip fighting rather than maintaining active base control. Their retreated weight posture reduces their ability to follow your rotation, and their hands being occupied with grips means they cannot post or counter-cartwheel. Watch for their hips moving behind their feet and their head rising to upright posture as the definitive cue that berimbolo is available. Initiating berimbolo against forward-weighted opponents is significantly harder and invites the cartwheel counter-pass."
+      },
+      {
+        "question": "When should you abandon the inverted position and return to upright lasso guard?",
+        "answer": "Return to upright guard when any of three conditions occur: your lasso tension has degraded to the point where the hook is loose and arm extraction is imminent, you have been inverted for more than three seconds without successfully initiating a technique, or the opponent has flattened your hips with stack pressure that eliminates your rotational mobility. Recognizing these failure states early allows a controlled transition back to upright lasso guard where energy expenditure is lower and you can re-establish optimal grip tension. Waiting too long results in forced transition under pressure with compromised grips."
+      },
+      {
+        "question": "Your opponent follows your berimbolo rotation with a cartwheel counter-pass. What is your best response?",
+        "answer": "When the opponent counter-cartwheels, recognize that they are matching your rotational direction and will arrive on the far side. Your best response is to disengage the lasso hook and immediately invert again to face the new angle, establishing a De La Riva hook or new lasso on the arriving leg before they consolidate a passing position. Alternatively, if you can detect the cartwheel early enough, stall your berimbolo rotation and reverse direction to catch them mid-cartwheel with an off-balance sweep. The worst response is continuing the berimbolo rotation into their counter, which delivers you directly into their passing path."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Guard Retention Under Pressure",
+        "focus": "Maintaining lasso tension and free leg activity against progressive passing attempts",
+        "description": "Partner attempts arm extraction and stack passes at 40% speed while you focus on keeping the lasso hook tight, sleeve grip connected, and free leg active on their hip. No offensive techniques yet, purely building the defensive muscle memory for guard retention under pressure."
+      },
+      {
+        "phase": "Phase 2: Threat Recognition",
+        "focus": "Identifying which passing approach the opponent commits to and selecting appropriate defense",
+        "description": "Partner alternates between stack passing, arm extraction, and cartwheel counters at moderate speed. Verbally call out which approach you detect and demonstrate the initial defensive response without completing the full counter. Build pattern recognition for the three primary passing threats."
+      },
+      {
+        "phase": "Phase 3: Counter-Attack Integration",
+        "focus": "Connecting defensive recognition to offensive berimbolo and sweep counters",
+        "description": "Partner passes at 60% resistance while you practice converting their passing attempts into berimbolo entries and overhead sweeps. Develop the timing for switching between sweep and berimbolo based on the opponent's weight distribution and passing approach selection."
+      },
+      {
+        "phase": "Phase 4: Live Positional Defense",
+        "focus": "Full resistance guard defense and counter-attacking from established inverted lasso",
+        "description": "Positional sparring starting in established inverted lasso guard with the top player working full intensity passes. Score guard retention, successful sweeps, and back takes against completed passes and half guard concessions. Identify which defensive responses require additional drilling under competition conditions."
+      }
+    ]
+  }
+}

@@ -179,7 +179,7 @@ document.addEventListener("nav", async (e: CustomEventMap["nav"]) => {
       searchBar.value = "" // clear the input when we dismiss the search
     }
     if (sidebar) {
-      sidebar.style.zIndex = "unset"
+      sidebar.style.removeProperty("z-index")
     }
     if (results) {
       removeAllChildren(results)
@@ -494,3 +494,63 @@ async function fillDocument(data: { [key: FullSlug]: ContentDetails }) {
 
   return await Promise.all(promises)
 }
+
+// Roll functionality - navigate to random position
+// Uses build-time injected window.__rollPositions (no runtime fetch needed)
+function handleRoll() {
+  const positions = (window as any).__rollPositions as Array<{ s: string; n: string }> | undefined
+  if (!positions || positions.length === 0) return
+
+  const position = positions[Math.floor(Math.random() * positions.length)]
+
+  // Clear any existing journey to start fresh
+  localStorage.setItem("bjj-journey", "[]")
+
+  // Set snackbar for arrival
+  sessionStorage.setItem(
+    "snackbar",
+    JSON.stringify({
+      type: "info",
+      message: `Roll started in ${position.n}`,
+    }),
+  )
+
+  // Slug is the URL path (e.g. "Positions/Mount/Top" → "/Positions/Mount/Top")
+  window.spaNavigate(new URL(`/${position.s}`, window.location.toString()), false)
+}
+
+// Attach to roll triggers
+function attachRollTriggers() {
+  document.querySelectorAll(".roll-trigger").forEach((trigger) => {
+    // Skip if already has listener
+    if (trigger.hasAttribute("data-roll-attached")) return
+    trigger.setAttribute("data-roll-attached", "true")
+    trigger.addEventListener("click", (e) => {
+      e.preventDefault()
+      e.stopPropagation()
+      handleRoll()
+    })
+  })
+}
+
+// Wire landing page search trigger to open Quartz search overlay
+function attachSearchTriggers() {
+  document.querySelectorAll(".search-trigger").forEach((trigger) => {
+    if (trigger.hasAttribute("data-search-attached")) return
+    trigger.setAttribute("data-search-attached", "true")
+    trigger.addEventListener("click", () => {
+      const searchButton = document.getElementById("search-button")
+      if (searchButton) searchButton.click()
+    })
+  })
+}
+
+// Run on initial load and on SPA navigation
+document.addEventListener("nav", () => {
+  attachRollTriggers()
+  attachSearchTriggers()
+})
+window.addEventListener("DOMContentLoaded", () => {
+  attachRollTriggers()
+  attachSearchTriggers()
+})

@@ -1,0 +1,399 @@
+{
+  "name": "Posture Up from Mounted Triangle",
+  "description": "Master the posture up escape from mounted triangle in BJJ. Learn frame-based defense, triangle lock disruption, and systematic guard recovery.",
+  "tags": [
+    "bjj",
+    "transition",
+    "escape",
+    "mount",
+    "mounted-triangle",
+    "triangle-defense",
+    "guard-recovery",
+    "defensive-technique"
+  ],
+  "from_position": "Mounted Triangle/Bottom",
+  "outcomes": [
+    {
+      "to": "Half Guard/Bottom",
+      "probability": 30,
+      "result": "success"
+    },
+    {
+      "to": "Mounted Triangle/Bottom",
+      "probability": 45,
+      "result": "failure"
+    },
+    {
+      "to": "Mount/Bottom",
+      "probability": 25,
+      "result": "counter"
+    }
+  ],
+  "success_rate": 30,
+  "overview": "Posturing up from mounted triangle is a critical escape technique that addresses one of the most dangerous positions in Brazilian Jiu-Jitsu. When caught in a mounted triangle, the bottom player faces immediate choking pressure combined with the positional weight of mount, creating an urgent need for systematic escape methodology. The posture up escape works by creating structural distance between the bottom player's neck and the opponent's squeezing legs, disrupting the triangle lock's mechanical advantage and creating space to begin guard recovery.\n\nThe technique requires careful frame placement and timing rather than explosive strength. Simply driving upward into the opponent's triangle pressure is rarely effective and often accelerates the choke. Instead, the escape relies on establishing frames against the opponent's hips, using those frames to create incremental posture, and then combining the posture change with lateral hip movement to extract the trapped arm and recover to half guard. The critical timing window occurs when the top player adjusts their triangle angle or reaches for finishing grips, momentarily reducing their downward pressure.\n\nStrategic awareness is essential throughout this escape sequence. The top player will actively counter posture attempts by pulling the head down, transitioning to armbar when the escaping player extends their arms, or shifting to S mount to maintain control. Successful execution demands reading the opponent's weight distribution, protecting the trapped arm from extension, and committing fully to the escape direction once sufficient posture is established. This technique integrates with the broader mounted triangle defense framework as one of several escape options available from this critically dangerous position.",
+  "conditions": [
+    "Opponent has established mounted triangle configuration but has not fully cinched the triangle lock to maximum tightness",
+    "Bottom player's free arm retains enough mobility to create frames against opponent's hip or torso",
+    "Trapped arm still has some range of motion and has not been fully extended into armbar position",
+    "Bottom player has sufficient energy reserves for the sustained effort required against gravity and opponent weight"
+  ],
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Explosive Power Posture",
+      "description": "Uses a sudden burst of hip drive and frame extension to create posture rapidly before the opponent can react and pull the head back down. Relies on timing rather than sustained effort, concentrating all force into a single explosive moment that breaks through the triangle pressure barrier.",
+      "when_to_use": "When the opponent momentarily loosens their triangle grip to reach for finishing grips or adjust their angle, creating a brief window where downward pressure is reduced"
+    },
+    {
+      "variant_name": "Incremental Frame Walk",
+      "description": "Gradually walks the frame hand from the opponent's hip toward their ribcage in small increments, building posture through accumulated micro-movements rather than one large effort. Each small frame advance is consolidated before the next, making it difficult for the opponent to collapse all gained distance at once.",
+      "when_to_use": "When the opponent has strong head control preventing explosive movement, requiring a patient systematic approach that builds posture over fifteen to twenty seconds of sustained work"
+    },
+    {
+      "variant_name": "Lateral Posture Escape",
+      "description": "Combines posture creation with a strong lateral hip escape, angling the body diagonally rather than fighting straight upward. This approach disrupts the triangle's choking plane by changing the angle of the neck relative to the squeezing thighs, reducing pressure without needing as much vertical distance.",
+      "when_to_use": "When straight upward posture attempts are repeatedly countered by the opponent's head pulls, as the lateral angle attacks the triangle mechanics from a direction the opponent cannot easily counter with downward force alone"
+    }
+  ],
+  "position_integration": "The posture up escape from mounted triangle integrates with the broader mounted triangle defense system as one of several escape pathways available to the bottom player. It connects directly to the frame-and-escape and bridge defense techniques as alternative options when the posture up stalls or is countered. Successful posture up leads to half guard recovery, where the bottom player enters a familiar defensive system with established sweep and back take pathways. Understanding when to attempt posture up versus bridge versus frame-and-shrimp allows the bottom player to chain escape attempts systematically, exhausting the top player's defensive options across multiple attack vectors rather than committing to a single approach.",
+  "related_content": [
+    {
+      "name": "Mounted Triangle",
+      "relationship": "Source position from which this escape is attempted"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Primary success destination after completing the posture up escape"
+    },
+    {
+      "name": "Mount",
+      "relationship": "Counter outcome position when opponent releases triangle to consolidate mount"
+    },
+    {
+      "name": "Bridge Defense from Mounted Triangle",
+      "relationship": "Alternative escape technique targeting opponent's base rather than creating posture"
+    },
+    {
+      "name": "Frame and Escape Mounted Triangle",
+      "relationship": "Complementary escape technique using lateral frames and shrimping movement"
+    },
+    {
+      "name": "Mounted Triangle Squeeze",
+      "relationship": "Opponent's primary finishing technique that posture up aims to disrupt"
+    },
+    {
+      "name": "Mounted Triangle to S Mount",
+      "relationship": "Opponent's transition threat when posture attempt partially succeeds"
+    },
+    {
+      "name": "Elbow Escape from Mount",
+      "relationship": "Follow-up escape technique if counter outcome places you in mount bottom"
+    },
+    {
+      "name": "High Mount",
+      "relationship": "Related dominant position opponent may advance to during escape attempts"
+    }
+  ],
+  "attacker": {
+    "name": "Posture Up from Mounted Triangle Attacker",
+    "description": "Execute the posture up escape from mounted triangle bottom. Step-by-step guide covering frame mechanics, hip movement, arm extraction, and guard recovery.",
+    "overview": "Executing the posture up escape from mounted triangle requires systematic frame creation and hip movement to disrupt the opponent's triangle lock and create space for guard recovery. As the escaping player, your primary challenge is generating posture against gravity and the opponent's weight while protecting your trapped arm from armbar transition and your neck from increasing choking pressure. The technique is not about raw strength but about proper structural alignment and sequencing. Frame placement against the opponent's hips provides the mechanical foundation, lateral hip escape disrupts the triangle angle, and patient arm extraction completes the escape to half guard. Success demands reading the opponent's adjustments and timing your efforts to coincide with moments of reduced downward pressure.",
+    "key_principles": [
+      "Frame before you posture - establish structural frames against opponent's hips before attempting to rise, as frames provide the mechanical foundation for all posture creation",
+      "Use skeletal structure over muscular effort - align forearms and elbows to create sustainable pushing force that does not fatigue rapidly under the opponent's weight",
+      "Address the triangle lock angle before committing to full posture - partial disruption through shoulder rotation reduces choking danger during the escape",
+      "Combine posture with lateral hip movement - straight upward force is easily countered by gravity and head control, while lateral escape disrupts the triangle plane",
+      "Protect the trapped arm continuously throughout the escape sequence - any extension beyond safe angle exposes you to immediate armbar transition",
+      "Time posture attempts when the opponent shifts weight or reaches for finishing grips, exploiting momentary reductions in downward pressure"
+    ],
+    "setup_requirements": [
+      "Chin is aggressively tucked toward the trapped arm shoulder to reduce immediate choking pressure",
+      "Trapped arm is bent tight against your body with hand gripping own collar or opponent's leg to prevent extension",
+      "Free arm retains mobility and can reach the opponent's hip to establish the primary frame",
+      "Hips have not been completely flattened and retain some lateral mobility for hip escape movement",
+      "Sufficient energy reserves remain for a sustained multi-step escape rather than a single explosive attempt"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Establish defensive foundations",
+        "description": "Tuck chin aggressively toward the trapped arm side and bend the trapped arm tight against your body, gripping your own collar or the opponent's leg. These two actions address both the immediate choking threat and the armbar vulnerability simultaneously, buying the time needed to begin the escape sequence."
+      },
+      {
+        "step_number": 2,
+        "action": "Place primary hip frame",
+        "description": "Position your free hand flat against the opponent's far hip with fingers pointing away from your body, establishing a structural frame using forearm and skeletal alignment. The frame should push against the bony hip structure rather than soft tissue, providing maximum mechanical advantage for creating the initial distance."
+      },
+      {
+        "step_number": 3,
+        "action": "Initiate lateral hip escape",
+        "description": "Push off your free-side foot to drive your hips laterally away from the triangle side, creating distance between your neck and the opponent's squeezing thighs. This lateral movement is critical because it changes the triangle angle rather than fighting directly against the opponent's downward compression."
+      },
+      {
+        "step_number": 4,
+        "action": "Walk frame up incrementally",
+        "description": "Advance your frame position from the opponent's hip toward their lower ribcage in small increments, each adjustment pushing their weight slightly further back and increasing the space around your trapped neck. Consolidate each gain before advancing further to prevent the opponent from collapsing all distance in a single head pull."
+      },
+      {
+        "step_number": 5,
+        "action": "Rotate shoulder into triangle",
+        "description": "Turn your torso so the shoulder of your trapped arm drives forward into the opponent's inner thigh, disrupting the triangle angle and creating slack in the choking structure around your neck. This rotation changes the geometric relationship between the triangle and your neck, reducing pressure without requiring additional vertical posture."
+      },
+      {
+        "step_number": 6,
+        "action": "Extract trapped arm",
+        "description": "Once sufficient posture and angle disruption are established, slide your trapped arm's elbow past the opponent's thigh by retracting it along your own ribcage. Maintain the free-hand frame throughout to prevent the opponent from collapsing the distance and re-trapping the arm during extraction."
+      },
+      {
+        "step_number": 7,
+        "action": "Insert knee shield and recover guard",
+        "description": "Immediately bring your inside knee across to create a shield between your body and the opponent's, using the remaining frame to generate final separation distance. Continue shrimping to create enough space to settle into a stable half guard bottom position with proper defensive connections established."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Opponent pulls head down and re-tightens triangle lock using both hands behind the skull",
+        "effectiveness": "High",
+        "your_response": "Do not fight the pull directly with neck strength. Reset chin tuck, maintain frame contact, and wait for the next opportunity when opponent adjusts their grip or shifts weight",
+        "targets_outcome": "Mounted Triangle/Bottom"
+      },
+      {
+        "counter": "Opponent pivots hips toward the framing arm and transitions to armbar attack on the extended limb",
+        "effectiveness": "High",
+        "your_response": "Immediately retract the framing arm and bend it tight to your body. If caught mid-extension, turn toward the opponent and grip your own wrist to create a two-on-one defense",
+        "targets_outcome": "Mounted Triangle/Bottom"
+      },
+      {
+        "counter": "Opponent releases triangle deliberately and drives hips down to consolidate standard mount control",
+        "effectiveness": "Medium",
+        "your_response": "Exploit the triangle release moment by immediately inserting knee shield and frames before they can settle mount. The leg movement required to release the triangle creates a brief window for escape",
+        "targets_outcome": "Mount/Bottom"
+      },
+      {
+        "counter": "Opponent switches triangle angle to the opposite side, re-tightening the choke from a new direction",
+        "effectiveness": "Medium",
+        "your_response": "Follow the angle change by adjusting your chin tuck direction toward the newly trapped arm side and re-establishing your frame against the new hip angle before resuming the posture attempt",
+        "targets_outcome": "Mounted Triangle/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Extending arms fully to push opponent away with straight-arm force",
+        "consequence": "Exposes both arms to immediate armbar transition as the opponent catches the extended limb and pivots into a finish",
+        "correction": "Use bent-arm forearm frames against the opponent's hips rather than pushing with straight arms. Frame effectiveness comes from skeletal structure and proper angle, not arm extension"
+      },
+      {
+        "error": "Forgetting chin tuck during the posture creation phase",
+        "consequence": "Triangle choke tightens dramatically as the neck extends, accelerating the submission and reducing time available for escape",
+        "correction": "Maintain aggressive chin tuck throughout the entire escape sequence, turning head toward the trapped arm side to minimize the choking angle"
+      },
+      {
+        "error": "Using explosive upward force without any lateral hip movement",
+        "consequence": "Opponent easily pulls head back down using gravity advantage and the triangle's mechanical leverage, wasting significant energy with no positional gain",
+        "correction": "Combine upward posture with lateral hip escape movement, driving hips away from the triangle side to disrupt the choking plane"
+      },
+      {
+        "error": "Neglecting trapped arm protection during frame placement and posture work",
+        "consequence": "Trapped arm drifts away from body during movement, allowing opponent to catch an immediate armbar transition",
+        "correction": "Keep trapped arm bent and actively gripped to own collar or opponent's leg throughout the escape sequence, only releasing to extract once sufficient posture exists"
+      },
+      {
+        "error": "Attempting the posture up when opponent has fully locked triangle with optimal choking angle",
+        "consequence": "Escape percentage drops dramatically against a fully cinched triangle with proper angle, wasting energy fighting an established structure",
+        "correction": "Disrupt the triangle lock first by fighting the ankle-behind-knee configuration or changing the angle before attempting to posture. If the lock is fully set, prioritize alternative escapes"
+      },
+      {
+        "error": "Panicking and using only muscular effort without establishing proper frame structures",
+        "consequence": "Rapid energy depletion without meaningful progress, leaving insufficient reserves for subsequent escape attempts",
+        "correction": "Use skeletal frame structures for sustained effort rather than muscular pushing. Breathe deliberately and maintain a systematic sequenced approach to the escape"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Frame Mechanics",
+        "focus": "Hip frame placement and structural alignment",
+        "description": "Practice establishing and maintaining frames against the opponent's hips from mounted triangle bottom. Partner applies light triangle pressure while you focus on hand placement, forearm angle, and skeletal structure without muscular effort. Repeat until the frame placement becomes automatic."
+      },
+      {
+        "phase": "Phase 2: Posture Creation",
+        "focus": "Combining frames with coordinated hip movement",
+        "description": "Build on frame mechanics by adding hip escape movement. Practice coordinating the frame push with simultaneous lateral hip escape. Partner provides moderate resistance. Focus on the timing of when to initiate hip movement relative to frame establishment and incremental frame walking."
+      },
+      {
+        "phase": "Phase 3: Full Escape Sequence",
+        "focus": "Arm extraction and guard recovery completion",
+        "description": "Execute the complete escape from frame establishment through posture creation to arm extraction and half guard recovery. Partner provides progressive resistance from light to moderate. Practice reading when sufficient posture exists to begin arm extraction versus when additional frame work is needed."
+      },
+      {
+        "phase": "Phase 4: Counter Recognition",
+        "focus": "Adapting to opponent's defensive responses",
+        "description": "Partner actively counters escape attempts with head pulls, armbar transitions, angle changes, and mount consolidation. Practice recognizing each counter type and applying the correct response. Develop automatic reactions to common counters during the posture up attempt."
+      },
+      {
+        "phase": "Phase 5: Live Integration",
+        "focus": "Applying under full resistance in rolling",
+        "description": "Incorporate the posture up escape into live rolling from mounted triangle starting positions. Track success rate and identify which phase of the escape most commonly fails. Alternate between posture up and other mounted triangle escapes to develop a complete defensive system."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "Your opponent begins tightening their triangle lock while you are in mounted triangle - what is your immediate priority before attempting to posture?",
+        "answer": "Address the immediate choking threat by tucking your chin aggressively toward your trapped arm shoulder and bending the trapped arm tight to your body. This buys time by reducing the choking angle and protecting against armbar. Only after establishing these defensive foundations should you begin frame placement and posture work, as attempting to posture without chin tuck accelerates the choke and reduces your survival window."
+      },
+      {
+        "question": "What is the correct hand placement for the primary frame used in this escape?",
+        "answer": "Place your free hand flat against the opponent's far hip with fingers pointing away from your body, creating a structural frame using your forearm and skeletal alignment. The frame should push against the bony hip structure rather than soft tissue. This position provides maximum mechanical advantage for creating distance while keeping your elbow bent to prevent armbar exposure on the framing arm."
+      },
+      {
+        "question": "You have established a frame and begun posturing, but the opponent pulls your head back down forcefully - how do you respond?",
+        "answer": "Do not fight the head pull directly with neck strength as this wastes energy against their leverage advantage. Instead, reset your chin tuck, maintain frame contact against their hip, and wait for the next opportunity. The opponent must shift weight or adjust grip to execute the pull, and the moment after completion creates a brief window where their control is lighter. Use that moment to re-initiate the posture attempt with a simultaneous hip escape in the opposite direction."
+      },
+      {
+        "question": "In which direction should you drive your hips during the posture up escape?",
+        "answer": "Drive your hips laterally away from the triangle side, specifically hip escaping toward the side where your free arm is framing. This lateral movement is critical because it disrupts the triangle's choking mechanics by changing the angle of your neck relative to the squeezing thighs. Moving straight backward is less effective because it maintains the triangle angle and the opponent can simply follow with their hips to maintain pressure."
+      },
+      {
+        "question": "Your opponent releases the triangle and starts consolidating standard mount as you posture up - how do you capitalize on this transition?",
+        "answer": "The moment the opponent releases the triangle lock is your best escape window. Immediately insert your knee as a shield between your bodies before they can settle their mount. The triangle release requires them to move their legs, creating a brief moment where their base is compromised. Drive your hip frame hard to create additional space and begin a full hip escape sequence toward half guard. Speed is critical because every fraction of a second of delay allows them to re-establish mount pressure."
+      },
+      {
+        "question": "Why must you avoid extending your arms fully during the posture up attempt?",
+        "answer": "Fully extending your arms creates immediate armbar vulnerability from the mounted position. The opponent can trap your extended arm against their hip or thigh and pivot into an armbar faster than you can retract. Instead, use bent-arm frames that keep your elbows close to your body. The frame's effectiveness comes from skeletal structure and proper angle rather than arm length, so full extension provides minimal additional benefit while dramatically increasing submission risk."
+      },
+      {
+        "question": "You have successfully disrupted the triangle angle but your trapped arm is still caught between the opponent's legs - what is the extraction technique?",
+        "answer": "With the triangle angle disrupted but the arm still trapped, rotate your shoulder on the trapped arm side forward into the opponent's inner thigh to create additional slack. Then slide your elbow past their thigh by retracting it along your own ribcage in a pulling motion. Maintain the hip frame throughout to prevent the opponent from re-closing the distance. If the arm will not come free in one motion, use small pulsing hip escapes to incrementally walk it free rather than one explosive pull that could expose you to a re-locked triangle."
+      },
+      {
+        "question": "The posture up is not working because the opponent's triangle lock is too tight - what alternative escape should you pursue?",
+        "answer": "If the triangle is fully locked with proper angle, posturing becomes extremely low percentage. Transition to alternative escapes: fight the ankle-behind-knee connection to disrupt the lock configuration, attempt bridge-based escapes that attack the opponent's base stability rather than the triangle structure directly, or work a frame-and-shrimp escape that prioritizes lateral movement. The key recognition is that different escape techniques work at different stages of triangle tightness, and posture up is most effective before the lock is fully cinched."
+      }
+    ],
+    "safety_considerations": "The mounted triangle involves cervical spine compression and shoulder pressure that can cause serious neck injury. Never explosively jerk your head free from the triangle as this risks straining cervical vertebrae. If you feel numbness, tingling, or sharp pain in the neck or trapped arm, tap immediately rather than continuing the escape. Practice this escape with controlled and progressive resistance initially, and communicate with training partners about pressure intensity. Be especially careful with the trapped arm during extraction, as forced removal against a locked triangle can hyperextend the elbow joint."
+  },
+  "defender": {
+    "name": "Posture Up from Mounted Triangle Defender",
+    "description": "Defend against posture up escape attempts from mounted triangle top. Counter-techniques, transition options, and maintaining submission control.",
+    "overview": "Maintaining the mounted triangle against a posture up escape requires active counter-measures beyond simply holding the position. As the top player, your goal is to shut down frame establishment, maintain the triangle's choking angle through hip adjustments, and be prepared to transition to alternative attacks when escape attempts create new offensive opportunities. The posture up escape is a methodical technique that builds incrementally, making early recognition and intervention critical. Understanding the mechanics of each phase of the posture up allows you to apply the correct counter-measure before the bottom player can build momentum toward guard recovery. Effective defense from this perspective transforms the opponent's escape energy into pathways toward submission finishes or positional advancement.",
+    "key_principles": [
+      "Maintain constant downward pressure on the opponent's head to prevent posture creation, using both hand control and triangle squeeze to keep their neck compressed",
+      "Adjust triangle angle continuously in response to lateral hip escape attempts, following the opponent's movement to preserve the choking geometry",
+      "Monitor and strip the opponent's free arm frames immediately upon contact with your hip, denying the structural foundation of their escape",
+      "Be ready to transition to armbar when the opponent extends their framing arm beyond safe angle during posture attempts",
+      "Use the opponent's escape energy against them by redirecting their movement toward submission entries or tighter control configurations",
+      "Maintain the ankle-behind-knee triangle lock connection continuously, re-locking immediately if any disruption occurs during defensive adjustments"
+    ],
+    "recognition_cues": [
+      "Bottom player begins placing their free hand flat against your hip to establish a structural pushing frame",
+      "Bottom player starts driving their hips backward or laterally to create distance from the triangle squeeze",
+      "Bottom player rotates their shoulder into your inner thigh to disrupt the triangle angle and create neck slack",
+      "Bottom player's free arm stiffens and aligns in a pushing structure against your hip or torso rather than lying passively",
+      "Bottom player's breathing becomes more controlled and deliberate, indicating they are preparing a systematic escape rather than panicking"
+    ],
+    "defensive_options": [
+      {
+        "action": "Pull head down and re-tighten triangle lock by cupping behind the skull and squeezing knees",
+        "when_to_use": "Immediately when you feel the bottom player's posture beginning to rise or their hip frame making contact",
+        "targets_outcome": "Mounted Triangle/Bottom",
+        "if_successful": "Bottom player returns to full triangle control with reduced energy for subsequent escape attempts",
+        "risk": "If the head pull grip fails, the bottom player may achieve significant posture before you can re-establish control"
+      },
+      {
+        "action": "Transition to armbar by controlling the framing arm and pivoting hips toward it",
+        "when_to_use": "When the bottom player extends their free arm to create a frame and it straightens past a safe angle",
+        "targets_outcome": "Mounted Triangle/Bottom",
+        "if_successful": "Catch immediate armbar finish or force the opponent to abandon the escape to defend their arm",
+        "risk": "If the armbar transition is mistimed, you may lose the triangle configuration entirely during the pivot"
+      },
+      {
+        "action": "Deliberately release triangle and consolidate standard mount with crossface control",
+        "when_to_use": "When the triangle angle is significantly disrupted and maintaining it requires more effort than the position justifies",
+        "targets_outcome": "Mount/Bottom",
+        "if_successful": "Settle into stable mount control with opportunity to re-attempt triangle setup or pursue mount-based submissions",
+        "risk": "Bottom player uses the transition moment to insert knee shield and recover half guard before you settle"
+      },
+      {
+        "action": "Strip the framing hand by pushing it past your hip and immediately re-engaging head control",
+        "when_to_use": "Early in the escape attempt when the bottom player first contacts your hip with their frame",
+        "targets_outcome": "Mounted Triangle/Bottom",
+        "if_successful": "Collapse the escape at its foundation before any posture is created, forcing the opponent to restart",
+        "risk": "If you cannot strip the frame quickly, the delay may give the opponent time to establish a stronger structure"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Mounted Triangle/Bottom",
+        "how": "Pull the head down immediately when posture begins and re-angle your hips to tighten the triangle. Strip any frame attempts on contact. Use the opponent's energy expenditure against them, as each failed escape drains their reserves while you maintain position with minimal effort through gravity and triangle mechanics."
+      },
+      {
+        "outcome": "Mount/Bottom",
+        "how": "If the triangle becomes unsustainable due to angle disruption, release it deliberately and immediately drive your hips down into mount position. Establish crossface control before the bottom player can insert frames, converting a potentially lost triangle into stable mount pressure. Make this a deliberate tactical decision rather than an uncontrolled loss of position."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Allowing the bottom player to establish a frame against your hip without addressing it immediately",
+        "consequence": "The frame creates structural distance that cannot be overcome by pulling down on the head alone, giving the escape a foundation to build upon",
+        "correction": "Strip the framing hand immediately by pushing it past your hip or transition to armbar attack on the extended arm within the first two seconds of contact"
+      },
+      {
+        "error": "Over-committing to head pull without adjusting triangle angle to match opponent's lateral movement",
+        "consequence": "Bottom player uses the head pull as a fixed point to walk their hips away, creating posture and angle disruption despite your head control",
+        "correction": "Combine head control with hip angle adjustment, following the opponent's lateral movement to maintain the triangle's choking geometry"
+      },
+      {
+        "error": "Remaining static and purely reactive instead of actively pursuing transitions when escape attempts create openings",
+        "consequence": "Bottom player systematically works through the escape sequence while you merely resist rather than counter-attack, eventually building enough posture to escape",
+        "correction": "Actively pursue armbar transitions, S mount shifts, or mount consolidation when escape attempts expose the opponent's arms or disrupt your triangle"
+      },
+      {
+        "error": "Losing the ankle-behind-knee lock connection during defensive weight adjustments",
+        "consequence": "Triangle lock integrity degrades rapidly once the figure-four configuration breaks, and escape probability increases dramatically",
+        "correction": "Prioritize maintaining the ankle-behind-knee connection as the first defensive invariant. Any adjustment to counter the escape must preserve this lock point above all else"
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "The bottom player has established a strong frame against your hip and is beginning to create posture - what is your immediate response?",
+        "answer": "First attempt to strip the frame by controlling their wrist and pushing it past your hip. If you cannot strip it within two seconds, transition to attacking the extended arm with an armbar by pivoting your hips toward that arm. Simultaneously use your free hand to maintain head control and prevent further posture development. The frame represents the foundation of their entire escape structure and removing it collapses their escape before it can develop."
+      },
+      {
+        "question": "What is the primary defensive adjustment when the bottom player begins hip escaping laterally during their posture attempt?",
+        "answer": "Follow their hip escape by re-angling your own hips in the same direction to maintain the triangle's choking geometry. Your triangle effectiveness depends on the angle between your squeezing thighs and their neck, so when they move laterally you must rotate to preserve that angle. Simultaneously pull the head down toward the side they are escaping from to prevent them from creating the space needed for arm extraction and guard recovery."
+      },
+      {
+        "question": "You feel your triangle lock beginning to loosen as the bottom player disrupts the ankle-behind-knee connection - should you fight to maintain it or transition?",
+        "answer": "Make one quick attempt to re-lock the triangle by adjusting your ankle position and squeezing your knees together. If the re-lock fails within two to three seconds, immediately transition to either armbar if their arm is accessible or consolidate standard mount. Fighting a losing triangle battle wastes energy and creates increasingly dangerous escape windows for the bottom player. A deliberate transition to mount maintains positional dominance rather than losing the position entirely through attrition."
+      },
+      {
+        "question": "The bottom player is making small incremental frame adjustments rather than explosive escape attempts - how do you prevent their systematic escape?",
+        "answer": "Recognize that systematic escapes are more dangerous than explosive ones because they preserve the bottom player's energy while steadily degrading your control. Counter by actively tightening your triangle angle through hip adjustments, increasing squeeze pressure in pulses to force defensive reactions, and threatening submissions such as armbar or tighter choke that demand their immediate attention. The goal is to make them react to your attacks rather than methodically executing their escape plan."
+      },
+      {
+        "question": "When should you deliberately release the mounted triangle and transition to standard mount?",
+        "answer": "Release the triangle when the bottom player has disrupted both the choking angle and the ankle-behind-knee lock to the point where reestablishing the triangle would require more energy than the position justifies. Also transition if you have been working the triangle for over sixty seconds without finishing and the bottom player is systematically improving their posture. The key is making this a deliberate tactical decision with immediate mount consolidation rather than having the bottom player force you out of the position uncontrollably."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Recognition and Early Response",
+        "focus": "Identifying posture up attempts at their earliest stage",
+        "description": "Partner signals posture up attempts with increasing subtlety. Practice recognizing the initial frame placement and hip shift that indicate an escape is beginning. Focus on timing your head control pull and frame strip to intercept the posture before it develops rather than reacting after posture is already established."
+      },
+      {
+        "phase": "Phase 2: Counter Mechanics",
+        "focus": "Stripping frames and maintaining triangle integrity",
+        "description": "Partner establishes frames and begins posture up at moderate intensity. Practice stripping the framing hand by pushing it past your hip, re-angling your hips to maintain triangle pressure, and combining head control with hip adjustment. Develop fluid automatic responses to each stage of the escape attempt."
+      },
+      {
+        "phase": "Phase 3: Transition Decision Making",
+        "focus": "When to maintain triangle versus transition to alternative positions",
+        "description": "Partner works posture up with full intensity. Practice the critical decision point between fighting to maintain the triangle and deliberately transitioning to armbar or mount. Develop accurate real-time assessment of triangle lock integrity and make timely transition decisions rather than losing position through indecision."
+      },
+      {
+        "phase": "Phase 4: Live Mounted Triangle Retention",
+        "focus": "Full resistance mounted triangle defense against all escape types",
+        "description": "Begin in mounted triangle and defend all escape attempts during live rolling. Track success rates across maintaining the triangle, finishing submissions, transitioning to stable mount, and losing position entirely. Refine counter-timing and transition decisions based on live feedback across multiple training partners."
+      }
+    ]
+  }
+}

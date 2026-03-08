@@ -1,0 +1,666 @@
+{
+  "name": "Single Leg X-Guard",
+  "slug": "single-leg-x-guard",
+  "description": "Master Single Leg X-Guard in BJJ. Strategic guide covering setup, control, sweeps, and leg lock entries with complete perspective analysis.",
+  "variant_uniqueness": "Leg isolation creates sweep-submission duality",
+  "overview": "Single Leg X-Guard (SLX) is a specialized open guard variation where the bottom player entangles one of the opponent's legs using a specific hooking configuration. The bottom player wraps one leg around the opponent's trapped leg (typically at the ankle or lower calf) while the other foot creates an active hook on the opponent's hip or inner thigh. This configuration creates exceptional control over the opponent's balance and base, offering powerful sweeping leverage and direct pathways to modern leg lock positions. SLX serves as both a high-percentage sweeping platform and a critical gateway position in the contemporary leg entanglement game, bridging traditional guard play with submission-oriented leg locking systems. The position's effectiveness stems from its ability to control the opponent's weight distribution while maintaining active offensive threats. By elevating and off-balancing the opponent, the bottom player can create sweep opportunities in multiple directions or transition seamlessly into more complex leg entanglements. The versatility of SLX makes it particularly valuable in no-gi competition, where it serves as a foundational element of modern guard retention and attack systems. The modern game has evolved significantly in how both players approach this position, with systematic methods emerging from competitors who have refined the position for maximum effectiveness. Understanding both perspectives—bottom and top—is essential for complete mastery of this critical modern BJJ position.",
+  "key_principles": [
+    "Maintain constant elevation of opponent's trapped leg to prevent them from establishing heavy pressure or stable base",
+    "Use active foot positioning with hooks that constantly adjust to opponent's weight shifts and balance changes",
+    "Control opponent's ankle and knee simultaneously using leg wrap to limit their mobility and escape options",
+    "Create off-balancing angles by directing force away from opponent's remaining base point",
+    "Position hips strategically relative to opponent's center of gravity to maximize leverage for attacks",
+    "Maintain readiness to transition between upper body attacks and lower body attacks based on opponent's reactions",
+    "Prevent opponent from establishing forward pressure by keeping their weight elevated and distributed over unstable points"
+  ],
+  "related_positions": [
+    {
+      "name": "X-Guard",
+      "relationship": "Parent position - SLX is a variation that controls one leg while X-Guard controls both"
+    },
+    {
+      "name": "Ashi Garami",
+      "relationship": "Primary transition target for leg lock entries from SLX"
+    },
+    {
+      "name": "Outside Ashi-Garami",
+      "relationship": "Direct leg entanglement entry from SLX with leg isolation"
+    },
+    {
+      "name": "Inside Ashi-Garami",
+      "relationship": "Alternative leg entanglement configuration accessible from SLX"
+    },
+    {
+      "name": "Butterfly Guard",
+      "relationship": "Related open guard position that shares similar sweeping mechanics"
+    },
+    {
+      "name": "De La Riva Guard",
+      "relationship": "Common entry position into SLX using similar leg hooking concepts"
+    },
+    {
+      "name": "Reverse De La Riva Guard",
+      "relationship": "Alternative entry position with similar leg control principles"
+    },
+    {
+      "name": "Deep Half Guard",
+      "relationship": "Related guard position with similar off-balancing mechanics"
+    },
+    {
+      "name": "Saddle",
+      "relationship": "Advanced leg entanglement accessible through SLX transitions"
+    },
+    {
+      "name": "50-50 Guard",
+      "relationship": "Related leg entanglement position with different control dynamics"
+    }
+  ],
+  "top": {
+    "name": "Single Leg X-Guard Top",
+    "description": "Master Single Leg X-Guard Top in BJJ. Control, pass, and attack from top with proper base, leg entanglement defense, and finishing techniques.",
+    "tags": [
+      "bjj",
+      "position",
+      "single-leg-x-guard",
+      "top-position",
+      "passing",
+      "leg-entanglement-defense",
+      "top"
+    ],
+    "overview": "Single Leg X-Guard Top represents the controlling position when facing an opponent who has established Single Leg X Guard on you. From this position, the top player must navigate the complexities of leg entanglement defense while maintaining balance and working toward passing opportunities. The position requires understanding proper base mechanics, strategic weight distribution, and systematic approaches to neutralizing the bottom player's sweeping threats. Unlike many guard passing scenarios, SLX Top demands specific technical responses due to the nature of the leg entanglement and the powerful sweeping mechanics available from the bottom position. The modern game has evolved significantly in how top players approach this position, with systematic methods emerging from elite competitors. The key to success lies in understanding the hierarchy of controls—managing the opponent's grips, maintaining proper base alignment, and creating passing opportunities through strategic pressure application. Top players must be aware of the constant threat of sweeps, leg attacks, and transitions to other guard systems, making this position both technically demanding and strategically complex. Successful navigation of SLX Top position requires balancing defensive awareness with offensive intent. The top player must simultaneously defend against immediate sweeping threats while advancing their position toward guard passing or securing dominant control. This dual mandate makes Single Leg X-Guard Top a critical position in the modern BJJ game, particularly in no-gi competition where leg entanglements play a central role in contemporary strategy.",
+    "state_properties": {
+      "point_value": 0,
+      "position_type": "Defensive with offensive options",
+      "risk_level": "Medium",
+      "energy_cost": "Medium",
+      "time_sustainability": "Medium"
+    },
+    "state_invariants": [
+      "Top player maintains standing or combat base position with at least one leg trapped in opponent's X-frame configuration, creating asymmetric weight distribution demands that require active base management",
+      "Bottom player has established X-guard frame with one leg hooking behind top player's trapped knee while the other leg controls at hip or thigh level, creating continuous off-balancing pressure",
+      "Top player's trapped leg is controlled between opponent's legs with the opponent's bottom hook threatening base and top hook controlling distance and preventing forward pressure establishment",
+      "Top player maintains upright posture with hands available for posting, framing, or controlling opponent's upper body to prevent forward pulls or grip establishment that would enhance sweeping power"
+    ],
+    "prerequisites": [
+      "Opponent has successfully established Single Leg X Guard configuration on one of your legs",
+      "You are in standing, combat base, or semi-standing position with one leg trapped",
+      "Bottom player has achieved proper hook placement and distance control",
+      "You maintain ability to post hands and control upper body position",
+      "Awareness of leg entanglement positioning and immediate threats"
+    ],
+    "key_principles": [
+      "Maintain wide base with free leg positioned to prevent sweeps and maintain balance against directional pulls",
+      "Control opponent's upper body through collar ties, cross faces, or shoulder pressure to limit their ability to sit up and create angles",
+      "Keep trapped leg's knee aligned toward opponent to prevent full extension and reduce leverage for sweeps",
+      "Distribute weight strategically—too much forward pressure allows technical standup, too little allows full extension sweeps",
+      "Prioritize grip fighting to prevent opponent from securing strong sleeve or collar controls that enhance their sweeping power",
+      "Systematically address the bottom hook first as it represents the primary sweeping threat and base control",
+      "Maintain hip mobility to follow opponent's movements and prevent them from generating momentum for directional sweeps"
+    ],
+    "decision_tree": [
+      {
+        "condition": "If opponent has strong bottom hook and is extending for sweep",
+        "actions": [
+          {
+            "technique": "Leg Weave Pass",
+            "target": "Side Control",
+            "probability": 55
+          },
+          {
+            "technique": "Kneebar",
+            "target": "Kneebar Control",
+            "probability": 35
+          }
+        ]
+      },
+      {
+        "condition": "If opponent's bottom hook is weak or removed",
+        "actions": [
+          {
+            "technique": "Headquarters Pass",
+            "target": "Headquarters Position",
+            "probability": 65
+          },
+          {
+            "technique": "Knee Slice Pass",
+            "target": "Side Control",
+            "probability": 55
+          }
+        ]
+      },
+      {
+        "condition": "If opponent attempts to sit up or establish upper body control",
+        "actions": [
+          {
+            "technique": "Smash Pass",
+            "target": "Side Control",
+            "probability": 50
+          },
+          {
+            "technique": "Standing up in Base",
+            "target": "Standing Position",
+            "probability": 60
+          }
+        ]
+      },
+      {
+        "condition": "If opponent transitions to different leg configuration",
+        "actions": [
+          {
+            "technique": "Standing up in Base",
+            "target": "Standing Position",
+            "probability": 70
+          },
+          {
+            "technique": "Leg Weave Pass",
+            "target": "Side Control",
+            "probability": 45
+          }
+        ]
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Standing fully upright with narrow base while trapped leg remains extended",
+        "consequence": "Creates optimal sweeping angle for opponent and reduces ability to base out when swept",
+        "correction": "Maintain wide base with free leg positioned diagonally, keep knees bent to lower center of gravity, and align trapped knee toward opponent"
+      },
+      {
+        "error": "Putting all weight forward onto opponent without controlling upper body",
+        "consequence": "Allows opponent to technical standup or create space for guard recovery while providing no passing progress",
+        "correction": "Balance pressure application with upper body control through collar ties or cross face, maintaining ability to react to opponent's movements"
+      },
+      {
+        "error": "Ignoring grip fighting and allowing opponent to secure strong sleeve controls",
+        "consequence": "Opponent gains ability to control posture, prevent pressure application, and enhance sweeping mechanics significantly",
+        "correction": "Actively strip grips, maintain hands in defensive positions, and prioritize breaking sleeve grips before advancing position"
+      },
+      {
+        "error": "Attempting to forcefully rip trapped leg free without addressing hooks systematically",
+        "consequence": "Wastes energy, often results in opponent tightening position, and may lead directly into sweep or submission",
+        "correction": "Systematically address bottom hook first through proper angle creation and pressure, then work to clear top hook before extracting leg"
+      },
+      {
+        "error": "Remaining static in response to opponent's leg configuration adjustments",
+        "consequence": "Allows opponent to optimize their position, find ideal sweeping angles, and potentially transition to stronger positions",
+        "correction": "Maintain constant hip mobility, follow opponent's movements with proper base adjustments, and proactively disrupt their positional optimization"
+      },
+      {
+        "error": "Failing to recognize transition opportunities to leg attacks when opponent overextends",
+        "consequence": "Misses high-percentage finishing opportunities and allows opponent to reset guard structure without consequence",
+        "correction": "Develop awareness of kneebar and ankle lock opportunities when opponent extends legs for sweeps, maintain readiness to capitalize on overextension"
+      }
+    ],
+    "training_drills": [
+      {
+        "name": "Base Maintenance Drill",
+        "description": "Partner establishes SLX while you work on maintaining wide base and proper weight distribution. Partner attempts various sweeping angles while you practice base recovery and balance maintenance. Focus on keeping free leg active and responsive to directional threats.",
+        "duration": "3 minutes per round"
+      },
+      {
+        "name": "Systematic Hook Clearing Progression",
+        "description": "Start in SLX Top position and work through systematic removal of bottom hook first, then top hook, emphasizing proper angle creation and pressure application. Partner provides progressive resistance. Practice transitioning from hook removal to guard passing in fluid sequence.",
+        "duration": "5 minutes"
+      },
+      {
+        "name": "Counter Attack Recognition Drill",
+        "description": "Partner in SLX attempts sweeps and transitions while you work on recognizing kneebar and ankle lock opportunities during their extensions. Practice quick entries to leg attacks when opponent overcommits. Emphasize timing and recognition speed. Flow drill initially, then add resistance.",
+        "duration": "4 minutes per round"
+      },
+      {
+        "name": "Passing Chain from SLX Top",
+        "description": "Flow through all major passing options from SLX Top: headquarters, knee slice, leg weave, and smash pass. Partner provides moderate resistance and varying reactions. Focus on reading opponent's defensive responses and chaining appropriate passes together.",
+        "duration": "6 minutes"
+      }
+    ],
+    "related_content": [
+      {
+        "name": "Single Leg X-Guard",
+        "relationship": "Opposite perspective - understanding bottom mechanics improves top defense"
+      },
+      {
+        "name": "Headquarters Position",
+        "relationship": "Primary passing position reached after clearing bottom hook"
+      },
+      {
+        "name": "X-Guard",
+        "relationship": "Similar leg entanglement passing scenario with different hook configuration"
+      },
+      {
+        "name": "Ashi Garami",
+        "relationship": "Related leg entanglement top position with different control mechanics"
+      },
+      {
+        "name": "Leg Weave Pass",
+        "relationship": "Primary passing technique from this position"
+      },
+      {
+        "name": "Single Leg X Sweep",
+        "relationship": "Primary threat to defend against from bottom"
+      },
+      {
+        "name": "Kneebar",
+        "relationship": "Counter attack opportunity when opponent overextends"
+      },
+      {
+        "name": "Knee Slice Pass",
+        "relationship": "Common passing option after clearing hooks"
+      },
+      {
+        "name": "Combat Base",
+        "relationship": "Alternative posture option for dealing with leg entanglements"
+      }
+    ],
+    "position_metrics": {
+      "retention_rate": {
+        "value": 60
+      },
+      "advancement_probability": {
+        "value": 65
+      },
+      "submission_probability": {
+        "value": 28
+      },
+      "average_time": "30-90 seconds depending on skill differential and strategic approach"
+    },
+    "transitions": [
+      {
+        "transition": "Headquarters Pass",
+        "attempt_probability": 14
+      },
+      {
+        "transition": "Knee Slice Pass",
+        "attempt_probability": 13
+      },
+      {
+        "transition": "Leg Weave Pass",
+        "attempt_probability": 12
+      },
+      {
+        "transition": "Standing up in Base",
+        "attempt_probability": 27
+      },
+      {
+        "transition": "Smash Pass",
+        "attempt_probability": 10
+      },
+      {
+        "transition": "Kneebar",
+        "attempt_probability": 10
+      },
+      {
+        "transition": "Backstep from Single Leg X",
+        "attempt_probability": 8
+      },
+      {
+        "transition": "Standing Escape from SLX",
+        "attempt_probability": 6
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "Your opponent starts driving their bottom hook upward to initiate a sweep - what immediate adjustment do you make?",
+        "answer": "Immediately widen your base by stepping your free leg diagonally away from the sweep direction, bend your knees to lower your center of gravity, and align your trapped knee toward the opponent to reduce the leverage they can generate. Simultaneously post your near hand on the mat if needed for stability while maintaining upper body control."
+      },
+      {
+        "question": "What are the essential base fundamentals for maintaining stability in SLX Top?",
+        "answer": "The essential base fundamentals include: maintaining a wide stance with the free leg positioned diagonally behind you, keeping knees bent to lower your center of gravity, distributing weight evenly rather than loading entirely on the trapped leg, keeping your trapped knee pointed toward the opponent to prevent full extension, and maintaining hip mobility to follow the opponent's movements."
+      },
+      {
+        "question": "Which hook should you prioritize addressing first when attempting to escape SLX, and why?",
+        "answer": "Address the bottom hook first because it represents the primary sweeping threat and controls your base. The bottom hook positioned behind your knee creates the elevation that enables sweeps in any direction. Clearing this hook first removes their primary leverage point and significantly reduces sweep danger, making it safer to then address the top hook and extract your leg."
+      },
+      {
+        "question": "What grip priorities should you maintain to prevent the bottom player from enhancing their sweep attempts?",
+        "answer": "Prioritize controlling the opponent's hands and wrists to prevent them from securing sleeve grips that enhance pulling power. Use collar ties, wrist control, or cross-face pressure to limit their ability to sit up and create angles. Actively strip any grips they establish before attempting to advance your position, as strong upper body grips dramatically increase their sweeping effectiveness."
+      },
+      {
+        "question": "How should you apply pressure without enabling the opponent's technical standup or guard recovery?",
+        "answer": "Balance forward pressure with upper body control - never drive forward without simultaneously controlling their shoulders or head with collar ties or cross-face pressure. Keep your weight distributed through your chest and shoulders onto their upper body rather than just leaning over their legs. This prevents them from using your forward momentum to stand up while maintaining enough pressure to limit their movement options."
+      },
+      {
+        "question": "Your opponent suddenly releases their bottom hook and begins transitioning - what should you anticipate and how do you respond?",
+        "answer": "Anticipate they are either attempting to transition to a different leg entanglement (X-Guard, Ashi Garami) or creating space to recover guard. When they release the bottom hook, immediately recognize this as your window to pass - step to headquarters position or initiate a knee slice pass before they can re-establish hooks. Follow their hip movement with your own base adjustments to prevent them from completing any transition."
+      },
+      {
+        "question": "How do you manage energy expenditure while maintaining position against an active SLX player?",
+        "answer": "Avoid wasting energy by forcing extraction of your trapped leg - this rarely works and exhausts you quickly. Instead, use minimal energy by maintaining proper posture and base, making incremental positional improvements rather than explosive escape attempts. Let your body weight and structure do the work through proper alignment rather than muscular effort. Stay calm and work systematically through the hook clearing sequence."
+      },
+      {
+        "question": "After your opponent partially disrupts your base but you manage to recover - what immediate steps do you take to prevent another attempt?",
+        "answer": "Immediately re-establish wide base with free leg positioned further from sweep direction, lower your hips by bending knees more deeply, and re-engage upper body control to prevent them from building momentum for another attempt. Strip any grips they may have established during the disruption. Consider changing your angle relative to their hooks to prevent them from re-creating the same sweep setup that nearly worked."
+      }
+    ]
+  },
+  "bottom": {
+    "name": "Single Leg X-Guard Bottom",
+    "description": "Master Single Leg X-Guard Bottom in BJJ. Complete guide covering setup, control, sweeps, and leg lock entries. Success rate: Beginner 55%, Intermediate 70%, Advanced 85%.",
+    "tags": [
+      "bjj",
+      "position",
+      "guard",
+      "leg_entanglement",
+      "open_guard",
+      "sweeps",
+      "leg_locks",
+      "bottom"
+    ],
+    "overview": "Single Leg X-Guard Bottom represents one of the most versatile and effective positions in modern Brazilian Jiu-Jitsu, offering practitioners a powerful platform for both sweeping and leg attack systems. The position is characterized by a specific leg configuration where the bottom player entangles one of the opponent's legs using an inside leg wrap around the ankle or lower calf, while the outside foot creates an active hook on the opponent's hip or inner thigh. This configuration creates exceptional control over the opponent's balance and base, offering powerful sweeping leverage and direct pathways to modern leg lock positions. The fundamental strength of Single Leg X-Guard lies in its ability to elevate and off-balance the opponent while maintaining multiple offensive options. Unlike many guard positions that specialize in either sweeping or submissions, SLX excels at both, making it a critical component of contemporary BJJ strategy. The position serves as a bridge between traditional guard play and modern leg entanglement systems, allowing practitioners to seamlessly flow between upper body attacks through sweeps and lower body attacks through leg locks. This versatility makes SLX particularly effective in no-gi competition, where the absence of gi grips places greater emphasis on body positioning and leg control. The effectiveness of Single Leg X-Guard has been proven at the highest levels of competition, with numerous world champions utilizing the position as a cornerstone of their guard systems. The position's relevance has only increased in recent years as leg lock strategies have become more prominent in competitive BJJ, making SLX an essential position for any serious practitioner to master.",
+    "state_properties": {
+      "point_value": 0,
+      "position_type": "Offensive",
+      "risk_level": "Medium",
+      "energy_cost": "Medium",
+      "time_sustainability": "Medium"
+    },
+    "state_invariants": [
+      "One of opponent's legs is trapped between your legs with your inside leg wrapped around their ankle or lower calf, creating the primary control point that prevents their leg from escaping the entanglement through rotation or extraction",
+      "Your outside foot actively hooks on opponent's hip, inner thigh, or belt line, creating constant off-balancing pressure and maintaining elevation of their trapped leg to prevent them from establishing downward pressure",
+      "Your hips are positioned underneath opponent's center of gravity with active elevation, preventing them from establishing stable base while maintaining sweep readiness and creating angles for both upper and lower body attacks",
+      "Opponent's trapped leg is kept elevated and extended away from their body, compromising their ability to generate power or establish defensive posture while opening pathways for both sweeping mechanics and leg attack entries"
+    ],
+    "prerequisites": [
+      "Adequate hip mobility and hamstring flexibility to maintain leg configurations without losing position",
+      "Understanding of off-balancing mechanics and weight manipulation principles",
+      "Basic knowledge of leg entanglement concepts and safe leg attack principles",
+      "Ability to coordinate upper and lower body controls simultaneously",
+      "Familiarity with guard retention and recovery concepts"
+    ],
+    "key_principles": [
+      "Maintain constant elevation of opponent's trapped leg to prevent them from establishing heavy pressure or stable base",
+      "Use active foot positioning with hooks that constantly adjust to opponent's weight shifts and balance changes",
+      "Control opponent's ankle and knee simultaneously using your leg wrap to limit their mobility and escape options",
+      "Create off-balancing angles by directing force away from opponent's remaining base point",
+      "Position your hips underneath opponent's center of gravity to maximize sweeping leverage",
+      "Maintain readiness to transition between upper body attacks (sweeps) and lower body attacks (leg locks) based on opponent's reactions",
+      "Prevent opponent from establishing forward pressure by keeping their weight elevated and distributed over your hooks"
+    ],
+    "decision_tree": [
+      {
+        "condition": "If opponent maintains upright posture with elevated hips and attempts to disengage leg",
+        "actions": [
+          {
+            "technique": "Single Leg X Sweep",
+            "target": "Standing Position",
+            "probability": 65
+          },
+          {
+            "technique": "X-Guard Sweep",
+            "target": "Mount",
+            "probability": 60
+          }
+        ]
+      },
+      {
+        "condition": "If opponent drives forward with heavy pressure attempting to smash pass",
+        "actions": [
+          {
+            "technique": "Ashi Entry from Leg Entanglement",
+            "target": "Ashi Garami",
+            "probability": 55
+          },
+          {
+            "technique": "De La Riva to X-Guard Transition",
+            "target": "X-Guard",
+            "probability": 50
+          }
+        ]
+      },
+      {
+        "condition": "If opponent stands completely upright or backs away to create distance",
+        "actions": [
+          {
+            "technique": "Technical Stand Up to Single Leg",
+            "target": "Standing Position",
+            "probability": 60
+          },
+          {
+            "technique": "Standing to Single Leg X",
+            "target": "Single Leg X-Guard",
+            "probability": 55
+          }
+        ]
+      },
+      {
+        "condition": "If opponent attempts to clear hooks by stepping over or circling laterally",
+        "actions": [
+          {
+            "technique": "Butterfly Guard to X-Guard",
+            "target": "X-Guard",
+            "probability": 50
+          },
+          {
+            "technique": "Inside Ashi Entry",
+            "target": "Inside Ashi-Garami",
+            "probability": 45
+          }
+        ]
+      },
+      {
+        "condition": "If opponent exposes their trapped leg by pulling back defensively",
+        "actions": [
+          {
+            "technique": "Ankle Pick Sweep",
+            "target": "Standing Position",
+            "probability": 55
+          },
+          {
+            "technique": "Single Leg X Entry",
+            "target": "Outside Ashi-Garami",
+            "probability": 50
+          }
+        ]
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Passive foot positioning with static hooks that don't adjust to opponent's movement",
+        "consequence": "Opponent easily clears hooks and passes guard, establishing dominant position without facing meaningful resistance",
+        "correction": "Maintain active, dynamic hooks that constantly reposition based on opponent's weight shifts and balance changes, using foot pressure to redirect their movement"
+      },
+      {
+        "error": "Failing to elevate opponent's trapped leg, allowing them to flatten hips and establish downward pressure",
+        "consequence": "Opponent establishes stable base with heavy pressure, neutralizing sweeping threats and creating passing opportunities",
+        "correction": "Keep opponent's trapped leg elevated throughout by extending hips upward and maintaining tension in leg wrap, preventing them from settling weight downward"
+      },
+      {
+        "error": "Inadequate ankle control with loose leg wrap that allows opponent's leg to rotate or escape",
+        "consequence": "Opponent extracts their trapped leg easily, passing guard or establishing superior position without difficulty",
+        "correction": "Maintain tight control at opponent's ankle and calf using inside leg, keeping constant tension that prevents rotation or extraction of trapped leg"
+      },
+      {
+        "error": "Poor hip positioning with hips too far away from opponent's center of gravity",
+        "consequence": "Loss of sweeping leverage and inability to off-balance opponent effectively, resulting in stalled position or successful opponent disengagement",
+        "correction": "Position hips directly underneath opponent's center of mass with active elevation, maximizing leverage for sweeps and maintaining control over their balance"
+      },
+      {
+        "error": "Telegraphing leg lock entries with obvious grip changes or body repositioning",
+        "consequence": "Opponent recognizes leg attack intentions early and defends effectively, often countering with passing sequences that establish dominant control",
+        "correction": "Disguise transitions to leg entanglements by maintaining consistent grip patterns and body positioning until final commitment, using sweeping threats to mask leg attack setups"
+      },
+      {
+        "error": "Neglecting upper body control while focusing exclusively on leg configurations",
+        "consequence": "Opponent uses free upper body to establish grips, frames, or passing grips that neutralize lower body control",
+        "correction": "Coordinate upper body controls (sleeve grips, collar ties, or underhooks) with leg positioning to create comprehensive control system"
+      },
+      {
+        "error": "Remaining static in position without creating constant off-balancing movements",
+        "consequence": "Opponent adjusts their base and posture to neutralize threats, establishing defensive stability that prevents successful attacks",
+        "correction": "Continuously shift angles and elevation to keep opponent's balance compromised, never allowing them to settle into stable defensive posture"
+      }
+    ],
+    "training_drills": [
+      {
+        "name": "SLX Entry from Various Guards",
+        "description": "Practice entering Single Leg X from multiple guard positions including butterfly guard, De La Riva, seated guard, and reverse De La Riva. Focus on smooth transitions and maintaining control throughout entry sequence. Partner provides progressive resistance as skill develops.",
+        "duration": "5 minutes per entry variation"
+      },
+      {
+        "name": "Transition Flows Between SLX and Related Guards",
+        "description": "Flow between Single Leg X, X-Guard, butterfly guard, and leg entanglement positions without stopping. Emphasize maintaining opponent's leg control throughout transitions and recognizing when each position is most advantageous. Incorporate both offensive and defensive transitions.",
+        "duration": "10 minutes continuous flow"
+      },
+      {
+        "name": "Off-Balancing Cycles with Progressive Resistance",
+        "description": "From established SLX position, practice directing opponent's weight in different directions using hook pressure and hip movement. Partner provides increasing resistance as practitioner demonstrates control. Focus on maintaining elevation while creating directional off-balancing.",
+        "duration": "3-minute rounds with 1-minute rest"
+      },
+      {
+        "name": "Sweep and Leg Lock Decision Making",
+        "description": "Establish SLX position and react to partner's defensive choices by selecting appropriate sweep or leg attack. Partner randomly chooses between backing away, pressuring forward, or posting laterally. Practitioner must recognize pattern and execute optimal response.",
+        "duration": "5 minutes positional sparring"
+      },
+      {
+        "name": "Hook Retention Against Passing Attempts",
+        "description": "Maintain SLX hooks while partner attempts various passing strategies including knee slice, long step, and smash passes. Focus on active hook repositioning and hip mobility to retain guard. Increase partner's passing intensity progressively.",
+        "duration": "3-minute rounds, multiple passes per round"
+      }
+    ],
+    "related_content": [
+      {
+        "name": "X-Guard",
+        "relationship": "Parent position - SLX is a variation that controls one leg while X-Guard controls both"
+      },
+      {
+        "name": "Ashi Garami",
+        "relationship": "Primary transition target for leg lock entries from SLX"
+      },
+      {
+        "name": "Outside Ashi-Garami",
+        "relationship": "Direct leg entanglement entry from SLX with leg isolation"
+      },
+      {
+        "name": "Inside Ashi-Garami",
+        "relationship": "Alternative leg entanglement configuration accessible from SLX"
+      },
+      {
+        "name": "Butterfly Guard",
+        "relationship": "Related open guard position that shares similar sweeping mechanics"
+      },
+      {
+        "name": "De La Riva Guard",
+        "relationship": "Common entry position into SLX using similar leg hooking concepts"
+      },
+      {
+        "name": "Reverse De La Riva Guard",
+        "relationship": "Alternative entry position with similar leg control principles"
+      },
+      {
+        "name": "Deep Half Guard",
+        "relationship": "Related guard position with similar off-balancing mechanics"
+      },
+      {
+        "name": "Saddle",
+        "relationship": "Advanced leg entanglement accessible through SLX transitions"
+      },
+      {
+        "name": "50-50 Guard",
+        "relationship": "Related leg entanglement position with different control dynamics"
+      },
+      {
+        "name": "Straight Ankle Lock",
+        "relationship": "Primary submission available directly from SLX position"
+      },
+      {
+        "name": "Kneebar from Guard",
+        "relationship": "High-percentage submission accessible through SLX leg control"
+      }
+    ],
+    "position_metrics": {
+      "retention_rate": {
+        "value": 68
+      },
+      "advancement_probability": {
+        "value": 72
+      },
+      "submission_probability": {
+        "value": 48
+      },
+      "average_time": "30-90 seconds depending on skill level and opponent's defensive knowledge"
+    },
+    "transitions": [
+      {
+        "transition": "Single Leg X Sweep",
+        "attempt_probability": 22
+      },
+      {
+        "transition": "Ashi Entry from Leg Entanglement",
+        "attempt_probability": 12
+      },
+      {
+        "transition": "Single Leg X Entry",
+        "attempt_probability": 3
+      },
+      {
+        "transition": "Technical Stand Up to Single Leg",
+        "attempt_probability": 10
+      },
+      {
+        "transition": "Butterfly Guard to X-Guard",
+        "attempt_probability": 5
+      },
+      {
+        "transition": "De La Riva to X-Guard Transition",
+        "attempt_probability": 3
+      },
+      {
+        "transition": "Ankle Pick Sweep",
+        "attempt_probability": 10
+      },
+      {
+        "transition": "Inside Ashi Entry",
+        "attempt_probability": 8
+      },
+      {
+        "transition": "Standing to Single Leg X",
+        "attempt_probability": 2
+      },
+      {
+        "transition": "Heel Grab Sweep",
+        "attempt_probability": 10
+      },
+      {
+        "transition": "SLX to Ashi Garami",
+        "attempt_probability": 10
+      },
+      {
+        "transition": "SLX to X-Guard",
+        "attempt_probability": 5
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "Your opponent starts lowering their base and driving forward - what adjustment do you make to maintain control?",
+        "answer": "When the opponent drives forward, immediately angle your hips to the side rather than accepting direct pressure. Extend your top hook aggressively into their hip to create distance while maintaining the bottom hook wrapped around their ankle. If pressure continues, this is your cue to transition to Ashi Garami by following their forward momentum - their weight commitment forward makes their leg more vulnerable to entanglement attacks."
+      },
+      {
+        "question": "What are the essential hooks and grips for maintaining Single Leg X-Guard?",
+        "answer": "The essential controls are: the inside leg wrapped tightly around the opponent's ankle or lower calf to prevent extraction, the outside foot actively hooking on their hip or inner thigh to create elevation and off-balancing pressure, and upper body control through sleeve grips, collar ties, or overhooks to prevent them from posturing up and controlling distance. Both legs must work in coordination - the bottom hook controls, the top hook elevates."
+      },
+      {
+        "question": "How do you shut down the opponent's primary escape of simply pulling their leg free?",
+        "answer": "Prevent leg extraction by maintaining constant tension in your inside leg wrap around their ankle and calf - never let this grip loosen. Keep their leg elevated by extending your hips upward, which stretches their leg out and makes extraction mechanically difficult. Position your hips directly underneath their center of gravity so they cannot generate the power needed to pull free. If they begin pulling, follow their movement by scooting your hips forward to maintain connection."
+      },
+      {
+        "question": "What grip priorities allow you to maximize sweeping power from SLX?",
+        "answer": "For maximum sweep power, prioritize controlling their same-side sleeve or wrist to prevent posting, which is their primary sweep defense. Secondary grip should control their collar, far shoulder, or establish an overhook to break their posture forward. These upper body grips work synergistically with your leg hooks - when you extend your hooks to sweep, the upper body grips prevent them from stepping out or posting their hands to recover balance."
+      },
+      {
+        "question": "How should you apply elevation pressure through your hooks without over-extending?",
+        "answer": "Apply elevation through hip extension rather than straightening your legs completely. Keep your knees bent slightly while driving your hips upward - this maintains hook tension while creating lift. Your top hook pushes into their hip with the ball of your foot, creating upward and outward pressure. Avoid fully extending your legs, which actually reduces control and makes it easier for them to step over or clear your hooks. Think of elevating their weight onto your hooks rather than pushing them away."
+      },
+      {
+        "question": "Your opponent partially clears your top hook but you still have the ankle wrap - how do you recover position?",
+        "answer": "Immediately use your retained ankle control as an anchor point and re-insert your top hook before they can fully pass. Hip escape slightly to create the angle needed for hook reinsertion. If they continue advancing, transition to a backup position - you can go to seated guard, butterfly guard, or even use the ankle control to stand up for a single leg attempt. Never release the ankle wrap until you have transitioned to another controlling position."
+      },
+      {
+        "question": "How do you manage energy expenditure when an opponent is methodically working to pass your SLX?",
+        "answer": "Conserve energy by letting your structural positioning do the work rather than constantly muscling for control. Keep your hips underneath their center of gravity and maintain frame through your hooks - this requires less energy than constantly readjusting. Attack when opportunities present rather than forcing sweeps against a well-based opponent. Use their movements against them - when they shift weight or adjust position, that's when you attack with minimal energy expenditure."
+      },
+      {
+        "question": "After your opponent nearly passes but you recover to SLX - what steps do you take to prevent them from immediately trying the same pass?",
+        "answer": "Immediately re-establish tight ankle control and aggressive elevation to remind them of the sweeping threat. Change your angle slightly from your previous position so they cannot simply repeat the same passing sequence. Consider attacking immediately with a sweep or leg lock entry while they are still adjusting - their near-success often means they over-committed in a way that creates vulnerability. Re-grip their sleeve or establish different upper body control to disrupt their grip pattern and prevent them from re-initiating the same passing chain."
+      }
+    ]
+  }
+}

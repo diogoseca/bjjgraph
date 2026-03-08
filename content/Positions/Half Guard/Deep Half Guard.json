@@ -1,0 +1,596 @@
+{
+  "name": "Deep Half Guard",
+  "slug": "deep-half-guard",
+  "description": "Master Deep Half Guard in BJJ. Strategic guide covering sweeps, back takes, and defensive counters with complete bottom and top perspective analysis.",
+  "variant_uniqueness": "Inverted leverage trades exposure for sweeps",
+  "overview": "Deep Half Guard is an advanced guard position where the bottom player positions themselves underneath one of the opponent's legs, creating a powerful leverage point for sweeps and back takes. Unlike traditional half guard where the opponent's leg is trapped between the bottom player's legs, deep half involves the bottom player getting their entire upper body underneath the opponent's center of gravity, often with the shoulder positioned at the opponent's far hip. This position offers exceptional sweeping leverage and is particularly effective for smaller practitioners against larger opponents.\n\nThe deep half guard represents a fundamental shift in guard philosophy, moving from traditional frames and distance management to an inverted leverage-based approach. By positioning underneath the opponent's center of gravity, the bottom player gains mechanical advantage that transcends size and strength differences. The position is characterized by extreme proximity and connection, with the bottom player using their entire body as a lever to disrupt the opponent's base. This creates opportunities for powerful sweeps that can lead directly to dominant positions or back control.\n\nFrom the top perspective, deep half guard presents a deceptive challenge - while you appear to be winning because you're on top, the bottom player has created a sophisticated lever system using your body weight against you. Understanding the sweep mechanics from both perspectives is essential for modern BJJ practitioners, as this position has become a cornerstone of competitive grappling at all levels.",
+  "key_principles": [
+    "Deep underhook control is the primary mechanism for sweeps and back takes",
+    "Bottom player creates fulcrum with shoulder and head against opponent's hip",
+    "Top player must manage weight distribution to prevent both waiter and Homer Simpson sweeps",
+    "Inverted positioning underneath center of gravity generates powerful leverage",
+    "Patient methodical movement trumps explosive attempts from both perspectives",
+    "Crossface control is critical defensive tool for top player",
+    "Position favors offense for bottom player despite appearing defensive"
+  ],
+  "related_positions": [
+    {
+      "name": "Half Guard",
+      "relationship": "Parent position from which deep half develops"
+    },
+    {
+      "name": "Lockdown",
+      "relationship": "Common entry point and complementary control system"
+    },
+    {
+      "name": "X-Guard",
+      "relationship": "Alternative guard with similar leverage-based sweep mechanics"
+    },
+    {
+      "name": "Single Leg X-Guard",
+      "relationship": "Transition target when opponent defends deep half"
+    },
+    {
+      "name": "Back Control",
+      "relationship": "Primary offensive target from deep half bottom via rolling back take"
+    },
+    {
+      "name": "Electric Chair",
+      "relationship": "Direct submission option from deep half with lockdown integration"
+    },
+    {
+      "name": "Butterfly Guard",
+      "relationship": "Alternative guard emphasizing different underhook mechanics"
+    },
+    {
+      "name": "Side Control",
+      "relationship": "Common passing destination from deep half top"
+    },
+    {
+      "name": "Mount",
+      "relationship": "High-value sweep target from waiter and Homer Simpson sweeps"
+    },
+    {
+      "name": "Turtle",
+      "relationship": "Recovery position when deep half is countered"
+    }
+  ],
+  "top": {
+    "name": "Deep Half Guard Top",
+    "description": "Master Deep Half Guard Top with defensive counters, pressure maintenance, and systematic passing strategies. Success rates: Beginner 35%, Intermediate 55%, Advanced 70%.",
+    "tags": [
+      "bjj",
+      "position",
+      "half-guard",
+      "deep-half",
+      "top",
+      "defensive",
+      "passing"
+    ],
+    "overview": "Deep Half Guard Top is a challenging defensive position where you find yourself on top but with your opponent underneath in deep half guard, meaning they have wedged themselves deep under your hips with their arms around your far leg and their head/shoulders positioned under your near hip. While you are technically on top, this position presents significant sweep dangers and requires careful defensive strategy to maintain position and create passing opportunities.\n\nThe position is deceptive because the top player appears to be winning, but deep half guard is actually a highly effective sweeping position for the bottom player. Your opponent's deep positioning under your hips creates powerful leverage for sweeps, particularly the waiter sweep and old school sweep, which can easily result in mount or back control for them if you don't defend correctly.\n\nSuccess from top position requires understanding the sweep mechanics your opponent is attempting, maintaining proper weight distribution to counter these sweeps, and systematically working to extract your trapped leg and establish dominant passing pressure. Patience is essential, as rushing to pass without proper defensive positioning often results in sweeps or back exposure.",
+    "state_properties": {
+      "point_value": 0,
+      "position_type": "Defensive with offensive options",
+      "risk_level": "Medium",
+      "energy_cost": "Medium",
+      "time_sustainability": "Medium"
+    },
+    "state_invariants": [
+      "Opponent is positioned deep underneath your hips with their body inverted or perpendicular to yours, their shoulders and head creating a wedge under your near-side hip while they control your far leg with their arms wrapped around the thigh or knee",
+      "Your trapped leg is controlled by opponent's arms with their shoulder pressure preventing easy extraction, while your free leg maintains base contact with the mat to prevent being swept",
+      "Weight distribution is balanced between both legs to prevent opponent from utilizing leverage to execute sweeps, with your torso maintaining upright or slightly forward posture to avoid being flattened",
+      "Opponent's head position is underneath or beside your hip creating the fulcrum for potential sweep mechanics, requiring constant monitoring and defensive adjustment to prevent activation of sweep leverage"
+    ],
+    "prerequisites": [
+      "Opponent has successfully entered deep half guard from half guard bottom, lockdown, or open guard recovery",
+      "Opponent has established deep positioning with their shoulders underneath your hips and secured control of your far leg",
+      "You are on top but with compromised base due to opponent's deep underhook and hip positioning",
+      "Opponent has created the leverage structure necessary for sweep attempts while you maintain some degree of upright posture"
+    ],
+    "key_principles": [
+      "Weight Distribution Management: Maintain balanced weight to prevent both waiter and old school sweeps",
+      "Trapped Leg Extraction Priority: Systematically work to free your trapped leg as it's the key to escaping",
+      "Crossface Control: Establish crossface or head control to limit opponent's ability to execute sweep mechanics",
+      "Posture Maintenance: Keep good posture and avoid being flattened or broken down",
+      "Base Widening: Use free leg to establish wide base that makes you difficult to off-balance",
+      "Grip Fighting: Prevent opponent from establishing sweep grips on belt or pants",
+      "Patience Under Pressure: Recognize this is dangerous position requiring methodical escape"
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "Your opponent begins to elevate their hips while maintaining deep underhook - what immediate adjustment do you make?",
+        "answer": "Immediately shift your weight forward and drive your hips down toward the mat to counter their elevation attempt. Simultaneously widen your base with your free leg by posting it far to the side. This removes the space they need to complete the sweep and grounds your center of gravity below theirs. If possible, establish crossface pressure to flatten their upper body and disrupt their ability to generate lift."
+      },
+      {
+        "question": "What are the essential grips and contact points for maintaining position from deep half guard top?",
+        "answer": "The essential contact points are: crossface control with your shoulder or forearm driving into opponent's face/jaw to limit their mobility, hip control with your free hand to monitor their elevation attempts, and a wide base with your free leg posted far to the side. Your trapped leg should maintain some downward pressure while you work extraction. The crossface is priority one as it shuts down most sweep mechanics."
+      },
+      {
+        "question": "How do you shut down the waiter sweep specifically when you feel your opponent loading it?",
+        "answer": "When you feel the waiter sweep loading (opponent grabbing your belt or pants and beginning to sit up), immediately shift your weight backward and lower your hips toward the mat. Drive your crossface pressure downward to flatten them. Widen your base dramatically with your free leg and consider grabbing their far hip or pants to anchor yourself. The key is removing the elevation space they need while applying counter-pressure to their upper body."
+      },
+      {
+        "question": "What grip should be your highest priority when defending from deep half guard top?",
+        "answer": "Crossface control should be your highest priority grip. Whether using your forearm across their jaw or shoulder driving into their face, this control limits their ability to look up and generate the rotation needed for sweeps. Without controlling their head and upper body, all other defenses become significantly harder as they can freely adjust angles and time their sweeps."
+      },
+      {
+        "question": "How do you apply pressure correctly from deep half guard top without getting swept?",
+        "answer": "Apply pressure through your shoulder and chest into their upper body, not through your hips into their hips. Keep your hips light and mobile, ready to adjust, while your upper body does the controlling work. Maintain roughly 50/50 weight distribution between your legs with slight forward bias. Never drive all your weight forward as this enables the waiter sweep, and never sit back as this enables the old school sweep."
+      },
+      {
+        "question": "Your opponent momentarily releases their underhook grip - what is your immediate response?",
+        "answer": "The moment they release their underhook, immediately begin extracting your trapped leg while maintaining crossface pressure. Use a circular motion with your knee (up, back, then down and out) rather than pulling straight back. This window is brief so move with urgency but not reckless speed. As your leg clears, transition immediately to side control or knee slide position to complete the pass."
+      },
+      {
+        "question": "How do you manage energy expenditure when stuck in deep half guard top for extended periods?",
+        "answer": "Avoid explosive movements which drain energy and often facilitate sweeps. Instead, apply steady methodical pressure through your crossface while making small incremental adjustments to your base and positioning. Focus on disrupting their grips and controls through sustained pressure rather than burst movements. Remember that time actually favors the bottom player, so work systematically toward extraction rather than waiting indefinitely."
+      },
+      {
+        "question": "Your opponent begins turning toward you underneath as if to take your back - how do you recover?",
+        "answer": "If they're turning to take your back, immediately drive your weight into them and establish a strong whizzer (overhook) on their far arm to prevent the roll. Drop your hips and sprawl slightly to remove their leverage. You may need to accept giving up your leg from their grip to prevent the back take - extract and circle away from their rotation while maintaining the whizzer. Consider switching your hips to face them directly."
+      }
+    ],
+    "decision_tree": [
+      {
+        "condition": "If opponent establishes waiter sweep grip on belt or pants with weight shifted forward",
+        "actions": [
+          {
+            "technique": "Crossface Pass",
+            "target": "Side Control",
+            "probability": 60
+          },
+          {
+            "technique": "Shift weight back and widen base",
+            "target": "Half Guard",
+            "probability": 30
+          }
+        ]
+      },
+      {
+        "condition": "If opponent's head is deep under hip attempting sweep mechanics",
+        "actions": [
+          {
+            "technique": "Shift weight forward and establish crossface",
+            "target": "Half Guard",
+            "probability": 50
+          },
+          {
+            "technique": "Smash Pass",
+            "target": "Side Control",
+            "probability": 40
+          }
+        ]
+      },
+      {
+        "condition": "If opponent loses deep positioning or grip temporarily",
+        "actions": [
+          {
+            "technique": "Half Guard Pass",
+            "target": "Side Control",
+            "probability": 70
+          },
+          {
+            "technique": "Knee Slice Pass",
+            "target": "Side Control",
+            "probability": 60
+          }
+        ]
+      },
+      {
+        "condition": "If opponent overcommits to underhook or exposes arm",
+        "actions": [
+          {
+            "technique": "Kimura from Half Guard",
+            "target": "Kimura Trap",
+            "probability": 50
+          }
+        ]
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Explosive or forceful movements to free trapped leg",
+        "consequence": "Creates off-balancing forces that facilitate sweeps. Opponent uses momentum against you for sweeps, often resulting in being swept to mount or having back taken",
+        "correction": "Remain calm and methodical. Work gradual leg extraction while maintaining proper weight distribution and base. Small, controlled movements rather than explosive ones. Focus on crossface first, then leg extraction"
+      },
+      {
+        "error": "Incorrect weight distribution (too far forward or too far back)",
+        "consequence": "Placing too much weight forward enables waiter sweep; too much weight back enables old school sweep. Poor weight distribution is primary cause of sweeps from deep half top",
+        "correction": "Maintain balanced weight distribution - roughly 50/50 or slight preference forward with proper base. Constantly monitor and adjust based on opponent's sweep attempts. Widen base with free leg to create stability"
+      },
+      {
+        "error": "Allowing opponent to maintain head position deep under hip without pressure",
+        "consequence": "Opponent's head acts as fulcrum for sweep mechanics. Without disrupting this position, all their sweeps become high-percentage",
+        "correction": "Immediately establish crossface or head control to flatten opponent and disrupt their ability to look up. Use forearm or hand to apply pressure on their head, pushing it away from centerline"
+      },
+      {
+        "error": "Narrow base with free leg positioned close to body",
+        "consequence": "Makes you easy to off-balance and sweep. Limited base means any leverage opponent applies will move you",
+        "correction": "Widen base dramatically with free leg, posting it far to the side. Think tripod stance with free leg, trapped leg, and posting hand/arm creating wide stable base"
+      },
+      {
+        "error": "Staying in deep half top too long without systematically working to improve position",
+        "consequence": "Time favors the bottom player in deep half. The longer you stay, the more opportunities they have to perfect their grips and execute sweeps",
+        "correction": "Have systematic escape plan and execute it methodically. Work crossface, base establishment, leg extraction, and pass in sequence. If one path blocked, switch to alternate escape but maintain forward progress"
+      }
+    ],
+    "training_drills": [
+      {
+        "name": "Deep Half Escape Flow Drill",
+        "description": "Partner enters deep half guard while you practice systematic escape sequence: establish crossface, widen base with free leg, shift weight forward slightly, extract trapped leg, and pass to side control. Start slow and focus on proper mechanics. Partner provides moderate resistance. Reset and repeat 10 times per side.",
+        "duration": "5 minutes per side"
+      },
+      {
+        "name": "Weight Distribution Sensitivity Drill",
+        "description": "Partner is in deep half guard and signals which sweep they're setting up (waiter or old school) by tapping your leg. You must adjust weight distribution to counter that specific sweep before they execute it. Develops sensitivity to sweep mechanics and proper defensive weight placement. 20 repetitions per side.",
+        "duration": "8 minutes total"
+      },
+      {
+        "name": "Deep Half Defensive Sparring",
+        "description": "Positional sparring starting in deep half guard top. You work to pass while partner works to sweep. Reset every sweep or pass. Focus on maintaining calm defensive posture and systematic escape rather than explosive movements. 3-minute rounds with 1-minute rest.",
+        "duration": "5 rounds (20 minutes total)"
+      }
+    ],
+    "related_content": [
+      {
+        "name": "Deep Half Guard",
+        "relationship": "Sibling variant - opponent's perspective of same position"
+      },
+      {
+        "name": "Half Guard",
+        "relationship": "Parent position - simpler position to retreat to when deep half is too challenging"
+      },
+      {
+        "name": "Side Control",
+        "relationship": "Primary target position when passing from deep half top"
+      },
+      {
+        "name": "Lockdown",
+        "relationship": "Common entry point for deep half guard bottom"
+      },
+      {
+        "name": "Knee Shield Half Guard",
+        "relationship": "Alternative half guard variation with different defensive mechanics"
+      },
+      {
+        "name": "Headquarters Position",
+        "relationship": "Intermediate position when extracting leg from deep half"
+      },
+      {
+        "name": "Combat Base",
+        "relationship": "Defensive posture used when maintaining base in deep half top"
+      }
+    ],
+    "position_metrics": {
+      "retention_rate": {
+        "value": 60
+      },
+      "advancement_probability": {
+        "value": 60
+      },
+      "submission_probability": {
+        "value": 42
+      },
+      "average_time": "30-90 seconds"
+    },
+    "transitions": [
+      {
+        "transition": "Crossface Pass",
+        "attempt_probability": 33
+      },
+      {
+        "transition": "Knee Slice Pass",
+        "attempt_probability": 9
+      },
+      {
+        "transition": "Smash Pass",
+        "attempt_probability": 15
+      },
+      {
+        "transition": "Half Guard Pass",
+        "attempt_probability": 12
+      },
+      {
+        "transition": "Underhook Pass",
+        "attempt_probability": 9
+      },
+      {
+        "transition": "Kimura from Half Guard",
+        "attempt_probability": 8
+      },
+      {
+        "transition": "Back Step Pass",
+        "attempt_probability": 9
+      },
+      {
+        "transition": "Backstep from Deep Half",
+        "attempt_probability": 3
+      },
+      {
+        "transition": "Whizzer from Deep Half",
+        "attempt_probability": 1
+      },
+      {
+        "transition": "Knee Slice from Deep Half",
+        "attempt_probability": 1
+      }
+    ]
+  },
+  "bottom": {
+    "name": "Deep Half Guard Bottom",
+    "description": "Master Deep Half Guard Bottom with powerful sweeps, back takes, and leverage-based attacks. Success rates: Beginner 30%, Intermediate 50%, Advanced 65%.",
+    "tags": [
+      "bjj",
+      "position",
+      "half-guard",
+      "deep-half",
+      "bottom",
+      "defensive",
+      "sweeps",
+      "leverage"
+    ],
+    "overview": "Deep Half Guard Bottom is an advanced guard position where the bottom player wedges underneath the opponent's hips with deep underhook control of the far leg. This position creates powerful leverage for sweeps and back takes by controlling the opponent's base from below. The bottom player's head is positioned near the opponent's far hip, with their body inverted underneath, creating a stable platform for offensive attacks.\n\nThis position is particularly effective against pressure passers who commit their weight forward, as it uses their momentum against them. The deep underhook of the far leg combined with the wedge created by the bottom player's shoulder and head disrupts the top player's base completely. From here, the bottom player can execute powerful hip-lift sweeps, waiter sweeps, and transitions to the back.\n\nDeep Half Guard Bottom requires excellent hip mobility, core strength, and timing to enter and maintain. While it appears defensive, it is actually a highly offensive position with multiple pathways to dominant positions. The position is a cornerstone of modern no-gi grappling and has been refined into a comprehensive attacking system by elite competitors worldwide.",
+    "state_properties": {
+      "point_value": 0,
+      "position_type": "Defensive with offensive options",
+      "risk_level": "Medium",
+      "energy_cost": "Medium",
+      "time_sustainability": "Medium"
+    },
+    "state_invariants": [
+      "Bottom player's head positioned near opponent's far hip, creating a wedge point with the shoulder pressed against the opponent's inner thigh",
+      "Deep underhook of opponent's far leg with bottom player's arm wrapped around the thigh, controlling the leg close to the body",
+      "Bottom player's body inverted underneath opponent's hips with shoulders and upper back on the mat, legs positioned to create leverage",
+      "Opponent's near leg typically controlled or monitored by bottom player's free hand or legs to prevent step-over passes",
+      "Bottom player's hips mobile and ready to elevate, creating constant pressure on opponent's base and balance"
+    ],
+    "prerequisites": [
+      "Opponent's weight committed forward in top half guard or passing position",
+      "Bottom player able to create space to slide underneath opponent's hips",
+      "Deep underhook established on opponent's far leg before fully committing to position",
+      "Bottom player's head and shoulder creating wedge against opponent's inner thigh",
+      "Hip mobility to invert and maneuver underneath opponent's base"
+    ],
+    "key_principles": [
+      "Maintain deep underhook of far leg at all times - this is the primary control mechanism",
+      "Keep head and shoulder wedged against opponent's inner thigh to disrupt their base",
+      "Stay inverted underneath opponent's hips to maximize leverage for sweeps",
+      "Control or monitor opponent's near leg to prevent step-over escapes",
+      "Use hip elevation and movement to keep opponent off-balance and reactive",
+      "Create angles with body positioning to set up different sweep variations",
+      "Transition quickly when opponent's weight shifts to capitalize on openings"
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "Your opponent establishes strong crossface pressure and begins flattening you - what adjustment do you make?",
+        "answer": "When getting flattened by crossface, immediately focus on maintaining your deep underhook grip as the priority. Use your free hand to frame against their hip or bicep to create space. Shrimp your hips away to create angle and relieve the pressure. If severely flattened, consider transitioning to lockdown to reestablish control, then work back toward proper deep half positioning once you've regained some space."
+      },
+      {
+        "question": "What are the essential grips for maintaining deep half guard bottom position?",
+        "answer": "The essential grips are: deep underhook around opponent's far thigh with your arm wrapped tightly and pulling the leg toward your chest, and your free hand controlling their near hip or pants to monitor their movement. Your head and shoulder wedged against their inner thigh serves as a critical contact point. The underhook is non-negotiable - if you lose it, you lose the position."
+      },
+      {
+        "question": "How do you shut down your opponent's attempt to extract their trapped leg?",
+        "answer": "To prevent leg extraction, constantly pull their far leg toward your chest with your underhook, keeping it tight to your body. Use your bottom leg hook around their far leg as secondary control. When they begin extraction attempts, elevate your hips to keep their weight loaded on you and maintain the mechanical advantage. Follow their leg movement with your body rather than letting them create separation."
+      },
+      {
+        "question": "What grip priority should you focus on when first entering deep half guard?",
+        "answer": "The deep underhook on opponent's far leg is the absolute priority grip when entering. Your shoulder should be against the inside of their thigh with your arm wrapped around and reaching toward their far hip or behind their knee. Without this underhook secured first, the position has no foundation. Secondary priority is positioning your head below their hip line to prevent shoulder pressure."
+      },
+      {
+        "question": "How do you apply constant pressure on your opponent's base from deep half bottom?",
+        "answer": "Apply pressure through continuous hip elevation and movement. Your hips should never be static - constantly make small elevation adjustments to test their balance. Pull their far leg toward you while pushing against their near hip with your free hand, creating opposing forces that destabilize them. Even small movements make it impossible for them to establish solid base for passing."
+      },
+      {
+        "question": "Your opponent begins stepping over your bottom leg with their near leg - what is your immediate response?",
+        "answer": "This step-over attempt actually opens up the rolling back take. As they step over, maintain your underhook and begin rolling underneath them in the same direction they're stepping. Use their step-over momentum to roll through and establish back control. Alternatively, if the back take angle isn't there, use your bottom leg to hook their stepping leg and prevent the step-over while resetting to standard deep half."
+      },
+      {
+        "question": "How do you manage energy when playing deep half guard bottom for extended periods?",
+        "answer": "Deep half bottom is relatively energy efficient because you're using leverage rather than strength. Keep your grips tight but don't over-squeeze - let your body position do the work. Make small frequent adjustments rather than explosive movements. Time your sweep attempts for when opponent shifts their weight, using their movement against them. If fatigued, focus on grip retention and position maintenance until an optimal sweep opportunity presents itself."
+      },
+      {
+        "question": "Your opponent pulls their far leg back, breaking your underhook - how do you recover?",
+        "answer": "If they break your underhook, immediately transition rather than trying to re-enter deep half. Follow their retreating leg into X-Guard or Single Leg X-Guard by hooking their leg with your feet. You can also immediately sit up and pursue a single leg takedown as they back away. The key is not to remain flat without control - either chase the leg into another guard or come up to attack."
+      }
+    ],
+    "decision_tree": [
+      {
+        "condition": "If opponent drives weight forward with heavy crossface pressure",
+        "actions": [
+          {
+            "technique": "Waiter Sweep",
+            "target": "Mount",
+            "probability": 65
+          },
+          {
+            "technique": "Old School Sweep",
+            "target": "Side Control",
+            "probability": 60
+          }
+        ]
+      },
+      {
+        "condition": "If opponent tries to step over near leg to escape",
+        "actions": [
+          {
+            "technique": "Rolling Back Take",
+            "target": "Back Control",
+            "probability": 70
+          },
+          {
+            "technique": "X-Guard Sweep",
+            "target": "Standing Position",
+            "probability": 55
+          }
+        ]
+      },
+      {
+        "condition": "If opponent whizzers far arm to prevent sweeps",
+        "actions": [
+          {
+            "technique": "Electric Chair Submission",
+            "target": "Electric Chair",
+            "probability": 50
+          },
+          {
+            "technique": "Deep Half Entry",
+            "target": "Back Control",
+            "probability": 45
+          }
+        ]
+      },
+      {
+        "condition": "If opponent pulls far leg back to escape underhook",
+        "actions": [
+          {
+            "technique": "X-Guard Sweep",
+            "target": "Standing Position",
+            "probability": 65
+          },
+          {
+            "technique": "Underhook Sweep from Half",
+            "target": "Half Guard",
+            "probability": 55
+          }
+        ]
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Losing deep underhook of far leg by allowing opponent to pull leg back",
+        "consequence": "Loss of primary control mechanism, making sweeps impossible and allowing easy pass",
+        "correction": "Maintain tight grip on far leg with arm wrapped deep around thigh, constantly pulling opponent's leg toward your chest"
+      },
+      {
+        "error": "Staying flat on back instead of inverted underneath opponent",
+        "consequence": "Reduced leverage for sweeps, easier for opponent to apply crossface pressure and pass",
+        "correction": "Keep shoulders and upper back on mat with hips elevated, body inverted underneath opponent's center of gravity"
+      },
+      {
+        "error": "Failing to control or monitor opponent's near leg",
+        "consequence": "Opponent can easily step over near leg and pass to mount or side control",
+        "correction": "Use free hand or legs to control opponent's near leg, preventing step-over escapes"
+      },
+      {
+        "error": "Remaining static without creating movement and angles",
+        "consequence": "Opponent can establish stable base and defend sweeps easily",
+        "correction": "Constantly shift hips, elevate, and create angles to keep opponent off-balance and reactive"
+      },
+      {
+        "error": "Attempting sweeps without proper setup or timing",
+        "consequence": "Failed sweep attempts expose back and allow opponent to pass easily",
+        "correction": "Wait for opponent to commit weight or react to feints before executing sweeps with proper leverage"
+      }
+    ],
+    "training_drills": [
+      {
+        "name": "Deep Half Entry Repetitions",
+        "description": "Partner starts in top half guard with forward pressure. Practice sliding underneath and establishing deep underhook, head position, and inverted body placement. Focus on smooth entry mechanics and maintaining tight underhook throughout.",
+        "duration": "5 minutes per side"
+      },
+      {
+        "name": "Sweep Chain Drill",
+        "description": "From established deep half guard bottom, partner defends one sweep attempt forcing transition to another sweep option. Practice linking Waiter Sweep to Old School Sweep to Rolling Back Take in response to opponent's defensive reactions.",
+        "duration": "6 minutes continuous flow"
+      },
+      {
+        "name": "Positional Sparring from Deep Half",
+        "description": "Start in deep half guard bottom position. Bottom player works to sweep or take back while top player attempts to pass. Reset to deep half after each successful sweep or pass. Emphasize maintaining underhook control and creating angles.",
+        "duration": "3 minute rounds, 4-6 rounds"
+      }
+    ],
+    "related_content": [
+      {
+        "name": "Deep Half Guard",
+        "relationship": "Sibling variant - opponent's perspective of same position"
+      },
+      {
+        "name": "Half Guard",
+        "relationship": "Parent position - traditional half guard before deep underhook"
+      },
+      {
+        "name": "X-Guard",
+        "relationship": "Common transition target when opponent defends deep half"
+      },
+      {
+        "name": "Back Control",
+        "relationship": "Primary advancement target via rolling back take"
+      },
+      {
+        "name": "Electric Chair",
+        "relationship": "Direct submission option from deep half guard"
+      },
+      {
+        "name": "Lockdown",
+        "relationship": "Alternative half guard bottom variation with different control"
+      },
+      {
+        "name": "Single Leg X-Guard",
+        "relationship": "Transition option when opponent pulls leg back"
+      },
+      {
+        "name": "Waiter Sweep",
+        "relationship": "Primary sweep option from deep half"
+      }
+    ],
+    "position_metrics": {
+      "retention_rate": {
+        "value": 68
+      },
+      "advancement_probability": {
+        "value": 58
+      },
+      "submission_probability": {
+        "value": 30
+      },
+      "average_time": "45-90 seconds before sweep or pass attempt"
+    },
+    "transitions": [
+      {
+        "transition": "Waiter Sweep",
+        "attempt_probability": 14
+      },
+      {
+        "transition": "Old School Sweep",
+        "attempt_probability": 41
+      },
+      {
+        "transition": "Rolling Back Take",
+        "attempt_probability": 11
+      },
+      {
+        "transition": "Electric Chair Submission",
+        "attempt_probability": 6
+      },
+      {
+        "transition": "Underhook Sweep from Half",
+        "attempt_probability": 9
+      },
+      {
+        "transition": "X-Guard Sweep",
+        "attempt_probability": 10
+      },
+      {
+        "transition": "Single Leg X Entry",
+        "attempt_probability": 6
+      },
+      {
+        "transition": "Deep Half Sweep",
+        "attempt_probability": 2
+      },
+      {
+        "transition": "Deep Half to X-Guard",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Electric Chair Entry from Deep Half",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Homer Simpson Sweep",
+        "attempt_probability": 1
+      }
+    ]
+  }
+}

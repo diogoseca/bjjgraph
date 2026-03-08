@@ -1,0 +1,391 @@
+{
+  "name": "Lasso Guard to Inverted Lasso Guard",
+  "description": "Master the transition to inverted lasso guard in BJJ. Learn inversion mechanics, grip retention, timing cues, and how to chain berimbolo entries from lasso.",
+  "tags": [
+    "lasso guard",
+    "inverted guard",
+    "guard transition",
+    "sport jiu-jitsu",
+    "inversion",
+    "berimbolo setup",
+    "gi guard",
+    "advanced guard"
+  ],
+  "from_position": "Lasso Guard/Bottom",
+  "outcomes": [
+    {
+      "to": "Inverted Lasso Guard/Bottom",
+      "probability": 70,
+      "result": "success"
+    },
+    {
+      "to": "Lasso Guard/Bottom",
+      "probability": 20,
+      "result": "failure"
+    },
+    {
+      "to": "Open Guard/Bottom",
+      "probability": 10,
+      "result": "counter"
+    }
+  ],
+  "success_rate": 55,
+  "overview": "The Transition to Inverted Lasso Guard converts standard lasso guard into its inverted variation by rolling backwards onto the shoulders while maintaining the lasso hook and sleeve grip. This movement fundamentally changes the angle of control, converting horizontal pulling force into rotational momentum that dramatically increases sweep and back take potential. The inversion is not a separate position entry but rather a dynamic extension of existing lasso mechanics, making it accessible to any practitioner already comfortable with standard lasso guard.\n\nThe transition exploits a specific timing window that occurs when the top player commits weight forward to address the lasso or attempts to break the sleeve grip. Their forward pressure actually assists the backwards roll, creating a situation where the opponent's own energy fuels the technique. Conversely, attempting the inversion against a disengaged opponent who has created distance typically fails because there is insufficient connection to maintain the lasso through the roll.\n\nStrategically, this transition serves as the gateway to the most dynamic attacks available from lasso guard. Once inverted, the bottom player threatens berimbolo back takes, overhead sweeps, kiss of the dragon sequences, and various submission entries that are geometrically unavailable from upright lasso. The top player faces a dilemma: address the inversion early and potentially open themselves to standard lasso sweeps, or allow the inversion and face the amplified threat set. This decision pressure is what makes the transition to inverted lasso a cornerstone of modern competition guard play.",
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Rolling Inversion Entry",
+      "description": "A full backwards roll that uses momentum to carry the practitioner completely onto their shoulders in one fluid motion. The roll initiates from a hip bump movement that transitions into the inversion when the opponent posts or resists. Requires the most space and commitment but produces the strongest initial angle for berimbolo entries.",
+      "when_to_use": "When the opponent is in a high posture and you have space behind you to complete the roll without obstruction."
+    },
+    {
+      "variant_name": "Hip Switch Inversion",
+      "description": "A more controlled entry where the bottom player switches their hips to the opposite side before inverting, creating an angular change that precedes the full inversion. This two-step process is slower but maintains tighter lasso control throughout and is harder for the top player to predict or counter because the initial hip switch resembles a standard sweep setup.",
+      "when_to_use": "When the opponent is pressuring forward heavily and there is insufficient space for a full rolling entry. The hip switch creates the angle needed without requiring a complete backwards roll."
+    },
+    {
+      "variant_name": "Spider Guard to Inverted Lasso",
+      "description": "Begins from spider guard with both feet on biceps, then threads one leg into the lasso while simultaneously initiating the inversion. This combines the lasso entry and the inversion into a single compound movement, catching opponents off guard because the position change happens in one motion rather than two distinct steps.",
+      "when_to_use": "When playing spider guard against an opponent who is successfully breaking your bicep controls. The rapid transition to inverted lasso creates an entirely new positional problem before they can adjust."
+    }
+  ],
+  "position_integration": "The transition to inverted lasso guard occupies a critical junction in the modern open guard system. It connects standard lasso guard to the entire berimbolo and inversion game, serving as the bridge between traditional sleeve-based control and dynamic rotational attacks. Without this transition, lasso guard remains limited to horizontal sweep vectors and direct submission entries. With it, the bottom player gains access to the full spectrum of angular attacks that define elite-level sport guard play. The technique also creates natural fallback paths: a failed inversion returns to standard lasso, while a countered attempt still leaves the bottom player in open guard rather than conceding a pass. This low-risk, high-reward profile makes it a fundamental addition to any serious lasso guard game.",
+  "conditions": [
+    "Lasso hook is fully established with shin threaded across the opponent's arm and foot crossing their back",
+    "Same-side sleeve grip is secure with strong connection that can withstand the inversion movement",
+    "Opponent's weight is forward or neutral, not disengaged at distance",
+    "Sufficient mat space exists behind the bottom player for the backwards roll",
+    "Bottom player's hips are mobile and not pinned by the opponent's pressure"
+  ],
+  "related_content": [
+    {
+      "name": "Lasso Guard",
+      "relationship": "Starting position - standard lasso guard provides the foundation grips and hooks for the inversion entry"
+    },
+    {
+      "name": "Inverted Lasso Guard",
+      "relationship": "Target position - the inverted variation reached upon successful completion of this transition"
+    },
+    {
+      "name": "Berimbolo Entry",
+      "relationship": "Primary follow-up technique - inverted lasso creates ideal angles for berimbolo back take sequences"
+    },
+    {
+      "name": "Spider Guard",
+      "relationship": "Alternative entry point - spider guard positions can transition directly to inverted lasso through compound movement"
+    },
+    {
+      "name": "Inverted Guard",
+      "relationship": "Related movement pattern - shares inversion mechanics and shoulder-based weight distribution principles"
+    },
+    {
+      "name": "Kiss of the Dragon",
+      "relationship": "Chain technique - inverted lasso naturally flows into kiss of the dragon back take when opponent defends berimbolo"
+    },
+    {
+      "name": "Lasso Guard Pass",
+      "relationship": "Opponent's primary counter - understanding pass mechanics informs optimal inversion timing"
+    },
+    {
+      "name": "De La Riva Guard",
+      "relationship": "Complementary guard system - shares similar inversion pathways and can be combined with lasso in hybrid sequences"
+    }
+  ],
+  "attacker": {
+    "name": "Lasso Guard to Inverted Lasso Guard Attacker",
+    "description": "How to execute the transition to inverted lasso guard. Step-by-step inversion mechanics, grip retention, timing, and training methods for lasso inversion.",
+    "overview": "Executing the transition to inverted lasso guard requires coordinating grip retention, hip movement, and momentum generation into a single fluid motion. The attacker (bottom player) must maintain the structural integrity of their lasso hook throughout a backwards roll that fundamentally changes the angle of engagement. This is not a strength-based movement but a timing and mechanics-based technique where the opponent's own pressure and reactions provide the energy needed for the inversion. The critical skill is learning to roll without losing tension on the lasso or sleeve grip, which demands specific body coordination that only develops through deliberate practice.",
+    "key_principles": [
+      "Maintain continuous lasso hook tension throughout the entire inversion - any momentary slack allows arm extraction and destroys the transition",
+      "Use the opponent's forward pressure as the catalyst for the backwards roll rather than generating all momentum independently",
+      "Roll diagonally across your shoulder blade toward the lasso side, not straight backwards, to maintain optimal angle and connection",
+      "Keep the sleeve grip pulling toward your chest during the roll to prevent the opponent from creating distance",
+      "Initiate the inversion with a hip movement, not an upper body pull - the hips lead and the torso follows",
+      "Commit fully to the roll once initiated - hesitation mid-inversion creates a vulnerable half-inverted position with no offensive threat",
+      "Transition through the inversion quickly and immediately establish attacking angle rather than holding the inverted position statically"
+    ],
+    "setup_requirements": [
+      "Established lasso hook with shin pressed firmly across the opponent's tricep and foot crossing behind their shoulder or lat",
+      "Secure same-side sleeve grip with palm-up control that can withstand the rotational forces of the inversion",
+      "Hips angled perpendicular to the opponent to create the diagonal rolling path needed for smooth inversion",
+      "Non-lasso leg posted on the opponent's hip or actively controlling their base to prevent them from stepping around during the roll",
+      "Opponent's weight committed forward or at least neutral - attempting inversion against a disengaged opponent who has created distance will fail"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Confirm lasso integrity and grip security",
+        "description": "Before initiating the inversion, verify that your lasso hook is deeply threaded with your shin pressing firmly against the opponent's tricep and your foot crossing their back. Confirm your sleeve grip is strong with a palm-up hold. Pull the sleeve grip toward your chest to take up any slack in the system. If either the hook or grip feels compromised, reset them before attempting the inversion."
+      },
+      {
+        "step_number": 2,
+        "action": "Angle hips and establish rolling path",
+        "description": "Rotate your hips so they face approximately 45 degrees toward the lasso side rather than pointing straight at the ceiling. This angling creates the diagonal rolling path across your shoulder blade that allows smooth inversion while maintaining connection. Your non-lasso leg should be posted on the opponent's hip to control distance and prevent them from stepping around during the transition."
+      },
+      {
+        "step_number": 3,
+        "action": "Initiate the backwards roll with hip elevation",
+        "description": "Drive your hips upward and backward, leading with the hip on the lasso side. Do not pull with your arms or shoulders - the inversion begins from the hips. Think of curling your pelvis toward your chest while rolling diagonally across the shoulder blade on the lasso side. This initial movement should be decisive and committed, not tentative."
+      },
+      {
+        "step_number": 4,
+        "action": "Roll onto shoulders while maintaining lasso tension",
+        "description": "As your hips rise and rotate backwards, your weight transfers from your lower back to your shoulder blades. Throughout this roll, maintain constant pulling pressure on the lasso hook by keeping your shin extended and your foot hooked behind their shoulder. The sleeve grip pulls continuously toward your chest. Your chin tucks to your chest to protect the neck and ensure weight lands on the broad surface of your upper back, never on the cervical spine."
+      },
+      {
+        "step_number": 5,
+        "action": "Establish inverted base with hips elevated",
+        "description": "Once on your shoulders, elevate your hips by engaging your core and pressing through your shoulder blades. Your weight should be distributed across both shoulder blades with your hips mobile and elevated above your chest level. The lasso hook now pulls downward using your entire body weight rather than just leg strength, dramatically increasing the leverage on the opponent's trapped arm."
+      },
+      {
+        "step_number": 6,
+        "action": "Position free leg for immediate attack",
+        "description": "With the inversion established, immediately deploy your free (non-lasso) leg into an attacking position. Post it on the opponent's hip to control their base, or begin threading it behind their back to set up berimbolo entries. The free leg must be active from the moment the inversion completes - leaving it passive eliminates your primary offensive tool and allows the opponent to settle into defensive positioning."
+      },
+      {
+        "step_number": 7,
+        "action": "Initiate attack or return to upright guard",
+        "description": "Within 2-3 seconds of completing the inversion, either commit to an attacking technique (berimbolo, overhead sweep, kiss of the dragon) or smoothly return to upright lasso guard. Do not hold the inverted position statically. If the opponent has already begun countering with pressure on your shoulders or hip control, return to upright guard immediately and re-attempt the inversion when a better window presents itself."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Opponent drives forward pressure onto inverted shoulders to pin hips and prevent rotation",
+        "effectiveness": "High",
+        "your_response": "If caught with hips pinned, immediately abandon the inversion and return to upright lasso guard rather than fighting from a compromised position. Use the lasso hook to create a frame that prevents full pressure, then hip escape back to standard guard.",
+        "targets_outcome": "Lasso Guard/Bottom"
+      },
+      {
+        "counter": "Opponent strips sleeve grip during the roll by explosively pulling their arm back",
+        "effectiveness": "Medium",
+        "your_response": "If sleeve grip breaks mid-inversion, immediately transition to inverted guard or recover to open guard. Do not continue the inversion without sleeve control as it eliminates all subsequent attack options and leaves you exposed.",
+        "targets_outcome": "Open Guard/Bottom"
+      },
+      {
+        "counter": "Opponent steps over the lasso leg during the inversion transition to extract their arm",
+        "effectiveness": "High",
+        "your_response": "Recognize the step-over early and convert to a different attack before the extraction completes. The step-over motion often exposes their back - use your free leg to hook their far hip and follow their rotation to take the back, or abandon the inversion and attack with an omoplata on the stepping leg.",
+        "targets_outcome": "Lasso Guard/Bottom"
+      },
+      {
+        "counter": "Opponent creates distance by backing away as inversion initiates, denying the connection needed for the roll",
+        "effectiveness": "Medium",
+        "your_response": "If the opponent creates distance, the inversion will lack power and connection. Return to standard lasso guard and use the lasso hook to pull them back into range before re-attempting. Alternatively, transition to De La Riva or single leg X entries that work at longer range.",
+        "targets_outcome": "Lasso Guard/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Rolling straight backwards instead of diagonally across the shoulder blade toward the lasso side",
+        "consequence": "Straight backwards rolling creates slack in the lasso as your body moves away from the connection point, allowing the opponent to extract their arm and pass during the transition",
+        "correction": "Angle your hips 45 degrees toward the lasso side before initiating and roll diagonally across the corresponding shoulder blade to maintain constant tension throughout the movement"
+      },
+      {
+        "error": "Initiating the inversion with an upper body pull rather than a hip-driven movement",
+        "consequence": "Arm-initiated inversions are slow, telegraph the technique, and strain the grip connection. The opponent easily recognizes the attempt and counters with forward pressure or grip breaks",
+        "correction": "Lead every inversion with hip elevation and rotation. The arms maintain existing grip tension but do not generate the primary movement force. Think of curling the pelvis toward the chest as the initiating action"
+      },
+      {
+        "error": "Releasing lasso hook tension momentarily during the transition between upright and inverted positions",
+        "consequence": "Even a brief moment of slack allows the opponent to retract their arm, completely negating the inversion and often resulting in a guard pass as you end up inverted without any control",
+        "correction": "Practice maintaining continuous shin pressure against the opponent's arm throughout the roll. The hook should feel like it tightens during the inversion, not loosens, because your body weight now assists the pulling force"
+      },
+      {
+        "error": "Landing weight on the neck instead of distributing across the shoulder blades",
+        "consequence": "Creates dangerous cervical spine compression that risks serious injury and eliminates the hip mobility needed for any subsequent attack from the inverted position",
+        "correction": "Tuck the chin firmly to the chest before initiating the roll, and aim to land across both shoulder blades with a wide base of support. If you feel neck pressure, your rolling path is too central - increase the diagonal angle"
+      },
+      {
+        "error": "Hesitating mid-inversion and ending up in a half-inverted position without commitment",
+        "consequence": "A half-inverted position offers neither the control of upright lasso nor the attacking angles of full inversion. The opponent can easily apply pressure to complete a pass against this compromised posture",
+        "correction": "Commit fully to the inversion once you initiate. If conditions change mid-roll, complete the inversion and immediately return to upright guard rather than stopping in the vulnerable halfway point"
+      },
+      {
+        "error": "Attempting the inversion when the opponent has already created significant distance and disengaged",
+        "consequence": "Without the opponent's forward pressure and proximity, the inversion lacks the connection needed to maintain the lasso. The roll completes but the opponent simply steps away and passes the now-disconnected guard",
+        "correction": "Only initiate the inversion when the opponent is engaged with forward or neutral weight. If they have created distance, use standard lasso mechanics to pull them back into range before attempting the transition"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Solo Inversion Mechanics",
+        "focus": "Body movement and weight distribution",
+        "description": "Practice backwards shoulder rolls on the mat without a partner, focusing on landing across shoulder blades with chin tucked and hips elevated. Simulate maintaining grip position with hands throughout the roll. Build comfort with the inverted position and develop the core strength needed to control hip elevation. Perform 20-30 repetitions per session until the rolling path feels natural."
+      },
+      {
+        "phase": "Partner Drilling with Cooperative Resistance",
+        "focus": "Grip retention through inversion",
+        "description": "With a partner in kneeling position, establish full lasso guard and practice the inversion at slow speed while the partner remains still. The sole focus is maintaining lasso hook tension and sleeve grip throughout the roll. Partner provides feedback on when they feel the lasso loosen. Repeat until you can complete 10 consecutive inversions without any grip slippage."
+      },
+      {
+        "phase": "Timing and Trigger Recognition",
+        "focus": "Identifying the optimal moment to invert",
+        "description": "Partner moves naturally from lasso guard top position, varying between forward pressure, standing up, grip fighting, and creating distance. Bottom player identifies the correct timing window and initiates inversion only when conditions are optimal. Partner does not counter the inversion but provides realistic movement patterns. Develop the ability to recognize triggers within 1-2 seconds."
+      },
+      {
+        "phase": "Live Positional Sparring",
+        "focus": "Full application against progressive resistance",
+        "description": "Begin each round in established lasso guard with the partner actively working to pass. Attempt the inversion when opportunities arise, chaining with berimbolo, overhead sweep, or return to upright guard based on the opponent's reactions. Start at 50% resistance and progress to full competition intensity over multiple sessions. Track inversion completion rate to measure progress."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the optimal timing window for initiating the transition to inverted lasso guard?",
+        "answer": "The optimal window occurs when the opponent commits forward pressure toward your guard or is in a neutral weight position while engaging with grips. Their forward momentum assists the backwards roll and ensures sufficient connection for maintaining the lasso through the inversion. Attempting the transition when the opponent has disengaged and created distance will fail because there is insufficient connection to keep the lasso tight during the roll. Watch for moments when they drive into you, attempt grip breaks, or try to establish passing grips - these actions create the forward weight commitment that makes the inversion most effective."
+      },
+      {
+        "question": "Why must the inversion roll travel diagonally across the shoulder blade rather than straight backwards?",
+        "answer": "A diagonal roll toward the lasso side maintains constant tension on the lasso hook throughout the movement because your body stays close to the connection point on the opponent's arm. Rolling straight backwards pulls your body away from the trapped arm, creating momentary slack that allows the opponent to retract their arm and escape the lasso entirely. The diagonal path also produces a better final angle for berimbolo entries and overhead sweeps because your hips end up oriented toward the opponent's centerline rather than pointing away from them."
+      },
+      {
+        "question": "Your opponent posts their free hand on the mat as you begin inverting. How should you adjust?",
+        "answer": "A posted hand indicates the opponent is trying to establish base against your inversion. This is actually an offensive opportunity - their posted arm is now weight-bearing and temporarily unable to defend. Continue the inversion and use your free leg to hook behind their posted-arm side, initiating a berimbolo entry. The posted hand roots them to that spot, making the rotational back take more effective. Alternatively, if their post is directly on your body, redirect your inversion angle slightly to move away from the post and complete the transition on the other side of their arm."
+      },
+      {
+        "question": "What grip configuration must be maintained throughout the inversion, and what happens if the sleeve grip breaks mid-roll?",
+        "answer": "You must maintain a palm-up sleeve grip on the same side as the lasso hook, pulling continuously toward your chest to keep the system under tension. If the sleeve grip breaks mid-roll, the entire inversion loses its offensive potential because you cannot control the opponent's arm trajectory or prevent them from retracting the lassoed limb. In this scenario, do not continue fighting for the inversion. Immediately recover to open guard by using your legs to create distance and re-establish grips from a stable position. Continuing inverted without sleeve control leaves you exposed with no guard retention."
+      },
+      {
+        "question": "What is the most critical mechanical detail that determines whether the lasso hook tightens or loosens during the inversion?",
+        "answer": "The shin must maintain continuous pressing contact against the opponent's tricep throughout the roll, with the foot hooked behind their shoulder or lat. During a properly executed inversion, the lasso should actually tighten because your body weight now assists the downward pulling force on the hook. The critical mechanical detail is keeping the lasso leg extended and the shin actively pressing outward against the arm during the roll. If you allow the leg to bend or retract toward your body during the transition, the hook loosens and the opponent can extract their arm. Think of the lasso leg as a rigid lever that the inversion amplifies."
+      },
+      {
+        "question": "What are the primary differences between the rolling inversion entry and the hip switch inversion entry?",
+        "answer": "The rolling inversion is a full backwards roll using momentum to carry you onto the shoulders in one fluid motion. It requires more space behind you but produces the strongest initial angle for immediate berimbolo entries. The hip switch inversion is a two-step process where you first rotate your hips to the opposite side before inverting, creating an angular change that precedes the full roll. The hip switch is slower but maintains tighter lasso control throughout and works when the opponent is applying heavy forward pressure that would block a full rolling entry. The hip switch also disguises the inversion because the initial movement looks like a standard sweep setup."
+      },
+      {
+        "question": "Your opponent begins stepping over your lasso leg as you initiate the inversion. What is your best response?",
+        "answer": "The step-over during inversion is one of the highest-effectiveness counters because it directly addresses the lasso hook. Recognize it immediately and abandon the inversion path. Instead, use the fact that the opponent is mid-step and has committed weight to one leg. Hook their far hip with your free leg and follow their stepping rotation to take the back, converting their counter into a back take opportunity. If the step-over is too far advanced for a back take, immediately transition to an omoplata attempt on the stepping leg, which is now extended and vulnerable due to the stepping motion."
+      },
+      {
+        "question": "How long should you remain in the inverted position after completing the transition, and why?",
+        "answer": "Maximum 2-3 seconds. The inverted position is transitional, not a holding position. Staying inverted longer than necessary drains energy rapidly because you are supporting your weight on the shoulders while maintaining elevated hips and constant lasso tension. Extended inversion also gives the opponent time to establish counter-grips, apply shoulder pressure, and adapt to your limited positional options. The goal is to use the inverted angle to immediately initiate a technique - berimbolo, overhead sweep, or kiss of the dragon - and then either complete it or return to upright lasso guard where energy expenditure is lower."
+      }
+    ],
+    "safety_considerations": "The primary safety concern is cervical spine protection during the backwards roll. Always tuck the chin firmly to the chest before initiating the inversion and ensure weight lands across the shoulder blades, never on the neck. If you feel neck compression at any point, immediately abandon the technique and return to upright guard. Practitioners with existing neck injuries or limited cervical mobility should consult with their instructor before training this transition. Additionally, the lasso hook creates significant torque on the opponent's shoulder joint during the inversion - apply the movement smoothly rather than explosively to avoid injuring your training partner's shoulder. During drilling, communicate with your partner about the intensity of the lasso pressure."
+  },
+  "defender": {
+    "name": "Lasso Guard to Inverted Lasso Guard Defender",
+    "description": "How to defend the transition to inverted lasso guard. Recognition cues, counter-timing, grip breaks, and pressure strategies to prevent lasso inversion.",
+    "overview": "Defending the transition to inverted lasso guard requires early recognition and decisive action within a narrow timing window. As the top player caught in lasso guard, your primary vulnerability is the moment the bottom player initiates the backwards roll that converts their horizontal control into rotational momentum. Once the inversion completes and they establish an elevated hip position on their shoulders, your defensive options narrow dramatically and you face berimbolo, overhead sweep, and submission threats from multiple angles. The key defensive principle is disrupting the inversion during the transition rather than trying to counter the fully established inverted position. This means developing pattern recognition for the hip movement and weight shift that precede the roll, then applying the appropriate counter within 1-2 seconds of recognition.",
+    "key_principles": [
+      "Recognize inversion initiation cues immediately - the defensive window closes within 1-2 seconds of the bottom player beginning their backwards roll",
+      "Maintain forward pressure angle that prevents the backwards roll without feeding into sweep mechanics",
+      "Control the opponent's hips with your free hand to restrict the elevation and rotation needed for successful inversion",
+      "Address the sleeve grip and lasso hook systematically before the opponent has time to set up the inversion",
+      "Stay connected rather than creating distance when you detect inversion attempts - space allows re-setting with better angles",
+      "Keep your base wide and mobile so you can follow rotational movement with counter-rotation rather than being pulled over"
+    ],
+    "recognition_cues": [
+      "Bottom player angles their hips 45 degrees toward the lasso side, shifting from a square position to a diagonal alignment that creates the rolling path",
+      "You feel a sudden upward and backward pull on your trapped arm as the bottom player's hips begin to elevate and curl toward their chest",
+      "The bottom player's non-lasso leg disengages from your hip and repositions, either tucking underneath them or loading for a push that assists the roll",
+      "The bottom player's head and shoulders begin dropping backward and away from you as they initiate the backwards roll onto their shoulder blades"
+    ],
+    "defensive_options": [
+      {
+        "action": "Drive forward hip pressure onto the bottom player's chest and shoulders before the inversion completes to pin their hips to the mat",
+        "when_to_use": "Immediately upon recognizing the hip elevation that initiates the inversion, before the roll gains momentum",
+        "targets_outcome": "Lasso Guard/Bottom",
+        "if_successful": "Bottom player cannot complete inversion and returns to standard lasso guard where you can resume systematic passing",
+        "risk": "If timed late and they have already established inverted angle, your forward pressure feeds directly into their overhead sweep mechanics"
+      },
+      {
+        "action": "Strip the sleeve grip by explosively pulling your arm back while their grip is stressed by the rotational forces of the inversion attempt",
+        "when_to_use": "During the transition moment when the bottom player's grip is under maximum stress from maintaining connection through the roll",
+        "targets_outcome": "Open Guard/Bottom",
+        "if_successful": "Without sleeve control the lasso loses all offensive potential and you can pass the now-disconnected open guard",
+        "risk": "Explosive pulling can fail against a strong grip and the motion may create the momentum the bottom player needs to complete the inversion"
+      },
+      {
+        "action": "Step over the lasso leg during the inversion to extract your trapped arm from the lasso hook entirely",
+        "when_to_use": "When the inversion is beginning but the bottom player has not yet fully committed to the roll and their hip angle has not closed",
+        "targets_outcome": "Open Guard/Bottom",
+        "if_successful": "Complete extraction of your arm eliminates the lasso position entirely, returning to neutral open guard passing",
+        "risk": "The step-over temporarily removes one leg from base and if the bottom player recognizes it early, they can switch to back take or omoplata on the stepping leg"
+      },
+      {
+        "action": "Follow the inversion rotation with a cartwheel or counter-rotation that matches the bottom player's movement and lands you in a dominant position",
+        "when_to_use": "When the inversion has progressed too far to prevent with pressure and the bottom player has committed to berimbolo rotation",
+        "targets_outcome": "Lasso Guard/Bottom",
+        "if_successful": "Your counter-rotation neutralizes their angular advantage and can lead to back control or side control as you follow their movement",
+        "risk": "Requires precise timing and comfort with acrobatic movement. Mistiming the cartwheel can result in being swept or giving up the back"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Lasso Guard/Bottom",
+        "how": "Apply immediate forward hip pressure when you detect the hip elevation that signals inversion, pinning the bottom player's hips to the mat before the roll gains momentum. This returns the position to standard lasso guard where you can continue methodical passing without the amplified inversion threats."
+      },
+      {
+        "outcome": "Open Guard/Bottom",
+        "how": "Target the sleeve grip during the transition moment when rotational forces stress the connection. A well-timed grip strip combined with arm extraction as the bottom player rolls breaks the entire lasso system and leaves them in open guard without their primary control mechanism, giving you a clean passing opportunity."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Reacting to the inversion only after it is fully established with the bottom player on their shoulders and hips elevated",
+        "consequence": "All defensive options become significantly harder once the inversion completes. You now face berimbolo, overhead sweep, and submission threats simultaneously from an opponent with geometric advantage",
+        "correction": "Develop recognition of the early cues - hip angling, upward pull on trapped arm, head dropping backward - and respond within 1-2 seconds of detecting the inversion initiation rather than waiting for completion"
+      },
+      {
+        "error": "Creating distance by stepping backward when the inversion begins rather than maintaining connection",
+        "consequence": "Space allows the bottom player to complete the inversion with better angles and then thread their free leg for berimbolo entries unimpeded. Distance also enables them to reset and re-attempt with improved positioning",
+        "correction": "Stay connected with strategic hip pressure and free-hand hip control. Your proximity limits their ability to generate the rotational momentum needed for effective inverted attacks"
+      },
+      {
+        "error": "Driving forward pressure directly into the inverted opponent's hips after the inversion has already completed",
+        "consequence": "Forward pressure into elevated hips feeds directly into overhead sweep mechanics. Your momentum compounds with their rotational force, making the sweep nearly unstoppable",
+        "correction": "Angle pressure toward their shoulders and upper chest rather than their hips. Keep your own hips back and base wide to prevent your center of gravity from moving over the opponent's fulcrum point"
+      },
+      {
+        "error": "Attempting to forcefully rip the trapped arm free with explosive pulling during the inversion",
+        "consequence": "The lasso structure creates mechanical advantage that increases under sudden force, similar to a finger trap. Explosive pulling typically fails and the momentum can assist the bottom player's inversion",
+        "correction": "Extract the arm systematically: first control their free leg to limit their options, then address the ankle grip on your lassoed arm to create slack, and finally withdraw the arm in a controlled manner once slack exists"
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What are the earliest visual and tactile cues that indicate the bottom player is about to transition to inverted lasso guard?",
+        "answer": "The earliest cues are: the bottom player angles their hips approximately 45 degrees toward the lasso side (creating their rolling path), you feel an upward and backward pull on your trapped arm as their hips begin to elevate, their non-lasso leg disengages from your hip and repositions to assist the roll, and their head and shoulders begin dropping backward. The hip angling is typically the very first indicator and occurs 1-2 seconds before the roll itself, providing the critical window for defensive response."
+      },
+      {
+        "question": "Why is maintaining connection more effective than creating distance when defending the inversion attempt?",
+        "answer": "Creating distance allows the bottom player to complete the inversion with superior angles and then freely deploy their free leg for berimbolo entries without obstruction. Space also enables them to generate more rotational momentum because there is no resistance during the rolling phase. Staying connected with strategic pressure points limits their hip mobility and prevents the rotation that makes inverted lasso dangerous. Your proximity means their movement is restricted, and any technique they attempt must overcome your structural resistance rather than rotating freely through open space."
+      },
+      {
+        "question": "The bottom player has completed the inversion and is now on their shoulders with hips elevated. What is the most dangerous mistake you can make at this point?",
+        "answer": "The most dangerous mistake is driving forward pressure directly into their elevated hips. When the bottom player is inverted with hips elevated, their position functions as a fulcrum - any forward pressure you apply gets redirected into rotational momentum that drives an overhead sweep. Your weight and forward drive become the energy source for their technique. Instead, angle pressure toward their shoulders and chest while keeping your hips back and base wide. This puts weight on their less mobile points without creating the lever arm they need for the sweep."
+      },
+      {
+        "question": "What determines whether you should attempt arm extraction versus applying pressure to prevent the inversion?",
+        "answer": "Timing determines the choice. If you detect the inversion in its earliest phase (hip angling, before the roll begins), forward hip pressure is the most reliable counter because it prevents the inversion entirely. If the roll has already begun but is not yet complete, the transition moment stresses the sleeve grip and creates an extraction opportunity - the rotational forces make the grip harder to maintain. If the inversion is fully complete, neither option is optimal and you should focus on counter-rotation or cartwheel passing instead. The key is matching your defensive response to the phase of the inversion you are facing."
+      },
+      {
+        "question": "How does the step-over defense work, and what risk does it carry?",
+        "answer": "The step-over defense involves lifting your lassoed-side leg over the bottom player's lasso leg during the early inversion phase to extract your arm from the hook entirely. It eliminates the lasso position completely, returning to neutral open guard. However, the step-over temporarily removes one leg from your base, reducing stability during a moment when the bottom player is actively attempting to off-balance you. Additionally, if the bottom player recognizes the step-over early, they can redirect their attack to take your back as you rotate, or transition to an omoplata on your stepping leg which is extended and vulnerable during the movement."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Recognition Drilling",
+        "focus": "Identifying inversion cues under controlled conditions",
+        "description": "Partner plays lasso guard bottom and randomly chooses between standard sweep attempts and inversion entries. Top player calls out 'inversion' the moment they detect the transition cues without attempting to counter. Build pattern recognition speed until identification consistently occurs within 1 second of the hip angle change. 3-minute rounds, 5 rounds per session."
+      },
+      {
+        "phase": "Counter Timing Development",
+        "focus": "Applying the correct defensive response at the right moment",
+        "description": "Partner initiates inversion at 50% speed. Top player practices the forward pressure counter, sleeve grip strip, and step-over extraction in separate focused rounds. Partner provides feedback on timing - too early (wasted effort), on time (effective), or too late (inversion completes). Gradually increase speed as timing improves."
+      },
+      {
+        "phase": "Decision Making Under Pressure",
+        "focus": "Selecting appropriate defense based on inversion phase",
+        "description": "Partner varies between fast and slow inversion entries at 70% intensity. Top player must read the timing and select the appropriate counter: pressure for early detection, grip strip for mid-transition, or counter-rotation for completed inversion. Develops the ability to match defensive response to the specific phase of inversion encountered."
+      },
+      {
+        "phase": "Live Positional Sparring from Lasso",
+        "focus": "Full application against unrestricted inversion attempts",
+        "description": "Start every round in established lasso guard. Bottom player attempts inversions, sweeps, and submissions at full intensity. Top player applies all defensive tools while also pursuing passing opportunities. Full resistance with round reset after pass or sweep. Track inversion prevention rate to measure defensive improvement over sessions."
+      }
+    ]
+  }
+}

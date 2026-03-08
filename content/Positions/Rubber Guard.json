@@ -1,0 +1,566 @@
+{
+  "name": "Rubber Guard",
+  "slug": "rubber-guard",
+  "description": "Master Rubber Guard in BJJ. Complete guide to 10th Planet system covering Mission Control, New York, Invisible Collar progressions and submission chains.",
+  "variant_uniqueness": "Flexibility trades mobility for arm control",
+  "overview": "The Rubber Guard is a specialized guard position developed and popularized within the 10th Planet Jiu-Jitsu system. This position builds upon the closed guard by adding a high degree of upper body control through a series of complex leg and arm configurations. At its core, the Rubber Guard involves the bottom player using their leg to trap the opponent's arm against their own chest, typically by bringing one leg high across the opponent's back and securing the shin or foot with the opposite arm. This creates exceptional posture control and provides unique attacking opportunities, particularly for triangles, omoplatas, and various specialized submissions. The position is especially effective in no-gi grappling and MMA contexts where it can neutralize the opponent's striking while setting up submissions. The Rubber Guard system includes multiple named positions such as Mission Control, New York, Invisible Collar, and Zombie, each representing a specific configuration within the overall framework. Success in this position requires exceptional flexibility, particularly in the hips and hamstrings, along with systematic understanding of the progression sequences that characterize this approach. The strategic trade-off inherent in Rubber Guard is clear: practitioners sacrifice some positional stability and mobility in exchange for superior arm control and unique submission pathways unavailable from conventional closed guard positions. The system functions as a decision tree where each defensive reaction from the opponent dictates the next positional progression. When the opponent pulls their arm free, the triangle becomes available. When they drive forward, omoplata entries open. When they freeze, the practitioner advances through the named positions toward increasingly dominant control configurations. This reaction-based methodology makes Rubber Guard particularly effective against opponents who lack specific defensive knowledge of the system, as conventional guard escapes often feed directly into the system's submission chains. The flexibility requirement is the position's most significant barrier to entry, but practitioners who invest in developing the necessary range of motion gain access to a complete attacking system with answers for every common defensive response.",
+  "key_principles": [
+    "Establish and maintain strong posture control through leg pressure on trapped arm",
+    "Create high guard position using extreme hip flexibility and proper bridging mechanics",
+    "Use leg positioning to isolate and control opponent's arm while preventing posture recovery",
+    "Apply systematic progression through named positions (Mission Control to New York to Invisible Collar)",
+    "Coordinate grip configurations systematically for optimal control and submission entries"
+  ],
+  "variations": [
+    {
+      "name": "Mission Control",
+      "slug": "mission-control",
+      "description": "Primary Rubber Guard position with shin across back and foot secured"
+    },
+    {
+      "name": "New York",
+      "slug": "new-york",
+      "description": "Advanced variation with omoplata threat and enhanced arm control"
+    },
+    {
+      "name": "New York Control",
+      "slug": "new-york-control",
+      "description": "Submission-ready configuration from New York position"
+    },
+    {
+      "name": "Invisible Collar",
+      "slug": "invisible-collar",
+      "description": "Submission setup position emphasizing neck control without gi grips"
+    },
+    {
+      "name": "Zombie",
+      "slug": "zombie",
+      "description": "Gogoplata setup position with shin positioned across throat"
+    },
+    {
+      "name": "Crackhead Control",
+      "slug": "crackhead-control",
+      "description": "Variation emphasizing extreme arm isolation and shoulder pressure"
+    },
+    {
+      "name": "Meathook",
+      "slug": "meathook",
+      "description": "Transitional position focusing on elbow control and arm trapping"
+    },
+    {
+      "name": "Chill Dog",
+      "slug": "chill-dog",
+      "description": "Relaxed control position maintaining arm isolation with minimal energy"
+    },
+    {
+      "name": "Carni",
+      "slug": "carni",
+      "description": "High-level variation combining multiple control points for submissions"
+    }
+  ],
+  "related_positions": [
+    {
+      "name": "Closed Guard",
+      "relationship": "Foundational position from which Rubber Guard is entered"
+    },
+    {
+      "name": "Mission Control",
+      "relationship": "Primary sub-position within Rubber Guard system"
+    },
+    {
+      "name": "Triangle Control",
+      "relationship": "Common submission target from Rubber Guard variations"
+    },
+    {
+      "name": "Omoplata Control",
+      "relationship": "Alternative submission pathway from Rubber Guard system"
+    },
+    {
+      "name": "Gogoplata Control",
+      "relationship": "Advanced submission available from Zombie position"
+    }
+  ],
+  "top": {
+    "overview": "The Rubber Guard from the top perspective represents one of the most challenging defensive scenarios in modern Brazilian Jiu-Jitsu, particularly for practitioners unfamiliar with the specific defensive protocols required to neutralize its unique control mechanisms. When caught in an opponent's Rubber Guard, the top player faces severe posture compromise, arm isolation, and a systematic progression of submission threats that require precise defensive understanding to escape. The fundamental problem begins when the bottom player succeeds in breaking posture and elevating their leg high across the back, trapping the near-side arm against their chest. This creates a locked configuration that removes one of the top player's primary posting bases while simultaneously pulling them into a compromised position vulnerable to triangles, omoplatas, and various specialized submissions. The top player's immediate priority must be preventing the initial leg elevation by maintaining strong posture, keeping elbows tight to the body, and fighting aggressively to control distance in closed guard. Once the Rubber Guard is established, escape becomes significantly more difficult, requiring systematic understanding of how to address the arm trap, recover posture, and ultimately open the guard or pass to a superior position. The key defensive principles involve creating frames with the free hand, preventing the bottom player from advancing through the positional hierarchy (Mission Control to New York to Invisible Collar), and carefully extracting the trapped arm without creating space for submission entries. Understanding the submission sequences available from Rubber Guard is essential for effective defense, as each position within the system has specific submission threats that dictate appropriate defensive responses. The top player must also manage the energy dynamics carefully, as overly aggressive escape attempts often play into the bottom player's strategy by creating the reactions and movements that facilitate submission entries. Success from top in Rubber Guard requires patience, systematic defensive progression, and the technical knowledge to neutralize the position's control mechanisms while avoiding the submission traps that punish common escape attempts.",
+    "state_properties": {
+      "point_value": 0,
+      "position_type": "Defensive",
+      "risk_level": "High",
+      "energy_cost": "Medium",
+      "time_sustainability": "Short"
+    },
+    "state_invariants": [
+      "One arm trapped against opponent's chest by their elevated leg creating severe posture compromise and limiting defensive options",
+      "Posture broken with head pulled down toward opponent's chest, unable to establish strong base or create effective distance"
+    ],
+    "prerequisites": [
+      "Understanding of closed guard defensive principles and posture maintenance",
+      "Knowledge of Rubber Guard submission threats and defensive hierarchy",
+      "Ability to create frames and manage distance under posture-compromised positions"
+    ],
+    "key_principles": [
+      "Prevent initial leg elevation by maintaining strong posture and tight elbow positioning in closed guard",
+      "Create frames with free hand to prevent advancement through positional hierarchy",
+      "Extract trapped arm systematically without creating space for submission entries",
+      "Recognize submission threats from each Rubber Guard variation to apply appropriate defenses",
+      "Manage energy carefully avoiding aggressive movements that trigger submission opportunities",
+      "Focus on recovering posture before attempting guard opening or passing sequences",
+      "Use weight distribution and base management to resist stacking attempts and maintain stability"
+    ],
+    "transitions": [
+      {
+        "transition": "Posture Recovery",
+        "attempt_probability": 30
+      },
+      {
+        "transition": "Rubber Guard Clear to Pass",
+        "attempt_probability": 23
+      },
+      {
+        "transition": "Arm Extraction",
+        "attempt_probability": 19
+      },
+      {
+        "transition": "Stack Pass",
+        "attempt_probability": 14
+      },
+      {
+        "transition": "Pressure Pass",
+        "attempt_probability": 9
+      },
+      {
+        "transition": "Rubber Guard Top Posture Escape",
+        "attempt_probability": 5
+      }
+    ],
+    "decision_tree": [
+      {
+        "condition": "If trapped in established Rubber Guard with posture severely compromised",
+        "actions": [
+          {
+            "technique": "Posture Recovery",
+            "target": "Closed Guard",
+            "probability": 55
+          },
+          {
+            "technique": "Arm Extraction",
+            "target": "Open Guard",
+            "probability": 40
+          }
+        ]
+      },
+      {
+        "condition": "If bottom player attempts to advance to New York or Invisible Collar",
+        "actions": [
+          {
+            "technique": "Rubber Guard Clear to Pass",
+            "target": "Combat Base",
+            "probability": 50
+          },
+          {
+            "technique": "Arm Extraction",
+            "target": "Open Guard",
+            "probability": 45
+          }
+        ]
+      },
+      {
+        "condition": "If bottom player overextends for submission creating space",
+        "actions": [
+          {
+            "technique": "Stack Pass",
+            "target": "Side Control",
+            "probability": 48
+          },
+          {
+            "technique": "Pressure Pass",
+            "target": "Side Control",
+            "probability": 45
+          }
+        ]
+      },
+      {
+        "condition": "If able to extract trapped arm and create distance successfully",
+        "actions": [
+          {
+            "technique": "Posture Recovery",
+            "target": "Combat Base",
+            "probability": 60
+          },
+          {
+            "technique": "Pressure Pass",
+            "target": "Side Control",
+            "probability": 45
+          }
+        ]
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Pulling trapped arm aggressively straight back without addressing leg control",
+        "consequence": "Opens direct pathway to triangle choke, increases leg pressure making arm extraction more difficult, telegraphs escape attempt allowing bottom player to transition",
+        "correction": "Address leg control first by using free hand to create frames and reduce leg pressure. Extract arm gradually using circular motion rather than straight pull while maintaining base and posture"
+      },
+      {
+        "error": "Sitting back to create distance without controlling opponent's hips",
+        "consequence": "Allows bottom player to extend and establish triangle lock, creates space for omoplata entry, loses remaining positional control entirely",
+        "correction": "Maintain forward pressure and control opponent's hips with free hand. Create distance systematically only after establishing control points that prevent submission extensions"
+      },
+      {
+        "error": "Driving forward aggressively without proper base management",
+        "consequence": "Susceptibility to omoplata entries and back-taking sequences, potential for sweep as forward momentum is redirected, increased vulnerability to gogoplata from certain positions",
+        "correction": "Maintain wide base and low center of gravity when applying forward pressure. Drive with controlled force while keeping free hand posted to prevent rotational submissions"
+      },
+      {
+        "error": "Neglecting to defend free hand allowing additional control points",
+        "consequence": "Bottom player achieves superior grip configurations enabling progression through system positions, submission entries become significantly easier, escape difficulty increases exponentially",
+        "correction": "Keep free hand active creating frames, posting, and preventing grips. Never allow both arms to be controlled simultaneously as this removes all defensive options"
+      },
+      {
+        "error": "Attempting stack pass without understanding omoplata counter",
+        "consequence": "Direct entry to omoplata control with back-taking opportunity, shoulder injury risk if opponent is skilled at finishing, loss of top position entirely",
+        "correction": "Learn proper stacking mechanics that include keeping trapped arm tight to body and using shoulder pressure to prevent rotation. Understand when stacking is viable versus when alternative escapes are necessary"
+      },
+      {
+        "error": "Panicking and using excessive muscular force without technical understanding",
+        "consequence": "Rapid fatigue while remaining in compromised position, increased injury risk to own shoulder and neck, creation of jerky movements that trigger submission opportunities",
+        "correction": "Remain calm and apply systematic defensive protocol. Use leverage and positioning rather than pure strength. Conserve energy for sustained defensive effort rather than explosive bursts"
+      }
+    ],
+    "training_drills": [
+      {
+        "name": "Rubber Guard Defensive Positioning",
+        "description": "Partner establishes Rubber Guard control (Mission Control). Practitioner works on maintaining base, creating frames with free hand, and preventing advancement to New York or Invisible Collar. Focus on posture recovery and arm extraction without creating submission opportunities. Partner provides progressive resistance.",
+        "duration": "5 rounds of 2 minutes"
+      },
+      {
+        "name": "Submission Defense Recognition",
+        "description": "Partner establishes various Rubber Guard positions (Mission Control, New York, Zombie, Invisible Collar) and attempts specific submissions. Practitioner identifies submission threat and applies appropriate defense. Focus on recognizing positional cues that indicate which submission is being attempted.",
+        "duration": "10 minutes with position rotation every 2 minutes"
+      },
+      {
+        "name": "Escape Sequence Drilling",
+        "description": "Start trapped in established Rubber Guard. Work through systematic escape sequence: frame creation, posture recovery, arm extraction, guard opening, pass or standup. Perform slowly emphasizing technical precision. Partner gradually increases resistance over multiple rounds.",
+        "duration": "6 rounds of 3 minutes"
+      },
+      {
+        "name": "Posture Maintenance Under Pressure",
+        "description": "Start in closed guard with good posture. Partner attempts to break posture and establish Rubber Guard. Practitioner fights to maintain strong posture, tight elbows, and distance control. Focus on preventing initial leg elevation that enables Rubber Guard entry.",
+        "duration": "5 rounds of 2 minutes"
+      }
+    ],
+    "related_content": [
+      {
+        "name": "Closed Guard",
+        "relationship": "Target position after recovering from Rubber Guard control and reestablishing posture"
+      },
+      {
+        "name": "Combat Base",
+        "relationship": "Defensive position providing stability for guard opening after escaping Rubber Guard"
+      },
+      {
+        "name": "Side Control",
+        "relationship": "Objective position achieved through successful guard passing after Rubber Guard escape"
+      },
+      {
+        "name": "Triangle Control",
+        "relationship": "Primary submission threat when defending Rubber Guard requiring specific defensive protocols"
+      },
+      {
+        "name": "Omoplata Control",
+        "relationship": "Secondary submission threat particularly from New York position requiring awareness and counters"
+      },
+      {
+        "name": "Mission Control",
+        "relationship": "Primary Rubber Guard position that must be understood to defend effectively from top"
+      }
+    ],
+    "position_metrics": {
+      "retention_rate": {
+        "value": 55,
+        "description": "Ability to maintain top position against Rubber Guard attacks improves significantly with system knowledge and defensive protocol understanding"
+      },
+      "advancement_probability": {
+        "value": 45,
+        "description": "Likelihood of escaping to superior positions increases dramatically with proper defensive technique and recognition of submission threats"
+      },
+      "submission_probability": {
+        "value": 22,
+        "description": "Risk of submission from Rubber Guard decreases substantially as practitioners learn systematic defensive responses and positional awareness"
+      },
+      "average_time": "60-120 seconds defensive time before achieving escape or succumbing to submission"
+    },
+    "name": "Rubber Guard Top",
+    "description": "Defend Rubber Guard from top with systematic escape protocols. Learn to counter Mission Control, prevent submissions, and recover posture against 10th Planet.",
+    "tags": [
+      "bjj rubber guard defense from top position",
+      "rubber guard escape techniques and protocols",
+      "10th planet defense and posture recovery",
+      "mission control counter techniques",
+      "submission defense against rubber guard"
+    ]
+  },
+  "bottom": {
+    "overview": "The Rubber Guard from the bottom perspective represents one of the most innovative and systematically developed guard positions in modern Brazilian Jiu-Jitsu. Developed specifically for no-gi grappling and MMA applications, this position fundamentally reimagines closed guard control by incorporating extreme flexibility and systematic progression through named positions. From bottom, the practitioner uses their leg to create a locked configuration that traps the opponent's arm against their own chest while simultaneously controlling posture. This dual-threat control system creates unique submission opportunities unavailable from conventional guard positions. The position begins from closed guard, where the bottom player breaks the opponent's posture and brings one leg high across the opponent's back, securing the shin or foot with the same-side hand to create Mission Control, the foundational Rubber Guard position. From here, systematic progressions lead to New York (omoplata threat), Invisible Collar (choke setups), Zombie (gogoplata position), and numerous other variations, each with specific grip configurations and submission entries. The bottom player's strategy centers on maintaining constant arm isolation while using the opponent's defensive reactions to dictate which submission pathway to pursue. Understanding the Rubber Guard system requires accepting its physical prerequisites—exceptional hip flexibility is non-negotiable—but for practitioners who possess or develop this attribute, the position offers a comprehensive attacking system that creates unique problems for conventionally trained opponents. The energy management aspect is critical: unlike traditional closed guard where pressure can be sustained for extended periods, Rubber Guard's elevated leg position demands intelligent application of pressure in bursts rather than constant maximum tension. The bottom player must also manage the inherent vulnerability to stacking pressure by maintaining proper shoulder positioning and using hip mobility to adjust angles. When executed properly with systematic understanding of the position's nuances, Rubber Guard from bottom provides exceptional control, neutralizes striking in MMA contexts, and creates high-percentage submission opportunities through its unique mechanical configurations.",
+    "state_properties": {
+      "point_value": 0,
+      "position_type": "Offensive/Controlling",
+      "risk_level": "Medium",
+      "energy_cost": "Medium",
+      "time_sustainability": "Medium"
+    },
+    "state_invariants": [
+      "Closed guard base maintained with one leg elevated high across opponent's back, shin positioned near or above shoulder line with foot secured by same-side hand creating locked configuration",
+      "Opponent's near-side arm trapped against practitioner's chest through leg pressure, preventing posture recovery and limiting posting ability while maintaining constant breaking pressure"
+    ],
+    "prerequisites": [
+      "Exceptional hip and hamstring flexibility to achieve high leg position",
+      "Strong closed guard fundamentals with understanding of posture control",
+      "Knowledge of specialized grip configurations and position naming system"
+    ],
+    "key_principles": [
+      "Establish and maintain strong posture control through leg pressure on trapped arm",
+      "Create high guard position using extreme hip flexibility and proper bridging mechanics",
+      "Use leg positioning to isolate and control opponent's arm while preventing posture recovery",
+      "Maintain proper shoulder and neck alignment to prevent injury during leg elevation",
+      "Apply systematic progression through named positions rather than random technique selection",
+      "Coordinate grip configurations systematically for optimal control and submission entries",
+      "Manage energy expenditure through efficient tension application rather than constant maximum pressure"
+    ],
+    "transitions": [
+      {
+        "transition": "Triangle Setup",
+        "attempt_probability": 40
+      },
+      {
+        "transition": "Omoplata",
+        "attempt_probability": 15
+      },
+      {
+        "transition": "Mission Control Entry from Rubber Guard",
+        "attempt_probability": 12
+      },
+      {
+        "transition": "Rubber Guard to Closed Guard",
+        "attempt_probability": 7
+      },
+      {
+        "transition": "New York Entry from Rubber Guard",
+        "attempt_probability": 5
+      },
+      {
+        "transition": "Hip Bump Sweep",
+        "attempt_probability": 5
+      },
+      {
+        "transition": "Omoplata Sweep",
+        "attempt_probability": 5
+      },
+      {
+        "transition": "Gogoplata",
+        "attempt_probability": 4
+      },
+      {
+        "transition": "Rubber Guard Sweep",
+        "attempt_probability": 4
+      },
+      {
+        "transition": "Crackhead Control Entry",
+        "attempt_probability": 3
+      }
+    ],
+    "decision_tree": [
+      {
+        "condition": "If opponent establishes strong posture and begins pulling trapped arm free",
+        "actions": [
+          {
+            "technique": "Triangle Setup",
+            "target": "Triangle Control",
+            "probability": 60
+          },
+          {
+            "technique": "Omoplata",
+            "target": "Omoplata Control",
+            "probability": 50
+          }
+        ]
+      },
+      {
+        "condition": "If opponent drives forward with pressure attempting to smash or stack",
+        "actions": [
+          {
+            "technique": "Omoplata Sweep",
+            "target": "Back Control",
+            "probability": 55
+          },
+          {
+            "technique": "Hip Bump Sweep",
+            "target": "Mount",
+            "probability": 45
+          }
+        ]
+      },
+      {
+        "condition": "If opponent sits back and attempts to break open the guard",
+        "actions": [
+          {
+            "technique": "Triangle Setup",
+            "target": "Triangle Control",
+            "probability": 55
+          },
+          {
+            "technique": "Omoplata",
+            "target": "Omoplata Control",
+            "probability": 50
+          }
+        ]
+      },
+      {
+        "condition": "If opponent successfully breaks leg grip but remains in guard",
+        "actions": [
+          {
+            "technique": "Rubber Guard to Closed Guard",
+            "target": "Closed Guard",
+            "probability": 70
+          },
+          {
+            "technique": "Mission Control Entry from Rubber Guard",
+            "target": "Mission Control",
+            "probability": 55
+          }
+        ]
+      },
+      {
+        "condition": "If opponent freezes without reacting and allows system advancement",
+        "actions": [
+          {
+            "technique": "Gogoplata",
+            "target": "Gogoplata Control",
+            "probability": 65
+          },
+          {
+            "technique": "Triangle Setup",
+            "target": "Triangle Control",
+            "probability": 55
+          }
+        ]
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Insufficient flexibility attempting position too early in development",
+        "consequence": "Inability to achieve proper leg height, loss of control, potential injury to hip or hamstring, failure to isolate opponent's arm effectively",
+        "correction": "Develop flexibility systematically through dedicated stretching program before implementing Rubber Guard in live training. Use progressive resistance drills starting from static holds and gradually increasing range of motion over weeks or months"
+      },
+      {
+        "error": "Poor shoulder positioning with head too far back or neck hyperextended",
+        "consequence": "Excessive strain on cervical spine, vulnerability to stacking pressure, loss of posture control, difficulty maintaining leg grip, increased injury risk",
+        "correction": "Keep chin tucked and shoulders rounded forward, maintaining C-curve in spine. Use opposite hand to pull opponent's head down actively while keeping own head position neutral and protected"
+      },
+      {
+        "error": "Inadequate closed guard foundation before learning Rubber Guard system",
+        "consequence": "Poor understanding of basic guard retention principles, inability to troubleshoot position effectively, missing fundamental posture control concepts",
+        "correction": "Master closed guard fundamentals first including posture breaking, hip movement, and basic submissions before adding Rubber Guard complexity. Ensure solid understanding of guard retention mechanics"
+      },
+      {
+        "error": "Overreliance on leg strength instead of proper structural positioning",
+        "consequence": "Rapid fatigue, inability to maintain position long-term, opponent easily recovers posture, missed submission opportunities due to poor control",
+        "correction": "Focus on structural positioning and leverage rather than muscular force. Use hip elevation and proper angles to create mechanical advantage. Apply pressure in bursts rather than constant maximum tension"
+      },
+      {
+        "error": "Neglecting proper grip sequences and jumping randomly between positions",
+        "consequence": "Telegraphed attacks, easy defenses for experienced opponents, loss of positional control, failure to progress through system effectively",
+        "correction": "Learn systematic progression through named positions (Mission Control to New York to Invisible Collar). Understand specific grip requirements for each transition and follow logical sequences based on opponent's reactions"
+      },
+      {
+        "error": "Failing to control opponent's free hand allowing defensive frames",
+        "consequence": "Opponent creates space and recovers posture, escapes Rubber Guard entirely, prevents submission attempts, turns position into stalemate",
+        "correction": "Actively manage opponent's free hand with grips, overhooks, or positioning. Use opposite hand to control wrist, elbow, or head depending on specific sub-position being utilized"
+      }
+    ],
+    "training_drills": [
+      {
+        "name": "Rubber Guard Entry and Maintenance",
+        "description": "Partner starts in closed guard with good posture. Practitioner works to break posture, achieve high leg position, and establish Rubber Guard control. Hold position for 30-60 seconds against progressive resistance. Partner gradually increases escape attempts from passive to active defense.",
+        "duration": "5 rounds of 2 minutes"
+      },
+      {
+        "name": "Position Flow Drill",
+        "description": "Systematic progression through Rubber Guard variations: Closed Guard to Mission Control to New York to Invisible Collar to Zombie to Crackhead Control. Focus on proper grip sequences and transitions. Perform slowly emphasizing technique over speed.",
+        "duration": "10 minutes continuous flow"
+      },
+      {
+        "name": "Flexibility Development Program",
+        "description": "Dedicated stretching routine focusing on hip flexors, hamstrings, and external hip rotation. Include butterfly stretch, seated forward fold, pigeon pose, and supine leg raises. Perform static holds progressing from 30 seconds to 2 minutes per stretch.",
+        "duration": "15-20 minutes daily"
+      },
+      {
+        "name": "Submission Chains from Rubber Guard",
+        "description": "Start in established Rubber Guard position. Flow between triangle, omoplata, and gogoplata setups based on opponent's defensive reactions. Partner provides specific defenses (pulling arm, driving forward, sitting back) to trigger appropriate submission chain.",
+        "duration": "5 rounds of 3 minutes"
+      }
+    ],
+    "related_content": [
+      {
+        "name": "Mission Control",
+        "relationship": "Primary sub-position within Rubber Guard system representing foundational control configuration"
+      },
+      {
+        "name": "New York Control",
+        "relationship": "Advanced Rubber Guard variation emphasizing omoplata threat and enhanced arm isolation"
+      },
+      {
+        "name": "Invisible Collar",
+        "relationship": "Submission setup position from Rubber Guard focusing on neck control without gi grips"
+      },
+      {
+        "name": "Crackhead Control",
+        "relationship": "Variation emphasizing extreme arm isolation and shoulder pressure for advanced practitioners"
+      },
+      {
+        "name": "Closed Guard",
+        "relationship": "Foundational position from which Rubber Guard is entered through posture breaking and leg elevation"
+      },
+      {
+        "name": "Triangle Control",
+        "relationship": "Primary submission target from Rubber Guard with multiple entry pathways from different variations"
+      },
+      {
+        "name": "Omoplata Control",
+        "relationship": "Secondary submission target particularly effective from New York position within Rubber Guard"
+      },
+      {
+        "name": "Gogoplata Control",
+        "relationship": "Advanced submission target requiring extreme flexibility and precise shin-across-throat positioning"
+      },
+      {
+        "name": "Carni",
+        "relationship": "High-level Rubber Guard variation combining multiple control points for advanced submission setups"
+      }
+    ],
+    "position_metrics": {
+      "retention_rate": {
+        "value": 60,
+        "description": "Ability to maintain Rubber Guard control against escape attempts varies significantly with flexibility and system knowledge"
+      },
+      "advancement_probability": {
+        "value": 60,
+        "description": "Likelihood of advancing to superior positions or submissions increases dramatically with systematic understanding of progressions"
+      },
+      "submission_probability": {
+        "value": 45,
+        "description": "Submission success from Rubber Guard depends heavily on flexibility, technical precision, and opponent's familiarity with defense protocols"
+      },
+      "average_time": "45-90 seconds in active control before transition or submission attempt"
+    },
+    "name": "Rubber Guard Bottom",
+    "description": "Master Rubber Guard bottom using the 10th Planet system. Learn Mission Control, New York, Invisible Collar progressions and submission chains for guard offense.",
+    "tags": [
+      "bjj rubber guard bottom position techniques",
+      "10th planet jiu jitsu rubber guard system",
+      "no-gi guard control and submissions",
+      "mission control to submission chains",
+      "flexibility-based guard attack system"
+    ]
+  }
+}

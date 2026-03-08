@@ -1,0 +1,398 @@
+{
+  "name": "Rolling Back Take from Half Butterfly",
+  "description": "Master the Rolling Back Take from Half Butterfly guard in BJJ. Complete guide to setup, rolling mechanics, and back control entry from this hybrid position.",
+  "tags": [
+    "bjj",
+    "transition",
+    "back-take",
+    "half-butterfly",
+    "rolling-technique",
+    "guard-play",
+    "no-gi"
+  ],
+  "from_position": "Half Butterfly/Bottom",
+  "outcomes": [
+    {
+      "to": "Back Control/Top",
+      "probability": 55,
+      "result": "success"
+    },
+    {
+      "to": "Half Butterfly/Bottom",
+      "probability": 30,
+      "result": "failure"
+    },
+    {
+      "to": "Side Control/Bottom",
+      "probability": 15,
+      "result": "counter"
+    }
+  ],
+  "success_rate": 55,
+  "overview": "The Rolling Back Take from Half Butterfly exploits the dynamic structure of half butterfly guard to create a direct path to the opponent's back through a controlled rolling motion. When the top player defends standard butterfly sweeps by posting wide or shifting weight laterally, the bottom player leverages their deep underhook and butterfly hook elevation to duck beneath the opponent's arm and roll through to back control. This technique bypasses the traditional sweep-to-top sequence entirely, converting a bottom guard position directly into the most dominant position in BJJ without passing through intermediate positions.\n\nThe rolling mechanic relies on precise timing and coordinated body movement rather than raw strength or explosiveness. The bottom player must synchronize butterfly hook elevation, underhook depth, and head positioning to create a smooth rotational arc that carries them behind the opponent. The technique is particularly effective against opponents who over-commit to defending traditional half butterfly sweeps by posting their hands or widening their base, as these defensive reactions create the exact space and angle needed to initiate the roll. When properly executed, the momentum of the roll makes it extremely difficult for the top player to recover, as they are carried forward while the bottom player circles behind them.\n\nThis technique exemplifies the offensive potential of hybrid guard positions, where combining half guard retention with butterfly hook dynamics creates unexpected attacking vectors that pure half guard or pure butterfly guard cannot achieve independently. The rolling back take punishes predictable defensive patterns and rewards practitioners who develop sensitivity to weight distribution shifts, making it a high-value addition to any half butterfly player's arsenal.",
+  "conditions": [
+    "Established half butterfly guard with active butterfly hook maintaining upward pressure on opponent's free-side thigh",
+    "Deep underhook secured on the butterfly hook side, reaching past opponent's armpit toward their far hip or lower back",
+    "Opponent's weight has shifted laterally or their base has widened in response to sweep threats, creating space for the roll",
+    "Sufficient space exists between bodies for head to thread beneath opponent's armpit on the underhook side",
+    "Half guard legs maintain control of opponent's trapped leg, preventing them from disengaging or backing away from rolling range"
+  ],
+  "variants_and_adaptations": [
+    {
+      "variant_name": "No-Gi Collar Tie Roll",
+      "description": "Instead of relying solely on the underhook, the attacker establishes a collar tie on the far side of the opponent's neck before initiating the roll. The collar tie adds a pulling vector that assists the rotation and helps maintain connection during the transition, compensating for the reduced grip friction in no-gi situations.",
+      "when_to_use": "In no-gi when the opponent's sweat makes maintaining underhook depth difficult, or when the opponent has strong whizzer defense that limits underhook effectiveness"
+    },
+    {
+      "variant_name": "Feint Sweep to Roll",
+      "description": "The attacker first threatens a standard half butterfly sweep by driving the butterfly hook laterally, forcing the opponent to post their hand or shift weight. The moment the opponent commits to the sweep defense, the attacker redirects the energy into the rolling back take, exploiting the space created by the defensive reaction.",
+      "when_to_use": "Against opponents who have strong base and do not naturally create the openings needed for the direct rolling entry, requiring a setup combination to manufacture the angle"
+    },
+    {
+      "variant_name": "Gi Lapel Assisted Roll",
+      "description": "In gi grappling, the attacker feeds the opponent's lapel under their body with the underhook hand before initiating the roll. The lapel grip creates a powerful anchor that prevents the opponent from separating during the rotation and provides immediate choking threat upon arriving at back control.",
+      "when_to_use": "In gi training when you can access the opponent's lapel from the underhook position, providing both mechanical advantage during the roll and an immediate submission threat upon completion"
+    }
+  ],
+  "position_integration": "The Rolling Back Take from Half Butterfly occupies a unique tactical niche within the BJJ positional hierarchy as a direct guard-to-back-control pathway that skips intermediate positions. It complements traditional half butterfly sweeps by creating a secondary threat that punishes opponents who develop effective anti-sweep defenses. When integrated into a half butterfly game, the rolling back take forces the top player to address both lateral sweep threats and the rolling back take angle simultaneously, creating the offensive dilemma structure that characterizes high-level guard play. The technique chains naturally with the broader back attack system, feeding directly into rear naked choke, bow and arrow, and armbar sequences from back control.",
+  "related_content": [
+    {
+      "name": "Half Butterfly",
+      "relationship": "Source position from which this rolling back take is initiated"
+    },
+    {
+      "name": "Back Control",
+      "relationship": "Primary target position achieved upon successful completion of the roll"
+    },
+    {
+      "name": "Side Control",
+      "relationship": "Counter outcome position where opponent capitalizes on a failed rolling attempt"
+    },
+    {
+      "name": "Half Butterfly Sweep",
+      "relationship": "Complementary sweep that creates the defensive reactions exploited by the rolling back take"
+    },
+    {
+      "name": "Half Butterfly to Dogfight",
+      "relationship": "Alternative transition from the same starting position with different positional target"
+    },
+    {
+      "name": "Back Take from Bottom",
+      "relationship": "Related back take technique sharing similar strategic objectives from bottom position"
+    },
+    {
+      "name": "Homer Simpson Sweep",
+      "relationship": "Related rolling technique concept using similar momentum and rotational mechanics"
+    },
+    {
+      "name": "Seat Belt Control Back",
+      "relationship": "Follow-up control position for consolidating back control after successful roll"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Parent guard family from which half butterfly derives its leg control mechanics"
+    },
+    {
+      "name": "Dogfight Position",
+      "relationship": "Common intermediate position in the half guard system sharing tactical overlap"
+    }
+  ],
+  "attacker": {
+    "name": "Rolling Back Take from Half Butterfly Attacker",
+    "description": "Complete attacking guide for the Rolling Back Take from Half Butterfly. Master underhook setup, rolling mechanics, hook insertion timing, and back control consolidation from this dynamic guard.",
+    "overview": "Executing the Rolling Back Take from Half Butterfly requires establishing precise control prerequisites before committing to the roll. The attacker must secure a deep underhook reaching past the opponent's armpit, maintain active butterfly hook elevation, and recognize the specific weight distribution patterns that create the window for this technique. The roll itself is a commitment move with limited ability to abort once initiated, making proper setup identification the difference between landing in back control and being stuffed into a worse position. The attacker's primary challenge is threading the needle between sufficient setup depth and commitment timing, as hesitation allows the top player to recognize and counter the attempt while premature commitment without proper prerequisites leads to failed rolls and positional loss.",
+    "key_principles": [
+      "Establish deep underhook reaching the opponent's far hip before initiating any rolling motion to create the mechanical anchor for rotation",
+      "Time the roll when the opponent's weight shifts to their posting hand or away from the butterfly hook side, exploiting their compromised base",
+      "Use butterfly hook elevation to lighten the opponent's base and create the space needed for ducking under their arm",
+      "Keep head tight against the opponent's ribcage during the roll to maintain close connection and prevent sprawling defense",
+      "Coordinate hip movement with shoulder rotation to generate smooth rolling momentum without relying on arm strength alone",
+      "Thread hooks immediately upon arriving at the back before the opponent can turn to face you, prioritizing leg control over grip adjustments"
+    ],
+    "setup_requirements": [
+      "Deep underhook established on butterfly hook side with hand reaching at minimum the opponent's far hip or lower back",
+      "Active butterfly hook positioned under opponent's free-side thigh with consistent upward elevation pressure",
+      "Opponent's weight shifted laterally or forward, creating sufficient angle for the rolling entry",
+      "Head positioned below opponent's armpit level on the underhook side with chin tucked for neck protection",
+      "Half guard legs maintaining firm control of trapped leg to prevent opponent from disengaging or retreating out of range"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Establish deep underhook",
+        "description": "From half butterfly bottom, fight for a deep underhook on the butterfly hook side by swimming your arm past the opponent's armpit. Your hand should reach their far-side hip or lower back, creating the mechanical anchor that will power the entire rolling motion. The depth of this underhook is the single most critical factor determining whether the back take succeeds or fails."
+      },
+      {
+        "step_number": 2,
+        "action": "Load the butterfly hook",
+        "description": "Drive your butterfly hook upward with steady pressure to elevate the opponent's weight off their base. This elevation serves dual purposes: it creates space between your head and their armpit for ducking under, and it lightens their ability to sprawl or drive forward when you initiate the roll. Maintain constant upward drive rather than pulsing intermittently."
+      },
+      {
+        "step_number": 3,
+        "action": "Position your head beneath opponent's arm",
+        "description": "Lower your head and thread it beneath the opponent's arm on the underhook side, positioning your ear against their ribcage. Your chin must be tucked to protect your neck during the coming roll. This head positioning represents the point of no return for the technique and must be executed decisively once the setup prerequisites are confirmed."
+      },
+      {
+        "step_number": 4,
+        "action": "Initiate the rolling motion",
+        "description": "Simultaneously drive your butterfly hook upward and pull with your underhook while rolling over your far shoulder in a controlled arc directed diagonally behind the opponent. The force should be aimed toward their far hip rather than straight over the top. Your half guard legs release the trapped leg as the rolling momentum carries you around their body."
+      },
+      {
+        "step_number": 5,
+        "action": "Navigate behind the opponent maintaining connection",
+        "description": "As you rotate around and behind the opponent, maintain chest-to-body contact throughout the entire transition. Your body should follow a tight arc wrapped around them rather than a wide sweeping motion that creates separation. Keep your underhook arm pulling their body into yours at all times to prevent them from creating distance during the scramble phase."
+      },
+      {
+        "step_number": 6,
+        "action": "Thread hooks inside opponent's thighs",
+        "description": "Immediately insert both hooks inside the opponent's thighs as you arrive at their back. Thread the bottom hook first using the momentum of your roll, then insert the top hook before making any other adjustments. Prioritize hook insertion over upper body grips because leg control is the foundation of back control and the opponent's first escape attempt targets the brief window before hooks are set."
+      },
+      {
+        "step_number": 7,
+        "action": "Secure seatbelt grip and consolidate back control",
+        "description": "Lock in a seatbelt grip with one arm over the opponent's shoulder and one under their armpit, hands clasped together on their chest. Settle your weight onto their back with forward chest pressure. Confirm both hooks are deep inside thighs with toes pointing outward before pursuing any submission attacks, ensuring complete positional dominance is established."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Opponent sprawls hips backward when detecting the rolling motion, dropping weight onto the attacker's upper body",
+        "effectiveness": "High",
+        "your_response": "If the sprawl is detected early before full commitment, abort the roll and recover half butterfly guard position. If the roll is past the point of no return, accelerate the rotation and aim for at minimum a crab ride or turtle top position rather than stalling mid-roll under their weight.",
+        "targets_outcome": "Side Control/Bottom"
+      },
+      {
+        "counter": "Opponent applies deep whizzer on the underhook arm to prevent rotational leverage and limit underhook depth",
+        "effectiveness": "Medium",
+        "your_response": "Redirect to a standard butterfly sweep toward the whizzer side, using the opponent's whizzer commitment against them since it removes their posting ability on that side. The whizzer creates the sweep opening that the rolling back take was designed to create through different mechanics.",
+        "targets_outcome": "Half Butterfly/Bottom"
+      },
+      {
+        "counter": "Opponent drives forward aggressively with crossface pressure to flatten the attacker and close the armpit space",
+        "effectiveness": "Medium",
+        "your_response": "Accept the forward pressure momentarily and transition to deep half guard by shooting your outside arm beneath their hips while using the butterfly hook to manage their weight. The forward drive creates deep half guard entry opportunities that can eventually lead to back takes through alternative pathways.",
+        "targets_outcome": "Half Butterfly/Bottom"
+      },
+      {
+        "counter": "Opponent posts hand wide and bases out with knees spread to resist the rolling momentum",
+        "effectiveness": "Low",
+        "your_response": "Exploit the wide base by attacking a standard half butterfly sweep to the posted side, as the widened stance reduces lateral stability. The wide post simultaneously creates more space under the armpit for the rolling back take, so the opponent faces a dilemma between sweep defense and roll defense.",
+        "targets_outcome": "Half Butterfly/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Attempting the roll without sufficient underhook depth, with hand only reaching the opponent's near shoulder or chest",
+        "consequence": "The roll stalls midway because the underhook cannot generate enough rotational pull, leaving the attacker exposed in a compromised position between half butterfly and turtle where the opponent can easily advance to side control",
+        "correction": "Ensure your underhook hand reaches at minimum the opponent's far hip before initiating any rolling motion. If you cannot reach their hip, continue working for depth through grip fighting and angle adjustments before committing to the roll."
+      },
+      {
+        "error": "Initiating the roll without adequate butterfly hook elevation to lighten the opponent's base",
+        "consequence": "The opponent's weight remains fully settled, making it impossible to generate the rotational momentum needed to clear their body during the roll. The technique stalls and the attacker gets flattened under the opponent's pressure.",
+        "correction": "Always load the butterfly hook with sustained upward drive before ducking your head. The elevation creates the space for the head duck and lightens the opponent's base, both of which are prerequisites for successful rolling momentum."
+      },
+      {
+        "error": "Keeping head too high during the roll entry, failing to duck sufficiently beneath the opponent's armpit",
+        "consequence": "The opponent can easily stuff the roll by driving their arm and shoulder down on the attacker's head, or the attacker gets caught in a front headlock position during the failed attempt",
+        "correction": "Duck your head low enough that your ear presses against the opponent's ribcage below their armpit. Your head should lead the rolling motion under their arm rather than running into it. The head position should feel uncomfortably low initially."
+      },
+      {
+        "error": "Releasing half guard control too early before the roll generates sufficient rotational momentum",
+        "consequence": "The opponent can disengage entirely by stepping their trapped leg free, creating distance and potentially passing to side control during the attacker's compromised transitional position",
+        "correction": "Maintain half guard squeeze until the rolling momentum is fully committed and your body is already moving behind the opponent. The legs release as a natural consequence of the rotation, not as a deliberate early action."
+      },
+      {
+        "error": "Neglecting to insert hooks immediately upon arriving at the opponent's back, instead reaching for upper body grips first",
+        "consequence": "The opponent turns to face the attacker before back control is established, resulting in a scramble where the positional advantage gained by the roll is completely lost",
+        "correction": "Prioritize threading hooks inside the opponent's thighs the instant your chest contacts their back. Hook insertion must be your absolute first action before adjusting any grips or considering submission attacks."
+      },
+      {
+        "error": "Rolling too wide away from the opponent rather than maintaining a tight arc along their body throughout the rotation",
+        "consequence": "Creates separation during the roll that allows the opponent to follow the motion, establish defensive frames, or scramble to a neutral position before back control can be consolidated",
+        "correction": "Keep your body in tight contact with the opponent throughout the entire rolling arc. Think of wrapping around them like a belt rather than rolling away and trying to reconnect. The underhook arm must continuously pull their body into yours."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Rolling Mechanics",
+        "focus": "Basic movement pattern and body coordination",
+        "description": "Drill the rolling motion with a fully cooperative partner who allows the technique without resistance. Focus on the shoulder roll arc, maintaining tight body connection throughout the rotation, and arriving at correct back control position with hooks inserted. Perform 10-15 repetitions per side until the rolling path feels natural and fluid."
+      },
+      {
+        "phase": "Phase 2: Setup and Timing",
+        "focus": "Underhook depth, hook coordination, and entry recognition",
+        "description": "With a partner providing light resistance, practice establishing the deep underhook, loading the butterfly hook with elevation, and timing the head duck beneath the arm. Work on recognizing when all setup prerequisites are met before initiating the roll. Emphasis on the coordination between hook elevation and underhook pull that powers the technique."
+      },
+      {
+        "phase": "Phase 3: Counter Integration",
+        "focus": "Adapting to defensive reactions and chaining alternatives",
+        "description": "Partner provides moderate resistance with specific defensive responses including whizzer, sprawl, and forward pressure drive. Practice adjusting the rolling back take or transitioning to alternative attacks such as standard butterfly sweep or deep half entry based on the defensive reaction encountered. Develops real-time decision-making under resistance."
+      },
+      {
+        "phase": "Phase 4: Live Application",
+        "focus": "Competition-speed execution within complete half butterfly game",
+        "description": "Positional sparring starting from half butterfly bottom with full resistance. Integrate the rolling back take into your complete half butterfly attacking toolkit, mixing it with standard sweeps and guard transitions. Focus on selecting the correct technique based on the opponent's reactions and defensive patterns rather than forcing the roll."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "Your opponent posts their hand wide to defend against a standard butterfly sweep - how does this create the opening for the rolling back take?",
+        "answer": "When the opponent posts their hand to defend the sweep, they shift weight to their posting arm and create space under their opposite armpit. This is the ideal moment to deepen your underhook past their now-elevated arm and duck your head under. The posting hand cannot simultaneously defend the lateral sweep and prevent the rolling motion in the opposite direction, creating the tactical dilemma that makes this combination effective."
+      },
+      {
+        "question": "What are the minimum control points that must be established before committing to the rolling back take?",
+        "answer": "Three control points are required: a deep underhook reaching at minimum the opponent's far hip, an active butterfly hook with upward elevation pressure under the opponent's thigh, and half guard control of the opponent's trapped leg to prevent disengagement. Additionally, sufficient space must exist to thread your head beneath the opponent's armpit. Missing any of these prerequisites significantly reduces success probability and increases counter risk."
+      },
+      {
+        "question": "What is the most critical body position during the mid-roll phase to maintain connection with the opponent?",
+        "answer": "Your chest must maintain constant contact with the opponent's body throughout the entire rolling arc. During the mid-roll, your ear should be pressed against their ribcage with your chin tucked, and your underhook arm should be actively pulling their body into yours rather than pushing away. Any separation during the roll allows the opponent to create space, turn to face you, or establish defensive frames that prevent you from arriving at back control."
+      },
+      {
+        "question": "You initiate the roll but feel the opponent sprawling their hips backward - what immediate adjustment do you make?",
+        "answer": "If the sprawl is detected early and the roll has not fully committed, abort the back take attempt by recovering your head position and returning to half butterfly guard. If the roll is past the point of no return, accelerate your rotation and aim for at minimum a crab ride or turtle top position rather than stalling mid-roll under their weight. Never freeze in the mid-roll position against a sprawl because that guarantees positional loss."
+      },
+      {
+        "question": "What underhook depth is necessary for this technique and why is insufficient depth the primary failure cause?",
+        "answer": "Your underhook hand must reach at minimum the opponent's far-side hip bone, with ideal depth reaching their lower back. This depth is critical because the underhook serves as the mechanical anchor for the entire rotation. It pulls the opponent's body into yours during the roll and prevents them from creating separation. When the underhook only reaches the near shoulder or chest, it lacks the leverage to maintain connection during rotation and the roll stalls halfway through."
+      },
+      {
+        "question": "In which direction should the primary rolling force be directed relative to the opponent's body?",
+        "answer": "The rolling force should be directed diagonally behind the opponent toward their far hip, not straight over the top or directly to the side. This diagonal angle follows the natural rotational pathway around the opponent's body and creates the tightest arc between your starting position and back control. Rolling straight sideways creates too much separation, while rolling forward goes into the opponent's strength rather than around their body to the back."
+      },
+      {
+        "question": "Your opponent applies a strong whizzer on your underhook arm as you begin the head duck - how do you respond?",
+        "answer": "The whizzer limits your underhook's rotational power, so adapt your attack vector. Redirect to a standard butterfly sweep toward the whizzer side, as the opponent's whizzer commitment removes their posting ability on that side. Alternatively, if the whizzer is applied loosely, power through it by driving your butterfly hook harder upward while pulling your underhook deeper, using the elevation to break the whizzer's grip angle and continue the roll."
+      },
+      {
+        "question": "The rolling back take attempt fails and you end up in a scramble without back control - what are your immediate follow-up options?",
+        "answer": "If you end up behind the opponent but without hooks, immediately establish a seatbelt grip and work to insert at least one hook before they can turn to face you. If you lose back position entirely, look for turtle top or crab ride as intermediate control points. If the scramble returns you to guard, reestablish half butterfly immediately rather than conceding position. The key is maintaining offensive initiative through the scramble rather than becoming passive and accepting a worse outcome."
+      }
+    ],
+    "safety_considerations": "The rolling motion places stress on the neck and shoulder girdle during the transition phase. Always practice with controlled speed initially, ensuring your neck remains tucked throughout the roll rather than bearing weight. Communicate with training partners about the direction and speed of the roll to prevent unexpected collisions or awkward landings. Avoid forcing the roll when the underhook is insufficient, as this can result in compromised neck positioning under the opponent's weight. In drilling, start with cooperative repetitions at slow speed before adding progressive resistance, and tap immediately if you feel neck compression during a stalled roll attempt."
+  },
+  "defender": {
+    "name": "Rolling Back Take from Half Butterfly Defender",
+    "description": "Defend the Rolling Back Take from Half Butterfly with early recognition cues, whizzer control, sprawl timing, and systematic prevention strategies to maintain top position.",
+    "overview": "Defending the Rolling Back Take from Half Butterfly requires early recognition of the setup sequence and immediate disruption before the roll gains momentum. The top player must monitor the depth of the bottom player's underhook, the elevation angle of their butterfly hook, and any attempt to lower their head beneath your arm. Once the rolling motion initiates, defensive options diminish rapidly, making prevention far more effective than mid-roll recovery. The defender's primary tools include whizzer control to limit underhook depth, forward pressure to prevent head positioning, and sprawling mechanics to counter the rotational momentum. Understanding the specific setup prerequisites allows the top player to intervene at the earliest and most effective stage of the attack sequence.",
+    "key_principles": [
+      "Monitor underhook depth continuously and apply whizzer counter-pressure the moment it begins deepening past your armpit",
+      "Maintain forward chest pressure to close the space under your armpit that the attacker needs for the head duck",
+      "Recognize that prevention during the setup phase is exponentially more effective than defending the roll once momentum has been established",
+      "Keep hips heavy and low against the butterfly hook to reduce the elevation that creates space for the rolling entry",
+      "Use crossface control to prevent the attacker's head from dropping below your armpit level on the underhook side",
+      "If the roll initiates despite defensive efforts, transition immediately to sprawl rather than attempting to resist the rotational force directly"
+    ],
+    "recognition_cues": [
+      "Bottom player's underhook deepens noticeably past your armpit with their hand reaching toward your far hip or lower back",
+      "Butterfly hook elevation increases with sustained upward drive rather than the lateral push typical of standard sweep attempts",
+      "Bottom player's head begins dropping below your armpit level on the underhook side, threading beneath your arm",
+      "Combined sensation of being lifted by the butterfly hook while simultaneously being pulled by the underhook toward the bottom player's far shoulder",
+      "Bottom player shifts from lateral sweep-threatening angle to a more perpendicular angle relative to your body, positioning for the rotation"
+    ],
+    "defensive_options": [
+      {
+        "action": "Apply deep whizzer on the underhook arm by clamping your armpit down on their upper arm and rotating your forearm over their tricep",
+        "when_to_use": "As soon as you feel the underhook deepening past your armpit toward your far hip, before it reaches full depth",
+        "targets_outcome": "Half Butterfly/Bottom",
+        "if_successful": "Prevents the bottom player from achieving the underhook depth needed for the roll, forcing them to abandon the attempt or redirect to a standard sweep that you can defend separately",
+        "risk": "If the whizzer is applied loosely, the bottom player can power through and complete the roll with slight delay, arriving at back control despite the defensive effort"
+      },
+      {
+        "action": "Sprawl hips backward forcefully while driving chest weight onto the opponent's shoulders to kill rolling momentum",
+        "when_to_use": "When you detect the head ducking beneath your arm or feel the initial rotational pull of the rolling motion beginning",
+        "targets_outcome": "Side Control/Bottom",
+        "if_successful": "Kills the rolling momentum entirely and flattens the bottom player, creating an immediate guard passing opportunity to advance to side control as they are stuck in a compromised position",
+        "risk": "If timed too late after the roll has generated sufficient momentum, the sprawl may not stop the rotation and you lose back position while being carried forward"
+      },
+      {
+        "action": "Drive forward with crossface pressure while closing the armpit space to prevent the head duck entry",
+        "when_to_use": "When the butterfly hook begins elevated pushing and the opponent's head starts lowering toward your armpit, during the early setup phase",
+        "targets_outcome": "Half Butterfly/Bottom",
+        "if_successful": "Prevents the head duck-under essential for the roll by closing the space under your arm and forcing the bottom player's head back to neutral, neutralizing the primary entry mechanism",
+        "risk": "Forward pressure increases vulnerability to standard butterfly sweeps if the bottom player redirects their attack laterally rather than continuing the rolling attempt"
+      },
+      {
+        "action": "Strip the underhook entirely using two-on-one arm control by grabbing their wrist with both hands and pulling it back across your centerline",
+        "when_to_use": "Early in the setup when the underhook is still developing and has not yet reached full depth past your armpit",
+        "targets_outcome": "Half Butterfly/Bottom",
+        "if_successful": "Completely removes the primary mechanical anchor for the rolling back take, neutralizing the threat at its foundation and allowing you to resume passing without roll danger",
+        "risk": "Requires temporarily releasing passing grips to address the underhook, which may allow the bottom player to improve guard position or attempt alternative attacks during the transition"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Side Control/Bottom",
+        "how": "Sprawl hips back forcefully when you detect the rolling motion initiating, drive your weight forward to flatten the bottom player as their roll stalls, then immediately work to clear the half guard and advance past their legs to consolidate side control while they are in a compromised transitional position."
+      },
+      {
+        "outcome": "Half Butterfly/Bottom",
+        "how": "Apply early whizzer pressure on the deepening underhook and maintain heavy forward chest pressure to close the armpit space, preventing the bottom player from completing the setup prerequisites. The attacker remains in half butterfly bottom unable to generate the rolling motion, and you maintain your top passing position."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Failing to address the deep underhook before it reaches full depth past the armpit toward the far hip",
+        "consequence": "Once the underhook reaches the far hip, the bottom player has the mechanical leverage needed for the roll, and the window for effective prevention has closed significantly",
+        "correction": "Immediately apply whizzer pressure or overhook control when you feel the underhook deepening past your armpit. Strip it early while it is still shallow rather than accepting it and trying to defend the rolling motion after the setup is complete."
+      },
+      {
+        "error": "Posting hands on the mat with arms extended while leaving the armpit area unprotected and open",
+        "consequence": "Posting creates the exact space the bottom player needs to thread their head under your arm, and your hands on the mat cannot apply the pressure needed to prevent the rolling motion from initiating",
+        "correction": "If you must post for balance, keep your elbow tight against your body and maintain crossface or shoulder pressure. Never create a wide gap under your armpit while your weight is distributed to your hands on the mat."
+      },
+      {
+        "error": "Attempting to resist the roll by bracing upward with static resistance after momentum has already been established",
+        "consequence": "Once rolling momentum is fully established, upward static resistance is futile and wastes energy. The bottom player's rotational force combined with butterfly hook elevation overcomes bracing attempts and you lose position while exhausted.",
+        "correction": "If the roll has already initiated with committed momentum, transition to a sprawl immediately rather than trying to resist the rotation in place. Focus on following the motion to arrive in the best defensive position available rather than fighting a losing battle against physics."
+      },
+      {
+        "error": "Ignoring the butterfly hook's increasing elevation and focusing exclusively on passing the half guard legs",
+        "consequence": "The elevated butterfly hook creates the space and angle that enables the rolling back take. Dismissing the hook's growing upward pressure allows the bottom player to establish all prerequisites for the roll while you focus on the wrong threat.",
+        "correction": "Drive your hips forward and heavy against the butterfly hook to neutralize its elevation potential as your primary defensive concern. Your passing strategy must address the hook's lifting power before committing to leg-focused passing sequences."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the earliest recognition cue that signals a rolling back take attempt rather than a standard butterfly sweep?",
+        "answer": "The critical differentiator is the bottom player ducking their head beneath your arm on the underhook side. A standard butterfly sweep involves driving you laterally or overhead while maintaining upward head position, but the rolling back take requires the head to thread under your armpit. When you feel the underhook deepening AND their head dropping below your armpit level simultaneously, they are committing to the roll rather than a conventional sweep."
+      },
+      {
+        "question": "Your opponent has a deep underhook and begins lowering their head toward your armpit - what is your immediate defensive response?",
+        "answer": "Apply an overhook or whizzer on their underhook arm while simultaneously driving your weight forward and down through your chest onto their shoulder. This combination limits the underhook's rotational power and closes the space under your armpit needed for head clearance. If the whizzer alone is insufficient, add a crossface with your free hand to drive their head back up and prevent them from completing the duck-under sequence."
+      },
+      {
+        "question": "How should your hip positioning change when defending the rolling back take compared to defending standard half butterfly sweeps?",
+        "answer": "Against standard sweeps, you keep hips heavy and drive forward to neutralize the butterfly hook's elevation. Against the rolling back take specifically, you need to add a sprawling component where your hips drop back and away from the underhook side. This sprawl removes the rotational pathway the bottom player needs and makes their rolling arc too long to maintain body connection. The key difference is the backward hip drive rather than purely forward pressure."
+      },
+      {
+        "question": "The rolling motion has already begun and you feel yourself being carried forward - what is your best recovery option?",
+        "answer": "Do not fight the rotation directly. Instead, accelerate through the scramble by turning into the bottom player as they come around your back. Post your hands and immediately begin turning to face them before they can establish hooks. Your goal shifts from preventing the back take to winning the resulting scramble by turning to face them before they consolidate back control. The faster you accept the position change and commit to the counter-scramble, the better your recovery chances."
+      },
+      {
+        "question": "What defensive grip should you prioritize when you feel the underhook deepening past the danger threshold?",
+        "answer": "Immediately establish an overhook or whizzer grip on the underhook arm by clamping your armpit down on their upper arm and rotating your forearm over their tricep. This whizzer must be tight enough to prevent their hand from reaching your far hip. Simultaneously, use your free hand to crossface or push on their forehead to prevent the head duck. The combination of whizzer controlling arm depth and crossface preventing head positioning neutralizes both prerequisites for the roll."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Recognition Drilling",
+        "focus": "Identifying setup cues early in the attack sequence",
+        "description": "Partner slowly establishes the rolling back take prerequisites from half butterfly while you practice identifying each cue: underhook depth increasing, butterfly hook loading upward, head lowering toward armpit. Call out each recognition cue as it happens without actively defending. Develops the pattern recognition needed for early intervention."
+      },
+      {
+        "phase": "Phase 2: Prevention Techniques",
+        "focus": "Early-stage defensive responses before the roll commits",
+        "description": "Partner attempts rolling back take setups with moderate speed and resistance. Practice specific prevention techniques in isolation: whizzer on deepening underhook, forward pressure to close armpit space, crossface to prevent head positioning. Reset after each successful or failed prevention. Focus on timing intervention before the point of no return."
+      },
+      {
+        "phase": "Phase 3: Scramble Recovery",
+        "focus": "Defensive responses when the roll initiates despite prevention efforts",
+        "description": "Partner commits to the rolling back take at full technique speed. Practice mid-roll defensive options: sprawling during initiation, turning into the scramble to face the attacker, preventing hook insertion after the roll completes. Develop instinctive reactions for the critical transition window between roll initiation and back control establishment."
+      },
+      {
+        "phase": "Phase 4: Live Contextual Defense",
+        "focus": "Full-speed defense integrated within complete half butterfly top game",
+        "description": "Positional sparring starting from half butterfly top position. Partner mixes standard butterfly sweeps with rolling back take attempts at competition intensity. Develop the ability to read which technique is coming and select the appropriate defensive response in real time while maintaining your own passing initiative."
+      }
+    ]
+  }
+}

@@ -1,0 +1,451 @@
+{
+  "name": "Peruvian Necktie Setup",
+  "description": "Learn Peruvian Necktie Setup in BJJ. Step-by-step execution from Front Headlock with leg threading mechanics, overhook control, and finishing sequences.",
+  "tags": [
+    "bjj",
+    "transition",
+    "submission",
+    "front_headlock",
+    "advanced",
+    "turtle_attack",
+    "necktie",
+    "no-gi",
+    "scramble",
+    "inversion"
+  ],
+  "from_position": "Front Headlock/Top",
+  "outcomes": [
+    {
+      "to": "game-over",
+      "probability": 50,
+      "result": "success"
+    },
+    {
+      "to": "Front Headlock/Top",
+      "probability": 35,
+      "result": "failure"
+    },
+    {
+      "to": "Turtle/Bottom",
+      "probability": 15,
+      "result": "counter"
+    }
+  ],
+  "success_rate": 42,
+  "overview": "The Peruvian Necktie Setup is an advanced submission transition that exploits opponent's defensive turtle position or failed takedown attempts. This technique combines elements of front headlock control with creative body positioning to establish a powerful choking mechanism. The setup requires precise timing and exceptional understanding of weight distribution, as the practitioner must maintain control while transitioning their body underneath the opponent. Unlike traditional front headlock attacks, the Peruvian Necktie utilizes the opponent's own shoulder as a fulcrum point, creating a unique choking mechanism that attacks both the carotid arteries and applies pressure to the neck. The technique gained prominence in modern no-gi competition and represents the evolution of front headlock finishing sequences. Success with this setup demands strong grip control, flexibility to maneuver underneath the opponent, and the ability to recognize the precise moment when defensive posture creates the necessary opening for entry.",
+  "related_content": [
+    {
+      "name": "Front Headlock",
+      "relationship": "Starting position - primary control position for entry"
+    },
+    {
+      "name": "Anaconda Setup",
+      "relationship": "Alternative setup - complementary technique from same starting position"
+    },
+    {
+      "name": "Darce Setup",
+      "relationship": "Alternative setup - creates submission dilemma when chained together"
+    },
+    {
+      "name": "Peruvian Necktie",
+      "relationship": "Submission finish - the submission completed after this setup"
+    },
+    {
+      "name": "Japanese Necktie Setup",
+      "relationship": "Variation - related necktie-style setup with different entry angle"
+    },
+    {
+      "name": "Anaconda Choke",
+      "relationship": "Complementary submission - creates threat sequence from front headlock"
+    },
+    {
+      "name": "Darce Choke",
+      "relationship": "Complementary submission - alternative front headlock finish"
+    },
+    {
+      "name": "Guillotine Setup",
+      "relationship": "Alternative setup - backup option if Peruvian Necktie entry fails"
+    },
+    {
+      "name": "Front Headlock to Back",
+      "relationship": "Alternative transition - positional advancement option from same control"
+    },
+    {
+      "name": "Guillotine Choke",
+      "relationship": "Related submission - shares similar control principles and timing windows"
+    },
+    {
+      "name": "Turtle",
+      "relationship": "Opponent position - defensive posture being exploited for entry"
+    }
+  ],
+  "attacker": {
+    "name": "Peruvian Necktie Setup Attacker",
+    "description": "How to execute Peruvian Necktie Setup in BJJ. Attacking perspective with setup, execution steps, and counters.",
+    "overview": "The Peruvian Necktie Setup is an advanced submission transition that exploits opponent's defensive turtle position or failed takedown attempts. This technique combines elements of front headlock control with creative body positioning to establish a powerful choking mechanism. The setup requires precise timing and exceptional understanding of weight distribution, as the practitioner must maintain control while transitioning their body underneath the opponent. Unlike traditional front headlock attacks, the Peruvian Necktie utilizes the opponent's own shoulder as a fulcrum point, creating a unique choking mechanism that attacks both the carotid arteries and applies pressure to the neck. The technique gained prominence in modern no-gi competition and represents the evolution of front headlock finishing sequences. Success with this setup demands strong grip control, flexibility to maneuver underneath the opponent, and the ability to recognize the precise moment when defensive posture creates the necessary opening for entry.",
+    "key_principles": [
+      "Establish dominant front headlock control before attempting the setup",
+      "Use opponent's defensive turtle posture to create space for body insertion",
+      "Secure deep overhook grip on near arm to prevent escape",
+      "Thread your body underneath opponent while maintaining head control",
+      "Position opponent's shoulder as the choking fulcrum point",
+      "Control opponent's hips to prevent rolling escape",
+      "Maintain constant pressure throughout the transitional phase"
+    ],
+    "setup_requirements": [
+      "Front headlock position established with head control",
+      "Opponent in defensive turtle or failed single leg position",
+      "Deep overhook secured on opponent's near arm",
+      "Sufficient space to thread body underneath opponent",
+      "Strong grip on opponent's head or neck",
+      "Opponent's weight distributed forward over their knees"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Establish front headlock control",
+        "description": "From standing or scramble position, secure a tight front headlock with your arm wrapped around opponent's head and neck. Your chest should be heavy on their upper back, forcing their head down. Grip your hands together in a gable grip or secure a deep overhook on their near arm."
+      },
+      {
+        "step_number": 2,
+        "action": "Secure deep overhook",
+        "description": "Release the gable grip and thread your near arm deep underneath opponent's armpit, securing a tight overhook. Your hand should reach across their back, gripping their far lat or shoulder. This overhook prevents them from pulling their arm free and creates the structural foundation for the choke."
+      },
+      {
+        "step_number": 3,
+        "action": "Drop to outside hip",
+        "description": "While maintaining head and overhook control, drop your weight to your outside hip (same side as the overhook). Your free hand maintains pressure on opponent's head, keeping it trapped. Position your body at approximately 90 degrees to opponent's body alignment."
+      },
+      {
+        "step_number": 4,
+        "action": "Thread leg underneath",
+        "description": "Begin threading your outside leg underneath opponent's chest and body. Your shin should slide across the mat underneath their torso. Maintain constant downward pressure on their head with your choking arm while the overhook prevents them from sprawling away. Your body begins to invert underneath theirs."
+      },
+      {
+        "step_number": 5,
+        "action": "Secure leg triangle",
+        "description": "As your leg threads through, lock a triangle configuration with your legs around opponent's body. Your outside leg hooks over your inside leg's ankle or shin. This leg triangle creates a frame that traps opponent's body and prevents them from rolling through or escaping laterally."
+      },
+      {
+        "step_number": 6,
+        "action": "Adjust choking arm position",
+        "description": "Fine-tune your choking arm so opponent's own shoulder becomes the fulcrum point pressing into their neck. Your forearm wraps tightly around their neck with their shoulder blade wedged against their carotid artery. Maintain the overhook to keep their arm trapped and prevent hand fighting."
+      },
+      {
+        "step_number": 7,
+        "action": "Complete body positioning and finish",
+        "description": "Your body should now be fully underneath opponent with your back on the mat, legs locked in triangle around their torso, overhook secured, and choking arm tight around neck. Arch your hips upward to increase pressure on the choke. Keep opponent's head pulled tight to your chest to prevent them from creating space. Apply finishing pressure by extending hips and squeezing."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Opponent pulls trapped arm free before overhook is secured",
+        "effectiveness": "High",
+        "your_response": "Immediately switch to traditional front headlock attacks like anaconda or guillotine, or re-establish gable grip and work for back take",
+        "targets_outcome": "Front Headlock/Top"
+      },
+      {
+        "counter": "Opponent postures up and sprawls backward before leg can thread through",
+        "effectiveness": "High",
+        "your_response": "Follow opponent's backward movement, maintain head control, and transition to standing guillotine or snap them back down to turtle",
+        "targets_outcome": "Front Headlock/Top"
+      },
+      {
+        "counter": "Opponent rolls through toward your legs as you invert",
+        "effectiveness": "Medium",
+        "your_response": "Use their rolling momentum to establish back control or transition to mounted triangle position",
+        "targets_outcome": "Turtle/Bottom"
+      },
+      {
+        "counter": "Opponent creates frame with free arm against your hip",
+        "effectiveness": "Medium",
+        "your_response": "Kick your outside leg through faster to prevent frame establishment, or use their frame to pivot into alternative front headlock finishes",
+        "targets_outcome": "Front Headlock/Top"
+      },
+      {
+        "counter": "Opponent stands up while you're mid-transition",
+        "effectiveness": "Low",
+        "your_response": "Maintain head control and overhook, allow yourself to hang from opponent, then use your body weight to pull them back down or transition to standing guillotine",
+        "targets_outcome": "Front Headlock/Top"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Attempting setup without secure overhook control",
+        "consequence": "Opponent easily pulls their arm free and escapes to neutral position or top control",
+        "correction": "Always establish and test the overhook's tightness before dropping to hip and beginning leg thread"
+      },
+      {
+        "error": "Threading leg too slowly or hesitantly",
+        "consequence": "Opponent recognizes the setup and sprawls backward or turns into you, shutting down the entry",
+        "correction": "Commit fully to the leg thread once initiated - move with speed and confidence to complete the insertion before opponent reacts"
+      },
+      {
+        "error": "Releasing head pressure during transition",
+        "consequence": "Opponent postures up and escapes the front headlock control entirely",
+        "correction": "Maintain constant downward pressure on opponent's head throughout entire sequence, using your body weight and arm strength simultaneously"
+      },
+      {
+        "error": "Failing to lock leg triangle tightly",
+        "consequence": "Opponent rolls through your legs or backs out of the position completely",
+        "correction": "Squeeze knees together and flex your locked ankle to create maximum tightness in the triangle configuration"
+      },
+      {
+        "error": "Positioning too far from opponent's body when inverting",
+        "consequence": "Creates space for opponent to escape or reduces choking pressure significantly",
+        "correction": "Keep opponent pulled tight to your chest throughout the setup - there should be no gap between your bodies"
+      },
+      {
+        "error": "Incorrect shoulder placement for choking mechanism",
+        "consequence": "Choke lacks effectiveness despite position being achieved",
+        "correction": "Ensure opponent's shoulder blade is wedged tightly against their own neck, creating the fulcrum that makes the choke work"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Week 1-2: Fundamentals",
+        "focus": "Front headlock control and overhook establishment",
+        "description": "Practice securing tight front headlock control from various entries (failed shots, turtle, scrambles). Drill transitioning from gable grip to deep overhook while maintaining head control. Partner offers no resistance. Focus on grip placement and body positioning."
+      },
+      {
+        "phase": "Week 3-4: Movement patterns",
+        "focus": "Hip drop and leg threading mechanics",
+        "description": "Add the movement of dropping to outside hip and threading leg underneath partner's body. Practice the inversion movement slowly to develop body awareness and coordination. Partner remains stationary in turtle position. Work on smooth, flowing movement between all positions."
+      },
+      {
+        "phase": "Week 5-8: Position completion",
+        "focus": "Full setup sequence with leg triangle lock",
+        "description": "Execute complete setup from front headlock to finished Peruvian Necktie position. Partner provides light resistance by trying to maintain turtle posture. Practice locking the leg triangle and adjusting choking arm position. Work on recognizing proper finishing position."
+      },
+      {
+        "phase": "Week 9-12: Timing and counters",
+        "focus": "Setup timing and defending common counters",
+        "description": "Partner actively attempts to prevent setup using common defensive strategies (pulling arm free, sprawling, rolling). Practice recognizing optimal timing windows and adjusting when opponent counters. Develop backup options when primary setup is denied."
+      },
+      {
+        "phase": "Week 13+: Live integration",
+        "focus": "Setup from live scrambles and transitions",
+        "description": "Attempt Peruvian Necktie setup during live positional sparring from front headlock position. Partner uses full defensive strategies. Work on chaining this setup with other front headlock attacks to create submission threat sequences. Develop ability to recognize setup opportunities in real time."
+      },
+      {
+        "phase": "Ongoing: Competition refinement",
+        "focus": "Advanced setups and entries from various positions",
+        "description": "Refine setup timing for competition scenarios. Develop multiple entry pathways (from standing, from guard passing attempts, from takedown defense). Work on explosive execution and maintaining control through opponent's maximum resistance efforts. Study film of successful competition applications."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "Why is the overhook grip critical for the Peruvian Necktie setup?",
+        "answer": "The overhook serves multiple essential functions: it prevents opponent from pulling their trapped arm free and escaping, creates structural control over their upper body, and helps maintain connection during the inversion phase. Without a secure overhook, opponent can easily extract their arm and escape before the position is established. The overhook also helps control their shoulder positioning, which is crucial for the choking mechanism."
+      },
+      {
+        "question": "What is the most common timing window for entering the Peruvian Necktie setup?",
+        "answer": "The optimal timing is when opponent is defending in turtle position with their weight committed forward over their knees, typically after a failed takedown attempt or while defending other front headlock attacks. This forward weight distribution creates space underneath their body for leg insertion. Another key moment is when opponent is static in turtle, not actively working to improve position, as their lack of movement makes the setup easier to complete."
+      },
+      {
+        "question": "How does the shoulder function as a fulcrum in the Peruvian Necktie choking mechanism?",
+        "answer": "The opponent's own shoulder blade is wedged against the side of their neck, pressing into the carotid artery. When you pull their head tight to your chest with the choking arm, their shoulder acts as a hard surface that the soft tissue of their neck is compressed against. This creates the blood choke by restricting blood flow to the brain. The unique geometry of this setup means opponent's body structure contributes to their own submission."
+      },
+      {
+        "question": "What should you do if opponent begins to roll through your legs during the setup?",
+        "answer": "Use their rolling momentum to your advantage by transitioning to back control or mounted triangle position. Maintain your grips and allow the roll to complete while you adjust your leg positioning to establish hooks or mount. The key is not fighting against their roll but rather flowing with it to a better position. If you resist the roll, you'll likely lose the position entirely, but flowing with it maintains your offensive advantage."
+      },
+      {
+        "question": "Why is the Peruvian Necktie considered more effective in no-gi than gi competition?",
+        "answer": "In no-gi, opponents cannot use gi grips to control distance or establish defensive frames as effectively. The front headlock control is tighter without gi fabric creating space, and the body-to-body contact required for the setup is more secure with skin-on-skin friction. Additionally, no-gi competitors often use more wrestling-based defensive postures in turtle, which create the exact forward weight distribution that makes the setup accessible. The overhook is also more difficult to defend without gi sleeve grips."
+      },
+      {
+        "question": "What is the primary difference between the Peruvian Necktie and the Japanese Necktie?",
+        "answer": "The primary difference is the threading angle of the choking arm. In the Peruvian Necktie, the arm threads underneath the opponent's armpit (using an overhook), while in the Japanese Necktie, the arm threads over the opponent's shoulder from the opposite side. Both create a necktie-style choke using the shoulder as a fulcrum, but the entry mechanics and optimal timing windows differ. The Peruvian variation is generally considered easier to enter from traditional front headlock positions."
+      },
+      {
+        "question": "What hip movement is most critical when applying finishing pressure in the Peruvian Necktie?",
+        "answer": "Arching your hips upward and forward while maintaining the leg triangle lock creates the finishing pressure. This hip extension drives your chest into opponent's head while simultaneously pushing their shoulder more firmly against their neck via the choking arm. The combination of hip drive, leg squeeze, and pulling their head toward your chest creates multi-directional pressure that makes the choke extremely difficult to defend once locked in."
+      },
+      {
+        "question": "Your opponent sprawls backward as you drop to your hip - how do you adjust?",
+        "answer": "Follow their backward movement while maintaining head control with your choking arm. Use their sprawling momentum to accelerate your own hip drop and leg threading motion. If they sprawl far enough that leg threading becomes impossible, transition immediately to a standing guillotine by coming up with them or snap them back down by driving your weight forward through the head control. Never let them create distance without adapting your attack."
+      },
+      {
+        "question": "What entry requirements must exist before attempting the Peruvian Necktie setup?",
+        "answer": "Four conditions must be present: front headlock control with heavy chest pressure on opponent's upper back, opponent in forward-weighted turtle or bent-over position, access to secure a deep overhook on their near arm, and sufficient space to thread your leg underneath their body. Additionally, opponent should not be actively posturing up or turning into you. Missing these requirements significantly reduces success probability and you should chain to alternative attacks instead."
+      },
+      {
+        "question": "What is the correct leg triangle configuration once you've threaded underneath opponent?",
+        "answer": "Your outside leg (the one that threads through first) hooks over your inside leg's ankle or shin, creating a figure-four or triangle lock around opponent's torso at approximately hip level. Squeeze your knees together and flex the hooking ankle to tighten the configuration. This leg triangle prevents opponent from rolling through, backing out, or turning laterally. The tightness of this lock determines whether you can control the position long enough to apply finishing pressure."
+      },
+      {
+        "question": "If your opponent successfully clears the overhook, what chain attacks remain available?",
+        "answer": "When opponent clears the overhook, immediately transition to guillotine by tightening head control and pulling their head into your hip, Anaconda choke by threading under their freed arm, Darce choke by going over their far shoulder, or work to take their back by circling behind as they focus on arm extraction. The key is recognizing the overhook loss early and immediately flowing to the next threat rather than trying to re-establish the original setup against an alerted opponent."
+      },
+      {
+        "question": "How does the direction of choking force differ from a standard guillotine?",
+        "answer": "In a standard guillotine, force is applied by pulling the head downward while driving hips into opponent's throat, creating compression between forearm and chest. In the Peruvian Necktie, force comes from pulling the head toward your chest while the opponent's own shoulder creates the compression point against their neck. The choking pressure is lateral (from the side) rather than anterior (from the front), and your hip extension drives their body forward into their own shoulder rather than into your body."
+      }
+    ],
+    "safety_considerations": "The Peruvian Necktie is a blood choke that can cause unconsciousness rapidly if applied with full force. Practice this technique with controlled pressure and clear communication with training partners. Always tap immediately when caught in this position as the choking mechanism tightens quickly due to the shoulder fulcrum. When applying the technique, release pressure immediately upon feeling a tap or verbal submission. During drilling phases, focus on position achievement rather than finishing the choke. Be especially cautious during the inversion phase as rapid movements can strain neck muscles or cause dizziness. Partners with neck injuries should avoid this technique entirely. The leg threading motion can also create torque on the knee if executed incorrectly, so maintain proper leg alignment throughout. Always practice under qualified supervision, particularly during initial learning phases."
+  },
+  "defender": {
+    "name": "Peruvian Necktie Setup Defender",
+    "description": "How to defend against Peruvian Necktie Setup in BJJ. Recognition cues, defensive options, and escape strategies.",
+    "overview": "Defending the Peruvian Necktie Setup demands early recognition and immediate action, because this choke becomes nearly inescapable once the leg triangle is locked and hip rotation begins. Your defensive timeline is compressed into three critical windows: the front headlock phase, the overhook establishment phase, and the leg threading phase. Missing all three means you are fighting a fully locked blood choke with diminishing returns on every escape attempt. The defense centers on preventing the attacker from completing the sequential chain of controls that make the Peruvian Necktie work. Your near arm must stay free, your posture must be recovered or at minimum maintained, and you must create lateral movement rather than pulling backward into the choking pressure. Understanding the biomechanics of this choke reveals that the attacker needs three structural elements in place simultaneously: head control, arm trap via overhook, and leg triangle lock. Disrupting any single element collapses the entire attack. Prioritize arm extraction above all else during the early phases, and if the triangle is locked with bilateral carotid pressure, tap immediately rather than risking unconsciousness from a technique with one of the highest finishing rates in modern grappling.",
+    "key_principles": [
+      "Defend at the earliest phase possible - each completed phase dramatically reduces escape probability",
+      "Keep your near arm free at all costs, as the overhook trap is the structural foundation of the entire choke",
+      "Maintain chin tucked to chest to reduce available choking surface and protect carotid arteries",
+      "Create lateral movement and angles rather than pulling straight backward against the choking force",
+      "Posture recovery before the leg thread is your highest-percentage escape window",
+      "If the triangle is locked and you feel bilateral neck pressure, tap immediately rather than risk unconsciousness"
+    ],
+    "recognition_cues": [
+      "Opponent releases gable grip from front headlock and begins threading their arm deep under your armpit for an overhook, indicating they are transitioning from standard front headlock control to the Peruvian Necktie configuration",
+      "You feel opponent dropping their weight to their outside hip while maintaining head pressure, shifting from a sprawled position to a perpendicular angle relative to your body",
+      "A leg begins threading underneath your torso as opponent inverts their body, with their shin sliding across the mat beneath your chest while head and overhook pressure remain constant",
+      "Opponent's body rotates underneath yours with their back approaching the mat, and you feel a triangle lock tightening around your torso at hip level"
+    ],
+    "defensive_options": [
+      {
+        "action": "Posture up explosively and drive forward before the overhook is secured",
+        "when_to_use": "During the initial front headlock phase when you feel opponent releasing their gable grip to establish the overhook - this is the widest defensive window",
+        "targets_outcome": "Front Headlock/Top",
+        "if_successful": "You break the front headlock control entirely, forcing opponent to re-establish position or chain to a different attack from a neutral exchange",
+        "risk": "If you posture but fail to fully escape, you may expose your neck for a guillotine as opponent capitalizes on your upward movement"
+      },
+      {
+        "action": "Strip the overhook by pulling your near arm down and across your body while circling away",
+        "when_to_use": "When you feel your arm being trapped under opponent's armpit but before they have dropped to their hip and begun the leg thread",
+        "targets_outcome": "Front Headlock/Top",
+        "if_successful": "Without the overhook, the Peruvian Necktie structure collapses and opponent must transition to guillotine, darce, anaconda, or abandon the attack",
+        "risk": "Active arm extraction creates brief moments of reduced defensive framing where opponent may switch to an anaconda or darce entry on the freed arm"
+      },
+      {
+        "action": "Turn into the attacker and sit through to guard as their leg threads underneath",
+        "when_to_use": "During the leg threading phase when opponent's base is most compromised by their inversion movement and their weight shifts off you",
+        "targets_outcome": "Turtle/Bottom",
+        "if_successful": "You recover to half guard or scramble position, completely neutralizing the front headlock threat and resetting the positional exchange",
+        "risk": "Poor timing on the sit-through while the leg is partially threaded can accelerate the choke setup if opponent maintains head control through your turn"
+      },
+      {
+        "action": "Roll through with opponent's momentum and scramble to top position",
+        "when_to_use": "When the leg triangle is partially locked but not yet tight, and opponent is committing their body weight underneath you during the inversion",
+        "targets_outcome": "Turtle/Bottom",
+        "if_successful": "You end up in a scramble or top position with the choke loosened, allowing you to disengage and reset",
+        "risk": "Rolling with a partially locked triangle can tighten the choke if opponent adjusts during the roll, potentially accelerating the finish"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Front Headlock/Top",
+        "how": "Posture up explosively during the early setup phase before the overhook is secured, or strip the overhook by pulling your near arm down and across your body while circling laterally away from the choking side. Both actions deny the attacker the structural elements needed for the Peruvian Necktie and force them to reset or chain to a different front headlock attack."
+      },
+      {
+        "outcome": "Turtle/Bottom",
+        "how": "Turn into the attacker and execute a sit-through during the leg threading phase when their base is most compromised. Their inversion movement creates a window where their weight shifts off you, allowing you to rotate and recover to turtle or half guard. Alternatively, roll through their momentum if the triangle is partially locked but not yet tight."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Remaining static in turtle and allowing the attacker to complete all setup phases without resistance",
+        "consequence": "Attacker secures overhook, threads leg, and locks triangle without interference, resulting in a fully locked choke with near-zero escape probability",
+        "correction": "React within the first second of recognizing front headlock control. Hand fight immediately to prevent the overhook, and begin moving laterally or working to posture. Static defense against the Peruvian Necktie is a guaranteed submission."
+      },
+      {
+        "error": "Pulling head straight backward once the leg triangle is locked",
+        "consequence": "Pulling backward tightens the triangle configuration and drives your own shoulder deeper into your neck, accelerating the carotid compression and hastening unconsciousness",
+        "correction": "Move laterally by turning into or away from the attacker rather than pulling straight back. If bilateral carotid pressure is present with the triangle locked, tap immediately rather than attempting a late escape."
+      },
+      {
+        "error": "Focusing on defending the leg thread while ignoring the overhook establishment",
+        "consequence": "The overhook is the earlier and more critical control point. By the time the leg is threading, the structural foundation of the choke is already in place and escape probability has dropped below 30%",
+        "correction": "Prioritize keeping your near arm free above everything else. Active hand fighting and arm extraction during the overhook phase is your highest-percentage defense. If the arm stays free, the Peruvian Necktie cannot be completed."
+      },
+      {
+        "error": "Extending the neck upward to create space instead of keeping chin tucked",
+        "consequence": "Neck extension exposes the carotid arteries and creates the exact surface area the attacker needs, while also risking cervical spine injury under the rotational pressure of the choke",
+        "correction": "Keep chin permanently tucked to chest throughout the entire defensive sequence. The tucked chin reduces available choking surface and makes it harder for the attacker to position their forearm across the carotid."
+      },
+      {
+        "error": "Refusing to tap when the triangle is locked and hip rotation has begun",
+        "consequence": "Bilateral carotid compression causes unconsciousness within 5-10 seconds. Continuing to fight a fully locked Peruvian Necktie risks going unconscious with continued pressure on the neck, potentially causing neurological complications",
+        "correction": "Recognize when the choke is fully locked: bilateral neck pressure, tight triangle, hips rotating. At this stage, tap immediately. Late escapes from a fully locked Peruvian Necktie have an extremely low success rate."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "At what phase of the Peruvian Necktie setup is your defense most likely to succeed, and why?",
+        "answer": "Defense is most likely to succeed during the overhook establishment phase, before the attacker drops to their hip and threads the leg. At this stage you still have both arms available for hand fighting, your posture can be recovered explosively, and the attacker must manage their own balance while transitioning from gable grip to overhook. Once the overhook is secured and the hip drops, escape probability drops significantly because the structural foundation of the choke is in place. Defending the overhook means you are fighting a front headlock, not a necktie."
+      },
+      {
+        "question": "You feel your near arm being trapped under your opponent's armpit - what is your immediate response?",
+        "answer": "Immediately pull your arm down and across your body to strip it free from the overhook before it can be fully secured. Use your free hand to push against opponent's hip or shoulder to create separation while you extract the arm. Simultaneously begin circling away from the choking side to create an angle that makes the overhook harder to maintain. Speed is critical because once the overhook is fully locked and opponent drops to their hip, arm extraction becomes exponentially harder. If the arm comes free, immediately return to active turtle defense with elbows tight."
+      },
+      {
+        "question": "Why is lateral movement more effective than pulling straight backward when defending the Peruvian Necktie?",
+        "answer": "The Peruvian Necktie's choking force operates along the axis between attacker's chest and your neck, meaning pulling backward drives you directly into the choking pressure and actually tightens the configuration. Lateral movement disrupts the alignment the attacker needs by changing the angle of force application. Turning into the attacker can collapse their leg threading angle and create scramble opportunities, while turning away creates space to extract your arm. Both lateral directions are superior to backward movement because they address the choke's geometry rather than fighting against it."
+      },
+      {
+        "question": "Your opponent has dropped to their hip and is beginning to thread their leg - what options remain?",
+        "answer": "Your primary option is to sit through toward the attacker's side, using their compromised base during the inversion to create a scramble. Their weight is shifting underneath you, which temporarily reduces their control. Turn your hips and drive through to recover half guard or closed guard. A secondary option is to sprawl your hips backward explosively to prevent the leg from completing the thread. If the leg is already partially through, you can attempt to roll with their momentum to end up in a top scramble position. At this phase, acting immediately is critical because once the triangle locks, your defensive options narrow to a last-resort grip defense."
+      },
+      {
+        "question": "What follow-up attacks should you expect if you successfully extract your arm from the overhook?",
+        "answer": "Extracting your arm from the overhook forces the attacker to abandon the Peruvian Necktie, but they still have front headlock control and will immediately chain to alternative attacks. Expect a guillotine attempt as your neck is still exposed, a darce choke if they can underhook your now-freed arm from the other side, an anaconda choke by re-threading around the arm in a different configuration, or a back take if you turn away during the extraction. Continue active defense with chin tucked and elbows tight after freeing the arm rather than relaxing. The arm extraction is a critical step but not the end of the defensive sequence."
+      },
+      {
+        "question": "How do you distinguish between a Peruvian Necktie setup and a standard front headlock attack early enough to apply the correct defense?",
+        "answer": "The key tell is the overhook transition. In standard front headlock attacks like guillotines, the attacker maintains a gable grip or chin strap control with both hands on your head and neck. For the Peruvian Necktie, you will feel one arm release from the gable grip and begin threading deep under your armpit for the overhook. This is the critical differentiating moment. Additionally, the attacker's body angle shifts as they begin positioning to drop to their hip, moving from directly behind or above you to a more perpendicular alignment. Recognizing these two cues - overhook attempt and angle shift - tells you the Peruvian Necktie is coming and you need to prioritize arm extraction over standard front headlock escapes."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Week 1-2: Recognition drilling",
+        "focus": "Identifying each phase of the Peruvian Necktie setup by feel",
+        "description": "Partner walks through the Peruvian Necktie setup at slow speed, pausing at each phase: front headlock, overhook attempt, hip drop, leg thread, triangle lock. Practice identifying each phase with eyes closed and verbally calling out what you feel. Build automatic recognition of the transition from standard front headlock to Peruvian Necktie entry. Perform 15-20 slow repetitions until recognition is instinctive."
+      },
+      {
+        "phase": "Week 3-4: Phase-specific defense drilling",
+        "focus": "Practicing the correct defensive response for each attack phase",
+        "description": "Partner initiates the Peruvian Necktie and stops at a designated phase. Practice the specific defense for that phase: posture up from front headlock, strip overhook during arm trap, sit through during leg threading, defensive grip after triangle lock. Drill each phase defense 10-15 times before rotating. Partner provides light resistance only. Build muscle memory so each defensive response becomes automatic."
+      },
+      {
+        "phase": "Week 5-8: Chained defense with increasing resistance",
+        "focus": "Executing full escape sequences against graduated resistance",
+        "description": "Partner attempts the full Peruvian Necktie at increasing speed and intensity from 30% to 70%. Practice chaining defensive responses: attempt overhook strip, if that fails sit through, if that fails roll with momentum. Focus on reading the attacker's commitment level and choosing the appropriate escape. Develop the ability to flow between defensive options without pausing."
+      },
+      {
+        "phase": "Week 9-12: Live positional sparring",
+        "focus": "Defending against committed attempts in realistic conditions",
+        "description": "Positional sparring starting from front headlock. Attacker works to complete the Peruvian Necktie at full intensity while defender works to escape to any safe position. Reset after submission, escape, or 60 seconds. Track success rate and identify which defensive phase needs the most work. Begin integrating defense into regular rolling by asking partners to hunt for the Peruvian Necktie from appropriate positions."
+      }
+    ]
+  },
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Standing Peruvian Necktie entry",
+      "description": "Execute the setup from standing position by dropping suddenly to hip while opponent is in front headlock. Thread leg while opponent's weight is still high. More explosive entry but requires faster execution.",
+      "when_to_use": "When opponent is defending single leg or in standing front headlock position, particularly effective against wrestlers"
+    },
+    {
+      "variant_name": "No-gi Peruvian Necktie with gable grip",
+      "description": "Instead of overhook, maintain tight gable grip throughout setup. Use grip pressure to control head while threading leg. Requires stronger squeeze but can be more secure in no-gi environments.",
+      "when_to_use": "In no-gi competition when overhook grip is too slippery, or when opponent is extremely skilled at clearing overhooks"
+    },
+    {
+      "variant_name": "Japanese Necktie variation",
+      "description": "Similar setup but thread arm through from opposite side, creating different choking angle. Your arm goes over opponent's shoulder instead of under. Creates alternative finish when traditional Peruvian Necktie angle is blocked.",
+      "when_to_use": "When opponent's defensive posture makes traditional entry difficult, or when switching between necktie variations to create dilemmas"
+    },
+    {
+      "variant_name": "Peruvian Necktie from bottom turtle",
+      "description": "When opponent has turtle top position and you're underneath, use granby roll motion to invert and establish the position from bottom. Requires exceptional timing and flexibility but can surprise opponents.",
+      "when_to_use": "Advanced variation for when you're stuck in bottom turtle and opponent is applying heavy shoulder pressure"
+    }
+  ],
+  "position_integration": "The Peruvian Necktie Setup represents an advanced branch of the front headlock submission system, complementing traditional attacks like the anaconda choke, darce choke, and guillotine. Within the overall BJJ hierarchy, this setup emerges most frequently from scramble positions, failed takedown attempts, and turtle defense scenarios. It serves as a valuable addition to any practitioner's front headlock game because it attacks from a different angle than conventional front headlock submissions, creating additional layers to the positional threat matrix. When opponent becomes proficient at defending anacondas and darces, the Peruvian Necktie provides an alternative finish that exploits different defensive reactions. This technique integrates particularly well with wrestling-based BJJ games, as it capitalizes on the same front headlock control that wrestlers naturally establish. The position also connects to the broader submission hunting strategy where practitioners create multiple threat sequences from dominant positions, forcing opponents into defensive dilemmas. Advanced competitors use this setup as part of a comprehensive front headlock system that includes back takes, arm-in guillotines, and position advances, with each attack flowing seamlessly into the next based on opponent's defensive responses.",
+  "conditions": [
+    "Front headlock control established with chest pressure on opponent's upper back",
+    "Opponent in forward-weighted turtle or bent-over position from failed takedown",
+    "Access to secure deep overhook on opponent's near arm",
+    "Opponent not actively posturing up or turning into you"
+  ]
+}
