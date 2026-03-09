@@ -1,2 +1,9 @@
 triggered_by,category,suggested_name,reason
 validate_graph_integrity,Transitions,Guard Recovery,Missing transition: 'Guard Recovery' (referenced but no file)
+paa_seo_bot,Positions/Butterfly Guard,Butterfly Guard vs Seated Guard,Disambiguation page comparing the two guard systems; targets high-volume 'difference between butterfly and seated guard' queries
+paa_seo_bot,Learning,Butterfly Guard for Beginners,Beginner-focused guide; targets 'is butterfly guard good for beginners' + no-gi queries; sections: setup basics success rates no-gi application
+paa_seo_bot,Learning,Marcelo Garcia Butterfly Guard System,Practitioner-focused content; Marcelo Garcia + butterfly guard is a high-volume query cluster; covers arm drag system and competition record
+paa_seo_bot,Learning,BJJ Belt System Explained,Full belt progression (white to red coral); answers all belt-related queries; sections: rank criteria time averages promotion standards
+paa_seo_bot,Learning,BJJ for Self Defense,Self-defense focused fundamentals; captures 30-40% of BJJ search intent; sections: why BJJ works scenarios 5 core techniques awareness
+paa_seo_bot,Learning,BJJ Fundamentals for No-Gi,No-gi specific fundamentals; addresses gi vs no-gi beginner queries; sections: grip differences guard selection passing systems
+paa_seo_bot,Learning,What to Expect in Your First BJJ Class,High-volume beginner acquisition page; converts organic search to training visits; sections: what happens etiquette gear what to learn
