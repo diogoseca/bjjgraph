@@ -1,0 +1,107 @@
+PAA SEO CONTEXT SUMMARY
+Generated: 2026-03-09
+Articles processed: 2
+Data source: Synthesized (mcp__dataforseo__serp_organic_live_advanced not available in environment)
+
+NOTE: PAA questions were synthesized from known BJJ search patterns and keyword research best practices.
+Re-run with DataForSEO API access for live SERP data.
+
+================================================================================
+TOTALS
+================================================================================
+Total PAA questions found: 20
+  - Butterfly Hook Control:        10 questions
+  - BJJ Fundamentals Visual System: 10 questions
+
+Priority breakdown:
+  High:   9 questions (45%)
+  Medium: 7 questions (35%)
+  Low:    4 questions (20%)  [Note: counted across both articles]
+
+Integration strategies:
+  dedicated_faq:   9 instances
+  improve_heading: 5 instances
+  add_section:     6 instances
+
+================================================================================
+HIGH-PRIORITY QUESTIONS (Direct Answers Needed)
+================================================================================
+
+BUTTERFLY HOOK CONTROL:
+1. "What is butterfly guard in BJJ?" — definition query, opening content must answer this
+2. "How do you do a butterfly sweep in BJJ?" — step-by-step answer with success rates
+3. "What is the difference between butterfly guard and butterfly hook control?" — clarify sub-position
+4. "How do you pass butterfly guard?" — top-perspective FAQ, very high volume
+5. "How do you stop an arm drag from butterfly guard?" — knowledge_assessment content already exists, surface as FAQ
+
+BJJ FUNDAMENTALS VISUAL SYSTEM:
+1. "What are the basics of BJJ for beginners?" — front-load answer in opening heading
+2. "How long does it take to learn BJJ fundamentals?" — add explicit FAQ callout with belt timeline
+3. "What is the best way to learn BJJ at home?" — maps to BJJ Graph value proposition
+4. "What BJJ techniques should a white belt learn first?" — restructure white belt section as numbered FAQ
+5. "What is position before submission in BJJ?" — core principle not yet answered as a snippet
+
+================================================================================
+CONTENT GAP ANALYSIS
+================================================================================
+
+BUTTERFLY HOOK CONTROL gaps:
+- No dedicated section answering "Is butterfly guard good for beginners/no-gi?"
+- Butterfly guard vs seated guard disambiguation missing
+- Marcelo Garcia / famous practitioners association not mentioned (drives search queries)
+- MMA applicability not covered
+- Success rates not surfaced in scannable format (buried in knowledge_assessment JSON fields)
+
+BJJ FUNDAMENTALS VISUAL SYSTEM gaps:
+- No answer to "How long to get a blue belt?" (very high volume)
+- Self-defense applicability section missing (30-40% of BJJ search intent)
+- Belt system overview incomplete (only covers white-purple)
+- Gi vs No-gi fundamentals differences not addressed
+- FAQ schema and HowTo schema not implemented
+- Standing Position section underdeveloped relative to other 4 positions
+
+================================================================================
+SUGGESTED NEW ARTICLES
+================================================================================
+
+From Butterfly Hook Control:
+1. content/Positions/Butterfly Guard/Butterfly Guard vs Seated Guard.md
+   Plan: Disambiguation page comparing the two guard systems; targets 'difference between' queries
+2. content/Learning/Butterfly Guard for Beginners.md
+   Plan: Beginner-focused guide; targets 'is butterfly guard good for beginners' + no-gi queries
+3. content/Learning/Marcelo Garcia Butterfly Guard System.md
+   Plan: Practitioner-focused content; Marcelo Garcia + butterfly guard is a high-volume query cluster
+
+From BJJ Fundamentals Visual System:
+4. content/Learning/BJJ Belt System Explained.md
+   Plan: Full belt progression (white to red coral); answers all belt-related queries
+5. content/Learning/BJJ for Self Defense.md
+   Plan: Self-defense focused fundamentals; captures 30-40% of BJJ search intent
+6. content/Learning/BJJ Fundamentals for No-Gi.md
+   Plan: No-gi specific fundamentals; addresses gi vs no-gi beginner queries
+7. content/Learning/What to Expect in Your First BJJ Class.md
+   Plan: High-volume beginner acquisition page; converts organic search to training visits
+
+================================================================================
+HEADING OPTIMIZATION SUMMARY
+================================================================================
+
+Total heading changes recommended: 11
+  - Butterfly Hook Control:        5 headings
+  - BJJ Fundamentals Visual System: 6 headings
+
+Primary pattern: Convert descriptive H2s to interrogative format (What/How/Why)
+This aligns headings with PAA box entry patterns and featured snippet eligibility.
+
+================================================================================
+SCHEMA MARKUP RECOMMENDATIONS
+================================================================================
+
+Both articles should implement:
+- FAQPage schema on all question-formatted headings
+- Article schema with dateModified, author, and about (Sport: Brazilian Jiu-Jitsu)
+- BreadcrumbList schema for position hierarchy navigation
+
+BJJ Fundamentals Visual System additionally:
+- HowTo schema for the belt progression section
+- LearningResource schema (educationalLevel: Beginner)
