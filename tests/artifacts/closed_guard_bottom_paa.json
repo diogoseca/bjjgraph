@@ -1,0 +1,131 @@
+{
+  "article_path": "content/Positions/Closed Guard/Bottom.md",
+  "seed_keyword": "Closed Guard Bottom BJJ",
+  "paa_questions": [
+    {
+      "question": "What is closed guard in BJJ?",
+      "answer_snippet": "Closed guard is a fundamental BJJ position where the bottom player wraps their legs around the opponent's waist with ankles crossed behind the opponent's back, trapping them inside the guard. Despite being on the bottom, the guard player has significant control, with access to sweeps, submissions (triangle, armbar, omoplata), and transitions. It is one of the most versatile and commonly used positions from white belt through elite competition.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "dedicated_faq"
+    },
+    {
+      "question": "What are the best sweeps from closed guard?",
+      "answer_snippet": "The most effective closed guard sweeps are: Hip Bump Sweep (60% vs upright posture), Scissor Sweep (55%), Pendulum Sweep (55% vs forward pressure), Flower Sweep (50%), and Kimura to Back Take (55% when opponent posts hand). Each sweep is situational — hip bump works against upright opponents, pendulum against those driving forward, flower when the opponent lifts their knee. Chain sweeps to create dilemmas.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "dedicated_faq"
+    },
+    {
+      "question": "What submissions can you do from closed guard?",
+      "answer_snippet": "Key submissions from closed guard include: Armbar from Guard (when opponent's arm is inside and posture is broken), Triangle Choke (when opponent places arm inside), Omoplata (from triangle setups), Cross Collar Choke (gi), and Guillotine (when opponent ducks their head). The submission threat is highest when posture is broken, making posture-breaking the foundation of closed guard offense.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "dedicated_faq"
+    },
+    {
+      "question": "How do you break posture in closed guard?",
+      "answer_snippet": "Break posture by simultaneously pulling down on the opponent's collar with both hands while driving your heels into their lower back, pulling them forward and down. The combined arm-pull and heel-pressure creates a lever that disrupts their base. Crossing ankles at the small of the back (not too high or too low) maximizes control. Once posture is broken, transition immediately to attacks — do not wait for them to re-establish base.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "improve_heading"
+    },
+    {
+      "question": "Is closed guard effective in no-gi BJJ?",
+      "answer_snippet": "Yes, closed guard is effective in no-gi, though adaptations are required. Without gi collar grips, posture breaking relies on pulling behind the head (overhook + head pull) or wrist/arm control. The hip bump sweep, pendulum sweep, armbar from guard, triangle, and guillotine all work well without the gi. Many high-level no-gi competitors (Gordon Ryan, Craig Jones, Marcelo Garcia) built guard games incorporating closed guard fundamentals.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "add_section"
+    },
+    {
+      "question": "How do you defend a guard break from closed guard?",
+      "answer_snippet": "To defend guard breaks: (1) Re-close ankles immediately if they are pried apart. (2) Hip escape (shrimp) away from the break direction to create angle and disrupt their base. (3) Attack actively — a guard break requires the opponent to stand or posture, which opens hip bump sweep and pendulum sweep opportunities. (4) Transition to open guard (spider, De La Riva, butterfly) proactively before the break is complete rather than holding closed guard passively.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "add_section"
+    },
+    {
+      "question": "What is the hip bump sweep in BJJ?",
+      "answer_snippet": "The hip bump sweep is a closed guard sweep executed when the opponent maintains upright posture. The guard player sits up, establishes one underhook, and explosively drives their hip into the opponent's thigh while pushing with the underhook arm, toppling them to the side into mount. It scores mount position (~60% success vs upright opponent). Can be combined with triangle, kimura, or pendulum sweep to create a two-option dilemma.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "improve_heading"
+    },
+    {
+      "question": "What is the scissor sweep in BJJ?",
+      "answer_snippet": "The scissor sweep is performed by creating a hip angle, establishing a collar and sleeve grip, then using one shin across the opponent's chest and the other shin against their knee — scissors motion — to off-balance them to the side, landing in mount. Most effective against opponents who stay upright or lean forward without posting. Succeeds ~55% of the time from a well-established closed guard angle.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "dedicated_faq"
+    },
+    {
+      "question": "How do you open someone's closed guard?",
+      "answer_snippet": "Common closed guard breaks include: Standing guard break (stand up with proper posture, push down on their hips, one knee in for break), Knee-in guard break (one knee to center while pushing down on the hip), and grip fighting to control their ankles/legs. Breaking closed guard is a top player concern — from the bottom player's perspective, staying active with attacks, hip movement, and posture breaking prevents the opponent from creating safe breaking position.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "add_section"
+    },
+    {
+      "question": "How do you improve your closed guard?",
+      "answer_snippet": "Improve closed guard by: (1) Drilling posture-breaking chains until automatic. (2) Developing combination attacks (triangle → armbar, hip bump → kimura). (3) Building hip mobility with angle-creation drills. (4) Practicing grip fighting from guard to establish offensive grips faster. (5) Sparring with larger partners who can pass, to build guard retention under pressure. (6) Studying high-level guard players: Renzo Gracie, Marcelo Garcia, and Bernardo Faria all demonstrate excellent fundamentals.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "add_section"
+    },
+    {
+      "question": "What grips should you use in closed guard?",
+      "answer_snippet": "In gi: collar grips (break posture), sleeve grips (control arms for sweeps and armbars), and wrist grips (set up triangles and kimuras). In no-gi: overhook + head pull (posture break), wrist control (submission entries), and underhook (hip bump and back takes). Every grip should serve an offensive purpose. Avoid defensive grips that only stall — they allow the top player to dictate pace and plan a guard break.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "improve_heading"
+    },
+    {
+      "question": "What is the difference between closed guard and open guard?",
+      "answer_snippet": "In closed guard the ankles are crossed behind the opponent's back, creating a locked, secure circuit with strong control but limited sweeping angles. In open guard the legs are not locked around the opponent — the guard player uses various configurations (spider, De La Riva, butterfly, lasso) for dynamic sweeping and submission threats with more mobility. Closed guard excels for control and posture breaking; open guard excels for dynamic off-balancing and leg attacks.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "dedicated_faq"
+    }
+  ],
+  "heading_optimizations": [
+    {
+      "current": "Position Definition",
+      "suggested": "What Is Closed Guard Bottom in BJJ?",
+      "rationale": "Converts passive label to a question format that captures 'what is closed guard' search intent directly"
+    },
+    {
+      "current": "Key Defensive Principles",
+      "suggested": "How Do You Control the Opponent from Closed Guard Bottom?",
+      "rationale": "Matches how practitioners phrase their guard maintenance questions online"
+    },
+    {
+      "current": "Decision Making from This Position",
+      "suggested": "What Attack Should You Use from Closed Guard? A Decision Guide",
+      "rationale": "Captures 'what attack from closed guard' intent and positions the section as a practical reference"
+    },
+    {
+      "current": "Common Defensive Mistakes",
+      "suggested": "Why Is Your Closed Guard Getting Passed? Common Mistakes",
+      "rationale": "Pain-point framing captures troubleshooting queries from practitioners whose guards are being passed"
+    },
+    {
+      "current": "Training Drills for Defense",
+      "suggested": "How to Train Closed Guard Bottom: Drills That Build Real Skills",
+      "rationale": "Matches 'how to train closed guard' and 'closed guard drills' search queries"
+    },
+    {
+      "current": "Success Rates and Statistics",
+      "suggested": "How Effective Is Closed Guard Bottom? Sweep and Submission Rates",
+      "rationale": "Captures data-seeking queries and 'how effective is closed guard' intent"
+    }
+  ],
+  "missing_content_opportunities": [
+    "Add FAQ section: 'Is closed guard good for beginners?' — extremely high-volume beginner query",
+    "Add section: 'Closed Guard in MMA vs. BJJ' — distinct rule sets affect strategy; high search intent from MMA audience",
+    "Add section: 'No-Gi Closed Guard Adjustments' — separate the gi/no-gi distinction that practitioners commonly search for",
+    "Add section: 'Rubber Guard vs. Closed Guard' — Eddie Bravo's rubber guard is a well-known variation; comparative searches are common",
+    "Add section: 'How to Counter the Standing Guard Break' — one of the most specific high-intent troubleshooting queries for closed guard players",
+    "Add FAQ: 'Can you get submissions from closed guard against a stronger opponent?' — addresses size/strength differential concern common among beginners",
+    "Add entity mentions: Renzo Gracie, Marcelo Garcia, Bernardo Faria as canonical closed guard experts — boosts topical authority signals"
+  ]
+}
