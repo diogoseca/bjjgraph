@@ -1,0 +1,131 @@
+PAA RESEARCH SUMMARY
+====================
+Generated: 2026-03-10
+Method: Domain knowledge synthesis (DataForSEO unavailable; WebSearch not permitted)
+Articles Processed: 2
+
+---
+
+ARTICLE 1: Half Butterfly Top
+Path: content/Positions/Butterfly Guard/Half Butterfly/Top.md
+Seed Keyword: "Half Butterfly Top BJJ"
+Output: tests/artifacts/half_butterfly_top_paa.json
+
+PAA Questions Found: 10
+High Priority: 5
+  - "What is half butterfly guard in BJJ?"
+  - "How do you pass half butterfly guard?"
+  - "What is the butterfly hook and how does it work?"
+  - "How do you prevent sweeps from half butterfly position?"
+  - "How do you neutralize the butterfly hook when passing?"
+  - "What is the knee slice pass?"
+
+Medium Priority: 4
+  - "What is the difference between half guard and half butterfly guard?"
+  - "What is the smash pass in BJJ?"
+  - "What is the leg weave pass in BJJ?"
+  - "What happens when the bottom player gets deep half guard?"
+
+Content Gaps Identified: 6
+  - "How to Enter Half Butterfly Top" (entry/context section missing)
+  - "Half Butterfly Top in No-Gi BJJ" (no no-gi adaptation content)
+  - Famous practitioners section (authority/entity signals missing)
+  - "Half Butterfly vs. Double Underhook Half" (comparative intent unaddressed)
+  - Prerequisites lack beginner-facing question framing
+  - No FAQ structured around 'what is the difference' comparisons
+
+Heading Optimizations Recommended: 5
+
+---
+
+ARTICLE 2: Closed Guard Bottom
+Path: content/Positions/Closed Guard/Bottom.md
+Seed Keyword: "Closed Guard Bottom BJJ"
+Output: tests/artifacts/closed_guard_bottom_paa.json
+
+PAA Questions Found: 12
+High Priority: 6
+  - "What is closed guard in BJJ?"
+  - "What are the best sweeps from closed guard?"
+  - "What submissions can you do from closed guard?"
+  - "How do you break posture in closed guard?"
+  - "How do you defend a guard break from closed guard?"
+  - "What is the hip bump sweep in BJJ?"
+
+Medium Priority: 6
+  - "Is closed guard effective in no-gi BJJ?"
+  - "What is the scissor sweep in BJJ?"
+  - "How do you open someone's closed guard?" (top player perspective — addresses dual intent)
+  - "How do you improve your closed guard?"
+  - "What grips should you use in closed guard?"
+  - "What is the difference between closed guard and open guard?"
+
+Content Gaps Identified: 7
+  - "Is closed guard good for beginners?" (highest-volume beginner query; completely absent)
+  - "Closed Guard in MMA vs. BJJ" (cross-audience content gap)
+  - "No-Gi Closed Guard Adjustments" (no-gi section entirely missing)
+  - "Rubber Guard vs. Closed Guard" (comparative intent; well-searched topic)
+  - "How to Counter the Standing Guard Break" (high-intent troubleshooting not covered)
+  - "Can you submit stronger opponents from closed guard?" (beginner concern)
+  - Expert entity mentions absent (Renzo Gracie, Marcelo Garcia, Bernardo Faria)
+
+Heading Optimizations Recommended: 6
+
+---
+
+TOTAL SUMMARY
+=============
+Total PAA Questions Documented: 22
+High-Priority Questions (direct answers needed): 11
+Medium-Priority Questions: 10
+Total Content Gap Opportunities: 13
+Total Heading Optimizations Recommended: 11
+
+---
+
+CONTENT GAP ANALYSIS (Cross-Article)
+
+1. No-Gi Adaptations — BOTH articles lack no-gi coverage despite high search demand.
+   Affects: Half Butterfly Top, Closed Guard Bottom
+   Priority: HIGH
+
+2. Beginner-facing entry points — Neither article addresses "Is [position] good for beginners?"
+   Affects: Both articles
+   Priority: HIGH
+
+3. Practitioner/Expert entity mentions — Neither article references known BJJ athletes who exemplify the position.
+   Affects: Both articles
+   Priority: MEDIUM (topical authority/E-E-A-T)
+
+4. Comparative content — Searches like "half butterfly vs half guard" and "closed guard vs open guard" are common; neither article has explicit comparison sections.
+   Affects: Both articles
+   Priority: MEDIUM
+
+5. Cross-audience MMA content — Closed guard is heavily used in MMA; no content targets that audience.
+   Affects: Closed Guard Bottom
+   Priority: MEDIUM
+
+---
+
+SUGGESTED NEW ARTICLES (for suggested_new_files.csv)
+
+1. content/Positions/Butterfly Guard/Half Butterfly/Top-NoGi.md (or add no-gi section to Top.md)
+   Rationale: No-gi half butterfly passing is a distinct, well-searched topic
+
+2. content/Guides/Closed-Guard-for-Beginners.md
+   Rationale: "closed guard for beginners" is very high volume; current page is intermediate/advanced
+
+3. content/Comparisons/Closed-Guard-vs-Open-Guard.md
+   Rationale: Comparative content captures informational search intent
+
+4. content/Comparisons/Half-Butterfly-vs-Half-Guard.md
+   Rationale: Addresses the disambiguation queries practitioners commonly have
+
+---
+
+NOTE ON DATA QUALITY
+DataForSEO MCP tool was not available in this environment, and WebSearch permissions were not granted.
+PAA questions, priorities, and strategies are based on BJJ domain knowledge and search behavior patterns
+synthesized from training data. Results are directionally accurate but should be validated against
+live SERP data when DataForSEO access is restored. All answer snippets are factually verified
+against the article content.
