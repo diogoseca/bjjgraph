@@ -1,0 +1,111 @@
+PAA SEO Analysis Summary
+========================
+Generated: 2026-03-11
+Articles Processed: 2
+Data Source: Knowledge-based SERP pattern analysis
+Note: DataForSEO MCP tool was unavailable; PAA questions constructed from known Google SERP
+      patterns for these BJJ topic clusters. Validate against live SERP before implementation.
+
+──────────────────────────────────────────────────────────────────────
+ARTICLE 1: Buggy Choke Top
+Path: content/Positions/Buggy Choke/Top.md
+Seed Keyword: "Buggy Choke Top BJJ"
+──────────────────────────────────────────────────────────────────────
+
+Total PAA Questions Found: 10
+High-Priority Questions (direct answers needed): 6
+
+High-Priority PAA:
+  1. What is the buggy choke in BJJ?
+     → Strategy: Add dedicated FAQ schema entry + opening section clarification
+  2. Is the buggy choke legal in BJJ competitions?
+     → Strategy: Add "Competition Legality" section — currently absent from article
+  3. How do you set up the buggy choke from turtle top?
+     → Strategy: Reframe "Key Offensive Principles" heading to match how-to query
+  4. How do you escape the buggy choke?
+     → Strategy: Add "How to Escape" section or prominent cross-link to Defender page
+  5. Can the buggy choke be done in no-gi?
+     → Strategy: Add "No-Gi Variations" section — currently absent
+  6. What positions can you transition to from a failed buggy choke?
+     → Strategy: Reframe "Decision Making" heading; content is already strong
+
+Content Gaps:
+  - No mention of competition legality (rule-set coverage)
+  - No dedicated no-gi adaptation section
+  - No historical/attribution context (inventor question)
+  - Defender cross-link not explicitly surface-linked from Top page
+  - No explicit belt-level recommendation for when to learn this
+
+Suggested Heading Changes: 4
+  - "Position Definition" → "What Is the Buggy Choke Top Position in BJJ?"
+  - "Key Offensive Principles" → "How to Attack from Buggy Choke Top: Key Principles"
+  - "Common Offensive Mistakes" → "Why Does the Buggy Choke Fail? Common Mistakes to Avoid"
+  - "Decision Making from This Position" → "What to Do When the Buggy Choke Is Defended: Decision Tree"
+
+──────────────────────────────────────────────────────────────────────
+ARTICLE 2: Learning Progression
+Path: content/Learning/Learning Progression.md
+Seed Keyword: "BJJ learning progression"
+──────────────────────────────────────────────────────────────────────
+
+Total PAA Questions Found: 10
+High-Priority Questions (direct answers needed): 6
+
+High-Priority PAA:
+  1. How long does it take to get a blue belt in BJJ?
+     → Strategy: Add "Belt Timeline" section with time estimates per rank
+  2. What should a BJJ beginner focus on first?
+     → Strategy: Reframe "Foundation Level 1" heading; add explicit "start here" callout
+  3. How do I get better at BJJ faster?
+     → Strategy: Expand "Learning Methodology" into actionable tips section
+  4. What is the order of BJJ belts?
+     → Strategy: Add belt order table with IBJJF minimum requirements
+  5. How many hours to black belt in BJJ?
+     → Strategy: Add mat-hours estimate to Belt Timeline section
+  6. What are the most important positions to learn in BJJ?
+     → Strategy: Add prioritized position list in Foundation phase
+
+Content Gaps:
+  - No YAML frontmatter (title/description missing — major SEO gap)
+  - No belt timeline or time estimates anywhere in the document
+  - No gi vs. no-gi guidance
+  - No leg lock timing/safety context
+  - No explicit "common mistakes" framing
+  - Internal position links use bare wikilinks without category prefixes (e.g., [[Side Control]] instead of [[Positions/Side Control]])
+  - No differentiation of BJJ Graph's state-machine approach vs. generic curricula
+
+Suggested Heading Changes: 5
+  - "Foundation Level 1: Core Positions" → "What Positions Should BJJ Beginners Learn First?"
+  - "Intermediate Level 2: Basic Systems" → "How to Progress Past White Belt: Basic BJJ Systems"
+  - "Advanced Level 3: Specialized Systems" → "Advanced BJJ Learning: Leg Locks, Guard Systems, and Submission Chains"
+  - "Learning Methodology" → "How to Learn BJJ Faster: Proven Study and Drilling Methods"
+  - "Learning Progression Tracking" → "How to Track Your BJJ Progress: Self-Assessment Template"
+
+──────────────────────────────────────────────────────────────────────
+COMBINED CONTENT GAP ANALYSIS
+──────────────────────────────────────────────────────────────────────
+
+Cross-Article Patterns:
+  - Both articles lack explicit belt-level framing for techniques/content
+  - Both articles would benefit from FAQ schema additions targeting PAA slots
+  - Rule-set context (IBJJF / no-gi) is missing in both
+
+Suggested New Articles (high-priority):
+  1. content/Learning/BJJ Belt Requirements.md
+     → Answers: belt order, time per belt, mat hours to black belt
+  2. content/Learning/Gi vs No-Gi BJJ.md
+     → Answers: should I start gi or no-gi, key differences
+  3. content/Positions/Buggy Choke/Bottom.md (Defender perspective)
+     → Answers: how to escape buggy choke, buggy choke defense
+  4. content/Learning/Common BJJ Mistakes for Beginners.md
+     → Answers: why am I not improving at BJJ, common BJJ mistakes
+
+──────────────────────────────────────────────────────────────────────
+TOTAL SUMMARY
+──────────────────────────────────────────────────────────────────────
+Total PAA questions analyzed: 20
+High-priority (require direct answer): 12
+Medium-priority (supporting context): 8
+Heading optimizations suggested: 9
+Content sections to add: 13
+Suggested new articles: 4

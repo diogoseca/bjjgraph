@@ -1,0 +1,113 @@
+{
+  "article_path": "content/Learning/Learning Progression.md",
+  "seed_keyword": "BJJ learning progression",
+  "data_source": "knowledge-based (DataForSEO MCP unavailable; constructed from known SERP patterns)",
+  "paa_questions": [
+    {
+      "question": "How long does it take to get a blue belt in BJJ?",
+      "answer_snippet": "On average, it takes 1.5 to 2.5 years of consistent training (3-4 sessions per week) to earn a blue belt in BJJ. Progress depends heavily on training frequency, quality of instruction, and natural aptitude. Some academies award blue belts in 12 months; others take 3+ years.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "add_section"
+    },
+    {
+      "question": "What should a BJJ beginner focus on first?",
+      "answer_snippet": "Beginners should prioritize: (1) survival and defense from bad positions, (2) understanding positional hierarchy (guard, side control, mount, back), (3) a small number of high-percentage escapes, and (4) one reliable submission setup. Breadth before depth is less effective than owning a small core game.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "improve_heading"
+    },
+    {
+      "question": "How do I get better at BJJ faster?",
+      "answer_snippet": "Train consistently (frequency beats intensity), review sessions mentally or via video, drill high-percentage techniques to automaticity, focus sparring on specific positions rather than winning, seek feedback from higher belts, and study the positions where you most often get stuck.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "add_section"
+    },
+    {
+      "question": "What is the order of BJJ belts?",
+      "answer_snippet": "The IBJJF belt order is: White → Blue → Purple → Brown → Black (→ Red/Black coral → Red). For adults, each belt after white requires a minimum time at the previous belt: 2 years blue, 1.5 years purple, 1 year brown. Black belt requires a minimum of 31 years old.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "add_section"
+    },
+    {
+      "question": "How many hours does it take to get a black belt in BJJ?",
+      "answer_snippet": "A common estimate is 1,000–1,500+ mat hours, typically accumulated over 8–12 years of regular training. Unlike many martial arts, BJJ black belts are rare and represent genuine technical mastery tested through live sparring rather than curriculum completion.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "add_section"
+    },
+    {
+      "question": "What are the most important positions to learn in BJJ?",
+      "answer_snippet": "The foundational positions are: closed guard (top and bottom), side control (top and bottom), mount (top and bottom), and back control. Mastering these seven roles provides a complete framework for both offense and defense before specializing in guards, leg locks, or wrestling-based entries.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "improve_heading"
+    },
+    {
+      "question": "How do you track your progress in BJJ?",
+      "answer_snippet": "Effective tracking methods include: a training journal noting positions worked, problems encountered, and sparring outcomes; video review of rolling sessions; a skills checklist against a structured curriculum; and regular self-assessment against training partners of known skill levels.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "improve_heading"
+    },
+    {
+      "question": "What is the best BJJ curriculum for beginners?",
+      "answer_snippet": "Structured curricula (e.g., John Danaher's BJJ Roadmap, Bernardo Faria's Foundation series, or academy-specific white-to-blue programs) all emphasize: positional escapes first, then guard maintenance, then submissions from dominant positions. State-machine approaches like the BJJ Graph provide graph-based progression mapping.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "add_section"
+    },
+    {
+      "question": "Should I learn gi or no-gi BJJ first?",
+      "answer_snippet": "Both paths are valid. Gi training slows the pace, emphasizes grips, and builds positional understanding; it is often recommended for absolute beginners. No-gi develops athleticism and is closer to MMA or submission wrestling. Many academies teach both simultaneously, which is optimal for long-term development.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "add_section"
+    },
+    {
+      "question": "When should I start learning leg locks in BJJ?",
+      "answer_snippet": "Straight ankle locks are legal and appropriate from white belt. Kneebars and toe holds are introduced at brown belt in IBJJF. Heel hooks (inside and outside) are restricted to advanced no-gi formats (typically purple belt and above in most academies). The BJJ Graph progression places leg lock systems at Level 3 (Advanced), after mastering core positions.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "improve_heading"
+    }
+  ],
+  "heading_optimizations": [
+    {
+      "current": "Foundation Level 1: Core Positions",
+      "suggested": "What Positions Should BJJ Beginners Learn First?",
+      "rationale": "Directly matches high-priority PAA 'what should a BJJ beginner focus on first'; conversational query pattern"
+    },
+    {
+      "current": "Intermediate Level 2: Basic Systems",
+      "suggested": "How to Progress Past White Belt: Basic BJJ Systems",
+      "rationale": "Matches 'how do I get better at BJJ faster' intent; front-loads belt progression framing"
+    },
+    {
+      "current": "Advanced Level 3: Specialized Systems",
+      "suggested": "Advanced BJJ Learning: Leg Locks, Guard Systems, and Submission Chains",
+      "rationale": "Surfaces leg lock timing question (high-traffic PAA); specific system names improve keyword matching"
+    },
+    {
+      "current": "Learning Methodology",
+      "suggested": "How to Learn BJJ Faster: Proven Study and Drilling Methods",
+      "rationale": "Matches 'how do I get better at BJJ faster' — highest-volume query in this cluster"
+    },
+    {
+      "current": "Learning Progression Tracking",
+      "suggested": "How to Track Your BJJ Progress: Self-Assessment Template",
+      "rationale": "Matches 'how do you track your progress in BJJ' PAA question directly"
+    }
+  ],
+  "missing_content_opportunities": [
+    "Add section: 'How Long to Each BJJ Belt? - Time Estimates Per Level' - directly answers top-volume belt timeline queries",
+    "Add section: 'Gi vs. No-Gi: Which Should You Learn First?' - high-traffic beginner question not covered",
+    "Add section: 'When Is It Safe to Learn Leg Locks?' - answers rule-set and safety context for leg lock timing",
+    "Add introduction paragraph with YAML frontmatter title and description - file currently has no frontmatter (SEO gap)",
+    "Add section: 'Common BJJ Learning Mistakes to Avoid' - complements progression content with high-value negative-framing queries",
+    "Add internal links to Positions/Mount, Positions/Side Control, Positions/Back Control, etc. where positions are named in progression phases",
+    "Add explicit mention of BJJ Graph's state-machine approach as differentiating learning methodology vs. generic curricula"
+  ]
+}
