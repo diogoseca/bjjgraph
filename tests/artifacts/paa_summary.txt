@@ -1,0 +1,137 @@
+PAA AI SEO Context Summary
+Generated: 2026-03-12
+Articles Processed: 2
+
+========================================================
+OVERVIEW
+========================================================
+
+Total PAA questions found: 20
+  - Saddle Top (Ashi Garami): 10 questions
+  - Anaconda Control Bottom: 10 questions
+
+High-priority questions (direct answers needed): 9
+Medium-priority questions: 8
+Low-priority questions: 3
+
+NOTE: DataForSEO API and web search were unavailable in this run.
+PAA questions were derived from BJJ domain knowledge and content
+analysis of the article files. Re-run with DataForSEO access for
+live SERP data.
+
+========================================================
+HIGH-PRIORITY QUESTIONS BY ARTICLE
+========================================================
+
+--- Saddle Top (content/Positions/Ashi Garami/Saddle/Top.md) ---
+
+1. "What is the saddle position in BJJ?"
+   Strategy: dedicated_faq — add explicit definition block near top
+   Current gap: Definition is buried in prose; no scannable FAQ
+
+2. "What is the difference between the saddle and honey hole in BJJ?"
+   Strategy: dedicated_faq — this confusion is extremely common
+   Current gap: Honey Hole only mentioned as related link, not explained
+
+3. "How do you finish the heel hook from the saddle?"
+   Strategy: improve_heading — existing Q&A covers this but heading isn't queryable
+   Current gap: "Test Your Knowledge" Q4 answers this well; needs surfacing
+
+4. "Is the saddle position legal in IBJJF BJJ competitions?"
+   Strategy: add_section — complete ruleset gap
+   Current gap: Article mentions rulesets once in prose; no dedicated section
+
+5. "What is inside heel hook and how dangerous is it?"
+   Strategy: add_section — safety content missing entirely
+   Current gap: No injury warning, no tap protocol, no safety guidance
+
+--- Anaconda Control Bottom (content/Positions/Anaconda Control/Bottom.md) ---
+
+1. "What is the anaconda choke in BJJ?"
+   Strategy: dedicated_faq — top definitional query
+   Current gap: Attacker mechanics assumed; not explicitly defined for searching newcomers
+
+2. "How do you escape the anaconda choke in BJJ?"
+   Strategy: improve_heading — content exists but heading isn't query-matched
+   Current gap: "Decision Making" section covers this; heading needs rewrite
+
+3. "What is the difference between an anaconda choke and a darce choke?"
+   Strategy: dedicated_faq — extremely high-volume comparison query
+   Current gap: Darce mentioned in related links only; no comparison content
+
+4. "How do you defend against the anaconda choke step-over?"
+   Strategy: dedicated_faq — specific high-intent defensive question
+   Current gap: Step-over defense covered in drills/QA but not in scannable FAQ format
+
+5. "Is the anaconda choke a blood choke or air choke?"
+   Strategy: add_section — common beginner question with safety implications
+   Current gap: Not addressed anywhere in article
+
+========================================================
+CONTENT GAP ANALYSIS
+========================================================
+
+SHARED GAPS (both articles):
+- Safety/injury sections missing (tap protocol, risk levels)
+- No explicit ruleset/legality context
+- Attacker-perspective content missing from defender pages
+  (understanding the attack improves defense; relevant for bottom/defender pages)
+
+SADDLE TOP SPECIFIC GAPS:
+- Honey Hole / Saddle naming disambiguation
+- IBJJF vs EBI vs ADCC ruleset comparison table
+- Inside Heel Hook injury risk section
+- "Submission dilemma" concept not labeled or called out as scannable content
+
+ANACONDA CONTROL BOTTOM SPECIFIC GAPS:
+- Anaconda vs D'arce vs Guillotine comparison
+- Blood choke vs air choke explanation
+- Attacker's setup mechanics (from turtle, from front headlock)
+- Urgency framing — average 10-30 seconds before finish; not prominent
+
+========================================================
+SUGGESTED NEW ARTICLES
+========================================================
+
+1. content/Positions/Ashi Garami/Honey Hole/Top.md
+   Plan: Redirect/disambiguation page clarifying Honey Hole = Saddle;
+   could be a thin page that canonicalizes to Saddle Top
+
+2. content/Transitions/Inside Heel Hook/Attacker.md
+   Plan: Detailed attacker guide for inside heel hook finishing mechanics
+   from Saddle; links from Saddle Top
+
+3. content/Transitions/Anaconda from Turtle/Attacker.md
+   Plan: Step-by-step setup of anaconda from turtle position; feeds
+   back-linking from Anaconda Control Bottom
+
+4. content/Positions/Anaconda Control/Top.md
+   Plan: Attacker role page for Anaconda Control (mirror of Bottom page)
+
+5. content/Principles/Leg Lock Safety.md
+   Plan: Hub page covering injury risks, tap protocol, and training
+   etiquette for all leg lock submissions — links from Saddle Top and
+   all heel hook pages
+
+========================================================
+HEADING OPTIMIZATION SUMMARY
+========================================================
+
+Total headings suggested for optimization: 10
+  - Saddle Top: 5 heading rewrites
+  - Anaconda Control Bottom: 5 heading rewrites
+
+Key pattern: Convert descriptive H2s to question-format H2s to match
+PAA and Featured Snippet query patterns (e.g., "Position Definition"
+→ "What Is the Saddle Position in BJJ?")
+
+========================================================
+INTEGRATION PRIORITY ORDER
+========================================================
+
+1. [CRITICAL] Add safety/tap protocol sections to both pages
+2. [HIGH] Add dedicated FAQ blocks targeting top 3 questions per page
+3. [HIGH] Rewrite H2 headings to question format (5 per page)
+4. [MEDIUM] Add ruleset legality section to Saddle Top
+5. [MEDIUM] Add Anaconda vs D'arce comparison to Anaconda Bottom
+6. [LOW] Create new article stubs for suggested articles list

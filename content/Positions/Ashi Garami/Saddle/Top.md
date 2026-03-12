@@ -1,10 +1,11 @@
 
 
-
-
 ---
 title: "Saddle Top | BJJ Position Guide | BJJ Graph"
-description: "Master saddle position mechanics with systematic entries, control optimization, and finishing sequences for inside heel hooks, outside heel hooks, and auxiliary submissions."
+description: "Master saddle position (honey hole) mechanics with systematic entries, control hierarchy, and finishing sequences for inside heel hooks, outside heel hooks, and auxiliary submissions. 70% submission probability, 78% retention rate."
+bot_metadata:
+  last_improved: "2026-03-12"
+  optimization_pass: "ai_seo_v1"
 ---
 
 
@@ -59,7 +60,7 @@ description: "Master saddle position mechanics with systematic entries, control 
 }
 </script>
 
-<!-- Schema Markup - FAQ from Common Mistakes -->
+<!-- Schema Markup - FAQ -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -67,42 +68,66 @@ description: "Master saddle position mechanics with systematic entries, control 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What happens if you attempting to finish heel hook before establishing optimal control position?",
+      "name": "What is the saddle position in BJJ?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Opponent escapes by creating space or rotating away during your attack The correct approach is: Follow systematic hierarchy: perpendicular alignment, hip pressure, inside position, grip establishment, clearing frames, then finish"
+        "text": "The Saddle (also called the Honey Hole or Inside Sankaku) is a leg entanglement position where the attacker lies perpendicular to the opponent, trapping their leg in a figure-four configuration to expose the heel for inside heel hook and other leg lock attacks. It has a 70% submission probability and 78% retention rate at high levels."
       }
     },
     {
       "@type": "Question",
-      "name": "What happens if you losing inside position by allowing opponent to turn into you?",
+      "name": "What is the difference between the saddle and honey hole in BJJ?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Entire position collapses as opponent achieves bilateral leg entanglement or guard recovery The correct approach is: Maintain hip pressure and use your top leg to block opponent's hip rotation toward you"
+        "text": "The Saddle and Honey Hole are identical positions — two names for the same leg entanglement. Honey Hole is popularized by John Danaher and the Danaher Death Squad; Saddle is the more traditional terminology. Both describe the inside heel hook entry position."
       }
     },
     {
       "@type": "Question",
-      "name": "What happens if you gripping the heel immediately without establishing structural control?",
+      "name": "How do you finish the heel hook from the saddle?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Telegraphs your intention and allows opponent to defend heel preemptively The correct approach is: Establish positional grips first (ankle, pants, belt) then transition to heel grip only when ready to finish"
+        "text": "From the Saddle, establish perpendicular alignment and hip pressure first. Secure structural grips (ankle control, hip/belt control), clear any frames, then transition to a figure-four heel grip — inside hand cups the heel, outside arm maintains ankle control — and rotate to apply the heel hook finish."
       }
     },
     {
       "@type": "Question",
-      "name": "What happens if you allowing space to develop between your body and opponent's trapped leg?",
+      "name": "Is the saddle position legal in IBJJF BJJ competitions?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Opponent uses space to create frames, rotate their body, or extract their leg The correct approach is: Maintain constant connection with chest-to-thigh pressure while keeping your shoulder heavy on their leg"
+        "text": "The Saddle position itself is not banned, but its primary submission — the inside heel hook — is illegal in IBJJF gi and no-gi white through brown belt. At black belt no-gi, heel hooks are permitted. The Saddle has limited utility in IBJJF rulesets because most of its finishes are restricted."
       }
     },
     {
       "@type": "Question",
-      "name": "What happens if you using excessive force on submission attempts before control is optimized?",
+      "name": "What are the best entries to the saddle position?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Opponent escapes during your explosive effort or suffers injury from uncontrolled submission The correct approach is: Apply submissions slowly and progressively, maintaining position throughout the finishing sequence"
+        "text": "Highest-percentage entries: (1) back step from Outside Ashi-Garami, (2) hip switches from Inside Ashi-Garami, (3) controlled elevations from 50-50 Guard, and (4) angle changes from Single Leg X-Guard. Systematic entries are far more reliable than scramble-based opportunities."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you attempt to finish the heel hook before establishing optimal control?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Opponent escapes by creating space or rotating away during your attack. The correct approach: follow systematic hierarchy — perpendicular alignment, hip pressure, inside position, grip establishment, clearing frames, then finish."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can you hit a toe hold from the saddle?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes — when an opponent hides their heel by rotating their knee inward to defend the inside heel hook, they expose their ankle to toe hold and straight ankle lock attacks. The Saddle creates a submission dilemma where each defensive action opens a new attacking option."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is inside heel hook and how dangerous is it?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The inside heel hook is a rotational knee submission applied from the Saddle. It targets the medial knee structures (MCL, ACL, meniscus) and is considered one of the most dangerous leg locks — damage can occur before significant pain. Train only with experienced partners who understand proper tap etiquette."
       }
     }
   ]
@@ -157,26 +182,76 @@ description: "Master saddle position mechanics with systematic entries, control 
 
 <section id="overview" class="content-section">
 
-The Saddle from top represents the highest-level leg entanglement position in modern Brazilian Jiu-Jitsu, offering unprecedented control and submission opportunities. Unlike traditional top positions that focus on weight distribution and pressure, the Saddle operates through structural control of the opponent's leg using your entire body as a lever system. This creates a mechanical advantage so significant that size and strength differences become largely irrelevant when the position is properly established.
+**Saddle Top** (also called the **Honey Hole**) is the highest-level leg entanglement position in modern BJJ, offering unmatched control and submission access from a perpendicular leg-trap configuration. **Retention rate: 78%. Submission probability: 70%.** Requires: inside position, perpendicular alignment, hip pressure.
 
-The offensive potential of top Saddle stems from its unique characteristic of creating multiple submission pathways that defend each other. When you attack an inside heel hook and the opponent defends by hiding their heel, they expose their ankle to straight footlock attacks. When they defend the footlock by pulling their toes back, they re-expose the heel. This creates what's called a 'submission dilemma'—every defensive action opens a new attacking opportunity. This self-defending submission system makes the Saddle dramatically more effective than isolated leg attacks from positions like Outside Ashi-Garami or Straight Ankle Lock Control.
+The Saddle operates through structural control of the opponent's leg using your entire body as a lever system — size and strength differences become largely irrelevant when the position is properly established. Its defining characteristic is a **submission dilemma**: when you attack the [[Submissions/Inside Heel Hook]] and the opponent hides their heel, they expose their ankle to [[Transitions/Straight Ankle Lock Entry]] and [[Submissions/Toe Hold]] attacks. Every defensive action opens a new attacking opportunity, making this self-defending system dramatically more effective than isolated leg attacks from [[Positions/Ashi Garami/Outside Ashi-Garami]] or [[Positions/Ashi Garami/Inside Ashi-Garami]].
 
-Modern Saddle methodology emphasizes systematic entry pathways rather than opportunistic scrambles. The highest percentage entries come from Outside Ashi-Garami through what's called the 'back step,' from Inside Ashi-Garami through hip switches, from 50-50 Guard through controlled elevations, and from Single Leg X-Guard through specific angle changes. Each entry pathway requires precise technical execution, as attempting to force the Saddle against a defensive opponent often results in losing the leg entanglement entirely. Understanding these systematic progressions separates competent leg lockers from elite specialists.
+Modern Saddle methodology prioritizes systematic entry pathways over opportunistic scrambles. The highest-percentage entries come from **[[Positions/Ashi Garami/Outside Ashi-Garami]]** via the back step, **[[Positions/Ashi Garami/Inside Ashi-Garami]]** via hip switches, **[[Positions/Ashi Garami/50-50 Guard]]** via controlled elevations, and **[[Positions/Ashi Garami/Single Leg X-Guard]]** via specific angle changes.
 
-The position's effectiveness has evolved dramatically as defensive knowledge has increased at high levels of competition. Early Saddle techniques focused almost exclusively on immediate submission attempts, which proved insufficient against technically sophisticated defenders. Contemporary approaches emphasize what instructors call 'the hierarchy of controls'—achieving optimal perpendicular positioning, establishing specific grips in the correct sequence, maintaining hip pressure, and clearing defensive frames before attempting finishes. This methodical progression increases submission success rates while reducing the opponent's ability to escape or counter during the attacking sequence.
-
-From a strategic perspective, the Saddle functions differently depending on ruleset and competition format. In submission-only and many no-gi competitions where heel hooks are legal, the Saddle becomes a primary attacking platform worthy of significant positional investment. In IBJJF gi competitions where most leg locks are restricted or prohibited, the Saddle has limited utility and practitioners must understand alternative attacking systems. This ruleset awareness is non-negotiable, as training Saddle mechanics without understanding legal applications creates dangerous situations in both training and competition environments.
+Contemporary approaches emphasize the **hierarchy of controls**: achieving perpendicular positioning → establishing hip pressure → securing inside position → establishing grips in sequence → clearing defensive frames → executing the submission. Rushing to the finish before completing earlier steps dramatically reduces success rates.
 
 </section>
 
 <section id="state-invariants" class="content-section">
 
-## Position Definition
+## What Is the Saddle Position in BJJ?
 
-- You are positioned perpendicular to opponent's body with their leg entangled by your legs, creating structural control of their hip, knee, and ankle joints through figure-four or similar leg configuration
-- Your hips are pressuring into opponent's trapped leg while maintaining inside position between their legs, preventing them from facing you directly or turning away to relieve pressure on vulnerable joints
-- Opponent's heel is exposed and oriented toward your chest or armpit, enabling finishing mechanics for heel hooks while your grips control the foot and ankle to prevent defensive hiding or rotation
+The **Saddle** (also called **Honey Hole** or **Inside Sankaku**) is a leg entanglement where you lie perpendicular to your opponent with their leg trapped in a figure-four configuration, exposing their heel for [[Submissions/Inside Heel Hook]] and auxiliary leg attacks. It belongs to the [[Positions/Ashi Garami]] family of positions.
 
+**Position invariants:**
+- You are perpendicular to the opponent's body with their leg entangled by your legs in a figure-four or similar configuration
+- Your hips are pressuring into the opponent's trapped leg while maintaining inside position between their legs, preventing them from facing you or rotating away
+- Opponent's heel is exposed and oriented toward your chest or armpit, enabling heel hook finishing mechanics
+
+
+</section>
+
+<section id="saddle-vs-honey-hole" class="content-section">
+
+## Saddle vs Honey Hole: Same Position, Different Names
+
+The **Saddle** and **Honey Hole** are identical positions — two names for the same leg entanglement configuration. There is no technical difference.
+
+- **Honey Hole**: terminology popularized by John Danaher and the Danaher Death Squad (DDS)
+- **Saddle**: the more traditional competitive terminology used in leg lock systems outside the Danaher lineage
+- **Inside Sankaku**: the Japanese-derived name used in some judo-influenced grappling communities
+
+All three terms describe the same inside heel hook entry position. When you hear any of these names, the mechanics, entries, and finishing options are identical.
+
+</section>
+
+<section id="legality" class="content-section">
+
+## Is the Saddle Legal in BJJ Competition?
+
+The Saddle position itself is not banned in any major ruleset. However, its primary submissions have ruleset restrictions:
+
+| Ruleset | Inside Heel Hook | Outside Heel Hook | Toe Hold | Kneebar |
+|---------|-----------------|-------------------|----------|---------|
+| IBJJF Gi (white–brown) | ❌ Illegal | ❌ Illegal | ❌ Illegal | ❌ Illegal |
+| IBJJF No-Gi (white–brown) | ❌ Illegal | ❌ Illegal | ✅ Legal | ❌ Illegal |
+| IBJJF No-Gi (black belt) | ✅ Legal | ✅ Legal | ✅ Legal | ✅ Legal |
+| ADCC | ✅ Legal | ✅ Legal | ✅ Legal | ✅ Legal |
+| EBI / Submission Only | ✅ Legal | ✅ Legal | ✅ Legal | ✅ Legal |
+
+**Bottom line:** In submission-only and advanced no-gi competition, the Saddle is a primary attacking platform worthy of significant positional investment. In IBJJF gi competition at most belt levels, the Saddle has limited finishing utility — understanding this context before drilling is non-negotiable.
+
+</section>
+
+<section id="heel-hook-safety" class="content-section">
+
+## Inside Heel Hook Safety: What Every Practitioner Must Know
+
+The **[[Submissions/Inside Heel Hook]]** from Saddle targets the medial knee structures: MCL, ACL, PCL, and meniscus. It is one of the most dangerous submissions in grappling for a specific reason: **the damage mechanism outpaces the pain signal**. Knee ligament failure can occur before significant pain is felt, especially in adrenaline-elevated competition states.
+
+**Mandatory safety protocol:**
+- **Tap immediately** at the first sensation of rotational pressure on the knee — do not wait for pain
+- **Attacker: apply slowly and progressively** — never crank the heel hook explosively
+- **Release instantly** on any tap, verbal or physical — do not hold for "confirmation"
+- Train heel hooks only with experienced partners who understand this protocol
+- Beginners should not drill live heel hooks without direct supervision from a qualified instructor
+
+**Rule of thumb**: If you are unsure whether to tap — tap. Knee injuries from heel hooks can require 6–12 months of recovery. No training session is worth that cost.
 
 </section>
 
@@ -194,22 +269,23 @@ From a strategic perspective, the Saddle functions differently depending on rule
 
 <section id="key-principles" class="content-section">
 
-## Key Offensive Principles
+## How to Control and Finish from the Saddle: Key Principles
 
-- Perpendicular positioning creates maximum mechanical advantage on the leg
-- Hip pressure prevents opponent rotation and maintains positional dominance
-- Inside position is non-negotiable—losing it compromises entire control structure
-- Control before submission—establish optimal position before attempting finishes
-- Systematic entries have higher success rates than scramble-based opportunities
-- Opponent's defensive reactions should tighten your control, not create escape opportunities
-- Grip sequencing matters—establish structural grips before finishing grips
+- **Perpendicular positioning** creates maximum mechanical advantage on the leg
+- **Hip pressure** prevents opponent rotation and maintains positional dominance
+- **Inside position is non-negotiable** — losing it compromises the entire control structure
+- **Control before submission** — establish optimal position before attempting finishes
+- **Systematic entries** have higher success rates than scramble-based opportunities
+- **Opponent's defensive reactions should tighten your control**, not create escape opportunities
+- **Grip sequencing matters** — establish structural grips before finishing grips
+- **The hierarchy**: perpendicular alignment → hip pressure → inside position → structural grips → clear frames → finish
 
 
 </section>
 
 <section id="decision-tree" class="content-section">
 
-## Decision Making from This Position
+## What Submissions Can You Attack from the Saddle?
 
 **You have achieved perpendicular positioning with inside control but opponent is framing on your hips:**
 - Execute **[[Clear frames systematically/Attacker|Clear frames systematically]]** → [[Positions/Ashi Garami/Saddle]] (Probability: 70%)
@@ -217,13 +293,13 @@ From a strategic perspective, the Saddle functions differently depending on rule
 
 
 **Opponent's heel is fully exposed and you have established figure-four grip:**
-- Execute **[[Transitions/Heel Hook/Attacker|Heel Hook]]** → [[Positions/Game Over]] (Probability: 80%)
-- Execute **[[Transitions/Outside Heel Hook/Attacker|Outside Heel Hook]]** → [[Positions/Game Over]] (Probability: 20%)
+- Execute **[[Transitions/Heel Hook/Attacker|Heel Hook]]** → [[game-over]] (Probability: 80%)
+- Execute **[[Transitions/Outside Heel Hook/Attacker|Outside Heel Hook]]** → [[game-over]] (Probability: 20%)
 
 
 **Opponent is hiding heel by rotating knee inward:**
-- Execute **[[Transitions/Straight Ankle Lock Entry/Attacker|Straight Ankle Lock Entry]]** → [[Positions/Game Over]] (Probability: 60%)
-- Execute **[[Transitions/Toe Hold/Attacker|Toe Hold]]** → [[Positions/Game Over]] (Probability: 40%)
+- Execute **[[Transitions/Straight Ankle Lock Entry/Attacker|Straight Ankle Lock Entry]]** → [[game-over]] (Probability: 60%)
+- Execute **[[Transitions/Toe Hold/Attacker|Toe Hold]]** → [[game-over]] (Probability: 40%)
 
 
 **Opponent is attempting to turn into you to escape:**
@@ -243,7 +319,7 @@ From a strategic perspective, the Saddle functions differently depending on rule
 
 <section id="common-mistakes" class="content-section hide-minimal">
 
-## Common Offensive Mistakes
+## Why Does the Saddle Position Fail? Common Mistakes
 
 ### 1. Attempting to finish heel hook before establishing optimal control position
 
@@ -280,7 +356,7 @@ From a strategic perspective, the Saddle functions differently depending on rule
 
 ### Saddle Entry Progression Drill
 
-Start from Outside Ashi-Garami, Inside Ashi-Garami, 50-50, and Single Leg X. Practice systematic entries to Saddle with partner providing graduated resistance (none, light, moderate, full).
+Start from **[[Positions/Ashi Garami/Outside Ashi-Garami]]**, **[[Positions/Ashi Garami/Inside Ashi-Garami]]**, **[[Positions/Ashi Garami/50-50 Guard]]**, and **[[Positions/Ashi Garami/Single Leg X-Guard]]**. Practice systematic entries to Saddle with partner providing graduated resistance (none, light, moderate, full).
 
 **Duration**: 5 minutes
 
@@ -294,7 +370,7 @@ Partner gives you loose Saddle position. Systematically establish: perpendicular
 
 ### Submission Chain Flow
 
-Start with optimal Saddle control. Partner defends heel then attack straight ankle lock. Partner defends ankle then reattack heel. Flow between submissions based on opponent's defensive reactions.
+Start with optimal Saddle control. Partner defends heel — attack [[Transitions/Straight Ankle Lock Entry]]. Partner defends ankle — reattack heel. Flow between submissions based on opponent's defensive reactions.
 
 **Duration**: 3 minutes
 
@@ -315,29 +391,29 @@ Establish Saddle, partner executes specific escape sequences (hip clear, frame c
 
 ## Test Your Knowledge
 
-**Q1**: Your opponent starts pushing your hips with their free leg while you have saddle control—what adjustment do you make?
-**A**: Increase hip pressure into their trapped leg while using your top leg to pin or control their free leg. If they create significant space with their push, you may need to momentarily release some control to address the free leg, either by hooking it or by transitioning to a position where their pushing leg cannot generate effective force. The key is preventing them from using that free leg to create rotation angles.
+**Q1**: Your opponent starts pushing your hips with their free leg while you have saddle control — what adjustment do you make?
+**A**: Increase hip pressure into their trapped leg while using your top leg to pin or control their free leg. If they create significant space with their push, you may need to momentarily address the free leg by hooking it or transitioning to a position where their push cannot generate effective force. The key is preventing them from using that free leg to create rotation angles.
 
 **Q2**: What are the essential grips for maintaining saddle position before attempting submissions?
-**A**: The primary structural grips include controlling the opponent's ankle with your outside arm to prevent them from rotating their knee, using your inside arm to frame on their hip or control their pants/belt, and maintaining leg configuration pressure. These positional grips differ from finishing grips—establish control grips first, only transition to heel control when ready to submit.
+**A**: Primary structural grips include controlling the opponent's ankle with your outside arm to prevent knee rotation, using your inside arm to frame on their hip or control their pants/belt, and maintaining leg configuration pressure. These positional grips differ from finishing grips — establish control grips first, only transition to heel control when ready to submit.
 
 **Q3**: How do you shut down an opponent's primary escape of turning into you?
 **A**: Maintain heavy hip pressure driving into their trapped leg while using your top leg to block their hip rotation toward you. Your shoulder should stay heavy on their thigh. If they begin rotating, ride with the rotation while adjusting your angle to stay perpendicular. The key is making their turn tighten your control rather than create escape space.
 
 **Q4**: What is the correct grip sequence when transitioning from positional control to submission finish?
-**A**: First establish structural control with leg configuration and hip pressure. Next, control the ankle with your outside arm to prevent knee rotation. Then clear any frames the opponent has on your hips. Only after these controls are established should you transition to heel grip—use your inside hand to cup the heel while your outside arm maintains ankle control. The figure-four finishing grip comes last.
+**A**: First establish structural control with leg configuration and hip pressure. Next, control the ankle with your outside arm to prevent knee rotation. Then clear any frames the opponent has on your hips. Only after these controls are established should you transition to heel grip — use your inside hand to cup the heel while your outside arm maintains ankle control. The figure-four finishing grip comes last.
 
 **Q5**: How should you apply pressure with your hips to maximize control effectiveness?
 **A**: Drive your hips into the opponent's trapped thigh at approximately a 45-degree angle toward their hip. This pressure prevents them from rotating either direction and maintains the perpendicular alignment that gives you mechanical advantage. Your hips should feel like a wedge that gets tighter when they move, not looser.
 
-**Q6**: Your opponent begins framing on your shoulder while hiding their heel—what's your tactical response?
-**A**: Address the threat hierarchy: frames before submissions. Use your free hand to strip or redirect their frame while maintaining hip pressure and leg configuration. Once the frame is cleared, recognize that their heel hiding has exposed their ankle—transition to straight ankle lock or toe hold threat. This forces them to choose between maintaining the frame or protecting the ankle, creating a new dilemma.
+**Q6**: Your opponent begins framing on your shoulder while hiding their heel — what's your tactical response?
+**A**: Address the threat hierarchy: frames before submissions. Use your free hand to strip or redirect their frame while maintaining hip pressure and leg configuration. Once the frame is cleared, recognize that their heel hiding has exposed their ankle — transition to straight ankle lock or [[Submissions/Toe Hold]] threat. This forces them to choose between maintaining the frame or protecting the ankle, creating a new dilemma.
 
 **Q7**: How do you manage energy expenditure when an opponent is actively resisting but not escaping?
-**A**: Avoid the trap of constantly attacking submissions against strong defense. Instead, maintain positional control with minimal energy by relying on structural mechanics rather than muscular effort. Let your leg configuration and hip pressure do the work. Wait for defensive errors that open attack opportunities rather than forcing submissions against solid defense. The position should feel sustainable for extended periods.
+**A**: Avoid constantly attacking submissions against strong defense. Maintain positional control with minimal energy by relying on structural mechanics rather than muscular effort. Let your leg configuration and hip pressure do the work. Wait for defensive errors that open attack opportunities rather than forcing submissions against solid defense.
 
 **Q8**: What recovery protocol do you use if the opponent partially clears your hip pressure?
-**A**: Immediately re-engage hip pressure before attempting to reestablish other controls. If they've created significant space, you may need to temporarily transition to Inside Ashi-Garami and rebuild to saddle. Never try to skip steps in re-establishing control—the hierarchy is perpendicular alignment, then hip pressure, then inside position, then grips. Forcing submissions from a compromised position leads to escapes.
+**A**: Immediately re-engage hip pressure before attempting to reestablish other controls. If they've created significant space, you may need to temporarily transition to **[[Positions/Ashi Garami/Inside Ashi-Garami]]** and rebuild to Saddle. Never skip steps in re-establishing control — the hierarchy is perpendicular alignment, then hip pressure, then inside position, then grips.
 
 
 
@@ -346,7 +422,7 @@ Establish Saddle, partner executes specific escape sequences (hip clear, frame c
 
 <section id="position-metrics" class="content-section">
 
-## Success Rates and Statistics
+## Saddle Position Success Rate: What the Data Shows
 
 | Metric | Rate |
 |--------|------|
@@ -354,8 +430,59 @@ Establish Saddle, partner executes specific escape sequences (hip clear, frame c
 | Advancement Probability | 75% |
 | Submission Probability | 70% |
 
-**Average Time in Position**: 30-90 seconds from entry to finish or opponent escape
+**Average Time in Position**: 30–90 seconds from entry to finish or opponent escape
 
+
+</section>
+
+<section id="faq" class="content-section">
+
+## Frequently Asked Questions
+
+### What is the saddle position in BJJ?
+
+The **Saddle** (also called the **Honey Hole** or **Inside Sankaku**) is a leg entanglement position where the attacker lies perpendicular to the opponent, trapping their leg in a figure-four configuration to expose the heel for [[Submissions/Inside Heel Hook]] and other leg lock attacks. It sits at the top of the [[Positions/Ashi Garami]] position hierarchy with a 70% submission probability.
+
+### What is the difference between the saddle and honey hole in BJJ?
+
+They are the same position. **Honey Hole** is the name used by John Danaher and the Danaher Death Squad; **Saddle** is the more traditional competitive term. Both describe the inside heel hook entry configuration. See the [Saddle vs Honey Hole](#saddle-vs-honey-hole) section above for full details.
+
+### How do you finish the heel hook from the saddle?
+
+1. Achieve perpendicular alignment and hip pressure
+2. Establish structural grips: outside arm on ankle, inside arm on hip/belt
+3. Clear any defensive frames
+4. Transition to figure-four heel grip: inside hand cups the heel, outside arm maintains ankle control
+5. Rotate to apply finishing pressure — slowly and progressively
+
+Never rush to the finish before completing steps 1–3. See [[Submissions/Inside Heel Hook]] for the full finishing sequence.
+
+### Is the saddle position dangerous?
+
+The position itself is not dangerous — it's the submissions from it that carry risk. The [[Submissions/Inside Heel Hook]] can damage medial knee structures (ACL, MCL, meniscus) before significant pain is felt. Always tap early, apply slowly, and release instantly. Train this position only with experienced partners.
+
+### What are ashi garami positions in BJJ?
+
+**Ashi Garami** (Japanese: leg entanglement) is a family of BJJ positions trapping one or both of the opponent's legs to attack leg locks. The family includes [[Positions/Ashi Garami/Inside Ashi-Garami]], [[Positions/Ashi Garami/Outside Ashi-Garami]], [[Positions/Ashi Garami/50-50 Guard]], [[Positions/Ashi Garami/Cross Ashi-Garami]], and the Saddle — the most advanced inside configuration.
+
+### Can you hit a toe hold from the saddle?
+
+Yes. When the opponent hides their heel by rotating their knee inward to defend the [[Submissions/Inside Heel Hook]], they expose their ankle and foot to **[[Submissions/Toe Hold]]** and [[Transitions/Straight Ankle Lock Entry]] attacks. This is the Saddle's submission dilemma — every defensive action opens a new attacking option.
+
+### What is the hierarchy of controls in the saddle position?
+
+1. Achieve perpendicular positioning
+2. Establish hip pressure
+3. Secure inside position
+4. Establish structural grips in sequence
+5. Clear defensive frames
+6. Execute submission
+
+Rushing to step 6 before completing earlier steps dramatically reduces success rates.
+
+### How do you escape the saddle position?
+
+Escaping the Saddle requires early action before controls are established. Key defensive concepts: create space between your trapped leg and the attacker's body, hide your heel by rotating your knee inward, frame on the attacker's hips, and either step over or create bilateral leg entanglement. See the **[[Positions/Ashi Garami/Saddle/Bottom|Saddle Bottom]]** role page for the full defensive breakdown.
 
 </section>
 
@@ -364,12 +491,15 @@ Establish Saddle, partner executes specific escape sequences (hip clear, frame c
 ## Related Positions and Techniques
 
 - **[[Positions/Ashi Garami/Honey Hole]]** - Identical position with alternative naming convention
-- **[[Positions/Ashi Garami/Inside Ashi-Garami]]** - Common entry position and fallback when saddle is defended
+- **[[Positions/Ashi Garami/Inside Ashi-Garami]]** - Common entry position and fallback when Saddle is defended
 - **[[Positions/Ashi Garami/Outside Ashi-Garami]]** - Primary entry pathway via back step progression
 - **[[Positions/Ashi Garami/50-50 Guard]]** - Entry position with elevation and clearing mechanics
+- **[[Positions/Ashi Garami/Single Leg X-Guard]]** - Entry position via angle change
 - **[[Submissions/Inside Heel Hook]]** - Primary finishing submission from this position
 - **[[Transitions/Outside Heel Hook]]** - Alternative heel hook attack when inside is defended
+- **[[Submissions/Toe Hold]]** - Attacking option when opponent hides their heel
 - **[[Submissions/Straight Ankle Lock]]** - Lower-risk finishing option when heel is hidden
+- **[[Positions/Back Control]]** - Back take destination when opponent turns into you
 - **[[Positions/Leg Entanglement]]** - Conceptual framework for position hierarchy
 
 
