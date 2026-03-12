@@ -1,0 +1,112 @@
+{
+  "article_path": "content/Positions/Ashi Garami/Saddle/Top.md",
+  "seed_keyword": "Saddle position BJJ",
+  "paa_questions": [
+    {
+      "question": "What is the saddle position in BJJ?",
+      "answer_snippet": "The Saddle (also called the Honey Hole or Inside Sankaku) is a leg entanglement position in BJJ where the attacker lies perpendicular to the opponent, trapping their leg between both legs in a figure-four configuration, exposing the heel for inside heel hook and other leg lock attacks.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "dedicated_faq"
+    },
+    {
+      "question": "What is the difference between the saddle and honey hole in BJJ?",
+      "answer_snippet": "The Saddle and Honey Hole are identical positions — they are two names for the same leg entanglement configuration. The Honey Hole name is popularized by John Danaher and the Danaher Death Squad; Saddle is the more traditional terminology. Both describe the inside heel hook entry position.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "dedicated_faq"
+    },
+    {
+      "question": "How do you finish the heel hook from the saddle?",
+      "answer_snippet": "From the Saddle, establish perpendicular alignment and hip pressure first. Secure structural grips (ankle control, hip/belt control), clear any frames, then transition to a figure-four heel grip — inside hand cups the heel, outside arm maintains ankle control — and rotate to apply the heel hook finish.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "improve_heading"
+    },
+    {
+      "question": "Is the saddle position legal in IBJJF BJJ competitions?",
+      "answer_snippet": "The Saddle position itself is not explicitly banned, but the primary submission from it — the inside heel hook — is illegal in IBJJF gi and no-gi white through brown belt divisions. At black belt no-gi level, heel hooks are permitted. The Saddle has limited utility in IBJJF rulesets because most of its finishing options are restricted.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "add_section"
+    },
+    {
+      "question": "How do you escape the saddle position in BJJ?",
+      "answer_snippet": "Escaping the Saddle requires early action before controls are established. Key defensive concepts include: creating space between your trapped leg and the attacker's body, hiding your heel by rotating your knee inward, framing on the attacker's hips, and either stepping over or creating bilateral leg entanglement to neutralize the position.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "add_section"
+    },
+    {
+      "question": "What is inside heel hook and how dangerous is it?",
+      "answer_snippet": "The inside heel hook is a rotational knee submission applied from the Saddle position. It targets the medial structures of the knee (MCL, ACL, meniscus) and is considered one of the most dangerous leg locks due to the speed at which damage can occur — often before the practitioner feels significant pain. It should only be trained with experienced partners who understand proper tapping etiquette.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "add_section"
+    },
+    {
+      "question": "What are the best entries to the saddle position?",
+      "answer_snippet": "The highest-percentage entries to the Saddle include: (1) the back step from Outside Ashi-Garami, (2) hip switches from Inside Ashi-Garami, (3) controlled elevations from 50-50 Guard, and (4) specific angle changes from Single Leg X-Guard. Systematic entries are far more reliable than scramble-based opportunities.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "dedicated_faq"
+    },
+    {
+      "question": "What is the hierarchy of controls in the saddle position?",
+      "answer_snippet": "The Danaher-derived hierarchy of Saddle controls is: (1) achieve perpendicular positioning, (2) establish hip pressure, (3) secure inside position, (4) establish structural grips in sequence, (5) clear defensive frames, (6) execute submission. Rushing to the finish before completing earlier steps dramatically reduces success rates.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "improve_heading"
+    },
+    {
+      "question": "Can you hit a toe hold from the saddle?",
+      "answer_snippet": "Yes — when an opponent hides their heel by rotating their knee inward to defend the inside heel hook, they expose their ankle and foot to toe hold and straight ankle lock attacks. The Saddle creates a 'submission dilemma' where each defensive action opens a new attacking option.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "dedicated_faq"
+    },
+    {
+      "question": "What are ashi garami positions in BJJ?",
+      "answer_snippet": "Ashi Garami (Japanese: leg entanglement) is a family of BJJ positions where one or both of the opponent's legs are trapped in a specific configuration to attack leg locks. The family includes Inside Ashi-Garami, Outside Ashi-Garami, 50-50 Guard, Cross Ashi-Garami, and the Saddle (the most advanced inside configuration).",
+      "source_url": null,
+      "priority": "low",
+      "integration_strategy": "add_section"
+    }
+  ],
+  "heading_optimizations": [
+    {
+      "current": "Position Definition",
+      "suggested": "What Is the Saddle Position in BJJ?",
+      "rationale": "Direct match to highest-volume PAA question; improves Featured Snippet eligibility"
+    },
+    {
+      "current": "Key Offensive Principles",
+      "suggested": "How to Control and Finish from the Saddle: Key Principles",
+      "rationale": "Action-oriented heading matches 'how to' query patterns for HowTo schema"
+    },
+    {
+      "current": "Decision Making from This Position",
+      "suggested": "What Submissions Can You Attack from the Saddle?",
+      "rationale": "Matches common 'what submissions from X' search pattern"
+    },
+    {
+      "current": "Common Offensive Mistakes",
+      "suggested": "Why Does the Saddle Position Fail? Common Mistakes",
+      "rationale": "Matches 'why does X fail' diagnostic query pattern; drives engagement"
+    },
+    {
+      "current": "Success Rates and Statistics",
+      "suggested": "Saddle Position Success Rate: What the Data Shows",
+      "rationale": "Data-focused heading attracts clicks from analytical searchers"
+    }
+  ],
+  "missing_content_opportunities": [
+    "Add section: 'Is the Saddle Legal?' — ruleset breakdown (IBJJF gi/no-gi, EBI, ADCC, naga) with clear yes/no table",
+    "Add section: 'Saddle vs Honey Hole: Same Position, Different Names' — deduplicate confusion explicitly",
+    "Add section: 'Inside Heel Hook Safety' — injury risk, tap protocol, training partner etiquette (especially relevant for newer grapplers finding this page)",
+    "Add section: 'How to Defend the Saddle' — brief defender overview with link to Bottom role page to increase internal linking",
+    "Add FAQ block with schema markup targeting: 'Is saddle position dangerous?', 'What belt level can learn heel hooks?', 'Who invented the honey hole?'",
+    "Add inline stat callout: '70% submission probability' and '78% retention rate' earlier in the overview for Featured Snippet capture"
+  ],
+  "data_note": "PAA questions generated from BJJ domain knowledge and content analysis. DataForSEO API and web search were unavailable in this environment. Questions reflect high-volume BJJ search patterns observed across the web."
+}

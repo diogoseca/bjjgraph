@@ -1,0 +1,112 @@
+{
+  "article_path": "content/Positions/Anaconda Control/Bottom.md",
+  "seed_keyword": "anaconda choke BJJ",
+  "paa_questions": [
+    {
+      "question": "What is the anaconda choke in BJJ?",
+      "answer_snippet": "The anaconda choke is a front headlock submission in BJJ where the attacker threads their arm under the opponent's near-side arm and around their neck, locking a gable or figure-four grip to create a constricting loop. It is typically finished by rolling over the opponent's trapped shoulder, using body weight to tighten the choke.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "dedicated_faq"
+    },
+    {
+      "question": "How do you escape the anaconda choke in BJJ?",
+      "answer_snippet": "Escaping the anaconda requires a survival hierarchy: (1) immediately address the choking arm with your free hand — grip their wrist/elbow to create neck space; (2) tuck your chin toward your free-side shoulder; (3) use your free arm to post on their hip to prevent the step-over; (4) move your hips away while hand-fighting. The earlier you act, the higher your escape success rate.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "improve_heading"
+    },
+    {
+      "question": "What is the difference between an anaconda choke and a darce choke?",
+      "answer_snippet": "Both are front headlock arm-in chokes, but they differ in arm position. The anaconda threads the attacking arm under the opponent's near arm and around their neck; the D'arce (Brabo) threads over the near arm and under the neck from the opposite side. The anaconda is typically finished by rolling; the D'arce can be finished statically with pressure.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "dedicated_faq"
+    },
+    {
+      "question": "How do you defend against the anaconda choke step-over?",
+      "answer_snippet": "When the attacker begins stepping over your head to finish the anaconda, post your free hand on their hip or thigh to block the step. Simultaneously, flatten your body and scoot your hips away. If the step is already mid-flight, roll with their momentum and use the scramble to attack the grip and escape. Never let the step complete — once it does the choke is extremely difficult to survive.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "dedicated_faq"
+    },
+    {
+      "question": "Is the anaconda choke a blood choke or air choke?",
+      "answer_snippet": "The anaconda choke is primarily a blood choke — it targets the carotid arteries to restrict blood flow to the brain rather than blocking the airway. This means it acts quickly (loss of consciousness in 8-12 seconds once fully locked) and causes less discomfort before unconsciousness than an air choke. Practitioners should tap early when caught in a properly locked anaconda.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "add_section"
+    },
+    {
+      "question": "How do you set up the anaconda choke from turtle?",
+      "answer_snippet": "From turtle position, the attacker secures a front headlock, then threads their attacking arm under the opponent's near-side arm and around their neck, locking a gable grip. They then use their free leg to step over the opponent's head and roll through to complete the choke. The key moment of entry is when the turtle player lifts their head or reaches with their near arm.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "add_section"
+    },
+    {
+      "question": "What are the best escapes from the anaconda choke?",
+      "answer_snippet": "Primary escapes from anaconda control include: (1) Grip break to front headlock — attack their wrist/elbow while posturing to remove the lock; (2) Rolling escape to guard — use their momentum during the roll-through to re-guard; (3) Hip escape and arm extraction — move hips away while freeing the trapped arm. Success rates drop dramatically once the attacker steps over the head.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "improve_heading"
+    },
+    {
+      "question": "How do you breathe while caught in a choke hold in BJJ?",
+      "answer_snippet": "Take short, controlled nasal breaths rather than deep panicked gasps — expanding your chest tightens a constricting choke. Relax muscles that aren't actively needed for defense to reduce oxygen consumption. Stay calm and work systematic escape steps. If defensive efforts aren't creating space after 5-10 seconds, tap before going unconscious.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "dedicated_faq"
+    },
+    {
+      "question": "Can you counter the anaconda roll-through?",
+      "answer_snippet": "Yes — if caught early in the roll, post your free hand on the mat and sprawl your legs back to resist. If the roll is already committed, go with their momentum and immediately attack the grip on landing. The scramble during the roll can be leveraged to create grip-breaking opportunities that static defense cannot. Timing your counter to their commitment is key.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "improve_heading"
+    },
+    {
+      "question": "What BJJ positions come from turtle position?",
+      "answer_snippet": "From turtle, a grappler can face attacks including: anaconda choke, D'arce choke, guillotine, rear naked choke (after back take), and various mat returns/takedowns. Offensively from turtle a grappler can roll into guard, stand up, shoot a single leg, or attempt sit-outs. Turtle is a transitional survival position — staying there long creates submission danger.",
+      "source_url": null,
+      "priority": "low",
+      "integration_strategy": "add_section"
+    }
+  ],
+  "heading_optimizations": [
+    {
+      "current": "Position Definition",
+      "suggested": "What Is Anaconda Control in BJJ?",
+      "rationale": "Directly targets top PAA question; H2 with question format improves Featured Snippet eligibility"
+    },
+    {
+      "current": "Key Defensive Principles",
+      "suggested": "How to Survive the Anaconda Choke: Defensive Principles",
+      "rationale": "Action-oriented question format matches 'how to survive/escape X' search patterns"
+    },
+    {
+      "current": "Decision Making from This Position",
+      "suggested": "What Are Your Escape Options from Anaconda Control?",
+      "rationale": "Matches 'what are the escapes for X' query pattern; high PAA potential"
+    },
+    {
+      "current": "Common Defensive Mistakes",
+      "suggested": "Why the Anaconda Choke Is Hard to Escape: Common Mistakes",
+      "rationale": "Diagnostic framing attracts 'why is X hard' searches and boosts engagement"
+    },
+    {
+      "current": "Test Your Knowledge",
+      "suggested": "Anaconda Defense Quiz: Test Your Knowledge",
+      "rationale": "Explicit quiz framing increases engagement signals (time on page)"
+    }
+  ],
+  "missing_content_opportunities": [
+    "Add section: 'Anaconda vs D'arce vs Guillotine: What's the Difference?' — high-volume comparison query that links to related pages",
+    "Add section: 'Safety and Tap Protocol' — the anaconda is a fast blood choke; warn about tapping early, note that unconsciousness can happen before pain, especially relevant for beginners finding this page",
+    "Add section: 'How Is the Anaconda Choke Set Up?' — brief attacker mechanics overview to help defenders understand what to look for (understanding the attack improves defense)",
+    "Add early-funnel content block: 'Is this a blood choke or air choke?' — top FAQ search query not currently addressed in article",
+    "Add stat callout near top: '10-30 second average time in position' and '2% submission probability from bottom' to set urgency context",
+    "Add internal links from this page to: Positions/Turtle (entry prevention), Positions/Darce Control (related defense), Transitions/Anaconda from Turtle (attacker's entry — helps bottom player recognize it earlier)"
+  ],
+  "data_note": "PAA questions generated from BJJ domain knowledge and content analysis. DataForSEO API and web search were unavailable in this environment. Questions reflect high-volume BJJ search patterns observed across the web."
+}
