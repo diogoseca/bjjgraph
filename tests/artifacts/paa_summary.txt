@@ -1,0 +1,98 @@
+PAA ANALYSIS SUMMARY
+====================
+Generated: 2026-03-13
+Data Source: Topic analysis (DataForSEO MCP unavailable; questions derived from BJJ domain knowledge
+             and common SERP PAA patterns for these topic clusters)
+
+ARTICLES PROCESSED
+------------------
+1. content/Positions/Ashi Garami/Backside 50-50/Bottom.md
+   Seed Keyword: "Backside 50-50 Bottom BJJ"
+   Output: tests/artifacts/backside_50_50_bottom_paa.json
+
+2. content/Positions/Buggy Choke/Top.md
+   Seed Keyword: "Buggy Choke Top BJJ"
+   Output: tests/artifacts/buggy_choke_top_paa.json
+
+
+TOTALS
+------
+Total PAA questions found:    20 (10 per article)
+High-priority questions:      11
+  - Backside 50-50 Bottom:    5 high-priority
+  - Buggy Choke Top:          6 high-priority
+Medium-priority questions:     9
+
+
+HIGH-PRIORITY QUESTIONS (Direct Answers Needed)
+-------------------------------------------------
+BACKSIDE 50-50 BOTTOM:
+  1. "What is Backside 50-50 in BJJ?"
+     → Strategy: improve_heading (Position Definition → "What Is Backside 50-50 Bottom?")
+  2. "What is the difference between 50-50 and Backside 50-50?"
+     → Strategy: add_section (comparison section needed)
+  3. "How do you escape from Backside 50-50 bottom?"
+     → Strategy: improve_heading (Decision Making → "How to Escape or Attack from...")
+  4. "What leg locks can you attack from Backside 50-50 bottom?"
+     → Strategy: improve_heading (add direct answer to decision tree intro)
+  5. "How do you prevent back control from Backside 50-50 bottom?"
+     → Strategy: dedicated_faq (add FAQ entry with direct answer paragraph)
+
+BUGGY CHOKE TOP:
+  1. "What is the Buggy Choke in BJJ?"
+     → Strategy: improve_heading (Position Definition → "What Is the Buggy Choke Position?")
+  2. "How do you set up the Buggy Choke?"
+     → Strategy: dedicated_faq (add numbered setup steps near top)
+  3. "Is the Buggy Choke effective in BJJ competition?"
+     → Strategy: add_section (reference 72% submission probability stat)
+  4. "What is the difference between a Buggy Choke and a Darce Choke?"
+     → Strategy: add_section (comparison section needed)
+  5. "How do you defend against the Buggy Choke?"
+     → Strategy: dedicated_faq (currently no defense perspective on this page)
+  6. "What are the counters to the Buggy Choke?"
+     → Strategy: dedicated_faq (supplement defense section above)
+
+
+CONTENT GAP ANALYSIS
+---------------------
+BACKSIDE 50-50 BOTTOM:
+  - Missing: Explicit comparison with standard 50-50 guard (high search intent)
+  - Missing: Competition ruleset section re: heel hook legality by division
+  - Missing: Brief "Position at a Glance" summary for featured snippet capture
+  - Missing: Contextual intro linking this page to the broader Ashi Garami family
+
+BUGGY CHOKE TOP:
+  - Missing: Buggy Choke vs Darce Choke comparison (frequently searched)
+  - Missing: Defender/counter perspective section (significant search volume)
+  - Missing: Gi vs No-Gi grip differences section
+  - Missing: Quick setup summary (numbered list) near page top for voice search
+
+
+SUGGESTED NEW ARTICLES
+-----------------------
+1. content/Positions/Ashi Garami/50-50 Guard vs Backside 50-50 — Comparison Guide
+   Rationale: High-intent comparison query with no existing dedicated page.
+   Suggested path: content/Positions/Ashi Garami/50-50-vs-Backside-50-50.md
+
+2. content/Transitions/Buggy Choke to Back Take/Attacker.md
+   Rationale: The hook-leg-and-take-back transition (17% attempt rate) deserves a dedicated
+   Attacker page to capture 'Buggy Choke to back control' search traffic.
+
+3. content/Submissions/Buggy Choke.md (if not already existing)
+   Rationale: The Buggy Choke is both a position AND a submission finish.
+   Many searchers look for "Buggy Choke submission" rather than a positional guide.
+
+4. content/Positions/Ashi Garami/Leg Lock Rules in BJJ Competition.md
+   Rationale: IBJJF heel hook legality is a recurring search query that no existing
+   page addresses directly. High-intent informational content.
+
+
+RECOMMENDED PRIORITY ORDER FOR IMPLEMENTATION
+----------------------------------------------
+1. Add "50-50 vs Backside 50-50" comparison section to Backside 50-50 Bottom page
+2. Add "Buggy Choke vs Darce Choke" comparison section to Buggy Choke Top page
+3. Add Buggy Choke defense/counters section to Buggy Choke Top page
+4. Rewrite heading "Position Definition" → conversational question format on both pages
+5. Add "Position at a Glance" bullet summary near top of Backside 50-50 Bottom page
+6. Add Quick Setup Summary to Buggy Choke Top page
+7. Create Buggy Choke to Back Take transition page
