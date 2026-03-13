@@ -1,0 +1,112 @@
+{
+  "article_path": "content/Positions/Ashi Garami/Backside 50-50/Bottom.md",
+  "seed_keyword": "Backside 50-50 Bottom BJJ",
+  "data_source": "topic_analysis",
+  "data_source_note": "DataForSEO MCP tool unavailable; questions derived from BJJ domain knowledge and common SERP PAA patterns for this topic cluster.",
+  "paa_questions": [
+    {
+      "question": "What is Backside 50-50 in BJJ?",
+      "answer_snippet": "Backside 50-50 is a leg entanglement position where both grapplers have their legs intertwined in a mirrored 50-50 configuration, but the bottom player faces away from their opponent with their back exposed to the opponent's chest. It is common in no-gi grappling and leg lock competition.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "improve_heading"
+    },
+    {
+      "question": "What is the difference between 50-50 and Backside 50-50?",
+      "answer_snippet": "Standard 50-50 guard has both players facing each other with mirrored leg control. Backside 50-50 has the bottom player's back oriented toward the opponent, which changes leverage, attack angles, and defensive priorities. Back control becomes a major threat in backside that does not exist in standard 50-50.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "add_section"
+    },
+    {
+      "question": "How do you escape from Backside 50-50 bottom?",
+      "answer_snippet": "To escape Backside 50-50 bottom: (1) maintain hip mobility by staying on your side; (2) use the Ashi Garami Escape to extract legs; (3) counter-entangle to standard 50-50 guard; (4) stand up in base when opponent's pressure lightens. The Ashi Garami Escape is attempted in ~44% of exchanges from this position.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "improve_heading"
+    },
+    {
+      "question": "Is Backside 50-50 good or bad for the bottom player?",
+      "answer_snippet": "Backside 50-50 bottom is a disadvantaged position for the bottom player. The top player has superior leverage, back access, and visibility for leg attacks. However, the bottom player retains mutual leg attack opportunities. It has a 60% retention rate and 42% submission probability, reflecting legitimate offensive options despite the positional disadvantage.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "add_section"
+    },
+    {
+      "question": "What leg locks can you attack from Backside 50-50 bottom?",
+      "answer_snippet": "From Backside 50-50 bottom a grappler can attempt: Heel Hook (6% attempt rate), Outside Heel Hook (5%), Straight Ankle Lock Entry (4%), and Counter-entangle to 50-50 Guard (11%). Heel hooks are the highest-probability submission when the opponent extends their attacking leg.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "improve_heading"
+    },
+    {
+      "question": "How do you prevent back control from Backside 50-50 bottom?",
+      "answer_snippet": "Monitor the opponent's hands constantly. If they release leg entanglement to reach for your neck or shoulders, immediately turn to face them or extract your legs. Keep your chin tucked and elbows tight. The moment you feel them walking their hips up your body, accelerate your escape attempt.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "dedicated_faq"
+    },
+    {
+      "question": "What is Ashi Garami in BJJ?",
+      "answer_snippet": "Ashi Garami (Japanese: 'leg entanglement') is a family of leg lock positions in BJJ and submission grappling. It includes Inside Ashi Garami, Outside Ashi Garami, 50-50 Guard, Saddle (Inside Heel Hook position), and Backside 50-50. These positions allow heel hooks, toe holds, and ankle locks.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "add_section"
+    },
+    {
+      "question": "Is Backside 50-50 allowed in IBJJF competition?",
+      "answer_snippet": "Backside 50-50 as a positional entanglement is legal at all IBJJF levels. However, heel hooks (the primary submission available from this position) are restricted at the blue belt and purple belt levels and only permitted at adult brown/black belt in gi and at certain no-gi divisions. Always check current IBJJF ruleset for your division.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "add_section"
+    },
+    {
+      "question": "How do you maintain hip mobility in Backside 50-50 bottom?",
+      "answer_snippet": "Stay active on your side, never flat on your back. Use your top arm to post on the opponent's chest or shoulder to create frames. Constantly adjust hip angles. If being flattened, immediately bridge and turn to your side. Hip mobility is essential for all escapes and offensive options from this position.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "improve_heading"
+    },
+    {
+      "question": "When should you attempt leg attacks from Backside 50-50 bottom?",
+      "answer_snippet": "Only attack legs opportunistically when the opponent makes mistakes or overcommits. If they extend their leg while attacking or release upper body pressure, use that opening. Never force leg attacks from the bottom as a primary strategy — position improvement should come first. Leg attacks from bottom are counters, not proactive strategies.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "dedicated_faq"
+    }
+  ],
+  "heading_optimizations": [
+    {
+      "current": "Position Definition",
+      "suggested": "What Is Backside 50-50 Bottom? Position Definition",
+      "rationale": "Front-loads the conversational query pattern matching PAA 'What is Backside 50-50 in BJJ?' for better featured snippet eligibility"
+    },
+    {
+      "current": "Key Defensive Principles",
+      "suggested": "How to Defend Backside 50-50 Bottom: Key Principles",
+      "rationale": "Matches 'how to defend' query intent and improves scannability for voice search"
+    },
+    {
+      "current": "Decision Making from This Position",
+      "suggested": "How to Escape or Attack from Backside 50-50 Bottom",
+      "rationale": "Aligns with 'how do you escape from Backside 50-50' high-priority PAA question"
+    },
+    {
+      "current": "Common Defensive Mistakes",
+      "suggested": "Common Backside 50-50 Bottom Mistakes (and How to Fix Them)",
+      "rationale": "Parenthetical format matches PAA snippet structure and increases CTR"
+    },
+    {
+      "current": "Success Rates and Statistics",
+      "suggested": "Backside 50-50 Bottom Success Rates: What the Statistics Show",
+      "rationale": "Data-framed heading matches 'is Backside 50-50 good/bad' query intent"
+    }
+  ],
+  "missing_content_opportunities": [
+    "Add section: '50-50 vs Backside 50-50 — Key Differences' to directly answer the top comparison PAA question",
+    "Add section: 'IBJJF and Competition Rules for Heel Hooks from Backside 50-50' to capture ruleset queries",
+    "Add section: 'What Is Ashi Garami? How Backside 50-50 Fits the Family' to capture definitional searches and improve internal linking context",
+    "Add explicit answer paragraph at top of 'Decision Making' section that starts with 'To escape Backside 50-50 Bottom...' — improves featured snippet eligibility",
+    "Add a brief 'Position at a Glance' summary box (3-5 bullet points) near top of page for zero-click featured snippet capture"
+  ]
+}

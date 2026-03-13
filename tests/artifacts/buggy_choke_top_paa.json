@@ -1,0 +1,112 @@
+{
+  "article_path": "content/Positions/Buggy Choke/Top.md",
+  "seed_keyword": "Buggy Choke Top BJJ",
+  "data_source": "topic_analysis",
+  "data_source_note": "DataForSEO MCP tool unavailable; questions derived from BJJ domain knowledge and common SERP PAA patterns for this topic cluster.",
+  "paa_questions": [
+    {
+      "question": "What is the Buggy Choke in BJJ?",
+      "answer_snippet": "The Buggy Choke is a BJJ choke applied from top position when the opponent is in a defensive turtle. The attacker threads one arm deep under the opponent's near armpit, grips the far collar (gi) or connects hands (no-gi), and applies downward pressure with chest and hips to create a blood choke on the carotid arteries.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "improve_heading"
+    },
+    {
+      "question": "How do you set up the Buggy Choke?",
+      "answer_snippet": "Setup: (1) Get opponent into defensive turtle; (2) thread your choking arm deep under their near armpit with palm up until your hand reaches the far collar or neck; (3) immediately secure the second grip (far collar or hand connection); (4) apply chest and hip pressure to flatten and control; (5) squeeze progressively for the finish.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "dedicated_faq"
+    },
+    {
+      "question": "Is the Buggy Choke effective in BJJ competition?",
+      "answer_snippet": "Yes. The Buggy Choke is highly effective in modern BJJ competition. From the top position it has a 72% submission probability and 75% positional advancement rate, making it one of the highest-percentage turtle attack systems. Its effectiveness comes from the dilemma it creates — every defensive response opens a different offensive opportunity.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "add_section"
+    },
+    {
+      "question": "What is the difference between a Buggy Choke and a Darce Choke?",
+      "answer_snippet": "Both are arm-triangle style chokes attacking from top position. The Darce Choke (or No-Gi Brabo) threads the arm under the armpit and behind the neck with a different grip configuration and is typically applied from a front headlock or guard pass. The Buggy Choke uses a collar/over-the-back grip and is primarily a turtle top attack. The Buggy Choke can transition to a Darce when the opponent turns in to defend.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "add_section"
+    },
+    {
+      "question": "How do you defend against the Buggy Choke?",
+      "answer_snippet": "To defend the Buggy Choke: (1) strip the threading arm before it reaches depth; (2) posture up quickly before grips are set; (3) sit to guard (creates back control risk but escapes the choke); (4) turn into the attack to defend the neck (creates Darce/Anaconda risk); (5) extend far arm to base (creates crucifix risk). Every defense creates a new threat, making early prevention critical.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "dedicated_faq"
+    },
+    {
+      "question": "What positions lead to the Buggy Choke?",
+      "answer_snippet": "The Buggy Choke most commonly arises from: Turtle top control after a takedown, sprawl, or failed guard pass; side control when the bottom player turtles; and front headlock variations. The turtle position is the primary entry point.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "add_section"
+    },
+    {
+      "question": "Can you do the Buggy Choke in gi BJJ?",
+      "answer_snippet": "Yes. The Buggy Choke works in both gi and no-gi. In gi, the grip uses the far-side collar. In no-gi, the choking hand connects to the opposite wrist or bicep. The gi version typically provides a more reliable grip, while the no-gi version requires tighter body mechanics to maintain pressure.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "add_section"
+    },
+    {
+      "question": "What are the counters to the Buggy Choke?",
+      "answer_snippet": "Key counters: (1) Sit to guard — escapes choke but exposes the back; (2) Turn into attack — defends neck but risks Darce/Anaconda; (3) Extend far arm — clears space but creates crucifix; (4) Stand up — requires good base before grips tighten; (5) Granby roll — can escape but risks truck position. The best counter is prevention before grips are established.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "dedicated_faq"
+    },
+    {
+      "question": "What submissions can you get from Buggy Choke top position?",
+      "answer_snippet": "From Buggy Choke top: direct Buggy Choke finish (41% attempt rate), Darce Choke (when opponent turns in, 4%), Anaconda Choke (2%), and crucifix submissions. Positional advancements include Back Control (17% via hook-leg-and-take-back) and Truck/Twister Control (7% via roll to truck).",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "improve_heading"
+    },
+    {
+      "question": "How do you transition from Buggy Choke to back control?",
+      "answer_snippet": "When the opponent sits to guard to escape the choke, hook their near leg with your leg and follow their hip motion. Maintain your collar/neck grip as you transition. Their hip exposure during the sit creates the perfect hook insertion angle. Convert the choke attempt into a back take, inserting both hooks for full back control.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "improve_heading"
+    }
+  ],
+  "heading_optimizations": [
+    {
+      "current": "Position Definition",
+      "suggested": "What Is the Buggy Choke Position in BJJ?",
+      "rationale": "Directly matches 'What is the Buggy Choke in BJJ?' — the highest-priority PAA question for this page"
+    },
+    {
+      "current": "Key Offensive Principles",
+      "suggested": "How to Attack from Buggy Choke Top: Key Principles",
+      "rationale": "Matches 'how do you set up the Buggy Choke' query intent and improves featured snippet eligibility"
+    },
+    {
+      "current": "Decision Making from This Position",
+      "suggested": "Buggy Choke Decision Tree: Finishing or Transitioning Based on Defense",
+      "rationale": "More descriptive and matches long-tail queries about reactions to opponent's defensive choices"
+    },
+    {
+      "current": "Common Offensive Mistakes",
+      "suggested": "Common Buggy Choke Mistakes That Let Opponents Escape",
+      "rationale": "Adds consequence framing that increases click-through from PAA; matches troubleshooting query pattern"
+    },
+    {
+      "current": "Success Rates and Statistics",
+      "suggested": "Buggy Choke Submission Rate and Competition Statistics",
+      "rationale": "'submission rate' is a high-intent keyword cluster; front-loads the data for featured snippet"
+    }
+  ],
+  "missing_content_opportunities": [
+    "Add section: 'Buggy Choke vs Darce Choke — Key Differences' to capture the high-priority comparison PAA question",
+    "Add section: 'Buggy Choke Counters and How to Defend It' — currently the page only covers the attacker side; a brief defense section captures defender search queries and builds topical authority",
+    "Add section: 'Gi vs No-Gi Buggy Choke — Grip Differences' to capture ruleset-specific search traffic",
+    "Add a 'Quick Setup Summary' (3-step numbered list) near the top for featured snippet capture on 'how to set up Buggy Choke' queries",
+    "Add internal links to [[Transitions/Finish Buggy Choke]] and [[Transitions/Buggy Choke to Back Take]] once those transition pages exist"
+  ]
+}
