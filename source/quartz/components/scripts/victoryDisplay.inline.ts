@@ -6,7 +6,8 @@ interface JourneyStep {
   name: string
   type: "position" | "transition" | "submission"
   success?: boolean
-  action?: "dice-roll" | "flashcard"
+  action?: "dice-roll" | "flashcard" | "opponent-turn"
+  rating?: "again" | "hard" | "easy"
 }
 
 interface VictoryData {
@@ -33,6 +34,7 @@ interface LifetimeStats {
   totalMoves: number
   diceRolls: { total: number; successes: number }
   flashcards: { total: number; correct: number }
+  opponentTurns: { total: number; defended: number }
   techniques: Record<string, TechniqueLifetime>
 }
 
@@ -51,6 +53,7 @@ function loadLifetimeStats(): LifetimeStats {
     totalMoves: 0,
     diceRolls: { total: 0, successes: 0 },
     flashcards: { total: 0, correct: 0 },
+    opponentTurns: { total: 0, defended: 0 },
     techniques: {},
   }
 }
@@ -60,7 +63,7 @@ function saveLifetimeStats(stats: LifetimeStats) {
 }
 
 /** Backward-compat: old journey data lacks action field */
-function inferAction(step: JourneyStep): "dice-roll" | "flashcard" {
+function inferAction(step: JourneyStep): "dice-roll" | "flashcard" | "opponent-turn" {
   return step.action ?? "dice-roll"
 }
 
@@ -77,7 +80,11 @@ function accumulateStats(journey: JourneyStep[]): LifetimeStats {
 
     const action = inferAction(step)
 
-    if (action === "dice-roll") {
+    if (action === "opponent-turn") {
+      if (!stats.opponentTurns) stats.opponentTurns = { total: 0, defended: 0 }
+      stats.opponentTurns.total++
+      if (step.success) stats.opponentTurns.defended++
+    } else if (action === "dice-roll") {
       stats.diceRolls.total++
       if (step.success) stats.diceRolls.successes++
     } else {
@@ -98,10 +105,11 @@ function accumulateStats(journey: JourneyStep[]): LifetimeStats {
     if (action === "dice-roll") {
       tech.diceAttempts++
       if (step.success) tech.diceSuccesses++
-    } else {
+    } else if (action === "flashcard") {
       tech.flashcardAttempts++
       if (step.success) tech.flashcardCorrect++
     }
+    // opponent-turn is tracked at stats.opponentTurns level, skip per-technique
   }
 
   saveLifetimeStats(stats)

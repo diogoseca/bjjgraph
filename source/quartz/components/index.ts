@@ -26,6 +26,8 @@ import MoveCards from "./MoveCards"
 import Snackbar from "./Snackbar"
 import TransitionFlashcard from "./TransitionFlashcard"
 import VictoryDisplay from "./VictoryDisplay"
+import TrainingDashboard from "./TrainingDashboard"
+import TopBar from "./TopBar"
 
 export {
   ArticleTitle,
@@ -56,4 +58,6 @@ export {
   Snackbar,
   TransitionFlashcard,
   VictoryDisplay,
+  TrainingDashboard,
+  TopBar,
 }

@@ -39,11 +39,14 @@ const TransitionFlashcard: QuartzComponent = ({ fileData, displayClass }: Quartz
             Reveal Answer
           </button>
           <div class="result-btns hidden" id="result-btns">
-            <button class="remembered-btn" id="remembered-btn">
-              I remembered
+            <button class="again-btn" id="again-btn">
+              Again
             </button>
-            <button class="missed-btn" id="missed-btn">
-              I missed it
+            <button class="hard-btn" id="hard-btn">
+              Hard
+            </button>
+            <button class="easy-btn" id="easy-btn">
+              Easy
             </button>
           </div>
           <button

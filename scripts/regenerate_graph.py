@@ -269,29 +269,67 @@ def process_transitions(content_dir: Path) -> dict:
             for qa in defender_ka_source
         ]
 
+        # Read from_position (the correct field name from source JSON)
+        from_position_raw = trans_data.get('from_position', '')
+        if from_position_raw:
+            starting_pos_name = from_position_raw.split('/')[0]
+            starting_position_slug = slugify(starting_pos_name)
+        else:
+            starting_position_slug = ''
+
         effectiveness_map = {'High': 70, 'Medium': 50, 'Low': 30}
         cc_source = attacker.get('common_counters', trans_data.get('common_counters', []))
         common_counters = [
             {
                 'technique': c.get('counter', 'Defense'),
                 'effectiveness': effectiveness_map.get(c.get('effectiveness', 'Medium'), 50),
-                'resultPosition': slugify(trans_data.get('starting_position', ''))
+                'resultPosition': starting_position_slug
             }
             for c in cc_source
         ]
 
         success_rate = trans_data.get('success_rate', 50)
 
-        ending_pos = trans_data.get('ending_position', '')
-        ending_slug = slugify(ending_pos)
-        ending_path = path_index.get(ending_slug, ending_slug)
+        # Derive endingPosition from first success outcome in outcomes[]
+        ending_slug = ''
+        ending_path = ''
+        outcomes_raw = trans_data.get('outcomes', [])
+        for outcome in outcomes_raw:
+            if outcome.get('result') == 'success':
+                to_raw = outcome.get('to', '')
+                if to_raw:
+                    # Split "Position/Role" format (e.g., "Mount/Top")
+                    to_parts = to_raw.split('/')
+                    pos_name = to_parts[0]
+                    pos_slug = slugify(pos_name)
+                    ending_path = path_index.get(pos_slug, pos_slug)
 
-        if ending_slug and not is_neutral_position(ending_slug) and not is_terminal_position(ending_slug):
-            ending_slug = f"{ending_slug}/top"
+                    if is_terminal_position(pos_slug):
+                        ending_slug = pos_slug
+                    elif is_neutral_position(pos_slug):
+                        ending_slug = pos_slug
+                    elif len(to_parts) > 1:
+                        role = to_parts[1].lower()
+                        ending_slug = f"{pos_slug}/{role}"
+                    else:
+                        ending_slug = f"{pos_slug}/top"
+                break
 
-        transitions[slug] = {
+        # Build outcomes array — slugify each path segment separately to preserve "/"
+        outcomes = []
+        for o in outcomes_raw:
+            to_raw = o.get('to', '')
+            to_parts = to_raw.split('/')
+            to_slug = '/'.join(slugify(part) for part in to_parts) if to_raw else ''
+            outcomes.append({
+                'to': to_slug,
+                'probability': o.get('probability', 0),
+                'result': o.get('result', 'success')
+            })
+
+        trans_entry = {
             'name': trans_data['name'],
-            'startingPosition': slugify(trans_data.get('starting_position', '')),
+            'startingPosition': starting_position_slug,
             'endingPosition': ending_slug,
             'endingPositionPath': ending_path,
             'successRate': success_rate,
@@ -299,6 +337,11 @@ def process_transitions(content_dir: Path) -> dict:
             'defenderKnowledgeAssessment': defender_knowledge_assessment,
             'commonCounters': common_counters
         }
+
+        if outcomes:
+            trans_entry['outcomes'] = outcomes
+
+        transitions[slug] = trans_entry
 
     return transitions
 
@@ -376,7 +419,7 @@ def process_submissions(content_dir: Path) -> dict:
         if outcomes_raw:
             sub_entry['outcomes'] = [
                 {
-                    'to': slugify(o.get('to', '')),
+                    'to': '/'.join(slugify(part) for part in o.get('to', '').split('/')) if o.get('to') else '',
                     'probability': o.get('probability', 0),
                     'result': o.get('result', 'success')
                 }
@@ -549,6 +592,73 @@ def generate_state_graph(project_root: Path) -> dict:
                 t['successRate'] = 50
             enriched += 1
     print(f"  Enriched {enriched} position transition(s) with successRate")
+
+    # Build path index for opponent transition outcome lookups
+    positions_dir = content_dir / 'Positions'
+    path_index = build_position_path_index(positions_dir)
+
+    # Add opponentTransitions: for each position role, copy the opposite role's transitions
+    opponent_count = 0
+    for pos_key, pos_data in positions.items():
+        role = pos_data.get('role')
+        hub = pos_data.get('hub')
+        if role not in ('top', 'bottom') or not hub:
+            continue
+
+        opposite_role = 'bottom' if role == 'top' else 'top'
+        opposite_key = f"{hub}/{opposite_role}"
+        opposite_data = positions.get(opposite_key)
+        if not opposite_data:
+            continue
+
+        opponent_transitions = []
+        for t in opposite_data.get('transitions', []):
+            opp_t = {
+                'technique': t.get('technique', ''),
+                'target': t.get('target', ''),
+                'targetPath': t.get('targetPath', ''),
+                'isSubmission': t.get('isSubmission', False),
+                'attemptProbability': t.get('attemptProbability', 0),
+                'successRate': t.get('successRate', 50),
+            }
+            # Embed the success outcome from the transition's outcomes array
+            target_slug = t.get('target', '')
+            if target_slug in transitions:
+                trans_outcomes = transitions[target_slug].get('outcomes', [])
+                for outcome in trans_outcomes:
+                    if outcome.get('result') == 'success':
+                        outcome_to = outcome.get('to', '')
+                        opp_t['successOutcome'] = outcome_to
+                        # Look up path for the outcome position (use first segment as position name)
+                        outcome_pos = outcome_to.split('/')[0] if outcome_to else ''
+                        if outcome_pos:
+                            opp_t['successOutcomePath'] = path_index.get(outcome_pos, outcome_pos) if not t.get('isSubmission', False) else ''
+                        break
+            elif target_slug in submissions:
+                opp_t['successOutcome'] = 'game-over'
+                opp_t['successOutcomePath'] = ''
+
+            opponent_transitions.append(opp_t)
+
+        if opponent_transitions:
+            pos_data['opponentTransitions'] = opponent_transitions
+            opponent_count += 1
+
+    if opponent_count:
+        print(f"  Added opponentTransitions to {opponent_count} position role(s)")
+
+    # Diagnostic: check for opponentTransitions with successOutcome=game-over but isSubmission=False
+    mismarked = 0
+    for pos_key, pos_data in positions.items():
+        for opp_t in pos_data.get('opponentTransitions', []):
+            if opp_t.get('successOutcome') == 'game-over' and not opp_t.get('isSubmission', False):
+                mismarked += 1
+                print(f"  WARNING: opponentTransition '{opp_t.get('technique')}' on {pos_key} "
+                      f"has successOutcome=game-over but isSubmission=False")
+                # Auto-fix: mark as submission
+                opp_t['isSubmission'] = True
+    if mismarked:
+        print(f"  Auto-fixed {mismarked} mismarked submission opponentTransition(s)")
 
     all_position_slugs = sorted(positions.keys())
 

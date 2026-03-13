@@ -1,5 +1,6 @@
-// Flashcard Knowledge Test - Anki-style recall test for transitions and submissions
+// Flashcard Knowledge Test - Anki-style 3-button model (Again/Hard/Easy) with SRS
 // Reads per-page graph data injected at build time (no runtime fetch)
+import { findCard, addCard, reviewCard } from "./srs"
 
 interface PageGraphData {
   type: "transition" | "submission" | "position"
@@ -15,7 +16,8 @@ interface JourneyStep {
   name: string
   type: "position" | "transition" | "submission"
   success?: boolean
-  action?: "dice-roll" | "flashcard"
+  action?: "dice-roll" | "flashcard" | "opponent-turn"
+  rating?: "again" | "hard" | "easy"
 }
 
 function getPageData(): PageGraphData | null {
@@ -76,40 +78,40 @@ document.addEventListener("nav", () => {
   const currentPath = window.location.pathname
 
   if (!data.knowledgeAssessment || data.knowledgeAssessment.length === 0) {
-    // Hide the flashcard container if no questions available
     container.style.display = "none"
     return
   }
 
+  // Check SRS status for this technique
+  const srsCard = findCard(data.name)
+  const isSRSDue = srsCard && srsCard.nextReview <= new Date().toISOString().slice(0, 10)
+  const isMastered = srsCard && srsCard.repetitions >= 5 && srsCard.easeFactor >= 2.5
+
   // Show the container
   container.style.display = "block"
 
-  // For position pages, relocate flashcard into the knowledge-assessment section
+  // For position pages, keep flashcard in beforeBody (after move cards)
+  // and hide the knowledge-assessment section in the article to avoid duplication
   if (pageType === "position") {
     const kaSection = document.getElementById("knowledge-assessment")
     if (kaSection) {
-      // Hide static Q&A content, insert flashcard in its place
-      for (const child of Array.from(kaSection.children)) {
-        if (child.id !== "flashcard-container") {
-          ;(child as HTMLElement).style.display = "none"
-        }
-      }
-      kaSection.appendChild(container)
+      ;(kaSection as HTMLElement).style.display = "none"
     }
   }
 
-  // Get DOM elements
+  // Get DOM elements (let — will be reassigned after cloning to strip old listeners)
   const labelEl = document.getElementById("flashcard-label")
   const questionEl = document.getElementById("flashcard-question")
-  const answerEl = document.getElementById("flashcard-answer")
-  const revealBtn = document.getElementById("reveal-btn")
-  const resultBtns = document.getElementById("result-btns")
-  const rememberedBtn = document.getElementById("remembered-btn")
-  const missedBtn = document.getElementById("missed-btn")
-  const downvoteBtn = document.getElementById("flashcard-downvote")
+  let answerEl = document.getElementById("flashcard-answer")
+  let revealBtn = document.getElementById("reveal-btn")
+  let resultBtns = document.getElementById("result-btns")
+  let againBtn = document.getElementById("again-btn")
+  let hardBtn = document.getElementById("hard-btn")
+  let easyBtn = document.getElementById("easy-btn")
+  let downvoteBtn = document.getElementById("flashcard-downvote")
   const feedbackEl = document.getElementById("flashcard-feedback")
-  const feedbackInput = document.getElementById("feedback-input") as HTMLInputElement | null
-  const feedbackSubmit = document.getElementById("feedback-submit")
+  let feedbackInput = document.getElementById("feedback-input") as HTMLInputElement | null
+  let feedbackSubmit = document.getElementById("feedback-submit")
 
   if (
     !labelEl ||
@@ -117,8 +119,9 @@ document.addEventListener("nav", () => {
     !answerEl ||
     !revealBtn ||
     !resultBtns ||
-    !rememberedBtn ||
-    !missedBtn
+    !againBtn ||
+    !hardBtn ||
+    !easyBtn
   ) {
     console.warn("Flashcard elements not found")
     return
@@ -128,6 +131,8 @@ document.addEventListener("nav", () => {
   const usedQuestionIndices: Set<number> = new Set()
   let currentQuestionIndex = -1
 
+  const totalQuestions = data.knowledgeAssessment.length
+
   function getRandomQuestion(): { question: string; answer: string; index: number } | null {
     if (!data || !data.knowledgeAssessment) return null
 
@@ -135,10 +140,9 @@ document.addEventListener("nav", () => {
       .map((_, i) => i)
       .filter((i) => !usedQuestionIndices.has(i))
 
+    // All questions answered — return null to signal completion
     if (availableIndices.length === 0) {
-      // All questions used, reset
-      usedQuestionIndices.clear()
-      return getRandomQuestion()
+      return null
     }
 
     const randomIndex = availableIndices[Math.floor(Math.random() * availableIndices.length)]
@@ -151,25 +155,60 @@ document.addEventListener("nav", () => {
   }
 
   function showQuestion() {
+    // If mastered, skip flashcard — show mastered label briefly
+    if (isMastered && pageType !== "position") {
+      labelEl!.textContent = "\u2726 Mastered"
+      labelEl!.classList.add("flashcard-label-mastered")
+      questionEl!.textContent = `${data!.name} — all flashcards mastered!`
+      answerEl!.style.display = "none"
+      revealBtn!.style.display = "none"
+      resultBtns!.style.display = "none"
+      if (downvoteBtn) downvoteBtn.style.display = "none"
+      // Auto-proceed after short delay
+      setTimeout(() => navigateAfterSuccess(), 1200)
+      return
+    }
+
     const qa = getRandomQuestion()
-    if (!qa) return
+
+    // All questions completed
+    if (!qa) {
+      const progressText = `${totalQuestions}/${totalQuestions}`
+      if (pageType === "position") {
+        labelEl!.textContent = `Position Test (${progressText})`
+        labelEl!.classList.remove("flashcard-label-srs", "flashcard-label-mastered")
+        questionEl!.textContent = "All questions completed! Well done."
+        answerEl!.style.display = "none"
+        revealBtn!.style.display = "none"
+        resultBtns!.style.display = "none"
+        if (downvoteBtn) downvoteBtn.style.display = "none"
+      }
+      return
+    }
 
     currentQuestionIndex = qa.index
+    const progressText = `${usedQuestionIndices.size}/${totalQuestions}`
 
-    // Update label
-    labelEl!.textContent =
-      pageType === "position"
-        ? "Position Test"
-        : pageType === "submission"
-          ? "Submission Test"
-          : "Technique Test"
+    // Set label based on SRS status
+    if (isSRSDue) {
+      labelEl!.textContent = `\u2726 SRS Review (${progressText})`
+      labelEl!.classList.add("flashcard-label-srs")
+      labelEl!.classList.remove("flashcard-label-mastered")
+    } else {
+      const baseLabel =
+        pageType === "position"
+          ? "Position Test"
+          : pageType === "submission"
+            ? "Submission Test"
+            : "Technique Test"
+      labelEl!.textContent = `${baseLabel} (${progressText})`
+      labelEl!.classList.remove("flashcard-label-srs", "flashcard-label-mastered")
+    }
 
-    // Show question, hide answer
     questionEl!.textContent = qa.question
     answerEl!.textContent = qa.answer
     answerEl!.style.display = "none"
 
-    // Show reveal button, hide result buttons and feedback
     revealBtn!.style.display = "block"
     resultBtns!.style.display = "none"
     if (downvoteBtn) downvoteBtn.style.display = "none"
@@ -184,18 +223,73 @@ document.addEventListener("nav", () => {
     if (downvoteBtn) downvoteBtn.style.display = "inline-flex"
   }
 
-  function handleRemembered() {
-    // Add to journey
+  function handleAgain() {
+    // Update SRS if card exists
+    const card = findCard(data!.name)
+    if (card) {
+      reviewCard(data!.name, "again")
+    }
+
+    // Show failure snackbar
+    const showSnackbar = (window as any).showSnackbar
+    if (showSnackbar) {
+      showSnackbar({
+        type: "failure",
+        message: "Keep studying! Try again.",
+      })
+    }
+
+    // Re-show the SAME question (hide answer, show reveal button)
+    // Do NOT call showQuestion() — keep the same question
+    answerEl!.style.display = "none"
+    revealBtn!.style.display = "block"
+    resultBtns!.style.display = "none"
+    if (downvoteBtn) downvoteBtn.style.display = "none"
+  }
+
+  function handleHard() {
+    // Record in journey — this is the FINAL outcome for this question
     addToJourney({
       slug: currentPath,
       name: data!.name,
       type: pageType as "transition" | "submission" | "position",
       success: true,
       action: "flashcard",
+      rating: "hard",
     })
 
+    // Update SRS if card exists
+    const card = findCard(data!.name)
+    if (card) {
+      reviewCard(data!.name, "hard")
+    }
+
+    navigateAfterSuccess()
+  }
+
+  function handleEasy() {
+    // Record in journey
+    addToJourney({
+      slug: currentPath,
+      name: data!.name,
+      type: pageType as "transition" | "submission" | "position",
+      success: true,
+      action: "flashcard",
+      rating: "easy",
+    })
+
+    // Auto-add technique to SRS on first Easy, then review
+    const techniqueType = pageType === "submission" ? "submission" : "transition"
+    if (!findCard(data!.name)) {
+      addCard(data!.name, techniqueType as "transition" | "submission", currentPath)
+    }
+    reviewCard(data!.name, "easy")
+
+    navigateAfterSuccess()
+  }
+
+  function navigateAfterSuccess() {
     if (pageType === "position") {
-      // Stay on page, show success snackbar, and load next question
       const showSnackbar = (window as any).showSnackbar
       if (showSnackbar) {
         showSnackbar({ type: "success", message: "Correct! Keep practicing." })
@@ -205,62 +299,29 @@ document.addEventListener("nav", () => {
     }
 
     if (pageType === "submission") {
-      // Navigate to game-over terminal state
       navigateToVictory()
     } else {
-      // Transition - navigate to ending position
       navigateToEndingPosition()
     }
-  }
-
-  function handleMissed() {
-    // Show failure snackbar
-    const showSnackbar = (window as any).showSnackbar
-    if (showSnackbar) {
-      showSnackbar({
-        type: "failure",
-        message: "Keep studying! Try another question.",
-      })
-    }
-
-    // Add to journey as failed attempt
-    addToJourney({
-      slug: currentPath,
-      name: data!.name,
-      type: pageType as "transition" | "submission" | "position",
-      success: false,
-      action: "flashcard",
-    })
-
-    // Show another question
-    showQuestion()
   }
 
   function navigateToEndingPosition() {
     if (!data || !data.endingPosition) return
 
-    // Build URL using endingPositionPath if available
-    // endingPosition format: "mount/top" or "standing-position"
-    // endingPositionPath format: "mount" or "half-guard/deep-half-guard"
     let targetUrl: string
 
     const endingSlug = data.endingPosition
-    // endingPositionPath from graph.json is already case-correct for URLs
     const basePath = data.endingPositionPath || endingSlug.split("/")[0]
 
-    // Extract role from endingPosition if present (e.g., "mount/top" → "top")
     const slugParts = endingSlug.split("/")
     const role = slugParts.length > 1 ? slugParts[slugParts.length - 1] : null
 
     if (role === "top" || role === "bottom") {
-      // Add role suffix: /Positions/Mount/Top
       targetUrl = `/Positions/${basePath}/${role.charAt(0).toUpperCase() + role.slice(1)}`
     } else {
-      // Neutral position: /Positions/Standing-Position
       targetUrl = `/Positions/${basePath}`
     }
 
-    // Set success snackbar for next page
     sessionStorage.setItem(
       "snackbar",
       JSON.stringify({
@@ -270,12 +331,10 @@ document.addEventListener("nav", () => {
       }),
     )
 
-    // Navigate
     window.spaNavigate(new URL(targetUrl, window.location.toString()), false)
   }
 
   function navigateToVictory() {
-    // Store journey data for the victory page to display
     const journey = getJourney()
     sessionStorage.setItem(
       "victory-data",
@@ -285,7 +344,6 @@ document.addEventListener("nav", () => {
       }),
     )
 
-    // Set success snackbar for next page
     sessionStorage.setItem(
       "snackbar",
       JSON.stringify({
@@ -295,7 +353,6 @@ document.addEventListener("nav", () => {
       }),
     )
 
-    // Navigate to Game Over page
     window.spaNavigate(new URL("/Game-Over", window.location.toString()), false)
   }
 
@@ -307,7 +364,6 @@ document.addEventListener("nav", () => {
   function handleFeedbackSubmit() {
     const reason = feedbackInput?.value.trim() || ""
 
-    // Track to PostHog
     if ((window as any).posthog) {
       const qa = data?.knowledgeAssessment[currentQuestionIndex]
       ;(window as any).posthog.capture("flashcard_downvote", {
@@ -318,7 +374,6 @@ document.addEventListener("nav", () => {
       })
     }
 
-    // Show toast and reset
     const showSnackbar = (window as any).showSnackbar
     if (showSnackbar) {
       showSnackbar({ type: "info", message: "Oss" })
@@ -334,19 +389,37 @@ document.addEventListener("nav", () => {
     }
   }
 
-  // Set up event listeners
+  // Strip all existing listeners by cloning, then reassign variables.
+  // This prevents listener accumulation when micromorph preserves DOM nodes
+  // across SPA navigations (each nav creates new closures that removeEventListener can't match).
+  function freshClone(el: HTMLElement): HTMLElement {
+    const clone = el.cloneNode(true) as HTMLElement
+    el.replaceWith(clone)
+    return clone
+  }
+
+  revealBtn = freshClone(revealBtn)
+  againBtn = freshClone(againBtn)
+  hardBtn = freshClone(hardBtn)
+  easyBtn = freshClone(easyBtn)
+  if (downvoteBtn) downvoteBtn = freshClone(downvoteBtn)
+  if (feedbackSubmit) feedbackSubmit = freshClone(feedbackSubmit)
+  feedbackInput = document.getElementById("feedback-input") as HTMLInputElement | null
+
   revealBtn.addEventListener("click", revealAnswer)
-  rememberedBtn.addEventListener("click", handleRemembered)
-  missedBtn.addEventListener("click", handleMissed)
+  againBtn.addEventListener("click", handleAgain)
+  hardBtn.addEventListener("click", handleHard)
+  easyBtn.addEventListener("click", handleEasy)
   if (downvoteBtn) downvoteBtn.addEventListener("click", handleDownvote)
   if (feedbackSubmit) feedbackSubmit.addEventListener("click", handleFeedbackSubmit)
   if (feedbackInput) feedbackInput.addEventListener("keydown", handleFeedbackKeydown)
 
   // Clean up on navigation
   window.addCleanup(() => {
-    revealBtn.removeEventListener("click", revealAnswer)
-    rememberedBtn.removeEventListener("click", handleRemembered)
-    missedBtn.removeEventListener("click", handleMissed)
+    revealBtn!.removeEventListener("click", revealAnswer)
+    againBtn!.removeEventListener("click", handleAgain)
+    hardBtn!.removeEventListener("click", handleHard)
+    easyBtn!.removeEventListener("click", handleEasy)
     if (downvoteBtn) downvoteBtn.removeEventListener("click", handleDownvote)
     if (feedbackSubmit) feedbackSubmit.removeEventListener("click", handleFeedbackSubmit)
     if (feedbackInput) feedbackInput.removeEventListener("keydown", handleFeedbackKeydown)

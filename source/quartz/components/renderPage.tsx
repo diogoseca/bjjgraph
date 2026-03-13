@@ -153,11 +153,7 @@ function computePageGraphLayout(allFiles: QuartzPluginData[], slug: FullSlug): s
     const prefix = slugLower + "/"
     for (const nodeSlug of allSlugs) {
       const lower = nodeSlug.toLowerCase()
-      if (
-        lower.startsWith(prefix) &&
-        !lower.endsWith("/bottom") &&
-        !lower.endsWith("/top")
-      ) {
+      if (lower.startsWith(prefix) && !lower.endsWith("/bottom") && !lower.endsWith("/top")) {
         neighbourhood.add(nodeSlug)
       }
     }
@@ -362,8 +358,10 @@ function getPageGraphData(slug: FullSlug): string | null {
     return JSON.stringify({
       type: "position",
       name: data.name,
+      role: data.role || null,
       transitions: data.transitions,
       defenses: data.defenses,
+      opponentTransitions: data.opponentTransitions || [],
       knowledgeAssessment: data.knowledgeAssessment || [],
     })
   } else if (entry.section === "transitions") {
@@ -665,6 +663,48 @@ export function renderPage(
   // Build-time pre-computed graph layout (avoids D3 simulation at runtime)
   const graphPositionsJson = computePageGraphLayout(componentData.allFiles, slug)
 
+  // Build-time question bank for /training page
+  let questionBankJson: string | null = null
+  if (slug.toLowerCase() === ("training" as FullSlug)) {
+    const graph = loadGraphData()
+    if (graph) {
+      const bank: Array<{
+        name: string
+        type: string
+        slug: string
+        knowledgeAssessment: Array<{ question: string; answer: string }>
+      }> = []
+
+      // Build a lookup from technique name → file slug
+      const slugLookup: Record<string, string> = {}
+      for (const f of componentData.allFiles) {
+        const fSlug = f.slug ?? ""
+        const title = (f.frontmatter?.title as string) ?? ""
+        const name = title.split(" | ")[0].trim()
+        if (name) slugLookup[name.toLowerCase()] = fSlug
+      }
+
+      const addEntries = (section: Record<string, any>, type: string, prefix: string) => {
+        for (const [key, data] of Object.entries(section || {})) {
+          const ka = data.knowledgeAssessment || []
+          if (ka.length === 0) continue
+          const fileSlug = slugLookup[data.name?.toLowerCase()] || `${prefix}/${data.name || key}`
+          bank.push({
+            name: data.name || key,
+            type,
+            slug: fileSlug,
+            knowledgeAssessment: ka,
+          })
+        }
+      }
+
+      addEntries(graph.transitions, "transition", "Transitions")
+      addEntries(graph.submissions, "submission", "Submissions")
+
+      questionBankJson = JSON.stringify(bank)
+    }
+  }
+
   const lang = componentData.fileData.frontmatter?.lang ?? cfg.locale?.split("-")[0] ?? "en"
   const doc = (
     <html lang={lang}>
@@ -682,6 +722,13 @@ export function renderPage(
             type="application/json"
             id="graph-positions"
             dangerouslySetInnerHTML={{ __html: graphPositionsJson }}
+          />
+        )}
+        {questionBankJson && (
+          <script
+            type="application/json"
+            id="training-question-bank"
+            dangerouslySetInnerHTML={{ __html: questionBankJson }}
           />
         )}
         <div id="quartz-root" class="page">

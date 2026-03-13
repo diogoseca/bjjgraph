@@ -20,15 +20,12 @@ function toggleFolder(evt: MouseEvent) {
   const target = evt.target as MaybeHTMLElement
   if (!target) return
 
-  // folder-icon is now a span after the div[data-folderpath], or could be a button click
-  const isIcon = target.classList.contains("folder-icon")
-  const childFolderContainer = (
-    isIcon
-      ? target.parentElement?.nextElementSibling
-      : target.parentElement?.parentElement?.nextElementSibling
-  ) as MaybeHTMLElement
-  const currentFolderParent = (
-    isIcon ? target.previousElementSibling : target.parentElement
+  // Find the containing <li> and query by structure, not fragile sibling traversal
+  const li = target.closest("li")
+  if (!li) return
+  const childFolderContainer = li.querySelector(":scope > .folder-outer") as MaybeHTMLElement
+  const currentFolderParent = li.querySelector(
+    ":scope > .folder-container [data-folderpath]",
   ) as MaybeHTMLElement
   if (!(childFolderContainer && currentFolderParent)) return
 
