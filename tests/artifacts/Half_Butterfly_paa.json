@@ -1,0 +1,121 @@
+{
+  "article_path": "content/Positions/Butterfly Guard/Half Butterfly.json",
+  "seed_keyword": "Half Butterfly BJJ",
+  "paa_data_source": "knowledge-based (DataForSEO unavailable)",
+  "paa_questions": [
+    {
+      "question": "What is half butterfly guard in BJJ?",
+      "answer_snippet": "Half butterfly guard is a hybrid position combining elements of half guard (one leg trapped) with a butterfly hook on the free leg side. The bottom player uses the butterfly hook to generate elevation and off-balancing while the half guard retains control of the opponent's trapped leg.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "dedicated_faq"
+    },
+    {
+      "question": "What is the difference between half butterfly and butterfly guard?",
+      "answer_snippet": "Butterfly guard uses both hooks on both legs, while half butterfly traps one leg between your legs (half guard) and only inserts one butterfly hook on the other side. Half butterfly offers more structural retention at the cost of symmetrical sweep power.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "dedicated_faq"
+    },
+    {
+      "question": "What is the difference between half butterfly and deep half guard?",
+      "answer_snippet": "Deep half guard involves diving underneath the opponent's hips with your head past their thigh, while half butterfly keeps you more lateral with an active hook on the outside. Half butterfly is often a precursor transition to deep half when the opponent drives forward pressure.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "dedicated_faq"
+    },
+    {
+      "question": "What sweeps work from half butterfly guard?",
+      "answer_snippet": "The most effective sweeps from half butterfly guard include the Old School Sweep (underhook-based, ~60%), Basic Butterfly Sweep (hook elevation, ~55%), Hook Sweep (~50%), Underhook Sweep from Half (~55%), and the Rolling Back Take (~40%) when the opponent defends the sweeps.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "dedicated_faq"
+    },
+    {
+      "question": "How do you escape half butterfly guard from the top?",
+      "answer_snippet": "From the top, neutralize the butterfly hook by driving your chest forward and keeping hips low. Use the knee slice, smash pass, or long step pass to complete the guard pass. Establish crossface control first to limit the bottom player's framing and prevent guard recovery.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "dedicated_faq"
+    },
+    {
+      "question": "How do you prevent being swept from half butterfly top?",
+      "answer_snippet": "Keep your weight distributed forward through your chest, widen your base by spreading your knees, drive your hips low toward the mat, and establish crossface control. These adjustments reduce the butterfly hook's lifting leverage and prevent the bottom player from generating sweep momentum.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "improve_heading"
+    },
+    {
+      "question": "Is half butterfly guard effective for beginners?",
+      "answer_snippet": "Half butterfly can be learned by beginners but rewards practitioners who already understand basic half guard principles. The hybrid nature requires coordinating two different leg mechanics simultaneously, so prior half guard experience is strongly recommended.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "add_section"
+    },
+    {
+      "question": "Who popularized half butterfly guard?",
+      "answer_snippet": "Half butterfly guard was popularized by wrestlers transitioning to BJJ and later refined by high-level no-gi grapplers including Marcelo Garcia and Lucas Leite, who incorporated it into their half guard systems.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "add_section"
+    },
+    {
+      "question": "How do you transition from half butterfly to X-guard?",
+      "answer_snippet": "When the opponent stands or elevates their posture, extend the butterfly hook leg fully upward while using your frames to push them back. As their weight loads onto your hook, thread your other leg under their far thigh to establish the two-hook X-guard control.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "add_section"
+    },
+    {
+      "question": "What grips should you use in half butterfly guard?",
+      "answer_snippet": "First priority is an underhook on the butterfly hook side to maximize sweep elevation and prevent flattening. Second is controlling the opponent's far arm or collar to stop posting during sweeps. Active frames on the upper body manage distance between attempts.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "improve_heading"
+    },
+    {
+      "question": "Does half butterfly work in no-gi BJJ?",
+      "answer_snippet": "Yes — half butterfly is particularly effective in no-gi because it relies on hook mechanics rather than gi grips. It is a staple of modern no-gi competitive grappling and MMA guard retention systems.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "add_section"
+    },
+    {
+      "question": "How do you retain half butterfly guard against a pressure passer?",
+      "answer_snippet": "Against pressure passers, maintain constant upward pressure through the butterfly hook to prevent them from settling weight. Stay on your side rather than your back, use active frames, and be ready to transition to deep half guard when heavy forward pressure arrives.",
+      "source_url": null,
+      "priority": "low",
+      "integration_strategy": "improve_heading"
+    }
+  ],
+  "heading_optimizations": [
+    {
+      "current": "Key Principles",
+      "suggested": "What Makes Half Butterfly Guard Effective?",
+      "rationale": "Matches conversational query pattern for high-intent learners searching 'how does half butterfly work'"
+    },
+    {
+      "current": "Decision Making from This Position",
+      "suggested": "When Should You Sweep vs. Transition from Half Butterfly?",
+      "rationale": "Addresses high-volume PAA-style question about decision-making timing"
+    },
+    {
+      "current": "Common Errors",
+      "suggested": "Common Half Butterfly Guard Mistakes (And How to Fix Them)",
+      "rationale": "Matches 'common mistakes in half butterfly' query pattern, increases CTR from PAA boxes"
+    },
+    {
+      "current": "Training Drills",
+      "suggested": "How to Train Half Butterfly Guard: Essential Drills",
+      "rationale": "Targets 'how to drill half butterfly' and 'half butterfly guard drills' queries"
+    }
+  ],
+  "missing_content_opportunities": [
+    "Add section: 'Who is half butterfly guard best suited for?' — covers body type and style match",
+    "Add section: 'Half butterfly guard vs. half guard: which should you learn first?' — addresses common beginner question",
+    "Add FAQ block: 'Does half butterfly work in gi and no-gi?' with split answer",
+    "Add section: 'Half butterfly guard entries — how to get there from closed guard, open guard, or scramble'",
+    "Add section: 'Famous practitioners who use half butterfly guard' — SEO authority signals",
+    "Add section: 'Half butterfly guard in MMA — how effective is it with strikes?'"
+  ]
+}
