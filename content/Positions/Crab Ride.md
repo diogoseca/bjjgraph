@@ -4,7 +4,7 @@
 
 ---
 title: "Crab Ride | BJJ Position Guide | BJJ Graph"
-description: "Master Crab Ride position in BJJ. Strategic guide covering turtle attack entries, back control pathways, and submission setups with complete perspective analysis."
+description: "What is Crab Ride in BJJ? Complete guide to turtle attack entries, back control pathways, crucifix transitions, and submission setups from both attacking and defensive perspectives."
 ---
 
 
