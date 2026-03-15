@@ -4,7 +4,7 @@
 
 ---
 title: "Crab Ride Bottom | BJJ Position Guide | BJJ Graph"
-description: "Master Crab Ride Bottom defense in BJJ. Complete guide covering hook stripping, explosive escapes, and counter-attacks. High-pressure defensive position requiring immediate action."
+description: "How to escape Crab Ride Bottom in BJJ. Complete defense guide covering hook stripping, granby rolls, hip escapes to guard, and counter-attacks. High-pressure position with a 15-30 second escape window."
 ---
 
 
@@ -115,7 +115,7 @@ description: "Master Crab Ride Bottom defense in BJJ. Complete guide covering ho
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Crab Ride Bottom",
-  "description": "Master Crab Ride Bottom defense in BJJ. Complete guide covering hook stripping, explosive escapes, and counter-attacks. High-pressure defensive position requiring immediate action.",
+  "description": "How to escape Crab Ride Bottom in BJJ. Complete defense guide covering hook stripping, granby rolls, hip escapes to guard, and counter-attacks. High-pressure position with a 15-30 second escape window.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",

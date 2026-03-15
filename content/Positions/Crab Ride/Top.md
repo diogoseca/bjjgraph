@@ -4,7 +4,7 @@
 
 ---
 title: "Crab Ride Top | BJJ Position Guide | BJJ Graph"
-description: "Master Crab Ride Top attacks in BJJ. Complete guide covering back control entries, submission setups, and crucifix transitions. Dominant attacking position with 70% advancement rate."
+description: "How to attack from Crab Ride Top in BJJ. Complete guide to back control entries, darce and anaconda setups, crucifix transitions, and kimura attacks. Advancement rate: 78%, submission probability: 55%."
 ---
 
 
@@ -115,7 +115,7 @@ description: "Master Crab Ride Top attacks in BJJ. Complete guide covering back 
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Crab Ride Top",
-  "description": "Master Crab Ride Top attacks in BJJ. Complete guide covering back control entries, submission setups, and crucifix transitions. Dominant attacking position with 70% advancement rate.",
+  "description": "How to attack from Crab Ride Top in BJJ. Complete guide to back control entries, darce and anaconda setups, crucifix transitions, and kimura attacks. Advancement rate: 78%, submission probability: 55%.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
