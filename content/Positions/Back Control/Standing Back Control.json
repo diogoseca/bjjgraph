@@ -1,6 +1,10 @@
 {
   "name": "Standing Back Control",
   "slug": "standing-back-control",
+  "bot_metadata": {
+    "last_improved": "2026-03-16",
+    "optimization_pass": "ai_seo_v1"
+  },
   "description": "Master standing back control in BJJ. Strategic guide covering when to use standing back attacks, defensive escapes, and maintaining control with complete perspective analysis.",
   "variant_uniqueness": "Vertical stance trades stability for takedowns",
   "overview": "Standing Back Control represents a critical transitional position in Brazilian Jiu-Jitsu where one practitioner has achieved back exposure on an opponent while both remain on their feet. This position bridges the gap between standing grappling and ground fighting, combining elements of wrestling-style back takes with traditional BJJ back control mechanics. The standing variant is characterized by chest-to-back connection, some form of upper body control (harness, seat belt, or body lock), and often hook or leg control attempting to break the opponent's base.\n\nFrom the top perspective, Standing Back Control offers unique offensive opportunities unavailable in grounded back control. The standing position allows for forceful takedowns, slam options in certain rulesets, and the psychological advantage of immediate submission threats while maintaining mobility. However, the position is inherently less stable than grounded back control, requiring constant adjustment and dynamic balance management. The top player must decide between consolidating control by taking the fight to the ground or pursuing standing submissions, each choice presenting different risk-reward calculations.\n\nFrom the bottom perspective, Standing Back Control is one of the most vulnerable defensive positions, demanding immediate action to prevent both submission and being forcefully taken down. The bottom player faces the dual challenge of defending neck attacks while simultaneously working to escape back exposure or control the manner in which the fight goes to the ground. Unlike grounded back control where the mat provides additional reference points and defensive leverage, the standing position offers limited defensive tools but also creates opportunities to exploit the inherent instability of vertical grappling.\n\nThe position frequently occurs during scrambles, failed takedown attempts, successful back takes from standing positions, or as a transition from other standing clinch positions. Understanding both perspectives is essential for modern BJJ practitioners, as the position appears regularly in both gi and no-gi contexts, across all skill levels and competition formats. The strategic complexity lies in recognizing when to maintain standing control versus when to transition to grounded positions, and for the defensive player, how to survive immediate threats while working systematic escapes that minimize risk of ending in worse positions.",
@@ -41,6 +45,28 @@
     {
       "name": "Front Headlock",
       "relationship": "Alternative control if bottom player begins turning to face top player"
+    }
+  ],
+  "knowledge_assessment": [
+    {
+      "question": "What is the difference between standing back control and grounded back control?",
+      "answer": "Standing back control is an inherently transitional position (10–45 seconds) where both practitioners are on their feet, combining submission threats with the instability of vertical grappling. Grounded back control (back mount) is a more stable, sustained position where the top player has hooks in and the mat removes a dimension of movement for the bottom player. Standing back control is worth the same 4 competition points but is harder to maintain and almost always transitions to either a submission finish or a grounded position."
+    },
+    {
+      "question": "What is the seat belt grip and why is it essential for standing back control?",
+      "answer": "The seat belt grip (harness) is the primary upper-body control configuration: one arm goes over the opponent's shoulder (choking arm), the other under the armpit (control arm), with the hands clasped together. Without this grip in standing back control, the opponent can simply turn to face you and escape. The over-shoulder arm positions for choke attempts while the under-armpit arm prevents rotation. Never abandon the harness to chase a submission before it is properly established."
+    },
+    {
+      "question": "What is a body triangle and when should you use it from standing back control?",
+      "answer": "A body triangle is an advanced leg control where you cross your ankles around the opponent's torso instead of using hooks. One leg goes in front of the hip, one behind, creating a triangle lock with your legs. From standing back control, transition to body triangle when the opponent widens their base and begins prying at your hooks, as it is harder to strip than individual hooks and forces them to deal with your legs before addressing your submission threats."
+    },
+    {
+      "question": "How do you take someone's back from standing in BJJ?",
+      "answer": "Common entries include: (1) from clinch scrambles when the opponent turns defensively, (2) from failed double-leg or single-leg takedown attempts where the opponent gives up their back, (3) from turtle positions via crab ride or direct back take, and (4) from arm drag setups that spin the opponent. The key in all entries is achieving chest-to-back contact and immediately establishing harness control before the opponent can recover facing position."
+    },
+    {
+      "question": "How long can you hold standing back control before it transitions to the ground?",
+      "answer": "Standing back control is designed to last 10–45 seconds. The inherent instability of the standing position means neither player can sustain it long. The top player should pursue an immediate submission when the neck is exposed, or take the opponent down to consolidate grounded back control. The bottom player should act within the first few seconds — ideally during the initial grip-fighting window before the harness is locked — to escape, turn, or control their descent to turtle."
     }
   ],
   "top": {

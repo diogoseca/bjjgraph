@@ -1,0 +1,110 @@
+{
+  "article_path": "content/Positions/Crab Ride/Bottom.md",
+  "seed_keyword": "Crab Ride Bottom",
+  "paa_questions": [
+    {
+      "question": "What is crab ride in BJJ?",
+      "answer_snippet": "The crab ride is a back-control wrestling position where the top player wraps one leg (hook) around the bottom player's side while maintaining chest-to-back pressure. It creates an asymmetric, crab-like configuration used to take the back or advance to turtle control.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "improve_heading"
+    },
+    {
+      "question": "How do you escape the crab ride in BJJ?",
+      "answer_snippet": "Common escapes include the Granby Roll to Guard, Hip Escape to Half Guard, Sit Through Escape, and Turtle to Standing. The key is to strip or block the existing hook before the second hook is inserted, while protecting the neck throughout.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "dedicated_faq"
+    },
+    {
+      "question": "How do you defend against a crab ride?",
+      "answer_snippet": "Defensive priorities: (1) prevent second hook insertion, (2) protect the neck with chin tuck, (3) strip the existing hook using same-side hand on the ankle/heel, (4) maintain base on all four points. Never remain static—explode with hip movement when the top player adjusts grips.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "dedicated_faq"
+    },
+    {
+      "question": "What is the difference between crab ride and turtle position?",
+      "answer_snippet": "Turtle is a neutral base position where the bottom player is on all fours. Crab ride is an attacking position where the top player has already inserted one hook and established upper body control, making it a more dangerous sub-state of turtle with imminent back-take threat.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "add_section"
+    },
+    {
+      "question": "What is a Granby roll in BJJ?",
+      "answer_snippet": "The Granby roll is an inverted rolling escape used from turtle or crab ride bottom. The bottom player rolls over their shoulder to invert and recover guard, most effective when the top player shifts weight forward or reaches for a second hook.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "dedicated_faq"
+    },
+    {
+      "question": "How does the crab ride lead to back control?",
+      "answer_snippet": "From crab ride, the top player inserts a second hook to complete back mount, or maintains the single hook and slides their chest up to establish seat belt grip. If the bottom player's base is broken and they're flattened, the transition to full back control or mount is straightforward.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "add_section"
+    },
+    {
+      "question": "What is a Peterson roll in BJJ?",
+      "answer_snippet": "The Peterson roll is a wrestling-derived reversal used from turtle or crab ride bottom. The bottom player grabs the top player's near leg, bridges into them, and rolls them over to gain a dominant position. It is most effective when the top player's weight is committed to one side.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "dedicated_faq"
+    },
+    {
+      "question": "Is crab ride legal in BJJ competitions?",
+      "answer_snippet": "Yes, crab ride (also called dog fight position control) is legal in most BJJ rulesets including gi and no-gi competition, ADCC, and submission wrestling. Some rulesets restrict reaping positions, so practitioners should verify specific event rules regarding hook placement.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "add_section"
+    },
+    {
+      "question": "How do you strip a hook from crab ride bottom?",
+      "answer_snippet": "Use the same-side hand to cup the opponent's heel or ankle from the inside, pushing it toward the mat and away from your hip. Combine with an explosive hip movement away from the hook. Ensure neck is protected and the opponent's upper body grips are addressed before committing to the strip.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "dedicated_faq"
+    },
+    {
+      "question": "What are the best submissions from crab ride top?",
+      "answer_snippet": "Rear naked choke, bow-and-arrow choke (gi), and neck cranks are primary submission threats from crab ride top. The position also sets up leg entanglements including calf slicers and the truck/twister system when the bottom player's legs become exposed.",
+      "source_url": null,
+      "priority": "low",
+      "integration_strategy": "add_section"
+    }
+  ],
+  "heading_optimizations": [
+    {
+      "current": "Position Definition",
+      "suggested": "What Is Crab Ride Bottom? (Position Definition)",
+      "rationale": "Conversational query format matches PAA pattern 'What is crab ride in BJJ?' and improves featured snippet eligibility"
+    },
+    {
+      "current": "Key Defensive Principles",
+      "suggested": "How to Defend Crab Ride Bottom: Key Principles",
+      "rationale": "Matches 'how do you defend against a crab ride?' query intent; front-loads defensive action for scanners"
+    },
+    {
+      "current": "Common Defensive Mistakes",
+      "suggested": "Common Crab Ride Escape Mistakes (And How to Fix Them)",
+      "rationale": "Targets 'common mistakes' and 'how to fix' modifier queries, increasing PAA capture probability"
+    },
+    {
+      "current": "Training Drills for Defense",
+      "suggested": "Crab Ride Bottom Drills: How to Train Your Escapes",
+      "rationale": "Question-adjacent format aligns with 'how do you train' search patterns"
+    },
+    {
+      "current": "Decision Making from This Position",
+      "suggested": "How to Escape Crab Ride: Decision Tree by Scenario",
+      "rationale": "Directly answers the high-priority 'how do you escape crab ride' PAA while signaling structured content for featured snippets"
+    }
+  ],
+  "missing_content_opportunities": [
+    "Add section: 'Crab Ride vs Turtle — What Is the Difference?' (targets high-priority PAA)",
+    "Add section: 'Is Crab Ride Legal in BJJ Competitions?' (medium-priority PAA, rule-awareness content)",
+    "Add section: 'Crab Ride Bottom in Gi vs No-Gi — Key Differences' (targets gi/no-gi modifier queries)",
+    "Add inline answer box paragraph for 'How do you strip a hook from crab ride?' directly under the hook strip drill",
+    "Add counter-attack FAQ entry: 'What submissions can you attempt from crab ride bottom?' (offensive reversal opportunities)"
+  ]
+}

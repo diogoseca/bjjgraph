@@ -1,0 +1,106 @@
+{
+  "article_path": "content/Positions/Back Control/Standing Back Control.json",
+  "seed_keyword": "Standing Back Control",
+  "paa_questions": [
+    {
+      "question": "What is back control in BJJ?",
+      "answer_snippet": "Back control is a dominant BJJ position where one practitioner has their chest against the opponent's back, typically with hooks (feet) inside the opponent's thighs and a seat belt grip. It is worth 4 points in competition and provides direct access to rear naked choke and other submissions.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "improve_heading"
+    },
+    {
+      "question": "How do you escape back control in BJJ?",
+      "answer_snippet": "Escapes from standing back control follow a strict priority order: (1) protect the neck with chin tuck and hand placement, (2) break harness grips, (3) clear hooks, (4) execute positional escape (hip turn to face, controlled descent to turtle, or explosive roll to guard).",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "dedicated_faq"
+    },
+    {
+      "question": "What is a rear naked choke?",
+      "answer_snippet": "The rear naked choke (RNC) is the primary submission from back control. The attacker slides one arm under the opponent's chin across the neck, grips the bicep of the other arm, and places that hand behind the opponent's head, squeezing to cut off blood supply.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "dedicated_faq"
+    },
+    {
+      "question": "What is the seat belt grip in BJJ?",
+      "answer_snippet": "The seat belt grip (harness) is the primary control configuration in back control: one arm goes over the opponent's shoulder (choking arm), the other goes under the armpit (control arm), with the hands clasped together. It prevents rotation and positions the top arm for choke attempts.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "add_section"
+    },
+    {
+      "question": "How do you take someone's back in BJJ?",
+      "answer_snippet": "Common back takes include: from turtle (crab ride → back mount), from guard (armbar escape or triangle miss → back), from wrestling scrambles (exposing back during takedown), and from clinch (rear clinch with hooks). The key is achieving chest-to-back contact with upper body control.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "dedicated_faq"
+    },
+    {
+      "question": "How do you defend a rear naked choke?",
+      "answer_snippet": "Tuck your chin tightly to your chest before the arm slides under, use a two-on-one grip to control the choking arm's wrist, and turn your head toward the crook of their elbow to create space. If the choke is partially secured, drop to turtle to change the angle and complicate the finish.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "dedicated_faq"
+    },
+    {
+      "question": "What is a body triangle in BJJ?",
+      "answer_snippet": "A body triangle is an advanced leg control technique in back control where the attacker crosses their ankles around the opponent's torso (one leg in front, one behind), locking a triangle with the legs. It is harder to escape than hooks and eliminates the opponent's ability to use hip movement to escape.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "dedicated_faq"
+    },
+    {
+      "question": "What is harness control in BJJ?",
+      "answer_snippet": "Harness control (seat belt) is the upper-body gripping configuration in back control: one arm over the shoulder, one under the armpit, with hands joined. It prevents the opponent from rotating to face the attacker and maintains chest-to-back pressure needed for submissions.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "improve_heading"
+    },
+    {
+      "question": "How long can you hold standing back control in BJJ?",
+      "answer_snippet": "Standing back control is inherently short-lived—typically 10–45 seconds—because the standing position is unstable. Both players must decide quickly: the top player between a submission attempt or taking the fight to the ground; the bottom player between escaping or controlling the descent.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "add_section"
+    },
+    {
+      "question": "What is back mount vs back control in BJJ?",
+      "answer_snippet": "Back control and back mount are often used interchangeably, but back mount more specifically refers to the grounded version with hooks in (back mount). Standing back control refers to the same chest-to-back exposure while both practitioners are on their feet. Back mount is more stable and worth 4 competition points.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "add_section"
+    }
+  ],
+  "heading_optimizations": [
+    {
+      "current": "Standing Back Control Top",
+      "suggested": "How to Maintain Standing Back Control (Top Perspective)",
+      "rationale": "Directly addresses 'how do you hold/maintain back control' query pattern; signals actionable content for featured snippets"
+    },
+    {
+      "current": "Standing Back Control Bottom",
+      "suggested": "How to Escape Standing Back Control (Bottom/Defensive Perspective)",
+      "rationale": "Matches the high-priority PAA 'how do you escape back control in BJJ?' with standing-specific modifier"
+    },
+    {
+      "current": "Key Defensive Principles (bottom section)",
+      "suggested": "Standing Back Control Escape Principles: What to Do First",
+      "rationale": "Prioritization language ('What to Do First') targets decision-making queries and listicle featured snippets"
+    },
+    {
+      "current": "Decision Making from This Position (top section)",
+      "suggested": "When to Submit vs Take Down from Standing Back Control",
+      "rationale": "Matches conversational question format; high-intent query for practitioners learning offensive strategy"
+    }
+  ],
+  "missing_content_opportunities": [
+    "Add section: 'What Is the Difference Between Standing Back Control and Grounded Back Control?' (targets back mount vs back control PAA)",
+    "Add section: 'How to Take Someone's Back from Standing' (entry point content for this position — high search volume)",
+    "Add FAQ entry: 'What Is a Seat Belt Grip?' with concise definition paragraph (targets harness control PAA)",
+    "Add FAQ entry: 'What Is a Body Triangle?' with mechanical explanation (medium-priority PAA gap)",
+    "Add section: 'Standing Back Control in Gi vs No-Gi — Key Differences' (modifier query targeting)",
+    "Add stat callout: Average time in position (10–45 seconds) to target 'how long' intent queries"
+  ]
+}

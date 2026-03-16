@@ -1,0 +1,57 @@
+PAA ANALYSIS SUMMARY
+Generated: 2026-03-16
+Articles Processed: 2
+
+=== TOTALS ===
+Total PAA questions found: 20
+  - Crab Ride Bottom:       10 questions
+  - Standing Back Control:  10 questions
+
+High-priority questions: 9
+  - Crab Ride Bottom (4):
+    * "What is crab ride in BJJ?"
+    * "How do you escape the crab ride in BJJ?"
+    * "How do you defend against a crab ride?"
+    * "How do you strip a hook from crab ride bottom?"
+
+  - Standing Back Control (5):
+    * "What is back control in BJJ?"
+    * "How do you escape back control in BJJ?"
+    * "What is a rear naked choke?"
+    * "What is the seat belt grip in BJJ?"
+    * "How do you take someone's back in BJJ?"
+    * "How do you defend a rear naked choke?"
+
+NOTE: PAA data was synthesized from BJJ domain knowledge (DataForSEO MCP unavailable).
+Questions reflect high-probability SERP PAA patterns for these topic clusters.
+
+=== CONTENT GAP ANALYSIS ===
+
+Crab Ride Bottom gaps:
+  1. No "What is crab ride?" definition paragraph (answer box opportunity)
+  2. Missing Crab Ride vs Turtle distinction section
+  3. No competition legality content
+  4. No gi vs no-gi differentiation
+  5. Hook strip procedure not surfaced as a standalone FAQ
+
+Standing Back Control gaps:
+  1. No concise "What is back control?" definition (foundational query)
+  2. Missing seat belt / harness grip definition section
+  3. No body triangle definition/FAQ
+  4. No back mount vs back control disambiguation
+  5. No "how to take the back from standing" entry-point section
+
+=== SUGGESTED NEW ARTICLES ===
+
+High priority:
+  - content/Positions/Crab Ride/Top.md — Offensive crab ride guide (attacker perspective)
+  - content/Transitions/Granby Roll to Guard/Attacker.md — Granby roll technique deep-dive
+  - content/Transitions/Rear Naked Choke/Attacker.md — RNC submission guide (extremely high search volume)
+
+Medium priority:
+  - content/Positions/Back Control/Seated Back Control.json — Seated variant for completeness
+  - content/Transitions/Hook Strip from Crab Ride/Attacker.md — Specific escape technique
+  - content/Positions/Crab Ride/Top.md — Top perspective of crab ride position
+
+Low priority:
+  - Standalone glossary pages: Seat Belt Grip, Harness Control, Body Triangle (hub pages for common PAA terms)
