@@ -4,7 +4,7 @@
 
 ---
 title: "Combat Base Bottom | BJJ Position Guide | BJJ Graph"
-description: "Master Combat Base in BJJ. Essential guard passing platform with 72% retention rate. Complete guide to maintaining base, passing entries, and position control."
+description: "How to defend and sweep against Combat Base in BJJ. Guard player's guide to stopping the pass, establishing hooks, and converting to sweeps. Success Rate: Beginner 30%, Intermediate 45%, Advanced 65%."
 ---
 
 
@@ -49,42 +49,42 @@ description: "Master Combat Base in BJJ. Essential guard passing platform with 7
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What happens if you posting with ball of foot instead of flat foot on planted side?",
+      "name": "What happens if you remaining flat on back without establishing active frames or hooks?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Reduces stability and mobility, making it difficult to generate passing pressure or react to opponent's movements, increasing sweep vulnerability by 35% The correct approach is: Plant entire foot flat on mat with toes pointing forward, creating maximum surface contact and allowing for explosive movement in any direction"
+        "text": "Allows opponent to settle in combat base and apply methodical passing pressure without facing any offensive threat, making the pass nearly inevitable The correct approach is: Immediately insert frames on opponent's biceps or shoulders and work to thread hooks onto their posted knee or lead leg the moment they establish combat base"
       }
     },
     {
       "@type": "Question",
-      "name": "What happens if you leaning forward with weight over opponent's chest and head down?",
+      "name": "What happens if you allowing opponent to establish clean pants grips without grip fighting?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Makes practitioner vulnerable to triangle chokes, armbars, and omoplata attacks while reducing base stability and defensive structure The correct approach is: Keep spine upright with head above hips, distributing weight through posted knee and planted foot rather than leaning forward onto opponent"
+        "text": "Opponent controls your leg mobility, directly enabling toreando, leg drag, and knee slice passes with significantly reduced resistance The correct approach is: Fight grips aggressively by blocking their hands, swatting grips away, and establishing your own collar and sleeve grips before they settle into passing position"
       }
     },
     {
       "@type": "Question",
-      "name": "What happens if you keeping both knees on mat without establishing combat base stance?",
+      "name": "What happens if you keeping hips square and flat instead of using hip escapes and angle adjustment?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Eliminates mobility and makes it impossible to generate passing pressure or create angles effectively, reducing passing success by 50% The correct approach is: Transition to proper combat base with one knee posted and opposite foot planted, creating asymmetrical stance for dynamic movement"
+        "text": "Creates ideal passing geometry for opponent — hip-to-hip alignment makes all passing directions equally accessible and eliminates sweeping leverage The correct approach is: Use constant hip escapes (shrimping) to stay perpendicular to the passer, keeping your hips angled and mobile so they must chase your hips to complete any pass"
       }
     },
     {
       "@type": "Question",
-      "name": "What happens if you extending arms fully to post on opponent's hips or legs?",
+      "name": "What happens if you attempting to close guard against an opponent in established combat base?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Creates vulnerability to armbars, kimuras, and omoplatas while losing ability to control opponent's movement effectively The correct approach is: Keep elbows bent at approximately 90 degrees with hands actively controlling opponent's hips and legs close to body"
+        "text": "Opponent has already countered guard closure by widening their base — trying to lock ankles wastes energy on a low-percentage goal instead of threatening sweeps The correct approach is: Abandon closed guard attempts and instead focus on hook-based open guards (Butterfly Guard, De La Riva Guard) that are effective against the asymmetric combat base stance"
       }
     },
     {
       "@type": "Question",
-      "name": "What happens if you allowing opponent to establish strong collar and sleeve grips without fighting them?",
+      "name": "What happens if you ignoring the posted knee as a sweep target and defending purely with frames?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Gives bottom player ability to break posture, create angles, and set up sweeps and submissions effectively, reducing passing efficiency by 40% The correct approach is: Fight grips aggressively before establishing combat base, breaking opponent's grips by circling wrists and controlling sleeves"
+        "text": "Opponent can maintain combat base indefinitely since their structure is never threatened, allowing them to work passing entries methodically without urgency The correct approach is: Attack the posted knee side specifically — insert butterfly hooks, reach for sleeve or ankle control on that side, and load sweep attempts toward the posted knee where their weight distribution creates instability"
       }
     }
   ]
@@ -97,7 +97,7 @@ description: "Master Combat Base in BJJ. Essential guard passing platform with 7
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Combat Base Bottom",
-  "description": "Master Combat Base in BJJ. Essential guard passing platform with 72% retention rate. Complete guide to maintaining base, passing entries, and position control.",
+  "description": "How to defend and sweep against Combat Base in BJJ. Guard player's guide to stopping the pass, establishing hooks, and converting to sweeps. Success Rate: Beginner 30%, Intermediate 45%, Advanced 65%.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -139,11 +139,13 @@ description: "Master Combat Base in BJJ. Essential guard passing platform with 7
 
 <section id="overview" class="content-section">
 
-Combat Base is a fundamental neutral position in Brazilian Jiu-Jitsu where the practitioner establishes a stable, mobile platform inside the opponent's guard. The position is characterized by one knee posted on the mat and the opposite foot planted flat, creating a triangulated base that allows for effective weight distribution, posture maintenance, and guard passing opportunities. This position serves as the primary platform for initiating most standing and kneeling guard passes while providing strong defensive structure against sweeps and submission attempts.
+Combat Base Bottom describes the guard player's experience when their opponent has established a stable kneeling stance with one knee posted and one foot planted inside their open guard. From this perspective, the bottom practitioner is on their back managing an opponent who has broken posture and is actively working to pass. The primary objectives are to prevent the pass, establish hook-based guards that threaten sweeps, and create offensive pressure that forces the top player to react defensively.
 
-Combat Base represents the critical transition point between simply being inside the opponent's guard and actively working to pass. The position balances offensive pressure with defensive stability, allowing the top practitioner to control distance, break grips, and create passing angles while remaining resistant to the bottom player's attacks. The asymmetrical stance—with one knee down and one foot planted—provides mobility for circling, stepping, and pressure application while maintaining a low center of gravity that prevents being swept or elevated.
+When an opponent establishes Combat Base, they present a specific threat profile: they can circle their planted foot to create passing angles, drive their posted knee forward to initiate knee slice or smash passes, or stand to reset distance. Understanding these threats allows the guard player to anticipate and counter each passing attempt. The guard player's advantage is that they have access to multiple hook-based guards—including Butterfly Guard, De La Riva Guard, and Spider Guard—that all disrupt the asymmetric kneeling stance of Combat Base.
 
-Mastery of Combat Base is essential for all guard passing systems, as it forms the foundation from which techniques like the Toreando Pass, Knee Slice Pass, and Long Step Pass are initiated. The position emphasizes proper weight distribution through the posted knee and planted foot, active hand positioning to control the opponent's hips and legs, and dynamic posture that can shift between offensive pressure and defensive structure. Understanding Combat Base mechanics is crucial for developing a well-rounded top game and effective guard passing strategy.
+The most effective strategy from Combat Base Bottom combines active grip fighting with immediate hook establishment. The moment an opponent achieves Combat Base, the guard player must fight to prevent clean grip control while simultaneously threading hooks onto the posted knee or planted leg. Passive guard play against Combat Base leads to swift, controlled passing. Instead, the bottom player must generate constant offensive pressure through sweep attempts, submission threats, and guard transitions that keep the top player reacting rather than attacking.
+
+A critical success factor is hip mobility. The guard player who uses hip escapes, angle adjustments, and active shrimping to stay underneath the opponent's hip line is far harder to pass than one who remains flat on their back. By maintaining perpendicular alignment to the passer and constantly threatening to insert hooks, the guard player transforms Combat Base from a dominant passing platform into a contested scramble position. Success Rate: Beginner 30%, Intermediate 45%, Advanced 65%.
 
 </section>
 
@@ -151,12 +153,11 @@ Mastery of Combat Base is essential for all guard passing systems, as it forms t
 
 ## Position Definition
 
-- One knee posted on the mat with foot extended back, creating a stable triangular base point that distributes weight efficiently through the shin and kneecap
-- Opposite foot planted flat on the mat with knee raised above hip line, positioned near opponent's hip to control distance and create forward mobility for passing sequences
-- Upright posture maintained with spine straight and head elevated above hips, preventing forward collapse while maintaining structural integrity against pulling attacks
-- Hands actively engaged with opponent's hips, legs, or gi grips to control distance and prevent guard closure, elbows kept inside knees for armbar defense
-- Weight distributed between posted knee and planted foot in approximately 60-40 ratio, allowing for quick weight shifts and directional changes during passing attempts
-- Hips positioned above opponent's hip line with sufficient distance to prevent triangle attacks while close enough to apply forward passing pressure
+- Bottom player lying on back or side with opponent kneeling in asymmetric stance (one knee down, one foot planted) inside or near their open guard, requiring immediate hook establishment or frame creation to prevent forward passing pressure
+- Hips remain mobile with ability to shrimp, angle, or bridge away from the passer's posted knee, maintaining active positioning rather than lying flat to avoid surrendering passing leverage
+- Legs actively working to establish hooks on opponent's posted knee, lead leg, or hip area while arms fight opponent's grip control on sleeves, collar, or pants to prevent clean grip establishment
+- Distance managed dynamically through frames on opponent's shoulders or biceps to prevent forward chest-to-chest pass completion while staying close enough to threaten sweeps and hook entries
+- Upper body angled toward opponent rather than lying square to the ceiling, allowing effective hip escapes and the ability to insert butterfly or De La Riva hooks onto their lead leg
 
 
 </section>
@@ -165,11 +166,11 @@ Mastery of Combat Base is essential for all guard passing systems, as it forms t
 
 ## Prerequisites
 
-- Successfully opened opponent's closed guard or entered open guard position
-- Established initial grip control on opponent's legs, hips, or gi to manage distance
-- Cleared immediate submission threats such as triangle or armbar setups
-- Created sufficient space to transition from kneeling to combat base stance
-- Maintained upright posture with proper head and spine alignment to prevent chokes
+- Open guard is active and opponent has broken closed guard or entered standing or kneeling position
+- Initial grip awareness established — understanding where opponent has grips and which grips must be broken first
+- Hips free and mobile — not pinned flat by opponent's knee pressure or body weight
+- Knowledge of butterfly, De La Riva, and spider guard hook entries to immediately threaten after opponent establishes combat base
+- Understanding of common combat base passing attacks (toreando, knee slice, leg drag) to anticipate and preempt
 
 
 </section>
@@ -178,13 +179,13 @@ Mastery of Combat Base is essential for all guard passing systems, as it forms t
 
 ## Key Defensive Principles
 
-- Maintain triangulated base with posted knee, planted foot, and hips forming stable geometric structure resistant to multi-directional forces
-- Keep spine upright and head positioned above hips to prevent forward collapse and maintain structural integrity against pulling attacks
-- Distribute weight dynamically between posted knee and planted foot based on passing direction and opponent reactions to maintain balance
-- Control opponent's hips and legs with active hand positioning to manage distance and prevent guard retention or re-closure
-- Use planted foot to generate mobility for circling, stepping, and angle creation while maintaining base stability during movement
-- Keep elbows tight to body and avoid overextending arms to prevent armbars, omoplatas, and triangle setups
-- Adjust stance width and knee position based on opponent's guard type and defensive strategy to optimize passing angles
+- Never be passive — immediately threaten sweeps, hooks, and submissions the moment opponent establishes Combat Base to force reactive guard passing
+- Fight grips first — prevent opponent from controlling pants or collar cleanly, as clean grip control enables all their passing sequences
+- Establish hooks on the posted knee — inserting a butterfly or De La Riva hook on opponent's lead leg disrupts their entire Combat Base structure
+- Stay perpendicular — use hip escapes and angles to maintain your hips under opponent's hip line, making chest-to-chest pass completion physically difficult
+- Attack the balance points — exploit the 60-40 weight distribution of Combat Base by threatening sweeps toward the posted knee side where they are most vulnerable
+- Convert their circling into guard transitions — when opponent circles their planted foot, follow with hip movement and transition into stronger guard configurations like X-Guard or Collar Sleeve Guard
+- Threaten submissions to slow the pass — arm drag entries, triangle setups, and omoplata attempts from open guard force the passer to address submissions before committing to the pass
 
 
 </section>
@@ -193,29 +194,29 @@ Mastery of Combat Base is essential for all guard passing systems, as it forms t
 
 ## Decision Making from This Position
 
-**If opponent maintains open guard with feet on hips and active frames preventing forward movement:**
-- Execute **[[Transitions/Toreando Pass/Attacker|Toreando Pass]]** → [[Positions/Side Control]] (Probability: 55%)
-- Execute **[[Transitions/Leg Drag Pass/Attacker|Leg Drag Pass]]** → [[Positions/Leg Drag Control]] (Probability: 45%)
+**If opponent drives their posted knee forward initiating a knee slice or smash pass:**
+- Execute **[[Transitions/Guard Recovery from Combat Base/Attacker|Guard Recovery from Combat Base]]** → [[Positions/Open Guard]] (Probability: 55%)
+- Execute **[[Transitions/Sweep from Combat Base/Attacker|Sweep from Combat Base]]** → [[Positions/Mount]] (Probability: 45%)
 
 
-**If opponent attempts to close guard or establish butterfly hooks on posted knee:**
-- Execute **[[Transitions/Knee Slide from Combat Base/Attacker|Knee Slide from Combat Base]]** → [[Positions/Side Control]] (Probability: 55%)
-- Execute **[[Transitions/Smash Pass/Attacker|Smash Pass]]** → [[Positions/Side Control]] (Probability: 45%)
+**If opponent circles their planted foot to create a passing angle to your side:**
+- Execute **[[Transitions/Guard Recovery from Combat Base/Attacker|Guard Recovery from Combat Base]]** → [[Positions/Open Guard]] (Probability: 60%)
+- Execute **[[Transitions/Pull Guard from Combat Base/Attacker|Pull Guard from Combat Base]]** → [[Positions/Butterfly Guard]] (Probability: 40%)
 
 
-**If opponent establishes De La Riva or X-Guard hooks on posted leg:**
-- Execute **[[Transitions/Leg Drag Pass/Attacker|Leg Drag Pass]]** → [[Positions/Leg Drag Control]] (Probability: 55%)
-- Execute **[[Transitions/Combat Base to Headquarters/Attacker|Combat Base to Headquarters]]** → [[Positions/Headquarters Position]] (Probability: 45%)
+**If opponent attempts toreando pass by clearing your legs to the side:**
+- Execute **[[Transitions/Guard Recovery from Combat Base/Attacker|Guard Recovery from Combat Base]]** → [[Positions/Open Guard]] (Probability: 55%)
+- Execute **[[Transitions/Sweep from Combat Base/Attacker|Sweep from Combat Base]]** → [[Positions/Mount]] (Probability: 45%)
 
 
-**If opponent creates distance with strong frames and extends legs to push hips away:**
-- Execute **[[Transitions/Long Step Pass/Attacker|Long Step Pass]]** → [[Positions/Side Control]] (Probability: 45%)
-- Execute **[[Transitions/Standing Up from Combat Base/Attacker|Standing Up from Combat Base]]** → [[Positions/Standing Position]] (Probability: 55%)
+**If opponent stands up from Combat Base to reset their passing angle:**
+- Execute **[[Transitions/Pull Guard from Combat Base/Attacker|Pull Guard from Combat Base]]** → [[Positions/Butterfly Guard]] (Probability: 55%)
+- Execute **[[Transitions/Guard Recovery from Combat Base/Attacker|Guard Recovery from Combat Base]]** → [[Positions/Open Guard]] (Probability: 45%)
 
 
-**If opponent pulls knees to chest in defensive posture or inverts to retain guard:**
-- Execute **[[Transitions/Double Under Pass/Attacker|Double Under Pass]]** → [[Positions/Side Control]] (Probability: 55%)
-- Execute **[[Transitions/Smash Pass/Attacker|Smash Pass]]** → [[Positions/Side Control]] (Probability: 45%)
+**If you successfully insert a butterfly hook on opponent's posted knee:**
+- Execute **[[Transitions/Sweep from Combat Base/Attacker|Sweep from Combat Base]]** → [[Positions/Mount]] (Probability: 65%)
+- Execute **[[Transitions/Pull Guard from Combat Base/Attacker|Pull Guard from Combat Base]]** → [[Positions/Butterfly Guard]] (Probability: 35%)
 
 
 
@@ -226,40 +227,40 @@ Mastery of Combat Base is essential for all guard passing systems, as it forms t
 
 ## Common Defensive Mistakes
 
-### 1. Posting with ball of foot instead of flat foot on planted side
+### 1. Remaining flat on back without establishing active frames or hooks
 
-- ❌ **Consequence**: Reduces stability and mobility, making it difficult to generate passing pressure or react to opponent's movements, increasing sweep vulnerability by 35%
-- ✅ **Correction**: Plant entire foot flat on mat with toes pointing forward, creating maximum surface contact and allowing for explosive movement in any direction
+- ❌ **Consequence**: Allows opponent to settle in combat base and apply methodical passing pressure without facing any offensive threat, making the pass nearly inevitable
+- ✅ **Correction**: Immediately insert frames on opponent's biceps or shoulders and work to thread hooks onto their posted knee or lead leg the moment they establish combat base
 
-### 2. Leaning forward with weight over opponent's chest and head down
+### 2. Allowing opponent to establish clean pants grips without grip fighting
 
-- ❌ **Consequence**: Makes practitioner vulnerable to triangle chokes, armbars, and omoplata attacks while reducing base stability and defensive structure
-- ✅ **Correction**: Keep spine upright with head above hips, distributing weight through posted knee and planted foot rather than leaning forward onto opponent
+- ❌ **Consequence**: Opponent controls your leg mobility, directly enabling toreando, leg drag, and knee slice passes with significantly reduced resistance
+- ✅ **Correction**: Fight grips aggressively by blocking their hands, swatting grips away, and establishing your own collar and sleeve grips before they settle into passing position
 
-### 3. Keeping both knees on mat without establishing combat base stance
+### 3. Keeping hips square and flat instead of using hip escapes and angle adjustment
 
-- ❌ **Consequence**: Eliminates mobility and makes it impossible to generate passing pressure or create angles effectively, reducing passing success by 50%
-- ✅ **Correction**: Transition to proper combat base with one knee posted and opposite foot planted, creating asymmetrical stance for dynamic movement
+- ❌ **Consequence**: Creates ideal passing geometry for opponent — hip-to-hip alignment makes all passing directions equally accessible and eliminates sweeping leverage
+- ✅ **Correction**: Use constant hip escapes (shrimping) to stay perpendicular to the passer, keeping your hips angled and mobile so they must chase your hips to complete any pass
 
-### 4. Extending arms fully to post on opponent's hips or legs
+### 4. Attempting to close guard against an opponent in established combat base
 
-- ❌ **Consequence**: Creates vulnerability to armbars, kimuras, and omoplatas while losing ability to control opponent's movement effectively
-- ✅ **Correction**: Keep elbows bent at approximately 90 degrees with hands actively controlling opponent's hips and legs close to body
+- ❌ **Consequence**: Opponent has already countered guard closure by widening their base — trying to lock ankles wastes energy on a low-percentage goal instead of threatening sweeps
+- ✅ **Correction**: Abandon closed guard attempts and instead focus on hook-based open guards (Butterfly Guard, De La Riva Guard) that are effective against the asymmetric combat base stance
 
-### 5. Allowing opponent to establish strong collar and sleeve grips without fighting them
+### 5. Ignoring the posted knee as a sweep target and defending purely with frames
 
-- ❌ **Consequence**: Gives bottom player ability to break posture, create angles, and set up sweeps and submissions effectively, reducing passing efficiency by 40%
-- ✅ **Correction**: Fight grips aggressively before establishing combat base, breaking opponent's grips by circling wrists and controlling sleeves
+- ❌ **Consequence**: Opponent can maintain combat base indefinitely since their structure is never threatened, allowing them to work passing entries methodically without urgency
+- ✅ **Correction**: Attack the posted knee side specifically — insert butterfly hooks, reach for sleeve or ankle control on that side, and load sweep attempts toward the posted knee where their weight distribution creates instability
 
-### 6. Positioning hips too far back from opponent's hip line
+### 6. Overextending arms to grab opponent's collar or neck, pulling yourself up into submissions
 
-- ❌ **Consequence**: Creates too much distance for effective passing pressure and allows opponent to easily establish distance-based guards like De La Riva
-- ✅ **Correction**: Keep hips positioned directly above opponent's hip line while maintaining enough distance to prevent triangle entries
+- ❌ **Consequence**: Creates triangle choke vulnerability and makes hip escapes impossible since your arms are committed forward and your hips are pulled off the mat
+- ✅ **Correction**: Keep arms as frames on opponent's biceps or shoulders with elbows bent — this controls distance effectively without compromising your base or creating submission openings
 
-### 7. Remaining static in combat base without creating angles or pressure variations
+### 7. Reacting to each passing direction instead of proactively setting sweeps and submissions
 
-- ❌ **Consequence**: Allows opponent time to establish preferred guard and set up attacks without facing passing pressure, reducing passing success by 45%
-- ✅ **Correction**: Use planted foot to constantly create new angles, circle around opponent's guard, and apply dynamic pressure variations
+- ❌ **Consequence**: Constant reactive defense burns energy and cedes initiative to the passer, who can feint and create openings systematically against a purely reactive guard
+- ✅ **Correction**: Shift from reactive to proactive — immediately establish grips for your preferred sweep (butterfly elevation, hook sweep) and use those threats to control the passer's movement rather than responding to their attempts
 
 
 
@@ -269,39 +270,39 @@ Mastery of Combat Base is essential for all guard passing systems, as it forms t
 
 ## Training Drills for Defense
 
-### Combat Base Establishment Drill
+### Guard Retention Against Combat Base Drill
 
-Partner starts in closed guard. Top player opens guard and immediately establishes combat base with proper posture, hand positioning, and base structure. Bottom player provides moderate resistance attempting to maintain guard closure. Repeat 10 times per round, alternating which leg is posted.
+Top player establishes combat base and attempts to pass using any technique. Bottom player focuses exclusively on guard retention: establishing frames, fighting grips, inserting hooks, and using hip escapes to prevent pass completion. Work 3-minute rounds with top player at 60-70% intensity, focusing on guard retention mechanics over sweeping. Alternate roles every round.
 
-**Duration**: 5 minutes
-
-
-### Dynamic Base Retention Against Sweeps
-
-Top player maintains combat base while bottom player attempts various sweep entries including butterfly, X-guard, De La Riva, and elevation attempts. Top player focuses on weight distribution, base recovery, and maintaining structural integrity without getting swept. Work 2-minute rounds with active resistance at 70% intensity.
-
-**Duration**: 10 minutes
+**Duration**: 12 minutes
 
 
-### Combat Base Passing Combinations
+### Butterfly Hook Insertion Drill
 
-From combat base, practice flowing between different passing entries including Toreando, Knee Slice, and Long Step based on opponent's defensive reactions. Bottom player provides realistic guard retention with hooks and frames. Focus on smooth transitions between passing options without losing base structure.
+From guard player's back, partner in combat base provides light resistance while you practice threading a butterfly hook onto their posted knee. Focus on timing — insert the hook during the brief moment the opponent shifts weight to their planted foot. Practice 15 repetitions, alternating which side the hook goes in. Gradually increase partner resistance to 50% then 75%.
 
 **Duration**: 8 minutes
 
 
-### Posture Recovery Drill
+### Sweep Entry Flow from Open Guard
 
-Bottom player establishes strong grips on collar and sleeves, attempting to break top player's posture by pulling forward. Top player practices recovering upright combat base position using proper mechanics: grip breaks, circular wrist movements, and base reestablishment. Work 1-minute rounds with partner gradually increasing pull intensity.
+Partner holds static combat base while you drill sweep entries from multiple guard types: butterfly elevation sweep, De La Riva sickle sweep, hook sweep, and collar sleeve sweep. Practice each sweep entry 5 times without completion, focusing on establishing the setup grip and leverage position. Partner provides resistance only when you commit to the sweep, not during setup.
+
+**Duration**: 10 minutes
+
+
+### Grip Fight and Transition Drill
+
+Partner repeatedly reaches for your pants or collar from combat base while you practice breaking grips and establishing your own. After breaking a grip, immediately transition to your offensive guard (butterfly, De La Riva, spider) before partner can re-establish. Work 90-second rounds with continuous grip fighting, focusing on speed of grip breaks and guard establishment.
 
 **Duration**: 6 minutes
 
 
-### Angle Creation Flow Drill
+### Hip Escape and Re-guard Drill
 
-From combat base, use planted foot to circle around opponent's guard, creating new passing angles every 3-5 seconds while maintaining base integrity. Bottom player maintains guard retention efforts with appropriate hooks and frames. Focus on fluid movement while keeping posted knee stable and posture upright.
+Partner applies light passing pressure from combat base while you practice hip escaping (shrimping) to maintain perpendicular alignment and insert hooks. Each time partner completes a pass, reset and repeat. Focus on early hip escape before the pass completes rather than scrambling after. Work continuous 2-minute rounds.
 
-**Duration**: 5 minutes
+**Duration**: 8 minutes
 
 
 
@@ -313,29 +314,29 @@ From combat base, use planted foot to circle around opponent's guard, creating n
 
 ## Test Your Knowledge
 
-**Q1**: What is the ideal weight distribution ratio between the posted knee and planted foot in Combat Base, and why?
-**A**: The ideal distribution is approximately 60-40 between the posted knee and planted foot, with the posted knee bearing slightly more weight to maintain base stability. This ratio allows for quick weight shifts when initiating passes or defending sweeps and should be adjusted dynamically based on opponent reactions and chosen passing direction.
+**Q1**: Your opponent establishes Combat Base inside your open guard — what is your immediate priority?
+**A**: Your immediate priority is grip fighting and hook establishment before they settle. Fight to prevent them from establishing pants grips by swatting their hands or underhooking their wrists. Simultaneously thread a butterfly hook onto their posted knee — this single hook disrupts their entire triangulated base. If you can't get a hook immediately, establish frames on their biceps to control distance while you work to insert hooks.
 
-**Q2**: What three contact points create the triangulated base structure in Combat Base?
-**A**: The three contact points are the posted knee with shin on the mat, the planted foot flat on the mat, and the hips positioned above the opponent's hip line. These three points form a geometric triangle that provides multi-directional stability, allowing the practitioner to resist forces from any angle while maintaining structural integrity for offensive passing pressure.
+**Q2**: How do you use your hips to make passes more difficult when opponent is in Combat Base?
+**A**: Stay perpendicular to the passer rather than lying square. Use constant hip escapes (shrimping) to angle your body so your hips are never directly under their chest. When they circle with their planted foot, follow with your hips by turning toward them. This forces them to constantly re-establish their passing geometry rather than executing a clean pass. A guard player who chases the opponent's hip line with their own hips is dramatically harder to pass than one who lies flat.
 
-**Q3**: Your opponent begins bringing their knees together and reaching for your collar to close their guard - what immediate adjustments do you make?
-**A**: Widen your base by stepping the planted foot further out to the side, making it physically difficult for the opponent to lock ankles. Simultaneously drive your posted knee into the opponent's tailbone area while posting both hands on their hip bones to create a frame preventing guard closure. Break any collar grip by circling your wrist and peeling their fingers before they establish control.
+**Q3**: What guard types are most effective against Combat Base and why?
+**A**: Butterfly Guard is the most immediately effective because its hooks sit exactly where combat base is vulnerable — on the posted knee. De La Riva Guard is highly effective once you establish a DLR hook around their lead leg, creating sweeping leverage. Spider Guard works well when you can extend their arms with foot-in-bicep connections. Collar Sleeve Guard is effective in the gi as it controls both their posted knee and posture simultaneously. Avoid relying on closed guard which opponent has already neutralized by establishing combat base.
 
-**Q4**: What are the primary grip priorities when establishing and maintaining Combat Base in the gi?
-**A**: The primary grip priorities are controlling the opponent's pants at knee level with the hand on the posted-knee side and controlling the collar or sleeve with the planted-foot side hand. The pants grip prevents guard retention by controlling leg mobility, while the upper body grip manages distance and prevents the opponent from establishing offensive grips. Always fight opponent grips before establishing your own.
+**Q4**: The opponent starts circling their planted foot to create a passing angle — how do you counter this movement?
+**A**: Follow their circling movement with your hips, turning to stay perpendicular to them as they move around you. Use the rotation as an opportunity to insert a De La Riva hook or transition to collar sleeve guard — their circling motion momentarily shifts their weight to the planted foot, creating brief instability you can exploit for a sweep. If you maintain hooks throughout their circling, you can sweep them when their weight commits to one direction during the circle.
 
-**Q5**: Your opponent successfully frames against your shoulders and extends their legs to push your hips away - how do you maintain position?
-**A**: Rather than fighting frames directly, use the planted foot to circle laterally while maintaining upright posture. Strip one frame at a time by swimming your arms inside their wrists. Once you clear one frame, immediately close distance on that side by driving the posted knee forward. If frames are too strong, stand up from combat base to break grips from higher elevation before re-establishing position with new angles.
+**Q5**: How do you set up sweeps specifically targeting the vulnerabilities of Combat Base?
+**A**: Target the posted knee side where their weight distribution creates instability. Insert a butterfly hook on the posted knee and load elevation sweep attempts toward that side — they have 60% weight on the posted knee but less mobility there. Alternatively, when they shift weight to their planted foot to circle, execute an immediate sweep toward the posted knee side before they can redirect weight. The hook sweep and butterfly elevation are both designed to exploit exactly the weight distribution gaps that Combat Base creates.
 
-**Q6**: Your opponent threads a De La Riva hook around your lead leg while in Combat Base - what is your recovery sequence?
-**A**: Avoid stepping back, which deepens the hook. Instead, drive the hooked knee forward toward the mat while circling the foot inward to strip the hook. Use your same-side hand to push the opponent's hooking foot off your hip while maintaining pants or sleeve control with the other hand. If the hook is deep, switch your lead leg by stepping over to the opposite combat base stance, effectively removing the hook by changing which leg is posted.
+**Q6**: Your opponent has clean pants grips and is starting to toreando your legs to the side — what do you do?
+**A**: Immediately frame against their wrists and circle your hips away from the direction they're pushing your legs. Try to grab their sleeve or wrist with both hands to break the pants grip while simultaneously shrimping away. If they complete the toreando motion, don't fight to return to the original position — instead, roll to your knees (technical stand-up) or pull guard to re-establish offensive guard. Fighting against a completed toreando pass burns more energy than resetting and re-engaging from a fresh position.
 
-**Q7**: How does Combat Base compare to other passing positions in terms of energy expenditure, and what practices conserve energy?
-**A**: Combat Base is one of the most energy-efficient passing positions because the posted knee and flat foot create a stable structure requiring minimal muscular effort to maintain. To conserve energy, avoid constant forward pressure that can be redirected. Use intermittent pressure bursts combined with angle changes. Let gravity and skeletal alignment do the work rather than muscular effort, and focus on structural integrity over active resistance against pulling forces.
+**Q7**: How do you manage energy when defending against a methodical combat base passer?
+**A**: Use frames and hooks to create structural resistance rather than muscular effort. Your butterfly hooks hold position through mechanical advantage, not constant squeezing. Between their passing attempts, reset your hooks and grips efficiently. When they apply forward pressure, redirect rather than resist — use their momentum to load sweeps rather than fighting their pressure directly. Proactively set your sweeps early so you're threatening them rather than purely defending; this forces them to manage your offense and reduces the sustained pressure you face.
 
-**Q8**: Your opponent hits a butterfly hook elevation that lifts your posted knee off the mat - how do you recover Combat Base?
-**A**: Immediately post the planted foot wider and drop your hips lower to create a new base point, preventing a full sweep. Use the hand on the elevated side to post on the mat for emergency stability. As you regain control, re-establish the posted knee on the mat by turning your hips toward the hooking side and driving the knee back down with forward hip pressure. Once the knee returns to the mat, reset hand positions to control the opponent's hooks before they attempt another elevation.
+**Q8**: What are the submission opportunities available from the bottom against Combat Base, and when should you attempt them?
+**A**: The primary submission opportunities are triangle choke setups (when opponent overextends an arm), armbar from guard (when they post a hand on your hip or chest), and omoplata entries (when they reach with one arm). These windows open when the opponent abandons their posture to apply passing pressure. Attempt submissions when you sense them compromising their upright structure — if they're leaning forward to smash pass or reaching to control your collar, these are the moments to attack. Never initiate submission attempts purely as desperation; set them up with posture-breaking grips first.
 
 
 
@@ -348,11 +349,11 @@ From combat base, use planted foot to circle around opponent's guard, creating n
 
 | Metric | Rate |
 |--------|------|
-| Retention Rate | 72% |
-| Advancement Probability | 60% |
-| Submission Probability | 12% |
+| Retention Rate | 45% |
+| Advancement Probability | 35% |
+| Submission Probability | 8% |
 
-**Average Time in Position**: 30-90 seconds in competitive BJJ depending on guard style and passing strategy
+**Average Time in Position**: 20-60 seconds before pass completion, sweep, or guard transition depending on activity level
 
 
 </section>
@@ -372,7 +373,7 @@ From combat base, use planted foot to circle around opponent's guard, creating n
 - **[[Positions/Butterfly Guard]]** - Counter position - Opponent's hook-based guard for off-balancing combat base
 - **[[Positions/Half Guard]]** - Common destination - Position often reached when passes are partially defended
 - **[[Positions/Knee on Belly]]** - Alternative target - High-control position accessible from combat base passing
-- **[[Transitions/Combat Base to Headquarters]]** - Positional advancement transition without completing a full guard pass
+- **[[Transitions/Combat Base to Headquarters]]** - Threat position — opponent advancing their knee deeper signals immediate need to counter or reguard
 
 
 </section>
