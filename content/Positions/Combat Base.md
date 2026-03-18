@@ -4,7 +4,7 @@
 
 ---
 title: "Combat Base | BJJ Position Guide | BJJ Graph"
-description: "Master Combat Base in BJJ. Essential guard passing platform with 72% retention rate. Complete guide to maintaining base, passing entries, and position control."
+description: "What is Combat Base in BJJ? Essential guard passing platform with one knee down and one foot planted. Complete guide to posture, passing entries, and defending against it."
 ---
 
 
@@ -61,10 +61,10 @@ Mastery of Combat Base is essential for all guard passing systems, as it forms t
 
 | &nbsp; | Bottom | Top |
 |--------|--------|-----|
-| **Position Type** | Neutral | Neutral |
+| **Position Type** | Defensive with offensive options | Neutral |
 | **Risk Level** | Low to Medium | Low to Medium |
-| **Energy Cost** | Low | Low |
-| **Time** | Long | Long |
+| **Energy Cost** | Medium | Low |
+| **Time** | Medium to Long | Long |
 
 **Key Difference:** Asymmetric stance balances mobility with base
 
@@ -82,19 +82,19 @@ Mastery of Combat Base is essential for all guard passing systems, as it forms t
 ### Key Principles
 
 
-- Maintain triangulated base with posted knee, planted foot, and hips forming stable geometric structure resistant to multi-directional forces
+- Never be passive — immediately threaten sweeps, hooks, and submissions the moment opponent establishes Combat Base to force reactive guard passing
 
-- Keep spine upright and head positioned above hips to prevent forward collapse and maintain structural integrity against pulling attacks
+- Fight grips first — prevent opponent from controlling pants or collar cleanly, as clean grip control enables all their passing sequences
 
-- Distribute weight dynamically between posted knee and planted foot based on passing direction and opponent reactions to maintain balance
+- Establish hooks on the posted knee — inserting a butterfly or De La Riva hook on opponent's lead leg disrupts their entire Combat Base structure
 
-- Control opponent's hips and legs with active hand positioning to manage distance and prevent guard retention or re-closure
+- Stay perpendicular — use hip escapes and angles to maintain your hips under opponent's hip line, making chest-to-chest pass completion physically difficult
 
-- Use planted foot to generate mobility for circling, stepping, and angle creation while maintaining base stability during movement
+- Attack the balance points — exploit the 60-40 weight distribution of Combat Base by threatening sweeps toward the posted knee side where they are most vulnerable
 
-- Keep elbows tight to body and avoid overextending arms to prevent armbars, omoplatas, and triangle setups
+- Convert their circling into guard transitions — when opponent circles their planted foot, follow with hip movement and transition into stronger guard configurations like X-Guard or Collar Sleeve Guard
 
-- Adjust stance width and knee position based on opponent's guard type and defensive strategy to optimize passing angles
+- Threaten submissions to slow the pass — arm drag entries, triangle setups, and omoplata attempts from open guard force the passer to address submissions before committing to the pass
 
 
 ### Available Transitions
@@ -110,33 +110,33 @@ Mastery of Combat Base is essential for all guard passing systems, as it forms t
 ### Common Mistakes
 
 
-- ❌ **Posting with ball of foot instead of flat foot on planted side**
-  - Consequence: Reduces stability and mobility, making it difficult to generate passing pressure or react to opponent's movements, increasing sweep vulnerability by 35%
-  - ✅ Correction: Plant entire foot flat on mat with toes pointing forward, creating maximum surface contact and allowing for explosive movement in any direction
+- ❌ **Remaining flat on back without establishing active frames or hooks**
+  - Consequence: Allows opponent to settle in combat base and apply methodical passing pressure without facing any offensive threat, making the pass nearly inevitable
+  - ✅ Correction: Immediately insert frames on opponent's biceps or shoulders and work to thread hooks onto their posted knee or lead leg the moment they establish combat base
 
-- ❌ **Leaning forward with weight over opponent's chest and head down**
-  - Consequence: Makes practitioner vulnerable to triangle chokes, armbars, and omoplata attacks while reducing base stability and defensive structure
-  - ✅ Correction: Keep spine upright with head above hips, distributing weight through posted knee and planted foot rather than leaning forward onto opponent
+- ❌ **Allowing opponent to establish clean pants grips without grip fighting**
+  - Consequence: Opponent controls your leg mobility, directly enabling toreando, leg drag, and knee slice passes with significantly reduced resistance
+  - ✅ Correction: Fight grips aggressively by blocking their hands, swatting grips away, and establishing your own collar and sleeve grips before they settle into passing position
 
-- ❌ **Keeping both knees on mat without establishing combat base stance**
-  - Consequence: Eliminates mobility and makes it impossible to generate passing pressure or create angles effectively, reducing passing success by 50%
-  - ✅ Correction: Transition to proper combat base with one knee posted and opposite foot planted, creating asymmetrical stance for dynamic movement
+- ❌ **Keeping hips square and flat instead of using hip escapes and angle adjustment**
+  - Consequence: Creates ideal passing geometry for opponent — hip-to-hip alignment makes all passing directions equally accessible and eliminates sweeping leverage
+  - ✅ Correction: Use constant hip escapes (shrimping) to stay perpendicular to the passer, keeping your hips angled and mobile so they must chase your hips to complete any pass
 
-- ❌ **Extending arms fully to post on opponent's hips or legs**
-  - Consequence: Creates vulnerability to armbars, kimuras, and omoplatas while losing ability to control opponent's movement effectively
-  - ✅ Correction: Keep elbows bent at approximately 90 degrees with hands actively controlling opponent's hips and legs close to body
+- ❌ **Attempting to close guard against an opponent in established combat base**
+  - Consequence: Opponent has already countered guard closure by widening their base — trying to lock ankles wastes energy on a low-percentage goal instead of threatening sweeps
+  - ✅ Correction: Abandon closed guard attempts and instead focus on hook-based open guards (Butterfly Guard, De La Riva Guard) that are effective against the asymmetric combat base stance
 
-- ❌ **Allowing opponent to establish strong collar and sleeve grips without fighting them**
-  - Consequence: Gives bottom player ability to break posture, create angles, and set up sweeps and submissions effectively, reducing passing efficiency by 40%
-  - ✅ Correction: Fight grips aggressively before establishing combat base, breaking opponent's grips by circling wrists and controlling sleeves
+- ❌ **Ignoring the posted knee as a sweep target and defending purely with frames**
+  - Consequence: Opponent can maintain combat base indefinitely since their structure is never threatened, allowing them to work passing entries methodically without urgency
+  - ✅ Correction: Attack the posted knee side specifically — insert butterfly hooks, reach for sleeve or ankle control on that side, and load sweep attempts toward the posted knee where their weight distribution creates instability
 
-- ❌ **Positioning hips too far back from opponent's hip line**
-  - Consequence: Creates too much distance for effective passing pressure and allows opponent to easily establish distance-based guards like De La Riva
-  - ✅ Correction: Keep hips positioned directly above opponent's hip line while maintaining enough distance to prevent triangle entries
+- ❌ **Overextending arms to grab opponent's collar or neck, pulling yourself up into submissions**
+  - Consequence: Creates triangle choke vulnerability and makes hip escapes impossible since your arms are committed forward and your hips are pulled off the mat
+  - ✅ Correction: Keep arms as frames on opponent's biceps or shoulders with elbows bent — this controls distance effectively without compromising your base or creating submission openings
 
-- ❌ **Remaining static in combat base without creating angles or pressure variations**
-  - Consequence: Allows opponent time to establish preferred guard and set up attacks without facing passing pressure, reducing passing success by 45%
-  - ✅ Correction: Use planted foot to constantly create new angles, circle around opponent's guard, and apply dynamic pressure variations
+- ❌ **Reacting to each passing direction instead of proactively setting sweeps and submissions**
+  - Consequence: Constant reactive defense burns energy and cedes initiative to the passer, who can feint and create openings systematically against a purely reactive guard
+  - ✅ Correction: Shift from reactive to proactive — immediately establish grips for your preferred sweep (butterfly elevation, hook sweep) and use those threats to control the passer's movement rather than responding to their attempts
 
 
 </section>

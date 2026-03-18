@@ -4,7 +4,7 @@
 
 ---
 title: "Inside Ashi-Garami | BJJ Position Guide | BJJ Graph"
-description: "Master Inside Ashi-Garami in BJJ. Foundational leg entanglement for ankle locks and heel hooks with comprehensive control mechanics and submission pathways."
+description: "What is Inside Ashi-Garami in BJJ? Foundational leg entanglement for ankle locks, heel hooks, and advanced leg systems. Complete guide to entry, control, and submission pathways."
 ---
 
 
@@ -208,10 +208,6 @@ Inside Ashi-Garami has become essential in modern competition grappling, particu
 - **[[Transitions/Saddle Entry from Top/Attacker|Saddle Entry from Top]]** (9% of attempts)
 
 - **[[Transitions/50-50 Entry/Attacker|50-50 Entry]]** (3% of attempts)
-
-- **[[Transitions/Backside 50-50 Entry from Ashi/Attacker|Backside 50-50 Entry from Ashi]]** (0% of attempts)
-
-- **[[Transitions/Inside Ashi to Outside Ashi/Attacker|Inside Ashi to Outside Ashi]]** (0% of attempts)
 
 - **[[Transitions/Inside Ashi-Garami to Ushiro Ashi/Attacker|Inside Ashi-Garami to Ushiro Ashi]]** (1% of attempts)
 

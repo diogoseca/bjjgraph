@@ -4,7 +4,7 @@
 
 ---
 title: "Combat Base Top | BJJ Position Guide | BJJ Graph"
-description: "Master Combat Base in BJJ. Essential guard passing platform with 72% retention rate. Complete guide to maintaining base, passing entries, and position control."
+description: "How to use Combat Base for guard passing in BJJ. Asymmetric stance with one knee posted and one foot planted. Retention rate 72%. Success Rate: Beginner 45%, Intermediate 60%, Advanced 72%."
 ---
 
 
@@ -115,7 +115,7 @@ description: "Master Combat Base in BJJ. Essential guard passing platform with 7
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Combat Base Top",
-  "description": "Master Combat Base in BJJ. Essential guard passing platform with 72% retention rate. Complete guide to maintaining base, passing entries, and position control.",
+  "description": "How to use Combat Base for guard passing in BJJ. Asymmetric stance with one knee posted and one foot planted. Retention rate 72%. Success Rate: Beginner 45%, Intermediate 60%, Advanced 72%.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",

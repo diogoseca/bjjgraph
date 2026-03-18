@@ -4,7 +4,7 @@
 
 ---
 title: "Inside Ashi-Garami Top | BJJ Position Guide | BJJ Graph"
-description: "Foundational leg entanglement for ankle locks and heel hooks. Entry to advanced positions with 70% retention rate at advanced level."
+description: "How to control Inside Ashi-Garami in BJJ. Foundational leg entanglement for ankle locks and heel hooks. Success Rate: Beginner 25%, Intermediate 42%, Advanced 60%."
 ---
 
 
@@ -115,7 +115,7 @@ description: "Foundational leg entanglement for ankle locks and heel hooks. Entr
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Inside Ashi-Garami Top",
-  "description": "Foundational leg entanglement for ankle locks and heel hooks. Entry to advanced positions with 70% retention rate at advanced level.",
+  "description": "How to control Inside Ashi-Garami in BJJ. Foundational leg entanglement for ankle locks and heel hooks. Success Rate: Beginner 25%, Intermediate 42%, Advanced 60%.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
