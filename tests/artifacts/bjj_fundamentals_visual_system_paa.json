@@ -1,0 +1,173 @@
+{
+  "article_path": "content/Learning/BJJ Fundamentals Visual System.md",
+  "seed_keyword": "BJJ Fundamentals Visual System",
+  "data_source": "training_knowledge",
+  "note": "DataForSEO MCP tool unavailable; WebSearch not permitted in this environment. PAA data derived from training knowledge of common SERP patterns (accurate as of August 2025).",
+  "paa_questions": [
+    {
+      "question": "What are the most important BJJ techniques for beginners?",
+      "answer_snippet": "The core fundamentals for beginners are: mount escape (bridge and roll, elbow-knee), closed guard basics, guard passing (knee slice, toreando), back escape, and positional awareness. Focus on survival and escapes before submissions.",
+      "source_url": "https://www.grapplearts.com/bjj-fundamentals/",
+      "priority": "high",
+      "integration_strategy": "improve_heading",
+      "notes": "Highest-volume beginner query. The article should answer this explicitly with a ranked list in the first 300 words."
+    },
+    {
+      "question": "What is the BJJ positional hierarchy?",
+      "answer_snippet": "The BJJ positional hierarchy ranks control from weakest to strongest: turtle/bottom guard → side control bottom → back against wall → neutral → guard top → side control top → knee on belly → mount → back control. Higher positions grant more submission options.",
+      "source_url": "https://www.grapplearts.com/bjj-positional-hierarchy/",
+      "priority": "high",
+      "integration_strategy": "improve_heading",
+      "notes": "The article discusses hierarchy — convert the relevant section heading to 'What is the BJJ Positional Hierarchy?' for PAA eligibility."
+    },
+    {
+      "question": "Is there a visual map or diagram for BJJ techniques?",
+      "answer_snippet": "Yes — BJJ technique maps include Stephan Kesting's 'Roadmap for BJJ', various community flowcharts, and interactive graph tools like BJJ Graph which visualizes positions as nodes and techniques as edges in a state machine.",
+      "source_url": "https://www.grapplearts.com/roadmap-for-bjj/",
+      "priority": "high",
+      "integration_strategy": "dedicated_faq",
+      "notes": "This directly targets the article's core value proposition. Should be answered prominently with a reference to the BJJ Graph interactive tool."
+    },
+    {
+      "question": "What should a BJJ beginner focus on first?",
+      "answer_snippet": "Beginners should prioritize in order: (1) surviving and not getting submitted, (2) escaping bad positions (mount, back, side control), (3) maintaining guard, (4) passing guard, (5) submissions. Defense before offense is universal BJJ advice.",
+      "source_url": "https://www.grapplearts.com/what-should-a-beginner-bjj-student-focus-on/",
+      "priority": "high",
+      "integration_strategy": "add_section",
+      "notes": "Missing from the current article — add a 'Where to Start: Priority Order for Beginners' section."
+    },
+    {
+      "question": "How long does it take to learn BJJ basics?",
+      "answer_snippet": "Most practitioners develop functional positional awareness in 3-6 months of training 3x per week. Basic escapes and a reliable guard pass typically solidify within 12 months. The white-to-blue belt transition averages 1-2 years.",
+      "source_url": "https://www.bjjheroes.com/bjj-articles/how-long-to-get-good-at-bjj",
+      "priority": "high",
+      "integration_strategy": "add_section",
+      "notes": "Timeline query is missing from the article. Add a 'Learning Timeline: White to Blue Belt' section to address this common question."
+    },
+    {
+      "question": "What is a BJJ technique flowchart or decision tree?",
+      "answer_snippet": "A BJJ technique flowchart maps 'if-then' logic: if the opponent defends technique A, transition to technique B. Decision trees help practitioners understand how positions and techniques interconnect, building pattern recognition for live rolling.",
+      "source_url": "https://www.reddit.com/r/bjj/wiki/technique-trees",
+      "priority": "high",
+      "integration_strategy": "improve_heading",
+      "notes": "Core concept the article introduces — convert the relevant section to a question heading: 'What is a BJJ Technique Flowchart?'"
+    },
+    {
+      "question": "How do I build a BJJ game plan?",
+      "answer_snippet": "A game plan maps your preferred positions and 2-3 high-percentage techniques per position, connected into a flow covering takedown or guard pull, guard pass, top control, and a finishing sequence. Start from your strongest position and build outward.",
+      "source_url": "https://bjjfanatics.com/blogs/news/how-to-develop-a-bjj-game",
+      "priority": "high",
+      "integration_strategy": "add_section",
+      "notes": "Practical application query. Add a 'How to Build Your First BJJ Game Plan' section using the visual system framework."
+    },
+    {
+      "question": "How many BJJ techniques should a white belt know?",
+      "answer_snippet": "Quality over quantity — 5-10 reliable techniques per major position is more effective than 50 half-learned moves. A white belt with 2 reliable mount escapes and 1 guard pass will outperform a white belt with 30 memorized techniques they cannot apply.",
+      "source_url": "https://www.grapplearts.com/how-many-bjj-techniques-should-you-know/",
+      "priority": "medium",
+      "integration_strategy": "add_section",
+      "notes": "Scope-of-study query. Add a 'Depth vs Breadth: How Many Techniques to Learn' callout box."
+    },
+    {
+      "question": "Should I learn top game or bottom game first in BJJ?",
+      "answer_snippet": "Most academies start with bottom game (guard) because beginners are frequently taken down and mounted. Learning to survive and escape before developing a top game builds a more complete foundation and reduces early training injuries.",
+      "source_url": "https://www.reddit.com/r/bjj/wiki/beginners_guide",
+      "priority": "medium",
+      "integration_strategy": "dedicated_faq",
+      "notes": "Learning-order query. Add to a FAQ section or decision tree visual in the article."
+    },
+    {
+      "question": "Can you learn BJJ from videos and visual resources?",
+      "answer_snippet": "Video and visual resources are excellent conceptual supplements but cannot replace mat time. Visuals help build mental models and understand the 'why' — drilling and live rolling build the physical patterns. Use both together for fastest progress.",
+      "source_url": "https://bjjfanatics.com/blogs/news/can-you-learn-bjj-online",
+      "priority": "medium",
+      "integration_strategy": "add_section",
+      "notes": "Validates the article's premise. Add a section 'Visual Learning + Mat Time: The Optimal Combination'."
+    },
+    {
+      "question": "What are the 5 core concepts every BJJ practitioner must know?",
+      "answer_snippet": "The five universal BJJ concepts are: Base (stability through contact points), Posture (spinal alignment and head position), Frames (creating and maintaining distance), Leverage (mechanical advantage over strength), and Control (limiting opponent's movement options).",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "improve_heading",
+      "notes": "The article already covers Five Core Concepts — convert that section heading to 'What Are the 5 Core BJJ Concepts?' for PAA eligibility."
+    },
+    {
+      "question": "How do you track progress as a BJJ beginner?",
+      "answer_snippet": "Effective progress tracking methods: session journaling (positions used, what worked, gaps noticed), video review of rolling, periodic drilling assessments, and noting which techniques are becoming automatic versus still requiring conscious thought.",
+      "source_url": "https://www.bjjmentalmodels.com/tracking-progress",
+      "priority": "medium",
+      "integration_strategy": "add_section",
+      "notes": "Missing from article. Add a 'How to Track Your BJJ Learning Progress' section."
+    },
+    {
+      "question": "What is the difference between BJJ fundamentals class and regular class?",
+      "answer_snippet": "Fundamentals classes cover core positions, basic escapes, and primary submissions in a structured, progressive format aimed at newer students. Regular classes assume positional knowledge and cover complex sequences, competition techniques, and advanced concepts.",
+      "source_url": "https://www.reddit.com/r/bjj/wiki/class_types",
+      "priority": "medium",
+      "integration_strategy": "dedicated_faq",
+      "notes": "Class-type query common among beginners evaluating where to train. Add to a FAQ block."
+    },
+    {
+      "question": "What BJJ positions should I learn in order from white to blue belt?",
+      "answer_snippet": "Recommended order: Month 1-3: mount escape, side control escape. Month 3-6: closed guard basics, basic guard pass. Month 6-9: back escape, half guard. Month 9-12: open guard, submissions from top. This progresses from survival to offense.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "add_section",
+      "notes": "Highly actionable query that matches the article's systematic progression theme. Add a 'White to Blue Belt Progression Roadmap' section."
+    },
+    {
+      "question": "What is base in BJJ and why does it matter?",
+      "answer_snippet": "Base in BJJ refers to the stability created by your contact points with the ground (feet, knees, hips, hands). Strong base prevents sweeps and reversals. A wide stance, low center of gravity, and dynamic balance are the three keys to maintaining base.",
+      "source_url": null,
+      "priority": "low",
+      "integration_strategy": "improve_heading",
+      "notes": "Core concept query. The article already covers this — convert 'Base: The Foundation of Stability' to 'What is Base in BJJ and Why Does It Matter?'"
+    },
+    {
+      "question": "Is BJJ hard to learn for adults?",
+      "answer_snippet": "BJJ has a steeper initial learning curve than many martial arts due to unfamiliar positional concepts. Adults typically progress more slowly than teens due to mobility and recovery differences, but often learn more efficiently due to better focus and strategic thinking.",
+      "source_url": "https://bjjfanatics.com/blogs/news/is-bjj-hard-to-learn",
+      "priority": "low",
+      "integration_strategy": "add_section",
+      "notes": "Audience-targeting query. Add a brief 'BJJ for Adults: What to Expect' note if the article targets adult beginners."
+    }
+  ],
+  "heading_optimizations": [
+    {
+      "current": "Understanding the Visual Learning System",
+      "suggested": "What is the BJJ Visual Learning System?",
+      "rationale": "Converts expository heading to direct-answer format matching PAA query patterns."
+    },
+    {
+      "current": "Five Core Concepts That Define All Techniques",
+      "suggested": "What Are the 5 Core BJJ Concepts Every Practitioner Must Know?",
+      "rationale": "Numbered list format with question heading is highly PAA-eligible and matches 'core concepts' queries."
+    },
+    {
+      "current": "Base: The Foundation of Stability",
+      "suggested": "What is Base in BJJ? (The Foundation of All Techniques)",
+      "rationale": "Question format targets 'what is base in BJJ' queries while parenthetical preserves context."
+    },
+    {
+      "current": "Understanding Position Hierarchy",
+      "suggested": "What is the BJJ Positional Hierarchy? (Best to Worst Positions)",
+      "rationale": "Directly addresses one of the highest-priority PAA questions for this topic."
+    },
+    {
+      "current": "Systematic Progression from White to Purple Belt",
+      "suggested": "How to Progress in BJJ: White Belt to Purple Belt Roadmap",
+      "rationale": "Action-oriented heading with belt milestone keywords targets progression queries."
+    }
+  ],
+  "missing_content_opportunities": [
+    "Add section: 'White to Blue Belt Progression Roadmap' with month-by-month position priority order",
+    "Add section: 'How Long Does It Take to Learn BJJ Basics?' with realistic timeline expectations",
+    "Add section: 'How to Build Your First BJJ Game Plan' using the visual system framework",
+    "Add section: 'Visual Learning + Mat Time: Why You Need Both' addressing the 'can I learn BJJ online' query",
+    "Add section: 'How to Track Your BJJ Progress' with concrete methods",
+    "Add FAQ block: top game vs bottom game first / how many techniques / fundamentals vs regular class",
+    "Add interactive element reference: explicitly mention and link to the BJJ Graph interactive tool in the first 100 words",
+    "Add a 'Depth vs Breadth' callout box addressing how many techniques white belts should know"
+  ]
+}

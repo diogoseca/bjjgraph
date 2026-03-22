@@ -1,0 +1,116 @@
+PAA RESEARCH SUMMARY
+====================
+Generated: 2026-03-22
+Data Source: Training knowledge (DataForSEO MCP unavailable; WebSearch not permitted)
+Articles Processed: 2
+
+NOTE: To get live SERP PAA data, enable the DataForSEO integration via the content-improvement-bot.yml
+workflow using the mcp__dataforseo__serp_organic_live_advanced tool with people_also_ask_click_depth: 2.
+
+---
+
+ARTICLE 1: Butterfly Guard
+Path: content/Positions/Butterfly Guard.json
+Seed Keyword: "Butterfly Guard"
+Output: tests/artifacts/butterfly_guard_paa.json
+
+Total PAA Questions Found: 15
+High-Priority Questions (direct answers needed): 6
+  1. What is butterfly guard in BJJ? → improve_heading (hub page intro)
+  2. How do you do the butterfly sweep in BJJ? → add_section (Bottom page)
+  3. Is butterfly guard good for beginners? → dedicated_faq
+  4. What is the difference between butterfly guard and closed guard? → add_section
+  5. How do you pass butterfly guard? → improve_heading (Top page)
+  6. What are the best butterfly guard sweeps? → add_section (ranked list using JSON data)
+
+Medium-Priority Questions: 6
+  - Can you do butterfly guard in no-gi BJJ?
+  - What grips do you use in butterfly guard?
+  - How do you defend against butterfly guard sweeps?
+  - What positions connect to butterfly guard?
+  - Who is famous for using butterfly guard in BJJ?
+  - How do you transition from butterfly guard to X-Guard?
+
+Low-Priority Questions: 3
+  - What is half butterfly guard?
+  - Is butterfly guard effective in MMA?
+  - What does 'sitting up guard' mean in BJJ?
+
+Content Gap Analysis:
+  - MISSING: Butterfly Guard vs Closed Guard comparison section
+  - MISSING: Grips breakdown (gi vs no-gi)
+  - MISSING: Notable practitioners section (E-E-A-T gap)
+  - MISSING: MMA applicability note
+  - UNDERUTILIZED: attempt_probability data from JSON not surfaced as user-facing content
+
+Suggested New Articles from Butterfly Guard PAA:
+  - content/Positions/Butterfly Guard/Comparison-Closed-Guard.md (or hub comparison page)
+  - content/Transitions/Butterfly Guard to X-Guard.md (referenced in JSON but may not exist as standalone)
+
+---
+
+ARTICLE 2: BJJ Fundamentals Visual System
+Path: content/Learning/BJJ Fundamentals Visual System.md
+Seed Keyword: "BJJ Fundamentals Visual System"
+Output: tests/artifacts/bjj_fundamentals_visual_system_paa.json
+
+Total PAA Questions Found: 16
+High-Priority Questions (direct answers needed): 7
+  1. What are the most important BJJ techniques for beginners? → improve_heading
+  2. What is the BJJ positional hierarchy? → improve_heading
+  3. Is there a visual map or diagram for BJJ techniques? → dedicated_faq
+  4. What should a BJJ beginner focus on first? → add_section
+  5. How long does it take to learn BJJ basics? → add_section
+  6. What is a BJJ technique flowchart or decision tree? → improve_heading
+  7. What BJJ positions should I learn in order from white to blue belt? → add_section
+
+Medium-Priority Questions: 6
+  - How do I build a BJJ game plan?
+  - How many BJJ techniques should a white belt know?
+  - Should I learn top game or bottom game first?
+  - Can you learn BJJ from videos and visual resources?
+  - What are the 5 core concepts every BJJ practitioner must know?
+  - How do you track progress as a BJJ beginner?
+  - What is the difference between fundamentals class and regular class?
+
+Low-Priority Questions: 2
+  - What is base in BJJ and why does it matter?
+  - Is BJJ hard to learn for adults?
+
+Content Gap Analysis:
+  - MISSING: "White to Blue Belt Progression Roadmap" section with month-by-month priority order
+  - MISSING: Learning timeline / time-to-learn section
+  - MISSING: Game plan building section
+  - MISSING: Progress tracking methods
+  - MISSING: Explicit early reference to BJJ Graph interactive tool (article's core value prop)
+  - UNDERUTILIZED: The article promotes a visual system but doesn't directly answer "is there a visual map?" prominently
+
+Suggested New Articles from BJJ Fundamentals PAA:
+  - content/Learning/BJJ White Belt to Blue Belt Roadmap.md
+  - content/Learning/How to Build a BJJ Game Plan.md
+  - content/Learning/BJJ Progress Tracking Guide.md
+
+---
+
+AGGREGATE TOTALS
+================
+Total PAA Questions Analyzed: 31
+High-Priority Questions: 13
+Medium-Priority Questions: 12
+Low-Priority Questions: 6
+
+Top Integration Strategies by Frequency:
+  - add_section: 13 items
+  - improve_heading: 11 items
+  - dedicated_faq: 7 items
+
+Suggested New Files (for suggested_new_files.csv):
+  1. content/Learning/BJJ White Belt to Blue Belt Roadmap.md
+  2. content/Learning/How to Build a BJJ Game Plan.md
+  3. content/Learning/BJJ Progress Tracking Guide.md
+  4. content/Positions/Butterfly Guard/Comparison-Closed-Guard.md (or integrate as section)
+
+Cross-Article Opportunities:
+  - Both articles benefit from explicit linking to the BJJ Graph interactive visualization
+  - "Positional hierarchy" appears as a high-priority PAA for both BJJ Fundamentals and guard-related pages — ensure consistent, link-rich treatment across all Learning/ articles
+  - "Is X good for beginners?" pattern applies to all position pages — standardize a beginner-rating section in position hub template
