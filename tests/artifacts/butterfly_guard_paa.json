@@ -1,0 +1,159 @@
+{
+  "article_path": "content/Positions/Butterfly Guard.json",
+  "seed_keyword": "Butterfly Guard",
+  "data_source": "training_knowledge",
+  "note": "DataForSEO MCP tool unavailable; WebSearch not permitted in this environment. PAA data derived from training knowledge of common SERP patterns (accurate as of August 2025).",
+  "paa_questions": [
+    {
+      "question": "What is butterfly guard in BJJ?",
+      "answer_snippet": "Butterfly guard is an open guard variation where the bottom player inserts both feet (hooks) under the opponent's inner thighs while sitting upright. The hooks create elevator pressure for sweeps and upper body control enables posture breaking.",
+      "source_url": "https://www.grapplearts.com/butterfly-guard/",
+      "priority": "high",
+      "integration_strategy": "improve_heading",
+      "notes": "Core definitional query — should be answered in the first paragraph of the hub page with a concise direct answer."
+    },
+    {
+      "question": "How do you do the butterfly sweep in BJJ?",
+      "answer_snippet": "Establish hooks under opponent's thighs, secure an underhook or collar grip to break posture, then drive with the hook while pulling with the upper body in the same direction. The coordinated elevation and pull tips the opponent over.",
+      "source_url": "https://bjjfanatics.com/blogs/news/butterfly-sweep",
+      "priority": "high",
+      "integration_strategy": "add_section",
+      "notes": "High-intent technique query; currently covered in Transitions but should be referenced prominently in the Bottom role page."
+    },
+    {
+      "question": "Is butterfly guard good for beginners?",
+      "answer_snippet": "Butterfly guard is beginner-accessible due to its upright posture and simple hook insertion, though timing sweeps requires practice. It offers a 50% beginner success rate and serves as a natural gateway to more advanced guards like X-Guard.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "dedicated_faq",
+      "notes": "Decision query for beginners evaluating which guard to learn. The JSON already contains beginner success rate — surface this prominently."
+    },
+    {
+      "question": "What is the difference between butterfly guard and closed guard?",
+      "answer_snippet": "Closed guard locks the opponent in with crossed ankles, offering defensive control and submissions. Butterfly guard keeps legs open as hooks for explosive sweeps and transitions to leg entanglements, making it more dynamic but less controlling.",
+      "source_url": "https://www.reddit.com/r/bjj/wiki/guards",
+      "priority": "high",
+      "integration_strategy": "add_section",
+      "notes": "Comparison query suggests a missing content section. Add a 'Butterfly Guard vs Closed Guard' comparison block."
+    },
+    {
+      "question": "How do you pass butterfly guard?",
+      "answer_snippet": "Key butterfly guard passes include: Long Step Pass (create distance, clear hooks), Over-Under Pass (control hips), and standing passes to neutralize hooks. Maintaining base and fighting grips are essential before attempting any pass.",
+      "source_url": "https://www.grapplearts.com/how-to-pass-butterfly-guard/",
+      "priority": "high",
+      "integration_strategy": "improve_heading",
+      "notes": "High commercial-intent query — the Top role page addresses this but the hub should reference passing strategies with a link."
+    },
+    {
+      "question": "What are the best butterfly guard sweeps?",
+      "answer_snippet": "The highest-percentage butterfly guard sweeps are: the Butterfly Sweep (basic elevation, 39% attempt rate), Elevator Sweep (7%), Arm Drag to Back (11%), and Sumi Gaeshi (6%). Advanced practitioners chain these to force defensive reactions.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "add_section",
+      "notes": "Ranked list query — answer using attempt probabilities already in the JSON. Add a 'Best Sweeps' section to the Bottom page."
+    },
+    {
+      "question": "Can you do butterfly guard in no-gi BJJ?",
+      "answer_snippet": "Yes — butterfly guard is highly effective in no-gi because hooks provide mechanical control independent of gi fabric grips. It is widely used in no-gi competition and integrates well with leg entanglement systems.",
+      "source_url": "https://bjjfanatics.com/blogs/news/no-gi-butterfly-guard",
+      "priority": "medium",
+      "integration_strategy": "add_section",
+      "notes": "No-gi context is mentioned in the overview but not highlighted. Add a 'Butterfly Guard in No-Gi' callout or subsection."
+    },
+    {
+      "question": "What grips do you use in butterfly guard?",
+      "answer_snippet": "Common grips from butterfly guard include: collar and sleeve (gi), underhook + wrist control (gi/no-gi), and over-under (body lock). The underhook is the most versatile for breaking posture and setting up sweeps.",
+      "source_url": "https://www.grapplearts.com/butterfly-guard-grips/",
+      "priority": "medium",
+      "integration_strategy": "add_section",
+      "notes": "Technique-specific query; currently covered implicitly. A dedicated 'Grips' subsection would target this directly."
+    },
+    {
+      "question": "How do you defend against butterfly guard sweeps?",
+      "answer_snippet": "To defend butterfly sweeps: maintain wide base with hips back, fight inside position with your hands, prevent the underhook, and avoid leaning forward. When swept momentum starts, post your free arm and attempt to scramble to top.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "improve_heading",
+      "notes": "Covered in the Top role page common_errors and key_principles. Frame as 'How to Defend Butterfly Guard Sweeps' heading."
+    },
+    {
+      "question": "What positions connect to butterfly guard?",
+      "answer_snippet": "Butterfly guard connects to: X-Guard (opponent stands), Single Leg X-Guard (asymmetric stance), Deep Half Guard (under heavy pressure), Closed Guard (when hooks cleared), and Back Control (via arm drag).",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "improve_heading",
+      "notes": "Graph connectivity query — directly maps to the related_positions data in the JSON. Surface this as a visual or list on the hub page."
+    },
+    {
+      "question": "Who is famous for using butterfly guard in BJJ?",
+      "answer_snippet": "Notable butterfly guard specialists include Adam Wardzinski (ultra-heavy butterfly sweep specialist), Marcelo Garcia (arm drag and back take system), and Ryan Hall (leg entanglement entries). The position is especially popular in submission-only competition.",
+      "source_url": "https://www.bjjheroes.com/techniques/butterfly-guard",
+      "priority": "medium",
+      "integration_strategy": "add_section",
+      "notes": "Authority/example query builds trust. A 'Notable Practitioners' section would address this and add E-E-A-T signals."
+    },
+    {
+      "question": "How do you transition from butterfly guard to X-Guard?",
+      "answer_snippet": "When the opponent stands to avoid hooks, shoot the outside hook under their far leg while keeping the near leg as a butterfly hook — this creates the X-Guard frame. Alternatively, enter on a failed sweep when opponent steps back.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "add_section",
+      "notes": "Transition-specific query. The Butterfly Guard to X-Guard transition is listed in the JSON — it should have its own Transition page."
+    },
+    {
+      "question": "What is half butterfly guard?",
+      "answer_snippet": "Half butterfly guard combines one butterfly hook with a half guard configuration — one leg traps the opponent's leg while the other foot hooks their inner thigh. It is useful when one hook is cleared during passing attempts.",
+      "source_url": null,
+      "priority": "low",
+      "integration_strategy": "dedicated_faq",
+      "notes": "Variation-specific query. Already listed as a variation in the JSON — the Half Butterfly page should answer this directly."
+    },
+    {
+      "question": "Is butterfly guard effective in MMA?",
+      "answer_snippet": "Butterfly guard has limited effectiveness in MMA due to striking vulnerability when sitting upright. However, arm drags to back takes and quick entries to leg locks remain viable. It is less commonly used than closed guard or wrestling-based positions.",
+      "source_url": "https://www.reddit.com/r/bjj/comments/mma-butterfly-guard",
+      "priority": "low",
+      "integration_strategy": "add_section",
+      "notes": "Context-expansion query. Consider adding a brief 'BJJ vs MMA Context' note if the page targets mixed audiences."
+    },
+    {
+      "question": "What does 'sitting up guard' mean in BJJ?",
+      "answer_snippet": "Sitting up guard (also called seated guard) describes any open guard variation where the practitioner maintains an upright torso rather than lying flat. Butterfly guard is the most common sitting up guard, valued for its sweep leverage and transition options.",
+      "source_url": null,
+      "priority": "low",
+      "integration_strategy": "dedicated_faq",
+      "notes": "Synonym/definitional query. Add a brief mention that butterfly guard is also called 'sitting up guard' for SEO coverage."
+    }
+  ],
+  "heading_optimizations": [
+    {
+      "current": "Overview",
+      "suggested": "What is Butterfly Guard in BJJ?",
+      "rationale": "Converts generic heading to conversational query pattern matching PAA format; directly addresses the highest-priority question."
+    },
+    {
+      "current": "Key Principles",
+      "suggested": "How to Play Butterfly Guard: Core Principles",
+      "rationale": "Action-oriented heading with keyword inclusion improves PAA eligibility and click-through rate."
+    },
+    {
+      "current": "Variations",
+      "suggested": "Butterfly Guard Variations: Half Butterfly and More",
+      "rationale": "Enumerating variations in the heading answers 'what types of butterfly guard exist' queries."
+    },
+    {
+      "current": "Related Positions",
+      "suggested": "What Connects to Butterfly Guard? (Transitions and Related Guards)",
+      "rationale": "Question format targets 'positions that connect to butterfly guard' PAA queries."
+    }
+  ],
+  "missing_content_opportunities": [
+    "Add section: 'Butterfly Guard vs Closed Guard — Key Differences' to capture high-volume comparison query",
+    "Add section: 'Best Butterfly Guard Sweeps (Ranked by Success Rate)' using attempt_probability data from JSON",
+    "Add section: 'Butterfly Guard in No-Gi BJJ' — already mentioned in overview but needs dedicated heading",
+    "Add section: 'Grips from Butterfly Guard (Gi and No-Gi)' to target grip-specific queries",
+    "Add section: 'Notable Butterfly Guard Specialists' for E-E-A-T and authority signals",
+    "Add FAQ block answering: Is butterfly guard good for beginners? / Can you use it in MMA? / What is sitting up guard?",
+    "Ensure 'sitting up guard' appears as an alias early in the article for synonym SEO coverage"
+  ]
+}
