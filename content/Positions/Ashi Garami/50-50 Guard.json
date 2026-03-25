@@ -333,7 +333,7 @@
   },
   "bottom": {
     "name": "50-50 Guard Bottom",
-    "description": "Master 50-50 Guard Bottom defensive strategies. Learn heel protection, position reversal, and escape techniques. High-risk leg entanglement requiring expert defensive skill.",
+    "description": "How to survive 50-50 Guard Bottom in BJJ: heel hook defense, inside position recovery, and escape to standing. Advanced no-gi leg entanglement requiring expert technique.",
     "tags": [
       "bjj",
       "position",
@@ -530,13 +530,16 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "value": 60
+        "value": 60,
+        "description": "Moderate retention reflecting constant submission pressure and opponent's positional advantage from top"
       },
       "advancement_probability": {
-        "value": 55
+        "value": 55,
+        "description": "Reasonable chance of reversing to top or extracting to standing through inside position recovery and hip mobility"
       },
       "submission_probability": {
-        "value": 42
+        "value": 42,
+        "description": "High submission risk from opponent's heel hook, kneebar, and ankle lock attacks; counter submissions possible when opponent overcommits"
       },
       "average_time": "30-90 seconds before reversal, escape, or submission"
     },

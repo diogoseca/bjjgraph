@@ -1,7 +1,7 @@
 {
   "name": "Backside 50-50",
   "slug": "backside-50-50",
-  "description": "Master Backside 50-50 in BJJ. Strategic guide covering leg entanglement mechanics, dual-perspective control, and transitions to dominance with complete analysis.",
+  "description": "Master Backside 50-50 in BJJ: back-facing leg entanglement with dual-threat offense (heel hooks + back control) versus defensive escapes and reversal mechanics.",
   "variant_uniqueness": "Back-facing orientation creates pressure asymmetry",
   "overview": "Backside 50-50 represents a unique leg entanglement configuration where both practitioners maintain the characteristic mirrored leg positioning of standard 50-50, but with one player's back oriented toward the opponent's chest rather than the traditional face-to-face alignment. This asymmetrical orientation fundamentally alters the mechanical and tactical dynamics of the position, creating distinct advantages and disadvantages for each player that don't exist in standard 50-50 variations.\n\nThe position typically emerges during leg lock exchanges, scrambles, or as a transitional state when one player successfully rotates behind their opponent while maintaining leg entanglement control. Unlike standard 50-50 where both players have relatively equal attacking and defensive capabilities, backside 50-50 creates clear positional hierarchy with the top player (chest against opponent's back) holding significant mechanical and visual advantages over the bottom player (back exposed to opponent).\n\nBackside 50-50 has become increasingly relevant in modern no-gi competition as leg lock systems have evolved beyond basic footlocks into sophisticated entanglement hierarchies. The position serves as both a control platform and a transitional waypoint, offering pathways to superior positions like back control or saddle while maintaining constant submission threats through heel hooks, toe holds, and ankle locks. Understanding both perspectives of this position is essential for any practitioner serious about modern leg lock game development, as the ability to recognize and capitalize on the asymmetries determines success in this complex entanglement.",
   "key_principles": [
@@ -611,8 +611,8 @@
         "relationship": "Major defensive concern - position opponent may transition to from backside 50-50 top"
       },
       {
-        "name": "Leg Entanglement",
-        "relationship": "Fundamental concept governing mechanics of all 50-50 variations"
+        "name": "Turtle",
+        "relationship": "Defensive position bottom player may adopt when escaping the leg entanglement to avoid back control"
       },
       {
         "name": "Heel Hook",

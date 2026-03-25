@@ -4,7 +4,7 @@
 
 ---
 title: "Backside 50-50 | BJJ Position Guide | BJJ Graph"
-description: "Master Backside 50-50 in BJJ. Strategic guide covering leg entanglement mechanics, dual-perspective control, and transitions to dominance with complete analysis."
+description: "Master Backside 50-50 in BJJ: back-facing leg entanglement with dual-threat offense (heel hooks + back control) versus defensive escapes and reversal mechanics."
 ---
 
 
