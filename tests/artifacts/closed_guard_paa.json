@@ -1,0 +1,229 @@
+{
+  "article_path": "content/Positions/Closed Guard.json",
+  "seed_keyword": "Closed Guard BJJ",
+  "data_source": "synthesized from codebase content + BJJ domain PAA modeling (DataForSEO MCP unavailable)",
+  "generated": "2026-03-26",
+  "paa_questions": [
+    {
+      "question": "What is closed guard in BJJ?",
+      "answer_snippet": "Closed guard is a ground position where the bottom player wraps their legs around the opponent's waist and locks their ankles together, controlling the distance and limiting the top player's posture and movement.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "improve_heading",
+      "notes": "Foundational definition question; convert overview heading to 'What Is Closed Guard in BJJ?' for featured snippet"
+    },
+    {
+      "question": "Is closed guard good for beginners in BJJ?",
+      "answer_snippet": "Yes — closed guard is widely considered the best starting guard for beginners because it requires no flexibility, teaches fundamental concepts of control, posture-breaking, and sweeps, and is stable even without experience.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "dedicated_faq",
+      "notes": "High beginner search intent; add explicit FAQ or callout addressing this directly"
+    },
+    {
+      "question": "What is the difference between open guard and closed guard?",
+      "answer_snippet": "In closed guard the legs are locked behind the opponent forcing them to stay close; in open guard the legs are not locked and are used individually to frame, push, and create angles at varying distances.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "add_section",
+      "notes": "Comparative question; add brief comparison block linking to Open Guard page"
+    },
+    {
+      "question": "How effective is closed guard in MMA vs BJJ?",
+      "answer_snippet": "Closed guard remains effective in MMA for submissions and sweeps but is more dangerous than in BJJ because the top fighter can throw ground-and-pound strikes, so guard retention and submission timing become critical.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "add_section",
+      "notes": "MMA context section would capture crossover search audience; could be a brief note or separate Systems page"
+    },
+    {
+      "question": "How do you break posture in closed guard?",
+      "answer_snippet": "Break posture by pulling the opponent's head down with a collar grip or two-on-one grip, keeping your hips close, and using your legs to prevent them from sitting up. Breaking posture is the prerequisite to every attack from closed guard.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "improve_heading",
+      "notes": "Convert 'Posture Breaking' statement heading to question format; prerequisite concept for all guard attacks"
+    },
+    {
+      "question": "What grips should you use from closed guard?",
+      "answer_snippet": "Common closed guard grips include cross-collar grip (for chokes), same-side sleeve and collar grip (for sweeps), two-on-one (for arm attacks), and overhook/underhook grips (for hip control and triangles).",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "add_section",
+      "notes": "No dedicated grips breakdown section exists; cross-collar, sleeve, 2-on-1, overhook grips need explicit coverage"
+    },
+    {
+      "question": "How do you use your hips in closed guard?",
+      "answer_snippet": "Active hip movement — bridging, shrimping, and angling off to the side — is what generates the leverage for sweeps and submissions. A flat, static guard player is easy to pass or stand up on.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "improve_heading",
+      "notes": "Hip mechanics are a key principle in the JSON but need a dedicated question-format heading for PAA capture"
+    },
+    {
+      "question": "What are the most important closed guard concepts for beginners?",
+      "answer_snippet": "The three fundamentals beginners must learn are: (1) break posture first, (2) control the sleeve/collar, and (3) threaten submissions to create sweep opportunities — and vice versa.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "dedicated_faq",
+      "notes": "Beginner-focused summary FAQ; maps directly to key_principles in the JSON source"
+    },
+    {
+      "question": "How do you safely open closed guard in BJJ?",
+      "answer_snippet": "Stand up in base to open closed guard — never try to open it while kneeling, as this exposes you to armbars and triangles. Once standing, use knee pressure on the thigh or hip to break the ankle lock.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "add_section",
+      "notes": "Top player / passer perspective question; directly covered in top.transitions and decision_tree in JSON source"
+    },
+    {
+      "question": "What are the best ways to pass closed guard in BJJ?",
+      "answer_snippet": "Top passing options include the standing guard open, the knee slice after opening, the smash pass, and the torreando. All require first breaking the closed guard before advancing position.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "add_section",
+      "notes": "Strong search demand for passer perspective; currently covered in top.transitions data but needs visible section"
+    },
+    {
+      "question": "Why is it dangerous to open closed guard from your knees?",
+      "answer_snippet": "When kneeling inside closed guard your posture is compromised and your arm is vulnerable — easy targets for the triangle choke, armbar, and omoplata. Standing removes these threats and uses gravity to your advantage.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "dedicated_faq",
+      "notes": "Common error captured in top.common_errors JSON but deserves dedicated FAQ for high-intent passer queries"
+    },
+    {
+      "question": "What mistakes do beginners make in closed guard?",
+      "answer_snippet": "Common top player mistakes: trying to muscle open the guard while kneeling, posting hands on the mat (armbar bait), letting the guard player break posture. Common bottom player mistakes: keeping legs passive, not breaking posture, telegraphing attacks.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "add_section",
+      "notes": "Both perspectives' mistakes are documented in common_errors arrays in JSON; surface as a combined 'mistakes' section"
+    },
+    {
+      "question": "What are the best submissions from closed guard?",
+      "answer_snippet": "The most reliable closed guard submissions are the armbar, triangle choke, omoplata, cross collar choke (gi), and guillotine choke. These five form the core closed guard submission system.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "improve_heading",
+      "notes": "Convert submissions heading to question format; transitions data in JSON lists these at high attempt rates"
+    },
+    {
+      "question": "How do you set up the armbar from closed guard?",
+      "answer_snippet": "Break posture, secure a cross-grip on the wrist, bring your knee to their shoulder to break their posture further, swing your leg over the head, and extend the hips for the finish. The key detail is controlling the elbow line throughout.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "dedicated_faq",
+      "notes": "Armbar from Guard is 10% attempt rate in bottom transitions; deserves dedicated FAQ or link to Armbar from Guard transition page"
+    },
+    {
+      "question": "What is the triangle choke from closed guard?",
+      "answer_snippet": "The triangle choke is a blood choke applied by trapping one arm inside and one outside your legs, then squeezing the thigh against your own shin to constrict the carotid arteries. Most commonly set up from closed guard by pushing one arm across.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "improve_heading",
+      "notes": "Convert 'Triangle Choke' heading to 'How Do You Set Up the Triangle Choke from Closed Guard?'"
+    },
+    {
+      "question": "How do you set up submissions from closed guard without telegraphing them?",
+      "answer_snippet": "Chain attacks — threaten the armbar to make them pull back (creating triangle opportunity) and threaten the triangle to make them posture (creating armbar or omoplata). The sweep-submission connection works the same way.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "add_section",
+      "notes": "Advanced combination concept; captured in decision_tree JSON but needs a visible 'Combination Attacks' section"
+    },
+    {
+      "question": "What are the best sweeps from closed guard?",
+      "answer_snippet": "The scissor sweep, hip bump sweep, flower sweep (pendulum), and elevator sweep are the foundational closed guard sweeps. The scissor sweep is typically the first sweep taught to beginners.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "improve_heading",
+      "notes": "Convert 'Sweeps from Closed Guard' heading to 'What Are the Best Sweeps from Closed Guard?'"
+    },
+    {
+      "question": "How does the scissor sweep work in BJJ?",
+      "answer_snippet": "The scissor sweep uses your shin across the opponent's hip and your other leg behind their knee as a scissors lever. You break their posture, create a frame with your shin, and scissor your legs while rolling to the side to topple them.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "dedicated_faq",
+      "notes": "Scissor Sweep is in bottom.transitions at 8% attempt rate; needs dedicated FAQ or link to Scissor Sweep transition page"
+    },
+    {
+      "question": "How do you connect sweeps and submissions from closed guard?",
+      "answer_snippet": "When you threaten an armbar, opponents posture up — making the hip bump sweep available. When you threaten the hip bump, they post — making the kimura or guillotine available. Guard players use this two-way threat system constantly.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "add_section",
+      "notes": "Core strategic concept; add dedicated 'Sweep-Submission Connection' section or link to Principles page"
+    }
+  ],
+  "heading_optimizations": [
+    {
+      "current": "Overview",
+      "suggested": "What Is Closed Guard in BJJ?",
+      "rationale": "Definition question format earns featured snippets; high-volume query for this exact topic"
+    },
+    {
+      "current": "Breaking Posture",
+      "suggested": "How Do You Break Posture in Closed Guard?",
+      "rationale": "Question format matches conversational PAA pattern; posture breaking is prerequisite for all guard attacks"
+    },
+    {
+      "current": "Submissions from Closed Guard",
+      "suggested": "What Are the Best Submissions from Closed Guard?",
+      "rationale": "Best-of framing consistently captures PAA placement for technique comparison queries"
+    },
+    {
+      "current": "Sweeps from Closed Guard",
+      "suggested": "What Are the Best Sweeps from Closed Guard?",
+      "rationale": "Parallel structure with submissions heading; best-of format captures evaluative search intent"
+    },
+    {
+      "current": "The Triangle Choke",
+      "suggested": "How Do You Set Up the Triangle Choke from Closed Guard?",
+      "rationale": "How-to format captures instructional search intent; triangle is highest-volume specific submission query"
+    },
+    {
+      "current": "Hip Movement",
+      "suggested": "How Should You Use Your Hips in Closed Guard?",
+      "rationale": "Conversational question format captures beginner-to-intermediate instructional queries"
+    }
+  ],
+  "missing_content_opportunities": [
+    "Add FAQ: 'Is Closed Guard Good for Beginners?' (very high beginner search volume, no explicit answer currently)",
+    "Add section: Grip System breakdown (collar, sleeve, 2-on-1, overhook — no dedicated grips section exists)",
+    "Add section: Hip Mechanics (shrimping, angling, bridging — referenced in key_principles but no dedicated explanation)",
+    "Add section: Sweep-Submission Connection concept (two-way threat system; advanced concept with high search demand)",
+    "Add section: Closed Guard in MMA context (ground-and-pound threats, adjusted timing — captures crossover audience)",
+    "Add section: Open Guard vs Closed Guard comparison (natural FAQ; adds internal link to Open Guard pages)",
+    "Add FAQ: 'Why Is It Dangerous to Open Closed Guard from Your Knees?' (very common beginner error with high search volume)",
+    "Add section: Best Closed Guard Passing Techniques (top player perspective; standing guard break, knee slice, torreando)"
+  ],
+  "suggested_new_articles": [
+    {
+      "title": "Scissor Sweep",
+      "category": "Transitions",
+      "rationale": "First sweep taught to beginners; consistently appears in PAA for closed guard queries; strong standalone search volume"
+    },
+    {
+      "title": "Hip Bump Sweep",
+      "category": "Transitions",
+      "rationale": "Connected to armbar/kimura combos; 21% attempt rate in bottom transitions; strong standalone search demand"
+    },
+    {
+      "title": "Guard Passing Fundamentals",
+      "category": "Systems",
+      "rationale": "Top player perspective hub covering standing guard open, knee slice, smash pass, torreando; high search volume from passer's angle"
+    },
+    {
+      "title": "Sweep-Submission Connection",
+      "category": "Principles",
+      "rationale": "Core strategic concept for guard play; distinct enough to be a Principles page explaining the two-way threat system"
+    },
+    {
+      "title": "Closed Guard in MMA",
+      "category": "Systems",
+      "rationale": "BJJ vs MMA context for closed guard is a high-volume adjacent query capturing crossover grappling audience"
+    }
+  ]
+}

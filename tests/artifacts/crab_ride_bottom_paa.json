@@ -1,0 +1,173 @@
+{
+  "article_path": "content/Positions/Crab Ride/Bottom.md",
+  "seed_keyword": "Crab Ride Bottom BJJ",
+  "data_source": "synthesized from codebase content + BJJ domain PAA modeling (DataForSEO MCP unavailable)",
+  "generated": "2026-03-26",
+  "paa_questions": [
+    {
+      "question": "What is the Crab Ride position in BJJ?",
+      "answer_snippet": "The crab ride is a turtle attack position where the top player sits perpendicular to the bottom player's spine, establishing one hook under the hip while maintaining chest-to-back pressure. It is a transitional gateway to back control.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "improve_heading",
+      "notes": "Convert 'Position Definition' heading to 'What Is the Crab Ride Position in BJJ?'"
+    },
+    {
+      "question": "How do you escape the Crab Ride in BJJ?",
+      "answer_snippet": "Escaping crab ride requires stripping the inserted hook using coordinated hip escape movement and hand-assisted hook removal, while preventing the second hook from being inserted and recovering guard (typically half guard or butterfly guard).",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "improve_heading",
+      "notes": "Convert 'Key Defensive Principles' heading to 'How Do You Escape the Crab Ride in BJJ?'"
+    },
+    {
+      "question": "What is the first thing to do when caught in Crab Ride Bottom?",
+      "answer_snippet": "The immediate priority is protecting your neck by tucking your chin and keeping elbows tight, then blocking the second hook insertion before it is established. Passive turtle defense rapidly deteriorates.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "dedicated_faq",
+      "notes": "Surface from knowledge assessment Q1 into a visible FAQ entry"
+    },
+    {
+      "question": "How do you prevent back control from Crab Ride Bottom?",
+      "answer_snippet": "Keep the far leg actively kicking to block the second hook, use frames on the opponent's chest and arms to prevent consolidation, and explode into a hip escape or Granby roll before both hooks are established.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "improve_heading",
+      "notes": "Convert 'Decision Making from This Position' heading to 'How Do You Prevent Back Control from Crab Ride?'"
+    },
+    {
+      "question": "What is a Granby Roll and when should you use it from Crab Ride?",
+      "answer_snippet": "The Granby Roll is an inversion-based escape where the bottom player rolls through under the opponent's control, using shoulder rotation and hip momentum to recover guard. Best used when the opponent shifts their weight forward or reaches for the second hook.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "add_section",
+      "notes": "Granby Roll is 21% attempt rate in transition data but has no step-by-step section on Bottom.md — highest priority gap"
+    },
+    {
+      "question": "What is the sit-out escape and how do you do it from Crab Ride?",
+      "answer_snippet": "The sit-out is a wrestling-based escape where the bottom player explosively sits through toward the hooked side, using the hip switch to clear the hook and create a scramble. Most effective when the opponent's upper body control is loose.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "add_section",
+      "notes": "Sit-out listed at ~10% attempt rate in data; no dedicated technique explanation on Bottom.md"
+    },
+    {
+      "question": "What is the Peterson Roll and how does it apply to Crab Ride Bottom?",
+      "answer_snippet": "The Peterson Roll is a wrestling reversal where the bottom player grips the opponent's far wrist and rolls over their near shoulder, using the opponent's committed forward weight against them. Best when the opponent posts their far arm.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "add_section",
+      "notes": "Peterson Roll listed at ~8% attempt rate; variant data exists in transition JSON but absent from Bottom.md"
+    },
+    {
+      "question": "What happens if you get flattened to your stomach from Crab Ride Bottom?",
+      "answer_snippet": "Once flattened, immediately turn to your side toward the hooked leg (not away), frame strongly with both arms, and work your bottom knee underneath you. Trying to muscle straight back to turtle while opponent has full weight is the worst response.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "dedicated_faq",
+      "notes": "Covered in JSON knowledge assessment Q7 but not surfaced as a visible section in Bottom.md"
+    },
+    {
+      "question": "How do you strip the hook in Crab Ride Bottom?",
+      "answer_snippet": "Cup the opponent's ankle or heel from the inside with your same-side hand and push it toward the mat and away from your hip crease, simultaneously driving your hips explosively away from the hooked side. Never fight the hook with arm strength alone.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "dedicated_faq",
+      "notes": "Critical mechanic buried in knowledge assessment Q5; needs a visible 'How to Strip the Hook' callout"
+    },
+    {
+      "question": "What counter-attacks can you do from Crab Ride Bottom?",
+      "answer_snippet": "Advanced counter-attack options include a rolling back take reversal when the opponent over-commits weight forward, single-leg attacks when their far leg becomes exposed during second hook insertion, and a sit-out reversal timed with grip changes.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "add_section",
+      "notes": "Only covered in knowledge assessment Q6; needs a dedicated 'Counter-Attacks from Crab Ride Bottom' section"
+    },
+    {
+      "question": "How do you manage energy when defending Crab Ride in BJJ?",
+      "answer_snippet": "Defend actively while waiting for specific triggers (grip changes, weight shifts) rather than fighting continuously. Three fully committed escape attempts with recovery between are more effective than ten half-efforts.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "dedicated_faq",
+      "notes": "Strategic insight buried in knowledge assessment Q8; valuable for intermediate students as FAQ callout"
+    },
+    {
+      "question": "What is the difference between Crab Ride, Truck, and Cross Body Ride?",
+      "answer_snippet": "Crab Ride uses one hook with perpendicular alignment targeting the back; the Truck (Twister system) involves a deep hook with spinal twisting potential; Cross Body Ride is a similar perpendicular turtle attack with different hip control mechanics. All are turtle attack variants.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "add_section",
+      "notes": "No comparative section exists; a 'Related Turtle Attack Positions' block would answer this and strengthen internal linking"
+    }
+  ],
+  "heading_optimizations": [
+    {
+      "current": "Position Definition",
+      "suggested": "What Is the Crab Ride Bottom Position?",
+      "rationale": "Matches exact question format for PAA eligibility and featured snippet capture"
+    },
+    {
+      "current": "Key Defensive Principles",
+      "suggested": "How Do You Defend Crab Ride Bottom in BJJ?",
+      "rationale": "Conversational query pattern with high search intent for defensive technique"
+    },
+    {
+      "current": "Decision Making from This Position",
+      "suggested": "What Should You Do When Caught in Crab Ride Bottom?",
+      "rationale": "Matches first-person situational query format common in PAA boxes"
+    },
+    {
+      "current": "Common Defensive Mistakes",
+      "suggested": "What Are the Most Common Mistakes When Defending Crab Ride?",
+      "rationale": "Mistakes-format headings consistently earn featured snippets for technique content"
+    },
+    {
+      "current": "Training Drills for Defense",
+      "suggested": "How Do You Train to Escape Crab Ride in BJJ?",
+      "rationale": "Action-oriented question heading captures training-focused search intent"
+    },
+    {
+      "current": "Success Rates and Statistics",
+      "suggested": "How Often Do Escapes Succeed from Crab Ride Bottom?",
+      "rationale": "Statistical question format earns featured snippet placement for data-rich answers"
+    }
+  ],
+  "missing_content_opportunities": [
+    "Add section: Granby Roll step-by-step execution (21% attempt rate, high search volume, no current explanation)",
+    "Add section: Sit-Out Escape mechanics (~10% attempt rate, wrestling-heritage technique with standalone search demand)",
+    "Add section: Peterson Roll from Crab Ride (~8% attempt rate, no execution guide on page)",
+    "Add section: Counter-Attacks from Crab Ride Bottom (rolling back take reversal, single-leg attacks)",
+    "Add FAQ: 'What Is the First Thing to Do When Caught in Crab Ride?' (immediate action priority)",
+    "Add FAQ: 'How Do You Strip the Hook in Crab Ride?' (core mechanic, currently buried in Q&A)",
+    "Add FAQ: 'What to Do If You Get Flattened from Crab Ride Bottom?' (recovery scenario)",
+    "Add section: Related Turtle Attack Position comparison (Crab Ride vs Truck vs Cross Body Ride)"
+  ],
+  "suggested_new_articles": [
+    {
+      "title": "Granby Roll",
+      "category": "Transitions",
+      "rationale": "High-volume standalone search; fundamental inversion escape applicable across many positions beyond Crab Ride"
+    },
+    {
+      "title": "How to Escape Turtle Position in BJJ",
+      "category": "Systems",
+      "rationale": "Hub article covering all turtle escapes (crab ride, cross body ride, direct back takes) with high informational search volume"
+    },
+    {
+      "title": "Wrestling Escapes in BJJ: Sit-Out, Peterson Roll, and Stand-Up",
+      "category": "Systems",
+      "rationale": "Groups wrestling-heritage escapes that BJJ practitioners search for independently; captures crossover audience"
+    },
+    {
+      "title": "Crab Ride vs Truck vs Cross Body Ride",
+      "category": "Principles",
+      "rationale": "Comparative article with high informational intent; differentiating turtle attack positions is a common beginner question"
+    },
+    {
+      "title": "How to Prevent Back Control in BJJ",
+      "category": "Systems",
+      "rationale": "Defensive hub connecting crab ride defense, turtle defense, and early back exposure prevention; broad search demand"
+    }
+  ]
+}

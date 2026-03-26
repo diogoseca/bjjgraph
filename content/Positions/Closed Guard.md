@@ -4,7 +4,7 @@
 
 ---
 title: "Closed Guard | BJJ Position Guide | BJJ Graph"
-description: "Master the closed guard in BJJ. Complete strategic guide to bottom player offensive control and top player defensive posture, guard opening, and passing."
+description: "Master closed guard in BJJ: offensive sweeps, submissions, guard retention, posture defense, and systematic guard opening. Complete top and bottom guide."
 ---
 
 
@@ -24,11 +24,11 @@ description: "Master the closed guard in BJJ. Complete strategic guide to bottom
 
 Closed Guard represents one of the most fundamental and strategically complex positions in Brazilian Jiu-Jitsu, where the bottom player wraps their legs around the opponent's waist with ankles locked behind the back. This position creates a unique strategic dynamic where the bottom player, despite being underneath, possesses significant control and offensive capability while the top player, despite being on top, finds themselves in a fundamentally defensive position requiring systematic escape.
 
-The closed guard exemplifies BJJ's core principle of using leverage and technique to overcome positional disadvantage. From the bottom perspective, the closed guard serves as both a defensive barrier preventing advancement and an offensive platform for sweeps, submissions, and transitions. The locked legs create a closed kinetic chain that allows control of the opponent's hips while threatening their upper body, forcing them to defend multiple attack vectors simultaneously.
+The closed guard exemplifies BJJ's core principle of using leverage and technique to overcome positional disadvantage. From the bottom perspective, the closed guard serves as both a defensive barrier preventing advancement and an offensive platform for sweeps such as the [[Transitions/Hip Bump Sweep]] and [[Transitions/Scissor Sweep]], submissions, and transitions. The locked legs create a closed kinetic chain that allows control of the opponent's hips while threatening their upper body, forcing them to defend multiple attack vectors simultaneously.
 
-From the top perspective, closed guard presents a challenging defensive scenario where maintaining posture, fighting grips, and working toward guard opening become essential survival skills before any passing attempts can succeed. The position tests fundamental concepts of base, balance, and defensive awareness while under constant submission and sweep threats.
+From the top perspective, closed guard presents a challenging defensive scenario where maintaining posture, fighting grips, and working toward guard opening become essential survival skills before any passing attempts can succeed. The position tests fundamental concepts of base, balance, and defensive awareness while under constant submission and sweep threats from [[Submissions/Armbar from Guard]], [[Transitions/Triangle from Guard]], and [[Transitions/Pendulum Sweep]] — all accessible from bottom closed guard.
 
-The closed guard's versatility across gi and no-gi competition, its effectiveness in self-defense scenarios, and its presence at all skill levels from white belt through black belt make it arguably the most studied position in grappling. Understanding both perspectives - the bottom player's offensive control system and the top player's defensive escape progression - is essential for complete positional mastery. This position serves as the foundation for countless advanced guard systems and remains relevant even as modern leg entanglement and dynamic guard systems have evolved the sport.
+The closed guard's versatility across gi and no-gi competition, its effectiveness in self-defense scenarios, and its presence at all skill levels from white belt through black belt make it arguably the most studied position in grappling. Understanding both perspectives - the bottom player's offensive control system and the top player's defensive escape progression via [[Positions/Open Guard]] or [[Positions/Side Control]] - is essential for complete positional mastery. This position serves as the foundation for countless advanced guard systems including [[Positions/Rubber Guard]] and [[Positions/Spider Guard]] and remains relevant even as modern leg entanglement and dynamic guard systems have evolved the sport.
 
 </section>
 
