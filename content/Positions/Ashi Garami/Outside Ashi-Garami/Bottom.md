@@ -157,11 +157,11 @@ description: "Master Outside Ashi-Garami Bottom in BJJ. Complete guide covering 
 
 <section id="overview" class="content-section">
 
-Outside Ashi-Garami Bottom is a leg entanglement position where you control your opponent's right leg from the outside while on your back or side, with your legs creating a figure-4 configuration that isolates and controls their leg. This position is foundational in modern leg lock systems, particularly in no-gi and submission-only formats, offering multiple heel hook and ankle lock opportunities.
+**Outside Ashi-Garami Bottom** is an offensive leg entanglement position where you control your opponent's right leg from the outside while on your back or side, with your legs creating a figure-4 configuration that isolates and controls their leg. This position is foundational in modern leg lock systems, particularly in no-gi and submission-only formats, offering immediate access to [[Transitions/Outside Heel Hook|outside heel hooks]] and [[Transitions/Straight Ankle Lock|ankle locks]].
 
-The position is characterized by your outside leg (left leg) crossing over their thigh while your inside leg (right leg) triangles underneath their knee, creating a locked configuration. Your upper body is typically perpendicular or angled to your opponent, with grips controlling their leg and preventing their hip rotation.
+The position is characterized by your outside leg (left leg) crossing over their thigh while your inside leg (right leg) triangles underneath their knee, creating a locked configuration. Your upper body is typically perpendicular or angled to your opponent, with grips controlling their leg and preventing their hip rotation through the [[Transitions/Inside Ashi Entry|inside ashi entry]] when they attempt escape.
 
-From this position, the practitioner has access to outside heel hooks, straight ankle locks, and transitions to more dominant leg entanglements. The position represents a neutral starting point in the leg entanglement game where both practitioners are working to improve their position or finish submissions. Understanding outside ashi is essential for modern no-gi competition, as it serves as the gateway to more advanced leg lock positions like saddle and inside ashi.
+From this position, the practitioner has access to [[Transitions/Outside Heel Hook|outside heel hooks]], [[Transitions/Straight Ankle Lock|straight ankle locks]], and transitions to more dominant leg entanglements. The position represents a neutral starting point in the leg entanglement game where both practitioners work to improve position or finish submissions. Understanding outside ashi is essential for modern no-gi competition, as it serves as the gateway to more advanced leg lock positions like [[Positions/Saddle]] and [[Positions/Inside Ashi-Garami]].
 
 </section>
 

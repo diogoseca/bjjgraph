@@ -157,11 +157,11 @@ description: "Master Outside Ashi-Garami Top defense in BJJ. Complete guide cove
 
 <section id="overview" class="content-section">
 
-Outside Ashi-Garami Top is the defensive counterpart to Outside Ashi-Garami Bottom, where your right leg is trapped in your opponent's outside leg entanglement while you are on top or in a more elevated position. This is generally considered a disadvantageous position requiring immediate defensive action to prevent heel hooks or ankle locks and to extract your leg from the entanglement.
+**Outside Ashi-Garami Top** is the defensive counterpart to Outside Ashi-Garami Bottom, where your right leg is trapped in your opponent's outside leg entanglement while you are on top or in a more elevated position. This is a high-risk position requiring immediate defensive action to prevent [[Transitions/Outside Heel Hook|heel hooks]] or [[Transitions/Straight Ankle Lock|ankle locks]] and to extract your leg from the entanglement.
 
-In this position, your opponent has their legs configured in a figure-4 around your right leg, with their outside leg (left) crossing over your thigh and their inside leg (right) triangling under your knee. Your primary objectives are to prevent your hip from being controlled (stopping external rotation), extract your trapped leg, and either pass to a dominant position or establish your own leg entanglement.
+In this position, your opponent has their legs configured in a figure-4 around your right leg, with their outside leg (left) crossing over your thigh and their inside leg (right) triangling under your knee. Your primary objectives are to prevent your hip from being controlled (stopping external rotation), extract your trapped leg, and either pass to a dominant position or establish your own leg entanglement such as [[Positions/Inside Ashi-Garami]] or [[Positions/Saddle]].
 
-This position represents a defensive challenge where understanding leg lock mechanics, maintaining proper posture, and executing timely escapes are critical to preventing submission and recovering advantageous position. The key to success lies in maintaining calm composure under submission threat while systematically working through escape sequences that protect the heel and create extraction opportunities.
+This position represents a defensive challenge where understanding leg lock mechanics, maintaining proper posture, and executing timely escapes are critical to preventing submission and recovering advantageous position. The key to success lies in maintaining calm composure under submission threat while systematically working through the [[Transitions/Ashi Garami Escape]] sequence that protects the heel and creates extraction opportunities.
 
 </section>
 
