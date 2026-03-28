@@ -1,0 +1,129 @@
+{
+  "article_path": "content/Positions/Ashi Garami/50-50 Guard.json",
+  "seed_keyword": "50-50 Guard",
+  "data_source": "knowledge-based PAA analysis (DataForSEO unavailable; WebSearch permission not granted)",
+  "paa_questions": [
+    {
+      "question": "What is the 50-50 guard in BJJ?",
+      "answer_snippet": "The 50-50 guard is a leg entanglement position where both practitioners have their legs intertwined in a mirrored configuration, each with one leg across the opponent's hip line. Named for its theoretically equal positioning, it offers both submission opportunities and can lead to stalemates.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "improve_heading",
+      "notes": "Current overview answers this but no H2 directly maps to the question. Add 'What is the 50-50 Guard in BJJ?' as the first H2 or ensure the intro paragraph answers it in the first 2 sentences (position zero optimization)."
+    },
+    {
+      "question": "How do you escape the 50-50 position in BJJ?",
+      "answer_snippet": "Escaping 50-50 requires hiding your heel first, matching inside position control, then choosing between leg extraction to standing, sweeping to top, or transitioning to Single Leg X-Guard. The key is honest assessment of inside position within 3-5 seconds.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "add_section",
+      "notes": "Bottom role page covers escape well in knowledge_assessment, but no dedicated FAQ section on escapes exists in the hub page. Add a concise 'How to Escape 50-50 Guard' section to the hub."
+    },
+    {
+      "question": "Is the 50-50 guard legal in IBJJF competitions?",
+      "answer_snippet": "The position itself is legal in IBJJF. However, certain submissions from it—particularly heel hooks—are restricted by belt level. Straight ankle locks are allowed at most belts; heel hooks are restricted to brown/black belt in no-gi. Understanding ruleset specifics is crucial.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "add_section",
+      "notes": "No ruleset/legality section exists in the current JSON. This is a very high-volume PAA question. Add a 'Competition Rules for 50-50 Guard' section addressing IBJJF, ADCC, and EBI/submission-only rulesets."
+    },
+    {
+      "question": "Why is 50-50 considered a stalling position?",
+      "answer_snippet": "50-50's symmetrical structure can lead to neither competitor making progress if both play passively, prompting referee standup calls. Traditional competitors view it as stalling; modern leg lock specialists see it as a highly technical position requiring constant active engagement.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "improve_heading",
+      "notes": "The overview mentions this debate but framing it as a direct FAQ heading ('Why do referees stand up the 50-50 guard?') would capture this PAA directly."
+    },
+    {
+      "question": "What is the difference between 50-50 and ashi garami?",
+      "answer_snippet": "Ashi garami (single leg X / inside ashi) controls one leg with asymmetric entanglement, giving the attacker a clear positional advantage. 50-50 is the symmetric version where both fighters mirror each other's leg positions, creating equal theoretical access to attacks.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "add_section",
+      "notes": "The related_positions field lists Inside Ashi-Garami and Outside Ashi-Garami but no explicit comparison section exists. A 'Ashi Garami vs 50-50: Key Differences' section would capture this PAA and drive internal links."
+    },
+    {
+      "question": "How do you get inside position in 50-50 guard?",
+      "answer_snippet": "Inside position in 50-50 is achieved by threading your leg inside your opponent's leg structure so your shin or calf presses against the inside angle of their leg. Entry timing is critical—establish inside control immediately upon entering the entanglement, before opponent can match it.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "improve_heading",
+      "notes": "Covered in key_principles but deserves a dedicated FAQ heading like 'How to Win the Inside Position Battle in 50-50' to match search intent."
+    },
+    {
+      "question": "What heel hooks can you do from 50-50?",
+      "answer_snippet": "Both inside and outside heel hooks are available from 50-50 guard depending on your inside position and grip configuration. Inside heel hook is the primary attack when you hold inside position; outside heel hook targets the far heel when opponent exposes it.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "dedicated_faq",
+      "notes": "Submission entries are covered in transitions but no standalone FAQ on 'heel hooks from 50-50' exists. Create a dedicated section to capture this high-volume query."
+    },
+    {
+      "question": "How do you get out of 50-50 heel hook?",
+      "answer_snippet": "When caught in a heel hook from 50-50: immediately rotate your knee inward toward your opposite hip to reduce rotational pressure, use two-on-one grip fighting to strip their heel control, and either complete the escape via leg extraction or tap early to prevent knee damage.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "add_section",
+      "notes": "Heel hook defense is in the bottom role's knowledge_assessment but the hub page has no 'How to Defend the Heel Hook from 50-50' section. This is a safety-critical, high-traffic query."
+    },
+    {
+      "question": "Who popularized the 50-50 guard in BJJ?",
+      "answer_snippet": "The 50-50 guard was popularized primarily by the Mendes brothers (Rafa and Gui) who used it as a guard retention and leg attack platform. Later, the Danaher Death Squad and practitioners like Gordon Ryan, Garry Tonon, and Craig Jones elevated its leg lock system significantly.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "add_section",
+      "notes": "No historical/origin context section exists. A brief 'History and Origins of 50-50 Guard' section adds EAT (Expertise, Authoritativeness, Trustworthiness) signals."
+    },
+    {
+      "question": "What is the honey hole position in BJJ?",
+      "answer_snippet": "The honey hole (also called saddle or inside sankaku) is a leg entanglement where the attacker controls both of the opponent's legs in a figure-four configuration, providing superior heel hook angles compared to standard 50-50. It is a primary advancement target from 50-50.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "improve_heading",
+      "notes": "Honey Hole is listed as a related position but no explanation of why it's the primary advancement target is given on the hub page. This is a very common PAA followup from 50-50 searches."
+    },
+    {
+      "question": "How do you score points in 50-50 under IBJJF rules?",
+      "answer_snippet": "The 50-50 position itself is worth 0 points under IBJJF rules. Points are scored only upon advancing to a dominant position (e.g., taking the back for 4 points, mount for 4 points). This contributes to the stalling reputation of the position.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "add_section",
+      "notes": "The state_properties.point_value field shows 0 but the generated hub page doesn't explain WHY it's 0 or how to score from it. Add a scoring/competition context FAQ."
+    },
+    {
+      "question": "What is the back take from 50-50?",
+      "answer_snippet": "The back take from 50-50 involves releasing the leg entanglement while circling behind the opponent to establish seat belt grip and hooks. It is a primary exit when leg attacks are defended, converting the neutral 0-point position into a 4-point back control.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "dedicated_faq",
+      "notes": "Listed as a transition in the top role but no FAQ-style explanation exists on the hub page. Dedicated FAQ entry would help capture 'back take from 50-50' searches."
+    }
+  ],
+  "heading_optimizations": [
+    {
+      "current": "Overview",
+      "suggested": "What is the 50-50 Guard in BJJ?",
+      "rationale": "Conversational question heading matches PAA format and positions for featured snippet / position zero"
+    },
+    {
+      "current": "Key Principles",
+      "suggested": "How to Master the 50-50 Guard: 6 Key Principles",
+      "rationale": "Number + action phrase increases CTR and matches 'how to' PAA patterns"
+    },
+    {
+      "current": "Related Positions",
+      "suggested": "50-50 Guard: Related Positions and Transitions",
+      "rationale": "Adds keyword context to what is currently a bare structural heading"
+    }
+  ],
+  "missing_content_opportunities": [
+    "Add section: 'Is the 50-50 Guard Legal in IBJJF / Competition?' (belt-level submission legality breakdown)",
+    "Add section: 'How to Escape the 50-50 Guard' (summary of bottom role escape logic on hub page)",
+    "Add section: 'Ashi Garami vs 50-50 Guard: Key Differences' (drives internal links to both position families)",
+    "Add section: 'How to Defend the Heel Hook from 50-50' (safety-critical, high search volume)",
+    "Add section: 'History and Origins of 50-50 Guard in BJJ' (EAT signals, named practitioners)",
+    "Add FAQ: 'What does 50-50 mean in BJJ?' (definitional query, position zero target)",
+    "Add FAQ: 'How do you score from the 50-50 position?' (common competition question)"
+  ]
+}
