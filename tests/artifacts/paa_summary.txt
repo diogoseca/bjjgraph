@@ -1,0 +1,117 @@
+PAA SEO Analysis Summary
+========================
+Generated: 2026-04-01
+Articles analyzed: 2
+Data source: Training-knowledge synthesis (DataForSEO MCP unavailable at run time — verify with live SERP before publishing)
+
+================================================================
+TOTALS
+================================================================
+Total PAA questions found:          24 (12 per article)
+High-priority questions:            13
+Medium-priority questions:          9
+Low-priority questions:             2
+Total heading optimizations:        8
+Total missing content opportunities: 13
+
+================================================================
+ARTICLE 1: Buggy Choke Top
+  Path: content/Positions/Buggy Choke/Top.md
+  Seed keyword: Buggy Choke Top BJJ
+================================================================
+
+PAA Questions (12 total):
+  HIGH PRIORITY (6):
+    - What is the buggy choke in BJJ?                              → improve_heading
+    - How do you set up the buggy choke from top position?         → dedicated_faq
+    - What positions can you transition to from buggy choke?       → dedicated_faq
+    - What is the success rate of the buggy choke in competition?  → improve_heading
+    - What are common mistakes when attempting the buggy choke?    → improve_heading
+    - How do you chain buggy choke with back takes?                → dedicated_faq
+
+  MEDIUM PRIORITY (5):
+    - What is the difference between buggy choke and D'Arce choke? → add_section
+    - Is the buggy choke legal in all BJJ competitions?            → dedicated_faq
+    - Who invented the buggy choke?                               → add_section
+    - How do you defend against the buggy choke?                  → add_section
+    - Can you hit the buggy choke in no-gi BJJ?                   → dedicated_faq
+
+  LOW PRIORITY (1):
+    - Is buggy choke better for gi or no-gi?                      → add_section
+
+Content Gaps Identified (6):
+  1. Origin/history section (Buggy Judice attribution)
+  2. Gi vs no-gi grip configuration differences
+  3. Defender's perspective section (helps attacker understand counters)
+  4. Buggy choke vs D'Arce comparison table
+  5. Competition legality FAQ entry
+  6. Named "buggy choke to back control" cluster for internal linking
+
+================================================================
+ARTICLE 2: Outside Ashi-Garami Bottom
+  Path: content/Positions/Ashi Garami/Outside Ashi-Garami/Bottom.md
+  Seed keyword: Outside Ashi-Garami Bottom BJJ
+================================================================
+
+PAA Questions (12 total):
+  HIGH PRIORITY (7):
+    - What is outside ashi garami in BJJ?                               → improve_heading
+    - What is the difference between ashi garami and outside ashi?      → dedicated_faq
+    - How do you finish an outside heel hook from outside ashi garami?  → dedicated_faq
+    - Is outside ashi garami legal in BJJ competitions?                 → dedicated_faq
+    - How do you escape or defend outside ashi garami?                  → add_section
+    - How dangerous is the outside heel hook?                           → add_section
+    - What are common mistakes beginners make in outside ashi garami?   → improve_heading
+
+  MEDIUM PRIORITY (5):
+    - What submissions can you attack from outside ashi garami?          → improve_heading
+    - How do you enter outside ashi garami?                              → add_section
+    - What is the 'saddle' position and how does it relate?             → dedicated_faq
+    - How do you maintain control in outside ashi garami?               → improve_heading
+    - When should you transition from outside ashi to inside ashi?      → dedicated_faq
+
+Content Gaps Identified (7):
+  1. CRITICAL: Safety section for outside heel hook injury risk (required per Content.md standards for submissions)
+  2. Defender's perspective section for outside ashi escape
+  3. Entry sequences section (most-searched entry question has no dedicated section)
+  4. Gi vs no-gi legality breakdown
+  5. Competition legality FAQ entry with ruleset specifics
+  6. Outside vs inside ashi garami comparison
+  7. Role label clarification ("Bottom" = physically-on-bottom attacker, not defending)
+
+================================================================
+CONTENT GAP ANALYSIS — SUGGESTED NEW ARTICLES
+================================================================
+
+High-value new article opportunities identified from PAA clustering:
+
+1. "Buggy Choke vs D'Arce Choke: When to Choose Each from Turtle Top"
+   → Targets comparison queries; bridges two existing pages (Buggy Choke Top, Darce Control)
+   → Suggested path: content/Principles/Buggy-vs-Darce-from-Turtle.md
+
+2. "Outside Ashi-Garami Entry Sequences: How to Get There"
+   → Dedicated entries article; the position page assumes prior knowledge
+   → Suggested path: content/Transitions/Outside Ashi Entry.md (if not already exists)
+
+3. "Outside Heel Hook Safety Guide: Injury Risks, Tap Protocols, Training Guidelines"
+   → Required by Content.md standards for submission safety; also answers high-priority PAA query
+   → Suggested path: content/Submissions/Outside Heel Hook.md (check if exists first)
+
+4. "Ashi Garami Variations Compared: Inside vs Outside vs Saddle vs Cross Ashi"
+   → Hub comparison article; targets high-volume definitional + comparison queries
+   → Suggested path: content/Positions/Ashi Garami.md (check/update existing hub)
+
+================================================================
+NOTES FOR CONTENT BOT / FUTURE RUNS
+================================================================
+- DataForSEO MCP (`mcp__dataforseo__serp_organic_live_advanced`) was not available at run time.
+  All PAA questions are synthesized from training knowledge. Confidence is HIGH for technique
+  questions but MEDIUM for exact Google PAA phrasing. Re-run with live DataForSEO when available.
+
+- Outside Ashi-Garami Bottom page is MISSING a mandatory safety section per Content.md rules
+  (submissions require Safety Notice, injury risks, tap signals, release protocol). Flag for
+  immediate fix in next content bot run.
+
+- Both articles would benefit from question-format H2 headings to improve PAA box eligibility.
+  Current headings ("Position Definition", "Key Principles") are generic and unlikely to rank
+  in PAA boxes.
