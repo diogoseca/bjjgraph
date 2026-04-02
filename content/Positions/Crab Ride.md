@@ -4,7 +4,7 @@
 
 ---
 title: "Crab Ride | BJJ Position Guide | BJJ Graph"
-description: "Master Crab Ride position in BJJ. Strategic guide covering turtle attack entries, back control pathways, and submission setups with complete perspective analysis."
+description: "What is the Crab Ride in BJJ? Complete guide to this turtle attack — back takes, leg lock entries, gi and no-gi rules, escapes, and wrestling origins explained."
 ---
 
 
@@ -27,6 +27,12 @@ Crab Ride is a highly effective transitional position from turtle where the top 
 Crab Ride represents one of the most systematic approaches to attacking turtle, particularly valued in modern no-gi grappling where turtle positions are commonly encountered during scrambles and guard passing sequences. The position allows for excellent control while preserving multiple offensive pathways, creating the type of positional dilemma that forces opponents into defensive errors. Unlike direct back attacks that can be telegraphed, Crab Ride provides a methodical framework for breaking down turtle defense through calculated pressure and strategic hooking.
 
 From the defensive perspective, Crab Ride Bottom is a high-pressure situation that requires immediate action and technical precision. The bottom player must balance multiple defensive priorities - protecting the neck from chokes, preventing the second hook from being inserted, and maintaining base to avoid being flattened. Understanding the mechanics of hook removal and hip positioning is essential for survival, as this position often represents a transitional state rather than a sustainable position. Advanced practitioners can even counter-attack from this seemingly disadvantageous position, using the top player's commitment to the ride as an opportunity for reversals or leg attacks.
+
+Historically, the crab ride traces its roots to folkstyle and collegiate wrestling, where it was used to score tilt points by leveraging the leg hook to expose an opponent's back. In modern submission grappling and no-gi BJJ, the same framework was adopted and expanded within the Danaher Death Squad training system - with practitioners including Gordon Ryan, Craig Jones, and Lachlan Giles integrating it as a premier no-gi entry to heel hook attacks via the inside leg lace. This crossover from wrestling to submission grappling illustrates how the position's fundamental mechanics translate across rulesets with different finishing priorities, making it a versatile tool for competitors at all levels.
+
+An important consideration for competitive practitioners: the crab ride position itself is universally legal across all major rulesets, including gi BJJ under IBJJF rules. However, the leg entanglement attacks flowing from it - particularly heel hooks via the inside leg lace - are restricted in IBJJF competition at white, blue, and purple belt. The crab ride remains fully legal as a control and back-take platform at all belt levels; only the submission entries from the leg entanglement carry ruleset restrictions. In no-gi and submission-only formats, the full attack tree including heel hooks is available, which is why crab ride is considered especially high-percentage in those competitive contexts.
+
+Understanding the relationship between the crab ride and the leg lace is essential for modern practitioners. The crab ride describes the overall positional framework - a side-on turtle attack with an inside leg hook. The leg lace is the specific inside leg entanglement configuration within that framework that enables heel hook entries. When you establish crab ride control, you simultaneously have access to back take pathways (the primary attack) and leg entanglement entries via leg lace - this dual threat creates a positional dilemma that makes the position exceptionally difficult to defend in no-gi competition.
 
 </section>
 

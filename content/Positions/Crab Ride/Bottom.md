@@ -4,7 +4,7 @@
 
 ---
 title: "Crab Ride Bottom | BJJ Position Guide | BJJ Graph"
-description: "Master Crab Ride Bottom defense in BJJ. Complete guide covering hook stripping, explosive escapes, and counter-attacks. High-pressure defensive position requiring immediate action."
+description: "How to escape the Crab Ride in BJJ. Hook stripping, Granby Roll, sit-out, and counter-attacks from this high-pressure defensive turtle position. Immediate action required."
 ---
 
 
@@ -115,7 +115,7 @@ description: "Master Crab Ride Bottom defense in BJJ. Complete guide covering ho
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Crab Ride Bottom",
-  "description": "Master Crab Ride Bottom defense in BJJ. Complete guide covering hook stripping, explosive escapes, and counter-attacks. High-pressure defensive position requiring immediate action.",
+  "description": "How to escape the Crab Ride in BJJ. Hook stripping, Granby Roll, sit-out, and counter-attacks from this high-pressure defensive turtle position. Immediate action required.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -162,6 +162,8 @@ Crab Ride Bottom is a defensive position where you find yourself on all fours in
 From the bottom perspective, Crab Ride is a high-pressure defensive position that requires immediate action. Unlike traditional turtle where both players may be relatively static, Crab Ride Bottom involves dynamic movement as the top player actively works to complete the back take or advance to other controlling positions. The bottom player's primary objectives are to prevent the second hook from being inserted, strip the existing hook, and create separation to escape or re-guard. Understanding the mechanics of hook removal and hip positioning is essential for survival in this position.
 
 Strategically, Crab Ride Bottom is often a transitional state rather than a sustainable position. The bottom player must balance defensive priorities - protecting the neck from chokes, preventing the second hook, and maintaining base to avoid being flattened. Successful defense requires combining technical precision with explosive movement, as small windows of opportunity emerge when the top player adjusts their grips or shifts weight to improve position. Advanced practitioners can even counter-attack from this seemingly disadvantageous position, using the top player's commitment to the ride as an opportunity for reversals or leg attacks.
+
+The primary escape pathways from crab ride bottom each exploit different mechanical vulnerabilities in the top player's control. The Granby roll capitalizes on the top player's forward weight commitment, using their momentum to roll through and recover guard. The sit-out exploits transitional moments when the top player adjusts grips or repositions their base. The hip escape targets windows when the inserted hook becomes momentarily shallow during the top player's adjustments. The Peterson Roll - a direct wrestling counter - works when the top player over-commits their weight to one side, creating a reversal opportunity from the defensive position. Recognizing which window is opening in real time, and committing to the appropriate escape before the opportunity closes, is the core skill of defending crab ride bottom.
 
 </section>
 

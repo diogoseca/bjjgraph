@@ -1,0 +1,129 @@
+{
+  "article_path": "content/Positions/Crab Ride.json",
+  "seed_keyword": "Crab Ride BJJ",
+  "paa_questions": [
+    {
+      "question": "What is the crab ride in BJJ?",
+      "answer_snippet": "The crab ride is a turtle control position where the attacking grappler inserts one leg between the opponent's legs (hooking underneath) while wrapping the upper body from the side. It is used to attack the back or set up leg entanglements from the turtle position. It originated in folkstyle/collegiate wrestling.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "dedicated_faq"
+    },
+    {
+      "question": "How do you do the crab ride in BJJ?",
+      "answer_snippet": "From opponent's turtle: (1) drive into their side, (2) insert your inside leg between their legs hooking their far thigh, (3) place your hip on their hip, (4) control their near shoulder or wrist with your upper arm, (5) use the leg lace to tilt them and take the back or enter a leg entanglement.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "dedicated_faq"
+    },
+    {
+      "question": "What attacks can you do from the crab ride?",
+      "answer_snippet": "From the crab ride you can take the back (rolling to rear mount), enter heel hook via inside leg lace, set up ankle locks, transition to the Turk (cross-body leg ride), or force a gut wrench/tilt for wrestling points. It is also a common entry to the crucifix and darce choke.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "improve_heading"
+    },
+    {
+      "question": "How do you escape the crab ride?",
+      "answer_snippet": "Common crab ride escapes: (1) post the far elbow and hip escape away from the hook, (2) sit out hard toward the attacking side, (3) frame against their hip to create space, (4) Granby roll away from the hook, (5) stand up and shake the hook before it is fully established.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "dedicated_faq"
+    },
+    {
+      "question": "What is the difference between crab ride and seatbelt back take?",
+      "answer_snippet": "The crab ride attacks from the side of a turtled opponent using a leg hook (inside leg lace), while a seatbelt back take requires full back exposure with chest-to-back control. The crab ride works specifically when the opponent is turtled and denying rear access.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "add_section"
+    },
+    {
+      "question": "Is the crab ride legal in gi BJJ?",
+      "answer_snippet": "Yes, the crab ride position itself is legal in gi BJJ. However, the leg entanglement attacks flowing from it (particularly heel hooks) are restricted in IBJJF rules at white, blue, and purple belt. The crab ride as a control and back-take tool is universally legal.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "add_section"
+    },
+    {
+      "question": "What is the crab ride in wrestling vs BJJ?",
+      "answer_snippet": "In folkstyle/collegiate wrestling, the crab ride is used to score tilt points by leveraging the leg hook to expose the opponent's back. In BJJ and no-gi grappling, the same position is used as a gateway to back takes and leg lock entries (heel hooks via leg lace).",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "add_section"
+    },
+    {
+      "question": "What is the relationship between crab ride and leg lace?",
+      "answer_snippet": "The crab ride describes the overall positional framework (side-on turtle attack with a leg hook). The leg lace is the specific inside leg entanglement configuration used within the crab ride that enables heel hook entries and back-take finishes.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "dedicated_faq"
+    },
+    {
+      "question": "Who popularized the crab ride in modern BJJ?",
+      "answer_snippet": "The crab ride has collegiate wrestling roots. In modern submission grappling it was popularized in the Danaher Death Squad system by coaches including Lachlan Giles, Gordon Ryan, and Craig Jones, who integrated it as a no-gi leg-lock entry from the turtle.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "add_section"
+    },
+    {
+      "question": "How does crab ride compare to clock choke from turtle?",
+      "answer_snippet": "Clock choke attacks the neck from turtle and is gi-specific, requiring the opponent to remain flat. Crab ride attacks from the side with a leg hook and transitions to back control or leg locks. Crab ride is preferred in no-gi where clock choke is unavailable.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "add_section"
+    },
+    {
+      "question": "Can crab ride be used in MMA?",
+      "answer_snippet": "Yes. The crab ride is used in MMA primarily as a back-take tool from turtle. The leg entanglement follow-ups are less common in MMA due to knockout risk if they fail. The back take from crab ride is the primary goal in an MMA context.",
+      "source_url": null,
+      "priority": "low",
+      "integration_strategy": "add_section"
+    },
+    {
+      "question": "What is the Truck position in BJJ and how does it relate to crab ride?",
+      "answer_snippet": "The Truck (popularized by Eddie Bravo's 10th Planet system) is a related twister-system position with similar leg control mechanics to the crab ride. Both attack from the turtle with leg hooks, but the Truck uses a different leg configuration aimed at twister and calf slicer entries.",
+      "source_url": null,
+      "priority": "low",
+      "integration_strategy": "add_section"
+    }
+  ],
+  "heading_optimizations": [
+    {
+      "current": "Crab Ride",
+      "suggested": "What is the Crab Ride in BJJ? Complete Guide to This Turtle Attack",
+      "rationale": "Matches top PAA question format; 'Complete Guide' signals comprehensive answer for featured snippet"
+    },
+    {
+      "current": "Key Principles",
+      "suggested": "How Does the Crab Ride Work? Core Mechanics and Control Principles",
+      "rationale": "Converts static label into question format matching search intent"
+    },
+    {
+      "current": "Attacks from Crab Ride Top",
+      "suggested": "What Can You Attack from Crab Ride? Back Takes, Submissions, and Transitions",
+      "rationale": "Front-loads the value proposition, matches 'what attacks can you do' PAA query"
+    },
+    {
+      "current": "Crab Ride Escapes",
+      "suggested": "How Do You Escape the Crab Ride? Hook Stripping and Granby Roll Defenses",
+      "rationale": "Direct match to high-priority PAA question; specifics (Granby Roll) help with long-tail ranking"
+    },
+    {
+      "current": "Related Positions",
+      "suggested": "Crab Ride vs Truck, Crucifix, and Other Turtle Attacks: What's the Difference?",
+      "rationale": "Comparison queries ('vs') drive high-intent clicks from practitioners evaluating technique options"
+    }
+  ],
+  "missing_content_opportunities": [
+    "Add FAQ section: 'What is the crab ride?' with direct 2-sentence definition (featured snippet target)",
+    "Add section: Crab ride in gi vs no-gi — rule differences and technique adaptations",
+    "Add section: Crab ride vs Truck — side-by-side comparison for practitioners",
+    "Add section: Crab ride for beginners — when to first learn it in your BJJ journey",
+    "Add section: Crab ride in MMA context — back take focus over leg locks",
+    "Add section: Competition footage examples of crab ride (link to notable matches)",
+    "Add schema FAQ markup targeting top 4 PAA questions",
+    "Add internal links to Leg Lace page (if it exists) and Truck page from crab ride hub"
+  ],
+  "data_source": "Knowledge-based synthesis (web search unavailable in this environment). Validate with live SERP before using for SEO decisions.",
+  "generated_at": "2026-04-02"
+}

@@ -4,7 +4,7 @@
 
 ---
 title: "Crab Ride Top | BJJ Position Guide | BJJ Graph"
-description: "Master Crab Ride Top attacks in BJJ. Complete guide covering back control entries, submission setups, and crucifix transitions. Dominant attacking position with 70% advancement rate."
+description: "How to attack from Crab Ride Top in BJJ. Back take entries, darce and anaconda setups, crucifix transitions, and leg lock entries. 70% advancement rate to Back Control."
 ---
 
 
@@ -115,7 +115,7 @@ description: "Master Crab Ride Top attacks in BJJ. Complete guide covering back 
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Crab Ride Top",
-  "description": "Master Crab Ride Top attacks in BJJ. Complete guide covering back control entries, submission setups, and crucifix transitions. Dominant attacking position with 70% advancement rate.",
+  "description": "How to attack from Crab Ride Top in BJJ. Back take entries, darce and anaconda setups, crucifix transitions, and leg lock entries. 70% advancement rate to Back Control.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -166,6 +166,8 @@ From a biomechanical standpoint, Crab Ride Top leverages the principle of perpen
 The decision tree from Crab Ride Top branches into several high-percentage pathways that create genuine positional dilemmas. When the opponent maintains a strong turtle with tight elbows, the back take through systematic hook insertion is the primary advancement. When they drop their head defensively, darce and anaconda entries become available through the exposed neck. If they extend an arm to post or frame, crucifix transitions present themselves as the arm becomes isolated. This branching attack structure is what makes Crab Ride Top a true dilemma-creating position rather than a single-technique setup, forcing the opponent to choose which threat to defend while leaving other avenues open.
 
 Crab Ride Top is particularly valued in modern no-gi grappling and MMA contexts, where it serves as an essential transitional position between turtle and back control. The position offers high-percentage pathways to the back, crucifix, and various submission attacks, making it a cornerstone of complete turtle attack systems. Training this position effectively requires developing sensitivity to your opponent's weight shifts and defensive reactions, as each defensive movement opens specific offensive pathways and the ability to read these reactions in real time determines your success rate.
+
+The specific back-take and leg-lock patterns used from crab ride top in modern no-gi competition were systematized within the Danaher Death Squad training framework, with Gordon Ryan, Craig Jones, and Lachlan Giles demonstrating their effectiveness at the elite level. Their use of crab ride as both a back-take platform and a leg entanglement entry - particularly for inside heel hooks via the leg lace - has made crab ride top a core component of modern submission grappling systems. In MMA contexts, the back-take application is emphasized over leg lock entries due to the knockout risk if a leg entanglement attempt fails; the back take from crab ride remains the primary MMA objective.
 
 </section>
 
