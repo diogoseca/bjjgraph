@@ -1,0 +1,166 @@
+PAA CONTEXT REPORT - BJJ Graph AI SEO
+Generated: 2026-04-02
+Note: Web search was unavailable in this environment. Data is knowledge-based synthesis
+from training data (cutoff Aug 2025). Validate with live SERP before production use.
+Recommended live queries listed per article below.
+
+===================================================================
+TOTALS
+===================================================================
+Articles processed:       2
+Total PAA questions:      24
+  - High priority:        10  (direct answer needed in content)
+  - Medium priority:      10  (add section or improve heading)
+  - Low priority:          4  (nice-to-have context)
+
+Missing content sections identified:  16
+Heading optimization suggestions:      9
+Schema FAQ markup opportunities:       2 articles
+
+===================================================================
+ARTICLE 1: content/Game Over.md
+Seed keyword: "Game Over BJJ submission"
+===================================================================
+
+PAA QUESTIONS FOUND (12)
+-----------
+HIGH PRIORITY (answer these directly in content):
+  1. What does tapping out mean in BJJ?
+     → Add dedicated FAQ section with 2-sentence direct answer
+  2. What happens when you tap in BJJ?
+     → Add dedicated FAQ section (matches verbatim search query)
+  3. What are the ways a BJJ match can end?
+     → Add section covering: submission, referee stoppage, points, DQ
+  4. What is a verbal tap in BJJ?
+     → Add dedicated FAQ — critical for practitioners with arms trapped
+  5. What happens if you go unconscious from a choke in BJJ?
+     → Add dedicated FAQ — high safety intent, high search volume
+  6. What is the objective of BJJ?
+     → Add dedicated FAQ linking Game Over to the larger BJJ goal
+
+MEDIUM PRIORITY:
+  7. Can you refuse to tap in BJJ? → Add section on referee stoppage
+  8. Is tapping out shameful in BJJ? → Add culture/etiquette section
+  9. What is the most common submission in BJJ competition? → Link to Submissions hub
+ 10. Do submissions count more than points in BJJ? → Add ruleset comparison
+ 11. What BJJ submissions are banned in competition? → Add ruleset section
+
+LOW PRIORITY:
+ 12. How does the BJJ submission graph (game-over state) work? → Site-specific explanation
+
+CONTENT GAPS:
+  - No FAQ section exists on the current Game Over page
+  - Page lacks context about tap-out mechanics and rules
+  - Missing connection to submission safety culture
+  - No schema FAQ markup for featured snippet capture
+  - Page does not explain verbal tap scenarios
+
+LIVE SERP QUERIES TO VALIDATE:
+  "what happens when you tap in BJJ"
+  "verbal tap BJJ rules"
+  "BJJ submission rules IBJJF"
+  "how does a BJJ match end"
+  "most common BJJ submissions"
+
+===================================================================
+ARTICLE 2: content/Positions/Crab Ride.json
+Seed keyword: "Crab Ride BJJ"
+===================================================================
+
+PAA QUESTIONS FOUND (12)
+-----------
+HIGH PRIORITY (answer these directly in content):
+  1. What is the crab ride in BJJ?
+     → Add dedicated FAQ with concise definition (featured snippet target)
+  2. How do you do the crab ride in BJJ?
+     → Add step-by-step numbered instructions in Attacker template
+  3. What attacks can you do from the crab ride?
+     → Improve existing heading to question format; front-load attack list
+  4. How do you escape the crab ride?
+     → Add dedicated FAQ in Defender template (Granby roll, sit-out, etc.)
+  5. Is the crab ride legal in gi BJJ?
+     → Add ruleset section — practitioners actively search this before competing
+
+MEDIUM PRIORITY:
+  6. What is the difference between crab ride and seatbelt back take?
+     → Add comparison section
+  7. What is the crab ride in wrestling vs BJJ?
+     → Add history/origin section (wrestling → no-gi crossover story)
+  8. What is the relationship between crab ride and leg lace?
+     → Add clarification section (overlapping terminology)
+  9. Who popularized the crab ride in modern BJJ?
+     → Add brief history note (DDS/Danaher system attribution)
+ 10. How does crab ride compare to clock choke from turtle?
+     → Expand Related Positions section with comparison notes
+
+LOW PRIORITY:
+ 11. Can crab ride be used in MMA? → Add MMA context note
+ 12. What is the Truck and how does it relate to crab ride? → Expand Truck related position entry
+
+CONTENT GAPS:
+  - No concise one-paragraph definition suitable for featured snippet
+  - Gi vs no-gi rule differences not addressed
+  - Missing comparison with Truck (despite Truck listed in related_positions)
+  - No beginner guidance on when to learn crab ride in BJJ journey
+  - No schema FAQ markup
+  - Leg lace vs crab ride terminology confusion not resolved
+
+HEADING OPTIMIZATION OPPORTUNITIES:
+  Current → Suggested
+  "Key Principles" → "How Does the Crab Ride Work? Core Mechanics and Control Principles"
+  "Attacks from Crab Ride Top" → "What Can You Attack from Crab Ride? Back Takes, Submissions, and Transitions"
+  "Crab Ride Escapes" → "How Do You Escape the Crab Ride? Hook Stripping and Granby Roll Defenses"
+  "Related Positions" → "Crab Ride vs Truck, Crucifix, and Other Turtle Attacks: What's the Difference?"
+
+LIVE SERP QUERIES TO VALIDATE:
+  "what is crab ride BJJ"
+  "how to escape crab ride BJJ"
+  "crab ride vs leg lace grappling"
+  "crab ride back take no gi"
+  "crab ride heel hook entry"
+
+===================================================================
+SUGGESTED NEW ARTICLES (content gap opportunities)
+===================================================================
+High-priority new content identified from PAA analysis:
+
+  1. content/Transitions/Crab Ride to Back.md
+     Plan: Document the back take sequence from crab ride — most-searched
+     transition from this position. Include hook insertion mechanics,
+     weight shifts, and finish to rear mount.
+
+  2. content/Transitions/Granby Roll to Guard.md
+     Plan: Defensive escape technique referenced repeatedly across
+     crab ride, turtle, and wrestling positions. High standalone search
+     volume. Document setup, timing triggers, and guard recovery.
+
+  3. content/Positions/Leg Lace.md (or Transitions/Leg Lace Entry.md)
+     Plan: Practitioners confuse leg lace vs crab ride terminology.
+     A dedicated page clarifying the relationship and documenting
+     the heel hook entry mechanics would capture this PAA traffic.
+
+  4. A "BJJ Submission Rules" reference page (if not already present)
+     Plan: "What submissions are banned in BJJ" is consistently
+     searched. A comparison page (IBJJF vs ADCC vs sub-only) would
+     capture rule-question traffic and link to all submission pages.
+
+===================================================================
+SCHEMA FAQ MARKUP - PRIORITY TARGETS
+===================================================================
+Both articles should add @type: FAQPage schema using top PAA questions.
+
+Game Over.md — add these Q&A pairs to schema:
+  Q: What does tapping out mean in BJJ?
+  Q: What happens when you tap in BJJ?
+  Q: What is a verbal tap in BJJ?
+  Q: What happens if you go unconscious from a choke?
+
+Crab Ride (generated .md) — add these Q&A pairs to schema:
+  Q: What is the crab ride in BJJ?
+  Q: How do you escape the crab ride?
+  Q: What attacks can you do from the crab ride?
+  Q: Is the crab ride legal in gi BJJ competition?
+
+===================================================================
+END OF REPORT
+===================================================================

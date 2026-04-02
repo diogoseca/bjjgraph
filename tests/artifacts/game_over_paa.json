@@ -1,0 +1,134 @@
+{
+  "article_path": "content/Game Over.md",
+  "seed_keyword": "Game Over BJJ submission",
+  "paa_questions": [
+    {
+      "question": "What does 'game over' mean in BJJ?",
+      "answer_snippet": "'Game over' is informal shorthand for a submission finish — the moment a match ends because one competitor taps out, verbally submits, goes unconscious, or the referee stops the contest due to a locked submission. It signals the match has reached its terminal state; no further grappling occurs.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "dedicated_faq"
+    },
+    {
+      "question": "What happens when you tap out in BJJ?",
+      "answer_snippet": "When a competitor taps — by striking the mat, their opponent's body, or any surface at least twice — the match stops immediately. The referee calls 'stop' or 'pare,' the opponent must release the submission hold instantly, and the tapping competitor loses the match. The tap is universally respected in all major rulesets (IBJJF, ADCC, NAGA).",
+      "source_url": "https://ibjjf.com/general-rules",
+      "priority": "high",
+      "integration_strategy": "dedicated_faq"
+    },
+    {
+      "question": "How does a BJJ match end?",
+      "answer_snippet": "A BJJ match can end in four ways: (1) submission — tap, verbal tap, or referee stoppage; (2) points decision after time expires; (3) referee decision / advantage count as tiebreaker; (4) disqualification for rule violations. Submission is considered the most decisive finish.",
+      "source_url": "https://ibjjf.com/general-rules",
+      "priority": "high",
+      "integration_strategy": "add_section"
+    },
+    {
+      "question": "What counts as a tap in BJJ — do you have to tap the mat?",
+      "answer_snippet": "No — you can tap the opponent's body, your own body, the mat, or any nearby surface. You can also tap with your foot if your hands are trapped. A verbal 'tap' or 'stop' is also valid. Referees can also stop the match if a competitor appears unconscious or in clear danger.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "dedicated_faq"
+    },
+    {
+      "question": "What is a verbal tap in BJJ, and is it valid?",
+      "answer_snippet": "A verbal tap is when a competitor says 'tap,' 'stop,' or a similar clear verbal signal of submission rather than physically tapping. It is valid under all major rulesets and is particularly important when a competitor's hands are trapped (e.g., during a tight armbar or while pinned). Referees watch for both physical and verbal submissions.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "dedicated_faq"
+    },
+    {
+      "question": "What happens if you go unconscious from a choke in BJJ?",
+      "answer_snippet": "If a competitor goes unconscious from a choke, the referee stops the match and awards the win to the attacking competitor. Medical staff check on the unconscious competitor. Most practitioners regain consciousness within seconds once the choke is released. This is recorded as a win by submission for the attacker.",
+      "source_url": "https://ibjjf.com/general-rules",
+      "priority": "high",
+      "integration_strategy": "dedicated_faq"
+    },
+    {
+      "question": "Can you be forced to tap in BJJ — what if someone doesn't tap?",
+      "answer_snippet": "If a competitor refuses to tap to a clearly locked submission, the referee has authority to stop the match (referee stoppage). Refusing to tap risks serious injury. In many federations, going unconscious during a choke automatically ends the match in the attacker's favor. Experienced coaches can also 'tap for' their students from the corner in some rulesets.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "add_section"
+    },
+    {
+      "question": "Is tapping in BJJ considered losing?",
+      "answer_snippet": "Technically yes — the tapping competitor loses that match. Culturally in BJJ, tapping is viewed as a sign of intelligence rather than weakness. The phrase 'tap early, tap often' is widely taught, especially to beginners, to protect training partners and allow both competitors to train the next day.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "add_section"
+    },
+    {
+      "question": "What submissions are illegal in BJJ competition?",
+      "answer_snippet": "Legality varies by age/belt division. Common IBJJF restrictions: heel hooks (illegal at white through brown belt in gi), reaping the knee, spinal locks without a choke, neck cranks, and slamming. ADCC and submission-only promotions are more permissive. Applying an illegal technique typically results in disqualification of the attacker.",
+      "source_url": "https://ibjjf.com/general-rules",
+      "priority": "medium",
+      "integration_strategy": "add_section"
+    },
+    {
+      "question": "What happens if time runs out before a submission in BJJ?",
+      "answer_snippet": "If no submission occurs before time expires, the match goes to points. IBJJF uses advantages as a tiebreaker, then referee decision. ADCC uses a points period followed by overtime. Submission-only formats (EBI, many no-gi promotions) use overtime rounds or specific starting positions to force a finish.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "add_section"
+    },
+    {
+      "question": "What is the difference between a tap-out and a submission in BJJ?",
+      "answer_snippet": "A 'submission' is the technique being applied (e.g., rear naked choke, armbar). A 'tap-out' is the act of signaling surrender in response to a submission. You submit to the submission by tapping out. In competition records, a win is logged as 'won by submission' whether the finish was a physical tap, verbal tap, or referee stoppage.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "dedicated_faq"
+    },
+    {
+      "question": "Why do BJJ matches sometimes end without a tap — referee stoppage?",
+      "answer_snippet": "Referees can stop a match without a tap when: a competitor is unconscious, a joint lock is clearly hyperextended with no response, a competitor cannot intelligently defend, or a coach throws in the towel. Pure sport BJJ referees are generally more conservative and prefer to wait for a tap.",
+      "source_url": null,
+      "priority": "low",
+      "integration_strategy": "add_section"
+    }
+  ],
+  "heading_optimizations": [
+    {
+      "current": "Game Over - Terminal State",
+      "suggested": "What is Game Over in BJJ? The Terminal Submission State Explained",
+      "rationale": "Matches conversational PAA query pattern for 'what does game over mean in BJJ'"
+    },
+    {
+      "current": "How Matches End",
+      "suggested": "How Does a BJJ Match End? Submission, Points, and Stoppage Rules",
+      "rationale": "Long-tail keyword captures all match-ending scenarios; direct question format"
+    },
+    {
+      "current": "Tapping Out",
+      "suggested": "What Does Tapping Out Mean in BJJ? Tap Rules and Etiquette",
+      "rationale": "Mirrors top PAA question for this topic; adds 'etiquette' for cultural angle"
+    },
+    {
+      "current": "Verbal Tap",
+      "suggested": "What is a Verbal Tap in BJJ? When Saying 'Tap' Ends the Match",
+      "rationale": "Dedicated question heading for a highly searched specific scenario"
+    }
+  ],
+  "missing_content_opportunities": [
+    "Add FAQ section: 'What does game over mean in BJJ?' with 2-sentence direct answer (featured snippet target)",
+    "Add FAQ section: 'What happens when you tap in BJJ?' — most direct answer needed",
+    "Add section: Verbal tap rules and when they apply (arms-trapped scenario)",
+    "Add section: Referee stoppage — when the ref can end the match without a tap",
+    "Add section: Unconscious from choke — what happens next (safety-critical, high search intent)",
+    "Add section: Submission safety — why tapping early prevents injury; 'tap early, tap often' culture",
+    "Add section: Most common submissions that lead to Game Over (with links to Submissions hub pages)",
+    "Add section: Legal vs illegal submissions by ruleset (IBJJF vs ADCC vs Submission Only)",
+    "Add section: What happens when time expires — points decision vs overtime formats",
+    "Add @type:FAQPage schema markup targeting top 4 PAA questions for featured snippet capture"
+  ],
+  "content_themes": {
+    "what_game_over_means": ["Q1", "Q11"],
+    "how_tap_works_mechanically": ["Q2", "Q4", "Q5"],
+    "match_end_conditions": ["Q3", "Q10", "Q12"],
+    "referee_authority": ["Q7", "Q6", "Q12"],
+    "culture_around_tapping": ["Q8"],
+    "legal_vs_illegal_submissions": ["Q9"]
+  },
+  "data_source": "Knowledge-based synthesis from BJJ rulebooks (IBJJF 2024, ADCC), instructional sites (Gracie University, BJJ Fanatics, Grapplearts), and community forums (r/bjj). Web search unavailable in this environment — validate with live SERP before production use.",
+  "generated_at": "2026-04-02"
+}
