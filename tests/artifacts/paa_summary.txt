@@ -1,0 +1,92 @@
+PAA SEO ANALYSIS SUMMARY
+========================
+Generated: 2026-04-04
+Data source: Training knowledge (web search unavailable in this environment)
+
+ARTICLES PROCESSED: 1
+  - content/Positions/Crab Ride/Top.md
+
+════════════════════════════════════════
+ARTICLE: Crab Ride Top
+Seed keyword: "Crab Ride Top BJJ"
+════════════════════════════════════════
+
+TOTAL PAA QUESTIONS FOUND: 10
+
+HIGH-PRIORITY QUESTIONS (direct answers needed):
+  1. What is the Crab Ride in BJJ?
+     → Strategy: improve_heading (rewrite overview opening as extractable definition)
+  2. How do you get to the Crab Ride position?
+     → Strategy: add_section (entries/prerequisites currently missing)
+  3. What submissions are available from the Crab Ride?
+     → Strategy: improve_heading (decision tree covers this but heading isn't query-matched)
+  4. How do you convert the Crab Ride to back control?
+     → Strategy: dedicated_faq (highest follow-up intent; link to Attacker page)
+  5. How do you escape the Crab Ride?
+     → Strategy: add_section (bottom-player POV missing; reframe as top-player awareness)
+  6. What are common mistakes when attacking from Crab Ride Top?
+     → Strategy: improve_heading (content exists, just needs question-format heading)
+
+MEDIUM-PRIORITY QUESTIONS:
+  7. What is the difference between Crab Ride and Turtle Ride?
+     → Strategy: dedicated_faq (disambiguation callout; cross-link to Turtle hub)
+  8. Is the Crab Ride legal in IBJJF competition?
+     → Strategy: add_section (ruleset context entirely missing; high bounce risk for competitors)
+  9. Is Crab Ride used in no-gi BJJ?
+     → Strategy: improve_heading (mentioned but not front-loaded)
+
+LOW-PRIORITY QUESTIONS:
+  10. Who popularized the Crab Ride in BJJ?
+      → Strategy: add_section (E-E-A-T / historical context; optional)
+
+════════════════════════════════════════
+HEADING OPTIMIZATIONS (5 suggested)
+════════════════════════════════════════
+  "Position Definition"            → "What Is Crab Ride Top? (Position Definition)"
+  "Key Offensive Principles"       → "How Do You Attack from Crab Ride Top?"
+  "Decision Making from This Position" → "What Should You Do from Crab Ride Top? (Decision Tree)"
+  "Common Offensive Mistakes"      → "What Are the Most Common Mistakes from Crab Ride Top?"
+  "Test Your Knowledge"            → "Crab Ride Top — Test Your Knowledge (Q&A)"
+
+════════════════════════════════════════
+CONTENT GAP ANALYSIS
+════════════════════════════════════════
+MISSING:
+  - Entry points / how to get into the position (critical gap)
+  - Competition/ruleset context (IBJJF vs. ADCC vs. no-gi)
+  - Crab Ride vs. Turtle Ride disambiguation
+  - Bottom-player escape attempts (reframed as top-player awareness)
+  - Historical context / notable practitioners (E-E-A-T)
+
+ALREADY STRONG:
+  - Common mistakes (detailed, well-structured)
+  - Decision tree (conditional if/then format)
+  - Training drills (5 specific drills)
+  - Q&A knowledge assessment (8 questions, substantive answers)
+  - Success rate statistics
+
+════════════════════════════════════════
+SUGGESTED NEW ARTICLES
+════════════════════════════════════════
+  1. content/Positions/Crab Ride/Bottom.md
+     - Currently missing defender/bottom perspective
+     - Would capture all "how to escape crab ride" queries
+     - Completes the Top/Bottom hub architecture
+
+  2. content/Transitions/Crab Ride to Back/Defender.md
+     - High-intent: users searching how to defend the back take
+     - Complements existing Attacker page
+
+  3. content/Positions/Crab Ride.md (hub page check)
+     - Verify hub page exists; if not, create to complete position architecture
+     - Hub should aggregate Top/Bottom links and overview
+
+════════════════════════════════════════
+IMPLEMENTATION PRIORITY ORDER
+════════════════════════════════════════
+  1. Rewrite overview opening paragraph → featured snippet for "What is Crab Ride?"
+  2. Add "How to Enter Crab Ride Top" section → captures entry-query traffic
+  3. Convert section headings to question format → FAQPage schema eligibility
+  4. Add "Competition Notes" callout → reduces competitor bounce
+  5. Add "Why Opponents Struggle to Escape" section → captures bottom-player queries
+  6. Create Crab Ride Bottom.md → fills biggest content gap in position architecture

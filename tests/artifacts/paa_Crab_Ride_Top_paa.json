@@ -1,0 +1,122 @@
+{
+  "article_path": "content/Positions/Crab Ride/Top.md",
+  "seed_keyword": "Crab Ride Top BJJ",
+  "data_source": "training_knowledge (web search unavailable in this environment)",
+  "generated_date": "2026-04-04",
+  "paa_questions": [
+    {
+      "question": "What is the Crab Ride in BJJ?",
+      "answer_snippet": "The Crab Ride is a turtle-control position where the top player threads one leg inside the opponent's legs with an inside hook, positioning their body perpendicular to the opponent's spine. It is a high-percentage gateway to back takes, leg locks, and choke submissions.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "improve_heading",
+      "notes": "The overview section describes the position well but the page heading does not match the conversational query. Reformatting H1 or adding an explicit definition paragraph answering this question directly increases featured-snippet eligibility."
+    },
+    {
+      "question": "How do you get to the Crab Ride position?",
+      "answer_snippet": "Common entries: (1) From turtle top — thread one knee between the opponent's knees, kick the foot inward for the inside hook. (2) From rear mount when the opponent turtles — maintain the inside hook as they move. (3) From a sprawl — thread a leg inside after stopping a shot.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "add_section",
+      "notes": "The article covers what to do FROM Crab Ride Top but has no dedicated 'How to Enter / Prerequisites' section answering this PAA query. A brief 'Common Entries' section under Prerequisites would directly target this question."
+    },
+    {
+      "question": "What submissions are available from the Crab Ride?",
+      "answer_snippet": "From Crab Ride Top: Darce choke, Anaconda choke, Guillotine, and Crucifix transitions are primary submission paths. In no-gi contexts, heel hook and knee bar off the inside hook are also common. Rear naked choke becomes available after converting to back control.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "improve_heading",
+      "notes": "The decision tree section covers this implicitly, but a clear heading like 'What Submissions Are Available from Crab Ride Top?' would directly match the PAA query and improve schema FAQPage eligibility."
+    },
+    {
+      "question": "How do you convert the Crab Ride to back control?",
+      "answer_snippet": "Drive the inside hook deeper and secure a seat-belt grip around the opponent's torso. Roll the opponent over the hooked leg onto their back to establish rear mount. The article quotes a 40% attempt rate and 70% success probability for this transition.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "dedicated_faq",
+      "notes": "This is likely the single most searched follow-up question for users landing on this page. Linking prominently to the Crab Ride to Back/Attacker page and adding a one-paragraph answer inline would capture this PAA slot."
+    },
+    {
+      "question": "How do you escape the Crab Ride?",
+      "answer_snippet": "Key escapes: (1) Step-over escape — swing the free leg over the attacker's inside hook. (2) Roll forward — somersault forward, though this risks leg lock exposure. (3) Hip switch/sit-out — rotate hips away from the hook. (4) Stack and frame — drive hips back to collapse leverage.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "add_section",
+      "notes": "This is a high-intent query from bottom players. The Top.md article naturally skips defensive content, but a brief 'Why Opponents Struggle to Escape' or 'What Bottom Players Try' section would capture this PAA while reinforcing the top player's awareness of escape attempts."
+    },
+    {
+      "question": "What is the difference between Crab Ride and Turtle Ride?",
+      "answer_snippet": "The Turtle Ride (Referee's Position) is general top control over a turtled opponent. The Crab Ride is a specific variation where the inside leg hook creates a mechanically distinct leverage system targeting leg entanglements and back takes. Crab Ride implies the perpendicular hip orientation and active inside hook.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "dedicated_faq",
+      "notes": "Useful disambiguation for users unfamiliar with the term. A short FAQ entry or callout box comparing the two positions would improve topical authority and cross-link to Turtle position hub."
+    },
+    {
+      "question": "Is the Crab Ride legal in IBJJF competition?",
+      "answer_snippet": "The Crab Ride position itself is legal at all IBJJF belt levels. However, primary finishes from it — heel hooks and knee bars — are restricted to brown/black belt. Calf slicers are legal from blue belt up. Choke submissions (Darce, Anaconda, Guillotine) are legal at all levels.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "add_section",
+      "notes": "Omitting ruleset context is a gap for competition-focused users. A 'Competition Notes' or 'Rules Context' callout in the article would address this PAA and reduce bounce from users who cannot use the finishes at their level."
+    },
+    {
+      "question": "Is Crab Ride used in no-gi BJJ?",
+      "answer_snippet": "Yes. Crab Ride is especially prominent in no-gi BJJ, submission wrestling (ADCC-style), and 10th Planet Jiu-Jitsu, where leg lock systems are heavily emphasized. It is a core position in the Danaher Death Squad leg lock system popularized by Gordon Ryan and Garry Tonon.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "improve_heading",
+      "notes": "The overview section mentions no-gi but does not front-load this information. Rewriting the second or third paragraph to explicitly state the no-gi prevalence improves relevance for a large search segment."
+    },
+    {
+      "question": "Who popularized the Crab Ride in BJJ?",
+      "answer_snippet": "The Crab Ride has roots in folkstyle wrestling leg rides. In modern BJJ/submission grappling it was systematized and popularized by John Danaher's leg lock system, with competitors Gordon Ryan, Garry Tonon, and Craig Jones bringing it to prominence at the highest levels of no-gi competition.",
+      "source_url": null,
+      "priority": "low",
+      "integration_strategy": "add_section",
+      "notes": "A brief 'Historical Context' or 'Notable Practitioners' mention adds E-E-A-T signals and addresses curiosity-driven PAA queries."
+    },
+    {
+      "question": "What are common mistakes when attacking from Crab Ride Top?",
+      "answer_snippet": "Top 5 mistakes: (1) Positioning too far forward over the shoulders instead of staying perpendicular. (2) Losing chest pressure against the shoulder blade. (3) Allowing the hooking leg to become passive. (4) Gripping only the near side instead of the far side. (5) Keeping too much weight on the free leg.",
+      "source_url": "content/Positions/Crab Ride/Top.md (existing Common Mistakes section)",
+      "priority": "high",
+      "integration_strategy": "improve_heading",
+      "notes": "The article already covers this excellently. Reformatting the section heading as a question ('What Are the Most Common Mistakes from Crab Ride Top?') will improve FAQPage schema and featured-snippet capture."
+    }
+  ],
+  "heading_optimizations": [
+    {
+      "current": "Position Definition",
+      "suggested": "What Is Crab Ride Top? (Position Definition)",
+      "rationale": "Matches the highest-volume PAA question and improves H2 scannability for featured snippets."
+    },
+    {
+      "current": "Key Offensive Principles",
+      "suggested": "How Do You Attack from Crab Ride Top?",
+      "rationale": "Converts informational heading to question format matching 'how to attack' query pattern."
+    },
+    {
+      "current": "Decision Making from This Position",
+      "suggested": "What Should You Do from Crab Ride Top? (Decision Tree)",
+      "rationale": "Aligns with conversational 'what should I do when...' query pattern common in BJJ instructional searches."
+    },
+    {
+      "current": "Common Offensive Mistakes",
+      "suggested": "What Are the Most Common Mistakes from Crab Ride Top?",
+      "rationale": "Direct PAA format — Google frequently surfaces 'common mistakes' content as featured snippets."
+    },
+    {
+      "current": "Test Your Knowledge",
+      "suggested": "Crab Ride Top — Test Your Knowledge (Q&A)",
+      "rationale": "Adds position name to heading for richer keyword signal; preserves Q&A intent signal."
+    }
+  ],
+  "missing_content_opportunities": [
+    "Add section: 'How to Enter Crab Ride Top' — covering 3-4 primary entries from turtle top, sprawl, and rear mount. This directly answers the second-most searched question about the position.",
+    "Add section: 'Crab Ride Top in Competition (Ruleset Notes)' — clarify which submissions are IBJJF-legal at which belt levels, plus ADCC/no-gi context. High intent for competition-focused users.",
+    "Add callout: 'Crab Ride vs. Turtle Ride — Key Differences' — a 2-3 sentence disambiguation with a link to the Turtle hub page.",
+    "Add section: 'Why Opponents Struggle to Escape Crab Ride Top' — frame escape attempts from the top player's perspective; captures bottom-player search queries while reinforcing top-player strategy.",
+    "Improve overview paragraph 1 to front-load the definition answer to 'What is Crab Ride?' — make the first 40-50 words a clean, extractable definition that can serve as a featured snippet."
+  ]
+}
