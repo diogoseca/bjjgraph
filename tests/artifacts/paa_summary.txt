@@ -1,0 +1,90 @@
+PAA SEO ANALYSIS SUMMARY
+========================
+Generated: 2026-04-06
+Data source: Knowledge model (DataForSEO MCP unavailable; WebSearch permission denied)
+
+ARTICLES PROCESSED: 1
+- content/Positions/Butterfly Guard.json
+
+================================================================
+BUTTERFLY GUARD BJJ
+================================================================
+
+Total PAA questions modeled: 13
+  High priority:   6
+  Medium priority: 5
+  Low priority:    2
+
+--- HIGH-PRIORITY QUESTIONS (direct answers needed) ---
+
+1. "What is butterfly guard in BJJ?"
+   Strategy: improve_heading → Convert Overview H2 to question format
+   Gap: No dedicated answer block; overview paragraph buries the definition.
+
+2. "How do you do a butterfly sweep in BJJ?"
+   Strategy: add_section → Add step-by-step sweep breakdown on hub page
+   Gap: Butterfly Sweep is 39% attempt probability but no how-to exists on hub.
+
+3. "Is butterfly guard good for beginners?"
+   Strategy: dedicated_faq → Surface success rate data (Beginner 50%) as explicit FAQ
+   Gap: Success rates exist in description field but not as scannable answer.
+
+4. "What is the difference between butterfly guard and closed guard?"
+   Strategy: add_section → Comparison section with key structural differences
+   Gap: No comparison content exists; this is a top-3 PAA cluster for BJJ guards.
+
+5. "How do you pass butterfly guard in BJJ?"
+   Strategy: improve_heading → Hub page intro + link to Top role page
+   Gap: Top perspective content modeled in JSON but not surfaced on hub.
+
+6. "What are the best sweeps from butterfly guard?"
+   Strategy: add_section → Named ranked list using existing attempt probability data
+   Gap: Data exists (Butterfly 39%, Arm Drag 11%, Elevator 7%) but not surfaced as list.
+
+--- CONTENT GAP ANALYSIS ---
+
+Priority gaps (high ROI, low effort):
+  [EASY]  Convert heading "Overview" → "What Is Butterfly Guard in BJJ?"
+  [EASY]  Convert heading "Common Errors" → question format
+  [EASY]  Add FAQ block: beginner-friendliness with success rate data
+  [MEDIUM] Add comparison section: Butterfly Guard vs. Closed Guard
+  [MEDIUM] Add no-gi section: Butterfly Guard Without the Gi
+  [MEDIUM] Add grip breakdown section (gi + no-gi grips)
+  [HARD]  Add full 'How to Do a Butterfly Sweep' walkthrough on hub page
+
+Missing PAA clusters not currently addressed:
+  - Grip strategy (gi vs. no-gi)
+  - Comparison with Half Guard and Closed Guard
+  - No-gi specific adaptation
+  - Player profile (who benefits from this guard)
+  - Butterfly hook terminology for beginners
+
+--- SUGGESTED NEW ARTICLES ---
+
+The following new content files would capture adjacent PAA clusters:
+
+1. content/Transitions/Butterfly Sweep.json (if not exists)
+   Rationale: "How do you butterfly sweep" is a standalone high-volume query.
+   Likely already exists — verify with: ls content/Transitions/Butterfly*
+
+2. content/Positions/Half Butterfly.json (variation article)
+   Rationale: "Half butterfly guard BJJ" has dedicated PAA cluster.
+   Half Butterfly is listed as a variation in Butterfly Guard.json.
+
+3. content/Positions/Butterfly Guard/Top.md + Bottom.md
+   Rationale: Role pages (already in architecture) should exist if not generated.
+   Verify: ls content/Positions/Butterfly\ Guard/
+
+--- HEADING OPTIMIZATION SUMMARY ---
+
+6 heading changes recommended:
+  Overview → "What Is Butterfly Guard in BJJ?"
+  Key Principles → "How Does Butterfly Guard Work? Key Principles"
+  Variations → "Butterfly Guard Variations: Hook Control and Half Butterfly"
+  Related Positions → "What Positions Does Butterfly Guard Connect To?"
+  Common Errors → "What Are the Most Common Butterfly Guard Mistakes?"
+  Training Drills → "How to Train Butterfly Guard: Essential Drills"
+
+================================================================
+END OF REPORT
+================================================================
