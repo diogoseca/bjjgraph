@@ -373,15 +373,16 @@ The validation output shows files needing fixes. Edit the JSON source files dire
 For full schema details, see the JSON template files:
 
 **Positions** (`templates/Positions/`):
-- `TEMPLATE-POSITION-FAMILY.json` — Family positions (hub + top + bottom)
-- `TEMPLATE-POSITION-DUAL.json` — Dual positions (top + bottom)
-- `TEMPLATE-POSITION-SINGLE.json` — Single/neutral positions
+- `TEMPLATE-FAMILY.json` — Family positions (hub + top + bottom + variants)
+- `TEMPLATE-DUAL.json` — Dual positions (top + bottom)
+- `TEMPLATE-SINGLE.json` — Single/neutral positions
 
 **Transitions** (`templates/Transitions/`):
-- `TEMPLATE-TRANSITION.json` — Transitions with attacker/defender structure
+- `TEMPLATE-DUAL.json` — Transitions with attacker/defender structure
 
 **Submissions** (`templates/Submissions/`):
-- `TEMPLATE-SUBMISSION.json` — Submissions with attacker/defender + required outcomes
+- `TEMPLATE-DUAL.json` — Submission variants with attacker/defender + outcomes
+- `TEMPLATE-FAMILY.json` — Submission family hubs (informational, no graph node)
 
 ---
 

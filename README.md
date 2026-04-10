@@ -6,7 +6,7 @@
 
 > **Note:** BJJGraph is under active development. Content is being expanded daily. Contributions welcome!
 
-Brazilian Jiu-Jitsu knowledge graph and state machine as a static site.
+Brazilian Jiu-Jitsu knowledge graph and state machine as a static site. The project's ontology models BJJ as a state machine: positions are states, transitions are states too, and edges are the probabilistic outcomes between them.
 
 **Production**: [bjjgraph.org](https://bjjgraph.org) | **Dev Preview**: [dev.bjjgraph.pages.dev](https://dev.bjjgraph.pages.dev)
 
@@ -16,7 +16,9 @@ Brazilian Jiu-Jitsu knowledge graph and state machine as a static site.
 - **1000+ Transitions** - Techniques as probabilistic edges between states
 - **150+ Submissions** - Terminal states and finishing techniques
 - **Expert Systems** - Systematic approaches from Danaher, Gordon Ryan, Eddie Bravo
+- **Learning Articles** - Strategy, training methods, and competition tactics
 - **Interactive Graph** - Visual exploration of position relationships
+- **Graph Data** - [Download graph.json](https://github.com/diogoseca/bjjgraph/releases/latest) — the full knowledge graph as structured data (also available as .gz)
 
 ## Quick Start
 
@@ -87,7 +89,8 @@ bjjgraph/
 │   ├── Transitions/       # 1000+ transitions
 │   ├── Submissions/       # 150+ submissions
 │   ├── Systems/           # Expert systems
-│   └── Principles/        # Fundamental principles
+│   ├── Principles/        # Fundamental principles
+│   └── Learning/          # Strategy & training articles
 ├── templates/             # JSON schemas + Jinja2 templates (NOT source data)
 ├── source/                # Quartz static site generator (MIT)
 │   └── quartz/

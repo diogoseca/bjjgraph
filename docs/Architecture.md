@@ -18,8 +18,9 @@ content/*.json  →  templates/*.md.jinja2  →  content/*.md  →  Quartz Build
 
 2. **JSON Schemas + Jinja2 Templates** (`templates/`)
    - `templates/Positions/TEMPLATE-*.json` - Position schema definitions
-   - `templates/Transitions/TEMPLATE-TRANSITION.json` - Transition schema
-   - `templates/Submissions/TEMPLATE-SUBMISSION.json` - Submission schema
+   - `templates/Transitions/TEMPLATE-DUAL.json` - Transition schema
+   - `templates/Submissions/TEMPLATE-DUAL.json` - Submission variant schema
+   - `templates/Submissions/TEMPLATE-FAMILY.json` - Submission family hub schema
    - `templates/**/*.md.jinja2` - Generate markdown + SEO schema markup
    - `templates/Principles.json`, `Systems.json` - Aggregate data files
 
