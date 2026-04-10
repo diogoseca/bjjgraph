@@ -1,10 +1,6 @@
 // Outcome Cards — interactive outcome navigation on Transition/Submission pages
 import { removeAllChildren } from "./util"
-import {
-  getCachedExplorerTree,
-  appendToRollHistory,
-  fetchExplorerTree,
-} from "./explorerGraphExpand"
+import { appendToRollHistory, fetchExplorerTree } from "./explorerGraphExpand"
 
 interface Outcome {
   to: string
@@ -63,9 +59,6 @@ function resultLabel(result: string): string {
 }
 
 document.addEventListener("nav", () => {
-  // Pre-fetch explorer tree for roll history lookups
-  fetchExplorerTree().catch(() => {})
-
   const container = document.querySelector(".outcome-cards-container") as HTMLElement | null
   if (!container) return
 
@@ -115,7 +108,7 @@ document.addEventListener("nav", () => {
       </div>
     `
 
-    const navigate = () => {
+    const navigate = async () => {
       // Add to journey (localStorage)
       try {
         const journey = JSON.parse(localStorage.getItem("bjj-journey") || "[]")
@@ -131,13 +124,13 @@ document.addEventListener("nav", () => {
         // ignore
       }
 
-      // Append to roll history
-      const cached = getCachedExplorerTree()
-      if (cached) {
-        // Look up the target position's short ID
+      try {
+        const tree = await fetchExplorerTree()
         const toSlug = outcome.to.split("/")[0]
-        const pos = cached.positions[toSlug]
+        const pos = tree.positions[toSlug]
         if (pos?.id) appendToRollHistory(pos.id)
+      } catch {
+        // network failure — skip roll history, continue navigation
       }
 
       // Set snackbar

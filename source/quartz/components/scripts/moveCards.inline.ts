@@ -6,7 +6,6 @@ import type { GameMode } from "./settings"
 import { findCard } from "./srs"
 import {
   fetchExplorerTree,
-  getCachedExplorerTree,
   appendToRollHistory,
   syncRollToUrl,
   clearRollHistory,
@@ -140,9 +139,6 @@ document.addEventListener("nav", () => {
   }
   syncRollToUrl()
 
-  // Pre-fetch explorer tree data so it's cached for synchronous dice roll lookups
-  fetchExplorerTree().catch(() => {})
-
   const container = document.getElementById("move-cards")
   if (!container) return
 
@@ -197,8 +193,9 @@ document.addEventListener("nav", () => {
     })
 
     // Option clicks
-    modeDropdown.querySelectorAll(".game-mode-option:not(.game-mode-option--locked)").forEach(
-      (btn) => {
+    modeDropdown
+      .querySelectorAll(".game-mode-option:not(.game-mode-option--locked)")
+      .forEach((btn) => {
         btn.addEventListener("click", (e) => {
           e.stopPropagation()
           const mode = (btn as HTMLElement).dataset.mode as GameMode
@@ -213,8 +210,7 @@ document.addEventListener("nav", () => {
           // Re-render cards with new mode
           window.spaNavigate(new URL(window.location.toString()), false)
         })
-      },
-    )
+      })
 
     // Close dropdown when clicking outside
     const closeDropdown = () => modePicker.classList.remove("open")
@@ -295,10 +291,14 @@ document.addEventListener("nav", () => {
       <div class="probability-bar">
         <div class="probability-fill" style="width: ${Math.min(successRate + currentModifier, 100)}%"></div>
       </div>
-      ${showDiceUI ? `<div class="move-card-votes">
+      ${
+        showDiceUI
+          ? `<div class="move-card-votes">
         <button class="vote-btn vote-up" aria-label="Upvote ${transition.technique}" title="Upvote">&#x25B2;</button>
         <button class="vote-btn vote-down" aria-label="Downvote ${transition.technique}" title="Downvote">&#x25BC;</button>
-      </div>` : ""}
+      </div>`
+          : ""
+      }
     `
 
     // Clicking the technique name navigates to Attacker page (stop card dice roll)
@@ -525,7 +525,7 @@ function removeOpponentOverlay() {
   if (existing) existing.remove()
 }
 
-function executeTransition(
+async function executeTransition(
   transition: {
     technique: string
     target: string
@@ -550,11 +550,12 @@ function executeTransition(
     action: "dice-roll",
   })
 
-  // Append technique to roll history (synchronous from pre-fetched cache)
-  const cached = getCachedExplorerTree()
-  if (cached) {
-    const tech = cached.techniques[transition.target]
+  try {
+    const data = await fetchExplorerTree()
+    const tech = data.techniques[transition.target]
     if (tech?.id) appendToRollHistory(tech.id)
+  } catch {
+    // network failure — skip roll history, continue navigation
   }
 
   if (success) {

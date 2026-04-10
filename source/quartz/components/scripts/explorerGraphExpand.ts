@@ -38,18 +38,29 @@ export interface ExplorerTreeData {
 const MAX_DEPTH = 6
 
 let cachedData: ExplorerTreeData | null = null
+let cachedPromise: Promise<ExplorerTreeData> | null = null
 
-/** Lazy-fetch and cache explorerTree.json */
+/** Lazy-fetch and cache explorerTree.json (single in-flight promise shared across concurrent callers) */
 export async function fetchExplorerTree(): Promise<ExplorerTreeData> {
   if (cachedData) return cachedData
-  const resp = await fetch("/static/explorerTree.json")
-  cachedData = await resp.json()
-  return cachedData!
+  if (cachedPromise) return cachedPromise
+  cachedPromise = fetch("/static/explorerTree.json")
+    .then((resp) => resp.json())
+    .then((data: ExplorerTreeData) => {
+      cachedData = data
+      return data
+    })
+    .catch((err) => {
+      cachedPromise = null
+      throw err
+    })
+  return cachedPromise
 }
 
 /** Clear cached data (for cleanup on navigation) */
 export function clearExplorerTreeCache() {
   cachedData = null
+  cachedPromise = null
 }
 
 /**
@@ -264,11 +275,6 @@ function el(tag: string, className: string, text?: string): HTMLElement {
 // after spaNavigate has already changed the URL.
 
 const ROLL_STORAGE_KEY = "bjj-roll-ids"
-
-/** Get cached explorer tree data synchronously (null if not fetched yet) */
-export function getCachedExplorerTree(): ExplorerTreeData | null {
-  return cachedData
-}
 
 /** Append a short ID to the roll history in sessionStorage */
 export function appendToRollHistory(shortId: string) {
