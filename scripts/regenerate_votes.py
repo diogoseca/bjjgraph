@@ -48,11 +48,11 @@ def load_content_rates(content_dir: Path) -> dict[str, float]:
         directory = content_dir / subdir
         if not directory.exists():
             continue
-        for json_file in directory.glob('*.json'):
+        for json_file in directory.rglob('*.json'):
             try:
                 with open(json_file, 'r', encoding='utf-8') as f:
                     data = json.load(f)
-                if not isinstance(data, dict) or 'name' not in data:
+                if not isinstance(data, dict) or 'name' not in data or data.get('is_family'):
                     continue
                 # Skip JSON schema files
                 if '$schema' in data and 'title' in data and 'properties' in data:

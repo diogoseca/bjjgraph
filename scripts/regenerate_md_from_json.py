@@ -30,7 +30,8 @@ CATEGORIES = {
     "Transitions": "content/Transitions",
     "Submissions": "content/Submissions",
     "Principles": "content/Principles",
-    "Systems": "content/Systems"
+    "Systems": "content/Systems",
+    "Learning": "content/Learning"
 }
 
 
@@ -51,8 +52,15 @@ def build_wikilink_resolver():
                     index[name] = f"{category}/{rel}"
 
     def resolve(name):
-        if not name or name.lower() == 'game-over':
+        if not name:
             return name
+        # Handle dicts passed by mistake (e.g., related_submissions objects)
+        if isinstance(name, dict):
+            name = name.get('name', str(name))
+        if not isinstance(name, str):
+            return str(name)
+        if name.lower().replace(' ', '-') == 'game-over':
+            return 'game-over'
         if name in index:
             return f"{index[name]}/{name}"
         return name  # fallback: bare name
@@ -105,12 +113,15 @@ def detect_position_template_type(json_file, data=None):
 def detect_transition_template_type(json_file, data=None):
     """Detect which Transitions/Submissions template to use based on JSON structure.
 
+    - FAMILY: Hub submission with variations array (informational only, no graph node)
     - DUAL: Has attacker and defender sections (new attacker/defender structure)
     - SINGLE: Flat structure (legacy, pre-migration)
     """
     if data is None:
         data = load_json_file(json_file)
 
+    if data.get('is_family') and 'variations' in data:
+        return 'FAMILY'
     if 'attacker' in data and 'defender' in data:
         return 'DUAL'
     return 'SINGLE'
@@ -228,12 +239,51 @@ def aggregate_family_variants(data, json_path):
     return variants_comparison
 
 
+def aggregate_submission_variants(data, json_path):
+    """Aggregate variant data for FAMILY submissions.
+
+    Hub JSONs sit at parent level (e.g., Submissions/Americana.json).
+    Variants are in the subfolder (e.g., Submissions/Americana/from Mount.json).
+    """
+    variants_comparison = []
+    # Hub at parent level: scan subfolder named after the hub
+    variant_folder = json_path.parent / json_path.stem
+
+    for variant_ref in data.get('variations', []):
+        variant_slug = variant_ref['slug']
+        variant_file = find_variant_file(variant_folder, variant_slug)
+
+        if not variant_file:
+            print(f"⚠️  Submission variant file not found for slug '{variant_slug}' in {variant_folder}")
+            continue
+
+        try:
+            variant_data = load_json_file(variant_file)
+            top_risk = ""
+            if 'safety_considerations' in variant_data:
+                risks = variant_data['safety_considerations'].get('injury_risks', [])
+                top_risk = risks[0]['injury'] if risks else ""
+
+            from_pos = variant_data.get('from_position', '')
+            variants_comparison.append({
+                'variant_name': variant_ref['name'],
+                'from_position': from_pos,
+                'success_rate': variant_data.get('success_rate', 0),
+                'top_risk': top_risk,
+                'uniqueness': variant_data.get('variant_uniqueness', ''),
+            })
+        except Exception as e:
+            print(f"⚠️  Error loading submission variant {variant_file}: {e}")
+            continue
+
+    return variants_comparison
+
+
 def load_schema(category, json_path=None):
     """Load JSON schema for a category from templates/.
 
-    Uses the same schema files as validate_json.py. For Positions, detects
-    the template type (SINGLE/DUAL/FAMILY) from the JSON structure.
-    For Transitions/Submissions, detects DUAL (attacker/defender) vs SINGLE (legacy).
+    Uses the same schema files as validate_json.py. Detects template type
+    (SINGLE/DUAL/FAMILY) from JSON structure for all categories.
 
     Args:
         category: Category name (e.g., "Positions", "Transitions").
@@ -248,15 +298,12 @@ def load_schema(category, json_path=None):
     """
     if category == "Positions":
         template_type = detect_position_template_type(json_path)
-        schema_path = Path(f"templates/Positions/TEMPLATE-POSITION-{template_type}.json")
+        schema_path = Path(f"templates/Positions/TEMPLATE-{template_type}.json")
     elif category in ("Transitions", "Submissions"):
-        # Check if file uses new attacker/defender structure
         template_type = detect_transition_template_type(json_path)
-        if template_type == 'DUAL':
-            schema_name = "TEMPLATE-TRANSITION.json" if category == "Transitions" else "TEMPLATE-SUBMISSION.json"
-            schema_path = Path(f"templates/{category}/{schema_name}")
+        if template_type in ('DUAL', 'FAMILY'):
+            schema_path = Path(f"templates/{category}/TEMPLATE-{template_type}.json")
         else:
-            # Legacy flat schema
             schema_path = Path(f"templates/{category}.json")
     else:
         schema_path = Path(f"templates/{category}.json")
@@ -315,13 +362,23 @@ def process_json_file(json_path, dry_run=False, resolve_fn=None):
     if category in ("Transitions", "Submissions"):
         template_type = detect_transition_template_type(json_path, data)
 
-        if template_type == 'DUAL':
+        if template_type == 'FAMILY' and category == 'Submissions':
+            # Family hub: 1 file only, no Attacker/Defender pages
+            variants_comparison = aggregate_submission_variants(data, json_path)
+            hub_data = {**data, 'variants_comparison': variants_comparison}
+            hub_template = load_template(category, "TEMPLATE-FAMILY.md.jinja2")
+            hub_content = hub_template.render(**hub_data, resolve=resolve_fn)
+            hub_path = json_path.with_suffix('.md')
+            write_markdown_file(hub_path, hub_content, dry_run)
+            return [hub_path]
+
+        elif template_type == 'DUAL':
             # Render 3 files: hub, attacker, defender
             generated_files = []
             technique_name = data.get('name', json_path.stem)
 
             # Render hub page
-            hub_template = load_template(category, "TEMPLATE-HUB.md.jinja2")
+            hub_template = load_template(category, "TEMPLATE-DUAL.md.jinja2")
             hub_content = hub_template.render(**data, resolve=resolve_fn)
             hub_path = json_path.with_suffix('.md')
             write_markdown_file(hub_path, hub_content, dry_run)
@@ -338,7 +395,7 @@ def process_json_file(json_path, dry_run=False, resolve_fn=None):
                 target_area=data.get('target_area', ''),
                 resolve=resolve_fn,
             )
-            attacker_path = json_path.parent / technique_name / "Attacker.md"
+            attacker_path = json_path.parent / json_path.stem / "Attacker.md"
             attacker_path.parent.mkdir(parents=True, exist_ok=True)
             write_markdown_file(attacker_path, attacker_content, dry_run)
             generated_files.append(attacker_path)
@@ -354,7 +411,7 @@ def process_json_file(json_path, dry_run=False, resolve_fn=None):
                 target_area=data.get('target_area', ''),
                 resolve=resolve_fn,
             )
-            defender_path = json_path.parent / technique_name / "Defender.md"
+            defender_path = json_path.parent / json_path.stem / "Defender.md"
             write_markdown_file(defender_path, defender_content, dry_run)
             generated_files.append(defender_path)
 
@@ -396,7 +453,7 @@ def process_json_file(json_path, dry_run=False, resolve_fn=None):
             variants_comparison = aggregate_family_variants(data, json_path)
 
         # Render hub page
-        hub_template = load_template(category, "TEMPLATE-HUB.md.jinja2")
+        hub_template = load_template(category, "TEMPLATE-DUAL.md.jinja2")
         hub_data = {
             **data,
             'bottom_summary': data['bottom'],
@@ -450,9 +507,8 @@ def process_category(category, dry_run=False):
         print(f"ERROR: Category path not found: {category_path}")
         sys.exit(1)
 
-    # Find all JSON files at root level only (not in subdirectories)
-    # This prevents processing variant files (which are in subdirectories)
-    root_json_files = [f for f in category_path.glob("*.json")]
+    # Find all JSON files recursively (including nested submission variants)
+    root_json_files = [f for f in category_path.glob("**/*.json")]
 
     # Also find JSON files in subdirectories (variant positions)
     # For Positions category only, process variant JSON files
@@ -517,6 +573,8 @@ def process_all_categories(dry_run=False):
         print(f"\n{'='*60}")
         print("✓ All files processed successfully")
 
+    return all_failures
+
 
 def main():
     parser = argparse.ArgumentParser(
@@ -542,20 +600,23 @@ Examples:
     parser.add_argument('--category', choices=list(CATEGORIES.keys()), help='Category to process')
     parser.add_argument('--all', action='store_true', help='Process all files (in category or all categories)')
     parser.add_argument('--dry-run', action='store_true', help='Show what would be done without writing files')
+    parser.add_argument('--strict', action='store_true', help='Exit non-zero if any files fail (for CI)')
 
     args = parser.parse_args()
 
-    # Validate arguments
     if not (args.file or (args.category and args.all) or args.all):
         parser.error("Must specify --file, --category with --all, or just --all")
 
-    # Execute based on arguments
+    failures = []
     if args.file:
         process_json_file(args.file, args.dry_run)
     elif args.category and args.all:
-        process_category(args.category, args.dry_run)
+        failures = process_category(args.category, args.dry_run)
     elif args.all:
-        process_all_categories(args.dry_run)
+        failures = process_all_categories(args.dry_run)
+
+    if args.strict and failures:
+        sys.exit(1)
 
 
 if __name__ == "__main__":

@@ -1,0 +1,181 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "BJJ Submission Family Hub Schema",
+  "description": "Schema for submission family hub pages (informational only, not graph nodes). Hub pages aggregate and compare position-specific variants.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "name",
+    "description",
+    "tags",
+    "is_family",
+    "submission_category",
+    "submission_type",
+    "target_area",
+    "starting_position",
+    "success_rate",
+    "overview",
+    "safety_considerations",
+    "variations",
+    "from_positions",
+    "related_submissions",
+    "related_content"
+  ],
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "Submission family name (must match filename without .json)",
+      "minLength": 3
+    },
+    "description": {
+      "type": "string",
+      "description": "SEO meta description 150-160 characters",
+      "minLength": 140,
+      "maxLength": 180
+    },
+    "tags": {
+      "type": "array",
+      "description": "Content tags (minimum 3)",
+      "minItems": 3,
+      "items": { "type": "string" }
+    },
+    "is_family": {
+      "type": "boolean",
+      "description": "Must be true for family hub submissions",
+      "const": true
+    },
+    "submission_category": {
+      "type": "string",
+      "enum": ["Choke", "Joint Lock", "Compression", "Combination"]
+    },
+    "submission_type": {
+      "type": "string",
+      "description": "Specific type within category"
+    },
+    "target_area": {
+      "type": "string",
+      "description": "Anatomical target area"
+    },
+    "starting_position": {
+      "type": "string",
+      "description": "Primary position where submission family is attempted"
+    },
+    "from_position": {
+      "type": "string",
+      "description": "Primary position/role (optional for hubs, since variants each have their own)"
+    },
+    "success_rate": {
+      "type": "integer",
+      "description": "Average success rate across variants (0-100)",
+      "minimum": 0,
+      "maximum": 100
+    },
+    "variant_uniqueness": {
+      "type": "string",
+      "description": "What makes this submission family unique (20-80 chars)",
+      "minLength": 10,
+      "maxLength": 100
+    },
+    "overview": {
+      "type": "string",
+      "description": "2-3 paragraph family overview with strategic context (400+ characters)",
+      "minLength": 400
+    },
+    "safety_considerations": {
+      "type": "object",
+      "description": "Shared safety content for the entire submission family",
+      "additionalProperties": false,
+      "required": [
+        "injury_risks",
+        "application_speed",
+        "tap_signals",
+        "release_protocol",
+        "training_restrictions"
+      ],
+      "properties": {
+        "injury_risks": {
+          "type": "array",
+          "minItems": 2,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["injury", "severity", "recovery_time"],
+            "properties": {
+              "injury": { "type": "string" },
+              "severity": { "type": "string", "enum": ["Low", "Medium", "High", "CRITICAL"] },
+              "recovery_time": { "type": "string" }
+            }
+          }
+        },
+        "application_speed": { "type": "string" },
+        "tap_signals": { "type": "array", "minItems": 3, "items": { "type": "string" } },
+        "release_protocol": { "type": "array", "minItems": 3, "items": { "type": "string" } },
+        "training_restrictions": { "type": "array", "minItems": 2, "items": { "type": "string" } }
+      }
+    },
+    "variations": {
+      "type": "array",
+      "description": "Position-specific variants of this submission",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["name", "slug"],
+        "properties": {
+          "name": {
+            "type": "string",
+            "description": "Variant name (e.g., 'from Side Control')"
+          },
+          "slug": {
+            "type": "string",
+            "description": "URL slug (kebab-case, e.g., 'from-side-control')"
+          },
+          "description": {
+            "type": "string",
+            "description": "Brief variant description (10-80 chars)"
+          }
+        }
+      }
+    },
+    "from_positions": {
+      "type": "array",
+      "description": "All positions where this submission family can be applied (2-20 items)",
+      "minItems": 1,
+      "items": { "type": "string" }
+    },
+    "related_submissions": {
+      "type": "array",
+      "description": "Related submission families and techniques",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": { "type": "string" },
+          "relationship": { "type": "string" }
+        }
+      }
+    },
+    "related_content": {
+      "type": "array",
+      "description": "Related positions, transitions, and other content",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": { "type": "string" },
+          "relationship": { "type": "string" }
+        }
+      }
+    },
+    "variations_and_setups": {
+      "type": "array",
+      "description": "Legacy field for variation descriptions",
+      "items": {
+        "type": "object",
+        "properties": {
+          "variation_name": { "type": "string" },
+          "description": { "type": "string" },
+          "when_to_use": { "type": "string" }
+        }
+      }
+    }
+  }
+}

@@ -174,7 +174,7 @@ description: "{{ description }}"
 ## Related Submissions
 
 {% for submission in related_submissions -%}
-- [[{{ resolve(submission) }}]]
+- [[{{ resolve(submission.name if submission is mapping else submission) }}]]{% if submission is mapping and submission.relationship %} - {{ submission.relationship }}{% endif %}
 {% endfor %}
 
 </section>

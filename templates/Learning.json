@@ -1,0 +1,240 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "BJJ Learning Article Schema V1",
+  "description": "Standardized JSON schema for BJJ learning articles - lightweight article-style structure",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "name",
+    "description",
+    "tags",
+    "category",
+    "overview",
+    "key_takeaways",
+    "bjj_applications",
+    "common_mistakes",
+    "training_exercises",
+    "knowledge_assessment",
+    "related_content"
+  ],
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "Article name (must match filename without .json)",
+      "minLength": 3,
+      "examples": [
+        "Technique Chaining",
+        "Training Partner Diversity"
+      ]
+    },
+    "description": {
+      "type": "string",
+      "description": "SEO meta description 140-180 characters",
+      "minLength": 140,
+      "maxLength": 180,
+      "examples": [
+        "Learn why chaining techniques together creates unstoppable offense in BJJ. Master attack sequences, combination principles, and flow drilling."
+      ]
+    },
+    "tags": {
+      "type": "array",
+      "description": "Content tags (minimum 3)",
+      "minItems": 3,
+      "items": {
+        "type": "string"
+      },
+      "examples": [
+        [
+          "bjj",
+          "learning",
+          "strategy",
+          "technique-chaining"
+        ]
+      ]
+    },
+    "category": {
+      "type": "string",
+      "enum": [
+        "Strategy",
+        "Training",
+        "Competition"
+      ],
+      "description": "Article category"
+    },
+    "overview": {
+      "type": "string",
+      "description": "2-3 paragraph article introduction (400+ characters)",
+      "minLength": 400
+    },
+    "key_takeaways": {
+      "type": "array",
+      "description": "5-8 actionable bullet points",
+      "minItems": 5,
+      "maxItems": 8,
+      "items": {
+        "type": "string"
+      }
+    },
+    "bjj_applications": {
+      "type": "array",
+      "description": "3-6 specific BJJ scenarios with application and outcome",
+      "minItems": 3,
+      "maxItems": 6,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "scenario",
+          "application",
+          "outcome"
+        ],
+        "properties": {
+          "scenario": {
+            "type": "string",
+            "description": "Specific BJJ situation"
+          },
+          "application": {
+            "type": "string",
+            "description": "How the concept applies"
+          },
+          "outcome": {
+            "type": "string",
+            "description": "Expected result"
+          }
+        }
+      }
+    },
+    "common_mistakes": {
+      "type": "array",
+      "description": "3-5 mistakes with consequences and corrections",
+      "minItems": 3,
+      "maxItems": 5,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "mistake",
+          "consequence",
+          "correction"
+        ],
+        "properties": {
+          "mistake": {
+            "type": "string"
+          },
+          "consequence": {
+            "type": "string"
+          },
+          "correction": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "training_exercises": {
+      "type": "array",
+      "description": "2-4 drills or exercises to practice the concept",
+      "minItems": 2,
+      "maxItems": 4,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "name",
+          "description",
+          "focus"
+        ],
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string",
+            "minLength": 50
+          },
+          "focus": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "knowledge_assessment": {
+      "type": "array",
+      "description": "4-6 Q&A pairs for self-assessment",
+      "minItems": 4,
+      "maxItems": 6,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "question",
+          "answer"
+        ],
+        "properties": {
+          "question": {
+            "type": "string"
+          },
+          "answer": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "related_content": {
+      "type": "array",
+      "description": "Related positions/transitions/principles/learning (3-15 items)",
+      "minItems": 3,
+      "maxItems": 15,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "name",
+          "content_type",
+          "relationship"
+        ],
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "content_type": {
+            "type": "string",
+            "enum": [
+              "Position",
+              "Transition",
+              "Submission",
+              "Principle",
+              "System",
+              "Learning"
+            ]
+          },
+          "relationship": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "references": {
+      "type": "array",
+      "description": "Optional external citations",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "title",
+          "author"
+        ],
+        "properties": {
+          "title": {
+            "type": "string"
+          },
+          "author": {
+            "type": "string"
+          },
+          "url": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

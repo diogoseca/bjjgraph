@@ -37,7 +37,7 @@ _repo_root = str(Path(__file__).resolve().parent.parent)
 if _repo_root not in sys.path:
     sys.path.insert(0, _repo_root)
 
-from scripts.validate_json import validate_json_file as _validate_json_file, load_schema, detect_position_template_type
+from scripts.validate_json import validate_json_file as _validate_json_file, load_schema, detect_position_template_type, detect_transition_template_type
 
 # =============================================================================
 # PATHS
@@ -48,6 +48,7 @@ TRANSITIONS_PATH = CONTENT_PATH / "Transitions"
 SUBMISSIONS_PATH = CONTENT_PATH / "Submissions"
 PRINCIPLES_PATH = CONTENT_PATH / "Principles"
 SYSTEMS_PATH = CONTENT_PATH / "Systems"
+LEARNING_PATH = CONTENT_PATH / "Learning"
 TEMPLATES_PATH = Path("templates")
 LOGS_PATH = Path("logs/regenerate_json")
 
@@ -121,6 +122,8 @@ def detect_category(file_path: Path) -> str:
         return "Principles"
     elif "Systems" in path_str:
         return "Systems"
+    elif "Learning" in path_str:
+        return "Learning"
     return "Unknown"
 
 
@@ -138,12 +141,21 @@ def build_reference_lists() -> Dict[str, List[str]]:
         "systems": []
     }
 
-    # Helper to extract base filename
     def get_names(path: Path) -> List[str]:
+        """Extract content names, using JSON name field for nested files."""
         names = []
         for f in path.rglob("*.json"):
-            if "TEMPLATE" not in f.name:
-                names.append(f.stem)
+            if "TEMPLATE" in f.name:
+                continue
+            try:
+                with open(f, 'r', encoding='utf-8') as fh:
+                    data = json.load(fh)
+                if 'name' in data:
+                    names.append(data['name'])
+                    continue
+            except (json.JSONDecodeError, OSError):
+                pass
+            names.append(f.stem)
         return sorted(set(names))
 
     refs["positions"] = get_names(POSITIONS_PATH)
@@ -157,6 +169,10 @@ def build_reference_lists() -> Dict[str, List[str]]:
         refs["principles"] = get_names(principles_path)
     if systems_path.exists():
         refs["systems"] = get_names(systems_path)
+
+    learning_path = CONTENT_PATH / "Learning"
+    if learning_path.exists():
+        refs["learning"] = get_names(learning_path)
 
     return refs
 
@@ -304,20 +320,22 @@ def get_template_content(category: str, template_type: str = None) -> str:
     """Load the appropriate template file content."""
     template_map = {
         "Positions": {
-            "SINGLE": "templates/Positions/TEMPLATE-POSITION-SINGLE.json",
-            "DUAL": "templates/Positions/TEMPLATE-POSITION-DUAL.json",
-            "FAMILY": "templates/Positions/TEMPLATE-POSITION-FAMILY.json",
+            "SINGLE": "templates/Positions/TEMPLATE-SINGLE.json",
+            "DUAL": "templates/Positions/TEMPLATE-DUAL.json",
+            "FAMILY": "templates/Positions/TEMPLATE-FAMILY.json",
         },
         "Transitions": {
             "SINGLE": "templates/Transitions.json",
-            "DUAL": "templates/Transitions/TEMPLATE-TRANSITION.json",
+            "DUAL": "templates/Transitions/TEMPLATE-DUAL.json",
         },
         "Submissions": {
             "SINGLE": "templates/Submissions.json",
-            "DUAL": "templates/Submissions/TEMPLATE-SUBMISSION.json",
+            "DUAL": "templates/Submissions/TEMPLATE-DUAL.json",
+            "FAMILY": "templates/Submissions/TEMPLATE-FAMILY.json",
         },
         "Principles": "templates/Principles.json",
         "Systems": "templates/Systems.json",
+        "Learning": "templates/Learning.json",
     }
 
     if category == "Positions" and template_type:
@@ -340,20 +358,22 @@ def get_template_path(category: str, template_type: str = None) -> Path:
     """Get the path to a template schema file."""
     template_map = {
         "Positions": {
-            "SINGLE": "templates/Positions/TEMPLATE-POSITION-SINGLE.json",
-            "DUAL": "templates/Positions/TEMPLATE-POSITION-DUAL.json",
-            "FAMILY": "templates/Positions/TEMPLATE-POSITION-FAMILY.json",
+            "SINGLE": "templates/Positions/TEMPLATE-SINGLE.json",
+            "DUAL": "templates/Positions/TEMPLATE-DUAL.json",
+            "FAMILY": "templates/Positions/TEMPLATE-FAMILY.json",
         },
         "Transitions": {
             "SINGLE": "templates/Transitions.json",
-            "DUAL": "templates/Transitions/TEMPLATE-TRANSITION.json",
+            "DUAL": "templates/Transitions/TEMPLATE-DUAL.json",
         },
         "Submissions": {
             "SINGLE": "templates/Submissions.json",
-            "DUAL": "templates/Submissions/TEMPLATE-SUBMISSION.json",
+            "DUAL": "templates/Submissions/TEMPLATE-DUAL.json",
+            "FAMILY": "templates/Submissions/TEMPLATE-FAMILY.json",
         },
         "Principles": "templates/Principles.json",
         "Systems": "templates/Systems.json",
+        "Learning": "templates/Learning.json",
     }
 
     if category == "Positions" and template_type:
@@ -518,6 +538,27 @@ KEY FIELDS:
 - implementation_sequence: 5+ step-by-step implementation phases
 - training_methodology.drilling_approach: 200+ characters
 - training_methodology.progression_path: 4+ stages of mastery"""
+
+    elif category == "Learning":
+        return f"""REQUIRED NAME FIELD:
+- Set name = '{filename}' (MUST MATCH FILENAME EXACTLY)
+- DO NOT include 'title' field (auto-generated from name)
+
+CATEGORY FIELD:
+- category: Must be one of "Strategy", "Training", or "Competition"
+
+REFERENCES:
+- related_content[] -> Array of objects with name/content_type/relationship (3-15 items)
+- content_type must be one of: Position, Transition, Submission, Principle, System, Learning
+- references[] -> Optional array of external citations with title/author/url
+
+KEY FIELDS:
+- overview: 2-3 paragraphs, 400+ characters, BJJ-specific (not generic self-help)
+- key_takeaways: 5-8 actionable bullet points specific to BJJ
+- bjj_applications: 3-6 items with scenario/application/outcome (concrete mat situations)
+- common_mistakes: 3-5 items with mistake/consequence/correction
+- training_exercises: 2-4 items with name/description (50+ chars)/focus
+- knowledge_assessment: 4-6 Q&A pairs for self-assessment"""
 
     return f"Set name = '{filename}' (MUST MATCH FILENAME EXACTLY)"
 
@@ -986,6 +1027,78 @@ Return ONLY valid JSON (no markdown, no explanation):
 '''
 
 
+LEARNING_PROMPT = '''You are an expert Brazilian Jiu-Jitsu black belt instructor creating content for purple/brown belt practitioners (4-5x/week serious hobbyists).
+
+## Learning Article: {file_path}
+
+## TEMPLATE STRUCTURE (follow this format exactly):
+```json
+{template_content}
+```
+
+## Current Content (fix TODOs and validation errors):
+```json
+{content}
+```
+
+## Validation Errors to Fix:
+{validation_errors}
+
+## FIELD GUIDANCE:
+{field_guidance}
+
+## Tasks:
+
+### 1. Fix All Validation Errors
+{error_guidance}
+
+### 2. Ensure BJJ-Specific Application
+- bjj_applications[] should reference real positions, transitions, and scenarios
+- related_content[] names MUST reference existing content from the valid references
+- Write original content — do NOT copy from external sources
+
+### 3. Review Content Quality
+- overview must be 400+ characters with substantive BJJ-specific analysis
+- training_exercises descriptions must be 50+ characters each
+- key_takeaways should be actionable, specific BJJ advice (not generic self-help)
+
+## Valid References by Category (ONLY use names from these lists):
+
+**Positions ({positions_count} available):**
+{positions_list}
+
+**Transitions ({transitions_count} available):**
+{transitions_list}
+
+**Submissions ({submissions_count} available):**
+{submissions_list}
+
+**Principles ({principles_count} available):**
+{principles_list}
+
+**Systems ({systems_count} available):**
+{systems_list}
+
+**Learning ({learning_count} available):**
+{learning_list}
+
+{reference_format_rules}
+
+{expert_guidelines}
+
+{requirements_section}
+
+## Output Format:
+Return ONLY valid JSON (no markdown, no explanation):
+```json
+{{
+  "fixed_content": {{ ... the complete fixed JSON matching template structure ... }},
+  "changes_summary": ["Change 1", "Change 2"]
+}}
+```
+'''
+
+
 def build_prompt(file_path: Path, data: dict, validation_errors: str, refs: Dict[str, List[str]]) -> str:
     """Build the appropriate prompt for a file."""
     category = detect_category(file_path)
@@ -1008,6 +1121,7 @@ def build_prompt(file_path: Path, data: dict, validation_errors: str, refs: Dict
     submissions_str = ", ".join(refs["submissions"][:50])
     principles_str = ", ".join(refs["principles"][:50])
     systems_str = ", ".join(refs["systems"][:50])
+    learning_str = ", ".join(refs.get("learning", [])[:50])
 
     # Error guidance based on validation output
     error_guidance = ""
@@ -1032,11 +1146,13 @@ def build_prompt(file_path: Path, data: dict, validation_errors: str, refs: Dict
         "submissions_list": submissions_str,
         "principles_list": principles_str,
         "systems_list": systems_str,
+        "learning_list": learning_str,
         "positions_count": len(refs["positions"]),
         "transitions_count": len(refs["transitions"]),
         "submissions_count": len(refs["submissions"]),
         "principles_count": len(refs["principles"]),
         "systems_count": len(refs["systems"]),
+        "learning_count": len(refs.get("learning", [])),
         "context_content": context_content,
         "reference_format_rules": REFERENCE_FORMAT_RULES,
         "expert_guidelines": EXPERT_GUIDELINES,
@@ -1071,6 +1187,11 @@ def build_prompt(file_path: Path, data: dict, validation_errors: str, refs: Dict
         common_params["field_guidance"] = get_field_guidance("Systems", None, filename)
         return SYSTEMS_PROMPT.format(**common_params)
 
+    elif category == "Learning":
+        common_params["template_content"] = get_template_content("Learning")
+        common_params["field_guidance"] = get_field_guidance("Learning", None, filename)
+        return LEARNING_PROMPT.format(**common_params)
+
     # Fallback to Transitions
     common_params["template_content"] = get_template_content("Transitions")
     common_params["field_guidance"] = get_field_guidance("Transitions", None, filename)
@@ -1081,25 +1202,26 @@ def build_prompt(file_path: Path, data: dict, validation_errors: str, refs: Dict
 # CLAUDE INTERACTION
 # =============================================================================
 
-def call_claude(prompt: str, response_schema: dict, timeout: int = 600) -> Tuple[Optional[str], Optional[str]]:
+def call_claude(prompt: str, response_schema: dict, timeout: int = 1800) -> Tuple[Optional[str], Optional[str]]:
     """Call Claude CLI with structured JSON output."""
     proc = None
     try:
         proc = subprocess.Popen(
             [
                 "claude",
-                "-p", prompt,
+                "-p", "-",
                 "--model", CLAUDE_MODEL,
                 "--output-format", "json",
                 "--json-schema", json.dumps(response_schema)
             ],
+            stdin=subprocess.PIPE,
             stdout=subprocess.PIPE,
             stderr=subprocess.PIPE,
             text=True,
             cwd=Path.cwd()
         )
 
-        stdout, stderr = proc.communicate(timeout=timeout)
+        stdout, stderr = proc.communicate(input=prompt, timeout=timeout)
 
         if proc.returncode != 0:
             return None, f"Claude CLI error: {stderr}"
@@ -1375,7 +1497,12 @@ def process_file(file_path: Path, refs: Dict[str, List[str]], dry_run: bool = Fa
         return result_info
 
     # Build response schema dynamically per category
-    template_type = detect_position_template(file_path) if category == "Positions" else None
+    if category == "Positions":
+        template_type = detect_position_template(file_path)
+    elif category in ("Transitions", "Submissions"):
+        template_type = detect_transition_template_type(file_path)
+    else:
+        template_type = None
     response_schema = build_response_schema(category, template_type)
 
     # Build prompt
@@ -1565,6 +1692,9 @@ def collect_files(category: str = "all", errors_only: bool = False) -> List[Path
         paths.extend(PRINCIPLES_PATH.rglob("*.json"))
     if category in ["Systems", "all"]:
         paths.extend(SYSTEMS_PATH.rglob("*.json"))
+    if category in ["Learning", "all"]:
+        if LEARNING_PATH.exists():
+            paths.extend(LEARNING_PATH.rglob("*.json"))
 
     for path in paths:
         if "TEMPLATE" in path.name:
@@ -1621,7 +1751,7 @@ Examples:
 
     # Filtering
     parser.add_argument("--category", "-c",
-                       choices=["Positions", "Transitions", "Submissions", "Principles", "Systems", "all"],
+                       choices=["Positions", "Transitions", "Submissions", "Principles", "Systems", "Learning", "all"],
                        default="all", help="Category to process (queue mode)")
     parser.add_argument("--errors-only", "-e", action="store_true",
                        help="Only process files with validation errors")
@@ -1672,6 +1802,7 @@ Domain-specific prompts:
     print(f"  Submissions: {len(refs['submissions'])}", flush=True)
     print(f"  Principles: {len(refs['principles'])}", flush=True)
     print(f"  Systems: {len(refs['systems'])}", flush=True)
+    print(f"  Learning: {len(refs.get('learning', []))}", flush=True)
     print()
 
     # Run-level summary

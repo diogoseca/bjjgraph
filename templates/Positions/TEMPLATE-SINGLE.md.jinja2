@@ -108,6 +108,8 @@ description: "{{ data.description }}"
 
 ## Position Definition
 
+<p class="section-subtitle">What is {{ data.name }}?</p>
+
 {% for invariant in data.state_invariants -%}
 - {{ invariant }}
 {% endfor %}
@@ -117,6 +119,8 @@ description: "{{ data.description }}"
 <section id="prerequisites" class="content-section">
 
 ## Prerequisites
+
+<p class="section-subtitle">What do you need before playing {{ data.name }}?</p>
 
 {% for prereq in data.prerequisites -%}
 - {{ prereq }}
@@ -128,6 +132,8 @@ description: "{{ data.description }}"
 
 ## Key Principles
 
+<p class="section-subtitle">What are the key principles for {{ data.name }}?</p>
+
 {% for principle in data.key_principles -%}
 - {{ principle }}
 {% endfor %}
@@ -137,6 +143,8 @@ description: "{{ data.description }}"
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from {{ data.name }}?</p>
 
 {% for node in data.decision_tree -%}
 **{{ node.condition }}:**
@@ -152,6 +160,8 @@ description: "{{ data.description }}"
 
 ## Common Mistakes
 
+<p class="section-subtitle">What mistakes should you avoid in {{ data.name }}?</p>
+
 {% for error in data.common_errors -%}
 ### {{ loop.index }}. {{ error.error }}
 
@@ -165,6 +175,8 @@ description: "{{ data.description }}"
 <section id="training-drills" class="content-section hide-minimal">
 
 ## Training Drills
+
+<p class="section-subtitle">How do you train {{ data.name }}?</p>
 
 {% for drill in data.training_drills -%}
 ### {{ drill.name }}

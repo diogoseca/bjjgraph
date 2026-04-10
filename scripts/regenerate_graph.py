@@ -234,6 +234,21 @@ def process_positions(content_dir: Path) -> dict:
                     'transitions': transitions
                 }
 
+    # Ensure terminal positions exist even without a source JSON file
+    for terminal_slug in TERMINAL_POSITIONS:
+        if terminal_slug not in positions:
+            positions[terminal_slug] = {
+                'name': terminal_slug.replace('-', ' ').title(),
+                'hub': terminal_slug,
+                'role': 'terminal',
+                'path': terminal_slug.replace('-', ' ').title(),
+                'pointValue': 0,
+                'positionType': 'Terminal',
+                'riskLevel': 'None',
+                'energyCost': 'None',
+                'transitions': []
+            }
+
     return positions
 
 
@@ -327,9 +342,17 @@ def process_transitions(content_dir: Path) -> dict:
                 'result': o.get('result', 'success')
             })
 
+        # Extract starting position role and path for outcome card navigation
+        starting_position_role = ''
+        starting_position_path = path_index.get(starting_position_slug, starting_position_slug)
+        if from_position_raw and '/' in from_position_raw:
+            starting_position_role = from_position_raw.split('/')[1].lower()
+
         trans_entry = {
             'name': trans_data['name'],
             'startingPosition': starting_position_slug,
+            'startingPositionPath': starting_position_path,
+            'startingPositionRole': starting_position_role,
             'endingPosition': ending_slug,
             'endingPositionPath': ending_path,
             'successRate': success_rate,
@@ -350,14 +373,21 @@ def process_transitions(content_dir: Path) -> dict:
 # Submission processing
 # ---------------------------------------------------------------------------
 
-def process_submissions(content_dir: Path) -> dict:
+def process_submissions(content_dir: Path) -> tuple[dict, set]:
+    """Process submissions. Returns (submissions_dict, hub_slugs_set)."""
     submissions_dir = content_dir / 'Submissions'
+    positions_dir = content_dir / 'Positions'
     submission_files = load_json_files(submissions_dir)
+    path_index = build_position_path_index(positions_dir)
     submissions = {}
+    hub_slugs = set()
 
     for sub_data in submission_files:
         if 'name' not in sub_data:
             continue
+        if sub_data.get('is_family', False):
+            hub_slugs.add(slugify(sub_data['name']))
+            continue  # Hub submissions are informational only, not graph nodes
 
         slug = slugify(sub_data['name'])
 
@@ -398,6 +428,15 @@ def process_submissions(content_dir: Path) -> dict:
             starting_position_slug = slugify(sub_data.get('starting_position', ''))
             from_position_slug = ''
 
+        # Extract starting position role and path for outcome card navigation
+        starting_position_role = ''
+        starting_position_path = ''
+        if from_position_raw and '/' in from_position_raw:
+            starting_position_role = from_position_raw.split('/')[1].lower()
+            starting_position_path = path_index.get(starting_position_slug, starting_position_slug)
+        elif starting_position_slug:
+            starting_position_path = path_index.get(starting_position_slug, starting_position_slug)
+
         sub_entry = {
             'name': sub_data['name'],
             'isTerminal': True,
@@ -405,6 +444,8 @@ def process_submissions(content_dir: Path) -> dict:
             'type': sub_data.get('submission_type', 'Unknown'),
             'targetArea': sub_data.get('target_area', 'Unknown'),
             'startingPosition': starting_position_slug,
+            'startingPositionPath': starting_position_path,
+            'startingPositionRole': starting_position_role,
             'fromPositions': from_positions,
             'successRate': success_rate,
             'knowledgeAssessment': knowledge_assessment,
@@ -428,7 +469,7 @@ def process_submissions(content_dir: Path) -> dict:
 
         submissions[slug] = sub_entry
 
-    return submissions
+    return submissions, hub_slugs
 
 
 # ---------------------------------------------------------------------------
@@ -549,8 +590,8 @@ def generate_state_graph(project_root: Path) -> dict:
     transitions = process_transitions(content_dir)
     print(f"  Processed {len(transitions)} transitions")
 
-    submissions = process_submissions(content_dir)
-    print(f"  Processed {len(submissions)} submissions")
+    submissions, hub_slugs = process_submissions(content_dir)
+    print(f"  Processed {len(submissions)} submissions ({len(hub_slugs)} hubs excluded)")
 
     # Override success rates with community votes
     if vote_rates:
@@ -568,12 +609,12 @@ def generate_state_graph(project_root: Path) -> dict:
         if vote_overrides:
             print(f"  Applied {vote_overrides} community vote rate override(s)")
 
-    # Mark position transitions that target submissions (Problem 3)
-    submission_slugs = set(submissions.keys())
+    # Mark position transitions that target submissions (including family hubs)
+    all_submission_slugs = set(submissions.keys()) | hub_slugs
     marked_count = 0
     for pos_data in positions.values():
         for t in pos_data.get('transitions', []):
-            if t.get('target', '') in submission_slugs:
+            if t.get('target', '') in all_submission_slugs:
                 t['isSubmission'] = True
                 marked_count += 1
     if marked_count:
@@ -586,7 +627,7 @@ def generate_state_graph(project_root: Path) -> dict:
             target_slug = t.get('target', '')
             if target_slug in transitions:
                 t['successRate'] = transitions[target_slug].get('successRate', 50)
-            elif target_slug in submission_slugs:
+            elif target_slug in all_submission_slugs and target_slug in submissions:
                 t['successRate'] = submissions[target_slug].get('successRate', 50)
             else:
                 t['successRate'] = 50
@@ -659,6 +700,46 @@ def generate_state_graph(project_root: Path) -> dict:
                 opp_t['isSubmission'] = True
     if mismarked:
         print(f"  Auto-fixed {mismarked} mismarked submission opponentTransition(s)")
+
+    # Rewrite generic submission outcomes to position-specific variants when available
+    rewrite_count = 0
+    for t_key, t_data in transitions.items():
+        start_path = t_data.get('startingPositionPath', '')
+        if not start_path:
+            continue
+        # Use the leaf position name (e.g., "Side-Control" from "Side-Control/Top")
+        leaf = start_path.split('/')[-1] if '/' in start_path else start_path
+        leaf_slug = slugify(leaf)
+
+        for outcome in t_data.get('outcomes', []):
+            to_slug = outcome.get('to', '')
+            if to_slug == 'game-over' or '-from-' in to_slug:
+                continue
+            # Match both active submissions and hub slugs (hubs excluded from graph)
+            if to_slug not in submissions and to_slug not in hub_slugs:
+                continue
+            variant_slug = f'{to_slug}-from-{leaf_slug}'
+            if variant_slug in submissions:
+                outcome['to'] = variant_slug
+                rewrite_count += 1
+    if rewrite_count:
+        print(f"  Rewrote {rewrite_count} outcome(s) to position-specific submission variants")
+
+    # Post-process endingPosition: submission targets → game-over
+    # (process_transitions runs before submissions are known, so it can't
+    # detect submission slugs and incorrectly appends /top)
+    ending_rewrite_count = 0
+    for t_data in transitions.values():
+        ending = t_data.get('endingPosition', '')
+        if not ending:
+            continue
+        base = ending.rsplit('/top', 1)[0] if ending.endswith('/top') else ending
+        if base in all_submission_slugs:
+            t_data['endingPosition'] = 'game-over'
+            t_data['endingPositionPath'] = 'Game-Over'
+            ending_rewrite_count += 1
+    if ending_rewrite_count:
+        print(f"  Rewrote {ending_rewrite_count} endingPosition(s) from submission to game-over")
 
     all_position_slugs = sorted(positions.keys())
 

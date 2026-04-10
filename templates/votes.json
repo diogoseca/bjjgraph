@@ -1,5 +1,5 @@
 {
-  "last_updated_at": null,
+  "last_updated_at": "2026-04-10T09:34:38.538030Z",
   "votes": {
     "100% Sweep": {
       "success_rate": 50.0,
@@ -490,8 +490,8 @@
       "vote_count": 30
     },
     "Berimbolo Entry": {
-      "success_rate": 55.0,
-      "vote_count": 30
+      "success_rate": 55.03,
+      "vote_count": 31
     },
     "Bicep Slicer": {
       "success_rate": 52.0,
@@ -622,8 +622,8 @@
       "vote_count": 30
     },
     "Bridge and Roll": {
-      "success_rate": 55.0,
-      "vote_count": 30
+      "success_rate": 55.39,
+      "vote_count": 31
     },
     "Bridge and Turn to Turtle": {
       "success_rate": 50.0,
@@ -1079,7 +1079,7 @@
     },
     "Deep Half Entry": {
       "success_rate": 55.0,
-      "vote_count": 30
+      "vote_count": 31
     },
     "Deep Half Entry from Flattened": {
       "success_rate": 55.0,
@@ -1167,7 +1167,7 @@
     },
     "Double Under Pass": {
       "success_rate": 68.0,
-      "vote_count": 30
+      "vote_count": 31
     },
     "Double Underhook Pass": {
       "success_rate": 58.0,
@@ -1195,11 +1195,11 @@
     },
     "Elbow Escape from Mount": {
       "success_rate": 55.0,
-      "vote_count": 30
+      "vote_count": 31
     },
     "Elbow Escape to Guard": {
       "success_rate": 58.0,
-      "vote_count": 30
+      "vote_count": 31
     },
     "Elbow Escape to Remove Hooks": {
       "success_rate": 48.0,
@@ -1614,8 +1614,8 @@
       "vote_count": 30
     },
     "Granby Roll to Guard": {
-      "success_rate": 58.0,
-      "vote_count": 30
+      "success_rate": 58.23,
+      "vote_count": 31
     },
     "Granby to Closed Guard": {
       "success_rate": 58.0,
@@ -1971,7 +1971,7 @@
     },
     "Hip Escape to Guard": {
       "success_rate": 55.0,
-      "vote_count": 30
+      "vote_count": 31
     },
     "Hip Escape to Turtle": {
       "success_rate": 55.0,
@@ -2011,7 +2011,7 @@
     },
     "Inside Ashi Entry": {
       "success_rate": 58.0,
-      "vote_count": 30
+      "vote_count": 31
     },
     "Inside Ashi to Outside Ashi": {
       "success_rate": 55.0,
@@ -2286,8 +2286,8 @@
       "vote_count": 30
     },
     "Knee Slice Pass": {
-      "success_rate": 68.0,
-      "vote_count": 30
+      "success_rate": 68.03,
+      "vote_count": 32
     },
     "Knee Slice from Butterfly Half": {
       "success_rate": 50.0,
@@ -2327,7 +2327,7 @@
     },
     "Knee Slide from Combat Base": {
       "success_rate": 55.0,
-      "vote_count": 30
+      "vote_count": 31
     },
     "Knee Slide from Flattened Half": {
       "success_rate": 55.0,
@@ -2767,7 +2767,7 @@
     },
     "Mount to Armbar": {
       "success_rate": 55.0,
-      "vote_count": 30
+      "vote_count": 31
     },
     "Mount to Knee on Belly": {
       "success_rate": 60.0,
@@ -2866,8 +2866,8 @@
       "vote_count": 30
     },
     "Old School Sweep": {
-      "success_rate": 46.0,
-      "vote_count": 30
+      "success_rate": 46.06,
+      "vote_count": 32
     },
     "Old School Sweep from Bottom": {
       "success_rate": 55.0,
@@ -2878,8 +2878,8 @@
       "vote_count": 30
     },
     "Omoplata": {
-      "success_rate": 52.0,
-      "vote_count": 30
+      "success_rate": 51.94,
+      "vote_count": 31
     },
     "Omoplata Sweep": {
       "success_rate": 55.0,
@@ -2934,8 +2934,8 @@
       "vote_count": 30
     },
     "Outside Ashi Entry": {
-      "success_rate": 58.0,
-      "vote_count": 30
+      "success_rate": 57.97,
+      "vote_count": 31
     },
     "Outside Ashi to Inside Ashi": {
       "success_rate": 55.0,
@@ -2943,7 +2943,7 @@
     },
     "Outside Heel Hook": {
       "success_rate": 45.0,
-      "vote_count": 30
+      "vote_count": 31
     },
     "Outside Heel Hook Adjustment": {
       "success_rate": 58.0,
@@ -3267,7 +3267,7 @@
     },
     "Rear Naked Choke": {
       "success_rate": 65.0,
-      "vote_count": 30
+      "vote_count": 31
     },
     "Rear Naked Choke Setup": {
       "success_rate": 65.0,
@@ -3406,8 +3406,8 @@
       "vote_count": 30
     },
     "Reverse X-Guard Entry": {
-      "success_rate": 58.0,
-      "vote_count": 30
+      "success_rate": 58.06,
+      "vote_count": 31
     },
     "Reverse X-Guard Sweep": {
       "success_rate": 58.0,
@@ -3746,8 +3746,8 @@
       "vote_count": 30
     },
     "Side Control to Mount": {
-      "success_rate": 68.0,
-      "vote_count": 30
+      "success_rate": 68.03,
+      "vote_count": 31
     },
     "Side Control to North-South": {
       "success_rate": 78.0,
@@ -3774,8 +3774,8 @@
       "vote_count": 30
     },
     "Single Leg X Entry": {
-      "success_rate": 60.0,
-      "vote_count": 30
+      "success_rate": 60.32,
+      "vote_count": 31
     },
     "Single Leg X Recovery": {
       "success_rate": 55.0,
@@ -4310,8 +4310,8 @@
       "vote_count": 30
     },
     "Technical Stand-up": {
-      "success_rate": 85.0,
-      "vote_count": 30
+      "success_rate": 85.12,
+      "vote_count": 32
     },
     "Technical Standup from Inversion": {
       "success_rate": 58.0,
@@ -4655,7 +4655,7 @@
     },
     "Underhook Sweep from Half": {
       "success_rate": 58.0,
-      "vote_count": 30
+      "vote_count": 31
     },
     "Underhook Sweep from Pocket Half": {
       "success_rate": 43.0,
@@ -4670,8 +4670,8 @@
       "vote_count": 30
     },
     "Ushiro Ashi-Garami Escape": {
-      "success_rate": 58.0,
-      "vote_count": 30
+      "success_rate": 57.97,
+      "vote_count": 31
     },
     "Ushiro Ashi-Garami to Deep Half": {
       "success_rate": 55.0,
@@ -4731,7 +4731,7 @@
     },
     "X-Guard Sweep": {
       "success_rate": 58.0,
-      "vote_count": 30
+      "vote_count": 31
     },
     "X-Guard Technical Stand Up": {
       "success_rate": 55.0,
@@ -4755,6 +4755,1618 @@
     },
     "Z-Guard to Half Guard": {
       "success_rate": 55.0,
+      "vote_count": 30
+    },
+    "Hindulotine": {
+      "success_rate": 40.0,
+      "vote_count": 30
+    },
+    "from Honey Hole": {
+      "success_rate": 60.0,
+      "vote_count": 30
+    },
+    "from Ushiro Ashi-Garami": {
+      "success_rate": 45.0,
+      "vote_count": 30
+    },
+    "from Mounted Triangle": {
+      "success_rate": 50.0,
+      "vote_count": 30
+    },
+    "from Crackhead Control": {
+      "success_rate": 52.0,
+      "vote_count": 30
+    },
+    "from Triangle Control": {
+      "success_rate": 60.0,
+      "vote_count": 30
+    },
+    "from Crucifix": {
+      "success_rate": 65.0,
+      "vote_count": 30
+    },
+    "from Seat Belt": {
+      "success_rate": 55.0,
+      "vote_count": 30
+    },
+    "from Gift Wrap": {
+      "success_rate": 65.0,
+      "vote_count": 30
+    },
+    "from Seat Belt Control Back": {
+      "success_rate": 65.0,
+      "vote_count": 30
+    },
+    "from Back Control": {
+      "success_rate": 65.0,
+      "vote_count": 30
+    },
+    "from Harness": {
+      "success_rate": 65.0,
+      "vote_count": 30
+    },
+    "from Cross Body": {
+      "success_rate": 50.0,
+      "vote_count": 30
+    },
+    "from Body Triangle": {
+      "success_rate": 65.0,
+      "vote_count": 30
+    },
+    "from Armbar Control": {
+      "success_rate": 50.0,
+      "vote_count": 30
+    },
+    "from Side Control": {
+      "success_rate": 50.0,
+      "vote_count": 30
+    },
+    "from Kuzure Kesa-Gatame": {
+      "success_rate": 50.0,
+      "vote_count": 30
+    },
+    "from Standing": {
+      "success_rate": 58.0,
+      "vote_count": 30
+    },
+    "from Guard": {
+      "success_rate": 52.0,
+      "vote_count": 30
+    },
+    "from Butterfly Guard": {
+      "success_rate": 62.0,
+      "vote_count": 30
+    },
+    "from Scarf Hold Position": {
+      "success_rate": 50.0,
+      "vote_count": 30
+    },
+    "from Modified Scarf Hold": {
+      "success_rate": 50.0,
+      "vote_count": 30
+    },
+    "from High Mount": {
+      "success_rate": 68.0,
+      "vote_count": 30
+    },
+    "from Knee Shield Half Guard": {
+      "success_rate": 50.0,
+      "vote_count": 30
+    },
+    "from North-South": {
+      "success_rate": 68.0,
+      "vote_count": 30
+    },
+    "from Lasso Guard": {
+      "success_rate": 50.0,
+      "vote_count": 30
+    },
+    "from Front Headlock": {
+      "success_rate": 52.0,
+      "vote_count": 30
+    },
+    "from Lockdown": {
+      "success_rate": 62.0,
+      "vote_count": 30
+    },
+    "from Side Control Consolidation": {
+      "success_rate": 50.0,
+      "vote_count": 30
+    },
+    "from Kesa Gatame": {
+      "success_rate": 50.0,
+      "vote_count": 30
+    },
+    "from Reverse Kesa-Gatame": {
+      "success_rate": 68.0,
+      "vote_count": 30
+    },
+    "from Overhook Control": {
+      "success_rate": 62.0,
+      "vote_count": 30
+    },
+    "from Reverse Scarf Hold": {
+      "success_rate": 68.0,
+      "vote_count": 30
+    },
+    "from Modified Mount": {
+      "success_rate": 68.0,
+      "vote_count": 30
+    },
+    "from Knee on Belly": {
+      "success_rate": 58.0,
+      "vote_count": 30
+    },
+    "from Mount": {
+      "success_rate": 48.0,
+      "vote_count": 30
+    },
+    "from Shoulder of Justice": {
+      "success_rate": 68.0,
+      "vote_count": 30
+    },
+    "from Flattened Half Guard": {
+      "success_rate": 62.0,
+      "vote_count": 30
+    },
+    "from Twister Side Control": {
+      "success_rate": 40.0,
+      "vote_count": 30
+    },
+    "from New York Control": {
+      "success_rate": 50.0,
+      "vote_count": 30
+    },
+    "from Quarter Guard": {
+      "success_rate": 62.0,
+      "vote_count": 30
+    },
+    "from S Mount": {
+      "success_rate": 68.0,
+      "vote_count": 30
+    },
+    "from Turtle": {
+      "success_rate": 62.0,
+      "vote_count": 30
+    },
+    "from Kimura Trap": {
+      "success_rate": 68.0,
+      "vote_count": 30
+    },
+    "from Half Guard": {
+      "success_rate": 60.0,
+      "vote_count": 30
+    },
+    "from Dead Orchard": {
+      "success_rate": 50.0,
+      "vote_count": 30
+    },
+    "from Closed Guard": {
+      "success_rate": 65.0,
+      "vote_count": 30
+    },
+    "from Cross Ashi-Garami": {
+      "success_rate": 45.0,
+      "vote_count": 30
+    },
+    "from Inside Ashi-Garami": {
+      "success_rate": 60.0,
+      "vote_count": 30
+    },
+    "from Grasshopper Guard": {
+      "success_rate": 45.0,
+      "vote_count": 30
+    },
+    "from 50-50 Guard": {
+      "success_rate": 45.0,
+      "vote_count": 30
+    },
+    "from Ushiro Ashi": {
+      "success_rate": 45.0,
+      "vote_count": 30
+    },
+    "from Carni": {
+      "success_rate": 60.0,
+      "vote_count": 30
+    },
+    "from Ashi Garami": {
+      "success_rate": 60.0,
+      "vote_count": 30
+    },
+    "from Saddle": {
+      "success_rate": 45.0,
+      "vote_count": 30
+    },
+    "from Kneebar Control": {
+      "success_rate": 60.0,
+      "vote_count": 30
+    },
+    "from Inside Sankaku": {
+      "success_rate": 60.0,
+      "vote_count": 30
+    },
+    "from Darce Control": {
+      "success_rate": 62.0,
+      "vote_count": 30
+    },
+    "from Backside 50-50": {
+      "success_rate": 45.0,
+      "vote_count": 30
+    },
+    "from Truck": {
+      "success_rate": 58.0,
+      "vote_count": 30
+    },
+    "from 50-50": {
+      "success_rate": 60.0,
+      "vote_count": 30
+    },
+    "from Twister Control": {
+      "success_rate": 62.0,
+      "vote_count": 30
+    },
+    "from Russian Cowboy": {
+      "success_rate": 40.0,
+      "vote_count": 30
+    },
+    "from Rodeo Ride": {
+      "success_rate": 58.0,
+      "vote_count": 30
+    },
+    "from Rear Triangle": {
+      "success_rate": 65.0,
+      "vote_count": 30
+    },
+    "from Leg Drag": {
+      "success_rate": 45.0,
+      "vote_count": 30
+    },
+    "from X-Guard": {
+      "success_rate": 40.0,
+      "vote_count": 30
+    },
+    "from Outside Ashi": {
+      "success_rate": 40.0,
+      "vote_count": 30
+    },
+    "from Leg Entanglement": {
+      "success_rate": 45.0,
+      "vote_count": 30
+    },
+    "from Top": {
+      "success_rate": 55.0,
+      "vote_count": 30
+    },
+    "from Estima Lock": {
+      "success_rate": 55.0,
+      "vote_count": 30
+    },
+    "from Toe Hold Control": {
+      "success_rate": 60.0,
+      "vote_count": 30
+    },
+    "from Hindulotine": {
+      "success_rate": 62.0,
+      "vote_count": 30
+    },
+    "from Guillotine Control": {
+      "success_rate": 62.0,
+      "vote_count": 30
+    },
+    "from Reverse Scarf": {
+      "success_rate": 42.0,
+      "vote_count": 30
+    },
+    "from Back": {
+      "success_rate": 60.0,
+      "vote_count": 30
+    },
+    "from Technical Mount": {
+      "success_rate": 45.0,
+      "vote_count": 30
+    },
+    "from Back with Legs": {
+      "success_rate": 58.0,
+      "vote_count": 30
+    },
+    "from KOB": {
+      "success_rate": 42.0,
+      "vote_count": 30
+    },
+    "from 3-4 Mount": {
+      "success_rate": 45.0,
+      "vote_count": 30
+    },
+    "from Invisible Collar": {
+      "success_rate": 58.0,
+      "vote_count": 30
+    },
+    "from Mounted Crucifix": {
+      "success_rate": 50.0,
+      "vote_count": 30
+    },
+    "from Rodeo": {
+      "success_rate": 50.0,
+      "vote_count": 30
+    },
+    "from Standing Back Control": {
+      "success_rate": 65.0,
+      "vote_count": 30
+    },
+    "from Reverse Kesa": {
+      "success_rate": 50.0,
+      "vote_count": 30
+    },
+    "from Clinch": {
+      "success_rate": 40.0,
+      "vote_count": 30
+    },
+    "from Twister SC": {
+      "success_rate": 45.0,
+      "vote_count": 30
+    },
+    "from Spider Guard": {
+      "success_rate": 62.0,
+      "vote_count": 30
+    },
+    "from Rubber Guard": {
+      "success_rate": 52.0,
+      "vote_count": 30
+    },
+    "from Omoplata Control": {
+      "success_rate": 52.0,
+      "vote_count": 30
+    },
+    "from Russian Leg Lasso": {
+      "success_rate": 52.0,
+      "vote_count": 30
+    },
+    "from Inverted Guard": {
+      "success_rate": 52.0,
+      "vote_count": 30
+    },
+    "from De La Riva Guard": {
+      "success_rate": 52.0,
+      "vote_count": 30
+    },
+    "from Double Sleeve Guard": {
+      "success_rate": 52.0,
+      "vote_count": 30
+    },
+    "from Straight Ankle Lock Control": {
+      "success_rate": 60.0,
+      "vote_count": 30
+    },
+    "from Outside Ashi-Garami": {
+      "success_rate": 45.0,
+      "vote_count": 30
+    },
+    "from Cross Ashi": {
+      "success_rate": 50.0,
+      "vote_count": 30
+    },
+    "from Open Guard": {
+      "success_rate": 40.0,
+      "vote_count": 30
+    },
+    "from New York": {
+      "success_rate": 50.0,
+      "vote_count": 30
+    },
+    "from Williams Guard": {
+      "success_rate": 52.0,
+      "vote_count": 30
+    },
+    "from Mission Control": {
+      "success_rate": 50.0,
+      "vote_count": 30
+    },
+    "from Rear Clinch": {
+      "success_rate": 35.0,
+      "vote_count": 30
+    },
+    "from Spider Guard Bottom": {
+      "success_rate": 40.0,
+      "vote_count": 30
+    },
+    "from De La Riva": {
+      "success_rate": 52.0,
+      "vote_count": 30
+    },
+    "from Buggy Choke": {
+      "success_rate": 45.0,
+      "vote_count": 30
+    },
+    "from Scarf Hold": {
+      "success_rate": 50.0,
+      "vote_count": 30
+    },
+    "from Aoki Lock": {
+      "success_rate": 50.0,
+      "vote_count": 30
+    },
+    "Finish": {
+      "success_rate": 55.0,
+      "vote_count": 30
+    },
+    "from Dead Orchard Control": {
+      "success_rate": 55.0,
+      "vote_count": 30
+    },
+    "Armbar from New York": {
+      "success_rate": 45.0,
+      "vote_count": 30
+    },
+    "Mounted Triangle Finish from Mounted Triangle": {
+      "success_rate": 50.0,
+      "vote_count": 30
+    },
+    "Can Opener from Closed Guard": {
+      "success_rate": 30.0,
+      "vote_count": 30
+    },
+    "Japanese Necktie from Front Headlock": {
+      "success_rate": 58.0,
+      "vote_count": 30
+    },
+    "Estima Lock Finish from Estima Lock": {
+      "success_rate": 50.0,
+      "vote_count": 30
+    },
+    "Gift Wrap RNC from Gift Wrap": {
+      "success_rate": 55.0,
+      "vote_count": 30
+    },
+    "Inside Heel Hook from Ushiro Ashi-Garami": {
+      "success_rate": 52.0,
+      "vote_count": 30
+    },
+    "Triangle Choke from Mounted Triangle": {
+      "success_rate": 65.0,
+      "vote_count": 30
+    },
+    "Triangle Choke from Crackhead Control": {
+      "success_rate": 65.0,
+      "vote_count": 30
+    },
+    "Triangle Choke from Triangle Control": {
+      "success_rate": 65.0,
+      "vote_count": 30
+    },
+    "Arm Crush from Side Control": {
+      "success_rate": 52.0,
+      "vote_count": 30
+    },
+    "Aoki Lock from Ashi Garami": {
+      "success_rate": 50.0,
+      "vote_count": 30
+    },
+    "Short Choke from Gift Wrap": {
+      "success_rate": 58.0,
+      "vote_count": 30
+    },
+    "Short Choke from Seat Belt Control Back": {
+      "success_rate": 58.0,
+      "vote_count": 30
+    },
+    "Short Choke from Back Control": {
+      "success_rate": 58.0,
+      "vote_count": 30
+    },
+    "Short Choke from Harness": {
+      "success_rate": 58.0,
+      "vote_count": 30
+    },
+    "Short Choke from Body Triangle": {
+      "success_rate": 58.0,
+      "vote_count": 30
+    },
+    "Chin Strap Guillotine from Front Headlock": {
+      "success_rate": 58.0,
+      "vote_count": 30
+    },
+    "Inverted Triangle from Triangle Control": {
+      "success_rate": 60.0,
+      "vote_count": 30
+    },
+    "Belly Down Armbar from Turtle": {
+      "success_rate": 60.0,
+      "vote_count": 30
+    },
+    "Belly Down Armbar from Armbar Control": {
+      "success_rate": 60.0,
+      "vote_count": 30
+    },
+    "Breadcutter Choke from Side Control": {
+      "success_rate": 58.0,
+      "vote_count": 30
+    },
+    "Breadcutter Choke from Kuzure Kesa-Gatame": {
+      "success_rate": 58.0,
+      "vote_count": 30
+    },
+    "Rolling Omoplata from Omoplata Control": {
+      "success_rate": 50.0,
+      "vote_count": 30
+    },
+    "Kimura from Kuzure Kesa-Gatame": {
+      "success_rate": 62.0,
+      "vote_count": 30
+    },
+    "Kimura from Butterfly Guard": {
+      "success_rate": 62.0,
+      "vote_count": 30
+    },
+    "Kimura from Gift Wrap": {
+      "success_rate": 62.0,
+      "vote_count": 30
+    },
+    "Kimura from Scarf Hold Position": {
+      "success_rate": 62.0,
+      "vote_count": 30
+    },
+    "Kimura from High Mount": {
+      "success_rate": 62.0,
+      "vote_count": 30
+    },
+    "Kimura from Knee Shield Half Guard": {
+      "success_rate": 50.0,
+      "vote_count": 30
+    },
+    "Kimura from Lasso Guard": {
+      "success_rate": 62.0,
+      "vote_count": 30
+    },
+    "Kimura from Crucifix": {
+      "success_rate": 62.0,
+      "vote_count": 30
+    },
+    "Kimura from Front Headlock": {
+      "success_rate": 62.0,
+      "vote_count": 30
+    },
+    "Kimura from Lockdown": {
+      "success_rate": 62.0,
+      "vote_count": 30
+    },
+    "Kimura from Side Control Consolidation": {
+      "success_rate": 62.0,
+      "vote_count": 30
+    },
+    "Kimura from Kesa Gatame": {
+      "success_rate": 62.0,
+      "vote_count": 30
+    },
+    "Kimura from Reverse Kesa-Gatame": {
+      "success_rate": 62.0,
+      "vote_count": 30
+    },
+    "Kimura from Overhook Control": {
+      "success_rate": 62.0,
+      "vote_count": 30
+    },
+    "Kimura from Reverse Scarf Hold": {
+      "success_rate": 62.0,
+      "vote_count": 30
+    },
+    "Kimura from Modified Mount": {
+      "success_rate": 62.0,
+      "vote_count": 30
+    },
+    "Kimura from Knee on Belly": {
+      "success_rate": 62.0,
+      "vote_count": 30
+    },
+    "Kimura from Flattened Half Guard": {
+      "success_rate": 62.0,
+      "vote_count": 30
+    },
+    "Kimura from Twister Side Control": {
+      "success_rate": 62.0,
+      "vote_count": 30
+    },
+    "Kimura from New York Control": {
+      "success_rate": 62.0,
+      "vote_count": 30
+    },
+    "Kimura from Quarter Guard": {
+      "success_rate": 62.0,
+      "vote_count": 30
+    },
+    "Kimura from S Mount": {
+      "success_rate": 62.0,
+      "vote_count": 30
+    },
+    "Kimura from Armbar Control": {
+      "success_rate": 62.0,
+      "vote_count": 30
+    },
+    "Buggy Choke from Half Guard": {
+      "success_rate": 52.0,
+      "vote_count": 30
+    },
+    "Ezekiel Choke from Closed Guard": {
+      "success_rate": 58.0,
+      "vote_count": 30
+    },
+    "Electric Chair Finish from Electric Chair": {
+      "success_rate": 42.0,
+      "vote_count": 30
+    },
+    "Marce Choke from Side Control": {
+      "success_rate": 58.0,
+      "vote_count": 30
+    },
+    "Spine Lock from Truck": {
+      "success_rate": 40.0,
+      "vote_count": 30
+    },
+    "Heel Hook from Cross Ashi-Garami": {
+      "success_rate": 45.0,
+      "vote_count": 30
+    },
+    "Heel Hook from Inside Ashi-Garami": {
+      "success_rate": 45.0,
+      "vote_count": 30
+    },
+    "Heel Hook from Honey Hole": {
+      "success_rate": 45.0,
+      "vote_count": 30
+    },
+    "Heel Hook from Grasshopper Guard": {
+      "success_rate": 45.0,
+      "vote_count": 30
+    },
+    "Heel Hook from 50-50 Guard": {
+      "success_rate": 45.0,
+      "vote_count": 30
+    },
+    "Heel Hook from Carni": {
+      "success_rate": 45.0,
+      "vote_count": 30
+    },
+    "Heel Hook from Ashi Garami": {
+      "success_rate": 45.0,
+      "vote_count": 30
+    },
+    "Heel Hook from Kneebar Control": {
+      "success_rate": 45.0,
+      "vote_count": 30
+    },
+    "Heel Hook from Inside Sankaku": {
+      "success_rate": 45.0,
+      "vote_count": 30
+    },
+    "Darce Choke from Overhook Control": {
+      "success_rate": 62.0,
+      "vote_count": 30
+    },
+    "Darce Choke from Darce Control": {
+      "success_rate": 62.0,
+      "vote_count": 30
+    },
+    "Darce Choke from Twister Side Control": {
+      "success_rate": 62.0,
+      "vote_count": 30
+    },
+    "Calf Slicer from Backside 50-50": {
+      "success_rate": 50.0,
+      "vote_count": 30
+    },
+    "Calf Slicer from Twister Control": {
+      "success_rate": 50.0,
+      "vote_count": 30
+    },
+    "Calf Slicer from Honey Hole": {
+      "success_rate": 50.0,
+      "vote_count": 30
+    },
+    "Calf Slicer from Twister Side Control": {
+      "success_rate": 50.0,
+      "vote_count": 30
+    },
+    "Calf Slicer from 50-50 Guard": {
+      "success_rate": 50.0,
+      "vote_count": 30
+    },
+    "Calf Slicer from Carni": {
+      "success_rate": 50.0,
+      "vote_count": 30
+    },
+    "Calf Slicer from Saddle": {
+      "success_rate": 50.0,
+      "vote_count": 30
+    },
+    "Calf Slicer from Russian Cowboy": {
+      "success_rate": 50.0,
+      "vote_count": 30
+    },
+    "Calf Slicer from Inside Sankaku": {
+      "success_rate": 50.0,
+      "vote_count": 30
+    },
+    "Loop Choke from Side Control": {
+      "success_rate": 55.0,
+      "vote_count": 30
+    },
+    "Loop Choke from Closed Guard": {
+      "success_rate": 55.0,
+      "vote_count": 30
+    },
+    "Loop Choke from Turtle": {
+      "success_rate": 58.0,
+      "vote_count": 30
+    },
+    "Loop Choke from Half Guard": {
+      "success_rate": 40.0,
+      "vote_count": 30
+    },
+    "Paper Cutter Choke from Kuzure Kesa-Gatame": {
+      "success_rate": 62.0,
+      "vote_count": 30
+    },
+    "Rear Triangle Choke from Rear Triangle": {
+      "success_rate": 50.0,
+      "vote_count": 30
+    },
+    "Gogoplata from Gogoplata Control": {
+      "success_rate": 40.0,
+      "vote_count": 30
+    },
+    "Baratoplata from Crackhead Control": {
+      "success_rate": 42.0,
+      "vote_count": 30
+    },
+    "Inside Sankaku Heel Hook Finish from Inside Sankaku": {
+      "success_rate": 50.0,
+      "vote_count": 30
+    },
+    "Toe Hold from Backside 50-50": {
+      "success_rate": 60.0,
+      "vote_count": 30
+    },
+    "Toe Hold from Cross Ashi-Garami": {
+      "success_rate": 60.0,
+      "vote_count": 30
+    },
+    "Toe Hold from Leg Entanglement": {
+      "success_rate": 60.0,
+      "vote_count": 30
+    },
+    "Toe Hold from Inside Ashi-Garami": {
+      "success_rate": 60.0,
+      "vote_count": 30
+    },
+    "Toe Hold from Honey Hole": {
+      "success_rate": 60.0,
+      "vote_count": 30
+    },
+    "Toe Hold from Ushiro Ashi-Garami": {
+      "success_rate": 50.0,
+      "vote_count": 30
+    },
+    "Toe Hold from Toe Hold Control": {
+      "success_rate": 60.0,
+      "vote_count": 30
+    },
+    "Toe Hold from 50-50 Guard": {
+      "success_rate": 60.0,
+      "vote_count": 30
+    },
+    "Toe Hold from Ashi Garami": {
+      "success_rate": 60.0,
+      "vote_count": 30
+    },
+    "Toe Hold from Saddle": {
+      "success_rate": 60.0,
+      "vote_count": 30
+    },
+    "Toe Hold from Kneebar Control": {
+      "success_rate": 60.0,
+      "vote_count": 30
+    },
+    "Toe Hold from Inside Sankaku": {
+      "success_rate": 60.0,
+      "vote_count": 30
+    },
+    "Reverse Armbar from Mount": {
+      "success_rate": 58.0,
+      "vote_count": 30
+    },
+    "High Elbow Guillotine from Hindulotine": {
+      "success_rate": 58.0,
+      "vote_count": 30
+    },
+    "High Elbow Guillotine from Guillotine Control": {
+      "success_rate": 58.0,
+      "vote_count": 30
+    },
+    "Electric Chair Submission from Deep Half Guard": {
+      "success_rate": 62.0,
+      "vote_count": 30
+    },
+    "Estima Lock from Honey Hole": {
+      "success_rate": 55.0,
+      "vote_count": 30
+    },
+    "Estima Lock from Estima Lock": {
+      "success_rate": 55.0,
+      "vote_count": 30
+    },
+    "Estima Lock from Saddle": {
+      "success_rate": 55.0,
+      "vote_count": 30
+    },
+    "Suloev Stretch from Half Guard": {
+      "success_rate": 60.0,
+      "vote_count": 30
+    },
+    "North-South Choke from Side Control": {
+      "success_rate": 58.0,
+      "vote_count": 30
+    },
+    "North-South Choke from Modified Scarf Hold": {
+      "success_rate": 58.0,
+      "vote_count": 30
+    },
+    "North-South Choke from North-South": {
+      "success_rate": 58.0,
+      "vote_count": 30
+    },
+    "North-South Choke from Side Control Consolidation": {
+      "success_rate": 58.0,
+      "vote_count": 30
+    },
+    "North-South Choke from Kesa Gatame": {
+      "success_rate": 58.0,
+      "vote_count": 30
+    },
+    "North-South Choke from Shoulder of Justice": {
+      "success_rate": 58.0,
+      "vote_count": 30
+    },
+    "Armbar from Armbar Control": {
+      "success_rate": 58.0,
+      "vote_count": 30
+    },
+    "Cross Collar Choke from Closed Guard": {
+      "success_rate": 58.0,
+      "vote_count": 30
+    },
+    "Cross Collar Choke from 3-4 Mount": {
+      "success_rate": 58.0,
+      "vote_count": 30
+    },
+    "Cross Collar Choke from Modified Mount": {
+      "success_rate": 58.0,
+      "vote_count": 30
+    },
+    "Cross Collar Choke from Knee on Belly": {
+      "success_rate": 58.0,
+      "vote_count": 30
+    },
+    "Cross Collar Choke from Mount": {
+      "success_rate": 58.0,
+      "vote_count": 30
+    },
+    "Cross Collar Choke from Invisible Collar": {
+      "success_rate": 58.0,
+      "vote_count": 30
+    },
+    "Cross Collar Choke from Body Triangle": {
+      "success_rate": 58.0,
+      "vote_count": 30
+    },
+    "Bow and Arrow Choke from Truck": {
+      "success_rate": 58.0,
+      "vote_count": 30
+    },
+    "Bow and Arrow Choke from Seat Belt Control Back": {
+      "success_rate": 62.0,
+      "vote_count": 30
+    },
+    "Bow and Arrow Choke from Back Control": {
+      "success_rate": 62.0,
+      "vote_count": 30
+    },
+    "Bow and Arrow Choke from Harness": {
+      "success_rate": 62.0,
+      "vote_count": 30
+    },
+    "Bow and Arrow Choke from Rear Triangle": {
+      "success_rate": 62.0,
+      "vote_count": 30
+    },
+    "Bow and Arrow Choke from Invisible Collar": {
+      "success_rate": 62.0,
+      "vote_count": 30
+    },
+    "Bow and Arrow Choke from Body Triangle": {
+      "success_rate": 62.0,
+      "vote_count": 30
+    },
+    "Bow and Arrow Choke from Russian Cowboy": {
+      "success_rate": 62.0,
+      "vote_count": 30
+    },
+    "Bow and Arrow Choke from Rodeo Ride": {
+      "success_rate": 62.0,
+      "vote_count": 30
+    },
+    "Body Triangle RNC from Body Triangle": {
+      "success_rate": 55.0,
+      "vote_count": 30
+    },
+    "Reverse Kimura from Standing Position": {
+      "success_rate": 52.0,
+      "vote_count": 30
+    },
+    "Hindulotine Choke from Hindulotine": {
+      "success_rate": 55.0,
+      "vote_count": 30
+    },
+    "Tarikoplata from Closed Guard": {
+      "success_rate": 45.0,
+      "vote_count": 30
+    },
+    "Hindulotine from Hindulotine": {
+      "success_rate": 40.0,
+      "vote_count": 30
+    },
+    "Triangle Choke Back from Back Control": {
+      "success_rate": 58.0,
+      "vote_count": 30
+    },
+    "Russian Cowboy RNC from Russian Cowboy": {
+      "success_rate": 50.0,
+      "vote_count": 30
+    },
+    "Neck Crank from Mounted Crucifix": {
+      "success_rate": 40.0,
+      "vote_count": 30
+    },
+    "Neck Crank from Twister Control": {
+      "success_rate": 40.0,
+      "vote_count": 30
+    },
+    "Mounted Crucifix Armbar from Mounted Crucifix": {
+      "success_rate": 50.0,
+      "vote_count": 30
+    },
+    "Rear Naked Choke from Mounted Crucifix": {
+      "success_rate": 65.0,
+      "vote_count": 30
+    },
+    "Rear Naked Choke from Gift Wrap": {
+      "success_rate": 65.0,
+      "vote_count": 30
+    },
+    "Rear Naked Choke from Seat Belt Control Back": {
+      "success_rate": 65.0,
+      "vote_count": 30
+    },
+    "Rear Naked Choke from Crucifix": {
+      "success_rate": 65.0,
+      "vote_count": 30
+    },
+    "Rear Naked Choke from Back Control": {
+      "success_rate": 65.0,
+      "vote_count": 30
+    },
+    "Rear Naked Choke from Standing Back Control": {
+      "success_rate": 65.0,
+      "vote_count": 30
+    },
+    "Rear Naked Choke from Harness": {
+      "success_rate": 65.0,
+      "vote_count": 30
+    },
+    "Rear Naked Choke from Rear Triangle": {
+      "success_rate": 65.0,
+      "vote_count": 30
+    },
+    "Rear Naked Choke from Invisible Collar": {
+      "success_rate": 65.0,
+      "vote_count": 30
+    },
+    "Rear Naked Choke from Body Triangle": {
+      "success_rate": 65.0,
+      "vote_count": 30
+    },
+    "Rear Naked Choke from Russian Cowboy": {
+      "success_rate": 65.0,
+      "vote_count": 30
+    },
+    "Rolling Armbar from Closed Guard": {
+      "success_rate": 60.0,
+      "vote_count": 30
+    },
+    "Americana from Kuzure Kesa-Gatame": {
+      "success_rate": 68.0,
+      "vote_count": 30
+    },
+    "Americana from Scarf Hold Position": {
+      "success_rate": 68.0,
+      "vote_count": 30
+    },
+    "Americana from Modified Scarf Hold": {
+      "success_rate": 68.0,
+      "vote_count": 30
+    },
+    "Americana from High Mount": {
+      "success_rate": 68.0,
+      "vote_count": 30
+    },
+    "Americana from North-South": {
+      "success_rate": 68.0,
+      "vote_count": 30
+    },
+    "Americana from Side Control Consolidation": {
+      "success_rate": 68.0,
+      "vote_count": 30
+    },
+    "Americana from Reverse Kesa-Gatame": {
+      "success_rate": 68.0,
+      "vote_count": 30
+    },
+    "Americana from Reverse Scarf Hold": {
+      "success_rate": 68.0,
+      "vote_count": 30
+    },
+    "Americana from Shoulder of Justice": {
+      "success_rate": 68.0,
+      "vote_count": 30
+    },
+    "Americana from S Mount": {
+      "success_rate": 68.0,
+      "vote_count": 30
+    },
+    "Americana from Kimura Trap": {
+      "success_rate": 68.0,
+      "vote_count": 30
+    },
+    "Von Flue Choke from Side Control": {
+      "success_rate": 58.0,
+      "vote_count": 30
+    },
+    "Twister from Twister Control": {
+      "success_rate": 40.0,
+      "vote_count": 30
+    },
+    "from Cross Body Ride": {
+      "success_rate": 40.0,
+      "vote_count": 30
+    },
+    "Twister from Twister Side Control": {
+      "success_rate": 40.0,
+      "vote_count": 30
+    },
+    "Twister from Russian Cowboy": {
+      "success_rate": 40.0,
+      "vote_count": 30
+    },
+    "Banana Split from Truck": {
+      "success_rate": 48.0,
+      "vote_count": 30
+    },
+    "Flying Armbar from Closed Guard": {
+      "success_rate": 40.0,
+      "vote_count": 30
+    },
+    "Omoplata from Butterfly Guard": {
+      "success_rate": 52.0,
+      "vote_count": 30
+    },
+    "Omoplata from Rubber Guard": {
+      "success_rate": 52.0,
+      "vote_count": 30
+    },
+    "Omoplata from Omoplata Control": {
+      "success_rate": 52.0,
+      "vote_count": 30
+    },
+    "Omoplata from Crackhead Control": {
+      "success_rate": 52.0,
+      "vote_count": 30
+    },
+    "Omoplata from Russian Leg Lasso": {
+      "success_rate": 52.0,
+      "vote_count": 30
+    },
+    "Omoplata from Inverted Guard": {
+      "success_rate": 52.0,
+      "vote_count": 30
+    },
+    "Omoplata from De La Riva Guard": {
+      "success_rate": 52.0,
+      "vote_count": 30
+    },
+    "Omoplata from Double Sleeve Guard": {
+      "success_rate": 52.0,
+      "vote_count": 30
+    },
+    "Omoplata from Armbar Control": {
+      "success_rate": 52.0,
+      "vote_count": 30
+    },
+    "Brabo Choke from Front Headlock": {
+      "success_rate": 58.0,
+      "vote_count": 30
+    },
+    "Straight Ankle Lock from Straight Ankle Lock Control": {
+      "success_rate": 58.0,
+      "vote_count": 30
+    },
+    "Guillotine Choke from Hindulotine": {
+      "success_rate": 62.0,
+      "vote_count": 30
+    },
+    "Guillotine Choke from Butterfly Guard": {
+      "success_rate": 62.0,
+      "vote_count": 30
+    },
+    "Guillotine Choke from Twister Control": {
+      "success_rate": 62.0,
+      "vote_count": 30
+    },
+    "Guillotine Choke from Guillotine Control": {
+      "success_rate": 62.0,
+      "vote_count": 30
+    },
+    "Flying Kneebar from Standing Position": {
+      "success_rate": 40.0,
+      "vote_count": 30
+    },
+    "Outside Heel Hook from Cross Ashi-Garami": {
+      "success_rate": 45.0,
+      "vote_count": 30
+    },
+    "Outside Heel Hook from Leg Entanglement": {
+      "success_rate": 45.0,
+      "vote_count": 30
+    },
+    "Outside Heel Hook from Outside Ashi-Garami": {
+      "success_rate": 45.0,
+      "vote_count": 30
+    },
+    "Outside Heel Hook from Honey Hole": {
+      "success_rate": 45.0,
+      "vote_count": 30
+    },
+    "Outside Heel Hook from Ushiro Ashi-Garami": {
+      "success_rate": 45.0,
+      "vote_count": 30
+    },
+    "Outside Heel Hook from 50-50 Guard": {
+      "success_rate": 45.0,
+      "vote_count": 30
+    },
+    "Outside Heel Hook from Saddle": {
+      "success_rate": 45.0,
+      "vote_count": 30
+    },
+    "Dead Orchard to Anaconda from Dead Orchard Control": {
+      "success_rate": 55.0,
+      "vote_count": 30
+    },
+    "Triangle Choke Front from Triangle Control": {
+      "success_rate": 58.0,
+      "vote_count": 30
+    },
+    "Belly Down Armbar Finish from Side Control": {
+      "success_rate": 50.0,
+      "vote_count": 30
+    },
+    "Belly Down Armbar Finish from Mounted Crucifix": {
+      "success_rate": 50.0,
+      "vote_count": 30
+    },
+    "Belly Down Armbar Finish from Kuzure Kesa-Gatame": {
+      "success_rate": 50.0,
+      "vote_count": 30
+    },
+    "Belly Down Armbar Finish from Scarf Hold Position": {
+      "success_rate": 50.0,
+      "vote_count": 30
+    },
+    "Belly Down Armbar Finish from Open Guard": {
+      "success_rate": 50.0,
+      "vote_count": 30
+    },
+    "Belly Down Armbar Finish from Modified Scarf Hold": {
+      "success_rate": 50.0,
+      "vote_count": 30
+    },
+    "Belly Down Armbar Finish from Spider Guard": {
+      "success_rate": 50.0,
+      "vote_count": 30
+    },
+    "Belly Down Armbar Finish from Mounted Triangle": {
+      "success_rate": 50.0,
+      "vote_count": 30
+    },
+    "Belly Down Armbar Finish from Lasso Guard": {
+      "success_rate": 50.0,
+      "vote_count": 30
+    },
+    "Belly Down Armbar Finish from New York": {
+      "success_rate": 50.0,
+      "vote_count": 30
+    },
+    "Belly Down Armbar Finish from Side Control Consolidation": {
+      "success_rate": 50.0,
+      "vote_count": 30
+    },
+    "Belly Down Armbar Finish from Kesa Gatame": {
+      "success_rate": 50.0,
+      "vote_count": 30
+    },
+    "Belly Down Armbar Finish from Knee on Belly": {
+      "success_rate": 50.0,
+      "vote_count": 30
+    },
+    "Belly Down Armbar Finish from Williams Guard": {
+      "success_rate": 50.0,
+      "vote_count": 30
+    },
+    "Belly Down Armbar Finish from New York Control": {
+      "success_rate": 50.0,
+      "vote_count": 30
+    },
+    "Belly Down Armbar Finish from Mission Control": {
+      "success_rate": 50.0,
+      "vote_count": 30
+    },
+    "Belly Down Armbar Finish from Armbar Control": {
+      "success_rate": 50.0,
+      "vote_count": 30
+    },
+    "Bicep Slicer from Crucifix": {
+      "success_rate": 52.0,
+      "vote_count": 30
+    },
+    "Triangle Choke Side from Side Control": {
+      "success_rate": 59.0,
+      "vote_count": 30
+    },
+    "Arm in Guillotine from Guillotine Control": {
+      "success_rate": 58.0,
+      "vote_count": 30
+    },
+    "Spinning Armbar from Closed Guard": {
+      "success_rate": 60.0,
+      "vote_count": 30
+    },
+    "Ten Finger Guillotine from Guillotine Control": {
+      "success_rate": 62.0,
+      "vote_count": 30
+    },
+    "Williams Shoulder Lock from Williams Guard": {
+      "success_rate": 52.0,
+      "vote_count": 30
+    },
+    "Baseball Bat Choke from Knee on Belly": {
+      "success_rate": 58.0,
+      "vote_count": 30
+    },
+    "Boston Crab from Turtle": {
+      "success_rate": 42.0,
+      "vote_count": 30
+    },
+    "Mir Lock from Side Control": {
+      "success_rate": 58.0,
+      "vote_count": 30
+    },
+    "Kneebar from Inside Ashi-Garami": {
+      "success_rate": 60.0,
+      "vote_count": 30
+    },
+    "from Single Leg X-Guard": {
+      "success_rate": 52.0,
+      "vote_count": 30
+    },
+    "Kneebar from Straight Ankle Lock Control": {
+      "success_rate": 60.0,
+      "vote_count": 30
+    },
+    "Kneebar from Honey Hole": {
+      "success_rate": 60.0,
+      "vote_count": 30
+    },
+    "Kneebar from Toe Hold Control": {
+      "success_rate": 60.0,
+      "vote_count": 30
+    },
+    "Kneebar from Carni": {
+      "success_rate": 60.0,
+      "vote_count": 30
+    },
+    "Kneebar from Kneebar Control": {
+      "success_rate": 60.0,
+      "vote_count": 30
+    },
+    "Kneebar from Inside Sankaku": {
+      "success_rate": 60.0,
+      "vote_count": 30
+    },
+    "Buggy Choke Finish from Buggy Choke": {
+      "success_rate": 45.0,
+      "vote_count": 30
+    },
+    "Crotch Ripper from Lockdown": {
+      "success_rate": 42.0,
+      "vote_count": 30
+    },
+    "Kesa Gatame Arm Crush from Kesa Gatame": {
+      "success_rate": 45.0,
+      "vote_count": 30
+    },
+    "Gift Wrap Armbar from Gift Wrap": {
+      "success_rate": 50.0,
+      "vote_count": 30
+    },
+    "Arm Triangle from Hindulotine": {
+      "success_rate": 62.0,
+      "vote_count": 30
+    },
+    "Peruvian Necktie from Front Headlock": {
+      "success_rate": 52.0,
+      "vote_count": 30
+    },
+    "Far Side Armbar from Side Control": {
+      "success_rate": 58.0,
+      "vote_count": 30
+    },
+    "Achilles Lock from Inside Ashi-Garami": {
+      "success_rate": 58.0,
+      "vote_count": 30
+    },
+    "Gogoplata Finish from Gogoplata Control": {
+      "success_rate": 45.0,
+      "vote_count": 30
+    },
+    "Clock Choke from Invisible Collar": {
+      "success_rate": 58.0,
+      "vote_count": 30
+    },
+    "Clock Choke from Rodeo Ride": {
+      "success_rate": 58.0,
+      "vote_count": 30
+    },
+    "Aoki Lock Finish from Aoki Lock": {
+      "success_rate": 50.0,
+      "vote_count": 30
+    },
+    "Anaconda Choke from Anaconda Control": {
+      "success_rate": 65.0,
+      "vote_count": 30
+    },
+    "Inside Heel Hook from Inside Ashi-Garami": {
+      "success_rate": 50.0,
+      "vote_count": 30
+    },
+    "Ezekiel Choke from Side Control": {
+      "success_rate": 58.0,
+      "vote_count": 30
+    },
+    "Ezekiel Choke from Mount": {
+      "success_rate": 58.0,
+      "vote_count": 30
+    },
+    "High Elbow Guillotine from Front Headlock": {
+      "success_rate": 58.0,
+      "vote_count": 30
+    },
+    "Twister from Cross Body Ride": {
+      "success_rate": 40.0,
+      "vote_count": 30
+    },
+    "Standing RNC from Standing Back Control": {
+      "success_rate": 35.0,
+      "vote_count": 30
+    },
+    "Arm in Guillotine from Front Headlock": {
+      "success_rate": 58.0,
+      "vote_count": 30
+    },
+    "Ten Finger Guillotine from Front Headlock": {
+      "success_rate": 62.0,
+      "vote_count": 30
+    },
+    "Kneebar from Backside 50-50": {
+      "success_rate": 52.0,
+      "vote_count": 30
+    },
+    "Kneebar from Leg Entanglement": {
+      "success_rate": 52.0,
+      "vote_count": 30
+    },
+    "Kneebar from Single Leg X-Guard": {
+      "success_rate": 52.0,
+      "vote_count": 30
+    },
+    "Kneebar from Saddle": {
+      "success_rate": 52.0,
+      "vote_count": 30
+    },
+    "Arm Triangle from Side Control": {
+      "success_rate": 62.0,
+      "vote_count": 30
+    },
+    "Arm Triangle from Kuzure Kesa-Gatame": {
+      "success_rate": 62.0,
+      "vote_count": 30
+    },
+    "Arm Triangle from Scarf Hold Position": {
+      "success_rate": 62.0,
+      "vote_count": 30
+    },
+    "Arm Triangle from Modified Scarf Hold": {
+      "success_rate": 62.0,
+      "vote_count": 30
+    },
+    "Arm Triangle from High Mount": {
+      "success_rate": 62.0,
+      "vote_count": 30
+    },
+    "Arm Triangle from Side Control Consolidation": {
+      "success_rate": 62.0,
+      "vote_count": 30
+    },
+    "Arm Triangle from Kesa Gatame": {
+      "success_rate": 62.0,
+      "vote_count": 30
+    },
+    "Arm Triangle from Reverse Kesa-Gatame": {
+      "success_rate": 62.0,
+      "vote_count": 30
+    },
+    "Arm Triangle from Reverse Scarf Hold": {
+      "success_rate": 62.0,
+      "vote_count": 30
+    },
+    "Arm Triangle from Shoulder of Justice": {
+      "success_rate": 62.0,
+      "vote_count": 30
+    },
+    "Arm Triangle from Twister Side Control": {
+      "success_rate": 62.0,
+      "vote_count": 30
+    },
+    "from Standing Rear Clinch": {
+      "success_rate": 35.0,
+      "vote_count": 30
+    },
+    "Rear Naked Choke from Standing Rear Clinch": {
+      "success_rate": 35.0,
+      "vote_count": 30
+    },
+    "Hip Escape from Side Control": {
+      "success_rate": 40.0,
+      "vote_count": 30
+    },
+    "Electric Chair from Electric Chair": {
+      "success_rate": 42.0,
+      "vote_count": 30
+    },
+    "Side Control to Knee on Belly": {
+      "success_rate": 55.0,
+      "vote_count": 30
+    },
+    "Frame from Side Control": {
+      "success_rate": 50.0,
+      "vote_count": 30
+    },
+    "Recovery from Failed Sweep": {
+      "success_rate": 50.0,
+      "vote_count": 30
+    },
+    "Inside Heel Hook from Inside Sankaku": {
+      "success_rate": 50.0,
+      "vote_count": 30
+    },
+    "Triangle Choke from Open Guard": {
+      "success_rate": 40.0,
+      "vote_count": 30
+    },
+    "Triangle Choke from Spider Guard": {
+      "success_rate": 62.0,
+      "vote_count": 30
+    },
+    "Triangle Choke from Closed Guard": {
+      "success_rate": 65.0,
+      "vote_count": 30
+    },
+    "Triangle Choke from De La Riva": {
+      "success_rate": 52.0,
+      "vote_count": 30
+    },
+    "Aoki Lock from Aoki Lock Control": {
+      "success_rate": 50.0,
+      "vote_count": 30
+    },
+    "Belly Down Armbar from Side Control": {
+      "success_rate": 50.0,
+      "vote_count": 30
+    },
+    "Belly Down Armbar from Mounted Crucifix": {
+      "success_rate": 50.0,
+      "vote_count": 30
+    },
+    "Belly Down Armbar from Kuzure Kesa-Gatame": {
+      "success_rate": 50.0,
+      "vote_count": 30
+    },
+    "Belly Down Armbar from Scarf Hold Position": {
+      "success_rate": 50.0,
+      "vote_count": 30
+    },
+    "Belly Down Armbar from Open Guard": {
+      "success_rate": 50.0,
+      "vote_count": 30
+    },
+    "Belly Down Armbar from Modified Scarf Hold": {
+      "success_rate": 50.0,
+      "vote_count": 30
+    },
+    "Belly Down Armbar from Spider Guard": {
+      "success_rate": 50.0,
+      "vote_count": 30
+    },
+    "Belly Down Armbar from Mounted Triangle": {
+      "success_rate": 50.0,
+      "vote_count": 30
+    },
+    "Belly Down Armbar from Lasso Guard": {
+      "success_rate": 50.0,
+      "vote_count": 30
+    },
+    "Belly Down Armbar from New York": {
+      "success_rate": 50.0,
+      "vote_count": 30
+    },
+    "Belly Down Armbar from Kesa Gatame": {
+      "success_rate": 50.0,
+      "vote_count": 30
+    },
+    "Belly Down Armbar from Knee on Belly": {
+      "success_rate": 50.0,
+      "vote_count": 30
+    },
+    "Belly Down Armbar from Williams Guard": {
+      "success_rate": 50.0,
+      "vote_count": 30
+    },
+    "Belly Down Armbar from Mission Control": {
+      "success_rate": 50.0,
+      "vote_count": 30
+    },
+    "Buggy Choke from Buggy Choke": {
+      "success_rate": 45.0,
+      "vote_count": 30
+    },
+    "Darce Choke from Leg Drag": {
+      "success_rate": 45.0,
+      "vote_count": 30
+    },
+    "Rear Triangle Choke from Back Control": {
+      "success_rate": 58.0,
+      "vote_count": 30
+    },
+    "Estima Lock from Estima Lock Control": {
+      "success_rate": 55.0,
+      "vote_count": 30
+    },
+    "Electric Chair from Deep Half Guard": {
+      "success_rate": 62.0,
+      "vote_count": 30
+    },
+    "Guillotine Choke from Clinch": {
+      "success_rate": 40.0,
+      "vote_count": 30
+    },
+    "Anaconda Choke from Dead Orchard": {
+      "success_rate": 50.0,
       "vote_count": 30
     }
   }
