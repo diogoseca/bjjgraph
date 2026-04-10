@@ -1,0 +1,171 @@
+{
+  "name": "Mask Your Intentions",
+  "description": "Learn how feints, misdirection, and setups make BJJ techniques effective. Discover why telegraphing kills submissions and how to disguise your true attacks on the mat.",
+  "tags": [
+    "bjj",
+    "strategy",
+    "feints",
+    "misdirection",
+    "setups",
+    "deception",
+    "timing",
+    "submissions"
+  ],
+  "category": "Strategy",
+  "overview": "A technique your opponent sees coming almost never works. The armbar that gets caught is the one they did not expect. The sweep that dumps them is the one they were not bracing for. Masking your intentions is not about dishonesty -- it is about understanding that BJJ at any level above pure beginner involves reading and reacting to your opponent's movements. If your movements scream your intentions, your opponent's reactions will shut you down before you are halfway through the technique.\n\nMisdirection in BJJ operates on the same principle as a good chess combination: you threaten one thing to create the opening for another. A collar grip makes your opponent worry about the choke, and their defensive reaction exposes the armbar. A fake scissor sweep forces them to post their hand, and now that hand is available for a kimura. The attack you show is not the attack you want -- it is the setup for the attack you want. Every high-level competitor uses layers of deception, and the best ones make you feel like you defended correctly right up until the moment you tap.\n\nTelegraphing is the opposite of masking -- it is when your body reveals your plan before you execute it. Staring at the arm before attacking it. Shifting your weight dramatically before a sweep. Reaching with desperation for a grip. These signals give your opponent a free early warning system. Learning to eliminate telegraphing and replace it with deliberate misdirection is one of the biggest jumps in grappling effectiveness, and it does not require any additional strength or flexibility.",
+  "key_takeaways": [
+    "The technique your opponent anticipates is the technique that fails -- always set up your real attack with a convincing threat",
+    "Look where you are not going: direct your apparent focus away from your actual target",
+    "Use A to set up B -- a collar grip threatens chokes and creates openings for arm attacks",
+    "Eliminate telegraphing by keeping your posture and grips neutral until the moment of execution",
+    "Chain at least two threats together so that defending one opens the other",
+    "Change your tempo to disguise timing -- a slow setup followed by an explosive finish is harder to read than a constant pace",
+    "Study your own rolling footage to identify what you telegraph most often",
+    "Feints do not need to be elaborate -- a slight weight shift or grip change is enough to provoke a reaction"
+  ],
+  "bjj_applications": [
+    {
+      "scenario": "You want to hit an armbar from closed guard but your opponent keeps their elbows tight",
+      "application": "Attack a cross collar choke first. Get a deep collar grip and pull their head down. When they posture up and push your hands away to defend the choke, their arms extend and separate from their body. Now attack the armbar on the extended arm.",
+      "outcome": "The choke threat creates the arm exposure. The armbar lands because the opponent was solving the wrong problem."
+    },
+    {
+      "scenario": "You want to sweep from butterfly guard but your opponent bases wide every time you try",
+      "application": "Feint the hook sweep to one side. When your opponent shifts their weight to resist, immediately switch directions and hit the hook sweep to the other side. Their weight is already committed to the wrong direction.",
+      "outcome": "The opponent's defensive reaction to the feint loads their weight perfectly for the real sweep in the opposite direction."
+    },
+    {
+      "scenario": "You want to pass guard but your opponent tracks your movement with strong leg pummeling",
+      "application": "Begin a toreando pass to the right. When their legs swing to block, immediately cut back to the left with a knee slice. Their legs are already committed to defending the wrong side.",
+      "outcome": "The guard pass succeeds because the opponent's legs are out of position, chasing the feinted direction."
+    },
+    {
+      "scenario": "From mount, you want a mounted triangle but your opponent keeps elbows tight to their body",
+      "application": "Attack an americana on one side. When they defend by pulling their arm in tight and turning toward that side, their opposite arm loses its frame and their neck becomes exposed. Slide your knee up on the open side and lock in the mounted triangle.",
+      "outcome": "The americana threat forces a defensive posture that opens the triangle. Both attacks cannot be defended simultaneously."
+    },
+    {
+      "scenario": "You want to take the back from side control but your opponent blocks your knee slide every time",
+      "application": "Start setting up a north-south transition by walking toward their head. When they turn to follow you and expose their back to prevent north-south, switch direction and take the back.",
+      "outcome": "The opponent's reaction to the north-south threat is exactly the movement you need to access the back."
+    },
+    {
+      "scenario": "You want to shoot a double leg but your opponent sprawls every time you change levels",
+      "application": "Pop a quick jab or collar tie to get their hands up and their attention high. As they react to the upper body threat, change levels for the takedown. Their hands are out of position and their sprawl timing is disrupted.",
+      "outcome": "The upper body feint occupies their defensive attention for a split second, creating the window for the level change."
+    }
+  ],
+  "common_mistakes": [
+    {
+      "mistake": "Staring at the target before attacking it",
+      "consequence": "Your opponent follows your eyes and pre-positions their defense. The arm you stared at gets tucked. The neck you focused on gets a chin tuck. Your attack arrives at a fortified target.",
+      "correction": "Keep your eyes neutral or deliberately look away from your actual target. Develop the habit of executing techniques by feel and body position rather than visual fixation."
+    },
+    {
+      "mistake": "Making feints that are too obvious or half-hearted to provoke a real reaction",
+      "consequence": "Your opponent does not buy the fake and does not react, so the setup fails to create the opening. They wait for your real attack, which they can now read clearly.",
+      "correction": "Commit enough to the feint that it would work if your opponent did not defend. A fake armbar attempt should involve real hip movement and a real grip -- not just a lazy arm wave."
+    },
+    {
+      "mistake": "Using the same setup sequence every time so it becomes predictable",
+      "consequence": "Training partners learn your patterns. The choke-to-armbar sequence works the first ten times, then never again because everyone knows the armbar is coming after the choke threat.",
+      "correction": "Vary your setups. Sometimes the choke should be the real attack. Sometimes use different initial threats. Mix up the timing and order so your patterns remain unpredictable."
+    },
+    {
+      "mistake": "Rushing through the setup without giving the opponent time to react and commit to the wrong defense",
+      "consequence": "The feint and the real attack blur together, and the opponent never commits to defending either one. Neither technique lands with full effect.",
+      "correction": "Give the feint a beat to land. Let your opponent register the threat, begin their defense, and commit their weight or grips. Then attack the opening their defense created."
+    },
+    {
+      "mistake": "Telegraphing with large, exaggerated movements before techniques",
+      "consequence": "Wide grip reaches, dramatic weight shifts, or big wind-ups give your opponent clear advance notice. They are already defending before you start attacking.",
+      "correction": "Minimize preparatory movements. Work from grips and positions you already have. Make your attacks begin from a neutral position with no tell."
+    }
+  ],
+  "training_exercises": [
+    {
+      "name": "Two-Attack Chain Drilling",
+      "description": "Pick any two complementary attacks from the same position (e.g., cross collar choke and armbar from closed guard). Drill the sequence where attack A sets up attack B. Your partner defends A correctly, and you immediately transition to B. Do 20 reps, then switch the order so B sets up A. This builds the misdirection connection into muscle memory.",
+      "focus": "Developing fluid attack chains where each technique creates openings for the next"
+    },
+    {
+      "name": "Telegraphing Awareness Rounds",
+      "description": "Roll with a partner who calls out every time they see your attack coming before you execute it. If they say 'armbar' before you have committed to the armbar, you must abandon it and try something else. This builds awareness of your own tells and forces you to develop subtler setups.",
+      "focus": "Identifying and eliminating personal telegraphing habits"
+    },
+    {
+      "name": "Feint-Only Positional Sparring",
+      "description": "Spar from a specific position where you can only score with your second attack, not your first. Your first technique attempt in any sequence must be a setup -- you are not allowed to finish with it. This forces you to think in combinations rather than isolated techniques and trains the habit of using threats to create openings.",
+      "focus": "Training the mindset of misdirection and sequential attack thinking"
+    }
+  ],
+  "knowledge_assessment": [
+    {
+      "question": "Why does a technique that your opponent sees coming almost always fail?",
+      "answer": "Because BJJ defense is largely reactive -- once an opponent recognizes the attack, they can position their body, grips, and weight to shut it down before it reaches the finishing position. Surprise removes their ability to pre-position their defense."
+    },
+    {
+      "question": "Explain how a collar grip can set up an armbar from closed guard.",
+      "answer": "A deep collar grip threatens a cross collar choke. The opponent must defend by posturing up and pushing your hands away from their collar. This extension separates their elbows from their body and creates space to pivot your hips for the armbar. The choke threat forced the exact defensive posture that exposes the arm."
+    },
+    {
+      "question": "What is the difference between a good feint and a bad feint?",
+      "answer": "A good feint commits enough to be a credible threat -- it would work if the opponent did not defend it. A bad feint is half-hearted, and the opponent recognizes it is fake without needing to react. The key is commitment level: the feint must force a real defensive response."
+    },
+    {
+      "question": "How does telegraphing affect your attacking success rate?",
+      "answer": "Telegraphing gives your opponent an early warning system -- they see the attack forming before it launches. This allows them to pre-position grips, shift weight, or adjust posture to defend before you have even committed. It turns every attack into an uphill battle against a prepared defense."
+    },
+    {
+      "question": "Why should you vary your setup sequences rather than always using the same combination?",
+      "answer": "Regular training partners learn patterns quickly. If you always use the choke to set up the armbar, they stop reacting to the choke because they know it is just a setup. Varying your sequences keeps them uncertain about which attack is real, maintaining the effectiveness of your misdirection."
+    }
+  ],
+  "related_content": [
+    {
+      "name": "Action and Reaction",
+      "content_type": "Principle",
+      "relationship": "Feints exploit action-reaction dynamics by provoking defensive responses that create openings"
+    },
+    {
+      "name": "Submission Chains",
+      "content_type": "Principle",
+      "relationship": "Chaining submissions is the primary vehicle for masking intentions -- each link disguises the next"
+    },
+    {
+      "name": "Fork Attacks",
+      "content_type": "Principle",
+      "relationship": "Fork attacks present multiple threats simultaneously, forcing the opponent to choose which to defend"
+    },
+    {
+      "name": "Timing and Rhythm",
+      "content_type": "Principle",
+      "relationship": "Tempo changes are a powerful way to disguise intentions and break opponent's timing"
+    },
+    {
+      "name": "Pattern Interrupts",
+      "content_type": "Learning",
+      "relationship": "Complementary concept -- breaking predictable patterns is another form of masking intentions"
+    },
+    {
+      "name": "Closed Guard",
+      "content_type": "Position",
+      "relationship": "Classic position for learning attack chains and misdirection (choke to armbar to triangle)"
+    },
+    {
+      "name": "Mount",
+      "content_type": "Position",
+      "relationship": "Mount provides many opportunities for dilemma-based attacks that rely on masking intentions"
+    },
+    {
+      "name": "Butterfly Guard",
+      "content_type": "Position",
+      "relationship": "Butterfly guard sweeps often rely on directional feints to load the opponent's weight incorrectly"
+    },
+    {
+      "name": "Kuzushi",
+      "content_type": "Principle",
+      "relationship": "Off-balancing often requires misdirection to displace the opponent's base effectively"
+    }
+  ]
+}

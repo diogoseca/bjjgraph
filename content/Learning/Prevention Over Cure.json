@@ -1,0 +1,165 @@
+{
+  "name": "Prevention Over Cure",
+  "description": "Learn why early defense in BJJ is far more effective than late escapes. Discover how hand fighting and proactive positioning prevent bad positions.",
+  "tags": [
+    "bjj",
+    "strategy",
+    "defense",
+    "prevention",
+    "early-defense",
+    "hand-fighting",
+    "frames"
+  ],
+  "category": "Strategy",
+  "overview": "Every experienced grappler knows the feeling: you let someone settle into mount for just two seconds too long, and suddenly an escape that should have been easy becomes a grinding five-minute ordeal. This is the core lesson of prevention over cure in BJJ. Defending before a position is consolidated is roughly ten times easier than escaping after your opponent has settled their weight, established grips, and begun attacking. The energy difference is staggering -- a simple hip frame costs almost nothing, while a full bridge-and-shrimp escape from a locked-down mount demands enormous effort.\n\nThe concept applies at every scale. Hand fighting before grips lock in prevents the guard pass. Establishing frames before weight settles stops the pin. Turning into your opponent during a scramble prevents the back take. Each of these small preventive actions takes a fraction of the energy and skill required to solve the problem once it has fully developed. Beginners spend most of their time in crisis mode, reacting to fully established positions. Intermediate and advanced grapplers learn to address threats at their earliest stage, when they are still manageable.\n\nPrevention thinking also changes your mental framework. Instead of asking \"how do I escape mount?\" you start asking \"how do I never end up in mount?\" This shift moves your game from reactive to proactive, from survival to control. You stop accepting bad positions as inevitable and start recognizing the moments where small actions prevent big problems.",
+  "key_takeaways": [
+    "Defend at the earliest possible moment -- the longer you wait, the harder the escape becomes",
+    "Hand fight before grips lock in, not after your opponent has established their control",
+    "Establish frames before your opponent's weight settles, when creating space is still easy",
+    "Turn into your opponent during transitions to prevent the back take rather than trying to escape back control later",
+    "A hip frame during a guard pass attempt costs 5% of the energy required to escape side control",
+    "Recognize the three stages of positional threat: initiation, consolidation, and domination -- intervene at initiation",
+    "Prevention requires awareness and anticipation, not athleticism or strength",
+    "Train your defensive reactions to trigger at the first sign of positional danger, not the last"
+  ],
+  "bjj_applications": [
+    {
+      "scenario": "Opponent begins to pass your guard by clearing your knee shield in half guard",
+      "application": "Immediately re-insert the knee shield or hip escape to re-establish distance before they flatten you and crossface. Fight for the underhook while you still have space to reach it.",
+      "outcome": "Guard is retained with minimal energy expenditure. Opponent must restart their passing sequence from scratch."
+    },
+    {
+      "scenario": "Opponent reaches across your body from side control to set up a far-side underhook",
+      "application": "Block the underhook with your elbow before it slides under. Frame on their bicep and hip escape before they consolidate the crossface and underhook combination.",
+      "outcome": "You prevent the transition to mount or kesa gatame and create space to recover guard."
+    },
+    {
+      "scenario": "During a scramble, your opponent starts to circle toward your back",
+      "application": "Turn your hips toward them immediately rather than turtling and hoping to defend the back take later. Pummel your inside arm to face them and establish a guard position.",
+      "outcome": "You face your opponent instead of giving up back control, maintaining a neutral or guard position."
+    },
+    {
+      "scenario": "Opponent in your closed guard starts stacking your hips to begin a toreando pass",
+      "application": "Before your hips are fully elevated, open your guard, place feet on their hips, and create distance. Transition to an open guard before the stack removes your leverage.",
+      "outcome": "You maintain an active guard position rather than being folded and passed."
+    },
+    {
+      "scenario": "From bottom mount, you feel your opponent starting to walk their knees into your armpits for high mount",
+      "application": "Bridge and frame on their hips immediately to prevent the climb. Address the knee walk at the first inch of movement rather than once they reach your armpits.",
+      "outcome": "You keep the fight in regular mount where your escape options remain viable."
+    }
+  ],
+  "common_mistakes": [
+    {
+      "mistake": "Waiting until a position is fully consolidated before attempting to escape",
+      "consequence": "Escapes require maximum energy and have the lowest success rate. You burn through your gas tank fighting out of positions that should never have been established.",
+      "correction": "Develop the habit of reacting to positional threats at their earliest stage. If you feel weight shifting or grips being established, address them immediately."
+    },
+    {
+      "mistake": "Focusing all training on escapes from bad positions rather than preventing those positions",
+      "consequence": "You become a good escaper but still spend most of your rolling time in inferior positions, always playing catch-up.",
+      "correction": "Dedicate equal training time to transitional defense -- the moments between positions where prevention is possible. Practice hand fighting, grip breaking, and frame timing."
+    },
+    {
+      "mistake": "Accepting the guard pass and waiting for side control to settle before reacting",
+      "consequence": "Side control escape is dramatically harder than guard retention. You concede points in competition and give your opponent their preferred position.",
+      "correction": "Fight the pass at every stage: grip fight, re-guard, granby roll, turtle to re-guard. Never concede a pass without resistance at each layer."
+    },
+    {
+      "mistake": "Only training offense and neglecting preventive defensive skills",
+      "consequence": "Against equally skilled or better opponents, you lack the defensive awareness to prevent bad positions, leading to one-dimensional performance.",
+      "correction": "Include positional sparring starting from transitional moments -- mid-pass, mid-sweep -- to train your preventive instincts."
+    }
+  ],
+  "training_exercises": [
+    {
+      "name": "Transitional Defense Sparring",
+      "description": "Start rounds with your partner mid-way through a guard pass, sweep, or back take. Your job is to prevent the completion of the technique using early defensive reactions. Reset each time the position is either prevented or completed. Track your prevention success rate over time.",
+      "focus": "Timing and awareness of early defensive windows"
+    },
+    {
+      "name": "Grip Fighting Rounds",
+      "description": "Spar starting from standing or seated open guard with the sole objective of preventing your opponent from establishing their preferred grips. No submissions, no sweeps -- just grip fighting. When they get grips, break them immediately. This builds the hand fighting reflexes that prevent positions before they begin.",
+      "focus": "Proactive grip denial and hand fighting speed"
+    },
+    {
+      "name": "Guard Retention Gauntlet",
+      "description": "One person plays guard while the other passes. The guard player scores a point every time they re-establish guard during a pass attempt. The passer scores only for completing the pass to a settled position. This incentivizes the guard player to fight at every layer rather than conceding and waiting to escape.",
+      "focus": "Multi-layered defensive reactions during guard passing"
+    }
+  ],
+  "knowledge_assessment": [
+    {
+      "question": "Why is defending during the initiation phase of a positional threat more effective than escaping after consolidation?",
+      "answer": "During initiation, the opponent has not yet established grips, settled weight, or aligned their body for control. Defensive actions at this stage require minimal energy and have high success rates because the opponent's control is incomplete. After consolidation, all of these elements are locked in, making escape dramatically harder and more energy-intensive."
+    },
+    {
+      "question": "What are three specific preventive actions you can take during a guard pass attempt?",
+      "answer": "Hand fight to strip grips before they lock in, re-insert a knee shield before weight settles past it, and hip escape to re-establish distance before the crossface is secured. Each of these acts at a different layer of the passing sequence."
+    },
+    {
+      "question": "How does prevention thinking change your mental approach to rolling?",
+      "answer": "It shifts you from reactive to proactive. Instead of asking how to escape bad positions, you ask how to never arrive there. This means you scan for threats earlier, address them sooner, and spend less time in crisis mode. Your game becomes about maintaining good positions rather than surviving bad ones."
+    },
+    {
+      "question": "Why do beginners tend to rely on cure rather than prevention?",
+      "answer": "Beginners lack the positional awareness to recognize threats at their earliest stage. They do not yet feel the subtle weight shifts, grip changes, and angle adjustments that signal an incoming position change. This awareness develops through mat time and deliberate attention to transitional moments."
+    },
+    {
+      "question": "Give an example of prevention vs cure from bottom mount.",
+      "answer": "Prevention: framing on the opponent's hips the instant they begin walking their knees toward your armpits, stopping high mount before it starts. Cure: attempting a bridge-and-roll escape after the opponent has fully established high mount with arms controlled. The prevention takes a fraction of the effort and has a much higher success rate."
+    }
+  ],
+  "related_content": [
+    {
+      "name": "Frames",
+      "content_type": "Principle",
+      "relationship": "Frames are the primary physical tool for prevention -- establishing structural barriers before weight settles"
+    },
+    {
+      "name": "Hand Fighting",
+      "content_type": "Principle",
+      "relationship": "Hand fighting prevents grips from being established, which is a key preventive strategy"
+    },
+    {
+      "name": "Distance Control",
+      "content_type": "Principle",
+      "relationship": "Maintaining proper distance is a preventive measure that keeps opponents from consolidating positions"
+    },
+    {
+      "name": "Escape Fundamentals",
+      "content_type": "Principle",
+      "relationship": "Escape fundamentals represent the cure -- what you need when prevention fails"
+    },
+    {
+      "name": "Defensive Concepts",
+      "content_type": "Principle",
+      "relationship": "Prevention is the highest-level defensive concept, sitting above reactive escape skills"
+    },
+    {
+      "name": "Guard Passing",
+      "content_type": "Principle",
+      "relationship": "Understanding guard passing helps you recognize the stages where prevention is most effective from the bottom"
+    },
+    {
+      "name": "Half Guard",
+      "content_type": "Position",
+      "relationship": "Half guard is a common position where prevention of the pass is critical before the crossface locks in"
+    },
+    {
+      "name": "Mount",
+      "content_type": "Position",
+      "relationship": "Mount is where the prevention vs cure difference is most dramatic -- preventing high mount vs escaping it"
+    },
+    {
+      "name": "Side Control",
+      "content_type": "Position",
+      "relationship": "Side control consolidation is a prime example of why early defense matters"
+    },
+    {
+      "name": "Back Control",
+      "content_type": "Position",
+      "relationship": "Preventing the back take during scrambles is far easier than escaping established back control"
+    }
+  ]
+}

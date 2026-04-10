@@ -1,0 +1,173 @@
+{
+  "name": "Position Over Submission",
+  "description": "Learn why securing dominant position before attacking submissions is the most reliable path to victory in BJJ. Master the positional hierarchy.",
+  "tags": [
+    "bjj",
+    "strategy",
+    "positional-hierarchy",
+    "fundamentals",
+    "decision-making",
+    "control"
+  ],
+  "category": "Strategy",
+  "overview": "The phrase 'position before submission' is the oldest maxim in Brazilian Jiu-Jitsu, and it exists because the math supports it. A submission attempted from a weak position has a low completion rate and a high cost on failure -- you lose whatever position you had and end up worse than where you started. A submission attempted from a dominant position has a high completion rate and a low cost on failure -- even if the submission does not finish, you often retain the dominant position and can attack again.\n\nThe positional hierarchy -- rear mount, mount, knee on belly, side control, half guard top, and so on -- reflects this reality. Each rung of the ladder represents a position where you have more control, more submission options, and a safer fallback if an attack fails. Climbing the ladder before launching submissions means you accumulate advantages: better angles, more weight distribution options, and an opponent who is already partially broken down from defending the positional advancement.\n\nThis does not mean you should never attempt submissions from inferior positions. Guard players finish from bottom all the time. But even guard submissions work best when you have first established strong positional control -- broken their posture, controlled their arms, secured grips. The principle is about establishing control before attacking, regardless of whether you are on top or bottom.",
+  "key_takeaways": [
+    "Advance position first, attack submissions second -- each step up the positional hierarchy increases your finishing percentage",
+    "A submission attempt that fails from mount returns you to mount; a submission attempt that fails from guard often loses you the guard entirely",
+    "Points in competition reward positional advancement precisely because positions create submission opportunities",
+    "When you achieve a dominant position, spend five to ten seconds consolidating control before hunting the finish",
+    "Positional control applies from bottom too -- break posture, control grips, and establish angles before attacking sweeps or submissions",
+    "If a submission is not there after two genuine attempts from a dominant position, consider advancing to an even better position rather than forcing it",
+    "The positional hierarchy exists because each level reduces the opponent's defensive options while increasing your attacking options"
+  ],
+  "bjj_applications": [
+    {
+      "scenario": "You pass guard and arrive in side control with your opponent still framing and fighting",
+      "application": "Instead of immediately attacking a kimura or americana, spend time consolidating side control. Kill the near-side frame, establish crossface, settle your weight. Only begin attacking when your opponent's defensive frames are neutralized",
+      "outcome": "Your submission attempts have a much higher finishing rate because the opponent has already exhausted energy fighting your control and has fewer defensive options remaining"
+    },
+    {
+      "scenario": "You have mount but your opponent is actively bridging and framing to escape",
+      "application": "Rather than reaching for a collar choke while your base is being threatened, focus on riding the mount. Post when they bridge, swim through frames, and wait for them to flatten out. The submission opportunities will present themselves once they stop moving",
+      "outcome": "You maintain the dominant position and eventually catch the submission when the opponent tires, rather than losing mount by overreaching"
+    },
+    {
+      "scenario": "You are in closed guard bottom and see an armbar opportunity but your opponent has strong posture",
+      "application": "Before attacking the armbar, first break their posture by pulling their head down with collar or head control. Control one arm to eliminate their post. Only when posture is broken and an arm is isolated should you begin the armbar entry",
+      "outcome": "The armbar attempt succeeds because you invested time in positional control first, removing the defensive structures that would have allowed them to stack and escape"
+    },
+    {
+      "scenario": "You sweep from half guard and end up in your opponent's half guard top",
+      "application": "Instead of trying to immediately submit from half guard top, focus on freeing your trapped leg and passing to side control or mount. The dominant position will offer better submissions with less risk",
+      "outcome": "You trade a low-percentage submission opportunity for a high-percentage one by spending thirty seconds to pass rather than gambling from an unstable position"
+    },
+    {
+      "scenario": "You take the back but only have one hook in and no seatbelt grip established",
+      "application": "Prioritize getting both hooks in and securing the seatbelt grip before attacking the rear naked choke. A premature choke attempt with poor back control often results in the opponent escaping to a neutral position",
+      "outcome": "With full back control established, your choke attempts are far more dangerous because the opponent cannot create the space needed to defend"
+    }
+  ],
+  "common_mistakes": [
+    {
+      "mistake": "Diving for a submission immediately after achieving a dominant position without consolidating control",
+      "consequence": "The opponent uses the space created by your reaching arms to escape, and you lose the position you worked hard to achieve",
+      "correction": "After achieving a dominant position, count to five while actively controlling your opponent before even thinking about submissions. Settle your weight, kill their frames, and then attack"
+    },
+    {
+      "mistake": "Attempting flashy submissions from bottom positions when a basic sweep would put you on top",
+      "consequence": "The low-percentage submission fails, you burn energy, and you remain on bottom -- or worse, your opponent passes your guard during the failed attempt",
+      "correction": "From bottom, prioritize sweeps that put you in a dominant top position. Attack submissions from bottom only when the opportunity is clearly presented or when sweeps are not available"
+    },
+    {
+      "mistake": "Confusing position over submission with never attacking from bottom",
+      "consequence": "You become a passive guard player who only waits to sweep, missing legitimate submission opportunities that are right in front of you",
+      "correction": "The principle means establish positional control before attacking, not avoid attacking from bottom. A closed guard with broken posture and controlled arms is a dominant position -- attack from there"
+    },
+    {
+      "mistake": "Staying in side control indefinitely without advancing or attacking because you are too focused on holding position",
+      "consequence": "Your opponent eventually escapes because you gave them unlimited time to work their frames and hip escapes without any offensive pressure",
+      "correction": "Positional dominance is a platform for action, not an end state. Once you have consolidated control, you should be either advancing position or threatening submissions to keep the opponent reactive"
+    }
+  ],
+  "training_exercises": [
+    {
+      "name": "Positional Ladder Drill",
+      "description": "Start from the bottom of the positional hierarchy -- your opponent's side control. Your goal is to climb the ladder: escape to guard, sweep to top, pass to side control, advance to mount, take the back. No submissions allowed. Your partner resists at 50%. Switch after one successful climb or three minutes.",
+      "focus": "Internalizing the positional hierarchy and practicing advancement without the distraction of submissions"
+    },
+    {
+      "name": "Consolidation Rounds",
+      "description": "Start in mount or side control. You are not allowed to attempt any submission for the first sixty seconds. Spend that full minute controlling your opponent while they try to escape at full resistance. After sixty seconds, submissions are open. This teaches you to separate the control phase from the attack phase.",
+      "focus": "Building the habit of consolidating position before attacking"
+    },
+    {
+      "name": "Guard Posture Control Sparring",
+      "description": "Start in closed guard bottom. Your only goal is to break your opponent's posture and keep it broken for thirty continuous seconds while they fight to maintain posture. No sweeps or submissions until posture is broken and held. This isolates the positional control that precedes guard attacks.",
+      "focus": "Establishing bottom-side positional control before launching attacks"
+    },
+    {
+      "name": "Points-Only Sparring",
+      "description": "Spar full rounds but the only way to win is by points -- takedowns, sweeps, passes, mount, back control. No submissions. This forces you to prioritize positional advancement and teaches the value of climbing the hierarchy systematically.",
+      "focus": "Training the positional advancement mindset under live resistance"
+    }
+  ],
+  "knowledge_assessment": [
+    {
+      "question": "Why does attempting a submission from a dominant position have a higher success rate than from an inferior position?",
+      "answer": "From a dominant position you have better angles, more weight distribution control, and your opponent has fewer defensive options. If the submission fails, you typically retain the dominant position and can attack again, whereas failing from an inferior position often costs you whatever control you had."
+    },
+    {
+      "question": "What should you do in the first five to ten seconds after achieving mount?",
+      "answer": "Consolidate your control by settling your weight, killing your opponent's frames, and neutralizing their escape attempts. Do not immediately reach for submissions while the opponent is still actively fighting the position."
+    },
+    {
+      "question": "Does position over submission mean you should never attack from bottom guard?",
+      "answer": "No. It means you should establish positional control before attacking regardless of whether you are top or bottom. From closed guard, breaking posture and controlling arms IS establishing position -- and then you attack from that controlled state."
+    },
+    {
+      "question": "How does the competition points system reflect the position-over-submission principle?",
+      "answer": "Points are awarded for positional advancements -- takedowns, sweeps, guard passes, mount, back control -- because these positions create submission opportunities. The scoring system incentivizes climbing the positional ladder, which naturally leads to higher-percentage finishes."
+    },
+    {
+      "question": "When you have side control and cannot find a submission after two solid attempts, what should you consider?",
+      "answer": "Consider advancing to a more dominant position like mount or knee on belly rather than continuing to force submissions from side control. A better position will offer new submission angles and further limit the opponent's defensive options."
+    }
+  ],
+  "related_content": [
+    {
+      "name": "Principles/Positional Hierarchy",
+      "content_type": "Principle",
+      "relationship": "The ranking system that defines which positions offer more control and submission opportunities"
+    },
+    {
+      "name": "Principles/Position-Over-Submission Approach",
+      "content_type": "Principle",
+      "relationship": "The foundational principle this article explores in depth"
+    },
+    {
+      "name": "Principles/Control Maintenance",
+      "content_type": "Principle",
+      "relationship": "Techniques for maintaining dominant positions before attacking"
+    },
+    {
+      "name": "Principles/Pressure",
+      "content_type": "Principle",
+      "relationship": "Using weight and pressure to consolidate positions and break down defenses"
+    },
+    {
+      "name": "Positions/Mount",
+      "content_type": "Position",
+      "relationship": "The quintessential dominant position where position-first strategy pays off most"
+    },
+    {
+      "name": "Positions/Side Control",
+      "content_type": "Position",
+      "relationship": "Key transitional position for advancing up the positional hierarchy"
+    },
+    {
+      "name": "Positions/Back Control",
+      "content_type": "Position",
+      "relationship": "The most dominant position in the hierarchy with the highest submission rates"
+    },
+    {
+      "name": "Learning/Committed Techniques",
+      "content_type": "Learning",
+      "relationship": "Choosing techniques that retain position on failure supports the position-first approach"
+    },
+    {
+      "name": "Learning/Probabilistic Thinking",
+      "content_type": "Learning",
+      "relationship": "Position-first strategy is fundamentally about playing the percentages"
+    }
+  ],
+  "references": [
+    {
+      "title": "Jiu-Jitsu University",
+      "author": "Saulo Ribeiro"
+    },
+    {
+      "title": "Mastering Jujitsu",
+      "author": "Renzo Gracie and John Danaher"
+    }
+  ]
+}

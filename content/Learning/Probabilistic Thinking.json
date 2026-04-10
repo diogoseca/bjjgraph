@@ -1,0 +1,167 @@
+{
+  "name": "Probabilistic Thinking",
+  "description": "Learn how to play the percentages in BJJ by choosing high-probability techniques, assessing risk and reward, and making smarter decisions on the mat through probabilistic thinking.",
+  "tags": [
+    "bjj",
+    "strategy",
+    "probability",
+    "risk-assessment",
+    "decision-making",
+    "percentages"
+  ],
+  "category": "Strategy",
+  "overview": "Every technique in BJJ has a success rate, and that rate changes based on the situation: your skill level, your opponent's skill level, the position, the grips, your fatigue level, and dozens of other variables. Probabilistic thinking means making decisions based on these likelihoods rather than on hope, ego, or what worked once in practice three months ago.\n\nHigh-percentage techniques are the foundation of every successful grappler's game. A rear naked choke from back control with both hooks and a seatbelt finishes at an extremely high rate across all skill levels. A flying omoplata from standing finishes at a very low rate even among elite grapplers. The probabilistic thinker builds their game around the former and treats the latter as a rare situational tool. This does not make their game boring -- it makes it effective. The most dominant competitors in history have won overwhelmingly with fundamental, high-percentage techniques applied with superior timing and setups.\n\nBeyond individual technique selection, probabilistic thinking applies to entire match strategies. Should you pull guard or wrestle? That depends on your relative skill in each area, your opponent's weaknesses, the ruleset, and the time remaining. Should you risk a scramble from half guard or patiently work a sweep? That depends on whether you are ahead or behind on points, how much time remains, and your scrambling ability relative to your opponent's. Every decision on the mat is a probability calculation, and the grapplers who make better calculations over time accumulate more wins.",
+  "key_takeaways": [
+    "Build your A-game around three to five high-percentage techniques that work reliably against most opponents at your skill level",
+    "A technique's success rate depends on context: the same armbar has different success rates from mount, from guard, and from standing",
+    "Track your own finishing rates in training -- know which of your techniques actually work, not which ones you think should work",
+    "When ahead on points, shift to higher-percentage, lower-risk techniques. When behind, accept more risk for higher-reward options",
+    "The most successful competitors in BJJ history dominated with fundamentals, not flashy techniques -- high percentage repeated over and over",
+    "Consider the full decision tree: success probability times reward, minus failure probability times cost. Both sides of the equation matter",
+    "Low-percentage techniques are not useless -- they are valuable as surprises, as setups, or in specific situations where the usual calculus changes"
+  ],
+  "bjj_applications": [
+    {
+      "scenario": "You have back control with seatbelt and hooks and must choose between a rear naked choke and a neck crank",
+      "application": "The rear naked choke from full back control is one of the highest-percentage submissions in grappling. The neck crank is lower percentage and more likely to allow the opponent to escape during the attempt. The probabilistic choice is clear: attack the choke first",
+      "outcome": "You finish with the highest-percentage submission available from the strongest position, maximizing your probability of victory"
+    },
+    {
+      "scenario": "You are two points ahead with ninety seconds remaining in a competition match",
+      "application": "Shift to the highest-percentage retention and defense techniques. Maintain top position, use pressure passing to avoid scrambles, and only attack submissions that do not risk your position. The probability of winning by maintaining your lead is much higher than the probability of winning by risking your lead for a submission",
+      "outcome": "You protect the lead and win on points rather than gambling a secure victory on a low-probability finish"
+    },
+    {
+      "scenario": "You are rolling with a training partner who is significantly better than you",
+      "application": "Focus on positions and techniques where the skill gap is smallest. Defensive positions with strong frames, simple sweeps from closed guard, and fundamental escapes have more consistent success rates than advanced techniques against a superior opponent. Play your most reliable game",
+      "outcome": "You survive longer, learn more from the roll, and occasionally succeed with fundamentals that work regardless of skill differential"
+    },
+    {
+      "scenario": "You regularly attempt a specific sweep from half guard that works in drilling but fails in live rolling",
+      "application": "Track the actual success rate. If it works 1 out of 10 attempts in live rolling, it is a 10% technique for you regardless of how good it looks in drilling. Either improve the technique through targeted practice or replace it in your game plan with a sweep that has a higher live success rate",
+      "outcome": "Your game plan reflects reality rather than aspiration, and your live rolling results improve because you are using techniques that actually work for you"
+    },
+    {
+      "scenario": "You are losing a competition match and the clock shows thirty seconds remaining",
+      "application": "The standard risk calculus inverts completely. A flying submission that has a 15% success rate is worth attempting because the alternative -- doing nothing safe -- has a 0% chance of winning. Accept the low probability because the expected value of trying exceeds the expected value of playing safe",
+      "outcome": "You either hit the low-percentage technique and win, or you lose -- but you would have lost anyway, so the gamble costs nothing"
+    }
+  ],
+  "common_mistakes": [
+    {
+      "mistake": "Overvaluing highlight-reel techniques because they look impressive rather than evaluating their actual success rate",
+      "consequence": "You spend training time on low-percentage techniques while neglecting fundamentals that would win you more matches",
+      "correction": "Judge techniques by their finishing rate in live training against resisting opponents, not by how they look or how exciting they feel to attempt"
+    },
+    {
+      "mistake": "Failing to adjust strategy based on the match situation -- using the same risk level regardless of score and time",
+      "consequence": "You take unnecessary risks when ahead (losing leads) or play too safe when behind (running out of time without attempting anything)",
+      "correction": "Consciously assess your risk tolerance based on the current score, time remaining, and relative skill level before each major decision"
+    },
+    {
+      "mistake": "Using a single training experience to evaluate a technique's probability rather than tracking results over time",
+      "consequence": "You abandon good techniques after one failure or cling to bad ones after one success, making decisions based on small sample sizes",
+      "correction": "Track your technique success over at least twenty attempts before drawing conclusions. A technique that works 6 out of 20 times is probably effective; one that works 1 out of 20 is not"
+    },
+    {
+      "mistake": "Only considering the probability of success without factoring in the cost of failure",
+      "consequence": "You attempt 50% techniques that lose you dominant position on failure, when a 40% technique with zero position loss would be the smarter play",
+      "correction": "Evaluate expected value: success probability times reward minus failure probability times cost. A slightly lower success rate with much lower failure cost often wins"
+    }
+  ],
+  "training_exercises": [
+    {
+      "name": "Technique Success Tracking",
+      "description": "For two weeks, mentally track the success rate of your five most-used techniques during live rolling. After each round, note which techniques you attempted and whether they succeeded. At the end of two weeks, calculate approximate success percentages and compare them to your assumptions. Adjust your game plan based on actual data.",
+      "focus": "Building data-driven awareness of your personal technique effectiveness"
+    },
+    {
+      "name": "Risk-Reward Positional Sparring",
+      "description": "Start from a specific position. Before each roll, assign yourself a scenario: ahead by two points with one minute left, behind by four points with thirty seconds left, or tied score with three minutes remaining. Make your technique choices based on the scenario. Debrief after each round on whether your risk level matched the situation.",
+      "focus": "Training situational risk assessment and strategy adjustment"
+    },
+    {
+      "name": "Fundamentals-Only Rounds",
+      "description": "Spar full rounds with a restriction: you can only use your top five highest-percentage techniques. No flashy moves, no low-percentage surprises. This forces you to develop setups and timing for your most reliable attacks rather than cycling through a large but shallow technique library.",
+      "focus": "Deepening high-percentage technique mastery through constraint"
+    }
+  ],
+  "knowledge_assessment": [
+    {
+      "question": "What does it mean to play 'high percentage' in BJJ?",
+      "answer": "It means building your game plan around techniques that have the highest probability of success against most opponents at your skill level. High-percentage techniques are the ones that reliably work in live rolling and competition, not just in drilling."
+    },
+    {
+      "question": "How should your strategy change when you are winning on points late in a match?",
+      "answer": "Shift to higher-percentage, lower-risk techniques. Focus on maintaining position, using committed techniques that retain your position on failure, and avoiding scrambles or submission attempts that could cost you the dominant position and the lead."
+    },
+    {
+      "question": "Why is it not enough to only consider a technique's success probability when choosing attacks?",
+      "answer": "Because the cost of failure matters too. A technique with 50% success rate that loses you mount on failure may be worse than a technique with 40% success rate that returns you to mount. Expected value includes both the probability and magnitude of success and failure."
+    },
+    {
+      "question": "When does it make sense to attempt a low-percentage technique?",
+      "answer": "When the cost of not attempting it is equal to or greater than the cost of failure -- such as when losing on points with seconds remaining. Also when used as a surprise against an opponent who has fully prepared for your high-percentage game, or when the setup is unusually favorable."
+    },
+    {
+      "question": "How can you improve your probabilistic decision-making in BJJ?",
+      "answer": "Track your technique success rates in live rolling over time, evaluate both the reward of success and cost of failure for each technique, adjust your risk tolerance based on match situations, and build your primary game around techniques with demonstrated high success rates."
+    },
+    {
+      "question": "Why do elite competitors tend to win with fundamental techniques rather than complex or flashy ones?",
+      "answer": "Fundamental techniques have the highest base success rates because they are mechanically sound, well-understood, and work from common positions. Elite competitors develop superior setups and timing for these fundamentals, which pushes already-high success rates even higher."
+    }
+  ],
+  "related_content": [
+    {
+      "name": "Learning/Committed Techniques",
+      "content_type": "Learning",
+      "relationship": "Committed techniques factor failure cost into the probability equation"
+    },
+    {
+      "name": "Learning/Position Over Submission",
+      "content_type": "Learning",
+      "relationship": "Positional advancement is a probabilistic strategy -- better position means higher submission probability"
+    },
+    {
+      "name": "Principles/Positional Hierarchy",
+      "content_type": "Principle",
+      "relationship": "The positional hierarchy reflects probability -- higher positions yield higher submission success rates"
+    },
+    {
+      "name": "Principles/Fork Attacks",
+      "content_type": "Principle",
+      "relationship": "Fork attacks increase overall success probability by offering multiple finishing paths simultaneously"
+    },
+    {
+      "name": "Principles/Control Maintenance",
+      "content_type": "Principle",
+      "relationship": "Maintaining control increases the number of attempts you get, which improves cumulative success probability"
+    },
+    {
+      "name": "Positions/Back Control",
+      "content_type": "Position",
+      "relationship": "The highest-percentage submission position in BJJ, where probabilistic thinking clearly favors the rear naked choke"
+    },
+    {
+      "name": "Positions/Mount",
+      "content_type": "Position",
+      "relationship": "Mount offers multiple high-percentage submissions with high position retention on failure"
+    },
+    {
+      "name": "Positions/Closed Guard",
+      "content_type": "Position",
+      "relationship": "Closed guard bottom provides reliable high-percentage sweeps and submissions from a secure position"
+    }
+  ],
+  "references": [
+    {
+      "title": "Thinking in Bets",
+      "author": "Annie Duke"
+    },
+    {
+      "title": "Mastering Jujitsu",
+      "author": "Renzo Gracie and John Danaher"
+    }
+  ]
+}

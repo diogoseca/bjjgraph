@@ -1,0 +1,152 @@
+{
+  "name": "Committed Techniques",
+  "description": "Learn why choosing BJJ techniques with high position retention on failure separates smart grapplers from reckless ones. Favor moves that keep you safe when they do not work.",
+  "tags": ["bjj", "strategy", "risk-management", "position-retention", "technique-selection", "decision-making"],
+  "category": "Strategy",
+  "overview": "Every technique in BJJ carries a cost on failure. An armbar from mount that does not finish usually returns you to mount -- cost is near zero. A flying armbar that does not finish dumps you to bottom with your opponent in your guard or worse -- cost is enormous. Committed technique selection means evaluating not just how likely a move is to work, but what happens when it does not.\n\nThis concept sits at the intersection of positional awareness and risk management. A technique with 30% success rate from mount that returns you to mount on the other 70% is far more valuable across a match than a technique with 50% success rate that lands you on bottom half the time. Over ten attempts, the first technique finishes three times and keeps you in mount seven times. The second finishes five times but leaves you fighting from bottom five times. The first is the smarter bet in almost every context.\n\nThe key question to ask about any technique is: 'Where do I end up if this fails?' If the answer is 'roughly where I started,' you have a committed technique with high position retention. If the answer is 'significantly worse than where I started,' you have a speculative technique that should be reserved for specific situations -- last-minute desperation in competition, significant skill advantage, or when the risk is justified by the reward.",
+  "key_takeaways": [
+    "Before attempting any technique, ask yourself where you end up if it fails -- favor moves that return you to your current position or better",
+    "An armbar from mount is a committed technique because failure usually means returning to mount; a flying armbar is speculative because failure means giving up top position",
+    "In competition, committed techniques preserve your lead -- speculative techniques can erase a points advantage in seconds",
+    "Speculative techniques are not bad -- they are situational. Use them when you are behind on points, when the skill gap favors you, or when the setup is perfect",
+    "Build your A-game around committed techniques that you can attempt repeatedly without risk of position loss",
+    "The best competitors use committed techniques as their bread and butter and reserve speculative techniques for calculated gambles",
+    "Practice assessing the failure cost of every technique you learn: what position do you land in when the opponent successfully defends?"
+  ],
+  "bjj_applications": [
+    {
+      "scenario": "You have mount and are deciding between an americana and a gogoplata attempt",
+      "application": "The americana from mount has high position retention -- if it fails, you remain in mount with both arms close to your body. The gogoplata requires inverting and repositioning your legs dramatically, and failure often means your opponent escapes mount entirely",
+      "outcome": "Choosing the americana lets you attempt, fail, and try again without giving up your dominant position. The gogoplata should only come out when the setup is perfectly presented"
+    },
+    {
+      "scenario": "You are winning on points from top half guard with two minutes left in a competition match",
+      "application": "A guillotine attempt from top half guard is speculative -- if it fails, you might end up on bottom. Instead, focus on passing to side control using a knee slice, which is a committed technique. Even if the pass fails, you retain top half guard",
+      "outcome": "You protect your lead by choosing techniques that cannot cost you the position you already have"
+    },
+    {
+      "scenario": "You are in closed guard bottom and considering a sweep versus an omoplata",
+      "application": "A scissor sweep from closed guard is committed -- failure keeps you in closed guard. An omoplata attempt that fails can leave you in a scramble where your opponent may pass. If your guard is strong, the omoplata is fine, but the scissor sweep is the safer opening move",
+      "outcome": "Starting with the committed sweep forces a reaction you can build on, while keeping your guard intact if it does not work"
+    },
+    {
+      "scenario": "You are behind on points with thirty seconds left in a competition match",
+      "application": "This is the one situation where speculative techniques make sense. A flying triangle, a jumping guard pull to immediate submission, or a wild scramble takedown might be your only path to victory. The cost of staying safe is losing the match anyway",
+      "outcome": "The risk-reward calculation shifts when losing position is no worse than the alternative of running out of time"
+    },
+    {
+      "scenario": "You have side control and are choosing between a north-south kimura and a crucifix entry",
+      "application": "The north-south kimura keeps you in a dominant top position even if the submission fails. The crucifix entry is higher reward but involves transitioning through positions where the opponent might escape to turtle or guard. Choose the kimura unless the crucifix setup is perfectly available",
+      "outcome": "You maintain pressure and control while still threatening legitimate submissions"
+    }
+  ],
+  "common_mistakes": [
+    {
+      "mistake": "Attempting speculative techniques when you are ahead on points in competition",
+      "consequence": "A failed flying armbar or wild scramble gives your opponent a positional advantage and potential points, turning a winning match into a losing one",
+      "correction": "When ahead on points, exclusively use committed techniques that retain your current position on failure. Save speculative moves for when you need them"
+    },
+    {
+      "mistake": "Avoiding all risk and never attempting higher-reward techniques, even when appropriate",
+      "consequence": "You become predictable and your offense lacks finishing power because you only use the safest options. Opponents learn they can defend without worrying about high-damage attacks",
+      "correction": "Speculative techniques have their place -- use them when behind on points, when the setup is perfect, or when you have a significant skill advantage. The goal is risk awareness, not risk avoidance"
+    },
+    {
+      "mistake": "Not knowing the failure state of your own techniques",
+      "consequence": "You attempt techniques without understanding the cost when they do not work, leading to unnecessary position losses that feel random",
+      "correction": "For every technique in your game, drill both the success path and the failure path. Know exactly where you end up when the opponent defends, and have a plan from that position"
+    },
+    {
+      "mistake": "Treating all submissions as equal when choosing attacks from a dominant position",
+      "consequence": "You waste dominant positions by choosing submissions that sacrifice position on failure, when equally effective options exist that maintain it",
+      "correction": "When you have multiple submission options from a position, default to the one with the best position retention on failure unless another option has a clearly superior setup"
+    }
+  ],
+  "training_exercises": [
+    {
+      "name": "Position Retention Audit",
+      "description": "List your ten most-used techniques. For each one, write down where you end up when the technique succeeds and where you end up when it fails. Classify each as committed (return to same or better position on failure) or speculative (end up in a worse position on failure). Aim to have at least seven committed techniques in your top ten.",
+      "focus": "Self-awareness of the risk profile of your personal game"
+    },
+    {
+      "name": "Failure State Drilling",
+      "description": "Pick a technique you use frequently. Have your partner successfully defend it. Instead of resetting, continue from the failure position. Where are you? What are your options? Drill recovering from the failure state ten times. This builds comfort with the worst-case outcome of each technique.",
+      "focus": "Practicing recovery from failed technique attempts"
+    },
+    {
+      "name": "Points-Lead Sparring",
+      "description": "Start every round with an imaginary two-point lead. Your goal is to maintain or extend the lead using only committed techniques. Your partner rolls normally. After each round, evaluate whether you maintained position throughout or whether speculative technique choices cost you your lead.",
+      "focus": "Decision-making discipline when protecting a positional advantage"
+    }
+  ],
+  "knowledge_assessment": [
+    {
+      "question": "What makes a technique 'committed' versus 'speculative'?",
+      "answer": "A committed technique returns you to your current position or better when it fails. A speculative technique puts you in a worse position when it fails. The distinction is about the cost of failure, not the probability of success."
+    },
+    {
+      "question": "Give an example of a committed technique from mount and explain why it qualifies.",
+      "answer": "An americana from mount is committed because if the opponent defends -- either by straightening the arm or rolling -- you typically remain in mount with your weight still on top. The failure state is essentially the same as the starting state."
+    },
+    {
+      "question": "When is it appropriate to use speculative techniques?",
+      "answer": "When you are behind on points with little time left, when you have a significant skill advantage that makes the risk manageable, or when the setup is so perfectly presented that the success probability is unusually high."
+    },
+    {
+      "question": "Why are committed techniques especially important when leading on points in competition?",
+      "answer": "Because every speculative technique that fails risks giving your opponent positional points or advantages, potentially erasing your lead. Committed techniques let you continue attacking without risking the score you have already built."
+    },
+    {
+      "question": "How should you evaluate a new technique you are learning in terms of commitment level?",
+      "answer": "Ask two questions: where do I end up when this works, and where do I end up when this fails? Then determine if the failure state is acceptable given the positions you typically use the technique from. A technique with a great success state but a terrible failure state should be used selectively."
+    }
+  ],
+  "related_content": [
+    {
+      "name": "Learning/Position Over Submission",
+      "content_type": "Learning",
+      "relationship": "Position-first strategy relies on choosing committed techniques that retain dominant positions"
+    },
+    {
+      "name": "Learning/Probabilistic Thinking",
+      "content_type": "Learning",
+      "relationship": "Evaluating techniques by their expected value including failure outcomes"
+    },
+    {
+      "name": "Principles/Positional Hierarchy",
+      "content_type": "Principle",
+      "relationship": "Understanding the positional ladder helps assess the cost of technique failure"
+    },
+    {
+      "name": "Principles/Control Maintenance",
+      "content_type": "Principle",
+      "relationship": "Committed techniques inherently support control maintenance because they do not sacrifice position"
+    },
+    {
+      "name": "Principles/Base",
+      "content_type": "Principle",
+      "relationship": "Good base allows you to attempt committed techniques without losing balance or position"
+    },
+    {
+      "name": "Positions/Mount",
+      "content_type": "Position",
+      "relationship": "The classic position where committed technique selection matters most due to the value of mount retention"
+    },
+    {
+      "name": "Positions/Side Control",
+      "content_type": "Position",
+      "relationship": "Multiple committed submission options available that retain the side control position"
+    },
+    {
+      "name": "Positions/Back Control",
+      "content_type": "Position",
+      "relationship": "Back control offers committed choke attacks where failure typically retains the back position"
+    }
+  ],
+  "references": [
+    {
+      "title": "Jiu-Jitsu University",
+      "author": "Saulo Ribeiro"
+    }
+  ]
+}

@@ -1,0 +1,170 @@
+{
+  "name": "Path of Least Resistance",
+  "description": "Master the BJJ principle of going around obstacles rather than through them. Learn to read defensive barriers, redirect your attacks, and choose efficient routes on the mat.",
+  "tags": [
+    "bjj",
+    "strategy",
+    "efficiency",
+    "passing",
+    "route-selection",
+    "redirection",
+    "adaptability"
+  ],
+  "category": "Strategy",
+  "overview": "When you push a door that says pull, you do not push harder -- you change your approach. Yet in BJJ, grapplers constantly try to force techniques through an opponent's strongest defensive barrier. They push into the guard that is blocking them, fight the grip that is stopping them, or muscle through the frame that is holding them away. The path of least resistance is the strategic discipline of going around obstacles rather than bulldozing through them.\n\nThis principle shows up everywhere on the mat. If your opponent has a strong knee shield blocking your side control, do not smash through it -- pass to the other side where there is no shield. If their arms are defending their neck, do not fight through their hands to get the choke -- attack their exposed arm instead. If they have deep De La Riva hooks, do not try to rip your leg free -- backstep and change the angle entirely so the hook loses its leverage. Every defensive barrier has a gap, and finding that gap is always more efficient than breaking through the barrier itself.\n\nEfficiency matters because grappling is an endurance sport. Every ounce of energy you spend fighting through a strong defense is energy you do not have later. The grappler who consistently chooses the efficient route finishes rounds with gas in the tank while their opponent, who was successfully defending everything, is exhausted from absorbing all that redirected pressure. The path of least resistance is not lazy -- it is the most intelligent use of your limited energy budget.",
+  "key_takeaways": [
+    "When a technique meets strong resistance, redirect rather than force -- go around the obstacle, not through it",
+    "If the guard is strong in front, pass to the side or backstep to change the angle entirely",
+    "If the arm is defended, attack the neck; if the neck is defended, attack the arm",
+    "Every frame, grip, and hook your opponent establishes has a direction it is strong in and a direction it is weak in -- attack the weak direction",
+    "Conserve energy by choosing efficient routes rather than powering through defensive barriers",
+    "Read your opponent's defensive structure as a map: where are the walls, and where are the doors?",
+    "Multiple failed attempts at the same blocked path signal that you need to change direction, not increase effort",
+    "The fastest route between two positions is rarely a straight line through your opponent's best defense"
+  ],
+  "bjj_applications": [
+    {
+      "scenario": "You are in half guard top and your opponent has a strong knee shield blocking your crossface side",
+      "application": "Instead of fighting through the knee shield with pressure, switch your hips and pass to the underhook side. Or backstep over the knee shield and take a completely different passing angle that makes the shield irrelevant. Go where the shield is not.",
+      "outcome": "The guard pass succeeds because you bypassed the strongest defensive structure rather than trying to overcome it directly."
+    },
+    {
+      "scenario": "From mount, you are trying a cross collar choke but your opponent defends their neck with both hands",
+      "application": "Their hands are on their neck, which means their arms are not protecting their elbows. Switch to an armbar or americana. Their neck defense is their arm offense vulnerability.",
+      "outcome": "The submission lands because you attacked the opening created by their defense, not the area they were protecting."
+    },
+    {
+      "scenario": "Your opponent has a deep De La Riva hook on your lead leg, controlling your passing angle",
+      "application": "Rather than trying to strip the hook (fighting their strongest grip), backstep your hooked leg behind them, spin to the other side, and pass where there is no hook. The DLR hook that was controlling you is now on the wrong side of your body.",
+      "outcome": "The pass succeeds with minimal energy because you changed the geometry rather than fighting the grip."
+    },
+    {
+      "scenario": "You want a takedown but your opponent has strong defensive frames with stiff arms against your collar ties",
+      "application": "Instead of bulling through their frames, duck under the arm, change levels, and shoot on the side where their frame cannot reach. Or snap their head down to break the frame's alignment, then shoot when their posture is broken.",
+      "outcome": "The takedown lands because you went under or around the stiff-arm rather than through it."
+    },
+    {
+      "scenario": "From closed guard bottom, you want to sweep but your opponent has wide base and strong posture",
+      "application": "A direct hip bump into their posted arms will fail. Instead, attack a collar drag or armdrag to pull them off their base to one side. Once their weight shifts laterally, sweep in the direction they are already falling.",
+      "outcome": "The sweep succeeds because you redirected their base rather than trying to overcome it head-on."
+    },
+    {
+      "scenario": "You are passing open guard and your opponent's feet are on your hips, creating strong distance",
+      "application": "Do not try to push through the feet -- they are at their strongest pushing straight back. Step to the side, grab an ankle, and toreando past the feet laterally where their pushing force has no leverage.",
+      "outcome": "The pass works because lateral movement defeats a push that is only effective in a straight line."
+    }
+  ],
+  "common_mistakes": [
+    {
+      "mistake": "Doubling down on a technique that is meeting strong resistance instead of redirecting",
+      "consequence": "You exhaust yourself fighting through your opponent's best defense. Even if you eventually succeed, you have spent far more energy than necessary and may be too tired to capitalize on the position gained.",
+      "correction": "Set a mental rule: if a technique meets strong resistance twice, change direction. Do not try the same blocked path a third time -- find the door, not the wall."
+    },
+    {
+      "mistake": "Mistaking redirection for giving up",
+      "consequence": "You stay committed to failing approaches out of stubbornness, believing that changing direction means you are quitting. Your training reinforces bulldozing rather than problem-solving.",
+      "correction": "Reframe redirection as intelligence, not retreat. The best grapplers in the world constantly adjust their path based on resistance. Redirection is a skill, not a concession."
+    },
+    {
+      "mistake": "Redirecting without maintaining pressure -- giving the opponent space during the transition",
+      "consequence": "When you change direction, you create a moment of reduced pressure. If you pause during this moment, the opponent uses it to recover position, re-establish guard, or escape.",
+      "correction": "Maintain contact and pressure while redirecting. The switch should be smooth and continuous, not a stop-and-start. Think of it as flowing around the obstacle, not backing away and trying a different approach."
+    },
+    {
+      "mistake": "Always choosing the easy route and never developing the ability to deal with tough positions",
+      "consequence": "You become a one-dimensional grappler who falls apart when forced into difficult spots. Opponents learn that they can steer you by blocking your preferred paths.",
+      "correction": "In training, sometimes deliberately take the harder path to develop your ability to handle resistance. Save the path of least resistance for competition and tough rolls. In training, build capacity. In competition, use efficiency."
+    }
+  ],
+  "training_exercises": [
+    {
+      "name": "Redirection Passing Drill",
+      "description": "Partner plays guard with the instruction to block your pass on one side as hard as possible. Your job is to recognize the block and immediately redirect to the other side within 2 seconds. Do not spend more than one attempt on the blocked side. Repeat for 5-minute rounds, counting successful redirections. This builds the habit of flow-around rather than push-through.",
+      "focus": "Training immediate redirection when guard pass meets resistance"
+    },
+    {
+      "name": "Obstacle Map Sparring",
+      "description": "After each 5-minute sparring round, immediately describe your opponent's three strongest defensive barriers and three weakest points. Where were the walls and where were the doors? Over time this develops the ability to read defensive structures in real time during rolling rather than only in retrospect.",
+      "focus": "Developing the ability to read and map an opponent's defensive structure during live rolling"
+    },
+    {
+      "name": "Energy Budget Rounds",
+      "description": "Roll with the constraint that you rate your energy expenditure after each exchange on a scale of 1-5. If any technique attempt costs a 4 or 5, you were probably forcing through resistance. Aim to keep every exchange at 1-3 by choosing efficient routes. This builds awareness of when you are bulldozing vs flowing around obstacles.",
+      "focus": "Energy awareness and efficiency in route selection during live grappling"
+    }
+  ],
+  "knowledge_assessment": [
+    {
+      "question": "Why is going around a defensive barrier more effective than pushing through it?",
+      "answer": "Every defensive structure has a direction where it is strong and a direction where it is weak. Pushing through the strong direction requires maximum energy and has low success rates. Moving to where the defense is weak or absent requires minimal energy and has high success rates. It is about efficiency and probability."
+    },
+    {
+      "question": "How does the path of least resistance apply when your opponent defends their neck from mount?",
+      "answer": "When they use both hands to defend their neck, their arms are occupied. This means their elbows are unsupported and available for arm attacks like armbar or americana. You redirect from the defended target (neck) to the exposed target (arms) rather than fighting through their neck defense."
+    },
+    {
+      "question": "What should you do if the same technique meets strong resistance twice in a row?",
+      "answer": "Change direction. Two failed attempts at the same path means the defense is strong there. Continuing to try the same thing is wasting energy against a fortified position. Redirect to a different angle, target, or technique where resistance is lower."
+    },
+    {
+      "question": "How do you maintain pressure while redirecting your attack?",
+      "answer": "Keep physical contact and weight distribution active during the direction change. The switch should be a smooth flow around the obstacle, not a step back and restart. Maintain at least one control point (grip, hip pressure, shoulder contact) throughout the transition so the opponent cannot recover during the switch."
+    },
+    {
+      "question": "Why should you sometimes take the harder path in training?",
+      "answer": "Always taking the easy route in training creates gaps in your game. When opponents block your preferred paths, you need the ability to handle resistance. Training should build capability across all directions. Save maximum efficiency for competition; in training, develop the capacity to deal with difficult situations."
+    }
+  ],
+  "related_content": [
+    {
+      "name": "Maximum Efficiency Principle",
+      "content_type": "Principle",
+      "relationship": "The path of least resistance is a direct application of maximum efficiency in technique selection"
+    },
+    {
+      "name": "Guard Passing",
+      "content_type": "Principle",
+      "relationship": "Guard passing is the most common context for path-of-least-resistance decisions"
+    },
+    {
+      "name": "Energy Conservation",
+      "content_type": "Principle",
+      "relationship": "Choosing efficient routes conserves energy for later in the match or round"
+    },
+    {
+      "name": "Dominant Angles",
+      "content_type": "Principle",
+      "relationship": "Angle changes are the primary mechanism for going around obstacles rather than through them"
+    },
+    {
+      "name": "Fork Attacks",
+      "content_type": "Principle",
+      "relationship": "Fork attacks create multiple paths and let you take whichever one the opponent leaves open"
+    },
+    {
+      "name": "De La Riva Guard",
+      "content_type": "Position",
+      "relationship": "DLR defense is commonly bypassed through backstep and angle changes rather than grip fighting"
+    },
+    {
+      "name": "Half Guard",
+      "content_type": "Position",
+      "relationship": "Knee shield in half guard is a common obstacle that is better bypassed than forced through"
+    },
+    {
+      "name": "Open Guard",
+      "content_type": "Position",
+      "relationship": "Open guard frames create directional barriers that are defeated by lateral movement"
+    },
+    {
+      "name": "Asymmetric Warfare",
+      "content_type": "Learning",
+      "relationship": "Both concepts involve choosing where to engage based on where the opponent is weakest"
+    },
+    {
+      "name": "Static vs Dynamic Control",
+      "content_type": "Learning",
+      "relationship": "Dynamic control is the path-of-least-resistance approach to maintaining dominance against methodical escape artists"
+    }
+  ]
+}
