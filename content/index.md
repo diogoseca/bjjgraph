@@ -38,3 +38,8 @@ title: BJJ Graph - Interactive Brazilian Jiu-Jitsu Knowledge Base
   <a href="/Principles/" class="stat-link"><span class="stat-number" data-stat="principles">&mdash;</span> principles</a>
   <a href="/Systems/" class="stat-link"><span class="stat-number" data-stat="systems">&mdash;</span> systems</a>
 </div>
+<div id="training-summary-home">
+  <a href="/Training" class="training-summary-link">
+    <span id="training-summary-text">Training</span>
+  </a>
+</div>
