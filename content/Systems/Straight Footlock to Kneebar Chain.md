@@ -361,7 +361,7 @@ The system should be trained in progressive phases, beginning with positional co
 - [[Cross Ashi-Garami]] (Position) - Alternative ashi variation for chain execution
 - [[Straight Ankle Lock]] (Submission) - Primary submission and entry point for the chain
 - [[Kneebar]] (Submission) - Secondary submission and transition target in chain
-- [[Kneebar from Top]] (Submission) - Specific kneebar variation used in chain from ashi garami
+- [[Flying Kneebar]] (Submission) - Dynamic kneebar entry variation that develops explosive finishing applicable to the chain
 - [[Achilles Lock]] (Submission) - Related ankle attack that shares similar positional prerequisites
 - [[Heel Hook]] (Submission) - Advanced leg attack that can be integrated into expanded system
 - [[Toe Hold]] (Submission) - Alternative ankle attack that expands offensive options
@@ -372,12 +372,12 @@ The system should be trained in progressive phases, beginning with positional co
 - [[Saddle Entry from Top]] (Transition) - Advanced transition that expands system to heel hook attacks
 - [[Leg Entanglement]] (Position) - Fundamental positional concept underlying control maintenance in chain
 - [[Submission Chains]] (Principle) - Core concept that defines the systematic approach to submissions
-- [[Transition Sequences]] (Principle) - Broader concept that includes submission-to-submission transitions
-- [[Dilemma Creation]] (Principle) - Strategic concept of creating no-win defensive scenarios
+- [[Transition Management]] (Principle) - Broader concept governing smooth transitions between submission attempts
+- [[Fork Attacks]] (Principle) - Strategic concept of creating no-win defensive scenarios
 - [[Action and Reaction]] (Principle) - Principle of using opponent's defensive movements to guide transitions
 - [[Control Maintenance]] (Principle) - Essential concept for maintaining position during transitions
-- [[Biomechanical Principles]] (Principle) - Biomechanical principles underlying both submissions in chain
-- [[Drilling Methodology]] (Principle) - Training methodology that guides progressive skill development in the system
+- [[Levers]] (Principle) - Biomechanical leverage principles underlying both submissions in chain
+- [[Positional Sparring]] (Principle) - Training methodology for developing chain proficiency through structured practice
 - [[Danaher Leg Lock System]] (System) - Comprehensive system that this chain is fundamental component of
 
 

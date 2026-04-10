@@ -24,7 +24,7 @@
   ],
   "key_components": [
     {
-      "component_name": "Grip Fighting Without Fabric",
+      "component_name": "Grips Without Fabric",
       "description": "In no-gi grappling, traditional collar and sleeve grips are replaced by wrist controls, underhooks, overhooks, and body locks. The grip fighting meta becomes centered around controlling the opponent's posture and limiting their ability to create frames. Practitioners must develop sensitivity to body lock opportunities, learn to fight for dominant head position, and understand when to abandon grip battles in favor of positional advancement. The reduced grip security means that static control is less viable, requiring constant pressure and readjustment to maintain dominant positions.",
       "purpose": "Establish control and dictate engagement without relying on gi fabric"
     },
@@ -63,7 +63,7 @@
     },
     {
       "step_number": 2,
-      "phase": "Grip Fighting Mastery",
+      "phase": "Grips Mastery",
       "description": "Build competency in no-gi specific grip battles and hand fighting",
       "key_points": [
         "Master wrist control, cross-face, and whizzer mechanics",
@@ -192,7 +192,7 @@
       ]
     },
     {
-      "metric_name": "Grip Fighting Effectiveness",
+      "metric_name": "Grips Effectiveness",
       "description": "Success in establishing dominant controls without gi fabric",
       "proficiency_indicators": [
         "Secures underhooks and body locks at 60%+ rate in neutral exchanges",
@@ -342,27 +342,27 @@
       "relationship": "Fundamental shoulder lock effective without gi fabric"
     },
     {
-      "name": "Grip Fighting",
+      "name": "Grips",
       "content_type": "Principle",
       "relationship": "Foundational skill set for no-gi control establishment"
     },
     {
-      "name": "Connection Breaking",
+      "name": "Connection Principles",
       "content_type": "Principle",
-      "relationship": "Essential defensive principle in no-gi contexts"
+      "relationship": "Essential principles governing connection and disconnection in no-gi contexts"
     },
     {
-      "name": "Pressure Application",
+      "name": "Pressure",
       "content_type": "Principle",
       "relationship": "Critical for position maintenance without gi grips"
     },
     {
-      "name": "Frame Management",
+      "name": "Frames",
       "content_type": "Principle",
-      "relationship": "Defensive framework replacing gi-based controls"
+      "relationship": "Defensive framework for creating and maintaining space without gi-based controls"
     },
     {
-      "name": "Dilemma Creation",
+      "name": "Fork Attacks",
       "content_type": "Principle",
       "relationship": "Strategic approach to forcing opponent reactions"
     },

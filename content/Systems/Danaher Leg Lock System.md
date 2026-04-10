@@ -390,8 +390,8 @@ The Danaher Leg Lock System requires progressive, systematic drilling that build
 - [[Kneebar]] (Submission) - Alternative lower body finish accessible from ashi-garami transitions
 - [[Heel Hook]] (Submission) - Primary submission family for entire system with multiple variations
 - [[Inside Heel Hook from Honey Hole]] (Submission) - Signature finish from maximum control position in the ashi-garami hierarchy
-- [[Toe Hold from 50-50]] (Submission) - Alternative attack from outside ashi when heel hook path is blocked
-- [[Kneebar from 50-50]] (Submission) - Secondary lower body attack from outside ashi-garami configurations
+- [[Achilles Lock]] (Submission) - Fundamental ankle submission serving as positional control tool and alternative finish from all ashi-garami configurations
+- [[Flying Kneebar]] (Submission) - Dynamic kneebar entry demonstrating explosive leg attack integration with the positional hierarchy
 - [[X-Guard to Ashi Garami]] (Transition) - Critical entry pathway from X-guard positions to leg entanglements
 - [[Inside Ashi Entry]] (Transition) - Core technique for establishing inside ashi-garami position
 - [[Saddle Entry from Top]] (Transition) - Advanced entry to maximum control position from passing situations

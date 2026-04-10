@@ -326,11 +326,11 @@ Berimbolo development requires progressive drilling starting with solo movement 
 - [[Rolling Back Take]] (Transition) - Alternative back-taking method that shares similar rotational mechanics and timing principles
 - [[Crab Ride to Back]] (Transition) - Related back-taking technique from turtle that uses similar body lock transitional control
 - [[Timing and Rhythm]] (Principle) - Critical for reading opponent's weight commitment and initiating inversion at optimal moment
-- [[Angle Creation]] (Principle) - Core concept of using rotation to create angles for accessing opponent's back from bottom position
-- [[Off-Balancing]] (Principle) - Essential prerequisite for successful Berimbolo entries - opponent must be off-balanced before rotation
-- [[Guard Retention]] (Principle) - Underlying defensive concept that Berimbolo enhances by converting defense into offense
-- [[Flexibility Training]] (Principle) - Physical prerequisite for safe and effective inversion mechanics throughout Berimbolo system
-- [[Grip Fighting]] (Principle) - Fundamental skill for establishing and maintaining collar and pant grips needed for Berimbolo control
+- [[Dominant Angles]] (Principle) - Core concept of using rotation to create angles for accessing opponent's back from bottom position
+- [[Posture]] (Principle) - Essential prerequisite for successful Berimbolo entries - opponent must be off-balanced and posture disrupted before rotation
+- [[Defensive Concepts]] (Principle) - Underlying defensive framework that Berimbolo enhances by converting guard retention into offensive back-taking opportunities
+- [[Hip Escape Mechanics]] (Principle) - Physical prerequisite providing the hip mobility and rotational mechanics essential for safe inversion throughout Berimbolo system
+- [[Grips]] (Principle) - Fundamental skill for establishing and maintaining collar and pant grips needed for Berimbolo control
 - [[Transition Management]] (Principle) - Framework for understanding smooth movement between De La Riva, inversion, and back control phases
 - [[Mikey Musumeci Berimbolo System]] (System) - Specialized expert system focused on modern Berimbolo variations and competition applications
 - [[Marcelo Garcia X-Guard System]] (System) - Complementary guard system that integrates effectively with Berimbolo to create comprehensive bottom game

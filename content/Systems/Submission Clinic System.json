@@ -1,7 +1,17 @@
 {
   "name": "Submission Clinic System",
   "description": "Master systematic submission hunting from dominant positions in BJJ. Learn to chain attacks, create dilemmas, and maintain control while presenting constant submission threats.",
-  "tags": ["bjj", "system", "submission", "attack-chain", "position-control", "finish", "mount", "back", "triangle"],
+  "tags": [
+    "bjj",
+    "system",
+    "submission",
+    "attack-chain",
+    "position-control",
+    "finish",
+    "mount",
+    "back",
+    "triangle"
+  ],
   "system_type": "Attack System",
   "difficulty_level": "Advanced",
   "overview": "The Submission Clinic System represents a comprehensive framework for systematically attacking submissions from dominant positions. Rather than hunting for isolated finishes, this system emphasizes positional dominance first, then creates multiple submission threats that force the opponent into defensive dilemmas. Each defensive reaction opens new attacking pathways, creating an endless cycle of threats.\n\nThis system integrates seamlessly across mount, back control, side control, and guard positions, teaching practitioners to maintain control while presenting constant submission danger. The key is never committing fully to one submission, but rather using each attempt to improve position or transition to the next threat. By mastering this system, practitioners develop the ability to finish opponents who are desperately defending, using their defensive reactions as the roadmap to victory.\n\nThe Submission Clinic System is particularly effective in competition and high-level training because it removes the opponent's ability to rest or recover. Every moment in a dominant position becomes an opportunity for attack, and every defensive movement creates new vulnerabilities. This constant pressure breaks down even experienced grapplers, leading to either submission or complete positional dominance.",
@@ -110,7 +120,7 @@
     },
     {
       "step_number": 6,
-      "phase": "Dilemma Creation",
+      "phase": "Fork Attacks",
       "description": "Present simultaneous threats that cannot both be defended. For example, from S-mount, threaten both armbar on one side and collar choke on the other. Opponent must choose which to defend, opening the other for finish.",
       "key_points": [
         "Set up both threats before forcing the choice",
@@ -181,7 +191,7 @@
       ]
     },
     {
-      "metric_name": "Dilemma Creation Effectiveness",
+      "metric_name": "Fork Attacks Effectiveness",
       "description": "Success rate of presenting simultaneous threats that force opponent into no-win scenarios",
       "proficiency_indicators": [
         "Beginner: Presents one threat at a time, giving opponent clear defensive path",
@@ -318,9 +328,9 @@
       "relationship": "Superior back control variation for submission attacks"
     },
     {
-      "name": "Armbar from Mount",
+      "name": "Armbar from Armbar Control",
       "content_type": "Submission",
-      "relationship": "Primary submission attack from mount position"
+      "relationship": "Primary armbar finishing mechanic from armbar control reached via mount and other dominant positions"
     },
     {
       "name": "Triangle Setup",
@@ -343,9 +353,9 @@
       "relationship": "Position improvement using kimura threat"
     },
     {
-      "name": "Armbar from Back",
-      "content_type": "Submission",
-      "relationship": "High-percentage finish from back control"
+      "name": "Armbar from Back Transition",
+      "content_type": "Transition",
+      "relationship": "High-percentage armbar finish transition from back control"
     },
     {
       "name": "Rear Naked Choke",
@@ -388,7 +398,7 @@
       "relationship": "Core theoretical framework underlying entire system"
     },
     {
-      "name": "Dilemma Creation",
+      "name": "Fork Attacks",
       "content_type": "Principle",
       "relationship": "Strategic principle of forcing no-win defensive choices"
     },

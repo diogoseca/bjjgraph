@@ -255,14 +255,14 @@
       "relationship": "Foundational concept underlying entire teaching methodology and curriculum organization"
     },
     {
-      "name": "Progressive Resistance Training",
+      "name": "Pressure",
       "content_type": "Principle",
-      "relationship": "Core drilling methodology ensuring proper technical development before pressure testing"
+      "relationship": "Core concept for progressive resistance drilling, teaching students to apply and withstand pressure systematically"
     },
     {
-      "name": "Drilling Methodology",
+      "name": "Flow Rolling",
       "content_type": "Principle",
-      "relationship": "Specific implementation of practice protocols within teaching framework"
+      "relationship": "Training methodology for developing technical fluency through controlled, continuous practice at reduced intensity"
     },
     {
       "name": "Position-Over-Submission Approach",
@@ -270,19 +270,19 @@
       "relationship": "Strategic philosophy emphasizing positional control before attacking submissions"
     },
     {
-      "name": "Concepts vs Techniques",
+      "name": "Defensive Concepts",
       "content_type": "Principle",
-      "relationship": "Pedagogical distinction between teaching isolated techniques versus underlying principles"
+      "relationship": "Pedagogical framework emphasizing conceptual understanding of defense over isolated technique memorization"
     },
     {
-      "name": "System Building",
+      "name": "Position Chains",
       "content_type": "Principle",
-      "relationship": "Approach to developing connected sequences rather than isolated techniques"
+      "relationship": "Approach to developing connected positional sequences rather than isolated techniques"
     },
     {
-      "name": "Escape Hierarchy",
+      "name": "Escape Fundamentals",
       "content_type": "Principle",
-      "relationship": "Systematic prioritization of defensive skills in curriculum design"
+      "relationship": "Systematic prioritization of defensive escape skills in curriculum design"
     },
     {
       "name": "Hip Escape Mechanics",
@@ -290,14 +290,14 @@
       "relationship": "Fundamental movement pattern essential to defensive curriculum"
     },
     {
-      "name": "Frame Management",
+      "name": "Frames",
       "content_type": "Principle",
-      "relationship": "Core defensive concept taught in early curriculum phases"
+      "relationship": "Core defensive concept taught in early curriculum phases for maintaining space under pressure"
     },
     {
-      "name": "Bridging Mechanics",
+      "name": "Bridge and Shrimp",
       "content_type": "Principle",
-      "relationship": "Essential movement skill for escapes and position improvement"
+      "relationship": "Essential movement skills for escapes and position improvement throughout curriculum"
     },
     {
       "name": "Mount",
@@ -375,9 +375,9 @@
       "relationship": "Underlying philosophy emphasizing technical precision over athletic attributes"
     },
     {
-      "name": "Energy Management System",
+      "name": "Energy Conservation",
       "content_type": "Principle",
-      "relationship": "Important concept for sustainable training practices and longevity"
+      "relationship": "Important concept for sustainable training practices, pacing, and long-term practitioner longevity"
     }
   ]
 }

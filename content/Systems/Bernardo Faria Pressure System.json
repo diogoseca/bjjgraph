@@ -64,7 +64,7 @@
     },
     {
       "step_number": 2,
-      "phase": "Pressure Application",
+      "phase": "Pressure",
       "description": "Drive forward weight onto opponent through strategic positioning, forcing them to carry your bodyweight. Focus on placing pressure on their hips, chest, and shoulders rather than using muscular strength.",
       "key_points": [
         "Drop hips to create downward pressure vector",
@@ -334,12 +334,12 @@
       "relationship": "Fundamental pressure passing movement driving knee across opponent's thighs"
     },
     {
-      "name": "Pressure Passing",
+      "name": "Hip Pressure",
       "content_type": "Principle",
-      "relationship": "Foundational principle underlying entire system methodology"
+      "relationship": "Core pressure principle for applying weight through hips during passing sequences"
     },
     {
-      "name": "Weight Distribution",
+      "name": "Center of Gravity",
       "content_type": "Principle",
       "relationship": "Core principle for creating effective pressure without exhaustion"
     },
@@ -359,7 +359,7 @@
       "relationship": "Theoretical framework supporting systematic passing approach"
     },
     {
-      "name": "Base Maintenance",
+      "name": "Base",
       "content_type": "Principle",
       "relationship": "Critical principle for preventing sweeps during passing attempts"
     },
@@ -369,7 +369,7 @@
       "relationship": "Principle for consolidating positions after successful passes"
     },
     {
-      "name": "Pressure Application",
+      "name": "Pressure",
       "content_type": "Principle",
       "relationship": "Technical principle for applying weight effectively during passing"
     },

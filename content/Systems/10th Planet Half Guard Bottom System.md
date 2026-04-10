@@ -171,7 +171,7 @@ The 10th Planet Half Guard Bottom System represents Eddie Bravo's revolutionary 
 **Lockdown Position** (Establishes foundational control and creates the platform for all subsequent attacks in the system)
 The Lockdown is the cornerstone control position where the bottom player traps the opponent's leg by threading their inside leg under and around the opponent's thigh, then grabbing their own shin to create a figure-four lock. This configuration prevents the opponent from freeing their leg, disrupts their base, and allows the bottom player to extend their hips to create powerful off-balancing force. From the Lockdown, the bottom player can control the pace of the match, prevent passing attempts, and systematically work toward sweeps and submissions while the opponent is forced into defensive responses.
 
-**Electric Chair Submission** (Primary submission threat that creates defensive reactions enabling sweeps and positional advances)
+**Electric Chair** (Primary submission threat that creates defensive reactions enabling sweeps and positional advances)
 The Electric Chair is a crotch-ripper submission that applies pressure to the opponent's groin, hip, and knee simultaneously by extending the Lockdown while controlling the opponent's upper body and driving their trapped leg into an extreme split position. This submission can be finished from various configurations of the Lockdown position and serves as both a legitimate finishing technique and a powerful threat that forces opponents to defend, creating opportunities for sweeps and transitions to other positions like the back or mount.
 
 **Old School Sweep** (High-percentage sweep that reverses position and frequently leads to back control or mount)
@@ -341,16 +341,16 @@ The 10th Planet Half Guard Bottom System requires drilling that emphasizes both 
 - [[Deep Half Entry]] (Transition) - Escape route and alternative attack platform when Lockdown is countered
 - [[Half Guard to Back Take]] (Transition) - Common result of successful Old School sweeps and whip-up attacks
 - [[Whizzer]] (Transition) - Opponent's common defensive response that must be countered within the system
-- [[Electric Chair Submission]] (Submission) - Primary submission finish from the Lockdown position
+- [[Electric Chair]] (Submission) - Primary submission finish from the Lockdown position
 - [[Kimura from Half Guard]] (Submission) - Alternative submission option when opponent extends arm during Lockdown battles
 - [[Triangle from Guard]] (Submission) - Possible transition when opponent posts arm during sweep defense
-- [[Underhook Defense]] (Principle) - Critical principle for winning the underhook battle from bottom half guard
+- [[Grips]] (Principle) - Critical principle for winning the underhook battle and controlling grips from bottom half guard
 - [[Whizzer Control]] (Principle) - Understanding opponent's whizzer defense to counter it effectively
-- [[Sweep Mechanics]] (Principle) - Fundamental principles underlying all Lockdown-based sweeps
-- [[Frame Creation]] (Principle) - Prevents opponent from smashing and flattening before Lockdown is established
-- [[Creating Reactions]] (Principle) - Using Electric Chair threats to force defensive movements that enable sweeps
-- [[Guard Retention]] (Principle) - The Lockdown as an ultimate guard retention tool that prevents passing
-- [[System Building]] (Principle) - How individual techniques connect to form a cohesive attacking system
+- [[Kuzushi]] (Principle) - Fundamental principles underlying all Lockdown-based sweeps
+- [[Frames]] (Principle) - Prevents opponent from smashing and flattening before Lockdown is established
+- [[Fork Attacks]] (Principle) - Using Electric Chair threats to force defensive movements that open sweep and back take opportunities
+- [[Control Maintenance]] (Principle) - The Lockdown as an ultimate guard retention tool that prevents passing and maintains bottom position control
+- [[Position Chains]] (Principle) - How individual techniques connect to form a cohesive attacking system with logical progressions
 - [[10th Planet Rubber Guard System]] (System) - Related 10th Planet system that shares Eddie Bravo's systematic approach to guard play
 - [[10th Planet No-Gi Guard System]] (System) - Broader 10th Planet framework that encompasses half guard as one component
 - [[Lockdown to Electric Chair System]] (System) - Specialized subsystem focused on the submission pathway from Lockdown

@@ -24,7 +24,7 @@
   ],
   "key_components": [
     {
-      "component_name": "No-Gi Grip Fighting Framework",
+      "component_name": "No-Gi Grips Framework",
       "description": "The foundation of no-gi competition success lies in establishing dominant body connections without fabric grips. This involves systematic underhook battles, collar tie control, wrist control, and bodylock establishment. Understanding the hierarchy of grips in no-gi (bodylock > double underhooks > single underhook > wrist control > collar tie) allows competitors to systematically improve position through grip advancement. The slippery nature of no-gi requires constant pressure and active maintenance of connections rather than static holding.",
       "purpose": "Establish and maintain dominant control positions without gi grips"
     },
@@ -165,7 +165,7 @@
       ]
     },
     {
-      "metric_name": "Grip Fighting Success Rate",
+      "metric_name": "Grips Success Rate",
       "description": "Percentage of initial exchanges where dominant grips (underhooks, collar ties, body locks) are established before opponent",
       "proficiency_indicators": [
         "Beginner: 40-50% grip fighting exchanges won",
@@ -309,7 +309,7 @@
       "relationship": "Versatile shoulder lock applicable from multiple positions"
     },
     {
-      "name": "Energy Management System",
+      "name": "Energy Conservation",
       "content_type": "Principle",
       "relationship": "Critical for pacing and performance across competition rounds"
     },
@@ -319,17 +319,17 @@
       "relationship": "Fundamental concept for systematic position advancement"
     },
     {
-      "name": "Match Strategy",
+      "name": "Competition Mindset",
       "content_type": "Principle",
-      "relationship": "Tactical decision-making framework for competition"
+      "relationship": "Tactical and psychological decision-making framework for competition"
     },
     {
-      "name": "Dilemma Creation",
+      "name": "Fork Attacks",
       "content_type": "Principle",
       "relationship": "Core offensive principle for forcing opponent errors"
     },
     {
-      "name": "Pressure Application",
+      "name": "Pressure",
       "content_type": "Principle",
       "relationship": "Essential control mechanism in no-gi environment"
     },

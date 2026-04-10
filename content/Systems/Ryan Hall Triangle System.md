@@ -389,17 +389,16 @@ Hall's triangle system requires systematic drilling progressions that build from
 - [[Triangle Escape]] (Transition) - Understanding opponent's escape options improves system effectiveness
 - [[Hip Bump Sweep]] (Transition) - Alternative attack from closed guard that sets up triangle opportunities
 - [[Triangle to Back]] (Transition) - Back take pathway from triangle position
-- [[Triangle Choke]] (Submission) - Primary finishing technique of the system
-- [[Armbar from Guard]] (Submission) - Secondary finishing option within submission chain
-- [[Omoplata from Guard]] (Submission) - Tertiary finishing option and sweep mechanism
-- [[Triangle from Closed Guard]] (Submission) - Primary triangle finish from closed guard position
-- [[Triangle from Spider Guard]] (Submission) - Alternative triangle finish from spider guard
+- [[Triangle Choke]] (Submission) - Primary front-facing triangle finish from guard position
+- [[Far Side Armbar]] (Submission) - Secondary armbar finishing option within submission chain
+- [[Omoplata]] (Submission) - Omoplata finishing option and sweep mechanism from triangle position
+- [[Triangle Choke Side]] (Submission) - Angled triangle finish applicable from spider guard and open guard entries
 - [[Submission Chains]] (Principle) - Theoretical framework underlying entire system
-- [[Posture Breaking]] (Principle) - Fundamental prerequisite for triangle entries
-- [[Angle Creation]] (Principle) - Critical mechanical principle for all submissions in system
-- [[Creating Reactions]] (Principle) - Strategic principle driving submission chain logic
-- [[Dilemma Creation]] (Principle) - Core strategic concept making system effective
-- [[Guard Retention]] (Principle) - Defensive foundation supporting offensive triangle attacks
+- [[Posture]] (Principle) - Fundamental prerequisite for triangle entries
+- [[Dominant Angles]] (Principle) - Critical mechanical principle for all submissions in system
+- [[Action and Reaction]] (Principle) - Strategic principle driving submission chain logic through forced defensive responses
+- [[Fork Attacks]] (Principle) - Core strategic concept making system effective
+- [[Frames]] (Principle) - Defensive framing foundation supporting guard retention for offensive triangle attacks
 
 
 </section>

@@ -341,17 +341,17 @@ Mental game development requires systematic progression from controlled environm
 - [[Competition Preparation System]] (System) - Complementary framework providing physical and logistical preparation to support mental game
 - [[Competition Strategy]] (System) - Strategic framework that mental game supports through improved decision-making execution
 - [[Competition Mindset]] (Principle) - Core psychological principle underlying entire mental game framework
-- [[Match Strategy]] (Principle) - Strategic thinking enhanced by mental preparation and emotional regulation
-- [[Match Preparation]] (Principle) - Preparation protocols integrated with mental skills practice
-- [[Game Planning]] (Principle) - Strategic planning that requires mental clarity and decision-making framework
-- [[Energy Management System]] (Principle) - Physical energy management enhanced by emotional regulation and breath control
-- [[Pacing]] (Principle) - Match pacing decisions improved through mental clarity and strategic thinking
+- [[Competition Scoring Strategy]] (System) - Scoring-driven strategy requiring mental clarity for real-time point calculations and risk decisions
+- [[Positional Sparring]] (Principle) - Training method supporting mental preparation through controlled scenario-based drilling
+- [[Position Chains]] (Principle) - Strategic sequencing requiring mental planning and pre-built decision pathways
+- [[Energy Conservation]] (Principle) - Physical energy management enhanced by emotional regulation and breath control techniques
+- [[Timing and Rhythm]] (Principle) - Match pacing and timing decisions improved through mental clarity and strategic thinking
 - [[Dealing with Pressure]] (Principle) - Core skill developed through pressure inoculation and emotional regulation training
-- [[Offensive vs Defensive Mindset]] (Principle) - Mental framework maintains offensive mindset regardless of position
+- [[Defensive Concepts]] (Principle) - Understanding defensive frameworks supports maintaining offensive mindset from disadvantaged positions
 - [[Position-Over-Submission Approach]] (Principle) - Strategic philosophy requiring mental discipline and patient execution
-- [[Risk Assessment]] (Principle) - Decision-making skill enhanced by clear thinking and position-based protocols
+- [[Fork Attacks]] (Principle) - Strategic decision-making skill requiring mental composure to present opponents with multiple threats
 - [[Flow Rolling]] (Principle) - Training method developing instinctive responses and reducing overthinking
-- [[Progressive Resistance Training]] (Principle) - Training methodology supporting pressure inoculation and stress tolerance building
+- [[Positional Hierarchy]] (Principle) - Understanding positional value supports mental game decisions about risk and advancement
 - [[Closed Guard]] (Position) - Fundamental position requiring mental composure and systematic attack sequences
 - [[Mount]] (Position) - Dominant position where mental discipline prevents rushing and maintains control
 - [[Back Control]] (Position) - Highest value position requiring mental clarity for finish execution

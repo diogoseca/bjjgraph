@@ -364,15 +364,15 @@ The drilling methodology follows a strict progressive resistance protocol that p
 ## Which Positions, Transitions, and Principles Connect to This System?
 
 - [[Positional Hierarchy]] (Principle) - Foundational concept underlying entire teaching methodology and curriculum organization
-- [[Progressive Resistance Training]] (Principle) - Core drilling methodology ensuring proper technical development before pressure testing
-- [[Drilling Methodology]] (Principle) - Specific implementation of practice protocols within teaching framework
+- [[Pressure]] (Principle) - Core concept for progressive resistance drilling, teaching students to apply and withstand pressure systematically
+- [[Flow Rolling]] (Principle) - Training methodology for developing technical fluency through controlled, continuous practice at reduced intensity
 - [[Position-Over-Submission Approach]] (Principle) - Strategic philosophy emphasizing positional control before attacking submissions
-- [[Concepts vs Techniques]] (Principle) - Pedagogical distinction between teaching isolated techniques versus underlying principles
-- [[System Building]] (Principle) - Approach to developing connected sequences rather than isolated techniques
-- [[Escape Hierarchy]] (Principle) - Systematic prioritization of defensive skills in curriculum design
+- [[Defensive Concepts]] (Principle) - Pedagogical framework emphasizing conceptual understanding of defense over isolated technique memorization
+- [[Position Chains]] (Principle) - Approach to developing connected positional sequences rather than isolated techniques
+- [[Escape Fundamentals]] (Principle) - Systematic prioritization of defensive escape skills in curriculum design
 - [[Hip Escape Mechanics]] (Principle) - Fundamental movement pattern essential to defensive curriculum
-- [[Frame Management]] (Principle) - Core defensive concept taught in early curriculum phases
-- [[Bridging Mechanics]] (Principle) - Essential movement skill for escapes and position improvement
+- [[Frames]] (Principle) - Core defensive concept taught in early curriculum phases for maintaining space under pressure
+- [[Bridge and Shrimp]] (Principle) - Essential movement skills for escapes and position improvement throughout curriculum
 - [[Mount]] (Position) - Primary offensive position for teaching control before submissions
 - [[Side Control]] (Position) - Critical defensive position requiring systematic escape instruction
 - [[Closed Guard]] (Position) - Foundational neutral position bridging defensive to offensive curriculum
@@ -388,7 +388,7 @@ The drilling methodology follows a strict progressive resistance protocol that p
 - [[Competition Preparation System]] (System) - Advanced application of teaching methodology for competition-focused students
 - [[Positional Sparring]] (Principle) - Core training method for developing positional proficiency with targeted practice
 - [[Maximum Efficiency Principle]] (Principle) - Underlying philosophy emphasizing technical precision over athletic attributes
-- [[Energy Management System]] (Principle) - Important concept for sustainable training practices and longevity
+- [[Energy Conservation]] (Principle) - Important concept for sustainable training practices, pacing, and long-term practitioner longevity
 
 
 </section>

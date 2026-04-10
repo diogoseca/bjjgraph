@@ -324,14 +324,14 @@
       "relationship": "Primary submission finish from straight jacket and gift wrap control positions"
     },
     {
-      "name": "Armbar from Back",
-      "content_type": "Submission",
-      "relationship": "Alternative submission when opponent defends neck from straight jacket position"
+      "name": "Armbar from Back Transition",
+      "content_type": "Transition",
+      "relationship": "Alternative arm attack from back control when opponent defends neck from straight jacket position"
     },
     {
-      "name": "Kimura from Turtle",
-      "content_type": "Submission",
-      "relationship": "Arm attack option when transitioning from turtle attack to back control"
+      "name": "Kimura on Trapped Arm",
+      "content_type": "Transition",
+      "relationship": "Arm attack targeting immobilized limbs during back control and turtle-to-back transitions"
     },
     {
       "name": "Control Maintenance",
@@ -349,9 +349,9 @@
       "relationship": "Concept explaining relative value of different control levels within back attack system"
     },
     {
-      "name": "System Building",
+      "name": "Fork Attacks",
       "content_type": "Principle",
-      "relationship": "Methodology for developing interconnected techniques into coherent strategic frameworks"
+      "relationship": "Core methodology for developing interconnected techniques into coherent strategic frameworks where every defense opens an alternative attack"
     },
     {
       "name": "Submission Chains",

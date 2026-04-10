@@ -356,27 +356,22 @@
     {
       "name": "Triangle Choke",
       "content_type": "Submission",
-      "relationship": "Primary finishing technique of the system"
+      "relationship": "Primary front-facing triangle finish from guard position"
     },
     {
-      "name": "Armbar from Guard",
+      "name": "Far Side Armbar",
       "content_type": "Submission",
-      "relationship": "Secondary finishing option within submission chain"
+      "relationship": "Secondary armbar finishing option within submission chain"
     },
     {
-      "name": "Omoplata from Guard",
+      "name": "Omoplata",
       "content_type": "Submission",
-      "relationship": "Tertiary finishing option and sweep mechanism"
+      "relationship": "Omoplata finishing option and sweep mechanism from triangle position"
     },
     {
-      "name": "Triangle from Closed Guard",
+      "name": "Triangle Choke Side",
       "content_type": "Submission",
-      "relationship": "Primary triangle finish from closed guard position"
-    },
-    {
-      "name": "Triangle from Spider Guard",
-      "content_type": "Submission",
-      "relationship": "Alternative triangle finish from spider guard"
+      "relationship": "Angled triangle finish applicable from spider guard and open guard entries"
     },
     {
       "name": "Submission Chains",
@@ -384,29 +379,29 @@
       "relationship": "Theoretical framework underlying entire system"
     },
     {
-      "name": "Posture Breaking",
+      "name": "Posture",
       "content_type": "Principle",
       "relationship": "Fundamental prerequisite for triangle entries"
     },
     {
-      "name": "Angle Creation",
+      "name": "Dominant Angles",
       "content_type": "Principle",
       "relationship": "Critical mechanical principle for all submissions in system"
     },
     {
-      "name": "Creating Reactions",
+      "name": "Action and Reaction",
       "content_type": "Principle",
-      "relationship": "Strategic principle driving submission chain logic"
+      "relationship": "Strategic principle driving submission chain logic through forced defensive responses"
     },
     {
-      "name": "Dilemma Creation",
+      "name": "Fork Attacks",
       "content_type": "Principle",
       "relationship": "Core strategic concept making system effective"
     },
     {
-      "name": "Guard Retention",
+      "name": "Frames",
       "content_type": "Principle",
-      "relationship": "Defensive foundation supporting offensive triangle attacks"
+      "relationship": "Defensive framing foundation supporting guard retention for offensive triangle attacks"
     }
   ]
 }

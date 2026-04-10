@@ -74,7 +74,7 @@
     },
     {
       "step_number": 3,
-      "phase": "Sweep Mechanics Integration",
+      "phase": "Kuzushi Integration",
       "description": "Master fundamental sweep mechanics from knee shield half guard, focusing on underhook sweeps, waiter sweeps from deep half entries, and technical standup variations. Learn to chain sweeps together and recognize when opponent defense opens alternative pathways.",
       "key_points": [
         "Underhook sweep requires hip explosion and leg extension timing",
@@ -107,7 +107,7 @@
     },
     {
       "step_number": 6,
-      "phase": "Systematic Dilemma Creation",
+      "phase": "Systematic Fork Attacks",
       "description": "Master the art of creating defensive dilemmas by threatening multiple attacks simultaneously and reading opponent reactions to select optimal pathways. Develop pattern recognition skills to identify which defensive choices opponents make under pressure and exploit those tendencies.",
       "key_points": [
         "Simultaneous sweep and back take threats force opponent decision-making",
@@ -307,27 +307,27 @@
       "relationship": "Defensive transition maintaining knee shield positional integrity"
     },
     {
-      "name": "Underhook Defense",
+      "name": "Grips",
       "content_type": "Principle",
       "relationship": "Battle for underhook control determining offensive access"
     },
     {
-      "name": "Frame Management",
+      "name": "Frames",
       "content_type": "Principle",
       "relationship": "Essential skill for maintaining distance and creating angles"
     },
     {
-      "name": "Guard Retention",
+      "name": "Defensive Concepts",
       "content_type": "Principle",
       "relationship": "Overall defensive framework preventing guard passes"
     },
     {
-      "name": "Sweep Mechanics",
+      "name": "Kuzushi",
       "content_type": "Principle",
       "relationship": "Technical principles underlying all sweep executions"
     },
     {
-      "name": "Creating Reactions",
+      "name": "Fork Attacks",
       "content_type": "Principle",
       "relationship": "Strategic principle for dilemma-based attack selection"
     },

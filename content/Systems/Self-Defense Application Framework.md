@@ -350,12 +350,12 @@ Self-defense training requires a fundamentally different approach than sport BJJ
 - [[Bridge and Roll]] (Transition) - Basic escape from mount position
 - [[Guillotine Choke]] (Submission) - High-percentage submission from standing and clinch positions
 - [[Arm Triangle]] (Submission) - Effective submission from top control positions
-- [[Defensive Posture]] (Principle) - Maintaining protective body positioning against strikes
-- [[Defensive Strategy]] (Principle) - Overall strategic framework for defense-first approach
-- [[Escape Hierarchy]] (Principle) - Prioritization of escape techniques based on position severity
-- [[Base Maintenance]] (Principle) - Critical for maintaining standing position and avoiding takedowns
+- [[Defensive Concepts]] (Principle) - Foundational defensive positioning and protective body mechanics for self-defense
+- [[Defensive Prioritization Framework]] (System) - Overall strategic framework for prioritizing defense-first decision-making
+- [[Escape Fundamentals]] (Principle) - Core escape principles and prioritization based on position severity
+- [[Base]] (Principle) - Critical for maintaining standing position and avoiding takedowns
 - [[Energy Conservation]] (Principle) - Managing energy expenditure during high-stress confrontations
-- [[Creating Space]] (Principle) - Essential principle for managing distance and creating escape opportunities
+- [[Distance Control]] (Principle) - Essential principle for managing distance and creating escape opportunities
 - [[MMA Crossover Strategy]] (System) - Related system addressing striking integration with grappling
 - [[Standing Defense Strategy]] (System) - Complementary system for maintaining standing position against takedowns
 

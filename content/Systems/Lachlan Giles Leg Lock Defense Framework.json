@@ -287,9 +287,9 @@
       "relationship": "Passing technique that can expose legs to entanglement if performed without proper defense awareness"
     },
     {
-      "name": "Defensive Strategy",
+      "name": "Defensive Concepts",
       "content_type": "Principle",
-      "relationship": "Overarching strategic framework that informs all defensive decision-making"
+      "relationship": "Overarching defensive concepts that inform all defensive decision-making in leg lock scenarios"
     },
     {
       "name": "Submission Defense",
@@ -302,14 +302,14 @@
       "relationship": "Core concept underlying understanding of how legs become trapped and controlled"
     },
     {
-      "name": "Frame Creation",
+      "name": "Frames",
       "content_type": "Principle",
       "relationship": "Defensive framing concepts applied to preventing leg entanglement and maintaining escape pathways"
     },
     {
-      "name": "Guard Retention",
+      "name": "Escape Fundamentals",
       "content_type": "Principle",
-      "relationship": "Integration of guard retention principles with leg entanglement prevention strategies"
+      "relationship": "Foundational escape principles including systematic prioritization of escape options based on position danger level"
     },
     {
       "name": "Position-Over-Submission Approach",
@@ -317,9 +317,9 @@
       "relationship": "Strategic philosophy emphasizing positional escape before attempting counter-attacks"
     },
     {
-      "name": "Escape Hierarchy",
+      "name": "Positional Hierarchy",
       "content_type": "Principle",
-      "relationship": "Systematic approach to prioritizing escape options based on position danger level"
+      "relationship": "Understanding of position danger levels that maps directly to leg entanglement risk assessment"
     },
     {
       "name": "Danaher Leg Lock System",
@@ -335,6 +335,11 @@
       "name": "Defensive Prioritization Framework",
       "content_type": "System",
       "relationship": "Broader defensive system that leg lock defense integrates within"
+    },
+    {
+      "name": "Caio Terra Guard Retention System",
+      "content_type": "System",
+      "relationship": "Guard retention system whose principles integrate with leg entanglement prevention strategies"
     },
     {
       "name": "Heel Hook",

@@ -333,7 +333,7 @@ Marcelo Garcia's training methodology emphasizes positional sparring from butter
 - [[Butterfly Hook Control]] (Position) - Core control mechanism enabling all sweeps and transitions
 - [[Butterfly Sweep]] (Transition) - Fundamental sweep technique central to system effectiveness
 - [[Basic Butterfly Sweep]] (Transition) - Entry-level sweep variation for beginners learning system
-- [[Butterfly Sweep]] (Transition) - Advanced sweep options expanding system diversity
+- [[Arm Drag Sweep]] (Transition) - Key transition combining arm drag with sweep mechanics for back exposure
 - [[Arm Drag to Back]] (Transition) - Essential transition when sweep is defended with hand post
 - [[Single Leg X-Guard]] (Position) - Alternative guard position when opponent leans back to counter butterfly
 - [[Single Leg X Entry]] (Transition) - Transition from butterfly when opponent shifts weight backward
@@ -343,11 +343,11 @@ Marcelo Garcia's training methodology emphasizes positional sparring from butter
 - [[X-Guard]] (Position) - Related guard position sharing similar sweeping mechanics
 - [[Deep Half Guard]] (Position) - Alternative bottom position when butterfly becomes ineffective
 - [[Seated Guard]] (Position) - Starting position for establishing butterfly hooks and controls
-- [[Grip Fighting]] (Principle) - Critical skill for winning underhook battles and establishing control
-- [[Butterfly Hook Retention]] (Principle) - Core principle for maintaining active hooks throughout exchanges
-- [[Off-Balancing]] (Principle) - Fundamental principle underlying all sweep attempts
-- [[Timing Sweeps]] (Principle) - Critical concept for maximizing sweep success rates
-- [[System Building]] (Principle) - Conceptual framework for connecting individual techniques
+- [[Grips]] (Principle) - Critical skill for winning underhook battles and establishing control
+- [[Control Maintenance]] (Principle) - Core principle for maintaining active hooks and underhook retention throughout exchanges
+- [[Kuzushi]] (Principle) - Fundamental principle underlying all off-balancing and sweep attempts
+- [[Timing and Rhythm]] (Principle) - Critical concept for maximizing sweep success rates through proper timing
+- [[Fork Attacks]] (Principle) - Conceptual framework for connecting sweep, back take, and submission threats into forced choices
 - [[Marcelo Garcia Guillotine System]] (System) - Complementary system integrating guillotine attacks with butterfly guard
 - [[Marcelo Garcia X-Guard System]] (System) - Related guard system sharing similar principles and transitions
 - [[No-Gi Competition Approach]] (System) - Competition framework emphasizing butterfly guard in no-gi contexts

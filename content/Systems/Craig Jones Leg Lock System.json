@@ -103,7 +103,7 @@
     },
     {
       "step_number": 5,
-      "phase": "Dilemma Creation Framework",
+      "phase": "Fork Attacks Framework",
       "description": "Integrate dual-threat attack sequences that force opponent to choose between defending near leg heel hook or far leg straight ankle lock. Develop systematic protocols for switching between submission targets based on opponent's defensive priorities. Master backside 50-50 transitions when opponent successfully defends primary attacks.",
       "key_points": [
         "Recognize which leg opponent prioritizes defending",
@@ -222,7 +222,7 @@
         "timeframe": "Months 3-5: 4-5 sessions per week"
       },
       {
-        "stage": "Dilemma Creation Phase",
+        "stage": "Fork Attacks Phase",
         "focus": "Implement dual-threat attack sequences between heel hooks and ankle locks. Master backside 50-50 transitions as backup position. Develop 50-50 dominance protocols through systematic grip fighting.",
         "timeframe": "Months 6-8: 5-6 sessions per week with competition sparring"
       },
@@ -304,14 +304,14 @@
       "relationship": "Secondary attack on far leg used to create submission dilemmas and force defensive errors"
     },
     {
-      "name": "Kneebar from 50-50",
+      "name": "Calf Slicer",
       "content_type": "Submission",
-      "relationship": "Direct attack option when saddle transition is defended, maintaining offensive pressure from symmetrical position"
+      "relationship": "Direct compression attack from leg entanglement positions, maintaining offensive pressure when heel hook is defended"
     },
     {
-      "name": "Toe Hold from 50-50",
+      "name": "Achilles Lock",
       "content_type": "Submission",
-      "relationship": "Alternative submission attack from 50-50 and backside configurations when heel hook defended"
+      "relationship": "Straight foot lock attack applicable from 50-50 and backside configurations as alternative when heel hook defended"
     },
     {
       "name": "Saddle Entry from Top",
@@ -354,14 +354,14 @@
       "relationship": "Fundamental concept governing leg position control and submission mechanics throughout system"
     },
     {
-      "name": "Dilemma Creation",
+      "name": "Fork Attacks",
       "content_type": "Principle",
       "relationship": "Core strategic principle of forcing opponent to choose between defending multiple simultaneous threats"
     },
     {
-      "name": "System Building",
+      "name": "Position Chains",
       "content_type": "Principle",
-      "relationship": "Conceptual framework for organizing interconnected techniques into cohesive offensive system"
+      "relationship": "Conceptual framework for organizing interconnected techniques into cohesive offensive sequences"
     },
     {
       "name": "Control Maintenance",

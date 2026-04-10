@@ -74,7 +74,7 @@
     },
     {
       "step_number": 3,
-      "phase": "Hip Positioning and Angle Creation",
+      "phase": "Hip Positioning and Dominant Angles",
       "description": "Learn the critical hip adjustments that transform grip into finish. From closed guard, practice hip scooting to create perpendicular angle. From standing, understand weight distribution and leg positioning. Each finishing position requires specific hip mechanics that must be drilled until automatic.",
       "key_points": [
         "Master hip escape movements while maintaining grip integrity",
@@ -85,7 +85,7 @@
     },
     {
       "step_number": 4,
-      "phase": "Sweep Integration and Dilemma Creation",
+      "phase": "Sweep Integration and Fork Attacks",
       "description": "Incorporate sweep attacks that complement the guillotine threat. Practice hip bump sweeps, scissor sweeps, and butterfly sweeps that all work synergistically with the choke. Learn to recognize which defensive reaction the opponent is prioritizing and attack the opening they create.",
       "key_points": [
         "Drill sweep entries while maintaining guillotine grip",
@@ -107,7 +107,7 @@
     },
     {
       "step_number": 6,
-      "phase": "Advanced Grip Fighting and Counters",
+      "phase": "Advanced Grips and Counters",
       "description": "Master the grip fighting exchanges that occur during guillotine attempts. Learn to prevent opponent's defensive hand insertion, counter their head pulls, and adjust grips mid-attempt. Study common escapes and develop re-attack sequences when initial attempts are defended.",
       "key_points": [
         "Practice preventing defensive hand insertion",
@@ -303,9 +303,9 @@
       "relationship": "Alternative finish when opponent's posture is broken"
     },
     {
-      "name": "Guillotine Choke",
+      "name": "Chin Strap Guillotine",
       "content_type": "Submission",
-      "relationship": "Collection of grip and position variations within the system"
+      "relationship": "Grip variation providing additional control and finishing options within the system"
     },
     {
       "name": "Darce Choke",
@@ -318,7 +318,7 @@
       "relationship": "Complementary front headlock submission sharing similar control positions"
     },
     {
-      "name": "Grip Fighting",
+      "name": "Grips",
       "content_type": "Principle",
       "relationship": "Essential skill for establishing and maintaining guillotine grips"
     },
@@ -328,7 +328,7 @@
       "relationship": "Core principle of connecting guillotine with sweeps and transitions"
     },
     {
-      "name": "Pressure Application",
+      "name": "Pressure",
       "content_type": "Principle",
       "relationship": "Fundamental principle for effective choking mechanics"
     },
@@ -338,9 +338,9 @@
       "relationship": "Critical for recognizing entry opportunities and finishing coordination"
     },
     {
-      "name": "System Building",
+      "name": "Fork Attacks",
       "content_type": "Principle",
-      "relationship": "Framework for integrating guillotine attacks across positions"
+      "relationship": "Framework for integrating guillotine attacks with sweeps to create unsolvable offensive puzzles"
     },
     {
       "name": "Marcelo Garcia Butterfly Guard System",

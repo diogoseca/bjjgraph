@@ -16,12 +16,12 @@
   "overview": "The Rubber Guard to Triangle System is a comprehensive offensive framework that transforms closed guard control into high-percentage triangle submissions through systematic positioning and opponent manipulation. Originating from Eddie Bravo's 10th Planet system, this approach uses extreme flexibility and unorthodox grips to break posture, control distance, and create submission opportunities that are difficult to defend. The system emphasizes creating angles and leverage through hip mobility while maintaining constant offensive pressure that forces opponents into defensive dilemmas. Unlike traditional closed guard approaches, this system relies on active leg positioning and grip creativity to generate submission threats while simultaneously defending against passes. The framework connects multiple control positions - from Mission Control to New York to the finishing triangle - creating a systematic pathway that even accounts for opponent escape attempts. Practitioners learn to use their legs as offensive weapons while their hands control critical angles, inverting the traditional closed guard paradigm where hands do the work and legs maintain position.",
   "key_principles": [
     "**Posture Control Through Leg Position** - Use high guard and rubber guard positions to break and maintain broken posture rather than relying solely on grip fighting",
-    "**Angle Creation Before Submission** - Systematically work through control positions (Mission Control, New York) to create optimal triangle entry angles",
+    "**Dominant Angles Before Submission** - Systematically work through control positions (Mission Control, New York) to create optimal triangle entry angles",
     "**Hip Mobility as Foundation** - Extreme hip flexibility enables the unconventional positions required for rubber guard control and triangle entries",
     "**Offensive Defense** - Every defensive adjustment against passing attempts creates new submission opportunities within the system",
     "**Grip Creativity** - Use non-traditional grips (overhook, tricep control, collar ties) to complement leg positioning and create submission pathways",
-    "**Progressive Position Advancement** - Move through systematic checkpoints (rubber guard \u2192 mission control \u2192 new york \u2192 triangle) rather than hunting for immediate submissions",
-    "**Dilemma Creation** - Force opponents to choose between defending submissions and defending position, with each choice opening different attacks"
+    "**Progressive Position Advancement** - Move through systematic checkpoints (rubber guard → mission control → new york → triangle) rather than hunting for immediate submissions",
+    "**Fork Attacks** - Force opponents to choose between defending submissions and defending position, with each choice opening different attacks"
   ],
   "key_components": [
     {
@@ -272,9 +272,9 @@
       "relationship": "Primary submission finish of the system"
     },
     {
-      "name": "Omoplata from Guard",
+      "name": "Rolling Omoplata from Omoplata Control",
       "content_type": "Submission",
-      "relationship": "Alternative submission when opponent defends triangle by extracting arm"
+      "relationship": "Alternative omoplata submission when opponent defends triangle by extracting arm"
     },
     {
       "name": "Gogoplata",
@@ -282,9 +282,9 @@
       "relationship": "High-level alternative when opponent's posture is extremely broken"
     },
     {
-      "name": "Armbar from Guard",
-      "content_type": "Submission",
-      "relationship": "Counter-submission when opponent stacks to defend triangle"
+      "name": "Armbar Control",
+      "content_type": "Position",
+      "relationship": "Control position reached when transitioning from triangle to armbar against stacking defense"
     },
     {
       "name": "Baratoplata",
@@ -317,14 +317,14 @@
       "relationship": "Entry mechanics from other submission attempts"
     },
     {
-      "name": "Posture Breaking",
+      "name": "Posture",
       "content_type": "Principle",
       "relationship": "Foundational principle required before rubber guard establishment"
     },
     {
-      "name": "Guard Retention",
+      "name": "Defensive Concepts",
       "content_type": "Principle",
-      "relationship": "Defensive framework maintained throughout offensive sequence"
+      "relationship": "Defensive framework for maintaining guard integrity throughout offensive sequences"
     },
     {
       "name": "Submission Chains",
@@ -332,14 +332,14 @@
       "relationship": "Theoretical foundation for multiple submission pathways"
     },
     {
-      "name": "Flexibility Training",
+      "name": "Hip Escape Mechanics",
       "content_type": "Principle",
-      "relationship": "Physical preparation necessary for system execution"
+      "relationship": "Hip mobility foundation essential for rubber guard positioning and angle creation"
     },
     {
-      "name": "Offensive Combinations",
+      "name": "Fork Attacks",
       "content_type": "Principle",
-      "relationship": "Strategic framework for chaining triangle with alternative attacks"
+      "relationship": "Strategic framework for chaining triangle with alternative attacks that force defensive choices"
     },
     {
       "name": "10th Planet Rubber Guard System",

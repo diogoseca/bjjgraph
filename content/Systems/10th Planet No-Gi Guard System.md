@@ -351,15 +351,15 @@ The 10th Planet system requires specialized drilling that emphasizes position fa
 - [[Old School Sweep]] (Transition) - Primary sweep from lockdown position
 - [[Truck Entry]] (Transition) - Entry mechanism to twister series
 - [[Triangle from Guard]] (Submission) - Primary submission finish from rubber guard
-- [[Omoplata from Guard]] (Submission) - Secondary submission from rubber guard
+- [[Omoplata]] (Submission) - Alternative submission from rubber guard positions
 - [[Gogoplata]] (Submission) - Advanced submission from Chill Dog position
 - [[Twister]] (Submission) - Signature submission finish from truck
-- [[Calf Slicer from Truck]] (Submission) - Alternative finish from truck position
-- [[Electric Chair Submission]] (Submission) - Primary submission from lockdown system
-- [[Guard Retention]] (Principle) - Fundamental principle underlying all guard work
-- [[Flexibility Training]] (Principle) - Essential physical preparation for system execution
+- [[Calf Slicer]] (Submission) - Alternative finish from truck position
+- [[Electric Chair]] (Submission) - Primary submission from lockdown system
+- [[Frames]] (Principle) - Fundamental principle enabling guard maintenance and recovery
+- [[Hip Escape Mechanics]] (Principle) - Hip mobility foundation enabling rubber guard and inverted positions
 - [[Submission Chains]] (Principle) - Strategic framework connecting system attacks
-- [[System Building]] (Principle) - Methodology for integrating techniques into cohesive system
+- [[Fork Attacks]] (Principle) - Methodology for forcing opponents to choose between losing options
 - [[10th Planet Rubber Guard System]] (System) - Specialized subsystem focusing on rubber guard details
 - [[10th Planet Half Guard Bottom System]] (System) - Specialized subsystem focusing on lockdown variations
 - [[Twister System]] (System) - Specialized subsystem for truck and twister attacks

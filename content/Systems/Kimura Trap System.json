@@ -237,9 +237,9 @@
       "relationship": "Primary submission finish from static control position"
     },
     {
-      "name": "Kimura from Side Control",
+      "name": "Reverse Kimura",
       "content_type": "Submission",
-      "relationship": "Most common entry point for the system from top position"
+      "relationship": "Reverse grip variation expanding finishing options when standard kimura rotation is blocked"
     },
     {
       "name": "Kimura from Half Guard",
@@ -247,9 +247,9 @@
       "relationship": "Alternative entry from bottom position with sweep integration"
     },
     {
-      "name": "Kimura from Turtle",
-      "content_type": "Submission",
-      "relationship": "High-percentage entry when opponent turtles defensively"
+      "name": "Front Headlock",
+      "content_type": "Position",
+      "relationship": "Connected control position enabling snap-down to kimura and back-take sequences"
     },
     {
       "name": "Side Control",
@@ -292,7 +292,7 @@
       "relationship": "Conceptual framework for linking kimura to other submission attempts"
     },
     {
-      "name": "Dilemma Creation",
+      "name": "Fork Attacks",
       "content_type": "Principle",
       "relationship": "Core philosophy of creating multiple bad choices for opponent"
     },
@@ -302,14 +302,14 @@
       "relationship": "Guides smooth movement between positions while maintaining control"
     },
     {
-      "name": "Offensive Combinations",
+      "name": "Position Chains",
       "content_type": "Principle",
-      "relationship": "Framework for chaining attacks from kimura control position"
+      "relationship": "Framework for chaining positional attacks from kimura control through back, mount, and submission pathways"
     },
     {
-      "name": "System Building",
+      "name": "Positional Sparring",
       "content_type": "Principle",
-      "relationship": "Meta-principle for developing personalized kimura variations"
+      "relationship": "Training methodology for developing kimura trap recognition and pathway selection through focused repetition"
     },
     {
       "name": "Danaher Straight Jacket System",

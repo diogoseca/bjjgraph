@@ -32,13 +32,13 @@ description: "Master Marcelo Garcia's high-percentage guillotine system. Learn s
     },
     {
       "@type": "HowToStep",
-      "name": "Hip Positioning and Angle Creation",
+      "name": "Hip Positioning and Dominant Angles",
       "text": "Learn the critical hip adjustments that transform grip into finish. From closed guard, practice hip scooting to create perpendicular angle. From standing, understand weight distribution and leg positioning. Each finishing position requires specific hip mechanics that must be drilled until automatic.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Sweep Integration and Dilemma Creation",
+      "name": "Sweep Integration and Fork Attacks",
       "text": "Incorporate sweep attacks that complement the guillotine threat. Practice hip bump sweeps, scissor sweeps, and butterfly sweeps that all work synergistically with the choke. Learn to recognize which defensive reaction the opponent is prioritizing and attack the opening they create.",
       "position": 4
     },
@@ -50,7 +50,7 @@ description: "Master Marcelo Garcia's high-percentage guillotine system. Learn s
     },
     {
       "@type": "HowToStep",
-      "name": "Advanced Grip Fighting and Counters",
+      "name": "Advanced Grips and Counters",
       "text": "Master the grip fighting exchanges that occur during guillotine attempts. Learn to prevent opponent's defensive hand insertion, counter their head pulls, and adjust grips mid-attempt. Study common escapes and develop re-attack sequences when initial attempts are defended.",
       "position": 6
     }
@@ -207,7 +207,7 @@ Key points:
 
 
 
-3. **Hip Positioning and Angle Creation**: Learn the critical hip adjustments that transform grip into finish. From closed guard, practice hip scooting to create perpendicular angle. From standing, understand weight distribution and leg positioning. Each finishing position requires specific hip mechanics that must be drilled until automatic.
+3. **Hip Positioning and Dominant Angles**: Learn the critical hip adjustments that transform grip into finish. From closed guard, practice hip scooting to create perpendicular angle. From standing, understand weight distribution and leg positioning. Each finishing position requires specific hip mechanics that must be drilled until automatic.
 Key points:
 - Master hip escape movements while maintaining grip integrity
 - Understand angle requirements for different guillotine variations
@@ -216,7 +216,7 @@ Key points:
 
 
 
-4. **Sweep Integration and Dilemma Creation**: Incorporate sweep attacks that complement the guillotine threat. Practice hip bump sweeps, scissor sweeps, and butterfly sweeps that all work synergistically with the choke. Learn to recognize which defensive reaction the opponent is prioritizing and attack the opening they create.
+4. **Sweep Integration and Fork Attacks**: Incorporate sweep attacks that complement the guillotine threat. Practice hip bump sweeps, scissor sweeps, and butterfly sweeps that all work synergistically with the choke. Learn to recognize which defensive reaction the opponent is prioritizing and attack the opening they create.
 Key points:
 - Drill sweep entries while maintaining guillotine grip
 - Recognize opponent's defensive priorities in real-time
@@ -234,7 +234,7 @@ Key points:
 
 
 
-6. **Advanced Grip Fighting and Counters**: Master the grip fighting exchanges that occur during guillotine attempts. Learn to prevent opponent's defensive hand insertion, counter their head pulls, and adjust grips mid-attempt. Study common escapes and develop re-attack sequences when initial attempts are defended.
+6. **Advanced Grips and Counters**: Master the grip fighting exchanges that occur during guillotine attempts. Learn to prevent opponent's defensive hand insertion, counter their head pulls, and adjust grips mid-attempt. Study common escapes and develop re-attack sequences when initial attempts are defended.
 Key points:
 - Practice preventing defensive hand insertion
 - Develop grip adjustment sequences without releasing pressure
@@ -342,14 +342,14 @@ The guillotine system requires isolation drilling of individual components befor
 - [[Guillotine Choke]] (Submission) - Primary submission finish of the system
 - [[High Elbow Guillotine]] (Submission) - Core finishing variation with optimal mechanics
 - [[Arm in Guillotine]] (Submission) - Alternative finish when opponent's posture is broken
-- [[Guillotine Choke]] (Submission) - Collection of grip and position variations within the system
+- [[Chin Strap Guillotine]] (Submission) - Grip variation providing additional control and finishing options within the system
 - [[Darce Choke]] (Submission) - Related front headlock submission with similar entry patterns
 - [[Anaconda Choke]] (Submission) - Complementary front headlock submission sharing similar control positions
-- [[Grip Fighting]] (Principle) - Essential skill for establishing and maintaining guillotine grips
+- [[Grips]] (Principle) - Essential skill for establishing and maintaining guillotine grips
 - [[Submission Chains]] (Principle) - Core principle of connecting guillotine with sweeps and transitions
-- [[Pressure Application]] (Principle) - Fundamental principle for effective choking mechanics
+- [[Pressure]] (Principle) - Fundamental principle for effective choking mechanics
 - [[Timing and Rhythm]] (Principle) - Critical for recognizing entry opportunities and finishing coordination
-- [[System Building]] (Principle) - Framework for integrating guillotine attacks across positions
+- [[Fork Attacks]] (Principle) - Framework for integrating guillotine attacks with sweeps to create unsolvable offensive puzzles
 - [[Marcelo Garcia Butterfly Guard System]] (System) - Complementary system by same practitioner with shared principles
 - [[Marcelo Garcia X-Guard System]] (System) - Integrated guard system sharing entries and transitions
 - [[Danaher Front Headlock System]] (System) - Related systematic approach to front headlock attacks

@@ -26,7 +26,7 @@ description: "Complete strategic framework for no-gi grappling. Master body lock
     },
     {
       "@type": "HowToStep",
-      "name": "Grip Fighting Mastery",
+      "name": "Grips Mastery",
       "text": "Build competency in no-gi specific grip battles and hand fighting",
       "position": 2
     },
@@ -181,7 +181,7 @@ The No-Gi Tactical Framework is a comprehensive strategic approach to Brazilian 
 <section id="key-components" class="content-section">
 
 ## Key Components
-**Grip Fighting Without Fabric** (Establish control and dictate engagement without relying on gi fabric)
+**Grips Without Fabric** (Establish control and dictate engagement without relying on gi fabric)
 In no-gi grappling, traditional collar and sleeve grips are replaced by wrist controls, underhooks, overhooks, and body locks. The grip fighting meta becomes centered around controlling the opponent's posture and limiting their ability to create frames. Practitioners must develop sensitivity to body lock opportunities, learn to fight for dominant head position, and understand when to abandon grip battles in favor of positional advancement. The reduced grip security means that static control is less viable, requiring constant pressure and readjustment to maintain dominant positions.
 
 **Body Lock Systems** (Create strong positional controls that replace gi-based grips)
@@ -212,7 +212,7 @@ Key points:
 
 
 
-2. **Grip Fighting Mastery**: Build competency in no-gi specific grip battles and hand fighting
+2. **Grips Mastery**: Build competency in no-gi specific grip battles and hand fighting
 Key points:
 - Master wrist control, cross-face, and whizzer mechanics
 - Understand when to abandon grip battles for positional advancement
@@ -314,7 +314,7 @@ Proficiency indicators:
 - Defends choke attempts with proper hand fighting and posture
 
 
-**Grip Fighting Effectiveness**: Success in establishing dominant controls without gi fabric
+**Grips Effectiveness**: Success in establishing dominant controls without gi fabric
 Proficiency indicators:
 - Secures underhooks and body locks at 60%+ rate in neutral exchanges
 - Breaks opponent's grips and re-establishes own within 5 seconds
@@ -376,11 +376,11 @@ No-gi tactical development requires progressive drilling that builds from contro
 - [[Inside Heel Hook]] (Submission) - Modern leg attack central to no-gi competition
 - [[Anaconda Choke]] (Submission) - No-gi specific choke variation from front headlock
 - [[Kimura]] (Submission) - Fundamental shoulder lock effective without gi fabric
-- [[Grip Fighting]] (Principle) - Foundational skill set for no-gi control establishment
-- [[Connection Breaking]] (Principle) - Essential defensive principle in no-gi contexts
-- [[Pressure Application]] (Principle) - Critical for position maintenance without gi grips
-- [[Frame Management]] (Principle) - Defensive framework replacing gi-based controls
-- [[Dilemma Creation]] (Principle) - Strategic approach to forcing opponent reactions
+- [[Grips]] (Principle) - Foundational skill set for no-gi control establishment
+- [[Connection Principles]] (Principle) - Essential principles governing connection and disconnection in no-gi contexts
+- [[Pressure]] (Principle) - Critical for position maintenance without gi grips
+- [[Frames]] (Principle) - Defensive framework for creating and maintaining space without gi-based controls
+- [[Fork Attacks]] (Principle) - Strategic approach to forcing opponent reactions
 - [[Danaher Leg Lock System]] (System) - Comprehensive leg attack framework integrated into no-gi tactical approach
 - [[Craig Jones Leg Lock System]] (System) - Modern competition-proven leg attack methodology
 - [[Danaher Front Headlock System]] (System) - Complete front headlock framework central to no-gi game

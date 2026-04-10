@@ -253,9 +253,9 @@
       "relationship": "Primary submission finish and foundational attack from back control"
     },
     {
-      "name": "Armbar from Back",
-      "content_type": "Submission",
-      "relationship": "Secondary submission that capitalizes on choke defense reactions"
+      "name": "Armbar from Back Transition",
+      "content_type": "Transition",
+      "relationship": "Secondary attack that capitalizes on choke defense reactions"
     },
     {
       "name": "Bow and Arrow Choke",
@@ -318,9 +318,9 @@
       "relationship": "Strategic framework prioritizing dominant position establishment"
     },
     {
-      "name": "Hand Fighting from Back",
+      "name": "Hand Fighting",
       "content_type": "Principle",
-      "relationship": "Essential skill for removing defensive frames and creating submission access"
+      "relationship": "Essential skill for removing defensive frames and creating submission access from back"
     },
     {
       "name": "Chin Protection",
@@ -329,7 +329,7 @@
     },
     {
       "name": "Back Door Escape",
-      "content_type": "Principle",
+      "content_type": "Transition",
       "relationship": "Understanding escape mechanics improves attack and control strategies"
     },
     {

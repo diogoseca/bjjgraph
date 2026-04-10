@@ -79,7 +79,7 @@
     },
     {
       "step_number": 3,
-      "phase": "Sweep Mechanics",
+      "phase": "Kuzushi",
       "description": "Develop technical proficiency in primary sweeping sequences including standard X-Guard sweep, technical stand variations, and elevation sweeps. Practice against progressive resistance to understand leverage points and timing.",
       "key_points": [
         "Master fundamental X-Guard sweep mechanics and angles",
@@ -318,29 +318,29 @@
       "relationship": "Submission entry when opponent defends by lowering posture"
     },
     {
-      "name": "Sweep Mechanics",
+      "name": "Kuzushi",
       "content_type": "Principle",
       "relationship": "Core principle governing all X-Guard sweeping techniques"
     },
     {
-      "name": "Off-Balancing",
+      "name": "Center of Gravity",
       "content_type": "Principle",
-      "relationship": "Fundamental concept behind X-Guard's elevation and disruption"
+      "relationship": "Fundamental concept governing elevation, off-balancing, and base disruption in X-Guard"
     },
     {
-      "name": "Guard Retention",
+      "name": "Frames",
       "content_type": "Principle",
-      "relationship": "Essential for maintaining X-Guard against passing attempts"
+      "relationship": "Essential framing principles for maintaining X-Guard against passing attempts"
     },
     {
-      "name": "Butterfly Hook Retention",
+      "name": "Control Maintenance",
       "content_type": "Principle",
-      "relationship": "Hook management principles that apply to X-Guard control"
+      "relationship": "Hook management and control retention principles applied to X-Guard positioning"
     },
     {
-      "name": "Timing Sweeps",
+      "name": "Timing and Rhythm",
       "content_type": "Principle",
-      "relationship": "Critical timing concepts for successful sweep execution"
+      "relationship": "Critical timing concepts for successful sweep and transition execution"
     },
     {
       "name": "Connection Principles",

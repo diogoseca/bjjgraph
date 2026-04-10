@@ -393,13 +393,12 @@ The Twister System requires structured drilling that builds from foundational lo
 - [[Lockdown Recovery]] (Transition) - Collection of sweeping techniques available from lockdown position
 - [[Half Guard to Back Take]] (Transition) - Transition pathway connecting half guard positions to back control
 - [[Twister]] (Submission) - Signature submission finish of the entire system
-- [[Twister Finish]] (Submission) - Final submission application from Truck Position
 - [[Banana Split]] (Submission) - Alternative submission from Truck Position when Twister is defended
-- [[Calf Slicer from Truck]] (Submission) - Alternative submission using leg entanglement in Truck Position
-- [[Electric Chair Submission]] (Submission) - Primary submission threat from Electric Chair position
-- [[Flexibility Training]] (Principle) - Essential physical attribute development for system effectiveness
-- [[Off-Balancing]] (Principle) - Core principle applied through whipup to create sweep and transition opportunities
-- [[System Building]] (Principle) - Conceptual framework for understanding how individual techniques connect into coherent system
+- [[Calf Slicer]] (Submission) - Alternative submission using leg entanglement in Truck Position
+- [[Electric Chair]] (Submission) - Primary submission threat from Electric Chair position
+- [[Hip Escape Mechanics]] (Principle) - Essential hip mobility principle underpinning lockdown control and system transitions
+- [[Kuzushi]] (Principle) - Core principle applied through whipup to create sweep and transition opportunities
+- [[Position Chains]] (Principle) - Conceptual framework for understanding how individual techniques connect into coherent positional sequences
 - [[Submission Chains]] (Principle) - Principle of linking submissions together based on defensive reactions
 - [[10th Planet Half Guard Bottom System]] (System) - Broader system category that Twister System is a component of
 - [[10th Planet Rubber Guard System]] (System) - Parallel 10th Planet system sharing flexibility and unconventional positioning philosophy

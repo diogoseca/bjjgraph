@@ -285,22 +285,22 @@
       "relationship": "Foundational psychological principles for competitive performance"
     },
     {
-      "name": "Game Planning",
+      "name": "Positional Hierarchy",
       "content_type": "Principle",
-      "relationship": "Core tactical planning concepts applied during match strategy development"
+      "relationship": "Position value framework applied to strategic game plan development and scoring priorities"
     },
     {
-      "name": "Energy Management System",
+      "name": "Maximum Efficiency Principle",
       "content_type": "Principle",
-      "relationship": "Multi-match energy conservation and recovery protocols"
+      "relationship": "Energy expenditure optimization across multi-match tournament formats"
     },
     {
-      "name": "Grip Fighting",
+      "name": "Grips",
       "content_type": "Principle",
       "relationship": "Essential competition skill for establishing tactical advantages from initial contact"
     },
     {
-      "name": "Defensive Strategy",
+      "name": "Defensive Concepts",
       "content_type": "Principle",
       "relationship": "Tactical risk evaluation and defensive decision-making during match execution"
     },
@@ -380,9 +380,9 @@
       "relationship": "Fundamental submission threat integrated into guard game plans"
     },
     {
-      "name": "Armbar from Guard",
+      "name": "Armbar from Armbar Control",
       "content_type": "Submission",
-      "relationship": "Essential offensive submission from bottom positions"
+      "relationship": "Essential offensive armbar completion integrated into competition game plans from multiple positions"
     }
   ]
 }

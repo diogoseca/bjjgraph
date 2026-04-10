@@ -93,7 +93,7 @@
     },
     {
       "step_number": 4,
-      "phase": "Dilemma Creation and Chaining",
+      "phase": "Fork Attacks and Chaining",
       "description": "As opponent defends primary attack, transition to secondary attack that exploits their defensive positioning. Guillotine defense opens anaconda/darce; choke defense opens back exposure. Each defensive choice leads to new offensive opportunity.",
       "key_points": [
         "Recognize defensive patterns that signal transition opportunities",
@@ -370,7 +370,7 @@
       "relationship": "Finishing technique from back control after successful back exposure"
     },
     {
-      "name": "Head Control",
+      "name": "Head Position",
       "content_type": "Principle",
       "relationship": "Fundamental principle underlying all front headlock control mechanics"
     },
@@ -390,7 +390,7 @@
       "relationship": "Principle of linking attacks to create continuous offensive pressure"
     },
     {
-      "name": "Dilemma Creation",
+      "name": "Fork Attacks",
       "content_type": "Principle",
       "relationship": "Core principle where every defensive choice leads to new offensive opportunity"
     }

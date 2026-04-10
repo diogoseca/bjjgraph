@@ -162,12 +162,12 @@ The Rubber Guard to Triangle System is a comprehensive offensive framework that 
 
 ## Core Principles
 - **Posture Control Through Leg Position** - Use high guard and rubber guard positions to break and maintain broken posture rather than relying solely on grip fighting
-- **Angle Creation Before Submission** - Systematically work through control positions (Mission Control, New York) to create optimal triangle entry angles
+- **Dominant Angles Before Submission** - Systematically work through control positions (Mission Control, New York) to create optimal triangle entry angles
 - **Hip Mobility as Foundation** - Extreme hip flexibility enables the unconventional positions required for rubber guard control and triangle entries
 - **Offensive Defense** - Every defensive adjustment against passing attempts creates new submission opportunities within the system
 - **Grip Creativity** - Use non-traditional grips (overhook, tricep control, collar ties) to complement leg positioning and create submission pathways
 - **Progressive Position Advancement** - Move through systematic checkpoints (rubber guard → mission control → new york → triangle) rather than hunting for immediate submissions
-- **Dilemma Creation** - Force opponents to choose between defending submissions and defending position, with each choice opening different attacks
+- **Fork Attacks** - Force opponents to choose between defending submissions and defending position, with each choice opening different attacks
 
 
 </section>
@@ -347,20 +347,20 @@ Begin with static position holds to develop the hip flexibility and muscle memor
 - [[Omoplata Control]] (Position) - Primary alternative submission position when triangle is defended
 - [[Gogoplata Control]] (Position) - Alternative finish available from Mission Control and New York
 - [[Triangle from Guard]] (Submission) - Primary submission finish of the system
-- [[Omoplata from Guard]] (Submission) - Alternative submission when opponent defends triangle by extracting arm
+- [[Rolling Omoplata from Omoplata Control]] (Submission) - Alternative omoplata submission when opponent defends triangle by extracting arm
 - [[Gogoplata]] (Submission) - High-level alternative when opponent's posture is extremely broken
-- [[Armbar from Guard]] (Submission) - Counter-submission when opponent stacks to defend triangle
+- [[Armbar Control]] (Position) - Control position reached when transitioning from triangle to armbar against stacking defense
 - [[Baratoplata]] (Submission) - Advanced alternative when opponent grabs leg to defend triangle
 - [[Triangle Setup]] (Transition) - Entry mechanics from various guard positions into triangle control
 - [[Closed Guard to Triangle]] (Transition) - Direct entry path bypassing rubber guard system for traditional setups
 - [[Triangle to Omoplata]] (Transition) - Fallback transition when triangle defense is successful
 - [[Triangle to Armbar]] (Transition) - Counter transition when opponent attempts stack defense
 - [[Switch to Triangle]] (Transition) - Entry mechanics from other submission attempts
-- [[Posture Breaking]] (Principle) - Foundational principle required before rubber guard establishment
-- [[Guard Retention]] (Principle) - Defensive framework maintained throughout offensive sequence
+- [[Posture]] (Principle) - Foundational principle required before rubber guard establishment
+- [[Defensive Concepts]] (Principle) - Defensive framework for maintaining guard integrity throughout offensive sequences
 - [[Submission Chains]] (Principle) - Theoretical foundation for multiple submission pathways
-- [[Flexibility Training]] (Principle) - Physical preparation necessary for system execution
-- [[Offensive Combinations]] (Principle) - Strategic framework for chaining triangle with alternative attacks
+- [[Hip Escape Mechanics]] (Principle) - Hip mobility foundation essential for rubber guard positioning and angle creation
+- [[Fork Attacks]] (Principle) - Strategic framework for chaining triangle with alternative attacks that force defensive choices
 - [[10th Planet Rubber Guard System]] (System) - Parent system containing complete rubber guard framework and philosophy
 - [[Rubber Guard to Omoplata System]] (System) - Parallel system sharing control positions but emphasizing omoplata finish
 - [[Ryan Hall Triangle System]] (System) - Alternative triangle system using traditional closed guard entries

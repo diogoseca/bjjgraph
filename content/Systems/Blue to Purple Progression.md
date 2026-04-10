@@ -356,12 +356,12 @@ Purple belt progression requires structured drilling that emphasizes repetition,
 - [[Pass to Side Control]] (Transition) - Generic passing principles applicable across multiple guard types requiring systematic development
 - [[Back Take]] (Transition) - Universal back-taking principles applicable from multiple positions and situations
 - [[Positional Hierarchy]] (Principle) - Fundamental concept governing strategic decision-making and position advancement priorities
-- [[Guard Retention]] (Principle) - Critical defensive concept preventing opponent from passing and establishing dominant positions
+- [[Defensive Concepts]] (Principle) - Critical defensive framework covering guard retention, escape timing, and position recovery principles
 - [[Guard Passing]] (Principle) - Systematic approach to defeating guards through posture, pressure, and connection breaking
 - [[Position-Over-Submission Approach]] (Principle) - Strategic framework emphasizing positional dominance before submission attempts
-- [[Frame Management]] (Principle) - Defensive concept teaching space creation and pressure management from bad positions
-- [[Base Maintenance]] (Principle) - Fundamental principle preventing sweeps and maintaining postural stability in all positions
-- [[Sweep Mechanics]] (Principle) - Technical framework for understanding base disruption and elevation principles across sweep types
+- [[Frames]] (Principle) - Defensive concept teaching space creation and pressure management from bad positions
+- [[Base]] (Principle) - Fundamental principle preventing sweeps and maintaining postural stability in all positions
+- [[Kuzushi]] (Principle) - Technical framework for understanding base disruption and elevation principles across sweep types
 - [[Escape Fundamentals]] (Principle) - Systematic approach to defensive positioning and position recovery from bad situations
 - [[Competition Strategy]] (System) - Framework for tournament preparation and strategic game planning under competitive pressure
 - [[Roger Gracie Fundamental System]] (System) - Exemplary model of fundamental mastery and positional dominance appropriate for purple belt study

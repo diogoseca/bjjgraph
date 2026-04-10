@@ -161,7 +161,7 @@ Gi-specific strategy represents the fundamental framework for leveraging the jac
 <section id="key-components" class="content-section">
 
 ## Key Components
-**Grip Fighting Hierarchy** (Establish control advantages before technical exchanges begin)
+**Grips Hierarchy** (Establish control advantages before technical exchanges begin)
 The systematic approach to establishing advantageous grips while denying opponent grips. Priority grips include cross-collar control, sleeve control at the wrist and elbow, and pant grips at the knee and ankle. Understanding which grips to fight for based on position and strategy is fundamental to gi success.
 
 **Collar Choke System** (High-percentage finishing system unique to gi competition)
@@ -247,7 +247,7 @@ Key points:
 <section id="assessment-metrics" class="content-section">
 
 ## How to Measure Your Progress
-**Grip Fighting Win Rate**: Percentage of exchanges where you establish dominant grips before opponent establishes theirs, measured during positional sparring and competition.
+**Grips Win Rate**: Percentage of exchanges where you establish dominant grips before opponent establishes theirs, measured during positional sparring and competition.
 Proficiency indicators:
 - Beginner: 40% grip establishment success
 - Intermediate: 60% grip establishment success
@@ -313,25 +313,20 @@ Develop gi-specific strategy through progressive drilling that isolates grip fig
 - [[Spider Guard]] (Position) - Sleeve-grip dependent guard for distance control and sweeps
 - [[De La Riva Guard]] (Position) - Hook and grip combination guard used in gi competition
 - [[Lapel Guard]] (Position) - Modern guard system using lapel manipulation for control
-- [[Worm Guard]] (Position) - Complex lapel-based guard requiring gi-specific strategy
 - [[Cross Collar Choke]] (Submission) - Fundamental gi-specific choke from multiple positions
-- [[Loop Choke]] (Submission) - Collar-based choke using lapel control
 - [[Baseball Bat Choke]] (Submission) - High-percentage gi choke from top positions
 - [[Bow and Arrow Choke]] (Submission) - Back control finishing sequence unique to gi
-- [[Ezekiel Choke]] (Submission) - Gi sleeve-based choke from mount and other top positions
+- [[Clock Choke]] (Submission) - Turtle attack using collar control unique to gi
 - [[Collar Control]] (Principle) - Core principle for establishing gi-based dominance
 - [[Sleeve Control]] (Principle) - Essential principle for distance management with gi
-- [[Grip Fighting]] (Principle) - Foundational skill for all gi-specific strategy
-- [[Grip Strategy]] (Principle) - Strategic framework for prioritizing grip establishment
-- [[Posture Breaking]] (Principle) - Collar and sleeve mechanics for destroying opponent posture
-- [[Guard Retention]] (Principle) - Defensive framework using gi grips to prevent passing
-- [[Collar Drag]] (Transition) - Gi-specific technique for taking the back from standing or guard
+- [[Grips]] (Principle) - Foundational skill for all gi-specific strategy
+- [[Hand Fighting]] (Principle) - Strategic framework for grip establishment and denial in standup and ground exchanges
+- [[Posture]] (Principle) - Collar and sleeve mechanics for destroying opponent posture
+- [[Frames]] (Principle) - Defensive framework using gi grips and structures to prevent guard passing
 - [[Berimbolo Entry]] (Transition) - Modern gi-based back take using lapel and De La Riva control
-- [[Flower Sweep]] (Transition) - Classic gi sweep using collar and sleeve grips
-- [[Scissor Sweep]] (Transition) - Fundamental gi sweep from closed guard using sleeve control
-- [[Pendulum Sweep]] (Transition) - Gi-dependent sweep using collar and sleeve grips
-- [[Lasso Guard Pass]] (Transition) - Specific passing strategy for lapel-based guards
-- [[Spider Guard Pass]] (Transition) - Technical approach to passing sleeve-grip dependent guards
+- [[Arm Drag]] (Transition) - Gi-enhanced technique for off-balancing and back takes
+- [[Body Lock Pass]] (Transition) - Pressure passing approach that integrates gi grip control
+- [[Back Step Pass]] (Transition) - Specific passing strategy effective against lapel-based guards
 - [[Keenan Cornelius Lapel Guard System]] (System) - Advanced gi-specific system built entirely around lapel manipulation
 - [[Roger Gracie Fundamental System]] (System) - Traditional gi-based approach emphasizing collar chokes and pressure
 - [[Bernardo Faria Pressure System]] (System) - Gi pressure passing and control using lapel and collar grips

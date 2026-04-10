@@ -65,7 +65,7 @@
     },
     {
       "step_number": 2,
-      "phase": "Base Disruption and Angle Creation",
+      "phase": "Base Disruption and Dominant Angles",
       "description": "Use collar and sleeve grips to break opponent's posture forward while simultaneously elevating their base leg with the DLR hook. This creates the off-balance state necessary for berimbolo entry. Focus on making opponent heavy on their hands rather than trying to force immediate rotation.",
       "key_points": [
         "Pull collar grip down and across opponent's centerline",
@@ -299,12 +299,12 @@
       "relationship": "Back attack completion when opponent turtles during berimbolo sequence"
     },
     {
-      "name": "Guard Retention",
+      "name": "Frames",
       "content_type": "Principle",
-      "relationship": "Fundamental defensive skill preventing opponents from passing during berimbolo setups"
+      "relationship": "Fundamental defensive structure enabling guard retention during berimbolo setups and recovery"
     },
     {
-      "name": "Grip Fighting",
+      "name": "Grips",
       "content_type": "Principle",
       "relationship": "Essential skill for establishing and maintaining critical grips throughout system"
     },
@@ -319,19 +319,19 @@
       "relationship": "Underlies smooth movement between DLR, berimbolo, X-Guard, and back control"
     },
     {
-      "name": "Off-Balancing",
+      "name": "Posture",
       "content_type": "Principle",
-      "relationship": "Fundamental requirement for creating berimbolo entry opportunities"
+      "relationship": "Fundamental requirement for disrupting opponent's base to create berimbolo entry opportunities"
     },
     {
-      "name": "Sweep Mechanics",
+      "name": "Kuzushi",
       "content_type": "Principle",
       "relationship": "Governs technical execution of sweeps from backup X-Guard positions"
     },
     {
-      "name": "System Building",
+      "name": "Position Chains",
       "content_type": "Principle",
-      "relationship": "Framework for connecting berimbolo with backup options into cohesive attacking system"
+      "relationship": "Framework for connecting berimbolo with backup options into cohesive attacking sequences"
     },
     {
       "name": "Berimbolo",

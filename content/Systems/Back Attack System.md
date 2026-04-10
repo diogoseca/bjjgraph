@@ -322,7 +322,7 @@ Begin with static positional drills establishing harness control and hook placem
 - [[Gift Wrap]] (Position) - Arm isolation position that sets up back attacks and submissions
 - [[Rear Triangle]] (Position) - Submission control position accessible from back mount
 - [[Rear Naked Choke]] (Submission) - Primary submission finish and foundational attack from back control
-- [[Armbar from Back]] (Submission) - Secondary submission that capitalizes on choke defense reactions
+- [[Armbar from Back Transition]] (Transition) - Secondary attack that capitalizes on choke defense reactions
 - [[Bow and Arrow Choke]] (Submission) - Gi-specific submission using collar control from back position
 - [[Choke from Crucifix]] (Submission) - Advanced finish from arm isolation variations
 - [[Chair Sit to Back]] (Transition) - Fundamental entry from turtle position to back control
@@ -335,9 +335,9 @@ Begin with static positional drills establishing harness control and hook placem
 - [[Control Maintenance]] (Principle) - Core principle emphasizing positional security before submission
 - [[Submission Chains]] (Principle) - Sequential attack methodology that creates continuous pressure
 - [[Position-Over-Submission Approach]] (Principle) - Strategic framework prioritizing dominant position establishment
-- [[Hand Fighting from Back]] (Principle) - Essential skill for removing defensive frames and creating submission access
+- [[Hand Fighting]] (Principle) - Essential skill for removing defensive frames and creating submission access from back
 - [[Chin Protection]] (Principle) - Understanding opponent's primary defense helps create attack sequences
-- [[Back Door Escape]] (Principle) - Understanding escape mechanics improves attack and control strategies
+- [[Back Door Escape]] (Transition) - Understanding escape mechanics improves attack and control strategies
 - [[Danaher Straight Jacket System]] (System) - Complementary system focusing on front bodylock to back control sequences
 - [[Garry Tonon Leg Lock to Back System]] (System) - Integration approach connecting leg attacks with back take opportunities
 - [[Roger Gracie Fundamental System]] (System) - Traditional approach emphasizing position-based back attacks and basic submissions

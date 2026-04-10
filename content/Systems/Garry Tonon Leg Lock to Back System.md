@@ -353,7 +353,7 @@ The system requires both isolated component drilling and integrated flow trainin
 - [[Leg Entanglement]] (Position) - Foundational concept governing all leg attack positions in system
 - [[Submission Chains]] (Principle) - Core principle of linking multiple submission attempts across position categories
 - [[Transition Management]] (Principle) - Conceptual framework for smooth positional changes while maintaining offensive pressure
-- [[Dilemma Creation]] (Principle) - Strategic concept of forcing opponent to choose between defending legs or back
+- [[Fork Attacks]] (Principle) - Strategic concept of forcing opponent to choose between defending legs or back
 - [[Control Maintenance]] (Principle) - Critical principle of maintaining connection throughout all system transitions
 - [[Danaher Leg Lock System]] (System) - Foundational leg lock system that provides technical framework for leg attack components
 - [[Back Attack System]] (System) - Complementary system focusing on back control and upper body submissions

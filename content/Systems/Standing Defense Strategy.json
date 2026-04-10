@@ -27,7 +27,7 @@
   ],
   "key_components": [
     {
-      "component_name": "Grip Fighting Framework",
+      "component_name": "Grips Framework",
       "description": "Systematic approach to controlling opponent's grips in both gi and no-gi contexts. In gi, this involves preventing dominant sleeve and collar grips that enable powerful throws and takedowns. In no-gi, focus shifts to controlling opponent's wrists, preventing body lock grips, and maintaining distance through strategic hand fighting. The framework emphasizes proactive grip breaking rather than reactive defense.",
       "purpose": "Prevent opponent from establishing grips necessary for high-percentage takedown attacks"
     },
@@ -42,7 +42,7 @@
       "purpose": "Control when and how opponent can initiate takedown attacks through spatial awareness"
     },
     {
-      "component_name": "Base Maintenance Principles",
+      "component_name": "Base Principles",
       "description": "Technical framework for maintaining strong defensive base through proper stance width, knee bend, weight distribution, and hip positioning. Addresses common errors such as standing too upright, crossing feet, or having stance too narrow. Includes protocols for lowering center of gravity when opponent initiates attack, widening base under pressure, and recovering balance when compromised. Emphasizes connection between base quality and takedown resistance.",
       "purpose": "Create structural stability that makes takedowns mechanically difficult to complete"
     }
@@ -61,7 +61,7 @@
     },
     {
       "step_number": 2,
-      "phase": "Grip Fighting Integration",
+      "phase": "Grips Integration",
       "description": "Develop systematic grip fighting habits to prevent opponent from establishing dominant grips. In gi, focus on preventing cross-collar grips and sleeve control. In no-gi, prevent wrist control and body lock attempts.",
       "key_points": [
         "Proactively fight for inside position with hands",
@@ -149,7 +149,7 @@
       ]
     },
     {
-      "metric_name": "Grip Fighting Effectiveness",
+      "metric_name": "Grips Effectiveness",
       "description": "Assess ability to prevent opponent from establishing dominant grips and maintain preferred hand positioning",
       "proficiency_indicators": [
         "Consistently break opponent grips within 2-3 seconds of establishment",
@@ -278,9 +278,9 @@
       "relationship": "Comprehensive technique for defending double and single leg attacks"
     },
     {
-      "name": "Takedown Entry",
+      "name": "Connection Principles",
       "content_type": "Principle",
-      "relationship": "Understanding takedown entries is essential for recognizing and defending against them"
+      "relationship": "Understanding connection and contact principles is essential for recognizing and defending takedown setups"
     },
     {
       "name": "Guard Pull",
@@ -318,39 +318,39 @@
       "relationship": "Counter-offensive technique from standing defense exchanges"
     },
     {
-      "name": "Base Maintenance",
+      "name": "Base",
       "content_type": "Principle",
       "relationship": "Fundamental principle for maintaining structural stability in standing defense"
     },
     {
-      "name": "Defensive Posture",
+      "name": "Posture",
       "content_type": "Principle",
       "relationship": "Postural principles applied throughout standing defensive exchanges"
     },
     {
-      "name": "Grip Fighting",
+      "name": "Grips",
       "content_type": "Principle",
       "relationship": "Essential skill for preventing takedown setups and controlling engagement"
     },
     {
-      "name": "Distance Creation",
+      "name": "Distance Control",
       "content_type": "Principle",
-      "relationship": "Strategic principle for controlling engagement distance"
+      "relationship": "Strategic principle for controlling engagement distance and creating separation"
     },
     {
-      "name": "Defensive Strategy",
+      "name": "Defensive Concepts",
       "content_type": "Principle",
-      "relationship": "Overarching strategic framework for defensive decision-making"
+      "relationship": "Overarching conceptual framework for defensive decision-making"
     },
     {
-      "name": "Weight Distribution",
+      "name": "Center of Gravity",
       "content_type": "Principle",
       "relationship": "Biomechanical principle for maintaining balance and base in standing"
     },
     {
-      "name": "Risk Assessment",
+      "name": "Competition Mindset",
       "content_type": "Principle",
-      "relationship": "Decision-making framework for evaluating when to defend vs pull guard"
+      "relationship": "Decision-making framework for evaluating when to defend standing vs pull guard in competition context"
     },
     {
       "name": "Competition Strategy",
