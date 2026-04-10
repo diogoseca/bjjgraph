@@ -24,9 +24,28 @@ const TransitionFlashcard: QuartzComponent = ({ fileData, displayClass }: Quartz
       class={classNames(displayClass, "flashcard-container")}
       data-page-type={pageType}
     >
+      <div class="flashcard-collapsed hidden" id="flashcard-collapsed">
+        <span class="flashcard-collapsed-label">Knowledge Test</span>
+        <span class="flashcard-collapsed-expand">&#9660;</span>
+      </div>
       <div class="flashcard" id="flashcard">
-        <div class="flashcard-label" id="flashcard-label">
-          Knowledge Test
+        <div class="flashcard-label-row">
+          <div class="flashcard-label" id="flashcard-label">
+            Knowledge Test
+          </div>
+          <div class="flashcard-label-actions">
+            <button class="flashcard-add-training hidden" id="flashcard-add-training">
+              + Add to Training
+            </button>
+            <button
+              class="flashcard-dismiss-btn"
+              id="flashcard-dismiss-btn"
+              aria-label="Hide flashcard"
+              title="Hide Knowledge Test"
+            >
+              &times;
+            </button>
+          </div>
         </div>
         <div class="flashcard-question" id="flashcard-question">
           {/* Question populated by JS */}
