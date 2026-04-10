@@ -1,3 +1,4 @@
+import "dotenv/config"
 import { QuartzConfig } from "./quartz/cfg"
 import * as Plugin from "./quartz/plugins"
 
@@ -17,6 +18,10 @@ const config: QuartzConfig = {
       apiKey: process.env.POSTHOG_API_KEY || "",
       host: process.env.POSTHOG_API_HOST,
       uiHost: "https://us.i.posthog.com",
+    },
+    supabase: {
+      url: process.env.SUPABASE_URL || "",
+      anonKey: process.env.SUPABASE_ANON_KEY || "",
     },
     locale: "en-US",
     baseUrl: "bjjgraph.org",

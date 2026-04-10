@@ -11,6 +11,8 @@ export const sharedPageComponents: SharedLayout = {
     Component.EditOnGithub(),
     Component.Snackbar(),
     Component.TopBar(),
+    Component.SidebarResizer(),
+    Component.AuthUI(),
   ],
   // Footer with no links - may add social links later
   footer: Component.Footer({
@@ -25,7 +27,9 @@ export const defaultContentPageLayout: PageLayout = {
     Component.ArticleTitle(),
     Component.VictoryDisplay(),
     Component.TrainingDashboard(),
+    Component.TreeExplorer(),
     Component.MoveCards(),
+    Component.OutcomeCards(),
     Component.TransitionFlashcard(),
     Component.Graph({
       localGraph: { showTags: false, depth: 1 },

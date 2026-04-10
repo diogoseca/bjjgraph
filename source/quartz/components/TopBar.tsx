@@ -1,24 +1,14 @@
-import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
-import { pathToRoot } from "../util/path"
+import { QuartzComponent, QuartzComponentConstructor } from "./types"
+// @ts-ignore
+import script from "./scripts/topBar.inline"
 
-const TopBar: QuartzComponent = ({ fileData }: QuartzComponentProps) => {
-  const baseDir = pathToRoot(fileData.slug!)
-  const trainingHref = `${baseDir}/Training`
-
-  return (
-    <nav class="top-bar">
-      <a href={trainingHref} class="top-bar-link">
-        Training
-      </a>
-      <a href="#" class="top-bar-signin" aria-label="Sign in">
-        Sign in
-      </a>
-    </nav>
-  )
+const TopBar: QuartzComponent = () => {
+  return null
 }
 
 TopBar.css = `
 /* Styles defined in custom.scss */
 `
 
+TopBar.afterDOMLoaded = script
 export default (() => TopBar) satisfies QuartzComponentConstructor

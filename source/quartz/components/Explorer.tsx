@@ -41,17 +41,32 @@ const defaultOptions = {
     // node.name is a slug segment where spaces become hyphens
     if (node.name === "Game-Over") return false
 
-    // Hide Bottom/Top folders (case-insensitive)
-    // These are reserved folder names in the BJJ Graph architecture
+    // Hide Training page (accessed via TopBar/homepage pill, not explorer)
+    if (node.name === "Training") return false
+    if (node.name === "Tree") return false
+
+    // Hide role folders (case-insensitive)
+    // Top/Bottom for Positions, Attacker/Defender for Transitions/Submissions
     const nodeName = node.name.toLowerCase()
-    if (nodeName === "bottom" || nodeName === "top") {
+    if (
+      nodeName === "bottom" ||
+      nodeName === "top" ||
+      nodeName === "attacker" ||
+      nodeName === "defender"
+    ) {
       return false
     }
 
-    // Hide Bottom/Top files under Positions folders (playing_as model)
+    // Hide role files under category folders (playing_as / attacker-defender model)
     if (node.file?.slug) {
       const slug = node.file.slug.toLowerCase()
       if ((slug.endsWith("/bottom") || slug.endsWith("/top")) && slug.includes("positions/")) {
+        return false
+      }
+      if (
+        (slug.endsWith("/attacker") || slug.endsWith("/defender")) &&
+        (slug.includes("transitions/") || slug.includes("submissions/"))
+      ) {
         return false
       }
     }

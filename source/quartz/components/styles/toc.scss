@@ -34,10 +34,12 @@
     & > li > a {
       color: var(--dark);
       opacity: 0.35;
-      transition:
-        0.15s ease opacity,
-        0.3s ease color;
+      transition: 0.3s ease color;
       // Opacity is now set dynamically via JS based on viewport coverage
+      display: block;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
     }
 
     // Top-level items (h2) get more spacing

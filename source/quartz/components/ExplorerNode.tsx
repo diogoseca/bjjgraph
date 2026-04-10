@@ -47,6 +47,7 @@ export class FileNode {
   displayName: string
   file: QuartzPluginData | null
   depth: number
+  hasRoleChildren: boolean // true if node had Top/Bottom or Attacker/Defender children (set before filtering)
 
   constructor(slugSegment: string, displayName?: string, file?: QuartzPluginData, depth?: number) {
     this.children = []
@@ -54,6 +55,7 @@ export class FileNode {
     this.displayName = displayName ?? file?.frontmatter?.title ?? slugSegment
     this.file = file ? clone(file) : null
     this.depth = depth ?? 0
+    this.hasRoleChildren = false
   }
 
   private insert(fileData: DataWrapper) {
@@ -107,6 +109,14 @@ export class FileNode {
    * @param filterFn function to filter tree with
    */
   filter(filterFn: (node: FileNode) => boolean) {
+    // Before filtering, mark nodes that have role children (Top/Bottom/Attacker/Defender)
+    const roleNames = new Set(["top", "bottom", "attacker", "defender"])
+    for (const child of this.children) {
+      if (roleNames.has(child.name.toLowerCase())) {
+        this.hasRoleChildren = true
+        break
+      }
+    }
     this.children = this.children.filter(filterFn)
     this.children.forEach((child) => child.filter(filterFn))
   }
@@ -188,6 +198,25 @@ export function ExplorerNode({ node, opts, fullPath, fileData }: ExplorerNodePro
   // Use simple display name for category folders
   const displayName = hubPage ? node.name : node.displayName
 
+  // Determine role links for items under graph categories (not the categories themselves)
+  const parentCategory = fullPath
+    ? (["Positions", "Transitions", "Submissions"] as const).find(
+        (cat) => fullPath === cat || fullPath!.startsWith(cat + "/"),
+      )
+    : undefined
+  const roleLinks =
+    parentCategory && node.name && node.hasRoleChildren
+      ? parentCategory === "Positions"
+        ? ([
+            { label: "T", suffix: "Top" },
+            { label: "B", suffix: "Bottom" },
+          ] as const)
+        : ([
+            { label: "A", suffix: "Attacker" },
+            { label: "D", suffix: "Defender" },
+          ] as const)
+      : null
+
   return (
     <>
       {node.children.length > 0 ? (
@@ -200,7 +229,7 @@ export function ExplorerNode({ node, opts, fullPath, fileData }: ExplorerNodePro
                 {folderBehavior === "link" || node.file || hubPage ? (
                   <a
                     href={node.file ? resolveRelative(fileData.slug!, node.file.slug!) : hubHref}
-                    data-for={node.file ? node.file.slug : node.name}
+                    data-for={node.file ? node.file.slug : folderPath}
                     class="folder-title"
                   >
                     {displayName}
@@ -212,8 +241,24 @@ export function ExplorerNode({ node, opts, fullPath, fileData }: ExplorerNodePro
                 )}
               </div>
               <span class="folder-icon" aria-label="Toggle folder">
-                +
+                ▸
               </span>
+              {roleLinks && (
+                <span class="explorer-role-links">
+                  {roleLinks.map((r) => (
+                    <a
+                      href={resolveRelative(
+                        fileData.slug!,
+                        (folderPath + "/" + r.suffix) as SimpleSlug,
+                      )}
+                      class="explorer-role-link"
+                      title={r.suffix}
+                    >
+                      {r.label}
+                    </a>
+                  ))}
+                </span>
+              )}
             </div>
           )}
           {/* Recursively render children of folder */}
@@ -223,7 +268,7 @@ export function ExplorerNode({ node, opts, fullPath, fileData }: ExplorerNodePro
               style={{
                 paddingLeft: node.name !== "" ? "1rem" : "0",
               }}
-              class="content"
+              class={`content${node.children.length > 15 ? " scrollable-list" : ""}`}
               data-folderul={folderPath}
             >
               {node.children.map((childNode, i) => (
@@ -244,6 +289,22 @@ export function ExplorerNode({ node, opts, fullPath, fileData }: ExplorerNodePro
           <a href={resolveRelative(fileData.slug!, node.file.slug!)} data-for={node.file.slug}>
             {node.displayName}
           </a>
+          {roleLinks && (
+            <span class="explorer-role-links">
+              {roleLinks.map((r) => (
+                <a
+                  href={resolveRelative(
+                    fileData.slug!,
+                    (node.file!.slug! + "/" + r.suffix) as SimpleSlug,
+                  )}
+                  class="explorer-role-link"
+                  title={r.suffix}
+                >
+                  {r.label}
+                </a>
+              ))}
+            </span>
+          )}
         </li>
       ) : null}
     </>

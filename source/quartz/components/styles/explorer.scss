@@ -3,7 +3,7 @@
 .explorer {
   display: flex;
   flex-direction: column;
-  overflow-y: hidden;
+  overflow-y: auto;
   padding-top: 1rem;
   &.desktop-only {
     @media all and not ($mobile) {
@@ -26,11 +26,68 @@
   overflow: hidden;
 }
 
+// Breathing room after last item in expanded category lists
+.folder-outer.open > ul > li:last-child {
+  margin-bottom: 0.25rem;
+}
+
+// Scrollable category lists (15+ items) with fade edges
+// Only when folder is open — closed folders need overflow:hidden for grid collapse
+.folder-outer.open > ul.scrollable-list {
+  max-height: 40vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  overscroll-behavior-y: contain;
+
+  // Fade mask: transparent at top/bottom edges, opaque in middle
+  mask-image: linear-gradient(
+    to bottom,
+    transparent,
+    black 1rem,
+    black calc(100% - 1rem),
+    transparent
+  );
+  -webkit-mask-image: linear-gradient(
+    to bottom,
+    transparent,
+    black 1rem,
+    black calc(100% - 1rem),
+    transparent
+  );
+
+  // Remove top fade when scrolled to top
+  &.scroll-top {
+    mask-image: linear-gradient(to bottom, black, black calc(100% - 1rem), transparent);
+    -webkit-mask-image: linear-gradient(to bottom, black, black calc(100% - 1rem), transparent);
+  }
+
+  // Remove bottom fade when scrolled to bottom
+  &.scroll-bottom {
+    mask-image: linear-gradient(to bottom, transparent, black 1rem, black);
+    -webkit-mask-image: linear-gradient(to bottom, transparent, black 1rem, black);
+  }
+
+  // Remove both fades when content fits or at both ends
+  &.scroll-top.scroll-bottom {
+    mask-image: none;
+    -webkit-mask-image: none;
+  }
+
+  // Scrollbar — visible enough to indicate scrollability
+  &::-webkit-scrollbar {
+    width: 4px;
+  }
+  &::-webkit-scrollbar-thumb {
+    background: var(--lightgray);
+    border-radius: 4px;
+  }
+  &:hover::-webkit-scrollbar-thumb {
+    background: var(--gray);
+  }
+}
+
 #explorer-content {
   list-style: none;
-  overflow: hidden;
-  overflow-y: auto;
-  max-height: 100%;
 
   & ul {
     list-style: none;
@@ -41,12 +98,18 @@
       transform 0.35s ease,
       opacity 0.2s ease;
 
+    // Uniform vertical spacing for all items (folders and leaves)
+    & > li {
+      margin: 0.12rem 0;
+    }
+
     & li > a {
       color: var(--dark);
       opacity: 0.45;
       pointer-events: all;
       font-size: 0.82rem;
       line-height: 1.3rem;
+      white-space: nowrap;
     }
 
     & li > a:hover {
@@ -77,10 +140,20 @@
   user-select: none;
   gap: 0.3rem;
 
+  // Title wrapper must shrink so chevron + role links stay clickable
+  & > div:first-child {
+    min-width: 0;
+    overflow: hidden;
+  }
+
   & div > a {
     font-family: var(--headerFont);
     line-height: 1.3rem;
     display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
   }
 
   & div > a:hover {
@@ -104,11 +177,20 @@
       margin: 0;
       line-height: 1.3rem;
       pointer-events: none;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
     }
   }
 
   // Top-level categories (Positions, Transitions, etc.) - depth 1
   &.depth-1 {
+    margin-top: 0.6rem;
+
+    &:first-child {
+      margin-top: 0;
+    }
+
     & div > a,
     & div > button span {
       color: var(--dark);
@@ -169,12 +251,12 @@
   color: var(--tertiary);
 }
 
-// Show "-" when folder is open
+// Show ▾ when folder is open
 li:has(> .folder-outer.open) > .folder-container > .folder-icon {
   &::before {
-    content: "−";
+    content: "▾";
   }
-  // Hide the "+" text content when open
+  // Hide the ▸ text content when open
   font-size: 0;
   &::before {
     font-size: 0.75rem;
@@ -190,4 +272,41 @@ li:has(> .folder-outer.open) > .folder-container > .folder-icon {
   height: 4px;
   // remove default margin from li
   margin: 0;
+}
+
+// Role links trailing explorer items: T B or A D
+.explorer-role-links {
+  display: inline-flex;
+  gap: 0.15rem;
+  margin-left: 0.25rem;
+}
+
+.explorer-role-link {
+  font-size: 0.6rem;
+  font-weight: 600;
+  color: var(--gray) !important;
+  opacity: 0.55;
+  text-decoration: none;
+  padding: 0 0.15em;
+  line-height: 1;
+  transition:
+    opacity 0.15s,
+    color 0.15s;
+
+  &:hover {
+    opacity: 0.8 !important;
+    color: var(--secondary) !important;
+  }
+
+  &.active {
+    opacity: 1 !important;
+    color: #d97706 !important;
+  }
+}
+
+// Ensure leaf items with role links flow inline (no wrapping)
+li:has(> .explorer-role-links) {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
 }

@@ -79,12 +79,23 @@ let _allSimpleSlugs: Set<string> | null = null
 // Adjacency index for fast BFS: slug → set of connected slugs
 let _adjacency: Map<string, Set<string>> | null = null
 
+// Title lookup: slug → display title (computed once)
+let _titleIndex: Map<string, string> | null = null
+// Tags lookup: slug → tags array (computed once)
+let _tagsIndex: Map<string, string[]> | null = null
+
 function ensureGlobalGraphData(allFiles: QuartzPluginData[]) {
   if (_allSimpleSlugs !== null) return
 
   _allSimpleSlugs = new Set<string>()
+  _titleIndex = new Map()
+  _tagsIndex = new Map()
   for (const f of allFiles) {
-    _allSimpleSlugs.add(simplifySlug((f.slug ?? "") as FullSlug))
+    const slug = simplifySlug((f.slug ?? "") as FullSlug)
+    _allSimpleSlugs.add(slug)
+    const title = (f.frontmatter?.title as string) ?? slug.split("/").pop() ?? slug
+    _titleIndex.set(slug, title.split(" | ")[0])
+    _tagsIndex.set(slug, (f.frontmatter?.tags as string[]) ?? [])
   }
 
   _adjacency = new Map()
@@ -105,7 +116,12 @@ function ensureGlobalGraphData(allFiles: QuartzPluginData[]) {
 // Hub slug helper (mirrors client-side getHubSlug — only bottom/top)
 function getHubSlug(nodeId: string): string {
   const lower = nodeId.toLowerCase()
-  if (lower.endsWith("/bottom") || lower.endsWith("/top")) {
+  if (
+    lower.endsWith("/bottom") ||
+    lower.endsWith("/top") ||
+    lower.endsWith("/attacker") ||
+    lower.endsWith("/defender")
+  ) {
     return nodeId.split("/").slice(0, -1).join("/")
   }
   return nodeId
@@ -153,7 +169,13 @@ function computePageGraphLayout(allFiles: QuartzPluginData[], slug: FullSlug): s
     const prefix = slugLower + "/"
     for (const nodeSlug of allSlugs) {
       const lower = nodeSlug.toLowerCase()
-      if (lower.startsWith(prefix) && !lower.endsWith("/bottom") && !lower.endsWith("/top")) {
+      if (
+        lower.startsWith(prefix) &&
+        !lower.endsWith("/bottom") &&
+        !lower.endsWith("/top") &&
+        !lower.endsWith("/attacker") &&
+        !lower.endsWith("/defender")
+      ) {
         neighbourhood.add(nodeSlug)
       }
     }
@@ -162,19 +184,29 @@ function computePageGraphLayout(allFiles: QuartzPluginData[], slug: FullSlug): s
     const wl: (string | "__SENTINEL")[] = [simpleSlug, "__SENTINEL"]
     let depth = 1
 
-    // For position hubs, also seed with role pages
+    // For hub pages, also seed BFS with their role pages to aggregate links
     const isPositionHub =
       slugLower.startsWith("positions/") &&
       !slugLower.endsWith("/bottom") &&
       !slugLower.endsWith("/top")
+    const isTransitionOrSubmissionHub =
+      (slugLower.startsWith("transitions/") || slugLower.startsWith("submissions/")) &&
+      !slugLower.endsWith("/attacker") &&
+      !slugLower.endsWith("/defender")
 
+    const roleSuffixes: string[] = []
     if (isPositionHub) {
-      const bottomToFind = slugLower + "/bottom"
-      const topToFind = slugLower + "/top"
+      roleSuffixes.push("/bottom", "/top")
+    } else if (isTransitionOrSubmissionHub) {
+      roleSuffixes.push("/attacker", "/defender")
+    }
+
+    if (roleSuffixes.length > 0) {
       const rolePagesToAdd: string[] = []
+      const roleSlugsToFind = roleSuffixes.map((s) => slugLower + s)
       for (const nodeSlug of allSlugs) {
         const lower = nodeSlug.toLowerCase()
-        if (lower === bottomToFind || lower === topToFind) {
+        if (roleSlugsToFind.includes(lower)) {
           rolePagesToAdd.push(nodeSlug)
         }
       }
@@ -202,11 +234,16 @@ function computePageGraphLayout(allFiles: QuartzPluginData[], slug: FullSlug): s
     }
   }
 
-  // Filter out Bottom/Top role pages from final nodes (mirrors client-side)
+  // Filter out role pages from final nodes (mirrors client-side)
   const nodeIds: string[] = []
   for (const url of neighbourhood) {
     const lower = url.toLowerCase()
-    if (!lower.endsWith("/bottom") && !lower.endsWith("/top")) {
+    if (
+      !lower.endsWith("/bottom") &&
+      !lower.endsWith("/top") &&
+      !lower.endsWith("/attacker") &&
+      !lower.endsWith("/defender")
+    ) {
       nodeIds.push(url)
     }
   }
@@ -263,7 +300,10 @@ function computePageGraphLayout(allFiles: QuartzPluginData[], slug: FullSlug): s
       id: n.id,
       x: Math.round((n.x ?? 0) * 10) / 10,
       y: Math.round((n.y ?? 0) * 10) / 10,
+      t: _titleIndex!.get(n.id) || n.id.split("/").pop() || n.id,
+      tags: _tagsIndex!.get(n.id) || [],
     })),
+    links: graphLinks,
   })
 
   _pageGraphPositionsCache[simpleSlug] = result
@@ -326,13 +366,17 @@ function getPageGraphData(slug: FullSlug): string | null {
   // e.g. "Transitions/Hip-Bump-Sweep" → "hip-bump-sweep"
   const slugLower = slug.toLowerCase()
   let lookupKey: string | null = null
+  let urlSection: "positions" | "transitions" | "submissions" | null = null
 
   if (slugLower.startsWith("positions/")) {
     lookupKey = slugLower.slice("positions/".length)
+    urlSection = "positions"
   } else if (slugLower.startsWith("transitions/")) {
     lookupKey = slugLower.slice("transitions/".length)
+    urlSection = "transitions"
   } else if (slugLower.startsWith("submissions/")) {
     lookupKey = slugLower.slice("submissions/".length)
+    urlSection = "submissions"
   }
 
   if (!lookupKey) return null
@@ -347,7 +391,12 @@ function getPageGraphData(slug: FullSlug): string | null {
     lookupKey = lookupKey.slice(0, -"/defender".length)
   }
 
-  const entry = _slugIndex[lookupKey]
+  // Prefer the section matching the URL prefix (avoids slug collisions
+  // where e.g. both transitions["americana"] and submissions["americana"] exist)
+  let entry = _slugIndex[lookupKey]
+  if (entry && urlSection && entry.section !== urlSection && graph[urlSection]?.[lookupKey]) {
+    entry = { section: urlSection, key: lookupKey }
+  }
   if (!entry) return null
 
   const data = graph[entry.section]?.[entry.key]
@@ -364,33 +413,50 @@ function getPageGraphData(slug: FullSlug): string | null {
       opponentTransitions: data.opponentTransitions || [],
       knowledgeAssessment: data.knowledgeAssessment || [],
     })
-  } else if (entry.section === "transitions") {
+  } else if (entry.section === "transitions" || entry.section === "submissions") {
     const ka =
       role === "defender"
         ? data.defenderKnowledgeAssessment || []
         : role === "attacker"
           ? data.knowledgeAssessment || []
           : [...(data.knowledgeAssessment || []), ...(data.defenderKnowledgeAssessment || [])]
-    return JSON.stringify({
-      type: "transition",
+
+    // Resolve outcome slugs to display names and URL-safe paths (spaces → hyphens)
+    const toUrlPath = (p: string) => p.replace(/\s+/g, "-")
+    const resolvedOutcomes = (data.outcomes || []).map((o: any) => {
+      const toSlug: string = o.to || ""
+      if (toSlug === "game-over") {
+        return { ...o, toName: "Game Over", toPath: "Game-Over" }
+      }
+      const posData = graph.positions?.[toSlug]
+      if (posData) {
+        return { ...o, toName: posData.name, toPath: toUrlPath(posData.path) }
+      }
+      const subSlug = toSlug.includes("/") ? toSlug.split("/")[0] : toSlug
+      const subData = graph.submissions?.[subSlug]
+      if (subData) {
+        return { ...o, toName: subData.name, toPath: `Submissions/${toUrlPath(subData.name)}` }
+      }
+      return { ...o, toName: toSlug, toPath: toUrlPath(toSlug) }
+    })
+
+    const result: any = {
+      type: entry.section === "transitions" ? "transition" : "submission",
       name: data.name,
       endingPosition: data.endingPosition,
       endingPositionPath: data.endingPositionPath,
+      startingPosition: data.startingPosition || null,
+      startingPositionPath: toUrlPath(data.startingPositionPath || ""),
+      startingPositionRole: data.startingPositionRole || null,
+      outcomes: resolvedOutcomes,
       knowledgeAssessment: ka,
-    })
-  } else if (entry.section === "submissions") {
-    const ka =
-      role === "defender"
-        ? data.defenderKnowledgeAssessment || []
-        : role === "attacker"
-          ? data.knowledgeAssessment || []
-          : [...(data.knowledgeAssessment || []), ...(data.defenderKnowledgeAssessment || [])]
-    return JSON.stringify({
-      type: "submission",
-      name: data.name,
-      isTerminal: data.isTerminal,
-      knowledgeAssessment: ka,
-    })
+    }
+
+    if (entry.section === "submissions") {
+      result.isTerminal = data.isTerminal
+    }
+
+    return JSON.stringify(result)
   }
 
   return null
@@ -415,27 +481,30 @@ export function pageResources(
   const contentIndexPath = joinSegments(baseDir, "static/contentIndex.json")
   const contentIndexGzPath = joinSegments(baseDir, "static/contentIndex.json.gz")
 
-  // Try to load gzipped version first (much smaller), fallback to uncompressed
+  // Lazy content index: only fetched when search opens, global graph opens, or 404 page loads
   const contentIndexScript = `
-    const fetchData = (async () => {
-      try {
-        // Try gzipped version first (saves ~70-80% bandwidth)
-        const gzResponse = await fetch("${contentIndexGzPath}")
-        if (gzResponse.ok) {
-          const compressed = await gzResponse.arrayBuffer()
-          // Use browser's native DecompressionStream API (supported in modern browsers)
-          const ds = new DecompressionStream('gzip')
-          const decompressedStream = new Response(compressed).body.pipeThrough(ds)
-          const decompressed = await new Response(decompressedStream).text()
-          return JSON.parse(decompressed)
+    let __contentIndexPromise = null;
+    const fetchData = new Promise(() => {});
+    fetchData.__isLazy = true;
+    window.loadContentIndex = function() {
+      if (__contentIndexPromise) return __contentIndexPromise;
+      __contentIndexPromise = (async () => {
+        try {
+          const gzResponse = await fetch("${contentIndexGzPath}");
+          if (gzResponse.ok) {
+            const compressed = await gzResponse.arrayBuffer();
+            const ds = new DecompressionStream('gzip');
+            const decompressedStream = new Response(compressed).body.pipeThrough(ds);
+            const decompressed = await new Response(decompressedStream).text();
+            return JSON.parse(decompressed);
+          }
+        } catch (e) {
+          console.warn('Failed to load compressed content index, falling back to uncompressed:', e);
         }
-      } catch (e) {
-        console.warn('Failed to load compressed content index, falling back to uncompressed:', e)
-      }
-
-      // Fallback to uncompressed version
-      return fetch("${contentIndexPath}").then(data => data.json())
-    })()`
+        return fetch("${contentIndexPath}").then(data => data.json());
+      })();
+      return __contentIndexPromise;
+    }`
 
   return {
     css: [joinSegments(baseDir, "index.css"), ...staticResources.css],
@@ -663,8 +732,9 @@ export function renderPage(
   // Build-time pre-computed graph layout (avoids D3 simulation at runtime)
   const graphPositionsJson = computePageGraphLayout(componentData.allFiles, slug)
 
-  // Build-time question bank for /training page
+  // Build-time question bank + graph adjacency for /training page
   let questionBankJson: string | null = null
+  let graphAdjacencyJson: string | null = null
   if (slug.toLowerCase() === ("training" as FullSlug)) {
     const graph = loadGraphData()
     if (graph) {
@@ -675,6 +745,9 @@ export function renderPage(
         knowledgeAssessment: Array<{ question: string; answer: string }>
       }> = []
 
+      // Track graph keys for adjacency building
+      const bankGraphKeys: Array<{ key: string; section: "transitions" | "submissions" }> = []
+
       // Build a lookup from technique name → file slug
       const slugLookup: Record<string, string> = {}
       for (const f of componentData.allFiles) {
@@ -684,7 +757,12 @@ export function renderPage(
         if (name) slugLookup[name.toLowerCase()] = fSlug
       }
 
-      const addEntries = (section: Record<string, any>, type: string, prefix: string) => {
+      const addEntries = (
+        section: Record<string, any>,
+        type: string,
+        prefix: string,
+        sectionName: "transitions" | "submissions",
+      ) => {
         for (const [key, data] of Object.entries(section || {})) {
           const ka = data.knowledgeAssessment || []
           if (ka.length === 0) continue
@@ -695,13 +773,54 @@ export function renderPage(
             slug: fileSlug,
             knowledgeAssessment: ka,
           })
+          bankGraphKeys.push({ key, section: sectionName })
         }
       }
 
-      addEntries(graph.transitions, "transition", "Transitions")
-      addEntries(graph.submissions, "submission", "Submissions")
+      addEntries(graph.transitions, "transition", "Transitions", "transitions")
+      addEntries(graph.submissions, "submission", "Submissions", "submissions")
 
       questionBankJson = JSON.stringify(bank)
+
+      // Build adjacency data for smart technique suggestions
+      // positions: positionHub → array of bank indices (techniques from that position)
+      // outcomes: bank index → array of position hubs this technique leads to
+      const positions: Record<string, number[]> = {}
+      const outcomes: string[][] = []
+
+      for (let i = 0; i < bank.length; i++) {
+        const { key, section } = bankGraphKeys[i]
+        const data = graph[section]?.[key]
+        if (!data) {
+          outcomes.push([])
+          continue
+        }
+
+        // Starting positions → technique index
+        const startPositions: string[] = []
+        if (data.startingPosition) startPositions.push(data.startingPosition)
+        if (data.fromPositions) {
+          for (const fp of data.fromPositions) {
+            if (!startPositions.includes(fp)) startPositions.push(fp)
+          }
+        }
+
+        for (const pos of startPositions) {
+          if (!positions[pos]) positions[pos] = []
+          if (!positions[pos].includes(i)) positions[pos].push(i)
+        }
+
+        // Outcome positions (extract hub, skip game-over)
+        const outPos: string[] = []
+        for (const o of data.outcomes || []) {
+          if (!o.to || o.to === "game-over") continue
+          const hub = o.to.includes("/") ? o.to.split("/")[0] : o.to
+          if (!outPos.includes(hub)) outPos.push(hub)
+        }
+        outcomes.push(outPos)
+      }
+
+      graphAdjacencyJson = JSON.stringify({ positions, outcomes })
     }
   }
 
@@ -731,9 +850,17 @@ export function renderPage(
             dangerouslySetInnerHTML={{ __html: questionBankJson }}
           />
         )}
+        {graphAdjacencyJson && (
+          <script
+            type="application/json"
+            id="training-graph-adjacency"
+            dangerouslySetInnerHTML={{ __html: graphAdjacencyJson }}
+          />
+        )}
         <div id="quartz-root" class="page">
           <Body {...componentData}>
             {LeftComponent}
+            <div class="sidebar-resizer" />
             <div class="center">
               <div class="page-header">
                 <Header {...componentData}>

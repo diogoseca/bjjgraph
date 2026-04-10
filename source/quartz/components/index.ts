@@ -23,11 +23,15 @@ import Breadcrumbs from "./Breadcrumbs"
 import Comments from "./Comments"
 import EditOnGithub from "./EditOnGithub"
 import MoveCards from "./MoveCards"
+import OutcomeCards from "./OutcomeCards"
 import Snackbar from "./Snackbar"
 import TransitionFlashcard from "./TransitionFlashcard"
 import VictoryDisplay from "./VictoryDisplay"
 import TrainingDashboard from "./TrainingDashboard"
+import TreeExplorer from "./TreeExplorer"
 import TopBar from "./TopBar"
+import SidebarResizer from "./SidebarResizer"
+import AuthUI from "./AuthUI"
 
 export {
   ArticleTitle,
@@ -55,9 +59,13 @@ export {
   Comments,
   EditOnGithub,
   MoveCards,
+  OutcomeCards,
   Snackbar,
   TransitionFlashcard,
   VictoryDisplay,
   TrainingDashboard,
+  TreeExplorer,
   TopBar,
+  SidebarResizer,
+  AuthUI,
 }

@@ -1,29 +1,51 @@
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
 import { classNames } from "../util/lang"
+// @ts-ignore
+import titleAddScript from "./scripts/titleAddTraining.inline"
 
 const ArticleTitle: QuartzComponent = ({ fileData, displayClass }: QuartzComponentProps) => {
   const title = fileData.frontmatter?.title
-  const isHomepage = fileData.slug === "index"
+  const slug = fileData.slug ?? ""
+  const isHomepage = slug === "index"
 
   if (isHomepage) {
     return (
       <>
         <h1 class={classNames(displayClass, "article-title", "homepage-title")}>
-          BJJGraph<span class="title-tld">.org</span>
+          BJJ Graph<span class="title-tld">.org</span>
         </h1>
         <p class="tagline">
           BJJ game, mapped.
           <br />
-          Click through positions, see what's next.
+          Find a position, or random roll.
         </p>
       </>
     )
   }
 
+  const isContentPage =
+    slug.startsWith("Positions/") ||
+    slug.startsWith("Transitions/") ||
+    slug.startsWith("Submissions/")
+
   if (title) {
     // Strip everything after the first " | " for cleaner display
     const displayTitle = title.includes(" | ") ? title.split(" | ")[0] : title
-    return <h1 class={classNames(displayClass, "article-title")}>{displayTitle}</h1>
+
+    // Detect role suffix from slug for visual differentiation
+    const roleSuffixes = ["/Top", "/Bottom", "/Attacker", "/Defender"]
+    const matchedSuffix = isContentPage ? roleSuffixes.find((s) => slug.endsWith(s)) : undefined
+    const roleWord = matchedSuffix ? matchedSuffix.slice(1) : undefined
+    const hasRole = roleWord && displayTitle.endsWith(roleWord)
+    const titleMain = hasRole ? displayTitle.slice(0, -roleWord.length).trimEnd() : displayTitle
+
+    return (
+      <h1 class={classNames(displayClass, "article-title")}>
+        {titleMain}
+        {hasRole && <span class="title-role"> {roleWord}</span>}
+        {isContentPage && <span class="title-add-training" id="title-add-training"></span>}
+      </h1>
+    )
   } else {
     return null
   }
@@ -37,13 +59,23 @@ ArticleTitle.css = `
 .homepage-title {
   font-size: 2rem;
   margin-top: 0;
-  margin-bottom: 1rem;
+  margin-bottom: 0.25rem;
 }
 
 .homepage-title .title-tld {
   font-size: 0.8em;
   opacity: 0.7;
 }
+
+.title-role {
+  font-size: 0.5em;
+  font-weight: 400;
+  opacity: 0.5;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  margin-left: 0.4em;
+}
 `
 
+ArticleTitle.afterDOMLoaded = titleAddScript
 export default (() => ArticleTitle) satisfies QuartzComponentConstructor
