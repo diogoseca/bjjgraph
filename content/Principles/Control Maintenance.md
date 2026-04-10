@@ -182,13 +182,13 @@ Control Maintenance represents the fundamental principle of preserving positiona
 
 **Connection Reinforcement**: The practice of maintaining and strengthening multiple contact points with opponent's body, redistributing connections when one is threatened, and establishing new control points preemptively before old ones are broken. Skilled practitioners maintain 3-5 simultaneous connections.
 
-**Weight Distribution Management**: The technical ability to position body weight optimally across opponent's frame, preventing specific escape movements while maintaining mobility for position adjustment. This involves understanding which body areas to weight heavily versus lightly based on opponent's escape vectors.
+**Center of Gravity Management**: The technical ability to position body weight optimally across opponent's frame, preventing specific escape movements while maintaining mobility for position adjustment. This involves understanding which body areas to weight heavily versus lightly based on opponent's escape vectors.
 
 **Escape Recognition and Countering**: The pattern recognition skill of identifying opponent's escape attempts in their initial stages and implementing appropriate counters before escape mechanics develop full momentum. Expert practitioners recognize escapes from postural changes and weight shifts rather than waiting for overt movements.
 
 **Base and Posture Maintenance**: The foundational skill of maintaining stable base and optimal posture while applying control pressure, preventing opponent from using practitioner's own imbalance as escape opportunity. This requires coordination between pressure application and structural stability.
 
-**Grip Fighting and Hand Fighting**: The tactical skill of controlling opponent's hands and establishing dominant grips while preventing opponent from securing grips that enable escape mechanics. This component is especially critical in gi training where fabric grips dramatically affect control effectiveness.
+**Grips and Hand Fighting**: The tactical skill of controlling opponent's hands and establishing dominant grips while preventing opponent from securing grips that enable escape mechanics. This component is especially critical in gi training where fabric grips dramatically affect control effectiveness.
 
 **Positional Micro-Adjustments**: The subtle skill of making continuous small position modifications that maintain control advantage while preventing opponent from establishing frames or creating space. These adjustments are often imperceptible but prevent accumulation of small positional improvements by opponent.
 
@@ -217,7 +217,7 @@ Control Maintenance represents the fundamental principle of preserving positiona
 
 **Turtle**: Control maintenance from turtle top position requires preventing opponent's stand-up or guard recovery through strategic weight distribution, establishing seatbelt or harness controls, and continuously adjusting to counter opponent's turning and scrambling attempts.
 
-**Mount Control**: Specialized mount control variations require position-specific pressure patterns and connection priorities, with grapevine mount emphasizing leg control while S-mount prioritizes arm isolation and high mount focuses on shoulder pressure and posture control.
+**High Mount**: Specialized mount control variations require position-specific pressure patterns and connection priorities, with grapevine mount emphasizing leg control while high mount prioritizes arm isolation, shoulder pressure, and posture control to set up collar chokes and armbars.
 
 **Crucifix**: Crucifix control requires maintaining arm entrapment through leg and arm configuration while applying back pressure to prevent opponent's escape, continuously adjusting body angle to counter opponent's attempts to free trapped arms or turn into guard.
 
@@ -229,7 +229,7 @@ Control Maintenance represents the fundamental principle of preserving positiona
 
 **Ashi Garami**: Ashi garami control maintenance requires precise leg positioning that prevents opponent's leg extraction, combined with upper body control that prevents postural recovery, while maintaining connection points that enable both control and submission opportunities.
 
-**Side Control Consolidation**: Side control consolidation represents systematic application of control maintenance principles to secure side control before attempting transitions or submissions, emphasizing connection establishment and escape prevention over offensive actions.
+**Kesa Gatame**: Kesa gatame control maintenance represents systematic application of head and arm control with hip-based weight distribution, emphasizing connection establishment and escape prevention through chest pressure and arm entrapment over offensive actions.
 
 
 
@@ -353,24 +353,24 @@ Study video footage of high-level competition matches focusing specifically on c
 
 ### Related Principles
 - **[[Control Point Hierarchy]]** (Prerequisite): Understanding which body areas provide highest-value control is prerequisite to effective control maintenance, as practitioners must know what connections to prioritize when forced to choose during opponent's escape attempts.
-- **[[Pressure Application]]** (Complementary): Pressure application provides the mechanical means through which control maintenance is achieved, with both concepts working synergistically to prevent opponent movement and escape.
-- **[[Base Maintenance]]** (Prerequisite): Stable base is fundamental requirement for control maintenance, as practitioners cannot effectively maintain dominant position while defending their own structural stability from opponent's attacks.
-- **[[Weight Distribution]]** (Complementary): Optimal weight distribution enables effective control maintenance by preventing specific escape pathways while maintaining practitioner's mobility and structural integrity.
+- **[[Pressure]]** (Complementary): Pressure application provides the mechanical means through which control maintenance is achieved, with both concepts working synergistically to prevent opponent movement and escape.
+- **[[Base]]** (Prerequisite): Stable base is fundamental requirement for control maintenance, as practitioners cannot effectively maintain dominant position while defending their own structural stability from opponent's attacks.
+- **[[Center of Gravity]]** (Complementary): Optimal weight distribution enables effective control maintenance by preventing specific escape pathways while maintaining practitioner's mobility and structural integrity.
 - **[[Position-Over-Submission Approach]]** (Extension): Control maintenance is practical application of position-over-submission philosophy, providing specific technical framework for prioritizing positional security before offensive attempts.
-- **[[Frame Management]]** (Alternative): From bottom position perspective, frame management represents opponent's primary tool against control maintenance, creating conceptual opposition where top player's control maintenance competes against bottom player's frame creation.
+- **[[Frames]]** (Alternative): From bottom position perspective, frame creation represents opponent's primary tool against control maintenance, creating conceptual opposition where top player's control maintenance competes against bottom player's structural barriers and space generation.
 - **[[Connection Principles]]** (Complementary): Connection principles define the quality and type of contact points that enable effective control maintenance across various positions and situations.
 - **[[Shoulder Pressure]]** (Extension): Shoulder pressure represents specific application of control maintenance principles in positions like side control where shoulder-based pressure prevents hip escape mechanics.
-- **[[Head Control]]** (Extension): Head control serves as high-value control point within control maintenance framework, often representing the primary connection that enables all other control mechanisms.
-- **[[Defensive Framing]]** (Alternative): Defensive framing represents the bottom player's systematic approach to defeating control maintenance through space creation and structural barriers.
+- **[[Head Position]]** (Extension): Head control serves as high-value control point within control maintenance framework, often representing the primary connection that enables all other control mechanisms.
+- **[[Defensive Concepts]]** (Alternative): Defensive concepts represent the bottom player's systematic approach to defeating control maintenance through escape sequencing, space creation, and positional recovery.
 
 
 ### Related Content
 - [[Control Point Hierarchy]] (Principle) - Prerequisite concept defining which connections to prioritize during control maintenance
-- [[Pressure Application]] (Principle) - Complementary concept providing mechanical means for achieving control maintenance
-- [[Base Maintenance]] (Principle) - Prerequisite concept ensuring structural stability necessary for effective control
-- [[Weight Distribution]] (Principle) - Component skill enabling optimal pressure application and movement prevention
+- [[Pressure]] (Principle) - Complementary concept providing mechanical means for achieving control maintenance
+- [[Base]] (Principle) - Prerequisite concept ensuring structural stability necessary for effective control
+- [[Center of Gravity]] (Principle) - Component skill enabling optimal pressure application and movement prevention
 - [[Position-Over-Submission Approach]] (Principle) - Strategic philosophy that control maintenance practically implements
-- [[Frame Management]] (Principle) - Opposing concept from bottom position perspective against control maintenance
+- [[Frames]] (Principle) - Opposing concept from bottom position perspective against control maintenance
 - [[Mount]] (Position) - Primary position where control maintenance principles are most critical
 - [[Side Control]] (Position) - Fundamental top position requiring comprehensive control maintenance skills
 - [[Back Control]] (Position) - Highest-value position where control maintenance enables submission opportunities

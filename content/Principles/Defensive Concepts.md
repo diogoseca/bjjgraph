@@ -184,7 +184,7 @@ Defensive Concepts represents the comprehensive philosophical and strategic fram
 
 **Energy Management Under Pressure**: The capacity to regulate energy expenditure during defensive sequences by recognizing when explosive effort is required versus when technical positioning can preserve energy, preventing premature exhaustion that leads to defensive collapse.
 
-**Space Creation and Recovery**: Systematic ability to generate and exploit spatial opportunities through hip movement, bridging, and shrimping mechanics that create the distance necessary for guard recovery or position improvement from compressed defensive scenarios.
+**Distance Control and Recovery**: Systematic ability to generate and exploit spatial opportunities through hip movement, bridging, and shrimping mechanics that create the distance necessary for guard recovery or position improvement from compressed defensive scenarios.
 
 **Psychological Composure Maintenance**: Mental framework enabling calm technical execution despite positional disadvantage, pressure, or fatigue, preventing panic responses that lead to technical abandonment and maintaining belief in defensive systems even under extreme circumstances.
 
@@ -219,7 +219,7 @@ Defensive Concepts represents the comprehensive philosophical and strategic fram
 
 **Kesa Gatame**: Defensive Concepts inform the decision to maintain defensive head positioning and arm protection while accepting the pin temporarily, recognizing that premature bridge attempts often worsen position and that methodical defensive progression is more effective than explosive desperation.
 
-**Triangle Escape Position**: Concepts guide the critical prioritization between posture recovery to prevent choke completion versus arm extraction, emphasizing that submission defense through posture must be achieved before attempting to remove trapped limbs from the triangle configuration.
+**Mounted Triangle**: Concepts guide the critical prioritization between posture recovery to prevent choke completion versus arm extraction, emphasizing that submission defense through posture must be achieved before attempting to remove trapped limbs from the triangle configuration.
 
 **Armbar Control**: Application focuses on immediate priority of thumb rotation and arm extraction over positional escape, exemplifying how Defensive Concepts create clear hierarchies where submission survival completely supersedes all other defensive objectives regardless of positional considerations.
 
@@ -227,7 +227,7 @@ Defensive Concepts represents the comprehensive philosophical and strategic fram
 
 **Guillotine Control**: Defensive Concepts prioritize immediate posture recovery and chin tucking to prevent choke completion before attempting arm extraction or positional escape, demonstrating submission-first defensive hierarchy.
 
-**Triangle Control**: Application emphasizes maintaining posture and preventing angle completion as primary objectives, with staged progression through posture maintenance, leg positioning control, and eventual escape execution.
+**Rear Triangle**: Application emphasizes maintaining posture and preventing angle completion as primary objectives, with staged progression through posture maintenance, leg positioning control, and eventual escape execution.
 
 **Kneebar Control**: Concepts guide immediate focus on foot positioning and knee alignment to prevent ligament damage, with defensive priorities centered on protecting the joint before attempting positional escape from the leg entanglement.
 
@@ -244,7 +244,7 @@ Defensive Concepts represents the comprehensive philosophical and strategic fram
 4. **Determine energy investment level**: Based on threat level, time remaining, and current fatigue state, decide between explosive escape attempt, technical positional improvement, or energy-conserving defensive maintenance until better opportunity emerges
 5. **Identify available escape pathways**: Recognize which escape routes are available from current position based on opponent's weight distribution and control points; select escape pathway that addresses highest priority threat while requiring minimal energy expenditure
 6. **Monitor for counter-attack opportunities**: While maintaining defensive priorities, remain aware of sweep, submission, or positional reversal opportunities that may emerge if opponent overcommits to attack or creates structural vulnerabilities during advancement attempts
-7. **Execute staged defensive progression**: Implement defensive technique in incremental stages (survive → frame → space → recover) rather than attempting complete escape; reassess after each stage and adjust approach based on opponent response and emerging opportunities
+7. **Execute staged defensive progression**: Implement defensive technique in incremental stages (survive, frame, space, recover) rather than attempting complete escape; reassess after each stage and adjust approach based on opponent response and emerging opportunities
 8. **Maintain psychological composure**: Throughout defensive sequence, continuously regulate breathing, maintain technical focus, and prevent panic responses; if feeling overwhelmed, return to most fundamental defensive priority (usually frame maintenance) and rebuild from stable foundation
 
 
@@ -347,29 +347,29 @@ Regular review of defensive sequences through video analysis or partner discussi
 ## Related
 
 ### Related Principles
-- **[[Escape Hierarchy]]** (Complementary): Escape Hierarchy provides the structural framework for prioritizing which defensive objectives to pursue in what order, while Defensive Concepts supplies the overarching philosophy governing why those priorities exist and how to think about defensive scenarios strategically.
+- **[[Escape Fundamentals]]** (Complementary): Escape Fundamentals provides the structural framework for prioritizing which defensive objectives to pursue in what order, while Defensive Concepts supplies the overarching philosophy governing why those priorities exist and how to think about defensive scenarios strategically.
 - **[[Positional Hierarchy]]** (Prerequisite): Understanding Positional Hierarchy is essential for applying Defensive Concepts effectively, as practitioners must recognize the relative danger and disadvantage of various positions to make informed defensive decisions about when to accept positional losses to prevent submission threats.
 - **[[Energy Conservation]]** (Complementary): Energy Conservation principles integrate directly with Defensive Concepts to inform decisions about when to invest significant energy in defensive efforts versus when to maintain technical positioning with minimal energy expenditure during sustained defensive sequences.
-- **[[Frame Management]]** (Extension): Frame Management represents the technical application of Defensive Concepts, translating philosophical defensive priorities into specific physical structures and movements that implement the conceptual defensive framework in practical situations.
-- **[[Offensive vs Defensive Mindset]]** (Complementary): This concept explores the psychological and strategic balance between offensive and defensive thinking, providing the mental framework that allows practitioners to maintain offensive awareness even during defensive phases as recommended by sound Defensive Concepts.
-- **[[Risk Assessment]]** (Prerequisite): Risk Assessment ability is fundamental to applying Defensive Concepts, as practitioners must accurately evaluate the relative danger of various threats and positional situations to make appropriate defensive decisions about resource allocation and priority targeting.
-- **[[Defensive Strategy]]** (Extension): Defensive Strategy applies the broader Defensive Concepts framework to specific competitive scenarios and match situations, translating philosophical principles into tactical game plans.
-- **[[Guard Retention]]** (Extension): Guard Retention represents a specialized application of Defensive Concepts focused specifically on preventing guard passing, embodying preventive defensive positioning principles in the guard context.
+- **[[Frames]]** (Extension): Frames represents the technical application of Defensive Concepts, translating philosophical defensive priorities into specific physical structures and movements that implement the conceptual defensive framework in practical situations.
+- **[[Competition Mindset]]** (Complementary): Competition Mindset explores the psychological and strategic balance between offensive and defensive thinking, providing the mental framework that allows practitioners to maintain offensive awareness even during defensive phases as recommended by sound Defensive Concepts.
+- **[[Control Point Hierarchy]]** (Prerequisite): Control Point Hierarchy is fundamental to applying Defensive Concepts, as practitioners must accurately evaluate the relative danger of various control configurations and positional situations to make appropriate defensive decisions about resource allocation and priority targeting.
+- **[[Dealing with Pressure]]** (Extension): Dealing with Pressure applies the broader Defensive Concepts framework to specific scenarios involving sustained opponent pressure, translating philosophical principles into tactical responses for managing and mitigating heavy top control.
+- **[[Distance Control]]** (Extension): Distance Control represents a specialized application of Defensive Concepts focused on generating the distance needed to prevent guard passing and recover guard position, embodying preventive defensive positioning principles across all guard contexts.
 - **[[Submission Defense]]** (Extension): Submission Defense addresses the highest-priority defensive objective within the Defensive Concepts hierarchy, focusing specifically on surviving and escaping submission attempts.
 
 
 ### Related Content
-- [[Escape Hierarchy]] (Principle) - Provides structured framework for prioritizing defensive objectives that implements the philosophical principles of Defensive Concepts in systematic hierarchy
-- [[Defensive Strategy]] (Principle) - Tactical application of Defensive Concepts to specific competitive scenarios, translating conceptual defensive philosophy into match-specific strategic planning
-- [[Frame Management]] (Principle) - Technical component of Defensive Concepts focusing specifically on physical frame construction and maintenance as primary defensive mechanism
-- [[Creating Space]] (Principle) - Essential technical skill within Defensive Concepts framework, addressing how to generate distance necessary for guard recovery from compressed defensive positions
+- [[Positional Hierarchy]] (Principle) - Provides structured framework for prioritizing defensive objectives that implements the philosophical principles of Defensive Concepts in systematic hierarchy
+- [[Dealing with Pressure]] (Principle) - Tactical application of Defensive Concepts to specific pressure scenarios, translating conceptual defensive philosophy into practical responses for managing sustained opponent control
+- [[Frames]] (Principle) - Technical component of Defensive Concepts focusing specifically on physical frame construction and maintenance as primary defensive mechanism
+- [[Distance Control]] (Principle) - Essential technical skill within Defensive Concepts framework, addressing how to generate distance necessary for guard recovery from compressed defensive positions
 - [[Energy Conservation]] (Principle) - Complementary concept governing energy management decisions that integrate with Defensive Concepts to determine when to invest effort versus maintain technical positioning
 - [[Mount]] (Position) - Quintessential worst-case defensive position where Defensive Concepts application is most critical for survival and eventual escape
 - [[Back Control]] (Position) - Highest-danger defensive position requiring sophisticated Defensive Concepts implementation to survive choke threats while working toward escape
 - [[Side Control]] (Position) - Common disadvantageous position where Defensive Concepts inform decisions about frame maintenance, energy conservation, and escape timing
 - [[Elbow Escape to Guard]] (Transition) - Fundamental defensive escape technique that exemplifies staged defensive progression principles central to Defensive Concepts philosophy
 - [[Bridge and Roll]] (Transition) - Classic defensive escape demonstrating how Defensive Concepts principles apply to explosive defensive techniques when appropriate timing and opportunity exist
-- [[Defense Technique]] (Principle) - Specialized defensive concept addressing highest-priority defensive objective, representing the most critical application of Defensive Concepts hierarchy
+- [[Submission Defense]] (Principle) - Addresses the highest-priority defensive objective within the Defensive Concepts hierarchy, focusing specifically on surviving and escaping submission attempts
 - [[Escape Fundamentals]] (Principle) - Ultimate objective of most defensive sequences, representing successful implementation of Defensive Concepts through staged progression from survival to neutral positioning
 
 

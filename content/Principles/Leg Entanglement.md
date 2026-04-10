@@ -205,7 +205,7 @@ Leg Entanglement represents the systematic control and positioning of lower extr
 
 **50-50 Guard**: Symmetrical leg entanglement where both practitioners have similar control of each other's legs. Demonstrates principles of inside position advantage, transitional flow, and the importance of upper body control in breaking symmetry.
 
-**Saddle**: Advanced leg entanglement providing superior control through inside position and hip alignment. Exemplifies highest level of entanglement hierarchy with optimal heel exposure and submission opportunity.
+**Honey Hole**: Advanced leg entanglement providing superior control through inside position and hip alignment. Exemplifies highest level of entanglement hierarchy with optimal heel exposure and submission opportunity.
 
 **Cross Ashi-Garami**: Entanglement configuration where legs cross opponent's leg from various angles. Demonstrates importance of maintaining connection points and transitioning to more advantageous entanglements when opponent attempts to pass or escape.
 
@@ -215,15 +215,15 @@ Leg Entanglement represents the systematic control and positioning of lower extr
 
 **Backside 50-50**: Inverted leg entanglement position requiring understanding of unconventional angles and connection points. Demonstrates adaptability of entanglement principles across different body orientations.
 
-**Ushiro Ashi-Garami**: Rear-facing leg entanglement that creates unique submission angles and control mechanics. Shows how entanglement principles apply even when facing away from opponent's upper body.
+**Inside Sankaku**: Triangle-based leg entanglement using the legs to create a locked figure-four control around opponent's leg. Provides extremely secure inside position with powerful heel exposure mechanics and limited escape options for the defender.
 
-**Single Leg X-Guard**: Guard position incorporating leg entanglement principles with elevation and off-balancing. Demonstrates integration of leg control with sweeping mechanics and transitional opportunities.
+**K-Guard**: Modern guard position incorporating leg entanglement entry principles with dynamic movement and inversion. Demonstrates how guard positions serve as launching platforms for establishing leg entanglements through systematic entry mechanics.
 
 **Deep Half Guard**: Bottom position using leg entanglement concepts to control opponent's base and create sweeping opportunities. Shows how leg control principles extend beyond pure leg lock positions.
 
 **Kneebar Control**: Entanglement configuration specifically optimized for kneebar submissions. Demonstrates how different leg joint targets require specialized entanglement alignments.
 
-**Straight Ankle Lock Control**: Basic leg entanglement focused on ankle control rather than heel access. Shows foundational leg control mechanics applicable across different submission systems.
+**Lockdown**: Half guard leg entanglement using a double leg lock to control opponent's leg and disrupt base. Shows how basic leg control mechanics from half guard create sweeping opportunities and offensive transitions.
 
 
 
@@ -347,18 +347,18 @@ Live training starting from established leg entanglement positions with specific
 - **[[Positional Hierarchy]]** (Prerequisite): Understanding general positional hierarchy in BJJ is essential before comprehending the specific hierarchy within leg entanglement positions, as leg entanglements follow similar principles of dominant versus inferior positioning.
 - **[[Control Point Hierarchy]]** (Complementary): Leg entanglement applies control point hierarchy principles specifically to lower body control, with inside position representing the highest control point in the leg entanglement system.
 - **[[Connection Principles]]** (Prerequisite): Fundamental connection principles govern how multiple points of contact create redundant control in leg entanglements, making this concept essential for understanding entanglement mechanics.
-- **[[Hip Movement]]** (Complementary): Effective hip movement is critical for both establishing and escaping leg entanglements, as hip positioning determines mechanical advantage in lower body control situations.
+- **[[Hip Escape Mechanics]]** (Complementary): Effective hip escape mechanics are critical for both establishing and escaping leg entanglements, as hip repositioning determines mechanical advantage and creates or denies space in lower body control situations.
 - **[[Submission Chains]]** (Extension): Leg entanglement serves as the positional foundation for submission chains in leg lock systems, with different entanglements opening different submission pathways and defensive responses creating transition opportunities.
-- **[[System Building]]** (Advanced form): Advanced leg entanglement understanding enables building comprehensive leg lock systems where entanglement positions, transitions, and submissions integrate into cohesive strategic frameworks.
-- **[[Leverage Principles]]** (Prerequisite): Understanding mechanical leverage is fundamental to creating effective leg entanglements that control joints with minimal effort through proper structural alignment rather than muscular force.
+- **[[Position Chains]]** (Advanced form): Advanced leg entanglement understanding enables building comprehensive position chains where entanglement positions, transitions, and submissions integrate into cohesive strategic sequences that systematically advance control.
+- **[[Levers]]** (Prerequisite): Understanding mechanical leverage is fundamental to creating effective leg entanglements that control joints with minimal effort through proper structural alignment rather than muscular force.
 - **[[Transition Management]]** (Complementary): Leg entanglement requires fluid transitional ability between configurations, applying general transition management principles specifically to the lower body control system.
-- **[[Guard Retention]]** (Complementary): Many leg entanglements function as guard retention positions, using leg control to prevent passing while creating offensive opportunities.
-- **[[Defensive Strategy]]** (Complementary): Understanding leg entanglement from defensive perspective informs overall defensive strategy, as leg attacks represent significant modern submission threats.
+- **[[Defensive Concepts]]** (Complementary): Many leg entanglements function as defensive guard positions, using leg control to prevent passing while creating offensive opportunities, integrating defensive retention with attacking leg lock threats.
+- **[[Submission Defense]]** (Complementary): Understanding leg entanglement from the defensive perspective is essential for submission defense strategy, as leg attacks represent significant modern submission threats requiring specific defensive awareness and escape sequences.
 
 
 ### Related Content
 - [[Ashi Garami]] (Position) - Primary foundational leg entanglement position demonstrating core control principles
-- [[Saddle]] (Position) - Advanced leg entanglement representing highest point in positional hierarchy with inside position
+- [[Honey Hole]] (Position) - Advanced leg entanglement representing highest point in positional hierarchy with inside position control
 - [[50-50 Guard]] (Position) - Symmetrical leg entanglement demonstrating importance of breaking symmetry through inside position
 - [[Inside Ashi-Garami]] (Position) - Superior entanglement configuration showing inside position advantage over standard ashi
 - [[Heel Hook]] (Submission) - Primary submission attack from leg entanglement positions requiring proper entanglement foundation

@@ -184,7 +184,7 @@ Dealing with Pressure represents the fundamental skill of maintaining defensive 
 
 **Positional Angles and Hip Orientation**: The skill of maintaining body angles that reduce effective pressure surface area and prevent complete flattening. This includes hip escaping to create angles, turning to the side, and using shoulder positioning to create pressure-resistant structures.
 
-**Sequential Space Creation**: The ability to create small amounts of space progressively through micro-movements rather than explosive bursts. This involves using small shrimps, elbow movements, and hip adjustments to accumulate space for eventual escape execution.
+**Sequential Distance Control**: The ability to create small amounts of space progressively through micro-movements rather than explosive bursts. This involves using small shrimps, elbow movements, and hip adjustments to accumulate space for eventual escape execution.
 
 **Energy Conservation Under Duress**: The capacity to remain mechanically efficient and avoid panic-driven energy expenditure when experiencing uncomfortable pressure. This includes recognizing when to accept position temporarily, when to make movements, and how to avoid exhausting struggles.
 
@@ -293,7 +293,7 @@ Isolate specific frame types (forearm frame, knee shield, hand frame) and test t
 **Breathing Under Compression Practice** (Focus: Isolates breathing skill development, conditions diaphragm strength, develops breath timing awareness, reduces panic response to restricted breathing.)
 Partner applies controlled chest compression in various positions while defender focuses exclusively on maintaining diaphragmatic breathing, timing breaths with pressure changes, and creating micro-spaces for air intake.
 
-**Sequential Space Creation Drilling** (Focus: Teaches patience in pressure situations, develops incremental space creation skill, conditions energy-efficient movement patterns, builds understanding of cumulative positioning.)
+**Sequential Distance Control Drilling** (Focus: Teaches patience in pressure situations, develops incremental space creation skill, conditions energy-efficient movement patterns, builds understanding of cumulative positioning.)
 From heavy pressure positions, defender makes series of small movements (mini-shrimps, elbow slides, hip adjustments) to accumulate space progressively over 10-15 repetitions before attempting full escape.
 
 **Psychological Composure Training** (Focus: Develops psychological resilience, conditions panic response management, builds confidence in pressure situations, teaches separation of discomfort from danger.)
@@ -354,21 +354,21 @@ Extended rounds (5+ minutes) under sustained pressure with focus on maintaining 
 ## Related
 
 ### Related Principles
-- **[[Frame Creation]]** (Prerequisite): Frame Creation provides the foundational technical skill for establishing the structural barriers necessary to deal with pressure effectively. Without proper frame construction, pressure management becomes impossible.
-- **[[Defensive Frame]]** (Complementary): Defensive Frame works in conjunction with pressure management by providing the specific frame structures appropriate to different pressure scenarios. Both concepts reinforce effective bottom position survival.
+- **[[Frames]]** (Prerequisite): Frames provides the foundational technical skill for establishing the structural barriers necessary to deal with pressure effectively. Without proper frame construction, pressure management becomes impossible.
+- **[[Defensive Concepts]]** (Complementary): Defensive Concepts works in conjunction with pressure management by providing the broader defensive framework and specific frame structures appropriate to different pressure scenarios. Both concepts reinforce effective bottom position survival.
 - **[[Energy Conservation]]** (Complementary): Energy Conservation is essential for sustainable pressure defense, as managing energy expenditure determines whether a practitioner can outlast opponent's pressure or exhausts attempting ineffective escapes.
 - **[[Escape Fundamentals]]** (Extension): Dealing with Pressure serves as the foundation that enables Escape Fundamentals. Once pressure is managed and space created, escape techniques become executable.
 - **[[Hip Escape Mechanics]]** (Extension): Hip Escape Mechanics represents the technical execution that follows successful pressure management. The space created through pressure defense enables hip escape execution.
-- **[[Defensive Strategy]]** (Alternative): While Dealing with Pressure focuses on physical and technical pressure management, Defensive Strategy encompasses broader tactical decision-making that includes but extends beyond pressure scenarios.
-- **[[Frame Management]]** (Complementary): Frame Management extends pressure defense by teaching dynamic frame adjustments during opponent's pressure changes, working together to maintain defensive effectiveness.
-- **[[Space Creation]]** (Extension): Space Creation represents the progressive objective of pressure management, where maintained frames and composure enable incremental space accumulation for escapes.
-- **[[Shrimping]]** (Extension): Shrimping provides the specific movement mechanics used to create space once pressure is managed, serving as the technical execution of pressure defense principles.
+- **[[Positional Hierarchy]]** (Alternative): While Dealing with Pressure focuses on physical and technical pressure management, Positional Hierarchy encompasses broader tactical decision-making about which positions to prioritize escaping from and which pressure situations are most urgent to address.
+- **[[Shoulder Pressure]]** (Complementary): Understanding Shoulder Pressure from the top player's perspective informs bottom defensive adjustments, as recognizing how opponents generate and direct shoulder pressure enables more effective frame placement and angle creation.
+- **[[Distance Control]]** (Extension): Distance Control represents the progressive objective of pressure management, where maintained frames and composure enable incremental space accumulation for escapes.
+- **[[Center of Gravity]]** (Complementary): Understanding Center of Gravity patterns enables reading and redirecting opponent's pressure, as recognizing how top players shift and concentrate weight creates opportunities for defensive movement and escape timing.
 - **[[Bridge and Shrimp]]** (Extension): Bridge and Shrimp combines two fundamental movements that follow effective pressure management, using the space created to execute positional improvements.
 
 
 ### Related Content
-- [[Frame Creation]] (Principle) - Provides foundational technical skill for establishing structural barriers against pressure
-- [[Frame Management]] (Principle) - Extends pressure defense by teaching dynamic frame adjustments during opponent's pressure changes
+- [[Frames]] (Principle) - Provides foundational technical skill for establishing structural barriers against pressure
+- [[Defensive Concepts]] (Principle) - Broader defensive framework that encompasses pressure management alongside guard retention and escape planning
 - [[Escape Fundamentals]] (Principle) - Represents the technical execution phase that follows successful pressure management
 - [[Energy Conservation]] (Principle) - Essential complementary skill for sustainable pressure defense over extended periods
 - [[Hip Escape Mechanics]] (Principle) - Provides specific technical movements for creating space under pressure
@@ -377,8 +377,8 @@ Extended rounds (5+ minutes) under sustained pressure with focus on maintaining 
 - [[Knee on Belly]] (Position) - High-intensity pressure position testing acute pressure tolerance and frame effectiveness
 - [[Elbow Escape to Guard]] (Transition) - Common escape technique that requires effective pressure management as prerequisite
 - [[Bridge and Roll]] (Transition) - Escape technique that depends on pressure management to create execution opportunity
-- [[Defensive Strategy]] (Principle) - Broader strategic framework that incorporates pressure management as key component
-- [[Side Control Defensive Framework]] (Principle) - Position-specific defensive system that applies pressure management principles to side control
+- [[Positional Hierarchy]] (Principle) - Strategic framework for prioritizing which pressure situations to escape first based on positional danger
+- [[Defensive Prioritization Framework]] (System) - Systematic approach to defensive decision-making that applies pressure management principles across all bottom positions
 
 
 </section>

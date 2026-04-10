@@ -15,7 +15,7 @@
   "application_level": "Intermediate",
   "complexity_level": "High",
   "development_timeline": "Intermediate to Expert",
-  "overview": "Submission Chains represent the systematic linking of multiple submission attempts into cohesive offensive sequences where each defensive response opens a new attacking opportunity. Rather than viewing submissions as isolated techniques, chain thinking creates a web of interconnected attacks where the opponent's escape from one submission feeds directly into the setup for another. This conceptual framework transforms submission attempts from binary win-lose scenarios into continuous offensive pressure systems that compound defensive errors and create submission inevitability.\n\nThe fundamental principle underlying submission chains is that defensive actions are predictable and can be systematically exploited. When an opponent defends an armbar by pulling their arm out, they create specific mechanical opportunities for triangle attacks. When they posture up to escape a triangle, they expose their arms for kimura grips. This action-reaction relationship forms the basis of all effective chain systems, where the attacker maintains initiative by staying one step ahead of defensive responses.\n\nAt the highest levels of competition, submission chains represent the difference between occasional submission success and systematic finishing ability. Elite grapplers like Gordon Ryan and Garry Tonon don't hunt for single submissions—they create submission ecosystems where every defensive option leads to another attack. Understanding and developing chain-based offensive systems is essential for advancing beyond intermediate-level grappling and achieving consistent submission success against skilled opponents.",
+  "overview": "Submission Chains represent the systematic linking of multiple submission attempts into cohesive offensive sequences where each defensive response opens a new attacking opportunity. Rather than viewing submissions as isolated techniques, chain thinking creates a web of interconnected attacks where the opponent's escape from one submission feeds directly into the setup for another. This conceptual framework transforms submission attempts from binary win-lose scenarios into continuous offensive pressure systems that compound defensive errors and create submission inevitability.\n\nThe fundamental principle underlying submission chains is that defensive actions are predictable and can be systematically exploited. When an opponent defends an armbar by pulling their arm out, they create specific mechanical opportunities for triangle attacks. When they posture up to escape a triangle, they expose their arms for kimura grips. This action-reaction relationship forms the basis of all effective chain systems, where the attacker maintains initiative by staying one step ahead of defensive responses.\n\nAt the highest levels of competition, submission chains represent the difference between occasional submission success and systematic finishing ability. Elite grapplers don't hunt for single submissions—they create submission ecosystems where every defensive option leads to another attack. Understanding and developing chain-based offensive systems is essential for advancing beyond intermediate-level grappling and achieving consistent submission success against skilled opponents.",
   "key_principles": [
     "Every defensive action creates specific offensive opportunities that can be systematically exploited",
     "Submission attempts should be viewed as positional improvements even when they don't finish, as they force reactions that open new attacks",
@@ -56,7 +56,7 @@
       "description": "Controlling the spatial relationship with your opponent throughout the chain to optimize each submission setup while preventing escapes. This includes understanding how to close distance for chokes, create space for joint locks, and adjust angles to maximize mechanical advantage at each transition point in the sequence."
     },
     {
-      "skill_name": "Psychological Pressure Application",
+      "skill_name": "Psychological Pressure",
       "description": "Using the relentless nature of chains to create mental fatigue and panic in opponents, forcing rushed defensive decisions that create larger offensive opportunities. This skill involves maintaining composure and systematic pressure even when individual submissions fail, demonstrating to the opponent that escaping one attack only leads to another."
     }
   ],
@@ -72,9 +72,9 @@
       "description": "Understanding action-reaction principles is fundamental to chain building, as chains exploit the predictable defensive reactions that submissions create"
     },
     {
-      "principle_name": "Offensive Combinations",
+      "principle_name": "Forward Pressure",
       "relationship_type": "Extension",
-      "description": "Submission chains represent the most advanced form of offensive combinations, extending combination principles from strikes and sweeps into the submission domain"
+      "description": "Submission chains extend forward pressure principles into the submission domain, maintaining continuous offensive momentum through linked attack sequences that never allow the opponent to rest or reset"
     },
     {
       "principle_name": "Control Point Hierarchy",
@@ -87,12 +87,12 @@
       "description": "Effective chains require sophisticated timing to transition between attacks at the precise moment when defensive movements create new opportunities"
     },
     {
-      "principle_name": "Energy Management System",
+      "principle_name": "Energy Conservation",
       "relationship_type": "Complementary",
       "description": "Chains must be executed with energy efficiency in mind, using opponent's defensive energy against them rather than fighting through each transition with strength"
     },
     {
-      "principle_name": "Dilemma Creation",
+      "principle_name": "Fork Attacks",
       "relationship_type": "Advanced form",
       "description": "Submission chains are the ultimate expression of dilemma creation, where every defensive option leads to another offensive threat"
     },
@@ -102,14 +102,14 @@
       "description": "Submission chains and position chains work together—positional advancement creates submission opportunities, and submission threats create positional advancement"
     },
     {
-      "principle_name": "Transition Sequences",
+      "principle_name": "Transition Management",
       "relationship_type": "Extension",
-      "description": "Submission chains are specialized transition sequences focused specifically on linking finishing attempts rather than positional movements"
+      "description": "Submission chains are specialized transition management focused specifically on linking finishing attempts, requiring precise control of the transitional windows between submissions"
     },
     {
-      "principle_name": "System Building",
-      "relationship_type": "Advanced form",
-      "description": "Developing comprehensive chain systems represents systematic approach to building interconnected offensive frameworks"
+      "principle_name": "Positional Hierarchy",
+      "relationship_type": "Prerequisite",
+      "description": "Understanding positional hierarchy informs chain construction by identifying which positions offer the best platforms for chain attacks and where chain attempts should be abandoned in favor of positional advancement"
     }
   ],
   "application_contexts": [
@@ -331,9 +331,9 @@
       "relationship": "Central submission in most guard chain systems, connects to armbar, omoplata, and kimura"
     },
     {
-      "name": "Armbar from Mount",
+      "name": "Armbar from Armbar Control",
       "content_type": "Submission",
-      "relationship": "Primary attack in mount chains, creates reactions that open triangle and opposite-side armbar opportunities"
+      "relationship": "Core finishing mechanic in mount and guard submission chains, defensive reactions to the armbar open triangle and opposite-side armbar opportunities"
     },
     {
       "name": "Rear Naked Choke",
@@ -346,9 +346,9 @@
       "relationship": "Versatile chain connector from multiple positions, leads to back takes, armbars, and positional advancements"
     },
     {
-      "name": "Omoplata from Guard",
-      "content_type": "Submission",
-      "relationship": "Common endpoint in guard chains when opponent defends triangle or armbar by turning"
+      "name": "Omoplata Control",
+      "content_type": "Position",
+      "relationship": "Chain hub position reached when opponent defends triangle or armbar by turning, enabling further submission transitions including sweeps, wristlocks, and back takes"
     },
     {
       "name": "Position-Over-Submission Approach",
@@ -366,9 +366,9 @@
       "relationship": "Highest-percentage position for submission chains in competition contexts"
     },
     {
-      "name": "Offensive Combinations",
+      "name": "Fork Attacks",
       "content_type": "Principle",
-      "relationship": "Broader combination concept that submission chains represent the highest expression of within the submission domain"
+      "relationship": "Chain systems create systematic dilemmas where defending one submission opens another, representing the highest expression of combination thinking"
     },
     {
       "name": "Action and Reaction",

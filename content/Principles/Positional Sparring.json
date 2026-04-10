@@ -61,14 +61,14 @@
   ],
   "principle_relationships": [
     {
-      "principle_name": "Drilling Methodology",
+      "principle_name": "Timing and Rhythm",
       "relationship_type": "Complementary",
-      "description": "Positional sparring bridges the gap between cooperative drilling and live sparring, providing resistance-based repetition that drilling lacks while maintaining the positional focus that live sparring dilutes."
+      "description": "Positional sparring develops timing and rhythm through high-volume repetition of specific scenarios, allowing practitioners to internalize the tempo of attacks and defenses within isolated positional contexts."
     },
     {
-      "principle_name": "Progressive Resistance Training",
+      "principle_name": "Pressure",
       "relationship_type": "Extension",
-      "description": "Positional sparring represents a sophisticated application of progressive resistance principles, allowing controlled escalation from cooperative drilling through graded resistance to competition-level intensity."
+      "description": "Positional sparring represents a sophisticated application of progressive pressure principles, allowing controlled escalation from cooperative drilling through graded resistance to competition-level intensity."
     },
     {
       "principle_name": "Flow Rolling",
@@ -76,29 +76,29 @@
       "description": "While flow rolling emphasizes continuous movement and creativity, positional sparring prioritizes focused repetition and measurable objectives, representing different but complementary training modalities."
     },
     {
-      "principle_name": "Competition Training",
-      "relationship_type": "Prerequisite",
-      "description": "Positional sparring serves as essential preparation for competition by allowing high-volume practice of specific scenarios likely to occur in matches, with realistic resistance levels."
-    },
-    {
-      "principle_name": "System Building",
-      "relationship_type": "Extension",
-      "description": "Positional sparring enables systematic development by allowing practitioners to test and refine interconnected techniques under resistance, revealing which combinations work cohesively under pressure."
-    },
-    {
-      "principle_name": "Match Preparation",
+      "principle_name": "Competition Mindset",
       "relationship_type": "Complementary",
-      "description": "Positional sparring allows targeted preparation for anticipated match scenarios by isolating specific positions and situations likely to occur in competition."
+      "description": "Positional sparring serves as essential preparation for competition by allowing high-volume practice of specific scenarios likely to occur in matches, building the mental toughness and decisiveness required under competitive pressure."
     },
     {
-      "principle_name": "Energy Management System",
+      "principle_name": "Position Chains",
+      "relationship_type": "Extension",
+      "description": "Positional sparring enables systematic chain development by allowing practitioners to test and refine interconnected positional sequences under resistance, revealing which combinations work cohesively under pressure."
+    },
+    {
+      "principle_name": "Submission Chains",
+      "relationship_type": "Extension",
+      "description": "Positional sparring from dominant positions allows targeted development of submission chain execution, testing whether linked attacks flow naturally against realistic defensive resistance."
+    },
+    {
+      "principle_name": "Energy Conservation",
       "relationship_type": "Complementary",
       "description": "Positional sparring develops position-specific energy efficiency by allowing focused practice of energy conservation techniques within isolated positional contexts."
     },
     {
-      "principle_name": "Guard Retention",
+      "principle_name": "Kuzushi",
       "relationship_type": "Extension",
-      "description": "Guard retention skills develop rapidly through positional sparring from guard positions with passing objectives, providing high-volume defensive practice."
+      "description": "Sweep mechanics develop rapidly through positional sparring from guard positions, providing high-volume practice of off-balancing, timing, and sweep execution against resisting opponents."
     },
     {
       "principle_name": "Guard Passing",
@@ -285,7 +285,7 @@
     },
     {
       "approach_name": "Systematic Position Progression",
-      "description": "Following logical position chains through positional sparring sequence (guard → guard pass → side control → mount → back). Success in one position becomes starting point for next.",
+      "description": "Following logical position chains through positional sparring sequence (guard to guard pass to side control to mount to back). Success in one position becomes starting point for next.",
       "focus": "Develops understanding of positional relationships and transition sequences by practicing complete offensive progressions and defensive recovery pathways under resistance."
     },
     {
@@ -337,14 +337,14 @@
   ],
   "related_content": [
     {
-      "name": "Drilling Methodology",
+      "name": "Timing and Rhythm",
       "content_type": "Principle",
-      "relationship": "Positional sparring extends drilling by adding resistance while maintaining positional focus"
+      "relationship": "Positional sparring develops timing through high-volume positional repetition under resistance"
     },
     {
-      "name": "Progressive Resistance Training",
+      "name": "Pressure",
       "content_type": "Principle",
-      "relationship": "Foundational principle that informs intensity calibration in positional sparring"
+      "relationship": "Foundational principle that informs intensity calibration and progressive resistance in positional sparring"
     },
     {
       "name": "Flow Rolling",
@@ -352,19 +352,19 @@
       "relationship": "Alternative training method emphasizing continuous movement versus positional focus"
     },
     {
-      "name": "Competition Training",
+      "name": "Competition Mindset",
       "content_type": "Principle",
-      "relationship": "Positional sparring serves as primary competition preparation methodology"
+      "relationship": "Positional sparring serves as primary competition preparation methodology by building mental toughness in specific scenarios"
     },
     {
-      "name": "Guard Retention",
+      "name": "Kuzushi",
       "content_type": "Principle",
-      "relationship": "Commonly developed through positional sparring from guard positions"
+      "relationship": "Commonly developed through positional sparring from guard positions with sweep objectives"
     },
     {
       "name": "Guard Passing",
       "content_type": "Principle",
-      "relationship": "Refined through positional sparring with passer objectives"
+      "relationship": "Refined through positional sparring with passer objectives against resisting guard players"
     },
     {
       "name": "Escape Fundamentals",
@@ -372,7 +372,7 @@
       "relationship": "Accelerated development through positional sparring from disadvantageous positions"
     },
     {
-      "name": "System Building",
+      "name": "Position Chains",
       "content_type": "Principle",
       "relationship": "Positional sparring reveals which techniques connect systematically under resistance"
     },

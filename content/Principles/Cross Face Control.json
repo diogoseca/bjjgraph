@@ -38,7 +38,7 @@
       "description": "Precise placement of forearm across opponent's jaw and neck with proper angle and depth to maximize turning pressure while maintaining connection. Involves understanding how forearm angle affects pressure distribution and head rotation control."
     },
     {
-      "skill_name": "Shoulder Pressure Application",
+      "skill_name": "Shoulder Pressure",
       "description": "Using shoulder weight and positioning to reinforce crossface pressure, creating heavy, sustained control that exhausts opponent's defensive efforts. Requires body positioning that allows maximum shoulder weight transfer to crossface without compromising base."
     },
     {
@@ -64,9 +64,9 @@
   ],
   "principle_relationships": [
     {
-      "principle_name": "Head Control",
+      "principle_name": "Head Position",
       "relationship_type": "Prerequisite",
-      "description": "Cross Face Control is a specific application of the broader Head Control principle, utilizing head positioning to limit opponent's movement options and escape capabilities."
+      "description": "Cross Face Control is a specific application of the broader Head Position principle, utilizing head positioning to limit opponent's movement options and escape capabilities."
     },
     {
       "principle_name": "Shoulder Pressure",
@@ -84,22 +84,17 @@
       "description": "Crossface represents a high-priority control point in the hierarchy, as controlling opponent's head through crossface significantly limits their overall movement and escape options."
     },
     {
-      "principle_name": "Pressure Passing Framework",
-      "relationship_type": "Extension",
-      "description": "Crossface control is fundamental to pressure passing systems, as it prevents opponent from turning into guard passer and creating defensive frames during the passing sequence."
-    },
-    {
-      "principle_name": "Frame Management",
+      "principle_name": "Frames",
       "relationship_type": "Alternative",
       "description": "From opponent's perspective, effective frame creation directly counters crossface control, making crossface establishment timing critical before opponent can establish frames."
     },
     {
-      "principle_name": "Weight Distribution",
+      "principle_name": "Center of Gravity",
       "relationship_type": "Complementary",
       "description": "Proper weight distribution enables effective crossface by allowing practitioner to apply shoulder and body weight through crossface arm without compromising balance or base."
     },
     {
-      "principle_name": "Pressure Application",
+      "principle_name": "Pressure",
       "relationship_type": "Extension",
       "description": "Crossface control exemplifies efficient pressure application, using skeletal structure and body weight rather than muscular force to create sustained control."
     }
@@ -362,7 +357,7 @@
       "relationship": "Submission often set up by crossface control that isolates opponent's arm"
     },
     {
-      "name": "Head Control",
+      "name": "Head Position",
       "content_type": "Principle",
       "relationship": "Broader principle that crossface control specifically implements"
     },
@@ -370,11 +365,6 @@
       "name": "Shoulder Pressure",
       "content_type": "Principle",
       "relationship": "Complementary pressure concept that reinforces crossface effectiveness"
-    },
-    {
-      "name": "Pressure Passing Framework",
-      "content_type": "Principle",
-      "relationship": "Passing system that relies fundamentally on crossface control"
     },
     {
       "name": "Hip Pressure",

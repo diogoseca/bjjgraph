@@ -229,7 +229,7 @@ Positional Hierarchy represents the fundamental strategic concept of ranking BJJ
 
 **Standing Position**: Occupies neutral hierarchical position where both offensive takedown opportunities and defensive sprawl requirements exist, using hierarchy to determine whether to initiate engagement or maintain distance based on takedown skill differential.
 
-**Scramble Position**: Represents transitional hierarchical state requiring rapid position value assessment to determine which emerging position to pursue, using hierarchy to guide split-second decisions about committing to specific positional outcomes.
+**Standing Position**: Represents neutral hierarchical state requiring rapid position value assessment to determine which emerging position to pursue, using hierarchy to guide split-second decisions about committing to specific positional outcomes during transitions.
 
 **Technical Mount**: Occupies highest hierarchical tier with mount variations, providing exceptional control and submission access while maintaining escape prevention, justifying sustained offensive pressure with minimal risk of positional loss.
 
@@ -351,13 +351,13 @@ Practice flow rolling with explicit focus on smooth hierarchical transitions, mo
 ### Related Principles
 - **[[Position-Over-Submission Approach]]** (Complementary): Position-Over-Submission philosophy directly implements positional hierarchy by prioritizing hierarchical advancement over premature submission attempts, using hierarchy as decision framework for when submissions become strategically appropriate.
 - **[[Control Point Hierarchy]]** (Complementary): Control Point Hierarchy provides micro-level framework within each position while Positional Hierarchy provides macro-level framework across positions, creating nested hierarchical system for complete strategic understanding.
-- **[[Escape Hierarchy]]** (Extension): Escape Hierarchy represents defensive application of positional hierarchy, establishing priority system for which positions to escape first based on their hierarchical danger level.
-- **[[Energy Management System]]** (Complementary): Energy Management utilizes hierarchical understanding to allocate energy efficiently, expending more energy to achieve significant hierarchical gains while conserving energy in neutral or favorable positions.
-- **[[Risk Assessment]]** (Prerequisite): Risk Assessment provides foundational decision-making framework that enables intelligent application of positional hierarchy by evaluating whether potential hierarchical gains justify associated risks.
-- **[[Match Strategy]]** (Extension): Match Strategy extends positional hierarchy into comprehensive game planning, using hierarchical understanding to develop position-based strategies appropriate for specific opponents and competitive contexts.
-- **[[Guard Retention]]** (Complementary): Guard Retention applies hierarchical understanding to determine when defending current guard position is more valuable than accepting pass to inferior position, using hierarchy to guide defensive priorities.
+- **[[Escape Fundamentals]]** (Extension): Escape Fundamentals represents the defensive application of positional hierarchy, establishing priority system for which positions to escape first based on their hierarchical danger level and urgency of positional improvement.
+- **[[Energy Conservation]]** (Complementary): Energy Conservation utilizes hierarchical understanding to allocate energy efficiently, expending more energy to achieve significant hierarchical gains while conserving energy in neutral or favorable positions.
+- **[[Timing and Rhythm]]** (Prerequisite): Timing and Rhythm provides foundational decision-making framework that enables intelligent application of positional hierarchy by evaluating when to commit to hierarchical advancement and when to maintain current position.
+- **[[Competition Mindset]]** (Extension): Competition Mindset extends positional hierarchy into comprehensive game planning, using hierarchical understanding to develop position-based strategies appropriate for specific opponents and competitive contexts.
+- **[[Frames]]** (Complementary): Frames applies hierarchical understanding to guard retention by determining when defending current guard position through frames is more valuable than accepting pass to an inferior hierarchical position.
 - **[[Guard Passing]]** (Complementary): Guard Passing utilizes hierarchical framework to determine which passing positions to seek and which to avoid, ensuring passes lead to hierarchically superior positions rather than lateral movements.
-- **[[Defensive Strategy]]** (Complementary): Defensive Strategy incorporates hierarchical awareness to prioritize defensive actions based on positional danger, allocating defensive resources proportionally to hierarchical threat level.
+- **[[Defensive Concepts]]** (Complementary): Defensive Concepts incorporates hierarchical awareness to prioritize defensive actions based on positional danger, allocating defensive resources proportionally to hierarchical threat level.
 - **[[Control Maintenance]]** (Complementary): Control Maintenance emphasizes sustaining hierarchically superior positions once achieved, recognizing that maintaining high-value positions multiplies offensive opportunities while limiting opponent options.
 - **[[Connection Principles]]** (Extension): Connection Principles utilize hierarchical understanding to select optimal transitional paths between positions, ensuring movements consistently advance up hierarchy rather than creating lateral or descending positional changes.
 - **[[Position Chains]]** (Extension): Position Chains apply hierarchical principles to construct multi-step sequences that systematically climb positional hierarchy through connected technical progressions.
@@ -366,16 +366,16 @@ Practice flow rolling with explicit focus on smooth hierarchical transitions, mo
 ### Related Content
 - [[Position-Over-Submission Approach]] (Principle) - Direct implementation philosophy - position-before-submission approach operationalizes hierarchical understanding into tactical decision-making rule
 - [[Control Point Hierarchy]] (Principle) - Nested hierarchy system - control points provide micro-level hierarchy within positions while positional hierarchy provides macro-level framework
-- [[Escape Hierarchy]] (Principle) - Defensive application - escape hierarchy represents defensive implementation of positional hierarchy establishing escape priority system
+- [[Escape Fundamentals]] (Principle) - Defensive application - escape fundamentals represent defensive implementation of positional hierarchy establishing escape priority system based on hierarchical danger
 - [[Mount]] (Position) - Highest traditional hierarchical position - represents apex of offensive positional hierarchy with maximum control and submission access
 - [[Back Control]] (Position) - Highest hierarchical position alongside mount - represents ultimate control position with superior submission access and minimal escape options
 - [[Side Control]] (Position) - High hierarchical position - represents secure platform below mount and back control with excellent control and advancement opportunities
 - [[Closed Guard]] (Position) - Neutral hierarchical position - represents balanced position where hierarchy understanding guides offensive versus defensive priorities
 - [[Half Guard]] (Position) - Medium defensive hierarchical position - demonstrates application of hierarchy to determine sweep versus retention priorities
 - [[Turtle]] (Position) - Low defensive hierarchical position - exemplifies position requiring urgent improvement based on hierarchical vulnerability
-- [[Energy Management System]] (Principle) - Resource allocation framework - uses hierarchical understanding to optimize energy investment for maximum strategic return
-- [[Risk Assessment]] (Principle) - Decision-making foundation - provides risk evaluation framework enabling intelligent hierarchical advancement decisions
-- [[Match Strategy]] (Principle) - Strategic extension - extends hierarchical understanding into comprehensive game planning for competitive contexts
+- [[Energy Conservation]] (Principle) - Resource allocation framework - uses hierarchical understanding to optimize energy investment for maximum strategic return
+- [[Timing and Rhythm]] (Principle) - Decision-making foundation - provides timing evaluation framework enabling intelligent hierarchical advancement decisions and risk assessment
+- [[Competition Mindset]] (Principle) - Strategic extension - extends hierarchical understanding into comprehensive game planning and match strategy for competitive contexts
 
 
 </section>

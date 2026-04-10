@@ -64,24 +64,24 @@
       "description": "Positional control requires less energy than constant submission attempts, supporting conservative energy expenditure"
     },
     {
-      "principle_name": "Defensive Strategy",
+      "principle_name": "Defensive Concepts",
       "relationship_type": "Complementary",
-      "description": "Defensive frameworks often emphasize energy conservation through efficient escapes and selective resistance patterns"
+      "description": "Defensive concepts emphasize energy conservation through efficient escapes and selective resistance patterns"
     },
     {
-      "principle_name": "Base Maintenance",
+      "principle_name": "Base",
       "relationship_type": "Prerequisite",
       "description": "Stable base using skeletal structure conserves energy compared to muscular defensive efforts"
     },
     {
-      "principle_name": "Pressure Application",
+      "principle_name": "Pressure",
       "relationship_type": "Alternative",
       "description": "Constant pressure represents an opposite strategic approach focused on opponent energy depletion"
     },
     {
-      "principle_name": "Guard Retention",
+      "principle_name": "Distance Control",
       "relationship_type": "Extension",
-      "description": "Efficient guard retention exemplifies energy conservation principles in defensive contexts"
+      "description": "Efficient space creation conserves energy by using frames and hip movement rather than strength-based guard retention or escapes"
     },
     {
       "principle_name": "Timing and Rhythm",
@@ -89,29 +89,29 @@
       "description": "Proper timing allows explosive efforts at optimal moments, conserving energy between opportunities"
     },
     {
-      "principle_name": "Pacing",
+      "principle_name": "Flow Rolling",
       "relationship_type": "Extension",
-      "description": "Match pacing directly implements energy conservation strategy through tempo control"
+      "description": "Flow rolling practice directly develops energy conservation awareness through controlled tempo and movement efficiency"
     },
     {
-      "principle_name": "Frame Management",
+      "principle_name": "Frames",
       "relationship_type": "Prerequisite",
       "description": "Structural frames conserve energy by using skeletal leverage rather than muscular resistance"
     },
     {
-      "principle_name": "Energy Management System",
-      "relationship_type": "Extension",
-      "description": "Comprehensive system that implements energy conservation principles across all positions and contexts"
+      "principle_name": "Center of Gravity",
+      "relationship_type": "Complementary",
+      "description": "Strategic weight distribution conserves energy by using gravity and skeletal alignment rather than muscular effort"
     },
     {
-      "principle_name": "Escape Hierarchy",
+      "principle_name": "Escape Fundamentals",
       "relationship_type": "Complementary",
       "description": "Prioritizing escape opportunities based on energy cost supports strategic resource allocation"
     },
     {
-      "principle_name": "Risk Assessment",
+      "principle_name": "Competition Mindset",
       "relationship_type": "Complementary",
-      "description": "Evaluating positional risks informs decisions about energy allocation for defensive efforts"
+      "description": "Competitive risk assessment informs decisions about energy allocation for offensive and defensive efforts"
     }
   ],
   "application_contexts": [
@@ -328,17 +328,17 @@
       "relationship": "Complementary principle focusing on technical efficiency supporting energy conservation"
     },
     {
-      "name": "Pacing",
+      "name": "Timing and Rhythm",
       "content_type": "Principle",
-      "relationship": "Direct extension implementing energy conservation through tempo control"
+      "relationship": "Direct implementation of energy conservation through strategic tempo and timing control"
     },
     {
-      "name": "Base Maintenance",
+      "name": "Base",
       "content_type": "Principle",
       "relationship": "Prerequisite skill enabling energy-efficient defensive positioning"
     },
     {
-      "name": "Frame Management",
+      "name": "Frames",
       "content_type": "Principle",
       "relationship": "Prerequisite skill providing energy-efficient defensive structures"
     },
@@ -353,9 +353,9 @@
       "relationship": "Highly efficient defensive position requiring minimal energy to maintain"
     },
     {
-      "name": "Guard Retention",
+      "name": "Escape Fundamentals",
       "content_type": "Principle",
-      "relationship": "Application context where energy conservation principles are critical"
+      "relationship": "Application context where energy conservation principles are critical for efficient escapes"
     },
     {
       "name": "Position-Over-Submission Approach",
@@ -363,7 +363,7 @@
       "relationship": "Strategic framework supporting energy conservation through positional focus"
     },
     {
-      "name": "Defensive Strategy",
+      "name": "Defensive Concepts",
       "content_type": "Principle",
       "relationship": "Complementary framework emphasizing efficient defense and selective resistance"
     },
@@ -373,9 +373,9 @@
       "relationship": "Tactical tool for avoiding high-energy standup exchanges"
     },
     {
-      "name": "Energy Management System",
+      "name": "Defensive Prioritization Framework",
       "content_type": "System",
-      "relationship": "Systematic implementation of energy conservation principles across all contexts"
+      "relationship": "Systematic implementation of energy conservation principles through defensive priority assessment"
     },
     {
       "name": "Deep Half Guard",

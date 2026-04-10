@@ -63,7 +63,7 @@
   ],
   "principle_relationships": [
     {
-      "principle_name": "Grip Fighting",
+      "principle_name": "Grips",
       "relationship_type": "Complementary",
       "description": "Grip fighting focuses specifically on establishing and breaking grips, while hand fighting encompasses the broader strategic positioning and movement that precedes grip establishment. These concepts work synergistically with hand fighting creating the positional foundation for effective grip fighting."
     },
@@ -73,17 +73,17 @@
       "description": "Hand fighting implements control point hierarchy principles specifically in the context of upper body control. Understanding control point hierarchy provides the strategic framework for prioritizing hand fighting objectives."
     },
     {
-      "principle_name": "Connection Breaking",
+      "principle_name": "Connection Principles",
       "relationship_type": "Complementary",
-      "description": "Hand fighting creates the tactical positioning necessary for effective connection breaking, while connection breaking principles inform hand fighting strategy. These concepts reinforce each other in creating defensive control denial."
+      "description": "Hand fighting creates the tactical positioning necessary for establishing or denying connections, while connection principles inform hand fighting strategy. These concepts reinforce each other in managing upper body control exchanges."
     },
     {
-      "principle_name": "Frame Management",
+      "principle_name": "Frames",
       "relationship_type": "Prerequisite",
       "description": "Effective framing requires successful hand fighting to establish proper hand positioning for frame structures. Hand fighting skills determine the ability to create and maintain defensive frames under pressure."
     },
     {
-      "principle_name": "Posture Breaking",
+      "principle_name": "Posture",
       "relationship_type": "Extension",
       "description": "Hand fighting provides the control pathways necessary for effective posture breaking. The hand positions established through hand fighting determine the mechanical advantage available for breaking opponent's structural integrity."
     },
@@ -103,9 +103,9 @@
       "description": "Sleeve control requires hand fighting competency to establish and maintain across various positions. Hand fighting determines timing and positioning for effective sleeve control establishment."
     },
     {
-      "principle_name": "Guard Retention",
+      "principle_name": "Defensive Concepts",
       "relationship_type": "Complementary",
-      "description": "Guard retention relies heavily on hand fighting to prevent passing grips and maintain control over opponent's upper body. Hand fighting creates the first line of defense in guard retention systems."
+      "description": "Defensive positioning relies heavily on hand fighting to prevent passing grips and maintain control over opponent's upper body. Hand fighting creates the first line of defense in guard retention and escape systems."
     },
     {
       "principle_name": "Guard Passing",
@@ -113,14 +113,14 @@
       "description": "Successful guard passing requires winning hand fighting battles to establish passing grips while preventing guard player's retention controls. Hand fighting determines initial passing success."
     },
     {
-      "principle_name": "Distance Creation",
+      "principle_name": "Distance Control",
       "relationship_type": "Complementary",
-      "description": "Hand fighting can be used to create and manage distance through strategic hand placement and frame establishment. These principles work together in defensive scenarios."
+      "description": "Hand fighting can be used to create and manage distance through strategic hand placement and frame establishment. These principles work together in defensive scenarios to generate the space needed for escapes and guard recovery."
     },
     {
-      "principle_name": "Creating Reactions",
+      "principle_name": "Fork Attacks",
       "relationship_type": "Extension",
-      "description": "Hand fighting establishes the control points necessary for effective off-balancing techniques. Superior hand positioning creates mechanical advantages for disrupting opponent's balance and eliciting exploitable reactions."
+      "description": "Hand fighting establishes the control points necessary for presenting multiple threats simultaneously. Superior hand positioning creates the foundation for forcing opponents into lose-lose decisions between defending different attacks."
     }
   ],
   "application_contexts": [
@@ -276,7 +276,7 @@
       "focus": "Build position-specific hand fighting competency by isolating hand fighting challenges in particular positions and developing specialized solutions for each context."
     },
     {
-      "approach_name": "Grip Fighting Integration",
+      "approach_name": "Grips Integration",
       "description": "Training that combines hand fighting with grip establishment and maintenance, developing the relationship between positional hand fighting and specific grip objectives.",
       "focus": "Understand how hand fighting creates the foundation for effective grip fighting and how to transition seamlessly from hand positioning to grip establishment."
     },
@@ -341,14 +341,14 @@
   ],
   "related_content": [
     {
-      "name": "Grip Fighting",
+      "name": "Grips",
       "content_type": "Principle",
       "relationship": "Complementary skill focusing on specific grip establishment and breaking that builds on hand fighting foundations"
     },
     {
-      "name": "Grip Fighting Strategies",
+      "name": "Action and Reaction",
       "content_type": "Principle",
-      "relationship": "Strategic framework for grip fighting that integrates with hand fighting tactical approach"
+      "relationship": "Strategic framework for exploiting opponent's responses to hand fighting initiatives to create tactical openings"
     },
     {
       "name": "Control Point Hierarchy",
@@ -356,19 +356,19 @@
       "relationship": "Provides theoretical framework for prioritizing hand fighting objectives based on positional value"
     },
     {
-      "name": "Connection Breaking",
+      "name": "Connection Principles",
       "content_type": "Principle",
-      "relationship": "Defensive application of hand fighting principles for denying opponent's control establishment"
+      "relationship": "Informs how hand fighting establishes or denies the connections that determine positional control"
     },
     {
-      "name": "Posture Breaking",
+      "name": "Posture",
       "content_type": "Principle",
       "relationship": "Technical application requiring hand fighting success to establish controls necessary for posture disruption"
     },
     {
-      "name": "Frame Management",
+      "name": "Frames",
       "content_type": "Principle",
-      "relationship": "Defensive structure requiring effective hand fighting to establish and maintain proper hand positioning"
+      "relationship": "Defensive structure requiring effective hand fighting to establish and maintain proper hand positioning for frames"
     },
     {
       "name": "Collar Control",

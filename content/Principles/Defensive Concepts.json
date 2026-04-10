@@ -41,7 +41,7 @@
       "description": "The capacity to regulate energy expenditure during defensive sequences by recognizing when explosive effort is required versus when technical positioning can preserve energy, preventing premature exhaustion that leads to defensive collapse."
     },
     {
-      "skill_name": "Space Creation and Recovery",
+      "skill_name": "Distance Control and Recovery",
       "description": "Systematic ability to generate and exploit spatial opportunities through hip movement, bridging, and shrimping mechanics that create the distance necessary for guard recovery or position improvement from compressed defensive scenarios."
     },
     {
@@ -63,9 +63,9 @@
   ],
   "principle_relationships": [
     {
-      "principle_name": "Escape Hierarchy",
+      "principle_name": "Escape Fundamentals",
       "relationship_type": "Complementary",
-      "description": "Escape Hierarchy provides the structural framework for prioritizing which defensive objectives to pursue in what order, while Defensive Concepts supplies the overarching philosophy governing why those priorities exist and how to think about defensive scenarios strategically."
+      "description": "Escape Fundamentals provides the structural framework for prioritizing which defensive objectives to pursue in what order, while Defensive Concepts supplies the overarching philosophy governing why those priorities exist and how to think about defensive scenarios strategically."
     },
     {
       "principle_name": "Positional Hierarchy",
@@ -78,29 +78,29 @@
       "description": "Energy Conservation principles integrate directly with Defensive Concepts to inform decisions about when to invest significant energy in defensive efforts versus when to maintain technical positioning with minimal energy expenditure during sustained defensive sequences."
     },
     {
-      "principle_name": "Frame Management",
+      "principle_name": "Frames",
       "relationship_type": "Extension",
-      "description": "Frame Management represents the technical application of Defensive Concepts, translating philosophical defensive priorities into specific physical structures and movements that implement the conceptual defensive framework in practical situations."
+      "description": "Frames represents the technical application of Defensive Concepts, translating philosophical defensive priorities into specific physical structures and movements that implement the conceptual defensive framework in practical situations."
     },
     {
-      "principle_name": "Offensive vs Defensive Mindset",
+      "principle_name": "Competition Mindset",
       "relationship_type": "Complementary",
-      "description": "This concept explores the psychological and strategic balance between offensive and defensive thinking, providing the mental framework that allows practitioners to maintain offensive awareness even during defensive phases as recommended by sound Defensive Concepts."
+      "description": "Competition Mindset explores the psychological and strategic balance between offensive and defensive thinking, providing the mental framework that allows practitioners to maintain offensive awareness even during defensive phases as recommended by sound Defensive Concepts."
     },
     {
-      "principle_name": "Risk Assessment",
+      "principle_name": "Control Point Hierarchy",
       "relationship_type": "Prerequisite",
-      "description": "Risk Assessment ability is fundamental to applying Defensive Concepts, as practitioners must accurately evaluate the relative danger of various threats and positional situations to make appropriate defensive decisions about resource allocation and priority targeting."
+      "description": "Control Point Hierarchy is fundamental to applying Defensive Concepts, as practitioners must accurately evaluate the relative danger of various control configurations and positional situations to make appropriate defensive decisions about resource allocation and priority targeting."
     },
     {
-      "principle_name": "Defensive Strategy",
+      "principle_name": "Dealing with Pressure",
       "relationship_type": "Extension",
-      "description": "Defensive Strategy applies the broader Defensive Concepts framework to specific competitive scenarios and match situations, translating philosophical principles into tactical game plans."
+      "description": "Dealing with Pressure applies the broader Defensive Concepts framework to specific scenarios involving sustained opponent pressure, translating philosophical principles into tactical responses for managing and mitigating heavy top control."
     },
     {
-      "principle_name": "Guard Retention",
+      "principle_name": "Distance Control",
       "relationship_type": "Extension",
-      "description": "Guard Retention represents a specialized application of Defensive Concepts focused specifically on preventing guard passing, embodying preventive defensive positioning principles in the guard context."
+      "description": "Distance Control represents a specialized application of Defensive Concepts focused on generating the distance needed to prevent guard passing and recover guard position, embodying preventive defensive positioning principles across all guard contexts."
     },
     {
       "principle_name": "Submission Defense",
@@ -146,7 +146,7 @@
       "how_applied": "Defensive Concepts inform the decision to maintain defensive head positioning and arm protection while accepting the pin temporarily, recognizing that premature bridge attempts often worsen position and that methodical defensive progression is more effective than explosive desperation."
     },
     {
-      "context": "Triangle Escape Position",
+      "context": "Mounted Triangle",
       "how_applied": "Concepts guide the critical prioritization between posture recovery to prevent choke completion versus arm extraction, emphasizing that submission defense through posture must be achieved before attempting to remove trapped limbs from the triangle configuration."
     },
     {
@@ -162,7 +162,7 @@
       "how_applied": "Defensive Concepts prioritize immediate posture recovery and chin tucking to prevent choke completion before attempting arm extraction or positional escape, demonstrating submission-first defensive hierarchy."
     },
     {
-      "context": "Triangle Control",
+      "context": "Rear Triangle",
       "how_applied": "Application emphasizes maintaining posture and preventing angle completion as primary objectives, with staged progression through posture maintenance, leg positioning control, and eventual escape execution."
     },
     {
@@ -204,7 +204,7 @@
     {
       "step_number": 7,
       "decision_point": "Execute staged defensive progression",
-      "action": "Implement defensive technique in incremental stages (survive → frame → space → recover) rather than attempting complete escape; reassess after each stage and adjust approach based on opponent response and emerging opportunities"
+      "action": "Implement defensive technique in incremental stages (survive, frame, space, recover) rather than attempting complete escape; reassess after each stage and adjust approach based on opponent response and emerging opportunities"
     },
     {
       "step_number": 8,
@@ -325,22 +325,22 @@
   ],
   "related_content": [
     {
-      "name": "Escape Hierarchy",
+      "name": "Positional Hierarchy",
       "content_type": "Principle",
       "relationship": "Provides structured framework for prioritizing defensive objectives that implements the philosophical principles of Defensive Concepts in systematic hierarchy"
     },
     {
-      "name": "Defensive Strategy",
+      "name": "Dealing with Pressure",
       "content_type": "Principle",
-      "relationship": "Tactical application of Defensive Concepts to specific competitive scenarios, translating conceptual defensive philosophy into match-specific strategic planning"
+      "relationship": "Tactical application of Defensive Concepts to specific pressure scenarios, translating conceptual defensive philosophy into practical responses for managing sustained opponent control"
     },
     {
-      "name": "Frame Management",
+      "name": "Frames",
       "content_type": "Principle",
       "relationship": "Technical component of Defensive Concepts focusing specifically on physical frame construction and maintenance as primary defensive mechanism"
     },
     {
-      "name": "Creating Space",
+      "name": "Distance Control",
       "content_type": "Principle",
       "relationship": "Essential technical skill within Defensive Concepts framework, addressing how to generate distance necessary for guard recovery from compressed defensive positions"
     },
@@ -375,9 +375,9 @@
       "relationship": "Classic defensive escape demonstrating how Defensive Concepts principles apply to explosive defensive techniques when appropriate timing and opportunity exist"
     },
     {
-      "name": "Defense Technique",
+      "name": "Submission Defense",
       "content_type": "Principle",
-      "relationship": "Specialized defensive concept addressing highest-priority defensive objective, representing the most critical application of Defensive Concepts hierarchy"
+      "relationship": "Addresses the highest-priority defensive objective within the Defensive Concepts hierarchy, focusing specifically on surviving and escaping submission attempts"
     },
     {
       "name": "Escape Fundamentals",

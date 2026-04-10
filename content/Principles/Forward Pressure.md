@@ -178,7 +178,7 @@ Forward Pressure represents the strategic application of advancing force, moment
 <section id="prerequisites" class="content-section">
 
 ## Prerequisites
-**Weight Distribution Control**: The ability to strategically distribute body weight across multiple contact points to create maximum forward force while maintaining balance and mobility. This involves understanding how to shift weight dynamically between hands, hips, chest, and shoulders to overcome defensive structures without becoming off-balanced or vulnerable to sweeps.
+**Center of Gravity Control**: The ability to strategically distribute body weight across multiple contact points to create maximum forward force while maintaining balance and mobility. This involves understanding how to shift weight dynamically between hands, hips, chest, and shoulders to overcome defensive structures without becoming off-balanced or vulnerable to sweeps.
 
 **Connection Point Management**: The skill of establishing and maintaining optimal contact points that allow force transmission into opponent's defensive structure. This includes recognizing which body parts (crossface, underhook, knee pressure, chest contact) provide the most effective pressure pathways for specific positions and defensive configurations.
 
@@ -209,7 +209,7 @@ Forward Pressure represents the strategic application of advancing force, moment
 
 **Kesa Gatame**: Hip-driven forward pressure combined with arm control creates a crushing pin that prevents both bridging and hip escape attempts, with pressure maintained through proper weight distribution rather than pure muscular force.
 
-**Scarf Hold Position**: Forward pressure through the chest and arm control drives opponent's shoulder into the mat while preventing hip escape, with the pressure angle adjusted to maintain pinning control and create submission opportunities.
+**Modified Scarf Hold**: Forward pressure through the chest and arm control drives opponent's shoulder into the mat while preventing hip escape, with the pressure angle adjusted to maintain pinning control and create submission opportunities.
 
 **Combat Base**: Forward pressure in combat base drives the opponent's legs down and back while maintaining structural integrity, using advancing force to flatten the bottom player and create passing opportunities without sacrificing defensive stability.
 
@@ -341,30 +341,26 @@ Drilling where bottom player is instructed to perform specific defensive reactio
 ## Related
 
 ### Related Principles
-- **[[Pressure Application]]** (Prerequisite): Forward Pressure is a specific directional application of the broader Pressure Application concept, requiring fundamental understanding of how to generate and transmit force through body positioning before advancing directionally.
-- **[[Weight Distribution]]** (Complementary): Forward Pressure effectiveness depends directly on proper Weight Distribution principles, as advancing force must be balanced across multiple contact points to maintain control while creating forward momentum.
-- **[[Frame Management]]** (Alternative): While Forward Pressure focuses on offensive advancement, Frame Management represents the defensive counter-concept, making understanding both sides essential for recognizing when pressure will succeed versus when it will be neutralized by effective framing.
-- **[[Pressure Passing]]** (Extension): Pressure Passing serves as a specific systematic application of Forward Pressure principles within guard passing contexts, building comprehensive passing systems around forward force application.
+- **[[Pressure]]** (Prerequisite): Forward Pressure is a specific directional application of the broader Pressure concept, requiring fundamental understanding of how to generate and transmit force through body positioning before advancing directionally.
+- **[[Center of Gravity]]** (Complementary): Forward Pressure effectiveness depends directly on proper Center of Gravity principles, as advancing force must be balanced across multiple contact points to maintain control while creating forward momentum.
+- **[[Frames]]** (Alternative): While Forward Pressure focuses on offensive advancement, Frames represents the defensive counter-concept, making understanding both sides essential for recognizing when pressure will succeed versus when it will be neutralized by effective framing.
 - **[[Control Point Hierarchy]]** (Complementary): Forward Pressure must be coordinated with Control Point Hierarchy understanding to ensure pressure is applied through the most mechanically advantageous contact points for each positional context.
-- **[[Base Maintenance]]** (Prerequisite): Effective Forward Pressure requires strong Base Maintenance to prevent counter-sweeps and off-balancing, as advancing force without stable base creates vulnerability to defensive reversals.
-- **[[Pressure Passing Framework]]** (Extension): Pressure Passing Framework represents a comprehensive systematic application of Forward Pressure principles within guard passing contexts, building entire passing methodologies around forward force application.
+- **[[Base]]** (Prerequisite): Effective Forward Pressure requires strong Base to prevent counter-sweeps and off-balancing, as advancing force without stable base creates vulnerability to defensive reversals.
 - **[[Shoulder Pressure]]** (Complementary): Shoulder Pressure provides one of the primary mechanisms for Forward Pressure application, particularly in passing and top control situations where shoulder-driven force creates significant advancement opportunities.
 - **[[Hip Pressure]]** (Complementary): Hip Pressure works synergistically with upper body Forward Pressure to create multi-directional force application, with hip-driven pressure often serving as the lower body component of comprehensive pressure systems.
 - **[[Connection Principles]]** (Prerequisite): Understanding Connection Principles is essential for effective Forward Pressure, as pressure can only be transmitted through properly established and maintained connection points between practitioners.
 
 
 ### Related Content
-- [[Pressure Passing]] (Principle) - Direct application of Forward Pressure principles specifically within guard passing contexts
-- [[Pressure Application]] (Principle) - Broader conceptual framework that encompasses Forward Pressure as one directional application
-- [[Weight Distribution]] (Principle) - Fundamental skill that enables effective Forward Pressure through proper force distribution
-- [[Frame Management]] (Principle) - Defensive counter-concept that Forward Pressure must overcome to achieve advancement
+- [[Pressure]] (Principle) - Broader conceptual framework that encompasses Forward Pressure as one directional application
+- [[Center of Gravity]] (Principle) - Fundamental skill that enables effective Forward Pressure through proper force distribution
+- [[Frames]] (Principle) - Defensive counter-concept that Forward Pressure must overcome to achieve advancement
 - [[Knee Slice Pass]] (Transition) - Primary passing technique that relies heavily on Forward Pressure for execution success
 - [[Smash Pass]] (Transition) - Archetypal Forward Pressure passing technique where pressure creates the fundamental mechanism
 - [[Side Control]] (Position) - Control position where Forward Pressure prevents escapes and creates submission opportunities
 - [[Mount]] (Position) - Dominant position maintained and utilized through strategic Forward Pressure application
-- [[Pressure Passing Framework]] (Principle) - Comprehensive passing framework within which Forward Pressure serves as a foundational element
 - [[Control Point Hierarchy]] (Principle) - Conceptual framework determining which contact points provide optimal Forward Pressure application
-- [[Base Maintenance]] (Principle) - Prerequisite defensive skill necessary to apply Forward Pressure without creating counter vulnerabilities
+- [[Base]] (Principle) - Prerequisite defensive skill necessary to apply Forward Pressure without creating counter vulnerabilities
 - [[Shoulder Pressure]] (Principle) - Specific mechanism for Forward Pressure application through shoulder-driven force
 
 

@@ -38,7 +38,7 @@
       "description": "The coordinated raising of shoulders toward the ears while maintaining chin tuck, effectively reducing the available space on the lateral sides of the neck and creating additional defensive layers against collar grips and arm positioning."
     },
     {
-      "skill_name": "Defensive Head Pressure Application",
+      "skill_name": "Defensive Head Pressure",
       "description": "The skill of applying downward pressure through the head against opponent's attacking arm, using head weight and neck strength to prevent arm advancement while maintaining protective positioning throughout the defensive sequence."
     },
     {
@@ -64,19 +64,19 @@
   ],
   "principle_relationships": [
     {
-      "principle_name": "Hand Fighting from Back",
+      "principle_name": "Hand Fighting",
       "relationship_type": "Complementary",
       "description": "Chin protection provides the structural foundation that enables effective hand fighting by denying immediate submission access while hands work to clear attacking arms and create escape opportunities."
     },
     {
-      "principle_name": "Defensive Frame",
+      "principle_name": "Frames",
       "relationship_type": "Complementary",
       "description": "Chin protection represents specialized framing for neck defense, applying the same principles of creating structural barriers between opponent and vulnerable targets that define framing in other defensive contexts."
     },
     {
-      "principle_name": "RNC Defense",
-      "relationship_type": "Prerequisite",
-      "description": "Proper chin protection is the essential first step in defending the rear naked choke, preventing the choking arm from achieving the required depth under the chin that enables the submission to be completed."
+      "principle_name": "Dealing with Pressure",
+      "relationship_type": "Complementary",
+      "description": "Chin protection is essential when managing choking pressure, serving as the structural first response that prevents submission completion while other pressure management techniques work to improve overall positioning."
     },
     {
       "principle_name": "Escape Fundamentals",
@@ -89,19 +89,19 @@
       "description": "Chin protection is the specific application of general submission defense principles to choking attacks, demonstrating how defensive concepts are adapted to counter specific submission categories."
     },
     {
-      "principle_name": "Pressure Reduction",
+      "principle_name": "Distance Control",
       "relationship_type": "Complementary",
-      "description": "While chin protection creates structural barriers against submissions, pressure reduction techniques work to create the space and positioning needed to escape the controlling position entirely, with both concepts working together for complete defense."
+      "description": "While chin protection creates structural barriers against submissions, space creation techniques work to generate the distance and positioning needed to escape the controlling position entirely, with both concepts working together for complete defense."
     },
     {
-      "principle_name": "Defensive Posture",
+      "principle_name": "Defensive Concepts",
       "relationship_type": "Extension",
-      "description": "Chin protection exemplifies proper defensive posture specifically applied to neck defense, demonstrating the principle of maintaining protective body positioning under threat."
+      "description": "Chin protection exemplifies core defensive concepts specifically applied to neck defense, demonstrating the principle of maintaining protective body positioning under threat from choking attacks."
     },
     {
-      "principle_name": "Head Control",
+      "principle_name": "Head Position",
       "relationship_type": "Complementary",
-      "description": "Chin protection works in conjunction with head control principles, using proper head positioning to deny opponent control while maintaining defensive integrity."
+      "description": "Chin protection works in conjunction with head control principles, using proper head positioning to deny opponent control while maintaining defensive integrity against neck attacks."
     },
     {
       "principle_name": "Control Point Hierarchy",
@@ -109,19 +109,19 @@
       "description": "Understanding that the neck represents a critical control point in the hierarchy, chin protection focuses defensive resources on protecting this high-value target from opponent exploitation."
     },
     {
-      "principle_name": "Frame Management",
-      "relationship_type": "Extension",
-      "description": "Chin protection applies frame management principles to neck defense, using structural positioning to manage distance and deny opponent access to submission targets."
+      "principle_name": "Levers",
+      "relationship_type": "Complementary",
+      "description": "Chin protection applies leverage principles to neck defense, using skeletal alignment and head weight to create mechanical advantage against opponent's attempts to advance choking grips past the jaw."
     },
     {
-      "principle_name": "Defensive Strategy",
+      "principle_name": "Energy Conservation",
       "relationship_type": "Complementary",
-      "description": "Chin protection represents a key component of overall defensive strategy, providing reliable structural defense that enables other defensive techniques to function effectively."
+      "description": "Proper chin protection uses structural positioning rather than muscular effort to defend the neck, conserving energy for escape attempts and sustained defensive sequences in extended engagements."
     },
     {
-      "principle_name": "Guard Retention",
+      "principle_name": "Transition Management",
       "relationship_type": "Complementary",
-      "description": "When working guard retention from bottom positions, chin protection prevents opponent from capitalizing on transitional moments to secure choking submissions during position changes."
+      "description": "When working through positional transitions, chin protection prevents opponent from capitalizing on transitional moments to secure choking submissions during position changes and scrambles."
     }
   ],
   "application_contexts": [
@@ -138,8 +138,8 @@
       "how_applied": "Sustain protective head positioning despite the additional control and pressure from body triangle, keeping chin down and shoulders up even as opponent uses leg squeeze to compromise defensive structure."
     },
     {
-      "context": "Seat Belt Control Back",
-      "how_applied": "Defend against rear naked choke attempts from seatbelt control by maintaining chin protection while working to clear the choking arm and prevent opponent from locking in the submission grip."
+      "context": "Harness",
+      "how_applied": "Defend against rear naked choke attempts from seatbelt harness control by maintaining chin protection while working to clear the choking arm and prevent opponent from locking in the submission grip."
     },
     {
       "context": "Mount",
@@ -150,8 +150,8 @@
       "how_applied": "Defend against increased choking threats from high mount by keeping chin protected toward the side opposite opponent's weight, using shoulder elevation to minimize available space for collar grips and arm placement."
     },
     {
-      "context": "S Mount",
-      "how_applied": "Maintain defensive neck positioning against armbar and collar choke threats from S-mount, tucking chin toward the trapped arm side while working to prevent arm isolation and create escape opportunities."
+      "context": "3-4 Mount",
+      "how_applied": "Maintain defensive neck positioning against armbar and collar choke threats from 3-4 mount, tucking chin toward the trapped arm side while working to prevent arm isolation and create escape opportunities."
     },
     {
       "context": "Side Control",
@@ -207,7 +207,7 @@
     {
       "step_number": 2,
       "decision_point": "Assess opponent's current grip and arm positioning relative to neck access points",
-      "action": "Adjust chin protection direction based on attack angle—down and back against rear attacks, down and forward against front attacks, down and lateral against side attacks"
+      "action": "Adjust chin protection direction based on attack angle: down and back against rear attacks, down and forward against front attacks, down and lateral against side attacks"
     },
     {
       "step_number": 3,
@@ -353,17 +353,17 @@
   ],
   "related_content": [
     {
-      "name": "RNC Defense",
-      "content_type": "Principle",
-      "relationship": "Chin protection is the foundational first layer of rear naked choke defense that prevents the choking arm from achieving required depth"
+      "name": "Back Defense Protocol",
+      "content_type": "System",
+      "relationship": "Chin protection is the foundational structural layer within back defense protocol, preventing rear choke completion while other defensive techniques work to escape the position"
     },
     {
-      "name": "Hand Fighting from Back",
+      "name": "Hand Fighting",
       "content_type": "Principle",
       "relationship": "Works in conjunction with chin protection as the active defensive layer that clears attacking arms while structural positioning buys time"
     },
     {
-      "name": "Defensive Frame",
+      "name": "Frames",
       "content_type": "Principle",
       "relationship": "Applies general framing principles specifically to neck defense, creating structural barriers between opponent and submission targets"
     },
@@ -408,9 +408,9 @@
       "relationship": "Front headlock choke that chin protection helps defend against by preventing deep arm positioning around the neck"
     },
     {
-      "name": "Defensive Posture",
+      "name": "Defensive Concepts",
       "content_type": "Principle",
-      "relationship": "Chin protection exemplifies proper defensive posture specifically applied to neck defense contexts"
+      "relationship": "Chin protection exemplifies core defensive concepts specifically applied to neck defense contexts"
     }
   ]
 }

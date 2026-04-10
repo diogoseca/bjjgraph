@@ -224,7 +224,7 @@ Whizzer Control finds application across numerous positional contexts, from stan
 
 **Overhook Control**: Establish Whizzer as primary defensive tool when losing the underhook battle, converting opponent's offensive control into neutralized position with counter-attacking potential through sustained overhook pressure
 
-**Scramble Position**: Apply Whizzer during scrambles to control opponent's movement and prevent them from establishing dominant position while maintaining positional awareness
+**Standing Position**: Apply Whizzer during standing exchanges to control opponent's movement and prevent them from establishing dominant position while maintaining positional awareness
 
 **Back Control**: Use Whizzer defensively when opponent attempts to establish controlling underhook while attacking the back, preventing them from securing body triangle or improving control
 
@@ -349,31 +349,30 @@ Scenario-based training where partner employs common Whizzer counters while prac
 ## Related
 
 ### Related Principles
-- **[[Underhook Defense]]** (Complementary): Whizzer Control represents the primary counter-mechanism to opponent underhook establishment, functioning as the defensive response within the broader underhook battle framework
-- **[[Frame Creation]]** (Complementary): The Whizzer serves as a specialized framing structure that creates space and prevents opponent pressure advancement while maintaining connection for counter-offensive opportunities
+- **[[Defensive Concepts]]** (Complementary): Whizzer Control operates within the broader defensive concepts framework, representing the primary counter-mechanism to opponent underhook establishment and a key element of overall defensive strategy
+- **[[Frames]]** (Complementary): The Whizzer serves as a specialized framing structure that creates space and prevents opponent pressure advancement while maintaining connection for counter-offensive opportunities
 - **[[Control Maintenance]]** (Extension): Whizzer Control exemplifies control maintenance principles through its ability to neutralize opponent offensive control while establishing defensive dominance in asymmetric control situations
-- **[[Leverage Principles]]** (Prerequisite): Understanding fundamental leverage mechanics proves essential for effective Whizzer application, as the control's effectiveness depends on mechanical advantage rather than strength
-- **[[Off-Balancing]]** (Extension): Proper Whizzer application creates off-balancing opportunities by disrupting opponent posture and base through strategic pressure application and angle manipulation
+- **[[Levers]]** (Prerequisite): Understanding fundamental leverage mechanics proves essential for effective Whizzer application, as the control's effectiveness depends on mechanical advantage rather than strength
+- **[[Posture]]** (Extension): Proper Whizzer application creates posture-breaking opportunities by disrupting opponent alignment and base through strategic downward pressure application and angle manipulation
 - **[[Action and Reaction]]** (Complementary): The Whizzer demonstrates action-reaction principles by using opponent underhook pressure against them, converting their offensive action into defensive opportunity
-- **[[Base Maintenance]]** (Complementary): Effective Whizzer control requires simultaneous base maintenance to create comprehensive defensive structure that prevents opponent advancement
+- **[[Base]]** (Complementary): Effective Whizzer control requires simultaneous base maintenance to create comprehensive defensive structure that prevents opponent advancement
 - **[[Forward Pressure]]** (Alternative): The Whizzer counters opponent forward pressure by redirecting and neutralizing their driving force through superior leverage positioning
-- **[[Weight Distribution]]** (Complementary): Proper weight distribution amplifies Whizzer effectiveness by ensuring pressure application remains sustainable and mechanically efficient
-- **[[Defensive Posture]]** (Extension): Whizzer Control exemplifies defensive posture principles by maintaining structural integrity while neutralizing opponent offensive attempts
-- **[[Creating Reactions]]** (Extension): The Whizzer creates predictable opponent reactions that can be exploited for counter-offensive sequences including sweeps and reversals
-- **[[Biomechanical Principles]]** (Prerequisite): Understanding biomechanical principles of leverage, pressure vectors, and joint mechanics underlies effective Whizzer application and adjustment
+- **[[Center of Gravity]]** (Complementary): Proper weight distribution amplifies Whizzer effectiveness by ensuring pressure application remains sustainable and mechanically efficient
+- **[[Fork Attacks]]** (Extension): The Whizzer creates predictable opponent reactions that can be exploited through dilemma-based sequences, forcing choices between defending the overhook pressure or conceding sweeps and reversals
+- **[[Maximum Efficiency Principle]]** (Prerequisite): Understanding maximum efficiency principles of leverage, pressure vectors, and joint mechanics underlies effective Whizzer application and sustainable control without excessive muscular effort
 
 
 ### Related Content
-- [[Underhook Defense]] (Principle) - Parent concept - Whizzer Control serves as primary mechanism within broader underhook defense framework
+- [[Defensive Concepts]] (Principle) - Parent concept - Whizzer Control serves as primary counter-mechanism within broader defensive strategy framework
 - [[Half Guard]] (Position) - Primary application context where Whizzer control proves tactically essential for defensive integrity
-- [[Frame Creation]] (Principle) - Complementary defensive concept - Whizzer represents specialized framing application for underhook scenarios
+- [[Frames]] (Principle) - Complementary defensive concept - Whizzer represents specialized framing application for underhook scenarios
 - [[Underhook Sweep from Half]] (Transition) - Counter-offensive technique commonly executed from established Whizzer control position
 - [[Turtle]] (Position) - Critical application context where Whizzer prevents back exposure and maintains defensive soundness
 - [[Control Maintenance]] (Principle) - Broader principle category within which Whizzer Control operates as specialized application
-- [[Leverage Principles]] (Principle) - Foundational concept underlying effective Whizzer mechanics and pressure application
+- [[Levers]] (Principle) - Foundational concept underlying effective Whizzer mechanics and pressure application
 - [[Deep Half Guard]] (Position) - Position where Whizzer control prevents opponent from establishing dominant underhook and advancing position
 - [[Dogfight Position]] (Position) - Transitional position where Whizzer control determines success in achieving dominant angle
-- [[Off-Balancing]] (Principle) - Tactical outcome achieved through proper Whizzer pressure application and angle manipulation
+- [[Posture]] (Principle) - Tactical outcome achieved through proper Whizzer pressure application and angle manipulation to disrupt opponent alignment
 - [[Front Headlock]] (Position) - Scramble position where Whizzer control prevents opponent underhook dominance
 - [[Whizzer]] (Transition) - Technical execution of the Whizzer control concept in transitional contexts
 

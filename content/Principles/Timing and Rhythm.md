@@ -228,7 +228,7 @@ Mastery of timing and rhythm fundamentally transforms technical execution from m
 
 **Standing Position**: Timing takedown attempts to coincide with opponent weight shifts, grip adjustments, or forward momentum, dramatically increasing success rates while reducing injury risk
 
-**Scramble Position**: Recognizing and exploiting micro-windows during chaotic transitions where opponent temporarily loses positional awareness or base control
+**Standing Position**: Recognizing and exploiting micro-windows during chaotic transitions where opponent temporarily loses positional awareness or base control
 
 **Headquarters Position**: Timing guard passing progression based on opponent retention reactions, advancing position during defensive adjustments rather than attempting to force through established frames
 
@@ -357,29 +357,29 @@ Review video footage of high-level matches specifically analyzing timing element
 
 ### Related Principles
 - **[[Action and Reaction]]** (Prerequisite): Understanding action-reaction dynamics provides the conceptual foundation for timing, as optimal execution windows arise directly from opponent reactions to initial stimuli
-- **[[Creating Reactions]]** (Complementary): Deliberately generating opponent responses creates predictable timing windows, making these principles mutually reinforcing in practical application
-- **[[Sweep Mechanics]]** (Extension): Sweep timing represents a specific application domain where timing principles manifest through off-balancing during transitional moments
-- **[[Off-Balancing]]** (Complementary): Off-balancing techniques require precise timing to exploit moments of reduced base stability, making temporal awareness essential for execution
+- **[[Fork Attacks]]** (Complementary): Deliberately generating forced-choice scenarios creates predictable timing windows based on which option opponents select, making dilemma creation and timing mutually reinforcing in practical application
+- **[[Kuzushi]]** (Extension): Sweep timing represents a specific application domain where timing principles manifest through off-balancing during transitional moments
+- **[[Base]]** (Complementary): Understanding base stability principles reveals exactly when and how opponents become vulnerable to timed attacks, as disruptions to base create the windows that timing exploits
 - **[[Guard Passing]]** (Extension): Passing timing involves recognizing when guard retention mechanisms are temporarily compromised, allowing advancement with minimal resistance
-- **[[Guard Retention]]** (Extension): Defensive timing in guard retention requires immediate recognition of passing attempts and coordinated counter-movements within narrow temporal windows
+- **[[Defensive Concepts]]** (Extension): Defensive timing requires immediate recognition of passing and submission attempts and coordinated counter-movements within narrow temporal windows to prevent positional deterioration
 - **[[Transition Management]]** (Complementary): Smooth transitions depend on timing the initiation of position changes to coincide with optimal windows created by opponent movement or stabilization attempts
-- **[[Energy Management System]]** (Complementary): Proper timing dramatically reduces energy expenditure by aligning technical execution with existing momentum, making these principles synergistic
-- **[[Offensive Combinations]]** (Extension): Combination timing involves chaining attacks within the temporal window created by opponent defensive reactions to initial threats
+- **[[Energy Conservation]]** (Complementary): Proper timing dramatically reduces energy expenditure by aligning technical execution with existing momentum, making these principles synergistic for sustainable high-level performance
+- **[[Position Chains]]** (Extension): Chaining positional advances requires precise timing between each transition, exploiting the temporal windows created by opponent defensive reactions to maintain continuous offensive pressure
 - **[[Submission Chains]]** (Extension): Submission timing requires recognizing moments when defensive options are limited and finishing mechanics can be applied before opponent recovery
-- **[[Posture Breaking]]** (Complementary): Breaking posture effectively requires timing attacks to coincide with moments of reduced base or distraction from grip-fighting exchanges
-- **[[Connection Breaking]]** (Complementary): Timing separation attempts to coincide with opponent weight shifts or grip adjustments maximizes success probability while conserving energy
+- **[[Posture]]** (Complementary): Breaking posture effectively requires timing attacks to coincide with moments of reduced base or distraction from grip-fighting exchanges
+- **[[Connection Principles]]** (Complementary): Timing connection establishment and separation attempts to coincide with opponent weight shifts or grip adjustments maximizes success probability while conserving energy
 
 
 ### Related Content
 - [[Action and Reaction]] (Principle) - Foundational principle explaining why timing windows exist through opponent reactions to stimuli
-- [[Sweep Mechanics]] (Principle) - Primary application domain where timing principles directly determine sweep success probability
-- [[Off-Balancing]] (Principle) - Technical implementation requiring precise timing to exploit moments of reduced base stability
+- [[Kuzushi]] (Principle) - Primary application domain where timing principles directly determine sweep success probability
+- [[Base]] (Principle) - Understanding base stability reveals when opponents are vulnerable to timed attacks that exploit balance disruption
 - [[Guard Passing]] (Principle) - Strategic framework where timing determines when to advance position versus consolidate control
 - [[Transition Management]] (Principle) - Operational principle for coordinating position changes with optimal temporal windows
-- [[Energy Management System]] (Principle) - Efficiency framework that timing directly enhances by reducing effort requirements
-- [[Offensive Combinations]] (Principle) - Attack strategy built on timing multiple techniques within reaction windows
+- [[Energy Conservation]] (Principle) - Efficiency framework that timing directly enhances by reducing effort requirements through momentum alignment
+- [[Fork Attacks]] (Principle) - Attack strategy built on forcing opponent choices that create predictable timing windows for follow-up techniques
 - [[Hip Bump Sweep]] (Transition) - Classic timing-dependent technique requiring coordination with opponent posture and weight distribution
-- [[Butterfly Sweep]] (Transition) - Elevation sweep heavily dependent on timing execution with opponent forward pressure or base narrowing
+- [[Basic Butterfly Sweep]] (Transition) - Elevation sweep heavily dependent on timing execution with opponent forward pressure or base narrowing
 - [[Pendulum Sweep]] (Transition) - Momentum-based technique exemplifying timing principles through use of existing directional forces
 
 

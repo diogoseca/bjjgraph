@@ -73,14 +73,14 @@
       "description": "Timing principles directly inform when to initiate transitions, while transition management provides the strategic framework for deciding which movements to execute during recognized timing windows."
     },
     {
-      "principle_name": "Energy Management System",
+      "principle_name": "Energy Conservation",
       "relationship_type": "Complementary",
       "description": "Energy conservation principles influence transition frequency and commitment levels, as transition management must account for energy expenditure in deciding when aggressive position changes are justified versus when consolidation is preferable."
     },
     {
-      "principle_name": "Risk Assessment",
+      "principle_name": "Defensive Concepts",
       "relationship_type": "Prerequisite",
-      "description": "The ability to evaluate risk-reward ratios is fundamental to transition management, providing the analytical foundation for deciding whether to attempt position changes or maintain current positions."
+      "description": "Defensive awareness is fundamental to transition management, providing the analytical foundation for evaluating vulnerability during position changes and deciding whether to attempt transitions or maintain current positions to avoid exposure."
     },
     {
       "principle_name": "Position Chains",
@@ -93,34 +93,34 @@
       "description": "Control principles govern how to maintain dominance during transitions, ensuring that positional changes don't sacrifice established controls or create exploitable gaps in connection management."
     },
     {
-      "principle_name": "Creating Reactions",
+      "principle_name": "Action and Reaction",
       "relationship_type": "Extension",
-      "description": "Advanced transition management involves deliberately manipulating opponent's reactions to create timing windows, rather than passively waiting for naturally occurring opportunities."
+      "description": "Advanced transition management involves deliberately provoking predictable opponent reactions to create timing windows for position changes, rather than passively waiting for naturally occurring opportunities."
     },
     {
-      "principle_name": "Base Maintenance",
+      "principle_name": "Base",
       "relationship_type": "Complementary",
       "description": "Maintaining stable base throughout transitions prevents overcommitment and preserves recovery options if transitional attempts are countered or fail."
     },
     {
-      "principle_name": "Frame Management",
+      "principle_name": "Frames",
       "relationship_type": "Complementary",
-      "description": "Proper frame maintenance during transitions prevents opponent from capitalizing on temporary vulnerabilities created during position changes."
+      "description": "Establishing and maintaining frames during transitions prevents opponent from capitalizing on temporary vulnerabilities created during position changes, providing structural protection throughout dynamic movements."
     },
     {
-      "principle_name": "Transition Sequences",
+      "principle_name": "Fork Attacks",
       "relationship_type": "Extension",
-      "description": "Transition sequences represent the structured chaining of multiple position changes into coherent progressions, while transition management provides the strategic decision-making framework governing when and how to execute those linked movements."
+      "description": "Dilemma creation represents the advanced integration of transition management with forced-choice attack sequences, where linked transitions present opponents with lose-lose scenarios that guarantee positional advancement regardless of defensive response."
     },
     {
-      "principle_name": "Guard Retention",
+      "principle_name": "Distance Control",
       "relationship_type": "Complementary",
-      "description": "Guard retention principles inform defensive transition management, determining when to change guard variations versus when to maintain current structure."
+      "description": "Space creation principles inform defensive transition management from inferior positions, determining when to create distance for guard recovery versus when to close space for sweeps or submissions."
     },
     {
-      "principle_name": "Escape Hierarchy",
+      "principle_name": "Escape Fundamentals",
       "relationship_type": "Complementary",
-      "description": "Escape hierarchy provides the prioritization framework for transition management from inferior positions, determining which position changes represent meaningful improvement."
+      "description": "Escape fundamentals provide the prioritization framework for transition management from inferior positions, determining which defensive position changes represent meaningful improvement and how to sequence escape attempts effectively."
     }
   ],
   "application_contexts": [
@@ -337,9 +337,9 @@
   ],
   "related_content": [
     {
-      "name": "Transition Sequences",
+      "name": "Submission Chains",
       "content_type": "Principle",
-      "relationship": "Focuses on the structured chaining of multiple position changes into coherent linked progressions"
+      "relationship": "Focuses on the structured chaining of multiple attack attempts into coherent linked progressions that complement positional transition management"
     },
     {
       "name": "Positional Hierarchy",
@@ -352,14 +352,14 @@
       "relationship": "Governs when to initiate transitions based on opponent's defensive state and movement patterns"
     },
     {
-      "name": "Energy Management System",
+      "name": "Energy Conservation",
       "content_type": "Principle",
       "relationship": "Influences transition frequency and commitment levels based on energy conservation principles"
     },
     {
-      "name": "Risk Assessment",
+      "name": "Defensive Concepts",
       "content_type": "Principle",
-      "relationship": "Provides analytical framework for evaluating transition risk-reward ratios"
+      "relationship": "Provides the defensive awareness framework essential for evaluating transition risk-reward ratios and vulnerability during position changes"
     },
     {
       "name": "Position Chains",
@@ -372,9 +372,9 @@
       "relationship": "Governs preservation of dominance and connection during transitional movements"
     },
     {
-      "name": "Creating Reactions",
+      "name": "Action and Reaction",
       "content_type": "Principle",
-      "relationship": "Provides methods for deliberately creating transition windows through opponent manipulation"
+      "relationship": "Provides methods for deliberately creating transition windows by provoking predictable opponent reactions"
     },
     {
       "name": "Pass to Side Control",

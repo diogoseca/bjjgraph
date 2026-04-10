@@ -342,30 +342,30 @@ Regular practice against larger or stronger opponents requiring technical effici
 ### Related Principles
 - **[[Maximum Efficiency Principle]]** (Complementary): Energy conservation implements maximum efficiency through strategic resource allocation and movement economy
 - **[[Position-Over-Submission Approach]]** (Complementary): Positional control requires less energy than constant submission attempts, supporting conservative energy expenditure
-- **[[Defensive Strategy]]** (Complementary): Defensive frameworks often emphasize energy conservation through efficient escapes and selective resistance patterns
-- **[[Base Maintenance]]** (Prerequisite): Stable base using skeletal structure conserves energy compared to muscular defensive efforts
-- **[[Pressure Application]]** (Alternative): Constant pressure represents an opposite strategic approach focused on opponent energy depletion
-- **[[Guard Retention]]** (Extension): Efficient guard retention exemplifies energy conservation principles in defensive contexts
+- **[[Defensive Concepts]]** (Complementary): Defensive concepts emphasize energy conservation through efficient escapes and selective resistance patterns
+- **[[Base]]** (Prerequisite): Stable base using skeletal structure conserves energy compared to muscular defensive efforts
+- **[[Pressure]]** (Alternative): Constant pressure represents an opposite strategic approach focused on opponent energy depletion
+- **[[Distance Control]]** (Extension): Efficient space creation conserves energy by using frames and hip movement rather than strength-based guard retention or escapes
 - **[[Timing and Rhythm]]** (Complementary): Proper timing allows explosive efforts at optimal moments, conserving energy between opportunities
-- **[[Pacing]]** (Extension): Match pacing directly implements energy conservation strategy through tempo control
-- **[[Frame Management]]** (Prerequisite): Structural frames conserve energy by using skeletal leverage rather than muscular resistance
-- **[[Energy Management System]]** (Extension): Comprehensive system that implements energy conservation principles across all positions and contexts
-- **[[Escape Hierarchy]]** (Complementary): Prioritizing escape opportunities based on energy cost supports strategic resource allocation
-- **[[Risk Assessment]]** (Complementary): Evaluating positional risks informs decisions about energy allocation for defensive efforts
+- **[[Flow Rolling]]** (Extension): Flow rolling practice directly develops energy conservation awareness through controlled tempo and movement efficiency
+- **[[Frames]]** (Prerequisite): Structural frames conserve energy by using skeletal leverage rather than muscular resistance
+- **[[Center of Gravity]]** (Complementary): Strategic weight distribution conserves energy by using gravity and skeletal alignment rather than muscular effort
+- **[[Escape Fundamentals]]** (Complementary): Prioritizing escape opportunities based on energy cost supports strategic resource allocation
+- **[[Competition Mindset]]** (Complementary): Competitive risk assessment informs decisions about energy allocation for offensive and defensive efforts
 
 
 ### Related Content
 - [[Maximum Efficiency Principle]] (Principle) - Complementary principle focusing on technical efficiency supporting energy conservation
-- [[Pacing]] (Principle) - Direct extension implementing energy conservation through tempo control
-- [[Base Maintenance]] (Principle) - Prerequisite skill enabling energy-efficient defensive positioning
-- [[Frame Management]] (Principle) - Prerequisite skill providing energy-efficient defensive structures
+- [[Timing and Rhythm]] (Principle) - Direct implementation of energy conservation through strategic tempo and timing control
+- [[Base]] (Principle) - Prerequisite skill enabling energy-efficient defensive positioning
+- [[Frames]] (Principle) - Prerequisite skill providing energy-efficient defensive structures
 - [[Closed Guard]] (Position) - Recovery position allowing energy conservation while maintaining control
 - [[Turtle]] (Position) - Highly efficient defensive position requiring minimal energy to maintain
-- [[Guard Retention]] (Principle) - Application context where energy conservation principles are critical
+- [[Escape Fundamentals]] (Principle) - Application context where energy conservation principles are critical for efficient escapes
 - [[Position-Over-Submission Approach]] (Principle) - Strategic framework supporting energy conservation through positional focus
-- [[Defensive Strategy]] (Principle) - Complementary framework emphasizing efficient defense and selective resistance
+- [[Defensive Concepts]] (Principle) - Complementary framework emphasizing efficient defense and selective resistance
 - [[Guard Pull]] (Transition) - Tactical tool for avoiding high-energy standup exchanges
-- [[Energy Management System]] (System) - Systematic implementation of energy conservation principles across all contexts
+- [[Defensive Prioritization Framework]] (System) - Systematic implementation of energy conservation principles through defensive priority assessment
 - [[Deep Half Guard]] (Position) - Defensive recovery position exemplifying energy conservation under pressure
 
 

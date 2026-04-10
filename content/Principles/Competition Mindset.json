@@ -63,17 +63,17 @@
   ],
   "principle_relationships": [
     {
-      "principle_name": "Game Planning",
+      "principle_name": "Transition Management",
       "relationship_type": "Prerequisite",
-      "description": "Effective game planning creates the tactical foundation that competition mindset implements during matches. The psychological confidence derived from thorough game planning reduces anxiety and provides clear decision-making frameworks that prevent mental paralysis under pressure."
+      "description": "Effective transition management creates the tactical foundation that competition mindset implements during matches. The psychological confidence derived from thorough positional planning reduces anxiety and provides clear decision-making frameworks that prevent mental paralysis under pressure."
     },
     {
-      "principle_name": "Energy Management System",
+      "principle_name": "Maximum Efficiency Principle",
       "relationship_type": "Complementary",
-      "description": "Competition mindset influences energy management through psychological regulation of intensity levels and pacing decisions, while effective energy management supports sustained mental performance by preventing physical fatigue that degrades cognitive function and emotional control during matches."
+      "description": "Competition mindset influences energy efficiency through psychological regulation of intensity levels and pacing decisions, while maximum efficiency supports sustained mental performance by preventing wasteful physical expenditure that degrades cognitive function and emotional control during matches."
     },
     {
-      "principle_name": "Grip Fighting",
+      "principle_name": "Grips",
       "relationship_type": "Complementary",
       "description": "Competition mindset provides the psychological foundation necessary to execute match strategy effectively under pressure, and grip fighting represents the first tactical battleground where mental composure directly determines early match momentum and confidence."
     },
@@ -83,12 +83,12 @@
       "description": "Psychological arousal regulation directly influences pacing decisions and energy expenditure patterns, while effective energy conservation strategies prevent physical exhaustion that degrades mental performance and decision-making quality during extended matches."
     },
     {
-      "principle_name": "Defensive Strategy",
+      "principle_name": "Defensive Concepts",
       "relationship_type": "Extension",
       "description": "Competition mindset prevents psychological collapse during sustained offensive pressure from opponents, enabling persistent defensive execution across multiple cycles without cumulative psychological fatigue degrading technical performance."
     },
     {
-      "principle_name": "Creating Reactions",
+      "principle_name": "Action and Reaction",
       "relationship_type": "Complementary",
       "description": "Competition mindset determines whether competitive pressure triggers offensive initiative or defensive reactions, with psychological preparation enabling maintenance of aggressive tactical approach despite stress that might otherwise create defensive passivity."
     },
@@ -98,24 +98,24 @@
       "description": "Strong competition mindset prevents psychological submission before physical submission, maintaining problem-solving mentality and escape execution despite dangerous positions rather than mental resignation that precedes the tap."
     },
     {
-      "principle_name": "Competition Training",
+      "principle_name": "Positional Sparring",
       "relationship_type": "Prerequisite",
-      "description": "Systematic competition-focused training provides the pressure exposure and adversity experience necessary to develop competition mindset, creating training contexts that approximate competitive psychological demands before actual competition."
+      "description": "Systematic positional sparring provides the pressure exposure and adversity experience necessary to develop competition mindset, creating training contexts that approximate competitive psychological demands before actual competition."
     },
     {
-      "principle_name": "Drilling Methodology",
+      "principle_name": "Flow Rolling",
       "relationship_type": "Prerequisite",
-      "description": "Progressive exposure to increasing training intensity through structured drilling develops psychological resilience systematically, building competition mindset through controlled stress exposure that allows adaptation without overwhelming anxiety."
+      "description": "Progressive exposure to increasing training intensity through structured rolling develops psychological resilience systematically, building competition mindset through controlled stress exposure that allows adaptation without overwhelming anxiety."
     },
     {
-      "principle_name": "Dilemma Creation",
+      "principle_name": "Fork Attacks",
       "relationship_type": "Complementary",
       "description": "Competition mindset enables rapid tactical decision-making during position transitions when multiple options exist and timing windows are narrow, while systematic dilemma creation frameworks reduce cognitive load allowing mental resources for psychological regulation."
     },
     {
-      "principle_name": "Defensive Framing",
+      "principle_name": "Frames",
       "relationship_type": "Extension",
-      "description": "Competition mindset prevents panic when caught in inferior positions, enabling calm defensive framing and systematic escape execution rather than explosive reactions driven by anxiety that often worsen position or create submission opportunities for the opponent."
+      "description": "Competition mindset prevents panic when caught in inferior positions, enabling calm frame creation and systematic escape execution rather than explosive reactions driven by anxiety that often worsen position or create submission opportunities for the opponent."
     }
   ],
   "application_contexts": [
@@ -184,8 +184,8 @@
       "how_applied": "Strong mental state from headquarters prevents frustration with opponent's defensive posture, supporting patient passing approaches and grip fighting rather than forcing low-percentage passes driven by psychological impatience with tactical stalemate."
     },
     {
-      "context": "Scramble Position",
-      "how_applied": "Competition mindset during scrambles enables rapid tactical assessment and decision-making in chaotic exchanges, maintaining composure and opportunistic awareness rather than panic-driven reactions that miss advantageous position opportunities."
+      "context": "Standing Position",
+      "how_applied": "Competition mindset during standing exchanges enables rapid tactical assessment and decision-making in chaotic transitions, maintaining composure and opportunistic awareness rather than panic-driven reactions that miss advantageous position opportunities."
     }
   ],
   "decision_framework": [
@@ -338,17 +338,17 @@
   ],
   "related_content": [
     {
-      "name": "Game Planning",
+      "name": "Transition Management",
       "content_type": "Principle",
-      "relationship": "Thorough game planning reduces competition anxiety by providing clear tactical frameworks and decision-making structures"
+      "relationship": "Thorough transition planning reduces competition anxiety by providing clear tactical frameworks and decision-making structures"
     },
     {
-      "name": "Energy Management System",
+      "name": "Energy Conservation",
       "content_type": "Principle",
       "relationship": "Psychological arousal regulation directly influences energy expenditure patterns and pacing decisions during matches"
     },
     {
-      "name": "Grip Fighting",
+      "name": "Grips",
       "content_type": "Principle",
       "relationship": "Grip fighting is the first tactical battleground where competition mindset and composure directly determine early match momentum"
     },
@@ -363,12 +363,12 @@
       "relationship": "Systematic framework for developing the physical, technical, and psychological readiness required for competition"
     },
     {
-      "name": "Competition Training",
+      "name": "Positional Sparring",
       "content_type": "Principle",
-      "relationship": "Systematic competition-focused training provides the pressure exposure necessary to develop competition mindset"
+      "relationship": "Systematic positional sparring provides the pressure exposure necessary to develop competition mindset"
     },
     {
-      "name": "Defensive Strategy",
+      "name": "Defensive Concepts",
       "content_type": "Principle",
       "relationship": "Competition mindset determines whether pressure situations trigger offensive initiative or defensive reactions"
     },
@@ -378,7 +378,7 @@
       "relationship": "Strong mental state prevents rushed finishing attempts from back control driven by anxiety about time expiration"
     },
     {
-      "name": "Dilemma Creation",
+      "name": "Fork Attacks",
       "content_type": "Principle",
       "relationship": "Competition mindset enables execution of dilemma-based attack sequences that require composed tactical sequencing under pressure"
     },
@@ -388,9 +388,9 @@
       "relationship": "Comprehensive preparation system that integrates physical, technical, and psychological readiness for competitive events"
     },
     {
-      "name": "Drilling Methodology",
+      "name": "Flow Rolling",
       "content_type": "Principle",
-      "relationship": "Structured drilling builds the technical automaticity that frees cognitive resources for psychological regulation during competition"
+      "relationship": "Structured rolling builds the technical automaticity that frees cognitive resources for psychological regulation during competition"
     },
     {
       "name": "Control Maintenance",

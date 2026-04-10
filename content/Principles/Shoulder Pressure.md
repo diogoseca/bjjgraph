@@ -182,7 +182,7 @@ Mastery of shoulder pressure fundamentally changes a practitioner's top game, tr
 <section id="prerequisites" class="content-section">
 
 ## Prerequisites
-**Weight Distribution**: The ability to transfer body weight efficiently through the shoulder into the opponent while maintaining balance and preventing the opponent from creating frames or space. This involves understanding how to position the hips and core to maximize downward force while remaining mobile enough to adjust to defensive movements.
+**Center of Gravity**: The ability to transfer body weight efficiently through the shoulder into the opponent while maintaining balance and preventing the opponent from creating frames or space. This involves understanding how to position the hips and core to maximize downward force while remaining mobile enough to adjust to defensive movements.
 
 **Skeletal Alignment**: Positioning the shoulder, spine, and hips in proper alignment so that pressure is transmitted through bone structure rather than requiring muscular effort. This creates sustainable pressure that can be maintained indefinitely without fatigue while keeping hands free for grips and control.
 
@@ -229,7 +229,7 @@ Mastery of shoulder pressure fundamentally changes a practitioner's top game, tr
 
 **High Mount**: Press shoulder into opponent's face to set up armbar or collar choke, using pressure to force defensive arm positioning that opens submission opportunities
 
-**Side Control Consolidation**: Establish shoulder pressure immediately after passing to prevent immediate re-guard attempts, using the shoulder to anchor the position while securing additional control points
+**Side Control**: Establish shoulder pressure immediately after passing to prevent immediate re-guard attempts, using the shoulder to anchor the position while securing additional control points
 
 **Technical Mount**: Apply shoulder pressure to opponent's jaw or neck area while establishing high mount position, using pressure to limit their ability to turn into turtle
 
@@ -358,30 +358,30 @@ Combine shoulder pressure with other control mechanisms (crossface, hip pressure
 ## Related
 
 ### Related Principles
-- **[[Pressure Application]]** (Prerequisite): Shoulder pressure is a specific application of the broader pressure application concept, requiring understanding of general pressure principles before mastering shoulder-specific techniques
+- **[[Pressure]]** (Prerequisite): Shoulder pressure is a specific application of the broader pressure application concept, requiring understanding of general pressure principles before mastering shoulder-specific techniques
 - **[[Cross Face Control]]** (Complementary): Shoulder pressure works synergistically with crossface control, often using the same shoulder to apply both forces simultaneously for enhanced head and body control
-- **[[Weight Distribution]]** (Prerequisite): Effective shoulder pressure requires mastery of weight distribution principles to transfer force efficiently through the shoulder without compromising balance or mobility
+- **[[Center of Gravity]]** (Prerequisite): Effective shoulder pressure requires mastery of weight distribution principles to transfer force efficiently through the shoulder without compromising balance or mobility
 - **[[Hip Pressure]]** (Complementary): Shoulder and hip pressure create a two-point control system that prevents shrimping escapes by controlling both upper and lower body simultaneously
-- **[[Frame Creation]]** (Alternative): From the bottom position, frame creation is the primary counter to shoulder pressure, making understanding of framing essential for both applying and defending shoulder pressure
-- **[[Base Maintenance]]** (Complementary): Maintaining stable base while applying shoulder pressure prevents counters and allows sustained control without vulnerability to sweeps or reversals
+- **[[Frames]]** (Alternative): From the bottom position, frame creation is the primary counter to shoulder pressure, making understanding of framing essential for both applying and defending shoulder pressure
+- **[[Base]]** (Complementary): Maintaining stable base while applying shoulder pressure prevents counters and allows sustained control without vulnerability to sweeps or reversals
 - **[[Forward Pressure]]** (Extension): Shoulder pressure represents a specific application of forward pressure principles, focusing force through a single point for concentrated control
 - **[[Control Point Hierarchy]]** (Extension): Shoulder pressure occupies a high position in the control point hierarchy as it simultaneously controls head movement and chest expansion
-- **[[Leverage Principles]]** (Prerequisite): Understanding leverage allows practitioners to maximize shoulder pressure efficiency by optimizing body positioning and mechanical advantage
+- **[[Levers]]** (Prerequisite): Understanding leverage allows practitioners to maximize shoulder pressure efficiency by optimizing body positioning and mechanical advantage
 
 
 ### Related Content
-- [[Pressure Application]] (Principle) - Parent concept providing theoretical foundation for shoulder pressure applications
+- [[Pressure]] (Principle) - Parent concept providing theoretical foundation for shoulder pressure applications
 - [[Cross Face Control]] (Principle) - Complementary control mechanism often applied through same shoulder as pressure
 - [[Side Control]] (Position) - Primary position for developing and applying shoulder pressure fundamentals
-- [[Weight Distribution]] (Principle) - Foundational principle determining effectiveness of shoulder pressure application
+- [[Center of Gravity]] (Principle) - Foundational principle determining effectiveness of shoulder pressure application
 - [[Knee on Belly]] (Position) - Position demonstrating integration of shoulder pressure with other control mechanisms
 - [[Hip Pressure]] (Principle) - Complementary pressure concept creating two-point control system with shoulder pressure
-- [[Frame Creation]] (Principle) - Primary defensive counter to shoulder pressure from bottom position
+- [[Frames]] (Principle) - Primary defensive counter to shoulder pressure from bottom position
 - [[Pressure Pass]] (Transition) - Passing methodology utilizing shoulder pressure as primary control mechanism
 - [[Kesa Gatame]] (Position) - Position exemplifying shoulder-based control as primary pinning mechanism
 - [[Mount]] (Position) - Superior position where shoulder pressure supplements positional control
 - [[Control Point Hierarchy]] (Principle) - Framework placing shoulder pressure within hierarchy of control mechanisms
-- [[Base Maintenance]] (Principle) - Essential principle for maintaining stability while applying shoulder pressure
+- [[Base]] (Principle) - Essential principle for maintaining stability while applying shoulder pressure
 
 
 </section>

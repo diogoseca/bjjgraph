@@ -185,11 +185,11 @@ Sleeve control integrates with other fundamental concepts including grip strateg
 
 **Grip Maintenance Under Pressure**: Maintaining sleeve control despite opponent's active grip breaking attempts through proper thumb position, four-finger pressure distribution, elbow structure, and constant micro-adjustments. This includes recognizing when to switch from pistol grip to pocket grip to lasso configuration based on opponent's breaking attempts and maintaining tension even when temporarily compromised.
 
-**Arm Extension and Posture Breaking**: Using established sleeve control to extend opponent's arm and break their posture forward by pulling the sleeve across your centerline, combining with opposite-side collar or head control, and timing the extension with your hip movement or leg pressure to maximize postural disruption while preventing opponent from basing with their controlled arm.
+**Arm Extension and Posture**: Using established sleeve control to extend opponent's arm and break their posture forward by pulling the sleeve across your centerline, combining with opposite-side collar or head control, and timing the extension with your hip movement or leg pressure to maximize postural disruption while preventing opponent from basing with their controlled arm.
 
 **Distance Management Through Sleeve**: Regulating the distance between you and opponent by pulling sleeve to close distance for attacks or extending arm fully to create distance for recovery. This includes understanding optimal distance for different techniques - close for triangles and omoplatas, medium for armbars and sweeps, extended for defensive frames and re-guarding.
 
-**Angle Creation and Manipulation**: Pulling the controlled sleeve at angles diagonal or perpendicular to opponent's spine to off-balance them, create openings for additional grips, and set up directional attacks. This requires coordinating sleeve pull direction with hip movement, understanding how different angles affect opponent's balance, and recognizing which angles open specific sweep or submission opportunities.
+**Dominant Angles and Manipulation**: Pulling the controlled sleeve at angles diagonal or perpendicular to opponent's spine to off-balance them, create openings for additional grips, and set up directional attacks. This requires coordinating sleeve pull direction with hip movement, understanding how different angles affect opponent's balance, and recognizing which angles open specific sweep or submission opportunities.
 
 **Transitional Sleeve Control**: Smoothly transitioning sleeve grips between positions - from cross-sleeve in closed guard to same-side sleeve in open guard to two-on-one in butterfly guard - while maintaining control throughout the transition. This includes hand-switching techniques, temporary grip releases timed with leg control establishment, and reading which sleeve configuration best suits each position.
 
@@ -290,7 +290,7 @@ Partner drills where one person establishes position (closed guard, spider, DLR)
 **Sleeve Control to Attack Chains** (Focus: Understanding offensive opportunities created by different sleeve grips and developing automatic recognition of which attacks each grip configuration enables)
 Flow drilling where practitioner establishes sleeve control and systematically explores all available attacks - sweeps, submissions, transitions - that stem from that specific sleeve configuration
 
-**Grip Fighting Isolation Rounds** (Focus: Realistic grip fighting skills under pressure including hand fighting, clearing grips, establishing deep grips, and maintaining against active breaking attempts)
+**Grips Isolation Rounds** (Focus: Realistic grip fighting skills under pressure including hand fighting, clearing grips, establishing deep grips, and maintaining against active breaking attempts)
 Limited sparring focused exclusively on grip fighting where goal is to establish dominant sleeve and collar grips - no positional advancement until grip hierarchy is established
 
 **Positional Sparring with Grip Constraints** (Focus: Integrating sleeve control into overall game rather than treating it as isolated skill - maintaining grips while moving, attacking, and transitioning)
@@ -354,24 +354,24 @@ Studying high-level competition footage specifically focusing on sleeve grip pat
 ## Related
 
 ### Related Principles
-- **[[Grip Strategy]]** (Prerequisite): Overall grip strategy framework determines when and how to establish sleeve control within broader grip fighting exchanges and position-specific grip hierarchies
+- **[[Hand Fighting]]** (Prerequisite): Hand fighting skills establish the initial contact and clearing sequences needed to secure sleeve grips against resistant opponents within broader grip exchange patterns
 - **[[Collar Control]]** (Complementary): Collar control works synergistically with sleeve control to create two-point control systems that break posture and prevent opponent escape
-- **[[Posture Breaking]]** (Extension): Sleeve control serves as primary mechanism for breaking opponent's posture by extending arms and eliminating their ability to maintain upright structure
-- **[[Off-Balancing]]** (Complementary): Directional sleeve pulls create off-balancing opportunities by controlling opponent's arm placement and preventing compensatory posts
-- **[[Distance Creation]]** (Advanced form): Advanced sleeve control allows precise distance regulation - pulling to close distance or extending fully to create defensive space
-- **[[Guard Retention]]** (Extension): Sleeve control functions as essential guard retention tool by preventing opponent from establishing strong passing grips and controlling their arm position throughout retention sequences
-- **[[Grip Fighting]]** (Prerequisite): Hand fighting skills determine success in establishing and maintaining sleeve grips against resistant opponents who actively defend their sleeves
+- **[[Posture]]** (Extension): Sleeve control serves as primary mechanism for breaking opponent's posture by extending arms and eliminating their ability to maintain upright structure
+- **[[Kuzushi]]** (Complementary): Directional sleeve pulls create off-balancing and sweep opportunities by controlling opponent's arm placement and preventing compensatory posts
+- **[[Distance Control]]** (Advanced form): Advanced sleeve control enables precise space regulation - pulling to close distance for attacks or extending fully to create defensive space for recovery and re-guarding
+- **[[Defensive Concepts]]** (Extension): Sleeve control functions as essential defensive tool in guard by preventing opponent from establishing strong passing grips and controlling their arm position throughout guard retention sequences
+- **[[Grips]]** (Prerequisite): Grip fighting skills determine success in establishing and maintaining sleeve grips against resistant opponents who actively defend their sleeves
 - **[[Control Point Hierarchy]]** (Extension): Sleeve control represents key control point in hierarchy of gripping priorities - understanding when sleeve control takes precedence over other available grips
-- **[[Leverage Principles]]** (Prerequisite): Mechanical leverage principles explain why deep wrist grips provide superior control compared to elbow or shoulder control
-- **[[Creating Reactions]]** (Complementary): Sleeve control creates predictable reactions - opponent either addresses the grip or ignores it - both reactions create offensive opportunities
-- **[[Frame Management]]** (Complementary): Controlling opponent's sleeve prevents them from establishing effective frames while allowing you to create your own defensive structures
-- **[[Connection Breaking]]** (Complementary): Sleeve control disrupts opponent's connection to ground and their ability to maintain frames by controlling arm endpoints
+- **[[Levers]]** (Prerequisite): Mechanical leverage principles explain why deep wrist grips provide superior control compared to elbow or shoulder control
+- **[[Fork Attacks]]** (Complementary): Sleeve control creates forced dilemmas where opponent must either address the grip or advance their position - both choices open offensive opportunities for the guard player
+- **[[Frames]]** (Complementary): Controlling opponent's sleeve prevents them from establishing effective frames while allowing you to create your own defensive structures
+- **[[Connection Principles]]** (Complementary): Sleeve control disrupts opponent's structural connections to ground and their ability to maintain frames by controlling arm endpoints in the kinetic chain
 
 
 ### Related Content
-- [[Grip Strategy]] (Principle) - Parent concept providing overall framework for when and how to establish sleeve control within broader grip fighting strategy
+- [[Hand Fighting]] (Principle) - Hand fighting skills provide the foundational contact sequences needed to establish sleeve control within broader grip exchanges
 - [[Collar Control]] (Principle) - Complementary gripping concept that combines with sleeve control to create powerful two-point control systems
-- [[Posture Breaking]] (Principle) - Primary application of sleeve control - extending arms and pulling across centerline breaks opponent's upright posture
+- [[Posture]] (Principle) - Primary application of sleeve control - extending arms and pulling across centerline breaks opponent's upright posture
 - [[Spider Guard]] (Position) - Guard position built entirely on double sleeve control with feet in biceps creating maximum extension control
 - [[Lasso Guard]] (Position) - Guard variation using threaded leg around controlled sleeve to create mechanical lock on opponent's arm
 - [[Collar Sleeve Guard]] (Position) - Dedicated guard system optimizing the synergy between collar and sleeve grip combinations
@@ -379,8 +379,8 @@ Studying high-level competition footage specifically focusing on sleeve grip pat
 - [[De La Riva Guard]] (Position) - Open guard position using far-side sleeve control combined with DLR hook to prevent guard passing
 - [[Grip Break]] (Transition) - Defensive technique for breaking opponent's sleeve control on your arms to regain freedom of movement
 - [[Pass to Side Control]] (Transition) - Opponent's primary goal when you have sleeve control - your grips prevent passing by controlling their arms
-- [[Guard Retention]] (Principle) - Defensive framework where sleeve control plays critical role in preventing opponent from establishing passing grips
-- [[Grip Fighting]] (Principle) - Hand fighting framework that determines success in establishing and maintaining sleeve grips against resistance
+- [[Defensive Concepts]] (Principle) - Defensive framework where sleeve control plays critical role in preventing opponent from establishing passing grips and maintaining guard integrity
+- [[Grips]] (Principle) - Hand fighting framework that determines success in establishing and maintaining sleeve grips against resistance
 
 
 </section>

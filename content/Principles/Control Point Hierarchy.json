@@ -77,24 +77,24 @@
       "description": "Control Maintenance focuses on sustaining established control, while Control Point Hierarchy provides the strategic framework for determining which controls to establish and upgrade"
     },
     {
-      "principle_name": "Pressure Application",
+      "principle_name": "Pressure",
       "relationship_type": "Complementary",
-      "description": "Pressure Application provides the mechanical means to enforce control points identified as high-value within the hierarchy"
+      "description": "Pressure provides the mechanical means to enforce control points identified as high-value within the hierarchy"
     },
     {
-      "principle_name": "Frame Management",
+      "principle_name": "Frames",
       "relationship_type": "Alternative",
-      "description": "From the defensive perspective, Frame Management represents the inverse of Control Point Hierarchy, focusing on preventing opponent control point acquisition"
+      "description": "From the defensive perspective, Frames represents the inverse of Control Point Hierarchy, focusing on building structural barriers to prevent opponent control point acquisition"
     },
     {
-      "principle_name": "Submission Control Position",
+      "principle_name": "Submission Chains",
       "relationship_type": "Advanced form",
-      "description": "Submission Control Position represents the apex of the Control Point Hierarchy where sufficient control points have been acquired to safely attempt finishing techniques"
+      "description": "Submission Chains represent the culmination of Control Point Hierarchy where sufficient control points have been acquired to safely attempt and link finishing techniques in sequence"
     },
     {
-      "principle_name": "Guard Retention",
+      "principle_name": "Defensive Concepts",
       "relationship_type": "Complementary",
-      "description": "Guard Retention from bottom applies hierarchical understanding to prevent opponent's control point acquisition during guard passing attempts"
+      "description": "Defensive Concepts from bottom positions apply hierarchical understanding to prevent opponent's control point acquisition during guard passing and top pressure attempts"
     },
     {
       "principle_name": "Transition Management",
@@ -102,9 +102,9 @@
       "description": "Transition Management governs how practitioners move between positions while maintaining established control points identified by the hierarchy"
     },
     {
-      "principle_name": "Base Maintenance",
+      "principle_name": "Base",
       "relationship_type": "Prerequisite",
-      "description": "Base Maintenance provides the foundational stability required to establish and maintain control points without being swept or reversed"
+      "description": "Base provides the foundational stability required to establish and maintain control points without being swept or reversed"
     }
   ],
   "application_contexts": [
@@ -355,19 +355,19 @@
       "relationship": "Common position demonstrating hierarchy from chest pressure to crossface to head and arm control"
     },
     {
-      "name": "Pressure Application",
+      "name": "Pressure",
       "content_type": "Principle",
       "relationship": "Mechanical means of enforcing control points identified within hierarchy"
     },
     {
-      "name": "Frame Management",
+      "name": "Frames",
       "content_type": "Principle",
-      "relationship": "Defensive inverse of control point hierarchy focused on preventing opponent's control acquisition"
+      "relationship": "Defensive inverse of control point hierarchy focused on building structural barriers to prevent opponent's control acquisition"
     },
     {
-      "name": "Submission Control Position",
+      "name": "Submission Chains",
       "content_type": "Principle",
-      "relationship": "Terminal state of control point hierarchy where sufficient controls enable safe submission attempts"
+      "relationship": "Advanced application where sufficient control point acquisition enables safe chaining of finishing techniques in sequence"
     },
     {
       "name": "Half Guard",

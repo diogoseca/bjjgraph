@@ -348,27 +348,27 @@ Recording rolling sessions and analyzing transition attempts to evaluate timing 
 ### Related Principles
 - **[[Positional Hierarchy]]** (Prerequisite): Understanding the relative value of different positions is essential for transition management, as it provides the evaluative framework for assessing whether potential transitions represent advancement or regression in positional dominance.
 - **[[Timing and Rhythm]]** (Complementary): Timing principles directly inform when to initiate transitions, while transition management provides the strategic framework for deciding which movements to execute during recognized timing windows.
-- **[[Energy Management System]]** (Complementary): Energy conservation principles influence transition frequency and commitment levels, as transition management must account for energy expenditure in deciding when aggressive position changes are justified versus when consolidation is preferable.
-- **[[Risk Assessment]]** (Prerequisite): The ability to evaluate risk-reward ratios is fundamental to transition management, providing the analytical foundation for deciding whether to attempt position changes or maintain current positions.
+- **[[Energy Conservation]]** (Complementary): Energy conservation principles influence transition frequency and commitment levels, as transition management must account for energy expenditure in deciding when aggressive position changes are justified versus when consolidation is preferable.
+- **[[Defensive Concepts]]** (Prerequisite): Defensive awareness is fundamental to transition management, providing the analytical foundation for evaluating vulnerability during position changes and deciding whether to attempt transitions or maintain current positions to avoid exposure.
 - **[[Position Chains]]** (Extension): Position chain development represents the advanced application of transition management, where individual transition decisions are coordinated into comprehensive sequences that create systematic positional advancement.
 - **[[Control Maintenance]]** (Complementary): Control principles govern how to maintain dominance during transitions, ensuring that positional changes don't sacrifice established controls or create exploitable gaps in connection management.
-- **[[Creating Reactions]]** (Extension): Advanced transition management involves deliberately manipulating opponent's reactions to create timing windows, rather than passively waiting for naturally occurring opportunities.
-- **[[Base Maintenance]]** (Complementary): Maintaining stable base throughout transitions prevents overcommitment and preserves recovery options if transitional attempts are countered or fail.
-- **[[Frame Management]]** (Complementary): Proper frame maintenance during transitions prevents opponent from capitalizing on temporary vulnerabilities created during position changes.
-- **[[Transition Sequences]]** (Extension): Transition sequences represent the structured chaining of multiple position changes into coherent progressions, while transition management provides the strategic decision-making framework governing when and how to execute those linked movements.
-- **[[Guard Retention]]** (Complementary): Guard retention principles inform defensive transition management, determining when to change guard variations versus when to maintain current structure.
-- **[[Escape Hierarchy]]** (Complementary): Escape hierarchy provides the prioritization framework for transition management from inferior positions, determining which position changes represent meaningful improvement.
+- **[[Action and Reaction]]** (Extension): Advanced transition management involves deliberately provoking predictable opponent reactions to create timing windows for position changes, rather than passively waiting for naturally occurring opportunities.
+- **[[Base]]** (Complementary): Maintaining stable base throughout transitions prevents overcommitment and preserves recovery options if transitional attempts are countered or fail.
+- **[[Frames]]** (Complementary): Establishing and maintaining frames during transitions prevents opponent from capitalizing on temporary vulnerabilities created during position changes, providing structural protection throughout dynamic movements.
+- **[[Fork Attacks]]** (Extension): Dilemma creation represents the advanced integration of transition management with forced-choice attack sequences, where linked transitions present opponents with lose-lose scenarios that guarantee positional advancement regardless of defensive response.
+- **[[Distance Control]]** (Complementary): Space creation principles inform defensive transition management from inferior positions, determining when to create distance for guard recovery versus when to close space for sweeps or submissions.
+- **[[Escape Fundamentals]]** (Complementary): Escape fundamentals provide the prioritization framework for transition management from inferior positions, determining which defensive position changes represent meaningful improvement and how to sequence escape attempts effectively.
 
 
 ### Related Content
-- [[Transition Sequences]] (Principle) - Focuses on the structured chaining of multiple position changes into coherent linked progressions
+- [[Submission Chains]] (Principle) - Focuses on the structured chaining of multiple attack attempts into coherent linked progressions that complement positional transition management
 - [[Positional Hierarchy]] (Principle) - Provides evaluative framework for assessing transition value and advancement potential
 - [[Timing and Rhythm]] (Principle) - Governs when to initiate transitions based on opponent's defensive state and movement patterns
-- [[Energy Management System]] (Principle) - Influences transition frequency and commitment levels based on energy conservation principles
-- [[Risk Assessment]] (Principle) - Provides analytical framework for evaluating transition risk-reward ratios
+- [[Energy Conservation]] (Principle) - Influences transition frequency and commitment levels based on energy conservation principles
+- [[Defensive Concepts]] (Principle) - Provides the defensive awareness framework essential for evaluating transition risk-reward ratios and vulnerability during position changes
 - [[Position Chains]] (Principle) - Represents advanced application of transition management through systematic position sequences
 - [[Control Maintenance]] (Principle) - Governs preservation of dominance and connection during transitional movements
-- [[Creating Reactions]] (Principle) - Provides methods for deliberately creating transition windows through opponent manipulation
+- [[Action and Reaction]] (Principle) - Provides methods for deliberately creating transition windows by provoking predictable opponent reactions
 - [[Pass to Side Control]] (Transition) - Major category of transitions where management principles heavily influence success rates
 - [[Back Take]] (Transition) - High-value transition category requiring sophisticated management due to vulnerability if failed
 - [[Hip Escape to Guard]] (Transition) - Fundamental defensive transition requiring careful timing and structural maintenance

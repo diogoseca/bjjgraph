@@ -66,12 +66,12 @@
       "description": "Flow rolling and positional sparring serve complementary training functions, with flow rolling emphasizing movement exploration and positional sparring focusing on specific position mastery under competitive resistance"
     },
     {
-      "principle_name": "Drilling Methodology",
+      "principle_name": "Position Chains",
       "relationship_type": "Extension",
-      "description": "Flow rolling represents advanced form of drilling where technical repetition occurs within dynamic, responsive environment rather than static, predetermined sequences"
+      "description": "Flow rolling extends position chain practice into a dynamic, responsive environment where chained positional sequences are explored through continuous movement rather than isolated repetition"
     },
     {
-      "principle_name": "Energy Management System",
+      "principle_name": "Energy Conservation",
       "relationship_type": "Prerequisite",
       "description": "Understanding energy conservation principles is prerequisite for effective flow rolling, as practitioners must manage intensity levels throughout extended sessions to prevent fatigue and maintain training quality"
     },
@@ -81,27 +81,27 @@
       "description": "Flow rolling develops timing and rhythm awareness through continuous movement exposure, with reduced intensity allowing greater focus on movement patterns and technical timing"
     },
     {
-      "principle_name": "Risk Assessment",
+      "principle_name": "Defensive Concepts",
       "relationship_type": "Prerequisite",
-      "description": "Proper risk assessment skills enable practitioners to recognize when resistance levels are appropriate versus when they risk injury, essential for maintaining cooperative training environment"
+      "description": "Sound defensive awareness enables practitioners to recognize when resistance levels are appropriate versus when they risk injury, essential for maintaining cooperative training environment"
     },
     {
-      "principle_name": "Competition Training",
+      "principle_name": "Competition Mindset",
       "relationship_type": "Alternative",
-      "description": "Flow rolling serves as alternative training methodology to high-intensity competition preparation, providing skill maintenance and technical exploration without competitive stress and injury accumulation"
+      "description": "Flow rolling serves as alternative training methodology to competition-focused preparation, providing skill maintenance and technical exploration without competitive stress and injury accumulation"
     },
     {
-      "principle_name": "Progressive Resistance Training",
+      "principle_name": "Dealing with Pressure",
       "relationship_type": "Complementary",
-      "description": "Flow rolling implements progressive resistance principles by allowing gradual intensity increases as technical proficiency develops, creating structured skill advancement pathway"
+      "description": "Flow rolling develops pressure management skills by allowing gradual exposure to calibrated resistance, creating a structured pathway for learning to handle increasing pressure levels"
     },
     {
-      "principle_name": "Guard Recovery",
+      "principle_name": "Escape Fundamentals",
       "relationship_type": "Extension",
-      "description": "Flow rolling provides ideal environment for developing guard retention mechanics through repeated exposure to passing attempts at manageable intensity"
+      "description": "Flow rolling provides ideal environment for developing escape mechanics through repeated exposure to control positions at manageable intensity, building muscle memory for guard recovery and reversal sequences"
     },
     {
-      "principle_name": "Transition Sequences",
+      "principle_name": "Transition Management",
       "relationship_type": "Extension",
       "description": "Smooth position transitions represent core element of flow rolling practice, with cooperative resistance enabling extensive repetition of transitional movements and sequenced positional chains"
     }
@@ -148,16 +148,16 @@
       "how_applied": "Reverse DLR in flow context enables exploration of various sweep variations and transitions to other leg entanglement positions, with top partner allowing appropriate off-balancing while maintaining realistic balance challenges"
     },
     {
-      "context": "Guard Recovery",
-      "how_applied": "Flow rolling emphasizes guard recovery mechanics through allowing bottom partner multiple attempts at re-establishing guard from various disadvantaged positions, with top partner providing realistic pressure without shutting down all recovery options"
+      "context": "Quarter Guard",
+      "how_applied": "Flow rolling through quarter guard emphasizes guard recovery mechanics and re-composition sequences, with top partner providing realistic pressure without shutting down all recovery options, allowing repeated practice of escaping to stronger guard positions"
     },
     {
       "context": "Turtle",
       "how_applied": "Turtle position flow allows exploration of various back-take defenses and guard recovery options while top partner attempts hooks and control without explosive force that would prevent bottom's technical responses"
     },
     {
-      "context": "Scramble Position",
-      "how_applied": "Scramble scenarios in flow rolling occur at reduced speed allowing both partners to develop transitional awareness and recognize positional opportunities that would be difficult to perceive at competitive intensity"
+      "context": "Standing Position",
+      "how_applied": "Standing transition scenarios in flow rolling occur at reduced speed allowing both partners to develop transitional awareness and recognize positional opportunities that would be difficult to perceive at competitive intensity"
     },
     {
       "context": "Clinch",
@@ -318,14 +318,14 @@
       "relationship": "Complementary training methodology focusing on specific position mastery under competitive resistance"
     },
     {
-      "name": "Drilling Methodology",
+      "name": "Position Chains",
       "content_type": "Principle",
-      "relationship": "Foundation practice method that flow rolling extends into dynamic, responsive environment"
+      "relationship": "Foundation for flowing positional sequences that flow rolling extends into dynamic, responsive environment"
     },
     {
-      "name": "Energy Management System",
+      "name": "Energy Conservation",
       "content_type": "Principle",
-      "relationship": "Underlying principle system governing intensity calibration and recovery optimization in flow rolling"
+      "relationship": "Underlying principle governing intensity calibration and recovery optimization in flow rolling"
     },
     {
       "name": "Timing and Rhythm",
@@ -333,29 +333,29 @@
       "relationship": "Movement attribute developed through continuous exposure in flow rolling environment"
     },
     {
-      "name": "Competition Training",
+      "name": "Competition Mindset",
       "content_type": "Principle",
-      "relationship": "Alternative training approach with different objectives and intensity levels"
+      "relationship": "Alternative training mindset with different objectives and intensity levels compared to flow rolling"
     },
     {
-      "name": "Transition Sequences",
+      "name": "Transition Management",
       "content_type": "Principle",
-      "relationship": "Core technical element emphasizing smooth positional chains developed through flow rolling practice"
+      "relationship": "Core technical element emphasizing smooth positional transitions developed through flow rolling practice"
     },
     {
-      "name": "Risk Assessment",
+      "name": "Defensive Concepts",
       "content_type": "Principle",
-      "relationship": "Critical skill for maintaining appropriate intensity and preventing injury during flow sessions"
+      "relationship": "Critical awareness framework for maintaining appropriate intensity and preventing injury during flow sessions"
     },
     {
-      "name": "Guard Recovery",
+      "name": "Escape Fundamentals",
       "content_type": "Principle",
-      "relationship": "Position frequently practiced during flow rolling through multiple exposure opportunities"
+      "relationship": "Escape mechanics frequently practiced during flow rolling through multiple low-intensity exposure opportunities"
     },
     {
-      "name": "Progressive Resistance Training",
+      "name": "Dealing with Pressure",
       "content_type": "Principle",
-      "relationship": "Training methodology that flow rolling implements through calibrated intensity progression"
+      "relationship": "Training methodology that flow rolling implements through calibrated resistance and progressive pressure exposure"
     },
     {
       "name": "Mental Game Framework",

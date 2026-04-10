@@ -58,34 +58,34 @@
   ],
   "principle_relationships": [
     {
-      "principle_name": "Creating Reactions",
+      "principle_name": "Pressure",
       "relationship_type": "Complementary",
-      "description": "The proactive application of generating specific opponent responses through calculated stimuli"
+      "description": "Applying pressure generates specific defensive reactions that create exploitable attacking opportunities"
     },
     {
-      "principle_name": "Dilemma Creation",
+      "principle_name": "Fork Attacks",
       "relationship_type": "Extension",
       "description": "Creates forced-choice scenarios where all defensive options lead to strategic disadvantage"
     },
     {
-      "principle_name": "Grip Fighting",
+      "principle_name": "Grips",
       "relationship_type": "Complementary",
       "description": "Grips serve as both actions (threats) and indicators of opponent's reactions"
     },
     {
-      "principle_name": "Space Management",
+      "principle_name": "Distance Control",
       "relationship_type": "Complementary",
-      "description": "Opponent's reaction to space creation/closure reveals defensive priorities"
+      "description": "Opponent's reaction to space creation or closure reveals defensive priorities and commitment patterns"
     },
     {
-      "principle_name": "Energy Management System",
+      "principle_name": "Energy Conservation",
       "relationship_type": "Complementary",
-      "description": "Efficient attacking exploits reactions rather than forcing through resistance"
+      "description": "Efficient attacking exploits reactions rather than forcing through resistance, conserving energy"
     },
     {
-      "principle_name": "Offensive Combinations",
+      "principle_name": "Submission Chains",
       "relationship_type": "Extension",
-      "description": "Technique chains built on reaction-based transitions between attacking sequences"
+      "description": "Linked submission sequences built on reaction-based transitions between attacking positions"
     },
     {
       "principle_name": "Timing and Rhythm",
@@ -93,19 +93,19 @@
       "description": "Critical timing windows determine when reactions can be exploited most effectively"
     },
     {
-      "principle_name": "Off-Balancing",
+      "principle_name": "Kuzushi",
       "relationship_type": "Complementary",
-      "description": "Reactions to balance disruption create sweep and transition opportunities"
+      "description": "Sweep attempts generate balance recovery reactions that create secondary attack and transition opportunities"
     },
     {
-      "principle_name": "Posture Breaking",
+      "principle_name": "Posture",
       "relationship_type": "Complementary",
       "description": "Posture attacks generate postural recovery reactions that open attack sequences"
     },
     {
-      "principle_name": "Connection Breaking",
+      "principle_name": "Connection Principles",
       "relationship_type": "Complementary",
-      "description": "Opponent's reconnection attempts create predictable movement patterns to exploit"
+      "description": "Opponent's reconnection attempts after connection disruption create predictable movement patterns to exploit"
     }
   ],
   "application_contexts": [
@@ -330,19 +330,19 @@
   ],
   "related_content": [
     {
-      "name": "Creating Reactions",
+      "name": "Pressure",
       "content_type": "Principle",
-      "relationship": "Direct application of generating specific opponent responses through calculated stimuli"
+      "relationship": "Applying pressure generates defensive reactions that create exploitable attacking opportunities"
     },
     {
-      "name": "Dilemma Creation",
+      "name": "Fork Attacks",
       "content_type": "Principle",
       "relationship": "Advanced extension creating forced-choice scenarios where all defensive reactions lead to disadvantage"
     },
     {
-      "name": "Offensive Combinations",
+      "name": "Submission Chains",
       "content_type": "Principle",
-      "relationship": "Technique chaining framework that relies on reaction-based transitions"
+      "relationship": "Linked submission sequences that rely on reaction-based transitions between attacking positions"
     },
     {
       "name": "Timing and Rhythm",
@@ -385,7 +385,7 @@
       "relationship": "Creates multiple reaction-based opportunities including sweeps and back takes"
     },
     {
-      "name": "Energy Management System",
+      "name": "Energy Conservation",
       "content_type": "Principle",
       "relationship": "Reaction-based attacking conserves energy by exploiting opponent's movements rather than forcing techniques"
     }

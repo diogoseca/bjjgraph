@@ -355,12 +355,12 @@ Compare maintenance of position with dispersed control (six different grip/conta
 - **[[Positional Hierarchy]]** (Complementary): Control Point Hierarchy operates within Positional Hierarchy - while positional hierarchy ranks positions themselves, control point hierarchy determines dominance within each position
 - **[[Position-Over-Submission Approach]]** (Prerequisite): Control Point Hierarchy extends the position-over-submission philosophy by providing the systematic framework for achieving positional dominance before attempting submissions
 - **[[Control Maintenance]]** (Extension): Control Maintenance focuses on sustaining established control, while Control Point Hierarchy provides the strategic framework for determining which controls to establish and upgrade
-- **[[Pressure Application]]** (Complementary): Pressure Application provides the mechanical means to enforce control points identified as high-value within the hierarchy
-- **[[Frame Management]]** (Alternative): From the defensive perspective, Frame Management represents the inverse of Control Point Hierarchy, focusing on preventing opponent control point acquisition
-- **[[Submission Control Position]]** (Advanced form): Submission Control Position represents the apex of the Control Point Hierarchy where sufficient control points have been acquired to safely attempt finishing techniques
-- **[[Guard Retention]]** (Complementary): Guard Retention from bottom applies hierarchical understanding to prevent opponent's control point acquisition during guard passing attempts
+- **[[Pressure]]** (Complementary): Pressure provides the mechanical means to enforce control points identified as high-value within the hierarchy
+- **[[Frames]]** (Alternative): From the defensive perspective, Frames represents the inverse of Control Point Hierarchy, focusing on building structural barriers to prevent opponent control point acquisition
+- **[[Submission Chains]]** (Advanced form): Submission Chains represent the culmination of Control Point Hierarchy where sufficient control points have been acquired to safely attempt and link finishing techniques in sequence
+- **[[Defensive Concepts]]** (Complementary): Defensive Concepts from bottom positions apply hierarchical understanding to prevent opponent's control point acquisition during guard passing and top pressure attempts
 - **[[Transition Management]]** (Extension): Transition Management governs how practitioners move between positions while maintaining established control points identified by the hierarchy
-- **[[Base Maintenance]]** (Prerequisite): Base Maintenance provides the foundational stability required to establish and maintain control points without being swept or reversed
+- **[[Base]]** (Prerequisite): Base provides the foundational stability required to establish and maintain control points without being swept or reversed
 
 
 ### Related Content
@@ -370,9 +370,9 @@ Compare maintenance of position with dispersed control (six different grip/conta
 - [[Mount]] (Position) - Premier position where control point hierarchy manifests through head control, high mount, and arm isolation progression
 - [[Back Control]] (Position) - Highest-value position where seatbelt, hooks, and head control hierarchy determines submission success
 - [[Side Control]] (Position) - Common position demonstrating hierarchy from chest pressure to crossface to head and arm control
-- [[Pressure Application]] (Principle) - Mechanical means of enforcing control points identified within hierarchy
-- [[Frame Management]] (Principle) - Defensive inverse of control point hierarchy focused on preventing opponent's control acquisition
-- [[Submission Control Position]] (Principle) - Terminal state of control point hierarchy where sufficient controls enable safe submission attempts
+- [[Pressure]] (Principle) - Mechanical means of enforcing control points identified within hierarchy
+- [[Frames]] (Principle) - Defensive inverse of control point hierarchy focused on building structural barriers to prevent opponent's control acquisition
+- [[Submission Chains]] (Principle) - Advanced application where sufficient control point acquisition enables safe chaining of finishing techniques in sequence
 - [[Half Guard]] (Position) - Position where underhook control represents apex of hierarchy for bottom player
 - [[Crucifix]] (Position) - Exemplifies maximum control point density with both arms and back simultaneously controlled
 - [[Transition Management]] (Principle) - Governs how practitioners move between positions while maintaining established control points

@@ -46,7 +46,7 @@
       "description": "Establishing and maintaining butterfly hooks, de la riva hooks, leg entanglements, and other lower-body connections that control opponent's base and movement. This skill encompasses both offensive hook usage for sweeps and submissions, plus defensive hook retention when opponent attempts to clear connections."
     },
     {
-      "skill_name": "Grip Fighting Intelligence",
+      "skill_name": "Grips Intelligence",
       "description": "The tactical awareness to engage in grip exchanges strategically, knowing when to fight for grips versus when to disengage, which grips to prioritize in specific positions, and how to sequence grip fighting within broader positional objectives. This includes recognizing grip fighting windows and exploiting opponent's grip commitments."
     },
     {
@@ -64,14 +64,14 @@
   ],
   "principle_relationships": [
     {
-      "principle_name": "Grip Strategy",
+      "principle_name": "Grips",
       "relationship_type": "Complementary",
-      "description": "Grip Strategy provides the tactical framework for which grips to pursue in different scenarios, while Connection Principles explains why those grips work and how they integrate into overall control schemes"
+      "description": "Grips provides the tactical framework for winning grip exchanges in different scenarios, while Connection Principles explains why those grips work and how they integrate into overall control schemes"
     },
     {
-      "principle_name": "Frame Management",
+      "principle_name": "Frames",
       "relationship_type": "Complementary",
-      "description": "Frame Management represents the defensive application of connection principles, focusing specifically on creating and maintaining space-preserving connections rather than control-establishing ones"
+      "description": "Frames represents the defensive application of connection principles, focusing specifically on building and maintaining space-preserving connections rather than control-establishing ones"
     },
     {
       "principle_name": "Control Point Hierarchy",
@@ -79,49 +79,49 @@
       "description": "Control Point Hierarchy builds on connection principles by ranking which connection points provide greatest control value in specific positions, adding tactical prioritization to fundamental connection mechanics"
     },
     {
-      "principle_name": "Base Maintenance",
+      "principle_name": "Base",
       "relationship_type": "Prerequisite",
       "description": "Solid base provides the foundation from which effective connections can be established and maintained; without stable base, connections become liabilities rather than assets"
     },
     {
-      "principle_name": "Pressure Application",
+      "principle_name": "Pressure",
       "relationship_type": "Complementary",
-      "description": "Pressure Application depends on proper connections to transmit force effectively; connections without pressure provide awareness but not control, while pressure without connections dissipates uselessly"
+      "description": "Pressure depends on proper connections to transmit force effectively; connections without pressure provide awareness but not control, while pressure without connections dissipates uselessly"
     },
     {
-      "principle_name": "Leverage Principles",
+      "principle_name": "Levers",
       "relationship_type": "Prerequisite",
       "description": "Understanding leverage mechanics is fundamental to using connections efficiently; proper connection points aligned with leverage principles multiply force effectiveness exponentially"
     },
     {
-      "principle_name": "Grip Fighting",
+      "principle_name": "Hand Fighting",
       "relationship_type": "Extension",
-      "description": "Grip Fighting represents the competitive application of connection principles, focusing on winning grip battles through superior timing, positioning, and tactical awareness"
+      "description": "Hand Fighting represents the close-range competitive application of connection principles, focusing on winning hand position battles through superior timing, positioning, and tactical awareness"
     },
     {
-      "principle_name": "Defensive Framing",
+      "principle_name": "Defensive Concepts",
       "relationship_type": "Alternative",
-      "description": "Defensive Framing emphasizes using connections to create space and prevent opponent control, representing the defensive counterpart to offensive connection establishment"
+      "description": "Defensive Concepts encompasses using connections to create space, prevent opponent control, and preserve positional integrity, representing the defensive counterpart to offensive connection establishment"
     },
     {
-      "principle_name": "Space Management",
+      "principle_name": "Distance Control",
       "relationship_type": "Complementary",
-      "description": "Space Management and Connection Principles work together; connections enable control of distance and positioning, while space awareness informs which connections to establish"
+      "description": "Distance Control and Connection Principles work together; connections enable control of distance and positioning, while space awareness informs which connections to establish or break"
     },
     {
-      "principle_name": "Weight Distribution",
+      "principle_name": "Center of Gravity",
       "relationship_type": "Complementary",
       "description": "Proper weight distribution enhances connection effectiveness by ensuring grips and frames are supported by skeletal structure rather than muscular tension"
     },
     {
-      "principle_name": "Off-Balancing",
+      "principle_name": "Posture",
       "relationship_type": "Extension",
-      "description": "Off-Balancing techniques require proper connections to transmit destabilizing forces; connection principles provide the foundation for effective kuzushi application"
+      "description": "Posture techniques require proper connections to transmit destabilizing forces; connection principles provide the foundation for effective kuzushi and off-balancing application"
     },
     {
-      "principle_name": "Posture Breaking",
+      "principle_name": "Sleeve Control",
       "relationship_type": "Extension",
-      "description": "Breaking opponent's posture depends on establishing superior connections that allow pulling them out of structural alignment; connection quality determines posture-breaking success"
+      "description": "Sleeve Control applies connection principles to specific arm management, using sleeve grips to neutralize opponent's offensive and defensive capabilities through targeted connection dominance"
     }
   ],
   "application_contexts": [
@@ -194,7 +194,7 @@
       "how_applied": "Bottom player threads leg around opponent's arm to create lasso connection, combining this with sleeve grip and opposite leg positioning for control. Connection system prevents opponent from posturing while creating sweeping opportunities."
     },
     {
-      "context": "Standing Position",
+      "context": "Clinch",
       "how_applied": "Both players engage in grip fighting to establish preferred connections for takedown attempts or takedown defense. Connection battles at standing range determine tactical advantages before any throwing techniques are executed."
     }
   ],
@@ -289,7 +289,7 @@
       "focus": "Tactical adaptation to connection constraints. Develops creativity in finding alternative connections when preferred ones are unavailable. Reveals connection dependencies and builds versatile connection strategies."
     },
     {
-      "approach_name": "Grip Fighting Specific Training",
+      "approach_name": "Grips Specific Training",
       "description": "Dedicated practice sessions focused exclusively on grip fighting exchanges in standing or guard positions. Partners compete for optimal grips without progressing to techniques, resetting when one achieves dominant grip configuration.",
       "focus": "Develops grip fighting timing, sensitivity to opponent's grip attempts, and strategic decision-making about when to fight for grips versus when to accept and counter. Builds grip strength and endurance specifically."
     },
@@ -353,14 +353,14 @@
   ],
   "related_content": [
     {
-      "name": "Grip Strategy",
+      "name": "Collar Control",
       "content_type": "Principle",
-      "relationship": "Provides tactical framework for which connections to establish in different scenarios"
+      "relationship": "Applies connection principles to specific collar grip strategies for posture control and attack setup"
     },
     {
-      "name": "Frame Management",
+      "name": "Frames",
       "content_type": "Principle",
-      "relationship": "Applies connection principles specifically to defensive space-creation through frames"
+      "relationship": "Applies connection principles specifically to building defensive space-preserving structures through frames"
     },
     {
       "name": "Control Point Hierarchy",
@@ -388,29 +388,29 @@
       "relationship": "Fundamental escape that relies on breaking opponent's connections while creating space"
     },
     {
-      "name": "Grip Breaking",
+      "name": "Hand Fighting",
       "content_type": "Principle",
-      "relationship": "Specific technical skill set for destroying opponent's connection attempts"
+      "relationship": "Close-range application of connection breaking and establishment through hand position battles"
     },
     {
-      "name": "Pressure Application",
+      "name": "Pressure",
       "content_type": "Principle",
       "relationship": "Requires proper connections to transmit control force effectively"
     },
     {
-      "name": "Base Maintenance",
+      "name": "Base",
       "content_type": "Principle",
       "relationship": "Provides stable foundation from which effective connections can be established"
     },
     {
-      "name": "Grip Fighting",
+      "name": "Grips",
       "content_type": "Principle",
       "relationship": "Competitive application of connection principles in establishing grip dominance"
     },
     {
-      "name": "Defensive Framing",
+      "name": "Defensive Concepts",
       "content_type": "Principle",
-      "relationship": "Defensive counterpart focusing on space-preserving connections"
+      "relationship": "Defensive counterpart encompassing space-preserving connections and escape frameworks"
     }
   ]
 }
