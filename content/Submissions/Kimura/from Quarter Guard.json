@@ -1,0 +1,467 @@
+{
+  "name": "Kimura from Quarter Guard",
+  "description": "Master the Kimura shoulder lock from Quarter Guard top. Expert guide covering figure-four grip attacks, finishing mechanics, counters, and training drills for BJJ.",
+  "tags": [
+    "bjj",
+    "submission",
+    "kimura",
+    "shoulder-lock",
+    "joint-lock",
+    "fundamental",
+    "hub",
+    "finishing-guide",
+    "quarter-guard"
+  ],
+  "submission_category": "Joint Lock",
+  "submission_type": "Shoulder Lock",
+  "target_area": "Shoulder joint, rotator cuff, and shoulder capsule",
+  "starting_position": "Quarter Guard",
+  "from_position": "Quarter Guard/Top",
+  "success_rate": 62,
+  "overview": "The Kimura from Quarter Guard exploits a unique positional advantage where the top player has nearly completed their guard pass, creating ideal conditions for the figure-four shoulder lock. Unlike attacking the Kimura from full half guard where the bottom player retains significant defensive capability, the quarter guard position compromises the defender's ability to maintain frames and creates accessible angles for wrist isolation. The top player's advanced hip position and crossface pressure naturally funnel the bottom player's arms into vulnerable configurations, particularly when they reach for underhooks or attempt to frame against the pass.\n\nThis submission capitalizes on the bottom player's defensive urgency. As they fight to retain guard with diminishing control, their near arm becomes exposed through framing attempts or underhook battles. The top player can transition seamlessly from passing pressure to kimura grip, using the same crossface and weight distribution that drives the pass to control the submission setup. The figure-four configuration locks the shoulder in internal rotation while the top player's body weight prevents escape, creating a high-percentage finish that chains naturally with guard passing sequences.\n\nThe Kimura from Quarter Guard is particularly effective because it punishes the bottom player's primary defensive tool\u2014the underhook. When the defender commits their arm to the underhook seeking sweeps or back takes, they expose the exact wrist and forearm angles needed for the figure-four grip. This creates a tactical dilemma where the bottom player must choose between defending the pass without their strongest tool or risking the submission by fighting for the underhook.",
+  "safety_considerations": {
+    "injury_risks": [
+      {
+        "injury": "Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis)",
+        "severity": "High",
+        "recovery_time": "3-9 months with potential surgery requirement"
+      },
+      {
+        "injury": "Shoulder capsule damage and dislocation",
+        "severity": "CRITICAL",
+        "recovery_time": "6-12 months, may require surgical repair"
+      },
+      {
+        "injury": "Labral tear (glenoid labrum)",
+        "severity": "High",
+        "recovery_time": "4-8 months, often requires arthroscopic surgery"
+      },
+      {
+        "injury": "Bicep tendon strain or rupture",
+        "severity": "Medium",
+        "recovery_time": "6-12 weeks for strain, 3-6 months for rupture"
+      }
+    ],
+    "application_speed": "SLOW and progressive - 3-5 seconds minimum in training, allowing partner time to recognize danger and tap",
+    "tap_signals": [
+      "Verbal tap (saying 'tap' or making any verbal distress sound)",
+      "Physical hand tap (multiple taps with free hand)",
+      "Physical foot tap (multiple taps with either foot)",
+      "Any distress signal including screaming or unusual sounds"
+    ],
+    "release_protocol": [
+      "Immediately stop all rotational pressure the instant tap is felt or heard",
+      "Return the arm toward neutral position (externally rotate back to starting position)",
+      "Release the figure-four grip completely",
+      "Allow partner to self-assess shoulder mobility before continuing",
+      "Never release suddenly or allow arm to spring back forcefully"
+    ],
+    "training_restrictions": [
+      "Never spike or jerk the submission - rotation must be smooth and controlled",
+      "Never use competition speed or surprise attacks in training",
+      "Always ensure partner has at least one hand free to tap",
+      "Do not apply while partner is in awkward body position that prevents tapping",
+      "Never combine with weight pressure that restricts breathing while finishing",
+      "Respect immediate taps without testing partner's pain tolerance"
+    ]
+  },
+  "from_positions": [
+    "Quarter Guard",
+    "Half Guard"
+  ],
+  "related_submissions": [
+    "Americana",
+    "Arm Triangle",
+    "Darce Choke",
+    "Far Side Armbar",
+    "Reverse Kimura"
+  ],
+  "related_content": [
+    {
+      "name": "Quarter Guard",
+      "relationship": "Primary starting position for this submission variant"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Related guard position where kimura opportunities also arise during passing"
+    },
+    {
+      "name": "Kimura Trap",
+      "relationship": "Control position accessible when opponent defends the initial kimura finish"
+    },
+    {
+      "name": "Side Control",
+      "relationship": "Adjacent position where kimura grip can be maintained if pass completes during attack"
+    },
+    {
+      "name": "Americana",
+      "relationship": "Related shoulder lock that can be transitioned to if opponent defends kimura rotation direction"
+    }
+  ],
+  "outcomes": [
+    {
+      "to": "game-over",
+      "probability": 62,
+      "result": "success"
+    },
+    {
+      "to": "Quarter Guard/Top",
+      "probability": 25,
+      "result": "failure"
+    },
+    {
+      "to": "Half Guard/Top",
+      "probability": 13,
+      "result": "counter"
+    }
+  ],
+  "variations_and_setups": [
+    {
+      "variation_name": "Underhook Trap Entry",
+      "description": "Attack when the bottom player commits to establishing an underhook by swimming over their reaching arm and transitioning directly to the figure-four grip on the exposed wrist and forearm.",
+      "when_to_use": "When the bottom player aggressively pursues the underhook, extending their arm past the safe retraction point"
+    },
+    {
+      "variation_name": "Frame Isolation Entry",
+      "description": "When the bottom player frames against your chest or shoulder with their near arm, redirect the framing wrist downward and secure the kimura grip during the moment their arm is extended and vulnerable.",
+      "when_to_use": "When the bottom player relies on stiff-arm frames rather than underhooks for defense"
+    },
+    {
+      "variation_name": "Passing Chain Entry",
+      "description": "Feint guard pass completion to draw a defensive arm reaction from the bottom player, then redirect to the kimura attack on the arm they expose while scrambling to prevent the pass.",
+      "when_to_use": "Against experienced defenders who keep arms tight unless forced to react to immediate passing threats"
+    }
+  ],
+  "attacker": {
+    "name": "from Quarter Guard Attacker",
+    "description": "Learn to attack with the Kimura from Quarter Guard top position. Step-by-step execution guide covering grip mechanics, finishing details, counter responses, and progressive training methods.",
+    "overview": "Attacking the Kimura from Quarter Guard requires integrating submission mechanics with passing pressure. The top player must recognize the moment when the bottom player's arm becomes vulnerable\u2014typically during underhook attempts or framing sequences\u2014and transition smoothly from pass-focused pressure to figure-four grip control. The key advantage of this position is that your weight distribution and crossface already restrict the defender's escape options, allowing you to focus on wrist isolation and rotational finishing mechanics rather than fighting for positional control. The quarter guard creates a natural funnel where the bottom player's defensive arm movements expose the exact angles needed for kimura entry, making this one of the highest-percentage submission setups available during guard passing sequences.",
+    "key_principles": [
+      "Control the wrist before committing to the figure-four\u2014premature grip attempts telegraph your intention and allow preemptive defense",
+      "Maintain crossface pressure throughout the kimura setup to prevent the bottom player from turning into you or creating defensive frames",
+      "Pin the captured elbow tight against your hip to create a fixed fulcrum point, maximizing rotational leverage while minimizing escape angles",
+      "Use your body weight and hip rotation to drive the finish rather than arm strength\u2014the kimura is a whole-body submission, not an arm crank",
+      "Keep your base low and wide during the finishing sequence to resist the bottom player's bridge and roll escape attempts",
+      "Attack the arm during transitions\u2014the moment the bottom player extends for an underhook or frame is the highest-percentage entry window"
+    ],
+    "setup_requirements": [
+      "Established quarter guard top position with crossface control preventing opponent from turning into you",
+      "Bottom player's near arm exposed through underhook attempt, frame, or failed grip fighting",
+      "Your hips advanced past opponent's centerline with weight distributed forward through chest and shoulder",
+      "Free hand available to secure wrist control while maintaining positional pressure through shoulder weight",
+      "Opponent's far shoulder pinned to mat through crossface, limiting their ability to rotate away from the attack"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Identify arm exposure window",
+        "description": "From established quarter guard top with crossface pressure, watch for the bottom player's near arm extending as they reach for an underhook, create a frame against your chest, or attempt to push against your hip. This momentary extension creates the grip access needed for the kimura entry.",
+        "timing": "Immediate recognition within 1-2 seconds of arm exposure"
+      },
+      {
+        "step_number": 2,
+        "action": "Secure wrist control with far hand",
+        "description": "Release your far-side hand from hip control and grip the bottom player's exposed wrist using a C-grip with your thumb pointing toward their fingers. Maintain shoulder pressure through crossface to compensate for releasing the hip control grip during this transition.",
+        "timing": "0.5-1 second transition, maintaining pressure throughout"
+      },
+      {
+        "step_number": 3,
+        "action": "Thread arm for figure-four grip",
+        "description": "Slide your crossface-side arm underneath the bottom player's trapped forearm from the outside, threading between their arm and their torso. Connect your threading hand to your own wrist that holds their wrist, establishing the complete figure-four configuration with your forearm pressing against the back of theirs.",
+        "timing": "1-2 seconds for clean threading without rushing"
+      },
+      {
+        "step_number": 4,
+        "action": "Pin the elbow to your hip",
+        "description": "Drive the bottom player's captured elbow tight against your hip bone using the figure-four grip, creating a fixed fulcrum point. This pinning action prevents them from straightening the arm and establishes the mechanical advantage needed for rotational finishing pressure.",
+        "timing": "Immediate after figure-four locks"
+      },
+      {
+        "step_number": 5,
+        "action": "Establish finishing angle",
+        "description": "Shift your body weight slightly toward the bottom player's head while keeping your chest heavy on their upper body. This angle adjustment opens the rotational path needed to drive their wrist toward the mat while maintaining control over their torso and preventing escape.",
+        "timing": "1-2 seconds for weight redistribution"
+      },
+      {
+        "step_number": 6,
+        "action": "Apply controlled rotational pressure",
+        "description": "Using hip rotation and body weight rather than arm strength alone, drive the bottom player's wrist in a paintbrush arc toward the mat behind their head. Maintain the elbow pin throughout the rotation as the shoulder enters progressively deeper internal rotation toward the submission finish.",
+        "timing": "3-5 seconds of slow progressive rotation in training"
+      },
+      {
+        "step_number": 7,
+        "action": "Complete the finish and release on tap",
+        "description": "Continue smooth progressive rotational pressure until the opponent taps. Keep your base wide and weight heavy through the final phase to resist any last-attempt bridge escapes. Release immediately upon feeling or hearing the tap signal and return the arm gently to neutral position.",
+        "timing": "Immediate release upon tap signal"
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Straighten the arm to prevent figure-four lock from closing",
+        "effectiveness": "High",
+        "your_response": "Maintain wrist grip and use chest pressure to drive the arm back into bent position, or transition to straight armbar since their extended arm is now vulnerable to hyperextension",
+        "targets_outcome": "Quarter Guard/Top"
+      },
+      {
+        "counter": "Grab own shorts or belt with trapped hand to anchor wrist against rotation",
+        "effectiveness": "Medium",
+        "your_response": "Increase chest pressure to limit anchoring capability, then use circular figure-four motion at changing angles the grip cannot sustain, or bump their gripping hand free with your knee",
+        "targets_outcome": "Quarter Guard/Top"
+      },
+      {
+        "counter": "Bridge and roll toward the trapped arm to disrupt base and break grip",
+        "effectiveness": "Medium",
+        "your_response": "Widen base by stepping far leg out and dropping weight through chest onto upper body to flatten opponent back down, or follow the roll direction maintaining grip to finish from new angle",
+        "targets_outcome": "Half Guard/Top"
+      },
+      {
+        "counter": "Turn aggressively into attacker to reduce available rotational angle",
+        "effectiveness": "Low",
+        "your_response": "Increase crossface pressure to flatten them back or follow their rotation to maintain the finishing angle, adjusting your hip position to preserve the rotational path as they turn",
+        "targets_outcome": "Half Guard/Top"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Releasing crossface to grab the wrist with both hands simultaneously",
+        "consequence": "Opponent turns into you immediately, creates defensive frames, and escapes the quarter guard position entirely",
+        "correction": "Keep crossface shoulder heavy while far hand secures wrist first, then thread the crossface arm for the figure-four while maintaining shoulder pressure through body weight"
+      },
+      {
+        "error": "Lifting captured elbow away from body during the rotational finish",
+        "consequence": "Reduces mechanical leverage dramatically and allows the opponent to extract their arm by straightening against the weakened figure-four",
+        "correction": "Keep the captured elbow pinned tightly against your hip bone throughout the entire finishing sequence, using it as the fixed fulcrum point for all rotation"
+      },
+      {
+        "error": "Pulling the wrist with arm strength instead of using body rotation and weight",
+        "consequence": "Fatigues quickly, gives opponent time to organize defense, and produces inconsistent finishing pressure that experienced defenders can resist",
+        "correction": "Drive the finish through hip rotation and body weight shift, letting your torso movement power the wrist arc rather than muscling with your arms"
+      },
+      {
+        "error": "Attacking before securing proper wrist control with confirmed C-grip",
+        "consequence": "Opponent strips the grip easily during the threading phase and becomes defensively aware, making subsequent attempts significantly harder",
+        "correction": "Confirm solid wrist grip with thumb toward their fingers before committing to the figure-four transition, ensuring you have purchase before the arm thread"
+      },
+      {
+        "error": "Neglecting base during the finishing sequence by focusing entirely on the grip",
+        "consequence": "Opponent bridges and rolls successfully, reversing position and escaping from what should be a secured submission",
+        "correction": "Maintain wide base with far leg posted and hips low throughout the finish, distributing weight across the opponent's upper body while applying rotation"
+      },
+      {
+        "error": "Rushing the rotation at competition speed during training",
+        "consequence": "Risks serious shoulder injury to training partner including rotator cuff tears and labral damage requiring months of recovery",
+        "correction": "Apply rotation over three to five seconds minimum in training, giving partner clear time to recognize the danger and tap before the shoulder reaches its limit"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Grip Isolation",
+        "focus": "Figure-four mechanics and wrist control",
+        "description": "Practice transitioning from crossface position to figure-four grip on a compliant partner, focusing on C-grip wrist control, arm threading speed, and elbow pinning mechanics without resistance or rotation"
+      },
+      {
+        "phase": "Position Integration",
+        "focus": "Combining passing pressure with kimura entry",
+        "description": "Flow from quarter guard passing pressure into kimura setup with a cooperative partner, practicing recognition of arm exposure windows during underhook attempts and framing sequences"
+      },
+      {
+        "phase": "Resistance Drilling",
+        "focus": "Finishing against progressive defense",
+        "description": "Partner applies increasing resistance including straightening the arm, grabbing shorts, bridging toward trapped arm, and turning in while you maintain grip control and complete the rotation"
+      },
+      {
+        "phase": "Chain Attacks",
+        "focus": "Kimura as part of submission sequences",
+        "description": "Practice transitioning between kimura, americana, and armbar when opponents defend each submission, developing the ability to flow between attacks based on defensive reactions"
+      },
+      {
+        "phase": "Live Application",
+        "focus": "Competition timing and opportunity recognition",
+        "description": "Incorporate kimura attacks into live rolling from half guard and quarter guard positions, focusing on recognizing real-time opportunities and committing to attacks during transitions without hesitation"
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What anatomical structure does the Kimura from Quarter Guard primarily attack?",
+        "answer": "The Kimura primarily attacks the shoulder joint, specifically targeting the rotator cuff complex including the supraspinatus, infraspinatus, teres minor, and subscapularis muscles, the glenoid labrum, and the shoulder capsule through forced internal rotation that exceeds the joint's natural range of motion.",
+        "safety_critical": false
+      },
+      {
+        "question": "Your opponent straightens their arm as you attempt the figure-four grip\u2014what adjustment do you make?",
+        "answer": "Maintain your wrist grip and use chest pressure to drive their arm back into the bent position by pressing your body weight forward. If they resist the rebend, transition to a straight armbar opportunity since their extended arm is now vulnerable to hyperextension attacks from your dominant quarter guard top position.",
+        "safety_critical": false
+      },
+      {
+        "question": "What are the critical control points that must be established before attempting the kimura rotation?",
+        "answer": "Before attempting rotation, you must have a secure figure-four grip locked around their wrist and forearm, their elbow pinned tightly against your hip creating the fulcrum, crossface or shoulder pressure preventing their body from turning into you, and your base positioned wide enough to resist bridge escape attempts during the finishing sequence.",
+        "safety_critical": false
+      },
+      {
+        "question": "How does the quarter guard position create unique advantages for the kimura compared to standard half guard top?",
+        "answer": "Quarter guard provides superior kimura opportunities because your hips have advanced past the opponent's centerline, giving you more weight distribution over their upper body. The bottom player's compromised position forces them to use their arms more aggressively for frames and underhooks, creating frequent arm exposure windows. Their reduced leg control also limits the hip movement needed for effective bridge escapes during the finish.",
+        "safety_critical": false
+      },
+      {
+        "question": "Your opponent bridges toward the trapped arm during the finishing sequence\u2014how do you maintain control?",
+        "answer": "Widen your base by stepping your far leg out while keeping your near knee tight to their hip. Drop your weight heavily through your chest onto their upper body to flatten them back down. If the bridge continues despite weight adjustment, follow the roll direction and maintain the grip\u2014you can finish the kimura from the resulting position or transition to side control with the grip intact.",
+        "safety_critical": false
+      },
+      {
+        "question": "What grip adjustments should you make if your opponent's wrist becomes difficult to control during rotation?",
+        "answer": "Deepen the figure-four by sliding your gripping hand further past their wrist toward their forearm, increasing the contact surface area for control. Squeeze your elbows together to compress the grip configuration. If the grip continues slipping, pause the rotation and reposition your hands with a fresh grip before continuing rather than rushing the finish with compromised control.",
+        "safety_critical": false
+      },
+      {
+        "question": "When should you immediately release the Kimura during training, and what is the proper release sequence?",
+        "answer": "Release immediately upon any tap signal\u2014verbal, hand tap, foot tap, or any distress sound. The release sequence is: stop all rotational pressure instantly, return the wrist toward neutral by externally rotating back to starting position, release the figure-four grip completely, and allow your partner to self-assess shoulder mobility before continuing. Never release suddenly or let the arm spring back forcefully.",
+        "safety_critical": true
+      },
+      {
+        "question": "What is the point of no escape for the defender, and how do you recognize when the submission is secured?",
+        "answer": "The point of no escape occurs when the elbow is pinned firmly to your hip, the figure-four is fully locked with both wrists secured, and rotation has passed approximately forty-five degrees of internal rotation. Indicators include the opponent's body beginning to twist involuntarily with the rotation, their free hand switching from grip fighting to preparing to tap, and audible distress signals. Once past this point, apply remaining pressure slowly.",
+        "safety_critical": true
+      },
+      {
+        "question": "Your opponent grabs their own shorts to anchor against the rotation\u2014how do you break this defense?",
+        "answer": "Address the shorts grip by first increasing your chest pressure to limit their ability to maintain the anchor. Then use a circular motion with the figure-four, arcing the wrist in a wider circle that creates changing angles the static shorts grip cannot sustain. You can also bump their gripping hand free with your knee or hip. If the grip persists, consider transitioning to an americana by switching the rotational direction.",
+        "safety_critical": false
+      },
+      {
+        "question": "How do you manage the transition from crossface control to kimura grip without losing positional dominance?",
+        "answer": "Maintain shoulder pressure through the crossface side even as your hands transition to the kimura grip. Your shoulder should stay heavy on their face or far cheek throughout the transition using body weight rather than hand control. Secure the wrist with your far hand first before moving your crossface arm, then thread the figure-four arm quickly while your shoulder maintains pressure through positioning.",
+        "safety_critical": false
+      }
+    ]
+  },
+  "defender": {
+    "name": "from Quarter Guard Defender",
+    "description": "Defend against the Kimura from Quarter Guard. Learn recognition cues, grip breaking, escape techniques, and recovery strategies to survive this shoulder lock attack.",
+    "overview": "Defending the Kimura from Quarter Guard demands early recognition and immediate grip prevention, as the compromised quarter guard position already limits your mobility and framing options significantly. The defender must balance the need to maintain underhook control for sweeps with the risk of exposing their arm to the figure-four grip. Successful defense requires understanding the attacker's grip sequence and intervening before the figure-four locks fully, using body rotation, grip fighting, and guard recovery to neutralize the threat before the shoulder enters dangerous rotation. The quarter guard bottom position adds urgency because your reduced leg engagement means you cannot generate the powerful hip escapes available from full half guard, making early grip prevention far more important than late-stage escape attempts.",
+    "key_principles": [
+      "Recognize the kimura threat early\u2014once the figure-four is fully locked, escape difficulty increases dramatically with each passing second",
+      "Keep elbows tight to your body to deny the wrist exposure needed for the initial C-grip control",
+      "Fight the grip before it locks completely\u2014breaking a partial figure-four is far easier than escaping a completed one",
+      "Use hip rotation toward the attacker to reduce the rotational angle available for the finishing sequence",
+      "Maintain at least one grip break option at all times, keeping your free hand ready to fight the figure-four or anchor your wrist",
+      "Bridge timing is critical\u2014bridge toward the trapped arm before rotation begins, not during the finish when the attacker's leverage is maximal"
+    ],
+    "recognition_cues": [
+      "Opponent's far hand releases position control and reaches toward your near wrist or forearm instead of maintaining hip pressure",
+      "Crossface pressure shifts as opponent begins threading their arm under your trapped arm for the figure-four configuration",
+      "Sudden weight shift toward your head combined with your elbow being driven toward the opponent's hip bone",
+      "Opponent abandons passing momentum and redirects attention specifically to controlling and isolating your near arm"
+    ],
+    "defensive_options": [
+      {
+        "action": "Straighten arm and pull elbow tight to ribs to deny bent-arm configuration",
+        "when_to_use": "Immediately when you feel the opponent's hand gripping your wrist before the figure-four threads",
+        "targets_outcome": "Quarter Guard/Top",
+        "if_successful": "Denies the kimura entry completely and forces opponent to return to passing",
+        "risk": "Extended arm may be vulnerable to straight armbar if opponent transitions"
+      },
+      {
+        "action": "Bridge toward trapped arm side and roll through to break the figure-four grip",
+        "when_to_use": "After the figure-four is locked but before significant rotation has started",
+        "targets_outcome": "Half Guard/Top",
+        "if_successful": "Breaks the grip through momentum and recovers to half guard or creates a scramble",
+        "risk": "If bridge is weak or mistimed, opponent can follow the roll and finish the kimura from the new angle"
+      },
+      {
+        "action": "Turn body aggressively into the attacker to reduce available rotational angle",
+        "when_to_use": "During any phase where the opponent's base is compromised or weight is shifted forward",
+        "targets_outcome": "Half Guard/Top",
+        "if_successful": "Eliminates the rotational path needed for the finish and creates guard recovery opportunity",
+        "risk": "Turning in may expose your back if the opponent abandons the kimura and takes back control"
+      },
+      {
+        "action": "Grab own wrist with free hand to create two-on-one anchor against rotation",
+        "when_to_use": "When figure-four is locked and you cannot straighten the arm or bridge effectively",
+        "targets_outcome": "Quarter Guard/Top",
+        "if_successful": "Stalls the rotation and buys time to set up bridge escape or guard recovery",
+        "risk": "Temporary measure only\u2014attacker can break the wrist grip with persistent pressure and angle changes"
+      }
+    ],
+    "escape_paths": [
+      "Straighten the captured arm powerfully and pull elbow tight to your ribcage, breaking the figure-four configuration before rotation can begin",
+      "Bridge toward the trapped arm side and roll through using momentum to break the grip and recover half guard position",
+      "Turn aggressively into the attacker while pulling the arm free, reducing rotational angle and creating space to recover guard"
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Half Guard/Top",
+        "how": "Bridge and roll when attacker overcommits weight to the finish, using their grip attachment against them to disrupt base and recover to half guard with improved defensive position"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Reaching aggressively for underhooks without protecting wrist position",
+        "consequence": "Creates the exact arm exposure the top player needs for the kimura C-grip entry, turning your primary offensive tool into a submission vulnerability",
+        "correction": "Reach for underhooks with awareness of wrist position, keeping your elbow bent and close to your body until the underhook is fully secured rather than extending with a straight arm"
+      },
+      {
+        "error": "Waiting too long to defend hoping the kimura attempt will fail on its own",
+        "consequence": "Once rotation begins with proper elbow pin, escape probability drops below twenty percent and injury risk increases with each degree of rotation",
+        "correction": "Defend immediately upon recognizing the grip threat\u2014fight the wrist control, straighten the arm, or bridge before the figure-four fully locks rather than after"
+      },
+      {
+        "error": "Pulling straight back against the figure-four direction to escape",
+        "consequence": "Fighting directly against the figure-four leverage accelerates the internal rotation and can cause sudden shoulder injury before you can tap",
+        "correction": "Turn your body into the attacker or bridge toward the trapped arm to reduce the angle rather than pulling directly against the submission's mechanical advantage"
+      },
+      {
+        "error": "Using the free arm to push the attacker's body away instead of fighting the grip",
+        "consequence": "Exposes the free arm to secondary attacks while removing your best grip-fighting tool from the primary defense",
+        "correction": "Keep your free hand connected to your trapped wrist for anchoring or actively fighting the figure-four grip rather than pushing against the attacker's torso"
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "How do you recognize that a Kimura from Quarter Guard is being set up before the grip locks?",
+        "answer": "Key recognition cues include the top player's far hand releasing hip control and reaching toward your near wrist, a shift in their pressure from passing-focused to arm-isolation-focused, their crossface arm beginning to thread underneath your forearm, and sudden attention to controlling your near arm rather than advancing the pass. Any time the top player abandons passing momentum to focus on your arm, assume a kimura attack is developing.",
+        "safety_critical": false
+      },
+      {
+        "question": "What is the safest response when you feel the figure-four grip beginning to close around your wrist?",
+        "answer": "The safest immediate response is to straighten your arm powerfully while pulling your elbow tight to your ribcage, denying the bent-arm configuration the kimura requires. If the grip is already partially locked, use your free hand to grip your own wrist and fight to straighten the arm. Never try to muscle out by rotating against the submission direction as this accelerates injury risk. Tap immediately if rotation begins and you cannot break the grip.",
+        "safety_critical": true
+      },
+      {
+        "question": "At what point should you tap to the Kimura from Quarter Guard to prevent injury?",
+        "answer": "Tap immediately when you feel the shoulder rotation passing the point where you can actively resist or reverse the submission. Specific indicators include sharp or increasing pain in the shoulder joint, inability to prevent further rotation despite maximum effort, and feeling your shoulder forced past its comfortable range of motion. In training, tap early\u2014the shoulder is vulnerable to injuries requiring months of recovery and potentially surgery. Never wait to test your limits once significant rotation has begun.",
+        "safety_critical": true
+      },
+      {
+        "question": "What defensive options are available once the figure-four is fully locked but rotation has not started?",
+        "answer": "With the figure-four locked pre-rotation, your best options are: bridge toward the trapped arm side to disrupt the attacker's base and potentially roll through; grab your own wrist with your free hand to fight straightening the arm; turn your body aggressively into the attacker to reduce the available rotational angle; or use your legs to hook the attacker's leg and create leverage for a bridge escape. These options diminish rapidly once rotation begins.",
+        "safety_critical": false
+      },
+      {
+        "question": "What common mistake causes defenders to get caught by the Kimura from Quarter Guard most frequently?",
+        "answer": "The most common mistake is overcommitting to the underhook without protecting the wrist. Practitioners focus so intently on establishing the underhook for sweeps and back takes that they extend their arm carelessly, creating the exact wrist exposure the top player needs. The correction is to reach for the underhook with awareness of your wrist position, keeping your elbow bent and close to your body until the underhook is fully secured rather than reaching with an extended arm.",
+        "safety_critical": false
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Recognition Drilling",
+        "focus": "Identifying setup cues and early warning signs",
+        "description": "Partner slowly sets up the kimura from quarter guard while you practice identifying each stage of the grip sequence and reacting with appropriate defense before the figure-four fully locks"
+      },
+      {
+        "phase": "Escape Mechanics",
+        "focus": "Bridge and roll technique with grip breaking",
+        "description": "Start with a completed figure-four grip and practice bridge timing, directional control toward the trapped arm, and grip-breaking mechanics under controlled conditions with progressive resistance"
+      },
+      {
+        "phase": "Prevention Integration",
+        "focus": "Arm management during quarter guard defense",
+        "description": "Practice maintaining underhook attempts from quarter guard bottom while keeping wrist protected, developing the ability to pursue offensive options without creating kimura vulnerabilities"
+      },
+      {
+        "phase": "Live Defense Application",
+        "focus": "Real-time recognition and defense under pressure",
+        "description": "Defend kimura attempts during live rolling from quarter guard bottom, integrating recognition, prevention, grip fighting, and escape into fluid defensive responses at realistic intensity"
+      }
+    ]
+  }
+}

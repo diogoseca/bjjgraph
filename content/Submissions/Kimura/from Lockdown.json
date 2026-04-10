@@ -1,0 +1,449 @@
+{
+  "name": "Kimura from Lockdown",
+  "description": "Master the Kimura from Lockdown in BJJ. Learn how the lockdown half guard creates unique shoulder lock opportunities with trapped-leg control mechanics.",
+  "tags": [
+    "bjj",
+    "submission",
+    "kimura",
+    "shoulder-lock",
+    "joint-lock",
+    "fundamental",
+    "hub",
+    "finishing-guide",
+    "lockdown",
+    "10th-planet",
+    "half-guard"
+  ],
+  "submission_category": "Joint Lock",
+  "submission_type": "Shoulder Lock",
+  "target_area": "Shoulder joint, rotator cuff, and shoulder capsule",
+  "starting_position": "Lockdown",
+  "from_position": "Lockdown/Bottom",
+  "success_rate": 62,
+  "overview": "The Kimura from Lockdown combines 10th Planet's signature leg entanglement with one of grappling's most fundamental shoulder locks. From lockdown half guard, the bottom practitioner uses the figure-four leg configuration to immobilize the top player's base, then capitalizes on the resulting broken posture to isolate and attack the near arm. This integration of lower body control with upper body submission creates a particularly difficult defensive puzzle, as the opponent cannot simultaneously address the leg entanglement and the Kimura grip.\n\nWhat distinguishes this Kimura variant is the lockdown's ability to eliminate the top player's primary escape mechanisms. In a standard half guard Kimura, the top player can often posture up, step over, or create distance to defend. The lockdown removes these options by anchoring their leg and compromising their base, forcing them to defend the shoulder lock with grip fighting alone. The lockdown extension can also be timed with the Kimura rotation to multiply finishing pressure, as extending the opponent's trapped leg while rotating their arm creates simultaneous structural attacks on two planes.\n\nThis technique fits naturally into the lockdown attacking system as a complement to the Electric Chair and Old School sweep. When the opponent defends sweeps by keeping their arms tight and weight forward, the Kimura becomes available as a secondary attack. This sweep-to-submission chain creates the dilemma-based offense that characterizes effective lockdown play at intermediate and advanced levels.",
+  "safety_considerations": {
+    "injury_risks": [
+      {
+        "injury": "Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis)",
+        "severity": "High",
+        "recovery_time": "3-9 months with potential surgery requirement"
+      },
+      {
+        "injury": "Shoulder capsule damage and dislocation",
+        "severity": "CRITICAL",
+        "recovery_time": "6-12 months, may require surgical repair"
+      },
+      {
+        "injury": "Labral tear (glenoid labrum)",
+        "severity": "High",
+        "recovery_time": "4-8 months, often requires arthroscopic surgery"
+      },
+      {
+        "injury": "Bicep tendon strain or rupture",
+        "severity": "Medium",
+        "recovery_time": "6-12 weeks for strain, 3-6 months for rupture"
+      }
+    ],
+    "application_speed": "SLOW and progressive - 3-5 seconds minimum in training, allowing partner time to recognize danger and tap",
+    "tap_signals": [
+      "Verbal tap (saying 'tap' or making any verbal distress sound)",
+      "Physical hand tap (multiple taps with free hand)",
+      "Physical foot tap (multiple taps with either foot)",
+      "Any distress signal including screaming or unusual sounds"
+    ],
+    "release_protocol": [
+      "Immediately stop all rotational pressure the instant tap is felt or heard",
+      "Return the arm toward neutral position by externally rotating back to starting position",
+      "Release the figure-four grip completely before releasing lockdown",
+      "Allow partner to self-assess shoulder mobility before continuing",
+      "Never release suddenly or allow arm to spring back forcefully"
+    ],
+    "training_restrictions": [
+      "Never spike or jerk the submission - rotation must be smooth and controlled",
+      "Never use competition speed or surprise attacks in training",
+      "Always ensure partner has at least one hand free to tap",
+      "Do not apply while partner is in awkward body position that prevents tapping",
+      "Never combine lockdown extension with maximum Kimura rotation simultaneously at full force",
+      "Respect immediate taps without testing partner's pain tolerance"
+    ]
+  },
+  "from_positions": [
+    "Lockdown",
+    "Half Guard"
+  ],
+  "related_submissions": [
+    "Kimura",
+    "Electric Chair",
+    "Americana",
+    "Reverse Kimura",
+    "Electric Chair",
+    "Arm Crush"
+  ],
+  "related_content": [
+    {
+      "name": "Lockdown",
+      "relationship": "Starting position for this submission variant"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Parent position system that includes lockdown"
+    },
+    {
+      "name": "Kimura Trap",
+      "relationship": "Control position accessible when opponent defends the initial Kimura"
+    },
+    {
+      "name": "Electric Chair",
+      "relationship": "Related lockdown attack that creates dilemma with Kimura threats"
+    },
+    {
+      "name": "Kimura",
+      "relationship": "Parent submission family - this is the lockdown-specific variant"
+    }
+  ],
+  "outcomes": [
+    {
+      "to": "game-over",
+      "probability": 62,
+      "result": "success"
+    },
+    {
+      "to": "Lockdown/Bottom",
+      "probability": 25,
+      "result": "failure"
+    },
+    {
+      "to": "Half Guard/Bottom",
+      "probability": 13,
+      "result": "counter"
+    }
+  ],
+  "attacker": {
+    "name": "from Lockdown Attacker",
+    "description": "Learn to attack the Kimura from Lockdown half guard. Step-by-step guide covering grip setup, lockdown coordination, and finishing mechanics for this shoulder lock.",
+    "overview": "Attacking the Kimura from Lockdown requires coordinating lower body lockdown control with upper body grip fighting to isolate and finish the shoulder lock. The attacker must use lockdown extensions to break posture and create openings for the figure-four grip, then maintain hip angle and wrist control throughout the finishing rotation. Success depends on timing the grip transition from overhook to Kimura configuration while the opponent is off-balance from lockdown pressure. The lockdown serves double duty here: it prevents posture recovery and eliminates the step-over escape that defeats most bottom-position Kimura attempts.",
+    "key_principles": [
+      "Use lockdown extensions to break posture before initiating the Kimura grip - never reach for the arm while opponent has full posture",
+      "Transition from overhook to wrist control during opponent's recovery attempts when their attention is split between lockdown and upper body",
+      "Hip escape away from opponent to create the finishing angle before rotating the arm behind the back",
+      "Coordinate lockdown extension with Kimura rotation to attack the opponent's structure on two planes simultaneously",
+      "Maintain elbow control throughout the finish by keeping opponent's elbow pinched tight against your torso",
+      "Attack the Kimura when sweep defenses expose the arm - treat it as a chain from sweep threats rather than an isolated attack"
+    ],
+    "setup_requirements": [
+      "Established lockdown with tight figure-four configuration on opponent's trapped leg, ankles crossed and locked",
+      "Opponent's posture broken or compromised through lockdown extension, preventing them from posturing up to defend",
+      "Overhook or direct wrist control established on opponent's near-side arm after posture break",
+      "Hip angle created through hip escape to provide space for arm rotation behind opponent's back",
+      "Opponent's far hand occupied with posting or defending sweep, limiting their ability to strip the Kimura grip"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Break posture with lockdown extension",
+        "description": "From lockdown bottom with underhook or overhook, extend your lockdown by straightening your legs and driving your hips away from your opponent. This pulls their trapped leg and collapses their base, forcing their upper body weight onto you and breaking their posture. Their arms will post on the mat or reach for grips, exposing the near arm.",
+        "timing": "1-2 seconds for full extension"
+      },
+      {
+        "step_number": 2,
+        "action": "Secure overhook on near arm",
+        "description": "As opponent's posture breaks forward, thread your near-side arm over their posting arm and lock an overhook by cupping your hand around their tricep or elbow. Squeeze the overhook tight against your body to prevent them from retracting the arm. The lockdown must remain active to prevent posture recovery during this grip transition.",
+        "timing": "1-2 seconds to establish overhook"
+      },
+      {
+        "step_number": 3,
+        "action": "Transition to figure-four Kimura grip",
+        "description": "Slide your overhook hand down to grip their wrist, then bring your far hand underneath their arm to clasp your own wrist in the figure-four configuration. The grip should be palm-to-palm or wrist-to-wrist with your hands locked tightly. Keep their elbow pinned against your torso throughout this transition to prevent them from straightening the arm to defend.",
+        "timing": "2-3 seconds for grip transition"
+      },
+      {
+        "step_number": 4,
+        "action": "Hip escape to create finishing angle",
+        "description": "With the Kimura grip secured, perform a hip escape away from your opponent by pushing off with your free foot and shrimping your hips toward their trapped leg side. This creates the angle necessary to rotate their arm behind their back. Without this angle, the Kimura becomes a strength contest rather than a leverage-based finish. Maintain tight lockdown during the escape.",
+        "timing": "1-2 seconds for hip escape"
+      },
+      {
+        "step_number": 5,
+        "action": "Pin elbow and begin rotation",
+        "description": "With the angle established, pull their elbow tight against your ribcage using the figure-four grip. Begin rotating their wrist toward their back in a paint-brush motion, keeping the rotation arc tight and controlled. The elbow must remain as the fixed pivot point while the wrist traces the arc. Do not let the elbow float away from your body during rotation.",
+        "timing": "2-3 seconds for controlled rotation"
+      },
+      {
+        "step_number": 6,
+        "action": "Coordinate lockdown extension with final rotation",
+        "description": "As you approach the finishing angle, extend the lockdown simultaneously with the final Kimura rotation. This dual pressure prevents the opponent from bridging or rolling to relieve shoulder pressure while the rotation continues. The extension drives their hip away while the Kimura drives their arm back, creating opposing forces that multiply the submission pressure on the shoulder joint.",
+        "timing": "1-2 seconds, slow and controlled"
+      },
+      {
+        "step_number": 7,
+        "action": "Complete the finish with progressive pressure",
+        "description": "Continue the wrist rotation toward their back until you feel the shoulder lock engage. Apply pressure progressively, not explosively, giving your opponent time to tap. The finish comes when their wrist is driven past the midline of their back with their elbow pinned. In training, stop the moment you feel the shoulder lock tighten and wait for the tap rather than cranking through.",
+        "timing": "2-3 seconds of progressive pressure until tap"
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Opponent straightens arm and grabs own shorts or belt to create a frame preventing rotation",
+        "effectiveness": "High",
+        "your_response": "Keep elbow pinched to your body and use short pulsing rotations to break the grip. Alternatively, switch to straight armbar by throwing your leg over their head while maintaining the grip on their straightened arm.",
+        "targets_outcome": "Lockdown/Bottom"
+      },
+      {
+        "counter": "Opponent rolls toward the Kimura side to relieve rotational pressure on the shoulder",
+        "effectiveness": "Medium",
+        "your_response": "Follow the roll by maintaining the Kimura grip and adjusting your hip angle. The roll often exposes their back, allowing you to transition to back control while maintaining the Kimura grip for a mounted or back Kimura finish.",
+        "targets_outcome": "Lockdown/Bottom"
+      },
+      {
+        "counter": "Opponent drives forward aggressively with shoulder pressure to flatten you and strip the grip",
+        "effectiveness": "Medium",
+        "your_response": "Use their forward pressure for the whip-up sweep by extending the lockdown and coming up to your elbow. Their forward commitment makes the sweep higher percentage, and you can maintain the Kimura grip throughout the sweep to finish from top.",
+        "targets_outcome": "Lockdown/Bottom"
+      },
+      {
+        "counter": "Opponent extracts trapped leg from lockdown to create space and posture up against Kimura",
+        "effectiveness": "High",
+        "your_response": "If lockdown is lost, immediately close your guard around their waist to maintain proximity and retain the Kimura grip. Transition to a standard closed guard Kimura or use the grip to sweep to mount with the Kimura still locked.",
+        "targets_outcome": "Half Guard/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Reaching for the Kimura grip before breaking posture with lockdown extension",
+        "consequence": "Opponent maintains strong posture and easily strips the grip attempt or postures out of range entirely",
+        "correction": "Always extend the lockdown first to collapse their base and break posture, then transition to the Kimura grip while they are off-balance and their arm is exposed"
+      },
+      {
+        "error": "Releasing or loosening the lockdown configuration while focusing on establishing the Kimura grip",
+        "consequence": "Opponent extracts their trapped leg and passes to side control, eliminating both the Kimura and positional control",
+        "correction": "Maintain tight lockdown throughout the entire Kimura attack sequence by keeping ankles crossed and squeezing knees together even while transitioning grips on the upper body"
+      },
+      {
+        "error": "Attempting to finish the Kimura without hip escaping to create a finishing angle",
+        "consequence": "The rotation becomes a strength contest that you will likely lose from bottom position, and opponent can stack weight to prevent the finish",
+        "correction": "Always hip escape away from opponent before beginning the rotation to create the angle that allows leverage-based finishing rather than strength-based forcing"
+      },
+      {
+        "error": "Allowing opponent's elbow to float away from your body during the Kimura rotation",
+        "consequence": "Opponent creates space to straighten their arm and escape the figure-four grip, or rotates their body to relieve pressure",
+        "correction": "Keep the elbow pinched tight against your ribcage throughout the entire rotation by squeezing your elbows together and maintaining the figure-four grip close to your centerline"
+      },
+      {
+        "error": "Cranking the Kimura rotation too quickly or explosively in training",
+        "consequence": "Risk of serious shoulder injury to training partner including rotator cuff tears, labral damage, or shoulder dislocation",
+        "correction": "Apply rotation progressively over 3-5 seconds, giving partner clear time to recognize the danger and tap before the joint reaches its end range"
+      },
+      {
+        "error": "Attacking the Kimura as an isolated technique rather than chaining from sweep threats",
+        "consequence": "Opponent anticipates and defends the Kimura easily because they have no competing threat to divide their attention",
+        "correction": "Set up the Kimura from sweep defense reactions - when opponent defends the whip-up or Old School by keeping arms tight, use that positioning to transition into the Kimura"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Grip Mechanics Isolation",
+        "focus": "Figure-four grip establishment from overhook",
+        "description": "Practice the overhook-to-wrist-control-to-figure-four transition as a standalone drill. Partner provides no resistance. Focus on grip placement, hand positioning, and maintaining elbow contact with your torso throughout the transition. Repeat 20-30 times per side."
+      },
+      {
+        "phase": "Phase 2: Lockdown-to-Kimura Coordination",
+        "focus": "Timing lockdown extension with grip transitions",
+        "description": "From established lockdown, practice the full sequence of extension-to-posture-break-to-overhook-to-Kimura-grip. Partner provides light resistance on posture recovery. Focus on maintaining lockdown integrity while transitioning upper body grips. Add the hip escape for angle creation."
+      },
+      {
+        "phase": "Phase 3: Finishing Against Progressive Resistance",
+        "focus": "Completing the Kimura against defensive responses",
+        "description": "Partner defends with increasing intensity: first grip fighting only, then adding posture recovery, then full defensive movement. Practice maintaining the Kimura through common counters like arm straightening, rolling, and grip stripping. Develop sensitivity to when the lock is engaging."
+      },
+      {
+        "phase": "Phase 4: Chain Integration With Sweep Game",
+        "focus": "Combining Kimura with whip-up and Old School attacks",
+        "description": "Alternate between sweep attempts and Kimura attacks based on partner's reactions during live positional sparring from lockdown. If partner defends sweep by posting arm, attack Kimura. If partner defends Kimura by pulling arm back, attack sweep. Develop recognition of which attack is available."
+      },
+      {
+        "phase": "Phase 5: Competition Scenario Sparring",
+        "focus": "Live application with full resistance and time pressure",
+        "description": "Full positional sparring starting from lockdown. Apply the Kimura in context with all other lockdown attacks available. Partner works full-speed passing and defense. Develop timing, recognition, and commitment decisions under realistic conditions."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What anatomical structures does the Kimura from Lockdown primarily attack?",
+        "answer": "The Kimura from Lockdown primarily attacks the shoulder joint through forced internal rotation. Specifically, it targets the rotator cuff muscles (supraspinatus, infraspinatus, teres minor, subscapularis), the glenohumeral ligaments, the glenoid labrum, and the shoulder capsule. Secondary stress is placed on the biceps tendon and the acromioclavicular joint when the arm is driven behind the back.",
+        "safety_critical": true
+      },
+      {
+        "question": "What physical indicators tell you the Kimura is reaching the breaking point?",
+        "answer": "The primary indicator is increasing resistance in the rotation as the shoulder approaches its end range of internal rotation. You will feel the arm stop moving smoothly and begin to resist progressively. The opponent's body will tense and they may begin to bridge or squirm. You may feel or hear small clicking sensations in the joint. In training, the moment you feel significant resistance increase, hold position and wait for the tap rather than forcing through.",
+        "safety_critical": true
+      },
+      {
+        "question": "Why must you break posture with the lockdown extension before initiating the Kimura grip?",
+        "answer": "Breaking posture first serves three critical functions. First, it collapses the opponent's base so they cannot simply posture up and strip the grip. Second, it forces their arms to post on the mat, exposing the near arm for the overhook transition. Third, it splits their defensive attention between recovering posture and defending their arm, preventing them from dedicating full focus to grip defense. Without the posture break, the opponent can simply stack weight and posture out of the Kimura.",
+        "safety_critical": false
+      },
+      {
+        "question": "Your opponent begins straightening their trapped arm to prevent the Kimura rotation - what adjustment do you make?",
+        "answer": "When the opponent straightens their arm, maintain the figure-four grip and keep their elbow pinched to your torso. Use short pulsing rotations to fatigue their grip rather than trying to overpower the straightened arm in one motion. If the arm remains straight, consider transitioning to a straight armbar by throwing your outside leg over their head while maintaining wrist control, using the straightened arm against them. The key is not to abandon the position but to chain to a complementary attack.",
+        "safety_critical": false
+      },
+      {
+        "question": "At what point during the Kimura from Lockdown does the opponent pass the point of no escape?",
+        "answer": "The point of no escape occurs when the figure-four grip is locked, the hip escape angle is established, and the opponent's elbow is pinned tight against your ribcage. Once their wrist passes the midline of their body toward their back with the elbow controlled, they cannot generate enough leverage to reverse the rotation. Before this point, they can still strip grips, straighten the arm, or roll. After this point, their only option is to tap or accept joint damage.",
+        "safety_critical": false
+      },
+      {
+        "question": "How do you adjust the Kimura grip when your opponent's wrist is sweaty and slipping?",
+        "answer": "When wrist control slips due to sweat, switch from a wrist-on-wrist grip to a palm-to-palm or monkey grip where your fingers interlock around their forearm slightly above the wrist where there is more surface area. You can also grip their sleeve or gi material if training in the gi. In no-gi, grabbing slightly higher on the forearm where the muscle provides more friction prevents slipping. Never compensate for grip loss by increasing rotation speed.",
+        "safety_critical": false
+      },
+      {
+        "question": "What is the correct release protocol when your partner taps to the Kimura from Lockdown?",
+        "answer": "Immediately stop all rotational pressure the instant the tap is felt or heard. Slowly return the arm toward neutral position by externally rotating back to the starting position - do not release suddenly or let the arm spring back. Release the figure-four grip completely, then release the lockdown on the legs. Allow your partner to self-assess their shoulder mobility before continuing training. If there is any indication of injury, stop the round entirely.",
+        "safety_critical": true
+      },
+      {
+        "question": "How does the lockdown extension coordinate with the Kimura rotation during the finish?",
+        "answer": "The lockdown extension and Kimura rotation create opposing forces that multiply finishing pressure. The lockdown extension drives the opponent's hip and trapped leg away from you, preventing them from bridging toward the Kimura side to relieve pressure. Simultaneously, the Kimura rotation drives their arm behind their back. These opposing vectors mean the opponent cannot use whole-body movement to resist the shoulder lock because their lower body is being pulled in the opposite direction from their arm.",
+        "safety_critical": false
+      },
+      {
+        "question": "In competition, what strategies increase the finishing rate of the Kimura from Lockdown?",
+        "answer": "In competition, set up the Kimura through sweep threats first rather than attacking it directly. Opponents defending sweeps expose their arms, creating higher-percentage grip entries. Establish the Kimura grip and hold it through positional transitions rather than trying to finish immediately from bottom. If possible, use the Kimura grip to sweep to top position and finish from mount or side control where gravity assists the rotation. Time the final rotation with the referee's position to ensure visibility of the tap.",
+        "safety_critical": false
+      },
+      {
+        "question": "What are the three most common finishing errors that prevent completing the Kimura from Lockdown?",
+        "answer": "The three most common finishing errors are: First, not hip escaping to create the finishing angle, which turns the submission into a strength contest from bottom position. Second, allowing the opponent's elbow to float away from your body during rotation, which gives them space to straighten the arm and escape. Third, losing the lockdown configuration during the upper body attack, which lets the opponent posture up and strip the Kimura grip by creating distance. All three relate to failing to maintain structural control during the finish.",
+        "safety_critical": false
+      }
+    ]
+  },
+  "defender": {
+    "name": "from Lockdown Defender",
+    "description": "Defend against the Kimura from Lockdown half guard in BJJ. Recognition cues, grip defense strategies, posture recovery, and escape techniques for this attack.",
+    "overview": "Defending the Kimura from Lockdown requires addressing both the shoulder lock threat and the underlying lockdown control simultaneously. The defender must recognize the grip transition from overhook to Kimura configuration early, then use grip defense, posture recovery, and strategic weight distribution to prevent the finish. Priority should be given to maintaining a strong grip defense while working to extract the trapped leg from the lockdown, as the lockdown is the foundation that enables this Kimura variant. Unlike defending a standard Kimura from half guard, the lockdown prevents the normal posture-and-distance defense, requiring the defender to focus on grip fighting and leg extraction as primary survival tools.",
+    "key_principles": [
+      "Protect your wrist by keeping elbows tight to your body and hands clasped together whenever opponent threatens the overhook",
+      "Work to recover posture through forward pressure even while defending the Kimura grip to limit opponent's finishing angle",
+      "Address both the lockdown and the Kimura simultaneously - neutralizing only one leaves the other as a continuing threat",
+      "Drive weight forward through shoulder pressure to flatten the opponent and restrict their hip mobility for the finishing angle",
+      "Never allow the opponent to isolate your arm with an overhook without immediately fighting to retract the elbow",
+      "Prioritize leg extraction from the lockdown as the highest-percentage long-term defense since it removes the control platform"
+    ],
+    "recognition_cues": [
+      "Opponent establishes an overhook on your near-side arm from lockdown bottom and begins sliding their hand toward your wrist",
+      "Opponent performs a lockdown extension followed immediately by reaching for your posting arm rather than attempting a sweep",
+      "Opponent's free hand reaches underneath your arm to establish the figure-four Kimura configuration",
+      "Opponent begins hip escaping away from you while maintaining lockdown and overhook control on your arm",
+      "You feel your arm being pulled across your centerline toward the opponent's hip while your leg remains trapped in lockdown"
+    ],
+    "defensive_options": [
+      {
+        "action": "Clasp hands together in a gable grip or grab your own belt/shorts to prevent wrist isolation and Kimura rotation",
+        "when_to_use": "Immediately when you feel opponent transitioning from overhook to wrist control before the figure-four is locked",
+        "targets_outcome": "Lockdown/Bottom",
+        "if_successful": "Stalls the Kimura attack and forces opponent to work on breaking your grip, buying time to work on posture recovery and leg extraction",
+        "risk": "Opponent may transition to armbar if you straighten the arm, or maintain position and work to break the grip over time"
+      },
+      {
+        "action": "Drive forward aggressively with shoulder pressure to flatten opponent and eliminate their hip escape angle",
+        "when_to_use": "When opponent begins hip escaping to create the finishing angle but has not yet completed the rotation",
+        "targets_outcome": "Lockdown/Bottom",
+        "if_successful": "Compresses opponent's space and prevents the angle needed to finish the Kimura, potentially allowing you to work the arm free",
+        "risk": "Forward pressure can be redirected into whip-up sweep if opponent abandons the Kimura and attacks the sweep instead"
+      },
+      {
+        "action": "Extract trapped leg from lockdown by driving hip into opponent and circling knee outward while defending the grip",
+        "when_to_use": "When opponent's attention is divided between maintaining lockdown and finishing the Kimura grip",
+        "targets_outcome": "Half Guard/Bottom",
+        "if_successful": "Removes the lockdown control platform, allowing you to posture up and strip the Kimura grip with distance and base",
+        "risk": "Momentary focus on leg extraction may allow opponent to tighten the Kimura grip and advance the rotation"
+      },
+      {
+        "action": "Roll toward the Kimura side to relieve rotational pressure and potentially expose opponent's back",
+        "when_to_use": "When the Kimura rotation is advancing and grip defense alone is insufficient to prevent the finish",
+        "targets_outcome": "Lockdown/Bottom",
+        "if_successful": "Relieves shoulder pressure and may create scramble opportunity where you can recover position",
+        "risk": "Opponent may follow the roll and finish from a different angle, or transition to back control with the Kimura grip maintained"
+      }
+    ],
+    "escape_paths": [
+      "Extract trapped leg from lockdown while defending the Kimura grip to return to standard half guard top position where posture and distance defeat the Kimura",
+      "Drive forward with heavy shoulder pressure to flatten opponent completely, then work to strip the figure-four grip by straightening your arm and pulling the elbow free",
+      "Roll toward the Kimura side to relieve rotational pressure, then use the scramble to recover posture and disengage from both the lockdown and the grip"
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Half Guard/Bottom",
+        "how": "Extract trapped leg from lockdown during the opponent's grip transition, then posture up and strip the Kimura grip to return to standard half guard top where you can resume passing"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Focusing only on grip defense while ignoring the lockdown on your trapped leg",
+        "consequence": "Opponent maintains the control platform that enables the Kimura, allowing them infinite time to work on breaking your defensive grip while your leg remains trapped",
+        "correction": "Divide defensive effort between grip fighting and leg extraction - work to free the trapped leg whenever opponent adjusts their grip, as removing the lockdown eliminates the positional advantage"
+      },
+      {
+        "error": "Pulling the trapped arm straight backward away from opponent to escape the Kimura grip",
+        "consequence": "Pulling backward plays into the lockdown's strength and can actually tighten the lockdown on your leg while exposing your arm to a straight armbar transition",
+        "correction": "Drive forward into the opponent with shoulder pressure and work to retract the elbow toward your hip rather than pulling away. Forward pressure compresses their space and limits their ability to complete the rotation"
+      },
+      {
+        "error": "Sitting back with weight away from opponent when the Kimura is threatened",
+        "consequence": "Creates the exact angle and distance the opponent needs to complete the Kimura rotation, and opens up Old School sweep and Electric Chair attacks simultaneously",
+        "correction": "Always drive weight forward into the opponent when defending from lockdown top. Heavy forward pressure limits their hip escape, restricts their finishing angle, and makes it harder for them to coordinate lockdown extension with Kimura rotation"
+      },
+      {
+        "error": "Attempting to posture up explosively without first addressing the Kimura grip",
+        "consequence": "Explosive posturing while the figure-four is locked can accelerate the shoulder lock and cause injury to yourself, as the locked grip turns your own movement into rotational force on your shoulder",
+        "correction": "Address the grip first by clasping hands or working to break the figure-four configuration, then gradually work to recover posture once the immediate Kimura threat is neutralized"
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "How do you recognize that a Kimura from Lockdown is being set up rather than a sweep?",
+        "answer": "The key distinction is the opponent's hand placement after the lockdown extension. For sweeps, the opponent will reach for underhook control and begin coming up to their elbow or side. For the Kimura, the opponent will establish an overhook on your near arm and begin sliding their hand toward your wrist while their other hand reaches underneath your arm for the figure-four. The overhook-to-wrist transition is the primary recognition cue that differentiates a Kimura setup from a sweep setup.",
+        "safety_critical": false
+      },
+      {
+        "question": "What is the safest way to tap when caught in a Kimura from Lockdown?",
+        "answer": "Tap immediately and clearly when you feel the shoulder lock engage and your defensive grips are failing. Use your free hand to tap multiple times on the opponent's body, leg, or the mat. If your hands are trapped, tap with your feet multiple times or verbally say tap loudly and clearly. Do not wait until pain is severe - tap when you recognize you cannot escape the rotation. The lockdown prevents normal escape routes, so the window between being caught and potential injury is shorter than a standard Kimura.",
+        "safety_critical": true
+      },
+      {
+        "question": "What defensive options are available at each stage of the Kimura from Lockdown attack?",
+        "answer": "During the posture-break stage, fight to maintain posture and prevent the overhook by keeping elbows tight. During the grip-transition stage, immediately clasp hands together to prevent wrist isolation. During the hip-escape stage, drive weight forward to deny the finishing angle. During the rotation stage, roll toward the Kimura to relieve pressure and create a scramble. Throughout all stages, work on extracting the trapped leg from the lockdown, as this removes the control foundation that makes every other defense harder.",
+        "safety_critical": false
+      },
+      {
+        "question": "Why is the Kimura from Lockdown more dangerous than a standard half guard Kimura?",
+        "answer": "The lockdown removes the top player's two primary Kimura defenses: posturing up to create distance and stepping over to change the angle. The figure-four leg lock on the trapped leg prevents both movements, meaning the defender must rely almost entirely on grip fighting and upper body positioning to survive. This makes the escape window shorter and the submission more difficult to defend, requiring earlier recognition and faster defensive response than a standard half guard Kimura.",
+        "safety_critical": true
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Recognition and Grip Defense",
+        "focus": "Identifying the Kimura setup and establishing immediate grip defense",
+        "description": "Partner attacks the Kimura from lockdown at slow speed. Practice recognizing the overhook-to-wrist transition and immediately clasping hands or grabbing your own shorts to prevent the figure-four lock. Repeat until the defensive grip response becomes automatic when you feel the overhook."
+      },
+      {
+        "phase": "Phase 2: Posture Recovery and Leg Extraction",
+        "focus": "Combining grip defense with active posture recovery and lockdown escape",
+        "description": "While defending the Kimura grip, practice driving forward with shoulder pressure and working to extract the trapped leg from the lockdown. Partner maintains moderate lockdown pressure and Kimura threat. Develop the ability to defend the submission while simultaneously addressing the lockdown control."
+      },
+      {
+        "phase": "Phase 3: Escape Under Progressive Resistance",
+        "focus": "Defending and escaping against increasing intensity",
+        "description": "Partner attacks the Kimura from lockdown with increasing speed and commitment. Practice the full defensive sequence: recognize, defend grip, recover posture, extract leg. Include rolling escapes and scramble recovery for situations where the Kimura is nearly locked. Build timing and composure under realistic pressure."
+      },
+      {
+        "phase": "Phase 4: Live Positional Defense Sparring",
+        "focus": "Defending the complete lockdown attack system including Kimura",
+        "description": "Full positional sparring starting in lockdown with partner attacking freely using sweeps, submissions, and back takes. Defend all attacks including the Kimura while working to pass. Develop the ability to distinguish between Kimura setups and sweep setups in real time and apply the appropriate defensive response."
+      }
+    ]
+  }
+}

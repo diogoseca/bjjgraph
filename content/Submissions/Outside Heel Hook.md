@@ -3,24 +3,37 @@
 
 
 ---
-title: "Outside Heel Hook | BJJ Submission | BJJ Graph"
+title: "Outside Heel Hook | BJJ Submission Family | BJJ Graph"
 description: "Master Outside Heel Hook in BJJ. Safety guide covering proper application, knee rotation mechanics, injury prevention, and defensive strategies from leg entanglements."
 ---
 
 
-<body data-content-type="submissions-hub">
+<body data-content-type="submissions-family">
 
 > **SAFETY**: Outside Heel Hook targets the Knee joint, ankle joint, and surrounding ligaments. Risk: ACL tear (anterior cruciate ligament rupture). Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
-<div class="role-links">
 
-[[Outside Heel Hook/Attacker|Play as Attacker]]
-[[Outside Heel Hook/Defender|Play as Defender]]
+<section id="variants" class="content-section">
 
-</div>
+## Position Variants
+
+| From Position | Success Rate | Top Injury Risk | Key Difference |
+|---------------|-------------|-----------------|----------------|
+| [[Outside Heel Hook/from 50-50 Guard|50-50 Guard]] | 45% | ACL tear (anterior cruciate ligament rupture) |  |
+| [[Outside Heel Hook/from Backside 50-50|Backside 50-50]] | 45% | Lateral collateral ligament (LCL) tear from rotational torque exceeding tissue tolerance |  |
+| [[Outside Heel Hook/from Cross Ashi-Garami|Cross Ashi-Garami]] | 45% | ACL tear (anterior cruciate ligament rupture) |  |
+| [[Outside Heel Hook/from Honey Hole|Honey Hole]] | 45% | ACL tear (anterior cruciate ligament rupture) |  |
+| [[Outside Heel Hook/from Leg Entanglement|Leg Entanglement]] | 45% | ACL tear (anterior cruciate ligament rupture) |  |
+| [[Outside Heel Hook/from Outside Ashi-Garami|Outside Ashi-Garami]] | 45% | ACL tear (anterior cruciate ligament rupture) |  |
+| [[Outside Heel Hook/from Saddle|Saddle]] | 45% | ACL tear (anterior cruciate ligament rupture) |  |
+| [[Outside Heel Hook/from Ushiro Ashi-Garami|Ushiro Ashi-Garami]] | 45% | ACL tear (anterior cruciate ligament rupture) |  |
+
+
+</section>
+
 
 <section id="overview" class="content-section">
 
@@ -33,9 +46,7 @@ The position demands systematic control before any finishing attempt: hip contro
 **Category**: Joint Lock
 **Type**: Leg Lock
 **Target Area**: Knee joint, ankle joint, and surrounding ligaments
-**Starting Position**: [[Positions/Ashi Garami/Outside Ashi-Garami]]
-**From Position**: [[Positions/Ashi Garami/Outside Ashi-Garami]] (Bottom)
-**Success Rate**: 45%
+**Success Rate**: 45% (average across variants)
 
 </section>
 
@@ -88,141 +99,10 @@ The position demands systematic control before any finishing attempt: hip contro
 
 </section>
 
-<section id="outcomes" class="content-section">
 
-## Outcomes
+<section id="variation-details" class="content-section hide-minimal">
 
-| Result | Position | Probability |
-|--------|----------|-------------|
-| Success | [[game-over]] | 60% |
-| Failure | [[Positions/Ashi Garami/Outside Ashi-Garami]] | 25% |
-| Counter | [[Positions/Standing Position]] | 15% |
-
-
-</section>
-
-<section class="content-section">
-
-## Attacker vs Defender
-
-| &nbsp; | Attacker | Defender |
-|--------|----------|----------|
-| **Focus** | Execute and finish | Escape and survive |
-| **Key Principles** | Control the hip to prevent rotation and escape before attack... | Rotate your knee line inward toward the attacker immediately... |
-| **Options** | 6 execution steps | 4 defensive options |
-
-</section>
-
-<section id="attacker-summary" class="content-section">
-
-## Playing as Attacker
-
-[[Outside Heel Hook/Attacker|→ Full Attacker Guide]]
-
-### Key Principles
-
-
-- Control the hip to prevent rotation and escape before attacking the heel
-
-- Cup the heel with arms in figure-four configuration to maximize rotational control
-
-- Extend hips to create initial tension and straighten the leg
-
-- Rotate the heel toward the outside (away from opponent's centerline) while maintaining leg extension
-
-- Keep opponent's knee line pointing away from you to maximize torque on joint
-
-- Apply rotation slowly and progressively - damage occurs rapidly once threshold is crossed
-
-- Maintain constant pressure on opponent's hip with your leg to prevent defensive rotation
-
-
-### Execution Steps
-
-
-- **Establish outside ashi-garami position**: Secure outside ashi-garami with your inside leg hooking over opponent's hip and your outside leg con...
-
-- **Cup the heel with both hands**: Reach over the top of opponent's foot and cup their heel with both hands, creating a figure-four gri...
-
-- **Extend hips to create leg straightness**: Push your hips forward toward your opponent while maintaining heel control, creating extension in th...
-
-- **Position heel for rotational control**: Adjust your grip so the heel is secured with maximum rotational potential. The heel should be cupped...
-
-- **Apply slow outside rotation to heel**: While maintaining hip extension and hip control, begin rotating the heel toward the outside (away fr...
-
-- **Maintain pressure until tap**: Continue the slow, steady rotational pressure while maintaining all control points: hip extension, h...
-
-
-### Common Mistakes
-
-
-- **Applying sudden or jerking rotation to the heel**
-  - Consequence: Catastrophic knee injury to training partner with permanent damage
-  - Correction: Always apply rotation slowly and progressively over 5-7 seconds minimum in training. Feel for resistance and watch partner for tap signals. Speed in training is never acceptable for heel hooks.
-
-- **Attempting submission before securing positional control**
-  - Consequence: Partner escapes easily and position is lost, or partial pressure applied incorrectly causing injury without proper control
-  - Correction: Establish outside ashi-garami fully, break all grips, and secure heel control before applying any rotational pressure. Position before submission always.
-
-- **Failing to control opponent's hip with inside leg**
-  - Consequence: Opponent rotates knee line inward, escaping the submission and potentially reversing position
-  - Correction: Keep constant pressure with inside leg across opponent's hip and lower abdomen. This prevents their primary defensive rotation and maintains outside positioning.
-
-
-</section>
-
-<section id="defender-summary" class="content-section">
-
-## Playing as Defender
-
-[[Outside Heel Hook/Defender|→ Full Defender Guide]]
-
-### Key Principles
-
-
-- Rotate your knee line inward toward the attacker immediately to reduce rotational torque on the knee joint before any rotation is applied
-
-- Fight the hands aggressively to prevent the heel cup from being established - breaking grips early is far easier than escaping a locked figure-four
-
-- Never allow full leg extension by keeping your knee bent and actively pulling your heel toward your hip to maintain slack in the system
-
-- Tap immediately if the heel is cupped with locked hands and rotation has begun - there is no shame in tapping early to heel hooks
-
-- Use your free leg to create frames on attacker's hips and push to create separation that weakens their control structure
-
-- Stay calm and systematic rather than panicking with explosive movements that can accelerate injury
-
-- Recognize the point of no return and differentiate between positions you can escape and positions requiring immediate tap
-
-
-### Recognition Cues
-
-
-- Opponent secures outside ashi-garami with their inside leg hooking over your hip and outside leg controlling your trapped leg from the outside
-
-- Opponent's hands reach for your heel, attempting to cup it with both arms in a figure-four or similar grip configuration
-
-- You feel hip extension pressure as opponent pushes their hips forward to straighten your trapped leg, removing slack from the system
-
-- Your knee line is pointing away from the attacker (outward), indicating they have achieved the outside positioning needed for the heel hook
-
-
-### Escape Paths
-
-
-- Rotate knee inward while stripping heel grip with both hands, then extract leg through the weakened triangle using internal hip rotation and standing base
-
-- Create frames on attacker's hips with free leg, push to create separation while maintaining bent knee position, then thread leg out using circular hip movement rather than straight pulling
-
-- Roll toward the trapped leg to follow the rotation direction, relieving pressure while creating scramble opportunities to extract or transition to top position
-
-
-</section>
-
-
-<section id="variations" class="content-section hide-minimal">
-
-## Variations
+## Variation Details
 
 
 **Outside heel hook from 50-50 guard**: From 50-50 guard position where legs are mirrored, transition to outside control by freeing your inside leg and establishing it over opponent's hip. This creates the outside ashi position from 50-50, allowing the standard outside heel hook attack. Often used when inside heel hook attempts from 50-50 are defended. (When to use: When opponent successfully defends inside heel hook from 50-50 by controlling your legs, or when you achieve 50-50 but have better outside positioning available)
@@ -260,16 +140,16 @@ The position demands systematic control before any finishing attempt: hip contro
 
 ## Related Submissions
 
-- [[Submissions/Inside Heel Hook]]
-- [[Transitions/Heel Hook from Saddle]]
-- [[Transitions/Kneebar]]
-- [[Transitions/Toe Hold]]
-- [[Submissions/Straight Ankle Lock]]
-- [[Transitions/Calf Slicer]]
-- [[Submissions/Estima Lock Finish]]
-- [[Submissions/Outside Heel Hook from Backside 50-50]]
-- [[Transitions/Outside Heel Hook from Cross Ashi]]
-- [[Transitions/Inside Heel Hook from Honey Hole]]
+- [[Submissions/Inside Heel Hook]] - Mirror submission from inside leg positioning with opposite rotation direction
+- [[Transitions/Heel Hook]] - Generic heel hook category encompassing all rotational heel attacks
+- [[Submissions/Toe Hold]] - Complementary rotational foot lock often chained from heel hook defense
+- [[Submissions/Achilles Lock]] - Lower-risk straight ankle lock available from same leg entanglement positions
+- [[Submissions/Calf Slicer]] - Compression submission targeting calf from leg entanglement positions
+- [[Transitions/Estima Lock]] - Foot lock variation available during leg entanglement transitions
+- [[Transitions/Aoki Lock]] - Named leg lock variant targeting similar structures from entanglements
+- [[Submissions/Flying Kneebar]] - Dynamic kneebar entry during standing-to-ground transitions
+- [[Heel Hook from Backside 50-50]] - Position-specific heel hook variant from back-facing entanglement
+- [[Transitions/Aoki Lock]] - Finishing variant of the Aoki Lock from similar leg entanglement positions
 
 
 </section>

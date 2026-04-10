@@ -3,24 +3,30 @@
 
 
 ---
-title: "Spine Lock | BJJ Submission | BJJ Graph"
-description: "Master the Spine Lock submission in BJJ. Advanced spinal compression from truck and twister control positions targeting the lumbar vertebrae."
+title: "Spine Lock | BJJ Submission Family | BJJ Graph"
+description: "Master the Spine Lock submission in BJJ. Learn advanced spinal compression techniques from truck and twister control positions targeting the lumbar spine."
 ---
 
 
-<body data-content-type="submissions-hub">
+<body data-content-type="submissions-family">
 
 > **SAFETY**: Spine Lock targets the Lumbar spine, thoracic vertebrae, spinal column. Risk: Lumbar spine strain or disc herniation. Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
-<div class="role-links">
 
-[[Spine Lock/Attacker|Play as Attacker]]
-[[Spine Lock/Defender|Play as Defender]]
+<section id="variants" class="content-section">
 
-</div>
+## Position Variants
+
+| From Position | Success Rate | Top Injury Risk | Key Difference |
+|---------------|-------------|-----------------|----------------|
+| [[Spine Lock/from Truck|Truck]] | 40% | Lumbar spine strain or disc herniation |  |
+
+
+</section>
+
 
 <section id="overview" class="content-section">
 
@@ -31,8 +37,7 @@ The effectiveness of the Spine Lock comes from the combination of hip pressure d
 **Category**: Compression
 **Type**: Spinal Compression
 **Target Area**: Lumbar spine, thoracic vertebrae, spinal column
-**Starting Position**: [[Positions/Twister Control/Truck]]
-**Success Rate**: 40%
+**Success Rate**: 40% (average across variants)
 
 </section>
 
@@ -80,141 +85,10 @@ The effectiveness of the Spine Lock comes from the combination of hip pressure d
 
 </section>
 
-<section id="outcomes" class="content-section">
 
-## Outcomes
+<section id="variation-details" class="content-section hide-minimal">
 
-| Result | Position | Probability |
-|--------|----------|-------------|
-| Success | [[game-over]] | 60% |
-| Failure | [[Positions/Twister Control/Truck]] | 25% |
-| Counter | [[Positions/Turtle]] | 15% |
-
-
-</section>
-
-<section class="content-section">
-
-## Attacker vs Defender
-
-| &nbsp; | Attacker | Defender |
-|--------|----------|----------|
-| **Focus** | Execute and finish | Escape and survive |
-| **Key Principles** | Establish dominant Truck position with secure leg control be... | Recognize compression threat before full hip pressure is est... |
-| **Options** | 6 execution steps | 4 defensive options |
-
-</section>
-
-<section id="attacker-summary" class="content-section">
-
-## Playing as Attacker
-
-[[Spine Lock/Attacker|→ Full Attacker Guide]]
-
-### Key Principles
-
-
-- Establish dominant Truck position with secure leg control before attempting compression
-
-- Hip pressure drives into opponent's lower back as primary pressure source
-
-- Rotational control prevents opponent from alleviating spinal pressure
-
-- Gradual pressure application allows opponent time to recognize submission and tap safely
-
-- Body weight distribution maximizes compression while maintaining control
-
-- Constant communication and awareness of opponent's physical limits is mandatory
-
-- Position over submission - never sacrifice control for finishing pressure
-
-
-### Execution Steps
-
-
-- **Establish Truck control**: From turtle or scramble position, secure the Truck by hooking opponent's near leg with your legs whi...
-
-- **Position hips for compression**: Adjust your hip position so your hips are directly above opponent's lower back/sacrum area. Your bod...
-
-- **Secure rotational control**: Maintain leg control on opponent's near leg while using your free hand to control their far hip or f...
-
-- **Drive hips forward into spine**: Begin applying compression by driving your hips forward and down into opponent's lower back. The pre...
-
-- **Increase spinal curvature**: As you maintain hip pressure, use your upper body positioning to increase the spinal curvature. You ...
-
-- **Maintain compression until tap**: Hold steady, sustained pressure without sudden increases. The discomfort should build gradually unti...
-
-
-### Common Mistakes
-
-
-- **Applying pressure too rapidly or explosively**
-  - Consequence: Serious spinal injury including disc herniation or vertebral damage
-  - Correction: Always apply pressure gradually over 5-7 seconds minimum. Communication with training partner is essential. In competition, still maintain controlled application.
-
-- **Positioning hips too high on opponent's thoracic spine**
-  - Consequence: Reduced effectiveness and increased injury risk to upper spine and ribs
-  - Correction: Keep hip pressure concentrated on lumbar spine/sacrum area. This is the strongest part of the spine and the intended target for the technique.
-
-- **Losing leg control and allowing opponent to rotate**
-  - Consequence: Loss of position and inability to maintain compression
-  - Correction: Maintain tight Truck hooks throughout. If leg control is compromised, abandon the spine lock and transition to different attack.
-
-
-</section>
-
-<section id="defender-summary" class="content-section">
-
-## Playing as Defender
-
-[[Spine Lock/Defender|→ Full Defender Guide]]
-
-### Key Principles
-
-
-- Recognize compression threat before full hip pressure is established - early defense is exponentially more effective than late defense
-
-- Address the leg control first because it anchors the rotational constraint that enables compression
-
-- Never bridge explosively into spinal compression - this increases force on the vertebrae rather than alleviating it
-
-- Create lateral movement to shift attacker's hip alignment off the lumbar spine centerline
-
-- Tap early when escape is no longer viable - spinal injuries do not provide adequate warning before permanent damage
-
-- Use frames against the attacker's hips to prevent them from settling weight onto the lower back
-
-- Maintain breathing control despite the discomfort to prevent panic-driven movements that worsen positioning
-
-
-### Recognition Cues
-
-
-- Attacker adjusts hip position upward toward your lower back while maintaining Truck leg control, shifting from standard Truck control to compression alignment
-
-- Increasing downward pressure through attacker's hips concentrated on your lumbar spine area, distinct from the lateral torque of standard Truck attacks
-
-- Attacker's posture becomes upright with chest elevated rather than lying flat against your back, indicating they are loading weight through their hips for compression
-
-- Sensation of your spine being forced into hyperextension or increased curvature in the lower back region, accompanied by restricted ability to breathe deeply
-
-
-### Escape Paths
-
-
-- Lateral hip shift to displace attacker's compression alignment followed by standard Truck bottom escape sequences (granby roll, leg extraction, hip escape to guard)
-
-- Forward roll through the compression to collapse the Truck structure and recover to turtle or half guard position
-
-- Aggressive leg extraction to remove the anchor of the Truck, then immediate transition to guard recovery before attacker can re-establish control
-
-
-</section>
-
-
-<section id="variations" class="content-section hide-minimal">
-
-## Variations
+## Variation Details
 
 
 **Twister to Spine Lock transition**: From Twister control position, if opponent defends the neck or you cannot secure the face crank, transition pressure to pure spinal compression by maintaining leg control and adjusting hip position to drive into lower back. (When to use: When opponent successfully defends Twister grip on upper body but remains trapped in leg control)
@@ -240,7 +114,7 @@ The effectiveness of the Spine Lock comes from the combination of hip pressure d
 - [[Positions/Back Control]]
 - [[Positions/Crucifix]]
 - [[Positions/Rodeo Ride]]
-- [[Positions/Twister Control/Twister Side Control]]
+- [[Positions/Crab Ride]]
 
 
 </section>
@@ -249,18 +123,18 @@ The effectiveness of the Spine Lock comes from the combination of hip pressure d
 
 ## Related Submissions
 
-- [[Submissions/Twister]]
-- [[Submissions/Calf Slicer from Truck]]
-- [[Submissions/Banana Split]]
-- [[Submissions/Boston Crab]]
-- [[Submissions/Can Opener]]
-- [[Submissions/Crotch Ripper]]
-- [[Transitions/Rear Naked Choke]]
-- [[Transitions/Bow and Arrow Choke]]
-- [[Submissions/Armbar from Back]]
-- [[Submissions/Kimura from Turtle]]
-- [[Transitions/Choke from Crucifix]]
-- [[Submissions/Electric Chair Submission]]
+- [[Submissions/Twister]] - Related spinal rotation submission from same control positions in 10th Planet system
+- [[Submissions/Calf Slicer]] - Complementary leg compression that chains with spine lock from Truck position
+- [[Submissions/Banana Split]] - Alternative groin and hip submission available from Truck control
+- [[Submissions/Boston Crab]] - Related spinal compression submission using backward bending mechanics
+- [[Submissions/Can Opener]] - Cervical spine compression technique from closed guard
+- [[Submissions/Crotch Ripper]] - Related compression submission targeting groin from similar entanglement positions
+- [[Submissions/Rear Naked Choke]] - Primary choking alternative available from back control transitions
+- [[Submissions/Bow and Arrow Choke]] - Back control choke that chains with truck entries and spine lock setups
+- [[Submissions/Far Side Armbar]] - Arm attack accessible during spine lock position transitions
+- [[Submissions/Kimura]] - Shoulder lock available during truck and back control sequences
+- [[Submissions/Neck Crank]] - Related cervical spine submission with similar safety considerations
+- [[Positions/Half Guard/Electric Chair]] - 10th Planet submission from half guard connecting to truck and spine lock entries
 
 
 </section>
@@ -272,7 +146,7 @@ The effectiveness of the Spine Lock comes from the combination of hip pressure d
 - [[Positions/Twister Control/Truck]] - Primary attacking position for spine lock setup and control
 - [[Positions/Twister Control]] - Alternative finishing position that combines with spine compression
 - [[Positions/Turtle]] - Common starting position for Truck entry and spine lock sequence
-- [[Submissions/Calf Slicer from Truck]] - Complementary submission that chains with spine lock from same position
+- [[Submissions/Calf Slicer]] - Complementary submission that chains with spine lock from Truck position
 - [[Positions/Back Control]] - Alternative control position if Truck is defended during spine lock attempt
 - [[Submissions/Twister]] - Related spinal submission with rotational cervical component
 - [[Submissions/Banana Split]] - Alternative leg-based submission from Truck position

@@ -3,24 +3,30 @@
 
 
 ---
-title: "Spinning Armbar | BJJ Submission | BJJ Graph"
+title: "Spinning Armbar | BJJ Submission Family | BJJ Graph"
 description: "Master the Spinning Armbar in BJJ. Dynamic rotational submission targeting the elbow from guard, mount, and scrambles. Complete guide with attack and defense."
 ---
 
 
-<body data-content-type="submissions-hub">
+<body data-content-type="submissions-family">
 
 > **SAFETY**: Spinning Armbar targets the Elbow joint. Risk: Elbow hyperextension with ligament damage (UCL/MCL tears). Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
-<div class="role-links">
 
-[[Spinning Armbar/Attacker|Play as Attacker]]
-[[Spinning Armbar/Defender|Play as Defender]]
+<section id="variants" class="content-section">
 
-</div>
+## Position Variants
+
+| From Position | Success Rate | Top Injury Risk | Key Difference |
+|---------------|-------------|-----------------|----------------|
+| [[Spinning Armbar/from Closed Guard|Closed Guard]] | 60% | Elbow hyperextension with ligament damage (UCL/MCL tears) |  |
+
+
+</section>
+
 
 <section id="overview" class="content-section">
 
@@ -33,9 +39,7 @@ From a biomechanical standpoint, the spinning armbar exploits the principle that
 **Category**: Joint Lock
 **Type**: Arm Lock
 **Target Area**: Elbow joint
-**Starting Position**: [[Positions/Closed Guard]]
-**From Position**: [[Positions/Closed Guard]] (Bottom)
-**Success Rate**: 60%
+**Success Rate**: 60% (average across variants)
 
 </section>
 
@@ -80,145 +84,10 @@ From a biomechanical standpoint, the spinning armbar exploits the principle that
 
 </section>
 
-<section id="outcomes" class="content-section">
 
-## Outcomes
+<section id="variation-details" class="content-section hide-minimal">
 
-| Result | Position | Probability |
-|--------|----------|-------------|
-| Success | [[game-over]] | 60% |
-| Failure | [[Positions/Closed Guard]] | 25% |
-| Counter | [[Positions/Mount]] | 15% |
-
-
-</section>
-
-<section class="content-section">
-
-## Attacker vs Defender
-
-| &nbsp; | Attacker | Defender |
-|--------|----------|----------|
-| **Focus** | Execute and finish | Escape and survive |
-| **Key Principles** | Rotational momentum creates submission opportunities from de... | Early recognition of arm isolation attempts is the most effe... |
-| **Options** | 6 execution steps | 4 defensive options |
-
-</section>
-
-<section id="attacker-summary" class="content-section">
-
-## Playing as Attacker
-
-[[Spinning Armbar/Attacker|→ Full Attacker Guide]]
-
-### Key Principles
-
-
-- Rotational momentum creates submission opportunities from defensive situations
-
-- Hip positioning and alignment determine finishing angle effectiveness
-
-- Control the arm at two points (wrist and above elbow) before spinning
-
-- Maintain connection to opponent's body throughout the rotation
-
-- Legs must establish position before applying extension pressure
-
-- Spatial awareness prevents landing awkwardly or losing the submission mid-spin
-
-- Smooth circular motion is more effective than explosive jerking movements
-
-
-### Execution Steps
-
-
-- **Secure arm control**: Establish a firm two-handed grip on the opponent's arm - one hand controlling the wrist and the othe...
-
-- **Break opponent's posture**: Use your grip to pull the opponent forward and off-balance, breaking their defensive posture. If in ...
-
-- **Initiate the spin**: Begin rotating your body toward the side of the controlled arm by pivoting on your shoulder and hips...
-
-- **Land in armbar position**: Complete the rotation by landing with your back on the mat, the opponent's arm extended across your ...
-
-- **Adjust for optimal angle**: Fine-tune your position by scooting your hips closer to the opponent's head and ensuring their thumb...
-
-- **Apply extension pressure**: With position secured, lift your hips toward the ceiling while pulling their wrist toward your chest...
-
-
-### Common Mistakes
-
-
-- **Releasing arm control during the rotation phase**
-  - Consequence: Opponent yanks their arm free mid-spin, completely escaping the submission and often achieving a dominant position
-  - Correction: Maintain constant tension on the arm by keeping it pinned tightly to your chest throughout the entire rotation. Your grip should never loosen even momentarily during the spin.
-
-- **Spinning without breaking opponent's posture first**
-  - Consequence: Opponent easily follows your rotation and escapes, or worse, passes your guard during your spinning attempt
-  - Correction: Always break their posture before initiating the spin using off-balancing, foot placement on hips, or grip manipulation. Only spin when they are compromised and cannot follow your movement.
-
-- **Landing with insufficient leg control after the spin**
-  - Consequence: Opponent can extract their arm easily or roll out of the submission before you establish the finishing position
-  - Correction: Immediately establish leg position as you complete the rotation. Your legs should land across their chest and face simultaneously with your back hitting the mat. Practice the complete motion as one fluid sequence.
-
-
-</section>
-
-<section id="defender-summary" class="content-section">
-
-## Playing as Defender
-
-[[Spinning Armbar/Defender|→ Full Defender Guide]]
-
-### Key Principles
-
-
-- Early recognition of arm isolation attempts is the most effective defensive tool against spinning armbars
-
-- Maintain strong posture and keep elbows connected to your body to deny the arm separation the spin requires
-
-- When the spin initiates, follow the rotation direction with your own body rather than resisting against it
-
-- Keep your arm bent and connected to your torso throughout - a straight isolated arm is the attacker's target
-
-- Stack forward pressure into the attacker during and immediately after the spin to compress their finishing space
-
-- Use the attacker's commitment against them - their spinning motion creates positional vulnerability you can exploit
-
-- Never extend your arms to push the attacker away during the spin as this accelerates the arm isolation
-
-
-### Recognition Cues
-
-
-- Opponent secures a two-handed grip on your arm with one hand at the wrist and one above the elbow, pulling your arm across their centerline
-
-- Opponent breaks your posture downward while simultaneously opening their guard and placing feet on your hips or shoulders for leverage
-
-- Opponent begins rotating their shoulders and hips while maintaining a death-grip on your arm, with their head leading the circular motion
-
-- You feel your arm being pulled away from your body and toward the opponent's chest with increasing rotational tension
-
-- Opponent's legs disengage from guard position and begin swinging laterally in preparation for the spinning motion
-
-
-### Escape Paths
-
-
-- Stack and drive forward to compress the attacker's hips flat to the mat, eliminating the hip elevation needed for extension, then walk your body around toward their head to extract the arm
-
-- Clasp your hands together in a defensive grip (gable grip or S-grip) to prevent arm extension, then use the connected grip to create time while you posture up and drive into the attacker to collapse their leg control
-
-- Hitchhiker escape by rotating your thumb toward the mat and turning your body to face the attacker, sliding your elbow free as you spin toward them and immediately establishing top pressure
-
-- Step over the attacker's head with your far leg, using the leg-over motion to create the angle needed to extract your arm while transitioning to side control
-
-
-</section>
-
-
-<section id="variations" class="content-section hide-minimal">
-
-## Variations
+## Variation Details
 
 
 **Spinning Armbar from Closed Guard**: From closed guard bottom, control opponent's arm across your body and break their posture by pulling them forward. Open your guard and place your feet on their hips, then spin underneath them while maintaining arm control. This is one of the most common entries and works well when opponent attempts to posture up aggressively. (When to use: When opponent has strong posture in closed guard and is resistant to traditional armbar entries. Particularly effective against opponents who base out wide with their arms.)
@@ -249,7 +118,6 @@ From a biomechanical standpoint, the spinning armbar exploits the principle that
 - [[Positions/Mount]]
 - [[Positions/Spider Guard]]
 - [[Positions/Armbar Control]]
-- [[Positions/Scramble Position]]
 - [[Positions/Triangle Control]]
 - [[Positions/Standing Position]]
 - [[Positions/Turtle]]
@@ -262,17 +130,17 @@ From a biomechanical standpoint, the spinning armbar exploits the principle that
 
 ## Related Submissions
 
-- [[Submissions/Armbar from Guard]]
-- [[Submissions/Armbar from Mount]]
-- [[Transitions/Triangle Choke]]
-- [[Transitions/Omoplata]]
-- [[Transitions/Kimura]]
-- [[Submissions/Flying Armbar]]
-- [[Submissions/Belly Down Armbar]]
-- [[Submissions/Armbar from Side Control]]
-- [[Submissions/Far Side Armbar]]
-- [[Transitions/Baratoplata]]
-- [[Submissions/Rolling Armbar]]
+- [[Armbar from Guard]] - Traditional guard armbar that spinning variant provides dynamic alternative entry for
+- [[Armbar from Mount]] - Standard mounted armbar sharing arm isolation and finishing mechanics
+- [[Armbar from High Mount]] - Armbar from elevated mount position often preceding spinning entries
+- [[Armbar from S Mount]] - Asymmetric armbar finish that spinning motion can transition into
+- [[Armbar from Back]] - Alternative armbar angle from back control after failed spinning entry
+- [[Transitions/Armbar from Crucifix]] - Arm isolation submission sharing similar extension and control principles
+- [[Armbar from Knee on Belly]] - Dynamic armbar entry sharing explosive timing and commitment requirements
+- [[Armbar from Side Control]] - Lateral armbar variation sharing arm control and transition concepts
+- [[Armbar from Technical Mount]] - Rotational armbar entry sharing transitional mechanics with spinning variant
+- [[Submissions/Americana]] - Alternative shoulder lock when spinning armbar rotation is blocked
+- [[Transitions/Arm Triangle]] - Complementary upper body submission chaining from failed spinning armbar scrambles
 
 
 </section>
@@ -282,16 +150,16 @@ From a biomechanical standpoint, the spinning armbar exploits the principle that
 ## Additional Related Content
 
 - [[Submissions/Flying Armbar]] - Another explosive armbar variation requiring timing and commitment
-- [[Submissions/Armbar from Mount]] - Traditional setup position for spinning armbar from top
-- [[Transitions/Triangle Choke]] - Creates arm isolation that can lead to spinning armbar entry
-- [[Transitions/Omoplata]] - Alternative dynamic attack from similar positions
-- [[Submissions/Armbar from Guard]] - Related armbar entry that shares control principles
+- [[Submissions/Far Side Armbar]] - Alternative armbar finishing position when spinning past the opponent's centerline
+- [[Submissions/Triangle Choke]] - Creates arm isolation that can lead to spinning armbar entry
+- [[Submissions/Omoplata]] - Alternative dynamic attack from similar positions
+- [[Submissions/Armbar/Reverse Armbar from Mount]] - Complementary armbar variation sharing arm isolation and reverse finishing mechanics
 - [[Positions/Closed Guard]] - Primary starting position for spinning armbar entries
 - [[Positions/Mount]] - Dominant position offering spinning armbar opportunities
-- [[Positions/Scramble Position]] - Dynamic environment where spinning armbar opportunities emerge
+- [[Positions/Standing Position]] - Dynamic environment where spinning armbar opportunities emerge
 - [[Positions/Triangle Control]] - Position that provides arm isolation leading to spinning armbar
 - [[Submissions/Belly Down Armbar]] - Alternative finishing position when opponent stacks during spin
-- [[Transitions/Kimura]] - Complementary shoulder lock that chains with spinning armbar
+- [[Submissions/Kimura]] - Complementary shoulder lock that chains with spinning armbar
 - [[Positions/Armbar Control]] - Target control position after completing the spin
 
 

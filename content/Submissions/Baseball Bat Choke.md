@@ -3,24 +3,30 @@
 
 
 ---
-title: "Baseball Bat Choke | BJJ Submission | BJJ Graph"
+title: "Baseball Bat Choke | BJJ Submission Family | BJJ Graph"
 description: "Master the Baseball Bat Choke in BJJ. Devastating collar choke from top positions with tight control. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%."
 ---
 
 
-<body data-content-type="submissions-hub">
+<body data-content-type="submissions-family">
 
 > **SAFETY**: Baseball Bat Choke targets the Carotid arteries and jugular veins. Risk: Loss of consciousness from carotid compression. Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
-<div class="role-links">
 
-[[Baseball Bat Choke/Attacker|Play as Attacker]]
-[[Baseball Bat Choke/Defender|Play as Defender]]
+<section id="variants" class="content-section">
 
-</div>
+## Position Variants
+
+| From Position | Success Rate | Top Injury Risk | Key Difference |
+|---------------|-------------|-----------------|----------------|
+| [[Baseball Bat Choke/from Knee on Belly|Knee on Belly]] | 58% | Loss of consciousness from bilateral carotid compression |  |
+
+
+</section>
+
 
 <section id="overview" class="content-section">
 
@@ -29,8 +35,7 @@ The Baseball Bat Choke is a powerful collar-based blood choke executed primarily
 **Category**: Choke
 **Type**: Blood Choke
 **Target Area**: Carotid arteries and jugular veins
-**Starting Position**: [[Positions/Side Control]]
-**Success Rate**: 58%
+**Success Rate**: 58% (average across variants)
 
 </section>
 
@@ -74,144 +79,16 @@ The Baseball Bat Choke is a powerful collar-based blood choke executed primarily
 
 </section>
 
-<section id="outcomes" class="content-section">
 
-## Outcomes
+<section id="variation-details" class="content-section hide-minimal">
 
-| Result | Position | Probability |
-|--------|----------|-------------|
-| Success | [[game-over]] | 60% |
-| Failure | [[Positions/Side Control]] | 25% |
-| Counter | [[Positions/Half Guard]] | 15% |
+## Variation Details
 
 
-</section>
+**Standard Baseball Bat Choke from Side Control**: Executed from standard side control or knee-on-belly by establishing grips and using your chest pressure to drive through the choke while opponent is pinned. Often requires transitioning to north-south position for optimal angle. (When to use: When opponent is defending against mount transitions and keeping their arms in tight. The side control variation catches opponents who are focused on preventing position advancement.)
 
-<section class="content-section">
 
-## Attacker vs Defender
-
-| &nbsp; | Attacker | Defender |
-|--------|----------|----------|
-| **Focus** | Execute and finish | Escape and survive |
-| **Key Principles** | Deep collar grips create the foundation for effective compre... | Prevent the far collar grip from being established deep - th... |
-| **Options** | 6 execution steps | 4 defensive options |
-
-</section>
-
-<section id="attacker-summary" class="content-section">
-
-## Playing as Attacker
-
-[[Baseball Bat Choke/Attacker|→ Full Attacker Guide]]
-
-### Key Principles
-
-
-- Deep collar grips create the foundation for effective compression
-
-- Crossed-hands baseball bat grip configuration maximizes choking pressure
-
-- Hip pressure and weight distribution prevent opponent escape while finishing
-
-- Elbow positioning drives the choke deeper by creating scissoring action
-
-- Maintaining top position throughout prevents defensive recovery
-
-- Slow progressive pressure allows partner time to tap safely
-
-- Grip security must be established before committing to the finish
-
-
-### Execution Steps
-
-
-- **Establish Far Collar Grip**: From side control or turtle top position, reach across opponent's neck and feed your hand deep into ...
-
-- **Secure Near Collar Grip**: With your opposite hand, grip high on the near collar with your palm facing down. This grip should b...
-
-- **Position Hips and Weight**: Drive your hips forward and down, placing your weight on the opponent's upper body and shoulder. You...
-
-- **Pull Elbows Together**: Begin drawing your elbows toward each other in a scissoring motion. The far elbow (deep grip) pulls ...
-
-- **Expand Chest and Shoulder Pressure**: As you pull your elbows together, simultaneously expand your chest and drive your shoulder into the ...
-
-- **Adjust Angle and Finish**: Make micro-adjustments to your angle and grip depth based on opponent's response. If they turn towar...
-
-
-### Common Mistakes
-
-
-- **Gripping too shallow in the far collar**
-  - Consequence: Choke lacks power and opponent can defend by tucking chin or turning
-  - Correction: Feed your hand as deep as possible until your thumb reaches near their far shoulder. Take time to establish depth before securing second grip.
-
-- **Pulling with hands instead of driving elbows together**
-  - Consequence: Wastes grip strength and creates arm choke instead of effective collar choke
-  - Correction: Focus on elbow direction and position. Think about pulling elbows to your centerline in scissoring motion rather than hand grips pulling apart.
-
-- **Not controlling opponent's near arm**
-  - Consequence: Opponent can frame against your neck or face and create escape space
-  - Correction: Pin their near arm with your body position or control it with your weight before committing fully to the choke.
-
-
-</section>
-
-<section id="defender-summary" class="content-section">
-
-## Playing as Defender
-
-[[Baseball Bat Choke/Defender|→ Full Defender Guide]]
-
-### Key Principles
-
-
-- Prevent the far collar grip from being established deep - this is the highest-priority defensive action
-
-- Fight grips with two hands on one grip rather than trying to address both collar controls simultaneously
-
-- Create rotational movement toward the attacker to disrupt their angle and open guard recovery paths
-
-- Never allow the attacker to settle their chest weight on your shoulder while grips are in place
-
-- Protect your neck by keeping chin tucked and shoulder raised to reduce available collar space
-
-- Time escape attempts during the grip transition when the attacker reaches for the second collar grip
-
-- Accept that once both grips lock and elbows close, tapping is the safest response rather than fighting a locked choke
-
-
-### Recognition Cues
-
-
-- Attacker's hand reaches across your neck and feeds deep into the far collar while maintaining top position - this is the primary setup indicator
-
-- Attacker's second hand moves to grip high on the near collar while their first hand is already deep, creating the distinctive crossed-hands configuration
-
-- Attacker shifts chest weight onto your shoulder and begins driving elbows together - at this point the choke is nearly locked and immediate action is critical
-
-- From turtle, attacker circles to your side and reaches under your near arm toward the far collar while their chest lowers onto your back
-
-
-### Escape Paths
-
-
-- Bridge toward the attacker and rotate to face them, inserting a knee shield to recover half guard while stripping the near collar grip during the turn
-
-- Frame against the attacker's chest and hip escape away, creating distance that loosens the collar grips and allows guard recovery or creates scramble opportunities
-
-- From turtle, sit through to half guard before the attacker can establish the second collar grip, using the directional change to break the far collar grip angle
-
-
-</section>
-
-
-<section id="variations" class="content-section hide-minimal">
-
-## Variations
-
-
-**Baseball Bat from Turtle Top**: When opponent is in turtle, circle to their side and establish the far collar grip by reaching under their near arm. Secure the near collar grip and drive your chest into their shoulder while sprawling your hips back. This variation is extremely high percentage because the turtle position gives you easy access to the collar and they cannot effectively defend while protecting their back. (When to use: When opponent turtles to defend guard passes or after failed takedown)
+**Baseball Bat from Turtle Top**: When opponent is in turtle, circle to their side and establish the far collar grip by reaching under their near arm. Secure the near collar grip and drive your chest into their shoulder while sprawling your hips back. This variation is extremely high percentage because the turtle position gives you easy access to the collar and they cannot effectively defend while protecting their back. Can be finished from the side or by transitioning to back control. (When to use: When opponent turtles to defend guard passes or after failed takedown. Particularly effective when combined with clock choke attempts.)
 
 
 **Baseball Bat from North-South**: From north-south position, slide one hand deep into the far collar while using your other hand for the near collar grip. Your head should be on the mat beside their head as you apply the scissoring pressure. This variation allows you to apply the choke while maintaining heavy shoulder pressure that prevents their escape. (When to use: When transitioning through north-south or when opponent defends mount by bridging)
@@ -229,13 +106,7 @@ The Baseball Bat Choke is a powerful collar-based blood choke executed primarily
 **Baseball Bat Choke from Mount**: Applied from high mount by establishing the same grip configuration, then leaning your chest heavily toward the choking side while keeping opposite knee tight to prevent escape. The mount variation uses your body weight as the primary pressure source. (When to use: When opponent is defending armbar attempts from mount and turning their head, exposing the collar. Particularly effective when you're in high mount position.)
 
 
-**Baseball Bat Choke from Side Control**: Executed from standard side control or knee-on-belly by establishing grips and using your chest pressure to drive through the choke while opponent is pinned. Often requires transitioning to north-south position for optimal angle. (When to use: When opponent is defending against mount transitions and keeping their arms in tight. The side control variation catches opponents who are focused on preventing position advancement.)
-
-
 **Reverse Baseball Bat Choke**: Uses opposite grip configuration with four fingers inside on bottom grip and thumb inside on top grip. Creates different angle of pressure and catches opponents defending the standard version. (When to use: As counter when opponent successfully defends standard grip configuration. Provides alternative finish angle that feels different to opponent and can catch them by surprise.)
-
-
-**Baseball Bat Choke from Turtle**: Applied when opponent is in turtle position by establishing grips from the top, then driving your chest pressure down while pulling collar grips tight. Can be finished from the side or by transitioning to back control. (When to use: When opponent turtles to defend other back attacks or when you're attacking turtle position. Particularly effective when combined with clock choke attempts.)
 
 
 **Modified Baseball Bat with Same-Side Fall**: Advanced variation where you fall to the same side as your grips rather than opposite side, creating an inverted pressure angle. Requires excellent timing and body positioning but very difficult to defend. (When to use: Against experienced opponents who defend the standard variation by following your fall direction. The unexpected angle makes this particularly effective in competition.)
@@ -265,15 +136,15 @@ The Baseball Bat Choke is a powerful collar-based blood choke executed primarily
 
 ## Related Submissions
 
-- [[Transitions/Cross Collar Choke]]
-- [[Transitions/Bow and Arrow Choke]]
-- [[Submissions/Loop Choke]]
-- [[Submissions/Ezekiel Choke]]
-- [[Transitions/Clock Choke]]
-- [[Transitions/Breadcutter Choke]]
-- [[Transitions/North-South Choke]]
-- [[Transitions/Rear Naked Choke]]
-- [[Transitions/Arm Triangle]]
+- [[Submissions/Cross Collar Choke]] - Similar collar grip mechanics using thumb-inside and four-finger grips from top positions
+- [[Submissions/Bow and Arrow Choke]] - Natural collar choke transition when baseball bat grips lead to back access
+- [[Submissions/Brabo Choke]] - Alternative lapel choke available from similar top control positions
+- [[Submissions/Ezekiel Choke]] - Alternative finishing option from top positions when collar grips are unavailable
+- [[Transitions/Clock Choke]] - Alternative collar choke from turtle top using rotational pressure
+- [[Submissions/Breadcutter Choke]] - Related cross-collar choke from side control with comparable grip configuration
+- [[Transitions/Darce Choke]] - Alternative arm-in choke from similar top positions with no-gi applicability
+- [[Transitions/Guillotine Choke]] - Available during scrambles when opponent lifts head defending collar grips
+- [[Transitions/Arm Triangle]] - Alternative head-and-arm choke from top when collar access is denied
 
 
 </section>
@@ -287,9 +158,9 @@ The Baseball Bat Choke is a powerful collar-based blood choke executed primarily
 - [[Positions/North-South]] - Alternative attacking position with different finishing angle
 - [[Positions/Side Control/Kesa Gatame]] - Related scarf hold position that can transition to baseball bat grips
 - [[Transitions/Side Control to North-South]] - Common transition that creates baseball bat opportunities
-- [[Transitions/North-South Choke]] - Related collar choke from similar position with different mechanics
-- [[Transitions/Bow and Arrow Choke]] - Natural transition if baseball bat grips are secured but angle needs adjustment
-- [[Transitions/Cross Collar Choke]] - Related collar submission using similar grip principles
+- [[Transitions/Darce Choke]] - Related choke from similar positions with different grip mechanics
+- [[Submissions/Bow and Arrow Choke]] - Natural transition if baseball bat grips are secured but angle needs adjustment
+- [[Submissions/Cross Collar Choke]] - Related collar submission using similar grip principles
 - [[Positions/Back Control]] - Baseball bat grips can facilitate back take if choke angle is not optimal
 - [[Transitions/Clock Choke]] - Alternative collar choke from turtle top position
 - [[Positions/Mount]] - Position advancement option when opponent turns into the choke

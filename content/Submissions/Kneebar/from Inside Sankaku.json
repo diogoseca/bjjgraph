@@ -1,0 +1,442 @@
+{
+  "name": "Kneebar from Inside Sankaku",
+  "description": "Master the kneebar from Inside Sankaku in BJJ. Complete finishing guide covering setup mechanics, hip extension technique, defensive counters, and safety protocols.",
+  "tags": [
+    "bjj",
+    "submission",
+    "leg-lock",
+    "joint-lock",
+    "kneebar",
+    "ashi-garami",
+    "leg-entanglement",
+    "hub",
+    "finishing-guide",
+    "inside-sankaku"
+  ],
+  "submission_category": "Joint Lock",
+  "submission_type": "Leg Lock",
+  "target_area": "Knee joint (primarily posterior cruciate ligament, medial collateral ligament, and joint capsule)",
+  "starting_position": "Inside Sankaku",
+  "from_position": "Inside Sankaku/Top",
+  "success_rate": 60,
+  "overview": "The kneebar from Inside Sankaku exploits the leg isolation already established by the entanglement to attack the posterior knee joint through controlled hip extension. When the opponent successfully defends the primary inside heel hook threat by hiding their heel against their own hip, the kneebar becomes a high-percentage secondary attack that leverages the existing control structure without requiring positional transition. The attacker redirects from heel hook grips to securing the opponent's ankle below the armpit while extending hips against the back of the knee, creating hyperextension pressure on the PCL, MCL, and joint capsule.\n\nThis attack is particularly effective from Inside Sankaku because the figure-four leg entanglement already restricts the opponent's hip mobility and prevents the rotational defense that normally defeats kneebars. The existing knee line control means the opponent cannot simply straighten their leg or turn to relieve pressure. Combined with the heel hook threat, the kneebar creates a submission dilemma where defending one attack exposes the other, forcing the opponent to address both threats simultaneously from a compromised position.\n\nThe kneebar from Inside Sankaku represents an essential component of a complete leg lock game, transforming the position from a single-attack threat into a multi-dimensional offensive platform that forces opponents to divide their defensive attention and significantly increases overall finishing rates from the entanglement.",
+  "safety_considerations": {
+    "injury_risks": [
+      {
+        "injury": "Posterior cruciate ligament (PCL) tear",
+        "severity": "High",
+        "recovery_time": "6-12 months with surgical intervention"
+      },
+      {
+        "injury": "Medial collateral ligament (MCL) strain or tear",
+        "severity": "Medium",
+        "recovery_time": "4-8 weeks for grade 1-2, 3-6 months for grade 3"
+      },
+      {
+        "injury": "Joint capsule damage",
+        "severity": "Medium",
+        "recovery_time": "6-12 weeks"
+      },
+      {
+        "injury": "Meniscus tear (medial or lateral)",
+        "severity": "High",
+        "recovery_time": "3-6 months, may require surgery"
+      }
+    ],
+    "application_speed": "SLOW and progressive - minimum 3-5 seconds from initial pressure to finish in training",
+    "tap_signals": [
+      "Verbal tap or verbal signal",
+      "Physical hand tap on opponent or mat",
+      "Physical foot tap on opponent or mat",
+      "Any distress vocalization or signal"
+    ],
+    "release_protocol": [
+      "Immediately stop all hip extension the moment tap is received",
+      "Release hip pressure by dropping hips away from opponent's leg",
+      "Maintain positional control while releasing the leg slowly",
+      "Allow opponent to extract their leg at their own pace",
+      "Check with partner verbally after release"
+    ],
+    "training_restrictions": [
+      "Never spike or jerk the submission - always apply smooth, progressive pressure",
+      "Never use competition speed or intensity in training rolls",
+      "Always communicate with training partners about leg lock experience level",
+      "Never continue pressure after any tap signal",
+      "Avoid training kneebars with partners who have pre-existing knee injuries without explicit permission"
+    ]
+  },
+  "from_positions": [
+    "Inside Sankaku",
+    "Saddle"
+  ],
+  "related_submissions": [
+    "Inside Heel Hook",
+    "Inside Heel Hook",
+    "Heel Hook",
+    "Calf Slicer",
+    "Flying Kneebar",
+    "Achilles Lock"
+  ],
+  "related_content": [
+    {
+      "name": "Inside Sankaku",
+      "relationship": "Starting position for this kneebar variation"
+    },
+    {
+      "name": "Saddle",
+      "relationship": "Related leg entanglement with similar kneebar mechanics"
+    },
+    {
+      "name": "Kneebar Control",
+      "relationship": "Control position for establishing the kneebar finish"
+    },
+    {
+      "name": "Inside Heel Hook",
+      "relationship": "Primary alternative submission from the same position"
+    },
+    {
+      "name": "50-50 Guard",
+      "relationship": "Related leg entanglement that also allows kneebar attacks"
+    },
+    {
+      "name": "Honey Hole",
+      "relationship": "Alternative name for Inside Sankaku position"
+    }
+  ],
+  "outcomes": [
+    {
+      "to": "game-over",
+      "probability": 60,
+      "result": "success"
+    },
+    {
+      "to": "Inside Sankaku/Top",
+      "probability": 26,
+      "result": "failure"
+    },
+    {
+      "to": "Closed Guard/Bottom",
+      "probability": 14,
+      "result": "counter"
+    }
+  ],
+  "variations_and_setups": [
+    {
+      "variation_name": "Heel Hook Defense Transition",
+      "description": "When the opponent successfully hides their heel against their hip to defend the inside heel hook, transition to the kneebar by releasing heel hook grips, securing the ankle under your armpit, and redirecting hip extension against the posterior knee. The most common and highest-percentage entry.",
+      "when_to_use": "When heel hook defense is strong and the heel remains hidden despite multiple grip attempts"
+    },
+    {
+      "variation_name": "Direct Kneebar Entry",
+      "description": "Skip the heel hook entirely and go directly to kneebar position from initial Inside Sankaku establishment. Trap the ankle immediately upon entering the entanglement and establish hip alignment for knee hyperextension. Catches opponents who are prepared only for heel hook threats.",
+      "when_to_use": "Against strong heel hook defenders or when competition rules restrict heel hooks but allow kneebars"
+    },
+    {
+      "variation_name": "Toe Hold to Kneebar Chain",
+      "description": "Begin with a toe hold attempt that forces the opponent to address rotational foot pressure. When they defend by pulling their foot back, redirect to the kneebar by switching from rotational grip to ankle control and hip extension against the newly exposed knee angle.",
+      "when_to_use": "When the opponent reacts predictably to toe hold threats, creating the kneebar opening through their defensive movement"
+    }
+  ],
+  "attacker": {
+    "name": "from Inside Sankaku Attacker",
+    "description": "Learn to attack the kneebar from Inside Sankaku. Step-by-step execution guide with hip extension mechanics, grip transitions, and counter-responses for leg lock finishes.",
+    "overview": "Attacking the kneebar from Inside Sankaku requires transitioning from heel hook hunting to knee hyperextension while maintaining the positional control that makes this entanglement dominant. The key mechanical shift involves redirecting hip extension force against the posterior knee rather than rotational force against the heel. This transition catches opponents who have committed their defensive resources to protecting the heel, leaving the knee joint exposed to attack from a different vector within the same entanglement structure. Proper execution demands maintaining the figure-four leg configuration throughout the grip transition, securing ankle control before initiating any extension pressure, and applying progressive force that allows your training partner to tap safely.",
+    "key_principles": [
+      "Maintain the Inside Sankaku entanglement throughout the entire kneebar transition to prevent escape during the grip change",
+      "Secure the opponent's ankle deeply under your armpit before initiating any hip extension pressure against the knee",
+      "Align your hips directly behind the opponent's knee joint to create the optimal fulcrum for hyperextension force",
+      "Squeeze knees together around the opponent's thigh above the knee to prevent bending and leg extraction",
+      "Apply progressive hip extension rather than explosive jerking to allow safe tapping in training",
+      "Use the kneebar threat to force heel exposure, creating a submission dilemma that increases overall finishing rate"
+    ],
+    "setup_requirements": [
+      "Established Inside Sankaku entanglement with tight hip-to-hip connection and figure-four leg configuration maintained",
+      "Opponent has committed to heel defense by hiding their heel or the knee is otherwise exposed to hyperextension",
+      "Ankle or lower shin control secured near your armpit with your arm clamping against the Achilles tendon",
+      "Hip positioning allows forward extension directly against the posterior aspect of the knee joint",
+      "Knee line control maintained through your leg configuration preventing opponent rotation during transition"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Recognize the kneebar opportunity",
+        "description": "When your opponent successfully hides their heel against their own hip and prevents your inside heel hook grip, recognize this as the trigger to transition to the kneebar attack. Stop fighting for heel exposure and redirect your offensive chain to the knee joint instead.",
+        "timing": "Immediate recognition upon failed heel hook attempt"
+      },
+      {
+        "step_number": 2,
+        "action": "Transition grip to ankle control",
+        "description": "Release your heel hook grips and immediately secure control of the opponent's ankle and lower shin. Trap their foot under your armpit on the attacking side, clamping your arm tight against their Achilles tendon to prevent them from pulling the foot free during the transition.",
+        "timing": "1-2 seconds for smooth grip transition"
+      },
+      {
+        "step_number": 3,
+        "action": "Adjust hip alignment",
+        "description": "Shift your hips to align directly behind the opponent's knee joint so your hip bones face the posterior knee. This creates the proper fulcrum point for hyperextension. Maintain the Inside Sankaku figure-four leg configuration throughout this positional adjustment to prevent escape.",
+        "timing": "1-2 seconds concurrent with grip transition"
+      },
+      {
+        "step_number": 4,
+        "action": "Secure thigh control with knee squeeze",
+        "description": "Squeeze your knees together tightly around the opponent's thigh just above the knee joint. This upper anchor prevents them from bending their knee to escape the hyperextension and creates the structural opposition needed for the kneebar leverage to function against defensive resistance.",
+        "timing": "Simultaneous with hip alignment"
+      },
+      {
+        "step_number": 5,
+        "action": "Begin controlled hip extension",
+        "description": "Drive your hips forward progressively against the posterior side of the knee while pulling the trapped ankle toward your chest with your armpit grip. Apply pressure slowly and steadily in training, using hip extension as the primary finishing force rather than arm pulling which is weaker and less controlled.",
+        "timing": "3-5 seconds minimum progressive pressure in training"
+      },
+      {
+        "step_number": 6,
+        "action": "Complete the finish with full extension",
+        "description": "Continue extending hips while maintaining tight thigh squeeze and deep ankle control until the opponent taps. Keep the foot positioned so toes point toward the ceiling to maximize pressure on the PCL and MCL. Release all hip pressure immediately upon receiving any tap signal and allow controlled extraction.",
+        "timing": "Immediate release upon tap"
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Boot escape - opponent straightens leg explosively and pulls foot from armpit control before the kneebar is fully locked",
+        "effectiveness": "High",
+        "your_response": "Maintain tight armpit clamp on the ankle with your elbow pinched to your ribs. Squeeze knees harder around the thigh and follow their leg extension with forward hip drive to prevent extraction. If the foot begins slipping, immediately transition back to heel hook grips on the now-exposed heel.",
+        "targets_outcome": "Inside Sankaku/Top"
+      },
+      {
+        "counter": "Belly-down rotation - opponent turns face-down to align their knee with the pressure direction, reducing the hyperextension angle",
+        "effectiveness": "Medium",
+        "your_response": "Follow their rotation by adjusting your hip angle to stay behind the knee joint. A full belly-down turn often strengthens your kneebar because their body weight now works against their own knee. Maintain ankle control and adjust extension direction to match the new knee orientation.",
+        "targets_outcome": "Inside Sankaku/Top"
+      },
+      {
+        "counter": "Counter leg entanglement - opponent reaches for your legs to establish their own leg attack, creating mutual vulnerability",
+        "effectiveness": "Low",
+        "your_response": "Maintain offensive kneebar pressure while tucking your vulnerable leg away from their reach. Accelerate the finish if their counter-grip is not yet established. If they do secure your leg, you maintain positional advantage since your kneebar is further along than their counter-attack.",
+        "targets_outcome": "Closed Guard/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Losing the Inside Sankaku entanglement during the grip transition from heel hook to ankle control",
+        "consequence": "Opponent extracts their leg and recovers to guard, completely negating the positional advantage built from the leg entanglement",
+        "correction": "Maintain the figure-four leg configuration throughout the entire transition. Never release leg pressure while switching hand grips - the legs do the holding while the hands transition."
+      },
+      {
+        "error": "Insufficient ankle control allowing the foot to slip free from the armpit trap",
+        "consequence": "Opponent pulls foot free before hip extension can generate meaningful pressure, wasting the kneebar attempt and potentially exposing your own legs",
+        "correction": "Trap the ankle deeply under your armpit with your arm clamping against the Achilles tendon. Keep your elbow pinched tight to your ribs and your forearm wrapped around the shin throughout the finish."
+      },
+      {
+        "error": "Initiating hip extension pressure before establishing proper alignment behind the knee",
+        "consequence": "Force is directed at the wrong angle causing discomfort but not threatening the joint structures, wasting energy and giving the opponent time to organize their defense",
+        "correction": "Position your hips directly behind the knee joint before initiating any extension. Verify the fulcrum point is correct by feeling hip bone contact against the posterior knee before committing to the finish."
+      },
+      {
+        "error": "Neglecting the thigh squeeze while focusing entirely on hip extension",
+        "consequence": "Opponent bends their knee to relieve hyperextension pressure and creates enough space to begin extracting the leg from the submission",
+        "correction": "Maintain constant inward knee pressure around the thigh above the knee joint throughout the entire finishing sequence. The squeeze and the extension work together as a system."
+      },
+      {
+        "error": "Jerking or spiking the kneebar submission in training rather than applying progressive pressure",
+        "consequence": "Serious knee injury to training partner including PCL tears, MCL damage, and potential meniscus injury that may require surgery and months of rehabilitation",
+        "correction": "Always apply smooth progressive pressure over 3-5 seconds minimum in training. Treat every kneebar attempt as potentially career-ending if applied with sudden force."
+      },
+      {
+        "error": "Rushing to the kneebar without verifying all three control points are established",
+        "consequence": "Opponent escapes because ankle control, hip alignment, or thigh squeeze is missing, and the failed attempt may expose your own legs to counter-attacks",
+        "correction": "Systematically verify ankle control, hip alignment behind the knee, and thigh squeeze are all established before committing to the finishing extension."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Mechanics Isolation",
+        "focus": "Hip extension and ankle control fundamentals",
+        "description": "Practice the kneebar finish in isolation without the Inside Sankaku entry. Partner positions their leg while you drill proper ankle trapping under the armpit, hip alignment behind the knee, thigh squeeze, and progressive extension mechanics. Focus on body mechanics without positional complexity."
+      },
+      {
+        "phase": "Phase 2: Transition Drilling",
+        "focus": "Heel hook to kneebar grip transition flow",
+        "description": "Starting from established Inside Sankaku with heel hook grips, practice the smooth transition to kneebar position against a cooperative partner. Drill the grip switch from heel to ankle, hip adjustment, and thigh squeeze in sequence until the entire chain becomes fluid and automatic."
+      },
+      {
+        "phase": "Phase 3: Defensive Reactions",
+        "focus": "Countering common opponent defenses",
+        "description": "Partner adds specific defensive reactions including boot escapes, belly-down rotations, and counter leg entanglement attempts. Practice recognizing each defense as it develops and applying the correct counter-response while maintaining kneebar positioning and control."
+      },
+      {
+        "phase": "Phase 4: Live Positional Sparring",
+        "focus": "Full application under progressive resistance",
+        "description": "Begin from established Inside Sankaku position with progressive resistance building to full intensity. Top player works heel hook to kneebar transitions and finishes while bottom player defends freely. Reset when position is lost or submission is achieved. Build live timing and pressure application."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "Your opponent hides their heel against their hip while you hold Inside Sankaku - what is your next attacking option?",
+        "answer": "Transition to the kneebar by releasing heel hook grips and securing their ankle under your armpit. Shift your hips to align behind their knee joint, squeeze your knees around their thigh, and apply progressive hip extension. The kneebar becomes available precisely because their heel-hiding defense commits their leg to a position that exposes the knee to hyperextension from a different attack angle.",
+        "safety_critical": false
+      },
+      {
+        "question": "What anatomical structures does the kneebar from Inside Sankaku primarily attack?",
+        "answer": "The kneebar primarily attacks the posterior cruciate ligament (PCL) and medial collateral ligament (MCL) through knee hyperextension. Secondary targets include the joint capsule and meniscus structures. The hyperextension force created by hip extension against the anchored ankle stresses these structures beyond their normal range of motion, creating the submission pressure that forces the tap.",
+        "safety_critical": false
+      },
+      {
+        "question": "You have the ankle trapped but your opponent begins straightening their leg to escape - what adjustment prevents extraction?",
+        "answer": "Immediately increase knee squeeze pressure around the thigh above the knee joint to create a tighter upper anchor. Simultaneously drive your hips forward to follow the leg extension, maintaining hip-to-knee contact. Clamp your armpit tighter against the ankle and pull the foot toward your chest. The combination of increased thigh pressure and forward hip drive counters the straightening escape by maintaining the hyperextension angle despite their extension effort.",
+        "safety_critical": false
+      },
+      {
+        "question": "What is the correct hip alignment for maximum kneebar finishing pressure from Inside Sankaku?",
+        "answer": "Your hip bones should be positioned directly behind the opponent's knee joint, creating a fulcrum at the posterior knee. Your hips face toward the back of their knee, not offset to either side. The opponent's toes should point toward the ceiling to ensure the hyperextension force targets the PCL and MCL rather than being absorbed by knee flexion or lateral rotation. Misaligned hips reduce finishing pressure significantly.",
+        "safety_critical": false
+      },
+      {
+        "question": "Your opponent rotates to go belly-down during your kneebar attempt - how do you adjust to maintain the finish?",
+        "answer": "Follow their rotation by adjusting your hip angle to stay positioned behind the knee joint. As they turn, the knee orientation changes but the hyperextension principle remains identical. A full belly-down commitment often strengthens your kneebar because their body weight now works against their own knee joint. Maintain ankle control throughout and continue the extension with hips adjusted to match the new angle created by their rotation.",
+        "safety_critical": false
+      },
+      {
+        "question": "What are the breaking point indicators that confirm the kneebar is correctly applied?",
+        "answer": "Key indicators include: the opponent's leg straightening involuntarily as your hip extension overcomes their ability to bend the knee, visible tension along the posterior thigh and calf muscles as the joint approaches maximum extension, and the opponent's free leg beginning to flail or post desperately for relief. In training, stop well before maximum indicators appear - the tap should come during progressive pressure, not at the structural breaking point.",
+        "safety_critical": true
+      },
+      {
+        "question": "What is the proper application speed for the kneebar from Inside Sankaku in training?",
+        "answer": "Apply minimum 3-5 seconds of progressive pressure from initial hip contact to full extension in training. Never spike or jerk the kneebar at any speed. The knee joint provides less proprioceptive feedback than the elbow, meaning your partner may not feel the submission until structural damage has already begun. Always communicate with your partner about their comfort level and release immediately upon any tap signal including verbal taps, physical taps, or distress vocalizations.",
+        "safety_critical": true
+      },
+      {
+        "question": "You cannot finish the kneebar and your opponent is beginning to escape - what is your backup submission chain?",
+        "answer": "Transition back to heel hook attacks by releasing the ankle from your armpit and reaching for the heel that may now be exposed as the opponent focuses on kneebar defense. Alternatively, switch to a toe hold by maintaining ankle control but redirecting rotational force through the foot instead of hyperextension through the knee. The submission chain between kneebar, heel hook, and toe hold from Inside Sankaku creates a dilemma where each defense opens another attack vector.",
+        "safety_critical": false
+      }
+    ]
+  },
+  "defender": {
+    "name": "from Inside Sankaku Defender",
+    "description": "Defend against the kneebar from Inside Sankaku. Recognition cues, escape techniques, and defensive protocols to protect your knee joint in leg entanglement situations.",
+    "overview": "Defending the kneebar from Inside Sankaku requires recognizing the grip transition from heel hook to ankle control and immediately addressing the new hyperextension threat to the knee joint. The defender must prevent the attacker from securing the ankle under their armpit and establishing proper hip alignment, as once both elements are in place defensive options narrow dramatically. The critical defensive window occurs during the transition phase when the attacker releases heel hook grips to reach for the ankle - this is when the entanglement control is momentarily weakened and escape attempts have the highest success rate. Unlike defending heel hooks where the primary concern is rotational force, kneebar defense centers on preventing hyperextension by actively bending the knee, denying hip-to-knee alignment, and extracting the leg during moments of reduced control.",
+    "key_principles": [
+      "Recognize the kneebar transition early by feeling the attacker release heel hook grips and redirect toward your ankle",
+      "Prevent ankle isolation by keeping your foot mobile and actively pulling it away from the armpit trap",
+      "Bend your knee aggressively to counteract hyperextension force and deny the attacker a straight lever arm",
+      "Use your free leg to push against the attacker's hips and create the separation space needed for extraction",
+      "Address the kneebar threat immediately rather than continuing to defend the heel hook after the attack has changed",
+      "Tap early when extension pressure begins on the knee - hyperextension injuries develop faster than proprioceptive feedback allows"
+    ],
+    "recognition_cues": [
+      "Attacker releases heel hook grip configuration and reaches toward your ankle or lower shin instead",
+      "Feeling of your foot being pulled toward or trapped under the attacker's armpit rather than their hands working your heel",
+      "Attacker's hips shifting to face the back of your knee rather than staying oriented toward your heel",
+      "Increasing squeeze pressure around your thigh above the knee joint from the attacker's knees closing together"
+    ],
+    "defensive_options": [
+      {
+        "action": "Boot escape and leg extraction during grip transition",
+        "when_to_use": "During the grip transition window before ankle is fully secured under the attacker's armpit",
+        "targets_outcome": "Inside Sankaku/Top",
+        "if_successful": "Foot is freed from ankle control, returning to standard Inside Sankaku defense against heel hook threats",
+        "risk": "If ankle is already deeply trapped, straightening the leg accelerates the hyperextension and may assist the finish"
+      },
+      {
+        "action": "Active knee bend defense to deny hyperextension angle",
+        "when_to_use": "When ankle is controlled but the attacker has not yet initiated hip extension pressure",
+        "targets_outcome": "Inside Sankaku/Top",
+        "if_successful": "Attacker cannot generate hyperextension angle and must abandon the kneebar attempt or spend energy fighting your bend",
+        "risk": "Requires significant sustained leg strength and becomes exhausting if the attacker maintains pressure patiently"
+      },
+      {
+        "action": "Hip escape and guard recovery during transition window",
+        "when_to_use": "When any space is created during the attacker's grip transition or positional adjustment",
+        "targets_outcome": "Closed Guard/Bottom",
+        "if_successful": "Full extraction from the leg entanglement and recovery to closed guard or half guard position",
+        "risk": "Must maintain heel protection during the escape to prevent the attacker from catching an exposed heel hook mid-escape"
+      }
+    ],
+    "escape_paths": [
+      "Boot escape during grip transition - straighten leg and extract foot before ankle is trapped under the attacker's armpit",
+      "Hip escape to guard recovery - create distance during the transition phase and recover to closed guard or half guard",
+      "Counter leg entanglement to 50-50 - establish mutual leg control to neutralize the kneebar positional advantage"
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Closed Guard/Bottom",
+        "how": "Exploit the grip transition window when the attacker releases heel hook grips to reach for the ankle. Use this moment to straighten leg, extract from the entanglement, and recover to closed guard before the kneebar position is established."
+      },
+      {
+        "outcome": "Inside Sankaku/Top",
+        "how": "Deny the kneebar by actively bending knee and pulling ankle away from armpit control. Force the attacker to abandon the kneebar attempt and return to standard Inside Sankaku attacks where you have practiced heel defense."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Straightening the leg when the ankle is already trapped under the attacker's armpit",
+        "consequence": "Accelerates the hyperextension by removing the natural protective bend in the knee, essentially completing the submission for the attacker",
+        "correction": "When the ankle is trapped, focus on bending the knee harder and creating lateral movement rather than trying to straighten and pull free. Straightening only works before the ankle is secured."
+      },
+      {
+        "error": "Continuing to defend the heel hook when the attack has clearly transitioned to a kneebar",
+        "consequence": "Heel-hiding defense is irrelevant against kneebar hyperextension. Energy is wasted on the wrong defensive pattern while the attacker establishes full kneebar position unchallenged.",
+        "correction": "Recognize the grip change immediately and switch to kneebar-specific defense: ankle extraction, active knee bending, and hip escape rather than heel hiding."
+      },
+      {
+        "error": "Using explosive escape attempts when the kneebar submission is partially locked with hip extension pressure",
+        "consequence": "Risk of serious knee ligament damage from forcing movement against an established hyperextension position. The PCL and MCL can tear before you register the pain.",
+        "correction": "If the kneebar is locked with proper hip alignment, ankle control, and extension pressure beginning, tap immediately rather than risking injury. Reserve explosive escapes for the transition phase only."
+      },
+      {
+        "error": "Ignoring the free leg as a primary defensive tool against the kneebar",
+        "consequence": "Loses access to the most effective frame and pushing surface available, making all escape attempts significantly harder and less likely to succeed",
+        "correction": "Actively use your free leg to push against the attacker's hips, post on the mat for hip escape power, or hook their leg for counter-leverage throughout the entire defensive sequence."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "How do you recognize that the attacker is transitioning from heel hook to kneebar from Inside Sankaku?",
+        "answer": "The primary recognition cues are: the attacker releases their heel hook grip configuration and reaches toward your ankle or lower shin, you feel your foot being directed toward their armpit rather than their hands working your heel, their hip orientation shifts to face the back of your knee, and you feel increased squeeze pressure from their knees closing around your thigh above the knee joint. Recognizing these cues during the transition window is critical for successful defense.",
+        "safety_critical": false
+      },
+      {
+        "question": "When should you tap to a kneebar from Inside Sankaku rather than continuing to escape?",
+        "answer": "Tap immediately when you feel the attacker's hips driving forward against the back of your knee with your ankle secured and your knee beginning to extend beyond its comfortable range. The knee joint provides less proprioceptive warning than the elbow, meaning by the time you feel significant pain structural damage may already be occurring. If you cannot bend your knee against the attacker's extension pressure and your ankle is fully trapped, the kneebar is locked and tapping is the only safe response.",
+        "safety_critical": true
+      },
+      {
+        "question": "What are the primary defensive options available against the kneebar from Inside Sankaku?",
+        "answer": "The three primary defenses are: boot escape during the grip transition phase where you extract your foot before the ankle is trapped under the armpit, active knee bending to resist the hyperextension when ankle is controlled but extension has not started, and hip escape to guard recovery by creating distance during the transition window. The most critical factor is timing - all three defenses are most effective during the transition from heel hook to kneebar when the attacker's control is momentarily weakened.",
+        "safety_critical": false
+      },
+      {
+        "question": "What makes defending the kneebar from Inside Sankaku different from defending a standard kneebar?",
+        "answer": "The Inside Sankaku entanglement restricts your hip mobility and prevents the standard kneebar defense of simply pulling the leg free and creating distance. Your leg is trapped in the opponent's figure-four configuration, limiting both rotational and linear escape movements. The attacker maintains knee line control throughout the kneebar attempt, preventing you from rotating to alleviate pressure as easily as against an open kneebar. This makes early recognition during the transition phase far more critical for successful defense.",
+        "safety_critical": false
+      },
+      {
+        "question": "What should you do immediately after your training partner taps to your kneebar attempt from Inside Sankaku?",
+        "answer": "Immediately stop all hip extension and drop your hips away from the partner's knee to remove all pressure. Release the ankle from your armpit control slowly while maintaining enough positional awareness to prevent sudden movements during the release. Allow your partner to extract and straighten their leg at their own pace without rushing. Verbally confirm their knee feels normal before resuming training. The transition from locked submission to release is when many avoidable training injuries occur.",
+        "safety_critical": true
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Recognition Drilling",
+        "focus": "Identifying kneebar setup cues from Inside Sankaku bottom",
+        "description": "Partner slowly demonstrates the transition from heel hook to kneebar while you focus on recognizing each tactile and visual cue. Practice identifying the moment heel hook grips release and ankle control begins. No resistance during this phase - pure recognition development."
+      },
+      {
+        "phase": "Phase 2: Defensive Technique Isolation",
+        "focus": "Individual defense execution and timing",
+        "description": "Practice each defensive option in isolation against a cooperative partner. Drill boot escapes, active knee bending, and hip escape recoveries separately until each technique is smooth and automatic. Partner provides the kneebar setup but does not resist your escape attempts."
+      },
+      {
+        "phase": "Phase 3: Progressive Resistance Defense",
+        "focus": "Applying correct defenses against increasing pressure",
+        "description": "Partner increases resistance from light to moderate while you practice selecting and executing the appropriate defense based on timing and position. Learn to assess which defense is available at each phase of the kneebar development and when to tap instead of escape."
+      },
+      {
+        "phase": "Phase 4: Live Positional Defense",
+        "focus": "Full defensive application under realistic conditions",
+        "description": "Start in Inside Sankaku bottom with partner free to attack heel hooks and kneebars at full intensity. Practice recognizing which attack is developing, selecting the correct defensive response, and executing under pressure. Includes tap awareness training and energy management."
+      }
+    ]
+  }
+}

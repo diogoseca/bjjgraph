@@ -3,24 +3,30 @@
 
 
 ---
-title: "Can Opener | BJJ Submission | BJJ Graph"
+title: "Can Opener | BJJ Submission Family | BJJ Graph"
 description: "Understand Can Opener neck crank in BJJ: safety risks, legal status, defensive counters. Success rates: Beginner 15%, Intermediate 25%, Advanced 35%."
 ---
 
 
-<body data-content-type="submissions-hub">
+<body data-content-type="submissions-family">
 
 > **SAFETY**: Can Opener targets the Cervical spine and neck muscles. Risk: Cervical spine compression. Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
-<div class="role-links">
 
-[[Can Opener/Attacker|Play as Attacker]]
-[[Can Opener/Defender|Play as Defender]]
+<section id="variants" class="content-section">
 
-</div>
+## Position Variants
+
+| From Position | Success Rate | Top Injury Risk | Key Difference |
+|---------------|-------------|-----------------|----------------|
+| [[Can Opener/from Closed Guard|Closed Guard]] | 30% | Cervical spine compression |  |
+
+
+</section>
+
 
 <section id="overview" class="content-section">
 
@@ -29,9 +35,7 @@ The Can Opener is a neck crank technique applied from within an opponent's close
 **Category**: Compression
 **Type**: Neck Crank
 **Target Area**: Cervical spine and neck muscles
-**Starting Position**: [[Positions/Closed Guard]]
-**From Position**: [[Positions/Closed Guard]] (Top)
-**Success Rate**: 30%
+**Success Rate**: 30% (average across variants)
 
 </section>
 
@@ -80,149 +84,16 @@ The Can Opener is a neck crank technique applied from within an opponent's close
 
 </section>
 
-<section id="outcomes" class="content-section">
 
-## Outcomes
+<section id="variation-details" class="content-section hide-minimal">
 
-| Result | Position | Probability |
-|--------|----------|-------------|
-| Success | [[game-over]] | 55% |
-| Failure | [[Positions/Closed Guard]] | 25% |
-| Counter | [[Positions/Open Guard]] | 20% |
-
-
-</section>
-
-<section class="content-section">
-
-## Attacker vs Defender
-
-| &nbsp; | Attacker | Defender |
-|--------|----------|----------|
-| **Focus** | Execute and finish | Escape and survive |
-| **Key Principles** | Neck compression creates intense discomfort forcing guard op... | Prevention through grip discipline is the primary defense - ... |
-| **Options** | 6 execution steps | 4 defensive options |
-
-</section>
-
-<section id="attacker-summary" class="content-section">
-
-## Playing as Attacker
-
-[[Can Opener/Attacker|→ Full Attacker Guide]]
-
-### Key Principles
-
-
-- Neck compression creates intense discomfort forcing guard opening
-
-- Interlaced fingers behind head provide structural control
-
-- Forearm pressure against neck sides amplifies compression effect
-
-- Opponent's closed guard creates mechanical disadvantage for their escape
-
-- Defensive awareness and early counter-measures are more important than offensive application
-
-- Legal and ethical alternatives should always be prioritized for guard breaking
-
-- Understanding this technique defensively prevents being caught by less experienced or unethical opponents
-
-
-### Execution Steps
-
-
-- **Establish head control**: From within closed guard, swim both hands behind opponent's head while they attempt to break your po...
-
-- **Interlace fingers**: Lock your fingers together behind opponent's head creating a strong structural frame with your arms....
-
-- **Position forearms against neck**: Adjust your arm position so the bony portions of your forearms contact the sides and front of oppone...
-
-- **Pull head forward and down**: Using your interlaced hands, pull opponent's head toward your chest while simultaneously driving you...
-
-- **Drive elbows together**: Narrow your elbow position while maintaining the pull, creating a pinching effect that concentrates ...
-
-- **Maintain pressure until guard opens**: Continue the compression until opponent opens their guard to relieve neck pressure. The moment guard...
-
-
-### Common Mistakes
-
-
-- **Applying rapid or jerking pressure to neck**
-  - Consequence: Immediate severe injury risk including cervical spine damage, muscle tears, or nerve impingement
-  - Correction: If demonstrating for educational purposes only, apply pressure extremely slowly over 7-10 seconds with constant communication. Better solution: do not apply this technique at all.
-
-- **Using technique in competition or gym where it is banned**
-  - Consequence: Disqualification, gym expulsion, legal liability for injuries, and damage to reputation as unsafe training partner
-  - Correction: Always verify competition rules and gym policies. Use legal guard-breaking alternatives like standing guard breaks, knee slice pressures, or proper posture-based breaks.
-
-- **Continuing pressure after partner shows discomfort**
-  - Consequence: Serious injury to training partner, breakdown of trust, and potential long-term cervical damage
-  - Correction: Release immediately at first sign of discomfort or distress. Partner safety must always override technical objectives. Never test pain tolerance with neck attacks.
-
-
-</section>
-
-<section id="defender-summary" class="content-section">
-
-## Playing as Defender
-
-[[Can Opener/Defender|→ Full Defender Guide]]
-
-### Key Principles
-
-
-- Prevention through grip discipline is the primary defense - deny hand access behind your head at all costs by maintaining strong collar and sleeve grips
-
-- Posture breaking eliminates the mechanical space the attacker needs to generate compression leverage from inside your guard
-
-- Never try to endure or muscle through Can Opener pressure - cervical spine injuries can occur without adequate warning signs
-
-- Opening your guard voluntarily is always the correct response when neck compression begins building, regardless of positional cost
-
-- Frame against the attacker's hips to push them away and create distance the moment you feel head control being established
-
-- Active hip movement and angle changes prevent the attacker from establishing the stable centered position needed for sustained compression
-
-- Communicate immediately and clearly with your training partner if they attempt this technique, regardless of training intensity
-
-
-### Recognition Cues
-
-
-- Opponent swims one or both hands behind your head while in your closed guard, abandoning normal grip fighting patterns for collar or sleeve control
-
-- You feel fingers interlacing or clasping together at the back of your skull or upper neck while opponent's forearms begin contacting the sides of your neck
-
-- Opponent begins pulling your head forward and curling you upward while their elbows drive inward, creating a compression cage around your neck and head
-
-- Opponent's weight shifts upward and slightly backward as they attempt to generate leverage for the downward compression pull from inside your guard
-
-- You feel increasing forward flexion pressure on your cervical spine that you cannot relieve through normal guard adjustments or hip movement
-
-
-### Escape Paths
-
-
-- Open guard voluntarily and immediately frame against attacker's hips to push them away, creating distance that eliminates compression, then recover to butterfly guard or open guard with feet on hips
-
-- Break attacker's posture completely by pulling them forward with collar grips while driving heels into their lower back, collapsing the space needed for the technique and returning to standard closed guard offense
-
-- Hip escape to an angle while framing against the attacker's shoulder, changing the compression vector so that the straight-down force is redirected off-axis, then re-establish guard from the new angle
-
-
-</section>
-
-
-<section id="variations" class="content-section hide-minimal">
-
-## Variations
+## Variation Details
 
 
 **Single Arm Can Opener**: One arm behind head with forearm pressure while other arm posts for base. Less effective compression but more stable position. (When to use: When you cannot secure both hands behind head due to opponent's grip fighting. Still carries same safety risks and legal prohibitions as standard version.)
 
 
-**Can Opener from Half Guard**: Applied when trapped in opponent's half guard with similar mechanics but adjusted angles due to one leg being controlled. (When to use: When stuck in bottom half guard and seeking to create space. Even more dangerous due to restricted escape options for defender. Should be avoided.)
+**Can Opener from Half Guard**: Applied when in opponent's half guard with similar mechanics but adjusted angles due to one leg being controlled. (When to use: When in top half guard and seeking to create space. Even more dangerous due to restricted escape options for defender. Should be avoided.)
 
 
 **LEGAL ALTERNATIVE: Standing Guard Break**: Stand up in guard, establish solid posture, control hips, and break guard through proper leg positioning and pressure direction. No neck involvement. (When to use: ALWAYS prefer this method. Legal in all competitions, safe for training partners, effective at all skill levels, and develops proper technical fundamentals.)
@@ -238,9 +109,6 @@ The Can Opener is a neck crank technique applied from within an opponent's close
 
 - [[Positions/Closed Guard]]
 - [[Positions/Half Guard]]
-- [[Positions/Butterfly Guard]]
-- [[Positions/Rubber Guard]]
-- [[Positions/De La Riva Guard]]
 
 
 </section>
@@ -249,14 +117,14 @@ The Can Opener is a neck crank technique applied from within an opponent's close
 
 ## Related Submissions
 
-- [[Transitions/Guillotine Choke]]
-- [[Transitions/Darce Choke]]
-- [[Transitions/Anaconda Choke]]
-- [[Transitions/Rear Naked Choke]]
-- [[Transitions/Arm Triangle]]
-- [[Submissions/Ezekiel Choke]]
-- [[Transitions/North-South Choke]]
-- [[Transitions/Cross Collar Choke]]
+- [[Transitions/Guillotine Choke]] - Legal alternative neck attack from similar hand positioning inside closed guard
+- [[Transitions/Darce Choke]] - Legal neck attack using blood choke mechanics rather than spinal compression
+- [[Transitions/Anaconda Choke]] - Legal neck attack focusing on carotid compression rather than cervical pressure
+- [[Submissions/Rear Naked Choke]] - Highest percentage neck submission using blood choke from back control
+- [[Transitions/Arm Triangle]] - Legal head and arm compression submission accessible from top positions
+- [[Submissions/Ezekiel Choke]] - Legal choke applicable from inside closed guard as safer alternative
+- [[Transitions/North-South Choke]] - Legal neck attack from dominant north-south position using shoulder pressure
+- [[Submissions/Cross Collar Choke]] - Legal gi-based choke from closed guard using collar grip mechanics
 
 
 </section>

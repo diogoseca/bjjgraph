@@ -1,0 +1,463 @@
+{
+  "name": "Kimura from High Mount",
+  "description": "Master the Kimura shoulder lock from High Mount. Complete finishing guide with figure-four grip mechanics, rotational force application, and defensive counters.",
+  "tags": [
+    "bjj",
+    "submission",
+    "kimura",
+    "shoulder-lock",
+    "joint-lock",
+    "fundamental",
+    "hub",
+    "finishing-guide",
+    "high-mount"
+  ],
+  "submission_category": "Joint Lock",
+  "submission_type": "Shoulder Lock",
+  "target_area": "Shoulder joint, rotator cuff, and shoulder capsule",
+  "starting_position": "High Mount",
+  "from_position": "High Mount/Top",
+  "success_rate": 62,
+  "overview": "The Kimura from High Mount exploits the elevated knee positioning to trap and isolate the defender's arm with a figure-four grip, then rotate the shoulder joint past its natural range of motion. High mount provides distinct advantages over standard mount or side control Kimura attacks: the top player's weight compresses the defender's upper chest, severely limiting their ability to straighten the trapped arm or roll to escape. The defender's elbows are naturally pushed higher by the attacker's knees, making wrist capture significantly easier than from lower mount variations.\n\nThe mechanics differ from other Kimura positions because the attacker works from directly above rather than beside the opponent. This top-down angle allows gravity to assist the finishing rotation and makes the common arm-straightening defense far less effective. The defender cannot generate sufficient leverage to extend their elbow when pinned beneath the attacker's elevated hips. The attacker can also switch seamlessly between Kimura and Americana based on how the defender positions their hand, creating a two-way shoulder lock dilemma.\n\nIn competition, the Kimura from High Mount frequently appears as part of submission chains from the mount. When the defender protects their neck from collar chokes or hides their arms from armbar setups, their bent-arm defensive posture exposes the wrist for Kimura grip capture. The Kimura threat forces arm extension, which opens armbar and triangle opportunities, making it a cornerstone technique in systematic mount attack sequences.",
+  "safety_considerations": {
+    "injury_risks": [
+      {
+        "injury": "Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis)",
+        "severity": "High",
+        "recovery_time": "3-9 months with potential surgery requirement"
+      },
+      {
+        "injury": "Shoulder capsule damage and dislocation",
+        "severity": "CRITICAL",
+        "recovery_time": "6-12 months, may require surgical repair"
+      },
+      {
+        "injury": "Labral tear (glenoid labrum)",
+        "severity": "High",
+        "recovery_time": "4-8 months, often requires arthroscopic surgery"
+      },
+      {
+        "injury": "Bicep tendon strain or rupture",
+        "severity": "Medium",
+        "recovery_time": "6-12 weeks for strain, 3-6 months for rupture"
+      }
+    ],
+    "application_speed": "SLOW and progressive - 3-5 seconds minimum in training, allowing partner time to recognize danger and tap",
+    "tap_signals": [
+      "Verbal tap (saying 'tap' or making any verbal distress sound)",
+      "Physical hand tap (multiple taps with free hand)",
+      "Physical foot tap (multiple taps with either foot)",
+      "Any distress signal including screaming or unusual sounds"
+    ],
+    "release_protocol": [
+      "Immediately stop all rotational pressure the instant tap is felt or heard",
+      "Return the arm toward neutral position (externally rotate back to starting position)",
+      "Release the figure-four grip completely",
+      "Allow partner to self-assess shoulder mobility before continuing",
+      "Never release suddenly or allow arm to spring back forcefully"
+    ],
+    "training_restrictions": [
+      "Never spike or jerk the submission - rotation must be smooth and controlled",
+      "Never use competition speed or surprise attacks in training",
+      "Always ensure partner has at least one hand free to tap",
+      "Do not apply while partner is in awkward body position that prevents tapping",
+      "Never combine with weight pressure that restricts breathing while finishing",
+      "Respect immediate taps without testing partner's pain tolerance"
+    ]
+  },
+  "from_positions": [
+    "High Mount",
+    "Mount",
+    "S Mount"
+  ],
+  "related_submissions": [
+    "Kimura",
+    "Americana",
+    "Far Side Armbar",
+    "Arm Triangle",
+    "Cross Collar Choke"
+  ],
+  "related_content": [
+    {
+      "name": "High Mount",
+      "relationship": "Primary starting position providing elevated leverage for the figure-four finish"
+    },
+    {
+      "name": "Kimura Trap",
+      "relationship": "Control position when defender resists the finish and attacker transitions to sustained shoulder lock control"
+    },
+    {
+      "name": "Mount",
+      "relationship": "Parent position from which High Mount is established through progressive knee walking"
+    },
+    {
+      "name": "S Mount",
+      "relationship": "Adjacent mount variation for transitioning when defender extends arm to defend Kimura"
+    },
+    {
+      "name": "Americana",
+      "relationship": "Alternative shoulder lock available from same grip configuration when defender rotates hand upward"
+    }
+  ],
+  "outcomes": [
+    {
+      "to": "game-over",
+      "probability": 62,
+      "result": "success"
+    },
+    {
+      "to": "High Mount/Top",
+      "probability": 25,
+      "result": "failure"
+    },
+    {
+      "to": "Closed Guard/Bottom",
+      "probability": 13,
+      "result": "counter"
+    }
+  ],
+  "variations_and_setups": [
+    {
+      "variation_name": "Standard Wrist Capture Kimura",
+      "description": "Direct wrist capture from high mount when the defender's arm is exposed beside their head or on their chest. The attacker swims under the elbow with the near-side hand while securing the wrist with the far-side hand, then threads the figure-four.",
+      "when_to_use": "When the defender leaves their arm exposed or frames on your chest with a bent arm"
+    },
+    {
+      "variation_name": "Americana-to-Kimura Switch",
+      "description": "Begin attacking the Americana by pressing the defender's wrist toward the mat. When the defender rotates their hand to prevent the Americana finish, their forearm naturally swings into Kimura position. Thread the figure-four and redirect rotational force in the opposite direction.",
+      "when_to_use": "When the defender actively resists the Americana by rotating their forearm, creating the Kimura angle"
+    },
+    {
+      "variation_name": "Post-Choke-Defense Kimura",
+      "description": "After threatening a collar choke or cross collar choke, the defender brings their hands to their neck to strip grips. As they focus on neck defense, their elbows flare away from their body. Immediately abandon the choke attempt and capture the exposed wrist for the Kimura entry.",
+      "when_to_use": "When the defender commits both hands to defending a choke threat, exposing their arms for shoulder lock attacks"
+    }
+  ],
+  "attacker": {
+    "name": "from High Mount Attacker",
+    "description": "Attack the Kimura from High Mount with precise figure-four grip mechanics, systematic arm isolation, and counter-strategies for common defensive responses in BJJ.",
+    "overview": "Attacking the Kimura from High Mount requires securing the figure-four grip on the defender's wrist while maintaining the elevated mount platform. The high mount position provides exceptional leverage for the finishing rotation because gravity and body weight supplement the rotational force applied through the figure-four grip. The key distinction from other Kimura attacks is that you work from directly above your opponent rather than beside them, which eliminates many standard Kimura defenses and creates a direct downward line of force through the shoulder joint. Success depends on isolating the arm without sacrificing mount position, maintaining hip pressure to prevent the defender from rolling, and applying smooth progressive rotational force toward the mat. The figure-four grip must be tight with elbows squeezed together to prevent the defender from extracting their arm during the finishing sequence.",
+    "key_principles": [
+      "Maintain forward hip pressure on the defender's upper chest throughout the entire attack sequence to prevent bridging escapes",
+      "Isolate the target arm before committing to the figure-four grip to avoid losing mount position during the transition",
+      "Keep elbows squeezed tight together after securing the figure-four to eliminate slack and prevent arm extraction",
+      "Use your entire body structure to drive the rotation rather than relying on arm strength alone",
+      "Pin the defender's elbow to the mat as the fulcrum point before initiating rotational pressure",
+      "Stay prepared to switch between Kimura and Americana based on the direction the defender moves their forearm",
+      "Apply finishing pressure progressively to allow training partners time to tap safely"
+    ],
+    "setup_requirements": [
+      "Established high mount with knees positioned near or above the defender's armpits, providing access to their arms",
+      "Forward weight distribution with hips driving into the defender's upper chest to prevent bridge escapes during the attack",
+      "At least one of the defender's arms isolated from their body through grip stripping, frame breaking, or positional pressure",
+      "Sufficient base stability to maintain mount position while transitioning one or both hands to the figure-four grip",
+      "Defender's far-side arm controlled or monitored to prevent them from framing on your hip during the wrist capture"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Identify and isolate the target arm",
+        "description": "From high mount, select the arm that is most exposed or least protected. Swim your near-side hand under the defender's elbow while maintaining forward pressure through your hips. Your chest weight should pin their upper body to the mat while your hand position begins disrupting their defensive frame and separating their elbow from their ribs.",
+        "timing": "1-2 seconds"
+      },
+      {
+        "step_number": 2,
+        "action": "Capture the wrist with a C-grip",
+        "description": "Secure a firm C-grip on the defender's wrist with your same-side hand, pulling their hand away from their body and toward the mat beside their head. This wrist capture must be immediate and decisive because the defender will attempt to retract their arm the instant they feel the grip. Use your chest weight to trap their elbow against the mat as you establish wrist control.",
+        "timing": "1 second"
+      },
+      {
+        "step_number": 3,
+        "action": "Thread the figure-four grip",
+        "description": "Slide your opposite hand under the defender's trapped arm at the tricep level and grip your own wrist, completing the figure-four lock. Your forearm should press firmly against the back of their tricep near the elbow, creating the lever that will generate rotational force on the shoulder joint. Squeeze your elbows together tightly to eliminate any slack in the grip configuration.",
+        "timing": "1-2 seconds"
+      },
+      {
+        "step_number": 4,
+        "action": "Pin the elbow to the mat as the fulcrum",
+        "description": "Drive the defender's elbow toward the mat beside their head using steady downward pressure through your figure-four grip. This step establishes the critical fulcrum point for the shoulder rotation. Their elbow must be on or near the mat before you begin rotating, otherwise the submission lacks the mechanical advantage needed to finish against a resisting opponent who can still move their arm through space.",
+        "timing": "1-2 seconds"
+      },
+      {
+        "step_number": 5,
+        "action": "Adjust hip position for optimal leverage angle",
+        "description": "Shift your hips slightly toward the trapped arm side, angling your body to maximize rotational leverage while keeping your weight on the defender's chest. This subtle angle change transforms the finish from a muscular pulling motion into a structural rotation where your entire body weight and positioning drive the submission rather than just your arms pulling against the defender's resistance.",
+        "timing": "1 second"
+      },
+      {
+        "step_number": 6,
+        "action": "Apply controlled rotational pressure toward the mat",
+        "description": "Begin rotating the defender's wrist toward the mat behind their back using a smooth, progressive arc. The rotation should move their hand in a paintbrush motion toward their hip while their elbow remains pinned to the mat as the fulcrum. Increase pressure gradually in training, allowing your partner time to recognize the submission and tap before the shoulder joint reaches its structural limit.",
+        "timing": "2-4 seconds"
+      },
+      {
+        "step_number": 7,
+        "action": "Complete the finish with structural pressure",
+        "description": "Continue the controlled rotation until the opponent taps or you reach the natural endpoint of shoulder external rotation. Maintain chest pressure on the defender's upper body throughout the entire finishing sequence to prevent them from rolling toward you to relieve rotational pressure on the shoulder. The finishing force comes from your body structure and weight distribution, not from muscular effort in your arms.",
+        "timing": "1-2 seconds"
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Straightening the trapped arm to break the figure-four angle",
+        "effectiveness": "High",
+        "your_response": "Immediately transition to armbar by stepping over their head and falling back, or switch to a straight armbar from mount since their arm is already extended. The straightened arm is a gift for armbar attacks.",
+        "targets_outcome": "High Mount/Top"
+      },
+      {
+        "counter": "Clasping hands together or gripping own lapel to prevent wrist isolation",
+        "effectiveness": "Medium",
+        "your_response": "Use two-on-one grip breaking by peeling their fingers with both hands, or drive their elbow toward the mat to create a lever that separates the grip. You can also attack the other arm while they commit both hands to defense.",
+        "targets_outcome": "High Mount/Top"
+      },
+      {
+        "counter": "Explosive bridge and roll toward the Kimura side to escape mount",
+        "effectiveness": "Medium",
+        "your_response": "Post your outside foot wide for base when you feel the bridge coming. If they succeed in rolling you, maintain the figure-four grip and finish the Kimura from guard or transition to a sweep from the new position.",
+        "targets_outcome": "Closed Guard/Bottom"
+      },
+      {
+        "counter": "Tucking the elbow tight to the body and turning away to prevent arm isolation",
+        "effectiveness": "Low",
+        "your_response": "Use your knee to wedge against their elbow and pry the arm away from their body. Alternatively, threaten the back take as they turn away, which forces them to face you and re-expose the arm for the Kimura.",
+        "targets_outcome": "High Mount/Top"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Sitting upright to attack the Kimura instead of maintaining forward chest pressure",
+        "consequence": "Allows the defender to bridge effectively and escape mount entirely, losing the dominant position",
+        "correction": "Keep your chest driving forward into the defender's upper body throughout the entire Kimura sequence, only shifting your weight laterally for finishing angle, never backward"
+      },
+      {
+        "error": "Attempting the figure-four grip before properly isolating the arm from the body",
+        "consequence": "The defender clasps their hands together or grabs their own gi, creating a strong defensive connection that is difficult to break once established",
+        "correction": "Fully separate the target arm from the defender's body using swim moves, frame breaks, or knee wedges before committing to the figure-four grip"
+      },
+      {
+        "error": "Leaving elbows loose in the figure-four grip with excessive slack",
+        "consequence": "The defender extracts their arm through the gap between your elbows, escaping the submission entirely and potentially recovering defensive position",
+        "correction": "Squeeze your elbows together tightly after completing the figure-four, maintaining constant inward pressure to eliminate any space for arm withdrawal"
+      },
+      {
+        "error": "Rotating the shoulder before pinning the elbow to the mat as a fulcrum",
+        "consequence": "The entire arm moves through space without generating rotational pressure on the shoulder joint, allowing the defender to simply reposition their arm",
+        "correction": "Drive the elbow firmly to the mat first, establishing a fixed fulcrum point, then begin the rotational finish only after the elbow is immobilized"
+      },
+      {
+        "error": "Using arm strength alone to force the rotation rather than body structure",
+        "consequence": "Rapid fatigue in the forearms and biceps, giving the defender time to escape as your grip weakens under muscular effort",
+        "correction": "Angle your body toward the trapped arm side and use your entire torso rotation and weight shift to drive the finish through structural leverage"
+      },
+      {
+        "error": "Neglecting to control the opposite arm while attacking the Kimura",
+        "consequence": "The defender uses their free hand to frame on your hip and create space for a bridge escape or to strip your grip on the trapped wrist",
+        "correction": "Pin or trap the defender's free arm under your knee or against their body before committing fully to the Kimura finish"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Static Grip Mechanics",
+        "focus": "Figure-four grip formation and finishing angle",
+        "description": "Practice the figure-four grip entry and finishing rotation on a compliant partner from high mount with zero resistance. Focus on correct hand placement, elbow squeeze, fulcrum establishment, and smooth rotational arc. Repeat 20-30 reps per side until the grip sequence becomes automatic."
+      },
+      {
+        "phase": "Phase 2: Positional Integration",
+        "focus": "Maintaining mount while transitioning to the Kimura",
+        "description": "Drill the complete sequence from high mount establishment through Kimura finish against light resistance (25-50%). Partner provides enough movement to require balance adjustments but does not actively escape. Focus on keeping forward pressure while manipulating the arm."
+      },
+      {
+        "phase": "Phase 3: Chain Attacks and Counters",
+        "focus": "Responding to defensive reactions with follow-up attacks",
+        "description": "Partner defends the Kimura using realistic counters (straightening arm, clasping hands, bridging). Practice switching to armbar when they straighten, breaking grips when they clasp, and maintaining base when they bridge. Develop automatic reactions to each defensive pattern."
+      },
+      {
+        "phase": "Phase 4: Live Application",
+        "focus": "Applying the Kimura against full resistance from mount",
+        "description": "Begin positional sparring rounds starting in high mount. Attempt the Kimura and its chain attacks against a fully resisting partner. Track success rate and identify which counter-attacks you struggle with most. Gradually integrate the Kimura into your full mount submission system."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What anatomical structures does the Kimura from High Mount primarily attack?",
+        "answer": "The Kimura targets the shoulder joint through forced external rotation, specifically stressing the rotator cuff muscles (supraspinatus, infraspinatus, teres minor, subscapularis), the shoulder capsule ligaments, and the glenoid labrum. The figure-four grip creates a lever that rotates the humerus past its natural range of motion within the glenohumeral socket, with the elbow serving as the fulcrum point. Secondary stress occurs on the bicep tendon and the acromioclavicular joint.",
+        "safety_critical": false
+      },
+      {
+        "question": "How do you recognize when the Kimura is approaching the breaking point during application?",
+        "answer": "The breaking point approaches when the defender's forearm passes approximately 90 degrees of rotation behind their back relative to the starting position. You will feel increasing resistance in the figure-four grip as the shoulder capsule tightens, and the defender's body may begin to involuntarily arch or twist. In training, you must slow down significantly before this point and apply pressure progressively, giving your partner clear opportunity to tap before structural damage occurs. Never push through sudden increases in resistance.",
+        "safety_critical": true
+      },
+      {
+        "question": "What control must be established before attempting the figure-four grip from High Mount?",
+        "answer": "Before committing to the figure-four, you must establish three control points: first, your hips must be driving forward pressure into the defender's upper chest to prevent bridging; second, the target arm must be isolated from the defender's body with their elbow separated from their ribs; third, the defender's opposite arm must be monitored or controlled to prevent them from creating frames or stripping your grip. Attempting the figure-four without these prerequisites typically results in losing mount position.",
+        "safety_critical": false
+      },
+      {
+        "question": "At what stage of the Kimura from High Mount does the defender lose the ability to escape?",
+        "answer": "The point of no escape occurs when the figure-four grip is secured with elbows squeezed tight and the defender's elbow is pinned to the mat as a fixed fulcrum. Once these two conditions are met simultaneously, the defender cannot straighten their arm (the grip prevents extension), cannot roll (the pinned elbow and your body weight prevent rotation), and cannot extract their arm (the tight elbows eliminate space). Before this point, the defender still has viable escape options through arm straightening, grip fighting, or bridging.",
+        "safety_critical": false
+      },
+      {
+        "question": "Your opponent straightens their arm to break the Kimura angle - what is your immediate response?",
+        "answer": "A straightened arm is an invitation to transition to the armbar. Immediately step your leg over their head on the trapped arm side while maintaining wrist control, then fall back perpendicular to their body to finish the armbar. The defender has traded one submission threat for another, and the armbar from this position has an even higher success rate because their arm is already extended. Alternatively, if the armbar angle is not available, maintain wrist control and re-bend their arm by driving their elbow back toward the mat.",
+        "safety_critical": false
+      },
+      {
+        "question": "What grip adjustment should you make if the defender begins to rotate their forearm during the Kimura finish?",
+        "answer": "If the defender rotates their forearm inward (pronation), tighten your figure-four by pulling your gripping hand closer to your chest and increasing elbow squeeze to prevent further rotation. If they rotate outward toward Americana position, consider switching to the Americana finish by redirecting pressure toward the mat instead of behind their back. The key adjustment is maintaining wrist control throughout any rotation and redirecting your finishing angle to match their arm position rather than fighting against their movement.",
+        "safety_critical": false
+      },
+      {
+        "question": "What is the proper application speed for the Kimura in training and why is this critical?",
+        "answer": "The Kimura must be applied slowly and progressively in training, taking a minimum of 3-5 seconds for the finishing rotation. This controlled pace is critical because the shoulder joint can suffer catastrophic damage (rotator cuff tears, capsule damage, labral tears) before the defender feels sufficient pain to tap. The shoulder's pain response lags behind structural damage, meaning a fast application can cause serious injury even when the defender intends to tap. Always give your partner time to recognize the danger, process the position, and signal their tap.",
+        "safety_critical": true
+      },
+      {
+        "question": "How should you release the Kimura immediately after your partner taps?",
+        "answer": "The instant you feel or hear a tap, stop all rotational pressure and hold the arm in its current position without adding any force. Then slowly return the arm toward neutral by externally rotating it back toward the starting position. Release the figure-four grip completely and allow your partner to self-assess their shoulder mobility before continuing. Never release suddenly or let the arm spring back, as this rebound can cause injury to an already stressed joint. Maintain awareness that the shoulder may be compromised even after release.",
+        "safety_critical": true
+      },
+      {
+        "question": "In competition, your opponent defends the Kimura by clasping their hands together - how do you break this grip?",
+        "answer": "Several grip-breaking strategies work in competition: peel their fingers one at a time using your free hand; drive their elbow toward the mat to create a lever that separates clasped hands through mechanical disadvantage; walk your knees higher to increase chest pressure, making it harder for them to maintain grip strength under compression; or abandon the Kimura momentarily to attack the other arm, forcing them to unclasp. The most reliable method combines elbow-to-mat pressure with sustained forward weight, as fatigue will eventually break their grip.",
+        "safety_critical": false
+      },
+      {
+        "question": "Why is the Kimura from High Mount more effective than from standard mount or side control?",
+        "answer": "High mount provides three distinct advantages: first, the elevated knee position naturally pushes the defender's elbows away from their body, making arm isolation easier; second, the top-down angle means gravity assists the finishing rotation rather than working against it as in side control; third, the defender cannot generate effective bridging power because the attacker's weight is on their upper chest rather than their hips, removing their primary escape mechanism. These combined advantages produce a significantly higher finishing rate compared to Kimura attacks from lower positions.",
+        "safety_critical": false
+      }
+    ]
+  },
+  "defender": {
+    "name": "from High Mount Defender",
+    "description": "Defend the Kimura from High Mount with early recognition cues, grip prevention techniques, and proven escape strategies to recover guard position safely.",
+    "overview": "Defending the Kimura from High Mount demands immediate action because the elevated position gives the attacker superior leverage and severely limits your options for straightening the trapped arm. Your primary defense centers on preventing wrist capture by keeping your elbows tight to your body and hands clasped near your chin. Once the figure-four grip is secured, your defensive window narrows rapidly\u2014you must either strip the grip before rotation begins, connect your hands to create a structural barrier against extension, or use the attacker's commitment to the finish as an opportunity to bridge and escape the mount entirely.\n\nTiming is critical because the top-down angle makes late-stage Kimura defense far more difficult than from side control. The attacker's weight on your upper chest restricts your ability to generate the bridging power needed to roll them, so your defenses must be proactive rather than reactive. The moment you recognize the Kimura setup, you must begin your defensive sequence immediately rather than waiting to see if the attacker completes the grip. Prevention is dramatically more effective than escape once the figure-four is locked.",
+    "key_principles": [
+      "Keep elbows glued to your ribs and hands near your chin to prevent arm isolation and wrist capture from the start",
+      "Recognize the Kimura setup before the figure-four grip is completed, when defensive options are still available",
+      "Connect your hands by clasping or gripping your own clothing the instant you feel wrist control being established",
+      "Use the attacker's weight shift during the Kimura attempt as a window for bridge and roll escapes",
+      "Prioritize preventing the elbow from being pinned to the mat, as this is the critical fulcrum point for the finish",
+      "Stay calm and breathe steadily under pressure rather than panicking and making explosive but poorly timed movements"
+    ],
+    "recognition_cues": [
+      "Attacker's near-side hand begins swimming under your elbow or reaching for your wrist while in high mount",
+      "Attacker shifts their weight laterally toward one side while maintaining chest pressure, indicating they are angling for the figure-four",
+      "You feel your elbow being lifted or pried away from your ribs by the attacker's knee or hand",
+      "Attacker abandons a choke attempt and immediately reaches for your arm, signaling a transition to shoulder lock attack"
+    ],
+    "defensive_options": [
+      {
+        "action": "Clasp hands together or grip own lapel to prevent wrist isolation and figure-four completion",
+        "when_to_use": "The moment you feel the attacker grip your wrist or begin swimming under your elbow\u2014this must be immediate",
+        "targets_outcome": "High Mount/Top",
+        "if_successful": "Prevents the Kimura from being completed, forcing the attacker to either break your grip or abandon the attack",
+        "risk": "Both hands are committed to defense, temporarily preventing you from creating frames for escape"
+      },
+      {
+        "action": "Straighten the trapped arm explosively to break the figure-four angle before it is locked",
+        "when_to_use": "During the brief window between wrist capture and figure-four completion, before the attacker secures the second grip",
+        "targets_outcome": "High Mount/Top",
+        "if_successful": "Breaks the Kimura grip configuration and forces the attacker to restart the setup sequence",
+        "risk": "An extended arm becomes vulnerable to armbar if the attacker is ready to transition"
+      },
+      {
+        "action": "Bridge explosively toward the Kimura side while the attacker commits weight to the finish",
+        "when_to_use": "When the attacker begins rotating your shoulder and shifts their weight laterally to angle for the finish",
+        "targets_outcome": "Closed Guard/Bottom",
+        "if_successful": "Rolls the attacker over and allows you to recover closed guard or escape to a neutral position",
+        "risk": "If the bridge is weak, the attacker maintains mount and the Kimura grip, leaving you in a worse position"
+      },
+      {
+        "action": "Turn toward the Kimura side and begin hip escaping to recover half guard",
+        "when_to_use": "When the attacker loosens knee pressure to angle for the Kimura finish, creating a gap between their knee and your armpit",
+        "targets_outcome": "High Mount/Top",
+        "if_successful": "Creates enough distance to insert your knee and begin recovering guard, forcing the attacker to choose between the Kimura and maintaining mount",
+        "risk": "Turning can expose your back if the attacker abandons the Kimura and takes the back instead"
+      }
+    ],
+    "escape_paths": [
+      "Bridge and roll toward the Kimura side when the attacker shifts weight laterally for the finish, using their commitment against them to escape mount",
+      "Hip escape when the attacker's knee lifts away from your armpit during the Kimura setup, inserting your knee to recover half guard before the figure-four is completed"
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Closed Guard/Bottom",
+        "how": "Execute a well-timed bridge toward the Kimura side when the attacker commits their weight laterally to finish the rotation, using their off-balance position to roll them into your closed guard"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Extending arms straight to push the attacker away, exposing wrists for easy capture",
+        "consequence": "The attacker captures the extended wrist immediately and has a direct path to the figure-four grip with your arm already isolated",
+        "correction": "Keep elbows bent and tight to your ribs, using short frames with bent arms rather than pushing with extended arms"
+      },
+      {
+        "error": "Waiting to defend until after the figure-four grip is fully secured and locked",
+        "consequence": "Defensive options decrease dramatically once the figure-four is tight\u2014grip breaking becomes extremely difficult under the attacker's body weight",
+        "correction": "Begin defensive action the instant you recognize wrist control being attempted, before the second hand threads under your arm"
+      },
+      {
+        "error": "Attempting to bridge when the attacker still has centered weight and has not committed to the Kimura angle",
+        "consequence": "The bridge fails because the attacker has full base, wasting your energy and potentially exposing your neck as you arch upward",
+        "correction": "Wait for the attacker to shift weight laterally toward the Kimura side before bridging, using their compromised base as your escape window"
+      },
+      {
+        "error": "Panicking and making explosive random movements instead of executing a specific defensive technique",
+        "consequence": "Burns energy rapidly and creates openings for the attacker to tighten their position or transition to alternative submissions",
+        "correction": "Stay calm, choose one defensive option, and commit to executing it with proper timing and full effort rather than thrashing"
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "How do you recognize that the Kimura from High Mount is being set up before the grip is secured?",
+        "answer": "Key recognition cues include the attacker's hand swimming under your elbow or reaching across for your wrist, their weight shifting laterally to one side while maintaining chest pressure, and your elbow being pried away from your ribs by their knee or hand. The earliest warning sign is typically the attacker abandoning neck attacks and redirecting focus to your arm. Recognizing these cues before the figure-four is complete gives you the widest defensive window.",
+        "safety_critical": false
+      },
+      {
+        "question": "What is the safest way to tap when caught in the Kimura from High Mount?",
+        "answer": "Tap immediately and clearly the moment you feel rotational pressure on your shoulder that you cannot stop. Use your free hand to tap rapidly on the attacker's body, the mat, or your own body. If your free hand is trapped, use verbal tapping by saying 'tap' loudly or tapping with your feet. Do not wait to see if you can escape once rotation has begun\u2014the shoulder can suffer structural damage before you feel significant pain, and the top-down angle from high mount makes late escapes nearly impossible.",
+        "safety_critical": true
+      },
+      {
+        "question": "What defensive options are available at each stage of the Kimura from High Mount?",
+        "answer": "Before wrist capture: keep elbows tight and hands near chin to prevent isolation. During wrist capture: straighten the arm explosively or immediately clasp your hands together. After figure-four is secured: grip fight to break the connection or bridge toward the Kimura side. During rotation: tap if you cannot stop the movement. Each stage offers progressively fewer options, which is why early recognition and immediate response are the foundation of effective Kimura defense.",
+        "safety_critical": false
+      },
+      {
+        "question": "Why is bridge timing critical when defending the Kimura from High Mount?",
+        "answer": "The bridge must be timed to coincide with the attacker's lateral weight shift during the Kimura finish attempt. When centered in high mount, the attacker has strong base in all directions, making bridges ineffective. However, when they angle their body toward the trapped arm side to generate finishing leverage, their base becomes compromised on the opposite side. This moment of lateral commitment is the optimal window for an explosive bridge toward the Kimura side, using their own weight shift against them.",
+        "safety_critical": false
+      },
+      {
+        "question": "What should you prioritize preventing to have the best chance of defending the Kimura from High Mount?",
+        "answer": "Prioritize preventing the elbow from being pinned to the mat, as this is the critical fulcrum point that makes the Kimura mechanically sound. Without a fixed fulcrum, the attacker can move your arm through space but cannot generate the rotational force needed to stress the shoulder joint. Keep your elbow mobile and away from the mat by maintaining bent-arm frames and actively resisting downward elbow pressure. If the elbow reaches the mat with the figure-four locked, your remaining defensive options are limited to tapping or a perfectly timed bridge.",
+        "safety_critical": false
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Recognition and Prevention",
+        "focus": "Identifying Kimura setups and maintaining defensive arm position",
+        "description": "Partner drills the Kimura entry sequence at slow speed while you practice recognizing the setup cues and maintaining elbows-tight defensive posture. Focus on keeping hands clasped near your chin and reacting to wrist capture attempts with immediate hand connection. No live resistance yet\u2014build pattern recognition."
+      },
+      {
+        "phase": "Phase 2: Grip Defense and Breaking",
+        "focus": "Preventing and breaking the figure-four grip",
+        "description": "Partner secures various stages of the Kimura grip while you practice defensive responses: straightening the arm during wrist capture, clasping hands after figure-four entry, and breaking established grips through leverage and body movement. Drill at 50% resistance to develop timing."
+      },
+      {
+        "phase": "Phase 3: Escape Execution",
+        "focus": "Bridge timing and hip escape execution",
+        "description": "Partner completes the Kimura setup and begins finishing at controlled speed. Practice timing your bridge to coincide with their lateral weight shift, and drill hip escapes when their knee lifts during the Kimura angle. Build to 75% resistance with focus on explosive timing rather than sustained effort."
+      },
+      {
+        "phase": "Phase 4: Live Defensive Sparring",
+        "focus": "Full resistance Kimura defense from High Mount",
+        "description": "Begin positional sparring rounds starting with partner in high mount. Partner attacks Kimura and all mount submissions while you defend and attempt escapes against full resistance. Track which defensive stage you most commonly fail at and drill that specific phase in isolation."
+      }
+    ]
+  }
+}

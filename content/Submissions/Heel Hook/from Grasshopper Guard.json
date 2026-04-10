@@ -1,0 +1,475 @@
+{
+  "name": "Heel Hook from Grasshopper Guard",
+  "description": "Master the heel hook from grasshopper guard with inverted entry mechanics, leg entanglement transitions, finishing details, and essential safety protocols.",
+  "tags": [
+    "bjj",
+    "submission",
+    "leg-lock",
+    "heel-hook",
+    "joint-lock",
+    "ashi-garami",
+    "advanced-technique",
+    "hub",
+    "finishing-guide",
+    "grasshopper-guard",
+    "no-gi"
+  ],
+  "submission_category": "Joint Lock",
+  "submission_type": "Leg Lock",
+  "target_area": "Ankle joint, knee ligaments (ACL/MCL/LCL), and lower leg structural integrity",
+  "starting_position": "Grasshopper Guard",
+  "from_position": "Grasshopper Guard/Bottom",
+  "success_rate": 45,
+  "overview": "The heel hook from grasshopper guard exploits the unique inverted angles available when playing this unorthodox open guard. The bottom player uses elevated hips and a shoulder-based foundation to thread legs around the opponent's lead leg, securing heel control from an angle that standard guard positions cannot provide. The inversion creates access to lateral heel exposure that conventional ashi garami entries require multiple transitional steps to achieve, compressing the attack chain into a single fluid motion from guard to finish.\n\nWhat distinguishes this entry from conventional heel hook setups is the deception inherent in the grasshopper configuration. The opponent perceives a guard retention or sweep attempt rather than a direct submission threat, delaying their defensive reactions by critical fractions of a second. The grasshopper position allows the attacker to transition directly from inversion into ashi garami while maintaining constant proximity to the heel, eliminating the usual warning signals that accompany standard leg lock entries.\n\nStrategically, this submission functions best within a broader grasshopper guard attack system. When the opponent defends sweeps by posting or widening their base, they inadvertently expose their lead leg to entanglement. The heel hook threat forces a choice between maintaining sweep defense or protecting the legs, creating an offensive dilemma that elevates success rates across all attack paths from this position.",
+  "safety_considerations": {
+    "injury_risks": [
+      {
+        "injury": "ACL tear (anterior cruciate ligament rupture)",
+        "severity": "CRITICAL",
+        "recovery_time": "6-12 months with surgical reconstruction, extensive rehabilitation"
+      },
+      {
+        "injury": "MCL/LCL tear (medial/lateral collateral ligament damage)",
+        "severity": "CRITICAL",
+        "recovery_time": "3-6 months for grade 3 tears, potential permanent instability"
+      },
+      {
+        "injury": "Meniscus tear (cartilage damage in knee joint)",
+        "severity": "High",
+        "recovery_time": "4-8 weeks to 6 months depending on severity and treatment"
+      },
+      {
+        "injury": "Ankle ligament damage and joint capsule injury",
+        "severity": "High",
+        "recovery_time": "6-12 weeks, potential chronic instability"
+      },
+      {
+        "injury": "Tibial/fibular fracture from extreme rotational force",
+        "severity": "CRITICAL",
+        "recovery_time": "3-6 months, potential permanent mobility issues"
+      }
+    ],
+    "application_speed": "EXTREMELY SLOW and progressive - minimum 5-7 seconds from initial pressure to maximum force in training. NEVER apply sudden rotational force.",
+    "tap_signals": [
+      "Verbal tap (primary signal)",
+      "Physical hand tap on opponent or mat",
+      "Physical foot tap with free leg",
+      "Any distress vocalization",
+      "Frantic slapping or waving with hands",
+      "Leg stiffening or immediate defensive reaction"
+    ],
+    "release_protocol": [
+      "Immediately stop all rotational pressure upon any tap signal",
+      "Release heel grip completely before releasing leg entanglement",
+      "Slowly unwrap leg configuration while maintaining awareness of opponent's joint",
+      "Allow opponent to extract their leg at their own pace",
+      "Check with training partner about their knee and ankle status",
+      "Report any joint discomfort to instructor immediately, even if minor"
+    ],
+    "training_restrictions": [
+      "NEVER apply sudden or explosive rotational force in training",
+      "NEVER practice at competition speed with training partners",
+      "NEVER continue pressure if partner's leg begins rotating with the submission",
+      "Always allow immediate tap access for both hands",
+      "Only train with partners who have explicit experience with heel hook defense",
+      "Prohibited for practitioners below brown belt in most traditional academies",
+      "Never train heel hooks without instructor supervision during initial learning phases",
+      "Stop immediately if any popping, clicking, or unusual sensations occur in opponent's leg"
+    ]
+  },
+  "from_positions": [
+    "Grasshopper Guard",
+    "Inverted Guard"
+  ],
+  "related_submissions": [
+    "Heel Hook",
+    "Inside Heel Hook",
+    "Achilles Lock",
+    "Calf Slicer",
+    "Flying Kneebar"
+  ],
+  "related_content": [
+    {
+      "name": "Grasshopper Guard",
+      "relationship": "Starting guard position for this submission variant"
+    },
+    {
+      "name": "Ashi Garami",
+      "relationship": "Leg entanglement system used for transitional finishing position"
+    },
+    {
+      "name": "Inside Ashi-Garami",
+      "relationship": "Primary finishing configuration after inversion transition"
+    },
+    {
+      "name": "Honey Hole",
+      "relationship": "Alternative finishing entanglement for inside heel hook variation"
+    },
+    {
+      "name": "Inverted Guard",
+      "relationship": "Parent guard category sharing inversion mechanics"
+    },
+    {
+      "name": "Single Leg X-Guard",
+      "relationship": "Alternative leg control position when heel hook is defended"
+    }
+  ],
+  "outcomes": [
+    {
+      "to": "game-over",
+      "probability": 45,
+      "result": "success"
+    },
+    {
+      "to": "Grasshopper Guard/Bottom",
+      "probability": 36,
+      "result": "failure"
+    },
+    {
+      "to": "Closed Guard/Top",
+      "probability": 19,
+      "result": "counter"
+    }
+  ],
+  "variations_and_setups": [
+    {
+      "variation_name": "Inside Heel Hook via Leg Thread",
+      "description": "From grasshopper guard, thread the inside leg across the opponent's lead thigh to access the inside heel, transitioning to inside ashi garami for the inside heel hook finish. This variation attacks with inward rotation and is particularly effective when the opponent's lead leg is positioned with the knee facing inward or their stance is narrow.",
+      "when_to_use": "When opponent narrows their stance or their lead knee faces inward, exposing the inside heel"
+    },
+    {
+      "variation_name": "Outside Heel Hook via Wide Hip Switch",
+      "description": "Execute a wider hip switch during the inversion-to-ashi transition, rotating past the standard inside position to access the outside of the heel. The finishing rotation travels outward rather than inward. This requires more space during the transition but bypasses the standard boot defense that blocks inside entries.",
+      "when_to_use": "When opponent successfully defends the inside heel hook by straightening their leg or rotating their knee outward"
+    }
+  ],
+  "attacker": {
+    "name": "from Grasshopper Guard Attacker",
+    "description": "Learn to execute the heel hook from grasshopper guard. Step-by-step inverted entry mechanics, grip techniques, finishing details, and competition strategies.",
+    "overview": "Attacking with the heel hook from grasshopper guard requires precise timing of the inversion-to-entanglement transition. The key advantage is that your inverted positioning gives you access to the opponent's heel from angles they rarely train to defend. Your primary challenge is maintaining heel control during the transition from inverted guard to a stable ashi garami finishing position while preventing the opponent from disengaging or stacking. Success depends on treating the entire sequence from inversion to finish as one continuous motion rather than discrete steps, because any pause between phases allows the opponent to initiate defensive reactions.",
+    "key_principles": [
+      "Secure heel control before transitioning from inversion - premature rotation without grip leads to scrambles and lost position",
+      "Use hip elevation as the primary mechanism to create the angle needed for heel access rather than reaching with hands alone",
+      "Thread legs to the inside of the opponent's base to prevent easy extraction and stepping away from the entanglement",
+      "Execute the transition from grasshopper inversion to ashi garami finishing position as one continuous unbroken motion",
+      "Apply rotational pressure using whole-body mechanics from the hip bridge and torso twist rather than arm strength alone",
+      "Maintain constant knee pinch throughout the finish to prevent the opponent from straightening or extracting the trapped leg"
+    ],
+    "setup_requirements": [
+      "Established grasshopper guard with stable shoulder base and hips elevated above chest height",
+      "At least one hook engaged behind the opponent's lead knee to anchor the position and prevent disengagement",
+      "Opponent's weight committed forward or base narrowed sufficiently to allow leg threading between their stance",
+      "Clear path to isolate and control the target heel before the opponent recognizes the submission threat",
+      "Sufficient core engagement to maintain inversion throughout the entire transition to the finishing position"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Establish grasshopper guard base",
+        "description": "From open guard, invert your torso onto your shoulder blades while elevating your hips above your chest. Engage your core to maintain hip height and position at least one leg hook behind the opponent's lead knee to prevent them from stepping away. Your arms remain free to transition to heel control in the next phase.",
+        "timing": "1-2 seconds"
+      },
+      {
+        "step_number": 2,
+        "action": "Thread inside leg for entanglement",
+        "description": "Shoot your inside leg between the opponent's legs, threading it across their lead thigh and positioning your foot behind their far knee. This creates the initial leg entanglement that prevents extraction and establishes the lever arm needed for the heel hook finish. Maintain hip elevation throughout this threading motion.",
+        "timing": "1-2 seconds"
+      },
+      {
+        "step_number": 3,
+        "action": "Capture the heel with two-on-one grip",
+        "description": "Reach both hands to secure the opponent's heel, cupping it with your primary hand while your secondary hand reinforces the grip on the foot and ankle. The heel must be captured before any rotation begins, as attempting to rotate without secure grip control results in a lost position and wasted energy. Pull the heel tight to your chest.",
+        "timing": "1-2 seconds"
+      },
+      {
+        "step_number": 4,
+        "action": "Hip switch to ashi garami",
+        "description": "Rotate your hips from the inverted grasshopper position into an inside ashi garami configuration, clamping the opponent's trapped leg between your thighs. This transition must flow as one continuous motion that maintains heel control throughout. Your outside leg crosses over their hip to prevent them from posturing away or creating distance.",
+        "timing": "1-2 seconds"
+      },
+      {
+        "step_number": 5,
+        "action": "Lock leg triangle and align the knee",
+        "description": "Close your legs in a figure-four or triangle configuration around the opponent's trapped leg and squeeze your knees together to eliminate all space. Ensure the opponent's knee is aligned with your chest centerline. This alignment is critical because the rotational force must travel directly through the knee ligaments for the submission to function properly.",
+        "timing": "1-2 seconds"
+      },
+      {
+        "step_number": 6,
+        "action": "Apply controlled rotational pressure",
+        "description": "Bridge your hips upward while simultaneously rotating the heel laterally using your entire body, not just your arms. The rotation should come from your hip bridge and torso twist working together as a unified system. Apply pressure progressively over several seconds, never jerking or snapping. Monitor your partner's reactions continuously throughout.",
+        "timing": "3-5 seconds progressive application"
+      },
+      {
+        "step_number": 7,
+        "action": "Complete the finish or transition",
+        "description": "If the opponent does not tap, maintain steady pressure and micro-adjust your knee pinch and heel grip. If they begin escaping, be prepared to transition to alternative leg attacks such as a straight ankle lock or kneebar rather than forcing a deteriorating heel hook. Never increase application speed to compensate for positional deterioration. Stop immediately upon any tap signal.",
+        "timing": "Ongoing until tap or transition"
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Boot defense - opponent straightens trapped leg and drives knee forward to prevent entanglement",
+        "effectiveness": "High",
+        "your_response": "Clamp your knees tighter before they fully extend and use your free leg as a secondary hook behind their knee to prevent straightening. If they boot early before your triangle is locked, transition to a straight ankle lock on the extended leg instead.",
+        "targets_outcome": "Grasshopper Guard/Bottom"
+      },
+      {
+        "counter": "Step back and disengage - opponent retreats to break leg contact before heel grip is established",
+        "effectiveness": "Medium",
+        "your_response": "Follow their retreat by re-inverting and rolling toward them to reestablish leg contact. Use the momentum of their retreat to chase into outside ashi garami or single leg X-guard. Do not abandon inversion to chase standing.",
+        "targets_outcome": "Grasshopper Guard/Bottom"
+      },
+      {
+        "counter": "Stack pass attempt - opponent drives forward heavily to flatten your inversion and neutralize the attack",
+        "effectiveness": "Medium",
+        "your_response": "Use their forward momentum to complete the hip switch faster, pulling them into your ashi garami as they drive in. Alternatively, convert to a Granby roll to recover guard if they stack before you secure the heel.",
+        "targets_outcome": "Closed Guard/Top"
+      },
+      {
+        "counter": "Counter leg entanglement - opponent threads their own legs to enter 50-50 or reverse entanglement",
+        "effectiveness": "Low",
+        "your_response": "If they enter 50-50, switch to inside heel hook variant from the shared entanglement. Maintain your original heel grip priority and use the mutual entanglement to your advantage since you initiated the attack first.",
+        "targets_outcome": "Grasshopper Guard/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Applying rotation before securing proper heel grip and knee alignment",
+        "consequence": "The opponent extracts their leg easily because there is no mechanical lock preventing escape, wasting the entire attack sequence and returning to neutral",
+        "correction": "Complete all three control checkpoints before any rotation: two-on-one heel grip secured, leg triangle locked with knees squeezed, and opponent's knee aligned to your centerline"
+      },
+      {
+        "error": "Failing to clamp knees together during the transition from inversion to ashi garami",
+        "consequence": "Creates space that allows the opponent to straighten their leg and pull it free, even with a good heel grip",
+        "correction": "Squeeze your knees together as a constant throughout the entire transition. Think of your thighs as a vise that never loosens from the moment you begin the hip switch"
+      },
+      {
+        "error": "Staying inverted in grasshopper too long without committing to the heel hook entry",
+        "consequence": "Core fatigue accumulates rapidly in the inverted position, degrading your hip elevation and making the transition to ashi garami weak and slow",
+        "correction": "Treat grasshopper as a 3-5 second launch platform. Enter with the heel hook as your immediate objective and commit fully within that window or transition to a sustainable guard"
+      },
+      {
+        "error": "Gripping the foot or toes instead of cupping the heel bone directly",
+        "consequence": "Foot and toe grips are slippery and provide insufficient mechanical advantage for rotational force, allowing the opponent to extract with moderate effort",
+        "correction": "Cup the calcaneus (heel bone) in the web of your primary hand with fingers wrapped around the Achilles tendon. The heel is the fixed point that transfers rotation to the knee"
+      },
+      {
+        "error": "Using arm strength alone for rotational force rather than whole-body mechanics",
+        "consequence": "Arms fatigue quickly and generate insufficient torque to finish against a resisting opponent, resulting in a stalled attack that they can eventually escape",
+        "correction": "Generate rotation from your hip bridge and torso twist working together. Your arms maintain the grip while your body creates the rotational force through bridging and turning"
+      },
+      {
+        "error": "Neglecting to control the opponent's hip alignment during the finish",
+        "consequence": "The opponent rotates their entire body in the direction of your torque, nullifying the rotational differential needed to stress the knee ligaments",
+        "correction": "Use your legs to pin their hip in place by clamping tightly with the figure-four. Your outside leg crossing their hip prevents them from rotating their body to match your torque direction"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Solo Inversion Mechanics",
+        "focus": "Building inverted positioning strength and transition fluency",
+        "description": "Practice grasshopper guard inversions without a partner, focusing on shoulder base stability, hip elevation endurance, and smooth transitions from inverted to ashi garami body position. Develop the core strength and proprioception needed to maintain control throughout the complete attack sequence."
+      },
+      {
+        "phase": "Partner Entry Drilling",
+        "focus": "Heel capture and entanglement from grasshopper at low resistance",
+        "description": "Work the complete entry sequence from grasshopper guard to heel grip at 30% resistance. Partner stands passively while you practice threading legs, capturing the heel, and transitioning to ashi garami. Focus on grip placement accuracy and smooth continuous motion through each phase without pausing."
+      },
+      {
+        "phase": "Controlled Finishing Mechanics",
+        "focus": "Rotational application and proprioceptive sensitivity development",
+        "description": "From pre-established ashi garami position, practice applying and releasing rotational pressure with extreme control. Partner provides feedback on speed and pressure levels. Build the proprioceptive sensitivity to feel the submission approaching the tap threshold without overshooting into dangerous force levels."
+      },
+      {
+        "phase": "Chain Attacks from Grasshopper",
+        "focus": "Integration into broader attack system with moderate resistance",
+        "description": "Practice the full grasshopper attack sequence including sweep threats that set up the heel hook entry. Work transitions between sweep attempts, heel hooks, kneebars, and ankle locks at 60-80% resistance. Partner provides specific defensive reactions to build real-time decision making under pressure."
+      },
+      {
+        "phase": "Live Positional Sparring",
+        "focus": "Full resistance application and competition readiness",
+        "description": "Begin from grasshopper guard with partner defending at full competition intensity. Work to complete the heel hook or transition to secondary attacks based on defensive reactions. Review each round for timing decisions, grip quality, and attack chain effectiveness."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What anatomical structures does the heel hook from grasshopper guard primarily attack?",
+        "answer": "The heel hook primarily attacks the knee ligaments, specifically the ACL, MCL, and LCL, through rotational force applied via the heel and ankle. The lateral rotation of the heel creates torsional stress on these ligaments because the foot acts as a lever arm against the fixed knee joint. Secondary stress affects the ankle ligaments and meniscus cartilage.",
+        "safety_critical": true
+      },
+      {
+        "question": "What physical indicators signal that you have reached the breaking point and should expect a tap?",
+        "answer": "The primary indicator is feeling the opponent's foot begin to rotate freely without muscular resistance, meaning their defensive tension has been overcome. You may also feel a slight give in the knee joint alignment or hear vocalization. At this point, stop increasing pressure immediately and wait for the tap, as the joint is at its structural limit and further force causes irreversible damage.",
+        "safety_critical": true
+      },
+      {
+        "question": "What three control elements must be established before applying any rotational pressure?",
+        "answer": "Before any rotation, you must have a secure two-on-one heel grip with the calcaneus cupped in your primary hand, your legs locked in a figure-four or triangle around the trapped leg with knees squeezed together, and the opponent's knee aligned with your chest centerline. Attempting rotation without all three elements risks losing position or applying force at an angle that permits escape.",
+        "safety_critical": false
+      },
+      {
+        "question": "At what point during the execution sequence does escape become nearly impossible for the defender?",
+        "answer": "Escape becomes extremely difficult once the attacker completes the hip switch into ashi garami with the leg triangle locked and heel secured. Before this point, the defender can straighten their leg, step back, or rotate their body to clear the entanglement. After the triangle is locked with proper knee alignment, the defender's options narrow to matching rotation or tapping immediately.",
+        "safety_critical": false
+      },
+      {
+        "question": "Your heel grip starts slipping during the finish - what adjustment should you make?",
+        "answer": "Immediately stop rotational pressure and re-secure your grip by pulling the heel deeper into your chest or armpit. Use your secondary hand to reinforce by controlling the foot or ankle. Avoid the temptation to grip harder with fingers alone, which fatigues quickly. If the grip cannot be re-established, transition to an ankle lock or release and reset the attack rather than forcing with degraded control.",
+        "safety_critical": false
+      },
+      {
+        "question": "How does establishing the heel grip from grasshopper differ from gripping from standard ashi garami?",
+        "answer": "From grasshopper, the grip is initially established while inverted, meaning your hands approach the heel from an upward angle rather than the standard side angle. During the transition to ashi garami, the grip must be maintained through the hip rotation, requiring elbows tight to your body throughout the movement. The finishing grip position is identical, but the path to reach it demands greater grip awareness during the inversion-to-ashi transition phase.",
+        "safety_critical": false
+      },
+      {
+        "question": "Why is it critical to release all rotational pressure before unwrapping the leg entanglement after a tap?",
+        "answer": "Residual rotational force stored in the twisted position can cause additional ligament damage if released suddenly when the leg configuration changes. The knee joint may be at its structural limit at the moment of tap, and any abrupt change in entanglement geometry while torque remains loaded can tear ligaments even after the tap signal. Always release heel rotation fully first, then slowly unwrap the legs at the opponent's pace.",
+        "safety_critical": true
+      },
+      {
+        "question": "How should you set up the heel hook in competition to maximize the element of surprise?",
+        "answer": "Chain the heel hook with sweep attempts from grasshopper guard. Begin by threatening an X-guard elevation sweep, which forces the opponent to post and widen their base defensively. This base adjustment exposes their lead leg for the leg thread entry. The opponent perceives guard retention or sweep mechanics rather than a submission threat, buying the seconds needed to secure the initial entanglement before they activate leg lock defense.",
+        "safety_critical": false
+      },
+      {
+        "question": "Your opponent begins rotating their body in the direction of your heel hook torque - how do you respond?",
+        "answer": "If the opponent rotates with your torque, they are nullifying the rotational differential needed for the submission. Follow their rotation by adjusting your own body angle to maintain the relative twist between their knee and foot. If they continue rotating successfully, transition to a kneebar or switch to the opposite leg rather than forcing additional torque against a rotating opponent, which wastes energy without progress.",
+        "safety_critical": false
+      },
+      {
+        "question": "What is the most common reason the heel hook from grasshopper guard fails at the finishing stage?",
+        "answer": "The most common failure is insufficient knee pinch during the finish, which allows the opponent to straighten their leg and extract it from the entanglement. Many practitioners focus entirely on heel grip and rotational force while neglecting the leg clamp that prevents extraction. Without tight knees squeezing the trapped leg between your thighs, even a perfect heel grip fails as the opponent simply extends their leg out of the submission.",
+        "safety_critical": false
+      }
+    ]
+  },
+  "defender": {
+    "name": "from Grasshopper Guard Defender",
+    "description": "Defend the heel hook from grasshopper guard. Recognition cues, escape techniques, boot defense mechanics, and critical safety protocols for knee protection.",
+    "overview": "Defending the heel hook from grasshopper guard demands early recognition and immediate response. The inverted entry disguises the submission threat as a guard retention or sweep attempt, making early detection critical for survival. Your primary defensive priorities are preventing the initial leg entanglement, maintaining your base against the sweep threats that precede the heel hook, and knowing when to abandon technical defense and tap to protect your knee. The rotational force on the knee ligaments develops rapidly once the ashi garami position is secured, making late-stage escapes extremely dangerous and reinforcing the importance of defending early or tapping decisively.",
+    "key_principles": [
+      "Recognize the heel hook setup before the heel grip is established - prevention is far more effective than late escape",
+      "Keep your lead leg straight and your base wide to prevent leg threading from the inverted position",
+      "Never attempt explosive extraction once the attacker has secured heel grip and locked their leg triangle",
+      "Match the direction of rotation rather than fighting against it when caught in the finishing position",
+      "Tap early and decisively - knee ligament damage occurs before pain signals arrive and is often career-altering",
+      "Maintain awareness of your knee alignment relative to the attacker's body to gauge escape viability"
+    ],
+    "recognition_cues": [
+      "Opponent inverts onto their shoulders and elevates hips while maintaining leg contact with your lead leg",
+      "Feel a hook threading behind your lead knee from an unusual upward angle as they begin the entanglement",
+      "Opponent's hands shift from guard grips to reaching toward your heel, foot, or ankle area",
+      "Visible hip rotation as the opponent begins transitioning from inverted position toward ashi garami configuration",
+      "Sudden clamping pressure around your lead thigh as their legs close into a triangle or figure-four"
+    ],
+    "defensive_options": [
+      {
+        "action": "Boot defense - straighten the trapped leg and drive your knee forward before the entanglement locks",
+        "when_to_use": "Early stage when you feel the initial leg thread but before the attacker secures heel grip",
+        "targets_outcome": "Grasshopper Guard/Bottom",
+        "if_successful": "Clears the leg from the entanglement and forces attacker to reset from grasshopper guard",
+        "risk": "If attempted too late after the triangle is locked, the straightening motion can worsen knee exposure"
+      },
+      {
+        "action": "Rotation matching - turn your body in the same direction as the attacker's torque to neutralize rotational differential",
+        "when_to_use": "Mid to late stage when the attacker has grip but before full rotation is applied",
+        "targets_outcome": "Grasshopper Guard/Bottom",
+        "if_successful": "Nullifies the submission pressure and may create opening to extract the leg as the attacker readjusts",
+        "risk": "Requires precise directional awareness and may lead to positional scramble"
+      },
+      {
+        "action": "Drive forward to closed guard - push your hips forward and close your legs around the opponent's torso",
+        "when_to_use": "When the opponent is still partially inverted and has not completed the hip switch to ashi garami",
+        "targets_outcome": "Closed Guard/Top",
+        "if_successful": "Neutralizes the inverted attack angles entirely and forces the opponent to abandon the heel hook to address guard position",
+        "risk": "Requires committing your weight forward which can complete a sweep if the opponent transitions"
+      }
+    ],
+    "escape_paths": [
+      "Straighten the trapped leg and step backward to extract from the entanglement before heel grip is secured",
+      "Rotate your entire body in the direction of applied torque to neutralize the rotational differential on the knee",
+      "Drive forward to flatten the opponent's inversion and close guard around their torso to eliminate attack angles"
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Closed Guard/Top",
+        "how": "Drive your hips forward to flatten the opponent's inversion, close your legs around their torso, and establish closed guard top position which completely neutralizes the inverted heel hook threat"
+      },
+      {
+        "outcome": "Grasshopper Guard/Bottom",
+        "how": "Successfully boot the entanglement early by straightening your leg and stepping back, forcing the attacker to reset in grasshopper guard without submission progress"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Attempting to explosively rip the leg free once the attacker has secured heel grip and locked the triangle",
+        "consequence": "Explosive extraction dramatically accelerates ligament damage because the rotational force on the knee increases exponentially with speed, potentially causing ACL rupture",
+        "correction": "If the heel grip and triangle are locked, focus on controlled rotation matching to neutralize torque. If escape is not viable, tap immediately rather than risking permanent knee damage"
+      },
+      {
+        "error": "Failing to recognize the submission threat due to the inverted entry disguising it as a sweep attempt",
+        "consequence": "Delays defensive reaction until the attacker has already secured heel grip and transitioned to ashi garami, eliminating early-stage prevention options",
+        "correction": "Train specific recognition of grasshopper-to-heel-hook patterns. When you see an opponent invert with leg hooks near your knee, immediately assume a leg lock threat and begin preventive defense"
+      },
+      {
+        "error": "Keeping a narrow stance when facing grasshopper guard, making leg threading easy",
+        "consequence": "A narrow base allows the inverted opponent to thread their legs between yours with minimal resistance, accelerating the entanglement sequence",
+        "correction": "Maintain a wide base when facing grasshopper guard and keep your lead leg active, ready to straighten and step back at the first sign of leg threading"
+      },
+      {
+        "error": "Waiting to feel pain before tapping to the heel hook",
+        "consequence": "Knee ligament damage frequently occurs before pain signals reach the brain, meaning significant structural damage has already happened by the time you feel discomfort",
+        "correction": "Tap based on positional awareness rather than pain. If you feel rotational pressure on your knee that you cannot counter technically, tap immediately regardless of competitive context"
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "How do you recognize that a heel hook attempt is developing from grasshopper guard?",
+        "answer": "Watch for the opponent's hands shifting from guard grips to reaching toward your heel or ankle while their legs thread around your lead leg. The key transition signal is their hip switch from inverted position toward ashi garami, visible as a rotation in their lower body. The earlier you detect this shift in hand and hip movement, the more defensive options remain available to you.",
+        "safety_critical": false
+      },
+      {
+        "question": "What is the safest response when you feel rotational pressure on your knee that you cannot counter?",
+        "answer": "Tap immediately and clearly using verbal and physical signals simultaneously. Say tap loudly while slapping your hand on the opponent or the mat repeatedly. Do not wait to feel pain, as knee ligament damage often occurs before pain signals reach your brain. If you feel any rotational pressure on your knee that you cannot neutralize through rotation matching or extraction, tap immediately regardless of competitive context.",
+        "safety_critical": true
+      },
+      {
+        "question": "What is your primary defensive action when you feel the initial leg thread from grasshopper guard?",
+        "answer": "Immediately straighten your threatened leg and step it backward, removing it from the opponent's entanglement range. This boot defense must happen before they secure heel grip, because once the heel is captured and the triangle locked, your escape options diminish rapidly. Combine the leg straightening with a back step to create distance from their inverted position.",
+        "safety_critical": false
+      },
+      {
+        "question": "Why is it dangerous to try to explode out of a partially locked heel hook?",
+        "answer": "Explosive movement against a secured heel hook dramatically accelerates ligament damage. The rotational force on the knee increases exponentially with the speed of extraction, and a sudden pull can tear the ACL faster than you can register pain or faster than the attacker can release. Controlled methodical escape by matching rotation and slowly extracting is far safer than any explosive reaction.",
+        "safety_critical": true
+      },
+      {
+        "question": "What position should you work toward when caught in the early stages of this heel hook?",
+        "answer": "Work to establish closed guard by driving your hips forward and closing your legs around the opponent's torso, which negates their inversion advantage and eliminates the angles needed for leg entanglement attacks. This forces them to abandon the heel hook entirely to address the guard position change. Alternatively, stand up with wide base while clearing their hooks to eliminate the inversion-based attack."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Recognition Training",
+        "focus": "Early detection of heel hook setup cues from grasshopper guard",
+        "description": "Partner establishes grasshopper guard and slowly demonstrates each stage of the heel hook entry sequence. Defender identifies each transition point verbally before partner continues. Builds pattern recognition for the specific visual and tactile cues that distinguish heel hook setups from sweep attempts."
+      },
+      {
+        "phase": "Boot Defense Drilling",
+        "focus": "Leg straightening and extraction mechanics at progressive resistance",
+        "description": "Partner attempts heel hook entry from grasshopper at increasing resistance levels starting at 30%. Defender focuses exclusively on straightening the threatened leg and stepping back before heel grip is secured. Progressively increase to 70% resistance over multiple sessions while maintaining clean defensive technique."
+      },
+      {
+        "phase": "Controlled Escape Sequences",
+        "focus": "Methodical escape from partially secured positions without explosive movement",
+        "description": "Partner secures various stages of the heel hook and holds position. Defender practices rotation matching, controlled leg extraction, and guard recovery using slow deliberate movement only. Emphasis on safety-first escapes that prioritize joint protection over competitive positioning."
+      },
+      {
+        "phase": "Live Situational Sparring",
+        "focus": "Integrating all defensive skills against realistic heel hook attempts",
+        "description": "Begin from grasshopper guard position with partner attempting heel hooks at 80% intensity. Defender applies recognition, prevention, boot defense, and escape skills in realistic context. Review each exchange for defensive timing, tap decision quality, and identification of the latest viable escape point."
+      }
+    ]
+  }
+}

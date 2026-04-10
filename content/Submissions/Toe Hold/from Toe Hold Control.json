@@ -1,0 +1,462 @@
+{
+  "name": "Toe Hold from Toe Hold Control",
+  "description": "Master the toe hold finish from Toe Hold Control. Complete guide to figure-four grip mechanics, progressive rotational pressure, and safe application.",
+  "tags": [
+    "bjj",
+    "submission",
+    "leg-lock",
+    "joint-lock",
+    "toe-hold",
+    "foot-lock",
+    "leg-entanglement",
+    "hub",
+    "finishing-guide",
+    "toe-hold-control"
+  ],
+  "submission_category": "Joint Lock",
+  "submission_type": "Leg Lock",
+  "target_area": "Ankle, toes, and foot ligaments",
+  "starting_position": "Toe Hold Control",
+  "from_position": "Toe Hold Control/Top",
+  "success_rate": 60,
+  "overview": "The toe hold from Toe Hold Control represents the optimal finishing scenario for this rotational ankle lock, where the attacker has already established the dedicated control position before applying submission pressure. Unlike toe hold attempts launched during transitions or scrambles, executing from an established control position means the attacker has already confirmed all structural prerequisites—deep foot placement in the armpit, figure-four grip configuration around the foot, chest pressure over the lower leg, and knee line control through hip positioning—allowing complete focus on the progressive application of rotational force to the ankle joint's ligamentous structures.\n\nThe finishing mechanics require a precise coordination of wrist rotation and chest compression that distinguishes technical practitioners from those who rely on explosive force. The figure-four grip generates torque through controlled wrist turning while the chest drops weight onto the opponent's shin, closing the angular space needed for defensive rotation. This layered pressure system creates a submission that is both mechanically sound and safe when applied progressively, giving training partners clear recognition and adequate tap opportunity before dangerous forces develop.\n\nWithin the modern leg lock hierarchy, the toe hold from Toe Hold Control functions as both a primary finishing weapon and a positional forcing function. Defenders who successfully resist the rotation often expose themselves to heel hook entries, kneebar transitions, or deeper entanglements like the saddle. This creates a systematic dilemma structure where every defensive reaction opens a new offensive pathway, making mastery of this position essential for practitioners building comprehensive leg lock games.",
+  "safety_considerations": {
+    "injury_risks": [
+      {
+        "injury": "Ankle ligament tears (lateral and medial collateral ligaments)",
+        "severity": "High",
+        "recovery_time": "6-12 weeks with potential for chronic instability"
+      },
+      {
+        "injury": "Toe fractures and dislocations",
+        "severity": "Medium",
+        "recovery_time": "4-8 weeks"
+      },
+      {
+        "injury": "Plantar fascia rupture",
+        "severity": "High",
+        "recovery_time": "8-16 weeks"
+      },
+      {
+        "injury": "Lisfranc joint injury (midfoot dislocation)",
+        "severity": "CRITICAL",
+        "recovery_time": "3-6 months, may require surgery"
+      },
+      {
+        "injury": "Achilles tendon strain",
+        "severity": "Medium",
+        "recovery_time": "4-6 weeks"
+      }
+    ],
+    "application_speed": "EXTREMELY SLOW - 5-7 seconds minimum from initial grip to any pressure. This is NOT a technique to 'snap on' in training.",
+    "tap_signals": [
+      "Verbal tap (say 'tap' loudly)",
+      "Physical hand tap on partner or mat (multiple taps)",
+      "Physical foot tap with free leg",
+      "Any verbal distress signal",
+      "Slapping the mat with hand"
+    ],
+    "release_protocol": [
+      "Immediately stop all rotational pressure",
+      "Release toe grip completely",
+      "Release heel control",
+      "Allow opponent's foot to return to neutral position naturally",
+      "Do not let go abruptly - maintain light contact until opponent signals they are okay",
+      "Check with training partner before continuing"
+    ],
+    "training_restrictions": [
+      "Never apply sudden rotational force - all pressure must be gradual",
+      "Never grip individual toes - always grip across multiple toes and ball of foot",
+      "Never combine with explosive hip extension",
+      "Always allow clear tap access for both hands",
+      "Stop immediately at any sign of discomfort",
+      "Never train this submission at competition speed"
+    ]
+  },
+  "from_positions": [
+    "Toe Hold Control",
+    "Outside Ashi-Garami"
+  ],
+  "related_submissions": [
+    "Heel Hook",
+    "Inside Heel Hook",
+    "Achilles Lock",
+    "Estima Lock",
+    "Aoki Lock Control"
+  ],
+  "related_content": [
+    {
+      "name": "Toe Hold Control",
+      "relationship": "Primary control position for executing this submission finish"
+    },
+    {
+      "name": "Outside Ashi-Garami",
+      "relationship": "Common entry position leading to toe hold control and finishing opportunities"
+    },
+    {
+      "name": "Ashi Garami",
+      "relationship": "Parent leg entanglement category governing entry and control mechanics"
+    },
+    {
+      "name": "Heel Hook",
+      "relationship": "Alternative leg lock finish accessible through transitions from toe hold defense reactions"
+    },
+    {
+      "name": "50-50 Guard",
+      "relationship": "Symmetrical entanglement offering mutual toe hold and ankle lock threats"
+    },
+    {
+      "name": "Kneebar Control",
+      "relationship": "Transition target when opponent straightens leg during toe hold defense"
+    }
+  ],
+  "outcomes": [
+    {
+      "to": "game-over",
+      "probability": 60,
+      "result": "success"
+    },
+    {
+      "to": "Toe Hold Control/Top",
+      "probability": 26,
+      "result": "failure"
+    },
+    {
+      "to": "Closed Guard/Bottom",
+      "probability": 14,
+      "result": "counter"
+    }
+  ],
+  "variations_and_setups": [
+    {
+      "variation_name": "Standard Figure-Four Toe Hold",
+      "description": "Classical toe hold finish using a figure-four grip with the blade of the opponent's foot pressed into the armpit. The top hand grabs across the toes while the bottom hand threads under the ankle and grips the top wrist, creating a closed rotational system.",
+      "when_to_use": "Default finishing grip when opponent's foot is deeply secured and you have clear access to wrap both hands around the foot and lower ankle"
+    },
+    {
+      "variation_name": "Gable Grip Toe Hold",
+      "description": "Alternative finish using a palm-to-palm gable grip around the opponent's foot instead of the figure-four configuration. Provides stronger initial grip strength and is faster to establish, though it offers slightly less rotational control than the figure-four.",
+      "when_to_use": "When transitioning quickly from another leg lock attempt and the figure-four cannot be established before the opponent begins defensive movement"
+    },
+    {
+      "variation_name": "Chest Compression Toe Hold",
+      "description": "Variation emphasizing downward chest pressure on the opponent's shin as the primary finishing mechanism rather than pure wrist rotation. The chest weight pins the lower leg while relatively minimal wrist rotation creates the breaking angle on the ankle.",
+      "when_to_use": "Against opponents with strong grip-fighting ability who can resist pure rotational finishes, or when your wrist rotation angle is compromised"
+    }
+  ],
+  "attacker": {
+    "name": "from Toe Hold Control Attacker",
+    "description": "Learn to execute the toe hold from Toe Hold Control. Step-by-step finishing guide covering grip setup, progressive rotation, counter management, and safety.",
+    "overview": "Attacking with the toe hold from an established Toe Hold Control position is the highest-percentage finishing scenario for this submission, because the structural prerequisites are already confirmed before the finishing sequence begins. The attacker's task narrows from the broad challenge of securing a leg entanglement to the focused objective of converting existing positional control into progressive rotational pressure on the ankle joint. This requires precise coordination between wrist rotation, chest compression, and body angle adjustments—all while monitoring and responding to the defender's escape attempts. The key distinction from transitional toe hold attempts is that the attacker can apply patient, systematic finishing pressure without racing against positional deterioration.",
+    "key_principles": [
+      "Secure deep foot placement in the armpit with the blade of the foot anchored against the ribs before initiating any rotational pressure",
+      "Maintain forward chest pressure on the opponent's lower leg to prevent sit-up escapes while preserving mobility for angle adjustments",
+      "Control the knee line through hip positioning to prevent rotational escape and maintain structural integrity of the ankle isolation",
+      "Apply rotational pressure progressively through coordinated wrist turning and chest compression, never with explosive force",
+      "Keep elbows tight to the body to create a closed kinetic chain that prevents foot extraction and maximizes force transmission through the grip",
+      "Monitor the opponent's free leg constantly to defend against frames, counter-entanglement attempts, and pushes that create escape space"
+    ],
+    "setup_requirements": [
+      "Opponent's foot secured deeply in the armpit with the blade of the foot pressed against the lateral ribs for maximum rotational leverage",
+      "Figure-four grip configuration established around the opponent's foot and lower ankle with hands clasped below the ankle joint",
+      "Knee line controlled through hip positioning to prevent the opponent's rotational escape attempts",
+      "Forward chest pressure established over opponent's lower leg preventing them from sitting up or posting on elbows",
+      "Opponent's free leg monitored and managed to prevent counter-framing or counter-entanglement"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Verify All Control Points",
+        "description": "Confirm that all four structural prerequisites are in place before beginning the finishing sequence: deep foot placement in armpit with blade against ribs, figure-four grip around the foot below the ankle joint, chest pressure over the lower leg, and knee line controlled by hip positioning. Do not proceed until every control point is confirmed.",
+        "timing": "2-3 seconds for verification"
+      },
+      {
+        "step_number": 2,
+        "action": "Tighten Grip Configuration",
+        "description": "Close any remaining space in the figure-four grip by drawing elbows tighter to your body and squeezing the opponent's foot firmly against your ribs. The grip should create a sealed system with no gap between your forearms and the opponent's ankle, preventing any possibility of foot extraction during the finishing sequence.",
+        "timing": "1-2 seconds"
+      },
+      {
+        "step_number": 3,
+        "action": "Establish Finishing Angle",
+        "description": "Adjust your body angle perpendicular to the opponent's trapped leg to maximize rotational leverage. Walk your hips slightly toward the opponent's trapped-side hip, creating the optimal alignment where your wrist rotation translates directly into ankle torque rather than being absorbed by suboptimal body positioning.",
+        "timing": "1-2 seconds"
+      },
+      {
+        "step_number": 4,
+        "action": "Begin Progressive Rotation",
+        "description": "Initiate the toe hold finish by slowly turning your wrists inward while simultaneously applying mild chest compression downward on the opponent's shin. The rotation must be gradual enough that your training partner can clearly recognize the submission threat and tap before any pressure becomes dangerous to the ankle structures.",
+        "timing": "2-3 seconds of slow, progressive rotation"
+      },
+      {
+        "step_number": 5,
+        "action": "Layer Chest Compression",
+        "description": "As wrist rotation continues, layer additional finishing pressure by dropping your chest weight onto the opponent's lower leg. This compression prevents the opponent from creating the angular movement needed to relieve rotational pressure on the ankle, effectively closing escape windows while increasing the mechanical force applied to the joint.",
+        "timing": "1-2 seconds concurrent with rotation"
+      },
+      {
+        "step_number": 6,
+        "action": "Monitor Defensive Reactions and Adjust",
+        "description": "Watch for defensive reactions throughout the finishing sequence and adjust accordingly. If the opponent rotates their knee inward, follow with your body angle. If they attempt to straighten the leg, prepare kneebar transition. Maintain progressive pressure while adapting to defensive movements rather than trying to outpace them with speed.",
+        "timing": "Continuous throughout finish"
+      },
+      {
+        "step_number": 7,
+        "action": "Complete Submission or Transition",
+        "description": "If the opponent taps, immediately release all rotational pressure following the full release protocol. If they successfully defend by breaking grips or creating critical angle changes, release the finishing attempt and transition to the next attack in your leg lock sequence—heel hook, kneebar, or deeper entanglement—rather than fighting to rebuild a compromised toe hold.",
+        "timing": "Immediate response to tap or successful defense"
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Two-on-one wrist control breaking the figure-four grip configuration",
+        "effectiveness": "High",
+        "your_response": "Anticipate the grip fight by keeping elbows pinched tight to your body and maintaining constant inward pressure on the grip. If they get two-on-one control of your top hand, immediately switch to gable grip variation or release and re-establish from a tighter angle before they complete the strip.",
+        "targets_outcome": "Toe Hold Control/Top"
+      },
+      {
+        "counter": "Sit-up with hip extension to extract the trapped leg",
+        "effectiveness": "High",
+        "your_response": "Increase forward chest pressure immediately when you feel the opponent beginning to post on elbows. If they achieve a full sit-up, transition to saddle entry by crossing your legs over their trapped leg, converting their upward momentum into a deeper entanglement rather than allowing complete extraction.",
+        "targets_outcome": "Closed Guard/Bottom"
+      },
+      {
+        "counter": "Internal knee rotation to reduce ankle leverage",
+        "effectiveness": "Medium",
+        "your_response": "Follow their rotation with your body angle to maintain perpendicular alignment with the foot. Increase chest compression to limit the range of rotation available. If they successfully hide the heel through full internal rotation, transition to outside ashi-garami where the new angle offers heel hook opportunities.",
+        "targets_outcome": "Toe Hold Control/Top"
+      },
+      {
+        "counter": "Free leg framing on hips to create distance and break chest pressure",
+        "effectiveness": "Medium",
+        "your_response": "Use your near-side hip or knee to collapse the framing leg before it achieves full extension. If the frame establishes, maintain grip connection while walking your hips back into close range. Control the free leg with your hip position to prevent repeated framing attempts.",
+        "targets_outcome": "Closed Guard/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Applying rotational pressure before establishing all four control points",
+        "consequence": "Premature rotation alerts the opponent to submission danger before control is complete, triggering explosive defensive reactions that result in losing the position entirely or causing injury through uncontrolled force on a partially secured joint",
+        "correction": "Follow the systematic verification sequence: foot in armpit, figure-four grip, chest pressure, knee line control. Only begin rotation after all four are confirmed and stable"
+      },
+      {
+        "error": "Gripping too high on the shin instead of isolating the foot below the ankle joint",
+        "consequence": "Rotational pressure dissipates across the larger surface area of the shin without concentrating force on the ankle joint, resulting in ineffective submission attempts that exhaust grip strength without producing a tap",
+        "correction": "Secure grips specifically around the foot and lower ankle with hands clasped below the ankle joint, ensuring concentrated rotational leverage directly on the targeted ligamentous structures"
+      },
+      {
+        "error": "Allowing the opponent to sit up by neglecting forward chest pressure on the lower leg",
+        "consequence": "Opponent gains superior posture that enables powerful leg extraction through hip extension and creates opportunity for grip breaks, counter-attacks, or complete position reversal",
+        "correction": "Maintain constant forward pressure with chest over the opponent's lower leg throughout the entire finishing sequence. Treat chest pressure as a non-negotiable structural element, not an optional addition"
+      },
+      {
+        "error": "Using explosive rotational force instead of progressive pressure application",
+        "consequence": "Explosive application can cause severe ankle injury before the opponent has time to recognize danger and tap, potentially resulting in ligament tears, fractures, or career-ending damage to training partners",
+        "correction": "Apply all rotational pressure over 5-7 seconds minimum with gradual increases in force, allowing clear recognition and tap opportunity at every stage of the finishing sequence"
+      },
+      {
+        "error": "Ignoring the opponent's free leg and allowing unchecked framing or counter-entanglement",
+        "consequence": "Opponent uses free leg to push on hips, hook your far leg, or establish frames that create the space needed for grip breaks and leg extraction, negating your positional advantage",
+        "correction": "Monitor the free leg constantly and use hip positioning or knee pressure to limit the opponent's ability to generate pushing power or establish counter-entanglement with their non-trapped leg"
+      },
+      {
+        "error": "Maintaining a static body angle without adjusting to defensive reactions",
+        "consequence": "Opponent identifies a consistent escape route through your predictable positioning, eventually finding the angle to extract their leg or break grips through superior adaptability",
+        "correction": "Continuously adjust body angle and hip positioning in response to the opponent's movements, maintaining optimal perpendicular alignment through dynamic repositioning rather than relying on static strength"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Grip and Control Fundamentals",
+        "focus": "Figure-four grip establishment, foot placement in armpit, and static control point verification",
+        "description": "Partner provides zero resistance while you practice establishing all four control points from toe hold control. Focus on hand placement precision, elbow positioning, and feeling the correct pressure of the foot blade against the ribs. Perform 20 repetitions per side until the grip configuration becomes automatic and requires no visual confirmation."
+      },
+      {
+        "phase": "Phase 2: Progressive Pressure",
+        "focus": "Controlled rotational mechanics, chest compression layering, and safe finishing speed",
+        "description": "With control established, practice the finishing sequence at training speed against a cooperative partner. Emphasize the 5-7 second minimum application window, coordinating wrist rotation with chest compression. Partner taps at various stages of the progression to build your release response. 10 full finishing sequences per side with deliberate pacing."
+      },
+      {
+        "phase": "Phase 3: Counter Recognition and Transitions",
+        "focus": "Identifying defensive reactions and selecting appropriate counter-transitions in the leg lock chain",
+        "description": "Partner performs specific defensive reactions—grip breaks, sit-ups, knee rotation, free leg frames—at random intervals. You must recognize the counter type and either adjust to maintain the finish or transition to the appropriate follow-up attack. Build the decision tree through repetition until counter-transition selection is instinctive rather than deliberate."
+      },
+      {
+        "phase": "Phase 4: Live Positional Sparring",
+        "focus": "Full integration under realistic resistance with emphasis on finishing rate and safety maintenance",
+        "description": "Begin from established toe hold control with full resistance from both practitioners. Top player works the complete finishing sequence including all transitions, while bottom player uses full defensive arsenal. Strict tap-early culture enforced. Track finishing percentage and common failure points across rounds to identify areas for targeted improvement."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What anatomical structures does the toe hold from Toe Hold Control primarily attack?",
+        "answer": "The toe hold primarily attacks the lateral and medial collateral ligaments of the ankle joint through rotational force applied via the figure-four grip. Secondary stress is placed on the toe joints, plantar fascia, and the Lisfranc joint complex of the midfoot. The rotational torque generated through wrist turning and chest compression creates shearing forces across these structures that can cause sprains, tears, or dislocations if applied beyond the joint's natural range of motion.",
+        "safety_critical": false
+      },
+      {
+        "question": "What are the four control points that must be verified before beginning rotational pressure?",
+        "answer": "The four control points are: deep foot placement in the armpit with the blade of the foot pressed against the lateral ribs, figure-four grip configuration established around the foot with hands clasped below the ankle joint, forward chest pressure over the opponent's lower leg preventing sit-up or posting, and knee line control through hip positioning preventing rotational escape. All four must be confirmed before any finishing pressure begins.",
+        "safety_critical": false
+      },
+      {
+        "question": "Your opponent starts to sit up and post on their elbows during your finishing attempt—what adjustment prevents the escape?",
+        "answer": "Immediately increase forward chest pressure on their lower leg to drive them back down before they achieve full upright posture. Simultaneously adjust your hip position to reinforce knee line control. If they continue to gain posture despite increased pressure, transition to saddle entry by crossing your legs over their trapped leg, converting their sit-up momentum into a deeper entanglement. Do not fight to maintain a deteriorating toe hold position against a successful postural recovery.",
+        "safety_critical": false
+      },
+      {
+        "question": "Why must rotational pressure be applied over a minimum of 5-7 seconds rather than explosively?",
+        "answer": "Explosive application of rotational force to the ankle can cause severe ligament tears, fractures, or Lisfranc joint injuries before the opponent has any opportunity to recognize danger and tap. The ankle's ligamentous structures have a very short window between initial discomfort and structural failure. Progressive 5-7 second application gives training partners clear recognition of submission threat and adequate time to signal submission through verbal or physical tap before forces reach dangerous levels.",
+        "safety_critical": true
+      },
+      {
+        "question": "How should you immediately respond when your training partner taps to the toe hold?",
+        "answer": "Immediately stop all rotational pressure first, then release the toe grip completely, followed by releasing heel control. Allow the opponent's foot to return to its neutral position naturally without abrupt release that could cause a rebound injury. Maintain light contact until your partner signals they are comfortable, then check verbally before continuing training. The release must be as controlled and deliberate as the application to prevent injury during the transition out of the submission.",
+        "safety_critical": true
+      },
+      {
+        "question": "What grip adjustments should you make if the opponent begins successfully fighting your figure-four configuration?",
+        "answer": "If the opponent gets two-on-one control of your top hand, immediately tighten elbow pressure against your body to resist the strip. If the figure-four begins to break, switch to a gable grip variation which provides stronger initial grip strength and is faster to re-establish. If both grip configurations fail, do not chase the grip—release and transition to outside ashi-garami or another leg entanglement position where you can re-establish control from a fresh angle rather than fighting a deteriorating grip battle.",
+        "safety_critical": false
+      },
+      {
+        "question": "When the opponent rotates their knee inward to reduce your ankle leverage, what does this tell you and how do you respond?",
+        "answer": "Internal knee rotation indicates the opponent is systematically reducing your rotational leverage by hiding the heel and closing the ankle's vulnerable angle. Follow their rotation with your body angle to maintain perpendicular alignment with the foot. Increase chest compression to limit their available rotation range. If they achieve full internal rotation that completely negates your toe hold angle, transition to outside ashi-garami where the new knee orientation actually improves your angle for heel hook entries.",
+        "safety_critical": false
+      },
+      {
+        "question": "What distinguishes a successful toe hold finish from a position where you should transition to another attack?",
+        "answer": "A successful finish requires all four control points maintained with the opponent unable to break grips, sit up, or rotate the knee enough to negate ankle leverage. Transition when any of these fail: if grips are broken beyond recovery, if the opponent achieves upright posture despite chest pressure, or if knee rotation eliminates your rotational angle. The decision point is whether re-establishing the compromised element is realistic or whether the opponent's defensive progress has created better opportunities at the next attack in the leg lock chain."
+      }
+    ]
+  },
+  "defender": {
+    "name": "from Toe Hold Control Defender",
+    "description": "Defend the toe hold from Toe Hold Control. Complete guide to recognition cues, grip breaking, escape sequences, and safe tap protocols for ankle protection.",
+    "overview": "Defending the toe hold from an established Toe Hold Control position is one of the most time-critical defensive scenarios in the leg lock game, because the attacker has already secured the structural prerequisites for a submission finish. Unlike defending toe hold attempts during transitions where positional instability creates natural escape windows, defending from the established control position requires proactive grip disruption and systematic escape sequencing before rotational pressure reaches dangerous levels. The defender must balance immediate ankle protection through knee orientation and grip fighting with longer-term escape objectives like guard recovery, understanding that the window for successful defense narrows rapidly once the attacker begins the finishing sequence.",
+    "key_principles": [
+      "Protect the ankle immediately by maintaining internal knee rotation—pointing the trapped knee toward the opponent to limit rotational leverage on the ankle joint",
+      "Prioritize grip breaking over leg extraction: attack the figure-four configuration with two-on-one wrist control before attempting to move the trapped leg",
+      "Maintain active upper body posture on elbows or sitting to preserve angle creation, leverage for grip breaks, and mechanical advantage for escapes",
+      "Use the free leg actively for framing on the opponent's hips, hooking their far leg, or preparing counter-entanglement rather than leaving it passive",
+      "Create systematic escape sequences through grip break followed by angular leg extraction rather than explosive pulling that risks self-inflicted ankle injury",
+      "Develop a tap-early mentality for ankle submissions where the injury timeline is extremely short between discomfort and structural damage"
+    ],
+    "recognition_cues": [
+      "Opponent secures your foot deep in their armpit with the blade of your foot pressed firmly against their lateral ribs, establishing the primary anchor point for rotational control",
+      "Figure-four or gable grip forms around your foot and lower ankle with the opponent's elbows pinching tightly against their body, creating a sealed grip system",
+      "Opponent's chest drops forward onto your lower leg, applying downward pressure that limits your ability to sit up or post on elbows for defensive posture",
+      "Initial wrist rotation begins generating twisting pressure on your ankle joint, signaling the transition from positional control to active finishing sequence"
+    ],
+    "defensive_options": [
+      {
+        "action": "Two-on-one wrist control to strip the figure-four grip before rotation intensifies",
+        "when_to_use": "As soon as you recognize the grip configuration forming, before the opponent tightens elbows and begins rotational pressure",
+        "targets_outcome": "Toe Hold Control/Top",
+        "if_successful": "Breaks the submission threat and forces opponent to re-establish grips, buying time for further escape attempts or guard recovery",
+        "risk": "If grip strip fails, you have committed both hands to defense and may be unable to post or frame, potentially allowing the opponent to accelerate the finish"
+      },
+      {
+        "action": "Internal knee rotation to hide the heel and reduce rotational leverage on the ankle",
+        "when_to_use": "When grip breaking attempts are failing and rotational pressure is beginning to build, as a damage mitigation measure",
+        "targets_outcome": "Toe Hold Control/Top",
+        "if_successful": "Significantly reduces the mechanical advantage of the toe hold by changing the ankle's orientation relative to the applied force, potentially stalling the finish",
+        "risk": "Does not address the grip or positional control, meaning the opponent can adjust angle to follow your rotation and re-establish effective finishing mechanics"
+      },
+      {
+        "action": "Sit-up with hip extension to create posture and begin leg extraction",
+        "when_to_use": "After partially disrupting the grip or when the opponent's chest pressure momentarily decreases, creating space to post and generate hip power",
+        "targets_outcome": "Closed Guard/Bottom",
+        "if_successful": "Creates the postural advantage needed for complete leg extraction, with guard recovery immediately available once the foot clears the opponent's grip",
+        "risk": "If the opponent maintains deep grip control, sitting up can actually increase rotational leverage on the ankle by creating a longer lever arm through leg extension"
+      },
+      {
+        "action": "Free leg frame on opponent's hips combined with angular leg extraction",
+        "when_to_use": "When you have partially disrupted grips and need to create distance for the final leg extraction phase",
+        "targets_outcome": "Closed Guard/Bottom",
+        "if_successful": "Creates separation between your trapped leg and the opponent's grip system, allowing the foot to clear while your free leg maintains defensive framing for guard recovery",
+        "risk": "The free leg must generate enough force to overcome the opponent's forward pressure while you simultaneously work the trapped leg free, requiring significant core strength and coordination"
+      }
+    ],
+    "escape_paths": [
+      "Break figure-four grip with two-on-one wrist control, extract leg through angular movement circling the knee toward your chest, and immediately recover closed guard to prevent re-entry to leg entanglement",
+      "Counter-rotate body to neutralize the ankle torque angle, transition into 50-50 Guard to create a symmetrical entanglement where the toe hold threat is neutralized",
+      "Use free leg to frame on opponent's hips and push to create distance, pull endangered leg free with controlled angular extraction, recover to open guard with defensive hooks in place"
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Closed Guard/Bottom",
+        "how": "Successfully break the attacker's figure-four grip using two-on-one wrist control, extract the endangered leg through angular movement while using the free leg to frame on the attacker's hips, then immediately close your guard around their torso to prevent re-entry to any leg entanglement position"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Allowing the trapped knee to rotate externally while the opponent controls the foot",
+        "consequence": "External knee rotation dramatically increases rotational leverage on the ankle joint, accelerating submission completion and exponentially increasing injury risk to ligaments and joint capsule",
+        "correction": "Actively maintain internal knee rotation by pointing the trapped knee toward the opponent throughout the entire defensive sequence, using conscious hip internal rotation to protect ankle alignment"
+      },
+      {
+        "error": "Explosive pulling to rip the foot free from the opponent's grip",
+        "consequence": "Sudden tension can cause self-inflicted ankle injury even without the opponent applying additional pressure, and the explosive movement exhausts energy that is needed for systematic escape sequences",
+        "correction": "Use systematic grip breaking on the opponent's wrists first, then controlled angular leg extraction circling the knee toward your chest rather than straight pulling against the grip"
+      },
+      {
+        "error": "Lying flat on the back with no upper body posture or elbow support",
+        "consequence": "Flat posture removes the ability to create angles, generate leverage for grip breaks, or use upper body weight to assist escapes, leaving you entirely dependent on grip fighting from a mechanically disadvantaged position",
+        "correction": "Maintain posted position on elbows or actively work toward sitting posture to preserve mobility, angle creation, and the mechanical advantage needed for effective grip breaks and escape sequences"
+      },
+      {
+        "error": "Waiting too long to tap when ankle is under severe rotational stress with no viable escape remaining",
+        "consequence": "Severe ankle ligament tears, potential fractures, Lisfranc joint damage, or chronic instability requiring surgery and months of rehabilitation that could permanently affect training capacity",
+        "correction": "Develop a clear tap-early protocol: if rotational pressure is building, grips cannot be broken, and no escape path is available, tap immediately. Career longevity is more valuable than any single training round or competition match"
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What are the earliest recognition cues that a toe hold from Toe Hold Control is being set up?",
+        "answer": "The earliest cues are feeling your foot being drawn deep into the opponent's armpit with the blade pressed against their ribs, followed by the formation of a figure-four or gable grip around your foot and lower ankle. You will feel the opponent's elbows pinching tight against their body to seal the grip, and their chest beginning to drop forward onto your lower leg to limit your postural options. Recognizing these cues before rotational pressure begins gives you the maximum defensive window.",
+        "safety_critical": false
+      },
+      {
+        "question": "When should you tap to a toe hold and what signals should you use?",
+        "answer": "Tap immediately when you feel significant rotational stress on the ankle joint with no viable escape available—do not wait until pain becomes severe, as ligament damage can occur within fractions of a second at the breaking point. Use loud verbal tap saying 'tap' clearly, physical hand tapping on the opponent or mat with multiple rapid taps, or foot tapping with your free leg. Any verbal distress signal should also be treated as a tap by your training partner. The ankle's injury timeline is extremely short, making early tapping essential for career longevity.",
+        "safety_critical": true
+      },
+      {
+        "question": "What is the correct sequence for escaping—should you break grips first or extract your leg first?",
+        "answer": "Always prioritize grip breaking before leg extraction. Attempting to extract your leg while the opponent maintains the toe hold grip is ineffective because they simply re-establish control after failed escape attempts, and the pulling force can actually increase rotational stress on the ankle. Use two-on-one wrist control to strip the figure-four configuration first, eliminating the submission threat, then extract your leg through angular movement circling the knee toward your chest rather than pulling straight back against the remaining control.",
+        "safety_critical": false
+      },
+      {
+        "question": "Why is maintaining internal knee rotation critical during defense against the toe hold?",
+        "answer": "Internal knee rotation points the trapped knee toward the opponent, which significantly reduces the rotational leverage available to the ankle joint by changing the angle at which force is applied. External rotation does the opposite—it opens the ankle to maximum rotational vulnerability and can exponentially accelerate submission completion. Using conscious hip internal rotation to maintain this protective alignment throughout the defensive sequence is one of the most important damage mitigation measures while you work on grip breaks and escape.",
+        "safety_critical": true
+      },
+      {
+        "question": "What defensive opportunities are created when the attacker momentarily loosens their grip to transition to a different leg lock?",
+        "answer": "Grip transitions create a critical escape window because the attacker must partially release the figure-four to reconfigure for the new attack. Use this moment to immediately establish inside position on their leg through counter-entanglement, or work rapid guard recovery to open guard with defensive hooks. This grip loosening during transitions is often the best escape opportunity available—recognize and exploit it immediately rather than waiting for the attacker to settle into a new control position where escape will be harder."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Recognition and Tap Protocol",
+        "focus": "Identifying toe hold setup cues and developing safe, automatic tap responses",
+        "description": "Partner establishes toe hold control at zero pressure while you practice recognizing all four setup cues: foot in armpit, grip formation, chest pressure, and initial rotation. Practice tapping through all three signal types—verbal, hand, and foot—until the response is automatic. This phase prioritizes safety conditioning over escape technique. 15 repetitions per side."
+      },
+      {
+        "phase": "Phase 2: Grip Breaking Fundamentals",
+        "focus": "Two-on-one wrist control, figure-four strip sequences, and knee orientation management",
+        "description": "Partner establishes toe hold grip at 30% resistance while you practice systematic grip breaking using two-on-one wrist control targeting the top hand of the figure-four. Simultaneously practice maintaining internal knee rotation throughout the grip fight. Progress from static grips to dynamic resistance where the partner adjusts grips as you attack them. 10 repetitions per side at each resistance level."
+      },
+      {
+        "phase": "Phase 3: Complete Escape Sequences",
+        "focus": "Integrating grip breaks with leg extraction, guard recovery, and counter-positioning",
+        "description": "Practice full escape sequences from grip break through angular leg extraction to guard recovery. Partner provides progressive resistance through the entire sequence. Include variations: escape to closed guard, escape to 50-50, and escape to open guard. Build the habit of immediate guard recovery after clearing grips rather than resting in a neutral position. 5 complete escape sequences per side at each resistance level."
+      },
+      {
+        "phase": "Phase 4: Live Positional Defense",
+        "focus": "Full resistance defensive sparring from toe hold control bottom with realistic pressure",
+        "description": "Begin from established toe hold control bottom with the training partner working genuine finishing sequences at controlled intensity. Bottom player uses full defensive arsenal including grip breaks, knee management, free leg framing, and escape transitions. Strict tap-early culture enforced. Track escape success rate and identify which defensive sequences work best against your common training partners."
+      }
+    ]
+  }
+}

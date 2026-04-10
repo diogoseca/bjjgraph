@@ -1,0 +1,519 @@
+{
+  "name": "Monoplata from Guard",
+  "description": "Master the Monoplata from Guard in BJJ. Complete guide with safety protocols, setup, and execution steps. Success rates: Beginner 25%, Intermediate 40%, Advanced 55%.",
+  "tags": [
+    "bjj",
+    "submission",
+    "monoplata",
+    "shoulder-lock",
+    "guard",
+    "omoplata-family",
+    "advanced-technique"
+  ],
+  "submission_category": "Joint Lock",
+  "submission_type": "Shoulder Lock",
+  "target_area": "Shoulder joint and rotator cuff",
+  "starting_position": "Closed Guard",
+  "success_rate": 48,
+  "overview": "The Monoplata from Guard is an advanced shoulder lock that combines elements of the traditional omoplata with a unique single-leg entanglement configuration. This submission attacks the opponent's shoulder joint by isolating their arm while using your legs to create a figure-four lock around their trapped limb. The technique is particularly effective when transitioning from failed omoplata attempts or when the opponent attempts to posture up aggressively from guard. The Monoplata creates severe pressure on the shoulder capsule and rotator cuff, making it a high-percentage finish once proper control is established. Unlike the traditional omoplata which rolls the opponent forward, the Monoplata maintains a more static control position while applying rotational pressure to the shoulder joint. This submission requires excellent hip mobility, precise leg positioning, and a deep understanding of shoulder mechanics to execute safely and effectively. The technique has gained popularity in modern no-gi competition due to its effectiveness against strong postural defenses and its ability to chain seamlessly with other guard attacks.",
+  "safety_considerations": {
+    "injury_risks": [
+      {
+        "injury": "Rotator cuff tear or strain",
+        "severity": "High",
+        "recovery_time": "6-12 weeks for minor tears, 4-6 months for major tears"
+      },
+      {
+        "injury": "Shoulder dislocation or subluxation",
+        "severity": "CRITICAL",
+        "recovery_time": "3-6 months with potential for chronic instability"
+      },
+      {
+        "injury": "Labrum damage",
+        "severity": "High",
+        "recovery_time": "6-9 months, may require surgical repair"
+      },
+      {
+        "injury": "AC joint sprain",
+        "severity": "Medium",
+        "recovery_time": "2-6 weeks depending on severity"
+      }
+    ],
+    "application_speed": "EXTREMELY SLOW - 5-7 seconds minimum pressure application with constant communication",
+    "tap_signals": [
+      "Verbal tap (primary signal)",
+      "Physical hand tap on legs or mat",
+      "Physical foot tap on mat",
+      "Any distress vocalization",
+      "Repeated tapping on your body"
+    ],
+    "release_protocol": [
+      "Immediately stop all rotational pressure on the shoulder",
+      "Release the figure-four leg configuration",
+      "Unwrap your legs from around the arm",
+      "Allow the partner to extract their arm naturally",
+      "Check for shoulder mobility and pain before continuing training"
+    ],
+    "training_restrictions": [
+      "Never spike or jerk the submission - apply smooth, progressive pressure only",
+      "Never use competition speed in training - always start at 20-30% intensity",
+      "Always maintain verbal communication with training partner throughout",
+      "Never apply the finish without establishing full control first",
+      "Beginners must drill this with 0% resistance for minimum 50 repetitions",
+      "Never practice on partners with pre-existing shoulder injuries without explicit approval"
+    ]
+  },
+  "outcomes": [
+    {
+      "to": "game-over",
+      "probability": 60,
+      "result": "success"
+    },
+    {
+      "to": "Closed Guard/Bottom",
+      "probability": 25,
+      "result": "failure"
+    },
+    {
+      "to": "Side Control/Top",
+      "probability": 15,
+      "result": "counter"
+    }
+  ],
+  "from_positions": [
+    "Closed Guard",
+    "Open Guard",
+    "Spider Guard",
+    "Rubber Guard",
+    "Mission Control",
+    "Omoplata Control",
+    "Triangle Control",
+    "De La Riva Guard",
+    "Lasso Guard",
+    "Collar Sleeve Guard"
+  ],
+  "related_submissions": [
+    "Omoplata",
+    "Baratoplata",
+    "Triangle Choke",
+    "Far Side Armbar",
+    "Gogoplata",
+    "Kimura",
+    "Inverted Triangle"
+  ],
+  "related_content": [
+    {
+      "name": "Omoplata Control",
+      "relationship": "Primary transition position - monoplata often comes from failed omoplata"
+    },
+    {
+      "name": "Triangle Control",
+      "relationship": "Alternative submission when opponent posts arm during triangle setup"
+    },
+    {
+      "name": "Mission Control",
+      "relationship": "Rubber guard position that creates excellent monoplata opportunities"
+    },
+    {
+      "name": "Omoplata Sweep",
+      "relationship": "Complementary technique using similar initial control"
+    },
+    {
+      "name": "Omoplata to Back",
+      "relationship": "Alternative transition when monoplata is defended"
+    },
+    {
+      "name": "Triangle Setup",
+      "relationship": "Creates arm isolation that can lead to monoplata"
+    },
+    {
+      "name": "Spider Guard",
+      "relationship": "Starting position with excellent arm control for monoplata entries"
+    },
+    {
+      "name": "Closed Guard",
+      "relationship": "Primary starting position for monoplata attacks"
+    },
+    {
+      "name": "Rubber Guard",
+      "relationship": "Guard system with multiple monoplata entry options"
+    },
+    {
+      "name": "Gogoplata Control",
+      "relationship": "Related advanced guard submission with similar control requirements"
+    }
+  ],
+  "attacker": {
+    "name": "from Guard Attacker",
+    "description": "How to execute Monoplata from Guard in BJJ. Attacking perspective with setup, execution, and finishing mechanics.",
+    "overview": "The Monoplata from Guard is an advanced shoulder lock that combines elements of the traditional omoplata with a unique single-leg entanglement configuration. This submission attacks the opponent's shoulder joint by isolating their arm while using your legs to create a figure-four lock around their trapped limb. The technique is particularly effective when transitioning from failed omoplata attempts or when the opponent attempts to posture up aggressively from guard. The Monoplata creates severe pressure on the shoulder capsule and rotator cuff, making it a high-percentage finish once proper control is established. Unlike the traditional omoplata which rolls the opponent forward, the Monoplata maintains a more static control position while applying rotational pressure to the shoulder joint. This submission requires excellent hip mobility, precise leg positioning, and a deep understanding of shoulder mechanics to execute safely and effectively. The technique has gained popularity in modern no-gi competition due to its effectiveness against strong postural defenses and its ability to chain seamlessly with other guard attacks.",
+    "key_principles": [
+      "Isolate the arm completely before attempting the leg configuration",
+      "Create a tight figure-four with your legs to prevent arm escape",
+      "Maintain hip pressure toward the opponent's head to prevent posturing",
+      "Control the opponent's wrist to prevent hand fighting",
+      "Apply rotational pressure gradually through hip extension and leg squeeze",
+      "Keep your body angle perpendicular to opponent's trapped arm",
+      "Transition smoothly from omoplata or other guard attacks to maintain surprise"
+    ],
+    "setup_requirements": [
+      "Opponent's arm must be isolated and extended past your hip line",
+      "You must have broken their posture and prevented them from stacking",
+      "Your legs must be mobile enough to create the figure-four configuration",
+      "Opponent's weight should be committed forward or to the side of the trapped arm",
+      "You need sufficient hip flexibility to swing your leg over their arm",
+      "Clear control of opponent's wrist or grip to prevent hand fighting",
+      "Proper angle relative to opponent's body (perpendicular to trapped arm)"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Isolate and control the arm",
+        "description": "From closed guard or open guard, secure a deep overhook or grip on one of the opponent's arms. Break their posture by pulling them forward and to the side, ensuring their arm is extended past your hip line. Control their wrist with your same-side hand to prevent them from pulling their arm back. This isolation is critical - the arm must be completely committed before proceeding.",
+        "timing": "Take 2-3 seconds to establish this control"
+      },
+      {
+        "step_number": 2,
+        "action": "Swing your leg over the arm",
+        "description": "Open your guard if still closed, and swing your near-side leg (same side as trapped arm) up and over the opponent's shoulder and arm. Your shin should come across their upper back while your knee hooks over their shoulder. Maintain constant control of their wrist throughout this movement to prevent escape. Your hips should start to angle perpendicular to their body.",
+        "timing": "Smooth 1-2 second motion"
+      },
+      {
+        "step_number": 3,
+        "action": "Establish the figure-four leg lock",
+        "description": "Bring your far-side leg underneath the opponent's trapped arm and lock it in a figure-four configuration with your near-side leg. Your far-side ankle should hook behind your near-side knee, creating a tight lock around their arm. Ensure the opponent's arm is trapped between your legs with their elbow pointing toward their own head. This leg configuration is the key mechanical element of the monoplata.",
+        "timing": "2-3 seconds to secure proper configuration"
+      },
+      {
+        "step_number": 4,
+        "action": "Control the opponent's posture and position",
+        "description": "Use your free leg (the one not in the figure-four) to hook around the opponent's far hip or post on their far shoulder to prevent them from rolling forward or escaping to the side. Your upper body should be angled away from the opponent, creating space for the shoulder attack. Maintain your grip on their trapped wrist or use both hands to control their arm and prevent defensive hand fighting.",
+        "timing": "1-2 seconds to establish full control"
+      },
+      {
+        "step_number": 5,
+        "action": "Create proper angle for shoulder pressure",
+        "description": "Adjust your hip position so you are perpendicular to the opponent's body, with their trapped arm pointing toward their own head. Your figure-four should be tight against their shoulder joint. The opponent's arm should be in a vulnerable position with their elbow bent and pointing upward. Check that all control points are secure before applying any finishing pressure.",
+        "timing": "1-2 seconds for final positioning"
+      },
+      {
+        "step_number": 6,
+        "action": "Apply the finish with rotational pressure",
+        "description": "Slowly squeeze your figure-four legs together while simultaneously extending your hips slightly away from the opponent. This creates a powerful rotational force on their shoulder joint. The pressure should come from the combination of your leg squeeze and the leverage created by your body position. Apply pressure EXTREMELY slowly over 5-7 seconds, giving your partner ample time to tap. The submission attacks the shoulder through external rotation and compression of the joint capsule.",
+        "timing": "5-7 seconds minimum for full pressure application"
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Pulling the arm back aggressively before figure-four is locked",
+        "effectiveness": "High",
+        "your_response": "Maintain constant grip on their wrist and use your legs to prevent their posture recovery. If they pull hard, transition to triangle or omoplata instead of forcing the monoplata.",
+        "targets_outcome": "Closed Guard/Bottom"
+      },
+      {
+        "counter": "Rolling forward to relieve shoulder pressure",
+        "effectiveness": "Medium",
+        "your_response": "Use your free leg to block their far hip and prevent the roll. If they commit fully to the roll, follow them over and maintain the lock, or transition to a mounted position with arm control.",
+        "targets_outcome": "Closed Guard/Bottom"
+      },
+      {
+        "counter": "Stacking your hips by driving forward",
+        "effectiveness": "Medium",
+        "your_response": "Use both hands to push their hips away and create space. If stacked, transition back to closed guard or sweep using the trapped arm as a lever rather than forcing the submission.",
+        "targets_outcome": "Closed Guard/Bottom"
+      },
+      {
+        "counter": "Hand fighting to grab their own gi or your gi to create defensive grip",
+        "effectiveness": "High",
+        "your_response": "Break any grips immediately using your hands. Consider switching to a different submission if they successfully establish a strong defensive grip. Preventative control of the wrist from step 1 is crucial to avoid this defense.",
+        "targets_outcome": "Closed Guard/Bottom"
+      },
+      {
+        "counter": "Explosive posture recovery to standing with arm extraction",
+        "effectiveness": "Low",
+        "your_response": "Tighten your figure-four and use your body angle to maintain the bent arm position. If they begin standing, their weight shift actually loads your sweep mechanics - use the trapped arm as a lever to off-balance them into a guard recovery or back take.",
+        "targets_outcome": "Side Control/Top"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Attempting to apply the submission before establishing full control",
+        "consequence": "Opponent easily escapes and may pass your guard in the scramble",
+        "correction": "Be patient and ensure all control points are established: trapped arm isolated, figure-four locked, posture controlled, proper angle achieved. Only then apply finishing pressure."
+      },
+      {
+        "error": "Jerking or spiking the shoulder lock during application",
+        "consequence": "HIGH RISK of severe shoulder injury including dislocation or rotator cuff tear",
+        "correction": "ALWAYS apply pressure slowly and progressively over minimum 5-7 seconds. Communication with partner is essential. This is not a submission to finish quickly."
+      },
+      {
+        "error": "Failing to control opponent's wrist during setup",
+        "consequence": "Opponent can hand fight and extract their arm before you secure the figure-four",
+        "correction": "Maintain constant wrist control throughout the entire setup sequence. Use both hands if necessary to prevent defensive grips."
+      },
+      {
+        "error": "Poor figure-four configuration with loose leg connection",
+        "consequence": "Opponent can pull their arm out or the submission lacks sufficient pressure",
+        "correction": "Ensure your ankle is deeply hooked behind your knee and squeeze your legs together tightly. The figure-four should feel like a vice grip around their arm."
+      },
+      {
+        "error": "Incorrect body angle (parallel instead of perpendicular to opponent)",
+        "consequence": "Submission lacks mechanical advantage and may injure partner's elbow instead of shoulder",
+        "correction": "Position your hips perpendicular to opponent's body with their arm pointing toward their own head. Your body should form a T-shape with theirs."
+      },
+      {
+        "error": "Forgetting to block opponent's far hip with free leg",
+        "consequence": "Opponent easily rolls forward to escape, potentially landing in top position",
+        "correction": "Always use your free leg to hook their far hip or post on their far shoulder to prevent forward roll escape."
+      },
+      {
+        "error": "Practicing on partners with shoulder injuries or limited mobility",
+        "consequence": "Serious aggravation of pre-existing injury, potential long-term damage",
+        "correction": "ALWAYS ask training partners about shoulder health before practicing shoulder locks. Respect any concerns and choose different techniques if there are pre-existing issues."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Solo Movement and Mechanics",
+        "focus": "Figure-four leg configuration and hip mobility",
+        "description": "Practice the figure-four leg lock configuration using a grappling dummy or pillow. Drill the leg threading motion, ankle-behind-knee lock, and hip angle adjustment without a partner. Perform 50+ repetitions focusing on smooth transitions between open guard and the figure-four position. Develop the hip flexibility needed to swing your leg over the arm and lock the configuration from various angles."
+      },
+      {
+        "phase": "Phase 2: Cooperative Drilling with Zero Resistance",
+        "focus": "Full technique sequence with compliant partner",
+        "description": "Walk through the complete six-step sequence with a training partner offering zero resistance. Focus on correct arm isolation, wrist control maintenance throughout, proper leg threading, figure-four lock tightness, body angle adjustment, and free leg placement. NO finishing pressure at this phase - stop at the control position and verify all checkpoints. Perform 30+ repetitions per side, checking shoulder safety with your partner after each rep."
+      },
+      {
+        "phase": "Phase 3: Positional Drilling with Light Resistance",
+        "focus": "Entry timing and counter-to-counter chains",
+        "description": "Partner provides 30-50% resistance, specifically defending the arm isolation and figure-four setup. Practice the common entries: from failed omoplata, from triangle defense, and from spider guard. When the monoplata is defended, chain to omoplata, triangle, or back take. Begin applying very light finishing pressure (20% maximum) with constant verbal communication. Drill 15-20 repetitions per entry variation."
+      },
+      {
+        "phase": "Phase 4: Specific Training and Live Application",
+        "focus": "Live application from guard with full resistance",
+        "description": "Begin from closed guard or open guard with full resistance. Integrate the monoplata into your regular guard attack chains alongside triangles, armbars, and omoplatas. Apply finishing pressure progressively (never exceeding 70% in training) with emphasis on recognizing when all control points are established before committing to the finish. Track success rate and identify which entries work best against different body types and defensive styles."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the minimum time you should take to apply finishing pressure in the monoplata during training?",
+        "answer": "You should take a minimum of 5-7 seconds to apply finishing pressure in training. This extremely slow application allows your partner ample time to recognize the danger and tap, preventing serious shoulder injuries. Competition pace should never be used in training for shoulder locks due to the high injury risk.",
+        "safety_critical": true
+      },
+      {
+        "question": "What are the primary anatomical targets and injury risks of the monoplata?",
+        "answer": "The monoplata primarily targets the shoulder joint, specifically attacking through external rotation and compression of the joint capsule. The major injury risks include rotator cuff tears, shoulder dislocation (which can lead to chronic instability), labrum damage, and AC joint sprains. The rotator cuff and labrum injuries are particularly serious as they often require surgical intervention and extended recovery periods of 6+ months.",
+        "safety_critical": true
+      },
+      {
+        "question": "Describe the proper figure-four leg configuration in the monoplata and why it is mechanically important?",
+        "answer": "The figure-four is created by bringing your far-side leg underneath the opponent's trapped arm and hooking your far-side ankle behind your near-side knee. This creates a closed loop around their arm that prevents escape and allows you to squeeze and create rotational pressure. The figure-four is mechanically superior to other leg configurations because it distributes force evenly, prevents the opponent from straightening their arm, and allows you to apply consistent pressure through simple leg squeezing rather than complex body movements.",
+        "safety_critical": false
+      },
+      {
+        "question": "Why is proper body angle (perpendicular to opponent) crucial in the monoplata?",
+        "answer": "Being perpendicular to your opponent's body ensures that the rotational pressure is applied correctly to the shoulder joint rather than to the elbow or other areas. This angle allows their arm to point toward their own head, which maximizes the shoulder lock's effectiveness while minimizing risk of elbow injury. An incorrect angle (too parallel to opponent) can result in dangerous pressure on the wrong joint and significantly reduces the submission's effectiveness.",
+        "safety_critical": false
+      },
+      {
+        "question": "What should you do if your opponent begins to roll forward to escape the monoplata?",
+        "answer": "You should use your free leg to block their far hip and prevent the roll. If they have already committed fully to rolling forward, you can choose to follow them over while maintaining your figure-four lock, or release the submission and transition to a more advantageous position. Never try to hold them in place purely through the shoulder lock as this can cause injury. The key is using your free leg as a blocking tool before they build momentum for the roll.",
+        "safety_critical": false
+      },
+      {
+        "question": "What are the critical control points that must be established before attempting to finish the monoplata?",
+        "answer": "The critical control points are: (1) complete arm isolation with the opponent's arm extended past your hip line, (2) wrist control to prevent hand fighting, (3) secure figure-four leg lock around the arm, (4) control of opponent's posture using your free leg to block their far hip or shoulder, (5) proper perpendicular body angle, and (6) prevention of their base recovery. All six control points should be established before applying any finishing pressure to ensure both effectiveness and safety.",
+        "safety_critical": false
+      },
+      {
+        "question": "How does the monoplata differ from a traditional omoplata in terms of mechanics and control?",
+        "answer": "The traditional omoplata typically requires you to roll the opponent forward or rotate your body to apply shoulder pressure, often ending with you on top. The monoplata maintains a more static control position with you on your side or back, using a figure-four leg lock instead of both legs extended. The monoplata creates pressure through leg squeezing and hip extension rather than body rotation. This makes it effective when the opponent successfully defends the rolling motion of a traditional omoplata, as the monoplata requires less movement to finish.",
+        "safety_critical": false
+      },
+      {
+        "question": "Your opponent starts posturing up aggressively during the monoplata setup - what grip adjustment prevents escape?",
+        "answer": "When the opponent postures up, immediately reinforce your wrist control by switching to a two-on-one grip on their trapped arm. Pull their elbow toward your chest while maintaining your leg configuration. If they create significant distance, transition your near-side hand to grip behind their tricep or elbow, pulling it across your body. The key is maintaining constant tension on the arm - any slack allows them to extract it. Consider using your legs to pull them back down by squeezing your thighs toward their head.",
+        "safety_critical": false
+      },
+      {
+        "question": "What specific indicators tell you the submission is locked and ready to finish?",
+        "answer": "The monoplata is ready to finish when you observe these indicators: (1) their elbow is bent and pointing toward their own head, (2) your figure-four is tight with no gaps around their arm, (3) your body is perpendicular forming a clear T-shape with theirs, (4) their shoulder is compressed against your legs, (5) they cannot straighten their arm despite effort, and (6) your free leg is blocking their escape routes. When all indicators are present, the slightest squeeze should produce immediate pressure on the shoulder joint.",
+        "safety_critical": false
+      },
+      {
+        "question": "How do you adjust the finish when facing an opponent with exceptional shoulder flexibility?",
+        "answer": "Against flexible opponents, the standard finish may not generate enough pressure. Adjust by: (1) increasing the perpendicular angle slightly past 90 degrees to create more rotation, (2) driving your hips further away from their body to extend the lever arm, (3) using both hands to push their shoulder toward their head while squeezing, (4) considering the inverted monoplata variation which attacks from a different angle, or (5) transitioning to a combination attack where the monoplata sets up a triangle or back take rather than forcing the tap.",
+        "safety_critical": false
+      },
+      {
+        "question": "In competition, what is the point of no return where the opponent can no longer safely escape the monoplata?",
+        "answer": "The point of no return occurs when your figure-four is fully locked with no arm mobility remaining, your body angle is perpendicular, and their shoulder begins to internally rotate past neutral. At this stage, any explosive escape attempt risks serious shoulder injury. The opponent's only safe options are to tap immediately or attempt a slow, controlled posture recovery before pressure is applied. Recognizing this point is critical - once reached, you control the submission's outcome and should apply pressure gradually to allow a safe tap.",
+        "safety_critical": true
+      },
+      {
+        "question": "What finishing errors commonly result in the opponent escaping at the last moment?",
+        "answer": "Common last-moment escapes result from: (1) failing to squeeze the figure-four tightly enough, allowing arm extraction, (2) applying pressure too quickly before all control points are secured, (3) not blocking the far hip with your free leg, enabling a forward roll escape, (4) losing wrist control during the finish, allowing defensive grips, (5) having an incorrect body angle that lacks mechanical advantage, and (6) telegraphing the finish by pausing before applying pressure. The solution is systematic control establishment before any finishing attempt.",
+        "safety_critical": false
+      }
+    ]
+  },
+  "defender": {
+    "name": "from Guard Defender",
+    "description": "How to defend against Monoplata from Guard in BJJ. Recognition, escape paths, and defensive strategies.",
+    "overview": "Defending the Monoplata from Guard requires early recognition and immediate action to prevent the attacker from establishing the figure-four leg configuration that makes this submission so difficult to escape. As the defender (top player in guard), your primary concern is protecting your arm from being isolated and trapped past the attacker's hip line. The monoplata is most dangerous precisely because it is unexpected - many practitioners focus their guard defense on triangles, armbars, and omoplatas but are unfamiliar with the monoplata's distinct entry patterns. Understanding the mechanical progression of this submission allows you to identify critical intervention windows where escape is still possible without risking shoulder injury. The earliest and highest-percentage defense occurs during the arm isolation phase, before any leg threading begins. Once the figure-four is locked and the attacker achieves perpendicular angle, your options narrow dramatically and the risk of shoulder damage during explosive escape attempts increases significantly. Defensive success depends on posture maintenance, arm retraction discipline, and the ability to recognize when a failed omoplata or triangle defense is transitioning into a monoplata threat.",
+    "key_principles": [
+      "Maintain strong posture with elbows tight to your body to prevent arm isolation from guard",
+      "Recognize the transition from omoplata or triangle defense to monoplata before the figure-four is locked",
+      "Never allow your arm to extend past the attacker's hip line - retract immediately when you feel overhook control",
+      "Address the threat progressively earlier in the sequence - prevention is far superior to late-stage escape",
+      "If caught in the figure-four, prioritize straightening your arm and stacking before the perpendicular angle is achieved",
+      "Tap immediately if the figure-four is locked, angle is set, and hip extension begins - explosive escape risks severe shoulder injury"
+    ],
+    "recognition_cues": [
+      "Opponent secures a deep overhook on your arm and begins to angle their hips perpendicular to your body while in guard",
+      "You feel your arm being pulled across your body past the opponent's hip line with their legs beginning to swing over your shoulder",
+      "After defending an omoplata or triangle attempt, the opponent does not return to standard guard but instead begins threading one leg underneath your trapped arm",
+      "The bottom player's legs begin to form a figure-four configuration around your isolated arm rather than returning to closed guard or standard omoplata position",
+      "You feel increasing rotational pressure on your shoulder with your elbow pointing upward and your arm trapped between the opponent's legs"
+    ],
+    "defensive_options": [
+      {
+        "action": "Retract your arm and recover posture before figure-four is established",
+        "when_to_use": "At the earliest stage when you feel your arm being isolated past the attacker's hip line, before any leg threading begins",
+        "targets_outcome": "Closed Guard/Bottom",
+        "if_successful": "You recover to standard closed guard top position with your arm safe and posture intact",
+        "risk": "Low risk if acted upon immediately; delay increases risk of the attacker securing the figure-four lock"
+      },
+      {
+        "action": "Stack forward and drive your weight onto the attacker while pulling your elbow tight to your ribs",
+        "when_to_use": "When the attacker has begun threading their leg but has not yet locked the figure-four configuration",
+        "targets_outcome": "Closed Guard/Bottom",
+        "if_successful": "The stacking pressure collapses their guard structure, preventing the angle needed for the monoplata and allowing you to extract your arm",
+        "risk": "Medium risk - if the figure-four is already partially locked, stacking can accelerate the shoulder pressure"
+      },
+      {
+        "action": "Circle toward the trapped arm side and drive your knee through to initiate a guard pass",
+        "when_to_use": "When you still have base and mobility but your arm is partially controlled; best used before the figure-four is locked",
+        "targets_outcome": "Side Control/Top",
+        "if_successful": "You pass the guard while extracting your arm, transitioning to side control and escaping the submission entirely",
+        "risk": "Medium-high risk - committing to the pass with a partially trapped arm can deepen the submission if the pass fails"
+      },
+      {
+        "action": "Roll forward over your trapped shoulder to relieve pressure and scramble",
+        "when_to_use": "As a last resort when the figure-four is locked but the attacker's free leg has not yet secured your far hip",
+        "targets_outcome": "Side Control/Top",
+        "if_successful": "You escape the submission angle and can scramble to top position or at minimum reset to open guard top",
+        "risk": "High risk - the roll can increase shoulder torque if the attacker follows and maintains the figure-four through the roll"
+      }
+    ],
+    "escape_paths": [
+      "Arm retraction to posture recovery: Pull your elbow sharply back to your ribs while driving your chest forward and hips back, breaking the arm isolation before any leg configuration is established. This is the highest-percentage escape at the earliest stage.",
+      "Stack and pass: Drive your weight forward onto the attacker while circling your trapped arm's elbow tight to your body. Use the forward pressure to collapse their guard structure and step your knee through to initiate a guard pass, extracting your arm as you transition to side control.",
+      "Forward roll escape: When the figure-four is partially locked but the attacker's free leg has not blocked your far hip, perform a controlled forward roll over your trapped shoulder. Tuck your chin and roll through to your knees, immediately posturing to face the opponent. This must be executed before hip extension begins."
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Closed Guard/Bottom",
+        "how": "Retract your arm immediately when you feel the overhook deepening and your arm being pulled past the hip line. Drive your posture upward while pulling your elbow tight to your ribs. Re-establish hand placement on the attacker's hips to control distance and return to standard closed guard top position."
+      },
+      {
+        "outcome": "Side Control/Top",
+        "how": "When the attacker commits to the leg threading motion, they temporarily weaken their guard closure. Seize this window by driving forward with a knee slice or stack pass. The act of threading the leg creates space for you to advance your hips past their guard. Extract your arm during the transition and consolidate side control."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Allowing your arm to remain extended past the attacker's hip line without immediate retraction",
+        "consequence": "The attacker secures the figure-four leg configuration, making escape exponentially more difficult and placing your shoulder at serious risk of injury",
+        "correction": "The moment you feel your arm being pulled across the attacker's body, immediately retract your elbow to your ribs with maximum urgency. Treat arm isolation as an emergency requiring instant response - every second of delay makes the submission more dangerous."
+      },
+      {
+        "error": "Attempting explosive arm extraction after the figure-four is fully locked and angle is set",
+        "consequence": "Severe risk of shoulder dislocation, rotator cuff tear, or labrum damage from fighting against a locked mechanical position",
+        "correction": "If the figure-four is locked and the attacker has achieved perpendicular angle, TAP IMMEDIATELY. Do not attempt explosive escape as the shoulder joint is in a mechanically compromised position. Recognize that late-stage escape attempts cause the injuries that end training careers."
+      },
+      {
+        "error": "Focusing only on the arm while ignoring the attacker's hip angle and leg positioning",
+        "consequence": "Even if you prevent arm extraction, the attacker establishes the perpendicular body angle and free leg control that completes the submission system",
+        "correction": "Address the full submission system: retract your arm AND drive your hips forward to prevent the attacker from achieving perpendicular angle. Use your free hand to control their hip or push their legs away. Defense must be multi-point, not single-focus."
+      },
+      {
+        "error": "Confusing the monoplata setup with a standard omoplata defense and responding with the wrong escape pattern",
+        "consequence": "Standard omoplata escapes like rolling forward can actually worsen the monoplata position if the attacker follows and maintains the figure-four through the roll",
+        "correction": "Learn to distinguish the monoplata's figure-four leg threading from the standard omoplata's leg swing. When you feel the leg going underneath your arm rather than over your back, recognize this as a monoplata entry and prioritize arm retraction over forward rolling."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the earliest and highest-percentage moment to defend the monoplata from guard?",
+        "answer": "The earliest and highest-percentage defense occurs during the arm isolation phase, before the attacker begins threading their legs into the figure-four configuration. The moment you feel your arm being pulled past the attacker's hip line through an overhook or wrist control, you must immediately retract your elbow to your ribs and recover posture. At this stage, the defense requires only arm retraction and posture recovery. Every subsequent phase reduces your escape options and increases injury risk.",
+        "safety_critical": false
+      },
+      {
+        "question": "Why is explosive escape from a fully locked monoplata extremely dangerous for your shoulder?",
+        "answer": "When the figure-four is fully locked and the attacker has achieved perpendicular angle, your shoulder is in a mechanically compromised position where the joint capsule, rotator cuff, and labrum are all under rotational stress. An explosive escape attempt generates sudden force against this locked position, which can cause immediate shoulder dislocation, rotator cuff tears, or labrum damage. These injuries often require surgical repair and 6-12 months of recovery. The correct response to a fully locked monoplata is to tap immediately.",
+        "safety_critical": true
+      },
+      {
+        "question": "How do you distinguish a monoplata setup from a standard omoplata during live rolling?",
+        "answer": "The key distinguishing feature is the direction of leg threading. In a standard omoplata, the attacker swings their leg over your shoulder and back, using both legs to control your arm from the outside. In a monoplata, one leg threads underneath your trapped arm while the other locks on top in a figure-four configuration, trapping the arm between both legs. You will feel the leg going under your arm rather than over your back, and the attacker's hips will angle perpendicular rather than rotating to face your back. Recognizing this difference is critical because the defensive responses differ significantly.",
+        "safety_critical": false
+      },
+      {
+        "question": "When the attacker begins leg threading for the monoplata, what specific defensive action should you take with your body position?",
+        "answer": "Drive your weight forward into the attacker by stacking your chest onto their guard while simultaneously pulling your trapped elbow tight to your ribs. This forward pressure collapses the space they need to complete the leg threading and prevents them from achieving the perpendicular body angle that powers the submission. Additionally, use your free hand to push on their hip or thigh on the side they are angling toward, disrupting their ability to create the rotation needed for the figure-four. The combination of stacking pressure and arm retraction addresses both the limb isolation and the positional angle simultaneously.",
+        "safety_critical": false
+      },
+      {
+        "question": "What makes the forward roll escape from monoplata riskier than the same escape from a standard omoplata?",
+        "answer": "In a standard omoplata, the forward roll relieves shoulder pressure because the attacker's legs are positioned on the outside of your arm and the rolling motion rotates your shoulder back toward neutral. In the monoplata, the figure-four configuration traps your arm between the attacker's legs, so a forward roll can actually increase rotational torque on the shoulder if the attacker maintains the figure-four through the roll. The attacker can follow the roll while keeping the leg lock intact, arriving in a top position with the submission still applied. This makes the forward roll a last-resort option that should only be attempted when the attacker's free leg has not yet blocked your far hip.",
+        "safety_critical": true
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Recognition and Awareness Drilling",
+        "focus": "Identifying monoplata entries from common guard positions",
+        "description": "Partner slowly demonstrates the monoplata entry from closed guard, failed omoplata, and failed triangle. You practice identifying the recognition cues - overhook deepening, arm crossing the hip line, leg threading underneath the arm - and calling out the attack verbally before taking any defensive action. Repeat 20+ times from each entry until recognition becomes automatic."
+      },
+      {
+        "phase": "Phase 2: Early Prevention Drilling",
+        "focus": "Arm retraction and posture recovery timing",
+        "description": "Partner attempts the monoplata setup at 30-40% speed while you practice the earliest defense: retracting your elbow to your ribs and recovering posture the instant you feel arm isolation beginning. Focus on reaction speed and the mechanics of pulling the elbow back while driving your chest forward. Drill 15-20 repetitions per side, gradually increasing partner's speed to 60%."
+      },
+      {
+        "phase": "Phase 3: Mid-Stage Escape Drilling",
+        "focus": "Stack and pass defense when figure-four is partially established",
+        "description": "Partner establishes partial figure-four position (one leg threaded but not fully locked) and you practice the stacking defense and guard pass escape. Work on driving forward pressure while extracting your arm and transitioning to side control. Include the forward roll escape as a backup. Partner provides 50-70% resistance. Drill 10-15 repetitions per escape variation."
+      },
+      {
+        "phase": "Phase 4: Live Positional Sparring",
+        "focus": "Full resistance defense integration",
+        "description": "Start in closed guard with partner actively working toward monoplata from their regular guard attack chains. Defend at full resistance, integrating recognition, early prevention, and mid-stage escapes as needed. Track which defensive windows you consistently catch and which entries still catch you. Train to recognize when tapping is the correct defensive response rather than risking injury on late-stage escapes."
+      }
+    ]
+  },
+  "variations_and_setups": [
+    {
+      "variation_name": "Monoplata from Failed Omoplata",
+      "description": "When opponent defends the traditional omoplata by rolling out or maintaining base, transition by adjusting your leg configuration to the figure-four lock. This is the most common entry as it capitalizes on the opponent's defensive movement.",
+      "when_to_use": "Use when opponent successfully defends your omoplata attempt but their arm remains trapped"
+    },
+    {
+      "variation_name": "Monoplata from Triangle Setup",
+      "description": "When setting up a triangle but the opponent posts their arm, isolate that posted arm and transition to monoplata instead. This catches opponents who are triangle-aware but unfamiliar with the monoplata attack.",
+      "when_to_use": "Use when opponent defends triangle by posting their arm strongly"
+    },
+    {
+      "variation_name": "Monoplata from Spider Guard",
+      "description": "From spider guard with one foot on the bicep, break the opponent's posture and trap that arm while swinging your leg over for the monoplata. The spider guard foot position gives excellent initial arm control.",
+      "when_to_use": "Use when opponent leans forward in your spider guard or attempts to remove the foot from bicep"
+    },
+    {
+      "variation_name": "Inverted Monoplata",
+      "description": "An advanced variation where you invert your body position while maintaining the figure-four lock. This creates a different angle of attack on the shoulder and can be more effective against certain body types.",
+      "when_to_use": "Use against flexible opponents who can defend the standard version or when you need a different finishing angle"
+    }
+  ],
+  "from_position": "Closed Guard/Bottom"
+}

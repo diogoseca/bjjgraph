@@ -1,0 +1,471 @@
+{
+  "name": "Omoplata from Rubber Guard",
+  "description": "Master the omoplata from Rubber Guard with entries from Mission Control and New York. Complete guide covering setup, execution, counters, and defense for no-gi.",
+  "tags": [
+    "bjj",
+    "submission",
+    "shoulder-lock",
+    "joint-lock",
+    "omoplata",
+    "rubber-guard",
+    "guard",
+    "sweep",
+    "hub",
+    "finishing-guide",
+    "10th-planet",
+    "no-gi"
+  ],
+  "submission_category": "Joint Lock",
+  "submission_type": "Shoulder Lock",
+  "target_area": "Shoulder joint (rotator cuff, capsule, AC joint)",
+  "starting_position": "Rubber Guard",
+  "from_position": "Rubber Guard/Bottom",
+  "success_rate": 52,
+  "overview": "The omoplata from Rubber Guard represents one of the highest-percentage shoulder lock entries in the 10th Planet system, leveraging the unique arm isolation and posture control inherent to the Rubber Guard configuration. Unlike standard omoplata attempts from closed or open guard, the Rubber Guard entry eliminates the most common defensive reaction—posturing up—because the elevated leg already controls the opponent's posture before the submission attempt begins. The primary pathway runs from Mission Control through New York, where the leg naturally crosses over the opponent's shoulder into omoplata position. This built-in progression means the omoplata attempt flows organically from the guard retention system rather than requiring a dedicated setup sequence. The trapped arm is already isolated, hip flexibility is already engaged, and the opponent's base is already compromised—three prerequisites that must be individually established when attacking omoplata from conventional guards.\n\nStrategically, the omoplata from Rubber Guard serves dual purposes: it functions as both a direct submission threat and a powerful sweeping mechanism. When the opponent defends the shoulder lock by rolling forward, the bottom player can follow and achieve top position, converting a defended submission into a positional advancement. This sweep-or-submit dynamic makes the technique particularly valuable in competition contexts where points matter alongside submission attempts. The Rubber Guard system's reaction-based methodology means that common defensive responses to the omoplata setup—posturing up, pulling the arm free, driving forward—each feed directly into alternative attacks within the system, creating a branching decision tree that experienced practitioners exploit to maintain constant offensive pressure.",
+  "safety_considerations": {
+    "injury_risks": [
+      {
+        "injury": "Rotator cuff tear or strain",
+        "severity": "High",
+        "recovery_time": "6-12 weeks for minor tears, 3-6 months for major tears"
+      },
+      {
+        "injury": "AC joint separation",
+        "severity": "Medium",
+        "recovery_time": "4-8 weeks"
+      },
+      {
+        "injury": "Shoulder capsule damage",
+        "severity": "High",
+        "recovery_time": "8-16 weeks"
+      },
+      {
+        "injury": "Labrum tear",
+        "severity": "CRITICAL",
+        "recovery_time": "6-12 months with surgery"
+      }
+    ],
+    "application_speed": "SLOW and progressive - 4-6 seconds minimum pressure increase",
+    "tap_signals": [
+      "Verbal tap (any vocal signal)",
+      "Physical hand tap on opponent or mat",
+      "Physical foot tap on opponent or mat",
+      "Any distress signal or sound",
+      "Roll forward escape attempt (release immediately)"
+    ],
+    "release_protocol": [
+      "Immediately stop all forward pressure and rotation",
+      "Release leg pinch on shoulder",
+      "Unwind hip position to neutral",
+      "Allow opponent to extract arm slowly",
+      "Check for injury before continuing"
+    ],
+    "training_restrictions": [
+      "Never spike or jerk the shoulder rotation",
+      "Never apply competition speed in training",
+      "Always allow opponent access to tap",
+      "Stop immediately if opponent rolls forward (escape attempt)",
+      "Never apply full finishing pressure until advanced belt level",
+      "Always control the rate of shoulder rotation"
+    ]
+  },
+  "from_positions": [
+    "Mission Control",
+    "New York",
+    "Meathook"
+  ],
+  "related_submissions": [
+    "Gogoplata",
+    "Triangle Choke",
+    "Omoplata",
+    "Monoplata",
+    "Arm in Guillotine"
+  ],
+  "related_content": [
+    {
+      "name": "Mission Control",
+      "relationship": "Primary Rubber Guard position providing the foundational setup for the omoplata entry"
+    },
+    {
+      "name": "New York",
+      "relationship": "Advanced Rubber Guard position that creates the direct omoplata angle over the shoulder"
+    },
+    {
+      "name": "Omoplata Control",
+      "relationship": "Control position reached when omoplata is established but not yet finished"
+    },
+    {
+      "name": "Closed Guard",
+      "relationship": "Fallback position if Rubber Guard control is lost during the omoplata attempt"
+    },
+    {
+      "name": "Meathook",
+      "relationship": "Alternative Rubber Guard variation providing secondary omoplata entry path"
+    },
+    {
+      "name": "Crackhead Control",
+      "relationship": "Arm isolation variation that can feed into omoplata when standard progression is blocked"
+    }
+  ],
+  "outcomes": [
+    {
+      "to": "game-over",
+      "probability": 52,
+      "result": "success"
+    },
+    {
+      "to": "Rubber Guard/Bottom",
+      "probability": 31,
+      "result": "failure"
+    },
+    {
+      "to": "Closed Guard/Top",
+      "probability": 17,
+      "result": "counter"
+    }
+  ],
+  "variations_and_setups": [
+    {
+      "variation_name": "Mission Control to New York Entry",
+      "description": "The standard pathway progressing from Mission Control through New York, where the leg naturally crosses over the opponent's shoulder into omoplata angle. Provides the most controlled entry with maximum arm isolation throughout.",
+      "when_to_use": "When you have time to work through the full Rubber Guard positional progression and the opponent is not actively escaping"
+    },
+    {
+      "variation_name": "Direct New York Snap",
+      "description": "Skips intermediate control phases to move directly into New York position when the opponent's arm is already deeply isolated or after a failed guard pass attempt leaves them off-balance.",
+      "when_to_use": "When the opponent gives up arm position early or their posture collapses suddenly, creating an immediate opportunity"
+    },
+    {
+      "variation_name": "Meathook Transition Entry",
+      "description": "Uses the Meathook position to create the omoplata angle when the standard New York progression is blocked. The elbow control from Meathook allows a different rotation angle to clear the leg over the shoulder.",
+      "when_to_use": "When the opponent defends the standard New York entry by controlling your hip or blocking the leg crossover"
+    }
+  ],
+  "attacker": {
+    "name": "from Rubber Guard Attacker",
+    "description": "Learn to attack the omoplata from Rubber Guard positions. Step-by-step finishing sequence from Mission Control through New York with counter responses and drilling progressions.",
+    "overview": "Attacking the omoplata from Rubber Guard demands systematic progression through the 10th Planet positional hierarchy rather than explosive movement. The leg is already positioned high across the opponent's back from Mission Control, making the transition to omoplata angle significantly shorter than from standard closed guard. The critical phase is the hip rotation after clearing the leg over the shoulder—rushing this transition sacrifices the hip pressure that makes the finish tight. Maintain constant downward pressure on the trapped arm throughout the rotation to prevent the opponent from extracting their elbow, which is the primary escape window. The built-in arm isolation from Rubber Guard eliminates the most failure-prone step of conventional omoplata entries, letting you focus entirely on the rotation and finish mechanics.",
+    "key_principles": [
+      "Maintain constant posture control through every phase of the transition from Rubber Guard to omoplata position",
+      "Complete the hip rotation fully before attempting to apply finishing pressure—partial rotation leads to easy escape",
+      "Secure waist control immediately after sitting up to eliminate the forward roll escape",
+      "Apply finishing pressure through body weight and forward lean rather than muscular force on the shoulder",
+      "Keep the opponent's elbow pinched tight to your body throughout the rotation to prevent arm extraction",
+      "Use the natural Rubber Guard progression from Mission Control to New York rather than forcing the omoplata from suboptimal angles"
+    ],
+    "setup_requirements": [
+      "Established Rubber Guard with Mission Control or New York position secured and opponent's posture fully broken",
+      "Opponent's near-side arm fully trapped against your chest with elbow controlled below your centerline",
+      "Sufficient hip flexibility to clear leg over opponent's shoulder smoothly without losing control",
+      "Opponent's posture broken with head pulled below their shoulder line preventing posture recovery",
+      "Free hand available to assist leg transition over the shoulder and subsequent waist control"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Secure Mission Control",
+        "description": "From closed guard, break the opponent's posture and bring your leg high across their back. Secure your shin with the opposite hand, creating the foundational Rubber Guard lock that traps their near-side arm against your chest and prevents posture recovery.",
+        "timing": "5-10 seconds to establish solid control"
+      },
+      {
+        "step_number": 2,
+        "action": "Transition to New York",
+        "description": "Release your hand grip on your shin and reach across to grab your ankle or foot from the outside. Simultaneously swing your leg over the opponent's trapped shoulder, threading it across their upper back. The arm must remain pinched throughout this grip change.",
+        "timing": "2-3 seconds for the grip switch and leg repositioning"
+      },
+      {
+        "step_number": 3,
+        "action": "Clear the shoulder completely",
+        "description": "Push your leg fully over the opponent's shoulder so your hamstring sits behind their neck and your calf drapes across their upper back. Maintain constant downward leg pressure to prevent them from ducking under or extracting the trapped arm during this transition.",
+        "timing": "1-2 seconds for the leg clearance"
+      },
+      {
+        "step_number": 4,
+        "action": "Initiate hip rotation",
+        "description": "Release remaining grips and begin rotating your hips perpendicular to your opponent's body. Drive your inside hip toward the mat while your leg maintains heavy pressure across the opponent's shoulder and upper back. Your body should rotate like a compass needle, pivoting on the trapped shoulder.",
+        "timing": "2-3 seconds for controlled rotation"
+      },
+      {
+        "step_number": 5,
+        "action": "Sit up and secure waist control",
+        "description": "Complete the hip rotation by sitting up perpendicular to your opponent. Immediately wrap your near arm around their waist or secure a seatbelt grip on their midsection. This waist control is the highest-priority grip because it eliminates the forward roll escape that experienced defenders attempt.",
+        "timing": "1-2 seconds to sit up and establish grip"
+      },
+      {
+        "step_number": 6,
+        "action": "Establish perpendicular alignment",
+        "description": "Adjust your hip angle so your body is fully perpendicular to your opponent's torso. Your leg across their shoulder should form a right angle with their spine. Post your free hand on the mat behind you for base stability, preventing them from driving you backward.",
+        "timing": "1-2 seconds for final alignment"
+      },
+      {
+        "step_number": 7,
+        "action": "Apply finishing pressure",
+        "description": "Lean your torso forward toward the mat while maintaining the waist grip. The combined pressure of your leg across their shoulder and your body weight creates rotational force on the shoulder joint. Apply pressure gradually over 4-6 seconds, allowing time for the tap. If they attempt to posture, adjust hip angle to maintain perpendicular alignment.",
+        "timing": "4-6 seconds of progressive pressure application"
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Forward roll escape over the trapped shoulder to relieve rotational pressure",
+        "effectiveness": "High",
+        "your_response": "Follow their roll by driving your hips forward and maintaining wrist control on the trapped arm. As they complete the roll, transition to mount while keeping the arm trapped, converting the escape into positional advancement.",
+        "targets_outcome": "Rubber Guard/Bottom"
+      },
+      {
+        "counter": "Posture up and extract the trapped arm before hip rotation completes",
+        "effectiveness": "Medium",
+        "your_response": "As their arm begins to clear, immediately switch to triangle by bringing your opposite leg across their neck. The arm extraction creates the space needed for the triangle lock, turning their escape into a worse position.",
+        "targets_outcome": "Rubber Guard/Bottom"
+      },
+      {
+        "counter": "Stack and drive forward to flatten the attacker and prevent hip rotation",
+        "effectiveness": "Low",
+        "your_response": "Use their forward momentum to accelerate your hip rotation. Their stacking pressure actually assists the perpendicular alignment. Secure the waist grip as they drive forward and redirect their energy into the finishing position.",
+        "targets_outcome": "Closed Guard/Top"
+      },
+      {
+        "counter": "Grab own belt or pants to prevent arm extension and block the shoulder rotation",
+        "effectiveness": "Medium",
+        "your_response": "Use both hands to pry the defensive grip open by attacking the fingers or wrist. Alternatively, apply a wrist lock threat on the gripping hand to force the release, then immediately re-establish finishing pressure.",
+        "targets_outcome": "Rubber Guard/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Rushing the hip rotation before fully clearing the leg over the shoulder",
+        "consequence": "Leg gets stuck on the opponent's shoulder, they posture up and extract the arm, returning to neutral closed guard position",
+        "correction": "Ensure the leg clears completely over the shoulder with hamstring seated behind the neck before initiating any hip rotation movement"
+      },
+      {
+        "error": "Failing to secure waist control immediately after sitting up",
+        "consequence": "Opponent executes forward roll escape and ends up in top position, often in side control or scramble",
+        "correction": "Make waist control your absolute first priority after completing the sit-up. Grip the waist before applying any finishing pressure on the shoulder"
+      },
+      {
+        "error": "Applying finishing pressure with arm strength instead of body weight",
+        "consequence": "Rapid fatigue, insufficient force to generate tap against a resisting opponent, allowing them to wait out the attack and escape",
+        "correction": "Lean your entire torso forward toward the mat using gravity and body weight. The shoulder rotation comes from your body position, not from pulling with your arms"
+      },
+      {
+        "error": "Losing the trapped arm during the transition from New York to omoplata position",
+        "consequence": "Opponent extracts arm and recovers posture, returning to neutral guard with the Rubber Guard broken",
+        "correction": "Maintain constant elbow pinch pressure against your ribcage throughout the entire transition sequence from New York through the hip rotation"
+      },
+      {
+        "error": "Attempting omoplata directly from Mission Control without progressing to New York",
+        "consequence": "Incorrect leg angle prevents clean shoulder clearance, resulting in a scramble where the opponent recovers posture",
+        "correction": "Follow the systematic progression from Mission Control to New York, which provides the correct geometric angle for the leg to clear the shoulder cleanly"
+      },
+      {
+        "error": "Neglecting to control opponent's far hand during the finishing phase",
+        "consequence": "Opponent posts with their free hand creating a frame that relieves shoulder pressure and enables escape",
+        "correction": "Use your free hand to control their far wrist or pin it to their body, removing their ability to post and create defensive frames"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Flexibility Development",
+        "focus": "Hip mobility and hamstring flexibility for leg transitions",
+        "description": "Dedicated stretching program targeting hip external rotation and hamstring length required for clean leg transitions over the shoulder. Include pigeon pose, seated straddle, and supine hamstring stretches held for 60-120 seconds each, performed daily for 4-6 weeks before attempting the technique in live training."
+      },
+      {
+        "phase": "Static Positional Drilling",
+        "focus": "Mission Control to New York to omoplata sequence",
+        "description": "Slow repetition drilling of the complete positional sequence against a fully cooperative partner. Focus on grip transitions, leg placement over the shoulder, and hip rotation mechanics. Perform 20-30 repetitions per side, emphasizing precision over speed."
+      },
+      {
+        "phase": "Finishing Mechanics",
+        "focus": "Sit-up timing, waist control, and progressive pressure",
+        "description": "Partner allows omoplata position to be established. Practitioner works on sit-up timing, waist control placement, perpendicular alignment, and graduated pressure application. Partner provides feedback on pressure angle and timing. Include forward roll defense drills."
+      },
+      {
+        "phase": "Counter Integration",
+        "focus": "Handling defensive reactions under controlled resistance",
+        "description": "Partner applies specific counters at 50-70% resistance: forward roll, posture-up, stack, and grip defense. Practitioner responds with appropriate adjustments including triangle transition, mount follow, and grip prying. Build pattern recognition for each counter."
+      },
+      {
+        "phase": "Live Positional Sparring",
+        "focus": "Full sequence execution under progressive resistance",
+        "description": "Start in established Rubber Guard and work the complete omoplata sequence against progressively increasing resistance. Begin with controlled rounds against training partners familiar with the position, then expand to partners with less Rubber Guard defensive experience."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the primary anatomical target of the omoplata from Rubber Guard?",
+        "answer": "The omoplata targets the shoulder joint, specifically creating rotational force on the rotator cuff, shoulder capsule, and AC joint through external rotation of the humerus while the scapula is fixed by body weight and leg pressure across the upper back.",
+        "safety_critical": false
+      },
+      {
+        "question": "What position within the Rubber Guard system provides the optimal entry angle for the omoplata?",
+        "answer": "New York provides the optimal entry angle because the leg is already positioned to cross over the opponent's shoulder and the arm is fully isolated against the chest, eliminating two of the three major setup requirements simultaneously and creating a shorter path to the finishing position.",
+        "safety_critical": false
+      },
+      {
+        "question": "Your opponent begins rolling forward as you apply omoplata pressure—what immediate adjustment prevents the escape?",
+        "answer": "Follow their roll by driving your hips forward and maintaining wrist control on the trapped arm. As they complete the roll, transition to mount while keeping the wrist trapped, converting the escape attempt into a positional advancement to mount with continued submission threat on the arm.",
+        "safety_critical": false
+      },
+      {
+        "question": "What is the critical difference between the omoplata from Rubber Guard versus standard closed guard?",
+        "answer": "From Rubber Guard, the arm is already isolated and posture is already broken through the Mission Control and New York configuration, eliminating the two most failure-prone steps of the standard closed guard omoplata entry where opponents commonly posture up or extract the arm before the leg clears the shoulder.",
+        "safety_critical": false
+      },
+      {
+        "question": "At what point during the omoplata sequence does the defender have the smallest escape window?",
+        "answer": "Once the attacker completes the sit-up and secures waist control, the escape window becomes minimal. The combination of leg pressure across the shoulder, perpendicular hip alignment, and waist grip creates a configuration where the defender cannot roll forward, posture up, or extract the arm without addressing all three control points simultaneously.",
+        "safety_critical": false
+      },
+      {
+        "question": "What are the key indicators that you should release the omoplata immediately during training?",
+        "answer": "Release immediately upon any tap signal including verbal or physical taps, if the opponent makes any distress sound, if you feel or hear a pop in the shoulder area, or if sudden uncontrolled shoulder rotation occurs. The shoulder joint can sustain permanent damage within fractions of a second past the breaking point, making immediate release non-negotiable.",
+        "safety_critical": true
+      },
+      {
+        "question": "How should grip positioning change as you transition from the control phase to the finishing phase?",
+        "answer": "During control, maintain elbow pinch against your body and waist grip to prevent escape. For finishing, shift to two-on-one wrist control on the trapped arm while maintaining hip pressure and perpendicular alignment. This prevents the opponent from posting with their trapped hand and allows you to direct the angle of shoulder rotation for maximum leverage.",
+        "safety_critical": false
+      },
+      {
+        "question": "What competition strategy adjustments apply when pursuing the omoplata from Rubber Guard?",
+        "answer": "In competition, emphasize the sweep component as a backup—if the opponent defends the submission by rolling, follow to mount for points before re-attacking the arm. Establish the omoplata control position early to accumulate advantage points while working toward the finish, rather than rushing the submission and risking total position loss.",
+        "safety_critical": false
+      },
+      {
+        "question": "Why is attempting the omoplata directly from Mission Control without progressing to New York a common finishing error?",
+        "answer": "Mission Control positions the leg across the opponent's back but not at the correct geometric angle to clear over the shoulder cleanly. New York repositions the leg to cross over the shoulder, providing the rotation axis needed for the omoplata. Skipping New York results in the leg getting stuck on the shoulder, triggering a scramble where the opponent typically recovers posture.",
+        "safety_critical": false
+      },
+      {
+        "question": "What is the proper protocol for applying finishing pressure to prevent injury to your training partner?",
+        "answer": "Apply pressure gradually over 4-6 seconds using body weight rather than jerking or spiking the shoulder rotation. Lean forward progressively while monitoring your partner's response. Never apply competition-speed finishing pressure in training. Maintain awareness of their tap access at all times and release instantly at the first signal of any kind.",
+        "safety_critical": true
+      }
+    ]
+  },
+  "defender": {
+    "name": "from Rubber Guard Defender",
+    "description": "Defend the omoplata from Rubber Guard with early recognition, escape timing, and recovery protocols. Covers posture recovery, forward roll defense, and arm extraction techniques.",
+    "overview": "Defending the omoplata from Rubber Guard requires early recognition and intervention before the attacker completes their hip rotation. Once the leg clears your shoulder and the hips begin turning, defensive options narrow dramatically. The primary defensive window opens during the transition from New York to full omoplata position, when the attacker must release their foot grip and reposition their leg. Posture recovery and arm extraction must happen simultaneously—addressing only one allows the attacker to complete the other elements of the submission. Understanding the Rubber Guard progression sequence is essential for timing your defensive response correctly, because each named position in the system represents a tightening of control that progressively eliminates your escape options.",
+    "key_principles": [
+      "Recognize the omoplata setup early during the Mission Control to New York transition rather than after the leg clears the shoulder",
+      "Combine posture recovery with arm extraction in a single coordinated movement to prevent the attacker from completing either control element",
+      "Maintain elbow tight to your body to prevent the deep arm isolation that enables the leg crossover",
+      "Address waist control immediately if the attacker achieves the sit-up—break this grip before attempting any roll escape",
+      "Use controlled defensive movements rather than explosive jerks that create momentum the attacker redirects into the submission",
+      "Tap early and clearly when the omoplata is locked with waist control—the shoulder reaches its breaking point rapidly once pressure is applied"
+    ],
+    "recognition_cues": [
+      "Opponent's leg begins rising higher across your back from Mission Control, shifting from shin-across-back to leg-over-shoulder trajectory",
+      "Opponent releases their foot grip and begins threading their leg over your trapped shoulder, indicating the New York to omoplata transition",
+      "Increased rotational pulling pressure on your trapped arm as the opponent's hips begin turning perpendicular to your body",
+      "Opponent's body begins rotating away from you while their leg maintains heavy pressure across your shoulder and upper back"
+    ],
+    "defensive_options": [
+      {
+        "action": "Posture up and extract trapped arm during the New York transition",
+        "when_to_use": "During the transition from Mission Control to New York, before the leg fully clears your shoulder—this is the widest defensive window",
+        "targets_outcome": "Rubber Guard/Bottom",
+        "if_successful": "Return to closed guard top with posture recovered and Rubber Guard broken",
+        "risk": "If timed too late, the arm extraction creates space for a triangle entry as the leg is already over the shoulder"
+      },
+      {
+        "action": "Forward roll escape before waist control is established",
+        "when_to_use": "After the opponent sits up but before they secure the waist grip—roll over your trapped shoulder in the direction of the rotation",
+        "targets_outcome": "Rubber Guard/Bottom",
+        "if_successful": "Escape the omoplata and land in a neutral position or top of guard",
+        "risk": "If the opponent follows with their hips and maintains wrist control, you may end up in mounted omoplata"
+      },
+      {
+        "action": "Stack and drive forward to flatten the attacker's hips",
+        "when_to_use": "Early in the hip rotation before the opponent completes their sit-up, when you still have forward pressure available",
+        "targets_outcome": "Closed Guard/Top",
+        "if_successful": "Flatten the opponent's hips preventing rotation, extract arm, and recover to closed guard top or pass to side control",
+        "risk": "If the opponent is experienced, your forward drive accelerates their hip rotation and helps them reach the finishing position faster"
+      },
+      {
+        "action": "Limp arm defense to reduce rotation angle",
+        "when_to_use": "Last resort when omoplata is nearly locked—relax the trapped shoulder completely and circle your body toward the opponent",
+        "targets_outcome": "Rubber Guard/Bottom",
+        "if_successful": "Reduce the shoulder rotation angle enough to create space for arm extraction or guard recovery",
+        "risk": "Low success rate against experienced attackers who maintain tight perpendicular alignment and waist control"
+      }
+    ],
+    "escape_paths": [
+      "Forward roll through the omoplata before waist control is established, posting on far hand to prevent mount transition and landing in a neutral scramble position",
+      "Posture recovery combined with arm extraction during the Mission Control to New York transition, before the leg clears the shoulder and the rotation axis is established",
+      "Limp arm defense with body rotation toward the opponent to reduce the shoulder rotation angle below the submission threshold"
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Closed Guard/Top",
+        "how": "Stack the opponent during their early hip rotation, drive forward to flatten their hips completely, extract the trapped arm using circular motion, and recover posture to closed guard top position"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Waiting until the omoplata is fully locked with waist control before attempting escape",
+        "consequence": "All major escape windows have closed and the submission is nearly inevitable, forcing a tap or risking serious shoulder injury",
+        "correction": "Recognize the setup during the Mission Control to New York transition and initiate defense immediately when you feel the leg beginning to cross over your shoulder"
+      },
+      {
+        "error": "Attempting to posture up without simultaneously extracting the trapped arm",
+        "consequence": "Creates space for a triangle entry as the arm remains isolated while the head rises, giving the attacker a direct path to triangle control",
+        "correction": "Combine posture recovery with active arm extraction in a single coordinated movement, pulling the elbow tight to your body as you drive upward"
+      },
+      {
+        "error": "Rolling forward without first breaking the opponent's waist grip",
+        "consequence": "Opponent follows the roll maintaining wrist control and transitions to mount while keeping the shoulder lock threat active",
+        "correction": "Address the waist grip before rolling by posting with your free hand and hip switching to create separation, then execute the forward roll with your arm protected"
+      },
+      {
+        "error": "Panicking and jerking the trapped arm forcefully to escape",
+        "consequence": "Increased shoulder injury risk from sudden force against the rotation lock, and the explosive movement creates momentum the attacker redirects into the finishing pressure",
+        "correction": "Use controlled circular arm extraction movements rather than explosive straight pulls, working the elbow free gradually while maintaining base"
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "How do you recognize that the omoplata is being set up from Rubber Guard?",
+        "answer": "The primary recognition cue is the opponent's leg rising higher across your back while they release their foot grip, indicating the transition from Mission Control to New York. You will feel increased rotational pulling pressure on your trapped arm as their hip begins turning, and their leg will begin threading over your shoulder rather than remaining locked in the standard Rubber Guard configuration.",
+        "safety_critical": false
+      },
+      {
+        "question": "What is the safest approach to tapping when caught in the omoplata from Rubber Guard?",
+        "answer": "Tap early and clearly using your free hand on the opponent's body or the mat as soon as you feel significant shoulder rotation pressure. If your free hand is controlled, use an immediate verbal tap. The shoulder joint reaches its breaking point rapidly once the attacker applies forward lean pressure—do not wait to test your escape options once the submission is fully locked with waist control.",
+        "safety_critical": true
+      },
+      {
+        "question": "What is the most effective defensive timing against the omoplata from Rubber Guard?",
+        "answer": "The highest-percentage defensive window opens during the transition from Mission Control or New York to full omoplata position, specifically when the attacker releases their foot grip to thread the leg over your shoulder. At this moment, the control configuration is temporarily weakened and a coordinated posture-up combined with arm extraction has the greatest chance of success before the rotation locks in.",
+        "safety_critical": false
+      },
+      {
+        "question": "What defensive options remain once the omoplata is fully established with waist control secured?",
+        "answer": "Once waist control is secured, options are extremely limited. The forward roll requires first breaking the waist grip which is difficult under finishing pressure. Posturing becomes nearly impossible with the leg across your shoulder and perpendicular hip alignment. The most viable remaining option is a limp arm defense—relaxing the trapped shoulder while circling your body toward the opponent—but this has a low success rate, making early recognition and intervention essential.",
+        "safety_critical": false
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Recognition Drilling",
+        "focus": "Identifying omoplata setup cues from Rubber Guard positions",
+        "description": "Partner works through Mission Control to New York to omoplata sequence at varying speeds. Defender focuses solely on identifying the transition point when the leg begins to cross the shoulder and calls it out verbally. Build pattern recognition for the critical defensive window."
+      },
+      {
+        "phase": "Early Intervention Practice",
+        "focus": "Posture recovery and arm extraction during the transition window",
+        "description": "Partner attempts omoplata from Rubber Guard at 50% speed and resistance. Defender practices the coordinated posture-up and arm extraction during the optimal defensive window between New York and full omoplata establishment. Perform 15-20 repetitions per side."
+      },
+      {
+        "phase": "Escape Mechanics",
+        "focus": "Forward roll timing, limp arm defense, and grip breaking",
+        "description": "Start in established omoplata position with varying levels of waist control. Defender works on grip breaking sequences, forward roll timing and direction, and limp arm body rotation technique against progressively increasing resistance."
+      },
+      {
+        "phase": "Full Defensive Sparring",
+        "focus": "Complete defensive protocol under live conditions",
+        "description": "Start in opponent's established Rubber Guard. Defender applies the complete defensive protocol from early recognition through escape execution against full resistance. Rotate partners to experience different body types and finishing styles."
+      }
+    ]
+  }
+}

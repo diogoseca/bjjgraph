@@ -3,24 +3,30 @@
 
 
 ---
-title: "Mir Lock | BJJ Submission | BJJ Graph"
+title: "Mir Lock | BJJ Submission Family | BJJ Graph"
 description: "Master the Mir Lock shoulder submission in BJJ. Complete guide with safety protocols, setup from top control, execution, and defensive strategies for all levels."
 ---
 
 
-<body data-content-type="submissions-hub">
+<body data-content-type="submissions-family">
 
 > **SAFETY**: Mir Lock targets the Shoulder joint (glenohumeral joint). Risk: Shoulder dislocation (anterior or posterior). Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
-<div class="role-links">
 
-[[Mir Lock/Attacker|Play as Attacker]]
-[[Mir Lock/Defender|Play as Defender]]
+<section id="variants" class="content-section">
 
-</div>
+## Position Variants
+
+| From Position | Success Rate | Top Injury Risk | Key Difference |
+|---------------|-------------|-----------------|----------------|
+| [[Mir Lock/from Side Control|Side Control]] | 58% | Shoulder dislocation (anterior or posterior) |  |
+
+
+</section>
+
 
 <section id="overview" class="content-section">
 
@@ -29,9 +35,7 @@ The Mir Lock is a powerful shoulder lock submission that targets the glenohumera
 **Category**: Joint Lock
 **Type**: Shoulder Lock
 **Target Area**: Shoulder joint (glenohumeral joint)
-**Starting Position**: [[Positions/Side Control]]
-**From Position**: [[Positions/Side Control]] (Top)
-**Success Rate**: 58%
+**Success Rate**: 58% (average across variants)
 
 </section>
 
@@ -80,145 +84,10 @@ The Mir Lock is a powerful shoulder lock submission that targets the glenohumera
 
 </section>
 
-<section id="outcomes" class="content-section">
 
-## Outcomes
+<section id="variation-details" class="content-section hide-minimal">
 
-| Result | Position | Probability |
-|--------|----------|-------------|
-| Success | [[game-over]] | 58% |
-| Failure | [[Positions/Side Control]] | 27% |
-| Counter | [[Positions/Half Guard]] | 15% |
-
-
-</section>
-
-<section class="content-section">
-
-## Attacker vs Defender
-
-| &nbsp; | Attacker | Defender |
-|--------|----------|----------|
-| **Focus** | Execute and finish | Escape and survive |
-| **Key Principles** | Isolate the arm completely before attempting any rotational ... | Keep elbows tight to your torso at all times when under side... |
-| **Options** | 7 execution steps | 4 defensive options |
-
-</section>
-
-<section id="attacker-summary" class="content-section">
-
-## Playing as Attacker
-
-[[Mir Lock/Attacker|→ Full Attacker Guide]]
-
-### Key Principles
-
-
-- Isolate the arm completely before attempting any rotational pressure on the shoulder
-
-- Control the opponent's body position to prevent rolling or escaping the angle
-
-- Apply pressure through body weight and positioning rather than muscular force alone
-
-- Maintain connection between your chest and the opponent's trapped shoulder throughout
-
-- Keep the opponent's elbow elevated while driving the wrist downward for maximum leverage
-
-- Use hip pressure to pin the opponent's torso and prevent defensive bridging
-
-- Progress from control to submission only when positional dominance is absolute
-
-
-### Execution Steps
-
-
-- **Establish dominant side control position**: Secure tight side control with your chest driving into the opponent's chest, crossface applied to co...
-
-- **Isolate and capture the near-side arm**: As the opponent frames or attempts to create space with their near arm, swim your hand underneath th...
-
-- **Establish figure-four grip structure**: While maintaining wrist control with one hand, reach your other hand under the opponent's arm and gr...
-
-- **Adjust body position for optimal leverage**: Walk your hips slightly toward the opponent's head while maintaining chest pressure on their shoulde...
-
-- **Elevate the elbow while maintaining wrist control**: Using your figure-four grip, lift the opponent's elbow upward and slightly away from the mat while k...
-
-- **Apply finishing pressure through body weight**: While maintaining the elbow elevation, drive your chest weight downward through the opponent's shoul...
-
-- **Release immediately upon tap signal**: The instant you feel or hear a tap, immediately release all rotational pressure by dropping the elbo...
-
-
-### Common Mistakes
-
-
-- **Attempting the submission without first establishing dominant position control**
-  - Consequence: Opponent easily escapes by rolling, bridging, or creating frames to recover guard
-  - Correction: Always establish tight side control with crossface, hip pressure, and forward weight distribution before isolating the arm - position before submission
-
-- **Applying rotational pressure too quickly or explosively**
-  - Consequence: Catastrophic shoulder injury including rotator cuff tears, labral damage, or complete dislocation
-  - Correction: ALWAYS apply progressive pressure over minimum 5-7 seconds in training, monitoring constantly for tap signals and stopping at first indication of discomfort
-
-- **Failing to elevate the elbow sufficiently before applying rotation**
-  - Consequence: Submission lacks mechanical effectiveness and opponent easily defends by keeping arm flat
-  - Correction: Ensure the elbow is lifted 2-3 inches off the mat while the wrist is controlled downward, creating the hyperextension angle necessary for the submission to work
-
-
-</section>
-
-<section id="defender-summary" class="content-section">
-
-## Playing as Defender
-
-[[Mir Lock/Defender|→ Full Defender Guide]]
-
-### Key Principles
-
-
-- Keep elbows tight to your torso at all times when under side control to prevent arm isolation
-
-- Recognize the arm capture and figure-four grip setup early before the submission is locked
-
-- Fight the grip before the elbow elevation - once the elbow is lifted, defensive options narrow dramatically
-
-- Use explosive bridging timed with the attacker's weight shift to create escape angles
-
-- Turn your body toward the trapped arm to reduce the hyperextension angle on the shoulder
-
-- Tap early and decisively - the Mir Lock can cause catastrophic injury with minimal warning once the breaking angle is achieved
-
-- Chain defensive responses together rather than relying on a single escape attempt
-
-
-### Recognition Cues
-
-
-- Attacker swims their hand underneath your tricep and captures your wrist while you are on bottom in side control
-
-- Attacker establishes a figure-four grip on your near-side arm with their forearm perpendicular to your arm
-
-- Attacker shifts their body angle approximately 45 degrees toward your head while maintaining chest pressure on your trapped shoulder
-
-- You feel upward pressure on your elbow combined with downward pressure on your wrist creating a levering sensation at the shoulder
-
-- Attacker's weight drives forward through your shoulder while your arm is pinned at roughly 90 degrees from your body
-
-
-### Escape Paths
-
-
-- Bridge and turn into the attacker to close the shoulder angle, then fight the grip to free your arm and recover half guard with an immediate knee shield
-
-- Grip your own clothing to anchor the arm, then use hip escape movement to create distance and extract the arm once the attacker adjusts their grip
-
-- Roll toward the trapped arm as an emergency escape, using the momentum to come to turtle or top position if the attacker releases the grip during the scramble
-
-
-</section>
-
-
-<section id="variations" class="content-section hide-minimal">
-
-## Variations
+## Variation Details
 
 
 **Mir Lock from North-South Position**: Apply the same shoulder lock mechanics from north-south control by capturing the near arm, establishing figure-four grip, and driving your chest weight downward through the shoulder while lifting the elbow. This variation provides excellent control as the opponent has limited escape options from this angle. (When to use: When you achieve north-south position and the opponent extends their arm defensively or attempts to frame against your chest)
@@ -256,16 +125,16 @@ The Mir Lock is a powerful shoulder lock submission that targets the glenohumera
 
 ## Related Submissions
 
-- [[Transitions/Americana]]
-- [[Transitions/Kimura]]
-- [[Submissions/Americana from Side Control]]
-- [[Submissions/Kimura from Side Control]]
-- [[Submissions/Kimura from North-South]]
-- [[Submissions/Americana from Mount]]
-- [[Submissions/Reverse Kimura]]
-- [[Transitions/Omoplata]]
-- [[Submissions/Armbar from Side Control]]
-- [[Submissions/Armbar from Mount]]
+- [[Submissions/Americana]] - Traditional shoulder lock using figure-four grip with bent-arm lateral rotation mechanics
+- [[Submissions/Kimura]] - Related shoulder lock using internal rotation that chains with Mir Lock attacks
+- [[Transitions/Arm Triangle]] - Head and arm choke available from similar side control setups and positioning
+- [[Americana from Side Control]] - Most direct shoulder lock alternative from the primary starting position
+- [[Americana from North-South]] - Shoulder lock alternative from secondary Mir Lock starting position
+- [[Americana from Kesa Gatame]] - Shoulder lock from scarf hold using similar arm isolation mechanics
+- [[Arm Crush from Side Control]] - Compression-based arm attack from the same primary control position
+- [[Submissions/Omoplata]] - Alternative shoulder lock attacking the same joint from bottom guard position
+- [[Armbar from Side Control]] - High-percentage arm attack when opponent straightens arm defending shoulder locks
+- [[Americana from Modified Mount]] - Shoulder lock variant sharing the same modified mount setup opportunities
 
 
 </section>
@@ -275,14 +144,14 @@ The Mir Lock is a powerful shoulder lock submission that targets the glenohumera
 ## Additional Related Content
 
 - [[Positions/Kimura Trap]] - Control position for isolating the arm with similar shoulder lock mechanics and grip configurations
-- [[Transitions/Americana]] - Traditional shoulder lock using figure-four mechanics with bent-arm positioning rather than straight-arm hyperextension
+- [[Submissions/Americana]] - Traditional shoulder lock using figure-four mechanics with bent-arm positioning rather than straight-arm hyperextension
 - [[Positions/Side Control]] - Primary starting position for applying the Mir Lock with dominant control
 - [[Positions/North-South]] - Alternative top position offering excellent Mir Lock opportunities with limited escape options
 - [[Positions/Mount]] - Top position that can transition to Mir Lock when opponent turns to side defensively
 - [[Transitions/Kimura to Back Take]] - Alternative transition if opponent defends the shoulder lock by rolling
-- [[Transitions/Kimura]] - Related shoulder lock with internal rotation mechanics that chains well with Mir Lock attacks
-- [[Submissions/Kimura from Side Control]] - Sister submission from the same position targeting the shoulder with different rotation
-- [[Submissions/Americana from Side Control]] - Traditional shoulder lock from same position using bent-arm configuration
+- [[Submissions/Kimura]] - Related shoulder lock with internal rotation mechanics that chains well with Mir Lock attacks
+- [[Positions/Side Control/Kesa Gatame]] - Alternative top control position offering strong arm isolation opportunities for Mir Lock setup
+- [[Positions/Knee on Belly]] - Transitional control position that can flow to Mir Lock when opponent exposes their arm defensively
 
 
 </section>

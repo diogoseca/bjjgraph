@@ -1,0 +1,523 @@
+{
+  "name": "Kneebar from Top",
+  "description": "Master the Kneebar from Top positions in BJJ. Complete safety guide with setup, execution, and control mechanics for attacking the knee joint from dominant positions.",
+  "tags": [
+    "bjj",
+    "submission",
+    "kneebar",
+    "joint-lock",
+    "leg-lock",
+    "top-position",
+    "leg-attack"
+  ],
+  "submission_category": "Joint Lock",
+  "submission_type": "Leg Lock",
+  "target_area": "Knee joint (tibial plateau, popliteal ligaments, meniscus)",
+  "starting_position": "Side Control",
+  "from_position": "Side Control/Top",
+  "success_rate": 55,
+  "overview": "The Kneebar from Top represents a high-percentage leg attack opportunity that arises when controlling an opponent from dominant positions such as side control, mount, knee on belly, or half guard top. Unlike bottom-position kneebarring where defensive responsibility is shared, top kneebarring demands exceptional control and positional awareness since abandoning top position carries inherent risk. The fundamental concept involves transitioning from a dominant top position into a leg entanglement configuration—typically through step-over mechanics or direct leg isolation—while maintaining sufficient control to prevent opponent escape or counter-attack. The submission targets the knee joint through hyperextension, applying pressure to the tibial plateau, popliteal ligaments, and meniscus structures.\n\nModern leg lock systems have elevated top kneebarring from an opportunistic submission to a systematic attacking framework, particularly in no-gi competition where reduced friction facilitates faster entries and tighter control. The technique requires precise timing, as premature commitment can result in loss of dominant position, while delayed execution allows opponent defensive responses. Understanding when to pursue the kneebar versus maintaining positional dominance represents a critical decision point that separates beginner and advanced practitioners.\n\nThe top kneebar serves dual purposes: as a finishing submission and as a positional transitional tool that creates sweeping opportunities, back exposure, or alternative submission entries when opponents defend aggressively. The risk-reward calculus of abandoning a dominant top position for a leg attack must be evaluated on a case-by-case basis, factoring in the quality of leg exposure, match context, and opponent defensive sophistication.",
+  "safety_considerations": {
+    "injury_risks": [
+      {
+        "injury": "Knee hyperextension and ligament damage (ACL, PCL, MCL tears)",
+        "severity": "CRITICAL",
+        "recovery_time": "6-12 months with surgical intervention; 3-6 months for partial tears"
+      },
+      {
+        "injury": "Meniscus tears (medial or lateral cartilage damage)",
+        "severity": "High",
+        "recovery_time": "4-8 weeks for minor tears; 3-6 months for surgical repair"
+      },
+      {
+        "injury": "Popliteal artery or nerve compression",
+        "severity": "High",
+        "recovery_time": "Immediate medical attention required; potential permanent damage if sustained"
+      },
+      {
+        "injury": "Tibial plateau fracture (extreme force application)",
+        "severity": "CRITICAL",
+        "recovery_time": "6-12 months with surgical fixation"
+      }
+    ],
+    "application_speed": "EXTREMELY SLOW - minimum 5-7 seconds progressive application in training; NEVER spike or jerk",
+    "tap_signals": [
+      "Verbal tap (loudly saying 'tap' or 'stop')",
+      "Physical hand tap on partner or mat (multiple rapid taps)",
+      "Physical foot tap on mat or partner",
+      "Any distress vocalization or signal",
+      "Frantic movement indicating panic"
+    ],
+    "release_protocol": [
+      "Immediately release hip extension and leg pressure upon any tap signal",
+      "Return leg to neutral position without torque or rotation",
+      "Maintain grip contact but zero pressure while checking partner's condition",
+      "Allow partner time to assess knee stability before resuming training",
+      "Communicate verbally to confirm partner is ready to continue"
+    ],
+    "training_restrictions": [
+      "Never apply competition-speed finishing mechanics in training rolls",
+      "Never spike, jerk, or explosively extend hips during application",
+      "Never continue pressure if partner's tap access is compromised",
+      "Never train kneebars with unfamiliar partners without explicit consent",
+      "Never practice on partners with existing knee injuries without medical clearance",
+      "Always ensure partner can tap with both hands before fully committing",
+      "Avoid training kneebarring techniques when fatigued or with impaired judgment"
+    ]
+  },
+  "outcomes": [
+    {
+      "to": "game-over",
+      "probability": 55,
+      "result": "success"
+    },
+    {
+      "to": "Kneebar Control/Top",
+      "probability": 30,
+      "result": "failure"
+    },
+    {
+      "to": "Half Guard/Bottom",
+      "probability": 15,
+      "result": "counter"
+    }
+  ],
+  "from_positions": [
+    "Side Control",
+    "Mount",
+    "Knee on Belly",
+    "Half Guard",
+    "Turtle",
+    "North-South"
+  ],
+  "related_submissions": [
+    "Kneebar",
+    "Straight Ankle Lock",
+    "Toe Hold",
+    "Heel Hook",
+    "Far Side Armbar",
+    "Kimura",
+    "Americana",
+    "Calf Slicer",
+    "Flying Kneebar"
+  ],
+  "related_content": [
+    {
+      "name": "Inside Ashi-Garami",
+      "relationship": "Alternative leg entanglement position offering better control for leg attacks when top kneebarring proves difficult"
+    },
+    {
+      "name": "Outside Ashi-Garami",
+      "relationship": "Transitional position often reached when opponent defends top kneebar by rolling away from pressure"
+    },
+    {
+      "name": "Saddle",
+      "relationship": "Advanced leg entanglement position accessible when opponent's kneebar defense exposes heel"
+    },
+    {
+      "name": "Kneebar Control",
+      "relationship": "Control position for finishing the kneebar submission with proper positioning"
+    },
+    {
+      "name": "Leg Entanglement",
+      "relationship": "Principle covering general leg control mechanics applicable to all leg attacks including top kneebarring"
+    },
+    {
+      "name": "Straight Ankle Lock",
+      "relationship": "Alternative leg submission when kneebar defense is too strong; chains naturally from failed kneebar attempts"
+    },
+    {
+      "name": "Toe Hold",
+      "relationship": "Complementary leg attack targeting different joint; available when opponent bends knee to defend kneebar"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Common position opponent recovers to when successfully countering kneebar entry from top"
+    }
+  ],
+  "attacker": {
+    "name": "Kneebar from Top Attacker",
+    "description": "How to execute Kneebar from Top in BJJ. Attacking perspective with setup, execution, and finishing mechanics from dominant positions.",
+    "overview": "The Kneebar from Top represents a high-percentage leg attack opportunity that arises when controlling an opponent from dominant positions such as side control, mount, knee on belly, or half guard top. Unlike bottom-position kneebarring where defensive responsibility is shared, top kneebarring demands exceptional control and positional awareness since abandoning top position carries inherent risk. The fundamental concept involves transitioning from a dominant top position into a leg entanglement configuration—typically through step-over mechanics or direct leg isolation—while maintaining sufficient control to prevent opponent escape or counter-attack. The submission targets the knee joint through hyperextension, applying pressure to the tibial plateau, popliteal ligaments, and meniscus structures. Modern leg lock systems have elevated top kneebarring from an opportunistic submission to a systematic attacking framework, particularly in no-gi competition where reduced friction facilitates faster entries and tighter control. The technique requires precise timing, as premature commitment can result in loss of dominant position, while delayed execution allows opponent defensive responses. Understanding when to pursue the kneebar versus maintaining positional dominance represents a critical decision point that separates beginner and advanced practitioners. The top kneebar serves dual purposes: as a finishing submission and as a positional transitional tool that creates sweeping opportunities, back exposure, or alternative submission entries when opponents defend aggressively.",
+    "key_principles": [
+      "**Positional Risk-Reward Assessment**: Top kneebarring requires evaluating whether submission probability justifies abandoning dominant position—advanced practitioners develop systematic decision-making frameworks based on opponent defensive capabilities, time remaining, and scoring differentials",
+      "**Hip Alignment and Control**: Submission effectiveness depends on achieving perpendicular hip alignment to opponent's leg while controlling the knee line—hips must be positioned above or across the knee joint to generate proper leverage angles for hyperextension",
+      "**Leg Isolation Before Commitment**: Securing definitive leg control (typically through leg weave, step-over, or entanglement) BEFORE transitioning bodyweight prevents opponent leg extraction—premature commitment creates scramble opportunities that favor the bottom opponent",
+      "**Graduated Pressure**: Training methodology emphasizes building pressure progressively from 0% to tap threshold over minimum 5-7 seconds—competition finishing speed represents final application stage only after extensive controlled practice establishes proper mechanics",
+      "**Upper Body Connection Maintenance**: While leg control dominates submission mechanics, maintaining connection through opponent's upper body (chest contact, shoulder pressure, or head control) during entry phases prevents opponent from sitting up or creating defensive angles",
+      "**Exit Strategy Preparation**: Every top kneebar entry requires predetermined contingency planning—if opponent defends successfully, advanced practitioners transition immediately to alternative leg attacks, positional recovery, or back exposure rather than stubbornly pursuing failed submissions",
+      "**Competition vs Training Distinction**: Training kneebarring emphasizes technical precision, control maintenance, and partner safety through slow application; competition application involves faster entries, tighter control, and finish-oriented mechanics—conflating these contexts creates injury risk"
+    ],
+    "setup_requirements": [
+      "**Dominant Top Position**: Begin from established control positions (side control, mount, knee on belly, half guard top) with opponent grounded and defensive—standing positions offer kneebar opportunities but require modified entry mechanics",
+      "**Leg Accessibility**: Opponent's leg must be accessible for isolation, typically requiring opponent's knee to be bent (closed guard, butterfly hooks) or extended away from their body (sprawled position, quarter guard)—flat, defensive leg positioning complicates entry",
+      "**Center of Gravity Preparation**: Prior to entry, establish weight on opponent's upper body or hips to prevent sit-up defensive responses—opponent sitting up during transition represents primary defensive counter requiring neutralization",
+      "**Grip Configuration**: Establish leg control grips (typically two-on-one leg control, pant grips in gi, or direct leg hugging in no-gi) before committing bodyweight to transition—grip establishment occurs while maintaining top pressure to prevent opponent anticipation",
+      "**Spatial Awareness**: Identify mat space for rotation and leg extension—insufficient space limits finishing mechanics and creates wall-assisted defensive opportunities for opponent",
+      "**Opponent Defensive Recognition**: Assess opponent's leg lock defensive sophistication (awareness of heel exposure, straightening vs bending defensive responses) to determine entry method selection and backup plan requirements",
+      "**Energy and Position Economy**: Evaluate whether current positional advantage and energy reserves justify submission pursuit—failed kneebar attempts from top drain energy significantly and may result in position reversal or opponent escape"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Isolate and control target leg",
+        "description": "From top position (side control, mount, or half guard), identify accessible leg and establish two-on-one control by hugging opponent's leg to your chest while maintaining upper body pressure. In gi, secure pant grips at knee and ankle; in no-gi, use gable grip or rear naked choke grip around opponent's lower leg. Your weight should remain heavy on opponent's upper body initially to prevent sit-up defensive response. The leg isolation must be definitive—partial control invites leg extraction during transition phases.",
+        "timing": "2-3 seconds during position maintenance"
+      },
+      {
+        "step_number": 2,
+        "action": "Step over opponent's body",
+        "description": "While maintaining tight leg control against your chest, step your inside leg (leg closest to opponent's head) over opponent's torso, placing your foot on the far side of their body. This creates the perpendicular body alignment essential for proper leverage. Your stepping leg should cross opponent's centerline completely, with your foot positioned near their far shoulder or head. Maintain chest-to-thigh connection on the controlled leg throughout the step-over to prevent opponent from pulling their leg free. Your base leg (outside leg) remains posted for stability during rotation.",
+        "timing": "1-2 seconds explosive movement"
+      },
+      {
+        "step_number": 3,
+        "action": "Rotate hips and drop weight",
+        "description": "Immediately after stepping over, rotate your hips toward the mat while pulling opponent's leg across your body, positioning their knee joint against your lower abdominal region or hip crease. Your rotation should be controlled, not a fall, landing your back near the mat while keeping opponent's leg elevated and controlled. The opponent's heel should be positioned near your armpit or shoulder (opposite side from their body), with their toes pointing toward the ceiling. This rotation creates the perpendicular alignment where your hip extension will generate knee hyperextension.",
+        "timing": "1-2 seconds controlled descent"
+      },
+      {
+        "step_number": 4,
+        "action": "Establish leg squeeze and knee line control",
+        "description": "Once positioned on your back or side, secure opponent's leg between your knees by bringing your legs together in a strong squeeze, trapping their leg completely. Your knees should pinch together above opponent's knee joint, with their leg shaft running between your thighs. Position opponent's knee crease (popliteal fossa) against your lower abdomen or pubic bone—this becomes your fulcrum point. Adjust your grip to hugging position around opponent's lower leg (below their knee), pulling their heel tight to your shoulder or armpit. Your legs should be configured with feet crossed or hooked to prevent opponent from pulling their leg out.",
+        "timing": "2-3 seconds of adjustment"
+      },
+      {
+        "step_number": 5,
+        "action": "Break opponent's knee bend defensive posture",
+        "description": "Opponents typically defend by bending their knee maximally, bringing their heel toward their buttocks to reduce hyperextension risk. To break this defense, use your arms to forcefully pull their lower leg (at the ankle or foot) toward your body while simultaneously using your abdominal muscles to curl your torso toward your knees. This creates opposing forces: your arms pull the lower leg one direction while your knees squeeze and your torso curls, forcing the knee to straighten. Maintain constant forward pressure with your hips to prevent opponent from creating space. In training, this breaking phase must be performed gradually over 2-3 seconds; in competition, this occurs more explosively.",
+        "timing": "2-4 seconds in training; 1 second in competition"
+      },
+      {
+        "step_number": 6,
+        "action": "Extend hips for submission finish",
+        "description": "Once opponent's leg is straightened (or maximally straightened given their defense), initiate the finishing mechanism by extending your hips upward while simultaneously pulling their ankle/foot toward your shoulder and squeezing your knees together. Your lower abdomen or pubic bone serves as the fulcrum pressing into the back of their knee, while your hip extension creates the hyperextension force. The movement should be controlled and progressive in training (5-7 seconds from initial pressure to tap), allowing partner to tap at any point. Your legs remain tightly squeezed throughout to prevent their leg from slipping out. Maintain connection to their upper body with your back or shoulder contact to prevent them from sitting up and stacking pressure onto you.",
+        "timing": "5-7 seconds progressive application in training; 2-3 seconds in competition"
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Sit up and stack pressure",
+        "effectiveness": "High",
+        "your_response": "Maintain upper body connection during entry phases by keeping shoulder pressure or head control—if opponent sits up during transition, abort kneebar and return to top position or transition to alternative leg entanglement positions like outside ashi. Once fully committed to kneebar position, use your legs to kick opponent's hips away while maintaining leg control.",
+        "targets_outcome": "Half Guard/Bottom"
+      },
+      {
+        "counter": "Bend knee maximally (heel to buttocks)",
+        "effectiveness": "High",
+        "your_response": "Use arm strength to pull ankle toward shoulder while curling torso forward and driving hips forward simultaneously—create three-directional force that overcomes bending defense. Alternatively, transition to straight ankle lock or toe hold if knee bend defense is too strong, as these submissions function effectively against bent knee positions.",
+        "targets_outcome": "Kneebar Control/Top"
+      },
+      {
+        "counter": "Pull leg out during step-over transition",
+        "effectiveness": "High",
+        "your_response": "Prevent this defense by establishing definitive leg control (two-on-one hugging position with tight grips) BEFORE initiating step-over movement. If opponent begins extracting leg during transition, immediately return to original top position rather than pursuing failed entry—positional maintenance takes priority over submission attempts.",
+        "targets_outcome": "Half Guard/Bottom"
+      },
+      {
+        "counter": "Roll toward the kneebar to relieve pressure",
+        "effectiveness": "Medium",
+        "your_response": "Allow opponent's roll but maintain leg control and hip alignment—rolling typically creates alternative submission opportunities including heel hook access (if ruleset permits) or back exposure. Follow their roll by adjusting your position to maintain perpendicular alignment, or transition to leg drag passing position if submission is no longer viable.",
+        "targets_outcome": "Kneebar Control/Top"
+      },
+      {
+        "counter": "Triangle counter (throw leg over your head)",
+        "effectiveness": "Medium",
+        "your_response": "Recognize this counter early by monitoring opponent's free leg—if they begin hooking your head with their free leg, immediately posture up and back away while maintaining leg control. This defense is most effective during entry phases; once kneebar is fully established with proper hip alignment, opponent cannot generate triangle mechanics.",
+        "targets_outcome": "Half Guard/Bottom"
+      },
+      {
+        "counter": "Grab your head or gi to prevent full extension",
+        "effectiveness": "Low",
+        "your_response": "Opponent's grip on your head or gi indicates desperation defense—maintain patient pressure and wait for their grip to fatigue. Address grips by using your free hand to strip their grips or by creating angles that make grip maintenance impossible. Continue progressive hip extension while they hold grips; most grips fail under sustained pressure.",
+        "targets_outcome": "game-over"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Spiking or explosive application during training",
+        "consequence": "IMMEDIATE INJURY RISK—explosive kneebar application in training causes ACL tears, meniscus damage, and ligament ruptures before partners can tap safely",
+        "correction": "Implement mandatory 5-7 second progressive application during all training scenarios—build pressure gradually from 0% to tap threshold, allowing partner continuous opportunity to tap. Reserve faster application speeds exclusively for competition contexts."
+      },
+      {
+        "error": "Abandoning top position prematurely without secure leg control",
+        "consequence": "Opponent extracts leg during transition, resulting in scramble situations where opponent may achieve superior position or escape entirely—position loss without submission gain represents failed technique execution",
+        "correction": "Establish definitive two-on-one leg control with tight grips and chest-to-thigh connection BEFORE initiating step-over movement. If leg control feels insecure during entry, abort transition and return to dominant position rather than pursuing low-probability submission."
+      },
+      {
+        "error": "Failing to establish perpendicular hip alignment",
+        "consequence": "Parallel or diagonal body positioning eliminates leverage mechanics—hip extension generates minimal knee hyperextension pressure, allowing opponent to defend easily and potentially counter with their own attacks",
+        "correction": "Ensure complete step-over positioning with your hips perpendicular (90-degree angle) to opponent's leg. Your bodyline should form a 'T' shape with opponent's body. If alignment is compromised, use your base leg to push and adjust hip position before applying finishing pressure."
+      },
+      {
+        "error": "Neglecting to break opponent's knee bend defense",
+        "consequence": "Opponent maintains maximally bent knee position, neutralizing hyperextension mechanics—submission becomes impossible regardless of hip extension force applied",
+        "correction": "Dedicate 2-4 seconds to actively straightening opponent's leg using combined arm pulling (ankle toward shoulder), knee squeezing, and forward hip pressure before attempting finish. If leg cannot be straightened after sustained effort, transition to alternative submissions (straight ankle lock, toe hold) that function against bent knee positions."
+      },
+      {
+        "error": "Positioning opponent's knee joint incorrectly (too high or too low on torso)",
+        "consequence": "Improper fulcrum placement dramatically reduces submission effectiveness—knee positioned too high (chest/shoulder region) prevents sufficient leverage; too low (below hips) creates weak angles where opponent can escape",
+        "correction": "Position opponent's knee crease (back of knee) directly against your lower abdomen or pubic bone region—this creates optimal fulcrum point for hip extension mechanics. Make micro-adjustments before applying pressure to ensure knee line sits precisely in this zone."
+      },
+      {
+        "error": "Allowing opponent to sit up during entry phases",
+        "consequence": "Opponent achieves upright posture during transition, enabling them to stack weight onto you, defend effectively, or pass into superior positions—common result is failed submission with position reversal",
+        "correction": "Maintain upper body connection throughout entry sequence using shoulder pressure, head control, or chest weight. If opponent begins sitting up during step-over, immediately return to original top position. Successfully executed top kneebarring prevents opponent from achieving sitting posture until submission is nearly complete."
+      },
+      {
+        "error": "Insufficient leg squeeze allowing leg extraction",
+        "consequence": "Opponent pulls leg free during finishing phases, escaping submission entirely and often achieving advantageous positions during scramble—represents complete technical failure",
+        "correction": "Establish maximum leg squeeze with knees pinched together above opponent's knee joint—their leg should be completely trapped between your thighs with zero sliding space. Cross your feet or hook them together to reinforce leg trap. Test security before applying finishing pressure by attempting to shift opponent's leg; any movement indicates insufficient squeeze requiring immediate correction."
+      },
+      {
+        "error": "Ignoring tap signals or delayed release",
+        "consequence": "CATASTROPHIC INJURY RISK—continuing pressure after tap causes severe ligament damage, meniscus tears, or joint destruction requiring surgical intervention and extended recovery periods",
+        "correction": "Develop hyper-vigilant awareness for ANY tap signal (verbal, hand, foot, distress sounds) and implement immediate release protocol: stop hip extension instantly, release pressure while maintaining contact, return leg to neutral position without torque. Practice release mechanics explicitly during training to build muscle memory for instant response."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Entry Mechanics Isolation",
+        "focus": "Step-over mechanics and leg isolation from static top positions",
+        "description": "Begin with compliant partner in bottom side control. Practice the leg isolation grip, step-over movement, and hip rotation into kneebar position at zero resistance. Focus exclusively on body positioning and alignment without applying any finishing pressure. Repeat 20-30 repetitions per side until the movement pattern becomes fluid and automatic. Partner provides verbal feedback on control tightness during each repetition."
+      },
+      {
+        "phase": "Phase 2: Control Position Refinement",
+        "focus": "Fulcrum placement, leg squeeze security, and finishing alignment",
+        "description": "From established kneebar position (skip entry), practice the control elements: knee crease placement on lower abdomen, leg squeeze with feet crossed, and arm positioning around the ankle. Partner provides passive resistance by bending knee and testing squeeze security. Develop sensitivity for correct fulcrum placement through micro-adjustments. Practice the three-directional force system for breaking bent-knee defense at slow speed. No finishing pressure applied—focus entirely on positional accuracy."
+      },
+      {
+        "phase": "Phase 3: Progressive Resistance Drilling",
+        "focus": "Integrating entry and finish against escalating defensive resistance",
+        "description": "Combine entry mechanics with control and finishing against partner providing 30%, then 50%, then 70% resistance. Partner defends using realistic responses: bending knee, attempting sit-up, pulling leg free. Practice recognizing which defense is being employed and selecting appropriate counter-response. Apply finishing pressure progressively over 5-7 seconds minimum. Introduce abort protocols—practice returning to top position when entry fails rather than stubbornly pursuing compromised submissions."
+      },
+      {
+        "phase": "Phase 4: Live Situational Sparring",
+        "focus": "Competition-realistic entry recognition and execution under full resistance",
+        "description": "Begin from live top positions (side control, mount, half guard) with partner resisting at 100%. Develop recognition of natural kneebar opportunities during live exchanges rather than forcing entries. Practice the complete decision-making framework: evaluating whether submission probability justifies position abandonment, selecting optimal entry variation, executing with full resistance, and transitioning to alternatives when defense succeeds. Include post-round analysis of decision quality and execution timing."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "Why must training application of kneebarring techniques occur over minimum 5-7 seconds with progressive pressure buildup?",
+        "answer": "Progressive application allows training partners adequate time to recognize submission danger and tap before ligament or cartilage damage occurs. Knee joint injuries happen extremely rapidly—ACL tears can occur in milliseconds under sudden force. The 5-7 second guideline ensures pressure builds gradually from zero to tap threshold, giving partners continuous opportunity to tap at any discomfort level. This training methodology prevents catastrophic injuries while allowing practitioners to develop proper mechanical understanding. Competition application occurs faster, but only after extensive slow practice establishes correct technique patterns and safety awareness.",
+        "safety_critical": true
+      },
+      {
+        "question": "What are the three primary tap signals every practitioner must recognize, and what is the correct response protocol?",
+        "answer": "The three primary tap signals are: (1) Verbal tap—any vocalization of 'tap,' 'stop,' or distress sounds; (2) Physical hand tap—rapid repeated tapping on partner's body or mat surface; (3) Physical foot tap—repeated tapping with foot on mat or partner. Correct response protocol requires IMMEDIATE cessation of all pressure application upon detecting ANY tap signal, followed by controlled release while maintaining contact (not explosive separation that could cause additional injury), returning the joint to neutral position, and verbally checking partner's condition before continuing training. Delayed release or continuing pressure after tap represents dangerous behavior justifying immediate training exclusion.",
+        "safety_critical": true
+      },
+      {
+        "question": "What anatomical structure serves as the fulcrum point for knee hyperextension in the kneebar, and where should it be positioned on your body?",
+        "answer": "The back of the opponent's knee (popliteal fossa/knee crease) serves as the primary fulcrum point for creating hyperextension leverage. This structure should be positioned directly against your lower abdomen or pubic bone region—not your chest, ribs, or upper abdomen. This positioning creates optimal leverage geometry where your hip extension generates maximum force application to the knee joint. Positioning too high (chest area) reduces leverage significantly, while positioning too low (below hips) creates weak angles where opponent can escape. The lower abdomen/pubic bone placement represents the mechanical sweet spot balancing control, leverage, and finishing power.",
+        "safety_critical": false
+      },
+      {
+        "question": "Why does top position kneebarring require different risk-assessment thinking compared to bottom position leg attacks?",
+        "answer": "Top position kneebarring involves abandoning dominant positional advantage (side control, mount, knee on belly) to pursue submission, creating inherent risk-reward calculation not present in bottom attacks. From bottom positions, failed leg attacks typically return you to neutral or guard positions—minimal position loss. From top, failed kneebar attempts can result in losing dominant control, scrambles favoring opponent, or complete position reversals. Therefore, top kneebarring should only be pursued when: (1) opponent's defensive positioning clearly exposes their leg; (2) your leg control is definitive before transition; (3) positional dominance has not produced other finishing opportunities; or (4) match circumstances (time, score) justify higher-risk submission attempts. Advanced practitioners develop systematic decision frameworks evaluating these factors before committing to top leg attacks.",
+        "safety_critical": false
+      },
+      {
+        "question": "What is the primary defensive response opponents use against the kneebar, and what three-directional force system breaks this defense?",
+        "answer": "The primary defensive response is maximally bending the knee (bringing heel toward buttocks) to reduce hyperextension vulnerability. Breaking this defense requires simultaneous application of three directional forces: (1) Arm strength pulling the ankle/foot toward your shoulder (straightening force); (2) Knee squeeze and forward hip pressure driving into the back of their knee (preventing re-bending); (3) Torso curl forward bringing your upper body toward your knees (increasing fulcrum pressure). These three forces create opposing tensions that progressively overcome the opponent's ability to maintain bent knee position. Attempting to finish against maximally bent knee without addressing this defense wastes energy and allows opponent to maintain effective defense indefinitely.",
+        "safety_critical": false
+      },
+      {
+        "question": "At what point during the kneebar entry sequence is the opponent most likely to successfully extract their leg, and how do you prevent this escape?",
+        "answer": "The step-over transition phase represents maximum vulnerability for leg extraction—during the 1-2 seconds when you're moving your leg over opponent's body, your control momentarily decreases and opponent can pull their leg free if your initial grip was insufficient. Prevention requires establishing definitive two-on-one leg control (hugging opponent's leg tightly to your chest with strong grips) BEFORE initiating step-over movement. Your chest must remain connected to their thigh throughout the entire rotation, eliminating any space for leg withdrawal. If you feel opponent beginning to extract their leg during step-over, immediately abort the technique and return to your original top position rather than stubbornly pursuing a low-probability submission. Positional maintenance always takes priority over failed submission attempts.",
+        "safety_critical": false
+      },
+      {
+        "question": "What specific injuries can result from improper kneebar application, and what are their typical recovery timelines?",
+        "answer": "Kneebar hyperextension primarily causes: (1) ACL tears—anterior cruciate ligament rupture requiring 6-12 months recovery with surgical reconstruction, representing career-threatening injury for athletes; (2) PCL tears—posterior cruciate ligament damage with 3-6 month recovery timeline; (3) Meniscus tears—cartilage damage ranging from 4-8 weeks for minor tears to 3-6 months for surgical repair; (4) MCL/LCL injuries—medial or lateral collateral ligament damage with 4-12 week recovery depending on severity; (5) Popliteal nerve or artery compression—can cause permanent neurovascular damage if sustained. These injuries result from explosive application, continuing pressure after tap, or training with unfamiliar partners who don't respect proper safety protocols. Understanding injury severity and recovery impacts emphasizes why training kneebars requires maximum safety consciousness and progressive pressure application.",
+        "safety_critical": true
+      },
+      {
+        "question": "Your opponent begins rolling toward the kneebar to relieve pressure—what adjustment maintains submission viability?",
+        "answer": "When opponent rolls toward the kneebar, follow their roll while maintaining tight leg control and perpendicular hip alignment. Their rolling motion often creates additional opportunities: it can expose the heel for heel hook access if rules permit, or it may give you a back exposure opportunity if they roll too far. The key is maintaining your knee squeeze and hip position relative to their leg throughout their roll—don't let their movement separate your fulcrum point from their knee crease. If they successfully escape to their knees during the roll, you can transition to a leg drag passing position rather than chasing a failed submission. The roll defense is medium effectiveness because following it properly maintains attack viability.",
+        "safety_critical": false
+      },
+      {
+        "question": "What grip adjustments are necessary when finishing the kneebar against a strong knee-bend defense?",
+        "answer": "Against a committed knee-bend defense, adjust your grip from the standard ankle-hugging position to a more aggressive foot/heel control. Cup the heel with one hand while using the other hand to control the toes or ball of the foot. This dual grip creates better leverage for the straightening pull because you're controlling two separate points on the foot rather than just hugging the lower leg. Simultaneously, bring your elbows tight to your ribs to prevent the foot from slipping, and use your entire upper body curl rather than just arm strength. The grip transition from ankle hug to heel-and-toe control represents the adjustment that breaks stubborn knee-bend defenders.",
+        "safety_critical": false
+      },
+      {
+        "question": "What indicates you have reached the point of no escape in the kneebar, and how do you manage pressure from this point?",
+        "answer": "The point of no escape is reached when three conditions are simultaneously met: (1) opponent's leg is straightened or nearly straightened—their heel-to-buttocks defense has been broken; (2) your knee squeeze has their leg trapped with zero extraction possibility—tested by their inability to rotate their leg within your thighs; (3) your fulcrum is positioned precisely at their knee crease with your hips ready for extension. From this point, manage pressure by beginning slow, progressive hip extension while maintaining the three-directional force system. In training, this is where the 5-7 second finishing timeline begins. Monitor opponent's tap response continuously. The submission is mechanically inevitable once these three conditions exist—the only variable is how quickly pressure reaches tap threshold.",
+        "safety_critical": true
+      },
+      {
+        "question": "How do you determine whether to pursue the top kneebar versus maintaining positional dominance in competition?",
+        "answer": "The decision framework evaluates four factors: (1) Leg exposure quality—is opponent's leg clearly accessible with minimal transition risk, or would pursuit require abandoning secure control? (2) Time and score context—are you ahead on points with time remaining (favor position), or behind with limited time (favor submission)? (3) Opponent's leg lock awareness—does opponent demonstrate sophisticated leg defense (higher risk), or appear unaware of leg lock entries (higher reward)? (4) Energy economy—do you have sufficient reserves for potential scramble if kneebar fails? Only pursue when multiple factors favor submission attempt. When uncertain, default to maintaining dominant position—failed submission attempts from top frequently result in position loss that affects match outcome.",
+        "safety_critical": false
+      },
+      {
+        "question": "What finishing errors commonly cause the kneebar to fail even when properly established?",
+        "answer": "The most common finishing errors are: (1) Hip extension without maintaining leg squeeze—creates space for opponent's leg to slip out during the finish; (2) Extending hips too high rather than driving through the knee line—lifts opponent rather than hyperextending joint; (3) Releasing arm control on the ankle/foot during hip extension—allows opponent to re-bend their knee; (4) Failing to maintain perpendicular alignment during finish—diagonal body position dissipates force; (5) Rushing the finish against bent-knee defense—attempting hip extension before straightening leg wastes energy on mechanically impossible finish. These errors transform a properly established kneebar into an escape opportunity. The finish requires maintaining all control elements simultaneously while adding progressive hip extension.",
+        "safety_critical": false
+      }
+    ]
+  },
+  "defender": {
+    "name": "Kneebar from Top Defender",
+    "description": "How to defend against Kneebar from Top in BJJ. Recognition, escape paths, and defensive strategies for surviving top-position leg attacks.",
+    "overview": "Defending the kneebar from top position requires a fundamentally different mindset than defending bottom-initiated leg attacks. When an opponent abandons dominant top position to attack your knee, a critical window exists during their transition where defensive intervention is most effective. The defender's primary advantage is that the attacker must sacrifice positional control to pursue the submission—recognizing this transition early and responding with structured defensive mechanics can prevent the kneebar from reaching a dangerous finishing position. The defensive hierarchy prioritizes three sequential objectives: first, prevent the attacker from completing the step-over and establishing perpendicular alignment; second, if the position is established, maximize knee bend to neutralize hyperextension mechanics; third, create space and extract the leg to recover guard or scramble to a neutral position. Understanding the biomechanics of the kneebar—specifically that hyperextension requires a straightened leg against a fulcrum at the knee crease—informs every defensive decision, as maintaining knee flexion eliminates the primary finishing mechanism.",
+    "key_principles": [
+      "**Early Recognition Over Late Reaction**: Identifying the kneebar entry during the step-over transition phase—before perpendicular alignment is established—provides the highest-percentage defensive window, as the attacker's control is weakest during positional transition",
+      "**Knee Bend as Primary Defense**: Maximally bending the attacked knee (heel toward buttocks) removes the straightened-leg requirement for hyperextension—this single defensive action neutralizes the kneebar's primary finishing mechanism and buys time for additional escapes",
+      "**Leg Extraction Priority**: Once knee bend defense is established, immediately work to extract the leg from between the attacker's thighs by rotating the knee inward, pushing on their hips, and creating space through controlled hip movement",
+      "**Sit-Up Counter During Entry**: If the attacker has not fully committed to the kneebar position, sitting up and driving weight forward onto them collapses their alignment and can prevent the submission from being established entirely",
+      "**Never Accept the Straightened Leg**: Once the attacker breaks the knee bend defense and achieves a straightened leg with proper fulcrum placement, the submission becomes mechanically inevitable—all defensive effort must focus on maintaining knee flexion before this point of no return",
+      "**Counter-Attack Awareness**: The attacker's commitment to leg control creates opportunities for guard recovery, scrambles to top position, or counter-leg attacks—defense should transition to offense once the immediate submission threat is neutralized"
+    ],
+    "recognition_cues": [
+      "Opponent releases upper body control (crossface, underhook) while gripping your leg with both arms, pulling it toward their chest—this grip shift from upper body to leg control signals imminent kneebar entry",
+      "Opponent begins stepping their inside leg over your torso while maintaining your leg against their chest—the step-over movement is the most visible indicator of kneebar commitment and represents your best defensive intervention window",
+      "Opponent rotates their hips away from you while controlling your leg, dropping toward the mat with your leg elevated—this rotation into perpendicular alignment indicates they are past the entry phase and establishing finishing position",
+      "Sudden decrease in upper body pressure combined with increased grip pressure on your lower leg or ankle—the weight shift from your torso to your leg precedes the step-over entry by 1-2 seconds"
+    ],
+    "defensive_options": [
+      {
+        "action": "Sit up and drive weight forward during step-over transition",
+        "when_to_use": "During the 1-2 second window when opponent is stepping over your body and their base is compromised—this is the highest-percentage defensive intervention point before the kneebar is established",
+        "targets_outcome": "Half Guard/Bottom",
+        "if_successful": "Collapses opponent's alignment, prevents perpendicular positioning, and creates scramble opportunity to recover guard or achieve top position",
+        "risk": "If timed too late (after opponent completes step-over), sitting up drives your weight onto them in a way that may actually help them establish the kneebar position"
+      },
+      {
+        "action": "Maximally bend knee and fight to maintain heel-to-buttocks position",
+        "when_to_use": "Once opponent has established the kneebar position with your leg controlled between their thighs—this is your primary defense when the entry phase is missed",
+        "targets_outcome": "Kneebar Control/Top",
+        "if_successful": "Neutralizes hyperextension mechanics entirely, forcing opponent to spend energy attempting to straighten your leg while you work additional escape mechanics",
+        "risk": "Knee bend alone is insufficient as a complete defense—opponent can use three-directional force to progressively break the bend, so you must simultaneously work leg extraction"
+      },
+      {
+        "action": "Rotate leg inward and push on opponent's hips to extract trapped leg",
+        "when_to_use": "While maintaining knee bend defense, simultaneously work to free your leg from between opponent's thighs—this combines passive defense (bent knee) with active escape (leg extraction)",
+        "targets_outcome": "Half Guard/Bottom",
+        "if_successful": "Once leg is extracted, immediately establish guard position or scramble to top—the opponent has abandoned their original dominant position and is now in a compromised transitional state",
+        "risk": "Aggressive extraction attempts may straighten the knee momentarily during the movement, creating a window for the attacker to apply finishing pressure if your timing is poor"
+      }
+    ],
+    "escape_paths": [
+      "Sit up and stack weight onto opponent during entry phase to collapse their alignment, then recover to half guard or closed guard by inserting knee shield while they attempt to re-establish position",
+      "Maintain maximum knee bend while rotating your entire body toward the kneebar (rolling with the submission) to relieve pressure and create space—use the rotation to extract your leg or transition to a counter-leg entanglement position",
+      "Push on opponent's top hip with your free leg while pulling your trapped leg toward your body—the opposing forces create separation that allows leg extraction, then immediately recover guard before opponent can re-establish top control"
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Half Guard/Bottom",
+        "how": "Successfully extract leg during kneebar entry or after defending the finish, then immediately insert knee shield to establish half guard—the attacker abandoned their original top position, so you may end up in a relatively neutral or advantageous guard position"
+      },
+      {
+        "outcome": "Kneebar Control/Top",
+        "how": "Defend the kneebar finish through sustained knee bend defense, then gradually work leg extraction while opponent's energy depletes from failed finishing attempts—the failed kneebar transitions to a control position where you can methodically escape"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Straightening the attacked leg or allowing the knee to extend during defensive movements",
+        "consequence": "Creates the straightened-leg condition required for kneebar finish—once the knee extends with proper fulcrum placement, the submission becomes mechanically inevitable and damage occurs rapidly",
+        "correction": "Prioritize knee flexion above all other defensive actions. Curl the heel toward your buttocks with maximum effort and maintain this position throughout all escape attempts. Never sacrifice knee bend for other defensive movements."
+      },
+      {
+        "error": "Panicking and attempting explosive pulling without addressing the attacker's leg squeeze",
+        "consequence": "Explosive pulling against a tight leg squeeze wastes energy without creating meaningful escape progress, and the jerking motion may inadvertently straighten the knee during the struggle",
+        "correction": "First address the leg squeeze by pushing on opponent's top knee or hip to create separation space, then use controlled rotational movement to extract the leg. Calm, methodical defense outperforms panic-driven explosive reactions."
+      },
+      {
+        "error": "Ignoring the kneebar entry and remaining flat on the mat without defensive reaction",
+        "consequence": "Allows opponent to complete the full entry sequence unopposed, establishing perfect perpendicular alignment and deep leg control—defense becomes exponentially harder once the position is fully consolidated",
+        "correction": "React immediately to the recognition cues (opponent gripping your leg, releasing upper body control, initiating step-over). The first 1-2 seconds of the entry represent your highest-percentage defensive window—sit up, pull your leg away, or scramble before the position is established."
+      },
+      {
+        "error": "Reaching for opponent's head or upper body during kneebar defense instead of addressing leg control",
+        "consequence": "Arms extended toward opponent's upper body have no defensive value against the kneebar mechanism and may straighten your posture in ways that compromise knee bend defense",
+        "correction": "Direct all defensive effort toward the attacked leg: maintain knee bend with hamstring contraction, push on opponent's hips to create separation, and use hands to grip your own shin or ankle to reinforce the bent-knee position. Defensive actions must target the submission mechanism directly."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the single most important defensive action when caught in a kneebar from top, and why does it neutralize the submission's primary mechanism?",
+        "answer": "Maximally bending the attacked knee (curling heel toward buttocks) is the single most important defensive action because the kneebar requires a straightened or near-straightened leg to generate hyperextension force. The submission mechanism works by using a fulcrum at the knee crease combined with hip extension to push the knee joint past its natural range of motion. When the knee is maximally bent, the attacker's hip extension simply pushes against the hamstring's resistance without creating hyperextension angles. This bent-knee position eliminates the leveraged geometry the kneebar depends on, buying critical time for additional escape mechanics including leg extraction and positional recovery.",
+        "safety_critical": true
+      },
+      {
+        "question": "During which phase of the kneebar from top entry is the defender's escape success rate highest, and what specific defensive action should be taken?",
+        "answer": "The step-over transition phase (the 1-2 seconds when the attacker is stepping their leg over the defender's torso) represents the highest-percentage defensive window because the attacker's base is compromised and their control is divided between maintaining leg grips and executing the rotation. The optimal defensive action during this window is sitting up explosively and driving weight forward onto the attacker, which collapses their perpendicular alignment and prevents them from completing the position. If the sit-up is timed correctly, the attacker falls back to a compromised position and the defender can recover guard or scramble to top. This early intervention is far more effective than defending the established kneebar position.",
+        "safety_critical": false
+      },
+      {
+        "question": "What are the indicators that a kneebar has reached the point of no return where tapping becomes the only safe option?",
+        "answer": "The kneebar has reached the point of no return when three conditions exist simultaneously: (1) your leg is straightened or nearly straightened despite your best bending efforts—the attacker has broken your primary defense; (2) the attacker's fulcrum is positioned precisely at your knee crease with tight leg squeeze preventing any extraction; (3) the attacker's hips are beginning to extend with your ankle controlled against their shoulder. When all three conditions are present, further resistance risks catastrophic ligament damage as the hyperextension force will exceed tissue tolerance within seconds. Tapping immediately is the only safe response. Attempting heroic escapes from this position in training risks ACL and meniscus injuries that require months of recovery.",
+        "safety_critical": true
+      },
+      {
+        "question": "Your opponent has your leg controlled in kneebar position but you are maintaining a strong knee bend—what additional escape actions should you take while defending?",
+        "answer": "While maintaining the knee bend as your foundation defense, simultaneously work three additional escape actions: (1) Push on the attacker's top hip or knee with your free leg to create separation between their thighs and your trapped leg—this loosens their squeeze and creates extraction space. (2) Rotate your trapped knee inward (toward the attacker's body) while pulling your leg toward yourself—internal rotation makes the leg harder to control and assists extraction. (3) Use your hands to grip your own shin, ankle, or foot to reinforce the bent-knee position while the attacker applies straightening force. These combined actions degrade the attacker's control over time and create incremental escape progress while the bent knee prevents the finish.",
+        "safety_critical": false
+      },
+      {
+        "question": "Why is rolling toward the kneebar sometimes a viable escape strategy, and what risks does this approach carry?",
+        "answer": "Rolling toward the kneebar (in the direction the attacker is applying force) can relieve hyperextension pressure by reducing the angle between your leg and the attacker's body. This rolling motion can also create momentary loosening of the attacker's leg squeeze as your body rotates, potentially allowing leg extraction. However, this strategy carries significant risks: if the attacker follows your roll and maintains alignment, you may end up in a worse position with less space to defend. Additionally, rolling may expose your heel for heel hook access if the ruleset permits, converting a defendable kneebar into a more dangerous heel hook situation. Use rolling defense only when static defense is failing and extraction attempts are blocked.",
+        "safety_critical": false
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Recognition Drilling",
+        "focus": "Identifying kneebar entry cues and developing automatic early defensive responses",
+        "description": "Partner slowly executes kneebar from top entries from side control, mount, and knee on belly at 25% speed. Defender practices recognizing the grip shift from upper body to leg control and the step-over initiation. Drill the sit-up counter response during the entry window repeatedly until the reaction becomes automatic. No finishing pressure applied—focus entirely on recognition timing and defensive intervention speed."
+      },
+      {
+        "phase": "Phase 2: Bent-Knee Defense Conditioning",
+        "focus": "Building hamstring endurance and knee bend maintenance under sustained pressure",
+        "description": "Partner establishes kneebar position and applies moderate straightening force (30-50% effort) for extended periods (30-60 seconds). Defender practices maintaining maximum knee bend while managing breathing and energy expenditure under pressure. Develop sensitivity for when the bend is being broken versus holding effectively. Build the hamstring endurance necessary to sustain bent-knee defense for realistic timeframes."
+      },
+      {
+        "phase": "Phase 3: Escape Integration Under Resistance",
+        "focus": "Combining knee bend defense with active leg extraction and positional recovery",
+        "description": "Partner establishes kneebar and provides 50-70% resistance while defender chains defensive actions: maintain knee bend, push on hips to create space, rotate leg inward, and extract to guard recovery. Practice the complete defensive sequence against escalating resistance levels. Include the sit-up counter during entry phases and the rolling escape when static defense is insufficient. Develop the ability to transition from defense to guard recovery fluidly."
+      },
+      {
+        "phase": "Phase 4: Live Defensive Sparring from Kneebar Scenarios",
+        "focus": "Competition-realistic defense with full resistance and tapping judgment",
+        "description": "Begin from live positions where partner hunts for top kneebar entries at 100% effort. Defender must recognize entries, select appropriate defensive response, and execute escapes under full resistance. Critically, develop judgment for when to tap versus when continued defense is viable—recognizing the point of no return and tapping before injury risk is essential. Include post-round analysis of defensive decision quality and areas where earlier intervention would have improved outcomes."
+      }
+    ]
+  },
+  "variations_and_setups": [
+    {
+      "variation_name": "Side Control Step-Over Kneebar",
+      "description": "From standard side control, isolate opponent's near leg by hugging it to your chest, then step over their torso with your inside leg. This represents the highest-percentage top kneebar entry due to maximum positional control during setup phase. Works best when opponent uses butterfly hooks or knee shield frames from bottom side control.",
+      "when_to_use": "When opponent attempts to recover guard using leg frames from bottom side control—their defensive leg positioning creates ideal isolation opportunities"
+    },
+    {
+      "variation_name": "Mount to Kneebar Transition",
+      "description": "From mount position, as opponent attempts to bridge or creates space with knee frames, capture one leg and transition directly into step-over kneebar mechanics. Requires quick recognition of leg exposure during opponent's escape attempts. Often chains with armbar attacks—if opponent defends armbar by pulling arm free, their leg becomes exposed for kneebar entry.",
+      "when_to_use": "When opponent's mount escape mechanics involve bringing knees between your bodies—creates brief windows where legs can be isolated before they establish guard recovery"
+    },
+    {
+      "variation_name": "Knee on Belly to Kneebar",
+      "description": "From knee on belly position, opponent often attempts to push your knee away using their hands, creating distance. As they push, capture their far leg (opposite side from your knee) and execute step-over entry. This variation exchanges very dominant position for submission attempt, so should be reserved for situations where submission probability is high or positional dominance has not produced finishing opportunities.",
+      "when_to_use": "Against opponents who defend knee on belly by creating frames and distance rather than turning away—their pushing defense extends legs away from body into vulnerable positions"
+    },
+    {
+      "variation_name": "Half Guard Top Leg Weave Entry",
+      "description": "From top half guard, free your trapped leg and immediately weave it over opponent's lockdown or half guard leg, establishing inside position. Use this leg weave to break down opponent's defensive structure, then transition to kneebar by securing their leg and rotating into finishing position. Often chains with other half guard attacks—if opponent defends pass attempts, kneebar becomes available.",
+      "when_to_use": "When opponent maintains strong half guard lockdown preventing conventional passing—leg weave disrupts their structure and creates attacking opportunities"
+    },
+    {
+      "variation_name": "Turtle Position Kneebar Attack",
+      "description": "When opponent is in turtle position with one leg extended for base, attack the extended leg by diving over their back and securing leg control, then rotating into kneebar position. This variation appears opportunistically when opponent uses asymmetrical turtle positions (one knee down, one foot posted) common in scrambles. Requires explosive entry to prevent opponent from pulling leg back to safety.",
+      "when_to_use": "During scramble situations when opponent adopts turtle with extended legs for mobility—their base positioning creates brief attack windows before they consolidate defensive structure"
+    },
+    {
+      "variation_name": "Kneebar Off Failed Guard Pass",
+      "description": "When passing attempts are defended successfully and opponent begins to recover guard, redirect your pressure by attacking exposed legs during their guard recovery motion. Rather than stubbornly pursuing contested pass, recognize moment when opponent's leg extends or opens during their defensive movements and transition directly to kneebar mechanics. Represents important tactical flexibility—accepting when passes fail and adapting to alternative attacks.",
+      "when_to_use": "When guard passing encounters strong resistance and opponent is successfully recovering guard—their recovery mechanics often temporarily expose legs that were previously protected in closed guard structure"
+    }
+  ]
+}

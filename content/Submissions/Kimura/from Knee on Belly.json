@@ -1,0 +1,455 @@
+{
+  "name": "Kimura from Knee on Belly",
+  "description": "Master the Kimura from Knee on Belly in BJJ. Learn how KOB pressure creates shoulder lock opportunities through forced defensive reactions and grip exposure.",
+  "tags": [
+    "bjj",
+    "submission",
+    "kimura",
+    "shoulder-lock",
+    "joint-lock",
+    "fundamental",
+    "hub",
+    "finishing-guide",
+    "knee-on-belly"
+  ],
+  "submission_category": "Joint Lock",
+  "submission_type": "Shoulder Lock",
+  "target_area": "Shoulder joint, rotator cuff, and shoulder capsule",
+  "starting_position": "Knee on Belly",
+  "from_position": "Knee on Belly/Top",
+  "success_rate": 62,
+  "overview": "The Kimura from Knee on Belly exploits the natural defensive reactions that KOB pressure creates. When the bottom player pushes against the knee or reaches across their body to alleviate diaphragm pressure, their far arm becomes exposed for figure-four grip capture. The elevated hip position of Knee on Belly provides superior rotational leverage compared to side control or guard-based kimuras, allowing greater torque on the shoulder joint with less effort. The bottom player faces a compounding dilemma: absorb the crushing knee pressure and risk respiratory distress, or push the knee away and expose their arms to the shoulder lock.\n\nThe finishing mechanics differ from other positions because the top player can choose to finish in place by driving the captured wrist toward the mat while maintaining knee pressure, or step off to north-south for a more controlled rotational finish. The north-south transition removes the bottom player's bridging ability and creates a tighter arc of rotation on the shoulder. The grip capture itself benefits from gravity \u2014 the top player's weight assists in pinning the opponent's elbow while the figure-four controls the wrist. Competition data consistently shows this as one of the highest-percentage kimura entries in the sport, particularly effective after the top player has broken down the bottom player's defensive frames with sustained KOB pressure.",
+  "safety_considerations": {
+    "injury_risks": [
+      {
+        "injury": "Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis)",
+        "severity": "High",
+        "recovery_time": "3-9 months with potential surgery requirement"
+      },
+      {
+        "injury": "Shoulder capsule damage and dislocation",
+        "severity": "CRITICAL",
+        "recovery_time": "6-12 months, may require surgical repair"
+      },
+      {
+        "injury": "Labral tear (glenoid labrum)",
+        "severity": "High",
+        "recovery_time": "4-8 months, often requires arthroscopic surgery"
+      },
+      {
+        "injury": "Bicep tendon strain or rupture",
+        "severity": "Medium",
+        "recovery_time": "6-12 weeks for strain, 3-6 months for rupture"
+      }
+    ],
+    "application_speed": "SLOW and progressive - 3-5 seconds minimum in training, allowing partner time to recognize danger and tap",
+    "tap_signals": [
+      "Verbal tap (saying 'tap' or making any verbal distress sound)",
+      "Physical hand tap (multiple taps with free hand)",
+      "Physical foot tap (multiple taps with either foot)",
+      "Any distress signal including screaming or unusual sounds"
+    ],
+    "release_protocol": [
+      "Immediately stop all rotational pressure the instant tap is felt or heard",
+      "Return the arm toward neutral position (externally rotate back to starting position)",
+      "Release the figure-four grip completely",
+      "Allow partner to self-assess shoulder mobility before continuing",
+      "Never release suddenly or allow arm to spring back forcefully"
+    ],
+    "training_restrictions": [
+      "Never spike or jerk the submission - rotation must be smooth and controlled",
+      "Never use competition speed or surprise attacks in training",
+      "Always ensure partner has at least one hand free to tap",
+      "Do not apply while partner is in awkward body position that prevents tapping",
+      "Never combine with weight pressure that restricts breathing while finishing",
+      "Respect immediate taps without testing partner's pain tolerance"
+    ]
+  },
+  "from_positions": [
+    "Knee on Belly",
+    "Side Control"
+  ],
+  "related_submissions": [
+    "Americana",
+    "Far Side Armbar",
+    "Baseball Bat Choke",
+    "Kimura",
+    "Arm Triangle"
+  ],
+  "related_content": [
+    {
+      "name": "Knee on Belly",
+      "relationship": "Starting position providing the pressure platform for this kimura variant"
+    },
+    {
+      "name": "Kimura Trap",
+      "relationship": "Control position reached when opponent defends the initial kimura attempt"
+    },
+    {
+      "name": "Side Control",
+      "relationship": "Alternative finishing position when stepping off KOB to complete the kimura"
+    },
+    {
+      "name": "North-South",
+      "relationship": "Common transition point for finishing the kimura with improved control"
+    },
+    {
+      "name": "Americana",
+      "relationship": "Alternative shoulder lock when kimura grip is unavailable from this position"
+    }
+  ],
+  "outcomes": [
+    {
+      "to": "game-over",
+      "probability": 62,
+      "result": "success"
+    },
+    {
+      "to": "Knee on Belly/Top",
+      "probability": 25,
+      "result": "failure"
+    },
+    {
+      "to": "Closed Guard/Bottom",
+      "probability": 13,
+      "result": "counter"
+    }
+  ],
+  "variations_and_setups": [
+    {
+      "variation_name": "Pressure Bait Kimura",
+      "description": "Maintain heavy KOB pressure until the bottom player pushes on your knee with their far hand. The moment they extend their arm, capture the wrist and secure the figure-four grip while maintaining knee contact.",
+      "when_to_use": "When the bottom player is reactive and consistently pushes against the knee to relieve pressure"
+    },
+    {
+      "variation_name": "Step-Off to North-South Finish",
+      "description": "After securing the figure-four grip from KOB, step your knee off the torso and rotate toward north-south position. This removes the bottom player's bridging power and creates a tighter rotational arc on the shoulder for a higher-percentage finish.",
+      "when_to_use": "When the bottom player has strong bridging ability or when the in-place finish is being defended by straightening the arm"
+    },
+    {
+      "variation_name": "Near-Side Arm Capture",
+      "description": "Instead of attacking the far arm, target the near-side arm when the bottom player reaches across their body to establish an underhook or frame. Drop your weight to pin their elbow and secure the figure-four on the near wrist.",
+      "when_to_use": "When the bottom player's near arm is exposed from reaching for underhooks or defensive frames"
+    }
+  ],
+  "attacker": {
+    "name": "from Knee on Belly Attacker",
+    "description": "Learn to attack the Kimura from Knee on Belly. Step-by-step guide covering grip capture, pressure maintenance, and finishing mechanics from the dominant top position.",
+    "overview": "Attacking the Kimura from Knee on Belly requires understanding how to weaponize positional pressure as a submission setup. The top player uses the crushing diaphragm pressure of KOB to force defensive arm reactions, then captures the exposed limb in a figure-four grip. The elevated hip position provides a mechanical advantage over ground-level kimura entries because gravity assists both the grip capture and the rotational finish. The attacker must balance maintaining enough KOB pressure to provoke reactions while staying light enough to transition into the grip capture without losing position. The finish can be executed in place or by stepping off to north-south, and recognizing which option to use based on the defender's body positioning is what separates high-percentage finishes from failed attempts.",
+    "key_principles": [
+      "Use KOB pressure as the primary submission setup \u2014 the diaphragm pressure forces arm exposure",
+      "Capture the figure-four grip before committing to the finish \u2014 premature rotation without control loses the position",
+      "Pin the opponent's elbow to their body or the mat before applying rotational force on the wrist",
+      "Maintain chest-forward weight distribution during the grip fight to prevent guard recovery",
+      "Recognize when to finish in place versus stepping off to north-south based on opponent's defensive posture",
+      "Control the wrist at the point of capture \u2014 losing wrist control means losing the submission"
+    ],
+    "setup_requirements": [
+      "Established Knee on Belly with knee on solar plexus and base leg posted wide for stability",
+      "Near-side collar grip or cross-face control preventing opponent from turning into you",
+      "Far-side pants or belt grip controlling opponent's hip rotation and preventing guard recovery",
+      "Opponent's far arm exposed or accessible \u2014 either extended from pushing or positioned across their body",
+      "Sufficient base to transition from pressure position to grip capture without losing top control"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Establish heavy KOB pressure",
+        "description": "Drive your knee into the opponent's solar plexus with your weight directed forward through the contact point. Maintain collar and pants grips while keeping your base leg wide. The goal is to create enough respiratory distress to force a defensive arm reaction.",
+        "timing": "Hold pressure for 3-5 seconds until opponent reacts"
+      },
+      {
+        "step_number": 2,
+        "action": "Identify and capture the target arm",
+        "description": "Watch for the opponent's far arm extending to push your knee or reaching across their body. The moment the arm is exposed, release your pants grip and capture their wrist with your far hand, controlling it palm-down against their body or the mat.",
+        "timing": "Immediate \u2014 within 1 second of arm exposure"
+      },
+      {
+        "step_number": 3,
+        "action": "Secure the figure-four grip",
+        "description": "Thread your near hand under the opponent's captured arm and grip your own wrist to complete the figure-four lock. Your forearm should be positioned against the back of their wrist with their elbow bent at approximately ninety degrees. Squeeze your elbows tight to your body.",
+        "timing": "1-2 seconds \u2014 fast grip completion prevents arm extraction"
+      },
+      {
+        "step_number": 4,
+        "action": "Pin the elbow and consolidate control",
+        "description": "Drive the opponent's elbow toward their hip using downward pressure from your figure-four. Their upper arm must be pinned against their torso or the mat. Without elbow control, they can straighten their arm and escape the grip. Use your chest weight to assist the pin.",
+        "timing": "Simultaneous with grip completion"
+      },
+      {
+        "step_number": 5,
+        "action": "Choose finishing position",
+        "description": "Evaluate whether to finish in place or step off to north-south. If the opponent is flat and immobilized, finish in place by rotating the wrist toward the mat. If they are bridging or creating space, step your knee off and rotate toward north-south to eliminate their bridging leverage.",
+        "timing": "Decision within 1-2 seconds of elbow pin"
+      },
+      {
+        "step_number": 6,
+        "action": "Apply controlled rotational pressure",
+        "description": "With the elbow pinned and figure-four secure, slowly rotate the opponent's wrist away from their body in an arc toward their feet. Keep the rotation in the plane of the shoulder joint. Apply pressure progressively, giving the opponent time to tap. The finish comes from rotating the forearm past the plane of the back.",
+        "timing": "3-5 seconds of progressive pressure \u2014 never jerk or spike"
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Opponent grabs their own belt or pants to anchor the arm against rotation",
+        "effectiveness": "High",
+        "your_response": "Peel their grip by driving your knee across their forearm or transition to an Americana by reversing the rotational direction. Alternatively, step to north-south where the angle change weakens their grip anchor.",
+        "targets_outcome": "Knee on Belly/Top"
+      },
+      {
+        "counter": "Opponent straightens their arm to prevent the figure-four lock from closing",
+        "effectiveness": "Medium",
+        "your_response": "Transition to an armbar by swinging your leg over their straightened arm, or re-bend the arm by driving their wrist toward their ear using your body weight. A straight arm is an armbar opportunity.",
+        "targets_outcome": "Knee on Belly/Top"
+      },
+      {
+        "counter": "Opponent bridges and rolls toward you to relieve pressure and pull you into guard",
+        "effectiveness": "Medium",
+        "your_response": "Post your base leg wide and sprawl your hips to prevent the roll. If they succeed in turning, maintain the figure-four grip and transition to a kimura from top position in their guard.",
+        "targets_outcome": "Closed Guard/Bottom"
+      },
+      {
+        "counter": "Opponent shrimps away and recovers knee shield or half guard",
+        "effectiveness": "High",
+        "your_response": "Follow their hip movement and re-establish heavy top pressure. If the kimura grip is still intact, finish from the new position. If the grip is lost, return to side control or KOB and reset the attack.",
+        "targets_outcome": "Knee on Belly/Top"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Releasing KOB pressure too early before securing the figure-four grip",
+        "consequence": "Opponent regains composure and frames effectively, preventing arm capture and allowing guard recovery",
+        "correction": "Maintain knee pressure throughout the grip capture phase \u2014 only reduce pressure after the figure-four is locked and elbow is pinned"
+      },
+      {
+        "error": "Attempting to finish without controlling the opponent's elbow",
+        "consequence": "Opponent straightens their arm and extracts it from the figure-four, losing the submission entirely",
+        "correction": "Always pin the elbow to the torso or mat before applying rotational force \u2014 the elbow pin is the foundation of the kimura finish"
+      },
+      {
+        "error": "Jerking or spiking the rotation instead of applying progressive pressure",
+        "consequence": "Risk of serious shoulder injury to training partner and potential disqualification in competition",
+        "correction": "Apply rotation slowly over 3-5 seconds in training, giving the opponent clear opportunity to tap before the joint reaches its end range"
+      },
+      {
+        "error": "Lifting the opponent's arm upward instead of rotating in the shoulder plane",
+        "consequence": "Reduced mechanical advantage as the opponent can use lat and chest muscles to resist the finish",
+        "correction": "Keep the opponent's elbow pinned to their side and rotate the forearm in an arc toward their feet \u2014 lateral rotation, not vertical lifting"
+      },
+      {
+        "error": "Gripping too high on the opponent's forearm instead of at the wrist",
+        "consequence": "Shorter lever arm reduces rotational torque and makes the submission easier to defend through muscular resistance",
+        "correction": "Control at the wrist for maximum lever length \u2014 your figure-four should press against the back of their wrist joint, not mid-forearm"
+      },
+      {
+        "error": "Losing base during the grip capture transition",
+        "consequence": "Opponent sweeps or recovers guard during the moment of instability when transitioning from pressure to grip attack",
+        "correction": "Keep your base leg posted wide throughout the grip transition and maintain forward chest pressure \u2014 never sit back on your heels during the capture"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Grip Mechanics",
+        "focus": "Figure-four grip capture and elbow pin",
+        "description": "Partner offers their arm from KOB bottom position. Practice capturing the wrist, threading the figure-four, and pinning the elbow against zero resistance. Focus on hand placement, grip tightness, and smooth sequencing. Repeat 20 reps per side."
+      },
+      {
+        "phase": "Phase 2: Pressure-to-Grip Transition",
+        "focus": "Maintaining KOB pressure during arm capture",
+        "description": "Establish full KOB with grips and pressure. Partner pushes against knee at 30% resistance. Practice releasing the pants grip, capturing the arm, and securing the figure-four without losing knee contact or forward pressure. Build to 50% resistance."
+      },
+      {
+        "phase": "Phase 3: Finishing Variations",
+        "focus": "In-place finish versus north-south transition",
+        "description": "From secured figure-four, practice both finishing in place and stepping off to north-south. Partner provides moderate resistance and varied body positions. Develop the ability to read which finish is optimal based on opponent positioning."
+      },
+      {
+        "phase": "Phase 4: Live Chain Drilling",
+        "focus": "Full sequence with counters and transitions",
+        "description": "Start from KOB with partner at 70-80% resistance. Execute the full sequence from pressure bait through grip capture to finish. When partner defends, chain to armbar, Americana, or return to KOB. Develop counter-to-counter awareness."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What anatomical structures does the Kimura from Knee on Belly primarily attack?",
+        "answer": "The Kimura attacks the shoulder joint complex, specifically targeting the rotator cuff muscles (supraspinatus, infraspinatus, teres minor, subscapularis), the glenohumeral ligaments, and the shoulder capsule. The forced internal rotation past the anatomical barrier creates torsional stress on these structures. Secondary stress affects the labrum and bicep tendon. The mechanism of injury is forced internal rotation beyond the shoulder's normal range of motion.",
+        "safety_critical": true
+      },
+      {
+        "question": "Why does the Knee on Belly position provide superior leverage for the Kimura compared to side control?",
+        "answer": "The elevated hip position from KOB places the attacker's center of gravity higher than the defender's shoulder plane, allowing gravity to assist both the grip capture and the rotational finish. The top player's weight drives downward through the figure-four rather than requiring horizontal force generation. This height advantage also makes it harder for the bottom player to bridge effectively because they must lift against the concentrated knee pressure.",
+        "safety_critical": false
+      },
+      {
+        "question": "Your opponent grabs their own belt to anchor their arm against the Kimura \u2014 what are your options?",
+        "answer": "Three primary responses exist. First, peel the grip by driving your knee across their forearm, using skeletal pressure to break their fingers' grip on the belt. Second, maintain the figure-four and step off to north-south where the angle change weakens their grip anchor. Third, redirect the attack to an Americana by reversing the rotational direction, which the belt grip does not defend against. The worst response is to fight the grip directly with arm strength.",
+        "safety_critical": false
+      },
+      {
+        "question": "What is the breaking point indicator that tells you the Kimura is about to cause injury?",
+        "answer": "The critical indicator is when the opponent's forearm passes the plane of their back during rotation. Before this point, the shoulder has natural range of motion and the opponent can still resist. Once the forearm crosses the back plane, the rotator cuff is under maximum torsional load and injury becomes imminent. In training, apply pressure progressively and never rotate past this threshold without a tap. Additional indicators include visible grimacing and involuntary body tensing.",
+        "safety_critical": true
+      },
+      {
+        "question": "Why is elbow control the most critical element of the Kimura finish?",
+        "answer": "The elbow must be pinned to the opponent's torso or the mat because it serves as the fulcrum of the rotational lever. Without elbow control, the opponent can straighten their arm and extract it from the figure-four, or raise their elbow to reduce the effective lever length. Pinning the elbow also prevents the opponent from rolling their shoulder forward to relieve rotational pressure. The kimura fails more often from lost elbow control than from any other single technical error.",
+        "safety_critical": false
+      },
+      {
+        "question": "Your opponent straightens their arm as you attempt to secure the figure-four \u2014 how do you adapt?",
+        "answer": "A straightened arm is an armbar opportunity, not a failed kimura. Immediately transition by swinging your far leg over their extended arm and sitting back for an armbar finish. If the armbar angle is not available, use your body weight to re-bend their arm by driving their wrist toward their ear while threading the figure-four. The opponent's defense to one submission should open another \u2014 straightening against the kimura exposes the armbar.",
+        "safety_critical": false
+      },
+      {
+        "question": "How should you release the Kimura after your training partner taps?",
+        "answer": "Immediately stop all rotational pressure the instant the tap is detected. Reverse the rotation slowly and return the arm toward its neutral starting position. Release the figure-four grip completely and allow your partner to self-assess their shoulder mobility before continuing. Never release suddenly or allow the arm to spring back, as this can cause injury from recoil. The release should be as controlled as the application.",
+        "safety_critical": true
+      },
+      {
+        "question": "What grip adjustments maximize rotational torque during the Kimura finish?",
+        "answer": "Control at the wrist rather than mid-forearm to maximize the lever arm length. Position your figure-four so your forearm presses against the back of their wrist joint. Keep both elbows squeezed tight to your own body to prevent the grip from loosening. During rotation, drive your top hand toward the mat in an arc while your bottom hand pulls upward, creating a rotational couple force. Use your entire forearm as a contact surface against their wrist.",
+        "safety_critical": false
+      },
+      {
+        "question": "When should you step off to north-south instead of finishing the Kimura in place from KOB?",
+        "answer": "Step off to north-south when the opponent has strong bridging ability, when they are actively turning into you and threatening guard recovery, or when they have created enough space that your knee is no longer effectively pinning them. North-south eliminates bridging leverage because you are perpendicular to their body. Finish in place when the opponent is flat, immobilized, and their elbow is solidly pinned \u2014 the in-place finish is faster and maintains KOB points.",
+        "safety_critical": false
+      },
+      {
+        "question": "What is the correct plane of rotation for the Kimura finish?",
+        "answer": "The rotation should occur in the transverse plane of the shoulder \u2014 the forearm rotates laterally in an arc toward the opponent's feet while the elbow stays pinned to their side. This is internal rotation of the shoulder joint. A common error is lifting the arm upward into abduction, which allows the opponent to engage their latissimus dorsi and pectoralis muscles to resist. Keeping the rotation strictly lateral ensures maximum mechanical advantage against the weakest rotational axis.",
+        "safety_critical": false
+      }
+    ]
+  },
+  "defender": {
+    "name": "from Knee on Belly Defender",
+    "description": "Defend the Kimura from Knee on Belly in BJJ. Recognition cues, grip prevention strategies, and escape techniques to avoid the shoulder lock from bottom.",
+    "overview": "Defending the Kimura from Knee on Belly requires addressing two simultaneous threats: the crushing positional pressure and the shoulder lock attack. The most effective defense begins before the grip is captured, by recognizing the setup cues and keeping arms protected. Once the figure-four is locked, defensive options narrow significantly and the priority shifts to preventing the elbow pin and creating enough space to extract the arm or recover guard. The defender must understand that the attacker's primary weapon is the KOB pressure itself \u2014 it forces arm exposure. Therefore, managing the pressure through frames and hip movement is the first line of defense against the kimura, not grip fighting after the capture has occurred.",
+    "key_principles": [
+      "Keep elbows tight to your body at all times under KOB pressure \u2014 arm exposure is the primary vulnerability",
+      "Address the positional pressure first through frames and hip escape before worrying about submission threats",
+      "Recognize grip capture attempts early and retract exposed arms before the figure-four is secured",
+      "If caught, prioritize preventing the elbow pin over fighting the wrist grip \u2014 a pinned elbow is the point of no return",
+      "Use bridging toward the attacker to create slack in the figure-four rather than pulling away",
+      "Maintain grip anchors on your own belt, pants, or lapel to prevent the rotational finish when caught"
+    ],
+    "recognition_cues": [
+      "Attacker releases their far-side pants or belt grip while maintaining KOB \u2014 this frees their hand for wrist capture",
+      "Attacker's eyes and head orient toward your far arm rather than maintaining forward pressure posture",
+      "Attacker begins shifting their weight laterally toward your far side, loading up for the grip transition",
+      "You feel increased knee pressure immediately before the grip attempt \u2014 the attacker drives harder to provoke a push reaction"
+    ],
+    "defensive_options": [
+      {
+        "action": "Elbow retraction and grip prevention",
+        "when_to_use": "Before the figure-four grip is secured \u2014 the moment you feel the attacker's hand on your wrist",
+        "targets_outcome": "Knee on Belly/Top",
+        "if_successful": "Attacker fails to capture the grip and must reset, returning to standard KOB with submission threat neutralized",
+        "risk": "Focusing only on arm retraction without hip movement leaves you under full KOB pressure with no positional improvement"
+      },
+      {
+        "action": "Bridge toward attacker and turn to knees",
+        "when_to_use": "When the figure-four is partially secured but elbow is not yet pinned \u2014 bridge explosively toward the attacker",
+        "targets_outcome": "Knee on Belly/Top",
+        "if_successful": "Creates enough angle to extract the arm from the figure-four or forces the attacker off balance for guard recovery",
+        "risk": "If the attacker maintains grip through the bridge, you may end in a worse position with the kimura still locked"
+      },
+      {
+        "action": "Hip escape and guard recovery",
+        "when_to_use": "When the attacker commits weight to the kimura attempt and reduces KOB pressure \u2014 use their offensive commitment as an escape window",
+        "targets_outcome": "Closed Guard/Bottom",
+        "if_successful": "Recover closed guard or half guard with the attacker's grip broken, returning to a neutral guard position",
+        "risk": "If the attacker maintains the kimura grip during guard recovery, they may finish the submission from inside your guard"
+      },
+      {
+        "action": "Grip anchor defense by grabbing own belt or pants",
+        "when_to_use": "When the figure-four is fully secured and elbow pin is imminent \u2014 grab your own belt or opposite lapel to create a rotational anchor",
+        "targets_outcome": "Knee on Belly/Top",
+        "if_successful": "Prevents the rotational finish and buys time to work other escapes while the attacker attempts to break your anchor",
+        "risk": "This is a stalling defense that delays but does not solve the problem \u2014 the attacker will eventually break the anchor"
+      }
+    ],
+    "escape_paths": [
+      "Bridge toward the attacker and extract arm from the figure-four before the elbow pin is established, then immediately frame and shrimp to recover guard",
+      "Use the attacker's weight commitment to the kimura grip as an opportunity to shrimp away and recover half guard or closed guard",
+      "Roll toward the attacker in the direction of the kimura rotation to relieve shoulder pressure and scramble to turtle position"
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Closed Guard/Bottom",
+        "how": "When the attacker commits their weight and grips to the kimura attempt, shrimp your hips away from the knee pressure and pull them into your closed guard. The grip transition from KOB to kimura creates a window where the attacker's base is compromised."
+      },
+      {
+        "outcome": "Knee on Belly/Top",
+        "how": "Prevent the grip capture entirely through early recognition and arm retraction. Keep elbows tight, do not push against the knee with extended arms, and maintain defensive discipline to neutralize the submission threat."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Pushing against the attacker's knee with extended arms from flat on back",
+        "consequence": "Directly exposes the far arm for figure-four capture \u2014 this is exactly the reaction the attacker is trying to provoke with KOB pressure",
+        "correction": "Keep elbows tight to body and use hip escape movement to relieve pressure rather than arm extension. Frame on the attacker's hip with your elbow, not your hand."
+      },
+      {
+        "error": "Focusing on grip fighting after the figure-four is locked instead of addressing body position",
+        "consequence": "The attacker has mechanical advantage in the grip exchange and will eventually secure the elbow pin while you waste energy",
+        "correction": "Once caught, immediately bridge toward the attacker to create slack and work to extract the entire arm rather than fighting grip-versus-grip"
+      },
+      {
+        "error": "Pulling the captured arm away from the attacker instead of toward them",
+        "consequence": "Pulling away tightens the figure-four lock and assists the attacker's rotational force, accelerating the submission",
+        "correction": "Bridge and turn toward the attacker to create slack in the figure-four. Moving toward the submission reduces the effective rotation angle and creates extraction opportunities."
+      },
+      {
+        "error": "Ignoring the KOB positional escape to focus solely on kimura defense",
+        "consequence": "Even if you survive the kimura attempt, you remain in a terrible position under heavy pressure with depleted energy",
+        "correction": "Integrate positional escape with submission defense \u2014 every kimura defense should simultaneously advance your guard recovery"
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the earliest recognition cue that a Kimura from KOB is being set up?",
+        "answer": "The earliest cue is the attacker releasing their far-side pants or belt grip while maintaining KOB pressure. This frees their hand for the wrist capture. Additional cues include the attacker's eyes shifting toward your far arm and increased knee pressure designed to provoke a pushing reaction. Recognizing the setup before the grip is captured is the highest-percentage defense because prevention is far easier than escape.",
+        "safety_critical": false
+      },
+      {
+        "question": "When should you tap to the Kimura from Knee on Belly?",
+        "answer": "Tap immediately when you feel rotational pressure on your shoulder that you cannot reverse through technique. Do not wait for pain \u2014 once your forearm passes the plane of your back, injury is imminent. In training, tap early and often to protect your shoulder. Use verbal taps, hand taps on the attacker or mat, or foot taps. There is no shame in tapping early \u2014 shoulders do not recover quickly from rotator cuff injuries.",
+        "safety_critical": true
+      },
+      {
+        "question": "Why is pushing the knee with extended arms the worst defensive response to KOB pressure?",
+        "answer": "Extended arms are the exact target the attacker needs for the kimura. Pushing against the knee with hands exposes the far arm for figure-four capture and creates a straight-line path for the attacker's grip. This response also wastes energy without creating escape angles because it fights pressure vertically rather than creating lateral hip movement. The correct response is to frame with elbows tight while shrimping.",
+        "safety_critical": false
+      },
+      {
+        "question": "What direction should you bridge when caught in the Kimura from KOB?",
+        "answer": "Bridge toward the attacker, not away from them. Bridging toward the attacker creates slack in the figure-four grip and reduces the effective rotational angle on your shoulder. Bridging away tightens the lock and actually assists the attacker's finishing mechanics. This is counterintuitive but mechanically sound \u2014 moving toward the source of the rotation reduces its effectiveness and creates space to extract your arm or scramble.",
+        "safety_critical": false
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Recognition and Prevention",
+        "focus": "Identifying setup cues and maintaining arm protection",
+        "description": "Partner establishes KOB and telegraphs kimura setups at slow speed. Practice recognizing the grip release cue and immediately retracting arms while initiating hip escape movement. Build pattern recognition for the attacker's weight shifts."
+      },
+      {
+        "phase": "Phase 2: Grip Escape Mechanics",
+        "focus": "Extracting arm from figure-four grip",
+        "description": "Partner secures the figure-four at 30% control. Practice bridging toward the attacker, creating slack, and extracting the arm. Increase resistance progressively. Focus on the counterintuitive direction of movement \u2014 toward the attacker, not away."
+      },
+      {
+        "phase": "Phase 3: Integrated Defense and Escape",
+        "focus": "Combining kimura defense with positional escape",
+        "description": "Partner attacks kimura from KOB at 70% intensity. Practice simultaneously defending the submission while executing guard recovery sequences. Every defensive action should advance your positional escape. Chain defense into guard recovery."
+      },
+      {
+        "phase": "Phase 4: Live Situational Sparring",
+        "focus": "Full resistance defense from KOB bottom",
+        "description": "Start from KOB bottom with partner attacking kimura at full competition pace. Develop automatic defensive reactions and escape timing under pressure. Focus on survival composure and technical execution under respiratory distress."
+      }
+    ]
+  }
+}

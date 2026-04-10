@@ -1,0 +1,538 @@
+{
+  "name": "Kimura from Guard",
+  "description": "Master the Kimura from Guard in BJJ. Complete guide covering setup, execution, and finishing mechanics from closed guard with safety protocols and defensive strategies.",
+  "tags": [
+    "bjj",
+    "submission",
+    "kimura",
+    "joint-lock",
+    "shoulder-lock",
+    "closed-guard",
+    "guard-attacks"
+  ],
+  "submission_category": "Joint Lock",
+  "submission_type": "Shoulder Lock",
+  "target_area": "Shoulder joint and rotator cuff",
+  "starting_position": "Closed Guard",
+  "from_position": "Closed Guard/Bottom",
+  "success_rate": 58,
+  "overview": "The Kimura from Guard is a fundamental shoulder lock that can be applied from multiple guard positions, with the closed guard variation being one of the most reliable entries. This submission targets the shoulder joint and surrounding structures through a figure-four grip configuration, creating rotational pressure that can damage the rotator cuff, shoulder capsule, and associated ligaments if applied forcefully. The technique's versatility lies in its dual nature as both a finishing submission and a powerful control position that opens pathways to sweeps, back takes, and other submissions.\n\nFrom the bottom position, the Kimura provides exceptional control over your opponent's posture and base, allowing you to dictate the pace of the engagement while maintaining offensive threats. The figure-four grip configuration creates a mechanical advantage that allows smaller practitioners to control and submit larger opponents through proper technique rather than raw strength. Understanding the Kimura from guard is essential for developing a complete bottom game, as it integrates seamlessly with guard retention, sweeping systems, and transitional attacks.\n\nThe position operates on the principle that the figure-four grip isolates the shoulder joint by fixing the elbow as a fulcrum while applying rotational force through wrist manipulation. When combined with a perpendicular hip angle, this creates a mechanical system where the attacker's entire body generates torque against a single joint. The defender faces a cascading dilemma: defending the submission weakens their base for sweeps, defending sweeps exposes the arm for reattack, and rolling to escape gives up the back. This interconnected threat network makes the Kimura from guard one of the most strategically rich positions in the bottom player's arsenal.",
+  "safety_considerations": {
+    "injury_risks": [
+      {
+        "injury": "Rotator cuff tear (supraspinatus, infraspinatus, teres minor)",
+        "severity": "High",
+        "recovery_time": "3-6 months with physical therapy, potential surgery"
+      },
+      {
+        "injury": "Shoulder capsule damage and labral tears",
+        "severity": "High",
+        "recovery_time": "4-8 months, often requires surgical repair"
+      },
+      {
+        "injury": "Posterior shoulder dislocation",
+        "severity": "CRITICAL",
+        "recovery_time": "6-12 months including surgery and rehabilitation"
+      },
+      {
+        "injury": "Spiral fracture of humerus (rare but catastrophic)",
+        "severity": "CRITICAL",
+        "recovery_time": "6-12+ months with surgical fixation required"
+      }
+    ],
+    "application_speed": "SLOW and progressive - 3-5 seconds minimum application time, with constant awareness of partner's tap",
+    "tap_signals": [
+      "Verbal tap (spoken word or sound)",
+      "Physical hand tap on opponent or mat",
+      "Physical foot tap on mat or opponent",
+      "Any distress signal or unusual vocalization",
+      "Rapid repeated tapping motions"
+    ],
+    "release_protocol": [
+      "Immediately stop all rotational pressure on the shoulder",
+      "Release the figure-four grip while maintaining gentle arm support",
+      "Allow partner to control their arm's return to neutral position",
+      "Do not suddenly release the arm - guide it back safely",
+      "Check with partner before resuming training"
+    ],
+    "training_restrictions": [
+      "Never spike or jerk the submission - smooth, progressive pressure only",
+      "Never use competition speed or intensity during drilling",
+      "Never continue applying pressure after feeling resistance pop or crack",
+      "Always allow clear tap access with the free hand",
+      "Never apply Kimura during warm-up or cooldown periods",
+      "Avoid training Kimuras with injured shoulders or recent shoulder injuries"
+    ]
+  },
+  "outcomes": [
+    {
+      "to": "game-over",
+      "probability": 60,
+      "result": "success"
+    },
+    {
+      "to": "Closed Guard/Bottom",
+      "probability": 25,
+      "result": "failure"
+    },
+    {
+      "to": "Side Control/Top",
+      "probability": 15,
+      "result": "counter"
+    }
+  ],
+  "from_positions": [
+    "Closed Guard",
+    "Butterfly Guard",
+    "Half Guard",
+    "Open Guard",
+    "Spider Guard",
+    "De La Riva Guard",
+    "Rubber Guard",
+    "Lasso Guard"
+  ],
+  "related_submissions": [
+    "Kimura",
+    "Monoplata",
+    "Arm Triangle",
+    "Gogoplata",
+    "High Elbow Guillotine",
+    "Triangle Choke",
+    "Flying Armbar",
+    "Omoplata",
+    "Americana",
+    "Baratoplata",
+    "Reverse Kimura"
+  ],
+  "related_content": [
+    {
+      "name": "Kimura Trap",
+      "relationship": "Control position that enables this submission and multiple transitions"
+    },
+    {
+      "name": "Kimura to Back Take",
+      "relationship": "Primary transition when opponent defends by rolling forward"
+    },
+    {
+      "name": "Hip Bump Sweep",
+      "relationship": "Sweep that creates Kimura opportunity when opponent posts to defend"
+    },
+    {
+      "name": "Triangle Choke",
+      "relationship": "Alternative submission when opponent defends Kimura by pulling arm back"
+    },
+    {
+      "name": "Omoplata",
+      "relationship": "Related shoulder attack that can be chained with Kimura attempts"
+    },
+    {
+      "name": "Closed Guard",
+      "relationship": "Primary starting position for this submission variation"
+    },
+    {
+      "name": "Flying Armbar",
+      "relationship": "Alternative armbar finish when opponent straightens arm defending Kimura"
+    },
+    {
+      "name": "Butterfly Guard",
+      "relationship": "Alternative guard position for Kimura application with dynamic hooks"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Related guard position where Kimura can be effectively applied"
+    },
+    {
+      "name": "Back Control",
+      "relationship": "Common transition destination when opponent rolls to defend Kimura"
+    }
+  ],
+  "attacker": {
+    "name": "from Guard Attacker",
+    "description": "How to execute Kimura from Guard in BJJ. Attacking perspective with setup, execution, and finishing mechanics.",
+    "overview": "The Kimura from Guard is a fundamental shoulder lock that can be applied from multiple guard positions, with the closed guard variation being one of the most reliable entries. This submission targets the shoulder joint and surrounding structures through a figure-four grip configuration, creating rotational pressure that can damage the rotator cuff, shoulder capsule, and associated ligaments if applied forcefully. The technique's versatility lies in its dual nature as both a finishing submission and a powerful control position that opens pathways to sweeps, back takes, and other submissions. From the bottom position, the Kimura provides exceptional control over your opponent's posture and base, allowing you to dictate the pace of the engagement while maintaining offensive threats. The figure-four grip configuration creates a mechanical advantage that allows smaller practitioners to control and submit larger opponents through proper technique rather than raw strength. Understanding the Kimura from guard is essential for developing a complete bottom game, as it integrates seamlessly with guard retention, sweeping systems, and transitional attacks.",
+    "key_principles": [
+      "**Figure-Four Grip Integrity**: The thumb-to-thumb connection creates the mechanical lock; maintain this connection throughout the entire sequence without allowing gaps or looseness in the grip structure",
+      "**Hip Connection and Control**: Keep your hips close to opponent's body to prevent them from rolling or spinning out; distance equals escape opportunity in shoulder lock mechanics",
+      "**Elbow Isolation**: Pin opponent's elbow to your chest or body to create a fixed fulcrum point; the shoulder lock requires a stable pivot point to generate rotational pressure",
+      "**Rotational Direction**: Apply pressure by rotating the arm away from opponent's back (externally rotating the shoulder); internal rotation reduces effectiveness and may allow escape",
+      "**Progressive Pressure**: Gradually increase rotational force over 3-5 seconds minimum; sudden jerking movements risk catastrophic injury and prevent partner from tapping safely",
+      "**Posture Integration**: Use the Kimura grip to break opponent's posture and control their base before attempting the finish; the grip itself is a powerful control position",
+      "**Transition Awareness**: Recognize when opponent defends effectively and transition to sweeps, back takes, or alternative submissions rather than forcing a low-percentage finish"
+    ],
+    "setup_requirements": [
+      "Establish closed guard with legs locked around opponent's waist, creating fundamental control structure",
+      "Break opponent's posture forward or secure an underhook/overhook control position to access the target arm",
+      "Isolate one of opponent's arms by controlling the wrist while preventing them from establishing strong defensive frames",
+      "Create the proper angle by shifting your hips perpendicular to opponent's body (approximately 90 degrees)",
+      "Secure a deep overhook or grip on opponent's wrist before attempting the figure-four configuration",
+      "Ensure opponent's elbow is positioned close to your centerline, not extended far from your body",
+      "Maintain guard closure or establish strong hip connection to prevent opponent from creating distance"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Control opponent's wrist and break posture",
+        "description": "From closed guard, use your right hand to grip opponent's left wrist (palm-to-palm or four-finger grip). Simultaneously pull their wrist across your body while using your legs to break their posture forward. This creates the initial off-balancing necessary for arm isolation.",
+        "timing": "0-2 seconds - Initial control establishment"
+      },
+      {
+        "step_number": 2,
+        "action": "Thread your arm and establish overhook",
+        "description": "Thread your left arm over and around opponent's left arm, moving from outside to inside. Your left forearm should pass over their bicep and come underneath their forearm. This overhook position is crucial for controlling the arm's elevation and preventing early escape attempts.",
+        "timing": "2-4 seconds - Arm threading phase"
+      },
+      {
+        "step_number": 3,
+        "action": "Secure figure-four grip configuration",
+        "description": "Grab your own right wrist with your left hand, creating the characteristic figure-four shape. Ensure the grip is tight with no gaps - your thumb should connect with your thumb or your fingers should overlap significantly. This grip creates the mechanical lock that generates shoulder pressure.",
+        "timing": "4-6 seconds - Grip establishment"
+      },
+      {
+        "step_number": 4,
+        "action": "Hip escape and angle creation",
+        "description": "Open your guard and perform a hip escape (shrimp) to your right side, creating a perpendicular angle to opponent's body. Your shoulders should be approximately 90 degrees to their shoulders. This angle is essential for proper leverage and prevents opponent from simply rolling through the submission.",
+        "timing": "6-8 seconds - Positional adjustment"
+      },
+      {
+        "step_number": 5,
+        "action": "Secure hip connection and arm positioning",
+        "description": "Bring opponent's elbow tight to your chest while placing your right leg over their back or shoulder. Ensure their elbow is pinned to your centerline. Your left leg should hook under their body or maintain connection to prevent them from creating space. The elbow must remain stationary as you prepare to apply rotational pressure.",
+        "timing": "8-10 seconds - Final position stabilization"
+      },
+      {
+        "step_number": 6,
+        "action": "Apply controlled rotational pressure",
+        "description": "Keeping the elbow fixed to your chest, slowly rotate opponent's wrist toward their head and away from their back (external shoulder rotation). Your hands should move in a circular arc while the elbow stays stationary. Apply pressure progressively over 3-5 seconds, constantly monitoring for the tap. The shoulder will reach its limit as you increase rotation past 90 degrees.",
+        "timing": "10-15 seconds - Submission application"
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Grabbing their own belt, gi, or pants to prevent figure-four completion",
+        "effectiveness": "High",
+        "your_response": "Use your body weight to pry their defensive grip loose, or transition to triangle choke, omoplata, or hip bump sweep while maintaining wrist control. The grip itself weakens their base for sweeping.",
+        "targets_outcome": "Closed Guard/Bottom"
+      },
+      {
+        "counter": "Rolling forward over their trapped shoulder to relieve pressure",
+        "effectiveness": "Medium",
+        "your_response": "Follow the roll and transition to mounted Kimura or take the back during their roll attempt. Alternatively, extend your legs and maintain the angle to prevent the roll from completing, then reapply pressure.",
+        "targets_outcome": "Closed Guard/Bottom"
+      },
+      {
+        "counter": "Posturing up and creating distance to pull the arm free",
+        "effectiveness": "High",
+        "your_response": "Use your legs to pull them back down while maintaining the figure-four grip. If they create significant distance, transition to hip bump sweep or use the Kimura grip to off-balance them forward into alternative attacks.",
+        "targets_outcome": "Side Control/Top"
+      },
+      {
+        "counter": "Turning their thumb down (internal rotation) to reduce shoulder pressure",
+        "effectiveness": "Medium",
+        "your_response": "Increase your grip control on their wrist and use your body position to prevent the internal rotation. If they succeed, transition to straight armbar or adjust your angle to reestablish external rotation leverage.",
+        "targets_outcome": "Closed Guard/Bottom"
+      },
+      {
+        "counter": "Stacking forward and driving their shoulder toward the mat",
+        "effectiveness": "Low",
+        "your_response": "Use the stack momentum to sweep them over to side control or mount while maintaining the Kimura grip. The forward stack actually helps you execute a reversal if you follow their momentum.",
+        "targets_outcome": "Side Control/Top"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Attempting the finish without proper angle (remaining square to opponent)",
+        "consequence": "Opponent easily rolls out or escapes by spinning their body; no effective shoulder pressure is created",
+        "correction": "Always hip escape to create 90-degree angle before applying rotational pressure. Your shoulders must be perpendicular to theirs."
+      },
+      {
+        "error": "Releasing guard closure too early before securing proper controls",
+        "consequence": "Opponent creates distance and pulls their arm free before figure-four is established",
+        "correction": "Maintain guard closure until figure-four grip is secure and hip position is established. Only open guard when all control points are in place."
+      },
+      {
+        "error": "Jerking or spiking the submission with explosive, sudden force",
+        "consequence": "Catastrophic shoulder injury including rotator cuff tears, dislocations, or spiral humerus fractures",
+        "correction": "ALWAYS apply progressive, smooth pressure over 3-5 seconds minimum. Never use sudden jerking motions, especially in training."
+      },
+      {
+        "error": "Allowing opponent's elbow to drift away from your centerline",
+        "consequence": "Loss of leverage and control; opponent can straighten their arm and escape the submission",
+        "correction": "Pin the elbow tight to your chest throughout the entire sequence. The elbow is your fixed fulcrum point for creating rotational pressure."
+      },
+      {
+        "error": "Failing to control opponent's free arm during setup",
+        "consequence": "Opponent uses free arm to establish frames, push your hips away, or defend their trapped arm",
+        "correction": "Use your legs to control their free arm or torso, preventing effective frames. Maintain constant pressure with your guard to limit their mobility."
+      },
+      {
+        "error": "Continuing to apply pressure when feeling or hearing joint popping sounds",
+        "consequence": "Severe structural damage to shoulder complex, potential permanent injury to training partner",
+        "correction": "Immediately stop all pressure at first sign of unusual resistance, popping, or cracking. Release the submission and check with partner."
+      },
+      {
+        "error": "Using Kimura grip without understanding transition options when finish is unavailable",
+        "consequence": "Stalling in position without progressing, wasting energy, and allowing opponent to escape",
+        "correction": "Learn the Kimura trap system: transitions to sweeps, back takes, armbars, and triangles. The grip is a control position, not just a submission."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Grip Mechanics and Positioning",
+        "focus": "Figure-four grip establishment and hip escape angle",
+        "description": "Drill the grip sequence in isolation: wrist control, arm threading, figure-four lock. Partner remains compliant while you practice hip escaping to the perpendicular angle with elbow pinned to centerline. Perform 30 repetitions per side focusing on smooth sequencing rather than speed. Build muscle memory for the grip-to-angle transition before adding any resistance."
+      },
+      {
+        "phase": "Phase 2: Controlled Finishing Mechanics",
+        "focus": "Progressive pressure application and tap recognition",
+        "description": "With figure-four secured and angle established, practice the finishing rotation at 30-50% speed against a compliant partner. Focus on maintaining elbow connection to centerline while applying smooth rotational pressure. Partner taps at various stages to train immediate release response. Develop sensitivity to the difference between muscular resistance and structural limit. Minimum 20 repetitions emphasizing safety protocol."
+      },
+      {
+        "phase": "Phase 3: Entry Integration and Counter Response",
+        "focus": "Combining setup with finish against progressive resistance",
+        "description": "Partner provides 50-70% resistance during setup phase, defending wrist control and posture breaks. Practice multiple entry methods: direct wrist control, overhook entry, post-sweep capture. When partner defends the finish by gripping their belt or straightening the arm, drill transition to hip bump sweep, triangle, or back take. Build the complete decision tree from initial grip to finish or transition."
+      },
+      {
+        "phase": "Phase 4: Live Positional Sparring",
+        "focus": "Full application under realistic conditions",
+        "description": "Positional sparring starting from closed guard with both practitioners at 80-100% intensity. Attacker scores for submission finish, successful sweep using Kimura grip, or back take from Kimura. Defender scores for escaping to neutral or passing guard. 3-minute rounds with reset after each score. Develops timing, grip fighting under pressure, and real-time decision-making between finishing and transitioning."
+      },
+      {
+        "phase": "Phase 5: System Integration",
+        "focus": "Kimura trap chains and competition application",
+        "description": "Chain the Kimura from guard with the complete offensive guard system: hip bump sweep fails, opponent posts, capture Kimura; Kimura defended, transition to triangle; triangle defended, return to Kimura. Practice reading which transition is available based on opponent's defensive reaction. Add competition timing pressure with 5-minute rounds where you must find and finish the Kimura or its transitions."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the minimum safe application time for a Kimura shoulder lock during training, and why is this critical?",
+        "answer": "The minimum safe application time is 3-5 seconds of progressive, smooth pressure. This is critical because shoulder joints have multiple structures (rotator cuff, labrum, capsule, ligaments) that can be catastrophically damaged by sudden force. Gradual pressure allows your training partner to recognize the danger and tap before injury occurs, whereas explosive application can cause permanent damage before they can signal submission. In training, safety always supersedes finishing the submission quickly.",
+        "safety_critical": true
+      },
+      {
+        "question": "Why must you create a 90-degree angle to your opponent before applying rotational pressure in the Kimura from guard?",
+        "answer": "The perpendicular angle is essential because it prevents opponent from simply rolling forward through the submission to escape. When you remain square to them, they can follow the direction of pressure and spin out safely. The 90-degree angle creates a mechanical disadvantage for their escape while maximizing your leverage for applying rotational pressure to the shoulder joint. Additionally, this angle allows you to use your entire body and leg positioning to prevent their movement while keeping their elbow fixed to your centerline.",
+        "safety_critical": false
+      },
+      {
+        "question": "What are three immediate actions you must take when your training partner taps to a Kimura?",
+        "answer": "First, immediately stop all rotational pressure on the shoulder - cease the finishing motion completely. Second, release the figure-four grip while maintaining gentle support of their arm to prevent sudden uncontrolled movement. Third, allow your partner to control their own arm's return to neutral position rather than quickly releasing it, as sudden release can cause secondary injury to the stressed joint structures. Finally, verbally check with your partner before resuming any training activity to ensure they are okay.",
+        "safety_critical": true
+      },
+      {
+        "question": "Explain why the elbow must remain pinned to your centerline during Kimura application, and what happens if it drifts away?",
+        "answer": "The elbow pinned to your centerline serves as the fixed fulcrum point for creating rotational leverage on the shoulder joint. When the elbow is stable against your chest, rotating their wrist creates pure shoulder rotation pressure with maximum mechanical advantage. If the elbow drifts away from your body, opponent can straighten their arm, distributing pressure along the entire arm length rather than concentrating it at the shoulder. This eliminates your leverage and allows easy escape. The stationary elbow is what transforms wrist rotation into effective shoulder lock pressure.",
+        "safety_critical": false
+      },
+      {
+        "question": "When opponent grabs their own gi or belt to prevent the figure-four grip, what are three effective tactical responses?",
+        "answer": "First, recognize that their defensive grip significantly weakens their base and posture, making sweeps highly effective - execute hip bump sweep, scissor sweep, or other guard sweeps. Second, transition to alternative submissions that capitalize on their compromised structure, such as triangle choke or omoplata, while maintaining wrist control. Third, use your body weight and positioning to methodically break their defensive grip by creating angles that make holding their own gi mechanically disadvantageous. The key principle is that forcing the finish against strong defense is lower percentage than transitioning to attacks that their defense actually facilitates.",
+        "safety_critical": false
+      },
+      {
+        "question": "What are the primary anatomical structures at risk during Kimura application, and what are typical recovery times if damaged?",
+        "answer": "The primary structures at risk include: the rotator cuff muscles (supraspinatus, infraspinatus, teres minor) with tears requiring 3-6 months recovery and potentially surgery; the shoulder capsule and labrum with damage requiring 4-8 months including possible surgical repair; posterior shoulder dislocation (catastrophic injury) requiring 6-12 months with surgery; and in extreme cases, spiral fracture of the humerus requiring 6-12+ months with surgical fixation. These extended recovery times emphasize why controlled, progressive application is absolutely mandatory in training environments. Competition intensity is never appropriate during drilling or regular sparring.",
+        "safety_critical": true
+      },
+      {
+        "question": "Describe the Kimura trap concept and how it transforms a defended submission into offensive opportunities?",
+        "answer": "The Kimura trap recognizes that the figure-four grip itself is an extremely powerful control position that enables multiple attacking sequences beyond just the shoulder lock finish. When opponent defends the submission by rolling forward, you maintain the grip and take their back. When they defend by sitting up or posturing, you use the grip to execute sweeps to top position. When they turn into the lock, you can transition to armbars or other joint locks. The trap philosophy means you never lose the Kimura - you either finish it, sweep with it, take the back with it, or transition to other submissions from it. This makes the Kimura one of the most versatile control positions in BJJ.",
+        "safety_critical": false
+      },
+      {
+        "question": "Your opponent begins to posture up while you have a partially secured Kimura grip - what adjustment prevents escape and maintains offensive pressure?",
+        "answer": "When opponent postures, immediately use your legs to break their posture by pulling them forward with your guard closure or hooking their hips. Simultaneously, secure your hip escape angle by shrimping perpendicular to their body. If they continue posturing despite leg pressure, transition to hip bump sweep using their elevated posture against them - the Kimura grip provides excellent control during the sweep motion. Alternatively, if they create significant space, shoot your leg over their shoulder to maintain connection and consider transitioning to triangle or omoplata depending on arm position. The key is never allowing them to fully establish posture while maintaining figure-four grip integrity.",
+        "safety_critical": false
+      },
+      {
+        "question": "What specific grip adjustments maximize finishing pressure when the opponent's wrist begins slipping from your control during the final rotation?",
+        "answer": "When grip begins slipping, immediately reinforce by switching from wrist-on-wrist to a deeper four-finger grip around their wrist with your top hand, overlapping your fingers. Your bottom hand should grip your own wrist more deeply, creating a tighter figure-four configuration. Consider adjusting your elbow position to clamp more tightly against your ribs, creating additional friction. If slipping continues, you may need to pause the rotation, re-establish a secure grip position, then resume pressure rather than forcing through with compromised control. A lost grip during maximum rotation risks sudden release injuries to both practitioners.",
+        "safety_critical": true
+      },
+      {
+        "question": "At what point during Kimura application does the shoulder reach the point of no escape, and what indicators tell you the submission is locked?",
+        "answer": "The point of no escape occurs when you have achieved: elbow pinned to centerline with no space for straightening, perpendicular hip angle established preventing roll-through, figure-four grip secured with no gaps, and rotation begun past 45 degrees toward their head. Physical indicators of a locked submission include feeling significant resistance increase in the shoulder joint, opponent's body beginning to rotate involuntarily following their arm, visible tension in their shoulder and neck muscles, and their free hand frantically searching for tap or escape rather than defending the grip. Once past approximately 60 degrees of external rotation with proper elbow position, escape becomes extremely difficult without accepting significant shoulder damage.",
+        "safety_critical": false
+      },
+      {
+        "question": "How do you distinguish between productive resistance and dangerous structural failure during Kimura application?",
+        "answer": "Productive resistance feels like consistent muscular tension opposing your rotation - the shoulder progressively gives way under sustained pressure as muscles fatigue. Dangerous structural failure presents as sudden changes: unexpected pops, clicks, or cracking sounds; sudden reduction in resistance where there was significant resistance before; opponent's body language shifting from active defense to passive acceptance or panic; any grinding sensations transmitted through the grip. If you experience any sudden changes in resistance quality, immediately stop all pressure and check with your partner. Progressive muscle fatigue is normal; sudden mechanical changes indicate potential injury in progress.",
+        "safety_critical": true
+      },
+      {
+        "question": "When using the Kimura from guard in competition, what timing and pressure considerations differ from training application?",
+        "answer": "In competition, you may apply faster initial control and positioning to prevent defensive reactions, but the final rotational pressure should still be progressive to allow your opponent opportunity to tap. Competition finishing focuses on rapid grip establishment and angle creation (within 2-3 seconds) followed by controlled but determined pressure application. Key differences include: accepting that opponent will fight harder requiring stronger grip control, being prepared to transition immediately if they defend rather than forcing, and understanding that referees will stop the match if tap is not given but injury appears imminent. Even in competition, sudden jerking application is unnecessary and dangerous - controlled pressure with committed intent achieves the finish while maintaining safety standards.",
+        "safety_critical": false
+      }
+    ]
+  },
+  "defender": {
+    "name": "from Guard Defender",
+    "description": "How to defend against Kimura from Guard in BJJ. Recognition, escape paths, and defensive strategies.",
+    "overview": "Defending the Kimura from guard requires understanding that the attack progresses through distinct phases, each offering different defensive windows with decreasing probability of success. The defender (top player in closed guard) must recognize early warning signs before the figure-four grip is secured, as defense becomes exponentially more difficult once the attacker establishes the full mechanical lock with a perpendicular hip angle. Early recognition and immediate posture recovery represent the highest-percentage defensive strategy.\n\nThe Kimura defense hierarchy follows a clear priority sequence: first, prevent the grip from being established through posture maintenance and arm positioning; second, if the grip is partially secured, break it before the attacker can create the perpendicular angle; third, if the full position is locked, address the elbow pin and rotational pressure through specific escape mechanics. Each phase requires different technical responses, and attempting late-phase defenses when early-phase options are available wastes energy and increases injury risk.\n\nA critical defensive principle is recognizing that the Kimura grip creates a control position beyond just the submission threat. Even if you successfully defend the shoulder lock finish, the attacker can use the grip to sweep you, take your back, or transition to other submissions. Effective defense therefore requires not just surviving the immediate submission but actively working to break the grip entirely and recover your posture and base. The defender must balance urgency in escaping with the awareness that panicked, explosive movements can accelerate shoulder damage if the submission is partially locked.",
+    "key_principles": [
+      "**Posture First**: Maintaining strong upright posture with hands on opponent's hips prevents the initial wrist control and arm isolation that begins the Kimura sequence; posture is your primary defensive layer",
+      "**Elbow Discipline**: Keep elbows tight to your body and never allow your arm to extend away from your centerline; an isolated arm with space between elbow and ribs is the primary entry point for Kimura attacks",
+      "**Immediate Grip Prevention**: The moment you feel your wrist being controlled or an overhook being threaded, aggressively strip the grip before the figure-four is completed; seconds of delay make defense exponentially harder",
+      "**Stack and Compress**: When the Kimura grip is secured, drive your weight forward and stack the attacker to compress their hip escape angle; without the perpendicular angle, the submission loses most of its mechanical power",
+      "**Arm Straightening Priority**: If caught in the figure-four, your immediate priority is straightening your trapped arm by driving it toward the mat; a straight arm cannot be rotated effectively at the shoulder",
+      "**Grip the Attacker's Body**: Grab your own thigh, belt, or the attacker's body to create a defensive anchor that prevents the figure-four from generating rotational leverage; use your entire body as a counterweight",
+      "**Tap Early When Caught**: If the perpendicular angle is established, your elbow is pinned, and rotation has begun past 45 degrees, the submission is mechanically locked; tap immediately rather than risk catastrophic shoulder injury"
+    ],
+    "recognition_cues": [
+      "Opponent grabs your wrist with one hand while simultaneously pulling it across their body toward their opposite hip - this is the initial arm isolation that precedes the figure-four grip",
+      "Opponent threads their arm over and around your arm creating an overhook position while maintaining wrist control - the overhook is the precursor to establishing the figure-four configuration",
+      "Opponent begins hip escaping to create an angle perpendicular to your body after securing arm control - the angle change signals imminent submission application and represents the last high-percentage defensive window",
+      "You feel your posture being broken forward while one arm is being controlled and separated from your body - combined posture breaking with arm isolation indicates Kimura setup in progress",
+      "Opponent opens their guard while maintaining strong grip on your arm and shifting their hips laterally - guard opening with maintained arm control means they are transitioning from control phase to finishing phase"
+    ],
+    "defensive_options": [
+      {
+        "action": "Posture recovery and arm extraction - drive hips back, straighten spine, and pull trapped arm free before figure-four is completed",
+        "when_to_use": "Early phase defense when opponent has wrist control but has not yet completed the figure-four grip; highest percentage window for escape",
+        "targets_outcome": "Closed Guard/Bottom",
+        "if_successful": "Return to standard closed guard top position with posture restored and no submission threat",
+        "risk": "Low risk if executed early; attempting arm extraction after figure-four is locked may expose elbow to additional leverage"
+      },
+      {
+        "action": "Stack and drive forward - press your weight forward into opponent's chest while clasping your hands together or grabbing your own thigh to prevent rotation",
+        "when_to_use": "Mid-phase defense when figure-four grip is partially or fully established but opponent has not yet created the perpendicular hip angle",
+        "targets_outcome": "Closed Guard/Bottom",
+        "if_successful": "Neutralize the angle needed for finishing pressure and create opportunity to break the grip through forward pressure and weight",
+        "risk": "Medium risk; if you drive forward without controlling your arm position, opponent may use your momentum to sweep to mount while maintaining Kimura grip"
+      },
+      {
+        "action": "Roll through and posture - roll forward over the trapped shoulder in the direction of the submission pressure to relieve rotational stress, then immediately establish top position",
+        "when_to_use": "Late-phase emergency defense when figure-four is locked and angle is established but rotation has not yet passed the critical 45-degree threshold",
+        "targets_outcome": "Side Control/Top",
+        "if_successful": "Relieve shoulder pressure through the roll and potentially end up in top position; however, opponent may follow the roll to take the back",
+        "risk": "High risk; if opponent follows the roll they achieve back control with Kimura grip intact, and the roll itself may accelerate shoulder damage if timed poorly"
+      },
+      {
+        "action": "Stand up in base and create distance - post your free hand, establish base, and stand to break the closed guard and create distance that compromises the Kimura angle",
+        "when_to_use": "When opponent's guard is open or partially open during the Kimura setup; standing changes the leverage dynamics and can force grip release",
+        "targets_outcome": "Side Control/Top",
+        "if_successful": "Break free from guard entirely and establish passing position with submission threat neutralized",
+        "risk": "Medium risk; standing with one arm controlled leaves you vulnerable to sweeps and the opponent may transition to alternative attacks during your stand-up"
+      }
+    ],
+    "escape_paths": [
+      "Strip the figure-four grip by driving your trapped hand toward the mat while using your free hand to peel opponent's top gripping hand off your wrist, then immediately recover posture with both hands on their hips",
+      "Grab your own thigh or belt with the trapped hand to create a defensive anchor, then drive your weight forward stacking the opponent flat while working to peel their grip using your free hand and body pressure",
+      "Execute a forward roll over the trapped shoulder to relieve rotational pressure, then immediately scramble to establish top position before opponent can secure back control",
+      "Stand up in base while maintaining defensive grip on your own body, using the elevation change to disrupt the angle and create conditions for grip breaking"
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Closed Guard/Bottom",
+        "how": "Recover posture and strip the Kimura grip early in the attack sequence before the figure-four is fully established, returning to standard closed guard top position with no immediate submission threat"
+      },
+      {
+        "outcome": "Side Control/Top",
+        "how": "Use the forward roll escape to relieve shoulder pressure and scramble past the guard, or stand and break free from the guard entirely to establish a dominant passing position above the attacker"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Allowing posture to break without immediate recovery, giving opponent time to isolate the arm and establish the figure-four grip",
+        "consequence": "Once posture is broken and arm is isolated, the attacker controls the entire submission sequence; defensive options decrease dramatically with each second of delay",
+        "correction": "The instant you feel your posture being broken or your arm being isolated, immediately drive your hips back and push your chest forward to recover structural integrity. Do not wait to see what attack develops."
+      },
+      {
+        "error": "Extending the arm away from your body while in closed guard, creating the space needed for wrist control and overhook entry",
+        "consequence": "An isolated arm with space between elbow and ribs is the exact position the attacker needs to begin the Kimura sequence; you are giving them the setup for free",
+        "correction": "Keep elbows pinned to your ribs at all times in closed guard. When posting or framing, use short-range movements that do not extend your arm beyond your knee line."
+      },
+      {
+        "error": "Pulling the arm straight back away from the attacker instead of driving it toward the mat when caught in the figure-four",
+        "consequence": "Pulling back feeds directly into the rotational mechanics of the Kimura and may actually accelerate the submission; the attacker uses your pulling force to increase rotation",
+        "correction": "Drive the trapped arm downward toward the mat by straightening it, not backward toward your own body. The downward drive disrupts the rotational angle and creates the conditions to break the figure-four grip."
+      },
+      {
+        "error": "Panicking and explosively jerking the arm when caught in a deep Kimura rather than tapping",
+        "consequence": "Explosive movement against a locked figure-four with established angle can cause immediate catastrophic shoulder injury including dislocation, rotator cuff tear, or spiral humerus fracture",
+        "correction": "If the attacker has established the full position (elbow pinned, angle created, rotation past 45 degrees), tap immediately. No position or competition result is worth a 6-12 month shoulder recovery. Recognize when defense is no longer viable."
+      },
+      {
+        "error": "Focusing solely on defending the submission without addressing the Kimura grip as a control position that enables sweeps and back takes",
+        "consequence": "Even if you prevent the submission finish, the attacker uses the grip to sweep you to bottom position or take your back, resulting in a worse position than the original submission threat",
+        "correction": "Your defensive goal is not just surviving the submission but breaking the figure-four grip entirely. Until the grip is broken, you remain in danger of submission, sweep, or back take. Work to strip the grip, not just prevent the rotation."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the earliest defensive window against the Kimura from guard, and why is it the highest percentage escape opportunity?",
+        "answer": "The earliest defensive window is during the initial wrist control phase before the figure-four grip is established. This is the highest percentage escape because the attacker has only single-hand control on your wrist, making grip stripping relatively simple through posture recovery and arm retraction. Once the figure-four is completed, the mechanical advantage shifts dramatically to the attacker and every subsequent defensive window requires more energy, better timing, and carries greater injury risk. Early recognition of wrist isolation attempts and immediate posture recovery prevent the attack from progressing to phases where defense becomes desperate.",
+        "safety_critical": false
+      },
+      {
+        "question": "When caught in a fully locked Kimura with the attacker's perpendicular angle established and rotation past 45 degrees, what is the correct response?",
+        "answer": "The correct response is to tap immediately. At this stage, the submission is mechanically locked - the elbow is pinned, the angle prevents roll-through escape, and rotation has progressed past the point where grip-breaking or posture recovery are viable options. Attempting explosive escape against a locked Kimura at this depth risks catastrophic injury including posterior shoulder dislocation, rotator cuff tears, labral damage, or spiral humerus fracture with recovery times of 6-12+ months. No competitive outcome justifies this injury risk. The tap is the correct technical response when defensive windows have been exhausted.",
+        "safety_critical": true
+      },
+      {
+        "question": "Why is driving the trapped arm toward the mat more effective than pulling it backward when defending against the figure-four grip?",
+        "answer": "Driving the arm toward the mat works against the Kimura's rotational mechanics rather than feeding into them. The Kimura generates power through external rotation of the shoulder with the elbow as fulcrum - pulling backward actually assists this rotation by moving the wrist in the same arc the attacker wants. Driving downward toward the mat straightens the arm, which removes the rotational angle the attacker needs and disrupts their elbow-to-centerline pin. A straight arm driven into the mat distributes force along its entire length rather than concentrating it at the shoulder joint, making the figure-four mechanically ineffective and creating conditions to strip the grip.",
+        "safety_critical": false
+      },
+      {
+        "question": "How does the attacker's Kimura grip create threats beyond just the shoulder lock, and how should this influence your defensive priorities?",
+        "answer": "The Kimura grip functions as a comprehensive control position that enables sweeps (hip bump, Kimura sweep to top), back takes (following your roll escape or using the grip to turn you), and transitions to alternative submissions (triangle when you pull your arm back, armbar when you straighten your arm, omoplata from angle adjustments). This means defending only the submission finish is insufficient - even successful submission defense leaves you in a controlled position where the attacker dictates exchanges. Your defensive priority must be breaking the figure-four grip entirely, not just surviving the rotational pressure. Until the grip is broken, every defensive action you take potentially opens a different offensive pathway for the attacker.",
+        "safety_critical": false
+      },
+      {
+        "question": "What body positioning should you maintain in closed guard top to prevent Kimura attacks before they begin?",
+        "answer": "Maintain strong upright posture with your spine straight and head over your hips, preventing the posture break that initiates most Kimura setups. Keep both elbows pinned tight to your ribs with hands positioned on the opponent's hips or lower abdomen - never extend your arms past your knee line or allow them to drift away from your centerline. Avoid placing hands on the mat, which isolates the arm and creates the space needed for wrist control. Maintain a wide knee base to resist the hip bump sweep that often sets up the Kimura trap. These positioning habits eliminate the entry points the attacker needs to begin the Kimura sequence, making prevention far more energy-efficient than late-stage defense.",
+        "safety_critical": false
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Recognition and Early Prevention",
+        "focus": "Identifying Kimura setups and maintaining preventive posture",
+        "description": "Partner attempts Kimura setups from closed guard at 30% speed. Focus on recognizing the wrist control and overhook threading that precedes the figure-four. Practice immediate posture recovery and arm retraction responses. Build the habit of maintaining elbows tight to ribs and hands on hips. 20 repetitions focusing on recognition speed rather than defensive technique."
+      },
+      {
+        "phase": "Phase 2: Grip Breaking and Stack Defense",
+        "focus": "Breaking the figure-four grip and neutralizing the angle through stacking",
+        "description": "Partner establishes the figure-four grip at 50% resistance. Practice two primary escapes: grip stripping by driving the arm to the mat and peeling the top hand, and stacking defense by driving weight forward to compress the hip escape angle. Partner provides moderate resistance during grip breaks. 15 repetitions of each escape method, alternating sides."
+      },
+      {
+        "phase": "Phase 3: Emergency Escapes Under Pressure",
+        "focus": "Late-phase defense including roll escapes and tap recognition",
+        "description": "Partner establishes full Kimura position with angle at 70% resistance. Practice the forward roll escape with immediate scramble to top position. Critically, practice recognizing when the submission is locked beyond the point of safe escape and tapping immediately. Partner applies progressive pressure so you learn to feel the difference between escapable and locked positions. Safety emphasis throughout."
+      },
+      {
+        "phase": "Phase 4: Live Defensive Sparring",
+        "focus": "Full-speed defense against complete Kimura attack system",
+        "description": "Positional sparring from closed guard top against partner hunting Kimura and all its transitions (sweep, back take, triangle). 3-minute rounds at full intensity. Develop the ability to defend the complete Kimura trap system rather than individual techniques. Score for grip breaks and posture recovery. Reset after submission, sweep, or back take."
+      }
+    ]
+  },
+  "variations_and_setups": [
+    {
+      "variation_name": "Hip Bump Sweep to Kimura",
+      "description": "Execute hip bump sweep motion; when opponent posts their arm to prevent the sweep, capture the posted arm with Kimura grip and finish from the top position (side control or mount). This combination integrates sweeping and submission into one fluid sequence.",
+      "when_to_use": "When opponent has good posture and base, making direct Kimura difficult from bottom. The sweep attempt creates the arm isolation opportunity."
+    },
+    {
+      "variation_name": "Butterfly Guard Kimura",
+      "description": "From butterfly guard with underhook control, transition to Kimura grip when opponent attempts to defend the underhook. Use butterfly hooks to elevate and off-balance while applying the shoulder lock. This variation maintains more dynamic control than closed guard version.",
+      "when_to_use": "In open guard situations where closed guard is not available, or when transitioning from butterfly sweeps that have been defended."
+    },
+    {
+      "variation_name": "Kimura Trap to Back Take",
+      "description": "When opponent defends the Kimura finish by rolling forward or turning into it, maintain the figure-four grip and follow their movement to take their back. This creates a high-percentage back take opportunity from a defended submission attempt.",
+      "when_to_use": "Against experienced opponents who know how to defend the basic Kimura by rolling or turning. The trap concept turns their defense into your offense."
+    },
+    {
+      "variation_name": "Triangle to Kimura Transition",
+      "description": "When opponent defends triangle choke by straightening their trapped arm, release the triangle and immediately transition to Kimura on the extended arm. The extended arm position makes it extremely difficult for them to defend the shoulder lock.",
+      "when_to_use": "When triangle choke is defended with arm extension. The transition is seamless and capitalizes on their defensive posture."
+    },
+    {
+      "variation_name": "Reverse Kimura (Americana Mechanics from Guard)",
+      "description": "Apply Kimura grip but rotate opponent's wrist toward their own hip instead of their head, creating internal rotation pressure. Less common from guard but effective when standard Kimura angle is unavailable.",
+      "when_to_use": "When opponent successfully defends external rotation by turning their thumb down or when angle prevents standard Kimura application."
+    }
+  ]
+}

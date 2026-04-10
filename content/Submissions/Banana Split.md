@@ -3,24 +3,30 @@
 
 
 ---
-title: "Banana Split | BJJ Submission | BJJ Graph"
+title: "Banana Split | BJJ Submission Family | BJJ Graph"
 description: "Master the Banana Split compression submission in BJJ. Complete guide covering setup from truck and deep half guard, execution, and safety. 48% success rate."
 ---
 
 
-<body data-content-type="submissions-hub">
+<body data-content-type="submissions-family">
 
 > **SAFETY**: Banana Split targets the Hip adductors, groin, and lower back. Risk: Groin muscle tear or strain. Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
-<div class="role-links">
 
-[[Banana Split/Attacker|Play as Attacker]]
-[[Banana Split/Defender|Play as Defender]]
+<section id="variants" class="content-section">
 
-</div>
+## Position Variants
+
+| From Position | Success Rate | Top Injury Risk | Key Difference |
+|---------------|-------------|-----------------|----------------|
+| [[Banana Split/from Truck|Truck]] | 48% | Groin muscle tear or strain |  |
+
+
+</section>
+
 
 <section id="overview" class="content-section">
 
@@ -33,9 +39,7 @@ The Banana Split often works in combination with other attacks from half guard a
 **Category**: Compression
 **Type**: Groin Stretch
 **Target Area**: Hip adductors, groin, and lower back
-**Starting Position**: [[Positions/Half Guard/Deep Half Guard]]
-**From Position**: [[Positions/Twister Control/Truck]] (Top)
-**Success Rate**: 48%
+**Success Rate**: 48% (average across variants)
 
 </section>
 
@@ -82,143 +86,10 @@ The Banana Split often works in combination with other attacks from half guard a
 
 </section>
 
-<section id="outcomes" class="content-section">
 
-## Outcomes
+<section id="variation-details" class="content-section hide-minimal">
 
-| Result | Position | Probability |
-|--------|----------|-------------|
-| Success | [[game-over]] | 48% |
-| Failure | [[Positions/Half Guard/Deep Half Guard]] | 30% |
-| Counter | [[Positions/Back Control]] | 22% |
-
-
-</section>
-
-<section class="content-section">
-
-## Attacker vs Defender
-
-| &nbsp; | Attacker | Defender |
-|--------|----------|----------|
-| **Focus** | Execute and finish | Escape and survive |
-| **Key Principles** | Control opponent's upper body to prevent escape while splitt... | Deny far leg isolation at all costs - this is the critical d... |
-| **Options** | 6 execution steps | 3 defensive options |
-
-</section>
-
-<section id="attacker-summary" class="content-section">
-
-## Playing as Attacker
-
-[[Banana Split/Attacker|→ Full Attacker Guide]]
-
-### Key Principles
-
-
-- Control opponent's upper body to prevent escape while splitting legs
-
-- Create opposing forces between near leg control and far leg isolation
-
-- Maintain stable base on bottom to generate splitting pressure through hip extension
-
-- Target groin and hip flexibility limitations rather than joint mechanics
-
-- Use progressive pressure application over minimum 5 seconds to allow tap opportunity
-
-- Combine with electric chair and twister threats to create submission chains
-
-- Assess individual flexibility variations before committing to the finish
-
-
-### Execution Steps
-
-
-- **Establish Deep Half Control**: From deep half guard, secure your lockdown on the near leg while maintaining your shoulder underneat...
-
-- **Isolate the Far Leg**: Reach across with your far hand to grab opponent's far ankle, knee, or lower thigh. Some variations ...
-
-- **Create the Splitting Angle**: While maintaining lockdown control on the near leg, begin to pull the far leg toward you and away fr...
-
-- **Control Upper Body**: Use your free hand to control opponent's upper body, typically by grabbing their belt, pants, or est...
-
-- **Extend Hips and Increase Split**: From your bottom position, extend your hips upward while maintaining the opposing forces on their le...
-
-- **Apply Finishing Pressure**: Continue to increase the leg split by pulling the far leg while maintaining lockdown pressure on the...
-
-
-### Common Mistakes
-
-
-- **Applying splitting pressure too quickly or explosively**
-  - Consequence: High risk of causing groin muscle tears or severe strains before partner can tap
-  - Correction: Always apply pressure progressively over minimum 5-7 seconds. The banana split should feel like slowly increasing discomfort, not sudden pain. Communication with training partners is essential.
-
-- **Failing to control opponent's upper body before loading the split**
-  - Consequence: Opponent drives forward with pressure and collapses your structure, escaping the position entirely
-  - Correction: Establish upper body control (underhook, belt grip, or body lock) before fully committing to the leg split. Your shoulder frame under their hips must remain strong throughout.
-
-- **Losing lockdown control on the near leg during far leg isolation**
-  - Consequence: Opponent frees their leg and escapes, potentially passing to dominant position
-  - Correction: Maintain constant tension on the lockdown throughout the entire sequence. If lockdown loosens, re-tighten before continuing with far leg isolation. The near leg control is your foundation.
-
-
-</section>
-
-<section id="defender-summary" class="content-section">
-
-## Playing as Defender
-
-[[Banana Split/Defender|→ Full Defender Guide]]
-
-### Key Principles
-
-
-- Deny far leg isolation at all costs - this is the critical defensive priority before the split loads
-
-- Drive forward with heavy pressure to collapse the attacker's bottom structure and negate their wedge angle
-
-- Free the trapped near leg from lockdown as early as possible to eliminate the foundation of the attack
-
-- Keep knees together and base wide to prevent the splitting mechanics from engaging
-
-- Tap early and without hesitation - there is no structural limit warning before muscle tissue tears
-
-- Recognize the setup before the split is loaded, when defense is still high-percentage
-
-- Use forward rolling or cartwheeling to escape the leg configuration when trapped late
-
-
-### Recognition Cues
-
-
-- Opponent establishes lockdown on your near leg and begins reaching for your far ankle, knee, or thigh with their free hand
-
-- You feel your legs being pulled in opposite directions while opponent's body creates a wedge between your thighs from underneath
-
-- From truck position, opponent adjusts from twister or calf slicer grips to isolate your far leg and begins hip extension
-
-- Opponent secures underhook across your back while maintaining lockdown, then their free hand moves toward your far leg rather than staying on your hip
-
-- Increasing stretch sensation in your groin and inner thighs while opponent extends their hips upward from beneath you
-
-
-### Escape Paths
-
-
-- Break lockdown by addressing the figure-four ankle configuration, then extract your near leg and establish wide base in deep half guard top to reset
-
-- Forward roll or cartwheel over the attacker's body to clear the leg entanglement, accepting potential back exposure rather than groin injury
-
-- Walk hips toward the attacker to close the splitting angle, then use your far leg to post and establish base before they can readjust their wedge position
-
-
-</section>
-
-
-<section id="variations" class="content-section hide-minimal">
-
-## Variations
+## Variation Details
 
 
 **Lockdown Banana Split**: Classic entry from lockdown position where you establish the lockdown first, then isolate the far leg. This is the most common variation taught in the 10th Planet system. The lockdown provides excellent control of the near leg while you work to trap the far leg with your free hand. (When to use: When opponent is heavily pressuring from top half guard and you have time to establish lockdown. Most effective against opponents who maintain narrow base.)
@@ -256,15 +127,15 @@ The Banana Split often works in combination with other attacks from half guard a
 
 ## Related Submissions
 
-- [[Submissions/Electric Chair Submission]]
-- [[Submissions/Calf Slicer from Truck]]
-- [[Submissions/Twister]]
-- [[Submissions/Crotch Ripper]]
-- [[Submissions/Boston Crab]]
-- [[Positions/Estima Lock]]
-- [[Submissions/Achilles Lock]]
-- [[Transitions/Toe Hold]]
-- [[Transitions/Kneebar]]
+- [[Positions/Half Guard/Electric Chair]] - Shares lockdown control mechanics and chains directly from electric chair position
+- [[Submissions/Calf Slicer]] - Complementary leg attack from similar truck and leg entanglement positions
+- [[Submissions/Twister]] - Primary alternative submission from truck position targeting the spine
+- [[Submissions/Crotch Ripper]] - Closely related groin stretch sharing electric chair sweep mechanics
+- [[Submissions/Boston Crab]] - Similar back compression submission with leg control from turtle position
+- [[Transitions/Estima Lock]] - Alternative foot lock from similar leg entanglement configurations
+- [[Submissions/Achilles Lock]] - Complementary ankle lock available from ashi garami transitions
+- [[Submissions/Toe Hold]] - Alternative foot attack when banana split leg control is partially established
+- [[Transitions/Kneebar]] - Complementary knee joint lock from similar leg entanglement positions
 
 
 </section>

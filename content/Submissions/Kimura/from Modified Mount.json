@@ -1,0 +1,473 @@
+{
+  "name": "Kimura from Modified Mount",
+  "description": "Master the Kimura shoulder lock from Modified Mount. Learn grip mechanics, rotational finishing details, and defensive strategies for this high-percentage submission.",
+  "tags": [
+    "bjj",
+    "submission",
+    "kimura",
+    "shoulder-lock",
+    "joint-lock",
+    "fundamental",
+    "hub",
+    "finishing-guide",
+    "modified-mount"
+  ],
+  "submission_category": "Joint Lock",
+  "submission_type": "Shoulder Lock",
+  "target_area": "Shoulder joint, rotator cuff, and shoulder capsule",
+  "starting_position": "Modified Mount",
+  "from_position": "Modified Mount/Top",
+  "success_rate": 62,
+  "overview": "The Kimura from Modified Mount exploits the asymmetric structure of Modified Mount to create powerful shoulder lock mechanics with built-in base stability. With one leg posted for balance and the across-body knee pinning the opponent's torso, the top practitioner has a natural platform for isolating the near-side arm and securing the figure-four grip. The posted leg provides exceptional stability during the grip fight, preventing bridge-and-roll reversals that frequently disrupt Kimura attempts from standard mount. This makes Modified Mount one of the more secure positions from which to commit to the Kimura without risking a position loss.\n\nThe Modified Mount configuration naturally angles the attacker's body toward the near-side arm, reducing the distance and effort needed to secure the wrist-and-elbow control that defines the Kimura. Unlike standard mount where the attacker must shift weight significantly to one side, Modified Mount pre-positions the hips for rotational pressure on the shoulder. The across-body knee serves dual purposes: maintaining mount control while simultaneously blocking the opponent's ability to turn into the attacker and relieve shoulder torque.\n\nStrategically, this submission chains effectively with armbars and americanas from the same position. When the opponent defends the Kimura by straightening the arm, the armbar becomes immediately available through an S-mount transition. When they grip their own belt or shorts to prevent rotation, switching to the americana on the trapped arm creates a constant dilemma. This submission network makes the Kimura from Modified Mount a cornerstone attack for top-position practitioners who build mount-based submission systems around forcing sequential defensive reactions.",
+  "safety_considerations": {
+    "injury_risks": [
+      {
+        "injury": "Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis)",
+        "severity": "High",
+        "recovery_time": "3-9 months with potential surgery requirement"
+      },
+      {
+        "injury": "Shoulder capsule damage and dislocation",
+        "severity": "CRITICAL",
+        "recovery_time": "6-12 months, may require surgical repair"
+      },
+      {
+        "injury": "Labral tear (glenoid labrum)",
+        "severity": "High",
+        "recovery_time": "4-8 months, often requires arthroscopic surgery"
+      },
+      {
+        "injury": "Bicep tendon strain or rupture",
+        "severity": "Medium",
+        "recovery_time": "6-12 weeks for strain, 3-6 months for rupture"
+      }
+    ],
+    "application_speed": "SLOW and progressive - 3-5 seconds minimum in training, allowing partner time to recognize danger and tap",
+    "tap_signals": [
+      "Verbal tap (saying 'tap' or making any verbal distress sound)",
+      "Physical hand tap (multiple taps with free hand)",
+      "Physical foot tap (multiple taps with either foot)",
+      "Any distress signal including screaming or unusual sounds"
+    ],
+    "release_protocol": [
+      "Immediately stop all rotational pressure the instant tap is felt or heard",
+      "Return the arm toward neutral position (externally rotate back to starting position)",
+      "Release the figure-four grip completely",
+      "Allow partner to self-assess shoulder mobility before continuing",
+      "Never release suddenly or allow arm to spring back forcefully"
+    ],
+    "training_restrictions": [
+      "Never spike or jerk the submission - rotation must be smooth and controlled",
+      "Never use competition speed or surprise attacks in training",
+      "Always ensure partner has at least one hand free to tap",
+      "Do not apply while partner is in awkward body position that prevents tapping",
+      "Never combine with weight pressure that restricts breathing while finishing",
+      "Respect immediate taps without testing partner's pain tolerance"
+    ]
+  },
+  "from_positions": [
+    "Modified Mount",
+    "Mount"
+  ],
+  "related_submissions": [
+    "Kimura",
+    "Americana",
+    "Far Side Armbar",
+    "Reverse Kimura",
+    "Arm Triangle"
+  ],
+  "related_content": [
+    {
+      "name": "Modified Mount",
+      "relationship": "Starting position providing asymmetric base for this submission variant"
+    },
+    {
+      "name": "Mount",
+      "relationship": "Parent position from which Modified Mount is established"
+    },
+    {
+      "name": "Kimura Trap",
+      "relationship": "Control position for maintaining Kimura grip during transitions"
+    },
+    {
+      "name": "Armbar Control",
+      "relationship": "Alternative submission target when Kimura defense creates arm extension"
+    },
+    {
+      "name": "S Mount",
+      "relationship": "Transitional position for armbar chain when opponent straightens arm against Kimura"
+    }
+  ],
+  "outcomes": [
+    {
+      "to": "game-over",
+      "probability": 62,
+      "result": "success"
+    },
+    {
+      "to": "Modified Mount/Top",
+      "probability": 25,
+      "result": "failure"
+    },
+    {
+      "to": "Closed Guard/Bottom",
+      "probability": 13,
+      "result": "counter"
+    }
+  ],
+  "variations_and_setups": [
+    {
+      "variation_name": "Standard wrist control entry",
+      "description": "From Modified Mount with across-body knee pressure, use your top hand to strip the opponent's near-side wrist away from their body while maintaining chest-to-chest pressure. Thread the figure-four grip under their elbow once the wrist is isolated. This is the highest-percentage entry because the modified mount structure naturally angles your body toward the near-side arm.",
+      "when_to_use": "When opponent keeps arms relatively loose or frames on your chest, exposing the wrist for direct control"
+    },
+    {
+      "variation_name": "Paint brush wrist walk",
+      "description": "Instead of directly isolating the wrist, use incremental hand-over-hand walking to drag the opponent's wrist toward the mat beside their head. Each small movement peels the arm further from the body while the across-body knee prevents them from turning to follow. Once the wrist touches the mat, secure the figure-four and begin rotation. This bypasses the opponent's initial grip defense by using smaller movements that are harder to resist individually.",
+      "when_to_use": "When opponent grips their own belt, shorts, or opposite hand to prevent direct wrist isolation"
+    },
+    {
+      "variation_name": "Americana-to-Kimura switch",
+      "description": "Begin attacking the americana on the near-side arm, driving the wrist toward the mat. As the opponent straightens their arm to defend the americana, immediately transition to the Kimura figure-four grip by switching your hand position under the elbow. The americana threat forces the arm movement that exposes the Kimura entry. This works because the defensive reaction to one submission directly creates the opening for the other.",
+      "when_to_use": "When opponent is defending the americana effectively by keeping elbow tight, use the switch to catch them during the defensive transition"
+    }
+  ],
+  "attacker": {
+    "name": "Kimura from Modified Mount Attacker",
+    "description": "Learn to attack with the Kimura from Modified Mount. Step-by-step grip sequences, finishing mechanics, and counter-responses for this dominant shoulder lock position.",
+    "overview": "Attacking the Kimura from Modified Mount gives you a structural advantage that standard mount does not provide. The posted leg creates a stability anchor that lets you commit fully to the grip fight and finishing rotation without risking a bridge-and-roll reversal. Your body is already angled toward the near-side arm, reducing the setup distance compared to attacking from standard mount where you must shift your entire weight laterally. The across-body knee maintains constant torso control while your hands work to isolate the wrist and secure the figure-four, creating a division of labor between your legs (position maintenance) and your arms (submission mechanics). The key insight is that Modified Mount turns the Kimura from a position-risking attack into a position-retaining one, because even if the grip fight fails, the posted leg keeps you mounted.",
+    "key_principles": [
+      "Use the posted leg as a stability anchor so you can commit both hands to the grip fight without fear of reversal",
+      "Maintain chest-to-chest pressure through the across-body knee to prevent the opponent from turning into you during the Kimura setup",
+      "Isolate the wrist before threading the figure-four \u2014 never reach under the elbow without wrist control first",
+      "Finish with hip rotation and body mechanics, not arm strength \u2014 the rotation comes from turning your torso",
+      "Pin the opponent's wrist to the mat beside their head before applying rotational pressure for maximum mechanical advantage",
+      "Chain the Kimura with the armbar and americana to create a three-way dilemma where each defense opens another attack"
+    ],
+    "setup_requirements": [
+      "Established Modified Mount with one leg posted and across-body knee pinning opponent's torso with consistent downward pressure",
+      "Opponent's near-side arm (on the posted-leg side) must be accessible \u2014 not completely tucked under their body",
+      "Cross-face or collar control with your top hand to prevent opponent from turning their head away and creating space",
+      "Stable base confirmed \u2014 opponent's recent bridge attempts have been absorbed by your posted leg before committing to grips",
+      "Weight settled through skeletal alignment rather than muscular tension so you can sustain the grip fight without fatigue"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Secure modified mount control",
+        "description": "Settle into Modified Mount with your posted leg on the side of the arm you intend to attack. Across-body knee presses diagonally across the opponent's abdomen with your shin blade creating constant downward pressure. Confirm your base is stable by testing against a small bridge before committing to the attack.",
+        "timing": "5-10 seconds to stabilize position"
+      },
+      {
+        "step_number": 2,
+        "action": "Isolate the near-side wrist",
+        "description": "Use your hand closest to the posted leg to grab the opponent's near-side wrist. If they grip their own belt or shorts, use the paint brush technique \u2014 walk the wrist incrementally toward the mat with small hand-over-hand movements. Maintain chest pressure through your across-body knee throughout this process to prevent them from turning.",
+        "timing": "3-8 seconds depending on grip defense"
+      },
+      {
+        "step_number": 3,
+        "action": "Thread the figure-four grip",
+        "description": "Once the wrist is controlled, slide your other hand under the opponent's elbow from the outside and grab your own wrist to complete the figure-four. Your gripping hand should be palm-down on your own wrist with your forearm pressing against the back of their tricep. Keep your elbows tight to your body during the threading to prevent the opponent from straightening their arm to escape.",
+        "timing": "2-3 seconds"
+      },
+      {
+        "step_number": 4,
+        "action": "Detach the arm from the body",
+        "description": "With the figure-four secured, use combined hip pressure and grip strength to peel the opponent's elbow away from their ribcage. Drive their elbow toward the mat on the far side using your body weight rather than arm strength. The across-body knee prevents them from following the arm by turning, creating separation between the arm and the torso that you need for the finishing rotation.",
+        "timing": "2-4 seconds"
+      },
+      {
+        "step_number": 5,
+        "action": "Pin the wrist to the mat",
+        "description": "Drive the opponent's wrist toward the mat beside their head using a painting motion. The wrist should contact the mat at approximately ear level or slightly above. This pins the arm in a position where the shoulder is maximally vulnerable to internal rotation. Keep your chest heavy on their torso \u2014 any space you create between your chest and their body gives them room to turn and relieve pressure.",
+        "timing": "1-2 seconds"
+      },
+      {
+        "step_number": 6,
+        "action": "Generate rotational finish",
+        "description": "With the wrist pinned to the mat, rotate the opponent's forearm toward their feet by lifting their elbow while keeping the wrist stationary. The rotation comes from your entire torso turning, not from your arms pulling. Drive your hips forward and turn your body as a unit to generate smooth, progressive internal rotation of the shoulder joint. Apply pressure slowly and steadily until your partner taps.",
+        "timing": "2-4 seconds, slow and controlled"
+      },
+      {
+        "step_number": 7,
+        "action": "Maintain control through the finish",
+        "description": "Throughout the finishing rotation, keep your posted leg planted firmly for base and your across-body knee pressing down to prevent any last-second bridging escape. If the opponent tries to roll toward you during the finish, follow the roll while maintaining the figure-four and finish from the resulting position. Never release pressure during the transition \u2014 continuous tension prevents escape windows.",
+        "timing": "Continuous through tap"
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Opponent grips own belt, shorts, or opposite wrist to prevent arm isolation",
+        "effectiveness": "High",
+        "your_response": "Use the paint brush technique to incrementally walk the wrist away from the grip anchor. Alternatively, attack the americana first \u2014 the defensive reaction to americana often breaks the grip configuration, exposing the Kimura entry.",
+        "targets_outcome": "Modified Mount/Top"
+      },
+      {
+        "counter": "Opponent straightens the arm to prevent figure-four threading",
+        "effectiveness": "Medium",
+        "your_response": "Immediately transition to the armbar. A straight arm is the prerequisite for an armbar, not a Kimura defense \u2014 swing your posted leg over their face and sit back for the armbar finish. This is the core chain that makes the Kimura from Modified Mount so dangerous.",
+        "targets_outcome": "Modified Mount/Top"
+      },
+      {
+        "counter": "Opponent bridges explosively toward the posted leg to create space and escape",
+        "effectiveness": "Medium",
+        "your_response": "Absorb the bridge with your posted leg \u2014 this is exactly what it is designed for. Widen your posted foot slightly and drive weight into it. If they generate significant momentum, release the Kimura grip and re-establish mount control rather than chasing the submission from a compromised position.",
+        "targets_outcome": "Modified Mount/Top"
+      },
+      {
+        "counter": "Opponent turns into you and attempts to sit up, closing the distance",
+        "effectiveness": "Low",
+        "your_response": "Use the across-body knee to drive them back flat. Their turning motion actually helps isolate the near-side arm further from their body. If they persist, transition to a mounted triangle or back take as the turning exposes their back.",
+        "targets_outcome": "Closed Guard/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Sitting upright to apply the Kimura, lifting chest off the opponent",
+        "consequence": "Creates space for the opponent to turn into you, bridge effectively, or recover guard by hip escaping into the gap",
+        "correction": "Keep your chest heavy on the opponent's torso throughout the entire setup and finish. The rotation comes from your hips and torso turning as a unit, not from sitting up and pulling with your arms."
+      },
+      {
+        "error": "Reaching under the elbow before securing wrist control",
+        "consequence": "Opponent straightens the arm and escapes the threading attempt, or traps your reaching hand against their body",
+        "correction": "Always isolate and control the wrist first. The figure-four threading is step two \u2014 never skip wrist isolation. If you cannot get the wrist, use the paint brush technique or switch to americana to force a reaction."
+      },
+      {
+        "error": "Trying to finish with arm strength instead of hip rotation",
+        "consequence": "Arms fatigue rapidly against the opponent's grip defense, and the submission lacks the torque needed to force the tap against a strong defender",
+        "correction": "Drive the finish with your entire body rotating as a unit. Turn your torso toward the mat, drive your hips forward, and let your skeletal structure generate the rotational force. Your arms hold the grip; your body creates the pressure."
+      },
+      {
+        "error": "Allowing the opponent to re-grip after initially breaking their defense",
+        "consequence": "Resets the grip fight and wastes the energy spent on the initial break, while the opponent becomes progressively harder to break as they learn your grip-breaking pattern",
+        "correction": "The moment you break a grip, immediately advance to the next step \u2014 thread the figure-four or pin the wrist to the mat. Never pause after breaking a grip. The transition between grip break and submission advancement must be seamless."
+      },
+      {
+        "error": "Not pinning the wrist to the mat before applying rotational pressure",
+        "consequence": "Without the wrist pinned, the opponent can rotate their forearm to relieve pressure or pull the arm back toward their body, negating the figure-four mechanics",
+        "correction": "Paint the wrist to the mat beside the opponent's head before starting the rotation. The mat acts as a fixed point that the wrist cannot move past, which means all rotational force goes directly into the shoulder joint."
+      },
+      {
+        "error": "Abandoning the across-body knee control to chase the grip",
+        "consequence": "Opponent immediately hip escapes when knee pressure is released, recovering half guard or closed guard",
+        "correction": "The across-body knee is non-negotiable \u2014 it stays planted with downward pressure throughout the entire submission attempt. If you cannot reach the arm while maintaining knee control, adjust your body angle rather than lifting the knee."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Grip mechanics isolation",
+        "focus": "Figure-four grip threading and wrist control",
+        "description": "Partner lies flat with arm extended. Practice securing wrist control, threading the figure-four grip under the elbow, and executing the paint brush wrist walk. No resistance initially \u2014 focus on hand placement, grip tightness, and smooth threading mechanics. Drill both sides for 10 minutes."
+      },
+      {
+        "phase": "Phase 2: Positional integration",
+        "focus": "Combining Modified Mount control with Kimura setup",
+        "description": "Establish Modified Mount on a cooperative partner and practice the complete sequence: stabilize position, isolate wrist, thread figure-four, pin wrist, and apply controlled rotation. Partner gives light frames but does not actively resist. Focus on maintaining chest pressure and across-body knee control throughout."
+      },
+      {
+        "phase": "Phase 3: Counter responses and chains",
+        "focus": "Reacting to common defenses with submission chains",
+        "description": "Partner provides specific defenses \u2014 gripping belt, straightening arm, bridging. Practice the appropriate response to each: paint brush against grip, armbar transition against straight arm, base absorption against bridge. Build the decision tree through repetition until responses become automatic."
+      },
+      {
+        "phase": "Phase 4: Progressive resistance sparring",
+        "focus": "Full speed execution against escalating resistance",
+        "description": "Begin with 50% resistance positional sparring starting from Modified Mount. Partner gradually increases resistance over multiple rounds until reaching full competition intensity. Focus on reading defensive reactions in real time and selecting the correct chain option. Track submission completion rate and identify which defenses give you the most trouble."
+      },
+      {
+        "phase": "Phase 5: Live entry and competition simulation",
+        "focus": "Finding Modified Mount Kimura in live rolling",
+        "description": "During full sparring rounds, specifically look for opportunities to establish Modified Mount and initiate the Kimura. Practice transitions from standard mount, side control passes, and guard passes that lead to Modified Mount. Track how often you achieve the starting position and how often you convert to the submission."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What anatomical structures does the Kimura from Modified Mount attack, and what type of force causes the tap?",
+        "answer": "The Kimura attacks the glenohumeral (shoulder) joint by forcing internal rotation beyond its natural range. The primary structures at risk are the rotator cuff muscles (supraspinatus, infraspinatus, teres minor, subscapularis), the shoulder capsule, and the glenoid labrum. The tap is caused by progressive torque on the shoulder joint as the forearm is rotated toward the opponent's feet while the elbow is lifted, creating a lever that concentrates rotational stress on the shoulder capsule and rotator cuff tendons.",
+        "safety_critical": false
+      },
+      {
+        "question": "Why does Modified Mount provide better base stability for the Kimura than standard mount?",
+        "answer": "The posted leg in Modified Mount creates a wider base that functions as a structural brace against explosive bridge-and-roll attempts. In standard mount, both knees are beside the opponent's torso, making the base relatively narrow and vulnerable to bridges. The posted leg extends the base perimeter laterally, meaning the attacker can commit both hands to the Kimura grip fight without risking a positional reversal. This allows aggressive submission pursuit that would be reckless from standard mount.",
+        "safety_critical": false
+      },
+      {
+        "question": "Your opponent grips their own belt with their near-side hand to prevent wrist isolation \u2014 how do you break this defense?",
+        "answer": "Use the paint brush technique: place both hands on their gripping wrist and incrementally walk it away from the belt using small hand-over-hand movements. Each small pull is harder to resist than one large yank. Alternatively, switch to attacking the americana on the same arm \u2014 the wrist-to-belt grip that defends the Kimura actually assists the americana setup by keeping the elbow bent. When they straighten the arm to defend the americana, the belt grip breaks and the Kimura entry opens.",
+        "safety_critical": false
+      },
+      {
+        "question": "At what point in the Kimura sequence does the opponent reach the point of no escape?",
+        "answer": "The point of no escape is when the wrist is pinned to the mat beside the opponent's head and the figure-four grip is fully locked. Once the wrist contacts the mat, the opponent cannot rotate their forearm to relieve pressure, and the mat itself acts as a second anchor point that prevents any arm movement except the direction that worsens the submission. Before this point, the opponent can still pull the arm back toward their body or straighten to defeat the figure-four. After wrist pin, only the tap remains.",
+        "safety_critical": false
+      },
+      {
+        "question": "What are the key indicators that your rotational pressure is being applied correctly versus incorrectly?",
+        "answer": "Correct application: you feel resistance building smoothly in the figure-four grip as the shoulder reaches its rotational limit, the opponent's body tenses progressively, and the force comes from your hip rotation rather than arm pulling. Incorrect application: you feel your arms fatiguing, the opponent is able to incrementally reduce the rotation by turning their body, or the wrist lifts off the mat during rotation. If the wrist lifts off the mat, you have lost the anchor point and need to re-pin before continuing.",
+        "safety_critical": false
+      },
+      {
+        "question": "How should you release the Kimura after your training partner taps, and why is the release protocol critical?",
+        "answer": "Immediately stop all rotational pressure the instant you feel or hear the tap. Return the arm toward neutral by externally rotating back toward the starting position \u2014 do not simply let go, as the arm may spring into an injurious position. Release the figure-four grip completely and allow your partner to self-assess their shoulder mobility. The Kimura attacks the rotator cuff, which can suffer partial tears even at sub-maximal force, so the difference between a controlled release and a sudden release can be the difference between a minor strain and a surgical injury.",
+        "safety_critical": true
+      },
+      {
+        "question": "What is the maximum acceptable application speed for the Kimura in training, and why?",
+        "answer": "Application speed should be slow and progressive, taking a minimum of 3-5 seconds from initial rotation to full pressure. The shoulder joint can suffer damage before pain signals reach the brain and the partner can process the need to tap. Fast application \u2014 jerking or spiking the rotation \u2014 bypasses the tap window entirely and risks tearing the rotator cuff or dislocating the shoulder before the partner can respond. In training, the goal is to demonstrate control, not to catch your partner off guard.",
+        "safety_critical": true
+      },
+      {
+        "question": "Your opponent starts straightening their arm as you thread the figure-four \u2014 what is the correct chain response?",
+        "answer": "A straightening arm is an invitation for the armbar, not a successful Kimura defense. Immediately abandon the figure-four threading and transition to the armbar by swinging your posted leg over the opponent's face, controlling the straightened arm at the wrist, and sitting back with hips elevated against the elbow. The transition should be seamless \u2014 the opponent's defensive reaction to one submission directly creates the entry for the next. This Kimura-to-armbar chain is the highest-percentage combination from Modified Mount.",
+        "safety_critical": false
+      },
+      {
+        "question": "What grip adjustment should you make if the opponent begins rotating their forearm during the finishing phase?",
+        "answer": "If the opponent rotates their forearm to reduce internal rotation pressure, tighten the figure-four by squeezing your elbows closer together and pulling the grip tighter against the back of their tricep. Simultaneously, re-pin the wrist firmly to the mat to eliminate the rotational slack they are exploiting. If they have already created significant slack, briefly release the rotation, re-pin the wrist at a deeper angle closer to their shoulder, and restart the rotation from this improved position. Never chase a loosening grip \u2014 reset and re-establish.",
+        "safety_critical": false
+      },
+      {
+        "question": "In competition, what finishing strategy maximizes the Kimura's effectiveness from Modified Mount against a defensive opponent?",
+        "answer": "Against a purely defensive opponent, use the Kimura as the centerpiece of a three-way attack chain. Threaten the Kimura to force a grip defense, break the grip to threaten the americana, then when they straighten to defend the americana, take the armbar. The competition strategy is not to force the Kimura against maximum resistance but to use it as the primary threat that makes the secondary attacks available. Each failed Kimura attempt that transitions to another submission accumulates fatigue and erodes defensive confidence. The finish often comes on the second or third cycle through the chain, not the first.",
+        "safety_critical": false
+      }
+    ]
+  },
+  "defender": {
+    "name": "Kimura from Modified Mount Defender",
+    "description": "Defend the Kimura from Modified Mount effectively. Recognize grip setups, escape shoulder lock attempts, and recover guard using asymmetric vulnerabilities.",
+    "overview": "Defending the Kimura from Modified Mount requires understanding that the opponent's asymmetric positioning creates both a dangerous submission threat and exploitable structural weaknesses. The posted leg provides the attacker with stability, but it also means their weight is unevenly distributed \u2014 the posted-leg side has less control pressure, which becomes your primary escape direction. Your defensive priorities are layered: first, prevent wrist isolation by keeping your near-side arm tight to your body; second, if the wrist is captured, prevent the figure-four from being threaded by straightening the arm; third, if the figure-four is locked, prevent the wrist from being pinned to the mat. Each layer buys time and creates opportunities to bridge, hip escape, or force the attacker to abandon the submission. The critical safety awareness is recognizing when to tap \u2014 once the wrist is pinned to the mat and rotation begins, the shoulder joint is in immediate danger, and attempting to muscle out risks catastrophic injury to the rotator cuff.",
+    "key_principles": [
+      "Keep the near-side arm glued to your body with elbow tight to your hip \u2014 wrist isolation is the attacker's first step and your first line of defense",
+      "If the wrist is captured, straighten the arm immediately to prevent the figure-four threading \u2014 a straight arm cannot be Kimura-locked",
+      "Escape toward the posted leg side where the attacker's weight distribution is weakest and structural control is most compromised",
+      "Frame on the attacker's hips rather than chest \u2014 hip frames create space for escape without exposing your arms to isolation",
+      "Recognize the point of no return \u2014 once the wrist is pinned to the mat with a locked figure-four, tap immediately rather than risking shoulder injury",
+      "Use the attacker's commitment to the Kimura grip as an opportunity to bridge and escape, since both their hands are occupied and cannot post"
+    ],
+    "recognition_cues": [
+      "Attacker's hand reaches for your near-side wrist on the posted-leg side while maintaining chest pressure through the across-body knee",
+      "You feel the attacker's second hand sliding under your elbow or tricep area, attempting to thread the figure-four grip",
+      "Attacker begins incrementally walking your wrist away from your body using small hand-over-hand movements (paint brush technique)",
+      "You feel the figure-four grip lock around your arm \u2014 your wrist controlled by one hand and the attacker's other hand gripping their own wrist under your elbow",
+      "Attacker drives your wrist toward the mat beside your head while increasing chest pressure to prevent you from turning"
+    ],
+    "defensive_options": [
+      {
+        "action": "Grip your own belt, shorts, or opposite wrist to anchor the near-side arm against your body",
+        "when_to_use": "Early stage \u2014 as soon as you feel the attacker reaching for your wrist. This is your strongest and most energy-efficient defense.",
+        "targets_outcome": "Modified Mount/Top",
+        "if_successful": "Prevents wrist isolation entirely, forcing attacker to either break your grip or abandon the Kimura for another attack",
+        "risk": "Attacker switches to americana or uses paint brush technique to incrementally break your grip anchor"
+      },
+      {
+        "action": "Straighten the arm completely to prevent figure-four threading",
+        "when_to_use": "Mid stage \u2014 if the attacker has isolated your wrist but has not yet completed the figure-four grip under your elbow",
+        "targets_outcome": "Modified Mount/Top",
+        "if_successful": "A straight arm prevents the figure-four from locking. The attacker must either re-bend your arm or abandon the Kimura.",
+        "risk": "A straight arm is the prerequisite for an armbar \u2014 the attacker may immediately chain to an armbar transition instead"
+      },
+      {
+        "action": "Bridge toward the posted leg and hip escape to recover guard",
+        "when_to_use": "When the attacker has committed both hands to the Kimura grip, removing their ability to post against your bridge",
+        "targets_outcome": "Closed Guard/Bottom",
+        "if_successful": "Creates enough space to hip escape and recover closed guard or half guard, escaping both the mount and the submission",
+        "risk": "If the bridge is poorly timed, the posted leg absorbs the momentum. The attacker may also follow your bridge while maintaining the Kimura grip."
+      },
+      {
+        "action": "Turn into the attacker to close the shoulder angle and reduce rotational pressure",
+        "when_to_use": "Late stage \u2014 if the figure-four is locked and the wrist is being driven toward the mat. Turn your body to face the attacker to reduce the effective rotation angle.",
+        "targets_outcome": "Closed Guard/Bottom",
+        "if_successful": "Relieves immediate shoulder pressure and may create enough space to extract the arm or transition to a scramble",
+        "risk": "The across-body knee may prevent effective turning. If only partially successful, you may end up in a worse position with the Kimura still locked."
+      }
+    ],
+    "escape_paths": [
+      "Bridge toward the posted leg and hip escape to recover half guard or closed guard while the attacker's hands are committed to the Kimura grip",
+      "Straighten the arm to defeat the figure-four and immediately frame on the attacker's hips to create space for a hip escape",
+      "Turn into the attacker to close the shoulder rotation angle, then use the turning momentum to drive into a scramble position"
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Closed Guard/Bottom",
+        "how": "Bridge explosively toward the posted leg when both of the attacker's hands are committed to the Kimura grip, then hip escape and recover closed guard by locking your legs around their waist before they can re-establish mount control"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Extending the near-side arm to frame on the attacker's chest or push them away",
+        "consequence": "Exposes the exact arm the attacker needs for the Kimura. Framing on the chest isolates the wrist and creates the distance needed for the figure-four threading.",
+        "correction": "Keep the near-side arm tight to your body at all times. Frame on the attacker's hips with your far-side arm instead \u2014 hip frames create space without exposing the targeted arm."
+      },
+      {
+        "error": "Attempting to muscle out of a locked figure-four by pulling the arm back toward your body",
+        "consequence": "Wastes enormous energy against a mechanically superior grip. The figure-four leverages two arms against one, making a strength escape nearly impossible and risking shoulder injury from self-applied force.",
+        "correction": "If the figure-four is locked, switch to positional escapes \u2014 bridge and hip escape rather than trying to break the grip directly. Use your whole body to create space, not your arm to fight the grip."
+      },
+      {
+        "error": "Bridging directly upward or toward the across-body knee instead of toward the posted leg",
+        "consequence": "Bridging into the strongest part of the attacker's base wastes energy and may actually help them advance the submission by moving your arm into a worse position",
+        "correction": "Always bridge toward the posted leg side where the attacker's base is widest and their weight is lightest. The posted leg is designed for stability, not for preventing directional escapes \u2014 a committed bridge toward it with a hip escape can create guard recovery opportunities."
+      },
+      {
+        "error": "Waiting too long to tap once the wrist is pinned to the mat and rotation begins",
+        "consequence": "The shoulder joint can suffer partial rotator cuff tears or labral damage in less than one second of aggressive rotation. Pain signals often arrive after the damage is already done.",
+        "correction": "Once the wrist is pinned and rotation pressure begins, tap immediately if you cannot turn into the attacker within the first second. Training longevity depends on recognizing this point of no return."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "How do you recognize that the Kimura from Modified Mount is being set up before the grip is secured?",
+        "answer": "The earliest recognition cue is the attacker reaching for your near-side wrist while maintaining chest pressure through the across-body knee. You will feel their hand contacting your wrist or forearm on the posted-leg side. Secondary cues include the attacker shifting their weight slightly toward the posted leg (preparing to thread the figure-four) and their second hand beginning to slide under your elbow area. The paint brush technique feels like incremental tugging on your wrist in small movements toward the mat.",
+        "safety_critical": false
+      },
+      {
+        "question": "When should you tap to the Kimura from Modified Mount, and what signals should you use?",
+        "answer": "Tap immediately once the figure-four is locked and the wrist is pinned to the mat with rotational pressure beginning. Do not wait for pain \u2014 shoulder damage often occurs before pain signals register. Use multiple rapid hand taps with your free hand on the attacker's body, verbal tap by saying 'tap' clearly, or foot taps on the mat if your hand is trapped. Any distress sound should be treated as a tap by both partners. If you feel the shoulder reaching its rotational limit, tap before testing whether you can escape \u2014 the cost of a late tap is months of recovery.",
+        "safety_critical": true
+      },
+      {
+        "question": "What is the most effective early defense against the Kimura from Modified Mount?",
+        "answer": "The most effective early defense is preventing wrist isolation by gripping your own belt, shorts, or opposite wrist with your near-side hand, anchoring the arm against your body. This creates a two-arm-against-two-arm structure rather than the two-against-one disadvantage of the locked figure-four. Maintain this grip with your elbow tight to your hip. The attacker must break this grip before they can advance the submission, which buys you time to work on bridging and positional escapes.",
+        "safety_critical": false
+      },
+      {
+        "question": "Why is straightening the arm both a valid Kimura defense and a dangerous tactical choice?",
+        "answer": "Straightening the arm prevents the figure-four grip from being threaded because the Kimura requires a bent arm to create the lever. However, a straight arm is the exact prerequisite for an armbar \u2014 the attacker can immediately chain from the Kimura attempt to an armbar by swinging the posted leg over your face and sitting back. This means straightening the arm solves the immediate Kimura threat but creates a new armbar threat. The correct use is to straighten briefly to defeat the figure-four, then immediately re-bend and grip to prevent both submissions.",
+        "safety_critical": false
+      },
+      {
+        "question": "How does the asymmetric weight distribution of Modified Mount affect your escape direction choice?",
+        "answer": "The posted leg side carries less of the attacker's weight because the posted foot is on the mat rather than pressing into your body. This means bridging and hip escaping toward the posted leg side encounters less resistance than escaping toward the across-body knee where the attacker's full control pressure is concentrated. The posted leg provides the attacker stability against bridges but does not block hip escapes in the same direction. Your escape plan should consistently target the posted-leg side where the structural gap between the attacker's hip and your body is largest.",
+        "safety_critical": false
+      },
+      {
+        "question": "What should you do if the attacker has the figure-four locked but has not yet pinned your wrist to the mat?",
+        "answer": "This is your last reliable escape window before the submission becomes extremely dangerous. Immediately bridge hard toward the posted leg while pulling your elbow tight to your body \u2014 the attacker's hands are both committed to the grip and cannot post to stop the bridge. Simultaneously hip escape in the direction of the bridge to create space for guard recovery. If the bridge alone does not break position, turn your body aggressively toward the attacker to close the shoulder rotation angle, reducing the mechanical advantage of the figure-four. Do not try to break the grip \u2014 use whole-body movement to escape the position instead.",
+        "safety_critical": true
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Recognition and early defense",
+        "focus": "Identifying Kimura setup cues and practicing grip anchoring",
+        "description": "Partner establishes Modified Mount and slowly reaches for the Kimura setup. Practice recognizing the wrist grab and immediately gripping your own belt or shorts to anchor the arm. Focus on developing the reflex to protect the near-side arm the moment you feel the attacker's hand on your wrist. Drill both sides."
+      },
+      {
+        "phase": "Phase 2: Mid-stage defensive responses",
+        "focus": "Straightening arm defense and bridge timing",
+        "description": "Partner isolates the wrist and attempts to thread the figure-four. Practice straightening the arm to prevent the lock, then immediately re-bending and re-gripping. Also practice timing bridges for the moment both attacker hands are committed to the grip. Light resistance from partner."
+      },
+      {
+        "phase": "Phase 3: Escape execution under pressure",
+        "focus": "Converting defensive responses into guard recovery",
+        "description": "Partner applies the Kimura at moderate resistance. Practice the complete escape sequence: recognize setup, apply early defense, bridge toward posted leg, hip escape to recover guard. Partner increases resistance progressively. Track how often you recover guard versus how often you need to tap."
+      },
+      {
+        "phase": "Phase 4: Live positional sparring",
+        "focus": "Defending the Kimura and its chains in realistic conditions",
+        "description": "Full resistance positional sparring starting from Modified Mount. Partner attacks Kimura and chains to armbar and americana. Practice reading which submission is being threatened and applying the correct defense for each. Develop comfort with tapping early and resetting rather than risking injury."
+      }
+    ]
+  }
+}

@@ -251,15 +251,14 @@ This technique is commonly seen in high-level competition and represents excelle
 
 ## Related Submissions
 
-- [[Transitions/Rear Naked Choke]]
-- [[Transitions/Armbar from Crucifix]]
+- [[Submissions/Rear Naked Choke]]
 - [[Transitions/Clock Choke]]
-- [[Transitions/Triangle Choke]]
-- [[Transitions/Kimura]]
-- [[Submissions/Ezekiel Choke]]
 - [[Transitions/Arm Triangle]]
-- [[Transitions/Bow and Arrow Choke]]
-- [[Transitions/Short Choke]]
+- [[Submissions/Kimura]]
+- [[Submissions/Ezekiel Choke]]
+- [[Submissions/Bow and Arrow Choke]]
+- [[Submissions/Bicep Slicer]]
+- [[Transitions/Darce Choke]]
 
 
 </section>
@@ -275,7 +274,7 @@ This technique is commonly seen in high-level competition and represents excelle
 - [[Positions/Mount/Mounted Crucifix]] - Variation position that provides similar choking opportunities
 - [[Positions/Back Control/Seat Belt Control Back]] - Back control variation that transitions well into crucifix
 - [[Positions/Crab Ride]] - Alternative back control position with crucifix entry options
-- [[Transitions/Rear Naked Choke]] - Related choke sharing similar mechanics from back position
+- [[Rear Naked Choke from Gift Wrap]] - Related choke sharing similar arm-control mechanics from back position
 - [[Positions/Back Control]] - Dominant position that commonly precedes crucifix establishment
 
 

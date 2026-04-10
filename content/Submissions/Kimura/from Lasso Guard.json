@@ -1,0 +1,451 @@
+{
+  "name": "Kimura from Lasso Guard",
+  "description": "Master the Kimura shoulder lock from Lasso Guard top position. Learn setup mechanics, figure-four grip details, finishing sequences, and defensive counters.",
+  "tags": [
+    "bjj",
+    "submission",
+    "kimura",
+    "shoulder-lock",
+    "joint-lock",
+    "lasso-guard",
+    "guard-passing",
+    "finishing-guide",
+    "hub"
+  ],
+  "submission_category": "Joint Lock",
+  "submission_type": "Shoulder Lock",
+  "target_area": "Shoulder joint, rotator cuff, and shoulder capsule",
+  "starting_position": "Lasso Guard",
+  "from_position": "Lasso Guard/Top",
+  "success_rate": 62,
+  "overview": "The Kimura from Lasso Guard is an opportunistic shoulder lock attack available to the top player when the guard player over-commits to maintaining lasso control. When the bottom player threads their shin across your arm and focuses on extending the lasso, their non-lasso arm often becomes vulnerable\u2014typically the hand gripping the collar or posting on the mat. By isolating this arm with a figure-four grip and applying controlled rotational force, the top player transforms a defensive guard-passing scenario into a direct submission threat.\n\nThis attack exploits the fundamental trade-off inherent in lasso guard: the bottom player commits significant body structure to maintaining the lasso, leaving secondary control points exposed. The top player must recognize the window when the non-lasso arm drifts away from a protected position\u2014usually when the bottom player reaches for collar grips, attempts sweep setups, or adjusts hip positioning. Timing the Kimura entry during these moments of commitment dramatically increases finishing probability.\n\nThe Kimura from Lasso Guard creates a powerful tactical dilemma. If the bottom player defends the Kimura by releasing their lasso grips, the top player gains favorable passing position with the primary obstacle removed. If they stubbornly maintain the lasso while defending the Kimura, their posture collapses and the submission pressure compounds. This win-win dynamic makes the Kimura attempt valuable even when it does not result in a direct tap, as it systematically degrades the bottom player's guard structure.",
+  "safety_considerations": {
+    "injury_risks": [
+      {
+        "injury": "Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis)",
+        "severity": "High",
+        "recovery_time": "3-9 months with potential surgery requirement"
+      },
+      {
+        "injury": "Shoulder capsule damage and dislocation",
+        "severity": "CRITICAL",
+        "recovery_time": "6-12 months, may require surgical repair"
+      },
+      {
+        "injury": "Labral tear (glenoid labrum)",
+        "severity": "High",
+        "recovery_time": "4-8 months, often requires arthroscopic surgery"
+      },
+      {
+        "injury": "Bicep tendon strain or rupture",
+        "severity": "Medium",
+        "recovery_time": "6-12 weeks for strain, 3-6 months for rupture"
+      }
+    ],
+    "application_speed": "SLOW and progressive - 3-5 seconds minimum in training, allowing partner time to recognize danger and tap",
+    "tap_signals": [
+      "Verbal tap (saying 'tap' or making any verbal distress sound)",
+      "Physical hand tap (multiple taps with free hand)",
+      "Physical foot tap (multiple taps with either foot)",
+      "Any distress signal including screaming or unusual sounds"
+    ],
+    "release_protocol": [
+      "Immediately stop all rotational pressure the instant tap is felt or heard",
+      "Return the arm toward neutral position (externally rotate back to starting position)",
+      "Release the figure-four grip completely",
+      "Allow partner to self-assess shoulder mobility before continuing",
+      "Never release suddenly or allow arm to spring back forcefully"
+    ],
+    "training_restrictions": [
+      "Never spike or jerk the submission - rotation must be smooth and controlled",
+      "Never use competition speed or surprise attacks in training",
+      "Always ensure partner has at least one hand free to tap",
+      "Do not apply while partner is in awkward body position that prevents tapping",
+      "Never combine with weight pressure that restricts breathing while finishing",
+      "Respect immediate taps without testing partner's pain tolerance"
+    ]
+  },
+  "from_positions": [
+    "Lasso Guard",
+    "Inverted Lasso Guard"
+  ],
+  "related_submissions": [
+    "Kimura",
+    "Americana",
+    "Far Side Armbar",
+    "Arm Triangle",
+    "Darce Choke"
+  ],
+  "related_content": [
+    {
+      "name": "Lasso Guard",
+      "relationship": "Starting position where this Kimura variant is executed from the top player perspective"
+    },
+    {
+      "name": "Kimura Trap",
+      "relationship": "Control position often reached when opponent partially defends the Kimura and the grip is maintained"
+    },
+    {
+      "name": "Spider Guard",
+      "relationship": "Related guard position with similar sleeve control mechanics where comparable Kimura opportunities arise"
+    },
+    {
+      "name": "Side Control",
+      "relationship": "Common position reached after using the Kimura threat to break lasso grips and complete the guard pass"
+    }
+  ],
+  "outcomes": [
+    {
+      "to": "game-over",
+      "probability": 62,
+      "result": "success"
+    },
+    {
+      "to": "Lasso Guard/Top",
+      "probability": 25,
+      "result": "failure"
+    },
+    {
+      "to": "Closed Guard/Bottom",
+      "probability": 13,
+      "result": "counter"
+    }
+  ],
+  "variations_and_setups": [
+    {
+      "variation_name": "Standing Kimura from Lasso Guard",
+      "description": "When the top player stands to address the lasso, the guard player's extended non-lasso arm becomes more vulnerable. The standing player drops their weight onto the exposed arm and locks the figure-four from a standing base, using gravity to assist the rotational finish.",
+      "when_to_use": "When you stand to pass and notice the opponent's non-lasso arm extended and unprotected"
+    },
+    {
+      "variation_name": "Lasso Clear to Kimura Trap Transition",
+      "description": "Instead of finishing the Kimura immediately, use the figure-four grip to drive the opponent's arm down and clear the lasso entanglement, then transition to the Kimura Trap control position. From Kimura Trap, multiple finishing options become available including the standard Kimura finish, back take, and armbar.",
+      "when_to_use": "When the opponent successfully defends the direct finish but you maintain the figure-four grip through the clearing sequence"
+    }
+  ],
+  "attacker": {
+    "name": "from Lasso Guard Attacker",
+    "description": "Learn to execute the Kimura shoulder lock from Lasso Guard top. Complete guide covering grip setup, arm isolation, finishing mechanics, and counter responses.",
+    "overview": "Attacking with the Kimura from Lasso Guard top requires recognizing the moment when the bottom player's non-lasso arm becomes vulnerable. The attack capitalizes on the guard player's structural commitment to maintaining the lasso\u2014their focus on sleeve control and shin placement creates a window where the free arm drifts into an exposed position. Success depends on rapid arm isolation, heavy chest pressure to pin the opponent's hips, and controlled rotational finishing mechanics that attack the shoulder joint through the figure-four grip system. The dual-purpose nature of this attack makes it especially valuable: even unsuccessful attempts degrade the opponent's guard by forcing them to release grips or compromise posture to defend.",
+    "key_principles": [
+      "Identify the vulnerability window when the opponent's non-lasso arm extends for grips, posts, or adjustments before committing to the attack",
+      "Establish heavy chest-to-chest pressure to flatten the opponent's hips before attempting to secure the figure-four grip",
+      "Keep both elbows pinched tight to your body throughout the grip establishment and finishing sequence to maximize rotational torque",
+      "Control the opponent's wrist firmly against your centerline before threading the figure-four\u2014never reach for a loose arm",
+      "Use the Kimura threat as a dual-purpose tool: finish the submission or force the opponent to abandon lasso grips, opening passing opportunities",
+      "Rotate the captured arm toward the mat behind the opponent's hip line using your entire body, not just arm strength"
+    ],
+    "setup_requirements": [
+      "Established top position with base maintained against lasso guard sweeps and off-balancing attempts",
+      "Opponent's non-lasso arm identified in a vulnerable position\u2014extended for grips, posting on the mat, or reaching across their body",
+      "Chest pressure established or ready to deploy immediately to limit opponent's hip mobility during the attack",
+      "Free hand available and positioned to secure the initial wrist control before threading the figure-four grip",
+      "Lasso control at least partially neutralized through posture or pressure to prevent being swept during the attack"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Control the target arm",
+        "description": "When the opponent's non-lasso arm extends for a collar grip, lapel control, or posts on the mat, immediately pin their wrist to your centerline using your free hand. This initial wrist control must be firm and decisive\u2014hesitation allows the opponent to retract the arm into a defensive position where the Kimura becomes unavailable.",
+        "timing": "Immediate upon recognizing arm extension"
+      },
+      {
+        "step_number": 2,
+        "action": "Drive chest pressure forward",
+        "description": "Lower your chest directly onto the opponent's torso, driving your weight through your sternum into their solar plexus. This flattens their hips against the mat, eliminating the angular hip movement that powers both lasso sweeps and Kimura defense frames. Keep your head low and tight against their shoulder to prevent re-establishing collar control.",
+        "timing": "Within 1-2 seconds of securing wrist control"
+      },
+      {
+        "step_number": 3,
+        "action": "Thread the figure-four grip",
+        "description": "Slide your arm under the opponent's controlled arm from the elbow side, threading between their bicep and torso. Grip your own wrist to complete the figure-four configuration. The grip should lock with their elbow pinched against your ribs\u2014any space between their arm and your body significantly reduces the leverage available for the finishing rotation.",
+        "timing": "2-3 seconds while maintaining chest pressure"
+      },
+      {
+        "step_number": 4,
+        "action": "Clear remaining lasso entanglement",
+        "description": "If your arm remains partially lassoed, use the downward pressure of the Kimura grip to push through the opponent's shin contact. The figure-four grip provides sufficient structural support to work your arm free while maintaining the submission threat. Many opponents release the lasso voluntarily at this stage to free their hips for Kimura defense.",
+        "timing": "2-4 seconds of controlled clearing"
+      },
+      {
+        "step_number": 5,
+        "action": "Rotate the arm behind their back",
+        "description": "Keep your elbows tight to your torso and begin rotating the opponent's wrist in an arc toward the mat behind their hip. Use your entire upper body to generate rotation rather than isolated arm strength. The rotation should travel in a paint-brush arc\u2014their hand sweeps from their centerline toward the space behind their far hip in a smooth, continuous motion.",
+        "timing": "3-5 seconds of progressive rotation"
+      },
+      {
+        "step_number": 6,
+        "action": "Apply controlled finishing pressure",
+        "description": "Continue the rotational pressure smoothly and progressively until you feel the shoulder reaching its anatomical limit. Monitor the opponent's verbal and physical responses for tap signals throughout the entire finishing phase. The finish comes from steady incremental rotation combined with constant chest pressure that prevents any defensive hip escape or bridge attempt.",
+        "timing": "3-5 seconds minimum, never rush"
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Straightening the captured arm and pulling elbow tight to the body to prevent figure-four establishment",
+        "effectiveness": "High",
+        "your_response": "Switch to an Americana by redirecting the wrist pressure toward the mat instead of rotating behind the back, or use the grip disruption to advance your passing position since the defense weakens the lasso",
+        "targets_outcome": "Lasso Guard/Top"
+      },
+      {
+        "counter": "Bridging and rolling toward the Kimura side to relieve rotational pressure and create a scramble",
+        "effectiveness": "Medium",
+        "your_response": "Follow the roll while maintaining the figure-four grip, transitioning to a mounted or side control Kimura position where the submission often becomes tighter due to the loss of ground support for the defender's shoulder",
+        "targets_outcome": "Lasso Guard/Top"
+      },
+      {
+        "counter": "Releasing lasso grips entirely and pulling to closed guard to create defensive distance and remove the arm exposure",
+        "effectiveness": "Medium",
+        "your_response": "Accept the guard change as a tactical win\u2014the lasso obstacle is removed. Either maintain the Kimura grip through the transition or release to pass the weakened closed guard",
+        "targets_outcome": "Closed Guard/Bottom"
+      },
+      {
+        "counter": "Using the free leg to push on your hip and create frames to prevent the chest pressure needed for finishing",
+        "effectiveness": "Low",
+        "your_response": "Drive your weight through the frames using the Kimura grip as an anchor point. The opponent's lasso leg commitment limits their ability to generate effective pushing force with the remaining leg",
+        "targets_outcome": "Lasso Guard/Top"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Reaching for the Kimura grip on a fully retracted arm instead of waiting for the opponent to extend",
+        "consequence": "Opponent easily defends by keeping their elbow tight and may use your overextended reach to sweep you forward off your base",
+        "correction": "Wait for the natural arm extension that occurs when the opponent reaches for grips, adjusts their lasso position, or posts on the mat before committing to the attack"
+      },
+      {
+        "error": "Attempting the Kimura without first establishing chest pressure to control the opponent's hips",
+        "consequence": "Opponent retains full hip mobility to angle out, reguard, or sweep using the lasso leverage that remains completely active",
+        "correction": "Drive chest pressure down to flatten the opponent's hips before threading the figure-four grip, removing their primary defensive and offensive tools"
+      },
+      {
+        "error": "Keeping elbows wide and away from the body during the figure-four grip and rotation phase",
+        "consequence": "Opponent easily frames against your extended elbows, creates space, and extracts their arm from the weakened grip configuration",
+        "correction": "Pinch both elbows tight to your ribs throughout the entire sequence\u2014the figure-four is strongest when the opponent's arm is compressed directly against your torso"
+      },
+      {
+        "error": "Jerking or spiking the rotation instead of applying smooth progressive pressure",
+        "consequence": "Risk of serious shoulder injury to training partner including rotator cuff tears and labral damage, plus potential disqualification in competition for dangerous technique application",
+        "correction": "Apply rotation slowly and steadily over 3-5 seconds minimum, giving the opponent time to recognize the danger and deliver a clear tap signal"
+      },
+      {
+        "error": "Abandoning base and pulling both knees together during the Kimura attempt",
+        "consequence": "Opponent uses the remaining lasso leverage to sweep you while you focus on the submission, resulting in a complete position reversal and lost opportunity",
+        "correction": "Maintain wide leg base even while attacking the Kimura, keeping at least one knee posted wide and your weight distributed to defend against sweep attempts throughout"
+      },
+      {
+        "error": "Ignoring the remaining lasso entanglement while focusing entirely on finishing the submission",
+        "consequence": "The lasso restricts your arm movement and prevents you from generating full rotational torque, significantly reducing finishing power and control",
+        "correction": "Address the lasso as part of the Kimura sequence\u2014use the downward pressure of the figure-four to clear the shin, or accept that the opponent will release grips to defend the shoulder"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Recognition and Entry",
+        "focus": "Timing and arm isolation",
+        "description": "Partner plays lasso guard at 30% resistance. Practice identifying when the non-lasso arm extends and securing initial wrist control. No finishing\u2014focus entirely on recognizing the vulnerability window and establishing the first grip contact."
+      },
+      {
+        "phase": "Phase 2: Grip Mechanics",
+        "focus": "Figure-four establishment under pressure",
+        "description": "Partner offers moderate resistance to the figure-four threading. Practice transitioning from wrist control to complete figure-four while maintaining chest pressure. Partner defends at 50% but allows the grip to be established for repetition building."
+      },
+      {
+        "phase": "Phase 3: Finishing Sequence",
+        "focus": "Controlled rotation and pressure application",
+        "description": "Complete the full submission sequence against progressive resistance. Partner taps at realistic anatomical limits. Focus on smooth rotational pressure, maintaining base throughout, and monitoring for tap signals during the entire finishing phase."
+      },
+      {
+        "phase": "Phase 4: Live Integration",
+        "focus": "Kimura as part of passing strategy",
+        "description": "Situational sparring starting in lasso guard at full resistance. Practice using the Kimura threat to either finish the submission or force the opponent to abandon lasso grips. Develop the ability to transition fluidly between passing and attacking based on defensive responses."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What anatomical structures does the Kimura from Lasso Guard primarily attack?",
+        "answer": "The Kimura attacks the shoulder joint complex, specifically targeting the rotator cuff muscles (supraspinatus, infraspinatus, teres minor, subscapularis), the shoulder capsule ligaments, and the glenoid labrum. The rotational force applied through the figure-four grip exceeds the shoulder's range of internal rotation, creating simultaneous pressure on all of these structures.",
+        "safety_critical": true
+      },
+      {
+        "question": "Why is chest pressure essential before establishing the figure-four grip?",
+        "answer": "Chest pressure flattens the opponent's hips against the mat, removing the angular hip movement that powers both lasso guard sweeps and Kimura defensive frames. Without this pressure, the opponent retains the ability to angle out, reguard, or use remaining lasso leverage to sweep during the grip establishment phase, making the attack far less likely to succeed.",
+        "safety_critical": false
+      },
+      {
+        "question": "Your opponent straightens their captured arm and pulls their elbow tight to their body\u2014what adjustment prevents escape?",
+        "answer": "Switch the attack direction to an Americana by redirecting the wrist pressure toward the mat rather than rotating behind the back. The straight arm defense that blocks the Kimura rotation actually exposes the opponent to the Americana's opposite-direction pressure. Alternatively, use the grip disruption to advance your passing position since the defensive focus has likely weakened the lasso.",
+        "safety_critical": false
+      },
+      {
+        "question": "What is the proper speed for applying rotational pressure during the Kimura finish?",
+        "answer": "The rotation must be slow and progressive, taking a minimum of three to five seconds in training. This controlled application gives the opponent adequate time to recognize the danger and deliver a clear tap signal. Jerking or spiking the rotation risks catastrophic shoulder injury including rotator cuff tears and labral damage that may require surgical repair and months of recovery.",
+        "safety_critical": true
+      },
+      {
+        "question": "When should you release the Kimura after feeling or hearing a tap?",
+        "answer": "Release all rotational pressure immediately upon any tap signal\u2014verbal, physical hand tap, foot tap, or any distress sound. Return the arm toward neutral position by reversing the rotation slowly, then release the figure-four grip completely. Never release suddenly as the arm springing back forcefully can cause additional injury. Allow the partner to self-assess shoulder mobility before continuing.",
+        "safety_critical": true
+      },
+      {
+        "question": "Your opponent bridges and rolls toward the Kimura side during your finishing attempt\u2014how do you respond?",
+        "answer": "Follow the roll while maintaining the figure-four grip, allowing the momentum to carry you into a mounted or side control Kimura position. Keep your grip locked and elbows tight as you transition through the roll. The opponent's bridge actually improves your finishing position by removing the ground as a brace for their shoulder, often making the submission tighter after the position change.",
+        "safety_critical": false
+      },
+      {
+        "question": "How does the Kimura threat create a tactical dilemma for the lasso guard player?",
+        "answer": "The Kimura forces the bottom player into a lose-lose decision: defending the shoulder lock typically requires releasing lasso grips and bringing the arm to a safe position, which removes the primary guard obstacle and opens direct passing opportunities. Maintaining the lasso while defending the Kimura is structurally impossible because the shin commitment and grip extension create the exact arm vulnerability the Kimura exploits.",
+        "safety_critical": false
+      },
+      {
+        "question": "What is the most common error that leads to being swept during a Kimura attempt from Lasso Guard top?",
+        "answer": "Abandoning base by bringing both knees close together or lifting a posting leg while focusing on the submission grip. The remaining lasso leverage gives the bottom player significant sweeping power, and any compromise in the top player's base creates an immediate sweep window. Maintaining wide leg base with at least one knee posted throughout the entire attack sequence is essential for stability.",
+        "safety_critical": false
+      },
+      {
+        "question": "What grip configuration provides maximum control during the figure-four finish?",
+        "answer": "The figure-four should lock with the opponent's elbow pinched directly against your ribs, with both of your elbows tight to your torso. Grip your own wrist firmly, not your fingers or forearm. Any space between the opponent's arm and your body reduces the rotational leverage available. The finishing power comes from torso rotation with the arm compressed against you, not from isolated arm strength pulling the wrist.",
+        "safety_critical": false
+      },
+      {
+        "question": "When is the optimal moment to initiate the Kimura attack from Lasso Guard top?",
+        "answer": "The optimal moment is when the opponent's non-lasso arm extends away from their body\u2014reaching for a collar grip, posting on the mat to adjust hip angle, or reaching across their own body to establish secondary controls. Attacking a retracted arm that is tight against the body is extremely difficult and likely to fail, while an extended arm provides the space needed to establish wrist control and thread the figure-four.",
+        "safety_critical": false
+      }
+    ]
+  },
+  "defender": {
+    "name": "from Lasso Guard Defender",
+    "description": "Complete defense guide for the Kimura from Lasso Guard. Learn early recognition cues, arm protection mechanics, escape paths, and safe recovery strategies.",
+    "overview": "Defending against the Kimura from Lasso Guard requires understanding the specific moments of vulnerability that the top player exploits. As the lasso guard player, your commitment to maintaining sleeve control and shin positioning creates windows where your non-lasso arm becomes exposed\u2014particularly when reaching for collar grips, posting on the mat, or adjusting hip angles. Successful defense begins with recognizing the attack early, before the figure-four grip locks, and involves a combination of arm retraction, hip movement, and grip fighting to prevent the top player from establishing the mechanical advantage needed to finish the submission. The critical defensive principle is maintaining elbow connection to your torso at all times, denying the space the attacker needs to thread the figure-four.",
+    "key_principles": [
+      "Keep your non-lasso elbow connected to your hip or ribs whenever not actively gripping\u2014the Kimura requires space between your arm and body to thread the figure-four",
+      "Recognize the attack at the wrist control stage, before the figure-four establishes, when defense is simplest and most energy-efficient",
+      "Use hip movement to create angles that prevent the top player from establishing the chest pressure needed to flatten you for the finish",
+      "Prioritize arm retraction over maintaining secondary grips when you sense Kimura danger\u2014releasing a collar grip costs far less than defending a locked submission",
+      "If the figure-four locks, immediately grip your own belt, lapel, or shorts to create an anchor that prevents the attacker from generating rotation",
+      "Be willing to abandon the lasso entirely if necessary to safely extract your arm from the Kimura threat\u2014position recovery is always available"
+    ],
+    "recognition_cues": [
+      "The top player's free hand reaches for and controls your non-lasso wrist or forearm with deliberate purpose rather than standard passing grips",
+      "The top player suddenly drives chest pressure forward and down, flattening your hips against the mat in preparation for figure-four threading",
+      "The top player begins threading their arm under your controlled arm from the elbow side, indicating figure-four grip establishment is imminent",
+      "The top player's posture shifts from an upright guard passing stance to a low, compressed position focused on controlling your arm rather than addressing your legs"
+    ],
+    "defensive_options": [
+      {
+        "action": "Retract the targeted arm immediately by pulling your elbow to your hip and gripping your own lapel or belt",
+        "when_to_use": "Early stage when the attacker first reaches for wrist control before the figure-four is established",
+        "targets_outcome": "Lasso Guard/Top",
+        "if_successful": "Attacker cannot establish the figure-four grip and must return to passing. You maintain lasso guard position with increased awareness",
+        "risk": "Releasing your collar grip may temporarily weaken your overall guard structure and reduce offensive options"
+      },
+      {
+        "action": "Bridge toward the Kimura side and hip escape to create space, then reguard to closed guard",
+        "when_to_use": "When the figure-four is partially or fully locked but rotational pressure has not yet begun",
+        "targets_outcome": "Closed Guard/Bottom",
+        "if_successful": "You escape the shoulder lock threat and transition to closed guard where the Kimura is significantly harder to finish",
+        "risk": "Bridge must be committed and explosive\u2014a weak bridge allows the attacker to settle back into finishing position with better control"
+      },
+      {
+        "action": "Release lasso grips entirely and use both hands to fight the figure-four grip while hip escaping",
+        "when_to_use": "When the Kimura is locked and rotational pressure is building beyond what single-hand defense can manage",
+        "targets_outcome": "Lasso Guard/Top",
+        "if_successful": "You break the grip configuration and can work to re-establish a guard position, though the lasso must be rebuilt",
+        "risk": "Abandoning the lasso means losing your primary guard structure and potentially facing immediate passing pressure if the grip strip fails"
+      },
+      {
+        "action": "Roll with the Kimura rotation toward the attacker to relieve pressure and create a scramble situation",
+        "when_to_use": "Last resort when rotation has begun and the submission is approaching the finishing range",
+        "targets_outcome": "Closed Guard/Bottom",
+        "if_successful": "The roll disrupts the attacker's base and may create a scramble opportunity or transition to a less dangerous position",
+        "risk": "If the attacker follows the roll while maintaining the grip, you may end up in a worse position with the Kimura still locked from mount or side control"
+      }
+    ],
+    "escape_paths": [
+      "Retract the arm early and grip your own lapel or belt to create an anchor against rotation before the figure-four locks completely",
+      "Bridge toward the Kimura side and hip escape to create space, then pull the elbow free and immediately close guard around the attacker's waist",
+      "Release all lasso grips and use both hands to strip the figure-four grip at the wrist connection point while shrimping away to create distance"
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Lasso Guard/Top",
+        "how": "Retract the targeted arm before the figure-four establishes, maintain lasso guard integrity, and continue playing guard with greater awareness of arm positioning and exposure"
+      },
+      {
+        "outcome": "Closed Guard/Bottom",
+        "how": "Bridge toward the Kimura side and hip escape during the early rotation phase, pulling your arm free and immediately closing your guard around the attacker's waist before they can transition to passing"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Extending the non-lasso arm carelessly for collar grips without awareness of Kimura danger zones",
+        "consequence": "Top player catches the extended arm with wrist control and establishes the figure-four before the arm can be retracted to safety",
+        "correction": "Reach for secondary grips with deliberate awareness and keep your elbow connected to your torso as much as possible. If you feel wrist control, immediately retract before the figure-four threads"
+      },
+      {
+        "error": "Trying to maintain the lasso at all costs when the Kimura figure-four is already locked",
+        "consequence": "Sacrificing shoulder health and escape opportunity while trying to preserve a guard position that is already structurally compromised",
+        "correction": "Abandon the lasso immediately when a figure-four locks on your arm\u2014shoulder health takes absolute priority over any guard position, and the guard can be rebuilt after escaping"
+      },
+      {
+        "error": "Bridging away from the Kimura side instead of toward it when attempting to escape",
+        "consequence": "Increasing the rotational arc available to the attacker, making the submission tighter and reducing the time window for successful escape",
+        "correction": "Bridge toward the Kimura side to compress the available space, reducing the rotation the attacker can generate and creating a better angle for hip escape and arm extraction"
+      },
+      {
+        "error": "Failing to grip an anchor point when the figure-four locks around the arm",
+        "consequence": "The attacker can immediately rotate the arm with no resistance, finishing the submission before any meaningful defensive response can be mounted",
+        "correction": "Instantly grab your own belt, lapel, shorts, or opposite wrist the moment you feel the figure-four threading\u2014this creates a structural anchor that buys critical time for hip escape"
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the earliest recognition cue that a Kimura attack is developing from Lasso Guard top?",
+        "answer": "The earliest cue is the top player deliberately controlling your non-lasso wrist or forearm with purpose rather than using standard passing grips. Before this, they may telegraph the attack by suddenly shifting their weight forward and compressing their chest against your torso. Recognizing the intention at the wrist control stage allows defense before the figure-four locks, which is significantly easier than escaping a fully established Kimura grip.",
+        "safety_critical": false
+      },
+      {
+        "question": "When should you tap to a Kimura from Lasso Guard rather than continuing to defend?",
+        "answer": "Tap immediately when you feel rotational pressure on your shoulder that you cannot stop with your current defensive grip or position. If the figure-four is locked, your anchor grip has been broken, and rotation has begun past your comfortable range of motion, continuing to resist risks catastrophic rotator cuff or labral injury. It is always safer to tap early and reset than to risk a training injury that could require surgery and months of recovery.",
+        "safety_critical": true
+      },
+      {
+        "question": "Why should you bridge toward the Kimura side rather than away from it when escaping?",
+        "answer": "Bridging toward the Kimura side compresses the rotational arc available to the attacker, reducing the mechanical advantage they need to finish. Bridging away from the Kimura side actually increases the distance the arm can travel, making the submission tighter and giving the attacker more room to generate finishing pressure. The toward-side bridge also creates better hip escape angles for extracting the captured arm.",
+        "safety_critical": false
+      },
+      {
+        "question": "What immediate action should you take the moment you feel a figure-four grip threading under your arm?",
+        "answer": "Immediately grab the nearest anchor point\u2014your own belt, lapel, pants, or opposite wrist\u2014with the threatened hand to prevent the attacker from generating any rotation. This buys critical time to begin hip escape and bridge sequences. Without an anchor grip, the attacker can finish the submission almost immediately once the figure-four locks, leaving no time for positional defense or escape attempts.",
+        "safety_critical": false
+      },
+      {
+        "question": "What defensive options are available if you recognize the Kimura before the figure-four is established?",
+        "answer": "The primary defense is immediate arm retraction\u2014pull your elbow tight to your hip and grip your own lapel or belt to anchor the arm in a safe position. This denies the space the attacker needs to thread the figure-four. You can also use hip movement to angle away from the attacker, preventing the chest pressure they need to flatten your hips. Releasing a collar grip is always preferable to defending a locked shoulder lock.",
+        "safety_critical": false
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Recognition Drilling",
+        "focus": "Identifying Kimura attack cues early",
+        "description": "Partner plays Lasso Guard top and intermittently initiates Kimura attacks at slow speed. Practice recognizing wrist control and chest pressure cues. Call out the attack verbally when you identify it developing\u2014builds pattern recognition before adding defensive responses."
+      },
+      {
+        "phase": "Phase 2: Early Defense Mechanics",
+        "focus": "Arm retraction and anchor gripping",
+        "description": "Partner initiates Kimura at 40% speed. Practice the full early defense sequence: recognize wrist control, retract elbow to hip, establish anchor grip on belt or lapel. Partner gradually increases speed as your recognition and defensive reactions improve."
+      },
+      {
+        "phase": "Phase 3: Escape from Locked Position",
+        "focus": "Bridge, hip escape, and grip fighting under pressure",
+        "description": "Start with partner's figure-four already locked at 50% tightness with no rotation. Practice bridging toward the Kimura side, hip escaping to create space, and fighting the grip to extract your arm. Develops the defensive muscle memory needed when early prevention fails."
+      },
+      {
+        "phase": "Phase 4: Live Defense Integration",
+        "focus": "Full resistance defensive sparring",
+        "description": "Situational sparring from Lasso Guard where partner actively seeks Kimura opportunities at full intensity. Practice maintaining guard effectiveness while managing arm exposure. Develop the balance between offensive lasso guard play and defensive awareness of Kimura vulnerability."
+      }
+    ]
+  }
+}

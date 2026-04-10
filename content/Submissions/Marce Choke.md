@@ -3,24 +3,30 @@
 
 
 ---
-title: "Marce Choke | BJJ Submission | BJJ Graph"
-description: "Master the Marce Choke in BJJ - powerful lapel choke from top positions. Setup, execution, defense, and safety protocols for gi competition."
+title: "Marce Choke | BJJ Submission Family | BJJ Graph"
+description: "Master the Marce Choke in BJJ - a powerful gi-specific lapel choke from top positions. Complete setup, execution, defense, and safety protocols for competition."
 ---
 
 
-<body data-content-type="submissions-hub">
+<body data-content-type="submissions-family">
 
 > **SAFETY**: Marce Choke targets the Carotid arteries and trachea via lapel compression. Risk: Carotid artery compression leading to unconsciousness. Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
-<div class="role-links">
 
-[[Marce Choke/Attacker|Play as Attacker]]
-[[Marce Choke/Defender|Play as Defender]]
+<section id="variants" class="content-section">
 
-</div>
+## Position Variants
+
+| From Position | Success Rate | Top Injury Risk | Key Difference |
+|---------------|-------------|-----------------|----------------|
+| [[Marce Choke/from Side Control|Side Control]] | 58% | Carotid artery compression leading to unconsciousness |  |
+
+
+</section>
+
 
 <section id="overview" class="content-section">
 
@@ -33,9 +39,7 @@ The choke works on a fundamental principle: using the lapel as a ligature around
 **Category**: Choke
 **Type**: Lapel Choke
 **Target Area**: Carotid arteries and trachea via lapel compression
-**Starting Position**: [[Positions/Side Control]]
-**From Position**: [[Positions/Side Control]] (Top)
-**Success Rate**: 58%
+**Success Rate**: 58% (average across variants)
 
 </section>
 
@@ -80,143 +84,10 @@ The choke works on a fundamental principle: using the lapel as a ligature around
 
 </section>
 
-<section id="outcomes" class="content-section">
 
-## Outcomes
+<section id="variation-details" class="content-section hide-minimal">
 
-| Result | Position | Probability |
-|--------|----------|-------------|
-| Success | [[game-over]] | 58% |
-| Failure | [[Positions/Side Control]] | 27% |
-| Counter | [[Positions/Half Guard]] | 15% |
-
-
-</section>
-
-<section class="content-section">
-
-## Attacker vs Defender
-
-| &nbsp; | Attacker | Defender |
-|--------|----------|----------|
-| **Focus** | Execute and finish | Escape and survive |
-| **Key Principles** | Lapel control must be established before attempting the chok... | Early recognition is the most important defensive skill - de... |
-| **Options** | 6 execution steps | 3 defensive options |
-
-</section>
-
-<section id="attacker-summary" class="content-section">
-
-## Playing as Attacker
-
-[[Marce Choke/Attacker|→ Full Attacker Guide]]
-
-### Key Principles
-
-
-- Lapel control must be established before attempting the choke - the depth of the initial feed determines finishing success
-
-- Body weight drives the choking pressure through perpendicular chest alignment, not arm strength
-
-- The lapel creates a noose effect that tightens as you apply downward pressure and pull simultaneously
-
-- Control the opponent's near arm to prevent defensive framing before initiating the lapel feed
-
-- Maintain chest-to-chest pressure throughout the entire setup to prevent the opponent from turning or creating space
-
-- The angle of your body relative to the opponent's neck determines whether you achieve blood choke versus air choke
-
-- Proper lapel depth (feeding deep across the neck past the opposite shoulder) is the single most critical factor for finishing
-
-
-### Execution Steps
-
-
-- **Secure side control position**: Establish tight side control with your chest heavy on the opponent's chest. Control their near arm b...
-
-- **Access the far lapel**: Using your hand closest to their head (typically your right hand if you're on their right side), rea...
-
-- **Feed the lapel across the neck**: Pull the lapel across the opponent's throat toward their opposite shoulder, creating a diagonal line...
-
-- **Secure the lapel grip**: Once the lapel is fed across their neck, adjust your grip to ensure maximum control. Your gripping h...
-
-- **Transition body position for pressure**: Shift your body weight toward north-south position while maintaining your lapel grip. Your chest sho...
-
-- **Apply choking pressure**: Drive your chest downward into their face and neck area while maintaining the tight lapel grip. Your...
-
-
-### Common Mistakes
-
-
-- **Failing to feed the lapel deep enough across the neck**
-  - Consequence: The choke targets the front of the throat instead of the carotid arteries, making it painful but not a true blood choke, giving the opponent time to escape
-  - Correction: Always feed the lapel at least 4-6 inches past their shoulder. The material should reach toward their opposite armpit. A shallow grip will never finish the submission.
-
-- **Releasing chest pressure while setting up the lapel**
-  - Consequence: Opponent gains space to turn, escape, or defend the choke effectively
-  - Correction: Maintain constant chest pressure throughout the entire setup. Use your weight to keep them pinned flat while your hands work the lapel. Never sacrifice positional control for the submission.
-
-- **Relying solely on arm strength instead of body weight**
-  - Consequence: The choke lacks power and your arms fatigue quickly, allowing the opponent to outlast your attempt
-  - Correction: Your arms simply maintain the lapel position - your chest and body weight create the actual choking pressure. Think of driving your chest through their neck, not pulling with your arms.
-
-
-</section>
-
-<section id="defender-summary" class="content-section">
-
-## Playing as Defender
-
-[[Marce Choke/Defender|→ Full Defender Guide]]
-
-### Key Principles
-
-
-- Early recognition is the most important defensive skill - defend the lapel grip before it crosses your neck, not after pressure is applied
-
-- Never allow both your near arm to be pinned and your far lapel to be accessed simultaneously
-
-- Turn into the attacker aggressively to remove the perpendicular pressure angle required for the choke to work
-
-- Fight the hands and grip constantly - once the lapel feed is deep, escape probability drops dramatically
-
-- Create frames against the attacker's chest and shoulder to prevent them from settling their weight while accessing the lapel
-
-- If the lapel is already across your neck, address the grip immediately rather than trying to escape the position first
-
-- Maintain chin-to-chest posture to make the lapel feed more difficult and buy time for defensive actions
-
-
-### Recognition Cues
-
-
-- Top player's hand closest to your head reaches across your neck toward your far lapel rather than maintaining normal side control grips
-
-- Feeling the gi material being pulled tight across your throat or the sides of your neck from the far side
-
-- Top player shifts their weight forward toward your head and away from your hips, indicating preparation for the north-south finishing angle
-
-- Top player pins or traps your near arm with unusual emphasis before their other hand moves toward your collar area
-
-- Sensation of increasing tightness around your neck combined with the top player driving chest pressure downward rather than laterally
-
-
-### Escape Paths
-
-
-- Turn into the attacker to flatten the choking angle, recover to half guard or closed guard by inserting your knee between bodies during the turn
-
-- Strip the lapel grip with both hands, immediately frame against the attacker's chest, and hip escape to recover guard before they can re-grip
-
-- Bridge toward the attacker's head to off-balance them, then shrimp away to create enough space for knee insertion and guard recovery
-
-
-</section>
-
-
-<section id="variations" class="content-section hide-minimal">
-
-## Variations
+## Variation Details
 
 
 **North-South Marce Choke**: From north-south position, feed the far lapel across their neck and drive your chest straight down into their face while maintaining the lapel grip. This variation often provides better leverage and makes it harder for the opponent to turn into you. (When to use: When opponent is defending well from side control or when you naturally transition to north-south during scrambles. Particularly effective against opponents who are good at recovering guard from side control.)
@@ -250,17 +121,17 @@ The choke works on a fundamental principle: using the lapel as a ligature around
 
 ## Related Submissions
 
-- [[Submissions/Loop Choke]]
-- [[Transitions/Cross Collar Choke]]
-- [[Transitions/Baseball Bat Choke]]
-- [[Transitions/Breadcutter Choke]]
-- [[Transitions/Bow and Arrow Choke]]
-- [[Transitions/North-South Choke]]
-- [[Submissions/Ezekiel Choke]]
-- [[Transitions/Arm Triangle]]
-- [[Submissions/Kimura from Side Control]]
-- [[Submissions/Americana from Side Control]]
-- [[Submissions/Brabo Choke]]
+- [[Submissions/Loop Choke]] - Similar lapel manipulation mechanics and choking principle
+- [[Submissions/Cross Collar Choke]] - Shares gi-based carotid compression concept using collar grips
+- [[Submissions/Baseball Bat Choke]] - Related gi choke applicable from similar top positions
+- [[Submissions/Breadcutter Choke]] - Alternative lapel choke with different finishing angle from top
+- [[Submissions/Bow and Arrow Choke]] - Related gi choke utilizing lapel control for blood choke finish
+- [[Transitions/North-South Choke]] - Alternative choke from north-south transition with arm-triangle mechanics
+- [[Submissions/Ezekiel Choke]] - Related gi choke from top positions with sleeve-based mechanics
+- [[Transitions/Arm Triangle]] - Alternative head-and-arm choke available from same starting positions
+- [[Submissions/Kimura]] - Complementary joint lock that chains from failed choke attempts
+- [[Submissions/Americana]] - Complementary shoulder lock from similar top control positions
+- [[Submissions/Brabo Choke]] - Related gi choke with similar cross-body pressure mechanics from top
 
 
 </section>
@@ -273,10 +144,10 @@ The choke works on a fundamental principle: using the lapel as a ligature around
 - [[Positions/North-South]] - Alternative position for finishing the Marce Choke with better pressure angle
 - [[Positions/Side Control/Kesa Gatame]] - Scarf hold variation that provides excellent control for the Marce Choke
 - [[Submissions/Loop Choke]] - Similar lapel manipulation mechanics and choking principle
-- [[Transitions/Cross Collar Choke]] - Shares the concept of using the gi to create carotid compression
+- [[Submissions/Cross Collar Choke]] - Shares the concept of using the gi to create carotid compression
 - [[Positions/Knee on Belly]] - Transitional position that offers excellent setup opportunities
 - [[Submissions/Brabo Choke]] - Related gi choke with similar pressure mechanics from top positions
-- [[Transitions/Breadcutter Choke]] - Alternative lapel choke from similar positions with different finishing mechanics
+- [[Submissions/Breadcutter Choke]] - Alternative lapel choke from similar positions with different finishing mechanics
 
 
 </section>

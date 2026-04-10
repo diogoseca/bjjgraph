@@ -11,6 +11,7 @@
     "elbow-lock",
     "no-gi"
   ],
+  "is_family": true,
   "submission_category": "Compression",
   "submission_type": "Arm Crush",
   "target_area": "Elbow/Forearm",
@@ -22,6 +23,7 @@
     "Scarf Hold Position"
   ],
   "success_rate": 45,
+  "variant_uniqueness": "Leverages scarf hold pressure to create elbow crush fulcrum",
   "overview": "The Kesa Gatame Arm Crush is a compression-based submission executed from the scarf hold position that attacks the opponent's elbow joint through mechanical leverage and body pressure. From the traditional kesa gatame control, the attacker isolates the opponent's near arm and positions it across their torso, creating a fulcrum at the elbow using their hip and ribcage. By controlling the wrist and driving the hips forward while pulling the arm tight, the elbow is hyperextended against the attacker's body, generating tremendous pressure that forces the tap.\n\nThis submission represents a natural evolution of kesa gatame offense, capitalizing on the arm control already inherent in the position. Unlike traditional armbars that require transitioning away from the pin, the arm crush maintains the crushing top pressure of scarf hold while simultaneously attacking the joint. This dual threat of positional pressure and joint destruction makes it particularly effective against opponents who prioritize surviving the pin rather than actively escaping. The technique punishes passivity under kesa gatame by converting the static defensive posture into a submission vulnerability.\n\nThe technique is especially valuable in no-gi contexts where maintaining traditional kesa gatame submissions like the americana can be difficult without sleeve grips. The arm crush relies purely on body mechanics and positioning, making it grip-independent and highly effective regardless of attire. Competition practitioners have increasingly adopted this submission as a high-percentage finish from an already dominant position, particularly when opponents become defensive and static under the crushing pressure of scarf hold. The arm crush also chains naturally with americana and kimura attempts, creating a submission flow that keeps the opponent guessing which joint attack is coming next.",
   "safety_considerations": {
     "injury_risks": [
@@ -59,21 +61,21 @@
       "White and blue belts should practice the positioning and grip mechanics without applying finishing pressure until the setup is consistent"
     ]
   },
-  "outcomes": [
+  "variations": [
     {
-      "to": "game-over",
-      "probability": 40,
-      "result": "success"
+      "name": "from Kesa Gatame",
+      "slug": "from-kesa-gatame",
+      "description": "Standard arm crush using traditional scarf hold hip fulcrum"
     },
     {
-      "to": "Kesa Gatame/Top",
-      "probability": 35,
-      "result": "failure"
+      "name": "from Kuzure Kesa-Gatame",
+      "slug": "from-kuzure-kesa-gatame",
+      "description": "Arm crush from modified scarf hold with pre-isolated arm control"
     },
     {
-      "to": "Half Guard/Bottom",
-      "probability": 25,
-      "result": "counter"
+      "name": "from Scarf Hold Position",
+      "slug": "from-scarf-hold-position",
+      "description": "Arm crush from general scarf hold perpendicular control"
     }
   ],
   "variations_and_setups": [
@@ -94,12 +96,30 @@
     }
   ],
   "related_submissions": [
-    "Americana from Kesa Gatame",
-    "Arm Crush",
-    "Arm Triangle from Scarf Hold",
-    "Americana",
-    "Bicep Slicer",
-    "Armbar from Side Control"
+    {
+      "name": "Kimura",
+      "relationship": "Primary submission chain partner from kesa gatame - kimura defense often exposes the arm for the crush"
+    },
+    {
+      "name": "Arm Crush",
+      "relationship": "Parent submission category sharing compression mechanics and elbow attack principles"
+    },
+    {
+      "name": "Arm Triangle",
+      "relationship": "Alternative submission from same position when opponent defends the arm crush by tucking elbow"
+    },
+    {
+      "name": "Americana",
+      "relationship": "Complementary shoulder lock creating attack chains from scarf hold positions"
+    },
+    {
+      "name": "Bicep Slicer",
+      "relationship": "Related compression submission attacking similar forearm and bicep anatomical structures"
+    },
+    {
+      "name": "Americana from Kesa Gatame",
+      "relationship": "Position-specific variant frequently chained with arm crush when opponent defends one attack"
+    }
   ],
   "related_content": [
     {
@@ -115,332 +135,16 @@
       "relationship": "Positional family sharing control mechanics and arm trapping principles"
     },
     {
-      "name": "Americana from Kesa Gatame",
-      "relationship": "Primary submission chain partner - americana defense often exposes the arm for the crush"
+      "name": "Americana",
+      "relationship": "Primary submission chain partner from kesa gatame - americana defense often exposes the arm for the crush"
     },
     {
       "name": "Arm Crush",
       "relationship": "Parent submission category sharing compression mechanics and elbow attack principles"
     },
     {
-      "name": "Arm Triangle from Scarf Hold",
+      "name": "Arm Triangle",
       "relationship": "Alternative submission from same position when opponent defends the arm crush by tucking elbow"
     }
-  ],
-  "attacker": {
-    "name": "Kesa Gatame Arm Crush Attacker",
-    "description": "Execute the Kesa Gatame Arm Crush submission. Step-by-step guide covering arm isolation, fulcrum positioning, hip drive mechanics, and finishing sequences from scarf hold.",
-    "overview": "Executing the Kesa Gatame Arm Crush requires precise arm isolation and hip positioning from the scarf hold. The attacker must secure the opponent's near arm tightly against their chest, position the elbow against their hip or ribcage as a fulcrum point, and then apply controlled pressure through hip drive and body mechanics. The key to a successful finish lies in eliminating all slack from the arm before applying the crush, ensuring the opponent cannot rotate their elbow to relieve the pressure. Timing is critical—the arm crush is most effective when applied after the opponent has exhausted initial escape attempts and becomes static under kesa gatame pressure, making their trapped arm vulnerable to isolation and extension.",
-    "key_principles": [
-      "Maintain heavy kesa gatame pressure throughout the entire submission sequence—never sacrifice positional control for the finish",
-      "Eliminate all slack from the trapped arm before applying hip pressure to the elbow, ensuring maximum force transfer through the fulcrum",
-      "Use skeletal alignment and body weight rather than muscular effort to generate crushing pressure, allowing sustained application without fatigue",
-      "Control the wrist with both hands when possible to prevent the opponent from rotating their forearm and relieving elbow pressure",
-      "Drive the hips forward into the elbow rather than pulling the arm backward, maintaining base and preventing sweeps during the finish",
-      "Apply pressure gradually and progressively, building the crush over several seconds rather than jerking or spiking for safety and control"
-    ],
-    "setup_requirements": [
-      "Established kesa gatame or kuzure kesa-gatame control with opponent's near arm trapped under your armpit",
-      "Opponent flattened on their back or side with limited hip mobility due to your weight distribution across their torso",
-      "Secure grip on opponent's wrist or forearm with at least one hand, ideally two-on-one control",
-      "Hips positioned low and tight against opponent's ribcage with your weight driven through your pelvis into their body",
-      "Head control or chest pressure maintained to prevent opponent from sitting up or creating defensive frames with their free arm"
-    ],
-    "execution_steps": [
-      {
-        "step_number": 1,
-        "action": "Consolidate Kesa Gatame Control",
-        "description": "Ensure your kesa gatame is tight with hips low against the opponent's ribs, head control established, and near arm securely trapped under your armpit. Settle your weight and confirm the opponent cannot immediately escape before transitioning to the submission attack.",
-        "timing": "5-10 seconds to fully consolidate"
-      },
-      {
-        "step_number": 2,
-        "action": "Secure Two-on-One Wrist Control",
-        "description": "Release your head control arm and bring both hands to control the opponent's trapped wrist or forearm. Maintain chest pressure and hip connection throughout—your body weight replaces the head control temporarily. Grip the wrist firmly with both hands, thumbs on the same side for maximum control.",
-        "timing": "2-3 seconds transition"
-      },
-      {
-        "step_number": 3,
-        "action": "Straighten and Position the Arm",
-        "description": "Pull the opponent's wrist toward your chest while using your armpit pressure to push their shoulder away, straightening their arm across your torso. The arm should lay flat against your chest with the palm facing upward and the elbow pointing toward your hip. Eliminate all bend in the arm.",
-        "timing": "2-4 seconds of controlled adjustment"
-      },
-      {
-        "step_number": 4,
-        "action": "Seat the Elbow Against Your Hip",
-        "description": "Walk the opponent's elbow into position so that the back of their elbow joint sits directly against your hip bone or the crest of your iliac bone. This creates the fulcrum point that the entire submission depends upon. Adjust your hip position if needed to ensure bone-on-bone contact at the elbow.",
-        "timing": "1-3 seconds of precise placement"
-      },
-      {
-        "step_number": 5,
-        "action": "Lock the Arm Tight Against Your Body",
-        "description": "Clamp the opponent's arm tightly against your torso by squeezing your elbows together and pulling the wrist firmly into your chest. There should be zero slack—the arm must be completely immobilized against your body with the elbow locked onto your hip fulcrum. This is the point of no return for the opponent.",
-        "timing": "1-2 seconds to secure"
-      },
-      {
-        "step_number": 6,
-        "action": "Apply Hip Drive and Arch",
-        "description": "Drive your hips forward into the back of the opponent's elbow while simultaneously pulling their wrist toward your chest and slightly arching your upper back. The hip pressure creates hyperextension force against the elbow joint. Apply this pressure gradually and progressively, building the crush over 2-3 seconds to allow time for the tap.",
-        "timing": "2-4 seconds of progressive pressure"
-      },
-      {
-        "step_number": 7,
-        "action": "Complete the Finish",
-        "description": "Maintain steady increasing hip pressure until the opponent taps. If they resist, add a slight torque by rotating your torso toward their head while maintaining the hip fulcrum. Keep your base stable throughout—if they attempt to bridge or roll, your wide-posted base leg prevents the escape while the arm crush intensifies.",
-        "timing": "1-3 seconds to completion"
-      }
-    ],
-    "common_counters": [
-      {
-        "counter": "Opponent bends their arm and pulls elbow tight to their body before the arm can be straightened",
-        "effectiveness": "High",
-        "your_response": "Switch to americana attack using the same arm control—their bent arm position is ideal for the americana figure-four. The arm crush and americana create a natural submission chain where defending one opens the other.",
-        "targets_outcome": "Kesa Gatame/Top"
-      },
-      {
-        "counter": "Opponent bridges explosively during the wrist control transition when head control is released",
-        "effectiveness": "Medium",
-        "your_response": "Widen your base leg immediately and drive your chest back onto their face. If the bridge creates significant space, abandon the arm crush and re-establish full kesa gatame control before reattempting. Never chase the submission at the expense of position.",
-        "targets_outcome": "Kesa Gatame/Top"
-      },
-      {
-        "counter": "Opponent rotates their wrist and forearm to slip the elbow off the hip fulcrum during the crush",
-        "effectiveness": "Medium",
-        "your_response": "Tighten your two-on-one wrist grip and pronate their hand so the palm faces upward, which locks the elbow in the vulnerable extension plane. If they continue rotating, transition to a kimura grip on the same arm to attack from a different angle.",
-        "targets_outcome": "Kesa Gatame/Top"
-      },
-      {
-        "counter": "Opponent uses free arm to push against your head or body to create space and escape hips",
-        "effectiveness": "Medium",
-        "your_response": "Drive your shoulder into their pushing arm while maintaining wrist control on the trapped arm. Their free arm has limited leverage from the bottom of kesa gatame. If they create meaningful space, re-consolidate kesa gatame with head control before the arm crush attempt.",
-        "targets_outcome": "Half Guard/Bottom"
-      }
-    ],
-    "common_errors": [
-      {
-        "error": "Releasing hip pressure against opponent's ribs to focus both arms on the wrist control",
-        "consequence": "Opponent creates space under your hips and initiates hip escape or bridge, escaping the position entirely before the arm crush can be applied",
-        "correction": "Keep hips heavy and connected to opponent's ribs throughout the entire setup—your body weight maintains positional control while your arms work the submission"
-      },
-      {
-        "error": "Attempting the crush with the arm still bent at the elbow rather than fully straightened",
-        "consequence": "The compression force disperses through the bent joint without creating hyperextension pressure, and the opponent easily retracts their arm",
-        "correction": "Fully straighten the arm by pulling the wrist while pushing the shoulder before attempting any hip pressure—the arm must be completely extended for the fulcrum to function"
-      },
-      {
-        "error": "Positioning the elbow against soft tissue (stomach or thigh) rather than bone (hip or iliac crest)",
-        "consequence": "The fulcrum compresses into your own body rather than creating rigid hyperextension force, resulting in zero submission pressure on the opponent's elbow",
-        "correction": "Carefully seat the back of the opponent's elbow directly against your hip bone—adjust your body position until you feel bone-on-bone contact before applying pressure"
-      },
-      {
-        "error": "Applying the crush explosively with a sudden jerk rather than progressive pressure",
-        "consequence": "Risk of serious elbow injury to training partner, potential ligament damage before they can tap, and loss of training partners due to unsafe application",
-        "correction": "Build pressure gradually over 2-3 seconds through steady hip drive, giving the opponent adequate time to recognize the submission and tap safely"
-      },
-      {
-        "error": "Sitting up tall to get leverage for the arm crush rather than staying low and heavy",
-        "consequence": "Loss of chest pressure creates space for the opponent to bridge, turn, or extract their arm, and the upright position compromises your base",
-        "correction": "Stay low with your chest heavy on the opponent—generate the crush through forward hip drive and a slight arch rather than sitting upright for leverage"
-      },
-      {
-        "error": "Gripping only the wrist with one hand instead of securing two-on-one control of the forearm",
-        "consequence": "Opponent strips the single grip through wrist rotation or explosive pulling, freeing the arm and negating the entire submission setup",
-        "correction": "Always secure two-on-one control of the wrist or forearm before attempting to position the arm for the crush—single-hand control is insufficient against active resistance"
-      }
-    ],
-    "training_progressions": [
-      {
-        "phase": "Phase 1: Mechanics",
-        "focus": "Fulcrum positioning and arm straightening technique",
-        "description": "Practice the arm isolation, straightening, and hip placement sequence with a fully cooperative partner. Focus on finding the correct hip bone contact point and understanding the angle of pressure needed. No finishing pressure applied—just positioning reps to build muscle memory for the setup."
-      },
-      {
-        "phase": "Phase 2: Pressure Application",
-        "focus": "Controlled hip drive and progressive crush mechanics",
-        "description": "With a cooperative partner, practice applying gradual finishing pressure after the setup is complete. Partner taps at first sign of pressure. Focus on maintaining kesa gatame control throughout the finish and developing sensitivity to the pressure curve. Build to 70% resistance."
-      },
-      {
-        "phase": "Phase 3: Chain Integration",
-        "focus": "Submission chains between arm crush, americana, and kimura",
-        "description": "Practice flowing between the arm crush and related submissions based on defensive reactions. When opponent bends arm to defend crush, switch to americana. When they straighten to defend americana, switch to crush. Partner provides intelligent defensive reactions at moderate resistance."
-      },
-      {
-        "phase": "Phase 4: Live Application",
-        "focus": "Applying the arm crush during positional sparring from kesa gatame",
-        "description": "Full-resistance positional sparring starting from established kesa gatame. Attacker works to set up and finish the arm crush while opponent uses all available defenses and escapes. Track success rate and identify which defensive reactions create the best opportunities for the crush versus other submissions."
-      }
-    ],
-    "knowledge_assessment": [
-      {
-        "question": "What anatomical structure does the Kesa Gatame Arm Crush primarily attack, and what creates the hyperextension force?",
-        "answer": "The arm crush primarily attacks the elbow joint, specifically hyperextending it against its natural range of motion. The force is created by using the attacker's hip bone as a rigid fulcrum point placed behind the elbow while pulling the wrist toward the chest and driving the hips forward. This creates opposing forces on either side of the elbow joint, generating compression and hyperextension that stresses the ligaments, joint capsule, and surrounding soft tissue.",
-        "safety_critical": true
-      },
-      {
-        "question": "How do you recognize when the opponent's elbow is properly positioned against your hip for maximum crushing pressure?",
-        "answer": "You should feel bone-on-bone contact between the back of the opponent's elbow (the olecranon process) and your hip bone (iliac crest). The arm should be completely straight with zero bend remaining, and the wrist should be pulled tight against your chest with no slack in the arm. When you begin driving your hips forward, you should feel immediate resistance from the elbow joint rather than the arm sliding or bending. If the arm compresses into soft tissue, the fulcrum is misplaced and needs adjustment.",
-        "safety_critical": false
-      },
-      {
-        "question": "What control must be established before transitioning from kesa gatame hold to the arm crush finish?",
-        "answer": "Before attempting the arm crush, you must have secure kesa gatame with hips low and heavy against the opponent's ribs, the near arm firmly trapped under your armpit with no space for the opponent to retract it, and sufficient base to prevent bridging escapes. The opponent should be flattened with minimal hip mobility. Only then should you release head control to secure two-on-one wrist grip, because your body weight and hip pressure must replace the head control during the transition.",
-        "safety_critical": false
-      },
-      {
-        "question": "At what point during the arm crush setup does the opponent lose the ability to effectively defend?",
-        "answer": "The point of no return occurs when the arm is fully straightened with the elbow seated against the hip bone and the wrist locked tight against the attacker's chest with two-on-one control. Once all slack is eliminated and the fulcrum is established with bone-on-bone contact, the opponent cannot bend their arm to escape because the attacker's entire body weight holds it straight, and they cannot rotate the forearm because the two-on-one grip prevents wrist rotation. At this stage, even minimal hip pressure creates significant submission force.",
-        "safety_critical": false
-      },
-      {
-        "question": "Your opponent begins rotating their wrist to slip the elbow off your hip during the crush - what grip adjustment prevents this escape?",
-        "answer": "Immediately pronate their hand so the palm faces the ceiling by rotating your grip on their wrist, which locks the elbow in the most vulnerable hyperextension plane and prevents them from turning the joint to relieve pressure. Simultaneously squeeze your elbows tighter together to clamp the arm against your torso, eliminating the rotational freedom they need. If they continue fighting the grip, add a figure-four control around their forearm for maximum wrist immobilization before reapplying the hip drive.",
-        "safety_critical": false
-      },
-      {
-        "question": "What is the most common finishing error that allows opponents to survive the arm crush despite apparently correct positioning?",
-        "answer": "The most common error is leaving slack in the arm—a slight bend at the elbow or space between the arm and the attacker's torso absorbs all the crushing pressure without stressing the joint. Practitioners often feel they have the arm positioned correctly but fail to eliminate the final few degrees of bend before applying hip drive. The fix is to pull the wrist firmly into the chest while pressing the shoulder away with armpit pressure until the arm is completely rigid against your body, then confirm bone-on-bone contact at the elbow before driving the hips.",
-        "safety_critical": false
-      },
-      {
-        "question": "Why must the arm crush be applied gradually rather than explosively, and what specific injuries can result from improper application speed?",
-        "answer": "Explosive application of the arm crush can cause elbow hyperextension injuries, ligament tears (particularly the ulnar collateral ligament), or even elbow dislocation before the opponent has time to recognize the danger and tap. The elbow joint has limited structural tolerance once placed against a rigid fulcrum, and sudden force application can cause irreversible damage within fractions of a second. Gradual application over 2-3 seconds gives the opponent time to tap and allows both practitioners to feel the progressive resistance that indicates the joint is approaching its limit.",
-        "safety_critical": true
-      },
-      {
-        "question": "In competition, how do you set up the arm crush when your opponent is actively defending the americana from kesa gatame?",
-        "answer": "When the opponent defends the americana by straightening their arm and keeping it rigid to prevent the figure-four, this defensive response directly enables the arm crush. Their straight arm is exactly what you need—immediately transition from the americana grip to two-on-one wrist control, walk their now-extended elbow to your hip fulcrum, and apply the crush. The submission chain creates a dilemma: bending the arm to defend the crush exposes the americana, while straightening to defend the americana exposes the crush. Alternate between both threats to overwhelm their defensive decision-making."
-      }
-    ]
-  },
-  "defender": {
-    "name": "Kesa Gatame Arm Crush Defender",
-    "description": "Defend and escape the Kesa Gatame Arm Crush. Recognition cues, defensive options, arm recovery techniques, and escape strategies for surviving this compression lock.",
-    "overview": "Defending the Kesa Gatame Arm Crush requires early recognition and immediate action before the attacker can isolate and lock the arm in the finishing position. The defender must maintain a bent arm position, keeping the elbow tight to their body to prevent the attacker from straightening and positioning it for the crush. Once the arm is fully extended across the attacker's body with the elbow seated against their hip, escape becomes extremely difficult. The primary defensive strategy centers on preventing arm isolation through active grip fighting and maintaining bent-arm positioning, while the secondary strategy involves creating angles and space to pull the arm free during the attacker's setup transitions. Understanding the submission's mechanics allows the defender to identify the critical moments where defensive action is most effective—particularly during the transition when the attacker releases head control to secure wrist grips.",
-    "key_principles": [
-      "Keep the trapped arm bent at all times—a straight arm against the attacker's hip is nearly impossible to recover",
-      "Recognize the transition from kesa gatame control to arm crush setup by feeling the grip changes on your wrist",
-      "Exploit the moment when the attacker releases head control to grab your wrist—this is the primary escape window",
-      "Use your free arm to fight grip control rather than pushing against the attacker's body, which wastes energy",
-      "Bridge explosively when the attacker adjusts their hip position to seat the elbow, before the fulcrum is established",
-      "If the arm is caught extended, rotate the forearm immediately to move the elbow off the hip fulcrum before pressure builds"
-    ],
-    "recognition_cues": [
-      "Attacker releases head control with one arm and reaches for your trapped wrist or forearm with both hands",
-      "Attacker begins pulling your trapped arm across their torso rather than simply clamping it under their armpit",
-      "Attacker adjusts their hip position, sliding it closer to your elbow or shifting their body angle to create a fulcrum point",
-      "You feel your arm being straightened progressively as the attacker eliminates the bend at your elbow"
-    ],
-    "defensive_options": [
-      {
-        "action": "Bend arm and grip own lapel or opposite bicep to anchor the elbow against your body",
-        "when_to_use": "As soon as you feel the attacker attempting to straighten your trapped arm or switching to two-on-one wrist control",
-        "targets_outcome": "Kesa Gatame/Top",
-        "if_successful": "Arm crush is neutralized and attacker must return to standard kesa gatame control or attempt different submission",
-        "risk": "Maintaining the bent arm under heavy pressure is exhausting and the attacker may switch to americana on your bent arm"
-      },
-      {
-        "action": "Bridge explosively toward attacker when they release head control to grab your wrist",
-        "when_to_use": "During the transition moment when the attacker has released head control but has not yet secured full two-on-one wrist grip",
-        "targets_outcome": "Half Guard/Bottom",
-        "if_successful": "Create enough space to extract trapped arm or recover half guard as the attacker scrambles to maintain position",
-        "risk": "If timed poorly, the bridge expends energy without creating meaningful positional change"
-      },
-      {
-        "action": "Rotate forearm and wrist to slide elbow off the hip fulcrum",
-        "when_to_use": "When the arm is already extended and the attacker is positioning the elbow against their hip but has not yet applied full crushing pressure",
-        "targets_outcome": "Kesa Gatame/Top",
-        "if_successful": "Elbow slides off the bone fulcrum, reducing the crush to ineffective soft-tissue pressure and allowing arm recovery",
-        "risk": "The rotation window is narrow—once the attacker applies hip pressure with bone-on-bone contact, rotation is no longer possible"
-      },
-      {
-        "action": "Use free arm to strip attacker's grip on your wrist and retract the trapped arm",
-        "when_to_use": "When the attacker has only single-hand control on your wrist during the initial grip transition phase",
-        "targets_outcome": "Kesa Gatame/Top",
-        "if_successful": "Arm is freed and returned to defensive position, negating the arm crush threat entirely",
-        "risk": "Reaching across with the free arm may expose it to being trapped as well if attacker is aware"
-      }
-    ],
-    "escape_paths": [
-      "Bridge explosively during the grip transition when attacker releases head control, then hip escape to recover half guard before they can re-establish control",
-      "Turn into the attacker by rotating your body toward them to close the angle on the elbow joint, then work to get to turtle position and escape from there",
-      "Strip the wrist grip with your free hand and immediately retract the trapped arm to your body, returning to standard kesa gatame bottom defense"
-    ],
-    "favorable_outcomes": [
-      {
-        "outcome": "Half Guard/Bottom",
-        "how": "Time an explosive bridge during the attacker's grip transition when head control is released, create space with the bridge, and immediately hip escape to insert a knee and recover half guard before the attacker can re-consolidate kesa gatame"
-      }
-    ],
-    "common_errors": [
-      {
-        "error": "Allowing the arm to straighten gradually without resistance while focused on other defensive concerns",
-        "consequence": "Once the arm is fully extended with the elbow against the hip fulcrum, escape is nearly impossible and the tap becomes inevitable",
-        "correction": "Prioritize keeping the arm bent from the very first moment you feel the attacker adjusting their grip—bend the elbow and anchor your hand to your own body or clothing immediately"
-      },
-      {
-        "error": "Pushing against the attacker's body with the free arm instead of fighting their grip on the trapped wrist",
-        "consequence": "The pushing force has minimal effect on the attacker's position from kesa gatame bottom, wasting critical energy while the arm crush setup progresses unchecked",
-        "correction": "Use the free arm to strip the attacker's wrist grip or to grab your own trapped wrist for reinforcement, directly addressing the submission threat rather than fighting the positional control"
-      },
-      {
-        "error": "Panicking and attempting explosive escape after the arm is already fully extended and the fulcrum is set",
-        "consequence": "Explosive movement against a locked arm crush can cause self-inflicted elbow injury as the force drives the joint harder into the fulcrum",
-        "correction": "If the arm crush is fully locked, tap immediately rather than risking injury. Focus defensive efforts on the earlier phases of the setup when escape is still mechanically possible"
-      },
-      {
-        "error": "Failing to exploit the head control release window when the attacker transitions to wrist grips",
-        "consequence": "Missing the highest-percentage escape moment, after which the attacker will have superior arm control and the crush will be increasingly difficult to prevent",
-        "correction": "Recognize the moment the attacker's arm leaves your head and bridge immediately—this 1-2 second window is your best opportunity to create space and escape before the arm crush is established"
-      }
-    ],
-    "knowledge_assessment": [
-      {
-        "question": "What are the earliest recognition cues that indicate your opponent is transitioning from kesa gatame control to an arm crush attempt?",
-        "answer": "The earliest cue is feeling the attacker release their head control arm and reach toward your trapped wrist with both hands. You will also feel them begin pulling your arm across their torso rather than simply clamping it stationary under their armpit. Their hip position may shift as they seek to align your elbow with their hip bone. Recognizing these early cues gives you the critical seconds needed to initiate defensive actions before the crush is established.",
-        "safety_critical": false
-      },
-      {
-        "question": "Why is maintaining a bent arm position the single most important defensive priority against the arm crush?",
-        "answer": "The arm crush requires a fully straightened arm to function because the hyperextension force only applies when the elbow cannot bend to absorb pressure. A bent arm distributes the force through the natural range of motion of the joint, making the compression ineffective. Once the arm straightens with the elbow against the hip fulcrum, the defender loses all mechanical ability to retract or bend the arm against the attacker's body weight and two-on-one grip control. Prevention through bent-arm positioning is far easier than escaping a locked crush.",
-        "safety_critical": false
-      },
-      {
-        "question": "Your opponent has fully extended your arm and positioned your elbow against their hip - what should you do?",
-        "answer": "At this point the submission is nearly complete and escape is extremely unlikely. Attempt to rotate your forearm to slide the elbow off the bone fulcrum—this is your last mechanical option. If the rotation fails and you feel pressure building on the elbow joint, tap immediately. Do not attempt explosive escape movements against a locked arm crush as this can cause self-inflicted ligament damage or elbow dislocation. Accepting the tap and learning to defend earlier in the sequence is far better than risking a serious training injury.",
-        "safety_critical": true
-      },
-      {
-        "question": "How does defending the arm crush differ from defending the americana from the same position?",
-        "answer": "The americana requires a bent arm to attack the shoulder through rotation, so the defense involves straightening the arm and keeping it rigid. The arm crush is the exact opposite—it attacks a straight arm through elbow hyperextension, so the defense involves keeping the arm bent. This creates the core dilemma of kesa gatame submissions: the defensive position for one attack is the vulnerable position for the other. Understanding this relationship allows you to recognize which attack is coming based on how the attacker is manipulating your arm and adjust your defensive arm position accordingly.",
-        "safety_critical": false
-      },
-      {
-        "question": "What is the primary escape window during the arm crush setup and why does it exist?",
-        "answer": "The primary escape window occurs when the attacker releases head control to secure two-on-one wrist grip on the trapped arm. During this 1-2 second transition, the opponent's head and upper body are temporarily uncontrolled, and their weight distribution shifts as they redirect their arms. This creates the opportunity for an explosive bridge because the attacker cannot simultaneously control your head, maintain hip pressure, and secure wrist control. The window exists because the arm crush requires both hands on the wrist, forcing the attacker to sacrifice head control during the transition.",
-        "safety_critical": false
-      }
-    ],
-    "training_progressions": [
-      {
-        "phase": "Phase 1: Recognition",
-        "focus": "Identifying arm crush setup cues from kesa gatame bottom",
-        "description": "Partner demonstrates the arm crush setup sequence at slow speed while the defender focuses on recognizing each transition cue: head control release, wrist grip change, arm straightening, hip repositioning. Defender calls out each cue as they feel it without attempting escapes. Builds pattern recognition."
-      },
-      {
-        "phase": "Phase 2: Prevention",
-        "focus": "Maintaining bent arm position and fighting grip transitions",
-        "description": "Partner attempts the arm crush setup at 50% speed and resistance. Defender practices keeping the arm bent, anchoring the hand, and using the free arm to strip wrist grips. Focus is on preventing the arm from straightening rather than escaping the position. Build to 70% resistance."
-      },
-      {
-        "phase": "Phase 3: Escape Timing",
-        "focus": "Exploiting the head control release window with bridging escapes",
-        "description": "Partner performs the full arm crush setup at moderate speed. Defender times explosive bridges to coincide with the head control release transition. Practice transitioning from the bridge to half guard recovery. Partner provides realistic resistance but allows successful escapes when timing is correct."
-      },
-      {
-        "phase": "Phase 4: Live Defense",
-        "focus": "Full-resistance positional sparring defending the arm crush and related submissions",
-        "description": "Full-resistance positional sparring from kesa gatame where the attacker chains between arm crush, americana, and kimura attempts. Defender must recognize each threat and adjust arm positioning accordingly while seeking escape opportunities. Track survival time and successful escapes."
-      }
-    ]
-  }
+  ]
 }

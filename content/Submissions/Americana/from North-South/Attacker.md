@@ -1,0 +1,329 @@
+
+
+
+
+---
+title: "Americana from North-South Attacker | BJJ Submission Guide | BJJ Graph"
+description: "Learn to attack the Americana shoulder lock from North-South. Step-by-step guide to grip setup, elbow pinning, paint-brush finish, and countering defenses."
+---
+
+
+<body data-content-type="submissions">
+
+> **SAFETY**: Americana from North-South targets the Shoulder joint (specifically glenohumeral joint and rotator cuff). Risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor). Release immediately upon tap.
+
+<!-- Schema Markup - HowTo for Execution -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "How to Execute Americana from North-South in BJJ",
+  "description": "Step-by-step guide for Americana from North-South with safety protocols.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Consolidate North-South Control",
+      "text": "Settle your full body weight across the defender's chest with your sternum driving into their upper torso. Ensure your hips are low and base is wide with knees splayed outward for maximum stability. Your head should be positioned near the defender's hip to maximize pressure distribution and prevent effective bridging.",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Identify and Isolate Target Arm",
+      "text": "Monitor both of the defender's arms as they attempt to frame or escape the crushing pressure. Target the near-side arm that becomes exposed through framing attempts or escape movements. Begin sliding your ribcage weight laterally to cover their elbow, trapping it against the mat with your body structure.",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Pin the Elbow with Ribcage Weight",
+      "text": "Shift your chest pressure to directly cover the defender's elbow, driving it to the mat and holding it below their shoulder line. Your ribs and lower chest create a heavy anchor point that the defender cannot dislodge. This pinning action is the critical foundation of the entire submission because without a controlled elbow the figure-four cannot generate sufficient rotational force on the shoulder.",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Secure Figure-Four Wrist Grip",
+      "text": "With the elbow pinned under your chest, use your near-side hand to control the defender's wrist with a firm C-grip wrapping around the outside. Thread your far-side arm underneath the defender's elbow and connect your palm to your own wrist, completing the figure-four configuration. Maintain chest pressure throughout this grip work to prevent arm retraction.",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Position Arm for Rotation",
+      "text": "With the figure-four secured, ensure the defender's upper arm sits perpendicular to their body with the elbow at approximately ninety degrees of flexion. If their arm is too straight, use the figure-four leverage to bend it to the proper angle. The elbow must remain pinned at or below shoulder level for the rotational mechanics to work effectively.",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Apply Paint-Brush Finish",
+      "text": "Drive the defender's hand toward the mat in a smooth controlled arc by rotating your grip assembly while maintaining the elbow pin. The motion resembles painting a fence where the hand moves in a semicircular path toward the mat while the elbow stays fixed. Apply pressure progressively over three to five seconds allowing time for the defender to recognize danger and tap safely.",
+      "position": 6
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Increase Leverage if Needed",
+      "text": "If the initial arc does not produce a tap, increase the rotational force by slightly walking your base toward the defender's head to change the attack angle on the shoulder joint. Press your chest more heavily onto the pinned elbow to prevent any upward escape of the arm. Maintain constant awareness of the defender's tap signals throughout this intensification phase.",
+      "position": 7
+    }
+  ],
+  "tool": ["BJJ Gi or No-Gi attire", "Training partner", "Mat space"],
+  "totalTime": "PT5M"
+}
+</script>
+
+<!-- Schema Markup - FAQ from Knowledge Assessment -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What anatomical structure does the Americana from North-South primarily attack?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The Americana attacks the glenohumeral shoulder joint through forced external rotation, specifically stressing the rotator cuff muscles including the supraspinatus, infraspinatus, subscapularis, and teres minor, as well as the shoulder capsule ligaments and AC joint. The rotational force is generated by fixing the elbow position and driving the hand in an arc toward the mat, creating a lever that exceeds the shoulder's natural range of external rotation."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Your opponent straightens their arm as you attempt to secure the figure-four grip - what adjustment do you make?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Transition immediately to an armbar attack by hooking their straightened wrist and rotating your body to attack the now-extended elbow joint. The straight arm from North-South provides excellent armbar leverage because your chest is already positioned near their elbow. This makes the straightened arm defense a losing proposition for the defender, which discourages it and makes future Americana attempts more effective as a chain threat."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why must the defender's elbow remain at or below shoulder level during the finish?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "When the elbow is at or below shoulder level, the figure-four grip creates a mechanical lever that forces the shoulder into external rotation beyond its safe range. If the elbow rises above shoulder level, the rotational axis shifts and the force vector changes from dangerous external rotation to a less effective angle the shoulder can tolerate. The elbow position is the fulcrum of the entire submission, and pinning it with your chest weight ensures it stays in the optimal zone for the finish."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the correct speed for applying rotational pressure during the Americana finish?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The rotational pressure must be applied slowly and progressively over three to five seconds minimum. The shoulder joint can sustain damage very quickly once the mechanical advantage is established. Rapid or jerky application risks tearing the rotator cuff or dislocating the shoulder before the defender has time to recognize the danger and tap. In drilling, use ten to twenty percent pressure maximum and always prioritize your partner's safety signal over finishing the submission."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How should you release the Americana immediately after your partner taps?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Stop all rotational pressure instantly upon feeling or hearing the tap. Release the figure-four grip on the wrist and carefully lower the arm back to a neutral position beside the body without dropping it suddenly. Release your elbow control and allow your partner to move freely. Verbally confirm they are okay. Never maintain grip pressure even slightly after a tap, as the shoulder is in a compromised position and even minor additional force can cause injury."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Your chest pressure feels solid but you cannot reach the defender's wrist to complete the figure-four - what is wrong?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Your body is likely positioned too far toward the defender's hips rather than forward over their shoulders. Adjust by walking your base forward so your chest covers their shoulder area more directly. This brings your arms within reach of their wrist while simultaneously increasing the pressure on their elbow. The grip should be accessible without reaching or stretching. If you need to reach, reposition your body rather than sacrificing pressure."
+      }
+    }
+  ]
+}
+</script>
+
+<!-- Schema Markup - WebPage -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Americana from North-South Attacker",
+  "description": "Learn to attack the Americana shoulder lock from North-South. Step-by-step guide to grip setup, elbow pinning, paint-brush finish, and countering defenses.",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Submissions",
+      "item": "https://bjjgraph.org/Submissions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Americana from North-South",
+      "item": "https://bjjgraph.org/Submissions/Americana-from-North-South"
+    },
+    {
+      "@type": "ListItem",
+      "position": 4,
+      "name": "Attacker",
+      "item": "https://bjjgraph.org/Submissions/Americana-from-North-South/Attacker"
+    }
+  ]
+}
+</script>
+
+
+<main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+<section id="overview" class="content-section">
+
+Attacking with the Americana from North-South requires capitalizing on the crushing chest pressure inherent to the position while isolating the defender's near arm for the figure-four lock. The perpendicular body alignment creates a unique angle of attack where your ribcage weight naturally pins the defender's elbow while you secure the wrist and rotate the shoulder into submission. Success depends on maintaining positional dominance throughout the entire attack sequence, because any loss of chest pressure during the grip work allows defensive escapes. The key mechanical insight is that your body structure generates the finishing force, not your arms.
+
+**From Position**: [[Positions/North-South]] (Top)
+
+
+</section>
+
+<section id="key-principles" class="content-section">
+
+## Key Attacking Principles
+
+<p class="section-subtitle">What are the key principles for executing Americana from North-South?</p>
+
+- Maintain unrelenting chest-to-chest pressure throughout the entire submission sequence to prevent the defender from creating space or establishing defensive frames
+- Isolate the near-side arm by driving your ribcage weight over the defender's elbow before attempting to secure any wrist grips
+- Secure the figure-four grip by controlling the wrist with your near hand and threading your far arm under their elbow to connect palm-to-wrist
+- Drive the defender's hand toward the mat using a paint-brush arc motion while keeping their elbow stationary and pinned below shoulder level
+- Use your body structure and chest pressure to generate rotational force rather than relying on arm strength alone
+- Monitor the defender's far arm throughout the attack to prevent them from establishing counter-grips or defensive frames
+
+
+</section>
+
+<section id="setup-requirements" class="content-section">
+
+## Prerequisites
+
+<p class="section-subtitle">What do you need before attempting Americana from North-South?</p>
+
+- Established North-South top control with heavy, settled chest pressure across the defender's upper body
+- Defender's near-side arm exposed or extended with the elbow accessible at or below shoulder level
+- Weight distributed forward over the defender's chest and shoulders with hips low and base wide for stability
+- Defender's far arm controlled, monitored, or positioned where it cannot create effective defensive grips
+- Sufficient base stability to work the figure-four grip without sacrificing positional control
+
+
+</section>
+
+<section id="execution-steps" class="content-section">
+
+## Execution Steps
+
+<p class="section-subtitle">How do you execute Americana from North-South step by step?</p>
+
+1. **Consolidate North-South Control**: Settle your full body weight across the defender's chest with your sternum driving into their upper torso. Ensure your hips are low and base is wide with knees splayed outward for maximum stability. Your head should be positioned near the defender's hip to maximize pressure distribution and prevent effective bridging. (Timing: 3-5 seconds to settle weight)
+2. **Identify and Isolate Target Arm**: Monitor both of the defender's arms as they attempt to frame or escape the crushing pressure. Target the near-side arm that becomes exposed through framing attempts or escape movements. Begin sliding your ribcage weight laterally to cover their elbow, trapping it against the mat with your body structure. (Timing: 2-4 seconds to identify opportunity)
+3. **Pin the Elbow with Ribcage Weight**: Shift your chest pressure to directly cover the defender's elbow, driving it to the mat and holding it below their shoulder line. Your ribs and lower chest create a heavy anchor point that the defender cannot dislodge. This pinning action is the critical foundation of the entire submission because without a controlled elbow the figure-four cannot generate sufficient rotational force on the shoulder. (Timing: 1-2 seconds to secure pin)
+4. **Secure Figure-Four Wrist Grip**: With the elbow pinned under your chest, use your near-side hand to control the defender's wrist with a firm C-grip wrapping around the outside. Thread your far-side arm underneath the defender's elbow and connect your palm to your own wrist, completing the figure-four configuration. Maintain chest pressure throughout this grip work to prevent arm retraction. (Timing: 2-3 seconds for grip work)
+5. **Position Arm for Rotation**: With the figure-four secured, ensure the defender's upper arm sits perpendicular to their body with the elbow at approximately ninety degrees of flexion. If their arm is too straight, use the figure-four leverage to bend it to the proper angle. The elbow must remain pinned at or below shoulder level for the rotational mechanics to work effectively. (Timing: 1-2 seconds adjustment)
+6. **Apply Paint-Brush Finish**: Drive the defender's hand toward the mat in a smooth controlled arc by rotating your grip assembly while maintaining the elbow pin. The motion resembles painting a fence where the hand moves in a semicircular path toward the mat while the elbow stays fixed. Apply pressure progressively over three to five seconds allowing time for the defender to recognize danger and tap safely. (Timing: 3-5 seconds to finish)
+7. **Increase Leverage if Needed**: If the initial arc does not produce a tap, increase the rotational force by slightly walking your base toward the defender's head to change the attack angle on the shoulder joint. Press your chest more heavily onto the pinned elbow to prevent any upward escape of the arm. Maintain constant awareness of the defender's tap signals throughout this intensification phase. (Timing: 2-3 seconds additional pressure)
+
+
+</section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[game-over]] | 68% |
+| Failure | [[Positions/North-South]] | 21% |
+| Counter | [[Positions/Half Guard]] | 11% |
+
+
+</section>
+
+<section id="common-counters" class="content-section">
+
+## Opponent Defenses
+
+<p class="section-subtitle">How might your opponent defend against Americana from North-South?</p>
+
+- **Straightening the trapped arm to prevent figure-four completion** (Effectiveness: High) - Your Response: Transition to an armbar attempt by hooking their straightened wrist and rotating to attack the extended elbow. The straight arm from North-South provides excellent armbar leverage since your chest is already positioned near their elbow. → Leads to [[Positions/North-South]]
+- **Gripping own shorts or connecting hands to resist shoulder rotation** (Effectiveness: Medium) - Your Response: Increase chest pressure to compress the defensive grip point, or reposition your figure-four higher on their wrist for increased peeling leverage. Alternatively switch to a kimura by reversing the attack direction, which often breaks the defensive connection. → Leads to [[Positions/North-South]]
+- **Explosive bridge to create space and retract the trapped arm** (Effectiveness: Low) - Your Response: Ride the bridge by sprawling your hips and widening your base. Maintain the figure-four grip throughout the bridge. As the defender returns to the mat after their bridge fails, immediately re-apply rotational pressure before they establish a secondary defense. → Leads to [[Positions/North-South]]
+- **Hip escaping to change body angle and reduce shoulder rotation vulnerability** (Effectiveness: Medium) - Your Response: Follow their hip escape by adjusting your perpendicular angle to maintain chest-over-elbow alignment. If they create significant space, consolidate back to North-South control before re-attacking. Their hip escape often exposes the far arm for a kimura transition. → Leads to [[Positions/Half Guard]]
+
+
+</section>
+
+<section id="common-mistakes" class="content-section hide-minimal">
+
+## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Americana from North-South?</p>
+
+### 1. Lifting chest pressure to secure the figure-four grip
+
+- **Consequence**: Creates space for the defender to retract their arm, frame, or initiate hip escapes, often losing the submission opportunity entirely
+- **Correction**: Keep your chest heavy on the defender's elbow throughout the grip work and slide your hands into position while maintaining constant downward pressure
+
+### 2. Attacking with the defender's elbow above their shoulder line
+
+- **Consequence**: The Americana mechanics require the elbow below shoulder level to generate effective rotation and attacking above creates a poor kimura angle instead
+- **Correction**: Use your chest pressure to drive the elbow down to mat level at or below the shoulder before applying any rotational force
+
+### 3. Using arm strength to muscle the rotation rather than body mechanics
+
+- **Consequence**: Rapid fatigue in the forearms and grip with inconsistent finishing pressure that cannot overcome strong defenders
+- **Correction**: Generate rotational force through your body weight and positioning by walking your base and rotating your torso to create the finish
+
+### 4. Neglecting far arm control during the submission attempt
+
+- **Consequence**: Defender uses the free arm to create frames, grip your wrists to prevent the figure-four, or push against your chest to create escape space
+- **Correction**: Pin or monitor the far arm with your body positioning or secondary hand control before committing fully to the submission
+
+### 5. Rushing the grip before the elbow is properly pinned to the mat
+
+- **Consequence**: Defender retracts the arm during grip work or the loosely pinned elbow slides upward during rotation killing the submission angle
+- **Correction**: Invest time in securing the elbow pin first because the grip work is secondary to positional control of the elbow joint
+
+### 6. Applying the finish in a straight line push rather than a rotational arc
+
+- **Consequence**: Creates a pushing force that the defender's shoulder structure can absorb rather than the rotational force that attacks the joint's weakness
+- **Correction**: Paint the hand toward the mat in a semicircular arc while keeping the elbow fixed because the submission works through rotation not compression
+
+
+
+</section>
+
+<section id="training-progressions" class="content-section hide-minimal">
+
+## Training Progressions
+
+<p class="section-subtitle">How do you train Americana from North-South (Attacker)?</p>
+
+**Phase 1: Grip Mechanics and Body Position** - Technical foundation
+Practice the figure-four grip in isolation from North-South with a compliant partner. Focus on maintaining chest pressure while threading the grip, proper elbow pinning with the ribcage, and the paint-brush arc motion for the finish. Drill 20-30 repetitions per side with zero resistance.
+
+**Phase 2: Transition Recognition** - Identifying and creating opportunities
+Start in North-South control with a partner providing moderate frame resistance. Practice identifying when the near arm becomes exposed during escape attempts and transitioning smoothly into the Americana grip while maintaining top pressure. Reset when the partner successfully retracts their arm.
+
+**Phase 3: Submission Chain Integration** - Combining with related attacks
+Practice the Americana as part of an attack chain with kimura and armbar from North-South. When the defender counters one submission, flow to the next option in the chain. Work both directions with increasing resistance from the training partner.
+
+**Phase 4: Live Application** - Competition-speed execution
+Apply the Americana from North-South during live rolling and positional sparring rounds starting from North-South. Track success rates and identify which defensive responses you encounter most frequently. Adjust setup and timing based on real training feedback against fully resisting opponents.
+
+
+
+</section>
+
+
+
+</main>

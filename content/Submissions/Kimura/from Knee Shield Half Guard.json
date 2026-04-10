@@ -1,0 +1,431 @@
+{
+  "name": "Kimura from Knee Shield Half Guard",
+  "description": "Master the Kimura from Knee Shield Half Guard. Complete guide to setup, grip mechanics, finishing sequence, and defensive counters for this bottom half guard shoulder lock.",
+  "tags": [
+    "bjj",
+    "submission",
+    "kimura",
+    "shoulder-lock",
+    "joint-lock",
+    "fundamental",
+    "hub",
+    "finishing-guide",
+    "knee-shield-half-guard",
+    "bottom-attack"
+  ],
+  "submission_category": "Joint Lock",
+  "submission_type": "Shoulder Lock",
+  "target_area": "Shoulder joint, rotator cuff, and shoulder capsule",
+  "starting_position": "Knee Shield Half Guard",
+  "from_position": "Knee Shield Half Guard/Bottom",
+  "success_rate": 50,
+  "overview": "The Kimura from Knee Shield Half Guard is a bottom-player shoulder lock attack that leverages the structural distance created by the knee shield frame. Unlike Kimura attempts from flat half guard where the top player's weight makes grip establishment difficult, the knee shield maintains separation that allows the bottom player to identify arm placement opportunities and thread the figure-four grip without being smashed. This makes it one of the more accessible Kimura entries from the bottom position.\n\nThe setup typically arises when the top player posts a hand on the mat for base, reaches across the body for grips, or extends an arm during a passing attempt. The bottom player captures the wrist with their near hand and threads the far arm under the opponent's tricep to establish the figure-four grip. The knee shield serves a critical dual function throughout the attack: it prevents the top player from driving forward to stack and escape while providing the bottom player with the hip mobility needed to create the perpendicular finishing angle.\n\nThis submission integrates naturally into the Kimura Trap system used extensively in modern competitive grappling. If the initial rotational finish is defended, the figure-four grip itself becomes a powerful control handle for sweeps, back takes, and transitions to other submissions. The grip is the position—even when the tap is not immediately available, maintaining the figure-four from knee shield creates a dominant control state that threatens multiple outcomes.",
+  "safety_considerations": {
+    "injury_risks": [
+      {
+        "injury": "Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis)",
+        "severity": "High",
+        "recovery_time": "3-9 months with potential surgery requirement"
+      },
+      {
+        "injury": "Shoulder capsule damage and dislocation",
+        "severity": "CRITICAL",
+        "recovery_time": "6-12 months, may require surgical repair"
+      },
+      {
+        "injury": "Labral tear (glenoid labrum)",
+        "severity": "High",
+        "recovery_time": "4-8 months, often requires arthroscopic surgery"
+      },
+      {
+        "injury": "Bicep tendon strain or rupture",
+        "severity": "Medium",
+        "recovery_time": "6-12 weeks for strain, 3-6 months for rupture"
+      }
+    ],
+    "application_speed": "SLOW and progressive - 3-5 seconds minimum in training, allowing partner time to recognize danger and tap",
+    "tap_signals": [
+      "Verbal tap (saying 'tap' or making any verbal distress sound)",
+      "Physical hand tap (multiple taps with free hand)",
+      "Physical foot tap (multiple taps with either foot)",
+      "Any distress signal including screaming or unusual sounds"
+    ],
+    "release_protocol": [
+      "Immediately stop all rotational pressure the instant tap is felt or heard",
+      "Return the arm toward neutral position by externally rotating back to starting position",
+      "Release the figure-four grip completely",
+      "Allow partner to self-assess shoulder mobility before continuing",
+      "Never release suddenly or allow arm to spring back forcefully"
+    ],
+    "training_restrictions": [
+      "Never spike or jerk the submission—rotation must be smooth and controlled",
+      "Never use competition speed or surprise attacks in training",
+      "Always ensure partner has at least one hand free to tap",
+      "Do not apply while partner is in awkward body position that prevents tapping",
+      "Never combine with weight pressure that restricts breathing while finishing",
+      "Respect immediate taps without testing partner's pain tolerance"
+    ]
+  },
+  "from_positions": [
+    "Knee Shield Half Guard",
+    "Half Guard",
+    "Butterfly Half Guard"
+  ],
+  "related_submissions": [
+    "Kimura",
+    "Americana",
+    "Guillotine Choke",
+    "Darce Choke",
+    "Far Side Armbar"
+  ],
+  "related_content": [
+    {
+      "name": "Knee Shield Half Guard",
+      "relationship": "Starting position for this submission variant"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Parent guard position family"
+    },
+    {
+      "name": "Kimura Trap",
+      "relationship": "Control position to transition to if immediate finish is defended"
+    },
+    {
+      "name": "Kimura",
+      "relationship": "Parent submission family with shared grip mechanics"
+    },
+    {
+      "name": "Deep Half Guard",
+      "relationship": "Alternative transition when kimura grip is lost"
+    }
+  ],
+  "outcomes": [
+    {
+      "to": "game-over",
+      "probability": 50,
+      "result": "success"
+    },
+    {
+      "to": "Knee Shield Half Guard/Bottom",
+      "probability": 30,
+      "result": "failure"
+    },
+    {
+      "to": "Half Guard/Bottom",
+      "probability": 20,
+      "result": "counter"
+    }
+  ],
+  "variations_and_setups": [
+    {
+      "variation_name": "Hand Post Kimura Entry",
+      "description": "The most common entry, initiated when the top player posts their hand on the mat near the bottom player's hip for base during a passing attempt. The bottom player captures the posting wrist with the near hand and immediately threads the figure-four grip.",
+      "when_to_use": "When the top player bases out with their hand on the mat while attempting to pass the knee shield"
+    },
+    {
+      "variation_name": "Underhook Counter Kimura",
+      "description": "Initiated when the top player reaches across the body to establish an underhook. As their arm extends past the bottom player's centerline, the near hand captures the wrist while the far arm threads underneath to establish the figure-four. The extended arm position makes the grip easier to lock.",
+      "when_to_use": "When the top player commits to an underhook attempt, overextending their arm across your body"
+    },
+    {
+      "variation_name": "Collar Grip Break to Kimura",
+      "description": "Set up by actively breaking the top player's collar or sleeve grip. As the opponent's hand releases and moves to re-establish their grip, the bottom player intercepts the wrist and transitions directly into the figure-four. Requires precise timing to capture the arm during the brief moment it is free.",
+      "when_to_use": "When you break the opponent's controlling grip and their arm is momentarily free and exposed"
+    }
+  ],
+  "attacker": {
+    "name": "from Knee Shield Half Guard Attacker",
+    "description": "Complete attacking guide for the Kimura from Knee Shield Half Guard. Learn grip establishment, angle creation, finishing mechanics, and how to handle common defensive responses.",
+    "overview": "Attacking the Kimura from Knee Shield Half Guard requires patience in grip establishment and precise angle creation before committing to the finish. The knee shield serves dual purpose throughout the attack: maintaining defensive integrity so the guard is not passed during the attempt, and creating the space needed to capture and isolate the opponent's arm. The key to finishing lies in using hip escapes to create a perpendicular angle to the opponent's body, pinning the captured elbow tight to your torso, and applying smooth rotational pressure through the figure-four grip. The position offers excellent submission-to-sweep chains—if the finish is defended, the kimura grip becomes a control handle for transitions into the Kimura Trap system, sweeps, or back takes, making the initial grip threat valuable regardless of whether the tap comes immediately.",
+    "key_principles": [
+      "Maintain knee shield integrity while hunting for the wrist—never sacrifice the frame to reach for grips",
+      "Capture the wrist before threading the figure-four; reversing this order allows the opponent to retract their arm",
+      "Hip escape to create a perpendicular angle before attempting the finish—attacking straight on gives the opponent leverage to stack",
+      "Pin the captured elbow tight to your ribcage to eliminate space for the opponent to straighten their arm and escape",
+      "Apply rotational pressure slowly and steadily, driving the wrist toward the mat behind the opponent's back",
+      "Maintain the bottom leg hook throughout the attack to prevent the opponent from stepping over and extracting"
+    ],
+    "setup_requirements": [
+      "Knee shield established with shin across opponent's torso, creating distance and preventing smash pressure",
+      "Opponent exposes an arm by posting on the mat, reaching across the body, or extending during a pass attempt",
+      "Near hand secures opponent's wrist with a firm C-grip before threading the figure-four",
+      "Far arm threads under opponent's tricep from the outside to establish figure-four connection",
+      "Hips are mobile and not pinned flat to the mat, allowing angle creation for the finish"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Identify the attacking opportunity",
+        "description": "From established knee shield half guard, monitor the opponent's hand placement and arm positioning. The opportunity arises when the top player posts a hand on the mat near your hip, reaches across your body for an underhook, or places a hand down for base during a passing attempt. Maintain your knee shield frame while mentally committing to the attack.",
+        "timing": "Immediate recognition, 0-1 seconds"
+      },
+      {
+        "step_number": 2,
+        "action": "Capture the wrist",
+        "description": "With your near hand (same side as the targeted arm), grip the opponent's wrist using a firm C-grip with your thumb on top. Pull the wrist toward your hip to begin isolating the arm and breaking their posting structure. Your knee shield maintains distance throughout and prevents the opponent from driving forward to free their hand by stacking.",
+        "timing": "Within 1-2 seconds of recognition"
+      },
+      {
+        "step_number": 3,
+        "action": "Establish the figure-four grip",
+        "description": "Thread your far arm underneath the opponent's tricep from the outside, reaching through to connect your hands in a figure-four configuration. Your threading hand grips your own wrist that holds the opponent's wrist. Squeeze your elbows tight to your body immediately upon connection to prevent any slack in the grip that would allow arm extraction.",
+        "timing": "1-2 seconds after wrist capture"
+      },
+      {
+        "step_number": 4,
+        "action": "Create the finishing angle with hip escape",
+        "description": "Hip escape away from the opponent to create a perpendicular angle to their body, aiming for approximately 90 degrees. Your knee shield assists by blocking the opponent from following your hip movement or driving forward to stack. The angle is critical—attempting to finish while parallel to the opponent allows them to use their top position weight advantage to defend and stack.",
+        "timing": "1-3 seconds, may require multiple hip escape cycles"
+      },
+      {
+        "step_number": 5,
+        "action": "Pin the elbow and consolidate control",
+        "description": "Draw the opponent's captured elbow tight against your ribcage, eliminating any gap between their upper arm and your torso. Use your knee shield to prevent them from posturing up or driving forward to create space. Their upper arm should be pressed firmly against your body with absolutely no space available for straightening the arm or pulling it free.",
+        "timing": "1-2 seconds to consolidate"
+      },
+      {
+        "step_number": 6,
+        "action": "Apply the rotational finish",
+        "description": "With the elbow pinned and perpendicular angle established, drive the opponent's wrist in a smooth arc toward the mat behind their back. Apply pressure progressively over three to five seconds in training—never jerk or spike the rotation. The movement attacks the shoulder joint through forced internal rotation past its natural range of motion. Maintain tight control and watch for tap signals throughout the finish.",
+        "timing": "3-5 seconds progressive application in training"
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Straightening the captured arm to prevent figure-four lock",
+        "effectiveness": "High",
+        "your_response": "If the arm straightens before the figure-four is locked, release the attempt and re-establish knee shield position. Wait for the next posting opportunity rather than fighting a straight arm, which wastes energy and exposes your guard.",
+        "targets_outcome": "Knee Shield Half Guard/Bottom"
+      },
+      {
+        "counter": "Clasping hands together in gable grip defense after figure-four is established",
+        "effectiveness": "Medium",
+        "your_response": "Drive the captured elbow toward the mat to stretch the gable grip while maintaining your perpendicular angle. Walk your figure-four grip toward the opponent's fingers where grip strength is weakest. If the grip holds, transition to a sweep using the kimura control as an off-balancing handle.",
+        "targets_outcome": "Knee Shield Half Guard/Bottom"
+      },
+      {
+        "counter": "Driving forward and stacking to collapse the knee shield and relieve rotational pressure",
+        "effectiveness": "Medium",
+        "your_response": "Use the knee shield actively to block the stack by pushing outward with your shin. Hip escape further away to maintain the finishing angle. If stacking succeeds in collapsing the shield, transition the kimura grip to the Kimura Trap position rather than abandoning the grip entirely.",
+        "targets_outcome": "Half Guard/Bottom"
+      },
+      {
+        "counter": "Rolling toward the kimura direction to relieve shoulder pressure",
+        "effectiveness": "Low",
+        "your_response": "Follow their roll by adjusting your hips and maintaining tight elbow-to-ribcage control. The forward roll frequently exposes the back—be ready to release the rotational finish and transition to back control while maintaining the kimura grip as a control handle.",
+        "targets_outcome": "Knee Shield Half Guard/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Dropping the knee shield to reach for the opponent's arm",
+        "consequence": "Opponent collapses into smash passing position and advances past the guard before the grip is established",
+        "correction": "Maintain knee shield integrity throughout the entire grip establishment phase. Only adjust the shield after the figure-four is fully locked and secure."
+      },
+      {
+        "error": "Attempting to finish without creating a perpendicular hip angle",
+        "consequence": "Opponent uses their top position weight advantage to stack and defend, neutralizing the rotational pressure entirely",
+        "correction": "Hip escape to create at least a 45-degree angle before applying any rotational pressure. Ideally achieve 90 degrees for maximum finishing leverage."
+      },
+      {
+        "error": "Loose figure-four grip with elbows flared away from the body",
+        "consequence": "Opponent extracts their arm through the gap created between your arms and torso, escaping the submission completely",
+        "correction": "Keep elbows squeezed tight to your ribcage throughout the entire attack sequence. The grip should feel like a vise with no space for the arm to slide through."
+      },
+      {
+        "error": "Jerking or spiking the rotational finish instead of applying progressive pressure",
+        "consequence": "Risk of serious shoulder injury to training partner. Also telegraphs the finish, allowing last-second defensive reactions",
+        "correction": "Apply smooth, progressive rotational pressure over 3-5 seconds in training. The slow application is actually harder to defend than a sudden jerk."
+      },
+      {
+        "error": "Releasing the bottom leg hook during the kimura attack",
+        "consequence": "Opponent steps over the bottom leg and escapes to side control or mount, passing the guard entirely",
+        "correction": "Maintain an active bottom leg hook behind the opponent's far leg throughout the entire kimura sequence. The hook prevents leg extraction and passing."
+      },
+      {
+        "error": "Threading the figure-four before securing the wrist",
+        "consequence": "Opponent retracts their arm before the grip is completed, wasting the setup opportunity and alerting them to the threat",
+        "correction": "Always capture the wrist first with a firm C-grip, then thread the figure-four. The wrist control anchors the arm in place during the threading motion."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Grip Isolation",
+        "focus": "Figure-four grip mechanics from knee shield",
+        "description": "Practice establishing the figure-four grip from knee shield with a cooperative partner. Focus on proper hand placement, wrist-first capture sequence, elbow positioning tight to the body, and transitioning from wrist control to full figure-four without losing knee shield integrity. Drill 20 repetitions per side."
+      },
+      {
+        "phase": "Phase 2: Dominant Angles",
+        "focus": "Hip escape mechanics under load",
+        "description": "With figure-four secured, practice hip escaping to perpendicular angle while partner applies moderate forward pressure. Focus on using the knee shield to block stacking while creating the finishing angle. Increase resistance over multiple rounds to build the timing and strength for angle creation under pressure."
+      },
+      {
+        "phase": "Phase 3: Finishing Mechanics",
+        "focus": "Controlled rotational pressure and tap recognition",
+        "description": "Practice the full sequence from grip to finish with progressive resistance. Emphasis on smooth rotational pressure applied over 3-5 seconds, reading tap signals immediately, and maintaining elbow-to-ribcage control throughout the rotation. Partner provides verbal feedback on pressure speed and control quality."
+      },
+      {
+        "phase": "Phase 4: Live Integration",
+        "focus": "Recognizing opportunities in sparring",
+        "description": "Positional sparring from knee shield half guard with full resistance. Focus on recognizing when the opponent exposes their arm through posting or reaching, executing the complete attack chain under competitive conditions, and transitioning to Kimura Trap or sweeps when the direct finish is defended."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What anatomical structures does the Kimura from Knee Shield Half Guard primarily attack?",
+        "answer": "The Kimura attacks the shoulder joint through forced internal rotation, specifically targeting the rotator cuff muscles (supraspinatus, infraspinatus, teres minor, subscapularis), the shoulder capsule, and the glenoid labrum. The figure-four grip creates a lever system that amplifies rotational force well beyond the shoulder's natural range of motion, making it capable of causing serious structural damage.",
+        "safety_critical": false
+      },
+      {
+        "question": "Your opponent posts their hand on the mat while you have knee shield established—what is your immediate sequence?",
+        "answer": "Immediately capture the posting wrist with your near hand using a C-grip, pulling it toward your hip to break their base. Thread your far arm under their tricep and establish the figure-four grip while maintaining your knee shield throughout. Only begin creating the finishing angle with hip escapes after the figure-four is fully locked and your elbows are tight to your body.",
+        "safety_critical": false
+      },
+      {
+        "question": "What indicates you have reached the point where you should stop applying rotational pressure in training?",
+        "answer": "Stop immediately upon any tap signal—verbal, hand tap, or foot tap. In training, also monitor for the shoulder approaching maximum internal rotation (visible resistance in the joint), visible discomfort or tension in the trapped arm, and any verbal distress. Shoulder locks cause gradual damage before acute pain, so apply pressure slowly enough that your partner has adequate time to recognize danger and tap before structural damage occurs.",
+        "safety_critical": true
+      },
+      {
+        "question": "Your opponent clasps their hands together in a gable grip to defend the rotation—how do you break through?",
+        "answer": "Drive the captured elbow toward the mat to stretch the gable grip at its weakest point while maintaining your perpendicular angle. Walk your figure-four grip toward the opponent's fingers where grip strength is lowest. You can also use your knee shield to push and off-balance them, disrupting their grip connection. If the grip will not break, transition to using the kimura control as a sweep handle rather than forcing the finish.",
+        "safety_critical": false
+      },
+      {
+        "question": "How should you release the Kimura after your training partner taps?",
+        "answer": "Immediately stop all rotational pressure the instant the tap is detected. Slowly return the arm toward its neutral position by externally rotating back to the starting alignment. Release the figure-four grip completely and allow your partner to self-assess their shoulder mobility before continuing. Never release suddenly or let the arm spring back uncontrolled, as the momentum can cause injury even after the submission pressure has been removed.",
+        "safety_critical": true
+      },
+      {
+        "question": "What is the critical angle adjustment needed before applying the finishing rotation?",
+        "answer": "Hip escape to create a perpendicular angle of approximately 90 degrees to your opponent's body before applying rotational pressure. Attempting to finish while parallel allows the opponent to use their top position weight to stack and defend effectively. The perpendicular angle ensures the rotational force is applied along the shoulder joint's weakest axis of resistance and eliminates the opponent's ability to counter with forward pressure and body weight.",
+        "safety_critical": false
+      },
+      {
+        "question": "Your opponent begins rolling toward the kimura to relieve shoulder pressure—what adjustment prevents escape?",
+        "answer": "Follow their roll by maintaining tight elbow-to-ribcage control and adjusting your hips to stay perpendicular to their body as they rotate. Do not fight the roll—use it. Their forward roll frequently exposes the back, creating an opportunity to transition to back control while maintaining the kimura grip. Keep your bottom leg hook active to control their rotation speed and prevent them from completing a full escape roll.",
+        "safety_critical": false
+      },
+      {
+        "question": "What grip errors most commonly allow the opponent to escape the Kimura from Knee Shield Half Guard?",
+        "answer": "The most common grip error is flaring the elbows away from the body, creating space between the arms and torso that allows arm extraction. Second is gripping too far from the opponent's wrist, reducing rotational leverage significantly. Third is failing to maintain the figure-four connection under pressure—if the hands separate even momentarily, the opponent can straighten their arm and escape. All three errors stem from insufficient squeeze pressure on the grip.",
+        "safety_critical": false
+      }
+    ]
+  },
+  "defender": {
+    "name": "from Knee Shield Half Guard Defender",
+    "description": "Defend against the Kimura from Knee Shield Half Guard. Recognition cues, grip defense, escape techniques, and prevention strategies for this bottom half guard shoulder lock attack.",
+    "overview": "Defending the Kimura from Knee Shield Half Guard requires early recognition and immediate action to prevent grip establishment. Once the figure-four grip is fully locked with elbows tight, escape becomes significantly more difficult and the risk of shoulder injury increases with every second of delay. The defender must prioritize keeping their elbows close to their body, avoiding posting hands on the mat within the opponent's reach, and recognizing the moment the bottom player begins hunting for the wrist. Prevention through posture control and arm discipline is far more effective than attempting to escape a fully locked submission. When caught, the defender must act decisively—straightening the arm before the figure-four locks, clasping hands in gable grip defense if the grip is established, or driving forward to collapse the knee shield and eliminate the finishing angle.",
+    "key_principles": [
+      "Keep elbows tucked close to your body—never post hands on the mat within the opponent's reach from knee shield",
+      "Recognize the attack early by monitoring the opponent's grip changes and hip escape movement",
+      "Drive forward into the opponent to eliminate the space that the knee shield creates for the attack",
+      "If the wrist is captured, immediately straighten the arm before the figure-four grip is established",
+      "Use clasping hands defense as secondary defense if the figure-four locks—combine with forward pressure",
+      "Never allow the opponent to create a perpendicular angle—follow their hip movement by circling toward their head"
+    ],
+    "recognition_cues": [
+      "Opponent's near hand releases their standard guard grip (collar, sleeve, or wrist) and reaches toward your posting or reaching arm",
+      "Opponent begins hip escaping while maintaining the knee shield, creating lateral angle typically used for the finishing position",
+      "You feel your posting hand or extended arm being pulled toward the opponent's hip with increasing urgency",
+      "Opponent's far arm threads underneath your tricep, seeking the figure-four connection on the other side of your arm"
+    ],
+    "defensive_options": [
+      {
+        "action": "Retract the arm immediately and tuck elbow to body",
+        "when_to_use": "Early stage—before the figure-four grip is established, when you feel your wrist being grabbed",
+        "targets_outcome": "Knee Shield Half Guard/Bottom",
+        "if_successful": "Neutralizes the attack completely and returns to standard passing position with no positional sacrifice",
+        "risk": "Low—simple arm retraction with no positional compromise"
+      },
+      {
+        "action": "Gable grip defense combined with forward driving pressure",
+        "when_to_use": "Mid stage—after the figure-four is established but before the opponent creates a finishing angle",
+        "targets_outcome": "Knee Shield Half Guard/Bottom",
+        "if_successful": "Prevents the rotational finish and creates opportunity to break the grip through sustained pressure and posture",
+        "risk": "Medium—requires maintained grip strength and forward pressure; if grip breaks you are immediately vulnerable again"
+      },
+      {
+        "action": "Stack and drive forward to collapse the knee shield and eliminate finishing space",
+        "when_to_use": "When the opponent has the grip and is beginning to hip escape for the finishing angle",
+        "targets_outcome": "Half Guard/Bottom",
+        "if_successful": "Collapses the opponent's knee shield frame, removes the space needed for the finish, and may advance your passing position",
+        "risk": "Medium-High—overcommitting to the stack can expose your back if the opponent transitions to back take"
+      }
+    ],
+    "escape_paths": [
+      "Straighten the captured arm forcefully and retract elbow tight to the body before the figure-four grip is fully established",
+      "Clasp hands in gable grip and drive forward with heavy pressure while walking toward the opponent's head to relieve rotation angle",
+      "Roll toward the kimura direction to relieve rotational shoulder pressure while working to separate the attacker's figure-four connection"
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Half Guard/Bottom",
+        "how": "Stack the opponent by driving forward with heavy pressure, collapsing the knee shield frame, and extracting the arm while transitioning to a dominant half guard passing position with the opponent flattened underneath"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Posting a hand on the mat within the opponent's reach while in knee shield top",
+        "consequence": "The posted arm is captured immediately, and the kimura figure-four grip is established before you can retract the arm",
+        "correction": "Keep hands on the opponent's body (collar, bicep, or lapel) rather than posting on the mat when facing an active knee shield guard player"
+      },
+      {
+        "error": "Pulling the captured arm straight backward instead of keeping the elbow tight",
+        "consequence": "Creates space around the arm that allows the figure-four grip to be established or tightened further",
+        "correction": "Pin your elbow to your ribcage and circle it inward toward your centerline rather than pulling backward. The goal is eliminating space, not creating distance."
+      },
+      {
+        "error": "Allowing the opponent to create a perpendicular hip angle without following their movement",
+        "consequence": "The finishing angle is established and escape difficulty increases dramatically as rotational leverage peaks",
+        "correction": "Follow the opponent's hip escape movement by circling toward their head, keeping your chest oriented toward them and preventing the perpendicular angle they need to finish"
+      },
+      {
+        "error": "Panicking and trying to muscle out of a locked figure-four grip",
+        "consequence": "Exhausts energy rapidly without escaping and may cause self-injury by fighting against the joint lock with explosive force",
+        "correction": "Stay calm, establish gable grip defense, and methodically work to collapse the space by driving forward. Technical defense preserves energy and creates better escape opportunities."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "How do you recognize that a Kimura from Knee Shield Half Guard is being set up?",
+        "answer": "Watch for the opponent's near hand releasing their standard guard grips to reach for your wrist or forearm. Hip escape movement while maintaining the knee shield indicates they are creating the angle needed for the attack. If you feel your arm being pulled toward their hip or sense their far arm threading under your tricep, the attack sequence is already in progress and you must respond immediately.",
+        "safety_critical": false
+      },
+      {
+        "question": "What is the safest way to tap to the Kimura from Knee Shield Half Guard?",
+        "answer": "Tap early and clearly before the rotation reaches your shoulder's end range of motion. Use multiple rapid hand taps with your free hand on the opponent's body or the mat where they can feel it. If your free hand is trapped, tap with your feet on the mat or verbally say 'tap' loudly and clearly. Never attempt to tough out the pressure with shoulder locks—the joint can sustain permanent structural damage before the acute pain becomes severe enough to force the tap.",
+        "safety_critical": true
+      },
+      {
+        "question": "What defensive options are available at each stage of the Kimura attack from Knee Shield Half Guard?",
+        "answer": "In the early stage before the figure-four locks, immediately retract the arm and tuck the elbow tight to the body. In the mid stage after the grip is established, clasp hands in a gable grip and drive forward with heavy pressure to prevent the finishing angle. In the late stage when rotation begins, roll toward the kimura direction to relieve pressure while working to separate the attacker's grip. Prevention is always easier than late-stage escape.",
+        "safety_critical": false
+      },
+      {
+        "question": "What arm positioning discipline prevents the Kimura setup from Knee Shield Half Guard?",
+        "answer": "Never post your hand on the mat within the opponent's reach when facing an active knee shield player. Keep both hands on the opponent's body—gripping collar, bicep, or lapel—rather than extending them to the mat for base. When reaching for grips or passing angles, keep elbows tight to the torso. The Kimura setup requires an exposed and extended arm, so disciplined arm positioning eliminates the primary entry opportunity entirely.",
+        "safety_critical": false
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Recognition Training",
+        "focus": "Identifying attack setup cues early",
+        "description": "Partner demonstrates Kimura entries from knee shield at slow speed while the defender identifies visual and tactile recognition cues. Practice reacting to wrist grabs and arm threading attempts with immediate arm retraction. Build the pattern recognition needed to detect the attack before the grip is locked."
+      },
+      {
+        "phase": "Phase 2: Grip Defense",
+        "focus": "Preventing and breaking the figure-four grip",
+        "description": "Partner establishes the figure-four grip with progressively increasing resistance. Defender practices arm retraction, gable grip defense, and forward driving pressure to collapse space. Focus on the correct timing window for each defensive option and developing the grip strength to maintain gable grip under rotational pressure."
+      },
+      {
+        "phase": "Phase 3: Live Defense",
+        "focus": "Full resistance defensive integration",
+        "description": "Positional sparring from knee shield half guard where the partner actively hunts the kimura. Defender works on arm discipline prevention, early-stage defense when the wrist is grabbed, mid-stage gable grip defense, and late-stage rolling escapes. Track which defensive stage you reach most often to identify where your prevention is breaking down."
+      }
+    ]
+  }
+}

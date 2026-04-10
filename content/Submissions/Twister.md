@@ -3,24 +3,33 @@
 
 
 ---
-title: "Twister | BJJ Submission | BJJ Graph"
+title: "Twister | BJJ Submission Family | BJJ Graph"
 description: "Master the Twister spinal lock in BJJ. Complete guide covering Truck position setup, spine rotation mechanics, safety protocols, and defense strategies for advanced practitioners."
 ---
 
 
-<body data-content-type="submissions-hub">
+<body data-content-type="submissions-family">
 
 > **SAFETY**: Twister targets the Cervical and thoracic spine, shoulder girdle. Risk: Cervical spine damage (neck injury). Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
-<div class="role-links">
 
-[[Twister/Attacker|Play as Attacker]]
-[[Twister/Defender|Play as Defender]]
+<section id="variants" class="content-section">
 
-</div>
+## Position Variants
+
+| From Position | Success Rate | Top Injury Risk | Key Difference |
+|---------------|-------------|-----------------|----------------|
+| [[Twister/from Cross Body Ride|Cross Body Ride]] | 40% | Cervical spine damage including herniated discs and ligament tears |  |
+| [[Twister/from Russian Cowboy|Russian Cowboy]] | 40% | Thoracic spine herniated disc from opposed rotational compression |  |
+| [[Twister/from Twister Control|Twister Control]] | 40% | Cervical spine damage including herniated discs and ligament tears |  |
+| [[Twister/from Twister Side Control|Twister Side Control]] | 40% | Cervical spine damage (neck injury) |  |
+
+
+</section>
+
 
 <section id="overview" class="content-section">
 
@@ -31,9 +40,7 @@ Due to the complex mechanics and significant injury potential, the Twister is co
 **Category**: Joint Lock
 **Type**: Spinal Lock
 **Target Area**: Cervical and thoracic spine, shoulder girdle
-**Starting Position**: [[Positions/Twister Control/Truck]]
-**From Position**: [[Positions/Twister Control]] (Top)
-**Success Rate**: 40%
+**Success Rate**: 40% (average across variants)
 
 </section>
 
@@ -80,147 +87,10 @@ Due to the complex mechanics and significant injury potential, the Twister is co
 
 </section>
 
-<section id="outcomes" class="content-section">
 
-## Outcomes
+<section id="variation-details" class="content-section hide-minimal">
 
-| Result | Position | Probability |
-|--------|----------|-------------|
-| Success | [[game-over]] | 52% |
-| Failure | [[Positions/Twister Control]] | 28% |
-| Counter | [[Positions/Turtle]] | 20% |
-
-
-</section>
-
-<section class="content-section">
-
-## Attacker vs Defender
-
-| &nbsp; | Attacker | Defender |
-|--------|----------|----------|
-| **Focus** | Execute and finish | Escape and survive |
-| **Key Principles** | Establish dominant Truck position before attempting - lower ... | Recognize Twister setup early - defense becomes exponentiall... |
-| **Options** | 7 execution steps | 4 defensive options |
-
-</section>
-
-<section id="attacker-summary" class="content-section">
-
-## Playing as Attacker
-
-[[Twister/Attacker|→ Full Attacker Guide]]
-
-### Key Principles
-
-
-- Establish dominant Truck position before attempting - lower body must be completely controlled
-
-- Create opposing tension vectors - legs pull one direction while arms pull the opposite
-
-- Maintain perpendicular alignment between opponent's upper and lower body throughout
-
-- Apply pressure gradually and progressively - spine locks require slow, controlled application
-
-- Control the far shoulder and head to prevent opponent from turning into you
-
-- Use your entire body to create the twisting motion, not just arm strength
-
-- Listen to your partner and err on the side of caution - spinal integrity is paramount
-
-
-### Execution Steps
-
-
-- **Secure Truck Position Foundation**: From back control or turtle position, transition to the Truck by controlling opponent's legs while t...
-
-- **Isolate the Far Arm**: Reach across opponent's back and control their far arm at the wrist or triceps. Pull this arm across...
-
-- **Establish Head Control**: With your free hand, reach over opponent's far shoulder and cup under their chin or jaw (gable grip ...
-
-- **Create Initial Separation**: Begin extending your legs to push opponent's lower body away from you while simultaneously beginning...
-
-- **Increase Opposing Vectors**: Gradually increase the separation between upper and lower body by extending your lockdown leg furthe...
-
-- **Apply Final Twisting Pressure**: Continue the opposing motion until opponent taps. Their lower body is pushed away by your extended l...
-
-- **Immediate Release on Tap**: The moment you feel or hear a tap, immediately release the head control first, then allow opponent t...
-
-
-### Common Mistakes
-
-
-- **Pulling the head straight back instead of creating rotational torque**
-  - Consequence: Transforms into a neck crank rather than spinal lock, reduces effectiveness and increases danger
-  - Correction: Focus on perpendicular alignment and opposing vectors - push lower body one direction while pulling upper body the opposite direction, creating a twisting motion
-
-- **Applying the submission too quickly or explosively**
-  - Consequence: High risk of serious spinal injury to your partner
-  - Correction: Always apply extremely slowly over 5-7 seconds minimum. This is not a submission to 'crank' - it requires progressive, controlled pressure
-
-- **Losing lockdown control and attempting to finish anyway**
-  - Consequence: Opponent can escape or turn into you, negating the submission entirely
-  - Correction: Re-establish solid lower body control before attempting the finish. The Twister is impossible without anchoring their hips and legs.
-
-
-</section>
-
-<section id="defender-summary" class="content-section">
-
-## Playing as Defender
-
-[[Twister/Defender|→ Full Defender Guide]]
-
-### Key Principles
-
-
-- Recognize Twister setup early - defense becomes exponentially harder as the attacker progresses through each control point
-
-- Protect the far arm at all costs - once it is trapped behind your back, the attacker controls your ability to resist rotation
-
-- Work to free the trapped leg first, as the lockdown is the foundation of the entire submission
-
-- Turn toward the attacker rather than away, as turning away accelerates the spinal rotation they are creating
-
-- Tuck chin and protect neck immediately when you feel upper body control being established
-
-- Tap early and without ego - the spine gives no warning before catastrophic failure under rotational load
-
-- Use frames against the attacker's hips and shoulders to prevent them from achieving perpendicular alignment
-
-
-### Recognition Cues
-
-
-- Opponent secures Truck position with their legs entangled around your near leg, creating a lockdown-style figure-four on your lower body
-
-- You feel lateral pressure from the attacker's boot against your hip, preventing you from squaring up or turning to face them
-
-- Attacker reaches across your back toward your far arm while maintaining perpendicular body positioning to your spine
-
-- You feel the attacker's chest or shoulder pressing against your upper back while your lower body is locked in place
-
-- Attacker begins cupping under your chin or controlling your far shoulder after isolating your arm
-
-
-### Escape Paths
-
-
-- Turn into the attacker before full perpendicular alignment to recover turtle or half guard, preventing the opposing force vectors from being established
-
-- Extract the trapped leg by straightening, rotating outward, and shrimping to break the lockdown anchor, then recover to open guard or half guard
-
-- Granby roll toward the attacker during the transition phase when upper body control is incomplete, using momentum to break the control structure
-
-- Bridge explosively toward the attacker's chest while fighting the chin cup grip to prevent full rotation and create a scramble opportunity
-
-
-</section>
-
-
-<section id="variations" class="content-section hide-minimal">
-
-## Variations
+## Variation Details
 
 
 **Electric Chair to Twister Transition**: From the Electric Chair leg lock position, if opponent defends by turning away and going belly-down, transition directly to Truck position and then Twister. (When to use: When opponent is defending the Electric Chair by turning away from you rather than toward you)
@@ -260,18 +130,17 @@ Due to the complex mechanics and significant injury potential, the Twister is co
 
 ## Related Submissions
 
-- [[Submissions/Calf Slicer from Truck]]
-- [[Submissions/Banana Split]]
-- [[Submissions/Electric Chair Submission]]
-- [[Transitions/Rear Naked Choke]]
-- [[Transitions/Bow and Arrow Choke]]
-- [[Transitions/Choke from Crucifix]]
-- [[Transitions/Guillotine Choke]]
-- [[Transitions/Darce Choke]]
-- [[Transitions/Kimura]]
-- [[Submissions/Armbar from Back]]
-- [[Transitions/Calf Slicer]]
-- [[Submissions/Boston Crab]]
+- [[Submissions/Banana Split]] - Alternative submission in the Truck attack system targeting hip flexibility
+- [[Submissions/Calf Slicer]] - Primary complementary leg attack from Truck position
+- [[Positions/Half Guard/Electric Chair]] - Related 10th Planet submission that chains directly with Twister entries
+- [[Submissions/Bicep Slicer]] - Complementary arm attack from similar back-exposure positions
+- [[Submissions/Bow and Arrow Choke]] - Alternative back attack submission from similar control positions
+- [[Transitions/Guillotine Choke]] - Available when opponent turns to escape Twister rotation
+- [[Transitions/Darce Choke]] - Front headlock attack accessible during Twister scrambles
+- [[Submissions/Belly Down Armbar]] - Arm attack from similar back-exposure position
+- [[Submissions/Boston Crab]] - Related spinal compression submission from back exposure
+- [[Positions/Half Guard/Electric Chair]] - Alternative finish from the same 10th Planet leg entanglement system
+- [[Armbar Finish]] - Alternative finish when arm is exposed during Twister defense
 
 
 </section>
@@ -288,7 +157,7 @@ Due to the complex mechanics and significant injury potential, the Twister is co
 - [[Positions/Turtle]] - Common opponent position for Truck entry and Twister setup
 - [[Positions/Half Guard/Electric Chair]] - Related 10th Planet position that chains directly with Twister
 - [[Positions/Half Guard]] - Starting position for lockdown entries leading to Truck system
-- [[Submissions/Calf Slicer from Truck]] - Complementary submission from same control position
+- [[Submissions/Calf Slicer]] - Complementary submission from same Truck control position
 - [[Submissions/Banana Split]] - Alternative submission in the Truck attack system
 - [[Positions/Crucifix]] - Related back control position with arm isolation options
 

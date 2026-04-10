@@ -1,0 +1,437 @@
+{
+  "name": "Kimura from New York Control",
+  "description": "Master the Kimura shoulder lock from New York Control rubber guard. Complete guide covering setup mechanics, grip transitions, finishing details, and defensive strategies.",
+  "tags": [
+    "bjj",
+    "submission",
+    "kimura",
+    "shoulder-lock",
+    "joint-lock",
+    "rubber-guard",
+    "10th-planet",
+    "finishing-guide",
+    "new-york-control"
+  ],
+  "submission_category": "Joint Lock",
+  "submission_type": "Shoulder Lock",
+  "target_area": "Shoulder joint, rotator cuff, and shoulder capsule",
+  "starting_position": "New York Control",
+  "from_position": "New York Control/Bottom",
+  "success_rate": 62,
+  "overview": "The Kimura from New York Control leverages the rubber guard system's inherent arm control to set up a high-percentage shoulder lock from bottom position. The deep overhook that defines New York Control provides a natural pathway to the figure-four Kimura grip, bypassing the most difficult phase of traditional guard-based Kimura attacks where establishing initial arm control against a defensive opponent often fails. The bottom player converts existing overhook control directly into the Kimura grip while maintaining leg pressure across the opponent's back to prevent posture recovery.\n\nWhat distinguishes this variation from standard closed guard or half guard Kimura attempts is the pre-existing arm isolation. In conventional guard positions, the attacker must first break posture, then fight to control one arm while the opponent uses both hands for defense. From New York Control, the overhook has already compromised the defender's arm positioning and eliminated their ability to post or create distance. The transition from overhook to figure-four requires only a grip conversion rather than a full arm isolation sequence, making the setup substantially faster and harder to defend.\n\nThe finishing mechanics require precise hip escape movement to create the rotational angle necessary for shoulder torque. The bottom player hip escapes toward the trapped arm side while maintaining active leg pressure, generating mechanical advantage that overcomes defensive grip fighting. The combination of rubber guard positional control and classical Kimura rotational mechanics produces a submission that rewards practitioners who invest in both flexibility development and fundamental shoulder lock finishing details.",
+  "safety_considerations": {
+    "injury_risks": [
+      {
+        "injury": "Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis)",
+        "severity": "High",
+        "recovery_time": "3-9 months with potential surgery requirement"
+      },
+      {
+        "injury": "Shoulder capsule damage and dislocation",
+        "severity": "CRITICAL",
+        "recovery_time": "6-12 months, may require surgical repair"
+      },
+      {
+        "injury": "Labral tear (glenoid labrum)",
+        "severity": "High",
+        "recovery_time": "4-8 months, often requires arthroscopic surgery"
+      },
+      {
+        "injury": "Bicep tendon strain or rupture",
+        "severity": "Medium",
+        "recovery_time": "6-12 weeks for strain, 3-6 months for rupture"
+      }
+    ],
+    "application_speed": "SLOW and progressive - 3-5 seconds minimum in training, allowing partner time to recognize danger and tap",
+    "tap_signals": [
+      "Verbal tap (saying 'tap' or making any verbal distress sound)",
+      "Physical hand tap (multiple taps with free hand)",
+      "Physical foot tap (multiple taps with either foot)",
+      "Any distress signal including screaming or unusual sounds"
+    ],
+    "release_protocol": [
+      "Immediately stop all rotational pressure the instant tap is felt or heard",
+      "Return the arm toward neutral position (externally rotate back to starting position)",
+      "Release the figure-four grip completely",
+      "Allow partner to self-assess shoulder mobility before continuing",
+      "Never release suddenly or allow arm to spring back forcefully"
+    ],
+    "training_restrictions": [
+      "Never spike or jerk the submission - rotation must be smooth and controlled",
+      "Never use competition speed or surprise attacks in training",
+      "Always ensure partner has at least one hand free to tap",
+      "Do not apply while partner is in awkward body position that prevents tapping",
+      "Never combine with weight pressure that restricts breathing while finishing",
+      "Respect immediate taps without testing partner's pain tolerance"
+    ]
+  },
+  "from_positions": [
+    "New York Control",
+    "Overhook Guard"
+  ],
+  "related_submissions": [
+    "Kimura",
+    "Americana",
+    "Gogoplata",
+    "Reverse Kimura",
+    "Triangle Choke"
+  ],
+  "related_content": [
+    {
+      "name": "New York Control",
+      "relationship": "Starting position for this submission variant"
+    },
+    {
+      "name": "Kimura",
+      "relationship": "Parent submission technique"
+    },
+    {
+      "name": "Mission Control",
+      "relationship": "Entry position in rubber guard system leading to New York Control"
+    },
+    {
+      "name": "Closed Guard",
+      "relationship": "Recovery position when New York Control is lost"
+    },
+    {
+      "name": "Omoplata Control",
+      "relationship": "Alternative attack available from same position"
+    },
+    {
+      "name": "Gogoplata",
+      "relationship": "Primary alternative submission from New York Control"
+    }
+  ],
+  "outcomes": [
+    {
+      "to": "game-over",
+      "probability": 62,
+      "result": "success"
+    },
+    {
+      "to": "New York Control/Bottom",
+      "probability": 25,
+      "result": "failure"
+    },
+    {
+      "to": "Closed Guard/Top",
+      "probability": 13,
+      "result": "counter"
+    }
+  ],
+  "attacker": {
+    "name": "from New York Control Attacker",
+    "description": "Learn to attack with the Kimura from New York Control rubber guard position. Step-by-step setup, grip transitions, finishing mechanics, and counter responses.",
+    "overview": "Attacking with the Kimura from New York Control capitalizes on the rubber guard system's inherent arm control to create one of the most efficient shoulder lock entries available from bottom position. The deep overhook that defines New York Control provides a natural pathway to the figure-four grip, bypassing the arm isolation phase that makes traditional guard Kimura setups difficult against resisting opponents. The bottom player converts existing overhook control into the Kimura grip while maintaining active leg pressure across the opponent's back to prevent posture recovery, then uses hip escape mechanics to generate the rotational angle needed for the finish. Success depends on precise grip conversion timing, maintaining leg control throughout the transition, and applying progressive rotational pressure from an angle that maximizes mechanical advantage while minimizing the opponent's defensive leverage.",
+    "key_principles": [
+      "The overhook provides pre-existing arm isolation that eliminates the hardest phase of traditional Kimura setups",
+      "Leg pressure across the opponent's back must remain active throughout the grip transition to prevent posture recovery",
+      "Hip escape toward the trapped arm creates the rotational angle that generates finishing torque on the shoulder",
+      "Grip conversion from overhook to figure-four must be fast and precise to prevent defensive hand fighting",
+      "The wrist drives toward the mat in a paintbrush arc while the elbow lifts away from the body for maximum rotational force",
+      "Patience during the finish prevents defensive scrambles and allows progressive pressure that forces the tap"
+    ],
+    "setup_requirements": [
+      "Established New York Control with deep overhook fully threaded under the opponent's armpit",
+      "Active leg pressure across opponent's back preventing posture recovery and base establishment",
+      "Free hand positioned to control opponent's wrist on the overhook side",
+      "Opponent's trapped arm pulled across your centerline restricting their defensive posting options",
+      "Sufficient hip mobility to perform sharp hip escape during grip transition"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Secure deep overhook control",
+        "description": "From established New York Control, verify your overhook arm is fully threaded under the opponent's armpit with maximum depth, pulling their elbow tight across your centerline to restrict defensive posting and create the foundation for grip conversion.",
+        "timing": "0-3 seconds"
+      },
+      {
+        "step_number": 2,
+        "action": "Control the opponent's wrist",
+        "description": "Use your free hand to grip the opponent's wrist on the overhook side, pulling their hand away from your body and toward your hip. This isolates the arm and begins positioning for the figure-four Kimura grip transition.",
+        "timing": "2-4 seconds"
+      },
+      {
+        "step_number": 3,
+        "action": "Convert overhook to figure-four grip",
+        "description": "Thread your overhook arm under the opponent's elbow while maintaining firm wrist control with your other hand. Clasp your own wrist to establish the figure-four Kimura grip, keeping elbows tight throughout the transition to prevent the opponent from extracting their arm.",
+        "timing": "1-3 seconds"
+      },
+      {
+        "step_number": 4,
+        "action": "Hip escape to create finishing angle",
+        "description": "Perform a sharp hip escape toward the trapped arm side, creating approximately a forty-five degree angle relative to the opponent. This lateral displacement generates the mechanical advantage needed for rotational force on the shoulder while maintaining leg control across their back.",
+        "timing": "1-2 seconds"
+      },
+      {
+        "step_number": 5,
+        "action": "Break defensive grip connections",
+        "description": "If the opponent clasps their hands together or grabs their own body, use combined leg pressure and hip driving to peel their defensive grip apart. Push your knee into their arm while pulling the figure-four toward your hip to separate their hands and expose the shoulder.",
+        "timing": "3-8 seconds"
+      },
+      {
+        "step_number": 6,
+        "action": "Apply controlled rotational pressure",
+        "description": "With proper angle established and defensive grips broken, rotate the opponent's wrist toward the mat in a paintbrush motion while lifting their elbow away from their body. Apply steady progressive pressure to the shoulder joint, allowing your partner time to recognize the danger and tap.",
+        "timing": "2-5 seconds"
+      },
+      {
+        "step_number": 7,
+        "action": "Complete the finish",
+        "description": "Continue driving the wrist toward the mat while maintaining your hip escape angle and active leg pressure across their back. The combination of figure-four leverage, rotational force, and positional control isolates the shoulder joint and produces the tap through controlled progressive pressure.",
+        "timing": "1-3 seconds"
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Straightening the trapped arm to prevent figure-four grip establishment",
+        "effectiveness": "High",
+        "your_response": "Maintain wrist control and use your legs to curl their arm back toward their body. If the arm stays straight, transition to an armbar attempt by swinging your leg over their face while controlling the wrist.",
+        "targets_outcome": "New York Control/Bottom"
+      },
+      {
+        "counter": "Clasping hands together in a defensive grip to prevent rotation",
+        "effectiveness": "Medium",
+        "your_response": "Hip escape deeper to increase mechanical advantage, then use knee pressure against their top arm while pulling the figure-four toward your hip. Alternatively, switch to attacking the grip connection point with your legs.",
+        "targets_outcome": "New York Control/Bottom"
+      },
+      {
+        "counter": "Posturing up explosively to break New York Control structure and extract the arm",
+        "effectiveness": "Medium",
+        "your_response": "Tighten leg pressure across their back and pull down with both arms simultaneously. If they partially escape, immediately transition to triangle or gogoplata setup as their posture creates space for leg attacks.",
+        "targets_outcome": "Closed Guard/Top"
+      },
+      {
+        "counter": "Rolling toward the Kimura side to relieve shoulder pressure",
+        "effectiveness": "Low",
+        "your_response": "Follow the roll by maintaining the figure-four grip and transitioning to top position. Their roll gives you a sweep opportunity where you end up in a mounted Kimura position with the grip already established.",
+        "targets_outcome": "New York Control/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Releasing leg pressure across the opponent's back during the grip transition from overhook to figure-four",
+        "consequence": "Opponent immediately recovers posture and establishes base, making the Kimura finish nearly impossible and allowing guard passing attempts",
+        "correction": "Maintain active leg engagement throughout the entire grip conversion by consciously driving your knee toward their far shoulder even while your hands are transitioning grips"
+      },
+      {
+        "error": "Attempting the Kimura with a shallow overhook that has not fully threaded under the armpit",
+        "consequence": "Opponent easily extracts their arm during the figure-four transition, wasting the setup and losing New York Control position entirely",
+        "correction": "Verify overhook depth before initiating the Kimura conversion by ensuring your hand can clasp your own leg or the opponent's far shoulder before attempting the grip change"
+      },
+      {
+        "error": "Not hip escaping to create the proper finishing angle before applying rotational pressure",
+        "consequence": "The Kimura becomes a muscling contest without mechanical advantage, fatiguing the attacker and allowing the opponent time to establish defensive grips",
+        "correction": "Always hip escape toward the trapped arm side before applying any rotational force, creating approximately forty-five degrees of lateral displacement to maximize leverage"
+      },
+      {
+        "error": "Trying to muscle the finish with arm strength rather than using body positioning and hip movement",
+        "consequence": "Rapid fatigue of forearms and biceps without generating sufficient force to overcome defensive grip, often resulting in lost position",
+        "correction": "Use hip bridging and body rotation to generate finishing power rather than arm strength alone. The figure-four acts as a lever that transfers hip power to the shoulder joint"
+      },
+      {
+        "error": "Losing wrist control during the grip transition between overhook and figure-four",
+        "consequence": "Opponent retracts their arm to a defensive position, requiring you to restart the entire arm isolation sequence from New York Control",
+        "correction": "Secure firm wrist control with your free hand before beginning the overhook-to-figure-four conversion, and do not release the wrist until the figure-four is fully locked"
+      },
+      {
+        "error": "Rushing the rotational finish without first breaking the opponent's defensive grip",
+        "consequence": "Wasted energy fighting against clasped hands rather than isolated shoulder, often resulting in grip fatigue and position loss",
+        "correction": "Invest time in systematically breaking defensive grips using leg pressure and angle changes before committing to the rotational finish"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Grip Conversion Isolation",
+        "focus": "Overhook to figure-four transition mechanics",
+        "description": "Drill the grip conversion from deep overhook to figure-four Kimura grip with a cooperative partner. Focus on maintaining wrist control throughout the transition and keeping leg pressure active. Perform 20 repetitions per side with no resistance."
+      },
+      {
+        "phase": "Phase 2: Positional Integration",
+        "focus": "Complete sequence from New York Control entry to Kimura finish",
+        "description": "Chain the full sequence: establish New York Control from closed guard, convert to Kimura grip, hip escape, and finish. Partner provides light resistance at each phase. Focus on smooth transitions without pausing between steps."
+      },
+      {
+        "phase": "Phase 3: Counter Response Drilling",
+        "focus": "Handling defensive reactions during the Kimura attempt",
+        "description": "Partner actively defends with specific counters (arm straightening, grip clasping, posture recovery). Attacker practices the appropriate response to each defense. Introduce chain attacks to triangle and gogoplata when Kimura is defended."
+      },
+      {
+        "phase": "Phase 4: Live Positional Sparring",
+        "focus": "Full resistance application from New York Control",
+        "description": "Begin in New York Control with full resistance from both players. Attacker works to finish the Kimura or transition to alternative submissions. Reset to New York Control after each finish, escape, or position loss. Track finishing rate over rounds."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What anatomical structures does the Kimura from New York Control primarily attack?",
+        "answer": "The Kimura attacks the shoulder joint through forced internal rotation, specifically targeting the rotator cuff muscles (supraspinatus, infraspinatus, teres minor, subscapularis), the shoulder capsule and its ligaments, and the glenoid labrum. Secondary stress affects the bicep tendon where it attaches at the shoulder. The figure-four grip creates a long lever arm on the humerus that generates rotational torque exceeding the shoulder's structural tolerance.",
+        "safety_critical": false
+      },
+      {
+        "question": "Why does the overhook in New York Control make the Kimura setup more efficient than from standard closed guard?",
+        "answer": "The deep overhook has already isolated the opponent's arm and threaded control under their armpit, eliminating the most difficult phase of traditional Kimura setups. In standard closed guard, you must first break posture, then fight to control one arm against an opponent using both hands defensively. From New York Control, the arm is already compromised and the opponent cannot post or create distance, so the grip conversion from overhook to figure-four is the only step required rather than a full arm isolation sequence.",
+        "safety_critical": false
+      },
+      {
+        "question": "What indicates you have reached the point of no escape when finishing the Kimura from New York Control?",
+        "answer": "The point of no escape occurs when the figure-four grip is fully locked, the hip escape has created a forty-five degree angle, and the opponent's defensive grip connections have been broken. Once their wrist begins rotating past the plane of their back with their elbow lifted away from their body, the mechanical advantage is sufficient that muscular defense alone cannot prevent the finish. At this stage, you must apply pressure slowly and progressively to allow time for the tap.",
+        "safety_critical": false
+      },
+      {
+        "question": "Your opponent straightens their arm when you attempt the grip conversion - what adjustment prevents escape?",
+        "answer": "Maintain firm wrist control with your free hand and use your legs to curl their straightened arm back toward a bent position by pulling your knee across their back. If the arm remains straight despite your efforts, immediately transition to an armbar attempt by swinging your leg over their face while keeping wrist control. The straightened arm is actually a gift for the armbar, making this counter a tactical error by the defender that opens a higher-percentage submission.",
+        "safety_critical": false
+      },
+      {
+        "question": "How should you adjust your hip position to maximize finishing torque on the shoulder?",
+        "answer": "Hip escape sharply toward the trapped arm side, creating approximately forty-five degrees of lateral displacement relative to the opponent's centerline. This angle allows your entire body to contribute rotational force through the figure-four lever rather than relying on arm strength alone. Your hip escape should place your hips roughly perpendicular to the opponent's arm, with your top leg maintaining pressure across their back to prevent them from following your hip movement and neutralizing the angle.",
+        "safety_critical": false
+      },
+      {
+        "question": "What are the critical safety considerations when applying the Kimura from New York Control in training?",
+        "answer": "Apply rotational pressure slowly over three to five seconds minimum, never jerking or spiking the submission. The shoulder joint can suffer catastrophic damage including rotator cuff tears and dislocations with minimal warning, as the pain threshold often arrives very close to the injury threshold. Always ensure your partner has at least one hand free to tap, watch for verbal distress signals, and release immediately upon any tap signal by stopping rotation first, then returning the arm to neutral position before releasing the figure-four grip entirely.",
+        "safety_critical": true
+      },
+      {
+        "question": "How should you release the Kimura from New York Control after your partner taps?",
+        "answer": "Immediately stop all rotational pressure the instant the tap is felt or heard. Do not continue pressure even slightly after the signal. Return the arm toward neutral position by externally rotating it back to the starting orientation. Then release the figure-four grip completely. Allow your partner to self-assess their shoulder mobility before continuing training. Never release suddenly or allow the arm to spring back, as abrupt position changes can cause injury even after pressure is removed.",
+        "safety_critical": true
+      },
+      {
+        "question": "What grip adjustments should you make if the opponent's arm is slippery from sweat during the finish?",
+        "answer": "Deepen the figure-four by sliding your clasping hand further up your own wrist toward your forearm, creating a tighter mechanical connection that resists slipping. Press your elbows tight against your own ribs to create friction points that anchor the grip. If the wrist is particularly slippery, adjust your wrist grip to control their forearm slightly higher where there is more surface area. Use your body positioning and hip pressure to reduce the load on your grip rather than squeezing harder.",
+        "safety_critical": false
+      },
+      {
+        "question": "How do you chain from a defended Kimura to alternative submissions from New York Control?",
+        "answer": "When the opponent defends the Kimura by clasping hands and posturing, release the figure-four and re-establish the overhook in New York Control, then immediately threaten the gogoplata by shooting your shin across their throat as their posture creates space. If they tuck their chin against the gogoplata, switch to a triangle setup by repositioning your legs around their neck and arm. Each defensive reaction to one submission opens a specific pathway to the next, creating a systematic chain that maintains constant offensive pressure.",
+        "safety_critical": false
+      },
+      {
+        "question": "In competition, what timing considerations affect the Kimura finish from New York Control?",
+        "answer": "In competition, initiate the grip conversion when the opponent commits to defending another threat like the gogoplata or triangle, as their defensive reaction creates the arm positioning needed for the Kimura entry. The grip conversion must be fast and decisive since opponents at competition intensity will immediately counter slow transitions. Once the figure-four is established, maintain steady pressure rather than explosive force, as controlled finishing prevents defensive scrambles and ensures the referee can clearly identify the tap signal.",
+        "safety_critical": false
+      }
+    ]
+  },
+  "defender": {
+    "name": "from New York Control Defender",
+    "description": "Defend against the Kimura from New York Control position. Recognition cues, escape techniques, grip defense strategies, and recovery protocols for all skill levels.",
+    "overview": "Defending the Kimura from New York Control requires recognizing the transition from overhook to figure-four grip before it solidifies, because once the Kimura grip locks in with proper hip escape angle, defensive options diminish rapidly. The primary danger lies in the bottom player's pre-existing arm control from the overhook, which eliminates the usual defensive window available against Kimura attempts from other guard positions. Defenders must focus on preventing the grip conversion, maintaining elbow connection to the body, and using posture recovery to create the space needed for arm extraction before the attacker can establish the figure-four. Early recognition of the attacker's intent through tactile cues provides the best defensive outcomes, as reactive defense against an established Kimura grip from this position has a substantially lower success rate than proactive grip prevention.",
+    "key_principles": [
+      "Prevent the grip conversion from overhook to figure-four before it solidifies - this is the critical defensive window",
+      "Keep your trapped elbow pinned to your ribs to deny the space needed for the figure-four threading",
+      "Posture recovery must happen before the attacker hip escapes, as their angle change makes defense exponentially harder",
+      "Grip clasping (hands together) buys time but is not a permanent solution - use it to create space for posture recovery",
+      "Never allow both your wrist and elbow to be controlled simultaneously by the figure-four",
+      "Circular motion toward the attacker reduces Kimura leverage more effectively than pulling straight back"
+    ],
+    "recognition_cues": [
+      "The bottom player's free hand reaches for your wrist on the overhook side rather than controlling your head or opposite arm",
+      "You feel the overhook arm beginning to thread deeper under your elbow joint rather than staying above it",
+      "The bottom player's hips begin shifting laterally away from your trapped arm, indicating hip escape preparation for the finishing angle",
+      "Increased pulling pressure on your trapped arm toward the bottom player's hip rather than across their chest"
+    ],
+    "defensive_options": [
+      {
+        "action": "Straighten the trapped arm immediately when you feel the wrist being gripped",
+        "when_to_use": "Early stage before the figure-four grip is established - most effective defensive window",
+        "targets_outcome": "New York Control/Bottom",
+        "if_successful": "Prevents figure-four establishment and forces attacker to restart the submission attempt or transition to a different attack",
+        "risk": "A straight arm is vulnerable to armbar if the attacker recognizes the defense and switches attacks"
+      },
+      {
+        "action": "Clasp hands together with palm-to-palm or gable grip to resist rotational pressure",
+        "when_to_use": "After the figure-four grip is established but before the attacker hip escapes and creates finishing angle",
+        "targets_outcome": "New York Control/Bottom",
+        "if_successful": "Prevents immediate finish and creates time to work posture recovery and arm extraction",
+        "risk": "Temporary defense only - the attacker can systematically break the grip using legs and hip pressure"
+      },
+      {
+        "action": "Drive forward explosively to stack the opponent while circling toward the trapped arm side",
+        "when_to_use": "When the attacker begins hip escaping and you still have enough base to generate forward pressure",
+        "targets_outcome": "Closed Guard/Top",
+        "if_successful": "Collapses the attacker's angle and removes the space needed for rotational finishing, potentially allowing guard pass",
+        "risk": "Forward pressure into New York Control can increase gogoplata and triangle danger if the Kimura grip breaks"
+      }
+    ],
+    "escape_paths": [
+      "Extract arm by straightening and pulling back while recovering posture, returning to standard New York Control top defense",
+      "Stack and circle toward the trapped arm to collapse the finishing angle, then drive forward to pass guard",
+      "Roll toward the Kimura direction to relieve shoulder pressure and scramble to a neutral position"
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Closed Guard/Top",
+        "how": "Successfully stack the attacker and collapse their hip escape angle by driving forward while circling toward the trapped arm side, forcing them to abandon the Kimura grip and falling back to closed guard retention"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Allowing the overhook-to-figure-four grip conversion without any defensive reaction",
+        "consequence": "Once the figure-four locks in, defensive options are severely limited and the attacker needs only to hip escape and apply rotation to finish",
+        "correction": "React immediately when you feel your wrist being gripped by straightening your arm or pulling your elbow tight to your ribs to deny the threading space"
+      },
+      {
+        "error": "Attempting to pull the trapped arm straight back against the figure-four grip",
+        "consequence": "Pulling straight back fights against the mechanical advantage of the figure-four lever and wastes energy without creating meaningful escape progress",
+        "correction": "Circle your arm toward the attacker's body rather than pulling away, as this reduces the lever arm and may allow you to collapse their grip structure"
+      },
+      {
+        "error": "Relying solely on grip clasping without working to recover posture",
+        "consequence": "The attacker methodically breaks your grip using legs and angle changes while you exhaust your forearms holding a static defense",
+        "correction": "Use the time bought by clasping hands to immediately begin posture recovery and stacking, treating the grip defense as a bridge to escape rather than a final answer"
+      },
+      {
+        "error": "Ignoring the leg control and focusing only on the arm attack",
+        "consequence": "The attacker's leg across your back maintains posture break even if you momentarily resist the arm rotation, allowing them to continuously reattempt the finish",
+        "correction": "Address the leg control simultaneously by using your free hand to push their knee off your back while defending the arm, removing the structural foundation of their entire attack"
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "How do you recognize that a Kimura is being set up from New York Control?",
+        "answer": "The primary cue is feeling the bottom player's free hand grip your wrist on the overhook side instead of controlling your head or opposite arm. You will also feel the overhook arm threading deeper under your elbow rather than staying above it, and their hips will begin shifting laterally away from your trapped arm as they prepare the hip escape needed for the finishing angle. Increased pulling pressure toward their hip rather than across their chest confirms the Kimura intent.",
+        "safety_critical": false
+      },
+      {
+        "question": "What is the safest way to tap when caught in the Kimura from New York Control?",
+        "answer": "Tap early and clearly before you feel sharp pain in the shoulder, as the transition from discomfort to injury happens rapidly with shoulder locks. Use your free hand to tap your opponent's body multiple times. If your free hand is trapped, tap with your feet on the mat or verbally say tap loudly. Any verbal distress sound should be treated as a tap. Do not attempt to tough out shoulder lock pressure, as the rotator cuff can tear before the pain becomes intolerable.",
+        "safety_critical": true
+      },
+      {
+        "question": "What defensive options are available against the Kimura from New York Control at different stages?",
+        "answer": "In the early stage before the figure-four locks, straighten your arm immediately to prevent the grip threading. Once the figure-four is established but before the hip escape, clasp your hands in a gable grip to resist rotation while working posture recovery. After the attacker hip escapes, your best option is to stack forward while circling toward the trapped arm side to collapse their finishing angle. The later you recognize the attack, the fewer options remain, making early detection critical.",
+        "safety_critical": false
+      },
+      {
+        "question": "Why is circling toward the trapped arm more effective than pulling straight back when defending?",
+        "answer": "Pulling straight back fights directly against the figure-four lever's mechanical advantage, where your single arm opposes the combined force of the attacker's two arms and body rotation. Circling toward the attacker reduces the lever arm by bringing your elbow closer to the pivot point, decreasing the torque the figure-four can generate. This circular motion also collapses the attacker's hip escape angle, removing the body positioning that creates their rotational advantage.",
+        "safety_critical": false
+      },
+      {
+        "question": "What should you do with your free hand when defending the Kimura from New York Control?",
+        "answer": "Your free hand serves multiple critical functions depending on the defensive stage. Initially, use it to push the attacker's knee off your back to compromise their leg control structure. If the figure-four is locked, clasp it with your trapped hand to create a two-hand defensive grip. If stacking, post it on the mat to generate forward driving pressure. Never leave the free hand idle or use it to push against the attacker's chest, as this wastes your most valuable defensive tool.",
+        "safety_critical": false
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Recognition and Early Defense",
+        "focus": "Identifying Kimura setups and preventing figure-four establishment",
+        "description": "Partner slowly initiates the Kimura from New York Control while you practice recognizing the grip conversion cues and responding with arm straightening or elbow retraction. No resistance on the Kimura finish. Focus on reaction speed to the wrist grip."
+      },
+      {
+        "phase": "Phase 2: Grip Defense and Posture Recovery",
+        "focus": "Clasping defense combined with systematic posture recovery",
+        "description": "Partner establishes the figure-four grip while you practice clasping hands and immediately working posture recovery through stacking and circling. Partner applies moderate rotational pressure. Success measured by ability to recover posture before grip breaks."
+      },
+      {
+        "phase": "Phase 3: Live Defensive Sparring",
+        "focus": "Full resistance defense from New York Control",
+        "description": "Begin in New York Control with the bottom player actively hunting the Kimura and chain submissions. Defend with full resistance, implementing recognition, grip defense, and posture recovery under pressure. Track escape rate and identify which defensive stage breaks down most frequently."
+      }
+    ]
+  }
+}

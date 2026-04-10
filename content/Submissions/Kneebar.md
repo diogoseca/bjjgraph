@@ -3,24 +3,44 @@
 
 
 ---
-title: "Kneebar | BJJ Submission | BJJ Graph"
+title: "Kneebar | BJJ Submission Family | BJJ Graph"
 description: "Master the Kneebar in BJJ. Complete guide covering safety protocols, setup from ashi garami, finishing mechanics, and defensive escapes for all skill levels."
 ---
 
 
-<body data-content-type="submissions-hub">
+<body data-content-type="submissions-family">
 
 > **SAFETY**: Kneebar targets the Knee joint (primarily posterior cruciate ligament, medial collateral ligament, and joint capsule). Risk: Posterior cruciate ligament (PCL) tear. Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
-<div class="role-links">
 
-[[Kneebar/Attacker|Play as Attacker]]
-[[Kneebar/Defender|Play as Defender]]
+<section id="variants" class="content-section">
 
-</div>
+## Position Variants
+
+| From Position | Success Rate | Top Injury Risk | Key Difference |
+|---------------|-------------|-----------------|----------------|
+| [[Kneebar/from 50-50|50-50 Guard]] | 60% | MCL/LCL ligament tear |  |
+| [[Kneebar/from Backside 50-50|Backside 50-50]] | 52% | Posterior cruciate ligament (PCL) tear or rupture |  |
+| [[Kneebar/from Carni|Carni]] | 60% | Posterior cruciate ligament (PCL) tear |  |
+| [[Kneebar/from Guard|Closed Guard]] | 52% | Posterior cruciate ligament (PCL) tear or rupture |  |
+| [[Kneebar/from Half Guard|Half Guard]] | 60% | Posterior cruciate ligament (PCL) tear |  |
+| [[Kneebar/from Honey Hole|Honey Hole]] | 60% | Posterior cruciate ligament (PCL) tear |  |
+| [[Kneebar/from Inside Ashi-Garami|Inside Ashi-Garami]] | 60% | Posterior cruciate ligament (PCL) tear |  |
+| [[Kneebar/from Inside Sankaku|Inside Sankaku]] | 60% | Posterior cruciate ligament (PCL) tear |  |
+| [[Kneebar/from Kneebar Control|Kneebar Control]] | 60% | Posterior cruciate ligament (PCL) tear |  |
+| [[Kneebar/from Leg Entanglement|Leg Entanglement]] | 52% | Posterior cruciate ligament (PCL) tear or rupture |  |
+| [[Kneebar/from Saddle|Saddle]] | 52% | Posterior cruciate ligament (PCL) tear or rupture |  |
+| [[Kneebar/from Single Leg X-Guard|Single Leg X-Guard]] | 52% | Posterior cruciate ligament (PCL) tear or rupture |  |
+| [[Kneebar/from Straight Ankle Lock Control|Straight Ankle Lock Control]] | 60% | Posterior cruciate ligament (PCL) tear |  |
+| [[Kneebar/from Toe Hold Control|Toe Hold Control]] | 60% | Posterior cruciate ligament (PCL) tear |  |
+| [[Kneebar/from Top|Side Control]] | 55% | Knee hyperextension and ligament damage (ACL, PCL, MCL tears) |  |
+
+
+</section>
+
 
 <section id="overview" class="content-section">
 
@@ -31,9 +51,7 @@ The technique has evolved significantly with modern leg lock systems, particular
 **Category**: Joint Lock
 **Type**: Leg Lock
 **Target Area**: Knee joint (primarily posterior cruciate ligament, medial collateral ligament, and joint capsule)
-**Starting Position**: [[Positions/Ashi Garami]]
-**From Position**: [[Positions/Kneebar Control]] (Top)
-**Success Rate**: 60%
+**Success Rate**: 60% (average across variants)
 
 </section>
 
@@ -78,144 +96,10 @@ The technique has evolved significantly with modern leg lock systems, particular
 
 </section>
 
-<section id="outcomes" class="content-section">
 
-## Outcomes
+<section id="variation-details" class="content-section hide-minimal">
 
-| Result | Position | Probability |
-|--------|----------|-------------|
-| Success | [[game-over]] | 45% |
-| Failure | [[Positions/Kneebar Control]] | 30% |
-| Counter | [[Positions/Ashi Garami]] | 15% |
-| Counter | [[Positions/Open Guard]] | 10% |
-
-
-</section>
-
-<section class="content-section">
-
-## Attacker vs Defender
-
-| &nbsp; | Attacker | Defender |
-|--------|----------|----------|
-| **Focus** | Execute and finish | Escape and survive |
-| **Key Principles** | Hip alignment with opponent's knee creates the fulcrum for h... | Bend your knee immediately upon recognizing the kneebar atte... |
-| **Options** | 6 execution steps | 4 defensive options |
-
-</section>
-
-<section id="attacker-summary" class="content-section">
-
-## Playing as Attacker
-
-[[Kneebar/Attacker|→ Full Attacker Guide]]
-
-### Key Principles
-
-
-- Hip alignment with opponent's knee creates the fulcrum for hyperextension - your hips must contact the back of their knee
-
-- Control the leg's rotation before attempting the finish to prevent escape and maintain proper extension angle
-
-- Posterior chain engagement (glutes and hamstrings) generates safe, controlled pressure rather than explosive bridging
-
-- The finish requires minimal strength when positioning is correct - poor position cannot be compensated by force
-
-- Breaking opponent's defensive structure precedes finishing mechanics - address the free leg before committing to pressure
-
-- Maintaining connection between your chest and opponent's leg prevents space creation that enables escape
-
-- Progressive pressure application allows partner time to recognize danger and tap safely in training
-
-
-### Execution Steps
-
-
-- **Secure the leg entanglement**: From ashi garami or similar leg entanglement, ensure opponent's leg is trapped between your legs wit...
-
-- **Grip the ankle and pull toward your chest**: Cup your hands around opponent's ankle or lower shin, creating a strong connection. Pull the leg tig...
-
-- **Adjust angle and hip position**: Scoot your hips toward opponent's body while maintaining the tight ankle grip. Your hips should be p...
-
-- **Clear the free leg**: Use your outside leg and hip positioning to clear or block opponent's free leg. They will attempt to...
-
-- **Engage posterior chain and extend hips**: Activate your glutes and hamstrings to drive your hips upward while simultaneously pulling the ankle...
-
-- **Maintain control through finish or release**: Continue the controlled hip extension until opponent taps, maintaining all grips and controls throug...
-
-
-### Common Mistakes
-
-
-- **Attempting to finish before establishing proper angle and control**
-  - Consequence: Opponent easily escapes, and you waste energy on ineffective pressure
-  - Correction: Be patient with your positioning. Ensure your hips are perpendicular to their leg and all controls are tight before applying finishing pressure. The setup is more important than the finish.
-
-- **Allowing space between ankle and chest**
-  - Consequence: Opponent can flex their knee and rotate their leg to escape or relieve pressure
-  - Correction: Maintain constant tension pulling the ankle to your chest throughout the entire sequence. Your elbows should squeeze together, and there should be no visible gap between their shin and your torso.
-
-- **Using explosive jerking motion instead of controlled pressure**
-  - Consequence: Severe knee injury to training partner, unsafe training environment, potential ligament rupture before partner can tap
-  - Correction: Always apply pressure progressively over 3-5 seconds minimum in training. Engage your posterior chain smoothly rather than explosively bridging. Your partner's safety depends on controlled application.
-
-
-</section>
-
-<section id="defender-summary" class="content-section">
-
-## Playing as Defender
-
-[[Kneebar/Defender|→ Full Defender Guide]]
-
-### Key Principles
-
-
-- Bend your knee immediately upon recognizing the kneebar attempt - a flexed knee cannot be hyperextended
-
-- Use your free leg aggressively to frame on the attacker's hips, preventing them from generating extension pressure
-
-- Fight grip control on your ankle before the attacker establishes the tight chest connection
-
-- Rotate your body toward the attacker rather than away to disrupt their perpendicular alignment
-
-- Tap early when the position is fully locked - the margin between pressure and structural damage is extremely narrow in kneebars
-
-- Address the position systematically rather than panicking - identify which element of their control is weakest and attack that first
-
-
-### Recognition Cues
-
-
-- Opponent begins securing your leg between their legs while falling back or rotating perpendicular to your body
-
-- You feel hands gripping around your ankle or lower shin with pulling pressure toward their chest
-
-- Opponent's hips begin making contact with the back of your knee while their body angles perpendicular to your leg
-
-- Your free leg is being controlled, cleared, or pinned by opponent's outside leg or hip pressure
-
-- Opponent transitions from standard leg entanglement to a position where their chest faces your trapped leg with elbows squeezing
-
-
-### Escape Paths
-
-
-- Bend knee forcefully while fighting ankle grips, then rotate body toward attacker to disrupt alignment and extract leg to recover guard
-
-- Establish free leg frame on attacker's far hip, push to create distance, then turn into them and extract trapped leg by circling knee inward
-
-- Roll through toward the trapped leg side when attacker's outside leg control is loose, using momentum to reverse position and establish top or counter leg entanglement
-
-- Two-on-one grip break on attacker's wrist controlling your ankle, then immediately retract leg while turning to face them and recovering guard position
-
-
-</section>
-
-
-<section id="variations" class="content-section hide-minimal">
-
-## Variations
+## Variation Details
 
 
 **Kneebar from 50-50 Guard**: From 50-50 position where both legs are entangled, fall back while controlling opponent's ankle and apply kneebar. This variation requires clearing their attacking leg while securing yours. (When to use: When engaged in 50-50 and opponent is focused on their own leg attack. The mutual threat creates opportunities.)
@@ -275,15 +159,15 @@ The technique has evolved significantly with modern leg lock systems, particular
 
 ## Related Submissions
 
-- [[Transitions/Heel Hook]]
-- [[Submissions/Straight Ankle Lock]]
-- [[Transitions/Toe Hold]]
-- [[Submissions/Inside Heel Hook]]
-- [[Transitions/Outside Heel Hook]]
-- [[Transitions/Calf Slicer]]
-- [[Positions/Estima Lock]]
-- [[Submissions/Achilles Lock]]
-- [[Submissions/Calf Slicer from 50-50]]
+- [[Transitions/Heel Hook]] - Primary alternative leg attack from same entanglements, creates dilemma-based offense with kneebar
+- [[Submissions/Straight Ankle Lock]] - Foundational leg lock from similar positions, often first attack before advancing to kneebar
+- [[Submissions/Toe Hold]] - Complementary foot lock from similar leg entanglements, rotational attack versus kneebar's linear force
+- [[Submissions/Inside Heel Hook]] - Primary rotational attack when opponent defends kneebar by bending knee and exposing heel
+- [[Transitions/Outside Heel Hook]] - Alternative heel attack from outside ashi positions where kneebar is also available
+- [[Submissions/Calf Slicer]] - Compression attack from similar positions, often available when kneebar angle is compromised
+- [[Transitions/Estima Lock]] - Foot lock attacking from different angle, available during kneebar defense transitions
+- [[Submissions/Achilles Lock]] - Straight ankle attack from overlapping leg entanglement positions
+- [[Submissions/Flying Kneebar]] - Dynamic standing entry variation of the kneebar submission
 
 
 </section>

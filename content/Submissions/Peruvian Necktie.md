@@ -3,24 +3,30 @@
 
 
 ---
-title: "Peruvian Necktie | BJJ Submission | BJJ Graph"
+title: "Peruvian Necktie | BJJ Submission Family | BJJ Graph"
 description: "Master the Peruvian Necktie in BJJ. Complete guide covering front headlock setup, leg threading mechanics, finishing sequence, and defensive escapes with safety protocols."
 ---
 
 
-<body data-content-type="submissions-hub">
+<body data-content-type="submissions-family">
 
 > **SAFETY**: Peruvian Necktie targets the Carotid arteries and trachea. Risk: Carotid artery compression leading to loss of consciousness. Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
-<div class="role-links">
 
-[[Peruvian Necktie/Attacker|Play as Attacker]]
-[[Peruvian Necktie/Defender|Play as Defender]]
+<section id="variants" class="content-section">
 
-</div>
+## Position Variants
+
+| From Position | Success Rate | Top Injury Risk | Key Difference |
+|---------------|-------------|-----------------|----------------|
+| [[Peruvian Necktie/from Front Headlock|Front Headlock]] | 52% | Carotid artery compression leading to loss of consciousness |  |
+
+
+</section>
+
 
 <section id="overview" class="content-section">
 
@@ -29,9 +35,7 @@ The Peruvian Necktie is a sophisticated blood choke that attacks the carotid art
 **Category**: Choke
 **Type**: Blood Choke
 **Target Area**: Carotid arteries and trachea
-**Starting Position**: [[Positions/Front Headlock]]
-**From Position**: [[Positions/Front Headlock]] (Top)
-**Success Rate**: 52%
+**Success Rate**: 52% (average across variants)
 
 </section>
 
@@ -80,145 +84,10 @@ The Peruvian Necktie is a sophisticated blood choke that attacks the carotid art
 
 </section>
 
-<section id="outcomes" class="content-section">
 
-## Outcomes
+<section id="variation-details" class="content-section hide-minimal">
 
-| Result | Position | Probability |
-|--------|----------|-------------|
-| Success | [[game-over]] | 60% |
-| Failure | [[Positions/Front Headlock]] | 25% |
-| Counter | [[Positions/Turtle]] | 15% |
-
-
-</section>
-
-<section class="content-section">
-
-## Attacker vs Defender
-
-| &nbsp; | Attacker | Defender |
-|--------|----------|----------|
-| **Focus** | Execute and finish | Escape and survive |
-| **Key Principles** | Front headlock control must be established before attempting... | Defend earliest possible - every phase the attacker complete... |
-| **Options** | 6 execution steps | 4 defensive options |
-
-</section>
-
-<section id="attacker-summary" class="content-section">
-
-## Playing as Attacker
-
-[[Peruvian Necktie/Attacker|→ Full Attacker Guide]]
-
-### Key Principles
-
-
-- Front headlock control must be established before attempting the submission
-
-- The leg threading creates the fulcrum that amplifies choking pressure
-
-- Forearm placement across the neck targets carotid arteries, not trachea
-
-- Hip pressure and bodyweight distribution are critical for finishing mechanics
-
-- The opponent's trapped arm creates structural rigidity that prevents escape
-
-- Timing during scrambles and transitions is more important than static strength
-
-- The choke tightens progressively as you settle your weight and adjust angles
-
-
-### Execution Steps
-
-
-- **Establish Front Headlock Control**: From opponent's turtle or combat base, secure a tight front headlock with your choking arm wrapped a...
-
-- **Trap the Near Arm**: As you maintain the front headlock, use your body position to trap the opponent's near arm (same sid...
-
-- **Thread Your Near Leg Through**: This is the defining movement of the Peruvian Necktie. Take your near leg (same side as your choking...
-
-- **Secure the Triangle Lock**: Once your leg is threaded through, bring your far leg over your near leg's ankle to create a triangl...
-
-- **Hip Rotation and Shoulder Drive**: With the triangle locked, begin to rotate your hips away from the opponent while simultaneously driv...
-
-- **Final Compression and Control**: For the finish, squeeze your triangle lock tightly while pulling your choking arm toward your chest ...
-
-
-### Common Mistakes
-
-
-- **Applying the choke too quickly or jerking the neck**
-  - Consequence: High risk of neck injury, trachea damage, or causing panic in training partner
-  - Correction: Always apply progressive pressure over 3-5 seconds in training. Focus on body positioning and mechanical advantage rather than explosive force. Safety in training builds trust and allows for proper technical refinement.
-
-- **Threading the leg too low on the opponent's back instead of through the gap near their neck**
-  - Consequence: No choking pressure generated, opponent easily escapes, you're off-balance
-  - Correction: Ensure your leg threads through the small gap between their head and trapped arm, with your shin ending up high across the back of their neck and shoulders, not down on their mid-back.
-
-- **Failing to trap the near arm securely before threading the leg**
-  - Consequence: Opponent uses the free arm to defend, prevent the leg thread, or escape the position entirely
-  - Correction: Use shoulder and chest pressure to pin the opponent's near arm against their own neck before attempting to thread your leg. The arm must be completely trapped and immobilized for the technique to work.
-
-
-</section>
-
-<section id="defender-summary" class="content-section">
-
-## Playing as Defender
-
-[[Peruvian Necktie/Defender|→ Full Defender Guide]]
-
-### Key Principles
-
-
-- Defend earliest possible - every phase the attacker completes reduces your escape probability dramatically
-
-- Chin tucked to chest at all times to prevent neck extension and reduce choking surface area
-
-- Near arm must stay free - once the arm is trapped against your neck the choke structure is halfway complete
-
-- Create lateral movement and angles rather than pulling straight backward against the choking force
-
-- Posture recovery is your highest-percentage escape before the leg is threaded
-
-- If triangle is locked and hip rotation begins, tap immediately rather than risk unconsciousness
-
-- Hand fight constantly to prevent the attacker from consolidating control at any phase
-
-
-### Recognition Cues
-
-
-- Opponent secures front headlock with heavy shoulder pressure while your posture is broken forward in turtle or combat base
-
-- You feel your near arm being pinned against your own neck by opponent's chest and shoulder weight, restricting your hand-fighting ability
-
-- Opponent begins shifting their hips toward your head and you feel a leg threading between your head and your trapped arm
-
-- A shin presses across the back or side of your neck as the opponent locks a triangle configuration with their legs
-
-- Bilateral pressure on the sides of your neck increases as opponent rotates their hips away from you while pulling their arm toward their chest
-
-
-### Escape Paths
-
-
-- Posture up and break free from front headlock before arm is trapped - transition to standing or neutral guard position
-
-- Extract near arm and circle away from choking side to recover to turtle or half guard, forcing attacker to abandon Peruvian Necktie
-
-- Turn into the attacker during leg threading phase and sit through to recover closed guard or half guard
-
-- Roll through with the attacker's momentum if triangle is partially locked, potentially ending in top position or scramble
-
-
-</section>
-
-
-<section id="variations" class="content-section hide-minimal">
-
-## Variations
+## Variation Details
 
 
 **Peruvian Necktie from Turtle Attack**: The most common entry where opponent is in defensive turtle position. You establish front headlock control from top turtle, trap their near arm, and execute the standard leg threading sequence. This variation works particularly well after failed guillotine attempts or during scrambles from guard. (When to use: When opponent turtles to defend guard passes, after takedowns, or during scrambles where they assume a defensive shell position)
@@ -243,7 +112,7 @@ The Peruvian Necktie is a sophisticated blood choke that attacks the carotid art
 
 - [[Positions/Front Headlock]]
 - [[Positions/Turtle]]
-- [[Positions/Scramble Position]]
+- [[Positions/Standing Position]]
 - [[Positions/North-South]]
 - [[Positions/Crucifix]]
 
@@ -254,15 +123,15 @@ The Peruvian Necktie is a sophisticated blood choke that attacks the carotid art
 
 ## Related Submissions
 
-- [[Transitions/Guillotine Choke]]
-- [[Transitions/Darce Choke]]
-- [[Transitions/Anaconda Choke]]
-- [[Transitions/Arm Triangle]]
-- [[Transitions/Rear Naked Choke]]
-- [[Submissions/Brabo Choke]]
-- [[Submissions/Arm in Guillotine]]
-- [[Submissions/Japanese Necktie]]
-- [[Submissions/Peruvian Necktie]]
+- [[Transitions/Guillotine Choke]] - Alternative front headlock choke when opponent's arm is not trapped
+- [[Transitions/Darce Choke]] - Parallel arm-in choke from similar front headlock positions
+- [[Transitions/Anaconda Choke]] - Alternative front headlock finish using opposite arm configuration
+- [[Transitions/Arm Triangle]] - Related arm-in choking attack from similar control positions
+- [[Submissions/High Elbow Guillotine]] - Guillotine variation from same starting position
+- [[Submissions/Brabo Choke]] - Related front headlock choke variation
+- [[Submissions/Arm in Guillotine]] - Guillotine variation incorporating trapped arm
+- [[Submissions/Japanese Necktie]] - Closely related front headlock choke with similar leg threading mechanics
+- [[Submissions/Chin Strap Guillotine]] - Alternative guillotine grip available from front headlock
 
 
 </section>

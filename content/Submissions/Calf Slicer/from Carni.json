@@ -1,0 +1,435 @@
+{
+  "name": "Calf Slicer from Carni",
+  "description": "Master the calf slicer from Carni position in BJJ. Learn compression lock mechanics, shin placement, and how to chain this finish with heel hook threats.",
+  "tags": [
+    "bjj",
+    "submission",
+    "leg-lock",
+    "compression",
+    "calf-slicer",
+    "advanced-technique",
+    "hub",
+    "finishing-guide",
+    "carni",
+    "no-gi"
+  ],
+  "submission_category": "Compression",
+  "submission_type": "Leg Compression",
+  "target_area": "Calf muscle and Achilles tendon",
+  "starting_position": "Carni",
+  "from_position": "Carni/Bottom",
+  "success_rate": 50,
+  "overview": "The calf slicer from Carni exploits a specific defensive reaction that occurs when opponents attempt to hide their heel from the primary heel hook threat. When the top player turns belly down or curls their leg defensively within the Carni entanglement, the bottom player threads their shin behind the opponent's knee joint, creating a fulcrum that compresses the calf muscle and Achilles tendon against the shinbone. The Carni position provides an ideal platform for this attack because the opponent's leg is already isolated and entangled, and their defensive movements are severely constrained by the existing inside leg control.\n\nWhat makes this calf slicer variant particularly effective is the seamless integration with the broader Carni attack system. The opponent faces a genuine dilemma: defend the heel hook by hiding the heel, which directly exposes the calf slicer, or defend the calf slicer by extending the leg, which re-exposes the heel for immediate attack. Advanced practitioners use the calf slicer as both a primary finish and a tool to reopen heel hook opportunities when the opponent over-commits to heel defense. The transition between threats requires minimal repositioning because the leg entanglement structure remains intact throughout.\n\nThe finishing mechanics require precise shin placement directly behind the opponent's knee crease, combined with controlled hip extension to apply graduated compression. Unlike explosive joint lock finishes, the calf slicer builds pressure methodically, giving training partners adequate time to tap while still generating significant submission threat in competition. The position is sustainable for extended periods within the Carni control framework, allowing patient pressure application rather than requiring explosive force that risks injury to both practitioners.",
+  "safety_considerations": {
+    "injury_risks": [
+      {
+        "injury": "Calf muscle tear or rupture",
+        "severity": "High",
+        "recovery_time": "6-12 weeks minimum, potential permanent damage"
+      },
+      {
+        "injury": "Achilles tendon strain or rupture",
+        "severity": "CRITICAL",
+        "recovery_time": "6-12 months, often requires surgery"
+      },
+      {
+        "injury": "Nerve damage to peroneal or tibial nerves",
+        "severity": "High",
+        "recovery_time": "Weeks to months, potential permanent numbness"
+      },
+      {
+        "injury": "Deep tissue bruising and compartment syndrome",
+        "severity": "Medium",
+        "recovery_time": "2-4 weeks, rare cases require emergency surgery"
+      }
+    ],
+    "application_speed": "EXTREMELY SLOW - 5-7 seconds minimum in training, never spike or jerk",
+    "tap_signals": [
+      "Verbal tap (encouraged due to leg entanglement limiting hand access)",
+      "Physical hand tap on partner or mat",
+      "Physical foot tap if hands are trapped in entanglement",
+      "Any distress vocalization or signal",
+      "Slapping mat with free hand multiple times"
+    ],
+    "release_protocol": [
+      "Immediately release foot grip upon any tap signal",
+      "Remove shin pressure from behind knee slowly and controlled",
+      "Unwrap legs carefully without jerking movements",
+      "Allow partner to extend leg naturally before disengaging",
+      "Check partner's mobility and sensation before continuing training"
+    ],
+    "training_restrictions": [
+      "Never apply at competition speed in training",
+      "Never spike or jerk the compression",
+      "Never hold after tap to finish the position",
+      "Always allow immediate tap access with at least one hand",
+      "Prohibited below brown belt in most IBJJF-affiliated organizations",
+      "Never practice on partners with previous calf or Achilles injuries without explicit consent"
+    ]
+  },
+  "from_positions": [
+    "Carni",
+    "Truck"
+  ],
+  "related_submissions": [
+    "Calf Slicer",
+    "Heel Hook",
+    "Banana Split",
+    "Electric Chair",
+    "Bicep Slicer",
+    "Aoki Lock Control"
+  ],
+  "related_content": [
+    {
+      "name": "Carni",
+      "relationship": "Starting position for this submission variant with inside leg control already established"
+    },
+    {
+      "name": "Truck",
+      "relationship": "Common transition from Carni when opponent turns belly down, also allows calf slicer"
+    },
+    {
+      "name": "Saddle",
+      "relationship": "Alternative advancement from Carni when opponent defends both heel hook and calf slicer"
+    },
+    {
+      "name": "Back Control",
+      "relationship": "Alternative positional advancement when opponent rolls to escape compression"
+    },
+    {
+      "name": "Calf Slicer",
+      "relationship": "Parent submission family with shared mechanics and safety protocols"
+    },
+    {
+      "name": "Ashi Garami",
+      "relationship": "Related leg entanglement system that feeds into Carni entries"
+    }
+  ],
+  "outcomes": [
+    {
+      "to": "game-over",
+      "probability": 50,
+      "result": "success"
+    },
+    {
+      "to": "Carni/Bottom",
+      "probability": 32,
+      "result": "failure"
+    },
+    {
+      "to": "Closed Guard/Top",
+      "probability": 18,
+      "result": "counter"
+    }
+  ],
+  "attacker": {
+    "name": "from Carni Attacker",
+    "description": "Learn to attack with the calf slicer from Carni. Step-by-step compression mechanics, shin placement behind the knee, and strategies to chain with heel hooks.",
+    "overview": "Attacking with the calf slicer from Carni requires reading the opponent's defensive reactions to the primary heel hook threat and capitalizing on their knee bending to insert your shin as a compression fulcrum. The Carni position provides unique advantages for this attack because the leg entanglement is already established, your inside leg positioning controls the opponent's hip, and the transition to calf slicer requires minimal repositioning. The key to success is recognizing the precise moment when the opponent commits to hiding their heel, creating the bent knee angle that makes the calf slicer available. Rather than forcing the compression as a standalone attack, use it as part of the heel hook and calf slicer dilemma that defines high-level Carni play.",
+    "key_principles": [
+      "Thread shin precisely behind the opponent's knee crease to maximize compression leverage on the calf muscle and Achilles tendon",
+      "Maintain the existing Carni leg entanglement throughout the calf slicer setup to prevent the opponent from extracting their leg during transition",
+      "Use controlled hip extension rather than explosive jerking to build compression pressure gradually and safely",
+      "Keep the opponent's foot controlled and trapped against your body to prevent them from straightening their leg and relieving pressure",
+      "Recognize the calf slicer opportunity as a direct response to heel hook defense rather than forcing it as a primary attack",
+      "Chain between heel hook threats and calf slicer threats to create an inescapable dilemma within the Carni control framework"
+    ],
+    "setup_requirements": [
+      "Established Carni control with inside leg positioning over the opponent's hip and figure-four or ashi garami leg configuration",
+      "Opponent has committed to a defensive posture that bends their trapped knee, curling the heel away from your grip",
+      "Heel and ankle control maintained with at least one hand to prevent the opponent from fully extracting their leg",
+      "Clear path to thread your attacking shin behind the opponent's knee crease without releasing primary leg entanglement controls",
+      "Upper body positioned to follow opponent's defensive reactions and maintain connection through the transition"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Recognize heel defense trigger",
+        "description": "Identify the moment your opponent bends their trapped knee to hide their heel from the heel hook threat. This defensive curl creates the acute knee angle required for the calf slicer fulcrum. Do not force the transition if the opponent's leg remains straight.",
+        "timing": "0-2 seconds after opponent commits to heel defense"
+      },
+      {
+        "step_number": 2,
+        "action": "Thread shin behind knee crease",
+        "description": "Slide your top leg's shin directly behind the opponent's knee crease, positioning your shinbone perpendicular to their calf muscle. The shin must sit deep in the crease, not on the thigh or upper calf. Maintain your inside leg hook throughout this repositioning.",
+        "timing": "1-2 seconds, smooth insertion without losing entanglement"
+      },
+      {
+        "step_number": 3,
+        "action": "Secure foot control",
+        "description": "Trap the opponent's foot against your body using both hands, pulling their toes toward your chest to lock the knee angle and prevent them from straightening their leg. Cup the heel with your inside hand while your outside hand controls the ankle and foot direction.",
+        "timing": "1 second, simultaneous with shin positioning"
+      },
+      {
+        "step_number": 4,
+        "action": "Lock leg triangle configuration",
+        "description": "Figure-four your legs or triangle your legs around the opponent's thigh to create a stable frame that prevents your shin from being pushed out. Your bottom leg hooks under and your top leg locks over, creating structural integrity in the compression mechanism.",
+        "timing": "1-2 seconds to establish secure lock"
+      },
+      {
+        "step_number": 5,
+        "action": "Apply graduated hip extension",
+        "description": "Begin extending your hips forward slowly and deliberately, driving your shin into the opponent's calf while simultaneously pulling their foot toward your chest. This creates the scissors compression that generates submission pressure. Build pressure over five to seven seconds minimum in training.",
+        "timing": "3-7 seconds of controlled pressure increase"
+      },
+      {
+        "step_number": 6,
+        "action": "Adjust angle for maximum compression",
+        "description": "Fine-tune the angle of your shin against their calf by micro-adjusting your hip position and the direction you pull their foot. The optimal angle compresses the thickest part of the calf muscle directly against the sharpest edge of your shinbone. Monitor for tap signals throughout.",
+        "timing": "Continuous adjustment during pressure application"
+      },
+      {
+        "step_number": 7,
+        "action": "Control upper body reaction",
+        "description": "As compression builds, the opponent will attempt to sit up, roll, or push away with their hands. Use your free arm to frame against their upper body or control their far hip to prevent them from creating the angle needed to relieve pressure or extract their leg from the entanglement.",
+        "timing": "Ongoing throughout finishing sequence"
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Straightening the trapped leg forcefully to relieve compression and remove the fulcrum angle",
+        "effectiveness": "High",
+        "your_response": "Immediately transition back to heel hook grip since their heel is now exposed from the leg extension. The straightening that defeats the calf slicer is exactly what creates the heel hook opportunity.",
+        "targets_outcome": "Carni/Bottom"
+      },
+      {
+        "counter": "Rolling toward the attacker to create slack in the compression and collapse the fulcrum",
+        "effectiveness": "Medium",
+        "your_response": "Follow their roll and transition to truck position or back control. Their rolling motion exposes the back and creates the exact angle needed for those transitions from Carni.",
+        "targets_outcome": "Carni/Bottom"
+      },
+      {
+        "counter": "Pushing the attacking shin out from behind the knee with both hands",
+        "effectiveness": "Low",
+        "your_response": "Tighten your leg triangle lock to structurally prevent shin extraction. If they commit both hands to pushing your shin, their upper body posture collapses, allowing you to improve position.",
+        "targets_outcome": "Closed Guard/Top"
+      },
+      {
+        "counter": "Stacking forward with bodyweight to collapse the bottom player's hip extension",
+        "effectiveness": "Medium",
+        "your_response": "Invert slightly to maintain hip extension angle despite the stack. If they commit too far forward, sweep them over your body and finish the calf slicer from the resulting top position.",
+        "targets_outcome": "Carni/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Placing shin too high on the thigh instead of precisely behind the knee crease",
+        "consequence": "Compression is applied to the thick quadricep muscle rather than the vulnerable calf, dramatically reducing submission effectiveness and giving the opponent time to escape",
+        "correction": "Ensure your shin sits directly in the knee crease where the joint bends. The thinnest, most vulnerable tissue is immediately behind the knee. Adjust positioning before applying pressure."
+      },
+      {
+        "error": "Losing the Carni leg entanglement while transitioning to the calf slicer setup",
+        "consequence": "Opponent extracts their leg during the transition window and either passes guard or resets to neutral standing position",
+        "correction": "Maintain inside leg hook over the opponent's hip throughout the entire transition. The calf slicer setup should add your shin behind their knee without removing your primary control leg."
+      },
+      {
+        "error": "Applying compression explosively or jerking the finish",
+        "consequence": "Causes serious muscle tears, Achilles damage, or nerve injury before the opponent can tap, resulting in training partner injury and potential training ban",
+        "correction": "Build compression slowly over five to seven seconds minimum. The calf slicer should feel like gradually increasing pressure, never a sudden spike. Monitor for tap signals throughout."
+      },
+      {
+        "error": "Neglecting to control the opponent's foot and ankle during compression",
+        "consequence": "Opponent straightens their leg freely, removing the knee angle needed for the fulcrum and escaping the submission entirely",
+        "correction": "Pull the opponent's foot firmly against your chest with both hands before initiating hip extension. The foot control locks the knee angle that makes the compression work."
+      },
+      {
+        "error": "Over-committing to calf slicer when the opponent successfully straightens their leg",
+        "consequence": "Waste energy fighting for a submission that is no longer available while the opponent works to fully escape the Carni position",
+        "correction": "Immediately recognize when the leg straightens and transition back to heel hook attack. The calf slicer and heel hook form a dilemma pair, so always be ready to switch between them."
+      },
+      {
+        "error": "Failing to lock the leg triangle before applying hip extension pressure",
+        "consequence": "Shin slides out from behind the knee under pressure and the compression fails without a structural frame holding it in place",
+        "correction": "Always figure-four or triangle your legs around the opponent's thigh before extending hips. This structural lock prevents your shin from being displaced during the finishing sequence."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Recognition and Entry",
+        "focus": "Identifying when the opponent's defensive posture creates the calf slicer opportunity from Carni",
+        "description": "Partner establishes Carni and alternates between hiding heel and extending leg. Practice recognizing the bent knee angle that signals calf slicer availability. No finishing, only entry and shin placement. 10 repetitions each side."
+      },
+      {
+        "phase": "Phase 2: Mechanics and Finishing",
+        "focus": "Proper shin placement, foot control, leg triangle lock, and controlled hip extension",
+        "description": "From pre-set Carni with opponent's knee already bent, practice threading shin, securing foot, locking triangle, and building slow compression. Partner taps at moderate pressure. Focus on smooth, controlled technique. 8 repetitions each side."
+      },
+      {
+        "phase": "Phase 3: Dilemma Chaining",
+        "focus": "Flowing between heel hook and calf slicer threats based on opponent reactions",
+        "description": "Partner alternates between hiding heel and straightening leg from Carni. Practice switching between heel hook grip and calf slicer setup based on defensive reactions. Chain three transitions minimum before finishing. Light resistance."
+      },
+      {
+        "phase": "Phase 4: Live Application",
+        "focus": "Executing the calf slicer under progressive resistance with full safety protocols",
+        "description": "Positional sparring starting from established Carni. Attacker works for either heel hook or calf slicer finish. Defender uses full defensive repertoire. Two-minute rounds with emphasis on safe application speed. Progress from 50% to 80% resistance over sessions."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What anatomical structures does the calf slicer from Carni primarily attack?",
+        "answer": "The calf slicer primarily attacks the calf muscle belly (gastrocnemius and soleus) and the Achilles tendon by compressing them against the attacker's shinbone used as a fulcrum behind the knee crease. Secondary targets include the peroneal and tibial nerves running through the posterior compartment of the lower leg. The compression can also stress the knee joint capsule when applied at certain angles.",
+        "safety_critical": false
+      },
+      {
+        "question": "Your opponent starts hiding their heel by bending their knee deeply inside the Carni entanglement - what does this create for you?",
+        "answer": "Their heel defense creates the exact knee angle required for the calf slicer entry. The bent knee positions their calf muscle directly over the space where your shin will thread behind the knee crease. You should immediately begin threading your shin while maintaining inside leg control. This is the primary recognition trigger for transitioning from heel hook to calf slicer within the Carni dilemma system.",
+        "safety_critical": false
+      },
+      {
+        "question": "What must be established before you begin applying hip extension pressure for the finish?",
+        "answer": "Three elements must be secured before applying pressure: first, your shin must be positioned precisely behind the knee crease, not on the thigh or upper calf. Second, the opponent's foot must be controlled and pulled against your chest to lock the knee angle. Third, your legs must be figure-foured or triangled around the opponent's thigh to create a structural lock that prevents your shin from being displaced under pressure.",
+        "safety_critical": false
+      },
+      {
+        "question": "At what point does the calf slicer become inescapable for the defender?",
+        "answer": "The submission becomes extremely difficult to escape once the attacker has locked the leg triangle around the thigh, secured the foot against their chest, and begun hip extension. At that point, the opponent cannot straighten their leg due to the triangle lock, cannot push the shin out due to the structural frame, and cannot create slack because the foot is controlled. The only viable escape at this stage is to tap before the compression reaches injurious levels.",
+        "safety_critical": false
+      },
+      {
+        "question": "What is the most common finishing error with the calf slicer from Carni and how do you correct it?",
+        "answer": "The most common error is placing the shin too high on the thigh rather than precisely behind the knee crease. This distributes the compression across the thick quadricep muscle rather than focusing it on the vulnerable calf and Achilles tendon area. The correction is to feel for the natural depression behind the knee joint and seat your shin there before beginning any extension pressure. If the opponent is not reacting to the compression, your shin placement is likely too high.",
+        "safety_critical": false
+      },
+      {
+        "question": "How should you adjust your grip when the opponent begins to straighten their leg against the calf slicer?",
+        "answer": "When the opponent begins straightening, immediately tighten your foot control by pulling their toes harder against your chest and deepening the figure-four lock with your legs. If they successfully straighten past the point where the calf slicer is viable, release the calf slicer setup and immediately transition back to heel hook grips since their extended leg now exposes the heel perfectly. This switch should be instantaneous since the Carni entanglement remains intact throughout.",
+        "safety_critical": false
+      },
+      {
+        "question": "What is the safe application speed for the calf slicer in training and why is this critical?",
+        "answer": "The calf slicer must be applied over a minimum of five to seven seconds in training, building pressure gradually with controlled hip extension. This is critical because the calf slicer's compression mechanism can cause muscle tears and Achilles tendon damage before the defender fully registers the pain and can tap. The delayed pain response means spiking or jerking the submission can cause catastrophic injury before any tap signal is possible. Always prioritize training partner safety over finishing speed.",
+        "safety_critical": true
+      },
+      {
+        "question": "How does the calf slicer from Carni differ strategically from the calf slicer from Truck?",
+        "answer": "From Carni, the calf slicer functions primarily as a secondary threat within the heel hook and calf slicer dilemma system. The Carni entanglement provides continuous inside leg control that allows instant switching between threats. From Truck, the calf slicer is typically a primary attack since the leg configuration already favors the compression angle. The Carni version relies more on reading defensive reactions and transitioning, while the Truck version emphasizes direct mechanical finishing from the established position.",
+        "safety_critical": false
+      },
+      {
+        "question": "What should you do if your training partner does not tap but shows signs of distress during the calf slicer?",
+        "answer": "Immediately stop all pressure application and release the submission. Any vocalization, grimacing, unusual tension, or involuntary movement should be treated as an implicit tap signal. The calf slicer's delayed pain response means your partner may not recognize injury is occurring until tissue damage has begun. It is always your responsibility as the attacker to release the submission when you observe distress signals, even without a formal tap.",
+        "safety_critical": true
+      }
+    ]
+  },
+  "defender": {
+    "name": "from Carni Defender",
+    "description": "Defend the calf slicer from Carni position in BJJ. Recognition cues, immediate defensive responses, and proven escape paths to neutralize leg compression.",
+    "overview": "Defending the calf slicer from Carni requires understanding that this attack emerges as a direct consequence of your heel hook defense. When you bend your knee to hide your heel inside the Carni entanglement, you inadvertently create the angle the attacker needs to thread their shin behind your knee for the compression finish. Effective defense means recognizing the shin threading attempt early and acting decisively before the attacker locks their leg triangle and secures your foot. The fundamental defensive choice is whether to straighten your leg to remove the calf slicer angle, accepting that this re-exposes your heel, or to address the shin position directly with your hands while maintaining your current defensive posture. Both paths carry risk, and the correct choice depends on the attacker's grip strength and how deeply they have established the compression fulcrum.",
+    "key_principles": [
+      "Recognize the shin threading behind your knee as the primary calf slicer recognition cue and react before the leg triangle locks",
+      "Maintain awareness that straightening your leg defeats the calf slicer but re-exposes your heel to the primary heel hook threat",
+      "Address the fulcrum first by pushing the attacker's shin out before attempting any positional escape from the entanglement",
+      "Tap early and decisively when compression is locked because delayed pain response makes injury possible before you feel full pressure",
+      "Use both hands to control the attacker's shin position rather than fighting the compression after it is established",
+      "Accept that escaping from Carni entirely may require giving up guard position to achieve safe leg extraction"
+    ],
+    "recognition_cues": [
+      "Attacker repositions their lower leg to thread behind your knee crease while maintaining the Carni entanglement",
+      "Pressure shifts from heel hook grip orientation to foot control pulling your toes toward the attacker's chest",
+      "Attacker's hips begin to extend outward while their legs tighten around your thigh in a triangle or figure-four configuration",
+      "You feel a hard bony surface (the attacker's shin) settling into the soft tissue behind your knee joint",
+      "The attacker releases their heel grip momentarily to reposition for foot control, indicating the transition from heel hook to calf slicer"
+    ],
+    "defensive_options": [
+      {
+        "action": "Straighten trapped leg forcefully to remove the knee angle required for the compression fulcrum",
+        "when_to_use": "Early in the setup before the attacker has locked their leg triangle around your thigh, when you still have sufficient leg strength to extend",
+        "targets_outcome": "Carni/Bottom",
+        "if_successful": "Removes the calf slicer threat entirely but returns you to defending the heel hook from standard Carni bottom defense",
+        "risk": "Re-exposes your heel to the primary heel hook attack that you were originally defending against"
+      },
+      {
+        "action": "Push the attacker's shin out from behind your knee using both hands before the compression locks",
+        "when_to_use": "When you feel the shin threading behind your knee but before the attacker has secured foot control and leg triangle lock",
+        "targets_outcome": "Carni/Bottom",
+        "if_successful": "Prevents the calf slicer from being established without changing your overall defensive posture or exposing the heel",
+        "risk": "Committing both hands to shin removal temporarily removes your frames and upper body defense"
+      },
+      {
+        "action": "Roll toward the attacker to collapse the compression angle and work to extract leg into closed guard",
+        "when_to_use": "When the calf slicer is partially locked and straightening the leg is no longer possible due to the attacker's leg triangle",
+        "targets_outcome": "Closed Guard/Top",
+        "if_successful": "Creates slack in the compression while generating momentum to extract the trapped leg and recover to closed guard",
+        "risk": "Rolling toward the attacker may expose your back if they abandon the calf slicer and transition to back take"
+      }
+    ],
+    "escape_paths": [
+      "Straighten the trapped leg while stripping the attacker's foot control to return to standard Carni heel hook defense position",
+      "Roll toward the attacker to collapse compression angle, extract the trapped leg, and recover to closed guard"
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Closed Guard/Top",
+        "how": "Roll toward the attacker while pushing their shin out from behind your knee, use the momentum to extract your trapped leg from the entanglement, and immediately close your guard to establish a safe defensive position"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Bending the knee further when feeling compression pressure instead of straightening",
+        "consequence": "Deepens the fulcrum angle and dramatically increases compression on the calf muscle and Achilles tendon, accelerating toward injury",
+        "correction": "Fight the instinct to curl up and instead extend the trapped leg as forcefully as possible to remove the angle the attacker needs for the compression"
+      },
+      {
+        "error": "Attempting explosive upper body escape without addressing the shin behind the knee",
+        "consequence": "The compression fulcrum remains intact and the explosive movement may actually increase pressure on the calf as the body moves but the leg stays trapped",
+        "correction": "Address the shin position first with your hands before attempting any whole-body escape movement. Remove the fulcrum, then escape."
+      },
+      {
+        "error": "Waiting too long to tap because the pain builds gradually with the calf slicer",
+        "consequence": "Muscle tears, Achilles tendon damage, or nerve injury occur before the full pain registers due to the delayed pain response characteristic of compression submissions",
+        "correction": "Tap as soon as you feel the compression lock with the leg triangle established and your foot controlled. Do not wait for sharp pain because tissue damage may precede the pain signal."
+      },
+      {
+        "error": "Using only one hand to fight the shin while keeping the other hand posted for base",
+        "consequence": "Insufficient force to displace the shin from behind the knee, allowing the attacker to lock the triangle and secure the finish",
+        "correction": "Commit both hands to removing the shin when the calf slicer is being established. Temporarily losing your posting hand is acceptable because the calf slicer threat is more immediate than positional loss."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "How do you recognize that a calf slicer is being set up from Carni rather than a heel hook?",
+        "answer": "The key recognition cues are the attacker repositioning their lower leg to thread behind your knee crease rather than maintaining heel hook grips, and feeling a hard bony surface settling into the soft tissue behind your knee joint. The attacker's focus shifts from controlling your heel to controlling your foot and pulling your toes toward their chest. Their hips begin extending outward rather than rotating for heel hook torque.",
+        "safety_critical": false
+      },
+      {
+        "question": "What is the safest approach to tapping when caught in a calf slicer from Carni?",
+        "answer": "Tap verbally and physically as soon as you feel the compression lock with the attacker's leg triangle established around your thigh and your foot controlled against their chest. Do not wait for sharp pain because the calf slicer has a delayed pain response where tissue damage can occur before you register full discomfort. Verbal tapping is preferred because the leg entanglement may restrict hand access for physical tapping.",
+        "safety_critical": true
+      },
+      {
+        "question": "What defensive options are available when the calf slicer is partially established but not yet locked?",
+        "answer": "The two primary options are straightening your trapped leg forcefully to remove the knee angle needed for the fulcrum, or using both hands to push the attacker's shin out from behind your knee before they lock the leg triangle. Straightening the leg is mechanically stronger but re-exposes your heel to the heel hook. Pushing the shin out preserves your defensive posture but requires committing both hands. Choose based on how deeply the shin is positioned.",
+        "safety_critical": false
+      },
+      {
+        "question": "Why is it dangerous to delay your tap when caught in a calf slicer?",
+        "answer": "The calf slicer produces a compression-type pain that builds gradually rather than generating the sharp immediate pain of joint locks. This means significant tissue damage to the calf muscle, Achilles tendon, and surrounding nerves can occur before you register the full severity of the pressure. Muscle tears and tendon strains may already be in progress by the time you feel the need to tap, making early tapping essential for long-term training health.",
+        "safety_critical": true
+      },
+      {
+        "question": "Your opponent has locked the calf slicer triangle and started extending their hips - what should you do?",
+        "answer": "At this stage the submission is nearly complete and your options are very limited. If the pressure has not yet become severe, attempt to roll toward the attacker immediately to collapse the compression angle and create momentary slack. If this fails or if you feel significant pressure building, tap immediately. Do not attempt heroic escapes when the compression is locked because the risk of muscle tear or Achilles damage far outweighs any positional benefit from continuing to fight.",
+        "safety_critical": true
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Recognition Training",
+        "focus": "Identifying the calf slicer setup cues from within the Carni entanglement",
+        "description": "Partner alternates between heel hook grip and calf slicer threading from Carni. Practice identifying which attack is coming based on tactile cues and body positioning. Call out the attack verbally before it is established. No resistance, pure recognition work."
+      },
+      {
+        "phase": "Phase 2: Immediate Defense Mechanics",
+        "focus": "Executing leg straightening and shin displacement techniques before the lock is established",
+        "description": "Partner sets up the calf slicer at half speed from Carni. Practice both defensive responses: forceful leg extension and two-hand shin displacement. Partner provides light resistance. Focus on reaction speed and choosing the correct defense based on how deep the shin has been threaded."
+      },
+      {
+        "phase": "Phase 3: Escape Integration",
+        "focus": "Combining calf slicer defense with full Carni escape sequences under progressive resistance",
+        "description": "Positional sparring from Carni where the attacker can use both heel hook and calf slicer. Defender must recognize which attack is coming and apply appropriate defense, then work to escape the entire Carni position. Two-minute rounds progressing from 50% to 80% resistance. Emphasize tapping early when caught."
+      }
+    ]
+  }
+}

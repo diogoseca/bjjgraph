@@ -3,24 +3,34 @@
 
 
 ---
-title: "Loop Choke | BJJ Submission | BJJ Graph"
+title: "Loop Choke | BJJ Submission Family | BJJ Graph"
 description: "Master the Loop Choke in BJJ - deceptive collar choke from guard, mount, side control, turtle. Technical execution with grip mechanics and body positioning."
 ---
 
 
-<body data-content-type="submissions-hub">
+<body data-content-type="submissions-family">
 
 > **SAFETY**: Loop Choke targets the Carotid arteries via deep collar grip and body positioning. Risk: Carotid artery compression leading to loss of consciousness. Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
-<div class="role-links">
 
-[[Loop Choke/Attacker|Play as Attacker]]
-[[Loop Choke/Defender|Play as Defender]]
+<section id="variants" class="content-section">
 
-</div>
+## Position Variants
+
+| From Position | Success Rate | Top Injury Risk | Key Difference |
+|---------------|-------------|-----------------|----------------|
+| [[Loop Choke/from Closed Guard|Closed Guard]] | 55% | Loss of consciousness from bilateral carotid artery compression |  |
+| [[Loop Choke/from Half Guard|Half Guard]] | 40% | Loss of consciousness from bilateral carotid artery compression |  |
+| [[Loop Choke/from Mount|Mount]] | 58% | Loss of consciousness from carotid artery compression |  |
+| [[Loop Choke/from Side Control|Side Control]] | 55% | Loss of consciousness from bilateral carotid artery compression |  |
+| [[Loop Choke/from Turtle|Turtle]] | 58% | Loss of consciousness from bilateral carotid artery compression |  |
+
+
+</section>
+
 
 <section id="overview" class="content-section">
 
@@ -33,9 +43,7 @@ Advanced practitioners excel at chaining the Loop Choke with other collar attack
 **Category**: Choke
 **Type**: Blood Choke
 **Target Area**: Carotid arteries via deep collar grip and body positioning
-**Starting Position**: [[Positions/Mount]]
-**From Position**: [[Positions/Mount]] (Top)
-**Success Rate**: 58%
+**Success Rate**: 58% (average across variants)
 
 </section>
 
@@ -79,145 +87,10 @@ Advanced practitioners excel at chaining the Loop Choke with other collar attack
 
 </section>
 
-<section id="outcomes" class="content-section">
 
-## Outcomes
+<section id="variation-details" class="content-section hide-minimal">
 
-| Result | Position | Probability |
-|--------|----------|-------------|
-| Success | [[game-over]] | 58% |
-| Failure | [[Positions/Mount]] | 25% |
-| Counter | [[Positions/Closed Guard]] | 17% |
-
-
-</section>
-
-<section class="content-section">
-
-## Attacker vs Defender
-
-| &nbsp; | Attacker | Defender |
-|--------|----------|----------|
-| **Focus** | Execute and finish | Escape and survive |
-| **Key Principles** | Deep collar penetration is the foundation - four fingers dee... | Deny the deep collar grip through proactive hand fighting an... |
-| **Options** | 6 execution steps | 4 defensive options |
-
-</section>
-
-<section id="attacker-summary" class="content-section">
-
-## Playing as Attacker
-
-[[Loop Choke/Attacker|→ Full Attacker Guide]]
-
-### Key Principles
-
-
-- Deep collar penetration is the foundation - four fingers deep minimum before attempting finish
-
-- Body positioning creates the choke more than arm strength - use weight distribution strategically
-
-- Hide the attacking intention by establishing grip as part of positional control sequence
-
-- Angle management determines effectiveness - slight adjustments in shoulder position dramatically affect pressure
-
-- Control opponent's defensive frames before committing to finish - prevent hand fighting early
-
-- Progressive pressure application allows technical refinement and safe training practice
-
-- Chain with other collar attacks to create offensive dilemmas where all defenses lead to submissions
-
-
-### Execution Steps
-
-
-- **Establish deep collar grip**: From mount or side control, feed your hand (same side as the direction you'll finish) deep into oppo...
-
-- **Control defensive frames**: Use your free hand to control opponent's near arm, either by pinning it to their chest, controlling ...
-
-- **Create the loop angle**: Begin shifting your body weight toward the side of your choking arm, positioning your shoulder near ...
-
-- **Drive shoulder pressure or pull head down**: From top positions, press your shoulder (same side as choking hand) into the side of opponent's neck...
-
-- **Secure head position and close the loop**: Place your head tight against opponent's head on the opposite side of your choking arm, preventing t...
-
-- **Complete the choke**: Drive your weight forward and slightly toward your choking side while pulling the collar grip tighte...
-
-
-### Common Mistakes
-
-
-- **Telegraphing the submission by reaching obviously for the collar**
-  - Consequence: Opponent recognizes the threat immediately and defends the grip, preventing you from establishing the deep collar penetration necessary for the choke
-  - Correction: Establish the collar grip as part of your standard positional control sequence, making it appear as a control grip rather than an attacking grip. Set up other threats first to occupy opponent's defensive attention.
-
-- **Insufficient collar grip depth - fingers not deep enough in collar**
-  - Consequence: Choke lacks the leverage and compression necessary to finish, allowing opponent to defend effectively and potentially escape position
-  - Correction: Work the grip progressively deeper before attempting finish, ensuring at least four fingers are inserted into the collar. Use lapel material manipulation to create space for deeper penetration.
-
-- **Relying on arm strength instead of body positioning and shoulder pressure**
-  - Consequence: Choke is ineffective and exhausting, burning your grip and energy while failing to create proper carotid compression
-  - Correction: Focus on angle management and shoulder pressure as the primary choking mechanism. Your collar grip maintains control, but your shoulder and body weight create the actual submission pressure.
-
-
-</section>
-
-<section id="defender-summary" class="content-section">
-
-## Playing as Defender
-
-[[Loop Choke/Defender|→ Full Defender Guide]]
-
-### Key Principles
-
-
-- Deny the deep collar grip through proactive hand fighting and grip stripping before it becomes a submission threat
-
-- Maintain strong posture and chin position to prevent the angle creation that converts a collar grip into a choke
-
-- Recognize the difference between a control grip and an attacking grip by monitoring opponent's body angle changes
-
-- Address the collar grip with two hands when possible - one hand alone rarely generates enough force to strip a deep grip
-
-- Turn into the attacker to collapse the loop geometry rather than turning away which tightens the choke
-
-- Prioritize immediate grip fighting over positional escape - the grip is the threat, not the position alone
-
-- If the choke is locked and pressure is applied, tap immediately rather than risking unconsciousness from a fully set blood choke
-
-
-### Recognition Cues
-
-
-- Opponent feeds one hand deep into your far-side collar with four fingers inside, establishing grip deeper than typical control requires
-
-- Opponent begins shifting body angle toward the side of their gripping hand, moving shoulder toward your head rather than maintaining centered pressure
-
-- Opponent's free hand transitions from general control to specifically pinning your near arm or blocking your defensive frames
-
-- Opponent drives their head close to yours on the side opposite their gripping hand, establishing the head-blocking position that prevents your rotation
-
-- Collar fabric tightens noticeably around your neck as opponent gathers slack and eliminates looseness in the material
-
-
-### Escape Paths
-
-
-- Strip the collar grip with two hands, then immediately re-establish defensive frames and work standard positional escapes from mount or side control
-
-- Turn into the attacker to collapse the loop, use the rotation to recover half guard or create sufficient space for hip escape to guard
-
-- Bridge and roll during attacker's angle transition to reverse position or create scramble opportunity where grip maintenance becomes difficult
-
-- If from bottom in guard, push attacker's head away with free hand while posturing up to break the loop angle and strip the grip
-
-
-</section>
-
-
-<section id="variations" class="content-section hide-minimal">
-
-## Variations
+## Variation Details
 
 
 **Loop Choke from Closed Guard Bottom**: The classical setup where you establish deep collar grip, create angle by hip escaping to the side, and pull opponent's head down while completing the loop. Most common entry point for learning the fundamental mechanics. (When to use: When opponent maintains posture in closed guard or attempts to stack you. Their forward pressure provides the reaction needed for angle creation.)
@@ -270,17 +143,17 @@ Advanced practitioners excel at chaining the Loop Choke with other collar attack
 
 ## Related Submissions
 
-- [[Transitions/Cross Collar Choke]]
-- [[Transitions/Baseball Bat Choke]]
-- [[Submissions/Ezekiel Choke]]
-- [[Submissions/Ezekiel from Mount]]
-- [[Transitions/Bow and Arrow Choke]]
-- [[Transitions/Breadcutter Choke]]
-- [[Transitions/Clock Choke]]
-- [[Transitions/Guillotine Choke]]
-- [[Transitions/Arm Triangle]]
-- [[Submissions/Americana from Mount]]
-- [[Submissions/Loop Choke from Mount]]
+- [[Submissions/Cross Collar Choke]] - Complementary collar attack creating offensive dilemmas from same grip position
+- [[Submissions/Baseball Bat Choke]] - Alternative collar choke using different grip configuration from similar positions
+- [[Submissions/Ezekiel Choke]] - Alternative mount finishing option when collar grip is unavailable
+- [[Submissions/Brabo Choke]] - Related lapel choke that chains well when loop choke is defended
+- [[Submissions/Bow and Arrow Choke]] - Alternative collar choke transition when opponent defends loop choke by turning
+- [[Submissions/Breadcutter Choke]] - Similar collar-based blood choke using different finishing mechanics
+- [[Transitions/Clock Choke]] - Complementary turtle collar attack sharing similar grip mechanics
+- [[Transitions/Guillotine Choke]] - Alternative front headlock choke sharing deceptive entry characteristics
+- [[Transitions/Arm Triangle]] - Shoulder pressure choke that can be chained from failed loop choke attempts
+- [[Submissions/Americana]] - Joint lock threat creating submission dilemmas from mount alongside loop choke
+- [[Transitions/Darce Choke]] - Related head-and-arm choke sharing positional overlap from turtle and side control
 
 
 </section>
@@ -292,13 +165,13 @@ Advanced practitioners excel at chaining the Loop Choke with other collar attack
 - [[Positions/Mount]] - Primary top position for establishing loop choke setups with dominant control
 - [[Positions/Side Control]] - Alternative attacking position allowing collar access with chest pressure control
 - [[Positions/Turtle]] - Defensive position vulnerable to loop choke attacks from back exposure
-- [[Transitions/Cross Collar Choke]] - Complementary collar attack creating offensive combinations and dilemmas
+- [[Submissions/Cross Collar Choke]] - Complementary collar attack creating offensive combinations and dilemmas
 - [[Submissions/Ezekiel Choke]] - Alternative mount finishing option when collar grip is unavailable
-- [[Submissions/Americana from Mount]] - Joint lock threat that can be chained with loop choke to create submission dilemmas
+- [[Submissions/Americana]] - Joint lock threat that can be chained with loop choke to create submission dilemmas from mount
 - [[Positions/Side Control/Kesa Gatame]] - Scarf hold variation providing excellent angle for loop choke application
 - [[Positions/Mount/High Mount]] - Elevated mount variation offering optimal collar access for loop choke setup
 - [[Positions/Knee on Belly]] - Transitional position that can flow into loop choke attack with collar grip
-- [[Transitions/Bow and Arrow Choke]] - Alternative collar choke that can be transitioned to when opponent defends loop choke
+- [[Submissions/Bow and Arrow Choke]] - Alternative collar choke that can be transitioned to when opponent defends loop choke
 - [[Positions/Closed Guard]] - Classical bottom position where loop choke is initiated with angle creation and head pull
 
 

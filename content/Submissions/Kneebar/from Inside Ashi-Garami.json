@@ -1,0 +1,458 @@
+{
+  "name": "Kneebar from Inside Ashi-Garami",
+  "description": "Master the kneebar from inside ashi-garami. Learn hip positioning, foot control mechanics, and progressive finishing techniques for this powerful leg lock.",
+  "tags": [
+    "bjj",
+    "submission",
+    "leg-lock",
+    "joint-lock",
+    "kneebar",
+    "ashi-garami",
+    "leg-entanglement",
+    "hub",
+    "finishing-guide",
+    "inside-ashi-garami"
+  ],
+  "submission_category": "Joint Lock",
+  "submission_type": "Leg Lock",
+  "target_area": "Knee joint (primarily posterior cruciate ligament, medial collateral ligament, and joint capsule)",
+  "starting_position": "Inside Ashi-Garami",
+  "from_position": "Inside Ashi-Garami/Top",
+  "success_rate": 60,
+  "overview": "The kneebar from inside ashi-garami is a high-percentage leg lock that hyperextends the opponent's knee by positioning your hips over their knee line and driving extension force against the natural bending direction of the joint. Inside ashi-garami provides a direct pathway to the kneebar when the opponent extends their trapped leg to create distance or attempts to stand, exposing the knee joint to attack. The position's inherent control over the opponent's lower leg through the inside leg across the hip and outside leg hooking behind the knee creates the structural foundation for transitioning to the kneebar finish without releasing control at any point during the sequence.\n\nUnlike kneebars attempted from other entanglements, the inside ashi-garami entry allows the attacker to maintain continuous leg control throughout the entire transition. The attacker pivots their hips over the opponent's knee while keeping the foot trapped against their torso, creating a fulcrum point at the knee joint. This configuration generates tremendous hyperextension pressure through hip extension rather than arm strength, making the finish both powerful and energy-efficient. The inside leg position across the opponent's hip serves double duty: controlling distance during the ashi position and then becoming the primary wedge that prevents the opponent from retracting their knee during kneebar application.\n\nCompetition data shows the kneebar from inside ashi-garami succeeds at approximately 60% when properly secured, with the primary defensive response being foot extraction before full hip engagement. Training this technique requires strict adherence to progressive pressure application and immediate release upon tap, as the hyperextension mechanism can damage the posterior cruciate ligament and surrounding knee structures with minimal warning to the defender.",
+  "safety_considerations": {
+    "injury_risks": [
+      {
+        "injury": "Posterior cruciate ligament (PCL) tear",
+        "severity": "High",
+        "recovery_time": "6-12 months with surgical intervention"
+      },
+      {
+        "injury": "Medial collateral ligament (MCL) strain or tear",
+        "severity": "Medium",
+        "recovery_time": "4-8 weeks for grade 1-2, 3-6 months for grade 3"
+      },
+      {
+        "injury": "Joint capsule damage",
+        "severity": "Medium",
+        "recovery_time": "6-12 weeks"
+      },
+      {
+        "injury": "Meniscus tear (medial or lateral)",
+        "severity": "High",
+        "recovery_time": "3-6 months, may require surgery"
+      }
+    ],
+    "application_speed": "SLOW and progressive - minimum 3-5 seconds from initial pressure to finish in training",
+    "tap_signals": [
+      "Verbal tap or verbal signal",
+      "Physical hand tap on opponent or mat",
+      "Physical foot tap on opponent or mat",
+      "Any distress vocalization or signal"
+    ],
+    "release_protocol": [
+      "Immediately stop all hip extension the moment tap is received",
+      "Release hip pressure by dropping hips away from opponent's leg",
+      "Maintain positional control while releasing the leg slowly",
+      "Allow opponent to extract their leg at their own pace",
+      "Check with partner verbally after release"
+    ],
+    "training_restrictions": [
+      "Never spike or jerk the submission - always apply smooth, progressive pressure",
+      "Never use competition speed or intensity in training rolls",
+      "Always communicate with training partners about leg lock experience level",
+      "Never continue pressure after any tap signal",
+      "Avoid training kneebars with partners who have pre-existing knee injuries without explicit permission"
+    ]
+  },
+  "from_positions": [
+    "Inside Ashi-Garami",
+    "Ashi Garami"
+  ],
+  "related_submissions": [
+    "Heel Hook",
+    "Inside Heel Hook",
+    "Calf Slicer",
+    "Flying Kneebar",
+    "Achilles Lock"
+  ],
+  "related_content": [
+    {
+      "name": "Inside Ashi-Garami",
+      "relationship": "Starting position providing leg control foundation for the kneebar entry"
+    },
+    {
+      "name": "Kneebar Control",
+      "relationship": "Finishing position where the kneebar is completed after hip engagement"
+    },
+    {
+      "name": "Saddle",
+      "relationship": "Alternative advanced entanglement when kneebar defense exposes the heel"
+    },
+    {
+      "name": "Honey Hole",
+      "relationship": "Transitional option when opponent rotates knee inward to defend kneebar"
+    },
+    {
+      "name": "Ashi Garami",
+      "relationship": "Parent position family encompassing all ashi variations including kneebar entries"
+    }
+  ],
+  "outcomes": [
+    {
+      "to": "game-over",
+      "probability": 60,
+      "result": "success"
+    },
+    {
+      "to": "Inside Ashi-Garami/Top",
+      "probability": 26,
+      "result": "failure"
+    },
+    {
+      "to": "Closed Guard/Bottom",
+      "probability": 14,
+      "result": "counter"
+    }
+  ],
+  "variations_and_setups": [
+    {
+      "variation_name": "Standard pivot kneebar from heel control",
+      "description": "From established inside ashi with heel control, release the heel grip and immediately secure the foot against your chest while pivoting your hips over the opponent's knee line. This is the highest-percentage entry because you maintain continuous leg control throughout.",
+      "when_to_use": "When opponent is relatively stationary and you have secure inside ashi control with both legs properly positioned"
+    },
+    {
+      "variation_name": "Kneebar off failed straight ankle lock",
+      "description": "When the opponent defends the straight ankle lock by pulling their foot back and extending their leg, transition directly to the kneebar by keeping the foot trapped and rotating your hips over their knee. The ankle lock defense creates the exact leg extension needed for kneebar entry.",
+      "when_to_use": "When opponent successfully defends your ankle lock attempt by straightening their leg and creating distance"
+    },
+    {
+      "variation_name": "Kneebar against standing opponent",
+      "description": "When the opponent stands up from inside ashi-garami while you maintain foot control, their standing posture naturally positions their knee above your hips. Swing your legs to the outside of their standing leg and clamp around the thigh while driving hip extension against their locked-out knee.",
+      "when_to_use": "When opponent attempts to escape inside ashi by standing up while you retain control of their foot or ankle"
+    }
+  ],
+  "attacker": {
+    "name": "from Inside Ashi-Garami Attacker",
+    "description": "Execute the kneebar from inside ashi-garami with systematic hip positioning, continuous leg control transitions, and progressive finishing mechanics.",
+    "overview": "Executing the kneebar from inside ashi-garami requires transitioning from standard heel control to a hip-over-knee configuration that generates hyperextension pressure on the opponent's knee joint. The attacker must maintain continuous leg control while pivoting their body to position their hips directly over the opponent's knee line. Success depends on timing the transition when the opponent extends their leg, securing the foot against the torso, and driving controlled hip extension to create the breaking mechanism. The inside ashi position provides unique advantages for this attack because the existing leg configuration naturally facilitates the pivot needed to reach the kneebar finishing position, and the opponent's defensive reactions to standard ashi attacks often create the exact conditions needed for the kneebar entry.",
+    "key_principles": [
+      "Control the foot against your torso before initiating the hip pivot to prevent boot extraction during transition",
+      "Position your hips directly over the opponent's knee line to create maximum hyperextension leverage as the fulcrum point",
+      "Use the inside leg as a wedge against the opponent's hip to prevent them from retracting their knee during the finish",
+      "Drive hip extension for the finish rather than pulling with arms - structural pressure from the hips is sustainable and powerful",
+      "Maintain tight leg clamp around the opponent's thigh throughout the transition to prevent knee rotation",
+      "Time the kneebar entry when the opponent extends their leg for escape, converting their defensive movement into your offensive opportunity"
+    ],
+    "setup_requirements": [
+      "Established inside ashi-garami with inside leg across opponent's hip and outside leg hooking behind their knee",
+      "Secure control of the opponent's foot or ankle with both hands, trapping it firmly against your torso or chest",
+      "Opponent's leg must be partially or fully extended, exposing the knee joint to hyperextension attack",
+      "Your hips must be mobile and elevated enough to pivot over the opponent's knee line without losing foot control",
+      "Clear knee line control with opponent's knee pointing upward or away from the mat rather than bent defensively"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Secure foot control",
+        "description": "From inside ashi-garami, transition your grip from the heel to securing the entire foot against your chest. Use a clamp grip with both arms wrapping around the foot and lower shin, pulling it tight against your sternum. The foot must be locked to your body so it travels with you during the pivot rather than slipping free.",
+        "timing": "1-2 seconds"
+      },
+      {
+        "step_number": 2,
+        "action": "Initiate hip pivot",
+        "description": "Begin rotating your hips toward the outside of the opponent's trapped leg. Your inside leg drives off their hip to generate rotational momentum while your outside leg maintains the hook behind their knee. Think of swinging your hips in an arc over their knee, not simply rolling sideways. Your chest stays connected to their foot throughout.",
+        "timing": "1-2 seconds"
+      },
+      {
+        "step_number": 3,
+        "action": "Position hips over knee line",
+        "description": "Complete the pivot so your hip crease sits directly on top of the opponent's knee joint. Your body should now be perpendicular to their leg with the foot still trapped against your chest. The knee joint should be positioned in the crook of your hip, creating the fulcrum point for hyperextension. If your hips are too high or low relative to the knee, adjust before proceeding.",
+        "timing": "1 second"
+      },
+      {
+        "step_number": 4,
+        "action": "Clamp legs around thigh",
+        "description": "Squeeze both legs tightly around the opponent's thigh just above the knee. Your legs act as a vise preventing them from pulling the knee free or rotating it to relieve pressure. Cross your ankles if possible to increase clamping force. The thigh clamp is your primary retention mechanism and must be tight before applying finishing pressure.",
+        "timing": "Immediate"
+      },
+      {
+        "step_number": 5,
+        "action": "Align foot for maximum pressure",
+        "description": "Ensure the opponent's toes point toward the ceiling with the sole of their foot pressed flat against your upper chest or chin. This alignment prevents them from rotating the knee to relieve pressure. If their foot is angled, adjust your grip to straighten it. The foot position determines whether the hyperextension force travels cleanly through the knee joint.",
+        "timing": "1 second"
+      },
+      {
+        "step_number": 6,
+        "action": "Drive progressive hip extension",
+        "description": "Slowly extend your hips forward and upward, pushing your pelvis into the back of their knee while the foot remains pinned to your chest. The breaking pressure comes entirely from hip extension driving your body away from their trapped foot. Apply pressure progressively over 3-5 seconds in training, feeling for the tap. Never jerk or spike the extension.",
+        "timing": "3-5 seconds progressive"
+      },
+      {
+        "step_number": 7,
+        "action": "Maintain control through completion",
+        "description": "Continue controlled hip extension until the opponent taps or verbally submits. Keep legs clamped and foot secured throughout. Upon receiving the tap, immediately cease all hip extension and release pressure by dropping your hips away from their leg. Maintain leg position to prevent any sudden movement that could cause additional damage to the knee joint during release.",
+        "timing": "Until tap received"
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Boot extraction - opponent pulls foot free before hip pivot completes",
+        "effectiveness": "High",
+        "your_response": "Tighten foot control against chest before initiating pivot. If foot begins slipping, abandon the kneebar and return to inside ashi heel control rather than chasing a loose submission. Prevention is key - do not initiate the pivot until the foot is fully secured.",
+        "targets_outcome": "Inside Ashi-Garami/Top"
+      },
+      {
+        "counter": "Knee rotation - opponent turns knee inward to relieve hyperextension angle",
+        "effectiveness": "Medium",
+        "your_response": "Increase leg clamp pressure around the thigh and use your hands to correct the foot alignment back to toes-up position. If rotation continues, consider transitioning to a heel hook as the knee rotation exposes the heel. The counter often creates a better submission opportunity than the original attack.",
+        "targets_outcome": "Inside Ashi-Garami/Top"
+      },
+      {
+        "counter": "Sit-up and push - opponent sits up to push your hips off their knee line",
+        "effectiveness": "Low",
+        "your_response": "Use your leg clamp and foot control to resist the push. If opponent commits both hands to pushing your hips, their base is compromised. Consider releasing the kneebar to sweep them or transition to a different leg attack. Their sit-up often exposes back take opportunities.",
+        "targets_outcome": "Closed Guard/Bottom"
+      },
+      {
+        "counter": "Leg straightening defense - opponent hyperextends their own leg to prevent your hip from creating the fulcrum",
+        "effectiveness": "Medium",
+        "your_response": "A fully straightened leg is actually vulnerable to the kneebar if your hips are properly positioned over the knee. Ensure your hip crease is directly on the knee joint and increase clamping pressure. If they straighten fully, they have eliminated their own ability to bend the knee to escape, making the finish easier once your hips are engaged.",
+        "targets_outcome": "Inside Ashi-Garami/Top"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Releasing foot control too early during the hip pivot transition",
+        "consequence": "Opponent extracts their foot and escapes the entanglement entirely, losing all offensive position and requiring re-engagement from neutral",
+        "correction": "Lock the foot against your chest with both arms before initiating any hip movement. The foot must travel with your body as a single unit. Practice the pivot with a focus on maintaining chest-to-foot connection throughout the entire rotation."
+      },
+      {
+        "error": "Positioning hips too far above or below the opponent's actual knee line",
+        "consequence": "Hyperextension force disperses across the thigh or shin rather than concentrating on the knee joint, resulting in a compression-style pressure that is painful but unlikely to produce a tap against experienced opponents",
+        "correction": "Feel for the opponent's kneecap and position your hip crease directly over the joint line. Your belly button should roughly align with the back of their knee. Adjust position before applying finishing pressure."
+      },
+      {
+        "error": "Failing to clamp legs tightly around the thigh before extending hips",
+        "consequence": "Opponent pulls their knee free during the hip extension phase, escaping the submission and potentially achieving a scramble to top position",
+        "correction": "Squeeze legs together forcefully and cross ankles around the thigh before driving any hip extension. The leg clamp must be established as a non-negotiable checkpoint before proceeding to the finish."
+      },
+      {
+        "error": "Using arm strength to pull the foot rather than driving hip extension for the finish",
+        "consequence": "Arms fatigue rapidly and cannot generate sufficient force to finish against a resisting opponent, leading to a stalled submission attempt that the opponent can defend and eventually escape",
+        "correction": "Pin the foot to your chest and keep your arms static as anchors. Generate all breaking pressure through hip extension, driving your pelvis forward while the foot stays pinned. This structural approach uses your largest muscle groups and is sustainable."
+      },
+      {
+        "error": "Rushing the transition before securing the foot against the torso",
+        "consequence": "Foot slips during pivot, opponent escapes immediately, and attacker ends up in a disadvantaged scramble position having abandoned their ashi control for nothing",
+        "correction": "Follow a strict sequence: secure foot first, confirm grip, then pivot. Never skip the foot control step regardless of how open the knee appears. Discipline in the setup leads to higher finishing percentages."
+      },
+      {
+        "error": "Applying the kneebar with a sudden jerking motion instead of progressive pressure",
+        "consequence": "Risk of serious knee injury to training partner including PCL tear, MCL damage, or meniscus injury that could require surgical intervention and months of recovery",
+        "correction": "Always apply the kneebar with slow, steady hip extension over 3-5 seconds minimum in training. Give your partner time to recognize the pressure and tap. The finish should feel like a gradually increasing squeeze, never a sharp spike."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Static mechanics",
+        "focus": "Hip positioning and foot control fundamentals",
+        "description": "Practice the kneebar finishing position in isolation without the transition. Partner places their leg in the kneebar position while you focus on correct hip placement over the knee line, proper foot alignment against chest, and controlled hip extension with zero resistance. 20 repetitions per side, emphasizing the feel of correct positioning."
+      },
+      {
+        "phase": "Phase 2: Transition flow drilling",
+        "focus": "Smooth pivot from inside ashi to kneebar position",
+        "description": "From established inside ashi-garami, practice the full transition sequence at slow speed with a cooperative partner. Focus on maintaining foot control throughout the pivot, arriving at correct hip position, and establishing the leg clamp before any extension. 10 repetitions per side, gradually increasing speed while maintaining technical precision."
+      },
+      {
+        "phase": "Phase 3: Progressive resistance drilling",
+        "focus": "Finishing against defensive reactions",
+        "description": "Partner provides 50% resistance using common defensive responses: boot extraction attempts, knee rotation, and sit-up pushes. Practice adjusting your technique in real-time to maintain the submission through resistance. 5-minute rounds alternating roles, building pattern recognition for each defensive reaction."
+      },
+      {
+        "phase": "Phase 4: Chain drilling with transitions",
+        "focus": "Kneebar as part of the leg lock system",
+        "description": "Practice flowing between ankle lock, kneebar, and heel hook attempts based on partner's defensive reactions from inside ashi. When the kneebar is defended, transition to the next available attack rather than forcing the finish. 5-minute flow rounds focusing on recognizing which submission is available based on opponent's leg positioning and reactions."
+      },
+      {
+        "phase": "Phase 5: Live integration",
+        "focus": "Applying the kneebar in controlled sparring",
+        "description": "Begin from inside ashi-garami in positional sparring with full resistance. Apply the kneebar at training-appropriate speed with progressive pressure only. Focus on recognizing the kneebar opportunity during live rolling when the opponent extends their leg or stands up from ashi. Debrief with partner after each round about timing and pressure."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What anatomical structures does the kneebar from inside ashi-garami primarily attack?",
+        "answer": "The kneebar primarily attacks the posterior cruciate ligament by hyperextending the knee joint beyond its natural range of motion. Secondary structures at risk include the medial collateral ligament, the joint capsule surrounding the knee, and the menisci. The hyperextension force is generated by the attacker's hips driving against the back of the knee while the foot is pinned to the chest, creating a lever system that concentrates pressure directly on these structures.",
+        "safety_critical": true
+      },
+      {
+        "question": "Your opponent starts extending their leg to create distance from inside ashi-garami - how do you capitalize on this for the kneebar entry?",
+        "answer": "The leg extension is the ideal trigger for the kneebar transition. Immediately secure their foot against your chest with a clamp grip, then initiate the hip pivot toward the outside of their extended leg. Their extension has done half your work by straightening the knee and exposing the joint line. Pivot your hips over their knee while maintaining the foot control, establish your leg clamp around the thigh, and you are in finishing position. The key is recognizing this window immediately rather than continuing to fight for heel control.",
+        "safety_critical": false
+      },
+      {
+        "question": "What are the critical control requirements that must be established before initiating the kneebar finish from inside ashi-garami?",
+        "answer": "Three checkpoints must be confirmed before applying finishing pressure. First, the opponent's foot must be securely locked against your chest with both arms creating a clamp that prevents extraction. Second, your hips must be positioned directly over the opponent's knee line with your hip crease sitting on the joint. Third, your legs must be tightly clamped around the opponent's thigh with ankles crossed to prevent knee retraction. Skipping any of these checkpoints dramatically reduces finishing percentage and increases escape probability.",
+        "safety_critical": false
+      },
+      {
+        "question": "You have pivoted your hips over the knee but your opponent begins rotating their knee inward - what adjustment prevents escape?",
+        "answer": "Increase your leg clamp pressure immediately to resist the rotation while using your hands to correct the foot back to a toes-up alignment. If rotation continues despite increased clamping, recognize this as a transition trigger rather than a problem to force through. The inward knee rotation exposes the heel for heel hook attacks, so flow to that submission rather than muscling the kneebar. Forcing a kneebar against strong knee rotation wastes energy and risks losing position, while transitioning maintains offensive pressure.",
+        "safety_critical": false
+      },
+      {
+        "question": "What distinguishes the point of no escape in the kneebar from inside ashi-garami?",
+        "answer": "The point of no escape occurs when three conditions are simultaneously met: the attacker's hips are fully engaged over the knee line with hip crease on the joint, the legs are clamped tight enough that the defender cannot retract the knee, and the foot is pinned against the chest preventing any rotation. Once all three conditions lock in, the defender's only safe option is to tap. Before this point, foot extraction or knee rotation can still create escape opportunities. Recognizing this threshold is critical for both the attacker knowing when to commit and the defender knowing when to tap.",
+        "safety_critical": true
+      },
+      {
+        "question": "Your grip on the opponent's foot starts slipping during the hip extension phase - how do you adjust without losing the submission?",
+        "answer": "Immediately cease hip extension and re-secure the foot before continuing. Pull your elbows tight to your body and re-clamp the foot against your sternum with both forearms creating a shelf underneath. If the foot has shifted, adjust the alignment back to toes-up before resuming pressure. Never increase hip extension speed to try to finish before the foot escapes - this creates dangerous uncontrolled force. If the foot cannot be re-secured, release the kneebar and return to inside ashi-garami to reset.",
+        "safety_critical": false
+      },
+      {
+        "question": "What is the proper application speed for the kneebar and why is progressive pressure critical for safety?",
+        "answer": "In training, the kneebar must be applied with slow, progressive hip extension over a minimum of 3-5 seconds from initial engagement to full pressure. Progressive application is critical because knee ligament damage occurs rapidly once the hyperextension threshold is crossed, and the defender has very little warning between feeling pressure and experiencing injury. Unlike chokes where blood flow restriction provides gradual warning signs, knee hyperextension can tear the PCL with a sudden spike of force. Slow application gives the defender time to recognize danger and tap safely.",
+        "safety_critical": true
+      },
+      {
+        "question": "How should you release the kneebar immediately after receiving a tap signal?",
+        "answer": "Stop all hip extension immediately upon any tap signal - verbal, physical hand tap, foot tap, or distress vocalization. Drop your hips away from the opponent's leg to relieve hyperextension pressure, but maintain your leg position around their thigh to prevent sudden jerky movement. Do not simply let go of everything at once as the sudden release can cause the knee to snap back dangerously. Allow the opponent to extract their own leg at their own pace, and verbally confirm they are okay before resuming any activity.",
+        "safety_critical": true
+      },
+      {
+        "question": "Your opponent grabs your top leg to prevent the hip pivot from completing - how do you respond?",
+        "answer": "Use your free hand to strip their grip on your leg while maintaining foot control with the other arm. If they have a strong grip, drive your knee through their hands using a circular motion rather than pulling straight back. Alternatively, if their grip commitment is strong, their defensive focus on your leg means their upper body is not addressing the foot control. Use this window to complete a modified pivot that works around their grip rather than through it. If their defense stalls you completely, return to ashi and attack a different submission.",
+        "safety_critical": false
+      },
+      {
+        "question": "What common finishing error reduces kneebar effectiveness against experienced defenders and how do you correct it?",
+        "answer": "The most common finishing error is positioning the hips too high on the thigh rather than directly over the knee line. This creates a compression on the thigh muscles rather than true hyperextension of the knee joint. Experienced defenders can absorb thigh compression without tapping while working their escape. The correction is to feel for the opponent's kneecap and ensure your hip crease sits right at the joint line where the thigh meets the shin. Even half an inch of misalignment dramatically reduces finishing effectiveness.",
+        "safety_critical": false
+      }
+    ]
+  },
+  "defender": {
+    "name": "from Inside Ashi-Garami Defender",
+    "description": "Defend and escape the kneebar from inside ashi-garami with early recognition cues, boot extraction techniques, and safe tapping protocols.",
+    "overview": "Defending the kneebar from inside ashi-garami requires early recognition of the attacker's transition from standard ashi control to the kneebar configuration. The critical defensive window occurs before the attacker positions their hips over your knee line. Once their hips are fully engaged over the knee with your foot trapped against their chest and their legs clamped around your thigh, defensive options narrow dramatically and the safest response becomes tapping. Primary defensive strategies focus on extracting the foot before it becomes secured against the attacker's torso, retracting the knee before the hip pivot completes, and rotating the knee to prevent clean hyperextension alignment. Understanding the progression of this attack and the points where defense transitions from viable to dangerous is essential for training longevity.",
+    "key_principles": [
+      "Defend early during the transition phase, not after the attacker's hips are fully engaged over your knee",
+      "Prioritize foot extraction above all other defensive responses since the foot is the anchor for the entire submission",
+      "Bend your knee actively to deny the attacker the extended leg position they need for the hyperextension fulcrum",
+      "Rotate your knee inward toward the attacker to misalign the hyperextension angle and reduce pressure on ligaments",
+      "Recognize the point of no return and tap rather than fighting a fully locked kneebar to avoid catastrophic knee injury",
+      "Use both hands to address the foot control problem rather than pushing on the attacker's hips"
+    ],
+    "recognition_cues": [
+      "Attacker shifts grip from your heel or ankle to securing your entire foot against their chest with both arms wrapping around it",
+      "Attacker begins rotating their body and hips toward the outside of your trapped leg rather than maintaining the standard perpendicular ashi alignment",
+      "Attacker's hips begin rising and traveling over your knee line with simultaneous increase in clamping pressure from their legs around your thigh",
+      "Attacker releases heel hook grip configuration and transitions to a clamp-style foot hold, indicating the target has changed from ankle or heel to knee"
+    ],
+    "defensive_options": [
+      {
+        "action": "Boot extraction - strip foot free before attacker completes hip pivot",
+        "when_to_use": "Immediately upon recognizing the kneebar transition, before the attacker's hips reach your knee line and before the leg clamp tightens",
+        "targets_outcome": "Inside Ashi-Garami/Top",
+        "if_successful": "Returns to neutral ashi-garami position where you can work standard escapes or counter-attack",
+        "risk": "Low risk if executed early. If attempted too late after hips are engaged, pulling the foot can actually accelerate the hyperextension."
+      },
+      {
+        "action": "Knee retraction - actively bend knee and pull it toward your chest to deny the extension",
+        "when_to_use": "When attacker is mid-pivot and has not yet established a full leg clamp around your thigh",
+        "targets_outcome": "Inside Ashi-Garami/Top",
+        "if_successful": "Prevents the attacker from completing the kneebar configuration and forces them back to ashi control attempts",
+        "risk": "Medium risk. If the attacker has strong foot control, knee retraction pulls against your own trapped foot and can create pressure on the joint."
+      },
+      {
+        "action": "Inward knee rotation - turn knee toward attacker to misalign the hyperextension angle",
+        "when_to_use": "When attacker has partially established hip position but has not yet applied finishing pressure",
+        "targets_outcome": "Closed Guard/Bottom",
+        "if_successful": "Relieves hyperextension angle and may create opportunity to extract leg or transition to guard recovery",
+        "risk": "Medium-high risk. While it relieves kneebar pressure, inward rotation can expose the heel for heel hook attacks if the attacker transitions."
+      }
+    ],
+    "escape_paths": [
+      "Extract foot from attacker's chest grip before hip pivot completes, then immediately work to clear legs and recover to open guard or standing position",
+      "Rotate knee inward combined with hip escape to create enough angle to pull the entire leg free from the entanglement and recover to closed guard"
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Inside Ashi-Garami/Top",
+        "how": "Extract foot early during the attacker's pivot transition before hips engage over knee, returning to neutral ashi position where you can work standing escapes or counter-entangle"
+      },
+      {
+        "outcome": "Closed Guard/Bottom",
+        "how": "Rotate knee inward and hip escape simultaneously to create enough angle to extract leg entirely, then immediately close distance and establish closed guard before attacker can re-enter the legs"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Waiting too long to initiate defensive response, allowing attacker to fully establish hip position over knee",
+        "consequence": "Once the attacker's hips are fully engaged, legs clamped, and foot secured, the kneebar is nearly inescapable and attempting to fight it risks serious knee ligament damage",
+        "correction": "React immediately upon recognizing any kneebar transition cue. The defensive window is measured in seconds. Drill recognition cues until the defensive response is automatic rather than requiring conscious decision-making."
+      },
+      {
+        "error": "Pushing on the attacker's hips with hands instead of addressing the foot control",
+        "consequence": "The foot remains trapped against the attacker's chest, which is the anchor for the entire submission. Pushing hips without freeing the foot does not address the root cause and wastes energy while the attacker continues establishing position",
+        "correction": "Direct both hands to stripping the foot free from the attacker's chest grip. Grab your own foot or ankle and pull it toward you while simultaneously bending the knee. The foot is the submission anchor and must be the primary defensive target."
+      },
+      {
+        "error": "Straightening the leg while trying to power out of the position",
+        "consequence": "A straightened leg is exactly what the attacker needs to complete the kneebar. Extending your leg while their hips are over the knee accelerates the hyperextension and increases injury risk dramatically",
+        "correction": "Always bend the knee when defending the kneebar. Pull your heel toward your glute to create a flexed knee that is structurally resistant to hyperextension. Never straighten the leg under any circumstances when the attacker's hips are engaged."
+      },
+      {
+        "error": "Ignoring the tap threshold and continuing to fight a fully locked kneebar",
+        "consequence": "Catastrophic knee injury including PCL tear, MCL damage, meniscus tears, and potential joint capsule damage requiring surgical intervention and 6-12 months of recovery",
+        "correction": "Recognize the point of no return: if the attacker's hips are engaged, legs clamped, foot secured, and hip extension has begun, tap immediately. No training round is worth a torn knee ligament. Develop clear personal thresholds for when to tap versus when to continue escaping."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "How do you recognize the kneebar from inside ashi-garami is being set up before it is fully locked?",
+        "answer": "Key recognition cues include the attacker shifting their grip from heel or ankle control to wrapping both arms around your entire foot and pulling it to their chest. Their body begins rotating toward the outside of your trapped leg rather than maintaining standard perpendicular ashi alignment. Their hips start rising and moving over your knee line. Recognizing these cues early is critical because the defensive window closes within seconds once the transition begins.",
+        "safety_critical": false
+      },
+      {
+        "question": "What is the safest way to tap when caught in a fully locked kneebar from inside ashi-garami?",
+        "answer": "Tap immediately using the clearest available signal. Physical hand tap on the attacker's body or the mat is the most reliable signal. Verbal tap by saying 'tap' clearly is the fastest signal when your hands are occupied. If hands and voice are compromised, tap with your free foot on the mat or attacker. The critical point is to tap before the attacker reaches full hip extension, as knee ligament damage can occur rapidly once the hyperextension threshold is crossed. Never delay tapping to attempt a last-second escape from a fully locked position.",
+        "safety_critical": true
+      },
+      {
+        "question": "What defensive options are available at different stages of the kneebar attempt from inside ashi-garami?",
+        "answer": "During the early transition phase when the attacker is shifting grips and beginning to pivot, boot extraction is the highest-percentage defense with low risk. During the mid-transition when hips are moving but not fully engaged, knee retraction combined with active bending denies the extension. Once hips are partially over the knee, inward knee rotation can misalign the hyperextension angle but risks exposing the heel. Once the kneebar is fully locked with hips engaged, legs clamped, and extension beginning, the only safe response is to tap immediately.",
+        "safety_critical": true
+      },
+      {
+        "question": "When is the point of no return where you should tap rather than continue attempting to escape the kneebar?",
+        "answer": "The point of no return is reached when three conditions are met simultaneously: the attacker's hip crease is seated directly over your knee joint, their legs are clamped around your thigh preventing knee retraction, and your foot is pinned against their chest with no looseness in the grip. Once the attacker begins hip extension from this locked position, the hyperextension force on your knee increases exponentially and ligament damage can occur within fractions of a second. Tap at the first sensation of pressure on the knee joint when fully locked rather than testing the limits.",
+        "safety_critical": true
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Recognition drilling",
+        "focus": "Identifying kneebar transition cues from inside ashi-garami",
+        "description": "Partner slowly demonstrates the kneebar transition from inside ashi multiple times while you practice identifying each recognition cue: grip shift, body rotation, hip movement over knee. Call out each cue as you recognize it. 20 repetitions building pattern recognition before any defensive movement is practiced."
+      },
+      {
+        "phase": "Phase 2: Defensive technique drilling",
+        "focus": "Executing boot extraction and knee retraction at progressive speeds",
+        "description": "Partner performs the kneebar transition at 25% speed while you practice boot extraction and knee retraction defenses. Focus on directing both hands to the foot control problem rather than pushing on hips. Gradually increase partner's speed to 50% as your defensive reactions become automatic. 10 repetitions per defensive technique per side."
+      },
+      {
+        "phase": "Phase 3: Tap threshold awareness",
+        "focus": "Recognizing the point of no return and building safe tapping habits",
+        "description": "Partner applies the fully locked kneebar with very slow, controlled pressure while you practice recognizing when escape is no longer viable and tapping cleanly. Build the habit of tapping early from locked positions rather than fighting through. This phase is specifically about safety awareness and injury prevention in a controlled environment."
+      },
+      {
+        "phase": "Phase 4: Live defense integration",
+        "focus": "Defending kneebar attempts in positional sparring",
+        "description": "Start from inside ashi-garami with partner at full resistance. Practice recognizing and defending kneebar transitions in real-time while also addressing other leg lock threats. Focus on early recognition and immediate defensive response. Debrief after each round on whether defensive timing was appropriate and whether tap decisions were correct."
+      }
+    ]
+  }
+}

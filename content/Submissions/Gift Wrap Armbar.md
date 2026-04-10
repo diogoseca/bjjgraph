@@ -3,24 +3,30 @@
 
 
 ---
-title: "Gift Wrap Armbar | BJJ Submission | BJJ Graph"
+title: "Gift Wrap Armbar | BJJ Submission Family | BJJ Graph"
 description: "Master the Gift Wrap Armbar in BJJ. Complete guide to attacking the isolated arm from gift wrap control with finishing mechanics, defenses, and safety."
 ---
 
 
-<body data-content-type="submissions-hub">
+<body data-content-type="submissions-family">
 
 > **SAFETY**: Gift Wrap Armbar targets the Elbow joint. Risk: Elbow hyperextension causing damage to the ulnar collateral ligament, radial collateral ligament, or joint capsule. Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
-<div class="role-links">
 
-[[Gift Wrap Armbar/Attacker|Play as Attacker]]
-[[Gift Wrap Armbar/Defender|Play as Defender]]
+<section id="variants" class="content-section">
 
-</div>
+## Position Variants
+
+| From Position | Success Rate | Top Injury Risk | Key Difference |
+|---------------|-------------|-----------------|----------------|
+| [[Gift Wrap Armbar/from Gift Wrap|Gift Wrap]] | 50% | Elbow hyperextension causing damage to the ulnar collateral ligament, radial collateral ligament, or joint capsule |  |
+
+
+</section>
+
 
 <section id="overview" class="content-section">
 
@@ -33,9 +39,7 @@ Strategically, the Gift Wrap Armbar functions as part of a broader submission ch
 **Category**: Joint Lock
 **Type**: Arm Lock
 **Target Area**: Elbow joint
-**Starting Position**: [[Positions/Gift Wrap]]
-**From Position**: [[Positions/Gift Wrap]] (Top)
-**Success Rate**: 50%
+**Success Rate**: 50% (average across variants)
 
 </section>
 
@@ -77,141 +81,10 @@ Strategically, the Gift Wrap Armbar functions as part of a broader submission ch
 
 </section>
 
-<section id="outcomes" class="content-section">
 
-## Outcomes
+<section id="variation-details" class="content-section hide-minimal">
 
-| Result | Position | Probability |
-|--------|----------|-------------|
-| Success | [[game-over]] | 50% |
-| Failure | [[Positions/Gift Wrap]] | 30% |
-| Counter | [[Positions/Closed Guard]] | 20% |
-
-
-</section>
-
-<section class="content-section">
-
-## Attacker vs Defender
-
-| &nbsp; | Attacker | Defender |
-|--------|----------|----------|
-| **Focus** | Execute and finish | Escape and survive |
-| **Key Principles** | Never release the gift wrap arm trap during the armbar trans... | Keep the free arm retracted tight to the body with elbow glu... |
-| **Options** | 7 execution steps | 4 defensive options |
-
-</section>
-
-<section id="attacker-summary" class="content-section">
-
-## Playing as Attacker
-
-[[Gift Wrap Armbar/Attacker|→ Full Attacker Guide]]
-
-### Key Principles
-
-
-- Never release the gift wrap arm trap during the armbar transition—the trapped arm is what makes the finish high percentage
-
-- Use choke threats to bait the free arm into defensive extensions that expose the armbar opportunity
-
-- Hips must travel underneath the opponent's elbow to serve as the fulcrum for the hyperextension lever
-
-- Leg positioning across the head and chest must be established before committing to the finishing extension
-
-- Squeeze knees together throughout the finish to prevent the opponent from rotating the elbow out of danger
-
-- Apply finishing pressure through progressive hip elevation rather than pulling the arm with upper body strength
-
-
-### Execution Steps
-
-
-- **Consolidate Gift Wrap Control**: Verify the gift wrap arm trap is fully locked with the opponent's arm pulled high across their chest...
-
-- **Bait and Identify the Free Arm**: Threaten the rear naked choke or collar grip with your free hand to force the opponent to extend the...
-
-- **Secure Two-on-One Wrist Control**: Transfer your free hand to grip the opponent's free arm at the wrist while maintaining the gift wrap...
-
-- **Begin Hip Transition to Armbar Angle**: Shift your hips toward the side of the free arm you are attacking, sliding laterally while keeping t...
-
-- **Swing Far Leg Over Opponent's Head**: Bring your far-side leg across the opponent's face and jaw, placing the hamstring snug across their ...
-
-- **Clamp Legs and Position Hips as Fulcrum**: Squeeze both knees together with the opponent's arm trapped between your thighs, their thumb pointin...
-
-- **Apply Progressive Armbar Extension**: Pull the captured wrist tight to your chest with both hands while elevating your hips upward into th...
-
-
-### Common Mistakes
-
-
-- **Releasing the gift wrap arm trap to use both hands for the armbar finish**
-  - Consequence: Opponent immediately recovers the trapped arm, doubling their defensive capability and allowing two-handed armbar defense including hand clasping and framing
-  - Correction: Maintain the gift wrap throughout the entire armbar sequence. Use hip mechanics for the finish rather than hand pulling. The gift wrap is the technique's primary advantage and must never be abandoned.
-
-- **Failing to position hips underneath the opponent's elbow before applying extension**
-  - Consequence: Extension pressure is applied to the forearm or upper arm rather than the elbow joint, producing pain without submission and allowing the opponent time to escape
-  - Correction: Verify your hip bones are aligned directly beneath the elbow crease before elevating hips. Adjust by sliding your hips toward the opponent's head until the elbow sits squarely over the hip fulcrum.
-
-- **Swinging the leg over the head without securing wrist control first**
-  - Consequence: Opponent retracts the free arm before the armbar position is established, leaving you in an awkward transitional position with compromised gift wrap control
-  - Correction: Always secure two-on-one wrist control on the free arm before committing to the leg swing. The wrist grip locks the arm in place while you transition your legs.
-
-
-</section>
-
-<section id="defender-summary" class="content-section">
-
-## Playing as Defender
-
-[[Gift Wrap Armbar/Defender|→ Full Defender Guide]]
-
-### Key Principles
-
-
-- Keep the free arm retracted tight to the body with elbow glued to the ribs to prevent wrist isolation
-
-- Recognize the armbar setup early during the attacker's hip shift and respond before the leg swings over
-
-- Use hip movement to disrupt the attacker's angle rather than arm strength to resist the extension
-
-- Turn toward the attacker during the transition phase to prevent the armbar angle from being established
-
-- Accept losing the gift wrap position as a favorable trade if it means preventing the armbar finish
-
-- Never extend the free arm to push or frame when the attacker is hunting the armbar—this feeds the submission
-
-
-### Recognition Cues
-
-
-- Attacker's free hand reaches for your remaining free arm's wrist instead of threatening the choke
-
-- Attacker begins shifting hips laterally toward the side of your free arm while maintaining the gift wrap
-
-- Attacker's far leg begins lifting or moving across your face and head to establish the armbar barrier
-
-- You feel the attacker's chest-to-back pressure decrease as they rotate their torso to face the same direction as you
-
-- Attacker transitions grip from seatbelt or neck control to a two-on-one configuration on your free arm
-
-
-### Escape Paths
-
-
-- Turn toward the attacker before the leg crosses your face, collapsing the armbar angle and recovering to a scramble or guard position
-
-- Stack forward and drive your weight onto the attacker to prevent hip elevation, then work to extract the arm while maintaining forward pressure
-
-- Hitchhiker escape by rotating toward the trapped arm and spinning your elbow out of the hyperextension plane, though this is harder with the gift wrap limiting support from the trapped arm
-
-
-</section>
-
-
-<section id="variations" class="content-section hide-minimal">
-
-## Variations
+## Variation Details
 
 
 **Gift Wrap Armbar from Back Control**: From standard gift wrap with hooks in, the attacker secures the free arm wrist and swings the far leg over the opponent's head while maintaining the gift wrap trap. The back control hooks provide initial stability during the transition, and the armbar is finished with the opponent face-up or angled to the side. (When to use: When the opponent repeatedly uses the free arm to defend choke attempts from back control, creating a predictable arm extension pattern.)
@@ -243,14 +116,14 @@ Strategically, the Gift Wrap Armbar functions as part of a broader submission ch
 
 ## Related Submissions
 
-- [[Submissions/Armbar from Mount]]
-- [[Submissions/Armbar from Back]]
-- [[Submissions/Armbar from Technical Mount]]
-- [[Submissions/Armbar from S Mount]]
-- [[Transitions/Armbar from Crucifix]]
-- [[Transitions/Americana]]
-- [[Submissions/Bow and Arrow from Seat Belt]]
-- [[Transitions/Choke from Crucifix]]
+- [[Armbar from Side Control]] - Related armbar variant sharing similar elbow hyperextension finishing mechanics
+- [[Armbar from Back]] - Alternative armbar from back control without gift wrap arm isolation
+- [[Submissions/Rear Naked Choke]] - Primary choke threat from gift wrap creating the armbar-choke attack dilemma
+- [[Armbar from Mount]] - Similar armbar mechanics applied from mount after gift wrap positional advancement
+- [[Transitions/Armbar from Crucifix]] - Related arm isolation armbar using crucifix control instead of gift wrap
+- [[Submissions/Americana]] - Complementary shoulder lock when opponent bends arm to defend armbar
+- [[Submissions/Bow and Arrow Choke]] - High-percentage gi choke from back control that pairs with armbar attacks
+- [[Transitions/Arm Triangle]] - Alternative head-and-arm submission available during gift wrap transitions
 
 
 </section>
@@ -263,8 +136,8 @@ Strategically, the Gift Wrap Armbar functions as part of a broader submission ch
 - [[Positions/Back Control]] - Parent position from which gift wrap control is most commonly established
 - [[Positions/Mount]] - Alternative base position for executing the gift wrap armbar after positional advancement
 - [[Positions/Mount/Technical Mount]] - Transitional position that facilitates the hip angle change needed for armbar entry
-- [[Submissions/Armbar from Mount]] - Related armbar technique sharing similar finishing mechanics from a mounted position
-- [[Submissions/Armbar from Back]] - Related armbar from back control that chains with gift wrap when arm trap is available
+- [[Armbar from Side Control]] - Related armbar submission sharing similar finishing mechanics and elbow hyperextension principle
+- [[Submissions/Rear Naked Choke]] - Primary choke alternative from gift wrap that creates the armbar-choke dilemma chain
 - [[Positions/Crucifix]] - Alternative arm control position that creates similar isolation for armbar attacks
 - [[Positions/Armbar Control]] - Control position reached during execution when the armbar is partially locked but not yet finished
 

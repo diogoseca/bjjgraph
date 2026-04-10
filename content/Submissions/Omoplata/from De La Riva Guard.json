@@ -1,0 +1,470 @@
+{
+  "name": "Omoplata from De La Riva Guard",
+  "description": "Master the omoplata from De La Riva Guard. Leverage DLR hooks and angles to isolate the shoulder, with sweep-to-finish details for serious grapplers.",
+  "tags": [
+    "bjj",
+    "submission",
+    "shoulder-lock",
+    "joint-lock",
+    "omoplata",
+    "guard",
+    "sweep",
+    "hub",
+    "finishing-guide",
+    "de-la-riva-guard"
+  ],
+  "submission_category": "Joint Lock",
+  "submission_type": "Shoulder Lock",
+  "target_area": "Shoulder joint (rotator cuff, capsule, AC joint)",
+  "starting_position": "De La Riva Guard",
+  "from_position": "De La Riva Guard/Bottom",
+  "success_rate": 52,
+  "overview": "The omoplata from De La Riva Guard uses the existing hook angle and sleeve control to attack the opponent's shoulder when they post or reach forward. The DLR position naturally creates the perpendicular hip alignment needed for omoplata entry, reducing the rotational adjustment required compared to entries from closed guard or half guard. When the top player extends an arm to strip the ankle grip or establish a collar tie, the guard player redirects the hooking leg over the trapped shoulder while maintaining the cross sleeve grip to prevent arm extraction.\n\nThis entry carries strategic value because opponents defending DLR sweeps and berimbolo threats tend to neglect upper body submissions. The cross grip used for standard DLR offense doubles as the arm isolation needed for omoplata control. The transition from guard play to submission requires minimal grip adjustment, allowing the technique to flow within existing DLR attack sequences. When the omoplata finish is defended, the position chains into sweeps, wrist lock threats, and transitions to triangle or back take attempts.\n\nThe finishing sequence follows standard omoplata mechanics once the leg clears the shoulder: control the opponent's far hip to shut down the forward roll escape, sit up perpendicular to the opponent, and apply controlled downward pressure through the shoulder while maintaining wrist control. The primary technical challenge specific to this DLR entry is completing the hip switch from the angled DLR configuration to the perpendicular finishing position, which demands precise timing and active hip mobility throughout the transition.",
+  "safety_considerations": {
+    "injury_risks": [
+      {
+        "injury": "Rotator cuff tear or strain",
+        "severity": "High",
+        "recovery_time": "6-12 weeks for minor tears, 3-6 months for major tears"
+      },
+      {
+        "injury": "AC joint separation",
+        "severity": "Medium",
+        "recovery_time": "4-8 weeks"
+      },
+      {
+        "injury": "Shoulder capsule damage",
+        "severity": "High",
+        "recovery_time": "8-16 weeks"
+      },
+      {
+        "injury": "Labrum tear",
+        "severity": "CRITICAL",
+        "recovery_time": "6-12 months with surgery"
+      }
+    ],
+    "application_speed": "SLOW and progressive - 4-6 seconds minimum pressure increase",
+    "tap_signals": [
+      "Verbal tap (any vocal signal)",
+      "Physical hand tap on opponent or mat",
+      "Physical foot tap on opponent or mat",
+      "Any distress signal or sound",
+      "Roll forward escape attempt (release immediately)"
+    ],
+    "release_protocol": [
+      "Immediately stop all forward pressure and rotation",
+      "Release leg pinch on shoulder",
+      "Unwind hip position to neutral",
+      "Allow opponent to extract arm slowly",
+      "Check for injury before continuing"
+    ],
+    "training_restrictions": [
+      "Never spike or jerk the shoulder rotation",
+      "Never apply competition speed in training",
+      "Always allow opponent access to tap",
+      "Stop immediately if opponent rolls forward (escape attempt)",
+      "Never apply full finishing pressure until advanced belt level",
+      "Always control the rate of shoulder rotation"
+    ]
+  },
+  "from_positions": [
+    "De La Riva Guard",
+    "Reverse De La Riva Guard",
+    "Spider Guard"
+  ],
+  "related_submissions": [
+    "Omoplata",
+    "Triangle Choke",
+    "Gogoplata",
+    "Monoplata",
+    "Baratoplata",
+    "Bicep Slicer"
+  ],
+  "related_content": [
+    {
+      "name": "De La Riva Guard",
+      "relationship": "Starting position for this submission variant, providing the hook and angle for entry"
+    },
+    {
+      "name": "Omoplata Control",
+      "relationship": "Control position reached during the finishing sequence before applying shoulder pressure"
+    },
+    {
+      "name": "Closed Guard",
+      "relationship": "Common recovery position for the attacker when the omoplata attempt is countered"
+    },
+    {
+      "name": "Back Control",
+      "relationship": "Chain option when opponent attempts forward roll escape from the omoplata"
+    },
+    {
+      "name": "Spider Guard",
+      "relationship": "Complementary guard system that shares similar omoplata entry mechanics through leg-over-shoulder movements"
+    },
+    {
+      "name": "Reverse De La Riva Guard",
+      "relationship": "Related guard with similar hip angle that allows alternative omoplata entry paths"
+    }
+  ],
+  "outcomes": [
+    {
+      "to": "game-over",
+      "probability": 52,
+      "result": "success"
+    },
+    {
+      "to": "De La Riva Guard/Bottom",
+      "probability": 31,
+      "result": "failure"
+    },
+    {
+      "to": "Closed Guard/Top",
+      "probability": 17,
+      "result": "counter"
+    }
+  ],
+  "variations_and_setups": [
+    {
+      "variation_name": "Cross grip DLR omoplata",
+      "description": "Standard entry using the cross sleeve grip already established in DLR. When the opponent reaches to strip the ankle grip, redirect the hooking leg over the posted arm. The cross grip prevents arm retraction during the hip switch.",
+      "when_to_use": "When you have a strong cross sleeve grip and the opponent extends their arm to address your DLR hook or ankle control"
+    },
+    {
+      "variation_name": "Collar drag to omoplata",
+      "description": "From DLR with a collar grip, drag the opponent forward and off-balance them onto their posting arm. As their weight shifts forward, swing the DLR leg over the shoulder of the collar-side arm. The collar drag creates forward momentum that opens the shoulder.",
+      "when_to_use": "When the opponent is maintaining upright posture and resisting the standard cross grip entry"
+    },
+    {
+      "variation_name": "Failed berimbolo to omoplata",
+      "description": "When a berimbolo attempt stalls because the opponent blocks the inversion by posting their arm, redirect the inverted momentum into an omoplata by threading the leg over the posted arm instead of continuing the roll to the back.",
+      "when_to_use": "When your berimbolo entry is shut down and the opponent posts an arm to block your hip rotation"
+    }
+  ],
+  "attacker": {
+    "name": "from De La Riva Guard Attacker",
+    "description": "Learn to attack the omoplata from De La Riva Guard with DLR leg swing entry, shoulder isolation, and high-percentage finishing mechanics for advanced grapplers.",
+    "overview": "Attacking the omoplata from De La Riva Guard requires reading the opponent's weight distribution and arm placement to time the leg swing over the shoulder. The DLR hook provides the initial off-balancing, and the cross grip controls the target arm throughout the transition. Success depends on completing the hip switch from the angled DLR configuration to the perpendicular omoplata position without losing upper body control, then applying systematic pressure to isolate and finish the shoulder lock. The technique integrates naturally into DLR offensive sequences, making it a high-value addition to any open guard game.",
+    "key_principles": [
+      "Maintain cross grip tension throughout the transition from DLR to omoplata - the sleeve grip is your control over the target arm and losing it allows immediate extraction",
+      "Time the leg swing when the opponent posts or reaches forward, not when they are postured upright with elbows tight",
+      "Complete the hip switch fully before attempting to finish - a half-committed perpendicular angle allows the opponent to posture out",
+      "Control the opponent's far hip immediately after establishing the omoplata position to prevent the forward roll escape",
+      "Use the omoplata threat as part of a chain - if defended, transition to sweeps, triangles, or back takes rather than forcing the finish",
+      "Keep your hips heavy on the opponent's shoulder blade throughout the finishing sequence to prevent them from sitting up"
+    ],
+    "setup_requirements": [
+      "Established De La Riva hook with active tension on the opponent's lead leg, providing the base angle for the leg swing",
+      "Cross sleeve grip or collar grip controlling the opponent's arm on the hook side, preventing arm retraction during entry",
+      "Opponent's arm extended or posted forward, creating the opening for the leg to clear the shoulder",
+      "Sufficient hip mobility to complete the rotational switch from DLR angle to perpendicular omoplata position",
+      "Non-hooking leg free and mobile for managing distance and assisting the hip switch during transition"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Establish DLR hook with cross grip",
+        "description": "Secure the De La Riva hook behind the opponent's near knee with active pulling tension. Establish a strong cross sleeve grip on the far arm. Your non-hooking foot should be on the opponent's hip or bicep to manage distance and control their posture.",
+        "timing": "0-3 seconds"
+      },
+      {
+        "step_number": 2,
+        "action": "Create the arm posting reaction",
+        "description": "Pull the opponent forward using the DLR hook and cross grip simultaneously. Drive your non-hooking foot into their hip to off-balance them. The goal is to force them to post their trapped arm on the mat or extend it forward to base, creating the opening for the leg swing.",
+        "timing": "2-4 seconds"
+      },
+      {
+        "step_number": 3,
+        "action": "Swing the DLR leg over the shoulder",
+        "description": "Release the DLR hook and redirect that leg over the opponent's trapped arm and shoulder in one fluid motion. Your hamstring should drape across the back of their shoulder with your calf crossing their neck or upper back. Maintain the cross grip throughout to prevent arm extraction.",
+        "timing": "1-2 seconds"
+      },
+      {
+        "step_number": 4,
+        "action": "Complete the hip switch to perpendicular",
+        "description": "Rotate your hips from the angled DLR position to fully perpendicular relative to the opponent's body. Your body should form a roughly 90-degree angle with theirs, with your hips tight against their shoulder. Use your non-hooking leg to push off the mat and drive the rotation through.",
+        "timing": "1-2 seconds"
+      },
+      {
+        "step_number": 5,
+        "action": "Establish hip control and sit up",
+        "description": "Immediately reach across and grip the opponent's far hip or belt to block the forward roll escape. Sit up to an upright position while keeping your leg heavy across their shoulder. Your weight should be pressing down through their shoulder blade, flattening them to the mat.",
+        "timing": "2-3 seconds"
+      },
+      {
+        "step_number": 6,
+        "action": "Secure wrist control for the finish",
+        "description": "Control the opponent's wrist on the trapped arm using an overhook or direct grip. Pin their hand to your hip or the mat to prevent them from rotating their elbow inward. This eliminates their ability to relieve shoulder pressure by changing arm angle.",
+        "timing": "1-2 seconds"
+      },
+      {
+        "step_number": 7,
+        "action": "Apply shoulder pressure progressively",
+        "description": "Lean your torso forward over the opponent's trapped arm while maintaining the perpendicular angle. Apply pressure slowly and progressively by driving your hips forward and dropping your chest weight onto the shoulder. Control the rate of rotation to allow time for the tap.",
+        "timing": "4-6 seconds"
+      },
+      {
+        "step_number": 8,
+        "action": "Finish or transition",
+        "description": "Continue progressive pressure until the opponent taps. If they begin to posture up or extract the arm, immediately transition to a sweep by lifting with your legs and driving forward, or switch to a triangle by bringing your free leg across their neck. Never force a stalled omoplata against strong resistance.",
+        "timing": "Variable"
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Forward roll escape before hip control is established",
+        "effectiveness": "High",
+        "your_response": "Follow the roll by maintaining leg contact on the shoulder and immediately taking the back as they complete the roll. Alternatively, block the roll preemptively by gripping the far hip the moment your leg clears the shoulder.",
+        "targets_outcome": "De La Riva Guard/Bottom"
+      },
+      {
+        "counter": "Posture up and extract the trapped arm by pulling elbow inward",
+        "effectiveness": "Medium",
+        "your_response": "Tighten the leg across the shoulder and pull the wrist outward to prevent elbow retraction. If the arm begins to slip, transition to a triangle by swinging the free leg across the neck while the arm is partially extracted.",
+        "targets_outcome": "De La Riva Guard/Bottom"
+      },
+      {
+        "counter": "Stack and drive forward to pass the guard during the hip switch",
+        "effectiveness": "Medium",
+        "your_response": "Use the stacking momentum to invert underneath and complete the omoplata from the inverted angle, or release the omoplata attempt and recover to closed guard or DLR using the stacking energy to reset your hip position.",
+        "targets_outcome": "Closed Guard/Top"
+      },
+      {
+        "counter": "Limp arm and withdraw before the leg clears the shoulder",
+        "effectiveness": "High",
+        "your_response": "If the arm is extracted before the leg clears, immediately re-establish the DLR hook and cross grip to reset. Use the opponent's retraction motion to off-balance them for a sweep or re-attempt when they extend again.",
+        "targets_outcome": "De La Riva Guard/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Releasing the cross grip during the leg swing transition",
+        "consequence": "Opponent immediately retracts the arm and the omoplata entry fails entirely, often leaving you in a compromised position with no hook and no grip",
+        "correction": "Maintain death grip on the sleeve throughout the entire transition. The cross grip is your only control over the target arm until the leg is fully draped over the shoulder. Practice the leg swing with the grip hand completely static."
+      },
+      {
+        "error": "Incomplete hip switch leaving the body at a diagonal rather than perpendicular",
+        "consequence": "The shoulder pressure is applied at a weak angle, allowing the opponent to posture up and extract the arm with minimal effort",
+        "correction": "Commit fully to the hip rotation. Use your free leg to push off the mat and drive your hips all the way through until you are sitting perpendicular to the opponent. Your belly button should point at right angles to their spine."
+      },
+      {
+        "error": "Failing to control the far hip immediately after the leg clears",
+        "consequence": "Opponent forward rolls out of the omoplata before you can establish the finishing position, escaping cleanly or reversing to top position",
+        "correction": "Make far hip control your first priority after the leg swing. Reach across and grip the belt, pants, or hip bone before sitting up. The forward roll escape window is 1-2 seconds after the leg clears, so hip control must be immediate."
+      },
+      {
+        "error": "Attempting the entry when the opponent's elbow is tight to their body",
+        "consequence": "The leg cannot clear the shoulder and the failed attempt exposes you to guard passes as your DLR structure is compromised mid-transition",
+        "correction": "Only initiate the leg swing when the opponent's arm is extended or posted. Use off-balancing pulls and push-pull sequences to force the arm forward before committing to the entry."
+      },
+      {
+        "error": "Sitting too far from the opponent during the finish",
+        "consequence": "Gap between your hip and their shoulder allows them to sit up, create posture, and begin extracting the arm or turning into you",
+        "correction": "Keep your hip glued to their shoulder blade throughout the finish. Scoot your hips in tight before applying forward pressure. There should be zero space between your body and their trapped shoulder."
+      },
+      {
+        "error": "Applying the finish with speed and jerking motion instead of progressive pressure",
+        "consequence": "Risk of serious shoulder injury to training partner including rotator cuff tears and labrum damage that can require surgery",
+        "correction": "Always apply pressure slowly over 4-6 seconds minimum. The shoulder joint has limited rotational range and injuries happen quickly. Lean forward progressively and give your partner time to recognize the pressure and tap."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Leg Swing Mechanics",
+        "focus": "DLR to omoplata transition movement pattern",
+        "description": "Practice the leg swing from DLR hook to shoulder drape with no resistance. Partner stays static in combat base while you drill the hip switch 20 repetitions per side. Focus on maintaining the cross grip throughout and arriving perpendicular."
+      },
+      {
+        "phase": "Phase 2: Entry Timing",
+        "focus": "Reading and creating the arm posting reaction",
+        "description": "Partner provides light resistance in DLR top. Practice the off-balancing sequence that forces the arm post, then execute the leg swing on the reaction. Partner defends at 30% to build timing recognition. 10 entries per round, 3-minute rounds."
+      },
+      {
+        "phase": "Phase 3: Finish and Hip Control",
+        "focus": "Completing the omoplata from the seated position",
+        "description": "Start from the omoplata position already established (leg over shoulder, perpendicular). Drill the far hip grip, sit-up sequence, wrist control, and progressive finishing pressure. Partner attempts forward roll escape at 50% resistance to build hip control reflexes."
+      },
+      {
+        "phase": "Phase 4: Full Sequence with Chains",
+        "focus": "Complete entry-to-finish with transition options",
+        "description": "Full resistance positional sparring starting from DLR. Attempt the omoplata entry and finish, but chain to sweeps, triangles, or back takes when defended. Partner provides full defensive resistance. Focus on reading which chain option to take based on the defensive reaction."
+      },
+      {
+        "phase": "Phase 5: Competition Integration",
+        "focus": "Integrating into live rolling and match strategy",
+        "description": "Use the omoplata from DLR as a primary attack during open rolling sessions. Track success rate and identify which defensive reactions you encounter most frequently. Develop your top 2-3 chain options for the most common defenses you face."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What anatomical structures does the omoplata attack when applied from De La Riva Guard?",
+        "answer": "The omoplata primarily attacks the shoulder joint by forcing external rotation beyond its normal range. The structures at risk include the rotator cuff muscles and tendons, the glenohumeral joint capsule, the AC joint, and the labrum. The lever created by the leg across the shoulder blade generates torque that rotates the humerus relative to the scapula, stressing the entire shoulder girdle.",
+        "safety_critical": false
+      },
+      {
+        "question": "What physical indicators tell you the opponent's shoulder is approaching the submission threshold?",
+        "answer": "The opponent's shoulder begins to elevate involuntarily as the rotator cuff muscles reach their elastic limit. You will feel increasing resistance followed by a sudden decrease in resistance as the joint reaches end range. The opponent's body may begin to shift or squirm as pain signals intensify. Their breathing pattern often changes, becoming shorter and more rapid. Any verbal response or facial grimace indicates you are near the threshold and must control pressure carefully.",
+        "safety_critical": true
+      },
+      {
+        "question": "What grip and positional controls must be established before committing to the leg swing from DLR?",
+        "answer": "You need three controls established before the entry: an active DLR hook with pulling tension on the opponent's lead leg, a strong cross sleeve grip on the target arm preventing retraction, and your non-hooking foot positioned on the opponent's hip or bicep for distance management. The opponent's arm must also be extended or posted forward rather than tucked tight to their body, which you create through off-balancing pulls.",
+        "safety_critical": false
+      },
+      {
+        "question": "At what stage does the omoplata from DLR become functionally inescapable for the defender?",
+        "answer": "The position becomes extremely difficult to escape once three conditions are met simultaneously: the attacker's leg is fully draped over the shoulder with the hamstring pressing the shoulder blade, the attacker has achieved full perpendicular hip alignment, and the attacker has secured the far hip grip blocking the forward roll. Before all three are established, the defender has viable escape windows. Once all three are locked, only a technically precise limp arm extraction or late forward roll with the attacker following to the back remain possible.",
+        "safety_critical": false
+      },
+      {
+        "question": "What is the most common finishing error that allows escape from the omoplata applied from DLR?",
+        "answer": "The most common finishing error is failing to control the far hip before sitting up. Without far hip control, the opponent forward rolls out of the omoplata in the 1-2 second window between the leg clearing the shoulder and the attacker establishing the seated finishing position. The correction is making the far hip grip your absolute first priority after the leg swing, reaching across immediately before attempting to sit up or apply any shoulder pressure.",
+        "safety_critical": false
+      },
+      {
+        "question": "What are the key safety considerations when applying the omoplata from De La Riva Guard?",
+        "answer": "The shoulder joint has limited rotational range and is vulnerable to serious injury including rotator cuff tears and labrum damage requiring surgery. Always apply finishing pressure slowly and progressively over 4-6 seconds minimum. Never jerk or spike the shoulder rotation. Maintain awareness of all tap signals including verbal taps, hand or foot taps on you or the mat, and distress sounds. If the opponent attempts a forward roll escape, release immediately as continued pressure during the roll can cause acute shoulder dislocation.",
+        "safety_critical": true
+      },
+      {
+        "question": "How should you release the omoplata from De La Riva Guard after your training partner taps?",
+        "answer": "Immediately stop all forward pressure and shoulder rotation. Release the leg pinch by lifting your hamstring off the shoulder blade. Unwind your hip position back to neutral rather than pulling away abruptly. Allow the opponent to extract their arm slowly at their own pace rather than pushing or pulling the arm out. Check that they are not injured before continuing training. The entire release should be controlled and deliberate to avoid accidental injury during the transition out of the submission.",
+        "safety_critical": true
+      }
+    ]
+  },
+  "defender": {
+    "name": "from De La Riva Guard Defender",
+    "description": "Defend and escape the omoplata from De La Riva Guard. Recognition cues, early prevention, forward roll escapes, and counter-attack strategies for all levels.",
+    "overview": "Defending the omoplata from De La Riva Guard starts with recognizing the leg swing threat and keeping your elbows tight when engaging the DLR player. The critical defensive window occurs during the hip switch before the attacker establishes the perpendicular seat position and far hip control. Early posture recovery and arm extraction are far more effective than attempting to escape once the omoplata is fully locked. Forward roll escapes become necessary when prevention fails, but require careful timing to avoid being swept or giving up the back. Understanding the stages of the omoplata from DLR allows you to match the correct defensive response to each phase of the attack.",
+    "key_principles": [
+      "Keep elbows tight when engaging DLR guard to deny the arm extension that opens the omoplata entry",
+      "Recognize the leg swing initiation and immediately begin posturing up before the leg clears the shoulder",
+      "If the leg clears the shoulder, prioritize forward rolling before the attacker establishes far hip control",
+      "Never allow your body to go flat to the mat once the omoplata position is established - stay on your knees or base",
+      "When trapped in the omoplata, protect the shoulder by turning the elbow inward and stacking weight toward the attacker",
+      "Tap early in training - the omoplata attacks a vulnerable joint with limited range and injuries happen quickly"
+    ],
+    "recognition_cues": [
+      "The DLR player releases hook tension and begins redirecting their hooking leg upward toward your shoulder rather than maintaining standard DLR pulling angle",
+      "The cross grip on your sleeve suddenly tightens and pulls your arm forward while the DLR player's hips begin rotating toward perpendicular",
+      "The opponent's non-hooking foot pushes aggressively into your hip creating space for their hips to rotate, combined with a pulling sensation on your arm",
+      "You feel your arm being isolated and controlled while the opponent's leg swings over your back and shoulder in a circular motion"
+    ],
+    "defensive_options": [
+      {
+        "action": "Posture up and retract arm immediately when leg swing begins",
+        "when_to_use": "As soon as you feel the DLR hook release and the leg begin to redirect upward. This is the earliest and most effective defensive window.",
+        "targets_outcome": "De La Riva Guard/Bottom",
+        "if_successful": "Returns to standard DLR guard passing position with you on top",
+        "risk": "If too slow, the leg clears the shoulder and you are caught in the omoplata mid-extraction"
+      },
+      {
+        "action": "Forward roll escape before hip control is established",
+        "when_to_use": "When the leg has cleared your shoulder but the attacker has not yet gripped your far hip or sat up to the finishing position. The 1-2 second window after the leg swing.",
+        "targets_outcome": "De La Riva Guard/Bottom",
+        "if_successful": "You roll through and can re-establish top position or at minimum reset to a neutral guard engagement",
+        "risk": "If the attacker follows the roll, they may take your back. If you roll too late, the hip grip prevents completion."
+      },
+      {
+        "action": "Stack weight onto attacker and drive forward to collapse the omoplata angle",
+        "when_to_use": "When the attacker is still completing the hip switch and has not fully achieved the perpendicular position. Drive your weight into them before they can sit up.",
+        "targets_outcome": "Closed Guard/Top",
+        "if_successful": "Collapses the omoplata position and allows you to establish inside the opponent's closed guard or half guard",
+        "risk": "If the attacker has a strong position, stacking may increase shoulder pressure and accelerate the submission"
+      },
+      {
+        "action": "Turn elbow inward and limp arm extraction",
+        "when_to_use": "When caught in the omoplata but the wrist control is not yet secured. Rotate your elbow toward your own body to reduce the shoulder rotation angle and pull the arm free.",
+        "targets_outcome": "De La Riva Guard/Bottom",
+        "if_successful": "Arm is extracted and you can re-establish guard passing position",
+        "risk": "Requires flexibility and timing. If wrist is already controlled, extraction becomes very difficult."
+      }
+    ],
+    "escape_paths": [
+      "Forward roll through the omoplata before hip control is established, then recover posture and re-engage from top",
+      "Limp arm extraction by rotating the elbow inward and withdrawing the arm while the attacker is still completing the hip switch",
+      "Stack and drive into the attacker to collapse the perpendicular angle and pass to closed guard or side control"
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "De La Riva Guard/Bottom",
+        "how": "Successfully retract the arm before the leg clears the shoulder, or complete a forward roll escape that resets to the standard DLR guard passing engagement"
+      },
+      {
+        "outcome": "Closed Guard/Top",
+        "how": "Stack into the attacker during the hip switch, collapsing the omoplata angle and driving forward to establish inside their closed guard with top position"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Reaching forward with the arm when engaging the DLR guard player",
+        "consequence": "An extended arm is the exact trigger the DLR player needs to initiate the omoplata entry. You are giving them the setup on a plate.",
+        "correction": "Keep elbows pinched to your ribs when dealing with DLR guard. Address the hook and ankle grip using your legs and hip positioning rather than reaching with your arms."
+      },
+      {
+        "error": "Attempting to posture out of the omoplata after the attacker has established far hip control and perpendicular position",
+        "consequence": "The omoplata is fully locked at this stage. Posturing attempts only increase the shoulder rotation and accelerate the submission. You risk injury by fighting a locked submission.",
+        "correction": "If the attacker has hip control and is perpendicular, your best option is the forward roll or tap. Do not try to muscle out of a fully established omoplata. In training, tap and reset."
+      },
+      {
+        "error": "Rolling forward without tucking the chin and controlling the landing",
+        "consequence": "An uncontrolled forward roll leaves you face down with the attacker following to your back. You escape the shoulder lock but give up back control.",
+        "correction": "When forward rolling, tuck your chin, roll over the shoulder (not the head), and immediately turn to face the opponent as you complete the roll. Post on your hands and knees and re-establish posture before they can take the back."
+      },
+      {
+        "error": "Panicking and pulling the trapped arm straight back instead of rotating the elbow inward",
+        "consequence": "Pulling straight back against the omoplata increases shoulder rotation and can cause acute injury. The lever mechanics work against direct retraction.",
+        "correction": "Always rotate the elbow inward toward your own centerline first, then withdraw the arm along the reduced-tension angle. The inward rotation shortens the lever and reduces the shoulder stress before extraction."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "How do you recognize the omoplata from De La Riva Guard is being set up?",
+        "answer": "The primary recognition cues are the DLR hook releasing its standard pulling tension and redirecting upward toward your shoulder, combined with a tightening of the cross sleeve grip pulling your arm forward. You will also feel the opponent's hips beginning to rotate from the standard DLR angle toward a perpendicular position. The non-hooking foot often pushes harder into your hip to create space for the rotation. Early recognition during the hook release phase gives you the best defensive window.",
+        "safety_critical": false
+      },
+      {
+        "question": "What is the safest way to tap to the omoplata from De La Riva Guard?",
+        "answer": "Tap clearly and immediately using your free hand on the opponent's body or the mat, accompanied by a verbal tap. Do not wait until maximum pain to tap, as the shoulder joint reaches its injury threshold quickly once the finishing pressure is applied. If your hands are trapped, use a foot tap or verbal signal. In training, tapping early preserves your shoulder for continued practice. The omoplata can cause rotator cuff tears and labrum damage that require months of recovery or surgery.",
+        "safety_critical": true
+      },
+      {
+        "question": "What defensive options are available at each stage of the omoplata from DLR?",
+        "answer": "During the initial leg swing: retract the arm and posture up immediately. After the leg clears the shoulder but before hip control: forward roll through before the attacker sits up. During the hip switch: stack weight forward to collapse the angle. After the omoplata is fully established: limp arm extraction if wrist control is loose, or forward roll with chin tucked if hip control momentarily loosens. Once the finish is locked with hip control, wrist control, and perpendicular position, the safest option is to tap.",
+        "safety_critical": false
+      },
+      {
+        "question": "When is the optimal time to attempt a forward roll escape from the omoplata?",
+        "answer": "The optimal forward roll window is the 1-2 seconds after the attacker's leg clears your shoulder but before they grip your far hip and sit up to the perpendicular finishing position. Rolling earlier (while the leg is still swinging) can work but risks getting tangled. Rolling later (after hip control is established) is usually blocked by the far hip grip. Read the attacker's hip control hand - if it has not yet reached your far hip, the roll is still available.",
+        "safety_critical": false
+      },
+      {
+        "question": "How should your elbow position change when you recognize an omoplata threat from DLR?",
+        "answer": "Immediately rotate your elbow inward toward your own centerline and pull it tight to your ribs. This accomplishes two things: it makes it much harder for the attacker's leg to clear your shoulder since there is no extended arm to swing over, and it reduces the rotational lever if they do manage to establish the position. Never leave your elbow flared outward when facing a DLR player, as the extended arm is the primary target for the omoplata entry.",
+        "safety_critical": false
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Recognition and Prevention",
+        "focus": "Identifying omoplata setups from DLR and early arm retraction",
+        "description": "Partner drills the omoplata entry from DLR at 30% speed. Practice recognizing the hook release and arm pull, then retract and posture before the leg clears. Build the reflex of elbow-tight posture when engaging DLR. 15 repetitions per round."
+      },
+      {
+        "phase": "Phase 2: Forward Roll Mechanics",
+        "focus": "Controlled forward roll escape technique",
+        "description": "Start from the omoplata position already established (leg over shoulder, no hip control yet). Drill the forward roll with chin tucked, controlled landing, and immediate turn to face the opponent. Partner follows at 30% to build awareness of the back take threat. 10 repetitions per side."
+      },
+      {
+        "phase": "Phase 3: Escape Under Resistance",
+        "focus": "Combining recognition with escape under increasing pressure",
+        "description": "Partner attacks the omoplata from DLR at 50-70% resistance. Practice the full defensive sequence: recognize, attempt arm retraction, if caught attempt forward roll, if blocked attempt limp arm. Build decision-making for which escape to use based on the attacker's control level."
+      },
+      {
+        "phase": "Phase 4: Live Positional Sparring",
+        "focus": "Full resistance defense in context",
+        "description": "Positional sparring starting from DLR with the top player focused on omoplata defense. Attacker has full offensive freedom from DLR. Defender practices integrating omoplata defense into their overall DLR passing strategy. Track escape success rate and identify most common failure points."
+      }
+    ]
+  }
+}

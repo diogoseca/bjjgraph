@@ -1,0 +1,496 @@
+{
+  "name": "Kimura from Shoulder of Justice",
+  "description": "Master the Kimura from Shoulder of Justice in BJJ. Complete guide covering shoulder lock mechanics, grip sequences, finishing details, and escape strategies.",
+  "tags": [
+    "bjj",
+    "submission",
+    "kimura",
+    "shoulder-lock",
+    "side-control",
+    "shoulder-of-justice",
+    "joint-lock",
+    "pressure-passing"
+  ],
+  "submission_category": "Joint Lock",
+  "submission_type": "Shoulder Lock",
+  "target_area": "Shoulder joint (glenohumeral) and elbow",
+  "starting_position": "Shoulder of Justice",
+  "from_position": "Shoulder of Justice/Top",
+  "from_positions": [
+    "Shoulder of Justice",
+    "Side Control",
+    "North-South"
+  ],
+  "success_rate": 50,
+  "overview": "The Kimura from Shoulder of Justice exploits the positional dilemma inherent in this crushing side control variation. When the top player drives intense shoulder pressure into the opponent's jaw, the natural defensive reaction is to extend the near arm to push away the source of discomfort. This arm extension creates the opening for a figure-four grip that attacks the shoulder joint through forced internal rotation, making the Kimura one of the highest-percentage submissions from this position because the setup flows directly from the opponent's instinctive defensive response.\n\nThe biomechanical advantage is significant. The Shoulder of Justice pins the opponent flat, limits their hip mobility through connected hips, and drives their head away from the attack\u2014all of which compromise the defensive posture needed to prevent the kimura. The figure-four grip creates a two-on-one mechanical advantage against the shoulder's rotational limits, and the top player can drive the rotation using their entire body weight while the pinned opponent has minimal leverage to resist. The finish can be applied by rotating the arm behind the opponent's back in the traditional paint-brush motion, or by stepping over the head into a belly-down position for greater leverage when the opponent clasps their hands defensively.\n\nStrategically, this submission creates a powerful dilemma: the opponent must choose between enduring unbearable jaw pressure or extending an arm that will be immediately attacked. This lose-lose dynamic makes the Kimura from Shoulder of Justice a cornerstone technique for pressure-based top control practitioners who systematically funnel defensive reactions into submission opportunities.",
+  "safety_considerations": {
+    "injury_risks": [
+      {
+        "injury": "Shoulder dislocation or subluxation from forced internal rotation beyond anatomical limits of the glenohumeral joint",
+        "severity": "CRITICAL",
+        "recovery_time": "3-12 months, frequently requires surgical repair and extensive rehabilitation"
+      },
+      {
+        "injury": "Rotator cuff tear from sudden or excessive rotational force applied to the shoulder complex under load",
+        "severity": "High",
+        "recovery_time": "2-6 months, may require surgical intervention depending on tear severity"
+      },
+      {
+        "injury": "Elbow hyperextension or medial collateral ligament strain when the arm is trapped at an improper angle during rotation",
+        "severity": "High",
+        "recovery_time": "4-12 weeks depending on grade of sprain"
+      },
+      {
+        "injury": "Superior labrum tear (SLAP lesion) from combined compression and rotational forces through the glenohumeral joint",
+        "severity": "High",
+        "recovery_time": "3-6 months, often requires arthroscopic surgical repair"
+      }
+    ],
+    "application_speed": "SLOW and controlled. Apply rotational pressure gradually with steady incremental force. Never jerk, spike, or explosively rotate the shoulder. The kimura can cause catastrophic, career-ending injury before the opponent feels sufficient pain to tap.",
+    "tap_signals": [
+      "Verbal tap (saying 'tap' or any distress signal)",
+      "Physical hand tap on partner, your body, or the mat with free hand",
+      "Physical foot tap on mat with either leg",
+      "Any unusual vocalization, screaming, or sound indicating distress"
+    ],
+    "release_protocol": [
+      "Release the figure-four grip immediately upon any tap signal without hesitation",
+      "If opponent goes limp or loses consciousness, release immediately and check responsiveness",
+      "If in doubt about whether a signal was a tap, release and re-establish position\u2014safety over position",
+      "Return the captured arm to a neutral anatomical position slowly after release to prevent additional injury from abrupt repositioning"
+    ],
+    "training_restrictions": [
+      "White belts should drill grip mechanics and positioning without applying finishing rotational pressure until technique is reliable and controlled",
+      "Never apply the kimura with explosive or jerking force in any training context\u2014slow progressive pressure only",
+      "Beginners must practice catch-and-release without rotating the forearm past 90 degrees from the mat",
+      "Avoid training this submission when either partner has pre-existing shoulder injuries, recent shoulder surgery, or active inflammation"
+    ]
+  },
+  "outcomes": [
+    {
+      "to": "game-over",
+      "probability": 50,
+      "result": "success"
+    },
+    {
+      "to": "Shoulder of Justice/Top",
+      "probability": 30,
+      "result": "failure"
+    },
+    {
+      "to": "Half Guard/Top",
+      "probability": 20,
+      "result": "counter"
+    }
+  ],
+  "variations_and_setups": [
+    {
+      "variation_name": "Traditional Paint-Brush Kimura",
+      "description": "Standard finish rotating the opponent's forearm behind their back toward the opposite hip. The attacker maintains side position with their chest over the opponent while driving the figure-four rotation using upper body torque and hip pressure.",
+      "when_to_use": "When you have a secure figure-four grip and the opponent is not clasping their hands or has weak grip defense"
+    },
+    {
+      "variation_name": "Belly-Down Kimura Finish",
+      "description": "Step the far leg over the opponent's head and drop to a belly-down position to generate significantly greater rotational leverage. The prone position uses hip extension and full body weight to break even the strongest clasped-hands defense.",
+      "when_to_use": "When the opponent clasps their hands together to defend and the traditional finish lacks sufficient leverage to break the grip"
+    },
+    {
+      "variation_name": "Kimura to Back Take",
+      "description": "Use the kimura grip as a control handle to rotate the opponent to their side or stomach, then release the submission grip and transition to back control with hooks. The figure-four grip prevents the opponent from defending the rotation.",
+      "when_to_use": "When the opponent successfully defends the submission finish but you maintain the grip and can use it to manipulate their body position"
+    }
+  ],
+  "related_submissions": [
+    "Americana",
+    "Reverse Kimura",
+    "Arm Triangle",
+    "Kesa Gatame Arm Crush",
+    "Darce Choke",
+    "Far Side Armbar",
+    "Ezekiel Choke",
+    "Bicep Slicer"
+  ],
+  "related_content": [
+    {
+      "name": "Shoulder of Justice",
+      "relationship": "Starting position\u2014submission is set up directly from this high-pressure side control variation"
+    },
+    {
+      "name": "Side Control",
+      "relationship": "Parent position category\u2014Shoulder of Justice is a specialized side control variation"
+    },
+    {
+      "name": "Kimura Trap",
+      "relationship": "Control position used to maintain the kimura grip if opponent defends the immediate finish"
+    },
+    {
+      "name": "North-South",
+      "relationship": "Alternative pressure position accessible when kimura attempt fails and position shifts"
+    },
+    {
+      "name": "Kesa Gatame",
+      "relationship": "Related pressure position with similar near-arm attack opportunities"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Common escape destination for the defender during kimura scrambles"
+    },
+    {
+      "name": "Americana",
+      "relationship": "Alternative shoulder lock when opponent keeps elbow tight rather than extending arm"
+    },
+    {
+      "name": "Reverse Kimura",
+      "relationship": "Related kimura variation attacking the shoulder from a different rotational angle"
+    }
+  ],
+  "attacker": {
+    "name": "from Shoulder of Justice Attacker",
+    "description": "Execute the Kimura from Shoulder of Justice with precision. Step-by-step finishing guide covering shoulder pressure setup, figure-four grip mechanics, and multiple finishing pathways.",
+    "overview": "From the Shoulder of Justice, the Kimura becomes available when your intense jaw pressure forces the opponent to extend their near arm for relief. This reactive arm extension creates the opening for a figure-four grip that attacks the shoulder through forced internal rotation. The key offensive principle is maintaining positional pressure throughout the submission attempt\u2014your shoulder pressure, hip connection, and base must remain intact even as you transition to the kimura grip. The position naturally creates the submission opportunity through a pressure dilemma: the opponent must either endure the unbearable jaw pressure or extend their arm and face immediate kimura attack. Your role is to recognize the arm extension instantly, secure the figure-four before they retract, and finish with controlled rotational pressure using your entire body rather than arm strength alone.",
+    "key_principles": [
+      "Maintain shoulder pressure throughout the kimura setup to prevent the opponent from recovering defensive posture or retracting their arm",
+      "Secure the figure-four grip with hands clasped tightly at the wrist before attempting any rotational pressure on the shoulder",
+      "Keep hips low and connected to the opponent's hip line during the grip transition to prevent shrimping escapes",
+      "Drive the rotation using your entire upper body as a single unit rather than muscling the finish with your arms alone",
+      "Control the opponent's elbow tight against your chest to create maximum rotational leverage on the glenohumeral joint",
+      "Recognize when to switch between traditional and belly-down finishing positions based on the direction and strength of the opponent's resistance"
+    ],
+    "setup_requirements": [
+      "Established Shoulder of Justice with shoulder driven into opponent's jaw at approximately 45-degree angle toward their far shoulder",
+      "Hips connected to opponent's near hip line with low base preventing shrimping movements",
+      "Opponent's near arm accessible\u2014either extended for pressure relief, framing against your chest, or controllable at the wrist",
+      "Stable base with far knee posted wide to maintain balance during the grip transition phase",
+      "Opponent flat on their back with limited hip mobility from sustained shoulder and chest pressure"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Identify the trigger arm extension",
+        "description": "When the opponent extends their near arm to push away your shoulder pressure or creates a frame against your chest, recognize this immediately as the kimura trigger. Your sustained jaw pressure should have forced this reaction\u2014the arm extension is the instinctive response to relieve discomfort. Maintain your shoulder drive while shifting your focus to securing the exposed wrist before they retract.",
+        "timing": "Immediate recognition required\u2014window lasts 1-2 seconds before opponent retracts arm"
+      },
+      {
+        "step_number": 2,
+        "action": "Secure the wrist with crossface hand",
+        "description": "With your crossface hand (nearest their head), slide down and grip their exposed wrist firmly using a C-grip with your thumb on the inside of their wrist. Maintain shoulder pressure into their jaw throughout this transition\u2014do not lift your shoulder to reach for the grip, as this releases the pressure that created the opportunity and gives them time to retract the arm defensively.",
+        "timing": "0.5-1 second transition from crossface to wrist control"
+      },
+      {
+        "step_number": 3,
+        "action": "Pin the captured arm to the mat",
+        "description": "Drive their captured wrist toward the mat beside their hip to flatten and isolate their arm against the ground. This pins the shoulder joint in a vulnerable position and prevents them from bending the elbow to create defensive angles. Your far hand now begins threading under their upper arm, passing between their elbow and their body to establish the figure-four lock foundation.",
+        "timing": "1-2 seconds to flatten arm and begin threading"
+      },
+      {
+        "step_number": 4,
+        "action": "Establish the figure-four kimura grip",
+        "description": "Thread your far arm under their tricep and grip your own wrist firmly to create the complete figure-four kimura lock. Your grip must be tight with zero slack\u2014their elbow must be pinned close to your chest for maximum mechanical control. Squeeze your elbows together to compress their arm tightly against your torso, eliminating any space they could exploit to rotate free or regrip defensively.",
+        "timing": "1-2 seconds to complete grip\u2014speed matters to prevent clasped-hands defense"
+      },
+      {
+        "step_number": 5,
+        "action": "Transition weight for rotational clearance",
+        "description": "Release your shoulder pressure from their jaw and sit your hips back slightly to create the rotational space needed to finish the submission. Keep their elbow pinned tightly against your chest throughout this weight shift. Begin rotating their forearm toward their back in a controlled paint-brush arc, using your entire upper body as a single rotating unit rather than muscling with your hands alone.",
+        "timing": "1-2 seconds to transition weight and begin rotation"
+      },
+      {
+        "step_number": 6,
+        "action": "Apply controlled finishing rotation",
+        "description": "Drive their hand in a slow, controlled arc toward their opposite hip. The rotation forces internal rotation of the glenohumeral joint beyond its natural anatomical limits, creating intense pressure on the shoulder capsule and rotator cuff. Apply pressure progressively and steadily\u2014never jerk or spike the submission, as catastrophic shoulder injury can occur faster than the opponent can signal a tap.",
+        "timing": "2-4 seconds of progressive rotational pressure"
+      },
+      {
+        "step_number": 7,
+        "action": "Counter clasped-hands defense or secure the tap",
+        "description": "If the opponent clasps their hands together to resist the rotation, step your far leg over their head and transition to a belly-down finishing position. Drop your hips flat to the mat and extend your body to generate significantly greater breaking leverage against their clasped grip. If no grip defense, maintain steady rotational pressure until you receive a clear tap signal and release immediately.",
+        "timing": "2-3 seconds for belly-down transition if needed"
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Opponent clasps hands together to prevent arm isolation and rotation",
+        "effectiveness": "High",
+        "your_response": "Step far leg over their head and transition to belly-down kimura finish for dramatically increased leverage to break the grip. Alternatively, release one hand to peel their gripping fingers apart before re-securing the figure-four.",
+        "targets_outcome": "Shoulder of Justice/Top"
+      },
+      {
+        "counter": "Opponent bridges and rolls toward you during the grip transition to disrupt your base",
+        "effectiveness": "Medium",
+        "your_response": "Follow the roll while maintaining the figure-four grip and finish the kimura from the new top position after the roll completes. The grip remains effective regardless of which side you end up on.",
+        "targets_outcome": "Half Guard/Top"
+      },
+      {
+        "counter": "Opponent shrimps hips away explosively to create distance and recover guard during setup",
+        "effectiveness": "Medium",
+        "your_response": "Follow their hips maintaining the grip and transition to a mounted kimura or abandon the submission attempt and re-establish Shoulder of Justice pressure before they complete guard recovery.",
+        "targets_outcome": "Half Guard/Top"
+      },
+      {
+        "counter": "Opponent straightens their arm fully to prevent the figure-four from closing",
+        "effectiveness": "Medium",
+        "your_response": "Transition to an armbar by swinging your leg over their face while maintaining wrist control on the straightened arm. Their straight-arm defense against the kimura creates a direct armbar opportunity.",
+        "targets_outcome": "Shoulder of Justice/Top"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Releasing shoulder pressure before securing a firm wrist grip on the opponent's near arm",
+        "consequence": "Opponent retracts their arm, recovers defensive posture, and the kimura opportunity disappears entirely",
+        "correction": "Maintain full jaw pressure while sliding your crossface hand to the wrist\u2014the shoulder and hand transition must overlap, not sequence"
+      },
+      {
+        "error": "Attempting to muscle the finishing rotation using only arm and hand strength",
+        "consequence": "Rapid forearm fatigue, insufficient force to finish against a strong opponent, and loss of positional control during the struggle",
+        "correction": "Rotate your entire upper body as a single unit, driving the motion from your core and hips rather than isolating the effort in your arms"
+      },
+      {
+        "error": "Allowing slack or space between the opponent's elbow and your chest during the figure-four",
+        "consequence": "Opponent can rotate their arm, extract the elbow, or create enough angle to defend the rotation effectively",
+        "correction": "Squeeze elbows together tightly to compress their arm against your torso with zero gap before attempting any rotational pressure"
+      },
+      {
+        "error": "Failing to pin the opponent's arm to the mat before threading the figure-four grip",
+        "consequence": "Opponent maintains elbow mobility and can bend their arm into defensive positions or retract it before you complete the lock",
+        "correction": "Drive the captured wrist to the mat beside their hip first, flattening the arm completely before threading your far arm under the tricep"
+      },
+      {
+        "error": "Jerking or spiking the rotational pressure instead of applying progressive steady force",
+        "consequence": "Causes serious shoulder injury before the opponent can tap, resulting in training partner damage and potential legal liability",
+        "correction": "Apply slow, steady, incremental rotational pressure throughout the entire finishing arc\u2014treat every training application as if your partner's career depends on your control"
+      },
+      {
+        "error": "Lifting hips high during the grip transition, disconnecting from opponent's hip line",
+        "consequence": "Opponent shrimps underneath and recovers half guard or full guard, nullifying the entire submission attempt",
+        "correction": "Keep hips low and maintain hip-to-hip connection throughout the transition from pressure to grip, only lifting slightly for rotational clearance at the finish"
+      },
+      {
+        "error": "Tunnel-visioning on the kimura and ignoring opponent's defensive movements",
+        "consequence": "Missing transition opportunities when opponent defends\u2014their straight-arm defense opens armbars, their roll opens back takes",
+        "correction": "Maintain awareness of how the opponent is defending and be ready to transition to armbar, back take, or re-establish position based on their specific reaction"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Grip Mechanics",
+        "focus": "Figure-four lock precision and wrist control fundamentals",
+        "description": "Drill the figure-four grip sequence in isolation: wrist capture, arm pinning, threading, and grip closure. Practice against a stationary partner with no resistance. Focus on eliminating slack, elbow compression, and smooth hand transitions. 50+ repetitions per session until the grip sequence is automatic."
+      },
+      {
+        "phase": "Phase 2: Pressure-to-Grip Integration",
+        "focus": "Combining Shoulder of Justice pressure with kimura setup without losing control",
+        "description": "Start in established Shoulder of Justice and practice the full sequence from pressure maintenance through wrist capture to figure-four completion. Partner provides light resistance. The critical skill is maintaining jaw pressure while transitioning the crossface hand to wrist control\u2014this overlap is the most technically demanding moment."
+      },
+      {
+        "phase": "Phase 3: Finishing Mechanics and Variations",
+        "focus": "Traditional and belly-down finishing pathways with controlled rotational pressure",
+        "description": "Practice both finishing positions with progressive resistance. Drill the transition from traditional to belly-down when partner clasps hands. Develop sensitivity to the shoulder's rotational limit and practice stopping at the tap. Include catch-and-release rounds where you secure the position but do not apply full finishing pressure."
+      },
+      {
+        "phase": "Phase 4: Counter Recognition and Chain Attacks",
+        "focus": "Reading defensive reactions and transitioning between attacks",
+        "description": "Partner uses specific defenses: clasped hands, straight arm, bridge and roll, hip escape. Practice the appropriate counter for each defense. Build automatic responses: clasped hands triggers belly-down, straight arm triggers armbar transition, roll triggers grip maintenance. Develop the full decision tree through repetition."
+      },
+      {
+        "phase": "Phase 5: Live Application",
+        "focus": "Full-speed drilling with progressive resistance and positional sparring",
+        "description": "Positional sparring rounds starting from Shoulder of Justice with full resistance. Track success rate across rounds and identify which defensive responses give you the most trouble. Refine timing, pressure maintenance, and finishing mechanics under realistic conditions with unrestricted partner defense."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What anatomical structure does the Kimura from Shoulder of Justice primarily attack?",
+        "answer": "The kimura primarily attacks the glenohumeral (shoulder) joint through forced internal rotation. The figure-four grip creates a lever that rotates the humerus beyond the shoulder capsule's natural range of motion, placing extreme stress on the rotator cuff muscles, the labrum, and the joint capsule itself. Secondary stress occurs at the elbow joint when the arm is trapped at certain angles during the rotation.",
+        "safety_critical": true
+      },
+      {
+        "question": "Your opponent clasps their hands together to defend the kimura grip\u2014what is your primary response?",
+        "answer": "Step your far leg over their head and transition to a belly-down kimura finishing position. Drop your hips flat to the mat and extend your body to generate significantly greater rotational leverage against their clasped grip. The belly-down position uses your hip extension and full body weight to break even the strongest defensive grip, whereas the side position relies primarily on upper body torque which is insufficient against a determined clasp.",
+        "safety_critical": false
+      },
+      {
+        "question": "At what point during Shoulder of Justice pressure does the kimura opportunity typically present itself?",
+        "answer": "The kimura opportunity presents when the opponent extends their near arm to push away your shoulder from their jaw. This arm extension is an instinctive pain-relief response to the intense pressure on their temporomandibular joint. The window is narrow\u2014typically 1-2 seconds before they realize the exposure and retract. Maintaining heavy, consistent jaw pressure increases the probability and frequency of this reaction.",
+        "safety_critical": false
+      },
+      {
+        "question": "Why is maintaining shoulder pressure during the wrist capture phase critical to finishing success?",
+        "answer": "Shoulder pressure keeps the opponent pinned flat, prevents them from rotating their body defensively, and\u2014most importantly\u2014prevents them from retracting the extended arm. If you lift your shoulder to reach for the wrist, you simultaneously release the pressure that forced the arm extension in the first place. The opponent's pain disappears, they pull their arm back, and the submission opportunity is lost. The crossface hand must slide to the wrist while the shoulder remains in contact with their jaw.",
+        "safety_critical": false
+      },
+      {
+        "question": "How does hip position affect your finishing leverage during the kimura rotation?",
+        "answer": "Connected hips prevent the opponent from shrimping away during the submission attempt, maintaining the positional control necessary for a successful finish. When you transition to the rotational phase, your hips should sit back slightly to create clearance for the paint-brush arc, but they must remain low and oriented toward the opponent. If your hips rise too high, the opponent can shrimp underneath for guard recovery. In the belly-down variation, dropping your hips flat to the mat generates maximum leverage through hip extension.",
+        "safety_critical": false
+      },
+      {
+        "question": "What common grip error reduces finishing power in the kimura figure-four?",
+        "answer": "Allowing slack between the opponent's elbow and your chest is the most common grip error. When space exists in the figure-four, the opponent can rotate their arm within the grip, create defensive angles, or extract their elbow entirely. The correction is squeezing your elbows together tightly to compress their arm against your torso before attempting any rotational pressure. A tight grip with zero slack transfers 100% of your rotational force to their shoulder joint.",
+        "safety_critical": false
+      },
+      {
+        "question": "Why must the kimura be applied with slow progressive pressure rather than explosive rotational force?",
+        "answer": "The shoulder joint can sustain catastrophic, career-ending damage (dislocation, rotator cuff tear, labrum tear) before the opponent experiences sufficient pain to recognize the need to tap. The pain signal often lags behind the structural damage, especially under adrenaline. Slow progressive pressure gives your training partner time to feel the submission developing and tap before injury occurs. Explosive application treats training partners as disposable and violates the fundamental trust that makes martial arts practice possible.",
+        "safety_critical": true
+      },
+      {
+        "question": "Your opponent begins to bridge and roll toward you during the kimura attempt\u2014how do you maintain the submission?",
+        "answer": "Follow the roll while maintaining the figure-four grip throughout the rotation. The kimura grip remains mechanically effective regardless of which side you end up on after the roll. Do not resist the roll by bracing\u2014this often results in losing the grip. Instead, roll with them, let the momentum complete, and finish the kimura from the new top position. If you end up in their guard after the roll, the kimura grip still provides a strong finishing and sweeping platform.",
+        "safety_critical": false
+      },
+      {
+        "question": "What determines whether you should finish with the traditional kimura or transition to belly-down?",
+        "answer": "The opponent's defensive response determines the finishing pathway. If they are unable to clasp their hands and their arm rotates freely, the traditional side-position finish is sufficient and faster. If they clasp their hands together creating a strong grip defense, the belly-down transition is necessary because it generates dramatically greater leverage through hip extension and full body weight. The transition decision must be made quickly\u2014spending excessive time fighting a clasped grip from the side wastes energy.",
+        "safety_critical": false
+      },
+      {
+        "question": "How do you prevent the opponent from straightening their arm to escape the figure-four lock?",
+        "answer": "Pin their elbow tightly against your chest before and during the figure-four establishment. If the elbow stays compressed against your torso, they cannot straighten the arm because your body blocks the extension. If they do manage to straighten before you close the grip, immediately transition to an armbar opportunity\u2014their straight arm is perfectly positioned for a spinning armbar by swinging your leg over their face while maintaining wrist control. The straight-arm defense against kimura creates a direct armbar pathway.",
+        "safety_critical": false
+      },
+      {
+        "question": "What physical indicators tell you the opponent's shoulder is approaching its breaking point during the kimura rotation?",
+        "answer": "Several indicators signal you are approaching the shoulder's structural limit: the opponent's body begins involuntarily lifting or arching as their torso tries to follow the arm rotation to relieve joint stress, their breathing becomes rapid and audible, you feel a progressive increase in resistance followed by a sudden softening as the rotator cuff muscles fatigue and the joint capsule stretches, and the forearm approaches or passes perpendicular to the mat surface. At any of these signs, slow your application further and give the opponent additional time to recognize the submission and tap. Never push through these warning signs in training.",
+        "safety_critical": true
+      },
+      {
+        "question": "How should you adjust your kimura finishing strategy in a competition context where points and advantages matter?",
+        "answer": "In competition, the kimura grip itself is a powerful positional control tool beyond just the submission. If the opponent defends the finish effectively, use the grip to score advantages by threatening the rotation repeatedly, or transition the kimura grip into a back take by rolling them to their stomach for 4 points. If the opponent is stalling against the submission, transition to belly-down to increase urgency and force a tap or a scramble that creates scoring opportunities. Never abandon a secured kimura grip in competition\u2014it controls the opponent even when the finish is temporarily unavailable, and referees award advantages for sustained near-submission threats.",
+        "safety_critical": false
+      }
+    ]
+  },
+  "defender": {
+    "name": "from Shoulder of Justice Defender",
+    "description": "Defend the Kimura from Shoulder of Justice in BJJ. Recognition cues, grip defense techniques, escape timing, and guard recovery strategies against this high-percentage shoulder lock.",
+    "overview": "Defending the Kimura from Shoulder of Justice requires early recognition and disciplined arm positioning under intense physical pressure. The primary defensive principle is preventing the initial arm extension that creates the kimura opportunity\u2014keeping your near arm tight to your body despite the severe discomfort of shoulder pressure grinding into your jaw. Once the attacker secures a complete figure-four grip, defensive options narrow dramatically and the submission becomes extremely difficult to escape. This makes early prevention through arm discipline far more effective than late-stage escape attempts. Understanding the attacker's pressure dilemma helps you avoid the reactive arm extension that triggers the submission chain, while recognizing grip formation cues gives you the timing windows needed to disrupt the attack before it reaches the finishing phase.",
+    "key_principles": [
+      "Keep your near arm tight to your body despite jaw pressure\u2014extending the arm is the trigger that initiates the kimura attack sequence",
+      "Recognize wrist control attempts as the earliest warning sign that a kimura setup has begun",
+      "Clasp your hands together immediately and pull your elbow tight to your ribs if the figure-four grip begins forming",
+      "Create hip movement and shrimping action before the grip is fully secured to disrupt the attacker's positional base",
+      "Turn your body toward the attacker rather than away to limit the rotational arc available for the shoulder lock",
+      "Prioritize preventing arm isolation above all else\u2014once the arm is isolated and pinned, escape probability drops below 20%"
+    ],
+    "recognition_cues": [
+      "Attacker's crossface hand slides away from your neck and moves down toward your wrist or forearm",
+      "Attacker threads their far arm under your tricep or upper arm near the elbow",
+      "Attacker releases some shoulder pressure from your jaw to reposition their hands for grip work",
+      "Attacker's weight shifts laterally as they transition from pure pressure control to submission setup positioning"
+    ],
+    "defensive_options": [
+      {
+        "action": "Clasp hands together tightly and pull elbow to ribs to prevent figure-four isolation",
+        "when_to_use": "As soon as you feel the attacker grip your wrist or begin threading under your arm\u2014this must be immediate and explosive",
+        "targets_outcome": "Shoulder of Justice/Top",
+        "if_successful": "Attacker cannot complete the figure-four and must either re-establish shoulder pressure or attempt a different submission",
+        "risk": "Clasping hands commits both arms to defense, temporarily preventing you from creating escape frames"
+      },
+      {
+        "action": "Bridge toward the attacker and roll to disrupt their base during grip transition",
+        "when_to_use": "During the 1-2 second window when the attacker is transitioning from shoulder pressure to kimura grip and their base is compromised",
+        "targets_outcome": "Half Guard/Top",
+        "if_successful": "Disrupts attacker's base and may allow guard recovery or position reversal during the scramble",
+        "risk": "Failed bridge wastes energy and may accelerate the attacker's grip completion if timing is wrong"
+      },
+      {
+        "action": "Shrimp hips away explosively to create distance and recover knee shield or half guard",
+        "when_to_use": "When the attacker sits back to create rotational clearance for the finish, momentarily disconnecting their hips from yours",
+        "targets_outcome": "Half Guard/Top",
+        "if_successful": "Creates enough distance to insert knee and recover half guard, removing the submission threat entirely",
+        "risk": "If attacker follows your hips and maintains grip, you may end up in a worse position with the kimura still locked"
+      }
+    ],
+    "escape_paths": [
+      "Clasp hands tightly, pull elbow to ribs, and bridge toward the attacker to disrupt their base and prevent arm isolation\u2014the earliest and highest-percentage defensive action",
+      "Time a hip escape when the attacker transitions their weight off your hip line to create finishing clearance, inserting your knee to recover half guard",
+      "Straighten the trapped arm forcefully to prevent the figure-four from closing, accepting the armbar risk to deny the kimura\u2014only viable if you can immediately retract the arm after breaking the grip attempt"
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Half Guard/Top",
+        "how": "Time a coordinated bridge-and-shrimp during the attacker's grip transition phase when their hips disconnect from your hip line, creating space to insert your knee and recover half guard"
+      },
+      {
+        "outcome": "Shoulder of Justice/Top",
+        "how": "Successfully clasp hands and maintain grip defense until the attacker abandons the kimura attempt and returns to shoulder pressure\u2014while still a bad position, it removes the immediate submission threat"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Extending the near arm reactively to push away shoulder pressure from the jaw",
+        "consequence": "Creates the exact arm exposure the attacker needs to initiate the kimura\u2014this is the number one trigger for the submission",
+        "correction": "Accept the jaw pressure as temporary discomfort and keep your near arm pinned tight to your body with elbow against your ribs at all times"
+      },
+      {
+        "error": "Reaching across your body with the far arm to defend against the kimura grip",
+        "consequence": "Exposes both arms simultaneously and creates arm triangle opportunities as the far arm crosses your own neck",
+        "correction": "Keep your far arm tight to your far-side ribs and defend the kimura using only your near arm's elbow positioning and hand clasping"
+      },
+      {
+        "error": "Attempting explosive scramble movements after the figure-four grip is fully secured",
+        "consequence": "Wastes energy against a mechanically superior position and can cause self-inflicted shoulder injury through uncontrolled movements against the locked grip",
+        "correction": "If the grip is fully locked, focus on clasping hands, pulling elbow tight, and waiting for a transition moment rather than wild scrambling"
+      },
+      {
+        "error": "Turning away from the attacker to relieve shoulder pressure during the kimura setup",
+        "consequence": "Increases the rotational arc available for the kimura finish and may expose your back for back-take transitions",
+        "correction": "Turn toward the attacker rather than away\u2014this reduces the rotation angle available for the shoulder lock and limits finishing leverage"
+      },
+      {
+        "error": "Failing to recognize the early warning signs that a kimura is being set up",
+        "consequence": "The attacker completes the figure-four grip unopposed, dramatically reducing your escape probability from reasonable to near-zero",
+        "correction": "Train to recognize wrist control attempts and arm threading as immediate red flags that require instant defensive response\u2014clasp hands before the grip closes"
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the earliest recognition cue that a kimura is being set up from Shoulder of Justice?",
+        "answer": "The earliest cue is feeling the attacker's crossface hand slide away from your neck and move toward your wrist or forearm. This grip transition is the first physical indicator that they are abandoning pure pressure control in favor of a submission setup. You may also notice a slight reduction in shoulder pressure as they reposition. The moment you detect this hand movement, you must immediately clasp your hands together and pull your elbow tight to your ribs.",
+        "safety_critical": false
+      },
+      {
+        "question": "Your opponent has secured a figure-four grip on your arm\u2014what is your primary defensive action?",
+        "answer": "Immediately clasp both hands together as tightly as possible with your fingers interlocked, and pull your elbow forcefully against your ribs. This two-pronged defense prevents the arm from being isolated and limits the rotational arc. Simultaneously, bridge toward the attacker to disrupt their base. If you can turn your body toward them, you further reduce the rotation angle available. Do not attempt to simply pull your arm free\u2014the figure-four provides too much mechanical advantage for that to work.",
+        "safety_critical": false
+      },
+      {
+        "question": "Why is extending your near arm the single most dangerous reaction to Shoulder of Justice pressure?",
+        "answer": "Extending the near arm is the exact movement the attacker is waiting for and actively trying to provoke with their jaw pressure. The arm extension exposes the wrist for capture and the upper arm for figure-four threading\u2014both prerequisites for the kimura. The entire Shoulder of Justice pressure system is designed as a dilemma where jaw discomfort pushes you to create the arm exposure that enables the kimura. Keeping the arm tight eliminates the submission opportunity entirely, even if the pressure remains uncomfortable.",
+        "safety_critical": false
+      },
+      {
+        "question": "What should you do if the attacker has fully locked the kimura grip and begun applying rotational pressure?",
+        "answer": "Tap immediately if you feel your shoulder reaching its rotational limit. The kimura can cause catastrophic shoulder damage before pain becomes severe enough to process. If you still have defensive options, clasp your free hand onto the trapped wrist, turn your entire body toward the attacker to reduce the rotation angle, and bridge to disrupt their base. Never try to tough out a locked kimura that is being rotated\u2014the injury risk is too severe and the escape probability at this stage is extremely low.",
+        "safety_critical": true
+      },
+      {
+        "question": "How does turning toward the attacker reduce the effectiveness of the kimura finish?",
+        "answer": "Turning toward the attacker shortens the rotational arc available for the kimura. The submission requires rotating your forearm behind your back\u2014when you face the attacker, the geometry of the rotation is disrupted because your shoulder cannot be internally rotated as far when your chest faces them. This is the opposite of turning away, which extends the arc and makes the finish easier. Additionally, turning toward them puts you in a better position to bridge into their base and may create opportunities to recover guard.",
+        "safety_critical": false
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Recognition and Prevention",
+        "focus": "Identifying kimura setup cues and maintaining arm discipline under pressure",
+        "description": "Partner establishes Shoulder of Justice and alternates between maintaining pressure and initiating kimura setups. Defender practices recognizing the transition from pressure to submission and responding with immediate hand clasping and elbow protection. No escape attempts\u2014pure recognition training with 20+ repetitions per round."
+      },
+      {
+        "phase": "Phase 2: Grip Defense Mechanics",
+        "focus": "Hand clasping technique, elbow positioning, and turning into the attacker",
+        "description": "Partner secures the figure-four grip at various stages of completion. Defender practices clasping hands, pulling elbow tight, turning toward attacker, and bridging to disrupt base. Focus on the mechanical details of each defensive action in isolation before combining them into fluid defensive sequences."
+      },
+      {
+        "phase": "Phase 3: Escape Timing and Guard Recovery",
+        "focus": "Recognizing escape windows and converting defense into guard recovery",
+        "description": "Partner applies kimura with progressive resistance. Defender works on timing bridges and hip escapes to the moments when attacker transitions their weight for the finish. Practice converting successful kimura defense into half guard recovery using the space created during the scramble."
+      },
+      {
+        "phase": "Phase 4: Live Defensive Sparring",
+        "focus": "Full-resistance positional sparring from Shoulder of Justice bottom",
+        "description": "Positional rounds starting from Shoulder of Justice bottom against unrestricted top player. Defender must survive all submission attempts including but not limited to the kimura. Track success rate of prevention versus late-stage escapes and work to increase the ratio of early prevention through arm discipline."
+      }
+    ]
+  }
+}

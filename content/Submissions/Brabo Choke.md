@@ -3,24 +3,30 @@
 
 
 ---
-title: "Brabo Choke | BJJ Submission | BJJ Graph"
+title: "Brabo Choke | BJJ Submission Family | BJJ Graph"
 description: "Master the Brabo Choke in BJJ. Complete guide with safety protocols, setup from front headlock, execution steps. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%."
 ---
 
 
-<body data-content-type="submissions-hub">
+<body data-content-type="submissions-family">
 
 > **SAFETY**: Brabo Choke targets the Carotid arteries and trachea. Risk: Carotid artery compression causing loss of consciousness. Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
-<div class="role-links">
 
-[[Brabo Choke/Attacker|Play as Attacker]]
-[[Brabo Choke/Defender|Play as Defender]]
+<section id="variants" class="content-section">
 
-</div>
+## Position Variants
+
+| From Position | Success Rate | Top Injury Risk | Key Difference |
+|---------------|-------------|-----------------|----------------|
+| [[Brabo Choke/from Front Headlock|Front Headlock]] | 58% | Carotid artery compression causing loss of consciousness |  |
+
+
+</section>
+
 
 <section id="overview" class="content-section">
 
@@ -29,9 +35,7 @@ The Brabo Choke is a powerful blood choke from the front headlock position, clos
 **Category**: Choke
 **Type**: Blood Choke
 **Target Area**: Carotid arteries and trachea
-**Starting Position**: [[Positions/Front Headlock]]
-**From Position**: [[Positions/Front Headlock]] (Top)
-**Success Rate**: 58%
+**Success Rate**: 58% (average across variants)
 
 </section>
 
@@ -78,143 +82,10 @@ The Brabo Choke is a powerful blood choke from the front headlock position, clos
 
 </section>
 
-<section id="outcomes" class="content-section">
 
-## Outcomes
+<section id="variation-details" class="content-section hide-minimal">
 
-| Result | Position | Probability |
-|--------|----------|-------------|
-| Success | [[game-over]] | 60% |
-| Failure | [[Positions/Front Headlock]] | 25% |
-| Counter | [[Positions/Half Guard]] | 15% |
-
-
-</section>
-
-<section class="content-section">
-
-## Attacker vs Defender
-
-| &nbsp; | Attacker | Defender |
-|--------|----------|----------|
-| **Focus** | Execute and finish | Escape and survive |
-| **Key Principles** | Head and arm control from front headlock establishes submiss... | Prevention is far more effective than escape - deny the arm ... |
-| **Options** | 6 execution steps | 4 defensive options |
-
-</section>
-
-<section id="attacker-summary" class="content-section">
-
-## Playing as Attacker
-
-[[Brabo Choke/Attacker|→ Full Attacker Guide]]
-
-### Key Principles
-
-
-- Head and arm control from front headlock establishes submission opportunity
-
-- Deep arm insertion under near arm creates choking surface across carotid arteries
-
-- Bicep grip completion locks the choke mechanism in place
-
-- Shoulder pressure against opponent's neck multiplies choking force
-
-- Hip positioning and body weight distribution determine finishing angle and effectiveness
-
-- Opponent's trapped arm becomes part of the choking mechanism, preventing escape
-
-- Proper angle adjustment ensures blood choke rather than painful air choke
-
-
-### Execution Steps
-
-
-- **Secure dominant front headlock position**: From standing or ground front headlock, establish strong head control with your primary arm wrapped ...
-
-- **Thread choking arm under opponent's near arm**: Identify the opponent's near arm (same side as their controlled head). Slide your free arm under the...
-
-- **Secure bicep grip to lock the choke**: Once your choking arm is fully threaded, reach your choking hand to grip your own bicep of the head-...
-
-- **Adjust body angle for optimal compression**: Rotate your body perpendicular to opponent's spine, positioning your chest across their upper back. ...
-
-- **Drive shoulder pressure while expanding chest**: With proper angle established, drive your shoulder into the side of opponent's neck while simultaneo...
-
-- **Maintain position and complete submission**: Hold the compressed position while monitoring opponent for tap signals. Keep your hips low and chest...
-
-
-### Common Mistakes
-
-
-- **Threading arm too shallow, failing to reach deep across neck**
-  - Consequence: Choke pressure focuses on trachea (painful air choke) rather than carotids (effective blood choke), giving opponent time to escape
-  - Correction: Drive elbow deep through the armpit until your hand emerges past far side of neck. Your forearm should bisect their neck completely, with wrist visible on far side.
-
-- **Applying sudden jerking pressure instead of progressive compression**
-  - Consequence: Risk of neck injury, trachea damage, or causing panic in training partner
-  - Correction: Build pressure gradually over 3-5 seconds in training. Smooth, progressive compression is both safer and more effective than explosive pressure.
-
-- **Poor angle - body positioned parallel to opponent instead of perpendicular**
-  - Consequence: Lost mechanical advantage, weak choking pressure, easy escape for opponent
-  - Correction: Rotate body perpendicular to opponent's spine with your chest across their back. Your shoulder should drive into side of their neck, not the back of their head.
-
-
-</section>
-
-<section id="defender-summary" class="content-section">
-
-## Playing as Defender
-
-[[Brabo Choke/Defender|→ Full Defender Guide]]
-
-### Key Principles
-
-
-- Prevention is far more effective than escape - deny the arm threading before it reaches deep across your neck
-
-- Keep elbows tight to your body to eliminate the armpit space needed for arm insertion
-
-- Fight for posture immediately - the attacker needs you bent forward with compromised posture to finish
-
-- Create whole-body distance rather than fighting the choking arm in isolation once it is partially threaded
-
-- Protect your trapped arm by circling it toward the attacker's body rather than pulling it away, which tightens the choke
-
-- Address the attacker's angle and chest connection first - without perpendicular position and chest pressure, the choke cannot finish
-
-- Tap early and without hesitation - this choke reaches full compression quickly and causes unconsciousness within seconds
-
-
-### Recognition Cues
-
-
-- Opponent's free arm begins sliding under your near armpit while they maintain head control from front headlock - this is the primary threading motion
-
-- You feel increasing forearm pressure across the front of your neck combined with your near arm being pushed against your own neck
-
-- Opponent shifts their chest perpendicular to your spine and walks their hips to the side while maintaining heavy pressure on your upper back
-
-- Your head is being pulled tightly toward the attacker's hip while your near shoulder feels trapped and immobilized
-
-- Opponent's hands connect behind your neck in a bicep grip or wrist grip, completing a closed loop you can feel tightening around your neck and trapped arm
-
-
-### Escape Paths
-
-
-- Posture recovery to standing by driving off knees and extending spine, breaking the bent-forward position that enables the choke, then circling away to disengage completely
-
-- Sit-through to half guard or closed guard by turning your body toward the attacker while extracting your trapped arm, using frames against their hips to create space for guard recovery
-
-- Forward roll escape when attacker overcommits weight forward, rolling through their pressure to land in guard position with choke disrupted
-
-
-</section>
-
-
-<section id="variations" class="content-section hide-minimal">
-
-## Variations
+## Variation Details
 
 
 **Brabo Choke from Turtle**: When opponent turtles, establish front headlock control and thread arm under their near arm before they can strengthen defensive posture. The turtle position provides excellent setup opportunity. (When to use: Opponent turtles to defend guard pass or takedown; very common in competition)
@@ -256,15 +127,15 @@ The Brabo Choke is a powerful blood choke from the front headlock position, clos
 
 ## Related Submissions
 
-- [[Transitions/Darce Choke]]
-- [[Transitions/Anaconda Choke]]
-- [[Transitions/Guillotine Choke]]
-- [[Transitions/Arm Triangle]]
-- [[Transitions/North-South Choke]]
-- [[Transitions/Rear Naked Choke]]
-- [[Submissions/Arm in Guillotine]]
-- [[Submissions/Ezekiel Choke]]
-- [[Transitions/Clock Choke]]
+- [[Transitions/Darce Choke]] - Same arm-threading family with different entry angle and grip finish
+- [[Transitions/Anaconda Choke]] - Complementary head-and-arm choke with opposite arm threading direction
+- [[Transitions/Guillotine Choke]] - Chain submission when opponent lifts head to defend Brabo threading
+- [[Transitions/Arm Triangle]] - Related shoulder-trap choke using opponent's shoulder as part of mechanism
+- [[Transitions/North-South Choke]] - Alternative blood choke available from similar top control positions
+- [[Submissions/Rear Naked Choke]] - Back-take alternative finish when Brabo defense gives up the back
+- [[Submissions/Arm in Guillotine]] - Similar trapped-arm choking mechanism from front headlock position
+- [[Submissions/Ezekiel Choke]] - Alternative choke available from similar controlling positions in gi
+- [[Anaconda Choke from Anaconda Control]] - Related finish when arm threading angle favors anaconda over brabo
 
 
 </section>

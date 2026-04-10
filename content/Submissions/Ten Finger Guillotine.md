@@ -3,34 +3,42 @@
 
 
 ---
-title: "Ten Finger Guillotine | BJJ Submission | BJJ Graph"
+title: "Ten Finger Guillotine | BJJ Submission Family | BJJ Graph"
 description: "Master the Ten Finger Guillotine in BJJ. Comprehensive guide covering setup, execution, and safety protocols. Success rates: Beginner 40%, Intermediate 55%, Advanced 70%."
 ---
 
 
-<body data-content-type="submissions-hub">
+<body data-content-type="submissions-family">
 
 > **SAFETY**: Ten Finger Guillotine targets the Carotid arteries and trachea. Risk: Trachea damage from excessive crushing pressure. Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
-<div class="role-links">
 
-[[Ten Finger Guillotine/Attacker|Play as Attacker]]
-[[Ten Finger Guillotine/Defender|Play as Defender]]
+<section id="variants" class="content-section">
 
-</div>
+## Position Variants
+
+| From Position | Success Rate | Top Injury Risk | Key Difference |
+|---------------|-------------|-----------------|----------------|
+| [[Ten Finger Guillotine/from Front Headlock|Front Headlock]] | 62% | Trachea damage from excessive crushing pressure |  |
+| [[Ten Finger Guillotine/from Guillotine Control|Guillotine Control]] | 62% | Trachea damage from excessive crushing pressure |  |
+
+
+</section>
+
 
 <section id="overview" class="content-section">
 
-The Ten Finger Guillotine is a fundamental front headlock choke that utilizes an interlocking grip with all ten fingers, creating tremendous squeezing power around the opponent's neck. Unlike the traditional guillotine which uses a gable or arm-in configuration, the ten finger variation employs both hands clasped together with fingers interlaced, allowing for maximum compression of the carotid arteries. This submission is particularly effective in no-gi grappling where hand-fighting and grip transitions happen rapidly. The choke can be applied from standing positions during scrambles, from guard pulls, or when defending takedown attempts. The ten finger grip provides exceptional control even against sweaty or slippery opponents, making it a reliable finishing option across all skill levels. The submission works through a combination of blood restriction and airway compression, with proper technique emphasizing the former for safety and effectiveness. The versatility of this choke allows it to be integrated into multiple positional sequences, from front headlock control to closed guard variations.
+The Ten Finger Guillotine is a fundamental front headlock choke that utilizes an interlocking grip with all ten fingers, creating tremendous squeezing power around the opponent's neck. Unlike the traditional guillotine which uses a gable or arm-in configuration, the ten finger variation employs both hands clasped together with fingers interlaced, allowing for maximum compression of the carotid arteries. This submission is particularly effective in no-gi grappling where hand-fighting and grip transitions happen rapidly. The choke can be applied from standing positions during scrambles, from guard pulls, or when defending takedown attempts. The ten finger grip provides exceptional control even against sweaty or slippery opponents, making it a reliable finishing option across all skill levels.
+
+The submission works through a combination of blood restriction and airway compression, with proper technique emphasizing the former for safety and effectiveness. The finishing mechanics rely primarily on shoulder elevation and latissimus dorsi engagement rather than arm strength alone, making the choke sustainable even during extended exchanges. The versatility of this choke allows it to be integrated into multiple positional sequences, from front headlock control to closed guard variations, and it chains naturally with anaconda, darce, and other head-and-arm attacks when the primary finish is defended.
 
 **Category**: Choke
 **Type**: Blood Choke
 **Target Area**: Carotid arteries and trachea
-**Starting Position**: [[Positions/Front Headlock]]
-**Success Rate**: 62%
+**Success Rate**: 62% (average across variants)
 
 </section>
 
@@ -75,145 +83,10 @@ The Ten Finger Guillotine is a fundamental front headlock choke that utilizes an
 
 </section>
 
-<section id="outcomes" class="content-section">
 
-## Outcomes
+<section id="variation-details" class="content-section hide-minimal">
 
-| Result | Position | Probability |
-|--------|----------|-------------|
-| Success | [[game-over]] | 60% |
-| Failure | [[Positions/Front Headlock]] | 25% |
-| Counter | [[Positions/Closed Guard]] | 15% |
-
-
-</section>
-
-<section class="content-section">
-
-## Attacker vs Defender
-
-| &nbsp; | Attacker | Defender |
-|--------|----------|----------|
-| **Focus** | Execute and finish | Escape and survive |
-| **Key Principles** | Grip configuration with interlaced fingers creates maximum c... | Chin protection is the first priority - tuck chin to chest i... |
-| **Options** | 6 execution steps | 4 defensive options |
-
-</section>
-
-<section id="attacker-summary" class="content-section">
-
-## Playing as Attacker
-
-[[Ten Finger Guillotine/Attacker|→ Full Attacker Guide]]
-
-### Key Principles
-
-
-- Grip configuration with interlaced fingers creates maximum compression while distributing pressure evenly
-
-- Shoulder elevation and lat engagement are critical to generate choking force without arm strength alone
-
-- Hip positioning relative to opponent's body determines angle of attack and effectiveness
-
-- Head control prevents opponent from creating posture and escaping the danger zone
-
-- Elbow position tight to own ribs prevents opponent from stripping the grip or creating space
-
-- Weight distribution forward onto opponent creates additional compression and control
-
-- Timing the finish with opponent's defensive reactions maximizes success rate
-
-
-### Execution Steps
-
-
-- **Secure front headlock position**: From standing or turtle position, wrap your choking arm (typically your dominant arm) deep around op...
-
-- **Establish ten finger grip**: Reach your non-choking hand underneath opponent's torso to meet your choking hand. Interlace all ten...
-
-- **Adjust hip position and posture**: If standing, step your hips back slightly while keeping your chest forward and heavy on opponent. If...
-
-- **Elevate shoulders and engage lats**: Shrug your shoulders upward toward your ears while simultaneously pulling your elbows down and back ...
-
-- **Arch back and expand chest**: Create additional compression by arching your upper back slightly and expanding your chest. This mov...
-
-- **Walk backwards or fall to guard (finish)**: If standing, walk your feet backward while maintaining all previous pressure points. This drags oppo...
-
-
-### Common Mistakes
-
-
-- **Relying purely on arm strength instead of engaging shoulders and lats**
-  - Consequence: Choke feels weak, opponent can defend easily, and you fatigue quickly burning out your grip and biceps
-  - Correction: Focus on the shoulder shrug and elbow pull-down motion. Your arms should feel relatively relaxed while your back and shoulder muscles do the work. Practice the motion without a partner first to build the muscle memory.
-
-- **Positioning the choking arm too high on opponent's chin or face instead of deep on the neck**
-  - Consequence: Choke becomes primarily a crank on the jaw or face, which is painful but less effective and potentially dangerous to opponent's TMJ
-  - Correction: Before establishing the grip, use your non-choking hand to guide your choking arm deeper. The blade of your forearm should bisect opponent's throat, not push up on their chin. Adjust position before locking the ten finger grip.
-
-- **Leaning too far forward with hips, losing leverage and allowing opponent to drive forward**
-  - Consequence: Opponent can posture up, drive through you, or complete a takedown that breaks your control
-  - Correction: Keep your hips back and weight distributed between forward chest pressure and backward hip positioning. Your spine should be relatively vertical, not bent over opponent's back. Think 'sit back and squeeze up' rather than 'bend forward and squeeze down.'
-
-
-</section>
-
-<section id="defender-summary" class="content-section">
-
-## Playing as Defender
-
-[[Ten Finger Guillotine/Defender|→ Full Defender Guide]]
-
-### Key Principles
-
-
-- Chin protection is the first priority - tuck chin to chest immediately upon recognizing the front headlock threat to deny forearm access to the throat
-
-- Posture recovery through frame creation against attacker's hips prevents them from breaking your posture and establishing finishing angle
-
-- Hand fight the choking arm at the wrist or elbow rather than trying to pry interlaced fingers apart, which is nearly impossible under pressure
-
-- Create lateral angles by circling perpendicular to attacker's pressure rather than pulling straight back, which feeds into the choke mechanics
-
-- Maintain base and hip mobility to prevent being flattened or pulled into guard where the attacker gains leg control for the finish
-
-- Recognize the difference between early-stage defense (grip denial) and late-stage defense (survival and escape), adapting your strategy accordingly
-
-- Use opponent's commitment to the choke to create positional opportunities - their focus on finishing limits their ability to address your escape movements
-
-
-### Recognition Cues
-
-
-- Opponent's arm wraps deep around your neck from the front with their armpit tightening over the crown of your head, indicating front headlock entry to guillotine
-
-- You feel both of opponent's hands meeting and fingers interlacing underneath your chest or throat, creating the distinctive ten finger grip pressure that differs from a standard gable grip
-
-- Opponent begins shrugging their shoulders upward while pulling elbows down and back, creating increasing bilateral compression on your neck - the hallmark finishing mechanic of this variation
-
-- Your posture is being broken forward with your head pulled below hip level while opponent's chest drives heavy pressure onto your upper back
-
-- Opponent steps their hips back while maintaining chest pressure, or begins sitting to guard while pulling your head downward - both indicate commitment to the guillotine finish
-
-
-### Escape Paths
-
-
-- Posture recovery to standing through aggressive hip drive and frame creation on attacker's hips, walking feet forward to extract head from the choking loop
-
-- Inside turn (Von Flue direction) to slip head free while driving forward, accepting the scramble to reach a neutral or guard position
-
-- Takedown completion to side control, changing the angle to neutralize the choking mechanics and potentially threatening Von Flue choke counter
-
-- Pull attacker into your half guard while hand fighting the choking wrist, using knee shield to create distance and prevent closed guard finish
-
-
-</section>
-
-
-<section id="variations" class="content-section hide-minimal">
-
-## Variations
+## Variation Details
 
 
 **High Elbow Ten Finger Guillotine**: Position your choking elbow higher near their face while maintaining the ten finger grip. This variation creates a different angle of attack that's particularly effective against opponents who defend by tucking their chin, as it attacks from above rather than across the throat. (When to use: Use when opponent has excellent chin defense and you cannot get your forearm across the throat in the traditional position. Also effective from standing positions where you have superior height advantage.)
@@ -253,15 +126,15 @@ The Ten Finger Guillotine is a fundamental front headlock choke that utilizes an
 
 ## Related Submissions
 
-- [[Transitions/Guillotine Choke]]
-- [[Submissions/High Elbow Guillotine]]
-- [[Submissions/Arm in Guillotine]]
-- [[Transitions/Anaconda Choke]]
-- [[Transitions/Darce Choke]]
-- [[Transitions/Rear Naked Choke]]
-- [[Submissions/Chin Strap Guillotine]]
-- [[Transitions/Arm Triangle]]
-- [[Submissions/Brabo Choke]]
+- [[Transitions/Guillotine Choke]] - Primary guillotine variation using standard grip configuration
+- [[Submissions/High Elbow Guillotine]] - High angle variation for defeating chin defense
+- [[Submissions/Arm in Guillotine]] - Arm-trapped variation trading choking efficiency for control
+- [[Transitions/Anaconda Choke]] - Transition option when opponent turns into the choke
+- [[Transitions/Darce Choke]] - Transition option when opponent turns away from pressure
+- [[Submissions/Chin Strap Guillotine]] - Alternative chin-based grip guillotine finish
+- [[Transitions/Arm Triangle]] - Related head-and-arm choke from front headlock transitions
+- [[Submissions/Brabo Choke]] - Gi-based head-and-arm choke alternative from similar positions
+- [[Positions/Hindulotine]] - Advanced guillotine variation from guard position
 
 
 </section>
