@@ -59,8 +59,9 @@ async function findBestMatch(
   attemptedPath: string,
 ): Promise<{ slug: string; title: string } | null> {
   try {
-    // fetchData is a global promise set up by Quartz's renderPage
-    const data = await (window as any).fetchData
+    // Lazy-load content index (only on 404 pages)
+    const loadContentIndex = (window as any).loadContentIndex
+    const data = loadContentIndex ? await loadContentIndex() : await (window as any).fetchData
     if (!data) return null
 
     let bestMatch: { slug: string; title: string } | null = null
@@ -82,6 +83,18 @@ async function findBestMatch(
 
     // Only return if the match is reasonably close
     if (bestMatch && bestScore < cleanPath.length * 0.8) {
+      // For role pages (Attacker/Defender/Top/Bottom), build a descriptive title
+      // from the parent page's title, e.g. "Loop Choke from Mount (Attacker)"
+      const roleSuffixes = ["Attacker", "Defender", "Top", "Bottom"]
+      const lastSegment = bestMatch.slug.split("/").pop() ?? ""
+      if (roleSuffixes.includes(lastSegment)) {
+        const parentSlug = bestMatch.slug.split("/").slice(0, -1).join("/")
+        const parentData = data[parentSlug] as any
+        if (parentData?.title) {
+          const parentTitle = (parentData.title as string).replace(/\s*\|.*$/, "")
+          bestMatch.title = `${parentTitle} (${lastSegment})`
+        }
+      }
       return bestMatch
     }
     return null
@@ -107,7 +120,27 @@ function lastSegmentReadable(pathname: string): string {
   return decodeURIComponent(last).replace(/-/g, " ")
 }
 
+/**
+ * The 404 page is rendered with slug "404" but served from any unmatched URL,
+ * so the URL bar may be deeper than the page assumes (e.g. /Submissions/Loop-Choke/foo).
+ * Without intervention, relative URLs in sidebar/nav resolve against the wrong base
+ * (e.g. ../Principles/X resolves to /Submissions/Loop-Choke/Principles/X instead of /Principles/X).
+ * Inject <base href="/"> so all relative URLs resolve against the site root.
+ */
+function ensureBaseTag() {
+  if (document.body.dataset.slug !== "404") return
+  let baseTag = document.head.querySelector("base") as HTMLBaseElement | null
+  if (!baseTag) {
+    baseTag = document.createElement("base")
+    baseTag.setAttribute("href", "/")
+    document.head.insertBefore(baseTag, document.head.firstChild)
+  } else if (baseTag.getAttribute("href") !== "/") {
+    baseTag.setAttribute("href", "/")
+  }
+}
+
 function initNotFoundPage() {
+  ensureBaseTag()
   const pathname = window.location.pathname
   const titleEl = document.getElementById("not-found-title")
   const pathDisplay = document.getElementById("not-found-path")
@@ -175,7 +208,7 @@ ${contentTypeHint ? contentTypeHint : ""}
   findBestMatch(pathname).then((match) => {
     if (match && didYouMeanContainer && didYouMeanLink) {
       didYouMeanLink.href = `/${match.slug}`
-      didYouMeanLink.textContent = match.title
+      didYouMeanLink.textContent = match.title.replace(/\s*\|.*$/, "")
       didYouMeanContainer.style.display = ""
     }
   })

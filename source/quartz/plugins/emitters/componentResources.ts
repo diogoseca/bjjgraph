@@ -176,6 +176,14 @@ function addGlobalPageResources(ctx: BuildCtx, componentResources: ComponentReso
     `)
   }
 
+  // Supabase config injection (public keys, safe to embed)
+  if (cfg.supabase?.url) {
+    componentResources.afterDOMLoaded.push(`
+      window.__SUPABASE_URL = "${cfg.supabase.url}";
+      window.__SUPABASE_ANON_KEY = "${cfg.supabase.anonKey}";
+    `)
+  }
+
   if (cfg.enableSPA) {
     componentResources.afterDOMLoaded.push(spaRouterScript)
   } else {

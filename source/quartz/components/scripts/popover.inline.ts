@@ -2,6 +2,9 @@ import { computePosition, flip, inline, shift } from "@floating-ui/dom"
 import { normalizeRelativeURLs } from "../../util/path"
 
 const p = new DOMParser()
+const portalPopovers = new WeakMap<HTMLAnchorElement, HTMLElement>()
+const portalElements = new Set<HTMLElement>()
+
 async function mouseEnterHandler(
   this: HTMLAnchorElement,
   { clientX, clientY }: { clientX: number; clientY: number },
@@ -11,21 +14,32 @@ async function mouseEnterHandler(
     return
   }
 
+  const isPortal = !!link.closest(".move-cards")
+
   async function setPosition(popoverElement: HTMLElement) {
     const { x, y } = await computePosition(link, popoverElement, {
+      ...(isPortal && { strategy: "fixed" }),
       middleware: [inline({ x: clientX, y: clientY }), shift(), flip()],
     })
     Object.assign(popoverElement.style, {
       left: `${x}px`,
       top: `${y}px`,
+      ...(isPortal && { position: "fixed" }),
     })
   }
 
   const hasAlreadyBeenFetched = () =>
-    [...link.children].some((child) => child.classList.contains("popover"))
+    isPortal
+      ? portalPopovers.has(link)
+      : [...link.children].some((child) => child.classList.contains("popover"))
 
   // dont refetch if there's already a popover
   if (hasAlreadyBeenFetched()) {
+    if (isPortal) {
+      const existing = portalPopovers.get(link)!
+      existing.classList.add("visible")
+      return setPosition(existing)
+    }
     return setPosition(link.lastChild as HTMLElement)
   }
 
@@ -88,7 +102,32 @@ async function mouseEnterHandler(
   }
 
   setPosition(popoverElement)
-  link.appendChild(popoverElement)
+
+  if (isPortal) {
+    document.body.appendChild(popoverElement)
+    portalPopovers.set(link, popoverElement)
+    portalElements.add(popoverElement)
+    popoverElement.classList.add("visible")
+
+    // Hide on mouseleave with grace period for moving to popover
+    let hideTimer: ReturnType<typeof setTimeout> | null = null
+    const hide = () => popoverElement.classList.remove("visible")
+
+    link.addEventListener("mouseleave", () => {
+      hideTimer = setTimeout(hide, 200)
+    })
+    popoverElement.addEventListener("mouseenter", () => {
+      if (hideTimer) clearTimeout(hideTimer)
+    })
+    popoverElement.addEventListener("mouseleave", hide)
+
+    window.addCleanup(() => {
+      popoverElement.remove()
+      portalElements.delete(popoverElement)
+    })
+  } else {
+    link.appendChild(popoverElement)
+  }
 
   if (hash !== "") {
     const heading = popoverInner.querySelector(hash) as HTMLElement | null
@@ -105,4 +144,9 @@ document.addEventListener("nav", () => {
     link.addEventListener("mouseenter", mouseEnterHandler)
     window.addCleanup(() => link.removeEventListener("mouseenter", mouseEnterHandler))
   }
+
+  window.addCleanup(() => {
+    for (const el of portalElements) el.remove()
+    portalElements.clear()
+  })
 })

@@ -37,7 +37,7 @@ $mobileGrid: (
 );
 $tabletGrid: (
   templateRows: "auto auto auto auto",
-  templateColumns: "#{$sidePanelWidth} auto",
+  templateColumns: "var(--sidebar-width, #{$sidePanelWidth}) auto",
   rowGap: "5px",
   columnGap: "5px",
   templateAreas:
@@ -48,7 +48,7 @@ $tabletGrid: (
 );
 $desktopGrid: (
   templateRows: "auto auto auto",
-  templateColumns: "#{$sidePanelWidth} auto #{$sidePanelWidth}",
+  templateColumns: "var(--sidebar-width, #{$sidePanelWidth}) auto #{$sidePanelWidth}",
   rowGap: "5px",
   columnGap: "5px",
   templateAreas:

@@ -1,5 +1,4 @@
 import { FolderState } from "../ExplorerNode"
-
 type MaybeHTMLElement = HTMLElement | undefined
 let currentExplorerState: FolderState[]
 const observer = new IntersectionObserver((entries) => {
@@ -30,12 +29,68 @@ function toggleFolder(evt: MouseEvent) {
   if (!(childFolderContainer && currentFolderParent)) return
 
   childFolderContainer.classList.toggle("open")
-  const isCollapsed = childFolderContainer.classList.contains("open")
-  setFolderState(childFolderContainer, !isCollapsed)
+  const isOpen = childFolderContainer.classList.contains("open")
+  setFolderState(childFolderContainer, !isOpen)
+  if (isOpen) {
+    expandAllDescendants(childFolderContainer)
+  }
   const fullFolderPath = (currentFolderParent as HTMLElement).dataset.folderpath as string
   toggleCollapsedByPath(currentExplorerState, fullFolderPath)
   const stringifiedFileTree = JSON.stringify(currentExplorerState)
   localStorage.setItem("fileTree", stringifiedFileTree)
+}
+
+function applyTrainingOverlay() {
+  const isTraining = document.body.dataset.slug === "training"
+
+  if (!isTraining) {
+    // Clean up on non-training pages (SPA navigation)
+    document
+      .querySelectorAll(".explorer-faded")
+      .forEach((el) => el.classList.remove("explorer-faded"))
+    return
+  }
+
+  // Read flashcard cards from localStorage (avoid importing srs.ts to keep bundle small)
+  const SRS_KEY = "bjj-srs-cards"
+  let knownSlugs: Set<string>
+  try {
+    const cards = JSON.parse(localStorage.getItem(SRS_KEY) || "[]")
+    knownSlugs = new Set(cards.map((c: { slug?: string }) => (c.slug || "").replace(/^\//, "")))
+  } catch {
+    knownSlugs = new Set()
+  }
+
+  const links = document.querySelectorAll("#explorer-content a[data-for]")
+  for (const link of links) {
+    const slug = (link as HTMLElement).dataset.for || ""
+    const li = link.parentElement
+
+    // Skip top-level category folders (no slash = root level)
+    if (!slug.includes("/")) continue
+
+    let isKnown = false
+    if (slug.startsWith("Positions/")) {
+      // Position hub: known if any flashcard card is under this path
+      const prefix = slug + "/"
+      for (const s of knownSlugs) {
+        if (s.startsWith(prefix)) {
+          isKnown = true
+          break
+        }
+      }
+    } else {
+      // Transition/Submission: direct slug match
+      isKnown = knownSlugs.has(slug)
+    }
+
+    // Apply fading
+    if (isKnown) {
+      link.classList.remove("explorer-faded")
+    } else {
+      link.classList.add("explorer-faded")
+    }
+  }
 }
 
 function setupExplorer() {
@@ -59,88 +114,130 @@ function setupExplorer() {
     window.addCleanup(() => item.removeEventListener("click", toggleFolder))
   }
 
-  // Get folder state from local storage
-  const storageTree = localStorage.getItem("fileTree")
-  const useSavedFolderState = explorer?.dataset.savestate === "true"
-  const oldExplorerState: FolderState[] =
-    storageTree && useSavedFolderState ? JSON.parse(storageTree) : []
-  const oldIndex = new Map(oldExplorerState.map((entry) => [entry.path, entry.collapsed]))
+  // Set up scrollable list fade classes
+  for (const list of document.getElementsByClassName(
+    "scrollable-list",
+  ) as HTMLCollectionOf<HTMLElement>) {
+    const updateFade = () => {
+      const atTop = list.scrollTop <= 2
+      const atBottom = list.scrollTop + list.clientHeight >= list.scrollHeight - 2
+      list.classList.toggle("scroll-top", atTop)
+      list.classList.toggle("scroll-bottom", atBottom)
+    }
+    updateFade()
+    list.addEventListener("scroll", updateFade, { passive: true })
+    window.addCleanup(() => list.removeEventListener("scroll", updateFade))
+  }
+
+  // Start with all folders collapsed
   const newExplorerState: FolderState[] = explorer.dataset.tree
     ? JSON.parse(explorer.dataset.tree)
     : []
-  currentExplorerState = []
-  for (const { path, collapsed } of newExplorerState) {
-    currentExplorerState.push({ path, collapsed: oldIndex.get(path) ?? collapsed })
-  }
+  currentExplorerState = newExplorerState.map(({ path }) => ({ path, collapsed: true }))
 
-  currentExplorerState.map((folderState) => {
+  // Collapse all folders in the DOM
+  currentExplorerState.forEach((folderState) => {
     const folderLi = document.querySelector(
       `[data-folderpath='${CSS.escape(folderState.path)}']`,
     ) as MaybeHTMLElement
     const folderUl = folderLi?.parentElement?.nextElementSibling as MaybeHTMLElement
     if (folderUl) {
-      setFolderState(folderUl, folderState.collapsed)
+      setFolderState(folderUl, true)
     }
   })
 
-  // Auto-expand folders in the path to the current page
+  // Only expand folders in the path to the current page
   const currentSlug = document.body.dataset.slug
   if (currentSlug) {
-    // Build all ancestor folder paths for the current page
-    // e.g., "Positions/Mount/Bottom" → ["Positions", "Positions/Mount"]
-    const slugSegments = currentSlug.split("/")
-    const folderPaths: string[] = []
+    // For role pages (filtered from explorer), resolve to parent hub
+    // Also strip /index suffix used by Quartz for folder index pages
+    let effectiveSlug = currentSlug
+    if (effectiveSlug.endsWith("/index")) {
+      effectiveSlug = effectiveSlug.slice(0, -"/index".length)
+    }
+    const lower = effectiveSlug.toLowerCase()
+    if (
+      lower.endsWith("/top") ||
+      lower.endsWith("/bottom") ||
+      lower.endsWith("/attacker") ||
+      lower.endsWith("/defender")
+    ) {
+      effectiveSlug = effectiveSlug.split("/").slice(0, -1).join("/")
+    }
 
-    // Build paths for all parent folders (exclude the file itself)
-    for (let i = 0; i < slugSegments.length - 1; i++) {
+    // Build all ancestor folder paths (including the item itself if it's a folder)
+    const slugSegments = effectiveSlug.split("/")
+    const folderPaths: string[] = []
+    for (let i = 0; i < slugSegments.length; i++) {
       folderPaths.push(slugSegments.slice(0, i + 1).join("/"))
     }
 
-    // Also check if the current page itself is a folder (e.g., "Positions/Mount" hub page)
-    // by checking if there's a folder with the exact slug path
-    const exactFolderLi = document.querySelector(
-      `[data-folderpath='${CSS.escape(currentSlug)}']`,
-    ) as MaybeHTMLElement
-    if (exactFolderLi) {
-      folderPaths.push(currentSlug)
-    }
-
-    // Expand each folder in the path
+    // Expand each folder in the path, plus all its descendant subtrees
     folderPaths.forEach((folderPath) => {
       const folderLi = document.querySelector(
         `[data-folderpath='${CSS.escape(folderPath)}']`,
       ) as MaybeHTMLElement
       const folderUl = folderLi?.parentElement?.nextElementSibling as MaybeHTMLElement
-
       if (folderUl) {
-        // Set folder to expanded state (false = not collapsed = open)
         setFolderState(folderUl, false)
-
-        // Update state array to reflect the expansion
-        const stateEntry = currentExplorerState.find((entry) => entry.path === folderPath)
-        if (stateEntry) {
-          stateEntry.collapsed = false
-        }
+        expandAllDescendants(folderUl)
+        const stateEntry = currentExplorerState.find((e) => e.path === folderPath)
+        if (stateEntry) stateEntry.collapsed = false
       }
     })
-
-    // Save the updated state to localStorage so it persists
-    const stringifiedFileTree = JSON.stringify(currentExplorerState)
-    localStorage.setItem("fileTree", stringifiedFileTree)
-
-    // Highlight the active page in the explorer
-    // Remove any existing active classes first
-    const existingActive = document.querySelectorAll("#explorer-content a.active")
+    // Highlight the active page in the explorer and scroll into view
+    const existingActive = document.querySelectorAll("#explorer-content a.active, #explorer-content .explorer-role-link.active")
     existingActive.forEach((el) => el.classList.remove("active"))
 
-    // Find and highlight the current page link
-    const activeLink = document.querySelector(
-      `#explorer-content a[data-for='${currentSlug}']`,
-    ) as MaybeHTMLElement
+    // Try data-for, then folderpath, then href matching (most robust fallback)
+    const activeLink =
+      (document.querySelector(
+        `#explorer-content a[data-for='${effectiveSlug}']`,
+      ) as MaybeHTMLElement) ||
+      (document.querySelector(
+        `#explorer-content a[data-for='${currentSlug}']`,
+      ) as MaybeHTMLElement) ||
+      (document.querySelector(
+        `#explorer-content [data-folderpath='${effectiveSlug}'] > a`,
+      ) as MaybeHTMLElement) ||
+      (document.querySelector(
+        `#explorer-content [data-folderpath='${currentSlug}'] > a`,
+      ) as MaybeHTMLElement) ||
+      (document.querySelector(
+        `#explorer-content a[href$='/${effectiveSlug}']`,
+      ) as MaybeHTMLElement) ||
+      (document.querySelector(
+        `#explorer-content a[href$='/${currentSlug}']`,
+      ) as MaybeHTMLElement)
     if (activeLink) {
       activeLink.classList.add("active")
+
+      // Also highlight the role badge (A/D/T/B) when on a role page
+      const roleSuffix = effectiveSlug !== currentSlug
+        ? currentSlug.split("/").pop()
+        : null
+      if (roleSuffix) {
+        // Find the role link badge near the active folder
+        const container = activeLink.closest(".folder-container")
+        if (container) {
+          const roleLink = container.querySelector(
+            `.explorer-role-link[title='${roleSuffix}']`,
+          ) as MaybeHTMLElement
+          if (roleLink) {
+            roleLink.classList.add("active")
+          }
+        }
+      }
+
+      // Delay scroll to after folder expand animation (0.3s CSS transition)
+      setTimeout(() => {
+        activeLink.scrollIntoView({ block: "center", behavior: "smooth" })
+      }, 350)
     }
   }
+
+  localStorage.setItem("fileTree", JSON.stringify(currentExplorerState))
+  applyTrainingOverlay()
 }
 
 window.addEventListener("resize", setupExplorer)
@@ -154,6 +251,23 @@ document.addEventListener("nav", () => {
     observer.observe(lastItem)
   }
 })
+
+/**
+ * Expands all descendant folders within a given folder element
+ * and updates their state in currentExplorerState.
+ */
+function expandAllDescendants(parentFolderOuter: HTMLElement) {
+  parentFolderOuter.querySelectorAll(":scope .folder-outer").forEach((folder) => {
+    setFolderState(folder as HTMLElement, false)
+  })
+  parentFolderOuter.querySelectorAll(":scope [data-folderpath]").forEach((el) => {
+    const path = (el as HTMLElement).dataset.folderpath
+    if (path) {
+      const entry = currentExplorerState.find((e) => e.path === path)
+      if (entry) entry.collapsed = false
+    }
+  })
+}
 
 /**
  * Toggles the state of a given folder

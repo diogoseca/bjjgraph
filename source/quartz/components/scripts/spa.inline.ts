@@ -45,6 +45,14 @@ window.addCleanup = (fn) => cleanupFns.add(fn)
 let p: DOMParser
 async function navigate(url: URL, isBack: boolean = false) {
   p = p || new DOMParser()
+
+  // Normalize spaces/%20 to hyphens so manually typed URLs resolve correctly
+  const decoded = decodeURIComponent(url.pathname)
+  if (decoded.includes(" ")) {
+    url = new URL(url.toString())
+    url.pathname = decoded.replace(/\s+/g, "-")
+  }
+
   const contents = await fetch(`${url}`)
     .then((res) => {
       const contentType = res.headers.get("content-type")

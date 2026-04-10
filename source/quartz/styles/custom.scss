@@ -2,6 +2,61 @@
 
 // put your custom CSS here!
 
+// Fix horizontal scroll: base.scss sets html { width: 100vw } which includes
+// scrollbar width. 100% uses the actual visible viewport instead.
+html {
+  width: 100% !important;
+}
+
+// Constrain grid column on mobile — "auto" lets content push the page wider than
+// the viewport; "minmax(0, 1fr)" takes available space without exceeding it.
+@media (max-width: 800px) {
+  #quartz-body {
+    grid-template-columns: minmax(0, 1fr) !important;
+  }
+}
+
+// ============================================================================
+// Sidebar Resizer (VS Code-style draggable divider)
+// ============================================================================
+
+#quartz-body {
+  position: relative;
+}
+
+.sidebar-resizer {
+  position: absolute;
+  left: var(--sidebar-width, 320px);
+  top: 0;
+  bottom: 0;
+  width: 6px;
+  transform: translateX(-50%);
+  cursor: col-resize;
+  z-index: 10;
+  background: transparent;
+  transition: background 0.15s;
+
+  &:hover,
+  &.dragging {
+    background: var(--secondary);
+    opacity: 0.5;
+  }
+
+  &.dragging {
+    opacity: 0.7;
+  }
+
+  // Hidden on mobile (sidebar is collapsed/repositioned)
+  @media (max-width: 800px) {
+    display: none;
+  }
+}
+
+// Hide resizer on homepage (sidebar is hidden)
+body[data-slug="index"] .sidebar-resizer {
+  display: none;
+}
+
 // ============================================================================
 // Landing Page (Homepage)
 // ============================================================================
@@ -19,7 +74,6 @@ body[data-slug="index"] .sidebar {
   margin: 0 !important;
   border: 0 !important;
   overflow: hidden !important;
-  clip: rect(0, 0, 0, 0) !important;
   pointer-events: none;
 }
 
@@ -36,6 +90,8 @@ body[data-slug="index"] #quartz-body {
     "grid-footer" !important;
   max-width: 400px;
   margin: 0 auto;
+  padding: 0 1rem;
+  box-sizing: border-box;
 }
 
 // Vertically center above-fold content
@@ -81,7 +137,7 @@ body[data-slug="index"] footer {
   font-size: 1.1rem;
   color: var(--dark);
   opacity: 0.7;
-  margin: 0 0 1.5rem 0;
+  margin: 0 0 2.5rem 0;
 }
 
 // Search + Roll bar (Google-style)
@@ -94,8 +150,10 @@ body[data-slug="index"] footer {
 // Stats grid (linked category counts)
 .stats-grid {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  gap: 0.75rem;
+  column-gap: 0.75rem;
+  row-gap: 0.25rem;
 }
 
 .stats-grid-secondary {
@@ -112,6 +170,11 @@ body[data-slug="index"] footer {
   background: transparent;
   transition: color 0.15s;
 
+  @media (max-width: 400px) {
+    font-size: 0.72rem;
+    padding: 5px 8px;
+  }
+
   &:hover {
     color: var(--secondary);
     background: transparent;
@@ -122,9 +185,43 @@ body[data-slug="index"] footer {
   font-weight: 600;
 }
 
+// Training summary — pinned to top of homepage
+body[data-slug="index"] #training-summary-home {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  z-index: 99;
+  padding: 0.4rem 0;
+}
+
+.training-summary-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  text-decoration: none;
+  color: var(--gray);
+  font-size: 0.8rem;
+  letter-spacing: 0.03em;
+  padding: 0.25rem 0.75rem;
+  border-radius: 16px;
+  transition: color 0.15s;
+
+  &:hover {
+    color: var(--secondary);
+  }
+}
+
+.training-summary-chevron {
+  font-size: 0.65rem;
+  opacity: 0.4;
+}
+
 .search-roll-bar {
   display: flex;
   max-width: 500px;
+  width: 100%;
   border: 1px solid var(--lightgray);
   border-radius: 24px;
   overflow: hidden;
@@ -139,6 +236,7 @@ body[data-slug="index"] footer {
 
 .search-trigger {
   flex: 1;
+  min-width: 0; // allow flex item to shrink below content size
   display: flex;
   align-items: center;
   gap: 0.75rem;
@@ -167,6 +265,7 @@ body[data-slug="index"] footer {
 }
 
 .roll-trigger {
+  flex-shrink: 0; // never cut off the Roll button
   display: flex;
   align-items: center;
   gap: 0.5rem;
@@ -202,6 +301,75 @@ body[data-slug="index"] footer {
   color: var(--gray);
   margin-bottom: 0.75rem;
   font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+// Game mode picker — subtle label that opens a dropdown
+.game-mode-picker {
+  position: relative;
+}
+
+.game-mode-label {
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  opacity: 0.45;
+  cursor: pointer;
+  transition: opacity 0.15s;
+
+  &:hover {
+    opacity: 0.75;
+  }
+}
+
+.game-mode-dropdown {
+  display: none;
+  position: absolute;
+  right: 0;
+  top: 100%;
+  margin-top: 0.3rem;
+  background: var(--light);
+  border: 1px solid var(--lightgray);
+  border-radius: 6px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  z-index: 100;
+  min-width: 120px;
+  overflow: hidden;
+
+  .open > & {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.game-mode-option {
+  padding: 0.45rem 0.75rem;
+  border: none;
+  background: none;
+  color: var(--dark);
+  font-size: 0.8rem;
+  text-align: left;
+  cursor: pointer;
+  transition: background 0.1s;
+
+  &:hover:not(.game-mode-option--locked) {
+    background: var(--highlight);
+  }
+
+  &.active {
+    font-weight: 600;
+    color: var(--secondary);
+  }
+
+  &.game-mode-option--locked {
+    color: var(--gray);
+    opacity: 0.45;
+    cursor: not-allowed;
+    font-style: italic;
+  }
 }
 
 .move-cards {
@@ -465,7 +633,6 @@ body[data-slug="index"] footer {
 .flashcard-label {
   font-size: 0.85rem;
   color: var(--gray);
-  margin-bottom: 0.5rem;
   text-transform: uppercase;
   letter-spacing: 0.05em;
 }
@@ -781,6 +948,17 @@ body[data-slug="index"] footer {
 .victory-subtitle {
   font-size: 1.1rem;
   color: var(--gray);
+  margin-bottom: 0.5rem;
+}
+
+.victory-mode-badge {
+  display: inline-block;
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: var(--gray);
+  background: var(--highlight);
+  padding: 0.2rem 0.6rem;
+  border-radius: 4px;
   margin-bottom: 1rem;
 }
 
@@ -987,6 +1165,135 @@ body[data-slug="index"] footer {
 }
 
 // ============================================================================
+// Outcome Cards (Transition/Submission pages)
+// ============================================================================
+
+.outcome-cards-container {
+  margin: 1.5rem 0;
+}
+
+.outcome-cards-from {
+  font-size: 0.88rem;
+  color: var(--gray);
+  margin-bottom: 0.5rem;
+
+  .outcome-from-label {
+    opacity: 0.6;
+  }
+
+  a {
+    color: var(--secondary);
+    text-decoration: none;
+    font-weight: 500;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.outcome-cards-title {
+  font-size: 1rem;
+  color: var(--gray);
+  margin-bottom: 0.75rem;
+  font-weight: 500;
+}
+
+.outcome-cards {
+  display: flex;
+  gap: 0.75rem;
+  overflow-x: auto;
+  padding: 0.25rem 0;
+  -webkit-overflow-scrolling: touch;
+}
+
+.outcome-card {
+  flex: 0 0 auto;
+  min-width: 150px;
+  padding: 0.85rem 1rem;
+  border: 1px solid var(--lightgray);
+  border-radius: 8px;
+  background: var(--light);
+  cursor: pointer;
+  transition: all 0.15s;
+
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+
+  &.outcome-success {
+    border-left: 3px solid #2e7d32;
+    &:hover {
+      border-color: #2e7d32;
+    }
+  }
+
+  &.outcome-failure {
+    border-left: 3px solid var(--gray);
+    &:hover {
+      border-color: var(--gray);
+    }
+  }
+
+  &.outcome-counter {
+    border-left: 3px solid #f9a825;
+    &:hover {
+      border-color: #f9a825;
+    }
+  }
+}
+
+.outcome-card-result {
+  font-size: 0.65rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  padding: 0.1em 0.45em;
+  border-radius: 3px;
+  display: inline-block;
+  margin-bottom: 0.4rem;
+
+  &.success {
+    background: rgba(46, 125, 50, 0.12);
+    color: #2e7d32;
+  }
+  &.failure {
+    background: rgba(128, 128, 128, 0.12);
+    color: var(--gray);
+  }
+  &.counter {
+    background: rgba(249, 168, 37, 0.12);
+    color: #f57f17;
+  }
+}
+
+.outcome-card-target {
+  font-weight: 500;
+  font-size: 0.92rem;
+  color: var(--dark);
+  margin-bottom: 0.2rem;
+}
+
+.outcome-card-probability {
+  font-size: 0.82rem;
+  color: var(--gray);
+  margin-bottom: 0.3rem;
+}
+
+.outcome-card .probability-fill {
+  background: var(--secondary);
+}
+.outcome-card.outcome-success .probability-fill {
+  background: #2e7d32;
+}
+.outcome-card.outcome-failure .probability-fill {
+  background: var(--gray);
+}
+.outcome-card.outcome-counter .probability-fill {
+  background: #f9a825;
+}
+
+// ============================================================================
 // Opponent Turn Overlay
 // ============================================================================
 
@@ -1071,7 +1378,6 @@ body[data-slug="index"] footer {
   }
 }
 
-
 // ============================================================================
 // Global Dark Mode Scrollbar Styles
 // ============================================================================
@@ -1113,6 +1419,23 @@ article {
 .content-section {
   // Order values injected dynamically via inline <style> tag from edge
   order: 0; // Default fallback
+}
+
+// Fade the overview paragraph on content pages (SEO text, not useful to readers)
+#overview > p:first-of-type {
+  font-size: 0.82rem;
+  opacity: 0.6;
+  line-height: 1.5;
+  margin-bottom: 0.5rem;
+}
+
+// Question-based subtitles below section headings (SEO + readability)
+.section-subtitle {
+  font-size: 0.85rem;
+  opacity: 0.55;
+  line-height: 1.5;
+  margin-top: -0.5rem;
+  margin-bottom: 0.75rem;
 }
 
 // ----------------------------------------------------------------------------
@@ -1196,32 +1519,13 @@ article {
   margin: 1.5rem 0;
 }
 
-.training-summary {
-  display: flex;
-  justify-content: center;
-  gap: 2rem;
-  margin-bottom: 2rem;
-  padding: 1.5rem;
-  background: var(--highlight);
-  border-radius: 12px;
-}
-
-.training-stat {
-  text-align: center;
-}
-
-.training-stat-value {
-  display: block;
-  font-size: 2rem;
-  font-weight: 700;
-  color: var(--secondary);
-}
-
-.training-stat-label {
-  font-size: 0.85rem;
+// Streak display (inline with progress bar)
+.training-streak-display {
+  font-size: 0.8rem;
   color: var(--gray);
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
+  font-weight: 500;
+  margin-left: auto;
+  padding-left: 0.5rem;
 }
 
 .training-section {
@@ -1235,6 +1539,56 @@ article {
     margin-bottom: 0.75rem;
     border-bottom: 1px solid var(--lightgray);
     padding-bottom: 0.5rem;
+  }
+}
+
+// Scrollable training lists with fade edges (10+ items)
+.training-scroll-list {
+  max-height: 50vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+
+  mask-image: linear-gradient(
+    to bottom,
+    transparent,
+    black 1.2rem,
+    black calc(100% - 1.2rem),
+    transparent
+  );
+  -webkit-mask-image: linear-gradient(
+    to bottom,
+    transparent,
+    black 1.2rem,
+    black calc(100% - 1.2rem),
+    transparent
+  );
+
+  &.scroll-top {
+    mask-image: linear-gradient(to bottom, black, black calc(100% - 1.2rem), transparent);
+    -webkit-mask-image: linear-gradient(to bottom, black, black calc(100% - 1.2rem), transparent);
+  }
+
+  &.scroll-bottom {
+    mask-image: linear-gradient(to bottom, transparent, black 1.2rem, black);
+    -webkit-mask-image: linear-gradient(to bottom, transparent, black 1.2rem, black);
+  }
+
+  &.scroll-top.scroll-bottom {
+    mask-image: none;
+    -webkit-mask-image: none;
+  }
+
+  &::-webkit-scrollbar {
+    width: 3px;
+  }
+  &::-webkit-scrollbar-thumb {
+    background: var(--lightgray);
+    border-radius: 3px;
+  }
+
+  @media (max-width: 600px) {
+    max-height: 40vh;
   }
 }
 
@@ -1346,6 +1700,51 @@ article {
   }
 }
 
+.training-suggestions {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  margin-bottom: 1rem;
+}
+
+.suggestion-label {
+  font-size: 0.85rem;
+  color: var(--gray);
+  margin-bottom: 0.25rem;
+  font-style: italic;
+}
+
+.suggestion-row {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.5rem 0.75rem;
+  border-radius: 6px;
+  border: 1px solid var(--lightgray);
+  background: var(--light);
+
+  &:hover {
+    background: var(--highlight);
+  }
+}
+
+.suggestion-name {
+  flex: 1;
+  font-size: 0.9rem;
+  color: var(--dark);
+  font-weight: 500;
+}
+
+.suggestion-reason {
+  font-size: 0.75rem;
+  color: var(--gray);
+  white-space: nowrap;
+
+  @media (max-width: 600px) {
+    display: none;
+  }
+}
+
 .technique-search-results {
   display: flex;
   flex-direction: column;
@@ -1400,6 +1799,11 @@ article {
   display: flex;
   gap: 1.5rem;
   margin-bottom: 1.5rem;
+
+  @media (max-width: 800px) {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
 }
 
 .training-goal {
@@ -1443,119 +1847,132 @@ article {
   }
 }
 
-// Coverage
-.training-coverage {
-  padding: 0.75rem 0;
+// Known Techniques grouped list
+.known-group-header {
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--gray);
+  padding: 0.75rem 0 0.25rem;
+  margin-top: 0.5rem;
+
+  &:first-child {
+    margin-top: 0;
+  }
+
+  &.known-group-due {
+    color: #e65100;
+  }
+  &.known-group-mastered {
+    color: #f9a825;
+  }
+  &.known-group-explored {
+    color: var(--secondary);
+    opacity: 0.7;
+  }
 }
 
-.coverage-overall {
-  margin-bottom: 0.75rem;
+// Explored row (visited but not trained)
+.explored-row {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 0.75rem;
+  border: 1px solid var(--lightgray);
+  border-radius: 6px;
+  background: var(--light);
+  margin-bottom: 0.25rem;
+  opacity: 0.7;
+
+  .explored-name {
+    flex: 1;
+    font-size: 0.85rem;
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .explored-date {
+    font-size: 0.7rem;
+    color: var(--gray);
+    flex-shrink: 0;
+  }
+
+  .training-add-btn {
+    flex-shrink: 0;
+  }
 }
 
-.coverage-text {
-  font-size: 0.9rem;
-  color: var(--dark);
-  display: block;
-  margin-bottom: 0.4rem;
+// Mastery bar (per-question progress)
+.mastery-info {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  flex-shrink: 0;
 }
 
-.coverage-bar {
-  height: 10px;
+.mastery-bar-container {
+  width: 40px;
+  height: 6px;
   background: var(--lightgray);
-  border-radius: 5px;
+  border-radius: 3px;
   overflow: hidden;
 }
 
-.coverage-fill {
+.mastery-bar-fill {
   height: 100%;
   background: var(--secondary);
-  border-radius: 5px;
+  border-radius: 3px;
   transition: width 0.3s ease;
 }
 
-.coverage-breakdown {
-  display: flex;
-  gap: 1.5rem;
-  margin-top: 0.5rem;
-}
-
-.coverage-type {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  font-size: 0.85rem;
-  color: var(--gray);
-}
-
-// Timeline
-.training-timeline {
-  display: flex;
-  flex-direction: column;
-  gap: 0.4rem;
-}
-
-.timeline-row {
-  display: flex;
-  align-items: center;
-  gap: 0.75rem;
-  padding: 0.6rem 0.75rem;
-  border-radius: 6px;
-  border: 1px solid var(--lightgray);
-}
-
-.timeline-status {
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  flex-shrink: 0;
-
-  &.timeline-overdue {
-    background: #c62828;
-  }
-  &.timeline-due {
-    background: #e65100;
-  }
-  &.timeline-upcoming {
-    background: var(--secondary);
-  }
-  &.timeline-mastered {
-    background: #f9a825;
-  }
-}
-
-.timeline-info {
-  flex: 1;
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  min-width: 0;
-}
-
-.timeline-name {
-  font-size: 0.9rem;
-  font-weight: 500;
-  color: var(--dark);
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
-.timeline-meta {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  flex-shrink: 0;
-}
-
-.timeline-learned {
+.mastery-pct {
   font-size: 0.75rem;
   color: var(--gray);
+  min-width: 2rem;
+  text-align: right;
 }
 
-.timeline-next {
+.training-card-status {
   font-size: 0.8rem;
-  font-weight: 500;
-  color: var(--dark);
+  color: var(--gray);
+  white-space: nowrap;
+}
+
+// "Show more" pagination button
+.training-show-more {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px dashed var(--lightgray);
+  border-radius: 6px;
+  background: transparent;
+  color: var(--gray);
+  cursor: pointer;
+  font-size: 0.85rem;
+  margin-top: 0.25rem;
+
+  &:hover {
+    color: var(--secondary);
+    border-color: var(--secondary);
+  }
+}
+
+// Move graph to top on Training page (after title, before dashboard)
+body[data-slug="training"] .popover-hint {
+  display: flex;
+  flex-direction: column;
+}
+
+body[data-slug="training"] .popover-hint > *:nth-child(1) {
+  order: -3; // Breadcrumbs
+}
+body[data-slug="training"] .popover-hint > *:nth-child(2) {
+  order: -2; // ArticleTitle
+}
+body[data-slug="training"] .graph-outer {
+  order: -1; // Graph → 3rd (right after title)
 }
 
 // Settings
@@ -1622,41 +2039,182 @@ article {
   }
 }
 
-// Top Bar (Training link + Sign in)
-.top-bar {
-  position: fixed;
-  top: 0;
-  right: 0;
-  z-index: 999;
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-  padding: 0.5rem 1rem;
+// Game Mode selector (segmented pill control)
+.training-setting-row--game-mode {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.5rem;
 }
 
-.top-bar-link {
+.game-mode-selector {
+  display: flex;
+  border: 1px solid var(--lightgray);
+  border-radius: 6px;
+  overflow: hidden;
+  width: 100%;
+}
+
+.game-mode-btn {
+  flex: 1;
+  padding: 0.5rem 0.75rem;
+  border: none;
+  border-right: 1px solid var(--lightgray);
+  background: var(--light);
+  color: var(--dark);
   font-size: 0.85rem;
   font-weight: 500;
-  color: var(--secondary);
-  text-decoration: none;
-  padding: 0.3rem 0.6rem;
-  border-radius: 6px;
-  transition: background 0.15s;
+  cursor: pointer;
+  transition:
+    background 0.15s,
+    color 0.15s;
+  text-align: center;
 
-  &:hover {
+  &:last-child {
+    border-right: none;
+  }
+
+  &:hover:not(.game-mode-btn--locked):not(.active) {
     background: var(--highlight);
+  }
+
+  &.active {
+    background: var(--secondary);
+    color: white;
+    font-weight: 600;
+  }
+
+  &.game-mode-btn--locked {
+    color: var(--gray);
+    opacity: 0.5;
+    cursor: not-allowed;
+    font-style: italic;
   }
 }
 
-.top-bar-signin {
-  font-size: 0.85rem;
-  color: var(--gray);
-  text-decoration: none;
-  padding: 0.3rem 0.6rem;
+// Flashcard label row (label + "Add to Training" button)
+.flashcard-label-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+}
+
+.flashcard-add-training {
+  font-size: 0.8rem;
+  font-weight: 500;
+  padding: 0.25rem 0.6rem;
+  border: 1px solid var(--secondary);
+  border-radius: 6px;
+  background: transparent;
+  color: var(--secondary);
+  cursor: pointer;
+  transition: all 0.15s;
 
   &:hover {
+    background: var(--secondary);
+    color: var(--light);
+  }
+
+  &.hidden {
+    display: none;
+  }
+}
+
+// ============================================================================
+// Flashcard Dismiss / Collapsed
+// ============================================================================
+
+.flashcard-label-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.flashcard-dismiss-btn {
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  color: var(--gray);
+  padding: 0 0.25rem;
+  line-height: 1;
+  opacity: 0.5;
+  transition:
+    opacity 0.15s,
+    color 0.15s;
+
+  &:hover {
+    opacity: 1;
     color: var(--dark);
   }
+}
+
+.flashcard-collapsed {
+  padding: 0.75rem 1rem;
+  border: 1px dashed var(--lightgray);
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--gray);
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  transition:
+    border-color 0.15s,
+    color 0.15s;
+
+  &:hover {
+    border-color: var(--secondary);
+    color: var(--secondary);
+  }
+
+  &.hidden {
+    display: none;
+  }
+}
+
+.flashcard-collapsed-expand {
+  font-size: 0.7rem;
+}
+
+// ============================================================================
+// Training Start Session + Completion Banner
+// ============================================================================
+
+.training-session-btn-area {
+  margin-bottom: 1rem;
+}
+
+.training-start-session-btn {
+  width: 100%;
+  padding: 0.85rem 1.5rem;
+  border: 2px solid var(--secondary);
+  border-radius: 10px;
+  background: var(--secondary);
+  color: var(--light);
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.15s;
+
+  &:hover {
+    opacity: 0.9;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  }
+}
+
+.training-completion-banner {
+  padding: 1rem 1.5rem;
+  background: #2e7d32;
+  color: white;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 1rem;
+  margin-bottom: 1rem;
 }
 
 // ============================================================================
@@ -1760,4 +2318,777 @@ summary::-webkit-details-marker {
   #toc-content ul > li > a:hover {
     color: #fff !important;
   }
+}
+
+// ── Title add-to-training button ─────────────────────────────────────
+.title-add-training {
+  display: inline-flex;
+  align-items: center;
+  vertical-align: middle;
+  margin-left: 0.4em;
+  font-size: 0.5em;
+  line-height: 1;
+}
+
+.title-add-btn {
+  background: none;
+  border: none;
+  padding: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: var(--gray);
+  font-size: 1em;
+  transition:
+    color 0.15s,
+    opacity 0.15s;
+
+  &:hover {
+    color: var(--secondary);
+  }
+
+  // Green filled bookmark for "added" state
+  &--added {
+    color: #16a34a;
+
+    &:hover {
+      color: #dc2626;
+    }
+  }
+}
+
+// Counter scroll animation
+.title-add-counter {
+  display: inline-flex;
+  flex-direction: column;
+  overflow: hidden;
+  height: 1.4em;
+  line-height: 1.4em;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+}
+
+.title-add-counter span {
+  display: block;
+  height: 1.4em;
+  transition: transform 0.4s ease-out;
+}
+
+.title-add-counter.animate span {
+  transform: translateY(-100%);
+}
+
+// Green for add counter
+.title-add-counter .count-new {
+  color: #16a34a;
+}
+
+// Red for remove counter
+.title-add-counter.counter-remove .count-new {
+  color: #dc2626;
+}
+
+.title-add-counter.counter-remove .count-old {
+  color: inherit;
+}
+
+// ── Explorer SRS overlay (Training page) ────────────────────────────
+body[data-slug="training"] .explorer-faded {
+  opacity: 0.3;
+  transition: opacity 0.15s;
+
+  &:hover {
+    opacity: 0.7;
+  }
+}
+
+// ── Tree Explorer page ──────────────────────────────────────────────
+
+.tree-explorer {
+  margin: 1rem 0;
+}
+
+.tree-search-area {
+  position: relative;
+  margin-bottom: 1.5rem;
+}
+
+.tree-search-input {
+  width: 100%;
+  padding: 0.7rem 1rem;
+  font-size: 0.95rem;
+  border: 1.5px solid var(--lightgray);
+  border-radius: 8px;
+  background: var(--light);
+  color: var(--dark);
+  outline: none;
+  transition: border-color 0.2s ease;
+
+  &:focus {
+    border-color: var(--secondary);
+  }
+
+  &::placeholder {
+    color: var(--gray);
+    opacity: 0.6;
+  }
+}
+
+.tree-search-results {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  background: var(--light);
+  border: 1.5px solid var(--lightgray);
+  border-top: none;
+  border-radius: 0 0 8px 8px;
+  max-height: 300px;
+  overflow-y: auto;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.tree-search-result-item {
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  font-size: 0.88rem;
+  color: var(--dark);
+  transition: background 0.15s ease;
+
+  &:hover {
+    background: var(--highlight);
+  }
+}
+
+.tree-position-header {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: var(--secondary);
+  margin-bottom: 0.75rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 2px solid var(--lightgray);
+}
+
+// ── Graph expansion (shared by Tree Explorer) ───────────────────────
+
+.graph-expand-btn {
+  color: var(--gray);
+  cursor: pointer;
+  font-size: 0.65rem;
+  font-weight: 600;
+  line-height: 1;
+  user-select: none;
+  opacity: 0.4;
+  transition:
+    opacity 0.2s ease,
+    color 0.2s ease;
+  flex-shrink: 0;
+  padding: 0 3px;
+
+  &::before {
+    content: "[";
+  }
+  &::after {
+    content: "]";
+  }
+
+  &:hover {
+    opacity: 0.85;
+    color: var(--tertiary);
+  }
+}
+
+.graph-inline {
+  padding-left: 0.75rem;
+  margin: 0.2rem 0;
+  border-left: 1.5px solid var(--lightgray);
+}
+
+.graph-role-header {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  margin: 0.4rem 0 0.15rem;
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  opacity: 0.75;
+
+  .graph-role-line {
+    flex: 1;
+    height: 1px;
+    opacity: 0.3;
+  }
+
+  .graph-role-label {
+    flex-shrink: 0;
+  }
+
+  &.role-top {
+    color: #2563eb;
+    .graph-role-line {
+      background: #2563eb;
+    }
+  }
+
+  &.role-bottom {
+    color: #c62828;
+    .graph-role-line {
+      background: #c62828;
+    }
+  }
+}
+
+.graph-technique {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  padding: 0.08rem 0;
+  font-size: 0.82rem;
+  line-height: 1.35;
+
+  .graph-technique-name {
+    color: var(--dark);
+    opacity: 0.7;
+  }
+
+  .graph-technique-pct {
+    color: var(--gray);
+    font-size: 0.7rem;
+    opacity: 0.5;
+    flex-shrink: 0;
+  }
+}
+
+.graph-outcome {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 0.06rem 0;
+  font-size: 0.78rem;
+  line-height: 1.35;
+
+  .graph-outcome-icon {
+    font-size: 0.7rem;
+    flex-shrink: 0;
+    width: 1em;
+    text-align: center;
+  }
+
+  .graph-outcome-pct {
+    font-size: 0.66rem;
+    opacity: 0.55;
+    flex-shrink: 0;
+    min-width: 2em;
+  }
+
+  .graph-outcome-arrow {
+    opacity: 0.35;
+    font-size: 0.62rem;
+    flex-shrink: 0;
+  }
+
+  .graph-outcome-name {
+    opacity: 0.7;
+  }
+
+  &.outcome-success {
+    .graph-outcome-icon,
+    .graph-outcome-name {
+      color: #2e7d32;
+    }
+  }
+
+  &.outcome-failure {
+    .graph-outcome-icon,
+    .graph-outcome-name {
+      color: var(--gray);
+      opacity: 0.45;
+    }
+  }
+
+  &.outcome-counter {
+    .graph-outcome-icon,
+    .graph-outcome-name {
+      color: #e65100;
+    }
+  }
+}
+
+.graph-cycle {
+  font-style: italic;
+  opacity: 0.4 !important;
+}
+
+// ============================================================================
+// Auth UI (Sign-in modal + Training Dashboard prompt/account)
+// ============================================================================
+
+// Prompt banner (above Today's Session)
+.auth-prompt {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1rem 1.25rem;
+  margin-bottom: 1rem;
+  background: var(--highlight);
+  border: 1.5px solid var(--lightgray);
+  border-radius: 10px;
+}
+
+.auth-prompt-text {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+
+  strong {
+    font-size: 0.95rem;
+    color: var(--dark);
+  }
+
+  span {
+    font-size: 0.82rem;
+    color: var(--darkgray);
+  }
+}
+
+.auth-prompt-actions {
+  display: flex;
+  gap: 0.5rem;
+  flex-shrink: 0;
+}
+
+.auth-prompt-btn {
+  padding: 0.4rem 1rem;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+  transition: opacity 0.15s ease;
+
+  &:hover {
+    opacity: 0.85;
+  }
+}
+
+.auth-prompt-signup {
+  background: var(--secondary);
+  color: var(--light);
+}
+
+.auth-prompt-signin {
+  background: transparent;
+  color: var(--secondary);
+  border: 1.5px solid var(--secondary);
+}
+
+// Save prompt (inline CTA for unauthenticated users)
+.save-prompt {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  padding: 0.75rem 1rem;
+  margin-top: 0.75rem;
+  background: var(--highlight);
+  border: 1.5px dashed var(--lightgray);
+  border-radius: 8px;
+  font-size: 0.85rem;
+  color: var(--darkgray);
+}
+
+.save-prompt-btn {
+  padding: 0.35rem 0.85rem;
+  border-radius: 6px;
+  font-size: 0.82rem;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+  background: var(--secondary);
+  color: var(--light);
+  white-space: nowrap;
+  transition: opacity 0.15s ease;
+
+  &:hover {
+    opacity: 0.85;
+  }
+}
+
+// Profile strip (authenticated state, replaces auth prompt)
+.auth-profile {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 1.25rem;
+  margin-bottom: 1rem;
+  background: var(--highlight);
+  border: 1.5px solid var(--lightgray);
+  border-radius: 10px;
+}
+
+.auth-profile--loading {
+  justify-content: center;
+}
+
+.auth-profile-loading {
+  font-size: 0.82rem;
+  color: var(--gray);
+}
+
+.auth-profile-avatar {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+
+.auth-profile-avatar--initial {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--secondary);
+  color: var(--light);
+  font-size: 0.95rem;
+  font-weight: 700;
+}
+
+.auth-profile-info {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+}
+
+.auth-profile-identity {
+  display: flex;
+  align-items: baseline;
+  gap: 0.4rem;
+  min-width: 0;
+}
+
+.auth-profile-name {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--dark);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.auth-profile-email {
+  font-size: 0.8rem;
+  color: var(--darkgray);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.auth-profile-meta {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.auth-profile-providers {
+  display: flex;
+  gap: 0.3rem;
+}
+
+.auth-profile-provider {
+  font-size: 0.68rem;
+  font-weight: 600;
+  padding: 0.1rem 0.4rem;
+  border-radius: 4px;
+  background: var(--lightgray);
+  color: var(--darkgray);
+}
+
+.auth-profile-sync {
+  font-size: 0.72rem;
+  color: var(--gray);
+}
+
+.auth-profile-signout {
+  padding: 0.3rem 0.75rem;
+  border: 1.5px solid var(--lightgray);
+  border-radius: 6px;
+  background: transparent;
+  color: var(--darkgray);
+  font-size: 0.8rem;
+  cursor: pointer;
+  flex-shrink: 0;
+  transition: border-color 0.15s ease;
+
+  &:hover {
+    border-color: var(--gray);
+  }
+
+  &:focus-visible {
+    outline: 2px solid var(--secondary);
+    outline-offset: 2px;
+  }
+}
+
+.auth-profile-error {
+  font-size: 0.78rem;
+  color: var(--gray);
+}
+
+// Account section (inside Settings)
+.auth-account {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75rem 0;
+  margin-top: 0.5rem;
+  border-top: 1px solid var(--lightgray);
+}
+
+.auth-account-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+}
+
+.auth-account-email {
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: var(--dark);
+}
+
+.auth-account-sync {
+  font-size: 0.75rem;
+  color: var(--gray);
+}
+
+.auth-account-signout {
+  padding: 0.3rem 0.75rem;
+  border: 1.5px solid var(--lightgray);
+  border-radius: 6px;
+  background: transparent;
+  color: var(--darkgray);
+  font-size: 0.8rem;
+  cursor: pointer;
+  transition: border-color 0.15s ease;
+
+  &:hover {
+    border-color: var(--gray);
+  }
+}
+
+// Modal overlay
+.auth-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 9997;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: fadeIn 0.2s ease;
+}
+
+.auth-panel {
+  background: var(--light);
+  border-radius: 12px;
+  padding: 2rem;
+  max-width: 380px;
+  width: 90%;
+  position: relative;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+}
+
+.auth-close {
+  position: absolute;
+  top: 0.75rem;
+  right: 1rem;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  color: var(--gray);
+  cursor: pointer;
+  line-height: 1;
+  padding: 0;
+
+  &:hover {
+    color: var(--dark);
+  }
+}
+
+.auth-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--dark);
+  margin: 0 0 1.25rem;
+  text-align: center;
+}
+
+.auth-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.auth-field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+
+  label {
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: var(--darkgray);
+  }
+}
+
+.auth-input {
+  padding: 0.6rem 0.75rem;
+  border: 1.5px solid var(--lightgray);
+  border-radius: 8px;
+  background: var(--light);
+  color: var(--dark);
+  font-size: 0.9rem;
+
+  &:focus {
+    outline: none;
+    border-color: var(--secondary);
+  }
+
+  &::placeholder {
+    color: var(--gray);
+    opacity: 0.5;
+  }
+}
+
+.auth-error {
+  font-size: 0.82rem;
+  color: #c62828;
+  padding: 0.3rem 0;
+}
+
+.auth-btn {
+  width: 100%;
+  padding: 0.65rem;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+  transition: opacity 0.15s ease;
+
+  &:hover:not(:disabled) {
+    opacity: 0.85;
+  }
+
+  &:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+}
+
+.auth-btn-primary {
+  background: var(--secondary);
+  color: var(--light);
+  margin-top: 0.25rem;
+}
+
+.auth-btn-google {
+  background: var(--light);
+  color: var(--dark);
+  border: 1.5px solid var(--lightgray);
+
+  &:hover:not(:disabled) {
+    background: var(--highlight);
+    opacity: 1;
+  }
+}
+
+.auth-divider {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin: 1rem 0;
+  color: var(--gray);
+  font-size: 0.8rem;
+
+  &::before,
+  &::after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: var(--lightgray);
+  }
+}
+
+.auth-footer {
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 0.82rem;
+  color: var(--darkgray);
+}
+
+.auth-link {
+  background: none;
+  border: none;
+  color: var(--secondary);
+  cursor: pointer;
+  font-size: inherit;
+  padding: 0;
+  font-weight: 600;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+// Responsive
+@media (max-width: 800px) {
+  .auth-prompt {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .auth-profile {
+    flex-wrap: wrap;
+  }
+
+  .auth-profile-info {
+    flex: 1 1 0;
+  }
+
+  .auth-profile-signout {
+    margin-left: auto;
+  }
+
+  .auth-panel {
+    max-width: 100%;
+    width: 95%;
+    padding: 1.5rem;
+  }
+}
+
+/* Hide "Test Your Knowledge" section visually but keep in DOM for SEO crawlers.
+   Content remains in JSON-LD FAQPage schema for rich results. */
+#knowledge-assessment {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+#toc-content li:has(> a[data-for="test-your-knowledge"]) {
+  display: none;
 }

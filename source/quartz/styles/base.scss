@@ -197,10 +197,28 @@ a {
       gap: 1rem;
       top: 0;
       box-sizing: border-box;
-      padding: calc(#{$topSpacing} * 1.5) 3rem 0 3rem;
+      // Horizontal padding lives on the direct children (not the sidebar
+      // itself) so that scroll events fired in the "padded" area still reach
+      // the explorer's scroll container instead of bubbling to the page.
+      padding: calc(#{$topSpacing} * 1.5) 0 0 0;
       display: flex;
       height: 100vh;
       position: sticky;
+
+      // Non-scrolling items (Search, etc.) use margin so their internal
+      // sizing is unchanged.
+      & > *:not(.explorer) {
+        margin-left: 3rem;
+        margin-right: 3rem;
+      }
+
+      // The explorer uses padding so the 3rem zones are *inside* its scroll
+      // viewport — scroll wheel events on those zones now scroll the explorer.
+      & > .explorer {
+        box-sizing: border-box;
+        padding-left: 3rem;
+        padding-right: 3rem;
+      }
     }
 
     & .sidebar.left {

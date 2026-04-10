@@ -1,73 +1,79 @@
 // Track section visibility with proportional opacity based on how much of the SECTION is visible
+let lastBestId: string | null = null
+
 function updateActiveSection() {
   const headers = Array.from(
     document.querySelectorAll("h1[id], h2[id], h3[id], h4[id], h5[id], h6[id]"),
-  )
+  ).filter((h) => (h as HTMLElement).offsetParent !== null)
   if (headers.length === 0) return
 
-  const viewportTop = 0
-  const viewportBottom = window.innerHeight
+  const viewportHeight = window.innerHeight
 
-  // Calculate section boundaries and what percentage of each section is visible
-  const sectionVisibility: Map<string, number> = new Map()
-
+  // --- BATCH ALL READS ---
+  const rects: DOMRect[] = new Array(headers.length)
   for (let i = 0; i < headers.length; i++) {
-    const header = headers[i]
-    const nextHeader = headers[i + 1]
-
-    // Section starts at this header
-    const headerRect = header.getBoundingClientRect()
-    const sectionTop = headerRect.top
-
-    // Section ends at next header or at end of content
-    let sectionBottom: number
-    if (nextHeader) {
-      sectionBottom = nextHeader.getBoundingClientRect().top
-    } else {
-      // Last section: extend to end of document content
-      const article = document.querySelector("article")
-      if (article) {
-        sectionBottom = article.getBoundingClientRect().bottom
-      } else {
-        sectionBottom = document.body.getBoundingClientRect().bottom
-      }
-    }
-
-    const sectionHeight = sectionBottom - sectionTop
-
-    // Calculate visible portion of this section within viewport
-    const visibleTop = Math.max(sectionTop, viewportTop)
-    const visibleBottom = Math.min(sectionBottom, viewportBottom)
-    const visibleHeight = Math.max(0, visibleBottom - visibleTop)
-
-    // Calculate what percentage of the SECTION is visible (not viewport)
-    const visibility = sectionHeight > 0 ? visibleHeight / sectionHeight : 0
-
-    sectionVisibility.set(header.id, visibility)
+    rects[i] = headers[i].getBoundingClientRect()
   }
+  const articleBottom =
+    document.querySelector("article")?.getBoundingClientRect().bottom ??
+    document.body.getBoundingClientRect().bottom
 
-  // Update TOC entries with proportional opacity
-  const tocEntries = document.querySelectorAll("#toc-content a[data-for]")
+  // --- COMPUTE (no DOM access) ---
   const minOpacity = 0.35
   const maxOpacity = 0.85
+  let bestSlug: string | null = null
+  let bestVisibility = 0
+  const updates: Array<{ slug: string; opacity: string }> = []
 
+  for (let i = 0; i < headers.length; i++) {
+    const sectionTop = rects[i].top
+    const sectionBottom = i + 1 < headers.length ? rects[i + 1].top : articleBottom
+    const sectionHeight = sectionBottom - sectionTop
+
+    const visibleTop = Math.max(sectionTop, 0)
+    const visibleBottom = Math.min(sectionBottom, viewportHeight)
+    const visibleHeight = Math.max(0, visibleBottom - visibleTop)
+    const denominator = Math.min(sectionHeight, viewportHeight)
+    const visibility = denominator > 0 ? visibleHeight / denominator : 0
+
+    const opacity = minOpacity + visibility * (maxOpacity - minOpacity)
+    const slug = headers[i].id
+
+    updates.push({ slug, opacity: opacity.toFixed(2) })
+
+    if (visibility > bestVisibility) {
+      bestVisibility = visibility
+      bestSlug = slug
+    }
+  }
+
+  // Pre-read scroll target before any writes (avoids forced reflow)
+  const tocContent = document.getElementById("toc-content")
+  let targetScrollTop: number | null = null
+  if (bestSlug && bestSlug !== lastBestId && tocContent) {
+    const bestEntry = tocContent.querySelector(`a[data-for="${bestSlug}"]`)
+    const li = (bestEntry as HTMLElement)?.parentElement
+    if (li) {
+      targetScrollTop =
+        li.offsetTop - tocContent.offsetTop - tocContent.clientHeight / 2 + li.clientHeight / 2
+    }
+  }
+
+  // --- BATCH ALL WRITES ---
+  const tocEntries = document.querySelectorAll("#toc-content a[data-for]")
   tocEntries.forEach((entry) => {
     const slug = entry.getAttribute("data-for")
-    const visibility = slug ? sectionVisibility.get(slug) || 0 : 0
-
-    // Interpolate opacity based on section visibility
-    // 0% visible → minOpacity, 100% visible → maxOpacity
-    const opacity = minOpacity + visibility * (maxOpacity - minOpacity)
-
-    ;(entry as HTMLElement).style.opacity = opacity.toFixed(2)
-
-    // Add/remove class for any additional styling hooks
-    if (visibility > 0.05) {
-      entry.classList.add("in-view")
-    } else {
-      entry.classList.remove("in-view")
+    const update = updates.find((u) => u.slug === slug)
+    if (update) {
+      ;(entry as HTMLElement).style.opacity = update.opacity
     }
   })
+
+  // Auto-scroll TOC only when the active section changes
+  if (bestSlug !== lastBestId && targetScrollTop !== null && tocContent) {
+    lastBestId = bestSlug
+    tocContent.scrollTop = targetScrollTop
+  }
 }
 
 function setupToc() {
@@ -75,18 +81,31 @@ function setupToc() {
   const tocContent = document.getElementById("toc-content")
   if (tocContent) {
     const preventPageScroll = (e: WheelEvent) => {
-      // Stop event from bubbling to page - let TOC scroll naturally
       e.stopPropagation()
     }
-
     tocContent.addEventListener("wheel", preventPageScroll, { passive: true })
     window.addCleanup(() => tocContent.removeEventListener("wheel", preventPageScroll))
   }
 
-  // Set up scroll-based section tracking
+  // Set up scroll-based section tracking with rAF coalescing
+  lastBestId = null
   updateActiveSection()
-  window.addEventListener("scroll", updateActiveSection, { passive: true })
-  window.addCleanup(() => window.removeEventListener("scroll", updateActiveSection))
+
+  let rafId = 0
+  const onScroll = () => {
+    if (!rafId) {
+      rafId = requestAnimationFrame(() => {
+        rafId = 0
+        updateActiveSection()
+      })
+    }
+  }
+
+  window.addEventListener("scroll", onScroll, { passive: true })
+  window.addCleanup(() => {
+    window.removeEventListener("scroll", onScroll)
+    cancelAnimationFrame(rafId)
+  })
 }
 
 window.addEventListener("resize", setupToc)
