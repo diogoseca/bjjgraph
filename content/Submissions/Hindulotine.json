@@ -1,0 +1,145 @@
+{
+  "name": "Hindulotine",
+  "description": "Learn the Hindulotine choke, an advanced guillotine variation using a chin strap grip from front headlock control. Complete guide with setups, mechanics, and defense.",
+  "tags": [
+    "submission",
+    "choke",
+    "hindulotine",
+    "guillotine-variation",
+    "front-headlock",
+    "advanced",
+    "no-gi",
+    "gi",
+    "blood-choke"
+  ],
+  "is_family": true,
+  "submission_category": "Choke",
+  "submission_type": "Blood Choke",
+  "target_area": "Carotid arteries and trachea",
+  "starting_position": "Hindulotine",
+  "from_position": "Hindulotine/Top",
+  "success_rate": 40,
+  "variant_uniqueness": "Chin strap figure-four grip prevents forearm slippage",
+  "overview": "The Hindulotine is a high-percentage guillotine choke variation that derives its effectiveness from a unique chin strap grip configuration. Originating from the 10th Planet Jiu-Jitsu system, this blood choke targets the carotid arteries through a modified front headlock position where the choking arm threads deep under the opponent's chin and the hand wraps to grip the attacker's own opposite wrist, creating a figure-four locking mechanism that generates tremendous compressive force with minimal muscular effort.\n\nWhat separates the Hindulotine from conventional guillotine attacks is the mechanical advantage created by the grip. The chin strap configuration prevents the choking arm from sliding off the chin, a common failure point in standard guillotines. The figure-four structure allows the attacker to apply increasing pressure by closing their elbows together and arching their back, rather than relying on raw grip strength. This makes the technique particularly effective in no-gi settings where sweat makes traditional clasped-hand grips unreliable.\n\nStrategically, the Hindulotine serves as both a primary finishing technique and a gateway to other front headlock attacks. When the opponent defends by turning their chin or attempting to posture, the attacker can transition to an anaconda choke, darce choke, or arm-in guillotine variation. This creates a submission chain that forces the defender to address multiple threats simultaneously, increasing the overall finishing rate of the front headlock position.",
+  "safety_considerations": {
+    "injury_risks": [
+      {
+        "injury": "Loss of consciousness from bilateral carotid compression",
+        "severity": "CRITICAL",
+        "recovery_time": "Seconds to minutes if released promptly; prolonged compression can cause brain damage"
+      },
+      {
+        "injury": "Tracheal damage from incorrect pressure angle crushing the windpipe",
+        "severity": "High",
+        "recovery_time": "2-6 weeks depending on severity; may require medical intervention"
+      },
+      {
+        "injury": "Cervical spine strain from forced neck flexion under load",
+        "severity": "Medium",
+        "recovery_time": "1-3 weeks with rest and physical therapy"
+      }
+    ],
+    "application_speed": "Blood chokes can cause unconsciousness in 4-10 seconds once fully locked. Apply gradually in training and never crank suddenly. The chin strap grip tightens faster than standard guillotine grips due to the figure-four leverage.",
+    "tap_signals": [
+      "Verbal tap saying 'tap' clearly",
+      "Physical tap on partner's body, arm, or leg with hand or foot",
+      "Tapping the mat repeatedly if unable to reach partner",
+      "Any verbal distress signal or going limp (treat as immediate tap)"
+    ],
+    "release_protocol": [
+      "Release all grip pressure immediately upon any tap signal",
+      "Monitor partner for 30 seconds after release for delayed signs of unconsciousness",
+      "If partner goes unconscious, release immediately, place in recovery position, elevate legs, and seek medical attention",
+      "Never reapply the choke in the same round after a near-unconsciousness event"
+    ],
+    "training_restrictions": [
+      "Apply pressure gradually and incrementally during drilling, never explosively",
+      "Beginners should drill grip mechanics and positioning without applying finishing pressure until comfortable with the release protocol",
+      "Do not hold the fully locked choke for extended periods even if the partner has not tapped"
+    ]
+  },
+  "variations": [
+    {
+      "name": "from Hindulotine",
+      "slug": "from-hindulotine"
+    }
+  ],
+  "variations_and_setups": [
+    {
+      "variation_name": "Standing Hindulotine",
+      "description": "Applied from a standing clinch or front headlock, the attacker locks the chin strap grip while standing and either finishes standing or pulls guard to complete the choke. The standing version generates additional choking pressure from the opponent's own body weight hanging on the grip.",
+      "when_to_use": "When the opponent shoots a takedown or dips their head in the clinch, exposing the neck for the front headlock entry"
+    },
+    {
+      "variation_name": "Guard Pull Hindulotine",
+      "description": "The attacker secures the Hindulotine grip from front headlock, then sits back to closed or butterfly guard to break the opponent's posture and finish. Pulling guard removes the opponent's base and creates downward leverage through hip extension.",
+      "when_to_use": "When the opponent is defending the standing version by maintaining strong posture and base, making it difficult to finish without pulling them down"
+    },
+    {
+      "variation_name": "Transition from Failed Standard Guillotine",
+      "description": "When a conventional guillotine grip is slipping or the opponent is beginning to posture out, the attacker switches to the chin strap grip configuration mid-exchange. The figure-four grip re-secures the choke with a stronger mechanical advantage than the original clasped-hand grip.",
+      "when_to_use": "When a standard guillotine attempt is failing due to grip fatigue, sweat, or the opponent beginning to strip the grip"
+    }
+  ],
+  "from_positions": [
+    "Hindulotine",
+    "Front Headlock",
+    "Guillotine Control"
+  ],
+  "related_submissions": [
+    {
+      "name": "High Elbow Guillotine",
+      "relationship": "Similar guillotine variation with different grip mechanics for comparison and cross-training"
+    },
+    {
+      "name": "Arm in Guillotine",
+      "relationship": "Alternative guillotine finish when opponent's arm becomes trapped inside the choke"
+    },
+    {
+      "name": "Chin Strap Guillotine",
+      "relationship": "Related chin strap grip technique with similar finishing mechanics"
+    },
+    {
+      "name": "Anaconda Choke",
+      "relationship": "Chain submission when opponent tucks chin and turns to defend the Hindulotine"
+    },
+    {
+      "name": "Darce Choke",
+      "relationship": "Chain submission when opponent exposes far arm while defending"
+    },
+    {
+      "name": "Brabo Choke",
+      "relationship": "Related front headlock choke with gi-specific grip variation"
+    },
+    {
+      "name": "Guillotine Choke",
+      "relationship": "Parent technique from which the Hindulotine variation derives"
+    }
+  ],
+  "related_content": [
+    {
+      "name": "Hindulotine",
+      "relationship": "Primary control position for Hindulotine setup and finishing"
+    },
+    {
+      "name": "Front Headlock",
+      "relationship": "Alternative entry position and fallback when grip is lost"
+    },
+    {
+      "name": "Hindulotine to Anaconda Choke",
+      "relationship": "Chain submission transition when opponent defends by tucking chin"
+    },
+    {
+      "name": "Hindulotine to Darce Choke",
+      "relationship": "Alternative finish transition when opponent exposes the far arm defending"
+    },
+    {
+      "name": "Hindulotine from Hindulotine",
+      "relationship": "Primary finishing submission from Hindulotine control"
+    },
+    {
+      "name": "High Elbow Guillotine",
+      "relationship": "Similar guillotine variation for grip comparison and cross-training"
+    }
+  ]
+}

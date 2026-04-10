@@ -3,24 +3,33 @@
 
 
 ---
-title: "Darce Choke | BJJ Submission | BJJ Graph"
-description: "Master the Darce Choke in BJJ. Complete guide with safety protocols, setup requirements, execution steps, and variations. Success rates: 35%-55%-70%."
+title: "Darce Choke | BJJ Submission Family | BJJ Graph"
+description: "Master the Darce Choke in BJJ. Complete guide covering setup requirements, finishing mechanics, safety protocols, and defensive strategies from multiple positions."
 ---
 
 
-<body data-content-type="submissions-hub">
+<body data-content-type="submissions-family">
 
 > **SAFETY**: Darce Choke targets the Carotid arteries and trachea. Risk: Carotid artery compression leading to unconsciousness. Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
-<div class="role-links">
 
-[[Darce Choke/Attacker|Play as Attacker]]
-[[Darce Choke/Defender|Play as Defender]]
+<section id="variants" class="content-section">
 
-</div>
+## Position Variants
+
+| From Position | Success Rate | Top Injury Risk | Key Difference |
+|---------------|-------------|-----------------|----------------|
+| [[Darce Choke/from Darce Control|Darce Control]] | 62% | Carotid artery compression leading to unconsciousness |  |
+| [[Darce Choke/from Leg Drag|Leg Drag Control]] | 45% | Loss of consciousness from bilateral carotid compression |  |
+| [[Darce Choke/from Overhook Control|Overhook Control]] | 62% | Carotid artery compression leading to unconsciousness |  |
+| [[Darce Choke/from Twister Side Control|Twister Side Control]] | 62% | Carotid artery compression leading to unconsciousness |  |
+
+
+</section>
+
 
 <section id="overview" class="content-section">
 
@@ -31,9 +40,7 @@ The Darce's effectiveness stems from its applicability across multiple positions
 **Category**: Choke
 **Type**: Blood Choke
 **Target Area**: Carotid arteries and trachea
-**Starting Position**: [[Positions/Front Headlock]]
-**From Position**: [[Positions/Darce Control]] (Top)
-**Success Rate**: 62%
+**Success Rate**: 62% (average across variants)
 
 </section>
 
@@ -81,149 +88,16 @@ The Darce's effectiveness stems from its applicability across multiple positions
 
 </section>
 
-<section id="outcomes" class="content-section">
 
-## Outcomes
+<section id="variation-details" class="content-section hide-minimal">
 
-| Result | Position | Probability |
-|--------|----------|-------------|
-| Success | [[game-over]] | 50% |
-| Failure | [[Positions/Darce Control]] | 30% |
-| Counter | [[Positions/Half Guard]] | 20% |
-
-
-</section>
-
-<section class="content-section">
-
-## Attacker vs Defender
-
-| &nbsp; | Attacker | Defender |
-|--------|----------|----------|
-| **Focus** | Execute and finish | Escape and survive |
-| **Key Principles** | Shoulder pressure creates compression on near-side carotid a... | Keep elbows tight to your body to eliminate the arm-neck gap... |
-| **Options** | 6 execution steps | 4 defensive options |
-
-</section>
-
-<section id="attacker-summary" class="content-section">
-
-## Playing as Attacker
-
-[[Darce Choke/Attacker|→ Full Attacker Guide]]
-
-### Key Principles
-
-
-- Shoulder pressure creates compression on near-side carotid artery
-
-- Forearm blade compresses far-side carotid artery
-
-- Figure-four grip locks the choking mechanism in place
-
-- Head control prevents opponent from turning into the choke
-
-- Hip pressure prevents opponent from rolling away
-
-- Elbow positioning determines effectiveness—tight to ribs maximizes pressure
-
-- Bilateral compression is more effective than single-side pressure
-
-
-### Execution Steps
-
-
-- **Secure front headlock position**: Establish front headlock control with your head on the opponent's back and your chest heavy on their...
-
-- **Thread choking arm under near armpit**: Slide your choking arm (the arm on the same side as their trapped arm) deep under their near armpit,...
-
-- **Secure hand position around far side of neck**: Once your arm is threaded through, reach your hand around the far side of their neck, creating a bla...
-
-- **Lock figure-four grip**: Reach your free hand behind opponent's shoulder blade and grasp your choking hand's wrist or grab yo...
-
-- **Establish optimal body positioning**: Step your inside leg (the leg closest to opponent's head) over their back or position it as a base. ...
-
-- **Finish the choke with combined pressure**: Drive your shoulder down and forward into the near side of their neck while pulling your choking arm...
-
-
-### Common Mistakes
-
-
-- **Applying choke with only forearm pressure (no shoulder involvement)**
-  - Consequence: Incomplete carotid compression leads to failed submission and opponent escapes
-  - Correction: Drive your shoulder down and forward into near side of neck while maintaining forearm pressure on far side—bilateral compression is essential
-
-- **Choking arm elbow away from ribs (creating space)**
-  - Consequence: Opponent can pull their head out or turn into you, escaping the submission
-  - Correction: Keep choking elbow pinned tight to your ribcage throughout entire sequence—imagine holding a $100 bill between your elbow and ribs
-
-- **Threading arm without maintaining head control**
-  - Consequence: Opponent stands up, turns in, or escapes before choke is locked
-  - Correction: Maintain heavy chest pressure on shoulders and crossface control throughout threading motion—never let opponent's head come up
-
-
-</section>
-
-<section id="defender-summary" class="content-section">
-
-## Playing as Defender
-
-[[Darce Choke/Defender|→ Full Defender Guide]]
-
-### Key Principles
-
-
-- Keep elbows tight to your body to eliminate the arm-neck gap the Darce requires for entry
-
-- Tuck chin to chest and maintain rounded posture to protect carotid arteries and prevent neck extension
-
-- Fight the choking arm at the wrist or elbow during the threading phase—this is your highest-percentage defense window
-
-- Turn toward the attacker (face them) to relieve far-side carotid compression and create space to extract your head
-
-- Never allow your posture to be broken with head below hips—this is the position that makes the Darce most dangerous
-
-- If the grip is locked, immediately work to stand or posture up to change the angle and reduce shoulder pressure on the near-side carotid
-
-
-### Recognition Cues
-
-
-- Opponent's arm threading under your near armpit while they have front headlock or turtle top control—you feel their forearm sliding across the back of your neck
-
-- Increasing shoulder pressure on one side of your neck combined with a forearm blade sensation on the opposite side—indicates the bilateral compression structure is being established
-
-- Opponent's hands working behind your shoulder blade area while maintaining heavy chest pressure on your upper back—they are attempting to lock the figure-four grip
-
-- Opponent angling their hips away from your head while maintaining chest contact—this body repositioning creates the finishing leverage for the darce
-
-- Loss of mobility in your near arm combined with tightening pressure around your neck—your arm is being trapped against your own neck as part of the choking structure
-
-
-### Escape Paths
-
-
-- Turn into attacker during threading phase, fight to face them, recover to half guard or closed guard through hip escape and knee insertion
-
-- Posture up and stand before figure-four locks, breaking the positional control needed for finishing mechanics
-
-- Extract trapped arm by pulling elbow tight to ribs and circling away from the choking arm, then recover guard position
-
-- Roll through toward choking arm side to invert the angle and relieve compression, scramble to recover guard
-
-
-</section>
-
-
-<section id="variations" class="content-section hide-minimal">
-
-## Variations
+## Variation Details
 
 
 **Darce from Turtle Top**: When opponent is in turtle position, establish front headlock control, isolate their near arm against your body, thread your choking arm deep through the neck-shoulder gap, secure figure-four grip, and roll to your side to finish with perpendicular angle. (When to use: Opponent turtles up after takedown defense, guard pass, or scramble situation. Most common Darce variation in no-gi grappling.)
 
 
-**Darce from Failed Single Leg**: Opponent shoots single leg, you sprawl and circle to front headlock, then darce as they defend the guillotine by pulling their head out and looking away, creating the arm-neck configuration. (When to use: Excellent counter to wrestling-based attacks—as they defend guillotine by looking away, they create perfect darce angle)
+**Darce from Failed Single Leg**: Opponent shoots single leg, you sprawl and circle to front headlock, then darce as they defend the guillotine by pulling their head out and looking away, creating the arm-neck configuration. (When to use: Excellent counter to wrestling-based attacks—as they defend guillotine by looking away, they create perfect darce angle.)
 
 
 **Darce from Half Guard Top**: When opponent has you in half guard, establish cross-face control, thread choking arm through neck-shoulder gap on their far side, secure figure-four, and finish by creating angle while maintaining top position or rolling to side. (When to use: Passing half guard when opponent keeps their head low; opponent attempts deep half guard entry; transitioning from knee slice pass.)
@@ -232,7 +106,7 @@ The Darce's effectiveness stems from its applicability across multiple positions
 **Standing Darce**: Apply Darce mechanics from standing front headlock position. Secure the grip while standing, then either drop to guard while maintaining control or take opponent to ground before finishing with body weight through the choke. (When to use: Opponent shoots failed takedown; front headlock from standing clinch; defensive counter to single or double leg attempts.)
 
 
-**Darce to Anaconda Transition**: If opponent defends darce by turning into you, maintain grip but switch to anaconda configuration by adjusting shoulder and elbow position to attack from the new angle their defense created. (When to use: When opponent successfully turns into the darce—rather than losing position, flow to the related anaconda choke finish)
+**Darce to Anaconda Transition**: If opponent defends darce by turning into you, maintain grip but switch to anaconda configuration by adjusting shoulder and elbow position to attack from the new angle their defense created. (When to use: When opponent successfully turns into the darce—rather than losing position, flow to the related anaconda choke finish.)
 
 
 **Marce (Reverse Darce)**: Similar mechanics to standard Darce but executed from the opposite side. Thread your arm from the far side of opponent's neck rather than the near side. Often available when opponent defends standard Darce by controlling their near arm. (When to use: Standard Darce is blocked due to opponent defending their near arm; front headlock position with control of opponent's far arm instead of near arm.)
@@ -257,7 +131,6 @@ The Darce's effectiveness stems from its applicability across multiple positions
 - [[Positions/Side Control]]
 - [[Positions/North-South]]
 - [[Positions/Half Guard]]
-- [[Positions/Scramble Position]]
 - [[Positions/Darce Control]]
 
 
@@ -267,14 +140,14 @@ The Darce's effectiveness stems from its applicability across multiple positions
 
 ## Related Submissions
 
-- [[Transitions/Anaconda Choke]]
-- [[Transitions/Guillotine Choke]]
-- [[Transitions/Arm Triangle]]
-- [[Submissions/Brabo Choke]]
-- [[Submissions/Arm in Guillotine]]
-- [[Submissions/Ezekiel Choke]]
-- [[Submissions/Japanese Necktie]]
-- [[Submissions/Peruvian Necktie]]
+- [[Transitions/Anaconda Choke]] - Closely related front headlock choke—opponent defending darce by turning in opens anaconda, and vice versa
+- [[Transitions/Guillotine Choke]] - Fellow front headlock submission—guillotine defense often creates darce openings as opponent turns away from the neck attack
+- [[Transitions/Arm Triangle]] - Related arm-triangle family choke sharing similar bilateral compression mechanics targeting the carotid arteries
+- [[Submissions/Brabo Choke]] - Gi variation of the darce using lapel threading for the same compression angle from side control
+- [[Submissions/Arm in Guillotine]] - Alternative front headlock finish when darce entry is blocked but arm-in grip remains available
+- [[Submissions/Ezekiel Choke]] - Alternative choke from similar control positions when darce figure-four grip cannot be secured
+- [[Positions/Hindulotine]] - Hybrid front headlock submission sharing positional entries and control mechanics with the darce system
+- [[Submissions/High Elbow Guillotine]] - Front headlock choke variant—failed high elbow guillotine attempts frequently create darce entry opportunities
 
 
 </section>
@@ -284,13 +157,13 @@ The Darce's effectiveness stems from its applicability across multiple positions
 ## Additional Related Content
 
 - [[Positions/Front Headlock]] - Primary position for darce entries—mastering front headlock control essential for high-percentage darce setups
-- [[Transitions/Darce Setup]] - Transition technique covering optimal entries and timing for darce choke from various positions
-- [[Transitions/Darce from Turtle]] - Specific transition for most common darce entry point when opponent defensively turtles
-- [[Transitions/Anaconda Choke]] - Closely related front headlock choke—opponent defending darce by turning in opens anaconda, and vice versa
 - [[Positions/Darce Control]] - Position page covering control mechanics and maintenance of darce position before finishing
 - [[Positions/Anaconda Control]] - Related control position—understanding anaconda mechanics improves darce understanding and vice versa
 - [[Positions/Turtle]] - Common attacking position where darce opportunities frequently arise from opponent's defensive posture
 - [[Positions/Half Guard]] - Darce opportunities arise during half guard passing when opponent keeps head low or attempts underhook
+- [[Positions/Side Control]] - Brabo and darce variations accessible from top side control when opponent frames or turns in incorrectly
+- [[Positions/North-South]] - Transitional position where darce grip can be established during north-south movement and transitions
+- [[Positions/Guillotine Control]] - Related control position—guillotine defenses frequently create the arm-neck gap needed for darce entry
 
 
 </section>
