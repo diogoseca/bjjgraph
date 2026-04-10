@@ -9,64 +9,14 @@ const TrainingDashboard: QuartzComponent = ({ fileData, displayClass }: QuartzCo
 
   return (
     <div id="training-dashboard" class={classNames(displayClass, "training-dashboard")}>
-      {/* Daily Goals */}
-      <div class="training-goals" id="training-goals">
-        <div class="training-goal">
-          <div class="training-goal-header">
-            <span class="training-goal-label">New Techniques</span>
-            <span class="training-goal-progress" id="training-learn-progress">
-              0/3
-            </span>
-          </div>
-          <div class="training-goal-bar">
-            <div class="training-goal-fill" id="training-learn-fill"></div>
-          </div>
-        </div>
-        <div class="training-goal">
-          <div class="training-goal-header">
-            <span class="training-goal-label">Reviews</span>
-            <span class="training-goal-progress" id="training-review-progress">
-              0/10
-            </span>
-          </div>
-          <div class="training-goal-bar">
-            <div class="training-goal-fill" id="training-review-fill"></div>
-          </div>
-        </div>
-      </div>
+      {/* Completion Banner */}
+      <div
+        class="training-completion-banner"
+        id="training-completion-banner"
+        style={{ display: "none" }}
+      ></div>
 
-      <div class="training-summary">
-        <div class="training-stat">
-          <span class="training-stat-value" id="training-due-count">
-            0
-          </span>
-          <span class="training-stat-label">Due Today</span>
-        </div>
-        <div class="training-stat">
-          <span class="training-stat-value" id="training-upcoming-count">
-            0
-          </span>
-          <span class="training-stat-label">Upcoming</span>
-        </div>
-        <div class="training-stat">
-          <span class="training-stat-value" id="training-mastered-count">
-            0
-          </span>
-          <span class="training-stat-label">Mastered</span>
-        </div>
-      </div>
-
-      {/* Coverage */}
-      <div class="training-section" id="training-coverage-section">
-        <h3>Coverage</h3>
-        <div class="training-coverage" id="training-coverage"></div>
-      </div>
-
-      <div class="training-section" id="training-due-section">
-        <h3>Due for Review</h3>
-        <div class="training-cards-list" id="training-due-list"></div>
-      </div>
-
+      {/* Flashcard Area (hidden until training) */}
       <div class="training-flashcard-area" id="training-flashcard-area" style={{ display: "none" }}>
         <div class="flashcard" id="training-flashcard">
           <div class="flashcard-label" id="training-flashcard-label">
@@ -93,24 +43,52 @@ const TrainingDashboard: QuartzComponent = ({ fileData, displayClass }: QuartzCo
         </div>
       </div>
 
-      {/* Timeline / Memorized Moves */}
-      <div class="training-section" id="training-timeline-section">
-        <h3>Your Journey</h3>
-        <div class="training-timeline" id="training-timeline"></div>
+      {/* Auth Prompt (shown for unauthenticated users) */}
+      <div id="training-auth-prompt"></div>
+
+      {/* Today's Session */}
+      <div class="training-section" id="training-session-section">
+        <h3 id="training-session-header">Today's Session</h3>
+        <div class="training-goals" id="training-goals">
+          <div class="training-goal">
+            <div class="training-goal-header">
+              <span class="training-goal-progress" id="training-daily-progress">
+                0/30
+              </span>
+              <span
+                class="training-streak-display"
+                id="training-streak-display"
+                title="Consecutive days with at least one review"
+              ></span>
+            </div>
+            <div class="training-goal-bar">
+              <div class="training-goal-fill" id="training-daily-fill"></div>
+            </div>
+          </div>
+        </div>
+        <div class="training-session-btn-area" id="training-session-btn-area"></div>
       </div>
 
-      <div class="training-section" id="training-upcoming-section">
-        <h3>Upcoming</h3>
-        <div class="training-cards-list" id="training-upcoming-list"></div>
+      {/* Known Techniques */}
+      <div class="training-section" id="training-known-section">
+        <h3
+          id="training-known-header"
+          title="Techniques you're actively studying with spaced repetition"
+        >
+          Known Techniques
+        </h3>
+        <div id="training-known-list"></div>
       </div>
 
-      <div class="training-section" id="training-mastered-section">
-        <h3>Mastered</h3>
-        <div class="training-cards-list" id="training-mastered-list"></div>
-      </div>
-
-      <div class="training-section">
-        <h3>Add Technique</h3>
+      {/* Discover */}
+      <div class="training-section" id="training-discover-section">
+        <h3
+          id="training-discover-header"
+          title="Techniques suggested based on your current knowledge graph"
+        >
+          Discover
+        </h3>
+        <div id="training-suggestions"></div>
         <input
           type="text"
           class="training-search-input"
@@ -131,17 +109,56 @@ const TrainingDashboard: QuartzComponent = ({ fileData, displayClass }: QuartzCo
           </button>
         </h3>
         <div class="training-settings" id="training-settings" style={{ display: "none" }}>
-          <div class="training-setting-row">
-            <label for="setting-opponent-on-fail">Opponent attacks when move fails</label>
-            <input type="checkbox" id="setting-opponent-on-fail" />
+          <div class="training-setting-row training-setting-row--game-mode">
+            <label title="Controls dice rolls and difficulty when browsing technique pages">
+              Game Mode
+            </label>
+            <div class="game-mode-selector" id="game-mode-selector">
+              <button class="game-mode-btn" data-mode="off" title="No dice rolls, pure browsing">
+                Off
+              </button>
+              <button
+                class="game-mode-btn"
+                data-mode="normal"
+                title="Dice rolls with mastery bonus"
+              >
+                Normal
+              </button>
+              <button
+                class="game-mode-btn game-mode-btn--locked"
+                data-mode="hard"
+                title="Coming soon"
+                disabled
+              >
+                Hard &#x1F512;
+              </button>
+              <button
+                class="game-mode-btn game-mode-btn--locked"
+                data-mode="ultra"
+                title="Coming soon"
+                disabled
+              >
+                Ultra &#x1F512;
+              </button>
+            </div>
           </div>
           <div class="training-setting-row">
-            <label for="setting-daily-learn">Daily new technique goal</label>
-            <input type="number" id="setting-daily-learn" min="1" max="20" />
+            <label
+              for="setting-daily-goal"
+              title="How many techniques to review and learn each day"
+            >
+              Daily goal (techniques)
+            </label>
+            <input type="number" id="setting-daily-goal" min="1" max="100" />
           </div>
           <div class="training-setting-row">
-            <label for="setting-daily-review">Daily review goal</label>
-            <input type="number" id="setting-daily-review" min="1" max="50" />
+            <label
+              for="setting-show-flashcards"
+              title="Show a knowledge quiz on technique pages to test your understanding"
+            >
+              Show Flashcards on pages
+            </label>
+            <input type="checkbox" id="setting-show-flashcards" />
           </div>
         </div>
       </div>

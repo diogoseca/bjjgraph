@@ -1,8 +1,16 @@
 // Move Cards - Display available moves on position pages
 // Reads per-page graph data injected at build time (no runtime fetch)
 import { removeAllChildren } from "./util"
-import { loadSettings } from "./settings"
+import { loadSettings, saveSettings } from "./settings"
+import type { GameMode } from "./settings"
 import { findCard } from "./srs"
+import {
+  fetchExplorerTree,
+  getCachedExplorerTree,
+  appendToRollHistory,
+  syncRollToUrl,
+  clearRollHistory,
+} from "./explorerGraphExpand"
 
 interface OpponentTransition {
   technique: string
@@ -24,7 +32,6 @@ interface PositionPageData {
     target: string
     targetPath?: string
     isSubmission: boolean
-    submissionSlug?: string
     successRate: number
   }>
   defenses: Array<{
@@ -99,6 +106,7 @@ function setVote(positionSlug: string, technique: string, adjustedRate: number, 
     votes[positionSlug][technique] = Math.round(adjustedRate)
   }
   localStorage.setItem("bjj-move-votes", JSON.stringify(votes))
+  import("./supabase").then((m) => m.syncAfterWrite()).catch(() => {})
 }
 
 function nudgeRate(current: number, direction: "up" | "down"): number {
@@ -118,6 +126,23 @@ function getPageData(): PositionPageData | null {
 }
 
 document.addEventListener("nav", () => {
+  // Clear roll history if user navigated away from game flow (e.g., clicked explorer link)
+  const path = window.location.pathname.toLowerCase()
+  const inGameFlow =
+    (path.includes("/positions/") && (path.endsWith("/top") || path.endsWith("/bottom"))) ||
+    (path.includes("/transitions/") &&
+      (path.endsWith("/attacker") || path.endsWith("/defender"))) ||
+    (path.includes("/submissions/") &&
+      (path.endsWith("/attacker") || path.endsWith("/defender"))) ||
+    path.endsWith("/game-over")
+  if (!inGameFlow) {
+    clearRollHistory()
+  }
+  syncRollToUrl()
+
+  // Pre-fetch explorer tree data so it's cached for synchronous dice roll lookups
+  fetchExplorerTree().catch(() => {})
+
   const container = document.getElementById("move-cards")
   if (!container) return
 
@@ -143,6 +168,60 @@ document.addEventListener("nav", () => {
 
   removeAllChildren(container)
 
+  let gameMode = loadSettings().gameMode
+
+  // Game mode picker in header
+  const modeLabel = document.getElementById("game-mode-label")
+  const modePicker = document.getElementById("game-mode-picker")
+  const modeDropdown = document.getElementById("game-mode-dropdown")
+
+  function updateModeLabel() {
+    if (!modeLabel) return
+    modeLabel.textContent = `AI: ${gameMode}`
+  }
+  updateModeLabel()
+
+  if (modePicker && modeDropdown) {
+    // Mark active option
+    const markActive = () => {
+      modeDropdown.querySelectorAll(".game-mode-option").forEach((btn) => {
+        btn.classList.toggle("active", (btn as HTMLElement).dataset.mode === gameMode)
+      })
+    }
+    markActive()
+
+    // Toggle dropdown on label click
+    modeLabel?.addEventListener("click", (e) => {
+      e.stopPropagation()
+      modePicker.classList.toggle("open")
+    })
+
+    // Option clicks
+    modeDropdown.querySelectorAll(".game-mode-option:not(.game-mode-option--locked)").forEach(
+      (btn) => {
+        btn.addEventListener("click", (e) => {
+          e.stopPropagation()
+          const mode = (btn as HTMLElement).dataset.mode as GameMode
+          if (!mode) return
+          gameMode = mode
+          const settings = loadSettings()
+          settings.gameMode = mode
+          saveSettings(settings)
+          updateModeLabel()
+          markActive()
+          modePicker.classList.remove("open")
+          // Re-render cards with new mode
+          window.spaNavigate(new URL(window.location.toString()), false)
+        })
+      },
+    )
+
+    // Close dropdown when clicking outside
+    const closeDropdown = () => modePicker.classList.remove("open")
+    document.addEventListener("click", closeDropdown)
+    window.addCleanup(() => document.removeEventListener("click", closeDropdown))
+  }
+
   // Compute mastery modifier: +3% per mastered technique, cap +15%
   let masteredCount = 0
   for (const t of positionData.transitions) {
@@ -151,8 +230,8 @@ document.addEventListener("nav", () => {
   }
   currentModifier = Math.min(masteredCount * 3, 15)
 
-  // Show mastery modifier banner if active
-  if (currentModifier > 0) {
+  // Show mastery modifier banner if active (only in game modes with dice)
+  if (currentModifier > 0 && gameMode !== "off") {
     const banner = document.createElement("div")
     banner.className = "mastery-modifier-banner"
     banner.innerHTML = `<span class="mastery-modifier-icon">&#10022;</span> +${currentModifier}% mastery bonus <span class="mastery-modifier-detail">(${masteredCount} technique${masteredCount !== 1 ? "s" : ""} mastered)</span>`
@@ -174,7 +253,7 @@ document.addEventListener("nav", () => {
         srsClass = " srs-learning"
       }
     }
-    card.className = `move-card${transition.isSubmission ? " submission" : ""}${srsClass}`
+    card.className = `move-card${transition.isSubmission ? " submission" : ""}${srsClass}${gameMode === "off" ? " move-card--browse" : ""}`
 
     const baseRate = transition.successRate ?? 50
     const rarity = rarityLabels[i]
@@ -205,6 +284,8 @@ document.addEventListener("nav", () => {
     card.setAttribute("tabindex", "0")
     card.setAttribute("role", "button")
 
+    const showDiceUI = gameMode !== "off"
+
     card.innerHTML = `
       <div class="move-card-header">
         <a href="${techniqueUrl}" class="move-card-technique internal" data-no-navigate="true">${transition.technique}</a>
@@ -214,10 +295,10 @@ document.addEventListener("nav", () => {
       <div class="probability-bar">
         <div class="probability-fill" style="width: ${Math.min(successRate + currentModifier, 100)}%"></div>
       </div>
-      <div class="move-card-votes">
+      ${showDiceUI ? `<div class="move-card-votes">
         <button class="vote-btn vote-up" aria-label="Upvote ${transition.technique}" title="Upvote">&#x25B2;</button>
         <button class="vote-btn vote-down" aria-label="Downvote ${transition.technique}" title="Downvote">&#x25BC;</button>
-      </div>
+      </div>` : ""}
     `
 
     // Clicking the technique name navigates to Attacker page (stop card dice roll)
@@ -230,55 +311,65 @@ document.addEventListener("nav", () => {
     card.addEventListener("keydown", (e) => {
       if (e.key === "Enter" || e.key === " ") {
         e.preventDefault()
-        executeTransition(transition, successRate, currentPath)
+        if (gameMode === "off") {
+          window.spaNavigate(new URL(techniqueUrl, window.location.toString()), false)
+        } else {
+          executeTransition(transition, successRate, currentPath, positionData)
+        }
       }
     })
 
-    // Vote button handlers (stop propagation so card click doesn't fire)
-    const upBtn = card.querySelector(".vote-up") as HTMLButtonElement
-    const downBtn = card.querySelector(".vote-down") as HTMLButtonElement
+    // Vote button handlers (only in game modes with dice UI)
+    if (showDiceUI) {
+      const upBtn = card.querySelector(".vote-up") as HTMLButtonElement
+      const downBtn = card.querySelector(".vote-down") as HTMLButtonElement
 
-    let currentRate = successRate
+      let currentRate = successRate
 
-    const updateVoteUI = (newRate: number) => {
-      currentRate = newRate
-      const newNudge = newRate - baseRate
-      setVote(positionSlug, transition.technique, newRate, baseRate)
+      const updateVoteUI = (newRate: number) => {
+        currentRate = newRate
+        const newNudge = newRate - baseRate
+        setVote(positionSlug, transition.technique, newRate, baseRate)
 
-      // Update probability display with inline nudge
-      const probEl = card.querySelector(".move-card-probability") as HTMLElement
-      const nudgeHtml =
-        newNudge !== 0
-          ? ` <span class="vote-nudge ${newNudge > 0 ? "positive" : "negative"}">(${newNudge > 0 ? "+" : ""}${newNudge}%)</span>`
-          : ""
-      probEl.innerHTML = `${newRate}% success${nudgeHtml}`
-      const fillEl = card.querySelector(".probability-fill") as HTMLElement
-      fillEl.style.width = `${newRate}%`
+        // Update probability display with inline nudge
+        const probEl = card.querySelector(".move-card-probability") as HTMLElement
+        const nudgeHtml =
+          newNudge !== 0
+            ? ` <span class="vote-nudge ${newNudge > 0 ? "positive" : "negative"}">(${newNudge > 0 ? "+" : ""}${newNudge}%)</span>`
+            : ""
+        probEl.innerHTML = `${newRate}% success${nudgeHtml}`
+        const fillEl = card.querySelector(".probability-fill") as HTMLElement
+        fillEl.style.width = `${newRate}%`
 
-      // Send PostHog event
-      const posthog = (window as any).posthog
-      if (posthog?.capture) {
-        posthog.capture("move_vote", {
-          technique: transition.technique,
-          base_rate: baseRate,
-          adjusted_rate: newRate,
-          position: positionSlug,
-        })
+        // Send PostHog event
+        const posthog = (window as any).posthog
+        if (posthog?.capture) {
+          posthog.capture("move_vote", {
+            technique: transition.technique,
+            base_rate: baseRate,
+            adjusted_rate: newRate,
+            position: positionSlug,
+          })
+        }
       }
+
+      upBtn.addEventListener("click", (e) => {
+        e.stopPropagation()
+        updateVoteUI(nudgeRate(currentRate, "up"))
+      })
+
+      downBtn.addEventListener("click", (e) => {
+        e.stopPropagation()
+        updateVoteUI(nudgeRate(currentRate, "down"))
+      })
     }
 
-    upBtn.addEventListener("click", (e) => {
-      e.stopPropagation()
-      updateVoteUI(nudgeRate(currentRate, "up"))
-    })
-
-    downBtn.addEventListener("click", (e) => {
-      e.stopPropagation()
-      updateVoteUI(nudgeRate(currentRate, "down"))
-    })
-
     card.addEventListener("click", () => {
-      executeTransition(transition, successRate, currentPath, positionData)
+      if (gameMode === "off") {
+        window.spaNavigate(new URL(techniqueUrl, window.location.toString()), false)
+      } else {
+        executeTransition(transition, successRate, currentPath, positionData)
+      }
     })
 
     container.appendChild(card)
@@ -440,7 +531,6 @@ function executeTransition(
     target: string
     targetPath?: string
     isSubmission?: boolean
-    submissionSlug?: string
   },
   successRate: number,
   fromPath: string,
@@ -460,12 +550,19 @@ function executeTransition(
     action: "dice-roll",
   })
 
+  // Append technique to roll history (synchronous from pre-fetched cache)
+  const cached = getCachedExplorerTree()
+  if (cached) {
+    const tech = cached.techniques[transition.target]
+    if (tech?.id) appendToRollHistory(tech.id)
+  }
+
   if (success) {
     // Build target URL
     let targetUrl: string
 
-    if (transition.isSubmission && transition.submissionSlug) {
-      targetUrl = `/Submissions/${transition.targetPath ?? transition.submissionSlug}/Attacker`
+    if (transition.isSubmission) {
+      targetUrl = `/Submissions/${transition.targetPath ?? transition.target}/Attacker`
     } else {
       targetUrl = `/Transitions/${transition.targetPath ?? transition.target}/Attacker`
     }
@@ -493,10 +590,10 @@ function executeTransition(
       })
     }
 
-    // Trigger opponent turn if enabled
+    // Trigger opponent turn if game mode supports it
     if (positionData) {
       const settings = loadSettings()
-      if (settings.opponentOnFail) {
+      if (settings.gameMode === "normal") {
         triggerOpponentTurn(positionData, fromPath)
       }
     }

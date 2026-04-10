@@ -1,5 +1,5 @@
 // Spaced Repetition System (SM-2) — shared utility module
-// localStorage-based, no backend required
+// localStorage-based with optional Supabase cloud sync
 
 export interface SRSCard {
   technique: string // e.g. "Armbar from Mount"
@@ -11,6 +11,7 @@ export interface SRSCard {
   repetitions: number // consecutive correct reviews
   lastReview: string // ISO date
   history: Array<{ date: string; rating: "again" | "hard" | "easy" }>
+  questionsMastered: number[] // indices of questions answered correctly (Hard/Easy)
 }
 
 const STORAGE_KEY = "bjj-srs-cards"
@@ -27,7 +28,12 @@ function addDays(dateStr: string, days: number): string {
 
 export function loadSRSCards(): SRSCard[] {
   try {
-    return JSON.parse(localStorage.getItem(STORAGE_KEY) || "[]")
+    const cards = JSON.parse(localStorage.getItem(STORAGE_KEY) || "[]") as SRSCard[]
+    // Migration: ensure questionsMastered exists on all cards
+    for (const card of cards) {
+      if (!card.questionsMastered) card.questionsMastered = []
+    }
+    return cards
   } catch {
     return []
   }
@@ -35,6 +41,7 @@ export function loadSRSCards(): SRSCard[] {
 
 export function saveSRSCards(cards: SRSCard[]) {
   localStorage.setItem(STORAGE_KEY, JSON.stringify(cards))
+  import("./supabase").then((m) => m.syncAfterWrite()).catch(() => {})
 }
 
 export function findCard(technique: string): SRSCard | undefined {
@@ -60,6 +67,7 @@ export function addCard(
     repetitions: 0,
     lastReview: today(),
     history: [],
+    questionsMastered: [],
   }
   cards.push(card)
   saveSRSCards(cards)
@@ -108,6 +116,17 @@ export function getUpcomingCards(): SRSCard[] {
 
 export function getMasteredCards(): SRSCard[] {
   return loadSRSCards().filter((c) => c.repetitions >= 5 && c.easeFactor >= 2.5)
+}
+
+export function masterQuestion(technique: string, questionIndex: number) {
+  const cards = loadSRSCards()
+  const card = cards.find((c) => c.technique === technique)
+  if (!card) return
+  if (!card.questionsMastered) card.questionsMastered = []
+  if (!card.questionsMastered.includes(questionIndex)) {
+    card.questionsMastered.push(questionIndex)
+    saveSRSCards(cards)
+  }
 }
 
 export function removeCard(technique: string) {

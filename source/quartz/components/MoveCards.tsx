@@ -20,7 +20,22 @@ const MoveCards: QuartzComponent = ({ fileData, displayClass }: QuartzComponentP
 
   return (
     <div class={classNames(displayClass, "move-cards-container")}>
-      <h3 class="move-cards-title">Your Moves</h3>
+      <h3 class="move-cards-title">
+        Your Moves
+        <span class="game-mode-picker" id="game-mode-picker">
+          <span class="game-mode-label" id="game-mode-label"></span>
+          <div class="game-mode-dropdown" id="game-mode-dropdown">
+            <button class="game-mode-option" data-mode="off">Off</button>
+            <button class="game-mode-option" data-mode="normal">Normal</button>
+            <button class="game-mode-option game-mode-option--locked" data-mode="hard" disabled>
+              Hard &#x1F512;
+            </button>
+            <button class="game-mode-option game-mode-option--locked" data-mode="ultra" disabled>
+              Ultra &#x1F512;
+            </button>
+          </div>
+        </span>
+      </h3>
       <div class="move-cards" id="move-cards">
         {/* Cards populated by JavaScript from inline state-data */}
       </div>
